@@ -112,8 +112,6 @@ If the candidate submits the form, all the CES team members will receive an emai
 #### ModernLoop
 
 Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zendesk.com/hc/en-us/articles/18013814809236-ModernLoop-Chrome-Extension) installed on your Chrome Browser.
-
-
 #### If a Candidate Withdraws from the Hiring Process
 
 If a candidate emails the CES Service Desk stating they would like to withdraw from the interview process, the CES should respond to the candidate's email (not the Service Desk ticket) and cc the recruiter (if the recruiter isn't already on the email). The CES response should not say anything definite as there may be a chance for the recruiter to reel the candidate back in. A basic response is below:
@@ -299,7 +297,6 @@ This chart reflects the available signatories for each of GitLab's entities. The
 
 
 The [Candidate Experience Specialists](/job-families/people-group/candidate-experience) will prepare the contract. While the Candidate Experience Specialist will prioritize a contract above other tasks, the expected turn around on the task is 1 business day. If the contract is time-sensitive, please provide context for the rush. If the Candidate Experience Specialist cannot meet the 1 business day they will inform the recruiter and CES manager via Greenhouse and will provide context.
-
 Recruiters should make themselves familiar with the basic knowledge of the contract processes that can be found on the [Contracts, Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/) page, as well as the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
 1. Check all aspects of the offer:
@@ -687,7 +684,7 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
 A contractor conversion is when a GitLab contractor is moving into a permanent position. Recruiters should communicate to their CES partner that a candidate is going through a contractor conversion process. You can confirm this by checking that the "source" says Contractor Conversion, which will show up on the requisition. CES team members will follow the same steps as a regular contract, however there are a few nuances to note:
 
 1. **Reference Check Forms:** You will need to ensure the candidate has completed the reference check form. You may need to remind recruiters that this is required when contractors transition to a permanent position. The candidate does not need to provide references again however, they will need to disclose outside work and PIAA.
-1. **Start Dates:** You may find that start dates with contractor conversions have quicker turnaround times so there are no gaps between a contract end date and a new hires' start date (i.e. a request to start in less than 10 business days, or to start on a non-start date). Please continue to follow the [Hiring SLA Exception](/handbook/hiring/talent-acquisition-framework/coordinator/#send-contract) workflow to gain People Connect's approval in these instances and indicate that this is a contractor conversion.
+1. **Start Dates:** You may find that start dates with contractor conversions have quicker turnaround times so there are no gaps between a contract end date and a new hires' start date (i.e. a request to start in less than 10 business days, or to start on a non-start date).
 1. **Background Checks:** Please check with the Senior Background Check Specialist in the [backgroundchecks-ces](https://gitlab.enterprise.slack.com/archives/C05ATK8B4V9) Slack channel to confirm if you need to initiate a new background check. If there is no gap between the contract and the permanent position, you may not need to initiate a new background check.
 1. **Mark as Hired:** After you mark a candidate as hired in Greenhouse, you will need to leave a comment notifying People Connect in the [peopleops-alerts](https://gitlab.enterprise.slack.com/archives/CLTBQ9XC7) Slack channel that it is a contractor conversion.
 1. **Laptop/IT:** For all contractor conversions, CES will need to confirm with IT Ops via the [people-connect_CES](https://gitlab.enterprise.slack.com/archives/GJT1K944Q) Slack channel whether the candidate will need a new laptop or not.
@@ -790,7 +787,7 @@ To create the contract:
 1. CXC will inform the Candidate Experience Specialist when the contract is signed.
 1. The Candidate Experience Specialist will mark the candidate as hired.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
-1. The Candidate Experience Specialist will now [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
+1. The Candidate Experience Specialist will now mark the candidate as hired.
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Expansion (GX)
 
@@ -905,7 +902,7 @@ To create the contract:
 1. CES will send PEO template and sign once it is received in their inbox.
 1. Once PEO template is signed, CES can upload candidate into the Remote.com platform (see more details instructions on how to do so, below).
 1. Remote will prepare the New Employee Contract and will inform the Candidate Experience Specialist when the contract is sgined.
-1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
+1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and mark the candidate as hired.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 
 ## How to add the New Hire to the Remote platform
@@ -1018,7 +1015,7 @@ There are a handful of countries, listed [here](/handbook/it/end-user-services/o
 1. The PEO will inform the Candidate Experience Specialist when the contract is signed.
 1. The Candidate Experience Specialist will mark the candidate as hired.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
-1. The Candidate Experience Specialist will now [mark the candidate as hired](coordinator/#send-contract). See steps 10-12.
+1. The Candidate Experience Specialist will now mark the candidate as hired.
 
 **GitLab & CIIC:**
 
