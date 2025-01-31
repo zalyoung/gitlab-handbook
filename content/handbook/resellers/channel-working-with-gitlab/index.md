@@ -120,7 +120,7 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 The Services Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-###### The Operational Process:
+###### The Operational Process
 
 1. Services Attach deal registrations are submitted via the Partner Portal as a deal registration (`Deal Registration Type` = `Services Attach`)
 2. Ecosystem Specialists map the Services Attach Reg to the software opportunity
