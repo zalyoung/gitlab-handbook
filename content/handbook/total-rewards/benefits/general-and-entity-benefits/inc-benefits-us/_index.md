@@ -1011,7 +1011,7 @@ GitLab has partnered with Sofi to offer student loan guidance services, discount
 
 Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation and habe access to a central location for team members to focus on financial well-being, and help navigate their student debt
 
-Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
+Enroll anytime at [SoFi.com/GitLab](https://www.sofi.com/multi/5724403/)
 [GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing). You're eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
 
 ## Team Member Discount Platforms
