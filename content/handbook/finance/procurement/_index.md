@@ -60,7 +60,7 @@ For more information on these requirements and steps, see the [Review Steps, Tim
 
 #### 3. Contracting
 
-All work that is done with a vendor must have a completed contract to be compliant and work may not be started until a contract is in place. Contracts include [NDAs](/handbook/legal/nda/#), Master Service Agreements and Statements of Works. Our legal team assists with this step in the process. Please see the [legal review process](#3a-legal-review-3-to-21-days) for more details.
+All work that is done with a vendor must have a completed contract to be compliant and work may not be started until a contract is in place. Contracts include [NDAs](/handbook/legal/nda/#), Master Service Agreements and Statements of Works. Our legal team assists with this step in the process. Please see the [legal review process](#4a-legal-review-3-to-21-days) for more details.
 
 Additionally, please note that a small number of team members can sign agreements on behalf of GitLab - please see the [Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for more details.
 
