@@ -466,7 +466,7 @@ documentation for their assigned stage.
     For example, writing tutorials and use case-based content, restructuring existing content, working on the information architecture, and so on.
   - Supporting other writers in the stage to contribute to documentation improvements.
 - Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/1067).
-- Apply the relevant `tw-lead` [label](#labels) on documentation improvement MRs that they drive or provide input on. This label allows us to track the improvements that come out of the stage lead process as one of our performance indicators (PIs).
+- Apply the relevant `tw-lead` [label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-lead) to documentation improvement MRs that they drive or provide input on. This label allows us to track the improvements that come out of the stage lead process as one of our performance indicators (PIs).
 - Collaborate with other stage leads on documentation improvements.
 
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
