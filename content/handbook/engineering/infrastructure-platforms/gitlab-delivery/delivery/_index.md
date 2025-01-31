@@ -354,8 +354,6 @@ who was involved in the discussion and decision, and the outcome of the decision
 Comments within the progress thread should highlight the progress achieved, the intermediate steps/results we got, assumptions, discoveries, and blockers we face.
 This approach allows people from the team and outside of the team to build a clear idea and eventually contribute with comments and suggestions.
 
-- Each week, we should provide at least two status updates on Slack: Epics and Issues are our SSOT for the work we are doing.
-
 ### Choosing something to work on
 
 The Delivery group generally has working epics assigned to a [DRI](/handbook/people-group/directly-responsible-individuals/) who is responsible for making sure work is broken down into issues, and appropriate issues are moved onto the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) to keep the project on track. However, anyone is welcome to pick up any tasks from the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) regardless of which project it belongs to.
