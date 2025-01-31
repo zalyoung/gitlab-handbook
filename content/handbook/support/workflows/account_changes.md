@@ -89,7 +89,7 @@ Check the user's activity page:
 
 1. If applicable, add the new email address as a CC to the ticket and ask the user to respond to the ticket from the email address they wish to add.
 1. Once the user has replied to confirm they own the email address, update the email address with `+release`. For example, if the email address is `johndoe@example.com`, then update the email address on the account to `johndoe+release@example.com`.
-    - This can be done with Admin access or [via Chatops](/handbook/support/workflows/chatops/#Update-a-Users-Primary-Email)
+    - This can be done with Admin access or [via Chatops](/handbook/support/workflows/chatops/#user)
 1. Add an [Admin Note](/handbook/support/workflows/admin_note/) to the user's account.
 1. Advise the customer to add the newly released email address again to their primary account.
 1. Consider commenting on [this feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/352514)

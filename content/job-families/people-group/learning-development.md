@@ -241,7 +241,7 @@ The Senior Director, Talent, Development & Management is a [grade 11](/handbook/
 
 ## L&D Performance Indicators
 
-1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding/#exit-survey) related to career development
+1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding/#resignation) related to career development
 1. Increase in 5% each year for the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement/)
 1. Increase in access to career mobility: internal transfers, promotions, job shadows, intern for learning, and professional development
 

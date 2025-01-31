@@ -109,7 +109,7 @@ Please find pages for potential and active applicants below.
 
 {{% details summary="Post a job in Greenhouse" %}}
 
-- [Post an **internal** job](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter-dri-recruiter)
+- [Post an **internal** job](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
 - [Post an **external** job](/handbook/hiring/talent-acquisition-framework/req-creation/#publish-the-job-careers-page--linkedin)
 - [Using Rules](/handbook/hiring/talent-acquisition-framework/req-creation/#using-job-posting-rules-in-greenhouse)
 - [Auto-tags](/handbook/hiring/greenhouse/#auto-tags)

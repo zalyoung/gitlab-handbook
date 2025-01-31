@@ -16,7 +16,7 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 
 [Identify hiring need](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-1hm-identifying-hiring-need)
 
-1. Work with Product Manager as they are [DRI of headcount planning](/handbook/engineering/#headcount-planning), Finance, and Talent Acquisition to [include vacancy in the hiring plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process-dri-hiring-manager).
+1. Work with Product Manager as they are [DRI of headcount planning](/handbook/engineering/#headcount-planning), Finance, and Talent Acquisition to [include vacancy in the hiring plan](https://handbook.gitlab.com/handbook/finance/financial-planning-and-analysis/#hiring-plan-process).
 1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family-dri-hiring-manager)
 
 ### Step 2. Kickoff
@@ -32,7 +32,7 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 
 ### Step 3. Setup job in Greenhouse
 
-1. Work with TA to [open the vacancy in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter-dri-recruiter)
+1. Work with TA to [open the vacancy in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
 1. [Setup scoreboard](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-3hm-setup-scorecard-and-prepare-interview-team)
 1. Publish job ad **internally**. External job ads will be posted from the corresponding Evergreen requisition.
     1. [Optional] Add additional questions to the application, such as number of years of Rails experience, or qualities relevant to your role
