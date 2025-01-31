@@ -326,7 +326,7 @@ check_path_change:
   rules:
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
-    - if: $CI_PROJECT_ID != 42817607
+    - if: $CI_PROJECT_ID != '42817607'
       when: never
     - <<: *is-fork
       when: never
