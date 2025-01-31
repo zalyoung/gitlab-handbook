@@ -1,4 +1,6 @@
-# FinOps Team Handbook
+---
+title: "FinOps Team"
+---
 
 The FinOps team brings experience in both Site Reliability Engineering (SRE) and Software Engineering (SWE), leveraging these skills to optimize the financial operations of our cloud services and data resources. This technical expertise enables us to not only ensure alignment with financial objectives but also drive operational efficiency at scale. Our team’s deep understanding of cloud cost structures, infrastructure, data management, and automation empowers us to manage the full lifecycle of cloud consumption, from cost allocation to detailed reporting and analysis, while maintaining the high standards of reliability and performance expected in modern cloud environments.
 
@@ -31,7 +33,7 @@ We manage a variety of stakeholder relationships across the organization. Each s
 - **Data Teams (PDI & AI):** Collaborate to ensure the data required from our stakeholders is present in the data warehouse. This ensures structure and aligns with both operational and financial reporting needs.
 - **Engineering and Infrastructure:** Work closely with engineering teams to analyze resource utilization and identify cost-saving opportunities in cloud infrastructure.
 
-### Stakeholder Engagement Guidelines:
+### Stakeholder Engagement Guidelines
 
 - **Urgency Requests:** If something requires immediate attention, please tag the relevant person/team in the GitLab issue and include a clear description of the urgency. DMs and ad-hoc requests can lead to duplicated work or missed context.
 - **Self-service:** Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview)
