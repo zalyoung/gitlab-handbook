@@ -18,9 +18,7 @@ As the costs of healthcare increase, Gitlab strives to offer a competitive benef
 
 ### 2025 Open Enrollment
 
-GitLab’s US Benefit Open Enrollment for Calendar Year 2025 will take place from 2024-11-04 through 2024-11-15.
-
-This year is a **passive enrollment**, so no action is needed if you are not making changes to your current benefits or enrolling in a Flexible Spending Account (FSA). **FSA elections do not roll over and you must actively (re)enroll in Flexible Spending Accounts (FSAs) and Dependent Care FSAs each year.** To enroll in an FSA or make changes, log in to PlanSource between Monday, November 4, and Friday, November 15.
+**Completed**: GitLab’s US Benefit Open Enrollment for Calendar Year 2025 took place from 2024-11-04 through 2024-11-15.
 
 Please see additional information on the 2025 US Benefit Plans
 
@@ -34,12 +32,7 @@ Please see additional information on the 2025 US Benefit Plans
 
 ## 2024 Plan Year
 
-GitLab offers a benefits package that provides health and financial security for you and your family.
-
-- Review the [2024 Benefits at Glance](https://drive.google.com/file/d/1TbBefUlpuWpErJ8eEVppZZX_bAoqbT2n/view?usp=sharing) for a high-level Summary of the plans
-- Review the [2024 US Benefits Guide](https://drive.google.com/file/d/1KTgW9U2ByTBHRrjNg623K6DY3-_pKsUD/view?usp=sharing) for full plan details and plan rates. - Candidates and New hires who are about to start with GitLab can view this document by clicking on the link and requesting access, access will be granted shortly after request.
-- Watch the [2024 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zGdz14BY3EzaInCz0&r3f1=&fb=0)
-- Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2022) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing) to walk through the GitLab Cigna plans available.
+To see details of the 2024 Plan Year, please refer to our [archived plans](general-and-entity-benefits/inc-benefits-us/_index.md)
 
 </details>
 
@@ -1082,3 +1075,6 @@ Information regarding GitLab's Parental Leave policy and how to apply, can be fo
 ## State-Specific Allowed Leaves
 
 To learn more about State-specific leave laws, please visit the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
+
+
+[https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/76bffb195bf7cc1623710c167e3e165ffb2adb9c/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md]: https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/76bffb195bf7cc1623710c167e3e165ffb2adb9c/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md
