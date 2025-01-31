@@ -96,6 +96,11 @@ After merging, the manager should:
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
 
+#### Project maintainer process for  `gitlab-rails`
+
+- For Backend Maintaiers, ping to `@gitlab-org/maintainers/rails-backend`
+- For Frontend Maintainers, ping to `@gitlab-org/maintainers/rails-frontend`
+
 #### Project maintainer process for `gitlab-database`
 
 - Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
