@@ -255,6 +255,7 @@ When a candidate requests to meet with a TMRG team member via the Reference Chec
 As a GitLab team member taking part in these calls, we advise you to start with a short introduction to you and your role here at GitLab. From here, we advise you to let the candidate lead the conversation as the goal is for you to answer their questions and offer insight into how we work.
 
 These calls don't require you to submit a scorecard in Greenhouse. If a candidate mentions something that you see as a red flag (e.g. they outline a past action of theirs that goes against our values) or shares something that would help us set them up for success, we advise you to share the details of this with the hiring manager for the role they're interviewing for. It will be the responsibility of the Hiring Manager to review this and decide whether we need to alter the hiring or offer process for the candidate.
+
 ### Send contract
 
 [See Candidate Experience Specialist Contract Processes section of the handbook]({{< ref "ces-contract-processes" >}})
