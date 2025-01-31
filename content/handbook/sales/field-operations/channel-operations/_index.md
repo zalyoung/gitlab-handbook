@@ -683,6 +683,7 @@ Review the steps below to process a Service Attached Registration for an applica
 #### Ecosystem Operations for first review and action
 
 Ecosystem Operatons Team has first action to review and update the registration when `DR-Status` = `Submitted`. They will take the following action:
+
 1. Link / Create Customer account
 2. Link / Create Opportunity
 3. Ensure the linked opportunity does not already have an approved Service Attached registration
