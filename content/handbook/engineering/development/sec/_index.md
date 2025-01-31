@@ -272,6 +272,7 @@ When creating a new project, all settings should be left to the default options,
          - `v*`
       - `Allowed to create`
          - `Maintainers`
+         - [GitLab Dev Service - Secure Stage - Analyzers Automation](https://gitlab.com/gl-service-dev-secure-analyzers-automation)
    - `Settings -> Merge Requests`
       - `Squash commits when merging`
          - `Require`
