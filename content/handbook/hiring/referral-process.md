@@ -14,12 +14,6 @@ description: "While GitLab’s Referral program is fairly straight-forward, ther
 - Someone you’ve previously worked with reaches out about another person they know who has applied, and they recommend them. 
 - An acquaintance or friend of a friend reaches out to you about an open position here and you can’t speak to their character or skillset. 
 
-To endorse a candidate, check who the Recruiter is on the [Internal Job Board](https://gitlab.greenhouse.io/internal_job_board) and contact them via Slack after a candidate has confirmed that they’ve  applied directly. You should include:
-
-- The candidate’s full name and the role they’ve applied to
-- Please provide a description of how you know the candidate and why you think they  are aligned with the role.
-- Confirmation that the person knows you are endorsing them. 
-
 A Referral is **not**
 
 - Someone the Talent Acquisition Team has already sourced, screened, or been in contact with for the same requisition or job family. If you have questions about whether or not someone is already active in an interview process, please reach out to TA in the #talent-acquisition Slack channel.
@@ -28,6 +22,16 @@ A Referral is **not**
 - A former (or “Boomerang”) Team Member.
 - Contract or temporary roles, including Internships, are not eligible for referral bonuses.
   - However, if the Intern is converted to a Team Member for the same/similar role, then the referring Team Member will receive a referral bonus per the [referral bonus guidelines](/handbook/total-rewards/incentives/#referral-bonuses) upon transitioning to the new employment status.
+
+#### After Referring and How to Endorse 
+
+- Your referral's information will be sent directly to the Recruiter and Hiring Manager via email after you refer them in Greenhouse. They will then action your referral within the 5 day SLA. Because we receive a large number of referrals, please don't also slack the hiring team as a notification you've submitted a referral. 
+
+To endorse a candidate, check who the Recruiter is on the [Internal Job Board](https://gitlab.greenhouse.io/internal_job_board) and contact them via Slack after a candidate has confirmed that they’ve  applied directly. You should include:
+
+- The candidate’s full name and the role they’ve applied to
+- Please provide a description of how you know the candidate and why you think they  are aligned with the role.
+- Confirmation that the person knows you are endorsing them. 
 
 #### Expectations of Referrer
 
@@ -60,7 +64,7 @@ A Referral is **not**
   - If your referral applies to an open position 6 months after they were initially referred for a similar role, they will then be classified an “applicant” vs referral. Please stay in touch with your referrals if you want to refer them in the future. 
 - If you’d like to refer someone for an open position with a different job family, you will need to submit a separate referral. 
 - If someone has interviewed for a role with GitLab (and has made it to team interviews) as a referral and is not selected, we recommend waiting 6 months to refer them again so they’re able to build deeper experience and skills related to the role. 
-- **R&D only**: While GitLab hires globally, we apply different “Location Factor” guidelines for each role we recruit for. This geographical compensation approach not only aids in cost reduction but also enables us to tap into a broader spectrum of talent, extending beyond our traditional recruitment areas. While we don’t publicize the Location Factor attributed to the role, your referral could be rejected due to their current location even if we can legally hire in that country.  
+- While GitLab hires globally, we apply different “Location Factor” guidelines for each role we recruit for. This geographical compensation approach not only aids in cost reduction but also enables us to tap into a broader spectrum of talent, extending beyond our traditional recruitment areas. While we don’t publicize the budget or Location Factor attributed to the role, your referral could be rejected due to their current location even if we can legally hire in that country.  
 
 #### Referral Statuses
 
