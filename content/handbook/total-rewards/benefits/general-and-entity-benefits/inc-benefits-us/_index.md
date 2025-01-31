@@ -30,7 +30,6 @@ Please see additional information on the 2025 US Benefit Plans
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
 - See the [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files). These machine readable files are made available in response to the federal Transparency in Coverage Rule and include negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
-
 </details>
 
 <details markdown="1">
