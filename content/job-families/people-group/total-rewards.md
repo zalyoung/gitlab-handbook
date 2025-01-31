@@ -99,11 +99,35 @@ The Benefits Analyst is a [grade 6](/handbook/total-rewards/compensation/compens
 
 ### Senior Benefits Analyst
 
-The responsibilities for a Senior Benefits Analyst will be added at the time of a business need for this role.
-
 #### Job Grade
 
 The Senior Benefits Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Contribute to the development and execution of the benefits strategy through data-driven analysis, program design and implementation.
+- Manage the administration of health and welfare plans, retirement plans and other employee benefits programs ensuring accuracy, compliance from a company and local standpoint and efficiency
+- Maintain accuracy and integrity of benefits related data in Workday and other systems through regular audits and data coordination. 
+- Oversee benefits enrollments and changes, ensuring updates are shared with the relevant internal team or external partner, and also managing the processing of benefits-related severances. 
+- Collaborate with external vendors, consultants, and legal advisors to ensure benefits programs are competitive, compliant, and cost-effective.
+- Act as the primary point of contact for benefits related team member inquiries in collaboration with the People Connect team including creating documentation to support major program and policy implementations.
+- Participate in the development of communications and education including collaborating with the broader team on refreshing the handbook to ensure our pages are user-friendly, concise, and informative.
+- Provide administrative support including facilitating benefits renewals, managing vendor procurement, and reviewing benefits invoices for accuracy.
+- Coordinate the collection and submission of materials required for audit controls. 
+- Assist with ad hoc data requests and special projects.
+- Support global benefits initiatives and projects as needed, contributing to the development of a cohesive and scalable benefits strategy across all regions while ensuring compliance with all global rules and regulations (we operate in 60+ countries)
+
+#### Requirements
+
+- Global People or Human Resources experience with a demonstrated focus in Benefits.
+- Comprehensive knowledge of benefits laws and regulations and familiarity with Works Councils is a plus, for EMEA based roles. 
+- The ability to work in a fast-paced environment, meeting deadlines consistently with strong attention to detail and accuracy among competing priorities.
+- Strong analytical skills with proficiency in Google Sheets, Excel, and Tableau.
+- Experience with Workday or similar HRIS.
+- Proven experience quickly learning new concepts and tools.
+- Ability to effectively collaborate with cross-functional teams and external partners.
+Excellent verbal and written communication skills.
+- A shared interest in our values, and working in accordance with those values.
 
 ### Senior Benefits Program Manager
 
