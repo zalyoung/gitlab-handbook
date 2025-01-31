@@ -118,7 +118,6 @@ Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C
 
 </details>
 
-
 #### Qualifying Life Events
 
 Due to IRS guidelines, you cannot make changes to your health insurance benefits outside of GitLab's annual open enrollment period unless you experience a [Qualifying Life Event](https://www.healthcare.gov/glossary/qualifying-life-event/).
