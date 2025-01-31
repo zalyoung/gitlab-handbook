@@ -48,10 +48,9 @@ classify the ticket as using the NRT definition at that time.
 NOTE: Zendesk US Government _solely_ uses the Zendesk definition. None of the
 following applies to Zendesk US Government
 
-We work a bit differently than how Zendesk defines SLA, so we utilize the
-_Ticket Stage_ field to determine the SLA timer. As such, our SLA Policies are
-built with this in mind. We define FRT (first reply time) and NRT (next reply
-time) by our own definitions:
+We use the _Ticket Stage_ field to determine the SLA timer. As such, our SLA
+Policies are built with this in mind. We define FRT (first reply time) and NRT
+(next reply time) by our own definitions:
 
 - A ticket is using the FRT metric if work has not begun on the ticket by the
   relevant team
