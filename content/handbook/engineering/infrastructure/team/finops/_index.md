@@ -23,7 +23,7 @@ We focus on several key activities:
 
 - **Work Requests:** All tasks and requests should be tracked via [issues in Gitlab](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
 - **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/issues/198) is updated weekly.
-- **Educating Stakeholders:** We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds it's way into our [data warehouse](https://handbook.gitlab.com/handbook/enterprise-data/platform/#i-classfas-fa-database-fa-fw--text-purpleidata-warehouse). This reduces repetitive work for the FinOps team and empowers other teams to work independently.
+- **Educating Stakeholders:** We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds it's way into our [data warehouse](../../../../enterprise-data/platform/_index.md). This reduces repetitive work for the FinOps team and empowers other teams to work independently.
 
 ### Engaging with Stakeholders
 
