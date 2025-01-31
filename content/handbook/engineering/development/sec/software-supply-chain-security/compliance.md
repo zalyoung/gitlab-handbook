@@ -369,7 +369,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Planning for PTO
 
-We follow the [Software Supply Chain Security stage PTO process](/handbook/engineering/development/sec/software-supply-chain-security/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Engineering process for taking time off](/handbook/engineering/#taking-time-off) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Group Shared Calendar
 
