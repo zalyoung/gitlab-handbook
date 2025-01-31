@@ -30,9 +30,6 @@ Please see additional information on the 2025 US Benefit Plans
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
 - See the [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files). These machine readable files are made available in response to the federal Transparency in Coverage Rule and include negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
-## 2024 Plan Year
-
-To see details of the 2024 Plan Year, please refer to our [archived plans](general-and-entity-benefits/inc-benefits-us/_index.md)
 
 </details>
 
@@ -54,6 +51,8 @@ To see details of the 2024 Plan Year, please refer to our [archived plans](gener
 Team Members can find Archived benefit plans, details, and open enrollment for prior years listed below:
 
 - [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
+
+[**2024 Calendar Year archived plans](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/76bffb195bf7cc1623710c167e3e165ffb2adb9c/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
 Team Members can access their 1095-C Documents Via PlanSource
 You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
@@ -90,19 +89,6 @@ More information on the processed deductions in payroll from PlanSource can be f
 
 To learn more about how US Benefit Programs work, please see the following [PlanSource Video Library](https://videolibrary.plansource.com/).
 
-### Logging into PlanSource
-
-You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
-
-1. Login into the [Workday](https://www.myworkday.com/gitlab/d/home.htmld) site via Okta. Note: Plansource does not appear in Okta but in Workday directly.
-1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
-1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
-1. The benefits enrollment portal will then open in a separate screen for you to complete your enrollments or review your plans.
-
-Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C8ngTpVlYNSKG4If3yBw43dg3F6Ml/view?usp=sharing) Guide for additional details on logging in and electing benefits.
-
-</details>
-
 <details markdown="1">
 
 <summary>Eligibility</summary>
@@ -118,6 +104,20 @@ Note: If you and an eligible dependent (as defined above) are both employed by G
 A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
 
 </details>
+
+### Logging into PlanSource
+
+You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
+
+1. Login into the [Workday](https://www.myworkday.com/gitlab/d/home.htmld) site via Okta. Note: Plansource does not appear in Okta but in Workday directly.
+1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
+1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
+1. The benefits enrollment portal will then open in a separate screen for you to complete your enrollments or review your plans.
+
+Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C8ngTpVlYNSKG4If3yBw43dg3F6Ml/view?usp=sharing) Guide for additional details on logging in and electing benefits.
+
+</details>
+
 
 #### Qualifying Life Events
 
