@@ -82,7 +82,7 @@ Team Members have 30 days from their Hire Date to enroll in the benefit plans. E
 
 **In 2024, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in the High Deductible Health Plan (HDHP).**
 
-**In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-allowance) and waive all other lines of optional cover**
+**In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-waiver-allowance) and waive all other lines of optional cover**
 
 More information on the processed deductions in payroll from PlanSource can be found on the [Accounting and Reporting page](/handbook/finance/accounting/).
 
