@@ -579,7 +579,6 @@ These are the stakeholders:
 | [Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                      | Code Suggestions (Code completion, Code generation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [Infrastructure](/handbook/engineering/infrastructure/)                                                                           | AI Gateway Scalability / Runway infrastructure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
-
 ## ClickHouse Datastore usage
 
 [ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/development/analytics/monitor/platform-insights/#clickhouse-datastore)
