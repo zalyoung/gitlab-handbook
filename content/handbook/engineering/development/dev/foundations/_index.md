@@ -80,6 +80,10 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
   * Scroll to the "Share with specific people" section of the settings area. Click "Add people" and add the new member with "Make changes and manage sharing".
 * For a more detailed walkthrough, have a look at a quick [video walkthrough](https://www.youtube.com/watch?v=TmcPuuljf1w)
 
+## Skip Levels
+
+{{% include "includes/engineering/foundations-data-science-shared/skip-levels.md" %}}
+
 ## Metrics
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
