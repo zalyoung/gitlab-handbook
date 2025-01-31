@@ -1,5 +1,4 @@
 ---
-
 title: "Professional Services Instructional Design and Development"
 description: "Discover how the GitLab Instructional Design and Development team works together."
 ---
@@ -9,9 +8,9 @@ description: "Discover how the GitLab Instructional Design and Development team 
 The GitLab Professional Education Services team currently provides the following offerings:
 
 - [Live Instructor-led training (ILT)](https://about.gitlab.com/services/education/)
-- [Self Paced training](https://about.gitlab.com/learn/)
+- [Self Paced training](https://university.gitlab.com/)
 - [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/) as Professional Service offerings.
-- [Train-the-Trainer](https://about.gitlab.com/services/education/train-the-trainer/)
+- [Train-the-Trainer](https://university.gitlab.com/pages/train-the-trainer-training/)
 
 ## What's in Progress?
 

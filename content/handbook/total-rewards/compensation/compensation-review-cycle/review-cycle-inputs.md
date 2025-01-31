@@ -52,7 +52,7 @@ The location factor review is an internal process completed by the Total Rewards
 
 1. Create a copy of the `Location Factor Review` sheet for the upcoming FY.
 1. Ensure all location factors, including ones added throughout the year and ones marked for further review, have been added to the analysis.
-1. [Pull in refreshed data]({{< ref "compensation-review-cycle#pulling-survey-data-and-matching" >}}) for all data sources: ERI, Robert Half, Dice, Radford, and Comptryx.
+1. [Pull in refreshed data](/handbook/total-rewards/compensation/compensation-review-cycle/) for all data sources: ERI, Robert Half, Dice, Radford, and Comptryx.
    1. Check these resources for new matches to our location factors and pull data for all available metros.
 1. Using the refreshed data, compare the new data to our current location factors for fluctuations noting that we will not decrease a location factor.
     1. Analyze the average data for all locations in a geographical region to determine the location factor for that geographical region.
@@ -87,7 +87,7 @@ The location factor review is an internal process completed by the Total Rewards
 
 **Dice**
 
-1. Download the most recently published [Dice Technology Salary Report](https://techhub.dice.com/Dice-2020-Tech-Salary-Report.html).
+1. Download the most recently published [Dice Technology Salary Report](https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/).
 1. Information from Dice has to be manually pulled out of their PDF to our sheet.
 1. Add the salaries for each city and state reported by Dice to the Dice tab, adding a new line for any new cities or states.
 1. Match any Dice locations to the corresponding GitLab locality, if applicable.
@@ -125,11 +125,11 @@ This analysis will be conducted at the department level, for each department lea
 
 The Total Rewards Team will audit with the following data breakdowns (as aligned in our [Identity Data Metrics](/handbook/company/culture/inclusion/identity-data/)):
 
-- Ethnicity (only in the United States as we work on adding globally relevant [ethnicity categories to BambooHR](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/347) for self-identification)
+- Ethnicity (only in the United States as we work on adding globally relevant [ethnicity categories to Workday](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/347) for self-identification)
 - Tenure
-- Gender (as self reported in BambooHR)
+- Gender (as self reported in Workday)
 - Geographic Region
-- [Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}})
+- [Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 The Total Rewards team has created a template to automatically sync for each department leader, indirect manager, and overall e-group leader by adding the information submitted into a master file for increased efficiency in data analysis.
 

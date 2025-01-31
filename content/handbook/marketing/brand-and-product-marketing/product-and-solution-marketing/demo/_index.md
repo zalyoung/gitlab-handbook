@@ -1,19 +1,14 @@
 ---
-
 title: "DEPRECATED-Demos"
 ---
 
-
-
-
-
-
-
 ## About Demos
 
-## THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+{{% alert title="Note" color="danger" %}}
+THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+{{% /alert %}}
 
-## The new version of this page is at https://about.gitlab.com/learn
+## The new version of this page is at https://university.gitlab.com/
 
 There are 3 basic demos types:
 
@@ -24,7 +19,7 @@ There are 3 basic demos types:
 These demos come in different formats:
 
 - Videos - good for everyone to self-demo by passively watching
-- [Sim demos](./sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
+- [Sim demos](sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
 - Live (instructions for how to set up and run demos live) - enables everyone (especially GitLab sales) to set up and run through the demo live on their own system resources. Allows for spontaneous deep diving - not always a good thing).
 
 ## Videos
@@ -131,7 +126,7 @@ These demos come in different formats:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/nMAgP4WIcno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-## How to set up GitLab groups and projects to run multiple Agile teams with microservices (11.7) (Jan 2019)
+## Set up groups and projects to run multiple Agile teams with microservices (11.7) (Jan 2019)
 
 <figure class="video_container">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/VR2r1TJCDew" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -183,19 +178,19 @@ Click-through demos can be run in multiple ways:
 
 ## GitLab Planning to Monitoring (Aug 2019 - 12.0)
 
- [<img src="./ct-files/ptm.png" alt="">](https://tech-marketing.gitlab.io/static-demos/ptm-v14.html)
+ [<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ptm.png" alt="">](https://tech-marketing.gitlab.io/static-demos/ptm-v14.html)
 <!--T [Downloadable macOS](https://drive.google.com/file/d/1H9-l9K9cPhLl7kjSG8np7fvkkCnCRLyH/view?usp=sharing)<br/>
  [Downloadable Windows](https://drive.google.com/file/d/1Sg7jMODZYUvdrkuaS2FI88feWoYv7CxO/view?usp=sharing)-->
 
 ## Create Kubernetes cluster (Aug 2019 - 12.0)
 
-[<img src="./ct-files/gke_setup.png" alt="">](https://tech-marketing.gitlab.io/static-demos/gke_k8s.html)
+[<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/gke_setup.png" alt="">](https://tech-marketing.gitlab.io/static-demos/gke_k8s.html)
 <!--[Downloadable macOS](https://drive.google.com/file/d/1tGpBmyJkMn_ljmFBCAtGkU9DmrPjuGDI/view?usp=sharing)<br/>
 [Downloadable Windows](https://drive.google.com/file/d/1fTkVWsH1okcm_r3MtfRhS-XeeVSExotU/view?usp=sharing)-->
 
 ## Merge Request Approval API (July 2019 - 12.0)
 
- [<img src="./ct-files/mr_approval.png" alt="">](https://tech-marketing.gitlab.io/static-demos/mr_approval.html)
+ [<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/mr_approval.png" alt="">](https://tech-marketing.gitlab.io/static-demos/mr_approval.html)
  <!--[Downloadable macOS](https://drive.google.com/file/d/1Uvl4DorNh_eM7Xn_BJhMDv0yFwuHbdtt/view?usp=sharing)<br/>
  [Downloadable Windows](https://drive.google.com/file/d/1EAEuVsRAlLoCTwi5fSOvR959eKFCAsoY/view?usp=sharing)-->
 
@@ -250,15 +245,21 @@ Click-through demos can be run in multiple ways:
 
 ## Live (instructions)
 
-## [Planning to Monitoring (formerly i2p)](i2p/)
+## Planning to Monitoring (formerly i2p)
 
-Highlights GitLab’s single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
+[Planning to Monitoring (formerly i2p)](i2p/)
 
-## [CI/CD Deep Dive](cicd-deep/)
+Highlights GitLab's single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
+
+## CI/CD Deep Dive
+
+[CI/CD Deep Dive](cicd-deep/)
 
 Provides a more in-depth look at GitLab CI/CD pipelines.
 
-## [Integration Demos](integrations/)
+## Integration Demos
+
+[Integration Demos](integrations/)
 
 Demonstrations which highlight integrations between GitLab and common tools such as Jira issues and Jenkins pipelines.
 

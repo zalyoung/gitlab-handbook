@@ -1,15 +1,6 @@
 ---
-
 title: "Hacker News"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/hacker-news/index.html
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -53,7 +44,6 @@ When new posts or comments about GitLab are added to Hacker News, team members c
 ### Response workflow
 
 1. When alerted by the "Hacker News Front Page Bot" that an article referencing GitLab is on the Front Page of Hacker News, the Developer Advocates should coordinate to ensure a DRI is assigned to the post to review, monitor the comments, and respond accordingly.
-1. If the post is a result of a [Zap](/handbook/marketing/developer-relations/workflows-tools/zapier/#current-zaps) for which Sid is not tagged by the bot, verify that the post is relevant and, if so, ping @Sid in the thread on Slack.
 1. Posts that reach the front page should be shared in Slack channels relative to the topic of the post for greater visibility among team members who may wish to respond. For example, a remote work blog should be shared in the [#remote](https://gitlab.slack.com/messages/remote) channel and a post related to trackers on our marketing site should be shared in [#marketing](https://gitlab.slack.com/messages/marketing). Whenever posts are shared outside of [#dev-advocacy-team](https://gitlab.slack.com/messages/dev-advocacy-team), the Slack comment should be cross-linked in the alert thread in `#dev-advocacy-team` for visibility and to create a single source of truth.
 1. Developer Advocates should also review the [#hn-mentions](https://gitlab.slack.com/messages/hn-mentions) Slack channel 1-2 times per day for mentions that require a response. If you are able to provide a quick response/resource, reply on [news.ycombinator.com](https://news.ycombinator.com) using your personal Hacker News account and indicate that you replied by leaving a :white_check_mark: on the Slack comment. _Note that [the window to edit a comment is 2 hours](https://github.com/minimaxir/hacker-news-undocumented#editdelete-time-limits), afterwards you cannot edit or delete a Hacker News comment._
 1. If necessary, you may also wish to share comments with relevant experts who may be able to provide more detailed or insightful comments. This can be done by sharing relevant posts or comments in an appropriate Slack channel if you judge additional input is required.
@@ -80,7 +70,7 @@ Follow the [formatting options documentation](https://news.ycombinator.com/forma
 
 Remember that your comments are being read by many more folks than the person to whom you are responding. Make sure that the information you share is helpful to them, too. Aim to make your replies valuable to everyone involved in the conversation, not just the person you are replying to. When addressing criticism or negative feedback, it is unlikely to change the mind of someone whose comment or point-of-view is antagonistic or disagreeable but your reply can be valuable to the folks who are simply there to read and learn.
 
-A [comment](https://news.ycombinator.com/item?id=30006193) on Hacker News sums it up well by suggesting to focus on "conveying without convincing". The commenter suggests, "Ensure the facts are made clear and point out disagreements. Share your motivations and reasoning. Ask people to clarify when they say something you don’t understand, or could parse multiple ways. Leave disagreement alone, and don’t press it to change into agreement."
+A [comment](https://news.ycombinator.com/item?id=30006193) on Hacker News sums it up well by suggesting to focus on "conveying without convincing". The commenter suggests, "Ensure the facts are made clear and point out disagreements. Share your motivations and reasoning. Ask people to clarify when they say something you don't understand, or could parse multiple ways. Leave disagreement alone, and don't press it to change into agreement."
 
 ## Blog comments
 
@@ -96,8 +86,8 @@ Blog comments can be easily monitored by filtering forum topics by the [feedback
 - If you comment yourself make sure it is interesting and relevant.
 - Review the Hacker News [Guidelines](https://news.ycombinator.com/newsguidelines.html) and [FAQ](https://news.ycombinator.com/newsfaq.html).
 - Make yourself familiar with [A List of Hacker News's Undocumented Features and Behaviors](https://github.com/minimaxir/hacker-news-undocumented) to understand Hacker News behaviour and moderation rules.
-- Check the tone of your response: Don’t be defensive, but instead share your point of view.
-- Try to teach people something interesting they didn’t know already.
+- Check the tone of your response: Don't be defensive, but instead share your point of view.
+- Try to teach people something interesting they didn't know already.
 - Add value to your post with data points or direct links.
 
 **Note:** You should [review our team member social media policy](/handbook/marketing/team-member-social-media-policy/) before using social media relating to GitLab.

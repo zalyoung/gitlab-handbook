@@ -1,5 +1,4 @@
 ---
-
 title: "MikeL's README"
 description: "Personal readme page for Mike Lockhart, Support Engineer, GitLab"
 job: "Support Engineer - APAC"
@@ -13,7 +12,7 @@ job: "Support Engineer - APAC"
 
 This page aims to help others who haven't worked with me before, understand what that might be like.
 
-It’s also a well-intentioned effort at building some trust by being vulnerable, and to share my ideas of a good working relationship, to reduce your anxiety when starting to work with me.
+It's also a well-intentioned effort at building some trust by being vulnerable, and to share my ideas of a good working relationship, to reduce your anxiety when starting to work with me.
 
 Please feel free to contribute to this page by opening a merge request, particularly if you've worked with me before and know something which should be added or improved.
 
@@ -48,7 +47,7 @@ I enjoy meeting and engaging with people, and solving customers' technical probl
 
 #### Background
 
-I grew up in [Northern Tasmania](https://www.google.com/maps/@-40.6667943,146.3199683,6z) in the 1980s, cutting my teeth on 8-bit British micro's, eagerly typing in codes from computer magazines and library books. After graduating from Uni of Tasmania I moved to Sydney, then the Blue Mountains, and spent 15 years [cat-hurding](https://www.youtube.com/watch?v=Ns_eDz3PUaI) at major IT corporations on all sorts of computers from mainframes to mobiles. My family and I returned to Tassie in 2013, where since I have been working as a support sysop for Linux-based web systems. My wife Jenny and I juggle three boys and various animals, in a little house South of Hobart.
+I grew up in [Northern Tasmania](https://www.google.com/maps/@-40.6667943,146.3199683,6z) in the 1980s, cutting my teeth on 8-bit British micro's, eagerly typing in codes from computer magazines and library books. After graduating from Uni of Tasmania I moved to Sydney, then the Blue Mountains, and spent 15 years cat-hurding at major IT corporations on all sorts of computers from mainframes to mobiles. My family and I returned to Tassie in 2013, where since I have been working as a support sysop for Linux-based web systems. My wife Jenny and I juggle three boys and various animals, in a little house South of Hobart.
 
 When not computing, I like to read, walk our dog while listening to music, or audio books, podcasts and _Support Week In Review_. I also cycle (casually) and play music. I play percussion, keyboards, a little bit of blues harp, and code. I also play trombone since I was ten, but not since our first child. With the family I like to play card- or board-games, and I regularly get involved in the boys' Scouting activities.
 

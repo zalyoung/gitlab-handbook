@@ -1,5 +1,4 @@
 ---
-
 title: "Reseller Marketing Kit"
 ---
 
@@ -17,11 +16,11 @@ The information contained in this section will provide you with solid understand
 - [GitLab competitive analysis](https://about.gitlab.com/why-gitlab/)
 - [Customer success stories](https://about.gitlab.com/customers/)
 
-Join GitLab’s Slack Reseller channel by emailing vgoetz@gitlab.com to keep current on new content assets, upcoming sales and technical training sessions and more.
+Join GitLab's Slack Reseller channel by emailing vgoetz@gitlab.com to keep current on new content assets, upcoming sales and technical training sessions and more.
 
 ## Training & Enablement
 
-- [GitLab Product training](https://about.gitlab.com/learn/) - Providing a subset of on-demand content suggested based on role and skill level. Each track links to the specific on-demand training area GitLab recommends.
+- [GitLab Product training](https://university.gitlab.com/) - Providing a subset of on-demand content suggested based on role and skill level. Each track links to the specific on-demand training area GitLab recommends.
 - [GitLab sales enablement list](https://www.youtube.com/playlist?list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG)
 - [Future GitLab sales enablement](https://gitlab.com/gitlab-com/marketing/general/boards/465497?=&label_name[]=Sales%20Enablement)
 

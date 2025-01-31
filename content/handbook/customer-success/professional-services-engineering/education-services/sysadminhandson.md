@@ -3,7 +3,6 @@ title: "GitLab System Administration Hands-on Lab Overview"
 description: "This hands-on guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
 ---
 
-
 ## GitLab System Administration Labs
 
 | Lab Name | Lab Link |
@@ -21,8 +20,8 @@ description: "This hands-on guide is designed to walk you through the lab exerci
 
 Here are some quick links that may be useful when reviewing this hands-on guide.
 
-- [GitLab System Administration course description](https://about.gitlab.com/services/education/admin/)
+- [GitLab System Administration course description](https://university.gitlab.com/pages/system-admin-training/)
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *GitLab System Administration Hands-on Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab System Administration Hands-on Guide*, please submit them via merge request.

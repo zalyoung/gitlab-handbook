@@ -1,5 +1,4 @@
 ---
-
 title: Service Desk Single-Engineer Group
 ---
 
@@ -70,7 +69,7 @@ Additionally to bigger features and initiatives we're trying to always include a
 
 #### Former Respond group categories
 
-The Service Desk SEG is also the DRI for the [former Respond group](/handbook/engineering/development/ops/monitor/respond/) categories
+The Service Desk SEG is also the DRI for the former Respond group categories
 [Service Desk](https://about.gitlab.com/direction/service_management/service_desk/),
 [incident management](https://about.gitlab.com/direction/service_management/incident_management/) and
 [on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/).
@@ -123,7 +122,7 @@ This SEG did not implement the feature, but mentored the team, designed the solu
 
 #### Obfuscate email addresses of Service Desk issues based on user role
 
-Making sure private data is protected no matter where a Service Desk issue ends up. If you do not have at least the reporter role in a GitLab project or group, you won’t be able to view the email address of the author of a Service Desk issue and issue email participants in general. No matter whether it’s a public or private project or the issue is confidential or not.
+Making sure private data is protected no matter where a Service Desk issue ends up. If you do not have at least the reporter role in a GitLab project or group, you won't be able to view the email address of the author of a Service Desk issue and issue email participants in general. No matter whether it's a public or private project or the issue is confidential or not.
 
 **Shipped in GitLab 15.9**. See the [release post item](https://about.gitlab.com/releases/2023/02/22/gitlab-15-9-released/#redact-service-desk-email-addresses-in-issues)
 
@@ -131,7 +130,7 @@ If you want to get more into the details, [check out the merge request which als
 
 ### Background
 
-We have a [Service Desk offering](https://about.gitlab.com/direction/service_management/service_desk) in GitLab that we'd like
+We have a [Service Desk offering](https://about.gitlab.com/direction/service_management/service_desk/) in GitLab that we'd like
 to make an integral part of the GitLab support workflow. We have early usage, a community of prolific contributors and
 a new team ([Respond group in Monitor stage](/handbook/product/categories/#respond-group)) onboarding to
 the new domain.

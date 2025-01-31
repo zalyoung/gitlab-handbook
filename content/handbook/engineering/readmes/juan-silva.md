@@ -1,14 +1,8 @@
 ---
-
 title: "Juan Silva's README"
+description: "Personal readme page for Juan Silva, Fullstack Engineering Manager - Geo, GitLab"
 job: "Fullstack Engineering Manager - Geo"
 ---
-
-
-
-
-
-
 
 ## Juan Silva @ GitLab
 

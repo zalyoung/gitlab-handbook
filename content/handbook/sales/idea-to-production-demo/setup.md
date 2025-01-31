@@ -33,7 +33,7 @@ In order to run the demo, you need to install Docker, the OC Client Tools, and o
 
 You will need to install Docker on your OpenShift machine if you have not installed it already.
 
-The best way to install Docker is by going to their [official installation instructions](https://docs.docker.com/engine/installation/)
+The best way to install Docker is by going to their [official installation instructions](https://docs.docker.com/engine/install/)
 and following the install instructions for your OpenShift machine's operating system.
 
 The installation steps should walk you through running Docker's Hello World app.
@@ -90,7 +90,7 @@ Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/1
   sudo systemctl restart docker
   ```
 
-For troubleshooting these steps refer to the [OpenShift cluster up docs](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md#linux)
+For troubleshooting these steps refer to the [OpenShift cluster up docs](https://docs.openshift.com/container-platform/4.16/installing/installing_platform_agnostic/installing-platform-agnostic.html)
 
 #### Insecure Local Registry on Mac
 
@@ -102,7 +102,7 @@ Once Docker is running, add an insecure registry of `172.30.0.0/16`:
 - Enter `172.30.0.0/16` and press return
 - Click on Apply and Restart
 
-For troubleshooting these steps refer to the [OpenShift cluster up docs](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md#macos-with-docker-for-mac)
+For troubleshooting these steps refer to the [OpenShift cluster up docs](https://docs.openshift.com/container-platform/4.16/installing/installing_platform_agnostic/installing-platform-agnostic.html)
 
 On the Mac you will also need to make sure you have enabled Docker to access enough CPU and RAM resources.
 THis can be done from the Preferences windows, and you need at least 4 CPUs and 10GB of RAM.

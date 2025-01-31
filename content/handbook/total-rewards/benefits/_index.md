@@ -6,10 +6,9 @@ description: Find answers to your questions about GitLab's benefits.
 ## Related Benefits Pages
 
 - [General & Entity Specific Benefits]({{< ref "general-and-entity-benefits" >}})
-- [Modern Health]({{< ref "modern-health" >}})
-- [Global Benefits Survey]({{< ref "benefits-survey" >}})
-- [Resources for COVID-19]({{< ref "covid-19" >}})
-- [Parental Leave and Return Tool Kit for GitLab Managers and Team Members]({{< ref "parental-leave-toolkit" >}}å)
+- [Modern Health](/handbook/total-rewards/benefits/modern-health/)
+- [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/)
+- [Parental Leave and Return Tool Kit for GitLab Managers and Team Members](/handbook/total-rewards/benefits/parental-leave-toolkit/)
 
 ## Introduction
 
@@ -42,7 +41,7 @@ These principles will guide our benefit strategies and decisions.
     - Foster Cross Company understanding
   - Results
     - Evangelize benefit programs in each entity.
-    - Transform “statutory” to “competitive.”
+    - Transform "statutory" to "competitive."
     - Make benefits a very real aspect of compensation during the hiring process.
     - Measure team member engagement and benefit enrollment.
   - Efficiency
@@ -60,7 +59,7 @@ We do not have specific budgets around benefit costs, but instead look to increa
 
 ## Annual Global Benefit  Review Process
 
-The Total Rewards team reviews GitLab’s global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
+The Total Rewards team reviews GitLab's global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
 
 ### 1. Team Member Feedback
 
@@ -69,7 +68,7 @@ The Total Rewards team reviews GitLab’s global benefits on an annual basis and
 ### 2. Market Data Collection
 
 - In Q2 & Q3,Total Rewards engages with the benefits broker to collect market data and benchmark benefit plans against other hi-tech employers.
-Benchmarking Data is the broker’s proprietary information that GitLab purchases. While some high-level benchmarking information can be shared with team members, most details cannot be disclosed outside of the People Team.
+Benchmarking Data is the broker's proprietary information that GitLab purchases. While some high-level benchmarking information can be shared with team members, most details cannot be disclosed outside of the People Team.
 
 ### 3. Fiscal Year Planning
 
@@ -88,7 +87,7 @@ The decision to participate in a pooling plan will be based on financial savings
 ### 6. People Team & Team Member Issues
 
 - Total Rewards will open People Team issues to inform Stakeholders (payroll, legal, finance, tax, etc.) and track the progress of the enhancement.
-For major plan enhancements, the Total Rewards team will create a Team Member issue with plan details to get plan specific feedback. While Team Member feedback will be considered as a strong data point, a decision will be made by the Total Rewards team considering all factors (benchmarking, budget, administration, etc).  The Total Rewards team may not create an issue if the change or enhancement is a ‘smaller’ change (i.e. change in deductible amounts, increase in contributions, etc).
+For major plan enhancements, the Total Rewards team will create a Team Member issue with plan details to get plan specific feedback. While Team Member feedback will be considered as a strong data point, a decision will be made by the Total Rewards team considering all factors (benchmarking, budget, administration, etc).  The Total Rewards team may not create an issue if the change or enhancement is a 'smaller' change (i.e. change in deductible amounts, increase in contributions, etc).
 
 ### 7. Announce Enhancements
 
@@ -96,6 +95,6 @@ For major plan enhancements, the Total Rewards team will create a Team Member is
 
 ## Knowledge Assessment
 
-You can test your knowledge on our benefits by taking the [GitLab Benefits Knowledge Assessment](https://docs.google.com/forms/d/e/1FAIpQLSekATud1Pzq6tHfX8bqXXu9kvMwLpUxOfoHWhD-GmSsSfEVeQ/viewform) quiz. For [Job Grades]({{< ref "compensation-calculator#job-grades" >}}) 10+ please select `Executive` for the `My Role Is` question on the form.
+You can test your knowledge on our benefits by taking the [GitLab Benefits Knowledge Assessment](https://docs.google.com/forms/d/e/1FAIpQLSekATud1Pzq6tHfX8bqXXu9kvMwLpUxOfoHWhD-GmSsSfEVeQ/viewform) quiz. For [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) 10+ please select `Executive` for the `My Role Is` question on the form.
 
 If you have questions about benefits or the content in the Knowledge Assessment, please reach out to the [Total Rewards](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) team. If the quiz is not working or you have not received your certificate after passing the Knowledge Assessment, please reach out to the [Learning & Development](/handbook/people-group/learning-and-development/#how-to-communicate-with-us) team.

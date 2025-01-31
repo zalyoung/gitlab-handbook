@@ -2,11 +2,11 @@
 title: Sec Section
 description: >-
   The Sec Section is composed of development teams working on Secure
-  and Govern features of the GitLab DevOps Platform.
+  and Software Supply Chain Security features of the GitLab DevOps Platform.
 ---
 
 <div class="diagramwrapper">
-    <div class="box"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1025 500" role="img" aria-label="GitLab DevSecOps Lifecycle">
+    <div class="box"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1025 500" role="img" aria-label="GitLab DevSecOps Lifecycle">
 <style>
       .text {
         font-family: Inter,Source Sans Pro,sans-serif;
@@ -77,7 +77,7 @@ description: >-
 <path d="M536.514 419L536.448 418.82C533.141 419.499 530.028 420.899 527.328 422.923L512.431 434.186L521.916 441.355L532.309 433.575L532.339 433.553C534.517 431.908 536.104 429.599 536.858 426.974C537.61 424.349 537.49 421.55 536.514 419Z" fill="#FC6D26"></path>
 <path d="M502.914 441.355L508.034 445.224L511.145 447.575C511.51 447.851 511.954 448 512.411 448C512.869 448 513.314 447.851 513.679 447.575L516.789 445.224L521.909 441.355L512.425 434.186L502.914 441.355Z" fill="#FCA326"></path>
 <path d="M497.519 422.923C494.82 420.9 491.706 419.5 488.403 418.824L488.331 419C487.355 421.551 487.235 424.35 487.989 426.976C488.743 429.601 490.33 431.911 492.511 433.556L492.536 433.575L492.594 433.62L502.914 441.355L512.405 434.186L497.519 422.923Z" fill="#FC6D26"></path>
-<text x="50%" y="255" class="text devsecops">DevSecOps</text><text x="353" y="131" class="text faded">Plan</text><text x="127" y="131" class="text faded">Code</text><text x="127" y="371" class="text faded">Build</text><text x="353" y="371" class="text faded">Test</text><text x="672" y="131" class="text faded">Release</text><text x="898" y="131" class="text faded">Deploy</text><text x="898" y="371" class="text faded">Operate</text><text x="672" y="371" class="text faded">Monitor</text><text x="50%" y="13" class="text text2 highlighted">Security</text><text x="50%" y="488" class="text text2 highlighted">Compliance</text></svg></div><div class="stages"><div class="stage"><div class="circle"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M45,31.6H26.34a3.48,3.48,0,0,0-6.68,0H6.42V21.2H39.58v6.4a1,1,0,1,0,2,0V20.2a1,1,0,0,0-1-1H37V14A14,14,0,0,0,9,14v5.2H5.42a1,1,0,0,0-1,1V31.6H1a1,1,0,0,0,0,2H19.66a3.48,3.48,0,0,0,6.68,0H39.58V44H6.42V37.6a1,1,0,0,0-2,0V45a1,1,0,0,0,1,1H40.58a1,1,0,0,0,1-1V33.6H45a1,1,0,0,0,0-2ZM11,14a12,12,0,0,1,24,0v5.2H11ZM23,34.1a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,23,34.1Z"></path></svg></div><div class="stagename">Secure</div></div><div class="stage"><div class="circle"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M21,27.52a1,1,0,0,0,.7-.29l7.05-7a1,1,0,0,0-1.41-1.41L21,25.11,18.7,22.86a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l3,3A1,1,0,0,0,21,27.52Z"></path><path d="M39.9,29.58a1,1,0,0,0-1.3.55A24.84,24.84,0,0,1,23,44C14.4,41.22,7.84,34.33,6.26,26.33a1,1,0,0,0,0-.1,3.52,3.52,0,1,0-1.92.21.88.88,0,0,0,0,.28C6,35.52,13.26,43.07,22.71,46a1.07,1.07,0,0,0,.58,0c7.88-2.41,14.29-8,17.16-15.08A1,1,0,0,0,39.9,29.58ZM3.37,23a1.5,1.5,0,1,1,1.5,1.5A1.5,1.5,0,0,1,3.37,23Z"></path><path d="M42.13,19.66v-13a1,1,0,0,0-1.34-.93,14.54,14.54,0,0,1-17-5.26,1,1,0,0,0-1.62,0,14.54,14.54,0,0,1-17,5.26,1,1,0,0,0-1.34.93v8.64a1,1,0,0,0,2,0V8A16.46,16.46,0,0,0,23,2.63,16.46,16.46,0,0,0,40.13,8V19.66a3.5,3.5,0,1,0,2,0Zm-1,4.84a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,41.13,24.5Z"></path></svg></div><div class="stagename">Govern</div></div></div></div>
+<text x="50%" y="255" class="text devsecops">DevSecOps</text><text x="353" y="131" class="text faded">Plan</text><text x="127" y="131" class="text faded">Code</text><text x="127" y="371" class="text faded">Build</text><text x="353" y="371" class="text faded">Test</text><text x="672" y="131" class="text faded">Release</text><text x="898" y="131" class="text faded">Deploy</text><text x="898" y="371" class="text faded">Operate</text><text x="672" y="371" class="text faded">Monitor</text><text x="50%" y="13" class="text text2 highlighted">Security</text><text x="50%" y="488" class="text text2 highlighted">Compliance</text></svg></div><div class="stages"><div class="stage"><div class="circle"><svg id="Layer_1" data-name="Layer 1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M45,31.6H26.34a3.48,3.48,0,0,0-6.68,0H6.42V21.2H39.58v6.4a1,1,0,1,0,2,0V20.2a1,1,0,0,0-1-1H37V14A14,14,0,0,0,9,14v5.2H5.42a1,1,0,0,0-1,1V31.6H1a1,1,0,0,0,0,2H19.66a3.48,3.48,0,0,0,6.68,0H39.58V44H6.42V37.6a1,1,0,0,0-2,0V45a1,1,0,0,0,1,1H40.58a1,1,0,0,0,1-1V33.6H45a1,1,0,0,0,0-2ZM11,14a12,12,0,0,1,24,0v5.2H11ZM23,34.1a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,23,34.1Z"></path></svg></div><div class="stagename">Secure</div></div><div class="stage"><div class="circle"><svg id="Layer_1" data-name="Layer 1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M21,27.52a1,1,0,0,0,.7-.29l7.05-7a1,1,0,0,0-1.41-1.41L21,25.11,18.7,22.86a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l3,3A1,1,0,0,0,21,27.52Z"></path><path d="M39.9,29.58a1,1,0,0,0-1.3.55A24.84,24.84,0,0,1,23,44C14.4,41.22,7.84,34.33,6.26,26.33a1,1,0,0,0,0-.1,3.52,3.52,0,1,0-1.92.21.88.88,0,0,0,0,.28C6,35.52,13.26,43.07,22.71,46a1.07,1.07,0,0,0,.58,0c7.88-2.41,14.29-8,17.16-15.08A1,1,0,0,0,39.9,29.58ZM3.37,23a1.5,1.5,0,1,1,1.5,1.5A1.5,1.5,0,0,1,3.37,23Z"></path><path d="M42.13,19.66v-13a1,1,0,0,0-1.34-.93,14.54,14.54,0,0,1-17-5.26,1,1,0,0,0-1.62,0,14.54,14.54,0,0,1-17,5.26,1,1,0,0,0-1.34.93v8.64a1,1,0,0,0,2,0V8A16.46,16.46,0,0,0,23,2.63,16.46,16.46,0,0,0,40.13,8V19.66a3.5,3.5,0,1,0,2,0Zm-1,4.84a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,41.13,24.5Z"></path></svg></div><div class="stagename">Govern</div></div></div></div>
 
 <style>
     .diagramwrapper {
@@ -141,20 +141,21 @@ description: >-
 
 The following teams comprise the sub-department:
 
-- Govern stage - [handbook](/handbook/engineering/development/sec/govern/)
-  - Anti-abuse group - [handbook](/handbook/engineering/development/sec/govern/anti-abuse)
-  - Authentication group - [handbook](/handbook/engineering/development/sec/govern/authentication)
-  - Authorization group - [handbook](/handbook/engineering/development/sec/govern/authorization)
-  - Compliance group - [handbook](govern/compliance/)
-  - Security Policies group - [handbook](/handbook/engineering/development/sec/govern/security-policies/)
-  - Threat Insights group - [handbook](/handbook/engineering/development/sec/govern/threat-insights/)
+- Software Supply Chain Security stage - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/)
+  - Anti-abuse group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse)
+  - Authentication group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authentication)
+  - Authorization group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authorization)
+  - Compliance group - [handbook](software-supply-chain-security/compliance/)
 - Secure stage - [handbook](/handbook/engineering/development/sec/secure/)
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
-  - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/)
+  - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/)
   - Static Analysis group - [handbook](/handbook/engineering/development/sec/secure/static-analysis/)
   - Secret Detection group - [handbook](/handbook/engineering/development/sec/secure/secret-detection/)
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
-  - API Security - [handbook](/handbook/engineering/development/sec/secure/api-security)
+  - API Security - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/api-security/)
+- Security Risk Management
+  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
+  - Threat Insights group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-insights/)
 
 It is important to delineate who the EM and PM DRIs are for every functionality, especially where this may not be obvious. This is documented on a dedicated [delineation page](delineate-sec.html).
 
@@ -169,7 +170,7 @@ Keeping our projects organized is very important for productivity and maintainab
 - To setup a new project we follow the [company-wide Engineering guidelines](/handbook/engineering/gitlab-repositories/).
 - Sec projects should be organized into one of
   - [https://gitlab.com/gitlab-org/secure](https://gitlab.com/gitlab-org/secure)
-  - [https://gitlab.com/gitlab-org/govern](https://gitlab.com/gitlab-org/govern)
+  - [https://gitlab.com/gitlab-org/software-supply-chain-security](https://gitlab.com/gitlab-org/software-supply-chain-security)
   - [https://gitlab.com/gitlab-org/security-products](https://gitlab.com/gitlab-org/security-products)
 
 In general, we want to keep as few projects in `security-products` as necessary.
@@ -180,29 +181,19 @@ In general, we want to keep as few projects in `security-products` as necessary.
 - Demos
 - Historical projects that are difficult to move.
 
-`secure` and `govern` should have projects for:
+`secure` and `software-supply-chain-security` should have projects for:
 
 - End-to-end testing
 - Benchmarks / Stats
 - Tooling
 
-There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
-
-### License approval policy
-
-As of 2024-05-17, Analyzer projects (`gitlab-org/security-products/analyzers`) are subject to a [security policy](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/blob/main/.gitlab/security-policies/policy.yml) that requires approval for merge requests that introduce new licenses. The policy enforces our [company-wide policy](/handbook/legal/product/#using-open-source-software) for open source software.
-
-- Approvers: members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group.
-- Pre-approved licenses: as per the [company-wide policy](/handbook/legal/product/#using-open-source-software).
-- Excluded projects: the list includes test projects, other security policy projects, and any projects that can't have license finding enabled. Members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group can add exceptions as required.
-
-This is a dogfooding experiment that we intend to eventually apply to all Sec projects.
+There may be projects that should belong in `secure` or `software-supply-chain-security` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `software-supply-chain-security` but were unsuccessful.
 
 ### Recommended settings
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
 
-1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners) file to the project, for example:
+1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file to the project, for example:
 
    ```shell
    [Maintainers]
@@ -257,17 +248,16 @@ When creating a new project, all settings should be left to the default options,
       - `New issue URL`
          - `https://gitlab.com/gitlab-org/gitlab/issues/new`
 
-1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
+1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/) settings:
 
-   - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
-      - `Allowed to merge`
-         - `Maintainers`
-      - `Allowed to push and merge`
-         - `No one`
-      - `Allowed to force push`
-         - `Disabled`
-      - `Code owner approval`
-         - `Enabled`
+   - `Settings -> General -> Visibility, project features, permissions`
+      - `Project visibility`
+         - `Public`
+      - `Additional options`
+         - `Users can request access`
+            - `Disabled`
+      - `Container Registry`
+         - `Only Project Members`
    - `Settings -> Repository -> Protected branches`
       - `Allowed to merge`
          - `Maintainers`
@@ -282,6 +272,7 @@ When creating a new project, all settings should be left to the default options,
          - `v*`
       - `Allowed to create`
          - `Maintainers`
+         - [GitLab Dev Service - Secure Stage - Analyzers Automation](https://gitlab.com/gl-service-dev-secure-analyzers-automation)
    - `Settings -> Merge Requests`
       - `Squash commits when merging`
          - `Require`
@@ -356,7 +347,7 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ## Performance Indicators
 
-- [Sec Sub-department Performance Indicators](/handbook/engineering/metrics/dashboards/)
+- [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
 ### Dashboards
@@ -371,7 +362,7 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ## Slack channels
 
-- [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Govern, and Secure stages.
+- [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Software Supply Chain Security and Secure stages.
 - [#sec-growth-datascience-people-leaders](https://gitlab.slack.com/archives/C033F69CQCB) - Engineering people leaders in Sec, Growth, and ModelOps.
 - [🔒sec-growth-datascience-leadership-confidential](https://gitlab.slack.com/archives/GKWF00Y3E) - Private channel for engineering people leaders in Sec, Growth, and ModelOps.
 
@@ -389,25 +380,32 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 
 ### Google Groups
 
-Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+Google groups follow the convention [section]-[stage]-[group], separating multi-word names with `_` and are structured as the following:
 
 - sec-section
-- sec-govern
-- sec-secure
-- sec-govern-threat-insights
-- sec-govern-security-policies
-- sec-govern-compliance
-- sec-secure-static-analysis
-- sec-secure-secret-detection
-- sec-secure-dynamic-analysis
-- sec-secure-composition-analysis
+- sec-software_supply_chain_security
+- sec-security_risk_management
+- sec-application_security_testing
+- sec-security_risk_management-security_insights
+- sec-security_risk_management-security_policies
+- sec-security_risk_management-security_platform_management
+- sec-security_risk_management-security_infrastructure
+- sec-application_security_testing-static_analysis
+- sec-application_security_testing-secret_detection
+- sec-application_security_testing-dynamic_analysis
+- sec-application_security_testing-composition_analysis
+- sec-software_supply_chain_security-authentication
+- sec-software_supply_chain_security-authorization
+- sec-software_supply_chain_security-compliance
+- sec-software_supply_chain_security-pipeline_security
+- vulnerability-research
 
-The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
+The members of each google group consists of stable counterparts and the correct `eng-dev-[stage]-[group]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated by the EM of the respective group.
 
 ## Staying Informed and Informing Team Members
 
 - [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/#communication).
-- Slack channels #s_secure and #s_govern are informative since they are all part of Sec Section.
+- Slack channels #s_secure and #s_software-supply-chain-security are informative since they are all part of Sec Section.
 
 ## Planning in the Section
 
@@ -425,7 +423,7 @@ At least once per milestone, Senior Engineering Managers in the section will do 
 
 - In partnership with Product Management, initiatives 6 months or older will be evaluated to determine if they're still relevant.
 - New initiatives will be triaged, checking their requirements for understandability and completeness. Further, the group most impacted will be identified.
-  - In situations where most impacted group is not clear, the Architectural Council will be engaged to help discern which group that might be.
+  - In situations where most impacted group is not clear, technical leadership via #sec-section will be engaged to help discern which group that might be.
 - Group most impacted will be declared DRI for that initiative and are expected to:
   - Produce a high-level implementation plan that will scale for the whole problem.
   - Create implementation issues that are broken down by feature category.
@@ -435,107 +433,53 @@ At least once per milestone, Senior Engineering Managers in the section will do 
 
 Generated issues will be worked through normal prioritization processes as they are distributed to individual groups.
 
-## Councils and Chapters
-
-### Architectural Council
-
-Slack [#s_sec-architectural-council](https://gitlab.slack.com/archives/C012RKVK231)
-
-[Snippet to use in issues](https://gitlab.com/gitlab-com/www-gitlab-com/-/snippets/2126492).
-
-In order to help the Sec section come to resolution on defining approaches to section-wide issues,
-we have formed an Architectural Council. This group comprises tech leads (and SMEs to provide context)
-in order to keep the team small and nimble. The group is a non-authoritative, supportive group whose members provide representative insights from their respective teams.
-
-- Tech leads will serve as the representative for their team
-- An issue should be created to capture the discussion that covers:
-  - What is the issue at hand and what is the preferred action
-  - What are the potential solutions and their associated pros/cons
-  - What approach was decided and why
-  - 2-business day [SLO](/handbook/engineering/workflow/code-review/#review-response-slo)
-    - We need to know when to start the clock on these as some issues can exist for months before being brought to the council. In this case, we should define within the issue when the clock does start.
-- There will be a DRI assigned to the issue that is being discussed
-- The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
-- The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
-- Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
-
-#### Considerations when determining the approach
-
-- Simplicity and elegance
-- Portability and/or modularity
-- Supportability
-- Maintainability
-- Scalability
-- Extensibility
-- Reliability
-- Security
-- Cost (will it impact .com for large customers)
-- Performance (speed and accuracy)
-- Consistency (Fit with existing code base)
-
-#### Capturing Resolved/Discovered Standards
-
-Common scenarios/architectural concepts will likely be resolved/discovered. These should be captured generically in an architectural guidelines page of the handbook and, if possible, codified into our processes/templates.
-
-##### Scope
-
-The table below captures characteristics (requirements?) of work that is in-scope, opt-in, or out-of-scope. All requirements must be met for each category.
-
-| Reason/Condition                                           | In-Scope | Opt-in | Out-of-Scope |
-|------------------------------------------------------------|----------|--------|--------------|
-| Does not involve architectural decisions                   |          |        | x            |
-| Is after-the-fact                                          |          |        | x            |
-| Is not already covered by architecture guidelines/handbook | x        | x      |              |
-| Has broad impact within #secure[^1]                        | x        |        |              |
-| Is a new unit of work                                      | x        | x      |              |
-| Is strictly #secure or #govern                             | x        | x      |              |
-| Could not come to an agreement (escalation)                |          | ?      |              |
-| Involves architecture decisions                            | x        | x      |              |
-
-[^1]: Meaning that the proposed work requires knowledge or impacts multiple groups
-
-#### Acceptance Criteria
-
-GitLab’s Stance for Architectural issues: https://about.gitlab.com/handbook/engineering/architecture/
-
-#### Team Representatives
-
-| Team                                                     | Representative                                                                   |
-|----------------------------------------------------------|----------------------------------------------------------------------------------|
-| [Composition Analysis](secure/composition-analysis/)     | {{< member-by-gitlab "fcatteau" >}}                                          |
-| [Security Policies](govern/security-policies/)           | {{< member-by-gitlab "sashi_kumar" >}}.                                              |
-| [Dynamic Analysis](secure/dynamic-analysis/)             | {{< member-by-gitlab "cam_swords" >}}                                        |
-| [Static Analysis](secure/static-analysis/)               | {{< member-by-gitlab "theoretick" >}}                                        |
-| [Threat Insights](govern/threat-insights/) BE            | {{< member-by-gitlab "minac" >}}                                             |
-| [Threat Insights](govern/threat-insights/) FE            | {{< member-by-gitlab "svedova" >}}                                           |
-| [Vulnerability Research](secure/vulnerability-research/) | {{< member-by-gitlab "idawson" >}}, {{< member-by-gitlab "julianthome" >}}|
-| [Compliance](govern/compliance/) | {{< member-by-gitlab "huzaifaiftikhar1" >}}|
-
-There may be a need for more than one team member per group, and also for team members to rotate in and out of the council depending on other priorities. In these cases team members should discuss with their direct manager, and open an MR to update their membership and share in the [#s_sec-architectural-council](https://gitlab.slack.com/archives/C012RKVK231) Slack channel.
-
-#### Page Performance
+## Page Performance
 
 Our team monitors [LCP](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp) (Largest Contentful Paint) to ensure performance is below our target (currently 2500ms).
 
 [LCP Dashboard for Secure owned pages](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-testname=gitlab&var-domains=gitlab_com&var-pages=API_Fuzzing_Config_UI&var-pages=DAST_Profiles&var-pages=On_Demand_Scans&var-pages=SAST_Config_UI&var-pages=Secure_Dependency_List&var-pages=Secure_License_Compliance&var-pages=Secure_Security_Configuration&var-pages=DAST_Config_UI&var-browser=chrome&var-function=median&var-connectivity=cable)
 
-#### How to work with the Quality team
+## Working with Product Design
 
-#### Working with Customer Support
+To streamline our workflow and ensure efficient collaboration between the Engineering and Product Design teams, we have established the following guidelines for UX involvement in merge request (MR) reviews:
+
+**Merge Request UX Review Requirement:**
+
+- A UX review is required only for work that has been explicitly designed by a Product Designer and should be reviewed by that Product Designer.
+- MRs that do not involve work explicitly designed by a Product Designer can be labeled as `UX Tech Debt` and merged without a UX review.
+
+**Handling High Priority UX Reviews:**
+
+- If a high-priority task arises that requires a UX review but was not planned during the milestone planning process, it should be discussed with the [Product Design Manager for Sec](/handbook/product/categories/#sec-section).
+- To accommodate this unexpected work, another task from the original milestone plan will need to be deprioritized or dropped.
+
+**Exceptions:**
+
+- These new guidelines do not apply to the Authentication, Authorization, and Pipeline Security groups, which will continue to operate under their current processes.
+
+## Working with Customer Support
 
 The Sec engineering teams do not provide support directly to customers. Instead engineers collaborate with our Customer Support Engineers via the [process on the Sec Sub-department support project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/).
 
-#### Frontend Responsibilities
+## Working on security tooling requests
+
+As GitLab grows, the Sec teams continue to build tooling that makes it easier to securely manage users for our largest customers. In doing so, managing team members on GitLab.com is an excellent use case where the features can be internally dogfooded before they are rolled out to our users. The Security and CorpSec teams can add the label `security tooling`, `section::sec` and the respective priority `priority::1/2/3` to tag an item that will help in such management of GitLab team members and needs to be added to the backlog. The [features page](/handbook/product/categories/features/) is handy in identifying where a particular functionality may belong, such that the correct EM/PM for the group can be tagged in the issue.
+
+The backlog for these issues can viewed at [Sec Security Tooling - issue](https://gitlab.com/groups/gitlab-org/-/boards/9065128?label_name[]=security%20tooling&label_name[]=section%3A%3Asec) for individual issues. Each month, product and security counterparts will [review these requests](https://gitlab.com/gitlab-com/Product/-/issues/?sort=created_date&state=opened&label_name%5B%5D=security%20tooling&first_page_size=100) and ensure that the priority items are scheduled into the roadmap.
+
+## How to work with the Quality team
+
+### Frontend Responsibilities
 
 1. Being able to identify what code changes would likely break E2E or System level tests and informing Quality.
 1. Not to write E2E tests, but to catch potential failures and communicate gaps in coverage before landing to master.
 
-#### Identifying potential breakages
+### Identifying potential breakages
 
 1. Look to see if issue you are working on [has existing test coverage](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/736). These are the tests likely to fail
 1. If you are working around code that contains a selector like `data-qa-selector="&lt;name&gt;"`, then there is likely to be an existing E2E test. Tests can be found by searching our [E2E tests in Secure](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa/qa/specs/features/ee/browser_ui/secure).
 
-#### Communicating changes that may break tests
+### Communicating changes that may break tests
 
 Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then #quality on slack or the [triage DRI](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) dependent on severity.
 

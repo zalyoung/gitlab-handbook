@@ -1,5 +1,4 @@
 ---
-
 title: "Scalability"
 ---
 
@@ -16,7 +15,7 @@ Frameworks help contextualize our thinking around a problem by breaking it into 
 
 ## Swimlanes
 
-*A “swim lane” or fault isolation zone is a failure domain. A failure domain is a group of services within a boundary such that any failure within that boundary is contained within the boundary and the failure does not propagate or affect services outside of the said boundary.*
+*A "swim lane" or fault isolation zone is a failure domain. A failure domain is a group of services within a boundary such that any failure within that boundary is contained within the boundary and the failure does not propagate or affect services outside of the said boundary.*
 
 ## The Scale Cube
 
@@ -33,7 +32,7 @@ Under this model, the axes represent the following scalability strategies:
 
 These are well-known strategies we are intuitively familiar with. The power of formally adopting the framework lies in that we can now contextualize these strategies and potentially *consider* several moves ahead in a systematic fashion. The following figure (source: https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png) depicts these axes:
 
-![https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png](img/scale_cube.png)
+![https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png](/images/engineering/architecture/practice/scalability/scale_cube.png)
 
 The Scale Cube model starts at coordinates `[0,0,0]`, where a single instance runs on one system: scalability is entirely dependent on the compute resources associated with the system, and it is scaled by adding more and faster computing resources (CPU, memory, disk). The limiting factor becomes the largest available computing resource, closely followed by cost.
 
@@ -52,13 +51,13 @@ A [recent analysis](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issu
 
 ## Scalability Best Practices
 
-This section collects scalability best practices, gathered over time through experience (ours and others’). They are **guidelines, not rules**, that we apply to work through these problems in a structured fashion, leveling the cognitive playing field.
+This section collects scalability best practices, gathered over time through experience (ours and others'). They are **guidelines, not rules**, that we apply to work through these problems in a structured fashion, leveling the cognitive playing field.
 
 ## `[AMF]` Always Monolith First
 
-The first rule of scalability is… don’t.
+The first rule of scalability is… don't.
 
-This is a variation on a well-known theme: functionality first, avoid premature optimization. Always start in the monolith, and only extract from it when there is a good reason to do so. A “good reason” is always a data-driven decision (via KPIs). Doing so will avoid unchecked proliferation of “services” inside the application, which is in itself a significant problem (unmanageable dependencies, orphaned or neglected services, etc). As a guardrail, we can set a strict limit on the number of “services” allowed within the application, and it should be organizationally difficult to raise that limit. It is important to note the implication is that the service may not be optimized and perform as well as the rest of the product. It should still be reliable or have a published error budget and performance target so that users can make an informed choice.
+This is a variation on a well-known theme: functionality first, avoid premature optimization. Always start in the monolith, and only extract from it when there is a good reason to do so. A "good reason" is always a data-driven decision (via KPIs). Doing so will avoid unchecked proliferation of "services" inside the application, which is in itself a significant problem (unmanageable dependencies, orphaned or neglected services, etc). As a guardrail, we can set a strict limit on the number of "services" allowed within the application, and it should be organizationally difficult to raise that limit. It is important to note the implication is that the service may not be optimized and perform as well as the rest of the product. It should still be reliable or have a published error budget and performance target so that users can make an informed choice.
 
 Remember, however, that scalability is a strategic practice, so keep the Scale Cube in mind: consider the relationships created by new entities carefully and within the scalability framework: what would happen if an entity needed to be componentized or federated in the future?
 
@@ -70,7 +69,7 @@ Never attempt to scale across two axes at the same time.
 
 **Componentization** breaks down a system into logical, interconnected components. **Federation** refers to [TODO: definition].
 
-![''](img/yz.png)
+![''](/images/engineering/architecture/practice/scalability/yz.png)
 
 Componentization provides scale by creating headroom throughout the freed up resources extracted from the system. It also allows us to scale them relatively independently of other components, as locally optimize and scale individual components as necessary: in general, we need only worry about appropriately scaling downstream dependencies, so as to not overwhelm them. In extreme cases, we may choose an entirely different class of datastore (for instance, we may determine that storing comments in a document database is more effective than doing so in a relational database; we are already doing this by migrating diffs off of Postgres into object storage).
 
@@ -102,7 +101,7 @@ Never federate relationships. Relationships are not true entities, even if they 
 
 ## `[NFE]` Never Federate Entities
 
-Much like we should never use an entity’s attribute as a primary key, we should never federate entities to create intrinsic swimlanes, which is to say, never use an entity’s attribute identifier as a swimlane identifier. Federate using an entity’s attribute allowing for multiple entities to share a swimlane. In the extreme case, N = 1, but not by making the entity’s identifier the swimlane’s identifier.
+Much like we should never use an entity's attribute as a primary key, we should never federate entities to create intrinsic swimlanes, which is to say, never use an entity's attribute identifier as a swimlane identifier. Federate using an entity's attribute allowing for multiple entities to share a swimlane. In the extreme case, N = 1, but not by making the entity's identifier the swimlane's identifier.
 
 ## `[FCC]` Federation is a Customer Choice
 
@@ -120,7 +119,7 @@ Sometimes, it makes sense to split a given component in terms of time. Pipelines
 
 ## Performance Indicators
 
-Performance indicators are scalability-related instrumentation that enables us to understand component and application scalability limits. They’re currently being worked on by the Scalability Team:
+Performance indicators are scalability-related instrumentation that enables us to understand component and application scalability limits. They're currently being worked on by the Scalability Team:
 
 * [**https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb**](https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb)
 * https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/382

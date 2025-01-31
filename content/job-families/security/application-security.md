@@ -32,7 +32,7 @@ extra_js:
 - Support the preparation of security releases.
 - Assist in development of security processes and automated tooling that prevent classes of security issues.
 
-Learn more about our role [on the Application Security Handbook page](/handbook/security/product-security/application-security/) including our work as [Stable Counterparts](/handbook/security/product-security/application-security/stable-counterparts.html) and our [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process.html)
+Learn more about our role [on the Application Security Handbook page](/handbook/security/product-security/application-security/) including our work as [Stable Counterparts](/handbook/security/product-security/application-security/stable-counterparts/) and our [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process/)
 
 ## Requirements
 
@@ -118,33 +118,6 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 - Strong development or scripting experience and skills. You're able to significantly and effectively contribute to the product and its security. Ruby and Ruby on Rails is a must.
 - Be a subject matter expert (SME) of at least 2 technical areas impacting the security of the product.
 
-### Distinguished Application Security Engineer
-
-This position reports to the [Product Security Director](/job-families/security/security-leadership/) role at GitLab.
-
-#### Distinguished Application Security Engineer Job Grade
-
-The role is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Distinguished Application Security Engineer Responsibilities
-
-- Includes all [Staff level responsibilities listed](#staff-application-security-engineer-responsibilities).
-- Drive the technical direction, roadmap, and [6-month architecture blueprints](/handbook/engineering/architecture/#architecture-at-gitlab) of the Application Security program.
-- Drive the business value relation of metrics calculations for the Application Security program.
-- Represent the Application Security team across and outside of GitLab as a subject matter expert in technology, development, and application security concepts.
-- Work in a leveraged manner influencing other organizations and teams across GitLab with application security approaches and a focus on problem solving.
-
-#### Distinguished Application Security Engineer Requirements
-
-- Includes all [Staff level requirements listed](#staff-application-security-engineer-requirements).
-- 10+ years previous experience on a Security Operations, Software Development, Application Security team, or relevant education.
-- Excellent written and verbal communication skills.
-- Expert scripting/coding skills in one or more languages - Python, Ruby, and/or Golang experience a plus.
-- Expert understanding of Internet security issues, application security technologies, cloud architectures, and threat landscape concepts.
-- Expert understanding of the Software as a Service (SaaS) model.
-- Experience leading efforts or managing application security teams working in the DevOps model.
-- Hands on experience architecting, automating, maintaining, and securing Cloud Computing Platforms - GCP experience a plus.
-
 ## Application Security Engineer Specialties
 
 ### US Federal
@@ -198,18 +171,18 @@ The Application Security Manager is a [grade 8](/handbook/total-rewards/compensa
 
 - Demonstrable prior people management experience.
 Enjoys working hard; is action-oriented and full of energy for the things he/she sees as challenging; not fearful of acting with a minimum of planning; seizes more opportunities than others.
-- Can effectively cope with change; can shift gears comfortably; can decide and act without having the total picture; isn’t upset when things are up in the air; doesn’t have to finish things before moving on; can comfortably handle risk and uncertainty.
+- Can effectively cope with change; can shift gears comfortably; can decide and act without having the total picture; isn't upset when things are up in the air; doesn't have to finish things before moving on; can comfortably handle risk and uncertainty.
 - Knows how businesses work; knowledgeable in current and possible future policies, practices, trends, and information affecting their business and organization; knows the competition; is aware of how strategies and tactics work in the marketplace.
-- Deals with problem reports firmly and in a timely manner; doesn’t allow problems to fester; regularly reviews performance and holds timely discussions; can make negative decisions when all other efforts fail; deals effectively with troublemakers.
+- Deals with problem reports firmly and in a timely manner; doesn't allow problems to fester; regularly reviews performance and holds timely discussions; can make negative decisions when all other efforts fail; deals effectively with troublemakers.
 - Makes good decisions (without considering how much time it takes) based upon a mixture of analysis, wisdom, experience, and judgment; most of their solutions and suggestions turn out to be correct and accurate when judged over time; sought out by others for advice and solutions.
-- Provides challenging and stretching tasks and assignments; holds frequent development discussions; is aware of each report’s career goals; constructs compelling development plans and executes them; pushes reports to accept developmental moves; will take reports who need work; is a people builder.
+- Provides challenging and stretching tasks and assignments; holds frequent development discussions; is aware of each report's career goals; constructs compelling development plans and executes them; pushes reports to accept developmental moves; will take reports who need work; is a people builder.
 - Is good at establishing clear guidance; sets stretching goals; distributes the workload appropriately; lays out work in a well-planned and organized manner; maintains two-way dialogue with others on work and results; brings out the best in people; is a clear communicator.
-- Is widely trusted; is seen as a direct, truthful; can present the unvarnished truth in an appropriate and helpful manner; keeps confidences; admits mistakes; doesn’t misrepresent him/herself for personal gain.
-- Doesn’t hold back anything that needs to be said; provides current, direct, complete, and “actionable” positive and corrective feedback to others; lets people know where they stand; faces up to people problems on any person or situation (not including direct reports) quickly and directly; is not afraid to take negative action when necessary.
+- Is widely trusted; is seen as a direct, truthful; can present the unvarnished truth in an appropriate and helpful manner; keeps confidences; admits mistakes; doesn't misrepresent him/herself for personal gain.
+- Doesn't hold back anything that needs to be said; provides current, direct, complete, and "actionable" positive and corrective feedback to others; lets people know where they stand; faces up to people problems on any person or situation (not including direct reports) quickly and directly; is not afraid to take negative action when necessary.
 - Assigns responsibility for tasks and decisions; sets clear goals and measures; monitors process, progress, and results; designs feedback loops into work.
 - Creates a climate in which people want to do their best; can motivate many kinds of reports and team or project members; can assess each person hot button and use it to get the best out of him/her; pushes tasks and decisions down; empowers others; invites input from each person and shares ownership and visibility; makes each person feel their work is important; is someone people like working for and with.
 - Scopes out length and difficulty of tasks and projects; sets goals; breaks down work into the process steps; develops schedules and task/people assignments; anticipates and adjusts for problems and roadblocks; measures performance against goals; evaluates results.
-- Uses rigorous logic and methods to solve difficult problems with effective solutions; probes all fruitful sources for answers; can see hidden problems; is excellent at honest analysis; looks beyond the obvious and doesn’t stop at the first answers.
+- Uses rigorous logic and methods to solve difficult problems with effective solutions; probes all fruitful sources for answers; can see hidden problems; is excellent at honest analysis; looks beyond the obvious and doesn't stop at the first answers.
 - Can be counted on to exceed goals successfully; is constantly and consistently one of the top performers; very bottom-line oriented; steadfastly pushes self and others for results.
 
 ### Application Security Senior Manager
@@ -247,7 +220,8 @@ For details on the Security organization leadership roles, to include the Produc
   graph LR;
   sec:se(Security Engineer, Application Security) --> sec:sse(Senior Security Engineer, Application Security);
   sec:sse(Senior Security Engineer, Application Security) --> sec:stse(Staff Security Engineer, Application Security);
-  sec:stse(Staff Security Engineer, Application Security) --> sec:dse(Distinguished Security Engineer, Application Security);
+  sec:stse(Staff Security Engineer, Application Security) --> sec:pse(Principle Security Engineer);
+  sec:pse(Principle Security Engineer, Application Security) --> sec:dse(Distinguished Security Engineer);
   sec:sse(Senior Security Engineer, Application Security)-->sec:sem(Security Manager, Application Security);
   sec:sem(Security Manager, Application Security)-->sec:sesm(Senior Security Manager, Application Security);
   sec:sesm(Senior Security Manager, Application Security)-->sec:ds(Director of Product Security);

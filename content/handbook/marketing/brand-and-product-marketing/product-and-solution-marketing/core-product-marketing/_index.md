@@ -5,12 +5,6 @@ title: Product Marketing Team
 description: "Product Marketing communicates GitLab business value internally and externally to position GitLab as a DevOps partner and solution."
 ---
 
-
-
-
-
-
-
 ## Product marketing at GitLab
 
 Product Marketing communicates GitLab business value internally and externally to position GitLab as a DevOps partner and solution. The team is responsible for product positioning, value messaging, and go-to-market strategy to support sales and outbound messaging with analysts, press, and prospects. Product Marketing also facilitates market feedback as key inputs into the GitLab product roadmap.
@@ -70,7 +64,7 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 ### Metrics and Measures
 
 1. ARR per solution: Product Marketing Managers are the "Product Managers of Marketing". In the same way a Product Manager is responsible for the product research & development, the Prouct Marketing Manager is responsible for the product go-to-market. In the same way PMs don't have direct authority over engineering, but they collaborate and lead by influence, PMMs don't have direct autority over sales and marketing execution but they collaborate and lead by influence.
-    - At GitLab, PMs are [measured on usage](/handbook/product/performance-indicators/) of their product area even though they don't have complete control over all of the factors that drive usage, it is a good proxy to help them make decisions that best impact the user.
+    - At GitLab, PMs are [measured on usage](https://internal.gitlab.com/handbook/company/performance-indicators/product/) of their product area even though they don't have complete control over all of the factors that drive usage, it is a good proxy to help them make decisions that best impact the user.
     - At GitLab, PMMs are measure on ARR of their solution(s) even though they don't have complete control over all of the factors that drive ARR, it is a good proxy to help them make decisions that best impact the buyer at every stage of the funnel/buyer journey.
 
 ### Solutions Go To Market
@@ -118,7 +112,7 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 
 ### Release vs. launch
 
-A [product release, and a marketing launch are two separate activities](http://www.startuplessonslearned.com/2009/03/dont-launch.html). The canonical example of this is Apple. They launch the iPhone at their yearly event and then release it months later. At GitLab we do it the other way: Release features as soon as they are ready letting customers use them right away, and then, do a marketing launch later when we have market validation.
+A [product release, and a marketing launch are two separate activities](https://www.startuplessonslearned.com/2009/03/dont-launch.html). The canonical example of this is Apple. They launch the iPhone at their yearly event and then release it months later. At GitLab we do it the other way: Release features as soon as they are ready letting customers use them right away, and then, do a marketing launch later when we have market validation.
 
 | Release | Launch |
 | ------- | ------ |

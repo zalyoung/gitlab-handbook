@@ -1,17 +1,10 @@
 ---
-
 title: "Engineering IC Leadership"
 ---
 
-
-
-
-
-
-
 ## Engineering IC Leadership at GitLab: going beyond Senior level
 
-At GitLab, it is expected that everyone is [a manager of one](/handbook/leadership/#managers-of-one). For Individual Contributors (IC) a new type of challenge begins with the Staff Engineer role. Engineering IC Leadership is an alternative [career path](/handbook/engineering/career-development/#roles) to Engineering Management.
+At GitLab, it is expected that everyone is [a manager of one](/handbook/leadership/#managers-of-one). For Individual Contributors (IC) a new type of challenge begins with the Staff Engineer role. Engineering IC Leadership is an alternative [career path](/handbook/engineering/careers/#roles) to Engineering Management.
 
 Just like moving into management, also moving from Senior to Staff changes the day-to-day work and expectations placed on ICs.
 
@@ -63,7 +56,7 @@ Examples of this are:
 Staff Engineers and Engineering Managers shared their perspective on [what does Staff level mean at GitLab](https://about.gitlab.com/blog/2020/02/18/staff-level-engineering-at-gitlab/) in an [Unfiltered](/handbook/marketing/blog/unfiltered/) blogpost.
 Much of what each engineer said overlapped, but each had a unique perspective based on their team and their particular experience within GitLab as an entity.
 
-There are [four common archetypes of Staff-plus roles in the industry](https://staffeng.com/guides/staff-archetypes) that could explain this variability their perspective:
+There are [four common archetypes of Staff-plus roles in the industry](https://staffeng.com/guides/staff-archetypes/) that could explain this variability their perspective:
 
 - The **Tech Lead** guides the approach and execution of a particular project. Most frequently they partner closely with a single manager, but sometimes they partner with two or three managers within a focused area. At GitLab, Tech Lead is not only an archetype, but it is also a [role](/handbook/engineering/ic-leadership/tech-lead)
 - The **Architect** is responsible for the direction, quality and approach within a critical area, both today and stretching into the multi-year future horizon. They combine a deep knowledge of technical constraints, user needs, and organization level leadership.
@@ -97,7 +90,7 @@ At GitLab [Architecture is a practice](/handbook/engineering/architecture/) wher
 Complex problems often require a Staff+ Engineer to handle the first iterations in order to reduce the level of complexity to a manageable state.
 Routinely being handed the hardest, least-specified, or most-uncertain work is part of this archetype. As well as guiding other ICs in the team when they're struggling to find a solution.
 
-[Other teams may need a Staff+ Engineer on loan](/handbook/engineering/career-development/#team-members-on-loan-to-another-team). The receiving team may or may not already have a Staff+ Engineer, a Solver deals with the problem at hand, and makes sure the team is empowered to take care of the work once the complexity level is manageable.
+[Other teams may need a Staff+ Engineer on loan](/handbook/engineering/careers/#team-members-on-loan-to-another-team). The receiving team may or may not already have a Staff+ Engineer, a Solver deals with the problem at hand, and makes sure the team is empowered to take care of the work once the complexity level is manageable.
 
 #### Right Hand
 

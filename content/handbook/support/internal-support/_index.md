@@ -1,5 +1,4 @@
 ---
-
 title: Working With GitLab Support
 description: How GitLab team members can work with and best ways to contact Support.
 ---
@@ -26,7 +25,7 @@ This is not an exhaustive list. For anything else you believe the Support team c
 
 ## GitLab Support's Purpose
 
-GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/business-technology/end-user-services/self-help-troubleshooting/).
+GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/it/end-user-services/self-help-troubleshooting/).
 
 ## Should I Contact GitLab Support?
 
@@ -104,7 +103,7 @@ Once Zendesk is assigned, you should be able to [log in](https://gitlab.zendesk.
 
 If your account is not assigned within 24 hours, please reach out via the Service Desk issue.
 
-Note that you cannot send public replies to customers with a Light Agent account. If you need to do this, please submit a [new Access Request issue for a paid full agent account](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and tag your manager for budget approval. If needed, you can [read more information](https://www.zendesk.com/company/collaboration-add-on-additional-features/) on Light Agent accounts from Zendesk.
+Note that you cannot send public replies to customers with a Light Agent account. If you need to do this, please submit a [new Access Request issue for a paid full agent account](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and tag your manager for budget approval. If needed, you can [read more information](https://support.zendesk.com/hc/en-us/articles/4408829504154-Collaboration-overview) on Light Agent accounts from Zendesk.
 
 ## Common Requests
 
@@ -268,7 +267,11 @@ A copy of the license email sent to the customer is automatically logged under t
 
 ### Request for a license as a GitLab Team Member
 
-[Open an Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) using the `GitLab_Team_Member_License_request` template
+File a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/):
+
+1. Fill in your work email
+2. Select "Request a team member license"
+3. Select a plan level
 
 ### GitLab.com Billable Members List
 

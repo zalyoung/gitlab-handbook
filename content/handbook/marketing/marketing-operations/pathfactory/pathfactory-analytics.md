@@ -1,20 +1,13 @@
 ---
-
 title: "PathFactory Analytics"
 description: "All roles and permissions have access to reporting functionality in PathFactory."
 ---
-
-
-
-
-
-
 
 ## PathFactory Analytics
 
 All roles and permissions have access to reporting functionality in PathFactory. Feel free to peruse `Path Analytics` or view insights in the content library and content tracks. If you would like a scheduled report or have a different PathFactory data request, create an issue in the Marketing Operations project. All of the below links lead to PathFactory's knowledgebase, _The Nook_. The Nook requires a separate password from PathFactory but you should use the same email address used to login to PathFactory.
 
-- [Glossary](https://lookbookhq.force.com/nook/s/article/glossary)
+- [Glossary](https://support.pathfactory.com/kb/glossary/)
 - [Diving into content analytics](https://customer.pathfactory.com/success-series/youtube-3?lx=v-9_uV&search=analytics)
 
 ### Using Safari
@@ -23,46 +16,46 @@ If you are using Safari as your preferred browser, ensure `Prevent cross-site tr
 
 ### Target Track Analytics
 
-1. [Analytics for a Specific Target Track](https://lookbookhq.force.com/nook/s/article/analytics-for-a-specific-target-track)
-1. [Analytics for All Target Tracks](https://lookbookhq.force.com/nook/s/article/analytics-for-all-target-tracks)
+1. [Analytics for a Specific Target Track](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-target-tracks/)
+1. [Analytics for All Target Tracks](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-target-tracks/)
 
 ### Recommend Track Analytics
 
-1. [Analytics for a Specific Recommend Track](https://lookbookhq.force.com/nook/s/article/analytics-for-a-specific-recommend-track)
-1. [Analytics for All Recommend Tracks](https://lookbookhq.force.com/nook/s/article/analytics-for-all-recommend-tracks)
+1. [Analytics for a Specific Recommend Track](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-target-tracks/)
+1. [Analytics for All Recommend Tracks](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-recommend-tracks/)
 
 ### Explore Page Analytics
 
-1. [Explore Page Analytics](https://lookbookhq.force.com/nook/s/article/explore-page-analytics)
+1. [Explore Page Analytics](https://support.pathfactory.com/kb/how-to-view-explore-page-performance-analytics/)
 
 ### ABM Analytics
 
-1. [Understanding Account Based Analytics](https://lookbookhq.force.com/nook/s/article/understanding-account-based-analytics)
-1. [Understanding Route Analytics](https://lookbookhq.force.com/nook/s/article/understanding-route-analytics)
+1. [Understanding Account Based Analytics](https://support.pathfactory.com/kb/understanding-account-based-analytics/)
+1. [Understanding Route Analytics](https://support.pathfactory.com/kb/understanding-route-analytics)
 
 ### Website Promoter Analytics
 
-1. [Website Promoter Analytics](https://lookbookhq.force.com/nook/s/article/website-promoter-analytics)
+1. [Website Promoter Analytics](https://support.pathfactory.com/kb/how-to-view-performance-analytics-for-your-content-using-website-tools/)
 
 ### Defining Visitor Activities
 
-1. [Understanding Visitor Activities](https://lookbookhq.force.com/nook/s/article/understanding-visitor-activities)
+1. [Understanding Visitor Activities](https://support.pathfactory.com/kb/understanding-visitor-activities/)
 
 ### Path Analytics
 
-1. [Introducing: Path Analytics](https://lookbookhq.force.com/nook/s/article/path-analytics-intro)
-1. [Path Analytics: Overview Dashboard](https://lookbookhq.force.com/nook/s/article/pa-overview)
-1. [Path Analytics: Visitors](https://lookbookhq.force.com/nook/s/article/pa-visitors)
-1. [Path Analytics: Accounts](https://lookbookhq.force.com/nook/s/article/pa-accounts)
-1. [Path Analytics: Content](https://lookbookhq.force.com/nook/s/article/pa-content)
-1. [Path Analytics FAQ](https://lookbookhq.force.com/nook/s/article/path-analytics-faq)
-1. [Using and Sharing Path Analytics Reports](https://lookbookhq.force.com/nook/s/article/looker-overview)
-1. [Types of Path Analytics Reports](https://lookbookhq.force.com/nook/s/article/looker-reports)
-1. [Path Analytics Reports FAQ](https://lookbookhq.force.com/nook/s/article/looker-reports-faq)
+1. [Introducing: Path Analytics](https://support.pathfactory.com/kb/introducing-path-analytics/)
+1. [Path Analytics: Overview Dashboard](https://support.pathfactory.com/kb/introducing-path-analytics/)
+1. [Path Analytics: Visitors](https://support.pathfactory.com/kb/path-analytics-visitors/)
+1. [Path Analytics: Accounts](https://support.pathfactory.com/kb/path-analytics-accounts/)
+1. [Path Analytics: Content](https://support.pathfactory.com/kb/path-analytics-content/)
+1. [Path Analytics FAQ](https://support.pathfactory.com/categories/analytics_faq/)
+1. [Using and Sharing Path Analytics Reports](https://support.pathfactory.com/kb/creating-analyzing-sharing-data-reports/)
+1. [Types of Path Analytics Reports](https://support.pathfactory.com/kb/introducing-path-analytics/)
+1. [Path Analytics Reports FAQ](https://support.pathfactory.com/categories/analytics_faq/)
 
 ### Using Account-Based Analytics
 
-1. [Using Account Based Analytics](https://lookbookhq.force.com/nook/s/article/account-based-analytics)
+1. [Using Account Based Analytics](https://support.pathfactory.com/kb/using-account-based-analytics/)
 
 ## Google Analytics
 

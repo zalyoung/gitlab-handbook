@@ -1,13 +1,6 @@
 ---
-
 title: "Secure Workshop"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -64,7 +57,7 @@ It is **highly recommended** that you have at least one other team member helpin
 
 ### Attendee Registration
 
-The recommended way to manage attendees is [creating a signup page](https://support.zoom.us/hc/en-us/articles/211579443-Setting-up-registration-for-a-meeting) for the workshop for your customer to share internally. The benefit of a signup page is that:
+The recommended way to manage attendees is [creating a signup page](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065026) for the workshop for your customer to share internally. The benefit of a signup page is that:
 
 - You can understand in advance the number of expected attendees, and prepare accordingly (i.e. by engaging volunteer resources to handle Q&A in chat)
 - You will know who is coming and can tailor content to specific levels/titles of attendees (don't forget to add a `title` question to your signup page!)

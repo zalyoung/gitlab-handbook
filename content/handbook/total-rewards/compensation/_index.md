@@ -5,8 +5,8 @@ description: Find answers to your questions about GitLab's compensation framewor
 
 ## Related Compensation Pages
 
-- [Compensation Calculator Formula]({{< ref "compensation-calculator" >}})
-- [Compensation Review Cycle]({{< ref "compensation-review-cycle" >}})
+- [Compensation Calculator Formula](/handbook/total-rewards/compensation/compensation-calculator/)
+- [Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/)
 
 ## Use the Compensation Calculator
 
@@ -25,23 +25,22 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We're an open organization, and we want to be as transparent as possible about our compensation principles. Our compensation model is open to data driven iterations.
 1. We are [paying local rates](#paying-local-rates) based on [cost of labor market](https://www.erieri.com/blog/post/cost-of-labor-vs-cost-of-living). There is *no* cost of living input in our compensation philosophy.
 1. Compensation aims to be at a [competitive rate](#competitive-rate) for your job family, your location, your level, your experience, and your contract type.
-1. We use a [compensation calculator]({{< ref "compensation-calculator" >}}) to ensure transparent and consistent compensation.
+1. We use a [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/) to ensure transparent and consistent compensation.
 1. We do not disclose individual compensation since compensation is [not public](/handbook/communication/confidentiality-levels/#not-public).
 1. We adjust our calculator based on survey data, feedback from applicants and team members, and candidate data. Please email `total-rewards@ gitlab` if you want to contribute.
 1. We offer [restricted stock units (RSUs)](/handbook/total-rewards/stock-options/) for most positions.
 1. We base compensation on current position and performance at GitLab – not on what we paid you last month – and, generally, we don't reduce compensation.
 1. Increases within the market pay bands will be based on performance.
     - At hire, we base our compensation offer on the position and experience in the market.
-    - For promotions, increases are based on ensuring alignment to the new role’s market range.
-    - At [Annual Compensation review]({{< ref "compensation-review-cycle#annual-compensation-review" >}}), increases will ensure alignment to the market (by being within the entire range of the calculator), and resources will be allocated to top performing team members within the organization.
+    - For promotions, increases are based on ensuring alignment to the new role's market range.
+    - At [Annual Compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review), increases will ensure alignment to the market (by being within the entire range of the calculator), and resources will be allocated to top performing team members within the organization.
 1. GitLab will continue to monitor [pay equality](/handbook/people-group/people-success-performance-indicators/#sts=Pay%20Equality) to ensure underrepresented groups are paid at the same rate as the company.
 1. We want to follow the processes on this page for everyone, please email `total-rewards@ gitlab` when we don't. If you have a specific question around your compensation or one of your direct reports' please schedule a call with `total-rewards@ gitlab` to review.
 1. We will update this page and the processes throughout the year.
 1. We'll review your pay as soon as your job-family or level factor changes.
-1. If we change our [SF benchmark]({{< ref "compensation-calculator#sf-benchmark" >}}) for a job family without changing the requirements, we review the compensation both for existing team members and new hires. If the SF benchmark is changed together with the requirements this review might happen at the time of the change or in our yearly cycle.
-1. We offer [bonuses and incentives]({{< ref "incentives" >}}), but we don't offer ping pong tables or free lunches. We think it is more important to offer people flexibility and freedom. See the [Top 10 reasons to work for GitLab on our culture page](/handbook/company/culture/#advantages/).
+1. If we change our [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark) for a job family without changing the requirements, we review the compensation both for existing team members and new hires. If the SF benchmark is changed together with the requirements this review might happen at the time of the change or in our yearly cycle.
+1. We offer [bonuses and incentives](/handbook/total-rewards/incentives/), but we don't offer ping pong tables or free lunches. We think it is more important to offer people flexibility and freedom. See the [Top 10 reasons to work for GitLab on our culture page](/handbook/company/culture/#advantages/).
 1. We hire across the globe, but we're not location agnostic. Your timezone, the location factor in your region, and the vicinity to users, customers, and partners can all be factors. For example, we may favor one applicant over another because they live in a region with a lower location factor or because we need someone in that timezone.
-1. All things being equal, factors such as whether a candidate is in an underrepresented group or a lower-cost market vs higher-cost market can help us come to hiring decisions. In this case, both factors are equally weighted and business needs will inform the final hiring decision.
 1. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission.
 1. Compensation decisions around level and experience levels and for functions not in the calculator are taken by the [Compensation Group](#compensation-group).
 
@@ -51,15 +50,15 @@ If you have any feedback or questions relating to compensation, please reach out
 Our requirements for all [job-families](/handbook/hiring/job-families/) are at **or above** the average in the market.
 Therefore, we can expect to be at or above the 50th percentile of the survey data gathered from providers like Comptryx and Radford.
 Please do not use the term market rate since this can mean either competitive rate or survey data.
-Also see our [SF benchmark]({{< ref "compensation-calculator#sf-benchmark" >}}).
+Also see our [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark).
 
 When discussing a competitive rate for a single person at GitLab, please refer to this as their lottery factor. For example, if this person won the lottery and left the company what impact would that have. Other common industry terms are walk away factor or bus factor, but those both hold a negative connotation.
 
 ### Placement in the Compensation Range
 
-As part of offering a competitive rate within our [transparent Compensation Calculator]({{< ref "compensation-calculator#the-compensation-calculator" >}}), team members are able to see where they fall within the compensation range for their role in their location. Typically in the technology sector, the majority of team members are likely to sit between the minimum and slightly above the median of the overall compensation range. It is not common to see a team member at the top of the range as this would leave little to no room for salary growth.
+As part of offering a competitive rate within our [transparent Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator/#the-compensation-calculator), team members are able to see where they fall within the compensation range for their role in their location. Typically in the technology sector, the majority of team members are likely to sit between the minimum and slightly above the median of the overall compensation range. It is not common to see a team member at the top of the range as this would leave little to no room for salary growth.
 
-It is important to note that where someone falls within the compensation range is *not* an indicator of performance, nor is it a sign of promotional readiness. For more information on how performance is linked to compensation please review the following [handbook section]({{< ref "compensation-review-cycle#performance-factor" >}}). This is *different* from the Compa Groups GitLab used to have when the bands were more narrow. Additionally, where a team member sits in the range may change as GitLab's compensation philosophy around competitive rates iterates to allow more room for salary growth.
+It is important to note that where someone falls within the compensation range is *not* an indicator of performance, nor is it a sign of promotional readiness. For more information on how performance is linked to compensation please review the following [handbook section](/handbook/total-rewards/compensation/compensation-review-cycle/). This is *different* from the Compa Groups GitLab used to have when the bands were more narrow. Additionally, where a team member sits in the range may change as GitLab's compensation philosophy around competitive rates iterates to allow more room for salary growth.
 
 ### Sharing Compensation
 
@@ -97,7 +96,7 @@ We have a market-based approach to compensation because:
 1. It allows for us to adapt to market changes, thus remaining competitive for local talent
 1. Role, location, and level benchmarks keep compensation bands consistent. Market-based benchmarks also help with keeping it fair and consistent rather than expecting our team members to negotiate their pay.
 1. Prevents wage compression which occurs when new employees negotiate and get higher wages than those being paid to current team members.
-1. As long as budget permits, we do what’s right for the market even if it means paying a team member higher than their “expected” pay.
+1. As long as budget permits, we do what's right for the market even if it means paying a team member higher than their "expected" pay.
 
 ## Compensation Group
 
@@ -115,7 +114,7 @@ The Compensation Group is comprised of the CEO, CFO, and Chief People Officer. T
 
 ## Compensation for Acting and Interim Roles
 
-Effective Q2 of FY 2021, we have established a one time bonus payment process for team members that are asked to step into an acting or interim management role. Team Members in an acting or interim management role should review [the expectations of an individual in the management group]({{< ref "structure#management-group" >}}).
+Effective Q2 of FY 2021, we have established a one time bonus payment process for team members that are asked to step into an acting or interim management role. Team Members in an acting or interim management role should review [the expectations of an individual in the management group](/handbook/company/structure/#management-group).
 
 ### Criteria for Eligibility
 
@@ -137,7 +136,7 @@ For team members on a base salary compensation plan, your bonus will be an addit
 
 - `(Annual Base Salary in Local Currency/365) x .10 (10%) x # of Calendar Days in the Interim Role`
 
-For team members on an OTE (On Target Earnings) compensation plan in Go-to-Market roles, interim compensation will be based on results achieved by the interim team in the interim period:
+For team members on an OTE (On Target Earnings) compensation plan in Go-to-Market roles, interim compensation will generally be based on results achieved by the interim team in the interim period:
 
 - Interim leaders will dotted-line manage the new team, meaning they will not assume direct management of the team in Workday, but will instead act as a temporary leader. As such, quotas will not change during the interim period.
 - When interim managing a lateral team:
@@ -146,6 +145,7 @@ For team members on an OTE (On Target Earnings) compensation plan in Go-to-Marke
   - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate) for the higher leadership position
 - Standard commissions payments will continue for the duration of the interim role
 - All in-plan (within OTI) components are eligible to be included in an interim bonus calculation for a GTM role, e.g. Net ARR, New Logo, Professional Services Bookings, etc.
+- For teams measured on pooled compensation plans (e.g. SAs and CSMs), interim bonuses will be based on OTE for the interim role while in seat instead of performance: (Annual OTE in local currency/365) / x .10 (10%) x # of Calendar Days in the Interim Role
 - All people managers in GTM roles are candidates for interim management assignments, outside of members of the CRO or CMO leadership teams, i.e. direct reports of the CRO or CMO
 - Total bonus payments for GTM team members in an interim management role shall not exceed $50,000 USD for a single interim leadership assignment
 
@@ -155,7 +155,7 @@ For team members on an OTE (On Target Earnings) compensation plan in Go-to-Marke
 
 #### Tracking
 
-Interim/acting roles should be tracked in Workday, in some cases the process is initated in Greenhouse or may also be tracked in the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0) managed by the People Connect Team.
+Interim/acting roles should be tracked in Workday, in some cases the process is initiated in Greenhouse or may also be tracked by the manager by completing a Submission of Acting Role for a Team Member [form](https://forms.gle/KdB4TBtfuHxgGLzE8).
 
 Guidance on different processes can be found below:
 
@@ -174,21 +174,21 @@ Workday examples:
 - An Engineering Manager takes on an interim role as a Senior Engineering Manager
 - A Product Manager takes on an interim role as a Senior Backend Engineer (after having gone through an interview process)
 
-The process for tracking interim/acting roles in both cases is as follows:
+The process for tracking interim/acting roles is as follows:
 
-1. Managers send an email to `people-connect@gitlab.com` with their People Business Partner in copy with the following information:
+1. *(For Acting)*, Managers will align with their Manager and People Business Partner and align on the following:
     - Whether the role is interim or acting
     - Whether the role is in a new job family or the same job family
     - Whether the interim/acting role is lateral or a higher level
     - The effective start date of the interim/acting period
-1. *(for interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday, but exclusively on the spreadsheet.
-1. People Connect will either, 1) confirm that the interim/acting period has been added to the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0), or 2) confirm that the job title has been added to Workday.
+    - Once agreed and approved, Managers will submit the [Submission of Acting Role for a Team Member form](https://docs.google.com/forms/d/e/1FAIpQLSd5CkHvcDYx6oaNzrAm8QqFZpCVLcoDrcTpaAl-cuKCUERc2A/viewform).
+1. *(For Interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday.
 
 #### Submitting
 
 When the interim/acting period ends, the following process should be followed to submit the interim bonus request:
 
-- *(For Acting bonuses)* The manager replies to the initial email to `people-connect@gitlab.com` and their People Business Partner to confirm the start/end date of the acting period and their initial bonus calculation
+- *(For Acting bonuses)* The manager references the start/end dates Acting period as initially submitted through the Acting form for the bonus calculation.
 - *(For Interim bonuses)* The manager references the Workday `Job` tab and clicks into `Job History` and review the 'Business Title' column to confirm the start date of the interim period
 - Once confirmed, the Manager submits the bonus in Workday. Follow the [Request a One-Time Payment job-aid](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit?usp=sharing) to submit an OTP. Manager must also provide the start and end date of the of interim period in Workday under the *Additional Information* section in Workday
 
@@ -211,11 +211,11 @@ The compensation calculator is updated using the November 1 point in time exchan
 
 The updates to the handbook, compensation calculator, and Workday for the November 1 rates will be made between December and January with an effective date of February 1.
 
-Adjustments to existing team members' compensation who are paid in local currency are made **only during** the applicable [compensation review cycle]({{< ref "compensation-review-cycle" >}}).  We only adjust compensation during the review cycle since being paid in local currency means that your local purchasing power does not change.
+Adjustments to existing team members' compensation who are paid in local currency are made **only during** the applicable [compensation review cycle](/handbook/total-rewards/compensation/compensation-review-cycle/).  We only adjust compensation during the review cycle since being paid in local currency means that your local purchasing power does not change.
 
 #### Exchange Rates for Bonus Processing
 
-All [one-time bonuses]({{< ref "incentives" >}}) including Discretionary, Referral, and Working Group Bonuses where the intended value is awarded in USD will be converted to local currency using the set exchange rates above. This is a reversion of the prior policy put in place to use monthly rates with the reversion going into effect as of September 1, 2023. In the future, when we are able to put an efficient process in place for maintaining more up-to-date conversion rates in Workday, we will further revise this policy to use more current rates.
+All [one-time bonuses](/handbook/total-rewards/incentives/) including Discretionary, Referral, and Working Group Bonuses where the intended value is awarded in USD will be converted to local currency using the set exchange rates above. This is a reversion of the prior policy put in place to use monthly rates with the reversion going into effect as of September 1, 2023. In the future, when we are able to put an efficient process in place for maintaining more up-to-date conversion rates in Workday, we will further revise this policy to use more current rates.
 
 ### Not paid in your local currency
 
@@ -229,14 +229,14 @@ GitLab is committed to following all applicable wage and working hours laws and 
 
 ## Sales Compensation
 
-Sales and Sales Development roles at GitLab that are subject to quota and paid commission based on the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/) are not located in the [compensation calculator]({{< ref "compensation-calculator" >}}). This includes roles in the following departments:
+Sales and Sales Development roles at GitLab that are subject to quota and paid commission based on the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/) are not located in the [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/). This includes roles in the following departments:
 
 - Channel
 - Commercial Sales
 - Enterprise Sales
 - Sales Development
 
-These roles are still [benchmarked using market data]({{< ref "compensation-calculator#sf-benchmark" >}}) and are assigned to a pay differential zone based on their [location factor]({{< ref "compensation-calculator#location-factor" >}}) according to the following table:
+These roles are still [benchmarked using market data](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark) and are assigned to a pay differential zone based on their [location factor](/handbook/total-rewards/compensation/compensation-calculator/#location-factor) according to the following table:
 
 | Zone | Location Factor Range | Zone Differential |
 | ---- | --------------------- | ----------------- |
@@ -264,7 +264,7 @@ The Variable Pay Frequency is a field held in Workday and applicable to roles th
 
 ## Director Compensation
 
-Director compensation is determined as part of the [GitLab Compensation Calculator]({{< ref "compensation-calculator" >}}) and is comprised of base salary and bonus. The location factors for Directors have a floor built in where the location factor for a team member is subject to either the US Director Minimum location factor of 0.8 or Global Director Minimum location factor of 0.7. If someone is in a location with a higher location factor then this minimum does not apply and the higher location factor will be used.
+Director compensation is determined as part of the [GitLab Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator/) and is comprised of base salary and bonus. The location factors for Directors have a floor built in where the location factor for a team member is subject to either the US Director Minimum location factor of 0.8 or Global Director Minimum location factor of 0.7. If someone is in a location with a higher location factor then this minimum does not apply and the higher location factor will be used.
 
 Directors who are not already enrolled in the Sales Compensation Plan or other performance incentive plan are eligible for a 15% bonus of current base salary. More information on the bonus plan can be found in the [Company Director and above Bonus Plan](#company-director-and-above-bonus-plan) section.
 
@@ -328,7 +328,7 @@ The Compensation Leadership Development Committee approves all bonus payouts for
 
 ## Compensation Data Analysis and Modeling Sheet
 
-This is an internal process for the Total Rewards team which details how to refresh the Compensation Data Analysis and Modeling sheet which is used for processes such as calculating [percent outside of compensation band](/handbook/people-group/people-group-metrics/#percent-over-compensation-band).
+This is an internal process for the Total Rewards team which details how to refresh the Compensation Data Analysis and Modeling sheet which is used for processes such as calculating [percent outside of compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band).
 
 To update:
 
@@ -362,21 +362,21 @@ This training includes details such as:
 - [Why do we have the compensation framework we have now?](#gitlabs-compensation-principles)
 - [Why does GitLab aim to pay a competitive rate?](#competitive-rate)
 - [Why does GitLab pay local rates?](#paying-local-rates)
-- [Why does GitLab have a Compensation Calculator?]({{< ref "compensation-calculator#the-compensation-calculator" >}})
+- [Why does GitLab have a Compensation Calculator?](/handbook/total-rewards/compensation/compensation-calculator/#the-compensation-calculator)
 
 ### The What Questions
 
-- [What is the foundation of GitLab's compensation framework?]({{< ref "compensation-calculator#the-compensation-calculator" >}})
-- [What is the formula of the Compensation Calculator or otherwise known as the Calculator "Inputs" or "Factors"?]({{< ref "compensation-calculator#the-compensation-calculator-formula" >}})
-- [What does the SF Benchmark mean on the Compensation Calculator?]({{< ref "compensation-calculator#sf-benchmark" >}})
-- [What does the Location Factor mean on the Compensation Calculator?]({{< ref "compensation-calculator#location-factor" >}})
+- [What is the foundation of GitLab's compensation framework?](/handbook/total-rewards/compensation/compensation-calculator/#the-compensation-calculator)
+- [What is the formula of the Compensation Calculator or otherwise known as the Calculator "Inputs" or "Factors"?](/handbook/total-rewards/compensation/compensation-calculator/#the-compensation-calculator-formula)
+- [What does the SF Benchmark mean on the Compensation Calculator?](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark)
+- [What does the Location Factor mean on the Compensation Calculator?](/handbook/total-rewards/compensation/compensation-calculator/#location-factor)
 - [What does the Exchange Rate mean on the Compensation Calculator?](#exchange-rates)
 
 ### The How Questions
 
-- [How do we continue to make sure that our team members are compensated according to their skill level and receive equitable pay?]({{< ref "compensation-review-cycle#compensation-review-cycle" >}})
-- [How do we make sure that the different Compensation Calculator inputs remain relevant and competitive to market?]({{< ref "compensation-review-cycle#annual-compensation-review" >}})
-- [How does the Total Rewards team carry out the Annual Compensation Review?]({{< ref "compensation-review-cycle#annual-compensation-review-timeline" >}})
+- [How do we continue to make sure that our team members are compensated according to their skill level and receive equitable pay?](/handbook/total-rewards/compensation/compensation-review-cycle/)
+- [How do we make sure that the different Compensation Calculator inputs remain relevant and competitive to market?](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review)
+- [How does the Total Rewards team carry out the Annual Compensation Review?](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review-timeline)
 
 ## Knowledge Assessment
 

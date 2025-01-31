@@ -18,6 +18,7 @@ As part of [GitLab Support on-call](/handbook/support/on-call/), Support Manager
 1. Ensuring customer emergencies are [handled promptly and accurately](#handling-customer-emergencies-and-incidents), [according to SLAs](https://about.gitlab.com/support/)
 1. [Handling Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests) during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation)
 1. Acting as a [notification point for security incidents](#act-as-a-notification-point-for-security-incidents)
+1. [Finding a Support Manager DRI for an Account Escalation](#finding-a-support-manager-dri-for-an-account-escalation)
 1. Help avoid SLA breaches. See [Working on Tickets](/handbook/support/workflows/working-on-tickets) for details.
 
 **Note:** You (or the CMOC/CEOC) may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
@@ -34,6 +35,7 @@ The [Support Engineer on-call](/handbook/support/on-call/) is the first responde
 - During an emergency: find additional staff for subject-matter expertise; replace the on-call engineer if needed; lead any Zoom call(s) as needed; hand off the emergency to the next on-call manager.
 - Find additional staff when there are [multiple emergencies](/handbook/support/on-call/#handling-multiple-simultaneous-emergencies).
 - Convert [customer emergencies into Account Escalations](/handbook/support/workflows/emergency-to-escalation-process) as needed.
+- The CMOC should coordinate a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) when an incident requires a non-standard workflow or communication from Support. Support the CMOC by ensuring there is clarity and communication with relevant decision-makers in Support or other teams. You can also create the [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) if this has not yet been done.
 
 ### Situations that Might or Might not Be Emergencies
 
@@ -70,7 +72,7 @@ Your responsibilities are as follows:
 1. Triage and investigate customer tickets and Internal Requests that are announced in the `#support_ticket-attention-requests` Slack channel.
 1. Establish ownership and assignment for starred tickets.
 
-You can use [Support Team Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject) to find appropriate engineers to assign.
+You can use [Support Team Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find appropriate engineers to assign.
 
 A very high percentage of starred tickets involve licenses and renewals. For guidance in handling these, please see the [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions).
 
@@ -94,7 +96,7 @@ Some steps of STAR treatment are handled by bots and auto-responders. The text `
 1. Assess the ticket, and the business case justifying the request (triage).
    - Questions to the initiator can be put in Slack (synchronous) or in the STAR Issue (asynchronous).
    - Final dispensation should be documented in the STAR Issue, because Slack history disappears.
-1. If you need input or help from engineers, initiate a new thread in either the [Slack channel of the SGG](/handbook/support/support-global-groups/#slack) the ticket belongs to, `#support_gitlab-com`, `#support_self-managed` or `#support_licensing-subscription`.
+1. If you need input or help from engineers, initiate a new thread in `#support_gitlab-com`, `#support_self-managed` or `#support_licensing-subscription`.
    - @ mention the assigned engineer and any engineer who previously replied in the ticket, if they are working this day
    - Then return to the thread in `#support_ticket-attention-requests` and comment that all **technical** discussion is happening in the ticket (or in the new thread). This helps ensure all technical discussion stays in one channel/thread.
    - When seeking an engineer to act as the DRI or otherwise move the ticket forward, it is best to identify a Support Engineer who is not on-call or already working on a starred ticket. This helps to ensure that the engineer who assists with the new starred ticket has enough bandwidth to prioritize it.
@@ -116,6 +118,10 @@ When a STAR is resolved:
     - `~Escalation::License-Issue` : Identifies the core issue at hand resolves around licensing / subscriptions
     - `~Escalation::Response-Time` : Useful when the purpose of the request is to expedite a response to an issue or case
 
+## Finding a Support Manager DRI for an Account Escalation
+
+In case an Account Escalation opens where support involvement is needed, it is the responsibility of the support manager on-call to find a Lead Support Manager. In case this is an ASE account (you can find this in the org notes) please ping Mike Dunninger (AMER), Ilia Kosenko (EMEA) or Wei Meng Lee (APAC). 
+
 ## Handling mid ticket feedback requesting manager contact during business hours
 
 Mid-ticket feedback link -- each Public Comment from a GitLab Support Engineer or Manager has a link to a form where a customer can provide feedback or request contact from a manager while the ticket is open (introduced in issue [2913](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2913)).
@@ -135,8 +141,6 @@ The following action should be taken promptly:
 ## Act as a notification point for security incidents
 
 When GitLab experiences a [security incident](/handbook/security/security-operations/sirt/security-incident-communication-plan#extended-team-roles-responsibilities-and-points-of-contact), the Support Manager on-call is responsible for triaging and responding to customer communications stemming from the security incident. This may include involving the [CMOC](/handbook/support/workflows/cmoc_workflows).
-
-## Provide assistance with Upgrade Assistance Requests
 
 [Upgrade assistance requests](https://about.gitlab.com/support/scheduling-upgrade-assistance/) are currently triaged by engineers as part of the [Working on Tickets](/handbook/support/workflows/working-on-tickets) but in some cases the triaging agent(s) may need assistance from Support management.
 

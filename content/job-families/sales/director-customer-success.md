@@ -8,7 +8,7 @@ The Director of Customer Success Job Family, builds and leads the customer succe
 
 ### Director of Customer Success
 
-The Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/).
+The Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success).
 
 #### Director of Customer Success Job Grade
 
@@ -54,11 +54,11 @@ The Director of Customer Success  is a job grade [level 10](/handbook/total-rewa
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Senior Director of Customer Success
 
-The Senior Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/).
+The Senior Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success).
 
 #### Senior Director of Customer Success Job Grade
 
@@ -99,7 +99,7 @@ ans that enhance and integrate into GitLab's Go-To-Market strategies and plans, 
 
 ## Career Ladder
 
-The Director, Customer Success job family would move into the VP, Customer Success [Job Family](/job-families/sales/vp-of-customer-success/).
+The Director, Customer Success job family would move into the VP, Customer Success [Job Family](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success).
 
 ## Hiring Process
 

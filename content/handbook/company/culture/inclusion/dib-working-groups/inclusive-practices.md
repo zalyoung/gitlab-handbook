@@ -47,9 +47,9 @@ This is a non-comprehensive list of topics to be discussed.
 | Working Group Role      | Username        | Person                                                                   | Title                                                           |
 | :---------------------- | :-------------- | ------------------------------------------------------------------------ | :-------------------------------------------------------------- |
 | Executive Stakeholder   | |  |  |
-| Facilitator             | @mbrgg | Marina Brownrigg | Diversity, Inclusion & Belonging Partner |
+| Facilitator             | @lmcnally | Liam McNally | Diversity, Inclusion & Belonging Manager |
 | Member                  | @sean_carroll | Sean Carroll | Engineering Manager, AI: Custom Models  |
-| Member                  | @nrosandich | Nate Rosandich | Engineering Manager, Govern:Compliance |
+| Member                  | @nrosandich | Nate Rosandich | Engineering Manager, Software Supply Chain Security:Compliance |
 | Member                  | @eirinipan  | Eirini Pan | Sr. Marketing Campaigns Manager |
 | Member                  | @srances  | Shari Rances | Senior Campaign Marketing Manager |
 | Member                  | @pmejia  | Pilar Mejia | Sr. Distribution Manager (PubSec) |

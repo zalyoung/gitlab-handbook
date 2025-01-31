@@ -1,20 +1,12 @@
 ---
-
 title: Development Department Learning and Development
 ---
-
-
-
-
-
-
-
 
 ## Resources
 
 ### Secure coding best practices
 
-It is important that all developers are aware of [secure coding best practices](/handbook/security/secure-coding-training.html) and refresh this knowledge periodically. This is tracked via Secure Coding Training Guidelines.
+It is important that all developers are aware of [secure coding best practices](/handbook/security/secure-coding-training/) and refresh this knowledge periodically. This is tracked via Secure Coding Training Guidelines.
 
 ### Ruby on Rails Performance Training
 
@@ -39,9 +31,7 @@ Here is the information of a PostgreSQL query optimization bot at GitLab - Joe: 
 
 [Frontend Masters](https://frontendmasters.com) allows you to advance your skills with in-depth, modern frontend engineering courses.
 
-GitLab has an account with Frontend Masters and team members can gain access to it by creating an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and select the best option for your situation ([single user](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request), [bulk user](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request), etc.) and, once approved by your manager, assign to the Access Request Provisioner listed in the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for this system. Once your access has been provisioned, you will receive an email to activate your account.
-
-You can also join the [#frontendmasters](https://gitlab.slack.com/archives/C0151MXP6JH) Slack channel for course recommendations and discussion.
+Team members can use the Growth and Development Fund to request a subscription by following the process outlined at https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/.
 
 ### GraphQL
 
@@ -69,12 +59,12 @@ These meetings are currently run on a **weekly** cadence, alternating between ti
 
 One of the paths for engineers to progress in their career is a Management path. To explain more about the role
 of Engineering Managers in GitLab, there is a series of conversations with team members explaining details of their work and their experience transitioning to management
-[here](/handbook/engineering/development/training/em-role/index.html).
+[here](/handbook/engineering/development/training/em-role/).
 
 ### IC Leadership
 
 Staff+ engineers and ICs aspiring to become Staff can benefit from resources and recommendations described
-[here](/handbook/engineering/development/training/staff-plus-role.html).
+[here](/handbook/engineering/development/training/staff-plus-role/).
 
 ## Edcast / GitLab Learn
 

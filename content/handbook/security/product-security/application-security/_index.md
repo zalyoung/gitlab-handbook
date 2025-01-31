@@ -1,8 +1,6 @@
 ---
 title: "Application Security"
 description: "The application security team's mission is to support the business and ensure that all GitLab products securely manage customer data."
-aliases:
-- /handbook/security/security-engineering/application-security
 ---
 <!-- markdownlint-disable MD052 -->
 
@@ -14,11 +12,21 @@ As part of the Product Security department, the application security team's miss
 
 Team members can reach the AppSec team by:
 
-- Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
-- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Finding your Stable Counterpart on the [Product sections, stages, groups, and categories](/handbook/product/categories/) page
+- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues)
+- Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
+
+## PTO
+
+Team members that are taking PTO for 5 days or more [must create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organise their coverage during their time off. The PTO coverage issue should :
+
+- List any potential requests that could come to the team while on PTO
+- The team member taking PTO shoud organise their work accordingly and ensure the PTO coverage issue contains the context required to handle the work
+- Assign primary and secondary responsible team members
+
+AppSec team members should add any important information related to the work they are covering for the person on PTO and AppSec manager(s) should add any important announcement to see upon their return.
 
 ## Application Security Roadmap
 
@@ -64,7 +72,7 @@ Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook
 
 ## Application Security Engineer Runbooks
 
-Please see the [Application Security Engineer Runbooks page index](runbooks})
+Please see the [Application Security Engineer Runbooks page index](runbooks)
 
 ## Meeting Recordings
 
@@ -99,7 +107,7 @@ Learn how to identify or remediate security issues using real examples with GitL
 
 ## Reproducible Builds
 
-Learn how GitLab is implementing [Reproducable Builds]({{< ref "reproducible-builds" >}}) for our build processes.
+Learn how GitLab is implementing [Reproducible Builds]({{< ref "reproducible-builds" >}}) for our build processes.
 
 ## Milestone Planning
 

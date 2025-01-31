@@ -2,8 +2,6 @@
 title: UX Forum
 description: >-
   The UX Forum is a recurring meeting for UX team members to share and discuss their work.
-aliases:
-- /handbook/product/ux/ux-showcase/
 ---
 
 ## About UX Forum
@@ -116,7 +114,7 @@ Examples of minimal forums:
 - When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you speak to make it more linear and easy to follow for the audience.
 - Is your internet connection limited? Stop the Zoom camera feed or try [these tips](https://www.canr.msu.edu/od/educational-technology/tips-zoom-slow-connection).
 - Ask people to share their questions after a section of your story.
-- It’s normal to have anxiety when everyone is looking at you. Remember: We’re here to support each other, not to judge each other.
+- It's normal to have anxiety when everyone is looking at you. Remember: We're here to support each other, not to judge each other.
 - To increase collaboration and transparency after the meeting, consider linking to your recording from the related epics or issues.
 
 For more tips, see the [communication handbook page](/handbook/communication/#presentations).
@@ -139,7 +137,7 @@ Otherwise:
 1. Name the videos with "UX Forum" + the title of the topic.
 1. Check with speakers to make sure the video is appropriate for the public (no customer names).
 1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz).
-1. Add the videos to the [UX Forum playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
+1. Add the videos to the [UX Forum playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5), and the Product Monthly Showcase for the current month (i.e., [Product Monthly Showcase: December 2024](https://www.youtube.com/playlist?list=PL05JrBw4t0KoRwzPizeglQisOZtgyCxAN)).
 1. Set the visibility to Public.
    1. NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
 1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each topic.

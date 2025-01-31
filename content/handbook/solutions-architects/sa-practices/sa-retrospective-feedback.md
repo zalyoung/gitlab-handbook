@@ -1,8 +1,6 @@
 ---
-
 title: Solution Architecture Retrospective Feedback
 ---
-
 
 The worldwide Solution Architecture team, as a learning organization believes that we can be more successful by receiving feedback. Feedback is a two-way street. It is important that SA management takes the time to provide feedback on a regular basis to their individual team members, but simoultanously GitLab team members should share their feedback with management and peers. During this two-way feedback exchange, it provides SAs insights into their activities working with customers and internal processes as well as the SA management insights into their leadership skills.
 
@@ -90,7 +88,7 @@ Given the nature of retros are considering opportunities to celebrate improvemen
 
 The guide for the retro item discussion also requires to add actions to improve teamwork. The team needs to nominate a team member to capture actions in either the Postfacto retro tool (at the bottom of the UI) or in a seperate team meeting notes document.
 
-The community around the open-source Postfacto technology and its partners/collaborators have also built this blog [**"How to Run a Really Good Retrospective"**](https://tanzu.vmware.com/content/built-to-adapt/how-to-run-a-really-good-retrospective) for further guidance.
+The community around the open-source Postfacto technology and its partners/collaborators have also built this blog [**"How to Run a Really Good Retrospective"**](https://blogs.vmware.com/tanzu/how-to-run-a-really-good-retrospective/) for further guidance.
 
 **Important note:** The retro time-frame should not be more than 5-minutes per item, as a result of that and for an effective discussion, the participants do not need to go into extensive descriptions "why" that particular item is critical nor into "trying to identify" a solution. The idea for the discussion is to quickly reflect and suggest a best next step or an action. The action then will become a means to identify a solution.
 

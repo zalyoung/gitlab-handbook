@@ -1,13 +1,6 @@
 ---
-
 title: "Product Release Updates"
 ---
-
-
-
-
-
-
 
 ## Current updates
 
@@ -202,7 +195,7 @@ The GitLab 12.0 launch included a livestreamed program: [11.0 to 12.0: How we go
 
 > GitLab 12.0 marks a key step in our journey to create an inclusive approach to DevSecOps, empowering 'everyone to contribute'.
 >
-> We believe everyone can contribute, and we’ve enabled cross-team collaboration, faster delivery of great code, and bringing together Dev, Ops, and Security.
+> We believe everyone can contribute, and we've enabled cross-team collaboration, faster delivery of great code, and bringing together Dev, Ops, and Security.
 
 Read more in the 12.0 release blog post: [GitLab 12.0 released with Visual Reviews and Dependency List](https://about.gitlab.com/releases/2019/06/22/gitlab-12-0-released/).
 
@@ -216,7 +209,7 @@ GitLab's Version 11 year in review provided an overview of what we released, 11.
 
 ### 11.0 Launch
 
-The theme of our 11.0 launch was [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) (as it had been for 10.0):
+The theme of our 11.0 launch was [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/) (as it had been for 10.0):
 
 > Beyond making it easy to host and collaborate on public and private repositories, GitLab also simplifies the rest of the process by offering the whole delivery toolchain, built in. And now, it's not only built in, it's automated. Simply commit your code and Auto DevOps can do the rest. Auto DevOps is a pre-built, fully featured CI/CD pipeline that automates the entire delivery process.
 
@@ -224,7 +217,7 @@ Read more in the 11.0 release blog post: [GitLab 11.0 released with Auto DevOps 
 
 ### 10.0 Launch
 
-The theme of our 10.0 launch was [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/):
+The theme of our 10.0 launch was [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/):
 
 > From the formulation of an idea to executing and monitoring it in production, DevOps establishes a culture and environment where developing, testing, and releasing software can happen quickly, frequently, and more reliably.
 >

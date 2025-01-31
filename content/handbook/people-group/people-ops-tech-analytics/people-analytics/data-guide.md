@@ -9,8 +9,8 @@ This handbook page provides an overview of data definitions and data models used
 ## Helpful places to start
 
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific People Models, please reference the **Commonly Used Data Models** section below for a starting point.
-- [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/) managed by the Data team.
-- [Documentation on data pipelines](/handbook/business-technology/data-team/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/) managed by the Data team.
+- [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
 - [People Group Tech Stack Guide]({{< ref "tech-stack-guide-workday" >}}) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
 
 ## People Group Data Dictionary
@@ -83,7 +83,7 @@ Information related to the position a team member holds at GitLab
 | Discretionary Bonus Rate | Percentage of Team members that receive a discretionary bonus from the population. For KPIs this is reported as a rolling 3 month average. | # of Discretionary Bonuses / Average Headcount |  |
 | [Promotion](/handbook/people-group/promotions-transfers/#promotions) | A promotion is counted if the business process type submitted in our HRMS is "Promote Employee Inbound" |  |  |
 | [Lateral Transfer](/handbook/people-group/promotions-transfers/) | A lateral move is counted if the business process category submitted in our HRMS is "Lateral Move" and there was a change in job title |  |  |
-| [Internal Mobility Rate](/handbook/people-group/promotions-transfers/#internal-mobility) | Internal Mobility Rate refers to the frequency at which employees change positions within an organization, indicating the internal movement and career progression opportunities available to staff, as well as the company’s ability to retain talent by offering growth paths. | # Lateral Transfers and Promotions / Average Headcount |  |
+| [Internal Mobility Rate](/handbook/people-group/promotions-transfers/#internal-mobility) | Internal Mobility Rate refers to the frequency at which employees change positions within an organization, indicating the internal movement and career progression opportunities available to staff, as well as the company's ability to retain talent by offering growth paths. | # Lateral Transfers and Promotions / Average Headcount |  |
 
 </details>
 
@@ -137,15 +137,14 @@ Systems used by the People Group
 
 | Name | Description | Calculation | Is Sensitive |
 |---|---|---|---|
-| [R (Language)](/handbook/business-technology/data-team/platform/rstudio/)   | A programming language and software environment used for statistical analysis, graphical representation, and reporting, popular in data analysis and scientific research. |  |  |
-| [Tableau](/handbook/business-technology/data-team/platform/tableau/) | Primary data visualization tool at GitLab |  |  |
-| [Workday](/handbook/people-group/tech-stack-guide-workday/) | Current Human Resource Management Systems (HRMS) and the SSoT for all team member related data on or after 2022-06-16 |  |  |
-| BambooHR | Former Human Resource Management Systems (HRMS) and the SSoT for all team member related data prior to 2022-06-16 |  |  |
+| [R (Language)](/handbook/enterprise-data/platform/rstudio/)   | A programming language and software environment used for statistical analysis, graphical representation, and reporting, popular in data analysis and scientific research. |  |  |
+| [Tableau](/handbook/enterprise-data/platform/tableau/) | Primary data visualization tool at GitLab |  |  |
+| [Workday](/handbook/people-group/tech-stack-guide-workday/) | Current Human Resource Management Systems (HRMS) and the SSoT for all team member related data on or after 2022-06-16 and SSoT for all Absence data on or after 2024-09-01 |  |  |
 | [Greenhouse](/handbook/hiring/greenhouse/) | Current Applicant Tracking System (ATS) at GitLab and the SSOT for all recruiting metrics |  |  |
-| Time Off by Deel | Current absence management tool at GitLab integrated with BambooHR. SSoT for time-off related data |  |  |
+| Time Off by Deel | Current absence management support tool at GitLab integrated with Workday which is the SSoT for Absence. |  |  |
 | Sisense (formerly Periscope) | Former data visualization tool at GitLab |  |  |
 | FiveTran | Fivetran is the automated data movement platform moving data out of Workday and into Snowflake |  |  |
-| [SnowFlake](/handbook/business-technology/data-team/platform/snowflake/) | Snowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform. |  |  |
+| [SnowFlake](/handbook/enterprise-data/platform/snowflake/) | Snowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform. |  |  |
 | [Level Up / GitLab University](/handbook/people-group/learning-and-development/level-up/) | Training platform created by Thought Industries for continuing education and career development |  |  |
 
 </details>
@@ -169,22 +168,22 @@ Underneath each model is a clean lineage of dimensions and facts that can also b
 |fct_team_member_position|Fact|One row per employee_id, team_id, effective_date and date_time_initiated combination|Workday|Completed| [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_position) |
 |fct_team_member_status|Fact|One row per employee_id, employment_status and status_effective_date combination|Workday|Completed| [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_status) |
 |fct_team_status|Fact|One row per employee_id and valid_from combination|Workday|Completed| [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_status) |
+|fct_team_member_absence|Fact|One row per Team Member ID, pto_uuid and absence_date combination|Time Off By Deel|Completed|[DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_absence)|
 |fct_team_member_locality|Fact||Workday|Planned| DBT docs |
 |fct_team_demographic|Fact||Workday|Planned| DBT docs |
-|fct_team_member_absence|Fact||Workday|Planned| DBT docs |
-|fct_team_absence|Fact||Workday|Planned| DBT docs |
 
 ### Marts
 
 |Model Name|Table Type|Grain|Status|Documentation|
 | ------ | ------ | ------ | ------ | ------ |
 |mart_team_member_directory| Mart | One row per employee ID| Completed | [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_team_member_directory) |
+|mart_team_member_absence| Mart | One row per Team Member ID, pto_uuid and absence_date combination| Completed | [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_team_member_absence) |
 
 ## Model usage
 
 ### dim_team_member
 
-This table contains team members work and personal information. Sensitive columns are masked using [dynamic masking](/handbook/business-technology/data-team/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [hybrid SCD (Type 1 + Type 2)](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
+This table contains team members work and personal information. Sensitive columns are masked using [dynamic masking](/handbook/enterprise-data/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [hybrid SCD (Type 1 + Type 2)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
 The table includes information regarding current team members, new hires who have records created in Workday before their start date and team members who were terminated in 2021 onwards. Team members who were terminated before 2021 are not captured in this model at this time. The grain of this table is one row per **employee_id** per **valid_to/valid_from** combination.
 
@@ -239,7 +238,7 @@ GROUP BY 1
 
 ### dim_team
 
-**dim_team** contains team (organizations) information. It includes information regarding teams and their hierarchy. It is a [Type 2 SCD](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
+**dim_team** contains team (organizations) information. It includes information regarding teams and their hierarchy. It is a [Type 2 SCD](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
 The goal of this table is to determine the team superior organization and the hierarchy of every organization in Workday. Additionally, this table provides team data such as team name, manager, team member count and date of inactivation for each organization.
 
@@ -462,12 +461,62 @@ GROUP BY 1;
 
 </details>
 
+### fct_team_member_absence
+
+This table contains team members' absence information. Sensitive columns are masked using [dynamic masking](/handbook/enterprise-data/platform/#dynamic-masking) and the fields are only visible by team members with the **analyst_people** role assigned in Snowflake. This table is a [Type 0 SCD](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots)
+
+The table includes information from **Time Off By Deel**, . The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination.
+
+### mart_team_member_absence
+
+This table is a derived mart from `fct_team_member_absence` and `dim_team_member`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will be a replacement of the workspace table `wk_pto`.This table is a [hybrid SCD (Type 0 + Type 2)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
+
+ The grain of this table is one row per `team member ID` per `pto_uuid` and `absence_date` combination.
+
+<details>
+<summary markdown="span">Query - Absence days for an employee by quarter for the year 2024</summary>
+
+```sql
+WITH final AS (
+  SELECT
+    *,
+    DATEDIFF(DAY, absence_start, absence_end) + 1 AS pto_days_requested,
+    ROW_NUMBER() OVER (
+      PARTITION BY
+        employee_id,
+        absence_date
+      ORDER BY
+        absence_end DESC,
+        pto_uuid DESC
+    )                                             AS pto_rank
+  FROM prod.common_mart_people.mart_team_member_absence
+  WHERE absence_date <= CURRENT_DATE
+    AND pto_days_requested <= 25
+    AND COALESCE(pto_group_type, '') != 'EXL'
+    AND NOT COALESCE(absence_status, '') IN ('CEO Shadow Program', 'Conference', 'Customer Visit')
+  QUALIFY pto_rank = 1
+)
+
+SELECT
+  QUARTER(absence_date) AS quarter,
+  absence_status,
+  COUNT(absence_date)   AS absence_count
+FROM final
+WHERE full_name = 'John Doe'
+  AND YEAR(absence_date) = 2024
+GROUP BY QUARTER(absence_date), absence_status
+ORDER BY quarter ASC, absence_count DESC;
+```
+
+</details>
+
 ### mart_team_member_directory
 
-This table is a derived fact from `fct_team_member_position` and `dim_team`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will become a replacement of the legacy tables `employee_directory_*` once all the BambooHR data has been included in the upstream tables.
+This table is a derived fact from `fct_team_member_position` and `dim_team`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will become a replacement of the legacy tables `employee_directory_*` once all the Workday data has been included in the upstream tables.
 
 The grain of this table is one row per employee per valid_from/valid_to combination.
 
+<details>
 <summary markdown="span">Average location factor by division</summary>
 
 ```sql
@@ -490,6 +539,7 @@ SELECT
 
 </details>
 
+<details>
 <summary markdown="span">Tenure bucket per team member</summary>
 
 ```sql
@@ -514,7 +564,7 @@ WHERE is_current AND is_current_team_member
 
 Legacy models are models we will be transitioning from at some point but are still being used for reporting.
 
-### Legacy Workday/BambooHR Data Models
+### Legacy Workday Data Models
 
 <details>
 <summary markdown="span">Click to expand</summary>
@@ -522,12 +572,7 @@ Legacy models are models we will be transitioning from at some point but are sti
 | Database | Schema | Table Name | Data Grain | Description | Notes |
 | --- | --- | --- | --- | --- | --- |
 | prod | legacy | [employee_directory_analysis](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_analysis) | `employee_id` by `date_actual` | Gives the current state of the employees at GitLab at any point of time. This is the model to use for headcount, team size, or any people-related analysis for employees. This has current and past employees, as well as their department, division, and cost center and hire/termination dates. | |
-| prod | legacy | [bamboohr_rpt_headcount_aggregation](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_rpt_headcount_aggregation) | `department`, `division`, `eeoc_value` | This report creates out a headcount report from the bamboohr_headcount_intermediate to be used for Sisense dashboards for each month. | The division reporting is based on current division used. |
 | prep | sensitive | [employee_directory_intermediate](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_intermediate) | `employee_id` by `date_actual` | INCLUDES SENSITIVE INFORMATION. The master collection of all info about GitLab employees for their latest position. | |
-| prep | sensitive | [bamboohr_employment_status_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_employment_status_xf) | `employee_id` by `valid_from_date` | This model provides a transaction record of an employee's status changes (i.e. active, leave, termed). It helps identify when an employee is re-hired, and provides termination type | |
-| prep | sensitive | [bamboohr_promotions_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_promotions_xf) | `employee_id` by `promotion_date` and `compensation_sequence` | This model identifies all individuals that were promoted and the compensation change associated to the promotion. The total compensation change is equal to the change in compensation (from bamboohr_compensation model) times the pay frequency and currency conversion at time of promotion + change in OTE(USD) at time of promotion. In the case the team member is hourly, we use the bamboohr_currency_conversion table. | |
-| prep | sensitive | [bamboohr_id_employee_number_mapping](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_id_employee_number_mapping) | `employee_id` | This model is the canonical source mapping bamboo employee numbers with employee IDs. It includes all employees for all time. The model also captures demographic information, and removes test accounts. | |
-| prep | sensitive | [bamboohr_separations](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_separations) | `employee_id` | Provides a report of all separated team members. | |
 | prep | sensitive | [workday_terminations](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.workday_terminations) | `employee_id` | Provides the termination reason, and exit impact to allow the People Analytics team to accurately report on termination data | |
 | prep | workday | [blended_directory_source](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.blended_directory_source) | `employee_id` by `uploaded_at` and `source_system` | Daily upload of employee data used for downstream models. | Helpful source for auditing any data issues in Snowflake |
 

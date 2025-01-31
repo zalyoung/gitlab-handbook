@@ -26,7 +26,7 @@ The DRI is responsible for ensuring materials are compliant. If you're unsure wh
 Review is **always** required for:
 
 - Internal and external materials requiring review as determined by the [SAFE Framework Flowchart](/handbook/legal/safe-framework/#safe-flowchart);
-- External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](/handbook/company/team/board-of-directors);
+- External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](https://about.gitlab.com/company/team/board-of-directors/);
 - Quarterly and year-end earnings reports, and materials which include financial data that has not been publicly disclosed, or a variation previously disclosed financial data;
 - Materials relating to:
   - Mergers and acquisitions, including spin outs, investments, or acqui-hires;
@@ -42,7 +42,7 @@ This process should never be used for:
 - [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/company/key-review/) meetings, and [Group Conversations](/handbook/company/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
 - External or internal handbook updates;
 - GitLab issues or merge requests; nor
-- Internal or external communications prepared in relation to a contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation or impacts, or has the potential to impact, the safety or wellbeing of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
+- Internal or external communications prepared in relation to a contentious issue that undermines a critical attribute of our company's brand and challenges its reputation or impacts, or has the potential to impact, the safety or well-being of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
 
 The Legal & Corporate Affairs Team will not review materials sent in Slack because [Slack should not be used for obtaining approval](/handbook/communication/#slack); follow this Materials Legal Review Process instead.
 
@@ -91,7 +91,7 @@ Follow this process to obtain legal review of a **single piece of material**. A 
     - no
 
     ## Is the material subject to mandatory review?
-    <!-- Delete as appropriate and refer to the definition of mandatory review: https://about.gitlab.com/handbook/legal/materials-legal-review-process/#mandatory-review -->
+    <!-- Delete as appropriate and refer to the definition of mandatory review: https://handbook.gitlab.com/handbook/legal/materials-legal-review-process/#mandatory-review -->
     - yes <!-- if yes, identify the type of material from the list of materials subject to mandatory review -->
     - no
 

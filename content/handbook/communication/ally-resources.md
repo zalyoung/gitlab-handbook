@@ -1,5 +1,4 @@
 ---
-
 title: "Ally Resources"
 ---
 
@@ -33,7 +32,7 @@ Allies familiarize themselves with GitLab's general DIB content
 
 Here are additional resources on being an ally
 
-- [Guide to allyship](https://www.guidetoallyship.com)
+- [Guide to allyship](https://guidetoallyship.com/)
 - [5 Tips For Being An Ally](https://www.youtube.com/watch?v=_dg86g-QlM0)
 - [Ally skills workshop](https://frameshiftconsulting.com/ally-skills-workshop/). Check out the materials section with a handout PDF (linking to many more resources), slides PDF, [videos](https://www.youtube.com/watch?v=wob68Nl2440), and more.
 - [Why cisgender allies should put pronouns on their name tag](https://medium.com/@mrsexsmith/dear-cis-people-who-put-your-pronouns-on-your-hello-my-name-is-nametags-78c047ed7af1)

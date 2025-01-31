@@ -1,5 +1,4 @@
 ---
-
 title: "Self-Service List Imports"
 description: "Automated process developed by Marketing Operations to facilitate self-service list imports"
 ---
@@ -16,52 +15,49 @@ The objective of this process is to reduce the SLA for list imports to a minimum
 1. Each record is added to the Marketo program according to the program status specified in the import file.
 1. At the end, a slack alert is sent on the #event_list_upload channel with a report containing information regarding created, updated and failed leads.
 
-#### [Video Explanation of list upload process](https://drive.google.com/file/d/1Wp3yYLZAPeBJs9J7wIBF3R8wFaGN0SF3/view?usp=share_link)
+#### Video Explanation of list upload process
+
+[Video Explanation of list upload process](https://drive.google.com/file/d/1Wp3yYLZAPeBJs9J7wIBF3R8wFaGN0SF3/view?usp=share_link) (internal)
 
 ## How to use
 
-**Step 1 - Before the import**
-{: .alert .alert-info}
+### Step 1 - Before the import
 
 At time of upload, a program should already exist in `Marketo` . Campaigns are to be created by the campaign owner. For a running list of program templates, go [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#how-to-clone-the-marketo-program).
 
 Make sure that the campaign's `tokens` are filled in, which are found under the `My Tokens` tab in the main campaign. `Tokens` are used via `Smart Campaigns` to apply `Last Interesting Moments` to all leads whom appear in the campaign. The minimum `tokens` that should be used relate to the campaign's `Event Name`, `Event Date` and `Landing Page URL`. Without these filled out, `Last Interesting Moments` will fill in permanently `blank`. This does not mean your upload will fail or not complete. It just means in the LIM field you will see blank datapoints, for example: `Attended {{my.event name}}, which starts on {{my.event date}}. Location: {{my.event location}}` instead of `Attended Developer Conference, which starts on May 29, 2022, Location: San Francisco`.
 
-Please note, the `Last Interesting Moments` and the `My Tokens` associated with them are separate from `Last Event Notes`. Tokens do not communicate with `Last Event Notes` and uploads from other columns in the list upload sheet. To ensure these are loaded correctly please make sure the SFDC campaign and the last event notes are filled out on your import sheet, Columns N and O. This will be explained more in the data cleaning steps below. Again, if this information is left blank it does not mean your import will fail, it will just be missing that infmoration in the leads record.
+Please note, the `Last Interesting Moments` and the `My Tokens` associated with them are separate from `Last Event Notes`. Tokens do not communicate with `Last Event Notes` and uploads from other columns in the list upload sheet. To ensure these are loaded correctly please make sure the SFDC campaign and the last event notes are filled out on your import sheet, Columns N and O. This will be explained more in the data cleaning steps below. Again, if this information is left blank it does not mean your import will fail, it will just be missing that information in the leads record.
 
-**Step 2 - Add your lead data to the spreadsheet**
-{: .alert .alert-info}
+### Step 2 - Add your lead data to the spreadsheet
 
 Go to the import template [Google Sheet](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838) and make a copy of the document. This spreadsheet template allows for quick edits and faster data checks, refer to the [below instructions](#data-cleaning-instructions) for data cleanup advice. It is the responsibility of the person submitting the list to clean the list utilizing the import cleaning template.
 
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![ALT](/handbook/marketing/marketing-operations/automated-list-import/images/make-a-copy.png)
+![ALT](/images/marketing/marketing-operations/automated-list-import/make-a-copy.png)
 
 </details>
 
-**Step 3 - Download the CSV**
-{: .alert .alert-info}
+### Step 3 - Download the CSV
 
 After you populated your spreadsheet with lead data, Download the leads tab as a `CSV`. Go to `File`>`Download`>`CSV`.
 
 <details>
   <summary markdown="span">Click  to expand screenshot</summary>
 
-![Download CSV](/handbook/marketing/marketing-operations/automated-list-import/images/download-csv.png)
+![Download CSV](/images/marketing/marketing-operations/automated-list-import/download-csv.png)
 
 </details>
 
-**Step 4 - Drop the CSV in the Google Drive folder**
-{: .alert .alert-info}
+### Step 4 - Drop the CSV in the Google Drive folder
 
 1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link) called `List Import Automation`. If you do not have access to the folder, open an AR request with the Marketing Operations team seeking access to both the `List Import Automation` and the `Report Folder`.
 1. Drop your CSV containing lead data into the folder
 1. An automated process will pick up your CSV and start processing each record in your file, validating the data.
 
-**Step 5 - Go to the `#event_list_upload` slack channel.**
-{: .alert .alert-info}
+### Step 5 - Go to the `#event_list_upload` slack channel
 
 **When the import finishes processing in Marketo, it will send a slack message with information about:**
 
@@ -74,7 +70,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Slack alert](/handbook/marketing/marketing-operations/automated-list-import/images/slack-alert-import.png)
+![Slack alert](/images/marketing/marketing-operations/automated-list-import/slack-alert-import.png)
 
 </details>
 
@@ -82,8 +78,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 
 Pubsec field marketers need to use `List Upload Complete - PubSec` label on either list import issue or another event related issue if no list upload issue is made. This is optional for private sector uploads, which use `List Upload Complete - Private Sector`. SDR/BDR/Sales can subscribe to this label to get notifications when the import is complete
 
-**Step 6 - Review the report**
-{: .alert .alert-info}
+### Step 6 - Review the report
 
 1. Congrats! The import is complete. Review the information passed in the slack alert.
 1. If there are failed records, review the report linked in the message. The first column, `Status`, contains useful information regarding the reason a specific lead failed to be imported.
@@ -92,7 +87,7 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Report status column](/handbook/marketing/marketing-operations/automated-list-import/images/report-status.png)
+![Report status column](/images/marketing/marketing-operations/automated-list-import/report-status.png)
 
 </details>
 
@@ -169,7 +164,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 1. Member Statuses must match exactly to the program type and member status [listed](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status). If you are updating the member status for an event where we collected registrations through a form, you must include both `No Show` and `Attended` records.
 
-1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://docs.marketo.com/display/public/DOCS/Import+a+Non-Latin+Characters+List). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/articleView?id=faq_import_dataloader_specialchars.htm&type=5).
+1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-programs/managing-people-in-email-programs/import-a-non-latin-characters-list). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/s/articleView?id=sf.faq_import_dataloader_specialchars.htm&type=5).
 
 1. If there are notes added to the `Last Event Notes` column, add the `SFDC campaign name` to the column titled `Last Event SFDC Campaign Name` for each lead that has notes. If there are no notes for that lead, do not add anything to either column. This column is used to automatically move notes to the `Qualification Notes` field found on lead and contact pages in Salesforce. That field is not overridden like the `Last Event Notes` field and it's where we can keep the notes for much longer.
 
@@ -185,6 +180,8 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - Leave `Opt-In` empty if no other option is available
 
+- `Preferred Language` must be listed as a language, not a location. See the table below for common languages.
+
 </details>
 
 | Field Name             | Required                                  | Accepted Values                                                                                                                           | Notes                                                                                                                                                                                                                                                                   |
@@ -198,7 +195,9 @@ The following data cleanup is required for any list prior to sending it to the M
 | Country                | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
-| CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#partner-crm-ids) |
+| CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) |
+| Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
+| High Priority Reason? | No | High Priority Campaign <br> White Glove  | Only used if leads [need to appear in front of SDRs quickly due to some high propensity to purchase reason](/handbook/marketing/sales-development/#sdr-lead-views). Familiarize yourself with the [white glove](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) process to determine if that dropdown should be used|
 
 ## Reference values for picklists
 
@@ -461,17 +460,17 @@ A: Before re-uploading the correct list or trying to fix the error, please get i
 
 A: Your tokens were not filled out before the time of the import. A new batch campaign will need to be created to update this information.
 
-**Q: I haven’t received a notification that my import is complete, how can I check its status?**
+**Q: I haven't received a notification that my import is complete, how can I check its status?**
 
-A: If you have access to log into Marketo, navigate to the campaign and you can see the number of leads that have been loaded. Check these numbers against your CSV file to see its progress. Refresh this page periodically to see if those numbers continue to increase. If they seem to have stopped and don’t match your final numbers you can notify mktgops and we can check for any failures.
+A: If you have access to log into Marketo, navigate to the campaign and you can see the number of leads that have been loaded. Check these numbers against your CSV file to see its progress. Refresh this page periodically to see if those numbers continue to increase. If they seem to have stopped and don't match your final numbers you can notify mktgops and we can check for any failures.
 
 **Q: Can I use this system to update information on a list that already exists? (Ex: I need to change their opt-in status or their employee bucket numbers.)**
 
 A: Yes, you can create a CSV list with the members email and the column data you want to update and import the same way, this will update the records.
 
-**Q: What’s taking so long?!?**
+**Q: What's taking so long?!?**
 
-A: Workato is running the leads through all the processing needed to add leads, update fields, and sync to SFDC. Due to Workato and Google Workspace’s integration, there is a built-in delay to prevent the API from being over-taxed and canceling the job halfway through. With larger lists, the process can take some time but we do not expect the process to go over the 24 hour SLA. As an example; we have seen lists of non english leads of upwards of 800+ taking close to 14 hours to fully complete.
+A: Workato is running the leads through all the processing needed to add leads, update fields, and sync to SFDC. Due to Workato and Google Workspace's integration, there is a built-in delay to prevent the API from being over-taxed and canceling the job halfway through. With larger lists, the process can take some time but we do not expect the process to go over the 24 hour SLA. As an example; we have seen lists of non english leads of upwards of 800+ taking close to 14 hours to fully complete.
 
 - Example: Uploaded at 1:20PM -> Progress check at 3:00PM: (467 members added so far out of the 807 total) ->
   Import Complete Message at 3:14AM.

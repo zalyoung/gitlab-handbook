@@ -1,12 +1,11 @@
 ---
-
 title: Support Engineer Resources
 description: If you want to learn more about what support engineers do and how they do it, this is the place.
 ---
 
 ### A Day in the Life of a Support Engineer
 
-As a Support Engineer at GitLab, the majority of your time will be focused on helping customers solve problems. This happens mostly through tickets, but can also happen through issues, screensharing calls, and emergencies.
+As a Support Engineer at GitLab, the majority of your time will be focused on helping customers solve problems. This happens mostly through tickets, but can also happen through issues, screen sharing calls, and emergencies.
 
 ### Getting Help
 
@@ -46,7 +45,7 @@ Additionally, if the code change is specifically to improve the team's efficienc
 (such as changes to admin for faster support), then add the `~"Support Efficiency"` label.
 
 We also recommend using weight labels (frontend, backend, docs) to track the effort required for MRs.
-While you can look at how others have labelled their MRs, the most important thing is that you are consistent in applying the labels to your own MRs
+While you can look at how others have labeled their MRs, the most important thing is that you are consistent in applying the labels to your own MRs
 so that you can see which MRs required the most effort and your overall progress.
 The number of MRs and their total weight are included in the [1:1 generator reports](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator).
 
@@ -56,11 +55,11 @@ end of each week with a list of support team contributions merged in the past we
 
 ### Internal tools
 
-- [Support Toolbox](https://gitlab.com/gitlab-com/support/toolbox) - Includes tools such as `json_stats` (analyze JSON logs), `strace_parser` (analyze `strace` output), `gitlabsos` (get all logs and other data from customers), etc.
-- [Support Resources](https://gitlab.com/gitlab-com/support/support-resources/#support-resources) - Create test instances
+- [Support Toolbox](https://gitlab.com/gitlab-com/support/toolbox) - Includes tools such as [Green Hat](https://gitlab.com/gitlab-com/support/toolbox/greenhat) (SOS/log analyzer), [fast-stats](https://gitlab.com/gitlab-com/support/toolbox/fast-stats) (generate performance statistics from logs), [strace-parser](https://gitlab.com/gitlab-com/support/toolbox/strace-parser) (analyze raw `strace` output), [gitlabsos](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) and [kubeSOS](https://gitlab.com/gitlab-com/support/toolbox/kubesos) (get all logs and other data from customers), etc.
+  - [Support Team Bot](https://api.slack.com/apps/A07DSM5C2H5) - A Slack integration owned by the Support team, mainly used to provide webhooks so other projects in the Support Toolbox can post to Slack in an automated way ([Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot), [SWIR-Slack Bridge](https://gitlab.com/gitlab-com/support/toolbox/swir-slack-bridge), [cmoc-handover-message](https://gitlab.com/gitlab-com/support/toolbox/cmoc-handover-message)). The main owner is [@manuelgrabowski](https://gitlab.com/manuelgrabowski), [@kslaats](https://gitlab.com/kslaats) and [@bcarranza](https://gitlab.com/bcarranza) also have access.
+- [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) - Create test instances, see [guidance](../workflows/test_env.md#gitlab-sandbox-cloud-for-gcp-preferred)
 - [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - [CustomersDot admin](https://customers.gitlab.com/admin/) - Where to manage Self-Managed licenses and where customers manage their subscriptions.
-- [GitLab Regressions](https://regressions.gitlab.io/)
 
 ### External tools
 
@@ -80,10 +79,9 @@ end of each week with a list of support team contributions merged in the past we
 
 ### Useful Browser Extensions
 
-- Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/dgoenpnkphkichnohepecnmpmihnabdg?hl=en)/[Firefox](https://addons.mozilla.org/en-US/firefox/addon/copy-as-markdown/))
+- Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)/[Firefox](https://addons.mozilla.org/en-US/firefox/addon/copy-as-markdown/))
 - Zendesk Download Router - Automatically routes Zendesk downloads into separate folders by ticket number ([Chrome](https://chrome.google.com/webstore/detail/zendesk-download-router/pgfhacdbkdeppdjgighdeejjfneifkml)/[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/zendesk-download-router/)/[Opera](https://addons.opera.com/en-gb/extensions/details/zendesk-download-router/))
 - GitLab Web Debugger - Aides in identifying the root cause of page load errors on GitLab.com and internal GitLab instances ([Chrome](https://gitlab.com/gitlab-com/gl-infra/gitlab-web-debugger))
-- Zendesk Quicktab - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/zendesk-quicktab/imgmkpifcfhbfdklogcpdnkohifklebb))
-- Note: Zendesk Quicktab was [removed from the Chrome marketplace in July 2020](https://support.tymeshift.com/hc/en-us/articles/360003993613-Install-Zendesk-Quicktab-Chrome-Extension) while ownership of the extension was in negotiations. Please read the [Zendesk support forum thread](https://support.zendesk.com/hc/en-us/community/posts/360001108948/comments/360012160754) for information on the current state of the extension and installing Zendesk Quicktab from the GitHub project.
+- [Zendesk Quicktab](https://support.zendesk.com/hc/en-us/articles/6443360776346-Installing-the-Quicktab-Google-Chrome-extension) - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/quicktab-for-zendesk-by-t/hhbimbckgheipimadcknkfogegmpoibj))
 - Calendly Meeting Scheduling Software - ad-hoc meetings, one-click booking ([Chrome](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp))
-- GitLab Screenshare mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screenshare-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screenshare-mode#firefox))
+- GitLab Screen share mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screen share-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screen share-mode#firefox))

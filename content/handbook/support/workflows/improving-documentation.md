@@ -1,5 +1,4 @@
 ---
-
 title: Improving Documentation
 description: "Workflow for submitting GitLab documentation improvements from the Support team"
 category: Handling tickets
@@ -40,7 +39,7 @@ environment, please complete the
   used from the command line.
   - Set up [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html).
   - Set up [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html).
-  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
+  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/how-can-i-have-multiple-vertical-rulers-in-vs-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
 
 #### Documentation Merge Requests
 
@@ -102,4 +101,4 @@ The automation creates issues with [label_name\[\]=documentation&label_name\[\]=
 
 **Note:** Make sure to use the template so that your internal note is correctly parsed by the trigger.
 
-This workflow is implemented using a [zendesk trigger](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/-/blob/master/triggers/active/Lifespan%20Stage/Create%20documentation%20issue.yaml) that parses the internal note and sends it to [Zendesk's HTTP target](https://support.zendesk.com/hc/en-us/articles/204890268) that creates a documentation issue.
+This workflow is implemented using a [zendesk trigger](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/-/blob/master/triggers/active/Lifespan%20Stage/Create%20documentation%20issue.yaml) that parses the internal note and sends it to [Zendesk's HTTP target](https://developer.zendesk.com/api-reference/ticketing/targets/targets/) that creates a documentation issue.

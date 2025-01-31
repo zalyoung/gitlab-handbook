@@ -26,10 +26,9 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 
 ## Offboarding and stepping down gracefully
 
-If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
-
-1. Move the individual from the `team.yml` file to the `alumni.yml` file.
-2. Create an issue in [team-member-epics/employment](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) using the [`offboarding` template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding_core_team_member.md) and fill out the "Core Team Members" section to remove the individual from GitLab Slack, [the Core Team Group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/community-members/-/group_members), gitlab-org etc.
+If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel.
+When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/).
+Once a Core Team member steps down, another Core team member will create an issue using the [`offboarding` template](https://gitlab.com/gitlab-org/gitlab-core-team/general/-/issues/new?issuable_template=offboarding) and follow the steps outlined.
 
 ## Core Team Member Orientation
 
@@ -91,25 +90,39 @@ details summary * {
 - development
 - docs
 - docs-tooling
+- e2e-run-master
+- e2e-run-preprod
+- e2e-run-production
+- e2e-run-staging
+- f_agent_for_kubernetes
+- f_api_client-go
 - f_graphql
 - f_rubocop
-- f_agent_for_kubernetes
 - fosdem
 - frontend
 - frontend_maintainers
 - frontend_pairs
+- g_developer_tooling
+- g_development-analytics
 - g_engineering_productivity
-- g_observability
-- g_pipeline-security
+- g_gitaly
+- g_monitor_platform_insights
+- g_pajamas-design-system
+- g_product-planning
 - g_project-management
 - g_runner
+- g_sscs_pipeline-security
 - gck
 - gdk
-- gitpod-gdk
+- gdk-gitpod
+- gdk-workspaces
 - golang
+- handbook
+- internet-of-things
 - is-this-known
-- jetbrains-ide
+- jetbrains-ide-users
 - kubernetes
+- lang-de
 - lang-ja
 - lang-ru
 - linux
@@ -117,16 +130,11 @@ details summary * {
 - mr-coaching
 - mr-feedback
 - opensource
-- pajamas-design-system
 - production
-- qa-master
-- qa-nightly
-- qa-preprod
-- qa-production
-- qa-staging
-- quality
 - review-apps-broken
+- s_developer_experience
 - terraform-provider
+- test-platform
 - triage
 - triage-automations
 - tw-team
@@ -183,7 +191,7 @@ At this time, Core Team members are not added to the [`gitlab-com` group](https:
 
 ### Team page listing
 
-To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
+To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
 
 This will list their profile on [the Core Team page](https://about.gitlab.com/community/core-team/) as well.
 

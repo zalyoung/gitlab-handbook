@@ -1,16 +1,10 @@
 ---
-
 title: Emails Processes
 description: An overview of email processes at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -40,8 +34,8 @@ Due to limited seats, we will be providing 1-2 seats per team on the calendar. P
 Steps to add to the Asana calendar:
 
 * Ensure the label for "email-calendar" is added to your issue.
-* Add labels for the appropriate segmentation: “Global-email”, “EMEA-email”, “AMER-email”, “APAC-email”
-* Add labels for appropriate email type: “operational-email” “non-operational-email”
+* Add labels for the appropriate segmentation: "Global-email", "EMEA-email", "AMER-email", "APAC-email"
+* Add labels for appropriate email type: "operational-email" "non-operational-email"
 * Set email issue due date as the send date
 
 ### Email Request Issue Template
@@ -57,8 +51,8 @@ Please note: Invitation and follow-up emails will not be sent on Thursdays, due 
 
 **Assign issues to:** You must assign issues to the corresponding Lifecycle Marketing Manager for review before send.
 
-* `@aklatzkin`: Global, AMER, Corporate Events, Newsletters
-* `@dambrold`: APAC, EMEA, Intelligent Nurture
+* `@aklatzkin`: Global, EMEA, Public Sector, Localized emails, Corporate Events, Newsletters
+* `@alee`: AMER, EMEA, Customer emails
 
 **Add the issue to the Asana email calendar:** By default, issues will add the label for ~"email-calendar", you will need to add the label for your audience as well:
 
@@ -185,14 +179,21 @@ First step in requesting an email from lifecycle begins by creating an issue usi
 <!-- DO NOT CHANGE THIS ANCHOR -->
 *Submit final email for QA and scheduling*
 
-* Step 1: Submit an email issue for the appropriate email type and assign yourself and a lifecycle counterpart to your email. Be sure to include the proper labels for the email calendar.
+* Step 1: Campaign manager: Submit an email issue for the appropriate email type and assign yourself and a lifecycle counterpart to your email. Be sure to include the proper labels for the email calendar. This needs to be done before the SLA date or at latest by Thursday at 9 am PT (with audience information) the week before send (i.e. if an email is going out the following Friday, it still needs to be in on Thursday the week before)
 * Step 2: Highlight your desired send date and time. (Will be reviewed and potentially modified by the Lifecycle team).
 * Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 * Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 * Step 5: Send a sample for lifecycle to QA
-  * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
-  * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
-* Step 6: Make revisions & schedule the email. Can be done by lifecycle or campaigns team member.
+  * Global/EMEA/Localized/PubSec/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+  * Customers/AMER/APAC = reviewed by [Alison](mailto:alee@gitlab.com)
+* Step 6: Lifecycle will make revisions and send the email back to the campaign manager.
+* Step 7: Lifecycle will schedule the email to send at requested time slot
+
+*SLAS:*
+
+1. Larger events (GitLab 17 is typically Lifecycle owned, but events of similar scale): 7 business days
+2. Tech demos: 5 business days
+3. Email follow-ups: 2 business days
 
 #### Field Marketing QA process
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -244,7 +245,7 @@ As the email builder, you are responsible for making sure the email is formatted
 * Confirm that all tokens used in the email are complete in the program. This can vary from email to email, so you will need to check the email in the editor to confirm which tokens are in use. Generally, be sure to check {{my.landingpageURL}}, {{my.utm}}, the tokens for the title of the event, date, time, and in some cases intro paragraph and bullets. If anything is not complete and you do not have the information, ask the business owner to complete them.
 * Confirm that CTAs are in sentence case: ex: Register now (not Register Now)
 * Check the {{my.landingpageURL}} token to confirm that if you are driving to a `page.gitlab.com` address, there is NO `/` at the end of the url. If you are driving to `about.gitlab.com`, there should be a `/` at the end of the url. For example, the token should look like this (with no https://): `about.gitlab.com/sixteen/` or `page.gitlab.com/sixteen`.
-* In the email editor, confirm that each link is hard-coded with `https://`. This cannot be in a token because the Marketo tracking [will not work properly](https://nation.marketo.com/t5/knowledgebase/how-to-track-tokenized-links-in-email-assets/ta-p/254486). Your links should look like this in the email editor: `https://{{my.LandingpageURL}}?{{my.utm}}`
+* In the email editor, confirm that each link is hard-coded with `https://`. This cannot be in a token because the Marketo tracking [will not work properly](https://web.archive.org/web/20231207132114/https://nation.marketo.com/t5/knowledgebase/how-to-track-tokenized-links-in-email-assets/ta-p/254486). Your links should look like this in the email editor: `https://{{my.LandingpageURL}}?{{my.utm}}`
 * In the editor, click on the text version of the email. The content should have been copied from HTML, but you will need to reformat it. Be sure that after you bring over the copy initially, you uncheck the "Copy from HTML" box. Format the email to use proper spacing between paragraphs and that the date/time information is easy to read.
 * In the text version, there should be no links in line with content. Move the links to the end of the paragraph or into separate bullets. You should have a "Register now" link at the top of the email and at the bottom. Confirm the links in the text version are formatted properly (as described above).
 * On the text version, you do not need unsubscribe text because Marketo will automatically attach this if it is missing. If it is there, no need to remove it. The exception is if you are using the `Localized email footer` snippet. You do need to make sure this appears in the text version.
@@ -370,7 +371,7 @@ Instead, we should take the following steps:
 1. Build a second email and create a description of what was changed in the name i.e "Subject line test version" (or even saying the test)
 2. Add it as a random sample in the send controller as shown in the flow below (use 50% for 2 versions, or split between 100% for more versions):
 
-    ![email-ab-test](/handbook/marketing/lifecycle-marketing/emails-nurture/image-4.png){: .medium.center}
+    ![email-ab-test](/images/marketing/lifecycle-marketing/emails-nurture/image-4.png)
 
 3. Monitor results on an email report
 4. Document results on [A/B testing tracker](https://docs.google.com/spreadsheets/d/1BaGJbiYIG8187nnXXy2tvNtJyKXLV4CenCAZMYJbmeI/edit#gid=2079991889)
@@ -450,7 +451,7 @@ For the following, you can update 1 issue then drag it down (at least for email 
 8. Upload issue to the campaigns project using the import button. https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/uploads/c644b04f8460d6f1007e731093ff16fc/Screen_Shot_2022-08-11_at_2.10.56_PM.png
 9. Check to make sure your issues uploaded correctly and are in the right epic!
 
-## Adding “add to calendar” links in our emails without using 3rd party tools
+## Adding "add to calendar" links in our emails without using 3rd party tools
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Example:
 
@@ -458,28 +459,28 @@ Example:
 
 **Note:** gmail inboxes a majority of our sends, according to litmus analytics pixel data. Outlook makes up 3-15% of our recipients. This is exactly what Limus did:
 
-It’s virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a “add to calendar” button that would be compatible with iCalendar, Google’s calendar, and Outlook’s calendar.
-[Learn More Here](https://litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
+It's virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a "add to calendar" button that would be compatible with iCalendar, Google's calendar, and Outlook's calendar.
+[Learn More Here](https://www.litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
 
-### Steps to manually creating “add to calendar” links in our emails
+### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Create google calendar link for your events
-  * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
+  * Use this tool to generate your event information: [https://kalinka.tardate.com/](https://kalinka.tardate.com/)
   * You would have to copy and paste the information for the event from marketo to the tool above, this takes about 2 minutes
     * Location should be formatted as follows to show up as an address in the google calendar invite:
 
       **747 Howard St, San Francisco, CA 94103, USA**
     * Make sure time zone is correct
 
-  * Create link [Example Here](http://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
+  * Create link [Example Here](https://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
 
     ```html
-    <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
+    <a href="https://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
     ```
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)
   * Marketo can create an ICS file
-  * Add “Calendar File” Token to local tokens section
+  * Add "Calendar File" Token to local tokens section
   * Paste all necessary information (same as above)
   * Add token to the email as follows:
 
@@ -489,7 +490,7 @@ It’s virtually impossible to support all the calendar applications available. 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Use AddEvent API (available for $19/month billed annually for up to 50 events/month).
 
-  [https://www.addevent.com/plans-and-pricing](https://www.addevent.com/plans-and-pricing)
+  [https://www.addevent.com/c/plans-and-pricing](https://www.addevent.com/c/plans-and-pricing)
 * Use Eventable in Marketo (not sure about price)
 
   [https://www.eventable.com/info/add-to-calendar-marketo/](https://www.eventable.com/info/add-to-calendar-marketo/)

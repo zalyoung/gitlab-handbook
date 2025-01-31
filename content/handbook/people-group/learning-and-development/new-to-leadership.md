@@ -25,9 +25,9 @@ In this section we will review various topics that impact new managers. For firs
 
 There are some great articles regarding being new to leadership. Please review the following links for additional reading.
 
-- [15 Tips for New Managers](https://www.thebalancecareers.com/tips-for-new-managers-part-1-2275957)
+- [15 Tips for New Managers](https://www.liveabout.com/tips-for-new-managers-part-1-2275957)
 - [Becoming a Manager: What No One Tells You](https://www.jodymichael.com/blog/becoming-manager-no-one-tells/)
-- [How to Transition From Solo Expert to Effective Manager](https://www.thebalancecareers.com/transitioning-from-solo-expert-to-effective-manager-4116889)
+- [How to Transition From Solo Expert to Effective Manager](https://www.thebalancemoney.com/transitioning-from-solo-expert-to-effective-manager-4116889)
 - [Functions of Managers](https://www.cliffsnotes.com/study-guides/principles-of-management/the-nature-of-management/functions-of-managers)
 - [The Mental Shift From Individual Contributor to Manager](https://greatmanager.co/the-mental-shift-from-individual-contributor-to-manager-df89b4421713)
 
@@ -42,7 +42,7 @@ As a manager you are now responsible for hiring team members to fill open vacanc
 - If unsure, don't ask it
 - Don't make promises or imply anything
 - Ask consistent questions of all candidates
-- Here is a great article to reference for additional information [Keep the interview legal](https://hiring.monster.com/employer-resources/talent-acquisition-strategies/interviewing-candidates/legal-job-interview-questions/)
+- Here is a great article to reference for additional information [Keep the interview legal](https://hiring.monster.com/resources/recruiting-strategies/interviewing-candidates/legal-job-interview-questions/)
 
 ### Harassment
 
@@ -64,5 +64,3 @@ GitLab is committed to a work environment that is free of harassment, discrimina
 If managers have any questions regarding their role related to the above topics, process or other related questions please schedule time with your people business partner.  Your people business parter is here to help guide you and provide counsel related to all team member related issues.
 
 ### Diversity, Inclusion & Belonging
-
- A link to the Building an Inclusive Remote Culture can be found here at [Building an Inclusive Remote Culture](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#introduction).  Make sure you review the [Tips for Managers](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#tips-for-managers)

@@ -1,13 +1,6 @@
 ---
-
 title: ⛅🌱 Cloud Seed
 ---
-
-
-
-
-
-
 
 ## ⛅🌱 Cloud Seed
 
@@ -95,7 +88,7 @@ There are several ways one may contribute to Cloud Seed. These are listed below:
 
 ### Links
 
-- [Cloud Seed](https://hello.cloudseed.app) landing page
+- [Cloud Seed](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production)
 - [@OpenCloudSeed](https://twitter.com/OpenCloudSeed) on Twitter
 - Cloud Seed [documentation](https://docs.gitlab.com/ee/cloud_seed/index.html)
 - Sign up for the invite-only [Trusted Testers platform](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform)

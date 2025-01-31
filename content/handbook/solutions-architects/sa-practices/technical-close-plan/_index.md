@@ -1,6 +1,6 @@
 ---
 title: Technical Close Plan
-description: A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer’s desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.
+description: A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.
 ---
 
 ## Why Use a Technical Close Plan
@@ -19,7 +19,7 @@ A Technical Close Plan is most useful as an opportunity is approaching a technic
 
 ### Which Opportunities Should Have a Technical Close Plan?
 
-1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
+1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/sfdc-logging)
 1. Opportunities over $300k net ARR
 1. First Order opportunities for accounts with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M
 
@@ -31,7 +31,7 @@ A Technical Close Plan is primarily focused on opportunity rigor by capturing cu
 
 As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-does-this-differ-from-a-technical-close-plan) for more information.
 
-![Sales Process](sales-process.png)
+![Sales Process](/images/solutions-architects/sa-practices/technical-close-plan/sales-process.png)
 
 ## How to Build a Technical Close Plan
 
@@ -57,11 +57,11 @@ Most Technical Close Plans should address all of the areas listed above. If the 
 
 As succintly as possible, describe the customer's critical business needs and outcomes. Focus on the customer rather than what GitLab provides. How does the customer plan to drive more revenue? What are their operational efficiency goals? What risks do they need to mitigate?
 
-When trying to connect the dots between lower-level customer goals and their broader initiatives that likely align to GitLab’s [value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers), consider an Outcome Mapping exercise.
+When trying to connect the dots between lower-level customer goals and their broader initiatives that likely align to GitLab's [value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers), consider an Outcome Mapping exercise.
 
 #### Key Stakeholders
 
-Either within the Business Outcomes section or in its own section, call out the key stakeholders whom have been involved or need to be. It’s important to map existing relationships and note aspects of the relationship or about the individual. Identify gaps to call out where to branch out and meet other members or functions within the organization. Examples of responsibilities could align to their role at the company or could include GitLab's perspective of a Champion, Influencer, Buyer, and Tech Champion.
+Either within the Business Outcomes section or in its own section, call out the key stakeholders whom have been involved or need to be. It's important to map existing relationships and note aspects of the relationship or about the individual. Identify gaps to call out where to branch out and meet other members or functions within the organization. Examples of responsibilities could align to their role at the company or could include GitLab's perspective of a Champion, Influencer, Buyer, and Tech Champion.
 
 #### Notional Architecture
 
@@ -109,10 +109,37 @@ The activity plan is how a Solutions Architect is intentional about what is need
 
 A Technical Close Plan should be tracked on the opportunity with which it is associated via the `Technical Close Plan` field. This should always represent the current state of the Technical Close Plan for the given opportunity. The plan itself can be store in an account folder to retain the account context over time.
 
-![Technical Close Plan field in Salesforce](sfdc-tcp-field.png)
+![Technical Close Plan field in Salesforce](/images/solutions-architects/sa-practices/technical-close-plan/sfdc-tcp-field.png)
 
 If there are several opportunities relevant to the plan, each can point to the single Technical Close Plan.
 
 ## Regular Review
 
 Since the Technical Close Plan is used to progress a technical evaluation, the scope and definition could be fluid. It's important to regularly review the plan during 1:1s, account plans, and opportunity consults.
+
+### Peer Reviews
+
+To further foster SA collaboration and drive efficient results, SAs should regularly provide and solicit feedback on their Technical Close Plans to their peers. Anyone is empowered to provide insights that might improve upon a given Technical Close Plan.
+
+Feedback is best provided directly in the Technical Close Plan in the form of comments, but other alternatives like synchronous meetings, Slack messasges, MRs, etc. are also appropriate.
+
+### Technical Close Plan Review
+
+On occassion, a formal Technical Close Plan Review may help validate direction or further progress a deal.
+
+The audience should be small - focused on the account team that has the context, the SA Leader, and a guest reviewer. Staff+ SAs are ideal guest reviewers given their broad background and perspectives that could be shared with account teams.
+
+The SA should have the Technical Close Plan in what they consider a reviewable state 2 days prior to the scheduled review. Being a living document, a reviewable state will different opportunity to opportunity. All participants should come to the review having read the Technical Close Plan, in order to save time, spark questions, and focus the conversation.
+
+**Recommended Audience:** Account Team, SA Leader, Guest Reviewer (Staff+ SA)
+
+**Recommended Duration:** 1 hour
+
+**Recommended Agenda:**
+
+1. SA Leader: Setup
+1. SA: TCP Overview (uninterrupted for at least 5 minutes)
+1. All: Clarifying questions around Strengths, Gaps, and Actions
+    1. Strengths
+    1. Gaps
+    1. Actions

@@ -16,9 +16,9 @@ If you have any feedback or questions please contact [Total Rewards](/handbook/p
 - Increased Education around benefits as `I understand my benefits package at GitLab` decreased by 7% company wide. Also to increase awareness on the Total Rewards team is who to reach out to since there is company wide score of 3.82 out of 5 (lowest score among ICs). [Related Issue](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/191).
   - Actions taken:
     - Updated the [Total Rewards landing page](/handbook/total-rewards) and the [People Group contacts page](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) with our contact details.
-    - Introduced the [Benefits calculator]({{< ref "compensation-calculator#use-the-calculator" >}}) so team members can work out their overall Total Rewards package, including fixed costs, general benefits, remote benefits and entity-specific benefits.
+    - Introduced the [Benefits calculator](/handbook/total-rewards/compensation/compensation-calculator/#use-the-calculator) so team members can work out their overall Total Rewards package, including fixed costs, general benefits, remote benefits and entity-specific benefits.
     - [WIP](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/206) - Embed the entity-specific benefits calculator under respective [entity benefit pages]({{< ref "general-and-entity-benefits#entity-benefits" >}}).
-    - Implemented the [Compensation]({{< ref "compensation#knowledge-assessment" >}}), [Benefits]({{< ref "benefits#knowledge-assessment" >}}) and [Equity]({{< ref "benefits#knowledge-assessment" >}}) Knowledge Assessments.
+    - Implemented the [Compensation](/handbook/total-rewards/compensation/#knowledge-assessment), [Benefits](/handbook/total-rewards/benefits/#knowledge-assessment) and [Equity](/handbook/total-rewards/benefits/#knowledge-assessment) Knowledge Assessments.
     - Updated the [onboarding issue](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) to prompt new team members to familiarize themselves on their Total Rewards package and complete the knowledge assessments.
     - Updated the [Becoming a GitLab Manager](https://gitlab.com/gitlab-com/people-group/Training/-/blob/master/.gitlab/issue_templates/becoming-a-gitlab-manager.md) issue template to prompt new managers to read the Total Rewards pages and check-in with their team members to ensure they understand their Total Rewards package.
     - Added the Total Rewards handbook link to promotion and compensation change letters.
@@ -385,7 +385,7 @@ By demographic:
     | United Kingdom      | 3.04       |
     | United States       | 3.38       |
 
-1. I believe investing more of the company’s money into improving benefits at GitLab will help to attract and retain talent.
+1. I believe investing more of the company's money into improving benefits at GitLab will help to attract and retain talent.
 
     | GitLab                 | 2019 Score | 2020 Score | YOY Change |
     |------------------------|------------|------------|------------|
@@ -565,7 +565,7 @@ By demographic:
     |--------------------------------------------------------------------------------|-------|------------------|
     | Stress                                                                         | 333   | 42%              |
     | Example from my manager.                                                       | 391   | 50%              |
-    | Encouragement from my manager/peers to support my wellbeing through time off.  | 475   | 61%              |
+    | Encouragement from my manager/peers to support my well-being through time off.  | 475   | 61%              |
     | Example from leaders, for example Sid.                                         | 456   | 58%              |
     | Reduced workload.                                                              | 101   | 13%              |
     | Other (Expanded on below.)                                                     | 118   | 15%              |
@@ -965,7 +965,7 @@ This section serves to highlight benefits that we have previously researched, bu
 
 ### Telehealth
 
-We researched and selected four vendors to receive more information. Demo calls were conducted with three of these vendors where we learned more about the solutions and pricing. After reviewing the [results of the benefits survey](#global-benefits-survey), there wasn’t enough interest in a telehealth solution to justify the price so we decided to not move forward with any of the vendors at this time.
+We researched and selected four vendors to receive more information. Demo calls were conducted with three of these vendors where we learned more about the solutions and pricing. After reviewing the [results of the benefits survey](#global-benefits-survey), there wasn't enough interest in a telehealth solution to justify the price so we decided to not move forward with any of the vendors at this time.
 
 While we aren't offering a global telehealth solution at this time, team members based in the US who are enrolled in our [Cigna]({{< ref "inc-benefits-us#cigna-telehealth" >}}) or [Kaiser]({{< ref "inc-benefits-us#kaiser-telehealth" >}}) medical plans can access telehealth services through these plans. Other team members may have options for telehealth available to them through their provider.
 

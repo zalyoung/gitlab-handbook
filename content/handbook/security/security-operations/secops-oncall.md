@@ -2,7 +2,6 @@
 title: "Security Operations On-Call Guide"
 description: " "
 weight: 30
-controlled_document: true
 ---
 
 The Security Operations sub-department is collectively responsible for responding to reports of actual or potential security incidents on a 24/7/365 basis.
@@ -48,7 +47,7 @@ Trust and Safety
 
 *Incident issues are the SSoT for any incident. Be sure to include any significant incident updates within the incident summaries.*
 
-SIRT is using the self-developed tool [Handogotchi](https://gitlab.com/gitlab-com/gl-security/security-operations/gitlab-sirt-public/automated-incident-response/-/blob/main/tines-stories/handogotchi.json) (check [promotion of Handogotchi on Tine](https://www.tines.com/library/stories/1208015/manage-shift-turnover-with-handogotchi)) for written handover summaries. Handogotchi reminds the SIRT engineer on call to update incidents and add additional information one hour before handoff time. It will automatically send links to open incidents half an hour before handoff times.
+SIRT is using the self-developed tool [Handogotchi](https://gitlab.com/gitlab-com/gl-security/security-operations/gitlab-sirt-public/automated-incident-response/-/blob/main/tines-stories/handogotchi.json) (check [promotion of Handogotchi on Tine](https://www.tines.com/library/stories/1208015/?name=manage-shift-turnover-with-handogotchi)) for written handover summaries. Handogotchi reminds the SIRT engineer on call to update incidents and add additional information one hour before handoff time. It will automatically send links to open incidents half an hour before handoff times.
 
 Written handoffs are required to be completed at least half an hour before the end of every shift and are the basis for warm handoffs.
 
@@ -91,7 +90,7 @@ The Weekend On-Call Security team member will be responsible for covering On-Cal
 #### Weekend On-Call Security Scheduling
 
 - Weekend On-Call slots will be filled on a volunteer basis, meaning team members can sign up for the slots that would fit their schedules. The SIRT and Trust and Safety teams will have individual Weekend On-Call schedules so that one person from each team will cover the Weekend On-Call shift. General guidance is that team members should volunteer for the appropriate ratio of qualified team members to weekends requiring coverage. For example, in a team of 12 qualified team members, volunteering for 4 to 5 weekends per year, per person would allow for full coverage. Please note, ratios may change from time to time depending on the size of the team.
-- If there are open remaining slots, the Security Operations managers will assign slots to team members who have not hit their target amount of slots. For example, if there’s an open slot and a team member that should volunteer for 4 to 5 slots but has signed up for 2, the Manager can allocate the slot to that team member. If the team member is unavailable, they would be responsible for finding a replacement.
+- If there are open remaining slots, the Security Operations managers will assign slots to team members who have not hit their target amount of slots. For example, if there's an open slot and a team member that should volunteer for 4 to 5 slots but has signed up for 2, the Manager can allocate the slot to that team member. If the team member is unavailable, they would be responsible for finding a replacement.
 - In case of emergencies, managers may seek other volunteers and in rare cases may need to assign coverage.
 
 #### Weekend On-Call Security Relief
@@ -112,11 +111,12 @@ When scheduled for the Weekend On-Call Security shift, team members should:
 
 The SIRT On-Call paging workflow is currently designed to follow this escalation path:
 
-1. The first page goes to our incident slack channel.
-1. All Security Engineers in the sunny region are paged after 5 minutes of no response, with one designated On-Call Security Engineer per region during the week. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. The on-call page will occur either all at once, or in a round-robin fashion. Team members not designated as the On-Call Security Engineer can and should provide assistance if the On-Call Security Engineer misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
-1. The Security Operations manager in the sunny region is paged as a backup if the team members don't acknowledge the pages.
-1. Security Managers who volunteer as backups are paged if SIRT does not acknowledge the previous pages.
-1. The Security Operations Director is paged if Security Managers don't acknowledge the pages.
+1. The first notification goes to our incident slack channel.
+1. The designated Security Engineer On-Call in the sunny region is paged after 5 minutes of no response.
+1. All Security Engineers in the sunny region are paged after 10 minutes of no response. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. Team members not designated as the Security Engineer On-Call can and should provide assistance if the Security Engineer On-Call misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
+1. The Security Operations manager in the sunny region is paged as a backup after 15 minutes if the team members don't acknowledge the pages.
+1. Security Managers who volunteer as backups are paged if SIRT does not acknowledge the previous pages after 15 minutes.
+1. The VP of Security Operations is paged if Security Managers don't acknowledge the pages after 15 minutes.
 
 ### SIRT On-Call Paging Duties
 
@@ -131,7 +131,7 @@ Engineers should acknowledge pages within the first 15 minutes, and start perfor
 
 ### Security Managers On-Call
 
-In addition to the Security Engineers being On-Call, the Security Managers across the GitLab Security Department act as backups in the event the Security Engineers are unable to acknowledge security pages. PagerDuty will automatically engage the Security Manager On-Call if SIRT doesn’t acknowledge the paging attempts.
+In addition to the Security Engineers being On-Call, the Security Managers across the GitLab Security Department act as backups in the event the Security Engineers are unable to acknowledge security pages. PagerDuty will automatically engage the Security Manager On-Call if SIRT doesn't acknowledge the paging attempts.
 
 It's the responsibility of the Security Manager On-Call to:
 
@@ -197,4 +197,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})
+- Parent Policy: [Information Security Policy](_index.md)

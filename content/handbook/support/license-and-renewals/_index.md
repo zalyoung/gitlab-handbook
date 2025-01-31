@@ -73,7 +73,7 @@ be referred to in the [terminology table](/handbook/support/license-and-renewals
 **Subscription** is a term used to explain the purchase of a specific tier of features for a set
 amount of time. There are two factors that comprise a subscription:
 
-- **SaaS** or **Self-Managed**, which defines where the subscription is ‘applied’.
+- **SaaS** or **Self-Managed**, which defines where the subscription is 'applied'.
 **GitLab Dedicated** is considered as Self-Managed for the purposes of how it is applied.
 - The **Tier**, providing access to different features. This includes **Premium** or **Ultimate**.
 
@@ -96,7 +96,7 @@ are rare and require an internal request and Sales VP approval.
 A **Namespace** is a top-level group where users can collaborate in subgroups and projects, and is
 considered a separate entity from other namespaces. SaaS customers purchase a subscription for a
 namespace, which means the namespace has access to their purchased tier of features, such as
-Premium or Ultimate. For example, company: `“Example Corporation”` has a namespace located
+Premium or Ultimate. For example, company: `"Example Corporation"` has a namespace located
 at: `gitlab.com/example-co`:
 
 - All subgroups (`gitlab.com/example-co/marketing`) and projects
@@ -158,7 +158,7 @@ storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/
 Changes to how storage and transfer limits are considered at a
 [namespace level](https://docs.gitlab.com/ee/user/usage_quotas.html#namespace-storage-limit) are
 planned, but not currently enforced. See [the storage management improvements issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375296)
-and [Pricing FAQ](https://about.gitlab.com/pricing/faq-paid-storage-transfer/#q-what-is-changing-with-storage-and-transfer-limits)
+and [Pricing FAQ](https://docs.gitlab.com/ee/user/storage_usage_quotas.html)
 for further information.
 
 ### What you'll be working on
@@ -226,9 +226,9 @@ channel in Slack. This ensures:
 > - Increased visibility in queries and shared knowledge
 > - Increased cohesion in the L&R team regardless of region
 
-At the commencement of the APAC region's Support Hours (23:00 UTC) there is a
-[Daily Stand-up Bot for Licensing and Renewals in APAC](/handbook/support/support-global-groups/#daily-stand-up-bot-for-licensing-and-renewals-in-apac)
-post which tags all Support Engineers who have some responsibility for L&R
+At the start of the APAC region's Support Hours (23:00 UTC) the
+[Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+post that tags all APAC Support Engineers who have some responsibility for L&R
 tickets. This thread notifies the team of who is away for the current week, and
 allows team members to provide updates to each other about when they're working
 on the queue. This helps ensure coverage reliability of the L&R tickets across
@@ -290,10 +290,10 @@ stage, we can see that the team owns responsibilities that align with some of
 the types of requests we generally see in the queue, in particular the
 `Conversion` group.
 
-- Activation Group: [New Group Namespace Verify Stage Adoption Rate](/handbook/product/performance-indicators/#new-group-namespace-verify-stage-adoption-rate)
-- Adoption Group: [New Group Namespace Create Stage Adoption Rate](/handbook/product/performance-indicators/#new-group-namespace-create-stage-adoption-rate)
-- Expansion Group: [New Group Namespace with at least two users added](/handbook/product/performance-indicators/#new-group-namespace-with-at-least-two-users-added)
-- Conversion Group:[New Group Namespace Trial to Paid Conversion Rate](/handbook/product/performance-indicators/#new-group-namespace-trial-to-paid-conversion-rate)
+- Activation Group: [New Group Namespace Verify Stage Adoption Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-verify-stage-adoption-rate)
+- Adoption Group: [New Group Namespace Create Stage Adoption Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-create-stage-adoption-rate)
+- Expansion Group: [New Group Namespace with at least two users added](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-with-at-least-two-users-added)
+- Conversion Group:[New Group Namespace Trial to Paid Conversion Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-trial-to-paid-conversion-rate)
 
 ## What is **not in the scope** of L&R work in Support?
 
@@ -323,7 +323,7 @@ The queue should not be used for the following:
 - [CustomersDot Admin Docs](/handbook/product/fulfillment-guide)
 - [Business Ops](/handbook/business-technology/)
   - [Business Systems: Enterprise Applications, Integrations, and Flow](/handbook/business-technology/enterprise-applications/integrations/)
-  - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/)
+  - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/)
 - [Sales](/handbook/sales/)
   - [Sales Segmentation](/handbook/sales/field-operations/gtm-resources/)
   - [Sales Territories](/handbook/sales/territories/)

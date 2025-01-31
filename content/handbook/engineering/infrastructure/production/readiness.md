@@ -1,5 +1,4 @@
 ---
-
 title: "Production Readiness Review"
 ---
 
@@ -9,7 +8,7 @@ The Production Readiness Review is a process that helps identify the reliability
 It loosely follows the [production readiness review](https://sre.google/sre-book/evolving-sre-engagement-model/) from the SRE book.
 
 The goal of the readiness review is to make sure we have enough documentation, observability, and reliability for the feature, change, or service to run at GitLab.com production scale.
-The readiness review process should be started as early as possible as features progress through our [product maturity levels](https://docs.gitlab.com/ee/policy/experiment-beta-support.html).
+The readiness review process should be started as early as possible as features progress through our [product maturity levels](https://docs.gitlab.com/ee/policy/development_stages_support.html).
 
 **Completing a readiness review doesn't necessarily mean that the Infrastructure teams will take over on-call responsibilities or ownership from the service team. If required, this should be discussed in the merge request.**
 
@@ -17,7 +16,7 @@ This review is meant to facilitate collaboration between Service Owners, Securit
 The review document will serve as a snapshot of what is being deployed and the discussions that surround it.
 It is not intended to be constantly updated.
 
-The **readiness review MR** will go through a single review for every [maturity level](https://docs.gitlab.com/ee/policy/experiment-beta-support.html).
+The **readiness review MR** will go through a single review for every [maturity level](https://docs.gitlab.com/ee/policy/development_stages_support.html).
 We require an MR because it allows for inline comments, threaded discussions and explicit approval.
 Once an MR has been approved by the stakeholders and merged it is considered approved for corresponding level.
 
@@ -27,11 +26,11 @@ The **readiness review issue** is used to coordinate among stakeholders who will
 |--------------|-------------|
 | [Readiness Planning Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/7418781) | [Readiness Status Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/5177836) |
 | Readiness currently being prepared. | Readiness actively in review. |
-| ![Triage](../../team/scalability/img/label-triage.png)    <br/>![Proposal](../../team/scalability/img/label-proposal.png) <br/>![Ready](../../team/scalability/img/label-ready.png) | ![Ready](../../team/scalability/img/label-ready.png) <br/>![In Progress](../../team/scalability/img/label-in_progress.png) <br/>![Stalled](../../team/scalability/img/label-stalled.png) <br/>![Blocked](../../team/scalability/img/label-blocked.png) <br/>![Cancelled](../../team/scalability/img/label-cancelled.png) <br/>![Done](../../team/scalability/img/label-done.png)|
+| ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png)    <br/>![Proposal](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png) <br/>![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) | ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) <br/>![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png) <br/>![Stalled](/images/engineering/infrastructure/team/scalability/project-management/label-stalled.png) <br/>![Blocked](/images/engineering/infrastructure/team/scalability/project-management/label-blocked.png) <br/>![Cancelled](/images/engineering/infrastructure/team/scalability/project-management/label-cancelled.png) <br/>![Done](/images/engineering/infrastructure/team/scalability/project-management/label-done.png)|
 
 ## Criteria for starting a Production Readiness Review
 
-Production Readiness should start as early as possible and is required for all [product maturity levels](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) that meet any of the following criteria:
+Production Readiness should start as early as possible and is required for all [product maturity levels](https://docs.gitlab.com/ee/policy/development_stages_support.html) that meet any of the following criteria:
 
 - New infrastructure components, or significant changes to existing components that have dependencies on the GitLab application.
 - Changes to our application architecture that change how the infrastructure scales, or how data is processed or stored.

@@ -1,5 +1,4 @@
 ---
-
 title: "Rebecca Spainhower's README"
 description: "Personal readme page for Rebecca Spainhower, Support Engineering Manager, GitLab"
 job: "Support Engineering Manager"
@@ -7,15 +6,15 @@ job: "Support Engineering Manager"
 
 ### My Role and Responsibilities
 
-For a quick summary of everything I feel is important as a Support Engineering Manager, please see [this article](https://circleci.com/blog/how-engineering-managers-can-effectively-support-engineers-teams-and-organizations/#) by [Lena Reinhard](https://www.linkedin.com/in/lenareinhard/), VP of Product Engineering at CircleCI.
+For a quick summary of everything I feel is important as a Support Engineering Manager, please see [this article](https://web.archive.org/web/20230127115418/https://circleci.com/blog/how-engineering-managers-can-effectively-support-engineers-teams-and-organizations/) by [Lena Reinhard](https://www.linkedin.com/in/lenareinhard/), VP of Product Engineering at CircleCI.
 
 ### Tips on Excellent Management
 
 [A new manager's guide to growing into your role](https://www.atlassian.com/blog/leadership/new-manager-tips) -- from Atlassian blog on Leadership
-[The 25 Micro-Habits of High-Impact Managers](https://review.firstround.com/the-25-micro-habits-of-high-impact-managers) -- amalgamation of many useful ideas about daily behaviors for managers
+[The 25 Micro-Habits of High-Impact Managers](https://review.firstround.com/the-25-micro-habits-of-high-impact-managers/) -- amalgamation of many useful ideas about daily behaviors for managers
 [Crucial Conversations: Having crucial conversations on an all-remote team](https://about.gitlab.com/blog/2021/02/18/crucial-conversations/) -- GitLab blog
 [Crucial Conversations: Why we take this approach at GitLab](/handbook/leadership/crucial-conversations/) -- GitLab handbook entry
-[Crucial Conversations: Crucial Learning](https://cruciallearning.com/crucial-conversations-for-dialogue/) -- official website for CC training
+[Crucial Conversations: Crucial Learning](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/) -- official website for CC training
 
 ### Tips on Managing Yourself and Your Emotions
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Coupa Virtual Card Guide"
 description: "Coupa Virtual Card Guide"
 ---
@@ -8,7 +7,7 @@ description: "Coupa Virtual Card Guide"
 
 ## What is Virtual Card?
 
-GitLab’s preferred method of payment for suppliers is electronic funds transfer with supplier invoice provided as supporting documentation. In the instances where this option is not available with the supplier, Virtual Card, which is a temporary credit card, can be used as an alternative payment method.
+GitLab's preferred method of payment for suppliers is electronic funds transfer with supplier invoice provided as supporting documentation. In the instances where this option is not available with the supplier, Virtual Card, which is a temporary credit card, can be used as an alternative payment method.
 
 ## How to request a Virtual Card
 
@@ -24,7 +23,7 @@ On the **General information** Navigation page in `Zip`:
 
 <br>
 
-![vcard-image-20](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard20.png)
+![vcard-image-20](/images/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard20.png)
 
 <br>
 
@@ -33,7 +32,7 @@ Once the Requisition is fully approved, a Coupa Purchase Order will be generated
 
 <br>
 
-![vcard-image-6](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard6.png)
+![vcard-image-6](/images/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard6.png)
 
 <br>
 
@@ -45,7 +44,7 @@ Once the Requisition is fully approved, a Coupa Purchase Order will be generated
 
 The Virtual Card information is provided on the Purchase Order under the **Payment** section. Click on the link to view the card details. You will be prompted to enter Two-Factor Authentication (2FA) verification code.
 
-![vcard-image-7](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard7.png)  
+![vcard-image-7](/images/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard7.png)
 
 <br>
 
@@ -53,7 +52,7 @@ The card number, expiration date, and CVV code will be available to the requeste
 
 <br>
 
-![vcard-image-8](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard8.png)  
+![vcard-image-8](/images/business-technology/enterprise-applications/guides/coupa-virtual-cards/vcard8.png)
 
 <br>
 
@@ -77,7 +76,7 @@ The card number, expiration date, and CVV code will be available to the requeste
          - "Charge Created"
          - "Charge missing receipt reminder"
 
- ![vcard-image-16](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/chargenotification_jun2023.png)  
+ ![vcard-image-16](/images/business-technology/enterprise-applications/guides/coupa-virtual-cards/chargenotification_jun2023.png)
 
 <br>
 

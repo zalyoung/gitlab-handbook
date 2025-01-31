@@ -1,13 +1,6 @@
 ---
-
 title: Package Stage - Package Registry
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -15,17 +8,17 @@ The goal of this page is to document specific processes and tools for the [GitLa
 
 ## Releasing a new Package Registry format
 
-Implementing support for a new package format in the Packages Registries requires [several steps](https://docs.gitlab.com/ee/development/packages.html#mvc-approach).
-On top of this, Package Managers can be configured in a variety of ways that can't be exhaustively listed during the [investigation step](https://docs.gitlab.com/ee/development/packages.html#analysis).
+Implementing support for a new package format in the Packages Registries requires [several steps](https://docs.gitlab.com/ee/development/packages/new_format_development.html#mvc-approach).
+On top of this, Package Managers can be configured in a variety of ways that can't be exhaustively listed during the [investigation step](https://docs.gitlab.com/ee/development/packages/new_format_development.html).
 
 This creates an amount of uncertainty that can't be completely eliminated but can certainly be minimized. This section presents a guideline on how to achieve that.
 
-We will assume that the [recommended approach](https://docs.gitlab.com/ee/development/packages.html#mvc-approach) for new Package Regisitries was followed:
+We will assume that the [recommended approach](https://docs.gitlab.com/ee/development/packages/new_format_development.html#mvc-approach) for new Package Regisitries was followed:
 
 - A [feature flag](https://docs.gitlab.com/ee/development/feature_flags/index.html) is used.
 - The minimum amount of API endpoints has been implemented for the project level only.
 
-The recommended way to release the new Package Registry is using the support [statuses](https://docs.gitlab.com/ee/policy/experiment-beta-support.html).
+The recommended way to release the new Package Registry is using the support [statuses](https://docs.gitlab.com/ee/policy/development_stages_support.html).
 
 Each update on the status should be documented on the [list of supported package formats](https://docs.gitlab.com/ee/user/packages/package_registry/#supported-package-managers).
 

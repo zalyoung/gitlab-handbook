@@ -31,7 +31,7 @@ There are a number of different methodologies for migrating GitLab. This section
 
 ### GitLab Geo
 
-[GitLab Geo](https://about.gitlab.com/solutions/geo/) is built-in functionality that is included with GitLab Premium. It allows a customer to create a read-only replica server that is automatically updated with every change made to the primary server. It also allows for manual failover for disaster recovery. This failover functionality is what makes GitLab Geo an excellent option for server migrations.
+[GitLab Geo](https://docs.gitlab.com/ee/administration/geo/index.html) is built-in functionality that is included with GitLab Premium. It allows a customer to create a read-only replica server that is automatically updated with every change made to the primary server. It also allows for manual failover for disaster recovery. This failover functionality is what makes GitLab Geo an excellent option for server migrations.
 
 **Pros**
 
@@ -68,7 +68,7 @@ Rsync is a standard Linux/Unix tool used to transfer files from a remote locatio
 
 ### GitLab Backup & Restore
 
-GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/raketasks/backup_restore.html).
+GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/administration/backup_restore/index.html).
 
 **Pros**
 

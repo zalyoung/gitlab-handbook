@@ -8,8 +8,8 @@ description: "Information on automations related to syncing to our team page, jo
 Once/day we run a pipeline that syncs the following fields for all team members:
 
 - `name`, team members preferred name or nick name.
-  - This can be changed at any time in the YAML entry itself, as a team member may want to set a custom nickname or preferred name.
-  - Only updated if the team member has opted out of having their information on the team page, in which case this will be updated to reflect their current job title.
+  - Will **not** sync name from Workday if **opted in**. This can be changed at any time in the YAML entry itself, to set a custom nickname or preferred name for the team page.
+  - Only overwritten if **opted out** of syncs, in which we will replace with the team members current job title.
 - `specialty`, included if the team member has a job specialty component.
 - `departments`, A list of the team members Workday department and extra departments added to their team page entry.
   - We will only ever update the **first** entry of this list to their current Workday department.
@@ -31,14 +31,6 @@ Team members can edit their export preferences at any time by following [this jo
 
 - In the event that a daily sync is not merged the same day, that is fine, we can close the outdated MR and merge the most recent as this will contain the latest changes only updating files currently included in the handbook.
 - Pipelines may fail when adding to the merge train if a team member edited their team page entry after the MR was opened, most can be resolved by using the `/rebase` quick action, or by resolving conflicts manually. As above, these will usually resolve themselves on the next sync.
-
-## Parental leave PTO to BambooHR
-
-We run a daily check to see if any new Parental leave PTO was requested for the day before on Time Off by Deel. If there are any PTO events created on that day, we will add 3 employment statuses to the team member's BambooHR profile:
-
-- One with the status `Parental Leave` with the date the start date of the PTO event
-- One with the status `End of Parental Leave` with the date the end of the PTO event
-- One with the status `Active` with the date the end date of the PTO event + 1
 
 ## Sensitive data compliant Time Off by Deel export
 
@@ -97,3 +89,11 @@ spreadsheet we will list all the team members that we audited and mark the colum
 Every first of the month at 10AM UTC, we run the audit on all the active team members at GitLab. A spreadsheet is created
 in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the spreadsheet
 we will list all the team members that we audited *and* that had something marked as *needs to be checked*.
+
+## GitLab Group
+
+We utilize a GitLab.com group for internal communications ('pings') on GitLab.com. This helps ensure the appropriate team members from the team are alerted and reduces noise for others that may not need to be alerted.
+
+This group is public https://gitlab.com/gl-people-engineering, and can be mentioned by tagging `@gl-people-engineering` within an issue, merge request, or epic on GitLab.com.
+
+> Project creation for this group has been disabled, all People Group Engineering projects that can be public should be committed to https://gitlab.com/gitlab-com/people-group-public/engineering.

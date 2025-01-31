@@ -16,7 +16,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | **Where to Begin** | **Field Enablement Resources** | **Sales Processes & Standard Operating Procedures** | **Sales Meetings & Events** |
 | ------ | ------ | ------ | ------ |
 | [Sales & Customer Success Onboarding](/handbook/sales/onboarding/) | [Sales Training](/handbook/sales/training/) | [Sales Order Processing](/handbook/sales/field-operations/order-processing/) | [President's Club](/handbook/sales/club/) |
-| [Commercial Sales](/handbook/sales/commercial/)  |[Sales Enablement Sessions](/handbook/sales/training/sales-enablement-sessions/) | [Engage & Educate the Customer](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/) |[Sales Kickoff](/handbook/sales/training/SKO/) |
+| [Commercial Sales](/handbook/sales/commercial/)  |[Sales Enablement Sessions](/handbook/sales/training/sales-enablement-sessions/) | [Engage & Educate the Customer](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/) |[Sales Kickoff](/handbook/sales/training/sko/) |
 | [Enterprise Sales](/handbook/sales/playbook/) |  [Command of the Message](/handbook/sales/command-of-the-message/)  |  [Facilitate The Opportunity](/handbook/sales/sales-operating-procedures/facilitate-the-opportunity/)  | [Sales Meetings](/handbook/sales/sales-meetings/) |
 | [Inside Sales](/handbook/sales/insidesales/) | [Most Commonly Used Sales Resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | [Deal Closure](/handbook/sales/sales-operating-procedures/deal-closure/) |  |
 | [Channels](/handbook/sales/channel/#channels-handbook)  | [Field Certification Program](/handbook/sales/training/field-certification/) | [Retain and Expand](/handbook/sales/sales-operating-procedures/retain-and-expand/) |  |
@@ -36,7 +36,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Customer Success Operations](/handbook/customer-success/) |  | [Prospect Engagement Best Practices](/handbook/sales/prospect-engagement-best-practices/)  |  |
 | [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement) |  |  |  |
 | [Parent and Child Accounts](/handbook/sales/sales-term-glossary/#parent-and-child-accounts) |  |  |  |
-| [Opportunity Stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) |  | [Growth Resources (Finding Seat Count)](/handbook/sales/field-operations/finding-seat-counts.html) |  |
+| [Opportunity Stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) |  | [Growth Resources (Finding Seat Count)](/handbook/sales/field-operations/finding-seat-counts/) |  |
 | [Record Ownership](/handbook/sales/field-operations/gtm-resources/#record-ownership) |  |  |  |
 | [Routing Rules](/handbook/sales/field-operations/gtm-resources/#routing) |  |  |  |
 | [Forecasting Definitions and Processes](/handbook/sales/forecasting/) |  |  |  |
@@ -49,24 +49,24 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/people-group/competencies/) |
 | [MEDDPPICC Qualification](/handbook/sales/meddppicc/) |  | [Contract Resets](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset) | [GitLab Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) |
 | [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) | | |
-| [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | [Women in Sales Mentorship Pilot Program](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
-| [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | [Women in Sales Project](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
+| [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | |
+| [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | |
 | [Creating a Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) |  |  |  |
 | [Quote Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?usp=sharing) |  |  |  |
 | [Delivering a Quote via DocuSign](/handbook/sales/field-operations/order-processing/#how-to-send-an-order-form-to-a-customer) |  |  |  |
 | **Marketing Resources** | **Strategic Marketing** | **Product Resources** |  |
 | ------ | ------ | ------ | ------ |
 | [Marketing](/handbook/marketing/) | [Strategic Marketing Handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) | [Product Team Handbook](/handbook/product/) |  |
-| [Sales Development Handbook](/handbook/marketing/sales-development/) | [Product Marketing Manager Assignments](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#which-product-marketing-manager-should-i-contact) | [Engaging Product Management](/handbook/product/how-to-engage/) |  |
+| [Sales Development Handbook](/handbook/marketing/sales-development/) | [Product Marketing Manager Assignments](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#which-product-marketing-manager-should-i-contact) | [Engaging Product Management](/handbook/product/product-management/#how-to-engage-product-managers) |  |
 | [GitLab Value Proposition](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/messaging/#gitlab-value-proposition) | [Customer-Facing Presentations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations) | [Asking Questions/Giving Feedback on a Feature](/handbook/product/categories/#devops-stages) | |
 | [Lead and Contact Statuses](/handbook/marketing/marketing-operations/#lead-and-contact-statuses) |[Print Collateral](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#print-collateral) | [Product Categories](/handbook/product/categories/) |  |
 | [Inbound Lead Generation](/handbook/marketing/sales-development/#inbound-lead-generation) | [Sales Collateral Google Drive](https://drive.google.com/open?id=0B-ytP5bMib9TaUZQeDRzcE9idVk) | [Features by Group](/handbook/product/categories/features/) |  |
 | **Finance Process** | **Business Operations Process** | **Legal Process** | |
 | ------ | ------ | ------ | ------ |
 | [Deal Desk: Assistance with Quotes](/handbook/sales/field-operations/order-processing/#assistance-with-quotes) | [Business Operations Handbook](/handbook/business-technology/) | [Collaborating with Legal - Sales](/handbook/legal/customer-negotiations/) |  |
-| [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/business-technology/data-team/) | [Legal Page](/handbook/legal/) |  |
-| [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/business-technology/data-team/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
-| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/business-technology/end-user-services/onboarding-access-requests/) |  |  |
+| [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/enterprise-data/) | [Legal Page](/handbook/legal/) |  |
+| [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/enterprise-data/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
+| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/it/end-user-services/onboarding-access-requests/) |  |  |
 |  | [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests) |  |  |
 
 ## Who We Are
@@ -76,7 +76,7 @@ The Sales team is led by the [Chief Revenue Officer (CRO)](/job-families/sales/c
 - [VP, Enterprise Sales](/job-families/sales/vp-enterprise-sales/)
 - [VP, Commercial Sales](/job-families/sales/vp-of-commercial-sales/) (Mid-Market and SMB)
 - [VP, Field Operations](/job-families/sales/vp-of-field-operations/)
-- [VP, Customer Success](/job-families/sales/vp-of-customer-success/)
+- [VP, Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success)
 - [VP, Global Channels](/job-families/sales/vp-of-global-channels/)
 - [VP, Alliances](/job-families/alliances/alliances-job-family-matrix/)
 - [Chief of Staff, CRO](/job-families/sales/chief-of-staff-cro/)
@@ -133,7 +133,7 @@ The Inside Sales department is part of the GitLab Sales function and partners wi
 
 #### Channels & Alliances
 
-These teams help accelerate GitLab’s trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
+These teams help accelerate GitLab's trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
 
 #### Sales Development Organization
 
@@ -167,7 +167,7 @@ We work with the Product team to help drive the [GitLab Direction](https://about
 
 When you hear of feedback or you personally have feedback, you are encouraged to comment within the issue, if one exists, or create your own issue on our [Issue Tracker](https://gitlab.com/gitlab-org/gitlab/-/issues).
 
-When you have an organization that is interested in a feature and you have commented in the issue and added a link to the account in Salesforce, please follow the [process outlined on the Product Handbook](/handbook/product/how-to-engage/#examples-a-customer-has-a-feature-request) to arrange a call with the product manager and account to further discuss the feature request.
+When you have an organization that is interested in a feature and you have commented in the issue and added a link to the account in Salesforce, please follow the [process outlined on the Product Handbook](/handbook/product/product-management/#examples-a-customer-has-a-feature-request) to arrange a call with the product manager and account to further discuss the feature request.
 
 If a client has a question or suggestion about a particular part of the product, find out which individual on the Product team you need to speak by looking under [DevOps Stages](/handbook/product/categories/#devops-stages) on the Product stages, groups, and categories page.
 

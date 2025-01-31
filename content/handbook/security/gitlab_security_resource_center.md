@@ -13,7 +13,7 @@ description: "Provides an aggregated listing of popular and important links and 
 
 ### GitLab's Customer Assurance Package (CAP)
 
-Our Customer Assurance Package contains documents such as our SOC2 report, ISO 27001 certificate, penetration test executive summary, and pre-filled CAIQ and SIG questionnaires, among many other documents. Please see our [CAP page](https://about.gitlab.com/security/cap/) to request the package.
+Our Customer Assurance Package contains documents such as our SOC2 report, ISO 27001 certificate, penetration test executive summary, and pre-filled CAIQ and SIG questionnaires, among many other documents. Please see our [CAP page](https://trust.gitlab.com/) to request the package.
 
 ### GitLab's Trust Center
 
@@ -45,11 +45,11 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Access Management Policy]({{< ref "access-management-policy" >}})
 - [Access Review Procedure]({{< ref "security-assurance/security-compliance/access-reviews" >}})
-- [Access Request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
 
 ### Business continuity
 
-- [Business Continuity Plan](/handbook/business-technology/gitlab-business-continuity-plan/)
+- [Business Continuity Plan](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/)
 - [Business Impact Analysis]({{< ref "business-impact-analysis" >}})
 - [Information System Contingency Plan]({{< ref "Information-System-Contingency-Plan-ISCP" >}})
 
@@ -74,7 +74,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Endpoint management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
   - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
-  - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
+  - [EDR](/handbook/it/end-user-services/onboarding-access-requests/endpoint-management/edr/)
 - [Use Gitleaks as a pre-commit git hook on laptops]({{< ref "gitleaks" >}})
 
 ### GitLab.com hardening techniques
@@ -118,22 +118,22 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Security awareness
 
 - [Security training]({{< ref "security-training" >}})
-- [Security awareness training program]({{< ref "./security-assurance/governance/sec-awareness-training" >}})
-- [Security awareness training procedure]({{< ref "./security-assurance/governance/sec-training" >}})
-- [Phishing program]({{< ref "./security-assurance/governance/phishing" >}})
+- [Security awareness training program](security-assurance/governance/sec-awareness-training/)
+- [Security awareness training procedure](security-assurance/governance/sec-training/)
+- [Phishing program](security-assurance/governance/phishing/)
 
 ### Third party risk management
 
-- [Security third party risk management]({{< ref "./security-assurance/security-risk/third-party-risk-management" >}})
+- [Security third party risk management](security-assurance/security-risk/third-party-risk-management/)
 
 ### Threat modeling
 
-- [Threat modeling at GitLab]({{< ref "./product-security/application-security/threat-modeling" >}})
-- [Threat modeling How To Guide]({{< ref "./product-security/application-security/threat-modeling/howto" >}})
-- [Application security threat modeling process]({{< ref "./product-security/application-security/runbooks/threat-modeling" >}})
+- [Threat modeling at GitLab](product-security/application-security/threat-modeling/)
+- [Threat modeling How To Guide](product-security/application-security/threat-modeling/howto/)
+- [Application security threat modeling process](product-security/application-security/runbooks/threat-modeling/)
 
 ### Vulnerability management
 
-- [Vulnerability management standard]({{< ref "./product-security/vulnerability-management" >}})
-- [Application vulnerability management procedure]({{< ref "./product-security/application-security/vulnerability-management" >}})
-- [Infrastructure vulnerability management procedure]({{< ref "./product-security/vulnerability-management/Infrastructure-vulnerability-procedure" >}})
+- [Vulnerability management standard](product-security/vulnerability-management/)
+- [Application vulnerability management procedure](product-security/application-security/vulnerability-management/)
+- [Infrastructure vulnerability management procedure](product-security/vulnerability-management/Infrastructure-vulnerability-procedure/)

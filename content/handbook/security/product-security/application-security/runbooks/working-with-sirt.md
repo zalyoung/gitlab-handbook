@@ -1,5 +1,4 @@
 ---
-
 title: "Application Security Engineer Working With SIRT"
 ---
 
@@ -7,7 +6,7 @@ This runbook is meant to help AppSec engineers who need to engage and work with 
 
 ## Requirements for using /security to engage SIRT
 
-If this is a P1S1, follow the [P1S1 runbook]({{< ref "handling-s1p1" >}}) and [engage the security on-call]({{< ref "engaging-security-on-call" >}}).
+If this is a P1S1, follow the [P1S1 runbook]({{< ref "handling-s1p1" >}}) and [engage the security on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/).
 
 When using `/security` to engage SIRT:
 

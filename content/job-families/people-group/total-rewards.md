@@ -32,6 +32,36 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 |-----------------------------------------------------|-------|
 | [Senior Manager, Total Rewards](#senior-manager-total-rewards) | 9 |
 | [Director, Total Rewards](#director-total-rewards) | 10 |
+| [Director, Global Compensation](#director-global-compensation) | 10 |
+| [Director, Executive and Equity Compensation](#director-executive-and-equity-compensation) | 10 |
+
+## Total Rewards
+
+### Senior Total Rewards Program Manager
+
+#### Job Grade
+
+The Senior Total Rewards Program Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Lead all aspects of the planning, coordination and execution of new and revised Total Rewards programs
+- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind
+- Support Total Rewards leadership in preparing communication materials, building enablement and change management content,
+- Ensure programs are delivered with compliance, quality and on time with a one People Team mindset and brand
+- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues
+
+#### Requirements
+
+- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment
+- Experience in executive compensation in a public company
+- Experience with Workday and Aon Hewitt/Radford
+- Experience working with People Business Partners and senior leaders in a business facing role to solve compensation challenges
+- Experience leading presentations to senior leaders teams and company-wide audiences
+- Tested ability to drive programs to completion amidst ambiguity and dynamic environment factors
+- A shared interest in our values, and working in accordance with those values
+- Ability to use GitLab
+- Excellent verbal and written communication skills
 
 ## Benefits
 
@@ -119,7 +149,6 @@ The Manager, Benefits is a [grade 8](/handbook/total-rewards/compensation/compen
 - Willing to make Total Rewards as open and transparent as possible
 - You share our [values](/handbook/values/), and work in accordance with those values
 - The ability to work in a fast-paced environment with strong attention to detail is essential.
-
 - Ability to use GitLab
 
 ### Compensation Coordinator
@@ -132,7 +161,17 @@ The Compensation Coordinator is a [grade 5](/handbook/total-rewards/compensation
 
 ### Compensation Analyst
 
-The responsibilities for a Compensation Analyst will be added at the time of a business need for this role.
+- Support all aspects of job family creation and maintenance, partnering with the business to ensure alignment with the job architecture, conducting market benchmarking, reviewing FLSA classification, and updating related systems and tools.
+- Participate in external compensation surveys.
+- Assist with updating and refreshing the Compensation Calculator.
+- Maintain accuracy and integrity of compensation-related data in Workday through regular audits and data coordination.
+- Support the full lifecycle of all compensation programs, including Annual Compensation Review, promotion cycles, quarterly RSU grant approvals, and bonus programs
+- Act as the primary point of contact for compensation-related team member inquiries in collaboration with the People Connect team including creating documentation to support major program and policy implementations.
+- Participate in the development of communications and education materials, collaborating with the broader team to refresh the handbook to ensure user-friendly, concise, and informative pages.
+- Partner with Talent Acquisition to review offers in Greenhouse and respond to inquiries.
+- Coordinate the collection of materials required for audit controls.
+- Assist with ad hoc data requests and special projects.
+- Ensure compliance with all global rules and regulations
 
 #### Job Grade
 
@@ -250,7 +289,66 @@ The responsibilities for a Senior Manager, Total Rewards will be added at the ti
 
 The Senior Manager, Total Rewards is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Director, Total Rewards
+### Director, Global Compensation
+
+The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Develop, manage and execute a comprehensive compensation strategy that aligns with the company’s business goals and ensures it is positioned to attract candidates and motivate and retain current team members
+- Manage and administer executive compensation programs and prepare for the compensation committee meetings
+- Manage ongoing employee compensation programs such as annual compensation review cycle, bonus accrual and payout, and equity planning
+- Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent
+- Serve as Subject Matter Expert in the development of short-term incentive compensation (i.e. bonus and sales commissions plans) and long-term incentive compensation (i.e. equity)
+- Review current compensation programs and lead the proposal, development, and implementation of necessary changes to align with our global business
+- Own the communication strategy and create internal compensation branding messaging and trainings to ensure team members understand the components and value of their compensation package
+- Provide thought leadership to business leaders on compensation issues including new hire packages, performance recognition, incentive plans, retention arrangements and compensation structure
+- Stay ahead of market trends and develop creative pay practices to ensuring that the organization retains a competitive position in the marketplace
+- Determine M&A strategy and execution for compensation
+- Lead and mentor a team of compensation professionals to provide strategic business partnership and support while fostering their own growth and development
+
+#### Requirements
+
+- Progressive experience and demonstrated leadership in designing and managing compensation ideally at rapidly growing, global companies in a relevant industry
+- Strong understanding of executive compensation; in-depth knowledge of core compensation principles and methodologies
+- Forward thinking, creative, and open-minded approach with sound technical skills, analytical ability, and seasoned judgment
+- Comfortable and enthusiastic about working in a fast-paced, high growth, constantly changing, geographically dispersed, transparent environment
+- Ability to drive consensus and engagement across a wide variety of stakeholders in multiple parts of the business
+- Data-driven leader with a strong ability to analyze and turn data into insights and action plans aligned with company direction
+- Excellent verbal and written communication skills, with the ability to package and present complex analyses and recommendations clearly
+- Previous experience in both public and startup companies
+- Experience preparing for and interacting with the Compensation Committee
+- Experience working remotely and managing remote team members is preferred
+
+### Director, Executive and Equity Compensation
+
+The Director, Executive and Equity Compensation is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Lead, implement, and communicate executive and equity compensation philosophies, practices and strategies including base salary, bonuses, long-term incentives, and equity awards
+- Provide thought leadership to internal partners around industry best practices to motivate and retain top talent globally and serve as a subject matter expert to executives, People partners, and the Compensation Committee
+- Prepare documentation, present to, and where necessary, guide GitLab’s Compensation Committee
+- Manage the annual compensation review process for executives
+- Partner with internal stakeholders to assess and analyze compensation trends, regulations, and market data to inform compensation decisions.
+- Develop clear and effective communication strategies for compensation programs that impact the GitLab leadership team
+- Monitor the effectiveness of existing compensation practices, policies, and procedures, making adjustments as necessary to maintain competitiveness
+- Manage relationships with external consultants
+
+#### Requirements
+
+- Deep and progressive experience designing and managing executive and equity compensation programs, ideally at rapidly growing, global companies in a relevant industry
+- Previous experience in both public and startup companies
+- A forward thinking, creative, and open-minded approach with sound technical skills, analytical abilities, and seasoned judgment
+- Comfortability and enthusiasm about working in a fast-paced, high growth, constantly changing, geographically dispersed, transparent environment
+- An ability to drive consensus and engagement across a wide variety of stakeholders in multiple parts of the business
+- A strong ability to analyze and turn data into insights and action plans aligned with company direction
+- Excellent verbal and written communication skills, ability to package and present complex analyses and recommendations clearly
+- Experience working remotely and with remote team members is preferred
+- Experience building and leading a team of Compensation team members
+- High level of integrity, discretion and professionalism in handling confidential information
+
+### Director, Total Rewards
 
 The responsibilities for a Director, Total Rewards will be added at the time of a business need for the role.
 
@@ -258,11 +356,11 @@ The responsibilities for a Director, Total Rewards will be added at the time of 
 
 The Director, Total Rewards is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Senior Director, Total Rewards
+### Senior Director, Total Rewards
 
 The Senior Director, Total Rewards leads the development and administration of our total rewards strategy and practices to support our culture and growth.  This role will serve as a trusted organizational leader to lead strategy development, design, implementation, administration, and governance of all compensation and benefit programs globally.  In partnership with the People leadership team and senior business leaders, translate business strategy into scalable and meaningful Total Rewards strategies that are effective in attracting, rewarding and retaining key talent.  The Senior Director reports to the VP, Total Rewards and Operations.
 
-### Job Grade
+#### Job Grade
 
 The Senior Director, Total Rewards is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -288,9 +386,9 @@ The next step in the Total Rewards job family is to move to the VP, Total Reward
 
 ## Total Rewards Performance Indicators
 
-- [Percentage over compensation band](/handbook/people-group/people-group-metrics/#percent-over-compensation-band)
-- [Average location factor](/handbook/people-group/people-group-metrics/#average-location-factor)
-- [New hire location factor](/#new-hire-location-factor)
+- [Percentage over compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band)
+- [Average location factor](/handbook/people-group/people-success-performance-indicators/#average-location-factor)
+- New hire location factor
 - [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
 
 ### Hiring Process

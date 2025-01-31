@@ -1,5 +1,4 @@
 ---
-
 title: "P&L Allocation"
 description: "P&L allocation documentation"
 ---
@@ -25,7 +24,7 @@ The workflow follows a data transformation pipeline pattern:
 
 ### Lineage
 
-![Cloud cost pipeline](img/cloud-finops-architecture.png)
+![Cloud cost pipeline](/images/engineering/infrastructure/cost-management/cloud-finops/cloud-finops-architecture.png)
 
 ### Combined mappings
 

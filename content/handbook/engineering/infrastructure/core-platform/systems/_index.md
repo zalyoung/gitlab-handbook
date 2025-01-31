@@ -1,13 +1,6 @@
 ---
-
 title: Core Platform:Systems Stage
 ---
-
-
-
-
-
-
 
 ## Vision
 
@@ -19,3 +12,4 @@ Develop the systems-level features that support installation, operation, and orc
 * [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 * [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 * [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
+* [Git](/handbook/engineering/infrastructure/core-platform/systems/git/)

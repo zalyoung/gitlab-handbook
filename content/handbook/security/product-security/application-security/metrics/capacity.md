@@ -44,10 +44,18 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::SIRTandSecurityComms | Indicates the work was associated to a SIRT incidents and/or Security communications work |
 | AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
 | AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
-| AppSecWorkType::TeamProjects | Indicates the work was associated to team projects |
+| AppSecWorkType::TeamProjects | Indicates the work was associated to team projects.|
 | AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](/handbook/security/critical-projects/) |
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
+
+### Work impacted by SIRT incidents
+
+When SIRT incidents happen, this has an impact on our capacity. To evalute that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
+
+### Dogfooding
+
+Apply `Dogfooding` label on each feature that we enable through a MR or issue.
 
 #### Who assigns this label and when?
 
@@ -70,4 +78,19 @@ The effort classification is an estimate of the level of effort required to reso
 
 #### Who assigns this label and when?
 
-The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR after they complete it.
+The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR after they complete it. In order for an issue to show up in the metrics it needs to have the following labels:  `~"AppSecWorkType::<<type>>" ~AppSecWeight::<<weight>> ~"Application Security Team" ~"AppSecWorkflow::complete"` _as well_ as a milestone _and_ be closed.
+
+## Work flow labels
+
+These labels indicate the current status of the issue.
+
+### Table
+
+| Label    | Description |
+| AppSecWorkflow::planned| Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
+|AppSecWorkflow::in-progress|Indicates the issue is actively being worked on, or the rotation is in progress.|
+|AppSecWorkflow::complete|Indicates the work is done, or the rotation has finished.|
+
+#### Who assigns this label and when?
+
+The AppSec Engineer responsible for the task is expected to assign this label to an issue when work on the issue is started or completed.

@@ -8,7 +8,7 @@ Buyer personas represent the people who serve as the main buyers in an organizat
 the champions within an enterprise that drive the buying conversation and
 coordinate various teams to make a purchase. We've updated our approach to include persona groups, in addition to specific roles or titles within a group, based on the Jobs To Be Done (JTBD) framework.
 
-![IT Orgchart](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/buyerpersonaorgchart-2022-09-29.png)
+![IT Orgchart](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/buyerpersonaorgchart-2022-09-29.png)
 
 1. [CIO](#tech-exec-tristan)
 1. [App Dev](#app-dev-avery)
@@ -33,30 +33,30 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Writing for all personas
 
-- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand/overview/#tone-of-voice) regardless of the persona.
+- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand-messaging/brand-voice) regardless of the persona.
 - Never alienate other personas. You can appeal to a buyer without buzzword bingo.
 - Look at who uses a channel most (twitter & docs: user, webinar linkedin: buyer) when shared (website) guide them /features for users /solutions for buyers.
 
 #### Overall recommendations
 
-- Develop content and build ‘persona-lized’ buyer’s journeys for more efficient targeting
+- Develop content and build 'persona-lized' buyer's journeys for more efficient targeting
 - Rethink messaging to leverage most effective drivers by persona
 - Consider alternative content sites (Reddit, Quora, Medium) to target specific personas
 - Help champions sell their ideas internally with the resources they say they need (ROI / case studies / real world benefits / hard data / Proof of Concepts)
-- Explore opportunities to provide tech education / ‘mentoring’ to personas with less than 10 years experience (due to lack of mid-level personnel peers / mentors and 16+ years set aging out)
+- Explore opportunities to provide tech education / 'mentoring' to personas with less than 10 years experience (due to lack of mid-level personnel peers / mentors and 16+ years set aging out)
 - Note: Although IC developers are no longer driving our growth KPIs, they ARE heavy influencers on buyers—their product adoption and evangelism is critical to expansion and renewals
 
 #### Comparing the personas
 
-![Motivations and challenges for each buyer persona.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-buyer-persona-motivations-challenges-v3.png)
+![Motivations and challenges for each buyer persona.](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/comparison-buyer-persona-motivations-challenges-v3.png)
 
-![How buyer personas collect technical information.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-how-they-gather-tech-info.png)
+![How buyer personas collect technical information.](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/comparison-how-they-gather-tech-info.png)
 
 ---
 
 ### Tech Exec Tristan
 
-![techexectristan](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/techexectristan.png)
+![techexectristan](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/techexectristan.png)
 
 - **Job To Be Done:**
 
@@ -64,15 +64,15 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 - **Summary:**
 
-  - I’m really motivated by leading organizational change
-  - I’m an Influencer and Initiator/Identifier of need for tech purchases but I am very often the decision-maker
+  - I'm really motivated by leading organizational change
+  - I'm an Influencer and Initiator/Identifier of need for tech purchases but I am very often the decision-maker
   - My biggest challenges are siloed teams and workflows along with the need to increase the speed of development as well as  scaling efficiencies and new ways of working across multiple projects and environments
-  - Key messaging concepts to include in the buyer’s journey: budget, cost, ROI, cost analysis, value, etc.
+  - Key messaging concepts to include in the buyer's journey: budget, cost, ROI, cost analysis, value, etc.
 
 - **My Messaging:**
 
   - Create secure code faster with continuous improvment through accelerated feedback loops
-  - Do less with more with built-in support automation and integrations with 3rd-party sevices
+  - Do more with less with built-in support automation and integrations with 3rd-party sevices
   - Enforce compliance, have visibility, and better prepare for audits
   - Have visibility across your entire SDLC and Supply Chain
 
@@ -141,7 +141,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### App Dev Avery
 
-![appdevavery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/appdevavery.png)
+![appdevavery](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/appdevavery.png)
 
 - **Job To Be Done:**
 
@@ -150,7 +150,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Summary:**
 
   - I want to choose the technology/tools I use to do my work
-  - I’m mostly an Influencer and Researcher for tech purchases (but sometimes I am the Initiator/Identifier of a need)
+  - I'm mostly an Influencer and Researcher for tech purchases (but sometimes I am the Initiator/Identifier of a need)
   - My biggest challenges are increasing the speed of development and dealing with team silos and workflows while constantly switching between multiple point solutions
   - Key messaging concept: Highlight the developer experience gap vs the integrated One DevSecOps platform as a value proposition
 
@@ -226,7 +226,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### InfoSec Shiloh
 
-![infosecshiloh](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/infosecshiloh.png)
+![infosecshiloh](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/infosecshiloh.png)
 
 - **Job To Be Done:**
 
@@ -235,7 +235,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Summary:**
 
   - Protecting my organization from a constant barrage of global attacks from bad actors drives my work. (And on a personal level, career growth/learning--and the ability to fail/learn in a safe environment--is my biggest motivator)
-  - I’m an Influencer and Researcher for tech purchases but I am very often the decision-maker
+  - I'm an Influencer and Researcher for tech purchases but I am very often the decision-maker
   - My biggest challenges are dealing with team silos and workflows and the lack of a strong security culture with the risk that entails
 
 - **My Messaging:**
@@ -279,7 +279,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 - **Biggest Challenges:**
 
-  - Silo’d teams and workflows
+  - Silo'd teams and workflows
   - Lack of a strong security culture and the risk that entails
   - The disjointed developer experience
   - Tool and process sprawl
@@ -311,7 +311,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### Platform Perry
 
-![platformperry](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/platformperry.png)
+![platformperry](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/platformperry.png)
 
 - **Job To Be Done:**
 
@@ -320,7 +320,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Summary:**
 
   - Having autonomy and independence is my biggest motivator
-  - While I’m an Influencer, Researcher, and Initiator, I am a strong Decision-Maker — my purchases lead ARR and First Orders for GitLab
+  - While I'm an Influencer, Researcher, and Initiator, I am a strong Decision-Maker — my purchases lead ARR and First Orders for GitLab
   - My biggest challenges are transitioning to DevSecOps due to legacy workloads and environments, siloed teams and workflows, and
 scaling efficiencies and new ways of working across multiple projects and environments
 
@@ -357,7 +357,7 @@ scaling efficiencies and new ways of working across multiple projects and enviro
   - Shift responsibilities like security left, earlier into the development process
   - Automate pipelines from inception to production
   - Ensure platform stability
-  - Create “golden paths” to make developer teams productive while maintaining standards--sees need for "guardrails"
+  - Create "golden paths" to make developer teams productive while maintaining standards--sees need for "guardrails"
   - Support development teams, make them productive and happy
   - Enable Progressive Delivery and modern CI/CD patterns
   - Achieve built in platform security
@@ -372,7 +372,7 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 - **Biggest Challenges:**
 
   - Transition to DevOps is challenging for certain legacy workloads and environments
-  - Silo’d teams and workflows
+  - Silo'd teams and workflows
   - Scaling efficiencies and new ways of working across multiple projects and environments
 
 - **Content Sources for Tech Purchasing Decisions:**
@@ -400,7 +400,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Compliance Cooper
 
-![compliancecooper](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/compliancecooper.png)
+![compliancecooper](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/compliancecooper.png)
 
 - **Job To Be Done:**
 
@@ -408,15 +408,14 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Summary:**
 
-  - I’m really motivated by contributing to a greater purpose or mission
-  - I’m very often a Decision-Maker but I also am an Influencer, and Initiator
+  - I'm really motivated by contributing to a greater purpose or mission
+  - I'm very often a Decision-Maker but I also am an Influencer, and Initiator
   - My biggest challenges are tool and process sprawl and anything manual / lack of automation
 
 - **My Messaging:**
-
   - A single platform makes it easier to enforce compliance across the entire software life cycle
   - GitLab can pull reports from all projects, groups, and departments making preparing for audits much easier
-  - Vulternability and Dependcy manageemnt are easier through SBOM creationg, license approvals policies, and security dashboards
+  - Vulnerability and Dependency management are easier through SBOM creation, license approvals policies, and security dashboards
 
 - **Potential Titles:**
 
@@ -451,7 +450,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
   - Tool and process sprawl
   - Anything manual / lack of automation
-  - Silo’d teams and workflows
+  - Silo'd teams and workflows
 
 - **Sources for Tech Purchasing Decisions:**
 
@@ -475,7 +474,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Release Rory
 
-![releaserory](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/releaserory.png)
+![releaserory](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/releaserory.png)
 
 - **Job To Be Done:**
 
@@ -483,9 +482,9 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Summary:**
 
-  - I’m really motivated by being more efficient and effective
-  - I’m an Influencer and Researcher for tech purchases but I am very often the decision-maker
-  - My biggest challenges are tool and process sprawl and the volume of required integrations (and associated maintenance). My job also restricts tooling choices (and I don’t like the tools I am allowed to use)
+  - I'm really motivated by being more efficient and effective
+  - I'm an Influencer and Researcher for tech purchases but I am very often the decision-maker
+  - My biggest challenges are tool and process sprawl and the volume of required integrations (and associated maintenance). My job also restricts tooling choices (and I don't like the tools I am allowed to use)
 
 - **My Messaging:**
 
@@ -527,7 +526,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **Biggest Challenges:**
 
   - Tool and process sprawl
-  - My job restricts tooling choices (and I don’t like the tools I am allowed to use)
+  - My job restricts tooling choices (and I don't like the tools I am allowed to use)
   - Volume of required integrations (and associated maintenance)
 
 - **Sources for Tech Purchasing Decisions:**
@@ -552,7 +551,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Program Management Payton
 
-![pmpayton](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmpayton.png)
+![pmpayton](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/pmpayton.png)
 
 - **Job To Be Done:**
 
@@ -560,8 +559,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Summary:**
 
-  - I’m really motivated by being more effective and efficient
-  - I’m both an Influencer and Decision-maker
+  - I'm really motivated by being more effective and efficient
+  - I'm both an Influencer and Decision-maker
   - My biggest challenges are that the transition to DevSecOps is challenging for certain legacy workloads and environments, the need to increase the speed of development, and the disjointed developer experience
 
 - **My Messaging:**
@@ -584,7 +583,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
   - Daily program management throughout the program life cycle
   - Define the program governance (controls)
   - Plan the overall program and monitoring the progress
-  - Manage the program’s budget
+  - Manage the program's budget
   - Manage risks and issues and taking corrective measurements
   - Coordinate the projects and their interdependencies
   - Manage and utilizing resources across projects
@@ -634,15 +633,15 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Back Office Blake
 
-![backofficeblake](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/backofficeblake.png)
+![backofficeblake](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/backofficeblake.png)
 
 - **Job To Be Done:**
 
   - Manage, coordinate, and facilitate operational, (and often cross-functional) non-development related business activities
 
 - **Summary:**
-  - I’m really motivated by leading organizational change
-  - I represent functions like Marketing, Finance, Legal, HR, and Operations and I’m both an Influencer and Decision-maker
+  - I'm really motivated by leading organizational change
+  - I represent functions like Marketing, Finance, Legal, HR, and Operations and I'm both an Influencer and Decision-maker
   - My biggest challenges are:
 
     - Tool and process sprawl
@@ -721,7 +720,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Content Buyers Use for Tech Research and Decision-Making
 
-- [Analyst report:](https://about.gitlab.com/analysts/gartner-ast22/) Paid resource that provides insights into major business and IT trends and technologies (Gartner, Forrester, IDC, Red Monk, etc.).
+- [Analyst report:](https://page.gitlab.com/resources-report-gartner-magic-quadrant-ast-2023.html) Paid resource that provides insights into major business and IT trends and technologies (Gartner, Forrester, IDC, Red Monk, etc.).
 - [Announcement/Press release:](https://about.gitlab.com/press/releases/) Official statement to the news media for the purpose of providing information, creating an official statement, or making an announcement directed for public release.
 - [Blog post:](https://about.gitlab.com/blog/) Entry/article written on a blog usually including content in the form of text, photos, infographics, or videos.
 - [Case study:](https://about.gitlab.com/customers/) Detailed study of a specific subject in its real-world context focused on a person, group, event, or organization.
@@ -738,8 +737,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - [Technical video/demo:](https://www.youtube.com/watch?v=Rm-tNcskxqY) Highly customized, deep-dive demonstration of a digital product, often presented to the buyer's technical team.
 - [Video story from similar organization:](https://www.youtube.com/watch?v=L4zf_QIr4jQ) Recorded talk about how a company's product or service has helped another customer solve a related problem.
 - [Webinar:](https://www.youtube.com/watch?v=muIZthUk4_o) Online event hosted by an organization/company and broadcast to a select group of individuals through their computers via the Internet.
-- [(Product) Website:](https://about.gitlab.com/) Page on a vendor’s website describing a particular product/service and including specific specs and features, information about the manufacturer and brand, etc. .
-- [Whitepaper:](https://fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
+- [(Product) Website:](https://about.gitlab.com/) Page on a vendor's website describing a particular product/service and including specific specs and features, information about the manufacturer and brand, etc. .
+- [Whitepaper:](https://www.fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
 
 ### Enablement Artifacts
 

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation/process.html
 title: Development Escalation Process
 ---
 {{% alert title="Quick escalation guide" color="danger" %}}
@@ -109,7 +108,7 @@ NOTE: these people generally do not carry pagers and are only likely available d
 
 Use the [product sections](/handbook/product/categories/) handbook page to determine whom to contact.
 
-- [Get attention from Gitaly team](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#how-to-contact-the-team): issues related to Git and Git repositories, Gitaly Cluster, including data recovery.
+- [Get attention from Gitaly team](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#how-to-contact-the-team): issues related to Git and Git repositories, Gitaly Cluster, including data recovery.
 - [Get attention from Fulfillment team](/handbook/engineering/development/fulfillment/#escalation-process-for-incidents-or-outages): issues related to CustomersDot (customers.gitlab.com).
 
 ### First response time SLOs
@@ -240,7 +239,7 @@ There is additional information regarding weekend shifts, which can be found in 
 
   1. Post a message to the existing incident thread in the [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) channel, or create a new thread requesting volunteers to take over the shift.
 
-  1. Message the [on-call IMOC](https://thanos.gitlab.net/graph?g0.expr=count(pagerduty_schedule_oncall%7BscheduleID%3D~%22PK4YI6X%22%2Ctype%3D%22startTime%22%7D%0A*%20on%20(userID)%20group_left(userName)%20(pagerduty_user_info))%20by%20(userName)&g0.tab=1&g0.stacked=0&g0.range_input=1h&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D) and ask them for help finding an engineer to take over the shift.
+  1. Message the [on-call IMOC](https://dashboards.gitlab.net/goto/5CwoDarSg?orgId=1) and ask them for help finding an engineer to take over the shift.
 
 - In the instance of an ongoing escalation being handed over to
   another incoming on-call engineer the current on-call engineers
@@ -336,10 +335,10 @@ For those eligible engineers, everyone is encouraged to explore options that wor
    1. When an engineer is in standby mode (e.g. not paged) during the weekend shift, they can take 1.25x time-off.
    1. When an engineer is in call-back mode (e.g. being paged) during the weekend shift, they can take double the time-off.
    1. For those who reside in Australia, please refer to these [guidelines of time in lieu](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/#on-call-engineering-only) in the handbook.
-   1. Please create an OOO event in Time Off by Deel and choose **On-Call Time in Lieu**.
+   1. Please create an OOO event in Workday and choose **On-Call Time in Lieu**.
 1. Other alternatives that promote work-life balance and have the least impact to your personal schedule.
 
-With the above alternatives we want to make sure we comply with local labor laws and not surpass the restricted weekly working hours (ranging from 38 to 60 hours) and offer enough rest time for the engineers who sign up on weekend on-call shifts.
+It is important to abide by local labor laws and you are encouraged to understand if there are restrictions around your working time. The purpose of this information is to encourage you to take time off according to your schedule to account for the interruption to your weekend.
 
 If you prefer to work on a preferred weekend day please proactively sign up for shifts to avoid auto-assignment. Team members who have signed up for the fewest shifts are auto-assigned open shifts first.
 
@@ -416,7 +415,9 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
 
 If you have questions about the process, please reach out to `#dev-oncall` in Slack or to the [DRI](#development-on-call-dri) directly.
 
-### Pagerslack statistics ([Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views))
+### Pagerslack statistics
+
+[Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views)
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/ofEscalationsperMonth" >}}
 {{< /tableau >}}
@@ -443,11 +444,11 @@ These are the recommended settings. Your mileage may vary.
 1. Scroll down to "Sound & appearance".
 1. Choose settings that ensure you won't miss messages. We recommend:
    1. Select a "Notification sound".
-   1. Check "Bounce Slack’s icon when receiving a notification".
+   1. Check "Bounce Slack's icon when receiving a notification".
 1. Use your preference for the other settings. The "Channel-specific notifications" are particularly helpful to mute noisy channels that you don't need to be interrupted for.
 
-![screenshot of slack notification settings](notifications-slack-1.png)
-![screenshot of slack notification settings](notifications-slack-2.png)
+![screenshot of slack notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-slack-1.png)
+![screenshot of slack notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-slack-2.png)
 
 #### macOS Notifications
 
@@ -458,7 +459,7 @@ These are the recommended settings. Your mileage may vary.
 1. Enable "Play sound for notifications", particularly if you chose "Banners" above.
 1. Use your preference for the other settings.
 
-![screenshot of macOS notification settings](notifications-macos.png)
+![screenshot of macOS notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-macos.png)
 
 #### iOS Notifications
 
@@ -469,4 +470,4 @@ These are the recommended settings. Your mileage may vary.
 1. Enable "Sounds".
 1. Use your preference for the other settings.
 
-![screenshot of iOS notification settings](notifications-ios.png)
+![screenshot of iOS notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-ios.png)

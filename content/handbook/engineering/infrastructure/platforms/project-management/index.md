@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure SaaS Platforms Project Management"
 ---
 
@@ -22,8 +21,13 @@ This enables other engineers and other managers to have good information about p
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group.
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group, and to gather status updates from epic notes.
 This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
+
+#### Status updates on project epics
+
+Comments are automatically generated on project epics to report status.
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/26295198fedcde8af09bf6b6abb22ed3acd52f07/README.md#child-epics).
 
 #### When a project is finished
 
@@ -55,15 +59,9 @@ Epics must always have the following sections:
 
 ### Sections format
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) that relies on the presence of following headings and structure in the Epic description:
+The DRI of the epic should be the assignee, and there should only be one assignee for an epic.
 
-#### DRI Section
-
-```markdown
-### DRI
-
-@user
-```
+Use the following headings and structure in the Epic description:
 
 #### Participants Section
 
@@ -78,31 +76,10 @@ The DRI and the EM are responsible for updating the list of participants accordi
 - @participantN
 ```
 
-#### Development Log
-
-This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
-
-```markdown
-### Development Log
-
-<details>
-
-<details>
-<summary>(Previous) Status YYYY-MM-DD</summary>
-
-
-</details>
-
-</details>
-```
-
 #### Status Section
 
-```markdown
-### Status YYYY-MM-DD
-
-<Updates about the project at the YYYY-MM-DD>
-```
+The status section is generated automatically on sub-epics.
+See the section on [status updates on project epics](#status-updates-on-project-epics) for more info.
 
 ### Should this be an issue or an epic?
 
@@ -140,21 +117,21 @@ While issues may not need to go through every state, the standard progression of
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Triage](img/label-triage.png) | Default label. Task is raised and effort is needed to determine the correct action, work required or team ownership |
-| ![Proposal](img/label-proposal.png) | Proposal is created following triage and put forward for a review. <br/>If there are no further questions or blockers, the issue can be moved into "Ready". |
-| ![Ready](img/label-ready.png) | Proposal is complete and the issue is waiting to be picked up for work. |
-| ![In Progress](img/label-in_progress.png) | Issue is assigned and work has started. <br/>While in progress, the issue should be updated to include steps for verification that will be followed at a later stage.|
-| ![Under Review](img/label-under_review.png) | Issue has an MR in review. |
-| ![Verify](img/label-verify.png) | MR was merged and we are waiting to see the impact of the change to confirm that the initial problem is resolved. |
-| ![Done](img/label-done.png) | Issue is updated with the latest graphs and measurements, this label is applied and issue can be closed. |
+| ![Triage](/images/engineering/infrastructure/platforms/project-management/label-triage.png) | Default label. Task is raised and effort is needed to determine the correct action, work required or team ownership |
+| ![Proposal](/images/engineering/infrastructure/platforms/project-management/label-proposal.png) | Proposal is created following triage and put forward for a review. <br/>If there are no further questions or blockers, the issue can be moved into "Ready". |
+| ![Ready](/images/engineering/infrastructure/platforms/project-management/label-ready.png) | Proposal is complete and the issue is waiting to be picked up for work. |
+| ![In Progress](/images/engineering/infrastructure/platforms/project-management/label-in_progress.png) | Issue is assigned and work has started. <br/>While in progress, the issue should be updated to include steps for verification that will be followed at a later stage.|
+| ![Under Review](/images/engineering/infrastructure/platforms/project-management/label-under_review.png) | Issue has an MR in review. |
+| ![Verify](/images/engineering/infrastructure/platforms/project-management/label-verify.png) | MR was merged and we are waiting to see the impact of the change to confirm that the initial problem is resolved. |
+| ![Done](/images/engineering/infrastructure/platforms/project-management/label-done.png) | Issue is updated with the latest graphs and measurements, this label is applied and issue can be closed. |
 
 There are three other workflow labels of importance:
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Cancelled](img/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
-| ![Stalled](img/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
-| ![Blocked](img/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Cancelled](/images/engineering/infrastructure/platforms/project-management/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
+| ![Stalled](/images/engineering/infrastructure/platforms/project-management/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
+| ![Blocked](/images/engineering/infrastructure/platforms/project-management/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 ### Priority labels
 
@@ -172,7 +149,7 @@ This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-inf
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/engineering/metrics/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers
@@ -191,3 +168,17 @@ This is a list of the group issue trackers:
 For labeling and bot notifications under [gitlab-com/gl-infra](https://gitlab.com/gitlab-com/gl-infra) we use [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) and the [triage-ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops/) project.
 For labeling, enforcing SLOs, and managing workflow labeling there are common policies that are set uniformly for projects in Infrastructure, Platform.
 For more information and how to add additional policies see [the project README.md](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/README.md?ref_type=heads).
+
+## Retrospectives
+
+At the end of the quarter, or the completion of a large deliverable, teams should perform a retrospective to capture learnings.
+There is no set format for the retrospective though Engineering Managers should be aware of the [GitLab Retrospective Guidelines](/handbook/engineering/management/group-retrospectives/).
+The retrospective DRI identifies a list of actions which they consolidate in the Summary of Actions section in the issue description.
+
+Process to identify actions:
+
+1. Add a comment on each thread with Actions as the title of the comment (H3 level)
+1. Some threads may not require an action, you may want to state this explicitly at the end of the thread for transparency
+1. Below the Actions comment, add a suggestion on an action the team can take
+1. Ping the contributors to get a round of validation on the actions and potential refinement
+1. Create an issue for each action and list them in the Summary of Actions section

@@ -1,15 +1,8 @@
 ---
-
 title: "Common Room workflows"
 ---
 
-
-
-
-
-
-
-[Common Room](https://docs.commonroom.io/) is a community growth platform that helps manage, engage, and grow digital communities by integrating data across different platforms, identifying members, and reporting trends and sentiment.
+[Common Room](https://www.commonroom.io/docs/get-started/) is a community growth platform that helps manage, engage, and grow digital communities by integrating data across different platforms, identifying members, and reporting trends and sentiment.
 
 The [Developer Relations](/handbook/marketing/developer-relations/) team uses Common Room to aggregate, review, and take action on insights from across our community platforms. It is also used to track trends and community sentiment.
 
@@ -20,14 +13,14 @@ Access is granted through Okta and is billed per individual seat. Currently, the
 To request access to Common Room,
 
 1. Add your business case and description to this handbook page.
-2. Once the MR is merged, open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) for Common Room using the `Individual_Bulk_Access_Request` template.
+2. Once the MR is merged, open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) for Common Room using the `Individual_Bulk_Access_Request` template.
 3. In Step 2, for _Justification for this access_, please describe and link to your business case for using Common Room.
 
 ### Temporary access
 
 Temporary access is available for evaluating the potential purchase of a seat for a duration of 3 months. It requires meeting with Common Room for a 30 minute onboarding.
 
-1. Open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) using the Individual_Bulk_Access_Request template. Specify that this is a temporary seat for 3 months.
+1. Open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) using the Individual_Bulk_Access_Request template. Specify that this is a temporary seat for 3 months.
 2. Open a [confidential issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=common-room-temporary-access) in Developer Evangelism Meta to document temporary seat expiration date.
 3. `@sugaroverflow` will schedule a mandatory onboarding meeting with Common Room and deprovision seat in 3 months.
 
@@ -39,7 +32,7 @@ which runs via a scheduled pipeline to injest data.
 
 ## Resources
 
-* Common Room's [getting started documentation](https://docs.commonroom.io/get-started).
+* Common Room's [getting started documentation](https://www.commonroom.io/docs/get-started/).
 * Common Room's [playbooks for nurturing community](https://www.commonroom.io/resources/).
 
 ## Business Cases for Developer Relations
@@ -50,7 +43,7 @@ which runs via a scheduled pipeline to injest data.
 
 **Description**:
 
-* Monitor [segments](https://docs.commonroom.io/using-common-room/segments-page) Heroes, Core Team, and MVPs.
+* Monitor [segments](https://www.commonroom.io/docs/using-common-room/segments/) Heroes, Core Team, and MVPs.
 * See what topics are trending and track negative sentiment in those segments.
 * Spot potential new contributors based on their activity.
 
@@ -109,7 +102,7 @@ which runs via a scheduled pipeline to injest data.
 
 **Description**:
 
-* Monitor potential organizations for the [Open Source program](/handbook/marketing/developer-relations/community-programs/opensource-program/).
+* Monitor potential organizations for the [Open Source program](/handbook/marketing/developer-relations/community-programs/open-source-program/).
 * Review the activities, trending keywords, and sentiment of existing partners (via segment) to identify potential collaborations.
 
 **KPI**:
@@ -161,7 +154,7 @@ which runs via a scheduled pipeline to injest data.
 
 For requests to extract information from Common Room, you can open [a confidential issue in the Developer Advocacy Meta project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues) with the details of your request and assign it to `@sugaroverflow`. The DevRel team can then execute the query and export the report as a PDF to the issue.
 
-Requests can be for the export of information or for setting up [a team alert](https://docs.commonroom.io/using-common-room/team-alerts-page) to Slack. You can learn more about the types of reporting in [Common Room's documentation](https://docs.commonroom.io/using-common-room/reporting-page).
+Requests can be for the export of information or for setting up [a team alert](https://www.commonroom.io/docs/using-common-room/team-alerts-page/) to Slack. You can learn more about the types of reporting in [Common Room's documentation](https://www.commonroom.io/docs/using-common-room/reporting-page/room-overview/).
 
 Here are some request-based business cases:
 

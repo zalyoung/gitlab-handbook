@@ -55,7 +55,7 @@ requirements and responsibilities:
 - Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 ---
 
@@ -89,16 +89,6 @@ Backend Engineers have the following job-family performance indicators.
 - [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
 - [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
-Engineering Managers have the following job-family performance indicators. Performance indicators for a Manager role usually apply to the team, meaning the manager and their direct reports.
-
-- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
-- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Development Department merge request rate](/handbook/engineering/development/performance-indicators/#development-department-mr-rate)
-- [Diversity](/handbook/engineering/performance-indicators/#diversity)
-- [Handbook MR Rate](/handbook/engineering/performance-indicators/#engineering-handbook-mr-rate)
-- [Team Member Retention](/handbook/engineering/performance-indicators/#team-member-retention)
-
 ## Job Grades
 
 {{< section-inline-toc >}}
@@ -107,7 +97,7 @@ Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compens
 
 ### Intern, Backend Engineer
 
-Intern, Backend Engineers, while sharing the same requirements and responsibilities outlined above, typically join with less or alternate experience than typical Backend Engineers. More information on intern hiring and the intern program can be found [here](/handbook/engineering/internships/).
+Intern, Backend Engineers, while sharing the same requirements and responsibilities outlined above, typically join with less or alternate experience than typical Backend Engineers. More information on intern hiring and the intern program can be found [here](/handbook/hiring/emerging-talent/).
 
 #### Job Grade
 
@@ -166,7 +156,7 @@ The Staff Backend Engineer is a [grade 8](/handbook/total-rewards/compensation/c
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team
+- Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team
 
 ## Engineering Management Roles at GitLab
 
@@ -180,8 +170,6 @@ For more details on the engineering career ladders, please review the [engineeri
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-For Individual Contributors:
-
 - As part of the application, candidates are asked to complete a short technical questionnaire, with a possibility of additional technical questions being asked if needed after the application is submitted.
 - Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
@@ -189,17 +177,6 @@ For Individual Contributors:
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering
 - Successful candidates will subsequently be made an offer.
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
-
-For Managers:
-
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Technical Recruiters
-- Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
-- Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
-- Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team
-- Next, candidates will be invited to schedule a 45 minute fourth interview with a member of the Product team
-- Next, candidates will be invited to schedule a 45 minute fifth interview with our VP of Engineering
-- Finally, candidates may be asked to schedule a 50 minute final interview with our CEO
-- Successful candidates will subsequently be made an offer via email
 
 ### Distribution
 
@@ -240,9 +217,9 @@ the Container Registry and is responsible for items listed under [Package produc
 - Create and maintain observability of the newly defined features
 - Work with customers on defining their needs to replace existing package repository solutions
 
-### Govern
+### Software Supply Chain Security
 
-Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Govern Engineering Manager.
+Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Software Supply Chain Security Engineering Manager.
 
 #### Requirements
 
@@ -307,7 +284,7 @@ and Continuous Deployment (CD) functionality in GitLab. Engineers should be will
 
 1. Provide value to the user and communicate such with product managers,
 1. Introduce features that work at scale and in untrusting environments,
-1. Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+1. Always focus on defining and shipping [the Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 We, as a team, cover end-to-end integration of CI/CD in GitLab, with components being written in Rails and Go.
 We work on a scale of processing a few million of CI/CD jobs on GitLab.com monthly.
@@ -344,7 +321,7 @@ large repositories and projects, or can be part of a Disaster Recovery solution.
 - Work with the Product Manager to carefully assess technical feasibility of feature requests
 - Deliver proof-of-concept proposals to help guide technical discussions
 - Identify ways to deliver complex technical projects in an iterative fashion
-- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#epic-ownership) of feature implementation
+- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#epic-ownership) of feature implementation
 - Respond quickly to customer requests for support
 
 #### Requirements
@@ -408,10 +385,10 @@ address issues from the community.
 
 Engineering Productivity Engineers have the following job-family performance indicators.
 
-- [Average CE/EE pipeline duration per month](/handbook/engineering/quality/performance-indicators/#average-ce-ee-pipeline-duration-per-month)
-- [Successful vs failed CE/EE review app deployments per month](/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-review-app-deployments-per-month)
-- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
-- [New issue first triage SLO](/handbook/engineering/quality/performance-indicators/#new-issue-first-triage-slo)
+- [Average CE/EE pipeline duration per month](/handbook/engineering/infrastructure/performance-indicators/#average-ce-ee-pipeline-duration-per-month)
+- [Successful vs failed CE/EE review app deployments per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-review-app-deployments-per-month)
+- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
+- [New issue first triage SLO](/handbook/engineering/infrastructure/performance-indicators/#new-issue-first-triage-slo)
 
 ### Application Performance
 
@@ -436,7 +413,7 @@ An ideal engineer candidate -
 
 - Expert of Ruby on Rails.
 - Experience of performance tuning and/or architecture, [Example](https://rubykaigi.org/2018/presentations/tenderlove.html).
-- Experience of memory leak troubleshooting, [Example 1](http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
+- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/https://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
 
 Alternatively, some of the following qualifications, may not necessarily be all -
 <!-- markdownlint-disable MD022 -->
@@ -460,7 +437,7 @@ Alternatively, some of the following qualifications, may not necessarily be all 
 <!-- markdownlint-enable MD022 -->
 ### Ecosystem
 
-The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers’ marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
+The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers' marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
 
 #### Responsibilities
 
@@ -477,6 +454,33 @@ The Ecosystem team is responsible for seamless integration between GitLab and 3r
 - Proficient or fluent with one or more of other common languages: Go, Python, Java, Node, JavaScript, etc.
 - Familiar with full web technology stack (e.g. HTTP, cookies, asset loading, caching).
 
+### Git
+
+Git engineers focus on the Git version control system. You will spend the
+majority of your time doing upstream development, provide expertise to other
+teams at GitLab using Git, foster the Git community, and ensure the long-term
+viability of the Git project as a whole.
+
+#### Responsibilities
+
+- Participate in architectural discussions surrounding the use of Git at GitLab.
+- Develop code in the context of the upstream project.
+- Engage with the Git community to review patch series and discuss direction.
+- Provide expertise on how to use Git effectively and efficiently.
+- Provide expertise on how to integrate Git into the product.
+- Scope, estimate and describe tasks to reach the team's goals.
+- Engage with customers and support to root cause Git-related issues.
+
+#### Requirements
+
+- Mandatory: Production experience in building, debugging and optimizing software in large-scale, high-volume environments.
+- Mandatory: Solid production C and Shell scripting experience.
+- Highly desirable: Experience working and communicating with open source communities.
+- Highly desirable: Good understanding of Git's internal data structures.
+- Highly desirable: Experience running Git servers.
+- Highly desirable: You can reason about software, algorithms, and performance from a high level.
+- Highly desirable: Solid production Go experience.
+
 ### Gitaly
 
 Gitaly is a new service in our architecture that handles git and other filesystem operations for GitLab instances, and aims to improve reliability and performance while scaling to meet the needs of installations with thousands of concurrent users, including our site GitLab.com. This position reports to the Gitaly Lead.
@@ -484,20 +488,20 @@ Gitaly is a new service in our architecture that handles git and other filesyste
 #### Responsibilities
 
 - Participate in architectural discussions and decisions surrounding Gitaly.
-- Scope, estimate and describe tasks to reach the team’s goals.
+- Scope, estimate and describe tasks to reach the team's goals.
 - Collaborate on designing RPC interfaces for the Gitaly service
 - Instrument, monitor and profile Gitaly in the production environment.
 - Build dashboards and alerts to monitor the health of your services.
-- Conduct acceptance testing of the features you’ve built.
+- Conduct acceptance testing of the features you've built.
 - Educate all team members on best practices relating to high availability.
 
 #### Requirements
 
 - Mandatory: production experience building, debugging, optimising software in large-scale, high-volume environments.
 - Mandatory: Solid production Ruby experience.
-- Highly desirable: Experience working with Go. It’s important that candidates must be willing to learn and work in both Go and Ruby.
+- Highly desirable: Experience working with Go. It's important that candidates must be willing to learn and work in both Go and Ruby.
 - Highly desirable: experience with gRPC.
-- Highly desirable: a good understanding of git’s internal data structures or experience running git servers. You can reason about software, algorithms, and performance from a high level.
+- Highly desirable: a good understanding of git's internal data structures or experience running git servers. You can reason about software, algorithms, and performance from a high level.
 - Understanding of how to build instrumented, observable software systems.
 - Experience highly-available systems in production environments.
 

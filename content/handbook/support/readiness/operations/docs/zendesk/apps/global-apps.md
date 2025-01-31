@@ -16,7 +16,17 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/198393/advanced-search/).
+
+## GitLab Duo
+
+This app enables the use of GitLab Duo in Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/gitlab-duo).
 
 ## GitLab Reminders App
 
@@ -41,6 +51,17 @@ App information:
 - This application was developed in-house and can be found
   [GitLab Reminders App project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/reminders-app).
 
+## GitLab Search
+
+This app lets you use the gitlab.com API to search for issues/merge requests
+within Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/gitlab-search).
+
 ## GitLab Super App
 
 <sup>*Introduced via [support-ops-project#801](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/801)*</sup>
@@ -63,6 +84,8 @@ The current plugins are:
   > It also gives the option of removing the suppression (if one if found). Doing so deletes it from mailgun and adds an intenral comment on the ticket with the results of the suppression deletion.
 - **Fieldnotes**
   > This app checks the [Fieldnotes project](https://gitlab.com/gitlab-com/support/fieldnotes/-/issues) for any existing Issues which reference the current Zendesk ticket ID. If no existing Issues are found, then agents are able to create a new Fieldnotes Issue from directly within the Zendesk ticket.
+- **Two Factor Auth Validator**
+  > This app checks values entered by a support engineer and does a validation check. This effectively acts as the second layer of validation
 
 App information:
 
@@ -137,6 +160,8 @@ The following events will send data to the app for notification processing:
 - Customer public comment made on ticket
 - Emergency ticket created
 - Escalated ticket created
+- Tickets being STAR'd
+- Tickets created by specific organizations
 
 ### User settings
 
@@ -150,7 +175,6 @@ will not) recieve are:
   - Values:
     - Assigned tickets only
     - CC'd tickets only
-    - Tickets within my SGG only
     - All tickets
 - Notify me about
   - This tells the app what kind of events to notify you for
@@ -163,10 +187,10 @@ will not) recieve are:
 - Notify me only for tickets with priority
   - This tells the app which priorities to notify you on
   - Values:
-    - Urgent
-    - High
-    - Medium
-    - Low
+    - at least Urgent
+    - at least High
+    - at least Medium
+    - at least Low
   - **Note** A blank value is assumed to be "all priorities"
 - Also notify me for escalated ticket creation
   - This dictates if you want to be notified via the app when an escalated
@@ -231,6 +255,14 @@ The current plugins are:
 
 - **Namespace Lookup**
   > This lets you search gitlab.com for a namespace. It then displays information based on the results. This is related to the one in the GitLab Super App, but instead it shows less information and shows the SFDC IDs it is associated with.
+- **Project Lookup**
+  > This lets you search gitlab.com for a project. It then displays information based on the results.
+- **Attempt Association**
+  > On tickets where the product type is `GitLab.com`, clicking the button on the plugin will attempt to auto-associate the requester to an organizaiton. If that is not possible, it will detail why it was not possible.
+- **Associate User**
+  > On a Support Ops ticket, it will ask you for an email address. It will then use the organization on the current ticket to associate said email address to that organization.
+- **CMP Developers**
+  > Outputs a list of CMP developers (by email) for an organization (if it has a CMP)
 
 App information:
 
@@ -257,7 +289,7 @@ App information:
   - Support APAC
   - Support EMEA
 - This application was developed by Unbabel and is available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/43875/unbabel-for-zendesk-support/).
 
 ### Configuring Unbabel in Zendesk
 
@@ -334,7 +366,7 @@ From now on, Unbabel will not be triggered in this ticket.
 
 If for some reason you have difficulty in understanding the automated
 translation, an actual human intervention can actually be requested. Simply
-click the link `Can’t understand the translation?` in the Unbabel app box and
+click the link `Can't understand the translation?` in the Unbabel app box and
 this will send your response for translation to Unbabel editors.
 
 ### Best Practices for Unbabel
@@ -357,6 +389,22 @@ practices when writing a response for translation.
 - Single Word Use
   - It is likely that the response you are sending may be lost in translation,
     for example the word `pass` would differ to a `boarding pass`.
+
+### Troubleshooting Errors in the Unbabel App
+
+**Error: Unexpected Error (The HTTP call to /api/zendesk/v3/tickets/translate/ returned 403)**
+
+![Unbabel_403_error](/images/suport/Unbabel_App_403_error.png)
+
+This error usually occurs when a request to translate Zendesk ticket fails with a 403 status code. This is often due to Cloudflare's security system incorrectly detecting the ticket content as potentially malicious, thus preventing the request from reaching Unbabel's servers.
+
+To verify if Cloudflare is blocking the request, check the `Network` response in your browser’s developer tools when the error occurs.
+
+![Unbabel_cloudfare_error](/images/support/Unbabel_403_cloudfare.png)
+
+If you see this error, reach out to Unbabel Support Team by emailing `customer.happiness@unbabel.com`. Provide the ticket ID, details of the error, and what you observed in the `Network` response within the browser’s developer tools.
+
+*Temporary workaround:* While Unbabel Support is investigating the issue, you can advise the ticket assignee to temporarily use [Unbabel's TowerLLM demo](https://mtdemo.unbabel.com/) to manually translate their ticket replies.
 
 ### Zendesk Triggers
 

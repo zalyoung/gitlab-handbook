@@ -8,6 +8,13 @@ description: "GitLab Dedicated Support overview."
 
 [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/), from a support perspective, works as a combination of SaaS and Self-Managed. Customers have full Admin access to the instance, but no access to the infrastructure, nor to the backend configurations. This workflow captures the differences, and details of providing support for GitLab Dedicated.
 
+When working on GitLab Dedicated tickets, a good mental model to follow is to determine if the issue is an Application issue or an Infrastructure issue.
+
+- If you're dealing with an Application issue, that is, the issue is within the GitLab application, then you can treat it like a Self-Managed instance while being mindful of the [features that are not available for GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#unavailable-features).
+- If it's an infrastructure issue, you'll want to consider engaging with the SREs by opening a [Request for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) or opening an incident. The [runbooks](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/runbooks) used by the SREs may be useful additional context.
+
+Use the [SaaS, Self-Managed and Dedicated Troubleshooting tables](/handbook/support/workflows/saas_sm_cheatsheet/) to learn more about the differences between `gitlab.com`, self-managed and GitLab Dedicated.
+
 If you'd like to work on GitLab Dedicated tickets, consider [creating an issue using the template](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated) in Support Training, and read the [overview](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/).
 
 Below is a list of other GitLab Dedicated Support workflow pages. This is list
@@ -16,6 +23,7 @@ is a temporary measure to workaround the lack of until workflow categories are r
 - [GitLab Dedicated Logs]({{< ref "dedicated_logs" >}})
 - [GitLab Dedicated Observability and Monitoring (Grafana)]({{< ref "dedicated_instance_health" >}})
 - [GitLab Dedicated Switchboard Troubleshooting]({{< ref "dedicated_switchboard" >}})
+- [Hosted runners for GitLab Dedicated](dedicated_runners.md)
 
 Here are links to other pages about GitLab Dedicated around GitLab:
 
@@ -23,6 +31,14 @@ Here are links to other pages about GitLab Dedicated around GitLab:
 - Product: [Glossary of Switchboard terms](https://about.gitlab.com/direction/saas-platforms/switchboard/glossary/)
 - Infrastructure: [GitLab Dedicated internal docs](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/) (GitLab internal only)
 - CSM: [Engaging with GitLab Dedicated Customers](https://internal.gitlab.com/handbook/customer-success/csm/gitlab-dedicated/) (GitLab internal only)
+
+### Handling tickets that are not about GitLab the product but related to how we handle the infrastructure
+
+Handling GitLab Dedicated tickets should be approached the same way as other tickets: use the docs, the handbook and the various issue trackers to help address the customer request. Anything that is related to our provisioning of the tenant or how we manage the infrastructure requires a different approach:
+
+- check the docs and the handbook
+- point the customer to the [GitLab Trust Center](https://trust.gitlab.com/?product=gitlab-dedicated) at `trust.gitlab.com` for inquiries related to compliance
+- point the customer to their CSM for any questions not addressed by the GitLab Trust Center
 
 ### Test and reproduction GitLab Dedicated instance
 
@@ -33,11 +49,18 @@ reproduction purposes. This instance can be accessed at the following URLs:
 - OpenSearch: https://opensearch.dedicatedtestsandbox.gitlab-private.org/_dashboards/
 - Grafana: https://grafana.dedicatedtestsandbox.gitlab-private.org/
 
-To receive an invite, ask Armin, Brie, Matthew or Wei-Meng.
+To receive an invite, ask Armin, Brie, Daphne or Wei-Meng.
 
-When running a test on the GitLab Support Dedicated instance, please communicate about it on the Slack channel [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V).
-As we are all sharing the same test instance, and if your test may impact the whole instance, post a message at the beginning of a test with an estimate duration.
-Upon test completion, please use the emoji `:done:` to show you reverted the changes and the test is completed.
+### Conducting a test
+
+When running a test on the GitLab Support Dedicated instance,
+
+- consider whether your test can be conducted in an instance deployed via the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/)
+- communicate about it on the Slack channel [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
+- revert your changes when you are done
+
+As the test instance is shared within the GItLab Support team, post a message at the beginning of a test with an estimate duration if the test is likely to impact the performance of the instance.
+Upon test completion, revert your changes and use the emoji `:done:` to show the test is completed and the instance has been restored to the previous state.
 
 The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40.
 Follow [these instructions](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/tree/main#process-to-provision-new-users-pre-production-environment)
@@ -91,19 +114,30 @@ Working with Grafana [has been moved]({{< ref "dedicated_instance_health" >}})
 
 Use the Switchboard app. More information can be found in the [Switchboard workflow]({{< ref "dedicated_switchboard" >}}).
 
+#### Feature Flags are not supported
+
+In GitLab Dedicated, [feature flags](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#gitlab-application-features) are not supported, meaning we do not able enable/disable a feature flag for a Dedicated instance. When customers request feature flags to be modified in the GitLab Rails console, the GitLab Support team should:
+
+- create or find an issue in the appropriate issue tracker about making this feature generally available (without a feature flag).
+- notify the [appropriate Product Manager](/handbook/product/categories/) in the issue with a comment that followed the [feedback template](/handbook/product/product-management/#feedback-template).
+- notify the customer that we [don't keep tickets open](https://about.gitlab.com/support/general-policies/#we-dont-keep-tickets-open-even-if-the-underlying-issue-isnt-resolved) even if the underlying issue isn't resolved.
+- check whether the customer has any questions about the next steps.
+
+Support team members with questions can check in the [`#spt_pod_dedicated`](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) Slack channel for additional guidance.
+
 ### Configuration changes
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
 
 If it's an emergency, [escalate the emergency](#escalating-an-emergency-issue) and contact GitLab Dedicated infrastructure team on Slack, using channel [`#g_dedicated-team`](https://gitlab.slack.com/archives/C025LECQY0M).
 
-When any changes are required besides those listed below, raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using a [Request for Help template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help). Be sure that the `support::request-for-help` label is added.
+When any changes are required besides those listed below, raise [an issue with `SupportRequestTemplate-GitLabDedicated`](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 #### Inbound (Forward) PrivateLink Request
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#inbound-private-link). In this case, it's an **IAM principal**.
 
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
+   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
    - The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
 
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
@@ -112,9 +146,11 @@ When any changes are required besides those listed below, raise an issue in the 
 
 #### Outbound (Reverse) PrivateLink Request
 
-1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
+Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hosted runners for GitLab Dedicated to not be exposed to the public internet. While we advise for the onboarding to be completed, the customer can start these steps before.
 
-   - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer.
+1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedPrivateLinkRequest) and confirm that the `support::request-for-help` label is added.
+
+   - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer. For hosted runners, we only need a primary **Availability Zone ID (AZ IDs)**.
 
 1. Provide the IAM role Principal to the customer. It has the following format: `arn:aws:iam::<AWS_Account_ID>:role/reverse_private_link@<tenant_id>`. You will find this information in the `Reverse Private Link IAM Principal` row of the `Tenant Details` section in Switchboard. Alternatively, read the instructions in the issue created for information on how to find the `<AWS_Account_ID>` and `<tenant_id>`.
 1. Provide the two **AZ IDs** from the issue to the customer. An example AZ ID is: `use-az1` or `usw-az4`. Note: *These are not AWS Zone IDs.*
@@ -132,27 +168,33 @@ When any changes are required besides those listed below, raise an issue in the 
 In most cases, customers should use **Switchboard** to update the IP allowlist for their GitLab Dedicated instance. If this is not possible:
 
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
+
+##### SCIM / OIDC with IP Allowlist request
+
+Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoints to the internet. This is a simple on/off toggle but must be performed by the Environment Automation team:
+
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker. (Confirm that the `support::request-for-help` label has been applied)
 
 #### SAML Request
 
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#saml) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
-1. Open a new [SAML Config Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saml_config_request) and confirm that the `support::request-for-help` label is added.
+1. Open a new [SAML Config Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedSAMLConfigRequest) and confirm that the `support::request-for-help` label is added.
 1. Add the customer provided information and match it with the required formatting.
 
 #### Application Logs Request
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#access-to-application-logs). In this case, it's an **IAM principal**.
 
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
+   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
 
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) in the GitLab Dedicated issue tracker.
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
 1. Provide the IAM principal to the Environment Automation team.
 1. Provide the name of the S3 bucket to the customer.
 
 ### Filing issues
 
-In cases where Customer Support needs to interact with GitLab Dedicated engineers to gather information or similarly debug a problem at tenant's request (when Grafana or OpenSearch does not suffice), raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using [the `Request for Help` template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help).
+In cases where Customer Support needs to interact with GitLab Dedicated engineers to gather information or similarly debug a problem at tenant's request (when Grafana or OpenSearch does not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 During the course of the investigation, you may realize that you need to escalate a Request for Help (RFH) issue to another team. You should follow the existing process to [formally request help from another group in the GitLab Development Team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team). When doing this:
 

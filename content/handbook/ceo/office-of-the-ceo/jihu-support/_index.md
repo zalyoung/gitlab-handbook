@@ -1,9 +1,6 @@
 ---
 title: "JiHu Support"
 description: "How the GitLab Inc team provides support to JiHu"
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/
-- /handbook/ceo/chief-of-staff-team/jihu-support/
 ---
 
 ## Overview
@@ -74,7 +71,7 @@ To request access please reach out to [Kevin](/handbook/company/team/#kevinchu) 
 
 ### JiHu contribution process
 
-Please refer to [JiHu contribution process]({{< ref "jihu-contribution-process" >}}) for details.
+Please refer to [JiHu contribution process](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-contribution-process/) for details.
 
 ### Broken JiHu main branch resolution process
 
@@ -88,7 +85,7 @@ There are times where [`main-jh` branch](https://jihulab.com/gitlab-cn/gitlab) i
 
 ### Merge requests with broken JiHu validation pipeline
 
-Check [What to do when the validation pipeline failed]({{< ref "jihu-validation-pipelines" >}}#what-to-do-when-the-validation-pipeline-failed) for more details.
+Check [What to do when the validation pipeline failed](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines/#what-to-do-when-the-validation-pipeline-failed) for more details.
 
 ### Security Release Process
 
@@ -100,7 +97,7 @@ To notify JiHu of an upcoming security release, please simply post a comment in:
 
 GitLab Inc will follow the [documented vulnerability disclosure process](https://about.gitlab.com/security/disclosure/#vulnerability-disclosure) and will not provide detailed information about vulnerabilities directly to JiHu. No information will be shared prior to or during an in-progress security release.
 
-Only after a GitLab [security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/), GitLab Inc may provide JiHu with:
+Only after a GitLab [security release](/handbook/engineering/infrastructure/library/security-releases-development/), GitLab Inc may provide JiHu with:
 
 - A link to the public security release blog post
 - A link to the GitLab issue describing the vulnerability, which will remain confidential until 30 days after the release in which the vulnerability was patched

@@ -38,7 +38,7 @@ flowchart TD
 
 1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-   > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, or https://ilt.gitlabtraining.cloud if you are in Instructor-Lead Training, and the project should appear in your history.
+   > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, and the project should appear in your history.
 
 1. Before beginning this lab and all later labs, you should disable any jobs and scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this at the end of Lab 3. You do not need to disable Lab 4 License Scanning.
 
@@ -136,7 +136,7 @@ flowchart TD
 
 3. Click on the `fuzz-test-is-third-byte-zero` job.
 
-4. On this screen, you will a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
+4. On this screen, you will see a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
 
 ## Course Labs Completed
 

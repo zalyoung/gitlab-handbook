@@ -4,7 +4,7 @@ title: Understanding SOCIAL STYLES
 
 ## Introducing SOCIAL STYLES
 
-On this page, we will detail a unique approach developed by the [TRACOM Corporation](https://tracom.com/social-style-training/model#) called SOCIAL STYLES&reg; that can be used by Managers and Individual Contributors. It is a framework to improve interpersonal effectiveness and [emotional intelligence]({{< ref "emotional-intelligence" >}}). As a Manager, you can be more effective in your relationships with team members if you learn to focus on their behavior in an objective fashion. SOCIAL STYLES is a structured approach for observing, understanding, and anticipating an individual's behavior. Managing in an all-remote company comes down to trust, communication, and [company-wide support of shared goals](/handbook/company/culture/all-remote/management/). Use this page as a frame of reference to help [build trust]({{< ref "building-trust" >}}) within your teams.
+On this page, we will detail a unique approach developed by the [TRACOM Corporation](https://tracom.com/social-style-training/model#) called SOCIAL STYLES&reg; that can be used by Managers and Individual Contributors. It is a framework to improve interpersonal effectiveness and [emotional intelligence]({{< ref "emotional-intelligence" >}}). As a Manager, you can be more effective in your relationships with team members if you learn to focus on their behavior in an objective fashion. SOCIAL STYLES is a structured approach for observing, understanding, and anticipating an individual's behavior. Managing in an all-remote company comes down to trust, communication, and [company-wide support of shared goals](/handbook/company/culture/all-remote/management/). Use this page as a frame of reference to help [build trust](/handbook/leadership/building-trust/) within your teams.
 
 ## Drawbacks of Using Personality & Behavioral Assessments
 
@@ -54,7 +54,7 @@ Dimension of behavior that measures the degree to which others perceive a person
 
 **Personality:**  The combination of ideas, values, hopes, dreams, attitudes, abilities, as well as the behavior that others can observe that encompasses everything a person is.
 
-**SOCIAL STYLES:** Pattern of actions that others can observe and agree upon for describing one’s behavior
+**SOCIAL STYLES:** Pattern of actions that others can observe and agree upon for describing one's behavior
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGVmCDCF2hFfy7810AY0mMPeaBfsfYvOWYTp37roeBBRxCwAZdiqpdHXfV69tYRjuFfy2yk2CDAUS6/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -257,7 +257,7 @@ There are three factors that distinguish a [crucial conversation](https://www.am
 - Opinions vary
 - Emotions run strong
 
-[Managing Underperformance]({{< ref "underperformance" >}}) is an example of having a crucial conversation. Team members and managers can apply the social styles framework to managing underperformance. Managers can break down barriers by getting to know their people on personal level. Different team members (different styles) have different cues when addressing a difficult conversation. Let's take Underperformance, for example, a Manager (Expressive) style has a direct report with an Analytical style. During a meeting to address the underperformance, the Manager shares data on the underperformance while providing tasks with details on how to resolve. The direct report can seem withdrawn and detached. Since the Manager knows this is an attribute of the Analytical style, they can be more likely to resolve the underperformance in a crucial conversation.
+[Managing Underperformance](/handbook/leadership/underperformance/) is an example of having a crucial conversation. Team members and managers can apply the social styles framework to managing underperformance. Managers can break down barriers by getting to know their people on personal level. Different team members (different styles) have different cues when addressing a difficult conversation. Let's take Underperformance, for example, a Manager (Expressive) style has a direct report with an Analytical style. During a meeting to address the underperformance, the Manager shares data on the underperformance while providing tasks with details on how to resolve. The direct report can seem withdrawn and detached. Since the Manager knows this is an attribute of the Analytical style, they can be more likely to resolve the underperformance in a crucial conversation.
 
 There are many applications of the SOCIAL STYLES model for working with teams. From managing conflict to coaching & mentoring, to managing up, to having crucial conversations. The applications are endless.
 
@@ -276,8 +276,7 @@ Use the persona as a roadmap to implementing the SOCIAL STYLEs assessment within
 Below are additional resources on social styles for review
 
 - [TRACOM SOCIAL STYLE Model](https://tracom.com/social-style-training/model)
-- [Social Styles and Conflict Resolution](https://legadima.co.za/conflict-management-social-styles/)
 - [Managerial Success Stories](https://tracom.com/wp-content/uploads/2019/01/Managerial-Success-Story-TRACOM_ss2018.pdf)
-- [Communicating with Style](https://www.wilsonlearning.com/wlw/articles/w/hidden-cost-comm/en-gb)
+- [Communicating with Style](https://global.wilsonlearning.com/resources/hidden-cost-comm/)
 
 The SSOT for the slides on this page can be found in [this folder](https://drive.google.com/drive/search?q=title:%22social%20styles%20page%22%20parent:1XoBBNYQ810mWXi-fCg_6BTxh3yFJaUjZ).

@@ -1,12 +1,6 @@
 ---
-
 title: Solutions Go-to-market
 ---
-
-
-
-
-
 
 ## Solutions and Value Plays
 
@@ -24,7 +18,7 @@ Relevant solutions will differ by audience.
 
 A picture may help convey the **Solution Framework**.
 
-![Solution Framework](./Solution-framework.png)
+![Solution Framework](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/Solution-framework.png)
 
 One of the most common of these sweeping initiatives is **Digital Transformation**. The Enterprise Project provides a useful [definition of Digital Transformation](https://enterprisersproject.com/what-is-digital-transformation): "Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how you operate and deliver value to customers.".
 
@@ -69,7 +63,7 @@ Understanding which solution to apply where requires consideration of the person
 | **TMM** | Itzik | Fern | Fern |  William Arias |
 | **PM** | Jackie Porter | Hillary Benson | Hillary Benson | Mike Flouton / Justin Farris |
 | **Resource page** | [Automated Software Delivery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/) | [DevSecOps page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/) | [Compliance](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/compliance/) | [Platform](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/) |
-| **Solution page** | [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/) | [DevSecOps solution](https://about.gitlab.com/solutions/dev-sec-ops/) | [Compliance solution](https://about.gitlab.com/solutions/compliance)  | [GitLab home page](https://about.gitlab.com/platform) |
+| **Solution page** | [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/) | [DevSecOps solution](https://about.gitlab.com/solutions/security-compliance/) | [Compliance solution](https://about.gitlab.com/solutions/compliance/)  | [GitLab home page](https://about.gitlab.com/platform/) |
 | **Highspot page** | Automated Software Delivery | Software Security | Software Compliance | DevSecOps Platform |
 
 ## Use cases
@@ -79,14 +73,14 @@ Within the core DevOps solutions, are use cases. These topics may be hot in the 
 Examples include:
 
 - **[Source Code Management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/) (SCM)**.
-- **[Continuous integration](https://about.gitlab.com/features/continuous-integration/)**
+- **[Continuous integration](https://about.gitlab.com/solutions/continuous-integration/)**
 - **[GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/)**
 
 The Customer Success Managers (CSMs) are goaled on expanding an existing customer's adoption of GitLab use cases, as measured by use case adoption. Mapping use cases to stages helps the CSMs know which use case material to apply.
 
 ### Use cases DRIs and key links
 
-| **Usecase** | **PMM** | **PM**  | **Handbook** | **Adoption guide** | **Highspot page** |
+| **Use case** | **PMM** | **PM**  | **Handbook** | **Adoption guide** | **Highspot page** |
 |-------------|---------|---------|--------------|--------------------|------------------|
 | **SCM**                  | Aathira Nair | Derek Ferguson   | [link](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/) | [link](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#adoption-recommendation) | [Part of Automated Software Delivery play](https://gitlab.highspot.com/items/6448156ebd5d0a944856962e) |
 | **CI**                   | Daniel Hom / Saumya Upadhyaya (placeholder) | Jackie Porter   | [link](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/)                            | [link](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#adoption-guide)                                     | [Part of Automated Software Delivery play](https://gitlab.highspot.com/items/6448156ebd5d0a944856962e) |
@@ -129,13 +123,13 @@ As a prospect is determining that they have a specific problem to solve, they ty
 | --------- | ------------- | ----------------- |
 | Collateral and content designed to reach prospects in this stage of their journey should be focused on **educating them about the problems they are facing**, the business impact of their problems, and the reality that others are successfully solving the same problem | Collateral and content designed to reach prospects in this stage of their journey should be focused on **positioning GitLab as a viable and compelling solution to their specific problem.** Use cases can address unique concerns and may help overcome perceived barriers. | Collateral and content designed to reach prospects in this stage of their journey should be focused on key information that a buyer needs to **justify GitLab as their chosen solution**. |
 | Typical **Awareness** Collateral | Typical **Consideration** Collateral | Typical **Decision/Purchase** Collateral |
-| **-** White papers describing the problem space<br>**-** Infographics illustrating the impact of the problem/challenge<br>**-** Analyst reports describing the problem/domain<br>**-** Webinars focusing on the problem and how can be solved<br>**-** Troubleshooting guides to help overcome the problem<br>**-** Analysis of public cases where the problem impacted an organization (i.e. outage, data loss, etc) | **-** White papers describing the innovative solutions to the problem<br>**-** Infographics illustrating the success and impact of solving the problem<br>**-** Analyst reports comparing different solutions in the market (MQ, Waves, etc)<br>**-** Webinars focusing on the success stories and how gitlab helped solve the problem<br>**-** Customer Case Studies, Videos, Logos, etc<br>**-** Solution Check Lists / Plans for how to solve the problem<br>**-** Comparisons between GitLab and other solutions | **-** ROI calculators<br>**-** Use case specific implementation guides<br>**-** Use Case migration guides (from xyz to GitLab)<br>**-** Getting Started info<br>**-** References and case studies |
+| **-** White papers describing the problem space<br>**-** Infographics illustrating the impact of the problem/challenge<br>**-** Analyst reports describing the problem/domain<br>**-** Webinars focusing on the problem and how can be solved<br>**-** Troubleshooting guides to help overcome the problem<br>**-** Analysis of public cases where the problem impacted an organization (i.e. outage, data loss, etc) | **-** White papers describing the innovative solutions to the problem<br>**-** Infographics illustrating the success and impact of solving the problem<br>**-** Analyst reports comparing different solutions in the market (MQ, Waves, etc)<br>**-** Webinars focusing on the success stories and how GitLab helped solve the problem<br>**-** Customer Case Studies, Videos, Logos, etc<br>**-** Solution Check Lists / Plans for how to solve the problem<br>**-** Comparisons between GitLab and other solutions | **-** ROI calculators<br>**-** Use case specific implementation guides<br>**-** Use Case migration guides (from xyz to GitLab)<br>**-** Getting Started info<br>**-** References and case studies |
 
 ## Buyer's Journey - Audience
 
 In addition the **buyer's journey**, there are also different audiences in an organization with different needs at different times. The general model for the buyer's journey outlines kinds of collateral that is needed at different stages of the buying cycle. It is incredibly important to understand the needs of the audience when creating collateral. Executives, managers, and individual contributors will need different information to support their specific work.
 
-![Buyer's Journey](./buyers-cycle-journey.png)
+![Buyer's Journey](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/buyers-cycle-journey.png)
 
 - **Executives** will need information about business value, risk, cost, and impact to support strategic objectives
 - **Managers** will need more detailed information to drive planning, justification, and migration details.
@@ -147,7 +141,7 @@ The Buyer's journey can also start when developers and the team start to look fo
 
 To this model, we need to add ideal customer profiles to better inform marketing on types of companies to target for campaigns and to help sales qualify opportunities.
 
-![GTM-bom](../images/BOM-Activation.png)
+![GTM-bom](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/BOM-Activation.png)
 
 ## Market Requirements
 
@@ -165,7 +159,7 @@ The downstream impacts of market requirements are
 - Comparisons across the market (multiple vendors, multiple products) can be driven from market requirements
 - ROI models can be built highlighting the value of specific market requirements.
 
-![Market Requirements](../images/market-requirements.png)
+![Market Requirements](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/market-requirements.png)
 
 <!--
 ### Solution GTM Bill of Material Priorities & Tracking (needs updating so commented out for now)

@@ -8,7 +8,7 @@ twitter_creator: "@gitlab"
 
 ## Setting Up to Record Video at your Desk
 
-The instructions will reference specific gear, but you might decide to substitue or add different items based on your needs. This should be read as a framework and not a rulebook.
+The instructions will reference specific gear, but you might decide to substitute or add different items based on your needs. This should be read as a framework and not a rulebook.
 
 ## Equipment Checklist
 
@@ -16,16 +16,16 @@ The instructions will reference specific gear, but you might decide to substitue
 
 #### Professional Camera
 
-- Blackmagic Pocket Cinema (High Level Camera) - [Example](https://www.bhphotovideo.com/c/product/1560510-REG/blackmagic_design_pocket_cinema_camera_4k.html)
-- Camera Lens - [Example](https://www.bhphotovideo.com/c/product/1540746-REG/olympus_v314090bu000_m_zuiko_digital_ed_12_45mm.html)
-- Mount for Microphone - [Example](https://docs.google.com/spreadsheets/d/1rKwZwP7hvYSqm3BL4wPmVNDQtYkXPSX3SfUElBIhX38/edit#gid=1367060180)
-- HDMI Cable - [Example](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html) *(To connect your camera to your capture card or monitor, to allow you to see your image while you're standing in position.)*
+- Blackmagic Pocket Cinema (High Level Camera) - [Example: Blackmagic Design Pocket Cinema Camera 4K](https://www.bhphotovideo.com/c/product/1401512-REG/blackmagic_design_pocket_cinema_camera_4k.html)
+- Camera Lens - [Example: Olympus M.Zuiko Digital ED 12-45mm f/4 PRO Lens](https://www.bhphotovideo.com/c/product/1540746-REG/olympus_v314090bu000_m_zuiko_digital_ed_12_45mm.html)
+- Mount for Microphone - [Example](https://docs.google.com/spreadsheets/d/1rKwZwP7hvYSqm3BL4wPmVNDQtYkXPSX3SfUElBIhX38/edit#gid=1367060180) (internal)
+- HDMI Cable - [Example: Pearstone High-Speed HDMI Cable with Ethernet](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html) *(To connect your camera to your capture card or monitor, to allow you to see your image while you're standing in position.)*
 
 OR
 
 #### Webcam
 
-- Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/ref=sr_1_3?dchild=1&keywords=logitech+c920&qid=1605047326&sr=8-3).
+- Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/).
 
 ### Audio
 
@@ -40,7 +40,7 @@ OR
 
 ### Camera Support (Choose One)
 
-- Camera Desk Mount - [Example](https://www.corsair.com/us/en/Categories/Products/Elgato-Gaming/Multi-Mount/Master-Mount-L/p/10AAB9901#)
+- Camera Desk Mount - [Example](https://www.elgato.com/ca/en/p/master-mount-l#)
 
 OR
 
@@ -56,7 +56,7 @@ OR
 
 - Gaffer Tape - [Example](https://www.bhphotovideo.com/c/product/812203-REG/General_Brand_001UPCG255MBLA_General_Brands_Pro_Gaffer_s.html).
 *This is specialized tape for securing cords against tripping (saftey first!). It has a light grip and will not leave marks when pulled up. It could also be used to temporarily secure the lav receiver to the tripod if a support such as the clamp is not used*
-- Elgato Game Capture HD60 S - [Example](https://www.amazon.com/Elgato-Standalone-Recording-Zero-Lag-Passthrough/dp/B07XB6VNLJ/ref=sr_1_1_sspa?dchild=1&keywords=hd60%2Bs%2B&qid=1605213537&s=electronics&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTkFYRlBIWVExNkxJJmVuY3J5cHRlZElkPUEwMjUxNTc0MllDVUZSSDk4T0tWWSZlbmNyeXB0ZWRBZElkPUEwNDk5MDMwN1c1QkJYQ0FGWDhQJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1).
+- Elgato Game Capture HD60 S - [Example](https://www.amazon.com/Elgato-Standalone-Recording-Zero-Lag-Passthrough/dp/B07XB6VNLJ/).
 *A capture card that allows you to connect your camera via HDMI to your computer for use as a webcam. Can be used for calls and/or self monitoring.*
 
 ## Setup

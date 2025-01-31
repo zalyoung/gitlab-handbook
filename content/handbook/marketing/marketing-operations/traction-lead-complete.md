@@ -34,7 +34,7 @@ GitLab collaborates with Channel Partners to develop co-marketing campaigns incl
 
 ### Partner Sponsored Event
 
-GitLab allows Channel Partners to sponsor our owned events. Traction completes the following steps when it recognizes a new campaign member is associated with a [partner sponsored event](/handbook/marketing/channel-marketing/partner-campaigns/#partner-sponsored-event):
+GitLab allows Channel Partners to sponsor our owned events. Traction completes the following steps when it recognizes a new campaign member is associated with a [partner sponsored event](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-sponsored-event):
 
 1. Reviews the lead fields for  `Lead Acquisition Source` = `Partner Sponsored Event` and `Vartopia Partner Account` is not empty
 1. Checks the lead fields for  `[Vartopia] Recalled Date` is empty and `Partner Recalled` equals `False`
@@ -43,7 +43,7 @@ GitLab allows Channel Partners to sponsor our owned events. Traction completes t
 
 ### MDF Campaign
 
-Traction completes the following steps when it recognizes a new campaign member is associated with a [MDF campaign](/handbook/marketing/channel-marketing/partner-campaigns/#partner-only-campaigns---mdf-funded):
+Traction completes the following steps when it recognizes a new campaign member is associated with a [MDF campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-only-campaigns---mdf-funded):
 
 1. Reviews the campaign field for `Will there be MDF funding` = `Yes` and lead field for `Vartopia Partner Account` is not empty.
 1. Checks the lead fields for  `[Vartopia] Recalled Date` is empty and `Partner Recalled` equals `False`
@@ -52,7 +52,7 @@ Traction completes the following steps when it recognizes a new campaign member 
 
 ### Free Trial Campaign
 
-Traction completes the following steps when it recognizes a new campaign member is associated with a [free trial campaign](/handbook/marketing/channel-marketing/partner-campaigns/#trials-from-partners):
+Traction completes the following steps when it recognizes a new campaign member is associated with a [free trial campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners):
 
 1. Reviews the campaign name if it starts with  `Partner - Trial` and the lead field for `Vartopia Partner Account` is not empty.
 1. Checks the lead fields for  `[Vartopia] Recalled Date` is empty and `Partner Recalled` equals `False`
@@ -61,7 +61,7 @@ Traction completes the following steps when it recognizes a new campaign member 
 
 ### Joint Partner Campaign
 
-Traction completes the following steps when it recognizes a new campaign member is associated with a [joint partner campaign](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-events):
+Traction completes the following steps when it recognizes a new campaign member is associated with a [joint partner campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-events):
 
 1. Reviews the campaign fields for `Is a Channel Partner Involved?` = `Yes` and  `Campaign Member Status` with regards to partner engagement, and the lead field for `Vartopia Partner Account` is not empty.
 1. Verifies the campaign member is not actively worked by GitLab, thus `Person Status` is not `Accepted`, `Qualifying` nor `Qualified`, or `Actively Being Sequenced` = `False`. <br>
@@ -82,6 +82,10 @@ All other [SFDC contact ownership rules](/handbook/sales/field-operations/gtm-re
 ## Account Routing
 
 All account routing is handled by Enterprise Territory Management (ETM). If you wish to learn more about this, please visit the sales operation handbook.
+
+## Traction Complere view on the account object
+
+We have custoized the lead section of the Traction Complete view on the account object. To navigate to this section in Salesforce Lightning, click `Traction Complete` on the top of the account page (same rown you find `Details`). This will open the view where you can see all leads matched to the account with useful information like Full Name, Title, Email, Last Activity, Last Flow Name, and Active Flows Count. This information can be valuable to Sales Development and Sales to collaborate on reaching out to high value leads associated with their accounts.
 
 ## Lead routing request or question?
 

@@ -26,12 +26,12 @@ Give your agenda document these headers:
 
 ## Performance management (Optional)
 
-1. List reports with high or exceptional performance. Team members with high performance [should be recognized and praised]({{< ref "structure#management-group" >}}).
-1. List reports who might be [underperforming]({{< ref "underperformance" >}}). Err on the side of putting people on too early and taking them off when it turns out there was no underperformance. It is important to bring people [up with your manager immediately]({{< ref "underperformance#immediately-discuss-with-the-managers-manager" >}}) and not have your manager have to tell you about concerns.
+1. List reports with high or exceptional performance. Team members with high performance [should be recognized and praised](/handbook/company/structure/#management-group).
+1. List reports who might be [underperforming](/handbook/leadership/underperformance/). Err on the side of putting people on too early and taking them off when it turns out there was no underperformance. It is important to bring people [up with your manager immediately](/handbook/leadership/underperformance/#immediately-discuss-with-the-managers-manager) and not have your manager have to tell you about concerns.
 
 ## Career development
 
-An important part of career development is feedback, but that’s not all. It also involves training.
+An important part of career development is feedback, but that's not all. It also involves training.
 Please see [our guide on giving career development](/handbook/people-group/guidance-on-feedback/).
 
 ## Vision
@@ -52,6 +52,7 @@ Please see [our guide on giving career development](/handbook/people-group/guida
         - `REVIEW` - there is a Merge Request (MR) or document that can be approved, the MR should not be a Work In Progress (WIP)
         - `HELP` - if you need help with anything.
         - `THINK` - if the person who did not put it on the agenda wants time to think about it and discuss it next meeting.
+        - `SING` - if added, the person who added it leads a singalong with all willing participants in the meeting.
     1. Ready to remove
         - `FYI` - informational, can be removed outside of the meeting by the person who did not put it on the agenda (the audience for the FYI).
         - `DONE` - to be removed by the person who put it on the agenda, only set after any related MR has been merged

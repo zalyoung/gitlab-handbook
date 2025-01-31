@@ -1,20 +1,13 @@
 ---
-
 title: SMB Account Executive
 description: >-
   SMB Account Executive guidelines to assist prospects through their evaluation
   and buying process of GitLab
 ---
 
+## Overview
 
-
-
-
-
-
-## "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
-
-{: .no_toc}
+> "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
 
 Small and Medium Size Business Account Executives "SMB AE" act as Account Executives and the face of GitLab for SMB prospects and customers. They are the primary point of contact for companies that employ between [1 to 99 employees](/handbook/sales/field-operations/gtm-resources/). These GitLab team members are responsible for working new business in their territory as well as handling the customer journey for new and existing customers. SMB Account Executives will assist prospects through their GitLab evaluation and buying process and will be the customer's point of contact for any renewal and expansion discussions.
 
@@ -38,8 +31,8 @@ Small and Medium Size Business Account Executives "SMB AE" act as Account Execut
 #### SMB Support
 
 - **SMB Training Support** = [`#smb_training_support`](https://app.slack.com/client/T02592416/CKYLWKGJU)
-- **Sales Support** = [`#sales-support`](http://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
-- **Questions** = [`#questions`](http://app.slack.com/client/T02592416/C0AR2KW4B)
+- **Sales Support** = [`#sales-support`](https://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
+- **Questions** = [`#questions`](https://app.slack.com/client/T02592416/C0AR2KW4B)
 
 #### Closed deals
 
@@ -92,7 +85,7 @@ Additionally, [quarterly subscription reconciliations](/handbook/support/license
 The GitLab usage phases are broken down into the following:
 
 - Implementation: 12-9 months left
-- Adoption 9-6 months left ([Live Optimization](/handbook/sales/commercial/smb/live-optimization/))
+- Adoption 9-6 months left
 - Expansion 6-3 months left
 - Renewal less than 3 months left
 
@@ -112,7 +105,7 @@ Customer success planning should be broken into three categories based off the p
 - [Outreach](/handbook/marketing/marketing-operations/outreach/) - Email Sequencing
 - [Periscope](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) - Data Visualization
 - Salesforce - Customer Relationship Management
-- [Scratchpad](https://scratchpad.com/) - Editing tool for Salesforce
+- [Scratchpad](https://www.scratchpad.com/) - Editing tool for Salesforce
 - [Version GitLab](https://version.gitlab.com/users/sign_in)- Customer Product Usage
 - Xactly - Commission Calculator
 - [ZenDesk](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) - Ticketing system
@@ -162,7 +155,6 @@ Customer success planning should be broken into three categories based off the p
 ### Solutions Architect & Customer Success Manager Rules of Engagement
 
 - Follow the [Commercial Sales standards](/handbook/customer-success/comm-sales/#additional-engagement-guidelines-for-sales) for engaging a Customer Success Manager or Solution Architect into the conversation with a customer or prospect.
-- Consider a [Live Optimization Session](/handbook/sales/commercial/smb/live-optimization/) with a Solutions Architect.
 - If limited on resources, encourage clients to submit questions to the following communities:
   - Community Forum: https://forum.gitlab.com/
   - Reddit: https://www.reddit.com/r/gitlab/

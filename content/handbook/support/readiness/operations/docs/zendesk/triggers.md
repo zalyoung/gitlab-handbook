@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/triggers"
 ## What are Zendesk triggers?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203662246-About-triggers-and-how-they-work):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work):
 
 > Triggers are business rules you define that run immediately after tickets are
 > created or updated. For example, a trigger can be used to notify the customer
@@ -24,7 +24,7 @@ foremost.
 When your new trigger is going to be using managed content, you will first
 need to get the managed content file in the Support managed content project.
 Remember to use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will

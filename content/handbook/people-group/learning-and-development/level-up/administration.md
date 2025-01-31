@@ -113,17 +113,17 @@ It's important to add captions to videos whenever possible. The steps below outl
     1. Scroll through the video to a time marker where you want to put a caption
     1. Click the caption button at lower right of the video
     1. Paste in a short amount of text.
-    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it’s not hard to adjust and make them fit.
+    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it's not hard to adjust and make them fit.
 
 #### Custom Content Fields
 
 The Custom Content Field requirements for internal courses can be found [here](https://docs.google.com/spreadsheets/d/1zPJu3PSr40Xa5dUEe6Wj1Sm8gUkQpJG-NwUybxJOMfE/edit#gid=587118744) for GitLab team members. To add a new field, navigate to `Settings` -> `Content` -> `Organization and Display`.
 
-![Adding custom content field in Thought Industries](custom-content.jpg)
+![Adding custom content field in Thought Industries](/images/people-group/learning-and-development/level-up/custom-content.jpg)
 
 Add custom content fields directly to each course in the `Design` tab.
 
-![Adding custom content field in Thought Industries](course-content.jpg)
+![Adding custom content field in Thought Industries](/images/people-group/learning-and-development/level-up/course-content.jpg)
 
 Please review the **best practices** below:
 
@@ -131,7 +131,7 @@ Please review the **best practices** below:
 
 1. All custom content fields and sub fields are case sensitive - avoid mistakes like `Communication`, `Communications`, `Communicating`
 1. Wherever possible, use existing custom content fields and sub fields as opposed to creating new ones
-1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360046307213-Using-Custom-Fields-vs-Curated-Categories) when questions arise
+1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360045730954-Creating-and-Using-Custom-Content-Typeses) when questions arise
 
 ## Publishing a course for internal team members
 

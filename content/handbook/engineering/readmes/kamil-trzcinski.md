@@ -1,5 +1,6 @@
 ---
 title: "Kamil Trzciński's README"
+description: "Personal readme page for Kamil Trzciński, Senior Distinguished Engineer, Ops and Enablement, GitLab"
 job: "Senior Distinguished Engineer, Ops and Enablement"
 ---
 
@@ -14,11 +15,11 @@ the company. My most noteable contribution was [GitLab Runner](https://gitlab.co
 at the beginning of 2015, which got me hired into GitLab in the first place.
 
 I decided to write the [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner/),
-because I wanted to learn [Go](https://golang.org/). The GitLab Runner is
+because I wanted to learn [Go](https://go.dev/). The GitLab Runner is
 my first actual project written in this language. Go was ideal choice for it
 due static compilation (easy to distribute), great support for Docker and
 very efficient execution model (able to concurrently execute many jobs at once).
-Additionally, I always loved simplicity of [Drone.io](https://drone.io).
+Additionally, I always loved simplicity of [Drone.io](https://www.drone.io/).
 I used a number of ideas and implemented them in a initial version
 of GitLab Runner, allowing it to heavily use Docker.
 

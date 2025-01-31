@@ -45,7 +45,7 @@ and remember to use public channels instead of direct messages, thanks!
 > 5. All questions should be asked in public so that anyone can answer and everyone can learn from the discussion.
 > This is a community server with volunteers helping one another.
 > Please do not ping specific people to answer your question or send unsolicited friend requests or direct messages without consent.
-> See GitLab’s communication values to Use Public Channels (/handbook/communication/#use-public-channels)
+> See GitLab's communication values to Use Public Channels (/handbook/communication/#use-public-channels)
 > and Be Respectful of Others Time (/handbook/communication/#be-respectful-of-others-time).
 ```
 
@@ -71,7 +71,7 @@ Every moderation situation is unique and will be dealt with on a case-by-case ba
 
 #### Tier 0 - Report to Discord
 
-If a message violates Discord's Terms of Service or Community Guidelines (e.g., illegal content, explicit harassment, doxxing, etc.), moderators should report the violation directly to Discord via the reporting feature. See [how to report content to Discord](https://discord.com/moderation/360058643194-104-how-to-report-content-to-discord).
+If a message violates Discord's Terms of Service or Community Guidelines (e.g., illegal content, explicit harassment, doxxing, etc.), moderators should report the violation directly to Discord via the reporting feature. See [how to report content to Discord](https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord).
 
 ##### Tier 1 - Warning and Message Deletion
 
@@ -80,7 +80,7 @@ For minor violations of server rules, moderators should remove the message and l
 For example:
 
 ```markdown
-Your message was removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct) or GitLab Discord Server:
+Your message was removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) or GitLab Discord Server:
 
 > (The rule violated)
 ```
@@ -92,8 +92,8 @@ To review and add notes to member profile, moderators can use the following shor
 ```markdown
 - Add note: /notes add (it prompts you for a user and a note)
 - List all notes: /notes view
-- List all notes for a user: /notes view user<enter> (it’ll prompt you for the user)
-- View a specific note: /notes view note_id<enter> (it’ll prompt you for the note id, which can be found by listing all notes for a user)
+- List all notes for a user: /notes view user<enter> (it'll prompt you for the user)
+- View a specific note: /notes view note_id<enter> (it'll prompt you for the note id, which can be found by listing all notes for a user)
 ```
 
 #### Tier 2 - Temporary Timeout
@@ -116,4 +116,4 @@ We appreciate your patience as we take time to look over appeal requests.
 
 ### Reporting Unacceptable Behavior
 
-To report unacceptable behavior or abuse, use the Discord reporting feature. See [how to report content to Discord](https://discord.com/moderation/360058643194-104-how-to-report-content-to-discord).
+To report unacceptable behavior or abuse, use the Discord reporting feature. See [how to report content to Discord](https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord).

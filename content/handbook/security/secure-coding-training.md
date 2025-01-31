@@ -152,13 +152,13 @@ Teams to follow up with manually for additional enrollments:
 
 - [Secure Ruby on Rails with Jim Manico](#secure-coding-training-with-jim-manico) (Recommended)
 - [OWASP Secure Coding in Go](https://github.com/OWASP/Go-SCP/blob/master/dist/go-webapp-scp.pdf) (Recommended)
-- [Checkmarx Secure Coding in Javascript](https://checkmarx.gitbooks.io/js-scp/) (Recommended)
+- [Checkmarx Secure Coding in Javascript](https://checkmarx.gitbooks.io/js-scp/content/) (Recommended)
 
 ### Other Guidelines and Resources
 
 - [OWASP Top 10 2017](https://owasp.org/www-project-top-ten/) (Optional)
-- [OWASP API Security Top 10](https://apisecurity.io/encyclopedia/content/owasp/owasp-api-security-top-10.htm) (Optional)
-- [OWASP Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project/raw/master/OWASP-Top-10-Serverless-Interpretation-en.pdf) (Optional)
+- [OWASP API Security Top 10](https://apisecurity.io/owasp-api-security-top-10/) (Optional)
+- [OWASP Serverless Top 10](https://raw.githubusercontent.com/OWASP/Serverless-Top-10-Project/master/OWASP-Top-10-Serverless-Interpretation-en.pdf) (Optional)
 - [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) (Optional)
 
 ## Secure Coding Training with Jim Manico
@@ -180,7 +180,7 @@ These videos are private by default. To view them, you will need to [switch to t
 
 - Watch the video or [read the slides](#additional-resources) for each topic that is relevant to you.
 - The videos were recorded over two full days.  It is suggested that you split up viewing them over multiple days by topic and/or by the hour.
-- Consider watching the videos at [1.25X speed](http://osxdaily.com/2017/04/14/adjust-youtube-video-playback-speed/)
+- Consider watching the videos at [1.25X speed](https://osxdaily.com/2017/04/14/adjust-youtube-video-playback-speed/)
 
 ### Schedule and Topics
 
@@ -319,5 +319,5 @@ Also covers:
 - [PowerPoint presentations](https://drive.google.com/drive/folders/1NRrlnqwkhsS-UmuagwoD8GB4APXsfJxb?usp=sharing)
 - [Questions Doc](https://docs.google.com/document/d/1KsK5DBDgiF8k0N3cs89o1VsMYsUWUPH9fIQb_smFEac/edit)
 - [Ruby on Rails security best practices](https://guides.rubyonrails.org/security.html)
-- [Online Labs](https://manicode.us/shepherd/)
+- [Online Labs](https://manicode.us/)
 - [Burp Proxy](https://portswigger.net/burp/communitydownload)

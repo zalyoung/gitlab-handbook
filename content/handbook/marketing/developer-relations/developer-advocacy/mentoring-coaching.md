@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Advocacy: Mentoring and Coaching"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/mentoring-coaching/index.html
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -19,12 +10,12 @@ This handbook page documents best practices how Developer Advocates can help wid
 
 ### Finding a mentor
 
-GitLab Developer Advocates actively engage with mentoring wider community members. The team's time is limited with [our many activities](/handbook/marketing/developer-relations/developer-advocacy/), please understand when we decline a request. [Polywork](https://www.polywork.com/collaborators/mentoring) and other platforms can help finding mentors.
+GitLab Developer Advocates actively engage with mentoring wider community members. The team's time is limited with [our many activities](/handbook/marketing/developer-relations/developer-advocacy/), please understand when we decline a request. [Polywork](https://www.polywork.com/discover) and other platforms can help finding mentors.
 
 ### Resources
 
 - Review the process and tips in [Mentoring at GitLab](/handbook/people-group/learning-and-development/mentor/)
-- [How to be a mentor: 4 ways to change someone’s life](https://www.betterup.com/blog/how-to-be-a-mentor)
+- [How to be a mentor: 4 ways to change someone's life](https://www.betterup.com/blog/how-to-be-a-mentor)
 
 ### Topics
 
@@ -114,7 +105,7 @@ Start drafting talk ideas in a dedicated Google doc for each topic, and discuss 
 
 Organisation and workflow tips:
 
-1. Create a calendar with events in the coming year, and keep track of Call for Paper due dates. Use [cfps.dev](https://cfps.dev/) by Brendan.
+1. Create a calendar with events in the coming year, and keep track of Call for Paper due dates. Use `cfps.dev` (link no longer available) by Brendan.
 1. Copy the [Developer Advocate CFP workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-workflow) with issues and scoped labels into a new group/project for CFPs. Example for [KubeCon EU 2023](https://gitlab.com/everyonecancontribute/devrel/learn-julia/cfps/-/issues/2).
 1. Add issue references to Developer Advocate CFP issue tracking to coordinate efforts.
 1. Review the talk title and abstract in the Gdoc async or sync. As a mentor, change to `suggesting` mode in the Gdoc and provide suggestions with all thoughts. Encourage the mentee to review the suggestions, and accept if reasonable. This workflow will enable mentees to take feedback from everyone in the future.

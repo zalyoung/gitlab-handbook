@@ -1,5 +1,4 @@
 ---
-
 title: Marketo program/campaign support
 description: 'Marketo campaign projects, processes, and notes'
 twitter_image: /images/tweets/handbook-marketing.png
@@ -7,18 +6,13 @@ twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
 
-
-
-
-
-
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
 The Marketing Operations team provides the Integrated Marketing team with advice around execution strategy and systems set-up. In addition, this function currently supports the Field Marketing and Events teams by creating email marketing and landing page set-up, as well as other tasks in Marketo.
 
 ## Working with us
 
-Marketo campaign/program creation and support is a function of Marketing Operations, so [follow the same guidelines](handbook/marketing/marketing-operations/#-how-to-get-help) to request assistance. **Be sure to add the `~MktgOps-Support` label to the issue.**
+Marketo campaign/program creation and support is a function of Marketing Operations, so [follow the same guidelines](/handbook/marketing/marketing-operations/#how-to-get-help) to request assistance. **Be sure to add the `~MktgOps-Support` label to the issue.**
 
 Field Marketing issue templates (used by both Field Marketing and Corporate Events) for landing page and email requests have been updated with the appropriate labels to route to Marketing Ops.
 
@@ -65,7 +59,7 @@ Please see Field Marketing SLAs pertaining to this process [here](/handbook/mark
 ### Triage Steps
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-1. **Field Marketing / Corporate Events**: Marketo asset issues are created (in Field Marketing, the FMC will create the issues during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)). When opening issues via the appropriate templates, the `~MktgOps::07: Blocked` and the `~MktgOps-Support` labels will automatically be associated with the issues. This allows for the issues to be opened in advance and to be available while copy is being finalized.
+1. **Field Marketing / Corporate Events**: Marketo asset issues are created (in Field Marketing, the FMC will create the issues during the plan to WIP process. When opening issues via the appropriate templates, the `~MktgOps::07: Blocked` and the `~MktgOps-Support` labels will automatically be associated with the issues. This allows for the issues to be opened in advance and to be available while copy is being finalized.
 1. **Field Marketing / Corporate Events**: If the copy references analyst reports, the FMM must open the [Analyst Citation Review issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/new?issuable_template=AR-CitationReview) and associate it to the MOps email request. You do not need to complete the entire issue, but you must link the email issue and the copy doc with your proposed copy. To expedite email approval, you can use the content found [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/7130#previously-approved-email-copy-still-requires-reapproval) as it is most likely to be approved quickly. We do not have previously approved landing page copy.
 1. **Field Marketing / Corporate Events**: For Field Marketing, the FMM will ping the FMC in the `Write Copy` issue to let them know when copy is ready for each asset. The FMC will then review the copy and once ready, move the label from `~MktgOps::07: Blocked` to `~MktgOps::00: Triage`. For Corporate Events, Event Manager to move the label from `~MktgOps::07: Blocked` to `~MktgOps::00: Triage`
     - At this time, all details must be provided and final (including copy reviewed by relevant stakeholders, and all hyperlinks double-checked and confirmed).
@@ -74,7 +68,7 @@ Please see Field Marketing SLAs pertaining to this process [here](/handbook/mark
 1. **MktgOps**: Assign the issue to the appropriate DRI and assign a milestone for the work. For email invitations and email follow-ups, add `~Lifecycle 01 Needs Copy Review` label to signal to Lifecycle team the email copy is ready for review.
 1. **MktgOps**: DRI adds email to the [Marketing Calendar](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=1705692818) for the anticipated send date.
     - The requested send date is the due date of the issue. If the requested send date is less than 5 Business Days from the date it is passed to Mktg Ops, the date of the issue may be scheduled 5 business days out to abide by SLAs. This is at the discretion of Mktg Ops based on other work in progress and upcoming.
-1. **Lifeycle**: Reviews the email copy and once final and approved, add the `~Lifecycle 02 Copy Approved` labels.
+1. **Lifecycle**: Reviews the email copy and once final and approved, add the `~Lifecycle 02 Copy Approved` labels.
 1. **MktgOps**: DRI completes the setup in Marketo, and for email, completes all steps on the [Technical Email QA checklist](/handbook/marketing/lifecycle-marketing/email-processes-requests/#qa-checklist-technical).
 1. **MktgOps**: DRI sends a test email to the "Reviewers/Approvers" listed in the issue and posts a screenshot of the email in the issue.
 1. **MktgOps**: DRI comments into the issue tagging the reviewers/approvers and documenting that the test email was sent to their inbox and changes status label to `~MktgOps::05: Business Owner Review`.
@@ -128,8 +122,8 @@ Should a requested send time be missed, MktgOps can schedule the email within 8 
                         <td background="${heroBackgroundImage}" bgcolor="#171321" valign="middle" style="max-width: 600px; width: 100%; text-align: center; height: 200px; background-repeat:no-repeat ;background-position: 100% !important; background-size: cover !important; border-bottom: 4px solid #171321;" width="100%" height="auto">`
     - After saving the edits in the code, you can then click on the existing header, and the Variable sidebar will appear. Add the new transparent image to the `Hero Background Image` section, and confirm the link and button Copy
     - All emails using specialized images must be [sent to Litmus](/handbook/marketing/marketing-operations/litmus/#steps-to-test-an-email) for previewing various clients. Refer to the Litmus page for details on what to check.
-- When using the URL in emails or other uses with utm values, Marketo page URLs (starting with page.gitlab.com) should not have a `/` at the end of the page URL before the `?`. This will likely cause the page to redirect. (Correct example: https://page.gitlab.com/webcast-example?{{my.utm}}).
-- When using the URL in emails or other uses with utm values, about.gitlab.com page URLs (starting with about.gitlab.com) must have a `/` at the end of the page URL before the `?`. Omitting the `/` can cause the form not to display on the page. (Correct example: https://about.gitlab.com/webcast-example/?{{my.utm}}).
+- When using the URL in emails or other uses with utm values, Marketo page URLs (starting with page.gitlab.com) should not have a `/` at the end of the page URL before the `?`. This will likely cause the page to redirect. (Correct example: `https://page.gitlab.com/webcast-example?{{my.utm}}`).
+- When using the URL in emails or other uses with utm values, about.gitlab.com page URLs (starting with about.gitlab.com) must have a `/` at the end of the page URL before the `?`. Omitting the `/` can cause the form not to display on the page. (Correct example: `https://about.gitlab.com/webcast-example/?{{my.utm}}`).
 - For localized emails, be sure to use the [Localized Email Snippet](/handbook/marketing/marketing-operations/marketo/#snippets)
 - Prior to sending to the business owner review, the email creator must complete all steps in the [Technical email QA checklist](/handbook/marketing/lifecycle-marketing/email-processes-requests/#qa-checklist-technical)
 

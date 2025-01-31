@@ -1,14 +1,7 @@
 ---
-
 title: "DevOps tools"
 description: "DevOps tools commonly found in a build-your-own DevOps tool chain. Many of these can be replaced by GitLab's single platform for the entire DevOps lifecycle."
 ---
-
-
-
-
-
-
 
 The DevOps tools below are commonly found in a build-your-own DevOps tool chain. Many of these can be replaced by GitLab's single platform for the entire DevOps lifecycle.
 
@@ -27,10 +20,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - Axosoft
 - Bugsnag
 - Countersoft
-- [Fog Creek Software](http://www.fogcreek.com/)
 - Inflectra Corporation
 - Redmine
-- [BMC Remedy](http://www.bmc.com/it-solutions/remedy-itsm.html)
+- [BMC Remedy](https://www.bmc.com/it-solutions/remedy-itsm.html)
 - QA Symphony
 - FogBugz
 
@@ -39,7 +31,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [Atlassian Jira](https://about.gitlab.com/solutions/jira/)
 - [Asana](https://asana.com/)
 - [Trello](https://trello.com/)
-- [CollabNet VersionOne](https://www.collab.net/)
 - Basecamp
 - Wrike
 - Podio
@@ -51,9 +42,8 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Portfolio Management
 
-- [CollabNet VersionOne](https://www.collab.net/)
-- [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/portfolio)
-- [CA Technologies / Rally](https://www.ca.com/us.html)
+- [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/product-discovery/features/roadmaps)
+- [CA Technologies / Rally](https://www.broadcom.com/)
 - Wrike
 - Plutora
 - IBM Rational Team Concert
@@ -61,17 +51,17 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Service Desk
 
-- [Atlassian Jira Service Desk](https://www.atlassian.com/software/jira/service-desk)
+- [Atlassian Jira Service Desk](https://www.atlassian.com/software/jira/service-management/features/service-desk)
 - [Zendesk](https://www.zendesk.com/)
-- [Freshdesk](https://freshdesk.com/)
-- [CA Service Desk Manager](https://www.ca.com/us/products/ca-service-desk-manager.html)
+- [Freshdesk](https://www.freshworks.com/freshdesk/)
+- [CA Service Desk Manager](https://www.broadcom.com/products/software/service-management/service-desk-manager)
 
 ### Source code management
 
-- [GitHub](https://about.gitlab.com/competition/github/)
+- [GitHub](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/)
 - [Atlassian Bitbucket](https://about.gitlab.com/blog/2016/01/27/comparing-terms-gitlab-github-bitbucket/)
 - [Microsoft TFS/VSTS/Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
-- [CA Technologies / Rally](https://www.ca.com/us.html)
+- [CA Technologies / Rally](https://www.broadcom.com/)
 - IBM Rational Clear case
 - Perforce
 - Helix VCS
@@ -86,7 +76,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 - [Atlassian Crucible](https://www.atlassian.com/software/crucible)
 - [Gerrit](https://www.gerritcodereview.com/)
-- [Smart Bear Collaborator](https://smartbear.com/product/collaborator/overview/)
+- [Smart Bear Collaborator](https://smartbear.com/product/collaborator/)
 - [Phabricator](https://www.phacility.com/phabricator/)
 - Codebrag
 - Codestriker
@@ -100,17 +90,17 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [AWS Cloud9](https://aws.amazon.com/cloud9/)
 - [Code Anywhere](https://codeanywhere.com/)
 - [Koding](https://www.koding.com/)
-- [repl.it](https://repl.it/)
+- [repl.it](https://replit.com/)
 - [Codechef IDE](https://www.codechef.com/ide)
 
 ### Wiki
 
 - [Atlassian Confluence](https://www.atlassian.com/software/confluence)
-- [SharePoint](https://products.office.com/en-us/sharepoint/collaboration)
+- [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)
 
 ### Continuous Integration
 
-- [Travis CI](https://travis-ci.org/)
+- [Travis CI](https://www.travis-ci.com/)
 - Atlassian Bamboo
 - [Atlassian Bitbucket](https://about.gitlab.com/blog/2016/01/27/comparing-terms-gitlab-github-bitbucket/)
 - [CircleCI](https://circleci.com/)
@@ -123,38 +113,38 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - Urban code
 - Hudson
 - cruisecontrol
-- [Electric Cloud](http://electric-cloud.com/products/electricaccelerator/)
+- [Electric Cloud](https://www.cloudbees.com/)
 - Jet Brains
 - [Zuul](https://zuul-ci.org/)
 - [Buildkite](https://buildkite.com/)
-- [Drone.io](https://drone.io/) - [New Stack Article](https://thenewstack.io/drone-io-a-containerized-ci-cd-system-for-cloud-native-development/)
+- [Drone.io](https://www.drone.io/) - [New Stack Article](https://thenewstack.io/drone-io-a-containerized-ci-cd-system-for-cloud-native-development/)
 
 ### Container Registry
 
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
 - [Docker Hub](https://hub.docker.com/)
-- [Docker Trusted Registry](https://docs.docker.com/ee/dtr/)
-- [RedHat/CoreOS Quay](https://coreos.com/quay-enterprise/)
+- [Docker Trusted Registry](https://docs.docker.com/engine/security/trust/)
+- [RedHat/CoreOS Quay](https://www.redhat.com/en/technologies/cloud-computing/quay)
 - [Amazon ECR](https://aws.amazon.com/ecr/)
-- [Azure ACR](https://azure.microsoft.com/en-us/services/container-registry/)
+- [Azure ACR](https://azure.microsoft.com/en-us/products/container-registry/)
 - [Google Cloud Container Registry](https://cloud.google.com/container-registry/)
 
 ### Binary Repository
 
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
-- [Sonatype Nexus](https://www.sonatype.com/nexus-repository-sonatype)
+- [Sonatype Nexus](https://www.sonatype.com/products/sonatype-nexus-repository)
 
 ### Continuous Delivery/Deployment
 
-- [Spinnaker](https://www.spinnaker.io/)
-  - [Armory](https://www.armory.io/)
+- [Spinnaker](https://spinnaker.io/)
+  - [Armory](https://www.harness.io/products/continuous-delivery)
 - [Go CD](https://www.gocd.org/index.html)
-- [Puppet Pipelines](https://puppet.com/products/puppet-pipelines)
-- [Cloudbees Codeship](https://codeship.com/)
-- [Atlassian Bitbucket](https://bitbucket.org/product)
-- [Electric Cloud ElectricFlow](http://electric-cloud.com/products/electricflow/)
-- [CA Technologies](https://www.ca.com/us.html)
-- [XebiaLabs](https://xebialabs.com/)
+- [Puppet Pipelines](https://help.puppet.com/cdpe/current/Content/UserGuide/cd_user_guide.htm)
+- [Cloudbees Codeship](https://www.cloudbees.com/products/codeship)
+- [Atlassian Bitbucket](https://bitbucket.org/product/)
+- [Electric Cloud ElectricFlow](https://www.cloudbees.com/)
+- [CA Technologies](https://www.broadcom.com/)
+- [XebiaLabs](https://digital.ai/)
 - [Microsoft TFS/VSTS/Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 - CodeFresh
 - Red Hat Ansible
@@ -187,7 +177,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Application Performance Monitoring
 
-- [New Relic](https://newrelic.com/application-monitoring/features)
+- [New Relic](https://newrelic.com/platform/application-monitoring)
 - appdynamics
 - [Splunk](https://www.splunk.com/)
 - [Zabbix](https://www.zabbix.com/)
@@ -241,14 +231,13 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ## Data Tools
 
-[Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include [cloud native ETL tools](https://www.alooma.com/blog/etl-tools-modern-list), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
+[Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include cloud native ETL tools (link no longer available), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
 
 - [AWS Glue](https://aws.amazon.com/glue/)
-- [Alooma](https://www.alooma.com/blog/etl-tools-modern-list)
-- [Looker](https://looker.com/)
+- [Looker](https://cloud.google.com/looker/)
 - Pentaho
 - Tableau
-- [Sisense](https://www.sisense.com/product/data-teams/)
+- [Sisense](https://www.sisense.com/)
 - Qlik
 - Microsoft
 - SiSense

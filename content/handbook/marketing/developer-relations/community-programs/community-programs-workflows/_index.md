@@ -11,7 +11,7 @@ By maintaining this page, we aim to establish more transparency into our workflo
 ## Automated applications workflow overview
 
 Community Programs applications workflows have been automated since FY23Q3.
-The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/shoppers/aboutsheerid/), to assist in processing applications to community programs.
+The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/), to assist in processing applications to community programs.
 
 The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/) with a seven-stage workflow:
 
@@ -32,7 +32,7 @@ SheerID therefore hosts and sends all communications (email and browser notifica
 SheerID also provides [customer service](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing) specific to GitLab.
 [MySheerID](https://my.sheerid.com/) is the customer portal for the verification system.
 The portal contains details on each application form, a reporting system, and account settings.
-GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 We review GitLab's contract with SheerID on an annual basis.
 Costs are based on the total number of verifications across all programs.
@@ -78,7 +78,7 @@ During the checkout process:
 
 The GitLab for Startups Terms:
 
-> If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as “Free Software”.
+> If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as "Free Software".
 
 ### Provisioning
 
@@ -145,7 +145,7 @@ To do this, they use the same application forms they used when initially enrolli
 
 The success email will contain a direct link to a program-specific page for each program (Education/Open Source) in the GitLab Customers Portal.
 The program-specific pages are not available directly in the GitLab Customers Portal without the direct link.
-See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/community-programs/) for direct links to these portals.
+See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/community-programs/) for direct links to these portals.
 
 As they did when initially applying for the program, applicants enter their unique coupon codes during the checkout process.
 
@@ -156,7 +156,7 @@ Each step of the automated application workflow has different set of potential e
 |Phase|Source|Error|DRI|Action|
 |-----|------|-----|---|------|
 | Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
-| Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
+| Verification | SheerID Application| False Rejection OSS | [Open Source Service Desk](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
 | Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|

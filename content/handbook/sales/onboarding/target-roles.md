@@ -1,14 +1,6 @@
 ---
-
 title: "Targeted Sales & Customer Success Roles for Sales Quick Start (SQS)"
 ---
-
-
-
-
-
-
-
 
 ## Targeted Sales & Customer Success Roles for Sales Quick Start (SQS)
 
@@ -25,11 +17,10 @@ Please send a copy of the written approval to the Field Onboarding Program Manag
   - Solution Architects (SA)
   - Customer Success Managers (CSM)
   - [Customer Success Engineers (CSE)](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
-  - Professional Services Engagement Managers and Practice Managers
+  - Professional Services Engagement Managers, Practice Managers, and Technical Architects
   - Area Sales Managers (ASMs), Regional Directors (RDs) & Vice Presidents (VPs)
   - Customer Success Managers and Directors
-  - Channels (all roles)
-  - Alliances (all roles)
+  - Ecosystems (all roles)
   - Field Operations Revenue, Strategy, Enablement & Operations (all roles)
 - Professional Services Engineers (PSEs) do not participate in the Sales Quick Start Workshop
 - Sales Development Reps (SDRs) have their own separate onboarding process (but many of the same elements are shared), and they attend SQS Workshops as well

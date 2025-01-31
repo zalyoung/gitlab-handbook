@@ -29,7 +29,7 @@ We are the Minorities in Tech (MIT) Enterprise Resource Group (TMRG) founded in 
 
 ## 2021 Initiatives
 
-- [Advanced Software Engineering Course taught at Morehouse College]({{< ref "advanced-software-engineering-course" >}})
+- [Advanced Software Engineering Course taught at Morehouse College](/handbook/company/culture/inclusion/erg-minorities-in-tech/advanced-software-engineering-course/)
 - Reverse AMA
 - Establish a TMRG Outreach Program
 - Speaker Series
@@ -43,13 +43,13 @@ The top four Initiatives for 2020 are:
 - Mentorship
 - Participation in external events
 - Talent Acquisition
-- [Internal Outreach]({{< ref "erg-minorities-in-tech#internal-outreach" >}})
+- [Internal Outreach](/handbook/company/culture/inclusion/erg-minorities-in-tech/#internal-outreach)
 
 ## MIT Mentoring Program
 
 Mentoring is important for employee retention and growth.  During the 2020 calendar year, MIT is hosting it's first Mentoring Program.
 
-[Learn More]({{< ref "./mentoring" >}})
+[Learn More](mentoring/)
 
 ### Internal Outreach
 

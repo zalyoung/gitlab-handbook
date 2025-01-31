@@ -1,13 +1,6 @@
 ---
-
 title: Organization Archetype
 ---
-
-
-
-
-
-
 
 ## What is an organization archetype?
 
@@ -23,7 +16,7 @@ Cloud infrastructure enables flexible and purposefully designed infrastructure p
 
 ### All-in-One Team
 
-![All-in-One](all-in-one.png)
+![All-in-One](/images/product/personas/all-in-one.png)
 
 All-in-One teams use resources democratically. In this model, developers are also DevOps engineers. They have access and credentials to infrastructure and related toolings and are expected to use them as needed. There may be unofficial specialist that teammates go to for help.
 
@@ -42,7 +35,7 @@ Examples of how resources are used:
 
 ### Service Model Team
 
-![Service Model](service-model.png)
+![Service Model](/images/product/personas/service-model.png)
 
 On Service Model teams, infrastructure teams gate access to and are responsible for optimize the use of resources. Other development are customers of the infrastructure team and have to request resources and ask for help when needed.
 
@@ -62,7 +55,7 @@ Examples of how resources are used:
 
 ### Service & Embedded Team
 
-![Service & Embedded](service-embedded.png)
+![Service & Embedded](/images/product/personas/service-embedded.png)
 
 On service & embedded teams, resource use is guided or optimized in partnership. Teams buddyup with specialist as needed so that both Dev and Ops are working together.
 
@@ -80,7 +73,7 @@ Examples of how resources are used:
 
 ### All-in-One & Service Model
 
-![All-in-One & Service](all-in-one-service.png)
+![All-in-One & Service](/images/product/personas/all-in-one-service.png)
 
 On All-in-One & Service teams, specialized roles guide/enforce DevOps/SecOps practice. Within development teams, they have the access to many of the resources. Central platform teams provide tools to facilitate self-service and enforce governance and compliance.
 
@@ -96,7 +89,7 @@ Examples of how resources are used:
 
 ### All-in-One & Embedded Model
 
-![All-in-One & Embedded](all-in-one-embedded.png)
+![All-in-One & Embedded](/images/product/personas/all-in-one-embedded.png)
 
 On All-in-One & Embedded teams, DevOps engineer work embedded within product groups or product lines to co-create DevOps/SecOps practice relevant to the users.
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Zuora Collect module"
 description: "The business process behind the Zuora Collect module"
 ---
@@ -22,7 +21,7 @@ Since Zuora was already an application from our Tech Stack and used across diffe
 
 ### What is Zuora Collect
 
-[Zuora Collect](https://knowledgecenter.zuora.com/CE_Collect/Get_Started_with_Collect/Overview_of_Zuora_Collect) is a complete solution for optimizing recurring collections in the Subscription Economy. As main benefits, it can track unpaid invoices and delinquent accounts, manage automated business processes and intelligent retry logic, and customize payment runs.
+[Zuora Collect](https://knowledgecenter.zuora.com/Zuora_Payments/Configure_payment_orchestration/Zuora_Collections/Get_Started_with_Collections/A_Overview_of_Zuora_Collect) is a complete solution for optimizing recurring collections in the Subscription Economy. As main benefits, it can track unpaid invoices and delinquent accounts, manage automated business processes and intelligent retry logic, and customize payment runs.
 
 ### How to access Zuora Collect
 
@@ -178,7 +177,7 @@ To create a follow-up task:
       - Completed: The task has been completed.
       - Closed: The task has not been completed but is no longer relevant.
    - Add a **Description**: Specify a brief description of the task.
-      - It is recommended to include the account, invoice, or payment that’s related to the task.
+      - It is recommended to include the account, invoice, or payment that's related to the task.
    - Select the assignee from **Assign To**: Type at least two letters in a username or email address to trigger the automatic completion feature.
    - Add a **Due date**: The date when the task is due.
       - On the due date, the owner and the assignee of this task will get a notification.
@@ -381,7 +380,7 @@ There are two ways to view invoices:
       - Completed: The task has been completed.
       - Closed: The task has not been completed but is no longer relevant.
    - Add a **Description**: Specify a brief description of the task.
-      - It is recommended to include the account, invoice, or payment that’s related to the task.
+      - It is recommended to include the account, invoice, or payment that's related to the task.
    - Select the assignee from **Assign To**: Type at least two letters in a username or email address to trigger the automatic completion feature.
    - Add a **Due date**: The date when the task is due.
       - On the due date, the owner and the assignee of this task will get a notification.

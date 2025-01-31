@@ -1,11 +1,7 @@
 ---
-
 title: "Cynthia 'Arty' Ng README"
 description: "Personal readme page for Cynthia 'Arty' Ng, Staff, Strategy & Operations, Office of the CEO, GitLab"
 job: "Staff, Strategy and Operations"
-aliases:
-- /handbook/ceo/office-of-the-ceo/readmes/cynthia-ng/
-- /handbook/ceo/chief-of-staff-team/readmes/cynthia-ng/
 ---
 
 This page is meant to provide a bit of information about me and how I work,
@@ -66,7 +62,7 @@ Ways to connect with me:
   - GitLab (internal)
   - [Support Driven](https://supportdriven.slack.com/)
   - [Write the Docs](https://www.writethedocs.org/slack/)
-- GitLab.com: [cynthia](http://gitlab.com/cynthia)
+- GitLab.com: [cynthia](https://gitlab.com/cynthia)
 - Personal Blog: [cynthiang.ca](https://cynthiang.ca)
 - Digital card (with links to social accounts): [About.Me](https://about.me/cynthiang)
 

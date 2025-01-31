@@ -1,13 +1,11 @@
 ---
-
 title: Proof of Value (POV)
 description: Proof of Value (POV)
 ---
 
-
 ## Proof of Value (POV)
 
-Proof of value is a combination of technical evaluation and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
+Proof of value is a combination of [technical evaluation](/handbook/solutions-architects/processes/_index.md) and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
 
 Solution Architects are instrumental in guiding prospects and customers to carry out a successful Proof of **Value**. POV's should focus on specific prospect/customer business outcomes that cannot be achieved through other consultative interactions.
 
@@ -39,7 +37,7 @@ A POV is conducted with a GitLab trial license either using GitLab.com or a self
 
 - Top business drivers are identified with POV scope, success criteria of the POV are defined to execute the POV and subsequently drive next step in the deal process
 
-- Must identify the champion and economic buyers and they must be in agreement (e.g., “sign-off”) on the success criteria; faciliate the executive connection and sponsorship
+- Must identify the champion and economic buyers and they must be in agreement (e.g., "sign-off") on the success criteria; faciliate the executive connection and sponsorship
 
 - A Command Plan is populated in Salesforce for the opportunity with the following fields:
     Why Now
@@ -114,12 +112,12 @@ Solutions Architects are the owners of the POV, guiding prospects through a succ
 
 Many prospects are tempted to include implementation of GitLab high availability as part of a POV. In this case, the implementation components should comprise a separate POV entirely, separating GitLab functionality evaluations from implementation, load and performance components.
 
-Other best practices for POV’s:
+Other best practices for POV's:
 
-- SA’s must be part of proposing or committing to POV’s
-- POV’s should be a late-stage component that triggers the sale, not an early offering
+- SA's must be part of proposing or committing to POV's
+- POV's should be a late-stage component that triggers the sale, not an early offering
 - Ask WHY a POV is required vs Q&A or other considerations, since prospects are often using existing GitLab installations
-- Feature/function POV’s should be run in basic environments, not HA, unless the HA environment is already established and proven
+- Feature/function POV's should be run in basic environments, not HA, unless the HA environment is already established and proven
 - Required capabilities should be a limited number, 5 or less ideally - these should be purchase triggers and differentiators
 - Please work together(SA & SAE) to map required capabilities to decision criteria in the COM plan
 - A POV does not implement a fully designed and configured ecosystem in a customer environment, it is a product evaluation
@@ -152,7 +150,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - SA: For the largest strategic opportunities, notify GitLab Support of POV dates, customer, and other relevant information using the applicable Slack channel related to Self-Managed or GitLab.com support
 - SAE/AE: Opportunity updated in Salesforce, set to Stage 3-Technical Evaluation, with POV Information entered per the [handbook](/handbook/sales/field-operations/gtm-resources/)
 - SAE/AE: Signed NDA by the legal team if required
-- SAE/AE: Review [Customer Assurance Package](https://about.gitlab.com/security/cap/) with customer (if SaaS evaluation)
+- SAE/AE: Review [Customer Assurance Package](https://trust.gitlab.com/) with customer (if SaaS evaluation)
   - The Customer Package requires an NDA, and contains commonly requested security information (SOC2, Penetration Test Results, etc) and can be requested via a [Field Security Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Security%20Documents%20CAA)
 - SAE/AE: Schedule Internal kick off meeting (detailed below)
 - SAE/AE: Schedule kickoff meeting with customer
@@ -388,7 +386,7 @@ These projects are demonstrative of specific stages.  They are generally built 
 
 #### Secure Stage Projects
 
-- [Nodejs Juice Shop](https://github.com/bkimminich/juice-shop) repository comes with a .gitlab-ci.yml file to get started with SAST and Dependency Scanning.  Incorporate others incrementally as needed.
+- [Nodejs Juice Shop](https://github.com/juice-shop/juice-shop) repository comes with a .gitlab-ci.yml file to get started with SAST and Dependency Scanning.  Incorporate others incrementally as needed.
 - [OWASP WebGoat.NET](https://gitlab-core.us.gitlabdemo.cloud/tanuki-group/dot-net-webgoat) repository can be enabled with SAST, License Management and Secrets Scanning very quickly using the packaged templates.  This validates our positioning in .NET application development (both Framework and Core).
 
 #### Proof of Value Enalement

@@ -27,7 +27,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 
 > Reduce the administrative burden linked to customer security review processes
 
-### Understand Security’s role
+### Understand Security's role
 
 > Strengthen the understanding of the customer assurance activities and Field Security work
 
@@ -92,7 +92,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 
 ## Next generation of sales security training
 
-Our objective is to build the next generation of GitLab's [Field Security]({{< ref "../field-security" >}}) program. Part of enhancing this program is establishing a Security Sales Training and Enablement program. We want to spearhead the following initiatives:
+Our objective is to build the next generation of GitLab's [Field Security](../field-security/) program. Part of enhancing this program is establishing a Security Sales Training and Enablement program. We want to spearhead the following initiatives:
 
 - **GitLab Security on Demand,** the Netflix of sales security enablement
 - **Just in time micro-enablement,** learn what you need, when you need it

@@ -13,7 +13,7 @@ left-hand side of your Slack window (the `More` option) and select
 From this page, you will want to click `Workflow builder` button on the
 left-hand side of the page, which should make a new window pop-up.
 
-![Accessing Slack workflow builder](/handbook/support/readiness/operations/images/slack_workflows1.gif)
+![Accessing Slack workflow builder](/images/support/readiness/operations/slack_workflows1.gif)
 
 Within the new window, click the green `Create Workflow` button to start the
 process.
@@ -105,12 +105,12 @@ Locate at
      > Thanks for seeking to help your customer.
      >
      > Because
-     > [Support cannot accept new work or customer-specific requests via Slack](https://about.gitlab.com/handbook/support/internal-support/#support-does-not-action-out-of-slack),
+     > [Support cannot accept new work or customer-specific requests via Slack](/handbook/support/internal-support/#support-does-not-action-out-of-slack),
      > we cannot assist you here.
      >
      > Please submit an Internal Request on their behalf (Zendesk Light Agent account required), or they can open a Support ticket. Details here:
      >
-     > - [Requesting Support for Customers](https://about.gitlab.com/handbook/support/internal-support/#support-tickets--customer-information)
+     > - [Requesting Support for Customers](/handbook/support/internal-support/#support-tickets--customer-information)
      > - [Submit an Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
      > - [Open a Support ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293)
 
@@ -310,14 +310,14 @@ Locate at
      > Thanks for seeking to help your customer.
      >
      > Because
-     > [Support cannot accept new work or customer-specific requests via Slack](https://about.gitlab.com/handbook/support/internal-support/#support-does-not-action-out-of-slack),
+     > [Support cannot accept new work or customer-specific requests via Slack](/handbook/support/internal-support/#support-does-not-action-out-of-slack),
      > we cannot assist you here.
      >
-     > To request attention on a ticket or issue, you’ll want to submit a
+     > To request attention on a ticket or issue, you'll want to submit a
      > Support Ticket Attention Request (STAR). Please follow the steps in the
      > link below to do so.
      >
-     > `https://about.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests#submitting-a-support-ticket-attention-request-star--starring-a-ticket`
+     > `https://handbook.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests#submitting-a-support-ticket-attention-request-star--starring-a-ticket`
 
      - Variables
        - User who sent the message that was reacted to (@display name)
@@ -403,7 +403,6 @@ Located at
    - Emoji reaction:
      - :loose_lips_sink_ships:
    - Channels:
-     - #feed_zd-federal
      - #spt_us-gov-evening-overnight
      - #spt_us-government
 1. Reply to a message in thread

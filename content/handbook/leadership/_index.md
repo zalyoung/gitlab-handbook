@@ -4,54 +4,48 @@ title: Leadership
 
 This page contains leadership pointers.
 The first couple of headers indicate which group they apply to, using the groupings
-defined on our [team structure page]({{< ref "structure" >}}).
+defined on our [team structure page](/handbook/company/structure/).
 
 ## Managers of One
 
-In an all-remote organization, we want each team member to be a [manager of one](https://signalvnoise.com/posts/1430-hire-managers-of-one). A [manager of one]({{< ref "values#managers-of-one" >}}) is an attribute associated with our [Efficiency value](/handbook/values/#efficiency). To be successful at GitLab, team members need to develop their daily priorities to achieve goals. Managers of one set the tone for their work, assign items and determine what needs to get done. No matter what role you serve, self-leadership is an essential skill needed to be successful as a manager of one.
+In an all-remote organization, we want each team member to be a [manager of one](https://signalvnoise.com/posts/1430-hire-managers-of-one). A [manager of one](/handbook/values/#managers-of-one) is an attribute associated with our [Efficiency value](/handbook/values/#efficiency). To be successful at GitLab, team members need to develop their daily priorities to achieve goals. Managers of one set the tone for their work, assign items and determine what needs to get done. No matter what role you serve, self-leadership is an essential skill needed to be successful as a manager of one.
 
 1. At GitLab, leadership is requested from everyone, whether an individual contributor or member of the leadership team.
 1. As a leader, GitLab team members will follow your behavior, so always do the right thing. Lead by example with effort.
-1. Everyone who joins GitLab should consider themselves ambassadors of our [values]({{< ref "values" >}}) and protectors of our [culture](/handbook/company/culture/).
+1. Everyone who joins GitLab should consider themselves ambassadors of our [values](/handbook/values/) and protectors of our [culture](/handbook/company/culture/).
 1. Behavior should be consistent inside and outside the company. We do the right thing outside the company, too.
 1. GitLab respects your judgment of what is best for you, since you know yourself best. If you have a better opportunity somewhere else don't stay at GitLab out of a sense of loyalty to the company.
 1. In tough times people will put in their best effort when they are doing it for each other.
 1. We work [asynchronously](/handbook/company/culture/all-remote/management/#asynchronous). Lead by example and make sure people understand that [things need to be written down in issues as they happen](/handbook/company/culture/all-remote/self-service/#paying-it-forward). Hold your team accountable with documentation.
 1. We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end [one person decides](/handbook/people-group/directly-responsible-individuals/) the matter after they have listened to all the feedback.
-1. It is encouraged to disagree and have constructive debates but please [argue intelligently](https://www.brainpickings.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
+1. It is encouraged to disagree and have constructive debates but please [argue intelligently](https://www.themarginalian.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
 1. We value truth seeking over cohesion.
 1. We avoid [meetings](/handbook/company/culture/all-remote/meetings/), when possible, because they don't support the asynchronous work flow and are hard to conduct due to timezone differences.
 1. Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for people or repeating things for those that come late. When a meeting unblocks a process or decision, don't celebrate that but instead address the question: How can we unblock in the future without needing a meeting?
 1. Be intentional in how you prepare for and participate in meetings. Async communication works best when folks [review their calendars and prepare in advance of meetings](/handbook/company/culture/all-remote/meetings/#how-can-i-prepare-for-a-remote-meeting).
 1. We give [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift), lots of it. Don't hold back on suggestions for improvements, this helps us grow. Take pride in helping others through feedback.
-1. [Focus on improvement]({{< ref "values#focus-on-improvement" >}}). If you meet external people, always ask what they think we should improve.
+1. [Focus on improvement](/handbook/values/#focus-on-improvement). If you meet external people, always ask what they think we should improve.
 1. Following from [Paul Graham's advice](https://twitter.com/paulg/status/802102152319606784): Strive to make the organization simpler.
 1. Saying something to the effect of "as you might have heard", "unless you've been living in a cage you know", "as everyone knows", or "as you might know" is toxic. The people that know don't need it to be said. The people that don't know feel like they missed something and might be afraid to ask about the context.
-1. [Don't use someone else's name](https://twitter.com/emiliejayg/status/1198731054162432000?s=12), remind people of your title, or otherwise ["pull rank"]({{< ref "values#dont-pull-rank" >}}) to get things done.
-1. Act as a CEO of yourself and your role by taking responsibility to set goals and appropriate timelines. Prioritize your contributions and know it's [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}).
+1. [Don't use someone else's name](https://twitter.com/emiliejayg/status/1198731054162432000?s=12), remind people of your title, or otherwise ["pull rank"](/handbook/values/#dont-pull-rank) to get things done.
+1. Act as a CEO of yourself and your role by taking responsibility to set goals and appropriate timelines. Prioritize your contributions and know it's [impossible to know everything](/handbook/values/#its-impossible-to-know-everything).
 1. Communicate clearly with your team and people leader on the status of your goals. Act quickly to address areas that pose a challenge or to reassess goals that cannot be reached in an alloted timeframe.
 
 ### Examples of actions from managers of one at GitLab
 
 1. When asked to attend a synchronous brainstorming call, a team member instead opens an issue and [requests for their team's ideas asynchronously](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async).
-1. A people leader champions our value of [Diversity, Inclusion and Belonging](/handbook/values/#diversity-inclusion) by [becoming a mentor]({{< ref "values#be-a-mentor" >}}).
-1. A team member blocks out dedicated time for learning and development to implement a regular practice of [self-serving and self-learning]({{< ref "values#self-service-and-self-learning" >}}).
+1. A people leader champions our value of [Diversity, Inclusion and Belonging](/handbook/values/#diversity-inclusion) by [becoming a mentor](/handbook/values/#be-a-mentor).
+1. A team member blocks out dedicated time for learning and development to implement a regular practice of [self-serving and self-learning](/handbook/values/#self-service-and-self-learning).
 1. A team member in a new role finds an inefficiency in a process they are learning. Without being asked or supervised, they open a merge request (MR) proposing a change and assign it to their manager for review.
 1. When a scheduled meeting agenda is complete 10 minutes before the call is set to end, an attendee ends the call early.
-1. A people leader hires a new team member that demonstrates our [CREDIT values]({{< ref "values" >}}).
-1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal]({{< ref "values#make-a-proposal" >}}).
-1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
-1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public]({{< ref "values#public-by-default" >}}) and with a [low level of shame]({{< ref "values#low-level-of-shame" >}}).
-
-{{< youtube "d0x-JH3aolM" >}}
-
-In the [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions) above, GitLab CEO Sid Sijbrandij gives more context on individual contributor leadership and managers of one.
-
-> We want leadership from everyone at GitLab. Since we are remote, there is a high expectation to do your work without direct supervision. It means that every team member is responsible for communication, structuring decisions, and managing your workload individually.
+1. A people leader hires a new team member that demonstrates our [CREDIT values](/handbook/values/).
+1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal](/handbook/values#make-a-proposal).
+1. A manager of one prioritizes well-being by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
+1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame).
 
 ## Interim and Acting Leadership
 
-In some cases, a individual in the [Management group](/handbook/company/structure#management-group), [Director group]({{< ref "structure#director-group" >}}), [S-group]({{< ref "structure#s-group" >}}), or even [E-group]({{< ref "structure#e-group" >}}) may have an "Interim" or "Acting" title.
+In some cases, a individual in the [Management group](/handbook/company/structure#management-group), [Director group](/handbook/company/structure/#director-group), [S-group](/handbook/company/structure/#s-group), or even [E-group](/handbook/company/structure/#e-group) may have an "Interim" or "Acting" title.
 
 1. **Acting** means that someone is occupying this role temporarily and will move back to their original role after a set amount of time or other conditions, such as an external hire.
 1. **Interim** means the individual is working on a promotion into the role.
@@ -69,7 +63,7 @@ Please see the [Making Decisions]({{< ref "making-decisions" >}}) Leadership pag
 Most companies communicate from top to bottom through a chain of command. This communication flow often empowers managers, but it also introduces inefficiency as team members are not able to connect directly with the people they need to communicate with in order to get their work done. At GitLab, every team member is encouraged to reach out to whoever is the correct person (or people) to quickly unblock issues, solve problems or support in other ways. Do be courteous of your direct manager and copy them on the request. We don't encourage unnecessary friction in asking team members to escalate through managers and wait for responses to come back. What matters is efficiency in getting to results. Slack the CEO, Slack a VP, or Slack a peer. Do what you need to do to make GitLab successful.
 
 Managers should not be bottlenecks or silos for communication.
-Anyone should feel [comfortable]({{< ref "values#short-toes" >}}) reaching out to anyone else with the best information they can to solve a problem.
+Anyone should feel [comfortable](/handbook/values/#short-toes) reaching out to anyone else with the best information they can to solve a problem.
 This is a more [efficient](/handbook/values/#efficiency), [transparent](/handbook/values/#transparency), and [collaborative](/handbook/values/#collaboration) way to work.
 
 ## Giving Feedback
@@ -77,17 +71,17 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings]({{< ref "1-1" >}}). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
-1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
+1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
 1. Ask yourself, is this:
     - Actionable
     - Specific
-    - [Kind]({{< ref "values#kindness" >}}) (Does the feedback help the person? Note: Being kind is not the same as being nice.)
+    - [Kind](/handbook/values/#kindness) (Does the feedback help the person? Note: Being kind is not the same as being nice.)
     - Objective (similar to Fair)
     - Relevant to the job role and [compa ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio)
 
 ### Identifying root causes
 
-Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.cebglobal.com/) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process]({{< ref "underperformance" >}}) should be followed.
+Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.gartner.com/en) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process](/handbook/leadership/underperformance/) should be followed.
 
 ## Responding to Negative Feedback
 
@@ -117,7 +111,7 @@ Please see [skip-levels]({{< ref "skip-levels" >}}).
 
 ## Your Individual README
 
-A team member's README page is intended to help others understand what it might be like to work with them, especially people who haven’t worked with them before. It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share your ideas of a good working relationship, to reduce the anxiety of people who may be on your team, now or in the future.
+A team member's README page is intended to help others understand what it might be like to work with them, especially people who haven't worked with them before. It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share your ideas of a good working relationship, to reduce the anxiety of people who may be on your team, now or in the future.
 
 READMEs provide a genuine report on how a person works, reducing bias/assumption and enabling people to work together based on a common framework. As part of GitLab's [transparency](/handbook/values/#transparency) value, we encourage each GitLab team member to consider creating their own README.
 
@@ -144,7 +138,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
     1. If your [division](/handbook/company/structure/) does not yet have a holding page for READMEs, follow the guidelines to [add a new page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) (`readmes`) within your division's handbook section *first*, then create your username directory within `readmes`.
 1. Bonus points if you add your README & yourselves as codeowner to the [.gitlab/CODEOWNERS](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/CODEOWNERS) file.
 
-Alternatively you can create your README [dogfooding]({{< ref "values#dogfooding" >}}) GitLab's README profile customization feature. Follow [documentation](https://docs.gitlab.com/ee/user/profile/#add-details-to-your-profile-with-a-readme) on how to add details to your GitLab profile with a README. Do not forget to add your profile's link to you division's holding page.
+Alternatively you can create your README [dogfooding](/handbook/values/#dogfooding) GitLab's README profile customization feature. Follow [documentation](https://docs.gitlab.com/ee/user/profile/#add-details-to-your-profile-with-a-readme) on how to add details to your GitLab profile with a README. Do not forget to add your profile's link to you division's holding page.
 
 ### Advertising Your README
 
@@ -157,7 +151,7 @@ Once your README is created, consider adding a link to it from following places:
 
 This provides maximum visibility to others, so that they may read your README in advance of working with you. This allows them to take your working style and communication preferences into account, ideally increasing the overall level of empathy expressed.
 
-READMEs are particularly powerful when working with those *outside* of GitLab, who may be unfamiliar with our [values]({{< ref "values" >}}). A README is a beacon of [transparency](/handbook/values/#transparency), and helps set the tone for any working relationship.
+READMEs are particularly powerful when working with those *outside* of GitLab, who may be unfamiliar with our [values](/handbook/values/). A README is a beacon of [transparency](/handbook/values/#transparency), and helps set the tone for any working relationship.
 
 ## Coaching
 
@@ -185,16 +179,16 @@ Team members should feel comfortable escalating issues when help is needed to re
 
 As noted in this [medium article](https://medium.com/capchase/escalation-manifesto-ac123d8941b), explicit esclatation should answer these four questions:
 
-1. Why is this important to the person/team I’m escalating to?
+1. Why is this important to the person/team I'm escalating to?
 1. What are the relevant details of the challenge?
 1. What have you tried?
 1. What do you need?
 
 Folks who are escalating an issue should avoid surprising folks in the management chain. This means that other relevant team members should be aware that an escalation is occurring. For example, in E-Group, members agree that they will not go to the CEO with an escalation without first notifying other relevant members that this is happening.
 
-There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
+There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe](/handbook/leadership/emotional-intelligence/psychological-safety/) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
-After a team member escalates an issue, it is OK if they [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}}) with the decisions made by the person they escalated to.
+After a team member escalates an issue, it is OK if they [disagree, commit, and advocate](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
 
 ## Process gets a bad rep
 
@@ -204,17 +198,17 @@ But process also has good aspects. Having a documented process for how to commun
 
 ## Talent Acquisition and retention
 
-Managers have an tremendous responsibility around talent acquisition and [retention](/handbook/people-group/people-group-metrics/#team-member-retention) of team members.
+Managers have an tremendous responsibility around talent acquisition and [retention](/handbook/people-group/people-success-performance-indicators/#team-member-retention) of team members.
 
 - Voluntary departures should be low, especially unexpected ones. The most common reasons for resignations can be tied back to the manager.
 - We want few candidates to decline an offer, especially when the reason isn't compensation.
 - We need adequate candidate pipeline volume and quality, especially for crucial positions.
 - Candidates that have a proposed offer should meet the bar, especially for more senior positions.
-- Build a *global team*. Unless shown with a business case, "we can’t find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab) and the [Location Factor KPI](/handbook/people-group/people-group-metrics/#average-location-factor).
+- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab) and the [Location Factor KPI](/handbook/people-group/people-success-performance-indicators/#average-location-factor).
 
 ## High Output Management
 
-GitLab leadership and management approach was built using principles covered in the book "[High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management)." Please see [High Output Management]({{< ref "high-output-management" >}}) to learn more.
+GitLab leadership and management approach was built using principles covered in the book "[High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management)." Please see [High Output Management](/handbook/leadership/high-output-management/) to learn more.
 
 ## Building High Performing Teams
 
@@ -228,7 +222,7 @@ Building a team to deliver [results](/handbook/values/#results) is a very import
 
 Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing Partner Brainware Partners](https://www.brainware-partners.com/) where we discussed:
 
-1. Managing trust, productivity, and wellbeing on remote teams
+1. Managing trust, productivity, and well-being on remote teams
 1. Behavior, biochemistry, and dynamics of trust
 1. The value of measuring and reporting on impacts of building trust
 
@@ -236,10 +230,10 @@ Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing P
 
 **Skills and behavior of [building high performing teams competency](/handbook/people-group/competencies/#list) for Managers**:
 
-- Models and encourages teamwork by fostering collaboration, communication, [trust]({{< ref "building-trust" >}}), shared goals, mutual accountability and support
+- Models and encourages teamwork by fostering collaboration, communication, [trust](/handbook/leadership/building-trust/), shared goals, mutual accountability and support
 - Fosters an environment where results are balanced with time management of multiple assignments and [Direct Responsible Individuals (DRI's)](/handbook/people-group/directly-responsible-individuals/) on important topics
-- Empowers team members to be a [Manager of One]({{< ref "values#managers-of-one" >}}) and gives them the tools to grow professionally in their careers
-- Attracts and retains top talent by creating an inclusive environment [built on trust]({{< ref "building-trust" >}}), delegation, accountability, and teachability
+- Empowers team members to be a [Manager of One](/handbook/values/#managers-of-one) and gives them the tools to grow professionally in their careers
+- Attracts and retains top talent by creating an inclusive environment [built on trust](/handbook/leadership/building-trust/), delegation, accountability, and teachability
 
 ### Strategies to Build High Performing Teams
 
@@ -253,7 +247,7 @@ The [Drexler-Sibbet Team Performance Model](https://www.kaizenko.com/drexler-sib
 **7 Stages to developing high performing teams:**
 
 1. Orientation - Why are we here? Team members need to see a sense of team identity and how individual team members fit in.
-1. [Trust Building]({{< ref "building-trust" >}}) - Who are you? Team members share mutual regard for each other and are open and supportive of trust-based relationships.
+1. [Trust Building](/handbook/leadership/building-trust/) - Who are you? Team members share mutual regard for each other and are open and supportive of trust-based relationships.
 1. Goal Clarification - What are we doing? Assumptions are made clear; individual assumptions are made known with a clear vision of the end state.
 1. Commitment - How will we do it? Team members understand how it will make decisions and do the work.
 1. Implementation - Who does what, when, where? Team members have a sense of clarity and can operate effectively due to the alignment of shared goals.
@@ -262,7 +256,7 @@ The [Drexler-Sibbet Team Performance Model](https://www.kaizenko.com/drexler-sib
 
 **Manager Resource: Identifying & Addressing Burnout**
 
-Building and maintaining high performance includes staying mindful of team well-being and potential burnout. With GitLab’s results-driven culture, the demands of product innovation around AI, the fast-paced and ever-evolving business environment, our organization recognizes the crucial balance between achieving ambitious goals and maintaining the well-being of our team members. Everyone can access this handbook [resource designed for managers to identify & address burnout](/handbook/leadership/managing-burnout/#manager-guide-identifying--addressing-burnout). This has an ongoing impact on team performance.
+Building and maintaining high performance includes staying mindful of team well-being and potential burnout. With GitLab's results-driven culture, the demands of product innovation around AI, the fast-paced and ever-evolving business environment, our organization recognizes the crucial balance between achieving ambitious goals and maintaining the well-being of our team members. Everyone can access this handbook [resource designed for managers to identify & address burnout](/handbook/leadership/managing-burnout/#manager-guide-identifying--addressing-burnout). This has an ongoing impact on team performance.
 
 ### Manager M-Team Groups
 
@@ -272,27 +266,27 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 ## Articles
 
-1. [Carta's Manager’s FAQ](https://readthink.com/a-managers-faq-35858a229f84)
+1. [Carta's Manager's FAQ](https://medium.com/eshares-blog/a-managers-faq-35858a229f84)
 1. [Carta's How to hire](https://carta.com/blog/how-to-hire/)
 1. [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
-1. [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
-1. [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
+1. [The Management Myth](https://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
+1. [Later Stage Advice for Startups](https://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
 1. [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
-1. [This Is The Most Difficult Skill For CEOs To Learn](http://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
+1. [This Is The Most Difficult Skill For CEOs To Learn](https://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
-1. [Impraise Blog: 1-on-1s for Engaged Employees](https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
-1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/pages/article/newTMM_98.htm)
+1. [Impraise Blog: 1-on-1s for Engaged Employees](https://web.archive.org/web/20220704002203/https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
+1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/a18a0wu/giving-feedback)
 1. [Remote.Co: 5 Tips for Providing Feedback to Remote Workers](https://remote.co/5-tips-for-providing-feedback-to-remote-workers/)
-1. [Really interesting blog post from Hanno on remote team feedback](https://hanno.co/blog/remote-team-feedback/)
-1. [51 questions to ask in one-on-ones with a manager](https://getlighthouse.com/blog/questions-ask-one-on-ones-manager/)
+1. [Really interesting blog post from Hanno on remote team feedback](https://web.archive.org/web/20220810051106/https://hanno.co/journal/remote-team-feedback/)
+1. [51 questions to ask in one-on-ones with a manager](https://getlighthouse.com/blog/74-questions-to-ask-your-manager/)
 1. [HBR: The rise of data driven decision making is real but uneven](https://hbr.org/2016/02/the-rise-of-data-driven-decision-making-is-real-but-uneven)
 1. [Forbes: 6 Tips for Making Better Decisions](https://www.forbes.com/sites/mikemyatt/2012/03/28/6-tips-for-making-better-decisions/#966eb3b34dca)
 
 ## Books
 
-Books in this section [can be expensed](https://about.gitlab.com/handbook/spending-company-money).
+Books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
-Notable books from the [E-Group Offsite Book Selections]({{< ref "offsite#previous-reads" >}}) may be added to the list below.
+Notable books from the [E-Group Offsite Book Selections](/handbook/company/offsite/#content-choice) may be added to the list below.
 
 We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read through these books as a group.
 
@@ -302,10 +296,10 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 1. [The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things) - Ben Horowitz
     - [Chase Wright's notes](https://docs.google.com/document/d/1Uxva11x1YX4zci1FHmF45UTYjGLPMU5HmrbmflINoG4/)
 1. [Crucial Conversations: Tools for Talking When Stakes Are High](https://www.goodreads.com/book/show/15014.Crucial_Conversations) - Kerry Patterson
-    - Notes from the [E-group]({{< ref "structure#e-group" >}}) reading:
+    - Notes from the [E-group](/handbook/company/structure/#e-group) reading:
     - Virtual teams are much more likely to fail on crucial conversations than colocated teams
     - We need to develop the skill of sensing the tone of a-sync conversations to uncover potential issues
-    - We need to find a way to create [psychological safety]({{< ref "psychological-safety" >}}) for people in official channels
+    - We need to find a way to create [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) for people in official channels
     - Starting with empathy is a great way to gather the context needed in a tense situation - this is hard a-sync, but more important
     - Consider getting context 1-on-1 (through Slack) before posting a comment in an issue that you might regret later
     - As leaders, we need to give context as well. A good question is: "What would have to change for us to get X prioritized..."
@@ -315,29 +309,28 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 
 ## Email Lists
 
-1. [Software Lead Weekly](http://softwareleadweekly.com/)
+1. [Software Lead Weekly](https://softwareleadweekly.com/)
 
 ## Training
 
-When you give leadership training please [screenshare the handbook instead of creating a presentation]({{< ref "handbook-usage#screenshot-the-handbook-instead-of-creating-a-presentation" >}}).
+When you give leadership training please [screen share the handbook instead of creating a presentation](/handbook/about/handbook-usage/#screenshot-the-handbook-instead-of-creating-a-presentation).
 
 ### Leadership Development Opportunities
 
-1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate/), focused on developing management skills to lead all-remote teams.
-1. Leadership development coaching with the [growth & development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
+1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate-programs/), focused on developing management skills to lead all-remote teams.
+1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security](/handbook/security/security-shadow/).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
-1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
-1. Watch or listen to one of the many [CEO Handbook Learning sessions](/handbook/people-group/learning-and-development/learning-initiatives/#list-of-ceo-handbook-learning-sessions) with Sid on various leadership topics
+1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)
 1. Join a monthly [Leadership Chats](/handbook/people-group/learning-and-development/manager-challenge/leadership-chats/) talk to learn from people leaders across the organization.
 1. [Learning and Development](/handbook/people-group/learning-and-development/) is developing several programs in FY23 to include a [Managing at GitLab Course](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/78), [New Manager Bootcamp](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/33), [LifeLabs Learning Pilot and Launch](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/29), [coaching program](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/342), and much more!
 
 ## People Group
 
-Feel free to reach out to anyone in the [People Group](/handbook/people-group/) for further support on leadership development topics. You can find us on the [team page](/handbook/company/team/), using the `People Group` dropdown. The team may also be reached in the `#people-connect` chat channel.
+Feel free to reach out to anyone in the [People Group](/handbook/people-group/) for further support on leadership development topics. You can find us on the [team page](/handbook/company/team/), using the `People Group` dropdown. The team may also be reached via HelpLab.
 
 ## Being a public company
 
@@ -345,4 +338,4 @@ Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-
 
 ## Mitigating Concerns
 
-We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.
+We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values](/handbook/values/) help to mitigate some of these concerns.

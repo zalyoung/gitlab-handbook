@@ -12,7 +12,7 @@ DRI: Automated by PlanSource
 1. Employee elects Voluntary Life & Ad&D plans in PlanSource.
 1. If required, PlanSource routes the employee to the Cigna website to fill out the Evidence of Insurance directly.
 1. The Employee fills out the Evidence of Insurability and completes enrollment.
-1. Cigna/NY York Life rejects/approves the request and automatacally updates the election amount on PlanSource.
+1. Cigna/NY York Life rejects/approves the request and automatically updates the election amount on PlanSource.
 
 ### Qualifying Life Event (QLE) Processing
 
@@ -21,12 +21,12 @@ Cadence: Ad hoc (check at least weekly)
 
 1. Log into PlanSource and select `Life Events` (in the "Your Tasks" box).
 1. For any new pending life events, you will need to request documentation from the team member:
-    - Nagivate to the team member's profile.
+    - Navigate to the team member's profile.
     - Scroll down to the `Tasks` section and in the Actions drop-down, select "Create a Document Request".
     - Select "New Document Request" and paste the following text:
        > Hello,
        >
-       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
+       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
        >
        > If you have any questions or neeed any help uploading your documentation, please reach out to the Total Rewards team.
     - Choose acceptable documents for the team member's Life Event per the table below and click "Submit"
@@ -134,7 +134,7 @@ The People Operations team will update the 'Benefits Group' in the HR system of 
 #### Instructions on assigning a benefits group
 
 There are two parts of the Benefits Group: **1. The entity** and **2. The team member's location.**
-For example'Fed-FT-Colorado' would be the correct option for a GitLab Federal Team Member living in Colorado.
+For example 'Fed-FT-Colorado' would be the correct option for a GitLab Federal Team Member living in Colorado.
 
 **Entity**
 
@@ -182,7 +182,7 @@ Example on how many entries should be in the report per team member: If a team m
 
 #### Cobra Navia
 
-Team members have the option of electing the HRA during Cobra, once elected and payment is made, WEX sends email notification to Navia informing them of the COBRA election and to reactivate the member’s access to HRA.
+Team members have the option of electing the HRA during Cobra, once elected and payment is made, WEX sends email notification to Navia informing them of the COBRA election and to reactivate the member's access to HRA.
 The process for reporting elections is managed by WEX.
 
 ### Payroll Hourly Reporting in to Workday for ACA Measurement

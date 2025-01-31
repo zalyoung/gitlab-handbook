@@ -44,9 +44,9 @@ description: "The Incident Response Lifecyle working group is intended to docume
 ### How is IR done today?
 
 1. SIRT
-   - [Incident Response Guidance](/handbook/security/product-security/vulnerability-management/incident-response-guidance.html)
-   - [Engaging Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
-   - [GitLab SIRT On-Call Guide]({{< ref "secops-oncall" >}})
+   - [Incident Response Guidance](/handbook/security/product-security/vulnerability-management/incident-response-guidance/)
+   - [Engaging Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/)
+   - [GitLab SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/)
 1. [On-call](/handbook/engineering/on-call/)
 1. Reliability
    - [Incident Management](/handbook/engineering/infrastructure/incident-management/)

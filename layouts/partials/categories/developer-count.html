@@ -3,9 +3,11 @@
 {{- $feTeam := slice }}
 {{- $beTeam := slice }}
 {{- $fsTeam := slice }}
+{{- $sreTeam := slice }}
 {{- $be_team_tag := .be_team_tag }}
 {{- $fe_team_tag := .fe_team_tag }}
 {{- $fs_team_tag := .fs_team_tag }}
+{{- $infra_reliability_team_tag := .infra_reliability_team_tag }}
 
 {{- range $team }}
     {{- if in .departments $be_team_tag }}
@@ -18,6 +20,10 @@
     {{- end }}
     {{- if in .departments $fs_team_tag }}
         {{- $fsTeam = $fsTeam | append . }}
+        {{- $groupTeam = $beTeam | append . }}
+    {{- end }}
+    {{- if in .departments $infra_reliability_team_tag }}
+        {{- $sreTeam = $sreTeam | append . }}
         {{- $groupTeam = $beTeam | append . }}
     {{- end }}
 {{- end }}
@@ -36,11 +42,14 @@
             {{- if gt (len $fsTeam) 0 }}
             <th>Fullstack</th>
             {{- end }}
+            {{- if gt (len $sreTeam) 0 }}
+            <th>SRE</th>
+            {{- end }}
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th>Development Totals</th>
+            <th>Total Engineers</th>
             {{- if gt (len $beTeam) 0 }}
             <td class="text-center">{{ len $beTeam }}</td>
             {{- end }}
@@ -49,6 +58,9 @@
             {{- end }}
             {{- if gt (len $fsTeam) 0 }}
             <td class="text-center">{{ len $fsTeam }}</td>
+            {{- end }}
+            {{- if gt (len $sreTeam) 0 }}
+            <td class="text-center">{{ len $sreTeam }}</td>
             {{- end }}
         </tr>
     </tbody>

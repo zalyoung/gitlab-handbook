@@ -23,11 +23,9 @@ Quick navigation to some of our other pages.
 |---|---|
 | [Career Mobility](/handbook/people-group/engineering/career-mobility) | Our automation flow on how we streamile on processes. |
 | [Employment Issues](/handbook/people-group/engineering/employment-issues) | Information regarding our onboarding and offboarding issue automations. |
-| [GH <=> BHR Sync](/handbook/people-group/engineering/gh-bhr-sync) | Our automation for syncing Greenhouse candidates to our HRIS system. |
 | [Nominator Bot](/handbook/people-group/engineering/nominatorbot) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
 | [Offboarding](/handbook/people-group/engineering/offboarding) | Our `offboarding` automation flow and everything you may need to know regarding this. |
 | [Onboarding](/handbook/people-group/engineering/onboarding) | Our `onboarding` automation flow and everything you may need to know regarding this. |
-| [People Connect Bot](/handbook/people-group/engineering/people-connect-bot) | Information regarding our custom Slack app for our Service Desk integration. |
 | [Internal Handbook](/handbook/people-group/engineering/pops-internal-handbook) | Our People Group Engineering internal handbook. |
 | [Slack Integrations](/handbook/people-group/engineering/slack-integrations) | Information on some of our slack integrations like birthday announcments, PTO, etc. |
 | [Miscellaneous](/handbook/people-group/engineering/miscellaneous) | Some extra information regarding PTO, sensitive data, accruals, and more. |
@@ -35,18 +33,19 @@ Quick navigation to some of our other pages.
 ### Working with us
 
 If you'd like to request engineering assistance with an issue, bug fixes, urgent requests related to People Group processes
-or tools ([like BambooHR](/handbook/people-group#using-bamboohr)) or anything relating to People Group Engineering, please start by
+or tools ([like Workday](/handbook/people-group#using-workday)) or anything relating to People Group Engineering, please start by
 [creating an issue](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/new)
-in the People Group Engineering project. All issues are reviewed and prioritised to a specific team through our [kanban board](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/2641488). If you require general support with MR's, kindly collaborate with all of GitLab team members in [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4) in slack.
+in the People Group Engineering project. All issues are reviewed and prioritized to a specific team through our [kanban board](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/2641488). If you require general support with MR's, kindly collaborate with all of GitLab team members in [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4) in slack.
 
-If you are looking for help regarding general inquiries such as: payroll, paid time off, benefits, etc. Please reach out to our People Connect team in their slack channel, [`#people-connect`](https://gitlab.slack.com/archives/C02360SQQFR).
+If you are looking for help regarding general inquiries such as: payroll, paid time off, benefits, etc. Please reach out to our People Connect team via HelpLab.
+
+If you are looking to bring the People Group Engineering team into a discussion/issue/merge request on GitLab, please utilize our group tag: `@gl-people-engineering` to ping the appropriate team members.
 
 ### Report bugs
 
 If you want to report bugs about existing integrations, you can use any of the following templates:
 
 - [Bug with a /pops command](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/issues/new?issuable_template=bug_pops_command)
-- [Bug with the Greenhouse <> BambooHR sync](https://gitlab.com/gitlab-com/people-group/peopleops-eng/conservatory/-/issues/new?issuable_template=bug_with_sync)
 - [Bug with Nominations](https://gitlab.com/gitlab-com/people-group/peopleops-eng/nominatorbot/-/issues/new?issuable_template=general_bug)
 
 #### Urgent attention
@@ -82,7 +81,7 @@ Ops Engineer always adds the reason why an issue is moved to blocked.
 
 #### Triaging new tickets
 
-We have a [performance indicator]({{< ref "people-success-performance-indicators#people-group-engineering-new-requests-are-triaged" >}})
+We have a [performance indicator](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-new-requests-are-triaged)
 set to having new tickets being triaged within 7 working days. Everyone in the People Engineering team can triage new tickets. What we do when a new ticket comes in:
 
 - check if everything in the template is filled in, if not ask the author to fill it in and add the label `Workflow::Waiting`
@@ -93,7 +92,7 @@ set to having new tickets being triaged within 7 working days. Everyone in the P
 - determine if it is a new project `~PopsEng::New Project` or a bug `~PopsEng::Bug` or an addition to an existing project or integration `~PopsEng::Addition`
 - when we have all the information needed to start working on the ticket, label it with either `Workflow::Ready for Development` or `Workflow::Next Up`
 
-Note: for bugs, we have another [performance indicator]({{< ref "people-success-performance-indicators#people-group-engineering-bug-to-first-action" >}})
+Note: for bugs, we have another [performance indicator](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-bug-to-first-action)
 that requires us to take action within one working day. This is because often a bug in any of the integrations would lead to inefficiences and manual work
 for the People Group.
 
@@ -146,7 +145,6 @@ We've build several automations and tools to support our People Group. In the fo
 
 ### Team member's employment
 
-- [Greenhouse <> BambooHR Sync]({{< ref "gh-bhr-sync" >}})
 - [Onboarding Automations](/handbook/people-group/engineering/onboarding)
 - [Career Mobility Automations](/handbook/people-group/engineering/career-mobility)
 - [Offboarding Automations](/handbook/people-group/engineering/offboarding)
@@ -157,7 +155,6 @@ We've build several automations and tools to support our People Group. In the fo
 - [Compensation Calculator](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/)
 - [Inclusive Language Check on Job Families](/handbook/hiring/job-families/#inclusive-language-check)
 - [People Ops Internal Handbook]({{< ref "pops-internal-handbook" >}})
-- [People Connect Bot]({{< ref "people-connect-bot" >}})
 
 ### Uncategorized
 

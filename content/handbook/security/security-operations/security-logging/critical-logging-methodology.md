@@ -5,7 +5,7 @@ description: "The purpose of the Critical Logging Tiering Methodology is to supp
 
 ## Purpose
 
-The purpose of the Critical Logging Tiering Methodology is to support GitLab in categorizing logs based on their effect on GitLab's SaaS subscriptions and the achievement of GitLab's [mission]({{< ref "mission#mission" >}}) and [goals]({{< ref "mission#goals" >}}). Ultimately, this provides GitLab with a mechanism to take a proactive approach to comprehensive risk management which considers risks, such as information security and privacy risks, impacting business operations across the organization. Additionally, by classifying logging into specific tiers, GitLab will be in a better position to appropriately prioritize risk mitigation activities and tailor internal controls based on a log's related tier.
+The purpose of the Critical Logging Tiering Methodology is to support GitLab in categorizing logs based on their effect on GitLab's SaaS subscriptions and the achievement of GitLab's [mission](/handbook/company/mission/#mission) and goals. Ultimately, this provides GitLab with a mechanism to take a proactive approach to comprehensive risk management which considers risks, such as information security and privacy risks, impacting business operations across the organization. Additionally, by classifying logging into specific tiers, GitLab will be in a better position to appropriately prioritize risk mitigation activities and tailor internal controls based on a log's related tier.
 
 ## Scope
 
@@ -77,7 +77,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
   <tr>
     <td class="tg-e02t">Tier 3 Business Operational</td>
     <td class="tg-zqun">Disruption affects operational business functions, negatively impacting efficiency/cost of operation across departments and/or systems contain [yellow data]({{< ref "data-classification-standard#yellow" >}})</td>
-    <td class="tg-zqun">Clearwater, PagerDuty, ZenGRC</td>
+    <td class="tg-zqun">Clearwater, PagerDuty</td>
     <td class="tg-zqun">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>
   </tr>
   <tr>
@@ -104,7 +104,7 @@ Tiering systems utilized across GitLab enables team members to make decisions on
 
 ### Maintaining Critical Logging Tiers
 
-A Critical Logging assessment is performed on an annual cadence in alignment with the [StORM annual risk assessment process]({{< ref "storm-program" >}}) to validate existing systems in GitLab’s environment and make adjustments to assigned tiers accordingly. A system's assigned tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). A systems logging inventory can be found in the [SecLogging Inventory Repository](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/sec-logging-inventory)
+A Critical Logging assessment is performed on an annual cadence in alignment with the [StORM annual risk assessment process]({{< ref "storm-program" >}}) to validate existing systems in GitLab's environment and make adjustments to assigned tiers accordingly. A system's assigned tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). A systems logging inventory can be found in the [SecLogging Inventory Repository](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/sec-logging-inventory)
 
 #### Exceptions
 

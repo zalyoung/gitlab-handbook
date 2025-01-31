@@ -16,23 +16,23 @@ title: "Publish a video on YouTube"
 
 1. Login to the GitLab YouTube account where you would like to post a video.
    You should already have permission to do that from your GitLab login.
-   If you don’t and believe that you should then open an access request.
+   If you don't and believe that you should then open an access request.
 
 1. Click on the profile picture and select **YouTube Studio**
 
-   ![youtube studio option](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/youtube_studio.png)
+   ![youtube studio option](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/youtube_studio.png)
 
 1. Then click on the **CREATE** button next to your profile picture and select **Upload videos**
 
-   ![upload video option](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/upload_video_option.png)
+   ![upload video option](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/upload_video_option.png)
 
 1. A popup window will appear and ask you to upload a video
 
-   ![upload video popup](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/upload_video_popup.png)
+   ![upload video popup](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/upload_video_popup.png)
 
 1. Once the video is uploaded, you will see a video configuration screen
 
-   ![video configuration screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/video_configuration_screen.png)
+   ![video configuration screen](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/video_configuration_screen.png)
 
 ### 2. Configuration of the video
 
@@ -67,11 +67,11 @@ title: "Publish a video on YouTube"
    1. The timestamp includes the time **"HH:MM:SS"** followed by a brief description of what the segment is about.
    1. To include timestamps and split a video into chapters, you need to provide a list of timestamps in the **Description** field
 
-      ![timestamps in the description](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/timestamps_in_description.png)
+      ![timestamps in the description](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/timestamps_in_description.png)
 
       and it will generate such a view under the published video and allow the viewer to quickly find a video part they interested in
 
-      ![chapters on published video](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/published_video_chapters.png)
+      ![chapters on published video](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/published_video_chapters.png)
 
    1. List the timestamps in the order they appear in the video.
    1. Make sure they correspond correctly to their segment in the video.
@@ -89,24 +89,24 @@ title: "Publish a video on YouTube"
 
    Scroll to the bottom of the popup window and select **SHOW MORE** to see a full list of settings in the **Details** tab:
 
-   ![show more link in the details tab](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/show_more_in_details_tab.png)
+   ![show more link in the details tab](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/show_more_in_details_tab.png)
 
    Once you finished with setting up in this tab, select **Next** button to go to the **Video Elements** tab:
 
-   ![next button in the details tab](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/next_in_details_tab.png)
+   ![next button in the details tab](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/next_in_details_tab.png)
 
 1. In the **Video Elements** tab, you can:
    - Add subtitles
    - Add an end screen to promote related content at the end of your video
    - Add cards to promote related content during your video
 
-   ![video elements screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/video_elements_screen.png)
+   ![video elements screen](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/video_elements_screen.png)
 
 #### Cards
 
    To promote other videos, channels, playlists, and links during the video we can use **Cards** and configure the time they appear in the video
 
-   ![cards screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/cards_screen.png)
+   ![cards screen](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/cards_screen.png)
 
 #### An end screen
 
@@ -114,24 +114,24 @@ title: "Publish a video on YouTube"
 
    Select **Next** button to go to the **Checks** tab:
 
-   ![next button in the video elements tab](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/next_in_video_elements_tab.png)
+   ![next button in the video elements tab](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/next_in_video_elements_tab.png)
 
 1. In the **Checks** tab, YouTube posts a verification status of the video
 
-   ![checks screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/checks_screen.png)
+   ![checks screen](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/checks_screen.png)
 
    Select **Next** button to go to the **Visibility** tab:
 
-   ![next button in the checks tab](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/next_in_checks_tab.png)
+   ![next button in the checks tab](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/next_in_checks_tab.png)
 
 1. In the **Visibility** tab, you specify the visibility and can schedule a date when the video will be public
 
-   ![visibility screen](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/visibility_screen.png)
+   ![visibility screen](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/visibility_screen.png)
 
 ### 3. Publish a video
 
 1. Click on the **Save** button once you configured everything
 
-   ![save button](/handbook/marketing/developer-relations/technical-marketing/images/publish_video_on_youtube/save_button.png)
+   ![save button](/images/marketing/developer-relations/technical-marketing/publish_video_on_youtube/save_button.png)
 
 1. Go to view your video in the channel and make sure everything shows up as expected.

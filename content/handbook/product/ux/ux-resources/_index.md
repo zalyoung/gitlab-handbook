@@ -23,7 +23,7 @@ To add the UX Department Calendar to your list of calendars:
 1. Select `Subscribe to calendar`
 1. Enter in the search field `gitlab.com_9psh26fha3e4mvhlrefusb619k@group.calendar.google.com` and then press enter on your keyboard
 
-NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone’s calendar.
+NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone's calendar.
 
 ## Design resources
 
@@ -57,15 +57,15 @@ The GitLab Design System, [Pajamas](https://design.gitlab.com), was developed to
 
 Our SVG repository manages all GitLab SVG assets by creating an SVG sprite out of icons and optimizing SVG-based illustrations.
 
-- [SVG Previewer](http://gitlab-org.gitlab.io/gitlab-svgs/)
+- [SVG Previewer](https://gitlab-org.gitlab.io/gitlab-svgs/)
 - [View the project](https://gitlab.com/gitlab-org/gitlab-svgs)
 
 ### Jobs to be Done (JTBD)
 
-We use the JTBD framework for viewing products and solutions in terms of the jobs customers are trying to achieve. It's about understanding the goals that people want to accomplish. JTBD is used throughout the design process to determine scope, validate direction, evaluate existing experiences with [UX Scorecards](/handbook/product/ux/ux-scorecards/), and assess our [Category Maturity](https://about.gitlab.com/direction/maturity/) with [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
+We use the JTBD framework for viewing products and solutions in terms of the jobs customers are trying to achieve. It's about understanding the goals that people want to accomplish. JTBD is used throughout the design process to determine scope, validate direction, evaluate existing experiences with [UX Scorecards](/handbook/product/ux/ux-scorecards/), and assess our [Category Maturity](https://about.gitlab.com/direction/#maturity) with [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
 
 - [JTBD Overview](/handbook/product/ux/jobs-to-be-done/)
-- [JTBD Deep Dive](/handbook/product/ux/jobs-to-be-done/deep-dive/)
+- [JTBD Deep Dive](/handbook/product/ux/jobs-to-be-done/)
 - [Mapping JTBD](/handbook/product/ux/jobs-to-be-done/mapping-jobs-to-be-done/)
 
 ### Design Reviews
@@ -75,6 +75,15 @@ View how we collect [synchronous and asyncrhonous design feedback](/handbook/pro
 ### Tools
 
 **Figma** We use [Figma](https://www.figma.com/design/) for designing and prototyping. Our [Pajamas UI kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit) contains design assets, components, and styles for GitLab's design system, [Pajamas](https://design.gitlab.com/). Additionally, there is a [Figma plugin](https://www.figma.com/community/plugin/860845891704482356/GitLab) available that allows designers to upload design files directly into a GitLab issue. Every product designer should receive access to Figma during onboarding. If you don't have the access you need, reach out to your manager. If you are not a product designer but want View access (including the ability to leave comments), create a free Figma account and ask your stage group designer for a link to the relevant files.
+
+Figma admins and their role scope are defined as:
+
+|Admin|Scope|
+|-----|-----|
+|@tauriedavis|Tech stack owner, user management (Provisioning/deprovisioning), billing|
+|@vkarnes|Tech stack owner fall back|
+|@jeldergl|User management (Provisioning/deprovisioning), design ops|
+|@danmh|Design ops|
 
 **Figjam** We use [Figjam](https://www.figma.com/figjam/) for collecting design feedback, mapping workflows, brainstorming, affinity mapping, and anything else where we need a visual, whiteboard-like workspace.
 
@@ -87,9 +96,9 @@ Everyone in the UX department and all Product Managers can get a Figma account w
 The UX team is encouraged to make improvements directly in the product when they find something that is small and easy to change.
 
 - [Technical Tutorials for Product Designers](https://www.youtube.com/playlist?list=PL05JrBw4t0Kra6RseLWXFIXtu9UPzjzbT) - video playlist for best practices on technical topics
-- [How to do UI Code Contributions](./designers-guide-to-contributing-ui-changes-in-gitlab/)
-- [Step by Step Guide to Make Code Changes](./designers-step-by-step-guide-to-make-code-changes/)
-- [Using data for design decisions](./designers-guide-to-data/)
+- [How to do UI Code Contributions](designers-guide-to-contributing-ui-changes-in-gitlab/)
+- [Step by Step Guide to Make Code Changes](designers-step-by-step-guide-to-make-code-changes/)
+- [Using data for design decisions](designers-guide-to-data/)
 - [Implementing frontend click tracking for designers](https://www.youtube.com/watch?v=95wNcGMrpMg&ab_channel=GitLabUnfiltered)
 
 ### Prototypes
@@ -129,4 +138,4 @@ Not only do our team members create great work for the wider GitLab community, b
 - [Building Design Systems: Unify User Experiences through a Shared Design Language](https://www.amazon.com/Building-Design-Systems-Experiences-Language/dp/148424513X), by Taurie Davis and Sarrah Vesselov
 - [Craft Awesome Web Typography](https://betterwebtype.com/web-typography-book/), by Matej Latin
 - [Hemingway - Figma plugin](https://www.figma.com/community/plugin/760035865558407437/Hemingway), by Michael Le
-- [GitLab-ipsum](https://ipsum.reali.sh/), by Patrick Deuley and Jeremy Elder
+- [GitLab-ipsum](https://gitlab-com.gitlab.io/gitlab-ux/ux-foundations/gitlabipsum/), by Patrick Deuley and Jeremy Elder

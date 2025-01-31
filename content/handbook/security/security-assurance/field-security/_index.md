@@ -13,9 +13,9 @@ The Field Security team serves as the public representation of GitLab's internal
 
 The Field Security team is tasked with providing high levels of security assurance to internal and external customers. We work with all GitLab departments to document requests, analyze the risks associated with those requests, and provide value-added remediation recommendations. We do this in four main ways:
 
-- Conducting [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}}) such as completing Security, Privacy, and Risk Management Questionnaires, assisting in Contract Reviews, participating in Customer Pre-Sales Meetings, and making available our Security Documents (such as GitLab’s SOC2 or Penetration Test reports). These activities are managed through the [Customer Assurance Activities Service Desk](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues).
+- Conducting [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}}) such as completing Security, Privacy, and Risk Management Questionnaires, assisting in Contract Reviews, participating in Customer Pre-Sales Meetings, and making available our Security Documents (such as GitLab's SOC2 or Penetration Test reports). These activities are managed through the [Customer Assurance Activities Service Desk](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues).
 - Proactively maintaining self-service security and privacy resources including the [SafeBase Trust Center](https://trust.gitlab.com/) and the [Knowledge Base]({{< ref "knowledge_base" >}}).
-- Providing recommendations based on customer security concerns in support of revenue growth through the annual [Field Security Study]({{< ref "field-security-study" >}}) and participation in the [Quarterly Business Review](https://about.gitlab.com/handbook/sales/qbrs/) Process.
+- Providing recommendations based on customer security concerns in support of revenue growth through the annual [Field Security Study]({{< ref "field-security-study" >}}) and participation in the [Quarterly Business Review](/handbook/sales/qbrs/) Process.
 - Building the GitLab Security brand by improving internal and external awareness of GitLab's security practices and the security of our platform. Engaging with customers and prospects through [Evangelism Activities]({{< ref "evangelism" >}}) and with internal stakeholders via the [Field Security Sales Training Program]({{< ref "fsstp" >}}).
 
 ---
@@ -78,7 +78,7 @@ Do you have an idea, feedback, or recommendation for how Field Security can bett
 - [Evangelism]({{< ref "evangelism" >}})
 - [Field Security Sales Training Program]({{< ref "fsstp" >}})
 - [Independent Security Assurance]({{< ref "independent_security_assurance" >}})
-- [Security Shadow Program]({{< ref "security-shadow-security-assurance" >}})
+- [Security Shadow Program](/handbook/security/security-shadow-security-assurance/)
 
 <div class="d-grid gap-2 my-4">
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

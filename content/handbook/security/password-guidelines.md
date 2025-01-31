@@ -11,13 +11,13 @@ The password standard sets the requirements for constructing secure passwords an
 
 1Password is a password manager that can be used in two different ways - as a standalone application (by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Business which is a hosted service.
 
-**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
+**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentary 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
  For more information on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
 
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-GitLab requires all team members to use [Okta](/handbook/business-technology/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
+GitLab requires all team members to use [Okta](/handbook/it/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
 
 If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few options](#1password-for-your-private-passwords).
 
@@ -53,7 +53,7 @@ using throughout.
 ### 1Password guidelines
 
 1. If you install the macOS application, install 1Password via this link
-[1Password](https://1password.com/downloads/mac/)
+[1Password](https://1password.com/downloads/mac)
 1. If you have a YubiKey, it can be added as a 2-factor
 method to your 1Password account for convenience.
 1. When traveling, consider using 1Password in "Travel Mode", see more on that [below](#travel-mode).
@@ -66,7 +66,7 @@ users about password breaches and other security problems on the websites they
 have saved in 1Password Teams, so users can take action. This is not something
 account administrators can review for team members, so it is up to you to enable!
 Enable Watchtower by going to your 1Password app and then to **Preferences > Watchtower**.
-1. Use the ["Security Audit"](https://i.agilebits.com/dt/Blank_Skitch_Document_18FB0234.png)
+1. Use the "Security Audit"
 functionality of 1Password to meet the [password standard](password-standard.md).
 It will report reused passwords, weak passwords, accounts that
 are missing 2-factor authorization, and so forth that can then be fixed.
@@ -101,12 +101,12 @@ account up to one of the native apps.
 
 #### Adding the GitLab team to a 1Password app
 
-This guide will cover setting up the [macOS app](https://agilebits.com/downloads). It's their lead platform and is
+This guide will cover setting up the [macOS app](https://1password.com/downloads/mac). It's their lead platform and is
 the most up-to-date. These instructions may or may not work for the Windows
 version. If you use 1Password 6 without a 1Password.com account, make note of
 [this](#updating-1password-to-support-the-teams-feature).
 
-1. Download and install the 1Password [macOS app](https://agilebits.com/downloads).
+1. Download and install the 1Password [macOS app](https://1password.com/downloads/mac).
 1. Launch the app.
 1. Click "Sign in to your 1Password account" button. If there is no such button
 please follow the instructions for [updating 1Password](#updating-1password-to-support-the-teams-feature).
@@ -124,7 +124,7 @@ If you saved it as a digital PDF file:
 1. Open the PDF file with the scanner by clicking on the camera icon
 
 <div style="text-align:center;">
-  <img src="../1password-setup-open-file-dialog.png" alt="Open PDF file with scanner by clicking on camera icon" width="700"/>
+  <img src="/images/security/1password-setup-open-file-dialog.png" alt="Open PDF file with scanner by clicking on camera icon" width="700"/>
 </div>
 <br>
 
@@ -144,14 +144,14 @@ may have access to others.
 #### Shared Vault Etiquette
 
 1. In general, 1Password items should be self-documenting. This is especially important for items in team vaults such as those to which a team member gains access once part of the GitLab team or they are granted access via their baseline entitlements issue. Always make sure the `title`, `username`, and `notes` fields are meaningful.
-1. Deleting items is fine as they are kept in the "recently deleted" tab indefinetely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
+1. Deleting items is fine as they are kept in the "recently deleted" tab indefinitely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
 
 #### Vaults
 
 Click the **Vault Selector** in the upper-left corner of the window:
 
 <div style="text-align:center;">
-  <img src="../1password-vault-selector.png" alt="Vault Selector" width="700"/>
+  <img src="/images/security/1password-vault-selector.png" alt="Vault Selector" width="700"/>
 </div>
 <br>
 
@@ -169,7 +169,7 @@ People may request access to other vaults such as shared vaults that their teams
 
 ### Browser extension
 
-Go to [Browser extensions](https://agilebits.com/onepassword/extensions) and
+Go to [Browser extensions](https://1password.com/downloads/mac#browsers) and
 install the extension for whatever browser you're using. You *should not* need a
 beta version here.
 
@@ -177,14 +177,14 @@ With the extension installed, you should be able to go to a site that you have
 credentials stored for in 1Password and log in:
 
 <div style="text-align:center;">
-  <img src="../1password-login.gif" alt="Mailchimp Login" width="450"/>
+  <img src="/images/security/1password-login.gif" alt="Mailchimp Login" width="450"/>
 </div>
 
 If you don't see the site listed in the results window, make sure you're using
 the correct vault:
 
 <div style="text-align:center;">
-  <img src="../1password-vault-change.gif" alt="Vault switching" width="450"/>
+  <img src="/images/security/1password-vault-change.gif" alt="Vault switching" width="450"/>
 </div>
 
 ### Saving logins
@@ -193,7 +193,7 @@ When 1Password detects a login form submission, it may ask if you want to save
 the login with a dialog like this:
 
 <div style="text-align:center;">
-  <img src="../1password-save-login.png" alt="Save login" width="600"/>
+  <img src="/images/security/1password-save-login.png" alt="Save login" width="600"/>
 </div>
 
 If you do want to save it, make sure the appropriate **Vault** is selected
@@ -212,9 +212,9 @@ Even though these secrets have a limited scope of access, it's still best practi
 Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
 For a more secure approach, use 1Password's CLI utility which can help manage local secrets securely.
 
-[1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
+[1Password CLI integration](https://developer.1password.com/docs/cli/) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
-To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
+To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
@@ -228,7 +228,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
  and add a field `api`. Insert the value of your PAT into the newly created field `api`.
 
 <div style="text-align:center;">
-  <img src="../1pass-pat-setup.png" alt="Save login" width="600"/>
+  <img src="/images/security/1pass-pat-setup.png" alt="Save login" width="600"/>
 </div>
 
 - Store a secret reference to the access token in an `.env` file.
@@ -236,7 +236,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
 The environment variable name goes before the equals sign, and the path to the secret in 1Password goes after.
 You can store multiple variable secret pairs per file when you need to use
 secrets together.
-The paths can be obtained by viewing the credential in th 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
+The paths can be obtained by viewing the credential in the 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
 
 ```sh
 ## format is op://vault-name/item-name/[section-name/]field-name
@@ -311,13 +311,13 @@ To enable TOTP for a saved account:
 1. Select **One-Time Password**
 
 <div style="text-align:center;">
-  <img src="../1password-otp.png" alt="One-time password field type" width="600"/>
+  <img src="/images/security/1password-otp.png" alt="One-time password field type" width="600"/>
 </div>
 
 1. Click QR code icon that appeared
 
 <div style="text-align:center;">
-  <img src="../1password-qrcode.png" alt="1password QR Code" width="600"/>
+  <img src="/images/security/1password-qrcode.png" alt="1password QR Code" width="600"/>
 </div>
 
 1. Scan QR code using the transparent window
@@ -326,7 +326,7 @@ To enable TOTP for a saved account:
 
 Please refer to demo video [1password TOTP setup](https://support.1password.com/one-time-passwords/)
 
-Please refer to the [1Password blog](https://blog.agilebits.com/2015/01/26/totp-for-1password-users/) for more information on how TOTP works.
+Please refer to the [1Password blog](https://blog.1password.com/totp-for-1password-users/) for more information on how TOTP works.
 
 If scanning the QR code using the "transparent window" with the 1Password Mac
 app fails on a recent macOS, please consider using the 1Password iOS app instead.
@@ -340,19 +340,19 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 
 ### Passkeys
 
-1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](https://adamhuss-master-patch-a4f4.about.gitlab-review.app/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
+1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
 
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 
 <div style="text-align:center;">
-  <img src="../PasskeyAlert.png" alt="You may see something like the image below" width="700"/>
+  <img src="/images/security/PasskeyAlert.png" alt="You may see something like the image below" width="700"/>
 </div>
 <br>
 
 At that point, the key pairing is created and 1Password will use this method of sign in going forward. Note, not all sites are supported at this time. If you're curious about setting this up on a site you use, you can always open 1Password, select that login tab, and see if the "Passkey Available" notification is showing.
 
 <div style="text-align:center;">
-  <img src="../PasskeyAvailable.png" alt="notification is showing. width="700"/>
+  <img src="/images/security/PasskeyAvailable.png" alt="notification is showing. width="700"/>
 </div>
 <br>
 
@@ -387,7 +387,7 @@ one of our developers, uses 1Password:
 > the idea:
 
   <div style="text-align:center;">
-    <img src="../1password-teams-login.png" alt="Teams Login" width="560px"/>
+    <img src="/images/security/1password-teams-login.png" alt="Teams Login" width="560px"/>
   </div>
 
 ### Traveling with 1Password{#travel-mode}
@@ -403,11 +403,11 @@ Once you have enabled Travel Mode open 1Password on each device you will be taki
 with you so that it can sync with 1Password.com and remove any vaults that cannot
 be used while traveling.
 
-For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/).
+For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.1password.com/introducing-travel-mode-protect-your-data-when-crossing-borders/).
 
 ### Securing Docker Registry User Credentials
 
-Docker can store user credentials in an [external credential store](https://docs.docker.com/engine/reference/commandline/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
+Docker can store user credentials in an [external credential store](https://docs.docker.com/reference/cli/docker/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
 
 #### Using `osxkeychain` (macOS)
 
@@ -419,7 +419,7 @@ To configure Docker to use `osxkeychain` for secure credential storage, follow t
     brew install docker-credential-helper
     ```
 
-1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {
@@ -444,7 +444,7 @@ To configure Docker to use `pass` for secure credential storage, follow these st
 1. Move the `docker-credential-pass` binary to your `$PATH` (e.g., `sudo mv docker-credential-pass-v0.8.0.linux-amd64 /usr/local/bin/docker-credential-pass`).
 1. Obtain and copy the GPG key ID that `pass` will use for encryption via `gpg --list-secret-keys --keyid-format LONG`.
 1. Initialize `pass` with `pass init <gpg-key-id>`.
-1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {

@@ -5,16 +5,16 @@ description: "The Talent Acquisition Process Framework provides guidance on the 
 
 **Purpose**: The Talent Acquisition Process Framework provides guidance on the hiring process for the talent acquisition team, hiring manager, and hiring team to efficiently hire top talent and create a positive candidate experience when it comes to hiring to a REQ.
 
-**Variations**: It’s understood that variations to the process may occur given particular situations that make sense to a specified hiring team or need.
+**Variations**: It's understood that variations to the process may occur given particular situations that make sense to a specified hiring team or need.
 
 The communicated Talent Acquisition Process Framework specifically focuses on approved REQs and candidates who are moving forward. It is understood that candidates who will be [declined will be done so in a timely and respectful manner]({{< ref "interviewing#rejecting-candidates" >}}).
 
 ## Search Team
 
-- **[Hiring Manager]({{< ref "./hiring-manager" >}}):** The Hiring Manager is the individual who is hiring for the particular REQ. In most situations, the person hired into this REQ will report into this individual.
+- **[Hiring Manager](hiring-manager/):** The Hiring Manager is the individual who is hiring for the particular REQ. In most situations, the person hired into this REQ will report into this individual.
 - **Hiring Team:** The Hiring Team is a group of people the Hiring Manager asks to be involved in the interview process. The Hiring Team will assess candidates for a given req based on what is defined in the [REQ Kick-off Issue](https://gitlab.com//gl-talent-acquisition/req-intake/-/issues) and the [Hiring Repo](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master).
 - **Recruiter:** The Recruiter is the main point of contact for the Hiring Manager, Hiring Team, and all candidates associated with the REQ. The Recruiter will directly source for prospects as well as partner with their Sourcer and Candidate Experience Specialist throught the process. For more information on what role a Recruiter may play, please visit the Recruiter Job Family.
-- **[Candidate Experience Specialist (CES)]({{< ref "./coordinator" >}}):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family](/job-families/people-group/candidate-experience).
+- **[Candidate Experience Specialist (CES)](coordinator/):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family](/job-families/people-group/candidate-experience).
 
 ### **Step 1: Identify hiring need**
 
@@ -35,16 +35,16 @@ Recruiters may schedule a **Sourcing Session** after the kick-off session to hel
 - The Recruiter will discuss with Hiring Manager who should participate in the Sourcing session.
 - The Sourcing Session is focused on finding outbound candidates outside of our Talent Community.
 - Our recommendation is to have at least the Hiring Manager and Interviewers participate in a Sourcing Session.
-- The Sourcing Session should be scheduled within 5 business days after the kick-off call. (For the “evergreen” and “volume” roles we recommend having regular Sourcing Sessions every month.)
+- The Sourcing Session should be scheduled within 5 business days after the kick-off call. (For the "evergreen" and "volume" roles we recommend having regular Sourcing Sessions every month.)
 - All Sourcing sessions that include team members outside of the Talent Acquisition team should be set up for 30 minutes by default and could be done
 live or in an async way.
-- We don’t require a specific number of profiles to be added by every participant, however, the Recruiter should aim to identify 20 qualified profiles for the role.
+- We don't require a specific number of profiles to be added by every participant, however, the Recruiter should aim to identify 20 qualified profiles for the role.
 
 ### **Step 4: Identify & Engage Top Talent (Prospects)**
 
 **4.1 - Source prospects**
 
-The Recuiter and Hiring Manager will partner in finding top talent using different sourcing avenues to find candidates, with LinkedIn and GitLab Talent Community being the most used and efficient ones. *(It is possible that other Recruiters, and/or members of the CES Team will provide additional [sourcing support]({{< ref "talent-acquisition-framework#sourcing-support" >}})*.
+The Recuiter and Hiring Manager will partner in finding top talent using different sourcing avenues to find candidates, with LinkedIn and GitLab Talent Community being the most used and efficient ones. *(It is possible that other Recruiters, and/or members of the CES Team will provide additional [sourcing support](/handbook/hiring/talent-acquisition-framework/)*.
 
 **4.2 - Add prospects to Greenhouse**
 
@@ -52,10 +52,10 @@ All approached prospects should be added in Greenhouse as prospects.**Greenhouse
 
 There are multiple ways to add the candidates, as follows:
 
-- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-Prospects-to-Greenhouse-via-LinkedIn-RSC-Integration)
+- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-prospects-to-Greenhouse-Recruiting-with-LinkedIn-RSC)
 - [Greenhouse plugin](https://support.greenhouse.io/hc/en-us/articles/4947637389083-Greenhouse-Recruiting-Chrome-extension-overview)
-- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630)
-- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
+- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630-Maildrop)
+- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-LinkedIn-Recruiter-System-Connect-RSC-integration) so you can export candidates in one click as prospects
 
 Keep in mind, a candidate could have the source, `Applied through your website's jobs page` or `Jobs page on your website`, if they signed-up to the **Talent Community** prior to the correct tracking link being associated with the in-take form. In that situation, please change their source to `Talent Community`.
 
@@ -77,24 +77,73 @@ Anyone on the Recruitment Team can provide sourcing support for priority REQs.  
 If you are helping a Recruiter source for an open REQ please verify the prospects you find are best qualified *before* reaching out to them. Share added prospects in bulk with the Recruiter vs. sending multiple one-off pings to the Recruiter.  This can be done by  sending the Recruiter a Greenhouse link to the candidate pool using filters (applied on DATE, source NAME, role title).
 
 - The Recruiter has a *7 day SLA* to review the prospects you share
-  - If the prospect is not qualified, the Recruiter will select the option to “stop considering as a prospect”
+  - If the prospect is not qualified, the Recruiter will select the option to "stop considering as a prospect"
   - If the prospect is qualified the Recruiter will ask you to engage the prospect
-    - If the prospect responds and is NOT interested, select the option to “stop considering as a prospect” in Greenhouse
+    - If the prospect responds and is NOT interested, select the option to "stop considering as a prospect" in Greenhouse
     - If the prospect does not respond before the REQ is filled, the Recruiter should reject all prospects in bulk and select the option to not send an email.
-    - If the prospect responds with interest, the person who found them will select the option to “convert to candidate” in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
+    - If the prospect responds with interest, the person who found them will select the option to "convert to candidate" in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
+
+#### **Assists**
+
+**What is an Assist?**
+
+- An Assist is hiring credit given to a Recruiter who sourced or otherwise advanced a candidate through an interview process, and then handed off to another Recruiter resulting in a Hire.
+
+**Characteristics of an Assist:**
+
+- You have sourced a passive candidate and/or completed a Recruiter Screen with a candidate
+- You have made an introduction between the candidate and the hiring Recruiter
+- Candidate is Hired to GitLab
+
+**What is *not* an Assist?**
+
+- Applicants from other pipelines that have not yet been screened
+
+**How to record:**
+
+- Greenhouse:
+  - Navigate to `Job Setup` -> `Hiring Team`
+  - Locate `Recruiter` field -> **add** the Recruiter receiving the Assist after your own name -> `save`
+    - Note: The person with `Recruiting Tasks` next to their name will be the Primary Recruiter.
+- Record the Assist in your team’s hiring tracker document (ie. PodSquad for Engineering)
+
+**FAQs:**
+</details>
+<details><summary>Click to expand</summary>
+
+What is the purpose of an Assist?
+
+- Assists are a great way to maintain activity during times of reduced hiring in your own business unit. They also provide an avenue to be rewarded for sourcing and interview activity if your own role fills or closes.
+
+Who is responsible for documenting the Assist?
+
+- The Closing Recruiter is expected to document the Assist when closing the role in Greenhouse, once the candidate has signed and all other candidates have been dispositioned. As a best practice, keep a record of candidates that have been handed off to you to maintain data integrity and proper credit. Assisting Recruiters may also [follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-notifications-about-candidate-or-prospect) candidates in GH after the handoff to keep notified of their status.
+
+Will my hiring goals be affected as a result of this change?
+
+- No, hiring goals will remain the same. Any Assists will contribute to your overall performance.
+
+Will the Recruiter responsible for hiring the candidate also get credit?
+
+- Yes, both the Recruiter who made the introduction and the Recruiter who closed the candidate will receive credit for this hire. This is similar to a Sourcer/Recruiter dynamic.</details>
+
+**Reporting:**
+
+- Run: Greenhouse -> Reports -> Essentials Library -> Reports -> All Jobs Summary -> customize filter fields as desired -> Apply
+- Result: Primary Recruiter = Closing Recruiter, Secondary Recruiter = Assist
 
 #### **Use Greenhouse to track prospects**
 
-- Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-Notifications-About-Candidate-or-Prospect) button to get timely updates on the candidate's status.
-- [Follow-up Reminders](https://support.greenhouse.io/hc/en-us/articles/360017456592-Follow-up-Reminders) to resend the assessment, availability or for any other important updates.
-- [Tags](https://support.greenhouse.io/hc/en-us/articles/360027904392-Assign-Candidate-Tag-): The most common tags used are “Location sourcing” and “diversity sourcing”. You can also create your [auto tags](https://support.greenhouse.io/hc/en-us/articles/360000060551)
-- [Greenhouse Candidates Filter](https://support.greenhouse.io/hc/en-us/articles/360004175751-Best-Practices-Sourcing-Strategies): Similar to LinkedIn, Greenhouse has filters to track your pipeline. Under the candidates section, you can check any team members and your candidates tagged under a specific job, interview stage, location and so on. The most commonly used are Source, Profile details, Jobs and Location. Example - [Filter Candidates by Custom Job Fields](https://support.greenhouse.io/hc/en-us/articles/360003493951-Filter-Candidates-by-Custom-Job-Fields)
+- Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-notifications-about-candidate-or-prospect) button to get timely updates on the candidate's status.
+- [Follow-up Reminders](https://support.greenhouse.io/hc/en-us/articles/360017456592-Follow-up-reminders) to resend the assessment, availability or for any other important updates.
+- [Tags](https://support.greenhouse.io/hc/en-us/articles/360027904392-Assign-candidate-tag-to-candidate-profile): The most common tags used are "Location sourcing" and "diversity sourcing". You can also create your [auto tags](https://support.greenhouse.io/hc/en-us/articles/360000060551-Assign-candidate-tags-automatically-auto-tag)
+- [Greenhouse Candidates Filter](https://support.greenhouse.io/hc/en-us/articles/360004175751-Best-practices-Sourcing-strategies): Similar to LinkedIn, Greenhouse has filters to track your pipeline. Under the candidates section, you can check any team members and your candidates tagged under a specific job, interview stage, location and so on. The most commonly used are Source, Profile details, Jobs and Location. Example - [Filter Candidates by Custom Job Fields](https://support.greenhouse.io/hc/en-us/articles/360003493951-Filter-candidates-by-custom-job-fields)
 
-For more information about Greenhouse and it’s tips & tricks, please refer to this [document](https://docs.google.com/document/d/1BbO5v_IJEq4QR9KpI7T3fSCwdCapVOZCyNgEk6MYO0s/edit)
+For more information about Greenhouse and it's tips & tricks, please refer to this [document](https://docs.google.com/document/d/1BbO5v_IJEq4QR9KpI7T3fSCwdCapVOZCyNgEk6MYO0s/edit)
 
 ### **Step 5: Interview Stages**
 
-- When the prospect responds with interest and we have a matching requisition, select the option to “convert to candidate” in Greenhouse.
+- When the prospect responds with interest and we have a matching requisition, select the option to "convert to candidate" in Greenhouse.
 
 #### EEOC Questionnaire
 
@@ -124,7 +173,7 @@ If at any time during the interview process a candidate is declined due to compe
 
 #### Team Interview
 
-- Once a screening call is completed and a candidate is still determined as top talent, team interviews will be scheduled. To do this, the recruiter will send an "Email the Team" template called `CES Scheduling Request Form` through Greenhouse to CES* with specific communication on what interview(s) need to be scheduled. The CES team member will then [schedule team interviews]({{< ref "./coordinator#schedule-team-interviews" >}}).
+- Once a screening call is completed and a candidate is still determined as top talent, team interviews will be scheduled. To do this, the recruiter will send an "Email the Team" template called `CES Scheduling Request Form` through Greenhouse to CES* with specific communication on what interview(s) need to be scheduled. The CES team member will then [schedule team interviews](coordinator/#schedule-team-interviews).
 - The number of team interviews and order will vary from opening to opening. An example of what a Team Interview may look like is:
   - Round 1: 50 minute interview with Hiring Manager
   - If applicable, Round 2A: 25 minute interview with a Hiring Team member
@@ -139,7 +188,7 @@ If at any time during the interview process a candidate is declined due to compe
 
 1. Inform the candidate they will need to go through a full interview process for each role and outline the time commitment that may entail (for example, if a candidate is in process for 2 roles they may need to make time for 10+ interviews).
 1. There is no limit on the amount of roles a candidate can apply to but due to recruiter capacity we will only process 3 applications at a time, and will ask the candidate to choose the 3 that are highest priority.
-1. We want to avoid a situation where we have competing offers from multiple teams within GitLab. In order to prevent this, there will be an added step after the final interview stage where the recruiter discusses with the candidate which role they’re most interested in. Only one offer will be sent to the candidate after the final interviews.
+1. We want to avoid a situation where we have competing offers from multiple teams within GitLab. In order to prevent this, there will be an added step after the final interview stage where the recruiter discusses with the candidate which role they're most interested in. Only one offer will be sent to the candidate after the final interviews.
 
 ### **Step 6: References**
 

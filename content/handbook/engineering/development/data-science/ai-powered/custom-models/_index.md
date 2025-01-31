@@ -1,7 +1,6 @@
 ---
 title: Custom Models Group
 description: "The Custom Models group focuses on additional, custom models that power GitLab Duo functionality in support of our customers unique data and use-cases."
-aliases: /handbook/engineering/development/data-science/custom-models
 ---
 
 ## Vision
@@ -44,20 +43,21 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 
 - `~"group::custom models"`
 - `~"devops::ai-powered"`
-- `~"section::dev"`
-- `~"category::model personalization"`
-- `~"category::self-hosted model deployment"`
+- `~"section::data science"`
+- `~"Category:Model personalization"`
+- `~"Category:Self-Hosted models"`
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
 
 ## Team Milestone Planning Process
 
-Custom Models follows the [Product Development Flow](/handbook/product-development-flow/) and uses a planning issue and boards to manage the planning process.
-[Planning issues](https://gitlab.com/groups/gitlab-org/-/epics/12950) for each milestone are created by the PM and are used to coordinate upcoming work between the PM, EM and stable counterparts.
+Custom Models follows the [Product Development Flow](/handbook/product-development-flow/) and [Cross Functional Prioritization](/handbook/engineering/cross-functional-prioritization/). The team uses a planning issue and boards to manage the planning process. [Planning automation](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/blob/main/doc/planning/index.md) scripts are available to make this process easier.
+[Planning issues](https://gitlab.com/groups/gitlab-org/-/epics/13440) for each milestone are created by the PM and are used to coordinate upcoming work between the PM, EM and stable counterparts.
 
-In the last week of a milestone, planning is completed for the next milestone. The following activities are undertaken.
+During each milestone, planning is completed for the next milestone. The following activities are undertaken:
 
-- Creation of planning issues and boards (EM)
+- Creation of planning issues and boards (EM or PM)
+- Refinement issues are created every week via [automation](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/merge_requests/95)
 - Identification of candidate issues for the milestone and addition to Planning Board (PM, EM, SET)
 - Team member capacity planning (EM)
 - Estimation of effort using weights (Engineers and EM)
@@ -66,15 +66,23 @@ In the last week of a milestone, planning is completed for the next milestone. T
 
 ### Planning Issue
 
-Each month a planning issue is created by the EM, using the [Custom Models Planning Issue](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/blob/main/.gitlab/issue_templates/milestone-planning-template.md). This is the discussion area for the planning team members (PM, EM, and Software Engineer in Test (SET)) for a specific milestone and links to the Planning and Build Boards.
+Each month a planning issue is created by the PM, using automation and the [Custom Models Planning template](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/blob/main/.gitlab/issue_templates/milestone-planning-template.md). This is the discussion area for the planning team members (PM, EM, and Software Engineer in Test (SET)) for a specific milestone and links to the Planning and Build Boards.
 
 ### Planning Board
 
-The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7472416?milestone_title=17.0&label_name[]=group%3A%3Acustom%20models&label_name[]=planning%20priority) is created for each milestone by the PM, and is a curated list of issues by category. The EM requests engineers to allocate weights to all issues on this board prior to milestone planning.
+The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7762631?milestone_title=17.7&label_name[]=group%3A%3Acustom%20models) is created for each milestone by the PM, and is a curated list of issues by category. The planning board can be overloaded with issues; the excess will be moved to the next milestone or to the Next 1-3 Milestones board during the planning call.
+
+The PM marks issues with `~workflow::planning breakdown`, this signals to the EM to request engineers to review the issue description to ensure it is clear and ready for development. The engineer then assigns a weight and applies the `~workflow::ready for development` label.
+
+### Automation for Issue Refinement
+
+Every week, a new issue is created within [Custom Models project](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models) to help with issue refinement.
+
+Engineers refine issues weekly by reviewing tasks, estimating their complexity, and preparing them for development. During the refinement process, they evaluate the work required, add implementation plans when needed, add a [weight](#issue-weights), and mark issues as [ready for development](#ready-for-development-status). This process ensures issues are well-defined before development begins.
 
 ### Ready for Development Status
 
-Issues that are ready to be worked on by an engineer are labelled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
+Issues that are ready to be worked on by an engineer are labeled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
 
 ### Capacity Planning Spreadsheet
 
@@ -89,7 +97,14 @@ The EM selects issues from the [Planning Board](#planning-board) based on:
 - weight
 - priority
 
-The EM then applies the ~Deliverable label to each issue in the Release and assigns then to an engineer. The issues are tracked through the release via the Build Board.
+The EM then applies the `~Deliverable` label to each issue in the Release and assigns then to an engineer. The issues are tracked throughout the release with the Build Board.
+
+### Say / Do Ratio
+
+The Say / Do ratio is calculated by the using formula `Completed Issues / Assigned Issues`.
+
+- Issues added to the Build Board with the `~Deliverable` label are the Assigned Issues
+- Issues closed by the end of the milestone are the Completed Issues
 
 ### Issue Weights
 
@@ -103,7 +118,7 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 
 | Board       | Filters           | Columns            |
 |-------------|-------------------|--------------------|
-| Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
+| Planning Board | Milestone, `~group::custom models` | `~type::bug`, `~type::maintenance`, `~type::feature` |
 | Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
 | Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
 | Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |
@@ -132,9 +147,21 @@ The Custom Models communicates based on the following guidelines:
 1. The primary channel for work-related communication is the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 1. Internal team issues and projects are namespaced under [`gitlab-org/ai-powered/custom-models`](https://gitlab.com/gitlab-org/ai-powered/custom-models)
 
+## LLM Judges
+
+In developing LLM-backed applications, the Custom Models team can use different LLMs as judges
+for model evaluation purposes. The Custom Models team has been granted permission to use OpenAI models as Judges, with these requirements:
+
+- With respect to inputs, be sure not to provide any proprietary, SAFE, or otherwise sensitive information as an input to OpenAI models, as OpenAI is permitted to use our inputs to improve their services.
+- With respect to outputs, as per our usual restriction, please ensure that no ChatGPT- or GPT-generated outputs are added to GitLab issues, MRs, marketing materials, or other content.
+- We can’t automatically or programmatically extract data or output from the models, i.e. likely no automated benchmarking. Similarly, we can’t interfere with or disrupt their services, including circumvent any rate limits or restrictions.
+- We can opt out of OpenAI using our inputs/outputs to train their models so please do so by following the instructions [here](https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance).
+
+See [this internal note](https://gitlab.com/gitlab-org/gitlab/-/issues/470559#note_1997562193) for more context.
+
 ## Asking for help
 
-Don't hesitate to ask for help from other team members via the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
+Don't hesitate to ask for help from other team members with the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 
 ## Acknowledgement of Pings
 
@@ -145,7 +172,7 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 ## Time Off
 
-Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
+Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Workday" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
 It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
 

@@ -3,7 +3,6 @@ title: "GitLab Agile Portfolio Management - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Agile Portfolio Management course."
 ---
 
-
 ## GitLab Agile Portfolio Management Lab Guides
 
 | Lab Name | Lab Link |
@@ -23,8 +22,8 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 Here are some quick links that may be useful when reviewing this Hands On Guide.
 
-* [GitLab Agile Portfolio Management course description](https://about.gitlab.com/services/education/pm/)
-* [GitLab Agile Portfolio Management Specialist certification details](https://about.gitlab.com/services/education/gitlab-project-management-associate/)
+* [GitLab Agile Portfolio Management course description](https://university.gitlab.com/pages/agile-training/)
+* [GitLab Agile Portfolio Management Specialist certification details](https://university.gitlab.com/pages/certifications/)
 
 ## Suggestions?
 

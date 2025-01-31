@@ -40,14 +40,24 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 
 | Section: Stage Groups | Assigned UX Researchers |
 |---------|-------------------------------|
-| **Core Platform**: Distribution, Geo, Cloud Connector, Global Search, Tenant Scale <br>**SaaS Platforms**: GitLab Dedicated <br>**CD**: Environments  <br>**Analytics**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
-| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
-| **Analytics**: Product Intelligence, Product Analytics <br>**ModelOps**: AI Assisted, AI Framework| [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
-| **Manage**: Import, Foundations | [Karen Li](https://gitlab.com/karenyli) (interim cover)|
+| **Systems**: Distribution, Geo, Cloud Connector <br> **Data Stores**: Global Search, Tenant Scale, Database <br> **SaaS Platforms**: GitLab Dedicated, US Public Sector Services, Delivery <br> **Deploy**: Environments <br> **Monitor**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
+| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**AI-Powered**: AI Framework, Duo Chat, AI Model Validation | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
+| **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
-| **Secure**: Static Analysis, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication | [Michael Oliver](https://gitlab.com/moliver28) |
-| **Create**: Source Code, Editor, Code Review, Code Creation, Editor Extensions | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
-| **CI**: Pipeline Execution, Pipeline Authoring, Runner, Pipeline Security, Package | [Erika Feldman](https://gitlab.com/enf) |
+| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Software Supply Chain Security**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
+| **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Software Supply Chain Security**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
+
+| AI themes | UXR Point of Contact |
+| -------- | --------- |
+| AI usability | UX Researcher of your own stage(s) |
+| Code completion | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
+| AI onboarding | [Will Leidheiser](https://gitlab.com/wleidheiser) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
+| Duo Enterprise | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
+| AI context <br> AI settings | [Nicholas Hertz](https://gitlab.com/NickHertz) |
+| All other AI items or new AI themes | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Karen Li](https://gitlab.com/karenyli) |
 
 ## How UX Researchers work
 
@@ -61,6 +71,8 @@ Note that UX Researchers adopting the Collaborative UX Research working model ca
 
 UX Researchers collaborate with Product Managers to determine the scope of research studies. Where possible, UX Researchers should try to attend planning meetings for their designated groups.
 UX Researchers should proactively offer ways in which they can assist in the delivery of research. They should also suggest and discuss their own ideas for research studies with Product Managers.
+
+Read more on [how UX Research prioritize our works](/handbook/product/ux/ux-research/research-prioritization).
 
 ## How UX Researchers spend their time
 
@@ -147,13 +159,13 @@ When we drive our own research projects, it means we're also responsible for soc
 
 Below is an example of the formatting:
 
-![Slack snippet](posting.png)
+![Slack snippet](/images/product/ux/ux-research/how-uxr-team-operates/posting.png)
 
 ## How the UX Research team handles scheduling Paid Time Off (PTO)
 
 Since the UX Research team works so closely with their stage groups and participants, it's important to have a plan in place when we're on PTO to keep research projects moving along - even when we're taking time off. Such an approach allows us to support each other, as a team.  The following steps outline the process the UX Research team follows, regarding PTO:
 
-1. Enter the PTO dates in *Time Off by Deel* **and** within the [UXR team availability calendar](https://docs.google.com/spreadsheets/d/1lU8DeJmXNkUZm-zQVFrirthZyZz2lBIVQ8Z_RVVRj9g/edit#gid=0) (internal link). When documenting your time in Deel, assign auto-replies to the `#ux_research_lounge` Slack channel or to your manager.
+1. Enter the PTO dates in *Workday* **and** within the [UXR team availability calendar](https://docs.google.com/spreadsheets/d/1lU8DeJmXNkUZm-zQVFrirthZyZz2lBIVQ8Z_RVVRj9g/edit#gid=0) (internal link). Time off by Deel will ask you to ssign auto-replies to the `#ux_research_lounge` Slack channel or to your manager.
 2. Note any overlapping PTO dates with other team members. This is ok - as long as there isn't a business impact.
 3. Create a [coverage issue](https://gitlab.com/gitlab-org/ux-research/-/issues/new#) to address ongoing projects with timely business impact.
 4. Ensure your backups: 1) are not on PTO, and 2) agree to be a backup for you.

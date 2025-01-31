@@ -1,15 +1,13 @@
 ---
-
 title: Solutions Architect Sales Plays
-description: “Discover GitLab Solutions Architects’ Sales Plays practices”
+description: "Discover GitLab Solutions Architects' Sales Plays practices"
 ---
-
 
 ## Sales Plays for new account & teams(existing customer) lands
 
 The SA should either be included in a discovery call or provided with Outcome / Infrastructure / Challenges information uncovered by prior interactions with the account. Occasionally, SA's may support a combination call of discovery and technical demonstration/deep-dive on a single call, but this is suboptimal as the latter approach does not allow the SA time to prepare for and/or tailor the discussion.
 
-The SA is also responsible for any pre-sales technical customer inquiry or audit from associated accounts, including RFI, RFP or security audits. For details on the audit process, proceed to the [Security](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html) page.
+The SA is also responsible for any pre-sales technical customer inquiry or audit from associated accounts, including RFI, RFP or security audits. For details on the audit process, proceed to the [Security](/handbook/security/security-assurance/field-security/customer-security-assessment-process/) page.
 
 The SA is always responsible for drafting Professional Services SOW's, regardless of the account status (pre- and post-sales).
 
@@ -25,8 +23,6 @@ Who is this sales play for?
 - Secondary: CSMs who help in discovery with new teams in existing customers
 
 ## Who to meet
-
-{: .alert .alert-gitlab-orange}
 
 **Ideal Customer Profile** - Prospects or new teams in existing customers who are listed in this qualification [list](https://gitlab.my.salesforce.com/00O4M000004aULR) for enterprise customers
 
@@ -69,7 +65,7 @@ Consider the following questions:
     1. Customer presentations & GTM use cases link [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations)
     1. [Discovery questions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#discovery-questions) for GitLab Protect/Secure
     1. Potential [objections](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#objection-handling) from prospects/customers
-1. Review how to position gitlab's values & why does gitlab does it better [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#positioning-value)
+1. Review how to position GitLab's values & why does GitLab does it better [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#positioning-value)
 
 **Expected Outcome**
 
@@ -182,13 +178,11 @@ Will have specific resources under actions above. This is for additional resourc
 | Customer Persona | Services to Consider | Customer Desired Outcomes |
 | ----- | ----- | ----- |
 | CISO, CTO, VP Engineering, Director of DevOps Platform or Developer Experience, Head of Digital/DevOps Transformation | [Transformative services](https://www.loom.com/share/da035d54cda74c039524d940766d7621?sharedAppSource=personal_library), [slides](https://docs.google.com/presentation/d/1zH6l_qLtODL_gYD6YazKYl5BGY0FVDy08QAqS7ticuU/edit#slide=id.g11640e57389_0_21) | reducing functional silos, proactive risk management (e.g. shift left), standardizing CI/CD workflows, and innersourcing collaboration. |
-| Sr. Manager App Dev, Director of Engineering | [Standard service packages](https://about.gitlab.com/services/catalog/) or Custom Scoped Offerings| Customers who are interested in [training](https://about.gitlab.com/services/education/) on one ore more specific topic. Customers who need help in [implementing GitLab Self Managed](https://about.gitlab.com/services/implementation/) or need data to be [migrated to GitLab](https://about.gitlab.com/services/migration/)  |
+| Sr. Manager App Dev, Director of Engineering | [Standard service packages](https://about.gitlab.com/services/catalog/) or Custom Scoped Offerings| Customers who are interested in [training](https://about.gitlab.com/services/education/) on one ore more specific topic. Customers who need help in [implementing GitLab Self Managed](https://about.gitlab.com/services/catalog/) or need data to be [migrated to GitLab](https://about.gitlab.com/services/catalog/)  |
 
 Not sure? Get in contact with your region's [PS Engagement Manager](/handbook/company/team/?department=practice-management) in [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X) to discuss specific customer opportunities.
 
 ## Measuring progress
-
-{: .alert .alert-gitlab-orange}
 
 Please copy [this checklist](https://docs.google.com/spreadsheets/d/1YT-w0MXpD6-v2Z2PqNqU9tdKsNknzzLAKlb_ktuPNBo/edit?usp=sharing) per opportunity & update as needed.
 

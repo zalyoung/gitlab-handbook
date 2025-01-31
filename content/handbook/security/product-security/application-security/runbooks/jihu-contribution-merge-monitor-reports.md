@@ -1,5 +1,4 @@
 ---
-
 title: "JiHu Contribution Merge Monitor Reports"
 ---
 
@@ -7,7 +6,7 @@ The [Merge Monitor tool](https://gitlab.com/gitlab-com/gl-security/product-secur
 
 - Were merged
 - Were labeled as a JiHu Contribution
-- Were **not** labeled with the label that AppSec team members need to apply after [conducting security reviews of JiHu contributions]({{< ref "jihu-security-review-process" >}})
+- Were **not** labeled with the label that AppSec team members need to apply after [conducting security reviews of JiHu contributions](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/)
 
 Any findings will be included in reports that are created as [issues in the jihu_merge_request_monitor_reports repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/jihu_merge_request_monitor_reports/-/issues). The Federal AppSec team is pinged on each report that is created and the expectation is that they will review each finding.
 

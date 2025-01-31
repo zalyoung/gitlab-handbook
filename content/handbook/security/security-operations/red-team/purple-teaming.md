@@ -1,12 +1,11 @@
 ---
 title: "Purple Teaming at GitLab"
-aliases:
-  - /handbook/security/threat-management/red-team/purple-teaming/
 ---
 
-The terms "Red Team" and "Blue Team" are used to describe the roles of attackers and defenders during planned security exercises. At GitLab, where collaboration and transparency are two of our [core values]({{< ref "values" >}}), we like to join forces and conduct what is commonly referred to as "Purple Teaming".
+The terms "Red Team" and "Blue Team" are used to describe the roles of attackers and defenders during planned security exercises. At GitLab, where collaboration and transparency are two of our [core values](/handbook/values/), we like to join forces and conduct what is commonly referred to as "Purple Teaming".
 
 To us, a Purple Team operation is a planned exercise that involves team members from multiple security sub-departments in every aspect of the operation. This includes planning, attacking, detecting, and responding. We find that having more people involved from the very beginning ensures that we are all working towards a common goal.
+Purple Team initiatives are not limited to a single operation. They can be longer-term such as leveraging [Atomic Testing](atomic-testing.md) to improve detections on an ongoing basis.
 
 You can contribute, comment, view, or interact with us on Slack in the `#purple-team-ops` channel where we discuss ongoing purple-team operations.
 
@@ -22,17 +21,17 @@ At a high level, the goals of an operation generally fall into one of the follow
 - To practice and refine our procedures for responding to a breach (*Do our runbooks make sense? Can anything be automated?*)
 - To understand our ability to detect and respond to a specific type of threat (*What would happen if we were targeted by a ransomware operator?*)
 
-## Purple Team Workflow
+## Purple Team Operation Workflow
 
 ### Overview
 
 The diagram below shows our basic workflow for planning, executing, and completing an operation. Everyone is welcome to participate actively in all stages, but some stages are owned specifically by one group or another.
 
-Operations will be tracked using [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/). Each of the unique stages has a corresponding [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html) that provides further detail on exactly what needs to be done. These templates are [shared publicly here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates).
+Operations will be tracked using [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/). Each of the unique stages has a corresponding [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html) that provides further detail on exactly what needs to be done. These templates are [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates).
 
 As much as possible, our Purple Team operations should be performed [asynchronously](/handbook/company/culture/all-remote/asynchronous/). However, a few stages work best when done with live participants over a video conference with screen sharing. To include team members in all time zones, these stages can be conducted more than once. This is particularly beneficial when conducting the actual attacks and practicing detection. We will automate this work whenever possible, which makes repeating them easy.
 
-![Purple Teaming Process](../purple-team-process.png)
+![Purple Teaming Process](/images/security/security-operations/red-team/purple-team-process.png)
 
 ### Attack Planning
 

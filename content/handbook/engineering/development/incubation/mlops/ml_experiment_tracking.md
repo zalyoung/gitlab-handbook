@@ -1,8 +1,8 @@
 ---
-aliases: /handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html
-
 title: Machine Learning Experiment Tracking
 ---
+
+NOTE: The MLOps Incubation Engineering project has become the MLOps team. These pages are left fir historical purposes, but are not actively maintained. Please refer to the [MLOps team page](/handbook/engineering/development/data-science/modelops/mlops) for updated information.
 
 This is a project led by the Incubation Engineer - MLOps
 
@@ -75,12 +75,12 @@ A Machine Learning Model is the result of three components: the code to extract 
 extract from and the configuration used for both. Any change on either of these components can lead to changes in the model
 performance.
 
-![ML Components](img/ml_components.png)
+![ML Components](/images/engineering/development/incubation/mlops/ml_components.png)
 
 Each **Model Candidate** represents a combination of the three components, and the associated artifact and results. A group
 of comparable candidates is called an experiment.
 
-![Experiment](img/experiment.png)
+![Experiment](/images/engineering/development/incubation/mlops/experiment.png)
 
 Experiment Tracking gives Data Scientists a central place to organize, discover and compare candidates, experiments
 and artifacts, making it easier to keep track of the evolution across time.
@@ -108,7 +108,7 @@ and the code might not even be present in the repository yet. Meanwhile, a model
 This way, Experiment Tracking is associated to the Create stage of MLOps, when the Data Scientist is still prototyping,
 while the Model Registry belongs to the Packaging stage.
 
-![Experiment Tracking vs Model Registry](img/exptracking_vs_model_registry.png)
+![Experiment Tracking vs Model Registry](/images/engineering/development/incubation/mlops/exptracking_vs_model_registry.png)
 
 ### What is the difference between Experiment Tracking and Experimentation/AB Testing?
 

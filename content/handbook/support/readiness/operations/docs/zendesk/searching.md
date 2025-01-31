@@ -95,7 +95,6 @@ The common organization field API names are:
 | `arr`                       | The ARR of the org                               | US Government    |
 | `assigned_se`               | The user ID of the ASE for the org               | Global           |
 | `technical_account_manager` | The CSM for the org                              | Both             |
-| `dedicated_sgg`             | The Dedicated SGG for the org                    | Global           |
 | `support_level`             | The highest support level of the org             | Both             |
 | `health_score`              | The Gainsight health score for the org           | Both             |
 | `seats_decimal`             | The highest number of licenses seats for the org | Global           |
@@ -227,4 +226,4 @@ searches (depending on which Zendesk instance you are looking in):
 
 ## Useful links
 
-- [Zendesk search reference](https://support.zendesk.com/hc/en-us/articles/203663226-Zendesk-Support-search-reference)
+- [Zendesk search reference](https://support.zendesk.com/hc/en-us/articles/4408886879258-Zendesk-Support-search-reference)

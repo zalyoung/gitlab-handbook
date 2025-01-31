@@ -1,14 +1,7 @@
 ---
-
 title: "PathFactory"
 description: "PathFactory is an intelligent B2B content experience platform used to create personalized content journeys for your audience."
 ---
-
-
-
-
-
-
 
 ## What is PathFactory?
 
@@ -53,7 +46,7 @@ PathFactory is not a single source of truth (SSoT) for all GitLab content, but r
 
 ## Access
 
-The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
+The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
 
 ### User Roles
 
@@ -66,7 +59,7 @@ There are four levels of access - `Admin`, `Author`, `Reporter`, `Viewer`, and `
 - `Reporter` access allows users to view all analytics pages within our instance of PathFactory.
 - `Sales User` is anyone who has a valid email domain associated with our PathFactory instance, but who does not have a login. These users are not able to login to PathFactory, but they will be able to share any content tracks that `Admins` select on the `Sales Configuration` page.
 
-For more info on the capabilities of each role, [see the knowledge base article](https://nook.pathfactory.com/nook/s/article/user-roles).
+For more info on the capabilities of each role, [see the knowledge base article](https://support.pathfactory.com/kb/overview-of-user-roles-in-pathfactory/).
 
 ### Rules of Engagement by Team
 
@@ -89,13 +82,12 @@ For more info on the capabilities of each role, [see the knowledge base article]
 
 1. [Knowledge base, _The Nook_](https://lookbookhq.force.com/nook/s/kb) (requires user in PathFactory and the email you use for PathFactory will be the same to access The Nook, however, the password is not.)
 1. [Success Series Webinars](https://customer.pathfactory.com/l/success-series-recordings)
-1. [PathFactory Ideas Portal](https://ideas.pathfactory.com/portal_session/new)
-1. [Release Notes](https://nook.pathfactory.com/nook/s/module?m=release-notes) (requires access to _The Nook_)
+1. [Release Notes](https://support.pathfactory.com/?s=release+notes&ht-kb-search=1&lang=)
 
 ## Training
 
 1. [The Path to Understanding: Onboarding Training](https://customer.pathfactory.com/customer-onboarding)
-1. [Getting started video series](http://successwith.pathfactory.com/c/lookbookhq-tutorial-?x=Blrk3E) (must be provisioned to PathFactory and use your GitLab email address to view)
+1. [Getting started video series](https://support.pathfactory.com/kb/video-tutorials-for-getting-started-with-pathfactory-templated-experiences/)
 1. [Digital marketing brown bag session overview](https://drive.google.com/open?id=1Hzb6ard48k-11r5a8oBDD_NLjeZnkMK2) - [Slides](https://drive.google.com/open?id=1XxOIE2O-VW0I9z09kpLs5ops52oF6iDSP1a1MF8NkGY)
 1. [Author role training (Do not share externally - PII data presented)](https://drive.google.com/file/d/1YdK96hzDj043iESfDXV7ejz5sgbIXKCv/view?usp=sharing)
 1. [Reporter role training (Do not share externally - PII data presented)](https://drive.google.com/file/d/1U_QAkZoELITmJt7Jr_AMXZiQZBpAhaIj/view?usp=sharing)
@@ -169,7 +161,7 @@ There are multiple types of PathFactory experiences that you can create under `C
    - Target Tracks - Target Tracks are collections of content that you have selected and organized in order to give your visitors a specific content journey.
    - Recommend Tracks - Recommend Tracks are collections of content specifically selected by you, and which rely on machine-learning to suggest the ideal content to show your prospects based on what they are already viewing.
 1. Explore Pages - Explore Pages allow your visitors to quickly view all content assets in a content track. Each `Explore Page` you create is built on top of an existing `Target` or `Recommend` Content Track.
-1. Website Promoters - Website promoters allow you to harness the power of PathFactory’s content promoters directly on your website. They provide more opportunities for interested parties to find and enter your Content Tracks by connecting eye-catching CTAs to content tracks.
+1. Website Promoters - Website promoters allow you to harness the power of PathFactory's content promoters directly on your website. They provide more opportunities for interested parties to find and enter your Content Tracks by connecting eye-catching CTAs to content tracks.
 
 ## Naming Conventions
 
@@ -277,7 +269,7 @@ Before creating a new content track, decide what type of content track (target v
 
 #### Promoters
 
-[Promoters](https://nook.pathfactory.com/nook/s/article/getting-started-promoters) are the tools that allow visitors to navigate the Content Tracks and encourage them to view additional recommended content. Think of promoters as the guides through a content track; the promoters you use determine how and when content will be presented to visitors. Note the different functionality of each below. Before going live, you can test each promoter to find the one that works best for the goals of your PathFactory experience.
+[Promoters](https://support.pathfactory.com/kb/introduction-to-promoters/) are the tools that allow visitors to navigate the Content Tracks and encourage them to view additional recommended content. Think of promoters as the guides through a content track; the promoters you use determine how and when content will be presented to visitors. Note the different functionality of each below. Before going live, you can test each promoter to find the one that works best for the goals of your PathFactory experience.
 
 - You can only use the `Header` feature with the `Sign Posts` and `Bottom Bar` promoters.
 - The `Header` is used to add additional branding to your content track.
@@ -304,7 +296,7 @@ Before creating a new content track, decide what type of content track (target v
 
 #### CTAs
 
-[Call-to-action (CTA)](https://nook.pathfactory.com/nook/s/article/using-cta) buttons encourage further engagement from your visitors within your Content Tracks. CTAs can be added to any Target or Recommend Content Track. These CTA buttons can link to either a form or a URL.
+[Call-to-action (CTA)](https://support.pathfactory.com/kb/use-cta-buttons/) buttons encourage further engagement from your visitors within your Content Tracks. CTAs can be added to any Target or Recommend Content Track. These CTA buttons can link to either a form or a URL.
 
 **Create a CTA**
 
@@ -324,8 +316,7 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 
 **Please Note:**  PathFactory activity is tied into the [MQL scoring model](/handbook/marketing/marketing-operations/marketo/#scoring-model). This means that you do not need to add form strategy to a content track if entry point is from a landing page.
 
-- [Form strategy best practices](https://nook.pathfactory.com/nook/s/article/form-strategy-best-practices)
-- [Form strategy FAQ](https://nook.pathfactory.com/nook/s/article/forms-strategy-faq)
+- [Form strategy best practices](https://support.pathfactory.com/kb/form-strategy-best-practices/)
 
 **GDPR Considerations:** When using time-based form strategy, aim for at least 15-30 seconds in order for the user to have plenty of time to accept the cookie consent pop-up prior to filling out the form.
 
@@ -374,9 +365,7 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 - You can add assets and adjust the position of assets to a `[LIVE]` content track.
 - Removing an asset or changing the custom URL slug of an asset in a `[LIVE]` track can disrupt the user experience for the visitor and activate the `#all` track or fallback URL (`about.gitlab.com`) instead of the intended content track. Please ensure that the link to the asset is not being used in any other marketing channels before deleting.
 
-### Prescriptive Buyer Journey Content Tracks
-
-{: #pbj-content-tracks}
+### Prescriptive Buyer Journey Content Tracks {#pbj-content-tracks}
 
 **DRI for track creation: Campaign Managers**
 
@@ -406,9 +395,9 @@ To request a new form to use in PathFactory, the form must first exist in Market
 
 ### Capture Tags
 
-A `Capture Tag` is a snippet of code added to a Marketo form code itself. The `Capture Tag` sees the visitor’s email address on submitted form, and sends it to PathFactory. This allows PathFactory to associate the email address of a visitor to their engagement data; the visitor will then be a known visitor rather than anonymous.
+A `Capture Tag` is a snippet of code added to a Marketo form code itself. The `Capture Tag` sees the visitor's email address on submitted form, and sends it to PathFactory. This allows PathFactory to associate the email address of a visitor to their engagement data; the visitor will then be a known visitor rather than anonymous.
 
-We use external forms (added by External URL or Custom HTML generated from Marketo) in PathFactory. The information submitted in the form is sent directly to Marketo. In order for PathFactory to associate the submitted email address with the visitor’s engagement data, you must use a `Capture Tag`. This is what allows PathFactory to identify the individual as a known visitor.
+We use external forms (added by External URL or Custom HTML generated from Marketo) in PathFactory. The information submitted in the form is sent directly to Marketo. In order for PathFactory to associate the submitted email address with the visitor's engagement data, you must use a `Capture Tag`. This is what allows PathFactory to identify the individual as a known visitor.
 
 ## PathFactory Links
 
@@ -419,7 +408,7 @@ We use external forms (added by External URL or Custom HTML generated from Marke
 
 ### Target Track Links
 
-1. Use the `Get Share URL` feature next to the title of the track. `Share links` are to be used in locations such as the website whereas `Email tracking links` are only for use in email. **Note:** If it’s in email, it’s a known audience so don’t gate any assets in the track. Only use `share links` on the web and those tracks _can have_ gated assets within PathFactory.
+1. Use the `Get Share URL` feature next to the title of the track. `Share links` are to be used in locations such as the website whereas `Email tracking links` are only for use in email. **Note:** If it's in email, it's a known audience so don't gate any assets in the track. Only use `share links` on the web and those tracks _can have_ gated assets within PathFactory.
 1. If you want a particular asset to show first, that asset should be located in the first position of the target track.
 
 ### Recommend Track Links
@@ -465,7 +454,7 @@ We use external forms (added by External URL or Custom HTML generated from Marke
 
 ## Custom Query Strings
 
-PathFactory’s custom query string manager allows you to manage and append query strings when sharing a link to a content track or explore page.
+PathFactory's custom query string manager allows you to manage and append query strings when sharing a link to a content track or explore page.
 
 1. Select `Organization Settings` in the dropdown menu in the top right corner.
 1. Select the `Custom Query Strings` tab.
@@ -475,7 +464,7 @@ PathFactory’s custom query string manager allows you to manage and append quer
 
 ## Microsites
 
-PathFactory’s [Microsite Builder](https://nook.pathfactory.com/s/article/microsite-builder) enables marketers to display multiple types of Content Tracks within a custom-designed landing page or multi-page microsite with navigation. Microsites should be used when you want to educate users about a specific topic or topics. Microsites are NOT a catchall nor a replacement for other types of landing pages. If you are unsure whether a Microsite is right for your campaign, please free to reach out in the #mktgops slack channel.
+PathFactory's [Microsite Builder](https://support.pathfactory.com/kb/how-to-create-and-customize-a-microsite/) enables marketers to display multiple types of Content Tracks within a custom-designed landing page or multi-page microsite with navigation. Microsites should be used when you want to educate users about a specific topic or topics. Microsites are NOT a catchall nor a replacement for other types of landing pages. If you are unsure whether a Microsite is right for your campaign, please free to reach out in the #mktgops slack channel.
 
 ### Use Cases
 
@@ -505,7 +494,7 @@ Microsite templates:
 
 ## Explore Pages
 
-[Explore pages](https://nook.pathfactory.com/nook/s/article/getting-started-explore) allow your visitors to quickly view all content assets in a content track. Each explore page you create is built on top of an existing target or recommend content track.
+[Explore pages](https://support.pathfactory.com/kb/introduction-to-explore/) allow your visitors to quickly view all content assets in a content track. Each explore page you create is built on top of an existing target or recommend content track.
 
 ### Use Cases
 
@@ -530,15 +519,15 @@ Microsite templates:
 
 ### Explore Page FAQs
 
-**Why can’t I change the background color behind my cover image?**
+**Why can't I change the background color behind my cover image?**
 
 The cover background color only shows when the cover image is set to "Fixed Width." Because of this, the color selection square is only available when "Fixed Width" has been selected.
 
-**I don’t want this header on my Explore page, how do I get rid of it?**
+**I don't want this header on my Explore page, how do I get rid of it?**
 
-The header is applied to an Explore experience from the base content track you chose for the explore page. If you don’t want the header on your explore page, go to the base content track and turn the header off.
+The header is applied to an Explore experience from the base content track you chose for the explore page. If you don't want the header on your explore page, go to the base content track and turn the header off.
 
-**I don’t like the order that my content is arranged on the Explore page; how do I move my content around?**
+**I don't like the order that my content is arranged on the Explore page; how do I move my content around?**
 
 All changes to the content in an explore page has to be done in the base content track that the explore page is built from. This includes the order of your content, so if you want to reorder your content you have to do so in the base content track.
 
@@ -548,7 +537,7 @@ Yes! You can add a custom hero image by navigating to `Appearances Configuration
 
 ## Appearances
 
-[Appearances](https://nook.pathfactory.com/nook/s/article/getting-started-appearances) allow you to control the look and feel of your content tracks. By creating different appearance groups you are able to quickly and easily apply different colors, fonts, and logos to content tracks without having to configure them each time you build a new track. Appearance settings allow you to control how your promoters look, select favicons for your tracks, and configure the appearance of your cookie consent messaging.
+[Appearances](https://support.pathfactory.com/kb/introduction-to-appearances/) allow you to control the look and feel of your content tracks. By creating different appearance groups you are able to quickly and easily apply different colors, fonts, and logos to content tracks without having to configure them each time you build a new track. Appearance settings allow you to control how your promoters look, select favicons for your tracks, and configure the appearance of your cookie consent messaging.
 
 You are able to change the appearance of the following components of a content track:
 
@@ -557,7 +546,7 @@ You are able to change the appearance of the following components of a content t
 1. Favicon
 1. Header
 
-[Video walkthrough of appearances](http://successwith.lookbookhq.com/c/ilos-appearance-conf?x=Blrk3E) (Nook login required)
+[Walkthrough of appearances](https://support.pathfactory.com/kb/introduction-to-appearances/)
 
 **Create a new appearance group**
 
@@ -567,18 +556,18 @@ You are able to change the appearance of the following components of a content t
 1. Select the color of the text and the primary color by clicking on the colored boxes.
 1. Change the font of the text by selecting from the drop-down menu. Click the `B` button to bold the text. Click on the `A` buttons to change the text size.
 1. When you are done making changes click `Add Appearance`.
-1. Once you’ve created your `Appearance` groups, you can apply this styling to any of your content tracks. Simply select the appearance group from the drop-down menu under `Experience Settings`.
+1. Once you've created your `Appearance` groups, you can apply this styling to any of your content tracks. Simply select the appearance group from the drop-down menu under `Experience Settings`.
 
 ## PathFactory Localization
 
-The [Languages feature](https://nook.pathfactory.com/nook/s/article/getting-started-languages) gives you complete control over the text displayed to visitors on your promoters within content tracks and on website promoters. This feature also allows you to create language groups for languages other than English, and to customize the text that will be displayed for those languages.
+The [Languages feature](https://support.pathfactory.com/kb/introduction-to-languages/) gives you complete control over the text displayed to visitors on your promoters within content tracks and on website promoters. This feature also allows you to create language groups for languages other than English, and to customize the text that will be displayed for those languages.
 
 There is no native integration between [Smartling](/handbook/marketing/localization/smartling) and PathFactory. To create a new language configuration in PathFactory and submit the default English source text available in PathFactory's language configuration menu, you must create a CSV. You can only include/exclude columns for translation in CSV. [See the help center article](https://help.smartling.com/hc/en-us/articles/360008000593-CSV-Files) for more info on formatting CSV files to submit for translation.
 
 1. We currently have English, French, German, Korean, and Japanese configurations for `Languages`.
-1. [Languages PathFactory currently supports](https://nook.pathfactory.com/s/article/using-languages)
-1. [Asset types (content types) support localization](https://nook.pathfactory.com/nook/s/article/2020-release-f)
-1. Explore Pages now have a dedicated tab within Language Settings where you can set localized text for the Featured Label, Search Button Title, Search Input Field Placeholder, Filter By Content Type Title, and Filter By Topic Title. [See more info](https://nook.pathfactory.com/nook/s/article/2020-release-e).
+1. [Languages PathFactory currently supports](https://support.pathfactory.com/kb/using-languages/)
+1. [Asset types (content types) support localization](https://support.pathfactory.com/kb/2020-release-notes-release-f/)
+1. Explore Pages now have a dedicated tab within Language Settings where you can set localized text for the Featured Label, Search Button Title, Search Input Field Placeholder, Filter By Content Type Title, and Filter By Topic Title. [See more info](https://support.pathfactory.com/kb/2020-release-notes-release-e/).
 1. You can see a list of the number of assets by language in the content library using the content tag filters.
 
 ### Create a New Language Config
@@ -669,11 +658,11 @@ An iframe, or inline frame, is a tag `<iframe> </iframe>` that is used to embed 
 
 PathFactory uses iframes to serve content inside content tracks. Some web pages have restrictions that prevent their content from displaying in an iframe.
 
-- [About iFrame Blocking](https://nook.pathfactory.com/nook/s/article/about-iframe-blocking)
+- [About iFrame Blocking](https://support.pathfactory.com/kb/about-iframe-blocking/)
 
 ## Google Chrome Extension
 
-The [Google Chrome Extension for PathFactory](https://nook.pathfactory.com/nook/s/article/integrate-with-chrome) lets PathFactory users share content tracks and explore pages via Gmail. This functionality lets you embed content thumbnails and titles when sending emails using Gmail. [See FAQ in The Nook](https://nook.pathfactory.com/nook/s/article/chrome-faq).
+The [Google Chrome Extension for PathFactory](https://support.pathfactory.com/kb/chrome-extension-faq/) lets PathFactory users share content tracks and explore pages via Gmail. This functionality lets you embed content thumbnails and titles when sending emails using Gmail. [See FAQ in The Nook](https://support.pathfactory.com/kb/chrome-extension-faq/).
 
 ### How to install
 
@@ -702,7 +691,7 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 
 ## Access Protection
 
-[Access protection](https://nook.pathfactory.com/nook/s/article/access-protection) protects content and events so only a select group of people can access it, based on them having a valid email address or email domain based on an _allowed list_. This allows you to share more confidential information with prospects, customers and employees in a content track or a VEX Event without the worry of someone viewing it who shouldn’t be.
+[Access protection](https://support.pathfactory.com/kb/access-protection-set-up-and-configuration/) protects content and events so only a select group of people can access it, based on them having a valid email address or email domain based on an _allowed list_. This allows you to share more confidential information with prospects, customers and employees in a content track or a VEX Event without the worry of someone viewing it who shouldn't be.
 
 ### Set Up Access Protection
 
@@ -720,7 +709,7 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 1. Configure all the messages a user might receive when access protection is applied to a track:
    - **Title:** The title a visitor will see when they try to access a protected track
    - **Email Success Message:** The message a visitor will see when they have entered an email address that is in the list of email address/domains entered in the group
-   - **Email Failed Message:** The message a visitor will see when they enter an email address that doesn’t exist in the group list
+   - **Email Failed Message:** The message a visitor will see when they enter an email address that doesn't exist in the group list
    - **Email Confirmed Message:** The message a visitor will see when they have already gained access to the track and need to go to their email to click the link to access
    - **Email Instruction Message:** The message a visitor will see when they try to access a protected track
    - **Email Body Content:** The message a visitor will get in the email they receive for successfully gaining access to the track

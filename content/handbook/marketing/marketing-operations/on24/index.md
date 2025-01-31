@@ -41,7 +41,7 @@ The chart below outlines the user permissions for each role (Producer, Presenter
 | Advance slides | x | x |  |
 | Push poll questions to the audience | x | x |  |
 | Whiteboarding tools | x | x |  |
-| Screenshare | x | x |  |
+| Screen share | x | x |  |
 | Q&A | x | x | x |
 | Team chat | x | x | x |
 
@@ -153,7 +153,7 @@ Note: Live webinars, the start time, duration, and present type, cannot be chang
 
 8. `Registration confirmation`, `24 Hour Reminder` and `1 Hour Reminder` emails are handled through On24 rather than Marketo, for setup simplicity. Make sure `Registration Confirmation Email`, `Reminder email` and `Reminder 2 email` are all toggled on. You can also click `Preview/Edit` to view the email and check for any formatting you'd like to change or to review active tokens. If you make changes, remember to `Save` and send yourself a `preview` email to make sure nothing is broken.
 
-   ![Email toggles](/handbook/marketing/marketing-operations/on24/on24-emails.png)
+   ![Email toggles](/images/marketing/marketing-operations/on24/on24-emails.png)
 
     - A note about email reminders: Registrants may receive the reminder emails at varying times depending on their email administrators queuing on their end (prioritizing resources, etc.) and how many emails are being processed by ON24 at any given time.  As a best practice, we recommend keeping the subject lines generic to accommodate for these delays.  Instead of saying, "The webinar begins in 15 minutes," consider changing it to "The webinar will begin at the top of the hour." Read On24's full email reminder documentation [here](https://support.on24.com/hc/en-us/articles/21420760535963-Webcast-Elite-Email-Notifications-and-Reminders)
 
@@ -187,7 +187,7 @@ Click the globe icon in your webcast library or on the chain icon anywhere in an
 The Console Builder is at the heart of creating a custom webcast experience for your audience. The webcast console is what your audience will see when they attend your webcast. We currently have 2 console templates:
 
 1. `Standard event template`, which includes a media player, slides, Q&A, resources, and speaker bio modules
-1. `XL Media Player`, which is a media player with no slides. This template should be used if your presenter prefers to screenshare their slides, as opposed to uploading their deck into a separate module. This console also includes Q&A, resources, and speaker bio modules
+1. `XL Media Player`, which is a media player with no slides. This template should be used if your presenter prefers to screen share their slides, as opposed to uploading their deck into a separate module. This console also includes Q&A, resources, and speaker bio modules
 Note we are sticking to using specific templates for the time being while we build out integrations and test platform capabilities vs team use case.
 
 Follow these steps to apply a console template:
@@ -196,11 +196,11 @@ Follow these steps to apply a console template:
 2. Open the Template Library, housed in the Select a Template drop-down
 3. Double click on the name of the desired template
 
-   ![Select a template screenshot](/handbook/marketing/marketing-operations/on24/template-screenshot.jpeg)
+   ![Select a template screenshot](/images/marketing/marketing-operations/on24/template-screenshot.jpeg)
 
 4. When applying a console template, all setting and tools from the saved template will override the existing console. A confirmation dialogue will pop-up to prevent you from accidentally wiping out your current console.
 
-![confirmation dialogue screenshot](/handbook/marketing/marketing-operations/on24/confirmation-screenshot.jpeg)
+![confirmation dialogue screenshot](/images/marketing/marketing-operations/on24/confirmation-screenshot.jpeg)
 
 ### Connecting On24 Web Events to Marketo Programs
 
@@ -246,20 +246,22 @@ After completing the creation of an On24 web event, the next step is to connect 
     1. 04 On24 Processing - No Show
         - This smart list filter uses `Has On24 Attendee` instead of `On24 Attendee is Updated` like the others
 1. Next activate the following smart trigger campaigns:
-    1. 01 Registration Flow
-    1. 00 Interesting Moments
-    1. 01a Registration flow (single timeslot) or 01b Registration Flow (Multi-timeslot)
+    1. 01a Registration Flow - Form fill
+       - 01b Registration Flow (Multi-timeslot) - only use if a multiple time slotted event
     1. 04 On24 Processing - Attended
     1. 04 On24 Processing - Follow Up Requested
-    1. 04 On24 Processing - On Demand - On24
-        - Only activate this smart campaign if it is appropriate for the webinar, such as in the event the webinar will be left available for on-demand viewing.
+    1. 04 On24 Processing - On Demand - On24 `OR` Pathfactory
+        - Only activate this smart campaign if it is appropriate for the webinar, such as in the event the webinar will be left available for on-demand viewing via On24 or via Pathfactory. Select the one most appropriate or select both
     1. 04 On24 Processing - No Show.
         - No Show will not be activated as a trigger, but as a batch campaign scheduled to run 6 hours after the event is scheduled to start. If event will go longer than 6 hours, make appropriate adjustments.
+    1. Note that `Interesting Moments` after September 2024 are handled by programs' processing campaigns calling to a global executable campaign
 1. Unlike other tools, the On24 room and Marketo program do not need to be connected via the `Event Partner` field on the Marketo program. All data transfer is done via the `Event ID` and smart campaigns.
-1. Before continuing on, check if it seems appropriate to [set any of the local assets to expire](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date). Appropriate items to set an expiration would be, for example, smart campaigns like the `04 On24 Processing - Attended` campaign, which is no longer needed after the event ends.
+1. Before continuing on, [activate asset expiration](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) where appropriate. Appropriate items to set an expiration would be, for example, smart campaigns like the `04 On24 Processing - Attended` campaign, which is no longer needed after the event ends. Set expirations on all landing pages depending on when they are no longer needed.
 1. Update the program tokens as needed within the program. All email assets and landing pages are token dependent. Important tokens to review:
     - `my.webcastDate`, `my.webcastTitle` and `my.event location` are standard to update.
     - `my.eventid` and `my.key` need to be filled out to have seamless registration work correctly between Marketo and On24. The `key` is a several character long alphanumeric snippet and can be found at the end of the Audience URL as seen [here](https://on24support.force.com/Support/servlet/rtaImage?eid=ka04U000000x7I2&feoid=00N4U000008YrFJ&refid=0EM4U0000029XDA).
+      - Please note that On24 made a change in the last half of 2024 on how to access the `audience URL` and therefore event `keys`. Use the !["Links" button](/images/handbook/marketing/marketing-operations/on24-links-button.png) found to the right of the event title to open up the ![event links window](/images/handbook/marketing/marketing-operations/on24-copy-url-button.png). From there two options exist to get the key: 1) Click the "copy to clipboard" button to the right of `Event/Audience Link`. You can then paste the URL wherever it's most convenient to gain access to the `key` found in the last portion of the `audience URL`. 2) Or click on the link to follow the URL to the event landing page, where the key can also be grabbed from the URL and copied. To answer the two basic questions: Yes, this change is not intuitive. And no, there is not currently a better method. Sublime.
+    - `my.language` is set to `english` as a default, but if the presentation is localized be sure to change to the spoken language
     - `my.bullet1` - `my.bullet4` appear on the `registration landing page` so be sure to update either the tokens or the templates to accommodate. The series of tokens for `my.InviteEmailBody1`, `my.InviteEmailBody2`, `my.InviteEmailBody3` and `my.bullet1-4` also appear on the `invitation` email templates, with the `InviteEmailBody#` corresponding to which email in the series that text will appear on.
     - If speakers are to be shown on the landing page, be sure to update the series of `speakers` tokens. If there is no need to display the speakers, deactivate the `speaker lists` on the `registration landing page` template.
     - `my.introParagraph` and in some places `my.2ndparagraph` are utilized to fill in landing pages.
@@ -309,7 +311,11 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
     - For every poll or survey answer uploaded, be sure to include the question asked.
 1. To start, these will be treated the same as manual list uploads to be completed by MktgOps. Please follow the regular process of sharing the spreadsheet with MktgOps to have them upload via a list upload issue. Soon this will be moved to more of a drag-and-drop process, similar to the [self-service list import process](/handbook/marketing/marketing-operations/automated-list-import/). This page will be updated when that is ready.
 
-#### Field Matching Instructions for Marketing Ops
+#### Q&A Syncing into Salesforce
+
+After an [update from Q2 2024](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8776#note_1944794265), Workato now automatically pulls Q&A data from On24 into Marketo, giving easier access for those interested in viewing conversations between GitLab staff and attendees from On24 events.
+
+#### Field Matching Instructions for Marketing Ops (Outdated Upload Instructions)
 
 The smart campaign being used to compile the notes is found here: [Compile On24 fields into Last Event Notes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33343C3ZN19). This flow can only be triggered once per hour. The field matching for the upload spreadsheet is as follows:
 
@@ -326,8 +332,28 @@ The smart campaign being used to compile the notes is found here: [Compile On24 
 
 ### Reporting
 
-The On24 Engagement Score is an aggregate of all of the activities that an attendee could do while viewing on of your events.  It will give you an idea of how often the engagement tools you’ve added to the console of the event are being used.  Each individual attendee will have their own engagement score, and there is an average engagement score for your entire webcast program that is available on the Analytics Dashboard in the platform. Read more about Engagement Scores [here](https://support.on24.com/Support/s/article/Engagement-Score)
+The On24 Engagement Score is an aggregate of all of the activities that an attendee could do while viewing on of your events.  It will give you an idea of how often the engagement tools you've added to the console of the event are being used.  Each individual attendee will have their own engagement score, and there is an average engagement score for your entire webcast program that is available on the Analytics Dashboard in the platform. Read more about Engagement Scores [here](https://support.on24.com/hc/en-us/articles/21420782187163-Engagement-Score)
 
 ### ON24 FAQ
 
 The campaigns team has started a FAQ document [here](https://docs.google.com/document/d/1UI5EzypN1j6_Gx5xcM8mR2gKFcM9QFxs-OZwkpK0QDU/edit#). *Once it is completed, the text will be added to this page.
+
+### Fields That Sync Between On24 and Marketo
+
+Fields we have set up to directly sync between On24 and Marketo are as follows:
+
+- First Name
+- Last Name
+- Company
+- Job Title
+- Address
+- City
+- State
+- Postal Code
+- Country
+- Work Phone
+- more tbd
+
+### Data Removal Requests
+
+If a user requests we remove their data from On24, email `dsr@on24.com` with the request and On24 will manage the removal.

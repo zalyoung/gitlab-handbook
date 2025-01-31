@@ -1,104 +1,80 @@
 ---
-title: "Ashley Kramer README (Chief Marketing and Strategy Officer)"
-description: "Learn more about working with Ashley Kramer"
+title: "Ashley Kramer's README"
+description: "Learn more about working with Ashley Kramer, Interim Chief Revenue Officer and Chief Marketing & Strategy Officer"
 ---
 
+## Why I'm at GitLab
 
+While I am a sales and marketing leader today, I started my career as a software developer. It was hard for many reasons. From learning and managing lots of tools - to balancing solving complex problems with mitigating tech debt - all while making sure your code is secure. I later moved on to run product and engineering teams and solved major problems in our software quality and security by becoming a GitLab customer.  I feel fortunate every day to spend my time solving the major challenges in delivering software innovation for DevSecOps professionals. I have great empathy for the hurdles they face, as I’ve been in their seat before.
 
+I love connecting with our customers, partners and community to hear how they are transforming their software innovation - from how people work, to the processes they follow, and of course, the technology they use - all with GitLab! I believe GitLab can help every company in the world deliver secure software faster, and I couldn’t be more excited to partner with them on their journey.
 
+In my time at GitLab, I’ve had the privilege of leading the marketing and strategy organizations as CMSO. Additionally, I ran the R&D organization in 2022 as Acting CTO and am currently responsible for leading the field organization as Interim CRO. I’ve always said that in software, you are either building, supporting, or selling to customers, and I feel honored to have the opportunity to experience all three in my time at GitLab. Because of this and my past roles leading product and engineering teams and being a GitLab customer, I am able to have real, strategic conversations with customers, dive deep into the technical details when needed, and ultimately, lead the effort to deliver a best in class GTM machine.
 
+My passion is spending time with customers, understanding their challenges, and helping them find solutions that uniquely work for their organization. In a world where customers are looking to consolidate their DevSecOps toolchain while also finding more efficiencies and cost savings, GitLab is the perfect solution to help them deliver secure software faster.
 
+This README is meant to help anyone who needs to work with me by providing a brief overview of what is important to me. You can also learn more about me from my [interview on Kleiner Perkins' Grit podcast](https://www.youtube.com/watch?v=shB-RiW0KtU).
 
-## Ashley Kramer's README
+## My Personal Values
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+1. **Trust** - Trust has always been critical to the relationships I build and is a “must-have” for my relationships to thrive. You will hear me tell anyone who asks what my leadership style is - trust but verify - which is an excellent way to avoid micromanaging.
+1. **Achievement** - I am very driven by the desire to reach goals, excel and win. However, I do not thrive on competing against others individually…winning to me is a team sport. I want to achieve together as a team - that’s when I feel the absolute best. This is deeply rooted in my upbringing of playing soccer - through college. It’s a team sport, and you win together.  I translate all of that to how I lead teams professionally.  If someone is struggling, the team should be there to lift them up, step up when needed, and get through the challenges together.
+1. **Connection** - I thrive on getting to know people better and building relationships. It will not be unusual for a coffee chat to turn into 10 minutes of talking about your dog if she walks into the room. Or for me to be the last to leave a team get-together - which drives my husband crazy at President's Club every year! Getting to know someone better and what interests and drives them makes me a better leader and peer. Everyone is different, and understanding that side of a person can help me understand how they need me to manage them to be more successful in their role.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+## My Super Powers - how you can get the best from me
 
-Please feel free to contribute to this page by opening a merge request.
+1. **Dedication** - To feel fulfilled, I am constantly setting clear goals and working hard to execute against those goals while also focusing on personal growth. If I commit to something, I will stay dedicated to delivering or holding myself accountable if I cannot. I believe you can only achieve great things if you stay dedicated, disciplined, and focused.
+1. **Strategic Thinking** - I always like to start with the end in mind. Doing this and being a constant learner helps me identify patterns when others often see complexity. I am not a huge fan of short-term solutions and will always want to know “what will this mean in 3+ years?”.  
+1. **Leadership** - I believe that teams, not individuals, win the game. I spend a lot of time understanding what teams need to gel together properly. I find it critical to spend the time necessary to build teams that work well together, mentor them to grow together and I always bring in team coaches to help. My leadership style is one of empowerment, where I trust my team to make decisions and take ownership of their work while providing support and guidance when needed.  The best teams run autonomously and need their leader for high-level strategic thinking and support..
 
-### Related pages
+## My Weaknesses
 
-[LinkedIn](https://www.linkedin.com/in/ashleyekramer/)
+1. **Driver** - I tend to move fast, and I don’t always take the time to explain the reasoning thoroughly enough. Sometimes I need to slow down a bit and take more time to bring others along. I love problem-solving and finding solutions fast, but I will never be successful if others aren’t along on that journey.
+   1. How to help me manage this:  Please always let me know if you see this happening and need me to slow down. I’m always happy to spend more time bringing you along.
+1. **Curiosity** - I ask a lot of questions. I want to learn. This can make people feel like I am questioning their work, which is not the case. I also don’t want to slow you down as a result.
+   1. How to help me manage this: Please let me know if you need more context behind why I am asking questions and I am happy to explain the reasoning - which often will be, I’m learning!
+1. **Impatience** - Because I value achievement and enjoy working hard, it can lead to me being impatient while waiting for results. This is where clear communication and transparency will go a long way. Open communication is key  - early and often -  to both help me understand how I can help and learn more about why something may not be delivered on time.
+   1. How to help me manage this: Clear communication will help us work better together. Please expect the same from me.
 
-[Twitter](https://twitter.com/ashleyekramer)
+Now that you know, if any of this is happening in our interactions, please let me know. I welcome and appreciate feedback and want to foster a culture of open and productive dialogue where everyone can be the best version of themselves!
 
-## Intro/Bio
+## My Expectations of Everyone (including myself)
 
-Ashley Kramer is the Chief Marketing and Strategy Officer of GitLab Inc., the DevOps Platform. GitLab’s single application helps organizations deliver software faster and more efficiently while strengthening their security and compliance.
+1. **Act as a team, always**: I believe in teamwork and lifting each other up to be better. Toxicity and drama will not settle well with me. I strive to cultivate a culture that makes it fun to come to work - together - even on the hard days.
+1. **Elevate each other**: The best team members and teams work hard every day to elevate each other. It’s on each of us to do this every day. My biggest demotivator is finger-pointing. Consider, instead, speaking directly with the person you are having a conflict with, offering support or advice, and resolving the dispute directly. Your leadership is always there in the case you cannot come to a resolution together. In my experience, resolving directly works in 90% of the cases and builds stronger bonds to move us forward.
+1. **Challenge each other (and me!)**: I said this to the marketing and strategy team on my first day at the company - I LOVE being challenged. However, I speak with confidence and conviction, which can lead to people believing I do not want to be challenged. I try to be sure to ask  - what do you think, do you agree? But if I am super convinced and passionate, I may miss that step. Stop me, challenge me, and we will go far together. I love being wrong and admitting it, as that means many minds are coming together, and we will grow faster that way.
 
-As CMO and CSO, Ashley leverages her leadership from roles in marketing, product and technology to message and position GitLab as the leading DevOps platform through the next stage of growth. She is responsible for GitLab’s product marketing, brand awareness, communications, analyst relations, community, competitive positioning, marketing ops and revenue pipeline generation including all digital and sales development efforts. Ashley also leads the strategy for product-led growth and code contribution to the GitLab platform.
+## My Role
 
-Prior to joining GitLab, Ashley was CPO and CMO of Sisense and has held several post-IPO leadership roles including SVP of Product at Alteryx (NYSE: AYX) where she led the messaging, positioning and roadmap for the Alteryx Analytics Platform and Head of Cloud at Tableau where she led the effort to transform Tableau (now a Salesforce company) to a cloud-first company and ran Tableau Online, their fastest growing product. She also has held various marketing, product and engineering leadership roles at Amazon (NASDAQ: AMZN), Oracle (NYSE: ORCL) and NASA.
+I am the Interim CRO and CMSO of GitLab; here is what I do in 1000 words or less that is unique to my role:
+**Lead the teams that build and execute on our strategy to market and sell GitLab’s DevSecOps platform and support customers along their adoption journey to drive value and positive outcomes.**
 
-As a former engineer, Ashley understands and can capitalize on the value of GitLab’s unique ability to solve a deep developer pain point - streamlining the development process and bringing innovative ideas to customers in a quicker and more efficient way. She approaches everything with a customer-first mindset and has a passion for solving the challenge of positioning and messaging software platforms to technical audiences.
+## Communication Preferences
 
-Ashley has an MSBA with a Concentration in Computer Information Science from Colorado State University and a BS in Computer Science from Old Dominion University where she also played Division I soccer. She currently is on the Board of Seeq Corporation and advises several startups.
+1. The easiest way to reach me is Slack. I typically respond within the work day and often save messages that need more thought for “Later.” So please do not get worried if I do not respond immediately.
+   1. It becomes hard to track a lot of direct DMs, so when possible, use our private and public group channels to communicate.
+1. For anything that needs review, please leverage the #cmo channel (if it does not regard MNPI ) and reach out to my EBA directly for anything that does contain MNPI.
+1. For urgent matters, texting  or calling (my mobile number is in my Slack profile) is best, as I will see that first when coming out of customer meetings.
+1. Long emails and Slack messages take time to digest, along with many other things going on daily. I would ask my team to stick to the - 3 important bullet points when sending Slacks and emails.
+   1. Please ensure the “ask” is clearly stated in your messages.
+1. To set customer meetings, 1:1s, coffee chats, and internal meetings, please reach out to my EBA in the EBA-team channel.
 
-## Interests
+## Expectations - What I need from you. What you will get from me
 
-I spend most of my time in Lake Tahoe with my husband, Bobby, and two yellow labs, Bruce and Betty - you can find them on the [GitLab Pet page](/handbook/company/team-pets/#360-bruce-and-betty)! For fun I enjoy skiing, snowboarding and snow shoeing in the winter, and surfing, paddle boarding and golfing in the summer. I am an avid traveler and particularly love visiting Hawaii, New Zealand and anywhere in Europe.
+1. I expect peers to work to solve problems together and only escalate when a resolution can not be reached. I promise to do the same.
+1. Please send things that need my involvement early and often. Receiving requests to review at the last minute will not give me enough time to provide feedback properly.
+1. I live for efficiency and do not believe in large meetings where many people multitask. Please make solid use of my time in meetings (as that means I am not in front of customers), and I will do the same for you.
+1. The power of thanking teams cross-functionally should be more valued. I will do my best to thank teams and team members in other orgs as often as possible. I would love to see the same from you.
+1. If you tell me you will do something, I expect you to do it to the very best of your ability on time. I will, too.
+1. I work fast and often. I respect that not everyone is wired the same way, and I do not expect the same from you. However, communication is key to knowing why you can’t hit a milestone we’ve set or when you do not feel enough balance with your work.
 
-I also love engaging with earlier stage companies and up and coming entrepreneurs and am a Board Director for [Seeq Corporation](https://www.seeq.com/), an Advisor for [Snorkel AI](https://snorkel.ai/) and [Alation](https://www.alation.com/), an L.P. in the Stage 2 Capital and Artisanal funds, as well as an angel investor.
+## FAQs
 
-## My working style
-
-I try to always assume positive intent and encourage others to do the same. Trust is important to me. I work hard to gain it from others and hope for the same in return. Authenticity is important to me in everything from the way I show up every day to the presentations I give to my day to day interactions. I live my personal and professional life completely aligned with [GitLab’s Values](/handbook/values/) - one of the main reasons I joined this journey.
-
-### My goals as the leader of Marketing
-
-- **Build** with purpose - build a world class marketing team that feels appreciated and recognized
-- **Iterate** to innovate - encourage the team to try new things and fail fast
-- **Create** more leaders - the only successful leaders have grown enough people in their roles to replace themselves down the road
-- **Learn** constantly - always listen first and bring zero ego, everyone brings unique perspectives
-- **Execute** on a strategy - make sure everyone knows every day *why* what they are doing is so important - and give them space to challenge the status quo to make us better
-
-### Motivators
-
-- To thrive somewhere I have to have the 3 Ps
-  - Amazing *People* to work and partner with
-  - Genuine *Passion* for the space and role
-  - Great *Product* I believe in and love
-- I live for challenges, collaboration and transparency
-- Customers! I’ll sound like a broken record on this but I will always want to know the *customer* value in everything we do
-
-### Demotivators
-
-- I believe in teams and lifting each other up to be better. Toxicity and drama will not settle well with me. I strive to cultivate a culture that makes it fun to come to work - together - even on the bad days.
-- I do not like when teams within a company are treated as a service. Marketing is a very strategic function when done properly and my every day #1 job will be to give the team space to be strategic and not get bogged down purely in taking orders and trying to hit others’ goals/numbers.
-- Managers are here to listen and empower team members. If you are hearing “no” from your manager with no context on why, please set up time with me to discuss. At GitLab, everyone can and should contribute. If that’s not happening, let’s talk!
-
-## Communicating with me
-
-Please bring the problem to me with thoughts on solutions so we can figure out the best way forward together.
-
-Understand that when I say something, it is just me thinking out loud (collaborating) not me saying to go do something. I love being challenged to think differently and if anything is ever a must do - I’ll let you know.
-
-### Reaching me
-
-- Please follow the [CMO handbook for review requests](/handbook/marketing/cmo/) of MRs, slides, docs, etc. This workflow includes content updates/news to read async.
-- For most other communications, Slack is best.
-- If you want to book time with me, please contact [my EBA](/handbook/eba/#contact-us) via the [#eba-team Slack channel](https://gitlab.slack.com/archives/C61RXLLDR).
-- For urgent matters, please text me.
-
-## My Strengths/Weaknesses
-
-### Strengths
-
-Strengths as identified by [Clifton Strengths](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx) assessment:
-
-- **Achiever**: You feel as if every day starts at zero. By the end of the day you must achieve something tangible in order to feel good about yourself. You have an internal fire burning inside you. It pushes you to do more, to achieve more.
-- **Competition**: Competition is rooted in comparison. You like other competitors because they invigorate you. You like contests because they must produce a winner. Although you are gracious to your fellow competitors and even stoic in defeat, you don’t compete for the fun of competing. You compete to win.
-- **Strategic**: The Strategic theme enables you to sort through the clutter and find the best route. It is not a skill that can be taught. It is a distinct way of thinking, a special perspective on the world at large. This perspective allows you to see patterns where others simply see complexity.
-- **Focus**: You need a clear destination. And so each year, each month, and even each week you set goals. These goals then serve as your compass, helping you determine priorities and make the necessary corrections to get back on course. Your Focus is powerful because it forces you to filter; you instinctively evaluate whether or not a particular action will help you move toward your goal. In the end, then, your Focus forces you to be efficient.
-- **Futuristic**: The future fascinates you. As if it were projected on the wall, you see in detail what the future might hold, and this detailed picture keeps pulling you forward. While the exact content of the picture will depend on your other strengths and interests—a better product, a better team, a better life, or a better world—it will always be inspirational to you.
-
-### Weaknesses
-
-Weaknesses as identified by slight self awareness and constant 360 feedback:
-
-- **Driver**: I tend to move fast and not take the time to explain the reasoning fully enough for some and need to take more time to bring others along.
-- **Patience**: I was born impatient and have worked most of my adult life (once I realized this) to change it.
-- **Empathy**: While I try hard every day, I sometimes fail to sense other people’s feelings by imagining myself in their lives or situations. It’s something I work on improving every day.
-
-Now that you know, if you feel any of this happening in our interactions, please raise it to me. I welcome and appreciate feedback and want to foster a culture of open and productive dialogue where everyone (including me) can be the best version of themselves!
+1. How do you manage your time given multiple roles?
+   1. I have an incredible team who are experts in their respective functions, who support each other, and work together and cross-functionally, in service of driving results for customers. This gives me the privilege of taking on additional roles and responsibilities.
+1. What do you do for fun?
+   1. I love playing pickleball and golf, boating, and spending time with family.
+1. What’s the best career advice you’ve received?
+   1. My (second) CEO at Tableau gave me advice/feedback that I still think about to this day. He told me - *your bar is extremely high and your tolerance is low for people that don’t operate the same.  To be a better leader, you have to learn that not everyone is wired the same and you cannot get frustrated with them. You will never lead a team or company of thousands of people just like you.* This is why I try my best to learn and understand people better and what makes them tick to be a more effective leader for them - even if they aren’t like me.
+1. What advice would you give your 20-year-old self?
+   1. Take time to enjoy the ride. I have traveled almost all of my career and missed out on so many great opportunities. You don’t have to rush back to the hotel to get more work done every night. Take a walk. Learn more about the culture. Stay a day later and sightsee. Go out with the local team. This perspective has changed the way I view work travel for the better.

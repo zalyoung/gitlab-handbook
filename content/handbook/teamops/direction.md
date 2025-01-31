@@ -17,7 +17,7 @@ Although TeamOps has been practiced since the beginning of GitLab, it wasn't con
 - Internally optimize workforce awareness and universal application of the TeamOps model to standardize organizational behavior
 - Externally monetize and market the TeamOps model through professional services to monetize our non-tech thought leadership
 
-The future of TeamOps as an internal operational and as a revenue model is based on the following principles. (See also: [Workplace Handbook]({{< ref "workplace" >}}), [TeamOps Handbook](/handbook/teamops))
+The future of TeamOps as an internal operational and as a revenue model is based on the following principles. (See also: [Workplace Handbook](/handbook/ceo/office-of-the-ceo/workplace/), [TeamOps Handbook](/handbook/teamops))
 
 - TeamOps is an evolution of the Managing So Everyone Can Contribute (MECC) management model. It is based on the philosophy of using information to stay aligned, instead of shared time or location (proximity).
 - TeamOps is **not** exclusively for remote work or distributed teams, but it does enable more schedule and workplace flexibility for every team structure.
@@ -68,12 +68,12 @@ During its research and development phase, TeamOps offered the following trainin
 
 Additionally, as part of TeamOps research and development, the Office of the CEO maintained (and/or iterates on) the following current projects and responsibilities. All have now been suspended, but can be revived in the future if future investment in TeamOps is confirmed:
 
-- Publicly market and evangelize GitLab’s ways of working (TeamOps)
+- Publicly market and evangelize GitLab's ways of working (TeamOps)
 - Internally measure and optimize TeamOps to equalize employee experience
 - Produce and publish TeamOps social media content
 - Host TeamOps Group Conversation, AMAs, or internal training workshops each quarter
-- Optimize virtual “environmental” employee experiences (eg: digestibility and retention of handbook content, organizational behavior observation opportunities during onboarding, “office tours”, etc.)
-- Maintain GitLab’s position as an international, iconic thought leader in workplace innovation
+- Optimize virtual "environmental" employee experiences (eg: digestibility and retention of handbook content, organizational behavior observation opportunities during onboarding, "office tours", etc.)
+- Maintain GitLab's position as an international, iconic thought leader in workplace innovation
 
 **Stable Counterparts**
 

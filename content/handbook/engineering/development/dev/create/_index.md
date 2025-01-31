@@ -1,12 +1,10 @@
 ---
-
 title: Create Stage
 description: >-
   The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
-  IDE, and Source Code.
+  Remote Development, and Source Code.
 ---
-
 
 ## Hello
 
@@ -18,7 +16,7 @@ description: >-
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
 | [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
 | [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
+| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  [André Luís](/handbook/company/team/#andr3)  |
 
 ## Mission
@@ -74,14 +72,14 @@ If there is an area you are interested in learning more about, please reach out 
 - [Skip-level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/)
 - [Iteration](/handbook/engineering/development/dev/create/engineers/iteration/)
 
-The Learning & Development group has also compiled a list of LinkedIn training for [GitLab Recommended Learning Paths](/handbook/people-group/learning-and-development/linkedin-learning/#recommended-learning-paths).
+The Learning & Development group has also compiled a list of LinkedIn training for [GitLab Recommended Learning Paths](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
 
 ## How we work
 
 Each team work in the manner that best meets the needs of their product and their team.
 
 - [Create Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/)
-- [IDE Team](/handbook/engineering/development/dev/create/ide/#-how-we-work)
+- [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/#-how-we-work)
 - [Code Review Team](/handbook/engineering/development/dev/create/code-review/#work)
 - Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code-be/#work), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
 
@@ -115,3 +113,73 @@ Engineering Managers live our [values](/handbook/values/) every day.
 
 - Logs
 - MR Rate
+
+## How we track productivity
+
+In an effort to drive further clarity and align expectations on what is expected for each role, the Create stage has expanded on Engineering performance indicators such as the [MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate) (above 12 per month) and will further specify expectations for each seniority level.
+
+### Why?
+
+During talent assessments, Engineering Managers take a holistic approach to evaluate team members' performance. They consider a diverse set of interconnected metrics across our ecosystem, ensuring fair assessment against the expectations for each [Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). These metrics include:
+
+- Merge requests merged
+- Code reviews conducted
+- Maintainer and interviewer status
+- Number of interviews participated in
+- Mentoring activities
+- Merge Request Impact
+- Multiple Others
+
+This comprehensive approach allows for a well-rounded evaluation of an engineer's contributions and growth. For more details, refer to our [Talent Assessments](/handbook/engineering/development/dev/create/talent-assessments/) page.
+
+We believe it's important to communicate expectations clearly and transparently so we can all know what is expected and what to expect. This section looks to add clarity to this topic and promote higher awareness among the entire Create stage.
+
+### What metrics do we focus?
+
+The goal of any team performance metric is to contribute partially to the understanding of a reality. This is because each metric might be imperfect on its own but alongside others can offer a more complete picture and better insights into the contributions given by the team and/or individual.
+
+Currently we're setting clear monthly expectations for the following metrics:
+
+- **Merge Request Rate**:
+  - When applied to a **group**: The numerator is the number of merge requests merged into a set of projects (see [notes below](#metrics_notes)).  The denominator is the number of people in the group.
+  - When applied to an **individual**: It's the number of merge requests merged into a set of projects (see [notes below](#metrics_notes)).
+- **Reviews Rate**:
+  - When applied to a **group**: The numerator is the number of code reviews given to merge requests that merged into a set of projects (see [notes below](#metrics_notes)) in a given period (usually a month). The denominator is the number of people in the group.
+  - When applied to an **individual**: It's the number of code reviews given to merge requests that merged into a set of projects (see [notes below](#metrics_notes)) in a given period (usually a month).
+
+#### Dashboards
+
+- Merge Request Rate: [tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MTTMAllMRs/MTTMDashboard)
+- Reviews Rate: [tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AverageReviewTime/ReviewStatsbyUser?:iid=4)
+
+Note: **If you don't have access to Tableau,** reach out to your direct manager to either provide you with a screenshot for the desired period or if applicable they can open an access request to provide you with permanent access.
+
+#### Notes: {#metrics_notes}
+
+1. These metrics include all MRs affecting the product. The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
+1. We will iterate on this process over time by expanding our metric set and refining them to ensure alignment with team contributions and evolving role expectations. Any changes will be clearly communicated to all team members.
+
+### Baseline targets for each job grade
+
+In the table below, we outline the baseline numbers for each of the metric related to the Seniority level:
+
+| Metric      | Associate | Intermediate | Senior | Staff |
+|-------------|-----------|--------------|--------|-------|
+| MR Rate     | 5         | 5            | 8      | 13    |
+| Review Rate | 3         | 10           | 16     | 16    |
+
+### How were the targets calculated?
+
+By analysing the existing teams' metrics and collaborating with all Engineering Managers in the stage, targets were defined to accurately reflect the expectations set during a normal calibration session for talent assessments at the [Performing](/handbook/people-group/talent-assessment/#performing) level of each role.
+
+These targets were set having adherence to our CREDIT values in mind and are both ambitious and realistic.
+
+### What do the targets mean?
+
+We expect team members to be **on or above target for at least 6 out of the 12 months of a given year**.
+
+**For Individual Contributors,** these targets can provide a health status signal in alignment with expectations for the role and seniority they're in.
+
+**For Engineering Managers,** these targets can provide a signal to review team processes, planning, or individual cases to better support their team members.
+
+For any teams that have specific contexts that justify a deviation, that extra context should be documented in their handbook team page as much as possible.

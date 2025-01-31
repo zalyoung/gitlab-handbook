@@ -25,7 +25,7 @@ description: "Library of technical content created by the Technical Marketing te
 
 [Configure GitLab CI/CD with the Pipeline editor](https://www.brighttalk.com/webcast/17523/528544?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Feb 16 2022 (28 mins)
 
-[GitLab CI Overview](https://www.brighttalk.com/channel/17523/#:~:text=GitLab%20CI%20Overview%20Demo%20and%20Live%20Q%26A) - Feb 09 2022 (25 mins)
+[GitLab CI Overview](https://www.brighttalk.com/channel/17523#:~:text=GitLab%20CI%20Overview%20Demo%20and%20Live%20Q%26A) - Feb 09 2022 (25 mins)
 [Configure GitLab CI/CD with the Pipeline Editor](https://www.brighttalk.com/webcast/17523/524762?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 19 2022 (25 mins)
 
 [Introduction to Continuous Delivery](https://www.brighttalk.com/webcast/17523/525591?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 12 2022 (25 mins)
@@ -343,7 +343,7 @@ DORA Metrics Pricing/ Track DORA-4 lead time for changes metric Title needs edit
 
 [GitLab 14.8 Release: New Security Features](https://youtu.be/Ak4pJiK07b0)
 
-[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project’s repository](https://youtu.be/DgJarI1xR5c)
+[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project's repository](https://youtu.be/DgJarI1xR5c)
 
 [GitLab 14.8 - Additional data for deployment frequency graph & Display average and median for DORA4 graphs](https://youtu.be/rWMhlZ6Svb4)
 

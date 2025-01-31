@@ -26,15 +26,15 @@ For any questions relating to the compensation calculator, reach out to [Total R
 
 ## The Compensation Calculator
 
-As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values]({{< ref "values" >}})) we developed a Compensation Calculator.
+As a natural extension of the [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
 The compensation of executives and anyone on a quota is not set with the calculator. We use a Compensation Calculator because it helps us align compensation to our values:
 
-1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don’t have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual’s circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they’ll also be able to see the appropriate band for the change.
-1. **Efficient** - There’s no need to have multiple back-and-forth conversations between team members, managers, recruiters and the Total Rewards team. For hiring managers and recruiters, they simply use the Compensation Calculator for the roles they’re hiring for rather than having multiple approval levels and conversations. Similar with promotions and any other changes with locations, benchmarks, levels, team members and managers can discuss compensation according to the inputs on the Compensation Calculator rather than having negotiations.
+1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don't have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual's circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they'll also be able to see the appropriate band for the change.
+1. **Efficient** - There's no need to have multiple back-and-forth conversations between team members, managers, recruiters and the Total Rewards team. For hiring managers and recruiters, they simply use the Compensation Calculator for the roles they're hiring for rather than having multiple approval levels and conversations. Similar with promotions and any other changes with locations, benchmarks, levels, team members and managers can discuss compensation according to the inputs on the Compensation Calculator rather than having negotiations.
 1. **Diversity, Inclusion & Belonging** - People with the same attributes should earn the same. The Compensation Calculator reduces unconscious bias or giving higher pay to individuals who can negotiate better. The Compensation Calculator allows us to take a data-driven approach to compensation where there's fairness across all teams, levels and countries.
 1. **Collaboration** - Allows for team members to review the Compensation Calculator and have the Total Rewards team iterate based on the data and feedback we get from the team.
 1. **Iteration** - The Compensation Calculator gets reviewed when feedback is received and all inputs are reviewed during the Annual Compensation Review.
-1. **Results** - The Compensation Calculator helps us focus on our outputs rather than spending unnecessary time talking about and negotiating money. It shifts conversations and focus from ‘I want X money’ to looking at the training and mentorship necessary for our team members to increase within the range based on performance.
+1. **Results** - The Compensation Calculator helps us focus on our outputs rather than spending unnecessary time talking about and negotiating money. It shifts conversations and focus from 'I want X money' to looking at the training and mentorship necessary for our team members to increase within the range based on performance.
 
 ### Goals of the Compensation Calculator
 
@@ -43,14 +43,14 @@ The goals of the calculator are:
 1. Calculate compensation for 200+ regions all over the world.
 1. Based on a simple formula.
 1. People with the same attributes should earn the same.
-1. The adjustment for [paying local rates]({{< ref "compensation#paying-local-rates" >}}) should be the same if you are in the same location.
+1. The adjustment for [paying local rates](/handbook/total-rewards/compensation/#paying-local-rates) should be the same if you are in the same location.
 1. You should be able to calculate your compensation in case you know or made an assumption about your level.
-1. That it is as close to a [competitive rate]({{< ref "compensation#competitive-rate" >}}) as possible given the other constraints.
+1. That it is as close to a [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) as possible given the other constraints.
 1. Be able to calculate compensation for most of our offers without involving a compensation specialist.
 
 ### The Compensation Calculator Formula
 
-Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-factor) x [Level Factor](#level-factor) x [Exchange Rate]({{< ref "compensation#exchange-rates" >}})
+Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-factor) x [Level Factor](#level-factor) x [Exchange Rate](/handbook/total-rewards/compensation/#exchange-rates)
 
 The calculator will output the amount as `base + variable = total target cash (TTC)`
 
@@ -143,7 +143,7 @@ To review the Compensation Benchmark process please refer to the [New Roles Crea
 
 #### Benchmark Adjustment
 
-As stated in [competitive rate]({{< ref "compensation#competitive-rate" >}}) we want to recruit and retain people who meet our requirements.
+As stated in [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) we want to recruit and retain people who meet our requirements.
 If any one, or a combination of, the following statistics is met, a benchmark review can be requested to address any concerns around the benchmark:
 
 - An open role is open for longer than 100 days
@@ -163,7 +163,7 @@ Requests to review a benchmark adjustment can be requested between Feb 1 and Oct
 
 **Summary of the process:**
 
-Once data has been collected, the Total Rewards team will review the compensation expectations. During this review, we will look at survey data and candidate expectations (specifically declines due to compensation) to recommend an adjustment to our SF benchmark and target percentile for the role. Total Rewards will coordinate with FP&A and the department leader to draft a business case to be presented to the egroup leader. The business case would include:
+Once data has been collected, the Total Rewards team will review the compensation expectations. During this review, we will look at survey data and candidate expectations (specifically declines due to compensation) to recommend an adjustment to our SF benchmark and target percentile for the role. Total Rewards will coordinate with FP&A and the department leader to draft a business case to be presented to the e-group leader. The business case would include:
 
 - A google sheet with market data, candidate expectations, and impact to the current team.
 - A google doc outlining the problem statement, what the department has already tried, and an overall proposal which clarifies the budgetary impact.
@@ -178,8 +178,8 @@ Once data has been collected, the Total Rewards team will review the compensatio
 1. The Total Rewards team will summarize and review the results of the benchmark review with the hiring manager and PBP, and propose a recommendation and next steps for the benchmark adjustment, including reaching out to Finance for budgetary impact.
 1. The Hiring Manager should discuss the results to the Department Head, ensuring approval to move forward with the final recommendation.
 1. Once the Department Head has approved, the FP&A team will review and approve and discuss any tradeoffs needed for the department.
-1. The Department Head would escalate the business case for approval to the EGroup Leader after approval from the Total Rewards and FP&A team.
-1. After approval from the EGroup Leader, the Department Head and PBP review and prepare adjustments and communications.
+1. The Department Head would escalate the business case for approval to the e-group Leader after approval from the Total Rewards and FP&A team.
+1. After approval from the e-group Leader, the Department Head and PBP review and prepare adjustments and communications.
 1. The Total Rewards team will update the [Compensation Calculator](https://comp-calculator.gitlab.net/users/sign_in) and all other appropriate documentation
 1. If applicable, team members are notified of a pay adjustment and related information.
 
@@ -188,7 +188,7 @@ Once data has been collected, the Total Rewards team will review the compensatio
 To automate the process of pulling survey data from Comptryx and Radford to review benchmarks, GitLab has mapped each job title with a corresponding job code. As a first iteration GitLab will use the job codes Radford has outlined. Each job family and level must have a unique job code. The following structure is used:
 
 - Radford Code to be used as job code.
-- If there is a duplicate Radford code, the job code in BambooHR will have a letter behind to differentiate (A, B, C, etc).
+- If there is a duplicate Radford code, the job code in Workday will have a letter behind to differentiate (A, B, C, etc).
 - If there is no job code, GitLab will generate a four digit unique job code starting with "N".
 
 For example:
@@ -204,6 +204,14 @@ All current job codes can be found by the Total Rewards team in the "Job Codes" 
 ### Introduction
 
 Location Factor is [calculated](#calculating-location-factors) using multiple data sources to conduct a market analysis of compensation rates globally: Economic Research Institute (ERI), Comptryx, Radford. This is *not* a cost of living analysis, but instead a **cost of labor market** evaluation compared to San Francisco. The Total Rewards team will use their best judgement in determining the input per location based on our [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
+
+#### In Workday
+
+In Workday the Location Factor is embedded into the Grade Profile as the second field. For example in a Grade Profile of "210.070.EUR", the second field "070" is referring to the Location Factor. As per Amsterdam's Location Factor in the Compensation Calculator, this is 0.70.
+
+The Grade Profile can be found under the Compensation tab, and is only viewable to managers.
+
+[Related issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/1139)
 
 ### Geographical Areas
 
@@ -247,7 +255,11 @@ To determine your area:
 1. Select your Province or State (if applicable).
 1. Select your Metro Area if you live within a commutable one hour and forty-five minutes of a city listed.
 
+    The commute time of one hour and forty-five minutes is calculated using standard transportation methods such as car or public transit (e.g., train, bus). We use Google Maps to estimate the travel time from the city center to your address, specifically during normal business commuting hours to account for typical traffic patterns (i.e. arriving to the city by 8 AM and departing to your address at 5 PM). If the estimated travel time falls within one hour and forty-five minutes radius during these peak commuting hours, you are considered within the commutable range for that Metro Area.
+
     If you are within a commutable one hour and forty-five minutes of more than one city, use the city with the shortest commute as your location. If not, select "Not Applicable."
+
+    **Note, in some unique cases the Metro Area within a one hour and forty-five minute radius may be in a different state (United States) or Province (Canada).**
 
     If there are no additional boxes for State/Province and/or Metro Area for the country you select, this country has the same location factor regardless of the city you live in. Similarly, if there is no additional box for Metro Area after selecting a State/Province, this state or province has the same location factor regardless of the city you live in.
 1. If your country is not listed, reach out to total-rewards@domain to gather relevant data.

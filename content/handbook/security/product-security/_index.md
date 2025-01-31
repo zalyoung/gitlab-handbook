@@ -1,7 +1,5 @@
 ---
 title: "Product Security"
-aliases:
-- /handbook/security/security-engineering
 ---
 
 Aligned with GitLab's overarching information security strategy and its three-year plan, the Product Security Department (PSD) within the Security Division is responsible for crafting and directing a comprehensive vision to bolster the cybersecurity posture of the GitLab platform.
@@ -12,11 +10,15 @@ At GitLab, product security encompasses a broad range of cybersecurity disciplin
 
 ### The Product Security Mission
 
-Our mission is to set the standard for product security by fostering a culture of rapid innovation and secure product delivery. We are committed to leveraging the GitLab platform, embodying the pinnacle of internal usage (‘dogfooding’) practices. By maintaining close collaboration with product teams and contributing significant security features and capabilities to the GitLab codebase, we aim to enhance our operations and be a vital driver of the broader GitLab vision.
+Our mission is to set the standard for product security by fostering a culture of rapid innovation and secure product delivery. We are committed to leveraging the GitLab platform, embodying the pinnacle of internal usage ('dogfooding') practices. By maintaining close collaboration with product teams and contributing significant security features and capabilities to the GitLab codebase, we aim to enhance our operations and be a vital driver of the broader GitLab vision.
 
 ### Multi-Year Product Security Mission
 
 Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
+
+### Product Security Risk Register
+
+Our Product Security Risk Register process details can be consulted on [this dedicated page](/handbook/security/product-security/risk-register/).
 
 ## Collaboration is Key
 
@@ -37,9 +39,10 @@ Success in product security is not confined to PSD or even the Security Division
 
 The Product Security sub-department includes the following teams. Learn more about each by visiting their Handbook pages.
 
-- [Application Security]({{< ref "./application-security" >}})
-- [Infrastructure Security]({{< ref "./infrastructure-security" >}})
-- [Product Security Engineering]({{< ref "./product-security-engineering" >}})
-- [Vulnerabiity Management]({{< ref "./vulnerability-management" >}})
-- [Security Research ]({{< ref "./security-research" >}})
-- [Security Architecture]({{< ref "./architecture" >}})
+- [Application Security](application-security/)
+- [Infrastructure Security](infrastructure-security/)
+- [Product Security Engineering](product-security-engineering/)
+- [Vulnerability Management](vulnerability-management/)
+- [Security Research](security-research/)
+- [Security Architecture](/handbook/security/product-security/security-architecture/)
+- [Data Security](data-security/)

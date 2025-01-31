@@ -30,12 +30,6 @@ Key Performance Indicators for the Evangelist Program can be found in the [Marke
 
 When reporting on program activity, you may wish to include charts or graphs for different program KPIs. For example, you will likely want to update the program metrics when preparing for a Group Conversation. When you need to report on program metrics and activity, please follow these steps:
 
-**Meetup metrics**
-
-1. Visit GitLab's [Meetup Pro page](https://www.meetup.com/pro/gitlab/)
-1. The number of countries, meetups, and members can be found next to the GitLab logo near the top of the page.
-1. Additional Meetup insights can be found in the [Pro admin dashboard](https://www.meetup.com/pro/gitlab/admin/analytics) on Meetup (note: requires admin access)
-
 **GitLab Heroes members**
 
 1. Visit the [GitLab Heroes members page](https://about.gitlab.com/community/heroes/members/).
@@ -50,98 +44,6 @@ When reporting on program activity, you may wish to include charts or graphs for
 ### Upcoming events
 
 The [GitLab Developer Advocate calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar) includes a list of our upcoming meetups, hackathons, office hours, and other community events. After opening the calendar, you can click on the `+` in the bottom right corner of the browser window to add `GitLab Developer Advocacy` to your list of calendars in Google Calendar.
-
-## Meetups
-
-GitLab supports team members and members of the wider GitLab community who want to organize or speak at meetups. Our goal in supporting these events to better engage with and increase connections among the GitLab community, increase awareness of GitLab, and better educate the technology community.
-
-### Organize a meetup
-
-- We love and support meetups. If you participate in local tech groups and are interested in having a GitLab speaker or GitLab as a sponsor, members of the wider GitLab community should email `evangelists@gitlab.com`. Team members should submit an [issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=community-event). Please note, providing sufficient lead time (at least a month) allows us to better support your event so feel free to reach out as soon as possible.
-- When a meetup issue is submitted by a community member, an issue should be created using the [community event template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=community-event), labeled with the [`Meetups`](https://gitlab.com/groups/gitlab-com/marketing/-/issues?label_name%5B%5D=Meetups) label, and be given a due date on the date of the event. Meetup issues created by a GitLab team member should receive the same treatment.
-- If you are interested in creating your own GitLab meetup or if you already have an existing meetup on meetup.com that you would like to link to GitLab's meetup.com Pro account, please email `evangelists@gitlab.com`. You can find the list of GitLab meetups on the [meetup.com page](https://www.meetup.com/pro/gitlab).
-  - Connecting your group to GitLab's Meetup Pro instance will also allow you to utilize easy-to-use, custom templates for your Meetup events. When scheduling a new event on Meetup, you can choose a template by clicking on `Start from a template` in the right sidebar and choosing a template that best fits your event.
-- When you are getting started, we recommend scheduling at least 2 meetups. Publish your first meeting with a date and topic, and then a second meeting with a date and topic. The second meeting can have a flexible topic based on how the first meeting goes. The point of setting two meet-ups is to help build momentum in the new group.
-- Often, we try to have GitLab employees attend the first couple of meetups. Once the group has hosted a couple of successful events, it becomes easier for the group to sustain itself. It is much harder to start new meetups versus maintaining existing ones. So we make an effort to support and keep new meetups going.
-- Additional information on organizing your own meetup events can be found on our [Meetup checklist](https://about.gitlab.com/community/meetups/checklist/).
-
-#### Meetup format ideas
-
-Think outside the box. All meetups and community events are different. Find what works for your members and fits the event goals.
-
-- Panel: Ask 3-4 people to share or breakdown their favorite feature
-- Roundtable discussion: Attendees will discuss the new features in a structured manner. Assign someone who will document the pros, cons, and neural thoughts of the new release. Share the discussion with the GitLab DE team.
-- Workshop: Conduct detailed instructions to highlight use cases
-- Lighting Talks: multiple speakers who present for 5 - 10 minutes associated with Release 15
-- Social hour: An organized networking event where folk of similar interest comes together to build relationships and rapport
-
-#### Create a new Meetup group
-
-- First,  contact the Evangelism Program Manager, they will ensure you are granted access by sending you a ticket. The ticket link grants the organizer access to meetup. You then will follow the prompts to set up your new group. Happy organizing.
-- Internal steps: Dashboard → Groups → Click the button to “+ Add group” → Click button to “Create tickets” → open txt file →Copy and paste link → Send to the requestor (via Slack or Email)
-
-#### Meetup Promotion
-
-GitLab provides support to meetup organizers to drive attendance at meetup events. In order to help support our organizers, GitLab will consider the following:
-
-- Add meetup event to the [GitLab Events](https://about.gitlab.com/events/) page on our website by `Edit this page` action at the bottom.
-- Add meetup event to the [Community Events calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_90t5ue1q8kbjoq5b0r91nu7rvc%40group.calendar.google.com&ctz=America%2FNew_York).
-
-Organizers are encouraged to take the following steps to drive attendance to their events:
-
-- Use your personal social media to promote the event within your network and invite your members to do the same.
-- Post about the event, including a link to the registration page, in the [News section](https://forum.gitlab.com/c/announcements/5) on forum.gitlab.com.
-- Send at least two reminders in the weeks and days leading up to your meetup reminding people to RSVP.
-- Reach out to other related meetups (ex: DevOps, Cloud, Kubernetes) in your area and invite them to your event to help grow your community.
-
-Note: GitLab asks that community organizers do not create social media accounts that make use the GitLab logo or trademark in their username and profile as this may create confusion as to whether or not you are affiliated with GitLab in any way. Instead, we encourage our community organizers to leverage the communications tools on Meetup and their own social media profiles for community building and outreach. If social media outreach is needed to promote events or attract new members to a group, GitLab's social media team will amplify the personal accounts of organizers, when appropriate.
-
-#### Meetup Expenses
-
-**IMPORTANT: We have resumed providing some support for in-person events. Support for any in-person events is dependent on the meetup group and event. If you are planning a meetup event and wish to get reimbursed for event-related expenses, please confirm your event's eligibility in writing in a GitLab issue before spending money towards your meetup.
-
-#### Virtual Meetup support
-
-For some virtual meetups, a Zoom link may be required to execute the event. To create a Zoom link for a meetup, follow these steps:
-
-1. Log into Zoom.us with your GitLab Zoom account.
-1. Click "My Account" in the menu bar located in the upper right corner of the page.
-1. Click "Meetings" in the left side menu.
-1. Click the "Schedule a meeting" button on the right side of the page.
-1. Enter meeting info. Make sure to set "Meeting ID" to "Generate automatically", check the "Passcode" box, check "Mute participants on entry", and check "Automatically record meetings" and set to record "In the cloud".
-1. Click "Save" button.
-1. On the meeting page, the "Invite link" is the link that should be shared with the meetup group and used on the event page.
-
-If you must edit a meeting, following steps 1-3 from above will show a list of your upcoming meetings. Then click the "Edit" button next to the meeting that you want to change.
-
-### Speak at a meetup
-
-Meetups help us raise awareness of GitLab and build communities in new places. We love to track them to know where the community is growing. If you are speaking at a meetup as a representative of GitLab or you are giving a talk about GitLab, please let us know! Here's how and why we do this:
-
-- GitLab team member speakers should use the [Meetup Speaker template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-speaker) to create a new issue with the details for your meetup talk. Community members can contact `evangelists@gitlab.com` if they wish to share an upcoming speaking opportunity with the GitLab team.
-- Opening an issue helps us support you. A few ways we can help:
-  - Marketing: We'll share the event on our blog, via social, and with GitLab community members in the area to raise awareness of the event.
-  - Sponsorship: GitLab will cover the cost of food and beverages for meetup organizers.
-  - Swag: Our swag is pretty popular so we'll send you plenty of stickers and _maybe_ some other fun stuff to give away.
-  - Speaker prep: If you need help with your deck or would like someone to offer feedback on a dry run of your talk, the [Evangelist Program Manager](mailto:evangelists@gitlab.com) is happy to help.
-
-### GitLab Virtual Meetup group
-
-- GitLab's Evangelist Program Manager organizes the [GitLab Virtual Meetup](https://www.meetup.com/gitlab-virtual-meetups/) group. This group brings together our global community for virtual meetup events.
-- GitLab virtual meetups typically feature one speaker followed by randomized breakout groups using the Zoom breakout room feature. The normal duration of these events is one hour in total.
-- For GitLab Virtual Meetups, the Evangelist Program Manager will upload the recordings to GitLab Unfiltered.
-- If you would like to present at a GitLab virtual meetup, please email `evangelists@gitlab.com`.
-- Additional information on organizing your own virtual meetup events can be found on our [Meetup checklist](https://about.gitlab.com/community/meetups/checklist/#planning-a-virtual-meetup).
-
-### Inactive Meetups
-
-To ensure proper metrics we must vet for:
-
-1. Check meetup activity for communities every quarter (3-4 months)
-2. If a chapter has zero meetups within the quarterly span:
-    1. contact the listed organizer to check in on status of group.
-    2. Email members, ask about interest in organizing chapter
-    3. Update the program sheets with new contact information
 
 ## GitLab Heroes
 
@@ -189,7 +91,7 @@ We conduct semi-annual reviews of the current GitLab Heroes members to ensure th
 
 ### Adding yourself to the Heroes page
 
-Upon acceptance, Heroes are asked to submit a Merge Request to add themselves to the [GitLab Heroes members page](https://about.gitlab.com/community/heroes/members).
+Upon acceptance, Heroes are asked to submit a Merge Request to add themselves to the [GitLab Heroes members page](https://about.gitlab.com/community/heroes/members/).
 
 To add yourself to the Heroes page, you will need:
 
@@ -304,7 +206,7 @@ We are planning to launch the GitLab Heroes Alumni group in early February 2022.
 
 Those who join the GHA group are welcome to reinstate their active status upon resuming community activity at the GitLab Heroes level.
 
-The requirements listed on the [hero’s journey table](https://about.gitlab.com/community/heroes/#heros-journey) will continue to be the standard for qualifying to be a Hero.
+The requirements listed on the [hero's journey table](https://about.gitlab.com/community/heroes/#heros-journey) will continue to be the standard for qualifying to be a Hero.
 
 **The ask**
 
@@ -353,7 +255,7 @@ Student hackathons are the events most frequently submitting requests for suppor
 
 The Beyond Code series elevates non-technical conversations and connects GitLab to the wider community. The topics are relatable, ranging from burnout, developer relations, remote work, branding, and much more. The chats are casual and intended for all audiences. We would like folks to feel included and heard in the discussions.
 
-We chose to host the conversations on [Twitter Spaces](https://help.twitter.com/en/using-twitter/spaces). It is an audio-only component of the social platform, Twitter. Hosting on Twitter Spaces allows us to expand our reach of listeners. Everyone is able to listen in from their phone or a web browser. Attendees can also ask questions by ‘raising a hand’ or by using the hashtag #BeyondCode. Speakers are required to join the Twitter Space from the Twitter application on their phones (iOS or Android) in order to be able to speak. A recording is available on Twitter after the space ends.
+We chose to host the conversations on [Twitter Spaces](https://help.twitter.com/en/using-twitter/spaces). It is an audio-only component of the social platform, Twitter. Hosting on Twitter Spaces allows us to expand our reach of listeners. Everyone is able to listen in from their phone or a web browser. Attendees can also ask questions by 'raising a hand' or by using the hashtag #BeyondCode. Speakers are required to join the Twitter Space from the Twitter application on their phones (iOS or Android) in order to be able to speak. A recording is available on Twitter after the space ends.
 
 - Each space is required to have a corresponding call to action (CTA). Examples of CTAs include a link to the handbook to drive traffic, a link to a GitLab issue for discussion, a blog post, learning course, or event.
 
@@ -384,7 +286,7 @@ Each conversation should showcase a diverse array of thoughts on the topic. The 
 
 When looking for internal guests, mention the topic in the #whats-happening-at-gitlab slack channel. If you have a particular person or persons in mind for the topic mention them directly in the issue template.
 
-Contact external guests by sending an email. The email allows for tracking the conversation taking place. Being that everyone doesn’t have a GitLab account.
+Contact external guests by sending an email. The email allows for tracking the conversation taking place. Being that everyone doesn't have a GitLab account.
 
 Use the guest invitation copy provided [here](https://docs.google.com/document/d/1YdyPNOFoOomhlAfyo5CQBoBuCUI00o2GW17zZUC7CA4/edit). The email template has the Know-Before-You-Chat checklist which sets expectations for pre, post, and day-of logistics for each conversation.
 
@@ -417,7 +319,7 @@ There will be digital asset cards created for every episode. All cards have pert
    <td>
 <ol>
 
-<li>GitLab talks DevRel: Don’t Judge a Career by its Title?
+<li>GitLab talks DevRel: Don't Judge a Career by its Title?
 </li>
 </ol>
    </td>

@@ -4,7 +4,7 @@ title: Learning & Development
 
 ## Overview
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 50.82%; padding-top: 0; height: 0;"><iframe frameborder="0" width="500" height="350" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/62fe8a909b925c0018b5de80" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 50.82%; padding-top: 0; height: 0;"><iframe frameborder="0" width="500" height="350" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fe8a909b925c0018b5de80" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 ### Purpose
 
@@ -28,13 +28,13 @@ title: Learning & Development
 
 1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding#exit-survey) related to career development
 1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement)
-1. Increased access to career mobility: internal transfers, [promotions]({{< ref "promotions-transfers" >}}), job shadows, intern for learning, and professional development
+1. Increased access to career mobility: internal transfers, [promotions](/handbook/people-group/promotions-transfers/), job shadows, intern for learning, and professional development
 1. Clear evidence of best in class remote learning & development (i.e. [Brandon Hall Awards](https://excellenceawards.brandonhall.com/), Industry Speaking Events, Thought Leadership articles, etc.)
 
 ### Principles
 
 1. **Meaningful and relevant content.** We deliver learning solutions that help you reach your professional goals.
-1. **Values aligned.** Our learning solutions reinforce GitLab’s [values]({{< ref "values" >}}) and foster continuous learning and curiosity.
+1. **Values aligned.** Our learning solutions reinforce GitLab's [values](/handbook/values/) and foster continuous learning and curiosity.
 1. **Diverse approaches to learning.** We apply a blended learning model to find solutions to various individual needs.
 1. **Community.** L&D offerings available to the public so that everyone can contribute.
 
@@ -42,9 +42,9 @@ title: Learning & Development
 
 We are a small team, but we've got a big role to play at GitLab!
 
-- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
-- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
-- [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
+- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook/company/team/#tely2}})
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): `vacant`
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
 ## Team Member Resources
 
@@ -53,39 +53,25 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
-    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
-    <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Fund</a>
+    <a href="/handbook/people-group/learning-and-development/career-development/" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "leadership-chats" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Leadership Chats</a>
     <a href="{{< ref "learning-initiatives" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Initiatives</a>
     <a href="{{< ref "self-paced-learning" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
     <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
-    <a href="{{< ref "compliance-courses" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Compliance Courses</a>
+
   </div>
 </div>
 
 <div class="flex-row" markdown="0">
   <div>
+    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
     <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
     <a href="{{< ref "coaching" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
-    <a href="{{< ref "slack-training" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Slack Training</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
-    <a href="https://about.gitlab.com/handbook/sales/field-manager-development" class="btn btn-primary" style="width:200px;margin:5px;">Field Manager Development</a>
-    <a href="{{< ref "speakers" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Speaker Series</a>
-    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
   </div>
 </div>
 
@@ -93,7 +79,7 @@ The Learning & Development team has a number of resources to help team members l
 
 Multiple teams across the company contribute to learning and development of our team members. Below is a list of some teams we partner with and how we collaborate.
 
-1. Education Services: Share sustomer & product training with team members on Level Up
+1. Education Services: Share customer & product training with team members on Level Up
 1. Talent Brand: Telling career growth stories
 1. People Operations: Measuring imapct of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses
@@ -121,14 +107,6 @@ The [work with us]({{< ref "work-with-us" >}}) page outlines issue templates and
 All material in the handbook is considered training and we build [handbook first learning content]({{< ref "interactive-learning" >}}). One of L&D's primary responsibilities is to ensure that content lives in the appropriate section in the handbook. In the below video, Sid, explains how the content of courses is not separated from the handbook to the L&D team.
 
 {{< youtube "G57Wtt7M_no" >}}
-
-### Learning & Development Team Meetings
-
-| Meeting Type | Cadence/Time | Description |
-| ------ | ------ | ------ |
-| 1:1 | Weekly meeting/40-45 minutes | <br> - 1:1 meeting between direct report and manager of L&D team. <br> - Topics covered include: task management, career development, performance management, blockers, project updates, brainstorming, coaching, etc. <br> - During the meeting, if their is an item that requires broader team collaboration it will be added to the bi-weekly team meeting. |
-| L&D Team Meeting | Weekly meeting/25 minutes | <br> - Strategic items that have been brought up during 1:1 meetings that impact the team as a whole. <br> - The meetings will cover items that are strategic in nature that require discussion, brainstorming, collaboration, and synthesis with the team |
-| L&D Quarterly Strategic Meeting | Quarterly/90 minutes to 2 hours | <br> - Review what was acheived in the quarter, what wasn't, and lessons learned <br> - Team members will present plans on what they are focused on for the next quarter <br> - Review team morale, team dynamics, learner satisfaction, long term impact, and alignment with Peope Group goals. |
 
 ### L&D team sprints
 
@@ -171,19 +149,29 @@ The L&D team freqently uses the following tools for creating and communicating l
 | Tool | Purpose |
 | ----- | -------- |
 | [Powtoon](https://www.powtoon.com/) | Video Creation |
-| [LucidChart](https://www.lucidchart.com/) | Interactive Diagrams |
+| [LucidChart](https://www.lucidchart.com/pages/) | Interactive Diagrams |
 | [Canva](https://www.canva.com/) | Image and infographic creation |
-| [Articulate/Rise 360](https://articulate.com/) | Course Authoring |
+| [Articulate/Rise 360](https://www.articulate.com/) | Course Authoring |
 | [Genial.ly](https://app.genial.ly/dashboard) | Create Interactive Images |
 
 ## Developing Learning Content
+
+### Learning Content Accessibility Guidelines
+
+In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
+
+We ask that team members who create both internal and external learning content:
+
+- Familiarize themselves with these guidelines
+- Apply these guidelines when creating learning content for internal and external use, when applicable
+- Revisit existing learning content you have created, to consider whether any updates are appropriate
 
 ### Top Five Training Content Development Principles
 
 1. **Know Your Audience** - Analyze and assess the course audience. Ensure that all audience needs are accounted for at every level in the organization you are delivering the training too.
 1. **Define Learning Objectives** - Highlight the learner outcome. Consider developing two to three broad overall statements of what the audience will achieve.
 1. **Break Down Complex Information** - Consider breaking down complex information into easy to digest visuals or text. Reference the handbook but do not be afraid to create a visual representation or use storytelling for the audience.
-1. **Engage the Learner** - Adults learn through practice and involvement. Consider using tools to engage learners in a virtual setting like [Mentimeter](https://www.mentimeter.com/) or [Kahoot](https://kahoot.com/business-u/) to stimulate interactivity.
+1. **Engage the Learner** - Adults learn through practice and involvement. Consider using tools to engage learners in a virtual setting like [Mentimeter](https://www.mentimeter.com/) or [Kahoot](https://kahoot.com/) to stimulate interactivity.
 1. **Implement Blended Learning Course Content** - Give the learners pre-course work to read and review before the learning session. Use off-the-shelf resources and ensure the content is applicable to what will be covered in the session. Follow up to gauge how they've applied what they've learned on the job through surveys and questionnaires.
 
 ### Application of Adult Learning Theory
@@ -212,12 +200,6 @@ Add learning objectives to the beginning of the content to state a clear trainin
 - By the end of the session, team members will be able to describe the steps taken to address underperformance
 - Team members will be able to apply the GROW coaching model framework to coaching sessions with members of their team
 - After learning about the high-performance team-building model, team members will be able to determine the steps needed to reach high performance.
-
-### Instructional Design 101
-
-The Learning & Development, [Field Enablement](/handbook/sales/field-operations/field-enablement/), and [Professional Services](/handbook/customer-success/professional-services-engineering/) teams hosted an Instructional Design 101 session on 2020-10-28 to better understand concepts of adult learning theory and instructional design. Check out the video to learn how to apply instructional design to learning content.
-
-{{< youtube "Be8oRHp0E84" >}}
 
 ### Learning Components - Definitions
 
@@ -249,4 +231,4 @@ Please let us know how you would prefer to learn by [filling out this form](http
 
 The launch of the GitLab Learn LXP was awarded a Silver Excellence in Learning by the [Brandon Hall Group](https://excellenceawards.brandonhall.com/) for the Best Launch of a Corporate Learning University.
 
-![silver brandon hall group award logo](silver-award.png)
+![silver brandon hall group award logo](/images/people-group/learning-and-development/silver-award.png)

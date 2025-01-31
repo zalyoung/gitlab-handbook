@@ -1,5 +1,4 @@
 ---
-
 title: How to Perform CMOC Duties
 category: On-call
 description: "Describes the role and responsibilities for the Incident CMOC rotation in Support Engineering"
@@ -71,6 +70,10 @@ Status.io should be updated whenever we have new information about an active inc
 
 Once you join the incident Zoom call, take note of any updates that have been made to Status.io and the time they were made at. Set a timer to remind yourself and stick to the time intervals below unless you make a note of how long it will be until the next status update. For example, if you're in "monitoring" it may be appropriate to specify an hour before the next update.
 
+#### Provide a clear message and path forward
+
+Use the following table as a **guideline**. If there aren't any material updates to post, but we are approaching the update frequency we can ask the incident manager about posting an update that explains that. For example, if we are in the process of resolving the issue, and we know the process is going to take some time (for example an hour or two), we can provide the update that explains that, and provide an explanation when the next update is going to be posted.
+
 | Incident Status | Severity 1 Update Frequency | Severity 2 Update Frequency | Severity 3/4 Update Frequency |
 |--|--|--|--|
 |Investigating| 10m | 15m | 15m |
@@ -102,7 +105,7 @@ Once you join the incident Zoom call, take note of any updates that have been ma
 
 Any updates **outside documented incident updates** that require administrator access to the GitLab System Status page should be initiated with [this template](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Status%20page%20administrative%20task).
 
-The template will ping CMOC DRIs in scenarios where we need to update or add components. Before adding or changing components, please ensure to get a review from infrastructure counterparts from the appropriate [Reliability Team](/handbook/engineering/infrastructure/team/reliability/#reliability-teams).
+The template will ping CMOC DRIs in scenarios where we need to update or add components. Before adding or changing components, please ensure to get a review from infrastructure counterparts from the appropriate [Reliability Team](/handbook/engineering/infrastructure/team/).
 
 ### About Contact Requests
 
@@ -110,7 +113,13 @@ Whether related to an ongoing incident or not, Infrastructure or Security may as
 
 ### How to Page the CMOC?
 
-The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-cmoc) section of the main incident management handbook.
+The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the EOC, IM or CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc) section of the main incident management handbook.
+
+### About Coordinating a Support Response
+
+When there is an incident that results in unexpected customer impact, and requires a non-standard workflow or communication from Support, you should create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to help coordinate Support action and response.
+
+Keep this issue updated as communication guidelines or workflows change so that it remains the single source of truth for Support-related information.
 
 ### CMOC Performance Indicators
 
@@ -177,6 +186,8 @@ A better response would be to assume that an action was requested, relay your in
 #### Create Incident
 
 You can create an incident directly through the `status.io` website **OR** through Slack (provided by Woodhouse). It is recommended to use the `status.io` website directly as it permits further customization of the incident beyond what the Slack form allows. It is also easier to confirm that the incident was created properly when using the `status.io` website.
+
+If the incident is related to GitLab Duo features, please review [GitLab Duo Special Handling](#gitlab-duo-special-handling)
 
 #### Create Through Status.io
 
@@ -454,7 +465,7 @@ Once the GitLab Status Twitter account has posted about the maintenance schedule
 
 ## End of Shift Handover Procedure
 
-The CMOC rotation has some specific procedures for handover that substantiate what's in the general [On-call - Ending your on-call shift](/handbook/support/on-call/index.html#ending-your-on-call-shift)) section.
+The CMOC rotation has some specific procedures for handover that substantiate what's in the general [On-call - Ending your on-call shift](/handbook/support/on-call/#ending-your-on-call-shift)) section.
 
 It's necessary to inform the ingress CMOC of any relevant activity that ocurred during your shift or if there are incidents that are still ongoing. To perform a handover create an issue in the [CMOC Handover](https://gitlab.com/gitlab-com/support/dotcom/cmoc-handover/issues) issue tracker using the [Handover](https://gitlab.com/gitlab-com/support/dotcom/cmoc-handover/issues/new?issuable_template=Handover) template. Do this even if nothing happened during your shift, signaling that everything is fine is also useful information.
 
@@ -465,6 +476,8 @@ If handover occurs during an active incident where the quick summary you'd provi
 ```
 
 While the CMOC Handover issue tracker is open to the public, the template [defaults to confidential](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3504) in an effort to prevent accidental leakage of confidential information.
+
+If the CMOC is called to partipicate in a new or ongoing SIRT incident during the shift, at handover invite the ingress CMOC to any related confidential issues/slack channels.
 
 Contact requests opened during a shift should by default be assigned to the Support Engineer that created the ticket. It can be useful to mention the request for awareness of the next shift. However, it's not necessary to re-assign the contact request or continue to include it in subsequent handoffs unless action needs to be taken. In many cases, users don't respond to the contact request. You may want to consider re-assigning contact requests and handing it off to another shift if you intend to be OOO, for example.
 
@@ -494,3 +507,9 @@ Some example training activities are:
 Practice events are meant to provide more experience for the person wanting to CMOC a real incident. They include a practice scenario that requires them to update the status page, communicate with the incident manager as well as provide more confidence.
 
 To start a CMOC Practice event ask your trainer or any support engineer to go to the [Support Team Meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=CMOC%20Practice%20Event) and to create an issue with the [CMOC Practice Event](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/CMOC%20Practice%20Event.md) issue template.
+
+## GitLab Duo Special Handling
+
+As GitLab Duo features are under active development we have a special issue dedicated to tracking individual feature availability at https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18352.
+
+In the event of an incident being declared for a GitLab Duo feature, verify that the incident issue is crosslinked with https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18352.

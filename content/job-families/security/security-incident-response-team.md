@@ -5,7 +5,7 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Security Operations sub department](/handbook/security/security-operations/), the [Security Incident Response Team](/handbook/security/security-operations/sirt/) detects, manages, and remediates security incidents across GitLab. Members of the Security Incident Response Team (SIRT) are the fire fighters of the GitLab Security department. SIRT works to create and maintain a safe and secure operating environment for the organization and its customers and responds to active security incidents. As a Security Engineer on SIRT you will build and maintain the tools we use to detect and respond to emerging threats in efficient and scalable ways, respond to security incidents and drive them to resolution, and develop and deploy preventative security measures for the GitLab organization and GitLab.com. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user’s data safe in an ever changing threat landscape.
+As members of GitLab's [Security Operations sub department](/handbook/security/security-operations/), the [Security Incident Response Team](/handbook/security/security-operations/sirt/) detects, manages, and remediates security incidents across GitLab. Members of the Security Incident Response Team (SIRT) are the fire fighters of the GitLab Security department. SIRT works to create and maintain a safe and secure operating environment for the organization and its customers and responds to active security incidents. As a Security Engineer on SIRT you will build and maintain the tools we use to detect and respond to emerging threats in efficient and scalable ways, respond to security incidents and drive them to resolution, and develop and deploy preventative security measures for the GitLab organization and GitLab.com. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe in an ever changing threat landscape.
 
 ## Responsibilities
 
@@ -20,7 +20,9 @@ As members of GitLab's [Security Operations sub department](/handbook/security/s
 - Ability to use GitLab
 - Experience with designing and implement processes and tools to improve incident handling and resolution
 - Technical knowledge of systems in a multi-tenant, cloud environment
-- Proficiency to communicate over a text-based medium (Slack, GitLab Issues, Email) and can succinctly document technical details
+- Good written and verbal communication skills, including proficiency to communicate over text-based mediums (Slack, GitLab Issues, Email) and the ability to succinctly document technical details
+- You enjoy collaborating with cross-functional teams
+- You employ a flexible and constructive approach when solving problems
 - Share our [values](/handbook/values/), and work in accordance with those values
 
 ## Levels
@@ -99,12 +101,17 @@ The Staff Security Incident Response Team Engineer is a [grade 8](/handbook/tota
 
 #### Staff Security Incident Response Team Engineer Responsibilities
 
-- Extends Senior Security Incident Response Engineer responsibilities, plus;
-- SME in incident response, mentoring and training other members of the Security Incident Response Team
-- Participate in the Security Incident Manager on-call rotation
-- Lead the design, evaluation, implementation and deployment of new security technologies
-- Maintain knowledge of emerging threats, security technologies and academic research for application in the protection of the organization and GitLab.com
-- Lead efforts to design and collect incident response metrics and improve efficiency and effectiveness of incident response plans
+- Extends Senior Security Incident Response Engineer, plus:
+- Subject Matter Expert (SME) in security operations, providing mentoring and training to other members of SIRT and the department
+- Lead the design, evaluation, implementation, and deployment of new security technologies to enhance the organization's security posture
+- Maintain up-to-date knowledge of emerging threats, security technologies, and academic research for application in the protection of the organization and GitLab.com
+- Lead efforts to design and collect security operations metrics, and improve the efficiency and effectiveness of incident response plans
+- Tackle complex technical issues and problems that cross other teams and significantly impact the business, especially those that other engineers have been unsuccessful in resolving
+- Direct the implementation of solutions in collaboration with the team and provide guidance where necessary
+- Develop strong relationships with Managers, who help guide rather than direct staff engineers
+- Make critical decisions during incidents, including containment actions, ensuring a timely and effective response
+- Build and maintain cross-functional relationships with other Staff Engineers and Managers, acting as an extension of leadership and fostering collaboration
+- Evangelize best practices, promote security awareness, and drive continuous improvement within the organization
 
 #### Staff Security Incident Response Team Engineer Requirements
 
@@ -185,7 +192,7 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
 - Robust understanding of security issues, mitigations, and a solid grasp of the current global threat landscape
 - Experience with the role of an incident manager during large scale security events
 - Familiarity with major cloud providers - GCP, AWS, Azure, Digital Ocean
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group).
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Performance Indicators
 
@@ -197,7 +204,8 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
   graph LR;
   sec:se(Security Incident Response Engineer)-->sec:sse(Senior Security Incident Response Engineer);
   sec:sse(Senior Security Incident Response Engineer)-->sec:stse(Staff Security Incident Response Engineer);
-  sec:stse(Staff Security Incident Response Engineer)-->sec:dse(Distinguished Security Incident Response Engineer);
+  sec:stse(Staff Security Incident Response Engineer)-->sec:pse(Principal Security Engineer, Security Operations);
+  sec:pse(Principal Security Engineer, Security Operations)-->sec:dse(Distinguished Security Engineer);
   sec:sse(Senior Security Incident Response Engineer)-->sec:sem(Security Incident Response Manager);
   sec:sem(Security Incident Response Manager)-->sec:sesm(Security Incident Response Senior Manager);
   sec:sesm(Security Incident Response Senior Manager)-->sec:ds(Director of Security Operations);

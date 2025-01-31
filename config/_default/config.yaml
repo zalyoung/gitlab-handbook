@@ -5,8 +5,6 @@ title: The GitLab Handbook
 enableRobotsTXT: true
 enableGitInfo: true
 
-googleAnalytics: G-41B5X0RBD8
-
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
@@ -39,7 +37,7 @@ params:
     sidebar_menu_compact: false
     sidebar_menu_foldable: true
     sidebar_cache_limit: 1000
-    sidebar_menu_truncate: 100
+    sidebar_menu_truncate: 120
     navbar_logo: true
     footer_about_disable: true
   copyright: "GitLab"
@@ -59,6 +57,11 @@ params:
         icon: "fa-solid fa-edit"
         desc: "Contribute to the handbook"
     developer: []
+
+caches:
+  getresource:
+    dir: :cacheDir/:project
+    maxAge: 24h
 
 staticDir:
         - data

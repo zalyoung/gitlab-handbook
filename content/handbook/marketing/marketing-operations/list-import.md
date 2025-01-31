@@ -1,39 +1,27 @@
 ---
-
 title: "List Imports"
-description: "The MktgOps team is responsible for importing records into Marketo for both field events and prospecting."
+description: "Processes for importing records into Marketo"
 ---
 
+#### Video Explanation of list upload process
 
-
-
-
-
-
-### FYI - Future State
-
-MktgOps is in the process of moving list imports to a [self-service and automated model](/handbook/marketing/marketing-operations/automated-list-import). We are still manually importing, but the future state will remove Mops uploading lists. For `event` related imports, please default to the `self-service` procedure as noted in the handbook and [event-clean-upload-list](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/event-clean-upload-list.md) issue template but ask for assistance from MktgOps, if needed. For `general` list imports, please continue using the issue template found in the Marketing Operations project titled [general-list-import-request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/general-list-import-request.md).
-
-Currently, the MktgOps team is responsible for importing records into Marketo for both field events and prospecting. List imports are processed in **Marketo** which has native matching by `Email Address` functionality.
-
-#### [Video Explanation of list upload process](https://drive.google.com/file/d/1Q9KtQbitoBHszV46zslxcKVStA-V5avG/view?usp=sharing)
+[Video Explanation of list upload process](https://drive.google.com/file/d/1Q9KtQbitoBHszV46zslxcKVStA-V5avG/view?usp=sharing) (internal)
 
 **Field event list uploads are to be done *before* any kind of follow up or outreach is done so we can ensure proper order of operations & attribution is given correctly.**
 
-There are three primary ways to import records into the database:
+There are a few ways to import records into the database:
 
 | Import Method | SLA | Submission Instructions | Operations Instructions |
 | :------------ | :-- | :---------- | :-------- |
 | Zoominfo w/in SFDC | self-managed | [Instruction video how to do this can be found in the handbook](/handbook/marketing/marketing-operations/zoominfo/) | Not applicable |
 | csv file | **Accepted by OPS** - 24 business hours<br><br>**Upload to SFDC** - up to 5 business days | Use [MktgOPS **general** list import request template](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=general-list-import-request), format as a Google Sheet (Gsheet) & place **link to Gsheet in issue**<br><br>Written Instructions how to use template | Ad Hoc Upload |
 | List from Field Event, Sposorship or Advertising | **Accepted & uploaded by OPS** - 24 business hours | Use [MktgOPS **event** clean and upload issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list), format and clean csv per instruction & place **link to Gsheet in issue**<br><br>Written Instructions how to use template | Field Event Upload<br><br>Alliance Event Upload |
-|[Zapier](/handbook/marketing/marketing-operations/zapier/) Connection|2-3 weeks prior to start date| Use [Zapier Request issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/zapier_connection_request.md)|N/A|
 
 #### Import Methods and their SLA
 
 The SLA for each import method has been decided based on the perceived optimal response time. The turnaround time for an `Event, Sponsorship and or Advertising` list upload is deemed a high priority due to the nature of necessary `SDR` outreach on "warm" prospects. If a list of prospects cannot be considered "warm", please expect a turnaround time of the listed 5 day SLA and use the appropriate template.
 
-#### If a last minute request, please open issue any way and ASK for a faster turnaround or ping OPS in `#mktgops` slack channel to discuss options
+**If a last minute request, please open issue any way and ASK for a faster turnaround or ping OPS in `#mktgops` slack channel to discuss options**
 
 #### Import Cleaning Template - Info for Pre-MktgOps Hand-off
 
@@ -82,8 +70,6 @@ The following data cleanup is required for any list prior to sending it to the M
 - **GitLab emails:** If the person has @gitlab in their email address, they will be highlighted in red under the blue column header and should be removed
 - **Duplicate Records:** If the person is a duplicate based on email address, they will appear red under the blue column header, and should be removed from the list.
 
-Video of how this works tbd.
-
 #### Best Practices
 
 1. Remove inaccurate entries
@@ -102,7 +88,7 @@ Video of how this works tbd.
 1. `Washington DC` is a `State` value and is not to be split up between `City` `State`.
 1. `Zip Codes` contain five (5) numbers, States in US East may start with a `0`, make sure the `Zip/Postal Code` field is **plain text** and the leading `0` appears.
 1. Member Statuses must match exactly to the program type and member status [listed](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status).
-1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://docs.marketo.com/display/public/DOCS/Import+a+Non-Latin+Characters+List). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/articleView?id=faq_import_dataloader_specialchars.htm&type=5).
+1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-programs/managing-people-in-email-programs/import-a-non-latin-characters-list). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/s/articleView?id=sf.faq_import_dataloader_specialchars.htm&type=5).
 1. If there are notes added to the `Last Event Notes` column, add the `SFDC campaign name` to the column titled `Last Event SFDC Campaign Name` for each lead that has notes. If there are no notes for that lead, do not add anything to either column. This column is used to automatically move notes to the `Qualification Notes` field found on lead and contact pages in Salesforce. That field is not overridden like the `Last Event Notes` field and it's where we can keep the notes for much longer.
 1. MktgOps reserves the right to remove irrelevant notes from the spreadsheet. Only upload important notes and please make sure they are cohesive.
 
@@ -132,7 +118,7 @@ Its also super important that if there are notes, the notes are clear to someone
 
 #### Partner Lead Imports
 
-If this import is part of a Channel or Alliance marketing campaign, you must include the `CRM Partner ID` as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id)
+If this import is part of a Channel or Alliance marketing campaign, you must include the `CRM Partner ID` as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#crm-partner-id)
 
 If the lead is not associated to a partner, leave that field blank.
 

@@ -1,15 +1,7 @@
 ---
-
 title: "YouTube uses and access"
 description: "We use YouTube as our single source of truth for video content including live streaming group conversations, marketing videos, demos, and more."
 ---
-
-
-
-
-
-
-
 
 ## Channels
 
@@ -46,7 +38,7 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
     - Select 'More'
     - Click 'Make Host' and select 'Yes'
     - The new host will now have the ability to livestream the call from Zoom
-1. Generally, for a livestream, it's helpful to have a separate person handling [promoting people to panelist](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-Participants-in-Webinar).
+1. Generally, for a livestream, it's helpful to have a separate person handling [promoting people to panelist](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063276).
 1. To improve accessibility, [enable live transcription](/handbook/tools-and-tips/zoom/#enable-captions-and-live-transcription).
 1. **Please don't include any confidential information in the description of your YouTube video since there is a bug that can cause [private video descriptions to propagate over to public ones](https://gitlab.com/gitlab-com/business-ops/team-member-enablement/issue-tracker/-/issues/809)**
 
@@ -56,27 +48,27 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
 
 1. Configure your Zoom [advanced meeting options](https://zoom.us/profile/setting#advanced_meeting_options) to enable livestreaming for YouTube.
 
-![click the more button](/handbook/marketing/marketing-operations/youtube/zoom_livestream_settings.png)
+![click the more button](/images/marketing/marketing-operations/youtube/zoom_livestream_settings.png)
 
 1. Click the \[ More ] button and click `Live on YouTube`
 
-![click the more button](/handbook/marketing/marketing-operations/youtube/zoom_live_on_youtube.png)
+![click the more button](/images/marketing/marketing-operations/youtube/zoom_live_on_youtube.png)
 
 1. Select the `GitLab Unfiltered` or `GitLab`
 
-![choose your account](/handbook/marketing/marketing-operations/youtube/choose_your_account.png)
+![choose your account](/images/marketing/marketing-operations/youtube/choose_your_account.png)
 
 1. Grant permissions to the YouTube account by clicking the `[Allow]` button
 
-![grant permissions](/handbook/marketing/marketing-operations/youtube/grant_permissions.png)
+![grant permissions](/images/marketing/marketing-operations/youtube/grant_permissions.png)
 
 1. Follow the instructions for [starting a recorded video](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
-![configure stream](/handbook/marketing/marketing-operations/youtube/stream_settings.png)
+![configure stream](/images/marketing/marketing-operations/youtube/stream_settings.png)
 
 1. Click the down arrow next to "Live on YouTube" in the top left once the streaming has begun. Then click "Copy Streaming Link" and paste in the agenda for easy reference post meeting.
 
-![stream link](/handbook/marketing/marketing-operations/youtube/youtube-stream-link.jpg)
+![stream link](/images/marketing/marketing-operations/youtube/youtube-stream-link.jpg)
 
 #### Video walkthough of how to Livestream to YouTube
 
@@ -93,16 +85,16 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Install and launch [OBS Studio](https://obsproject.com/download)
 
 1. Allow OBS to automatically configure your settings:
-    ![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
+    ![OBS Auto-Config](/images/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
 
 1. Accept the recommended video settings:
-    ![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
+    ![OBS Recommended Settings](/images/marketing/marketing-operations/youtube/obs_default_video_settings.png)
 
 1. Select "Custom" service and configure OBS to livestream to [GitLab's Unfiltered channel](https://www.youtube.com/live_dashboard?nv=1#):
-    ![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
+    ![OBS Configure Service](/images/marketing/marketing-operations/youtube/obs_configure_stream.png)
 
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
-    ![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
+    ![OBS Add Webcam](/images/marketing/marketing-operations/youtube/obs_video_source.png)
 
 ## Post everything
 
@@ -145,9 +137,19 @@ If you mark a video private when it doesn't need to be, it is be easy to undo: s
 
 Secrets (e.g. access tokens, private keys, passwords, and credentials to systems running on GitLab infrastructure) and GitLab team member personal data (phone numbers, home address) should never be shared in public. Any video that exposes secrets or team member personal data should not be shared as a public YouTube recording.
 
-Similarly, internal-only documents and private or confidential issues should not be shared publicly in YouTube videos. If a video uploaded to the unfiltered channel exposes non-public information, [make it private quickly](#make-private-quickly).
+Similarly, internal-only documents and private or confidential issues should not be shared publicly in YouTube videos.
 
-Videos which expose secrets or internal information can be made public again after ensuring that all sensitive information has been redacted using the [Blur feature in YouTube Studio](https://support.google.com/youtube/answer/9057652?hl=en).
+If a video contains secrets or sensitive information:
+
+1. Do not publish the video on YouTube or any other public platform.
+2. Immediately revoke any secrets that were exposed in the video.
+3. For other sensitive information like personal data, redact the information using the [Blur feature in YouTube Studio](https://support.google.com/youtube/answer/9057652?hl=en).
+4. Only after all secrets have been revoked and sensitive information redacted, you may proceed with publishing the video.
+
+Remember that blurring is not a substitute for revoking exposed secrets. Always prioritize revoking secrets over relying solely on blurring.
+
+If a video containing secrets or non-public information is accidentally uploaded to the Unfiltered channel, [make it private quickly](#make-private-quickly) and use `/security` in Slack to [engage the security engineer on call](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) to follow up on the leak.
+Videos which initially exposed secrets or internal information can be made public again only after ensuring that all secrets have been revoked and sensitive information redacted.
 
 ## Why not Google Drive
 
@@ -174,7 +176,7 @@ Always use YouTube and never use Google Drive, even for [private videos](#visibi
 1. can be easily viewed on other devices, like TVs or streaming devices, with YouTube support.
 1. allow links to a [specific time in the video](https://www.h3xed.com/web-and-internet/link-to-a-specific-time-in-a-youtube-video).
 1. can have subtitles added automatically.
-1. are [zero rated by some mobile providers](https://www.t-mobile.com/offer/binge-on-streaming-video.html)
+1. are [zero rated by some mobile providers](https://www.t-mobile.com/tv-streaming/binge-on)
 1. will be served to people when it is relevant, automatically, since YouTube is a distribution channel.
 1. allows anyone to contribute by leaving comments.
 1. public videos show up in Google search.
@@ -206,7 +208,7 @@ We don't post:
 
 ### Never unlisted
 
-We never post [unlisted](https://support.google.com/youtube/thread/10480825?hl=en) videos on any channel: it is too insecure for sensitive materials and not findable enough for public materials.
+We never post [unlisted](https://support.google.com/youtube/answer/157177#zippy=%2Cunlisted-videos) videos on any channel: it is too insecure for sensitive materials and not findable enough for public materials.
 Sometimes, some videos are still posted as unlisted, they can be spotted with this [link](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos/upload?filter=%5B%7B%22name%22%3A%22VISIBILITY%22%2C%22value%22%3A%5B%22UNLISTED%22%5D%7D%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D) (while using the `GitLab Unfiltered` account).
 You can change the visibility of videos by clicking on the `Details` buttons when you hover a video in the list linked above.
 
@@ -219,11 +221,11 @@ In order to see the video,
 
 1. Then Click > Switch Account
 
-![Switch-Account](/handbook/marketing/marketing-operations/youtube/Switch_account.png)
+![Switch-Account](/images/marketing/marketing-operations/youtube/Switch_account.png)
 
 1. Now Select > GitLab Unfiltered. Do not select the account with your name. If GitLab Unfiltered is not an option, see [Access](/handbook/marketing/marketing-operations/youtube/#access)
 
-![Select-User](/handbook/marketing/marketing-operations/youtube/YouTube_account.png)
+![Select-User](/images/marketing/marketing-operations/youtube/YouTube_account.png)
 
 1. Once you are on GitLab unfiltered, **reload** the page and you can view the video
 
@@ -231,8 +233,8 @@ Check out [this video](https://www.youtube.com/watch?v=dZtCuOf5aGk) for a visual
 
 ## Access
 
-1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
-1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation in the `#people-connect` Slack channel.
+1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation with the People Connect Team via HelpLab.
 
 For People Connect troubleshooting:
 
@@ -262,7 +264,7 @@ The GitLab Unfiltered YouTube account is a shared space. Sometimes team members 
 
 If you see a channel subscription or comment that violates the rules of this handbook, please take a bias-for-action to keep the GitLab Unfiltered
 YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable
-to remove the relevant comment or subscription, please notify people-connect@gitlab.com immediately.
+to remove the relevant comment or subscription, please notify the People Connect Team immediately via HelpLab.
 
 ## Organizing
 
@@ -348,9 +350,9 @@ Depending on your needs, you might want use software to provide overlays and/or 
 ### Audio Rerouting
 
 - [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew install --cask soundflower`
-- [Loopback Mac Closed Source](http://www.rogueamoeba.com/loopback/) - Great closed source alternative
+- [Loopback Mac Closed Source](https://www.rogueamoeba.com/loopback/) - Great closed source alternative
 - [Windows alternatives](https://www.reddit.com/r/audioengineering/comments/3geqse/soundflower_alternative_on_windows/)
-- [Linux alternatives](http://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)
+- [Linux alternatives](https://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)
 
 ### Setup
 
@@ -360,10 +362,10 @@ Depending on your needs, you might want use software to provide overlays and/or 
 - Open up OBS Studio and open preferences
 - Input your encoder variables under "Stream"
 
-![obs studio preferences](/handbook/marketing/marketing-operations/youtube/OBS_Studio_Stream.jpeg)
+![obs studio preferences](/images/marketing/marketing-operations/youtube/OBS_Studio_Stream.jpeg)
 
 - Configure your to-be-recorded software's audio to be rerouted to an alternative audio source/output.
-- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](http://code-zest.blogspot.nl/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
+- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](https://code-zest.blogspot.com/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
 - Under "Video" select your preferred resolution and fps settings. Please take note that these should optimally reflect video aspect ratio such as `1920x1080`.
 - Optionally you can set up some output options under "Output"
 - In the normal window of OBS Studio you should now see 2 audio sliders, including "Mic/Aux 2". Configure these to your liking.

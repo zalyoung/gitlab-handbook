@@ -1,15 +1,7 @@
 ---
-
 title: "Test Platform Project Management"
 description: "Guidelines for project management for the Test Platform Sub-Department at GitLab"
 ---
-
-
-
-
-
-
-
 
 ## Projects
 
@@ -69,7 +61,7 @@ Deprecation of a project is a significant decision and should be based on clear,
 
 - Decline in usage metrics over a sustained period.
 - Lack of relevance to current organizational goals or technology trends.
-- Existence of newer tools or platforms that effectively replace the project’s functionality.
+- Existence of newer tools or platforms that effectively replace the project's functionality.
 
 The process of deprecating a project should be methodical and transparent to all stakeholders:
 
@@ -77,7 +69,7 @@ The process of deprecating a project should be methodical and transparent to all
 - Inform all stakeholders, including project maintainers, users, and dependent teams, about the decision to deprecate.
 - For an established project, ensure all valuable data and documentation are securely [archived](https://docs.gitlab.com/ee/user/project/settings/migrate_projects.html#archive-a-project).
 - Move the archived project in the [test-platform-deprecated](https://gitlab.com/groups/gitlab-org/quality/test-platform-deprecated/-/archived) group.
-- Consider [deleting the project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#delete-a-project) after a three-month window from the archival for established projects. Deletion can be performed immediately for personal and POC projects once the purpose is served.  
+- Consider [deleting the project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#delete-a-project) after a three-month window from the archival for established projects. Deletion can be performed immediately for personal and POC projects once the purpose is served.
 
 ### Reviewers and maintainers
 
@@ -98,7 +90,7 @@ Upon joining the Test Platform sub-department, team members are granted either d
     - Authored and reviewed 10 MRs related to adding new end-to-end tests or making substantial improvements to existing ones.
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
   - Select Self-Managed Platform team members are code owners for this directory. If you are tagged by a developer and don't yet feel comfortable approving a merge request, please reach out to the Self-Managed Platform team to help review.
-  - In general, team members looking to become maintainers of this project are recommended to have a good working knowledge of [Terraform](https://www.terraform.io/), [Ansible](https://www.ansible.com/) and the GitLab application itself first before applying. We expect that team members will generally feel comfortable and will be granted maintainer access once they have:
+  - In general, team members looking to become maintainers of this project are recommended to have a good working knowledge of [Terraform](https://www.terraform.io/), [Ansible](https://www.redhat.com/en/ansible-collaborative) and the GitLab application itself first before applying. We expect that team members will generally feel comfortable and will be granted maintainer access once they have:
     - Authored and reviewed 10 MRs related to improvements to the toolkit.
     - Authored and reviewed 5 MRs related to adding making substantial improvements or additions.
   - After completing the above requirement, the maintainer should be vetted by an existing maintainer for the Toolkit. An issue should be created in the project outlining the reasons why this person should be a maintainer. List all 15 MRs in the issue to help aid with review.
@@ -156,4 +148,4 @@ This also ensures that the data rolled up to the top level board is consistent.
 
 ### Board Overview
 
-![Mermaid.png](Mermaid.png)
+![Mermaid.png](/images/engineering/infrastructure/test-platform/project-management/Mermaid.png)

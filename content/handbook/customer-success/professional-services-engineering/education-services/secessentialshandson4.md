@@ -17,7 +17,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL if you are in Self-Paced Training, or `https://ilt.gitlabtraining.cloud` if you are in Instructor-Lead Training, and the project should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL if you are in Self-Paced Training, and the project should appear in your history.
 
 1. Before beginning this lab, you should ensure that the dependency scanning template is enabled in your CI/CD pipeline. To verify this, check your `.gitlab-ci.yml` file. Under `include`, you should see the template `Security/Dependency-Scanning.gitlab-ci.yml`:
 
@@ -70,9 +70,9 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select the **Run pipeline** button at the top right of the page.
+1. Select the **New pipeline** button at the top right of the page.
 
-1. Leave all of the options at their default values, then select **Run pipeline**.
+1. Leave all of the options at their default values, then select **New pipeline**.
 
 1. Monitor your pipeline and wait for each job to complete successfully.
 
@@ -92,13 +92,13 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Wait for the pipeline for the merge request to complete.
 
-1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected. Click **Full report**.
+1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected.
 
-1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy.
+1. Return to the merge reqest overview.
 
-1. Return to the merge request overview.
+1. Click **Full report**.
 
-1. Note that the merge status will appear stating **Requires 1 approval from policy**.
+1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy Note that the merge status will appear stating **Requires 1 approval from policy**.
 
 1. A new comment is also added to the activity of the merge request, stating that a policy violation was detected.
 
@@ -122,4 +122,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.

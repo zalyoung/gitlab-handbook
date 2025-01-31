@@ -62,13 +62,13 @@ Although this working group is closing, our work to improve GitLab's database an
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
 | Track | A sub-group within the WG that tackles one scaling pattern. | | |
 
-![Database Terms](./DB-terminology.png)
+![Database Terms](/images/company/working-groups/database-scalability/DB-terminology.png)
 
 ### Overview
 
-Our current architecture relies, almost exclusively and by design, on a [single database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/strategy.html#single-data-store) to be the sole and absolute manager of data in terms of storage, consistency, and query results collation. Strictly speaking, we use a single **logical** database that is implemented across several **physical** [replicas](/handbook/engineering/architecture/practice/scalability/#example-postgres-current-state) to handle load demands on the database backend (with the single pseudo-exception of storing diffs on object storage).  Regular analysis of database load, however, is showing that this approach is unsustainable, as the primary RW database server is experiencing high peaks that are approaching the limits of vertical scalability.
+Our current architecture relies, almost exclusively and by design, on a [single database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/doc/strategy/#single-data-store) to be the sole and absolute manager of data in terms of storage, consistency, and query results collation. Strictly speaking, we use a single **logical** database that is implemented across several **physical** [replicas](/handbook/engineering/architecture/practice/scalability/#example-postgres-current-state) to handle load demands on the database backend (with the single pseudo-exception of storing diffs on object storage).  Regular analysis of database load, however, is showing that this approach is unsustainable, as the primary RW database server is experiencing high peaks that are approaching the limits of vertical scalability.
 
-We explored [sharding]({{< ref "sharding" >}}) last year and scoped it to the database layer. We concluded that while there are solutions available in the market, they did not fit our requirements, both in financial and product fit terms, as they would have forced us into a solution that was difficult (if not impossible) to ship as part of the product.
+We explored [sharding](/handbook/company/working-groups/sharding/) last year and scoped it to the database layer. We concluded that while there are solutions available in the market, they did not fit our requirements, both in financial and product fit terms, as they would have forced us into a solution that was difficult (if not impossible) to ship as part of the product.
 
 We are now kicking off a new iteration on this problem, where the scope is **expanded** from the database layer into the application itself, as we recognize this problem cannot be solved to meet our needs and requirements if we limit ourselves to the database: we must consider careful changes in the application to make it a reality.
 
@@ -95,7 +95,7 @@ We are at the stage of having to embrace functional decomposition by separating 
 
 ### Data access layer
 
-We recognize the advantages of a [single application](/handbook/product/single-application/#single-application) and wish to maintain the view of a [single data store](/handbook/product/single-application/#single-data-store) as far down the stack as possible. It is imperative we maintain a high-degree of flexibility and low-resistance for developers, which translates into a cohesive experience for administrators and users. To that end, we will need to build and introduce a data access layer that the rest of the application can leverage to access backend data stores (which is not a new concept for GitLab, as the success of [Gitaly](https://gitlab.com/gitlab-org/gitaly) clearly shows).
+We recognize the advantages of a [single application](/handbook/product/categories/gitlab-the-product/single-application/#single-application) and wish to maintain the view of a [single data store](/handbook/product/categories/gitlab-the-product/single-application/#single-data-store) as far down the stack as possible. It is imperative we maintain a high-degree of flexibility and low-resistance for developers, which translates into a cohesive experience for administrators and users. To that end, we will need to build and introduce a data access layer that the rest of the application can leverage to access backend data stores (which is not a new concept for GitLab, as the success of [Gitaly](https://gitlab.com/gitlab-org/gitaly) clearly shows).
 
 As we look at scaling the database backend, a *global* reliance on the database to be the sole executor of data management capabilities is no longer possible. In essence, the scope of responsibility is now more *localized*, and the application must accept some of these responsibilities. These cannot be implemented in an ad-hoc fashion, and should be centralized in a data access layer that, on the one hand, understands the various backends supporting data storage, and on the front-end, can service complex queries and provide the necessary caching capabilities to address the latencies that will be introduced by trying to scale the database horizontally, all while hiding the backend details from the rest of the application.
 
@@ -123,7 +123,7 @@ We should consider some of the following patterns:
 
 These patterns can also be used in combination. For example, partition based on time and drop partitions older than X months.
 
-For details, see the [blueprint]({{< ref "time-decay" >}}).
+For details, see the [blueprint](/handbook/company/working-groups/database-scalability/time-decay/).
 
 #### Entity/Service
 

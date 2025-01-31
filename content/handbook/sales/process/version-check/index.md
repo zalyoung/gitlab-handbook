@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Version Check"
 ---
-
-
-
-
-
-
 
 [Blog post about version check](https://about.gitlab.com/blog/2015/05/07/version-check/)
 
@@ -34,7 +27,7 @@ relation to the upgrades available.
 
 | Up to date | Update available | Update ASAP |
 | ------ | ------ | ------ |
-| <img src="images/up-to-date-badge.png" width="300px" alt="" /> | <img src="images/update-available-badge.png" width="300px" alt="" /> | <img src="images/update-asap-badge.png" width="300px" alt="" /> |
+| <img src="/images/sales/process/version-check/up-to-date-badge.png" width="300px" alt="" /> | <img src="/images/sales/process/version-check/update-available-badge.png" width="300px" alt="" /> | <img src="/images/sales/process/version-check/update-asap-badge.png" width="300px" alt="" /> |
 
 **UI Location(s)**
 
@@ -66,7 +59,7 @@ hidden and set to reappear in 3 days.
 
 | No Stable Versions or Details | Stable Versions but no Details | Both Stable Versions and Details |
 | ------ | ------ | ------ |
-| ![No Stable Versions](images/critical-security-modal-no-stable-versions.png) | ![Stable Versions](images/critical-security-modal-stable-versions.png) | ![Stable Versions and Details](images/critical-security-modal-stable-versions-description.png) |
+| ![No Stable Versions](/images/sales/process/version-check/critical-security-modal-no-stable-versions.png) | ![Stable Versions](/images/sales/process/version-check/critical-security-modal-stable-versions.png) | ![Stable Versions and Details](/images/sales/process/version-check/critical-security-modal-stable-versions-description.png) |
 
 **UI Location(s)**
 
@@ -80,7 +73,7 @@ hidden and set to reappear in 3 days.
 
 In the past we used to provide the version check to the UI through an API call that you could see in your Network tab.  **This has changed** and is now provided to the UI [through Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/103248).
 
-The current architecture is a bit complicated due to the nature of the [`ReactiveCaching`](https://docs.gitlab.com/ee/development/reactive_caching.html) mechanism we are using. This cache is powered by [Sidekiq](https://github.com/mperham/sidekiq) and is executed through Background Jobs (`/admin/background_jobs`) with the goal of housing and rehydrating your instance's version status. We have an aggressive caching mechanism due to the nature of this data being fetched from an external endpoint and being needed throughout the GitLab application.
+The current architecture is a bit complicated due to the nature of the [`ReactiveCaching`](https://docs.gitlab.com/ee/development/reactive_caching.html) mechanism we are using. This cache is powered by [Sidekiq](https://github.com/sidekiq/sidekiq) and is executed through Background Jobs (`/admin/background_jobs`) with the goal of housing and rehydrating your instance's version status. We have an aggressive caching mechanism due to the nature of this data being fetched from an external endpoint and being needed throughout the GitLab application.
 
 We have an exploration started into transitioning to [Cron](https://en.wikipedia.org/wiki/Cron) with a more traditional [caching approach](https://gitlab.com/gitlab-org/gitlab/-/issues/385017).
 

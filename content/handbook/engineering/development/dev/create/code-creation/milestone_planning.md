@@ -4,26 +4,103 @@ title: "Create:Code Creation Group Milestone Planning"
 
 At GitLab and on the Code Creation team, we believe in a structured yet flexible approach to milestone planning to ensure that our engineering and product teams are aligned, focused, and able to deliver high-quality work efficiently. This page outlines our process for planning and preparing for milestones.
 
-## Monthly Planning Issue Creation
+## Issue Creation
 
-- **Frequency and Purpose**: On the first of every month, a planning issue is automatically created to serve as the cornerstone for that month's milestone planning.
-Responsibility: The creation of the planning issue is overseen by the engineering manager (EM).
-- **Location**: Planning issues can be found in the [Create stage project](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Acode%20creation&first_page_size=20).
+When creating a new issue, add as many details as possible during initial creation when knowledge is fresh. [Assume low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) for anyone reading or picking up the issue, and write down any information you think would be relevant.
 
-## Role of Engineering and Product Managers
+Label new issues with “workflow::refinement” if they need further discussion or estimation.
 
-- **Collaboration**: The engineering manager (EM) and product manager (PM) work closely to prioritize upcoming issues for the next milestone.
-- **Input from Engineers**: Engineers are encouraged to provide insights and recommendations on which issues should be considered for the upcoming milestone.
+Follow this template in the description:
 
-## Planning and Triage Process
+```markdown
+## Context
 
-- **Objective**: This process is not for issue resolution but for preparation and estimation for the upcoming milestone.
-- **Issue Assignment**: During the current milestone, each engineer is assigned 1-2 upcoming issues that are likely to be included in the next milestone.
-- **Due Date**: The triage process should be complete at least one week before the end of the current milestone.
-- **Time Management**: Engineers are to dedicate no more than one hour per issue for review and preparation.
-  - **Review Criteria**: Engineers review the title and description of assigned issues to ensure the scope of work is clearly defined.
-  - **Estimation and Comments**: If the issue is well-defined, engineers add an estimate. If additional details are needed, they should leave a comment accordingly.
-  - **Issue Readiness**: Issues that are ready for development receive the "ready for development" label. Issues deemed no longer valid should be closed.
+_Summary or background of the feature, feature change, bug, or investigation. If applicable, include subsections such as "Further Details", "Scope", etc._
+
+## References and Resources
+
+_Include any links to documentations, other issues, or MRs that you think may be useful to the assignee. If applicable, indicate a domain expert or resource person/group._
+
+## Proposal
+
+_Proposed/suggested solution or any guidance related to it. For investigations or spikes, this may describe an expected outcome or expected output._
+```
+
+## Issue Refinement
+
+The goal of issue refinement is to have engineers review issues to ensure they are ready for development and provide lightweight estimates.
+
+1. Initial Labeling:
+    - When a new issue is created or identified as a potential priority, it should be labeled with "workflow::refinement"
+    - This label indicates that the issue needs refinement/triaging before it's ready for development
+2. Refinement Timing and Capacity:
+    - Refinement work is considered equal priority to development work
+    - Engineers should plan to spend approximately 20% of their time on refinement activities
+    - Focus on refining issues for the next 1-2 milestones to balance advance planning with changing requirements
+    - Avoid leaving all refinement work to the end of a milestone
+3. Asynchronous Refinement Process:
+    - Team members, regardless of their timezone, can review issues with the "workflow::refinement" label at their convenience
+    - Use the issue comments for discussion and clarification. You may loop in other team members or domain experts from outside the team to provide further context and/or give feedback on a proposed solution.
+    - Individual team members are encouraged to schedule regular, asynchronous backlog refinement sessions on their calendars
+    - Use the [Code Creation Refinement Board](https://gitlab.com/groups/gitlab-org/-/boards/8994789) to make issues needing refinement easy to find
+4. Refinement Tasks:
+    - Team members should focus on the following when refining an issue:
+        - Clarify the issue description and requirements
+        - Break down the issue into smaller, manageable tasks if needed
+        - Identify and document any dependencies or blockers
+        - Estimate the effort required and assign a corresponding weight to the issue. Refer to [issues estimation](#issues-estimation) section for guidance.
+5. Refinement Completion:
+    - Once a team member believes the issue has been sufficiently refined, they should:
+        - Ensure that the issue has the appropriate weight
+        - Add the "workflow::ready for development" label and remove the "workflow::refinement" label
+
+## Milestone Planning
+
+Once we have a sufficient pool of refined issues, we can proceed with milestone planning:
+
+1. Capacity Planning:
+    - The Engineering Manager calculates available capacity for the upcoming milestone using:
+        - Planned time off
+        - Historic velocity
+        - Allocated refinement time
+        - Other non-development activities (meetings, reviews, etc.)
+2. Carryover Work:
+    - Identify any issues that will not be completed in the current milestone
+    - Adjust weights to reflect remaining work
+    - Consider impact on next milestone's capacity
+3. Refinement Prioritization:
+    - The Engineering Manager and Product Manager identify and prioritize issues that need refinement for the upcoming 1-2 milestones
+4. Issue Selection:
+    - The Product Manager defines strategic priorities
+    - Creates a prioritized list of issues for the upcoming milestone
+    - Focus on issues that have already been refined when possible. These are issues with label "workflow::ready for development" and a weight.
+    - If the PM identifies an issue that must go in the next milestone but is not yet labelled as "workflow::ready for development", they must flag that as early as possible and loop in a team member to refine the issue.
+5. Issue Labels
+    - The Product manager adds the correct `code-creation-priority` labels to indiciate the importance of each issue
+    - The Engineering Manager adds the ["Deliverable" label](/handbook/product-development-flow/#required-labels) to items we commit to focusing on in this milestone
+    - Mark issues that exceed predicted capacity as "Stretch"
+
+## Role of Team Members
+
+Engineers
+
+- Actively participate in issue refinement activities
+- Provide insights and recommendations on technical feasibility and implementation approach
+- Share domain knowledge and expertise during refinement discussions
+- Self-manage refinement work to meet the 20% time allocation target
+
+Engineering Manager:
+
+- Calculates team capacity and manages milestone planning
+- Works with PM to prioritize upcoming issues
+- Ensures refinement activities are properly distributed across the team
+
+Product Manager:
+
+- Defines strategic priorities for upcoming milestones
+- Works with EM to prioritize upcoming issues
+- Ensures issue requirements and acceptance criteria are clear
+- Works with EM to identify future refinement needs for upcoming work
 
 ## Issues Estimation
 
@@ -33,12 +110,23 @@ Here are the weights we use for issue estimation:
 
 A weight of 5 generally indicates the problem is not clear or a solution should be instead converted to an Epic with sub-issues. In these cases we may want to create a spike issue, which is an issue that is used to investigate and clarify the scope of the original issue. That spike issue can be used to help break down the original issue.
 
-## Capacity Planning for the Next Milestone
+## What To Work On
 
-- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](/handbook/people-group/paid-time-off/) schedules and other commitments.
-- **Issue Selection**: The EM selects top-priority issues until the capacity target is met, using the ["Deliverable" label](/handbook/product-development-flow/#required-labels) to mark committed issues.
+### Work Prioritization
 
-## Prioritization and Execution of Work
+Issues are prioritized using a combination of two label types:
+
+- The `Deliverable` label indicates work we commit to completing in the current milestone
+- The `code-creation-priority` labels (high, medium, low) indicate the strategic importance of the work
+
+The priority order for work is:
+
+1. Issues labeled as both `Deliverable` and `code-creation-priority::high`
+2. Other `Deliverable` issues (regardless of their priority level)
+3. Non-deliverable issues based on their priority:
+    - `code-creation-priority::high`
+    - `code-creation-priority::medium`
+    - `code-creation-priority::low`
 
 ### What to Work on First: Deliverables
 
@@ -50,8 +138,8 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 ### What to Work on Next
 
 - **Stretch Issues**: After fulfilling deliverable responsibilities and other activities, engineers can use any remaining time to work on Stretch issues. These are lower priority and not expected to be completed within the current iteration cycle but are potential deliverables for the next cycle. Early progress on these issues is considered a bonus.
-- **Other Ideas**: Engineers are encouraged to use spare time to contribute to any work they believe will significantly benefit the product or company. As the [general guidelines state](/handbook/values/#dont-wait), “we recognize that inspiration is perishable, so if you’re enthusiastic about something that generates great results in relatively little time feel free to work on that.” While pursuing such initiatives, engineers should ensure proper issue assignment and consider sharing their work in relevant channels for visibility and collaboration.
-- **Responsibility over Rigidity**: We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency), so there’s no need to ask for permission if you decide to work on something that’s not on the issue board, but please keep your other responsibilities in mind, and make sure that there is an issue, you are assigned to it, and you share it with the team.
+- **Other Ideas**: Engineers are encouraged to use spare time to contribute to any work they believe will significantly benefit the product or company. As the [general guidelines state](/handbook/values/#dont-wait), "we recognize that inspiration is perishable, so if you're enthusiastic about something that generates great results in relatively little time feel free to work on that." While pursuing such initiatives, engineers should ensure proper issue assignment and consider sharing their work in relevant channels for visibility and collaboration.
+- **Responsibility over Rigidity**: We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency), so there's no need to ask for permission if you decide to work on something that's not on the issue board, but please keep your other responsibilities in mind, and make sure that there is an issue, you are assigned to it, and you share it with the team.
 
 ## Workflow and Label Management
 
@@ -59,3 +147,15 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 - **Responsibility**: Engineers are responsible for keeping the workflow labels up to date on all issues they are working on during the milestone.
 
 This milestone planning process is designed to maximize our team's effectiveness by ensuring that everyone is aligned on priorities and responsibilities. It fosters a collaborative environment where every team member contributes to the planning process, leading to a more organized and productive development cycle.
+
+## Planning Metrics and Continuous Improvement
+
+In order to measure the efficiency of this process we should track and regularly review the metrics
+
+We track metrics such as:
+
+- Average time an issue spends in refinement
+- Number of issues refined per week
+- Time spent on refinement activities vs. development
+
+We also gather feedback from team members during retrospectives on the process.

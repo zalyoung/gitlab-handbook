@@ -3,78 +3,82 @@ title: "Research prioritization"
 description: "How UX Researchers priortize projects"
 ---
 
-Working from a prioritized list of research projects is necessary for UX Researchers at GitLab. This page walks through a process for UX Researchers to adopt within their own stages and stage groups to prioritize their research projects.
+Though the UX Researchers are not the only ones who conduct user research in GitLab, we are responsible for ensuring all research are of high quality and impact-driven. As a small team, we apply the **Global Prioritisation Framework and Process**, so we can:
 
-## Why it’s important to prioritize research projects
-
-Researchers have limited capacity, so it’s important to make sure they’re spending their time on the most impactful research projects that are best suited for them to address directly. A set of prioritized projects helps the UX Researcher to push back when lower-priority projects surface. Having a prioritized list also helps UX Researchers move quickly on alternate projects as things change throughout the quarter.
+- Assure org-wide assessment and prioritisation of topmost research initiatives
+- Create programs that break down silos and standardise data triangulation
+- Reduce the risk of duplicating efforts (current and past work)
+- Facilitate learning and collaboration among researchers
 
 ## Who is responsible for research project prioritization?
 
-UX Researchers provide a point of view on prioritization. Ultimately, Group Product Managers or Directors of Product make the final decision on research project prioritization. The below process is designed to help facilitate research project prioritization in a standardized way.
+UX Researchers at Gitlab work on multiple stage groups and often across stages. The UX Researchers provide a point of view on prioritization of the areas they support (See [who's supporting which areas](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned)). And ultimately, Group Product Managers or Directors of Product make the final decision on research project prioritization.
 
-## Challenges when prioritizing research projects
+## What is the cadence of UX Research global prioritization?
 
-Trying to prioritize research projects across stages and stage groups can be difficult for PMs and UX Researchers, because UX Researchers at GitLab work on multiple stage groups and often across stages. This structure results in UX Researchers working with a number of stakeholders, each with their own priorities. Some other reasons include:
+The UX Research team go through the process at the beginning of every quarter in a syncronised manner, aligning with the company's OKR planning timeline. This is when the majority of research requests are raised, either by stakeholders or by UX Researchers themselves. These requests are then discussed, assessed and prioritized.
 
-- There is a lack of a standard criteria for prioritization
-- New research projects are identified after prioritization
-- Priorities sometimes conflict across teams
-- There is a high volume of research projects where a UX Researcher could help
+However, a good number of research requests are raised during the quarter. This is because things change, and priorities shift, especially in the fast moving tech industry. Ad-hoc research requests are discussed, assessed and prioritized using the same framework as the ones raised when the quarter starts.
 
-The following process can help address these challenges.
+When the team is at capacity, taking on new prjects requries stopping something else. New projects with higher priority bump lowest priority current work.
 
-## How to prioritize research
+## How the quarterly global prioritization works
 
-The steps outlined here offer guidance and recommendations (not requirements) that can be adjusted to fit team needs. This process is best suited to teams that have changing research priorities and availability to support UX Researchers as they take the lead on projects. This process takes 3 weeks to complete and should be started prior to the start of the quarter.
+**Step 1. The In-Take**
 
-**Step 1: Create a quarterly research planning issue**
+At the beginning of a new quarter, the UX Researchers check in with stakeholders in Product and Design on any changes and development in strategies / KRs / roadmaps and discuss possible new research projects or adjustments to existing ones. This can be done with a templated **UXR Global Prioritsation Intake Issue**.
 
-On a quarterly cycle, the UX Researcher will create a research planning issue that includes a list of prospective studies to be prioritized. UX Researchers should work together with Product Managers and Product Designers from the stage groups they support to generate a list of research questions and projects in the research issue. When possible, UX Researchers will propose projects that address research questions from across the team.
+**Step 2. Understanding the Basics**
 
-The issue with all known potential research issues should be ready for prioritization two weeks before the start of the quarter.
+Every research requests, either proposed by the stakeholders or by UX Researchers, goes through **an initial and organic sense-checking phase**, where we talk about the basics like problems to solve, research goals, what decisions the research will feed into, and the intended business impact type.
 
-Throughout the quarter, the UX Researcher will use the research planning issue as a single source of truth and will communicate the status of prioritized research projects and link dedicated research project issues ([see example research planning issue](https://gitlab.com/gitlab-org/ux-research/-/issues/1716)).
+Every requests should have one main intended impact type clearly identified.
 
-![sharesettings](example_research_issue.png)
+| Category | Impact types |
+| -------- | ---------- |
+|Impact on Decisions | 1. Changes in strategy / Plan <br> 2. Changes in product / design |
+| Impact on Knowledge | 1. Knowledge gaps identified/filled <br> 2. User's perception of our product captured <br> 3. Next big opportunity identified |
+| Impact on UXR Maturity | 1. Improvement on UXR process efficiency <br> 2. Improvement on UXR quality & reliability |
 
-Monthly, the UX Researcher will facilitate revisiting the research planning issue to refine and update the list to align with monthly development cycles and address any ad-hoc requests.
+Some requests may be dropped at this phase as a result of people making connections and identifying existing insights, more efficient alternatives, or coming to the agreement that there is no clear case for business impact.
 
-Optional: As research issues are created throughout the quarter, teams can use a label to show status and [support level](https://research-prioritization.about.gitlab-review.app/handbook/product/ux/ux-research/research-prioritization/index.html#about-the-researcher-support-level). This provides flexibility in how the teams want to view in-flight research throughout the quarter.
+Some requests may be folded into other requests or existing projects due to overlapping goals, research questions and scope.
 
-*Timeline guidance for Step 1:* This should be completed within one week
+**Step 3. Assessing Priority and Support Levels**
 
-**Step 2: Use the Research Priority Calculator**
+All other requests are **assessed and given a priority level** from P1 to P4. This is done by the UX Researcher leading a discussion with stakeholders using our priority calculator as a guide ([Demo here](https://docs.google.com/spreadsheets/d/1Pl50jZsyH61JoFme_vgwv-OpWey3Wo6s_wLlNSSOgKQ/edit?gid=1835190489#gid=1835190489) - internal access only).
 
-The UX Researcher and Product Manager will use the [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5YJ1g7mA09gMicKHobW54iykdqmB-3dYhhUqKjJ4/copy) (search [Template] UX Research Prioritization Calculator in Google Drive to access) to determine the priorities of identified research projects each quarter. For a detailed legend on each criteria, see the second tab in the [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5YJ1g7mA09gMicKHobW54iykdqmB-3dYhhUqKjJ4/copy) labeled "Criteria Legend."
+<details>
+<summary>Click to see more details</summary>
 
-1. UX Researcher: Make a copy of the calculator template and create line items for each research project identified in the quarterly planning issue and include any projects from the previous quarter that still require work.
-1. UX Researcher or Product Managers: Fill in the values for each of the columns in the calculator to get a sense of the scores for the projects.
-1. UX Researcher + Product Managers/Group Product Managers/Section Product Managers: Discuss the recommendations given by the calculator and adjust column selections, as needed (for example: if there is a new/interim Product Manager or Product Designer, Bronze projects may be listed as Silver projects to help them onboard and we prioritize the project slightly higher based on the Skill Development criteria). Consider the timeframe in which the research needs to be delivered. While this is not a criteria in the calculator, it should be considered in the final prioritization. It can be helpful to have this discussion with the Product Director instead of Group Product Managers if a UX Researcher covers stages with different Group Product Managers.
-1. UX Researcher: Determine the appropriate cutoff for work that can or cannot be completed during the quarter. Communicate which projects **will not be prioritized** this quarter to the affected stakeholders within the research planning issue.
-For more details on the calculator, see [about the research priority calculator](/handbook/product/ux/ux-research/research-prioritization/#about-the-research-priority-calculator).
+The priority calculator asks 6 questions and for each quetion gives a score from 1-5. The average score is mapped to the priority levels.
 
-*Timeline guidance for Step 2:* This should be completed within one week
+| Criteria  | Question| Score/Weight |
+| ------ | ------ | ------ |
+| Impact | What is the business impact if we don't do this research? | 1: Critical Impact - Major Risks <br> 2: High Impact - Significant opportunity <br> 3: Moderate impact - helpful insights <br> 4: Low impact - nice to have <br> 5: Minimal impact - no clear case |
+| Users | How many users/customers would this affect? | 1: All users/critical segment <br> 2: Large user segment <br> 3: Medium user segment <br> 4: Small user segment <br> 5: Very few users |
+| Dependency | Is this blocking any immediate decisions? | 1: Blocking critical launch <br> 2: Blocking important decision <br> 3: Input needed soon <br> 4: Future planning <br> 5: No specific decision |
+| Timeline | What is the timeline flexibility? | 1: This quarter <br> 2: Immediate (this month) <br> 3: Within 6 months <br> 4: Within 9 months <br> 5: No timeline pressure |
+| Alternatives | Are there alternative ways to get this information? | 1: No alternatives exist <br> 2: Limited alternatives <br> 3: Some alternatives <br> 4: Some good alternatives <br> 5: Many alternatives <br> |
+| Alignment | How does this align with our strategic goals? | 1: Core strategic priority <br> 2: Aligns with quarterly goals <br> 3: Support team objectives <br> 4: Indirect alignment <br> 5: No clear alignment |
 
-{{< youtube "hLZko4SUGFU" >}}
+| Priority Levels  | Average Scores | Descriptions |
+| ------ | ------ | ------ |
+| P1 (Must Do) | <=1.5 | **Critical business impact**: Directly affects key company metrics/OKRs and yearlies; Blocking major product launch/release;  Addressing unknowns about major product launch/release; Legal/compliance requirement <br> **High risk without research**: Potential significant revenue loss; Major user experience degradation; Security/privacy concerns |
+| P2 (Should Do) | <=2.4  | **Strategic importance**: Aligned with quarterly goals; Significant product decisions pending; Multiple teams/products affected. <br> **Clear business impact**: Revenue opportunity > $X; Affects substantial user base; Time-sensitive opportunity |
+| P3 (Nice to Do) | <=3.5 | **Moderate business impact**: Affects single product/feature; Medium-term decisions; Limited scope of impact <br> **Good opportunity**: Improves existing experience; Supports team planning; Builds knowledge base |
+| P4 (Backlog) | <=4.5 | **Low immediate impact**: Future planning; Non-critical improvements; Nice-to-have insights <br> **Can be delayed**: No immediate decisions pending; Alternative data sources available; Lower strategic alignment |
+| Will Not Do | >4.5 | **Minimal business impact**: No clear business case; Very limited scope; Duplicate of existing research <br> **Resource intensive**: High effort, low return; Requires significant resources; Better addressed by other means |
 
-**Step 3: Transfer the results to the quarterly research planning issue**
+</details>
+<br>
 
-The last step is to bring the results from the calculator to the quarterly research planning issue, and then discuss them with the teams.
+We then use the support level calculator ([demo](https://docs.google.com/spreadsheets/d/1Pl50jZsyH61JoFme_vgwv-OpWey3Wo6s_wLlNSSOgKQ/edit?gid=876356301#gid=876356301) - internal access only) to decide how UX Researcher should best support the effort.
 
-1. Transfer the list of projects from the research priority calculator into the research planning issue by creating a table summary that is ordered by priority and support level. See [example here](https://gitlab.com/gitlab-org/ux-research/-/issues/1716).
+<details>
+<summary>Click to see more details</summary>
 
-  {{< youtube "JphAYWtASqA" >}}
-
-1. @ mention the team to provide awareness that the prioritization is complete and is open for discussion. Discuss decisions around the prioritized list of projects and the timelines.
-
-1. Add the applicable [research prioritization label](/handbook/product/ux/ux-research/tracking-research-projects/) to each research issue to generate [this dashboard (internal only)](https://app.periscopedata.com/app/gitlab/1063612/UX-research-projects).
-
-*Timeline guidance for Step 3:* This should be completed within one week
-
-## About the Research Priority Calculator
-
-The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5YJ1g7mA09gMicKHobW54iykdqmB-3dYhhUqKjJ4/copy) (search [Template] UX Research Prioritization Calculator in Google Drive to access) is a tool meant to provide recommendations on which research projects to prioritize and what level of support is needed from the UX Researcher. The calculator takes into account the following areas. Each criteria receives a score according to the table below and then is summed and divided by 30 (total possible score):
+The calculator takes into account the following areas. Each criteria receives a score according to the table below and then is summed and divided by the total possible score to get a percentage which indicate the appropriate UX Research support level:
 
 | Criteria  | Description| Score/Weight |
 | ------ | ------ | ------ |
@@ -82,49 +86,61 @@ The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5Y
 | Type     | The type of research the project falls into: foundational, problem validation, solution validation. | Foundational = 3 <br> Problem Validation = 2 <br> Solution Validation = 1 |
 |  Ownership| Can this research be supported someone other than a UX Researcher? | Yes = 3 <br> Somewhat = 2 <br> No = 1|
 | Design Support | Is this project being requested by a Product team with Product Design support? | Not applicable for this research (study created/led by UX Research) = 3 <br> Requesting Product team has Product Designers = 2 <br> Requesting Product team does not have Product Designers = 1 |
-| Complexity | Does this project involve multiple studies or methodologies?   | Yes = 2<br> No = 1<br> I don’t know = 0|
+| Complexity | Does this project involve multiple studies or methodologies?   | Yes = 2<br> No = 1<br> I don't know = 0|
 | Skill Development | Will this support skill development for the team or refine a process if a UX Researcher is involved?   | Yes = 3<br> Somewhat = 2 <br> No = 1|
 | Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  | High = 3 <br> Medium = 2<br> Low = 1|
-| Impact   | What impact does this work aim to have? (UXR impact framework link TBA) | Changes in product strategy / planning = 3<br> Changes to product / design = 2 <br> Knowledge gaps identified / filled = 1 |
-| Users | How much of the user base will this project consider? Consider the entire user base. | All = 3<br> Most = 2<br> Some = 1 |
-| Scope | Does this project align with company, section, stage, or stage group goals?  | Company = 4<br> Section = 3<br> Stage = 2<br> Stage Group = 1 |
-| Alignment | Does this research connect to company yearlies or objectives and key results (OKRs)? Is this research future-looking or foundational? | Company Yearly = 3 <br> Section / Stage / Stage Group OKR = 2 <br> Foundational / Future Directions = 2 <br> Milestone Planning = 1 <br> None = 1 <br> I don’t know = 0 |
-| Section or Stage Group | What Section or Stage Group does this project fall under?  | N/A |
-| Timeline | When should this research be completed by?   | N/A |
 
-After a score is assigned for each area, the calculator will output a priority score percentage (the higher the percentage, the higher in priority the project is) and support level for each project.
+UXR Support Level is defined as the level of support the UX Researcher can commit to a given research project.
 
-## About the Researcher Support Level
-
-An output of the Research Priority Calculator includes a Researcher Support Level. This is defined as the level of support the UX Researcher can commit to a given research project. Having a clear delineation of the roles that UX Researchers play in each research project helps everyone understand what is expected of them to execute research and support success.
-
-**Note: When creating the quarterly research planning issue, the UX Researcher can adjust the Researcher Support Level (Gold, Silver, Bronze) from the calculation as needed based on the team or project needs.**
-
-| Researcher Support Level| Priority Percentage |
+| UXR Support Level| Percentage |
 | ------ | ------ |
-| Gold 🥇| Greater than 80% |
-| Silver 🥈 | Between 51% and 80% |
-| Bronze 🥉 | 50% or less  |
+| End to end (previously Gold) 🥇| Greater than 80% |
+| Task specific (preivously Silver) 🥈 | Between 51% and 80% |
+| Consult/review (previously Bronze) 🥉 | 50% or less  |
 
-| Researcher Support Level | Description|
+| UXR Support Level | Description|
 | ------ | ------ |
-| Gold 🥇<br> End to end | **DRI:** UX Researcher <br><br>**What these projects look like:** Large, strategic, rigorous projects that could benefit from a research specialist. Typically, foundational research, complex research questions, or high-priority problem validation.<br><br>**Who does what?** The UX Researcher drives project management, aspects of execution, and completion of most tasks, but has support from Product and Design. While the UX Researcher is the DRI, the team is highly encouraged to participate in research sessions, analysis, discussions of results, and so on.<br><br> **Estimated number of studies:** <br> - 0.5 - 2 active projects (depending on [UX Researcher's level](/job-families/product/ux-researcher/#levels)) <br><br>**Examples:** <br> - Research impacting multiple studies <br> - Multi-method studies |
-| Silver 🥈 <br> Task Specific |**DRI:** Product/Design<br><br>**What these projects look like:** These primarily consist of problem validation projects.<br><br>**Who does what?** The UX Researcher takes on specified tasks within a study and advises on the rest. Product and Design drive project management aspects of execution and completing most tasks with support from the UX Researcher. <br><br> **Estimated number of studies:** <br> - 1 - 6 active projects (depending on [UX Researcher's level](/job-families/product/ux-researcher/#levels))<br><br> **Examples:** <br> - The UX Researcher and Product Manager or Product Designer collaborate on the research methodology, craft a script, or review an analysis.  <br> - The UX Researcher provides dedicated support for specific tasks that take less than a few days to execute.|
-| Bronze 🥉 <br> Consult | **DRI:** Product/Design <br><br>**What these projects look like:** These primarily consist of solution and problem validation projects.<br><br>**Who does what?** The UX Researcher is  consulted on specific aspects of a study. Product/Design is drives project management aspects of execution and completing most tasks, with advice from a UX Researcher. The team tags the UX Researcher in the issue to provide context and a due date for when feedback is needed.<br><br> **Estimated number of studies:** <br> - No more than 10% of the UX Researcher's time should be dedicated to supporting these projects.<br><br>**Examples:** <br> - Reviewing an interview script <br> - Participant recruiting criteria <br> - Methodology choice  |
+| 🥇<br> End to end (previously Gold) | **DRI:** UX Researcher <br><br>**What these projects look like:** Large, strategic, rigorous projects that could benefit from a research specialist. Typically, foundational research, complex research questions, or high-priority problem validation.<br><br>**Who does what?** The UX Researcher drives project management, aspects of execution, and completion of most tasks, but has support from Product and Design. While the UX Researcher is the DRI, the team is highly encouraged to participate in research sessions, analysis, discussions of results, and so on.<br><br> **Estimated number of studies:** <br> - 0.5 - 2 active projects (depending on [UX Researcher's level](/job-families/product/ux-researcher/#levels)) <br><br>**Examples:** <br> - Research impacting multiple studies <br> - Multi-method studies |
+| 🥈 <br> Task Specific (preivously Silver) |**DRI:** Product/Design<br><br>**What these projects look like:** These primarily consist of problem validation projects.<br><br>**Who does what?** The UX Researcher takes on specified tasks within a study and advises on the rest. Product and Design drive project management aspects of execution and completing most tasks with support from the UX Researcher. <br><br> **Estimated number of studies:** <br> - 1 - 6 active projects (depending on [UX Researcher's level](/job-families/product/ux-researcher/#levels))<br><br> **Examples:** <br> - The UX Researcher and Product Manager or Product Designer collaborate on the research methodology, craft a script, or review an analysis.  <br> - The UX Researcher provides dedicated support for specific tasks that take less than a few days to execute.|
+| 🥉 <br> Consult/review (previously Bronze) | **DRI:** Product/Design <br><br>**What these projects look like:** These primarily consist of solution and problem validation projects.<br><br>**Who does what?** The UX Researcher is  consulted on specific aspects of a study. Product/Design is drives project management aspects of execution and completing most tasks, with advice from a UX Researcher. The team tags the UX Researcher in the issue to provide context and a due date for when feedback is needed.<br><br> **Estimated number of studies:** <br> - No more than 10% of the UX Researcher's time should be dedicated to supporting these projects.<br><br>**Examples:** <br> - Reviewing an interview script <br> - Participant recruiting criteria <br> - Methodology choice  |
 
-## How to handle newly identified research projects
+</details>
+<br>
 
-It’s normal to identify brand new research projects in an ad-hoc manner after prioritization happens, and you can still fold those new requests into the existing prioritized list. Here’s how to do that:
+Note that both calculators only generate recommendations. It is up to the UX Researchers and the stakeholders to decide and agree on the final priority level and the support level.
 
-1. UX Researcher: Add the new project in the current quarter’s Research Priority Calculator.
-1. UX Researcher + Product: Run through the Research Priority Calculator as outlined above.
-1. UX Researcher + Product: See where the priority and support level lands, and adjust the research planning issue accordingly.
-1. UX Researcher: @ mention the team to provide awareness of the new project and request that they share concerns/support by a certain date. Discuss decisions around trade-offs or timelines to accommodate the new project.
-1. Product: Make the final decision around final prioritization of the new project.
+**Step 4. Making and Communicating the Decisions**
 
-## Maintaining the research prioritization issue
+With the priority level and the support level agreed, the UX Researchers can estimate workload size in number of working days, and decide which projects to pick up, which ones to drop or push out - in agreement with their stakeholders.
 
-Throughout the quarter, the UX Researcher will maintain their research planning issue. This issue will serve as a section’s SSOT for all UX research.
+To do that, we follow **3 team capacity rules**:
+
+- We keep **20% capacity for unexpected work** (such as ad-hoc requests), training, and supporting each other (such as peer reviews and holiday coverage).
+- We **always take on P1 projects**.
+- When at capacity, taking on new priorities requres **stopping something else**. New higher priority projects bump lowest priority current work.
+
+Once everyone is on the same page, the team communicate the projects picked up this quarter in relevant Slack channels, and Product and UX meetings.
+
+**Note** that the current works are monitored and adjusted through out the quarter, in the following ways:
+
+- Midway check-ins - a mini version of the global prioritisation process.
+- Monthly backlog trimming
+- Re-adjustment after receiving an ad-hoc request that needs to be picked up
+
+## How to handle ad-hoc requests
+
+It's normal to identify brand new research projects in an ad-hoc manner after prioritization happens, and we can still fold those new requests into the existing prioritized list. Here's how to do that:
+
+1. The requester creates a research issue ([template](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/Research%20Issue.md?ref_type=heads)) and fills in the basic information.
+1. If the requester is a stakeholder in Product or Design, they assign the issue to themselves and the UX Researcher of their area. If the requester is a UX Researcher, they assign the issue to themselves and their Product and Design counterparts in relevant area.
+1. The stakeholders and the UX Researcher go though Step 2 - 4 as described above.
+1. If they decide to pick up the project, and the UX Researcher is at capacity, then they need to drop or off-load some current lower priority works, and communicate that with relevant stakeholders.
+
+**Note** UXR leadership can be brought in to assist with the reprioritization.
+
+## Maintaining the research priorities list
+
+Throughout the quarter, the UX Researchers will maintain the global research priorities list, keep the status of the projects up to date, and document any changes and adjustments in the Quarterly UX Research Global Priorities sheet ([Example sheet](https://docs.google.com/spreadsheets/d/1Pl50jZsyH61JoFme_vgwv-OpWey3Wo6s_wLlNSSOgKQ/edit?gid=1480848976#gid=1480848976) - interal access only).
 
 ## Soliciting feedback on the process
 

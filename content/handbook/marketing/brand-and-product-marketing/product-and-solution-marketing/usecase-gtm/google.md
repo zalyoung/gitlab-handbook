@@ -1,13 +1,6 @@
 ---
-
 title: "Use case: GitLab + Google Cloud"
 ---
-
-
-
-
-
-
 
 #### Who to contact
 
@@ -17,7 +10,7 @@ title: "Use case: GitLab + Google Cloud"
 
 ## The Market Viewpoint
 
-The landscape of software development is changing. Today’s users expect to interact with software applications that are always-on and accessible from every device. To keep up, businesses of all sizes that have traditionally built and managed centralized, monolithic applications are shifting to distributed cloud services. And these services are being built and run by distributed teams located all around the world. Modernizing the business through IT is a cultural and technological shift.
+The landscape of software development is changing. Today's users expect to interact with software applications that are always-on and accessible from every device. To keep up, businesses of all sizes that have traditionally built and managed centralized, monolithic applications are shifting to distributed cloud services. And these services are being built and run by distributed teams located all around the world. Modernizing the business through IT is a cultural and technological shift.
 
 With all of this complexity, software teams need DevOps tooling that works together with their cloud infrastructure to enable them to become faster and more efficient, while staying secure and reliable.
 
@@ -62,7 +55,7 @@ The Release and Change Management Director is responsible for managing complex r
 
 As DevOps maturity expands, software teams are looking for solutions that unify software lifecycle from planing and development to delivery and operation. Today's market is filled with siloed tools that either aren't designed to work with cloud infrastructure or are too tightly coupled to cloud providers other than Google Cloud. Businesses choose Google Cloud for their expansive fiber network, cost efficiency, and advanced capabilities such as ML and Kubernetes. GitLab and Google Cloud have partnered to bring unified solutions with tight technical integrations gives teams confidence in a seamless experience.
 
-GitLab and Google Cloud work better together in several ways. You can install your Self-managed instance of GitLab and GitLab Runners on Google Cloud infrastructure. You can also use GitLab CI/CD to deploy your software to Google Cloud infrastructure using either a Self-managed GitLab instance, or GitLab.com, GitLab's SaaS service (which also runs on Google Cloud.)  From Anthos and Cloud Run to Compute Engine and Kuberentes Engine, GitLab works great with an array of Google Cloud services. See the full set of GitLab joint solution capabilities with Google Cloud at [https://about.gitlab.com/gcp](https://about.gitlab.com/partners/technology-partners/google-cloud-platform/)
+GitLab and Google Cloud work better together in several ways. You can install your Self-managed instance of GitLab and GitLab Runners on Google Cloud infrastructure. You can also use GitLab CI/CD to deploy your software to Google Cloud infrastructure using either a Self-managed GitLab instance, or GitLab.com, GitLab's SaaS service (which also runs on Google Cloud.)  From Anthos and Cloud Run to Compute Engine and Kuberentes Engine, GitLab works great with an array of Google Cloud services. See the full set of GitLab joint solution capabilities with Google Cloud at [`https://about.gitlab.com/gcp`](https://about.gitlab.com/partners/technology-partners/google-cloud-platform/)
 
 ### Short Description
 
@@ -74,7 +67,7 @@ GitLab is a complete DevOps platform, delivered as a single application. Google 
 
 From modernizing legacy applications to cloud native architectures using containers, service mesh and microservices, to operating complex distributed applications using GitOps you can trust GitLab and Google Cloud to meet your business challenges head on.
 
-See the full set of GitLab joint solution capabilities with Google Cloud at [https://about.gitlab.com/gcp](https://about.gitlab.com/partners/technology-partners/google-cloud-platform/)
+See the full set of GitLab joint solution capabilities with Google Cloud at [`https://about.gitlab.com/gcp`](https://about.gitlab.com/partners/technology-partners/google-cloud-platform/)
 
 | **Key-Values** | **Speed** | **Efficiency** | **Trust** |
 |--------------|----------------------------------------------------------|--------------|--------------|
@@ -84,7 +77,7 @@ See the full set of GitLab joint solution capabilities with Google Cloud at [htt
 
 ## Proof Points
 
-[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](https://about.gitlab.com/customers/marketplace/)
+[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](https://about.gitlab.com/customers/)
 
 ### Quotes and reviews
 

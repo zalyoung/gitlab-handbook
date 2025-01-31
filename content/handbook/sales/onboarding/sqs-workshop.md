@@ -1,13 +1,6 @@
 ---
-aliases: /handbook/sales/onboarding/SQS-workshop
 title: "Sales Quick Start (SQS) Workshop"
 ---
-
-
-
-
-
-
 
 ## Sales Quick Start Workshop
 
@@ -25,46 +18,26 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 
 ## Sales Quick Start Remote Agenda
 
-### SQS 39 - June 2024
+### SQS 44 - February 2025
 
-- Workshop times quoted are United States Eastern Daylight Time (New York) (UTC -4)
-
-| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
-|------|------------|----------|----------|--------------|
-| May 15, 2024 | 10:30a ET | 11:20a ET | Welcome Call | Field Enablement Team |
-| Jun 3, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Into to Gitlab Field Security | Field Security Team |
-| Jun 3, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Marketing Team |
-| Jun 4, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team  |
-| Jun 4, 2024 | 11:30a ET | 12:20p ET | Operational Excellence: Working with Marketing + Sales Dev | Makerting Enablement |
-| Jun 5, 2024 | 10:30a ET | 11:20a ET | Customer Focus: Customer Success Management Overview | CS Team  |
-| Jun 6, 2024 | 10:30a ET | 10:55a ET | Intro to Sales Ops + Deal Desk |  RSOE Team  |
-| Jun 6, 2024 | 11:00a ET | 11:50a ET | Customer Focus: Professional Services | Professional Services Team |
-| Jun 7, 2024 | 10:30a ET | 11:50a ET | Intro to Partner Sales | Partner Team |
-| Jun 10, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Essential Questions Exercise | Field Enablement Team |
-| Jun 11, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Value Card Exercise | Field Enablement Team |
-| Jun 12, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Discovery Question Exercise | Field Enablement Team |
-| Jun 13, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Differentiator Exercise | Field Enablement Team  |
-| Jun 17, 2024 | 10:00a ET | 12:30p ET | Command of the Message: Mock Discovery Calls | Mock Customers |
-| Jun 21, 2024 | 10:30a ET | 12:30p ET | Command of the Message: MEDDPPICC  | Field Enablement Team |
-
-### SQS 40 - July 2024
-
-- Workshop times quoted are United States Eastern Daylight Time (New York) (UTC -4)
+- Workshop times quoted are United States Eastern Standard Time (New York) (UTC -5)
 
 | DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
 |------|------------|----------|----------|--------------|
-| Jul 10, 2024 | 10:30a ET | 11:20a ET | Welcome Call | Field Enablement  |
-| Jul 15, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement  |
-| Jul 16, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement  |
-| Jul 17, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement  |
-| Jul 18, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement  |
-| Jul 19, 2024 | 10:00a ET | 10:50a ET | Mock Discovery Call | Mock Customers  |
-| Jul 22, 2024 | 10:00a ET | 10:25a ET | Operational Excellence: Into to Gitlab Field Security | Field Security Team |
-| Jul 22, 2024 | 10:30a ET | 11:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
-| Jul 23, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
-| Jul 23, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Marketing |
-| Jul 24, 2024 | 11:00a ET | 11:50a ET | Discussion: Professional Services | Professional Services Team |
-| Jul 24, 2024 | 12:00p ET | 12:20p ET | Intro to Sales Ops + Deal Desk | Rev Ops Team |
-| Jul 25, 2024 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Management Overview | Customer Success Team |
-| Jul 25, 2024 | 11:00a ET | 11:50a ET | Operational Excellence: Working with Sales Dev | Marketing Enablement |
-| Jul 26, 2024 | 10:30a ET | 11:50a ET | Intro to Partner Sales | Partner Team |
+| Feb 6, 2025 | 10:00a ET | 11:00a ET | Welcome Call | Field Enablement |
+| Feb 10, 2025 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
+| Feb 10, 2025 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Product Marketing |
+| Feb 11, 2025 | 10:00a ET | 11:20a ET | Intro to Ecosystem Sales | Ecosystem Team |
+| Feb 12, 2025 | 10:00a ET | 10:20a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
+| Feb 12, 2025 | 10:30a ET | 11:20a ET | Discussion: Professional Services | Professional Services |
+| Feb 12, 2025 | 11:30a ET | 12:20p ET | Operational Excellence: Working with Sales Dev | Marketing Enablement |
+| Feb 13, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
+| Feb 14, 2025 | 11:00a ET | 11:30a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
+| Feb 14, 2025 | 10:00a ET | 10:50a ET | GitLab Product & Personas Overview | Field Enablement   |
+| Feb 13, 2025 | 11:30a ET | 11:55a ET | Renewals Manager Overview | Renewals Team  |
+| Feb 17, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement |
+| Feb 18, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement |
+| Feb 19, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
+| Feb 20, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
+| Feb 21, 2025 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC & Breakout Call Prep | Field Enablement |
+| Feb 24 - 27, 2025 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |

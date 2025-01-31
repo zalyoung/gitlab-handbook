@@ -1,7 +1,6 @@
 ---
-
 title: Success Services
- 
+
 
 ---
 The Success Services department is part of the [Customer Success](/handbook/customer-success/) function who partners with our customers to deliver value and positive business outcomes throughout their journey with GitLab.
@@ -16,7 +15,7 @@ For content for positioning the value of the service, how to price/quote the ser
 
 Our Success Services drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling a named Support Engineer, a Customer Success Architect (CSA) and Education services into a single orderable SKU as an annual renewable service.
 
-The [Assigned Support Engineer (ASE)](/handbook/support/workflows/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer.  Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
+The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer.  Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
 
 The [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/) is accountable for their customer's success through GitLab product adoption using well understood Best Practices.  CSA's bring deeper product knowledge and technical depth than the industries traditional CSM role.  With experience across many customers, they are experts at ensuring features are leveraged the right way for maximum value.   This customer experience has lead to development of best practice content and prescriptive road-maps.  This content is folded into the Success Services offering as "Accelerators".
 
@@ -26,13 +25,13 @@ Education Services included with Success Services encompasses 1day of Instructor
 
 ### Accelerators
 
-Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.  
+Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.
 
 > An accelerator is a customized form of enablement that a GitLab CSA will define and deliver to a customer. These accelerators span a quarter and they're mapped to your mutual success plan.
 
 An Accelerator, depending on customer requirements and defined outcomes, will pull together one or more of the below content modules.   Typically the accelerator runs over 12 weeks.  It kicks off with a discovery workshop to document required customer outcomes.  From that, we will run a planning workshop outlining with the customer the steps necessary to achieve their outcomes.   The output of the Planning Workshop is a backlog of issues logged, in a GitLab project, that includes all the necessary activities that will be managed over the following 10 weeks to achieve those outcomes and close out the Accelerator
 
-![Accelerator Timeline](accelerator-timeline-graphic.png "Accelerator Timeline")
+![Accelerator Timeline](/images/customer-success/success-services/accelerator-timeline-graphic.png "Accelerator Timeline")
 
 #### Accelerator Content Modules
 
@@ -48,7 +47,76 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 |Security and Compliance|Intro to audit, compliance, and separation of duties workshop|60 - 90 minute presentation of audit concepts, compliance and security policy features, and best practices|Your CSA will tailor this content to your needs and maturity; you'll come away with knowledge that'll allow you pass audits, institute consistency across your groups, and recommndations for where to go next|
 |Security and Compliance|Security rollout strategy|This content module will provide a complete plan for rolling out security and compliance features; including timelines and milestones that are mutually agreed upon with GitLab's best practices |The result of this content module will be a presentation of the rollout strategy and how it maps to your outcomes and timelines; additionally, the milestones and tasks will be in the collaboration project backlog so that your CSA can continue to guide on the rollout process|
 |Security and Compliance|Product Coach - Compliance Framework/Security Policies Audit|The Product Coach accelerator for the Security & Compliance track is a Deep Dive accelerator, focused on consultative guidance on best practices for security policies, developer workflow, and separation of duties|Your CSA will spend weeks learning your existing workflow and then provide a guidance report that will have best practices and recommendations|
+|Security and Compliance|Security Policy Rollout Strategy|The Security Policy accelerator for the Security & Compliance track is a multi-quarter program that your CSA will guide you through. The work is broken out into 5 phases: Architecture & Design, Compliance, Audit & Enablement, Dashboards & Integration, and Scaling. |By following our best practices, you'll be able to have a standardized and auditable GitLab instance. [Internal material](https://drive.google.com/drive/folders/1r_d1Lk5RyKoPvdN9HmzNKhHhAfKsSVAh) CSAs will leverage.|
 |Agile Planning|Intro to GitLab Plan workshop|Overview of GitLab issue management and backlog workflows|Your teams will come away with an understanding of all the backlog planning features, reporting, and best practices|
 |Agile Planning|Jira + GitLab workshop|This workshop will detail the options you have when integrating Jira and GitLab|Your CSA will spend time discovering your current needs and setup; then they'll deliver a customized workshop catered to your outcomes|
 |AI/ML|AI/ML hands on lab|Bootstrap your developers on all the AI/ML features GitLab has and how to use them|Your team will walk away being familiar with how to invoke all the AI features and suggested usages for them; they will also have access to a gitlab.com sandbox for 3 days to keep experimenting|
 |System administration|Upgrade package|This deep dive accelerator will prepare your system administration team for upcoming upgrades|The outcome will be a detailed upgrade plan, a presentation on the depreprecations as well as new features you need to be aware of, and a collaboration project to track any and all questions you have leading up to the upgrade|
+
+## CSA Processes
+
+We have CSA specific processes that go above and beyond the CSM role. It is expected that this is layered on top of the CSM processes and responsibilities.
+
+### SPS Customer Onboarding
+
+```mermaid
+graph LR
+    A[Order Form Received] --> B[<b>Welcome Email Sent</b><br><i>24hrs after resources identified</i>]
+    B --> C[<b>Internal Account Team Handover</b><br><i>within first week</i>]
+    C --> D[<b>Customer Kick-Off Call</b><br><i>within first 1 to 2 weeks</i>]
+    D --> E[<b>Accelerator Begins]
+```
+
+Note that you may be onboarding an account which is not net new. To ensure smooth collaboration and handover with the account team, it is advised to consult the responsibility matrix [issue](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/16)
+
+### SPS Customer Onboarding Artefacts
+
+0. Account Context & Technical Documentation Template 
+   1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members..
+   2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
+   3. Tip: you can organise a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
+   4. This template should help you structure and play back your understanding of the account to your SA/CS team, creating a foundation for discovery workshops and collaboration projects by capturing key business drivers, technical requirements, and stakeholder priorities in a standardized format that can be easily validated and expanded upon.
+
+1. Introduction Email
+   1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
+   2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
+   3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
+
+### SPS Customer Onboarding Activities
+
+1. Internal Kick-off Call  
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.  
+   2. Customer objectives identified prior to the Order Form being signed are to be documented by CSA and shared with the account team.  
+
+2. Customer Kick-off Call  
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.  
+   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations via email.  
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).  
+   4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.  
+
+3. Discovery Workshop  
+   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.  
+   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.  
+   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.  
+   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).  
+
+### Logging Accelerator Events
+
+In order to keep track of key deliverables in the Accelerator process, CSAs need to log these events in Gainsight. This will allow reporting and a complete account timeline within Gainsight.
+
+Instructions:
+
+1. Add new activity (utilize the calendar plugin to auto-populate details of the meeting)
+2. Select customer
+3. "Activity Type" = "CSA Engagement"
+4. Choose "Acceleratory Type". Use your best judgement to categorize the type of activity it is:
+   * Agile Planning
+   * CI
+   * CD
+   * Security
+   * AI
+   * Compliance
+   * System Administration
+5. Fill in "Accelerator Content Module"
+   * Use this optional field to document the activity itself
+   * i.e. "Delivered guidance report for cost optimization", or "Custom Security Policy Workshop"

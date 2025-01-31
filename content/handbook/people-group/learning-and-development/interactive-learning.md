@@ -5,7 +5,7 @@ description: "All elearning courses tied to the Field Certification Program will
 
 All elearning courses at GitLab will utilize the Handbook as the Single Source of Truth (SSOT).
 
-![gitlab-learning-content-diagram](gitlab-learning-content-diagram.png)
+![gitlab-learning-content-diagram](/images/people-group/learning-and-development/gitlab-learning-content-diagram.png)
 
 All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard).
 
@@ -52,7 +52,7 @@ Our goal is that each course will have an associated Handbook page including lea
 Consider the following when documenting course content in the handbook:
 
 1. Outline clear learning objectives
-1. Make content discoverable. For example, leadership content should not live in the Learning and Development handbook, but instead in the [Leadership handbook]({{< ref "leadership" >}})
+1. Make content discoverable. For example, leadership content should not live in the Learning and Development handbook, but instead in the [Leadership handbook](/handbook/leadership/)
 1. Embed relevant YouTube videos in the handbook
 1. Link to knowledge assessments
 1. Cross reference any additional handbook content with links
@@ -65,7 +65,7 @@ This [training video](https://youtu.be/wlLKZz3vSAk) provides an example of how i
 
 In the team Articulate - Rise 360 license, there is a block template for iframes. You can access this template in the `block templates` section and add your iframe code directly.
 
-![iframe-embed-template](../iframe-block.png)
+![iframe-embed-template](/images/people-group/learning-and-development/iframe-block.png)
 
 #### iframe tag examples
 
@@ -88,7 +88,7 @@ The following best practices should be followed when using video to create handb
 
 Other best practices for recording new learning video include:
 
-1. Turn on [Zoom closed captionining and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+1. Turn on [Zoom closed captionining and live transcription](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490)
 1. Whenever possible, upload public videos to YouTube and use the YouTube link to share video on EdCast. This allows users to enable YouTube `closed caption` feature
 1. Upload `.vtt` files with video content added to Rise courses using Articulate360 to include closed captions within the course.
 1. The L&D team collaborates with Marketing Ops to use the tool Smartling to hard code closed captions to video that is not uploaded to YouTube. Video files should be shared with the Marketing Ops team who can support collaboration with Smartling. Expect anywhere between 1 day to 1 week turnaround on the video transcription based on the video length.
@@ -103,7 +103,7 @@ Guidelines for recording a video for a course:
    - Open your zoom app and click `new meeting`
    - Once the zoom meeting starts, make sure your video is turned on and you are unmuted.
    - Once you are ready, click the `Record` button, then click `Record on this Computer` - This will make the file save to your computer and then you can drag and drop into the designated Google Drive folder
-   - If you are sharing slides during your talk you can use the   `share screen` button as your normally would if sharing your screen in a meeting. Select the one browser that has your slides when selecting which screen to share - do not share your full Desktop as slack or other notifications could pop up in the Full Desktop mode (we don’t want to see any other applications or tabs you have open). Also, please ensure your slides are in `Present` mode and are taking up your full screen .
+   - If you are sharing slides during your talk you can use the   `share screen` button as your normally would if sharing your screen in a meeting. Select the one browser that has your slides when selecting which screen to share - do not share your full Desktop as slack or other notifications could pop up in the Full Desktop mode (we don't want to see any other applications or tabs you have open). Also, please ensure your slides are in `Present` mode and are taking up your full screen .
    - Once you are done recording, you can either hit `Pause` or `Stop` recording or just end the meeting. (Note: We can snip pieces of the video so if you start recording and then not start talking for 30+ seconds, we can snip that from the recording (same for any blank time at the end).
    - The file will take a moment to download.
    - Once it has downloaded, please either send it to the L&D team member that is working on the course or upload it to the appropriate folder for recordings for the course you are assisting with.

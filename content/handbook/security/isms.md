@@ -84,7 +84,7 @@ The ISMS council, comprised of Security and Privacy (Legal) leadership, shall me
 
 ### Planning
 
-GitLab has implemented a formal [Security Operational Risk Management (“StORM”) program]({{< ref "storm-program" >}}) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
+GitLab has implemented a formal [Security Operational Risk Management ("StORM") program]({{< ref "storm-program" >}}) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
 
 The GitLab Security team executes quarterly cascading [Objectives and Key Results (OKRs)](/handbook/company/okrs) to define our security objectives and a plan for achieving those objectives while ensuring alignment throughout the organization.
 
@@ -116,12 +116,12 @@ If using a third party service to outsource or supplement security processes, a 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
 - [Continuous control testing/Annual ISMS internal compliance audits]({{< ref "security-control-lifecycle" >}})
-- [External audits (SOC 2 Type 2, TISAX, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
+- [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
 - [Annual security operational risk assessments]({{< ref "storm-program" >}})
 - [Annual third-party penetration testing]({{< ref "penetration-testing-policy" >}})
 - [Ongoing third party scorecard monitoring (BitSight)]({{< ref "independent_security_assurance#third-party-security-ratings" >}})
-- [Infrastructure Vulnerability scanning]({{< ref "./product-security/vulnerability-management" >}})
-- [Application Vulnerability Scanning]({{< ref "./product-security/application-security/vulnerability-management" >}})
+- [Infrastructure Vulnerability scanning](product-security/vulnerability-management/)
+- [Application Vulnerability Scanning](product-security/application-security/vulnerability-management/)
 - [HackerOne bug bounty program]({{< ref "hackerone-process" >}})
 - [Audit log monitoring]({{< ref "audit-logging-policy" >}})
 - ISMS Council (annual management review)
@@ -130,7 +130,7 @@ GitLab monitors, measures, and improves security controls through various contin
 
 GitLab is committed to continually improving the suitability, adequacy and effectiveness of the ISMS.
 
-As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure]({{< ref "observation-remediation-procedure" >}}).
+As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure]({{< ref "observation-management-procedure" >}}).
 
 ## Exceptions
 
@@ -138,4 +138,4 @@ Exceptions to Information Security policies or procedures will be tracked as per
 
 ## References
 
-- Policy: [Information Security Policy]({{< ref "_index.md" >}})
+- Policy: [Information Security Policy](_index.md)

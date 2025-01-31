@@ -39,21 +39,54 @@ We have useful dashboards tracking the performance of parts of the application w
 
 ## OKRs
 
+Beginning FY24, we have moved away from Ally.io and have been using GitLab to track OKRs. Please note that the links below are only accessible to GitLab team members.
+
 ### Active Quarter OKRs
 
-As we migrate to using GitLab to track OKRs, the active quarter (FY24-Q1) OKRs will be visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&type%5B%5D=objective&label_name%5B%5D=division%3A%3AEngineering&label_name%5B%5D=group%3A%3Aproduct%20planning&milestone_title=Q4&first_page_size=100) and Key Results [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=division%3A%3AEngineering&label_name%5B%5D=group%3A%3Aproduct%20planning&milestone_title=Q4&type%5B%5D=key_result&first_page_size=100).
+The current quarter (FY25-Q3) OKRs are visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 
 ### Previous Quarter OKRs
 
-FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
+All the previous quarter OKRs are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 
 ## Work
 
 See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/development/dev/plan/project-management/).
 
+### Milestone Planning
+
+The week after a release of current milestone, planning issue for next milestone is created by automation and is available [here](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
+Once the issue is created, Product Manager fills out initial information (i.e. broader theme for the milestone, product priorities, deliverable areas, etc.) within the issue description and refines the [Milestone Planning board](https://gitlab.com/gitlab-org/gitlab/-/boards/7695201?not[label_name][]=product%20work&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started).
+
+Beginning with [17.8](https://gitlab.com/groups/gitlab-org/-/milestones/107#tab-issues), we have altered the way issues are scheduled for milestones. Refer to following steps on how it is done;
+
+1. Product Manager, in collaboration with Engineering Manager and Product Designer, identifies list of issues that are candidates for upcoming milestone.
+    - Number of issues, along with weight and effort is determined based on rolling capacity (i.e. work carried over from previous milestones), available capacity from the team in upcoming milestone, as well as potential time-off and holidays.
+    - These issues have `~workflow::planning breakdown` label present along with the assigned milestone, implying that they're ready to be triaged by engineering.
+2. Identified candidate issues list is posted in the Milestone Planning issue by PM by last week of the calendar month.
+3. Engineering Manager then assigns these issues to all the team members **two weeks before** the start of upcoming milestone.
+    - Assignees of issues are picked based on team member availability as well as expressed interest by a team member to work on a specific product area.
+    - Additionally, if the assignee is known to be not familiar with the product area of an issue, SME can be optionally included in the triage notification to encourage collaboration during triage.
+4. Along with assignment of issues, EM also includes a comment to notify assignees (and SMEs, if included) that they allocate some time during the week to triage the issues by following [Definition of Ready](#definition-of-ready), and wrap it up before the last week of current milestone.
+    - The goal of this triage exercise is to ensure that assignees know what they'll be working on in the next milestone, ensuring they have all the information needed to begin implementation, and eventually move the issue to `~workflow::ready for development` state.
+    - There can be multiple outcomes during triaging of the issue as follows;
+         - Issue is too big as a single issue (eg; Weight 4 or higher), in this case, we break down that issue into either sub-tasks (if shipping in the same milestone) or multiple issues (if shipping in multiple milestones).
+         - Issue has a blocking dependency that either doesn't have a tracking issue or the issue is present in the backlog or future milestone. In this case, we ensure that the relevant issue is brought up in the upcoming milestone to unblock the dependency and is triaged similarly and the original issue is moved out of the milestone in coordination with the Product Manager as per the schedule of blocking issue.
+         - Issue is not feasible to be implemented at this point, in this case, raise it mentioning PM and EM in the issue so that appropriate steps can be taken.
+5. At the end of triaging an issue, if it was determined that issue is ready to be worked on, ensure that issue has following attributes present;
+    - Workflow label changed to `~workflow::ready for development`.
+    - An implementation plan present within the issue description (this may include technical details too).
+    - Child tasks or related issues in case original issue was broken down.
+    - Appropriate weight representing approximate effort.
+6. In a week prior to the start of the upcoming milestone, EM's responsibility is to ensure that all candidate issues have either moved to `~workflow::ready for development` as per guidance in point 5, or an appropriate triage action is taken as outlined in point 4.
+
 ### Capacity Planning
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+#### Estimating effort
+
+When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 #### Weighing bugs
 
@@ -63,7 +96,7 @@ See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Pla
 
 Work that arrives in ~"workflow::ready for development" that is out of scope
 or ill-defined should be
-[returned to ~"workflow::planning breakdown" for further refinement](https://about.gitlab.com/handbook/product-development-flow/#build-phase-2-develop--test).
+[returned to ~"workflow::planning breakdown" for further refinement](/handbook/product-development-flow/#build-phase-2-develop--test).
 To avoid the disruption this introduces we try to reduce the number of times
 it happens by planning more carefully. While it's not always possible, we aim
 to identify complexity before the build phase, such as by assigning an engineering
@@ -88,10 +121,6 @@ The deliverable is a design document that answers the questions set out in the
 issue description. This can simply be the issue itself, containing a summary
 of the discussion in the description, answers to the questions and links to
 any PoC MRs produced.
-
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
 
 #### Collaborating to Improve Velocity
 
@@ -138,6 +167,39 @@ The ~"backend complete" label is added to issues with multiple specializations (
 frontend) to indicate that the backend component is complete. Backend engineers should add this label when the backend work is
 functionally complete, merged and verified but frontend, or other work is ongoing.
 
+### Definition of Ready
+
+During the planning and breakdown process we usually need to make issues and tasks that outline the technical work required.
+
+A Definition of Ready is an agreed set of guidelines for ensuring an issue or task is ready to be picked up and worked on. Its job is to provide a reference that we can use when deciding whether we can add the 'ready for development' workflow label and expect somebody to be able to complete the work.
+
+To determine whether an issue or task is suitable to be deemed `ready for development`, consider the following Definition of Ready.
+
+1. The work is described in sufficient detail. A reader without previous context or assumed knowledge is able to understand what work is to be undertaken. What we're doing and why we're doing it is described.
+2. Acceptance Criteria or Requirements are clearly defined. This should help the assignee understand the scope of the work and verify the intended happy/sad paths are functional and tested.
+   - Including the relevant license level and feature flags in the Acceptance Criteria or Requirements is also advised.
+3. Other work that blocks or is blocked by the work is linked with the correct relationship.
+4. Relevant resources such as designs, documents, and external links are attached.
+5. Cross-functional dependencies are described; such as needing to ask for Technical Writing assistance.
+6. Documentation that needs to be updated or added is linked.
+7. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
+   - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
+
+> During the process of populating an Issue or Task for engineering work, we will probably need to ask questions for extra clarity or to help prevent us from making assumptions. We may also feel we don't have enough information to be able to properly break down work into suitably sized chunks. Consider [a spike](#consider-a-spike-andor-a-design-document) where the path forward is not clear.
+
+#### Why?
+
+During the planning/breakdown process, it's important that we keep in mind a couple of things:
+
+1. The author of the issue/task may not be the person to work on it
+2. We might not start working on the issue/task right away
+
+Our Definition of Ready should help ensure that our work is defined well enough that the two points above are not problems.
+
+Due to our async nature and distributed team, treating a Definition of Ready as a hard quality gate could have a negative effect on productivity. Because of this, the Definition of Ready should be used as a guide rather than as rules and we shouldn't prevent work from being picked up if an issue/task doesn't adhere to the Definition of Ready perfectly.
+
+Issues and tasks are mutable — we can always go back and change plans, add missing context, document decisions made during development, etc.
+
 #### Health Status
 
 To help with visibility of whether or not an issue can be delivered in a milestone, the team uses health status to communicate quickly.
@@ -179,9 +241,9 @@ This avoids the rush to provide documentation that often accompanies the release
   {{< tableau/filters "GROUP_LABEL"="product planning" >}}
 {{< /tableau >}}
 
-Detailed metrics are available on the [Engineering Metrics page](/handbook/engineering/metrics/dashboards/).
+Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
 
-Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/engineering/metrics/#work-type-classification) section of the metrics page.
+Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
@@ -206,7 +268,7 @@ Items that are customer-facing deliverables and high impact are labeled with ~"d
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours](/handbook/values/#results). Part of this is the
+because [we measure impact, not activity](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
@@ -234,5 +296,5 @@ When you pick something to work on, please:
 - [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
-- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
-  [section level](/handbook/company/team/structure/#organizational-structure))
+- [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+  [section level](/handbook/company/structure/#organizational-structure))

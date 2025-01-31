@@ -1,5 +1,4 @@
 ---
-
 title: Monitoring of GitLab.com
 ---
 
@@ -13,6 +12,13 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 December | 99.95% |  |
+| 2024 November | 100.00% |  |
+| 2024 October | 99.66% |  |
+| 2024 September | 99.85% |  |
+| 2024 August | 100.00% |  |
+| 2024 July | 99.99% |  |
+| 2024 June | 99.99% |  |
 | 2024 May | 100.00% |  |
 | 2024 April | 99.96% | |
 | 2024 March | 100% | |
@@ -81,39 +87,29 @@ These videos provide examples of how to quickly identify failures, defects, and 
 
 ### Pingdom Statistics
 
-We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
+We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](https://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
 
 * a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
-* [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
+* [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](https://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
-### Main Monitoring Dashboards
+#### Monitoring Infrastructure
 
-We collect data using InfluxDB and Prometheus, leveraging available exporters like the node or the postgresql exporters, and we build whatever else is necessary. The data is visualized in graphs and dashboards that are built using Grafana. There are two interfaces to track this, as described in more detail below.
+We use Grafana [Mimir](https://grafana.com/oss/mimir/) to ingest and query metrics. Mimir is an open-source, distributed time series database that extends Prometheus. You can read more about its implementation in our [Runbook Docs](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/mimir?ref_type=heads#architecture).
 
-#### Prometheus
+### Monitoring Dashboards
 
-We have 3 prometheus clusters: main prometheus, prometheus-db, and prometheus-app. They provide an interface to query metrics using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/). Each prometheus cluster collects a set of related metrics:
+Metrics can be viewed in [Grafana](https://dashboards.gitlab.net/). The Grafana [Explore](https://dashboards.gitlab.net/explore) dashboard allows querying of all data in Mimir using PromQL.
 
-* [main prometheus](https://prometheus.gprd.gitlab.net/graph): It collects various [metrics](https://prometheus.gprd.gitlab.net/targets) such as consul and haproxy.
-* [prometheus-db](https://prometheus-db.gprd.gitlab.net/graph): It collects Postgresql database related [metrics](https://prometheus-db.gprd.gitlab.net/targets)  such as pg-bouncer exporter and postgres-exporter.
-* [prometheus-app](https://prometheus-app.gprd.gitlab.net/graph): It collects application related [metrics](https://prometheus-app.gprd.gitlab.net/targets).
-
-#### Thanos
-
-[Thanos Query](https://thanos-query.ops.gitlab.net) can be used to query metrics aggregated across Prometheus clusters.
-
-#### [Monitoring Infrastructure](https://dashboards.gitlab.net)
-
-* Private GitLab account is required to access
+* Access requires a `@gitlab.com` email address through Google SSO
 * Highly Available setup
 * Alerting feeds from this setup
-* Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB.
+* Separated from the public for compliance, security and availability reasons
 
 #### Adding Dashboards
 
 To learn how to set up a new graph or dashboard using Grafana, take a look at the following resources:
 
-* [Guide to setting up Grafana dashboards by Grafana](http://docs.grafana.org/guides/getting_started/)
+* [Guide to setting up Grafana dashboards by Grafana](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-prometheus/)
 * [YouTube video showing how to set up a dashboard](https://www.youtube.com/watch?v=sKNZMtoSHN4&index=7&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2)
 * The [Grafana repo](https://gitlab.com/gitlab-org/grafana-dashboards) where we keep an archive of InfluxDB dashboards created in Grafana. Use these to see details in the file structure, but note that the repo is truly an archive (nothing populates _from_ it) and can be out of date.
 
@@ -145,7 +141,7 @@ The dashboards for stage groups are at a very early stage. All contributions are
 ## Logs
 
 Network, System, and Application logs are processed, stored, and searched using
-the [ELK stack](https://www.elastic.co/products). We use a [managed Elasticsearch cluster on GCP](https://www.elastic.co/gcp) and as such our only
+the [ELK stack](https://www.elastic.co/platform). We use a [managed Elasticsearch cluster on GCP](https://www.elastic.co/partners/google-cloud) and as such our only
 interface to this is through APIs, Kibana and the elastic.co web UI.  For
 monitoring system performance and metrics, Elastic's x-pack monitoring metrics are used. They are sent to a dedicated monitoring cluster. Long-term we intend to switch to Prometheus and Grafana as the preferred
 interface. As it is managed by Elastic they run the VMs and we do not have
@@ -167,7 +163,7 @@ To learn how to create Kibana dashboards use the following resources:
 
 * [Kibana Dashboard tutorial from Elastic.com](https://www.elastic.co/guide/en/kibana/current/index.html)
 * [Building a dashboard](https://www.elastic.co/guide/en/kibana/current/dashboard.html)
-* [Using TimeLion for time series visualization](https://www.elastic.co/guide/en/kibana/current/timelion.html)
+* [Using TimeLion for time series visualization](https://www.elastic.co/guide/en/kibana/current/legacy-editors.html#timelion)
 
 ## GitLab Profiling
 
@@ -195,7 +191,7 @@ We also did a series of deep dives by pairing with the development teams for eac
 
 Blocks of Ruby code can be "instrumented" to measure performance.
 
-* [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
+* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data.html) with more detail on [how to implement this](https://docs.gitlab.com/ee/operations/product_analytics/instrumentation/)
 * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools
@@ -225,6 +221,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview)
+* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
 * [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
 * [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

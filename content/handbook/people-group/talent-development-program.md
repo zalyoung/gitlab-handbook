@@ -11,14 +11,14 @@ GitLab's Talent Development Program includes the following initiatives:
 
 - [Talent Assessment Tool](/handbook/people-group/talent-assessment)
 - [360 Feedback]({{< ref "360-feedback" >}})
-- [Organisational Structure and gaps]({{< ref "structure" >}})
+- [Organisational Structure and gaps](/handbook/company/structure/)
 - [Performance Assessments and Succession Planning](/handbook/people-group/talent-assessment)
 - [Career Development Conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}})
-- [Performance Improvement Plans (PIP)]({{< ref "underperformance#options-for-remediation" >}})
+- [Performance Improvement Plans (PIP)](/handbook/leadership/underperformance/#options-for-remediation)
 - [Performance Enablement Review](/handbook/people-group/learning-and-development/career-development#performance-enablement-review)
 - [Individual Growth Plan](https://docs.google.com/document/d/1ZjdIuK5mNpljiHnFMK4dvqfTOzV9iSJj66OtoYbniFM/edit)
 - [Engagement Survey]({{< ref "engagement" >}})
-- [Annual Compensation Review]({{< ref "compensation-review-cycle#annual-compensation-review" >}})
+- [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review)
 
 ### Talent Development Program Chart
 
@@ -35,7 +35,7 @@ graph LR
   Gid1([Career Development<br> Conversations]):::classC --> Jid1([Performance<br> Improvement Plan]):::classD
 
 click Aid1 "/handbook/people-group/talent-assessment"
-click Bid1 "{{< ref "structure" >}}"
+click Bid1 "/handbook/company/structure/"
 click Did1 "{{< ref "360-feedback" >}}"
 click Eid1 "/handbook/people-group/talent-assessment"
 click Fid1 "/handbook/hiring/"

@@ -1,6 +1,5 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability.html
-title: "Scalability:Observability Team"
+title: "Observability Team"
 ---
 
 Observability encompasses the technical elements responsible for metrics, logging, and tracing, along with the tools and processes that leverage these components.
@@ -11,18 +10,19 @@ Our mission is to deliver and maintain a world-class observability offering and 
 
 ## Common Links
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                            |
-| **GitLab.com**                 | `@gitlab-org/scalability/observability`                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Issue Trackers**             | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                        |
-| **Team Slack Channels**        | [#g_scalability-observability](https://gitlab.slack.com/archives/g_scalability-observability) - Team channel<br/> [#scalability_social](https://gitlab.slack.com/archives/g_scalability_social) - Group social channel                                                                                                                                                                                                         |
-| **Project Slack Channels**     | [#scalability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/> |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                             |
+| **GitLab.com**                 | `@gitlab-org/scalability/observability`                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Issue Trackers**             | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                      |
+| **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                         |
+| **Project Slack Channels**     | [#observability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/>                                                                                                                                                                                                                                                                                                                    |
 | **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Documentation**              | Technical documentation is on the [Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/)                                                                                                                                                                                                                                                                                                            |
 
 ## Team Members
 
-The following people are members of the Scalability:Observability team:
+The following people are members of the Observability team:
 
 {{< team-by-manager-slug "liam-m" >}}
 
@@ -37,10 +37,10 @@ The following gives an overview of our scope and ownership.
 1. [Monitoring fundamentals](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
    1. Metrics stack
    1. Logging stack
-1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets.html)
+1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets/)
    1. Ownership of concept and implementation
    1. Delivery of monthly error budget report
-1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning.html)
+1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning/)
    1. [Triage rotation for .com](/handbook/engineering/infrastructure/capacity-planning/#gitlabcom-capacity-planning)
    1. [Operational aspects for GitLab Dedicated capacity planning](https://docs.gitlab.com/ee/architecture/blueprints/capacity_planning/)
    1. Developing [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), the forecasting tool
@@ -48,12 +48,65 @@ The following gives an overview of our scope and ownership.
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
 1. [GitLab.com availability reporting](/handbook/engineering/monitoring/): Provide underlying data and aggregate numbers
 
+### Documentation
+
+We recognize the need to provide technical documentation for teams using our observability services and platforms, as well as for our team's internal use.
+
+Historically, we've provided reference documentation within the projects we own or contribute to, or in the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs).
+As these projects are scattered around, it is rather difficult to discover the various pieces of relevant documentation for our users.
+
+As we reshape our documentation, we follow along with the following idea and principles:
+
+1. The [Infrastructure Observability Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/) is the entrypoint for any observability related documentation we provide.
+1. Carefully crafted documentation is a core product for the observability platform, not an afterthought.
+1. We think of the documentation hub as a way to communicate about observability interfaces we offer as a platform with everyone in Engineering.
+1. We strive to provide documentation like guides and tutorials targeted for specific audiences - in addition to reference documentation.
+1. We use the documentation hub also to explain concepts and architecture for our team's internal use to create a common understanding and empower everyone to contribute in all areas.
+
+#### Where do we keep different types of documentation?
+
+There are different types of documentation, which belong in different places.
+
+| What?                                                        | Where?                      |
+|--------------------------------------------------------------|-----------------------------|
+| Team organisation, processes and other team level agreements | GitLab Handbook (this page) |
+| Technical reference documentation for standalone projects    | On the project itself, and linked to the Documentation Hub      |
+| How do we at GitLab make use of the projects we maintain?    | Documentation Hub           |
+| How does our GitLab specific architecture look like?         | Documentation Hub           |
+| Tutorials, guides, FAQs and conceptual explanations          | Documentation Hub           |
+
+Documentation outside the Documentation Hub should be linked from it (that's why we call it a *hub*) and vice versa, to help increase discoverability.
+
+This recognizes the need to ship reference documentation with the respective project, as we would expect to see for any project (whether open source or not).
+The benefit here is that a change in functionality can also update reference documentation in the same merge request.
+
+On the other hand, how we make particular use of these projects in our stack is too specific to ship with the project itself.
+Often, we want to understand the bigger picture and how projects play together.
+This is out of scope for technical documentation that ships with a certain project itself and hence we put this information on the documentation hub instead.
+
+For our internal use, we use the documentation hub to help us reason about the services we own and how we operate them.
+We expect this helps everyone on the team and helps us gather a common understanding as we have different roles and perspectives on the team.
+
+A recommended read on different types of documentation and how to organize it is the [Divio Documentation System](https://docs.divio.com/documentation-system/).
+
+#### How do we create documentation?
+
+As we reshape and build documentation, the documentation hub benefits from each and all contributions:
+
+1. Explain existing concepts
+1. Link together existing documentation
+1. Consolidate existing documentation and move in the right places
+1. Writing and graphics on system architecture and operational principles
+
+We aspire to create and maintain documentation as a primary citizen and similar to the [Handbook First](/handbook/company/culture/all-remote/handbook-first/) mindset.
+For example, instead of answering specific questions from team members individually (for example on Slack), we can take this as an opportunity to write a piece of documentation and ask them to review and work with that.
+
 ### Indicators
 
 The group is an owner of several performance indicators that roll up to the Infrastructure department indicators:
 
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
-1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland.html) which generates capacity warnings to prevent incidents.
+1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/) which generates capacity warnings to prevent incidents.
 
 These are combined to enable us to better prioritize team projects.
 
@@ -75,6 +128,10 @@ The team are responsible for provisioning access to the services listed below, a
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
 
+### Project Sizing
+
+Projects will be staffed by at least three engineers from the team, and preferably from both SRE and BE roles.  This will allow us to share knowledge and keep projects moving forward when people are unavailable.
+
 ### Issue management
 
 While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.
@@ -82,7 +139,7 @@ Hence we strive to use group-level labels and boards to get the entire picture.
 
 #### Labels
 
-All issues pertaining to our team have the `~"team::Scalability-Observability"` label.
+All issues pertaining to our team have the `~"team::Observability"` label.
 
 All issues that are within scope of current work have a `~board::build` or `~board::planning` label.
 This is a measure to cut through noise on the tracker and allows us to get a view on what's currently important to us.
@@ -108,7 +165,7 @@ Refer to the Scalability group [issue boards section](/handbook/engineering/infr
 |--------------|-------------|
 | [Planning Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339171) | [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339070) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
-| ![Triage](../img/label-triage.png) <br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
+| ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png) <br/>![Proposal](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png) <br/>![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) | ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) <br/>![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png) <br/>![Under Review](/images/engineering/infrastructure/team/scalability/project-management/label-under_review.png) <br/>![Verify](/images/engineering/infrastructure/team/scalability/project-management/label-verify.png) <br/>![Done](/images/engineering/infrastructure/team/scalability/project-management/label-done.png)|
 
 #### Retrospectives
 
@@ -124,9 +181,14 @@ There is no strict frequency for posting updates, although we strive to make upd
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
 
+### Cost Management
+
+For details on the daily operational costs of our observability services refer to the [Cost of Observability Stack](cost.md) documentation. This resource includes access instructions and cost breakdowns.
+
 ## History and Accomplishments
 
 This section contains notes on team history and our accomplishments, but is not meant to be exhaustive.
 
 * 2024-02, Capacity planning: [Proactive investigation of postgres CPU spike seen in saturation forecast](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1668#note_1807225359) uncovered a [database design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/435250)
 * 2024-03, Capacity planning: [Tamland predicted redis CPU saturation which led to Practices proactively scaling Redis](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1712) ([slides](https://docs.google.com/presentation/d/1y58mgaUrpu1dBO_bKVLfDUez9lz-ETLE7E1yksDjAbY/edit#slide=id.g2cc1c00d163_5_4))
+* 2024-05, Metrics: [The migration from Thanos to Mimir was completed](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107) which brought [significant improvements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107#outcome) in metrics accuracy and dashboard performance.

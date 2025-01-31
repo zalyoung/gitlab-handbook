@@ -34,7 +34,7 @@ As a Support Operations Manager you will:
   company wide initiatives.
 - own and drive projects to completion in agreement with relevant stakeholders
   in a cross-departmental function.
-- contribute to the administering all software systems used by GitLab’s
+- contribute to the administering all software systems used by GitLab's
   Technical Support team (e.g. Zendesk Suite, GitLab, Slack, SFDC, Google
   groups, Insights/Explore, and GitLab internal systems) including user
   administration in accordance with written and audited security controls and
@@ -155,7 +155,7 @@ Be sure to use the same email address for both.
 GitLab Inc. is a company based on the GitLab open-source project. GitLab is a
 community project to which over 2,200 people worldwide have contributed. We are
 an active participant in this community, trying to serve its needs and lead by
-example. We have one [vision](https://about.gitlab.com/strategy): everyone can
+example. We have one [vision](/handbook/company/strategy/): everyone can
 contribute to all digital content, and our mission is to change all creative
 work from read-only to read-write so that everyone can contribute.
 

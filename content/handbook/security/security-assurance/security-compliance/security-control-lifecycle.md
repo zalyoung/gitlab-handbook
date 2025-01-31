@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Process Overview
 
-![Security Control Lifecycle](../control_lifecycle.png "Security Control Lifecycle")
+![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle")
 
 ## Purpose
 
@@ -75,7 +75,7 @@ Controls that are tested with no observations noted during that testing activity
 
 Controls in an operating state will still need to be re-tested annually or quarterly (as determined by the risk rating of the control) to ensure no substantive changes have occured which would impact the design or operating effectiveness of that control; controls move from the operating state back into the preparation state to prepare the control for the next iteration of testing.
 
-##### *For a listing of application/systems that are currently in-scope for Security Compliance Testing, reference [FY25 Security Compliance Audit Schedule](https://docs.google.com/spreadsheets/d/1_5UnQLgR_VhuqAun2UzDfj2v3-pJfAe72MLbNSdiL00/edit?pli=1#gid=0). Even though [transparency is one of our values](/handbook/values/#transparency), we are unable to share this document [publicly]({{< ref "confidentiality-levels#not-public" >}})
+**For a listing of application/systems that are currently in-scope for Security Compliance Testing, reference [FY25 Security Compliance Audit Schedule](https://docs.google.com/spreadsheets/d/1_5UnQLgR_VhuqAun2UzDfj2v3-pJfAe72MLbNSdiL00/edit?pli=1#gid=0). Even though [transparency is one of our values](/handbook/values/#transparency), we are unable to share this document [publicly]({{< ref "confidentiality-levels#not-public" >}})**
 
 ## Exceptions
 
@@ -86,4 +86,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [Information Security Policies](/handbook/security/controlled-document-procedure)
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 
-<a href="{{< ref "../security-compliance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>
+<a href="../security-compliance/" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>

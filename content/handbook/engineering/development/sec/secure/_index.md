@@ -2,13 +2,13 @@
 title: Secure Sub-Department
 ---
 
-The Secure engineering sub-department is responsible for the [Secure Stage](/handbook/product/categories/#secure-stage) of the product.
+The Secure engineering sub-department is responsible for the [Secure Stage](/handbook/product/categories/#sec-section) of the product.
 
 ## Vision
 
 To provide content and tools to support the best possible assessment at the earliest possible moment.
 
-Following our [single application](/handbook/product/single-application/) paradigm,
+Following our [single application](/handbook/product/categories/gitlab-the-product/single-application/) paradigm,
 we integrate and build scanning tools to supply security and compliance assessment data to the main GitLab application
 where we develop our vulnerability management system and other features.
 While it might be technically feasible, we do not aim at building standalone products that provide this data independently from the GitLab application.
@@ -50,7 +50,7 @@ Team Page: [Static Analysis](static-analysis/)
 
 ### Dynamic Analysis
 
-Team Page: [Dynamic Analysis](dynamic-analysis/)
+Team Page: [Dynamic Analysis](dynamic-analysis/dynamic-analysis.md)
 
 {{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Dynamic Analysis" team="Engineer" >}}
 
@@ -69,7 +69,7 @@ The following members of other functional teams are our stable counterparts:
 ## Secure Team
 
 The Secure Team (previously known as the *Security Products Team*) is responsible for the security checks features in the GitLab platform, and maps to the [secure](/handbook/product/categories/#secure) transversal stage.
-You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/secure/) page.
+You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/application_security_testing/) page.
 
 The features provided by the Secure Team are mostly present at the pipeline level, and mostly available as [Docker](https://www.docker.com/) images.
 This particularity shapes our processes and QA, which differs a bit from the other backend teams.
@@ -111,8 +111,8 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 
 #### License Compliance
 
-[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) helps with the licenses introduced by third-party libraries in the application.
-Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
+[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
+Licence management relies on the [LicenseFinder](https://github.com/pivotal/LicenseFinder) gem.
 
 #### Vulnerability Research
 
@@ -146,7 +146,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 Our team also must have a good sense of security, with at least basic skills in [application security](https://en.wikipedia.org/wiki/Application_security).
 
-We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
+We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
 
 ### Release process
 
@@ -166,12 +166,12 @@ We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/too
 Note that we do not yet automatically create security issues for non-FedRAMP vulnerabilities. Please see the [Non-FedRAMP vulnerabilities section](#non-fedramp-vulnerabilities) for more details.
 1. [Resolve all vulnerabilities (both FedRAMP and non-FedRAMP) no longer detected on the default branch and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues), executed every 2 days.
 
-[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/#automation) like:
+[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/automation/) like:
 
 1. Adding labels to security issues to further classify the fix availability (fix_available, fix_unavailable, will_not_be_fixed, etc.).
 1. Creating Deviation Request issues for FedRAMP related security issues that should have one.
 
-Note: Our goal is to centralize automation for vulnerability management in the [Vulnmapper tool in the nearest future](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) and standardize our processes across the company. However, so far we're following the existing process based on the [security-triage-automation tool](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation).
+Note: Our goal is to centralize automation for vulnerability management in the [Vulnmapper tool in the nearest future](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) and standardize our processes across the company. However, so far we're following the existing process based on the [security-triage-automation tool](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation).
 
 #### Automation failures
 
@@ -223,13 +223,17 @@ To do so, use the following procedure.
 
 </details>
 
+##### Troubleshoothing
+
+* **`GITLAB_ACCESS_TOKEN` has expired**. The automation relies on API requests to manage vulnerabilities and issues on various projects. This requires specific permissions and authentication is achieved with a Private Access Token generated on the service account `gl-service-security-triage` (credentials available in 1Password). If the token is expired, a new one (with `api` scope) must be generated by signing in with this account on gitlab.com and then the new value must be configured in [the settings](https://gitlab.com/gitlab-org/security-products/release/-/settings/ci_cd) of the `release` project.
+
 ##### FedRAMP vulnerabilities
 
 To ensure compliance, the management of FedRAMP vulnerabilities is handled by [automation](#automation). Please check the manual process fallback for additional details.
 
 ##### Non-FedRAMP vulnerabilities
 
-We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
+We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
 In the meantime, we favor a more specialized approach for these vulnerabilities and there is no standardized process across the groups.
 
 #### Error Monitoring
@@ -282,25 +286,25 @@ To update the documentation, the following process should be followed:
 
 Since we are a [remote](/handbook/company/culture/all-remote/) company, having daily standup meetings would not make any sense, since we're not all in the same timezone.
 That's why we have async daily standups, where everyone can give some insights into what they did yesterday, what they plan to do today, etc.
-For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate the process.
+For that, we rely on the [geekbot](https://geekbot.com/) slack plugin to automate the process.
 
 ##### Standup messages format
 
 * Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
 * Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
-  * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
-  * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
-  * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
-  * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
+  * ![Accomplished](/images/engineering/development/sec/secure/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
+  * ![Overdue](/images/engineering/development/sec/secure/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
+  * ![In progress](/images/engineering/development/sec/secure/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
+  * ![Paused](/images/engineering/development/sec/secure/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
   * any other `:ci_...` icon you find applicable
 
 **Example:**
 
 What did you do since yesterday?
 
-* ![Accomplished](img/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
-* ![In progress](img/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
-* ![Overdue](img/ci-failed.svg) Catch-up on all emails and threads after the vacation
+* ![Accomplished](/images/engineering/development/sec/secure/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
+* ![In progress](/images/engineering/development/sec/secure/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
+* ![Overdue](/images/engineering/development/sec/secure/ci-failed.svg) Catch-up on all emails and threads after the vacation
 
 **Slack Channels:**
 
@@ -322,7 +326,7 @@ We welcome team members to join meetings that are on our shared calendar. The [S
 
 ### Staying informed
 
-GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to [keep themselves informed](/handbook/engineering/#keeping-yourself-informed) as to what is happening in the larger organzation. Everyone is also
+GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to keep themselves informed as to what is happening in the larger organzation. Everyone is also
 encouraged to contribute to these channels and communication paradigms when you have information to share.
 
 In addition to this, each group in Secure conducts a weekly synchronous meeting. These meetings are publicized on the Secure Calendar mentioned above. As always at GitLab, we strive to [make meeting attendance optional](/handbook/company/culture/all-remote/meetings/#1-make-meeting-attendance-optional).
@@ -356,7 +360,7 @@ Every new hire will have an assigned [onboarding issue](https://gitlab.com/gitla
 
 Secure largely follows our [Product Development Flow](/handbook/product-development-flow/)
 
-See [Issue Refinement](./workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
+See [Issue Refinement](workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
 
 #### Shared pool of Frontend work
 
@@ -368,7 +372,7 @@ Engineering Managers are encouraged to look at this queue of work during milesto
 
 The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
 
-* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
+* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 
@@ -390,7 +394,7 @@ For a complete guide about developing a new analyzer please refer to our [user d
 
 As our product evolves, the engineering teams are researching ways to achieve new functionality and improve our architecture.
 
-The outcome of this research can be found in our [Technical Documentation](./tech-docs/) section.
+The outcome of this research can be found in our [Technical Documentation](tech-docs/) section.
 
 ### Data Sources
 

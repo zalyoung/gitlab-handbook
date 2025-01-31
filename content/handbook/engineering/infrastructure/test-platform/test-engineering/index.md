@@ -1,16 +1,37 @@
 ---
-
 title: "Test Engineering"
 description: "The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work."
 ---
 
-
-
-
-
-
-
 The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work.
+
+## Core Responsibilities
+
+```mermaid
+graph LR
+    A[Test Engineering Team]
+
+    A --> B[Provide test expertise for critical Product releases]
+    B --> B1[Define test strategy for the critical feature releases]
+    B --> B2[Ensure adequate and robust test coverage for critical features]
+    B --> B3[Stay informed about the stage roadmap]
+
+    A --> C[Stage-level test tools and infrastructure]
+    C --> C1[Design, Build and continuously improve tests, test frameworks and tools]
+    C --> C2[Influence, advise and increase the testing capabilities for product teams]
+    C --> C3[Monitor and address test flakiness]
+
+    A --> D[Test guidance. Provide guidance and coach engineering teams in the areas:]
+    D --> D1[Writing e2e tests and feature specs]
+    D --> D2[Debugging and fixing test failures]
+    D --> D3[Planning testing early in the development process]
+    D --> D4[Anticipating test infrastructure needs and requesting change in advance]
+    D --> D5[Shift left and maintaining appropriate ratio between unit, integration and e2e tests]
+    D --> D7[Post-incident action]
+
+    A --> E[E2E Pipeline triage. Shared responsibility among all SETs in DevX sub-department]
+
+```
 
 ### General guidelines
 
@@ -53,11 +74,11 @@ The following guidelines provide more detail, as well as suggested responsibilit
   - Start the discussion by answering the questions in the Testing section of the [feature proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md). Note that those questions are not exhaustive.
   - [Optional] See the [Test Plan](#test-plan) section for advice on when a test plan might be useful.
 
-##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change
+##### As a Product Manager, Product Designer, Engineer, user, or anyone else involved in the change
 
 - Continue the discussion of quality and risk that was started in the issue description. Share any insights that you have that could help guide testing efforts.
 
-##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change
+##### As an Engineer who will implement the change, or an SET contributing to the change
 
 - Use the issue to start a discussion about test strategy, to come up with clear test deliverables for tests at different levels.
   - List the test deliverables in the feature merge request(s).
@@ -82,7 +103,7 @@ Everyone in engineering is expected to contribute to Quality and keep our test p
 For every new feature we aim to ship a new slice of the pyramid so we don't incur test automation debt.
 This is what enables us to do Continuous Delivery.
 
-![TestPyramid.png](TestPyramid.png)
+![TestPyramid.png](/images/engineering/infrastructure/test-platform/test-engineering/TestPyramid.png)
 
 #### Test Plan
 
@@ -95,7 +116,7 @@ There is no strict guideline for this and we defer this decision to each enginee
 - Certifying performance improvements for customers.
 - Upgrading underlying Rails version (e.g., the [Rails 5 migration](https://gitlab.com/gitlab-org/gitlab-ce/issues/51719)).
 
-GitLab's test plan is based on [Google’s 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
+GitLab's test plan is based on [Google's 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
 This test plan uses the ACC Framework (Attribute, Components and Capabilities matrix)
 
 - Attributes: qualities the product should have
@@ -143,7 +164,7 @@ To summarize, we want to track our tests in a Native Continuous Delivery way.
 
 Another way to gauge test coverage and mitigation of risks is to use a [risk map](https://about.gitlab.com/blog/2020/09/03/risk-mapping/). Making a risk map will show not only where the product is not tested, but also how severe the impact of a failure in that area is likely to be. Knowing both the risk area and the impact a failure could produce helps guide where to begin implementing future tests.
 
-The [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/) team has undertaken this effort before here: https://gitlab.com/gitlab-org/gitlab/-/issues/229431. If future teams attempt to implement a risk map this documentation may grow over time to reflect their experiences.
+The [Global Search](/handbook/engineering/development/dev/foundations/search/) team has undertaken this effort before here: https://gitlab.com/gitlab-org/gitlab/-/issues/229431. If future teams attempt to implement a risk map this documentation may grow over time to reflect their experiences.
 
 Read more on the [risk mapping page](risk-mapping).
 
@@ -317,4 +338,4 @@ How can we use these heuristics? Are there others? The next section answers thos
 
 This is not an exhaustive list of heuristics. If you know others you have found useful, please consider contributing them to this document.
 
-*Accreditation to these ideas belongs to the general test community, many who have contributed to and compiled these ideas in different ways. For further explanation of applying heuristics to testing, see Elisabeth Hendrickson, VP of R&D at Pivotal Software, Inc., and her book titled **Explore It!** or many other various blogs and sites, e.g. [Satisfice](https://www.satisfice.com/blog/), [DevelopSense](https://www.developsense.com/blog/), or [Ministry of Testing](https://club.ministryoftesting.com/categories). For an in-depth explanation of heuristics in the context of software testing, see [Heuristics for Understanding Heuristics](https://www.developsense.com/blog/2012/04/heuristics-for-understanding-heuristics/).*
+*Accreditation to these ideas belongs to the general test community, many who have contributed to and compiled these ideas in different ways. For further explanation of applying heuristics to testing, see Elisabeth Hendrickson, VP of R&D at Pivotal Software, Inc., and her book titled **Explore It!** or many other various blogs and sites, e.g. [Satisfice](https://www.satisfice.com/blog/), [DevelopSense](https://developsense.com/blog), or [Ministry of Testing](https://club.ministryoftesting.com/categories). For an in-depth explanation of heuristics in the context of software testing, see [Heuristics for Understanding Heuristics](https://developsense.com/blog/2012/04/heuristics-for-understanding-heuristics).*

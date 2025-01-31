@@ -1,6 +1,5 @@
 ---
 title: "Change Management"
-controlled_document: true
 ---
 
 ## Purpose
@@ -60,7 +59,7 @@ Examples:
 
 ## When you are not sure
 
-- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#reliability-lounge](https://gitlab.slack.com/archives/C03QC5KNW5N)
+- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#s_production_engineering](https://gitlab.enterprise.slack.com/archives/C07U6SAKS4D)
 - Open a change management issue, err on the side of caution.
 
 ## Change Request Workflows
@@ -106,9 +105,9 @@ These are changes with high impact or high risk. If a change is going to cause d
 1. Ensure there is Due Date set on the issue and to the [GitLab Production](https://calendar.google.com/calendar/embed?src=gitlab.com_si2ach70eb1j65cnu040m3alq0%40group.calendar.google.com) calendar.
 1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
 1. All the database changes related should have a review by a DBRE.
-1. Have the change approved by Infrastructure management at the Sr. Manager level or above by obtaining the `manager_approved` label on the Change Request issue.
+1. Have the change approved by Infrastructure management at the Sr. Manager level or above by obtaining the `manager_approved` label on the Change Request issue. Mention `@gitlab-org/saas-platforms/inframanagers` to request approval and provide visbility to all SaaS Platforms infrastructure managers.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and make them aware the change plan.
-(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance))
+(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/))
 1. Announce the start of the plan execution in the `#production` Slack channel directly notifying the EOC using the `@sre-oncall` alias to ensure there are no ongoing incidents that could impact the timing of the change.  Once confirmed the EOC will apply the `eoc_approved` label and the change can proceed.
 1. Join The "Situation Room" zoom channel with the EOC and obtain verbal approval to start the plan execution.
 
@@ -127,6 +126,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. Most IaC changes to pets - Postgres, Redis, and other Single Points of Failure.
 1. Load Balancer Configuration - major changes to backends or front ends, fundamental to traffic flow.
 1. IaC changes to production Virtual Machines outside of Kubernetes when there is a decrease.
+1. Major changes to Teleport, which is essential for troubleshooting production issues.
 1. Major changes to alerting routing or integrations.
 1. Any procedural invocation such as a SQL script, a ruby script module, a rake task which is performed on a production console server, either using `gitlab-rails` or `gitlab-rake` should be considered as a Criticality 2 change.
 
@@ -135,9 +135,9 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. Ensure there is a Due Date to the issue and an event to the [GitLab Production](https://calendar.google.com/calendar/embed?src=gitlab.com_si2ach70eb1j65cnu040m3alq0%40group.calendar.google.com) calendar.
 1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
 1. All the database changes related should have a review by a DBRE.
-1. Have the change approved by Infrastructure management at the manager level or above by obtaining the `manager_approved` label on the Change Request issue.
+1. Have the change approved by Infrastructure management at the manager level or above by obtaining the `manager_approved` label on the Change Request issue. Mention `@gitlab-org/saas-platforms/inframanagers` to request approval and provide visbility to all SaaS Platforms infrastructure managers.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and review the plan with them.
-(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance))
+(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/))
    - [APAC EOC Schedule](https://gitlab.pagerduty.com/schedules/PF02RF0)
    - [EMEA EOC Schedule](https://gitlab.pagerduty.com/schedules/P40KYLY)
    - [Americas EOC Schedule](https://gitlab.pagerduty.com/schedules/POL1GSQ)
@@ -190,6 +190,7 @@ When scheduling your change, keep the impact of the change in mind and consider 
 1. Does the change being conducted contain a planned failover or other high-risk component, where the risk to customers can be reduced by executing the change in a low-traffic period?
 1. As the DRI for the change, are you able to supervise the change, and communicate its status to the EOC, for an agreed upon period of time after the change?
 1. Is the change being conducted at a time conducive to recovering (i.e. rollback of the change) from any issues arising from the change? It is a general best practice to schedule the change early enough in the change technicians' workday to allow for several hours afterwards for any unforeseen impacts to become visible. That way the change technician is still around to mitigate and address those impacts.
+1. Are there Engineer on Call or Release Manager shift changes at or during the proposed time?
 
 ## Change Execution
 
@@ -212,6 +213,8 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#s_production_engineering](https://gitlab.enterprise.slack.com/archives/C07U6SAKS4D).
+
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
 ## Communication Channels
@@ -226,7 +229,7 @@ This flow is determined by:
 
 For instance, a large end-user may choose to avoid doing a software release during a maintenance window to avoid any chance that issues may affect their release.
 
-Furthermore, avoiding information overload is necessary to keep every stakeholder’s focus.
+Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To improve communication the following are recommendations for high criticality Changes:
 
@@ -255,7 +258,7 @@ Steps:
   - Director of SRE, Infrastructure
   - VP of Infrastructure & Quality
   - Director of Support, Global Readiness
-  - [Release Managers](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
+  - [Release Managers](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team)
 - 1 month before the change at least (if possible):
   - Ask our CSMs in our `#customer-success` Slack channel about their preferences on how to communicate this change to our main customers:
     - Ping CSM managers using the `@cs-tam-mgrs` alias to request that they notify the CSMs for our top SaaS customers.
@@ -271,16 +274,7 @@ Steps:
 
 While changes we make are rigorously tested and carefully deployed, it is a good practice to temporarily halt production changes during certain events such as GitLab Summit, major global holidays, and other times where GitLab Team Member availability is substantially reduced.
 
-Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. A PCL is enforced via [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=change_pcl&issue[title]=Production+Change+Lock) and [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock) as an automated process which, provided a time range, locks production deployments, prevents Feature Flags as well infrastructure config changes, then releases the lock once the time expires. However, we are continuing to list the events here so that teams are aware of the PCL periods.
-
-The following dates are currently scheduled PCLs. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC.
-
-| Dates                       | Type       | Reason                        |
-|-----------------------------|------------|-------------------------------|
-| 2024-03-08 23:00 UTC -> 2024-03-18 09:00 UTC | Hard | GitLab Summit |
-| Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
-| Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
-| Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |
+Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted.
 
 There are 2 types of PCLs: soft and hard.
 
@@ -299,7 +293,56 @@ In addition to all of the restrictions in the Soft PCL, Hard PCLs include code d
 
 In case of an active S1/S2 incident, the EOC should interact with the Incident Manager On Call prior to making any decision. It is at EOC and Incident Manager On Call discretion to make a decision on whether a change should be approved and executed. If the change is approved, Incident Manager On Call should inform the [Infrastructure Leadership Escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation) of this decision (who will inform the executive team as necessary).
 
-During some multi-day PCL periods it will be preferred to exempt specific changes from the PCL.  Each of these must have an associated issue providing clear justification for the exemption and have the approval of the VP of Infrastructure & Quality or their designee.
+During some multi-day PCL periods it will be preferred to exempt specific changes from the PCL.  Each of these must have an associated issue providing clear justification for the exemption and have the approval of the Sr. Director of Infrastructure Platforms or their designee.
+
+### Declaring a PCL
+
+Roles in declaring a Production Change Lock:
+
+- Production Engineering:
+  - Responsible: Creates the change locks.
+  - Accountable: Ensures adherence to the change locks.
+- Software Delivery:
+  - Consulted: Provides input on dates and feasibility based on release activities
+  - Accountable: Ensures adherence to change locks and enforces them in auto-deploy processes
+- Engineering:
+  - Informed: Keeps track of change locks for development and planning purposes
+- Product:
+  - Informed: Keeps track of change locks for planning purposes
+- Security:
+  - Informed: Keeps track of change locks for security purposes
+
+Steps to declare a new Production Change Lock (PCL):
+
+1. Create a Change Issue and Change Lock entry
+   - Production Engineering creates a [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=change_pcl&issue[title]=Production+Change+Lock) that will block deployments and feature flags. Remember to mark this as `~change::in-progress` at the start of the PCL.
+   - Production Engineering creates a corresponding entry in [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock)
+2. Review and Approval
+   - Software Delivery Engineering Managers (EMs) are added as reviewers
+   - Software Delivery EMs approves the changes
+3. Inform the Engineering Organization
+   - Software Delivery notifies the Engineering Organization through the #engineering-fyi Slack channel and updates the [internal document](https://docs.google.com/document/d/1JBdCl3MAOSdlgq3kzzRmtzTsFWsTIQ9iQg0RHhMht6E/edit#heading=h.wl5oryd6kv3u)
+   - Software Delivery communicates (via [ChatOps Notify](https://gitlab.com/gitlab-org/release/docs/-/tree/master/release_manager?ref_type=heads#utilities)) the new PCL to relevant Slack channels, providing details on any changes required for deployment and release processes
+
+#### If this is an emergency PCL
+
+1. Check with the `@release-managers` in the `#releases` Slack channel to confirm the state of the monthly release or any patch releases.
+2. Check with security in the `#security` Slack channel if there are any imminent security patches that release managers may not be notified of yet.
+3. Check with `@incident-managers` and `@sre-oncall` in the Slack `#production` channel to see if there are any concerns.
+
+### Recent PCLs
+
+The following dates are currently scheduled PCLs. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC, unless specified otherwise.
+
+| Dates                       | Type       | Reason                        |
+|-----------------------------|------------|-------------------------------|
+| 2024-12-20 23:00 UTC -> 2025-01-06 02:00 UTC | Hard | End of Year PCL |
+| 2024-11-27 22:00 UTC -> 2024-12-02 02:00 UTC | Hard | Thanksgiving PCL |
+| 2024-10-25 23:00 UTC -> 2024-10-29 11:00 UTC | Hard | Upgrade CI database cluster to PostgreSQL v16 |
+| 2024-11-01 23:00 UTC -> 2024-11-05 11:00 UTC | Hard | Upgrade MAIN database cluster to PostgreSQL v16 |
+| Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
+| Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
+| Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |
 
 ## Feature Flags and the Change Management Process
 
@@ -354,4 +397,4 @@ Exceptions to this process must be [tracked](https://gitlab.com/gitlab-com/gl-in
 ## References
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
-- [Change Management Controls](/handbook/security/security-assurance/security-compliance/guidance/change-management.html)
+- [Change Management Controls](/handbook/security/security-assurance/security-compliance/guidance/change-management/)

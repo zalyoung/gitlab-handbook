@@ -11,7 +11,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Customer Experience](https://docs.gitlab.com/ee/ci/review_apps/index.html#visual-reviews)
 
-[Software is Eating the World](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)
+[Software is Eating the World](https://a16z.com/why-software-is-eating-the-world/)
 
 ## 2.  DevOps
 
@@ -23,7 +23,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Lack of Developers](https://stackoverflow.blog/2017/03/09/developer-hiring-trends-2017/)
 
-[Open Source](https://about.gitlab.com/topics/20-years-open-source/)
+[Open Source](https://web.archive.org/web/20230821170744/https://about.gitlab.com/topics/20-years-open-source/)
 
 ## 3. Multicloud
 
@@ -37,7 +37,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
 
-[Workloads Moving to the Cloud](https://www.synopsys.com/blogs/software-security/cloud-migration-business/)
+[Workloads Moving to the Cloud](https://www.blackduck.com/blog/cloud-migration-business.html)
 
 ## 4. All-Remote
 
@@ -49,7 +49,7 @@ GitLab's adherence to all-remote makes the company an attractive destination for
 
 [GitLab Guide to All-Remote](/handbook/company/culture/all-remote/guide/)
 
-[Work where you want, when you want](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8)
+[Work where you want, when you want](https://link.springer.com/article/10.1186/s41469-020-00087-8)
 
 [All-Remote Upgrade](/handbook/company/culture/all-remote/hybrid-remote/#all-remote-upgrade)
 

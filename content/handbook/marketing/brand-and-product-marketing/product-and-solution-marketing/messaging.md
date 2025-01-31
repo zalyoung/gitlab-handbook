@@ -1,13 +1,6 @@
 ---
-
 title: "Product Marketing Messaging"
 ---
-
-
-
-
-
-
 
 ## What are the key customer problems?
 
@@ -67,7 +60,7 @@ GitLab makes it easier for companies to achieve software excellence so that they
 
 GitLab is both a product and a platform. It is a product in that it is a single application that you can buy and use. It is a platform in that it enables multiple use cases, and is a framework on which to build an unlimited number of additional use cases (because most functions are available through an API), supported by an ecosystem enablement group. Users have a fully functional product out-of-the-box, but they are not limited in extending and integrating with other systems. Other examples of products that are also platforms are: the iPhone (which didn't even have an app store when it launched) and Facebook.
 
-While some more traditional definitions of platforms are [more limited](http://www.dictionary.com/browse/software-platform), there are other perspectives that take a broader view of the definition of platform. Specifically, Adrian Bridgewater explains the Facebook example in [this article](https://www.forbes.com/sites/adrianbridgwater/2015/03/17/whats-the-difference-between-a-software-product-and-a-platform/#5042c24056a6) and also quotes blogger Jonathan Clarks who says, "Platforms are structures that allow multiple products to be built within the same technical framework" - which, one could argue, describes GitLab very well. [Another article](https://medium.com/platform-hunt/the-8-types-of-software-platforms-473c74f4536a) by Platform Hunt, a blog that studies platform business models, outlines 9 types of software platforms. GitLab most closely resembles an interaction platform, where identity is the foundational characteristic and the platform facilitates digital interactions. In GitLab's case, those digital interactions are collaborative coding, facilitated through both MRs and Issues.
+While some more traditional definitions of platforms are [more limited](https://www.dictionary.com/browse/software-platform), there are other perspectives that take a broader view of the definition of platform. Specifically, Adrian Bridgewater explains the Facebook example in [this article](https://www.forbes.com/sites/adrianbridgwater/2015/03/17/whats-the-difference-between-a-software-product-and-a-platform/#5042c24056a6) and also quotes blogger Jonathan Clarks who says, "Platforms are structures that allow multiple products to be built within the same technical framework" - which, one could argue, describes GitLab very well. [Another article](https://medium.com/platform-hunt/the-8-types-of-software-platforms-473c74f4536a) by Platform Hunt, a blog that studies platform business models, outlines 9 types of software platforms. GitLab most closely resembles an interaction platform, where identity is the foundational characteristic and the platform facilitates digital interactions. In GitLab's case, those digital interactions are collaborative coding, facilitated through both MRs and Issues.
 
 Referring to GitLab as a platform, delivered as a single application, does nothing to diminish the key competitive differentiation of GitLab, as a single application approach has [many benefits](/handbook/product/single-application).  Referring to GitLab as a platform also increases the potential CSM (total available market) for GitLab, and decreases potential confusion, as some might think that 'single application' refers to SCM only.
 
@@ -81,7 +74,7 @@ Sometimes, we will use headlines with the purpose of grabbing someone's attentio
 
 ### Messaging to avoid
 
-1. Don't use terms like “first” and “only”. They are extremely difficult to prove with evidence so they lack credibility. Additionally, our partners often have policies that explicitly forbid this type of messaging so whenever we do joint marketing (press release, event sponsorship, etc.) they ask us to change this wording.
+1. Don't use terms like "first" and "only". They are extremely difficult to prove with evidence so they lack credibility. Additionally, our partners often have policies that explicitly forbid this type of messaging so whenever we do joint marketing (press release, event sponsorship, etc.) they ask us to change this wording.
 2. Don't use the term "integrated". Yes, GitLab is an integrated product, but Atlassian can claim the same thing even though their product suite is made up of many different apps in different code bases with even the prem and cloud versions for the same app being written in different programming languages. Instead use, "single application", "built from the ground up", or "built in" to describe GitLab's integrated nature.
 
 ### Pricing tier messaging

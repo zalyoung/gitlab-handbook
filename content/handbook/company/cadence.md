@@ -1,5 +1,4 @@
 ---
-
 title: "Cadence"
 description: "Everything in a company happens in a certain cadence. The period of each cadence differs. Learn about the cadences we have at GitLab."
 ---
@@ -35,7 +34,7 @@ How elements of our cadence fit together over time:
 
 How other elements relate to our cadence:
 
-1. [Top Cross-Functional Initiatives](/handbook/company/top-cross-functional-initiatives/) typically last a year and should be closely aligned to the yearlies.
+1. Top Cross-Functional Initiatives typically last a year and should be closely aligned to the yearlies.
 1. [Key Performance Indicators (KPIs)](/handbook/company/kpis/) are measures of performance for important things we do as a company all the time. If you want to change a KPI in a quarter this typically will be an OKR.
 1. [Our Values](/handbook/values/) are the principles we follow in pursuing the items on this Cadence page but are not part of any cadence.
 
@@ -45,7 +44,7 @@ Below is one example of how the cadence items in [cadence flow](#cadence-flow) f
 
 1. One part of our [mission](/handbook/company/mission) is everyone can [contribute to GitLab, the application](/handbook/company/mission/#contribute-to-gitlab-application). By making innovation more accessible, we increase **user contributions to the product**, which creates results for a larger audience, which, in turn, allows more users to contribute to our product. This virtuous cycle drives a high rate of innovation for our product and allows more people to innovate and contribute.
 1. One component necessary to achieve our [AllOps vision](/handbook/company/vision/) is improving [GitLab ServiceDesk](https://docs.gitlab.com/ee/user/project/service_desk/), which helps connect external parties to the software development process, allowing more people to contribute. ServiceDesk is needed to provide a complete **Value Stream Delivery overview**, which should help more people manage the flow of innovation from [idea to customers](https://about.gitlab.com/solutions/value-stream-management/#:~:text=new%20innovation%20from-,idea%20to%20customers,-.), which should lead to more teams and companies relying on GitLab as their AllOps solution.
-1. One pillar of our [three year strategy](/handbook/company/strategy/#three-year-strategy) is [Customer Results](/handbook/company/strategy/#1-customer-results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
+1. One pillar of our [three year strategy](/handbook/company/strategy/#three-year-strategy) is [Customer Results](/handbook/company/strategy/#1-customer-results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/solutions/value-stream-management/) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
 1. One of [our FY24 Yearlies](/handbook/company/yearlies/) is to `increase NetARR from Ultimate up-tiers` which we'll accomplish in part by providing more value to business users with features like [**Value Stream Dashboards for Executives**](https://gitlab.com/groups/gitlab-org/-/epics/9317). These features help extend [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) and, by extension, create progress for our Customer Results strategic pillar.
 1. One [FY24Q1 CEO objective](/handbook/company/okrs/fy24-q1/) is to `increase adoption through customer results to increase operating income` with a sub-key result of launching **Value Stream Dashboards** MVC 1 Beta in FY24-Q1.
 
@@ -69,7 +68,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 - [Our purpose](/handbook/company/purpose/)
 - [Lifespan of the average company](https://www.bbc.com/news/business-16611040), 10 years to get into the S&P500, then 15 in it, and 5 of decline for a total of 30
 - [Lifespan of Amazon](https://www.forbes.com/sites/richardkestenbaum/2018/11/16/amazon-is-not-too-big-to-fail-bezos/#65fba0621626) "Amazon is not too big to fail...In fact, I predict one day Amazon will fail. Amazon will go bankrupt. If you look at large companies, their lifespans tend to be 30-plus years, not a hundred-plus years."
-- [Generation is also 30 years](https://www.ncbi.nlm.nih.gov/pubmed/10677323)
+- [Generation is also 30 years](https://pubmed.ncbi.nlm.nih.gov/10677323/)
 
 ## 10 years
 
@@ -111,7 +110,6 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
-1. [Monthly touchpoint meetings](/handbook/company/offsite/#monthly-touch-point-meetings)
 
 ## Week
 
@@ -152,20 +150,20 @@ gantt
     Start Q3 Earnings Prep      :10-25, 1d
 
     section E Group Offsite
-    January                     :01-05, 4d
-    April                       :04-04, 4d
-    June                        :06-04, 4d
-    October                     :10-04, 4d
+    March                       :03-20, 4d
+    June                        :06-20, 4d
+    September                   :09-20, 4d
+    December                    :12-05, 4d
 
     section Board Meeting
-    Prep led by CFO             :02-14, 21d
-    March                       :03-18, 1d
-    Prep led by CFO             :05-14, 21d
-    June                        :06-17, 1d
-    Prep led by CFO             :08-14, 21d
-    September                   :09-15, 1d
-    Prep led by CFO             :11-14, 21d
-    December                    :12-14, 1d
+    Prep led by CFO             :03-10, 21d
+    March                       :03-24, 1d
+    Prep led by CFO             :06-05, 21d
+    June                        :06-24, 1d
+    Prep led by CFO             :09-10, 21d
+    September                   :09-25, 1d
+    Prep led by CFO             :11-24, 21d
+    December                    :12-11, 1d
 
     section Monthly Releases
     Release                     :milestone, m12,01-22, 1d

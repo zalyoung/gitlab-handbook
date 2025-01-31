@@ -16,7 +16,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/198393/advanced-search/).
 
 ## Architecture Diagrams
 
@@ -24,7 +24,7 @@ App information:
 
 This app uses the Organization field `AM Project ID` to check for an existing
 Account Management project. If it finds it, it will then link to that
-project’s Architecture Diagram.
+project's Architecture Diagram.
 
 **NOTE**: The AM Project ID field is manually populated. To get that added in,
 you would want to submit a Support Ops Project issue.
@@ -69,24 +69,15 @@ App information:
 - This application was developed in-house and can be found
   [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-search).
 
-## Out of Office
+## GitLab Duo
 
-<sup>*Introduced via [support-team-meta#4303](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4303)*</sup>
-
-This will enable an agent to mark when they are out of office in Zendesk, which
-then updates tickets and makes it visible in the views.
-
-Managers are also able to do this for their reports.
+This app enables the use of GitLab Duo in Zendesk.
 
 App information:
 
-- Located in the navbar
-- Restricted by Group:
-  - Support
-  - Support Managers
-  - Support Operations
+- Located in the topbar
 - This application was developed in-house and can be found
-  [Out of Office project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/out-of-office)
+  [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-duo).
 
 ## Show Related Tickets
 
@@ -100,7 +91,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/show-related-tickets/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/5131/show-related-tickets/).
 
 ## Zendesk Super App
 

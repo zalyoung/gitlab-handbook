@@ -53,7 +53,9 @@ List the integrations between this app and other tech stack apps or systems. Inc
 
 List the important reports and dashboards used to operate the application, including links where available.
 
-## Tech Stack Guide Example #1: [Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
+## Tech Stack Guide Example #1: Thought Industries LMS Tech Stack Guide
+
+[Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
 
 Important Notes:
 
@@ -78,11 +80,11 @@ The Tech Stack single source of truth is the [Tech Stack YAML](https://gitlab.co
 
 ### Implementation
 
-Zuora consists of several app modules built on the [Zuora Central Platform](https://www.zuora.com/products/zuora-central-platform/). [Zuora Billing](https://www.zuora.com/products/billing-software/) is one of these modules.
+Zuora consists of several app modules built on the [Zuora Central Platform](https://www.zuora.com/products/zuora-platform/). [Zuora Billing](https://www.zuora.com/products/billing-software/) is one of these modules.
 
 ### System Diagrams
 
-[Zuora Billing](https://www.zuora.com/products/billing-software/) is one of several modules within the larger [Zuora Central Platform](https://www.zuora.com/products/zuora-central-platform/).
+[Zuora Billing](https://www.zuora.com/products/billing-software/) is one of several modules within the larger [Zuora Central Platform](https://www.zuora.com/products/zuora-platform/).
 
 ```mermaid
 graph TD
@@ -94,7 +96,7 @@ graph TD
 
 ### Quote to Cash workflow
 
-Zuora Billing is a central module within the **[Quote to Cash workflow](/handbook/business-technology/enterprise-applications/quote-to-cash/#quote-to-cash-introduction)** and interfaces with many other apps.
+Zuora Billing is a central module within the **[Quote to Cash workflow](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/#quote-to-cash-introduction)** and interfaces with many other apps.
 
 ```mermaid
 graph TD
@@ -122,13 +124,13 @@ graph TD
 
 ### Lead to Cash workflow
 
-Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/business-technology/enterprise-applications/quote-to-cash/#lead-to-cash-flow)**.
+Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/#lead-to-cash-flow)**.
 
-![Lead to Cash Workflow](/handbook/business-technology/tech-stack-guide/2022-06-03_lead_to_cash_flow.png)
+![Lead to Cash Workflow](/images/business-technology/tech-stack-guide/2022-06-03_lead_to_cash_flow.png)
 
 ### Key Reports / Dashboards
 
-For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecenter.zuora.com/Billing/Reporting/AB_Reporting_Quick_Reference/C_Standard_Reports) and the most important reports are:
+For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecenter.zuora.com/Zuora_Platform/Data/Reporting/AB_Reporting_Quick_Reference/C_Standard_Reports) and the most important reports are:
 
 - ELP Changes
 - Accounts with subscriptions to be canceled in the next 30 days
@@ -138,9 +140,9 @@ We also have a collection of Tableau dashboards that include Zuora Data. These d
 
 ### Data Model
 
-The [Zuora Billing business object model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model) presents how Zuora is organized internally.
+The [Zuora Billing business object model](https://knowledgecenter.zuora.com/Get_Started/Zuora_business_object_model) presents how Zuora is organized internally.
 
-![Zuora Billing Data Model](/handbook/business-technology/tech-stack-guide/2020_08_01_Zuora_Billing_object_model.png)
+![Zuora Billing Data Model](/images/business-technology/tech-stack-guide/2020_08_01_Zuora_Billing_object_model.png)
 
 ### Key Data Objects
 
@@ -184,12 +186,12 @@ Zuora Data to Salesforce via Zuora CPQ
 
 #### Customers Dot to Zuora Billing
 
-CustomersDot data to Zuora via [IronBank GEM](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/#ironbank) using the [Zuora Subscribe API](https://www.zuora.com/developer/api-reference/#tag/Subscriptions) and [Zuora Amend API](https://www.zuora.com/developer/api-reference/#tag/Amendments)
-     * [Orders Harmonization plans to transition](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/616) to the [Zuora Orders API](https://www.zuora.com/developer/api-reference/#tag/Orders)
+CustomersDot data to Zuora via [IronBank GEM](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/#ironbank) using the [Zuora Subscribe API](https://developer.zuora.com/v1-api-reference/introduction/#tag/Subscriptions) and [Zuora Amend API](https://developer.zuora.com/v1-api-reference/introduction/#tag/Amendments)
+     * [Orders Harmonization plans to transition](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/616) to the [Zuora Orders API](https://developer.zuora.com/v1-api-reference/introduction/#tag/Orders)
 
 #### Zuora to Snowflake
 
-Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
+Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/platform/#our-data-stack) with the [Stitch Zuora Integration](https://www.stitchdata.com/integrations/zuora)
 
 #### Zuora to NetSuite
 

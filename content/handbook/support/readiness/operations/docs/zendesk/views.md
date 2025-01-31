@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/views"
 ## What are Zendesk views?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203690806-Creating-views-to-manage-ticket-workflow):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets):
 
 > Views are a way to organize your tickets by grouping them into lists based on
 > certain criteria. For example, you can create a view for unsolved tickets
@@ -30,7 +30,7 @@ Currently, Zendesk views have some limitations:
 - You can only display up to 10 personal views and Support Ops cannot manage or
   view them.
 - Views will not include
-  [archived tickets](https://support.zendesk.com/hc/en-us/articles/203657756-About-ticket-archiving)
+  [archived tickets](https://support.zendesk.com/hc/en-us/articles/4408887617050-About-ticket-archiving)
   (i.e. Closed tickets after 120 days.)
 
 ## Change management
@@ -43,7 +43,7 @@ foremost.
 When your new view is going to be using managed content, you will first need to
 get the managed content file in the Support managed content project. Remember to
 use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will

@@ -1,17 +1,10 @@
 ---
-
 title: "Code of Conduct Enforcement"
 ---
 
-
-
-
-
-
-
 ## Overview
 
-The Developer Relations team will contribute to enforce the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct) on GitLab.com, to ensure we keep a positive, welcoming and inclusive environment for everyone to contribute.
+The Developer Relations team will contribute to enforce the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) on GitLab.com, to ensure we keep a positive, welcoming and inclusive environment for everyone to contribute.
 
 Currently, the team will engage in moderation if there is a discussion (generally on an issue or on a Merge Request) that requires urgent or a significant volume of moderation.
 
@@ -61,7 +54,7 @@ https://gitlab.com/gitlab-com/<project>/issues/<issue number>#note_239807447
 Use this template where the comment is a CoC violation
 
 ```markdown
-*This comment has been removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct), which is against Rule 3 in our [Terms of Service](https://about.gitlab.com/terms/).*
+*This comment has been removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/), which is against Rule 3 in our [Terms of Service](https://about.gitlab.com/terms/).*
 
 > Trolling, insulting/derogatory comments, and personal or political attacks.
 
@@ -74,7 +67,7 @@ Use this template where the comment needs further discussion to understand wheth
 
 ```markdown
 Under Review
-*This comment is currently under review for potential violation of the [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct).*
+*This comment is currently under review for potential violation of the [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).*
 
 *For more information, please reach out to [conduct@gitlab.com](mailto:conduct@gitlab.com).*
 ```

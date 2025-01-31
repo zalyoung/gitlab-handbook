@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/automations
 ## What are Zendesk automations?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203662236-About-automations-and-how-they-work):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work):
 
 > Automations are similar to triggers because both define conditions and actions
 > that modify ticket properties and optionally send email notifications to
@@ -28,7 +28,7 @@ foremost.
 When your new automation is going to be using managed content, you will first
 need to get the managed content file in the Support managed content project.
 Remember to use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will
@@ -38,30 +38,9 @@ exactly.
 
 #### Creating a new automation without managed content
 
-This is a bit simpler than creating one with managed content. You will start by
-creating a placeholder automation within Zendesk itself (as you will need the ID
-for the sync repo). To do this, open up the admin page of your corresponding
-Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
-[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
-`Objects and rules` on the left-hand side, and then click `Automations`. On this
-page, you will want to click `Add automation`. This will bring up the new
-automation page.
-
-On this page, you will do the following:
-
-- Set the title to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
-  link to the issue you are working out of).
-- Set `all` conditions of:
-  - `Ticket: Type` `is not` `Incident`
-  - `Ticket: Status category` `less than` `Solved`
-- Set an action of:
-  - `Ticket: Type` `Incident`
-
-After doing so, click the black `Create automation` button. You will then locate
-the placeholder automation you just created and get the ID value from it (if you
-click it, you can see it in the URL).
-
-From here, create the merge request in the sync repo project.
+As we manage our automations via sync repos, you simply need to create the
+automation file within the sync repo project. From there, the sync will create
+the automation itself within Zendesk.
 
 #### Updating an existing automation
 

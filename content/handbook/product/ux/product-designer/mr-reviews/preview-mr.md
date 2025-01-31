@@ -5,19 +5,19 @@ description: "Guidelines for Product Designers when reviewing merge requests."
 
 ## Overview
 
-This page outlines detailed guidelines for different ways of reviewing merge requests (MRs) for “UX reviews” or “Product Design MR reviews”. For step by step guidance of the full process go to the [Product Design MR reviews page](/handbook/product/ux/product-designer/mr-reviews).
+This page outlines detailed guidelines for different ways of reviewing merge requests (MRs) for "UX reviews" or "Product Design MR reviews". For step by step guidance of the full process go to the [Product Design MR reviews page](/handbook/product/ux/product-designer/mr-reviews).
 
 ## Review, test, and contribute
 
 There are several methods for you to review, test, and contribute changes to the app, user documentation, Pajamas, GitLab UI or company handbook.
 
 We [encourage MR authors to add screenshots or videos](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
-of their changes. However as they don’t cover all review aspects (for example, hover states, small viewports, accessibility, and so on.), you cannot rely on them exclusively and should always review the MR in a live environment.
+of their changes. However as they don't cover all review aspects (for example, hover states, small viewports, accessibility, and so on.), you cannot rely on them exclusively and should always review the MR in a live environment.
 
 The most common methods to review the MR in a live environment are:
 
 - **Gitpod** ([Get started](#gitpod) and [Help](#help)): Pre-configured cloud environment that quickly provides a clean and immediately usable app, by just clicking on a link. Can be used to run GitLab instances (using GDK, see below), user documentation, Pajamas, or company handbook.
-- **GitLab Development Kit (GDK)** ([Get started](#gdk) and [Help](#help)): It's how we install and maintain GitLab instances on our local machines. However, some technical knowledge is needed, its speed depends on your local machine, and it’s quite easy for the GDK to become “broken” when it's updated.
+- **GitLab Development Kit (GDK)** ([Get started](#gdk) and [Help](#help)): It's how we install and maintain GitLab instances on our local machines. However, some technical knowledge is needed, its speed depends on your local machine, and it's quite easy for the GDK to become "broken" when it's updated.
 - **Review Apps** ([Get started](#review-apps)): Unique links specifically created for each MR to preview their changes. Ideal for documentation changes (Pajamas or company handbook). Unfortunately, previewing a GitLab instance is very limited compared to other methods ([improvements epic](https://gitlab.com/groups/gitlab-org/-/epics/6660)).
 - **Sync with author**: Although we have a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication), sometimes it's more productive to have a one-on-one sync with the MR author. Can be especially helpful if changes are hard to test or reproduce.
 
@@ -57,7 +57,7 @@ Additionally, building these skills has the added benefit of empowering designer
 To use Gitpod you must create a Gitpod account (free) and connect it to your GitLab
 account. If you launch Gitpod from any project on GitLab.com your accounts are
 automatically connected (see links below). If for some reason that doesn't work,
-see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/gitlab-integration#connecting-your-gitlab.com-account).
+see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/configure/authentication/gitlab#connecting-your-gitlab.com-account).
 
 - [Use Gitpod for any project](https://docs.gitlab.com/ee/integration/gitpod.html#launch-gitpod-in-gitlab)
 - [Use Gitpod for the GitLab project](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) (i.e. cloud GDK)
@@ -71,7 +71,7 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 - [More how-to topics for GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/index.md)
 - [Check out branches](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#check-out-branches)
 - [Commit and push changes](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#commit-and-push-changes)
-- [Prevent auto-deleting workspaces](https://www.gitpod.io/docs/life-of-workspace#garbage-collection)
+- [Prevent auto-deleting workspaces](https://www.gitpod.io/docs/configure/workspaces/workspace-lifecycle#garbage-collection)
 - [Gitpod official documentation](https://www.gitpod.io/docs)
 
 #### GDK

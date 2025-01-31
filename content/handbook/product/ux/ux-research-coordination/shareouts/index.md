@@ -3,7 +3,6 @@ title: "Getting the word out about research insights"
 description: "Getting the word out about research insights"
 ---
 
-
 ## Leveraging Slack
 
 ### The #ux_research_reports Slack channel
@@ -45,23 +44,23 @@ Next step 2
 
 1. Bold key pieces of information or to call out particular information.
 1. Separate your sections into the headings listed in the template.
-1. Use bullet points within each section to break up the information so it’s not just a wall of text.
+1. Use bullet points within each section to break up the information so it's not just a wall of text.
 1. Use emoji! Use different emoji to break up the info or to highlight different things such as:
     - :google_slides: for Research Reports
     - :youtube: for video readouts
     - :dovetail_logo: for Dovetail links
     - your choice of Tanuki for Research Issue links
-1. If you have a lot of links, we recommend hiding the previews for the majority of them once you post so that the focus is on your share-out and not the pop-ups. It’s fine to leave one in such as the research report which is shown in the examples.
+1. If you have a lot of links, we recommend hiding the previews for the majority of them once you post so that the focus is on your share-out and not the pop-ups. It's fine to leave one in such as the research report which is shown in the examples.
 
 **Examples**
 
 Below are three different examples of completed Research Report Share-Out in Slack following the above template.
 
-![Slack snippet 1](/handbook/product/ux/ux-research-coordination/shareouts/example1.png)
+![Slack snippet 1](/images/product/ux/ux-research-coordination/shareouts/example1.png)
 
-![Slack snippet 2](/handbook/product/ux/ux-research-coordination/shareouts/example2.png)
+![Slack snippet 2](/images/product/ux/ux-research-coordination/shareouts/example2.png)
 
-![Slack snippet 3](/handbook/product/ux/ux-research-coordination/shareouts/example3.png)
+![Slack snippet 3](/images/product/ux/ux-research-coordination/shareouts/example3.png)
 
 ## Monthly share out
 
@@ -90,7 +89,7 @@ Slack channels:
 
 Example:
 
-![sharesettings](/handbook/product/ux/ux-research-coordination/shareouts/example.png)
+![sharesettings](/images/product/ux/ux-research-coordination/shareouts/example.png)
 
 Template to copy from:
 
