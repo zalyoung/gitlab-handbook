@@ -232,7 +232,7 @@ This project creates a GitOps pipeline to perform init, validate, build, and dep
 
 ### Shared CS Infrastructure
 
-[Shared CS Infrastructure](https://gitlab.com/gitlab-learn-labs/webinars/demo-engineering-shared-infra)
+[Shared CS Infrastructure](https://gitlab.com/gitlab-learn-labs/webinars/infrastructure)
 
 CS team members are constantly spending time re-inventing the wheel and spinning up infrastructure that their teammates have already done. The goal with this shared infrastructure is to eliminate that time waste allowing CS team members to focus on the integrations themselves instead of just how to get it to work. To get access you just have to fill out an access form for each project. Also feel free to fill out an enhancement form if you notice that the application is missing something you were hoping to show off (like a grafana plugin). Don't see a project you were hoping to use? Just create an issue on the [Dev Issue Board](https://gitlab.com/gitlab-learn-labs/webinars/dev-issue-board/-/issues) and one of the SAs will pick up the task. Please note that there are two different types of infra, the first being applications that are easy to spin up without a high cost. Others like Snyk, Auth0 etc we will instead provide readmes on how to use their free cloud tiers or work around to give the demo but there are no plans to spin these up ourselves.
 
