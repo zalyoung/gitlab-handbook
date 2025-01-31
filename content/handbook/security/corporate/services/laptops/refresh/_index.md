@@ -10,13 +10,13 @@ The old laptop must be [wiped](/handbook/security/corporate/services/laptops/wip
 
 To request a refresh, please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade).
 
-### If the current laptop has been used for 3 or more years.
-Once the laptop is wiped by GitLab IT, at GitLab's discrection:
+### If the current laptop has been used for 3 or more years
+
+Once the laptop is wiped by GitLab IT, at GitLab's discretion:
+
 * You may keep the laptop at no charge.
 * We can provide a Transfer of Ownership document if requested.
 
-**Note** The option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries.
-
-
+**Note** The option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](/handbook/legal/ethics-compliance-program/#policies), or other legal or security related inquiries.
 
 Please also refer to our [Laptop Buyback Policy](/handbook/security/corporate/services/laptops/buyback).
