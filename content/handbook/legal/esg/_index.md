@@ -26,15 +26,15 @@ The ESG | Sustainability Team has two primary functions and four corresponding p
 
 ### Compliance, Reporting & Climate Action
 
-1. [**Compliance & Reporting**](#compliance--reporting): Manages customer and prospect ESG-related questionnaires, requests for proposals, and sustainability contractual clauses. Leads annual ESG report and external assurance process. Monitors global ESG regulation and works cross-functionally to advance GitLab's culture of compliance with applicable ESG regulations. Responds to investor ESG rating agencies to maintain competitive ESG scoring among peers.
+* [**Compliance & Reporting**](#compliance--reporting): Manages customer and prospect ESG-related questionnaires, requests for proposals, and sustainability contractual clauses. Leads annual ESG report and external assurance process. Monitors global ESG regulation and works cross-functionally to advance GitLab's culture of compliance with applicable ESG regulations. Responds to investor ESG rating agencies to maintain competitive ESG scoring among peers.
 
-2. [**Climate Action**](#climate-action): Identifies and executes strategic climate programs, including annual measurement of GitLab's greenhouse gas inventory, emissions reduction target-setting, partners with Procurement to run the sustainable supplier program, identifies emissions reduction opportunities across the business, and purchases high quality carbon credits. Manages team member & customer communications related to GitLab's commitment to environmental sustainability.
+* [**Climate Action**](#climate-action): Identifies and executes strategic climate programs, including annual measurement of GitLab's greenhouse gas inventory, emissions reduction target-setting, partners with Procurement to run the sustainable supplier program, identifies emissions reduction opportunities across the business, and purchases high quality carbon credits. Manages team member & customer communications related to GitLab's commitment to environmental sustainability.
 
 ### Social Impact
 
-3. [**GiveLab**](#givelab): GiveLab is GitLab's team member volunteer program and includes year-round volunteering, GiveLab 30 days of Impact, our annual company-wide volunteer campaign and GiveLab Champions Program. Volunteerism is an effective way to build trust through social connections - this leads to higher individual and team motivation, and greater cross-functional collaboration.
+* [**GiveLab**](#givelab): GiveLab is GitLab's team member volunteer program and includes year-round volunteering, GiveLab 30 days of Impact, our annual company-wide volunteer campaign and GiveLab Champions Program. Volunteerism is an effective way to build trust through social connections - this leads to higher individual and team motivation, and greater cross-functional collaboration.
 
-4. [**GitLab for Non-Profits**](#gitlab-for-non-profits): GitLab's in-kind donation program. Manages social impact communications with team members and customers, while developing strategic nonprofit partnerships to advance GitLab's ESG goals and help enhance our brand reputation by demonstrating our commitment to the nonprofit community.
+* [**GitLab for Non-Profits**](#gitlab-for-non-profits): GitLab's in-kind donation program. Manages social impact communications with team members and customers, while developing strategic nonprofit partnerships to advance GitLab's ESG goals and help enhance our brand reputation by demonstrating our commitment to the nonprofit community.
 
 ## ESG | Sustainability Strategy
 
@@ -73,8 +73,8 @@ The purpose of the advisory committee is to create cross-functional alignment on
 
 Like all functions at GitLab, transparency is a core focus. Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets, and plans for the future.
 
-* [FY23 ESG Report](https://handbook.gitlab.com/handbook/legal/esg/fy23-esg-report/)
-* [FY24 ESG Report](https://handbook.gitlab.com/handbook/company/esg/)
+* [FY23 ESG Report](/handbook/legal/esg/fy23-esg-report/)
+* [FY24 ESG Report](/handbook/company/esg/)
 
 GitLab is subject to new ESG regulation in 2026, which will require public disclosure of a wide range of ESG topics, such as greenhouse gas emissions, climate risk, diversity, business ethics, and more. The ESG | Sustainability team is working cross-functionally to prepare GitLab for upcoming compliance with these regulations.
 
@@ -127,7 +127,7 @@ Team members may self organize volunteer events at any point throughout the year
 
 Team members can also request support from the ESG | Sustainability Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG | Sustainability team's help organizing the volunteer activity?"
 
-All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
 If volunteering in person, team members may incur some expenses. For calendar year 2024, team members can expense up to a total of $25 for expenses incurred that meet the allowed for reimbursement criteria. All expenses should be submitted in Navan using the "GiveLab" classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 
@@ -161,7 +161,7 @@ Throughout the month, team members can volunteer as little as one hour of their 
 * Individual volunteer pursuits
 * Find and contribute to opportunities in the [GiveLab Volunteer Directory](#givelab-volunteer-directory)
 * Include a volunteer activity at an all-hands or team builder
-* Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase)
+* Contribute to [GitLab's codebase](https://about.gitlab.com/community/contribute/)
 * Assist with [retention](https://benevity.com/talent-retention-study) and recruitment efforts
 
 #### Why GiveLab 30 Days of Impact Exists
@@ -189,7 +189,7 @@ Team member participation is voluntary, should not interfere with work commitmen
 
 #### How to Request Volunteer Time Off
 
-Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that volunteer time off should be used towards [acceptable volunteer activities](/handbook/legal/esg/#acceptable-volunteer-activities) and in adherence with our [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
+Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that volunteer time off should be used towards [acceptable volunteer activities](/handbook/legal/philanthropy-policy/) and in adherence with our [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
 
 #### Expenses and Reimbursements for Participation
 

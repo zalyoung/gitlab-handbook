@@ -8,7 +8,7 @@ Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com
 
 Welcome to the first iteration of GitLab's Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don't have the typical environmental footprint that many other companies have, but that doesn't mean we don't have an environmental impact.
 
-[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, investments, and **emissions associated with remote work**.
+[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#climate-action) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, investments, and **emissions associated with remote work**.
 
 Working remotely comes with its own sustainability challenges and opportunities. For example, our laptops, monitors and lamps use energy that generates carbon emissions. The meals we eat during our work day generate waste that may end up in a landfill. The purpose of this guide is to provide actionable steps for team members to take at home to reduce individual environmental impact.
 
