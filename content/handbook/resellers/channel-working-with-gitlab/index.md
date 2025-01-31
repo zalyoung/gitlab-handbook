@@ -122,7 +122,7 @@ The Services Attached incentive is based on the volume of licensing opportunitie
 
 ###### The Operational Process:
 
-1. Services Attach deal registrations are submitted via the Partner Portal as a deal registration (`Deal Registration Type` = `Services Attach`) 
+1. Services Attach deal registrations are submitted via the Partner Portal as a deal registration (`Deal Registration Type` = `Services Attach`)
 2. Ecosystem Specialists map the Services Attach Reg to the software opportunity
 3. Partner emails their SOW to partnersupport@gitlab.com when it is fully executed 
 4. Ecosysten Specialists move the registration to `Approved` when (i) the linked opportunity closes and (ii) a valid SOW is received 
@@ -132,8 +132,8 @@ The Services Attached incentive is based on the volume of licensing opportunitie
 Partners must submit reasonable information and documentation proving that the services meet both program guidelines and customer needs. The following qualifications are required for a Statement of Work to be considered valid: 
 
 - SOW must include a customer signature and signature date
-    - If a signature is not possible on the SOW, you can submit an unsigned SOW with another proof of acceptance from the customer such as a purchase order, invoice, or signed quote
-    - If sensative information is included on the SOW, partners are able to redact sensative information from the SOW before sendign to Ecosystem Support
+  - If a signature is not possible on the SOW, you can submit an unsigned SOW with another proof of acceptance from the customer such as a purchase order, invoice, or signed quote
+  - If sensative information is included on the SOW, partners are able to redact sensative information from the SOW before sendign to Ecosystem Support
 - SOW cannot be submitted to partnersupport@gitlab.com more than six (6) months after the SOW signature date 
 - SOW must be submitted to partnersupport@gitlab.com within within six (6) months of the opportunity close date. If an opportunity within the timeframe is not available, the registration will be denied
 - Only one (1) Services Attach Reg can be approved per opportunity.
