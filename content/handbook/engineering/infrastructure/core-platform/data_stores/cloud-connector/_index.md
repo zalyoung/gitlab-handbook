@@ -4,7 +4,10 @@ title: Cloud Connector Group
 
 ## Vision
 
-Make it easy to build a feature into GitLab across multiple types of deployment
+Make it easy to build a feature into GitLab across multiple types of deployment.
+
+We have formalized our technical vision in a separate [vision document](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/technical_vision/), a living document that we
+commit to revisiting at least once a year.
 
 ## Mission
 
