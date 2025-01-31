@@ -900,6 +900,8 @@ Note that if you increase the amount of your FSA, you will only be able to use t
 
 GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits).
 
+Team Members can make mid-year changes to their commuter benefit by going throught the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Elect "Commuter/Transit Benefit Change" and today's date as the effective date to make the change. You will see the change in the next available payroll period. 
+
 In 2025 the contribution limits are $325/month for parking and $325 per month of transit. These contributions rollover month to month.
 
 </details>
