@@ -31,6 +31,7 @@ While it's important to involve the team in the review process, assigning review
    - Resolve threads as items are addressed
 
 Remember:
+
 - Team mentions (@dex-engineering) are for additional input, not primary review responsibility
 - Set clear expectations for feedback timelines to prevent delays
 
@@ -43,32 +44,32 @@ Using checklists improves quality in software engineering. This checklist is a s
 ### Checklist for Submitting a Merge Request
 
 1. Complete the Merge Request Template
-   * Prefix the merge request with `Draft:` while you are building it.
-   * Ensure all fields in the merge request template are properly filled out.
+   - Prefix the merge request with `Draft:` while you are building it.
+   - Ensure all fields in the merge request template are properly filled out.
 Provide a Comprehensive Description
-   * Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
-   * If applicable, mention any refactoring or architectural decisions made.
+   - Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
+   - If applicable, mention any refactoring or architectural decisions made.
 2. Link Related Issues
-   * Reference any related issues, tickets, or user stories using appropriate syntax (e.g., related #1234).
+   - Reference any related issues, tickets, or user stories using appropriate syntax (e.g., related #1234).
 Ensure the issues being referenced are correctly tagged and updated.
 3. Document Testing Instructions
-   * Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
-   * Mention any special configurations, test data, or preconditions required for testing.
-   * If automated tests are included, specify their location and how to run them.
+   - Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
+   - Mention any special configurations, test data, or preconditions required for testing.
+   - If automated tests are included, specify their location and how to run them.
 4. Deployment Steps
-   * Detail the deployment process, including any scripts, commands, or configurations needed.
-   * Mention any dependencies or services that need to be updated or restarted.
+   - Detail the deployment process, including any scripts, commands, or configurations needed.
+   - Mention any dependencies or services that need to be updated or restarted.
 5. QA and Verification
-   * Outline the QA process, specifying which environments (e.g., local, review app, production) will be used for validation.
-   * List key scenarios and edge cases to be tested, including expected results.
+   - Outline the QA process, specifying which environments (e.g., local, review app, production) will be used for validation.
+   - List key scenarios and edge cases to be tested, including expected results.
 6. Post-Deployment Validation
-   * Provide a plan for validating the changes in the production environment post-deployment.
-   * Include any monitoring or logging to watch for potential issues.
-   * Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
+   - Provide a plan for validating the changes in the production environment post-deployment.
+   - Include any monitoring or logging to watch for potential issues.
+   - Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
 7. Request Feedback and Review
-   * Remove `Draft:` from merge request title or explain why it is left in draft
-   * Tag relevant team members for code review, QA, and any other necessary approvals.
-   * Address any comments or requested changes promptly to ensure a smooth review process. The assignee is responsible for creating and tracking any follow-up issues to ensure they are completed in a timely manner.
+   - Remove `Draft:` from merge request title or explain why it is left in draft
+   - Tag relevant team members for code review, QA, and any other necessary approvals.
+   - Address any comments or requested changes promptly to ensure a smooth review process. The assignee is responsible for creating and tracking any follow-up issues to ensure they are completed in a timely manner.
 
 ## Reviewer
 
