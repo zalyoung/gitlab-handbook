@@ -93,7 +93,7 @@ The team member relations function provides all GitLab team members an avenue to
 
 - Team members can express themselves openly and freely without fear of retaliation.
 - Professional behavior and conduct is expected from all team members.  As a reminder use judgement in your conversations with other team members.  We encourage all team members to [provide direct feedback]({{< ref "leadership#sts=Giving%20Feedback" >}}) to each other. The team member relations group is here to listen to team members concerns in an unbiased, open and professional manner.
-- Team members can discuss [reasonable accommodations](/handbook/handbook/people-policies/inc-usa/#reasonable-accommodation) or any related questions.
+- Team members can discuss [reasonable accommodations](/handbook/people-policies/inc-usa/#reasonable-accommodation) or any related questions.
 
 ### For Managers
 

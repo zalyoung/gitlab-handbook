@@ -67,7 +67,7 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ### VP of Product Management
 
-This role typically manages 4-6 direct reports, including Group Managers of Product Management, Directors of Product Management and Senior Directors of Product Management, and reports to the [Chief Product Officer](/handbook/job-families/product/chief-product-officer/).
+This role typically manages 4-6 direct reports, including Group Managers of Product Management, Directors of Product Management and Senior Directors of Product Management, and reports to the [Chief Product Officer](/job-families/product/chief-product-officer/).
 
 #### VP of Product Management - Job Grade
 
@@ -126,7 +126,7 @@ The VP of Product Management - Monetization is the PM DRI for the Fulfillment Se
 
 ### Senior Director of Product Management
 
-This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [Chief Product Officer](/handbook/job-families/product/chief-product-officer/).
+This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [Chief Product Officer](/job-families/product/chief-product-officer/).
 
 #### Senior Director of Product Management - Job Grade
 

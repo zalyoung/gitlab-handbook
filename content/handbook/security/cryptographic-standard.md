@@ -105,4 +105,4 @@ Exceptions to this policy will be tracked as per the [Information Security Polic
 
 ## References
 
-- [Controlled Document Procedure](/handbook/handbook/security/controlled-document-procedure/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)

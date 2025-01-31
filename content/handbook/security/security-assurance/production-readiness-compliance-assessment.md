@@ -15,7 +15,7 @@ An example of a scope change would be a system like Calendly that might only be 
 
 1. If you have a new system that you're thinking about onboarding or an existing system that will change the type of data being processed or a system that is connecting to a new system, start by [opening a Security Compliance intake issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/security-compliance-intake/-/issues/new?issuable_template=intakeform) and include the system name, data types (old and new), and system connection information. This will kick off a triage process by the Security Risk team to gather additional information.
 1. Security Risk and Security Compliance will work together to determine what security controls will need to be tested and when. System owners and relevant stakeholders will be notified about these requirements
-1. Testing will be scheduled based on capacity and priority and will follow the [GCF Security Control Lifecycle](/handbook/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
+1. Testing will be scheduled based on capacity and priority and will follow the [GCF Security Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
 1. Testing will result in a system health rating and testing observations/findings (if applicable) which will be communicated out to system owners and relevant stakeholders.
 
 ## Questions about this process
@@ -30,7 +30,7 @@ Please reach out to the Security Compliance team using the `@sec-compliance-team
    - Yes. This might be an indication that the Security Compliance teams aren't aware of this new environment which means we will need to test the system as soon as possible.
 1. I am working on a demo of a tool and we are going to use actual data, but I haven't signed a contract yet. What do I need to do?
    - Open an issue according to the above process. Our processes are based on the type of data being used on not whether or not we're paying for a service.
-1. I have a new system that will be processing [RED data](/handbook/handbook/security/data-classification-standard/) or an existing system that will now be processing RED data. What requirements are there for me as a system owner?
+1. I have a new system that will be processing [RED data](/handbook/security/data-classification-standard/) or an existing system that will now be processing RED data. What requirements are there for me as a system owner?
    - Open an issue according to the above process and work with Security Compliance to provide evidence and system context so we can understand the compliance or regulatory requirements.
 1. Same as above for ORANGE Data
    - Same requirements as RED data to start the intake process.

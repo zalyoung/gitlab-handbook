@@ -59,10 +59,10 @@ Please see the [README.md](https://gitlab.com/gitlab-com/people-group/compliance
 - [Privacy](/handbook/legal/privacy/) and [Privacy Laws and GitLab](/handbook/legal/privacy/privacy-laws/) - More information on GitLab's privacy practices.
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/) - GitLab's policy for how we handle the personal information of our team members.
 - [Records Retention Policy](/handbook/legal/record-retention-policy/) - GitLab's policy on the implementation of procedures, best practices, and tools to promote consistent life cycle management of GitLab records.
-- [Data Classification Policy](/handbook/handbook/security/data-classification-standard/) - GitLab's Security Compliance policies related to data retention and disposal.
+- [Data Classification Policy](/handbook/security/data-classification-standard/) - GitLab's Security Compliance policies related to data retention and disposal.
 - [Data Protection Impact Assessment (DPIA) Policy](/handbook/legal/privacy/dpia-policy) - GitLab's policies related to Data Protection.
 - [GitLab Audit Committee](/handbook/board-meetings/committees/audit/) - Information regarding GitLab's Audit Committee of the Board of Directors of GitLab Inc.
-- [Total Rewards Audits](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/) - Information on some of our People Group audits.
+- [Total Rewards Audits](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/) - Information on some of our People Group audits.
 
 ## Performance Indicators
 

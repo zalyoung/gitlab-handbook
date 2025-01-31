@@ -56,7 +56,7 @@ Individual departments will have their own criteria for who is eligible to occup
 
 ## Making decisions
 
-Please see the [Making Decisions](/handbook/handbook/leadership/making-decisions/) Leadership page.
+Please see the [Making Decisions](/handbook/leadership/making-decisions/) Leadership page.
 
 ## Communication should be direct, not hierarchical
 
@@ -71,7 +71,7 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings]({{< ref "1-1" >}}). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
-1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations](/handbook/handbook/leadership/crucial-conversations/) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
+1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations](/handbook/leadership/crucial-conversations/) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
 1. Ask yourself, is this:
     - Actionable
     - Specific
@@ -107,7 +107,7 @@ Please see [1-1]({{< ref "1-1" >}}).
 
 ## Skip level interactions
 
-Please see [skip-levels](/handbook/handbook/leadership/skip-levels/).
+Please see [skip-levels](/handbook/leadership/skip-levels/).
 
 ## Your Individual README
 
@@ -157,15 +157,15 @@ READMEs are particularly powerful when working with those *outside* of GitLab, w
 
 ### What is coaching?
 
-[Coaching](/handbook/handbook/leadership/coaching/) is about helping others help themselves. It is not about giving advice, instruction, or telling someone what to do. **Coaching is about focusing on the future and identifying where the coachee wants to be and what they want to achieve.** At GitLab, we've defined coaching as a conversation that helps people think for themselves, find their own answers, and commit to action they design. As a coach, your role is to clarify the pathway from the current state to the future. Coaches do this by enabling the coachee to make informed choices based on deeper insight.
+[Coaching](/handbook/leadership/coaching/) is about helping others help themselves. It is not about giving advice, instruction, or telling someone what to do. **Coaching is about focusing on the future and identifying where the coachee wants to be and what they want to achieve.** At GitLab, we've defined coaching as a conversation that helps people think for themselves, find their own answers, and commit to action they design. As a coach, your role is to clarify the pathway from the current state to the future. Coaches do this by enabling the coachee to make informed choices based on deeper insight.
 
 ## No matrix organization
 
-Please see [no-matrix-organization](/handbook/handbook/leadership/no-matrix-organization/)
+Please see [no-matrix-organization](/handbook/leadership/no-matrix-organization/)
 
 ## Stable counterparts
 
-We want to promote organic cross-functional collaboration by giving people stable counterparts for other functions they need to work with. For example, each Strategic Account Executive (SAE) works with one Sales Development Representative (SDR). With our [categories](/handbook/product/categories/) every backend team of developers maps to a [Product Manager (PM)](/handbook/job-families/product/product-manager/) and a [frontend team](/handbook/engineering/frontend/#teams).
+We want to promote organic cross-functional collaboration by giving people stable counterparts for other functions they need to work with. For example, each Strategic Account Executive (SAE) works with one Sales Development Representative (SDR). With our [categories](/handbook/product/categories/) every backend team of developers maps to a [Product Manager (PM)](/job-families/product/product-manager/) and a [frontend team](/handbook/engineering/frontend/#teams).
 
 Giving people a **stable counterpart** allows for more social trust and familiarity, which speeds up decision making, prevents communication problems, and reduces the risk of conflicts. This way we can work effectively cross functionally without the [downsides of a matrix organization](#no-matrix-organization).
 
@@ -288,11 +288,11 @@ Books in this section [can be expensed](/handbook/finance/spending-company-money
 
 Notable books from the [E-Group Offsite Book Selections](/handbook/company/offsite/#content-choice) may be added to the list below.
 
-We sometimes self-organize [book clubs](/handbook/handbook/leadership/book-clubs/) to read through these books as a group.
+We sometimes self-organize [book clubs](/handbook/leadership/book-clubs/) to read through these books as a group.
 
 1. [High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management) - Andrew Grove
     - [Top 10 quotes](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/)
-    - [Book club](/handbook/handbook/leadership/book-clubs/#high-output-management)
+    - [Book club](/handbook/leadership/book-clubs/#high-output-management)
 1. [The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things) - Ben Horowitz
     - [Chase Wright's notes](https://docs.google.com/document/d/1Uxva11x1YX4zci1FHmF45UTYjGLPMU5HmrbmflINoG4/)
 1. [Crucial Conversations: Tools for Talking When Stakes Are High](https://www.goodreads.com/book/show/15014.Crucial_Conversations) - Kerry Patterson
@@ -304,8 +304,8 @@ We sometimes self-organize [book clubs](/handbook/handbook/leadership/book-clubs
     - Consider getting context 1-on-1 (through Slack) before posting a comment in an issue that you might regret later
     - As leaders, we need to give context as well. A good question is: "What would have to change for us to get X prioritized..."
     - Documenting something is *not* a replacement for having the hard conversation
-    - [Book club](/handbook/handbook/leadership/book-clubs/#crucial-conversations)
-    - [Crucial Conversations Handbook Page](/handbook/handbook/leadership/crucial-conversations/)
+    - [Book club](/handbook/leadership/book-clubs/#crucial-conversations)
+    - [Crucial Conversations Handbook Page](/handbook/leadership/crucial-conversations/)
 
 ## Email Lists
 
@@ -334,7 +334,7 @@ Feel free to reach out to anyone in the [People Group](/handbook/people-group/) 
 
 ## Being a public company
 
-Learn more on GitLab's view of [being a public company](/handbook/handbook/company/being-a-public-company/).
+Learn more on GitLab's view of [being a public company](/handbook/company/being-a-public-company/).
 
 ## Mitigating Concerns
 

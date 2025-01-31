@@ -58,7 +58,7 @@ The **Security** internship is the result of [The Engineering Internship Pilot P
 
 ## Roles
 
-- [Security Manager](/handbook/job-families/security/security-leadership/) - Manager
+- [Security Manager](/job-families/security/security-leadership/) - Manager
 - [Senior Security Engineer(s)](/job-families/security/security-engineer#senior-security-engineer) - Mentor(s)
 - Security Intern
 

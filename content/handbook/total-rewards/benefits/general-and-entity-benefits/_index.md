@@ -13,24 +13,24 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 
 ## Entity Benefits
 
-- [GitLab BV (Netherlands)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/)
-- [GitLab BV (Belgium)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/)
-- [GitLab BV (Finland)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland/)
-- [Global Upside (India)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
+- [GitLab BV (Netherlands)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/)
+- [GitLab BV (Belgium)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/)
+- [GitLab BV (Finland)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland/)
+- [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
 - [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
-- [GitLab LTD (UK)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/ltd-benefits-uk/)
-- [GitLab GmbH (Germany)](/handbook/handbook/entity/gmbh-germany/)
+- [GitLab LTD (UK)](/handbook/total-rewards/benefits/general-and-entity-benefits/ltd-benefits-uk/)
+- [GitLab GmbH (Germany)](/handbook/entity/gmbh-germany/)
 - [GitLab PTY (Australia & New Zealand)](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/)
-- [GitLab Canada Corp](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/)
-- [GitLab GK (Japan)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-gk/)
-- [GitLab Ireland LTD](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-ireland-ltd/)
-- [GitLab Korea LTD](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/korea-ltd-benefits/)
-- [GitLab France S.A.S.](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
-- [GitLab Singapore Pte Ltd](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
+- [GitLab Canada Corp](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/)
+- [GitLab GK (Japan)](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-gk/)
+- [GitLab Ireland LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-ireland-ltd/)
+- [GitLab Korea LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/korea-ltd-benefits/)
+- [GitLab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
+- [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
-- [Papaya Global (Italy)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global/)
-- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
+- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
+- [Papaya Global (Italy)](/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global/)
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
 
 ### Benefits Available to Contractors
 
@@ -81,7 +81,7 @@ If team members have any questions about this service or would like to cancel th
 
 ## Financial Wellness
 
-GitLab offers resources related to [Financial Wellness](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/financial-wellness/) to support team members in their financial journey.
+GitLab offers resources related to [Financial Wellness](/handbook/total-rewards/benefits/general-and-entity-benefits/financial-wellness/) to support team members in their financial journey.
 
 ## Paid Time Off
 

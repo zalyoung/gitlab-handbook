@@ -94,7 +94,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
     - Impersonation Tokens – 24 hours
     - Runner Tokens – 1 year
     - Runner Registration Keys – 72 hours
-1. The "random" part of a token (excluding prefixes and other additions) will be generated using a [FIPS-certified and cryptographically-approved algorithm](/handbook/handbook/security/cryptographic-standard/).
+1. The "random" part of a token (excluding prefixes and other additions) will be generated using a [FIPS-certified and cryptographically-approved algorithm](/handbook/security/cryptographic-standard/).
 
 ### Token Storage
 
@@ -136,7 +136,7 @@ Exceptions to this policy will be tracked as per the [Information Security Polic
 
 ## References
 
-- [Controlled Document Procedure](/handbook/handbook/security/controlled-document-procedure/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 
 `*` The references (e.g. "AC-2(a)") are detailed in [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final).
 

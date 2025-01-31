@@ -159,7 +159,7 @@ Whatever behavior you reward will become your values. New hires and promotions s
 1. [Leadership](/handbook/leadership/) does.
 1. We select for during [hiring](/handbook/hiring).
 1. We emphasize during [onboarding](/handbook/people-group/general-onboarding/).
-1. Behavior we give each-other [360 feedback](/handbook/handbook/people-group/360-feedback/) on.
+1. Behavior we give each-other [360 feedback](/handbook/people-group/360-feedback/) on.
 1. Behavior we [compliment](/handbook/communication/#say-thanks).
 1. Criteria we use for [discretionary bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses).
 1. Criteria we use for our [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/).

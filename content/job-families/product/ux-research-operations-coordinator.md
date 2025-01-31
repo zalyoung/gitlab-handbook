@@ -96,7 +96,7 @@ The UX Research Operations Coordinator is a [grade 7](/handbook/total-rewards/co
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-**(1)** Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a UX Research Operations Coordinator role, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
+**(1)** Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a UX Research Operations Coordinator role, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 
 **(2)** Then you will meet with our UXR Manager, who will talk about your career, experience, go through some scenario-based questions and ensure there's time for your questions too.
 

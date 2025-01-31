@@ -36,7 +36,7 @@ Different sub-features and functionalities of the feature need to be
 prioritized. For this apparent critical functionalities like authentication and
 authorization should get highest priority.
 
-See [Assigning Priority](/handbook/handbook/security/product-security/application-security/appsec-reviews/#assigning-priority)
+See [Assigning Priority](/handbook/security/product-security/application-security/appsec-reviews/#assigning-priority)
 
 The following items are considered high priority code parts:
 
@@ -53,7 +53,7 @@ The following items are considered high priority code parts:
 
 ### Threat modeling
 
-Refer to the [threat modeling runbook page](/handbook/handbook/security/product-security/application-security/runbooks/threat-modeling/).
+Refer to the [threat modeling runbook page](/handbook/security/product-security/application-security/runbooks/threat-modeling/).
 
 ### Time estimation
 

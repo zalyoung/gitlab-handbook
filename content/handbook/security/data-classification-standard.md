@@ -25,7 +25,7 @@ The Data Classification Standard applies to all GitLab team members, contractors
 
 - Data Owners shall determine the classification of data in accordance with this standard. The Data Classification Index (internal only) provides a list of various types of data and their classification level. If you cannot identify the data element or are uncertain of the risk associated with the data and how it should be classified and handled, please contact the Security Risk team in Slack via @security-risk.
 
-- To maintain our culture of security, transparency and to minimize the risk to our sensitive data and our customers, GitLab team members are required to complete Data Classification Training as part of GitLab's [Security Awareness Training](/handbook/handbook/security/security-assurance/governance/sec-training/) to help understand the different types of data at GitLab and how to keep it [SAFE](/handbook/legal/safe-framework/). Training is available via [Level Up](https://levelup.gitlab.com/learn/dashboard), GitLab's internal learning platform.
+- To maintain our culture of security, transparency and to minimize the risk to our sensitive data and our customers, GitLab team members are required to complete Data Classification Training as part of GitLab's [Security Awareness Training](/handbook/security/security-assurance/governance/sec-training/) to help understand the different types of data at GitLab and how to keep it [SAFE](/handbook/legal/safe-framework/). Training is available via [Level Up](https://levelup.gitlab.com/learn/dashboard), GitLab's internal learning platform.
 
 ### Customer Responsibilities
 
@@ -53,7 +53,7 @@ Restricted and must remain confidential. This is GitLab's most sensitive data an
 
 Examples include:
 
-- Customer Data (see definition above in the [Data Classification Definitions section](/handbook/handbook/security/data-classification-standard/#data-classification-definitions))
+- Customer Data (see definition above in the [Data Classification Definitions section](/handbook/security/data-classification-standard/#data-classification-definitions))
 
 Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams.  Any Vendors that process Red Data must first undergo a factual and legal analysis that justifies their processing in accordance with our Customer agreements, as well as global privacy and data security laws. For any questions or concerns related to the transmission of Red data between systems, please reach out to @Security-Risk within the #Sec-Assurance channel.
 
@@ -96,7 +96,7 @@ Examples include:
 - Asset registers
 - General internal company communications
 - Vendor contracts
-- GitLab runbooks/work instructions/manuals/policies/procedures containing data NOT appropriate for [public consumption](/handbook/handbook/communication/confidentiality-levels/#not-public)
+- GitLab runbooks/work instructions/manuals/policies/procedures containing data NOT appropriate for [public consumption](/handbook/communication/confidentiality-levels/#not-public)
 - GitLab Team Member names
 
 #### GREEN{.text-success #green}
@@ -130,5 +130,5 @@ Exceptions to this policy will be tracked as per the [Information Security Polic
 
 ## References
 
-- [Controlled Document Procedure](/handbook/handbook/security/controlled-document-procedure/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 - [Data Classification Index](https://internal.gitlab.com/handbook/security/data_classification/) (internal only)

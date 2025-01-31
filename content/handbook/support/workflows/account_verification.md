@@ -170,7 +170,7 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 
 1. For situations other than 2FA, please see [Account Changes workflow]({{< ref "account_changes.md" >}}).
 1. For disabling 2FA: If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
-      1. Under the account tab, click `Edit`, add an [Admin Note](/handbook/handbook/support/workflows/admin_note/), and save.
+      1. Under the account tab, click `Edit`, add an [Admin Note](/handbook/support/workflows/admin_note/), and save.
       1. On the account tab, click on `Disable 2FA`.
       1. Use the `Support::SaaS::Gitlab.com2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20Successful.md?ref_type=heads).
 
@@ -297,7 +297,7 @@ As stressed in the Slack notification template, we will wait for the customer's 
 
 #### 4. Disable 2FA
 
-Once the customer has approved the request, disable 2FA on the user's account, add an [Admin Note](/handbook/handbook/support/workflows/admin_note/) on the user's account, and then close both the support ticket and issue.
+Once the customer has approved the request, disable 2FA on the user's account, add an [Admin Note](/handbook/support/workflows/admin_note/) on the user's account, and then close both the support ticket and issue.
 
 Peer review is **not** required. You may make the change yourself.
 

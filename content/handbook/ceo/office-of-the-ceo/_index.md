@@ -122,7 +122,7 @@ The CEO will review and delete the item once it's been assessed as completed.
 
 ### Prioritization
 
-Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page](/handbook/job-families/chief-executive-officer/chief-of-staff/#responsibilities).
+Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page](/job-families/chief-executive-officer/chief-of-staff/#responsibilities).
 
 When newly initiated, self-directed, leadership work entails a significant time commitment (>20% capacity for more than a week), the work being done should be flagged to the CEO in a 1:1 or team meeting. This work should stay on the 1:1 agenda between the CoS to the CEO and the team member for the duration of the activity. If needed, activities may be reprioritized based on top demands and priorities.
 

@@ -33,7 +33,7 @@ First, please open an issue in the [lxp-contributions project](https://gitlab.co
 
 If you want to build the content into the platform yourself, please complete the Level Up [Learning Evangelist training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/learning-evangelist-training). This training course uses instructional videos to teach learners the basics of content creation in Level Up, and includes some best practice to think about when designing learning content and gathering materials. Once you have completed the training, the Learning and Development team will uplift your permissions in Level Up to give you access to course authoring tools.
 
-You can also use the [Learning Evangelist handbook page](/handbook/handbook/people-group/learning-and-development/level-up/course-author-training/) to review any of the content in the course, directly from the handbook.
+You can also use the [Learning Evangelist handbook page](/handbook/people-group/learning-and-development/level-up/course-author-training/) to review any of the content in the course, directly from the handbook.
 
 ## Support
 

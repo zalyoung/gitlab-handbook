@@ -9,15 +9,15 @@ This handbook page is meant to cover who we are and why we exist at GitLab. On t
 
 ## People Analytics Team Members
 
-- [Adrian Perez](/handbook/company/team/#aperez349): [Sr. Manager, People Analytics](/handbook/job-families/people-group/people-systems-and-analytics/#senior-manager-people-analytics)
-- [Shane McCormack](/handbook/company/team/#mccormack514): [Sr. Analyst, People Analytics](/handbook/job-families/people-group/people-systems-and-analytics/#senior-analyst-people-analytics)
+- [Adrian Perez](/handbook/company/team/#aperez349): [Sr. Manager, People Analytics](/job-families/people-group/people-systems-and-analytics/#senior-manager-people-analytics)
+- [Shane McCormack](/handbook/company/team/#mccormack514): [Sr. Analyst, People Analytics](/job-families/people-group/people-systems-and-analytics/#senior-analyst-people-analytics)
 
 ## People Analytics Handbook Contents
 
 - [People Analytics Data Guide](data-guide.md) - If you are an analyst trying to use People data sets, this guide will help you get started with our data models.
-- [People Data Governance](/handbook/handbook/people-group/people-ops-tech-analytics/people-analytics/data-governance/) - This is an overview of how we ensure quality of our People data.
-- [People Analytics Tableau Dashboard Overview](/handbook/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
-- [People Analytics Survey Support](/handbook/handbook/people-group/people-ops-tech-analytics/people-analytics/survey-support/) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
+- [People Data Governance](/handbook/people-group/people-ops-tech-analytics/people-analytics/data-governance/) - This is an overview of how we ensure quality of our People data.
+- [People Analytics Tableau Dashboard Overview](/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
+- [People Analytics Survey Support](/handbook/people-group/people-ops-tech-analytics/people-analytics/survey-support/) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
 
 ## What is People Analytics?
 

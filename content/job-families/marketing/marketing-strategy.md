@@ -153,7 +153,7 @@ The next step in the Marketing Strategy job family beyond director is not yet de
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 - Next, candidates will be invited to speak with our VP of Marketing Ops and Analytics
 - Next, candidates will be invited to speak with one of our Marketing Analysts
 - Next, candidates will be invited to speak with one of our Integrated Marketing Directors.

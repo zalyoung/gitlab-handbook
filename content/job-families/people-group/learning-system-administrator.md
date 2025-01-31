@@ -111,7 +111,7 @@ The next step for the Learner Engagement Specialist is not yet defined.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Learning & Development Manager.
 - Next, candidates will be asked to submit a short writing sample to answer a question that the Learning and Development team often sees from customers and community members.
 - Next, the candidate will be invited to interview with a member of the Learning & Development team, a team member from our Sales Enablement, Professional Services, and/or Developer Relations team.

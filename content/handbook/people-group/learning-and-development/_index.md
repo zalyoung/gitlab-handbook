@@ -61,7 +61,7 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "learning-initiatives" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Initiatives</a>
-    <a href="[self-paced-learning](/handbook/handbook/people-group/learning-and-development/self-paced-learning/)" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/)" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
     <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
 
   </div>
@@ -71,7 +71,7 @@ The Learning & Development team has a number of resources to help team members l
   <div>
     <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
     <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
-    <a href="[coaching](/handbook/handbook/leadership/coaching/)" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
+    <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
   </div>
 </div>
 
@@ -88,11 +88,11 @@ Multiple teams across the company contribute to learning and development of our 
 
 1. Slack: `#learninganddevelopment`
 1. Email Us: `learning@gitlab.com`
-1. [Request support/Collaborate on new learning content](/handbook/handbook/people-group/learning-and-development/work-with-us/)
+1. [Request support/Collaborate on new learning content](/handbook/people-group/learning-and-development/work-with-us/)
 
 ### Work With Us
 
-The [work with us](/handbook/handbook/people-group/learning-and-development/work-with-us/) page outlines issue templates and processes that are managed on our [Learning and Development issue board](https://gitlab.com/gitlab-com/people-group/learning-and-development/-/issues). We review and classify requests based on the scalability and possible organizational impact. Learning solutions that can be applied and used company-wide take priority. Our process includes:
+The [work with us](/handbook/people-group/learning-and-development/work-with-us/) page outlines issue templates and processes that are managed on our [Learning and Development issue board](https://gitlab.com/gitlab-com/people-group/learning-and-development/-/issues). We review and classify requests based on the scalability and possible organizational impact. Learning solutions that can be applied and used company-wide take priority. Our process includes:
 
 - Evaluate the strategic impact of the learning session
 - Determine the level of work associated with the learning requirement
@@ -104,7 +104,7 @@ The [work with us](/handbook/handbook/people-group/learning-and-development/work
 
 ### Handbook First Training Content
 
-All material in the handbook is considered training and we build [handbook first learning content](/handbook/handbook/people-group/learning-and-development/interactive-learning/). One of L&D's primary responsibilities is to ensure that content lives in the appropriate section in the handbook. In the below video, Sid, explains how the content of courses is not separated from the handbook to the L&D team.
+All material in the handbook is considered training and we build [handbook first learning content](/handbook/people-group/learning-and-development/interactive-learning/). One of L&D's primary responsibilities is to ensure that content lives in the appropriate section in the handbook. In the below video, Sid, explains how the content of courses is not separated from the handbook to the L&D team.
 
 {{< youtube "G57Wtt7M_no" >}}
 

@@ -118,7 +118,7 @@ The next step in the Treasury job family is to move to the Principal Accounting 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 - Meet with Director Treasury for 50 minutes
 - Meet with VP Cash Management for 30 minutes
 

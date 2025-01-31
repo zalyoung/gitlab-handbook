@@ -151,10 +151,10 @@ We've build several automations and tools to support our People Group. In the fo
 
 ### Supportive tools for People Group
 
-- [Nominator Bot](/handbook/handbook/people-group/engineering/nominatorbot/)
+- [Nominator Bot](/handbook/people-group/engineering/nominatorbot/)
 - [Compensation Calculator](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/)
 - [Inclusive Language Check on Job Families](/handbook/hiring/job-families/#inclusive-language-check)
-- [People Ops Internal Handbook](/handbook/handbook/people-group/engineering/pops-internal-handbook/)
+- [People Ops Internal Handbook](/handbook/people-group/engineering/pops-internal-handbook/)
 
 ### Uncategorized
 

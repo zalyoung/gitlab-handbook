@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## What is a forcing function?
 
-A [forcing function](/handbook/handbook/company/culture/all-remote/remote-work-glossary/#forcing-function) is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior.
+A [forcing function](/handbook/company/culture/all-remote/remote-work-glossary/#forcing-function) is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior.
 
 [Transitioning](transition/) to remote is challenging but worthwhile. For many leaders, the question of "How do we do it?" is a giant one. Whether it's entirely disconnecting from offices and going [all-remote](terminology/), or attempting to create a level playing field for in-office and remote team members in a [hybrid-remote](hybrid-remote/) arrangement, leaders should consider using some of key forcing functions outlined below to ensure a commitment to remote-first practices. At GitLab, we use [forcing functions](how-to-work-remote-first/) to empower and encourage team members to use best practices and to reinforce our [values](/handbook/values/).
 

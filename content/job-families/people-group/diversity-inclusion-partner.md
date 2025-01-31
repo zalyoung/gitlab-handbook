@@ -62,7 +62,7 @@ The Diversity, Inclusion and Belonging Specialist is a [grade 6](/handbook/total
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 - 30-45 minute interview with the VP, DIB
 - 30 minute interview with a member of the Learning and Development team
 - 30 minute interview with a People Business Partner
@@ -118,7 +118,7 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 7](/handbook/total-r
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our Vice President, Diversity Inclusion, and Belonging
 - Next, candidates will be invited to schedule a 45 minute panel interview with one of our People Business Partners, member of our L&D team and People Operations leadership
 - After that, candidates will be invited to schedule a 30 minute interview with our Chief People Officer
@@ -168,7 +168,7 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 8](/handbook/total-r
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our Vice President, Diversity Inclusion, and Belonging
 - Next, candidates will be invited to schedule a 45 minute panel interview with one of our Diversity Inclusion, and Belonging Partner, People Business Partners, member of our L&D team, and/or People Operations leadership
 - After that, candidates will be invited to schedule a 30 minute interview with our Chief People Officer

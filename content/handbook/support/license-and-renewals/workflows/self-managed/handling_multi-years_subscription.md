@@ -24,7 +24,7 @@ To check whether the customer has a multi-year subscription:
 
 ### Handling the request
 
-After confirmation and before [generating a new license](/handbook/handbook/support/license-and-renewals/workflows/self-managed/creating_licenses/) with a proper `Start date` and `End date` for the customer, please ask the customer for their system information using the ZenDesk `Subscriptions::Active Users` macro.
+After confirmation and before [generating a new license](/handbook/support/license-and-renewals/workflows/self-managed/creating_licenses/) with a proper `Start date` and `End date` for the customer, please ask the customer for their system information using the ZenDesk `Subscriptions::Active Users` macro.
 
 1. If there are *not* any `Users over license`, proceed to generate the new license.
    - **Please note: licenses for multi-year subscriptions [are issued in 12 month blocks](https://about.gitlab.com/pricing/licensing-faq/#i-purchased-a-multi-year-subscription-why-is-my-license-only-for-1-year)**
@@ -32,4 +32,4 @@ After confirmation and before [generating a new license](/handbook/handbook/supp
    - For example, `Start date: 2021-05-01` and `End date: 2022-05-01` would become `2022-05-01` and `2023-05-01`, respectively.
    - Do not tick the trial checkbox, as this is not a trial!
    - Use the previous year license `Users count` as the new license `Previous Users Count`
-1. If there *are* `Users over license`, confirm that they are accounted for in the quote. Otherwise, follow the [Working with sales workflow](/handbook/handbook/support/license-and-renewals/workflows/working_with_sales/). We can generate a new license once the `Users over license` has been paid for.
+1. If there *are* `Users over license`, confirm that they are accounted for in the quote. Otherwise, follow the [Working with sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales/). We can generate a new license once the `Users over license` has been paid for.

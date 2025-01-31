@@ -4,7 +4,7 @@ title: Learning Evangelist Training
 
 This training is designed for team members who would like to create their own learning content in Level Up. Once you've completed the course, let the Learning & Development team know and we'll uplift your permissions and allocate you a number of content items to give you access to the system.
 
-This handbook page is used to document the Level Up Learning Evangelist Training. The Learning & Development team use a [handbook first](/handbook/handbook/people-group/learning-and-development/interactive-learning/) approach to interactive learning, so the content in this page can also be found in the Level Up course, but is preserved here as a Single Source of Truth (SSOT).
+This handbook page is used to document the Level Up Learning Evangelist Training. The Learning & Development team use a [handbook first](/handbook/people-group/learning-and-development/interactive-learning/) approach to interactive learning, so the content in this page can also be found in the Level Up course, but is preserved here as a Single Source of Truth (SSOT).
 
 [You can access this course in Level Up here.](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/learning-evangelist-training)
 

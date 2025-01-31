@@ -5,6 +5,6 @@ description: "The READMEs for the People Group team at GitLab can be found on th
 
 ## People Group READMEs
 
-- [Cassiana Gudgenov's README (People Compliance Partner)](/handbook/handbook/people-group/readmes/cgudgenov/)
+- [Cassiana Gudgenov's README (People Compliance Partner)](/handbook/people-group/readmes/cgudgenov/)
 
-- [Tre Ely's README (Director, Talent Development)](/handbook/handbook/people-group/readmes/tely/)
+- [Tre Ely's README (Director, Talent Development)](/handbook/people-group/readmes/tely/)

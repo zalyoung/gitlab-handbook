@@ -36,4 +36,4 @@ The AppSec team will post a Slack message in `#sec-appsec` with information on w
 
 Each AppSec team member providing coverage will have their mobile phone number available in their Slack profile.
 
-Should an incident occur, the ["Handling S1/P1s procedure"](/handbook/handbook/security/product-security/application-security/runbooks/handling-s1p1/) will be followed, which includes handing over to the next AppSec engineer.
+Should an incident occur, the ["Handling S1/P1s procedure"](/handbook/security/product-security/application-security/runbooks/handling-s1p1/) will be followed, which includes handing over to the next AppSec engineer.

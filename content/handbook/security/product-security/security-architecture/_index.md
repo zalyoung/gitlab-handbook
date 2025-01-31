@@ -78,7 +78,7 @@ cycle of source code:
 
 ### Cryptography
 
-- [Do not roll your own crypto](/handbook/handbook/security/product-security/vulnerability-management/encryption-policy/#rolling-your-own-crypto) (also one of our [Security Architecture Principles](#security-architecture-principles)
+- [Do not roll your own crypto](/handbook/security/product-security/vulnerability-management/encryption-policy/#rolling-your-own-crypto) (also one of our [Security Architecture Principles](#security-architecture-principles)
 )
 - Reference our [GitLab Cryptography Standard](/handbook/security/cryptographic-standard/)
 

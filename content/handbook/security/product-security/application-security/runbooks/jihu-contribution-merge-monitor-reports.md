@@ -32,9 +32,9 @@ In the event that you find a vulnerability or other security concern in a findin
 1. Ping the merge request author, reviewers, and the AppSec team on the issue
 1. If possible, work to get the merge request reverted before it is included in a release
     - If a release is in-progress, contact the delivery team to see if it can be removed from the release
-    - If this was already included in a release and this is a S1 finding, follow the normal [S1 process](/handbook/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
+    - If this was already included in a release and this is a S1 finding, follow the normal [S1 process](/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
 1. Add a note to the Merge Monitor report that indicates a vulnerability was identified with a link to the issue that was created to track it
 
 ## Monitor Limitations
 
-Since the Merge Monitor uses a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) in the [jihu_merge_request_monitor_reports](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/jihu_merge_request_monitor_reports), it can only be used to find merge requests in public repositories that the JiHu team contributes to. Some repositories require manual review as mentioned in the [certification process documentation](/handbook/handbook/ceo/office-of-the-ceo/jihu-support/release-certification/#certification-process) and are not covered by this tool. Contributions to these repositories are reviewed as part of the regular monthly release certification process.
+Since the Merge Monitor uses a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) in the [jihu_merge_request_monitor_reports](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/jihu_merge_request_monitor_reports), it can only be used to find merge requests in public repositories that the JiHu team contributes to. Some repositories require manual review as mentioned in the [certification process documentation](/handbook/ceo/office-of-the-ceo/jihu-support/release-certification/#certification-process) and are not covered by this tool. Contributions to these repositories are reviewed as part of the regular monthly release certification process.

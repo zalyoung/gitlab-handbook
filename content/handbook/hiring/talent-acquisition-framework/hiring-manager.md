@@ -5,9 +5,9 @@ description: "This page is an overview of the processes the hiring manager is re
 
 ## Step 1/HM: Identifying hiring need
 
-1. [Add Vacancy to the Hiring Plan](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#adding-vacancies-to-the-hiring-plan)
+1. [Add Vacancy to the Hiring Plan](/handbook/hiring/talent-acquisition-framework/req-creation/#adding-vacancies-to-the-hiring-plan)
 Determine the purpose of this role
-1. [Create or Review the Job Family](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family)
+1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family)
 1. [Work with the Recruiting Manager/Lead to open the vacancy in Greenhouse](req-creation/#opening-vacancies-in-greenhouse)
 
 ## Step 2/HM: Complete Kick-off

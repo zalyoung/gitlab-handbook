@@ -47,7 +47,7 @@ report to themselves immediately.
 if it is a duplicate or related to another report you are familiar with, just
 be sure to get it reassigned if you won't be able to meet the estimated triage time.
 - When starting a triage work cycle, team members should prioritize as follows:
-  1. Identify, triage, and [escalate any New severity::1/priority::1](/handbook/handbook/security/product-security/application-security/runbooks/handling-s1p1/) issues first, from any queue.
+  1. Identify, triage, and [escalate any New severity::1/priority::1](/handbook/security/product-security/application-security/runbooks/handling-s1p1/) issues first, from any queue.
   1. Close duplicate and invalid reports.
   1. Triage further using Sort by "Oldest" reports.
   1. Triage the `GitLab Team` queue.
@@ -98,8 +98,8 @@ the responsible engineering team:
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
   - On the imported GitLab issue:
     - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
-    - Assign the appropriate [Due Date](/handbook/handbook/security/engaging-with-security/#due-date-on-security-issues)
-    - Have a proper [`How to reproduce`](/handbook/handbook/security/engaging-with-security/#reproducibility-on-security-issues) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
+    - Assign the appropriate [Due Date](/handbook/security/engaging-with-security/#due-date-on-security-issues)
+    - Have a proper [`How to reproduce`](/handbook/security/engaging-with-security/#reproducibility-on-security-issues) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
     - If the report is a security-related documentation change, add the `~documentation` label
     - @-mention the product manager and engineering manager based on the [product categories page](/handbook/product/categories/). Ask for engineering feedback if it is required to complete the triage
     - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
@@ -329,7 +329,7 @@ disclose it regardless of quality unless there is a good reason not to.
 
 ## Application Security Engineer Procedures for severity::1/priority::1 Issues
 
-Please see [Handling severity::1/priority::1 Issues](/handbook/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
+Please see [Handling severity::1/priority::1 Issues](/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
 
 ## Closing reports as Informative, Not Applicable, or Spam
 

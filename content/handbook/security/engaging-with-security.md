@@ -26,15 +26,15 @@ If triage is delayed due to team availability, the delay should be communicated.
 
 ### Triage Rotation
 
-See the [dedicated page](/handbook/handbook/security/product-security/application-security/runbooks/triage-rotation/) to read about our Triage Rotation process.
+See the [dedicated page](/handbook/security/product-security/application-security/runbooks/triage-rotation/) to read about our Triage Rotation process.
 
 ### HackerOne Process
 
-See the [dedicated page](/handbook/handbook/security/product-security/application-security/runbooks/hackerone-process/) to read about our HackerOne process.
+See the [dedicated page](/handbook/security/product-security/application-security/runbooks/hackerone-process/) to read about our HackerOne process.
 
 ### Security Dashboard Review
 
-See the [dedicated page](/handbook/handbook/security/product-security/application-security/runbooks/security-dashboard-review/) to read about our dashboard review process.
+See the [dedicated page](/handbook/security/product-security/application-security/runbooks/security-dashboard-review/) to read about our dashboard review process.
 
 ### CVE IDs
 
@@ -50,7 +50,7 @@ On the day of the security release several things happen in order:
 - All security patches are pushed to the public repository.
 - The public is notified via the GitLab blog release post, security alerts email, and Twitter.
 
-The GitLab issue should then be closed and - after 30 days - sanitized and made public. If the report was received via HackerOne, follow the [HackerOne process](/handbook/handbook/security/product-security/application-security/runbooks/hackerone-process/#closing-out-and-disclosing-issues).
+The GitLab issue should then be closed and - after 30 days - sanitized and made public. If the report was received via HackerOne, follow the [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process/#closing-out-and-disclosing-issues).
 
 ### Process for disclosing security issues
 
@@ -62,7 +62,7 @@ At GitLab we value [being as transparent as possible](/handbook/values/#transpar
 1. If an issue does not have `~keep confidential`, remove sensitive information from the description and comments, e.g.
    1. Proof-of-concept videos & screenshots showing researcher account information
    1. Tokens, Access Keys, and other secrets
-   1. Information which our [Data Classification Standard](/handbook/handbook/security/data-classification-standard/) and [SAFE framework](/handbook/legal/safe-framework/) say to not disclose
+   1. Information which our [Data Classification Standard](/handbook/security/data-classification-standard/) and [SAFE framework](/handbook/legal/safe-framework/) say to not disclose
 1. Issues related to personal data leaks are not disclosed since they are not security issues related to the product. If for some reason it needs to be disclosed then consult with Legal and the Corporate Comms team before disclosing.
 1. Identify all issue description changes, click to expand "Compare with previous version" and click the trash icon to "Remove description history"
 1. Optionally mention issue participants to notify them you intend to make the issue public

@@ -54,7 +54,7 @@ The next step for the VP of Tax job family is not yet defined.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
 
 - Candidates will be invited to schedule a first interview with our CAO.
 - Next, candidates will be invited to schedule a first interview with our CFO.

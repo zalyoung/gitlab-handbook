@@ -28,7 +28,7 @@ All of our open positions can be found on our [jobs page](https://about.gitlab.c
 {{% /details %}}
 
 {{% details summary="Internal applicants" %}}
-Interested in another role internally? Review internal mobility eligibility [here](/handbook/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities).
+Interested in another role internally? Review internal mobility eligibility [here](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities).
 
 If you are a [current team member and are interested in applying](/handbook/people-group/promotions-transfers/#department-transfers) for a current vacancy, please follow the steps below.
 

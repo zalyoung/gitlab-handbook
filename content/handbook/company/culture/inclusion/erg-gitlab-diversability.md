@@ -45,7 +45,7 @@ You don't have to be specific about your diagnosis. An employer may ask for veri
 
 #### Formal disclosure of your disability
 
-If you believe you need to request reasonable accommodations to succeed at GitLab, please notify the [Team Member Relations team](/handbook/people-group/team-member-relations) at `teammemberrelations@gitlab.com`. The Job Accommodation Network (JAN) site has great resources, questions to consider, and examples of types of accommodations. For example, the [AD/HD](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm) page. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs according to [the GitLab Individuals with Disabilities Policy](/handbook/handbook/people-policies/inc-usa/#individuals-with-disabilities-policy).
+If you believe you need to request reasonable accommodations to succeed at GitLab, please notify the [Team Member Relations team](/handbook/people-group/team-member-relations) at `teammemberrelations@gitlab.com`. The Job Accommodation Network (JAN) site has great resources, questions to consider, and examples of types of accommodations. For example, the [AD/HD](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm) page. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs according to [the GitLab Individuals with Disabilities Policy](/handbook/people-policies/inc-usa/#individuals-with-disabilities-policy).
 
 #### Informal disclosure of your disability, or simply notifying your team or manager
 

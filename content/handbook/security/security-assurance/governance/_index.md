@@ -20,7 +20,7 @@ Keeping the organization on track and within established boundaries to ensure co
 
 #### Security handbook maintenance
 
-Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents](/handbook/handbook/security/controlled-document-procedure/), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide](https://handbook.gitlab.com/docs/markdown-guide/). To request an update to the handbook's `security` section, please open an issue using the link below.
+Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents](/handbook/security/controlled-document-procedure/), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide](https://handbook.gitlab.com/docs/markdown-guide/). To request an update to the handbook's `security` section, please open an issue using the link below.
 
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-handbook/-/issues/new?issuable_template=security_handbook_request" class="btn bg-primary text-white btn-lg">Security Handbook Request</a>
 
@@ -34,11 +34,11 @@ To support GitLab's regulatory and compliance requirements, the Security Governa
 
 ### GCF Control Maintenance
 
-Maintenance of the [GCF control framework](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/) to include language, policy mapping, and relevancy updates.
+Maintenance of the [GCF control framework](/handbook/security/security-assurance/security-compliance/sec-controls/) to include language, policy mapping, and relevancy updates.
 
 ### Security Compliance Training
 
-Creating and managing [security compliance trainings](/handbook/handbook/security/security-assurance/governance/sec-training/) to ensure GitLab team members are aware and trained in security core competencies.
+Creating and managing [security compliance trainings](/handbook/security/security-assurance/governance/sec-training/) to ensure GitLab team members are aware and trained in security core competencies.
 
 ### GRC Application Administration
 
@@ -56,15 +56,15 @@ We will assist in managing and providing guidance to carry out day to day activi
 
 [Joe Longo](/handbook/company/team/#jlongo_gitlab), @jlongo_gitlab, Senior Manager, Governance and Field Security
 
-- [Controlled Documents](/handbook/handbook/security/controlled-document-procedure/)
-- [Security compliance training](/handbook/handbook/security/security-assurance/governance/sec-training/)
-- [GCF control maintenance](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/)
+- [Controlled Documents](/handbook/security/controlled-document-procedure/)
+- [Security compliance training](/handbook/security/security-assurance/governance/sec-training/)
+- [GCF control maintenance](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - Regulatory and compliance landscape monitoring
 - Security handbook maintenance
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
-- [Security Compliance Controls](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Controlled Document Procedure](/handbook/handbook/security/controlled-document-procedure/)
+- [Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

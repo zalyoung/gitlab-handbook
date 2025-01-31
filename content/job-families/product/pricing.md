@@ -63,7 +63,7 @@ The Pricing Analyst is a [grade 6](/handbook/total-rewards/compensation/compensa
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters
 - Next, candidates will be invited to schedule an interview with the Principal Pricing Manager
 - Next, candidates will be invited to schedule a deep dive interview with a member of the Data Team
 - Next, candidates will be invited to schedule an interview with the Director of Pricing
@@ -113,7 +113,7 @@ The Senior Pricing Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters
 - Next, candidates will be invited to schedule an interview with a Principal Pricing Manager
 - Next, candidates will be initied to schedule an interview with a member of the Product Organization
 - Next, candidates will be invited to schedule an interview with a member of the Finance Organization
@@ -150,7 +150,7 @@ The Principal Pricing Manager is a [grade 9](/handbook/total-rewards/compensatio
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters
 - Next, candidates will be invited to schedule an interview with the Director of Pricing
 - Next, candidates will be invited to schedule an interview with a leader from the Sales Organization (VP of Sales Ops, VP of Sales or CRO)
 - Next, candidates will be invited to schedule an interview with a leader from the Marketing Organization (Sr. Director of Strategic Marketing or CMO)
@@ -192,7 +192,7 @@ The Director of Pricing is a [grade 10](/handbook/total-rewards/compensation/com
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters
 - Next, candidates will be invited to schedule an interview with the Sr Director, Product Monetization
 - Next, candidates will be invited to schedule a deep-dive interview with a Principal Pricing Manager
 - Next, candidates will be invited to schedule an interview with the Director of Product, Fulfillment

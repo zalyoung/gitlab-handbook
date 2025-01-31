@@ -11,7 +11,7 @@ This handbook page provides an overview of data definitions and data models used
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific People Models, please reference the **Commonly Used Data Models** section below for a starting point.
 - [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/) managed by the Data team.
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
-- [People Group Tech Stack Guide](/handbook/handbook/people-group/tech-stack-guide-workday/) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
+- [People Group Tech Stack Guide](/handbook/people-group/tech-stack-guide-workday/) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
 
 ## People Group Data Dictionary
 

@@ -63,7 +63,7 @@ Team Members located in Singapore who are resigning and are **not** Singapore ci
 
 ### Offboarding
 
-1. **People Connect:** On the Last Day of Work as indicated in the Workday Termination Report at the [pre-determined time](/handbook/handbook/people-group/offboarding/offboarding_standards/#notice-of-offboarding) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
+1. **People Connect:** On the Last Day of Work as indicated in the Workday Termination Report at the [pre-determined time](/handbook/people-group/offboarding/offboarding_standards/#notice-of-offboarding) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
 1. **Deprovisioners (Systems):** You will be tagged in the departing team members offboarding issue and required to indicate that the team members access has been revoked kindly note that access to SOX Systems must be attended to with urgency and all other tasks within the offboarding issue must be closed out within five days.
 
 ## Involuntary Terminations
@@ -260,7 +260,7 @@ I want to share that [team member's name] ([group] [role]) will be leaving GitLa
 
 There will be situations in which team members prefer to share their offboarding message, and situations in which managers prefer to do so. Either is ok, **so long as team member and manager have reviewed the messaging together prior to posting**.
 
-If someone is let go involuntarily, this generally cannot be shared since it affects the individual's privacy and job performance is intentionally kept [between an individual and their manager](/handbook/handbook/communication/confidentiality-levels/#not-public).
+If someone is let go involuntarily, this generally cannot be shared since it affects the individual's privacy and job performance is intentionally kept [between an individual and their manager](/handbook/communication/confidentiality-levels/#not-public).
 
 If you are not close to an employee's offboarding, it may seem unnecessarily swift.
 Please remember that these decisions are never made without following the above process to come to a positive resolution first - we need to protect the interests of the individual as well as the company, and offboarding is a last resort.
@@ -299,7 +299,7 @@ GitLab's [turnover data](https://10az.online.tableau.com/#/site/gitlab/workbooks
 
 ### Offboarding Issue
 
-To track all tool deprovisioning, please open an offboarding issue following the [offboarding standards](/handbook/handbook/people-group/offboarding/offboarding_standards/).
+To track all tool deprovisioning, please open an offboarding issue following the [offboarding standards](/handbook/people-group/offboarding/offboarding_standards/).
 
 ### Returning Property to GitLab
 
