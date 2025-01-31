@@ -42,6 +42,10 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 | [Core Development Staff Meeting](https://docs.google.com/document/d/1fx6Indy9rDX9-btjRvElRwgidP3rSzzVrK8QwDvSpDk/edit?tab=t.0#heading=h.ky78crs5w5jj)              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization                                                                                                                          |
 | [AI - Eng Leadership Sync](https://docs.google.com/document/d/14SnuWkaPPusJfBYJf-wWoP5NoyzSp4raWW2sYdobVdA/edit?tab=t.0#heading=h.gxdns65f2qqx)                    | Weekly        | Tim Zallmann    | Engineering coordination on shared AI objectives (architecture, inference, prompt migration) across groups and sections                                                                                              |
 
+## Skip Levels
+
+{{% include "includes/engineering/foundations-data-science-shared/skip-levels.md" %}}
+
 ## Links and resources
 
 {{% include "includes/engineering/foundations-data-science-shared/shared-links.md" %}}
