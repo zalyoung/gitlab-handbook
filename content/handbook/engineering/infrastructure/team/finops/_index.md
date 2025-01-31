@@ -1,6 +1,6 @@
 # FinOps Team Handbook
 
-The FinOps team brings a wealth of experience in both Site Reliability Engineering (SRE) and Software Engineering (SWE), leveraging these skills to optimize the financial operations of our cloud services and data resources. This technical expertise enables us to not only ensure alignment with financial objectives but also drive operational efficiency at scale. Our team’s deep understanding of cloud cost structures, infrastructure, data management, and automation empowers us to manage the full lifecycle of cloud consumption, from cost allocation to detailed reporting and analysis, while maintaining the high standards of reliability and performance expected in modern cloud environments.
+The FinOps team brings experience in both Site Reliability Engineering (SRE) and Software Engineering (SWE), leveraging these skills to optimize the financial operations of our cloud services and data resources. This technical expertise enables us to not only ensure alignment with financial objectives but also drive operational efficiency at scale. Our team’s deep understanding of cloud cost structures, infrastructure, data management, and automation empowers us to manage the full lifecycle of cloud consumption, from cost allocation to detailed reporting and analysis, while maintaining the high standards of reliability and performance expected in modern cloud environments.
 
 |  |  |
 |--|--|
@@ -28,7 +28,7 @@ We focus on several key activities:
 We manage a variety of stakeholder relationships across the organization. Each stakeholder group has specific needs, and we aim to support them in a way that’s both efficient and scalable.
 
 - **FP&A:** Provide cost insights and reporting for financial forecasting.
-- **Data Team (PDI & AI):** Collaborate to ensure the data required from our stakeholders is present in the data warehouse. This ensures structure and aligns with both operational and financial reporting needs.
+- **Data Teams (PDI & AI):** Collaborate to ensure the data required from our stakeholders is present in the data warehouse. This ensures structure and aligns with both operational and financial reporting needs.
 - **Engineering and Infrastructure:** Work closely with engineering teams to analyze resource utilization and identify cost-saving opportunities in cloud infrastructure.
 
 ### Stakeholder Engagement Guidelines:
