@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through optimizing a test pipeline"
 
 The goal of this lab is to explore the different ways that we can configure testing in an application.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
