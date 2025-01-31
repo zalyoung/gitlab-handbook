@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Investigating Broken Pipelines"
 description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD pipelines"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Syntax error catching
