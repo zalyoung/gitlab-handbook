@@ -18,9 +18,7 @@ As the costs of healthcare increase, Gitlab strives to offer a competitive benef
 
 ### 2025 Open Enrollment
 
-GitLab’s US Benefit Open Enrollment for Calendar Year 2025 will take place from 2024-11-04 through 2024-11-15.
-
-This year is a **passive enrollment**, so no action is needed if you are not making changes to your current benefits or enrolling in a Flexible Spending Account (FSA). **FSA elections do not roll over and you must actively (re)enroll in Flexible Spending Accounts (FSAs) and Dependent Care FSAs each year.** To enroll in an FSA or make changes, log in to PlanSource between Monday, November 4, and Friday, November 15.
+**Completed**: GitLab’s US Benefit Open Enrollment for Calendar Year 2025 took place from 2024-11-04 through 2024-11-15.
 
 Please see additional information on the 2025 US Benefit Plans
 
@@ -31,15 +29,6 @@ Please see additional information on the 2025 US Benefit Plans
 - See our 2025 [Annual Rights Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing)
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
 - See the [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files). These machine readable files are made available in response to the federal Transparency in Coverage Rule and include negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
-
-## 2024 Plan Year
-
-GitLab offers a benefits package that provides health and financial security for you and your family.
-
-- Review the [2024 Benefits at Glance](https://drive.google.com/file/d/1TbBefUlpuWpErJ8eEVppZZX_bAoqbT2n/view?usp=sharing) for a high-level Summary of the plans
-- Review the [2024 US Benefits Guide](https://drive.google.com/file/d/1KTgW9U2ByTBHRrjNg623K6DY3-_pKsUD/view?usp=sharing) for full plan details and plan rates. - Candidates and New hires who are about to start with GitLab can view this document by clicking on the link and requesting access, access will be granted shortly after request.
-- Watch the [2024 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zGdz14BY3EzaInCz0&r3f1=&fb=0)
-- Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2022) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing) to walk through the GitLab Cigna plans available.
 
 </details>
 
@@ -61,6 +50,8 @@ GitLab offers a benefits package that provides health and financial security for
 Team Members can find Archived benefit plans, details, and open enrollment for prior years listed below:
 
 - [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
+
+[**2024 Calendar Year archived plans](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/76bffb195bf7cc1623710c167e3e165ffb2adb9c/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
 Team Members can access their 1095-C Documents Via PlanSource
 You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
@@ -91,24 +82,11 @@ Team Members have 30 days from their Hire Date to enroll in the benefit plans. E
 
 **In 2024, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in the High Deductible Health Plan (HDHP).**
 
-**In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-allowance) and waive all other lines of optional cover**
+**In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-waiver-allowance) and waive all other lines of optional cover**
 
 More information on the processed deductions in payroll from PlanSource can be found on the [Accounting and Reporting page](/handbook/finance/accounting/).
 
 To learn more about how US Benefit Programs work, please see the following [PlanSource Video Library](https://videolibrary.plansource.com/).
-
-### Logging into PlanSource
-
-You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
-
-1. Login into the [Workday](https://www.myworkday.com/gitlab/d/home.htmld) site via Okta. Note: Plansource does not appear in Okta but in Workday directly.
-1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
-1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
-1. The benefits enrollment portal will then open in a separate screen for you to complete your enrollments or review your plans.
-
-Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C8ngTpVlYNSKG4If3yBw43dg3F6Ml/view?usp=sharing) Guide for additional details on logging in and electing benefits.
-
-</details>
 
 <details markdown="1">
 
@@ -126,6 +104,19 @@ A domestic partnership is an arrangement in which two people live together and a
 
 </details>
 
+### Logging into PlanSource
+
+You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
+
+1. Login into the [Workday](https://www.myworkday.com/gitlab/d/home.htmld) site via Okta. Note: Plansource does not appear in Okta but in Workday directly.
+1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
+1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
+1. The benefits enrollment portal will then open in a separate screen for you to complete your enrollments or review your plans.
+
+Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C8ngTpVlYNSKG4If3yBw43dg3F6Ml/view?usp=sharing) Guide for additional details on logging in and electing benefits.
+
+</details>
+
 #### Qualifying Life Events
 
 Due to IRS guidelines, you cannot make changes to your health insurance benefits outside of GitLab's annual open enrollment period unless you experience a [Qualifying Life Event](https://www.healthcare.gov/glossary/qualifying-life-event/).
@@ -134,7 +125,7 @@ A QLE is a change in your situation — like getting married, having a baby, etc
 
 Once approved, coverage will be backdated to the date of the event.
 
-Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans-) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
+Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
 
 </details>
 
@@ -836,7 +827,7 @@ Domestic Partner Reimbursements: If the team member is not legally married to th
 
 <summary>Mid-Year HSA Contribution Change</summary>
 
-Team Members can make changes to their HSA contribution throughout the year. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#process-for-submitting-a-qle). Select "Mid-Year HSA Contribution" under event type.
+Team Members can make changes to their HSA contribution throughout the year. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Select "Mid-Year HSA Contribution" under event type.
 
 You can also choose to front-load the team member portion of your HSA contributions directly with Wex. Please contact Wex to assist you with this request. If you do choose to front-load your HSA, please be sure to take into account GitLab's contribution amount to your front-load calculation, and adjust your HSA deductions in PlanSource to update payroll deductions. GitLab is unable to track your maximum contribution if you fund the HSA outside of your payroll deductions.
 
@@ -1020,7 +1011,7 @@ GitLab has partnered with Sofi to offer student loan guidance services, discount
 
 Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation and habe access to a central location for team members to focus on financial well-being, and help navigate their student debt
 
-Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
+Enroll anytime at [SoFi.com/GitLab](https://www.sofi.com/multi/5724403/)
 [GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing). You're eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
 
 ## Team Member Discount Platforms
