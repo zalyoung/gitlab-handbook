@@ -2,7 +2,7 @@
 title: "FinOps Team"
 ---
 
-The FinOps team brings experience in both Site Reliability Engineering (SRE) and Software Engineering (SWE), leveraging these skills to optimize the financial operations of our cloud services and data resources. This technical expertise enables us to not only ensure alignment with financial objectives but also drive operational efficiency at scale. Our team’s deep understanding of cloud cost structures, infrastructure, data management, and automation empowers us to manage the full lifecycle of cloud consumption, from cost allocation to detailed reporting and analysis, while maintaining the high standards of reliability and performance expected in modern cloud environments.
+The FinOps team brings experience in both Site Reliability Engineering (SRE) and Software Engineering (SWE), leveraging these skills to optimize the financial operations of our cloud services and data resources. This technical expertise enables us to not only ensure alignment with financial objectives but also drive operational efficiency at scale. Our team’s deep understanding of cloud cost structures, infrastructure, data management, and automation empowers us to manage the full lifecycle of cloud consumption, from cost allocation to detailed analysis, while maintaining the high standards of reliability and performance expected in modern cloud environments.
 
 |  |  |
 |--|--|
@@ -14,9 +14,9 @@ The FinOps team brings experience in both Site Reliability Engineering (SRE) and
 
 We focus on several key activities:
 
-- **Cloud Cost Management:** Assessing and reporting on costs related to cloud infrastructure.
+- **Cloud Cost Management:** Analysis on costs related to cloud infrastructure.
 - **Data and Cost Utilization Analysis:** Providing insights into resource utilization, identifying inefficiencies, and helping stakeholders optimize their spend.
-- **Reporting & Forecasting:** Creating reports on spend trends, forecasting future expenses, and helping teams plan their budgets accordingly.
+- **Forecasting:** Provide analysis on spend trends, forecasting future expenses, and helping teams plan their budgets accordingly.
 - **Collaboration & Education:** Helping stakeholders access and interpret the financial data they need for decision-making.
 
 ## 2. How We Work
@@ -29,8 +29,8 @@ We focus on several key activities:
 
 We manage a variety of stakeholder relationships across the organization. Each stakeholder group has specific needs, and we aim to support them in a way that’s both efficient and scalable.
 
-- **FP&A:** Provide cost insights and reporting for financial forecasting.
-- **Data Teams (PDI & AI):** Collaborate to ensure the data required from our stakeholders is present in the data warehouse. This ensures structure and aligns with both operational and financial reporting needs.
+- **FP&A:** Provide cost insights and analysis for financial forecasting.
+- **Data Teams (PDI & AI):** Collaborate to ensure the data required from our stakeholders is present in the data warehouse. This ensures structure and aligns with both operational and financial needs.
 - **Engineering and Infrastructure:** Work closely with engineering teams to analyze resource utilization and identify cost-saving opportunities in cloud infrastructure.
 
 ### Stakeholder Engagement Guidelines
