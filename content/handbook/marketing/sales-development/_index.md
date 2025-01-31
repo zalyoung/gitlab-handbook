@@ -53,10 +53,10 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | What is your role and ask? | How will the Sales Dev Org help |
 | ------ | ----- |
 | I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined on the issue template called `FM-BDR-Collaboration-Template` that can be found [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new), but are always eager to collaborate in making your events more succesful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
-| I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/how-tos/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
-| I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
-| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/sales-development-vault/#field-marketing--bdr-collaboration-process) for creating new flows on Groove, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
-| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/sales-development-vault/#sdrbdr-to-ae-sao-handoff-process). |
+| I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
+| I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
+| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/#new-groove-flow-creation) for creating new flows on Groove, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
+| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/#sdrbdr-to-ae-sao-handoff-process). |
 
 ## Our Slack Channels
 
@@ -141,15 +141,10 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/sales-development-tools/) | Tools and resources specifically designed for Sales Development teams and managers. |
-| [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
-| [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
-| [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
 | [Sales Development Enablement Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrjbznnEEiCtxUfT8-OV6X8) | Playlist of enablement videos and how-tos for BDRs and SDRs. |
 | [Groove flow naming convention](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0) | Document outlining the naming convention for Groove Flows. |
 | [Lead Lifecycle Handbook Page](/handbook/marketing/marketing-operations/lead-lifecycle/) | Handbook page detailing different lead statuses and managing the lead lifecycle. |
 | [Marketing Resource Links](https://docs.google.com/spreadsheets/d/1NK_0Lr0gA0kstkzHwtWx8m4n-UwOWWpK3Dbn4SjLu8I/edit?usp=sharing) | GitLab whitepapers, ebooks, webcasts, analyst reports, and more for Sales & Sales Development education. |
-| [Marketing Events + Gated Content Assets + Webcasts](https://drive.google.com/drive/search?q=%22Events%20Gated%20Content%20Assets%22%20owner:jgragnola%40gitlab.com) | Resources for BDRs and SDRs to understand marketing assets consumed by prospects. |
 | [GitLab Buyer Personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) | Resource to help GitLab sellers better understand our buyers and audiences. |
 | [Sales handbook page](/handbook/sales/) | GitLab Sales team handbook. |
 | [Sales resources page](/handbook/sales/#quick-reference-guide) | Link to the Sales quick reference guide with links to learn more about the various sales teams & initiatives. |
@@ -171,7 +166,7 @@ To find and access your leads, please:
 1. Navigate to SFDC's homepage
 1. Click on the `Leads` tab.
 
-You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
+You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs section](/handbook/marketing/sales-development/#kpis-and-slas).
 
 #### SDR Lead Views
 
@@ -215,7 +210,7 @@ You will find the lead views below. These views are split per use-case for your 
 
 ### How to do Lead Database Management
 
-As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](/handbook/marketing/sales-development/roe-kpis-faq/).
+As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe).
 
 1. Open the lead you want to investigate and press the `Find Duplicates` on the top of the lead's record.
 1. Check through all the records that show up, from leads to Acccounts. Make sure to search for `Domain` and `Last Name` if the data you have seems incomplete.
@@ -233,7 +228,7 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 
 #### Telco and Finserv Routing
 
-For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](/handbook/marketing/sales-development/roe-kpis-faq/#rules-of-engagement-roe).
+For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](/handbook/marketing/sales-development/#rules-of-engagement-roe).
 
 Only named TELCO/FinServe accounts are rolling up to the TELCO/FinServe territories. If a new account is a subsidiary of an existing carved company, it will need to be assigned to the AE owning the ultimate account. If it is a totally separate entity then it can be allocated to the regional AE. If a lead comes in that is related to a TELCO/FinServe account, it must be assigned to the BDR assigned on the account.
 
@@ -354,7 +349,7 @@ In both cases, it’s essential to tag your templates with the appropriate colle
 
 #### New Groove Flow creation
 
-Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html)
+Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html/#bdr-flow-creation-process)
 
 **Implement Measurement Clarity and Decision Velocity**
 
@@ -663,7 +658,7 @@ Sourcing cases must be clearly documented. <br>
 #### XDR'S RESPONSIBILITY
 
 1. All activities must be logged in Salesforce.
-Pro-actively flag opportunities with questions or created outside the standard process in the monthly [Audit Doc.](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0). Please note that there's a separate audit worksheet specific to the PubSec team that is shared separately for compliance reasons.
+Pro-actively flag opportunities with questions or created outside the standard process in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0). Please note that there's a separate audit worksheet specific to the PubSec team that is shared separately for compliance reasons.
 
 Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, duplicate opp
 
@@ -674,7 +669,7 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 1. Ensure that relevant activity & products are attached.
 1. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
 1. For BDRs, ensure account was in AWA status
-ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
+ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) was followed
 1. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 #### AUDIT PROCESS
@@ -896,60 +891,137 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 
 Organizing a shared demo makes it more simple for us to offer spontaneously a demonstration of GitLab, which should result in a easier handover of opps, and ease to create opps. As BDRs, we arranged the execution of this demo by creating a zoom webinar, and configuring the whole event so that the administrative side is automated.
 
-| |                                                                                                                                                                                                                                                    |
-|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Define the criteria that qualifies an opportunity as eligible to go to a shared demo.**                                                                                                                                                            |                                                                                                                                                                                                                                                    |
-| SAL/AE is involved only                                                    | The SAL can invite his/her/their customers or contacts in order to add value to their ongoing discussion, if the AE/SAL finds it relevant. This is in the context of a conversation with the prospect/customer.                                                                                              |
-| SAL/AE and BDR are involved                                                | The BDR schedules a discovery meeting with the SAL (whether it is a prospect or customer) that generates a qualified opportunity. Once the opportunity is created, the SAL/BDR suggests the shared demo instead of the individual demo based on the priority of the opportunity (importance of the account, number of licenses, amount of the opportunity, persona). This is in the context of a conversation with the prospect/customer. There needs to be an opportunity in this case to suggest the demo, for the sake of collaboration between the SAL and the BDR. |
-| BDR is involved only                                                       | When a lead with decision power or significant influence in the org (no individual contributor) expresses a high interest for GitLab (aka: high read/open rates on an email, response received by phone with interest confirmed) AND when the BDR has a tangible reason to think that there is a need in the division/team/company (research, information obtained through other leads in the same org), the BDR can leverage the shared demo for HOT leads to create interest or a sense of urgency, the goal being to have the lead jump on an introductory meeting after the shared demo. |
-| **Define the criteria for different groups of attendees who can join this demo**                                                                                                                                                                    |                                                                                                                                                                                                                                                    |
-| Attendees coming from a BDR conversation                                    | In order to attend a demo, this attendee needs to be part of an opportunity in at least stage 1- Discovery.                                                                                                                                                                                                     |
-| Attendees coming from the AE's conversations                               | The AE can leverage this shared demo to invite his own contacts.                                                                                                                                                                                                                                                  |
-| **Step-by-step guide to plan a demo**                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                    |
-| 1. Get a Zoom Webinars license                                              | You don't have a Webinar licence by default, so you need to open an access request issue on GitLab to ask for one.                                                                                                                                                                                            |
-| 2. Go on Zoom SSO > Webinars (on the left under Meetings) > Schedule a webinar | You will be able to save the entire configuration of the webinar as a template, in order not to set it up again.                                                                                                                                                                                               |
-| 3. Change the topic, description, date/time, and duration                   | Change the topic (this will be the title of your demo, and the name of the event on Google Calendar), the description (describes the content of the demo, the idea is to adapt the focus of the demo depending on your attendees), set the date/time of the demo, and the duration (note that setting a certain duration will not stop the zoom webinar once the time has gone). |
-| 4. Tick the box 'Required' next to registration                             |                                                                                                                                                                                                                                                    |
-| 5. Change the Dial country to match attendees' language                      |                                                                                                                                                                                                                                                    |
-| 6. Configure additional settings such as Q&A, recording, and email settings |                                                                                                                                                                                                                                                    |
-| 7. Save the configuration as a template for future use                       |                                                                                                                                                                                                                                                    |
+#### Criteria for an Opportunity to Qualify for a Shared Demo
+
+| **Criteria**                | **Details**                                                                                                                                                                                                                                                                                     |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **SAL/AE is involved only** | The SAL can invite their customers or contacts to add value to ongoing discussions if they find it relevant. This is within the context of a conversation with the prospect/customer.                                                                   |
+| **SAL/AE and BDR are involved** | The BDR schedules a discovery meeting with the SAL (for a prospect or customer), generating a qualified opportunity. Once the opportunity is created, the SAL/BDR can suggest a shared demo instead of an individual demo based on the opportunity’s priority. |
+| **BDR is involved only**    | When a lead with decision power or significant influence in the organization expresses high interest (e.g., high read/open rates, interest confirmed via phone) and there is tangible evidence of a need, the BDR can leverage the shared demo to create urgency or interest.                     |
+
+---
+
+#### Criteria for Different Groups of Attendees Who Can Join the Demo
+
+| **Attendee Type**                       | **Criteria**                                                                 |
+|-----------------------------------------|-------------------------------------------------------------------------------|
+| **Attendees from a BDR conversation**  | Must be part of an opportunity in at least stage 1 - Discovery.              |
+| **Attendees from the AE’s conversations** | The AE can leverage the shared demo to invite their own contacts.            |
+
+---
+
+#### Step-by-Step Guide to Plan a Demo
+
+1. **Get a Zoom Webinars license**  
+   - You don’t have a Webinar license by default, so you need to open an access request issue on GitLab to ask for one.
+
+2. **Go on Zoom SSO > Webinars (on the left under Meetings) > Schedule a webinar**  
+   - You will be able to save the entire configuration of the webinar as a template for future use.
+
+3. **Change the topic, description, date/time, and duration**  
+   - Change the topic (this will be the title of your demo and the name of the event on Google Calendar).  
+   - Update the description (adapt it to the focus of the demo depending on your attendees).  
+   - Set the date/time and duration (note: Zoom will not stop the webinar automatically once the time is exceeded).  
+
+4. **Tick the box ‘Required’ next to registration**  
+
+5. **Change the Dial country to match attendees’ language**  
+
+6. **Configure additional settings**  
+   - Customize Q&A, recording, and email settings as needed.
+
+7. **Save the configuration as a template for future use**  
+   - This will make it easier to reuse for subsequent demos.
 
 ### Outbound Account Ranking Matrix
 
 This complementary table can help structure your thinking around what outbound accounts to choose.
 
-| Account Scoring & Prioritization |
-|----------------------------------|
-| **Priority 1 Actively Working Accounts (15%)** |
-| - Strong ICP Qualities |
-| - Compelling Triggers |
-| - Strategy is Tailored and Targeted |
-| - Future based next step dates |
-| - Specific next step notes |
-| **Priority 2 Actively Working Accounts (35%)** |
-| - ICP qualities |
-| - No Triggers |
-| - Strategy is Targeted (persona/industry based) |
-| - Future based next step dates updated weekly/bi-weekly |
-| - Next step notes should just include week # |
-| **Priority 3 Actively Working Accounts (50%)** |
-| - ICP qualities |
-| - No Recent Triggers |
-| - Strategy is nurture based |
-| - Future based next step dates updated monthly |
-| - Next step notes should just include recent release # or event invite |
-| **Other Good Account Scoring Qualifiers:** |
-| - Current CE Usage |
-| - 250+ employees in IT/TEDD positions |
-| - Good Fit Industry / Vertical (High Growth, Technology, Financial, Healthcare, Regulated Business) |
-| - Early Adopters / Innovative IT Shops (Identifiers & Keywords): Kubernetes / Containers, Microservices, Multi-cloud, DevOps, DevSecOps, CICD (and open-source + proprietary tools), SAST / DAST, Digital Transformation |
-| - Current DevOps Adoption (multiple DevOps roles on staff or hiring for multiple DevOps positions) |
-| **Outbound Prospecting Framework** |
+#### Priority Levels for Actively Working Accounts
 
-| **Priority Level** | **Account Strategy Includes** | **Next Step Date** | **Next Step Notes** |
-| Priority 1 | Priority #, Any Details | Future based next steps | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
-| Priority 2 | Priority #, Weekly Plan or Length of Groove Flow | Future based next steps depending on account strategy | Include the weeks outreach and overall strategy |
-| Priority 3 | Priority # | Update Next Step Date to next months outreach | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
+**Priority 1: Actively Working Accounts (15%)**
+
+- **Qualities:**
+
+  - Strong ICP (Ideal Customer Profile) qualities
+  - Compelling triggers
+
+- **Strategy:**
+
+  - Tailored and targeted
+  - Focused on high-value opportunities
+
+- **Next Steps:**
+
+  - Future-based next step dates
+  - Specific next step notes included
+
+**Priority 2: Actively Working Accounts (35%)**
+
+- **Qualities:**
+
+  - ICP qualities
+  - No triggers
+
+- **Strategy:**
+
+  - Targeted (persona/industry-based)
+
+- **Next Steps:**
+
+  - Future-based next step dates updated weekly/bi-weekly
+  - Next step notes should only include the week number
+
+**Priority 3: Actively Working Accounts (50%)**
+
+- **Qualities:**
+
+  - ICP qualities
+  - No recent triggers
+
+- **Strategy:**
+
+  - Nurture-based
+
+- **Next Steps:**
+
+  - Future-based next step dates updated monthly
+  - Next step notes should include a recent release number or event invite
+
+#### Other Good Account Scoring Qualifiers
+
+- **Current CE (Customer Engagement) Usage**
+
+- **250+ employees** in IT/TEDD positions
+
+- **Good Fit Industries/Verticals:**
+
+  - High Growth
+  - Technology
+  - Financial
+  - Healthcare
+  - Regulated Business
+
+- **Early Adopters / Innovative IT Shops:**
+
+  - Keywords: Kubernetes, Containers, Microservices, Multi-cloud, DevOps, DevSecOps, CICD (including open-source and proprietary tools), SAST/DAST, Digital Transformation
+
+- **Current DevOps Adoption:**
+
+  - Multiple DevOps roles on staff
+  - Actively hiring for multiple DevOps positions
+
+## Outbound Prospecting Framework
+
+| **Priority Level** | **Account Strategy Includes**                                             | **Next Step Date**                     | **Next Step Notes**                                                                                       |
+|---------------------|---------------------------------------------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Priority 1**      | Priority #, Any details                                                  | Future-based next steps                | Hyper-personalized outreach: simultaneous outreach, creative approaches, direct mail, ads, events, etc. |
+| **Priority 2**      | Priority #, Weekly plan or length of Groove Flow                         | Future-based next steps (weekly focus) | Include the week's outreach and overall strategy                                                        |
+| **Priority 3**      | Priority #                                                              | Update next step date to next month’s outreach | BDR next step: nurture type (e.g., product updates, events, etc.)                                       |
+
+---
+
+This structure makes it easier to read, reference, and use in a professional setting or as part of a shared document in a web IDE.
 
 ### Growth Strategies, Ranking and RoE
 
@@ -1407,10 +1479,6 @@ If an SDR will be out for a prolonged period of time, please follow the proper p
 - [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
 - [Emergency Situations](/handbook/people-group/paid-time-off/#communicating-time-off-for-emergency-situations)
 - [Unpaid leave](/handbook/people-policies/leave-of-absence/us/#which-leave-is-right-for-me)
-
-#### Manager Sales Development Leave Checklist
-
--
 
 ### Offboarding
 
