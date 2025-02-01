@@ -13,7 +13,7 @@ The Engineering Stage Review is a monthly Engineering Manager meeting designed t
 <summary>Metrics</summary>
 
 **MR Rate Analysis**
-* Pull individual contributor MR rates from the MR Rates Dashboard
+* Pull individual contributor MR rates from the [MR Rates Dashboard](#metrics)
 * Calculate team average, accounting for role differences (e.g., senior engineers may have lower MR rates due to higher review loads or much higher MR rates due to more seniority)
 * Note significant deviations from team's historical average
 * Identify and document factors affecting the rate, such as:
@@ -22,7 +22,7 @@ The Engineering Stage Review is a monthly Engineering Manager meeting designed t
   * Large technical initiatives requiring extensive review
 
 **Mean Time to Merge (MTTM)**
-* Review individual MTTM from the Mean Time To Merge Dashboard
+* Review individual MTTM from the [Mean Time To Merge Dashboard](#metrics)
 * Calculate team average
 * Document any notable changes and their causes, such as:
   * Changes in review processes
@@ -30,15 +30,15 @@ The Engineering Stage Review is a monthly Engineering Manager meeting designed t
   * Cross-team dependencies
 
 **Average Time to Review**
-* Pull individual review times from the Average Time to Review Dashboard
-* Calculate team average response time
+* Pull individual Approval Time to Merge times from the [Review Rate Dashboard](#metrics)
+* Calculate team average time to review from those numbers
 * Document factors impacting review speed, such as:
   * Code complexity
   * Context switching costs
   * Review load distribution
 
 **Review Volume Analysis**
-* Track average number of reviews per team member
+* Track number of [reviewed MRs per team member](#metrics) to get the teams Review Rate average
 * Analyze review load distribution across the team
 * Note patterns affecting review capacity:
   * Review bottlenecks
@@ -51,7 +51,7 @@ The Engineering Stage Review is a monthly Engineering Manager meeting designed t
 * Include context about scope changes or unexpected challenges
 
 **Error Budget**
-* Review the Stage Group Error Budget dashboard for the previous 28 days
+* Review the [Stage Group Error Budget dashboard](#metrics) for the previous 28 days
 * Document:
   * Current error budget consumption
   * Trends since last review
