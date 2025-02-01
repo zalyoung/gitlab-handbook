@@ -46,8 +46,6 @@ pages under the "Categories" header) is the single source of truth on where we'r
 
 {{% include "includes/engineering/foundations-data-science-shared/holiday-exchange.md" %}}
 
-## Say/Do Ratio
-
 {{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
 ## Meetings
@@ -86,6 +84,10 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Metrics
 
+{{% include "includes/engineering/foundations-data-science-shared/metrics.md" %}}
+
+### Development
+
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "STAGE_LABEL"="foundations" >}}
 {{< /tableau >}}
@@ -93,6 +95,10 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "STAGE_LABEL"="foundations" >}}
 {{< /tableau >}}
+
+### Say/Do Ratio
+
+{{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
 ## Links and resources
 
