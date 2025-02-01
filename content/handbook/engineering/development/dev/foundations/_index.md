@@ -42,12 +42,6 @@ pages under the "Categories" header) is the single source of truth on where we'r
 
 {{% include "includes/engineering/foundations-data-science-shared/team-day.md" %}}
 
-## Holiday Gift Exchange (2023)
-
-{{% include "includes/engineering/foundations-data-science-shared/holiday-exchange.md" %}}
-
-{{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
-
 ## Meetings
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place are:
