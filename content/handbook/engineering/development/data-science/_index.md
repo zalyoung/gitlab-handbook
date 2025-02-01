@@ -26,7 +26,11 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 {{% include "includes/engineering/foundations-data-science-shared/team-day.md" %}}
 
-## Say/Do Ratio
+## Metrics
+
+{{% include "includes/engineering/foundations-data-science-shared/metrics.md" %}}
+
+### Say/Do Ratio
 
 {{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
