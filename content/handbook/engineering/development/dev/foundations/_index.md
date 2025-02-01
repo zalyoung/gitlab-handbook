@@ -49,7 +49,7 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 | **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**         | **Topics**                                                                                                                                                                                                           |
 |---------------------------------------------|---------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | [SaaS Availability](/handbook/engineering/#saas-availability-weekly-standup)                            | Weekly        | Infrastructure  | Incident corrective actions, Feature Change Lock status, Past Due Infradev, Error Budget, or Security updates                                                                                                        |
-| Engineering Stage Review                    | Monthly       | Michelle Gill   | Productivity metrics, Technical Roadmap updates                                                                                                                                                                      |
+| [Engineering Stage Review](#stage-reviews)                    | Monthly       | Michelle Gill   | Productivity metrics, Technical Roadmap updates                                                                                                                                                                      |
 | [Foundations and Data Science EM Meeting](https://docs.google.com/document/d/1ZcKI1ZxrGTg8qdnKpnzrdLFd3foFOcwUtn5VjqLCRcQ/edit?tab=t.0#heading=h.t57w20kzngmo)     | Biweekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering stage direction, team event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
 | [Core Development Staff Meeting](https://docs.google.com/document/d/1fx6Indy9rDX9-btjRvElRwgidP3rSzzVrK8QwDvSpDk/edit?tab=t.0#heading=h.ky78crs5w5jj)              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization |
 
@@ -58,6 +58,10 @@ For one-off, topic specific meetings, please always consider recording these cal
 Agenda documents and recordings can be placed in the [shared Google drive](https://drive.google.com/drive/u/0/folders/0ALpc3GhrDkKwUk9PVA) (internal only) as a single source of truth.
 
 All meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
+
+### Stage Reviews
+
+{{% include "includes/engineering/foundations-data-science-shared/stage-review.md" %}}
 
 ## Shared calendars
 
