@@ -29,9 +29,9 @@ The Engineering Stage Review is a monthly Engineering Manager meeting designed t
   * Complex feature implementations
   * Cross-team dependencies
 
-**Average Time to Review**
+**Average (Review) Approval Time to Merge**
 * Pull individual Approval Time to Merge times from the [Review Rate Dashboard](#metrics)
-* Calculate team average time to review from those numbers
+* Calculate team Approval Time to Merge from those numbers
 * Document factors impacting review speed, such as:
   * Code complexity
   * Context switching costs
