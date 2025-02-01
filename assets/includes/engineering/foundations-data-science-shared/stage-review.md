@@ -38,8 +38,8 @@ The average time (in hours or days) from when the review is completed to when th
   * Context switching costs
   * Review load distribution
 
-**Review Volume Analysis**
-* Track number of [reviewed MRs per team member](#metrics) to get the teams Review Rate average
+**Review Rate**
+* Total [# Reviewed MRs on the Review Rate dashboard](#metrics) across individual team member and project, then average to get the Review Rate
 * Analyze review load distribution across the team
 * Note patterns affecting review capacity:
   * Review bottlenecks
