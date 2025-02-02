@@ -20,7 +20,7 @@ We list examples of [opportunistic attack techniques](../how-we-operate/rules-of
 
 ## Club Red
 
-Club Red is our programme that allows GitLab team members to help us discover and develop initial access vectors and optionally, collaborate with us to carry them out.
+Club Red is our program that allows GitLab team members to help us discover and develop initial access vectors and optionally, collaborate with us to carry them out.
 
 Occasionally team members reach out with a cool hack idea, often based on knowledge they have. Club Red aims to provide a way for them to collaborate with us develop their idea for a greater overall security result for GitLab.
 

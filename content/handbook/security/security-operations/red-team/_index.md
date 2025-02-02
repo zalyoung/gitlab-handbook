@@ -37,7 +37,7 @@ Improve GitLab's security posture and sharpen our defenses against constantly-ev
 
 ## The Team
 
-The Red Team is part of the Security Operations department. [See GitLab’s organizational chart in Workday and meet our team members](https://www.myworkday.com/gitlab/d/home.htmld).
+The Red Team is part of the Security Operations department. [See the GitLab organizational chart in Workday and meet our team members](https://www.myworkday.com/gitlab/d/home.htmld).
 
 Further details about Red Team roles can be found in the [job family description](/job-families/security/red-team).
 
@@ -66,7 +66,7 @@ Purple team represents a collaborative exercise between the Red team and Blue te
 
 ### Research
 
-Understanding emerging technologies and tools helps us anticipate adversaries' evolving tactics. It also means we can more effecively emulate those attackers.
+Understanding emerging technologies and tools helps us anticipate adversaries' evolving tactics. It also means we can more effectively emulate those attackers.
 
 Formalized operations and opportunistic attacks both require extensive research, and we factor that in when planning these activities. Outside of that context, the Red Team may conduct research with an intent to provide helpful information to others in the security industry and the wider GitLab community.
 
@@ -96,7 +96,7 @@ We also track results via metrics which are available internally, including MITR
 - [Our list of tech notes, blogs and other research](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/red-team-tech-notes/)
 - [Our public Git repository of some past tooling and techniques](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/)
 - [Red Team Development and Operations](https://redteam.guide/): An excellent book by Joe Vest and James Tubberville.
-- [MITRE ATT&CK: Getting Started](https://attack.mitre.org/resources/getting-started/): A collection of resources realted to the ATT&CK framework, which is used as the foundation for much of our work.
+- [MITRE ATT&CK: Getting Started](https://attack.mitre.org/resources/getting-started/): A collection of resources related to the ATT&CK framework, which is used as the foundation for much of our work.
 
 ## Is This the Red Team?
 
