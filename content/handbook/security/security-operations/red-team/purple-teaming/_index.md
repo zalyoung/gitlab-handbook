@@ -21,7 +21,7 @@ At a high level, the goals of an operation generally fall into one of the follow
 
 ### Flash Operations
 
-These are very short (1-2 weeks) and start with the identification of a relevant threat. Generally one or more Red Team members will meet with one or more Blue Team members to plan and carry out the execution.
+These are very short (1-2 weeks) and start with the identification of a relevant threat. Generally Red Team members meet with Blue Team members to plan and carry out the execution.
 
 1. We work with the [Threat Intelligence team](/handbook/security/security-operations/threat-intelligence) to identify one or more relevant TTPs (tool, technique and procedure) that is worth exploring collaboratively.
 2. We arrange a time to run the TTP(s), usually inside a virtual machine, and the Blue Team confirms detection (or no detection).
@@ -42,6 +42,6 @@ These are very short (1-2 weeks) and start with the identification of a relevant
 
 ### Training
 
-- [Purple Teaming Execution Framework](https://github.com/scythe-io/purple-team-exercise-framework): Another great resource, this one by Scythe.
+- [Purple Teaming Execution Framework](https://github.com/scythe-io/purple-team-exercise-framework): Another great resource written by Scythe.
 
 See also [Red Team Resources](../_index.md#additional-resourcesfurther-reading)

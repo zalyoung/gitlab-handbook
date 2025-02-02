@@ -8,13 +8,13 @@ They can be done at any time, from any source IP address, and against any GitLab
 
 Benefits include:
 
-- They give GitLab more opportunities to practice detecting and responding to realistic threats in a controlled environment, allowing faster iteration on our defensive capabilities including investigation skills.
-- They allow us to quickly demonstrate impact of a security concern we find.
-- They allow us to action this intelligence quickly in order to demonstrate impact of a security risk.
+- They give GitLab more opportunities to practice detecting and responding to realistic threats in a controlled environment, allowing faster iteration on our defensive capabilities and investigation skills.
+- They allow us to quickly demonstrate the impact of security concerns.
+- They allow us to quickly act on this intelligence and demonstrate the impact of the security concern.
 
-If vulnerabilities are discovered, we will exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
+If vulnerabilities are discovered, we exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
 
-When immediate action is required, we will follow the standard process for [reporting an incident](/handbook/security/#reporting-an-incident). For vulnerabilities that appear wide-spread or recurring, we will create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
+When immediate action is required, we follow the standard process for [reporting an incident](/handbook/security/#reporting-an-incident). For vulnerabilities that appear wide-spread or recurring, we create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
 
 We list examples of [opportunistic attack techniques](../how-we-operate/rules-of-engagement.md#opportunistic-attack-techniques) inside our rules of engagement.
 
