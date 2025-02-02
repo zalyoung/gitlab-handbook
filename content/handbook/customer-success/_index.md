@@ -5,6 +5,7 @@ description: >-
   partners with our customers to deliver value and positive business outcomes throughout
   their journey with GitLab
 ---
+
 The Customer Success department is part of the [GitLab Sales](/handbook/sales/) function who partners with our customers to deliver value and positive business outcomes throughout their journey with GitLab.
 
 The team can be reached in [Slack channel](https://gitlab.slack.com/archives/customer-success) (internal only).
@@ -13,20 +14,20 @@ The team can be reached in [Slack channel](https://gitlab.slack.com/archives/cus
 
 To deliver value to all customers by engaging in a consistent, repeatable, and scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
-- The mission of the Customer Success Department is to provide these customers with experience in order to:
-  - Accelerate initial customer value
-  - Maximize long-term, sustainable customer value
-  - Improve overall customer satisfaction & referenceability
-  - Maximize the total value of the customer to GitLab
+The mission of the Customer Success Department is to provide these customers with experience in order to:
+
+- Accelerate initial customer value
+- Maximize long-term, sustainable customer value
+- Improve overall customer satisfaction & referenceability
+- Maximize the total value of the customer to GitLab
 
 ## North Star Metrics
 
 Our top-level metrics are:
+
 1. Renewal Rate of ATR (available to renew)
-2. Growth ARR
-3. Customer Outcomes Realized
-
-
+1. Growth ARR
+1. Customer Outcomes Realized
 
 ### Customer Success Teams
 
@@ -34,7 +35,6 @@ Our top-level metrics are:
 - [Customer Success Engineer handbook](/handbook/customer-success/csm/segment/cse/)
 - [Customer Success Architect handbook](/handbook/customer-success/csm/segment/csa/)
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
-
 
 ### Digital Strategy
 
@@ -47,7 +47,6 @@ Our top-level metrics are:
 ### Customer Success Decision Tree
 
 [CSMAE Decision Tree](https://docs.google.com/presentation/d/1Ot-NwW-2LnZI2I38F9K6mj8SgZhCvrN97xxY1MUxLRw) - internal only
-
 
 ## Account Team
 
@@ -65,7 +64,7 @@ SA owns 1) pre-sales technical evaluation and relationships prior to the initial
 
 ### Education and Enablement
 
-As a Customer Sucess team member, it is important to be continuously learning more about our product and related industry topics. The [education and enablement handbook page](/handbook/customer-success/education-enablement/) provides a dashboard of aggregated resources that we encourage you to use to get up to speed.
+As a Customer Success team member, it is important to be continuously learning more about our product and related industry topics. The [education and enablement handbook page](/handbook/customer-success/education-enablement/) provides a dashboard of aggregated resources that we encourage you to use to get up to speed.
 
 ## Customer Success Playbooks
 
@@ -98,22 +97,21 @@ Outside of Engineering the Customer Success team has the largest concentration o
 In an effort to keep AWS spend down, initiatives are being taken to automatically clean up our AWS account. This account is primarily used as a proof of concept for IaC and creating demos for GitLab customers. An automated cleanup script is currently being tested that will tag, shutdown and delete old resources as they are no longer needed. The automation will:
 
 - Turn off and Tag Un-named resources. When resources are created a "Name" tag should be created with a value that's meaningful and indicates who deployed the resource. Example: {initials}-GitLabRunner
-- New Resources will be automatically tagged with a Discovered and Expiration tag.
-- The Expiration tag is 14 days after the discovery. The script will only a tag an instance once. If you need additional time, please change the date to a reasonable date for cleanup (Add a month or two for prospective customers).
-- If a resource needs to be permanent please set termination protection on the instance. This should also include tagging the instance with an explanation on why it's permanent and what its for.
-- On expiration the resource will be shut off and left for 7 days.
-- In 7 days if the instance is still off a snapshot will be taken and it will be terminated.
-- If the instance is still on but the expiration has not been changed it will be terminated.
+- New Resources will be automatically tagged with a Discovered and Expiration tag
+- The Expiration tag is 14 days after the discovery. The script will only a tag an instance once. If you need additional time, please change the date to a reasonable date for cleanup (Add a month or two for prospective customers)
+- If a resource needs to be permanent please set termination protection on the instance. This should also include tagging the instance with an explanation on why it's permanent and what its for
+- On expiration the resource will be shut off and left for 7 days
+- In 7 days if the instance is still off a snapshot will be taken and it will be terminated
+- If the instance is still on but the expiration has not been changed it will be terminated
 
 ### Customer Success Tools and Scripts
 
 By customer or internal request, we sometimes develop tools to automate certain GitLab tasks using the API. The resulting tools and scripts are publicly available for everyone to use and contribute to in the [GitLab CS Tools group](https://gitlab.com/gitlab-cs-tools).
-**Note : Those tools are not supported by GitLab Support.**
+**Note:** Those tools are not supported by GitLab Support.
 
 ### Communities of Practice
 
 [Community of Practice](initiatives/communities-of-practice.html) are cross-functional groups of SME's (or aspiring to be!) within the CS organization dedicated to a topic within GitLab or the broader DevOps space. The goal is to build assets, best practices, demonstrations, and share experiences we learn from prospects and customers. In turn, CoP will build broader technical depth within our CS organization to better advise our customers and influence our product roadmap.
-
 
 ## Customer Terrain Mapping Engagements
 
@@ -147,11 +145,10 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 - [FAQ from prospects](/handbook/sales/faq-from-prospects/)
 - [Client Use Cases](/handbook/marketing/use-cases/)
 - [Proof of Value Guidelines](/handbook/solutions-architects/tools-and-resources/pov)
-- [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24))
+- [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24)
 - [Sales Demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/)
 - [Sales Development Group Handbook](/handbook/marketing/sales-development/)
 - [With Whom to Talk to Ask Questions or Give Feedback on a GitLab feature](/handbook/product/categories/#devops-stages)
-- [CEO Preferences when speaking with prospects and customers](/handbook/ceo/#sales-meetings)
 
 ### Customer Success Meetings
 
