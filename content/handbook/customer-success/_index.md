@@ -19,63 +19,22 @@ To deliver value to all customers by engaging in a consistent, repeatable, and s
   - Improve overall customer satisfaction & referenceability
   - Maximize the total value of the customer to GitLab
 
-## Vision Page
+## North Star Metrics
 
-The ["Customer Success Vision Page"](/handbook/customer-success/customer-success-vision/) provides the long-term view of company wide success to which the customer success will be building in partnership with the value centers of the GitLab organization (i.e., Marketing, Sales, Product/Engineering, Support, Finance, and IT).
+Our top-level metrics are:
+1. Renewal Rate of ATR (available to renew)
+2. Growth ARR
+3. Customer Outcomes Realized
 
-## Department Initiatives
 
-Our large and strategic customers are in need of an ongoing partnership that combines expert guidance with flexibility and adaptability to support their adoption and continuous improvement initiatives.
-
-These customers expect that partner to provide a streamlined, consistent and fully coordinated experience that encompasses the full span of their needs as well as the fully lifecycle of the relationship.
-Need to focus on 4 main areas in order to grow in our existing accounts as well as land large and strategic:
-
-1. Awareness
-1. Adoption
-1. Usage
-1. Performance
-
-### Initiative: Awareness
-
-Opportunity to improve the overall awareness of GitLab in order to promote and evangelize our brand and solution in a meaningful way to provide big business impact to our customers so that they believe in our vision and strategy.
-
-### Initiative: Adoption
-
-Ensuring paying customers are successful in their onboarding in order to gain adoption and get the most out of our platform and remain happy, paying GitLab team-members and brand advocates.
-
-### Initiative: Usage
-
-Collecting and making use of customer data and insights is key to customer success. It's important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
-
-### Initiative: Performance
-
-Utilizing built-in monitoring instrumentation and [a scalable HA architecture](https://docs.gitlab.com/ee/administration/reference_architectures/index.html), the Customer Success team helps ensure implementations of GitLab are operating at peak performance as organization scale and adopt more features.
-
-## Customer Success Playbooks
-
-See the [Playbooks Page](/handbook/customer-success/playbooks/)
-
-## Customer Terrain Mapping Engagements
-
-Terrain Mapping discovery engagements provide customers with the benefit of GitLab's experience with DevOps methodologies, Git, GitLab, CI, CD, and monitoring by brainstorming a high level, first draft discovery of the elements of a success plan to address various challenges. They are also mapped to professional services that can help with some of the elements identified in the engagement.
-
-See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-terrain-mapping/)
-
-## Customer Success Groups
 
 ### Customer Success Teams
 
 - [Customer Success Manager handbook](/handbook/customer-success/csm/)
 - [Customer Success Engineer handbook](/handbook/customer-success/csm/segment/cse/)
 - [Customer Success Architect handbook](/handbook/customer-success/csm/segment/csa/)
-
-### Customer Success Decision Tree
-
-[CSMAE Decision Tree](https://docs.google.com/presentation/d/1Ot-NwW-2LnZI2I38F9K6mj8SgZhCvrN97xxY1MUxLRw) - internal only
-
-### Renewals Managers
-
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
+
 
 ### Digital Strategy
 
@@ -84,6 +43,11 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 ### Demo Systems
 
 - [Demo Systems documentation](/handbook/customer-success/demo-systems/)
+
+### Customer Success Decision Tree
+
+[CSMAE Decision Tree](https://docs.google.com/presentation/d/1Ot-NwW-2LnZI2I38F9K6mj8SgZhCvrN97xxY1MUxLRw) - internal only
+
 
 ## Account Team
 
@@ -102,6 +66,10 @@ SA owns 1) pre-sales technical evaluation and relationships prior to the initial
 ### Education and Enablement
 
 As a Customer Sucess team member, it is important to be continuously learning more about our product and related industry topics. The [education and enablement handbook page](/handbook/customer-success/education-enablement/) provides a dashboard of aggregated resources that we encourage you to use to get up to speed.
+
+## Customer Success Playbooks
+
+See the [Playbooks Page](/handbook/customer-success/playbooks/)
 
 ### Customer Workshops
 
@@ -147,6 +115,12 @@ By customer or internal request, we sometimes develop tools to automate certain 
 [Community of Practice](initiatives/communities-of-practice.html) are cross-functional groups of SME's (or aspiring to be!) within the CS organization dedicated to a topic within GitLab or the broader DevOps space. The goal is to build assets, best practices, demonstrations, and share experiences we learn from prospects and customers. In turn, CoP will build broader technical depth within our CS organization to better advise our customers and influence our product roadmap.
 
 Anyone can establish a [Community of Practice](initiatives/communities-of-practice.html), and anyone can be a part of one. To be [efficient](/handbook/values/?source=post_page---------------------------#efficiency) and [transparent](/handbook/values/?source=post_page---------------------------#transparency), we have set guidelines on how Communities of Practice should operate.
+
+## Customer Terrain Mapping Engagements
+
+Terrain Mapping discovery engagements provide customers with the benefit of GitLab's experience with DevOps methodologies, Git, GitLab, CI, CD, and monitoring by brainstorming a high level, first draft discovery of the elements of a success plan to address various challenges. They are also mapped to professional services that can help with some of the elements identified in the engagement.
+
+See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-terrain-mapping/)
 
 ### Frequently Asked Questions
 
