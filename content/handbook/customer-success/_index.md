@@ -114,7 +114,6 @@ By customer or internal request, we sometimes develop tools to automate certain 
 
 [Community of Practice](initiatives/communities-of-practice.html) are cross-functional groups of SME's (or aspiring to be!) within the CS organization dedicated to a topic within GitLab or the broader DevOps space. The goal is to build assets, best practices, demonstrations, and share experiences we learn from prospects and customers. In turn, CoP will build broader technical depth within our CS organization to better advise our customers and influence our product roadmap.
 
-Anyone can establish a [Community of Practice](initiatives/communities-of-practice.html), and anyone can be a part of one. To be [efficient](/handbook/values/?source=post_page---------------------------#efficiency) and [transparent](/handbook/values/?source=post_page---------------------------#transparency), we have set guidelines on how Communities of Practice should operate.
 
 ## Customer Terrain Mapping Engagements
 
