@@ -65,7 +65,7 @@ Our Field SA's also engage proactively with existing GitLab customer to provide 
 
 ### Center of Excellence
 
-The Solutions Architecture [Center of Excellence](/handbook/solutions-architects/center-of-excellence/) is team comprised of Subject Matter Experts, [Demo Architects](./center-of-excellence/demo-architect.md), and Business Value Managers focused on accelerating GitLab's market leadership and revenue growth by delivering specialized expertise at scale.
+The Solutions Architecture [Center of Excellence](/handbook/solutions-architects/center-of-excellence/) is team comprised of Subject Matter Experts, [Demo Architects](./center-of-excellence/demo-architecture/), and Business Value Managers focused on accelerating GitLab's market leadership and revenue growth by delivering specialized expertise at scale.
 
 ### Strategic Field Organization
 
@@ -94,8 +94,6 @@ Being a Trusted Advisor is referencing a role/skill that a person takes on when 
 >
 > --<cite> [Solution Focus Field Competency](/handbook/sales/training/field-functional-competencies/#solution-focus)
 
-For more information and development see the "Trusted Advisor Skill Development", [Community of Practice](/handbook/customer-success/initiatives/communities-of-practice/#active-communities-of-practice)
-
 ### Key Attributes for Positioning Value
 
 As the DRIs helping position, prepare, and guide a customer's technical evaluation the SA team ensure that GitLab can surface the right points of value to the customer's key stakeholders post technical evaluation.  The following embody GitLab's technical evaluation philosophy and help guide successful technical evaluations.
@@ -111,4 +109,4 @@ These offerings are delivered each within a specific context of a particular cus
 
 ## Changing the Solutions Architects Handbook Content
 
-This is the Solution Architect handbook. If you see any typos, copywriting improvements or content clarifications you'd like to contribute, please create a merge request and ask your managers to merge. Please add the label "SA-HANDBOOK" to your merge request, and post a link to the [solutions-architects](https://gitlab.slack.com/archives/C01788YAY58) slack channel, mentioning @sa_leaders, as a heads up and so we can thank you! Since we have a [bias for action](/handbook/values/#bias-for-action), we trust your judgement.
+This is the Solution Architect handbook. If you see any typos, copywriting improvements or content clarifications you'd like to contribute, please create a merge request and ask your managers to merge. Please add the label "SA-HANDBOOK" to your merge request, and post a link to the [solutions-architects](https://gitlab.slack.com/archives/C01788YAY58) slack channel, mentioning @sa_leaders, as a heads up and so we can thank you! Since we have a bias for action, we trust your judgement.

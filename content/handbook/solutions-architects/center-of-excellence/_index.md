@@ -8,7 +8,7 @@ description: "Accelerating GitLab's market leadership and revenue growth by deli
 To drive efficiencies throughout GitLab’s Sales Organization while contributing to the broader GTM motion, an SA Center of Excellence will allow the team to expand GitLab’s revenue 
 opportunities.  The team would be responsible for the following items, pulled in by other teams (e.g., CS, Field CTO, Field Enablement).
 
-- [Demo Architecture](./demo-architect.md)
+- [Demo Architecture](./demo-architect/)
 - Business Value Services
 - Subject Matter Experts
 
