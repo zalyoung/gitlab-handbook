@@ -9,7 +9,7 @@ For more information visit GitLabs [Objective and Key Results (OKRs)](/handbook/
 
 ## Purpose
 
-This page provides an overview of CSM team issue tracking, OKRs and the OKR process. 
+This page provides an overview of CSM team issue tracking, OKRs, and the OKR process. 
 
 OKRs should provide continuous strategic alignment with the business. Our Big Rocks are our annual OKRs and our quarterly OKRs contribute to them.
 
