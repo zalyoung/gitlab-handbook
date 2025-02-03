@@ -45,21 +45,21 @@ The Red Team is part of the Security Operations department. [See the GitLab orga
 
 Further details about Red Team roles can be found in the [job family description](/job-families/security/red-team).
 
-## Services we offer
+## Services We Offer
 
 In everything we do, we follow our [rules of engagement (RoE)](how-we-operate/rules-of-engagement).
 
 We do not perform penetration tests (vulnerability enumeration) or product vulnerability research (see [Security Research](../../product-security/security-research/)).
 
-### Stealth operations
+### Stealth Operations
 
 Our primary service. Stealth operations are typically 3-9 months in length and are focused on emulation of relevant threats to GitLab. We work closely with [Threat Intelligence](../threat-intelligence) to identify an adversary that might pose a security risk to GitLab. Using tools we've developed similar to those of the adversary, we carry out the attack on GitLab's systems. We use stealth, testing the defenses realistically and without introducing unnecessary risk. [Read more...](stealth-operations)
 
-### Opportunistic attacks
+### Opportunistic Attacks
 
 These are short (a few days), more spontaneous attacks against GitLab systems when a potential initial access vector comes to our attention. Depending on what we find, we can either raise an incident ourselves, or continue as attackers would until discovery. We're looking to formalise this to a framework for discovering initial access more efficiently and iteratively. [Read more...](opportunistic-attacks/)
 
-### Purple teaming
+### Purple Teaming
 
 Purple Team represents a collaborative exercise between the Red Team and Blue Team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
@@ -102,7 +102,7 @@ We also track results via metrics which are available internally, including MITR
 - [Red Team Development and Operations](https://redteam.guide/): An excellent book by Joe Vest and James Tubberville.
 - [MITRE ATT&CK: Getting Started](https://attack.mitre.org/resources/getting-started/): A collection of resources related to the ATT&CK framework, which is used as the foundation for much of our work.
 
-## Is This the Red Team?
+## Is This The Red Team?
 
 GitLab team members: See something potentially suspicious and want to check in with us? We won't answer this question. Read more about why in [_Is This the Red Team?_](how-we-operate/#is-this-the-red-team)
 
