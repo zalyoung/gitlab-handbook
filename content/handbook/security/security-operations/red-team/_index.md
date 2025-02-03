@@ -27,9 +27,9 @@ no_list: true
 
 To continuously strengthen GitLab's defenses against evolving real-world threats while leading the offensive security industry through transparency, collaboration, and technical excellence.
 
-### Mission Statement
+### Mission
 
-The Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
+The Red Team's mission is to increase GitLab's "threat resilience" - the ability to prevent, detect, and respond to attacks most likely to target our organization. Leveraging security exercises that emulate real-world threats, we provide an opportunity to assess and improve these capabilities.
 
 We achieve this by:
 
