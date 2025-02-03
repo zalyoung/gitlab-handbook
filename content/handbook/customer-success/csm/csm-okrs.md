@@ -74,7 +74,7 @@ OKRs Should be Inclusive (Segments, regions etc) and lean in to heavily into our
 
 This will have significant impacts on both GitLab and its customers:
 
-#### For GitLab:
+### For GitLab
 
 - Demonstrates the effectiveness of GitLab's own tools for project management
 
@@ -86,7 +86,7 @@ This will have significant impacts on both GitLab and its customers:
 
 - Strengthens the company's "eat our own dog food" philosophy
 
-#### For Customers:
+### For Customers
 
 - Leads to more responsive and efficient customer support
 
@@ -105,7 +105,6 @@ This will have significant impacts on both GitLab and its customers:
 - **Epic:** Should indicate/tie an Issue back to a Strategic Objective / Pillar for CS
 
 - **Milestone:** Should be the fiscal quarter we are planning to deliver & close the work
-
 
 ## Process
 
@@ -280,7 +279,6 @@ The CSM OKR timeline is as follows:
 | 2 weeks out | Leadership team discusses with their respective teams and polishes OKRs |
 | 1 week out | Closing ceremony and playback of previous OKRs |
 | 0  | Update OKRs to be active |
-
 
 ### Additional Resources
 
