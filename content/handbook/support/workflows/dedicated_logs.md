@@ -14,7 +14,7 @@ The logs in OpenSearch will all be presented in the UTC time zone, regardless of
 
 ### Log requests older than 7 days
 
-If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log reqeust workflow](./log_requests.md).
+If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
 
 ## Identifying tenants
 
