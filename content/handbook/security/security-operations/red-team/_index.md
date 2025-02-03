@@ -61,7 +61,7 @@ These are short (a few days), more spontaneous attacks against GitLab systems wh
 
 ### Purple teaming
 
-Purple team represents a collaborative exercise between the Red team and Blue team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
+Purple Team represents a collaborative exercise between the Red Team and Blue Team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
 - flash operations which are short (1-2 weeks) exercises to test our defenses against a tool or technique used by an emerging threat or
 - longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing)
