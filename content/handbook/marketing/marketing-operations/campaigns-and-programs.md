@@ -1155,7 +1155,7 @@ When someone fills out these forms, they will be automatically added to the [Lan
 [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 
 - Use format `YYYY_Social_[Name]_[parameter]_LinkedIn Lead Gen`
-- Campaign parameter must be one of the [GTM campaign parameters](/handbook/marketing/utm-strategy/#utm-campaign) (usually used as utm_campaign - ex. `devopsgtm` or `autosd`). The Salesforce campaign name must include the campaign parameter for the responses to roll up to the correct campaign on the Sisense dashboards.
+- Campaign parameter must be one of the [GTM campaign parameters](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure) (usually used as utm_campaign - ex. `devopsgtm` or `autosd`). The Salesforce campaign name must include the campaign parameter for the responses to roll up to the correct campaign on the Sisense dashboards.
 
 _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 
