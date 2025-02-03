@@ -20,7 +20,7 @@ People Connect will review the following guidelines to ensure the correct amount
 
 #### Transferring Referral Submissions to Greenhouse
 
-Per the current [Referral Submission Process](/handbook/hiring/referral-process/#submitting-a-referral), Team Members will submit referrals through Greenhouse if the vacancy is posted externally and via Issues if the vacancy is **only** open internally. When a new Issue appears, please do the following:
+Per the current [Referral Submission Process](/handbook/hiring/referral-process/#how-to-submit-a-referral-in-greenhouse), Team Members will submit referrals through Greenhouse if the vacancy is posted externally and via Issues if the vacancy is **only** open internally. When a new Issue appears, please do the following:
 
 1. Assign the Issue to yourself (upper right corner).
     - *Reruiting Operations & Insights* is responsible for assigning the appropriate *Sourcer(s)*.

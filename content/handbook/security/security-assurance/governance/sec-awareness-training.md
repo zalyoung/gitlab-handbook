@@ -22,7 +22,7 @@ Contractors/TSPs that are able to show evidence of equivalent training completio
 
 For annual security awareness training, all team members hired prior to May 1 of the current year will receive an email via ProofPoint from GitLab Security <awareness@securityeducation.com> that will contain a link to access the training(s). GitLab team members hired after May 1 of the current year will have undergone New Hire security orientation training as part of their onboarding and therefore will not be required to take the annual security awareness training until the following year.
 
-An additional [Secure Coding](/handbook/security/secure-coding-training/#gitlab-secure-coding-training) training module must also be completed by 100% of all active GitLab team members + contractors/TSPs.
+An additional [Secure Coding](/handbook/security/secure-coding-training/) training module must also be completed by 100% of all active GitLab team members + contractors/TSPs.
 
 By default, GitLab team members within the Engineering Department and the sub-departments of Cost of Sales, Development, Incubation Engineering, Infrastructure and Quality that have titles with `Engineer` or `Developer` **AND** write code as part of their role (even Infra-as-code) will be assigned the additional training.
 

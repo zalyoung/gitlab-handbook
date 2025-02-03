@@ -52,7 +52,7 @@ The next step for the Director, Digital Success is a Senior Director level that 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Interviews will be then setup with:
 - Hiring manager, Director CS Operations
 - Vice President of Customer Success

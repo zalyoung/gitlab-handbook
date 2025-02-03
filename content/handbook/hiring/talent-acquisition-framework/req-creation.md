@@ -110,7 +110,7 @@ The `Interview Plan` is where you'll craft the hiring process and scorecards for
 
 The `Hiring Team` is where you select who will be working on this opening and what access they should have.
 
-- Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
+- Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
 - Ensure that only necessary team members have Hiring Manager access in the bottom section. Filter by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need Job Admin access and should be removed.
 
 Set up Notifications where appropriate. You should make sure that you are always notified for internal candidates and referrals, but the rest is up to your preferences. Most recruiters prefer to use their own names, rather than `Candidate's Recruiter`, because it ensures they are notified even if the candidate is interviewing for multiple positions and therefore has a different default recruiter.

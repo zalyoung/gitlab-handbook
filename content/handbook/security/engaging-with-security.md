@@ -50,7 +50,7 @@ On the day of the security release several things happen in order:
 - All security patches are pushed to the public repository.
 - The public is notified via the GitLab blog release post, security alerts email, and Twitter.
 
-The GitLab issue should then be closed and - after 30 days - sanitized and made public. If the report was received via HackerOne, follow the [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process/#closing-out-and-disclosing-issues).
+The GitLab issue should then be closed and - after 30 days - sanitized and made public. If the report was received via HackerOne, follow the [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process/#closing-out--disclosing-issues).
 
 ### Process for disclosing security issues
 

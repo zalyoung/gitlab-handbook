@@ -80,7 +80,7 @@ Depending on the outcome of the call, the talent acquisition team or manager may
 1. What is your experience with X? (for each of the skills listed in the position description)
 1. [STAR Method](https://www.themuse.com/advice/star-interview-method) questions and simple technical or skills-related questions
 1. What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
-1. Do you require visa sponsorship or a work/study permit to work for GitLab? Or do you require the work permit to be transferred to GitLab? If the answer is yes, we will not be able to proceed, [unless you currently hold a work permit in the Netherlands](/handbook/people-group/visas/#dutch-work-permits). You can refer to the [Visa and Sponsorship](/handbook/people-group/visas/#visas-and-sponsorhip) handbook section for further clarity.
+1. Do you require visa sponsorship or a work/study permit to work for GitLab? Or do you require the work permit to be transferred to GitLab? If the answer is yes, we will not be able to proceed, [unless you currently hold a work permit in the Netherlands](/handbook/people-group/visas/#dutch-work-permits). You can refer to the [Visa and Sponsorship](/handbook/people-group/visas/) handbook section for further clarity.
 1. What is the notice period you would need if you were hired?
 1. Is this salary range in line with your expectations? At GitLab, we are committed to paying competitively and equitably. Therefore, we set our offers based on market pay rather than a candidate's pay history. We walk through the [Compensation Calculator](https://comp-calculator.gitlab.net/) with each candidate so that we can address any gaps in expectations early on. Only candidates who are in the team interview stage or later can access our [compensation calculator](https://comp-calculator.gitlab.net/) by following `applicants sign up`.
 
@@ -145,7 +145,7 @@ Example of dual Interview process outline
 {{% /details %}}
 
 {{% details summary="I've been rejected, when can I reapply?" %}}
-If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you](/handbook/hiring/interviewing/#rejecting-candidates), you are welcome to reapply at any time.
+If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you](/handbook/hiring/#interview-stages), you are welcome to reapply at any time.
 {{% /details %}}
 
 {{% details summary="I already passed the technical interview, will I need to repeat that stage if I reapply?" %}}

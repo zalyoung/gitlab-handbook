@@ -14,7 +14,7 @@ Some awards and recognition lists are determined by the program organizers witho
 
 ## Awards we've won
 
-[Here's a list](/handbook/marketing/developer-relations/technical-marketing/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) of the awards we've recently won. The Talent Brand Manager maintains this list.
+[Here's a list](/handbook/people-group/employment-branding/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) of the awards we've recently won. The Talent Brand Manager maintains this list.
 
 ## Determining which awards to apply for
 
@@ -32,7 +32,7 @@ Steps for the Talent Brand Manager:
 1. If the application requires information that you don't know and that's not in the handbook: Tag the appropriate team to ask for input on the Google Doc application. Note: Lots of typical application answers can be found in the [handbook](/handbook). See the `'helpful links'` section below.
 1. When the application Google Doc is fully completed, tag Jenn for review before submitting.
 1. If GitLab is recognized, share with the VP of Talent Acquisition and Chief People Officer, and work with the Corporate Communications team to open the approriate issues in the Corporate Marketing project for promoting the win both internally and externally.
-1. Once wins are public, be sure to equip the Talent Acquisition team with any suggested candidate messaging to promote the win. Also update the [awards list](/handbook/marketing/developer-relations/technical-marketing/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) in the content library.
+1. Once wins are public, be sure to equip the Talent Acquisition team with any suggested candidate messaging to promote the win. Also update the [awards list](/handbook/people-group/employment-branding/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) in the content library.
 
 ## Awards that require a survey of team members
 

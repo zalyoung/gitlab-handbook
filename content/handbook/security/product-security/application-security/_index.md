@@ -88,7 +88,7 @@ When necessary a backlog review can be initiated, please see the [Vulnerability 
 ## GitLab Secure Tools coverage
 
 As part of our [dogfooding effort](/handbook/product/product-processes/#dogfood-everything),
-the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/product/ux/navigation/inventory/#policies)).
+the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/security/product-security/application-security/inventory/#policies)).
 This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
 Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/issues) (internal link).

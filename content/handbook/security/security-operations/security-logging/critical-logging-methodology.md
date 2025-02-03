@@ -91,7 +91,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
 <br/>
 
 {{% panel header="**Note**" header-bg="primary" %}}
-<span style="color:#DB3B21;"><b>\*</b></span> As an extension of tiering methodology, the [Data Classification Standard](/handbook/security/data-classification-standard/) prescribes **specific** [Security and Privacy](/handbook/security/data-classification-standard/#security-and-privacy-controls) control requirements for each data classification level. These requirements should be followed based on a system's data classification, regardless of the system's tier.
+<span style="color:#DB3B21;"><b>\*</b></span> As an extension of tiering methodology, the [Data Classification Standard](/handbook/security/data-classification-standard/) prescribes **specific** [Security and Privacy](/handbook/security/data-classification-standard/) control requirements for each data classification level. These requirements should be followed based on a system's data classification, regardless of the system's tier.
 
 <span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard](/handbook/security/data-classification-standard/#red) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Mission Critical** system. This is due to the fact that this data is customer owned and uploaded and as such, has been deemed to be mission critical in nature.
 

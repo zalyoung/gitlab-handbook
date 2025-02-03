@@ -156,15 +156,15 @@ Please note that the source of truth for role responsibilites is the job family 
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding](/handbook/people-group/offboarding/offboarding_standards/) | Immediate action for involuntary & 24 hours for voluntary |
 | [Career Mobility](/handbook/people-group/promotions-transfers/#career-mobility-issue) | Within 24 hours |
-| [Letters of Employment](/handbook/people-group/frequent-requests/#letter-of-employment) | Within 24 hours |
-| [Employment Verification](/handbook/people-group/frequent-requests/#employment-history-verification-current-team-members) | Within 24 hours |
+| [Letters of Employment](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
+| [Employment Verification](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Anniversary Emails](/handbook/people-group/celebrations/#anniversary-gifts) | First day of the following month |
 | HelpLab Queries | Within 24 hours |
 | [Probation Period Notifications](/handbook/people-group/contracts-probation-periods/#probation-period) | Daily (when applicable) |
 | [Contract Renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals) | 30 days or more prior to team member's renewal date |
-| [Exit Interviews](/handbook/people-group/engineering/offboarding/#exit-survey) | During voluntary offboarding team member's last week |
+| [Exit Interviews](/handbook/people-group/offboarding/#exit-survey) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
-| [US Unemployment Claim Management](/handbook/people-group/engineering/offboarding/#us-unemployment-claim-management) | As Needed and Audited Quarterly |
+| [US Unemployment Claim Management](/handbook/people-group/offboarding/#unemployment-claims-in-the-us) | As Needed and Audited Quarterly |
 
 Other listed processes for the People Connect Team can be found [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
 

@@ -68,7 +68,7 @@ Links to interesting handbook pages, articles, books, and training
 ### Handbook
 
 - [Speaking with TMAG members in the hiring process](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#speaking-with-tmrg-members-in-the-hiring-process)
-- [Team member identity data](/handbook/company/culture/inclusion/identity-data/#age-distribution)
+- [Team member identity data](/handbook/company/culture/inclusion/identity-data/)
 - [Lack of dates on resume](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#lack-of-dates-on-your-resume)
 
 ### Articles

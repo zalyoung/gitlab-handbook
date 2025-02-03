@@ -10,5 +10,5 @@ GitLab conducts [Quarterly Business Reviews](/handbook/sales/qbrs/) during the f
 
 1. As part of the [Field Manager QBR Roll Out schedule](/handbook/sales/qbrs/#sample-field-manager-qbr-roll-out---virtual), Field EBAs will send a calendar invitation to the Field Security Team. Based on availability, members of the team will sign up for various QBR sessions.
 1. Field Security team members will intake any security-related concerns or issues.
-1. Field Security team members will evaluate the concerns and rate them using [GitLab's Observation Management](/handbook/security/security-assurance/observation-management-procedure/#observation-risk-ratings) procedure.
+1. Field Security team members will evaluate the concerns and rate them using [GitLab's Observation Management](/handbook/security/security-assurance/observation-management-procedure/#risk-ratings) procedure.
 1. A summary issue is shared to relevant stakeholders for consideration. As applicable, security concerns may be added to the [Annual Field Security Study.](/handbook/security/security-assurance/field-security/field-security-study/)

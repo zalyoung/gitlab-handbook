@@ -239,7 +239,7 @@ We're hiring across the company. Check out our opportunities: https://about.gitl
 
 Our talent brand team evaluates employer awards and recognition to determine if there are particular awards that, if won, will help us to better attract talented people to want to join GitLab. We also see employer awards as a way to benchmark ourselves against our talent competitors, we want to know how credible third-party organizations rate us against our peers to ensure we continue to be a great place to work.
 
-Check out the content library for a [list of the latest awards and recognition](/handbook/marketing/developer-relations/technical-marketing/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) related to working at GitLab.
+Check out the content library for a [list of the latest awards and recognition](/handbook/people-group/employment-branding/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) related to working at GitLab.
 
 ### How we apply for employer and workplace awards
 

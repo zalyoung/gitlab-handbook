@@ -78,7 +78,7 @@ If the system meets the criteria, we open up a new [Security Compliance Intake I
 - System overview
 - Implemented security controls or impacted regulatory or compliance program
 - Link to TPRM reviews or Production Readiness reviews
-- [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#critical-systems-tiering-methodolgy) (CST)
+- [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST)
 - Key Contact Details
 - Deployment model and implementation status
 - Data classification

@@ -102,7 +102,7 @@ The following process will remove the restrictions for using compute minutes for
 
 #### Using Mechanizer ZD App
 
-Use the [Enable compute minutes via ZD Mechanizer app](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#enable-units-of-compute).
+Use the [Enable compute minutes via ZD Mechanizer app](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#enable-compute-minutes).
 
 #### Using customerDot Console
 

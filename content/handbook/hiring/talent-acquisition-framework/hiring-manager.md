@@ -5,9 +5,9 @@ description: "This page is an overview of the processes the hiring manager is re
 
 ## Step 1/HM: Identifying hiring need
 
-1. [Add Vacancy to the Hiring Plan](/handbook/hiring/talent-acquisition-framework/req-creation/#adding-vacancies-to-the-hiring-plan)
+1. [Add Vacancy to the Hiring Plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process)
 Determine the purpose of this role
-1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family)
+1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family-dri-hiring-manager)
 1. [Work with the Recruiting Manager/Lead to open the vacancy in Greenhouse](req-creation/#opening-vacancies-in-greenhouse)
 
 ## Step 2/HM: Complete Kick-off
@@ -112,7 +112,7 @@ You should not ask any questions about the person's race, gender, sexual prefere
 - Who watches their children while they are at work?
 - What types of groups does the candidate belong to that are not work related?
 
-[Use our guide to scoring](/handbook/hiring/conducting-a-gitlab-interview/#all-divisions-but-engineering) to help select the vote you choose when submitting a scorecard for each reference check.
+[Use our guide to scoring](/handbook/hiring/conducting-a-gitlab-interview/#candidate-evaluation-and-scorecards) to help select the vote you choose when submitting a scorecard for each reference check.
 
 ### Reference Check Review
 

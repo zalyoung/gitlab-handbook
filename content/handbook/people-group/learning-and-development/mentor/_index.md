@@ -236,7 +236,7 @@ Is this your first mentorship at GitLab? Maybe it's your first time as a mentor.
 
 ## How to organize an all-remote mentorship program
 
-Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook-usage) to contribute your own learning to list!
+Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook/about/handbook-usage/) to contribute your own learning to list!
 
 1. Share call for applications across multiple channels and do direct outreach to great mentors for the best engagement. Lean on People Business Partners for suggestions of team members who would make great mentors and mentees.
 1. In applications, ask for role, location, and mentorship focus area, along with ideal goals. Use multiple choice questions to easily sort and pair responses.

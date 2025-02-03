@@ -29,7 +29,7 @@ The Customer Success Operations Interns job family may work within GitLab Custom
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Qualified candidates will then will be scheduled 30 minutes with the hiring manager
 - Qualified candidates will then will be scheduled 30 minutes with 1-3 additional team members
 

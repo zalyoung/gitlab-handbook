@@ -87,12 +87,12 @@ Please find pages for potential and active applicants below.
 {{% details summary="Get your headcount assignments" %}}
 
 - [How to open headcount on R&D](/handbook/engineering/hiring/#hiring-practices)
-- [How to open headcount on Sales and G&A](/handbook/hiring/talent-acquisition-framework/req-creation/#creation-and-approval)
+- [How to open headcount on Sales and G&A](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
 {{% /details %}}
 
 {{% details summary="Open a req in Greenhouse" %}}
 
-- [Instructions here](/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse)
+- [Instructions here](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
 - [Open a kickoff session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
 {{% /details %}}
 
@@ -109,8 +109,8 @@ Please find pages for potential and active applicants below.
 
 {{% details summary="Post a job in Greenhouse" %}}
 
-- [Post an **internal** job](/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse-dri-recruiter)
-- [Post an **external** job](/handbook/hiring/talent-acquisition-framework/req-creation/#publish-the-job-to-the-careers-page--review-greenhouse-configuration)
+- [Post an **internal** job](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter-dri-recruiter)
+- [Post an **external** job](/handbook/hiring/talent-acquisition-framework/req-creation/#publish-the-job-careers-page--linkedin)
 - [Using Rules](/handbook/hiring/talent-acquisition-framework/req-creation/#using-job-posting-rules-in-greenhouse)
 - [Auto-tags](/handbook/hiring/greenhouse/#auto-tags)
 - {{% details summary="Tips and Tricks" %}}
@@ -154,14 +154,14 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - [**Assessment:**](/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-interview-plan) This is an optional stage where written assignments can be submitted. Learn more [here](/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-interview-plan).
 - **Initial Interview:** This is the first video interview with a member of the team, which helps determine if they will move forward to additional interviews. This stage ensures we are utilizing the interviewers' and candidates' time thoughtfully, and is typically either a Hiring Manager or Technical interview.
 - [**Team Interview:**](/handbook/hiring/talent-acquisition-framework/req-overview/#team-interview) All other team interviews live here.
-- [**Debrief:**](/handbook/hiring/talent-acquisition-framework/offer-process/#debrief) This will come after the reference check stage for Engineering requisitions, because the reference checks will be initiated as the Justification (R&D's process for the Debrief stage) is initiated. For non-Engineering departments, this will be a holding stage where candidates wait until a decision is made, to track the time it takes for us to reach a decision on a candidate who has completed their interviews. See the [Engineering's Justification process](/handbook/hiring/talent-acquisition-framework/offer-process/#debrief).
+- [**Debrief:**](/handbook/hiring/talent-acquisition-framework/offer-process/#debrief-stage) This will come after the reference check stage for Engineering requisitions, because the reference checks will be initiated as the Justification (R&D's process for the Debrief stage) is initiated. For non-Engineering departments, this will be a holding stage where candidates wait until a decision is made, to track the time it takes for us to reach a decision on a candidate who has completed their interviews. See the [Engineering's Justification process](/handbook/hiring/talent-acquisition-framework/offer-process/#debrief-stage).
 - [**Reference Check:**](#offers-and-closing-reqs) The reference check stage can sometimes be done in tandem with the Debrief and Background Check and Offer stages. They can be completed by the Hiring Manager or Recruiter.
 - [**Background Check and Offer:**](#offers-and-closing-reqs) Recruiters move candidates into this stage once they're ready to receive their verbal offer. Before that time, this stage is where an offer is prepared and goes through approvals. This is the final stage in the process.
 {{% /details %}}
 
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
-- Candidate Experience Specialists use [Prelude](/handbook/hiring/prelude/#prelude) to schedule.
+- Candidate Experience Specialists use [Prelude](/handbook/hiring/prelude/) to schedule.
 - Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
 {{% /details %}}
 
@@ -211,7 +211,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Reference Checks" %}}
 
-- [Reference check information](/handbook/hiring/talent-acquisition-framework/offer-process/#reference-reviews)
+- [Reference check information](/handbook/hiring/talent-acquisition-framework/offer-process/#reference-check-stage)
 - Reference check forms are mandatory. If you receive reference check information outside of the form and don't want a candidate to fill it out again, Enablement can help you adjust the form to collect the remaining information. These forms are important because they provide necessary information for the accuracy and completion of a contract.
 - {{% details summary="Tips and Tricks" %}}
 - These forms, just like an offer in Greenhouse, **do not transfer** when you move a candidate from one job to another. Ensure that your candidate is in the role they'll be hired for before sending.
@@ -223,7 +223,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Offers" %}}
 
-- [Creating an offer in Greenhouse](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approvals)
+- [Creating an offer in Greenhouse](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process)
 - {{% details summary="Common approval challenges" %}}
 - Offer stuck in approvals: If the offer is stuck in the approvals chain because someone is out of office, the recruiter can talk to the approver's manager about an appropriate temporary adjustment and recommend this to the Enablement team. Recruiters should be proactive in reaching out to approvers if an offer is urgent or a candidate is being inconvenienced by a long wait time. If there is a known OOO, this discussion should happen before there's an offer waiting for approval. Enablement can help with any changes needed.
 - Offer approvals chain is incorrect: If approvers are missing or incorrect, the Recruiter should contact a member of the Enablement team to adjust. The only people with access to make approvers changes are Enablement and Director, Executive Recruiting, who change approval chains to maintain confidentiality for executive positions. Often, approval chains are incorrect because you have chosen the wrong department, so it's important to choose the right one before opening your req.
@@ -276,7 +276,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/)
 - [Posting a job internally](/handbook/hiring/talent-acquisition-framework/req-creation/#post-the-job-internally)
-- [In the offer process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approvals)
+- [In the offer process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process)
 
 ### Executive Hiring
 

@@ -60,7 +60,7 @@ The next step for the VP, Online Sales & Self Service Job Family is to move to t
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with our VP, Talent Acquisition.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our VP, Talent Acquisition.
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to schedule interviews with members of the CRO Leadership team
 - Next, candidates will be invited to scheduled interviews with members of our Fulfillment and Growth teams

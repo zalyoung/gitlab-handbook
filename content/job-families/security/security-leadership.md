@@ -77,7 +77,7 @@ The Senior Security Manager is a [grade 9](/handbook/total-rewards/compensation/
 
 Candidates for the senior manager positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45-60 minute interview with a Director of Security to which the position reports to
 - Candidates will then be invited to schedule 3 separate 45-60 minute interviews with additional directors and managers within the Security Organization
 - Candidates will then be invited to schedule an interview with the CISO
@@ -101,7 +101,7 @@ The Director, Security Assurance is a [grade 10](/handbook/total-rewards/compens
 
 Candidates for the director positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45-60 minute interview with CISO
 - Candidates will then be invited to schedule 2-3 separate 45-60 minute interviews with peer directors and reporting managers of the Security Organization
 - Candidates will then be invited to schedule 2-3 separate 45-60 minute interviews with cross-functional partners
@@ -224,7 +224,7 @@ The Senior Director, Security is a [grade 11](/handbook/total-rewards/compensati
 
 Candidates for the director positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45-60 minute interview with CISO
 - Candidates will then be invited to schedule 3 separate 45-60 minute interviews with directors and reporting managers within the Security Organization
 - Candidates may be requested to meet again with the CISO for a shortened conversation
@@ -352,7 +352,7 @@ Great candidates will have some meaningful proportion of the following.
 
 Candidates for the director positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with CISO
 - Candidates will then be invited to schedule separate 60 minute interviews with three leaders of the organization
 - Candidates will then be invited to schedule separate two 45 minute interviews with cross-functional team members

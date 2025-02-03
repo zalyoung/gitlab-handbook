@@ -60,7 +60,7 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 
 ### Access Review runbook
 
-The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md) provides the outline to complete these access reviews, including how to confirm [least privilege](/handbook/security/security-and-technology-policies/access-management-policy/#least-privilege-reviews-for-access-requests).
+The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md) provides the outline to complete these access reviews, including how to confirm [least privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
 
 In the event access is identified to no longer be required, open an [Access Removal](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) issue for each account that no longer requires access and relate it to the system access review issue.
 

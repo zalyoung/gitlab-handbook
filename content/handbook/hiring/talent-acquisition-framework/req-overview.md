@@ -7,7 +7,7 @@ description: "The Talent Acquisition Process Framework provides guidance on the 
 
 **Variations**: It's understood that variations to the process may occur given particular situations that make sense to a specified hiring team or need.
 
-The communicated Talent Acquisition Process Framework specifically focuses on approved REQs and candidates who are moving forward. It is understood that candidates who will be [declined will be done so in a timely and respectful manner](/handbook/hiring/interviewing/#rejecting-candidates).
+The communicated Talent Acquisition Process Framework specifically focuses on approved REQs and candidates who are moving forward. It is understood that candidates who will be [declined will be done so in a timely and respectful manner](/handbook/hiring/#interview-stages).
 
 ## Search Team
 
@@ -18,11 +18,11 @@ The communicated Talent Acquisition Process Framework specifically focuses on ap
 
 ### **Step 1: Identify hiring need**
 
-The Hiring Manager will determine the need for an opening and ensure it is an approved headcount (confirm with your [finance business partner](/handbook/finance/#finance-business-partner-alignment) if you are not sure). Once confirmed, the Hiring Manager will notify the [Talent Acquisition Manager/Lead specific to their org](/handbook/hiring/recruiting-alignment/) utilizing the steps provided on the [req creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#requisition-creation-process).
+The Hiring Manager will determine the need for an opening and ensure it is an approved headcount (confirm with your [finance business partner](/handbook/finance/#finance-business-partner-alignment) if you are not sure). Once confirmed, the Hiring Manager will notify the [Talent Acquisition Manager/Lead specific to their org](/handbook/hiring/recruiting-alignment/) utilizing the steps provided on the [req creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter).
 
 ### **Step 2: Create opening in Greenhouse**
 
-The Recruiter will create the opening in Greenhouse following the [req creation](/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse) guidelines. The assigned Recruiter, CES, and Sourcer should receive an email notification from Greenhouse when the req is approved.
+The Recruiter will create the opening in Greenhouse following the [req creation](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) guidelines. The assigned Recruiter, CES, and Sourcer should receive an email notification from Greenhouse when the req is approved.
 
 ### **Step 3: Complete kick-off session, agree on priority level, & complete a sourcing session**
 

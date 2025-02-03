@@ -166,7 +166,7 @@ The next step for the Online Sales & Self Service Product & Data Analytics Job F
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Qualified candidates will take a short technical take home test.
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to schedule interviews 30 minute interviews with 2 immediate team members and 3 cross-functional partners

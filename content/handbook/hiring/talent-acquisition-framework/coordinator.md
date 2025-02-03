@@ -3,7 +3,7 @@ title: "Candidate Experience Specialist Responsibilities"
 description: "This page is an overview of the processes, and systems that the Candidate Experience Team is responsible for."
 ---
 
-The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) and ModernLoop to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and an issue will automatically be created within the CES Service Desk. Please see the [alignment page](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department) to learn more about which CES team member will be working on your requests. Our team leverages ModernLoop for interview scheduling, seamlessly connecting with our existing calendar and ATS.
+The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) and ModernLoop to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and an issue will automatically be created within the CES Service Desk. Please see the [alignment page](/handbook/hiring/recruiting-alignment/) to learn more about which CES team member will be working on your requests. Our team leverages ModernLoop for interview scheduling, seamlessly connecting with our existing calendar and ATS.
 
 #### How the CES Team will run the Service Desk
 
@@ -24,6 +24,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
 ### Team Interviews
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - When a candidate is ready for a team interview, the recruiter will request availability in ModernLoop. Once availability is requested, it will create a task for CES to schedule.
   - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours]({{< ref "interviewing#moving-candidates-through-the-process" >}}) out to leave time for interviewer prep.
   - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
@@ -34,6 +35,10 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
 =======
 - When a candidate is ready for a team interview, the recruiter will request availability in Greenhouse using the email address of the CES team member [they partner with](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department). They will then click "Email the Team" on the right side of the candidate's Greenhouse page and send CES the "CES Scheduling Request form".
   - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/interviewing/#moving-candidates-through-the-process) out to leave time for interviewer prep.
+=======
+- When a candidate is ready for a team interview, the recruiter will request availability in Greenhouse using the email address of the CES team member [they partner with](/handbook/hiring/recruiting-alignment/). They will then click "Email the Team" on the right side of the candidate's Greenhouse page and send CES the "CES Scheduling Request form".
+  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/#interview-stages) out to leave time for interviewer prep.
+>>>>>>> e965da5fce (Fix incorrect links)
   - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
 - If no response is received within 24 hours, CES will send a follow up request for availability and set the due date of the issue to 24 hours after the next email to check for availability again.
   - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.

@@ -60,8 +60,8 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 |[Annual Risk Assessment]({{< ref "storm-program#storm-procedures" >}})     |Kyle Smith|
 |[Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)     |Nirmal Devarajan|
 |[New System Additions to Tech Stack and Post-Implementation Checks](/handbook/business-technology/tech-stack-applications/)     |Nirmal Devarajan|
-|[Critical System Tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#determining-critical-system-tiers)     |Kyle Smith|
-|[Ongoing SecRisk-Related Observations Management](/handbook/security/security-assurance/observation-management-procedure/#introduction-to-observation-management-at-gitlab)     |Nirmal Devarajan|
+|[Critical System Tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#designating-critical-system-tiers)     |Kyle Smith|
+|[Ongoing SecRisk-Related Observations Management](/handbook/security/security-assurance/observation-management-procedure/)     |Nirmal Devarajan|
 |[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
 |[Ongoing TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Ryan Lawson|
 |[Periodic SOX CUEC Facilitation](/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/)     |Eric Geving|

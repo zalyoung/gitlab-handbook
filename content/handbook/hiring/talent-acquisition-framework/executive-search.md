@@ -62,7 +62,7 @@ If capacity on the executive search team is lacking, a senior recruiter with fun
 
 Based on the target start date, the Talent DRI will work backwards by estimating time to fill and determine when to start the recruiting process.
 
-At this stage, The Talent DRI is also responsible for [creating the Greenhouse req](/handbook/hiring/talent-acquisition-framework/req-creation/#requisition-creation-process).
+At this stage, The Talent DRI is also responsible for [creating the Greenhouse req](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter).
 
 ## Role Qualification and Intake
 
@@ -270,7 +270,7 @@ If necessary, the Talent DRI will create a Slack channel (#offer-job-title) to d
 
 **Offer Approvals**
 
-In addition to the normal [offer approval process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approvals), Director and above offers require approval from the e-group member over the division.
+In addition to the normal [offer approval process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process), Director and above offers require approval from the e-group member over the division.
 
 **Offer Delivery**
 

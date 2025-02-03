@@ -46,7 +46,7 @@ The Security Assurance Engineer (Intermediate) is a [grade 6](/handbook/total-re
 
 Candidates for the engineer (intermediate) positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 50-minute interviews with the hiring manager,
 - Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
 - Finally, candidates will be invited to schedule a 25-minute interview with the Senior Director, Security Assurance.
@@ -170,7 +170,7 @@ The Senior Security Assurance Engineer is a [grade 7](/handbook/total-rewards/co
 
 Candidates for the senior engineer positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 50-minute interviews with the hiring manager,
 - Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
 - Finally, candidates will be invited to schedule a 25-minute interview with the Senior Director, Security Assurance.
@@ -309,7 +309,7 @@ The Staff Security Assurance Engineer is a [grade 8](/handbook/total-rewards/com
 
 Candidates for the staff engineer positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 50-minute interviews with the hiring manager,
 - Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
 - Finally, candidates will be invited to schedule a 25-minute interview with the Senior Director, Security Assurance.
@@ -448,7 +448,7 @@ The Manager, Security Assurance is a [grade 8](/handbook/total-rewards/compensat
 
 Candidates for the manager positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 50-minute interviews with the Senior Director, Security Assurance,
 - Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
 - Finally, candidates will be invited to schedule a 25-minute interview with the CISO.
