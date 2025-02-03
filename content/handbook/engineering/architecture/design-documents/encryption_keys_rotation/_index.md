@@ -135,7 +135,7 @@ Keys lifecycle information will be stored in a new `encryption_keys` table, incl
 - Key creation time `created_at`: the first time it appeared in the `config/secrets.yml` file.
 - Key deletion time `removed_at`: the time when the key disappeared from the `config/secrets.yml` file.
 
-Keeping track of these informations in the database gives the following abilities:
+Keeping track of this information in the database provides the following capabilities:
 
 - See the current encryption and decryption keys
 - Keep track of keys that were used in the past
@@ -299,7 +299,7 @@ directly in the admin UI.
 
 ### Data encrypted through `ActiveRecord::Encryption`
 
-The `ActiveRecord::Encryption` framework already fullfills the pre-requisites (except for rotating deterministic keys,
+The `ActiveRecord::Encryption` framework already fulfills the pre-requisites (except for rotating deterministic keys,
 but we might work around that, or even implement proper support for it).
 
 ### Data encrypted through `attr_encrypted` and `TokenAuthenticatable`
@@ -435,9 +435,9 @@ PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?comm
 - <https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/594> (confidential)
 - <https://gitlab.com/gitlab-org/gitlab/-/issues/228663> (confidential)
 - <https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/756> (confidential)
-- <https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/12927> (confidential)
 - <https://gitlab.com/gitlab-org/gitlab/-/issues/244855> (confidential)
 - <https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/443> (confidential)
+- <https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/12927> (confidential)
 
 ## Who
 
