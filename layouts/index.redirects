@@ -98,7 +98,7 @@
 /handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
 
 # Red Team redirects - remove 2025-05-05
-handbook/security/security-operations/red-team/red-team-roe/ /handbook/security/security-operations/red-team/how-we-operate/rules-of-engagement/ 301
+/handbook/security/security-operations/red-team/red-team-roe/ /handbook/security/security-operations/red-team/how-we-operate/rules-of-engagement/ 301
 
 # about.gitlab.com handbook guide redirects - remove 2025-05-25
 /handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
