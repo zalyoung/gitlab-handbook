@@ -1,0 +1,17 @@
+schemaVersion: 2.2.0
+variables:
+  container-image: registry.gitlab.com/pages/hugo/hugo_extended
+  container-version: '0.140.2'
+components:
+  - name: handbook
+    attributes:
+      gl/inject-editor: true
+    container:
+      image: "{container-image}:{container-version}"
+      memoryRequest: 1024M
+      memoryLimit: 2048M
+      cpuRequest: 200m
+      cpuLimit: 600m
+      endpoints:
+        - name: hugo-1313
+          targetPort: 1313
