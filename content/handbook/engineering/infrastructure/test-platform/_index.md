@@ -130,7 +130,7 @@ As AI has evolved to be a foundational and transformational technology that can 
 - AI powered performance testing.
 - Automated bug triage: The ability to  triage untriaged bugs for critical details like severity, bug description, logs, etc.
 
-### Techincal Expertise
+### Technical Expertise
 
 Test Platform Engineers are always available to provide technical support and expertise to development teams to solve complex technical challenges and ensure that applications are built to industry standards. This includes but not limited to:
 
