@@ -484,6 +484,71 @@ Note: It is important for this rollout strategy to follow the timeline. You will
    `25`, `50`, `75`, `100` percents. Keep `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` set to `true` through entire rollout cycle.
 1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`. Remove the `OVERRIDE_LAST_PERCENTAGE` and `CHANGE_LOCK_OVERRIDE` environment variables in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml).
 
+### Cell Configuration
+
+#### Domain Setup
+
+- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com) 
+- Each cell responds to its cell-specific domain
+- Nginx ingress handles both domains
+
+#### SSL/TLS Configuration
+
+Cells maintain certificates for:
+
+- The primary GitLab domain (e.g., gitlab.com)
+- The cell-specific domain
+
+#### Nginx-ingress Configuration
+
+The nginx server in each cell:
+
+- Listens on both the primary and cell-specific domains
+- Processes the `X-Forwarded-Host` header for proper routing
+- Handles SSL termination for both domain certificates
+
+#### Cell infrastructure routing
+
+```mermaid
+graph TD
+    user((User))
+    cf[Cloudflare Worker]
+    topology[Topology Service]
+    router[Routing Service]
+    ingress[Nginx Ingress]
+    webserver[GitLab Webserver]
+    gitlab[GitLab.com]
+
+    %% Cell-based routing path
+    user -->|"1. Cookie: _*gitlab*_session=cell-$ID-..." | cf
+    cf -->|"2. Extract cell-$ID- from cookie value"| router
+    router -->|3. Query cell ID| topology
+    topology -->|4. Return cell domain| router
+    router -->|"5. Proxy to cell-domain.com"| ingress
+    ingress -->|"6. Proxy with Host: gitlab.com"| webserver
+
+    %% Default routing path
+    router -->|"No cell prefix"| gitlab
+
+    subgraph Cell Infrastructure
+        ingress
+        webserver
+    end
+
+    classDef service fill:#f9f,stroke:#333,stroke-width:2px
+    classDef infrastructure fill:#bbf,stroke:#333,stroke-width:2px
+    
+    note2[X-Forwarded-Host: gitlab.com]
+    note3[Host header matches X-Forwarded-Host]
+    
+    router -.->|sets| note2
+    ingress -.->|uses| note3
+
+    class cf,router,topology service
+    class ingress,webserver infrastructure
+    class note2,note3 note
+```
+
 ## Request flows
 
 1. There are two Cells.
