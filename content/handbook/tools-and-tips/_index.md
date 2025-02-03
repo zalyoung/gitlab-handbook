@@ -858,34 +858,11 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature if employed by our German entity
 
-If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page]({{< ref "gmbh-germany" >}})) as follows:
+If you are employed by our German entity, please see the [German entity handbook page](/handbook/entity/gmbh-germany/#email-signature) for details.
 
-<span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
-<span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
+#### Add company details/signature on company communications
 
-<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
-
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
-
-#### Add company details to certain company communications if employed by our German entity
-
-Certain company details are required to be added as a signature to the forms of communication listed below, where that communication is going from a team member employed by our German entity GitLab GmbH to outside of the company, and relates to GitLab's business activities:
-
-- order forms
-- physical mail
-- fax
-- postcard
-- email
-- SMS
-- Twitter
-- Zendesk
-- other electronic communications
-
-If you are sending such a communication, externally, please look at the setting of the relevant application and add the company details below to the end of the communication. If you are in doubt, please do add the details. If you are unable to add this information for any reason, please alert legal-employment@gitlab.com.
-
-If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include these company details, and if you have not been, please do so now, adding these details to the end of your signature:
-
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
+If you are employed by our German entity, please see the [German entity handbook page](/handbook.gitlab.com/handbook/entity/gmbh-germany/#company-detailssignature-on-company-communications) for details.
 
 #### Filters
 
