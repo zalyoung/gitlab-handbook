@@ -3,7 +3,7 @@ title: "Red Team"
 no_list: true
 ---
 
-## What are you looking for? (GitLab team members)
+## What Are You Looking For?
 
 - "**Is this the Red Team? / Is the activity I'm seeing part of a red team operation?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](how-we-operate/#is-this-the-red-team)
 - "**I have some attacker related ideas that could be quite interesting!**" :point_right: [Contact us](#contact-us)
