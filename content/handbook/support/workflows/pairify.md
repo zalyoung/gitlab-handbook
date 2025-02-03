@@ -32,7 +32,7 @@ To incorporate Pairify into your pairing session workflow:
 
 1. Optional. [Specify the pairing session type](#specifying-the-pairing-session-type).
 
-1. React to the thread with the ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji to mark a conversation for Pairify to process.
+1. React to the thread with the ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji **once the pairing is completed** to mark a conversation for Pairify to process.
 
 You then need to wait for the next scheduled execution of Pairify, as explained in [how Pairify works](#how-pairify-works).
 
