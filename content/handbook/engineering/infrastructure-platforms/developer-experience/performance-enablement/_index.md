@@ -5,7 +5,7 @@ description: "Performance Enablement team within Developer Experience sub-depart
 
 ![Emerald City](./images/DALL·E%20Emerald%20City.webp)
 
-Performance Enablement is to build and maintain a framework which enables internal teams to build reliable systems and deliver seamless customer experiences. Our mission is to transform GitLab's performance testing from reactive to proactive while fostering a culture of performance awareness by providing:
+Performance Enablement team vision is to build and maintain a framework which enables internal teams to build reliable systems and deliver seamless customer experiences. Our mission is to transform GitLab's performance testing from reactive to proactive while fostering a culture of performance awareness by providing:
 
 - Optimized and efficient feedback loops
   - Faster times between test execution and result analysis
