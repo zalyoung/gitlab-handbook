@@ -29,13 +29,12 @@ To continuously strengthen GitLab's defenses against evolving real-world threats
 
 ### Mission
 
-The Red Team's mission is to increase GitLab's "threat resilience" - the ability to prevent, detect, and respond to attacks most likely to target our organization. Leveraging security exercises that emulate real-world threats, we provide an opportunity to assess and improve these capabilities.
+We emulate real-world adversaries to increase GitLab's threat resilience (our ability to prevent, detect, and respond to cyber attacks). By conducting well-planned exercises in a safe and controlled manner, we give teams across GitLab the chance to practice and improve their defensive capabilities.
 
 We achieve this by:
 
-- Leveraging threat intelligence to emulate the tactics and techniques of adversaries most relevant to GitLab
-- Creating controlled scenarios for teams to practice detecting and responding to realistic threats
-- Partnering with teams across GitLab to translate security observations into meaningful improvements
+- Collaborating with Threat Intelligence to identify and emulate the most relevant threats
+- Partnering with teams across GitLab to translate security observations into actionable improvements
 - Collaborating openly with industry peers to share security practices
 
 While our work requires us to think and act like adversaries, we remain firmly grounded in the GitLab values. We intentionally bring transparency and collaboration to Red Teaming, conducting all operations thoughtfully and safely to achieve the best possible results for our organization.
