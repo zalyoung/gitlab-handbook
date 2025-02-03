@@ -6,9 +6,11 @@ description: "Tableau at GitLab"
 This page describes the processes used to administer the Tableau sites managed by GitLab.  Additional run books, scripts, tools and repositories related to the processes will be referenced throughout this guide.
 
 ## Tableau Administrator - Role and Objectives
+
 As Tableau Administrators, we serve as the foundation of our organization's data visualization and analytics infrastructure. Our mission is to empower teams with a secure, reliable, and user-friendly analytics environment that fosters data-driven decision-making. We bridge the gap between complex data systems and actionable business insights while upholding high standards of governance and promoting self-service analytics.
 
-Our Five North Star Goals
+### Our Five North Star Goals
+
 1. **Performance & Reliability:** Ensure a highly available Tableau environment with optimized dashboards and stable data connections for a seamless user experience.
 2. **Security & Governance:** Safeguard data integrity by maintaining security policies, ensuring appropriate access controls, and ensuring compliance with governance standards.
 3. **User Enablement & Adoption:** Drive engagement through training, support, and resources that empower users to confidently analyze and interpret data.
