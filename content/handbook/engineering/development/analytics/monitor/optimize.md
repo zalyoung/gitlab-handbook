@@ -55,7 +55,7 @@ These targets will be [reviewed monthly](/handbook/product/product-processes/) a
 
 #### SSoT for data flows across Optimize features
 
-**Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
+##### Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
 
 ```mermaid
 flowchart TB
@@ -85,7 +85,7 @@ flowchart TB
     contributions_mv --> value_stream
 ```
 
-**Data flow for [Group/Project AI Impact Analytics](https://docs.gitlab.com/ee/user/analytics/ai_impact_analytics.html)**
+##### Data flow for [Group/Project AI Impact Analytics](https://docs.gitlab.com/ee/user/analytics/ai_impact_analytics.html)**
 
 ```mermaid
 flowchart TB
