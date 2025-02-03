@@ -148,6 +148,11 @@ The Ops team creates, manages, and coordinates regular DR Practices (or "Gameday
 
 {{< team-by-manager-slug manager="kkyrala" >}}
 
+## Roadmaps
+
+The Production Engineering Ops team maintains roadmaps for our key focus areas:
+- [View All Roadmaps](roadmaps/)
+
 ## Common Links
 
 - Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176
