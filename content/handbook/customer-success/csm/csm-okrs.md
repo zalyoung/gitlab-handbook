@@ -115,6 +115,8 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 ### Idea Submission
 
+- Team members choose the appropriate subgroup and project for their issue. These are organized by region and role, with one subgroup for cross collaboration between these. If you are unsure which project to open your issue in, default to your team's region and role (e.g. a CSM located in AMER would choose subgroup `AMER CS` and project `CSM`), or ask your manager for guidance.
+
 - Team members create new issues with the "New Ideas" label.
 
 - Use the issue template below for consistent information capture. The template should capture:
