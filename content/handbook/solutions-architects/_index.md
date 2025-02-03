@@ -63,6 +63,10 @@ In addition, SA's identify and propose comprehensive solutions to complex busine
 
 Our Field SA's also engage proactively with existing GitLab customer to provide thought-leadership, engage in innovative solutions, collaborate around evangalism activities around unique customer requirements (i.e. meetups and presentations) and continously seek market feedback to improve the GitLab platform.
 
+### Center of Excellence
+
+The Solutions Architecture [Center of Excellence](/handbook/solutions-architects/center-of-excellence/) is team comprised of Subject Matter Experts, [Demo Architects](./center-of-excellence/demo-architect.md), and Business Value Managers focused on accelerating GitLab's market leadership and revenue growth by delivering specialized expertise at scale.
+
 ### Strategic Field Organization
 
 The [Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/) is a team of [Principal Solutions Architects](/job-families/sales/solutions-architect/#principal-solutions-architect-responsibilities) that support global strategic sales opportunities and customers. This team collaborates with the regional account teams to work together on large engagements that require a higher degree of strategic planning, consulting, executive-level technical leadership, and internal GitLab cross-departmental collaboration.
@@ -74,12 +78,6 @@ The [Strategic Field Organization](/handbook/solutions-architects/strategic-fiel
 In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Partner and Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence.
 
 See the [Solutions Architect role description](/job-families/sales/solutions-architect/) for additional details, and [Engaging an Ecosystem SA](/handbook/solutions-architects/processes/ecosystem/) when you need help with a partner cooperative opportunity.
-
-### Demo Architects
-
-- [Demo Architect Offerings](/handbook/solutions-architects/demo-architect/)
-
-Demo Architects are tasks with maintaining public facing demo content (Workshops/Hands on Labs/ Pre-baked demos) as well as running the systems these events run on. There main goal is to create processes & new tools to help assist & enable Solution Architects when selling to customers.
 
 ### SA Managers
 
