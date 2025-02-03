@@ -23,11 +23,11 @@ no_list: true
 
 ## General Information
 
-### Our Vision
+### Vision
 
 To continuously strengthen GitLab's defenses against evolving real-world threats while leading the offensive security industry through transparency, collaboration, and technical excellence.
 
-### Our Mission Statement
+### Mission Statement
 
 The Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
 
