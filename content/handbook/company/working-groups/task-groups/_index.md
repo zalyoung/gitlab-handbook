@@ -100,6 +100,7 @@ task forward.
 
 1. [BootstrapVue Removal](/handbook/company/working-groups/task-groups/bootstrap-vue-removal/)
 1. [GitLab UI @vue/compat Compatibility](gitlab-ui-vue-compat.md)
+1. [Vue 3 Router 4 Test Compatibility](vue3-router4-tests.md)
 
 ## Past Task Groups (alphabetic order)
 
