@@ -113,3 +113,6 @@
 # Delivery Group move in Infra platforms - remove 2025-04-20
 /handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
 /handbook/engineering/infrastructure/team/delivery/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/:splat 301
+
+# Remove Infra TPM - remove 2025-04-29
+/handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
