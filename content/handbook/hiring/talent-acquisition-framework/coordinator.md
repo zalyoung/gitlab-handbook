@@ -23,31 +23,16 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
 
 ### Team Interviews
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - When a candidate is ready for a team interview, the recruiter will request availability in ModernLoop. Once availability is requested, it will create a task for CES to schedule.
-  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours]({{< ref "interviewing#moving-candidates-through-the-process" >}}) out to leave time for interviewer prep.
+  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/interviewing/) out to leave time for interviewer prep.
   - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
 - If no response is received within 24 hours, CES will send a follow up request for availability and set the due date of the issue to 24 hours after the next email to check for availability again.
   - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
 - After availability is received, CES will schedule interviews based on the interview plans in Greenhouse/ModernLoop and will track preferences within the CES Service Desk [repo](https://gitlab.com/gl-talent-acquisition/ces-service-desk/-/tree/master).
   - CES will be using the Zoom integration with ModernLoop for interviews
-=======
-- When a candidate is ready for a team interview, the recruiter will request availability in Greenhouse using the email address of the CES team member [they partner with](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department). They will then click "Email the Team" on the right side of the candidate's Greenhouse page and send CES the "CES Scheduling Request form".
-  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/interviewing/#moving-candidates-through-the-process) out to leave time for interviewer prep.
-=======
-- When a candidate is ready for a team interview, the recruiter will request availability in Greenhouse using the email address of the CES team member [they partner with](/handbook/hiring/recruiting-alignment/). They will then click "Email the Team" on the right side of the candidate's Greenhouse page and send CES the "CES Scheduling Request form".
-  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/#interview-stages) out to leave time for interviewer prep.
->>>>>>> e965da5fce (Fix incorrect links)
-  - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
-- If no response is received within 24 hours, CES will send a follow up request for availability and set the due date of the issue to 24 hours after the next email to check for availability again.
-  - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
-- After availability is received, CES will schedule interviews based on the interview plans in Greenhouse and will track preferences within the CES Service Desk [repo](https://gitlab.com/gl-talent-acquisition/ces-service-desk/-/tree/master).
-  - CES will be using the Zoom integration with [Prelude](/handbook/hiring/prelude/) for interviews
->>>>>>> 057140599d (Update ref links to regular links)
   - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
-- If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring#interview-stages) for instructions.
+- If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring/#interview-stages) for instructions.
 - CES will send interview confirmations via ModernLoop
 - CES will not automatically schedule next interviews based off of scorecards
   - The Recruiter or Hiring Manager will need to follow the same scheduling procedures as above in ModernLoop to request scheduling assistance on the next round of interviews.
@@ -71,11 +56,7 @@ To schedule a technical interview, CES should follow the process outlined below:
 - CES will receive two separate tickets to the CES service desk:
   - CES will immediately receive the scheduling request from the recruiter, and;
   - The completed GitLab Username form. This will only come into the service desk once the candidate replies to the email, and the username will automatically be added to the Details tab of the candidate's profile under Details > Other. CES should check that the GL username is valid and ensure that the GL username is in a URL format.
-<<<<<<< HEAD
 - Once CES has received and confirmed that the candidate's GL username is valid, the CES team member can proceed with scheduling the interview in ModernLoop.
-=======
-- Once CES has received and confirmed that the candidate's GL username is valid, the CES team member can proceed with scheduling the interview in Prelude. Prelude processes can be found [here](/handbook/hiring/prelude/).
->>>>>>> 057140599d (Update ref links to regular links)
   - Note: when you send the interview invite to the interviewer, select the template 'Technical Interview with MR'.
 - CES will then send the candidate their confirmation through ModernLoop as well.
   - In the candidate confirmation template, CES will insert the appropriate text expander snippet with interview instructions into the body of the confirmation. This provides the candidate with additional information about what they can expect for their technical interview.
