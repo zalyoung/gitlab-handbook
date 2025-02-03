@@ -49,8 +49,6 @@ Further details about Red Team roles can be found in the [job family description
 
 In everything we do, we follow our [rules of engagement (RoE)](how-we-operate/rules-of-engagement).
 
-We do not perform penetration tests (vulnerability enumeration) or product vulnerability research (see [Security Research](../../product-security/security-research/)).
-
 ### Stealth Operations
 
 Our primary service. Stealth operations are typically 3-9 months in length and are focused on emulation of relevant threats to GitLab. We work closely with [Threat Intelligence](../threat-intelligence) to identify an adversary that might pose a security risk to GitLab. Using tools we've developed similar to those of the adversary, we carry out the attack on GitLab's systems. We use stealth, testing the defenses realistically and without introducing unnecessary risk. [Read more...](stealth-operations)
