@@ -63,7 +63,7 @@ These are short (a few days), more spontaneous attacks against GitLab systems wh
 
 Purple Team represents a collaborative exercise between the Red Team and Blue Team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
-- flash operations which are short (1-2 weeks) exercises to test our defenses against a tool or technique used by an emerging threat or
+- flash operations, which are 1-2 week exercises triggered by [Threat Intelligence Flash Reports](https://handbook.gitlab.com/handbook/security/security-operations/threat-intelligence/#flash-reports) to rapidly test our defenses against emerging threats, or
 - longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing)
 
 [Read more...](purple-teaming/)
