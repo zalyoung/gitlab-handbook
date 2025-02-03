@@ -173,7 +173,8 @@
 /content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
-/content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
+/content/handbook/engineering/workflow/ @gitlab-org/development-leaders
+/content/handbook/engineering/workflow/code-review.md @gitlab-org/development-leaders @gitlab-org/maintainers/rails-backend @gitlab-org/maintainers/frontend @gitlab-org/maintainers/database
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
