@@ -44,7 +44,7 @@ We **never** want anyone to feel like they did something wrong, since our operat
 
 ### 4. Report and recommendations for security improvements
 
-We then release a [report](#reporting) summarizing the operation and our recommendations for improving security posture. We create issues using the [issue template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates), apply the relevant labels, and use this track [metrics](#red-team-metrics). We then provide our tools and techniques to the Blue Team so they can create relevant detections.
+We then release a [report](#reporting) summarizing the operation and our recommendations for improving security posture. We create issues using the [issue template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates), apply the relevant labels, and use this to track [metrics](#red-team-metrics). We then provide our tools and techniques to the Blue Team so they can create relevant detections.
 
 We often work with [Signals Engineering](../../signals-engineering/) and [Security Incident Response Team (SIRT)](../../sirt/) to review our findings, attack steps and review detections and alerts.
 
@@ -56,7 +56,7 @@ Security risks affect everyone, and it is essential to make our reports approach
 
 If we feel it's needed, we also provide a short (five minutes or less) video summary.
 
-For stealth or higher-visibility operations, it's beneficial to share the story with the entire company. In that case, we post the following the Slack channel `#whats-happening-at-gitlab` and cross-post it in `#security`:
+For stealth or higher-visibility operations, it's beneficial to share the story with the entire company. In that case, we post the following to the Slack channel `#whats-happening-at-gitlab` and cross-post it in `#security`:
 
 - A very short summary of the operation, including the video overview if there is one
 - A link to the final report
@@ -66,13 +66,9 @@ For stealth or higher-visibility operations, it's beneficial to share the story 
 
 By doing this, we help foster a culture of security awareness throughout the organization and ensure that everyone can benefit from our work.
 
-### Post-operation technique handover
-
-While this may result in product fixes or infrastructure changes, it's possible that vulnerable configurations may reappear in the environment. At this point, the [Vulnerability Management](/handbook/security/product-security/vulnerability-management/) group takes over any ongoing scanning required to monitor for this scenario. The Red Team shares any tools used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
-
 ## Red Team Maturity Model
 
-We use a custom maturity model to measure our progress and help guide our decisions. This is loosely based on the [Capabilities Maturity Model (CMM)](https://en.wikipedia.org/wiki/Capability_Maturity_Model). Our model contains five stages of maturity, each with very specific behaviors we strive to demonstrate and states we hope to achieve.
+We use a custom maturity model to measure our progress and help guide our decisions. This is loosely based on the [Capabilities Maturity Model (CMM)](https://en.wikipedia.org/wiki/Capability_Maturity_Model). [Our model](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-maturity-model/-/boards/5905165) (available internally only) contains five stages of maturity, each with very specific behaviors we strive to demonstrate and states we hope to achieve.
 
 ## Red Team Metrics
 
