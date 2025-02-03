@@ -35,7 +35,11 @@ While fine-tuning the entire model is one of obvious solutions for model's custo
 
 This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
 
-### Proposal: PEFT and light-weight adapters
+## Proposal
+
+In this section we propose a solution that addresses the challenges presented in the section above.
+
+### PEFT and light-weight adapters
 
 One of the possible solutions to achieve a light-weight and quick finetuning are PEFT techniques, such as adapters.
 
@@ -70,6 +74,34 @@ Any other forms of customizing the model:
 - RLHF
 
 ## Design and Implementation details
+
+### Architecture
+
+TODO diagram
+
+### Dataset Preparation
+Adapters will be trained using customer's data, for example their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
+
+The service then would process the provided by the customer repository, constructing a training and validation dataset out of it.
+
+### Training an Adapter
+To train an adapter, customers would need to deploy a local instance of finetuning service on their own infrastructure. The finetuning service would be provided using Docker.
+
+The container will be published to GitLab Container Registry and DockerHub on every GitLab Release.
+
+### Fine-tuned Model Deployment
+Once the task-specific adapters are trained, customers would need to host their base model and trained LoRAs using vLLM.
+
+Once hosted, customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
+
+TODO: add examples of requests
+
+### Fine-tuned Model Evaluation
+Once the adapter is trained, it should be evaluated against a base model in terms of the overall performance and responses. 
+
+To evaluate the model, customer would be required to deploy the model and its adapters and run evaluation service. The evaluation service would use validation dataset to test the base and finetuned models and present the results to the customer.
+
+### UI Design
 
 TODO
 
