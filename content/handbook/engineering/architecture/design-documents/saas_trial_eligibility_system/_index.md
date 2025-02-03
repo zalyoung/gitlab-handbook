@@ -123,11 +123,12 @@ Create a new API endpoint in CDOT to check namespace trial history. https://gitl
 ### 4. Cache Invalidation
 
 - Implement a cache invalidation mechanism to ensure data consistency.
-- Trigger cache invalidation when relevant namespace data changes (e.g., plan change, just applied for a trial, etc).
+- Invalidate the cache when relevant namespace data changes, such as after a plan update or after applying for a new trial.
 
 ## Performance Considerations
 
 - The caching mechanism should significantly reduce the load on the CustomersDot API.
+- With caching, the GUI response time should not noticeably increase compared to the current solution that queries data from the GitLab database.
 - Optimize cache TTL and invalidation strategies to balance data freshness and system performance.
 
 ## Scalability Considerations
