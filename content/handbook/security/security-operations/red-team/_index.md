@@ -33,7 +33,7 @@ We emulate real-world adversaries to increase GitLab's threat resilience (our ab
 
 We achieve this by:
 
-- Collaborating with Threat Intelligence to identify and emulate the most relevant threats
+- Working with Threat Intelligence to identify and emulate the most relevant threats
 - Partnering with teams across GitLab to translate security observations into actionable improvements
 - Collaborating openly with industry peers to share security practices
 
