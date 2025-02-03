@@ -563,7 +563,8 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 In order to effectively track specific metrics and have a single pane of glass for incidents and their reviews, specific labels are used. The below [workflow diagram](#workflow-diagram) describes the path an incident takes from `open` to `closed`. All `S1` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#review-criteria).
 
-GitLab uses the [Incident Management](/handbook/engineering/infrastructure/incident-management/) feature of the GitLab application. Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and closed when they are resolved. A resolved incident means the degradation has ended and will not likely re-occur.
+Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and closed when the `~Incident::Resolved` label is applied.
+A resolved incident means the degradation has ended and will not likely re-occur.
 
 If there is additional follow-up work that requires more time after an incident is resolved and closed (like a detailed root cause analysis or a corrective action) a new issue may need to be created and linked to the incident issue.
 It is important to add as much information as possible as soon as an incident is resolved while the information is fresh, this includes a high level summary and a timeline where applicable.
@@ -597,7 +598,7 @@ In order to help with attribution, we also label each incident with a scoped lab
 | ----- | -------------- |
 | `~Incident::Active` | Indicates that the incident labeled is active and ongoing. Initial severity is assigned when it is opened. |
 | `~Incident::Mitigated` | Indicates that the incident has been mitigated. A mitigated issue means that the impact is significantly reduced and immediate post-incident activity is ongoing (monitoring, messaging, etc.). The mitigated state should not be used for silenced alerts, or alerts that may reoccur. In both cases you should mark the incident as resolved and close it.|
-| `~Incident::Resolved` | Indicates that SRE engagement with the incident has ended and the condition that triggered the alert has been resolved. Incident severity is re-assessed and determined if the initial severity is still correct and if it is not, it is changed to the correct severity. Once an incident is resolved, the issue will be closed. |
+| `~Incident::Resolved` | Indicates that SRE engagement with the incident has ended and the condition that triggered the alert has been resolved. Incident severity is re-assessed and determined if the initial severity is still correct and if it is not, it is changed to the correct severity. Once an incident has the `~Incident::Resolved` label, it will be automatically closed when all required info has been added to the description. |
 
 #### Root Cause Labeling
 
@@ -684,8 +685,11 @@ The following labels are added and removed automatically by [triage-ops](https:/
 
 | Needs Label | Description |
 | ----------- | ----------- |
-| `~{RootCause,Service,CorrectiveActions,IncidentReview}::Needed` | Will be added automatically if the corresponding label has not been set. If this label persists the DRI of the incident will be mentioned on a note to correctly label the incident |
-| `~{RootCause,Service,CorrectiveActions,IncidentReview}::NotNeeded` | In rare cases, the corresponding label won't be needed, this label can be used to disable the periodic notes to remind the DRI to update the label |
+| `~{RootCause,Service}::Needed` | Will be added automatically if the corresponding label has not been set. If this label persists the DRI of the incident will be mentioned on a note to correctly label the incident |
+| `~CorrectiveActions::Needed` | Will be added automatically if there are no issues with a `~corrective action` or `~infradev` label related on the incident. |
+| `~IncidentReview::Needed` | Will be added automatically if there is not a related incident review issue, create one by using the link in the issue description. |
+| `~ExecSummary::Needed` | For issues where an exec summary is required, this label will be added until the exec summary is filled out in the description.` |
+| `~{RootCause,Service,CorrectiveActions,IncidentReview,ExecSummary}::NotNeeded` | In rare cases, the corresponding label won't be needed, this label can be used to disable the periodic notes to remind the DRI to update the label |
 
 #### Required Labeling
 
@@ -743,11 +747,9 @@ There are [related issue links](https://gitlab.com/gitlab-com/gl-infra/productio
     B --> D
     C --> D(Incident::Resolved)
     D --> |severity is re-assessed| D
-
-    D -.-> |for review-requested incidents| E(Incident::Review-Completed)
 ```
 
-- As soon as an incident transitions to `Incident::Resolved` the incident issue will be closed
+- As soon as an incident transitions to `Incident::Resolved`, automation will close the incident when all necessary information is added to the incident description.
 - All `Severity::1` incidents will automatically be labeled with `review-requested`
 
 ### Alert Silences

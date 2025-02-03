@@ -84,7 +84,7 @@ Use the following searches to track completed style-related issues:
 
 - [GitLab project style issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
 - [GitLab project style MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
-- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
+- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
 
 #### Testing
 
@@ -95,7 +95,7 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 - Link validity: Nanoc
 - File permissions and naming: `lint-doc.sh`
 
-Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a technical writer.
+Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
 
 #### Translation and internationalization
 
@@ -136,8 +136,8 @@ Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 {{% alert title="Note" color="primary" %}}
 **If you were directed here from a documentation page's metadata:**
 
-- The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
-- If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the Technical Writing repository](https://gitlab.com/gitlab-org/technical-writing) for discussion. Additional discussion is in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
+- The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate Technical Writer.
+- If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the TW team tasks project](https://gitlab.com/gitlab-org/technical-writing/team-tasks/) for discussion. Additional discussion is in [issue 547](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/547).
 - If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
 {{% /alert %}}
 
@@ -157,8 +157,7 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
 | Verify           | {{< member-by-name "Marcel Amirault" >}} |
-| AI-powered       | {{< member-by-name "Suzanne Selhorn" >}} |
-| ModelOps         | {{< member-by-name "Suzanne Selhorn" >}} |
+| AI-powered       | {{< member-by-name "Jon Glassman" >}} |
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
 | Application Security Testing | {{< member-by-name "Russell Dickenson" >}} |
@@ -167,7 +166,7 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 
 For collaboration in other projects and subjects:
 
-| Subject                                                                              | Assigned technical writer |
+| Subject                                                                              | Assigned Technical Writer |
 |:--------------------------------------------------------------------------------     |:--------------------------|
 | The documentation site                                                               | {{< member-by-name "Susan Tacker" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
@@ -286,7 +285,7 @@ Options for groups to get help when an assigned Technical Writer is on PTO are:
   Writer can be pinged on issues or merge requests and begin participating.
 
 If taking extended PTO (one week or more), Technical Writers and Managers should use the Technical Writer
-[coverage issue](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
+[coverage issue](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
 This issue can describe exactly who is providing coverage, for what, and by what means.
 
 ### Taking PTO
@@ -322,7 +321,7 @@ that need to be regularly completed:
 
 - **Release Post Structural Check:** The Technical Writing Lead [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead) for the release post published at the end of each milestone. See the [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/) Handbook page for each milestone's assigned writer.
 - **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
-- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
+- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
 
 <!-- vale handbook.Spelling = NO -->
 
@@ -373,7 +372,7 @@ The Technical Writers use the following levels of edit:
 
 #### How the writers apply the levels of edit
 
-To balance quality, speed, and resource constraints, the technical writers apply different levels of edit to different documentation.
+To balance quality, speed, and resource constraints, the Technical Writers apply different levels of edit to different documentation.
 
 These guidelines are meant to provide general guidance. They aren't set in stone, and they can be overridden on a case-by-case basis.
 
@@ -387,7 +386,7 @@ These items receive a **light** edit:
 
 - Documentation outside of the five main GitLab repositories (GitLab, Charts, Operator, Omnibus, and Runner).
 - Deprecations and removals.
-- Merge requests authored by other technical writers, unless the MR is part of an OKR, or the author requests a more in-depth edit.
+- Merge requests authored by other Technical Writers, unless the MR is part of an OKR, or the author requests a more in-depth edit.
 
 These items receive a **medium** edit:
 
@@ -410,26 +409,27 @@ can efficiently perform the necessary verification.
 
 ### Review workflow
 
-To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the technical writers use this workflow:
+To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the Technical Writers use this workflow:
 
-- When a technical writer opens a merge request, another writer must review and merge.
-  Peer reviews are important to maintain quality and a common voice.
+- When a Technical Writer opens a merge request, another Technical Writer must review and merge. 
+  - The Technical Writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
+    - This requirement aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review/) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
-  - If the MR contains only documentation changes, the writer:
+  - If the MR contains only documentation changes, the Technical Writer:
     - Reviews the content and offers suggestions.
     - Does not directly make large changes (by applying suggestions or pushing commits) to the author's branch unless they have explicit approval in the MR to do so.
       Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
     - Can use suggestions or commits to make changes themselves only if the writer has agreement from the author to make changes directly to the author's branch.
-      In these cases, the author must always review the technical writer's changes before the writer merges, to help ensure accuracy.
+      In these cases, the author must always review the Technical Writer's changes before the writer merges, to help ensure accuracy.
     - Can apply small suggestions using the **Apply suggestion** feature if an MR is nearly ready to merge.
       Writers can fix things like missing punctuation, typos, and pipeline failures without additional review.
     - Approves and merges the documentation MR when it is ready.
-  - If the MR is primarily a code change that also contains a documentation update, the writer:
+  - If the MR is primarily a code change that also contains a documentation update, the Technical Writer:
     - Offers suggestions for any documentation, UI text, and error message changes, but should not apply any suggestion themselves.
       Making any changes to a code MR can cause pipelines to fail as code and specs often need to be updated by the engineer to match technical writing suggestions.
     - Approves the MR if the documentation changes are ready to merge.
     - Does not merge code MRs. The MR must be merged by an engineer who also reviews the code change.
-  - If the MR is primarily a documentation change, but also has a small code change to update a link to match the change, the writer:
+  - If the MR is primarily a documentation change, but also has a small code change to update a link to match the change, the Technical Writer:
     - Reviews the content using the same workflow as a documentation-only MR.
     - Can merge *only* if the MR has all [required approvals](#merge-rights).
 
@@ -489,7 +489,7 @@ In addition, Technical Writers must:
 While the Technical Writer is onboarding, they will be assigned to
 shadow groups and then start contributing as trainees. Veteran Technical Writers will coach them through the process.
 
-For more information about onboarding phases and tasks, see the [Technical Writer onboarding template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw_onboarding.md).
+For more information about onboarding phases and tasks, see the [Technical Writer onboarding template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw_onboarding.md).
 
 ## Standups
 

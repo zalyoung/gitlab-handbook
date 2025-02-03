@@ -74,7 +74,7 @@ description: "Public Company Headcount Metrics and Processes"
 
 ### Appendix: Other Public Company Headcount Definitions
 
-1. [**Adaptive**]({{< ref "../financial-planning-and-analysis/adaptive-insights" >}}): FP&A's SSOT for all forecasted headcount metrics and headcount-related expenses. Adaptive is maintained by the FP&A team and roles are input into Adaptive by the FP&A team.
+1. [**Adaptive**](../financial-planning-and-analysis/adaptive-insights/): FP&A's SSOT for all forecasted headcount metrics and headcount-related expenses. Adaptive is maintained by the FP&A team and roles are input into Adaptive by the FP&A team.
 
 1. **Start Date**: Day one of a team member's employment at GitLab. Start Dates are estimated by FP&A based on the priorities of the business, target Start Dates information in Greenhouse, and collaboration with TA. Once a team member has started their employment, Workday is the SSOT for the official Start Date.
 

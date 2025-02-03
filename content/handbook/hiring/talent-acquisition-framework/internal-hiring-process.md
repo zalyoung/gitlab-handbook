@@ -27,7 +27,7 @@ description: "This page discusses the Internal Hiring Process"
 
 ## Recruiter Responsibilities
 
-- Recruiter will post a job internally following the [req creation process]({{< ref "req-creation" >}}), and the [transfer, promotion guidelines]({{< ref "promotions-transfers#greenhouse" >}}).
+- Recruiter will post a job internally following the [req creation process](/handbook/hiring/talent-acquisition-framework/req-creation/), and the [transfer, promotion guidelines](/handbook/people-group/promotions-transfers/).
 - Recruiters will set up notifications for internal applications, to ensure they are notified when internal candidates apply to the role
 - Once the Recruiter receives an internal team members application, they will proceed with the following:
   - Review the application as you would with an external candidate and determine if they are qualified for the role. If they are not qualified, please ensure you communicate the decision via email (or slack) and provide clear feedback as to why they are not qualified, and add the hiring manager so they are looped in and can add additional feedback if appropriate.
@@ -75,7 +75,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
   - Block off any times on their calendar when they would prefer not to interview.
   - Have working hours visible on their internal Google Calendar
 - Please follow the scheduling process for executive scheduling
-- Recruiters will notify CES via Greenhouse once a [Job Change Letter (JCL)]({{< ref "promotions-transfers#job-change-letter" >}}) is ready to be sent.
+- Recruiters will notify CES via Greenhouse once a [Job Change Letter (JCL)](/handbook/people-group/promotions-transfers/#job-change-letter) is ready to be sent.
 
 ## People Connect Responsibilities
 
@@ -106,14 +106,14 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 ## Hiring Manager Responsibilities
 
-- Hiring Managers will be notified by Recruiter when an internal team member has applied and has completed the necessary eligibility checks as mentioned above, and they will follow the process outlined in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates.
+- Hiring Managers will be notified by Recruiter when an internal team member has applied and has completed the necessary eligibility checks as mentioned above, and they will follow the process outlined in the [Talent Acquisition Process Framework](/handbook/hiring/talent-acquisition-framework/) for all candidates.
 - If a team member moves to offer, the Recruiter will connect the Hiring Manager with the team member's current manager. Please follow the steps outlined by the Recruiter in their message via Slack (details above).
 - Hiring Manager will be provided the candidates compensation expectations from the Recruiter. It is up to the Hiring Manager, in partnership with the Recruiter, to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
 - If internal candidates need to be declined post interviews, it is required that the hiring manager connect with the team member via Zoom to inform them of the decision and provide constructive feedback (an outline providing feedback can be found below).
 
 ### Delivering feedback to declined candidates
 
-At any stage a team member needs to be declined, it is up to the Recruiter and Hiring Manager to connect to determine the best approach to ensure the appropriate [feedback]({{< ref "guidance-on-feedback" >}}) is given by the hiring manager. It is important to deliver transparent and honest feedback to the candidate while remaining constructive and focusing on growth.
+At any stage a team member needs to be declined, it is up to the Recruiter and Hiring Manager to connect to determine the best approach to ensure the appropriate [feedback](/handbook/people-group/guidance-on-feedback/) is given by the hiring manager. It is important to deliver transparent and honest feedback to the candidate while remaining constructive and focusing on growth.
 
 If the candidate has made it to the hiring manager screen or beyond, hiring managers can consider this approach:
 

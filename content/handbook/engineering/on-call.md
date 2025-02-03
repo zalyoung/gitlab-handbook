@@ -11,7 +11,7 @@ If you're a GitLab team member looking for who is currently the Engineer On Call
 {{% /alert %}}
 
 {{% alert color="warning" %}}
-If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call]({{< ref "engaging-security-on-call" >}}) section.
+If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) section.
 {{% /alert %}}
 
 ## Expectations for On-Call
@@ -20,7 +20,7 @@ If you're a GitLab team member looking for help with a security problem, please 
 - We take on-call seriously. There are escalation policies in place so that if a first responder does not respond in time, another team member is alerted. Such policies are not expected to be triggered under normal operations, and are intended to cover extreme and unforeseeable circumstances.
 - Because GitLab is an asynchronous workflow company, @mentions of On-Call individuals in Slack will be treated like normal messages, and no SLA for response will be associated with them.
 - Provide support to the release managers in the release process.
-- As noted in the [main handbook]({{< ref "paid-time-off" >}}), after being on-call, make sure that you take time off. Being available for issues and outages can be taxing, even if you had no pages.  Resting after your on-call shift is critical for preventing burnout. Be sure to inform your team of the time you plan to take for time off.
+- As noted in the [main handbook](/handbook/people-group/paid-time-off/), after being on-call, make sure that you take time off. Being available for issues and outages can be taxing, even if you had no pages.  Resting after your on-call shift is critical for preventing burnout. Be sure to inform your team of the time you plan to take for time off.
   - Team members in Australia should review the [Australia time in lieu policy]({{< ref "pty-benefits-australia" >}}).
 - During on-call duties, it is the team member's responsibility to act in compliance with local rules and regulations. If ever in doubt, please reach out to your manager and/or [aligned People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division).
 
@@ -77,11 +77,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 ### Gitaly Engineer On-Call
 
-**This is currently not active; tentative start date is 2025-01-01.**
-
-- Gitaly team provides an expert oncall rotation via PagerDuty, currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4).
-- SLO is 15 minutes, during working hours only (which still tends to cover 24h of workdays, given team member distribution).
-- For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#gitaly-oncall-rotation)
+For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation)
 
 ## Security Team On-Call Rotation
 
@@ -92,7 +88,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 - You can view the [Security Operations schedule](https://gitlab.pagerduty.com/schedules#PYZC2CG) on PagerDuty.
 - When on-call, prioritize work that will make the on-call better (that includes building projects, systems, adding metrics, removing noisy alerts). Much like the Production team, we strive to have nothing to do when being on-call, and to have meaningful alerts and pages. The only way of achieving this is by investing time in trying to automate ourselves out of a job.
 - The main expectation when on-call is triaging the urgency of a page - if the security of GitLab is at risk, do your best to understand the issue and coordinate an adequate response. If you don't know what to do, engage the Security manager on-call to help you out.
-- More information is available in the [Security Operations On-Call Guide]({{< ref "secops-oncall" >}}) and the [Security Incident Response Guide]({{< ref "sec-incident-response" >}}).
+- More information is available in the [Security Operations On-Call Guide](/handbook/security/security-operations/secops-oncall/) and the [Security Incident Response Guide]({{< ref "sec-incident-response" >}}).
 
 ### Security Managers
 

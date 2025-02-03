@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through common configurations for co
 
 In this lab we will analyze more complex merge processes, looking specifically at merge trains and merge conflicts. First, we will start with merge trains.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 

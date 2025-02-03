@@ -2,6 +2,8 @@
 title: "Forum workflow"
 ---
 
+The GitLab community forum (forum.gitlab.com) is a platform for users to register, ask questions, and collaborate, embodying GitLab's values of transparency and community contribution. It features a trust-based system, moderation workflows, and various tools for organizing discussions, such as categories and tags. The forum encourages engagement from both the wider community and GitLab team members, aiming to build a knowledge-sharing environment while maintaining a code of conduct and clear administrative processes.
+
 ## Users
 
 ### Registration and Login
@@ -280,11 +282,15 @@ Steps for bannering on Discourse:
 
 ## Administration
 
+- Developer Relations DRIs: @sugaroverflow @dnsmichi
+- [Tech stack owners](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml): @sugaroverflow @dnsmichi
+- [Forum staff members](https://forum.gitlab.com/about)
+
 ### Discourse Platform
 
 The Discourse instance `forum.gitlab.com` is operated by the Discourse team on [their SaaS platform](https://www.discourse.org/pricing). The Discourse platform was started as self-hosted instance in 2015, and later [migrated to Discourse SaaS in February 2020](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/139). The domain is managed by the GitLab infrastructure team.
 
-Updates and important security fixes are applied by the Discourse team. Technical owners can reach out to their support team. For business organization and subscription updates, please open [a confidential issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues).
+Updates and important security fixes are applied by the [Discourse hosting team](https://www.discourse.org/pricing). Technical owners can reach out to their support team. For business organization and subscription updates, please open [a confidential issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues).
 
 In October 2021, the Discourse forum exceeded 1 million monthly page views. More metric reports can be created using the [Admin dashboard](https://forum.gitlab.com/admin).
 
@@ -307,6 +313,10 @@ Please open a [new issue in the Developer Advocate Meta Project](https://gitlab.
 GitLab team members who signup using oauth, will automatically be added to the `gitlab-team` group, granting [trust level 3](/handbook/marketing/developer-relations/workflows-tools/forum/#user-trust-levels). This group does not trigger any @-mention notifications in forum posts.
 
 Administrators can promote team members to trust level 4 manually, for example when needed for [community response workflows](/handbook/marketing/developer-relations/workflows-tools/forum/#forum-community-response-workflow).
+
+##### Core team members trust level
+
+Core team members can be added to the [core-team](https://forum.gitlab.com/g/core-team) group through the [Core team onboarding process](/handbook/marketing/developer-relations/core-team/#becoming-a-core-team-member). This action grants [trust level 3](/handbook/marketing/developer-relations/workflows-tools/forum/#user-trust-levels). This group does not trigger any @-mention notifications in forum posts.
 
 #### Categories
 
@@ -396,6 +406,19 @@ Workflow for applying customizations:
 1. Create a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to propose changes, including design mockups, screenshots, etc.
 1. Apply the changes to the custom theme, colors, etc.
 1. Persist the changes for the custom theme in the [discourse-assets](https://gitlab.com/gitlab-da/projects/discourse-assets) project.
+1. Changes to the loaded script URLs may require updates to the [Content-Security-Policy settings](https://forum.gitlab.com/admin/site_settings/category/all_results?filter=csp). Please ask a forum admin.
+
+##### Top navigation
+
+The top navigation is managed in a [custom theme](https://forum.gitlab.com/admin/customize/themes/2) with updated `After header`, `Header`, `Head` and `CSS` sections.
+
+##### OneTrust
+
+The OneTrust cookie banner is added as a [theme component with custom CSS/HTML](https://forum.gitlab.com/admin/customize/themes/7) in the `Head` section.
+
+##### Google Analytics
+
+Google Analytics is configured using the `GTM container ID` setting in the [`Basic Setup` section](https://forum.gitlab.com/admin/site_settings/category/basic?filter=csp). Walkthrough for GA4 in [this issue (internal)](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/1439#note_1697104119)
 
 #### API
 
@@ -472,10 +495,16 @@ If the team member wants to keep their account as a wider community member, foll
 1. Remove from all groups
 1. Trust Level: `2: member`
 
-## GitLab Forum Strategy
+#### Offboarding core team members
 
-Engagement drives engagement, so the more the GitLab team engages with our wider community, the more they are likely to engage with us, and with others. By setting the example of providing thorough answers, we can build our forum up as a place of knowledge share and collaboration. [See the Forum's 2020 strategy slide deck for more](https://docs.google.com/presentation/d/1PiNlxFImSIO8kz9TfWMZ6GLGd9fYefILpC6LS3w3lJE/edit#slide=id.p).
+1. Remove the user from the [core team](https://forum.gitlab.com/g/core-team) group.
 
-### Connect with us via Slack
+## Projects
+
+### Fighting spam on Discourse
+
+See the [internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/workflow-tools/forum/#fighting-spam-on-discourse) for analysis, strategies and actions.
+
+## Connect with us in Slack
 
 Join [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9).

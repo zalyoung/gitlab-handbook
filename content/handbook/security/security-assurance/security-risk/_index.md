@@ -64,7 +64,7 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 |[Ongoing SecRisk-Related Observations Management]({{< ref "observation-management-procedure#introduction-to-observation-management-at-gitlab" >}})     |Nirmal Devarajan|
 |[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
 |[Ongoing TPRM Assessments]({{< ref "third-party-risk-management" >}})     |Ryan Lawson|
-|[Periodic SOX CUEC Facilitation]({{< ref "sox_cuec_mapping_procedure" >}})     |Eric Geving|
+|[Periodic SOX CUEC Facilitation](/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/)     |Eric Geving|
 |[Periodic TPRM Assessments]({{< ref "third-party-risk-management" >}})     |Eric Geving|
 |TPRM Data Quality and Emerging Requirements Management | Eric Geving |
 |[StORM Metrics and Reporting](storm-program#step-5-annual-storm-reports)     |Kyle Smith|

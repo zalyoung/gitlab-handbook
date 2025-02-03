@@ -155,13 +155,13 @@ Please note that the source of truth for role responsibilites is the job family 
 | -------------- | ----------------- |
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding]({{< ref "offboarding_standards" >}}) | Immediate action for involuntary & 24 hours for voluntary |
-| [Career Mobility]({{< ref "promotions-transfers#career-mobility-issue" >}}) | Within 24 hours |
+| [Career Mobility](/handbook/people-group/promotions-transfers/#career-mobility-issue) | Within 24 hours |
 | [Letters of Employment]({{< ref "frequent-requests#letter-of-employment" >}}) | Within 24 hours |
 | [Employment Verification]({{< ref "frequent-requests#employment-history-verification-current-team-members" >}}) | Within 24 hours |
 | [Anniversary Emails]({{< ref "celebrations#anniversary-gifts" >}}) | First day of the following month |
 | HelpLab Queries | Within 24 hours |
-| [Probation Period Notifications]({{< ref "contracts-probation-periods#probation-period" >}}) | Daily (when applicable) |
-| [Contract Renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}) | 30 days or more prior to team member's renewal date |
+| [Probation Period Notifications](/handbook/people-group/contracts-probation-periods/#probation-period) | Daily (when applicable) |
+| [Contract Renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals) | 30 days or more prior to team member's renewal date |
 | [Exit Interviews]({{< ref "offboarding#exit-survey" >}}) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
 | [US Unemployment Claim Management]({{< ref "offboarding#us-unemployment-claim-management" >}}) | As Needed and Audited Quarterly |
@@ -172,7 +172,7 @@ Other listed processes for the People Connect Team can be found [here](https://i
 
 | Responsibility | Response Timeline |
 | -------------- | ----------------- |
-| [Relocations]({{< ref "relocation" >}}) | As requested, usually completed 30 days or more prior to team member's relocation date |
+| [Relocations](/handbook/people-group/relocation/) | As requested, usually completed 30 days or more prior to team member's relocation date |
 | [Country Conversions]({{< ref "employment-solutions#country-conversions" >}}) | As soon as approval is given by CFO. Conversion turnaround time can vary based on a variety of factors. |
 
 ## Frequently Requested
@@ -249,17 +249,17 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 ### Total Rewards
 
-- [Benefits]({{< ref "benefits" >}})
-- [Global Compensation]({{< ref "compensation" >}})
+- [Benefits](/handbook/total-rewards/benefits/)
+- [Global Compensation](/handbook/total-rewards/compensation/)
 
 ### People Operations
 
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
-- [Promotions and Transfers]({{< ref "promotions-transfers" >}})
+- [Promotions and Transfers](/handbook/people-group/promotions-transfers/)
 - [Employment Solutions (International Expansion)]({{< ref "employment-solutions" >}})
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
-- [Probation Periods & PIAA]({{< ref "contracts-probation-periods" >}})
-- [Onboarding]({{< ref "general-onboarding" >}})
+- [Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/)
+- [Onboarding](/handbook/people-group/general-onboarding/)
 - [Offboarding]({{< ref "offboarding" >}})
 - [Celebrations]({{< ref "celebrations" >}})
 - [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
@@ -267,14 +267,14 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 ### Talent Acquisition
 
-- [Incentives]({{< ref "incentives" >}})
+- [Incentives](/handbook/total-rewards/incentives/)
 - [Hiring process](/handbook/hiring/)
-- [Leadership]({{< ref "leadership" >}})
+- [Leadership](/handbook/leadership/)
 
 ### Learning and Development
 
 - [Learning & Development]({{< ref "learning-and-development" >}})
-- [Guidance on Feedback]({{< ref "guidance-on-feedback" >}})
+- [Guidance on Feedback](/handbook/people-group/guidance-on-feedback/)
 
 ### Diversity, Inclusion and Belonging
 
@@ -283,10 +283,9 @@ We encourage everyone to have an ongoing conversation about career growth with t
 ### Other People Group Links
 
 - [People Policy Directory]({{< ref "people-policies" >}})
-- [Underperformance]({{< ref "underperformance" >}})
+- [Underperformance](/handbook/leadership/underperformance/)
 - [Visas]({{< ref "visas" >}})
-- [Leadership handbook]({{< ref "leadership" >}})
+- [Leadership handbook](/handbook/leadership/)
 - [People Group READMEs](/handbook/people-group/readmes)
-- [Women in Sales Mentorship Pilot Program]({{< ref "women-in-sales-mentorship-pilot-program" >}})
-- [People Key Performance Indicators]({{< ref "people-success-performance-indicators#key-performance-indicators" >}})
-- [People Performance Indicators]({{< ref "people-success-performance-indicators#regular-performance-indicators" >}})
+- [People Key Performance Indicators](/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
+- [People Performance Indicators](/handbook/people-group/people-success-performance-indicators/#regular-performance-indicators)

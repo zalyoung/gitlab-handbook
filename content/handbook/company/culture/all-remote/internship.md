@@ -18,13 +18,13 @@ There are many reasons why remote internships are a value-add to any organizatio
 
 ### Competitive hiring advantage
 
-Remote is the [future of work]({{< ref "remote-vision" >}}). The ability to learn and work from wherever one is most fulfilled will soon become the norm. Companies which are built to support remote work (e.g. firms which create digital products), yet refuse to offer such flexibility, will be in low demand by top talent. This includes the most promising interns.
+Remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/). The ability to learn and work from wherever one is most fulfilled will soon become the norm. Companies which are built to support remote work (e.g. firms which create digital products), yet refuse to offer such flexibility, will be in low demand by top talent. This includes the most promising interns.
 
-Offering remote internships provides a competitive advantage to attracting ambitious and capable interns, but it will soon [diminish]({{< ref "remote-vision#diminishing-competitive-advantage" >}}) into a practical requirement.
+Offering remote internships provides a competitive advantage to attracting ambitious and capable interns, but it will soon [diminish](/handbook/company/culture/all-remote/remote-vision/#diminishing-competitive-advantage) into a practical requirement.
 
 ### Diversity
 
-By hiring remote interns, organizations are able to broaden their usual scope and recruit talent from underserved areas of the globe. Cultural and geographic [diversity]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}) is important to long-term success and vibrancy in a company.
+By hiring remote interns, organizations are able to broaden their usual scope and recruit talent from underserved areas of the globe. Cultural and geographic [diversity](/handbook/company/culture/inclusion/#fully-distributed-and-completely-connected) is important to long-term success and vibrancy in a company.
 
 ### Fresh perspective
 
@@ -50,7 +50,7 @@ This is of particular importance given that interns are usually inexperienced in
 
 ## What are the drawbacks of remote internships?
 
-Like any remote-working situation, remote internships have multiple [advantages]({{< ref "remote-benefits" >}}), but remote work doesn't suit everyone. Depending on their lifestyle, work preferences, and drive, [a remote internship can have disadvantages](drawbacks/#remote-work-challenges-and-solutions-for-employees) as well. We have outlined potential challenges and solutions for remote internships in our [all remote guide here](drawbacks/#remote-work-challenges-and-solutions-for-employees).
+Like any remote-working situation, remote internships have multiple [advantages](/handbook/company/culture/all-remote/remote-benefits/), but remote work doesn't suit everyone. Depending on their lifestyle, work preferences, and drive, [a remote internship can have disadvantages](drawbacks/#remote-work-challenges-and-solutions-for-employees) as well. We have outlined potential challenges and solutions for remote internships in our [all remote guide here](drawbacks/#remote-work-challenges-and-solutions-for-employees).
 
 ## Employer considerations
 
@@ -59,7 +59,7 @@ Like any remote-working situation, remote internships have multiple [advantages]
 
 It is unlikely that an intern will be equipped to be a [manager of one](/handbook/values/#managers-of-one), and companies should expect interns to require a great deal of hand-holding.
 
-Learn more about the importance of clear [communication]({{< ref "communication" >}}), intentional [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and utilizing [asynchronous workflows](asynchronous/) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/insights-and-advice/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
+Learn more about the importance of clear [communication](/handbook/communication/), intentional [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and utilizing [asynchronous workflows](asynchronous/) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/insights-and-advice/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
 
 ## What are the best practices for managing a remote internship?
 
@@ -162,7 +162,7 @@ If possible, avoid time critical work. Great intern projects tend to be items wh
 
 ### Make your strategy and onboarding public
 
-At GitLab, we make our [strategy](/handbook/company/strategy) and [OKRs](/handbook/company/okrs) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})" This shows respect for job seekers, and it ensures that those who apply resonate with our [values](/handbook/values/).
+At GitLab, we make our [strategy](/handbook/company/strategy) and [OKRs](/handbook/company/okrs) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?](/handbook/hiring/candidate-faq/)" This shows respect for job seekers, and it ensures that those who apply resonate with our [values](/handbook/values/).
 
 Hiring remote interns is hard. An organization shouldn't make it harder by concealing their vision and values until *after* an intern is hired. Given the remarkably short duration of the internship experience, it's vital to act [transparently](/handbook/values/#transparency) in order to create as much pre-start alignment as possible.
 
@@ -190,4 +190,4 @@ Don't forget to gather information they are willing to share such as their email
 
 GitLab is currently piloting an [engineering internship program](/handbook/engineering/internships). We expect to learn a great deal from the experience, while documenting challenges and solutions. If you or your organization has experience offering remote internships which would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

@@ -34,7 +34,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 
 ### Benefits Available to Contractors
 
-Contractors of GitLab IT BV are eligible for the [general benefits]({{< ref "benefits" >}}), but are not eligible for entity specific benefits. A contractor may bear the costs of their own health insurance, social security taxes, payroll administration, or tax details.
+Contractors of GitLab IT BV are eligible for the [general benefits](/handbook/total-rewards/benefits/), but are not eligible for entity specific benefits. A contractor may bear the costs of their own health insurance, social security taxes, payroll administration, or tax details.
 
 Our contractor agreements and employment contracts are all on the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
@@ -62,7 +62,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
       - In Linux, use the Xournal app's pen tool to draw the signature.
       - Use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); Please beware that there are always security concerns with tools that require uploading personal data. So, you may want to do this as a last resort only.
     - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
-  - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000]({{< ref "compensation#exchange-rates" >}}).
+  - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## HealthKick Well-being Platform & Discounts
 
@@ -85,7 +85,7 @@ GitLab offers resources related to [Financial Wellness]({{< ref "financial-welln
 
 ## Paid Time Off
 
-GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}) applicable to vacations up to 25 consecutive calendar days off.
+GitLab has a "Flexible PTO policy" [time off policy](/handbook/people-group/paid-time-off/) applicable to vacations up to 25 consecutive calendar days off.
 
 ## Growth and Development Fund
 
@@ -97,7 +97,7 @@ The [Growth and Development]({{< ref "/handbook/people-group/learning-and-develo
 
 ## Modern Health - Mental Health Benefit
 
-GitLab offers Mental Health Support through therapy and coaching sessions to all team members via [Modern Health]({{< ref "modern-health" >}}).
+GitLab offers Mental Health Support through therapy and coaching sessions to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health/).
 
 ## Vivvi Caregiving Benefits
 
@@ -242,7 +242,7 @@ You don't have to take your Parental Leave in one continuous period, we encourag
 
 ### Taking PTO After Taking Parental Leave
 
-If you need to take more time off after Parental Leave, you may utilize GitLab's [Paid Time Off policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) with manager coordination. This time off should be discussed with your Manager following the same reporting guidelines outlined in the PTO policy (double the amount of notice as the amount requested), but if business critical deadlines will be missed your Manager may ask you to change the dates.
+If you need to take more time off after Parental Leave, you may utilize GitLab's [Paid Time Off policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) with manager coordination. This time off should be discussed with your Manager following the same reporting guidelines outlined in the PTO policy (double the amount of notice as the amount requested), but if business critical deadlines will be missed your Manager may ask you to change the dates.
 
 Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
@@ -387,9 +387,9 @@ To alleviate the stress associated with returning to work after parental leave, 
 
 This provides space for a team member to test out life adjustments and iterate further without feeling overwhelmed by a full workload. For instance, if a prearranged daycare solution turns out to be suboptimal, this 50% capacity window empowers a parent to iterate — to find a different solution with the air cover at work to put in the appropriate amount of research and care.
 
-Parents at GitLab who are reentering work following parental leave are encouraged to read the [Team Member Tool Kit]({{< ref "parental-leave-toolkit#team-member-tool-kit" >}}) and to reach out to team members who self-designate as a [Parental Leave Reentry Buddy]({{< ref "parental-leave-toolkit#parental-leave-reentry-buddies" >}}).
+Parents at GitLab who are reentering work following parental leave are encouraged to read the [Team Member Tool Kit](/handbook/total-rewards/benefits/parental-leave-toolkit/#team-member-tool-kit) and to reach out to team members who self-designate as a [Parental Leave Reentry Buddy](/handbook/total-rewards/benefits/parental-leave-toolkit/#parental-leave-reentry-buddies).
 
-Managers of soon to be parents should check out this [Parental Leave Manager Tool Kit]({{< ref "parental-leave-toolkit#manager-tool-kit" >}}) for best practices in supporting your team members as they prepare for and return from Parental Leave.
+Managers of soon to be parents should check out this [Parental Leave Manager Tool Kit](/handbook/total-rewards/benefits/parental-leave-toolkit/#manager-tool-kit) for best practices in supporting your team members as they prepare for and return from Parental Leave.
 
 If you're interested in learning about how other GitLab team members approach parenthood, take a look at [the parenting resources wiki page](https://gitlab.com/gitlab-com/gitlab-team-member-resources/wikis/parenting) and [#intheparenthood](https://gitlab.slack.com/messages/CHADS8G12/) on Slack.
 

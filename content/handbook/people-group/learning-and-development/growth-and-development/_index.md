@@ -75,7 +75,7 @@ Cost Tiers Approval:
   - The G&D Fund should be used to pay for conference registration, tickets, etc.
   - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
 
-- These two costs should still be detailed in the Growth and Development request issue, ghey just need to be expensed separately.
+- These two costs should still be detailed in the Growth and Development request issue, they just need to be expensed separately.
 
 - There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accommodation costs. When approving a team members’ G&D request, managers should feel confident they have the approval of their [budget owner](https://docs.google.com/spreadsheets/d/1JDgoKl2HaHY5iMhJeu8ENqQzOJB8lHL0-oeO0UUieDU/edit?gid=617408906#gid=617408906). VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
 
@@ -212,7 +212,7 @@ Please note, using G&D for coaching is only available for managers and leaders g
 
 #### Coaching Right Now
 
-**Description:** Professional coaching is available for managers and leaders job grade 8+ to support development in their professional area of interest. Team members job grade 4-7 can receive external coaching from [Modern Health]({{< ref "modern-health" >}}) and internal coaching from our [internal resources]({{< ref "coaching" >}}). Team members are expected to know their confidentiality obligations and are responsible for keeping coaching conversations [SAFE](/handbook/legal/safe-framework/).
+**Description:** Professional coaching is available for managers and leaders job grade 8+ to support development in their professional area of interest. Team members job grade 4-7 can receive external coaching from [Modern Health](/handbook/total-rewards/benefits/modern-health/) and internal coaching from our [internal resources]({{< ref "coaching" >}}). Team members are expected to know their confidentiality obligations and are responsible for keeping coaching conversations [SAFE](/handbook/legal/safe-framework/).
 
 Our partnership with  [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true) connects team members with GitLab-vetted coaches - [read their coaching bios here](https://drive.google.com/file/d/1_5q7aq4diWsXq0O9csQF40skZV4f_L_L/view?usp=drive_link). Team members can book 4, 6, or 8hrs of coaching. Availability is first come, first served. Pairing with a coach via Coaching Right Now saves time and energy looking for a coach that is aligned to GitLab values and way of working.
 

@@ -1030,11 +1030,44 @@ description: This page walks you through all the tools we use in the Sales Dev o
 
 ---
 
-### Sales Development Tools
+## Sales Development Tools
 
 This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
 
-#### ZoomInfo
+### Claude
+
+Claude is an AI assistant from Anthropic. It can help with analysis, content writing, research, spreadsheet organization and other tasks. 
+
+#### Claude Sales Dev BDR/SDR User Guide
+
+- [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
+
+**Limitations**
+
+- Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
+- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time** 
+- Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
+- Claude can't maintain context between conversations - each chat starts fresh, so previous discussions about prospects or strategies won't be remembered.
+- Understand that **Claude is not always right and will sound very confident even when it is wrong**
+
+**General Tips**
+
+- Treat it like you are having a conversation with a highly intelligent robot (ex. C3P0)
+- Always try to ask follow up questions to get better answers 
+- You can always have Claude write ideal prompts for you! 
+- Because Claude's data cut off is from April you can upload up to date target account's 10Ks, annual reports, and investor letters for up to date research
+- You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format. 
+
+**Examples of Questions to Ask**
+
+- "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git?
+- “Can you make this email reply more concise?” 
+- “Let's say I was a sales rep from GitLab. How should I approach this company/title?” (Can use Panos’s prompt in the prompt library as well )
+- “Can you explain why you gave x answer?” 
+- “Can you rewrite that in a more casual tone?”
+- “I do not like that message you generated.Can you give me 3more options and explain the pros and cons of each?”
+
+### ZoomInfo
 
 [Zoominfo](https://www.zoominfo.com/) provides our Sales Development Representatives and Account Executives with access to hundreds of thousands of prospects and their contact information, company information, tech stack, revenue, and other relevant data. Individual records or bulk exports can be imported into Salesforce using extensive search criteria such as job function, title, industry, location, tech stack, employee count, and company revenue. More information can be found on the Marketing Operations [Zoominfo handbook page.](/handbook/marketing/marketing-operations/zoominfo/)
 
@@ -1081,22 +1114,13 @@ Specifically:
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
 
-- These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
-- Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of.
+- These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**  
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
-- This can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
-- Any accounts that marked as `Accepted` by the BDR team will be flagged on the [MM/ENTG saved search on ZoomInfo](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJ3b3JrRXhwZXJpZW5jZUpvaW5PcGVyYXRvciI6Ik9SIiwicnBwIjoyNSwiZGVwYXJ0bWVudHMiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5LEVuZ2luZWVyaW5nICYgVGVjaG5pY2FsLEMtU3VpdGUiLCJoYXNNb2JpbGVQaG9uZSI6ImluY2x1ZGUiLCJDRi1zYWxlc2ZvcmNlLWFjY291bnQtMTAyIjp7ImluY2x1ZGUiOnsicGxhdGZvcm0iOiJzYWxlc2ZvcmNlIiwiZW50aXR5IjoiYWNjb3VudCIsImZpZWxkTmFtZSI6IjEwMiIsImlkTGlzdCI6WyI0MDU5OXg0NG0xYXl1YWR4Il0sImlzSW5jbHVkZSI6dHJ1ZX19LCJoYXNFbWFpbCI6ImluY2x1ZGUifSwic2VhcmNoVHlwZSI6MH0%3D) which in turn will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/65fdc8011c3ae1ac2cbef07b/completed) to automatically bring relevant decision-makers for these accounts to the [B2 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
+  - For FY26Q1 we are adding a **Dispute Reason for Low LAM Dev Count** which team members can use when they opt to not pursue a 6QA account because of a small account value potential.
+  - Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of. 
+- Accepting or Disputing accounts can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
+- Any accounts that marked as `Accepted` by the BDR team will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/678e891afc1f1f390f3b654f/completed) to automatically bring relevant decision-makers for these accounts to the [B2 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
-
-  - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-  - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-  - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-
-- These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
-
-  - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
-  - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
-  - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B2 - AWA Leads w/ LIM`
 
 ### Qualified
 
@@ -1179,16 +1203,16 @@ Onboarding is essential for all Sales Development Managers at GitLab. As part of
 
 The BDR process that we have defined here in GitLab is meant to provide a repeatable set of steps that an outbound BDR can follow to achieve results. It is very important for an onboarding manager to align themselves as quickly as possible to this process as it is a proven method that will help them manage their team in a efficient and data-driven way.
 
-The BDR Process is explained step-by-step in the [main SDR handbook page here](/handbook/marketing/revenue-marketing/sdr/#bdr-outbound-process)
+The BDR Process is explained step-by-step in the [section here](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process)
 
-For a newcoming manager, we provide the [Manager attention needed boards](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
+For a newcoming manager, we provide the [Manager attention needed boards](/handbook/marketing/sales-development/#dashboards-for-leaders) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
 
 To help structure your usage of the above, you can follow the steps below during your first month at GitLab while [the document here will be your main go-to resource](https://docs.google.com/document/d/18k1_jDHVgNzy2SzcPZ7GAOdJ6zb9i37Z4-V1-dEFKiU/edit#)
 
 | Action | Benefit |
 | ------ | ------- |
 | Clone the Action Needed Dashboard and edit each report to be exclusive to your team's names | Gives you a SSoT that you and your team can easily reference |
-| Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/revenue-marketing/sdr/#sdrbdr-roe-and-inbound-lead-management) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
+| Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/sales-development/#kpis-and-slas) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
 | Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
 
@@ -1247,7 +1271,7 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 |                                                                                Add someone to the Sales Development Gmail alias                                                                                | Submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the appropriate info and delete any remaining info that isn't needed. Under 'Account Creation' put the Sales Development email alias |
 |                                                         [Make an edit to the handbook](/handbook/about/editing-handbook/)                                                          | Guide for how to edit the handbook. *Note: all new hires must do this as part of their onboarding |
 |                                                          [Add a new page to the handbook](https://www.youtube.com/watch?v=9NcJG9Bv6sQ)                                                           | This GitLab Unfiltered video will walk you through how to create a new handbook page |
-|                                            [Create a new job family](/handbook/hiring/job-families/#job-family-creation-using-web-version-of-gitlab)                                             | For each job at GitLab, the job family is the single source of truth for the expectations of that role. If you need information about when to create a new job family vs when to use an existing one watch [this video](https://www.youtube.com/watch?v=5EcFz1qNj2E&feature=emb_title) |
+|                                            Create a new job family                                             | For each job at GitLab, the job family is the single source of truth for the expectations of that role. If you need information about when to create a new job family vs when to use an existing one watch [this video](https://www.youtube.com/watch?v=5EcFz1qNj2E&feature=emb_title) |
 |                                           [Resolve failed pipeline when creating an MR](https://www.youtube.com/watch?v=WlgH-6cX1k8&feature=youtu.be)                                            | Quick overview of how to go about identifying why a pipeline might be failing for a merge request to the handbook page |
 | [Sales Development Onboarding Job Specific Task Section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) | This task section will automatically be added to the general onboarding issue for new SDRs based on their role when hired. |
 
@@ -1357,7 +1381,7 @@ On your new hire's first day, the assigned People Connect Team member will [sche
   - When you have available time feel free to move ahead as some onboarding task lists for the day won't take you all day.
   - How to manage meeting invites in your inbox (there are a ton!)
   - You will receive numerous emails in their first two weeks asking you to register or activate your license to a specific tool we use, please go ahead and do all of this.
-  - What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/sdr-playbook-onboarding/)
+  - What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/#sales-development-onboarding)
 
 ##### After new hire has started
 
@@ -1382,7 +1406,7 @@ If an SDR will be out for a prolonged period of time, please follow the proper p
 
 - [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
 - [Emergency Situations](/handbook/people-group/paid-time-off/#communicating-time-off-for-emergency-situations)
-- [Unpaid leave](/handbook/people-group/paid-time-off/#unpaid-leave-of-absence)
+- [Unpaid leave](/handbook/people-policies/leave-of-absence/us/#which-leave-is-right-for-me)
 
 #### Manager Sales Development Leave Checklist
 
@@ -1436,9 +1460,9 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 As BDRs and SDRs, you work closely with the larger marketing org as well as the sales team. Due to this, your onboarding will encompass training on tools and processes related to not only your role but a blend of marketing and sales.
 
-This learning experience involves virtual self-paced learning paths in the form of a general company-wide onboarding issue, a Sales Development specific issue, as well as a Google Classroom course to prep you for [Sales Quick Start (SQS)](/handbook/sales/onboarding/SQS-workshop/). SQS is a 3-day in-person immersive and hands-on workshop for all new hires in a sales development or sales role. In parallel, you will meet regularly with your manager, onboarding buddy and members of our sales development enablement team to chat through and dig a bit deeper into the topics within your onboarding.
+This learning experience involves virtual self-paced learning paths in the form of a general company-wide onboarding issue, a Sales Development specific issue, as well as a Google Classroom course to prep you for [Sales Quick Start (SQS)](/handbook/sales/onboarding/sqs-workshop/). SQS is a 3-day in-person immersive and hands-on workshop for all new hires in a sales development or sales role. In parallel, you will meet regularly with your manager, onboarding buddy and members of our sales development enablement team to chat through and dig a bit deeper into the topics within your onboarding.
 
-The goal in all of this is to ensure that you feel confident and comfortable to hit the ground running at the start of your second month on the job when you will have a [ramped quota](/handbook/marketing/sales-development/#bdr-and-sdr-compensation-and-quota). Our hope is that along this journey you are not only gaining the tactical skills needed to complete your job, but that you form connections with colleagues, gain a strong understanding of our culture, and begin to develop industry knowledge.
+The goal in all of this is to ensure that you feel confident and comfortable to hit the ground running at the start of your second month on the job when you will have a [ramped quota](/handbook/marketing/sales-development/#bdrsdr-quota-for-months-0-4-and-compensation). Our hope is that along this journey you are not only gaining the tactical skills needed to complete your job, but that you form connections with colleagues, gain a strong understanding of our culture, and begin to develop industry knowledge.
 
 ### Sales Development Onboarding Process
 
@@ -1449,7 +1473,7 @@ The goal in all of this is to ensure that you feel confident and comfortable to 
 1. Within 3 days of starting at GitLab, you will receive an email giving you access to [Command of the Message (CoM)](/handbook/sales/command-of-the-message/) e-learning materials. CoM is our value-driven conversation framework that will be covered during SQS.
 1. During your second week, the Sales Enablement Team will send you a calendar invite for the upcoming SQS as well as an email prompting you to log in to Google Classroom to begin working through the [Sales Quick Start learning path](/handbook/sales/onboarding/sales-learning-path/). Connect with your manager to arrange travel for SQS or if you are unable to attend the next session.
 1. Within a week of attending SQS, you will receive access to the 13-week Command of the Message Fast Start program.
-1. In your first few weeks you will receive access to your Sales Development Technical Development training. This is to be completed within your first 180 days and ties directly to SDR [levels](/job-families/marketing/sales-development-representative/#levels).
+1. In your first few weeks you will receive access to your Sales Development Technical Development training. This is to be completed within your first 180 days and ties directly to SDR [progression](/handbook/marketing/sales-development/#graduating-from-sales-development-onboarding).
 
 ### Graduating from Sales Development Onboarding
 
@@ -1481,7 +1505,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 ### Sales Development Onboarding Resources
 
 - [Adding yourself to the team page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page)
-- [Making changes/edits to the handbook](/handbook/about/editing-handbook/#editing-the-handbook)
+- [Making changes/edits to the handbook](/handbook/about/editing-handbook/)
 - Questions about a handbook edit? Use the slack channels #handbook or #mr-buddies
 - Questions about onboarding? Drop them in the #new_team_members slack channel
 
@@ -1686,13 +1710,14 @@ Announcement Channels
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
 | ---------- | -------- | ------- | --------- | -------------- |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) |
-| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
-| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 |
-| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 |
-| Tier upgrade | BDR | Growth | Comm/Ent | 1 |
-| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) |
+| GitLab ultimate/premium, add ons | SDR | FO, New Connected, Growth | All segments | 1 |
+| GitLab ultimate/premium, add ons  | BDR | FO | Commercial, Enterprise | 1 |
+| GitLab ultimate/premium, add ons | BDR | New connected, Growth | Commercial, Enterprise | 1 |
+| Additional seats in current customer department | everyone | Growth | All segments | 1 |
+| Tier upgrade | everyone | Growth | All segments | 1 |
+| GitLab Duo | everyone | Growth | All segments | 1 |
+| Agile planning | everyone | Growth | All segments | 1 |
+| Storage, Compute | everyone | Growth | All segments | 0 |
 | Professional services | everyone | All motions | All segments | 0 |
 
 - **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses.
@@ -1702,7 +1727,7 @@ Announcement Channels
 | **Sales Development Org Compensation Breakdown** |
 | ------------------------------------------------ |
 | **Quota Components Depending on Sales Segment** |
-| [Sales Accepted Opportunities (SAOs)](/handbook/marketing/sales-development/how-tos/#how-to-get-sao-credit-and-create-opportunities) |
+| [Sales Accepted Opportunities (SAOs)](/handbook/marketing/sales-development/#how-to-get-sao-credit-and-create-opportunities) |
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |

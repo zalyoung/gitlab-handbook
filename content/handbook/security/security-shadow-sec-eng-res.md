@@ -55,4 +55,4 @@ The [Security Research Team](product-security/security-research/) is a multi-dis
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Configure a Pipeline to Build an Applicatio
 description: "This Hands-On Guide walks you through building a basic pipeline for an application"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 In this lab, you will explore the process of creating a build process for an application.

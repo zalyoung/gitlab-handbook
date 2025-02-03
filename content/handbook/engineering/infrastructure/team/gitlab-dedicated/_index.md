@@ -390,9 +390,11 @@ Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
-    1. Brief update for each of these three areas:
+    1. Brief update for each of these four areas:
+        1. Indicate project [Health Status by label](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels).
+        1. Briefly highlight project status.
+        1. Indicate progress items since the last update.
         1. Indicate any project blockers.
-        1. Briefly highlight progress since the last update.
         1. Indicate planned next steps, or mitigations required to progress. This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
     1. If the DRI for a sub-epic is different than the epic DRI, the epic DRI is responsible for getting updates from the sub-epic DRI.
     1. **Update Workflow and Health label** - After each status update, the Workflow label and Health label should be updated. See [Epic labels criteria](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels)

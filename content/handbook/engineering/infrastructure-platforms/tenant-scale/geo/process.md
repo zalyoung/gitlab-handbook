@@ -180,6 +180,26 @@ The Engineering Manager is responsible for clearing the path. They need to make 
 have the access to the right information, people, tools, and other resources to get the work done. They try to foresee
 problems and clear any blockers that may arise while the work is in progress.
 
+### Opening an Issue
+
+Within the Geo Team we utilize Issue Templates to create consistency in our Backlog to help us be more Efficient and deliver more Results.
+Using Issue Templates has been found to help the team in the following ways:
+
+1. Ensures an Issue has all the required information so that any contributor can pick up and start or join a conversation without any outside context.
+2. Empowers our Refinement Process to work more efficiently which results in higher Community Contributions and less SME reliance.
+3. Helps Issues stay relevant and not unintentionally sink to the bottom of our Backlog.
+
+We use the following Issue Templates:
+
+- [Bug (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md)
+  - Used as the template for Bugs and their investigation.
+- [Feature - lean (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md)
+  - Used as the template for larger Feature requests. These will often drive a conversation and ultimately be promoted to Epics with Implementation Issues being broken off into MVC changes.
+- [Implementation (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md)
+  - Used as the template to break down large Epics, organize MVC level changes, and assist in our Refinement Process.
+
+*Note: Many sections in a template should be treated as optional if there is no relevant information to be added.*
+
 ### Addressing new issues quickly
 
 When new issues arise (through testing, customer support issues, or other means) we still want to be able to address them
@@ -204,7 +224,21 @@ If an issue is assigned a weight of 10, then the issue is too big and will need 
 
 If any issue is weighted above a 3, we should ask ourselves if it can be further broken down. We should do this even if the issue was already broken out from an even larger issue.
 
-### Bugs Process
+### Backlog Refinement Process (Trial Phase) 
+
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](../../../../product-development-flow).
+
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
+Each week 5 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
+
+1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
+2. Phase 1: Engineers will select 1-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
+   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
+   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2
+3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
+   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels. 
+
+### Bugs Process (Being Deprecated/Combined with the Refinement Process Above)
 
 Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](/handbook/product-development-flow/).
 
@@ -359,7 +393,7 @@ Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wron
 
 At GitLab there is a general guideline to conduct [group retrospectives](/handbook/engineering/management/group-retrospectives/) and a process automation to run retrospectives [asynchronously](https://gitlab.com/gitlab-org/async-retrospectives). The Geo team however is working with a new process that combines elements of fully asynchronous work with the benefits of active conversation and the increased level of engagement that these types of interactions bring.
 
-The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page.
+The details of this process is documented in our [Geo Team Retrospectives](./retrospectives.md) page.
 
 ## FAQ
 

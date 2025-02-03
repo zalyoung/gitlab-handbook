@@ -11,7 +11,7 @@ This page is for all information regarding GitLab security trainings. Security t
 
 ## Security Assurance
 
-The Security Assurance sub department handles security training needs that involve [Field Security]({{< ref "../field-security" >}}), [Security Governance](_index.md), [Security Compliance]({{< ref "../security-compliance" >}}) and [Security Risk]({{< ref "../security-risk" >}}).
+The Security Assurance sub department handles security training needs that involve [Field Security](../field-security/), [Security Governance](_index.md), [Security Compliance](../security-compliance/) and [Security Risk](../security-risk/).
 
 For more information on Security Assurance, visit the [Security Assurance]({{< ref "security-assurance" >}}) page.
 

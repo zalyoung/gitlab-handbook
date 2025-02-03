@@ -143,4 +143,4 @@ For Tier 2 level concerns, the Manager should reach out and discuss with the tea
 
 Since situations differ, managers should immediately reach out to a team member relations specialist for guidance before taking any action.  If unable to contact the team member relations specialist directly, please follow the [escalation path listed in the handbook](/handbook/people-group)
 
-Please review the [underperformance]({{< ref "underperformance" >}}) page in the handbook for further information regarding managing team member performance.
+Please review the [underperformance](/handbook/leadership/underperformance/) page in the handbook for further information regarding managing team member performance.

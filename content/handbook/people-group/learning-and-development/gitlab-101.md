@@ -106,7 +106,7 @@ As you learned in the technical terminology portion, a GitLab Issue is the funda
 To open a GitLab issue:
 
 1. Navigate to the project where you want to open the issue
-   1. **How do you know what project to use?** - Find the project that is most relevant to the issue you want to create. For example if you wanted to open an issue on something relating to our [benefits]({{< ref "benefits" >}}), you would open an issue in the Total Rewards project. If you do open an issue in an incorrect project, you can move it. We will cover that as the next topic.
+   1. **How do you know what project to use?** - Find the project that is most relevant to the issue you want to create. For example if you wanted to open an issue on something relating to our [benefits](/handbook/total-rewards/benefits/), you would open an issue in the Total Rewards project. If you do open an issue in an incorrect project, you can move it. We will cover that as the next topic.
 1. Select "Issues" in the left hand side
 1. Click the blue "New issue" button in the top right
 1. Add in a Title for the issue

@@ -272,6 +272,7 @@ When creating a new project, all settings should be left to the default options,
          - `v*`
       - `Allowed to create`
          - `Maintainers`
+         - [GitLab Dev Service - Secure Stage - Analyzers Automation](https://gitlab.com/gl-service-dev-secure-analyzers-automation)
    - `Settings -> Merge Requests`
       - `Squash commits when merging`
          - `Require`
@@ -459,6 +460,12 @@ To streamline our workflow and ensure efficient collaboration between the Engine
 ## Working with Customer Support
 
 The Sec engineering teams do not provide support directly to customers. Instead engineers collaborate with our Customer Support Engineers via the [process on the Sec Sub-department support project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/).
+
+## Working on security tooling requests
+
+As GitLab grows, the Sec teams continue to build tooling that makes it easier to securely manage users for our largest customers. In doing so, managing team members on GitLab.com is an excellent use case where the features can be internally dogfooded before they are rolled out to our users. The Security and CorpSec teams can add the label `security tooling`, `section::sec` and the respective priority `priority::1/2/3` to tag an item that will help in such management of GitLab team members and needs to be added to the backlog. The [features page](/handbook/product/categories/features/) is handy in identifying where a particular functionality may belong, such that the correct EM/PM for the group can be tagged in the issue.
+
+The backlog for these issues can viewed at [Sec Security Tooling - issue](https://gitlab.com/groups/gitlab-org/-/boards/9065128?label_name[]=security%20tooling&label_name[]=section%3A%3Asec) for individual issues. Each month, product and security counterparts will [review these requests](https://gitlab.com/gitlab-com/Product/-/issues/?sort=created_date&state=opened&label_name%5B%5D=security%20tooling&first_page_size=100) and ensure that the priority items are scheduled into the roadmap.
 
 ## How to work with the Quality team
 

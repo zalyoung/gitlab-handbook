@@ -86,4 +86,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [Information Security Policies](/handbook/security/controlled-document-procedure)
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 
-<a href="{{< ref "../security-compliance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>
+<a href="../security-compliance/" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>

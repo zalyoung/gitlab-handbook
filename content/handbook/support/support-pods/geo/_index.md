@@ -61,7 +61,6 @@ Follow the steps below and you should have a personal view in no time.
     1. This is kind of up to your flavour but below are some suggestions.
         1. Next SLA breach
         1. Priority
-        1. SGG
         1. Preferred Region for Support
         1. Subject
         1. Organization

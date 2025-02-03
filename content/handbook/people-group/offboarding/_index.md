@@ -26,7 +26,7 @@ For any other offboarding questions from active team members please reach out to
 ### Prior to Resignation
 
 1. **Team Member:** Please reach out to your Direct Manager prior to submitting your resignation particularly to discuss the handover process and the [communication plan](#communicating-departures) regarding your departure.
-1. **Team Member:** Review the documented [notice period]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) for your location if applicable and factor in the notice period when submitting your resignation through Workday.
+1. **Team Member:** Review the documented [notice period](/handbook/people-group/contracts-probation-periods/#probation-period) for your location if applicable and factor in the notice period when submitting your resignation through Workday.
 1. **Team Member:** Compile your Letter of Resignation for uploading into Workday.  If you are employed through a PEO or Third-Party Employer, send a copy of your resignation letter to the PEO contact as well.
 
 ### Resignation
@@ -69,11 +69,11 @@ Team Members located in Singapore who are resigning and are **not** Singapore ci
 ## Involuntary Terminations
 
 **Note:** Involuntary terminations are **only** facilitated by Team Member Relations (TMR) who will initiate the process in Workday.
-Involuntary offboarding of any team member is never easy. We've created guidelines and information to make this process as humane as we can. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance]({{< ref "underperformance" >}}), as well as the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md).
+Involuntary offboarding of any team member is never easy. We've created guidelines and information to make this process as humane as we can. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/leadership/underperformance/), as well as the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md).
 
 ### Involuntary Process
 
-The manager and the team member should have walked through the guidelines on [underperformance]({{< ref "underperformance" >}}) before reaching this point.
+The manager and the team member should have walked through the guidelines on [underperformance](/handbook/leadership/underperformance/) before reaching this point.
 
 1. **Manager**: Reach out to the their TMR specialist for assistance.
     - TMR will ask about what the performance issues have been, how they have been attempted to be addressed, and review all manager/team member documentation.
@@ -289,7 +289,7 @@ The departing team member may work with their manager to author a goodbye messag
 In some instances there will be no further clarification on why a team member has departed, if there are concerns you can address those with your manager.
 Different levels of transparency will exist based on maintaining respectful treatment for all departures. Having team members leave may be a learning opportunity for some, but should not be a point of gossip for anyone. Managers will need to balance the opportunity for learning with the expectation of privacy and consult their People Business Partner should they have questions.
 
-Transparency is one of our values. In the case of offboarding, we opt to share the feedback only with peers and direct reports as needed, since we balance transparency with our value of collaboration and [constructive guidance]({{< ref "guidance-on-feedback" >}}) shared 1-1.
+Transparency is one of our values. In the case of offboarding, we opt to share the feedback only with peers and direct reports as needed, since we balance transparency with our value of collaboration and [constructive guidance](/handbook/people-group/guidance-on-feedback/) shared 1-1.
 
 ## Turnover Data
 

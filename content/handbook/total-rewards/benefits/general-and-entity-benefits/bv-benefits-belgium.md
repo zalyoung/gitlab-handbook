@@ -80,6 +80,9 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
 - Statutory Vacation Leave
   - Full-time team members are entitled to 20 statutory vacation days per year. If a team member leaves GitLab, the company will prepare a vacation certificate with the number of unused vacation days in the current year and early vacation pay for the vacation days that were already accrued for the following year. The employee can then hand over these documents to their next employer to determine vacation entitlements. Similarly, GitLab requires the vacation certificate from new team members' previous employer to ensure vacation pay is properly calculated and added to June payroll.
   - Vacation Leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Vacation` in Workday to ensure that vacation entitlement is properly tracked.
+- Short leave (klein verlet)
+  - In accordance with Belgian labor law, team members are entitled to [klein verlet](https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/schorsing-van-de-arbeidsovereenkomst/oorzaken-van-schorsing-hoofde-12), or short leave, for personal reasons. This allows employees to take short periods of paid leave for important personal matters such as attending a wedding, funeral, or fulfilling civic duties (e.g., voting). 
+  - We are working on building this leave type in Workday. In the mean time, team members must notify leaves@gitlab.com and their manager.
 
 ***Note: GitLab has a global [`flexible paid time off policy`](/handbook/people-group/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
 

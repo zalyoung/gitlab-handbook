@@ -12,6 +12,13 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 - `H1 Triage` are reports being triaged by the HackerOne triage team
 - `Pending Disclosure` are reports that should be reviewed and disclosed
 
+## Guiding principles
+
+- When the `GitLab Team` queue is empty, regularly check that the `H1 Triage` queue doesn't contain reports that are rated as `Critical` or `High`. If there are such rated reports, evaluate if they are indeed `Critical` or `High`, and if so handle them directly without waiting on `H1 Triage`.
+  - Generally speaking it's a good practice to keep an eye on the `H1 Triage` and `New` queues to look for `Criticals` and `Highs`.
+- The AppSec engineer on rotation should make every effort to ensure that _all_ H1 reports that are assigned to `GitLab Team` within their triage week are both assigned (to themselves) and properly triaged.
+  - If a report wasn't re-assigned to the person on rotation, the next person on rotation can freely assign it to them.
+
 ## GitLab Team On-boarding
 
 - New members of the GitLab security team are granted access to the GitLab HackerOne team via an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
@@ -117,7 +124,7 @@ the responsible engineering team:
 
 Typically, each HackerOne report discloses a single vulnerability. However, sometimes a single report uses two or more newly discovered vulnerabilities chained together for increased impact.
 
-When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability *and* an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
+When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability _and_ an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
 
 The CVSS of each individual vulnerability will be used for the CVEs issued for each vulnerability. The "vulnerability chaining" CVSS will be used to determine bounty award for the report.
 
@@ -222,7 +229,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 
 Sometimes researchers will report a vulnerability in features behind a [feature flag](https://docs.gitlab.com/ee/operations/feature_flags.html). These reports are excellent as they allow us to patch vulnerabilities prior to them affecting our wider audience that utilizes the default settings. These reports are eligible for the full amount of their calculated bounty.
 
-Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
+Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - _**"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."**_.
 
 - A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs.
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
@@ -317,7 +324,7 @@ disclosure requests using the `08 - Canceled Disclosure Message`
 template. Reporters should instead consider [opening a public GitLab issue](https://about.gitlab.com/submit-feedback/)
 as this is the best way to raise and address non-vulnerability issues.
 
-If a researcher *insists* on disclosure via HackerOne we should agree to
+If a researcher _insists_ on disclosure via HackerOne we should agree to
 disclose it regardless of quality unless there is a good reason not to.
 
 ## Application Security Engineer Procedures for severity::1/priority::1 Issues
