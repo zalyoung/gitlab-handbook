@@ -12,32 +12,42 @@ toc_hide: true
 
 {{< design-document-header >}}
 
-## Summary
+## Introduction
 
-We need a solution to rotate [encryption keys](https://docs.gitlab.com/ee/development/application_secrets.html)
-without having to put GitLab offline.
+We need a solution to rotate GitLab's encryption keys (used to protect sensitive data at rest) without requiring system downtime, addressing a significant security and operational risk for both our customers and GitLab.com. The proposed solution enables zero-downtime key rotation through support for multiple concurrent keys, automated background re-encryption, and a deployment workflow optimized for multi-node installations, allowing organizations to maintain security best practices without service interruption.
 
-## Motivation
+## Objectives
 
-[The `db_key_base`/`active_record_encryption_primary_key`/`active_record_encryption_deterministic_key` keys](https://docs.gitlab.com/ee/development/application_secrets.html)
-are used to encrypt data at rest in the GitLab database (`db_key_base` is used by the `attr_encrypted` gem and the
-`TokenAuthenticatable` framework, while `active_record_encryption_primary_key` &
-`active_record_encryption_deterministic_key` are used by Active Record Encryption, which is Rails' native encryption
-framework).
-Their rotation is currently not possible without downtime, and there's no automation, script or even process for it.
-Given the criticality of these secrets, the goal is to design a solution that allows these secrets to be rotated while
-GitLab stays online.
+This design document addresses a critical security vulnerability in GitLab's current encryption key management system.
+Currently, GitLab's encryption keys, which protect sensitive data at rest in the database, cannot be rotated without
+taking the entire system offline. This limitation poses significant business risks:
 
-With the Dedicated and Cells effort, the criticality of these secrets and their rotation is multiplied by the
-increasing number of instances deployed, for two reasons:
+1. In the event of a key compromise, customers would face service disruption during key rotation
+2. For GitLab.com and large enterprise deployments, the required downtime makes regular key rotation practically
+  impossible
+3. With the expansion of GitLab's Dedicated and Cells infrastructure, the risk of key compromise increases, as does
+  the operational complexity of key management across multiple instances
+4. [In Cells 1.0, all cells will use the same secrets](https://gitlab.com/groups/gitlab-org/-/epics/13166#proposal),
+  wich further increases the risk and impact of any key exfiltration.
 
-- The likelihood of a secret leak (through accidental or malicious means) increases with the number of instances deployed
-- The amount of work needed to rotate a secret increases with the number of instances deployed
+The proposed solution enables zero-downtime encryption key rotation through:
 
-A lot of discussions happened to discuss the problem and potential solutions but no formal proposal was ever made.
-The main issue where this was discussed is <https://gitlab.com/gitlab-org/gitlab/-/issues/25332>.
+- Support for multiple concurrent encryption keys
+- Automated background re-encryption of data
+- Clear visibility into key usage and rotation progress through a new admin interface
+- A deployment workflow optimized for multi-node installations
 
-### Goals
+Key business benefits:
+
+- Eliminates service disruption during security-critical key rotations
+- Enables compliance with security policies requiring regular key rotation
+- Reduces operational risk in multi-instance deployments, especially in the context of Cells
+- Provides foundation for secure data movement between GitLab instances, especially when using the Cells Org Mover
+
+The implementation is planned across seven iterations, focusing on maintaining system stability while introducing this
+critical security capability. This project directly supports GitLab's scaling initiatives and enterprise security requirements.
+
+## Overview
 
 Provide GitLab administrators with a way to:
 
@@ -57,11 +67,6 @@ Provide GitLab administrators with a way to:
 - Monitor the progress for the re-encryption of data encrypted with legacy keys, and overall usage of each key.
 - Visualize keys and their usage in the admin UI.
 
-#### Use cases
-
-- An encryption key leaked and needs to be rotated.
-- A security policy enforces a regular rotation of encryption keys.
-
 ### Non-goals
 
 This blueprint does not cover the following:
@@ -79,14 +84,14 @@ This blueprint does not cover the following:
   While envelope encryption has many benefits and is supported natively by Active Record Encryption, the decision to
   use it is independent from this proposal, and should be solved with a dedicated proposal.
 
-## Proposal
+### Pre-requisites
 
 The idea is based on 2 pre-requisites:
 
 1. Support for multiple encryption keys: this allows online rotation of the secret
 1. Ability to know what key was used to encrypt an attribute: this allows to re-encrypt data encrypted with a legacy key
 
-The high-level proposal is as follows:
+### Rotation workflow
 
 1. When a key needs to be rotated, just add a new one to the tail of the
    `db_key_base` / `active_record_encryption_primary_key` / `active_record_encryption_deterministic_key` arrays in
@@ -107,13 +112,15 @@ The high-level proposal is as follows:
    - What's the expected ETA for everything to be re-encrypted with the current encryption key?
    - What keys can be removed from `config/secrets.yml` (i.e. no data is encrypted with this key anymore)?
 
-### "Encryption keys" admin page
+### "Encryption keys" admin page mockup
 
 !["Encryption keys" admin page](/images/handbook/engineering/architecture/design-documents/encryption_keys_rotation/encryption-keys-admin-page.png)
 
-### Technical details
+## Decisions
 
-#### Keys tracking
+## Implementation Details
+
+### Keys tracking
 
 Keys lifecycle information will be stored in a new `encryption_keys` table, including:
 
@@ -137,7 +144,7 @@ Later on, we could also keep statistics about keys usage in a separate table.
 
 Note: The actual keys used to encrypt/decrypt data still come from the `config/secrets.yml` file.
 
-##### During initialization
+#### During initialization
 
 During initialization, if a new key is discovered in `config/secrets.yml`, the following 3 steps happens:
 
@@ -150,15 +157,12 @@ During initialization, if a new key is discovered in `config/secrets.yml`, the f
    If the key was still in use (based on the usage data we will regularly compute), an error is raised to prevent the
    application from starting without the key.
 
-#### Encryption key selection
+### Encryption key selection
 
-We'll introduce key providers that follow the
-[`ActiveRecord::Encryption` custom key providers architecture](https://guides.rubyonrails.org/active_record_encryption.html#custom-key-providers) to have a common abstraction for all key providers.
+We'll introduce a `KeyProviderService` that will abstract the encryption/decryption keys selection so that's it's
+framework-agnostic (to ease the transition from legacy encryption framework to Active Record Encryption).
 
-Key providers don't interact with the `KeyEncryption` model, they only respond to `#encryption_key` and
-`#decryption_keys`.
-
-##### Architecture
+### Architecture
 
 ```mermaid
 classDiagram
@@ -200,7 +204,7 @@ classDiagram
     EnvelopeEncryptionKeyProvider --> DerivedSecretKeyProvider : instantiates
 ```
 
-##### Changes required for `attr_encrypted`
+### Changes required for `attr_encrypted`
 
 The `attr_encrypted` gem supports dynamic key by passing a method name as the `key:` option, e.g.
 
@@ -213,17 +217,17 @@ We're taking advantage of that so that the key(s) used for encryption/decryption
 
 See the PoC code at <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177748/diffs?commit_id=828f2470e5d034e77b7c094952ff2d7676cf962f#5d31008bc68bfcfa3787a3338a808f53c51a6ad5>.
 
-##### Changes required for `TokenAuthenticatable`
+### Changes required for `TokenAuthenticatable`
 
 Changes are similar to what's done for `attr_encrypted`.
 
 See the PoC code at <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177748/diffs?commit_id=828f2470e5d034e77b7c094952ff2d7676cf962f#a99cfc117c9fe8408818387e8197ef3186848efe>.
 
-##### Implementation of "Encryption keys" admin page
+### Implementation of "Encryption keys" admin page
 
 See the PoC code at <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=a5cafd65bb706fd1ad2784d7a35592443f02980e>.
 
-#### Background re-encryption process
+### Background re-encryption process
 
 Following is a naive implementation of what the background re-encryption process would roughly do.
 
@@ -315,8 +319,6 @@ The implementation of `attr_encrypted` and `TokenAuthenticatable` would need to 
 **In the future, we should progressively migrate all the usage of `attr_encrypted` and `TokenAuthenticatable` to
 `ActiveRecord::Encryption`.**
 
-## Challenges
-
 ### Other usages of `db_key_base`
 
 There are few places where the `db_key_base` secrets are used (mostly in JWT generation):
@@ -357,7 +359,7 @@ encrypts :attr, deterministic: true, key_provider: Gitlab::Database::Encryption:
 The following merge request shows that support of multiple encryption keys is possible today for both `attr_encrypted`
 and `TokenAuthenticatable`: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177748>
 
-What's missing from this PoC is the second pre-requisite [from the above proposal](#proposal): the ability to know
+What's missing from this PoC is [the second pre-requisite](#pre-requisites): the ability to know
 what key was used to encrypt an attribute. It's possible to add support for this with the introduction of a new
 `encryption_key_id` column per table.
 
