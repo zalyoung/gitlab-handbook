@@ -463,7 +463,7 @@ If this is to set up a program that involves a channel partner, you must also fo
   - You do not need to update the following tokens upon setup:
     - `{{my.email header image url}}` - This is optional. You will need this if you had custom images created.
     - `{{my.ondemandurl}}` - This will be entered AFTER the event date. It is the link to the recorded webcast. You will need to come back after the event and update this token.
-- Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#utm-campaign).
+- Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
 - **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 
@@ -875,7 +875,7 @@ Interesting Moments for content syndication are global. This means that you only
 - Click Save.
 - Click and drag the word `Text` into the token area.
 - Under Token Name, name the token `Assetx-Type`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Type`.
-- Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
+- Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, `General`, or `Infographic`
 - Click Save.
 - After you add your asset name and type to the main content syndication folder, click on the program you created for this region/vendor. 
 - Complete the `{{campaign owner email}}`, `{{region}}`, and `{{vendor}}` tokens.
@@ -889,11 +889,10 @@ It is critical that any reference to asset number in Marketo automation (not tok
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
   - **Flow** (confirm that program references match the Marketo program name): 
-    - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. 
-    - If you add any SFDC campaigns to the list, be sure to use "Content Syndication asset CONTAINS Asset x -" in your filter.
+  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. 
+  - If you add any SFDC campaigns to the list, be sure to use "Content Syndication asset CONTAINS Asset x -" in your filter.
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
-- `03 Manual upload processing`
-  - No action is required here. This campaign is used if the DAP sync fails.
+- `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 - `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign. 
   - Click `Add Choice`.
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
@@ -902,6 +901,7 @@ It is critical that any reference to asset number in Marketo automation (not tok
   - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 5: Important information for content syndication list uploads
+
 This applies to a manual upload or the sync from DAP.
 
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
@@ -972,7 +972,7 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 - Click Save.
 - Click and drag the word `Text` into the token area.
 - Under Token Name, name the token `Assetx-Type`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Type`.
-- Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
+- Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, `General`, or `Infographic`
 - Click Save.
 - Go to the program for the Region/Vendor you are adding an asset for (for example ContentSynd_ABM_AMER_Madison Logic). Click "My Tokens"
 - Click and drag `SFDC Campaign` into the token area.
@@ -989,11 +989,9 @@ It is critical that any reference to asset number in the Marketo automation belo
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
   - Move the new asset number to the bottom of the list (to keep the numbers in order).  
 - `01 Processing`
-   - **Flow**: 
-    - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`.
-    - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
-- `03 Manual upload processing`
-   - No action is required here. This campaign is used if the DAP sync fails.
+  - **Flow**: 
+  - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+- `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
   - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
@@ -1247,7 +1245,7 @@ In general, the [YYYYMMDD_SurveyName](https://engage-ab.marketo.com/?munchkinId=
 - Name the program using the following syntax: `YYYYMMDD_NameofProgram_Raffle`. You will likely have another campaign type associated as well (for example, a Conference) and this program should be housed in the folder for that event. This is a similar process to creating a speaking session associated to a conference.
 - Sync to SFDC at the program main screen in Marketo, where it says Salesforce Sync with "not set", click on "not set", Click "Create New." The program will automatically populate the campaign tag, so you do not need to edit anything except click `Save`.
   - If you are a user of Allocadia, you will need to add the Allocadia raffle line item ID to the `Description` field. Click `Save`.
-- [Update the SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-update-the-salesforce-campaign) and associate it to the [parent campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#parentchild-campaigns) where applicable.
+- [Update the SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-update-the-salesforce-campaign) and associate it to the [parent campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#parentchild-campaigns-setup) where applicable.
   - If you are a user of Allocadia, please see instructions [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).
 - Go back to the Marketo program and complete the tokens. Update the {{my.Survey Name}} token with the word "Default" - do not use another entry on this token.
 - If you are using a landing page: Update your [Registration page](/handbook/marketing/demand-generation/campaigns/landing-pages/#general-marketo-landing-page-creation-instructions), thank you page, and registration confirmation email.
