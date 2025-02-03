@@ -3,10 +3,6 @@ title: "Red Team"
 no_list: true
 ---
 
-GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within GitLab for the best possible result.
-
-Because malicious actors are not constrained by the narrow focus of traditional security testing, we must take on an adversarial mindset in order to challenge our own assumptions and identify areas for improvement across our entire organization. We emulate the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our environment.
-
 ## What are you looking for? (GitLab team members)
 
 - "**Is this the Red Team? / Is the activity I'm seeing part of a red team operation?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](how-we-operate/#is-this-the-red-team)
@@ -24,16 +20,21 @@ Because malicious actors are not constrained by the narrow focus of traditional 
 
 ## General Information
 
-### Vision
+### Our Vision
 
-Improve GitLab's security posture and sharpen our defenses against constantly-evolving tools, techniques and procedures (TTPs) used by real-world adversaries. Continue to be a leader in the offensive security space with demonstrated transparency, collaboration and technical skill.
+To continuously strengthen GitLab's defenses against evolving real-world threats while leading the offensive security industry through transparency, collaboration, and technical excellence.
 
-### Mission
+### Our Mission Statement
 
-- Leverage relevant threat intelligence to emulate realistic threats to our organisation. Do so ethically, safely, and collaboratively with the wider organisation.
-- Demonstrate the risk and impact of misconfigurations and security gaps.
-- Create recommendations to improve GitLab's security posture.
-- Collaborate with industry peers and customers to share relevant techniques as appropriate.
+The Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
+
+We achieve this by:
+
+- Leveraging threat intelligence to emulate the tactics and techniques of adversaries most relevant to GitLab
+- Partnering with teams across GitLab to translate security observations into meaningful improvements
+- Collaborating openly with industry peers to share security practices
+
+While our work requires us to think and act like adversaries, we remain firmly grounded in the GitLab values. We intentionally bring transparency and collaboration to Red Teaming, conducting all operations thoughtfully and safely to achieve the best possible results for our organization.
 
 ## The Team
 
