@@ -34,16 +34,14 @@ All deployed software represents a potential security risk: we aim to ensure tha
 
 ### Document services that must run on virtual machines
 
-1. Conversations come up regularly that discuss migrating a service into Kubernetes / replacing it with a cloud native offering. We could collect this knowledge in a handbook page (or similar) so that we understand why it is prohibitive to change the service’s architecture, or any potential replacements and the prerequisites required before they become feasible.
+1. Conversations come up regularly that discuss migrating a service into Kubernetes / replacing it with a cloud native offering. We could collect this knowledge in a handbook page (or similar) so that we understand why it is prohibitive to change the service's architecture, or any potential replacements and the prerequisites required before they become feasible.
 2. Ideally this can help in determining feasible options for deploying the services on infrastructure that is easier to maintain, and facilitate future planning.
-
 
 ### Address patch gaps in non-VM infrastructure workloads
 
 1. Examine infrastructure workloads such as: Kubernetes pods, CloudRun containers, Cloudflare workers, etc.
 2. Determine whether or not existing workflows are satisfactorily keeping these up to date.
 3. Add automation to address any shortcomings in the discovery and update processes.
-
 
 ### Establish update cadence for shared runner COS images
 

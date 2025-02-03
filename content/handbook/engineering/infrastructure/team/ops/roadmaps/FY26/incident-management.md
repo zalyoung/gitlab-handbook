@@ -36,7 +36,6 @@ Teams can support the services they build, including taking ownership of on-call
    1. Standardized training and documentation
 1. Data-driven incident management improvements through robust reporting
 
-
 ### Tooling
 
 1. Implement incident.io for GitLab.com and Dedicated
