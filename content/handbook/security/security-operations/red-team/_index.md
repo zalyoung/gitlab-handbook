@@ -5,7 +5,7 @@ no_list: true
 
 ## What Are You Looking For?
 
-- "**Is this the Red Team? / Is the activity I'm seeing part of a red team operation?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](how-we-operate/#is-this-the-red-team)
+- "**Is this the Red Team? / Is the activity I'm seeing part of a Red Team operation?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](how-we-operate/#is-this-the-red-team)
 - "**I have some attacker related ideas that could be quite interesting!**" :point_right: [Contact us](#contact-us)
 - "**Do you do penetration testing?**" :point_right: No. :smile: We don't do vulnerability enumeration. See [Services we offer](#services-we-offer)
 - "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks#club-red)
@@ -82,11 +82,11 @@ Examples include:
 - tools such as enumeration/scanning tools, command and control (C2) frameworks
 - malware found in the wild
 
-We publish tech notes that summarise some of our research as part of responsible disclosure. Explore our [list of tech notes, blogs and other research](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/red-team-tech-notes/) and [public Git repository of some past tooling and techniques](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/).
+We publish tech notes that summarize some of our research as part of responsible disclosure. Explore our [list of tech notes, blogs and other research](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/red-team-tech-notes/) and [public Git repository of some past tooling and techniques](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/).
 
 ## How We Operate
 
-The Red Team operates under a predefined set of [rules of engagement](how-we-operate/rules-of-engagement). These rules provide guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
+The Red Team operates under a predefined set of [rules of engagement](how-we-operate/rules-of-engagement). These rules provide guidelines for determining scope, the values we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
 
 We also track results via metrics which are available internally, including MITRE heatmap to ensure coverage of relevant attacker activity.
 
