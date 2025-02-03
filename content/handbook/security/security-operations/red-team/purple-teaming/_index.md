@@ -23,7 +23,7 @@ At a high level, the goals of an operation generally fall into one of the follow
 
 These are very short (1-2 weeks) and start with the identification of a relevant threat. Generally Red Team members meet with Blue Team members to plan and carry out the execution.
 
-1. We work with the [Threat Intelligence team](/handbook/security/security-operations/threat-intelligence) to identify one or more relevant TTPs (tool, technique and procedure) that is worth exploring collaboratively.
+1. We work with the [Threat Intelligence team](/handbook/security/security-operations/threat-intelligence) to identify one or more relevant TTPs (tool, technique and procedure) that's worth exploring collaboratively.
 2. We arrange a time to run the TTP(s), usually inside a virtual machine, and the Blue Team confirms detection (or no detection).
 3. The detections are created or improved, resulting in a better security result for GitLab.
 4. We collaborate on a report and share it within the security division (and wider company if applicable), so everyone is aware.
