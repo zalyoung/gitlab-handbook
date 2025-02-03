@@ -112,7 +112,7 @@ You should not ask any questions about the person's race, gender, sexual prefere
 - Who watches their children while they are at work?
 - What types of groups does the candidate belong to that are not work related?
 
-[Use our guide to scoring]({{< ref "conducting-a-gitlab-interview#all-divisions-but-engineering" >}}) to help select the vote you choose when submitting a scorecard for each reference check.
+[Use our guide to scoring](/handbook/hiring/conducting-a-gitlab-interview/#all-divisions-but-engineering) to help select the vote you choose when submitting a scorecard for each reference check.
 
 ### Reference Check Review
 

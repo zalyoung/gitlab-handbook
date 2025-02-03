@@ -3,7 +3,7 @@ title: "Candidate Experience Specialist Responsibilities"
 description: "This page is an overview of the processes, and systems that the Candidate Experience Team is responsible for."
 ---
 
-The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) and ModernLoop to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and an issue will automatically be created within the CES Service Desk. Please see the [alignment page]({{< ref "recruiting-alignment#recruiter-coordinator-and-sourcer-alignment-by-department" >}}) to learn more about which CES team member will be working on your requests. Our team leverages ModernLoop for interview scheduling, seamlessly connecting with our existing calendar and ATS.
+The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) and ModernLoop to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and an issue will automatically be created within the CES Service Desk. Please see the [alignment page](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department) to learn more about which CES team member will be working on your requests. Our team leverages ModernLoop for interview scheduling, seamlessly connecting with our existing calendar and ATS.
 
 #### How the CES Team will run the Service Desk
 
@@ -23,6 +23,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
 
 ### Team Interviews
 
+<<<<<<< HEAD
 - When a candidate is ready for a team interview, the recruiter will request availability in ModernLoop. Once availability is requested, it will create a task for CES to schedule.
   - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours]({{< ref "interviewing#moving-candidates-through-the-process" >}}) out to leave time for interviewer prep.
   - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
@@ -30,6 +31,15 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
   - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
 - After availability is received, CES will schedule interviews based on the interview plans in Greenhouse/ModernLoop and will track preferences within the CES Service Desk [repo](https://gitlab.com/gl-talent-acquisition/ces-service-desk/-/tree/master).
   - CES will be using the Zoom integration with ModernLoop for interviews
+=======
+- When a candidate is ready for a team interview, the recruiter will request availability in Greenhouse using the email address of the CES team member [they partner with](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department). They will then click "Email the Team" on the right side of the candidate's Greenhouse page and send CES the "CES Scheduling Request form".
+  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/interviewing/#moving-candidates-through-the-process) out to leave time for interviewer prep.
+  - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
+- If no response is received within 24 hours, CES will send a follow up request for availability and set the due date of the issue to 24 hours after the next email to check for availability again.
+  - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
+- After availability is received, CES will schedule interviews based on the interview plans in Greenhouse and will track preferences within the CES Service Desk [repo](https://gitlab.com/gl-talent-acquisition/ces-service-desk/-/tree/master).
+  - CES will be using the Zoom integration with [Prelude](/handbook/hiring/prelude/) for interviews
+>>>>>>> 057140599d (Update ref links to regular links)
   - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
 - If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring#interview-stages) for instructions.
@@ -56,7 +66,11 @@ To schedule a technical interview, CES should follow the process outlined below:
 - CES will receive two separate tickets to the CES service desk:
   - CES will immediately receive the scheduling request from the recruiter, and;
   - The completed GitLab Username form. This will only come into the service desk once the candidate replies to the email, and the username will automatically be added to the Details tab of the candidate's profile under Details > Other. CES should check that the GL username is valid and ensure that the GL username is in a URL format.
+<<<<<<< HEAD
 - Once CES has received and confirmed that the candidate's GL username is valid, the CES team member can proceed with scheduling the interview in ModernLoop.
+=======
+- Once CES has received and confirmed that the candidate's GL username is valid, the CES team member can proceed with scheduling the interview in Prelude. Prelude processes can be found [here](/handbook/hiring/prelude/).
+>>>>>>> 057140599d (Update ref links to regular links)
   - Note: when you send the interview invite to the interviewer, select the template 'Technical Interview with MR'.
 - CES will then send the candidate their confirmation through ModernLoop as well.
   - In the candidate confirmation template, CES will insert the appropriate text expander snippet with interview instructions into the body of the confirmation. This provides the candidate with additional information about what they can expect for their technical interview.
@@ -174,7 +188,7 @@ Global Reference Check Forms will have a question for hires asking if they are l
 CES will then need to track the request to know when the Background check clears and we can move forward with sending the offer. Please follow the following steps:
 
 1. Set reminders to follow up to see if Background check has cleared and/or reach out to the Background Check specialist at GitLab to confirm.  You can set reminders in the candidates GH profile and/or due dates on your ticket in GitLab.
-1. Once confirmation of background check clearance is received, the offer can then be sent and the Reference Check form ticket can be closed. Normal [offer process]({{< ref "ces-contract-processes#employment-agreements-for-gitlab-team-members-in-japan" >}}) will continue from there.
+1. Once confirmation of background check clearance is received, the offer can then be sent and the Reference Check form ticket can be closed. Normal [offer process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#employment-agreements-for-gitlab-team-members-in-japan) will continue from there.
 1. **Note**: If recruiter has already sent in the contract request ticket for the candidate, please add the "On Hold" label so that you do not send the offer until you have clearance of the background check
 
 **NYC Location**
@@ -258,7 +272,7 @@ These calls don't require you to submit a scorecard in Greenhouse. If a candidat
 
 ### Send contract
 
-[See Candidate Experience Specialist Contract Processes section of the handbook]({{< ref "ces-contract-processes" >}})
+[See Candidate Experience Specialist Contract Processes section of the handbook](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
 
 The [Candidate Experience Specialists](/job-families/people-group/candidate-experience) will prepare the contract. While the Candidate Experience Specialist will prioritize a contract above other tasks, the expected turn around on the task is 1 business day. If the contract is time-sensitive, please provide context for the rush. If the Candidate Experience Specialist cannot meet the 1 business day they will inform the recruiter and CES manager via Greenhouse and will provide context.
 
@@ -275,10 +289,10 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 - Has the signatory been determined by the Candidate Experience Specialist and updated?
 - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
 
-1. [Generate the contract within Greenhouse]({{< ref "ces-contract-processes" >}}) using a template based on the details found in the offer package.
+1. [Generate the contract within Greenhouse](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/) using a template based on the details found in the offer package.
 1. Contact the recruiter or new team member to gather any missing pieces of information (note: the address can be found on the background screening information page).
 1. If the contract was created outside of Greenhouse, ensure that the contract has been reviewed and approved by a member of the Legal team.
-1. [Stage the contract in DocuSign from within Greenhouse]({{< ref "ces-contract-processes" >}}), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
+1. [Stage the contract in DocuSign from within Greenhouse](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
 1. **Before marking the candidate as hired** the Candidate Experience Specialist will reject the candidate from any other active roles including roles for which they are a prospect (without sending a rejection email). *NOTE: If this step is skipped, the profile will not be exported to Workday when the candidate is marked as hired.*
 1. **Before marking the candidate as hired** on all candidates, the CES will make sure that the profiles were merged (for internal candidates, this will be indicated if the candidate shows their original `Hired` inactive role). [View candidate merge instructions in the Candidate Hygiene section](/handbook/hiring#interview-stages).  *NOTE: If this step is skipped, it will create problems with privacy and increases the possibility of a new hire seeing their own Greenhouse profile.*
 1. **Before marking the candidate as hired** the CES will ping the recruiter and give them 24 hours to contact/reject all other active candidates. Once this is complete, the CES can proceed with hiring in GH (if candidates are still present in req, select the "keep open" option when setting candidate to hired. This will trigger a new opening to ensure candidates are still present in req)
@@ -289,7 +303,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 
    - Instructions on the [Notebook Ordering Process](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
 
-1. Should the start date change after the welcome email is sent please see the required steps [here]({{< ref "ces-contract-processes#how-to-update-a-start-date-after-the-contract-is-signed" >}}).
+1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
 
 The last part of the Candidate Experience Specialist's responsibilities with a candidate is to hire them into the system and pass them on to People Connect. The hire-in process includes more complexities, so CES created the following guidelines to clarify start date exceptions and confidentiality around new hires.
@@ -1084,8 +1098,8 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below).
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
-1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)] 
-1. Send the offer through Greenhouse and DocuSign. Use the "send through Docusign" template and add the RSU information into the body of the email. 
+1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
+1. Send the offer through Greenhouse and DocuSign. Use the "send through Docusign" template and add the RSU information into the body of the email.
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 
 Candidates in Germany have the right to ask for a wet signature contract.  (Process to be added)

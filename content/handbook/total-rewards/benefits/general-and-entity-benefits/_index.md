@@ -20,7 +20,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
 - [GitLab LTD (UK)]({{< ref "ltd-benefits-uk" >}})
 - [GitLab GmbH (Germany)]({{< ref "gmbh-germany" >}})
-- [GitLab PTY (Australia & New Zealand)]({{< ref "pty-benefits-australia" >}})
+- [GitLab PTY (Australia & New Zealand)](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/)
 - [GitLab Canada Corp]({{< ref "canada-corp-benefits" >}})
 - [GitLab GK (Japan)]({{< ref "gitlab-gk" >}})
 - [GitLab Ireland LTD]({{< ref "gitlab-ireland-ltd" >}})

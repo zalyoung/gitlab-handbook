@@ -81,7 +81,7 @@ If you are looking to open a job for pipeline reasons, because a Hiring Manager 
 **The Recruiter will:**
 
 1. The Recruiter will open a [kick-off issue](https://gitlab.com/gl-talent-acquisition/req-intake/-/issues/new). This will happen simultaneously with the steps for opening the job in Greenhouse below.
-1. [Log in]({{< ref "greenhouse#how-to-join-greenhouse" >}}) to [Greenhouse](https://gitlab.greenhouse.io/users/sign_in) and hover over the plus sign in the top right corner of their dashboard, and then click [Create a Job](https://app2.greenhouse.io/plans/new).
+1. [Log in](/handbook/hiring/greenhouse/#how-to-join-greenhouse) to [Greenhouse](https://gitlab.greenhouse.io/users/sign_in) and hover over the plus sign in the top right corner of their dashboard, and then click [Create a Job](https://app2.greenhouse.io/plans/new).
 1. Click on [Start from a copy of an existing job](https://gitlab.greenhouse.io/get_started/show_existing_jobs). From there, select `Any Status` at the top bar, select `Draft`, and choose the template for the division. If you need a template created, please speak with a member of the Enablement team.
 
 Once you've selected a template to copy, the first screen will ask for **Basic Job Info**.
@@ -260,7 +260,7 @@ On occasion, there may be additional or fewer stages than represented here, but 
 
 1. Update the `Hiring Team` after the Kick-off Session.
 1. The Hiring Team is where you select who will be working on this opening and what access they should have.
-   - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)]({{< ref "recruiting-alignment" >}}), Coordinator(s) and Sourcer(s).
+   - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/), Coordinator(s) and Sourcer(s).
    - Scroll to the `Who can see this job?` section to set permissions to the team members who will need access. Search for someone's name, click the pencil and select the correct access level from the drop-down.
    - Ensure that only necessary team members have Hiring Manager access. Filter the bottom section by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need advanced access and should be removed.
 

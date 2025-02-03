@@ -25,7 +25,7 @@ This communication response plan maps out the who, what, when, and how of GitLab
 
 ## What is an incident?
 
-The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide]({{< ref "sec-incident-response#incident-identification" >}}).
+The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide](/handbook/security/security-operations/sirt/sec-incident-response/#incident-identification).
 
 ### 💁 Corporate incident response
 
@@ -37,7 +37,7 @@ For Infrastructure incidents, please follow the [infrastructure incident managem
 
 ## Defining the scope/severity of an incident
 
-The `Security Engineer On-Call` will determine the scope and [severity]({{< ref "sec-incident-response#incident-severity" >}}) and [potential impact]({{< ref "storm-program#determining-the-impact-of-a-threat-event" >}}) of the security incident. Once the potential impact has been determined, implementation of the appropriate internal and external communications strategy should begin.
+The `Security Engineer On-Call` will determine the scope and [severity](/handbook/security/security-operations/sirt/sec-incident-response/#incident-severity) and [potential impact]({{< ref "storm-program#determining-the-impact-of-a-threat-event" >}}) of the security incident. Once the potential impact has been determined, implementation of the appropriate internal and external communications strategy should begin.
 
 ### Roles and responsibilities in a Security incident
 
@@ -243,7 +243,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 - Parent Policy: [Information Security Policy](/handbook/security)
-- [Security Incident Response Guide]({{< ref "sec-incident-response" >}})
+- [Security Incident Response Guide](/handbook/security/security-operations/sirt/sec-incident-response/)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
 - [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)

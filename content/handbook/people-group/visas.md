@@ -5,7 +5,7 @@ description: "Information on travel visas, visa letters, and immigration to the 
 
 ## Visa and Sponsorship Policy
 
-GitLab does **not** offer any form of work or study sponsorship anywhere in the world, other than our specific, internal [Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) process and support for highly skilled candidates in *certain* countries, where a candidate is already based in that country. GitLab does **not** offer any form of support to transfer an existing work permit. During the [screening process](/handbook/hiring/interviewing/#what-to-expect-during-an-interview-with-a-recruiter), recruiters will ask applicants if they require any type of sponsorship or support.
+GitLab does **not** offer any form of work or study sponsorship anywhere in the world, other than our specific, internal [Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) process and support for highly skilled candidates in *certain* countries, where a candidate is already based in that country. GitLab does **not** offer any form of support to transfer an existing work permit. During the [screening process](/handbook/hiring/interviewing/#what-to-expect-during-an-interview-with-a-recruiter), recruiters will ask applicants if they require any type of sponsorship or support.
 
 For our purposes, visa sponsorship is defined as the requirement that a company or individual support a foreign national’s visa application. Sponsorship may be referred to by different terms depending on the country or visa, but any visa application or approval that is contingent on the company taking on certain obligations is considered synonymous with sponsorship.
 
@@ -172,11 +172,11 @@ If you meet these requirements, kindly read our [Relocation](/handbook/people-gr
 
 #### Transferring a partner visa to a highly skilled migrant visa
 
-Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) and executive approval. Please reach out to the People Connect team via HelpLab to get this process started.
+Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) and executive approval. Please reach out to the People Connect team via HelpLab to get this process started.
 
 Tasks for People Connect:
 
-1. The People Connect team member reviews if the [eligibility criteria]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) are met and asks the manager to confirm that the team member is not on a Performance Improvement Plan (PIP)
+1. The People Connect team member reviews if the [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) are met and asks the manager to confirm that the team member is not on a Performance Improvement Plan (PIP)
 1. The People Connect team member emails HR Savvy (see contact details in 1password) to confirm the total amount of fees for this process since they are subject to change
 1. The People Connect team member emails the team member's Division's E-Group leader for their written approval and includes the total amount of fees in the email
 1. Once approved the People Connect team member emails HR Savvy with the team member in cc to request the visa transfer

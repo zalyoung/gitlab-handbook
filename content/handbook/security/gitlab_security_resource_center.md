@@ -87,7 +87,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Incident response and communication
 
 - [Security incident communications plan procedure]({{< ref "security-incident-communication-plan" >}})
-- [Security incident response guide]({{< ref "sec-incident-response" >}})
+- [Security incident response guide](/handbook/security/security-operations/sirt/sec-incident-response/)
 
 ### Independent assurance
 

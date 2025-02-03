@@ -36,9 +36,9 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 - [TA Key Performance Indicators](https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/) Note: this page is currently in our internal handbook as they are a work in progress.
 - [Meeting Cadence](/handbook/hiring/meetings)
-- [Talent Acquisition Alignment]({{< ref "recruiting-alignment" >}})
+- [Talent Acquisition Alignment](/handbook/hiring/recruiting-alignment/)
 - [Diversity, Inclusion & Belonging Talent Acquisition Initiatives](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)
-- [Triad Process]({{< ref "triadprocess" >}})
+- [Triad Process](/handbook/hiring/talent-acquisition-framework/triadprocess/)
 - [Quarterly Updates](https://internal.gitlab.com/handbook/people-group/talent-acquisition/quarterly-updates/) Note: Internal only
 
 {{% details summary="Shared Definitions" %}}
@@ -53,32 +53,32 @@ We strive to be as transparent as possible, but these sections are only availabl
 Please find pages for potential and active applicants below.
 
 - [Candidate Handbook Page](/handbook/hiring/candidate-faq/)
-- [Talent Acquisition Privacy Policy]({{< ref "recruitment-privacy-policy" >}})
+- [Talent Acquisition Privacy Policy](/handbook/hiring/candidate-faq/recruitment-privacy-policy/)
 
 ### Interviewer Processes
 
-- [Interviewer Prep Requirements]({{< ref "interviewing" >}})
-- [Conducting a GitLab Interview]({{< ref "conducting-a-gitlab-interview" >}})
+- [Interviewer Prep Requirements](/handbook/hiring/interviewing/)
+- [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
 - [Greenhouse for Interviewers]({{< ref "greenhouse/#for-all-interviewers" >}})
 
 ### Hiring Manager Processes
 
-- [Hiring Manager Processes]({{< ref "talent-acquisition-framework/hiring-manager" >}})
-- [Conducting a GitLab Interview]({{< ref "conducting-a-gitlab-interview" >}})
+- [Hiring Manager Processes](/handbook/hiring/talent-acquisition-framework/hiring-manager/)
+- [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
 - [Greenhouse for Hiring Managers]({{< ref "greenhouse/#for-hiring-managers" >}})
 
 ### Candidate Experience Specialist Processes
 
 {{% details summary="Greenhouse integrations you'll need" %}}
 
-- [Prelude]({{< ref "prelude" >}}): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
+- [Prelude](/handbook/hiring/prelude/): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
 - [Guide](https://support.greenhouse.io/hc/en-us/articles/360052205072-Guide-integration): Check with your manager if you do not have higher level access to navigate inside of Prelude.
 - [DocuSign](https://support.greenhouse.io/hc/en-us/articles/205633569-DocuSign-integration)
 {{% /details %}}
 
 - [Candidate Experience Specialist Responsibilities](/handbook/hiring/talent-acquisition-framework/coordinator)
-- [Prelude]({{< ref "prelude" >}})
-- [How to Complete a Contract - CES Process]({{< ref "ces-contract-processes" >}})
+- [Prelude](/handbook/hiring/prelude/)
+- [How to Complete a Contract - CES Process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
 
 ### Recruiters and Sourcers
 
@@ -112,7 +112,7 @@ Please find pages for potential and active applicants below.
 - [Post an **internal** job]({{< ref "req-creation#opening-vacancies-in-greenhouse-dri-recruiter" >}})
 - [Post an **external** job]({{< ref "req-creation#publish-the-job-to-the-careers-page--review-greenhouse-configuration" >}})
 - [Using Rules]({{< ref "req-creation#using-job-posting-rules-in-greenhouse" >}})
-- [Auto-tags]({{< ref "greenhouse#auto-tags" >}})
+- [Auto-tags](/handbook/hiring/greenhouse/#auto-tags)
 - {{% details summary="Tips and Tricks" %}}
 - Salary transparency: In select US states, GitLab discloses salaries in job descriptions in accordance with local laws. Total Rewards will add this information to the job's approvals page. When you create your *external* job post, utilize Pay Transparency Rules and select Hiring in the USA. If the job will not be posted in the US, select N/A.
 - EEOC questions should be checked off in the US only
@@ -161,7 +161,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
-- Candidate Experience Specialists use [Prelude]({{< ref "prelude#prelude" >}}) to schedule.
+- Candidate Experience Specialists use [Prelude](/handbook/hiring/prelude/#prelude) to schedule.
 - Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
 {{% /details %}}
 
@@ -265,7 +265,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 ### Referrals
 
 - [Referral Operations]({{< ref "referral-operations" >}})
-- [Referral Process]({{< ref "referral-process" >}})
+- [Referral Process](/handbook/hiring/referral-process/)
 - [Details on who is eligible for referrals](/handbook/total-rewards/incentives/#referral-bonuses)
 
 ### Acquisitions
@@ -301,9 +301,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - For candidates who are located in Countries where we do not have an entity, we use a PEO (Professional Employment Organization).  The actual employment contracts will be sent and issued by the PEO who also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and the PEO.
 - GitLab is currently hiring into three PEOs
-- [Remote.com]({{< ref "ces-contract-processes#remotecom" >}})
-- [Global Upside]({{< ref "ces-contract-processes#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside" >}})
-- [Papaya]({{< ref "ces-contract-processes#how-to-add-the-new-hire-to-the-remote-platform" >}})
+- [Remote.com](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#remotecom)
+- [Global Upside](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside)
+- [Papaya](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-add-the-new-hire-to-the-remote-platform)
 - The following timelines to onboarding are advised:
 
 **Remote.com:** [remote.com onboarding timeline](https://support.remote.com/hc/en-us/articles/4411262104589-Employee-Onboarding-Timeline)
@@ -337,7 +337,7 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 
 ## Other Hiring Pages
 
-- [Greenhouse]({{< ref "greenhouse" >}})
+- [Greenhouse](/handbook/hiring/greenhouse/)
 - [Talent Acquisition Process Framework](/handbook/hiring/talent-acquisition-framework/)
 
 ## Additional Resources
@@ -350,4 +350,4 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 - [GitLab talent ambassador](/handbook/hiring/gitlab-ambassadors/)
 - [Onboarding](/handbook/people-group/general-onboarding/)
 - [Stock options](/handbook/total-rewards/stock-options/)
-- [Visas]({{< ref "visas" >}})
+- [Visas](/handbook/people-group/visas/)

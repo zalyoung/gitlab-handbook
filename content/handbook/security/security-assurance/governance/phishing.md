@@ -5,7 +5,7 @@ title: "Phishing Program"
 {{% alert color="danger" title="Alert" %}}
 If you suspect you've received a phishing email and have not engaged with the sender, please see: [What to do if you suspect an email is a phishing attack](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack).
 If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the Security Engineer on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/#phishing).
-Further information on GitLab's security response program is described in our [Incident Response]({{< ref "sec-incident-response" >}}) guide.
+Further information on GitLab's security response program is described in our [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) guide.
 {{% /alert %}}
 
 ## Phishing Program

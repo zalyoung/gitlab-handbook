@@ -37,7 +37,7 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
 
 1. **Everyone can contribute**
     - We've got big ambitions to make GitLab the [top DevSecOps platform](https://about.gitlab.com/solutions/devops-platform/) and need skilled contributors to get us there.
-    - Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations]({{< ref "using-gitlab-at-gitlab" >}}) on our product. This means everything is read-write by default.
+    - Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations](/handbook/people-group/using-gitlab-at-gitlab/) on our product. This means everything is read-write by default.
     - We operate around the world. We welcome people of all backgrounds to contribute to our success and have built [Diversity, Inclusion, and Belonging programs](/handbook/company/culture/inclusion/) and practices into all parts of our company.
 1. **Anyone can thrive**
     - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being](/handbook/total-rewards/benefits/) regardless of location.

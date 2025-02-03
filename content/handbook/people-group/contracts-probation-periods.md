@@ -254,7 +254,7 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 - If there are performance concerns the manager will discuss the planned course of action with the Team Member Relations Team. The contract may end or get extended for another fixed term. The Team Member Relations Team can help with providing guidance on the messaging.
 
 1. At least 1 month before the end of the contract, the manager informs the team member of the extension or not.
-1. If a salary increase is required due to updated [visa salary requirements]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) the People Connect Team member requests approvals from the team member's manager, total rewards and finally the team member's Division's E-Group leader.
+1. If a salary increase is required due to updated [visa salary requirements](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) the People Connect Team member requests approvals from the team member's manager, total rewards and finally the team member's Division's E-Group leader.
 1. The People Connect Team member uploads the approval to the Workday Documents folder.
 1. If the contract extension is approved, the People Connect Team member creates the contract
 
@@ -281,7 +281,7 @@ Note: A team member cannot have more than three fixed term contracts with the sa
 
 1. Best practice for team members in the Netherlands is to issue one 1-year Fixed term Contract prior to moving to an indefinite contract. After the completion of the 1-year Fixed term Contracts, we move to the indefinite contract.
 
-1. GitLab is to take into consideration the entire tenure of the team member at time of relocation to determine the type of contract to create. Due to the usual 1-year tenure at GitLab prior to a team member requesting to [relocate and immigrate to the Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}), if the team member has been at GitLab more than one year, the best practice procedure would be to give the team member an indefinite contract, with approval from their manager.
+1. GitLab is to take into consideration the entire tenure of the team member at time of relocation to determine the type of contract to create. Due to the usual 1-year tenure at GitLab prior to a team member requesting to [relocate and immigrate to the Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands), if the team member has been at GitLab more than one year, the best practice procedure would be to give the team member an indefinite contract, with approval from their manager.
 
 ## CXC Contract Renewal
 

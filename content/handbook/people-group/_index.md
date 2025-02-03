@@ -48,7 +48,7 @@ The People Group works together as one team, made up of five departments: People
 
 ### In Case of Emergency
 
-If team members need emergency support from GitLab's People team, please create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d). HelpLab is monitored during most working hours and is the centralized support platform for all people-related queries. Read more about our [People Connect methods of engagement]({{< ref "people-connect#methods-of-engagement" >}}).
+If team members need emergency support from GitLab's People team, please create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d). HelpLab is monitored during most working hours and is the centralized support platform for all people-related queries. Read more about our [People Connect methods of engagement](/handbook/people-group/people-connect/#methods-of-engagement).
 
 In critical cases, the [VP, People Operations, Technology & Analytics](/handbook/company/team/#pegan) is contactable 24/7 via their mobile numbers that appear in their Slack profile.
 
@@ -202,7 +202,7 @@ GitLab does not actively search for LinkedIn profiles that have inaccurate infor
 We use Workday to maintain team member information.  All team members (all contract types) are in Workday.
 Workday is managed and maintained by the People Tools and Technology team.
 
-See our [Workday Guide]({{< ref "workday-guide" >}}) to  learn more about how to use Workday.
+See our [Workday Guide](/handbook/people-group/workday-guide/) to  learn more about how to use Workday.
 
 ## Using Culture Amp
 
@@ -284,7 +284,7 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 - [People Policy Directory]({{< ref "people-policies" >}})
 - [Underperformance](/handbook/leadership/underperformance/)
-- [Visas]({{< ref "visas" >}})
+- [Visas](/handbook/people-group/visas/)
 - [Leadership handbook](/handbook/leadership/)
 - [People Group READMEs](/handbook/people-group/readmes)
 - [People Key Performance Indicators](/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
