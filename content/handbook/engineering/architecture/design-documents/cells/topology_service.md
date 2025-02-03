@@ -134,21 +134,29 @@ Topology Service will make sure that the given range is not overlapping with oth
 #### Logic to compute the range
 
 ```mermaid
-graph TD
+flowchart TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
   A -->|6 bits| C[Reserved]
   A -->|57 bits| D[Sequence]
+  D --> E{Legacy Cell?}
+  E --> |Yes|F[min: 1, max: 10^12 - 1]
+  E --> |"No (new cells)"| G{'QA' bucket?}
+  G --> |Yes| H[min: currentMaxId + 1, max: min + 10^9 - 1]
+  G --> |No| I[min: currentMaxId + 1, max: min + 10^11 - 1]
 ```
 
 - **Sign**: Always 0 for positive numbers.
 - **Reserved**: Currently always `0`, reserved for 2 purposes.
   1. To increase the number of cells, if needed.
   1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
-   ULID based ID allocator will have the `timestamp` value in the  most significant bits,
+   ULID based ID allocator will have the `timestamp` value in the most significant bits,
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
-- **Sequence**: Each cell will be given 41 bits of IDs (i.e: 2199,023,255,551), this will accommodate 65,536 unique cells in the 57 bits.
-  And at the time of writing the largest ID in the legacy cell was ~11 billion (primary key of `security_findings` table). 41 bits supports ~200 times this ID, thus it is sufficient for any cell.
+- **Sequence**:
+  * Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
+    * At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
+      the legacy cell and new non-QA cells will have sufficient IDs to grow into.
+  * Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
 
 Example `config.toml` of Topology Service:
 
@@ -156,29 +164,40 @@ Example `config.toml` of Topology Service:
 [[cells]]
 id = 1
 address = "legacy.gitlab.com"
-sequence_range = [1, 2199023255550]
+sequence_range = [1, 999999999999] # 1 trillion
+buckets = ["paid", "free"]
+status = "active"
 
 [[cells]]
 id = 2
 address = "cell-2-example.gitlab.com"
-sequence_range = [2199023255551, 4398046511101]
+sequence_range = [1000000000000, 1099999999999] # 100 billion
+buckets = ["paid", "free"]
+status = "active"
+
+[[cells]]
+id = 3
+address = "cells-3-test.gitlab.com"
+sequence_range = [1100000000000, 1100999999999] # 1 billion
+buckets = ["QA"]
+status = "active"
+
+[[cells]]
+id = 4
+address = "cells-4-example.gitlab.com"
+sequence_range = [1101000000000, 1200999999999] # 100 billion
+buckets = ["free"]
+status = "active"
 ```
 
-Calculation for `cell-1`:
+- Status:
+  - ready: Cell is not yet ready to accept traffic, but we hold a slot.
+  - online: Cell is accepting traffic and is part of cluster discovery.
+  - offline: Cell is valid but not accepting traffic and is still part of cluster discovery.
+  - removed: Cell is removed and will never be active again.
 
-- Sequences per cell: `(2^41 - 1) -> 2199023255551`
-- Maximum allocated ID: `nil` || 0
-- Sequence `min`: (MaximumAllocatedID + 1) -> 1
-- Sequence `max`: (min + SequencesPerCell - 1) -> 2199023255550
-- Sequence range:  [1, 2199023255550]
-
-Calculation for `cell-2`:
-
-- Sequences per cell: `(2^41 - 1) -> 2199023255551`
-- Maximum allocated ID: 2199023255550
-- Sequence `min`: (MaximumAllocatedID + 1) -> 2199023255551
-- Sequence `max`: (min + SequencesPerCell - 1) -> 4398046511101
-- Sequence range:  [2199023255551, 4398046511101]
+Once the cell gets `removed`, we will update the `sequence_ranges` with the _maxval_ consumed by the cell.
+So that if a normal cell gets removed (decommissioned), new QA cells can get IDs from those unused IDs (if it's more than 1 billion).
 
 NOTES:
 
@@ -187,8 +206,7 @@ NOTES:
      Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
      Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
      and it is estimated to take around 12 months.
-2. It's still uncertain how we will reuse the unused IDs from the decommissioned cells, it's been tracked in [issue#499109](https://gitlab.com/gitlab-org/gitlab/-/issues/499109).
-    - But this should not block anything as we can accommodate 65,535 cells for now and have room to increase in future using the reserved bits.
+2. As mentioned before, only QA cells might need more IDs. In that case we can monitor the cell's ID consumption and provide an additional range of 1 billion IDs (from currentMaxId).
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
