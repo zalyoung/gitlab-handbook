@@ -58,6 +58,7 @@ These targets will be [reviewed monthly](/handbook/product/product-processes/) a
 ##### Data flow for Contribution analytics
 
 **Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
+
 ```mermaid
 flowchart TB
     subgraph User Actions
