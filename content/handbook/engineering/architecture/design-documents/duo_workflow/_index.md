@@ -134,12 +134,14 @@ sequenceDiagram
      participant ai_gateway as AI Gateway
    end
    participant llm_provider as LLM Provider
-   ide->>gitlab_rails: Request AI Gateway JWT using OAuth token or PAT
-   ide->>executor: start executor with JWT
    user->>ide: trigger workflow from IDE
+   ide->>gitlab_rails: Create the workflow
+   gitlab_rails->>gitlab_rails: Create JWT for Duo Workflow Service
+   gitlab_rails->>gitlab_rails: Create ai_workflow scoped OAuth token
+   gitlab_rails->>gitlab_rails: Create the workflow
+   gitlab_rails->>ide: Return the workflow details and JWT and OAuth tokens
+   ide->>executor: start executor with workflow details and JWT and OAuth token
    executor->>+duo_workflow_service: Solve this issue (open grpc connection auth'd with AI Gateway JWT)
-   duo_workflow_service->>gitlab_rails: Request ai_workflow scoped OAuth token using AI Gateway JWT
-   duo_workflow_service->>gitlab_rails: Create the workflow (auth'd with ai_workflow OAuth token)
    duo_workflow_service->>llm_provider: Ask LLM what to do
    llm_provider->>duo_workflow_service: Run rails new my_new_app
    duo_workflow_service->>executor: execute `rails new my_new_app`
@@ -171,18 +173,14 @@ sequenceDiagram
 
     note over user,gitlab_rails: User is logged in via web
     user->>gitlab_rails: trigger workflow from Web UI
+    gitlab_rails->>gitlab_rails: Create JWT for Duo Workflow Service
+    gitlab_rails->>gitlab_rails: Create ai_workflow scoped composite identity OAuth token
+    gitlab_rails->>gitlab_rails: Create the workflow
 
-    note over gitlab_rails,executor: AI Gateway JWT
-    gitlab_rails->>executor: start executor
+    gitlab_rails->>executor: start executor in CI pipeline with workflow details and JWT and composite identity OAuth token
 
     note over executor,duo_workflow_service: AI Gateway JWT
     executor->>+duo_workflow_service: Solve this issue (open gRPC connection)
-
-    note over duo_workflow_service,gitlab_rails: AI Gateway JWT
-    duo_workflow_service-->>gitlab_rails: Request Composite OAuth token<br/>(token owned by service account, human user id added to token scopes based on AI Gateway JWT claims)
-
-    note over duo_workflow_service,gitlab_rails: Composite OAuth token
-    duo_workflow_service->>gitlab_rails: Create workflow
 
     note over duo_workflow_service,llm_provider: API Key (from env)
     duo_workflow_service->>llm_provider: Ask LLM what to do
@@ -206,7 +204,6 @@ sequenceDiagram
 
     note over gitlab_rails,user: No Auth Required
     gitlab_rails->>user: Workflow done!
-
 ```
 
 ### Self-managed architecture
