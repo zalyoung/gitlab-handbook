@@ -23,7 +23,6 @@ Additionally, this process should lead the way in leveraging GitLab features to 
 
 - Managers support in 1:1s with an improved view of individual team member's internal work
 
-
 ## Terminology
 
 - **Objective:** The Mission
