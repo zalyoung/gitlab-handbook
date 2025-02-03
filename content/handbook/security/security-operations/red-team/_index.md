@@ -15,8 +15,11 @@ no_list: true
 
 ## Contact Us
 
-- GitLab team members: Come chat with us on Slack in `#sd_security_redteam` or via Direct Message.
-- General public: _email?_
+- GitLab team members:
+  - Come chat with us on Slack in `#sd_security_redteam` or via Direct Message.
+  - Open an issue [in our internal issue tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues)
+- General public:
+  - Open an issue in one of [our public projects](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public)
 
 ## General Information
 
