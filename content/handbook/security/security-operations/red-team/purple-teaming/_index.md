@@ -32,16 +32,4 @@ These are very short (1-2 weeks) and start with the identification of a relevant
 
 [Atomic Testing](atomic-testing.md) is our first long-term Purple Team collaboration, enabling the easy re-run of these TTPs, much like unit tests do.
 
-## Purple Team Resources
-
-### Tools
-
-- [Vectr](https://vectr.io/): A free, closed-source Purple Team planning and reporting tool.
-- [MITRE CALDERA](https://caldera.mitre.org/): A free, open-source adversary emulation and automation tool.
-- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/): A web application to visualize and manipulate matrices of attacker tactics and techniques.
-
-### Training
-
-- [Purple Teaming Execution Framework](https://github.com/scythe-io/purple-team-exercise-framework): Another great resource written by Scythe.
-
 See also [Red Team Resources](../_index.md#additional-resourcesfurther-reading)

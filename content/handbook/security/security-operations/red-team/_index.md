@@ -93,12 +93,18 @@ We also track results via metrics which are available internally, including MITR
 
 ## Additional Resources/Further Reading
 
+### GitLab Resources
+
 - [Public Red Team repository](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public)
   - Contains tools, scripts/proofs of concept and tech notes that have been made public
 - [Internal Red Team repository](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal) (Available for GitLab team members only)
 - [Our list of tech notes, blogs and other research](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/red-team-tech-notes/)
 - [Our public Git repository of some past tooling and techniques](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/)
+
+### External Resources
+
 - [Red Team Development and Operations](https://redteam.guide/): An excellent book by Joe Vest and James Tubberville.
+- [Purple Teaming Execution Framework](https://github.com/scythe-io/purple-team-exercise-framework): Another great resource written by Scythe.
 - [MITRE ATT&CK: Getting Started](https://attack.mitre.org/resources/getting-started/): A collection of resources related to the ATT&CK framework, which is used as the foundation for much of our work.
 
 ## Is This The Red Team?
