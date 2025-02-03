@@ -42,9 +42,11 @@ The compute and network layout that runs GitLab.com
 
 #### GitLab.com Production Architecture {#gitlab-com-architecture}
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vShfNY5bxtjAsYq-YBDAJAnyjBuxN0i62NoDvbmhvDVOrCas20_Q4XA8Qxm1D2v0mmemP9y-rDsRQFe/pub?w=669&h=551" alt="">
+<img
+  src="https://docs.google.com/drawings/d/e/2PACX-1vT_5uGw5WDdR3zwjmT3ejgSVvY_HbyOthj5vCdDiOh5zSXmVMZm0-4NtBbETNYQNADcrS5_8FSLiWQI/pub?w=669&amp;h=551"
+  alt="GitLab.com Production Architecture diagram">
 
-[Source](https://docs.google.com/drawings/d/1NmafL3ULQnjuY3_JFMWDwXpjdd0I1hyMXkZ0bwUYNhI/edit), GitLab internal use only
+[Source](https://docs.google.com/drawings/d/1xM32ToSpKvySEHmkTzd4Fc4IAmdZu9lixdK98Fr0LTk/edit), GitLab internal use only.
 
 Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
 which are mainly the datastore services like `PostgresSQL`, `Gitaly`, `Redis`, `Elasticsearch`.
