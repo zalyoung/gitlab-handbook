@@ -27,7 +27,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 
 | Label    | Description |
 | -------- | ------- |
-| AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties |
+| AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties. MR security reviews are not concerned by this label, use AppSecWorkType::SecurityMRReview instead. |
 | AppSecWorkType::ThreatModel | Indicates the work was associated to the AppSec threat model duties |
 | AppSecWorkType::JihuMRreview | Indicates the work was associated to the AppSec JiHu merge request reviews duties |
 | AppSecWorkType::AppSecReview | Indicates the work was associated to the AppSec reviews duties |
@@ -38,7 +38,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::FieldSecurity | Indicates the work was associated to the request from Field Security (example: customer scan review requests) |
 | AppSecWorkType::VATRotation | Indicates the work was associated to the AppSec Federal AppSec VAT duties |
 | AppSecWorkType::FedAppSecRelCert | Indicates the work was associated to the AppSec Federal AppSec release certification and merge monitor review duties |
-| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (non stable counterpart MR reviews) duties |
+| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (including stable counterpart MR reviews) duties |
 | AppSecWorkType::TriageRotation | Indicates the work was associated to the AppSec Triage Rotation |
 | AppSecWorkType::CustomerEscalation | Indicates the work was associated to a customer escalating a security issue |
 | AppSecWorkType::SIRTandSecurityComms | Indicates the work was associated to a SIRT incidents and/or Security communications work |
