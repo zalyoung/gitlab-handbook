@@ -193,4 +193,4 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [Database group investigation](../../../infrastructure-platforms/data-access/database-framework/doc/root-namespace-sharding/)
 - [Shopify Pods architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale)
 - [Opstrace architecture](https://gitlab.com/gitlab-org/opstrace/opstrace/-/blob/main/docs/architecture/overview.md)
-- [Adding Diagrams to this blueprint](diagrams/index.md)
+- [Adding Diagrams to this blueprint](diagrams/_index.md)

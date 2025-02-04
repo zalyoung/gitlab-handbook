@@ -153,10 +153,10 @@ flowchart TD
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
 - **Sequence**:
-  * Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
-    * At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
+  - Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
+    - At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
       the legacy cell and new non-QA cells will have sufficient IDs to grow into.
-  * Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
+  - Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
 
 Example `config.toml` of Topology Service:
 
@@ -739,7 +739,7 @@ Citations:
 
 1. Google (n.d.). Using private service connect with cloudrun services. Google Cloud. Retrieved Nov 11, 2024, from <https://cloud.google.com/vpc/docs/private-service-connect>
 1. Google (n.d.). How multi-region with cloud spanner works. Google Cloud. Retrieved Nov 11, 2024,<https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations>
-1. [ADR for private service connect](..q/decisions/004_vpc_subnet_design/)
+1. [ADR for private service connect](decisions/004_vpc_subnet_design.md)
 
 ### Performance
 
