@@ -77,7 +77,7 @@ Any other forms of customizing the model:
 
 ### Architecture
 
-TODO diagram
+![Inference with Adapters](/images/handbook/engineering/architecture/design-documents/self_hosted_finetuning/arch_inference.png)
 
 ### Dataset Preparation
 Adapters will be trained using customer's data, for example their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
@@ -94,16 +94,10 @@ Once the task-specific adapters are trained, customers would need to host their 
 
 Once hosted, customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
 
-TODO: add examples of requests
-
 ### Fine-tuned Model Evaluation
 Once the adapter is trained, it should be evaluated against a base model in terms of the overall performance and responses. 
 
 To evaluate the model, customer would be required to deploy the model and its adapters and run evaluation service. The evaluation service would use validation dataset to test the base and finetuned models and present the results to the customer.
-
-### UI Design
-
-TODO
 
 ## Alternatives
 
