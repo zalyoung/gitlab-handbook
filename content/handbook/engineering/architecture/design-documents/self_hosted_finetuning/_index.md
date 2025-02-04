@@ -20,7 +20,6 @@ toc_hide: true
 
 This blueprint proposes a solution for customizing Duo Self-hosted models using Parameter-Efficient Fine-Tuning (PEFT). 
 
-
 ## Motivation
 
 With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to finetune it for a specific task or user's codebase.
@@ -34,6 +33,18 @@ While fine-tuning the entire model is one of the obvious solutions for model cus
 3) Hosting  _n_ different finetuned models simultaneously might be slow and resource expensive.
 
 This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
+
+## Goal
+
+Enable lightweight and efficient model customization for Gitlab Duo Self-hosted customers.
+
+## Non-goals
+
+Any other forms of customizing the model:
+
+- Full model fine-tuning
+- RAG
+- RLHF
 
 ## Proposal
 
@@ -60,18 +71,6 @@ As with any method, the LoRA method comes with its advantages and limitations. _
 1) LoRAs tend to "forget things" a bit more than the fully finetuned model. Thus, we can expect LoRA to perform better than the base model on the task it was trained on, but it could be worse than a base model on the task it was not trained.
 2) LoRAs are model-specific, meaning LoRAs can only properly work on the model it was trained on.
 3) LoRA is likely to lose in the overall performance and generalization to a fully tuned model.
-
-## Goal
-
-Enable lightweight and efficient model customization for Gitlab Duo Self-hosted customers.
-
-## Non-goals
-
-Any other forms of customizing the model:
-
-- Full model fine-tuning
-- RAG
-- RLHF
 
 ## Design and Implementation details
 
