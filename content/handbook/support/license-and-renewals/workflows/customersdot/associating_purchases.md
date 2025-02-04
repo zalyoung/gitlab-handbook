@@ -76,7 +76,7 @@ If the requestor is not an existing CustomersDot user when doing an email search
 1. Edit the `Name` and `Email` of the current `Sold To:` contact's CustomersDot customer account to the new contact, check the box `Skip email confirmation` and click `Save`.
 1. Check if the CustomersDot account is linked to a GitLab.com account:
       - On the CustomersDot account, navigate to the `Show` tab and confirm there is a value under `Uid`. The `Uid` is the ID of a GitLab account which can be checked via the Users API `https://gitlab.com/api/v4/users/<Uid>`
-      - [Unlink GitLab.com Account mechanizer function](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#unlink-gitlabcom-account).
+      - On the CustomersDot account, unlink the GitLab user account by selecting the **Unlink GitLab User** tab. This should prepopulate the GitLab username and associated account to unlink.
 1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the new email. Request the customer to [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account) to the CustomersDot account.
 1. Confirm that the `Sold To:` contact in the Billing account is also updated, otherwise follow [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot).
 

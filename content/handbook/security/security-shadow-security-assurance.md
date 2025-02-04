@@ -2,21 +2,15 @@
 title: "Security Shadow: Security Assurance"
 ---
 
-Completion of each course you will receive a certificate.  At the completion of all 3 courses your name will be recognized on this page.
-
 ## Security Compliance
 
 [Security Compliance:]({{< ref "_index.md#security-compliance" >}}) Where "Just do whatever you want" comes to die.
-Have you ever wondered where all those pesky security requests and requirements come from and why in the world you're always being asked to provide evidence and talk through how systems are designed and configured? Well then good news! Come join the security compliance team for a shadow rotation where we'll have you:
+Have you ever wondered where all those security requests and requirements come from and why in the world you're always being asked to provide evidence and talk through how systems are designed and configured? Well then good news! Come join the security compliance team for a shadow rotation where we'll have you:
 
 - Reading through information security framework documentation
 - Reviewing system access
 - Creating information security policies and standards
 - Testing security controls to see if what we want to have happen within our systems is what's actually happening
-
-After a couple weeks with the team you'll have a basic understanding of where these requirements come from and you'll make compliance friends for the rest of your life when auditors come to you in the future and you can say "Let's talk about the spirit of this control and figure out the easiest way to get you the evidence you need."
-
-If you have any questions please reach out in #sec-assurance and we'll be happy to tell you more!
 
 ### Schedule / Topics Covered
 
@@ -45,7 +39,7 @@ If you have any questions please reach out in #sec-assurance and we'll be happy 
 
 ### Team Manager
 
-Jeff Burrows @jburrows001
+Corey Oas @corey-oas
 
 ## Field Security and Governance
 
@@ -82,7 +76,7 @@ Our goal on the Field Security team is to be the liaison between GitLab's Securi
 
 ### Team Manager
 
-TBD
+Joe Longo @jlongo_gitlab
 
 ## Security Risk
 
@@ -100,11 +94,11 @@ The Security Risk team acts as a shield between GitLab and the dangers lurking w
 
 ### Course Length
 
-`TBD`
+6-8 hours over the course of a a few days or weeks depending upon your schedule.
 
 ### Team Manager
 
-`TBD`
+Ty Dilbeck, @tdilbeck
 
 ## Enrollment
 
