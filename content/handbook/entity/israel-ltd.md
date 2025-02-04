@@ -71,7 +71,7 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - Team Members contribute 6% through payroll deductions. Team Members have the option to increase their payroll deductions if they choose, up to 7% max.
 - GitLab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specifics.
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
-- Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
+- Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary, commissions, and overtime.
 
 Pension contributions continue while on leave, with the exception of unpaid leave.
 
