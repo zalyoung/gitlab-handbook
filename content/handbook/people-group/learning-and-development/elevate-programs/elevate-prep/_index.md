@@ -30,6 +30,10 @@ ElevatePrep consists of 4 core learning modules, each focusing on essential prof
 
 Each module is 60 minutes long and delivered live through our learning portal (in partnership with Hone). The program brings together cohorts of approximately 25 participants to ensure meaningful interaction and discussion.
 
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevateprepoverview.png)
+
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
+
 ## Program Requirements
 
 To successfully complete ElevatePrep, participants must:
