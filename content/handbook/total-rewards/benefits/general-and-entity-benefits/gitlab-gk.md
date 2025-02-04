@@ -9,7 +9,7 @@ Team members in Japan have the following statutory state benefits available: med
 
 GitLab does not plan on offering additional private medical or pension benefits at this time due to the government cover.
 
-GitLab will continue to review responses from the [Global Benefits Survey]({{< ref "benefits-survey#global-benefits-survey" >}}) as well as budgetary availability with respect to adding supplementary benefits in Japan.
+GitLab will continue to review responses from the [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/#global-benefits-survey) as well as budgetary availability with respect to adding supplementary benefits in Japan.
 
 ### Medical
 

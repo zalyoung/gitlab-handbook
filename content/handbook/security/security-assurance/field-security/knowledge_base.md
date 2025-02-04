@@ -20,7 +20,7 @@ The knowledge base is a self-service tool that enables you to quickly search for
 
 ### How does Field Security use the knowledge base?
 
-- To increase our efficiency and effectiveness when executing [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}})
+- To increase our efficiency and effectiveness when executing [Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 
 ## How can I access the knowledge base?
 

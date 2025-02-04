@@ -32,11 +32,11 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="margin:5px;">Mentorship</a>
     <a href="/handbook/people-group/learning-and-development/internship-for-learning/" class="btn btn-primary" style="margin:5px;">Internship for Learning</a>
     <a href="https://docs.google.com/presentation/d/1yY0ofMGgzN07ylTAnRP5geFnWcgUYkiVlcIyR54tpD0/edit#slide=id.g29a70c6c35_0_68" class="btn btn-primary" style="margin:5px;">Career Development Workshop</a>
-    <a href="{{< ref "coaching" >}}" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
+    <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
     <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
-    <a href="{{< ref "self-paced-learning#linux-foundation-courses" >}}" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
-    <a href="{{< ref "self-paced-learning#oreilly-learning" >}}" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
-    <a href="{{< ref "self-paced-learning#gcp-learning" >}}" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses)" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#oreilly-learning)" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#gcp-learning)" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationscourses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#conferences-and-live-workshops" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
@@ -134,7 +134,7 @@ Looking for a step-by-step guide on filling out the IGP? Use the resources below
 <div class="flex-row" markdown="0">
   <div>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/how-to-use-the-gitlab-individual-growth-plan-igp" class="btn btn-primary" style="margin:5px;">Short Course: How to use the IGP</a>
-    <a href="{{< ref "igp-guide" >}}" class="btn btn-primary" style="margin:5px;"> Handbook: The GitLab IGP Guide </a>
+    <a href="[igp-guide](/handbook/people-group/learning-and-development/career-development/igp-guide/)" class="btn btn-primary" style="margin:5px;"> Handbook: The GitLab IGP Guide </a>
     <a href="https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#" class="btn btn-primary" style="margin:5px;">Workday User Guide: Individual Growth Plans</a>
   </div>
 </div>

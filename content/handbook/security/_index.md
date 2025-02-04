@@ -37,7 +37,7 @@ Our mission is to enable everyone to innovate and succeed on a safe, secure, and
    - Avoiding security jargon
    - Seek opportunities to help others succeed
 
-To help achieve the vision of transparently leading the world to secure outcomes, the Security Division has nominated a [Security Culture Committee]({{< ref "security-culture" >}}).
+To help achieve the vision of transparently leading the world to secure outcomes, the Security Division has nominated a [Security Culture Committee](/handbook/security/security-culture/).
 
 ### Division Structure
 
@@ -137,7 +137,7 @@ We invest heavily in [device trust, identity management, and infrastructure gove
 
 ##### Security Program Management
 
-Security Program Management is responsible for complete overview and driving security initiatives across Product, Engineering, and Business Enablement. This includes the tracking, monitoring, and influencing priority of significant security objectives, goals, and plans/roadmaps from all security sub-departments.  [Security Program Manager Job Family]({{< ref "security-program-manager" >}})
+Security Program Management is responsible for complete overview and driving security initiatives across Product, Engineering, and Business Enablement. This includes the tracking, monitoring, and influencing priority of significant security objectives, goals, and plans/roadmaps from all security sub-departments.  [Security Program Manager Job Family](/job-families/security/security-program-manager/)
 
 ###### Security Program areas of focus
 
@@ -158,7 +158,7 @@ In keeping with our [core values](/handbook/values/) and the belief that [everyo
 
 #### Reporting vulnerabilities and security issues
 
-For information regarding GitLab's [HackerOne bug bounty program]({{< ref "hackerone-process" >}}), and creating and scheduling security issues, please see our [engaging with security]({{< ref "engaging-with-security" >}}) page and our [Responsible Disclosure Policy](https://about.gitlab.com/security/disclosure/).
+For information regarding GitLab's [HackerOne bug bounty program](/handbook/security/product-security/application-security/runbooks/hackerone-process/), and creating and scheduling security issues, please see our [engaging with security](/handbook/security/engaging-with-security/) page and our [Responsible Disclosure Policy](https://about.gitlab.com/security/disclosure/).
 
 #### Reporting an Incident
 
@@ -246,7 +246,7 @@ We believe it is important to share regular updates at various levels of the Sec
 
 #### Ransomware
 
-For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware]({{< ref "responding-to-ransomware" >}}) page.
+For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware](/handbook/security/responding-to-ransomware/) page.
 
 ---
 
@@ -304,7 +304,7 @@ When opening issues, please follow the [Creating New Security Issues]({{% ref "e
 
 - [Security Best Practices]({{< ref "." >}}), using 1Password and similar tools, are documented
   on their own [security best practices page]({{< ref "." >}}).
-- [Secure Coding Training]({{< ref "secure-coding-training" >}}).
+- [Secure Coding Training](/handbook/security/secure-coding-training/).
 - GitLab.com [data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy).
 - GitLab Internal Acceptable Use [Policy](/handbook/people-group/acceptable-use-policy/).
 - For GitLab.com, we have developed a [Google Cloud Platform (GCP) Security Guidelines Policy](https://docs.google.com/document/d/1BBTWC5OpIqrva7DqH4nkjYUmNZ3UFbc6erqV89P_N-o/edit?usp=sharing) document, which outlines recommended best practices, and is enforced through
@@ -315,9 +315,9 @@ our security automation initiatives.
   - and one [exclusively for stickers](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk/pdf/sticker/gitlab-security-icon-diecut-sticker-3x2_78in.pdf).
 - [Security READMEs](/handbook/security/readmes/)
 - [Working in Security](/handbook/security/working-in-security.md)
-- [Contributing to GitLab the product as a Security team member]({{< ref "contributing-to-gitlab-the-product" >}})
+- [Contributing to GitLab the product as a Security team member](/handbook/security/contributing-to-gitlab-the-product/)
 - [Threat Modeling](product-security/application-security/threat-modeling/)
 
 #### AI in Security Learning Group
 
-This group is setup to help interested Security team members get up to speed with AI technologies and how to secure them. For more information, see the [AI in Security Learning Group page]({{< ref "learning-group-ai" >}}).
+This group is setup to help interested Security team members get up to speed with AI technologies and how to secure them. For more information, see the [AI in Security Learning Group page](/handbook/security/learning-group-ai/).
