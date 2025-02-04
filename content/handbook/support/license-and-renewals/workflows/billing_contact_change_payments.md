@@ -207,7 +207,7 @@ account.
 1. Use the [`General::Accounts Receivable`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360038646513) macro to transfer the ticket to AR to
    process the request. They will reply to the customer once done.
 
-   ### Process payment again after credit card update
+### Process payment again after credit card update
 
 When a customer has updated their credit card after a failed payment attempt and would like the payment processed with the new card:
 
