@@ -20,16 +20,15 @@ Each quarter, the Talent Acquisition team reports out on 4 top line productivity
 1. Cost per Hire
 1. Requisition Aging (% of requisitions that are open 75+ days)
 
-
-There are a number of additional metrics we monitor to understand the overall health of our hiring motion and where we have risk or are trending above or below industry benchmarks. Those metrics are defined to include: 
-- Start Date Forecast Attainment: Total number of external starts against forecast starts target set in partnership with Finance during the first week of each quarter. Goal is to be within +/-5% of the forecast. 
+There are a number of additional metrics we monitor to understand the overall health of our hiring motion and where we have risk or are trending above or below industry benchmarks. Those metrics are defined to include:
+- Start Date Forecast Attainment: Total number of external starts against forecast starts target set in partnership with Finance during the first week of each quarter. Goal is to be within +/-5% of the forecast.
 - Ending Headcount to Plan Variance: Ending headcount from original FY25 Annual Operating Plan.
-- Reforecast: Quarterly reforecasted ending headcount number (taking into account RLoA/Incremental Headcount additions, Headcount splits, Reallocation of funds, Culling, etc). 
+- Reforecast: Quarterly reforecasted ending headcount number (taking into account RLoA/Incremental Headcount additions, Headcount splits, Reallocation of funds, Culling, etc).
 - Time to Fill (TTF): Number of days from a requisition opening in Greenhouse to offer acceptance. Under 75 day time to fill is considered healthy.
-- Aging Requisitions: Number of requisitions with running TTF of 75+ days. On track is anything under 10%, at risk 11-19%, and off track 20%+. 
+- Aging Requisitions: Number of requisitions with running TTF of 75+ days. On track is anything under 10%, at risk 11-19%, and off track 20%+.
 - Offer Acceptance Rate: Number of offers accepted divided by offers extended. On track is anything between 75-85%.
-- Source Mix: Percentage of hires from (a) passively sourced talent (b) applications or ( c) referrals. The goal is to have equal distribution to show balanced, healthy pipelines. 
-- ‘On Hold’ Requisitions: Number of requisitions ‘on hold’. These roles are in plan but technically ‘closed’ in the ATS, thus ‘pausing’ TTF until decisions have been made by the business. Any role awaiting business decision for 14+ business days will move to on hold and will be flagged with senior leadership. 
+- Source Mix: Percentage of hires from (a) passively sourced talent (b) applications or ( c) referrals. The goal is to have equal distribution to show balanced, healthy pipelines.
+- ‘On Hold’ Requisitions: Number of requisitions ‘on hold’. These roles are in plan but technically ‘closed’ in the ATS, thus ‘pausing’ TTF until decisions have been made by the business. Any role awaiting business decision for 14+ business days will move to on hold and will be flagged with senior leadership.
 - Time to Start (TTS): Number of days from a requisition opening in Greenhouse to new hire starting in role.
 - Hire to Start (HTS): Number of days from offer acceptance to new hire start date.
 - Pipeline Conversion Rates: Percentage of candidates moving from each stage in the recruitment process.Targets for ‘on track’ status include  Initial > Team interview (40-50%), Team Interview > Offer (25-33%), and Offer > Hire (75-85%).
