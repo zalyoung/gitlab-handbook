@@ -1,9 +1,6 @@
 ---
 title: Customer Success
-description: >-
-  The Customer Success department is part of the GitLab Sales function who
-  partners with our customers to deliver value and positive business outcomes throughout
-  their journey with GitLab
+description: Customer Success & Renewals at GitLab
 ---
 
 The Customer Success department is part of the [GitLab Sales](/handbook/sales/) function who partners with our customers to deliver value and positive business outcomes throughout their journey with GitLab.
