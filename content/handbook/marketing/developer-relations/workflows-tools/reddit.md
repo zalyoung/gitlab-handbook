@@ -12,7 +12,7 @@ To request [user flair](https://support.reddithelp.com/hc/en-us/articles/2052426
 
 ### Moderation
 
-As a moderator on the GitLab subreddit, you have the ability to review spam, flagged posts or comments, and close issues. You can take actions in the [moderation queue](https://www.reddit.com/r/mod/about/unmoderated/).
+As a moderator on the GitLab subreddit, you have the ability to review spam, flagged posts or comments, and close issues. You can take actions in the [moderation queue](https://www.reddit.com/r/mod/about/unmoderated/). Note that if you are a moderator who does not take mod actions occasionally, you will be marked inactive be [restricted from certain moderator actions](https://support.reddithelp.com/hc/en-us/articles/18994953983892-Inactive-Moderator-Restrictions).
 
 The [r/gitlab moderators list](https://www.reddit.com/mod/gitlab/moderators/) includes Developer Relations team members and wider community members.
 
@@ -47,7 +47,7 @@ Misinformation:
 
 * Always be kind and understanding, no matter how the other person acts.
 * If you are new to Reddit, it may be useful to review this [beginner's guide].
-* Use your **individual** reddit account, not a shared company one. Feel free to use your personal (non-work) account if you prefer. You can request the `GitLab Staff` user flair by pinging `@devrel-team` in the `#developer-relations` Slack channel and include your Reddit username. User flair brings more visibility to GitLab team members and it's a transparent and effective way to let the wider community that you are part of the organization. It also makes comments seem more authentic and shows engagement in Reddit.
+* Use your **individual** reddit account, not a shared company one. Feel free to use your personal (non-work) account if you feel comfortable. You can request the `GitLab Staff` user flair by pinging `@devrel-team` in the `#developer-relations` Slack channel and include your Reddit username. User flair brings more visibility to GitLab team members and it's a transparent and effective way to let the wider community that you are part of the organization. It also makes comments seem more authentic and shows engagement in Reddit.
 * If you use Reddit a lot, it may be useful to create a separate, more professional (but still individual) work account to interact with the GitLab community as part of your role.
 * [Brush up on your "reddiquette"](https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette)
 * [Make sure your comments are well formatted](https://www.reddit.com/r/reddit.com/wiki/markdown/)
