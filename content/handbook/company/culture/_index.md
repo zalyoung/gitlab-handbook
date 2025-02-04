@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Please see our [company page](/handbook/company/) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](/handbook/company/culture/summit/)
+Please see our [company page](/handbook/company/) for more general information about GitLab.
 
 <!-- blank line -->
 <figure style="padding:56.25% 0 0 0;position:relative;">
