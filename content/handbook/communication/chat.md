@@ -143,7 +143,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_belgium`](https://app.slack.com/client/T02592416/CR2T6HHCP) | 🇧🇪🍺🍫🍟     |
 | [`#loc_berlin`](https://app.slack.com/client/T02592416/C3SB0FKD4) | All things going on in Berlin, Germany. We are regularly meeting up on the 3rd Thursday of the Month. |
 | [`#loc_bochum`](https://app.slack.com/client/T02592416/CFV9XLA67) | For all folks from Bochum, Germany. ⛏ https://www.youtube.com/watch?v=Gtd9Bg9S85U |
-| [`#loc_boston`](https://app.slack.com/client/E03N1RJJX7C/C4N4UC62V) | For folks living in or around the Greater Boston metro area. Monthly coworking in downtown Boston on the second Wednesday of each month |
+| [`#loc_boston`](https://app.slack.com/client/E03N1RJJX7C/C4N4UC62V) | For folks living in or around the Greater Boston metro area; monthly coworking in downtown Boston second Wednesday of each month. |
 | [`#loc_brisbane`](https://app.slack.com/client/T02592416/CH436GSNM) | Discuss all the Brisbane things |
 | [`#loc_canada`](https://app.slack.com/client/T02592416/CERJB2EBY) | All things Canada 🇨🇦  |
 | [`#loc_cencoastca`](https://app.slack.com/client/T02592416/CLQPEBG8Y) | Connecting those living or passing through the Central Coast of California |
