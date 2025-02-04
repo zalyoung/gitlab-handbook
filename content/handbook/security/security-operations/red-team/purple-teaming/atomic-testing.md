@@ -1,5 +1,6 @@
 ---
 title: "Atomic Testing"
+no_list: true
 ---
 
 Atomic Testing is a way of testing detections in a more repeatable way, similar to how software benefits from unit testing to ensure it still behaves as expected.
