@@ -24,7 +24,7 @@ In Elevate Prep, participants will:
 ElevatePrep consists of 4 core learning modules, each focusing on essential professional development areas:
 
 1. **Take control of your career path**: Learn to create meaningful development plans and navigate your professional growth
-1. **Give feedback that lands**: Develop skills to provide and receive effective feedback
+1. **Get Feedback that Improves your Performance**: Develop skills to provide and receive effective feedback
 1. **Give Feedback that Lands**: Build confidence in delivering honest feedback and have direct conversations with anyone
 1. **Influence without authority**: Learn to drive results through influence and effective stakeholder management
 
