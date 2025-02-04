@@ -18,7 +18,7 @@ We need a solution to rotate GitLab's encryption keys (used to protect sensitive
 
 ## Objectives
 
-This design document addresses a critical security vulnerability in GitLab's current encryption key management system.
+This design document addresses a big inconvenience in GitLab's current encryption key management system.
 Currently, GitLab's encryption keys, which protect sensitive data at rest in the database, cannot be rotated without
 taking the entire system offline. This limitation poses significant business risks:
 
@@ -45,7 +45,7 @@ Key business benefits:
 - Provides foundation for secure data movement between GitLab instances, especially when using the Cells Org Mover
 
 The implementation is planned across seven iterations, focusing on maintaining system stability while introducing this
-critical security capability. This project directly supports GitLab's scaling initiatives and enterprise security requirements.
+capability. This project directly supports GitLab's scaling initiatives and enterprise security requirements.
 
 ## Overview
 
