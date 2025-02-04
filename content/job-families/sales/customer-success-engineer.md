@@ -183,6 +183,31 @@ The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/comp
 - Demonstrated progressive experience leading customer success managers/engineers, Technical Account Managers, account management or sales teams with team sizes of 5+ people
 - Proven experience leading teams, driving software adoption, and building and scaling customer success practices
 
+### Senior Manager, Customer Onboarding
+
+The Senior Manager, Customer Onboarding reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+
+#### Senior Manager, Customer Onboarding Job Grade
+
+The Senior Manager, Customer Onboarding is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Manager, Customer Onboarding Responsibilities
+
+- DRI for establishing and scaling GitLab's dedicated customer onboarding program for OnDemand segment
+- Action upon opportunities to accelerate time-to-value and enhance customer journey through program improvements
+- Consistent representation of our values to customers, onboarding specialists, and the company as a whole
+- Lead in cross-functional work representing onboarding in GitLab's strategic customer experience initiatives
+- Owns and manages beyond standard onboarding purview - defined by building scalable frameworks, documentation, and transforming engagement models
+- Aligned with the objectives of GitLab and is responsible for ensuring the onboarding program contributes to company growth objectives
+- Strategic in thinking to solve challenges across the onboarding journey and drive improvements that impact all On Demand customers
+
+#### Senior Manager, Customer Onboarding Requirements
+
+- Demonstrated experience (4+ years) in customer success or enablement roles
+- Demonstrated experience leading customer-facing programs and cross-functional initiatives with focus on program development and stakeholder management
+- Proven experience with B2B SaaS customer success principles, onboarding program design, and scalable program architecture
+- Background in building and scaling customer-facing programs with data-driven optimization approach
+
 ## Performance Indicators
 
 - net ARR (such as: retention and expansion)
