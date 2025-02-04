@@ -104,18 +104,18 @@ platform approach. _We will not integrate any new non-AI services in FY26._
 ### Key objectives
 
 - **Observability, availability, security:**
-  - Finish our rate limiting layer in Cloudflare to address immediate platform risk related to AI vendor quota management.
+  - Finish our rate limiting layer in Cloudflare to address immediate platform risk related to AI vendor quota management. [link](https://gitlab.com/groups/gitlab-org/-/epics/13778)
   - Improve insight into Cloud Connector code paths especially as regards performance and added latency to mitigate
-    risk of regessions in end-user experience.
+    risk of regessions in end-user experience. [link](https://gitlab.com/groups/gitlab-org/-/epics/14573)
   - Separate Cloud Connector key management from shared OIDC keys to mitigate platform security risk and reduce blast radius
-    should credentials leak or be routinely rotated.
+    should credentials leak or be routinely rotated. [link](https://gitlab.com/groups/gitlab-org/-/epics/16215)
 - **Clear scope and interfaces:**
-  - Establish a clear contract for which uses cases or services are considered in-scope for Cloud Connector, and which "technical shape" they must have.
+  - Establish a clear contract for which uses cases or services are considered in-scope for Cloud Connector, and which "technical shape" they must have. [link](https://gitlab.com/gitlab-org/cloud-connector-team/team-tasks/-/issues/205)
   - Establish a clear interface for how stage groups can interrogate Unit Primitive data to test permissions.
   - Permissioning code modules in the GitLab monolith we deem outside of our ownership boundaries are refactored and handed over to other teams.
   - Stage group developers have access to a Unit Primitive directory using a web UI to see which permissions are owned by whom.
 - **Self-hosted/air-gapped support:**
-  - Streamline code and configuration to incorporate self-hosted services as a first-class Cloud Connector concept rather than a "special case".
+  - Streamline code and configuration to incorporate self-hosted services as a first-class Cloud Connector concept rather than a "special case". [link](https://gitlab.com/groups/gitlab-org/-/epics/16149)
   - Support self-hosting AI services (AI gateway, Duo Workflow) but accept no new service integrations for self-hosting until we have more clarity for how to streamline configuration and deployment.
   - Configuration and deployment on customer premises remains to be largely manual.
 - **Investigate deeper integration with Cloud Provider IAM:**
