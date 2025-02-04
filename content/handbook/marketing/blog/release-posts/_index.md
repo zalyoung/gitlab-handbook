@@ -42,7 +42,7 @@ At a high level, the Release post schedule is:
 
 **Code cutoff**
 
-- **EMs and PMs** make sure items that are feature flagged are `enabled by default` to ensure inclusion into the self-managed release.
+- **EMs and PMs** make sure [items that are feature flagged](#features-behind-flags) are `enabled by default` to ensure inclusion into the self-managed release.
 - Deprecation and removal MRs are assigned to TWs for final review and merge.
 - **TW Reviewers** finish review of Features, Deprecations, Removals, Upgrades, and Extras
 - **PMMs, Product Design Managers, Product Designers, and PM Leaders** do optional reviews of release post item MRs
