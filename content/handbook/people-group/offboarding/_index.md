@@ -44,7 +44,7 @@ In addition to submitting their resignation directly in Workday (following the g
 
 ##### Germany
 
-In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members resigning in Germany are required to provide a wet-ink signed regignation letter and should liase with the poeple connect team during offboarding to ensure it's properly provided.
+In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members resigning in Germany are required to provide a wet-ink signed resignation letter and should liase with the People Connect team during offboarding to ensure it's properly provided.
 
 ##### Japan
 
