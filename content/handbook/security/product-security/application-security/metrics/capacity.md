@@ -87,9 +87,10 @@ These labels indicate the current status of the issue.
 ### Table
 
 | Label    | Description |
-| AppSecWorkflow::planned| Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
-|AppSecWorkflow::in-progress|Indicates the issue is actively being worked on, or the rotation is in progress.|
-|AppSecWorkflow::complete|Indicates the work is done, or the rotation has finished.|
+| -------- | ----------- |
+| AppSecWorkflow::planned | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
+| AppSecWorkflow::in-progress |Indicates the issue is actively being worked on, or the rotation is in progress. |
+| AppSecWorkflow::complete | Indicates the work is done, or the rotation has finished. |
 
 #### Who assigns this label and when?
 
