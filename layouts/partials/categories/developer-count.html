@@ -7,7 +7,7 @@
 {{- $be_team_tag := .be_team_tag }}
 {{- $fe_team_tag := .fe_team_tag }}
 {{- $fs_team_tag := .fs_team_tag }}
-{{- $infra_reliability_team_tag := .infra_reliability_team_tag }}
+{{- $sre_team_tag := .sre_team_tag }}
 
 {{- range $team }}
     {{- if in .departments $be_team_tag }}
@@ -22,7 +22,7 @@
         {{- $fsTeam = $fsTeam | append . }}
         {{- $groupTeam = $beTeam | append . }}
     {{- end }}
-    {{- if in .departments $infra_reliability_team_tag }}
+    {{- if in .departments $sre_team_tag }}
         {{- $sreTeam = $sreTeam | append . }}
         {{- $groupTeam = $beTeam | append . }}
     {{- end }}
