@@ -77,7 +77,7 @@ Any other forms of customizing the model:
 
 ### Architecture
 
-![Inference with Adapters](/images/handbook/engineering/architecture/design-documents/self_hosted_finetuning/arch_inference.png)
+![Inference with Adapters](/static/images/engineering/architecture/design-documents/self_hosted_finetuning/arch_inference.png)
 
 ### Dataset Preparation
 Adapters will be trained using customer's data, for example their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
