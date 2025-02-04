@@ -60,6 +60,8 @@ Before considering maintainership, first you should be a contributor. You should
 
 Interested reviewers should check in regularly with their manager/mentor to discuss progress towards maintainership and review any recent detailed reviews, for example during their 1-on-1s. Reviewers are encouraged to also seek out a [maintainer mentor](#reviewer-mentorship-program) for further perspective on their reviews. Reviewers are encouraged to think of their eligibility for maintainership in the terms of "I could be ready at any time to be a maintainer as long as it is justified".
 
+You can also open a maintainer trainee issue using this [template](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/issue_templates/trainee-maintainer.md) allowing you to build up examples that will translate into your final merge request.
+
 After each review is complete, the reviewer should write up a justification about why they believe the merge request is ready to merge. This justification is then reviewed by the maintainer and if the maintainer agrees with the justification they should add a 👍 reaction to the comment, even if they have additional non-blocking comments. The maintainer should leave a comment highlighting any blocking concerns that were missed in the initial review.
 
 At any time, the manager/mentor may choose to open a merge request, adding the reviewer as a maintainer. This merge request should have a justification from the manager/mentor as to why the reviewer should become a maintainer. You are also welcome to open this merge request yourself at any time. There are [merge request templates available](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/merge_request_templates) to help you with the content and steps.
