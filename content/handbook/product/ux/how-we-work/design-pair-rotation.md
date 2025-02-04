@@ -26,25 +26,25 @@ Collaborating on key activities offers a unique opportunity to broaden your know
 
 ### Schedule
 
-This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
+This is the rotation schedule for [FY26 Q1 and Q2](/handbook/finance/#fiscal-year) (from 2025-02-01 until 2025-07-31).
 
 <!-- TIP: To update the table below, create the schedule in a temporary spreadsheet, and then copy/paste the rows into an online markdown generator (https://www.google.com/search?q=copy-table-in-excel-and-paste-as-a-markdown-table) -->
 
 | Designer          | Design Pair            |
 |-------------------|------------------------|
-| Libor Vanc        | Emily Bauman           |
-| Amelia Bauerly    | Chad Lavimoniere       |
-| Graham Bachelder  | Annabel Gray           |
-| Nicolle Merrill   | Nick Brandt            |
-| Alyssa Trinh      | Nick Leonard           |
-| Taylor Vanderhelm | Jeremy Elder           |
-| Lina Fowler       | Becka Lippert          |
-| Ian Gloude        | Michael Fangman        |
-| Gina Doyle        | Timothy Noah           |
-| Ilonah Pelaez     | Katie Macoy            |
-| Veethika Mishra   | Pedro Moreira da Silva |
-| Dan Mizzi-Harris  | Julia Miocene          |
-| Camellia Yang     | Sascha Eggenberger     |
-| Sunjung Park      | Alex Fracazo           |
-| Bonnie Tsang      | Michael Le             |
-| Jesse Hoek        | Mark Unthank           |
+| Bonnie Tsang      | Annabel Gray           |
+| Julia Miocene     | Nick Brandt            |
+| Lina Fowler       | Emily Bauman           |
+| Dan Mizzi-Harris  | Torian Parker          |
+| Nick Leonard      | Jesse Hoek             |
+| Amelia Bauerly    | Libor Vanc             |
+| Camellia Yang     | Jeremy Elder           |
+| Becka Lippert     | Pedro Moreira da Silva |
+| Alex Fracazo      | Sunjung Park           |
+| Chad Lavimoniere  | Austin Regnery         |
+| Taylor Vanderhelm | Mark Unthank           |
+| Graham Bacheler   | Gina Doyle             |
+| Nicolle Merrill   | Illonah Pelaez         |
+| Alyssa Trinh      | Michael Le             |
+| Ian Gloude        | Sascha Eggengerger     |
+| Michael Fangman   | Timothy Noah           |
