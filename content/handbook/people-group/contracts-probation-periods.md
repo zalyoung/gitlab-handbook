@@ -132,7 +132,7 @@ In order to honor the commitment team members make when they join GitLab, includ
 Outside activities must not interfere with the team member's work performance or duties; or create an actual or apparent conflict of interest with GitLab. If outside activities lead to a team member's poor performance, abuse of leave policies, or other negative outcomes relating to their position, GitLab may discipline the team member, up to and including termination.
 In line with our core value of Transparency, prior to starting outside activities that could potentially interfere with their commitments to GitLab, team members must disclose it to their manager, as noted below. GitLab will not approve outside activities that compromise a team member's ability to perform their job effectively.
 Team members engaging in outside activities must comply with GitLab's Code of Business Conduct and Ethics, as well as all policies related to Conflicts of Interest, Confidentiality, Non-Competition during Employment, and the Protection of Confidential and Proprietary Information, where enforceable by applicable state or local law. Outside  activities cannot involve or compete with products or services provided or under development by GitLab. Outside activities also cannot make use of any of GitLab's proprietary or confidential information, and team members cannot work in any capacity for any of GitLab's suppliers, customers, or competitors.
-GitLab's [Internal Acceptable Use Policy]({{< ref "acceptable-use-policy#acceptable-use-and-security-requirements-of-computing-resources-at-gitlab" >}}) permits limited personal use of GitLab-managed assets, subject to any conflicting statements contained in individual employment contracts. Subject to such limited personal use, team members may not use GitLab's facilities, equipment, supplies, IT systems (such as computers, networks, or email), time, trademarks, brand, or reputation in connection with any outside activities.
+GitLab's [Internal Acceptable Use Policy](/handbook/legal/acceptable-use-policy/) permits limited personal use of GitLab-managed assets, subject to any conflicting statements contained in individual employment contracts. Subject to such limited personal use, team members may not use GitLab's facilities, equipment, supplies, IT systems (such as computers, networks, or email), time, trademarks, brand, or reputation in connection with any outside activities.
 This policy is not intended to restrict communications or actions protected or required by state, federal or other applicable law.
 
 ### Approval for Outside Activities
@@ -254,7 +254,7 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 - If there are performance concerns the manager will discuss the planned course of action with the Team Member Relations Team. The contract may end or get extended for another fixed term. The Team Member Relations Team can help with providing guidance on the messaging.
 
 1. At least 1 month before the end of the contract, the manager informs the team member of the extension or not.
-1. If a salary increase is required due to updated [visa salary requirements]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) the People Connect Team member requests approvals from the team member's manager, total rewards and finally the team member's Division's E-Group leader.
+1. If a salary increase is required due to updated [visa salary requirements](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) the People Connect Team member requests approvals from the team member's manager, total rewards and finally the team member's Division's E-Group leader.
 1. The People Connect Team member uploads the approval to the Workday Documents folder.
 1. If the contract extension is approved, the People Connect Team member creates the contract
 
@@ -281,7 +281,7 @@ Note: A team member cannot have more than three fixed term contracts with the sa
 
 1. Best practice for team members in the Netherlands is to issue one 1-year Fixed term Contract prior to moving to an indefinite contract. After the completion of the 1-year Fixed term Contracts, we move to the indefinite contract.
 
-1. GitLab is to take into consideration the entire tenure of the team member at time of relocation to determine the type of contract to create. Due to the usual 1-year tenure at GitLab prior to a team member requesting to [relocate and immigrate to the Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}), if the team member has been at GitLab more than one year, the best practice procedure would be to give the team member an indefinite contract, with approval from their manager.
+1. GitLab is to take into consideration the entire tenure of the team member at time of relocation to determine the type of contract to create. Due to the usual 1-year tenure at GitLab prior to a team member requesting to [relocate and immigrate to the Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands), if the team member has been at GitLab more than one year, the best practice procedure would be to give the team member an indefinite contract, with approval from their manager.
 
 ## CXC Contract Renewal
 
@@ -292,7 +292,7 @@ CXC contracts are issued on a yearly basis, with contracts expiring after one ye
 - Once signed, CXC will send the renewed contract to People Connect.
 - The People Connect Team member uploads the renewed contract to the team member's Workday Contracts & Changes folder and [updates Workday](https://docs.google.com/document/d/1qnRUH2vkBGDi1hWnpGjvfF0G1GvfZLVHUVFuKeu9vKI/edit?usp=sharing) to reflect the new contract.
 
-Standard practice is to automatically renew CXC contracts. The [offboarding process]({{< ref "offboarding" >}}) will apply should a team member be terminated voluntarily or involuntarily.
+Standard practice is to automatically renew CXC contracts. The [offboarding process](/handbook/people-group/engineering/offboarding/) will apply should a team member be terminated voluntarily or involuntarily.
 
 ## GitLab Inc Best Practices
 

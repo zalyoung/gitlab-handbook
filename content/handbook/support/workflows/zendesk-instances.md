@@ -13,4 +13,4 @@ Our US Government Customers will be provided with an email address they can emai
 
 ## Working Tickets in Zendesk US Government
 
-Please see [Working with US Government Support tickets]({{< ref "usgovernment_tickets" >}}) for information about working tickets on this instance.
+Please see [Working with US Government Support tickets](/handbook/support/workflows/usgovernment_tickets/) for information about working tickets on this instance.

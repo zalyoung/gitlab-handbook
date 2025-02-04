@@ -64,4 +64,4 @@ N/A
 ## References
 
 - [GitLab SOX ITGC Compliance](https://internal.gitlab.com/handbook/it/it-compliance/)
-- [Third Party Risk Management]({{< ref "third-party-risk-management" >}})
+- [Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/)

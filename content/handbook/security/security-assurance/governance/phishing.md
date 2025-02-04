@@ -5,7 +5,7 @@ title: "Phishing Program"
 {{% alert color="danger" title="Alert" %}}
 If you suspect you've received a phishing email and have not engaged with the sender, please see: [What to do if you suspect an email is a phishing attack](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack).
 If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the Security Engineer on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/#phishing).
-Further information on GitLab's security response program is described in our [Incident Response]({{< ref "sec-incident-response" >}}) guide.
+Further information on GitLab's security response program is described in our [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) guide.
 {{% /alert %}}
 
 ## Phishing Program
@@ -220,7 +220,7 @@ The CEO (and Executive team) will not send you an email to wire cash, or a text 
 What should you do if you receive a potential phishing email or text [\(smishing\)](https://www.proofpoint.com/us/threat-reference/smishing) from GitLab's CEO?
 
 1. If you are unsure whether the text or email is legitimate, contact [Security]({{< ref "." >}}) to review, and confirm via the #ceo Slack channel.
-1. If the email is determined to be fake, follow the instructions for [phishing attacks]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}) below.
+1. If the email is determined to be fake, follow the instructions for [phishing attacks](/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
 
 - If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)

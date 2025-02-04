@@ -142,7 +142,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 1. Upon completion of the changes, click the `Save` button near the bottom of the page.
 1. To confirm the changes propogated properly this can be done by verifying in Zuora that the `Sold To:` and/or the `Bill To:` contacts have been updated.
 
-If the Zuora information is not updated properly, or the `Bill To:` and the `Sold To:` records have the same account and the customer needs them to be separate people, you may hand the ticket to the Billing team using the [Zuora contact change workflow]({{< ref "billing_contact_change_payments#zuora-contact-change" >}}) to update the relevant information.
+If the Zuora information is not updated properly, or the `Bill To:` and the `Sold To:` records have the same account and the customer needs them to be separate people, you may hand the ticket to the Billing team using the [Zuora contact change workflow](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments/#zuora-contact-change) to update the relevant information.
 
 ### Remove a billing account membership
 

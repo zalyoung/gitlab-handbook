@@ -5,7 +5,7 @@ decsription: "On this page, we will cover some of the key topics covered in the 
 
 ## Introduction
 
-At GitLab, one of our favorite books is, "[High Output Management]({{< ref "book-clubs#high-output-management" >}})" by Andrew Grove. The book provides a comprehensive overview of a manager's role and purpose. Our co-founder, Sid, applied many of the concepts covered when partnering with the People team to design management and people practices for GitLab. On this page, we will cover some of the key topics covered in the book and what they mean for people leaders.
+At GitLab, one of our favorite books is, "[High Output Management](/handbook/leadership/book-clubs/#high-output-management)" by Andrew Grove. The book provides a comprehensive overview of a manager's role and purpose. Our co-founder, Sid, applied many of the concepts covered when partnering with the People team to design management and people practices for GitLab. On this page, we will cover some of the key topics covered in the book and what they mean for people leaders.
 
 ## Applying High Output Management
 
@@ -16,7 +16,7 @@ Sid and the Learning and Development team discuss High Output Management during 
 Topics covered include:
 
 1. Why the book is one of Sid's favorites.
-1. Why dual reporting structures lead to matrix organizations and how GitLab maintains a [no-matrix organization]({{< ref "no-matrix-organization" >}}).
+1. Why dual reporting structures lead to matrix organizations and how GitLab maintains a [no-matrix organization](/handbook/leadership/no-matrix-organization/).
 1. Why [1-1 meetings]({{< ref "1-1" >}}) are fundamental to management.
 1. Enabling the direct report to show initiative in their [career and performance](/handbook/people-group/learning-and-development/career-development/).
 1. The importance of [emotional intelligence]({{< ref "emotional-intelligence" >}}) in management based on task-relevant maturity.
@@ -34,7 +34,7 @@ For example, managers at GitLab can:
 
 1. [Delegate](/handbook/leadership/effective-delegation/) tasks through [Issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html#:~:text=The%20GitLab%20Issue%20Board%20is,Kanban%20or%20a%20Scrum%20board.&text=Issue%20boards%20help%20you%20to,your%20entire%20process%20in%20GitLab). Issue boards can serve as a project management tool to plan, organize, and visualize a workflow for a team.
 1. [Decline Meetings in Favor of Async](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async/). Meetings are useful for building rapport and moving projects forward. Managers can be role models of our [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication) by declining meetings in favor of async. They can also be role models by only [scheduling meetings](/handbook/communication/) where it is necessary to review a [concrete proposal](/handbook/values#make-a-proposal) or to move forward a series of asynchronous discussion points.
-1. [Making decisions]({{< ref "making-decisions" >}}) by applying the best of both hierarchical and consensus on your team. Allow the person on your team that does the work to make the decisions, the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals/).
+1. [Making decisions](/handbook/leadership/making-decisions/) by applying the best of both hierarchical and consensus on your team. Allow the person on your team that does the work to make the decisions, the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals/).
 1. [Elicit peak performance through motivation](https://internal.gitlab.com/handbook/company/high-performing-teams/). Managers can improve output on their team by applying motivation, [building trust](/handbook/leadership/building-trust/), and training.
 
 ### Application of Individual KPIs

@@ -83,7 +83,7 @@ We utilize [Culture Amp](https://gitlab.cultureamp.com/) to administer 360 Feedb
 Managers will be assigned as the coach for their direct reports. Managers should review and send out the 360 feedback within 48 hours once the feedback cycle closes and you are sent the results. For more information on the role a manager will play as the team member's coach, please review [Culture Amp Resources for Coaches](#culture-amp-resources-for-coaches)
 
 - If a team member is in the process of migrating to a new role, the current manager and new manager should arrange a successful handover of the feedback, whether sync or async.
-- If your manager changes throughout the 360 process, please contact [People Connect]({{< ref "people-connect" >}}) to make this change on Culture Amp.
+- If your manager changes throughout the 360 process, please contact [People Connect](/handbook/people-group/people-connect/) to make this change on Culture Amp.
 
 We have recorded a training overview of the 360 process via Culture Amp for your review and created a slide-deck to provide [guidance on 360-Feedback](https://docs.google.com/presentation/d/1YxnAWDO0GPSWX5hDepgwMOohT0ZsGzqmUHxvBpaHf7E/edit#slide=id.g77644d9eff_0_0), kindly review before you give feedback.
 

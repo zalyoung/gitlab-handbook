@@ -155,7 +155,7 @@ We want to hire the best candidate for the role and make sure that person will b
 
 Here's a [fact sheet](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/blob/master/Hiring_fact_sheet_-_2020-03.pdf) that can be used as a reference guide as you're having conversations with potential candidates.
 
-**Ready to make your first referral?** Check out [this guide.]({{< ref "referral-process" >}})
+**Ready to make your first referral?** Check out [this guide.](/handbook/hiring/referral-process/)
 
 ### 4. Get Involved
 

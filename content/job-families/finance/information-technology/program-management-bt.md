@@ -273,7 +273,7 @@ The next step in the IT PMO job family is to move to the [IT Management](/job-fa
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Next, candidates will be invited to schedule a [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with our Global Recruiters
+- Next, candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with our VP IT in a panel interview
 - Next, candidates will be invited to schedule a one to two interviews with a business stakeholder in accounting, sales or product (m
 - Candidates will then be invited to schedule with a leader in the Data, IT Ops, BSA team or FinSys team
