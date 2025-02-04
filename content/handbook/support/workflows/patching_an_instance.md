@@ -102,7 +102,9 @@ Patching a Kubernetes install involves doing the following steps:
     USER git
 
     RUN curl -o /tmp/$MR_IID.patch https://gitlab.com/gitlab-org/gitlab/-/merge_requests/$MR_IID.patch
-    RUN bash -c  "cd /srv/gitlab; patch -p1 < /tmp/$MR_IID.patch"
+
+    # Filter out any specs in the patch to prevent build errors
+    RUN bash -c "cd /srv/gitlab; grep -v '_spec.rb' /tmp/${MR_IID}.patch > /tmp/filtered.patch && patch -p1 < /tmp/filtered.patch"
     ```
 
     Replace `registry.gitlab.com/gitlab-org/build/cng/gitlab-webservice-ee:v15.5.1` with the image you identified in step 1.
