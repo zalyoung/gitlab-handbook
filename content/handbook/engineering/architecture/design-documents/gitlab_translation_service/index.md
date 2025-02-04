@@ -1,4 +1,3 @@
-```markdown
 ---
 title: GitLab Translation Service
 status: proposed
@@ -10,7 +9,6 @@ owning-stage: ""
 participating-stages: []
 toc_hide: true
 ---
-```
 
 {{< design-document-header >}}
 
@@ -23,6 +21,7 @@ The objective of this design document is, however, not entirely on the applicati
 The [integration tool](#proposal) (which is a [java](https://www.java.com/en/) application) implements an asynchronous, queue-based processing system that handles high-volume events from multiple projects/repositories while maintaining data consistency and preventing race conditions. It orchestrates the entire translation workflow - from detecting file changes in specific folders of interest, routing content through [Argo's](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25") request management pipeline, all the way to managing the commit of translated content back to GitLab repositories.
 
 The tool will be deployed in GitLab infrastructure:
+
 1. The application code is hosted through a [GitLab repository](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) under [Localization group](https://gitlab.com/gitlab-com/localization), and builts the image file using GitLab's [CI/CD pipeline](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/blob/main/.gitlab-ci.yml?ref_type=heads)
 2. The relevant database is hosted through [Google Cloud](https://console.cloud.google.com/welcome?hl=en&project=mktg-argo-transl-svc-ee3361e7),
 3. And deployed using [Runway](https://docs.runway.gitlab.com/) and [connects to the GCP CloudSQL instance using PSC (Private Service Connect) and Cloud SQL Auth Proxy](https://docs.runway.gitlab.com/unmanaged_services/cloudsql/). 
@@ -95,21 +94,29 @@ The proposal is divided into two sections. **Section 1:** outlines the overall a
 3. Since [Runway](https://docs.runway.gitlab.com/) doesn't support [PostGresSQL](https://www.postgresql.org/) as of now, we'll connect to a database server on [Google Cloud](https://gitlabsandbox.cloud/cloud/accounts/ee3361e7-c233-4794-b423-2241db8f2505).
 
 ### **Section 3:** Target repositories
+
 As of now, this tool is intended only to use with few public projects under `tech-docs` and `marketing`. Here's the complete list:
 
 #### For Marketing
-[about-gitlab-com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com) using a translation branch.
+
+| Repository Link | Repository Content | Branch Specifications |
+| ---      | ---      | ---      |
+| [about-gitlab-com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com) | [Contents](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content?ref_type=heads) | using a translation branch |
 
 #### For Tech-docs
+
 We'll be initially using a fork of the `tech-docs` repos, which includes all the test and prod repos located here : https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects
 
-In near future, once approved, we'll move to using a translation branch in the tech-docs repositories:
-1. [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab),
-2. [gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner),
-3. [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab),
-4. [gitlab-org/charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab),
-5. [gitlab-org/cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator),
-6. [gitlab-org/gitlab-docs-hugo](https://gitlab.com/gitlab-org/technical-writing-group/gitlab-docs-hugo)
+In near future, once approved, we'll move to using a translation branch. Here's the list of all the repositories:
+
+| Repository Link | Current Forked Repo |
+| ---      | ---      |
+| [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) | [localization/tech-docs-forked-projects/prod/gitlab](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab) |
+| [gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner) | [localization/tech-docs-forked-projects/prod/gitlab-runner](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-runner) |
+| [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | [localization/tech-docs-forked-projects/prod/omnibus-gitlab](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab) |
+| [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | [localization/tech-docs-forked-projects/prod/omnibus-gitlab](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab) |
+| [gitlab-org/cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | [localization/tech-docs-forked-projects/prod/gitlab-operator](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-operator) |
+| [gitlab-org/gitlab-docs-hugo](https://gitlab.com/gitlab-org/technical-writing-group/gitlab-docs-hugo) | [localization/tech-docs-forked-projects/prod/gitlab-docs-hugo](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs-hugo) |
 
 ### **Section 4:** Database Configuration
 
@@ -117,14 +124,14 @@ It should be noted here that the database will never contain any sensitive data.
 
 #### Data saved in Database
 
-* Entire webhook body contents, which contains all sorts of metadata related to the GitLab MR and the repo it resides in. You can see all the data[here](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html#merge-request-events).
-* When the webhooks were recieved and processed, along with their status regarding their processing,
-* MRs identifiers and their relation to each other (what Translation MRs are tied to which Original MRs)
+- Entire webhook body contents, which contains all sorts of metadata related to the GitLab MR and the repo it resides in. You can see all the data[here](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html#merge-request-events).
+- When the webhooks were recieved and processed, along with their status regarding their processing,
+- MRs identifiers and their relation to each other (what Translation MRs are tied to which Original MRs)
 
 #### Possible future updates to the Database
 
-* We will likely expand the tool for a cadence based translation instead where the application doing a periodic check and not relying on events - thus expanding on the number of events stored,
-* Currently an engineer verifies the MRs before merging them to the target repository. If we add features on the tool to likely expand on merge automation, we may likely include more logging information to troubleshoot success/failures.
+- We will likely expand the tool for a cadence based translation instead where the application doing a periodic check and not relying on events - thus expanding on the number of events stored,
+- Currently an engineer verifies the MRs before merging them to the target repository. If we add features on the tool to likely expand on merge automation, we may likely include more logging information to troubleshoot success/failures.
 
 Note: Any data stored in the database in [Phase 1](#phase1) will be deleted from Spartan's environment, once the infrastructure moves to [Phase 2](#phase2) under GitLab.
 
@@ -143,19 +150,18 @@ Note: Any data stored in the database in [Phase 1](#phase1) will be deleted from
 
 ![tool-pipeline-diagram](/static/images/engineering/architecture/design-documents/gitlab_translation_service/tool-pipeline-diagram.png)
 
-
 **And the scope of actions**
 
-* Read contents of repository, including every branch and MRs
-* Create new branches and add new commits to existing branches that it creates
-* Create new commits
-* Create MRs from that repository to itself or to other repositories
+- Read contents of repository, including every branch and MRs
+- Create new branches and add new commits to existing branches that it creates
+- Create new commits
+- Create MRs from that repository to itself or to other repositories
 
 As we've noted earlier, [separate GitLab account](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/issues/14 "Create a Argo GitLab Integration user") with limited access will be associated with this tool only. A [user](https://gitlab.com/gitlab-argo-bot) token will be created with the following permissions only with limited expiration dates:
 
-* api
-* read_repository
-* write_repository
+- api
+- read_repository
+- write_repository
 
 **How do we authenticate the [user](https://gitlab.com/gitlab-argo-bot)?**
 
@@ -186,40 +192,50 @@ Quick checks and handling for large volumes of HTTP Requests before putting them
 <a id="argocontroller"></a>
 
 #### ArgoController
+
 `ArgoController` receives events from Argo. When the source language files have completed translation and are ready in Argo, Argo will make a call to the GitLab Integration informing what has completed, which it receives via the `ArgoController`. From there, the GitLab Integration will grab the translated file, create a branch and MR if necessary, and the commit to that branch. Future developments could have Argo making various other calls, such as querying the if the Translation MR has been merged to display in Argo. Such possible future calls would be added to the `ArgoController`.
 
 #### Event Queuing
+
 The `QueueServiceImpl` implements a sophisticated event queuing system that handles concurrent processing while maintaining project-specific [`FIFO` (First-In-First-Out)](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)#:~:text=In%20computing%20and%20in%20systems,the%20queue%2C%20is%20processed%20first.) ordering. The system processes events after their initial pre-processing within HTTP requests, managing both database persistence and in-memory queuing.
 
 #### Event Reception and Storage
+
 When an event is received by the `QueueService`:
-  - The event data is stored into the database for logging and retry capabilities,
-  - An [`EventRunnable`](https://docs.oracle.com/javase/8/docs/api/?java/lang/Runnable.html) object is created, containing both the event data and its execution function, and the function will be executed on a new thread and use the provided event data,
-  - The `EventRunnable` is submitted to a `GroupedExecutingThreadPool`.
+
+- The event data is stored into the database for logging and retry capabilities,
+- An [`EventRunnable`](https://docs.oracle.com/javase/8/docs/api/?java/lang/Runnable.html) object is created, containing both the event data and its execution function, and the function will be executed on a new thread and use the provided event data,
+- The `EventRunnable` is submitted to a `GroupedExecutingThreadPool`.
 
 #### Queuing Implementation
+
 The system uses a two-level threading approach:
+
 - Primary [ThreadPoolExecutors](https://docs.oracle.com/javase/6/docs/api/java/util/concurrent/ThreadPoolExecutor.html) (`dequeuer`): Receives all incoming `EventRunnables` in their initial `FIFO` order,
 - Secondary [ThreadPoolExecutors](https://docs.oracle.com/javase/6/docs/api/java/util/concurrent/ThreadPoolExecutor.html) (`executors`): An array of executors where each entry is dedicated to processing events for a specific GitLab Project
 
 #### Concurrent Processing Rules
+
 - Events within the same Project must be processed synchronously in [`FIFO` (First-In-First-Out)](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)#:~:text=In%20computing%20and%20in%20systems,the%20queue%2C%20is%20processed%20first.) order,
 - Different Projects can be processed concurrently, up to a maximum of 5 Projects at once,
 - If an event is next in queue for a Project that cannot be processed (due to the 5-Project limit), it will block all subsequent events regardless of their Project,
 - Events that arrived before the blocked event continue processing normally.
 
 #### Event Status Tracking
+
 The system maintains event status in the database with the following states:
+
 - Queued: Initial state when event is received
 - Running: Event is currently being processed
 - Completed: Event has finished processing successfully
 - Failed: Event processing encountered an error
 
 #### Execution Process
+
 1. The event thread begins execution in the `QueueService#handleEvent` method
 2. Based on the event type, it is dispatched to the appropriate service:
-    - GitLab service
-    - Argo service
+   - GitLab service
+   - Argo service
 
 #### Purpose and Benefits
 
@@ -248,15 +264,17 @@ The system maintains event status in the database with the following states:
 **What data is contained in an Argo Request?**
 
 You can see an example [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/9933#note_2219051679).
-Requests contain data about GitLab, the TMS it’s connected to, and who worked on the Request such as comments and assignees. The following information from the GitLab Integration is put into a Request:
-- Project ID and Path
-- Merge Request ID and title and URLs
-- Components
-- file names and contents of files that will undergo translation
+Requests contain data about GitLab, the TMS it’s connected to, and who worked on the Request such as comments and assignees. The following information from the GitLab integration is put into a Request:
+
+- Project ID and Path,
+- Merge Request ID and title and URLs,
+- Components,
+- File names and contents of files that will undergo translation.
 
 <a id="card"></a>
 
 #### What is a “card?"
+
 In a Request, you can have fields with one single value. Such as “Project ID”. Cards are like a mini table rows that just hold data. Each card can have fields with single values, but multiple cards can be added to a Request. Their values are tabulated onto a table within the Request, where each row is a card, and each column is one field. We use Cards for the GitLab Integration to list all relevant URLs so it makes it easier for Request viewers to go from the Request screen to the MRs.
 
 #### Argo Commit to GitLab
@@ -297,7 +315,6 @@ The application is deployed in a Rocky Linux 8 OS running on AWS EC2. It’s run
 - [Runway](https://docs.runway.gitlab.com/):
   1. It get's deployed in [Runway](https://docs.runway.gitlab.com/guides/onboarding/) from the docker image following [Runway onboarding](https://docs.runway.gitlab.com/guides/onboarding/) (onboarding details are documented [here](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/428) and [here](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/issues/6)). 
   2. Runway service connects to the cloudSQL instance outside of the runway [GCP projects using private IP + private service connect](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/418#note_2273832280)
-
 
 ## Alternative Solutions
 
