@@ -249,37 +249,39 @@ Our PEO in India can only process terminations on working days (typically Monday
 
 ##### Relocating **to** Germany
 
+These are the steps our People Connect team uses to send contracts to team members relocating to, or moving from Germany.
+
+1. From 1 January 2025, certain employee documents in Germany can be issued via DocuSign and will no longer require a wet ink signature. An employment contract for a team member relocating to Germany can be issued through DocuSign.
 1. Review current [onboarding tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/country_germany.md) for Germany and ensure necessary paperwork is filled out.
 
 ##### Relocating **from** Germany
 
 - Relocation Contract and Mutual Termination Agreement Process for Germany
 
-These are the steps our People Connect team uses to send contracts to team members relocating to, or moving from Germany.
+The requirement for a wet ink signature in Germany, although removed for certain employment documents, will still apply to termination documents in order for them to be valid. If a team member is relocating *from* Germanyr resignation letter or a Mutual Termination Agreement (MTA) must be wet ink signed by an authorised signatory for the German entity.   
 
-Once the contract or Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to the German counsel to have them physically sign and mail them.
+Once a Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to an authorised signatory for the German entity to have them physically sign and mail the documents. 
 
 1. Stage the documents for signature in DocuSign. This document will be sent to the Signatory first and then to the team member.
 
    - Once signed, save the file into the team members Workday profile.
 
-1. Email an unsigned pdf of the document to both the German counsel as well as the team member.
+1. Reach out to legal, employment for support with selecting a signatory and starting the process for having the documents physically signed and mailed by both the signatory and the team member.
 
-   - Open the saved unsigned contract, remove GitLab signatory from the below fields:
+   - Open the saved unsigned contract, confirm the GitLab signatory (once decided) is in the  required places:
      1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field
         blank.
      1. **Scroll down to the end of the contract** - replace Signatory's name with "GitLab Signatory". Save
         the contract as a PDF format.
-   - In the body of the email, you will need to explain the below steps for the process.
-      - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com & Team member's GitLab email address
+   - In the body of an email, you will need to explain the below steps for the process.
+      - **To (recipients)**-  Designated GitLab signatory & Team member's GitLab email address
       - **Subject line**  : Please Send Physical Contract for "Name of the team member"
       - **Attachment** : attach the unsigned PDF contract
-        1. The German counsel will need to print two copies of the document. They will need to sign both of the copies, and then mail them to the team member. Please include the address and phone number of the team member in the email.
-        1. Once the team member receives the documents in the mail, they will keep one copy and then will need to sign and send the other copy to our German Counsel. The address for our German Counsel is listed in the PeopleOps 1password vault. Please include this address in the email.
+        1. The Designated GitLab signatory will need to print two copies of the document. They will need to sign both of the copies, and then mail them to the team member. Please include the address and phone number of the team member in the email.
+        1. Once the team member receives the documents in the mail, they will keep one copy and then will need to sign and send the other copy to the signatory or to the address requested. Please include the return mailing address in the email.
    - The postage fees can be submitted for reimbursement. Please also include that information in the email.
-   - It is also best practice to recommend in the email that the German counsel confirm that they have mailed the document.
-
-1. Once the German Legal Counsel receives the documents to put them in our archive, they will also send a scanned copy of the signed documents to the People Connect team. This document will need to be saved in the team member's Workday profile.
+   - It is also best practice to recommend in the email that both parties confirm that they have mailed the document.
+   - Once the designated signatory receives the signed documents (signed by both parties), they should also send a scanned copy of the signed documents to the People Connect team - please also include that request in the email. This document will need to be saved in the team member's Workday profile.
 
 #### Canada
 
