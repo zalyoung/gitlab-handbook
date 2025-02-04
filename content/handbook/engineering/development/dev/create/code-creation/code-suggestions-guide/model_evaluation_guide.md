@@ -47,7 +47,7 @@ The ELI5 repository includes evaluation scripts, while the sample datasets and t
 For guidance on:
 
 - Running evaluations, see the [ELI5 documentation](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/eli5/running_evaluation_locally/codesuggestions_evaluation.md).
-- Evaluating correctness and latency, see the [Analyzing results documentation](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/eli5/running_evaluation_locally/codesuggestions_evaluation.md).
+- Evaluating correctness and latency, see the [Analyzing results documentation](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/eli5/running_evaluation_locally/codesuggestions_evaluation.md#analyzing-results).
 
 **Running evaluations on a GCP instance**
 
