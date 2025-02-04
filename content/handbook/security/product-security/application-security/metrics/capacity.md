@@ -101,7 +101,7 @@ These metrics track our team's capacity to handle critical security workloads.
 
 ### Merge Request Review Coverage Rate
 
-This KPI tracks our ability to review security-relevant merge requests by measuring cases where the Application Security team has not completed reviews.
+This KPI tracks our ability to review security-relevant merge requests that introduced a vulnerability, with or without prior security review.
 
 #### How It's Measured
 
@@ -115,10 +115,11 @@ This KPI tracks our ability to review security-relevant merge requests by measur
 #### Calculation Method
 
 ```text
-Review Coverage = (Vulnerability-introducing Merge Requests without Application Security review / Total vulnerability-introducing Merge Requests) * 100
+Review Coverage = (Vulnerability-introducing Merge Requests with Application Security review / Total vulnerability-introducing Merge Requests) * 100
 ```
 
 Where:
 
 - Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
-- Merge Requests without Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+- Merge Requests without Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking both `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+- Merge Requests with Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests with either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
