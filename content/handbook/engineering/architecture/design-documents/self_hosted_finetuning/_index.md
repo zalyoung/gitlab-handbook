@@ -77,6 +77,7 @@ Any other forms of customizing the model:
 
 ### Architecture
 
+#### Inference
 ```mermaid
 flowchart LR
     subgraph s1["vLLM"]
@@ -113,25 +114,73 @@ flowchart LR
     style s2 stroke:#000000
 ```
 
-### Dataset Preparation
+#### Training
+
+```mermaid
+flowchart LR
+ subgraph s2["UI"]
+        n5["Project 1"]
+        n6["Project 2"]
+        n7["Project 3"]
+  end
+    n8["Data Preparation"]
+    n9["Data 1"]
+    n10["Data 2"]
+    n11["Data 3"]
+    n12["Data 2 + 3"]
+    n13["Adapter Training"]
+    n14["Adapter 1"]
+    n15["Adapter 2 + 3"]
+    n16["Model Evaluation"]
+    n17["Inference"]
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n8 --> n9 & n10 & n11
+    n10 --> n12
+    n11 --> n12
+    n12 --> n13
+    n9 --> n13
+    n13 --> n15 & n14
+    n14 --> n16
+    n15 --> n16
+    n16 --> n17
+
+    style n5 stroke:#000000
+    style n6 stroke:#000000
+    style n7 stroke:#000000
+    style n8 stroke:#000000
+    style n9 stroke:#000000
+    style n10 stroke:#000000
+    style n11 stroke:#000000
+    style n12 stroke:#000000
+    style n13 stroke:#000000
+    style n15 stroke:#000000
+    style n14 stroke:#000000
+    style n16 stroke:#000000
+    style n17 stroke:#000000
+    style s2 stroke:#000000
+```
+
+### Data Preparation
 Adapters will be trained using customer's data, for example their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
 
 The service then would process the provided by the customer repository, constructing a training and validation dataset out of it.
 
-### Training an Adapter
+### Adapter Training
 To train an adapter, customers would need to deploy a local instance of finetuning service on their own infrastructure. The finetuning service would be provided using Docker.
 
 The container will be published to GitLab Container Registry and DockerHub on every GitLab Release.
-
-### Fine-tuned Model Deployment
-Once the task-specific adapters are trained, customers would need to host their base model and trained LoRAs using vLLM.
-
-Once hosted, customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
 
 ### Fine-tuned Model Evaluation
 Once the adapter is trained, it should be evaluated against a base model in terms of the overall performance and responses. 
 
 To evaluate the model, customer would be required to deploy the model and its adapters and run evaluation service. The evaluation service would use validation dataset to test the base and finetuned models and present the results to the customer.
+
+### Fine-tuned Model Deployment
+Once the task-specific adapters are trained, customers would need to host their base model and trained LoRAs using vLLM.
+
+Once hosted, customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
 
 ## Alternatives
 
@@ -150,7 +199,3 @@ RAG is another popular approach that allows the model to stay up to date-with th
 **Human-feedback (RLHF).**
 Human feedback could be used together with reinforcement learning (RLHF) to tune the model to user's need. For example, was this suggestion accepted or not? This is a type of feedback we could utilize here.
 
-
-## Future evolution
-
-TODO
