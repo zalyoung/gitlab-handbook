@@ -98,9 +98,10 @@ task forward.
 
 ## Active Task Groups (alphabetic order)
 
-1. [BootstrapVue Removal](/handbook/company/working-groups/task-groups/bootstrap-vue-removal/)
-1. [GitLab UI @vue/compat Compatibility](gitlab-ui-vue-compat.md)
+1. [BootstrapVue Removal](bootstrap-vue-removal/)
+1. [Vue 3 Router 4 Test Compatibility](vue3-router4-tests/)
 
 ## Past Task Groups (alphabetic order)
 
-1. [CSS Utilities](/handbook/company/working-groups/task-groups/css-utils/)
+1. [CSS Utilities](css-utils/)
+1. [GitLab UI @vue/compat Compatibility](gitlab-ui-vue-compat/)
