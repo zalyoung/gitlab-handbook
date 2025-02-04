@@ -444,7 +444,7 @@ Review the [2024 Kaiser Permanente Chiropractic and Acupuncture Benefits Flyer](
 
 With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. To learn more about Parental Leave, please refer to our [Parental Leave policy](#parental-leave). Once your child has arrived, please follow the steps outlined above in regard to this [Qualifying Life Event]({{< ref "inc-benefits-us#qualifying-life-events" >}}).
 
-You may need a [reasonable accommodation]({{< ref "inc-usa#reasonable-accommodation" >}}) during your pregnancy. For more information regarding GitLab's [Pregnancy Accommodation]({{< ref "inc-usa#pregnancy-accommodation" >}}) policy, please also refer to our [Individuals with Disabilities]({{< ref "inc-usa#individuals-with-disabilities-policy" >}}) policy.
+You may need a [reasonable accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) during your pregnancy. For more information regarding GitLab's [Pregnancy Accommodation](/handbook/people-policies/inc-usa/#pregnancy-accommodation) policy, please also refer to our [Individuals with Disabilities](/handbook/people-policies/inc-usa/#individuals-with-disabilities-policy) policy.
 
 </details>
 

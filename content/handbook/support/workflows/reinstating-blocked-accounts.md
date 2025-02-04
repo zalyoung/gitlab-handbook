@@ -31,7 +31,7 @@ If the user does not receive a verification email with the 6-digit code, it's li
 
 All verification emails with unlock codes and password reset emails bypass Mailgun suppressions. Mail delivery of these emails can also be seen in Mailgun.
 
-You can see `Account Locked` states in [Kibana]({{< ref "kibana" >}}) by searching for `json.message: Account Locked`. Here's an example of what it might look like it Kibana:
+You can see `Account Locked` states in [Kibana](/handbook/support/workflows/kibana/) by searching for `json.message: Account Locked`. Here's an example of what it might look like it Kibana:
 
 ![locked_account](/images/support/locked_example.png)
 
@@ -45,10 +45,10 @@ we can consider a manual unlock if necessary. For example, if a user cannot rece
 Process:
 
 1. Follow the locked accounts workflow above and ensure that the user has exhausted all self-serve methods first.
-1. For other cases, [comment or create an issue]({{< ref "working-with-issues" >}}) as applicable.
-1. Do an [account ownership verification]({{< ref "account_verification" >}}).
+1. For other cases, [comment or create an issue](/handbook/support/workflows/working-with-issues/) as applicable.
+1. Do an [account ownership verification](/handbook/support/workflows/account_verification/).
 1. [Unlock the account from the admin area](https://docs.gitlab.com/ee/security/unlock_user.html#unlock-a-user-from-the-admin-area)
-1. [Add an admin note]({{< ref "admin_note" >}}).
+1. [Add an admin note](/handbook/support/workflows/admin_note/).
 
 Feature request for group owners to self-serve is in [anti-abuse#339](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tasks/-/issues/339).
 
@@ -64,7 +64,7 @@ Process:
 1. While in the admin area for the user, scroll to the **Custom Attributes** section.
 1. Change the field for `arkose_risk_band` from `high` to `medium`.
 1. If necessary, [unlock the account](https://docs.gitlab.com/ee/security/unlock_user.html#unlock-a-user-from-the-admin-area).
-1. [Add an admin note]({{< ref "admin_note" >}}).
+1. [Add an admin note](/handbook/support/workflows/admin_note/).
 1. Click `Save` when done.
 
 ## Blocked Accounts
@@ -106,8 +106,8 @@ If you receive a ticket for an unblock request and you think it should have been
 1. Work the ticket manually using the guidance below to ensure a timely resolution for the requestor
 
 If a ticket was not automatically worked, Support can manually unblock the user in the following cases:
-    - Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.  
-    - For [Enterprise users]({{< ref "gitlab-com_overview#enterprise-users" >}}), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification]({{< ref "account_verification" >}}), and add an [admin note]({{< ref "admin_note" >}}) as usual, including if it was user or owner requested.
+    - Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
+    - For [Enterprise users](/handbook/support/workflows/gitlab-com_overview/#enterprise-users), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification](/handbook/support/workflows/account_verification/), and add an [admin note](/handbook/support/workflows/admin_note/) as usual, including if it was user or owner requested.
     - You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
     - Proceed with this action for both **free** and **paid** users.
 

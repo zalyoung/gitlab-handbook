@@ -124,7 +124,7 @@ The Staff Fullstack Engineer, Localization is a [grade 8](/handbook/total-reward
 - Communicate complex technical and architectural solutions clearly to both technical and non-technical stakeholders
 - Mentor team members on engineering practices, documentation, problem-solving, and stakeholder engagement
 - Drive process improvements and technical initiatives that enhance team efficiency and code quality
-- Drive innovation in localization technologies by evaluating emerging tools, frameworks, and AI solutions 
+- Drive innovation in localization technologies by evaluating emerging tools, frameworks, and AI solutions
 
 ### Technical Expertise
 
@@ -309,7 +309,7 @@ The next step in the Globalization & Localization job family is not yet defined 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - A 45 minute interview with our VP, Marketing Strategy & Platforms
 - A 45 minute interview with our Director, Digital Experience or Group Product Manager, Growth
 - A 45 minute interview with our Director, Marketing Operations or Manager, Marketing Operations

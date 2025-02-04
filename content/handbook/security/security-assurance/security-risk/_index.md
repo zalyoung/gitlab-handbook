@@ -29,7 +29,7 @@ The integration of GitLab's TPRM program within the vendor Procurement flow enab
 
 ### Business Impact Analysis (BIA) and Critical System Tiering (CST){#bia}
 
-The [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) (BIA) helps determine the systems critical to serving GitLab's Customers.
+The [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/) (BIA) helps determine the systems critical to serving GitLab's Customers.
 
 The output of the BIA is the designation of a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST) for a new system by the Security Risk Team.
 
@@ -58,14 +58,14 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 |Function     |DRI|
 |:----------:|:----------:|
 |[Annual Risk Assessment]({{< ref "storm-program#storm-procedures" >}})     |Kyle Smith|
-|[Business Impact Analysis]({{< ref "business-impact-analysis" >}})     |Nirmal Devarajan|
-|[New System Additions to Tech Stack and Post-Implementation Checks]({{< ref "tech-stack-applications" >}})     |Nirmal Devarajan|
-|[Critical System Tiering]({{< ref "critical-systems#determining-critical-system-tiers" >}})     |Kyle Smith|
-|[Ongoing SecRisk-Related Observations Management]({{< ref "observation-management-procedure#introduction-to-observation-management-at-gitlab" >}})     |Nirmal Devarajan|
+|[Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)     |Nirmal Devarajan|
+|[New System Additions to Tech Stack and Post-Implementation Checks](/handbook/business-technology/tech-stack-applications/)     |Nirmal Devarajan|
+|[Critical System Tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#designating-critical-system-tiers)     |Kyle Smith|
+|[Ongoing SecRisk-Related Observations Management](/handbook/security/security-assurance/observation-management-procedure/)     |Nirmal Devarajan|
 |[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
-|[Ongoing TPRM Assessments]({{< ref "third-party-risk-management" >}})     |Ryan Lawson|
+|[Ongoing TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Ryan Lawson|
 |[Periodic SOX CUEC Facilitation](/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/)     |Eric Geving|
-|[Periodic TPRM Assessments]({{< ref "third-party-risk-management" >}})     |Eric Geving|
+|[Periodic TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Eric Geving|
 |TPRM Data Quality and Emerging Requirements Management | Eric Geving |
 |[StORM Metrics and Reporting](storm-program#step-5-annual-storm-reports)     |Kyle Smith|
 |TPRM Metrics and Reporting     |Ryan Lawson|

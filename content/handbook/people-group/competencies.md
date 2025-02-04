@@ -34,7 +34,7 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 1. [Learning and development](/handbook/people-group/learning-and-development)
 1. [PDPs/PIPs](/handbook/leadership/underperformance/)
 1. [Career development](/handbook/people-group/learning-and-development/career-development/)
-1. [360 reviews]({{< ref "360-feedback" >}})
+1. [360 reviews](/handbook/people-group/360-feedback/)
 1. [Sales training](/handbook/sales/training/)
 1. [Sales enablement sessions](/handbook/sales/training/sales-enablement-sessions/)
 1. [Field enablement](/handbook/sales/field-operations/field-enablement/)
@@ -97,7 +97,7 @@ In addition to the knowledge assessments for each value, you can take this [Know
 1. [Manager of One](/handbook/leadership/#managers-of-one)
 1. [Effective Communication](/handbook/communication/#effective-communication-competency) : includes Working async: [Why](/handbook/company/culture/all-remote/asynchronous/) and [How](/handbook/communication/), Well written artifacts, [Single Source of Truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) and [Producing video](/handbook/marketing/marketing-operations/youtube/)
 1. [Handbook first](/handbook/about/handbook-usage/#handbook-first-competency)
-1. [Using GitLab]({{< ref "using-gitlab-at-gitlab#using-gitlab-competency" >}})
+1. [Using GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency)
 
 Test your knowledge and self-reflect on the Remote Work Competencies by completing the knowledge assessment as a [People Leader](https://docs.google.com/forms/d/e/1FAIpQLSemWK_Ki0aAMepKAQnaN-uMr1JBlkCs3O80sBli4PaTl2uoDA/viewform) or an [Individual Contributor](https://docs.google.com/forms/d/e/1FAIpQLScN70eoAjJ0tuj_iSgFRkyRbeNLrO9Yz52897619IkwoNW-cw/viewform). Earn at least an 80% to receive a certificate!
 
@@ -113,7 +113,7 @@ In addition to our values, remote work, and functional competencies, we have ide
 
 1. [Emotional Intelligence]({{< ref "emotional-intelligence" >}})
 1. [Modeling a Culture of Feedback](/handbook/people-group/guidance-on-feedback/#modeling-a-culture-of-feedback-manager-competency)
-1. [Coaching]({{< ref "coaching" >}})
+1. [Coaching](/handbook/leadership/coaching/)
 1. [Conflict Resolution]({{< ref "managing-conflict" >}})
 1. [Building High Performing Teams](/handbook/leadership/#building-high-performing-teams)
 

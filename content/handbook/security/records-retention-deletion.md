@@ -5,11 +5,11 @@ controlled_document: true
 
 ## Purpose
 
-The GitLab records retention and disposal standard lists the specific retention and secure disposal requirements for critical GitLab records. These minimum requirements inform design and maintenance decisions for all GitLab [tier 1 and tier 2 critical systems]({{< ref "critical-systems" >}}).
+The GitLab records retention and disposal standard lists the specific retention and secure disposal requirements for critical GitLab records. These minimum requirements inform design and maintenance decisions for all GitLab [tier 1 and tier 2 critical systems](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/).
 
 ## Scope
 
-The below retention and secure disposal requirements apply to all GitLab records enumerated in the table below stored in GitLab [tier 1 and tier 2 critical systems]({{< ref "critical-systems" >}}).
+The below retention and secure disposal requirements apply to all GitLab records enumerated in the table below stored in GitLab [tier 1 and tier 2 critical systems](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/).
 
 ## Roles & Responsibilities
 
@@ -80,6 +80,6 @@ Exceptions to these requirements will be tracked as per the [Information Securit
 ## References
 
 - Parent Policy: [Information Security Policy](_index.md)
-- [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
-- [Data Classification Standard]({{< ref "data-classification-standard" >}})
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
+- [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Google Cloud Platform data deletion](https://cloud.google.com/security/deletion)
