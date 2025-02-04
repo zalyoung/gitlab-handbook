@@ -433,20 +433,20 @@ Utilizing these accounts, create an outreach strategy and plan for the upcoming 
 
 #### Account Research Phase (4-5 hours/week)
 
-During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include:
+During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include the below. [You can use the Claude prompt here to help you automate part of this process.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231#note_2316335988) 
 
-- Identifying new strategic hires.
-- Discovering recent job openings in DevOps.
-- Monitoring for security breaches or threats.
-- Scanning for relevant news articles.
-- Gathering intelligence on competitors.
-- Examining future plans, such as digital transformation initiatives.
-- Noting recent company acquisitions.
-- Investigating LinkedIn connections.
-- Identifying instances of GitLab usage by employees or as a past customer.
-- Exploring 2nd and 3rd-degree connections.
-- Seeking mentions of DevOps.
-- Reviewing relevant 10K reports or financial disclosures.
+- Identifying new strategic hires - ZoomInfo Scoops, Company Website or LinkedIn
+- Discovering recent job openings in DevOps - Company Website or LinkedIn
+- Monitoring for security breaches or threats - Tech News Websites
+- Scanning for relevant news articles - Tech News Websites
+- Gathering intelligence on competitors - ZoomInfo or Cognism Insights
+- Examining future plans, such as digital transformation initiatives - ZoomInfo Scoops, Company Website or LinkedIn
+- Noting recent company acquisitions - ZoomInfo
+- Investigating LinkedIn connections - LinkedIn
+- Identifying instances of GitLab usage by employees or as a past customer - SFDC or 6Sense
+- Exploring 2nd and 3rd-degree connections - LinkedIn or 6sense Persona Heatmap
+- Seeking mentions of DevOps - ZoomInfo Scoops or 6Sense Timeline
+- Reviewing relevant 10K reports or financial disclosures - Company Website
 
 This comprehensive research will provide valuable insights for crafting effective outreach strategies further down the funnel. Regarding account research, in addition to our B2B database toolstack, we also use 6Sense to pre-qualify the accounts that should be considered for our pipelines since 6Sense scores accounts based on their market and profile fit.
 
