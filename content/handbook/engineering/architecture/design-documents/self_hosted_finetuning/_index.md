@@ -77,7 +77,41 @@ Any other forms of customizing the model:
 
 ### Architecture
 
-![Inference with Adapters](/static/images/engineering/architecture/design-documents/self_hosted_finetuning/arch_inference.png)
+```mermaid
+flowchart LR
+    subgraph s1["vLLM"]
+        n1["Base Model"]
+        n2["Adapter 1"]
+        n3["Adapter 2"]
+        n4["Adapter 3"]
+    end
+    
+    subgraph s2["UI"]
+        n5["Project 1"]
+        n6["Project 2"]
+        n7["Project 3-5"]
+        n8["Project 6"]
+    end
+
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n2 --> n5
+    n2 --> n6
+    n3 --> n7
+    n4 --> n8
+
+    style n5 stroke:#000000
+    style n6 stroke:#000000
+    style n7 stroke:#000000
+    style n8 stroke:#000000
+    style n1 stroke:#000000
+    style n2 stroke:#000000
+    style n3 stroke:#000000
+    style n4 stroke:#000000
+    style s1 stroke:#000000
+    style s2 stroke:#000000
+```
 
 ### Dataset Preparation
 Adapters will be trained using customer's data, for example their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
