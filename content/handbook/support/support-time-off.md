@@ -138,7 +138,7 @@ For high priority tickets, tend towards a handing over to someone else:
 ## How Support Handles Family and Friends Days
 
 During [Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days) GitLab Support continues
-to operate as normal. Starting from Q1/FY25, during each quarter you are free to take a day off at your convenience, to celebrate Family and Friends day.
+to operate as normal. In FY26, you are free to take off a total of 4 days at your convenience, to dcelebrate and record as Family and Friends day.
 Please follow the same guidelines as you would in [Choosing and Recording Time Off](#choosing-and-recording-time-off).
 
 ## How Support Handles Holidays
