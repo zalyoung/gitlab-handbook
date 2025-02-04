@@ -343,17 +343,28 @@ hugolint:
   image:
     name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:v${HUGOLINT_VERSION}
   before_script:
-    - apk add jq
+    - apk add jq curl
   script:
     - hugolint linkcheck --config .hugolint.yaml --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
-        hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
-        # additional JSON file to populate MR comment in post_comment_on_failure job
-        jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
-        hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
+        MAIN_PROJECT_ID=42817607
+        if [ "${CI_PROJECT_ID}" == "${MAIN_PROJECT_ID}" ]; then
+          hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
+        else
+          # For forks, fetch the artifact from the main project
+          ARTIFACT_URL=$(curl "https://gitlab.com/api/v4/projects/${MAIN_PROJECT_ID}/jobs/artifacts/${CI_DEFAULT_BRANCH}/raw/linkcheck.json?job=hugolint" -o latest.json -w "%{url_effective}")
+        fi
+        if [ -f latest.json ]; then
+          # additional JSON file to populate MR comment in post_comment_on_failure job
+          jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
+          hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
+        else
+          echo "Failed to create latest.json."
+          exit 1
+        fi
       fi
   artifacts:
     when: always
