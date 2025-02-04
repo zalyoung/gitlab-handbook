@@ -216,9 +216,10 @@ Most of the information above can be found in the official [Cloud SQL documentat
 Dividing the scope based on the Cells iterations https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/#cells-iterations
 
 ##### Cells 1.0 (Initial Scope)
+
 (Focus: Foundational validation and integration tasks for the Cells 1.0 release)
 
-The target of Cells [Cells 1.0](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/iterations/cells-1.0/) is to deliver a solution for internal customers using the SaaS GitLab.com offering, and foundational work for Cells.
+The target of Cells [Cells 1.0] (../iterations/cells-1.0.md) is to deliver a solution for internal customers using the SaaS GitLab.com offering, and foundational work for Cells.
 
 - Evaluate and integrate CloudSQL's database observability and automated telemetry collection tools into GitLab's observability suite.
   - Is [Query Insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) a sufficient replacement for the current observability tooling?
@@ -228,9 +229,10 @@ The target of Cells [Cells 1.0](https://handbook.gitlab.com/handbook/engineering
 - Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
 
 ##### Cells 1.5 (Future Considerations & Enhancements)
+
 (Focus: Features and validations for later iterations)
 
-The target of [Cells 1.5](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/iterations/cells-1.5/) is to deliver a migration solution for existing and new enterprise customers using the SaaS GitLab.com offering, built on top of the Cells 1.0 architecture.
+The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration solution for existing and new enterprise customers using the SaaS GitLab.com offering, built on top of the Cells 1.0 architecture.
 
 - Validate a connection pooling solution for both Write and Read-Only workloads:
   - PgBouncer on VMs
@@ -246,6 +248,7 @@ The target of [Cells 1.5](https://handbook.gitlab.com/handbook/engineering/archi
 - Evaluate disaster recovery options, including delayed replicas.
 
 ##### Evaluate Changes Over the Dedicated Deployment
+
 - Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
 - Evaluate offloading read operations to Standby Replicas.
 - Evaluate "Enable auto minor version upgrade".
