@@ -52,6 +52,13 @@ If a team member changes roles at GitLab and the approval goes through Workday, 
 
 For other instances such as a [Relocation](/handbook/people-group/relocation/), the People Connect Team member will create a [Relocation letter](/handbook/people-group/relocation/#once-approved) according to the parameters as listed in the [Relocation within the Same Country](/handbook/people-group/relocation/#once-approved) section on the Relocation handbook page.
 
+#### Job Change Letter Inc to Fed Entity Change
+
+For US team members who are changing from the Federal entity to Inc, or Inc to Federal, a job change letter will need to be created. Add the below verbiage to the appropriate letter template:
+
+- Transfer: GitLab is pleased to inform you that you are receiving a transfer to GitLab Inc as{{JOB_TITLE}} effective as of {{START_DATE}}. 
+- Promotion: Add a section, “Entity” , above the compensation details and list the new entity
+
 ### Background Screenings
 
 GitLab uses appropriate controls to ensure that its team members, assets, customer relationships, and information are protected. To reduce these risks, GitLab will obtain and review background information of covered prospective, and, as applicable, current team members as allowed by local law.
