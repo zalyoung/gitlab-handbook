@@ -182,6 +182,40 @@ Once the task-specific adapters are trained, customers would need to host their 
 
 Once hosted, the customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
 
+## Technical Details and Early results
+
+### Technical Details
+
+**Storage per Adapter**: 200Mb - 1GB. The size of 1 LoRA adapter could vary based on the configuration.
+
+**Training Time per Adapter**: 30 minutes to 1 hour. Varies based on the size of the training dataset. (TODO: add graph performance vs training time)
+
+**Hardware Specs for Training an Adapter**: Depending on the selected base model. For Codestral-22B, the minimum spec is 4xA10, while recommended spec is 4xA100 GPUs.
+
+**Inference Time Impact**: TODO qualitative evaluations
+
+### Early Experimentation (PoC) results
+A PoC has been developed for Code Suggestions (code generation and completion) feature. The adapter was trained for [ai-gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) for Codestral-22B. The finetuned model has shown positive results on both: manual and automated evaluations. 
+
+For **manual** evaluations, the model has been deployed and tested with Duo Self-hosted in WebIDE. The finetuned model proposed code suggestions that are more aligned with the overall code structure, than vanilla Codestral-22B:
+
+[Results for manual evaluations in WebIDE](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2284037077)
+
+In addition to the manual evaluations, the finetuned model was evaluated on several datasets where it also showed positive results (i.e. code suggestions were more aligned with existing code). 
+
+[Results using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
+
+
+In the table below we present the results of evaluating the finetune model and base model on three different datasets.
+
+In the columns, the two numbers are: embedding similarity, exact match. Higher number is better (meaning results were more similar to the expected output).
+
+| Model | code-suggestions-input-testcases-v1 | code_suggestions_aig_random_fim | code_suggestions_aig_signatures |
+| ------ | ------ | ------ | ------ |
+| Codestral-22B | 0.89, 0.03 | 0.84, 0.0 | 0.80, 0.0 |
+| LoRA+Codestral-22B | **0.91**, **0.17** | **0.87**, 0.0 | **0.85**, **0.05** | 
+
+
 ## Alternatives
 
 Adapters, and in particular, LoRAs are not a panacea, it is one of the methods that we could utilize if find it suitable for our use cases. Other potential approaches are:
