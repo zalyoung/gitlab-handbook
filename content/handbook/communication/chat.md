@@ -139,7 +139,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_avl`](https://app.slack.com/client/T02592416/C0477ERH8CF) | Asheville, North Carolina 🍂🏔️🍂 |
 | [`#loc_bali`](https://app.slack.com/client/T02592416/CQL1DF5FX) | Channel for those traveling to Bali in 2022. |
 | [`#loc_bayarea`](https://app.slack.com/client/T02592416/C03ATS0N2) | House channel for Mountain View. |
-| [`#loc_bc`](https://app.slack.com/client/T02592416/C011GM1LDDW) |  |
+| [`#loc_bc`](https://app.slack.com/client/T02592416/C011GM1LDDW) |  | For those in British Columbia, Canada 🇨🇦 |
 | [`#loc_belgium`](https://app.slack.com/client/T02592416/CR2T6HHCP) | 🇧🇪🍺🍫🍟     |
 | [`#loc_berlin`](https://app.slack.com/client/T02592416/C3SB0FKD4) | All things going on in Berlin, Germany. We are regularly meeting up on the 3rd Thursday of the Month. |
 | [`#loc_bochum`](https://app.slack.com/client/T02592416/CFV9XLA67) | For all folks from Bochum, Germany. ⛏ https://www.youtube.com/watch?v=Gtd9Bg9S85U |
