@@ -4,6 +4,23 @@ description: Support Operations documentation page for Zendesk US Government app
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/apps/us-government-apps"
 ---
 
+## Advanced SAST App
+
+<sup>*Introduced via [support-team-meta#6652](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6652)*</sup>
+
+The Advanced SAST App is a ticket app that enables a quick working of User
+requests for source code of LGPL-licensed components in GitLab Advanced SAST.
+
+App information:
+
+- Located in the ticket sidebar
+- Restricted by Group:
+  - Support
+  - Support Managers
+  - Support Operations
+- This application was developed in-house and can be found
+  [GitLab Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/advanced-sast-app).
+
 ## Advanced Search
 
 Advanced Search is an app that provides a simple visual interface for
