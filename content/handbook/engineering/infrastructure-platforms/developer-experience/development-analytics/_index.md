@@ -36,15 +36,15 @@ We envision a future where GitLab’s development workflows are seamless, insigh
 ```mermaid
 flowchart LR
     DA[Development Analytics Team]
-    
+
     DA --> MRCT[MR Cycle Time Improvement]
     DA --> Tools[Tooling Maintenance]
-    
+
     MRCT --> Analytics[Analytics & Observability]
     MRCT --> ExecTime[Pipeline Execution Time Optimization]
     MRCT --> ReviewEng[Review Engagement Enhancement]
     MRCT --> PipeStab[Pipeline Stability Assurance]
-    
+
     Tools --> Triage[Triage Ops]
     Tools --> Roulette[GitLab Roulette]
     Tools --> Danger[Dangerfiles]

@@ -3,6 +3,10 @@ title: "Engineering Analytics Team"
 description: "Engineering Analytics Team"
 ---
 
+## DEPRECATED
+
+This page is deprecated and will be removed in the future.
+
 ## Vision
 
 Engineering Analytics enables Engineering at GitLab to understand how quickly we are building and evolving our product to meet our customers' needs, and to decide what are the most appropriate balances between cost and effort in building our product.
@@ -109,16 +113,16 @@ The team structure will leverage [stable counterpart](/handbook/leadership/#stab
 
 We assign the stable counterpart by Engineering Division's sub-departments. This is identified by the Engineering Department name assigned to an Engineering Analyst.
 
-| Eng Department | Analyst                                                             | PI Page                                                                                              |
-|----------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Engineering    | Engineering Analytics Team                                          | [Eng PI Page](/handbook/engineering/performance-indicators)             |
-| Development    | [Lily](https://gitlab.com/lmai1), [Dani](https://gitlab.com/ddeng1) | [Dev PI Page](/handbook/engineering/development/performance-indicators) |
-| Infrastructure | [Clément](https://gitlab.com/clem.lr)                               | [Infra PI Page](/handbook/engineering/infrastructure/performance-indicators) |
-| Quality        | [Raul](https://gitlab.com/raulrendon)                               | [Quality PI Page](/handbook/engineering/quality/performance-indicators)      |
-| Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](/handbook/security/performance-indicators)                |
-| Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](/handbook/support/performance-indicators)                  |
-| Finance        | [Clément](https://gitlab.com/clem.lr)                               | [Finance PI Page](/handbook/finance/finance-team-performance-indicators/)              |
-| Incubation     | [Lily](https://gitlab.com/lmai1)                                    | [Incubation Page](/handbook/engineering/development/incubation/performance-indicators/)  |
+| Eng Department | Analyst                                                             | PI Page                                                                                 |
+|----------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Engineering    | Engineering Analytics Team                                          | [Eng PI Page](/handbook/engineering/performance-indicators)                             |
+| Development    | [Lily](https://gitlab.com/lmai1), [Dani](https://gitlab.com/ddeng1) | [Dev PI Page](/handbook/engineering/development/performance-indicators)                 |
+| Infrastructure | [Clément](https://gitlab.com/clem.lr)                               | [Infra PI Page](/handbook/engineering/infrastructure/performance-indicators)            |
+| Quality        | [Raul](https://gitlab.com/raulrendon)                               | Quality PI Page                                                                         |
+| Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](/handbook/security/performance-indicators)                           |
+| Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](/handbook/support/performance-indicators)                             |
+| Finance        | [Clément](https://gitlab.com/clem.lr)                               | [Finance PI Page](/handbook/finance/finance-team-performance-indicators/)               |
+| Incubation     | [Lily](https://gitlab.com/lmai1)                                    | [Incubation Page](/handbook/engineering/development/incubation/performance-indicators/) |
 
 Engineering analysts assigned to one area are experts in that area and may not have the knowledge depth in other areas. As such contributing cross-domain expertise will only be limited to Sisense charting and not beyond this data layer.
 
@@ -192,11 +196,11 @@ Work is prioritized using table below. Work type is stacked ranked within each p
 
 ### How to Engage with Us
 
-Please reach out to us by opening an issue on the [Engineering Analytics board](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) or contacting us in the [g_engineering_analytics](https://gitlab.slack.com/archives/C01UTSNFS3G) slack channel.
+Please reach out to us by opening an issue on the [Engineering Analytics board](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) or contacting us in the [g_engineering_analytics](https://gitlab.slack.com/archives/C01UTSNFS3G) Slack channel.
 
 #### Creating an Issue
 
-To ensure that the issue gets visibility by our team, when creating an issue on the [Engineering Analytics board](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic), please add the `~"Engineering Metrics"` label in addition to one of the below labels and ping the [analyst](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) assigned to that department.
+To ensure that the issue gets visibility by our team, when creating an issue on the [Engineering Analytics board](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic), please add the `~"Engineering Metrics"` label in addition to one of the below labels and ping the analyst assigned to that department.
 
 - `~"Eng Metrics::Eng Division"`
 - `~"Eng Metrics::Development Department"`

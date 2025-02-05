@@ -98,13 +98,13 @@ For more details, see the [team page](/handbook/engineering/infrastructure-platf
 - The Security Manager on-call is responsible to engage alternative/backup SecOps Engineers in the event the primary is unavailable.
 - In the event of a high-impact security incident to GitLab, the Security Manager on-call will be engaged to assist with cross-team/department coordination.
 
-## Test Platform Team On-Call Rotation
+## Developer Experience Stage On-Call Rotation
 
-- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation) page.
+- Developer Experience's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure-platforms/developer-experience/oncall-rotation/) page.
 - The rotation is on a weekly basis across 3 timezones (APAC, EMEA, AMER) and triage activities happen during each team member's working hours.
 - This on-call rotation is to ensure accurate and stable test pipeline results that directly affects our continuous release process.
-- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
-- The schedule and roster is defined on our [schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
+- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) page.
+- The schedule and roster is defined on our [schedule](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) page.
 
 ## PagerDuty
 

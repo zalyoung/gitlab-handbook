@@ -88,7 +88,7 @@ This guide serves as a resource, showcasing our strategies, tools, and best prac
 
 ## Motivation
 
-We have been successfully using tools like [GPT](https://gitlab.com/gitlab-org/quality/performance) for load testing against [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), the current [handbook page](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/). We have had experiences, such as [database performance testing with large datasets](https://gitlab.com/gitlab-org/gitlab/-/issues/434465), that have demonstrated the benefits of shifting performance testing left in the development process.
+We have been successfully using tools like [GPT](https://gitlab.com/gitlab-org/quality/performance) for load testing against [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), the current [handbook page](/handbook/engineering/infrastructure-platforms/developer-experience/performance-and-scalability/). We have had experiences, such as [database performance testing with large datasets](https://gitlab.com/gitlab-org/gitlab/-/issues/434465), that have demonstrated the benefits of shifting performance testing left in the development process.
 
 By adopting a broader range of performance engineering practices, we can take a more proactive stance on solving performance concerns before they surface as issues in live environments. This approach aligns with our commitment to delivering excellent user experiences and maintaining GitLab's scalability as we continue to grow.
 

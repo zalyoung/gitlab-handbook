@@ -1,9 +1,9 @@
 ---
-title: Pipeline Monitoring
-description: Overview of our monitoring tools and practices
+title: End-to-end Pipeline Monitoring
+description: Overview of our E2E monitoring tools and practices
 ---
 
-## End-to-end test pipelines
+## End-to-end (E2E) test pipelines
 
 The test pipelines run on a scheduled basis, and their results are posted to Slack. The following are the end-to-end test pipelines that are monitored every day.
 
@@ -27,7 +27,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | GitLab `master` Nightly                  | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L137-149)                                                                                                                                                                                      | Full       | [Daily at 4:00am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)                                                                                                                                                                               | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                            | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html)                      |
 
 NOTE:
-For information on how to investigate failing tests and pipelines, check out [Debugging Failing Tests and Test Pipelines](../debugging-qa-test-failures/index.md)
+For information on how to investigate failing end-to-end tests and pipelines, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
 
 ## Test metrics
 
