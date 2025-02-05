@@ -13,7 +13,7 @@ For more information on how this relates to positions and levels in our function
 
 ## Functional Productivity KPIs
 
-Each quarter, the Talent Acquisition team reports out on 4 top line productivity metrics as a function. Reports can be accessed [here]("https://drive.google.com/drive/folders/1kfTQkd_PAgvFPrgogCLZD7opMW2wiKBS?usp=drive_link") by internal team members.
+Each quarter, the Talent Acquisition team reports out on 4 top line productivity metrics as a function. Reports can be accessed [in this folder]("https://drive.google.com/drive/folders/1kfTQkd_PAgvFPrgogCLZD7opMW2wiKBS?usp=drive_link") by internal team members.
 
 1. Achievement against our External Hiring Target
 1. Average Time to Fill (period of time for a requisition opening to hire)
@@ -21,6 +21,7 @@ Each quarter, the Talent Acquisition team reports out on 4 top line productivity
 1. Requisition Aging (% of requisitions that are open 75+ days)
 
 There are a number of additional metrics we monitor to understand the overall health of our hiring motion and where we have risk or are trending above or below industry benchmarks. Those metrics are defined to include:
+
 - Start Date Forecast Attainment: Total number of external starts against forecast starts target set in partnership with Finance during the first week of each quarter. Goal is to be within +/-5% of the forecast.
 - Ending Headcount to Plan Variance: Ending headcount from original FY25 Annual Operating Plan.
 - Reforecast: Quarterly reforecasted ending headcount number (taking into account RLoA/Incremental Headcount additions, Headcount splits, Reallocation of funds, Culling, etc).
@@ -28,15 +29,14 @@ There are a number of additional metrics we monitor to understand the overall he
 - Aging Requisitions: Number of requisitions with running TTF of 75+ days. On track is anything under 10%, at risk 11-19%, and off track 20%+.
 - Offer Acceptance Rate: Number of offers accepted divided by offers extended. On track is anything between 75-85%.
 - Source Mix: Percentage of hires from (a) passively sourced talent (b) applications or ( c) referrals. The goal is to have equal distribution to show balanced, healthy pipelines.
-- ‘On Hold’ Requisitions: Number of requisitions ‘on hold’. These roles are in plan but technically ‘closed’ in the ATS, thus ‘pausing’ TTF until decisions have been made by the business. Any role awaiting business decision for 14+ business days will move to on hold and will be flagged with senior leadership.
+- 'On Hold' Requisitions: Number of requisitions 'on hold'. These roles are in plan but technically ‘closed’ in the ATS, thus 'pausing' TTF until decisions have been made by the business. Any role awaiting business decision for 14+ business days will move to on hold and will be flagged with senior leadership.
 - Time to Start (TTS): Number of days from a requisition opening in Greenhouse to new hire starting in role.
 - Hire to Start (HTS): Number of days from offer acceptance to new hire start date.
-- Pipeline Conversion Rates: Percentage of candidates moving from each stage in the recruitment process.Targets for ‘on track’ status include  Initial > Team interview (40-50%), Team Interview > Offer (25-33%), and Offer > Hire (75-85%).
-
+- Pipeline Conversion Rates: Percentage of candidates moving from each stage in the recruitment process.Targets for 'on track' status include  Initial > Team interview (40-50%), Team Interview > Offer (25-33%), and Offer > Hire (75-85%).
 
 ## Recruiter Productivity KPIs
 
-We have outlined and defined our KPIs for recruiters to adequately measure both outcomes (ie: hires, prospects) and the quality of those efforts (ie: conversion rates, sourcing rate %).
+We have outlined and defined our KPIs for recruiters to adequately measure both outcomes (such as hires, prospects) and the quality of those efforts (such as conversion rates, sourcing rate %).
 
 **Full Lifecycle Recruiter**
 
@@ -44,12 +44,15 @@ We have outlined and defined our KPIs for recruiters to adequately measure both 
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | External Hires| Total number of external hires made in the course of the quarter. Technical teams goal set at 6/quarter. Non-technical teams goal set at 9/quarter.  |
 |Sourcing Rate %                                      | Percentage of outreach made with a sourcing strategy targeting building representation into top of funnel. |
-| Outreach                          | Number of sourced candidate outreach on a weekly basis to support pipeline health                |
-| Conversion Rates                                | Consistent management against industry benchmarks for candidate conversion through the funnel to ensure we are running a quality recruitment process. Additional focus on candidate throughput (timely processes) when relevant.
+| Outreach   | Number of sourced candidate outreach on a weekly basis to support pipeline health|
+| Conversion Rates | Consistent management against industry benchmarks for candidate conversion through the funnel to ensure we are running a quality recruitment process. Additional focus on candidate throughput (timely processes) when relevant.|
 
 ## Reporting Tools
 
 In addition to defining our KPIs, we have also invested in our tooling to track as a team in a transparent manner. Utilizing both the KPIs and tools, TA team members should feel well equipped to (a) own their growth, development, and performance and (B) be able to tell a thoughtful, data-driven story when we are problem-solving, trying to understand where we might be at risk/off track, or highlighting where we have bright spots to replicate across teams.
+
 Dashboards
+
 1. [Recruiting Productivity Dashboard]("https://10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/ProgresstoGoal?:iid=1")
+
 1. [Recruiter Scorecard]("https://10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/RecruiterScorecard?:iid=1")
