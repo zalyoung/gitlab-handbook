@@ -83,7 +83,7 @@ The per-project storage limit for Premium and Ultimate customers will be increas
 1. Open an issue in the **[internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues)** issue tracker using the `Repo Size Limit` issue template.
     - If you do not have GitLab.com admin access, add the `Admin escalation` label. If needed, post in the `#support_gitlab-com` Slack channel for attention on it.
     - Use 500GiB for the exception size.
-    - Set a due date for reverting for the end FY2026-Q1 (April 30, 2025).
+    - Set a due date for the end FY2026-Q1 (April 30, 2025).
     - If the request is to increase the storage limit above 500GiB, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
     - If the request arises from a bug, make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
 1. Apply the `Status::On Hold` label and set the due date to April 30, 2025.
