@@ -11,6 +11,7 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 
 ### Base Requirements
 
+- Interest in digital accessibility
 - Strong understanding of WCAG 2.1, Section 508, and EN 301 549 guidelines and accessibility standards.
 - Experience with assistive technologies (screen readers, voice recognition software, etc.).
 - Proficiency in HTML (including ARIA roles and attributes), CSS, and JavaScript.
@@ -42,7 +43,7 @@ The Accessibility Engineer is a [grade 6](/handbook/total-rewards/compensation/c
 - **Training**: Provide basic accessibility training and guidance to UX and development teams.
 - **Bug Fixes**: Implement fixes for identified accessibility issues.
 - **Standards**: Keep up-to-date with accessibility standards and emerging technologies.
-- **Collaboration**: Work with designers and engineers to ensure accessibility is considered early in the development process.
+- **Collaboration**: Work with designers and engineers to ensure accessibility is considered early in the product development process.
 
 ##### Requirements
 
@@ -108,10 +109,9 @@ A Staff Accessibility Engineer is expected to meet the base requirements and exe
 
 ### Hiring Process
 
-Candidates for these positions can expect the hiring process to follow this general order:
+Candidates for these positions can expect the hiring process to follow this general process:
 
 1. **Recruiter Call** (30 minutes)
-
    - Discussion of experience with accessibility engineering.
    - Understanding of WCAG guidelines and accessibility standards.
    - Technical background and approach to accessibility.
@@ -129,7 +129,7 @@ Candidates for these positions can expect the hiring process to follow this gene
    - Experience with complex accessibility solutions.
    - Strategies for monitoring and maintaining accessibility compliance.
    - Working with engineers to implement solutions.
-1. Senior Product Design Manager Interview (1 hour)
+1. **Senior Product Design Manager Interview** (1 hour)
    - Experience collaborating with design teams on accessibility solutions.
    - Methods for balancing design intent with accessibility requirements.
    - Approach to accessible component libraries.
