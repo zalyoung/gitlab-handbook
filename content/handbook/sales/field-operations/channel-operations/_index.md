@@ -675,8 +675,9 @@ _The deal registration form is not a quoting tool and will not have all the info
 ### Service Attached Registration
 
 GitLab incentivizes accredited professional services partners that sell their own professional services into a customer environment. The partner must submit any services opportunities via a Service Attached registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attach qualification does not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. Service Attach registration approval requires:
+
 1. Completion of the associated software opportunity (i.e., closed won)
-2. Submission of an executed Statement of Work (SOW) that meets [program guidelines](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
+2. Submission of an executed Statement of Work (SOW) that meets [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
 
 Accredited professional services partners with approved service attached registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale.
 
@@ -695,7 +696,7 @@ Ecosystem Operatons Team has first action to review and update the registration 
 
 #### Partner submits Executed Statement of Work
 
-Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The Statement of Work must meet [GitLab Partner Program requirements](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications).
+Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The Statement of Work must meet [GitLab Partner Program requirements](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications).
 
 #### Ecosystem Operations for second review and action
 
