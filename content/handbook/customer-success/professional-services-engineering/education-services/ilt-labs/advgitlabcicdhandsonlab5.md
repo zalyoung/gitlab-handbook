@@ -74,7 +74,13 @@ The current pipeline should look like this:
         reports:
           junit: junit.xml
 
-    .install deps: &cachedef
+    .cachedef: &cachedef
+      cache:
+        key: $CI_COMMIT_REF_SLUG
+        paths:
+          - node_modules
+        
+    install deps:
       stage: deps
       script:
         - npm install jest-junit
