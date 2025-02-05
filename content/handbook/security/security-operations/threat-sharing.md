@@ -14,6 +14,24 @@ GitLab customers can contact their sales or customer success representative and 
 
 ## Threat and Intelligence Sharing: Accceptable Use Policy
 
+### High Level Responsibilities RACI
+
+- R - Responsible: Performs the activity
+- A - Accountable: Ultimately answerable for the activity
+- C - Consulted: Asked for input before actions are taken
+- I - Informed: Updated on actions and decisions
+
+| Activity | GitLab Security | Client |
+| -------- | -------------- | ------- |
+| Share threat intelligence | R/A | R/A |
+| Validate shared intelligence | R/A | R/A |
+| Apply TLP classifications | R/A | R/A |
+| Maintain access controls | R/A | R/A |
+| Report sharing misuse | R/A | R/A |
+| Moderate shared content | R/A | I |
+| Enforce acceptable use policy | R/A | C |
+| Monitor policy compliance | R/A | I |
+
 ### Authorized Data Sharing 
 
 GitLab uses [Traffic Light Protocol](https://www.cisa.gov/news-events/news/traffic-light-protocol-tlp-definitions-and-usage) (TLP) to define sharing restrictions. Generally, data classified up to TLP:Amber (information restricted to GitLab and our customers) can be shared. 
