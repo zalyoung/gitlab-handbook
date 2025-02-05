@@ -3,13 +3,13 @@ title: "Accessibility Engineer"
 description: "At GitLab, Accessibility Engineers collaborate closely with product designers, engineers, UX researchers, technical writers, and other team members to ensure GitLab's products are accessible to all users, including those with disabilities."
 ---
 
-## Product Design Roles at GitLab
+## Accessibility Engineer Roles at GitLab
 
 At GitLab, Accessibility Engineers collaborate closely with [product designers](/job-families/product/product-designer/), [engineers](/job-families/engineering/), [UX researchers](/job-families/product/ux-researcher/), and [technical writers](/job-families/product/technical-writer/) to ensure GitLab's products are accessible to all users, including those with disabilities.
 
 An Accessibility Engineer reports to a [Product Design Manager](/job-families/product/product-design-management/#product-design-manager).
 
-## Base Requirements For All Roles
+### Base Requirements
 
 - Strong understanding of WCAG 2.1, Section 508, and EN 301 549 guidelines and accessibility standards.
 - Experience with assistive technologies (screen readers, voice recognition software, etc.).
@@ -23,17 +23,17 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
 - Strong bias for action and ability to develop daily priorities to achieve goals (manager of one).
 
-## Levels
+### Levels
 
-### Accessibility Engineer
+#### Accessibility Engineer
 
 An Accessibility Engineer collaborates closely with product designers and engineers.
 
-#### Job Grade
+##### Job Grade
 
 The Accessibility Engineer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+##### Responsibilities
 
 - **Technical Implementation**: Implement accessibility solutions using semantic HTML, CSS, ARIA, and JavaScript following WCAG guidelines.
 - **Accessibility Testing**: Conduct automated and manual accessibility testing using various tools and assistive technologies.
@@ -44,19 +44,19 @@ The Accessibility Engineer is a [grade 6](/handbook/total-rewards/compensation/c
 - **Standards**: Keep up-to-date with accessibility standards and emerging technologies.
 - **Collaboration**: Work with designers and engineers to ensure accessibility is considered early in the development process.
 
-#### Requirements
+##### Requirements
 
 An Accessibility Engineer is expected to meet the base requirements and execute their responsibilities with a commitment to results and agreed actions.
 
-### Senior Accessibility Engineer
+#### Senior Accessibility Engineer
 
 A Senior Accessibility Engineer collaborates closely with product designers and engineers and is not exclusive to a single group.
 
-#### Job Grade
+##### Job Grade
 
 The Senior Accessibility Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+##### Responsibilities
 
 Everything in the Accessibility Engineer role, plus:
 
@@ -70,19 +70,19 @@ Everything in the Accessibility Engineer role, plus:
 - **External Engagement**: Represent GitLab in external technical communities.
 - **Innovation**: Research and propose new technologies and methods to improve accessibility.
 
-#### Requirements
+##### Requirements
 
 A Senior Accessibility Engineer is expected to meet the base requirements and execute their responsibilities while modeling a sense of urgency and commitment to deliver results.
 
-### Staff Accessibility Engineer
+#### Staff Accessibility Engineer
 
 A Staff Accessibility Engineer is expected to work across R&D based on business needs.
 
-#### Job Grade
+##### Job Grade
 
 The Staff Accessibility Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+##### Responsibilities
 
 Everything in the Senior Accessibility Engineer role, plus:
 
@@ -96,17 +96,17 @@ Everything in the Senior Accessibility Engineer role, plus:
 - **Innovation Leadership**: Lead research and implementation of emerging accessibility technologies.
 - **Mentorship Program**: Develop and lead accessibility mentorship programs, including evaluation methodology and documentation standards.
 
-#### Requirements
+##### Requirements
 
 A Staff Accessibility Engineer is expected to meet the base requirements and execute their responsibilities while coaching team members to collaborate and work iteratively.
 
-## Performance Indicators
+### Performance Indicators
 
 - Number of accessibility issues resolved
 - Time to resolution for critical and severe accessibility issues
 - Product coverage for automated accessibility checks
 
-## Hiring Process
+### Hiring Process
 
 Candidates for these positions can expect the hiring process to follow this general order:
 
@@ -137,9 +137,9 @@ Candidates for these positions can expect the hiring process to follow this gene
 
 Successful candidates will receive an offer through a video call or phone call.
 
-## Required Skills by Level
+### Required Skills by Level
 
-### Accessibility Engineer
+#### Accessibility Engineer
 
 - Basic WCAG 2.1 knowledge and implementation.
 - Experience with common accessibility tools.
@@ -147,7 +147,7 @@ Successful candidates will receive an offer through a video call or phone call.
 - HTML, CSS, JavaScript proficiency.
 - Testing and debugging skills.
 
-### Senior Accessibility Engineer
+#### Senior Accessibility Engineer
 
 - Advanced WCAG 2.1 implementation experience.
 - Deep knowledge of assistive technologies.
@@ -155,7 +155,7 @@ Successful candidates will receive an offer through a video call or phone call.
 - Strong technical architecture skills.
 - Mentoring and training experience.
 
-### Staff Accessibility Engineer
+#### Staff Accessibility Engineer
 
 - Expert-level accessibility knowledge.
 - Platform-wide accessibility architecture experience.
