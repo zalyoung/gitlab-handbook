@@ -7,14 +7,17 @@
     "set" (dict "tag" .set_team_tag "name" "SET" "members" slice)
 }}
 
-{{- range $team }}
-    {{- range $key, $category := $teamCategories }}
+{{- $updatedTeamCategories := dict }}
+{{- range $key, $category := $teamCategories }}
+    {{- $newMembers := slice }}
+    {{- range $team }}
         {{- if in $.departments $category.tag }}
-            {{- $newMembers := $category.members | append . }}
-            {{- $category = merge $category (dict "members" $newMembers) }}
+            {{- $newMembers = $newMembers | append . }}
         {{- end }}
     {{- end }}
+    {{- $updatedTeamCategories = merge $updatedTeamCategories (dict $key (merge $category (dict "members" $newMembers))) }}
 {{- end }}
+{{- $teamCategories = $updatedTeamCategories }}
 
 {{- $totalEngineers := 0 }}
 {{- range $teamCategories }}
