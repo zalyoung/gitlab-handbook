@@ -63,7 +63,7 @@ GitLab's [100% remote culture](_index.md) and our workplace methodologies are hi
 
 So differently, in fact, that many of GitLab's most effective processes would be discouraged or forbidden in conventional corporations. It's not a trap. It's the future of work.
 
-Explore the resources in our [all-remote handbook section](self-service/), as well as our collection of [relevant blog posts](https://about.gitlab.com/blog/categories/culture/), for a deeper understanding of [life at GitLab](/handbook/company/culture/all-remote/#life-at-gitlab).
+Explore the resources in our [all-remote handbook section](self-service/), as well as our collection of [relevant blog posts](https://about.gitlab.com/blog/categories/culture/), for a deeper understanding of [life at GitLab](/handbook/company/culture/#life-at-gitlab).
 
 ## Focus your workspace
 

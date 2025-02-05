@@ -63,7 +63,7 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 
 ## Security System Intake
 
-To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)](/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf) and compliance programs  (e.g., [Security Compliance Program](/handbook/security/security-assurance/security-compliance/#-core-competencies) and [SOX Program](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)).
+To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)](/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf) and compliance programs  (e.g., [Security Compliance Program](/handbook/security/security-assurance/#i-classfab-fa-gitlab-fa-fw-stylefont-size85em-aria-hiddentruei-core-competencies) and [SOX Program](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)).
 
 ### 1. System identification
 

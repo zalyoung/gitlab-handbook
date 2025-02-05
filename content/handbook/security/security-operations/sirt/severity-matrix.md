@@ -4,7 +4,7 @@ description: " "
 weight: 30
 ---
 
-Incidents will be classified using `Priority` and `Severity` labels.  SIRT will use the criteria defined below when assigning labels and the [SIRT Escalation Guide](/handbook/security/security-operations/sirt/#-engaging-sirt) for escalations.
+Incidents will be classified using `Priority` and `Severity` labels.  SIRT will use the criteria defined below when assigning labels and the [SIRT Escalation Guide](/handbook/security/security-operations/secops-oncall/) for escalations.
 
 ## Priority
 

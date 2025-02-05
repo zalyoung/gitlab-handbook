@@ -275,4 +275,4 @@ Once current level is assessed - add the scoped label `ControlAutomationPotentia
 [Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
 
 - [Automation design, development, and implementation](/handbook/security/security-assurance/governance/security-assurance-automation/)
-- [GRC application administration](/handbook/security/security-assurance/#core-tools-and-systems-1)
+- [GRC application administration](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems)

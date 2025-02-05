@@ -267,7 +267,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-policies/#background-checks) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -354,7 +354,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-policies/#background-checks) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?

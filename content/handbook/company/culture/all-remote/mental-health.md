@@ -66,7 +66,7 @@ As part of his session at REMOTE by GitLab, John shares how organizations can in
 
 {{< youtube "bQMoF7oSh2o" >}}
 
-GitLab's L&D team also hosted a [live speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
+GitLab's L&D team also hosted a [live speaker series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
 
 {{< youtube "BDvpoouM-us" >}}
 
@@ -95,7 +95,7 @@ Examples of how you might define your rest ethic:
 
 To learn more about building a rest ethic, refer to this course by John Fitch and TimeOff entitled [Design your Rest Ethic](https://timeoff.thinkific.com/courses/time-off-design-your-rest-ethic).
 
-GitLab hosted John Fitch for 2 Live [Speaker Series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
+GitLab hosted John Fitch for 2 Live [Speaker Series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
 
 **Session 1**
 

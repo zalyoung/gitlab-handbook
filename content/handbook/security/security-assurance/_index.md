@@ -10,7 +10,7 @@ To be a trusted sales enablement partner that is recognized internally and exter
 
 ## Overview
 
-As a member of the [Security department](/handbook/security/security-assurance/#assure-the-customer), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
+As a member of the [Security department](/handbook/security/), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
 
 There are five teams in the Security Assurance sub-department.
 
@@ -75,7 +75,7 @@ There are five teams in the Security Assurance sub-department.
 - [Security Assurance Metrics](/handbook/security/security-assurance/governance/#security-assurance-metrics)
 - [Regulatory Landscape Monitoring](/handbook/security/security-assurance/governance/#regulatory-and-compliance-landscape-monitoring)
 - [Security Awareness and Training](/handbook/security/security-assurance/governance/sec-awareness-training/)
-- [Security Assurance Application Administration](/handbook/security/security-assurance/#core-tools-and-systems)
+- [Security Assurance Application Administration](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems)
 - [Security Assurance Automation](/handbook/security/security-assurance/governance/security-assurance-automation/)
 
 ### Security Risk Core Competencies

@@ -38,7 +38,7 @@ Please check with your manager to ensure they have no concerns with your partici
 
 ## Stealth Operations
 
-[Stealth Operations](/handbook/security/security-operations/red-team/how-we-operate/#stealth-operations) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals in [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/stealth-02-logistics.md).
+[Stealth Operations](/handbook/security/security-operations/red-team/stealth-operations/) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals in [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/stealth-02-logistics.md).
 
 The sections below contain general rules that apply to all stealth operations.
 

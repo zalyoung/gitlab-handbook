@@ -46,7 +46,7 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 
 ## What is Authomize and why do I have an Okta tile for it?
 
-[Authomize](/handbook/security/security-assurance/#core-tools-and-systems-1) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Authomize upon onboarding. To access Authomize, team members can select the Authomize tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
+[Authomize](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Authomize upon onboarding. To access Authomize, team members can select the Authomize tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
 
 ## Access Review Procedure
 

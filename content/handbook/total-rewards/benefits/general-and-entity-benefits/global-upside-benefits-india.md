@@ -137,7 +137,7 @@ Team members are entitled to `five days` of paid vacation leave after 12 months 
 
 #### Applying for Parental Leave in the Philippines
 
-To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](general[general-and-entity-benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ## Latvia
 

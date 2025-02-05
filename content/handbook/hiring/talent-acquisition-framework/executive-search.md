@@ -260,7 +260,7 @@ References will be conducted in accordance with GitLab's standard policies docum
 
 **Background Check**
 
-Background check will be conducted in accordance with GitLab's standard policies documented [here](/handbook/people-policies/#background-screenings)
+Background check will be conducted in accordance with GitLab's standard policies documented [here](/handbook/people-group/contracts-probation-periods/#background-screenings)
 
 **Offer Preparation**
 

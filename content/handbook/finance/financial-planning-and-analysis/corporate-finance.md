@@ -74,7 +74,7 @@ We collaborate with tax to review actual tax expenses, forecast tax provision fo
 ### Key Processes
 
 - [Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)](/handbook/finance/financial-planning-and-analysis/#quarterly--monthly-cycle-incl-close-variance-forecast-guidance)
-- [Plan](/handbook/finance/financial-planning-and-analysis/#plan)
+- [Plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop)
 - [Long Range Outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-- [Headcount](/handbook/finance/financial-planning-and-analysis/#headcount-and-the-talent-acquisition-single-source-of-truth)
-- [Adaptive Insights]([_index.md](/handbook/finance/financial-planning-and-analysis/#adaptive-planning)›)
+- [Headcount](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan)
+- [Adaptive Insights](/handbook/finance/financial-planning-and-analysis/#adaptive-planning)

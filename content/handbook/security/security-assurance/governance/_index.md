@@ -42,7 +42,7 @@ Creating and managing [security compliance trainings](/handbook/security/securit
 
 ### GRC Application Administration
 
-Managing a [variety of tools](/handbook/security/security-assurance/#core-tools-and-systems-1) used by the Security Assurance Team to support our day to day processes and strategic initiatives.
+Managing a [variety of tools](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems) used by the Security Assurance Team to support our day to day processes and strategic initiatives.
 
 - Configuration changes
 - User Access Management

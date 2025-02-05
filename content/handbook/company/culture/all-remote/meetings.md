@@ -77,7 +77,7 @@ This works because of our values, which leads GitLab to hire individuals who enj
 
 #### Record meetings to encourage async participation
 
-You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/#recording-in-zoom).
+You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
 #### Managing meeting attendance for team members
 

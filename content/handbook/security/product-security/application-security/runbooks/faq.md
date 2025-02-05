@@ -9,7 +9,7 @@ This is a curated list of commonly asked questions related to Application Securi
 
 ## What do I do if I accidentally opened a security MR in public ?
 
-Check if the related confidential security issue has the label `~"security-fix-in-public"`. This label means that the security issue is [already accepted](/job-families/security/vulnerability-management#fixing-in-public) to be to be addressed in public, so it is ok to have this MR in public. If this is not the case then [Engage the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) to delete the MR and branch.
+Check if the related confidential security issue has the label `~"security-fix-in-public"`. This label means that the security issue is [already accepted](/handbook/security/product-security/application-security/vulnerability-management/#fixing-in-public) to be to be addressed in public, so it is ok to have this MR in public. If this is not the case then [Engage the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) to delete the MR and branch.
 
 ## Who can I contact if my Stable Counterpart is out of office?
 

@@ -4,7 +4,7 @@ title: "Security Shadow: Security Assurance"
 
 ## Security Compliance
 
-[Security Compliance:](/handbook/security/#security-compliance) Where "Just do whatever you want" comes to die.
+Security Compliance: Where "Just do whatever you want" comes to die.
 Have you ever wondered where all those security requests and requirements come from and why in the world you're always being asked to provide evidence and talk through how systems are designed and configured? Well then good news! Come join the security compliance team for a shadow rotation where we'll have you:
 
 - Reading through information security framework documentation

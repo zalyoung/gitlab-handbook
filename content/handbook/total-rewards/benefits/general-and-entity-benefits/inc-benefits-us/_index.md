@@ -279,7 +279,7 @@ See the [2024 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1R
 
 Cigna has advised they will provide [WPATH](https://wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
 
-Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact) with any questions or if you need help while seeking authorization for a treatment.
+Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact--claims-escalations) with any questions or if you need help while seeking authorization for a treatment.
 
 </details>
 
@@ -900,7 +900,7 @@ Note that if you increase the amount of your FSA, you will only be able to use t
 
 GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits).
 
-Team Members can make mid-year changes to their commuter benefit by going throught the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Elect "Commuter/Transit Benefit Change" and today's date as the effective date to make the change. You will see the change in the next available payroll period. 
+Team Members can make mid-year changes to their commuter benefit by going throught the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Elect "Commuter/Transit Benefit Change" and today's date as the effective date to make the change. You will see the change in the next available payroll period.
 
 In 2025 the contribution limits are $325/month for parking and $325 per month of transit. These contributions rollover month to month.
 

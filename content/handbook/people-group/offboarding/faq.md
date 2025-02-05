@@ -138,7 +138,7 @@ Former team members will retain access to ADP for three years after they leave s
 
 ### How do I roll over my retirement account and funds?
 
-Contact our 401(k) administrative vendor directly to get more information about this process. More information can be found on the [401(k)](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#401k-plan) section and [401(k) Rollover](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#401k-rollover) section of the US Benefits handbook page.
+Contact our 401(k) administrative vendor directly to get more information about this process. More information can be found on the [401(k)](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#401k-plan) section and [401(k) Rollover](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#401k-plan-features) section of the US Benefits handbook page.
 
 ### What about my HSA/FSA Account(s)?
 

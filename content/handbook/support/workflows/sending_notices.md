@@ -6,7 +6,7 @@ description: How to send notices out to GitLab.com users and customers to inform
 
 ## Overview of the process
 
-At times the [Support team will be asked to send notices](/handbook/support/internal-support/#gitlab-changes-and-contacting-users) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
+At times the [Support team will be asked to send notices](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
 
 This workflow describes how to fulfill different types of contact requests and the helpful tools you can use in the process.
 

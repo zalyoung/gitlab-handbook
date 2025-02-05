@@ -30,7 +30,7 @@ GitLab has a meeting policy we like to call "[No agenda, no attenda](/handbook/c
 
 ### Meetings are recorded
 
-Remote meetings can be recorded, especially when key individuals aren't able to join live. This allows team members to catch up on what transpired, adding context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/#recording-in-zoom).
+Remote meetings can be recorded, especially when key individuals aren't able to join live. This allows team members to catch up on what transpired, adding context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
 ### Inclusive
 

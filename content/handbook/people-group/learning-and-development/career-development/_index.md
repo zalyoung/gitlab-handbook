@@ -17,7 +17,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="[general-and-entity-benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit)" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
+    <a href="[general-and-entity-benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund)" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
     <a href="/handbook/people-group/learning-and-development/career-development/#tracking-your-progress" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
     <a href="/handbook/people-group/learning-and-development/career-development/#having-career-conversations" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
     <a href="/handbook/company/structure/#job-frameworks" class="btn btn-primary" style="margin:5px;">Job Frameworks</a>
