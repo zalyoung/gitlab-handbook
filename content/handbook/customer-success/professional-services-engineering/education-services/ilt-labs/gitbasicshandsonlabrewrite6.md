@@ -55,24 +55,24 @@ include:
       - test
     ```
 
-After making these changes, your file will look like this:
+    After making these changes, your file will look like this:
 
-    ```yaml
-    include:
-      - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+      ```yaml
+      include:
+        - component: ilt.gitlabtraining.cloud/components/sast/sast@main
 
-    default:
-      image: golang
+      default:
+        image: golang
 
-    stages:
-      - build
-      - test
+      stages:
+        - build
+        - test
 
-    build go:
-      stage: build
-      script:
-        - go build
-    ```
+      build go:
+        stage: build
+        script:
+          - go build
+      ```
 
 1. Ensure that your **Branch** is set to `initial-code`. Select **Commit changes**.
 

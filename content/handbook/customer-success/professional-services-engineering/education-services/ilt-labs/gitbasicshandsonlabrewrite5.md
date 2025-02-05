@@ -74,20 +74,20 @@ Let's create a CI/CD process for the code we just wrote. Our goal is to create a
 
 1. Copy the following code into your `.gitlab-ci.yml` file:
 
-        ```yml
-        default:
-          image: golang
+      ```yml
+      default:
+        image: golang
 
-        stages:
-          - build
+      stages:
+        - build
 
-        build go:
-          stage: build
-          script:
-            - go build
-        ```
+      build go:
+        stage: build
+        script:
+          - go build
+      ```
 
-        > Every GitLab CI/CD job on this instance runs in a Docker container. The `default` line defines the Docker image to use to run the jobs for this `.gitlab-ci.yml` file. Below this, we defined one stage, which is build. In this stage, there is a single job, which runs one script: `go build`. The result of this will be your Go application being compiled.
+      > Every GitLab CI/CD job on this instance runs in a Docker container. The `default` line defines the Docker image to use to run the jobs for this `.gitlab-ci.yml` file. Below this, we defined one stage, which is build. In this stage, there is a single job, which runs one script: `go build`. The result of this will be your Go application being compiled.
 
 1. Select **Commit changes**. Ensure that **Commit to the current `initial-code` branch** is selected.
 
@@ -187,7 +187,6 @@ To summarize, there are a few important ideas to keep in mind when considering r
 - Jobs will generally use a Docker image to run your job scripts
 - Every job runs on a separate runner, within its own Docker container, so there are no concerns about jobs interfering with each other
 - You have full access to your Git repository and any other system resources during the execution of your jobs
-
 
 ## Lab Guide Complete
 
