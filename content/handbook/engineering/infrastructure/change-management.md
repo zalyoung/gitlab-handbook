@@ -258,7 +258,7 @@ Steps:
   - Director of SRE, Infrastructure
   - VP of Infrastructure & Quality
   - Director of Support, Global Readiness
-  - [Release Managers](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
+  - [Release Managers](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team)
 - 1 month before the change at least (if possible):
   - Ask our CSMs in our `#customer-success` Slack channel about their preferences on how to communicate this change to our main customers:
     - Ping CSM managers using the `@cs-tam-mgrs` alias to request that they notify the CSMs for our top SaaS customers.

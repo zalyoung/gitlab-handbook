@@ -6,7 +6,7 @@ Please note, this handbook page is being preserved for participants still enrole
 
 Elevate: a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
 
-Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
+Managers at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
 The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
 
@@ -25,7 +25,7 @@ In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate
 
 ## What is Elevate
 
-Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values](/handbook/values/), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
+Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values](/handbook/values/), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission](/handbook/company/mission/).
 
 In Elevate, participants will:
 
@@ -38,13 +38,13 @@ In Elevate, participants will:
 
 Elevate is organized into 5 learning modules. Read more about the skills covered in each module below:
 
-![visual displaying the content in each elevate module](/handbook/people-group/learning-and-development/elevate-programs/images/elevatemodules.png)
+![visual displaying the content in each elevate module](/images/people-group/learning-and-development/elevate-programs/elevatemodules.png)
 
 We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
 ## Time Commitment
 
-![visual displaying the module path for learners in the Elevate program](/handbook/people-group/learning-and-development/elevate-programs/images/elevatepath.png)
+![visual displaying the module path for learners in the Elevate program](/images/people-group/learning-and-development/elevate-programs/elevatepath.png)
 
 Elevate runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend a total of 3-4 hours in the following learning activities:
 
@@ -156,7 +156,7 @@ We're committed to working with you to find a solution that let's you successful
 
 ### What if I have already completed the manager challenge?
 
-The [Manager Challenge]({{< ref "manager-challenge" >}}) is a past iteration of leadership development at GitLab. We appreciate the time that past manager challenge participations have dedicated to their growth and development. Elevate is the next iteration in our GitLab manager journey, and is still required of manager challenge participants.
+The [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) is a past iteration of leadership development at GitLab. We appreciate the time that past manager challenge participations have dedicated to their growth and development. Elevate is the next iteration in our GitLab manager journey, and is still required of manager challenge participants.
 
 ### When I complete this program will I earn a certificate?
 

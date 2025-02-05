@@ -3,7 +3,7 @@ title: "CEO Diversity Statement"
 description: "GitLab's CEO's Sid Sijbrandij's vision for our Diversity, Inclusion, and Belonging core values."
 ---
 
-![picture-of-gitlab-ceo-sid-sijbrandij](/images/company/culture/sid_sijbrandij.jpeg)
+![picture-of-gitlab-ceo-sid-sijbrandij](/images/company/culture/inclusion/sid_sijbrandij.jpeg)
 
 GitLab believes in a world where everyone can contribute. As one of the company's core values, Diversity, Inclusion and Belonging (DIB) is fundamental to the success of GitLab. Team member diversity leads to better decisions and a greater sense of team member belonging. When you have a diverse, inclusive and belonging environment where team members feel safe to show up as their full selves, you empower everyone to contribute.
 

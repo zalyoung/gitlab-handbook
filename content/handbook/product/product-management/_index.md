@@ -31,7 +31,7 @@ Please see the [Product Categories](/handbook/product/categories/) to know which
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
 
-Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) falls under the [Plan PM](/handbook/product/categories/features/#plan-project-management-group).
+Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) falls under the [Plan PM](/handbook/product/categories/features/#project-management).
 
 All feedback must follow the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/). Failure to do so will result in the issues or comment being deleted.
 
@@ -348,7 +348,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 - [Pricing](https://about.gitlab.com/pricing/)
 - [Features](https://about.gitlab.com/features/)
 - [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
-- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
+- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate/)
 - [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
 - [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)

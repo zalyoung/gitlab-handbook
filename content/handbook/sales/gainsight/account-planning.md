@@ -92,10 +92,10 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 1. Using the bell icon in the top right corner of Gainsight, select the gear icon.
 1. Select the Events drop down menue
 1. Next to Company Intelligence, select your notification preferences. Currently the only option is Slack and the updates will arrive via the Gainsight Sally app.
-   - Bonus: Once opted in to Slack notifications [you can request additional real time updates](https://support.gainsight.com/SFDC_Edition/Sally_AI_Bot/User_Guides/Sally_-_the_Gainsight_bot_Overview). Go to slack and send a direct message to "Gainsight Sally." Ask for a summary of an Account you own.
+   - Bonus: Once opted in to Slack notifications [you can request additional real time updates](https://support.gainsight.com/gainsight_nxt/Sally_AI_Bot/Sally_for_Slack/About/Sally_-_The_Gainsight_Bot_Overview). Go to slack and send a direct message to "Gainsight Sally." Ask for a summary of an Account you own.
 
-- [Setting up notifications](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
-- [Company Intelligence FAQs](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
+- [Setting up notifications](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
+- [Company Intelligence FAQs](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
 - [Company Intelligence, The long version](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/About/Company_Intelligence_Overview_Old).
 
 *Note: Only 5,000 Accounts can be tracked at a time. To request an account be added to tracking, please submit an issue in the [Sales Ops project](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues) and select the General Request template.*
@@ -107,7 +107,7 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 1. In the action column, click the link and enter the LinkedIn URL to start tracking.
 1. Private, Premium LinkedIn profiles can't be tracked at this time (May 2021).
       - Profile with special characters cannot be tracked unless a request is submitted to Gainsight Customer Support.
-1. For more detail on how Sponsor Tracking works, please [read this article](https://support.gainsight.com/SFDC_Edition/View_More_Categories/Sponsor_Tracking/User_Guides/How_to_Use_Sponsor_Tracking#Changes_in_Tracked_Contacts) from Gainsight.
+1. For more detail on how Sponsor Tracking works, please [read this article](https://support.gainsight.com/gainsight_nxt/07360/User_Guides/Sponsor_Tracking_Overview) from Gainsight.
 
 ### Available Courses
 

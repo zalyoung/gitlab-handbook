@@ -144,7 +144,7 @@ These jobs run against the primary `RAW` database.
 
 Most dbt run jobs can be parameterized with a variable specifying dbt model that requires testing.
 
-The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/docs/model-selection-syntax#section-specifying-models-to-run).
+The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax#section-specifying-models-to-run).
 
 If you are testing changes to tests in the `data-tests` project, you can pass in `DATA_TEST_BRANCH` to the manual jobs along with the branch name. This will update the branch in the `packages.yml` for the data-tests package. This works for any job running `dbt test`.
 
@@ -403,10 +403,6 @@ Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates
 
 This job adds/removes specified users and roles directly in Snowflake based on changes to `snowflake_users.yml`.
 
-#### 📈namespace_metrics_check
-
-The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically. 
-
 ##### Quick Summary
 
 - To add new users/roles in Snowflake, add the new username(s) to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
@@ -466,6 +462,10 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 
 Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>
+
+#### 📈namespace_metrics_check
+
+The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ### 🛑 Snowflake Stop
 

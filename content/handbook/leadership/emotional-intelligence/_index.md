@@ -27,7 +27,7 @@ Learn more about emotional intelligence by watching this session titled Being Hu
 
 EQ is a major factor in developing and maintaining [cultural awareness](/handbook/company/culture/all-remote/building-culture/). By fostering emotional intelligence, you are able to promote understanding, respect, and good relationships across all teams, regardless of their locations.
 
-It is a tool that is helping GitLab build an [inclusive environment for everyone](/handbook/company/culture/inclusion/building-diversity-and-inclusion/). By understanding that others might have different responses and customs based on their upbringing, you can develop social and emotional intelligence.
+It is a tool that is helping GitLab build an inclusive environment for everyone By understanding that others might have different responses and customs based on their upbringing, you can develop social and emotional intelligence.
 
 ## Components of EQ
 
@@ -49,7 +49,7 @@ Pure technical skills and intellectual ability are prerequisites for top positio
 
 *Click the numbers in the interactive image below to learn more.*
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 99.45%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1083" height="1077" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/630fb3c75f08a40011b7201c" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 99.45%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1083" height="1077" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/630fb3c75f08a40011b7201c" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 1. **Control your self-expression and perceptions.** At GitLab, we rely on [written communication](/handbook/company/culture/all-remote/effective-communication/) and [virtual calls](/handbook/communication/#video-calls) as opposed to working in an office where we can rely on [in-person interactions](/handbook/company/culture/all-remote/in-person/). As remote workers, we not only have to collaborate on projects but we are also responsible for building relationships, trust, and rapport with other colleagues through a screen. To build trust with a team, we need to understand how we express emotions to others through various communication methods.
 1. **Understand how your actions can impact others.** At GitLab, our default form of [communication is asynchronous](/handbook/company/culture/all-remote/asynchronous/) through text. Written communication among remote teams can lead to misinterpretations. Be aware of what actions you need to take in delivering a message. Put yourself in the reader's shoes when [crafting a message through text](/handbook/company/culture/all-remote/effective-communication/). Empathize with them and view the message from multiple audiences.
@@ -72,13 +72,13 @@ Skills and behavior of the emotional intelligence [manager competency](/handbook
 
 ## How to understand your EQ
 
-In order to develop your EQ, you need to understand your current baseline of how developed the skill is. Take one or more of the many free EQ assessments below to gain a better understanding of where you stand. Share the results with your team. If you are a [manager]({{< ref "leadership" >}}), encourage your team to take one of the assessments. Use the results to tailor discussions and interactions with them. The more you know about your team personally and professionally, the more you can strengthen your EQ.
+In order to develop your EQ, you need to understand your current baseline of how developed the skill is. Take one or more of the many free EQ assessments below to gain a better understanding of where you stand. Share the results with your team. If you are a [manager](/handbook/leadership/), encourage your team to take one of the assessments. Use the results to tailor discussions and interactions with them. The more you know about your team personally and professionally, the more you can strengthen your EQ.
 
 ### Emotional intelligence (EQ) assessments
 
-1. [Color Code Personality Test](https://www.colorcode.com/free_personality_test/?timestamp=1588009250.89&hash=667424d7d32a031b41b6896af6ab1ad7)
+1. [Color Code Personality Test](https://www.colorcode.com/free_personality_test/)
 1. [Global Leadership Foundation EQ Test](https://globalleadershipfoundation.com/geit/eitest.html)
-1. [Mind Tools EQ Quiz](https://www.mindtools.com/pages/article/ei-quiz.htm)
+1. [Mind Tools EQ Quiz](https://www.mindtools.com/axbwm3m/how-emotionally-intelligent-are-you)
 1. [University of California at Berkley EQ Assessment](https://greatergood.berkeley.edu/quizzes/ei_quiz/take_quiz)
 1. [Psychology Today EQ Test](https://www.psychologytoday.com/us/tests/personality/emotional-intelligence-test)
 1. [Growth versus Fixed Mindset Assessment](https://blog.mindsetworks.com/what-s-my-mindset)

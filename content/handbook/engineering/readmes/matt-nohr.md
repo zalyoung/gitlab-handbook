@@ -24,7 +24,7 @@ This document is a living breathing thing and likely incomplete. I update it fre
 
 ### Work Style
 
-- I believe in the [servant leadership](https://wheniwork.com/blog/the-ultimate-guide-to-the-servant-leadership-model/) model
+- I believe in the [servant leadership](https://wheniwork.com/blog/the-ultimate-guide-to-the-servant-leadership-model) model
 - I tend to follow a mindset like: "If you are running, I'll let you run. If you trip, I'll be there to help you back up."
 - I have a [Defender](https://www.16personalities.com/isfjs-at-work) personality
 - I prefer a [bias towards action](/handbook/values/#sts=bias%20for%20action).

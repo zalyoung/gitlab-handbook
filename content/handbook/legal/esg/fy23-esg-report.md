@@ -215,11 +215,11 @@ GitLab launched its first [Philanthropy Policy](/handbook/legal/philanthropy-pol
 
 ### GitLab Foundation
 
-In September 2022, the GitLab Foundation (the "Foundation") launched with a mission to improve people's lifetime earnings through access to opportunities and a vision of a world in which one million more people can afford a better life. The Foundation was formed in part by GitLab as part of its [mission](/handbook/company/mission/) to create a world in which everyone can contribute. GitLab leadership believed it was important to support organizations that could further this goal on a global scale. When GitLab [went public]({{< ref "being-a-public-company#:~:text=GitLab%20began%20trading%20on%20the,part%20of%20realizing%20our%20mission." >}}) in October 2021, it dedicated 1% of its shares to further this aim. This was influenced by the [Pledge 1% movement](https://pledge1percent.org/), which encourages companies and founders desire to set aside equity for social impact.
+In September 2022, the GitLab Foundation (the "Foundation") launched with a mission to improve people's lifetime earnings through access to opportunities and a vision of a world in which one million more people can afford a better life. The Foundation was formed in part by GitLab as part of its [mission](/handbook/company/mission/) to create a world in which everyone can contribute. GitLab leadership believed it was important to support organizations that could further this goal on a global scale. When GitLab [went public]({{< ref "being-a-public-company#:~:text=GitLab%20began%20trading%20on%20the,part%20of%20realizing%20our%20mission." >}}) in October 2021, it dedicated 1% of its shares to further this aim. This was influenced by the [Pledge 1% movement](https://www.pledge1percent.org/), which encourages companies and founders desire to set aside equity for social impact.
 
 The Foundation is funded by GitLab and its CEO, Sytse 'Sid' Sijbrandij. The Foundation is an independent nonprofit entity, and its operations are autonomous from GitLab.
 
-To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
+To learn more, please visit the [GitLab Foundation](https://www.gitlabfoundation.org/).
 
 ## Environment
 
@@ -246,7 +246,7 @@ As part of our commitment to iteration, GitLab began purchasing accredited carbo
 
 ### Corporate Governance
 
-GitLab's [team members](/handbook/company/team/), [senior management](/handbook/company/team/e-group/), and members of our [Board of Directors](https://ir.gitlab.com/corporate-governance/board-of-directors-grid) ("Board") play critical roles in providing strategic direction for our responsible business practices. Implicit in this philosophy is the importance of sound corporate governance. GitLab's Board has fiduciary duties to GitLab and its shareholders. Our Board provides leadership, regular review and evaluation, and oversight—all in service of stakeholder interests. To help ensure Board members are performing their duties, the Board and its committees participate in annual assessments.
+GitLab's [team members](/handbook/company/team/), [senior management](/handbook/company/structure/#executives), and members of our [Board of Directors](https://about.gitlab.com/company/team/board-of-directors/) ("Board") play critical roles in providing strategic direction for our responsible business practices. Implicit in this philosophy is the importance of sound corporate governance. GitLab's Board has fiduciary duties to GitLab and its shareholders. Our Board provides leadership, regular review and evaluation, and oversight—all in service of stakeholder interests. To help ensure Board members are performing their duties, the Board and its committees participate in annual assessments.
 
 GitLab's [Corporate Governance Guidelines, Codes, Policies, and other governance documents](https://ir.gitlab.com/corporate-governance/documents-charters) guide our [Board](https://ir.gitlab.com/corporate-governance/board-of-directors-grid?_gl=1*zm99bl*_ga*ODA0NTM3Mjk4LjE2NjQ4OTc5MzQ.*_ga_ENFH3X7M5Y*MTY4MjA5OTQyOS4xMDcuMS4xNjgyMTAxNTY3LjAuMC4w) in fulfilling its responsibilities. Board committees oversee and review areas of risk that are particularly relevant to them based on the committee of which a particular Board member sits. GitLab's management regularly provides reports to support the Board's oversight obligations. This reporting cadence provides visibility and information regarding the identification, assessment, and management of critical risks and the company's s risk mitigation strategies.
 
@@ -298,13 +298,13 @@ We believe we are best in class and the leading example in information security,
 
 Our FY23 priorities in this area included:
 
-- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
+- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities/), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
 
 - **Extending our lead in GitLab continuous integration (CI)**, enabling testing, building, and publishing of software with no third-party application or integration needed
 
-- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/anti-abuse/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
+- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/software_supply_chain_security/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
 
-- **Enhancing platform security**, including improvements in [many industry certifications](https://about.gitlab.com/security/cap/).
+- **Enhancing platform security**, including improvements in [many industry certifications](https://trust.gitlab.com/).
 
 - **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html) (FIPs) compliance
 

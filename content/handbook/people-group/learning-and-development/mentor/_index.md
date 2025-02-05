@@ -33,16 +33,16 @@ In FY23 Q1, 17% of mentees in current organized mentorship programs completed a 
 
 ### Benefits for the mentee
 
-1. Be encouraged to prioritize, and be held accountable for, your [career development]({{< ref "career-development" >}})
+1. Be encouraged to prioritize, and be held accountable for, your [career development](/handbook/people-group/learning-and-development/career-development/)
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
 1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
 ### Benefits for the mentor
 
-1. Serve as a [leader in the organization]({{< ref "leadership" >}}) by enabling growth for other team members
-1. Practice leadership, [effective communication]({{< ref "communication" >}}), and [coaching]({{< ref "coaching" >}}) skills
+1. Serve as a [leader in the organization](/handbook/leadership/) by enabling growth for other team members
+1. Practice leadership, [effective communication](/handbook/communication/), and [coaching](/handbook/leadership/coaching/) skills
 1. Establish yourself as an expert in a field or speciality
-1. [Build trust]({{< ref "building-trust" >}}) with team members
+1. [Build trust](/handbook/leadership/building-trust/) with team members
 
 ### Expectations
 
@@ -53,7 +53,7 @@ In FY23 Q1, 17% of mentees in current organized mentorship programs completed a 
 | **Set Goals** | Mentees should create goals, put them in writing, and frequently revisit goals to measure progress. |
 | **Build Trust** | Colleague first, expert second. Spend time [getting to know one another](/handbook/values/#diversity-inclusion). [Be open, honest, and fully authentic](/handbook/values/#transparency). |
 | **Set Expectations** | Be realistic and uphold your commitment. Share access to resources and people, but make it clear you do not wield your influence over others.|
-| **Listen** | Establish [trust]({{< ref "building-trust" >}}) and openness in communication. Give your full, undivided attention. Hear concerns before offering advice and guidance.|
+| **Listen** | Establish [trust](/handbook/leadership/building-trust/) and openness in communication. Give your full, undivided attention. Hear concerns before offering advice and guidance.|
 | **Acknowledge Independence** | Recognize mentee goals and autonomy. Your role as a mentor is to guide; it's up to the mentee to decide what to implement in their own career. |
 | **Respect Diverse Experiences** | Recognise that underrepresented groups might face additional barriers to advancement. Educate yourself and ask for advice and support via the [appropriate DIB channels](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels). |
 | **Practice Self-Awareness** | Identify your strengths, weaknesses, and [biases](/handbook/values/#unconscious-bias). Be aware of and respect other's experiences, ideas, and goals. |
@@ -131,7 +131,7 @@ Using the matrix below, fill in each empty space based on the descriptions above
 | ---------- | ------- | -------- | -------- | ---------- | -------- |
 | | | | | | |
 
-*This structure is adapted from [Burnout: the secret to unlocking the stress cycle](https://www.burnoutbook.net/) and the [SMART goal framework](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas). Learn more about goal setting by taking the [Setting Team and Employee Goals using SMART Methodology LinkedIn Learning course](https://www.linkedin.com/learning/setting-team-and-employee-goals-using-smart-methodology/how-to-use-smart-goals-2?u=2255073)*
+*This structure is adapted from [Burnout: the secret to unlocking the stress cycle](https://www.burnoutbook.net/) and the [SMART goal framework](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas). Learn more about goal setting by taking the [Setting Team and Employee Goals using SMART Methodology LinkedIn Learning course](https://www.linkedin.com/learning/setting-team-and-employee-goals-using-smart-methodology/how-to-use-smart-goals-2)*
 
 #### Setting tool-specific goals
 
@@ -216,7 +216,7 @@ These resources are meant to provide both mentors and mentees with additional pe
 
 1. The [Engineering department](/handbook/engineering/) outlines [strategies for mentors and mentees](/handbook/engineering/careers/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
 1. The [Support team](/handbook/support) has outlined expectations and examples on [Mentorship in Support Engineering](/handbook/support/engineering/mentorship).
-1. [Career growth resources at GitLab]({{< ref "career-development" >}})
+1. [Career growth resources at GitLab](/handbook/people-group/learning-and-development/career-development/)
 1. [Harvard Business Review: What efficient mentorship looks like](https://hbr.org/2020/08/what-efficient-mentorship-looks-like)
 1. [Harvard Business Review: What great mentorship looks like in a hybrid workplace](https://hbr.org/2021/05/what-great-mentorship-looks-like-in-a-hybrid-workplace)
 1. [Harvard Business Review: The best mentorship help both people grow](https://hbr.org/2022/01/the-best-mentorships-help-both-people-grow)
@@ -236,7 +236,7 @@ Is this your first mentorship at GitLab? Maybe it's your first time as a mentor.
 
 ## How to organize an all-remote mentorship program
 
-Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook/handbook-usage) to contribute your own learning to list!
+Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook/about/handbook-usage/) to contribute your own learning to list!
 
 1. Share call for applications across multiple channels and do direct outreach to great mentors for the best engagement. Lean on People Business Partners for suggestions of team members who would make great mentors and mentees.
 1. In applications, ask for role, location, and mentorship focus area, along with ideal goals. Use multiple choice questions to easily sort and pair responses.

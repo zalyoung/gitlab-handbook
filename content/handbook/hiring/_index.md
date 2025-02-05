@@ -3,7 +3,7 @@ title: "Hiring & Talent Acquisition Handbook"
 description: "Landing page for many of the handbook pages the talent acquisition team at GitLab uses."
 ---
 
-At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission]({{< ref "mission" >}}): to make it so that **everyone can contribute to and co-create the software that powers our world**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation.
+At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission](/handbook/company/mission/): to make it so that **everyone can contribute to and co-create the software that powers our world**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation.
 
 As a Talent Acquisition team, we have an outsized impact on GitLab's ability to make this mission a reality, by connecting top talent to profound careers from wherever they are in a truly distributed, remote workforce.
 
@@ -36,9 +36,9 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 - [TA Key Performance Indicators](https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/) Note: this page is currently in our internal handbook as they are a work in progress.
 - [Meeting Cadence](/handbook/hiring/meetings)
-- [Talent Acquisition Alignment]({{< ref "recruiting-alignment" >}})
+- [Talent Acquisition Alignment](/handbook/hiring/recruiting-alignment/)
 - [Diversity, Inclusion & Belonging Talent Acquisition Initiatives](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)
-- [Triad Process]({{< ref "triadprocess" >}})
+- [Triad Process](/handbook/hiring/talent-acquisition-framework/triadprocess/)
 - [Quarterly Updates](https://internal.gitlab.com/handbook/people-group/talent-acquisition/quarterly-updates/) Note: Internal only
 
 {{% details summary="Shared Definitions" %}}
@@ -52,33 +52,33 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 Please find pages for potential and active applicants below.
 
-- [Candidate Handbook Page]({{< ref "candidate-faq" >}})
-- [Talent Acquisition Privacy Policy]({{< ref "recruitment-privacy-policy" >}})
+- [Candidate Handbook Page](/handbook/hiring/candidate-faq/)
+- [Talent Acquisition Privacy Policy](/handbook/hiring/candidate-faq/recruitment-privacy-policy/)
 
 ### Interviewer Processes
 
-- [Interviewer Prep Requirements]({{< ref "interviewing" >}})
-- [Conducting a GitLab Interview]({{< ref "conducting-a-gitlab-interview" >}})
+- [Interviewer Prep Requirements](/handbook/hiring/interviewing/)
+- [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
 - [Greenhouse for Interviewers]({{< ref "greenhouse/#for-all-interviewers" >}})
 
 ### Hiring Manager Processes
 
-- [Hiring Manager Processes]({{< ref "talent-acquisition-framework/hiring-manager" >}})
-- [Conducting a GitLab Interview]({{< ref "conducting-a-gitlab-interview" >}})
+- [Hiring Manager Processes](/handbook/hiring/talent-acquisition-framework/hiring-manager/)
+- [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
 - [Greenhouse for Hiring Managers]({{< ref "greenhouse/#for-hiring-managers" >}})
 
 ### Candidate Experience Specialist Processes
 
 {{% details summary="Greenhouse integrations you'll need" %}}
 
-- [Prelude]({{< ref "prelude" >}}): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
+- [Prelude](/handbook/hiring/prelude/): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
 - [Guide](https://support.greenhouse.io/hc/en-us/articles/360052205072-Guide-integration): Check with your manager if you do not have higher level access to navigate inside of Prelude.
 - [DocuSign](https://support.greenhouse.io/hc/en-us/articles/205633569-DocuSign-integration)
 {{% /details %}}
 
 - [Candidate Experience Specialist Responsibilities](/handbook/hiring/talent-acquisition-framework/coordinator)
-- [Prelude]({{< ref "prelude" >}})
-- [How to Complete a Contract - CES Process]({{< ref "ces-contract-processes" >}})
+- [Prelude](/handbook/hiring/prelude/)
+- [How to Complete a Contract - CES Process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
 
 ### Recruiters and Sourcers
 
@@ -87,19 +87,19 @@ Please find pages for potential and active applicants below.
 {{% details summary="Get your headcount assignments" %}}
 
 - [How to open headcount on R&D](/handbook/engineering/hiring/#hiring-practices)
-- [How to open headcount on Sales and G&A]({{< ref "req-creation#creation-and-approval" >}})
+- [How to open headcount on Sales and G&A](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
 {{% /details %}}
 
 {{% details summary="Open a req in Greenhouse" %}}
 
-- [Instructions here]({{< ref "req-creation#opening-vacancies-in-greenhouse" >}})
+- [Instructions here](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
 - [Open a kickoff session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
 {{% /details %}}
 
 {{% details summary="Evergreen requisitions" %}}
 
-- [Creating an evergreen req]({{< ref "req-creation#creating-an-evergreen-requisition" >}})
-- [Evergreen req guide]({{< ref "evergreen-requisitions" >}})
+- [Creating an evergreen req](/handbook/hiring/talent-acquisition-framework/req-creation/#creating-an-evergreen-requisition)
+- [Evergreen req guide](/handbook/hiring/talent-acquisition-framework/evergreen-requisitions/)
 - An Evergreen Job is a requisition that is 'always open'. More specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka an opening with a single corresponding GHPiD). TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. See the pages above for more information.
 - {{% details summary="Tips and Tricks" %}}
 - Know your department before you open your req. If you need to change the department name later, the approval chain will not automatically update. If this happens to you, please contact Enablement.
@@ -109,14 +109,14 @@ Please find pages for potential and active applicants below.
 
 {{% details summary="Post a job in Greenhouse" %}}
 
-- [Post an **internal** job]({{< ref "req-creation#opening-vacancies-in-greenhouse-dri-recruiter" >}})
-- [Post an **external** job]({{< ref "req-creation#publish-the-job-to-the-careers-page--review-greenhouse-configuration" >}})
-- [Using Rules]({{< ref "req-creation#using-job-posting-rules-in-greenhouse" >}})
-- [Auto-tags]({{< ref "greenhouse#auto-tags" >}})
+- [Post an **internal** job](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
+- [Post an **external** job](/handbook/hiring/talent-acquisition-framework/req-creation/#publish-the-job-careers-page--linkedin)
+- [Using Rules](/handbook/hiring/talent-acquisition-framework/req-creation/#using-job-posting-rules-in-greenhouse)
+- [Auto-tags](/handbook/hiring/greenhouse/#auto-tags)
 - {{% details summary="Tips and Tricks" %}}
 - Salary transparency: In select US states, GitLab discloses salaries in job descriptions in accordance with local laws. Total Rewards will add this information to the job's approvals page. When you create your *external* job post, utilize Pay Transparency Rules and select Hiring in the USA. If the job will not be posted in the US, select N/A.
 - EEOC questions should be checked off in the US only
-- [Click here]({{< ref "req-creation#choosing-the-correct-location-for-your-published-job" >}}) for more information on selecting the correct location for your job. This will help ensure that your LinkedIn listings are posted in the correct countries.
+- [Click here](/handbook/hiring/talent-acquisition-framework/req-creation/#choosing-the-correct-location-for-your-published-job) for more information on selecting the correct location for your job. This will help ensure that your LinkedIn listings are posted in the correct countries.
 - Our jobs are now set up to automatically go to Indeed and Glassdoor and be posted as remote roles on both sites. Recruiters should unselect or leave unselected the option in Greenhouse to "publish to free job boards" as this requires us to input city, state, and country data that overrides the remote job listing. There is an automation in place to automatically send jobs to Indeed and Glassdoor.
 {{% /details %}}
 {{% /details %}}
@@ -150,19 +150,19 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 - **Get to Know Us:** This is an application review stage.
 - **Qualified:** This is the stage where positive applications will be triaged. Candidates can wait here to be scheduled for interviews, to ensure the right mix of well-qualified candidates are screened at the right times.
-- [**Screening:**]({{< ref "req-overview#screening" >}}) Phone or video interview with a recruiter, scheduled through Calendly.
-- [**Assessment:**]({{< ref "req-creation#update-the-interview-plan" >}}) This is an optional stage where written assignments can be submitted. Learn more [here]({{< ref "req-creation#update-the-interview-plan" >}}).
+- [**Screening:**](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) Phone or video interview with a recruiter, scheduled through Calendly.
+- [**Assessment:**](/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-interview-plan) This is an optional stage where written assignments can be submitted. Learn more [here](/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-interview-plan).
 - **Initial Interview:** This is the first video interview with a member of the team, which helps determine if they will move forward to additional interviews. This stage ensures we are utilizing the interviewers' and candidates' time thoughtfully, and is typically either a Hiring Manager or Technical interview.
-- [**Team Interview:**]({{< ref "req-overview#team-interview" >}}) All other team interviews live here.
-- [**Debrief:**]({{< ref "offer-process#debrief" >}}) This will come after the reference check stage for Engineering requisitions, because the reference checks will be initiated as the Justification (R&D's process for the Debrief stage) is initiated. For non-Engineering departments, this will be a holding stage where candidates wait until a decision is made, to track the time it takes for us to reach a decision on a candidate who has completed their interviews. See the [Engineering's Justification process]({{< ref "offer-process#debrief" >}}).
+- [**Team Interview:**](/handbook/hiring/talent-acquisition-framework/req-overview/#team-interview) All other team interviews live here.
+- [**Debrief:**](/handbook/hiring/talent-acquisition-framework/offer-process/#debrief-stage) This will come after the reference check stage for Engineering requisitions, because the reference checks will be initiated as the Justification (R&D's process for the Debrief stage) is initiated. For non-Engineering departments, this will be a holding stage where candidates wait until a decision is made, to track the time it takes for us to reach a decision on a candidate who has completed their interviews. See the [Engineering's Justification process](/handbook/hiring/talent-acquisition-framework/offer-process/#debrief-stage).
 - [**Reference Check:**](#offers-and-closing-reqs) The reference check stage can sometimes be done in tandem with the Debrief and Background Check and Offer stages. They can be completed by the Hiring Manager or Recruiter.
 - [**Background Check and Offer:**](#offers-and-closing-reqs) Recruiters move candidates into this stage once they're ready to receive their verbal offer. Before that time, this stage is where an offer is prepared and goes through approvals. This is the final stage in the process.
 {{% /details %}}
 
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
-- Candidate Experience Specialists use [Prelude]({{< ref "prelude#prelude" >}}) to schedule.
-- Interview confirmations are sent through [Guide]({{< ref "guide#guide" >}}). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
+- Candidate Experience Specialists use [Prelude](/handbook/hiring/prelude/) to schedule.
+- Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
 {{% /details %}}
 
 {{% details summary="Greenhouse for internal candidates" %}}
@@ -211,7 +211,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Reference Checks" %}}
 
-- [Reference check information]({{< ref "offer-process#reference-reviews" >}})
+- [Reference check information](/handbook/hiring/talent-acquisition-framework/offer-process/#reference-check-stage)
 - Reference check forms are mandatory. If you receive reference check information outside of the form and don't want a candidate to fill it out again, Enablement can help you adjust the form to collect the remaining information. These forms are important because they provide necessary information for the accuracy and completion of a contract.
 - {{% details summary="Tips and Tricks" %}}
 - These forms, just like an offer in Greenhouse, **do not transfer** when you move a candidate from one job to another. Ensure that your candidate is in the role they'll be hired for before sending.
@@ -223,13 +223,13 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Offers" %}}
 
-- [Creating an offer in Greenhouse]({{< ref "offer-process#offer-approvals" >}})
+- [Creating an offer in Greenhouse](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process)
 - {{% details summary="Common approval challenges" %}}
 - Offer stuck in approvals: If the offer is stuck in the approvals chain because someone is out of office, the recruiter can talk to the approver's manager about an appropriate temporary adjustment and recommend this to the Enablement team. Recruiters should be proactive in reaching out to approvers if an offer is urgent or a candidate is being inconvenienced by a long wait time. If there is a known OOO, this discussion should happen before there's an offer waiting for approval. Enablement can help with any changes needed.
 - Offer approvals chain is incorrect: If approvers are missing or incorrect, the Recruiter should contact a member of the Enablement team to adjust. The only people with access to make approvers changes are Enablement and Director, Executive Recruiting, who change approval chains to maintain confidentiality for executive positions. Often, approval chains are incorrect because you have chosen the wrong department, so it's important to choose the right one before opening your req.
 {{% /details %}}
-- [Verbal offer information]({{< ref "offer-process#verbal-job-offer" >}})
-- [Declined offer steps]({{< ref "offer-process#declined-offers" >}})
+- [Verbal offer information](/handbook/hiring/talent-acquisition-framework/offer-process/#verbal-job-offer)
+- [Declined offer steps](/handbook/hiring/talent-acquisition-framework/offer-process/#declined-offers)
 
 {{% details summary="Background screens" %}}
 
@@ -264,9 +264,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Referrals
 
-- [Referral Operations]({{< ref "referral-operations" >}})
-- [Referral Process]({{< ref "referral-process" >}})
-- [Details on who is eligible for referrals]({{< ref "incentives#referral-bonuses" >}})
+- [Referral Operations](/handbook/hiring/referral-operations/)
+- [Referral Process](/handbook/hiring/referral-process/)
+- [Details on who is eligible for referrals](/handbook/total-rewards/incentives/#referral-bonuses)
 
 ### Acquisitions
 
@@ -274,13 +274,13 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Internal Mobility
 
-- [Internal Hiring Process]({{< ref "internal-hiring-process" >}})
-- [Posting a job internally]({{< ref "req-creation#post-the-job-internally" >}})
-- [In the offer process]({{< ref "offer-process#offer-approvals" >}})
+- [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/)
+- [Posting a job internally](/handbook/hiring/talent-acquisition-framework/req-creation/#post-the-job-internally)
+- [In the offer process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process)
 
 ### Executive Hiring
 
-- [Executive Search]({{< ref "executive-search" >}})
+- [Executive Search](/handbook/hiring/talent-acquisition-framework/executive-search/)
 
 ### Emerging Talent
 
@@ -301,9 +301,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - For candidates who are located in Countries where we do not have an entity, we use a PEO (Professional Employment Organization).  The actual employment contracts will be sent and issued by the PEO who also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and the PEO.
 - GitLab is currently hiring into three PEOs
-- [Remote.com]({{< ref "ces-contract-processes#remotecom" >}})
-- [Global Upside]({{< ref "ces-contract-processes#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside" >}})
-- [Papaya]({{< ref "ces-contract-processes#how-to-add-the-new-hire-to-the-remote-platform" >}})
+- [Remote.com](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#remotecom)
+- [Global Upside](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside)
+- [Papaya](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-add-the-new-hire-to-the-remote-platform)
 - The following timelines to onboarding are advised:
 
 **Remote.com:** [remote.com onboarding timeline](https://support.remote.com/hc/en-us/articles/4411262104589-Employee-Onboarding-Timeline)
@@ -337,17 +337,17 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 
 ## Other Hiring Pages
 
-- [Greenhouse]({{< ref "greenhouse" >}})
-- [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}})
+- [Greenhouse](/handbook/hiring/greenhouse/)
+- [Talent Acquisition Process Framework](/handbook/hiring/talent-acquisition-framework/)
 
 ## Additional Resources
 
 - [Overview of Job Families](/handbook/hiring/job-families)
 - [Background checks](/handbook/people-policies#background-checks)
-- [Benefits]({{< ref "benefits" >}})
-- [Compensation]({{< ref "compensation" >}})
+- [Benefits](/handbook/total-rewards/benefits/)
+- [Compensation](/handbook/total-rewards/compensation/)
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
-- [GitLab talent ambassador]({{< ref "gitlab-ambassadors" >}})
-- [Onboarding]({{< ref "general-onboarding" >}})
+- [GitLab talent ambassador](/handbook/hiring/gitlab-ambassadors/)
+- [Onboarding](/handbook/people-group/general-onboarding/)
 - [Stock options](/handbook/total-rewards/stock-options/)
-- [Visas]({{< ref "visas" >}})
+- [Visas](/handbook/people-group/visas/)

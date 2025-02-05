@@ -56,7 +56,7 @@ EM: {{< member-by-gitlab "nmccorrison" >}}
 
 ### Prioritization
 
-We use our  Security Insights Priorities page for [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) to track what we are doing, and what order to do it in.
+We use our  Security Insights Priorities page for [17.x](https://about.gitlab.com/direction/security_risk_management/security-insights/17_security_insights_priorities.html) to track what we are doing, and what order to do it in.
 
 ### Metrics
 

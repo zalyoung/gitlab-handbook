@@ -136,7 +136,7 @@ The PM sends out the request for acceptance to the customer and then updates the
 
 Please note only the **top level** milestone fields should be updated. The sub activities within the milestone should **not** be updated.
 
-![fprevenuerelease](fprevenuerelease.png)
+![fprevenuerelease](/images/customer-success/professional-services-engineering/professional-services-operations/fprevenuerelease.png)
 
 ## Project Coordination- Training
 
@@ -155,7 +155,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
       - Refer to the [Education Services handbook page](https://about.gitlab.com/services/education/) for the complete list of Instructor-Led Training offerings.
       - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)
 
-1. Professional Services Operations will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
+1. Professional Services Operations will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063276). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
 
 1. At least 2 weeks prior to the training session, Professional Services Operations will email the session registration link(s) to the customer, asking them to send the link(s) to each of the employees whom they want to attend the session(s). When each person registers, they will receive an automated confirmation email with a Zoom Meeting or Webinar join link unique to each person, along with a link to add the session to their calendar.
 
@@ -232,7 +232,7 @@ If required per the project SOW, Professional Services Operations sends the requ
 - Update Sign Off received, when training is complete, acceptance is received, or Passive Acceptance is reached and add the class roster or PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![trainingrelease](trainingrelease.png)
+![trainingrelease](/images/customer-success/professional-services-engineering/professional-services-operations/trainingrelease.png)
 
 ---
 

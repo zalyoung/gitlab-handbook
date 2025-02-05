@@ -31,7 +31,7 @@ Success Services include up to 4 Accelerators, 1 per quarter, that your [Custome
 
 An Accelerator, depending on customer requirements and defined outcomes, will pull together one or more of the below content modules.   Typically the accelerator runs over 12 weeks.  It kicks off with a discovery workshop to document required customer outcomes.  From that, we will run a planning workshop outlining with the customer the steps necessary to achieve their outcomes.   The output of the Planning Workshop is a backlog of issues logged, in a GitLab project, that includes all the necessary activities that will be managed over the following 10 weeks to achieve those outcomes and close out the Accelerator
 
-![Accelerator Timeline](accelerator-timeline-graphic.png "Accelerator Timeline")
+![Accelerator Timeline](/images/customer-success/success-services/accelerator-timeline-graphic.png "Accelerator Timeline")
 
 #### Accelerator Content Modules
 
@@ -67,20 +67,38 @@ graph LR
     D --> E[<b>Accelerator Begins]
 ```
 
+Note that you may be onboarding an account which is not net new. To ensure smooth collaboration and handover with the account team, it is advised to consult the responsibility matrix [issue](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/16)
+
+### SPS Customer Onboarding Artefacts
+
+0. Account Context & Technical Documentation Template 
+   1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members..
+   2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
+   3. Tip: you can organise a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
+   4. This template should help you structure and play back your understanding of the account to your SA/CS team, creating a foundation for discovery workshops and collaboration projects by capturing key business drivers, technical requirements, and stakeholder priorities in a standardized format that can be easily validated and expanded upon.
+
 1. Introduction Email
    1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
    2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
    3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
 
-2. Internal Kick-off Call
-   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around
-   2. Customer Objectives identified prior to the Order Form being signed are to be documented by CSA and shared with account team
+### SPS Customer Onboarding Activities
 
-3. Customer Kick-off Call
-   1. This will be scheduled within the first week of the agreement, subject to customer availability.
-   2. If customer is not available in first week for a formal kick-off, both ASE and CSA should begin work async and will start any needed conversations via email.
-   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
-   4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
+1. Internal Kick-off Call  
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.  
+   2. Customer objectives identified prior to the Order Form being signed are to be documented by CSA and shared with the account team.  
+
+2. Customer Kick-off Call  
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.  
+   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations via email.  
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).  
+   4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.  
+
+3. Discovery Workshop  
+   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.  
+   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.  
+   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.  
+   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).  
 
 ### Logging Accelerator Events
 

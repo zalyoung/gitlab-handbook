@@ -112,7 +112,7 @@ While such organizations work well for some employees, it's important to note th
 >
 > Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
-Want to know more? Read GitLab co-founder Sid Sijbrandij's WIRED article: [Hybrid Remote Work Offers the Worst of Both Worlds](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds)
+Want to know more? Read GitLab co-founder Sid Sijbrandij's WIRED article: [Hybrid Remote Work Offers the Worst of Both Worlds](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/)
 
 ## 6. Remote days
 
@@ -144,7 +144,7 @@ The biggest challenge with a remote-first team is engagement: different team mem
 
 A remote-only organization has no physical office, and all work is done remotely. This is very similar to being all-remote, with one major distinction: most people are located in the same geographic region, so work hours are biased towards one time zone.
 
-Many companies allow employees to work remotely, but maintain "core team hours." [InVision](https://www.invisionapp.com/inside-design/remote-design-best-practices/), for example, has members spread across multiple countries and time zones, but aims to achieve "at least a 4-hour overlap with InVision's core team hours, 10am–6pm Eastern Standard Time."
+Many companies allow employees to work remotely, but maintain "core team hours." [InVision](https://web.archive.org/web/20240719145246/https://www.invisionapp.com/inside-design/remote-design-best-practices/), for example, has members spread across multiple countries and time zones, but aims to achieve "at least a 4-hour overlap with InVision's core team hours, 10am–6pm Eastern Standard Time."
 
 This tends to attract employees who are in relative close proximity to one another, or at the very least, in a nearby time zone even if located in a different hemisphere.
 
@@ -174,7 +174,7 @@ As part of a Harvard Business School case study [interview](https://youtu.be/jdN
 
 ### Benefits and challenges of all-remote work arrangements
 
-GitLab believes that the benefits of remote work outshine its challenges. Benefits include the ability to hire top-tier talent anywhere in the world; happier and more engaged team members; and societal impacts such as distribution of opportunity, increased diversity, and reduced traffic. There's plenty more: read our [guide to the benefits of remote work]({{< ref "remote-benefits" >}}).
+GitLab believes that the benefits of remote work outshine its challenges. Benefits include the ability to hire top-tier talent anywhere in the world; happier and more engaged team members; and societal impacts such as distribution of opportunity, increased diversity, and reduced traffic. There's plenty more: read our [guide to the benefits of remote work](/handbook/company/culture/all-remote/remote-benefits/).
 
 However, this does come with disadvantages. These may include loneliness, challenges with onboarding, difficulty building and maintaining culture, and breakdown of boundaries between work and life. Read our complete [guide to the drawbacks of remote work](drawbacks/) for more detail.
 
@@ -190,8 +190,8 @@ To test your knowledge about remote work, consider taking the [GitLab Remote Fou
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

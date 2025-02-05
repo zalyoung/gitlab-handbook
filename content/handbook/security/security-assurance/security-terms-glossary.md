@@ -12,11 +12,11 @@ The [Security Assurance team]({{< ref "security-assurance" >}}) performs various
 
 ## Security Questionnaire
 
-A document that is meant to provide an overview of a Security Program or portions thereof. Security Questionnaires are routinely used during Security Assessments. An example of an industry standard security questionnaire includes the [CAIQ](https://cloudsecurityalliance.org/star/registry/gitlab/) and which GitLab makes publicly available in our [Customer Assurance Package](https://about.gitlab.com/security/cap/)
+A document that is meant to provide an overview of a Security Program or portions thereof. Security Questionnaires are routinely used during Security Assessments. An example of an industry standard security questionnaire includes the [CAIQ](https://cloudsecurityalliance.org/star/registry/gitlab) and which GitLab makes publicly available in our [Customer Assurance Package](https://trust.gitlab.com/)
 
 ## Security Assessment
 
-An activity in which a Security Program or portions thereof are investigated for fit and function. For instance GitLab conducts [Third Party Risk Management assessments]({{< ref "third-party-risk-management" >}}) of our third parties. Security Assessments are generally conducted by an organization who is intending to procure services from another organization. GitLab supports Security Assessments for customers by publishing and maintaining the [Customer Assurance Package](https://about.gitlab.com/security/cap/)
+An activity in which a Security Program or portions thereof are investigated for fit and function. For instance GitLab conducts [Third Party Risk Management assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/) of our third parties. Security Assessments are generally conducted by an organization who is intending to procure services from another organization. GitLab supports Security Assessments for customers by publishing and maintaining the [Customer Assurance Package](https://trust.gitlab.com/)
 
 ## Security Audit
 

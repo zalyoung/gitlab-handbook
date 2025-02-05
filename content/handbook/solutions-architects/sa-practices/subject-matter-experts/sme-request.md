@@ -13,7 +13,7 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
   * To submit a request for help from a SME, select the **SME Request** workflow in the Slack channel from the "_Workflows_" tab below the channel name.
 
   ![SME Request Workflow](/images/solution-architects/initiate_sme_request.png)
-  
+
   * Alternatively, you can type "_/sme_" in the Slack message field and hit Enter to open the request form after you have previously opened the workflow at least once.
 
   ![Slash SME Request Alternative](/images/solution-architects/slash_sme.png)
@@ -67,14 +67,14 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
 7. During a POV, and help is needed. Engage a SME in the `sme-` channel, to help first triage the situation. You, along with the SME, before engaging a PM should do the following:
    1. Gather the required detail information (customer configuration, steps to reproduce etc.)
    2. Search existing documentation (internal or external) or past issues for a solution
-   3. Ask other SMEs or Support using the [Super Support Form](/handbook.gitlab.com/handbook/support/readiness/operations/docs/gitlab/support_super_form/) for help
+   3. Ask other SMEs or Support using the [Super Support Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/) for help
    4. SMEs can also reach out to PMs for one off questions or gain more clarification.
 
 #### When to Engage a Product Manager
 
-Please see [SME Engagement with Product Management](/handbook.gitlab.com/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
+Please see [SME Engagement with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
 
-**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook.gitlab.com/handbook/product/product-management/#requests-for-product-support) , for the following scenarios:
+**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support) , for the following scenarios:
 
 1. Request for a Roadmap.
 2. Discussion on the Direct of the Product.
@@ -139,13 +139,13 @@ Note: The SMEs are not necessary responsible for creating or producing every con
 
 This is the list of Content, SMEs are responsible for creating or gathering:
 
-\-List of discovery questions\
+-List of discovery questions\
 -Frequently asked questions\
 -List of any Recorded enablement sessions\
 -Work with PMs for Golden demos\
--[Hands-on workshops](/handbook.gitlab.com/handbook//solutions-architects/tools-and-resources/workshop/)\
+-[Hands-on workshops](/handbook/solutions-architects/tools-and-resources/workshop/)\
 -Technical evaluation guidelines\
--[POV](/handbook.gitlab.com/handbook//solutions-architects/tools-and-resources/pov/) templates\
+-[POV](/handbook/solutions-architects/tools-and-resources/pov/) templates\
 -Competitive intelligence
 
 #### **Request for Best Practices** {#sme-best-practice}

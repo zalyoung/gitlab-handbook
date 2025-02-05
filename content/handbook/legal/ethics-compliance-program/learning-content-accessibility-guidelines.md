@@ -69,8 +69,8 @@ A text alternative for images is important for conveying non-text content to a u
 
 A simple image is one that can be described in a few words or a short sentence. Examples might include a product screenshot or a photograph of people having a conversation. Simple images are most commonly described with “alt text,” which gets its name from the alt image attribute in code. Alt text looks like this: <img alt=“text alternative”>. The “text alternative” describes the image in a text-based format that screen readers can read out loud, which helps the user understand what the image is meant to convey. Writing the text alternative can be challenging and sometimes subjective. Compare the following examples to understand how to make alt text more descriptive:
 
-- Poorly-written alt text: `<img src="team.jpg" alt="image">`
-- Well-written alt text: `<img src="team.jpg" alt="Four team members discussing a project around a conference table.">`
+- Poorly-written alt text: `<img src="/images/legal/ethics-compliance-program/team.jpg" alt="image">`
+- Well-written alt text: `<img src="/images/legal/ethics-compliance-program/team.jpg" alt="Four team members discussing a project around a conference table.">`
 
 In both examples, the alt text alerts the user to the use of an image but the first does not describe the image, while the second describes what the image is meant to convey (“four team members discussing a project … “). Here is another example:
 
@@ -83,7 +83,7 @@ Both examples mention a “dog” but the poorly-written alt text does not descr
 
 A complex image is a visual that is more informational in nature and requires more than just a simple explanation. Examples might include a flow chart or data visualization. Similar to a simple image, a complex image requires alt text, which serves as a brief description, but also a long description that explains, in more detail and using more text (aka “long text”), the essential information contained in the image. If the complex image consists of data, consider using a text table of the data rather than long-form text. [Learn more about the W3C's long description methods here](https://www.w3.org/WAI/tutorials/images/complex/).
 
-Data visualization, which is the graphical representation of information and data, should use colors with sufficient contrast and labels within the chart, so that the user does not have to rely solely on color to understand what is being conveyed. Look at the [data visualization color palette](https://design.gitlab.com/data-visualization/color) documented in the Pajamas Design System for GitLab or read [An Accessibility-First Approach To Chart Visual Design](https://www.smashingmagazine.com/2022/07/accessibility-first-approach-chart-visual-design/), by Kent Eisenhuth and Kai Chang, to understand other ways to consider data visualization while creating accessible learning experiences.
+Data visualization, which is the graphical representation of information and data, should use colors with sufficient contrast and labels within the chart, so that the user does not have to rely solely on color to understand what is being conveyed. Look at the [data visualization color palette](https://design.gitlab.com/data-visualization/color/) documented in the Pajamas Design System for GitLab or read [An Accessibility-First Approach To Chart Visual Design](https://www.smashingmagazine.com/2022/07/accessibility-first-approach-chart-visual-design/), by Kent Eisenhuth and Kai Chang, to understand other ways to consider data visualization while creating accessible learning experiences.
 
 ### Decorative images
 

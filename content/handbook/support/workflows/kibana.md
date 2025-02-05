@@ -60,7 +60,7 @@ The majority of results as entries that returned `200`, which aren't in the scop
 
 ### Identify cause of IP Blocks
 
-There are some useful tips [here]({{< ref "ip-blocks" >}}) about searching kibana for errors related to IP blocks.
+There are some useful tips [here](/handbook/support/workflows/ip-blocks/) about searching kibana for errors related to IP blocks.
 
 ### Log Identification
 
@@ -140,7 +140,7 @@ To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
 ### Viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_events.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_event_reports.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Set a filter for `json.path` `is` and then enter the full path of the associated project in question, followed by `/-/variables`. For example, if I had a project named `tanuki-rules`, I would enter `tanuki-rules/-/variables`.
 1. Set the date in Kibana to the range in which you believe a change was made.
@@ -251,6 +251,27 @@ In cases where the SCIM provisioned account is deleted:
 
 To investigate if the user was deleted due to an unconfirmed email, follow the [Deleted User](#deleted-user) procedure.
 
+### Searching for Remove User from group or subgroup
+
+If it happened within the retention period (7 days), Kibana can be used to determine if, when and by whom a user was removed from a group or subgroup
+
+To find the log entry in `pubsub-rails-inf-gprd-*` with the following data points:
+
+#### Confirm the Remove User (DELETE)
+
+1. Add a positive filter on `json.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a positive filter on `json.meta.user_id` for user id of person that performed the remove user action in the UI
+1. Add a positive filter on `json.method` for `DELETE`
+
+#### Retrieve further details about the Remove User request
+
+The following filters can help identify users that were removed and what group or subgroups they have been removed from
+
+1. Add a positive filter on `json.custom_message` for `Membership destroyed`
+1. Add a positive filter on `json.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a filter for user id `json.meta.user_id` or username `json.meta.user` of the user that performed the Remove User action
+1. Add a filter for target user id `json.details.target_id`
+
 ### Searching for Deleted Container Registry tags
 
 Kibana can be used to determine whether a container registry tag was deleted, when, and who triggered it, if the deletion happened in the last 7 days.
@@ -275,7 +296,7 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 1. Choose relevant fields from the sidebar. For a `500` error, you want to filter for `json.status` and choose `is`, then enter `500`.
 1. Continue to use relevant fields from the list on the sidebar to narrow down the search.
 
-See the [500 errors workflow]({{< ref "500_errors" >}}) for more information on searching and finding errors on GitLab.com
+See the [500 errors workflow](/handbook/support/workflows/500_errors/) for more information on searching and finding errors on GitLab.com
 
 ### Filter by IP Range
 
@@ -386,7 +407,7 @@ Kibana can be used to search for specific errors related to a purchase attempt. 
 
 #### GitLab.com purchase errors
 
-**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [GitLab User Lookup Zendesk App](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app).
+**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [User Lookup in the GitLab Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#gitlab-super-app).
 
 1. Navigate to [Kibana](https://log.gprd.gitlab.net/)
 1. Ensure the `pubsub-rails-inf-gprd-*` index pattern (GitLab.com logs) is selected.
@@ -442,4 +463,3 @@ Here are some suggestions:
 #### Searching for Service Desk emails
 
   When searching through Kibana for the `json.to_address`, make sure this is the address that appears on the `to:` line in the email, even if this is aliased to the GitLab project email address. If you search for the project email address and the Service Desk mail was sent to an alias of that (`support@domain.ext` for example), it won't show up in the searches.
-  

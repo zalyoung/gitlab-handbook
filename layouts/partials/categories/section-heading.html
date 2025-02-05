@@ -246,7 +246,7 @@
 {{- with $section_data.ar_team_tag }}
 {{- $arTeam = append $arTeam ($team_data.Get . | default slice) }}
 {{- end }}
-{{- with $section_data.infra_reliability_team_tag }}
+{{- with $section_data.sre_team_tag }}
 {{- $sreTeam = append $sreTeam ($team_data.Get . | default slice) }}
 {{- end }}
 {{- with $section_data.legal_team_tag }}

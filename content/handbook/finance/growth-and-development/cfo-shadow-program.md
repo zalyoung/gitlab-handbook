@@ -14,7 +14,7 @@ The CFO Shadow program consists of a 1 or 2 week rotation, depending on the CFO'
 
 ## Eligibility
 
-The CFO shadow program is now open to all team members.
+The CFO shadow program is open to all team members.
 
 To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles. CFO Shadows must be in good performance standing in their current role.
 
@@ -32,23 +32,23 @@ Participating in the shadow program is a privilege where you will be exposed to 
 
 ### Create an onboarding and offboarding issue
 
- We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) in the `#cfo-shadow` channel
+ We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Staff EBA to the CFO](/handbook/eba/#e-group-member-ebas) in the `#cfo-shadow` channel
 
  At this time, we do not have a "See One, Teach One" [rotational rhythm](/handbook/ceo/shadow#rotation-rhythm) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
 
 ### Consider adding goals
 
-Develop goals for your time as a CFO Shadow and add them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/pages/article/smart-goals.htm).
+Develop goals for your time as a CFO Shadow and add them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/a4wo118/smart-goals).
 
 ### Practice your introduction
 
-It's important that you represent yourself correctly when joining meetings, both internally and externally. You can introduce yourself by stating your name, your normal title, and then by stating that you are in the CFO Shadow Program. The stated purpose should be to give participants an overview of the finance function at GitLab. You will update your Zoom name to "CFO-Shadow" to provide clarity for why you are joining calls.
+It's important that you represent yourself correctly when joining meetings, both internally and externally. You can introduce yourself by stating your name, your normal title, and then by stating that you are in the CFO Shadow Program. The stated purpose should be to give participants an overview of the finance function at GitLab. You will update your Zoom name to include "CFO-Shadow" to provide clarity for why you are joining calls.
 
 It will be helpful to read more about introductions related to the [CEO Shadow Program here](/handbook/ceo/shadow#ceo-shadow-introductions)
 
 ### Review the CFO's calendar
 
-Schedule a call with the CFO's [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) to review the CFO's calendar to get an idea of what your upcoming days will be like.
+Schedule a call with the CFO's [Staff EBA to the CFO](/handbook/eba/#e-group-member-ebas) to review the CFO's calendar to get an idea of what your upcoming days will be like.
 
 ## During the Program
 
@@ -57,22 +57,21 @@ During the program, you will gain valuable context from a variety of conversatio
 There will be short-term administrative tasks that you'll be asked to perform as the shadow.
 
 1. Handbook updates
-1. Prepare for, take notes during, and follow up on meetings
+1. Prepare for, take notes during, and follow up on meetings and action items
 
 ## Meetings
 
-1. The CFO's Senior Executive Business Administrator will add you to all meetings that you can attend. There will be some meetings and events the shadows do not attend. Do not feel obligated to attend every meeting — all meetings are considered optional.
-1. As a reminder, you should have your title updated within your last name on zoom. During the Shadow rotation update your title to "CFO Shadow". [Here](/handbook/tools-and-tips/zoom#adding-your-title-to-your-name) is the how to update your title as part of your last name to ensure it shows up on zoom.
-1. Because candidate interviews are marked as "private" (busy) for confidentiality reasons, the Sr EBA will invite the shadows to those events directly. As a result, you will get an email from Greenhouse asking for candidate feedback, which is not necessary.
+1. The CFO's Staff Executive Business Administrator will add you to all meetings that you can attend. There will be some meetings and events the shadows do not attend. Do not feel obligated to attend every meeting — all meetings are considered optional.
+1. As a reminder, you should have your title updated within your last name on Zoom. During the Shadow rotation update your title to "CFO Shadow". [Here](/handbook/tools-and-tips/zoom#adding-your-title-to-your-name) is the how to update your title as part of your last name to ensure it shows up on zoom.
 1. Meetings with those outside of GitLab may not be on Zoom. Prior to the call, check the CFO's calendar and load any other conferencing programs that may be needed. It may be necessary to dial in via phone for audio-conferences. If you have any problems confirming the link, reach out to the `#cfo-shadow` slack channel.
 
 ### Other Notes on Meetings
 
 - Like all meetings at GitLab, meetings will begin promptly, regardless of the shadows' attendance.
-- For the first iteration of the CFO-shadow program, the shadow may not attend e-group or quarterly board meetings to avoid overlap with the CEO Shadows who may already attend those calls.
-- The CFO's Sr EBA will ask external people if they are comfortable with the shadows joining prior to the scheduled meeting, and will share a link to the CFO shadow page to provide context.
+- The CFO's Staff EBA will ask external people if they are comfortable with the shadows joining prior to the scheduled meeting, and will share a link to the CFO shadow page to provide context.
 - Meeting agendas should be shared with cfo-shadow@gitlab.com, as shadows will be added to this email alias prior to the rotation, and removed at the conclusion of it. For agendas that contain sensitive information, the sensitive information should be removed and the document shared with "View only" access to restrict access to the document's history. Not all agendas will be shared, though, and the CFO Shadows should feel empowered to ask for access if that is the case. Sometimes, the answer will be "no" for sensitive reasons.
 - There will be times where the Shadow will not attend meetings because a participant in the meeting is uncomfortable or prefers more privacy.
+Shadows will be invited to join most 1:1's as an observer. You will not receive access to these agenda docs. If there are confidential matters to discuss, the shadow will be asked to drop off the Zoom near the end of the call for private discussion.
 
 ### Shadow's Responsibilities During Meetings
 
@@ -82,20 +81,18 @@ Here are the responsibilities shadows have during meetings:
 
 | Meeting type                     | Notes?         | Timekeeping?   |
 | -------------------------------- | -------------- | -------------- |
-| 1-1                              | No notes unless requested | No timekeeping unless requested |
-| Legal meetings outside of Key Reviews/GCs/etc. (see [doc](https://docs.google.com/document/d/1vkHile2eHVTEl1S7-qv4eEFDc64ghUSesBfvFNz7qfI/edit) for details)                | No notes       | Timekeeping    |
+| 1-1                              | No notes | No timekeeping unless requested |
 | 1-1 meetings with a GitLab [Board Member](/handbook/board-meetings/#board-of-directors)      | No notes       | Timekeeping    |
 | Internal meeting (CFO not host)  | Notes optional | Timekeeping    |
-| Customer Meeting    | Yes, please use the externally-shared collaboration doc | Timekeeping |
+| Investor Calls | No notes | Timekeeping    |
 | Anything else (unless specified) | Notes          | Timekeeping    |
 
 ### Keeping time
 
-Shadows are responsible for being aware of the current time and verbally providing timekeeping in many [types of meetings](#shadows-responsibilities-during-meetings). This allows participants to comfortably wrap up the meeting.
+Shadows are responsible for being aware of the current time and verbally providing timekeeping or via Zoom chat in many [types of meetings](#shadows-responsibilities-during-meetings). This allows participants to comfortably wrap up the meeting.
 
 **Tips for time-keeping:**
 
-- Decide who. Past shadows have found it helpful for the individual in the second week of the program to commit to keeping time when applicable.
 - Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings](/handbook/communication/#scheduling-meetings).
 - Shadows should provide a 5-minute and a 1-minute notification. You can write "Time check, 5 minutes" on Zoom chat.
 - **If a meeting is running over the allocated time, unmute and verbally say "we're in overtime".** Don't wait for a break in the conversation.
@@ -119,6 +116,6 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2025-01-07 | Thursday 2025-01-09 | Craig Patrick |
 | Tuesday 2025-01-21 | Thursday 2025-01-23 | Stacy Cline |
-| Tuesday 2025-02-18 | Thursday 2025-02-20 | |
+| Tuesday 2025-03-18 | Thursday 2025-03-20 | Vikas Agrawal |
+| Tuesday 2025-03-25 | Thursday 2025-03-27 | Available |

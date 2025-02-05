@@ -471,7 +471,7 @@ Here are some reasons to use containers:
 
 1. If you use a "floating" style for every worksheet, when you publish the workbook to the Cloud/ Server, some of your items may move a few inches in any direction for your end-user, depending on the size of their monitor/display.
 
-1. If you can learn to use a parameter to "turn off" and "turn on" a few related sheets, based on what is selected (so that only one worksheet is shown at a time), then containers are essential. 
+1. If you can learn to use a parameter to "turn off" and "turn on" a few related sheets, based on what is selected (so that only one worksheet is shown at a time), then containers are essential.
 
     Let's say you want to show table that either has information on 'Sales', 'Revenue', or 'Profit', and you create a parameter that has those three options as selections. You can create one worksheet for each of those three KPI's, and put a filter onto each worksheet so only one is "turned on" (showing) at a time, based on the parameter selection.
 

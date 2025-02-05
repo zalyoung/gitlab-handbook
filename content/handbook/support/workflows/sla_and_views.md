@@ -15,7 +15,7 @@ subcategory: Triaging
 
 Assuming a ticket has:
 
-- been [triaged]({{< ref "ticket_triage" >}}), and
+- been [triaged](/handbook/support/workflows/ticket_triage/), and
 - has the correct org associated,
 
 then we need to ensure the ticket:
@@ -103,7 +103,7 @@ using our generic `Support Admin` account.
 This part should be done in combination with the above section to fix future tickets.
 
 If data in SFDC or
-[CustomersDot]({{< ref "looking_up_customer_account_details#within-customersgitlabcom" >}}) show
+[CustomersDot](/handbook/support/workflows/looking_up_customer_account_details/#within-customersgitlabcom) show
 that the customer has a valid subscription you should update the ticket in Zendesk side.
 
 For the specific ticket:
@@ -133,7 +133,7 @@ and verify that it is associated with the appropriate organization and SLA.
 #### Example: full sequence of actions that should be done to fix incorrectly expired organization
 
 - A ticket comes to Zendesk and you spot that `GitLab Plan` is shown as `Expired`.
-- First, search for [any info about this organization]({{ ref "looking_up_customer_account_details" >}}) in SFDC and CustomersDot.
+- First, search for [any info about this organization](looking_up_customer_account_details.md) in SFDC and CustomersDot.
 - If you found that they have a valid license or subscription i.e. it is not expired, you are likely facing [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/634).
 - Fix SFDC side first by following [the steps above](#handling-customers-with-incorrect-expired-support).
   Sales Support will usually reply to your message in SFDC, and you will be able to see it in the feed at the organization's page there.
@@ -204,7 +204,7 @@ To make it visible only in the appropriate view, add either `prospect_saas` or `
 
 In cases where a ticket is showing in the wrong queue:
 
-1. Ensure that the ticket has [the correct form]({{< ref "ticket_triage" >}}).
+1. Ensure that the ticket has [the correct form](/handbook/support/workflows/ticket_triage/).
 1. If the [priority prospect tag is present, follow instructions above](#priority-prospects-showing-in-multiple-views).
 1. If it looks to be a valid customer or there are multiple [SLA tags](/handbook/support/readiness/operations/docs/zendesk/tags/),
 follow the [multiple subscription org instructions](#organizations-with-multiple-subscriptions).

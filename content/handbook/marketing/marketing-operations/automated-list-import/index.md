@@ -36,7 +36,7 @@ Go to the import template [Google Sheet](https://docs.google.com/spreadsheets/d/
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![ALT](/handbook/marketing/marketing-operations/automated-list-import/images/make-a-copy.png)
+![ALT](/images/marketing/marketing-operations/automated-list-import/make-a-copy.png)
 
 </details>
 
@@ -47,7 +47,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span">Click  to expand screenshot</summary>
 
-![Download CSV](/handbook/marketing/marketing-operations/automated-list-import/images/download-csv.png)
+![Download CSV](/images/marketing/marketing-operations/automated-list-import/download-csv.png)
 
 </details>
 
@@ -70,7 +70,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Slack alert](/handbook/marketing/marketing-operations/automated-list-import/images/slack-alert-import.png)
+![Slack alert](/images/marketing/marketing-operations/automated-list-import/slack-alert-import.png)
 
 </details>
 
@@ -87,7 +87,7 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Report status column](/handbook/marketing/marketing-operations/automated-list-import/images/report-status.png)
+![Report status column](/images/marketing/marketing-operations/automated-list-import/report-status.png)
 
 </details>
 

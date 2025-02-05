@@ -21,7 +21,7 @@ Define the process for managing account escalations and define a framework for c
 
 ## Scope
 
-This process addresses critical and high escalations for CSM-assigned customers. This process can also apply to other segments if a strategic partnership or relationship exists. Any GitLab team member can escalate an account on behalf of the customer.
+This process addresses escalations for CSM-assigned customers. This process can also apply to other segments if a strategic partnership or relationship exists. Any GitLab team member can escalate an account on behalf of the customer.
 
 ## Definitions of Severity Levels
 
@@ -39,9 +39,8 @@ This process addresses critical and high escalations for CSM-assigned customers.
 
 Based on the level of the escalation, the DRI for the escalation will be:
 
-1. Support for low or medium-level escalations that come through support, otherwise the CSM will be the DRI for account escalations
-2. The CSM for high and critical escalations that are **outside of a professional services project**
-3. The Professional Services Project Manager for any escalation during/as a part of a professional services project
+1. CSM will be the DRI for account escalations (except otherwise agreed with Support)
+2. The Professional Services Project Manager for any escalation during/as a part of a professional services project
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 
@@ -50,7 +49,7 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
 - Management of customer and internal communications, both async and synchronous
 - Ownership of next steps, ensuring these are determined, communicated clearly with appropriate timelines to meet the level of urgency
 
-### Critical and High-Level Escalations
+### Escalation (For Non Professional Services Projects)
 
 - The DRI is responsible for managing the account engagement (not the ticket), including:
 
@@ -70,12 +69,6 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
   - Supporting executive and customer calls (as needed)
 
 If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002).
-
-### Medium and Low-Level Escalations
-
-- Support Engineering is responsible for managing Low and Medium level escalations, leveraging other teams (e.g., Customer Success Managers (CSMs), Engineering) as needed.
-- Support Engineering should inform the CSM of the escalation if a CSM is assigned.
-- The CSM is responsible for managing any account-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.) and coordinating with any GitLab executives (e.g., e-group) or senior leadership to address account concerns.
 
 ### What's the difference between an account escalation or an incident escalation?
 
@@ -99,9 +92,6 @@ The following steps are to be taken by the escalation DRI:
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
 1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`.
-
-*Critical and High Escalations only*
-
 1. Create an [CS Help request](#cs-help-request)
 
 **Within 24 hours**
@@ -131,7 +121,7 @@ This channel will remain open until the escalation is closed and should be liste
 
 #### CS Help Request
 
-If a [Critical or High-Level escalation](/handbook/customer-success/csm/escalations/#critical-and-high-level-escalations) has been created, CSMs should create an escalation case in Salesforce. Steps for opening the case:
+If an [Escalation (For Non Professional Services Projects)](#escalation-for-non-professional-services-projects) has been created, CSMs should create an escalation case in Salesforce. Steps for opening the case:
 
 1. Navigate to the account page in Salesforce
 1. Navigate to the next open renewal opportunity under "Opportunities" (Note: if you're having trouble finding the opportunity, you may need to change the Salesforce App. Click the 9-dotted box in the upper left corned and change the Salesforce App to "Sales")
@@ -179,10 +169,11 @@ After the escalation case is opened in Salesforce, you will need to post in the 
 - **Severity**: High
 - **Status**: Opened
 - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
+- **Support DRI**: "Optional/in case support involvement is necessary use support-manager-oncall slack handle"
 - **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>"
 - **FYI**: "<TAG_YOUR_MANAGER_HERE>"
 
-For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
+If the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
 
 #### Posting in `escalated_customers`
 
@@ -221,7 +212,7 @@ Tips & Tricks:
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
-- Gainsight Escalation Closure question template: 
+- Gainsight Escalation Closure question template:
 
 Please provide a closure update answering the following questions:
 

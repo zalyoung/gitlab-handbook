@@ -21,9 +21,9 @@ At a high level, the Release post schedule is:
 
 ### Monday, 3 weeks before release
 
-- Release Post Manager manually triggers the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules): 
+- Release Post Manager manually triggers the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
   - `Release Post Process Kickoff Tasks`
-  - `Add deprecations and removals to current release post branch` 
+  - `Add deprecations and removals to current release post branch`
 - These invoke the `bin/rake release_post:start` rake task. ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
 - This task creates the branches, MRs, and issues necessary to run the Release Post process
 - The MRs and issues will be assigned to the Release Post Manager using the content in [release_post_managers.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml)
@@ -318,11 +318,11 @@ The generator will not create an MR for a confidential issue. To add a release p
 
 #### Option 2: manual MR creation
 
-- Create a new branch from `master` for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
+- Create a new branch from `master` of the [www-gitlab-com repository](https://gitlab.com/gitlab-com/www-gitlab-com) for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
 - Open a merge request targeted at the `master` branch
 - Use the [Release Post Item template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md)
-- Content should be one YAML file added to `data/release_posts/unreleased/` on the `master` branch
-  - See `data/release_posts/unreleased/samples/` for format and sample content
+- Content should be one YAML file added to [`data/release_posts/unreleased/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/release_posts/unreleased/) on the `master` branch
+  - See [`data/release_posts/unreleased/samples/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/release_posts/unreleased/samples?ref_type=heads) for format and sample content
   - Note that the structure needs to be preserved, like `features:` then `primary:`, then the feature content
   - Images should be placed in `/source/images/unreleased/`
 - Update the `data/features.yml` (if applicable) to include your feature and commit the changes as part of the same merge request
@@ -477,7 +477,7 @@ do `git pull origin master` then `:wq`.
 
 Once the PMs have included everything they're accountable for, they should **check their item** in the release post MR description:
 
-![PMs check list](features-checklist.png)
+![PMs check list](/images/marketing/blog/release-posts/features-checklist.png)
 
 By checking your item, you will make it clear to the Release Post Manager that you have done your part in time (during the general contributions stage) and you're waiting for review. If you don't check it, it's implicit that you didn't finish your part in time, despite that's the case or not.
 
@@ -1202,11 +1202,11 @@ When the MR is approved, add the `Ready` label before merging.
 
 Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations.html) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](/handbook/product/categories/gitlab-the-product/#deprecations-removals-and-breaking-changes) to ensure you:
+Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) to ensure you:
 
 - Are minimizing disruption for our customers.
 - Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](/handbook/product/categories/gitlab-the-product/#breaking-changes).
+- Have [determined if the change is a breaking change](https://docs.gitlab.com/ee/development/deprecation_guidelines/).
 
 #### Milestone due dates
 
@@ -1258,7 +1258,7 @@ This video will walk you through the process of making an announcement:
 
 ##### Reviewing and merging the announcement
 
-1. The TW Reviewer reviews the content, adds a commit that [updates the deprecations doc](#update-the-deprecations-doc), and merges the MR by the Thursday, 1 week before release. After merging, the announcement will be visible on the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations) within an hour.
+1. The TW Reviewer reviews the content, adds a commit that [updates the deprecations doc](#update-the-deprecations-doc), and merges the MR by the Thursday, 1 week before release. After merging, the announcement will be visible on the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations/) within an hour.
 1. If the MR is at risk of missing the cut off date, open a duplicate MR and set the target branch to `X-Y-stable-ee` where `X-Y` aligns with the version released `X.Y`. If you have trouble, ask for help in `#mr-buddies` or refer to the [full process for backporting an MR](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process_new.md#gitlab-project).
 
 #### Announcing an End of Support period
@@ -1267,7 +1267,7 @@ The [deprecation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/da
 
 An End of Support milestone must be at least 3 milestones *after* the deprecation announcement. For example, if the deprecation announcement is made in `15.1`, the End of Support milestone must be in `15.4` at the earliest. There is no requirement for the gap between the End of Support milestone and the Removal milestone.
 
-If an End of Support milestone is announced, it will be displayed under the title of the deprecation announcement on the [Deprecations page](https://docs.gitlab.com/ee/update/deprecations). End of Support milestones are not currently displayed in the release post.
+If an End of Support milestone is announced, it will be displayed under the title of the deprecation announcement on the [Deprecations page](https://docs.gitlab.com/ee/update/deprecations/). End of Support milestones are not currently displayed in the release post.
 
 **When to define an End of Support period**
 
@@ -1711,7 +1711,7 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 ### Pages
 
 - [GitLab the product](/handbook/product/categories/gitlab-the-product/#gitlab-the-product)
-- [General guidance on deprecations, remvoals and breaking changes](/handbook/product/categories/gitlab-the-product/#breaking-changes-deprecations-and-removing-features)
+- [General guidance on deprecations, remvoals and breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/)
 - [Release Post volunteer schedule](managers/)
 - [Security and monthly releases](https://about.gitlab.com/releases/categories/releases/)
 - [Features per release](https://about.gitlab.com/releases/)

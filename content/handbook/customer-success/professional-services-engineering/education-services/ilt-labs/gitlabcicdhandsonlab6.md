@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Deploying Applications"
 description: "This Hands-On Guide demonstrates how to deploy applications in a pipeline"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Task A. Preparing Code
 
 First, let’s make some small adjustments to our code so that it runs as a web application:
@@ -51,6 +53,7 @@ stages:
   - build
   - run
   - release
+  - deploy
 
 test go:
   stage: test

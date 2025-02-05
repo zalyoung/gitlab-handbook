@@ -104,12 +104,11 @@ title 50% confidence timeline
 section Work
 Gitlab Decomposition Ready :active , decompose, 2024-07-01, 2025-02-14
 Non-Slice Work :active, nonslicework, 2024-07-15, 2025-02-14
-Slice 1 :active, slice1, 2024-07-23, 2024-12-30
+Slice 1 :active, slice1, 2024-07-23, 2025-01-13
 Slice 2 :active, slice2, 2024-08-06, 2024-12-30
 Slice 3 :active, slice3, 2024-07-15, 2025-02-14
 Gitlab Application Ready for Decomposition :milestone, allslices, after slice1 slice2 slice3 nonslicework, 0d
-Phase 1 & 2 : phase12, 2024-09-11, 7w
-Phase 3 : phase3, after phase12, 3w
+Phase 1 & 2 : phase12, 2024-09-11, 16w
 Phase 4 : phase4, after allslices phase3 decompose, 3w
 Phase 5 : phase5, after phase4, 3w
 Phase 6 : phase6, after phase4, 3w
@@ -124,12 +123,12 @@ axisFormat  %Y-%m
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 95%  | 2024-12 |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 98% | 2024-12 |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 73%  | 2025-01 |
-| [Non Slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 73%  | 2025-01 |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 100% | Complete |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | Complete |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 93%  | 2025-02 |
+| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 79% | 2025-04 |
 
-Last update: [2024-12-06](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2236224657).
+Last update: [2025-01-28](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2315843897).
 
 ### Plan
 

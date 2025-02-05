@@ -195,17 +195,6 @@ It is critical to be intentional when organizing a self-service data environment
 
 - Models are tested and documented in a schema.yml file in the same directory as the models
 
-##### Table Audit Columns
-
-- **All fact and dimension tables should have the following audit columns:**
-  - revision_number - this is a manually incremented number representing a logical change in the model
-  - created_by - this is a GitLab user id
-  - updated_by - this is a GitLab user id
-  - model_created_at timestamp - this is a static value for when the model was created
-  - model_updated_at timestamp - this is the last time the model was updated by someone
-  - dbt_created_at timestamp - this is populated by dbt when the table is created
-  - dbt_updated_at timestamp - this is the date the data was last loaded. For most models, this will be the same as dbt_created_at with the exception of incremental models.
-
 ##### ERD Requirements
 
 - Generated in Lucidchart
@@ -587,8 +576,8 @@ The scope of this Analytics Performance Policy at this time is specifically focu
 
 *These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
 
-1. Reduce dbt model production run time from 12 hours to 8 hours. Assumes we do not scale up and keep using a XL size warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
-1. Individual dbt model run time is consistently between 30 minutes to 1 hour maximum per model, overtime as data volumes continue to increase.
+1. Maintain production dbt DAG run time of less than 8 hours. Assumes we do not scale up warehouse size and keep using a XL warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
+1. An individual dbt model's run time is consistently less than 1 hour, and its design accounts for forecasted data volume increases.
 1. A simple query of the Snowplow, Service Ping, and GitLab.com big data sets in Snowflake finishes in under 1 minute on a L or XL warehouse.
 
 ### Architectural Approaches to Improve Performance

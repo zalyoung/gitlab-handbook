@@ -9,8 +9,8 @@ We provide security in the software supply chain process, ensuring the right lev
 
 Our team is responsible for delivering on the following categories:
 
-- [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
-- [Secrets Management](https://about.gitlab.com/direction/govern/pipeline_security/secrets_management/)
+- [Build Artifacts](https://about.gitlab.com/direction/verify/)
+- [Secrets Management](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/)
 
 The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 
@@ -46,7 +46,7 @@ Like most GitLab backend teams we spend a lot of time working in Rails on the ma
 - [Issue Tracking Board](https://gitlab.com/groups/gitlab-org/-/boards/364216?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group::pipeline+security)
 - [Issue Backlog](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20security)
 - [Slack Channel](https://gitlab.slack.com/archives/g_pipeline-security)
-- [Roadmap](https://about.gitlab.com/direction/sec/#govern)
+- [Roadmap](https://about.gitlab.com/direction/security/#govern)
 - [GitLab Unfiltered YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq53VUOvTk3VdXN79PA0SXT)
 
 ## Our Repositories
@@ -81,7 +81,7 @@ Our active feature flags can be found on the [feature flag dashboard](https://10
 
 #### General planning
 
-Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
+Our team does not use Quad-Planning process because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
 
 #### Release planning issue
 
@@ -244,7 +244,7 @@ For iterations on features behind feature flags, even when the changes won't be 
 
 #### Issue Health Status Definitions
 
-- **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
+- **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-13#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.

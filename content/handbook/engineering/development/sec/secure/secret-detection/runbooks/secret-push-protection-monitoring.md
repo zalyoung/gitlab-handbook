@@ -4,7 +4,7 @@ title: "Secret Push Protection Monitoring"
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
+This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
 
 * [Secret Push Protection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1)
 

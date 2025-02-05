@@ -26,7 +26,7 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 
 **Merge Request** - The whole QA End-to-End test suite can be run on your MR by triggering manually the `package-and-qa` job.
 
-**Scheduled Pipelines** - [Schedule](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines).
+**Scheduled Pipelines** - [Schedule](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/).
 Package tests run in various pipelines and we have a few tests tagged as `:smoke`. `:smoke` tests block deployments from going further in case of failure.
 Other Package related tests that are not tagged as `:smoke` run when the full suite of tests runs.
 
@@ -194,7 +194,7 @@ are necessary. To have access to this vault please create an [access request](/h
 If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `package-and-qa` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a `package-and-qa` test report link.
 It is also possible to see which jobs failed in the `package-and-qa` pipeline, just follow the downstream pipelines, and within the `gitlab-qa-mirror` pipeline, access the `packages` job to inspect the result. We also have relevant Package tests running in `object_storage` and `registry` jobs.
 
-In Staging, or other environments [that run full tests](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines), all the
+In Staging, or other environments [that run full tests](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/), all the
 tests within the `qa/specs/features/browser_ui/5_package` folder can be found running on the `qa-triggers-browser_ui-5_package` job.
 
 #### What is the difference between orchestrated-level scenarios and instance-level scenarios?
@@ -247,7 +247,7 @@ Runs locally on `https://0.0.0.0:32768` using `https://` because it is TLS enabl
 
 ### Troubleshooting
 
-Please reach out to [your counterpart SET](/handbook/engineering/quality/#individual-contributors) or in the `#quality` channel.
+Please reach out to the `#s_developer_experience` channel.
 
 ### Helpful Documentation
 

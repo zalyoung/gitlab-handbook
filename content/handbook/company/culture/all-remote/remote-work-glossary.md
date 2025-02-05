@@ -58,7 +58,7 @@ At GitLab, we [communicate with low context](effective-communication/#understand
 
 ## Hybrid-remote
 
-Hybrid-remote (which can be referred to as part-remote), is [different than all-remote](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies). In an all-remote company, there is no single headquarters, and each team member is free to live and work in any place they choose. Everyone, including executives, is remote, as there are no offices to come to.
+Hybrid-remote (which can be referred to as part-remote), is [different than all-remote](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies/). In an all-remote company, there is no single headquarters, and each team member is free to live and work in any place they choose. Everyone, including executives, is remote, as there are no offices to come to.
 
 ## All-remote
 
@@ -78,4 +78,4 @@ Learn more on the phases of remote adaptation [here](phases-of-remote-adaptation
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

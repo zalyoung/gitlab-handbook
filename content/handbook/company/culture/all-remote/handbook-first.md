@@ -10,9 +10,9 @@ twitter_creator: "@gitlab"
 ![GitLab navigation and journey](/images/all-remote/gitlab-journey-and-navigation.jpg)
 {style="max-width: 50%;"}
 
-A [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) approach to communication is [sneakily vital](management/#scaling-by-documenting) to a well-run business. While it feels skippable — inefficient, even — the outsized benefits of intentionally writing down and organizing process, [culture](building-culture/), and solutions are staggering. Conversely, *avoiding* structured documentation is the best way to instill a low-level sense of [chaos and confusion](/handbook/values/#five-dysfunctions) that hampers growth across the board.
+A [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) approach to communication is [sneakily vital](management/#scaling-by-documenting) to a well-run business. While it feels skippable — inefficient, even — the outsized benefits of intentionally writing down and organizing process, [culture](building-culture/), and solutions are staggering. Conversely, *avoiding* structured documentation is the best way to instill a low-level sense of [chaos and confusion](/handbook/values/#five-dysfunctions) that hampers growth across the board.
 
-GitLab is intentional about documenting in a manner that creates a [single source of truth](/handbook/values/#single-source-of-truth). It operates [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), and in valuing [transparency](/handbook/values/#transparency), makes its handbook [publicly accessible to all](/handbook).
+GitLab is intentional about documenting in a manner that creates a [single source of truth](/handbook/values/#single-source-of-truth). It operates [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), and in valuing [transparency](/handbook/values/#transparency), makes its handbook [publicly accessible to all](/handbook).
 
 ## Terminology (documentation, handbook-first, single source of truth)
 
@@ -43,11 +43,11 @@ It's important not to let hindsight thwart progress in the here and now. While a
 
 At GitLab, only [90 days of Slack activity is retained](/handbook/communication/#slack). After that, it's gone. This is intentional, as it prevents Slack as being useful as a tool for managing projects end-to-end. Slack, Microsoft Teams, and similar tools are *instant* messaging platforms, which may work to the detriment of a truly [asynchronous culture](asynchronous/).
 
-Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#plugging-the-knowledge-leak) and further splinters communication, alignment, and understanding throughout an organization.
+Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#plugging-the-knowledge-leak) and further splinters communication, alignment, and understanding throughout an organization.
 
 A limited retention policy acts as a forcing function. It nudges team members to discuss work matters in a location that is directly tied to the ultimate single source of truth. At GitLab, all work, process, and policies are documented in the [handbook](/handbook).
 
-To get there, [discussions begin](https://about.gitlab.com/blog/2016/03/03/start-with-an-issue) in [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) and/or [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) — not in Slack. This ensures that whatever is merged into the handbook has a proper trail, full of [context](effective-communication/#understanding-low-context-communication) and universally accessible.
+To get there, [discussions begin](/handbook/communication/#start-with-a-merge-request) in [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and/or [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) — not in Slack. This ensures that whatever is merged into the handbook has a proper trail, full of [context](effective-communication/#understanding-low-context-communication) and universally accessible.
 
 Instant messaging tools are difficult to add people to a conversation, and all work history is left in that program, with no context following the work to where it eventually ends up.
 
@@ -76,8 +76,8 @@ Two, it creates class segmentation — those entrusted to update the wiki, and t
 
 Wikis are also highly siloed. They do not support proposals which touch multiple parts of multiple pages.
 
-- GitLab (the [company]({{< ref "history" >}})) uses GitLab (the [product](gitlab-for-remote/)) to maintain and evolve its handbook, and other organizations regardless of size can do likewise. By leveraging [distributed version control](https://about.gitlab.com/stages-devops-lifecycle/source-code-management), anyone in the company (and even *outside* of the company) is empowered to put forth proposals for improvement.
-- [Almanac](https://almanac.io/home) is an excellent tool for organizations building their first handbook. It allows you to pull in expert guides from other companies ([GitLab included](https://almanac.io/articles/11830/remote-survival-guide-for-managers)) and modify to suit your company. This shortens the time between acknowledging that a handbook is necessary and having a minimum viable product available for your team to reference and iterate on.
+- GitLab (the [company](/handbook/company/history/)) uses GitLab (the [product](gitlab-for-remote/)) to maintain and evolve its handbook, and other organizations regardless of size can do likewise. By leveraging [distributed version control](https://about.gitlab.com/solutions/source-code-management/), anyone in the company (and even *outside* of the company) is empowered to put forth proposals for improvement.
+- [Almanac](https://almanac.io/home) is an excellent tool for organizations building their first handbook. It allows you to pull in expert guides from other companies ([GitLab included](https://almanac.io/docs/remote-survival-guide-for-managers-e0326b4235d688c00eac54bd179e3302)) and modify to suit your company. This shortens the time between acknowledging that a handbook is necessary and having a minimum viable product available for your team to reference and iterate on.
 
 ### Suddenly remote quick boot handbook guide
 
@@ -91,11 +91,11 @@ The project that drives the sample rendering and starter template can be found [
 
 GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page]({{< ref "gitlab-for-remote" >}}).
+You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
 
 ### Empower the entire team to evolve the handbook
 
-Crucially, GitLab merge requests split the role of submitter and approver. There is no harm in opening your handbook up to proposals, as code owners and DRIs ([directly responsible individual]({{< ref "directly-responsible-individuals" >}})) are ultimately responsible for reviewing each proposal and merging or editing and merging.
+Crucially, GitLab merge requests split the role of submitter and approver. There is no harm in opening your handbook up to proposals, as code owners and DRIs ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) are ultimately responsible for reviewing each proposal and merging or editing and merging.
 
 This enables anyone at the company, even those who have just joined, to propose changes and feel immediately invested in a company's culture.
 
@@ -110,7 +110,7 @@ This enables anyone at the company, even those who have just joined, to propose 
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-lifecycle) to build and evolve a company handbook is that you don't have to have the full table of contents mapped out in advance. Tools like [Almanac](https://almanac.io), [Notion](https://www.notion.so), and [Guru](https://www.getguru.com) can be used as well. Consider the following as an initial guide for top-level organization, but don't hesitate to deviate based on the size, scope, and needs of your firm.
+The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-lifecycle/) to build and evolve a company handbook is that you don't have to have the full table of contents mapped out in advance. Tools like [Almanac](https://almanac.io), [Notion](https://www.notion.com), and [Guru](https://www.getguru.com) can be used as well. Consider the following as an initial guide for top-level organization, but don't hesitate to deviate based on the size, scope, and needs of your firm.
 
 1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/[OKRs](/handbook/company/okrs), and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://www.lukethomas.com/anywhere/).
    - Founding story/history of the company
@@ -149,7 +149,7 @@ The trick to ensuring a handbook grows continually is to instill it as a value. 
 >
 > This is going slow to go fast. Lots of energy up front — you go slow — but that accelerates things dramatically a year or so down the road. — *[Gabe W.](https://gitlab.com/gweaver), Senior Product Manager, GitLab*
 
-[Write things down](/handbook/values/#write-things-down) is an operating principle of [Efficiency](/handbook/values/#efficiency) at GitLab. Team members are as likely to see merge requests [put forth](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36397) by [e-group]({{< ref "structure#e-group" >}}) members as they are [new hires](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848).
+[Write things down](/handbook/values/#write-things-down) is an operating principle of [Efficiency](/handbook/values/#efficiency) at GitLab. Team members are as likely to see merge requests [put forth](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36397) by [e-group](/handbook/company/structure/#e-group) members as they are [new hires](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848).
 
 Empowering the entire company to propose changes creates widespread autonomy and [agency](/handbook/values/#give-agency). This generates a shared responsibility to maintain the pace of documentation through a [pay-it-forward mentality](self-service/#paying-it-forward).
 
@@ -171,7 +171,7 @@ To whatever degree you legally can, consider making your company handbook [publi
 
 This allows the public as well as companies in your industry to replicate processes and make suggestions for improvement. Remember, this doesn't mean that those who provide input [have a right to feel heard or considered](/handbook/people-group/directly-responsible-individuals#empowering-dris); it simply opens wide the gate for improvements you'd never consider in your own bubble.
 
-This also creates a more welcoming environment for applicants and new hires. By [sharing]({{< ref "candidate-faq" >}}) processes, culture, and strategy, your [hiring teams](hiring/) are likely to field inbounds which are more qualified, put forth by individuals who have already investigated your company and believe that they align with your [goals and mission](/handbook/company/strategy).
+This also creates a more welcoming environment for applicants and new hires. By [sharing](/handbook/hiring/candidate-faq/) processes, culture, and strategy, your [hiring teams](hiring/) are likely to field inbounds which are more qualified, put forth by individuals who have already investigated your company and believe that they align with your [goals and mission](/handbook/company/strategy).
 
 ## Not just handbook-first... website-first is even more efficient
 
@@ -186,8 +186,8 @@ Learn more about [using handbook screenshots instead of creating a presentation]
 Learn more about the importance of documentation in the GitLab resources below.
 
 1. [Documentation handbook section](/handbook/product/ux/technical-writing/documentation/)
-1. [Documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide)
-1. [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation)
+1. [Documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+1. [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/)
 1. [Scaling by documenting](management/#scaling-by-documenting)
 
 ## GitLab Knowledge Assessment: Handbook-First Documentation
@@ -198,6 +198,6 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-Approaching documentation with unwavering intention is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Approaching documentation with unwavering intention is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

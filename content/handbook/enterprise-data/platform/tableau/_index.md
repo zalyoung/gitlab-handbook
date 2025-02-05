@@ -8,7 +8,7 @@ description: "Tableau at GitLab"
 | [Tableau Cloud - GitLab](https://10az.online.tableau.com/#/site/gitlab/home) | [GitLab Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) | [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)  |
 | [Tableau eLearning Portal](https://elearning.tableau.com) |  [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)  | [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)   |
 | [Tableau Customer Portal](https://customer-portal.tableau.com/s/) | [Developer Tips and Tricks](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/) | |
-| [Tableau Status Page](https://trust.tableau.com) | [Tableau Embedding to Handbook](/handbook/enterprise-data/platform/tableau/embed-demo/) | |
+| [Tableau Status Page](https://trust.salesforce.com/) | [Tableau Embedding to Handbook](/handbook/enterprise-data/platform/tableau/embed-demo/) | |
 
 ## Tableau
 
@@ -274,7 +274,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
 - \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
-- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
+- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager.
 
 - **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
 
@@ -722,7 +722,7 @@ All certified data sources must meet the following criteria:
        - Dates: Convert dates to ISO:`yyyy/mm/dd` or change datetime to date when time precision isn’t required.
        - Numbers: Format as currency or decimal where needed.
        - Percentages: Apply proper '%' formatting at desired decimal level.
-  
+
 ## Education
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
@@ -743,7 +743,7 @@ GitLab team members who realize the full potential of analytical insights can do
   - If you experience any issues accessing the training content, check [this page](https://support.skilljar.com/hc/en-us/articles/360033553054) for solutions to the most common problems.
 - [Tableau Community](https://community.tableau.com/s/)
 - [Tableau Support](https://www.tableau.com/support)
-- [Tableau Classroom training](https://trailheadacademy.salesforce.com/products/tableau#f-products=Tableau) & [Training Pass](https://www.tableau.com/tableau-training-pass)
+- [Tableau Classroom training](https://trailheadacademy.salesforce.com/products/tableau#f-products=Tableau) & [Training Pass](https://www.tableau.com/learn/training/elearning)
   - These could be options for you to use as part of your [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
 
 <summary><b>Third Party Training Resources</b></summary>
@@ -908,13 +908,13 @@ Because Tableau is integrated with our enterprise architecture, including hardwa
 
 ### Tableau Cloud Status
 
-To check the current status of Tableau Cloud and if there are any reported outages, visit the [Tableau Status Page](https://trust.tableau.com). On that page you can also sign up for notifications in the event of an outage. For reference, GitLab's Tableau Cloud instance is located in `United States - West - (10AZ)`.
+To check the current status of Tableau Cloud and if there are any reported outages, visit the [Tableau Status Page](https://trust.salesforce.com/). On that page you can also sign up for notifications in the event of an outage. For reference, GitLab's Tableau Cloud instance is located in `United States - West - (10AZ)`.
 
 ## View Performance
 
-Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three categories: Satisfied, Tolerating, Frustrated. It is based on two duration parameters: Target Time and Tolerable Time. 
+Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three categories: Satisfied, Tolerating, Frustrated. It is based on two duration parameters: Target Time and Tolerable Time.
 
-We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.  
+We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.
 
 The index itself is a weighted average, values range between 0 and 1, of the count of loads in each category which is then classified into five ratings: Excellent, Good, Fair, Poor, Unacceptable.
 

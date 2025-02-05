@@ -67,7 +67,7 @@ The specific agenda for each offsite depends on active projects and the goals of
     1. Director+ promotion planning
     1. Hiring plan
     1. Relevant People projects around performance, engagement, and retention
-1. [Big rocks](https://www.franklincovey.com/the-5-choices/choice-3/) (large initiatives) presentation and discussion
+1. [Big rocks](https://www.franklincovey.com/courses/the-5-choices/choice-3/) (large initiatives) presentation and discussion
 1. Direction updates (**annual in Q4**)
 1. Department-to-department feedback
 

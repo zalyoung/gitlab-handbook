@@ -23,7 +23,7 @@ If you choose to, you can learn even more about the infrastructure department an
 [Infrastructure at GitLab](/handbook/engineering/infrastructure/)
 
 - [SaaS Platforms](/handbook/engineering/infrastructure/team/platforms/)
-  - [Delivery Group](/handbook/engineering/infrastructure/team/delivery/)
+  - [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/)
   - [Scalability Group](/handbook/engineering/infrastructure/team/scalability/)
   - [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
   - Production Engineering group with [Ops](/handbook/engineering/infrastructure/team/ops/) and [Foundations](/handbook/engineering/infrastructure/team/foundations/)
@@ -117,4 +117,4 @@ After you provide us with your references, now it's time to relax! The hiring ma
 
 Successful candidates will subsequently be made an offer. Once the offer is ready, the Recruiter will reach out to you to schedule a Zoom call to discuss its details.
 
-Questions? Check out our [Jobs at GitLab - Frequently Asked Questions]({{< ref "candidate-faq" >}})
+Questions? Check out our [Jobs at GitLab - Frequently Asked Questions](/handbook/hiring/candidate-faq/)

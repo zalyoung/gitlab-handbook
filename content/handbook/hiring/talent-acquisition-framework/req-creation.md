@@ -81,7 +81,7 @@ If you are looking to open a job for pipeline reasons, because a Hiring Manager 
 **The Recruiter will:**
 
 1. The Recruiter will open a [kick-off issue](https://gitlab.com/gl-talent-acquisition/req-intake/-/issues/new). This will happen simultaneously with the steps for opening the job in Greenhouse below.
-1. [Log in]({{< ref "greenhouse#how-to-join-greenhouse" >}}) to [Greenhouse](https://gitlab.greenhouse.io/users/sign_in) and hover over the plus sign in the top right corner of their dashboard, and then click [Create a Job](https://app2.greenhouse.io/plans/new).
+1. [Log in](/handbook/hiring/greenhouse/#how-to-join-greenhouse) to [Greenhouse](https://gitlab.greenhouse.io/users/sign_in) and hover over the plus sign in the top right corner of their dashboard, and then click [Create a Job](https://app2.greenhouse.io/plans/new).
 1. Click on [Start from a copy of an existing job](https://gitlab.greenhouse.io/get_started/show_existing_jobs). From there, select `Any Status` at the top bar, select `Draft`, and choose the template for the division. If you need a template created, please speak with a member of the Enablement team.
 
 Once you've selected a template to copy, the first screen will ask for **Basic Job Info**.
@@ -110,7 +110,7 @@ The `Interview Plan` is where you'll craft the hiring process and scorecards for
 
 The `Hiring Team` is where you select who will be working on this opening and what access they should have.
 
-- Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
+- Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
 - Ensure that only necessary team members have Hiring Manager access in the bottom section. Filter by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need Job Admin access and should be removed.
 
 Set up Notifications where appropriate. You should make sure that you are always notified for internal candidates and referrals, but the rest is up to your preferences. Most recruiters prefer to use their own names, rather than `Candidate's Recruiter`, because it ensures they are notified even if the candidate is interviewing for multiple positions and therefore has a different default recruiter.
@@ -260,13 +260,13 @@ On occasion, there may be additional or fewer stages than represented here, but 
 
 1. Update the `Hiring Team` after the Kick-off Session.
 1. The Hiring Team is where you select who will be working on this opening and what access they should have.
-   - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)]({{< ref "recruiting-alignment" >}}), Coordinator(s) and Sourcer(s).
+   - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/), Coordinator(s) and Sourcer(s).
    - Scroll to the `Who can see this job?` section to set permissions to the team members who will need access. Search for someone's name, click the pencil and select the correct access level from the drop-down.
    - Ensure that only necessary team members have Hiring Manager access. Filter the bottom section by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need advanced access and should be removed.
 
 ### Publish the Job: Careers Page & LinkedIn
 
-Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs).
+Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Choosing the correct location for your published job
 
@@ -346,7 +346,7 @@ If you run into problems, you can reach out to the #talent-brand channel for sup
 
 #### How jobs are categorized on our careers site job board
 
-Greenhouse data is fed into our custom jobs page located at [https://about.gitlab.com/jobs/all-jobs](https://about.gitlab.com/jobs/all-jobs/).
+Greenhouse data is fed into our custom jobs page located at <https://about.gitlab.com/jobs/all-jobs/>.
 
 Each department in Greenhouse has a specific department ID associated with it. Those department ID's can be found in our [Greenhouse API feed](https://boards-api.greenhouse.io/v1/boards/gitlab/departments).
 
@@ -354,7 +354,7 @@ Specific departments are coded to show up in various categories, this is defined
 
 When new departments are created, we will need to add those to the openings.js file so that they appear correctly on our job board.
 
-If new categories are needed on the [https://about.gitlab.com/jobs/all-jobs](https://about.gitlab.com/jobs/all-jobs/) job board we also need to update that index file.
+If new categories are needed on the <https://about.gitlab.com/jobs/all-jobs/> job board we also need to update that index file.
 
 #### Publishing jobs to Indeed and Glassdoor
 

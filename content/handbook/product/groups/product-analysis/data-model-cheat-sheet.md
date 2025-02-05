@@ -18,6 +18,8 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
 
+- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) to undertand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
+
 ## Data Model Categories
 
 These categories are grouped by data source and subject area.
@@ -163,7 +165,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 - [Technical Snowplow overview](/handbook/enterprise-data/platform/snowplow/)
 
-- [Snowplow docs on standard fields](https://docs.snowplow.io/docs/understanding-your-pipeline/canonical-event/)
+- [Snowplow docs on standard fields](https://docs.snowplow.io/docs/fundamentals/canonical-event/)
 
 - [PDI: Snowplow New Models Onboarding](https://docs.google.com/presentation/d/1L6g2XCHWhRRXAbJ5txBavdxPW0Jja1E43QzxbtYvQK0/edit?usp=sharing)
 
@@ -249,25 +251,25 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 </details>
 
-### Trials, Subscriptions & Charges
+### Duo
 
-Models used to report on trials, subscriptions and charges.
+GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, and other capabilities. Data about Duo usage comes from multiple sources including AI Gateway events, Snowplow tracking, and Service Ping metrics, with the AI Gateway being the source of truth for usage metrics across all deployment types starting August 2024. For the most comprehensive documentation see [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/duo-analysis/).
 
 #### FAQs
 
-> How mature is the [Trusted Data](/handbook/enterprise-data/platform/#tdf) approach to namespace and installation trial and paid conversion analysis?
+> When can we report total deduped users across all Duo features?
 
-- This category of data models is the next priority for refactoring and aligning with the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf).
+- Complete deduped totals across all features and deployment types are only available starting August 3rd, 2024. Historical data availability varies by feature and deployment type.
+
+> How is Duo usage attributed to customers?
+
+- Usage is attributed based on how an event happened (which namespace/installation enabled access), not where the event occurred. A single event can be enabled by multiple customers.
 
 #### Documentation
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [How GitLab SaaS subscriptions work](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/dotcom-subscriptions/) is a handbook page that covers SaaS subscriptions in depth.
-
-- [GitLab Tiers](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/) covers all SM and SaaS Tiers in the GitLab handbook.
-
-- [This pricing page](https://about.gitlab.com/pricing/) is our customer facing page covering all GitLab tiers.
+- [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/duo-analysis/)
 
 </details>
 
@@ -277,10 +279,11 @@ Models used to report on trials, subscriptions and charges.
 
 | Schema | Table Name | Data Grain | Description | Notes |
 | --- | --- | --- | --- | --- |
-| legacy | [customers_db_charges_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.customers_db_charges_xf) | `rate_plan_charge_id` | This model first unions the 2 ephemeral models customers_db_charges_with_valid_charges and customers_db_charges_with_incomplete_charges which provides a clean list of all orders that have been created in the subscription portal and that can be linked to Zuora subscriptions and charges. |  Product Data Insights will use this model to calculate paid conversion analyses until customers_db_charges_xf is refactored using the TD framework. |
-| legacy | [customers_db_trial_histories](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.customers_db_trial_histories) | `gl_namespace_id`, `start_date`, `expired_on` | Historical table of namespaces with trials. |  |
-| restricted_safe_common_mart_sales | [mart_arr](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_arr) | `primary_key`, `arr_month`, `subscription_name` | Data mart to explore ARR. | `dim_subscription_id` column has the **latest** subscription ID for each subscription.  |
-| common | [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) | `subscription_name`, `term_start_date`, `term_end_date` | Dimension table representing subscription details. | The data grain here is used to identify unique terms per subscription. |
+| workspace_product | [wk_mart_behavior_structured_event_ai_gateway_flattened](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_mart_behavior_structured_event_ai_gateway_flattened) | Event per namespace/installation | AI Gateway events with customer attribution | Flattened model - use DISTINCT counts |
+| workspace_product | [wk_rpt_ai_gateway_events_flattened_with_features](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_rpt_ai_gateway_events_flattened_with_features) | Event per namespace/installation | AI Gateway events with customer attribution joined to the feature associated with each request. | Flattened model - use DISTINCT counts |
+| common_mart_product | [rpt_behavior_code_suggestion_outcome](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_behavior_code_suggestion_outcome) | Suggestion | Code Suggestions metrics from IDE extensions | Quality metrics like acceptance rate |
+| restricted_safe_workspace_product | [rpt_duo_license_utilization_monthly](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_duo_license_utilization_monthly) | Subscription/month/add-on | License utilization metrics | Excludes current month |
+| workspace_customer_success | [wk_license_billable_users](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_license_billable_users) | Installation | Self-managed seat assignments | Available from v17.5+ |
 
 </details>
 
@@ -288,16 +291,10 @@ Models used to report on trials, subscriptions and charges.
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [SSOT Historical Namespace Subscriptions](https://gitlab.com/gitlab-data/analytics/-/issues/14401) is an Issue for Data to clarify and refactor models used for subscription and charge analysis.
-
-- Findings from Issue intended to [record differences between using legacy.customers_db_charges_xf vs common.dim_order_hist for namespace paid conv. analysis](https://gitlab.com/gitlab-data/product-analytics/-/issues/820#note_1227834945).
-
-- There are some known problems with our license to subscription mapping in SM and SaaS reporting. [Issue with more details](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/634).
-
-- To understand active subscriptions, filtering [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) on `subscription_status = 'Active'` is not sufficient as a subscription can have this status and be past its term end date. To understand active subscriptions at a given date, use the following filter: `subscription_status = 'Active' AND  term_end_date > CURRENT_DATE`.
-
-- When a subscription is updated (example: seat addtions or changes to subscription settings) a new subscription version number is created per term which is reflected in `dim_subscription_id` in [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription). To understand each unique subscription version per term, the grain of [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) is `dim_subscription_id`,`subscription_name`, `term_start_date`, `term_end_date`
-
-- [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) reflects the latest greatest settings (example Cloud Licensing status) per subscription per term. To understand historical settings of subscriptions please refer to [dim_subscription_snapshot_model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model)
+- AI Gateway events in [wk_mart_behavior_structured_event_ai_gateway_flattened](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_mart_behavior_structured_event_ai_gateway_flattened) and [wk_rpt_ai_gateway_events_flattened_with_features](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_rpt_ai_gateway_events_flattened_with_features) are the SSOT for usage metrics starting August 2024 and cannot be blocked by users
+- Customer attribution relies on different identifiers:
+  - GitLab.com: `feature_enabled_by_namespace_ids`
+  - Self-Managed & Dedicated: `instance_id` + `host_name`
+- For improvements in progress on AI Gateway reporting, follow: https://gitlab.com/gitlab-org/gitlab/-/issues/502457
 
 </details>

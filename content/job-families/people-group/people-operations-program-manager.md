@@ -62,7 +62,7 @@ The Senior People Operations Program Manager reports to the Director, People Too
 
 #### Senior People Operations Program Manager Job Grade
 
-The Senior People Operations Program Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior People Operations Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior People Operations Program Manager Responsibilities
 
@@ -115,7 +115,7 @@ The Senior People Operations Program Manager reports to the Director, People Too
 
 #### Staff People Operations Program Manager Job Grade
 
-The Senior People Operations Program Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior People Operations Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff People Operations Program Manager Responsibilities
 
@@ -178,7 +178,7 @@ The Senior People Operations Program Manager is a [grade 8]({{< ref "compensatio
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Second interview: 30-45 minutes with business stakeholder
 - Third interview: 30-45 minutes with Director, People Tools & Technology
 - Fourth interview: 30-45 minutes with VP, Total Rewards and People Operations

@@ -118,7 +118,7 @@ The Security Assurance Automation team is continuously engineering new automated
 
 [Tableau Dashboarding](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTZenGRCObservations/ZenGRCObservationsDashboard) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
 
-[Insight Dashboarding](https://docs.gitlab.com/ee/user/group/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
+[Insight Dashboarding](https://docs.gitlab.com/ee/user/project/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
 
 #### Compliance control monitoring and evidence gathering automation
 
@@ -207,7 +207,7 @@ Below is a list of libraries we use to assist with standardization:
   3) Modules
      - Dependency Management: [PDM](https://pdm-project.org/en/latest/)
         - [PDM](https://pdm-project.org/latest/) has been selected over [Poetry](https://python-poetry.org/) due to PDM's direct support of [PEP 621](https://peps.python.org/pep-0621/), [PEP631](https://peps.python.org/pep-0631/), and [PEP 517](https://peps.python.org/pep-0517/)
-     - CLI: [click](https://click.palletsprojects.com/en/7.x/)
+     - CLI: [click](https://click.palletsprojects.com/en/stable/)
 
 As `Simple is better than complex.`, this standard definition will remain minimal.
 
@@ -274,5 +274,5 @@ Once current level is assessed - add the scoped label `ControlAutomationPotentia
 
 [Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
 
-- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
+- [Automation design, development, and implementation](/handbook/security/security-assurance/governance/security-assurance-automation/)
 - [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})

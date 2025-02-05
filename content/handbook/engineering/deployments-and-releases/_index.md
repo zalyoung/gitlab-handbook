@@ -23,7 +23,7 @@ For testing purposes, all changes are deployed to GitLab.com before being consid
 
 This overview shows how the two processes are connected:
 
-![Deployment and Release process overview](deployment-and-release-process-overview.png)
+![Deployment and Release process overview](/images/engineering/deployments-and-releases/deployment-and-release-process-overview.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
@@ -53,17 +53,18 @@ You can contact the current Release Managers:
 
 We use the `#releases` and `#f_upcoming_releases` channels to discuss and coordinate deployments and releases. Automated deployment status announcements are made to the `#announcements` channel.
 
-If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation)
+If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation)
 
 ### Weekly Delivery Metrics Review
 
 Each week, the current Release Managers walk through the key Delivery Group metrics in the EMEA/AMER Delivery Weekly sync ([YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPzC03-4yXuJEWdUo7VZfX)). The goal is to share experiences about recent deployments and releases, and for the Group to identify ways we can improve our tools and processes.
 
-[MTTP Monthly](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) - [Deployment blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192) - [Deployment SLO](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery-deployment-slo?orgId=1) - [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) - [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency)
+[MTTP Monthly](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) - [Deployment blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1496) - [Deployment SLO](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery-deployment-slo?orgId=1) - [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) - [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency)
 
 1. Walkthrough [Auto-Deploy packages dashboard](https://dashboards.gitlab.net/d/delivery-auto_deploy_packages/delivery-auto-deploy-packages-information?orgId=1)
 1. Walkthrough the monthly view of [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) and [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=lead-time) - note any patterns
-1. Walkthrough of [Deployment Blockers Dashboard](https://dashboards.gitlab.net/d/delivery-deployment_blockers/delivery3a-deployment-blockers?orgId=1) and last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
+1. Walkthrough the [Deployment SLO dashboard](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery3a-deployment-slo) - Deployment SLO and packager pipeline duration
+1. Walkthrough of [Deployment Blockers Dashboard](https://dashboards.gitlab.net/d/delivery-deployment_blockers/delivery3a-deployment-blockers?orgId=1) and last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1496)
 1. Do we need to take action based on the previous week's MTTP?
 
 ## Resources

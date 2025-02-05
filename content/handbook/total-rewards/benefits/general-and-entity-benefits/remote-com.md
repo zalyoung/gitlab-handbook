@@ -82,7 +82,7 @@ Please enter the dates in Workday and select the `Bereavement` option.
 
 ### Marriage Leave
 
-Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy]({{< ref "paid-time-off" >}}).
+Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy](/handbook/people-group/paid-time-off/).
 
 Please enter the time away in Workday and select the `Paid Time Off` option.
 
@@ -105,7 +105,7 @@ More information can be found below:
 - [Remote Allianz Benefit Guide](https://drive.google.com/file/d/1krO_RGt_H1_kPNgudHeuSIFjJohJuq-h/view)
 - [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view)
 
-Team members in Denmark can also access the [public healthcare system](https://www.healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
+Team members in Denmark can also access the [public healthcare system](https://healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 

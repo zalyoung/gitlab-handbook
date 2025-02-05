@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) tools and is responsible for all backend aspects of the [Source Code group's](/handbook/product/categories/#source-code-group) product categories in the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages). For information on our product direction, visit the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
 
 ## About our team handbook page
 
@@ -50,7 +50,9 @@ The following people of other functional teams are our stable counterparts:
 ## Common Links
 
 - GitLab Team Handle: `@gitlab-com/create-team/source-code/backend`
-- Slack Channel: `#g_create_source-code-be`
+- Slack Channels: `#g_create_source-code-be`, `#g_create_source-code_stand-up`, `#g_create_source-code`, `#s_create`
+- [Team error budget - Group Dashboard](https://dashboards.gitlab.net/goto/2YoyikIHR?orgId=1)
+- [Team error budget - Detail Dashboard](https://dashboards.gitlab.net/goto/O6YJZodNR?orgId=1)
 
 ## Sisense and KPIs
 
@@ -83,7 +85,7 @@ We use the standard GitLab [engineering workflow](/handbook/engineering/workflow
 
 For more urgent items, use the `#g_create_source_code` Slack channel.
 
-[Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
+[Take a look at the features we support per category here.](/handbook/product/categories/features/#code-creation)
 
 ### Working with the Product Team
 
@@ -160,7 +162,7 @@ The weekly Triage Report is generated automatically by the [GitLab bot](https://
 The Triage Report can be quite long, and it important to deal with it efficiently. An effective way to approach it is:
 
 - Open every issue in a separate browser tab and use "edit issue" to mark then as checked once review, then close the tab.
-- Verify if the issue belongs to ~"group::source code" and change group label if needed. The [Features by Group](/handbook/product/categories/features/#createsource-code-group) page is a good starting point for this assessment.
+- Verify if the issue belongs to ~"group::source code" and change group label if needed. The [Features by Group](/handbook/product/categories/features/#code-creation) page is a good starting point for this assessment.
 - Apply ~frontend if it is a frontend issue.
 - Perform a brief search to assess if is a duplicate, close with a ~Duplicate label if this is the case.
 - Is it a ~"support request" ? Does it ~"needs investigation" ? Apply labels if so.

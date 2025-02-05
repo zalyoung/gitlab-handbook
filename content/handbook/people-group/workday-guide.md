@@ -16,7 +16,7 @@ title: Workday Guide
 
 Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **'Workday SSO'** tile to login. You can search your apps for quick access.
 
-![Accesing Workday through Okta](../okta-wd.png)
+![Accesing Workday through Okta](/images/people-group/okta-wd.png)
 
 **Important:** Please note that Workday will be temporarily unavailable due to scheduled weekly maintenance each Friday between 11:00 PM - 3:00 AM PST (Saturday between 6am UTC to 9am UTC).
 

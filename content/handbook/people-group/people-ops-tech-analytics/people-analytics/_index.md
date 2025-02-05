@@ -9,15 +9,15 @@ This handbook page is meant to cover who we are and why we exist at GitLab. On t
 
 ## People Analytics Team Members
 
-- [Adrian Perez](/handbook/company/team/#aperez349): [Sr. Manager, People Analytics]({{< ref "people-systems-and-analytics#senior-manager-people-analytics" >}})
-- [Shane McCormack](/handbook/company/team/#mccormack514): [Sr. Analyst, People Analytics]({{< ref "people-systems-and-analytics#senior-analyst-people-analytics" >}})
+- [Adrian Perez](/handbook/company/team/#aperez349): [Sr. Manager, People Analytics](/job-families/people-group/people-systems-and-analytics/#senior-manager-people-analytics)
+- [Shane McCormack](/handbook/company/team/#mccormack514): [Sr. Analyst, People Analytics](/job-families/people-group/people-systems-and-analytics/#senior-analyst-people-analytics)
 
 ## People Analytics Handbook Contents
 
 - [People Analytics Data Guide](data-guide.md) - If you are an analyst trying to use People data sets, this guide will help you get started with our data models.
-- [People Data Governance]({{< ref "data-governance" >}}) - This is an overview of how we ensure quality of our People data.
-- [People Analytics Tableau Dashboard Overview]({{< ref "people-tableau" >}}) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
-- [People Analytics Survey Support]({{< ref "survey-support" >}}) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
+- [People Data Governance](/handbook/people-group/people-ops-tech-analytics/people-analytics/data-governance/) - This is an overview of how we ensure quality of our People data.
+- [People Analytics Tableau Dashboard Overview](/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
+- [People Analytics Survey Support](/handbook/people-group/people-ops-tech-analytics/people-analytics/survey-support/) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
 
 ## What is People Analytics?
 
@@ -76,7 +76,7 @@ It is not necessary to have a large suite of tools in order to be an effective P
 
 ## General People Analytics Resources
 
-- [Wharton People Analytics](https://analytics.wharton.upenn.edu/programs/wharton-people-analytics/) - Wharton hosts an annual People Analytics Conference and dedicates a lot of effort to research in this space.
+- [Wharton People Analytics](https://wpa.wharton.upenn.edu/) - Wharton hosts an annual People Analytics Conference and dedicates a lot of effort to research in this space.
 - [AIHR](https://www.aihr.com/blog/people-analytics-resource-library/) - AIHR is generally a good resource for HR and they have resources specific to People Analytics as well.
-- [HR Predictive Analytics](https://www.koganpage.com/product/predictive-hr-analytics-9780749484446) - A textbook that walks through People Analytics concepts and specific examples (with code!).
+- [HR Predictive Analytics](https://www.koganpage.com/hr-learning-development/predictive-hr-analytics-9781398615656) - A textbook that walks through People Analytics concepts and specific examples (with code!).
 - [re:Work](https://rework.withgoogle.com/en/subjects/people-analytics) - While not updated in some time, this is a great introductory resource created by Google to help teams get started with People Analytics.

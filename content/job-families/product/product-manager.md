@@ -15,7 +15,7 @@ entire [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/). We
 are working on a [single application](/handbook/product/single-application) that
 allows developers to invent, create, and deploy modern applications.
 
-We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/concurrent-devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
+We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
 
 We work in a very unique way at GitLab, where flexibility and independence meet
 a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
@@ -446,7 +446,7 @@ We're looking for product managers that can help us work on the future of develo
 
 ### Verify (CI)
 
-As a Senior Product Manager in the [Verify Stage](/handbook/product/categories/verify/), you will be directly responsible for the [direction](https://about.gitlab.com/direction/verify/) of a large and important scope in DevOps. Specifically, building out continuous integration (CI), code quality analysis, micro-service testing, usability testing, and more. This product manager owns the foundation of our DevOps product and must have a strong understanding of DevOps, CI/CD, and Release Automation. A practical understanding of container technologies including Docker and Kubernetes will come in handy as this role will reach across various groups to ensure we are building scalable, maintainable, and performant solutions.
+As a Senior Product Manager in the [Verify Stage](/handbook/product/categories/#verify-stage), you will be directly responsible for the [direction](https://about.gitlab.com/direction/verify/) of a large and important scope in DevOps. Specifically, building out continuous integration (CI), code quality analysis, micro-service testing, usability testing, and more. This product manager owns the foundation of our DevOps product and must have a strong understanding of DevOps, CI/CD, and Release Automation. A practical understanding of container technologies including Docker and Kubernetes will come in handy as this role will reach across various groups to ensure we are building scalable, maintainable, and performant solutions.
 
 #### Requirements
 
@@ -456,7 +456,7 @@ As a Senior Product Manager in the [Verify Stage](/handbook/product/categories/v
 
 ### Release (CD)
 
-We're looking for product managers that can help us work on the future of the [Release stage](https://about.gitlab.com/direction/release/) and [deployment](https://about.gitlab.com/direction/delivery/) capabilities at GitLab. The PM will work on building out continuous delivery (CD), release orchestration, features flags, and more.
+We're looking for product managers that can help us work on the future of the [Release stage](https://about.gitlab.com/direction/delivery/) and [deployment](https://about.gitlab.com/direction/delivery/) capabilities at GitLab. The PM will work on building out continuous delivery (CD), release orchestration, features flags, and more.
 
 #### Requirements
 
@@ -521,7 +521,7 @@ We're looking for product managers who can help us empower our users to leverage
 
 ### Product Intelligence
 
-Are you a PM who loves data? Are you interested in being at the nexus of GitLab's internal product data AND our building out of tools that enable our customers to derive insights from their product usage data? We're looking for a product manager to join our [Analytics section](https://about.gitlab.com/direction/analytics/) who can help us mature our product usage data set to enable better decision making across the entire company while also building on top of GitLab's built in Product Analytics capabilities to complete the [outer DevOps loop](https://about.gitlab.com/blog/2021/01/20/journey-to-the-outer-loop/).
+Are you a PM who loves data? Are you interested in being at the nexus of GitLab's internal product data AND our building out of tools that enable our customers to derive insights from their product usage data? We're looking for a product manager to join our [Analytics section](https://about.gitlab.com/direction/monitor/) who can help us mature our product usage data set to enable better decision making across the entire company while also building on top of GitLab's built in Product Analytics capabilities to complete the [outer DevOps loop](https://about.gitlab.com/blog/2021/01/20/journey-to-the-outer-loop/).
 
 #### Requirements
 
@@ -704,7 +704,7 @@ We're looking for a product manager to drive the roadmap for portfolio managemen
 
 ### ModelOps (Anti-abuse)
 
-We're looking for a Product Manager to drive the roadmap for [Anti-Abuse](https://about.gitlab.com/direction/anti-abuse/) at GitLab! Your goal is to help GitLab protect our flagship SaaS product, GitLab.com and self-managed customer instances from abuse and misuse. You'll help eradicate fake accounts, proactively identify and remove bad actors, and help GitLab better understand our legitimate users. This role will directly protect the stability, performance, and scalability of GitLab for millions of users across the world ensuring they can effectively use GitLab for their daily development needs.
+We're looking for a Product Manager to drive the roadmap for [Anti-Abuse](https://about.gitlab.com/direction/software_supply_chain_security/) at GitLab! Your goal is to help GitLab protect our flagship SaaS product, GitLab.com and self-managed customer instances from abuse and misuse. You'll help eradicate fake accounts, proactively identify and remove bad actors, and help GitLab better understand our legitimate users. This role will directly protect the stability, performance, and scalability of GitLab for millions of users across the world ensuring they can effectively use GitLab for their daily development needs.
 
 #### Requirements
 
@@ -717,7 +717,7 @@ We're looking for a Product Manager to drive the roadmap for [Anti-Abuse](https:
 
 ### ModelOps (MLOps)
 
-We're looking for a Product Manager to drive the roadmap for [MLOps](https://about.gitlab.com/direction/modelops/mlops) at GitLab! This group is focused on enabling GitLab users to build and run data science workloads across [GitLab's One DevOps Platform](https://about.gitlab.com/stages-devops-lifecycle/). This individual will lead an expansion of GitLab's [core personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas) to address the needs of data science teams and will work cross-functionality with [other GitLab stages](/handbook/product/categories/#devops-stages) to ensure our platform supports ML/AI workloads and drive our [core differentiators](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#top-3-gitlab-differentiators) for ML/AI use cases. This individual will be responsible for developing new revenue-generating products and enhancing existing product features used by millions of users across the world.
+We're looking for a Product Manager to drive the roadmap for [MLOps](https://about.gitlab.com/direction/modelops/mlops/) at GitLab! This group is focused on enabling GitLab users to build and run data science workloads across [GitLab's One DevOps Platform](https://about.gitlab.com/stages-devops-lifecycle/). This individual will lead an expansion of GitLab's [core personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas) to address the needs of data science teams and will work cross-functionality with [other GitLab stages](/handbook/product/categories/#devops-stages) to ensure our platform supports ML/AI workloads and drive our [core differentiators](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#top-3-gitlab-differentiators) for ML/AI use cases. This individual will be responsible for developing new revenue-generating products and enhancing existing product features used by millions of users across the world.
 
 #### Requirements
 

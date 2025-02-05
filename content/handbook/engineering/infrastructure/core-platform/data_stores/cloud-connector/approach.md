@@ -33,7 +33,7 @@ that's faster is conjecture, not verification, and it means that we might be inc
 or reduce readability without actually getting any meaningful performance gains.
 
 Preemptive performance optimizations should be considered "guilty until proven innocent".
-The Ruby on Rails project even [encodes this in their issue templates](https://github.com/rails/rails/blob/master/guides/bug_report_templates/benchmark.rb).
+The Ruby on Rails project even [encodes this in their issue templates](https://github.com/rails/rails/blob/main/guides/bug_report_templates/benchmark.rb).
 We should strive for a similar approach to verifying performance hypotheses.
 
 ### Identify the source of the problem

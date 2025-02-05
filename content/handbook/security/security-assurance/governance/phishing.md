@@ -4,8 +4,8 @@ title: "Phishing Program"
 
 {{% alert color="danger" title="Alert" %}}
 If you suspect you've received a phishing email and have not engaged with the sender, please see: [What to do if you suspect an email is a phishing attack](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack).
-If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the Security Engineer on-call]({{< ref "engaging-security-on-call#phishing" >}}).
-Further information on GitLab's security response program is described in our [Incident Response]({{< ref "sec-incident-response" >}}) guide.
+If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the Security Engineer on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/#phishing).
+Further information on GitLab's security response program is described in our [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) guide.
 {{% /alert %}}
 
 ## Phishing Program
@@ -41,7 +41,7 @@ The phishing simulation email from ProofPoint will appear as though it is origin
 
 Just like with any suspected phishing or malicious email, follow the [handbook process](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) for reporting suspected phishing emails.  The preference for reporting phishing emails is Option 1 via PhishArm.
 
-![PhishArm icon](/images/PhishArm.png)
+![PhishArm icon](/images/security/security-assurance/governance/PhishArm.png)
 
 #### What happens if I click the link?
 
@@ -51,7 +51,7 @@ In the event the link is clicked, the team member will be redirected to a landin
 
 Our phishing partner, ProofPoint, curates and hosts the training modules which will be assigned upon when the link is clicked. The training is designed to reinforce and provide real world examples of detecting and reporting phishing. We highly encourage you to complete the training soon after being received as this will help to reinforce and better prepare you to spot phishing attempts in the future. The training modules are short and interactive and will be coming from awareness@securityeducation.com.
 
-![Training assignment](/handbook/security/security-assurance/images/GitLabSecurityPhishingTraining.png)
+![Training assignment](/images/security/security-assurance/GitLabSecurityPhishingTraining.png)
 
 If the training is not completed within 1 week, a reminder will be sent from ProofPoint. If required, the Security Governance team will communicate incomplete assigned training modules to managers for assistance with completion.  Demonstration of completed training supports compliance with the Phishing program and will strengthen our regulatory requirements.
 
@@ -75,7 +75,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 
 *I didn't click the link in the email, what do I do?*
 
-- Please forward the email via the <img alt="PhishArm button" src="/handbook/security/security-assurance/images/PhishArm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
+- Please forward the email via the <img alt="PhishArm button" src="/images/security/security-assurance/governance/PhishArm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
 
 *I got assigned training without clicking the link in the email, what do I do?*
 
@@ -137,7 +137,7 @@ If you hover your mouse cursor over a link in Google Chrome it will show you
 the link destination in the status bar at the bottom left corner of your browser
 window.
 
-![Hover Example](/handbook/security/security-assurance/images/hover-status-bar-example-chrome.png)
+![Hover Example](/images/security/security-assurance/hover-status-bar-example-chrome.png)
 
 In Safari the status bar must be enabled to view the true link destination
 (View -> Show Status Bar).
@@ -148,19 +148,19 @@ phishing forms include:
 - Using HTTP(S) with a hostname that begins with the name of a trusted
 site but ends with a malicious site.
 
-![Malicious Domain](/handbook/security/security-assurance/images/malicious-domain.png)
+![Malicious Domain](/images/security/security-assurance/malicious-domain.png)
 
 - Using a username or password inside the request that corresponds to the name
 of a trusted domain and assuming the viewer won't view the whole URL.
 
-![Trick Username](/handbook/security/security-assurance/images/username-password.png)
+![Trick Username](/images/security/security-assurance/username-password.png)
 
 - Using a data URI scheme instead of HTTP(S) is a particularly devious means of
 tricking users. Data schemes allow the embedding of an entire web page inside
 the URI itself. Data schemes will not show the typical green lock in the address
 bar of a browser that is customarily associated with a verified SSL connection.
 
-![Data Scheme](/handbook/security/security-assurance/images/data-scheme.png)
+![Data Scheme](/images/security/security-assurance/data-scheme.png)
 
 When viewing the source of an HTML email it is important to remember that the
 text inside the "HREF" field is the actual link destination/target and the text
@@ -176,7 +176,7 @@ that signify a validated SSL service. This icon alone is not enough to verify th
 authenticity of a website, however the lack of the green icon does mean you
 should never enter sensitive data into that website.
 
-![Green Lock Example](/handbook/security/security-assurance/images/green-lock-example.png)
+![Green Lock Example](/images/security/security-assurance/green-lock-example.png)
 
 ### What to do if you suspect an email is a phishing attack
 
@@ -203,7 +203,7 @@ To submit an email via PhishArm to GitLab's Security Team using Gmail:
 1. Confirm you are ready to report the Phishing email
 1. Receive a confirmation that the email has been forwarded to GitLab Security Team for further investigation.
 
-![PhishArm](/images/PhishArm-Use.png)
+![PhishArm](/images/security/security-assurance/governance/PhishArm-Use.png)
 
 #### Manual submission of phishing email to `phishing@gitlab.com`
 
@@ -220,7 +220,7 @@ The CEO (and Executive team) will not send you an email to wire cash, or a text 
 What should you do if you receive a potential phishing email or text [\(smishing\)](https://www.proofpoint.com/us/threat-reference/smishing) from GitLab's CEO?
 
 1. If you are unsure whether the text or email is legitimate, contact [Security]({{< ref "." >}}) to review, and confirm via the #ceo Slack channel.
-1. If the email is determined to be fake, follow the instructions for [phishing attacks]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}) below.
+1. If the email is determined to be fake, follow the instructions for [phishing attacks](/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
 
 - If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
@@ -235,14 +235,14 @@ If a person on LinkedIn claims to work at GitLab:
 1. Look up their name on Workday, which is our Single Source of Truth for current team members. Note that alumni and those who have not yet joined GitLab will not appear in Workday.
 
 If you believe that the profile has inaccurate information, [report inaccurate information on another member's LinkedIn profile](https://www.linkedin.com/help/linkedin/answer/a1337291). If the user reaches out to you with a suspicious work-related message please
-[use the `/security` Slack command]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
+[use the `/security` Slack command](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 
 ### What to do if you suspect something else is suspicious
 
 Phishing and other social engineering attacks aren't only sent via email.
 You might receive a suspicious text / SMS message, a weird Direct Message on social
 media platforms like LinkedIn, or a phone call. If it's work related, please
-[use the `/security` Slack command]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
+[use the `/security` Slack command](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 Even if you're unsure or it feels insignificant, you can always ask in the #security Slack channel.
 
 ### Additional Questions, Comments, Concerns?

@@ -53,7 +53,7 @@ using throughout.
 ### 1Password guidelines
 
 1. If you install the macOS application, install 1Password via this link
-[1Password](https://1password.com/downloads/mac/)
+[1Password](https://1password.com/downloads/mac)
 1. If you have a YubiKey, it can be added as a 2-factor
 method to your 1Password account for convenience.
 1. When traveling, consider using 1Password in "Travel Mode", see more on that [below](#travel-mode).
@@ -124,7 +124,7 @@ If you saved it as a digital PDF file:
 1. Open the PDF file with the scanner by clicking on the camera icon
 
 <div style="text-align:center;">
-  <img src="../1password-setup-open-file-dialog.png" alt="Open PDF file with scanner by clicking on camera icon" width="700"/>
+  <img src="/images/security/1password-setup-open-file-dialog.png" alt="Open PDF file with scanner by clicking on camera icon" width="700"/>
 </div>
 <br>
 
@@ -151,7 +151,7 @@ may have access to others.
 Click the **Vault Selector** in the upper-left corner of the window:
 
 <div style="text-align:center;">
-  <img src="../1password-vault-selector.png" alt="Vault Selector" width="700"/>
+  <img src="/images/security/1password-vault-selector.png" alt="Vault Selector" width="700"/>
 </div>
 <br>
 
@@ -177,14 +177,14 @@ With the extension installed, you should be able to go to a site that you have
 credentials stored for in 1Password and log in:
 
 <div style="text-align:center;">
-  <img src="../1password-login.gif" alt="Mailchimp Login" width="450"/>
+  <img src="/images/security/1password-login.gif" alt="Mailchimp Login" width="450"/>
 </div>
 
 If you don't see the site listed in the results window, make sure you're using
 the correct vault:
 
 <div style="text-align:center;">
-  <img src="../1password-vault-change.gif" alt="Vault switching" width="450"/>
+  <img src="/images/security/1password-vault-change.gif" alt="Vault switching" width="450"/>
 </div>
 
 ### Saving logins
@@ -193,7 +193,7 @@ When 1Password detects a login form submission, it may ask if you want to save
 the login with a dialog like this:
 
 <div style="text-align:center;">
-  <img src="../1password-save-login.png" alt="Save login" width="600"/>
+  <img src="/images/security/1password-save-login.png" alt="Save login" width="600"/>
 </div>
 
 If you do want to save it, make sure the appropriate **Vault** is selected
@@ -212,9 +212,9 @@ Even though these secrets have a limited scope of access, it's still best practi
 Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
 For a more secure approach, use 1Password's CLI utility which can help manage local secrets securely.
 
-[1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
+[1Password CLI integration](https://developer.1password.com/docs/cli/) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
-To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
+To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
@@ -228,7 +228,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
  and add a field `api`. Insert the value of your PAT into the newly created field `api`.
 
 <div style="text-align:center;">
-  <img src="../1pass-pat-setup.png" alt="Save login" width="600"/>
+  <img src="/images/security/1pass-pat-setup.png" alt="Save login" width="600"/>
 </div>
 
 - Store a secret reference to the access token in an `.env` file.
@@ -311,13 +311,13 @@ To enable TOTP for a saved account:
 1. Select **One-Time Password**
 
 <div style="text-align:center;">
-  <img src="../1password-otp.png" alt="One-time password field type" width="600"/>
+  <img src="/images/security/1password-otp.png" alt="One-time password field type" width="600"/>
 </div>
 
 1. Click QR code icon that appeared
 
 <div style="text-align:center;">
-  <img src="../1password-qrcode.png" alt="1password QR Code" width="600"/>
+  <img src="/images/security/1password-qrcode.png" alt="1password QR Code" width="600"/>
 </div>
 
 1. Scan QR code using the transparent window
@@ -345,14 +345,14 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 
 <div style="text-align:center;">
-  <img src="../PasskeyAlert.png" alt="You may see something like the image below" width="700"/>
+  <img src="/images/security/PasskeyAlert.png" alt="You may see something like the image below" width="700"/>
 </div>
 <br>
 
 At that point, the key pairing is created and 1Password will use this method of sign in going forward. Note, not all sites are supported at this time. If you're curious about setting this up on a site you use, you can always open 1Password, select that login tab, and see if the "Passkey Available" notification is showing.
 
 <div style="text-align:center;">
-  <img src="../PasskeyAvailable.png" alt="notification is showing. width="700"/>
+  <img src="/images/security/PasskeyAvailable.png" alt="notification is showing. width="700"/>
 </div>
 <br>
 
@@ -387,7 +387,7 @@ one of our developers, uses 1Password:
 > the idea:
 
   <div style="text-align:center;">
-    <img src="../1password-teams-login.png" alt="Teams Login" width="560px"/>
+    <img src="/images/security/1password-teams-login.png" alt="Teams Login" width="560px"/>
   </div>
 
 ### Traveling with 1Password{#travel-mode}
@@ -407,7 +407,7 @@ For more information on Travel Mode and how it works, see the [AgileBits blog](h
 
 ### Securing Docker Registry User Credentials
 
-Docker can store user credentials in an [external credential store](https://docs.docker.com/engine/reference/commandline/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
+Docker can store user credentials in an [external credential store](https://docs.docker.com/reference/cli/docker/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
 
 #### Using `osxkeychain` (macOS)
 
@@ -419,7 +419,7 @@ To configure Docker to use `osxkeychain` for secure credential storage, follow t
     brew install docker-credential-helper
     ```
 
-1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {
@@ -444,7 +444,7 @@ To configure Docker to use `pass` for secure credential storage, follow these st
 1. Move the `docker-credential-pass` binary to your `$PATH` (e.g., `sudo mv docker-credential-pass-v0.8.0.linux-amd64 /usr/local/bin/docker-credential-pass`).
 1. Obtain and copy the GPG key ID that `pass` will use for encryption via `gpg --list-secret-keys --keyid-format LONG`.
 1. Initialize `pass` with `pass init <gpg-key-id>`.
-1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {

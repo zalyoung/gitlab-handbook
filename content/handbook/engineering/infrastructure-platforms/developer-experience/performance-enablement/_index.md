@@ -83,9 +83,9 @@ flowchart TD
 
 ## Common Links
 
-| S.No     | Section                   |
-|------    |-------------------------|
-| **GitLab Team Handle** | [`@gl-quality/dx-performance-enablement`](https://gitlab.com/gl-quality/dx-performance-enablement) |
+| S.No     | Section                                                                                                             |
+|------    |---------------------------------------------------------------------------------------------------------------------|
+| **GitLab Team Handle** | [`@gl-dx/performance-enablement`](https://gitlab.com/gl-dx/dperformance-enablement)                               |
 | **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/8955771?label_name[]=team%3A%3Aperformance%20enablement) |
 
 Engineers in this team support Performance Enablement projects.
@@ -156,18 +156,16 @@ Project management links
 
 #### Status Updates
 
-Every Wednesday, the DRI for a project epic is expected to update the status block in the epic description to:
+* By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
+  * Format for weekly update:
+    * Date of Update (YYYY-MM-DD)
+    * Brief update (~sentence or couple bullets) for each of these four bullets:
+      * Status update - Progress has been updated to X %.
+      * What was done :white_check_mark: - Unblocked blockers, any other progress achieved
+      * Next steps :construction_worker:
+      * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
+* ASYNC weekly epic status updates
 
-1. Indicate any project blockers.
-1. Briefly highlight progress since the last update.
-1. Indicate planned next steps, or mitigations required to progress.
+#### Performance Enablement in Distribution group
 
-This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
-
-## Team history
-
-The Performance Enablement team came to be after the transformation from Test Platform sub department to Developer Experience sub department. The team was last known as the Self-Managed Platform team under Test platform.
-
-1. [Year overview for 2024]( https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/3217)
-
-- [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
+[See the documentation](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)

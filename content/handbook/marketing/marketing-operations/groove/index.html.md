@@ -83,6 +83,15 @@ BDRs are able to create individual flows that must be approved by their managers
 
 ### New Sales Dev Manager Flow Approval Process (Nov 2024)
 
+**Flow Approval Full Process and Order of Events**
+
+1. BDR creates flow and submits for approval in Groove
+2. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
+3. Operations will check Flow settings, labels, and who it is shared with
+4. Operations Transfers Ownership from BDR to Manager within 24 hours
+5. Manager checks and Approves flow (Directions below)
+6. BDR can now add prospects to the flow after ownership is transferred
+
 **Mandatory Manager Approval Checks:**
 
 - Is the name of the flow inline with our naming conventions? If no, adjust it
@@ -90,7 +99,7 @@ BDRs are able to create individual flows that must be approved by their managers
   - Example: SD IB LT EMEA CONTENT GER
   - All Sales Dev flows begin with “SD”
 - Is the flow in your (the managers) ownership?
-- Have you added the flow to your team collection?
+- Should you add the flow to the testing collection (org applicable) or to your team collection?
 - Are there labels used that align to our naming convention? (Do not create new labels)
 - Is email tracking on/off for each email step?
 - Consider toggling manual steps to allow them to include their own template
@@ -112,16 +121,9 @@ BDRs are able to create individual flows that must be approved by their managers
 **Manager Recommendations:**
 
 - Come up with an intake process otherwise you will have duplicate efforts from team members and you will spend a ton of time approving flows rather than analyzing results.
+- Think if the flow you are approving should be in your team collection or would be useful for the rest of the org and should be added to the testing collection
 - Only approve LT flows for very specific reasons - include that in the description of the flow
 - Schedule recurring monthly checks of flow analytics to help with deprecation and promotion of flows
-
-**Flow Approval Full Process and Order of Events**
-
-1. BDR creates flow and submits for approval in Groove
-2. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
-3. Operations Transfers Ownership from BDR to Manager within 24 hours
-4. Manager checks and Approves flow (Directions above)
-5. BDR can now add prospects to the flow after ownership is transferred
 
 ### Sales: Flow Creation Requirements & Sharing with BDRs
 

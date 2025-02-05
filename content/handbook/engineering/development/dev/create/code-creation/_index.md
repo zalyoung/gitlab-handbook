@@ -15,8 +15,8 @@ Develop cutting-edge AI-powered tools that enhance the efficiency and creativity
 
 One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
-- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start) - GitLab Documentation
-- [Difference betwen Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
+- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
+- [Difference between Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
 - [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
 
 A lot of the terms we use in this area sound similar and can be confusing at first. Here are the basic terms we use:
@@ -79,7 +79,7 @@ The following members of other functional teams are our stable counterparts:
 | Category          | Counterpart                                                                          |
 |-------------------|--------------------------------------------------------------------------------------|
 | Product Manager   | {{< member-by-name "Jordan Janes" >}}                                                |
-| Technical Writing | {{< member-by-name "Jon Glassman" >}}                                                |
+| Technical Writing | {{< member-by-name "Leala Smith" >}}                                                |
 | UX                | {{< member-by-name "Andy Volpe" >}} (Create Stage)                                   |
 | SET               | {{< member-by-name "Jay McCure" >}} (Create Stage)                                   |
 | Support           | [TBD](/handbook/support/support-stable-counterparts/)                                |
@@ -117,7 +117,7 @@ To help get started as a developer with the Create:Code Creation team, we have c
 
 **Sync: Code Creation** - a meeting held once a week on Tuesday at 15:00 UTC to align on group priorities. If there are no points on the meeting agenda one hour before the meeting starts, that meeting is considered as canceled.
 
-All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to swtich to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to switch to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
 
 ### Weekly Status Updates
 

@@ -16,6 +16,10 @@ Our mission is to set the standard for product security by fostering a culture o
 
 Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
 
+### Product Security Risk Register
+
+Our Product Security Risk Register process details can be consulted on [this dedicated page](/handbook/security/product-security/risk-register/).
+
 ## Collaboration is Key
 
 Success in product security is not confined to PSD or even the Security Division. It requires a concerted effort across the entire GitLab ecosystem. Collaboration is crucial, involving not just our security counterparts but the broader organization. Key disciplines and capabilities, from Security Operations to Site Reliability Engineering, while not directly under PSD's purview, are vital to our strategy's success.
@@ -40,5 +44,5 @@ The Product Security sub-department includes the following teams. Learn more abo
 - [Product Security Engineering](product-security-engineering/)
 - [Vulnerability Management](vulnerability-management/)
 - [Security Research](security-research/)
-- [Security Architecture](architecture/)
+- [Security Architecture](/handbook/security/product-security/security-architecture/)
 - [Data Security](data-security/)

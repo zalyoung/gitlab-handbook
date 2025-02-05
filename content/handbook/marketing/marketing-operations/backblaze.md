@@ -5,7 +5,7 @@ description: "Backblaze is high performance cloud storage tool used by digital p
 
 ## About
 
-[Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html) is enterprise-grade, S3 compatible storage used to store and serve data.
+[Backblaze B2](https://www.backblaze.com/cloud-storage) is enterprise-grade, S3 compatible storage used to store and serve data.
 
 ## Use
 

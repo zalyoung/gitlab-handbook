@@ -9,8 +9,8 @@ Our goal is to provide Insider Threat features for your applications as well as 
 
 ## Direction
 
-- [Instance Resiliency](https://about.gitlab.com/direction/govern/anti-abuse/instance_resiliency/)
-- [Insider threat](https://about.gitlab.com/direction/govern/anti-abuse/insider_threat/)
+- [Instance Resiliency](https://about.gitlab.com/direction/software_supply_chain_security/#instance-resiliency)
+- [Insider threat](https://about.gitlab.com/direction/software_supply_chain_security/#insider-threat)
 
 ## Planning
 

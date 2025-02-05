@@ -28,7 +28,7 @@ In order to trigger this "build" action, you can use the pipeline which is acces
 
 Once you have built your changes, this means that there is a new database which you can access that contains the MR's data which you have just created. Any code changes you have made are reflected, and any table which you have made changes to are available to query!
 
-In order to access this, however, you need to grant yourself clones. If the table already exists (it is not a new table), then you can do this in the MR. You will find your pipeline, and use the "Grant Clones" job in the first step. 
+In order to access this, however, you need to grant yourself clones. If the table already exists (it is not a new table), then you can do this in the MR. You will find your pipeline, and use the "Grant Clones" job in the first step.
 Unlike when you "build changes", you cannot just press the play button to the right of the name of the job. Instead, click on the green check mark that is the first in the line, and it will open all of the available jobs at that step. Look for "Grant Clones" and click on the text (not the play button).
 
 ![Grant Clones](/images/handbook/enterprise-data/platform/tableau/grant-clones.png)

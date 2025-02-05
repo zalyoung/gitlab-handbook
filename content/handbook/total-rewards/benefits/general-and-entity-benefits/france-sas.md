@@ -73,6 +73,7 @@ To initiate your parental leave, submit your time off by selecting `Parental Lea
 - GitLab France S.A.S. team members should be aware of their applicable leave categories and can review [the requirements for logging time away from work and the suggested order for using leave balances](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#logging-time-away). (*_internally accessible only_)
 - Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** Workday in Slack.
 For all technical support inquiries or any inquiries relating to your balances in Mihi, please contact `support@mihi.info` and cc `gitlabHRSS@globalupside.com`.
+- GitLab team members are also entitled to [RTT time](/handbook/people-group/paid-time-off/#reduction-of-working-time-rtt) and we recognize this is different from PTO. Team members are responsible for ensuring that they are tracking their time accurately, both in Mihi and in Workday. When entering RTT time, team members should select the RTT time off type in Mihi, and PTO in Workday leaving a comment noting ‘RTT’.
 
 ## Sick Time
 
@@ -92,7 +93,7 @@ After the 6th month of sick leave team members have to satisfy the following con
 
 ### Sick Leave Pay
 
-The daily allowance is equal to 50% of the daily basic wage.  The gross reference wage is limited to €3,076.70 gross per month. Therefore, the daily allowance paid cannot exceed €50.58 (check [sick time policies and procedures in France](https://ec.europa.eu/social/main.jsp?catId=1110&langId=en&intPageId=4535) webpage for latest up-to-date information).
+The daily allowance is equal to 50% of the daily basic wage.  The gross reference wage is limited to €3,076.70 gross per month. Therefore, the daily allowance paid cannot exceed €50.58 (check [sick time policies and procedures in France](https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/your-rights-country-country/france_en) webpage for latest up-to-date information).
 
 GitLab's Sick Time policy will run concurrently with this benefit for the first 25 working days, "topping up" the team members salary to 100%.  After that, the sick leave will become unpaid by GitLab.
 
@@ -102,7 +103,7 @@ Team members who fall ill are required to inform GitLab as soon as possible (but
 
 If an extension is needed, team members must notify GitLab as soon as possible (but no later than 48hrs) and send an updated sheet no. 3.
 
-For more information, read about the [sick time policies and procedures in France](https://ec.europa.eu/social/main.jsp?catId=1110&langId=en&intPageId=4535).
+For more information, read about the [sick time policies and procedures in France](https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/your-rights-country-country/france_en).
 
 ## Additional Leave Types
 
