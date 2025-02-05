@@ -17,9 +17,9 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 - Experience with assistive technologies (screen readers, voice recognition software, etc.).
 - Proficiency in HTML (including ARIA roles and attributes), CSS, and JavaScript.
 - Knowledge of automated accessibility testing tools and methodologies.
-- Experience conducting manual accessibility audits.
+- Experience conducting accessibility audits and working with audits produced by others.
 - Ability to use GitLab.
-- Strong communication skills to explain technical accessibility concepts to non-technical stakeholders.
+- Strong communication skills, including ability to explain technical accessibility concepts to non-technical stakeholders.
 - Comfort working in a highly agile, iterative product development process.
 - You share our values, and work in accordance with those values.
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
@@ -37,12 +37,12 @@ The Accessibility Engineer is a [grade 6](/handbook/total-rewards/compensation/c
 
 ##### Responsibilities
 
-- **Technical Implementation**: Implement accessibility solutions using semantic HTML (including ARIA roles and attributes), CSS and JavaScript, following WCAG guidelines.
+- **Technical Implementation**: Implement accessibility solutions using semantic HTML (including ARIA roles and attributes), CSS and JavaScript, following WCAG guidelines in the GitLab product and design system.
 - **Accessibility Testing**: Conduct automated and manual accessibility testing using various tools and assistive technologies.
 - **Documentation**: Create and maintain accessibility documentation, including guidelines and best practices.
 - **Code Review**: Review code changes for accessibility compliance and provide actionable feedback.
 - **Training**: Provide basic accessibility training and guidance to UX and development teams.
-- **Bug Fixes**: Implement fixes for identified accessibility issues.
+- **Bug Fixes**: Implement fixes for identified accessibility issues in the GitLab product and design system.
 - **Standards**: Keep up-to-date with accessibility standards and emerging technologies.
 - **Collaboration**: Work with designers and engineers to ensure accessibility is considered early in the product development process.
 
@@ -65,7 +65,7 @@ Everything in the Accessibility Engineer role, plus:
 - **Technical Leadership**: Lead implementation of complex accessibility solutions and architectural decisions.
 - **Strategic Planning**: Help develop accessibility roadmaps and implementation strategies.
 - **Advanced Testing**: Design and implement comprehensive accessibility testing frameworks.
-- **Reporting**: Maintains an Accessibility Conformance Report by evaluating the product against accessibility standards and documenting conformance levels for procurement purposes.
+- **Reporting**: Maintain an Accessibility Conformance Report by evaluating the product against accessibility standards and documenting conformance levels for procurement purposes.
 - **Mentoring**: Mentor other engineers on accessibility best practices and implementation.
 - **Process Improvement**: Identify and implement process improvements for accessibility testing and development.
 - **Cross-team Collaboration**: Work across teams to ensure consistent accessibility implementation.
