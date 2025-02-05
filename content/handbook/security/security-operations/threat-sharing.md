@@ -26,7 +26,7 @@ While GitLab may disclose in a shared channel or forum threat intelligence infor
 
 If you have a question about whether threat intelligence information marked for sharing fits into one of these prohibited categories, please reach out to the Legal Team for assistance.
 
-### Dislcaimer
+### Disclaimer
 
 Please post the following disclaimer in the channels and forums where Gitlab discloses threat intelligence information to third-parties and/or Customers.
 
