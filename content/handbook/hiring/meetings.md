@@ -53,6 +53,6 @@ In addition to defining our KPIs, we have also invested in our tooling to track 
 
 Dashboards
 
-1. [Recruiting Productivity Dashboard]("https://10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/ProgresstoGoal?:iid=1")
+1. [Recruiting Productivity Dashboard]("10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/ProgresstoGoal?:iid=1")
 
-1. [Recruiter Scorecard]("https://10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/RecruiterScorecard?:iid=1")
+1. [Recruiter Scorecard]("10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/RecruiterScorecard?:iid=1")
