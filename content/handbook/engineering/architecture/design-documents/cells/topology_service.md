@@ -154,8 +154,6 @@ flowchart TD
    more bits are reserved to have the sequence bits at minimum.
 - **Sequence**:
   - Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
-    - At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
-      the legacy cell and new non-QA cells will have sufficient IDs to grow into.
   - Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
 
 Example `config.toml` of Topology Service:
@@ -196,17 +194,26 @@ status = "active"
   - offline: Cell is valid but not accepting traffic and is still part of cluster discovery.
   - removed: Cell is removed and will never be active again.
 
-Once the cell gets `removed`, we will update the `sequence_ranges` with the _maxval_ consumed by the cell.
+Once the cell gets `removed`, we will update `sequence_range` with the _maxval_ consumed by the cell.
 So that if a normal cell gets removed (decommissioned), new QA cells can get IDs from those unused IDs (if it's more than 1 billion).
 
-NOTES:
+##### Sequence Saturation
 
-1. The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
-   - To support Cells 2.0 (i.e: allow moving organizations from
-     Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
-     Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
-     and it is estimated to take around 12 months.
-2. As mentioned before, only QA cells might need more IDs. In that case we can monitor the cell's ID consumption and provide an additional range of 1 billion IDs (from currentMaxId).
+At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
+the legacy cell and new non-QA cells will have sufficient IDs to grow within their sequence_range.
+
+QA cells might need more IDs as they are given 1 billion IDs. Cells sequence data are monitored regularly,
+and TS can provide an additional 1 billion IDs (from currentMaxId) to the cell, if their consumption is over 99%.
+
+[Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) handles this.
+
+NOTE:
+
+- The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
+  - To support Cells 2.0 (i.e: allow moving organizations from
+  Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
+  Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
+  and it is estimated to take around 12 months.
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
