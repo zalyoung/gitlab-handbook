@@ -39,7 +39,7 @@ This process addresses escalations for CSM-assigned customers. This process can 
 
 Based on the level of the escalation, the DRI for the escalation will be:
 
-1. CSM will be the DRI for account escalations
+1. CSM will be the DRI for account escalations (except otherwise agreed with Support)
 2. The Professional Services Project Manager for any escalation during/as a part of a professional services project
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:

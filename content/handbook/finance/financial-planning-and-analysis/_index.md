@@ -323,7 +323,7 @@ The close timeline for each quarter follows the timeline above for monthly close
 
 #### Quarterly Earnings Process
 
-As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. The purpose, timeline, and deliverables can be found on our Investor Relations page [here]({{< ref "../investor-relations" >}}).
+As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. The purpose, timeline, and deliverables can be found on our Investor Relations page [here](../investor-relations/).
 
 ---
 
@@ -535,7 +535,7 @@ The inputs loaded into Adaptive are then used to provide the CFO a weekly P&L sn
 
 ## Expense Controls
 
-1. The primary mechanism to ensure efficient spend of company assets is the [Procure to Pay]({{< ref "../procurement" >}}) process, and specifically completion of the [vendor and contract approval workflow]({{< ref "../procurement" >}}) prior to authorization. The procurement team or your finance business partner can assist with questions related to this process.
+1. The primary mechanism to ensure efficient spend of company assets is the [Procure to Pay](../procurement/) process, and specifically completion of the [vendor and contract approval workflow](../procurement/) prior to authorization. The procurement team or your finance business partner can assist with questions related to this process.
 
 1. The second mechanism is the budget vs actual review to determine reasons for variances vs plan. See the section on [Variance Meeting with CFO](#variance-meeting-with-cfo)
  and [Variance Analysis](#variance-and-flux-analysis).

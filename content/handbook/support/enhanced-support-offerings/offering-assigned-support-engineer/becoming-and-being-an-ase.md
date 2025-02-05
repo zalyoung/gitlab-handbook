@@ -10,8 +10,8 @@ description: Information about the ASE role for new and potential ASEs
 The first thing to do if you're contemplating a move to an ASE role is to take
 a look at two topics on the Support Engineer job family page in the Handbook:
 
-1. [The ASE role](/handbook/job-families/engineering/support-engineer/#the-ase-role)
-1. [What is it like to be an ASE (video)](/handbook/job-families/engineering/support-engineer/#what-is-it-like-to-be-an-ase)
+1. [The ASE role](/job-families/engineering/support-engineer/#the-ase-role)
+1. [What is it like to be an ASE (video)](/job-families/engineering/support-engineer/#what-is-it-like-to-be-an-ase)
 
 You might also find it helpful to review the
 [ASE performance factor worksheet template](LINK COMING SOON)

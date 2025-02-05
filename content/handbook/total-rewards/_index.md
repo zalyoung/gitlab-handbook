@@ -4,19 +4,19 @@ title: GitLab's Guide to Total Rewards
 
 {{% cardpane %}}
 {{% card header="**Compensation**" %}}
-**Why:** [Our Compensation Principle]({{< ref "compensation#gitlabs-compensation-principles" >}})
+**Why:** [Our Compensation Principle](/handbook/total-rewards/compensation/#gitlabs-compensation-principles)
 
-**What:** [Compensation Calculator Inputs]({{< ref "compensation-calculator" >}})
+**What:** [Compensation Calculator Inputs](/handbook/total-rewards/compensation/compensation-calculator/)
 
-**How:** [Compensation Review Cycle]({{< ref "compensation-review-cycle" >}})
+**How:** [Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/)
 {{% /card %}}
 
 {{% card header="**Benefits**" %}}
-**Why:** [Our Benefits Principle]({{< ref "benefits#guiding-principles" >}})
+**Why:** [Our Benefits Principle](/handbook/total-rewards/benefits/#guiding-principles)
 
 **What:** [General Benefits]({{< ref "general-and-entity-benefits#general-benefits" >}})
 
-**How:** [Global Benefits Survey]({{< ref "benefits-survey#global-benefits-survey" >}})
+**How:** [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/#global-benefits-survey)
 {{% /card %}}
 
 {{% card header="**Equity**" %}}
@@ -38,7 +38,7 @@ title: GitLab's Guide to Total Rewards
 | Denise Parsonage| Director, Global Benefits Strategy|
 | Raisha Kole | Senior Benefits Program Manager |
 | Vanessa Crisostomo | Senior Benefits Analyst |
-| Morgan Wilkins | Manager, Compensation | 
+| Morgan Wilkins | Manager, Compensation |
 | Shahrukh Talat | Compensation Analyst |
 | Ari Weir | Compensation Partner, GTM |
 | Mike Kitlas | Compensation Partner, R&D |

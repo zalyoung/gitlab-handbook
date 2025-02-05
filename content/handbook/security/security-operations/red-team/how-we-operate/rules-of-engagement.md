@@ -4,7 +4,7 @@ title: "Red Team Rules of Engagement"
 
 This page outlines the general rules that apply to all work conducted by the Red Team. Individual operations may include additional rules defined during planning stages.
 
-Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn more about our team and what we do.
+Please refer to [our general handbook page](_index.md) to learn more about our team and what we do.
 
 ## Systems in Scope
 
@@ -91,7 +91,7 @@ As security professionals, we aim to be ethical in every engagement while mainta
 
 The Red Team may discover and exploit vulnerabilities during an engagement. These will not always be reported immediately to SIRT, as we want to provide a realistic opportunity to detect and respond to that exploitation.
 
-If a vulnerability is exposed that meets the following criteria, we will document the issue and follow [the process to engage SIRT]({{< ref "sec-incident-response#engaging-sirt" >}}) immediately:
+If a vulnerability is exposed that meets the following criteria, we will document the issue and follow [the process to engage SIRT](/handbook/security/security-operations/sirt/engaging-security-on-call/) immediately:
 
 - Vulnerability is exposed publicly
 - Vulnerability is realistically exploitable
@@ -105,7 +105,7 @@ If we ever suspect an impact to production, we will do the following:
 
 1. Suspend any activities related to the impact
 1. Immediately inform everyone defined as a "trusted participant" for the operation
-1. If a security incident is required, [engage SIRT]({{< ref "sec-incident-response#engaging-sirt" >}})
+1. If a security incident is required, [engage SIRT](/handbook/security/security-operations/sirt/engaging-security-on-call/)
 1. If an infrastructure incident is required, [engage the on-call SRE](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 1. Perform a proper [root cause analysis](/handbook/engineering/root-cause-analysis/) following resolution of the incident
 

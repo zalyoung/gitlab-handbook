@@ -7,7 +7,7 @@ title: JiHu Security Review Process
 In order to make sure that a release with JiHu contributions can be certified, members of the AppSec team
 need to perform a security review of any JiHu contribution and explicitly approve them.  The JiHu team will be contributing code to
 [a number of repositories]({{< ref "jihu-support#projects" >}}).
-These contributions will be [auto labeled]({{< ref "jihu-contribution-process#jihu-contribution-identification" >}}) with the `JiHu contribution` label.
+These contributions will be [auto labeled](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-contribution-process/#jihu-contribution-identification) with the `JiHu contribution` label.
 
 ```mermaid
 graph TD

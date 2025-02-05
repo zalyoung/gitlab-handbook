@@ -18,9 +18,9 @@ Navigate to career development resources located throughout the GitLab handbook:
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
-    <a href="{{< ref "career-development#tracking-your-progress" >}}" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
-    <a href="{{< ref "career-development#having-career-conversations" >}}" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
-    <a href="{{< ref "structure#job-frameworks" >}}" class="btn btn-primary" style="margin:5px;">Job Frameworks</a>
+    <a href="/handbook/people-group/learning-and-development/career-development/#tracking-your-progress" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
+    <a href="/handbook/people-group/learning-and-development/career-development/#having-career-conversations" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
+    <a href="/handbook/company/structure/#job-frameworks" class="btn btn-primary" style="margin:5px;">Job Frameworks</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/igp" class="btn btn-primary" style="margin:5px;">How to use the IGP</a>
   </div>
 </div>
@@ -30,13 +30,13 @@ Navigate to career development resources located throughout the GitLab handbook:
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="margin:5px;">Mentorship</a>
-    <a href="{{< ref "internship-for-learning" >}}" class="btn btn-primary" style="margin:5px;">Internship for Learning</a>
+    <a href="/handbook/people-group/learning-and-development/internship-for-learning/" class="btn btn-primary" style="margin:5px;">Internship for Learning</a>
     <a href="https://docs.google.com/presentation/d/1yY0ofMGgzN07ylTAnRP5geFnWcgUYkiVlcIyR54tpD0/edit#slide=id.g29a70c6c35_0_68" class="btn btn-primary" style="margin:5px;">Career Development Workshop</a>
-    <a href="{{< ref "coaching" >}}" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
+    <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
     <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
-    <a href="{{< ref "self-paced-learning#linux-foundation-courses" >}}" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
-    <a href="{{< ref "self-paced-learning#oreilly-learning" >}}" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
-    <a href="{{< ref "self-paced-learning#gcp-learning" >}}" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses)" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#oreilly-learning)" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#gcp-learning)" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationscourses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#conferences-and-live-workshops" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
@@ -68,7 +68,7 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
     <a href="/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
-    <a href="{{< ref "security-shadow" >}}" class="btn btn-primary" style="margin:5px;">Security Team Shadow</a>
+    <a href="/handbook/security/security-shadow/" class="btn btn-primary" style="margin:5px;">Security Team Shadow</a>
     <a href="https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Shadow%20Program.md" class="btn btn-primary" style="margin:5px;">Support Team Shadow</a>
   </div>
 </div>
@@ -134,7 +134,7 @@ Looking for a step-by-step guide on filling out the IGP? Use the resources below
 <div class="flex-row" markdown="0">
   <div>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/how-to-use-the-gitlab-individual-growth-plan-igp" class="btn btn-primary" style="margin:5px;">Short Course: How to use the IGP</a>
-    <a href="{{< ref "igp-guide" >}}" class="btn btn-primary" style="margin:5px;"> Handbook: The GitLab IGP Guide </a>
+    <a href="[igp-guide](/handbook/people-group/learning-and-development/career-development/igp-guide/)" class="btn btn-primary" style="margin:5px;"> Handbook: The GitLab IGP Guide </a>
     <a href="https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#" class="btn btn-primary" style="margin:5px;">Workday User Guide: Individual Growth Plans</a>
   </div>
 </div>
@@ -149,7 +149,7 @@ Watch: interview with a GitLab team member who's used the Individual Growth Plan
 1. Fill out the IGP in Workday. Refer to the [job frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) and your [job family](/job-families/) to determine a skill and behavior focus. Give yourself time to think, plan, and fill out your IGP. Set learning blocks over the next 1-2 weeks rather than completing the IGP in one sitting.
 1. Submit your IGP to your manager. Schedule a career conversation with your manager and review your IGP in your next 1:1 or at a separate time.
 1. Make a plan that integrates working on your IGP during the flow of work by setting aside weekly or monthly time dedicated to learning. Block these times on your calendar.
-1. Update progress against your development goals. The IGP and [development goals in Workday](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) itself might work well for you, but if you need more structure, consider using [GitLab Epics + Issues]({{< ref "career-development#use-gitlab-epics-to-track-your-career-development" >}}) or a [health tracker in Google Sheets]({{< ref "career-development#health-tracker-growth-plan" >}}).
+1. Update progress against your development goals. The IGP and [development goals in Workday](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) itself might work well for you, but if you need more structure, consider using [GitLab Epics + Issues](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development) or a [health tracker in Google Sheets](/handbook/people-group/learning-and-development/career-development/#health-tracker-growth-plan).
 
 ### Tracking your Progress
 
@@ -227,7 +227,7 @@ Team Members: Take the [Support your team with Career Conversations course in Le
 
 Managers should support their direct reports with their professional development goals. Implement the following into a [1-1]({{< ref "1-1" >}}), team meeting, or async communication to support your team.
 
-1. Encourage team members to create an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) or use [GitLab Epics to track their career development]({{< ref "career-development#use-gitlab-epics-to-track-your-career-development" >}}).
+1. Encourage team members to create an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) or use [GitLab Epics to track their career development](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development).
 1. Utilize the [Growth & Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 1. Recommend (and model) blocking [time to learn during the work week]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}).
 1. Organize team specific and cross-functional learning communities to practice [social learning]({{< ref "learning-initiatives#social-learning-through-live-learning" >}}).
@@ -327,10 +327,10 @@ The bi-annual cadence is not required, but recommended. Some team members may pr
 
 ### Process
 
-*Please note that while managers can facilitate career development conversations with team members and help guide growth plans by using our [internal resources]({{< ref "career-development#career-mapping-and-development" >}}),  managers cannot complete the acknowledgement process for team members.*
+*Please note that while managers can facilitate career development conversations with team members and help guide growth plans by using our [internal resources](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development),  managers cannot complete the acknowledgement process for team members.*
 
 - This is not mandatory, however we highly encourage all team members to discuss their career goals with their manager.
-- There is not one right way to document a career development conversation. Some team members may use their 1:1 document to capture the conversation and actions, others may use the [tools provided above]({{< ref "career-development#career-mapping-and-development" >}}) to help guide the conversation, or a team member may use their own personal template or process to have a career development conversation.
+- There is not one right way to document a career development conversation. Some team members may use their 1:1 document to capture the conversation and actions, others may use the [tools provided above](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development) to help guide the conversation, or a team member may use their own personal template or process to have a career development conversation.
 - If you have not had a career conversation yet it is up to you to schedule a time to review and discuss with your manager.
 - If you are new to GitLab the recommendation is that you start career conversations after your first 90 days.
 - Career conversations should not be confused with promotion conversations. Team members who do not want to increase their scope of work or be promoted, but are performing, should not feel pressured to move up or out. Career conversations can also focus on helping team members identify projects or other activities that keep the team member engaged and learning new skills. *Please note that development can also include lateral moves, or moving to another specialty within the same job family and job level.*

@@ -227,6 +227,10 @@ When changing the name of a group, create a merge request to change the group na
 using the [Group-Stage-Category-Change](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Group-Stage-Category-Change.md) template,
 and make sure to complete all the steps in the template.
 
+When changing the team tags, such as `be_team_tag`, ensure that each team member's individual `data/team_members/person/` YAML has the relevant `departments` entry updated. Alternatively, if the team tag is missing, add the tag under the list of `departments` as the second or lower entry. The first `departments` entry is controlled by the Workday sync and will be overwritten.
+
+When deciding on the naming, ensure that each team tag is unique. For example, `sre_team_tag` should have a different value compared to `be_team_tag`. If they are the same, then all team members with the tag with be displayed, duplicating the list for BE and SRE.
+
 ### Changing category name
 
 When changing an existing category name, there are some considerations to the order of events:

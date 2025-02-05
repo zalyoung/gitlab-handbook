@@ -61,15 +61,15 @@ Welcome them back! Whether your team member was gone for several months, or just
 1. Check-in routinely with your team members to ensure they are receiving the appropriate level of support as they transition back to work recognizing that there will be a period of readjustment and personal and professional reflection.
     - Check-ins should be done on a regular cadence: 1st day, 1st week, 2 weeks, 1 month, 2-3 months, etc.
     - If the transition seems to be progressing differently than anticipated, you can reach out to your People Business Partner or Team Member Relations for support.
-    - Team members have access to [Modern Health]({{< ref "modern-health" >}}) if needed.
+    - Team members have access to [Modern Health](/handbook/total-rewards/benefits/modern-health/) if needed.
 
 ## General Guidelines For Managers on Resource Allocation
 
 If you have a team member going out on parental leave, a common question might be "how should I reallocate their tasks and output while they are out?" Below are general guidelines for managers based on the length of leave taken by the team member. **Note** - local law supersedes these guidelines where applicable:
 
 - Leave less than 1 month: Use internal resources.
-- Leave less than 6 months: Use internal resources who may be eligible for an [interim bonus]({{< ref "compensation#compensation-for-interim-roles" >}}), and/or consider hiring a temporary contractor
-- Leave longer than 6 months: Use internal resources who may be eligible for an [interim bonus]({{< ref "compensation#compensation-for-interim-roles" >}}), hire a temporary contractor.
+- Leave less than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-acting-and-interim-roles), and/or consider hiring a temporary contractor
+- Leave longer than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-acting-and-interim-roles), hire a temporary contractor.
 - Leave longer than 1 year: Consider a backfill ensuring there will be a similar (level, scope, etc) role for the person when they return.
 
 ## Parental Leave Reentry Buddies
@@ -164,4 +164,4 @@ If you have any feedback about your parental leave experience for the People gro
 
 ---
 
-Return to the main [GitLab Benefits page]({{< ref "benefits" >}}).
+Return to the main [GitLab Benefits page](/handbook/total-rewards/benefits/).

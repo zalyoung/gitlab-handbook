@@ -26,7 +26,7 @@ The program was awarded a Gold Excellence in Leadership Development by the [Bran
 
 If you plan to participate in the Manager Challenge, please discuss with your manager. Let them know you are interested and will be dedicating the three weeks to actively participating. This is not like the [CEO Shadow program](/handbook/ceo/shadow), but the Manager Challenge will **require a heavy time investment**. If you plan to participate, try to do everything you can to block one to two hours each day during the program. This is an intensive program with the goal of covering a lot of material in a short amount of time to increase knowledge retention. **There will be more synchronous activities, less async, this challenge due to feedback from past participants.**
 
-Make the program part of your [career development]({{< ref "career-development" >}}), and include in your [Individual Growth Plan]({{< ref "career-development#internal-resources-1" >}}).
+Make the program part of your [career development](/handbook/people-group/learning-and-development/career-development/), and include in your [Individual Growth Plan]({{< ref "career-development#internal-resources-1" >}}).
 
 L&D is making some significant changes to the program in the meantime, but expect to dedicate at least **five to seven hours per week**. Some participants, request additional time to complete the async activities so please plan accordingly. You must attend and/or complete at least 80% of the activities to be awarded a certification.
 
@@ -119,8 +119,8 @@ Participants will also be asked to complete a program evaluation.
 Following the Manager Challenge, participants are encouraged to do the following:
 
 - Join the `#manager-challenge-alumni` [slack channel](https://app.slack.com/client/T02592416/C02PZ3E39C2)
-- Complete an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}})
-- Share learnings from the Manager Challenge on the [Manager Challenge alumni page]({{< ref "manager-challenge-alumni-page" >}})
+- Complete an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan)
+- Share learnings from the Manager Challenge on the [Manager Challenge alumni page](/handbook/people-group/learning-and-development/manager-challenge/manager-challenge-alumni-page/)
 - Create quarterly sync sessions to come together with cohort participants
 - Attend the post-program office hours on
 
@@ -189,7 +189,7 @@ The document is intended to be a starting point for managers to document where t
 1. **Is the content in the slides in the Handbook?**
     - Yes! All of the content will be in the Handbook. We are creating Google Slides to visualize the content for the challenges but all of it will live in the handbook.
 1. **What if I can't attend a Live Learning session or complete a challenge?**
-    - If you miss a challenge or live learning session you can go back and complete the challenge anytime. Each SSOT page for material covered will be linked on this page. The live learning recordings will be on the respective SSOT page (ex. the recording for the Week 3 Coaching live learning will be on the [Coaching page]({{< ref "coaching" >}})).
+    - If you miss a challenge or live learning session you can go back and complete the challenge anytime. Each SSOT page for material covered will be linked on this page. The live learning recordings will be on the respective SSOT page (ex. the recording for the Week 3 Coaching live learning will be on the [Coaching page](/handbook/leadership/coaching/)).
 1. **What if I am out of the office for part of the program?**
     - As long as you complete the challenge and let the Learning and Development know when you have completed them, it is okay to be out of the office during the program.
 1. **I'm not a Manager, can I still participate?**

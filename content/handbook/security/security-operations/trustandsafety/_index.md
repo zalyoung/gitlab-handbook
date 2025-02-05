@@ -5,7 +5,7 @@ description: "GitLab.com Trust & Safety Team Overview"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-The Trust and Safety team is a sub department of the Security Team at GitLab that forms part of the [Security Operations](/handbook/security/security-operations) subdepartment in [Security](/handbook/security) at GitLab Inc and are tasked with the mitigation of [Abuse on gitlab.com]({{< ref "abuse-on-gitlab-com" >}}).
+The Trust and Safety team is a sub department of the Security Team at GitLab that forms part of the [Security Operations](/handbook/security/security-operations) subdepartment in [Security](/handbook/security) at GitLab Inc and are tasked with the mitigation of [Abuse on gitlab.com](/handbook/security/security-operations/trustandsafety/abuse-on-gitlab-com/).
 
 ## Mission
 
@@ -21,7 +21,7 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 ## Our Responsibilities
 
-- Detect user generated [Abuse on GitLab.com]({{< ref "abuse-on-gitlab-com" >}})
+- Detect user generated [Abuse on GitLab.com](/handbook/security/security-operations/trustandsafety/abuse-on-gitlab-com/)
 - Review reported accounts for abusive activity on GitLab.com.
 - Remove user generated content on GitLab.com that violate of our [Terms of Service](https://about.gitlab.com/terms/).
 - Mitigating malicious user generated activity on GitLab.com.
@@ -71,8 +71,8 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 ### Reporting Abuse
 
-- To report **abusive** activity, see our [Abuse on GitLab.com page]({{< ref "abuse-on-gitlab-com" >}}).
-- Copyright and Trademark infringements, see our [Intellectual Property on GitLab.com page]({{< ref "intellectual-property-on-gitlab-com" >}}).
+- To report **abusive** activity, see our [Abuse on GitLab.com page](/handbook/security/security-operations/trustandsafety/abuse-on-gitlab-com/).
+- Copyright and Trademark infringements, see our [Intellectual Property on GitLab.com page](/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/).
 - Frequently Asked Questions, see our [FAQ page](faq/).
 
 ### Working with GitLab Trust and Safety Team
@@ -107,4 +107,4 @@ You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `
 
 If you are running your own GitLab instance and looking for some tips and tricks to manage abuse on your instance, have a look at our DIY page for more information.
 
-- [Do It Yourself]({{< ref "diy" >}})
+- [Do It Yourself](/handbook/security/security-operations/trustandsafety/diy/)

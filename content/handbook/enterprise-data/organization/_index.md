@@ -13,6 +13,7 @@ The Data Team Organization model is guided by three primary business needs:
 1. The need for **high-performance and reliable data storage and compute** platform to support distributed analyst teams.
 1. The need for centers of excellence for **data technologies** and **advanced analytics**.
 1. The need for flexible data solutions driven by varying **urgency and quality** requirements.
+1. The need to foster **trust, compliance and value driven** insights. 
 
 Based on these needs, the Data Team is organized in the following way:
 
@@ -20,24 +21,25 @@ Based on these needs, the Data Team is organized in the following way:
 1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
+1. **[Data Governance and Data Quality Team](/handbook/enterprise-data/):** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement. 
 
 ## Data Pod Assignments
 
 | POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
 | ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
-| Company KPIs              |  @iweeks          | @lisvinueza @chrissharp @annapiaseczna     | @annie-analyst  |                |
+| Company KPIs              |  @iweeks          | @dantenel @chrissharp @annapiaseczna @j_kim    | @annie-analyst  |                |
 | Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
-| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
+| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 @lisvinueza |                 |                |
 
 ## Analytics Engineering - Stable Counterpart Assignments
 
 | Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
 | ---------------- | --------------------------------- | ----------------------- |
-| Sales            |  Revenue Strategy and Analytics   |  @lisvinueza             |
-| Marketing        |  Marketing Strategy and Analytics |  @chrissharp             |
-| Finance          |  FP&A Analytics                   |  @chrissharp            |
+| Sales            |  Revenue Strategy and Analytics   |  @j_kim @dantenel       |
+| Marketing        |  Marketing Strategy and Analytics |  @dantenel              |
+| Finance          |  FP&A Analytics                   |  @annapiaseczna         |
 | Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
-| Product          |  Product Data Insights            |  @michellecooper             |
+| Product          |  Product Data Insights            |  @michellecooper        |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
@@ -48,9 +50,9 @@ Based on these needs, the Data Team is organized in the following way:
 
 | POD | Data Engineer |
 | --- | ------------- |
-| Enterprise Metrics | @juwong |
+| Enterprise Metrics | @csnehansh |
 | Customer Intelligence | @rigerta |
-| Customer Product Adoption | @rbacovic |
+| Customer Product Adoption | @juwong |
 
 ### Manager, Data
 
@@ -198,6 +200,50 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/enterprise-data/data-development/#trusted-data-development) | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts|
 | Start attending Data Fusion Team and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
+
+## Data Governance and Data Quality
+
+### Data Governance and Quality Analyst Job Family
+
+[Data Governance and Quality Analyst Job Family](/job-families/marketing/enterprise-data/data-governance-and-quality-analyst)
+
+```mermaid
+  graph LR;
+  subgraph Data Governance and Quality Analyst Roles
+    supe:adgq(Associate Data Governance and Quality Analyst)-->supe:dgq(Senior Data Governance and Quality Analyst);
+    supe:dgq(Data Governance and Quality Analyst)-->supe:sdgq(Senior Data Governance and Quality Analyst);
+    supe:sdgq(Senior Data Governance and Quality Analyst)-->supe:sfdgq(Staff Data Governance and Quality Analyst);
+  end
+
+  click supe:adgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/#data-governance-and-quality-analyst-associate";
+  click supe:dgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/#data-governance-and-quality-analyst-intermediate";
+  click supe:sdgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/#senior-data-governance-and-quality-analyst";
+  click supe:sfdgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/#staff-data-governance-and-quality-analyst";
+```
+
+### Intermediate and Senior Data Governance and Quality Analyst Onboarding Timeline
+
+| By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
+| ------ | ------ |------ |------ |
+| Complete People and Data Onboarding | Take up tasks related to assigned program | Own epic / KR from planning to execution | Own specific data domain for data governance and data quality improvement |
+| Fully understand the data governance and data quality program, priorities and its strategy | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Collaborate cross functionally and identify areas for improvement |
+| Create a MR to contribute to handbook or templates |  |  |  |
+
+### Data Governance and Quality Program Manager Job Family
+
+[Data Governance and Quality Analyst Job Family](/job-families/marketing/enterprise-data/data-governance-and-quality-program-manager)
+
+```mermaid
+  graph LR;
+  subgraph Data Governance and Quality Program Manager Roles
+    supe:dgqp(Data Governance and Quality Program Manager)-->supe:sdgqp(Senior Data Governance and Quality Program Manager);
+    supe:sdgqp(Senior Data Governance and Quality Program Manager)-->supe:sfdgqp(Staff Data Governance and Quality Program Manager);
+  end
+
+  click supe:dgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-program-manager/#data-governance-and-quality-program-manager";
+  click supe:sdgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-program-manager/#senior-data-governance-and-quality-program-manager";
+  click supe:sfdgq "https://handbook.gitlab.com/job-families/marketing/enterprise-data/data-governance-and-quality-program-manager/#staff-data-governance-and-quality-program-manager";
+```
 
 ## Data Management
 

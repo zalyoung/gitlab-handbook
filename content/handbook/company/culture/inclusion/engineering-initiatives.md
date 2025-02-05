@@ -8,10 +8,10 @@ This page is in [draft](/handbook/values/#everything-is-in-draft). We are workin
 ## Engineering Inclusion and Accessibility Initiatives
 
 At GitLab, Diversity, Inclusion & Belonging is infused into our company culture, from our [values](/handbook/values/) to our [all-remote way of working](/handbook/company/culture/all-remote/).
-Engineering partners closely with our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow. 
+Engineering partners closely with our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow.
 
-- [Team Member Resource Groups]({{< ref "erg-guide#how-to-join-current-tmrgs-and-their-slack-channels" >}})
-- [Diversity, Inclusion and Belonging GitLab initiatives]({{< ref "inclusion#diversity-inclusion--belonging-mission-at-gitlab" >}})
+- [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels)
+- [Diversity, Inclusion and Belonging GitLab initiatives](/handbook/company/culture/inclusion/#gitlabs-diversity-inclusion-and-belonging-mission)
 
 ## Overview
 
@@ -23,7 +23,7 @@ Our engineering DIB strategy aligns with GitLab's A.D.A.P.T model while focusing
 
 ### 1. DNA (Disability, Neurodiversity, and Accessibility) Integration
 
-At GitLab, DNA aims to integrate disability, neurodiversity, and accessibility into all aspects of the company - from product design to talent acquisition, team member education, and culture through TMRG engagement. Using the ARISE (link to follow) framework transforms GitLab's DNA strategy into actionable initiatives 
+At GitLab, DNA aims to integrate disability, neurodiversity, and accessibility into all aspects of the company - from product design to talent acquisition, team member education, and culture through TMRG engagement. Using the ARISE (link to follow) framework transforms GitLab's DNA strategy into actionable initiatives
 
 **Key Goals:**
 
@@ -39,7 +39,7 @@ GitLab's global DIB strategy focuses on creating an inclusive environment that s
 
 ### 3. Career Development
 
-GitLab's career development strategy focuses on creating equitable pathways for advancement across all levels of the organization. We're emphasizing inclusive leadership development through targeted training programs and coaching, while expanding mentorship opportunities for underrepresented groups. Additionally, we're working to ensure our talent management processes support equitable career progression through systematic audits and clear development frameworks.
+GitLab's career development strategy focuses on creating pathways for advancement across all levels of the organization. We're emphasizing inclusive leadership development through training programs and coaching, while expanding mentorship opportunities for underrepresented groups. Additionally, we're working to ensure our talent management processes support career progression through systematic audits and clear development frameworks.
 
 ## Goals and Objectives
 

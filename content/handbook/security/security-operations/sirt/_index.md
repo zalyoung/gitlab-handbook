@@ -19,24 +19,24 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 | | |
 |---|---|
-|Mitra Jozenazemian|[Security Manager]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
-|Nicholas Slaughter|[Senior Security Manager]({{< ref "security-incident-response-team#senior-manager-security-incident-response-team" >}})|
-|Robbie Dickson|[Security Manager]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
+|Mitra Jozenazemian|[Security Manager](/job-families/security/security-incident-response-team/#manager-security-incident-response-team)|
+|Nicholas Slaughter|[Senior Security Manager](/job-families/security/security-incident-response-team/#senior-manager-security-incident-response-team)|
+|Robbie Dickson|[Security Manager](/job-families/security/security-incident-response-team/#manager-security-incident-response-team)|
 
 | | |
 |---|---|
-|Bala Allam|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Chathura Kuruwita|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Ellis Coulson|[Security Engineer]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
-|Hasan Chawich|[Security Engineer]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
-|Janina Roppelt|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Jason Hawkins|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Laurens Van Dijk|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Leslie Anzures|[Security Engineer]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
-|Neil McDonald|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Sean Gillespie|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Valentine Mairet|[Staff Security Engineer]({{< ref "security-incident-response-team#staff-security-incident-response-team-engineer" >}})|
-|Yunus Khan|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Bala Allam|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Chathura Kuruwita|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Ellis Coulson|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
+|Hasan Chawich|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
+|Janina Roppelt|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Jason Hawkins|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Laurens Van Dijk|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Leslie Anzures|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
+|Neil McDonald|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Sean Gillespie|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Valentine Mairet|[Staff Security Engineer](/job-families/security/security-incident-response-team/#staff-security-incident-response-team-engineer)|
+|Yunus Khan|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
@@ -54,9 +54,9 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging SIRT
 
-The [SIRT]({{< ref "." >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
+The [SIRT]({{< ref "." >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/).
 
-Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
+Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/).
 
 ## <i class="fas fa-receipt" id="biz-tech-icons"></i> Incident Management and Review
 
@@ -64,7 +64,7 @@ As part of the incident management and review process the SIRT maintains a recur
 
 ## Limited Access
 
-Information about security incidents or investigations is considered [limited access]({{< ref "confidentiality-levels#limited-access" >}}) and is not shared with all team members. After being resolved, a determination will be made as to whether or not the incident or investigation issue contains [Materially Non-Public Information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information). Only incidents or investigation issues that do not contain MNPI will be made visible to GitLab team members. More information about how this aligns with [GitLab's value of Transparency](/handbook/values/#transparency) can be found on the [Transparency by Default page]({{< ref "transparency-by-default" >}}). The workflow for this is:
+Information about security incidents or investigations is considered [limited access](/handbook/communication/confidentiality-levels/#limited-access) and is not shared with all team members. After being resolved, a determination will be made as to whether or not the incident or investigation issue contains [Materially Non-Public Information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information). Only incidents or investigation issues that do not contain MNPI will be made visible to GitLab team members. More information about how this aligns with [GitLab's value of Transparency](/handbook/values/#transparency) can be found on the [Transparency by Default page](/handbook/security/transparency-by-default/). The workflow for this is:
 
 ```mermaid
 graph TD

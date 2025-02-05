@@ -22,7 +22,7 @@ SA Managers can also add comments (e.g., recognition, pattern matching, assists,
    - Salesforce reporting,
    - [Rattle Board](https://board.gorattle.com/),
    - [Top Deals List](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319)
-   - [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1)
+   - [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1). Instructions on how to operate it [here](https://internal.gitlab.com/handbook/sales/sales-analytics/tableau-dashboards/solutions-architecture/#tableau-dashboards-used-by-the-solutions-architecture-team)
 
 3. **Primary SA assignment**: For Strategic and Enterprise accounts, review list of Most likely opportunities for the quarter in Clari or SFDC, and ensure Primary Solution Architect Fields are not blank and are accurately assigned, especially as it enters Negotiation Stage.  Once it enters Closing Stage it is too late to change the Primay SA assignment for credit.
 4. **Technical Evaluations Review**: For Strategic and Enterprise accounts, review all opportunities in Stage 3 and ensure all Technical Evaluation fields are appropriately entered by team.

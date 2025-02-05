@@ -8,9 +8,9 @@ description: "Development Analytics Group under Developer Experience Stage"
 | **Category**            | **Handle**                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | **GitLab Group Handle** | [`@gl-dx/development-analytics`](https://gitlab.com/gl-dx/development-analytics)                                           |
-| **Slack Channel**       | [`#g_development-analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
+| **Slack Channel**       | [`#g_development_analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
 | **Slack Handle**        | `@dx-development-analytics`                                                                                                |
-| **Team Boards**         | [`Team Work Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics) |
+| **Team Boards**         | [`Team Issues Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics), [`Team Epics Board`](https://gitlab.com/groups/gitlab-org/-/epic_boards/2068920?label_name[]=group%3A%3Adevelopment%20analytics)                                           |
 | **Issue Tracker**       | [`tracker`](https://gitlab.com/groups/gitlab-org/quality/dx/analytics/-/issues)                                            |
 | **GitLab Repositories** | [development-analytics](https://gitlab.com/gitlab-org/quality/analytics)                                                   |
 
@@ -107,6 +107,25 @@ As part of our commitment to aligning with GitLab's company goals, our team cond
 | Quarterly Business Report    | Quarterly                                                              | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61)                                                                                                                                                                                                                                                                                          |
 | 1:1 with Engineering Manager | Weekly                                                                 | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Team member's coffee chats   | once/twice a month                                                     | Optional meetings for team members to regularly connect                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+### Repository Maintenance Rituals
+
+#### Issue Management
+
+~"group::development analytics" does not actively monitor the issue queue for new requests. Feature development and bug fixes are prioritized based on the group's active work. External teams requiring urgent changes are encouraged to submit MRs in a self-service manner.
+
+#### MR Maintenance
+
+~"group::development analytics" is responsible for providing maintainer review feedback for MRs.
+
+#### Version Management
+
+| Repository | Release Process |
+|------------|----------------|
+| `gitlab-roulette` | Version updates are not scheduled on a regular cadence. Instead, a new release can be made whenever a version update MR is submitted. |
+| `gitlab-dangerfiles` | Version updates are not scheduled on a regular cadence. Instead, a new release can be made whenever a version update MR is submitted. |
+| `triage-ops` | A new release is initiated after adding a new commit in the master branch. |
+| `engineering-productivity-infrastructure` | ~"group::development analytics" needs to ensure dependency update MRs are created by Renovate bot |
 
 ### Work management
 

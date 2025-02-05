@@ -81,7 +81,7 @@ See below for high level recommendations to leverage when evaluating professiona
 
 ### TPRM Assessment Requirements
 
-The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data]({{< ref "data-classification-standard" >}}). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below. **Misalignment with [TPRM's Minimum Security Standards](#third-party-minimum-security-standards) may result in denial of a vendor requisition or issuance of a Security Notice.** If a Security Notice was documented at the time of the previous assessment, inquiry will be performed prior to requisition approval to determine the current status of the identified deficiencies. Depending on the nature of the deficiency, a new TPRM assessment may be required. Any updates will be documented within the Security Notice Issue.
+The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data](/handbook/security/data-classification-standard/). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below. **Misalignment with [TPRM's Minimum Security Standards](#third-party-minimum-security-standards) may result in denial of a vendor requisition or issuance of a Security Notice.** If a Security Notice was documented at the time of the previous assessment, inquiry will be performed prior to requisition approval to determine the current status of the identified deficiencies. Depending on the nature of the deficiency, a new TPRM assessment may be required. Any updates will be documented within the Security Notice Issue.
 
 | Data<br>Classification | Request | Supplemental<br>Questionnaire | Okta SSO? | New BIA /<br>Tech Stack Entry? | Bitsight<br>Review? | Evidence of PenTest<br>and BCP Testing |
 | ------ | ------ |------ |------ |------ |------ | ------ |
@@ -95,7 +95,7 @@ The following table defines the procedures followed by TPRM engineers for vendor
 
 ## Procedures
 
-Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification]({{< ref "data-classification-standard" >}}) of data shared with the third party.
+Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification](/handbook/security/data-classification-standard/) of data shared with the third party.
 
 {{% details summary="(Expand to view chart)" %}}
 
@@ -251,6 +251,8 @@ In the event that a vendor provides a valid ISO 27001 certificate but is unable 
   - These items, if present, should be noted within the TPRM Assessment Report. If the nature of the qualification or exception is found to impact GitLab's security, and management's response provides insufficient assurance that remediation steps have been taken, this should be reported to the Business Owner via the TPRM Security Notice Process.
 
 **SOC 2 Type 1:** The SOC 2 Type 1 report is often published as part of a preliminary assessment during the SOC 2 Type 2 "readiness" process. This is a limited scope, point in time assessment of the design of controls in place within a service provider's environment, and **does not include a validation of control operating effectiveness. As such, the Type 1 report should not be leveraged on its own to address our third-party attestation requirements for Orange SaaS / Red systems**, however it may be leveraged in addition to an ISO 27001 certificate or equivalent attestation in providing assurance over a service provider's environment.
+
+**PCI Attestation of Compliance:** A [PCI Attestation of Compliance (AoC)](https://www.pcisecuritystandards.org/glossary/aoc/) is leveraged by the [Security Compliance Team](/handbook/security/security-assurance/security-compliance/) to validate a service provider's compliance with the PCI DSS framework. This attestation, along with the accompanying Responsibility Matrix, is commonly required for vendors hosting GitLab infrastructure. The Security Risk team gathers this documentation when necessary to support the [Security System Intake process](/handbook/security/security-assurance/security-compliance/sec-controls/#security-system-intake). PCI AoCs are **not leveraged by Security Risk to meet [TPRM Assessment Requirements](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements)**.
 
 #### Complementary User Entity Controls (CUECs)
 
@@ -484,9 +486,9 @@ In specific instances, requirements for the performance or contents of TPRM revi
 
 - Parent Policy: [Information Security Policy](/handbook/security)
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Data Classification Standard]({{< ref "data-classification-standard" >}})
+- [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
-- [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
+- [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/)
 - [STORM]({{< ref "storm-program" >}})
 - [Procurement Process](/handbook/finance/procurement/#how-to-start-the-procurement-process)
