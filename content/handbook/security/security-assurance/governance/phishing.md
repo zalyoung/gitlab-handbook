@@ -84,7 +84,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 *NOTE*
 
 - If the link provided in the phishing email is **NOT** clicked, but copy/pasted, that could also trigger the 'click', please refrain from trying to decipher the link.
-- If [Option 3]({{< ref "handbook/security#option-3" >}}) is used to report an email, this could also trigger the 'click' as the tracking image could be cached by the ATP and proxy services.
+- If [Option 3](/handbook/security/#option-3) is used to report an email, this could also trigger the 'click' as the tracking image could be cached by the ATP and proxy services.
 
 Feel free to complete the assigned training and consider it as taking an extra step to stay secure!
 
@@ -219,7 +219,7 @@ The CEO (and Executive team) will not send you an email to wire cash, or a text 
 
 What should you do if you receive a potential phishing email or text [\(smishing\)](https://www.proofpoint.com/us/threat-reference/smishing) from GitLab's CEO?
 
-1. If you are unsure whether the text or email is legitimate, contact [Security]({{< ref "." >}}) to review, and confirm via the #ceo Slack channel.
+1. If you are unsure whether the text or email is legitimate, contact [Security](/handbook/security/security-assurance/governance/./) to review, and confirm via the #ceo Slack channel.
 1. If the email is determined to be fake, follow the instructions for [phishing attacks](/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
 
@@ -247,4 +247,4 @@ Even if you're unsure or it feels insignificant, you can always ask in the #secu
 
 ### Additional Questions, Comments, Concerns?
 
-Please reach out to the [Security Governance team!]({{< ref "governance" >}})
+Please reach out to the [Security Governance team!](/handbook/security/security-assurance/governance/)

@@ -45,7 +45,7 @@ Live Learning sessions are conducted on an ad hoc. There will be a Zoom video co
 - September - [Manager Challenge Pilot](/handbook/people-group/learning-and-development/manager-challenge/#pilot-program)
 - November - [Belonging](https://www.youtube.com/watch?v=WZun1ktIQiw)
 - November - [One Week Challenge - Psychological Safety](/handbook/leadership/emotional-intelligence/psychological-safety/#one-week-challenge)
-- December - [Introduction to Coaching]({{< ref "coaching#introduction-to-coaching-1" >}})
+- December - [Introduction to Coaching](/handbook/leadership/coaching#introduction-to-coaching-1)
 
 **2019**
 
@@ -62,7 +62,7 @@ Example of a Social Learning Live Learning Session on [Building High Performing 
 
 {{< youtube "aezVF1nOBWc" >}}
 
-Social Learning can also occur in GitLab's Learning Experience Platform - [Level Up](https://levelup.gitlab.com/learn/dashboard) and asynchronous forums using GitLab. (i.e. [Elevate]({{< ref "elevate-programs" >}}))
+Social Learning can also occur in GitLab's Learning Experience Platform - [Level Up](https://levelup.gitlab.com/learn/dashboard) and asynchronous forums using GitLab. (i.e. [Elevate](/handbook/people-group/learning-and-development/elevate-programs/))
 
 ## Learning & Development Quarterly Newsletter
 
@@ -70,9 +70,9 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 ## Take Time Out To Learn Campaign
 
-[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#resources-and-tools).
+[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#resources-and-tools).
 
-From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
+From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
 
 In a [discussion with Darren Murph, Head of Remote at GitLab, about his career development](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/career-development-with-darren-murph), Darren called out the importance of taking time out to learn, reminding the team that career development is "not something that comes around the fringes of work - it is work". The Take Time out to Learn initiative leans into this idea.
 

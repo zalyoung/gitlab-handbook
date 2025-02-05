@@ -462,7 +462,7 @@ Please refer to GitLab's [Expense Policy](../expenses/) for further details.
     - This will feed into NetSuite to show the bill as fully paid as well.
 1. Team memebers in a country paid through PEO will also receive expense reimbursement through their same payroll PEO payments each month.
     - **Please Note:**  The timing of reimbursement can vary if you are being reimbursed directly from payroll, CXC, SafeGuard, Global PEO, Remote and/or iiPay.
-    - More information on the timing of payouts can be found [here]({{< ref "../expenses#reimbursement-process-and-timeline" >}})
+    - More information on the timing of payouts can be found [here](/handbook/finance/expenses#reimbursement-process-and-timeline)
 1. All non-US GitLab entities will be reimbursed through their respective payroll provider or paid directly through GitLab's Accounts Payable (AP) department with the normal weekly payment run.
     - Expense report must have been "final approved" no later than EOD Tuesday of that same week.
     - Any report "final approved" on Wednesday to Friday of that week will be reimbursed the following week.
@@ -477,7 +477,7 @@ Please refer to GitLab's [Expense Policy](../expenses/) for further details.
     - Only after a team member onboards themselves in Tipalti will payments be issued. Payee profile will show as "Payable".
     - Any team memebers hired after 2019-11-01 will be sent onboarding requests upon hire and/or upon first submission of an expense report.
 
-**Further details on the Expense reimbursement process can be found [here]({{< ref "../expenses#-expense-reimbursement" >}})**
+**Further details on the Expense reimbursement process can be found [here](/handbook/finance/expenses#-expense-reimbursement)**
 
 #### Accounts Payable Analyst Performance Indicators - Expenses
 
@@ -506,7 +506,7 @@ Even if this causes a bit more disruption in the short term, it will help us ens
 
 In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix](../authorization-matrix/) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Navan, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
 
-If further approval is not required, then proceed to the Procurement ["What are you buying" page]({{< ref "../procurement#-what-are-you-buying" >}}) for further instructions on the purchasing process at GitLab. Once those procedures are complete, have your vendor send their invoice to Accounts Payable: *ap@gitlab.com*.  Most importantly, the team member making the purchase request is ultimately responsible for final review and approval of the invoices. Final review and approval are critical process controls that help ensure we do not make erroneous payments to vendors. All original invoices and payment receipts must be sent to Accounts Payable.
+If further approval is not required, then proceed to the Procurement ["What are you buying" page](/handbook/finance/procurement/#-what-are-you-buying) for further instructions on the purchasing process at GitLab. Once those procedures are complete, have your vendor send their invoice to Accounts Payable: *ap@gitlab.com*.  Most importantly, the team member making the purchase request is ultimately responsible for final review and approval of the invoices. Final review and approval are critical process controls that help ensure we do not make erroneous payments to vendors. All original invoices and payment receipts must be sent to Accounts Payable.
 
 ### Creation of Expense Tags
 

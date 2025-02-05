@@ -84,7 +84,7 @@ The ISMS council, comprised of Security and Privacy (Legal) leadership, shall me
 
 ### Planning
 
-GitLab has implemented a formal [Security Operational Risk Management ("StORM") program]({{< ref "storm-program" >}}) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
+GitLab has implemented a formal [Security Operational Risk Management ("StORM") program](/handbook/security/security-assurance/security-risk/storm-program/) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
 
 The GitLab Security team executes quarterly cascading [Objectives and Key Results (OKRs)](/handbook/company/okrs) to define our security objectives and a plan for achieving those objectives while ensuring alignment throughout the organization.
 
@@ -102,10 +102,10 @@ The [GitLab team handbook](/) is the central repository for how we run the compa
 
 - [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
-- [Security Policies]({{< ref "_index.md#information-security-policies" >}})
+- [Security Policies](/handbook/security/#information-security-policies)
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Infrastucture Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
-- [Security Operational Risk Management (StORM) Program & Procedures]({{< ref "storm-program" >}})
+- [Security Operational Risk Management (StORM) Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/)
 
 GitLab has a dedicated Security Compliance team responsible for monitoring design and effectiveness of the [GitLab common control framework](/handbook/security/security-assurance/security-compliance/sec-controls/) to ensure GitLab's security objectives are thoughtfully planned, implemented and monitored.
 
@@ -117,7 +117,7 @@ GitLab monitors, measures, and improves security controls through various contin
 
 - [Continuous control testing/Annual ISMS internal compliance audits](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
 - [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
-- [Annual security operational risk assessments]({{< ref "storm-program" >}})
+- [Annual security operational risk assessments](/handbook/security/security-assurance/security-risk/storm-program/)
 - [Annual third-party penetration testing](/handbook/security/security-and-technology-policies/penetration-testing-policy/)
 - [Ongoing third party scorecard monitoring (BitSight)](/handbook/security/security-assurance/field-security/independent_security_assurance/#third-party-security-ratings)
 - [Infrastructure Vulnerability scanning](product-security/vulnerability-management/)
@@ -130,7 +130,7 @@ GitLab monitors, measures, and improves security controls through various contin
 
 GitLab is committed to continually improving the suitability, adequacy and effectiveness of the ISMS.
 
-As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/).
+As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision](/handbook/security/security-assurance/security-risk/storm-program/#risk-response). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/).
 
 ## Exceptions
 

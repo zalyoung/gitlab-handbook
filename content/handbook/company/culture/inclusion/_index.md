@@ -170,7 +170,7 @@ In order to more efficiently scale this initiative at GitLab, we would *love* to
 
 ### Inclusive benefits
 
-We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health/), a one-stop shop for all tools related to mental well-being and self-improvement.
+We list our [Pregnancy & Maternity Care](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#pregnancy--maternity-care) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health/), a one-stop shop for all tools related to mental well-being and self-improvement.
 
 ### Inclusive language
 

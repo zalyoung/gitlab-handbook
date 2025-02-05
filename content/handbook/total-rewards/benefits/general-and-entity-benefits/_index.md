@@ -17,7 +17,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab BV (Belgium)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/)
 - [GitLab BV (Finland)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland/)
 - [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
-- [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
+- [GitLab Inc (US)](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/)
 - [GitLab LTD (UK)](/handbook/total-rewards/benefits/general-and-entity-benefits/ltd-benefits-uk/)
 - [GitLab GmbH (Germany)](/handbook/entity/gmbh-germany/)
 - [GitLab PTY (Australia & New Zealand)](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/)
@@ -93,7 +93,7 @@ GitLab supports team members who wish to continue their education and growth wit
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) handbook page covers information on the application process and the different types of expenses that are eligible for reimbursement.
+The [Growth and Development](/handbook/people-group/learning-and-development/growth-and-development/) handbook page covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## Modern Health - Mental Health Benefit
 
@@ -250,7 +250,7 @@ Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
 <summary>How to Initiate Your Parental Leave</summary>
 
-Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
+Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) (if any).
 
 **30 days prior to the start of your leave** Enter your Parental Leave into Workday by selecting the `Parental Leave` option under the `Leaves` dropdown menu. We understand the Parental Leave dates may change, so you can edit the dates in Workday as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
 

@@ -563,7 +563,7 @@ It is the FMM's responsibility to not only ship assets to events, but to also en
 
 AMER Warehouse
 Attn: GitLab AMER FM Store - c/o Kerry Phan
-Brilliant
+[Brilliant](/handbook/marketing/marketing-operations/brilliant)
 1605 S Waukegan Rd
 Waukegan, IL 60085
 415-980-4600.

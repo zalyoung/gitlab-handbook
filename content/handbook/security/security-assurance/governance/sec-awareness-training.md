@@ -107,4 +107,4 @@ GitLab leverages the SANS Security Awareness Maturity Model to gauge the maturit
 
 ### Additional Questions, Comments, Concerns?
 
-Please reach out to the [Security Governance Team!]({{< ref "governance" >}})
+Please reach out to the [Security Governance Team!](/handbook/security/security-assurance/governance/)

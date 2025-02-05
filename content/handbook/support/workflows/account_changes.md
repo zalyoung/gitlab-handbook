@@ -162,7 +162,7 @@ Enterprise users have user accounts that are administered by an organization tha
    > We will keep you updated.
 
 1. If one of the owners approve, update the primary email address of the enterprise user by swapping with a secondary if applicable.
-1. Add an [Admin Note]({{< ref "admin_note.md" >}}) to the user's account.
+1. Add an [Admin Note](/handbook/support/workflows/admin_note) to the user's account.
 
 ## Account Ownership Changes
 

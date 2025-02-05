@@ -490,5 +490,5 @@ In specific instances, requirements for the performance or contents of TPRM revi
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
 - [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/)
-- [STORM]({{< ref "storm-program" >}})
+- [STORM](/handbook/security/security-assurance/security-risk/storm-program/)
 - [Procurement Process](/handbook/finance/procurement/#how-to-start-the-procurement-process)

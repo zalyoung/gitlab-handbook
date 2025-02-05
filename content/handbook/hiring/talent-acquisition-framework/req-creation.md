@@ -134,7 +134,7 @@ If you find that someone is delayed in responding to an approval request, you ca
 
 #### Complete the Kick-Off
 
-1. Schedule a [Kick-off Session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}}) or complete a-sync with the Hiring Team.
+1. Schedule a [Kick-off Session](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session) or complete a-sync with the Hiring Team.
 1. Prepare the job to be posted on the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Post the job internally

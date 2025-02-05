@@ -48,7 +48,7 @@ In FY23 Q1, 17% of mentees in current organized mentorship programs completed a 
 
 | Expectation | Description |
 | ----- | --------------- |
-| **Mentees lead conversations** | Mentorship is led by the mentee, similar to how [1:1's at GitLab]({{< ref "1-1" >}}) are driven by direct reports. |
+| **Mentees lead conversations** | Mentorship is led by the mentee, similar to how [1:1's at GitLab](/handbook/leadership/1-1/) are driven by direct reports. |
 | **Maintain Boundaries** | Maintain clear and appropriate boundaries. Be clear on your responsibilities and those of their manager. |
 | **Set Goals** | Mentees should create goals, put them in writing, and frequently revisit goals to measure progress. |
 | **Build Trust** | Colleague first, expert second. Spend time [getting to know one another](/handbook/values/#diversity-inclusion). [Be open, honest, and fully authentic](/handbook/values/#transparency). |

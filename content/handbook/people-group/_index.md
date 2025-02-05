@@ -89,7 +89,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=274b6e52ff3c12903691fe34fc4fd9ee) | TBA | n/a |  |
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | HelpLab | @people-connect-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
-| [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
+| [Absence Management Team](/handbook/people-policies/leave-of-absence/) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
 | [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | @gl-people-engineering | No email group, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | #peopleops-eng | n/a | https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/3941171 |
 | [Diversity, Inclusion and Belonging](https://gitlab.com/gitlab-com/diversity-and-inclusion) | No alias yet, @mention the |  |  |  |  |
 | [Diversity, Inclusion and Belonging Partner](/job-families/people-group/diversity-inclusion-partner/) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
@@ -282,7 +282,7 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 ### Other People Group Links
 
-- [People Policy Directory]({{< ref "people-policies" >}})
+- [People Policy Directory](/handbook/people-policies/)
 - [Underperformance](/handbook/leadership/underperformance/)
 - [Visas](/handbook/people-group/visas/)
 - [Leadership handbook](/handbook/leadership/)

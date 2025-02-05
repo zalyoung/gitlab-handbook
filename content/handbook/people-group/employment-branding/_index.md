@@ -196,7 +196,7 @@ To be sure the details on our profile stay up to date, we [review these items](h
 
 #### Comparably
 
-Comparably is an employer review site that also offers recruitment marketing tools and [award programs]({{< ref "employment-branding#employer-awards-and-recognition" >}}). We no longer have a paid profile with Comparably (ended in 2020).
+Comparably is an employer review site that also offers recruitment marketing tools and [award programs](/handbook/people-group/employment-branding/#employer-awards-and-recognition). We no longer have a paid profile with Comparably (ended in 2020).
 
 Our goal on the site is to maintain our profile and keep the feedback up to date by annually (Q3) sending a link to all team members where they can consider leaving feedback or a review.
 

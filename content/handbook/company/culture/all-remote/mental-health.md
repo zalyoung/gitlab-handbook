@@ -13,7 +13,7 @@ twitter_creator: "@gitlab"
 
 Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture](/handbook/company/culture/#culture-at-gitlab) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.
 
-In this [CEO handbook learning session]({{< ref "learning-initiatives#ceo-handbook-learning-sessions" >}}), Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
+In this [CEO handbook learning session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
 
 {{< youtube "od_KdZqc69k" >}}
 
@@ -36,7 +36,7 @@ Burnout rarely happens all at once. Rather, it typically takes one by surprise, 
 
 While working one additional hour to move a given project forward is likely not debilitating when viewed in a vacuum, it can trigger a revised baseline where you must *continue* to overwork in order to maintain the new status quo.
 
-This becomes toxic when managers fail to recognize that a given sprint should not reset the baseline of what is achievable on an ongoing, sustained basis. It becomes disastrous when team members do not feel safe bringing this up to their managers in a [1:1 setting]({{< ref "1-1" >}}).
+This becomes toxic when managers fail to recognize that a given sprint should not reset the baseline of what is achievable on an ongoing, sustained basis. It becomes disastrous when team members do not feel safe bringing this up to their managers in a [1:1 setting](/handbook/leadership/1-1/).
 
 Particularly in a company where [results](/handbook/values/#results) are valued above all, managers should be careful to not assume that results garnered in a given period of overwork are the new norm. This places team members in an unfair scenario where they feel pressured to perpetually overwork in order to meet expectations. More broadly, as other team members witness this, they will be less likely to go above and beyond in special cases for fear of trapping themselves in a similar cycle of overworking just to meet ever-increasing (and unsustainable) expectations.
 
@@ -66,7 +66,7 @@ As part of his session at REMOTE by GitLab, John shares how organizations can in
 
 {{< youtube "bQMoF7oSh2o" >}}
 
-GitLab's L&D team also hosted a [live speaker series]({{< ref "learning-initiatives#learning-speaker-series-overview" >}}) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
+GitLab's L&D team also hosted a [live speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
 
 {{< youtube "BDvpoouM-us" >}}
 
@@ -95,7 +95,7 @@ Examples of how you might define your rest ethic:
 
 To learn more about building a rest ethic, refer to this course by John Fitch and TimeOff entitled [Design your Rest Ethic](https://timeoff.thinkific.com/courses/time-off-design-your-rest-ethic).
 
-GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiatives#learning-speaker-series-overview" >}}) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
+GitLab hosted John Fitch for 2 Live [Speaker Series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
 
 **Session 1**
 
@@ -183,7 +183,7 @@ You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 To combat this and de-stigmatize such issues, leadership should work to [build and sustain a non-judgemental culture](building-culture/). This starts by celebrating a [diverse team](/handbook/values/#diversity-inclusion), and creating an [inclusive work environment](/handbook/company/culture/inclusion/).
 
-At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings]({{< ref "1-1" >}}). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
+At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings](/handbook/leadership/1-1/). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
 
 GitLab also offers a Slack channel — `#mental_health_aware` — dedicated to surfacing and discussing topics related to mental health.
 

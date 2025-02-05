@@ -75,7 +75,7 @@ When setting your development goals, try to make your goals specific.  Think abo
 1. How will you engage your network?
 1. What challenges do you anticipate?
 
-Think creatively about your development goals, focusing on the [70-20-10 rule for development]({{< ref "career-development#70-20-10-rule-for-development" >}}).
+Think creatively about your development goals, focusing on the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development).
 
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 

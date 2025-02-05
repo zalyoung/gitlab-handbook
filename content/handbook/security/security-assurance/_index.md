@@ -10,7 +10,7 @@ To be a trusted sales enablement partner that is recognized internally and exter
 
 ## Overview
 
-As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
+As a member of the [Security department](/handbook/security/security-assurance/#assure-the-customer), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
 
 There are five teams in the Security Assurance sub-department.
 
@@ -38,18 +38,18 @@ There are five teams in the Security Assurance sub-department.
   <tr>
       <td>
         <ul>
-            <li><a href="{{< ref "governance" >}}"> Governance Team Page </a></li>
-            <li><a href="{{< ref "field-security" >}}"> Field Security Team Page </a></li>
+            <li><a href="[governance](/handbook/security/security-assurance/governance/)"> Governance Team Page </a></li>
+            <li><a href="[field-security](/handbook/security/security-assurance/field-security/)"> Field Security Team Page </a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "security-compliance" >}}"> Security Compliance Team Page </a></li>
+            <li><a href="[security-compliance](/handbook/security/security-assurance/security-compliance/)"> Security Compliance Team Page </a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="{{< ref "security-risk" >}}"> Security Risk Team Page </a></li>
+            <li><a href="[security-risk](/handbook/security/security-assurance/security-risk/)"> Security Risk Team Page </a></li>
         </ul>
       </td>
       <td>
@@ -72,16 +72,16 @@ There are five teams in the Security Assurance sub-department.
 ### Security Governance Core Competencies
 
 - [Security Policies, Standards and Control maintenance](/handbook/security/controlled-document-procedure/)
-- [Security Assurance Metrics]({{< ref "governance#security-assurance-metrics" >}})
-- [Regulatory Landscape Monitoring]({{< ref "governance#regulatory-and-compliance-landscape-monitoring" >}})
+- [Security Assurance Metrics](/handbook/security/security-assurance/governance/#security-assurance-metrics)
+- [Regulatory Landscape Monitoring](/handbook/security/security-assurance/governance/#regulatory-and-compliance-landscape-monitoring)
 - [Security Awareness and Training](/handbook/security/security-assurance/governance/sec-awareness-training/)
-- [Security Assurance Application Administration]({{< ref "security-assurance#core-tools-and-systems" >}})
+- [Security Assurance Application Administration](/handbook/security/security-assurance/#core-tools-and-systems)
 - [Security Assurance Automation](/handbook/security/security-assurance/governance/security-assurance-automation/)
 
 ### Security Risk Core Competencies
 
 - [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/)
-- [Tier 2 Operational Security Risk Management]({{< ref "storm-program" >}})
+- [Tier 2 Operational Security Risk Management](/handbook/security/security-assurance/security-risk/storm-program/)
 - [Business Impact Assessments](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
 - [Critical System Tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/)
 
@@ -110,7 +110,7 @@ All other actions are the responsibility of the assigned DRI.
 | System Name | System Description | Admin | DRI |
 |---------|-------------|---------------|---------|
 | [Hyperproof](/handbook/business-technology/tech-stack/#hyperproof) | Key system utilized for initiating, tracking/documenting, and completing Governance, Risk, and Compliance related activities.  | [Donovan Felton](https://gitlab.com/dfelton) | Security Compliance - [Madeline Lake](https://gitlab.com/madlake)<br>Security Risk - [Ty Dilbeck](https://gitlab.com/tdilbeck) |
-| [Authomize](https://delinea.com/authomize) | Key system utilized by Security Compliance for [User Access Reviews]({{< ref "security-compliance/access-reviews" >}}) | [Alex Frank](https://gitlab.com/alexfrank09) | Platform - [Alex Frank](https://gitlab.com/alexfrank09)<br>Custom Connectors - [Byron Boots](https://gitlab.com/byronboots) |
+| [Authomize](https://delinea.com/authomize) | Key system utilized by Security Compliance for [User Access Reviews](/handbook/security/security-assurance/security-compliance/access-reviews) | [Alex Frank](https://gitlab.com/alexfrank09) | Platform - [Alex Frank](https://gitlab.com/alexfrank09)<br>Custom Connectors - [Byron Boots](https://gitlab.com/byronboots) |
 | [Safebase](/handbook/business-technology/tech-stack/#safebase) | Trust center solution to host security collateral for customers to request. | [Donovan Felton](https://gitlab.com/dfelton) | [Joe Longo](https://gitlab.com/jlongo_gitlab) |
 | [ProofPoint](/handbook/business-technology/tech-stack/#proofpoint) | Key system utilized for the creation and distribution of our security training and phishing simulations to provide ongoing testing for adherence of various compliance frameworks. | [Donovan Felton](https://gitlab.com/dfelton) | [Joe Longo](https://gitlab.com/jlongo_gitlab) |
 | [BitSight](/handbook/security/security-assurance/field-security/independent_security_assurance/) | BitSight is used to assess and monitor software vendors as part of our Security Third Party Risk Management Program. | [Ryan Lawson](https://gitlab.com/rlawson1) | [Ty Dilbeck](https://gitlab.com/tdilbeck) |

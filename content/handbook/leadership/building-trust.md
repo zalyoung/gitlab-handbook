@@ -79,13 +79,13 @@ Getting to know your people through personality assessments is a tool to build t
 An abundance of free personality assessments are available. Several are outlined below:
 
 - [Understanding Social Styles](/handbook/leadership/emotional-intelligence/social-styles/)
-- [Emotional Intelligence Assessments]({{< ref "emotional-intelligence" >}})
+- [Emotional Intelligence Assessments](/handbook/leadership/emotional-intelligence/)
 - [Gallup Strengths Finder](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx)
 - [16 Personalities](https://www.16personalities.com/) (also known as Myers-Briggs)
 - [DISC Personality Test](https://discpersonalitytesting.com/free-disc-test/)
 - [HEXACO Personality Inventory](https://hexaco.org/hexaco-online)
 
-**How to apply personality assessments:** People leaders can have all team members take a personality assessment when they first join their team. Managers can examine personality assessment results and have strength-based discussions with their people. However, it is essential to never type-cast team members based on their results. Use personality assessments as a tool to facilitate trust and get to know each other. When we embrace our unique strengths and the unique strengths of our team members, we all feel more engaged, more productive, more valued, and more trusted. They should encourage their team members to share their strengths / styles with the team. In addition, team members can take personality assessment and update their [READMEs]({{< ref "_index.md#your-individual-readme" >}}) accordingly with personality assessment information if they choose to.
+**How to apply personality assessments:** People leaders can have all team members take a personality assessment when they first join their team. Managers can examine personality assessment results and have strength-based discussions with their people. However, it is essential to never type-cast team members based on their results. Use personality assessments as a tool to facilitate trust and get to know each other. When we embrace our unique strengths and the unique strengths of our team members, we all feel more engaged, more productive, more valued, and more trusted. They should encourage their team members to share their strengths / styles with the team. In addition, team members can take personality assessment and update their [READMEs](/handbook/leadership/#your-individual-readme) accordingly with personality assessment information if they choose to.
 
 ### Use a One-Slider Personal Summary
 
@@ -133,7 +133,7 @@ Take a [coaching approach](/handbook/leadership/coaching/) and have the team mem
 
 ### 1-1 Meetings
 
-[1-1 meetings]({{< ref "1-1" >}}) can serve as an opportunity for managers and team members to get to know each other on a personal and professional level. Nobody is alike, and each person has a different unique background and story. A communication or management approach that works well on one team member might not work on another. By showing vulnerability during 1-1 discussions, team members can build trust.
+[1-1 meetings](/handbook/leadership/1-1/) can serve as an opportunity for managers and team members to get to know each other on a personal and professional level. Nobody is alike, and each person has a different unique background and story. A communication or management approach that works well on one team member might not work on another. By showing vulnerability during 1-1 discussions, team members can build trust.
 
 **How to build trust in 1-1 meetings:** One way to do this is to ensure team members have plenty of time to talk about the weekend or what fun things are going on in their lives. Managers can spend the first 5-10 minutes of the call, letting it be about "them." Before diving straight into "work topics," especially at the beginning of a new working relationship, pause and ask about family, hobbies, the weekend, etc. Try to remember things team members mention about family, pets, hobbies, or other things going on in their life. If they live in a particular part of the world, managers can spend time getting to know what's happening regionally. Follow up with questions related to a team member's home.
 For some great tips on how to make small talk and build connection through communication listen to [Rachel Greenwald in Episode 89 of Think Fast, Talk Smart](https://www.youtube.com/watch?v=jLFH9Q3VQsc).
@@ -148,7 +148,7 @@ A [curated list of external resources](/handbook/people-group/learning-and-devel
 
 ### Ask for Feedback
 
-Managers should be open to [receiving feedback](/handbook/people-group/guidance-on-feedback/) from their team members. Often there is a barrier as employees feel uncomfortable sharing constructive feedback, let alone with their manager. But if managers are open to feedback, they can slowly grow a culture of feedback within their team, thereby increasing trust. Managers can show their openness by asking for feedback, through [1:1 calls]({{< ref "1-1" >}}) with direct reports or our performance management platform.
+Managers should be open to [receiving feedback](/handbook/people-group/guidance-on-feedback/) from their team members. Often there is a barrier as employees feel uncomfortable sharing constructive feedback, let alone with their manager. But if managers are open to feedback, they can slowly grow a culture of feedback within their team, thereby increasing trust. Managers can show their openness by asking for feedback, through [1:1 calls](/handbook/leadership/1-1/) with direct reports or our performance management platform.
 
 **How to apply asking for feedback:** It may be difficult to ask for feedback from team members as a manager. However, people leaders should be in the habit of regularly asking for feedback. Every 1-1 can be an opportunity for team members to share feedback on your performance. Managers must establish an environment built on trust with [no ego](/handbook/values/#no-ego) to enable team members to be forthcoming.
 

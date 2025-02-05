@@ -14,7 +14,7 @@ title: GitLab's Guide to Total Rewards
 {{% card header="**Benefits**" %}}
 **Why:** [Our Benefits Principle](/handbook/total-rewards/benefits/#guiding-principles)
 
-**What:** [General Benefits]({{< ref "general-and-entity-benefits#general-benefits" >}})
+**What:** [General Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/#general-benefits)
 
 **How:** [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/#global-benefits-survey)
 {{% /card %}}

@@ -38,7 +38,7 @@ Please check with your manager to ensure they have no concerns with your partici
 
 ## Stealth Operations
 
-[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals in [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/stealth-02-logistics.md).
+[Stealth Operations](/handbook/security/security-operations/red-team/how-we-operate/#stealth-operations) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals in [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/stealth-02-logistics.md).
 
 The sections below contain general rules that apply to all stealth operations.
 
@@ -54,7 +54,7 @@ The sections below contain general rules that apply to all stealth operations.
 - Active stealth operations will have a dedicated Slack channel where all trusted participants are invited.
 - The private `#is-this-the-redteam` channel is always available for Security Directors and above to inquire about Red Team activities.
 - Managers and above can [submit an issue using this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) to request disclosure of Red Team activities. This template contains details on how these issues are handled.
-- If team members ask whether a specific activity or IoC belongs to the Red Team outside of these designated channels, we will follow the process documented in ["Is This The Red Team?"]({{< ref "_index.md#is-this-the-red-team" >}}).
+- If team members ask whether a specific activity or IoC belongs to the Red Team outside of these designated channels, we will follow the process documented in ["Is This The Red Team?"](/handbook/security/security-operations/red-team/how-we-operate/#is-this-the-red-team).
 - If asked in one of the designated Slack channels, the following will happen:
   - Any ongoing stealth activities will be paused until a definitive answer can be provided.
   - If it was not the Red Team, the requestor can still ask that all activities remain paused until the issue is resolved.
@@ -149,7 +149,7 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 - Other forms of social engineering that impersonate GitLab team members, vendors, customers, partners, etc. and are directed towards GitLab owned or managed services such as email, authentication providers, job postings, etc. where the social engineering attempts do not directly target personal devices or services.
 Execute supply-chain related attack techniques like dependency confusion, pipeline injections, and malicious code commits.
 
-If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please first report this to your manager and refer to the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
+If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please first report this to your manager and refer to the "[Is This Red Team?](_index.md#is-this-the-red-team)" section.
 
 At this time, the Red Team **will not**:
 

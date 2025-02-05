@@ -336,7 +336,7 @@ large repositories and projects, or can be part of a Disaster Recovery solution.
 
 Growth Engineers work with a cross-functional team to influence the growth of
 GitLab as a business. In helping us iterate and learn rapidly, these
-engineers
+[engineers](/handbook/engineering/development/dev/create/engineers/)
 enable us to more effectively meet the needs of potential users.
 
 #### Requirements

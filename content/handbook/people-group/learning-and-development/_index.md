@@ -52,7 +52,7 @@ The Learning & Development team has a number of resources to help team members l
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
+    <a href="[manager-development](/handbook/people-group/learning-and-development/manager-development/)" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Fund</a>
     <a href="/handbook/people-group/learning-and-development/career-development/" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
@@ -60,17 +60,17 @@ The Learning & Development team has a number of resources to help team members l
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "learning-initiatives" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Initiatives</a>
+    <a href="[learning-initiatives](/handbook/people-group/learning-and-development/learning-initiatives/)" class="btn btn-primary" style="width:200px;margin:5px;">Learning Initiatives</a>
     <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/)" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
-    <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
+    <a href="[level-up](/handbook/people-group/learning-and-development/level-up/)" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
 
   </div>
 </div>
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
-    <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
+    <a href="[elevate-programs](/handbook/people-group/learning-and-development/elevate-programs/)" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
+    <a href="[mentor](/handbook/people-group/learning-and-development/mentor/)" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
     <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
   </div>
 </div>

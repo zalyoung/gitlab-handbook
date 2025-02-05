@@ -12,7 +12,7 @@ Determine the purpose of this role
 
 ## Step 2/HM: Complete Kick-off
 
-[Complete Kick-off]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
+[Complete Kick-off](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session)
 
 ## Step 3/HM: Setup Scorecard and Prepare Interview Team
 

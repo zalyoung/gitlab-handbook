@@ -19,7 +19,7 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 ### Q2
 
-1. Make a plan to incorporate learning into the GitLab work week using the [Take time to Learn Campaign]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}). [Focus Friday's](/handbook/communication/#focus-fridays) are a great time to learn during the week. Block out a recurring calendar focus block dedicated to learning.
+1. Make a plan to incorporate learning into the GitLab work week using the [Take time to Learn Campaign](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign). [Focus Friday's](/handbook/communication/#focus-fridays) are a great time to learn during the week. Block out a recurring calendar focus block dedicated to learning.
 1. Attend one Live Learning session found on the [L&D calendar](/handbook/people-group/learning-and-development#fy23-learning--development-calendar)
 
 ### Q3
@@ -30,7 +30,7 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 ### Q4
 
-1. Apply as a mentee in current sessions of the [Company-Wide mentorship program](/handbook/people-group/learning-and-development/mentor/company-program/), [Women at GitLab mentorship program](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) , or independently from the [list of available mentors]({{< ref "mentor#find-a-mentor" >}})
+1. Apply as a mentee in current sessions of the [Company-Wide mentorship program](/handbook/people-group/learning-and-development/mentor/company-program/), [Women at GitLab mentorship program](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) , or independently from the [list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor)
 1. Attend at least one Group Conversation from a division other than your own
 
 ## Year 2
@@ -48,7 +48,7 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 ### Q3
 
-1. Sign up to be a mentor in current iterations of the [Company-Wide mentorship program](/handbook/people-group/learning-and-development/mentor/company-program/), [Women at GitLab mentorship program](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) , or add yourself to the [list of available mentors]({{< ref "mentor#find-a-mentor" >}})
+1. Sign up to be a mentor in current iterations of the [Company-Wide mentorship program](/handbook/people-group/learning-and-development/mentor/company-program/), [Women at GitLab mentorship program](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) , or add yourself to the [list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor)
 
 ### Q4
 
@@ -59,4 +59,4 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 1. Explore high level, industry specific trainings and certification programts utilizing the [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/)
 1. Participate in [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) if you are an aspiring manager
-1. Explore company wide shadow programs including [CoS Shadow]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), People Experience Shadow, and[Security shadow](/handbook/security/security-shadow/), [Security engineering and research shadow](/handbook/security/security-shadow-sec-eng-res/)
+1. Explore company wide shadow programs including [CoS Shadow](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow), People Experience Shadow, and[Security shadow](/handbook/security/security-shadow/), [Security engineering and research shadow](/handbook/security/security-shadow-sec-eng-res/)
