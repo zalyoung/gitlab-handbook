@@ -141,16 +141,18 @@ Successful candidates will receive an offer through a video call or phone call.
 
 #### Accessibility Engineer
 
-- Basic WCAG 2.1 knowledge and implementation.
-- Experience with common accessibility tools.
-- Basic understanding of assistive technologies.
+- Proven WCAG 2.1 knowledge and implementation.
+- Experience with manual and automated accessibility testing tools.
+- Working knowledge of several assistive technologies (NVDA, JAWS, VoiceOver, etc.).
 - HTML, CSS, JavaScript proficiency.
-- Testing and debugging skills.
+- Ability to test and debug front-end and accessibility issues including cross-browser differences.
+- Vue.js proficiency is a plus.
 
 #### Senior Accessibility Engineer
 
 - Advanced WCAG 2.1 implementation experience.
-- Deep knowledge of assistive technologies.
+- Deep knowledge of manual and automated accessibility testing tools.
+- Deep knowledge of assistive technologies (NVDA, JAWS, VoiceOver, etc.).
 - Experience leading accessibility initiatives.
 - Strong technical architecture skills.
 - Mentoring and training experience.
@@ -160,5 +162,5 @@ Successful candidates will receive an offer through a video call or phone call.
 - Expert-level accessibility knowledge.
 - Platform-wide accessibility architecture experience.
 - Leadership in accessibility communities.
-- Experience developing accessibility standards.
+- Experience developing accessibility standards at an organization.
 - Track record of driving organizational change.
