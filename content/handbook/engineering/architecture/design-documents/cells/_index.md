@@ -44,7 +44,6 @@ This section links all different technical proposals that are being evaluated.
   - Planned: Indexing Service
 - [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
 - [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
-- [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
 - [Routable Tokens](routable_tokens.md)
@@ -194,4 +193,4 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [Database group investigation](../../../infrastructure-platforms/data-access/database-framework/doc/root-namespace-sharding/)
 - [Shopify Pods architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale)
 - [Opstrace architecture](https://gitlab.com/gitlab-org/opstrace/opstrace/-/blob/main/docs/architecture/overview.md)
-- [Adding Diagrams to this blueprint](diagrams/index.md)
+- [Adding Diagrams to this blueprint](diagrams/_index.md)
