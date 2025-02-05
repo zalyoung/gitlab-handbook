@@ -118,32 +118,23 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 ##### How Services Attached Registrations Work
 
-The Services Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
+The Service Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-###### The Operational Process
+Service Attached Registration is submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a GitLab software opportunity (i.e., service must be connected to our software, SOW must mention GitLab).
 
-1. Services Attach deal registrations are submitted via the Partner Portal as a deal registration (`Deal Registration Type` = `Services Attach`)
-2. Ecosystem Specialists map the Services Attach Reg to the software opportunity
-3. Partner emails their SOW to partnersupport@gitlab.com when it is fully executed 
-4. Ecosysten Specialists move the registration to `Approved` when (i) the linked opportunity closes and (ii) a valid SOW is received 
+The following criteria must be met to receive a rebate:
+- Partner must be Select and/or PSP certified
+- Partner must submit a fully executed Statement of Work (SOW) to partnersupport@gitlab.com and include the Deal ID number. The SOW must: 
+  - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
+  - confirm the dates of the project and include customer signatures
+  - be submitted within 6 months after the opportunity closes
+  - be dated within 6 months of submission
+- Only one (1) SOW is allowed per Service Attached Registration 
+- Scope of services
+  - _In Scope_: Implementation, Integration, Optimization, Migration, Security/Compliance, Adoption, Assessment
+  - _Out of Scope_: Education/Training, subcontracted services, free-of-charge services
 
-###### Qualifications
-
-Partners must submit reasonable information and documentation proving that the services meet both program guidelines and customer needs. The following qualifications are required for a Statement of Work to be considered valid: 
-
-- SOW must include a customer signature and signature date
-  - If a signature is not possible on the SOW, you can submit an unsigned SOW with another proof of acceptance from the customer such as a purchase order, invoice, or signed quote
-  - If sensative information is included on the SOW, partners are able to redact sensative information from the SOW before sendign to Ecosystem Support
-- SOW cannot be submitted to partnersupport@gitlab.com more than six (6) months after the SOW signature date 
-- SOW must be submitted to partnersupport@gitlab.com within within six (6) months of the opportunity close date. If an opportunity within the timeframe is not available, the registration will be denied
-- Only one (1) Services Attach Reg can be approved per opportunity.
-- SOW should reference GitLab in the scope of work
-- The following services are **In Scope**: Implementation, Integration, Optimization, Migration, Security/Compliance, Adoption, Assessment
-- The following services are **Out of Scope**: Education/Training, Managed/Hosted services, Subcontracted services, Free-of-charge services
-- Services performed by partners to themselves or their subsidiaries do not qualify
-- The partner that submitted the registration must be the partner named on the SOW
-
-GitLab Professional Service Partners (PSP) with approved service attach registrations are elligible for the Service Attach rebate as detailed in the [Partner Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?renderMode=Collection&q=incentive). Rebates are paid out no later than 45 days after the end of each quarter in which the Services Attach Reg was Approved/Closed Won. Partners need to connected with GitLab's billing system, Coupa, by providing your banking information before rebates can be paid.
+Rebates are paid out no later than 45 days after the end of each quarter. Partners must first register and provide banking information in GitLab's procurement system, Coupa. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library
 
 ##### Quote to Order
 
@@ -200,12 +191,13 @@ An order is not complete without a signed agreement.
 
 ##### Definitions and Qualifications
 
-- Partner-Sourced/Initiated Discount – Partners can earn the largest available product discount with a Partner-sourced opportunity. This opportunity is a new opportunity for the GitLab Sales team, and is available to new or existing customers. \
-The Partner-sourced discount is an upfront discount. The Partner is expected to assist the GitLab Sales team in closing the sale. To qualify for this discount, Partners must submit a deal registration to GitLab via the GitLab Partner Portal, and it must be approved by GitLab Sales to qualify. A Partner-sourced discount is available for both resale and referral opportunities. \
-Partners purchasing GitLab for their own internal production use and add-on licenses at renewal can also qualify for a partner-sourced discount; however, they must first meet all program requirements for their specific program track (Open or Select). Please visit the Deal Registration Program guideline in the Program Guide for additional details.
+- Partner-Sourced Discount
+  - Partners can earn the largest available product discount with a Partner-sourced opportunity. This opportunity is a new opportunity for the GitLab Sales team, and is available to new or existing customers.
+  - The Partner-sourced discount is an upfront discount. The Partner is expected to assist the GitLab Sales team in closing the sale. To qualify for this discount, Partners must submit a deal registration to GitLab via the GitLab Partner Portal, and it must be approved by GitLab Sales to qualify. A Partner-sourced discount is available for both resale and referral opportunities.
+  - Partners purchasing GitLab for their own internal production use and add-on licenses at renewal can also qualify for a partner-sourced discount; however, they must first meet all program requirements for their specific program track (Open or Select). Please visit the Deal Registration Program guideline in the Program Guide for additional details.
 - Partner Co-Sell Opportunity – Partners can earn a discount for a GitLab-sourced opportunity where the Partner assists the GitLab Sales team in closing and/or transacting the deal. This may include demonstrating GitLab software, organizing executive meetings, supporting contract negotiations, delivering services, fulfillment, etc. It is an upfront discount. To qualify for the Partner-assist discount, GitLab Sales team members will attach a Partner to an opportunity, but Partners do not need to submit a deal registration.
 - First Order Incentive – Partners can receive an incentive paid as a rebate for partner-sourced opportunities for customers new to GitLab. The customer must be on the First Order customer target list, which is available from the GitLab Channel Sales team members. This incentive is only available for GitLab Select Partners.
-- Services Attached Rebate – Partners can receive an incentive paid as a rebate for professional services engagements completed with delivery of service. Service must be connected to a software opportunity sold direct, via reseller or via cloud marketplace. MSP deals are excluded. Requirements include submission of a Services Attached Registration, executed SOW submitted within six (6) months of opportunity close date, be a PSP certified partner, and service must be In Scope - Implementation, Integration, Migration, Optimization, Adoption, Security/Compliance, Assessments. Partner Services Amount is calculated as attach rate times net ARR of the associated New/Add-on/Upsell/Renewal software opportunity.
+- Service Attached Rebate – Partners can receive an incentive paid as a rebate for Partner-delivered services provided to end customers related to their use of their Premium and Ultimate GitLab software licenses. The Service Attached incentive is based on a percentage of the customer’s net annual recurring revenue (net ARR) from the linked software sale. To reward Partners that have made an investment in developing GitLab expertise, this incentive is only available to GitLab Professional Services and/or Select Partners.
 - Referral Fees – Referral fees are paid to Partners for identifying new GitLab software sales opportunities that are not being resold by a Partner. To qualify for a referral fee, Partners must enter a referral fee deal registration in the GitLab Partner Portal. Each registration received by GitLab is considered a "Qualified Referral," provided that the referral is a GitLab sales opportunity that is new to GitLab, and the customer/prospect is willing to enter into a binding written agreement with GitLab to use GitLab products and services.
   - Opportunities identified by a Channel Partner but transacted through a Cloud Marketplace qualify for the referral fee.
   - All referral deal registrations must be in Vartopia prior to quarter end to qualify for a rebate.
