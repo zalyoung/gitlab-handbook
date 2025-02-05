@@ -7,17 +7,13 @@
     "set" (dict "tag" .set_team_tag "name" "SET" "members" slice)
 }}
 
-{{- $updatedTeamCategories := dict }}
-{{- range $key, $category := $teamCategories }}
-    {{- $newMembers := slice }}
-    {{- range $team }}
+{{- range $team }}
+    {{- range $key, $category := $teamCategories }}
         {{- if in $.departments $category.tag }}
-            {{- $newMembers = $newMembers | append . }}
+            {{- $category.members = $category.members | append . }}
         {{- end }}
     {{- end }}
-    {{- $updatedTeamCategories = merge $updatedTeamCategories (dict $key (merge $category (dict "members" $newMembers))) }}
 {{- end }}
-{{- $teamCategories = $updatedTeamCategories }}
 
 {{- $totalEngineers := 0 }}
 {{- range $teamCategories }}
@@ -28,23 +24,22 @@
 <table>
     <thead>
         <tr>
-            <th>Total Engineers</th>
-            {{- range $category := $teamCategories }}
-                {{- if gt (len .members) 0 }}
-                <th>{{ .name }}</th>
+            {{- range $key, $category := $teamCategories }}
+                {{- if gt (len $category.members) 0 }}
+                <th>{{ $category.name }}</th>
                 {{- end }}
             {{- end }}
-            <th>Total</th>
+            <th>Total Engineers</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td class="text-center">{{ $totalEngineers }}</td>
-            {{- range $category := $teamCategories }}
-                {{- if gt (len .members) 0 }}
-                <td class="text-center">{{ len .members }}</td>
+            {{- range $key, $category := $teamCategories }}
+                {{- if gt (len $category.members) 0 }}
+                <td class="text-center">{{ len $category.members }}</td>
                 {{- end }}
             {{- end }}
+            <td class="text-center">{{ $totalEngineers }}</td>
         </tr>
     </tbody>
 </table>
