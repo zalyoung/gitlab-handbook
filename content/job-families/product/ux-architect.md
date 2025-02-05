@@ -118,14 +118,14 @@ Candidates can expect the hiring process to follow the order below, although it 
 - **Recruiter Call** (30 minutes)
   - Screening call to discuss experience, assess basic qualifications and communications skills.
   - Quickly align on compensation expectations and availability.
-  - Learn why you want to join GitLab.   
+  - Learn why you want to join GitLab.
 - **Hiring Manager interview** (1 hour)
   - Deep review of portfolio, examining case studies and methodologies.
   - Focus on decision-making process and problem-solving approaches.
   - Discuss research methodologies and how they influence IA decisions.
   - Understand approach to scalable architecture.
 - **PM and Engineering interview** (50 minutes)
-  - Focus on collabration with product and engineering teams.
+  - Focus on collaboration with product and engineering teams.
   - Determine skills alignment with stage group.
   - In-depth discussion of 2-3 key portfolio projects.
 - **Product Designer interview** (50 minutes)
