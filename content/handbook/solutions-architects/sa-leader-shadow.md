@@ -41,7 +41,7 @@ Candidates must:
 | FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
 | FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
 | FY26 Q3 |  |  |
-| FY26 Q4 |  |  |
+| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |
 | FY27 Q1 |  |  |
 | FY27 Q2 |  |  |
 
