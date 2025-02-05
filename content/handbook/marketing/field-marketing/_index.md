@@ -289,7 +289,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 ## Items required by FMM to begin the Plan to WIP process
 
 - The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
-  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
+  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well). For shared events, please make sure to ONLY have the lead FMM listed in the FMM field in the GitLab issue, as Asana will only pull over one person into the project and that person will be assigned all of the FMM tasks.
 - The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
 - **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 
