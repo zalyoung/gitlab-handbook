@@ -131,12 +131,6 @@ To add interview questions to a position from the `Job Dashboard` click the `Int
 
 ## For Talent Acquisition
 
-#### Linking users to their profiles
-
-All hired candidates are marked as private when they are hired. Meanwhile, all Site Admins, Job Admins: Talent Acquisition, and Job Admins: People Success have access to view private candidates. As a result, any new team members who fall into one of those permission levels needs to have their Greenhouse user account linked to their candidate profile. Please note **only** Site Admins can link a user to a candidate profile. To do so, go to [settings](https://app2.greenhouse.io/configure), click on [users](https://app2.greenhouse.io/account/users?status=active), search for the team member in the search bar, click on their name, click `Link to Candidate`, then search for the team member's name again, and click `Link` on the appropriate profile, then scroll to the bottom and click `Save`. You can also follow [the instructions](https://support.greenhouse.io/hc/en-us/articles/360020922752-Link-a-user-account-to-a-candidate-profile) which include screenshots on Greenhouse's website.
-
-Any internal candidate who applies to a requisition via the internal job board will automatically have their user profile and candidate profile linked.
-
 #### Enabling LinkedIn Recruiter System Connect
 
 Assuming that you've already been assigned a LinkedIn seat, here's how to enable the LinkedIn *Recruiter System Connect* integration in Greenhouse. There are **two** steps to the process.
