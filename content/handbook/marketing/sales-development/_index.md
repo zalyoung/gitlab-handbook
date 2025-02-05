@@ -1517,30 +1517,30 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
 ### Rules Of Engagement (RoE)
 
-1. Is the MQL from an Existing Account?
+1. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
+
+    **No:** Please proceed to the next step.
+    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br> 
+
+2. Is the MQL from an Existing Account?
 
     **No:** It is worked by the SDR team <br>
     **Yes:** Check the BDR Prospecting Status and Account Type
 
-2. Is the Account a customer?
+3. Is the Account a customer?
 
     **No:** Move on to the next step
     **Yes:** Check for Opportunities
 
-3. Is there an existing renewal opportunity?
+4. Is there an existing renewal opportunity?
 
     **No:** Move on to the next step
     **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person.
 
-4. Is the Account in "Actively Working" Status
+5. Is the Account in "Actively Working" Status
 
     **No:** It is worked by the SDR team <br>
     **Yes:** Check for Activity
-
-5. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
-
-    **No:** Please proceed to the next step.
-    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
 
 6. Does the account have activity placed by the BDR in the last 30 days?
 
