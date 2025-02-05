@@ -8,9 +8,9 @@ description: "Development Analytics Group under Developer Experience Stage"
 | **Category**            | **Handle**                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | **GitLab Group Handle** | [`@gl-dx/development-analytics`](https://gitlab.com/gl-dx/development-analytics)                                           |
-| **Slack Channel**       | [`#g_development-analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
+| **Slack Channel**       | [`#g_development_analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
 | **Slack Handle**        | `@dx-development-analytics`                                                                                                |
-| **Team Boards**         | [`Team Work Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics) |
+| **Team Boards**         | [`Team Issues Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics), [`Team Epics Board`](https://gitlab.com/groups/gitlab-org/-/epic_boards/2068920?label_name[]=group%3A%3Adevelopment%20analytics)                                           |
 | **Issue Tracker**       | [`tracker`](https://gitlab.com/groups/gitlab-org/quality/dx/analytics/-/issues)                                            |
 | **GitLab Repositories** | [development-analytics](https://gitlab.com/gitlab-org/quality/analytics)                                                   |
 
