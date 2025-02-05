@@ -1,67 +1,47 @@
 {{- $team := site.Data.public.team }}
-{{- $groupTeam := slice }}
-{{- $feTeam := slice }}
-{{- $beTeam := slice }}
-{{- $fsTeam := slice }}
-{{- $sreTeam := slice }}
-{{- $be_team_tag := .be_team_tag }}
-{{- $fe_team_tag := .fe_team_tag }}
-{{- $fs_team_tag := .fs_team_tag }}
-{{- $sre_team_tag := .sre_team_tag }}
+{{- $teamCategories := dict 
+    "be" (dict "tag" .be_team_tag "name" "Backend" "members" slice)
+    "fe" (dict "tag" .fe_team_tag "name" "Frontend" "members" slice)
+    "fs" (dict "tag" .fs_team_tag "name" "Fullstack" "members" slice)
+    "sre" (dict "tag" .sre_team_tag "name" "SRE" "members" slice)
+    "set" (dict "tag" .set_team_tag "name" "SET" "members" slice)
+}}
 
 {{- range $team }}
-    {{- if in .departments $be_team_tag }}
-        {{- $beTeam = $beTeam | append . }}
-        {{- $groupTeam = $beTeam | append . }}
-    {{- end }}
-    {{- if in .departments $fe_team_tag }}
-        {{- $feTeam = $feTeam | append . }}
-        {{- $groupTeam = $beTeam | append . }}
-    {{- end }}
-    {{- if in .departments $fs_team_tag }}
-        {{- $fsTeam = $fsTeam | append . }}
-        {{- $groupTeam = $beTeam | append . }}
-    {{- end }}
-    {{- if in .departments $sre_team_tag }}
-        {{- $sreTeam = $sreTeam | append . }}
-        {{- $groupTeam = $beTeam | append . }}
+    {{- range $key, $category := $teamCategories }}
+        {{- if in $.departments $category.tag }}
+            {{- $category.members = $category.members | append . }}
+        {{- end }}
     {{- end }}
 {{- end }}
 
-{{- if gt (len $groupTeam) 0 }}
+{{- $totalEngineers := 0 }}
+{{- range $teamCategories }}
+    {{- $totalEngineers = add $totalEngineers (len .members) }}
+{{- end }}
+
+{{- if gt $totalEngineers 0 }}
 <table>
     <thead>
         <tr>
             <td></td>
-            {{- if gt (len $beTeam) 0 }}
-            <th>Backend</th>
+            {{- range $category := $teamCategories }}
+                {{- if gt (len .members) 0 }}
+                <th>{{ .name }}</th>
+                {{- end }}
             {{- end }}
-            {{- if gt (len $feTeam) 0 }}
-            <th>Frontend</th>
-            {{- end }}
-            {{- if gt (len $fsTeam) 0 }}
-            <th>Fullstack</th>
-            {{- end }}
-            {{- if gt (len $sreTeam) 0 }}
-            <th>SRE</th>
-            {{- end }}
+            <th>Total</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th>Total Engineers</th>
-            {{- if gt (len $beTeam) 0 }}
-            <td class="text-center">{{ len $beTeam }}</td>
+            {{- range $category := $teamCategories }}
+                {{- if gt (len .members) 0 }}
+                <td class="text-center">{{ len .members }}</td>
+                {{- end }}
             {{- end }}
-            {{- if gt (len $feTeam) 0 }}
-            <td class="text-center">{{ len $feTeam }}</td>
-            {{- end }}
-            {{- if gt (len $fsTeam) 0 }}
-            <td class="text-center">{{ len $fsTeam }}</td>
-            {{- end }}
-            {{- if gt (len $sreTeam) 0 }}
-            <td class="text-center">{{ len $sreTeam }}</td>
-            {{- end }}
+            <td class="text-center">{{ $totalEngineers }}</td>
         </tr>
     </tbody>
 </table>
