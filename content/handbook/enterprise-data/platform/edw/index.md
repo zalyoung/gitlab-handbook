@@ -134,11 +134,10 @@ Dimension tables supply the descriptive attributes that give context to our busi
 
 #### Common Types of Dimensions
 
-1. **Conformed Dimensions** These dimensions maintain consistent meaning across multiple fact tables. Examples include:
+1. **Conformed Dimensions** Conformed dimensions enable facts and measures to be consistently categorized and described across multiple fact tables and data marts. These dimensions maintain consistent meaning across multiple fact tables. This standardization ensures reliable analytical reporting and promotes reusability throughout the data warehouse. When properly implemented, each subject area can be analyzed independently while maintaining the ability to combine insights with related areas. However, this cross-area analysis capability breaks down if dimensions have even slight variations between subject areas. Kimball refers to this standardized set of shared dimensions as the "conformance bus", which facilitates seamless integration of common dimensions and enables comprehensive reporting across multiple subject areas. Examples include:
 
 - Date dimensions used across various business processes
-- Customer dimensions used in sales and support
-- Product dimensions used in inventory and sales
+- Customer dimensions used in sales and marketing
 
 1. **Local Dimensions** Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
 
