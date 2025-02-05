@@ -51,25 +51,69 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 The core proposal consists of three main components:
 
 1. Journey Definition Framework
-    - YAML-based journey definitions authored by product teams
-    - Support for specifying success criteria and SLO targets
-    - Integration with test coverage reporting
+   - YAML-based journey definitions authored by product teams
+   - Support for specifying success criteria and SLO targets
+   - Integration with test coverage reporting
 
 2. LabKit SDK
-    - DSL for marking journey start/end points
-    - Journey ID generation and propagation
-    - Automatic state management and metric emission
-    - Built-in retry and backoff mechanisms
+   - DSL for marking journey start/end points
+   - Journey ID generation and propagation
+   - Automatic state management and metric emission
+   - Built-in retry and backoff mechanisms
 
 3. Journey State Service
-    - Centralized journey state tracking
-    - Metric aggregation and SLI calculation
-    - Support for both Runway and self-managed deployments
-    - Sensible time to live (TTL) threshold for journey duration
+   - Centralized journey state tracking
+   - Metric aggregation and SLI calculation
+   - Support for both Runway and self-managed deployments
+   - Sensible time to live (TTL) threshold for journey duration
 
 ## Design and implementation details
 
-### Journey Definition
+```mermaid
+---
+User Journey SLIs Architecture
+---
+flowchart LR
+    User@{shape: circle}
+
+    subgraph App
+        subgraph Process
+            LabKit
+        end
+    end
+
+    subgraph journeyService[User Journeys Service]
+        missing_end[Missing end event]
+        timeout_check{Timeout check}
+        timeout_action[Timeout action]
+
+        missing_end --> timeout_check
+        timeout_check --no timeout--> missing_end
+        timeout_check --timeout reached--> timeout_action
+    end
+
+    subgraph Runbooks
+        spec[User Journey Spec]
+        metricsCatalog[Metrics Catalog]
+
+        metricsCatalog --depends on--> spec
+    end
+
+    s1@{shape: subproc, label: "Service A"}
+    s2@{shape: subproc, label: "Service B"}
+
+    User --> App
+    Process --> s1
+    LabKit --emit start--> journeyService
+    LabKit --emit end?--> journeyService
+    s1 --> s2
+    s1 --emit event--> journeyService
+    s2 --emit event--> journeyService
+
+    Runbooks --pull spec--> App
+```
+
+### Journey Definition Spec
 
 TBD
 
