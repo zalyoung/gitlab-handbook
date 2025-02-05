@@ -3,7 +3,7 @@ title: "Performance Enablement"
 description: "Performance Enablement team within Developer Experience sub-department"
 ---
 
-![Emerald City](./images/DALL·E%20Emerald%20City.webp)
+![Emerald City](images/DALL·E%20Emerald%20City.webp)
 
 Performance Enablement team vision is to build and maintain a framework which enables internal teams to build reliable systems and deliver seamless customer experiences. Our mission is to transform GitLab's performance testing from reactive to proactive while fostering a culture of performance awareness by providing:
 
@@ -125,7 +125,7 @@ Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook
 
 To request for help with performance testing of a new feature, please create a new issue within the GPT project with the request for help template.
 
-For individual questions please reach out to the team via our Slack channels.
+For individual questions please reach out to the team through our Slack channels.
 
 ### Slack Channels
 
@@ -156,15 +156,15 @@ Project management links
 
 #### Status Updates
 
-* By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
-  * Format for weekly update:
-    * Date of Update (YYYY-MM-DD)
-    * Brief update (~sentence or couple bullets) for each of these four bullets:
-      * Status update - Progress has been updated to X %.
-      * What was done :white_check_mark: - Unblocked blockers, any other progress achieved
-      * Next steps :construction_worker:
-      * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
-* ASYNC weekly epic status updates
+- By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
+  - Format for weekly update:
+    - Date of Update (YYYY-MM-DD)
+    - Brief update (~sentence or couple bullets) for each of these four bullets:
+      - Status update - Progress has been updated to X %.
+      - What was done :white_check_mark: - Unblocked blockers, any other progress achieved
+      - Next steps :construction_worker:
+      - Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
+- ASYNC weekly epic status updates
 
 #### Performance Enablement in Distribution group
 
