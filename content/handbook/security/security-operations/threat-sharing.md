@@ -24,7 +24,7 @@ While GitLab may disclose in a shared channel or forum threat intelligence infor
 - [unSAFE Data](https://handbook.gitlab.com/handbook/legal/safe-framework/#what-if-unsafe-information-is-shared)
 - Data that may otherwise be deemed confidential to a Customer under our terms
 
-If you have a question about whether threat intelligence information marked for sharing fits into one of these prohibited categories, please reach out to the Legal Team for assistance.  
+If you have a question about whether threat intelligence information marked for sharing fits into one of these prohibited categories, please reach out to the Legal Team for assistance.
 
 ### Dislcaimer
 
