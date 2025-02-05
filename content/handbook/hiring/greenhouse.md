@@ -3,30 +3,6 @@ title: "Greenhouse"
 description: "Greenhouse is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more."
 ---
 
-### How to join Greenhouse
-
-[Greenhouse](https://www.greenhouse.com/) is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more.
-
-You can log into Greenhouse in your Okta homepage. All GitLab team-members are granted *Basic* access, which will allow you to track *Referral* submissions, interview candidates (if assigned to a requisition), and share requisition postings on social media. Until your access is changed by an Admin, you will only have access to the Greenhouse [dashboard](https://app2.greenhouse.io/dashboard).
-
-During onboarding, all new team members are assigned permissions based on their role in the hiring process. If a current team member needs to change their access level, they'll need to submit a [new access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request) in the GitLab `access-requests` project. Their Manager and the Talent Acquisition Team will be pinged to approve and action that request.
-
-### Your dashboard
-
-The Greenhouse [dashboard](https://app2.greenhouse.io/dashboard) will be your primary page for activities in Greenhouse. All team members have access to this page. However, depending on your role in the hiring process, you may have more dashboard widgets than others. All team members can see the `Add a Referral`, `My Referrals`, and `Share Jobs with your Social Network` sections (all of which are described in more detail below). On the righthand panel, there is a section called `Helpful Links`, which is home to several self-help resources, as well as the Greenhouse Support Team.
-
-Members of a Hiring Team may have additional sections, such as `My Interviews`, which contains a preview of your next three scheduled interviews. That section will link to the candidate's profile and interview kit; click `See All Interviews` to view the full list of upcoming interviews and `See Past Interviews` to view completed interviews. You may also see `My Reminders`, which houses reminders that you set for yourself.
-
-A Recruiter will see an additional section called, `Applications to Review`, which will list their requisitions and link to the *Application Review* workflow. There, they can review applications and advance, decline, or submit feedback. This panel only shows the five requisitions with the **most** pending applications. To see all requisitions, click `See All` and select yourself as the responsible user. To note, Hiring Managers do **not** have this section on their dashboard. However, they can view the `Application Review` section by going to a specific requisition and clicking `Application Review` in the righthand panel.
-
-On the righthand panel, members of the Hiring Team can see a list of `My Tasks` and `All Tasks`, which shows how many candidates you have pending action items on. For example, *"Needs Decision"*, *"Candidates to Schedule"*, *"Take Home Tests to Send"*, or *"Offers"*. You can view all pending tasks by clicking `All Tasks`.
-
-Members of the approval process (i.e. Executives, Finance Business Partners, and Total Rewards) will have an additional section titled `My Approvals`, which contains a list of any requisitions and candidates that require their approval.
-
-The next section is called, `Helpful Links`, which includes a link to our [internal job board](https://app2.greenhouse.io/internal_job_board), a link to a list of our "in-house contacts" (which are GitLab team-members who are our Greenhouse account owners) with their names and emails, and a link to the Greenhouse [Help Center](https://support.greenhouse.io/hc/en-us).
-
-The last button of note is the `Personalize Dashboard` button at the bottom of the righthand panel. You can use this to adjust your settings on your dashboard. For example, to hide or rearrange sections to your liking.
-
 ## For all Interviewers
 
 ### Feedback and Interview Kits
@@ -77,12 +53,6 @@ You can set up reminders in Greenhouse by going to your [account settings](https
 
 You can also set up notifications to be delivered to your Slack by clicking on your name > `account settings`. From there, connect your Slack account and set @mentions as well as any job-specific notifications.
 
-### Searching candidates
-
-Since we have a great pool of talent within our ATS, Greenhouse enables the Hiring Teams to search for specific attributes of candidates. To search for keywords, go to the candidates tab at the top of the Greenhouse website, use the search bar on the lefthand sidebar to input your keywords, and enable to option `Full Text Search`.
-
-A popular method of searching is [with boolean queries](https://support.greenhouse.io/hc/en-us/articles/202360199-Search-candidates-using-Boolean-queries), which allow you to combine keywords or phrases to get more relevant results. For example, `engineer AND "ruby on rails"`. All fields in a candidate resume, application, forms are searchable. You're also able to sort candidates via defined filters in the sidebar.
-
 ### Email syncing
 
 All email communication with candidates must be kept in Greenhouse. Only Job Admins (Hiring Managers, Executives, and People Success) are able to email candidates from Greenhouse. If you are **not** a Job Admin and want to email your candidate, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
@@ -92,10 +62,6 @@ All email communication with candidates must be kept in Greenhouse. Only Job Adm
 It's always recommended to leave notes in a candidate profile to maintain communication between the Hiring Managers, Interviewers, and Talent Acquisition Team. To leave a note, go to a candidate's profile, and, on the right side under `Make a Note`, type your note and tag anyone you like to see the note. If you do **not** tag anyone, **no** one will receive a notification. Once you're done with your note, click `Save` and it will notify anyone tagged and be logged in the candidate's profile in the `Activity Feed`. Anyone who has access to the requisition will be able to view it there.
 
 Again, `Private Notes` should only be used to discuss compensation or other confidential items related to the candidate. To leave such a note, go to the candidate's profile, click `Private`, scroll to the bottom, and click `Add Private Note`. Be sure to tag anyone that should be notified. Please note that only Job Admins (i.e. **not** Interviewers) are able to view these notes. All Job Admins, including Hiring Managers, are able to see private notes whether or not they are tagged.
-
-### Access to roles
-
-If you need access to review or interview candidates for a requisition, please reach out to the Talent Acquisition Team through Slack or email. The Talent Acquisition Team will verify with the Hiring Manager and provision access accordingly.
 
 ## For Hiring Managers
 
@@ -111,17 +77,9 @@ After you click on a requisition, you will be brought to the job dashboard for t
 
 If you want to review the candidates for multiple jobs at the same time, click `All Candidates` instead, and then use the filter on the left sidebar, `Jobs` > `Filter by Job` > select the appropriate jobs. You can use the filters to further narrow down candidates.
 
-### How do I review candidates in the Talent Community prospect pool?
-
-As a non-talent acquisition team member, you would need to be added as a `Pool Admin` in a specific prospect pool within Greenhouse. You can reach out to your recruiter or [create an issue](https://gitlab.com/gl-talent-acquisition/operations/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) to request access.
-
 ### Configuring notifications
 
 Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove yourself for that section.
-
-### Reporting
-
-Hiring Managers have the ability to quickly view and pull reports for their vacancies. To do so, go to the job dashboard of the requisition you want to report on, then click `Reports`. From there, it will show you a variety of different reports you can pull depending on what you're looking for, and each one will dynamically show you the report which you are able to use some filters on. You're also able to [save reports](https://support.greenhouse.io/hc/en-us/articles/115003218066-Save-a-report) to come back to them later, [share a report via email](https://support.greenhouse.io/hc/en-us/articles/115003338503-Email-a-report) to [set up recurring reports](https://support.greenhouse.io/hc/en-us/articles/115003711906-Schedule-recurring-report) to have reports emailed to you or someone else on a weekly basis, and to download the report as an excel file for easy sharing through Google Sheets.
 
 ### Setting Up Interview Questions
 
