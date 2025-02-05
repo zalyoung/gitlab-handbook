@@ -62,7 +62,7 @@ We are using the Job Frameworks in the following programs:
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-  - We leveral Job Frameworks in Succession planning as we assess requirements for each role level.
+  - We leverage Job Frameworks in Succession planning as we assess requirements for each role level.
 
 ### Competencies per Job
 
