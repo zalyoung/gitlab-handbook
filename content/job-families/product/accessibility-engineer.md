@@ -11,14 +11,15 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 
 ### Base Requirements
 
-- Interest in digital accessibility
+- Interest in digital accessibility.
+- Basic understanding of design and UX.
 - Strong understanding of WCAG 2.1, Section 508, and EN 301 549 guidelines and accessibility standards.
 - Experience with assistive technologies (screen readers, voice recognition software, etc.).
 - Proficiency in HTML (including ARIA roles and attributes), CSS, and JavaScript.
 - Knowledge of automated accessibility testing tools and methodologies.
 - Experience conducting manual accessibility audits.
 - Ability to use GitLab.
-- Strong communication skills to explain technical accessibility concepts to non-technical stakeholders
+- Strong communication skills to explain technical accessibility concepts to non-technical stakeholders.
 - Comfort working in a highly agile, iterative product development process.
 - You share our values, and work in accordance with those values.
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
@@ -112,7 +113,9 @@ A Staff Accessibility Engineer is expected to meet the base requirements and exe
 Candidates for these positions can expect the hiring process to follow this general process:
 
 1. **Recruiter Call** (30 minutes)
-   - Discussion of experience with accessibility engineering.
+   - Discussion of interest in accessibility.
+   - Discussion of experience with design and UX.
+   - Discussion of experience with accessibility engineering and front-end development.
    - Understanding of WCAG guidelines and accessibility standards.
    - Technical background and approach to accessibility.
    - Compensation expectations and motivation.
@@ -140,16 +143,15 @@ Successful candidates will receive an offer through a video call or phone call.
 ### Required Skills by Level
 
 #### Accessibility Engineer
-
 - Proven WCAG 2.1 knowledge and implementation.
 - Experience with manual and automated accessibility testing tools.
 - Working knowledge of several assistive technologies (NVDA, JAWS, VoiceOver, etc.).
 - HTML, CSS, JavaScript proficiency.
 - Ability to test and debug front-end and accessibility issues including cross-browser differences.
 - Vue.js proficiency is a plus.
+- Understanding and experience with design and UX is a plus.
 
 #### Senior Accessibility Engineer
-
 - Advanced WCAG 2.1 implementation experience.
 - Deep knowledge of manual and automated accessibility testing tools.
 - Deep knowledge of assistive technologies (NVDA, JAWS, VoiceOver, etc.).
@@ -158,7 +160,6 @@ Successful candidates will receive an offer through a video call or phone call.
 - Mentoring and training experience.
 
 #### Staff Accessibility Engineer
-
 - Expert-level accessibility knowledge.
 - Platform-wide accessibility architecture experience.
 - Leadership in accessibility communities.
