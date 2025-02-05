@@ -78,20 +78,19 @@ See the [Sending notices workflow](/handbook/support/workflows/sending_notices) 
 
 ## Repo Size Limit Increases
 
-At times, users require an increase to the size limit of their repository as a workaround for a bug issue. In these cases:
+The per-project storage limit for Premium and Ultimate customers will be increased from 10GiB to 500GGiB in FY2026-Q1 (see [gitlab-org epic #4207](https://gitlab.com/groups/gitlab-org/-/epics/14207#note_2287919221) for details). Until this change is implemented on GitLab.com, follow [the interim workflow](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6580) for repository storage limit increase requests:
 
 1. Open an issue in the **[internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues)** issue tracker using the `Repo Size Limit` issue template.
     - If you do not have GitLab.com admin access, add the `Admin escalation` label. If needed, post in the `#support_gitlab-com` Slack channel for attention on it.
-1. If a request is a workaround to a bug issue:
-    - Use current size + small buffer (2-5 GB) for the exception size.
-    - Set a due date for reverting, up to 1 week from current date.
-    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
-    - Make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
-1. Apply the `Status::On Hold` label and set the due date to when it should be reverted.
+    - Use 500GiB for the exception size.
+    - Set a due date for reverting for the end FY2026-Q1 (April 30, 2025).
+    - If the request is to increase the storage limit above 500GiB, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
+    - If the request arises from a bug, make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
+1. Apply the `Status::On Hold` label and set the due date to April 30, 2025.
 1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at **<https://gitlab.com/group/subgroup/project/>** you would navigate to **<https://gitlab.com/group/subgroup/project/edit>**.
-1. Enter a new value in the **Repository size limit (MB)** field.
+1. Enter `512000` (500GiB) in the **Repository size limit (MiB)** field.
 1. Click **Save changes**.
-1. On the specified due date, revert the size limit back to the default by removing the value.
+1. On the specified due date, confirm if the storage limit increase has been implemented for all GitLab.com customers. If it has not yet been implemented, request guidance in the `#support_leadership` Slack channel and update this workflow accordingly.
 
 ## Pipeline Quota Reset
 
