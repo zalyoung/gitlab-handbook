@@ -30,7 +30,7 @@ The archived version of the blueprint file can be found [here](https://gitlab.co
 
 ## Who
 
-Proposal:
+Blueprint:
 
 <!-- vale gitlab.Spelling = NO -->
 
@@ -41,13 +41,13 @@ Proposal:
 | Product Manager                | Dov Hershkovitch |
 | Architecture Evolution Coaches | Kamil Trzciński, Grzegorz Bizon |
 
-DRIs:
+Esecution:
 
 | Role        | Who |
 |-------------|-----|
 | Leadership  | Mark Nuzzo |
 | Product     | Dov Hershkovitch |
-| Engineering | Fabio Pitino |
+| Engineering | Fabio Pitino, Avielle Wolfe, Laura Montemayor |
 | UX          | Sunjung Park |
 
 Domain experts:
