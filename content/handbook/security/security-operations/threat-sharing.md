@@ -28,7 +28,7 @@ If you have a question about whether threat intelligence information marked for 
 
 ### Dislcaimer
 
-Please post the following disclaimer in the channels and forums where Gitlab discloses threat intelligence information to third-parties and/or Customers.  
+Please post the following disclaimer in the channels and forums where Gitlab discloses threat intelligence information to third-parties and/or Customers.
 
 > The threat intelligence and security information shared in this channel is provided for informational  purposes only.  All content should be independently verified before taking action. Neither GitLab nor its channel administrators make any warranties about the completeness, reliability, or accuracy of this information.
 
