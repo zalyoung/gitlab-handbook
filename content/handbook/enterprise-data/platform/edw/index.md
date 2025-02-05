@@ -29,8 +29,8 @@ Dimensional modeling is part of the Business Dimensional Lifecycle methodology d
 
 Dimensional modeling uses two primary components:
 
-- **Facts (Measures)**: Typically numeric values that can be aggregated
-- **Dimensions (Context)**: Groups of hierarchies and descriptors that define the facts
+- **Facts (Measures)**: The numerical values in your data - these are the "how many" and "how much" values you want to analyze, like sales amount, quantity sold, or customer count. While most facts can be summed or averaged, some (like ratios or percentages) cannot be meaningfully aggregated.
+- **Dimensions (Context)**: The descriptive attributes that give meaning to your facts. Dimensions answer the "who, what, when, where, why" of your data. Dimensions contain hierarchies (like Date -> Month -> Quarter -> Year) and descriptive details (like product name or category), letting you analyze your facts from multiple perspectives.
 
 This approach creates several schema patterns:
 
@@ -42,8 +42,8 @@ This approach creates several schema patterns:
 
 Dimensional models are built in four key steps:
 
-1. Choose the business process (e.g., track monthly revenue)
-1. Declare the grain (e.g., per customer)
+1. Choose the business process (ie. track annual revenue)
+1. Declare the grain (ie. per customer)
 1. Identify the dimensions
 1. Identify the facts
 
@@ -130,7 +130,7 @@ Dimension tables supply the descriptive attributes that give context to our busi
 - Usually have fewer rows than fact tables but more columns
 - Change relatively slowly over time
 - Provide the entry points for querying and filtering
-- Include hierarchical relationships (e.g., geography hierarchies)
+- Include hierarchical relationships
 
 #### Common Types of Dimensions
 
@@ -203,93 +203,25 @@ Best practices for snapshot implementation include adding clear current record i
 
 Fact tables record the business events we want to analyze. They contain the quantitative metrics (measures) of our business processes, along with references to related dimensions.
 
-#### Characteristics of Facts
+### Key Characteristics
 
-- Contain numeric measures that can be aggregated
-- Usually have many rows but fewer columns
-- Grow continuously as new events occur
-- Include foreign keys to dimensions
-- Represent specific business processes
+Fact tables capture business events with numeric measures and typically grow continuously as new events occur. They're characterized by many rows (each representing a single event) but relatively few columns. 
+
+While most measures in these tables can be aggregated, some can only be partially aggregated (like averages), and others shouldn't be aggregated at all (like percentages). Each fact table represents a specific business process and includes foreign keys that link to dimension tables, providing context to the measures.
 
 #### Types of Facts
 
-**Atomic Facts** Fact tables record business events at their most granular level, serving as the foundation for all fact-based analysis. These tables:
+**Atomic Facts** Fact tables form the foundation of fact-based analysis by capturing business events at their most granular level. Each row represents an individual business event with complete, unfiltered data, preserving the maximum level of detail. By maintaining this granularity, atomic facts enable flexible aggregation options for various analytical needs.
 
-- Represent individual business events
-- Maintain complete, unfiltered data
-- Preserve maximum detail level
-- Enable flexible aggregation options
+**Derived Facts** Derived facts are specialized views built on top of atomic facts to serve specific analytical needs while maintaining clear data lineage. They improve performance by creating focused subsets of large atomic fact tables. For instance, when analysts typically work with just 10% of a large event table, a derived fact can extract just that portion, improving query speed. These tables also standardize metrics by precomputing commonly used aggregations. 
 
-**Derived Facts** Derived facts build upon atomic facts, creating specialized views for specific analytical needs while maintaining clear lineage to source data. These tables serve three main purposes:
-
-1. **Performance Optimization** Large atomic fact tables can be filtered into focused subsets for specific business needs. For example, if a business analytics team regularly analyzes only 10% of a large event table, a derived fact can provide this subset, optimizing query performance and improving user experience.
-
-1. **Metric Standardization** Derived facts precompute commonly used aggregations, particularly beneficial for complex metrics:
-
-- Semi-additive measures like ratios that can't be summed across grains
-- Balance-type metrics such as ARR or retention numbers
-- Account balances that require specific aggregation rules
-
-1. **Cross-Process Analysis** Through "Drill Across Facts," derived facts can combine multiple fact tables using conformed dimensions. This process:
-
-- Links related business processes
-- Maintains dimensional consistency
-- Uses full outer joins on common dimensions
-- Creates unified analytical views
-
-Each derived fact maintains direct reference to its source atomic fact, ensuring clear lineage and auditability. This relationship should be clearly documented in the model's metadata, specifying whether it's an atomic or derived fact table.
-
-#### Fact Measures
-
-Facts typically contain three types of measures:
-
-1. **Additive**: Can be summed across any dimension
-
-- Revenue
-- Quantity sold
-- Count of events
-
-1. **Semi-Additive**: Can be summed across some dimensions
-
-- Account balances (sum across accounts, not time)
-- Inventory levels (sum across products, not time)
-
-1. **Non-Additive**: Cannot be summed, require other calculations
-
-- Ratios
-- Percentages
-- Unit prices
+Additionally, through "drill across facts", we can combine multiple fact tables through their shared conformed dimensions to create unified analytical views. By using full outer joins on common dimensions, this process creates derived fact tables that link related business processes while maintaining dimensional consistency, enabling analysis across multiple business areas.
 
 ### Special Purpose Tables
 
 #### Bridge Tables
 
 Bridge (`bdg_`) tables reside in the `common` schema and serve a crucial role in our dimensional model. These intermediate tables resolve many-to-many relationships between tables, maintaining data model flexibility while ensuring proper relationship management.
-
-#### Scaffold Tables
-
-Scaffold tables provide a foundational structure between fact tables, ensuring all potential dimensional combinations are represented in visualizations and analyses. They are particularly valuable when:
-
-- Working with visualization tools like Tableau
-- Analyzing sparse datasets
-- Comparing actuals against targets
-- Maintaining consistent time-based analysis
-
-##### Implementation Details
-
-- Reside in the `common_mart` schema
-- Use the `rpt_scaffold_` prefix
-- Build on top of fact tables
-- Maintain complete dimensional combinations
-
-#### Example Use Case
-
-When analyzing sales against targets, a scaffold table ensures proper day-by-day and attribute-by-attribute structure. This means:
-
-- Every day is represented, even without sales
-- All dimension combinations are maintained
-- Targets remain intact and visible
-- Analysis remains consistent across time periods
 
 ## Common Mart Schema
 
@@ -306,36 +238,15 @@ The mart layer transforms our dimensional model into subject-area specific datas
 
 ### Organization By Business Domain
 
-Mart models are typically organized by business function:
-
-- Finance
-- Marketing
-- People
-- Product
-- Sales
+Mart models are organized by business function, separating data into focused areas like Finance, Marketing, People, Product, and Sales. This functional organization allows each department to work with data that's specifically tailored to their analytical needs while still maintaining connections to the broader data warehouse through conformed dimensions.
 
 ### Key Characteristics
 
-1. **Built on EDM Foundation**
+Mart models are built directly on fact and dimension tables from the Enterprise Data Model, ensuring consistent business definitions and standardized relationships. To maintain data lineage and prevent complexity, they never reference other mart models as sources.
 
-- Uses fact and dimension tables as sources
-- Maintains consistent business definitions
-- Leverages standardized keys and relationships
-- Never built on other mart models
+Designed with analytics in mind, these models feature pre-joined tables for common query patterns and include frequently used calculations. The data grain is carefully considered to balance user needs with performance requirements.
 
-1. **Optimized for Analysis**
-
-- Pre-joined for common queries
-- Includes frequently used calculations
-- Maintains appropriate grain
-- Considers performance implications
-
-1. **Business-Oriented Design**
-
-- Named for business concepts
-- Documented in business terms
-- Structured for self-service
-- Supports common analysis patterns
+The design puts business users first by using familiar business terms for tables and fields, rather than technical language. This business-oriented structure and documentation supports self-service analytics by aligning with common analysis patterns, making the data more accessible and intuitive.
 
 ### Best Practices
 
@@ -345,6 +256,14 @@ Mart models are typically organized by business function:
 - Regular testing of business logic
 - Monitor usage patterns for optimization
 - Maintain clear lineage to source models
+
+### Special Purpose Tables
+
+#### Scaffold Tables
+
+Scaffold tables serve as a foundational structure between fact tables, ensuring comprehensive coverage of all possible dimensional combinations in visualizations and analyses. When working with visualization tools like Tableau, these tables become particularly valuable by filling in gaps and enabling consistent comparisons between actuals and targets. They're especially useful for time-based analysis, where you need to maintain a continuous view even when data points are missing. By providing this complete dimensional framework, scaffold tables help prevent misleading gaps in reports and dashboards, ensuring that analysts can see the full picture, including periods or combinations where no data exists. These scaffold tables reside in the common_mart schema with the rpt_scaffold_ prefix, building on top of fact tables while maintaining complete dimensional combinations.
+
+In our targets vs actuals reporting, we use a scaffold table to ensure data completeness and consistency. This table maintains a comprehensive structure that covers all time periods and attribute combinations, whether or not sales activity occurred. 
 
 ## Specific Schema
 
