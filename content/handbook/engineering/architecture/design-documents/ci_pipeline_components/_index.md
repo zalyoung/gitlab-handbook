@@ -47,7 +47,7 @@ Esecution:
 |-------------|-----|
 | Leadership  | Mark Nuzzo |
 | Product     | Dov Hershkovitch |
-| Engineering | Fabio Pitino, Avielle Wolfe, Laura Montemayor |
+| Engineering | Avielle Wolfe, Laura Montemayor |
 | UX          | Sunjung Park |
 
 Domain experts:
