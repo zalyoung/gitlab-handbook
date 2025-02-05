@@ -102,7 +102,7 @@ The [GitLab team handbook](/) is the central repository for how we run the compa
 
 - [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
-- [Security Policies](/handbook/security/#information-security-policies)
+- [Security Policies](/handbook/security/security-and-technology-policies/security-and-technology-policies-management/)
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Infrastucture Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Security Operational Risk Management (StORM) Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/)

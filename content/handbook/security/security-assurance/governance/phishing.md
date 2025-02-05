@@ -84,7 +84,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 *NOTE*
 
 - If the link provided in the phishing email is **NOT** clicked, but copy/pasted, that could also trigger the 'click', please refrain from trying to decipher the link.
-- If [Option 3](/handbook/security/#option-3) is used to report an email, this could also trigger the 'click' as the tracking image could be cached by the ATP and proxy services.
+- If Option 3 is used to report an email, this could also trigger the 'click' as the tracking image could be cached by the ATP and proxy services.
 
 Feel free to complete the assigned training and consider it as taking an extra step to stay secure!
 
