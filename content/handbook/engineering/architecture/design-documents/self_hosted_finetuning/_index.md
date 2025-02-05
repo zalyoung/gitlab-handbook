@@ -199,13 +199,14 @@ A PoC has been developed for Code Suggestions (code generation and completion) f
 For **manual** evaluations, the model has been deployed and tested with Duo Self-hosted in WebIDE. The finetuned model proposed code suggestions that are more aligned with the overall code structure, than vanilla Codestral-22B:
 
 [Results for manual evaluations in WebIDE](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2284037077)
+and [code completion results](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2285961471)
 
 In addition to the manual evaluations, the finetuned model was evaluated on several datasets where it also showed positive results (i.e. code suggestions were more aligned with existing code). 
 
-[Results using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
+[Results for Code Completion using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
 
 
-In the table below we present the results of evaluating the finetune model and base model on three different datasets.
+In the table below we present the results of evaluating the finetune model and base model on three different datasets on a code completion task.
 
 In the columns, the two numbers are: embedding similarity, exact match. Higher number is better (meaning results were more similar to the expected output).
 
