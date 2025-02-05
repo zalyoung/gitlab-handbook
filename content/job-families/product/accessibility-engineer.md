@@ -123,7 +123,7 @@ Candidates for these positions can expect the hiring process to follow this gene
    - Candidates will receive a brief technical exercise focusing on identifying and fixing accessibility issues.
    - Exercise should be completed before the technical interview.
    - Exercise will test both technical knowledge and problem-solving approaches.
-1. **Technical Interview** (1 hour)
+1. **Technical Interview Panel** (1 hour)
    - In-depth discussion of accessibility implementation experience.
    - Technical questions about HTML (including ARIA), CSS, JavaScript, WCAG, a11y testing tools and assistive technologies.
    - Review and discuss the technical exercise.
