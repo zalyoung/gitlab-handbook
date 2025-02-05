@@ -125,10 +125,11 @@ Candidates for these positions can expect the hiring process to follow this gene
    - Exercise will test both technical knowledge and problem-solving approaches.
 1. **Technical Interview** (1 hour)
    - In-depth discussion of accessibility implementation experience.
-   - Technical questions about WCAG, ARIA, and assistive technologies.
+   - Technical questions about HTML (including ARIA), CSS, JavaScript, WCAG, a11y testing tools and assistive technologies.
    - Review and discuss the technical exercise.
    - Discussion of accessibility testing methodologies.
 1. **Hiring Manager Interview** (1 hour)
+   - Experience with manual and automated a11y testing.
    - Experience with complex accessibility solutions.
    - Strategies for monitoring and maintaining accessibility compliance.
    - Working with engineers to implement solutions.
