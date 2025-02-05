@@ -85,40 +85,45 @@ As part of our commitment to aligning with GitLab's company goals, our team cond
 
 ## How we work
 
-### Philosophy 
-- We prioritize asynchronous communication and a handbook-first approach, in line with GitLab's all-remote, timezone-distributed structure.
-- We emphasize the [Maker's Schedule](https://www.paulgraham.com/makersschedule.html), focusing on productive, uninterrupted work.
-- Most critical recurring meetings are scheduled on Tuesdays and Thursdays.
-- We dedicate 3-4 hours weekly for focused learning and innovation. This protected time enables the team to explore emerging technologies, conduct proof-of-concepts, and stay current with industry trends. Meeting requests during these blocks require advance notice.
+### Philosophy
+
+- We prioritize asynchronous communication and a handbook-first approach, in line with GitLab's all-remote, timezone-distributed structure.  
+- We emphasize the [Maker's Schedule](https://www.paulgraham.com/makersschedule.html), focusing on productive, uninterrupted work.  
+- Most critical recurring meetings are scheduled on Tuesdays and Thursdays.  
+- We dedicate 3–4 hours weekly for focused learning and innovation. This protected time enables the team to explore emerging technologies, conduct proof-of-concepts, and stay current with industry trends. Meeting requests during these blocks require advance notice.  
 - All meeting agendas can be found in the [Team Shared Drive](https://drive.google.com/drive/folders/1uZg0J5hYsOUu3WMNR-PoAcmrhhmDxxoA?usp=drive_link) as well as in the meeting invite.
 
 ### Meetings/Events
 
-| Event                        | Cadence                                                                | Agenda                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| End-of-Week progress update  | Once a week (Wednesday)                                                | Summarize status, progress, ETA, and areas needing support in the weekly update in issues and Epics. We leverage [epic-issue-summaries bot](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) for automated status checks |
-| Team meeting | Twice a month on Tuesday 4:00 pm UTC | [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing) |
-| Monthly Social Time          | Monthly on last Thursday 4:00 pm UTC | No agenda, fun gathering. Choose one of the slots based on your timezone alignment. Read [Virtual team building](/handbook/finance/expenses/#team-building)                                                                                                                                                                                                                                                                                                                          |
-| Quarterly Business Report    | Quarterly                                                              | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61)                                                                                                                                                                                                                                                                                          |
-| 1:1 with Engineering Manager | Weekly                                                                 | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Team member's coffee chats   | once/twice a month                                                     | Optional meetings for team members to regularly connect                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Event                        | Cadence                                     | Agenda                                                                                                                                                          |
+|------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| End-of-Week progress update  | Once a week (Wednesday)                     | Summarize status, progress, ETA, and areas needing support in the weekly update in issues and Epics. We leverage [epic-issue-summaries bot](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) for automated status checks |
+| Team meeting                 | Twice a month on Tuesday 4:00 pm UTC        | [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing)                                                      |
+| Monthly Social Time          | Monthly on last Thursday 4:00 pm UTC        | No agenda, fun gathering. Choose one of the slots based on your timezone alignment. Read [Virtual team building](/handbook/finance/expenses/#team-building)     |
+| Quarterly Business Report    | Quarterly                                   | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61) |
+| 1:1 with Engineering Manager | Weekly                                      | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                |
+| Team member's coffee chats   | Once/twice a month                          | Optional meetings for team members to regularly connect                                                                                                        |
+
 ### Yearly Roadmap Planning
-- Each financial year, we create a roadmap to ensure visibility and alignment.    
+
+- Each financial year, we create a roadmap to ensure visibility and alignment.  
 - We conduct an intensive month-long exercise (usually in Q4) to gather input from stakeholders.  
-- DRIs take the lead drafting the roadmap using the [roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads).
+- DRIs take the lead drafting the roadmap using the [roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads).  
 - Once the roadmap is approved, during our bi‑weekly team meetings, we review progress, address blockers, and gather feedback on the planned roadmap work.
 
 ### Support Requests
-- If one finds a bug, needs assistance, or identifies an improvement opportunity then raise support requests ausing the `~"group::Development Analytics"` and `~"development-analytics::support-request"` labels. If the issue is urgent, escalate to the designated slack channels.    
-- The team reviews the [support request board](https://gitlab.com/groups/gitlab-org/-/boards/9098093?label_name%5B%5D=development-analytics%3A%3Asupport-request) and prioritizes accordingly. Generally, the team reserve ~20% of weekly time is allocated to support tasks, though this may vary based on current priorities.  
 
-### Tools/Repository Maintanance 
-- Team does not automatically watch every new issue created in each group owned repositories — we request to use the group labels or escalate in Slack to ensure visibility.
-- We highly promote self-served Merge Requests. If one already identifed a fix or improvement, we request to open an MR for faster turnaround. The `~group::development analytics` maintainers will review and merge as appropriate.
-- Feature work and bug fixes follow the team’s current priorities.
-- Find the version management rituals for `~group::development analytics` owned repositories - 
+- If one finds a bug, needs assistance, or identifies an improvement opportunity then raise support requests using the `~"group::Development Analytics"` and `~"development-analytics::support-request"` labels. If the issue is urgent, escalate to the designated Slack channels.  
+- The team reviews the [support request board](https://gitlab.com/groups/gitlab-org/-/boards/9098093?label_name%5B%5D=development-analytics%3A%3Asupport-request) and prioritizes accordingly. Generally, the team reserves ~20% of weekly time for support tasks, though this may vary based on current priorities.
 
-| Repository                             | Release Process                                                                                |
+### Tools/Repository Maintanance
+
+- Team does not automatically watch every new issue created in each group-owned repository—use the group labels or escalate in Slack to ensure visibility.  
+- We highly promote self-served Merge Requests. If one already identified a fix or improvement, we request opening an MR for faster turnaround. The `~group::development analytics` maintainers will review and merge as appropriate.  
+- Feature work and bug fixes follow the team’s current priorities.  
+- Find the version management rituals for `~group::development analytics` owned repositories:
+
+| Repository                             | Release Process                                                                                 |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|
 | **gitlab-roulette**                    | Version updates are not scheduled on a set cadence. A release can be cut whenever a version-update MR is submitted. |
 | **gitlab-dangerfiles**                 | Same as above—no regular cadence; release triggered by a version-update MR.                     |
@@ -126,5 +131,5 @@ As part of our commitment to aligning with GitLab's company goals, our team cond
 | **engineering-productivity-infrastructure** | Dependency update MRs are generated by Renovate bot.                                            |
 
 ### Automated Label Migration
-For details on label migration, see the [Handbook entry for creating label migration triage policy with GitLab Duo Workflow](https://handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/create-triage-policy-with-gitlab-duo-workflow-guide).
 
+For details on label migration, see the [Handbook entry for creating label migration triage policy with GitLab Duo Workflow](https://handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/create-triage-policy-with-gitlab-duo-workflow-guide).
