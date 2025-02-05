@@ -23,7 +23,9 @@ Dimensional modeling is part of the Business Dimensional Lifecycle methodology d
 
 - [dbt Discourse about Kimball dimensional modelling](https://discourse.getdbt.com/t/is-kimball-dimensional-modeling-still-relevant-in-a-modern-data-warehouse/225/6) in modern data warehouses including some important ideas why we should still use Kimball
 - [Dimensional modelling manifesto](https://www.kimballgroup.com/1997/08/a-dimensional-modeling-manifesto/)
-- [Dimensional Modelling techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) by Kimball Group
+- [Dimensional Modelling techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
+- [Kimball bus matrix](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/kimball-data-warehouse-bus-architecture/)
+- The [Dimensional Modelling Development Process](/handbook/enterprise-data/data-development/#trusted-data-development) covers our modeling standards, including naming conventions.
 
 ### Core Concepts
 
@@ -49,13 +51,7 @@ Dimensional models are built in four key steps:
 
 ### Benefits of Dimensional Modeling
 
-1. Industry-standard design proven successful over decades
-1. Easy to understand and access data structures suitable for business teams
-1. Centralized implementation of business logic and consistent definitions
-1. Support for "plug and play" of new subject areas
-1. Increased model power as dimensions are added
-
-The dimensional model grows stronger over time as more dimensions are added, providing a flexible and scalable foundation for enterprise analytics.
+Dimensional modeling offers a proven, industry-standard approach that makes data easily accessible to business teams while maintaining consistent definitions. Its flexible architecture allows seamless integration of new subject areas, and its analytical power grows as dimensions are added, creating an increasingly robust foundation for enterprise analytics.
 
 ## Schemas
 
@@ -134,12 +130,12 @@ Dimension tables supply the descriptive attributes that give context to our busi
 
 #### Common Types of Dimensions
 
-1. **Conformed Dimensions** Conformed dimensions enable facts and measures to be consistently categorized and described across multiple fact tables and data marts. These dimensions maintain consistent meaning across multiple fact tables. This standardization ensures reliable analytical reporting and promotes reusability throughout the data warehouse. When properly implemented, each subject area can be analyzed independently while maintaining the ability to combine insights with related areas. However, this cross-area analysis capability breaks down if dimensions have even slight variations between subject areas. Kimball refers to this standardized set of shared dimensions as the "conformance bus", which facilitates seamless integration of common dimensions and enables comprehensive reporting across multiple subject areas. Examples include:
+**Conformed Dimensions** Conformed dimensions enable facts and measures to be consistently categorized and described across multiple fact tables and data marts. These dimensions maintain consistent meaning across multiple fact tables. This standardization ensures reliable analytical reporting and promotes reusability throughout the data warehouse. When properly implemented, each subject area can be analyzed independently while maintaining the ability to combine insights with related areas. However, this cross-area analysis capability breaks down if dimensions have even slight variations between subject areas. Kimball refers to this standardized set of shared dimensions as the "conformance bus", which facilitates seamless integration of common dimensions and enables comprehensive reporting across multiple subject areas. Examples include:
 
 - Date dimensions used across various business processes
 - Customer dimensions used in sales and marketing
 
-1. **Local Dimensions** Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
+**Local Dimensions** Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
 
 - Support ticket status
 - Order types
@@ -159,21 +155,21 @@ Data analysis typically requires two viewpoints: current and historical. The cur
 
 We implement three approaches to handle time-based changes:
 
-1. **Type 1 Dimensions**
+**Type 1 Dimensions**
 
 - Overwrite values when they change
 - Maintain only current state
 - Provide simplest implementation
 - Lose historical context
 
-1. **Type 2 Dimensions (SCD)**
+**Type 2 Dimensions (SCD)**
 
 - Add new records for changes
 - Track validity periods with `valid_from` and `valid_to` dates
 - Enable historical analysis
 - Maintain complete change history
 
-1. **Type 3 Dimensions**
+**Type 3 Dimensions**
 
 - Maintain current and alternate values
 - Enable multiple analytical perspectives
@@ -229,12 +225,7 @@ The Common Mart schema combines dimensions and facts into business-ready analyti
 
 ### Purpose and Structure
 
-The mart layer transforms our dimensional model into subject-area specific datasets that:
-
-- Combine relevant facts and dimensions
-- Pre-join commonly used attributes
-- Apply standard business rules
-- Optimize for specific use cases
+The mart layer transforms our dimensional model into business-specific datasets that combine relevant facts and dimensions. By pre-joining common attributes and applying standard business rules, marts optimize data for specific analytical needs within each business domain.
 
 ### Organization By Business Domain
 
