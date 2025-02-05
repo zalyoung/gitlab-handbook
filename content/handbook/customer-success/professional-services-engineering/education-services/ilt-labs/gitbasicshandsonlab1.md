@@ -29,7 +29,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
-1. Click on the '**Create a project tile**.
+1. Click on the **Create a project tile**.
 
    > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
