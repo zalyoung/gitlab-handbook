@@ -9,11 +9,11 @@ Clearly defining success is essential to ensuring we, as a Talent Acquisition te
 
 For more information on how this relates to positions and levels in our function, reference our growth profiles below.
 
-**Growth Profiles**: [Talent Acquisition Team]("docs.google.com/spreadsheets/d/1oRaiTSzt2RrFHDpHQymfW6WR4sAorkzYgJZOij0KpvA/edit?gid=861222616#gid=861222616")
+**Growth Profiles**: [Talent Acquisition Team](https://docs.google.com/spreadsheets/d/1oRaiTSzt2RrFHDpHQymfW6WR4sAorkzYgJZOij0KpvA/edit?gid=861222616#gid=861222616)
 
 ## Functional Productivity KPIs
 
-Each quarter, the Talent Acquisition team reports out on 4 top line productivity metrics as a function. Reports can be accessed [in this folder]("drive.google.com/drive/folders/1kfTQkd_PAgvFPrgogCLZD7opMW2wiKBS?usp=drive_link") by internal team members.
+Each quarter, the Talent Acquisition team reports out on 4 top line productivity metrics as a function. Reports can be accessed [in this folder](https://drive.google.com/drive/folders/1kfTQkd_PAgvFPrgogCLZD7opMW2wiKBS?usp=drive_link) by internal team members.
 
 1. Achievement against our External Hiring Target
 1. Average Time to Fill (period of time for a requisition opening to hire)
@@ -53,6 +53,6 @@ In addition to defining our KPIs, we have also invested in our tooling to track 
 
 Dashboards
 
-1. [Recruiting Productivity Dashboard]("10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/ProgresstoGoal?:iid=1")
+1. [Recruiting Productivity Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/ProgresstoGoal?:iid=1)
 
-1. [Recruiter Scorecard]("10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/RecruiterScorecard?:iid=1")
+1. [Recruiter Scorecard](https://10az.online.tableau.com/#/site/gitlab/views/TADemoDashboard/RecruiterScorecard?:iid=1)
