@@ -26,16 +26,16 @@ The Intermediate Partner Technical Enablement Specialist is a [grade 6](/handboo
 - Certification & Skills Assessment: Manage and administer a certification program to validate and recognize partner competencies. Assess and identify areas for improvement in partner skill sets and tailor training programs accordingly. Support evaluation and assessment of partner capabilities.
 - Product Expertise & Evangelism: Stay current with product updates, enhancements, and best practices, acting as a technical evangelist to partners. Provide partners with the latest technical insights to ensure high-quality and up-to-date services delivery.
 - Feedback & Program Improvement: Gather and analyze feedback from partners to continually refine and improve technical training programs, documentation, and other enablement resources.
-- Collaboration & Cross-Functional Engagement: Collaborate closely with internal teams, including Product, Engineering, and Global Services, to ensure partners are trained on the latest technical capabilities and use cases. Escalate complex issues that may arise. 
+- Collaboration & Cross-Functional Engagement: Collaborate closely with internal teams, including Product, Engineering, and Global Services, to ensure partners are trained on the latest technical capabilities and use cases. Escalate complex issues that may arise.
 - Stay up to date on new GitLab releases and support the alignment of services offerings to new features and functionality.
 - Ensure a robust closed feedback loop that embraces continuous improvement and iteration.
-- Identify and act on opportunities to improve the customer experience via innovative services/training offerings.
+- Identify and act on opportunities to improve the customer experience through innovative services/training offerings.
 - Tracks and reports success metrics for partner enablement initiatives.
 
 #### Intermediate Partner Technical Enablement Specialist Requirements
 
 - Knowledge and familiarity with the Software Development Life Cycle, DevOps, and DevSecOps required (open source software knowledge and familiarity considered a plus).
-- Technical Background: Technical background with hands-on experience in software implementation, support, or consulting. 
+- Technical Background: Technical background with hands-on experience in software implementation, support, or consulting.
 - Understanding of software build tools such as Maven, Ant, Jenkins, and Gradle and familiarity with relevant technical domains such as package managers, containerization technologies (Docker, Kubernetes, OpenShift) and at least one cloud technology (AWS, Azure, GCP).
 - Training & Instructional Skills: Proven experience in developing and delivering technical training to external audiences. Ability to translate technical concepts into digestible training content for partners of varying technical proficiency.
 - Problem-Solving & Technical Advisory Skills: Adept at troubleshooting technical issues and providing effective solutions, particularly in customer-facing or partner-facing scenarios.
@@ -61,7 +61,7 @@ The Senior Partner Technical Enablement Specialist is a [grade 7](/handbook/tota
 #### Senior Partner Technical Enablement Specialist Responsibilities
 
 - Technical Training Development & Delivery: Create and deliver comprehensive technical training programs (both virtual and in-person) for partners, covering installation, configuration, customization, and troubleshooting of our software products.
-- Enablement Resources & Content Creation: Develop technical enablement assets such as guides, how-to videos, certification exams, and hands-on labs to empower partners at different technical skill levels. Create the roadmap for strategic initiatives, identify new enablement opportunitieis, and influence the overall partner enablement strategy.  Create Standardized delivery tools for internal and external use.
+- Enablement Resources & Content Creation: Develop technical enablement assets such as guides, how-to videos, certification exams, and hands-on labs to empower partners at different technical skill levels. Create the roadmap for strategic initiatives, identify new enablement opportunities, and influence the overall partner enablement strategy.  Create Standardized delivery tools for internal and external use.
 - Partner Onboarding: Lead the technical component of partner onboarding, ensuring partners quickly gain the expertise needed to deploy and support our solutions in various environments.
 - Technical Support & Advisory: Act as a technical advisor and point of contact for partners, providing support during complex customer implementations, and troubleshooting technical issues.
 - Certification & Skills Assessment: Manage and administer a certification program to validate and recognize partner competencies. Assess and identify areas for improvement in partner skill sets and tailor training programs accordingly. Create a process to evaluate and assess partner capabilities.
@@ -70,20 +70,20 @@ The Senior Partner Technical Enablement Specialist is a [grade 7](/handbook/tota
 - Collaboration & Cross-Functional Engagement: Collaborate closely with internal teams, including Product, Engineering, and Professional Services, to ensure partners are trained on the latest technical capabilities and use cases. Manage relationships with stakeholders to resolve complex issues and serve as an escalation point across those teams related to partner enablement content.
 - Align services practices to new GitLab releases and resolve functionality conflicts based on deprecations.
 - Ensure a robust closed feedback loop that embraces continuous improvement and iteration.
-- Identify and act on opportunities to improve the customer experience via innovative services/training offerings.
+- Identify and act on opportunities to improve the customer experience through innovative services/training offerings.
 - Defines success metrics for partner enablement initiatives, analyzes trends, and makes data-driven recommendations for program improvements.
-- Mentor other members of the team, providing guidance on complex technical issues and help develop best practices. 
+- Mentor other members of the team, providing guidance on complex technical issues and help develop best practices.
 
 #### Senior Partner Technical Enablement Specialist Requirements
 
 - Knowledge and familiarity with the Software Development Life Cycle, DevOps, and DevSecOps required (open source software knowledge and familiarity considered a plus).
-- Technical Background: Strong technical background with hands-on experience in software implementation, support, or consulting. 
+- Technical Background: Strong technical background with hands-on experience in software implementation, support, or consulting.
 - Deep understanding of software build tools such as Maven, Ant, Jenkins, and Gradle and familiarity with relevant technical domains such as package managers, containerization technologies (Docker, Kubernetes, OpenShift) and cloud technologies (AWS, Azure, GCP).
 - Training & Instructional Skills: Proven experience in developing and delivering technical training to external audiences. Strong ability to translate complex technical concepts into digestible training content for partners of varying technical proficiency.
 - Problem-Solving & Technical Advisory Skills: Adept at troubleshooting complex technical issues and providing effective solutions, particularly in customer-facing or partner-facing scenarios.
 - Communication & Presentation Skills: Excellent verbal and written communication skills, with the ability to convey technical concepts clearly and engage an audience during training sessions.
 - Relationship Building & Partner Focus: Demonstrated ability to build strong relationships with partners and provide a high level of support and engagement to help them succeed.
-- Continuous Learning & Adaptability: Enthusiastic about staying up to date with evolving technologies and product developments, with a willingness to adapt training materials as needed. Demonstrated thought leadership, stays ahed of industry trends and provides strategic direction.
+- Continuous Learning & Adaptability: Enthusiastic about staying up to date with evolving technologies and product developments, with a willingness to adapt training materials as needed. Demonstrated thought leadership, stays ahead of industry trends and provides strategic direction.
 - Exceptional written/verbal communication skills.
 - Team leader with strong interpersonal skills, skilled at organizing development efforts and cross-functional collaboration.
 - Experienced in giving and receiving constructive feedback.
