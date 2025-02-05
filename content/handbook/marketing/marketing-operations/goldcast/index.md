@@ -44,4 +44,3 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 | UTM Content |original UTM content|Only update if target is empty|
 | UTM Content |last UTM content|Always update|
 
-Placeholder
