@@ -56,8 +56,7 @@ For other instances such as a [Relocation](/handbook/people-group/relocation/), 
 
 For US team members who are changing from the Federal entity to Inc, or Inc to Federal, a job change letter will need to be created. Add the below verbiage to the appropriate letter template:
 
-- Transfer: GitLab is pleased to inform you that you are receiving a transfer to GitLab Inc as{{JOB_TITLE}} effective as of {{START_DATE}}.
-- Promotion: Add a section, Entity, above the compensation details and list the new entity.
+- GitLab is pleased to inform you that you are receiving a [transfer OR promotion] to [GitLab Inc OR GitLab Federal, LLC] as {{JOB_TITLE}} effective as of {{START_DATE}}.
 
 ### Background Screenings
 
