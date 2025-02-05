@@ -96,9 +96,9 @@ The idea is based on 2 pre-requisites:
 1. When a key needs to be rotated, just add a new one to the tail of the
    `db_key_base` / `active_record_encryption_primary_key` / `active_record_encryption_deterministic_key` arrays in
    `config/secrets.yml`, and restart GitLab. In multi-nodes installations, the new key deployment should happen in two
-   phases: First add the key at the head of the keys array and for it to be deployed everywhere; then move the key to
+   phases: First add the key at the head of the keys array and wait for it to be deployed everywhere; then move the key to
    the tail of the keys array and start a new deployment.
-1. Once deployed, the new key becomes the current encryption key.
+1. Once deployed at the tail of the keys array, the new key becomes the current encryption key.
 1. The decryption process uses the key that was used to encrypt the data.
    In the case the encryption key ID isn't stored alongside the encrypted data, the decryption process tries
    each key (in the order they appear in the key arrays), until it can decrypt the data.
