@@ -5,7 +5,13 @@ description: "Performance Enablement team within Developer Experience sub-depart
 
 ![Emerald City](images/DALL·E%20Emerald%20City.webp)
 
-Performance Enablement team vision is to build and maintain a framework which enables internal teams to build reliable systems and deliver seamless customer experiences. Our mission is to transform GitLab's performance testing from reactive to proactive while fostering a culture of performance awareness by providing:
+## Mission
+
+To build and maintain a framework/developer portal which enables internal teams to develop reliable systems and deliver seamless customer experiences.
+
+## Vision
+
+To transform GitLab's performance testing from reactive to proactive while fostering a culture of performance awareness by providing:
 
 - Optimized and efficient feedback loops
   - Faster times between test execution and result analysis
@@ -15,15 +21,15 @@ Performance Enablement team vision is to build and maintain a framework which en
   - Improve documentation for better clarity and accessibility of performance testing best practices and available tooling
   - Simplify complexity in tools and dashboards used for performance testing
 - Improved flow state
-  - Define clear objectives for success criteria of performance readiness of features
+  - Define feature readiness at the performance level
   - Ensure self-servicing of performing performance testing at the adequate layer of the SDLC
 
-The first four pillars in the Emerald City will be:
+The first four pillars in the roadmap will be:
 
 - Operational Verification
 - Self-Service Feature Performance
-- Observability Performance
-- Realistic Data Store
+- Shift performance testing left
+- Performance testing with realistic data
 
 Journey Diagram
 
