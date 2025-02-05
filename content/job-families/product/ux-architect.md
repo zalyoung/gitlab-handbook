@@ -135,8 +135,8 @@ Candidates can expect the hiring process to follow the order below, although it 
 
 Candidates should be prepared to:
   
-  - Present examples of complex system architecture work.
-  - Discuss methodology for tackling large-scale information architecture challenges.
-  - Show strong technical understanding and ability to collaborate with engineering.
-  - Explain approaches to architectural decision-making and documentation.
+- Present examples of complex system architecture work.
+- Discuss methodology for tackling large-scale information architecture challenges.
+- Show strong technical understanding and ability to collaborate with engineering.
+- Explain approaches to architectural decision-making and documentation.
    
