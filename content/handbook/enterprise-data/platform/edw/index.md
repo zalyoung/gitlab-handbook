@@ -15,56 +15,6 @@ Our warehouse architecture is organized into four distinct schemas:
 1. **WORKSPACE Schema:** Provides a flexible environment for experimentation and prototyping, serving as a staging area for future EDM solutions.
 1. **LEGACY Schema:** Maintains historical modeling approaches as we strategically deprecate and migrate critical systems to our modern architecture.
 
-## The Data Journey
-
-The journey from raw data to dimensional models follows a carefully orchestrated path through three distinct layers:
-
-```mermaid
-flowchart LR
-    Staging --> Preparation --> Modeling
-```
-
-### Foundational Principles for Preparing Data Models
-
-The following principles guide how we prepare data for use in data models. These principles form the foundation for what changes should be made to data and help categorize where and when those changes will be made. While these principles provide guidance, individual developers must rely on subject matter knowledge and their understanding of the craft to apply these principles effectively.
-
-### Staging Layer
-
-The staging layer forms our foundation, where we first conform the data to GitLab standards. This standardization occurs as close to the source as possible, ensuring clean, reliable data for downstream processes. Key aspects include:
-
-- Conforming column names and data types to GitLab standard conventions
-- Establishing consistent handling of NULL and blank values
-  - Converting blank values to NULL
-  - Setting appropriate defaults when NULL values are not acceptable
-- Normalizing column names to improve readability and self-documentation
-- Avoiding repetitive naming across data models
-
-These transformations ensure expected behavior in downstream processes and help catch malformed data early in the pipeline.
-
-### Preparation Layer
-
-In the preparation layer, business logic meets data. This layer encompasses:
-
-- Filtering malformed records
-- Creating calculated fields
-- Deriving fields and records
-- Applying business logic and quality tests
-
-These transformations should be separated from staging steps to improve maintainability and readability. While many transformations can be performed in a single data model, separate and sequential models may be used when doing so increases readability or maintainability.
-
-For record derivation (such as date interval expansion), it's best to delay processing as long as possible to manage potential performance issues. Field derivation, which requires combining multiple data models, should be performed where it adds the least complexity and minimizes dataset size increases.
-
-### Modeling Layer
-
-The final modeling layer transforms our prepared data into business-ready structures. This layer:
-
-- Implements specific business requirements
-- Optimizes for analytics
-- Creates fact and dimension tables
-- Applies transformations driven by specific business use cases
-
-The transformations in this step should be derived from specific business requirements that couldn't be applied at a broader scale. The result enables self-service analytics while maintaining high performance standards.
-
 ## Dimensional Modeling Fundamentals
 
 Dimensional modeling is part of the Business Dimensional Lifecycle methodology developed by [Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball). It presents data in a standard, intuitive framework that allows for high-performance access while maintaining business process orientation.
