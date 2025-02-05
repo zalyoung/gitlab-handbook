@@ -13,7 +13,7 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 
 - Strong understanding of WCAG 2.1, Section 508, and EN 301 549 guidelines and accessibility standards.
 - Experience with assistive technologies (screen readers, voice recognition software, etc.).
-- Proficiency in HTML, CSS, ARIA, and JavaScript.
+- Proficiency in HTML (including ARIA roles and attributes), CSS, and JavaScript.
 - Knowledge of automated accessibility testing tools and methodologies.
 - Experience conducting manual accessibility audits.
 - Ability to use GitLab.
@@ -35,11 +35,11 @@ The Accessibility Engineer is a [grade 6](/handbook/total-rewards/compensation/c
 
 ##### Responsibilities
 
-- **Technical Implementation**: Implement accessibility solutions using semantic HTML, CSS, ARIA, and JavaScript following WCAG guidelines.
+- **Technical Implementation**: Implement accessibility solutions using semantic HTML (including ARIA roles and attributes), CSS and JavaScript, following WCAG guidelines.
 - **Accessibility Testing**: Conduct automated and manual accessibility testing using various tools and assistive technologies.
 - **Documentation**: Create and maintain accessibility documentation, including guidelines and best practices.
 - **Code Review**: Review code changes for accessibility compliance and provide actionable feedback.
-- **Training**: Provide basic accessibility training and guidance to development teams.
+- **Training**: Provide basic accessibility training and guidance to UX and development teams.
 - **Bug Fixes**: Implement fixes for identified accessibility issues.
 - **Standards**: Keep up-to-date with accessibility standards and emerging technologies.
 - **Collaboration**: Work with designers and engineers to ensure accessibility is considered early in the development process.
