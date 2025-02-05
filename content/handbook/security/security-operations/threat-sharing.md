@@ -18,7 +18,7 @@ GitLab uses [Traffic Light Protocl](https://www.cisa.gov/news-events/news/traffi
 
 ## Prohibited Data Sharing
 
-While GitLab may diclose in a shared channel or forum threat intelligence information that may be pertinent to third-parties or customers, the following classifcations of data should not be shared in these channels and forums:
+While GitLab may disclose in a shared channel or forum threat intelligence information that may be pertinent to third-parties or customers, the following classifcations of data should not be shared in these channels and forums:
 
 - [Red Data](https://handbook.gitlab.com/handbook/security/data-classification-standard/#red)
 - [unSAFE Data](https://handbook.gitlab.com/handbook/legal/safe-framework/#what-if-unsafe-information-is-shared)
