@@ -116,26 +116,27 @@ A Staff UX Architect is expected to meet the base requirements and execute their
 Candidates can expect the hiring process to follow the order below, although it can change depending on calendar availability.
 
 - **Recruiter Call** (30 minutes)
-   - Screening call to discuss experience, assess basic qualifications and communications skills.
-   - Quickly align on compensation expectations and availability.
-   - Learn why you want to join GitLab.   
+  - Screening call to discuss experience, assess basic qualifications and communications skills.
+  - Quickly align on compensation expectations and availability.
+  - Learn why you want to join GitLab.   
 - **Hiring Manager interview** (1 hour)
-   - Deep review of portfolio, examining case studies and methodologies.
-   - Focus on decision-making process and problem-solving approaches.
-   - Discuss research methodologies and how they influence IA decisions.
-   - Understand approach to scalable architecture.
+  - Deep review of portfolio, examining case studies and methodologies.
+  - Focus on decision-making process and problem-solving approaches.
+  - Discuss research methodologies and how they influence IA decisions.
+  - Understand approach to scalable architecture.
 - **PM and Engineering interview** (50 minutes)
-   - Focus on collabration with product and engineering teams.
-   - Determine skills alignment with stage group.
-   - In-depth discussion of 2-3 key portfolio projects.
--  **Product Designer interview** (50 minutes)
-   - TBD
+  - Focus on collabration with product and engineering teams.
+  - Determine skills alignment with stage group.
+  - In-depth discussion of 2-3 key portfolio projects.
+- **Product Designer interview** (50 minutes)
+  - TBD
 - **Senior Product Design Manager interview** (1 hour)
-   - TBD
+  - TBD
 
 Candidates should be prepared to:
-   - Present examples of complex system architecture work.
-   - Discuss methodology for tackling large-scale information architecture challenges.
-   - Show strong technical understanding and ability to collaborate with engineering.
-   - Explain approaches to architectural decision-making and documentation.
+  
+  - Present examples of complex system architecture work.
+  - Discuss methodology for tackling large-scale information architecture challenges.
+  - Show strong technical understanding and ability to collaborate with engineering.
+  - Explain approaches to architectural decision-making and documentation.
    
