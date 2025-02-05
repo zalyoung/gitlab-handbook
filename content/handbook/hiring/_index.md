@@ -34,10 +34,8 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 ### Team Process Pages
 
-- [TA Key Performance Indicators](https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/) Note: this page is currently in our internal handbook as they are a work in progress.
 - [Meeting Cadence](/handbook/hiring/meetings)
 - [Talent Acquisition Alignment](/handbook/hiring/recruiting-alignment/)
-- [Diversity, Inclusion & Belonging Talent Acquisition Initiatives](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)
 - [Triad Process](/handbook/hiring/talent-acquisition-framework/triadprocess/)
 - [Quarterly Updates](https://internal.gitlab.com/handbook/people-group/talent-acquisition/quarterly-updates/) Note: Internal only
 
