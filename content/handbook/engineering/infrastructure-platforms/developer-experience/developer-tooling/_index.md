@@ -59,8 +59,8 @@ Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=c
 ## Communication
 
 | Description            | Link                                                                                                           |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **GitLab Team Handle** | [`@gl-dx/tooling-team`](https://gitlab.com/gl-dx/tooling-team)                                                 |
+| ---------------------- |----------------------------------------------------------------------------------------------------------------|
+| **GitLab Team Handle** | [`@gl-dx/developer-tooling`](https://gitlab.com/gl-dx/developer-tooling)                                       |
 | **Slack Channel**      | [`#g_developer_tooling`](https://gitlab.enterprise.slack.com/archives/C07UW7F3FL2)                             |
 | **Team Boards**        | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/8974136?label_name[]=team%3A%3ADeveloper%20Tooling) |
 | **Issue Tracker**      | [`gitlab-org/dx/tooling/team`](https://gitlab.com/gitlab-org/quality/tooling/team/-/issues/)                   |

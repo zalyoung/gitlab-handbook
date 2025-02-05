@@ -56,7 +56,7 @@ The GitLab Performance Tool is run against the existing reference architectures 
 the latest Nightly release of GitLab. This allows us to catch and triage degradations early in
 the process so that we can try to implement fixes before a new release is created. If problems are
 found, issues are created for degraded endpoints and are then prioritized during the weekly
-[Bug Refinement](../#bug-refinement) meeting.
+Bug Refinement meeting.
 
 High-level GPT pipeline overview:
 
