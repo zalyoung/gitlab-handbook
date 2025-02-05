@@ -187,7 +187,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_montreal`](https://app.slack.com/client/T02592416/CT83NVCA3) |  |
 | [`#loc_moscow`](https://app.slack.com/client/T02592416/CK9LK96LE) |  |
 | [`#loc_mt`](https://app.slack.com/client/T02592416/C01J5BAPPU4) | Montana GitLab Team Members |
-| [`#loc_munich`](https://app.slack.com/client/T02592416/CM25953MH) | As of today none of us seems to be living in Munich. But there are Meetups and Events and maybe also occasions to meet in Munich for some co-working. Here we can team up. |
+| [`#loc_munich`](https://app.slack.com/client/T02592416/CM25953MH) | 🎡 A lot of people from Germany live in and around Munich. Additionally, there is a bi-weekly calendar series for co-working sessions. |
 | [`#loc_n-ireland`](https://gitlab.slack.com/archives/C03V4FEEQE7) | N.Ireland slack channel, so it is |
 | [`#loc_nashville`](https://gitlab.slack.com/archives/loc_nashville) | Nashvillians Unite! |
 | [`#loc_newengland`](https://app.slack.com/client/T02592416/CJV0FMCH4) | Channel for those located in New England |
