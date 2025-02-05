@@ -9,7 +9,7 @@ Clearly defining success is essential to ensuring we, as a Talent Acquisition te
 
 For more information on how this relates to positions and levels in our function, reference our growth profiles below.
 
-**Growth Profiles**: [Talent Acquisition Team]("https://docs.google.com/spreadsheets/d/1oRaiTSzt2RrFHDpHQymfW6WR4sAorkzYgJZOij0KpvA/edit?gid=861222616#gid=861222616")
+**Growth Profiles**: [Talent Acquisition Team]("docs.google.com/spreadsheets/d/1oRaiTSzt2RrFHDpHQymfW6WR4sAorkzYgJZOij0KpvA/edit?gid=861222616#gid=861222616")
 
 ## Functional Productivity KPIs
 
