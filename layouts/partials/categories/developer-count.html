@@ -10,7 +10,8 @@
 {{- range $team }}
     {{- range $key, $category := $teamCategories }}
         {{- if in $.departments $category.tag }}
-            {{- $category.members = $category.members | append . }}
+            {{- $newMembers := $category.members | append . }}
+            {{- $category = merge $category (dict "members" $newMembers) }}
         {{- end }}
     {{- end }}
 {{- end }}
@@ -24,7 +25,7 @@
 <table>
     <thead>
         <tr>
-            <td></td>
+            <th>Total Engineers</th>
             {{- range $category := $teamCategories }}
                 {{- if gt (len .members) 0 }}
                 <th>{{ .name }}</th>
@@ -35,13 +36,12 @@
     </thead>
     <tbody>
         <tr>
-            <th>Total Engineers</th>
+            <td class="text-center">{{ $totalEngineers }}</td>
             {{- range $category := $teamCategories }}
                 {{- if gt (len .members) 0 }}
                 <td class="text-center">{{ len .members }}</td>
                 {{- end }}
             {{- end }}
-            <td class="text-center">{{ $totalEngineers }}</td>
         </tr>
     </tbody>
 </table>
