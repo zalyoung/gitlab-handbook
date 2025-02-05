@@ -1,18 +1,18 @@
 ---
 title: Pipeline Triage
-description: Overview of our pipeline triage processes
+description: Overview of GitLab's E2E Pipeline Triage processes
 ---
 
 ## Overview
 
-These guidelines gives team members on pipeline triage an idea on the priorities and processes that come with this responsibility. This builds from the information provided in [On-Call Rotation](../oncall-rotation.md).
+These guidelines gives GitLab team members on pipeline triage an idea on the priorities and processes that come with this responsibility. This builds from the information provided in [On-Call Rotation](oncall-rotation.md).
 
-This guide is an extension of the [Broken `master`](../../../workflow/_index.md#broken-master) engineering workflow and is intended to provide a more specific guide on how to triage end-to-end test pipeline failures.
+This guide is an extension of the [Broken `master`](/handbook/engineering/workflow/#broken-master) engineering workflow and is intended to provide a more specific guide on how to triage end-to-end test pipeline failures.
 
-The Pipeline triage [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for analyzing and debugging test pipeline failures. Please refer to the [DRI weekly rotation schedule](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) to know who the current DRIs are.
+The Pipeline triage [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for analyzing and debugging test pipeline failures. Please refer to the [DRI weekly rotation schedule](https://gitlab.com/gitlab-org/developer-experience/pipeline-triage#dri-weekly-rotation-schedule) to know who the current DRIs are.
 
 NOTE:
-For information regarding debugging test pipeline failures, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/)
+For information regarding debugging test pipeline failures, check out [Debugging Failing E2E Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
 
 ## General guidelines
 
@@ -22,11 +22,11 @@ For information regarding debugging test pipeline failures, check out [Debugging
 - **Close test failure issue (e.g example [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/412769)) when the test is moved out of quarantine**: Quarantine issues should not be closed unless tests are moved out of quarantine.
 - **Quarantine issues should be assigned and scheduled**: To ensure that someone is owning the issue, it should be assigned with a milestone set and have appropriate `~"quarantine"`, quarantine with type (e.g. `~"quarantine::bug"`) and failure with type (e.g. `~"failure::bug"`) labels.
 - **Make relevant stage group aware**: When a test fails no matter the reason, an issue with related product group label (e.g. `~"group::ide"`) should be created and made known to the relevant product stage group as soon as possible.
-In addition to notifying that a test in their domain fails, enlist help from the group as necessary.
+  In addition to notifying that a test in their domain fails, enlist help from the group as necessary.
 - **Failure due to bug**: If one or multiple test failure(s) is a result of a bug, create a bug issue and provide as much details as possible (e.g. using issue's Bug template, provide steps to reproduce, relevant screenshots, etc.). Link the **all** related test failure issues to the bug issue. Apply `~"type::bug"`, severity, priority, product group, feature category, etc. labels to ensure a fix is scheduled in a timely manner.
-Test failure issues are used for tracking and investigating purposes, they should not have `~"type::bug"` label. If the test failure is a result of a bug, apply `~"failure::bug"` label instead.
+  Test failure issues are used for tracking and investigating purposes, they should not have `~"type::bug"` label. If the test failure is a result of a bug, apply `~"failure::bug"` label instead.
 - **Everyone can fix a test, the responsibility falls on the last who worked on it**: Anyone can fix a failing/flaky test, but to ensure that a quarantined test isn't ignored,
-the last engineer who worked on the test is responsible for taking it out of [quarantine](https://gitlab.com/gitlab-org/gitlab/blob/master/qa/README.md#quarantined-tests).
+  the last engineer who worked on the test is responsible for taking it out of [quarantine](https://gitlab.com/gitlab-org/gitlab/blob/master/qa/README.md#quarantined-tests).
 
 ## Triage flow
 
@@ -58,23 +58,23 @@ flowchart TB
             dri_handoff(handoff to next DRI anything that is still in flight)
 
         %% external links
-        click failed_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#review-the-failure-logs"
-        click new_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#create-an-issue"
-        click existing_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#known-failures"
-        click investigate "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#investigate-the-root-cause"
+        click failed_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#review-the-failure-logs"
+        click new_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#create-an-issue"
+        click existing_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#known-failures"
+        click investigate "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#investigate-the-root-cause"
         click incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack"
-        click notify_groups "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
-        click fix_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#fixing-the-test"
-        click quarantine_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#quarantining-tests"
+        click notify_groups "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#notify-group-in-all-cases"
+        click fix_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#fixing-the-test"
+        click quarantine_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#quarantining-tests"
         click open_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#failure-needs-escalation"
-        click tag_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#linking-issue"
-        click eyes "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-        click fire_engine "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-        click boom "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
+        click tag_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#linking-issue"
+        click eyes "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#emoji-used"
+        click fire_engine "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#emoji-used"
+        click boom "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#emoji-used"
           click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
               click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
-        click notify_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#failure-needs-escalation"
-        click update_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
+        click notify_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#failure-needs-escalation"
+        click update_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#notify-group-in-all-cases"
 
         %% diagram
         slack_channels -->|failed pipeline run| eyes
@@ -138,7 +138,7 @@ After triaging failed tests, possible follow up actions are:
 
 ### Report the failure
 
-Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#responsibility) for further guidance.
+Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure-platforms/developer-experience/oncall-rotation/#responsibility) for further guidance.
 
 If there are multiple failures we recommend that you identify whether each one is new or old (and therefore already has an issue open for it). For each new failure, open an issue that includes only the required information. Once you have opened an issue for each new failure you can investigate each more thoroughly and act on them appropriately, as described in later sections.
 
@@ -164,7 +164,7 @@ In the relevant Slack channel:
 1. If an issue exists, add a :fire_engine: emoji. It can be helpful to reply to the failure notification with a link to the issue(s), but this isn't always necessary, especially if the failures are the same as in the previous pipeline and there are links there.
 1. If it is a new failure issue, add a :boom: emoji.
 
-Checkout the list of [Slack channels](/handbook/engineering/infrastructure/test-platform/onboarding/#slack-channels) for the pipeline-related channels.
+Checkout the list of [Slack channels](/handbook/engineering/infrastructure-platforms/developer-experience/onboarding/#slack-channels) for the pipeline-related channels.
 
 #### Create an issue
 
@@ -172,20 +172,20 @@ Please use this step if there are no issues created to capture the failure. If t
 
 1. Create an issue for the test or system failure (if retrying the job does not resolve the latter) in [https://gitlab.com/gitlab-org/gitlab/issues](https://gitlab.com/gitlab-org/gitlab/issues) using the [QA failure](https://gitlab.com/gitlab-org/gitlab/issues/new?issuable_template=QA%20Failure) template. For failures in CustomersDot tests, open an issue in [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues) project.
     - Apply the `~"type::ignore"` label to the issue until the investigation is complete and an [issue type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) is determined.
-    - Inform the [counterpart SET](/handbook/engineering/quality/#individual-contributors) about the failure.
+    - Inform the counterpart SET about the failure.
     - For system failures, it may make sense to open an issue in a different project such as [Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/issues), [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/issues), or [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner/issues).
     - For staging environment-related failures, you can post a question in [`#infrastructure-lounge`](https://gitlab.slack.com/archives/CB3LSMEJV), or open an issue in the [infrastructure project](https://gitlab.com/gitlab-com/gl-infra/infrastructure)
-    - Ask for help in [`#quality`](https://gitlab.slack.com/archives/C3JJET4Q6) if you're unsure where to file the issue.
+    - Ask for help in [`#s_developer_experience`](https://gitlab.slack.com/archives/C3JJET4Q6) if you're unsure where to file the issue.
 1. In the relevant Slack channel, add the :boom: emoji and reply to the failure notification with a link to the issue.
 1. Add the issue as a related issue to the current pipeline triage report. If multiple issues are the result of 1 bug, add the bug issue to the report instead.
 
 ### Review the failure logs
 
-The aim of this step is to understand the failure. The results of the investigation will also let you know what to do about the failure. Update the failure issue with any findings from your review. For more information about the failure logs, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#test-failure-logs)
+The aim of this step is to understand the failure. The results of the investigation will also let you know what to do about the failure. Update the failure issue with any findings from your review. For more information about the failure logs, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#test-failure-logs)
 
 ### Investigate the root cause
 
-Depending on your level of context for the test and its associated setup, you might feel comfortable investigating the root cause on your own, or you might get help from [other SETs](/handbook/engineering/quality/#individual-contributors) right away.
+Depending on your level of context for the test and its associated setup, you might feel comfortable investigating the root cause on your own, or you might get help from other SETs right away.
 
 When investigating on your own, we suggest spending at most 20-30 minutes actively trying to find the root cause (this excludes time spent reporting the failure, reviewing the failure logs, or any test setup and pipeline execution time). After that point, or whenever you feel out of ideas, we recommend asking for help to unblock you.
 
@@ -194,11 +194,11 @@ When investigating on your own, we suggest spending at most 20-30 minutes active
 Below is the list of the common root causes in descending order of likelihood:
 
 1. Code changes: Check if the new code was deployed to the environment.
-   - Find the diff between current and previous GitLab versions using this example `https://gitlab.com/gitlab-org/security/gitlab/-/compare/start_commit_sha...end_commit_sha` to see if there was a change that could have affected the test.
+    - Find the diff between current and previous GitLab versions using this example `https://gitlab.com/gitlab-org/security/gitlab/-/compare/start_commit_sha...end_commit_sha` to see if there was a change that could have affected the test.
 2. Feature Flag: Check if a new feature flag is enabled in the environment.
-   - When a feature flag is enabled, it's being reported to specific QA pipeline Slack channel. This also triggers a Full QA job and it may help to identify which specific feature flag caused the failure.
-   - A list of logs containing details on both recent and historic feature flag changes can also be viewed by visiting the [feature-flag-log](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log) project. Each time a feature flag is updated, a new issue is generated in the project with helpful information such as when the feature flag was changed, who performed the update and on which environment. The project contains several `host` labels that can help filter by environment when searching through issues (ex: `~host::staging.gitlab.com`)
-     - You can also reference this [dashboard](https://samdbeckham.gitlab.io/feature-flags) for a visual representation of feature flag statuses.
+    - When a feature flag is enabled, it's being reported to specific QA pipeline Slack channel. This also triggers a Full QA job and it may help to identify which specific feature flag caused the failure.
+    - A list of logs containing details on both recent and historic feature flag changes can also be viewed by visiting the [feature-flag-log](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log) project. Each time a feature flag is updated, a new issue is generated in the project with helpful information such as when the feature flag was changed, who performed the update and on which environment. The project contains several `host` labels that can help filter by environment when searching through issues (ex: `~host::staging.gitlab.com`)
+        - You can also reference this [dashboard](https://samdbeckham.gitlab.io/feature-flags) for a visual representation of feature flag statuses.
 3. Environment / Infrastructure: If there were no code or feature flag changes and the environment has flaky errors, first start with analyzing [Sentry errors and Kibana logs](#review-the-failure-logs) to further investigate the issue.
     - Review the `#incident-management` channel to check if any ongoing incidents may be contributing to the failures.
     - If [`validate_canary!` check](https://gitlab.com/gitlab-org/gitlab/-/blob/4aa6dde8a375be69b3b1d0d2e2330c7885cbeb54/qa/qa/runtime/canary.rb#L8) is failing, check if [canary is not disabled on the environment](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/canary.md#canary-chatops) by running
@@ -270,7 +270,7 @@ The failure was caused by a bug in the application code.
 
 **Note**: GitLab maintains a [daily deployment cadence](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/880) so a breaking change in `master` reaches Canary and Production fast. Please communicate broadly to ensure that the corresponding [Product Group](/handbook/product/categories/#devops-stages) is aware of the regression and action is required. If the bug is [qualified for dev escalation](/handbook/engineering/development/processes/infra-dev-escalation/process/#scope-of-process) (example: `priority::1/severity::1` issue that blocks the deployment process), consider involving [On-call Engineers](/handbook/engineering/development/processes/infra-dev-escalation/process/) in the [`#dev-escalation`](https://gitlab.slack.com/archives/CLKLMSUR4) channel. To find out who's on-call follow the links in the channel subject line.
 
-To find the appropriate team member to cc, please refer to the [Organizational Chart](https://comp-calculator.gitlab.net/org_chart). The [Quality Engineering team list](/handbook/engineering/quality/#department-members) and [DevOps stage group list](/handbook/product/categories/#devops-stages) might also be helpful.
+To find the appropriate team member to cc, please refer to the [Organizational Chart](https://comp-calculator.gitlab.net/org_chart).
 
 See [Quarantining Tests](#quarantining-tests)
 
@@ -307,7 +307,6 @@ The failure is due external factors outside the scope of the test but within a t
 - Include your findings in a note in the issue about the failure.
 - Apply the `~"failure::test-environment"` label.
 - Identify the general category of improvement and add the failure issue to the approprite `Test Reliability` issue listed within the [Improve test environment reliability and reduce flaky/transient test failures](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1309) tracking issue.
-  - Endeavor to create an appropriate action item (issue or MR) to help resolve the reliability issue as indicated in the tracking issues.
 
 A job may fail due to infrastructure or orchestration issues that are not related to any specific test. In some cases these issues will fail a job before tests are ever executed. Some examples of non-test related failures include:
 
@@ -398,13 +397,13 @@ After fast quarantining, please follow the long-term quarantine process below.
 
 > **Note** If the example has a `before` hook, [the `quarantine` metadata should be assigned to the outer context](#nested-contexts) to avoid running the `before` hook.
 
-- Create a merge request using the [Quarantine End to End Test](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/merge_request_templates/Quarantine%20End%20to%20End%20Test.md) template.
+- Create a merge request using the [Quarantine end-to-end Test](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/merge_request_templates/Quarantine%20End%20to%20End%20Test.md) template.
   - The merge request shall have the labels: `~"Quality", ~"QA", ~"type::bug"`.
   - The merge request may have auto-deploy labels: `~"Pick into auto-deploy", ~"priority::1", and ~"severity::1"`. Please note that this is reserved for emergency cases only, such as blocked deployments, as it will delay all other deployments by around two hours.
   - The merge request may have stage or group labels. E.g. `~"devops::create" ~"group::source code"`.
   - The merge request shall have the current milestone.
   - The merge request shall link to (but not close) the failure issue.
-- The failure issue should remain open and be assigned a DRI (likely the [counterpart SET](/handbook/engineering/quality/#individual-contributors)) for fixing, re-evaluating, or dequarantining the test as needed.
+- The failure issue should remain open and be assigned a DRI for fixing, re-evaluating, or dequarantining the test as needed.
 
 To be sure that the test is quarantined quickly, ask in the `#quality` Slack channel for someone to review and merge the merge request, rather than assigning it directly.
 
@@ -481,11 +480,11 @@ Failing to dequarantine tests periodically reduces the effectiveness of the test
 Before dequarantining a test:
 
 - If the test failure was originally discovered in [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules), MR or [master](https://gitlab.com/gitlab-org/gitlab/pipelines) pipeline, please make sure that the test passes on your local against GDK with latest code and that it has passed a few times
-in the nightly pipeline's quarantine job for that test.
+  in the nightly pipeline's quarantine job for that test.
 - If the test failure was originally discovered in [staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines), [canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) or [production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) pipeline, please make sure that the test passes in the CI pipeline against that environment.
-You can trigger a CI pipeline against a live environment by clicking "Run Pipeline" button on the [staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines), [canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) or [production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) pipelines page
-and setting the `RELEASE` variable to the release that has your changes. See [Running GitLab-QA pipeline against a specific GitLab release](/handbook/engineering/infrastructure/test-platform/tips-and-tricks/#running-gitlab-qa-pipeline-against-a-specific-gitlab-release)
-for instruction on finding your release version created and tagged by the Omnibus pipeline.
+  You can trigger a CI pipeline against a live environment by clicking "Run Pipeline" button on the [staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines), [canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) or [production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) pipelines page
+  and setting the `RELEASE` variable to the release that has your changes. See [Running GitLab-QA pipeline against a specific GitLab release](/handbook/engineering/infrastructure-platforms/developer-experience/tips-and-tricks/#running-gitlab-qa-pipeline-against-a-specific-gitlab-release)
+  for instruction on finding your release version created and tagged by the Omnibus pipeline.
 
 To dequarantine a test:
 

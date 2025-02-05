@@ -109,6 +109,14 @@
 
 # Infrastructure realignment - remove 2025-06-01
 /handbook/engineering/infrastructure/platforms/ /handbook/engineering/infrastructure-platforms/ 301
+/handbook/engineering/infrastructure/test-platform/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
+/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/ /handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/ 301
+/handbook/engineering/infrastructure/test-platform/test-engineering-team/ /handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ 301
+/handbook/engineering/infrastructure/test-platform/test-engineering/ /handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ 301
+/handbook/engineering/infrastructure/test-platform/pipeline-monitoring/ /handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/ 301
+/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/ /handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ 301
+/handbook/engineering/quality/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
+/handbook/engineering/infrastructure/test-platform/gitlab-data-seeder/ https://gitlab-org.gitlab.io/quality/data-seeder 301
 
 # Old red team handbook - remove 2025-11-11
 /handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301

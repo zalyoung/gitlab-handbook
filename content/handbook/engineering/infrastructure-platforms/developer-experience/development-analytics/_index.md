@@ -8,7 +8,7 @@ description: "Development Analytics Group under Developer Experience Stage"
 | **Category**            | **Handle**                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | **GitLab Group Handle** | [`@gl-dx/development-analytics`](https://gitlab.com/gl-dx/development-analytics)                                           |
-| **Slack Channel**       | [`#g_development-analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
+| **Slack Channel**       | [`#g_development_analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
 | **Slack Handle**        | `@dx-development-analytics`                                                                                                |
 | **Team Boards**         | [`Team Work Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics) |
 | **Issue Tracker**       | [`tracker`](https://gitlab.com/groups/gitlab-org/quality/dx/analytics/-/issues)                                            |
@@ -36,15 +36,15 @@ We envision a future where GitLab’s development workflows are seamless, insigh
 ```mermaid
 flowchart LR
     DA[Development Analytics Team]
-    
+
     DA --> MRCT[MR Cycle Time Improvement]
     DA --> Tools[Tooling Maintenance]
-    
+
     MRCT --> Analytics[Analytics & Observability]
     MRCT --> ExecTime[Pipeline Execution Time Optimization]
     MRCT --> ReviewEng[Review Engagement Enhancement]
     MRCT --> PipeStab[Pipeline Stability Assurance]
-    
+
     Tools --> Triage[Triage Ops]
     Tools --> Roulette[GitLab Roulette]
     Tools --> Danger[Dangerfiles]

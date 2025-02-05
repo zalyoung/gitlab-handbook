@@ -227,13 +227,12 @@
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
 /content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
 
-^[Eng-Quality-department]
-/content/handbook/engineering/automation.md @sabrinafarmer @rymai
-/content/handbook/engineering/infrastructure/test-platform/ @ghosh-abhinaba @kkolpakova @ksvoboda @sabrinafarmer @vincywilson
-/content/handbook/engineering/infrastructure/test-platform/onboarding/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
-/content/handbook/engineering/infrastructure/test-platform/quad-planning/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
-/content/handbook/engineering/infrastructure/test-platform/test-engineering-team/ @kkolpakova
-/content/handbook/engineering/quality/engineering-analytics.md @sabrinafarmer @lmai1
+^[Eng-Developer-Experience-department]
+/content/handbook/engineering/automation.md @vincywilson @rymai
+/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @ksvoboda @mgamea @vincywilson
+/content/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ @ghosh-abhinaba
+/content/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/ @mgamea
+/content/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ @kkolpakova
 
 ^[Eng-Incubation-department]
 /content/handbook/engineering/development/incubation/ @jeromezng
@@ -572,7 +571,7 @@
 /content/handbook/security/product-security/application-security/ @juliedavila
 /content/handbook/security/product-security/security-architecture/ @plafoucriere @jdicken
 /content/handbook/security/product-security/security-research/ @estrike @jdicken
-/content/handbook/security/product-security/product-security-engineering/ @jdicken 
+/content/handbook/security/product-security/product-security-engineering/ @jdicken
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
 /content/handbook/security/security-operations/ @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
 /content/handbook/security/security-operations/security-logging/ @mcoons

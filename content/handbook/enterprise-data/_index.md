@@ -35,7 +35,6 @@ The GitLab Data Program includes teams focused in the following areas:
 
 * [Customer Success Operational Data Team](/handbook/customer-success/product-usage-data/)
 * [Enterprise Data Team](/handbook/enterprise-data/)
-* [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/)
 * [Finance Analytics & Insights](/handbook/enterprise-data/analytics-and-insights/)
 * [Marketing Strategy and Performance](/handbook/marketing/strategy-performance/)
 * [Marketing Web Analytics](/handbook/marketing/inbound-marketing/search-marketing/analytics/)

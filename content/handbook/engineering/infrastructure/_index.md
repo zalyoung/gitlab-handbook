@@ -52,7 +52,7 @@ flowchart LR
     I --> C[Core Platform]
     click C "/handbook/engineering/infrastructure/core-platform/"
     I --> EA[Engineering Analytics]
-    click EA "/handbook/engineering/quality/engineering-analytics/"
+    click EA "/handbook/engineering/infrastructure-platforms/developer-experience/engineering-analytics/"
     I --> TP[Test Platform]
     click TP "/handbook/engineering/infrastructure/test-platform/"
     I --> SP[SaaS Platforms]

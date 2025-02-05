@@ -349,9 +349,9 @@ Maybe we should make our features easier to search to replace the section below.
 
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
-### Other functionality in Test Platform
+### Other functionality in Developer Experience
 
-[Test Platform](/handbook/engineering/infrastructure/test-platform/)
+[Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/)
 
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
