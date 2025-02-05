@@ -143,6 +143,7 @@ Successful candidates will receive an offer through a video call or phone call.
 ### Required Skills by Level
 
 #### Accessibility Engineer
+
 - Proven WCAG 2.1 knowledge and implementation.
 - Experience with manual and automated accessibility testing tools.
 - Working knowledge of several assistive technologies (NVDA, JAWS, VoiceOver, etc.).
@@ -152,6 +153,7 @@ Successful candidates will receive an offer through a video call or phone call.
 - Understanding and experience with design and UX is a plus.
 
 #### Senior Accessibility Engineer
+
 - Advanced WCAG 2.1 implementation experience.
 - Deep knowledge of manual and automated accessibility testing tools.
 - Deep knowledge of assistive technologies (NVDA, JAWS, VoiceOver, etc.).
@@ -160,6 +162,7 @@ Successful candidates will receive an offer through a video call or phone call.
 - Mentoring and training experience.
 
 #### Staff Accessibility Engineer
+
 - Expert-level accessibility knowledge.
 - Platform-wide accessibility architecture experience.
 - Leadership in accessibility communities.
