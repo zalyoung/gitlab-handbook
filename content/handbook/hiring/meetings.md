@@ -13,7 +13,7 @@ For more information on how this relates to positions and levels in our function
 
 ## Functional Productivity KPIs
 
-Each quarter, the Talent Acquisition team reports out on 4 top line productivity metrics as a function. Reports can be accessed [in this folder]("https://drive.google.com/drive/folders/1kfTQkd_PAgvFPrgogCLZD7opMW2wiKBS?usp=drive_link") by internal team members.
+Each quarter, the Talent Acquisition team reports out on 4 top line productivity metrics as a function. Reports can be accessed [in this folder]("drive.google.com/drive/folders/1kfTQkd_PAgvFPrgogCLZD7opMW2wiKBS?usp=drive_link") by internal team members.
 
 1. Achievement against our External Hiring Target
 1. Average Time to Fill (period of time for a requisition opening to hire)
