@@ -203,6 +203,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_philippines`](https://app.slack.com/client/T02592416/CL95ZB8V7) |  |
 | [`#loc_pittsburgh`](https://app.slack.com/client/T02592416/C02E5TJVDN2) | A city of bridges, 3 rivers and fries on top of salads |
 | [`#loc_pnw`](https://app.slack.com/client/T02592416/CBFBYUCAH) | For GitLab team members living in or visiting the Pacific Northwest (Cascadia): Washington, Oregon, and BC (Canada), includes Seattle and Portland. |
+| [`#loc_poland`](https://gitlab.enterprise.slack.com/archives/C54KWETEX) | For anyone living or visiting Poland 🇵🇱 |
 | [`#loc_portugal`](https://app.slack.com/client/T02592416/C1X1KLMNH) | For anyone living or visiting Portugal 🇵🇹  |
 | [`#loc_qld`](https://app.slack.com/client/T02592416/C02RGGJFY03) | Queeeeeeeenslander! |
 | [`#loc_quebec`](https://app.slack.com/client/T02592416/CQV5PLEUR) | All things Quebec ⚜️ |
