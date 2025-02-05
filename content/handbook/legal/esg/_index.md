@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/ESG
 title: "Environment, Social,and Governance (ESG)"
 description: "Information and processes related to ESG"
 ---
