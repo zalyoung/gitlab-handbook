@@ -6,15 +6,15 @@ no_list: true
 
 ## Threat and Intelligence Sharing Overview
 
-The Signals Engineering and Threat Intelligence teams sponsor bi-directional threat and intelligence information sharing with GitLab customers. This bi-directional sharing faciliates the rapid sharing of time sensitive and customer relevant threat updates, customer facing detection engineering content, and threat intelligence flash reports. 
+The Signals Engineering and Threat Intelligence teams sponsor bi-directional threat and intelligence information sharing with GitLab customers. This bi-directional sharing facilitates the rapid sharing of time sensitive and customer relevant threat updates, customer facing detection engineering content, and threat intelligence flash reports.
 
 ## How to Get Involved
 
-GitLab customers can contact their sales or customer success representative and request acess. 
+GitLab customers can contact their sales or customer success representative and request access. 
 
 ## Information Sharing Guidelines
 
-GitLab uses [Traffic Light Protocl](https://www.cisa.gov/news-events/news/traffic-light-protocol-tlp-definitions-and-usage) (TLP) to define sharing guidelines. Generally, data classified up to TLP:Amber (information restricted to GitLab and our customers) can be shared. 
+GitLab uses [Traffic Light Protocol](https://www.cisa.gov/news-events/news/traffic-light-protocol-tlp-definitions-and-usage) (TLP) to define sharing guidelines. Generally, data classified up to TLP:Amber (information restricted to GitLab and our customers) can be shared. 
 
 ## Prohibited Data Sharing
 
