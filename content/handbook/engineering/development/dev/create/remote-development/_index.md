@@ -56,12 +56,22 @@ Depending on the context here are the most appropriate ways to reach out to the 
 ### 🗣️ Capturing Customer Engagements
 
 To improve our understanding and traceability of customer needs and to ensure followups action items are systematically done, we want to capture customer engagement notes in a SSoT.
-Please use the confidential issues below to capture all customer engagements for the two feature categories:
+Please use the confidential issues below to capture all customer engagements for the feature categories:
 
 - [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
 - [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
 
 These epics are meant for internal team members only. If you are a user wanting to provide feedback, see [Capturing User Feedback](#️-capturing-user-feedback).
+
+At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to colloborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
+
+Labels to be added
+- Web IDE - `"Category:Web IDE" "Customer Collaboration"`
+- Workspaces - `"Category:Workspaces" "Customer Collaboration"`
+
+You can find the customer collaboration issues dashboard for the feature categories:
+- [Web IDE]()
+- [Workspaces]()
 
 ### 🗣️ Capturing User Feedback
 
