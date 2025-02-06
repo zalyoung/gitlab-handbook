@@ -19,7 +19,7 @@ To start, in the left sidebar, select **Groups**.
 
 1. Click the dropdown arrow next to the **Session** group. You should now see a group named **My Test Group - <string of characters and numbers>**. Click this group to access it.
 
-This navigation shows an example of groups and subgroups. In the ILT GitLab instance, the **Training Users** group is a top-level group. This means that it is not part of any other groups in the instance. The **Training Users** group contains a set of subgroups, which represent classes running in the instance. Each of this subgroups is given a name like **Session <string of characters and numbers>**. Inside of these groups is a set of subgroups, one group for each student in the class. The **My Test Group** subgroup is your own group, which you can organize and modify in any way you like.
+This navigation shows an example of groups and subgroups. In the ILT GitLab instance, the **Training Users** group is a top-level group. This means that it is not part of any other groups in the instance. The **Training Users** group contains a set of subgroups, which represent classes running in the instance. Each of these subgroups is given a name like **Session <string of characters and numbers>**. Inside of these groups is a set of subgroups, one group for each student in the class. The **My Test Group** subgroup is your own group, which you can organize and modify in any way you like.
 
 ## Task B. Creating a Group Structure
 
@@ -58,7 +58,7 @@ Next, we can structure subgroups for both team's projects. Since the development
 
 1. In the breadcrumbs, select **Development** to return to the development group.
 
-Now in the `Development` group, you will see a `Cool App Desktop` and `Cool App Mobile` subgroup, ready to contain any projects related to both application.
+Now in the `Development` group, you will see a `Cool App Desktop` and `Cool App Mobile` subgroups, ready to contain any projects related to both applications.
 
 For the QA team, they have a single project. There are two main options for structuring this team. We can create a group for `Cool App Testing` that will contain the project, or we can just create the project in the subgroup. For simplicity, we will opt to just create the project and repository in the `QA` group, which we will explore in the next lab.
 

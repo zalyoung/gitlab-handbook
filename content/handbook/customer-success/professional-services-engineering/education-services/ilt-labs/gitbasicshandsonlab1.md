@@ -11,7 +11,7 @@ In this lab, you will explore the basics of navigating GitLab. The goal of this 
 
 ## Task A. Navigating to GitLab
 
-Before starting this lab, you redeemed an invitation code for a GitLab instance. Let's navigate to this instance get logged in.
+Before starting this lab, you redeemed an invitation code for a GitLab instance. Let's navigate to this instance and log in.
 
 1. Navigate to https://ilt.gitlabtraining.cloud/
 

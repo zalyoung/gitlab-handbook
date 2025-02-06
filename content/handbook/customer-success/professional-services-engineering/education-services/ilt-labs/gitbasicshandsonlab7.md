@@ -11,7 +11,7 @@ The goal of this lab is to get an overview of the different analytics available 
 
 ## Task A. Viewing your analytics
 
-To start navigate to your `Cool App QA` project.
+To start, navigate to your `Cool App QA` project.
 
 1. In the left sidebar, select **Analyze > Analytics Dashboard**.
 

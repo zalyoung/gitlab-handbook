@@ -34,7 +34,7 @@ Before we start creating a CI/CD process, we need some code to run our CI/CD pro
 
 1. Select **Commit changes**
 
-1. In the **Branch name**, enter `initial-code`. Leave **Create a marge request for this change** checked. Select **Commit changes**.
+1. In the **Branch name**, enter `initial-code`. Leave **Create a merge request for this change** checked. Select **Commit changes**.
 
 1. Leave all the merge request options at their defaults and select **Create merge request**.
 
@@ -58,7 +58,7 @@ go 1.22.2
 
 1. Select **Commit changes**. 
 
-1. Ensure that **Commit to current `initial-code` branch is selected. Select **Commit changes**.
+1. Ensure that **Commit to current `initial-code` branch** is selected. Select **Commit changes**.
 
 With our code created, we can now start to create a CI/CD process for the code.
 
@@ -87,7 +87,7 @@ Let's create a CI/CD process for the code we just wrote. Our goal is to create a
           - go build
       ```
 
-      > Every GitLab CI/CD job on this instance runs in a Docker container. The `default` line defines the Docker image to use to run the jobs for this `.gitlab-ci.yml` file. Below this, we defined one stage, which is build. In this stage, there is a single job, which runs one script: `go build`. The result of this will be your Go application being compiled.
+      > Every GitLab CI/CD job on this instance runs in a Docker container. The `default` line defines the Docker image to use to run the jobs for this `.gitlab-ci.yml` file. Below this, we defined one stage, which is **build**. In this stage, there is a single job, which runs one script: `go build`. The result of this will be your Go application being compiled.
 
 1. Select **Commit changes**. Ensure that **Commit to the current `initial-code` branch** is selected.
 

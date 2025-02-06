@@ -35,7 +35,7 @@ In the left sidebar, you will see a few new options available when you are in yo
 
 1. In the left sidebar, under **Settings**, select **Repository**. This section contains configurations for your project code repository. 
 
-In most settings, you will want to toggle a few settings for your repository. First, you will want to ensure your project has a consistent default branch. This branch will be the branch that are merge requests are made against in your project. For this main branch, you will want to ensure it is protected and not able to be pushed directly to. Let's look at how to configure these options.
+In most settings, you will want to toggle a few settings for your repository. First, you will want to ensure your project has a consistent default branch. This branch will be the branch that merge requests are made against in your project. For this main branch, you will want to ensure it is protected and not able to be pushed directly to. Let's look at how to configure these options.
 
 1. In **Repository Settings**, select **Branch defaults** to expand this section.
 

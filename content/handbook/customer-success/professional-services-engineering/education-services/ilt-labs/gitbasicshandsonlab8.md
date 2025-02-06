@@ -31,7 +31,7 @@ By following this process, you created an issue related to your **Cool App QA** 
 
 In the right sidebar, you will see metadata related to your issue. The **Assignee** is the set of people currently working on the issue. If the issue is associated with an epic, milestone, or iteration, these details will display here. Labels can be added to an issue to help organize issues into similar categories or types. Weight defines the amount of work associated with an issue. A due date can be set on an issue for when it should be completed by. Time tracking lets you track time taken to complete an issue. Health status lets you set a status for how the issue is progressing.
 
-Often, we use issues to represent smaller pieces of work, that may be completed in a single iteration or sprint. For larger sets of work, we use the concept of an epic.
+Often, we use issues to represent smaller pieces of work that may be completed in a single iteration or sprint. For larger sets of work, we use the concept of an epic.
 
 ## Task B. Defining an epic
 
