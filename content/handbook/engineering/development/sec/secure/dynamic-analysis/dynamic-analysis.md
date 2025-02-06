@@ -250,7 +250,7 @@ Every Tuesday, a calendar event with an attached agenda exists for a synchronous
 
 On top of our development roadmap, engineering teams need to perform tasks related to security vulnerabilities, support, maintenance, community contributions.
 
-The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
+The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab product milestones. When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
 ### Responsibilities - Security
 
