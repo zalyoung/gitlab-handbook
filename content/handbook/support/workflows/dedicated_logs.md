@@ -12,6 +12,10 @@ When working on a GitLab Dedicated ticket, prioritize asking for information tha
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
+### Log requests older than 7 days
+
+If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
+
 ## Identifying tenants
 
 Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a three word **Internal reference** in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`. You should [use Switchboard](/handbook/support/workflows/dedicated_switchboard/#accessing-customer-configuration) as the single source of truth for identifying the **Internal reference** for a tenant based on the GitLab Dedicated instance URL.
