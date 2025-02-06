@@ -42,15 +42,15 @@ graph TD
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience"
 
     DE --> DA[Development Analytics]
-    click DA "handbook/engineering/infrastructure-platforms/developer-experience/development-analytics"
+    click DA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics"
     DE --> DT[Developer Tooling]
     click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling"
     DE --> FR[Feature Readiness]
-    click FR "handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness"
+    click FR "/handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness"
     DE --> PE[Performance Enablement]
-    click PE "handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement"
+    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement"
     DE --> TG[Test Governance]
-    click TG "handbook/engineering/infrastructure-platforms/developer-experience/test-governance"
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance"
 ```
 
 ## Team Members
