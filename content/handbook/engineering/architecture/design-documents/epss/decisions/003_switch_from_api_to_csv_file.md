@@ -11,7 +11,7 @@ The EPSS Feeder in PMDB retrieves data from [the EPSS source](https://www.first.
 2. Downloading a compressed CSV file containing EPSS data
 
 Initially, we chose the API. However, experience has shown significant stability issues with the API approach.
-Specific examples of these issues can be found in: https://gitlab.com/gitlab-org/gitlab/-/issues/512806
+Specific examples of these issues can be found in [this GitLab issue](https://gitlab.com/gitlab-org/gitlab/-/issues/512806)
 
 ## Decision
 
