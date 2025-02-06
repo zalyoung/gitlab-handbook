@@ -20,11 +20,13 @@ Switch from the API to downloading and processing the compressed CSV file for re
 ## Consequences
 
 ### Positive
+
 - Improved stability of the license-feeder EPSS flow (both production and test environments).
 - Single network request instead of multiple API calls.
 - Faster processing.
 
 ### Negative
+
 - Must handle all data at once
 - Can't choose to download only specific parts of the data (though this is not a relevant use case)
 
