@@ -103,6 +103,7 @@ If a support engineer requests assistance via Slack and it requires investigatio
     - [#s_ast-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
     - [#f_container_scanning](https://gitlab.slack.com/archives/C041F2XJACB)
     - [#g_ast-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ)
+    - [#f_operational_container_scanning](https://gitlab.slack.com/archives/C06KGEYGFDZ)
     - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
 1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?label_name=Help%20group%3A%3Acomposition%20analysis) project for support requests.
 1. Refine scheduled bugs and maintenance issues.
@@ -122,11 +123,11 @@ These items must be triaged continuously throughout the milestone which means th
 1. Check latest pipelines for any release failures. If any issue is preventing the automated release process from running, begin the [release failure escalation process](#release-failure-process).
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!).
 1. Monitor failures and errors on license-db project, use the `#f_licese_database` Slack channel for communication about these items, so other team members can provide the support.
-    1. Check latest [scheduled pipelines of license-db](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) for any failures. Ensure that pipelines pass or create an issue to fix the failure.
-    1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
+1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
         - In case of an incident react with :eye: to indicate that you are looking into it.
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
+1. Monitor the Slack channels `#f_operational_container_scanning` and `#f_container_scanning` for alerts related to Operational Container Scanning (OCS) and Container Scanning.
 
 #### Handover
 
