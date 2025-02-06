@@ -74,7 +74,7 @@ flowchart LR
     GD --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    PE --> CC[Cloud Conector]
+    PE --> CC[Cloud Connector]
     click CC "" 
     PE --> Foundations
     click Foundations "/handbook/engineering/infrastructure/team/foundations/"
