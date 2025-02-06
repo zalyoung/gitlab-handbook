@@ -20,7 +20,7 @@ To support GitLab's product vision through alignment with the [Software Supply C
 
 Group priorities are reviewed collaboratively with product counterparts and published on the Software Supply Chain Security direction pages
 
-- [Anti-abuse](https://about.gitlab.com/direction/software_supply_chain_security/anti-abuse/#priorities)
+- [Anti-abuse](https://about.gitlab.com/direction/software_supply_chain_security/#priorities)
 - [Authentication](https://about.gitlab.com/direction/software_supply_chain_security/authentication/#priorities)
 - [Authorization](https://about.gitlab.com/direction/software_supply_chain_security/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/software_supply_chain_security/compliance/tactical-priorities.html#priorities)
@@ -99,21 +99,7 @@ OKRs can be changed or closed during the quarter if they are completed, or as ou
 
 ### PTO
 
-To support our teams, and commitments made to internal and external customers, team members in Software Supply Chain Security are encouraged to create a PTO issue before going on leave lasting a week or longer.
-
-The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/people-group/paid-time-off/) policy.
-
-We use an internal issue tracker as team member PTO is not public information, and a PTO template
-
-- [PTO issue list](https://gitlab.com/gitlab-com/software_supply_chain_security-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
-- [New PTO issue template](https://gitlab.com/gitlab-com/software_supply_chain_security-sub-department/-/issues/new?issuable_template=ooo_template)
-
-When a team-member takes some time off, it is important that their work is still being followed up on if needed. We want to make sure that any MR that lands in staging and production environments while we are out gets proper attention and is verified by a counterpart. Therefore, when getting close to our time-off period, we should do the following:
-
-- Any MR that can be put on hold until we're back from PTO should be put in the `Draft` status. This ensures that the MR won't be merged accidentally without a clear DRI to follow up on it.
-- Other non-draft MRs and freshly merged MRs, which need to be verified on staging, should be assigned to another engineer. The additional DRI will be responsible to verify the changes if they land in staging while we're out. When doing this, we must ensure that enough context has been provided in the MR's description and/or the related issue (setup, testing, potential impact, design decisions, etc.).
-
-Keep in mind that, while we strongly recommend following this process when taking some time off, it might not be relevant all the time. For example, if our time-off period is going to be short and/or our active MRs are minor enough, it might make sense to ignore these recommendations and follow up when we're back.
+We follow the [Engineering process for taking time off](/handbook/engineering/#taking-time-off) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 #### Engineering Leadership - PTO or unavailable
 

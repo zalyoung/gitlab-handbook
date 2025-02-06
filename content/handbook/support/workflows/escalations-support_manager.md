@@ -14,11 +14,9 @@ An Account Escalation may be initiated by Support Engineering (Support Managers 
 
 Each escalation will have an [Escalation DRI](/handbook/customer-success/csm/escalations/#escalation-dri) leading a team of people contributing toward the successful outcome of the escalation. The team will consist of some (at a minimum the Escalation DRI, Lead Support Engineer, and Support Manager DRI) or all of the following roles:
 
-- Escalation DRI
-  - CSM for critical or high severity escalations
-  - Support Manager for medium or low severity escalations
+- Escalation DRI (CSM, AE or CSE manager)
 - Lead Support Engineer
-- Support Manager DRI
+- Support Manager DRI for the support involvement
 - Other CSM Leaders or Account Managers involved
 - Product Managers
 - Development Engineers
@@ -29,10 +27,9 @@ The Support Manager DRI has the following goals:
 
 1. Minimize uncertainties by turning them into well defined risks
 1. Help define a set of exit criteria (goals) for the escalation, and guide the efforts of the Support team to work toward achieving those criteria
-1. Create and maintain the [Support Escalation issue](https://gitlab.com/gitlab-com/support/escalated-customers/-/issues/new?issuable_template=incident&issue%5Bissue_type%5D=incident) to document our scope and exit criteria, along with other critical details tied to the Escalation
-1. Create and maintain the [Escalation retrospective issue](https://gitlab.com/gitlab-com/support/escalated-customers/-/issues/new?issuable_template=account-escalation-retro) linked to the Escalation issue for follow up once an escalation is closed
-
-Additionally, the Support Manager DRI may also be the [Escalation DRI](/handbook/customer-success/csm/escalations/#escalation-dri) for low or medium severity escalations.
+1. Appoint the Lead Support Engineer and sync with the Escalation DRI on the action plan 
+1. Provide timely updates in the escalation Slack channel with other critical details tied to the Escalation 
+1. Work with the Escalation DRI on the Escalation retrospective issue once an escalation is closed
 
 ## Uncertainty
 
@@ -70,14 +67,9 @@ To serve as Support Manager DRI for an Account Escalation, use the following ste
     `Toggle the escalation status of an organization`
   - This tag will [add a NOTE to the organization notes](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/uploads/c9a3e2843eff23572100b53cfca0da0c/Screen_Shot_2022-09-07_at_4.46.01_PM.png) signifying that the account is in an escalated state.
 
-- Open a [Support escalation issue](https://gitlab.com/gitlab-com/support/escalated-customers/-/issues/new?issuable_template=incident&issue%5Bissue_type%5D=incident) under the [Escalated Customers](https://gitlab.com/gitlab-com/support/escalated-customers) project to serve as our Support escalation portfolio. This portfolio will include important details of the escalation, such as Support's purpose (why we are involved), our goals (clear definition of the exit criteria), along with a list of tickets and issues that are tied to the escalation.
-  - Consider using the [timeline events](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) feature (available only if you create the issue as an incident) to track escalation updates, milestones, communication, and key events.
-
-- Open a [Support Escalation Retrospective issue](https://gitlab.com/gitlab-com/support/escalated-customers/-/issues/new?issuable_template=account-escalation-retro), linking it to the escalation issue, for proactive input and post-escalation follow-up.
-
 ### Step 1: Lead Support Engineer Assignment
 
-- Assign a Support Engineer to act as the **Lead Support Engineer** during an Account Escalation. Please ensure that you find an engineer who is in the same region as the escalated customer.
+- Assign a Support Engineer to act as the **Lead Support Engineer** during an Account Escalation.  In collaboration with the Escalation DRI, determine the most suitable region for the engineer to be located in, ensuring alignment with the escalated customer’s region.
 
   - If the escalation requires global effort, work with the on-call managers to identify Lead Support Engineers in those other regions.
 
@@ -93,9 +85,9 @@ From a technical perspective, the Lead Support Engineer will orchestrate the res
 
 ### Step 2: Define Scope and Exit Criteria
 
-- Define a clear scope of work with the escalation team. Be sure to state the exit criteria (goals). Both the scope and exit criteria need to be documented in the Support Escalation issue.
+- Define a clear scope of work with the escalation team. Be sure to state the exit criteria (goals). Both the scope and exit criteria need to be documented in the Support Escalation Slack channel.
 
-- Through collaboration with the customer, identify the tickets that relate directly to the escalation, and note those in the Support Escalation issue.
+- Through collaboration with the customer, identify the tickets that relate directly to the escalation, and note those in the channel as well
 
   - The Lead Support Engineer should take assignment of all related tickets.
   - Support Manager DRI's should add themselves to the CC list of all related tickets.
@@ -112,16 +104,14 @@ Work with the escalation team to provide daily or weekly updates in the related 
 - Next steps
 - Blockers
 
-Help maintain updates (in collaboration with the escalation team) to the escalation tracker Google doc (used to track executive summary updates and customer meeting minutes) and to the Support Escalation issue created under the [Escalated Customers](https://gitlab.com/gitlab-com/support/escalated-customers) project to track Support's technical efforts and progress.
-
-**Side note:** Future desire - consider syncing Slack and Google doc updates or Slack and Support Escalation issue updates via some form of automation.
+Work with the escalation team to keep the Slack channel updated. The Escalation DRI will use this information to update the Salesforce case, ensuring it serves as the single source of truth (SSOT)
 
 #### Pausing Daily Updates
 
 Escalations sometimes enter a "monitoring" period, when we don't anticipate any activity for mutiple days. When this occurs, it's appropriate to pause the daily updates. To do so, post in the Slack channel for the Account Escalation and clearly define, 1) the current state of the escalation, and 2) a timeline of when we can expect the updates to resume. For example:
 
 > **Status:** Customer intends to upgrade Redis in their production environment in 5 days (15-Mar-2023).
-> **Next steps:** Monitor for any updates from the customer over the next 5 days. If no issues are reported during this time, next update is targeted for 15-Mar-2023.
+> **Next steps:** Monitor for any updates from the customer over the next 5 days. If no issues are reported during this time, next update is targeted for 15-Mar-2025.
 
 When daily updates are paused, continue to check every day for activity which would warrant resuming the updates.
 
@@ -150,7 +140,7 @@ Before closing the Account Escalation:
 
 - In collaboration with the escalation team, complete the retrospective (within 3 weeks of escalation closure) in the issue created.
 
-- Lead the retrospective sync meeting (if one is deemed necessary) to collect any final feedback and ensure all team members are clear on any remaining action items and due dates.
+- Lead the retrospective sync meeting on behalf of the support team (if deemed necessary) to collect any final feedback and ensure all team members are clear on any remaining action items and due dates.
 
 ## FAQ
 

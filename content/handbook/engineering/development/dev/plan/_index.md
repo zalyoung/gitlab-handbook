@@ -56,7 +56,7 @@ Groups within Plan use the same numerical scale when estimating upcoming work.
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
 
-![plan-workflow-example.png](plan-workflow-example.png)
+![plan-workflow-example.png](/images/engineering/development/dev/plan/plan-workflow-example.png)
 
 Everyone is encouraged to move issues to different workflows if they feel they belong somewhere else. In order to keep issues constantly refined, when moving an issue to a different workflow stage, please review any open discussions within the issue and update the description with any decisions that have been made. This ensures that descriptions are [laid out clearly](/handbook/values/#say-why-not-just-what), keeping with our value of Transparency.
 
@@ -199,8 +199,7 @@ FY25-Q1 Stage-level Objectives all closed out between 74% and 88% and are availa
 
 #### Drafting OKRs using GitLab
 
-Guidance is available, including a video guide, on [how to use GitLab for OKRs](/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
-
+Guidance is available, including a video guide, on [Approach to OKRs at GitLab](/handbook/company/okrs/).
 GitLab currently offers some freedom in how to structure OKR hierarchies. We take the following approach in Plan:
 
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
@@ -364,7 +363,7 @@ _Weighting UX issues_
 
 All issues worked on by a designer should have a UX weight before work is scheduled for a milestone.
 
-- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/#ux-issue-weights).
+- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/capacity-management/#ux-issue-weights).
 - If the issue is a dedicated [UX] issue, then the issue weight can be added to the `weight` field, but it should also be duplicated as a ~'design weight:" label. This is for UX Department planning purposes. For smaller issues where implementation and UX work happen in the same issue, UX weight should be added using the ~'design weight:" label (the `weight` field is used by engineering).
 - Product Managers and Product Designers can use issue weights to ensure the milestone has the right amount of work, to discuss tradeoffs, or to initiate conversations about breaking work into smaller pieces for high-weight items.
 
@@ -401,9 +400,9 @@ This enables us to differentiate these by persona and workflow. While they may s
 ##### Guiding principles
 
 - The DRI for the user experience is the Product Designer assigned to the group that is using the work item architecture for their object(s).
-- We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#ux-research-for-work-items) for supporting work item initiatives.
-- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
-- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
+- We work in a user-first mindset, rather then technology-first.
+- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing/).
+- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles/) for the user experience.
 - MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
@@ -477,37 +476,22 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-06-24 | Brandon Labuschagne |
-| 2024-07-01 | John Hope |
-| 2024-07-08 | Vladimir Shushlin |
-| 2024-07-15 | Kushal Pandya |
-| 2024-07-22 | John Hope |
-| 2024-07-29 | Vladimir Shushlin |
-| 2024-08-05 | Kushal Pandya |
-| 2024-08-12 | Donald Cook |
-| 2024-08-19 | John Hope |
-| 2024-08-26 | Vladimir Shushlin |
-| 2024-09-02 | Kushal Pandya |
-| 2024-09-09 | Donald Cook |
-| 2024-09-16 | Donald Cook |
-| 2024-09-23 | Kushal Pandya |
-| 2024-09-30 | John Hope |
-| 2024-10-07 | John Hope |
-| 2024-10-14 | Kushal Pandya |
-| 2024-10-21 | Donald Cook |
-| 2024-10-28 | John Hope |
-| 2024-11-04 | Vladimir Shushlin |
-| 2024-11-11 | Kushal Pandya |
-| 2024-11-18 | Donald Cook |
-| 2024-11-25 | John Hope |
-| 2024-12-02 | Vladimir Shushlin |
-| 2024-12-09 | Kushal Pandya |
-| 2024-12-16 | Donald Cook |
-| 2024-12-23 | John Hope |
 | 2024-12-30 | Vladimir Shushlin |
 | 2025-01-06 | Kushal Pandya |
 | 2025-01-13 | Donald Cook |
 | 2025-01-20 | John Hope |
+| 2025-01-27 | Vladimir Shushlin |
+| 2025-02-03 | Kushal Pandya |
+| 2025-02-10 | Donald Cook |
+| 2025-02-17 | John Hope |
+| 2025-02-24 | Vladimir Shushlin |
+| 2025-03-03 | Kushal Pandya |
+| 2025-03-10 | Donald Cook |
+| 2025-03-17 | John Hope |
+| 2025-03-24 | Vladimir Shushlin |
+| 2025-03-31 | Kushal Pandya |
+| 2025-04-07 | Donald Cook |
+| 2025-04-14 | John Hope |
 
 #### Links
 
@@ -602,7 +586,7 @@ Some sessions may require small purchases to participate fully; for example, ing
 
 Unless communicated in advance these are **not expensable**.
 
-The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
+The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget. If successful it should be made clear to team-members well in advance:
 
 - What purchases qualify for reimbursement.
 - The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
@@ -615,7 +599,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 #### Tips for a Successful Team Day
 
-- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
+- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/about.html) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
 - Secure expense budget and communicate at least a week in advance of the Team Day.
 - Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
 - Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).

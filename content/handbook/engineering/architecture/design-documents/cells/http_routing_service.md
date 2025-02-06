@@ -453,6 +453,37 @@ There are several phases to fully deploy the HTTP Routing service to GitLab.com.
          accessible via the HTTP Router.
       1. A secure, encrypted connection between the HTTP Router and the cell.
 
+### Rolling Out Rule Sets
+
+HTTP Router rule sets define the logic how HTTP requests are routed within the Cells environment.
+Modifying these rule sets can potentially impact the availability of the entire site or the SLO of any specific service.
+Therefore, it is crucial to exercise extreme caution when rolling out changes to the rule sets.
+To implement these changes with minimal user impact and zero downtime, we will use the [Gradual deployments](https://developers.cloudflare.com/workers/configuration/versions-and-deployments/gradual-deployments/) functionality provided by Cloudflare. This approach allows us to limit the impact of any faulty changes to a small subset of total requests.
+The Rule Set that is being used, is configured in the [HTTP Router configuration file](https://gitlab.com/gitlab-org/cells/http-router/-/blob/main/wrangler.toml?ref_type=heads#L69), where `GITLAB_RULES_CONFIG` environment variable defines the name of the rule set file relative to [src/rules](https://gitlab.com/gitlab-org/cells/http-router/-/tree/main/src/rules?ref_type=heads) directory.
+We will use the existing [deployment mechanism](https://gitlab.com/gitlab-org/cells/http-router/-/blob/a9d4dc69385d59bbe1d93211c156fc39b75b5ce9/docs/deployment.md). We will gradually increase the rollout percentage, proceeding only when we are confident in the quality and expected outcomes of the rule set changes. The following sequence of rollout percentages is recommended: 5% → 25% → 50% → 75% → 100%.
+
+#### Prerequisites
+
+- Before processing with rollout steps, make sure you clearly defined the
+timeline.
+- [Schedule the change](../../../../support/readiness/operations/docs/pagerduty/change_management.md)
+- Add a new Change Lock entry to the [configuration](https://gitlab.com/gitlab-com/gl-infra/change-lock/-/blob/f1c2a4e197fc5c0c1ca4aae18e7480a904212f80/config/changelock.yml) file. Use the `http-router` Change Lock tag for this entry.
+
+Note: It is important for this rollout strategy to follow the timeline. You will need to merge MRs with a certain interval. Therefore, it's recommended to work in pairs.
+
+#### Rollout steps
+
+1. Create MR to modify CI configuration of HTTP Router Deployer [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml). In the global variables section, set both `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` environment variables to `true` linking to a change management issue.
+1. In the same MR, change `ROLLOUT_PERCENTAGES` environment variable in
+   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script. Set the value to `5`. Example: `ROLLOUT_PERCENTAGES="5"`
+1. Merge MR.
+1. Create and merge MR to update the `GITLAB_RULES_CONFIG` setting inside of [`wrangler.toml`](https://gitlab.com/gitlab-org/cells/http-router/-/blob/main/wrangler.toml) to the new rule set.
+1. Do any validation for the new rule set and validate that no SLO was effected.
+1. Before increasing the `ROLLOUT_PERCENTAGES` have some baking time, which can change depending on the environment.
+1. If no anomalies found and there is not impact on SLO's repeat step 1 for
+   `25`, `50`, `75`, `100` percents. Keep `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` set to `true` through entire rollout cycle.
+1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`. Remove the `OVERRIDE_LAST_PERCENTAGE` and `CHANGE_LOCK_OVERRIDE` environment variables in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml).
+
 ## Request flows
 
 1. There are two Cells.

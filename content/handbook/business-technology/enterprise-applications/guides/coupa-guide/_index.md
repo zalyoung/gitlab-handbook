@@ -49,7 +49,7 @@ Due to the limited number of licenses available for Coupa, it is recommended tha
 
 ### Home Page Overview
 
-![coupa-image-40](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa40.png)
+![coupa-image-40](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa40.png)
 
 1. **Home Icon** - This icon will bring you back to the homepage.
 1. **Account Name** - Contains a number of personal settings related to managing your account in Coupa.
@@ -63,13 +63,13 @@ Due to the limited number of licenses available for Coupa, it is recommended tha
 
 ### User Account
 
-![coupa-image-2](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa2.png)
+![coupa-image-2](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa2.png)
 
 Account Name contains a number of options related to managing your account in Coupa:
 
 - **Activity**: Displays all of your previous requisitions, related orders, receipts, and invoices. In each transactional tab, you can perform the following:
 
-![coupa-image-3](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa3.png)
+![coupa-image-3](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa3.png)
 
 1. **View**: allows you to quickly apply sets of filters to display reports such as all requisitions, requisitions requiring receipt, draft requisitions, and a number of other pre built reports, along with option of creating custom reports.
 1. **Report Scheduling**: allows to set up recurring reports that are emailed to recipients on a regular basis (can be daily, weekly, or monthly).
@@ -86,7 +86,7 @@ Account Name contains a number of options related to managing your account in Co
   - **Reports**: Users can schedule a report by going to a particular report view and specifying the scheduling details (only certain users will have access to reports and report views are dependent on role).
   - **Notifications**: Coupa notifications can be managed under the User's Settings.
 
-    ![coupa-image-26](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa26.png)
+    ![coupa-image-26](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa26.png)
 
     For each type of notification, the User can choose whether to receive notifications via email, Slack, or within Coupa (Online) and can select multiple platforms.
   - **Two-Factor Authentication (2FA)**: Should be enabled on user profiles to ensure that financial accounts and instruments are protected for control and use by the individual to whom they are intended. This extra authentication layer on the user profile is required before that user can be granted privileged permissions for working with payment features like creating batches for expense and invoice payments, creating accounts, and many other secured payment functions. *Check the [How to enable Two-Factor Authentication (2FA)](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-enable-two-factor-authentication) section for more details*.
@@ -95,7 +95,7 @@ Account Name contains a number of options related to managing your account in Co
 
 ### How to add a Delegate in Coupa
 
-![coupa-image-19](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa19.png)
+![coupa-image-19](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa19.png)
 
 1. Go to your "Account Name" > "Settings".
 1. Click on the "Delegate" subtab.
@@ -130,7 +130,7 @@ Effective 2023-02-01, all purchase requisitions will be created in `Zip`. To lea
 
 **REQUISITION HEADER LEVEL**
 
-![coupa-image-42](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa42.png)
+![coupa-image-42](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa42.png)
 
 - a) On Behalf Of *(synced from `Zip`)*<br>
   - This is used to create a request on behalf of another user. The approval chain will update following the person selected as "on behalf of". This user will then have to approve the invoice once received.
@@ -156,7 +156,7 @@ If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** 
 
 **REQUISITION LINE LEVEL**
 
-![coupa-image-43](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa43.png)
+![coupa-image-43](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa43.png)
 
 - The above information is synced from `Zip` or updated by FP&A Team if falls under [Coupa Prepaid Automation Process](/handbook/business-technology/enterprise-applications/guides/coupa-prepaid/).
 
@@ -164,7 +164,7 @@ If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** 
 
 ### Punchout Requisition
 
-![coupa-image-48](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa48.png)
+![coupa-image-48](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa48.png)
 
 1. On the Homepage Screen, click on any Punchout supplier located under `Additional Stores` section.
 1. Clicking on the Punchout link will take you to an approved supplier website where you start ordering your items, just like any online shopping experience.
@@ -189,7 +189,7 @@ Once the requisition integrates from `Zip` into `Coupa`, the applicable approver
 
 > The greater the amount of the requisition, the more approvers will be needed.
 
-![coupa-image-44](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa44.png)
+![coupa-image-44](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa44.png)
 
 ### How to Add an Approver
 
@@ -199,9 +199,9 @@ Once the requisition integrates from `Zip` into `Coupa`, the applicable approver
 - Select if the person is to be added after the current approver, end of the chain, or only as a watcher.
   - A watcher cannot approve or reject the cart but will receive notifications about the requisition.
 
-![coupa-image-45](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa45.png)
-![coupa-image-46](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa46.png)
-![coupa-image-47](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa47.png)
+![coupa-image-45](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa45.png)
+![coupa-image-46](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa46.png)
+![coupa-image-47](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa47.png)
 
 <br>
 <br>
@@ -245,14 +245,14 @@ There are several ways to approve transactions in Coupa:
 
    Below is an example of the approval notification in Slack:
 
- ![coupa-image-27](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa27.png)
+ ![coupa-image-27](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa27.png)
 
 {{% panel header="**NOTE**" header-bg="info" %}}
 
 - If your requisition status is "Pending Buyer Action", it is in Procurement's To Do List and is being reviewed by the procurement team who will respond as soon as possible, no longer than 1-2 business days. If there are any issues, Procurement will add comments to the requisition and you will receive notification via email, Slack or in your To Do List (depending on your notification setup in Coupa).
 - If you see "Onboarding" next to the Supplier's name on the line items of your requisition (see below screenshot), the Supplier has not completed the onboarding process. Suppliers have to complete their onboarding in Coupa before the requisition can be finalized.
 
-![coupa-image-25](/handbook/business-technology/enterprise-applications/guides/coupa-guide/Coupa25.png)
+![coupa-image-25](/images/business-technology/enterprise-applications/guides/coupa-guide/Coupa25.png)
 {{% /panel %}}
 
 <br>
@@ -261,7 +261,7 @@ There are several ways to approve transactions in Coupa:
 
 Provided that a Purchase Requisition has not been fully approved and flipped into an Order, only Procurement can withdraw the Purchase Request and make any changes before submitting again. Please reach out to the `#procurement` Slack Channel (including link to the Coupa requisition) for any requests or questions.
 
-![coupa-image-15](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa15.png)
+![coupa-image-15](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa15.png)
 
 1. Go to "Recent Activity" or "Activity" section.
 1. Find the Purchase Request on "Pending Approval" status and click on the "withdraw requisition" icon (Red Arrow).
@@ -332,7 +332,7 @@ To complete a New Supplier Request form:
 - Click on the `Forms` dropdown on the Home page
 - Select `PROC: New Supplier`
 
-![coupa-image-41](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa41.png)
+![coupa-image-41](/images/business-technology/enterprise-applications/guides/coupa-guide/coupa41.png)
 
 - Complete the form details and click the "Review" button (located at the bottom of the page/screen).
   - Review the information and if any changes need to be made, click the "Edit" button (located at the bottom of the page/screen) to make necessary changes.

@@ -11,7 +11,7 @@ The first step when releasing the first iteration for an Incubation Engineering 
 To establish an experiment, ensure that the feature being released has:
 
 1. A documentation page or blog post, that reflects that the feature is subject to the [GitLab Testing Agreement](/handbook/legal/testing-agreement/).
-2. An [experiment badge](https://design.gitlab.com/usability/feature-management#highlighting-feature-versions) in the UI.
+2. An [experiment badge](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions) in the UI.
 3. A UI for users to enable/disable the feature. This UI should also link to the [GitLab Testing Agreement](/handbook/legal/testing-agreement/).
 4. A feedback issue ([example](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/feedback/-/issues/10)) or feedback project ([example](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/feedback)) so user can easily provide feedback and bug reports.
 
@@ -27,7 +27,7 @@ To move an experiment to Beta, the following items should be in place:
 2. [Runbook entries](https://gitlab.com/gitlab-com/runbooks) are added if necessary in order to support SRE in the event of availability issues.
 3. All data for this feature should be included in the [backup and restore processes](https://docs.gitlab.com/ee/administration/backup_restore/).
 4. Any feature flags should be on by default, or better yet removed completely.
-5. Update the experiment badge to a [beta badge](https://design.gitlab.com/usability/feature-management#highlighting-feature-versions) in the UI.
+5. Update the experiment badge to a [beta badge](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions) in the UI.
 6. Documentation must exist (blog posts aren't sufficient), and the documentation should reflect beta status.
 7. Sufficient support materials should exist so that Support teams have the resources necessary to help customers with issues.
 8. One or more release post items.

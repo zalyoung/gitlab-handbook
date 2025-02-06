@@ -42,6 +42,10 @@ This is a bit simpler than creating one with managed content. You simply need to
 create the file within the sync repo itself. The sync processes will handle
 creating it within Zendesk itself.
 
+If the macro is "simple" (only involves status changes, adding tags, adding a
+comment, changing assignee, etc.), the processor will create the YAML file for
+you!
+
 #### Updating an existing macro
 
 Updating an existing macro is considerably easier than creating a new one.

@@ -41,11 +41,7 @@ Define the most effective way to deliver on customer/product technical fit in a 
 | Member                | Emma Szasz | SMB Advocate |
 | Member                | Lauren Kaible | SMB Advocate |
 | Member                | Rasheed Power  | SMB Advocate |
-| Functional Lead   | Sam Awezec | Director, Product Management, Growth |
 | Functional Lead   | Gayle Doud | Principal Product Manager, Growth |
-| Functional Lead   | Carrie Maynard | VP of Integrated Marketing |
 | Functional Lead   | John Coghlan | Director, Developer Relations |
-| Functional Lead   | Kelley Shirazi | Director, Field Enablement |
-| Member | Misty Martin-Zimmerman  | Senior Program Manager, Field Enablement |
 | Member | Christian Enache  | Senior Program Manager, Field Enablement |
 | Functional Lead   | Keven Hughes | Senior Support Engineer |

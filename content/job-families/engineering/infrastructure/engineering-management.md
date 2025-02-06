@@ -51,7 +51,7 @@ The Manager, Infrastructure contributes to the success of [Infrastructure Perfor
 
 The Manager, Infrastructure (Delivery) manages the engineering team responsible for tasks relating to release management of GitLab releases as well as continuous delivery/deployment on GitLab.com.
 
-The Manager is responsible for ensuring, and evolving the team mandate described in the [team handbook](/handbook/engineering/infrastructure/team/delivery/), and leading the team that consists of [Site Reliability Engineers](/job-families/engineering/infrastructure/site-reliability-engineer/) and
+The Manager is responsible for ensuring, and evolving the team mandate described in the [team handbook](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/), and leading the team that consists of [Site Reliability Engineers](/job-families/engineering/infrastructure/site-reliability-engineer/) and
 [Backend Engineers](/job-families/engineering/backend-engineer/).
 
 In addition to the same requirements, responsibilities, and performance indicators defined above for the Manager, Infrastructure, Delivery specialty requires:

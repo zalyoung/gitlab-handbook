@@ -7,7 +7,7 @@ description: "The Talent Acquisition Process Framework provides guidance on the 
 
 **Variations**: It's understood that variations to the process may occur given particular situations that make sense to a specified hiring team or need.
 
-The communicated Talent Acquisition Process Framework specifically focuses on approved REQs and candidates who are moving forward. It is understood that candidates who will be [declined will be done so in a timely and respectful manner]({{< ref "interviewing#rejecting-candidates" >}}).
+The communicated Talent Acquisition Process Framework specifically focuses on approved REQs and candidates who are moving forward. It is understood that candidates who will be [declined will be done so in a timely and respectful manner](/handbook/hiring/#interview-stages).
 
 ## Search Team
 
@@ -18,11 +18,11 @@ The communicated Talent Acquisition Process Framework specifically focuses on ap
 
 ### **Step 1: Identify hiring need**
 
-The Hiring Manager will determine the need for an opening and ensure it is an approved headcount (confirm with your [finance business partner](/handbook/finance/#finance-business-partner-alignment) if you are not sure). Once confirmed, the Hiring Manager will notify the [Talent Acquisition Manager/Lead specific to their org]({{< ref "recruiting-alignment" >}}) utilizing the steps provided on the [req creation process]({{< ref "req-creation#requisition-creation-process" >}}).
+The Hiring Manager will determine the need for an opening and ensure it is an approved headcount (confirm with your [finance business partner](/handbook/finance/#finance-business-partner-alignment) if you are not sure). Once confirmed, the Hiring Manager will notify the [Talent Acquisition Manager/Lead specific to their org](/handbook/hiring/recruiting-alignment/) utilizing the steps provided on the [req creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter).
 
 ### **Step 2: Create opening in Greenhouse**
 
-The Recruiter will create the opening in Greenhouse following the [req creation]({{< ref "req-creation#opening-vacancies-in-greenhouse" >}}) guidelines. The assigned Recruiter, CES, and Sourcer should receive an email notification from Greenhouse when the req is approved.
+The Recruiter will create the opening in Greenhouse following the [req creation](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) guidelines. The assigned Recruiter, CES, and Sourcer should receive an email notification from Greenhouse when the req is approved.
 
 ### **Step 3: Complete kick-off session, agree on priority level, & complete a sourcing session**
 
@@ -44,18 +44,18 @@ live or in an async way.
 
 **4.1 - Source prospects**
 
-The Recuiter and Hiring Manager will partner in finding top talent using different sourcing avenues to find candidates, with LinkedIn and GitLab Talent Community being the most used and efficient ones. *(It is possible that other Recruiters, and/or members of the CES Team will provide additional [sourcing support]({{< ref "talent-acquisition-framework#sourcing-support" >}})*.
+The Recuiter and Hiring Manager will partner in finding top talent using different sourcing avenues to find candidates, with LinkedIn and GitLab Talent Community being the most used and efficient ones. *(It is possible that other Recruiters, and/or members of the CES Team will provide additional [sourcing support](/handbook/hiring/talent-acquisition-framework/)*.
 
 **4.2 - Add prospects to Greenhouse**
 
-All approached prospects should be added in Greenhouse as prospects.**Greenhouse is the source of truth.**  Every sourced prospect should have the name of the person who sourced them in the Source field. If a Prospect was sourced by a Talent Acquisition Team Member from the Talent Community, that user will need to [manually update the candidate's source]({{< ref "greenhouse#high-level-workflow" >}}) information.
+All approached prospects should be added in Greenhouse as prospects.**Greenhouse is the source of truth.**  Every sourced prospect should have the name of the person who sourced them in the Source field. If a Prospect was sourced by a Talent Acquisition Team Member from the Talent Community, that user will need to [manually update the candidate's source](/handbook/hiring/greenhouse/#high-level-workflow) information.
 
 There are multiple ways to add the candidates, as follows:
 
-- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-Prospects-to-Greenhouse-via-LinkedIn-RSC-Integration)
+- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-prospects-to-Greenhouse-Recruiting-with-LinkedIn-RSC)
 - [Greenhouse plugin](https://support.greenhouse.io/hc/en-us/articles/4947637389083-Greenhouse-Recruiting-Chrome-extension-overview)
-- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630)
-- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
+- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630-Maildrop)
+- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-LinkedIn-Recruiter-System-Connect-RSC-integration) so you can export candidates in one click as prospects
 
 Keep in mind, a candidate could have the source, `Applied through your website's jobs page` or `Jobs page on your website`, if they signed-up to the **Talent Community** prior to the correct tracking link being associated with the in-take form. In that situation, please change their source to `Talent Community`.
 
@@ -107,7 +107,7 @@ If you are helping a Recruiter source for an open REQ please verify the prospect
     - Note: The person with `Recruiting Tasks` next to their name will be the Primary Recruiter.
 - Record the Assist in your team’s hiring tracker document (ie. PodSquad for Engineering)
 
-**FAQs:**  
+**FAQs:**
 </details>
 <details><summary>Click to expand</summary>
 
@@ -134,10 +134,10 @@ Will the Recruiter responsible for hiring the candidate also get credit?
 
 #### **Use Greenhouse to track prospects**
 
-- Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-Notifications-About-Candidate-or-Prospect) button to get timely updates on the candidate's status.
-- [Follow-up Reminders](https://support.greenhouse.io/hc/en-us/articles/360017456592-Follow-up-Reminders) to resend the assessment, availability or for any other important updates.
-- [Tags](https://support.greenhouse.io/hc/en-us/articles/360027904392-Assign-Candidate-Tag-): The most common tags used are "Location sourcing" and "diversity sourcing". You can also create your [auto tags](https://support.greenhouse.io/hc/en-us/articles/360000060551)
-- [Greenhouse Candidates Filter](https://support.greenhouse.io/hc/en-us/articles/360004175751-Best-Practices-Sourcing-Strategies): Similar to LinkedIn, Greenhouse has filters to track your pipeline. Under the candidates section, you can check any team members and your candidates tagged under a specific job, interview stage, location and so on. The most commonly used are Source, Profile details, Jobs and Location. Example - [Filter Candidates by Custom Job Fields](https://support.greenhouse.io/hc/en-us/articles/360003493951-Filter-Candidates-by-Custom-Job-Fields)
+- Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-notifications-about-candidate-or-prospect) button to get timely updates on the candidate's status.
+- [Follow-up Reminders](https://support.greenhouse.io/hc/en-us/articles/360017456592-Follow-up-reminders) to resend the assessment, availability or for any other important updates.
+- [Tags](https://support.greenhouse.io/hc/en-us/articles/360027904392-Assign-candidate-tag-to-candidate-profile): The most common tags used are "Location sourcing" and "diversity sourcing". You can also create your [auto tags](https://support.greenhouse.io/hc/en-us/articles/360000060551-Assign-candidate-tags-automatically-auto-tag)
+- [Greenhouse Candidates Filter](https://support.greenhouse.io/hc/en-us/articles/360004175751-Best-practices-Sourcing-strategies): Similar to LinkedIn, Greenhouse has filters to track your pipeline. Under the candidates section, you can check any team members and your candidates tagged under a specific job, interview stage, location and so on. The most commonly used are Source, Profile details, Jobs and Location. Example - [Filter Candidates by Custom Job Fields](https://support.greenhouse.io/hc/en-us/articles/360003493951-Filter-candidates-by-custom-job-fields)
 
 For more information about Greenhouse and it's tips & tricks, please refer to this [document](https://docs.google.com/document/d/1BbO5v_IJEq4QR9KpI7T3fSCwdCapVOZCyNgEk6MYO0s/edit)
 
@@ -147,7 +147,7 @@ For more information about Greenhouse and it's tips & tricks, please refer to th
 
 #### EEOC Questionnaire
 
-- All candidates that are evaluated for a requisition in the United States or globally (including the United States) **must** be sent the **EEOC Questionnaire**. Candidates evaluated for requisitions outside of the United States will **not** be sent the EEOC Questionnaire. For requisitions that are posted externally, where a candidate would apply, the candidate will automatically be presented with the *optional* survey in the application. If a candidate comes from a source where they **wouldn't** have necessarily applied (e.g. via an *Agency* or were *Sourced* or *Referred*), then the candidate will receive an automated email from Greenhouse when they reach the `Assessment` milestone. In the case of the requisition **not** being posted externally, then the **EEOC Questionnaire** will need to be sent **manually**. Information about checking the status of that questionnaire and how-to send it can be found [here]({{< ref "greenhouse#eeoc-questionnaire" >}}).
+- All candidates that are evaluated for a requisition in the United States or globally (including the United States) **must** be sent the **EEOC Questionnaire**. Candidates evaluated for requisitions outside of the United States will **not** be sent the EEOC Questionnaire. For requisitions that are posted externally, where a candidate would apply, the candidate will automatically be presented with the *optional* survey in the application. If a candidate comes from a source where they **wouldn't** have necessarily applied (e.g. via an *Agency* or were *Sourced* or *Referred*), then the candidate will receive an automated email from Greenhouse when they reach the `Assessment` milestone. In the case of the requisition **not** being posted externally, then the **EEOC Questionnaire** will need to be sent **manually**. Information about checking the status of that questionnaire and how-to send it can be found [here](/handbook/hiring/greenhouse/#eeoc-questionnaire).
 
 #### Screening
 
@@ -206,4 +206,4 @@ If there are any special circumstances regarding a known relocation for the cand
 
 Once references are completed or are in progress, and the offer has been approved, the Recruiter will move the candidate to offer stage to show that they are ready to present a verbal offer.
 
-For details about these final stages, please visit the [Job Offer Process]({{< ref "offer-process" >}}) page.
+For details about these final stages, please visit the [Job Offer Process](/handbook/hiring/talent-acquisition-framework/offer-process/) page.

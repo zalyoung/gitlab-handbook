@@ -7,7 +7,7 @@ description: "Continuous education webcast series for all GitLab field sales & c
 
 The Field Enablement Spotlight is a weekly continuous education series for all GitLab Sales, Sales Development, Customer Success, Solution Architects, Partner Ecosystem, Renewals, Professional Services & Operations team members.
 
-The Field Enablement Spotlight takes place each week on Thursday, with two session options to accomidate GitLab's global field sales & customer success audience.
+The Field Enablement Spotlight takes place each week on Thursday, with two session options to accommodate GitLab's global field sales & customer success audience.
 
 - **(Option 1) 11:00 AM (US Eastern Time)(UTC -5)** = (8 AM Pacific Time) = **(5 PM Central European Time)(UTC +1)**
 
@@ -19,16 +19,22 @@ Attending the weekly Field Enablement Spotlight session is mandatory, with two o
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Winter 2024 Lineup**
+**Spring 2025 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Dec 26 |  **No Session**   |  |
-| Jan 2 |  **No Session**    |    |
-| Jan 9 |  Business Value Services  | RSOE Team |
-| Jan 16 |  GitLab Dedicated for PubSec | Product Marketing |
-| Jan 23 | Customer Success - Success Plans   | CS Team  |
-| Jan 30 | *No session during the last week of the quarter* |    |
+| Feb 6 |  No Session   |    |
+| Feb 13 |  Highspot + HG Insights   |  RSOE Team  |
+| Feb 20 | Self-Hosted Models and Security Sprint    |  Product Marketing  |
+| Feb 27 | No Session - SKO   |    |
+| Mar 6 |  Azure DevOps Competitive Enablement   |  Product Marketing   |
+| Mar 13 |  Automated Software Delivery Roadmap   |  Product Marketing  |
+| Mar 20 |  Co-Create Initiative   |  Customer Success   |
+| Mar 27 |  TBD   |    |
+| Apr 3 |  Visibility and Measurement Roadmap   |  Product Marketing  |
+| Apr 10 |  TBD   |    |
+| Apr 17 |  *No session during the last two weeks of the quarter*   |    |
+| Apr 24 |  *No session during the last two weeks of the quarter*   |    |
 
 ## Past Sessions
 
@@ -37,6 +43,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-01-23 | **[Customer Success: New Paid Tiers](https://drive.google.com/file/d/1oGm4UbUAQzI_bwiBdIvj-D3D-f_Nz9fN/view?usp=drive_link)**   | Private  |
+| 2025-01-16 |  **[GitLab Dedicated for Gov: The FedRAMP Journey](https://drive.google.com/file/d/1lvFqgW4xPvRU2a9yHK9J4YokQEy3XyOQ/view?usp=drive_link)** | Private |
+| 2025-01-09 |  **[Business Value Services Update](https://drive.google.com/file/d/1tWWBq3eppiSuIns-wEzPH9YvZOkQDb2v/view?usp=drive_link)**  | Private |
 | 2024-12-19 |  **[Winning with Analyst Relations](https://drive.google.com/file/d/1QlDRpBaKZLpDAcqbSeJ4a3aWdIHMYCn1/view?usp=drive_link)**  | Private  |
 | 2024-12-12 |  **[Global Ecosystem Team Quarterly Update](https://drive.google.com/file/d/14TdBZWG62A7bX28zNYrfCLcKOiB7VwC0/view?usp=drive_link)**   | Private |
 | 2024-12-05 |  **[Beyond the Title: Developer Persona](https://drive.google.com/file/d/1-VxaQfxyAxvm2WS0ELqB9OCxLQ1z6sPI/view?usp=drive_link)**  | Private  |

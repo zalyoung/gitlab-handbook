@@ -207,14 +207,14 @@ The time from when a deal is closed won in Salesforce to when the invoice is gen
 1. Billing & Revenue team review AR Aging as on a monthly basis. Fifty (50) percent of the balances that are Ninety (90) days or more after the due date and One Hundred (100) percent of the balances that are One Hundred and Twenty (120) days or more after the due date are reserved as allowance for doubtful debt. Bad debt expense is recorded based on revenue recognised, future revenue recognition is stopped and deferred revenue is reversed all at the Netsuite level.
 1. Future amortisation of commissions expenses related to reserved invoices should also be stopped to ensure alignment with pattern of revenue recognition.
 1. Allowance for doubtful debt will be shared with Sales Operations on a monthly basis to ensure they have visibility of what may be written off in the future.
-1. On a quarterly basis, Senior Billing Manager and Revenue Director will determine the aged invoices that are uncollectible. They will create an issue ten (10) days before the end of the quarter to seek approval according to the [signature auhorization matrix]({{< ref "../authorization-matrix" >}}) to write off invoices and to also notify the Sr. Director of Sales Operations. Sales Operations will then create decommission opportunities in SFDC for approved write offs before the end of the quarter and these will be synced to Zuora to reverse original invoicing and revenue. Sales Operations will claw back commissions accordingly.
+1. On a quarterly basis, Senior Billing Manager and Revenue Director will determine the aged invoices that are uncollectible. They will create an issue ten (10) days before the end of the quarter to seek approval according to the [signature auhorization matrix](../authorization-matrix/) to write off invoices and to also notify the Sr. Director of Sales Operations. Sales Operations will then create decommission opportunities in SFDC for approved write offs before the end of the quarter and these will be synced to Zuora to reverse original invoicing and revenue. Sales Operations will claw back commissions accordingly.
 1. Revenue team will review write-offs processed in Zuora to ensure correct revenue reversal and will book MJEs in Netsuite to reclass impact to Bad Debt Reserve.
 1. Customers that have had their invoices written off, consider no discounts or credit given for future deals.
 1. Where payment is received for an invoice after it has been written off, the write off will be reversed and the related commission will be reinstated.
 
 ## Procure to Pay
 
-Procure to pay is the process of requisitioning, purchasing, receiving, paying for and accounting for goods and services. It includes the following sub processes of both the [Procurement]({{< ref "../procurement" >}}) and [Accounts Payable]({{< ref "../accounts-payable" >}}) departments:
+Procure to pay is the process of requisitioning, purchasing, receiving, paying for and accounting for goods and services. It includes the following sub processes of both the [Procurement](../procurement/) and [Accounts Payable](../accounts-payable/) departments:
 
 ### Vendor Master Management
 
@@ -225,7 +225,7 @@ Procure to pay is the process of requisitioning, purchasing, receiving, paying f
 
 Coupa is a procure-to-pay system that streamlines the purchase request process, initiate workflow with approvals, and enable Purchase Orders. We will be rolling out in a phased approach, with the US and Netherlands entities (GitLab Inc, Federal, IT BV and BV) in Phase I (2021-06-01). The remaining entities will be part of Phase II (2021-12-13).
 
-> You can learn more about Coupa on our [FAQ Page]({{< ref "../procurement/coupa-faq" >}})
+> You can learn more about Coupa on our [FAQ Page](../procurement/coupa-faq/)
 
 **How vendors are added into Coupa:**
 
@@ -293,7 +293,7 @@ Invoices in Coupa can be created via 4 different channels:
 A NetSuite error log identifying invoice integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Invoices - Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the invoice number/document number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please review this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list invoices not exported to NetSuite. Under Invoices, select View = **Not Exported**
-![coupa-image-1](finance-ops/coupainvoiceview.png)
+![coupa-image-1](/images/finance/accounting/finance-ops/coupainvoiceview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
@@ -386,7 +386,7 @@ After the supplier submits their supplier payment account information, it will t
 If the supplier is going through the SIM process, the approval for that supplier payment account will occur directly on the SIM External Form, and AP won't have to go into the supplier payment accounts to provide approval.
 {{% /alert %}}
 
-For more information regarding how to set up SPAs or Coupa Pay, please check out the lower section of our [Coupa FAQ page]({{< ref "../procurement/coupa-faq" >}}).
+For more information regarding how to set up SPAs or Coupa Pay, please check out the lower section of our [Coupa FAQ page](../procurement/coupa-faq/).
 
 #### Creating a Batch in Coupa
 
@@ -408,7 +408,7 @@ For more information regarding how to set up SPAs or Coupa Pay, please check out
 A NetSuite error log identifying payment integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Pay Payments Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the payment number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please see this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Payment Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list payments not exported to NetSuite. Under Payments, select View = **Not Exported**
-![coupa-image-1](finance-ops/coupapymtview.png)
+![coupa-image-1](/images/finance/accounting/finance-ops/coupapymtview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
@@ -441,7 +441,7 @@ Due to the limited number of licenses available for Coupa, it is recommended tha
 
 ## Expenses
 
-Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further details.
+Please refer to GitLab's [Expense Policy](../expenses/) for further details.
 
 ### Team Member Reimbursements - Navan
 
@@ -504,7 +504,7 @@ Even if this causes a bit more disruption in the short term, it will help us ens
 
 ### Non-Reimbursable Expenses
 
-In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix]({{< ref "../authorization-matrix" >}}) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Navan, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
+In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix](../authorization-matrix/) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Navan, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
 
 If further approval is not required, then proceed to the Procurement ["What are you buying" page]({{< ref "../procurement#-what-are-you-buying" >}}) for further instructions on the purchasing process at GitLab. Once those procedures are complete, have your vendor send their invoice to Accounts Payable: *ap@gitlab.com*.  Most importantly, the team member making the purchase request is ultimately responsible for final review and approval of the invoices. Final review and approval are critical process controls that help ensure we do not make erroneous payments to vendors. All original invoices and payment receipts must be sent to Accounts Payable.
 
@@ -537,7 +537,7 @@ Navan will auto-sync any new "expense tags" on a daily basis, but if the Navan a
 
 <a name="corporate-cc"></a>
 
-Please review this [page]({{< ref "../accounts-payable/corp-credit-cards" >}}) for the current policy/procedures.
+Please review this [page](../accounts-payable/corp-credit-cards/) for the current policy/procedures.
 
 ### Contribute Costs and other key expenses
 
@@ -567,11 +567,11 @@ This policy establishes the minimum cost (capitalization amount) used to determi
 
 **Capital Assets Defined**
 
-A "Capital Asset" is a unit of property that has an economic useful life extending beyond 12 months **and** was acquired (or in some cases, produced) for a cost of [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) or more. Capital Assets must be capitalized and depreciated for financial reporting purposes.
+A "Capital Asset" is a unit of property that has an economic useful life extending beyond 12 months **and** was acquired (or in some cases, produced) for a cost of [$5,000 (USD)](/handbook/total-rewards/compensation/#exchange-rates) or more. Capital Assets must be capitalized and depreciated for financial reporting purposes.
 
 **Capitalization Thresholds**
 
-GitLab establishes [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) as the minimum amount required for capitalization. Any item with a cost below this amount is expensed on the date of purchase. Exceptions are Key Component Assets (i.e. computer laptops).
+GitLab establishes [$5,000 (USD)](/handbook/total-rewards/compensation/#exchange-rates) as the minimum amount required for capitalization. Any item with a cost below this amount is expensed on the date of purchase. Exceptions are Key Component Assets (i.e. computer laptops).
 
 Bulk purchases ("like" items acquired with a single purchase order, which are received within a reasonable period of time of one another (less than 60 days) and that individually have an Acquisition Cost less than the Individual Purchases Capitalization Threshold) have a Capitalization Threshold of $50,000 (USD)
 
@@ -588,7 +588,7 @@ Invoices and purchase receipts for capital assets are retained for a minimum of 
 
 ### Fixed Asset Register and Asset Tracking
 
-Items paid for by the company are property of the company. Assets with purchasing value in excess of [$5000 USD]({{< ref "compensation#exchange-rates" >}}) or Key Component Assets are recorded and tracked through NetSuite Fixed Asset Management (FAM) module, which includes details of individual asset purchased. The Asset Register report provided by NetSuite FAM provides each individual asset purchased with the following information:
+Items paid for by the company are property of the company. Assets with purchasing value in excess of [$5000 USD](/handbook/total-rewards/compensation/#exchange-rates) or Key Component Assets are recorded and tracked through NetSuite Fixed Asset Management (FAM) module, which includes details of individual asset purchased. The Asset Register report provided by NetSuite FAM provides each individual asset purchased with the following information:
 
 1. Period and Date of purchase
 1. Asset Cost
@@ -686,11 +686,11 @@ This policy describes the methodology used to monitor and account for GitLab's p
 
 **Prepaid Expenses Defined**
 
-A [*Prepaid Expense*](https://www.investopedia.com/terms/p/prepaidexpense.asp?ad=dirN&qo=investopediaSiteSearch&qsrc=0&o=40186) arises when a cash disbursement is made for goods and services prior to realizing the associated benefits of the underlying goods and services. These transactions are recorded as assets until the goods and services are realized, at which point an expense is recorded. Our minimum threshold for recording prepaid expenses is [$5,000 USD]({{< ref "compensation#exchange-rates" >}})
+A [*Prepaid Expense*](https://www.investopedia.com/terms/p/prepaidexpense.asp?ad=dirN&qo=investopediaSiteSearch&qsrc=0&o=40186) arises when a cash disbursement is made for goods and services prior to realizing the associated benefits of the underlying goods and services. These transactions are recorded as assets until the goods and services are realized, at which point an expense is recorded. Our minimum threshold for recording prepaid expenses is [$5,000 USD](/handbook/total-rewards/compensation/#exchange-rates)
 
 **Identification and Recording of Prepaid Expenses**
 
-Once a purchase request makes it through the [company approval workflow]({{< ref "../procurement" >}}), Accounting will take the following steps to ensure prepaid expenses are recorded accurately:
+Once a purchase request makes it through the [company approval workflow](../procurement/), Accounting will take the following steps to ensure prepaid expenses are recorded accurately:
 
 1. The amount involved is **equal to or exceeds $5,000**. Prepaid expenses below $5,000 must be recorded as period expense immediately as incurred.
 1. The prepayment is for a time period **greater than 12 months**; (period of time is excluded for the Deposit of an event)

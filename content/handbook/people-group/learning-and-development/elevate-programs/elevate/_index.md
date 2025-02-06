@@ -2,11 +2,11 @@
 title: Elevate
 ---
 
-**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
-
 Elevate is a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
 
-Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
+**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
+
+Managers at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
 The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
 
@@ -35,8 +35,11 @@ In Elevate, participants will:
 
 Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module.
 
-![visual displaying the content in each elevate module](/static/images/handbook/people-group/elevatemoduleoverviews.png)
-g)
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
+
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
+
+We ask that team members make an effort to attend the live sessions, and engage in them fully, with cameras on. This enhances the experience for other team members and fosters an environment which promotes more active engagement and discussion with the concepts being discussed.
 
 ## Making up missed sessions
 
@@ -78,6 +81,12 @@ When the program begins, you'll be added to a Slack group that includes all memb
 It's a requirement to make up missed sessions to ensure that you're learning each new skill and moving through the program in the appropriate order. Please make every effort to attend live sessions as scheduled. If you miss a session, you'll have the option to schedule into a 'Membership' session in the Hone platform. We'll share more details on this process soon.
 
 We're committed to working with you to find a solution that let's you successfully complete Elevate. If you must miss one live session for personal reasons, you need approval from your manager. Additional missed sessions will result in an incomplete Elevate status.
+
+### I'm over capacity and feel like I may need to opt out of the training, what should I do?
+
+We want to try to support all people leaders to go through the program in its entirety - if you're feeling like it's too much to balance with your other work, as a first port of call please speak to your manager and explore options for how you can be supported to continue. If your manager is supportive of you leaving the program, please let one of the Talent Development team know. The Talent Development team will then speak to your People Business Partner to notify them of your leaving the program, and explore any final options to support you in continuing.
+
+Team members who leave the program part way through will still need to complete it in it's entirety in the future, but the point of re-entry will be reviewed on a case by case basis.
 
 ### How often will this program run?
 

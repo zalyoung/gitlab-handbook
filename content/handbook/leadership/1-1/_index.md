@@ -8,7 +8,7 @@ Maintaining an effective and efficient agenda is important to get the best out o
 
 1. Make sure you use a consistent agenda format for each 1-1.
 1. Both parties add items to the agenda. Preferably, the majority added by the team member. If the manager puts more than half of the items on the agenda this is an indication that something is wrong.
-1. Reference the [suggested format for leadership]({{< ref "suggested-agenda-format" >}}) as necessary.
+1. Reference the [suggested format for leadership](/handbook/leadership/1-1/suggested-agenda-format/) as necessary.
 
 ## Conducting a 1-1
 
@@ -45,7 +45,7 @@ We recorded a training about 1-1s which you can find here:
    - Anything non-work related worth mentioning?
    - When x happened, what will you do differently next time?
    - Have you identified any career development opportunities that I can help you with? For example: [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/)
-   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/one-on-one-meeting-questions) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions/).
+   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/one-on-one-meeting-questions) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions-2/).
 
 1. Consider encouraging direct reports to keep their 1:1 document open in their browser throughout the week. As items come up, they can add them in real time instead of waiting until 30 minutes before the meeting to scramble to fill in the [agenda](/handbook/leadership/1-1/suggested-agenda-format/).
 1. Asking open ended questions is important. "You doing alright?" is a yes/no question. There is no room for an answer unless you dig and prod to get more. Instead asking things like "Tell me how you've been doing since we last talked" leave more room for discussion and result in something both more actionable and results driven. Your goal is not just to know how they are doing, but why they feel that way.

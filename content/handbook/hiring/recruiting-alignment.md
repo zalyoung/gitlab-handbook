@@ -24,7 +24,7 @@ description: "This page is an overview of the search team alignment and the tale
 | R&D, Leadership | Matt Angell | Alice Crosbie |
 | Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Sruthy Menon / Sruthy Menon / Alice Crosbie |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
-| Engineering, Customer Support | Joanna Michniewicz / Sara Currie  | Alice Crosbie |
+| Engineering, Customer Support | Sara Currie  | Alice Crosbie |
 | Product Management | Holly Nesselroad | Lerato Thipe |
 | Security | Holly Nesselroad / Joanna Micheniewicz / Michelle A. Kemp | Lerato Thipe / Alice Crosbie / Alice Crosbie |
 | Design/UX  | Riley Smith | Lerato Thipe  |
@@ -40,7 +40,6 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Brand | Devin Rogozinski |
 | Talent Acquisition (Emerging Talent)| Justin Smith |
 | Talent Acquisition (Sales) | Jake Foster|
-| Talent Acquisition (EMEA and APAC Sales) | Jake Foster |
 | Talent Acquisition (Marketing & G&A) | Steph Sarff + Jake Foster |
 | Talent Acquisition (G&A) | Steph Sarff + Jake Foster |
 | Talent Acquisition (R&D) | Jack Connors |
@@ -48,9 +47,8 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition (Expansion Development) | Matt Angell |
 | Talent Acquisition (Specialty Tech) | Jack Connors|
 | Talent Acquisition (Infrastructure) | Jack Connors |
-| Talent Acquisition (Executive) | Rich Kahn |
 | Enablement | Marissa Farris |
-| Candidate Experience | Marissa Farris (Interim: Michelle Jubrey) |
+| Candidate Experience | Michelle Jubrey |
 
 ## Talent Acquisition Platform Directly Responsible Individual
 

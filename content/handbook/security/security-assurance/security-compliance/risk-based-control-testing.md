@@ -33,7 +33,7 @@ To select controls for risk-based control testing, we consider the following att
 - Data Classification per the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 - Risk associated with SaaS/Vendors (for example, a recent breach)
 - Coverage of identified risks (such as risks identified by the [Security Risk Team](../security-risk/_index.md), [CIS Top 18 Critical Security Controls](https://www.cisecurity.org/controls/cis-controls-list), known gaps)
-- Controls applicable for the "high" baseline in NIST 800-53
+- Baseline Level of control per NIST 800-53B
 - Time since control was last tested
 - Historical Observations
 - Nature of the control (e.g. manual, semi-automated, automated)
@@ -58,7 +58,7 @@ If you have a process or control that you think should be tested based on the cr
 
 ### 1. Confirm that the controls are not already tested
 
-(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267) 
+(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267)
 
 ### 2. Create a Security Compliance Intake Issue
 

@@ -6,7 +6,7 @@ title: "gitleaks on your laptop"
 
 If you ended up on this handbook page it's probably because you have been
 pointed here during a `git commit` by our [gitleaks installation](https://gitlab.com/gitlab-com/gl-security/security-research/gitleaks-endpoint-installer)
-on your local machine. The tool [`gitleaks`](https://github.com/zricethezav/gitleaks) is being used
+on your local machine. The tool [`gitleaks`](https://github.com/gitleaks/gitleaks) is being used
 on GitLab endpoints to prevent a common security issue, namely accidental commits of secrets like Personal Access Token or other credentials
 to public repositories. It is important that all repositories are covered as a leaked access token in one repository can impact all repositories and projects to which your account has access.
 
@@ -61,5 +61,5 @@ I_WANT_GITLEAKS_SKIP=1 git commit -m 'Commit a dummy secret'
 ```
 
 Please do **not** set this variable permanently as it would subvert the protection
-mechanism. Since version `8.5.0` there's also a [feature](https://github.com/zricethezav/gitleaks/pull/809) in `gitleaks` to
+mechanism. Since version `8.5.0` there's also a [feature](https://github.com/gitleaks/gitleaks/pull/809) in `gitleaks` to
 ignore dummy secrets by having `gitleaks:allow` in the same line with the secret.

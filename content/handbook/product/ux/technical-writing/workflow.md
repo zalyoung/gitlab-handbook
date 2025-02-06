@@ -166,7 +166,7 @@ The Technical Writer:
   Documentation requirements section. Addresses any recommendations or
   questions with the PMs and others collaborating on the issue in order to
   refine or expand the Documentation requirements.
-- Updates the Technical Writing milestone plan. [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/521), created from the [issue template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md).
+- Updates the Technical Writing milestone plan. [Example](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/521), created from the [issue template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md).
   - Add a link to the board or filter that shows the planned documentation and UI text work for the upcoming milestone.
   - Confirm that the group PM or EM is aware of the planned work.
 
@@ -465,25 +465,11 @@ documentation for their assigned stage.
   - Creating and refining content to address documentation needs and gaps for their assigned **stage**.
     For example, writing tutorials and use case-based content, restructuring existing content, working on the information architecture, and so on.
   - Supporting other writers in the stage to contribute to documentation improvements.
-- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/-/issues/1067).
+- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/1067).
 - Collaborate with other stage leads on documentation improvements.
 
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
-
-## Topic types and team progress
-
-The Technical Writing team is always working to improve the quality of the documentation.
-Specifically, we are working to implement [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
-
-We are currently tracking updates to the [**Use GitLab**](https://docs.gitlab.com/ee/user/)
-section of the global navigation.
-
-| Date           | # of pages done | # of pages total | Percent complete |
-|----------------|-----------------|------------------|------------------|
-| September 2023 | 259             | 658              | 39 %             |
-| October 2022   | 245             | 468              | 52 %             |
-| April 2022     | 161             | 420              | 38 %             |
 
 ## Hackathons
 
@@ -543,6 +529,7 @@ Any issue or merge request for which a Technical Writer provides a measurable am
 To further classify the type of effort, include one or more of the following labels:
 
 - [`documentation`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=documentation): Files in the `/doc` directory.
+- [`docs-missing`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=docs-missing): Documentation for a feature is missing. Documentation is required with the delivery of a feature for a specific milestone as part of the GitLab [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done). Add this label to the original feature MR or issue where documentation is missing. Keep the label for historical tracking and use `tw::finished` to indicate when documentation is completed. Does not apply to [experimental features](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment).
 - [`UI text`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=ui+text): Any user-facing text, such as UI text and error messages.
 - [`global nav item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=global+nav+item): Left nav of the docs site. Used in the `gitlab-docs` project.
 - [`release post item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=release+post+item): Release post items.

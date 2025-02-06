@@ -159,13 +159,20 @@ Note: **If you don't have access to Tableau,** reach out to your direct manager 
 1. These metrics include all MRs affecting the product. The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
 1. We will iterate on this process over time by expanding our metric set and refining them to ensure alignment with team contributions and evolving role expectations. Any changes will be clearly communicated to all team members.
 
-### How targets will be calculated?
+### Baseline targets for each job grade
 
-By analysing the existing teams' metrics and collaborating with all Engineering Managers in the stage, targets will be defined to accurately reflect the expectations set during a normal calibration session for talent assessments.
+In the table below, we outline the baseline numbers for each of the metric related to the Seniority level:
 
-These targets will be set having adherence to our CREDIT values in mind and are both ambitious and realistic.
+| Metric      | Associate | Intermediate | Senior | Staff |
+|-------------|-----------|--------------|--------|-------|
+| MR Rate     | 5         | 5            | 8      | 13    |
+| Review Rate | 3         | 10           | 16     | 16    |
 
-Note: specific numbers are currently being worked on and will be published soon on this page.
+### How were the targets calculated?
+
+By analysing the existing teams' metrics and collaborating with all Engineering Managers in the stage, targets were defined to accurately reflect the expectations set during a normal calibration session for talent assessments at the [Performing](/handbook/people-group/talent-assessment/#performing) level of each role.
+
+These targets were set having adherence to our CREDIT values in mind and are both ambitious and realistic.
 
 ### What do the targets mean?
 

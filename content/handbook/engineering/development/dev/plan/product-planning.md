@@ -297,4 +297,4 @@ When you pick something to work on, please:
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
 - [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
-  [section level](/handbook/company/team/structure/#organizational-structure))
+  [section level](/handbook/company/structure/#organizational-structure))

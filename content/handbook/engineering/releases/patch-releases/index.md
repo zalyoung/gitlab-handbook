@@ -15,7 +15,7 @@ Patch releases are prepared in parallel with regular GitLab.com deployments so t
 
 If you're a GitLab engineer looking to:
 
-* Include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role).
+* Include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/readme.md#security-guides-by-role).
 * Include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md). Security vulnerabilities in GitLab and its dependencies are to be addressed following the [Security Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 Bug fixes are worked on in the GitLab canonical repositories, while security fixes are worked on in the mirrored GitLab security repositories
@@ -46,7 +46,7 @@ of the patch release preparation, while unplanned patches will likely only inclu
 
 The end-to-end patch release process consists of the following stages:
 
-![patch release overview](patch-release-overview.jpg)
+![patch release overview](/images/engineering/releases/patch-releases/patch-release-overview.jpg)
 
 * [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
@@ -58,7 +58,7 @@ to the current and previous two GitLab versions:
   * The merge request executes end-to-end tests via test-on-omnibus pipeline to guarantee the bug fix meets the quality standards.
   * If the test-on-omnibus pipeline fails, a review from a Software Engineer in Test is required.
   * The merge request is merged by a GitLab maintainer in the stable branch associated
-* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository](https://gitlab.com/gitlab-org/security). A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology) with the following:
+* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository](https://gitlab.com/gitlab-org/security). A fix is considered complete only when it has a [security implementation issue](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/terminology.md) with the following:
   * All checkboxes checked to show all steps have been completed.
   * An AppSec and Maintainer approved MR targeting the default branch.
   * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.

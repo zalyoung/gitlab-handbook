@@ -20,7 +20,7 @@ Longitudinal studies typically combine use of multiple methods. Determining whic
 
 - [Interviews](/handbook/product/ux/ux-research/facilitating-user-interviews/) - It's a best practice to start every longitudinal study with interviews that help to establish a relationship with your participants. This is particularly important in longitudinal studies, since you will have multiple touchpoints with each participant throughout the study. Interviews also allow you to set expectations about the study's cadence and timeline, while allowing the participant to ask any clarifying questions about their role.
 - [Diary studies](/handbook/product/ux/ux-research/diary-studies/) - These are often incorporated into longitudinal studies, where participants are asked to document something they've done over a period of time.
-- [Surveys](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback?u=2255073) - It can be helpful to run surveys throughout the course of your longitudinal study, mainly as a way to revisit the key measures and determine how those have changed over time. Note that these can be done through a survey tool, like [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/), or verbally through interviews.
+- [Surveys](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback) - It can be helpful to run surveys throughout the course of your longitudinal study, mainly as a way to revisit the key measures and determine how those have changed over time. Note that these can be done through a survey tool, like [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/), or verbally through interviews.
 
 To reiterate the importance of interviews: they're critical to understanding the 'why' behind the data that may appear in diary studies and the ratings that participants provide within surveys.  The 'why' can directly lead to clear actions, too.
 
@@ -41,7 +41,7 @@ The above examples use self-reported measures, but it's certainly possible to le
 
 A sample output could look something like the following chart, which demonstrates how the measure changes over the designated period of time for a single participant:
 
-![Example output of a key measure over time](longitudinal_sample_output.png)
+![Example output of a key measure over time](/images/product/ux/ux-research/longitudinal-studies/longitudinal_sample_output.png)
 
 ### Steps to conduct a longitudinal study
 

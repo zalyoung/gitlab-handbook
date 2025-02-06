@@ -18,6 +18,7 @@ Our mission is to deliver and maintain a world-class observability offering and 
 | **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                         |
 | **Project Slack Channels**     | [#observability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/>                                                                                                                                                                                                                                                                                                                    |
 | **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Documentation**              | Technical documentation is on the [Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/)                                                                                                                                                                                                                                                                                                            |
 
 ## Team Members
 
@@ -46,6 +47,59 @@ The following gives an overview of our scope and ownership.
    1. [Capacity reporting for GitLab Dedicated](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated)
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
 1. [GitLab.com availability reporting](/handbook/engineering/monitoring/): Provide underlying data and aggregate numbers
+
+### Documentation
+
+We recognize the need to provide technical documentation for teams using our observability services and platforms, as well as for our team's internal use.
+
+Historically, we've provided reference documentation within the projects we own or contribute to, or in the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs).
+As these projects are scattered around, it is rather difficult to discover the various pieces of relevant documentation for our users.
+
+As we reshape our documentation, we follow along with the following idea and principles:
+
+1. The [Infrastructure Observability Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/) is the entrypoint for any observability related documentation we provide.
+1. Carefully crafted documentation is a core product for the observability platform, not an afterthought.
+1. We think of the documentation hub as a way to communicate about observability interfaces we offer as a platform with everyone in Engineering.
+1. We strive to provide documentation like guides and tutorials targeted for specific audiences - in addition to reference documentation.
+1. We use the documentation hub also to explain concepts and architecture for our team's internal use to create a common understanding and empower everyone to contribute in all areas.
+
+#### Where do we keep different types of documentation?
+
+There are different types of documentation, which belong in different places.
+
+| What?                                                        | Where?                      |
+|--------------------------------------------------------------|-----------------------------|
+| Team organisation, processes and other team level agreements | GitLab Handbook (this page) |
+| Technical reference documentation for standalone projects    | On the project itself, and linked to the Documentation Hub      |
+| How do we at GitLab make use of the projects we maintain?    | Documentation Hub           |
+| How does our GitLab specific architecture look like?         | Documentation Hub           |
+| Tutorials, guides, FAQs and conceptual explanations          | Documentation Hub           |
+
+Documentation outside the Documentation Hub should be linked from it (that's why we call it a *hub*) and vice versa, to help increase discoverability.
+
+This recognizes the need to ship reference documentation with the respective project, as we would expect to see for any project (whether open source or not).
+The benefit here is that a change in functionality can also update reference documentation in the same merge request.
+
+On the other hand, how we make particular use of these projects in our stack is too specific to ship with the project itself.
+Often, we want to understand the bigger picture and how projects play together.
+This is out of scope for technical documentation that ships with a certain project itself and hence we put this information on the documentation hub instead.
+
+For our internal use, we use the documentation hub to help us reason about the services we own and how we operate them.
+We expect this helps everyone on the team and helps us gather a common understanding as we have different roles and perspectives on the team.
+
+A recommended read on different types of documentation and how to organize it is the [Divio Documentation System](https://docs.divio.com/documentation-system/).
+
+#### How do we create documentation?
+
+As we reshape and build documentation, the documentation hub benefits from each and all contributions:
+
+1. Explain existing concepts
+1. Link together existing documentation
+1. Consolidate existing documentation and move in the right places
+1. Writing and graphics on system architecture and operational principles
+
+We aspire to create and maintain documentation as a primary citizen and similar to the [Handbook First](/handbook/company/culture/all-remote/handbook-first/) mindset.
+For example, instead of answering specific questions from team members individually (for example on Slack), we can take this as an opportunity to write a piece of documentation and ask them to review and work with that.
 
 ### Indicators
 
@@ -111,7 +165,7 @@ Refer to the Scalability group [issue boards section](/handbook/engineering/infr
 |--------------|-------------|
 | [Planning Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339171) | [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339070) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
-| ![Triage](../img/label-triage.png) <br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
+| ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png) <br/>![Proposal](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png) <br/>![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) | ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) <br/>![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png) <br/>![Under Review](/images/engineering/infrastructure/team/scalability/project-management/label-under_review.png) <br/>![Verify](/images/engineering/infrastructure/team/scalability/project-management/label-verify.png) <br/>![Done](/images/engineering/infrastructure/team/scalability/project-management/label-done.png)|
 
 #### Retrospectives
 

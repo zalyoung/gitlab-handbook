@@ -104,7 +104,7 @@ The Partner Territory Manager (Intermediate) reports to the Director, Partner Te
 
 #### Job Grade
 
-The Partner Territory Manager (intermediate) is a [grade 6]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Partner Territory Manager (intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Intermediate Responsibilities
 
@@ -201,7 +201,7 @@ The Senior Partner Territory Manager reports to the Director, Partner Territory 
 
 #### Job Grade
 
-The Senior Partner Territory Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Partner Territory Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Responsibilities
 
@@ -306,7 +306,7 @@ The Staff Partner Territory Manager reports to the {add the reporting position a
 
 #### Job Grade
 
-The Staff Partner Territory Manager is a [grade 9]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Staff Partner Territory Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Responsibilities
 
@@ -411,7 +411,7 @@ The Senior Manager, Partner Territory Management typically reports to the Vice P
 
 #### Job Grade
 
-The Senior Manager, Partner Territory Management is a [grade 9] ({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Manager, Partner Territory Management is a [grade 9] (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Manager Responsibilities
 
@@ -502,7 +502,7 @@ The Director, Partner Territory Management typically reports to the Vice Preside
 
 #### Job Grade
 
-The {add the role name} is a [grade 10]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The {add the role name} is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Director Responsibilities
 
@@ -595,7 +595,7 @@ Team members in the Partner Territory Manager job family may progress through th
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Video Interview with the Hiring Manager
 - Team Interviews with 1-4 team members
 

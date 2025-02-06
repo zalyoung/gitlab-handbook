@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Investigating Broken Pipelines"
 description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD pipelines"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Syntax error catching
@@ -113,7 +115,7 @@ Error loading key "/builds/scottcosentinogitlab/cicd_lab_rewrite.tmp/SSH_PRIVATE
 
 Let’s try to figure out what happened!
 
-## Task C.1. Isolate the command that causes the error
+## Task B.1. Isolate the command that causes the error
 
 The first logical step is to isolate the command that is causing the error. We can see in the logs that the `ssh-add "$SSH_INVALID_KEY"` command looks to cause the error.
 
@@ -121,7 +123,7 @@ With the command isolated, we can consider some ways to verify the command. One 
 
 In these cases, often the variable/input of the command is the main source of the error. From the error message, it looks that the key is not formatted correctly. Let's consult the documentation to see why.
 
-## Task C.2. Search the Documentation
+## Task B.2. Search the Documentation
 
 Often, common errors will be present in our documentation with solutions to the problems. To find this error:
 
@@ -145,9 +147,9 @@ To test if this fixes the error:
 
 1. Select **Build > Pipelines** from the left sidebar.
 
-1. Select **Run pipeline**.
+1. Select **New pipeline**.
 
-1. Leave all values as default and select **Run pipeline** again. You will now see the job complete successfully!
+1. Leave all values as default and select **New pipeline** again. You will now see the job complete successfully!
 
 ## Lab Guide Complete
 

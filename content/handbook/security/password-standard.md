@@ -60,7 +60,7 @@ To make a secure password you can remember, consider using a [combination of 5 o
 
 #### Two Factor Authentication (MFA or 2FA)
 
-All GitLab team members are required to use [Two Factor Authentication](https://www.cisa.gov/resources-tools/resources/multifactor-authentication-mfa#) (2FA) whenever possible. Usage of 2FA by GitLab team members is **required** for access to the production environment. It should be noted that references to MFA (Multi-Factor Authentication) are often included in language associated with third party products and certain compliance references, but the general concept is still covered by the term "2FA". There are different 2FA methods that can be used by GitLab team members. These are ranked by security strength:
+All GitLab team members are required to use [Two Factor Authentication](https://www.cisa.gov/resources-tools/resources/multi-factor-authentication-mfa) (2FA) whenever possible. Usage of 2FA by GitLab team members is **required** for access to the production environment. It should be noted that references to MFA (Multi-Factor Authentication) are often included in language associated with third party products and certain compliance references, but the general concept is still covered by the term "2FA". There are different 2FA methods that can be used by GitLab team members. These are ranked by security strength:
 
 - [Biometric Authentication](https://aws.amazon.com/what-is/mfa/#:~:text=be%20digitally%20accessed.-,Inherence%20factor,-Inherence%20methods%20use). Biometric-based authentication uses "something you are" to authenticate you. Examples include touch-id (fingerprint) or face-id (facial recognition). This is the most secure authentication method.
 - [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). FIDO2/WebAuthn uses a hardware token to authenticate you. It is one of the most secure methods, assuming the hardware token itself is physically secured.
@@ -68,7 +68,7 @@ All GitLab team members are required to use [Two Factor Authentication](https://
 - [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm). TOTP (Time-based One Time Password) is a popular method for a second factor. While not as secure as WebAuthn, Push as TOTP could be [phished](https://en.wikipedia.org/wiki/Phishing) (although the attack window would be extremely short). It is still a very secure method of authentication. As 1Password is used by GitLab team members, this could be used for TOTP after proper configuration ([1Password guidelines]({{< ref "password-guidelines#1password-guidelines" >}})).
 - [SMS](https://en.wikipedia.org/wiki/SMS). SMS (Short Message Service) is a method of using text messaging to provide out-of-band (OOB) authentication. As the messages can be spoofed or intercepted more easily than other methods, SMS is highly discouraged for 2FA. As of this writing, the Security Department is unaware of GitLab assets or third party applications that team members are using that *only* support SMS 2FA. If you need to use something that only offers SMS as a second factor for GitLab, contact the [Security Department](/handbook/security/controlled-document-procedure/#exceptions).
 
-For a better understanding of how 2FA fits into GitLab, refer to the [Accounts and Passwords]({{< ref "password-guidelines" >}}) section, which includes pointers to setting up passwords, acquiring FIDO2 tokens, and links to further resources. Refer to the Tools and Tips page for more detailed information regarding [FIDO2/WebAuthn](/handbook/tools-and-tips/#fido2--webauthn) and [other 2FA methods](/handbook/tools-and-tips/#other-2fa-methods).
+For a better understanding of how 2FA fits into GitLab, refer to the [Accounts and Passwords](/handbook/security/password-guidelines/) section, which includes pointers to setting up passwords, acquiring FIDO2 tokens, and links to further resources. Refer to the Tools and Tips page for more detailed information regarding [FIDO2/WebAuthn](/handbook/tools-and-tips/#fido2--webauthn) and [other 2FA methods](/handbook/tools-and-tips/#other-2fa-methods).
 
 #### Application Authentication Requirements
 
@@ -83,5 +83,5 @@ Exceptions to this standard will be tracked as per the [Information Security Pol
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})
-- [Token Management Standard]({{< ref "token-management-standard" >}})
+- Parent Policy: [Information Security Policy](_index.md)
+- [Token Management Standard](/handbook/company/working-groups/token-management/)

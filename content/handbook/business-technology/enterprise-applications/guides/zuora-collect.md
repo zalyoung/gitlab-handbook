@@ -21,7 +21,7 @@ Since Zuora was already an application from our Tech Stack and used across diffe
 
 ### What is Zuora Collect
 
-[Zuora Collect](https://knowledgecenter.zuora.com/CE_Collect/Get_Started_with_Collect/Overview_of_Zuora_Collect) is a complete solution for optimizing recurring collections in the Subscription Economy. As main benefits, it can track unpaid invoices and delinquent accounts, manage automated business processes and intelligent retry logic, and customize payment runs.
+[Zuora Collect](https://knowledgecenter.zuora.com/Zuora_Payments/Configure_payment_orchestration/Zuora_Collections/Get_Started_with_Collections/A_Overview_of_Zuora_Collect) is a complete solution for optimizing recurring collections in the Subscription Economy. As main benefits, it can track unpaid invoices and delinquent accounts, manage automated business processes and intelligent retry logic, and customize payment runs.
 
 ### How to access Zuora Collect
 

@@ -227,7 +227,7 @@ Remote work is open to disabled workers in the following ways:
 - Installation of special software;
 - Adaptation of the working environment.
 
-The [reasonable accommodation]({{< ref "inc-usa#reasonable-accommodation" >}}) section of the Company handbook provides complementary information.
+The [reasonable accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) section of the Company handbook provides complementary information.
 
 #### 4. ORGANISATION OF THE WORKING TIME
 

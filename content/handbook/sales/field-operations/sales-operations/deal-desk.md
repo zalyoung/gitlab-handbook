@@ -100,7 +100,7 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 #### Salesforce Communication
 
-Deal Desk's primary communication process to request internal support is SFDC Cases. Support can be requested on the Opportunity Object in SFDC, by clicking on the "Request Support" button in the top right hand side of the page layout. Please reference the "[Requesting Internal Support](https://handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support/)" section in the Handbook for detailed instructions.
+Deal Desk's primary communication process to request internal support is SFDC Cases. Support can be requested on the Opportunity Object in SFDC, by clicking on the "Request Support" button in the top right hand side of the page layout. Please reference the "[Requesting Internal Support](/handbook/sales/field-operations/requesting-internal-support/)" section in the Handbook for detailed instructions.
 
 For enablement on requesting Deal Desk Cases, please reference the [New Internal Support Request + Quote Approval Processes - 2024-11-21](https://gitlab.highspot.com/items/673f8c8deaa0ddae6c0b99f8) in HighSpot.
 
@@ -854,7 +854,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Standard services are those for which a SKU exists in Zuora CPQ.
 - Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell instructor led training offering(s).)
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
-- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
+- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog/)
 
 ##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 

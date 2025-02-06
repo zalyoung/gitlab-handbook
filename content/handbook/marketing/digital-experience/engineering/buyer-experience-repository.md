@@ -8,7 +8,7 @@ description: >-
 
 ### Technical Architecture
 
-1. **[Nuxt.js](https://nuxtjs.org/):** A vue.js static site generator
+1. **[Nuxt.js](https://nuxt.com/):** A vue.js static site generator
 2. **[Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui):** SSoT for the marketing site's design system
 3. **Focus Resources:** Devoted to two repositories
     - Digital Experience focused resources on the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) and [Slippers repositories](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui).
@@ -56,12 +56,12 @@ If we have moved or removed your content and it's causing problems for you, your
 
 ### Where Content Exists
 
-All content is stored in the [/content](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content) directory and can be accessed via the [Nuxt content module](https://content.nuxtjs.org/)
+All content is stored in the [/content](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content) directory and can be accessed via the [Nuxt content module](https://content.nuxt.com/)
 
 ### How to Edit Content
 
 1. Edit content directly in the browser using [GitLab Web Editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html).
-1. Alternatively, set up a local development environment and use the [Nuxt content editing tools](https://content.nuxtjs.org/) on your machine. Then commit your changes and make a merge request in GitLab.
+1. Alternatively, set up a local development environment and use the [Nuxt content editing tools](https://content.nuxt.com/) on your machine. Then commit your changes and make a merge request in GitLab.
 
 ### How to Add a New Webpage
 
@@ -109,7 +109,7 @@ making it easier to find any change without having to go back and search the pro
 
 #### How it works?
 
-In order to accomplish the `changelog` automated updates, tag creation and version management, we are using [semantic-release](https://semantic-release.gitbook.io/semantic-release/),
+In order to accomplish the `changelog` automated updates, tag creation and version management, we are using [semantic-release](https://semantic-release.gitbook.io/semantic-release),
 which is a package that helps automate the whole process and has great community of developers behind it. The specific configuration and technical details can be found in the [docs](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/docs/semantic-release.md).
 
 A manual/scheduled pipeline job will be run at the end of each iteration cycle, in order for `semantic-release` to detect correctly how to increase the release version, it needs `Merge commits` to follow the guidelines from [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary).

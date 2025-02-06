@@ -83,6 +83,10 @@ All other [SFDC contact ownership rules](/handbook/sales/field-operations/gtm-re
 
 All account routing is handled by Enterprise Territory Management (ETM). If you wish to learn more about this, please visit the sales operation handbook.
 
+## Traction Complere view on the account object
+
+We have custoized the lead section of the Traction Complete view on the account object. To navigate to this section in Salesforce Lightning, click `Traction Complete` on the top of the account page (same rown you find `Details`). This will open the view where you can see all leads matched to the account with useful information like Full Name, Title, Email, Last Activity, Last Flow Name, and Active Flows Count. This information can be valuable to Sales Development and Sales to collaborate on reaching out to high value leads associated with their accounts.
+
 ## Lead routing request or question?
 
 ### Request an SDR alignment update

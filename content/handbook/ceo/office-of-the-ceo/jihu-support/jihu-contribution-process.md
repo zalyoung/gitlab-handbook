@@ -77,7 +77,7 @@ Contributions in projects that have proprietary and upstream contributions will 
 1. The JiHu Engineering team will review and merge the JiHu MR in the JiHu project.
 1. A scheduled pipeline every 2 hours will run in [compliance-verification](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/compliance-verification) against the [JiHu project pulling mirror](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/gitlab) to verify that there are no code difference outside of `jh/` directory beside [agreed difference for `package.json` and `yarn.lock`](https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/170#note_892043256).
 
-![Diagrem of the GitLab JiHu MR Process](/handbook/ceo/office-of-the-ceo/jihu-support/images/gitlab-jh-mr-process.jpg)
+![Diagrem of the GitLab JiHu MR Process](/images/ceo/office-of-the-ceo/jihu-support/gitlab-jh-mr-process.jpg)
 
 ### JiHu contribution identification
 
@@ -98,7 +98,7 @@ Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-te
     1. [Code review by domain experts](#what-approvals-are-required)
     1. Review from owners of specific code files. JiHu merge request author is responsible to mention team members from list of require approvals in the MR Approvals widget. Currently for the following area:
         1. Authentication related code
-    1. [GitLab Security Review]({{< ref "jihu-security-review-process" >}}#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
+    1. [GitLab Security Review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
 
 #### What approvals are required
 

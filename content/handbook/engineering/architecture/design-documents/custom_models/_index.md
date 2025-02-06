@@ -117,51 +117,9 @@ For each supported model and supported GitLab Duo feature, prompts will be devel
 
 When the standard prompts are migrated into either the AI Gateway or a prompt template repository (direction is to be determined), the prompts supporting self-hosted models will also be migrated.
 
-### LLM Hosting Support
+### Supported LLMs
 
-Self-Hosted models are supported running as on-premises on customer internal infrastructure or in a private space on cloud providers:
-
-- [AWS Bedrock](https://aws.amazon.com/bedrock/)
-- [Microsoft Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-
-Specific model support by cloud provider is listed below. The GitLab AI Gateway also needs to be installed, and the Docker container is accessible on [DockerHub](https://hub.docker.com/repository/docker/gitlab/model-gateway/tags) and the [GitLab Container Registry](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/container_registry/).
-
-For details on what Duo features are supported by model, see [this documentation page](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#install-large-language-model-serving-infrastructure)
-
-#### Self-Hosted inference
-
-| Model                        | Availability    |
-|------------------------------|-----------------|
-| Mistral 7B                   | Beta         |
-| Mixtral 8x7B                 | Beta         |
-| Mixtral 8x7B Instruct        | Beta         |
-| Mixtral 8x22B                | Beta         |
-| Codestral 22B                | Beta         |
-| CodeGemma 2B                 | Beta            |
-| CodeGemma 7B-code            | Beta            |
-| Code-Llama 13B               | Beta            |
-| DeepSeek Coder 33B Instruct  | Beta            |
-| DeepSeek Coder 33B Base      | Beta            |
-
-#### Inference on AWS Bedrock
-
-| Model                        | Availability    |
-|------------------------------|-----------------|
-| Mistral 7B                   | Beta         |
-| Mixtral 8x7B                 | Beta         |
-| Mixtral 8x7B Instruct        | Beta         |
-| Mixtral 8x22B                | Beta         |
-| Codestral 22B                | Beta        |
-| Claude 3.5 Sonnet            | Beta         |
-| Claude 3 Haiku               | Beta         |
-
-#### Inference on Microsoft Azure
-
-| Model                        | Availability    |
-|------------------------------|-----------------|
-| OpenAI 4o                    | Beta       |
-
-Installation instructions are available in the [Developer documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
+The list of supported LLMs are available in the [documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/supported_models_and_hardware_requirements.html#approved-llms).
 
 #### RAG / Duo Chat tools
 

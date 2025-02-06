@@ -44,11 +44,11 @@ Some examples:
 
 Most notices should be sent in the form of Zendesk tickets. Always send these tickets to users with `Owner` level permissions in the namespace or project in question.
 
-Most contact requests will involve contacting all of the owners of only one project or only a few specific users. If you're tasked with contacting the owners of a project and know that there's only one, feel free to look up their email address using your admin account or [ChatOps]({{< ref "chatops#user" >}}).
+Most contact requests will involve contacting all of the owners of only one project or only a few specific users. If you're tasked with contacting the owners of a project and know that there's only one, feel free to look up their email address using your admin account or [ChatOps](/handbook/support/workflows/chatops/#user).
 
 However, some contact requests may involve contacting all of the owners of multiple projects. Support Engineers should direct requests for reaching out to multiple owners across multiple projects to do [Mass Emails through Marketing Department](#mass-emails-through-marketing-department)
 
-Make sure to [add an admin note]({{< ref "admin_note" >}}) on a user/group we took action on. This will ensure that we can track a block/change reason if a user reaches out to us using a different channel.
+Make sure to [add an admin note](/handbook/support/workflows/admin_note/) on a user/group we took action on. This will ensure that we can track a block/change reason if a user reaches out to us using a different channel.
 
 ### Manually create a Zendesk ticket
 
@@ -81,7 +81,7 @@ The [Email Grab Script](https://gitlab.com/gitlab-com/support/runbooks/-/blob/ma
 
 - **Note**: If a new PAT was created from an admin account, that account will receive a slack message from the SIRTbot app asking if the PAT creation was legitimate. Remember to fill this out for security auditing.
 
-1. [Comment out](https://docs.ruby-lang.org/en/3.0/doc/syntax/comments_rdoc.html) the sections of the script that you will not be using, either `groups`, `users`, or `projects`.
+1. [Comment out](https://docs.ruby-lang.org/en/3.0/syntax/comments_rdoc.html) the sections of the script that you will not be using, either `groups`, `users`, or `projects`.
 1. Add your data to the section you will be using.
 1. Run the script with `ruby emailgrab.rb`.
 

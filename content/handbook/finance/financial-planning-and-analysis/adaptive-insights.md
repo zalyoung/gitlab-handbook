@@ -5,7 +5,7 @@ description: "Discover how GitLab uses Adaptive Insights to plan, budget, and fo
 
 ## General Information
 
-[Adaptive Insights](https://www.adaptiveplanning.com/), a Workday company, is a cloud-based corporate performance management platform. The GitLab FP&A team utilizes Adaptive Inisghts to plan, budget, and forecast GitLab's planning cycles.
+[Adaptive Insights](https://www.workday.com/en-us/products/adaptive-planning/overview.html), a Workday company, is a cloud-based corporate performance management platform. The GitLab FP&A team utilizes Adaptive Inisghts to plan, budget, and forecast GitLab's planning cycles.
 
 ## Administration
 
@@ -183,7 +183,7 @@ The below image shows the current report structure in Adaptive Insights. There a
 1. Sandbox Reports - folder that houses work in progress reports and where reports are created before moving to production
 1. YTD Reports - folder that houses year to date reports
 
-![alt text](../adaptive-report.png "Report Structure")
+![alt text](/images/finance/financial-planning-and-analysis/adaptive-report.png "Report Structure")
 
 ### Reports
 

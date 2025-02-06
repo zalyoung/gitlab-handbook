@@ -28,12 +28,12 @@ A few facts about me:
 
 ### Background story at GitLab
 
-I joined GitLab with the [acquisition of Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html)
+I joined GitLab with the [acquisition of Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition/)
 in 2018, when I become the first
-manager of the [Secure Stage](https://about.gitlab.com/direction/secure/). After having designed and developed security
+manager of the [Secure Stage](https://about.gitlab.com/direction/application_security_testing/). After having designed and developed security
 products, I decided to switch to the other side of the mirror and joined the [Security Department](/handbook/security) in 2020.
 
-![timeline](../timeline.png)
+![timeline](/images/security/readmes/timeline.png)
 
 ### Communicating with me
 

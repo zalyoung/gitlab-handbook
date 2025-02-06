@@ -20,11 +20,11 @@ Here are some non-exhaustive guidelines:
 - If the application requires credentials (password, access token, etc.) to any of your work accounts (GitLab, Google, Okta, etc.) please do not enter the credentials and remove the application
 - If the application uses OAuth, make sure to only allow access to your account if the permissions required by the application are very minimal (such as accessing your public profile)
 
-    ![OAuth authorization screen with profile scope](/handbook/tools-and-tips/images/oauth1.png)
+    ![OAuth authorization screen with profile scope](/images/tools-and-tips/oauth1.png)
 
     If the application requires anything such as read-only access to the API or anything that could grant access to confidential data please do not continue the authentication process and remove the application
 
-    ![OAuth authorization screen with profile and read_api scope](/handbook/tools-and-tips/images/oauth2.png)
+    ![OAuth authorization screen with profile and read_api scope](/images/tools-and-tips/oauth2.png)
 - When installing something from an "app store" of some sort, look for the reviews, the number of downloads and especially for "badges" that show that the application was reviewed by the app store. For example the Chrome Web Store has a [featured badge](https://support.google.com/chrome_webstore/answer/1050673?visit_id=638011195121439702-999154480&p=cws_badges&rd=1#cws_badges&zippy=%2Cunderstand-chrome-web-store-badges) for popular trustworthy applications
 - When in doubt, do not install the application
 
@@ -43,7 +43,7 @@ Shut off interest based ads by setting your preferences.
 In general, if a particular application or browser extension (sometimes called a plugin) is referenced in the handbook, it is considered "approved".
 For example, [1Password](/handbook/security/#1password-guide) is centered around the browser extension.
 Another application is [Zoom](/handbook/tools-and-tips/#zoom), which has a scheduler extension.
-However, be sure to search for specific information about the application, in case the desktop version is recommended and the browser extension is not (e.g. [Grammarly](#grammarly)).
+However, be sure to search for specific information about the application.
 
 If you wish to use an extension not referenced in the handbook, consider the following before installing and using it:
 
@@ -59,7 +59,7 @@ Adblockers are browser extensions that can block advertising, prevent user track
 A popular one recommended by the Security Team is [uBlock Origin](https://github.com/gorhill/uBlock/) which can be installed by following the links below:
 
 - [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak)
 
 #### One Tab
@@ -68,7 +68,7 @@ A popular one recommended by the Security Team is [uBlock Origin](https://github
 
 #### SessionBox
 
-[SessionBox](https://sessionbox.io/discover) is a browser extension that helps you deal with multiple sessions.
+[SessionBox](https://sessionbox.io/) is a browser extension that helps you deal with multiple sessions.
 It binds a particular session to a tab.
 This is particularly useful for testing with different users in the same browser.
 
@@ -83,7 +83,7 @@ After installing the extension, access the project page you are interested in fo
 Certainly do not install it on your local machine.
 But even the Google Chrome plugin that lets you see embedded Flash content in websites can pose a security hazard.
 If you have not already, go to your [Chrome Flash Settings](chrome://settings/content/flash) and disable Flash.
-For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](https://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
+For further context, note that [Google Chrome is removing Flash support soon](https://web.archive.org/web/20230128093704/https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](https://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
 it still leaves vulnerabilities for [zero-day attacks](https://en.wikipedia.org/wiki/Zero-day_vulnerability).
 
 ### Prototyping in the browser
@@ -102,22 +102,13 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 [Bear (Free)](https://bear.app/) is a clean writing tool for notes and long-form writing.
 [Ulysses $5/month](https://ulysses.app/) is also a great choice.
 
-### Grammarly
-
-[Grammarly](https://www.grammarly.com) is a good tool for those who want to feel more comfortable drafting written communication in English (American or British).
-There is a free and premium version.
-
-{{% panel header="**IMPORTANT NOTE FOR GRAMMARLY**" header-bg="orange" %}}
-Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard/) for additional details on how data is classified across the organization.
-{{% /panel %}}
-
 ### LanguageTool
 
-As an alternative to [Grammarly](#grammarly), we can combine LanguageTool in the browser
+As an alternative to Grammarly, we can combine LanguageTool in the browser
 with a local LanguageTool server .
 This ensures that spell and grammar checking remains both convenient and confidential:
 
-1. Install the [LanguageTool browser extension](https://www.languagetool.org/#firefox_chrome).
+1. Install the [LanguageTool browser extension](https://languagetool.org/#firefox_chrome).
 1. Either install [LanguageTool as a Homebrew service](https://formulae.brew.sh/formula/languagetool),
    or install [a Docker engine](/handbook/tools-and-tips/mac/#docker-desktop)
    and follow the setup instructions of any
@@ -291,7 +282,7 @@ Many USB headsets are unmutable.
 
 #### Shush alternative for Linux
 
-If you use Linux (e.g. [Arch](https://archlinux.org/), [Ubuntu](https://ubuntu.com/) or [Fedora](https://getfedora.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
+If you use Linux (e.g. [Arch](https://archlinux.org/), [Ubuntu](https://ubuntu.com/) or [Fedora](https://fedoraproject.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
 Please note that it only works for Linux distributions which use [ALSA](https://www.alsa-project.org/wiki/Main_Page) for sounds (most popular Linux distributions use ALSA).
 All you need to do is go to your desktop environment's *Keyboard Settings* and create a custom shortcut with the command `amixer set Capture toggle` and assign a key combination of your choice (e.g. `Pause Break` key).
 Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application.
@@ -315,7 +306,7 @@ It also offers a free reliable mobile video conference app.
 
 ### Loom
 
-[Loom (Free)](https://www.useloom.com/) is a handy Chrome plugin tool for video walkthroughs.
+[Loom (Free)](https://www.loom.com/) is a handy Chrome plugin tool for video walkthroughs.
 Nice tool for demo recordings and internal/external documentation. Note, Loom videos are public by default - ensure you are not exposing data that should remain private. GitLab does have a Loom workspace, for a license please follow the instructions on the [tech stack page](/handbook/business-technology/tech-stack/)
 
 ## Language and translation

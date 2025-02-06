@@ -21,7 +21,6 @@ Here are how the team members divide their work to ensure the best results:
 ### Connect With Us
 
 <a href="https://helplab.gitlab.systems/esc?id=ec_pro_dashboard" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> HelpLab</a>
-<a href="https://gitlab.com/people/general/-/issues" class="btn btn-primary btn-lg"><i class="fa-brands fa-gitlab"></i> Issue tracker</a>
 
 ## How We Work
 

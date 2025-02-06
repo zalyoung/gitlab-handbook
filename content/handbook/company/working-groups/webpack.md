@@ -36,7 +36,7 @@ Increase engineer productivity by fixing and improving our frontend build toolin
 
 ## Conclusion
 
-This effort is now looked after by the [Manage:Foundations group](https://about.gitlab.com/direction/manage/foundations/).
+This effort is now looked after by the [Manage:Foundations group](https://about.gitlab.com/direction/foundations/personal_productivity/).
 
 ## Roles and Responsibilities
 

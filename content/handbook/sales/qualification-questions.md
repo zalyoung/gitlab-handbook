@@ -170,7 +170,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How does your organization handle [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)?
   - GitLab's Disaster Recovery feature, only available in Premium and Ultimate SKUs, handles fail-over to another data center within minutes
 - Are your development teams centrally located in generally the same vicinity or are they distributed across the world? If distributed, how do you ensure that latency between geographically dispersed developers is minimized?
-  - If this is important to the customer, discuss with your SA whether or not [Geographic Replication](https://about.gitlab.com/solutions/geo/) is a required capability
+  - If this is important to the customer, discuss with your SA whether or not [Geographic Replication](https://docs.gitlab.com/ee/administration/geo/index.html) is a required capability
 
 #### Developer Productivity
 
@@ -219,7 +219,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How easy or difficult is it for you to pull together audit evidence and proof points across multiple tools? How could you benefit from a faster process?
 - How do you collect the data for security and compliance on a regular basis? When you have a breach, what are the implications and who has to get involved? What type of information is required? How long does it take for your teams to provide audit evidence?
 - GitLab Premium includes several enhancements that help with auditing and compliance including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
-  - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_events.html) - Review changes by user and track access
+  - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_event_reports.html) - Review changes by user and track access
   - [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html) - Read-only access to all projects, groups, and other resources on the GitLab instance
   - [Merge Request Reviews](https://docs.gitlab.com/ee/user/discussions/index.html#merge-request-reviews) - Draft multiple comments in a merge request code review and review/resolve comments together
   - [Verified Committer](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
@@ -286,7 +286,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 
 ### Competing/Selling Against GitHub and GitHub Actions
 
-- Review the battle card and discovery questions [here](https://about.gitlab.com/competition/github/)
+- Review the battle card and discovery questions [here](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/)
 
 ### Competing/Selling Against Microsoft Azure DevOps
 

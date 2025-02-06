@@ -23,6 +23,7 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 - [Djordje Micovic, Staff Data Analyst](/handbook/company/team/#dmicovic)
 - [Dennis Charukulvanich, Senior Data Analyst](/handbook/company/team/#dennischarukulvanich)
 - [Ankit Kanwar, Senior Data Analyst](/handbook/company/team/#akanwar)
+- [Luke Salmas, Senior Data Analyst](/handbook/company/team/#lsalmas)
 
 ## <i id="biz-tech-icons" class="far fa-paper-plane"></i>How to Communicate with Us
 
@@ -38,17 +39,19 @@ We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archive
   </div>
 </div>
 
+See the following page for information specifically pertaining to [Marketing Analytics Data Engineering](marketing-data-engineering).
+
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Our Work
 
 As part of our work, we publish self-service dashboards for team members to understand campaign performance and key marketing KPIs. Our [dashboard page](dashboards) lists our currently supported dashboards and our framework for publishing a new dashboard.
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>How We Work
 
-We use milestones to create 2 week sprints. Below are links to our project within GitLab.com and our a view of our current and upcoming milestones.
+We use milestones to create 2 week sprints(iterations). Below are links to our project within GitLab.com and a view of our current and upcoming milestones.
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/boards/2084660" class="btn btn-purple" style="margin:5px;">Marketing Analytics local issue board</a>
+    <a href="https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/boards/2084660?iteration_id=Current" class="btn btn-purple" style="margin:5px;">Marketing Analytics local issue board</a>
     <a href="https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance" class="btn btn-purple" style="margin:5px;">Marketing Analytics project</a>
   </div>
 </div>

@@ -60,7 +60,7 @@ If the wider community contributes a feature that is currently source-available 
 ## Why Release Simultaneously In Both
 
 Sometimes people suggest having features in EE for a limited time.
-An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl) that keeps features proprietary for 3 years.
+An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl11/) that keeps features proprietary for 3 years.
 
 At GitLab we want to give everyone access to most of the features (and all the essential ones) at the date they are announced.
 We want to give people the option to both run and contribute to an open source edition that is maintained and that includes the most recent security fixes.
@@ -136,7 +136,7 @@ When someone contributes an *existing* feature to open-source it, we weigh a num
 1. What is the quality of the submitted code?
 1. Is it a complete replacement of the source-available functionality?
 1. Does it meet the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria)?
-1. Is it [more relevant for mid-market organizations or larger](/handbook/product/categories/gitlab-the-product/#paid-tiers)?
+1. Is it [more relevant for mid-market organizations or larger](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)?
 1. Is the person or organization submitting this using GitLab in an [SMB](/handbook/sales/#market-segmentation)?
 1. Did the person or organization submitting this contribute to GitLab before?
 1. Is it something that many of our existing customers chose our paid tiers for?

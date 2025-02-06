@@ -16,7 +16,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 ## What do we work on?
 
 <!-- TODO: Pull this from the product side -->
-- **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
+- **Design System** ([Direction Page](https://about.gitlab.com/direction/foundations/personal_productivity/))
 
     We are currently focused on integrating our design system, [Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), into the GitLab product.
 

@@ -34,7 +34,7 @@ The vulnerabilities for analyzers owned by Static Analysis need to be triaged an
 
 #### Requests for Help
 
-Issues are created in the [section-sec-request-for-help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help) project. During Reaction Rotation, the assigned engineer must review the [open issues](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues?first_page_size=20&label_name%5B%5D=Help%20group%3A%3Astatic%20analysis&sort=created_date&state=opened) and engage with each issue.
+Issues are created in the [request-for-help](https://gitlab.com/gitlab-com/request-for-help) project. During Reaction Rotation, the assigned engineer must review the [open issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Astatic%20analysis&first_page_size=20) and engage with each issue.
 
 If a request for help highlights a bug or feature request, create an issue in the public tracker, link to it in the request for help issue, and close the latter.
 

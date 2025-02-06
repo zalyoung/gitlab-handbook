@@ -6,9 +6,9 @@ description: Find answers to your questions about GitLab's benefits.
 ## Related Benefits Pages
 
 - [General & Entity Specific Benefits]({{< ref "general-and-entity-benefits" >}})
-- [Modern Health]({{< ref "modern-health" >}})
-- [Global Benefits Survey]({{< ref "benefits-survey" >}})
-- [Parental Leave and Return Tool Kit for GitLab Managers and Team Members]({{< ref "parental-leave-toolkit" >}})
+- [Modern Health](/handbook/total-rewards/benefits/modern-health/)
+- [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/)
+- [Parental Leave and Return Tool Kit for GitLab Managers and Team Members](/handbook/total-rewards/benefits/parental-leave-toolkit/)
 
 ## Introduction
 
@@ -95,6 +95,6 @@ For major plan enhancements, the Total Rewards team will create a Team Member is
 
 ## Knowledge Assessment
 
-You can test your knowledge on our benefits by taking the [GitLab Benefits Knowledge Assessment](https://docs.google.com/forms/d/e/1FAIpQLSekATud1Pzq6tHfX8bqXXu9kvMwLpUxOfoHWhD-GmSsSfEVeQ/viewform) quiz. For [Job Grades]({{< ref "compensation-calculator#job-grades" >}}) 10+ please select `Executive` for the `My Role Is` question on the form.
+You can test your knowledge on our benefits by taking the [GitLab Benefits Knowledge Assessment](https://docs.google.com/forms/d/e/1FAIpQLSekATud1Pzq6tHfX8bqXXu9kvMwLpUxOfoHWhD-GmSsSfEVeQ/viewform) quiz. For [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) 10+ please select `Executive` for the `My Role Is` question on the form.
 
 If you have questions about benefits or the content in the Knowledge Assessment, please reach out to the [Total Rewards](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) team. If the quiz is not working or you have not received your certificate after passing the Knowledge Assessment, please reach out to the [Learning & Development](/handbook/people-group/learning-and-development/#how-to-communicate-with-us) team.
