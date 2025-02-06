@@ -7,12 +7,14 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 | Lab Name |  Lab Link |
 |-----------|------------|
-| Create a project and an issue | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab1/) |
-| Work With Git Locally |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab2/) |
-| Use GitLab To Merge Code | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab3/) |
-| Build a `.gitlab-ci.yml` File | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab4/) |
-| Auto DevOps With a Predefined Project Template | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab5/) |
-| Static Application Security Testing (SAST) | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab6/) |
+| Navigating to GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab1/) |
+| Organizing your work in GitLab |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab2/) |
+| Repository Management and Branching | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab3/) |
+| Collaboration and Code Review | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab4/) |
+| Continuous Integration and Development | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab5/) |
+| Implementing Security Scanners | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab6/) |
+| Viewing Analytics | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab67) |
+| Project Management with Issues and Boards | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab8/) |
 
 ## Quick links
 

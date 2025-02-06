@@ -1,179 +1,192 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-on Lab: Auto DevOps With a Predefined Project Template"
-description: "This Hands-on Guide walks you through setting up and running an Auto DevOps pipeline."
+title: "GitLab with Git Fundamentals - Hands-On Lab: Continuous Integration and Development"
+description: "This Hands-On Guide walks you through the process of adding CI/CD to your project."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-GitLab Auto DevOps is a collection of pre-configured features and integrations that work together to support your software delivery process. Auto DevOps detects your programming language and uses CI/CD templates to create and run default pipelines to build and test your application. Then, you can configure deployments to deploy your apps to staging and production, and set up Review Apps to preview your changes per branch. See the [documentation](https://docs.gitlab.com/ee/topics/autodevops/) to learn more.
+In this lab, we will explore creating a basic CI/CD pipeline for our QA project.
 
-In other words, Auto DevOps is an alternative to writing and using your own `.gitlab-ci.yml` file.
+## Task A. Setting up a code base
 
-## Task A. Create a new Node JS Express project with Auto DevOps
+Before we start creating a CI/CD process, we need some code to run our CI/CD process against. To start, navigate to your `Cool App QA` project.
 
-> We will use a pre-defined template for NodeJS Express to show how Auto DevOps works. Pre-defined templates allow you to start off with a base project instead of starting from scratch. A list of all of our base projects can be found [here](https://gitlab.com/gitlab-org/project-templates).
+1. In your project, select **+ > New file**.
 
-1. Navigate to your **My Test Group** and select **New project**,.
+1. In the **Filename** field, select `main.go`. 
 
-1. Instead of making a blank project, click on the **Create from template** tile.
+1. Inside of `main.go`, add the following code:
 
-1. Click the **Use template** button next to **NodeJS Express**.
+    ``` go
+    package main
 
-1. In the **Project name** field, enter `Auto DevOps Test Project`
+    import(
+    "fmt"
+    ) 
 
-1. Make sure the **Visibility Level** is **Private**, and then click the **Create project** button.
+    func main() {
+    fmt.Println("We are up and running!")
+    }
 
-1. At the top of your project, there is a banner with the title **Auto DevOps**. Below this banner, click the **Enable in settings** button.
+    ```
 
-   > If this banner does not appear for you, navigate to **Settings > CI/CD**, click the **Expand** button next to **Auto DevOps**.
+1. Select **Commit changes**
 
-1. Click the **Default to Auto DevOps pipeline** checkbox.
+1. In the **Branch name**, enter `initial-code`. Leave **Create a marge request for this change** checked. Select **Commit changes**.
 
-1. For **Deployment strategy**, click **Automatic deployment to staging, manual deployment to production**.
+1. Leave all the merge request options at their defaults and select **Create merge request**.
 
-   > For your own projects, you may choose to use a different deployment strategy. To learn more about each strategy, click the **blue question mark** beside each option.
+From here, we have one additional file to add to our code, which is a `go.mod` file. To add this:
 
-1. Click the **Save changes** button.
+1. In the left sidebar, select **Code > Branches**.
 
-1. In the left-hand navigation pane, click **Code > Branches**.
+1. Select `initial-code`. 
 
-1. In the branches menu, click **New branch**.
+1. Select **+ > New file**.
 
-1. In the **Branch name** field, enter `new-feature`.
+1. In the **Filename** field, type `go.mod`.
 
-1. Ensure that the **Create from** branch is set to **master**.
+1. Add the following code to the file:
 
-1. Click the **Create branch** button.
+```go
+module array
 
-1. In the left-hand navigation pane, click on **Build > Pipelines**. You'll see an **Auto DevOps** pipeline running on the branch you just created.
+go 1.22.2
+```
 
-1. Click on the pipeline's **running** status icon and note the stages (represented by columns in the pipeline graph) and the jobs that Auto DevOps has created.
+1. Select **Commit changes**. 
 
-   > You may see the `dast` job fail in your pipeline. This job requires additional configurations to scan successfully. See the [documentation](https://docs.gitlab.com/ee/user/application_security/dast/#configuration) to learn more about DAST scan configurations.
+1. Ensure that **Commit to current `initial-code` branch is selected. Select **Commit changes**.
 
-## Task B. Commit a change to trigger a pipeline run
+With our code created, we can now start to create a CI/CD process for the code.
 
-> The most common way to run a pipeline is to commit to a branch in your project's repository. In this section, you will apply a new commit and view the resulting pipeline.
+## Task B. Creating a CI/CD Process
 
-1. Navigate to **Code > Repository**.
+Let's create a CI/CD process for the code we just wrote. Our goal is to create a process that builds the code we wrote. To do this, we need to create a `.gitlab-ci.yml` file. This file will contain all jobs and stages for our CI/CD process.
 
-1. Near the top left of the window, switch to the **new-feature** branch by selecting it in the dropdown that currently says **master**.
+1. In the left sidebar, select **Code > Repository**.
 
-1. In the list of repository files, click the `server.js` file.
+1. Select **+ > New file**
 
-1. Click **Edit > Edit single file** and modify the `get` endpoint as follows:
+1. In the **Filename**, input `.gitlab-ci.yml`. 
 
-   ```js
-      app.get("/", (req, res) => {
-         return res.status(200).send({
-            message: "Hello World from GitLab!",
-         });
-      });
-   ```
+1. Copy the following code into your `.gitlab-ci.yml` file:
 
-1. The file should now look like this:
+      ```yml
+      default:
+        image: golang
 
-   ```js
-   const express = require("express");
-   const app = express();
+      stages:
+        - build
 
-   const port = process.env.PORT || 5000;
+      build go:
+        stage: build
+        script:
+          - go build
+      ```
 
-   app.get("/", (req, res) => {
-      return res.status(200).send({
-         message: "Hello World from GitLab!",
-      });
-   });
+      > Every GitLab CI/CD job on this instance runs in a Docker container. The `default` line defines the Docker image to use to run the jobs for this `.gitlab-ci.yml` file. Below this, we defined one stage, which is build. In this stage, there is a single job, which runs one script: `go build`. The result of this will be your Go application being compiled.
 
-   app.listen(port, () => {
-      console.log("Listening on " + port);
-   });
+1. Select **Commit changes**. Ensure that **Commit to the current `initial-code` branch** is selected.
 
-   module.exports = app;
-   ```
+1. Select **Commit changes**.
 
-1. For **Commit message**, type `Update welcome message in server.js`
+## Task C. Viewing the CI/CD Process
 
-1. Leave **Target branch** set to `new-feature`
+1. After committing your code, your pipeline will immediately start. To view the pipeline, navigate to **Build > Pipelines**.
 
-1. Click on the **Commit changes** button.
+    Here, you will see a summary of all of your project pipelines. Each pipeline shows the following details:
+    - The status of the pipeline
+    - The pipeline name, ID, branch, and triggering commit
+    - Who created the pipeline
+    - A breakdown of pipeline status by stage
 
-After you commit these changes, a pipeline will run, and the test stage will fail. This is because the test cases no longer match the contents of the index file. To ensure that the tests in our pipeline run successfully, we will also need to update our tests to match the new index file.
+1. To view more details about the pipeline, select the **Status** of the pipeline. In this UI, you will see a graph of the pipeline, showing each stage, and the jobs associated with the stage.
 
-1. In the list of repository files, click the `tests` directory and then the `server.test.js` file.
+1. Select your **build go** job.
 
-1. Click **Edit > Edit single file** and modify the line `assert.equal(res.body.message, 'Hello World!');` to `assert.equal(res.body.message, 'Hello World from GitLab!');`. After completing the edits, your code will look like this:
+> On this screen, you will see details about your job, including all of the commands run during your job execution. On the right, you will see the duration of the job, when the job finished, how long the job was queued, the runner that completed the job, the commit that triggered the job, and further pipeline details related to the job.
 
-   ```js
-   const request = require('supertest');
-   const assert = require('assert')
-   const app = require('../server');
+Let’s explore each of these in detail. To start, navigate to your job:
 
-   describe('GET /', () => {
-   it('responds responds to the world', async function() {
-      const res = await request(app)
-         .get('/')
-         .set('Accept', 'application/json');
+1. Select **Build > Jobs**.
+1. Select your *build go* job.
 
-      assert.equal(res.status, 200);
-      assert.equal(res.type, 'application/json');
-      assert.equal(res.body.message, 'Hello World from GitLab!');
-      });
-   });
+Let’s walk through the job log to better understand each job stage. The first thing you will see is something like this:
 
-   describe('GET /404', () => {
-      it('responds with a 404', async function() {
-         const res = await request(app)
-            .get('/404')
-            .set('Accept', 'application/json');
+**Setting up your job environment**
 
-         assert.equal(res.status, 404);
-      });
-   });
+```bash
+Running with gitlab-runner 17.0.0~pre.88.g761ae5dd (761ae5dd)
+  on green-6.saas-linux-small-amd64.runners-manager.gitlab.com/default YKxHNyexq, system ID: s_a201ab37b78a
+Resolving secrets
+Preparing the "docker+machine" executor
+00:19
+Using Docker executor with image golang ...
+Using docker image sha256:5905f95343e84d1f8f14aff8f8b83747fb39ea0e0fad52a9d14cf41860295fff for golang with digest golang@sha256:f43c6f049f04cbbaeb28f0aad3eea15274a7d0a7899a617d0037aec48d7ab010 ...
+Preparing environment
+00:06
+Running on runner-ykxhnyexq-project-58378461-concurrent-0 via runner-ykxhnyexq-s-l-s-amd64-1717165680-d1e5066e...
+```
 
-   ```
+The GitLab lab environment uses runner managers to help with scaling jobs. When your job starts, it first enters a queue. When a runner manager is available, it picks up the job. It then creates an instance and sets it up with the defined Docker image, in this case, the golang image. This image is pulled and loaded onto the runner, making it ready to start processing your job request.
 
-1. For **Commit message**, type `Update welcome message test`
+**Cloning your Git repository**
+After the environment setup, GitLab will clone your repository onto the runner.
 
-1. Leave **Target branch** set to `new-feature`
+```bash
+Getting source from Git repository
+00:01
+Fetching changes with git depth set to 20...
+Initialized empty Git repository in /builds/scottcosentinogitlab/cicd_lab_rewrite/.git/
+Created fresh repository.
+Checking out 4ae4ca35 as detached HEAD (ref is main)...
+Skipping Git submodules setup
+$ git remote set-url origin "${CI_REPOSITORY_URL}"
+```
 
-1. Click on the **Commit changes** button.
+After doing this, all of your code will be available on the runner. One important note is that your runner now has access to your Git repository and has a link to your remote repository. This means two things:
 
-1. Once the change have been committed, click on the  **Create merge request** button.
+- You can access and use any files in your Git repository
+- You can commit changes back to your repository if you make any during your job process
 
-1. Click the **Mark as draft** checkbox to set the merge request to draft.
+**Optional Task:**
+Want to see this in action? Add the `ls` command to your job scripts. This will list the current directory, showing you all the files that were cloned to the runner.
 
-   > If you type `DRAFT:` at the front of the title, the **Mark as draft** checkbox will check automatically.
+```yaml
+default:
+  image: golang
 
-1. Assign the merge request to yourself by clicking on the `Assign to me` option next to **Assignees**.
+stages:
+  - build
 
-1. Leave all other fields at their default values and click **Create merge request** at the bottom of the page.
+build go:
+  stage: build
+  script:
+    - ls
+    - go build
+```
 
-1. To mark the merge request ready to merge, click the **Mark as ready** button. This removes `Draft:` from your MR's title.
+**Executing your Scripts:**
+After the environment is set up and your repository is cloned, your job scripts will run.
 
-   > You now have an active merge request for merging the `new-feature` branch into the `master` branch. The page you are on shows the details of that merge request, including the status of the last pipeline that was run on the `new-feature` branch (you might have to refresh the page to see the pipeline status). GitLab will run a new pipeline every time you commit to the `new-feature` branch.
+```bash
+Executing "step_script" stage of the job script
 
-1. The Auto DevOps pipeline automatically executes with your merge request. This pipeline contains various stages and jobs. As the pipeline runs, you will see new sections appear inside of your MR. Once the pipeline completes, refresh the page to see the results.
+Using docker image sha256:5905f95343e84d1f8f14aff8f8b83747fb39ea0e0fad52a9d14cf41860295fff for golang with digest golang@sha256:f43c6f049f04cbbaeb28f0aad3eea15274a7d0a7899a617d0037aec48d7ab010 ...
+$ go build
+Cleaning up project directory and file based variables
 
-   > When your pipeline completes, it may display a **warning** status. The warning is due to the `dast` scan not being configured. For this example, it is ok to proceed with this warning, since we will not use `dast`.
+Job succeeded
+```
 
-1. Select your merge request pipeline
+To summarize, there are a few important ideas to keep in mind when considering running jobs in your pipeline.
 
-1. In the pipeline details, you will see three stages associated with the Auto DevOps pipeline:
-
-- The **build** stage, which creates a build of the application using an existing Dockerfile or Heroku buildpacks. The resulting Docker image is pushed to the **Container Registry**, and tagged with the commit SHA or tag. Once the build stage is completed, navigate to **Deploy > Container Registry** to see your application.
-
-- The **test** stage, which runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
-
-  - The Dependency scan will scan to detect any new licenses and dependencies added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
-
-  - The Code Quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
-
-  - The SAST, Dependency, Secret Detection, and Container Scan jobs will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
-
-- The **dast** stage, which uses a running version of your application to check if there are any known vulnerabilities that it can find by running API calls on your application. Since we did not configure a live environment for the DAST job to scan, we do not need to worry about this job.
+- Jobs will generally use a Docker image to run your job scripts
+- Every job runs on a separate runner, within its own Docker container, so there are no concerns about jobs interfering with each other
+- You have full access to your Git repository and any other system resources during the execution of your jobs
 
 ## Lab Guide Complete
 

@@ -1,99 +1,77 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-on Lab: Build a .gitlab-ci.yml file"
-description: "This Hands-On Guide walks you through creating and running a CI/CD pipeline via a .gitlab-ci.yml file."
+title: "GitLab with Git Fundamentals - Hands-On Lab: Collaboration and Code Review"
+description: "This Hands-On Guide walks you through collaborating on changes and creating code reviews."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-CI/CD stands for Continuous Integration and Continuous Deployment. In other words, it is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
+In this lab, we will explore the process of creating and merging a merge request
 
-This iterative process helps reduce the chance that you develop new code based on buggy or failed previous versions. GitLab CI/CD can catch bugs early in the development cycle, and help ensure that all the code deployed to production complies with your established code standards.
+## Task A. Creating a merge request
 
-To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your project which contains the configuration for your CI/CD pipeline. This file follows the YAML format and has its own special syntax. To learn more, see the [documentation](https://docs.gitlab.com/ee/ci/). **It is recommended to bookmark this page for future reference.**
+In the last lab, you created a new branch called **test-commit**. In this section, we will create a merge request to merge the changes from this branch into our main branch.
 
-## Task A. Create a new project and add a CI/CD configuration file
+1. Navigate to your `Cool App QA` project.
 
-1. Navigate to your **My Test Group**, click on the **New project** button, and click the **Create blank project** tile.
+1. In the left sidebar, select **Code > Branches**.
 
-1. In the title, type in `CI Test`.
+1. In the **test-commit** row, select **New**.
 
-1. Set the **Visibility Level** of the project to **Private**.
+1. In the **Title** field, enter the title **Merging new file to main**.
 
-1. Enable the **Initialize repository with a README** checkbox.
+1. Check the box **Mark as draft**.
 
-1. Leave **Enable Static Application Security Testing (SAST)** unchecked.
+1. In **Description**, enter any description you would like. 
 
-1. Click the **Create project** button and wait for GitLab to redirect you to the new project's main page.
+1. In **Assignees**, select **Assign to me**.
 
-1. Create a new file by clicking **(+) > This directory > New file**
+1. Leave all other options as default and select **Create merge request**.
 
-1. In the **Filename** dialog box enter `.gitlab-ci.yml`
+After selecting **Create merge request**, you will be redirected to the merge request page. Let's explore this page in more detail.
 
-1. In the **Apply a template** dropdown, select **General > Bash**. This populates your file with the contents of a minimal `.gitlab-ci.yml` file.
+## Task B. Exploring the merge request
 
-1. In the editor, delete all lines above the `build1:` line and below the `- echo "For example run a test suite"` line. This will leave you with two sections of code, which define the **build1** and **test1** jobs. Your `.gitlab-ci.yml` file should look like this:
+On the main merge request page, you will four tabs available:
 
-    ```yaml
-    build1:
-      stage: build
-      script:
-        - echo "Do your build here"
+1. **Overview**, which shows an overview of the merge request, including approvals, merge request status, **Activity**, and a comment area to add comments to a merge request.
 
-    test1:
-      stage: test
-      script:
-        - echo "Do a test here"
-        - echo "For example run a test suite"
-    ```
+1. **Commits**, which shows all of the commits that are part of the current merge request.
 
-    > To learn more about jobs, see the [documentation](https://docs.gitlab.com/ee/ci/jobs/).
+1. **Pipelines**, which shows any CI/CD pipelines associated with a merge request.
 
-1. Define **build** and **test** stages by adding these 3 lines at the top of the file. The `stages` keyword must be flush left and the stage names must be indented by 2 spaces.
+1. **Changes**, which shows a differential of the changes associated with the merge request.
 
-    ```yaml
-    stages:
-      - build
-      - test
-    ```
+Return to the **Overview** tab. In this tab, there are a few important details to note:
 
-    > Use stages to define stages that contain groups of jobs. Use stage in a job to configure the job to run in a specific stage. See the [documentation](https://docs.gitlab.com/ee/ci/yaml/index.html#stages) to learn more.
+1. In the right sidebar, you will see details about your merge request. The merge request is currently assigned to you, meaning you are the one currently working on the merge request contents.
 
-1. Your current `.gitlab-ci.yml` file should look like this:
+1. The **Reviewers** section shows any reviewers that have been assigned to a merge request. Currently this is empty, since approval is optional. 
 
-    ```yaml
-    stages:
-      - build
-      - test
+1. **Labels** allows you to add organizational labels to a merge request to keep track of it in context of other related work.
 
-    build1:
-      stage: build
-      script:
-        - echo "Do your build here"
+1. **Milestone** allows you to associate a milestone to a merge request
 
-    test1:
-      stage: test
-      script:
-        - echo "Do a test here"
-        - echo "For example run a test suite"
-    ```
+1. **Time Tracking** lets you track time against a merge request.
 
-1. Leave the default values for the **Commit message** and **Target Branch** fields, and click the **Commit changes** button.
+1. **Participants** shows everyone who has commented or committed for a merge request. 
 
-## Task B. Inspect the CI/CD pipeline
+In the center of the screen, you will see a message stating **Merge blocked**. In this section, you can see any issues preventing your code from being merged into main. Anything from failed pipelines to security scan results can block a merge request, depending on your configuration. Currently, the reason to request is blocked is stated below: "Merge request must not be a draft". Let's fix this issue.
 
-> Pipelines are the top-level component of continuous integration, delivery, and deployment. Pipelines comprise of **Jobs**, which define what to do, and **Stages**, which define when to run the jobs. For example, a stage can be defined for all the operations that build a project, and a job of this stage could be to compile the code. To learn more, click [here](https://docs.gitlab.com/ee/ci/pipelines/).
+1. In the top right, select **Edit**.
 
-1. GitLab started running a CI/CD pipeline as soon as you committed `.gitlab-ci.yml` to your project's repository. To see the project's pipelines, navigate to **Build > Pipelines**.
+1. Uncheck **Mark as draft**.
 
-1. Only 1 pipeline has run so far, so your table of pipelines has only 1 row. See the details of that pipeline by clicking the **status** label at the left of the pipeline's row.
+1. Select **Save changes**.
 
-    > The status label should show either **Running** or **Passed**
+1. When you return to your merge request, you will now see **Ready to merge!** with a green checkmark.
 
-1. Inspect the pipeline graph. Each column represents a stage. In the **Build** stage, there's a widget representing the **build1** job. In the **Test** column there's a widget representing the **test1** job. Click on the **build1** widget to see the job's output in a web terminal. For example, look for the message `Do your build here` in the output.
+1. Select **Merge**.
 
-1. Return to the pipeline graph by clicking on the back button on your web browser. Click on the **test1** widget to see the job's output in a web terminal. For example, look for the message `Do a test here` in the output.
+1. Once the merge completes, in the left sidebar, select **Code > Repositories**. 
+
+You will now see your new file in the **main** branch of your code repository.
 
 ## Lab Guide Complete
 

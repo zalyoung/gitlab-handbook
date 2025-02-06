@@ -1,139 +1,53 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Create a project and issue"
-description: "This Hands-On Guide walks you through creating projects, issues, labels, as well as using quick actions."
+title: "GitLab with Git Fundamentals - Hands-On Lab: Navigating to GitLab"
+description: "This Hands-On Guide walks you through the basics of interacting with GitLab as a platform."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-A GitLab Project is a repository where you can store your code, as well as supplemental files such as configuration files. You can also use projects to track issues, plan work, collaborate on code, and continuously build, test, and use built-in CI/CD to deploy your app. You can find out more information about GitLab projects in the [documentation](https://docs.gitlab.com/ee/user/project/organize_work_with_projects.html)
+In this lab, you will explore the basics of navigating GitLab. The goal of this lab is to get you familiar with accessing GitLab and navigating the different features available.
 
-GitLab provides various tools for tracking and managing projects. In this lab, you will learn how to create a project, create an issue, create labels at a project level, and apply quick actions to an issue.
+## Task A. Navigating to GitLab
 
-## Task A. Access your Training Group
+Before starting this lab, you redeemed an invitation code for a GitLab instance. Let's navigate to this instance get logged in.
 
-1. Navigate to [**https://gitlabdemo.com/invite**](https://gitlabdemo.com/invite) in a web browser.
+1. Navigate to https://ilt.gitlabtraining.cloud/
 
-1. In the **Invitation Code** field, enter the invitation code provided by your instructor or in the LevelUp LMS.
+1. Input the username and password you received when redeeming your invitation code and select **Log in**.
 
-1. Select **Provision Training Environment**.
+After signing in, you will see a welcome screen with three options: Create a project, explore public projects, and learn more about GitLab. Let's take a tour of the different UI elements and the features they correspond to.
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+## Task B. Navigating areas of GitLab
 
-1. Click the **Download Credentials** button to download your temporary GitLab credentials.
+To start, we will look at the left sidebar of your GitLab instance. At the top, you will see the GitLab Tanuki logo. Clicking this will bring you back to your instance home. To the right of this icon, you will see a button to hide the sidebar and a button to create a new project or snippet. Beside these buttons, you will see your profile picture. Clicking your profile picture will show you your GitLab username, as well as various options to edit your user profile. 
 
-1. Click on **My Group**.
+Below the top section, you will see three buttons. The leftmost button will bring you to your GitLab issues. The middle button will bring you to your merge requests. The rightmost button will bring you to your To-Do list. Below these buttons is a search bar which you can use to search for projects, groups, and issues in your instance. Below this, you will see the following sidebar items:
 
-1. Login with your temporary GitLab Credentials.
+1. The **Projects** item will show all of the projects you are a part of. Currently, you have no projects, so the only thing that will show here is a prompt to create or explore projects.
 
-   > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+1. The **Groups** item will show the groups you are a part of. A group is a container with can contain other groups, known as **Subgroups**, or projects. They provide a way of organizing your GitLab repositories and data. Currently, you will see one group named **Training Users**
 
-1. Click on the **Create a project tile**.
+1. The **Issues** item will let you explore issues in your GitLab instance. By default, the issues section will be filtered to search for issues you are assigned to. Currently, no results are found, since you have no issues assigned to you.
 
-   > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
+1. The **Merge requests** item lets you explore merge requests in your GitLab instance. There are two subitems in this menu: Assigned and Review requests. Assigned will show merge requests you are assigned to and Review requests will show merge requests where your review is requested. Both are currently empty.
 
-## Task B. Create a project
+1. The **To-Do List** item will show you a list of work to do in GitLab. A To-Do item is created when you are mentioned in a comment, or when an issue or merge request is assigned to you.
 
-1. Select the **Create blank project** tile.
+1. The **Milestones** item will show you milestones for projects you are involved in. 
 
-1. In the **Project name** field, enter `Top Level Project`.
+1. The **Snippets** item will show you any code snippets you have saved.
 
-   > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
+1. The **Activity** item will show activity occurring in your projects, starred projects, and users you follow on GitLab.
 
-1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it's pointing to a **group name** and not a **username**. You should create this project inside a group, not directly in your user's namespace.
+1. The **Workspaces** item will show any workspaces that are configured for your project. Similarly, the **Environments** item will show environments related to your project deployments.
 
-1. Under **Visibility Level**, ensure **Private** is selected.
+1. The **Operations** item will show a summary of project operations, including overviews of pipeline health and any active alerts.
 
-   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+1. The **Security** item will show security report overviews for all of your projects.
 
-1. Check **Initialize repository with a README**.
-
-1. Select **Create project**.
-
-## Task C. Create an issue
-
-> Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues belong to **Project** and **not** a Group. When viewing issues at the group-level, you can see all of the issues that have been created across all of the projects in that group. You can read more about them [here](https://docs.gitlab.com/ee/user/project/issues/).
-
-1. In the left-hand navigation pane, navigate to **Plan > Issues**.
-
-1. Click the **New issue** button.
-
-1. In the **Title** field, type in `My first issue`
-
-1. In the **Type** dropdown, make sure that `Issue` is selected.
-
-1. The description is an optional section, but feel free to type in your own description for this issue.
-
-   > In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
-
-1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
-
-   > Alternatively, you can also click **Assign to me** directly beside the Assignees dropdown to assign an issue to yourself.
-
-1. While we will leave the options as they are for now, it is important to understand what they do:
-
-   - **[Epic](https://docs.gitlab.com/ee/user/group/epics/):** Associates the issue with an epic. An epic is a parent grouping of one or more child issues. You can think of an epic as a initiative or meta-level topic and an issue as an objective or detailed task for that initiative.
-
-   - **[Milestone](https://docs.gitlab.com/ee/user/project/milestones/):** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time, usually associated with a release and/or version number.
-
-   - **[Labels](https://docs.gitlab.com/ee/user/project/labels.html):** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
-
-   - **[Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html):** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
-
-   - **[Due date](https://docs.gitlab.com/ee/user/project/issues/due_dates.html):** Use in issues to keep track of deadlines and make sure features are shipped on time. You will receive an email reminder when an issue due date is approaching if it has not been closed yet.
-
-   - **[Iteration](https://docs.gitlab.com/ee/user/group/iterations/):** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
-
-1. Click the **Create issue** button.
-
-## Task D. Create custom labels
-
-> Labels allow you to organize and tag your work. Using labels will make it easier for you to track issues you are interested in using features like dynamic filtering. Some examples of using labels include: categorizing epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. You can read more about labels in the [documentation](https://docs.gitlab.com/ee/user/project/labels.html).
-
-1. In the left-hand navigation pane, navigate to **Manage > Labels**.
-
-1. Click the **New label** button.
-
-1. In the **Title** field, type `Opened`.
-
-1. The **Description** field is an optional field used to describe a label. Feel free to enter anything in this field, or leave it blank.
-
-1. Select any background color.
-
-1. Click the **Create label** button.
-
-   > When you create a label in a project, the label is created at the project level. This means that the label will not be available in any other projects. It is possible to also create a group level label, which is available to all projects in a group.
-
-1. Using the previous three steps, create two additional labels with the titles `Completed` and `Needs documentation`. These labels can have any background colors that you desire.
-
-1. You now have 3 labels that are now available for you to assign to any issue, merge request, or epic in your project.
-
-## Task E. Assign labels to an issue
-
-1. Navigate to **Plan > Issues**.
-
-1. Click on the title of `My first issue` to open the issue.
-
-1. In the right sidebar of **My first issue**, click **Labels > Edit**.
-
-1. Click the **Opened** and **Needs documentation** labels you created earlier.
-
-1. Click away from the **Labels** section. Notice that the issue now has both labels applied.
-
-   > The labels won't apply to the issue until you click away from the labels section to close the multiselect box.
-
-## Task F. Use a quick action
-
-> A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the description or comment for issues, epics, merge requests, and commits.
->
-> For more information about quick actions and to see a full list of possible quick actions, see the [documentation](https://docs.gitlab.com/ee/user/project/quick_actions.html).
-
-1. In the comment field for the issue from the previous task, type the quick action `/spend 1 hour`
-
-2. Click the **Comment** button.
-
-   > Notice that in the right-hand information pane, **Time tracking** now shows `Spent: 1h`. Instead of leaving a text comment, the quick action has updated the time spent working on the issue.
+Take some time to explore these items and understand more about the information contained in each section.
 
 ## Lab Guide Complete
 
