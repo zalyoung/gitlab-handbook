@@ -18,13 +18,13 @@ toc_hide: true
 
 ## Summary
 
-This blueprint proposes a solution for customizing Duo Self-hosted models using Parameter-Efficient Fine-Tuning (PEFT). 
+This blueprint proposes a solution for fine-tuning Duo Self-hosted models using Parameter-Efficient Fine-Tuning (PEFT). 
 
 ## Motivation
 
 With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to finetune it for a specific task or user's codebase.
 
-### Challenges of Model's Customization
+### Challenges of Model's Fine-tuning
 
 While fine-tuning the entire model is one of the obvious solutions for model customization, it comes with several big challenges:
 
@@ -222,14 +222,10 @@ In the columns, the two numbers are: embedding similarity, exact match. Higher n
 Adapters, and in particular, LoRAs are not a panacea, it is one of the methods that we could utilize if find it suitable for our use cases. Other potential approaches are:
 
 1) Full finetuning of a smaller model
-2) RAG
-3) Human-feedback (RLHF)
+2) Human-feedback (RLHF)
 
 **Smaller experts.**
 Finetuning a smaller model might be a suitable approach, as the time and hardware resources to train such a model are better than a model with a high number of parameters. However, the scalability of such an approach is questionable, as well as the overall performance of a smaller model.
 
-**RAG.**
-RAG is another popular approach that allows the model to stay up to date with the ever-changing codebase. In the future, it would be fruitful to explore RAG and finetuning as a combined solution.
-
 **Reinforcement Learning from Human Feedback (RLHF).**
-Human feedback could be used toHuman feedback could be used together with reinforcement learning (RLHF) to further fine-tune the model to the user's needs. For example, whether a suggestion was accepted or rejected can serve as valuable domain-specific feedback data to then further customize the model's fine-tuning process.
+Human feedback could be used together with reinforcement learning (RLHF) to further fine-tune the model to the user's needs. For example, whether a suggestion was accepted or rejected can serve as valuable domain-specific feedback data to then further customize the model's fine-tuning process.
