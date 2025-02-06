@@ -5,7 +5,7 @@ description: The Create:Code Review BE team is responsible for all backend aspec
 
 ## Team Vision & Mission
 
-Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli) for the current strategy and 1 year plan for these products.
+Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow/) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli/) for the current strategy and 1 year plan for these products.
 
 ## Core Responsibilities
 
@@ -73,23 +73,6 @@ To contact the Code Review BE team in GitLab, you can use the `@code-review-be` 
 ### Meeting Schedule
 
 [Team members](/handbook/engineering/development/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
-
-#### Planning
-
-> If you haven't read the code, you haven't investigated deeply enough
->
-> -- <cite>Nick Thomas</cite>
-
-To assign weights to issues in a future milestone, on every 4th of the development month (or the next working day if it falls on a holiday or weekend), BE engineers look at the list of issues that are set for next milestone. These are assigned by the engineering manager. To weight issues, before the 15th of the month, they should:
-
-1. See if there is already a discussed backend solution/plan or none yet.
-1. If the discussed backend solution/plan isn't that clear, clarify it.
-1. If there's no solution/plan yet, devise one. Doesn't need to be a detailed solution/plan. Feel free to ask other people to pick their brains.
-1. If there's a need to collaborate with a stable counterpart to devise a solution/plan, add a comment and tag relevant counterparts.
-1. Give the issue a weight if there's none yet or update if the existing weight isn't appropriate anymore. Leave a comment about why a certain weight is given.
-1. It's strongly encouraged to spend no more than 2 hours per issue. Give it your best guess and move on if you run out of time.
-1. Label the issue as ~"workflow::ready for development".
-1. Unassign yourself or keep it assigned if you want to work on the issue.
 
 #### Follow-up issues
 

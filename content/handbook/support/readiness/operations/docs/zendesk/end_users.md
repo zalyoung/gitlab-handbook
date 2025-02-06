@@ -142,7 +142,7 @@ of the primary account, then click the "Merge" button. It will then show you
 what it will do. Once you are sure this is correct, click the "Confirm and
 merge" button.
 
-![Merging End-Users](/handbook/support/readiness/operations/images/merging_end_users.gif)
+![Merging End-Users](/images/support/readiness/operations/merging_end_users.gif)
 
 ## Allowlists and Blocklists
 

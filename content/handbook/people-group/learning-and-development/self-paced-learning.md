@@ -91,7 +91,7 @@ Due to limited licenses, we ask that team members use one license at a time from
 1. Review the submitted AR. Ensure the request is linked to/mentions a career development goal has manager approval. Close the AR if confirmed.
 1. If there is not mention of a career development goal, paste the following text as a comment on the issue and tag the issue creator:
 
-> For a GitLab Linux Foundation licenses, your Access Request must mention [which career goal you'll work towards using your license]({{< ref "#sign-up" >}}). Please add this information to the AR and tag me for review upon completion.
+> For a GitLab Linux Foundation licenses, your Access Request must mention [which career goal you'll work towards using your license](#sign-up). Please add this information to the AR and tag me for review upon completion.
 
 1. Update the [license usage sheet](https://docs.google.com/spreadsheets/d/1gHwWy7TKAXem24NVCUmq94sICp_yCocDaf_onUZ3BPg/edit#gid=0) with team member's `first name`, `last name`, `email`, `department`, and `link to their Access Request`.
 1. Communicate the following template to each new user. Include the unique access code associated with their name from the licenage usage sheet.

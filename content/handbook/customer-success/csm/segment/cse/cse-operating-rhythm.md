@@ -52,7 +52,7 @@ At the end of the webinar, the host should launch the poll for the attendees. Th
 2. Select **Polls**, then click on the **Feedback Poll**.
 3. Check the questions and click on the **Launch** button to launch the poll for all attendees.
 
-![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/cse/zoom-polls-cse.gif)
+![example-zoom-polls-webinars-cse](/images/customer-success/csm/segment/cse/zoom-polls-cse.gif)
 
 It is recommended to check before the webinar if the recorded video already mentions the poll. If yes, you should try to launch the poll at the same time it is mentioned in the recorded video.
 
@@ -117,7 +117,7 @@ Account owners (AEs, SAEs, Renewals Managers) working with customers that [quali
 
 This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
 
-![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/CSE-new-workflow.png)
+![example-clip-demonstrating-cse-request-sfdc](/images/customer-success/csm/segment/cse/CSE-new-workflow.png)
 
 #### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 

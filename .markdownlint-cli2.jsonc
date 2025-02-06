@@ -33,6 +33,7 @@
     "no-trailing-spaces": false
   },
   "ignores": [
+    "CONTRIBUTING.md",
     ".gitlab/**",
     "assets/**",
     "content/handbook/legal/ai-functionality-terms*",

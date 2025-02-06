@@ -111,7 +111,7 @@ The legal environment surrounding AI-generated creative works, including images,
 
 - Any use of industry analyst content from firms such as Forrester Research, Gartner, and International Data Corporation (IDC) must be submitted for review and approval to Analyst Relations by filling out this [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new?issuable_template=AR-CitationReview).
 
-If you aren't sure if the author of the content you're quoting is an industry analyst, or if you have any other questions, contact [`@Ryan Ragozzine`](gitlab.com/rragozzine) or [`@Gaby Berkman`](gitlab.com/gberkman).
+If you aren't sure if the author of the content you're quoting is an industry analyst, or if you have any other questions, contact the [#analyst-relations](https://app.slack.com/client/E03N1RJJX7C/C627CDRK8) Slack channel.
 
 ## Quotes
 

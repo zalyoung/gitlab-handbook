@@ -4,7 +4,7 @@ title: "Foundational research"
 
 Foundational research (also referred to as generative research, exploratory research, pathfinding research, or discovery research) attempts to identify and solve a real human problem. This problem should center on a topic or area that has not been clearly defined or explored in the past.
 
-![FoundationalResearchImage](/handbook/product/ux/ux-research/foundational-research/FoundationalResearchImage.png)
+![FoundationalResearchImage](/images/product/ux/ux-research/foundational-research/FoundationalResearchImage.png)
 
 This type of research is not necessarily focused on answering questions about the product, but is more about [answering deeper questions from the user perspective](/handbook/product/ux/ux-research/problem-validation-and-methods/#what-is-problem-validation) (for example: how do users search for information within their roles? How do users engage with security tools in their development process?). In other words, it's about understanding people (their actions, motivations, goals) and the contexts in which they live/work. Understanding people and their context helps to reveal users' pain points or problem areas. The insights can be examined in situations such as workshops or ideation sessions to generate new ideas that could help teams address known pain points.
 

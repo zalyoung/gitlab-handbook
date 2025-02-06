@@ -154,7 +154,7 @@ limit 30;
 There is no standard solution to reduce table sizes - there are many!
 
 1. **Retention**: Delete unnecessary data, for example expire old and unneeded records.
-1. **Remove STI**: We still use [single-table inheritance](../../../development/database/single_table_inheritance.md) in a few places, which is considered an anti-pattern. Redesigning this, we can split data into multiple tables.
+1. **Remove STI**: We still use [single-table inheritance](https://docs.gitlab.com/ee/development/database/single_table_inheritance.html) in a few places, which is considered an anti-pattern. Redesigning this, we can split data into multiple tables.
 1. **Index optimization**: Drop unnecessary indexes and consolidate overlapping indexes if possible.
 1. **Optimize data types**: Review data type decisions and optimize data types where possible (example: use integer instead of text for an enum column)
 1. **Partitioning**: Apply a partitioning scheme if there is a common access dimension.

@@ -34,16 +34,34 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ## Communication
 
+### Product Org Communication Touchpoints
+
+In November 2024 we adjusted our communicated touch points based on feedback from our [FY25-Q2 Engagement Survey](https://gitlab.com/groups/gitlab-com/-/epics/2402), AMAs, skip levels, and 1:1s. The two key areas we are prioritizing:
+
+- Embedding more asynchronous touchpoints to reach team members across time zones
+- Implementing additional opportunities to cascade information from E-Group and PLT
+
+#### Synchronous Product Org Communication Touch Points
+
+- Product All-Team Meeting: We have a quarterly synchronous meeting for the Product Org. As of Nov 2024, we are expanding on the existing content and structure to ensure key strategic updates from each PLT department head are effectively cascading through the organization regularly.
+- Product Key Review: We follow the company wide key-review format which covers key updates to the product division and is shared with cross-functional stakeholders.
+
+#### Asynchronous Product Org Communication Touch Points
+
+- CPO Fortnightly Update: David posts a slack message in #product-private every two weeks. This is a way for him to share what is top of mind for E-group and across the product team.
+- New Hire Intros: New hires to the product org are encouraged to post their introduction in the #new-team-members slack channel. Once per month, a member of our Product Leadership Team will post a consolidated list of new hires and their intros into the #product-private slack channel.
+- Monthly Showcase: On a 4-week cadence we have an async monthly showcase, facilitated in the #product-private channel, where people can share what they're working on with the rest of the Product Org. This is a low-key competition with prizes to incentivize folks to contribute videos. Team members can add videos throughout the month, then the entire Product Org can vote on their favorite video via google form. At the end of the 4-week period, there will be a prize for the winner, announced in David's fortnightly update. In the case of a tie in number of views, David will make the final call on who wins. We hope that this encourages team members to share their wins and exciting developments in their feature areas! Note: We’re doing this on a 4-week cadence (rather than calendar month) so that it aligns with David’s fortnightly updates, which are posted every other week. This should still be roughly aligned to the calendar month.
+
+### Other Communication Channels
+
 - [**Product Function Issue Tracker**](https://gitlab.com/gitlab-com/Product/issues) - please use
 confidential issues for topics that should only be visible to team members at GitLab.
 - [**Product Function GitLab Group - @gl-product**](https://gitlab.com/groups/gl-product/-/group_members)
 - [**Product Management GitLab Group - @gl-product-pm**](https://gitlab.com/groups/gl-product/-/group_members)
-- **Bi-Weekly Meeting**
-- [**Chat channel - #product**](https://gitlab.slack.com/archives/product)
+- [**Chat channel - #product-private**]. This is a private slack channel for members of the product-org; new team members are automatically added to this channel as part of onboarding.
+- [**Chat channel - #product**](https://gitlab.slack.com/archives/product). All GitLab internal team members can use the `#product` channel for any product-related questions but you'll also find more direct assistance in the various [Product Group](/handbook/product/categories/) channels.
 
-For internal team members please feel free to use the `#product` channel for any product-related questions but you'll also find more direct assistance in the various [Product Group](/handbook/product/categories/) channels.
-
-### Communicating with the Entire Product Management Function
+### Communicating with the Entire Product Management Function At Once
 
 When communicating change or a request for action to the entire product function, utilize the following levels and corresponding activities.
 
@@ -216,7 +234,7 @@ Development Kit (GDK).
 
 ### Dealing with security issues
 
-Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
+Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
@@ -457,9 +475,9 @@ The [SaaS-First product investment theme](https://about.gitlab.com/direction/#sa
 
 #### Availability
 
-Downtime of GitLab.com has a material impact on our customers. From a 2014 report [Gartner estimates](https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/) that downtime costs companies on average "$5,600 per minute, which extrapolates to well over $300K per hour." Furthermore, SaaS downtime can severely disrupt the productivity of GitLab Inc since we rely heavily on GitLab.com to run our business. Finally, downtime can also lead to customer churn and damage to our reputation. Thus, it is crucial as a company we collectively work towards consistently maintaining our [99.95% SLA on GitLab.com](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=1614038400000&to=1616630399000). There are a few things that PMs can do in partnership with their engineering team to help ensure overall Availability for GitLab.com.
+Downtime of GitLab.com has a material impact on our customers. From a 2014 report [Gartner estimates](https://web.archive.org/web/20230709185836/https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/) that downtime costs companies on average "$5,600 per minute, which extrapolates to well over $300K per hour." Furthermore, SaaS downtime can severely disrupt the productivity of GitLab Inc since we rely heavily on GitLab.com to run our business. Finally, downtime can also lead to customer churn and damage to our reputation. Thus, it is crucial as a company we collectively work towards consistently maintaining our [99.95% SLA on GitLab.com](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=1614038400000&to=1616630399000). There are a few things that PMs can do in partnership with their engineering team to help ensure overall Availability for GitLab.com.
 
-- Make sure each new feature that gets built has full end to end [test coverage](/handbook/engineering/quality/#test-coverage-and-tooling).
+- Make sure each new feature that gets built has full end-to-end test coverage.
 - Before rolling out a new service to support a major new feature launch, ensure that your team has gone through the [readiness review process](/handbook/engineering/infrastructure/production/readiness/#starting-a-proposal). The effort and timing for a readiness review will vary depending on the complexity of the feature. It is recommended to start this process as early as practical when a significant number of the questions can be answered but not too late to further develop the feature based on learnings from the review.
 - Ensure there are [application limits](/handbook/product/product-processes/#introducing-application-limits) for your product areas enabled on GitLab.com to reduce [abuse vectors](/handbook/security/security-operations/trustandsafety/#examples-of-common-forms-of-abuse-include-but-are-not-limited-to).
 
@@ -483,14 +501,14 @@ To track hard adoption blockers, use the ~"GitLab.com Enterprise Readiness" labe
 
 #### SaaS Features
 
-There are a few special considerations when it comes to delivering features for SaaS. In order to achieve [parity between SaaS and Self-managed installations](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) PMs should prioritize efforts to eliminate existing feature gaps that exist [across the two installations](https://about.gitlab.com/features/). Additionally, new features should ship for SaaS and self-managed at the same time. Features should be implemented at the group level first, before being implemented at the instance level, so that they will work across [both self-managed and SaaS](https://about.gitlab.com/direction/manage/#gitlabcom). Finally, in order for new features to be adequately monitored, they should include [appropriate logging and observability](https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#monitoring-and-alerts), which makes troubleshooting much easier.
+There are a few special considerations when it comes to delivering features for SaaS. In order to achieve [parity between SaaS and Self-managed installations](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) PMs should prioritize efforts to eliminate existing feature gaps that exist [across the two installations](https://about.gitlab.com/features/). Additionally, new features should ship for SaaS and self-managed at the same time. Features should be implemented at the group level first, before being implemented at the instance level, so that they will work across [both self-managed and SaaS](https://about.gitlab.com/direction/foundations/#gitlabcom). Finally, in order for new features to be adequately monitored, they should include [appropriate logging and observability](https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#monitoring-and-alerts), which makes troubleshooting much easier.
 
 ### Working with Your Group
 
 As a product manager, you will be assigned as the [stable counterpart](/handbook/company/structure/#specialists-experts-and-mentors) to a single [group](/handbook/company/structure/#groups). At GitLab we abide by
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
-1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
+1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
 1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
 
 As an all-remote company, our crispness when it comes to responsibilities throughout the Product Delivery process was born out of necessity, but it pays untold dividends. Some of the benefits include:
@@ -509,7 +527,7 @@ translate the priorities of any given group into action by our engineering
 teams, we need to be able to translate this multi-faceted problem into a flat
 list of priorities for at least the next release cycle. Product Managers are
 [responsible for taking all these prioritization considerations](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and creating a
-clear, sequenced list of next priorities. This list should be represented as an [issue board](https://about.gitlab.com/stages-devops-lifecycle/issueboard/)
+clear, sequenced list of next priorities. This list should be represented as an [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html)
 so that each team has a clear interface for making decisions about work. From
 this list, Product Designers, Engineering Managers and Product Managers can work together to
 determine what items will be selected for work in the immediate future.
@@ -832,7 +850,7 @@ Often, the criteria for features are built on is implicit. It can help to use a 
 
 #### Exception & error cases
 
-Software often fails and can fail in different ways depending upon how it is architected. It is always best to provide the user with as much information as possible as to why something did not behave as expected. Creating and building different states to handle all possible errors and exceptions can easily be broken down into individual issues. Start by creating a generic error state to display when anything goes wrong, and then add on to handle different cases one by one. Remember to always make error messages [useful](https://design.gitlab.com/content/ui-text#clear-error-messages), and add additional error messages as you identify new error states.
+Software often fails and can fail in different ways depending upon how it is architected. It is always best to provide the user with as much information as possible as to why something did not behave as expected. Creating and building different states to handle all possible errors and exceptions can easily be broken down into individual issues. Start by creating a generic error state to display when anything goes wrong, and then add on to handle different cases one by one. Remember to always make error messages [useful](https://design.gitlab.com/content/ui-text/#clear-error-messages), and add additional error messages as you identify new error states.
 
 #### Breaking down the UI
 
@@ -929,10 +947,10 @@ There are a few notable conferences that we would typically always send PMs to:
 - [KubeCon](https://events.linuxfoundation.org/)
 - [Atlassian Summit](https://events.atlassian.com/team22/)
 - [GitHub Universe](https://githubuniverse.com/)
-- [DevOps Enterprise Summit](https://events.itrevolution.com/)
+- [DevOps Enterprise Summit](https://itrevolution.com/events/)
 - [Google Next](https://cloud.withgoogle.com/next)
 - [AWS Reinvent](https://reinvent.awsevents.com/)
-- [Velocity](https://conferences.oreilly.com/velocity)
+- [Velocity](https://www.oreilly.com/conferences/velocity-software-architecture/)
 
 If you're interested in attending, check out the issue in the corporate marketing
 site and volunteer there, or reach out to your manager if you don't see it listed
@@ -1103,7 +1121,7 @@ in #support_escalations to receive some help in setting this up.
 
 **Social Media** can also be effective. If your personal account has a reasonable number of connections/followers, you can post your desire to connect with users on a specific question directly. When posting, remember to include the subject you want to discuss as well as how people can reach out. You can also reach out to the `#social-media` channel to have your tweet retweeted by the @gitlab account.
 
-![twitter-contactpng](/handbook/product/twitter-contact.png)
+![twitter-contactpng](/images/product/twitter-contact.png)
 
 If you want to reach a wider audience, consider asking a community advocate to re-post using the official GitLab account for the relevant platform.
 You can reach advocates on the `#community-advocates` Slack channel.
@@ -1175,7 +1193,7 @@ to this paragraph for the person picking this up to follow
 
 You may want to interview a specific account because they are exhibiting atypical usage patterns or behaviors. In this case, [request Support to contact GitLab.com user(s) on your behalf](../../support/internal-support/#gitlab-changes-and-contacting-users).
 
-If it is the weekend, and the contact request is urgent as a result of an action that might affect a users' usage of GitLab, [page the CMOC](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-cmoc)
+If it is the weekend, and the contact request is urgent as a result of an action that might affect a users' usage of GitLab, [page the CMOC](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc)
 
 ### Assessing opportunities
 
@@ -1427,7 +1445,7 @@ Increase product instrumentation across our offerings to deliver greater product
 
 1. Issue Request
    - PM:
-     - Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using the Post-Launch Instrumentation template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Post-Launch%20Instrumentation%20Audit).
+     - Following the [Product Data Insights handbook](/handbook/product/groups/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using the Post-Launch Instrumentation template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Post-Launch%20Instrumentation%20Audit).
      - Assign the issue to your Product Data Insights counterpart. Carolyn Braza (`@cbraza`) will automatically be added for visibility.
    - Alignment
      - PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
@@ -1457,7 +1475,7 @@ Increase product instrumentation across our offerings to deliver greater product
 
 In order to better understand the perceived performance of GitLab, there is a synthetic page load performance testing framework available based on [sitespeed.io](https://www.sitespeed.io).
 
-A [Grafana dashboard](https://dashboards.gitlab.net/d/product-create/product-performance-create?orgId=1) is available for each stage, tracking the [Largest Contentful Paint](https://web.dev/lcp/) and first/last visual change times. These metrics together provide high-level insight into the experience our users have when interacting with these pages.
+A [Grafana dashboard](https://dashboards.gitlab.net/d/product-create/product-performance-create?orgId=1) is available for each stage, tracking the [Largest Contentful Paint](https://web.dev/articles/lcp) and first/last visual change times. These metrics together provide high-level insight into the experience our users have when interacting with these pages.
 
 ### Adding additional pages to performance testing
 

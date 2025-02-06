@@ -4,7 +4,7 @@ title: "GTM Analytics Hub"
 
 ## Common Links
 
-- [Sales Finance]({{< ref "_index.md" >}})
+- [Sales Finance](_index.md)
 - [Sales Strategy & Analytics (SS&A)](/handbook/sales/field-operations/sales-strategy/)
 
 ## Reports and Dashboards

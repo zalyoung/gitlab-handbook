@@ -243,7 +243,7 @@ This avoids the rush to provide documentation that often accompanies the release
 
 Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
 
-Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) section of the metrics page.
+Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
@@ -268,7 +268,7 @@ Items that are customer-facing deliverables and high impact are labeled with ~"d
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours](/handbook/values/#results). Part of this is the
+because [we measure impact, not activity](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
@@ -297,4 +297,4 @@ When you pick something to work on, please:
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
 - [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
-  [section level](/handbook/company/team/structure/#organizational-structure))
+  [section level](/handbook/company/structure/#organizational-structure))

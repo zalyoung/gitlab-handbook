@@ -26,9 +26,9 @@ We would much rather foster a culture where DRIs are willing to put their ideas 
 
 {{< youtube "jdN5mj5ieLk?start=1775" >}}
 
-As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder and CEO Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on various elements of GitLab's all-remote structure, including a question on DRIs.
+As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on various elements of GitLab's all-remote structure, including a question on DRIs.
 
-> How do we get the best of consensus organizations? When we're about to make a decision, we [tell everyone]({{< ref "communication" >}}). Everyone can give input.
+> How do we get the best of consensus organizations? When we're about to make a decision, we [tell everyone](/handbook/communication/). Everyone can give input.
 >
 > How we keep the best of hierarchical organizations is by having a DRI — one person who will decide.
 >
@@ -73,11 +73,11 @@ The DRI will also be responsible for making sure the team gets there.
 A DRI should be able to articulate the objectives, check progress and give and receive feedback.
 This will ensure the DRI can change direction or plan ahead to avoid any setbacks.
 
-At GitLab we communicate and work [asynchronously](/handbook/company/culture/all-remote/management/#asynchronous), you can read more about it on [this page]({{< ref "communication" >}}).
+At GitLab we communicate and work [asynchronously](/handbook/company/culture/all-remote/management/#asynchronous), you can read more about it on [this page](/handbook/communication/).
 
 One thing to consider when a DRI needs to give or receive feedback is that they may not be the actual manager of the other members of the team.
 
-Giving or receiving feedback is tough and we have looked at this in our previous [Guidance on Feedback Training]({{< ref "guidance-on-feedback" >}}). See also GitLab's [guide to communicating effectively and responsibly through text](/handbook/company/culture/all-remote/effective-communication/).
+Giving or receiving feedback is tough and we have looked at this in our previous [Guidance on Feedback Training](/handbook/people-group/guidance-on-feedback/). See also GitLab's [guide to communicating effectively and responsibly through text](/handbook/company/culture/all-remote/effective-communication/).
 
 ## DRI, Consulted, Informed (DCI)
 
@@ -85,7 +85,7 @@ Different organizations use different methods of assigning responsibility; one o
 
 GitLab's implementation of a DRI for decision-making means that we have evolved the RACI matrix to DCI (DRI, Consulted, Informed).
 
-The **Responsible** and **Accountable** person is the **DRI**, the **Consulted** people are those whose opinions are sought, typically subject-matter experts; and with whom there is two-way communication. and **Informed** people are those who are kept up-to-date on progress, often only on completion of the task or deliverable; and with whom there is just one-way communication. Given that [**Everyone Can Contribute**]({{< ref "mission#mission" >}}), **Informed** people also includes **Everyone**.
+The **Responsible** and **Accountable** person is the **DRI**, the **Consulted** people are those whose opinions are sought, typically subject-matter experts; and with whom there is two-way communication. and **Informed** people are those who are kept up-to-date on progress, often only on completion of the task or deliverable; and with whom there is just one-way communication. Given that [**Everyone Can Contribute**](/handbook/company/mission/#mission), **Informed** people also includes **Everyone**.
 
 The DRI should be sure to **Consult** with all teams that have actions to take on an initiative to ensure they have all context and that actions are appropriately divided.
 
@@ -111,4 +111,4 @@ In these instances, another person may own the final decision, but this doesn't 
 1. [How well does Apple's DRI model work in practice](https://www.forbes.com/sites/quora/2012/10/02/how-well-does-apples-directly-responsible-individual-dri-model-work-in-practice/#4d83402d194c)
 1. [Matthew Mamet, DRI](https://medium.com/@mmamet/directly-responsible-individuals-f5009f465da4)
 1. [Communicating effectively and responsibly through text](/handbook/company/culture/all-remote/effective-communication/)
-1. [GitLab Handbook, Guidance on Feedback]({{< ref "guidance-on-feedback" >}})
+1. [GitLab Handbook, Guidance on Feedback](/handbook/people-group/guidance-on-feedback/)

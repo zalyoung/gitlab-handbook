@@ -108,7 +108,7 @@ we will need to put more work into building a simple solution.
 
 **Availability/Reliability**, **Quality**, **Security**, and **Performance** are the pillars for building reliable software. Reliability is our contract with our customers that say you can count on us to deliver an available and dependable product. Everyone in the organization has a role to play.
 
-Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) and [Quality](/handbook/engineering/quality/#mission) teams are the Subject Matter Experts supporting product development teams.
+Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) and [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience) teams are the Subject Matter Experts supporting product development teams.
 
 ## Velocity
 
@@ -143,7 +143,7 @@ between Speed and Velocity. Direction matters for Velocity, therefore we need
 to [iterate efficiently](#efficiency) on the right things at the right time.
 
 For some tips on how to iterate you can check
-[Sid's a blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
+[the blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
 
 ### Reduce review time
 
@@ -274,7 +274,7 @@ Only the last two outcomes are acceptable as a general rule. Missing a 'due date
 
 For these reasons, and others, we intentionally [do not define a specific date](/handbook/engineering/releases/#timelines) for code to be merged in order to reach a self-managed monthly release. The earlier it is merged, the better. This also means that:
 
-1. We don't want merge request authors to [work extra hours](/handbook/values/#measure-results-not-hours) or otherwise rush to meet a due date.
+1. We don't want merge request authors to [work extra hours](/handbook/values/#measure-impact-not-activity) or otherwise rush to meet a due date.
 1. We don't want [reviewers and maintainers](/handbook/engineering/workflow/code-review/) to be put under pressure to do anything other than meet the [regular SLOs](/handbook/engineering/workflow/code-review/#review-response-slo).
 
 If it is essential that a merge request make it in a particular release, this must be communicated well in advance to the engineer and any reviewers, to ensure they're able to make that commitment. If a severe bug needs to be fixed with short notice, it is better to revert the change that introduced it than to rush, or even to delay the release until the fix is ready.
@@ -310,7 +310,7 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
 
-- [UX Guides](https://docs.gitlab.com/ee/development/ux)
+- [UX Guides](https://docs.gitlab.com/ee/development/ux/)
 - [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
 - [Frontend Guides](https://docs.gitlab.com/ee/development/fe_guide/index.html)
 - [Database Guides](https://docs.gitlab.com/ee/development/#database-guides)

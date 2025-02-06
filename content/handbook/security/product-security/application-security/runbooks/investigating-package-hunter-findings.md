@@ -70,7 +70,7 @@ the alert and that there is no malicious intent.
 opened to replace the package with the legitimate one. Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)
 the malicious package to the registry operator ([NPM](https://docs.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
 - If we discover that a legitimate package was compromised,
-[security on-call should be engaged]({{< ref "engaging-security-on-call" >}}) for further investigation and an MR should be
+[security on-call should be engaged](/handbook/security/security-operations/sirt/engaging-security-on-call/) for further investigation and an MR should be
 opened to roll back to a previous version of the package that is known to be secure.
 Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)  the malicious package to the registry operator ([NPM](https://docs.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
 and to the maintainer of the package

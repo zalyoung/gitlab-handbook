@@ -39,12 +39,12 @@ Live Learning sessions are conducted on an ad hoc. There will be a Zoom video co
 
 - January - [Compensation Review: Manager Cycle (Compaas)](https://youtu.be/crkPeOjkqTQ)
 - January - [Ally Training](/handbook/company/culture/inclusion/being-an-ally/)
-- February - [Receiving Feedback]({{< ref "guidance-on-feedback#receiving-feedback" >}})
-- June - [Delivering Feedback]({{< ref "guidance-on-feedback#guidelines-for-delivering-feedback" >}})
+- February - [Receiving Feedback](/handbook/people-group/guidance-on-feedback/#receiving-feedback)
+- June - [Delivering Feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback)
 - June - [Recognizing Bias](/handbook/company/culture/inclusion/unconscious-bias/)
-- September - [Manager Challenge Pilot]({{< ref "manager-challenge#pilot-program" >}})
+- September - [Manager Challenge Pilot](/handbook/people-group/learning-and-development/manager-challenge/#pilot-program)
 - November - [Belonging](https://www.youtube.com/watch?v=WZun1ktIQiw)
-- November - [One Week Challenge - Psychological Safety]({{< ref "psychological-safety#one-week-challenge" >}})
+- November - [One Week Challenge - Psychological Safety](/handbook/leadership/emotional-intelligence/psychological-safety/#one-week-challenge)
 - December - [Introduction to Coaching]({{< ref "coaching#introduction-to-coaching-1" >}})
 
 **2019**
@@ -70,7 +70,7 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 ## Take Time Out To Learn Campaign
 
-[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan]({{< ref "career-development#internal-resources" >}}).
+[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#resources-and-tools).
 
 From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
 
@@ -131,17 +131,19 @@ After the Call:
 
 ### List of CEO Handbook Learning Sessions
 
+[Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KosJ72e_9DFZRFSKxlTm9DA)
+
 1. [Common misperceptions about Iteration](https://www.youtube.com/watch?v=nXfKtnVUhvQ)
 1. [No Matrix Organization](https://www.youtube.com/watch?v=E_wegGRv4mA)
 1. [Making Decisions](https://www.youtube.com/watch?v=-by6ohMIi_M&feature=emb_title)
 1. [Individual Contributor Leadership](https://www.youtube.com/watch?v=d0x-JH3aolM)
 1. [Bias Towards Asynchronous Communication](https://www.youtube.com/watch?v=_okcPC9YucA&feature=emb_title)
-1. [High Output Management](/handbook/leadership/high-output-management/#applying-high-output-management)
+1. [High Output Management](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp_xR7vrRiGu7URKiUmN8m3)
 1. [Giving and Receiving Feedback](https://www.youtube.com/watch?v=vL864Zg2sm4&t=731s)
 1. [Managing Underperformance](https://www.youtube.com/watch?v=-mLpytnQtlY&t=637s)
 1. [Transitioning from IC to Manager - Engineering](https://www.youtube.com/watch?v=Zeull-tdy6o)
 1. [Manager Mention Merge Requests](https://www.youtube.com/watch?v=e1sTOtveNOk)
-1. [Working Groups](/handbook/company/working-groups/#ceo-handbook-learning-discussion-on-working-groups)
+1. [Working Groups](https://www.youtube.com/live/tE3d8WUSL30)
 1. [Skip Level Meetings](https://www.youtube.com/watch?v=kAxp0Mam-Rw)
 1. [Product Strategy](https://www.youtube.com/watch?v=yI29xFAgKoA)
 1. [Mental Wellness Discussion](https://www.youtube.com/watch?v=od_KdZqc69k)

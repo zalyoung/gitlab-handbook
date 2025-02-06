@@ -14,15 +14,15 @@ For GitLab.com, we've previously introduced monitoring database bloat in good de
 
 Aggregating those statistics, we can see that index bloat (yellow line) steadily grows over time while table bloat (green line) stays rather constant. The graph below shows about 3 months (early 2020) and an increase in index bloat from 240 GB to more than 600 GB.
 
-![index-bloat-1](workload-analysis/index-bloat-1.png)
+![index-bloat-1](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/workload-analysis/workload-analysis/index-bloat-1.png)
 
 A few months later, in summer 2020, overall index bloat has accumulated to more than 1.3 TB (see below). Notice that table bloat increase significantly, too - however that was due to a single table which a data migration dealt with during that time (so that was expected). Compared to the overall database size at that time of 8.5 TB, index bloat made up about 15% of the total size. This space is mostly wasted and it occupies memory.
 
-![index-bloat-3](workload-analysis/index-bloat-3.png)
+![index-bloat-3](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/workload-analysis/workload-analysis/index-bloat-3.png)
 
 We've started to address this through manual invocations of [pg_repack](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/database/postgres/bloat/#design-1) in early September (the dip in index bloat and the vertical green lines indicate that). The overall impact of the autumn repacking efforts can be seen below. In multiple steps, we've successfully lowered index bloat to more acceptable levels - freeing up over 1 TB of space. After the data migration had finished, we also removed table bloat - again freeing up over 1 TB of additional space (the green line).
 
-![index-bloat-2](workload-analysis/index-bloat-2.png)
+![index-bloat-2](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/workload-analysis/workload-analysis/index-bloat-2.png)
 
 #### Addressing index bloat long term
 

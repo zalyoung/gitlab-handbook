@@ -48,9 +48,9 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 
 - [Pipeline creation](https://docs.gitlab.com/ee/ci/quick_start/)
 - [YAML syntax](https://docs.gitlab.com/ee/ci/yaml/)
-- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/lint.html)
+- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/yaml/lint.html)
 - [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
-- Additional features can be found [here](/handbook/product/categories/features/#verify-pipeline-authoring-group)
+- Additional features can be found [here](/handbook/product/categories/features/#pipeline-authoring)
 
 ## Technical Roadmap
 
@@ -117,6 +117,28 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
 We highly value user feedback! Please use the issue below to capture feedback and insights for our newest feature, CI/CD Catalog:
 
 - [CI/CD Catalog Feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/407556)
+
+## Community Contributions
+
+Pipeline authoring at GitLab involves a deep understanding of our CI/CD system and its intricate interactions with various components. This complexity can present challenges for those unfamiliar with the codebase and underlying architecture.
+
+We encourage community contributors to work on issues with the ~"seeking community contribution" label. These issues are specifically selected to provide a clear and manageable path for external contributions.
+
+Due to the inherent complexity of pipeline authoring, contributions to issues not marked for community contribution may require significant domain knowledge and familiarity with GitLab's internals. While we appreciate all contributions, Merge Requests for these issues may require more extensive review and may not be merged if they don't align with our architectural vision or best practices.
+
+### Guidance for Reviewers
+
+When reviewing Merge Requests from community contributors, please consider the following:
+
+- Issue Selection: Verify if the contribution addresses an issue labeled ~"seeking community contribution". If not, assess the complexity and required domain knowledge.
+- Mentorship: If the contribution shows promise but needs guidance, provide constructive feedback and consider offering mentorship to help the contributor succeed.
+- Clear Communication: Explain the rationale behind any required changes or decisions clearly and respectfully, ensuring the contributor understands the context and reasoning.
+
+If the issue picked up by the community does not have the ~'seeking community contribution' label and/or is too complex please consider using the following template:
+
+```markdown
+"Thank you for your interest in contributing to GitLab! We appreciate you taking the initiative to work on this. This particular area involves complexities that may require deeper domain knowledge of GitLab's CI/CD system. To ensure a smoother review process and increase the likelihood of your contribution being merged, we recommend focusing on issues with the ~'seeking community contribution' label. These are specifically curated for external contributors. A curated list of issues is available here: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=100"
+```
 
 ## Group Meetings
 
@@ -226,7 +248,7 @@ Anything weighted as a 5 or larger should be broken down. These should not be `r
 
 Our CI syntax keeps evolving. We cannot support all keywords indefinitely, so deprecating and removing keywords is inevitable.
 
-GitLab does not have a versioning system for CI/CD configuration. Therefore, it is critical to over-communicate our deprecation purposes to our users and take the necessary precautions to reduce the impact on their projects. Deprecating a keyword is risky because it will break all pipelines using it, and in some cases, users are not aware of the keyword they use in their pipeline. The deprecation process described below is similar to the [deprecating and removing features](/handbook/product/categories/gitlab-the-product/#process-for-deprecating-and-removing-a-feature) process, with additional steps to reduce the risks which involved with removing a CI/CD keyword.
+GitLab does not have a versioning system for CI/CD configuration. Therefore, it is critical to over-communicate our deprecation purposes to our users and take the necessary precautions to reduce the impact on their projects. Deprecating a keyword is risky because it will break all pipelines using it, and in some cases, users are not aware of the keyword they use in their pipeline. The deprecation process described below is similar to the [deprecating and removing features](https://docs.gitlab.com/ee/development/deprecation_guidelines/) process, with additional steps to reduce the risks which involved with removing a CI/CD keyword.
 
 1. Deprecation notice - Syntax removal introduces a breaking change, as outlined in our deprecation process, we must notify the community and customers, which means including a deprecation notice in the monthly release post.
 1. Track keyword usage - Tracking keyword usage should begin as early as possible. It is a mandatory step that helps estimate the user impact, timing, and needed effort. The more users use the keyword, the more time it takes to remove it (It took more than four years to move from [remove](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9766) to [deprecation](https://gitlab.com/gitlab-org/gitlab/-/issues/346823) for 'type' keyword).

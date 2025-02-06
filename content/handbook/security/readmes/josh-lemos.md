@@ -45,10 +45,10 @@ People are the foundation of organizational success and the most fascinating asp
 ### Communication Preferences
 
 - **Primary**: Slack is my default communication channel  <br/>
-- **Documentation**: Comments in shared documents (tag me directly). I prefer to write and communicate in long-form content rich documents <br/> 
-- **Meetings**: Reserved for discussions that can't be resolved asynchronously <br/> 
-- **Email**: Long-form, non-urgent communications <br/> 
-- **Phone/Signal**: Emergency and off-hours communication <br/> 
+- **Documentation**: Comments in shared documents (tag me directly). I prefer to write and communicate in long-form content rich documents <br/>
+- **Meetings**: Reserved for discussions that can't be resolved asynchronously <br/>
+- **Email**: Long-form, non-urgent communications <br/>
+- **Phone/Signal**: Emergency and off-hours communication <br/>
 
 ## My Role as CISO
 
@@ -57,16 +57,16 @@ Secure GitLab's platform, customers, and company against cyber threats.
 ### Key Performance Indicators
 
 - Incident SLA compliance <br/>  
-- Asset inventory coverage <br/> 
+- Asset inventory coverage <br/>
 - Time to containment <br/>
 - Internally identified vulnerabilities <br/>  
 
 ## Expectations for leadership - What I need from you. What you will get from me
 
-- **Be Proactive**: Push information rather than waiting to be asked <br/> 
-- **Challenge Norms**: Take principled risks and question the status quo <br/> 
-- **Show Integrity**: Own failures, celebrate team successes <br/> 
-- **Embrace Divergent Perspectives**: Seek out and value different perspectives <br/> 
-- **Communicate Clearly**: Default to transparency and structured communication <br/> 
+- **Be Proactive**: Push information rather than waiting to be asked <br/>
+- **Challenge Norms**: Take principled risks and question the status quo <br/>
+- **Show Integrity**: Own failures, celebrate team successes <br/>
+- **Embrace Divergent Perspectives**: Seek out and value different perspectives <br/>
+- **Communicate Clearly**: Default to transparency and structured communication <br/>
 
-_Remember: I value direct feedback. If you see areas where I can improve or better support you, please let me know._ <br/> 
+_Remember: I value direct feedback. If you see areas where I can improve or better support you, please let me know._ <br/>

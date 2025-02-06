@@ -27,9 +27,9 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Data Sharing*: Service Ping Metrics are not shared with independent third-parties.  The data is sent from Self-Managed instances, Dedicated or GitLab.com namespaces to the [Versions App](https://version.gitlab.com/) and our data warehouse for processing.  These are GitLab-controlled systems.
 
-*Cadence*: Service Ping collected via Self-Managed instances, Dedicated and GitLab.com namespaces are automatically generated on a weekly basis.  The data will appear in our data warehouse within one-day after generation. Only the metrics that were instrumented through the version the Self-Managed instance is running on are available.  For example, if a metric is instrumented during the development of version 16.9, it will be available on instances running versions equal to or greater than 16.9. 
+*Cadence*: Service Ping collected via Self-Managed instances, Dedicated and GitLab.com namespaces are automatically generated on a weekly basis.  The data will appear in our data warehouse within one-day after generation. Only the metrics that were instrumented through the version the Self-Managed instance is running on are available.  For example, if a metric is instrumented during the development of version 16.9, it will be available on instances running versions equal to or greater than 16.9.
 
-*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/).
+*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: Service Ping Metrics have been broken down into the four categories of Metrics listed below:
 
@@ -81,9 +81,9 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Snowplow Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
-*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/).
+*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
-*Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events), as well as Project_ID, Namespace_ID, and the country and region of the user's location.
+*Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events/), as well as Project_ID, Namespace_ID, and the country and region of the user's location.
 
 *Opting-Out*: Since Snowplow Metrics pertain to individual pseudonymized user events, Snowplow Metrics can only be opted-out on an individual basis using DNT signals.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations.
 
@@ -106,6 +106,26 @@ The first exception is in the collection of hostname and IP address for Self-Man
 *Types of Data*: The Metrics collected include name, email, hostname and company of the individual listed on the paid Self-Managed or Dedicated license, as well as those Metrics listed [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data).
 
 *Opting-Out*:  By default, all paid GitLab.com subscriptions on 14.1 or higher with an internet connection will have Subscription Data collected via License Sync.  If a Self-Managed or Dedicated customer wishes to opt-out of License Sync, they should consult with GitLab Sales to obtain a Legacy or Offline License. For paid GitLab.com subscriptions, you cannot opt-out of Subscription Data collected via Service Ping.
+
+## Switchboard
+
+*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.
+
+*Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Swithboard application.
+
+*Configuration*: Switchboard Metrics are only collected from the Switchboard application itself and not from the Dedicated tenant.  Therefore, user interactions in the Dedicated tenant do not result in any data collected under this section.  Please view this [high-level diagram](https://docs.gitlab.com/ee/administration/dedicated/#architecture) that demonstrates the flow of Metrics collected from the Switchboard application and sent to our data warehouse for further processing.
+
+*Personal Data Collected*: Switchboard Metrics are initially tied to an individual user in a raw format.  However, these Metrics are sent through a de-identification process and subsequently purged, meaning only pseudonymized Metrics or Metrics aggregated across an entire Switchboard customer console are delivered to our data warehouse.  Pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.
+
+*Data Sharing*: Switchboard Metrics are not shared with independent third-parties.  The Switchboard application and data warehouse are GitLab-controlled systems.
+
+*Cadence*: Switchboard Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
+
+*Ownership*: Switchboard Metrics are owend by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).
+
+*Types of Data*: A full list of the Switchboard Mertics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
+
+*Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics.
 
 ## Usage Data for AI-Powered Features
 

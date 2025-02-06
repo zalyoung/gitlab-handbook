@@ -65,7 +65,7 @@ We use the following labels to track our work across these spaces.
 
 We track progress on OKRs using the `Education Program` and `OKR` labels.
 
-The GitLab for Education Program has quarterly OKR in order to measure impact and drive program improvement. 
+The GitLab for Education Program has quarterly OKR in order to measure impact and drive program improvement.
 
 See the [FY25-Q4 Developer Relation & Strategy OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/10245) for more details.
 

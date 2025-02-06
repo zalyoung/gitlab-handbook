@@ -23,7 +23,7 @@ Please visit our other pages for more information on [email best practices](/han
   * [see this documentation for Marketo segmentations](/handbook/marketing/marketing-operations/marketo/#segmentations)
 * A prescriptive persona-based buyer's journey (Persona nurture)
   * this is an ongoing effort led by Lifecycle in collaboration with Campaigns, Content Marketing, and Product Marketing
-  * [see this section of the handbook page for more info](handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture)
+  * [see this section of the handbook page for more info](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture)
   * [see the epic for more information](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 * User nurtures and programs
   * this is an ongoing effort led by Lifecycle, and specifically spearheaded by our Manager, Lifecycle Marketing  [@Aklatzkin](https://gitlab.com/Aklatzkin).
@@ -44,27 +44,15 @@ Please visit our other pages for more information on [email best practices](/han
 
 *The [Persona Nurture](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture) (formerly the Intelligent Nurture after relaunch on 2023-11-06) aims at progressing leads from RAW > INQ > MQL > SAO, and leverages segment/region data to provide the *right offer* to the *right person* at the *right time* - based on their region and persona.*
 
+We shifted to the persona model in November of 2023 to scale our programs more easily and enable team members to optimize the programs more regularly. The next iteration for FY25 Q4 will be to launch action streams, which are personalized interest based email streams based on the content the lead came in on.
+
 #### Quick Links
 
-* [Overview Deck](https://docs.google.com/presentation/d/1N_VM8xHGiQ95PXt09xyuQAa9px0VGEGyJd0KtGdXjzg/edit#slide=id.g106e2c5ac6b_0_0)
+* [FY25 Persona Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4798)
 * [Combine nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3979)
-* [Intelligent Marketo Email Nurture Epic - FY24](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3557)
 * [Figjam of Persona Marketo Email Nurture](https://www.figma.com/file/Vh7k6ktDSsRVBTorRH034X/Persona-Email-Nurture-Engine_2023-08-22_10-19-49?type=whiteboard&t=AJ2Wv6vrripWJd4y-1)
 * [Marketo Program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF8561A1)
 * [CTA & UTM documentation of existing nurture](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit#gid=711539408)
-
-#### Labels for Persona Nurture Progress
-
-We created several GitLab labels for a better organization of each asset that we are adding to the intelligent nurture.
-
-Below we explain the labels created and what each one is for:
-
-* [intel-nurture](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture&first_page_size=20): This label is global and will help us identify that the issue we are working on is directly for the intelligent nurture. All "add to intelligent nurture" issues must have this label, and it is included in the issue template.
-* [intel-nurture::write-copy](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Awrite-copy&first_page_size=20): This label helps us know that the issue is in the process of email copy development. We cannot move on to the next step (email-build) until the copy is final.
-* [intel-nurture::email-build](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-build&first_page_size=20): This label helps us to know that the email is in production. Verticurl is responsible for building the emails.
-* [intel-nurture::email-test](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-test&first_page_size=20): This label tells us that the email has already been built and that the Verticurl team has sent tests to both the requesters AND the lifecycle marketing team for review. In this step we check that the links work correctly, that the content of the email is correct and that the correct utm values are used for appropriate tracking of the links. Once the email is approved, we proceed to the last step.
-* [intel-nurture::add-to-streams](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aadd-to-streams&first_page_size=20): This label helps us to identify that the issue is in its final stage where we proceed to add the email to the relevant nurture streams.
-  * **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
 
 ### Persona Email Nurture Stream Schedule
 <!-- DO NOT CHANGE THIS ANCHOR -->

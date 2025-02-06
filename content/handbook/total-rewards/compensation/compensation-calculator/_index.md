@@ -26,7 +26,7 @@ For any questions relating to the compensation calculator, reach out to [Total R
 
 ## The Compensation Calculator
 
-As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
+As a natural extension of the [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
 The compensation of executives and anyone on a quota is not set with the calculator. We use a Compensation Calculator because it helps us align compensation to our values:
 
 1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don't have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual's circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they'll also be able to see the appropriate band for the change.
@@ -43,14 +43,14 @@ The goals of the calculator are:
 1. Calculate compensation for 200+ regions all over the world.
 1. Based on a simple formula.
 1. People with the same attributes should earn the same.
-1. The adjustment for [paying local rates]({{< ref "compensation#paying-local-rates" >}}) should be the same if you are in the same location.
+1. The adjustment for [paying local rates](/handbook/total-rewards/compensation/#paying-local-rates) should be the same if you are in the same location.
 1. You should be able to calculate your compensation in case you know or made an assumption about your level.
-1. That it is as close to a [competitive rate]({{< ref "compensation#competitive-rate" >}}) as possible given the other constraints.
+1. That it is as close to a [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) as possible given the other constraints.
 1. Be able to calculate compensation for most of our offers without involving a compensation specialist.
 
 ### The Compensation Calculator Formula
 
-Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-factor) x [Level Factor](#level-factor) x [Exchange Rate]({{< ref "compensation#exchange-rates" >}})
+Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-factor) x [Level Factor](#level-factor) x [Exchange Rate](/handbook/total-rewards/compensation/#exchange-rates)
 
 The calculator will output the amount as `base + variable = total target cash (TTC)`
 
@@ -143,7 +143,7 @@ To review the Compensation Benchmark process please refer to the [New Roles Crea
 
 #### Benchmark Adjustment
 
-As stated in [competitive rate]({{< ref "compensation#competitive-rate" >}}) we want to recruit and retain people who meet our requirements.
+As stated in [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) we want to recruit and retain people who meet our requirements.
 If any one, or a combination of, the following statistics is met, a benchmark review can be requested to address any concerns around the benchmark:
 
 - An open role is open for longer than 100 days
@@ -205,6 +205,14 @@ All current job codes can be found by the Total Rewards team in the "Job Codes" 
 
 Location Factor is [calculated](#calculating-location-factors) using multiple data sources to conduct a market analysis of compensation rates globally: Economic Research Institute (ERI), Comptryx, Radford. This is *not* a cost of living analysis, but instead a **cost of labor market** evaluation compared to San Francisco. The Total Rewards team will use their best judgement in determining the input per location based on our [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
 
+#### In Workday
+
+In Workday the Location Factor is embedded into the Grade Profile as the second field. For example in a Grade Profile of "210.070.EUR", the second field "070" is referring to the Location Factor. As per Amsterdam's Location Factor in the Compensation Calculator, this is 0.70.
+
+The Grade Profile can be found under the Compensation tab, and is only viewable to managers.
+
+[Related issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/1139)
+
 ### Geographical Areas
 
 The location factor depends on your geographical area. To determine geographical areas as it relates to compensation, we looked at what the [United Nations](https://unstats.un.org/unsd/methodology/m49/) outlines globally:
@@ -250,6 +258,8 @@ To determine your area:
     The commute time of one hour and forty-five minutes is calculated using standard transportation methods such as car or public transit (e.g., train, bus). We use Google Maps to estimate the travel time from the city center to your address, specifically during normal business commuting hours to account for typical traffic patterns (i.e. arriving to the city by 8 AM and departing to your address at 5 PM). If the estimated travel time falls within one hour and forty-five minutes radius during these peak commuting hours, you are considered within the commutable range for that Metro Area.
 
     If you are within a commutable one hour and forty-five minutes of more than one city, use the city with the shortest commute as your location. If not, select "Not Applicable."
+
+    **Note, in some unique cases the Metro Area within a one hour and forty-five minute radius may be in a different state (United States) or Province (Canada).**
 
     If there are no additional boxes for State/Province and/or Metro Area for the country you select, this country has the same location factor regardless of the city you live in. Similarly, if there is no additional box for Metro Area after selecting a State/Province, this state or province has the same location factor regardless of the city you live in.
 1. If your country is not listed, reach out to total-rewards@domain to gather relevant data.

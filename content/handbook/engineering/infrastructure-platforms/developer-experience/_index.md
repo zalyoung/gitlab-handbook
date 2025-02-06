@@ -7,15 +7,32 @@ description: "Developer Experience is a newly formed group, born from the strate
 
 Our mission is to empower developers to focus on innovation, build, and deliver high-quality products to our customers. We aim to achieve this through:
 
-1. State-of-the-art developer tooling
-2. Robust and reliable test infrastructure
-3. Data-driven analysis for informed decision-making
-4. Streamlined release governance
-5. Comprehensive performance validation
+1. State-of-the-art developer tooling.
+2. Robust and reliable test infrastructure.
+3. Data-driven analysis for informed decision-making.
+4. Streamlined release and test governance to ensure consistency, compliance, and quality across the development lifecycle.
+5. Comprehensive performance validation.
 
 ## Team Structure
 
 Infrastructure Platforms Department structure is documented [here](/handbook/engineering/infrastructure-platforms/#organization-structure).
+
+## OKRs
+
+TODO
+
+## Weights
+
+We use Fibonacci Series for weights and limit the highest number to 8. The definitions are as below:
+
+| Weight      | Description                                                                                                                                                                              |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 - Trivial | Simple and quick changes (e.g. typo fix, test tag update, trivial documentation additions)                                                                                               |
+| 2 - Small   | Straight forward changes, no underlying dependencies needed. (e.g. new test that has existing factories or page objects)                                                                 |
+| 3 - Medium  | Well understood changes with a few dependencies. Few surprises can be expected. (e.g. new test that needs to have new factories or page object / page components)                        |
+| 5 - Large   | A task that will require some investigation and research, in addition to the above weights (e.g. Tests that need framework level changes which can impact other parts of the test suite) |
+| 8 - X-large | A very large task that will require much investigation and research. Pushing initiative level                                                                                            |
+| 13 or more  | Please break the work down further, we do not use weights higher than 8.                                                                                                                 |
 
 ### Developer Experience group structure
 
@@ -25,15 +42,15 @@ graph TD
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience"
 
     DE --> DA[Development Analytics]
-    click DA "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DA "handbook/engineering/infrastructure-platforms/developer-experience/development-analytics"
     DE --> DT[Developer Tooling]
-    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling"
     DE --> FR[Feature Readiness]
-    click FR "handbook/engineering/infrastructure-platforms/developer-experience"
+    click FR "handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness"
     DE --> PE[Performance Enablement]
-    click PE "handbook/engineering/infrastructure-platforms/developer-experience"
+    click PE "handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement"
     DE --> TG[Test Governance]
-    click TG "handbook/engineering/infrastructure-platforms/developer-experience"
+    click TG "handbook/engineering/infrastructure-platforms/developer-experience/test-governance"
 ```
 
 ## Team Members
@@ -44,22 +61,22 @@ graph TD
 
 ### Individual contributors
 
-The following people are members of the [Development Analytics team](development-analytics-team):
+The following people are members of the [Development Analytics group](./development-analytics/):
 
 {{< team-by-manager-slug "ghosh-abhinaba" >}}
 
-The following people are members of the [Developer Tooling team](developer-tooling-team):
+The following people are members of the [Developer Tooling group](developer-tooling):
 
 {{< team-by-manager-slug "vincywilson" >}}
 
-The following people are members of the [Feature Readiness team](feature-readiness-team):
+The following people are members of the [Feature Readiness group](feature-readiness-team):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
-The following people are members of the [Performance Enablement team](performance-enablement-team):
+The following people are members of the [Performance Enablement group](performance-enablement-team):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
-The following people are members of the [Test Governance team](test-governance-team):
+The following people are members of the [Test Governance group](test-governance-team):
 
 {{< team-by-manager-slug "kkolpakova" >}}

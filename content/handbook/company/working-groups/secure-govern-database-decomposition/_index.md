@@ -102,13 +102,13 @@ dateFormat YYYY-MM-DD
 title 50% confidence timeline
 
 section Work
-Decompose tables :active , decompose, 2024-07-01, 2024-12-09
-Slice 1 :active, slice1, 2024-07-23, 2024-12-09
-Slice 2 :active, slice2, 2024-08-06, 2024-10-04
-Slice 3 :active, slice3, 2024-07-15, 2024-12-09
-Table decomposition complete :milestone, allslices, after slice1 slice2 slice3, 0d
-Phase 1 & 2 : phase12, 2024-09-11, 7w
-Phase 3 : phase3, after phase12, 3w
+Gitlab Decomposition Ready :active , decompose, 2024-07-01, 2025-02-14
+Non-Slice Work :active, nonslicework, 2024-07-15, 2025-02-14
+Slice 1 :active, slice1, 2024-07-23, 2025-01-13
+Slice 2 :active, slice2, 2024-08-06, 2024-12-30
+Slice 3 :active, slice3, 2024-07-15, 2025-02-14
+Gitlab Application Ready for Decomposition :milestone, allslices, after slice1 slice2 slice3 nonslicework, 0d
+Phase 1 & 2 : phase12, 2024-09-11, 16w
 Phase 4 : phase4, after allslices phase3 decompose, 3w
 Phase 5 : phase5, after phase4, 3w
 Phase 6 : phase6, after phase4, 3w
@@ -123,11 +123,12 @@ axisFormat  %Y-%m
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 95%  | 2024-12 |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 98% | 2024-10 |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 64%  | 2024-12 |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 100% | Complete |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | Complete |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 93%  | 2025-02 |
+| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 79% | 2025-04 |
 
-Last update: [2024-11-25](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2215993745).
+Last update: [2025-01-28](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2315843897).
 
 ### Plan
 
@@ -139,58 +140,23 @@ Last update: [2024-11-25](https://gitlab.com/groups/gitlab-org/-/epics/14165?for
     1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases.html#allowlist-for-existing-cross-database-foreign-keys) to be addressed
     1. Identify and allowlist cross-database transactions to be addressed
     1. Remove previously identified cross-joins and cross-database transactions allowances
-1. Await results of [Logical Replication Production test](https://gitlab.com/gitlab-com/gl-infra/dbre/-/issues/95) to determine the viability of [this as a migration path](#migration-proposal-a-logical-replication).
-1. Depending on the results of the production test, formulate a path for the safe migration of the Sec dataset to a new physical database. These may take the form of the headings below.
-1. Open Change Request to migrate tables using either (A) a phased approach mirroring code boundary slices above or (B) a single replication event for all tables in scope of decomposition
+1. Formulate a logical replication path for the safe migration of the Sec dataset to a new physical database.
+1. Open Change Request to migrate tables using a single replication event for all tables in scope of decomposition
 1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
 
-#### Migration Proposal A: Logical Replication
+#### Data Migration Proposal
 
-1. Research and test the possiblity of a staged logical replication in which we migrate small subsets of the Sec featureset at a time, such as SBOM.
-    1. If a staged rollout is possible
-        1. Identify the highest value feature subset to decompose
-        2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
-        3. Establish the decomposed database instance
-        4. Begin replicating the Sec data to the new database instance
-        5. Write the necessary code to enable GitLab.com to begin utilising the new instance generically, and for the chosen feature subset.
-        6. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of failure.
-        7. Begin testing transition of the feature to using the new database instance as it's new write primary.
-        8. If successful, globally rollout usage of the decomposed database for the feature subset.
-        9. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
-    2. If a staged rollout is not possible
-        1. Establish the decomposed database instance
-        2. Begin replicating the full Sec data to the new database instance
-        3. Write the necessary code to enable GitLab.com to begin utilising the new instance generically and for all Sec features.
-        4. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of failure.
-        5. Begin testing transition of the Sec featureset to using the new database instance as it's new write primary.
-        6. If successful, globally rollout usage of the decomposed database for the full featureset.
-2. Cleanup legacy data from the GitLab core database.
+See [rollout for full details](https://gitlab.com/groups/gitlab-org/-/epics/15236)
 
-#### Migration Proposal B: Physical Replication
-
-1. Determine acceptability of a full downtime for GitLab, or a temporary suspension of use for the entire Sec featureset to prevent dataloss. (Alternatively, notify users that there will be dataloss related to this featureset after a certain Date and Time)
-    1. Begin communicating with customers ahead of time to minimise disatisfaction as a result of this disruption.
-    2. Establish the decomposed database instance
-    3. Write the necessary code to enable GitLab.com to begin utilising the new instance generically and for all Sec features.
-    4. Begin testing transition of the Sec featureset to using the new database instance as it's new write primary.
-    5. Take GitLab down so that write traffic stops.
-    6. Wait for replication to catch up on the node before promoting it to be the new leader of a new Sec DB cluster. Configure GitLab to write to this new Sec DB cluster.
-    7. Globally rollout usage of the decomposed database for the full featureset.
-    8. Cleanup legacy Sec data from the GitLab Core database.
-    9. Cleanup legacy Core data from the new Sec database.
-
-#### Migration Proposal C: Application Replication
-
-1. As a staged rollout is possible, identify the highest value feature subset to decompose.
-2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
-3. Establish the decomposed database instance
-4. Write the necessary code to sync all possible data changes relating the chosen feature subset to the new database instance from whereever they may occur in the application.
-5. Begin replicating the Sec data to the new database instance for the chosen feature subset.
-6. Write the necessary code to enable GitLab.com to begin utilising the new instance generically, and for the chosen feature subset.
-7. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of transition failure, as some data may not be able to be synced back to the Core database.
-8. Begin testing transition of the feature to using the new database instance as it's new write primary.
-9. If successful, globally rollout usage of the decomposed database for the feature.
-10. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
+1. With physical-to-logical replication we replicate the full DB before converting to logical replication for the relevant sec tables
+    1. Deploy the decomposed database instance as a streaming replica of main
+    1. Begin replicating the full Sec data to the new database instance
+    1. Establish a separate sec DB connection pointed at the same main DB
+    1. Write the necessary code to enable GitLab.com to begin utilising the new DB connection generically and for all Sec features.
+    1. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of failure.
+    1. Begin testing transition of the Sec featureset to using the new database instance as it's new primary (gstg -> canary -> grpd)
+    1. If successful, globally rollout usage of the decomposed database for the full featureset.
+2. Truncate legacy sec tables from the GitLab main database.
 
 ## Roles and Responsibilities
 

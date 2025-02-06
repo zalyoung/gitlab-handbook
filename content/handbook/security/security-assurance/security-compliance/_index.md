@@ -8,22 +8,24 @@ description: "Security Compliance Team"
 We support the Security division's [mission and operating principles](/handbook/security/_index.md) by:
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
-1. Maintaining and achieving [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) that meet the needs of our customers
-1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of systems, applications, and repositories
+1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
+1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing] ([risk-based-control-testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/)) of assets
 1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
 ## Core Competencies
 
-1. [Security certifications and attestations]({{< ref "../security-compliance/certifications" >}})
+1. [Security certifications and attestations](../security-compliance/certifications/)
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
-1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
-   - [Policy-as-code]({{< ref "../../security-assurance/security-compliance/policy-as-code" >}})
-   - Automated evidence collection and control testing
-   - [User Access Reviews]({{< ref "access-reviews" >}})
-   - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)]({{< ref "information-system-contingency-plan-iscp" >}}) testing
-1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}})
+1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
+   - [Policy-as-code](./policy-as-code.md)
+   - [Automated evidence collection and control testing](./automated-control-testing.md)
+   - [User Access Reviews](./access-reviews.md)
+   - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)](../../information-system-contingency-plan-iscp.md) testing
+   - [Risk-based control testing](./risk-based-control-testing.md)
+   - [PCI Internal Control Review](./pci-internal-control-review.md)
+1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
    - Provide remediation recommendations and guidance
@@ -253,11 +255,11 @@ The SSOT for our metrics is Tableau. Our metrics are largely collected from issu
 
 ## References
 
-- [Security Certifications]({{< ref "../security-compliance/certifications" >}})
-- [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}})
-- [GCF Security Controls]({{< ref "sec-controls" >}})
-- [User Access Reviews]({{< ref "access-reviews" >}})
-- [Observation Methodology]({{< ref "observation-management-procedure" >}})
-- [Gap Analysis Program]({{< ref "gap-analysis-program" >}})
+- [Security Certifications](../security-compliance/certifications/)
+- [GCF Security Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
+- [GCF Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
+- [User Access Reviews](/handbook/security/security-assurance/security-compliance/access-reviews/)
+- [Observation Methodology](/handbook/security/security-assurance/observation-management-procedure/)
+- [Gap Analysis Program](/handbook/security/security-assurance/security-compliance/gap-analysis-program/)
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

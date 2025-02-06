@@ -3,7 +3,7 @@ title: RM Onboarding
 ---
 
 
-![Global Renewals Organization](images/GitLab_GR_BLK.gif)
+![Global Renewals Organization](/images/customer-success/renewals-managers/GitLab_GR_BLK.gif)
 
 ---
 **Renewals Manager (RM) Onboarding Journey**
@@ -12,13 +12,13 @@ Welcome to GitLab! We are happy to have you join as a Renewals Manager (RM). Thi
 
 **Overview of Role-Based RM Onboarding**
 
-As a RM, your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a [self paced role-based learning path on GitLab University](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/renewals-manager-onboarding-journey), and a hands-on virtual workshop called [Sales Quick Start](/content/handbook/sales/onboarding/) (SQS).  
+As a RM, your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a [self paced role-based learning path on GitLab University](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/renewals-manager-onboarding-journey), and a hands-on virtual workshop called [Sales Quick Start](/handbook/sales/onboarding/) (SQS).
 
 Your role-based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1zAKuWnUUyy4oB741hX2jBL5OZM2Dk5pqA8EwEe0TYLI/edit). Please make a copy of this document and check off items as you complete them.
 
 **Learning Objectives for RM Onboarding**
 
-As a RM, in addition to the [SQS learning objectives](/content/handbook/sales/onboarding/sqs-learning-objectives/), your onboarding is intended to fulfill the following learning objectives:
+As a RM, in addition to the [SQS learning objectives](/handbook/sales/onboarding/sqs-learning-objectives/), your onboarding is intended to fulfill the following learning objectives:
 
 *Module 1 - Renewals Manager Basics*
 
@@ -131,8 +131,8 @@ It is expected that by your 20th working day, you will be assigned to your terri
 
 In addition to onboarding enablement, continuous enablement will be available to you via micro-learning, job aids, just-in-time learning, and webinars.
 
-- [Customer Success Skills Exchange](/content/handbook/sales/training/customer-success-skills-exchange/) is a biweekly webinar for the Customer Success and Solutions Architect teams on various topics
-- [Field Enablement Spotlight](/content/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions take place weekly and cover topics relevant to the field
+- [Customer Success Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/) is a biweekly webinar for the Customer Success and Solutions Architect teams on various topics
+- [Field Enablement Spotlight](/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions take place weekly and cover topics relevant to the field
 - [RM Highspot Page](https://gitlab.highspot.com/items/65831c38686f413428300ccd) serves as a single source of truth for RM content
 
 **Feedback**
@@ -143,7 +143,7 @@ Your feedback on the onboarding process is important to us and we welcome your t
 
 - [RM - New Hire - Onboarding Guide](https://docs.google.com/document/d/1zAKuWnUUyy4oB741hX2jBL5OZM2Dk5pqA8EwEe0TYLI/edit)
 - [Renewals Manager (RM) Onboarding Learning Path](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/renewals-manager-onboarding-journey)
-- [Sales Quick Start (SQS) Handbook Page](/content/handbook/sales/onboarding/)
+- [Sales Quick Start (SQS) Handbook Page](/handbook/sales/onboarding/)
 - [#global-renewals-managers Slack Channel](https://gitlab.enterprise.slack.com/archives/C04JT9WCGUF)
 - [RM Onboarding Feedback](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2407)
 - [RM Highspot Page](https://gitlab.highspot.com/items/65831c38686f413428300ccd)

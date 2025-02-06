@@ -75,7 +75,7 @@ a scan is ran (i.e. within CI, upon registry push, upon git push, etc..) is out 
 1. Update analyzers to prefer injected configuration settings, prioritizing over ENV and defaults
 1. Update analyzers to provide `configuration` used to execute each scan
 1. Generate audit events on configuration profile changes
-1. Create new default role for scan configuration profile modification
+1. Create both a new default and new custom role for scan configuration profile modification
 
 ### Configuration JSON schema
 

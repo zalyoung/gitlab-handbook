@@ -131,7 +131,7 @@ This will help us manage and report progress more effectively using queue manage
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours](/handbook/values/#results). Part of this is the
+because [we measure impact, not activity](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:

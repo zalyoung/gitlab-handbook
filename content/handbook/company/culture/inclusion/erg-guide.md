@@ -30,22 +30,21 @@ There are many types of groups and not all of them meet the criteria of being a 
 
 ## How to Join Current TMRGs and TMAGs Slack Channels
 
-The following groups have completed the process to be an TMRG or TMAG and received formal support as part of the [DIB framework]({{< ref "inclusion#tmrgs---team-member-resource-groups" >}}). Click the signup link (GitLab team members only) to join:
+The following groups have completed the process to be an TMRG or TMAG and received formal support as part of the [DIB framework](/handbook/company/culture/inclusion/#tmrgs---team-member-resource-groups). Click the signup link (GitLab team members only) to join:
 
 Ordered alphabetically to avoid the perception that any TMRG or TMAG is more important than any other.
 
 | **TMRG or TMAG** | **Team Leaders** | **Slack Channel** | **Sign Up** | **Ongoing TMRG or TMAG Agenda** | Executive Sponsor |
 | ------ | ------ | ------ | ------ | ------ |------ |
-| [GitLab API - Asia Pacific Islander]({{< ref "tmrg-gitlab-api" >}}) | [Christopher Wang](https://gitlab.com/cs.wang), [Steve Xu](https://gitlab.com/steve_xu), [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan) | #api-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/api-tmrg) | [API Agenda](https://docs.google.com/document/d/17zJuZlWVg40mPjcybnGlj_mK2f4SEpRdrjq3s3Cseow/edit?usp=sharing) | David Sakamoto |
-| [GitLab Disability and Neurodivergence]({{< ref "erg-gitlab-diversability" >}}) | [Kaitlyn Chappell](https://gitlab.com/kchappell), [James Hebden](https://gitlab.com/jhebden), [Dominique Top](https://gitlab.com.dlectronique) | #disability-and-neurodivergence-tmrg | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | Rob Allen |
-| [Career Enablement](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | [Kristi Piechnik](https://gitlab.com/kpdoespr) and [Amruta Kulkarni](https://gitlab.com/akulks) | #career-enablement-tmag | [Sign up for future meetings with Google Group](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | TBD | Craig Mestel |
-| [GitLab Generational Understanding]({{< ref "tmag-gitlab-generational-understanding" >}}) | Miles Russell, Terri Chu | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC |
+| [GitLab API - Asia Pacific Islander](/handbook/company/culture/inclusion/tmrg-gitlab-api/) | [Christopher Wang](https://gitlab.com/cs.wang), [Steve Xu](https://gitlab.com/steve_xu), [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan) | #api-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/api-tmrg) | [API Agenda](https://docs.google.com/document/d/17zJuZlWVg40mPjcybnGlj_mK2f4SEpRdrjq3s3Cseow/edit?usp=sharing) | Nabitha Rao |
+| [GitLab Disability and Neurodivergence](/handbook/company/culture/inclusion/erg-gitlab-diversability/) | [James Hebden](https://gitlab.com/jhebden), [Dominique Top](https://gitlab.com.dlectronique), [James Moverley](https://gitlab.com/jmoverley) , [Flavia Costa](https://gitlab.com/fccosta) | #disability-and-neurodivergence-tmrg | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | Rob Allen |
+| [GitLab Generational Understanding](/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding/) | Miles Russell, Terri Chu | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC |
 | GitLab Mental Health TMAG | [Yin Yu](https://gitlab.com/yyugitlab), [Matthew Macfarlane](https://gitlab.com/mmacfarlane) | #mental-health-tmag | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/wellness-mental-health) | [Mental Health Agenda](https://docs.google.com/document/d/16YrJ1X5JTsJileqiZc2rmGEwSoxAf0xOmLDOpFuwu_0/edit) | [Lisa Boughner](https://gitlab.com/lboughner) |
-| [Global Voices]({{< ref "tmrg-global-voices" >}}) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/globalvoices/) | TBD | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) |
-| [GitLab Gente]({{< ref "tmrg-gitlab-gente" >}}) | [Pilar Mejia](https://gitlab.com/pmejia), [Romer Gonzalez](https://gitlab.com/romerg), [Samara Souza](https://gitlab.com/samarasouza), [Giuliana Lucchesi](https://gitlab.com/glucchesi)  | #gente | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Gente Agenda](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit) | [Josh Lemos](https://gitlab.com/joshlemos) |
-| [Black @ GitLab]({{< ref "tmrg-gitlab-black" >}}) | [Darren Eastman](https://gitlab.com/DarrenEastman), [Erran Carey](https://gitlab.com/erran), [Madou Coulibaly](https://gitlab.com/madou) | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | [David DeSanto](https://gitlab.com/david) |
-| [GitLab Pride]({{< ref "tmrg-gitlab-pride" >}}) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Andrew Chapman](https://gitlab.com/AndrwChapman) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
-| [GitLab Women]({{< ref "tmrg-gitlab-women" >}}) | [Kyla Gradin Dahl](https://gitlab.com/kyla), [Winnie Chan](https://gitlab.com/wyychan), [Gosia Ksionek](/handbook/company/team/#mksionek) | #women | [Sign up for future meetings (google group)](https://groups.google.com/a/gitlab.com/g/womenstmrg) | [Women Agenda](https://docs.google.com/document/d/1bJ3Y8IVjnssPpRa3IUafdzC0wsJUU6rYCGf-YEiDHeg/edit) | Robin Schulman |
+| [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/globalvoices/) | TBD | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) |
+| [GitLab Gente](/handbook/company/culture/inclusion/tmrg-gitlab-gente/) | [Pilar Mejia](https://gitlab.com/pmejia), [Romer Gonzalez](https://gitlab.com/romerg), [Giuliana Lucchesi](https://gitlab.com/glucchesi)  | #gente | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Gente Agenda](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit) | [Josh Lemos](https://gitlab.com/joshlemos) |
+| [Black @ GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-black/) | [Darren Eastman](https://gitlab.com/DarrenEastman), [Erran Carey](https://gitlab.com/erran), [Madou Coulibaly](https://gitlab.com/madou) | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | [David DeSanto](https://gitlab.com/david) |
+| [GitLab Pride](/handbook/company/culture/inclusion/tmrg-gitlab-pride/) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Andrew Chapman](https://gitlab.com/AndrwChapman) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
+| [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/) | [Winnie Chan](https://gitlab.com/wyychan), [Gosia Ksionek](/handbook/company/team/#mksionek) , [Sara Cuesta](https://gitlab.com/sglad) | #women | [Sign up for future meetings (google group)](https://groups.google.com/a/gitlab.com/g/womenstmrg) | [Women Agenda](https://docs.google.com/document/d/1bJ3Y8IVjnssPpRa3IUafdzC0wsJUU6rYCGf-YEiDHeg/edit) | Robin Schulman |
 | [GitLab Caregivers](tmrg-caregivers.md) | Jackie Porter, Gena Schwam | #caregivers-tmrg | TBA | [Caregivers Agenda](https://docs.google.com/document/d/1taPLNLkVvTayEzySFUU5XKZeSK9tmsK-WELu_Pp14m8/edit?usp=sharing)| Wendy Barnes|
 
 ## Executive Sponsorship
@@ -95,7 +94,7 @@ The [Deloitte 2021 Global Human Capital Trends: Special report](https://www2.del
 
 In the [2021 Edelman Trust research](https://www.edelman.com/sites/g/files/aatuss191/files/2021-03/2021%20Edelman%20Trust%20Barometer.pdf) it shows that it may be very important to customers and investors to know where an organization stands on societal issues. 86% percent of global respondents expect CEOs to publicly speak out about societal challenges, which of course can extend to the wider E-Group.
 
-[2021 Axios-Harris Poll 100](https://theharrispoll.com/partners/media/axios-harrispoll-100/), which ranks US organizations for their reputation in the marketplace, noted that organizations "with a clear point of view and that deliver not only great products but also an impact on society" ranked at the top of the list.
+[2021 Axios-Harris Poll 100](https://www.axios.com/2021/05/13/the-2021-axios-harris-poll-100-reputation-rankings), which ranks US organizations for their reputation in the marketplace, noted that organizations "with a clear point of view and that deliver not only great products but also an impact on society" ranked at the top of the list.
 
 **This shows that the impact on being an awesome Executive Sponsor can and will drive business outcomes!**
 
@@ -139,7 +138,6 @@ In general, TMRGs are an excellent support system and key to providing awareness
 
 - Grow GitLab's business and the company from DIB branding as it's top value which will appeal to customers and attract new team members.
 - Support GitLab values and business goals, including the Company's commitment to foster an inclusive work environment.
-- Support GitLab's diversity initiatives, aspirations and goals.
 - Foster communications between GitLab and its team members.
 - Provide mentoring and educational and professional development opportunities for GitLab team members
 
@@ -203,13 +201,7 @@ All names, because they are visible externally and could compete with other proj
 
 ### Defining your TMRGs or TMAG mission statement
 
-A mission statement is the simplest and clearest way to explain the purpose of your group and how it will achieve its goals. Keep your mission statement short, and use simple terms that everyone understands. Finally, make sure the mission is flexible enough to allow for goals and activities to change over time. Below are some examples of mission statements used by similar groups at other companies:
-
-- Deutsche Bank - Rainbow Group Americas: The DB-Rainbow Group Americas is an organization open to all Deutsche Bank employees to promote an inclusive and productive work environment for gay, lesbian, bisexual, and transgender (GLBT) employees to enhance their professional and personal development in alignment with business objectives.
-- General Mills - Black Champions Network: To champion the growth, development and success of all African American employees while maximizing their contribution to General Mills' goals and objectives.
-- ING - Latino Network: The ING Latino Network fosters its members' development and promotes  cultural awareness within ING's corporate strategies and objectives.
-- Salesforce - Women's Network:  We are dedicated to building gender Equality in the workplace and beyond through empowering, supporting, and investing in our global community for women and their allies. We are the largest Ohana group with 6000+ members across 30+ hubs globally. Our programs include LeanIn Circles, volunteer opportunities, International Women's Day events, Woman of the Month series, mentorship opportunities, children's initiatives, and Women in Technology programs. Our focus is always on improving inclusion and Equality for all on the gender spectrum, to help make Salesforce the best place to work for all.
-- Texas Instruments Incorporated—Chinese Initiative: The mission of the Chinese Initiative is to create a work culture in which all people are valued, empowered, and given opportunities to develop and contribute to their full potential, thereby gaining a competitive advantage for Texas Instruments.
+A mission statement is the simplest and clearest way to explain the purpose of your group and how it will achieve its goals. Keep your mission statement short, and use simple terms that everyone understands. Finally, make sure the mission is flexible enough to allow for goals and activities to change over time.
 
 ### Create a project
 
@@ -260,15 +252,6 @@ An ally is NOT...
 - someone with ready-made answers
 - necessarily a counselor or trained to deal with crisis situations
 expected to proceed with an interaction if levels of comfort or personal safety have been violated
-
-[Adapted from Human Rights Campaign Establishing an Allies/Safe Zone Program, Human Rights Campaign](https://www.hrc.org/resources/establishing-an-allies-safe-zone-program)
-
-Additional resources on how to be an ally:
-
-- [Allyship at GitLab]({{< ref "ally-resources" >}})
-- [Live Learning Ally Training at GitLab](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
-- [Chapter 27. Cultural Competence in a Multicultural World | Section 5. Learning to be an Ally for People from Diverse Gro…Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
-- [Guide to Allyship](https://guidetoallyship.com/#the-work-of-allyship)
 
 ## TMRG or TMAG Leads
 
@@ -455,11 +438,7 @@ You can use this template which is fairly manual or choose your own methods.
 
 ### What to do if you're asked to provide your opinion on behalf of GitLab
 
-There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please contact/notify PR, Talent Brand and the DIB Manager.  Here are some general best practices that we share are helpful for all GitLab team members to know.
-
-- Don't share information that hasn't already been disclosed publicly. This includes retention and turnover rates, associate demographics, compensation trends, hiring plans or numbers, headcount, new products, corporate strategy, and more.
-- If you're asked about our Diversity, Inclusion & Belonging  stats, refer to our [GitLab identity data](/handbook/company/culture/inclusion/identity-data/)
-- Always remember that although we work in transparency, we want to me mindful of GitLab's reputation and brand.
+There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please refer to the [SAFE Framework](/handbook/legal/safe-framework/)
 
 ### TMRG Success measurement (Capturing Data)
 
@@ -510,7 +489,7 @@ Having short terms and long term goals for the TMRG is extremely important in de
 
 - Work with the wider TMRG on the TMRGs priorities
   - Leadership should distill these down into a manageable number of goals
-- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
+- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/a4wo118/smart-goals) to set the goals in a practical way
 - Add these goals to your quarterly strategy issue for the TMRG
 - Assign a working group or DRI/s to the goal
 - Share the goals with your executive sponsor and the wider GitLab team through the Monthly Initiatives Call
@@ -558,10 +537,10 @@ As our finance processes are a use it or lose it policy we want to ensure that i
 
 **Submitting/Approval of Expenses**
 
-Purchases made on behalf of GitLab should follow the [procurement process outlined in the handbook](/handbook/finance/procurement/#--what-is-procurement).
+Purchases made on behalf of GitLab should follow the [procurement process outlined in the handbook](/handbook/finance/procurement/).
 Prior to submitting a Coupa requisition, please adjust the Billing portion of the requisition for each line item by selecting the magnifying glass. Confirm that the expense is coded to Department: G&A: DIB and Class (tag): TMRG. If procurement or The DIB Team are submitting the requisition on your behalf, please give them instructions to make these adjustments. If these changes are not made, then the expense will default to the team member's department and the expense will not align to the TMRG budget.
 
-**Swag-** If the purchase is Swag, please follow the outlined process in the [handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-for-tmrgs).
+**Swag-** If the purchase is Swag, please follow the outlined process in the [handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/).
 
 **Charitable Contributions-** Please follow the [Philanthropy Policy](/handbook/legal/philanthropy-policy/)
 

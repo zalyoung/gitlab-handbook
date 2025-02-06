@@ -334,9 +334,9 @@ The Sr. Director, Professional Services Engagement Management is a [grade 11](/h
 - Lead and mentor a team of Engagement Managers and Managers of Engagement Management focused on Professional Services consultative selling.
 - Foster a culture of high performance, continuous improvement and customer centricity.
 - Set clear goals and objectives for the professional services team and ensure alignment with overall company strategy.
-- Oversee the Professional Services sales motion and ensure positive customer outcomes while meeting contractual obligations. 
-- Create and maintain relationships with Customer executives acting as a senior point of contact for escalations and critical issues. 
-- Ensure client satisfaction and drive client success leading to renewals, upsells and positive referrals. 
+- Oversee the Professional Services sales motion and ensure positive customer outcomes while meeting contractual obligations.
+- Create and maintain relationships with Customer executives acting as a senior point of contact for escalations and critical issues.
+- Ensure client satisfaction and drive client success leading to renewals, upsells and positive referrals.
 - Develop and Execute the Global Services selling strategy, including how to position service offerings and go-to-market plans.
 - Collaborate with sales, product, customer success, and professional services delivery teams to align on client needs and ensure cohesive service delivery.
 - Identify new service opportunities and partner with the delivery function to drive innovation in service delivery to enhance client value and competitive positioning.
@@ -358,7 +358,7 @@ The Sr. Director, Professional Services Engagement Management is a [grade 11](/h
 - Excellent communication and interpersonal skills, with the ability to work effectively with cross-functional teams and senior executives.Demonstrated progressive experience managing, leading and/or delivering professional services
 - Proven experience building and leading a large team with global responsibility, fast-paced, growing company
 - Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
-- Experience managing services sales, sales managers and partner sales executives. 
+- Experience managing services sales, sales managers and partner sales executives.
 - Demonstrated experience building and scaling a professional services business with accountability for financial targets
 - Experienced with software development lifecycle (i.e., SDLC), agile, DevOps, software development tools, technologies (e.g., Docker, Kubernetes), and/or cloud platforms (AWS, GCP, Azure)
 - Ability to be an evangelist for GitLab customers and serve according to GitLab’s values

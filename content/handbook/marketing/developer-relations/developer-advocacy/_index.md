@@ -31,7 +31,6 @@ description: "Developer Advocates build GitLab's technical brand with deep, mean
 - [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
 - [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
 - [<i class="fas fa-project-diagram"></i> Team Projects](/handbook/marketing/developer-relations/developer-advocacy/projects)
-- [<i class="fas fa-toolbox"></i> Team Tools](/handbook/marketing/developer-relations/developer-advocacy/tools/)
 - [<i class="far fa-object-group"></i> OSS Contributions](/handbook/marketing/developer-relations/developer-advocacy/#oss-contributions)
 - [<i class="far fa-edit"></i> Action Template for Announcement Responses](https://docs.google.com/document/d/1Dhe2hFFZCDRK6eLhrfFqa-iz0bFX8gTZ4keoHo5KrtM/edit)
 - [<i class="fas fa-chalkboard-teacher"></i> CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps)
@@ -106,7 +105,7 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [Itzik Gan-Baruch](/handbook/company/team/#iganbaruch) <br/> Staff Developer Advocate | DevSecOps with a focus on CI/CD, Remote Development/IDEs and Value Stream Management | English, Hebrew | [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours), [Click-through demos](/handbook/marketing/developer-relations/developer-advocacy/content/#click-through-demos), [CI/CD components](/handbook/marketing/developer-relations/developer-advocacy/projects/#cicd-components-catalog) |  Remote Development, CI/CD, Value Stream Management |  |
 | [John Coghlan](/handbook/company/team/#john-coghlan) <br/> Director, Developer Advocacy | Strategy and Planning in Developer Advocacy | English | | | [Website](https://coghlan.me/) |
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Staff Developer Advocate | DevSecOps with a focus on  efficiency with AI | English, German, Austrian | [GitLab Duo Adoption](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-adoption), [CI/CD components](/handbook/marketing/developer-relations/developer-advocacy/projects/#cicd-components-catalog) | DevSecOps, AI, CI/CD, Python, Go, C/C++, Rust | [README](/handbook/marketing/readmes/michael-friedrich/), [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/portfolio/) |
-| [William Arias](/handbook/company/team/#warias) <br/> Staff Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish | Support Ticket Sentiment Analysis, Competitive Research, Analyst relations demos, [End-to-end DevSecOps Platform](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure) | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
+| [William Arias](/handbook/company/team/#waarias) <br/> Staff Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish | Support Ticket Sentiment Analysis, Competitive Research, Analyst relations demos, [End-to-end DevSecOps Platform](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure) | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
@@ -124,7 +123,7 @@ Please read the [Content](/handbook/marketing/developer-relations/developer-advo
 
 ### Customer and Community Engagement
 
-Our team regularly engages with GitLab customers and the wider GitLab community. 
+Our team regularly engages with GitLab customers and the wider GitLab community.
 The Developer Advocate team is the DRI for questions and strategy on the platforms below:
 
 <!-- This partially duplicates https://handbook.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
@@ -163,10 +162,6 @@ We build our thought leadership and [distribute our content](/handbook/marketing
 #### Spokespersons
 
 Developer Advocates are subject matter experts (SMEs) in their focus areas, and collaborate with the [Corporate Communications team](/handbook/marketing/corporate-communications/) to provide media coverage in the form of interviews, podcasts, content by-lines, etc. Developer Advocates are [GitLab spokespersons](/handbook/marketing/corporate-communications/#spokesperson-criteria) and are required to take relevant training as determined by the [Corporate Communications team](/handbook/marketing/corporate-communications/).
-
-#### Tools
-
-Our team uses different tools to grow and analyze our thought leadership, automate workflows, and improve written and presentation skills. See [Developer Advocate Tools](/handbook/marketing/developer-relations/developer-advocacy/tools/) for a list of all of those tools.
 
 #### Projects
 

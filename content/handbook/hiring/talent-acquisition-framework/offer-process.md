@@ -68,12 +68,12 @@ A description on what to input into each Offer field in Greenhouse can be found 
 - **Candidate City:** Choose the actual city where the candidate is located, not their locality.
 - **State/Province:** This field is synched with Workday and is only applicable to the US and Canada.
 - **Candidate Country:** This field is synched with Workday. If the candidate is currently living in a different country than where their contract is stating (ie they currently live in Germany and are going to be working in Netherlands), please choose the place they will be working, but let CES know so they can order a background check for the place where they are currently working. Please note that Northern Ireland is part of the United Kingdom, so ask Enablement if you're unsure of what country to list.
-- **Locality:** Use [this link]({{< ref "compensation-calculator#location-factor" >}}) to help you determine your locality. More details on how to select a specific city can be found [here]({{< ref "compensation-calculator#introduction-2" >}}).
+- **Locality:** Use [this link](/handbook/total-rewards/compensation/compensation-calculator/#location-factor) to help you determine your locality. More details on how to select a specific city can be found [here]({{< ref "compensation-calculator#introduction-2" >}}).
 - **Comp Calc Link:** Include a link to the comp calc that you used to determine salary, or outside documentation. If you had an exception, please include a link to that documentation here.
-- **Did this offer require a comp exception?** In this field, you can single or multi-select the following options: `No` comp exception required, `Yes - Base`, `Yes - Equity`, `Yes - Bonus` and/or `Yes - Sign-On`. 
+- **Did this offer require a comp exception?** In this field, you can single or multi-select the following options: `No` comp exception required, `Yes - Base`, `Yes - Equity`, `Yes - Bonus` and/or `Yes - Sign-On`.
 - **Compensation Package:** Tell us what type of offer this is---whether it has a bonus or signing bonus included. This field is used to populate information within the contract itself, so it's important that you select the correct option.
-- **Currency and Annual Salary:** Candidates are paid in local currency. [Click here]({{< ref "compensation#paid-in-your-local-currency" >}}) for a current list of any locations where exceptions can be made if a candidate asks. Annual and monthly salaries should be rounded up or down to the nearest whole currency unit and should always end with a zero (e.g., "50,110.00" or "23,500.00"). Hourly rates should be rounded to the nearest quarter-currency unit (e.g., 11.25/hr.).
-- **Base Salary and Equity Compa-Ratio:** These fields are used to report back to the business and are mandatory. Please use the format `0.00` meaning an offer at 85% of median would be inputted as `0.85`.
+- **Currency and Annual Salary:** Candidates are paid in local currency. [Click here](/handbook/total-rewards/compensation/#paid-in-your-local-currency) for a current list of any locations where exceptions can be made if a candidate asks. Annual and monthly salaries should be rounded up or down to the nearest whole currency unit and should always end with a zero (e.g., "50,110.00" or "23,500.00"). Hourly rates should be rounded to the nearest quarter-currency unit (e.g., 11.25/hr.).
+- **Base Salary and Equity Compa-Ratio:** These mandatory fields are used to report back to the business (except when recording equity compa-ratio for internal offers). Please use the format `0.00` meaning an offer at 85% of median would be inputted as `0.85`.
 - **Are they paid yearly or hourly?:** If the salary is an annual salary, rather than an hourly rate, choose yearly.
 - **Variable Bonus Type:** Choosing this field will add a designated paragraph to your candidate's contract that explains how a commission or director bonus works.
 - **Variable bonus frequency:** This details whether the variable bonus shown is per year, not how it is paid out. All bonus information is calculated per year.
@@ -81,8 +81,8 @@ A description on what to input into each Offer field in Greenhouse can be found 
 - **Signing Currency & Amount:** This is a one-time payment in the same currency as their salary.
 - **Bonus/Variable Percent:** This is a bonus field that specifies what percent of the total salary is bonus. This field will not be used in contracts and is only used for Workday.
 - **References Checked:** This verifies for record whether you have already completed references, or if you've told the candidate that the offer is contingent on positive references as they're still in progress.
-- **Family Relationship:** Use this field to let CES know if there's a family relationship that will require a [Family Member Acknowledgement form]({{< ref "ces-contract-processes#how-to-send-a-family-member-relationship-acknowledgment" >}}).
-- **Signatory Name & Signatory Title:** See [this chart]({{< ref "ces-contract-processes#entity-contract-signatories" >}}) for a list of signatories per country.
+- **Family Relationship:** Use this field to let CES know if there's a family relationship that will require a [Family Member Acknowledgement form](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-send-a-family-member-relationship-acknowledgment).
+- **Signatory Name & Signatory Title:** See [this chart](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) for a list of signatories per country.
 - **Clearances:** If you will be sending a Federal contract, please use these fields to designate if clearances are required in order to complete the job, and what bonus would be given if that is the case.
 - **End Date:** Use for Inc (USA) contractors and interns only.
 - **Entity:** [This]({{< ref "general-and-entity-benefits#entity-benefits" >}}) is a great place to see which entities are currently associated with different countries. If your candidate has a position that includes "Federal" or PubSec" in the title, or you believe they'll be working in government contracts, please discuss with your Hiring Manager if they belong in the Federal entity. If you're not sure, discuss with Legal before CES sends a contract. If the candidate is internal and is moving from a different entity to Federal, or from Federal to a different entity, please send a note to CES that the candidate requires a full contract rather than an LOA.
@@ -162,16 +162,16 @@ Offer details usually include:
 - [Start Date](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) - ensure that the candidates start date is not a no-start date (unless needed for legal reasons) and is at least 10 buisness days from offer acceptance. For PEOs, partner with CES to build in appropriate leadtime.
 - Job Title
 - Salary
-- General and specific [benefits]({{< ref "benefits" >}})
+- General and specific [benefits](/handbook/total-rewards/benefits/)
 - Contract type and [employment type](/handbook/people-group/employment-solutions#team-member-types-at-gitlab)
-- [Onboarding process]({{< ref "general-onboarding#onboarding-at-gitlab" >}})
+- [Onboarding process](/handbook/people-group/general-onboarding/)
 - [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/)
 - [Stock options](/handbook/total-rewards/stock-options/)
-- [Unlimited paid-time-off]({{< ref "paid-time-off" >}})
-- [Incentives]({{< ref "incentives" >}})
+- [Unlimited paid-time-off](/handbook/people-group/paid-time-off/)
+- [Incentives](/handbook/total-rewards/incentives/)
 - [Office equipment/reimbursements](/handbook/finance/spending-company-money/)
 - [Configuring your new laptop](/handbook/it/end-user-services/onboarding-access-requests/#configuring-new-laptops--apple-ids)
-- [Employment Assistance Program]({{< ref "benefits" >}})
+- [Employment Assistance Program](/handbook/total-rewards/benefits/)
 
 ### Sending the Employment Contract/Offer Letter
 

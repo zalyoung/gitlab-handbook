@@ -3,11 +3,12 @@ title: Pricing model
 description: "Most GitLab functionality is and will be available for free in our Free tier. Paid tiers include features targeted for managers, directors, and executives."
 ---
 
-GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
+GitLab's pricing strategy is set by the CEO. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
 
 - Principal Pricing Manager (Sean Hall)
+- Senior Pricing Manager (Sarah DeVries)
 - VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
@@ -171,7 +172,7 @@ When considering tiering, if the feature is geared to be used (not purchased) by
 
 ### Prevent the ability to circumvent tiering
 
-If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/pull) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
+If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/pull/) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
 
 ### Partner integration considerations
 
@@ -277,7 +278,7 @@ The value is in making people more effective, saving time on integrating tools, 
 This should more than pay for the increased price of a tier.
 An analogy would be Apple's iPhone: it is twice as expensive as an average Android phone, and while it doesn't deliver twice as much value, the extra value is worth the extra cost.
 
-As [Stripe documented](https://stripe.com/guides/atlas/business-of-saas#hybrid-sales-approaches): hybrid is hard, because "The most common result of attempting both models simultaneously is that only one of the models receives any traction, and (because these models weave themselves into all operations of the company) it typically strangles the other."
+As [Stripe documented](https://stripe.com/en-ca/guides/atlas/business-of-saas#hybrid-sales-approaches): hybrid is hard, because "The most common result of attempting both models simultaneously is that only one of the models receives any traction, and (because these models weave themselves into all operations of the company) it typically strangles the other."
 
 This hybrid models is how we [bridge the chasm](https://www.worklife.vc/blog/crossing-the-chasm) between self-service and enterprise.
 

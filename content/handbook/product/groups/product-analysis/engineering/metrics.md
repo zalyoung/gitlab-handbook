@@ -25,7 +25,7 @@ To help our teams work better and faster, we track specific metrics that measure
 * Our metrics includes all MRs affecting the product.
 * The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
 
-By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement. 
+By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement.
 
 This section explains four key metrics we use—**Review Time to Merge (RTTM)**, **Reviewer First Engagement Time (RFET)**, **Merge Request Rates (MR Rates)**, and **Mean Time to Merge (MTTM)**. These metrics highlight areas where we’re doing well and where we can improve.
 

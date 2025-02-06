@@ -154,7 +154,7 @@ If you have questions regarding the planned rotation schedule, please ping the [
 
 ### What to wear
 
-You **do not need to dress formally**; business casual clothes are appropriate. For example, Sid wears a button-up with jeans most days. GitLab shirts are acceptable when there aren't any external meetings. Review Sid's calendar to check if there are formal occasions - this may require different clothing. If unsure, please ask the CoS to the CEO in the `#ceo-shadow` Slack channel.
+You **do not need to dress formally**; business casual clothes are appropriate. GitLab shirts are acceptable when there aren't any external meetings. Review the CEO's calendar to check if there are formal occasions - this may require different clothing. If unsure, please ask the CoS to the CEO in the `#ceo-shadow` Slack channel.
 
 ### Pre-Program Tasks
 
@@ -169,7 +169,7 @@ Outgoing shadows are responsible for training incoming shadows. We currently tra
 
 #### Consider creating goals
 
-Consider adding goals for your time as a CEO Shadow, and adding them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/pages/article/smart-goals.htm).
+Consider adding goals for your time as a CEO Shadow, and adding them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/a4wo118/smart-goals).
 
 Making goals will help you reflect upon your overall CEO Shadow experience more easily, and it may help you write a better video or blog post after you complete the program.
 
@@ -177,7 +177,7 @@ For inspiration, here is [an example](https://gitlab.com/nmccorrison/ceo-shadow/
 
 #### Practice your introduction
 
-You will get asked about yourself during the program, and it's important to describe it correctly. So stand in front of a mirror and practice 3 times. The main point is, do *not* say that your role is to "follow Sid around" or "follow the CEO around". The program is for exploring and learning about all the parts of GitLab, and there's where the emphasis should lie. See [CEO Shadow Introductions](#ceo-shadow-introductions) for specifics.
+You will get asked about yourself during the program, and it's important to describe it correctly. So stand in front of a mirror and practice 3 times. The main point is, do *not* say that your role is to "follow the CEO around". The program is for exploring and learning about all the parts of GitLab, and there's where the emphasis should lie. See [CEO Shadow Introductions](#ceo-shadow-introductions) for specifics.
 
 #### Coffee chat with Co-shadow
 
@@ -221,7 +221,7 @@ If you're not familiar with some of the business acronyms, take a bit of time to
 - [Revenue definitions (Internal link)](https://internal.gitlab.com/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue) (Internal link)](https://internal.gitlab.com/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.
 
-**Note:** This list is not meant to be exhaustive and [should not become a glossary]({{< ref "handbook-usage#single-source-of-truth" >}}). While we strive to be handbook first, you may find that we are using acronyms without a clear handbook definition. If you can't find it in the handbook or find a standard definition on Google, ask someone what the acronym means. Not being able to find it could be a sign that we need to do a better job with documentation.
+**Note:** This list is not meant to be exhaustive and [should not become a glossary](/handbook/about/handbook-usage/#single-source-of-truth). While we strive to be handbook first, you may find that we are using acronyms without a clear handbook definition. If you can't find it in the handbook or find a standard definition on Google, ask someone what the acronym means. Not being able to find it could be a sign that we need to do a better job with documentation.
 
 #### Look for values being lived out
 
@@ -272,7 +272,7 @@ Here is the breakdown on when to take notes and do timekeeping:
 | Meeting type                     | Notes?         | Timekeeping?   |
 | -------------------------------- | -------------- | -------------- |
 | 1-1                              | No notes unless requested | No timekeeping unless requested |
-| GitLab Board meetings (e.g Audit Committee, Compensation)              | No notes       | Timekeeping in chat   |
+| GitLab Board meetings (such as Audit Committee, Compensation)              | No notes       | Timekeeping in chat   |
 | 1-1 meetings with a GitLab [Board Member](/handbook/board-meetings/#board-of-directors)      | No notes       | Timekeeping    |
 | Legal meetings outside of Key Reviews/etc. (see [doc](https://docs.google.com/document/d/1vkHile2eHVTEl1S7-qv4eEFDc64ghUSesBfvFNz7qfI/edit) for details) | No notes | Timekeeping    |
 | [Valley Meetings](#valley-meetings)  | No notes       | Timekeeping    |
@@ -284,7 +284,7 @@ Here is the breakdown on when to take notes and do timekeeping:
 
 Assume that you are taking notes in a Google Doc affixed to the meeting invite unless it is explicitly stated not to take notes.
 
-If you're unsure whether or not to take notes, default to take them, ask the CEO before the meeting begins, or ping the [EBAs](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) on Slack via `#ceo-shadow` or `ceo-shadow-private` (depending on the sensitivity of the meeting).
+If you're unsure whether or not to take notes, default to take them, ask the CEO before the meeting begins, or ping the [EBAs](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) on Slack in `#ceo-shadow` or `ceo-shadow-private` (depending on the sensitivity of the meeting).
 
 #### Taking notes
 
@@ -308,7 +308,7 @@ Tips:
 1. If you aren't sure where meeting attendees are in a Google document, click on their face or initials in the upper-right side of the window. Doing this will cause your cursor to jump to wherever their cursor is in the document.
 1. It can be challenging to coordinate with the other shadow on who is taking notes at any point in time. Consider agreeing with the other shadow to "show your hands" in Zoom to indicate that you are not currently taking notes.
 1. Sometimes people will provide some color or context before providing the main point. Consider listening to the first sentence before documenting to ensure you are capturing main points instead of what they are saying verbatim.
-1. Observe how Sid takes notes as a guide to the level of detail and summarization. Consider reviewing Sid's [agenda formatting recommendations](handbook/leadership/1-1/suggested-agenda-format/)  (not only applicable for 1:1s)
+1. Observe how others take notes as a guide to the level of detail and summarization. Consider reviewing the [agenda formatting recommendations](/handbook/leadership/1-1/suggested-agenda-format/) (not only applicable for 1:1s)
 
 #### Keeping time
 
@@ -373,7 +373,7 @@ Share [thanks](/handbook/communication/#say-thanks) in the `#thanks` Slack chann
 
 Immediately following meetings, score the CEO on overall positivity score from 1 to 5. The score should focus on the CEO's presence and reactions during the meeting. The Shadows should put themselves in the shoes of team members who are in attendance. How positive and empowered would they feel after leaving the meeting? Each shadow should give a score for all meetings attended.
 
-If your score for a meeting was below a 5, immediately following the meeting, send Sid a Slack DM with your score and the reasoning.
+If your score for a meeting was below a 5, immediately following the meeting, send the CEO a Slack DM with your score and the reasoning.
 
 If you do not report a score for a meeting, it is assumed that your score is `5`.
 
@@ -407,7 +407,7 @@ Post the MR links in the `#ceo` Slack channel and `@`-reference the CEO so the C
 1. Iterate and complete small tasks as they come up. Clear them out immediately to allow for rapid iteration on more crucial tasks. Communicate updates on these tasks in the `#ceo-shadow` channel.
 1. Go through open issues in the [CEO Shadow tasks project](https://gitlab.com/gitlab-com/ceo-shadow/tasks/-/issues) and work towards closing or creating a subsequent merge request to close out. Communicate updates on these tasks in the `#ceo-shadow` channel.
 1. Compile a report on a subject.
-1. Write a blog post on the public company blog, a recorded reflection of your experience, or a CEO Interview on a topic of your choice. Please see [information about pitching and publishing a blog post](/handbook/marketing/blog/#how-to-suggest-a-blog-post) for information about the publishing process, and be sure to read previous CEO Shadows' blog posts before you start writing to ensure that your post has a new angle. Link this to the table in the [Alumni](#alumni) section. These do not need to be approved by the CEO but he will happily review them if you'd like. The posts should however follow the parameters outlined in the [additional note-taking guidelines](https://docs.google.com/document/d/1vkHile2eHVTEl1S7-qv4eEFDc64ghUSesBfvFNz7qfI/edit). In the event you have any questions about what is okay to share, please reach out to the GitLab Legal team in slack at `#legal` or the Corporate Communications team in `#corpcomms`.
+1. Write a blog post on the public company blog, a recorded reflection of your experience, or a CEO Interview on a topic of your choice. Please see [information about pitching and publishing a blog post](/handbook/marketing/blog/#how-to-suggest-a-blog-post) for information about the publishing process, and be sure to read previous CEO Shadows' blog posts before you start writing to ensure that your post has a new angle. Link this to the table in the [Alumni](#alumni) section. These do not need to be approved by the CEO but they will happily review them if you'd like. The posts should however follow the parameters outlined in the [additional note-taking guidelines](https://docs.google.com/document/d/1vkHile2eHVTEl1S7-qv4eEFDc64ghUSesBfvFNz7qfI/edit). In the event you have any questions about what is okay to share, please reach out to the GitLab Legal team in slack at `#legal` or the Corporate Communications team in `#corpcomms`.
 1. Provide training to the incoming CEO Shadow(s).
 
 #### Handbook MRs
@@ -423,13 +423,13 @@ A tweet storm is a series of X/Twitter posts usually made as replies in a single
 1. If more than one piece of content is covered, use headings to make it easy to jump to each one.
 1. Go through each pieces, noting interesting lines and quotes.
 1. Draft 2-5 tweets for a 30 minute video, and up to 10 tweets for a 1 hour video.
-    1. The first tweet should hook the audience, pose a question, or state how GitLab does something different.
-    1. Attribute any lines that are not spoken by the CEO.
-    1. Consider [looking at the CEO's social media accounts for tone and style](/handbook/ceo/#connecting-on-social-media).
-    1. Each tweet can contain 280 characters, URLs are counted differently. Make sure to test each tweet with the Twitter web form to tweet.
-    1. When you add URLs, use the [card validator](https://cards-dev.twitter.com/validator) to render a preview. This can help to refine the tweet text.
-    1. More message tips can be found in the [Developer Advocacy on Social Media handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips).
-    1. [2021-12-15 example for Chief of Staff videos](https://docs.google.com/document/d/1BL2ZBtqF5fKdQox0p2lde_qv-75rXwYmQNHvKJnUR-8/edit) (internal).
+   1. The first tweet should hook the audience, pose a question, or state how GitLab does something different.
+   1. Attribute any lines that are not spoken by the CEO.
+   1. Consider [looking at the CEO's social media accounts for tone and style](/handbook/ceo/#connecting-on-social-media).
+   1. Each tweet can contain 280 characters, URLs are counted differently. Make sure to test each tweet with the Twitter web form to tweet.
+   1. When you add URLs, use the [card validator](https://cards-dev.twitter.com/validator) to render a preview. This can help to refine the tweet text.
+   1. More message tips can be found in the [Developer Advocacy on Social Media handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips).
+   1. [2021-12-15 example for Chief of Staff videos](https://docs.google.com/document/d/1BL2ZBtqF5fKdQox0p2lde_qv-75rXwYmQNHvKJnUR-8/edit) (internal).
 1. Once complete, change the document's Owner to the [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/).
 
 Tweet storm examples:
@@ -532,7 +532,7 @@ CEO Shadows should join earnings calls via the registration [link open to the pu
 
 #### Earnings Callbacks
 
-CEO Shadows are allowed to join earnings callbacks unless otherwise noted as *no shadows*. CEO Shadows should set their Zoom settings to have **[mute mic when joining](https://support.zoom.us/hc/en-us/articles/203024649-Muting-your-microphone-when-joining-a-meeting)** and **[stop my video when joining a meeting](https://support.zoom.us/hc/en-us/articles/4404456197133-Turning-video-off-when-joining-a-meeting)** for **all callbacks** prior to joining the first callback session.
+CEO Shadows are allowed to join earnings callbacks unless otherwise noted as *no shadows*. CEO Shadows should set their Zoom settings to have **[mute mic when joining](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614)** and **[stop my video when joining a meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062043)** for **all callbacks** prior to joining the first callback session.
 
 ### Removing yourself from personal CEO documents
 
@@ -549,11 +549,11 @@ At the conclusion of the call, the CEO Shadows should remove themselves from doc
 
 ### CEO Shadow introductions
 
-+**Order of introductions:** At the start of meetings, CEO Shadows will introduce themselves. There is no set order for which shadow introduces themselves first. Sometimes one shadow will arrive to the meeting first, and make their introduction as the **first shadow** to speak. During some meetings, Sid may decide the order for CEO Shadow introductions by mentioning one of the CEO Shadows first, usually the CEO Shadow who is completing their last week in the two week program.
++**Order of introductions:** At the start of meetings, CEO Shadows will introduce themselves. There is no set order for which shadow introduces themselves first. Sometimes one shadow will arrive to the meeting first, and make their introduction as the **first shadow** to speak. During some meetings, the CEO may decide the order for CEO Shadow introductions by mentioning one of the CEO Shadows first, usually the CEO Shadow who is completing their last week in the two week program.
 
 It's important to set the correct tone, so please stick to the following introductions verbatim.
 
-When attending [Valley meetings](#valley-meetings) please be sure to omit the portion about your GitLab title. It can cause much confusion if you mention GitLab when Sid is acting in an individual capacity.
+When attending [Valley meetings](#valley-meetings) please be sure to omit the portion about your GitLab title. It can cause much confusion if you mention GitLab when the CEO is acting in an individual capacity.
 
 When attending investor meetings, please introduce yourself and hand it off to the next team member by announcing their name.
 
@@ -574,7 +574,7 @@ Remember, do *not* say that your role is to "follow the CEO around". It's about 
 
 ### Finding meeting recordings
 
-If Sid records a video to the cloud in a meeting it will eventually end up being uploaded to [the Google Drive](https://drive.google.com/drive/folders/0APOeuCQrsm4KUk9PVA) folder. Finding the video will require searching based on the calendar event name and checking the "last modified" date.
+If the CEO records a video to the cloud in a meeting it will eventually end up being uploaded to [the Google Drive](https://drive.google.com/drive/folders/0APOeuCQrsm4KUk9PVA) folder. Finding the video will require searching based on the calendar event name and checking the "last modified" date.
 
 ### Attending in-person events with the CEO
 
@@ -597,24 +597,24 @@ Shadows are encouraged to follow the CEO's activity on various platforms to get 
 
 ### In Slack
 
-Go to the Slack search bar and type "from:@sid" and it will populate the results.
+Go to the Slack search bar and type "from:@bill" and it will populate the results.
 
 ![Slack User Activity](https://about.gitlab.com/images/ceoshadow/slackuseractivity.png)
-Follow Sid's Slack activity to follow his everyday engagements
+Follow a user's Slack activity to follow their everyday engagements
 
 ### In GitLab
 
-This can be seen on the CEO's [GitLab activity log](https://gitlab.com/users/sytses/activity).
+This can be seen on the CEO's [GitLab activity log](https://gitlab.com/users/bill_staples/activity).
 
 ![GitLab Activity Log](https://about.gitlab.com/images/ceoshadow/gitlabactivitylog.png)
-See what issues and MRs Sid is interacting with
+See what issues and MRs the CEO is interacting with
 
 ### On X/Twitter
 
-Check out [Sid's X/Twitter account](https://twitter.com/sytses).
+Check out [the CEO's X/Twitter account](https://twitter.com/bstaples).
 
 ![X/Twitter notification](https://about.gitlab.com/images/ceoshadow/twitternotification.png)
-Sign up for Twitter notifications (Twitter account required) to follow his everyday engagements.
+Sign up for Twitter notifications (Twitter account required) to follow their everyday engagements.
 
 ## Travel & Expenses
 
@@ -622,9 +622,9 @@ Sign up for Twitter notifications (Twitter account required) to follow his every
 
 #### Childcare
 
-Childcare is provided during the active shadowing period and will be reimbursed via an expense report. You must book the childcare yourself and it is advised you reach out far in advance as childcare "drop-ins" can be limited depending on the week. Currently, GitLab doesn't have a ["Backup Care"](https://www.brighthorizons.com/family-solutions/back-up-care) program so you must tell the childcare it is for a "drop-in".
+Childcare is provided during the active shadowing period and will be reimbursed through an expense report. You must book the childcare yourself and it is advised you reach out far in advance as childcare "drop-ins" can be limited depending on the week. Currently, GitLab doesn't have a ["Backup Care"](https://www.brighthorizons.com/family-solutions/back-up-care) program so you must tell the childcare it is for a "drop-in".
 
-If you're traveling for the CEO Shadow Program, depending on your hotel accommodations, finding a nearby daycare is most convenient. Some childcare facilities will require payment at end-of-day or end-of-week via cash/check only so request an invoice/receipt for expense submission purposes.
+If you're traveling for the CEO Shadow Program, depending on your hotel accommodations, finding a nearby daycare is most convenient. Some childcare facilities will require payment at end-of-day or end-of-week using cash/check only so request an invoice/receipt for expense submission purposes.
 
 ### In-person Rotation Expenses
 
@@ -658,7 +658,7 @@ When traveling with the CEO, keep the following in mind:
 
 ## Considerations for other companies starting CEO Shadow Programs
 
-GitLab co-founder and CEO Sid Sijbrandij [answered questions in a YouTube livestream](https://youtu.be/ExG8_bnIAMI) from Sam Altman, as the two discussed considerations for implementing a CEO Shadow Program in other organizations. Key takeaways are documented below.
+GitLab co-founder and creator of GitLab's CEO shadow program, Sid Sijbrandij, [answered questions in a YouTube livestream](https://youtu.be/ExG8_bnIAMI) from Sam Altman, as the two discussed considerations for implementing a CEO Shadow Program in other organizations. Key takeaways are documented below.
 
 1. A CEO should not optimize meetings for Shadows. They are learning by being in the room, either in-person or virtual, and it's OK if the Shadow doesn't fully understand everything.
 1. A well-designed CEO Shadow Program shouldn't burden a CEO; in fact, Shadows should actively make a CEO's day easier by assisting with notes and changing relevant portions of the company handbook upon request.
@@ -774,7 +774,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2021-11-15 | 2021-12-03 | [Sincheol (David) Kim](https://gitlab.com/dskim_gitlab) | Sr. Backend Engineer | |
 | 2021-11-30 | 2021-12-10 | [Amy Qualls](https://gitlab.com/aqualls) | Sr. Technical Writer | |
 | 2021-12-06 | 2021-12-17 | [James Heimbuck](https://gitlab.com/jheimbuck_gl) | Sr. Product Manager | |
-| 2021-12-13<br>2022-01-03 | 2021-12-17<br>2022-01-07 | [Cynthia Ng](https://gitlab.com/cynthia) | Sr. Support Engineer | [CEO Shadow Reflection](https://wp.me/pHQ83-1Id) |
+| 2021-12-13<br>2022-01-03 | 2021-12-17<br>2022-01-07 | [Cynthia Ng](https://gitlab.com/cynthia) | Sr. Support Engineer | [CEO Shadow Reflection](https://cynthiang.ca/2022/01/07/reflection-on-my-ceo-shadow-rotation-at-gitlab/) |
 | 2022-01-10 | 2022-01-21 | [Marshall Cottrell](https://gitlab.com/marshall007) | Strategy and Operations (Technical) | |
 | 2022-01-04 | 2022-01-14 | [Josh Zimmerman](https://gitlab.com/Josh_Zimmerman) | Learning & Development Manager | [What I Learned From Shadowing the CEO of GitLab](https://www.linkedin.com/pulse/what-i-learned-from-shadowing-ceo-gitlab-josh-zimmerman/?trackingId=fNh8oCxzT9uxnuQffP%2Fd1A%3D%3D) |
 | 2022-01-18 | 2022-01-28 | [Cesar Saavedra](https://gitlab.com/csaavedra1) | Sr. Technical Marketing Manager | [Being a GitLab CEO Shadow](https://www.linkedin.com/pulse/being-gitlab-ceo-shadow-cesar-saavedra/?trackingId=y6tHk3NjTLyW1yPhu%2Bm7Zw%3D%3D) |

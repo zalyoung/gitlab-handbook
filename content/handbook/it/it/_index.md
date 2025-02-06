@@ -265,13 +265,6 @@ We use animated movie and theme park references. We are careful to avoid tradema
 |-----------------------------------------------------------------------------|-----------------------------------|
 | [Sarah Pang](/handbook/company/team/#arahpang)                                       | Senior IT Compliance Engineer     |
 
-### IT Security Operations Team {#who-it-security}
-
-| Name                                                                        | Role                              |
-|-----------------------------------------------------------------------------|-----------------------------------|
-| [Adam Huss](/handbook/company/team/#adamhuss)                                        | IT Security Analyst               |
-| [Clayton Shank](/handbook/company/team/#cshankgitlab)                                | Senior IT Security Engineer       |
-
 ### Cross-Department System Owners
 
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") to handle day-to-day management of the tech stack applications that are specific to that department or functional group.

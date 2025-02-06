@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through common configurations for co
 
 In this lab we will analyze more complex merge processes, looking specifically at merge trains and merge conflicts. First, we will start with merge trains.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -74,7 +74,13 @@ The current pipeline should look like this:
         reports:
           junit: junit.xml
 
-    .install deps: &cachedef
+    .cachedef: &cachedef
+      cache:
+        key: $CI_COMMIT_REF_SLUG
+        paths:
+          - node_modules
+        
+    install deps:
       stage: deps
       script:
         - npm install jest-junit
@@ -139,7 +145,7 @@ For the second merge request:
 
 Now that both merge requests have been created:
 
-1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`. 
+1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
 1. Await the completion of your merge requests and verify that they merge successfully.
 

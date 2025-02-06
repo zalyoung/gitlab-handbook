@@ -5,7 +5,7 @@ description: "Learn about the processes that the GitLab Project Management team 
 
 Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of GitLab products and PS
 
-![<PS Delivery Customer Journey Flow - Page 1 (10).png>](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
+![PS Delivery Customer Journey Flow - Page 1 (11)](/images/customer-success/professional-services-engineering/project-mgmt/PS Delivery Customer Journey Flow - Page 1 (11).jpg)
 
 ### SOW Close
 
@@ -15,7 +15,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 ### Project Initiate & Plan
 
 1. After obtaining Legal approval, PS Quote triggers an Epic in GitLab.com around the recently sold Professional Services Project, at the [Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group) level. This _Customer Epic_ is labeled as SOW# + Customer and includes links to relevant Customer & contract information
-1. Once a prosepctive Services deal reaches "Stage 6" (closing) in the PS Customer Journey, the PSOps team refers to the _Customer Epic_ to find the [_"Scheduling Intake" issue_](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads). From this issue, the Resource Scheduling team works to gather the initial information needed to assign the PS Resources (PM, PSE, TA)
+1. Once a prospective Services deal reaches "Stage 6" (closing) in the PS Customer Journey, the PSOps team refers to the _Customer Epic_ to find the [_"Scheduling Intake" issue_](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads). From this issue, the Resource Scheduling team works to gather the initial information needed to assign the PS Resources (PM, PSE, TA)
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
    * The PS Ops team works to ensure all detail in the above template is populated before assigning Delivery resources
@@ -129,7 +129,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 ### Deliver, Train, and Monitor
 
-Please reference the [PSDM (Professional Services Delivery Methodology)](../processes/_index.md) page for more information.
+Please reference the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) page for more information.
 
 *this also includes information on how we track/report on risk and escalated projects (via RAID), internal retrospective guidelines, tracking lessons learned, and capturing Customer and Project wins
 
@@ -161,10 +161,9 @@ Project scope for Professional Services is the outline of the work required to d
         * Resuming work before the CO is signed by the Customer, or the change is captured in writing
 
    3. Work Exception (WE)
-      * A Work Exception is used by a PM when seeking approval for a project to exceed the hours/budget originally allotted. Use the Work Exception issue template to gain approvals from PS leadership. It can be used independently or including a CO.
-      * Ensuring we include labels as a PM is crucial, as this is how we will better track and improve our transition process from Sales to PS.
-
-      [Work Exception Report](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&or%5Blabel_name%5D%5B%5D=WE-product&or%5Blabel_name%5D%5B%5D=WE-ps&or%5Blabel_name%5D%5B%5D=WE-scoping&or%5Blabel_name%5D%5B%5D=WE-time&first_page_size=20) - callouts for reasonings behind additional PS effort without a CO request. This  includes Product challenges, scoping definition misalignment, insufficient PS hours, or other PS related items.
+      * A Work Exception is used by a PM when seeking approval for a project to exceed the hours/budget originally allotted. Navigate to the [PS-Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/?sort=updated_desc&state=opened&first_page_size=100) project, add a new issue and select/follow the Work Exception issue template to gain approvals from PS leadership. It can be used independently or including a CO.
+      * Be sure close out work exception issues at the end of each quarter to assure proper quarterly accounting.
+      * Adding labels & detail within the issue as a PM is crucial, as this is how we will work to improve our internal PS processes.
 
 ### Deploy & Close
 
@@ -201,7 +200,7 @@ Project scope for Professional Services is the outline of the work required to d
 
    4. Internal Project Retrospective
 
-      Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Leads as applicable.  The [internal retrospective](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
+      Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Leads as applicable. Additionally, include a Professional Services Architect when the engagement was custom scoped and there are lessons learned related to that scoping. The [internal retrospective](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
 
       Note: The retrospective runs most effectively when it is prepared in advance, with relevant sections updated throughout the project lifecycle. This ensures the meeting is focused and productive.
 

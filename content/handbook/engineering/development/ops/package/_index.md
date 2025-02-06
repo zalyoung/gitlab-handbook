@@ -421,7 +421,7 @@ When a merge request needs to be reviewed for the experience or for the copy in 
 
 The Package team has a goal of shipping enterprise grade software with a focus on Quality. The team accomplishes this goal with the following practices:
 
-* Following GitLab's [Culture of Quality](/handbook/engineering/quality/#culture-of-quality_) with a focus on being champions for better software design.
+* Following GitLab's [Culture of Quality](/handbook/engineering/development/principles/#quality) with a focus on being champions for better software design.
 
 * Partnering with our [Software Engineer in Test](/job-families/engineering/software-engineer-in-test/) stable counterparts.
 
@@ -455,7 +455,7 @@ A merge request with the following properties:
 
 A Package group member will adopt the community contribution with the following tasks:
 
-* Confirm the community merge request (MR) is properly [triaged](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/). This step includes important labeling for [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification), stage and group and the `Community Contribution` label.
+* Confirm the community merge request (MR) is properly [triaged](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/). This step includes important labeling for [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification), stage and group and the `Community Contribution` label.
 * If the MR addresses an open issue, ensure that the issue is still valid and the description is up to date. Consider [closing the issue](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#lean-toward-closing) and [closing the MR](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership) if it is outdated.
 * Evaluate the review effort and assign it using `package-review-weight::x` labels.
 * Consider reaching out to MR coaches or using the reviewer roulette to leverage support and provide contributors with a smoother and quicker experience.
@@ -562,7 +562,7 @@ When hosting a session, the team member should:
 
 ### Cross-Group Dependencies
 
-Cross-group dependencies may exist as pre-requisites to deliver Package features or bug fixes. Issues to deliver such dependencies are owned by groups that Package depends on, such as [Delivery](/handbook/engineering/infrastructure/team/delivery/) or [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/).
+Cross-group dependencies may exist as pre-requisites to deliver Package features or bug fixes. Issues to deliver such dependencies are owned by groups that Package depends on, such as [Delivery](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) or [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/).
 
 For discoverability, issues that represent cross-group dependencies should be labeled with `package:cross-group-dependency`. If working on one of these issues, Package engineers should ensure that they are labeled correctly.
 

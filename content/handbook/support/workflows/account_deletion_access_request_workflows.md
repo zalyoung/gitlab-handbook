@@ -215,7 +215,7 @@ If the above conditions are not met, respond with the following before closing t
 ##### **Step 2.5:** Verification Passed - Unblock user
 
 1. Ensure that the user has passed the challenge questions and has been properly evaluated.
-1. Proceed to follow the [reinstating a blocked account workflow]({{< ref "reinstating-blocked-accounts#blocked-accounts" >}}). Generally, this means opening a Trust and Safety issue for evaluation.
+1. Proceed to follow the [reinstating a blocked account workflow](/handbook/support/workflows/reinstating-blocked-accounts/#blocked-accounts). Generally, this means opening a Trust and Safety issue for evaluation.
 1. Reply to the user to let them know.
 
 <details>
@@ -416,7 +416,7 @@ Use this workflow for data export request submissions. Note that we can only act
     - [Evaluate answers](/handbook/support/workflows/account_deletion_access_request_workflows#step-2-evaluate)
 1. Only if the user passes account validation, start the process to get them project exports.
    1. If the user cannot sign in, export project using [the UI](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data) or [the API](https://docs.gitlab.com/ee/api/project_import_export.html#schedule-an-export).
-   1. If there are errors, follow [the project exports workflow](/handbook/support/workflows/importing_projects#project-exports). You can also search ZenDesk for examples of past project export tickets from *paid* customers for additional troubleshooting help and ideas.
+   1. If there are errors, follow [the project exports workflow](/handbook/support/workflows/exporting_projects). You can also search ZenDesk for examples of past project export tickets from *paid* customers for additional troubleshooting help and ideas.
 1. Upload the project exports to a new folder in the "Personal Data Requests" shared drive. Share the request specific folder with the user and let them know they should download the files within 7 days.
 1. After 7 days, unshare the request related folder and ask them to confirm they have the files.
 1. Once their issue is resolved, close the issue and apply the `Export Request::complied` label.

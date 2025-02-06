@@ -42,7 +42,7 @@ In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engage
 
 These are documented in a tool that's accessible to the entire organization. Any team member can see any function's OKRs and KPIs for the quarter, reinforcing the [value of transparency](/handbook/values/#transparency).
 
-**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/remote-performance-management) (article)
+**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/performance-management-remote-hybrid-teams) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent measurements" %}}
@@ -55,23 +55,23 @@ These are documented in a tool that's accessible to the entire organization. Any
 **Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
-## Measure results, not hours
+## Measure impact, not activity
 
-Every organizational operational model aims to optimize the efficiency with which teams produce results. But conventionally managed teams make a critical error when they conflate "efficiency" with "speed." Doing so means *time* often becomes the team's highest priority—and *working hours* become a principal success metric for the organization.
+Every organizational operational model aims to optimize the efficiency with which teams produce impact. But conventionally managed teams make a critical error when they conflate "efficiency" with "speed." Doing so means *time* often becomes the team's highest priority—and *working activity* become a principal success metric for the organization.
 
-In organizations powered by TeamOps, team members understand that the root of "productivity" is "to produce," and therefore focus on [executing business results](/handbook/values/#measure-results-not-hours), rather than executing on [presenteeism](https://language.work/research/killing-time-at-work/). TeamOps therefore encourages success measurements based on outputs, not inputs.
+In organizations powered by TeamOps, team members understand that the root of "productivity" is "to produce," and therefore focus on [executing business impact](/handbook/values/#measure-impact-not-activity), rather than executing on [presenteeism](https://language.work/research/killing-time-at-work/). TeamOps therefore encourages success measurements based on outputs, not inputs.
 
 Note that outputs aren't just tangible deliverables. Results include any form of value a team member contributes to the organization's shared reality: helping a teammate, satisfying a customer, shipping code, brainstorming a new idea, writing a revision, or researching a competitor. All quantifiable reports, messages, insights, or submissions are evidence of productivity.
 
-{{% details summary="Examples and resources for measure results, not hours" %}}
+{{% details summary="Examples and resources for measuring impact, not hours" %}}
 **Example:** [Measuring impact of GitLab's 10 year campaign](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507)
 
-Producing the `10 Years of GitLab` integrated marketing campaign and [associated website](https://web.archive.org/web/20240225183113/https://about.gitlab.com/ten/) demanded a cross-functional effort. Working group members established a GitLab issue to explicitly define [elements to be tracked and measured](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507) in order to provide an adequate report of the campaign's overall impact. By focusing on results over hours spent (or if a given team member was online at a certain time, or in a certain office), everyone involved in the project could focus energy on executing the campaign.
+Producing the `10 Years of GitLab` integrated marketing campaign and [associated website](https://web.archive.org/web/20240225183113/https://about.gitlab.com/ten/) demanded a cross-functional effort. Working group members established a GitLab issue to explicitly define [elements to be tracked and measured](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5507) in order to provide an adequate report of the campaign's overall impact. By focusing on impact over activity spent (or if a given team member was online at a certain time, or in a certain office), everyone involved in the project could focus energy on executing the campaign.
 
 **Resource:** [Time is Not a Measure of Productivity](https://nesslabs.com/time-is-not-a-measure-of-productivity) (article)
 {{% /details %}}
 
-{{% details summary="Change management support for measure results, not hours" %}}
+{{% details summary="Change management support for measuring impact, not activity" %}}
 **Quick Start Tips:**
 
 - *Individual:* When writing your daily to do list, note which three tasks are your highest priority, and use the completion of those tasks to measure "a good day's work." Consider shedding or delegating any tasks that don't directly relate to your OKRs.
@@ -109,7 +109,7 @@ Every quarter, GitLab's Workplace team adds new features and enhancements to the
 
 ## Prioritize due dates over scope
 
-TeamOps may not treat [elapsed time as a success measurement](/teamops/measurement-clarity/#measure-results-not-hours), but it does require due dates. Under TeamOps, however, due dates aren't a means of creating unnecessary rigidity or measuring the duration of contributions; they exist to force mechanisms that enable teams to execute on decisions and enforce accountability.
+TeamOps may not treat [elapsed time as a success measurement](/teamops/measurement-clarity/#measure-impact-not-activity), but it does require due dates. Under TeamOps, however, due dates aren't a means of creating unnecessary rigidity or measuring the duration of contributions; they exist to force mechanisms that enable teams to execute on decisions and enforce accountability.
 
 An organization practicing TeamOps will always set a due date and, if necessary in light of changing circumstances, will *cut project scope* to meet that due date rather than *postpone* that date. This encourages teams to think [iteratively](/handbook/values/#iteration), recalculate the scope of current work, and better determine which aspects of a project are best saved for future objectives. Working this way limits loss of momentum.
 
@@ -155,9 +155,9 @@ To optimize the efficacy of delivered feedback, consider how other TeamOps tenet
 {{% details summary="Examples and resources for transparent feedback" %}}
 **Example:** [A member of GitLab's L&D Team Giving Feedback to the CEO](/handbook/people-group/guidance-on-feedback/#guidance-on-giving-and-receiving-feedback)
 
-At GitLab, our mission that [everyone can contribute] even influences our feedback guidelines—suggesting that any team member, at any level, can give feedback to any other team member, at any level. In this video about [Guidance on Giving and Receiving Feedback](/handbook/people-group/guidance-on-feedback/#guidance-on-giving-and-receiving-feedback), the CEO of GitLab, Sid Sijbrandij, discusses this challenge in more detail, and asks for performance feedback from a member of the Learning & Development team.
+At GitLab, our mission that [everyone can contribute](/handbook/company/mission/) even influences our feedback guidelines—suggesting that any team member, at any level, can give feedback to any other team member, at any level.
 
-**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/guide-to-remote-feedback) (playbook)
+**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/giving-remote-feedback-guide) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent feedback" %}}

@@ -19,7 +19,7 @@ In Developer Relations, we align our mission and vision with the company's [thre
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
-Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
+Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
 
 - [Contributor Program Unification & Growth Plan](/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification/)
 - [Co-Creation Initiative](/handbook/marketing/developer-relations/cocreation/)
@@ -41,7 +41,7 @@ Our operational strategy is [documented in our internal handbook](https://intern
 
 Teams within Developer Relations are reachable in these Slack channels:
 
-- [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) team shares content updates, thought leadership & product ideas, and support community responses, meetups, CFPs, etc.
+- [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) team shares content updates, thought leadership & product ideas, and support community responses, CFPs, etc.
 - [#community-programs](https://gitlab.slack.com/archives/C024ZBWK5KJ): for all inquiries regarding [GitLab Community Programs](/handbook/marketing/developer-relations/community-programs/) (EDU/OSS/Startups)
 - [#contributor-success](https://gitlab.slack.com/archives/C02R0NE6P6C): for all inquiries regarding [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 
@@ -69,6 +69,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 ### <i class="far fa-edit fa-fw color-orange font-awesome"></i> Our handbooks
 
 - [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
+  - [Contributors Program](/handbook/marketing/developer-relations/contributors-program/)
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Community Programs](/handbook/marketing/developer-relations/community-programs/)
   - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
@@ -110,6 +111,7 @@ Organization:
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
 - [<i class="fab fa-twitter"></i> Twitter/X](/handbook/marketing/developer-relations/workflows-tools/twitter/)
+- [<i class="fas fa-cloud"></i> Cloud Resources](/handbook/marketing/developer-relations/workflows-tools/cloud-resources/)
 
 #### Community Interest
 
@@ -131,11 +133,11 @@ Our team has a few weekly events that we use to stay connected and aligned on ou
 
 ### <i class="fa fa-calendar fa-fw color-orange font-awesome"></i> Our calendars
 
-We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar)).
+We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the Developer Advocacy team calendar).
 
 - [Developer Relations Team](https://calendar.google.com/calendar/u/0?cid=Y190M2JhY2k5MnFoYnJmYTMyMDdpZHZwdnYwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 - [Community Events](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV85MHQ1dWUxcThrYmpvcTViMHI5MW51N3J2Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [Developer Advocate Team](/handbook/marketing/developer-relations/developer-advocacy/#-calendar)
+- [Developer Advocacy Team](https://calendar.google.com/calendar/u/0?cid=Y183OTMwZmNiMGM5ZTQ3ODNiZGQzZDIzODU4YWU5YWY0MzA2ZjI4ZDk3NmE0MGM4MzNmNTA3MTBjN2NiODZiYTgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 ### Developer Relations OKRs
 
@@ -168,7 +170,7 @@ For each quarterly objective and key results, the Developer Relations team will 
 
 To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=OKR&label_name%5B%5D=Department%3A%3ADeveloper%20Relations&first_page_size=20):
 
-1. Follow the [OKRs in GitLab handbook](/handbook/company/okrs/#how-to-use-gitlab-for-okrs)
+1. Follow the [OKRs in GitLab handbook](/handbook/company/okrs/okrs-in-gitlab/)
 1. Create OKRs, and KR items.
 1. Add the following labels: `Division::Marketing`, `Department::Developer Relations`, `OKR`.
 
@@ -245,7 +247,7 @@ We take inspiration from the great work being done by other communities. Some of
 - [Debian](https://www.debian.org/) - A large, engaged community that act as custodians for important open source technology.
 - [GNOME](https://www.gnome.org/) - A large, engaged community that act as custodians for important open source technology.
 - [KDE](https://kde.org/) - A large, engaged community that act as custodians for important open source technology.
-- [Fedora](https://getfedora.org/) - A large, engaged community that act as custodians for important open source technology.
+- [Fedora](https://fedoraproject.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Drupal](https://www.drupal.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Wikimedia Foundation](https://wikimediafoundation.org/) - This community is a champion for free information with a large, engaged community.
 - [Kubernetes](https://kubernetes.io/) - This community consists of a large network of user groups and champions that serve to help each other grow and better utilize Kubernetes.

@@ -85,7 +85,7 @@ The purpose of creating a new issue for each ancillary event is to better facili
 
 ### Step 3 - Contract Completed - FMM
 
-1. Please reference the Plan to WIP process [here](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
+1. Please reference the Plan to WIP process [here](/handbook/marketing/field-marketing/#slas).
 
 ### Step 3 - Contract Completed- Corporate Event DRI
 
@@ -545,7 +545,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - [Solution Brief - GitLab on AWS](/uploads/74879d7fa7e1919948d9674d6e4be315/source_resources_downloads_GitLab_AWS_Solution_Brief.pdf)
 - [Solution Brief - GitLab on GCP](/uploads/d830cb6d747573e252c5a6520884010a/source_resources_downloads_GitLab_GCP_Solution_Brief.pdf)
 - [A Seismic Shift in Application Security whitepaper](/uploads/fd88f354f9f25bd5a73dab555b26a1dc/gitlab-seismic-shift-in-application-security-whitepaper.pdf)
-- [DevSecOps Solutions Page](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [DevSecOps Solutions Page](https://about.gitlab.com/solutions/security-compliance/)
 - [GitLab — A single application for your entire software development lifecycle](https://www.youtube.com/watch?v=yjxrBSllNGo)
 - [The Benefits of a Single DevOps Platform](https://www.youtube.com/watch?v=MNxkyLrA5Aw)
 
@@ -704,7 +704,7 @@ For all details regarding Field Marketing Swag and Event Assets, please visit th
 
 ## Specifics for Developer Relations
 
-GitLab's Developer Relations team reviews and manages our community events (typically an event with less than 250 attendees that is targetting end users of GitLab) including [Meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups). The [Developer Relations handbook](/handbook/marketing/developer-relations/evangelist-program/#community-events) has additional information on the events the Developer Relations team will support.
+GitLab's Developer Relations team reviews and manages our community events (typically an event with less than 250 attendees that is targetting end users of GitLab). The [Developer Relations handbook](/handbook/marketing/developer-relations/evangelist-program/#community-events) has additional information on the events the Developer Relations team will support.
 
 ## Specifics for Corporate Events
 
@@ -771,7 +771,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
     - Click `Next` at the bottom of the page
     - Fill out QR Code Title & Description
 1. Create your QR code with the following design specs:
-    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color#primary-color-palette)) for the frame color.
+    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color/#primary-color-palette)) for the frame color.
       - This color ensures proper contrast (other brand approved colors can be used, but no need to get fancy with gradients or anything)
     - **QR code:** Select `More Options`.
       - `Code color:` Enter `#171321` for the code color and `#FFFFFF` for the background color.
@@ -780,7 +780,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
     - **Logo:** Select the solid Charcoal tanuki. This tanuki has a transparent background and should be the only logo placed for the center of the QR code.
     - **NOTE:** Keep the design/shape of the QR code within the brand aesthetic (no odd or unorganized shapes).
     - **NOTE:** When placing the QR code into your collateral, the [design team](/handbook/marketing/brand-and-product-marketing/design/) advises that it should be no smaller than 1" x 1" for efficient scanning.
-    - ![QR code styling](/handbook/marketing/events/qr-code-handbook.png)
+    - ![QR code styling](/images/marketing/events/qr-code-handbook.jpg)
 1. Add in URL link to CTA. Example CTAs listed below:
 
     ```text
@@ -899,7 +899,7 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 
 ## How to add events to `about.gitlab.com/events`
 
-In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
+In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events/). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
 
 ## Creating a Marketo Landing Page
 

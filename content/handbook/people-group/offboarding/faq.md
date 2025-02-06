@@ -9,11 +9,11 @@ description: "Common Questions about the Offboarding Process"
 
 Offboarding issues are used for de-provisioning purposes so you, as the team member, do not need to do anything to get it opened or will have any action items within the issue.
 
-The People Connect Team member assigned to your offboarding will create it after you are done working on your last day. The latest it will be is 4pm (local time) on Monday-Thursday or 12pm (local time) on Fridays.
+The People Connect Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
 
 ### When will my access be deactivated?
 
-Your access will be deactivated on your last day at 4pm (local time) on Monday-Thursday or 12pm (local time) on Fridays.
+Your access will be deactivated on your last day at 4pm (local time) on Monday-Friday
 
 ### Can I provide my own update in the Team Member Updates Slack Channel?
 
@@ -99,7 +99,7 @@ Please follow the process as listed on the Expense Handbook [page](/handbook/fin
 ### Other Reimbursements, Refunds or Repurchasements
 
 - Please review our Loan Policy in the [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) if it applies to you. Please also note that in the event that a loan is approved, a legal contract, in accordance to the team member's state, local or federal laws regarding loans and repayment of loans during employment, will be created by the Legal team. It will lay out the complete loan terms, repayment and refunding policy if applicable. If you leave GitLab with any loan balance not yet repaid, it will be refunded to GitLab, if applicable and legally allowed, as laid out in the terms of the original contract and with support from the Payroll team.
-- Please review our [Unpaid Leave]({{< ref "paid-time-off#unpaid-leave-of-absence" >}}) section regarding payments in error.
+- Please review our [Unpaid Leave](/handbook/people-group/paid-time-off/) section regarding payments in error.
 - Please review our policy regarding [Repurchasing Unvested Shares](/handbook/total-rewards/stock-options/#exercising-your-options).
 
 ## Total Rewards - Benefits

@@ -414,7 +414,7 @@ All of the following elements should be coming from the team member who is the e
 
 If these elements aren't provided or necessary, the event imagery will be whatever the current GitLab brand profile default is at the time.
 
-[Check out the LinkedIn Events FAQs provided by LinkedIn here.](https://www.linkedin.com/help/linkedin/answer/118926/linkedin-events-organized-by-pages-faqs?lang=en)
+[Check out the LinkedIn Events FAQs provided by LinkedIn here.](https://www.linkedin.com/help/linkedin/answer/a548521/linkedin-events-organized-by-pages-faqs?lang=en)
 
 ### Non-social team admin access to select social channels
 

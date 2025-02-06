@@ -9,7 +9,7 @@ Navigation is the structure that supports the rest of our experiences. Users rel
 
 Depending on where teams are in their design process different methods and metrics need to be applied. The double diamond framework offers two distinct phases focused on designing things right: Develop/Test and Deliver/Listen. This page provides an overview of metrics to use when evaluating navigation at both of these phases as well as over time once the change has been implemented.
 
-![Double Diamond process model](double_diamond.png)
+![Double Diamond process model](/images/product/ux/ux-research/evaluating-navigation/double_diamond.png)
 
 ### Develop/Test
 

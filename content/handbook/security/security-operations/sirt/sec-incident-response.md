@@ -7,10 +7,10 @@ controlled_document: true
 
 ## Purpose
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
+The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
 /security
 
-Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
+Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/).
 
 ## Scope
 
@@ -42,7 +42,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
     - A security issue is [escalated into an incident](/handbook/security/#reporting-vulnerabilities-and-security-issues ) out of an abudance of caution and to validate any assumptions
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
-    - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
+    - SIRT determines the incident severity and priority based on the following [incident classification](/handbook/security/security-operations/sirt/severity-matrix/) methodology
 1. Containment
     - Prevent the spread of unauthorized or malicious use of the affected system or data
     - Mitigates and eventualy fully remediates the root cause of the incident to prevent further damage or exposure
@@ -74,7 +74,7 @@ Which team members have access to a specific incident is defined on a case to ca
 
 ### Incident Tracking
 
-Security incident investigations are opened in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project will be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/operations/-/blob/main/.gitlab/issue_templates/incident_slack_reported.md?ref_type=heads). To create the incident, the `/security` command in Slack has to be used over manual creation. Please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}) for further detail.
+Security incident investigations are opened in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project will be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/operations/-/blob/main/.gitlab/issue_templates/incident_slack_reported.md?ref_type=heads). To create the incident, the `/security` command in Slack has to be used over manual creation. Please refer to the [Engaging the Security Engineer On-Call page](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) for further detail.
 
 All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/artifacts_handling_sharing/) internal handbook page.
 
@@ -84,7 +84,7 @@ All artifacts from an investigation must be handled per the [Artifact Handling a
 
 Assigning severity to an incident isn't an exact science and it takes some rational concepts mixed with past experiences and gut feelings to decide how bad a situation may be. When considering severity, look at:
 
-- The type of data involved and how it's classified using the [Data Classification Policy]({{< ref "data-classification-standard" >}})
+- The type of data involved and how it's classified using the [Data Classification Policy](/handbook/security/data-classification-standard/)
   - Was this data leaked or disclosed to parties who should not have visibility to it?
   - Has the data been modified in our records? (either confirmed or believed to be)
 - Was a user or service account taken over?
@@ -97,7 +97,7 @@ Assigning severity to an incident isn't an exact science and it takes some ratio
   - How many hosts or services?
 - Has this incident resulted in any hosts or services being unavailable?
 
-To help place the correct severity rating on the incident you are about to submit, please refer to the [Incident Classification]({{< ref "severity-matrix" >}}) page.
+To help place the correct severity rating on the incident you are about to submit, please refer to the [Incident Classification](/handbook/security/security-operations/sirt/severity-matrix/) page.
 
 ### Internal Engagement & Escalation for High-Severity Incidents
 
@@ -145,7 +145,7 @@ The incident response process will move on to a retrospective and lessons learne
 
 ### Internal & External Communication
 
-Our [security incident communication plan]({{< ref "security-incident-communication-plan" >}}) defines the who, what, when, and how of GitLab in notifying internal stakeholders and external customers of security incidents.
+Our [security incident communication plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/) defines the who, what, when, and how of GitLab in notifying internal stakeholders and external customers of security incidents.
 
 ### Engaging Law Enforcement
 
@@ -176,7 +176,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
-- [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
+- [Incident Communications Plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/)
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)
 - [Time-sensitive blog post process](/handbook/marketing/blog/#time-sensitive-posts--instructions)
 - [Marketing rapid response process](/handbook/marketing/#marketing-rapid-response-process)

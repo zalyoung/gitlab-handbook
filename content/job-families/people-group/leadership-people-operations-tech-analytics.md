@@ -61,7 +61,7 @@ The next step is to move to Sr. Director, People Technology & Analytics
 
 The Sr. Director, People Technology reports to VP, People Operations.
 
-#### Sr. Director, People Technology 
+#### Sr. Director, People Technology
 
 The Sr. Director, People Technology is [Job Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -217,7 +217,7 @@ The next step in the VP People Operations, Technology & Team Member Relations jo
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Candidates will have a 50 minute interview with the CPO
 - Then, candidates will be invited to schedule threetwo separate 50 minute interviews; one with the Sr Director of People Success, and one with the Sr Manager of Total Rewards and the Director, People Operations
 - Next, candidates will be invited to schedule 2 separate 50 minute interviews;  VP of IT and the Chief Financial Officer

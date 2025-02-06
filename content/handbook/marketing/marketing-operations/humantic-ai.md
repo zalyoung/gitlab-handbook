@@ -14,11 +14,11 @@ To following along on the project, follow to epic: https://gitlab.com/groups/git
 
 ## Access
 
-Humantic AI will be made available to AMER BDRs and a couple SDRs. The platform is limited to English speakers as personalization in other languages is not currently offered. 
+Humantic AI will be made available to AMER BDRs and a couple SDRs. The platform is limited to English speakers as personalization in other languages is not currently offered.
 
 ## Integrations
 
-1. [Groove](/handbook/marketing/marketing-operations/groove/index.html/) - personalization email copy 
+1. [Groove](/handbook/marketing/marketing-operations/groove/index.html/) - personalization email copy
 2. Google Calendar - personality insights on meeting attendees
 
 ## Support
@@ -28,8 +28,8 @@ You can drop any of your questions or concerns related to Humantic AI to the #mk
 ## Setup Chrome Extension
 
 1. Download the Humantic AI [chrome extension](https://chromewebstore.google.com/detail/humantic-ai/iklikkgplppchknjhfkmkjnnopomaifc?hl=en)
-1. Go to a website that is compatible with Humantic AI, this includes LinkedIn, Google Calendar and Groove. 
-1. Sign in via Google, and allow Humantic to access your Google Account. 
+1. Go to a website that is compatible with Humantic AI, this includes LinkedIn, Google Calendar and Groove.
+1. Sign in via Google, and allow Humantic to access your Google Account.
 
 ## Setup Google Calendar
 
@@ -39,6 +39,8 @@ You can drop any of your questions or concerns related to Humantic AI to the #mk
 4. Sign in via Google account
 
 ## Use Cases by Platform
+
+There are several use case available for Humantic. Humantic AI requires the email address and an active LinkedIn profile to predict the personality type of the prospect.
 
 ### LinkedIn
 
@@ -62,14 +64,36 @@ You can drop any of your questions or concerns related to Humantic AI to the #mk
 
 ### Google Calendar
 
-When Google Calendar is [configured with Humantic AI](/handbook/marketing/marketing-operations/humantic-ai/#setup-google-calendar),you'll receive an email provide buyer and personality insights of all meeting attendees 1hr to 30 min prior to a scheduled meeting.
+When Google Calendar is [configured with Humantic AI](/handbook/marketing/marketing-operations/humantic-ai/#setup-google-calendar), you'll receive an email provide buyer and personality insights of all meeting attendees 1hr to 30 min prior to a scheduled meeting.
 
 ### Groove
 
+#### Groove Actions
+
 1. Go to the Action page.
 1. Pick a prospect with an email action.
-1. Click on the arrow on icon.
-1. When the email editor will pop up, click on the yellow button: `Personalize` to customize your email copy based on the prospect's personality type, then send.
+1. Click on the action icon and make sure the Groove omnibar is open.
+1. Check on the Humantic AI chrome browser for their personality details.
+1. When you are ready, select the `Personalize` button on the bottom left of the email editor.
+1. Click on the check mark to accept the personalize email copy.
+1. Edit the copy as needed.
+1. And send!
+
+#### Groove Flows via Groove Home Page
+
+1. On the Home page, go to flows with actions due
+1. Under the Flows overview, there will be X number of due, select the blue email icon.
+1. Open the Groove omnibar, then select the prospect you’d like to action ( This step is essential. If the editor opens before the Groove omnibar, Humantic won’t run as it depends on the omnibar for person identification)
+1. Input your Write for Me text, then select the `Personalize` button!
+1. Make edit as necessary and send!
+
+#### Groove Omnibar via Salesforce Classic
+
+1. Go to a Lead or Contact in Salesforce Classic.
+1. Open the Groove omnibar, then go to Groove tab.
+1. Add prospect to a flow, then open the actions.
+1. Input your Write for Me text, then select the `Personalize` button!
+1. Make edit as necessary and send!
 
 ## DISC Selling
 

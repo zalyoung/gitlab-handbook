@@ -15,17 +15,16 @@ The [central data team](/handbook/enterprise-data/) serves as the hub for all of
 
 ## FACE Teams: what functional analytics teams are participating?
 
-|  **Team Name** | **Lead(s)** |
-| :--------------- | :----------------- |
-| [Product Data Insights](/handbook/product/groups/product-analysis/) | Carolyn Braza |
-| [Marketing Analytics](/handbook/marketing/strategy-performance/) | Jerome Ahye |
-| [Self-Service & Online Sales](/handbook/sales/self-service/) | Max Fleisher |
-| [Sales Analytics](/handbook/sales/field-operations/sales-strategy/) | Melia Vilain & Noel Figuera |
-| Customer Success Analytics | Michael Arntz |
-| Digital Experience | Dennis Charukulvanich  |
-| [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/) | Adrian Perez |
-| [Central Data Team](/handbook/enterprise-data/) | Israel Weeks & Jong Lee |
-| [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/) | Cynan de Leon |
+| **Team Name**                                                                                                       | **Lead(s)**                 |
+|:--------------------------------------------------------------------------------------------------------------------|:----------------------------|
+| [Product Data Insights](/handbook/product/groups/product-analysis/)                                                 | Carolyn Braza               |
+| [Marketing Analytics](/handbook/marketing/strategy-performance/)                                                    | Jerome Ahye                 |
+| [Self-Service & Online Sales](/handbook/sales/self-service/)                                                        | Max Fleisher                |
+| [Sales Analytics](/handbook/sales/field-operations/sales-strategy/)                                                 | Melia Vilain & Noel Figuera |
+| Customer Success Analytics                                                                                          | Michael Arntz               |
+| Digital Experience                                                                                                  | Dennis Charukulvanich       |
+| [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/)                              | Adrian Perez                |
+| [Central Data Team](/handbook/enterprise-data/)                                                                     | Israel Weeks & Jong Lee     |
 
 ## Objectives of the FACE
 

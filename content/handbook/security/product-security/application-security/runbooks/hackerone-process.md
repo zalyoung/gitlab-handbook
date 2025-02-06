@@ -12,6 +12,13 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 - `H1 Triage` are reports being triaged by the HackerOne triage team
 - `Pending Disclosure` are reports that should be reviewed and disclosed
 
+## Guiding principles
+
+- When the `GitLab Team` queue is empty, regularly check that the `H1 Triage` queue doesn't contain reports that are rated as `Critical` or `High`. If there are such rated reports, evaluate if they are indeed `Critical` or `High`, and if so handle them directly without waiting on `H1 Triage`.
+  - Generally speaking it's a good practice to keep an eye on the `H1 Triage` and `New` queues to look for `Criticals` and `Highs`.
+- The AppSec engineer on rotation should make every effort to ensure that _all_ H1 reports that are assigned to `GitLab Team` within their triage week are both assigned (to themselves) and properly triaged.
+  - If a report wasn't re-assigned to the person on rotation, the next person on rotation can freely assign it to them.
+
 ## GitLab Team On-boarding
 
 - New members of the GitLab security team are granted access to the GitLab HackerOne team via an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
@@ -40,7 +47,7 @@ report to themselves immediately.
 if it is a duplicate or related to another report you are familiar with, just
 be sure to get it reassigned if you won't be able to meet the estimated triage time.
 - When starting a triage work cycle, team members should prioritize as follows:
-  1. Identify, triage, and [escalate any New severity::1/priority::1]({{< ref "handling-s1p1" >}}) issues first, from any queue.
+  1. Identify, triage, and [escalate any New severity::1/priority::1](/handbook/security/product-security/application-security/runbooks/handling-s1p1/) issues first, from any queue.
   1. Close duplicate and invalid reports.
   1. Triage further using Sort by "Oldest" reports.
   1. Triage the `GitLab Team` queue.
@@ -91,8 +98,8 @@ the responsible engineering team:
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
   - On the imported GitLab issue:
     - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
-    - Assign the appropriate [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
-    - Have a proper [`How to reproduce`]({{< ref "engaging-with-security#reproducibility-on-security-issues" >}}) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
+    - Assign the appropriate [Due Date](/handbook/security/engaging-with-security/#due-date-on-security-issues)
+    - Have a proper [`How to reproduce`](/handbook/security/engaging-with-security/#reproducibility-on-security-issues) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
     - If the report is a security-related documentation change, add the `~documentation` label
     - @-mention the product manager and engineering manager based on the [product categories page](/handbook/product/categories/). Ask for engineering feedback if it is required to complete the triage
     - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
@@ -106,6 +113,7 @@ the responsible engineering team:
     - In the comment, include link to the confidential issue
   - Update the CVE issue and Bug Bounty Council note with relevant details, while they are still fresh in your mind
     - If the CVSS score is higher on GitLab.com than self-managed, calculate both scores and share them in the Bug Bounty Council issue. If the council agrees that security impact is higher on GitLab.com than self-managed, bounty award will be based on the CVSS for GitLab.com. The CVE and security release blog post will always use the self-managed CVSS.
+    - Consider using the "Public description" field in the bug bounty council note. You can use the Duo-generated Public description that was created automatically if it is relevant and does not reveal too many details. This field will be picked up by the [cve description update automation](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/security-release-tools/-/blob/master/scripts/cve_description_update.rb) and used as the CVE description if present.
   - If you relied on the HackerOne Triage Team's validation of the issue, consider setting time in your calendar to validate it yourself. This will help if you need to validate the fix later.
   - If full impact is needed to be assessed against GitLab infrastructure, instead of testing in https://gitlab.com, use https://staging.gitlab.com/help to sign in with your GitLab email account
     - If multiple users are needed, use credentials for users `gitlab-qa-user*` stored in 1password Team Vault to access the staging environment
@@ -116,7 +124,7 @@ the responsible engineering team:
 
 Typically, each HackerOne report discloses a single vulnerability. However, sometimes a single report uses two or more newly discovered vulnerabilities chained together for increased impact.
 
-When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability *and* an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
+When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability _and_ an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
 
 The CVSS of each individual vulnerability will be used for the CVEs issued for each vulnerability. The "vulnerability chaining" CVSS will be used to determine bounty award for the report.
 
@@ -221,7 +229,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 
 Sometimes researchers will report a vulnerability in features behind a [feature flag](https://docs.gitlab.com/ee/operations/feature_flags.html). These reports are excellent as they allow us to patch vulnerabilities prior to them affecting our wider audience that utilizes the default settings. These reports are eligible for the full amount of their calculated bounty.
 
-Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
+Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - _**"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."**_.
 
 - A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs.
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
@@ -316,12 +324,12 @@ disclosure requests using the `08 - Canceled Disclosure Message`
 template. Reporters should instead consider [opening a public GitLab issue](https://about.gitlab.com/submit-feedback/)
 as this is the best way to raise and address non-vulnerability issues.
 
-If a researcher *insists* on disclosure via HackerOne we should agree to
+If a researcher _insists_ on disclosure via HackerOne we should agree to
 disclose it regardless of quality unless there is a good reason not to.
 
 ## Application Security Engineer Procedures for severity::1/priority::1 Issues
 
-Please see [Handling severity::1/priority::1 Issues]({{< ref "handling-s1p1" >}})
+Please see [Handling severity::1/priority::1 Issues](/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
 
 ## Closing reports as Informative, Not Applicable, or Spam
 
