@@ -19,8 +19,7 @@ Note when viewing a deployment failure from the `#announcements` Slack channel, 
 
 Click on the diagram below to visit the announcement issue for more context and view an uncompressed image:
 
-[![Pipeline Reorder](/images/engineering/infrastructure/test-platform/debugging-qa-test-failures/deployment-pipeline-and-e2e-tests.png "pipeline diagram")](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2280)
-
+[![Pipeline Reorder](/static/images/engineering/infrastructure-platforms/developer-experience/test-governance/debugging-end-to-end-test-failures/deployment-pipeline-and-e2e-tests.png "pipeline diagram")](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2280)
 Note the diagram has been updated as part of increasing rollback availability by removing the [blocking nature of post-deployment migrations](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/585).
 
 ### Staging Ref
