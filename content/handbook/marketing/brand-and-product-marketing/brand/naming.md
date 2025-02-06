@@ -64,13 +64,13 @@ Please note that complex naming projects (e.g. major product launch) may require
 It may be helpful to see how other naming projects at GitLab have come to life. Take a look at these recent examples:
 
 - **The Source**
-     - [Naming brief](https://docs.google.com/document/d/1wZKGjAueJgZ0_yrYtV_UINAaIhdno27kuD2ydc3_jK8/edit?usp=sharing)
-     - [Brainstorm doc](https://docs.google.com/document/d/13cH4bJ0dsfQB2Y1ZxshnrELzdLKjsf3mC6JyRxV8bxA/edit?usp=sharing)
-     - [Recommendation](https://docs.google.com/presentation/d/1p3XH-UKSx_Zb1nGd4Wq-ANbeLIBSxfzXiOAvW_7CjQw/edit?usp=sharing)
+  - [Naming brief](https://docs.google.com/document/d/1wZKGjAueJgZ0_yrYtV_UINAaIhdno27kuD2ydc3_jK8/edit?usp=sharing)
+  - [Brainstorm doc](https://docs.google.com/document/d/13cH4bJ0dsfQB2Y1ZxshnrELzdLKjsf3mC6JyRxV8bxA/edit?usp=sharing)
+  - [Recommendation](https://docs.google.com/presentation/d/1p3XH-UKSx_Zb1nGd4Wq-ANbeLIBSxfzXiOAvW_7CjQw/edit?usp=sharing)
 - **GitLab Duo with Amazon Q**
-     - [Naming brief](https://docs.google.com/document/d/1qbXbT07CdXKG1YJ9h3PHiDWYLePFbNySlfL3xcGIJNY/edit?usp=sharing)
-     - [Brainstorm doc](https://docs.google.com/document/d/17vQeXHftgYwY1amTP7UZMe5X1d9Ov7EY7b87umXffJw/edit?usp=sharing)
-     - [Recommendation](https://docs.google.com/document/d/18t0umite-_Jyqs0OhL6VhNi7K-93LBRTvJMrUIWCtvE/edit?usp=sharing)
+  - [Naming brief](https://docs.google.com/document/d/1qbXbT07CdXKG1YJ9h3PHiDWYLePFbNySlfL3xcGIJNY/edit?usp=sharing)
+  - [Brainstorm doc](https://docs.google.com/document/d/17vQeXHftgYwY1amTP7UZMe5X1d9Ov7EY7b87umXffJw/edit?usp=sharing)
+  - [Recommendation](https://docs.google.com/document/d/18t0umite-_Jyqs0OhL6VhNi7K-93LBRTvJMrUIWCtvE/edit?usp=sharing)
 
 ### Naming tips and tricks 
 
