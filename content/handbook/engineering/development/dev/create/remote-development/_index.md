@@ -63,16 +63,6 @@ Please use the confidential issues below to capture all customer engagements for
 
 These epics are meant for internal team members only. If you are a user wanting to provide feedback, see [Capturing User Feedback](#️-capturing-user-feedback).
 
-At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to colloborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
-
-Labels to be added
-- Web IDE - `"Category:Web IDE" "Customer Collaboration"`
-- Workspaces - `"Category:Workspaces" "Customer Collaboration"`
-
-You can find the customer collaboration issues dashboard for the feature categories:
-- [Web IDE]()
-- [Workspaces]()
-
 ### 🗣️ Capturing User Feedback
 
 We highly value user feedback! Please use the epics below to capture feedback and insights for the two feature categories:
@@ -81,6 +71,16 @@ We highly value user feedback! Please use the epics below to capture feedback an
 - [Workspaces User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/12601)
 
 For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue.
+
+### 🤝 Customer Collaboration Issues Dashboard
+
+At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to colloborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
+
+Labels to be added
+- Workspaces - `/label ~"Category:Workspaces" ~"Customer Collaboration"`
+
+You can find the customer collaboration issues dashboard for the feature categories:
+- [Workspaces](https://gitlab.com/gitlab-org/gitlab/-/issues/517442)
 
 ### Group Metrics Dashboards
 
