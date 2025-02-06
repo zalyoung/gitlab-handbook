@@ -65,9 +65,9 @@ Simplify and automate GitLab's translation pipeline with its translation vendors
 
 ### Future Goals
 
-- Ability to configure translation schedule based on team needs and vendor's availability,
-- Create a robust error handling and automated quality checks for file formats,
-- Set up automated QA checks for common localization issues,
+- Ability to create translation requests from within Argo by selecting the files manually, and then automate to run on a schedule.
+- Create a robust error handling and automated quality checks for file formats.
+- Set up automated QA checks for common localization issues.
 - Establish monitoring for translation consistency and set up automated testing procedures.
 
 <a id="proposal"></a>
@@ -133,7 +133,7 @@ It should be noted here that the database will never contain any sensitive data.
 - We will likely expand the tool for a cadence based translation instead where the application doing a periodic check and not relying on events - thus expanding on the number of events stored,
 - Currently an engineer verifies the MRs before merging them to the target repository. If we add features on the tool to likely expand on merge automation, we may likely include more logging information to troubleshoot success/failures.
 
-Note: Any data stored in the database in [Phase 1](#phase1) will be deleted from Spartan's environment, once the infrastructure moves to [Phase 2](#phase2) under GitLab.
+Note: Any data stored in the database in *Phase 1* (see below) will be deleted from Spartan's environment, once the infrastructure moves to *Phase 2* (see below) under GitLab.
 
 ## Design and implementation details
 
@@ -148,7 +148,7 @@ Note: Any data stored in the database in [Phase 1](#phase1) will be deleted from
 - Whenever translation has completed on file(s) associated in the Request, [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25") attempts to commit the file(s) back to GitLab.
 - An engineer reviews the commits of the Merge Request created by [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25"), approves them, and get the files merged to the repository.
 
-![tool-pipeline-diagram](/static/images/engineering/architecture/design-documents/gitlab_translation_service/tool-pipeline-diagram.png)
+![tool-pipeline-diagram](/images/engineering/architecture/design-documents/gitlab_translation_service/tool-pipeline-diagram.png)*Overall view of the API interactions*
 
 **And the scope of actions**
 
@@ -173,7 +173,7 @@ For **Argo**, the integration is protected by hosting them on the same instance 
 
 The application is event driven. The application remains dormant until either GitLab or [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25") send in an HTTP Request to the application. The application will then handle the event and perform, sometimes quite complex, operations.
 
-![high-level-architecture](/static/images/engineering/architecture/design-documents/gitlab_translation_service/high-level-architecture.png)
+![high-level-architecture](/images/engineering/architecture/design-documents/gitlab_translation_service/high-level-architecture.png)*High Level Architecture*
 
 #### Event preprocessing
 
@@ -187,7 +187,7 @@ Quick checks and handling for large volumes of HTTP Requests before putting them
 3. **(**[**Argo**](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25")\*\* Event)\*\* _`ArgoStepService`_ will take the event and just add it to the queue
    - **Purpose**: All Argo events are relevant so this has no use, but if in the future we need to do preprocessing like with the GitLab events, then this serves as a convenient place to do so
 
-![queue-service-in-depth](/static/images/engineering/architecture/design-documents/gitlab_translation_service/queue-service-in-depth.png)
+![queue-service-in-depth](/images/engineering/architecture/design-documents/gitlab_translation_service/queue-service-in-depth.png)*An in-depth diagram of Queue Service*
 
 <a id="argocontroller"></a>
 
@@ -255,7 +255,7 @@ The system maintains event status in the database with the following states:
    - This depends on the translation MR and the contents of the changed files in the MR.
 3. Get the contents of those files
 4. Create the Argo Request for those files
-5. Add [cards](#card) and allocate assets in the Request
+5. Add *cards* (see definition below) and allocate assets in the Request
    - Purpose: Provide additional data like links, and organize the Schedule so it’s ready to launch, or can be auto launched.
    - If any exception happens, delete the Argo Request so it’s not incomplete.
 
