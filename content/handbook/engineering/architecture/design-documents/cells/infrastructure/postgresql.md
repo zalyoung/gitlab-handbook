@@ -227,6 +227,7 @@ The target of Cells [Cells 1.0] (../iterations/cells-1.0.md) is to deliver a sol
   - How to integrate [CloudSQL query insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) into our Monitoring tools?
   - How to export PostgreSQL logs into Elastic?
 - Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
+- [Configure and validate SSL/TLS certificates](https://cloud.google.com/sql/docs/postgres/configure-ssl-instance) to ensure PostgreSQL connections are encrypted.
 
 ##### Cells 1.5 (Future Considerations & Enhancements)
 
