@@ -223,6 +223,7 @@ If involving the Dedicated team becomes necessary:
 
 1. Note initial findings in [a `new-incident` issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/new?issuable_template=new-incident).
 1. Follow the [Dedicated on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#escalating-to-an-on-call-person).
+1. Set clear timeframes for the next investigation update with the customer. Our investigation process is transparent to customers and their stakeholders, making regular updates essential. Base the initial timeframe on the reported impact, and adjust it as the investigation progresses and we determine the actual scope. Setting clear expectations about update timing helps maintain customer trust throughout the process.
 
 #### Engaging the GitLab Dedicated CMOC
 
