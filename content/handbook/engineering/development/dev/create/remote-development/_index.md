@@ -74,7 +74,7 @@ For non-team members, feel free to create issues in these epics if you have gene
 
 ### 🤝 Customer Collaboration Issues Dashboard
 
-At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to colloborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
+At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to collaborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
 
 Labels to be added
 - Workspaces - `/label ~"Category:Workspaces" ~"Customer Collaboration"`
