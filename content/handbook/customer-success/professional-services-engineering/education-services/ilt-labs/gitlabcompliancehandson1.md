@@ -11,7 +11,17 @@ Learners will review the different roles and user permissions in their GitLab pr
 
 ## Task A. Overview of separation of privileges
 
-1. Navigate to your ILT instance group.
+1. After redeeming your invitation code, login with the provided username and password.
+
+1. Select **Create a project**.
+
+1. Select **Create blank project**.
+
+1. For the **Project name**, enter `Compliance project`. 
+
+1. Leave all other as default and select **Create project**.
+
+1. Using the breadcrumbs at the top of the page, select the option starting with `My Test Group` to navigate to your ILT instance group.
 
 1. In the left sidebar select **Manage > Members**.
 
@@ -25,7 +35,7 @@ Learners will review the different roles and user permissions in their GitLab pr
 
 1. In the breadcrumb, select your session group, starting with `Session`.
 
-1. Expand **Secure** in the left sidebar. Note that you do not have the ability to create or manage policies at this level, as you do not have proper permissions for this group.
+1. Note that you do not have the ability to create or manage policies at this level, as you do not have proper permissions for this group.
 
 ## Lab Guide Complete
 

@@ -11,13 +11,7 @@ Learners will run a few actions in GitLab that show up in the compliance center 
 
 ## Task A. Creating Compliance Center Events
 
-1. In your Group, `My Test Group - (username)`, select **Create a project**.
-
-1. Select **Create blank project**.
-
-1. For the **Project name**, enter `Compliance project`. 
-
-1. Leave all other as default and select **Create project**.
+1. Navigate to your `Compliance Project` project.
 
 1. In the left sidebar, select **Secure > Compliance center**.
 
