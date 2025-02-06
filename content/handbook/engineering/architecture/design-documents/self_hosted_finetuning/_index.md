@@ -36,7 +36,7 @@ This, together with the overall expectation that an average customer would be li
 
 ## Goal
 
-Enable lightweight and efficient model customization for Gitlab Duo Self-hosted customers.
+Enable lightweight and efficient model fine-tuning for Gitlab Duo Self-hosted customers.
 
 ## Non-goals
 
@@ -52,11 +52,12 @@ In this section, we propose a solution that addresses the challenges presented i
 
 ### PEFT and light-weight adapters
 
-One of the possible solutions to achieve lightweight and quick finetuning is PEFT techniques, such as adapters.
+One of the possible solutions to achieve lightweight and quick fine-tuning involves using PEFT techniques, such as adapters.
 
 #### What is an adapter?
 
-Adapter-based methods add extra trainable parameters to the existing (base) model's layers. The base model weights stay frozen, while the new additional weights are trained on a new dataset. In the case of Code Suggestions, the dataset could be the customer's codebase or any other suitable data. One of the most widely used adapter-based methods is Low-Rank Adaptation (LoRA). In a nutshell, LoRA uses small rank matrices that are combined with the original model's weights. These small new weights are stored separately and are magnitude smaller in size than the weights of a base model. During the inference, the new weights are combined with the base model weights, allowing us to simultaneously host 1 base model and multiple different task-specific LoRAs.
+Adapter-based methods add extra trainable parameters to the existing (base) model's layers. The base model weights stay frozen, while the new additional weights are trained on a new dataset. In the case of Code Suggestions, the dataset could be the customer's codebase or any other suitable data. One of the most widely used adapter-based methods is Low-Rank Adaptation (LoRA). In a nutshell, LoRA uses small rank matrices that are combined with the original model's weights. These small new weights are stored separately and are a magnitude smaller in size than the weights of a base model. During the inference, the new weights are combined with the base model weights, allowing us to simultaneously host one base model and multiple different task-specific LoRAs.
+``
 
 #### Advantages and Limitations
 
@@ -230,5 +231,5 @@ Finetuning a smaller model might be a suitable approach, as the time and hardwar
 **RAG.**
 RAG is another popular approach that allows the model to stay up to date with the ever-changing codebase. In the future, it would be fruitful to explore RAG and finetuning as a combined solution.
 
-**Human-feedback (RLHF).**
-Human feedback could be used together with reinforcement learning (RLHF) to tune the model to the user's needs. For example, was this suggestion accepted or not? This is a type of feedback we could utilize here.
+**Reinforcement Learning from Human Feedback (RLHF).**
+Human feedback could be used toHuman feedback could be used together with reinforcement learning (RLHF) to further fine-tune the model to the user's needs. For example, whether a suggestion was accepted or rejected can serve as valuable domain-specific feedback data to then further customize the model's fine-tuning process.
