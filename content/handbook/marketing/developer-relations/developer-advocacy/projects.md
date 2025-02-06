@@ -39,9 +39,9 @@ Use cases overview:
 | [use-cases/ai/learn-with-ai](https://gitlab.com/gitlab-da/use-cases/ai/learn-with-ai) | @dnsmichi @sugaroverflow | Learning a programming language with GitLab Duo (AI), [blog series](https://about.gitlab.com/blog/categories/ai-ml/) |
 | [use-cases/ai/test-ai](https://gitlab.com/gitlab-da/use-cases/ai/test-ai) | all | Test playground for AI and GitLab Duo |
 | [use-cases/cicd-components-catalog](https://gitlab.com/gitlab-da/use-cases/cicd-components-catalog) |  @iganbaruch | GitLab CI/CD Components Catalog use cases |
-| [use-cases/code-experiments](https://gitlab.com/gitlab-da/use-cases/code-experiments) |  @warias @csaavedra1  | Code experiments with automation and quality assessments |
+| [use-cases/code-experiments](https://gitlab.com/gitlab-da/use-cases/code-experiments) |  @waarias @csaavedra1  | Code experiments with automation and quality assessments |
 | [use-cases/coverage-reports](https://gitlab.com/gitlab-da/use-cases/coverage-reports) | all | Code coverage reports examples |
-| [use-cases/devsecops-platform](https://gitlab.com/gitlab-da/use-cases/devsecops-platform) | @warias | End-to-end DevSecOps platform demo environment |
+| [use-cases/devsecops-platform](https://gitlab.com/gitlab-da/use-cases/devsecops-platform) | @waarias | End-to-end DevSecOps platform demo environment |
 | [use-cases/efficiency](https://gitlab.com/gitlab-da/use-cases/efficiency) | @dnsmichi | Efficiency use cases (CI/CD, container images, workflows, CLI, etc.) |
 | [use-cases/gitlab-api](https://gitlab.com/gitlab-da/use-cases/gitlab-api) | @dnsmichi | GitLab API use cases with libraries and scripts |
 | [use-cases/observability](https://gitlab.com/gitlab-da/use-cases/observability) | @dnsmichi | Observability uses cases and research (OpenTelemetry, eBPF, etc.) |
