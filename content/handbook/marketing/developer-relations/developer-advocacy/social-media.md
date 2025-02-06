@@ -227,10 +227,9 @@ _Missing features, 2024-11-11:_
 | Cesar Saveedra | [@cealsair.bsky.social](https://bsky.app/profile/cealsair.bsky.social) |
 | Daniel Helfand | [@dhelfand.bsky.social](https://bsky.app/profile/dhelfand.bsky.social) |
 | Fatima Sarah Kalid | [@sugaroverflow.com](https://bsky.app/profile/sugaroverflow.com) |
-| John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/coghlan.me) |
+| John Coghlan | [@coghlan.me](https://bsky.app/profile/coghlan.me) |
 | Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
 | William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
-| Abubakar Siddiq Ango | [@abuango.me](https://bsky.app/profile/abuango.me) |
 | GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
 
 #### Bluesky Starter Packs

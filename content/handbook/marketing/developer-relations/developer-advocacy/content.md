@@ -28,11 +28,6 @@ The team's content is distributed in the content platforms below, and in [Highsp
 
 This section provides examples from the many blog posts authored by the Developer Advovacy team. Click on the author names for a full list of blog posts.
 
-- [Abubakar Siddiq Ango](https://about.gitlab.com/blog/authors/abuango/)
-  - [Streamline DevSecOps engineering workflows with GitLab Duo](https://about.gitlab.com/blog/2024/12/05/streamline-devsecops-engineering-workflows-with-gitlab-duo/)
-  - [GitLab Duo Chat 101: Get more done on GitLab with our AI assistant](https://about.gitlab.com/blog/2024/05/29/gitlab-duo-chat-101-get-more-done-on-gitlab-with-our-ai-assistant/)
-  - [Write Terraform plans faster with GitLab Duo Code Suggestions](https://about.gitlab.com/blog/2024/01/24/write-terraform-plans-faster-with-gitlab-duo-code-suggestions/)
-  - [How to migrate from Bamboo to GitLab CI/CD](https://about.gitlab.com/blog/2023/10/26/migrating-from-bamboo-to-gitlab-cicd/)
 - [Cesar Saavedra](https://about.gitlab.com/blog/authors/csaavedra1/)
   - [Modernizing a simple C++ application to Java with GitLab Duo](https://about.gitlab.com/blog/2024/12/11/modernizing-a-simple-c-application-to-java-with-gitlab-duo/)
   - [5 videos and interactive tours to learn GitLab Duo fast](https://about.gitlab.com/blog/2024/08/28/5-videos-and-interactive-tours-to-learn-gitlab-duo-fast/)
