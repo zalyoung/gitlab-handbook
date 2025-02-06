@@ -76,10 +76,12 @@ For non-team members, feel free to create issues in these epics if you have gene
 
 At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to collaborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
 
-Labels to be added
+Use the comment template to apply the approrpiate labels for the feature categories:
+
 - Workspaces - `/label ~"Category:Workspaces" ~"Customer Collaboration"`
 
 You can find the customer collaboration issues dashboard for the feature categories:
+
 - [Workspaces](https://gitlab.com/gitlab-org/gitlab/-/issues/517442)
 
 ### Group Metrics Dashboards
