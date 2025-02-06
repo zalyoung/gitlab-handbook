@@ -73,10 +73,10 @@ The following people are members of the [Feature Readiness group](feature-readin
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
-The following people are members of the [Performance Enablement group](performance-enablement-team):
+The following people are members of the [Performance Enablement group](performance-enablement):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
-The following people are members of the [Test Governance group](test-governance-team):
+The following people are members of the [Test Governance group](test-governance):
 
 {{< team-by-manager-slug "kkolpakova" >}}
