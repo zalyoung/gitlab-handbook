@@ -64,11 +64,13 @@ Adapter-based methods add extra trainable parameters to the existing (base) mode
 As with any method, the LoRA method comes with its advantages and limitations. _Generally_, LoRA slightly loses against a fully finetuned model in the overall performance, but if time and hardware are the restrictions, then a small performance difference might be okay.
 
 **Advantages:**
+
 1) Training an adapter requires less memory and is much more time-efficient than full-model finetuning
 2) The model's size would be in 100s of megabytes rather than 100s of gigabytes.
 3) Hosting and switching between different adapters is usually a low-latency procedure
 
 **Limitations:**
+
 1) LoRAs tend to "forget things" a bit more than the fully finetuned model. Thus, we can expect LoRA to perform better than the base model on the task it was trained on, but it could be worse than a base model on the task it was not trained.
 2) LoRAs are model-specific, meaning LoRAs can only properly work on the model it was trained on.
 3) LoRA is likely to lose in the overall performance and generalization to a fully tuned model.
@@ -78,6 +80,7 @@ As with any method, the LoRA method comes with its advantages and limitations. _
 ### Architecture
 
 #### Inference
+
 ```mermaid
 flowchart LR
  subgraph s1["vLLM"]
@@ -163,21 +166,25 @@ flowchart LR
 ```
 
 ### Data Preparation
+
 Adapters will be trained using customer data, for example, their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
 
 The service then would process the provided by the customer repository, constructing a training and validation dataset out of it.
 
 ### Adapter Training
+
 To train an adapter, customers would need to deploy a local instance of finetuning service on their own infrastructure. The finetuning service would be provided using Docker.
 
 The container will be published in the GitLab Container Registry and DockerHub on every GitLab Release.
 
 ### Fine-tuned Model Evaluation
+
 Once the adapter is trained, it should be evaluated against a base model in terms of the overall performance and responses. 
 
 To evaluate the model, the customer would be required to deploy the model and its adapters and run an evaluation service. The evaluation service would use a validation dataset to test the base and finetuned models and present the results to the customer.
 
 ### Fine-tuned Model Deployment
+
 Once the task-specific adapters are trained, customers would need to host their base model and trained LoRAs using vLLM.
 
 Once hosted, the customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
@@ -195,6 +202,7 @@ Once hosted, the customer could fetch a specific LoRA by specifying the model's 
 **Inference Time Impact**: TODO qualitative evaluations
 
 ### Early Experimentation (PoC) results
+
 A PoC has been developed for Code Suggestions (code generation and completion) feature. The adapter was trained for [ai-gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) for Codestral-22B. The finetuned model has shown positive results on both: manual and automated evaluations. 
 
 For **manual** evaluations, the model has been deployed and tested with Duo Self-hosted in WebIDE. The finetuned model proposed code suggestions that are more aligned with the overall code structure, than vanilla Codestral-22B:
@@ -206,7 +214,6 @@ In addition to the manual evaluations, the finetuned model was evaluated on seve
 
 [Results for Code Completion using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
 
-
 In the table below we present the results of evaluating the finetune model and base model on three different datasets on a code completion task.
 
 In the columns, the two numbers are: embedding similarity, exact match. Higher number is better (meaning results were more similar to the expected output).
@@ -215,7 +222,6 @@ In the columns, the two numbers are: embedding similarity, exact match. Higher n
 | ------ | ------ | ------ | ------ |
 | Codestral-22B | 0.89, 0.03 | 0.84, 0.0 | 0.80, 0.0 |
 | LoRA+Codestral-22B | **0.91**, **0.17** | **0.87**, 0.0 | **0.85**, **0.05** | 
-
 
 ## Alternatives
 
