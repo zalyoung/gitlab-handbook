@@ -21,17 +21,20 @@ In certain instances, the People Connect team may not be able to assist with onb
 
 ## TaNewKi Welcome Call
 
-The People Connect team hosts a pre-onboarding call known as the Ta-New-Ki call (a play on the abstract Tanuki i.e. Japanese raccoon dog you will find in our logo). The purpose of this call, which is hosted in Zoom, is to give soon to onboard team members the chance to meet / socialise and to provide an opportunity to ask any lingering questions ahead of their start date. Internally we refer to this as an AMA (Ask Me Anything) call. **This call is open to all current team members, hiring managers.**
+The People Connect team hosts a **pre-onboarding call** known as the Ta-New-Ki call (a play on the abstract Tanuki i.e. Japanese raccoon dog you will find in our logo). The purpose of this call, which is hosted in Zoom, is to give soon to onboard team members the chance to meet / socialise and to provide an opportunity to ask any lingering questions **ahead** of their start date. Internally we refer to this as an AMA (Ask Me Anything) call. 
 
-This call occurs every two weeks on Thursday at two times to account for timezones.
+Hiring managers and current team members (such as onboarding buddies), are more than welcome to join the call.
 
-- 11:00/23:00 **PM** PT
+This call occurs every two weeks on Thursday at three times to account for timezones.
+
+- 04:00/16:00 **PM** PT
+- 12:00/00:00 **AM** PT
 - 08:30 **AM** PT
 
 - For current team members: To add the invite to your calendar, review the GitLab Team Meeting Calendar.
 - For future team members: You will receive an email with the future dates.
 
-Please note that this call will take a place a week or two before your actual start date.
+**Please note that this call will take a place a week or two before your actual start date.**
 
 ### Agenda
 
@@ -46,10 +49,10 @@ General Topics Covered
 
 - Invites are sent by the People Connect Specialist in the respective rotation. This email should be sent out at least one week before the call.
     1. Open the Ta"NEW"ki Folder located People Experience/Ops Shared Drive>People Experience>Ta"NEW"ki Call
-    1. Update the google form to include the next two TaNEWki call dates (EMEA and AMER times)
+    1. Update the google form to include the next two TaNEWki call dates (AMER/APAC, APAC/EMEA and EMEA/AMER times)
     1. Use this [email template](https://gitlab.com/gitlab-com/people-group/General/-/blob/master/.gitlab/email_templates/tanewki_welcome_call.md)
     1. Add the new team members emails to the BCC line and CC the People Connect team.
-    1. The People Connect team can check who will be attending the call by looking at the Google Form.
+    1. The People Connect team can check who will be attending the call by looking at the Google response sheet.
     1. Once new hires have completed the form an auto-response (via Document Studio) will reply with the zoom link and the date selected.
 
 ## Slack Channel Support for New Team Members
@@ -59,8 +62,6 @@ By default, all new team members are added to the below Slack channels from day 
 - `#new_team_members` (go say hi and introduce yourself)
 - `#diversity_inclusion_and_belonging` (connect with other team members to find out more about what we do in Diversity, Inclusion and Belonging)
 - `#it_help` (any IT related support needed, such as issues with laptop, 1Password, Okta, JAMF, etc)
-- `#expense-reporting-inquiries` (need some info on your expenses, what can be expensed, approving expenses, etc)
-- `#payroll` (have any questions on your salary payments, payslips, etc)
 - `#questions` (anything that the Handbook can't help with)
 - `#donut-be-strangers` (need some help setting up a coffee chat)
 - `#team-member-updates` (new team member, anniversaries, goodbyes)
@@ -69,11 +70,11 @@ By default, all new team members are added to the below Slack channels from day 
 
 ## Managers of New Team Members
 
-An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by creating a request via HelpLab.
+An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers and People Connect** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by creating a request via HelpLab.
 
 ### <i class="fas fa-tasks fa-fw color-orange font-awesome"></i>Compliance
 
-The [Senior People Connect Specialist](/job-families/people-group/people-connect) completes a monthly audit of all open onboarding issues to ensure that the new team member, manager and People Connect team tasks are completed. More importantly, there are certain tasks which need to be completed  in line with our company compliance (security, payroll, etc).
+The [Senior People Connect Specialist](/job-families/people-group/people-connect) completes a monthly audit of all open onboarding issues to ensure that the new team member, manager and People Connect team tasks are completed. More importantly, there are certain tasks which need to be completed in line with our company compliance (security, payroll, etc).
 
 If any tasks are still outstanding, the People Connect Specialist will ping the relevant members on the issue requesting action on the items or checking whether the issue can be closed.
 
