@@ -674,24 +674,24 @@ _The deal registration form is not a quoting tool and will not have all the info
 
 ### Service Attached Registration
 
-GitLab incentivizes Select partners and accredited professional services partners that sell their own professional services into a customer environment. The partner must submit any services opportunities via a Service Attached registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attach qualification does not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. Service Attach registration approval requires:
+GitLab incentivizes Select partners and accredited professional services partners that sell their own professional services into a customer environment. The partner must submit service opportunities via a Service Attached Registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attached qualifications do not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. Service Attached Registration approval requires:
 
 1. Completion of the associated software opportunity (i.e., closed won)
 2. Submission of an executed Statement of Work (SOW) that meets [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
 
-Select partners and accredited professional services partners with approved service attached registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale.
+Select partners and accredited professional services partners with approved Service Attached Registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale.
 
 Review the steps below to process a Service Attached Registration for an applicable GitLab software opportunity.
 
 #### Ecosystem Operations for first review and action
 
-Ecosystem Operations Team has first action to review and update the registration when `DR-Status` = `Submitted`. They will take the following action:
+Ecosystem Operations has first action to review and update the registration when `DR-Status` = `Submitted`:
 
 1. Link the Customer account
 2. Link the associated software opportunity
-3. Verify that the linked opportunity has no _approved_ Service Attached registration, as additional registrations will be denied
-4. Set `DR - Status` to `Pending`
-5. Add Registration Name (REGxxxxx) to the `Service Attach Registration` field on the liked opportunity
+3. Verify that the linked opportunity has no _approved_ Service Attached Registration, as additional registrations will be denied
+4. Set `DR - Status` and `Service Attach Status` to `Pending`
+5. Add Registration Name (REGxxxxx) to `Service Attach Registration` on the liked opportunity
 6. Add `Service Attach Partner` to the linked opportunity
 
 #### Partner submits Executed Statement of Work
@@ -705,7 +705,7 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - **`Pending`**: Additional information or documentation is needed. Ecosystem Operations will leave the registration in `Pending` status and work with the partner to obtain required documentation.
     - **`Pending Opportunity Closure`**: The partner's SOW (i) has been submitted and (ii) meets [program requirements](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications), but the related software opportunity is not yet closed-won
     - **`Approved`**: (i) The SOW has been submitted and approved and (ii) the opportunity has been closed-won
-      - **`Denied`**: The registration and/or SOW do not qualify for service attach program as defined by the [GitLab Partner Program](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
+    - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
     - **`Closed`**: If the opportunity has moved to closed-lost or if the partner or ESM communicate that the partner did not win the services business
 
 2. Ecosystem Operations adds the `Service Attach Approval Date` when the registration is moved to `Approved`. Service Reg approval requires both:
@@ -716,13 +716,11 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
 
 ### Additional Information
 
-- The `PSP Engaged` checkbox will automatically populate when the linked service attached partner holds the Professional Service Partner accredidation. This designation qualifies them to reveive service attach rebates on qualified opportunities
-- The `Partner Services Amount` is calculated as `Attach Rate` x `Net ARR` of the associated software opportunity.
-- The resale discount will be administered as an upfront discount from the GitLab license price on the most recent product sale net license price. The Service Attach incentive will be paid out within 45 days of the end of each GitLab fiscal quarter.
-- Partner Service Attach incentives are outlined in the [GitLab Channel Partner Program Discounts and Incentive Guide](https://gitlab.highspot.com/items/626018776705c7e7d2df0bce?lfrm=rhp.0)
-- Partners must hold an approved Service Attached Registration to qualify for the incentive.
-- Rebates and referral fees may require CRO approval.
-- Discounts are off list price.  If GitLab is deeply discounting a large ARR customer engagement, the partner can reasonably expect to share in that with a discount reduction.  The Partner, GitLab Sales, Ecosystem Sales Manager must agree on the negotiated discount amount.
+- `PSP Engaged` will automatically populate when the linked `Service Attach Partner` holds the professional services partner accredidation
+- `Partner Services Amount` is calculated as `Net ARR` multipled by an attach rate as defined in the Sales Commissions Internal Handbook
+- Partner Service Attached incentives are outlined in the [GitLab Channel Partner Program Discounts and Incentive Guide](https://gitlab.highspot.com/items/626018776705c7e7d2df0bce?lfrm=rhp.0)
+- Rebates and referral fees may require CRO approval
+- Discounts are off list price. If GitLab is deeply discounting a large ARR customer engagement, the partner can reasonably expect to share in that with a discount reduction. The Partner, GitLab Sales, Ecosystem Sales Manager must agree on the negotiated discount amount
 
 For more information on quoting or the Partner Program, please visit:
 
