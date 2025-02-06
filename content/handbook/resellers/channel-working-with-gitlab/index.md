@@ -120,19 +120,22 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 The Service Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-Service Attached Registration is submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a GitLab end customer software opportunity (i.e., service must be connected to software sold to an end customer, SOW must mention GitLab).
+Service Attached Registration is submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a software opportunity
+- Service must be connected to a GitLab software opportunity sold to an end customer directly, via reseller, or via cloud marketplace
+- MSP software opportunities where licenses are sold to and owned by the partner do not qualify for Service Attached Registration
+- Each software opportunity can only have one approved Service Attached Registration (i.e., one software opportunity to one registration)
 
 The following criteria must be met to receive a rebate:
 - Partner must be Select and/or PSP certified
 - Partner must submit a fully executed Statement of Work (SOW) to partnersupport@gitlab.com and include the Deal ID number. The SOW must: 
   - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
   - confirm the dates of the project and include customer signatures
-  - be submitted within 6 months after the opportunity closes
+  - be signed and submitted within 6 months after opportunity closure
   - be dated within 6 months of submission
-- Only one (1) SOW is allowed per Service Attached Registration
+- Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations)
 - Scope of services
   - _In Scope_: Implementation, Integration, Optimization, Migration, Managed/hosted services (with software sold to / owned by end customer), Security/Compliance, Adoption, Assessment
-  - _Out of Scope_: Education/Training, subcontracted services, free-of-charge services, Managed/hosted services (with software sold to / owned by the partner)
+  - _Out of Scope_: Education/Training, Subcontracted services, Free-of-charge services, Managed/hosted services (with software sold to / owned by the partner)
 
 Rebates are paid out no later than 45 days after the end of each quarter. Partners must first register and provide banking information in GitLab's procurement system, Coupa. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library
 
