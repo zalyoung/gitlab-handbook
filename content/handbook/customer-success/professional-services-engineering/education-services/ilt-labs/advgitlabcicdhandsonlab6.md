@@ -24,7 +24,7 @@ For this task, we will be creating a web application to run in our review enviro
 1. In your `install deps` job, add an install for express:
 
     ```yml
-    install deps &cachedef:
+    install deps: &cachedef
       stage: deps
       script:
         - npm install jest-junit
@@ -33,6 +33,24 @@ For this task, we will be creating a web application to run in our review enviro
         key: $CI_COMMIT_REF_SLUG
         paths:
           - node_modules
+    ```
+
+1. When we add express code into our `index.js` file, our tests will no longer be able to run against `index.js`, since running this will create a webserver that waits for connections. For now, we will comment our tests out. To do this, place a `.` character in front of each test job as shown below:
+
+    ```yml
+      .test binarysearch:
+        before_script:
+          - npm install -g jest
+        script:
+          - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        <<: [*artifactdef, *cachedef]
+
+    .test linearsearch:
+      before_script:
+        - npm install -g jest
+      script:
+        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+      <<: [*artifactdef, *cachedef]
     ```
 
 1. Select **Commit changes**.
@@ -190,6 +208,7 @@ After these changes, the `index.js` file should look like this:
       script:
         - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
         - ssh root@$ip 'mkdir -p /www'
+        - ssh root@$ip 'sudo apt-get update'
         - ssh root@$ip 'sudo apt-get install nodejs npm -y'
         - ssh root@$ip 'cd /www/ && npm init -y'
         - ssh root@$ip 'cd /www/ && npm i express'
