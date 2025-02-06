@@ -62,7 +62,7 @@ GitLab `master` has three QA pipelines generated from scheduled pipeline against
 
 If jobs in `test-on-omnibus` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
-If failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test-on-gdk#disable-the-e2etest-on-gdk-pipeline) for details.
+If failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/97483eafd3db198437faccc40a946fc260c0736a/test_on_gdk#disable-the-e2etest-on-gdk-pipeline) for details.
 
 Note that any failure in `master` QA pipeline will be deployed to Staging, so catching a failure earlier in the pipeline allows us to
 find what changes caused it and act on resolving the failure more quickly.
