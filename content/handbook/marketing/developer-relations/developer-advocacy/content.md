@@ -28,11 +28,6 @@ The team's content is distributed in the content platforms below, and in [Highsp
 
 This section provides examples from the many blog posts authored by the Developer Advovacy team. Click on the author names for a full list of blog posts.
 
-- [Abubakar Siddiq Ango](https://about.gitlab.com/blog/authors/abuango/)
-  - [Streamline DevSecOps engineering workflows with GitLab Duo](https://about.gitlab.com/blog/2024/12/05/streamline-devsecops-engineering-workflows-with-gitlab-duo/)
-  - [GitLab Duo Chat 101: Get more done on GitLab with our AI assistant](https://about.gitlab.com/blog/2024/05/29/gitlab-duo-chat-101-get-more-done-on-gitlab-with-our-ai-assistant/)
-  - [Write Terraform plans faster with GitLab Duo Code Suggestions](https://about.gitlab.com/blog/2024/01/24/write-terraform-plans-faster-with-gitlab-duo-code-suggestions/)
-  - [How to migrate from Bamboo to GitLab CI/CD](https://about.gitlab.com/blog/2023/10/26/migrating-from-bamboo-to-gitlab-cicd/)
 - [Cesar Saavedra](https://about.gitlab.com/blog/authors/csaavedra1/)
   - [Modernizing a simple C++ application to Java with GitLab Duo](https://about.gitlab.com/blog/2024/12/11/modernizing-a-simple-c-application-to-java-with-gitlab-duo/)
   - [5 videos and interactive tours to learn GitLab Duo fast](https://about.gitlab.com/blog/2024/08/28/5-videos-and-interactive-tours-to-learn-gitlab-duo-fast/)
@@ -231,7 +226,7 @@ After content has been crafted and published, the next step is distribution. Her
 
 For documentation and community:
 
-1. Tutorial blog posts, demos, etc. that are helpful to everyone should be added to the [GitLab documentation](https://docs.gitlab.com/). Follow the contribution docs and create [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics) headings if not existing. Raise an MR, use content short URLs, and ask the [designed technical writer](/handbook/product/ux/technical-writing/#designated-technical-writers) to review. Example MR: [Add tutorial blog posts to workspaces docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/127500)
+1. Tutorial blog posts, demos, etc. that are helpful to everyone should be added to the [GitLab documentation](https://docs.gitlab.com/). Follow the contribution docs and create [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics) headings if not existing. Raise an MR, use content short URLs, and ask the [assigned technical writer](/handbook/product/ux/technical-writing/#assignments) to review. Example MR: [Add tutorial blog posts to workspaces docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/127500)
 1. Consider sharing your content on one of our community platforms like the [GitLab Forum](https://forum.gitlab.com/) or the [r/gitlab](https://www.reddit.com/r/gitlab) subreddit. If you're covering a topic that's broader than GitLab, you can also consider other subreddits or cross-posting your content on blogging sites like dev.to.
 
 For social media:
