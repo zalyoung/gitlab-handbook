@@ -24,7 +24,7 @@ To transform GitLab's performance testing from reactive to proactive while foste
   - Define feature readiness at the performance level
   - Ensure self-servicing of performing performance testing at the adequate layer of the SDLC
 
-The first four pillars in the roadmap will be:
+The first four pillars in our [teams roadmap](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/117) will be:
 
 - Operational Verification
 - Self-Service Feature Performance
