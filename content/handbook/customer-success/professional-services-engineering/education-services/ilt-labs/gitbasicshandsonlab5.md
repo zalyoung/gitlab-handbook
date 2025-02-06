@@ -112,6 +112,7 @@ Let's create a CI/CD process for the code we just wrote. Our goal is to create a
 Let’s explore each of these in detail. To start, navigate to your job:
 
 1. Select **Build > Jobs**.
+
 1. Select your *build go* job.
 
 Let’s walk through the job log to better understand each job stage. The first thing you will see is something like this:

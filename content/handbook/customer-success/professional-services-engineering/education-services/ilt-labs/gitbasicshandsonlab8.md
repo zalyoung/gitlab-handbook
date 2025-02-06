@@ -51,7 +51,7 @@ An epic is created at a group level and defines larger sets of work on a project
 
 In this view, you will see details on your epic. Similar to issues, epics can contain child items and linked items, as well as activity related to the epic. In the right sidebar, there is metadata for the epic, including labs, health status, parent, and time tracking.
 
-## Task C. Defining a milestones
+## Task C. Defining a milestone
 
 A milestone represents a set of work being completed over a fixed time period. A milestone can contain both epics and issues. To create a milestone:
 
