@@ -2,13 +2,13 @@
 # This is the title of your design document. Keep it short, simple, and descriptive. A
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
-title: Design doc title
+title: Universal Build Toolchain
 status: proposed
-creation-date: "yyyy-mm-dd"
-authors: [ "@username" ]
-coaches: [ "@username" ]
-dris: [ "@product-manager", "@engineering-manager" ]
-owning-stage: "~devops::<stage>"
+creation-date: "2025-02-06"
+authors: [ "@dmakovey" ]
+coaches: [ "@denisra" ]
+dris: [ "@mbruemmer", "@denisra" ]
+owning-stage: "~devops::systems"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
