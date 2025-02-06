@@ -80,6 +80,9 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
+Introduce universal simplified way to build our GitLab distributions, reducing
+unnecessary toil.
+
 <!--
 This section is very important, because very often it is the only section that
 will be read by team members. We sometimes call it an "Executive summary",
@@ -92,6 +95,11 @@ A good summary is probably at least a paragraph in length.
 -->
 
 ## Motivation
+
+Currently components are being build in a matrix style - P times for each OS platform (Linux, etc.), M times for each OS, Z times for each hardware platform and N times for each component.
+
+We're spending a lot of time rebuilding components multiple times to arrive virtually at the same result.
+In other words it's P x M x Z x N builds for each release/MR etc.
 
 <!--
 This section is for explicitly listing the motivation, goals and non-goals of
@@ -111,6 +119,7 @@ problem is not well-defined or design details not yet established.
 
 ### Goals
 
+By providing Universal Build Toolchain we'd like to simplify above down to P x Z x N complexity matrix - i.e. build only once per platform/architecture/component combination. Produced artifacts would become applicable in wider range of builds. As a result we should be able to build component "once" and reuse it in various places: for example built Gitaly component for linux/amd64 can be (re)used in all the omnibus OS variants (Debian, SUSE, RedHat, etc.) and in CNG that uses UBI or Debian.
 <!--
 List the specific goals / opportunities of the document.
 
