@@ -32,7 +32,7 @@ Before we start creating a CI/CD process, we need some code to run our CI/CD pro
 
     ```
 
-1. Select **Commit changes**
+1. Select **Commit changes**.
 
 1. In the **Branch name**, enter `initial-code`. Leave **Create a merge request for this change** checked. Select **Commit changes**.
 
@@ -113,7 +113,7 @@ Let’s explore each of these in detail. To start, navigate to your job:
 
 1. Select **Build > Jobs**.
 
-1. Select your *build go* job.
+1. Select your **build go** job.
 
 Let’s walk through the job log to better understand each job stage. The first thing you will see is something like this:
 
