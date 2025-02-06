@@ -257,11 +257,6 @@ The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) f
 1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
-1. Check for new security releases of our dependencies and ensure we use them:
-   1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner))
-   1. Container base images
-   1. Application dependencies
-   1. Programming language
 1. Refine scheduled security issues.
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!)
 
@@ -335,7 +330,6 @@ If a support engineer requests assistance via Slack and it requires investigatio
 1. Try to resolve issues as much as possible, if you discover that the problem applies to more than one customer - open a public issue and link it. Tag EM/PM.
 
 These items must be triaged continuously throughout the milestone which means they must be checked multiple times a week.
-
 
 ### Daily Look Left & Right Before Dev
 
