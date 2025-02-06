@@ -15,6 +15,7 @@ The main situations where action may need to be taken on behalf of the user:
 1. Account Access Requests
 1. Releasing an Email Address
 1. Primary email change of an enterprise user
+1. Account changes for users that cannot login due to SCIM or SAML misconfiguration
 
 ### User Action First
 
@@ -256,3 +257,21 @@ Impersonating a user is considered performing an action as another account, impe
 When impersonating a user, the administrator account will receive a slack message from the **SIRTbot** app asking to confirm if the impersonation was a legit action.
 
 The action of impersonation is in accordance with our [Confidentiality Terms of the Subscription Agreement](/handbook/legal/subscription-agreement/#7-confidentiality).
+
+## Account changes for users that cannot login due to SCIM or SAML misconfiguration
+
+When a user is reaching out of support to change their usernames or delete their account in order to be re-provision by an IdP please always revert them to self-serve options first: 
+
+### Self-serve options
+
+- Use password reset to authenticate via username/password so the user can use self-serve deletion or modify their username themselves.
+- Or link existing account to their SAML identity by login directly to the group token URL to avoid deleting the account.
+
+### Password reset not received
+
+If a user cannot self-serve because the option ["Disable password authentication for enterprise users"](https://docs.gitlab.com/ee/user/group/saml_sso/#disable-password-authentication-for-enterprise-users) is enabled on the top level group, please follow the steps below: 
+
+1- Confirm "Disable password authentication for enterprise users" is enabled on the top level group.
+1- Ask Owner to temporary disable the option in the group so the user can regain access.
+1- If the owner refused, please go through with [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow (for Enterprise users account changes the ownership verification must be done by a top level group owner).
+1- After verification is successfull, ask permissions to make the changes to the account - For deletion request, do a simple deletion (just the user) as delete user with contributions can [lead to deletion of issues and merge requests on a paid namespace](https://docs.gitlab.com/ee/user/profile/account/delete_account#associated-records).
