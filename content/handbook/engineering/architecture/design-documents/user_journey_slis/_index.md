@@ -15,6 +15,8 @@ toc_hide: true
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
+[TOC]
+
 ## Summary
 
 This design document proposes a new architecture for measuring and tracking user journeys across GitLab services. A user journey represents an end-to-end flow of user interactions that may span multiple services (e.g., from receiving a git push in GitLab Shell to updating a merge request). The proposal includes creating a new service for maintaining journey state, developing an SDK within LabKit for instrumenting journeys, and establishing a framework for product teams to define and monitor critical user journeys.
@@ -70,9 +72,6 @@ The core proposal consists of three main components:
 ## Design and implementation details
 
 ```mermaid
----
-User Journey SLIs Architecture
----
 flowchart LR
     User@{shape: circle}
 
