@@ -114,7 +114,27 @@ flowchart LR
 
 ### Journey Definition Spec
 
-TBD
+The user journey definition will be a YAML file containing the relevant details. For example:
+
+```yaml
+journeys:
+  - id: merge_request_creation                        # Required: Unique identifier for the journey
+    description: "User creates a merge request"       # Required: Human readable description
+    feature_category: source_code_management          # Required: GitLab feature category
+    success_threshold: 30                             # Optional: Success threshold in seconds (default: 60)
+    timeout: 300                                      # Optional: Journey timeout in seconds (default: 600)
+
+  - id: git_push
+    description: "User pushes commits to a repository"
+    feature_category: source_code_management
+    # Using default thresholds
+
+  - id: issue_creation
+    description: "User creates an issue"
+    feature_category: team_planning
+    success_threshold: 45                             # Custom success threshold of 45 seconds
+    # Using default timeout
+```
 
 ### SDK Design
 
