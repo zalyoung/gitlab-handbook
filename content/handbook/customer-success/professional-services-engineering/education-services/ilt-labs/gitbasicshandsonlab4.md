@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Collaboration and Code Review"
+title: "GitLab Fundamentals - Hands-On Lab: Collaboration and Code Review"
 description: "This Hands-On Guide walks you through collaborating on changes and creating code reviews."
 ---
 

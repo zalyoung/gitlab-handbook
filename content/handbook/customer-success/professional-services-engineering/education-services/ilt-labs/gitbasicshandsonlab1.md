@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Navigating to GitLab"
+title: "GitLab Fundamentals - Hands-On Lab: Navigating to GitLab"
 description: "This Hands-On Guide walks you through the basics of interacting with GitLab as a platform."
 ---
 

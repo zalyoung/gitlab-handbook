@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Project Management with Issues and Boards"
+title: "GitLab Fundamentals - Hands-On Lab: Project Management with Issues and Boards"
 description: "This Hands-On Guide walks you through the process of working with issues in GitLab."
 ---
 

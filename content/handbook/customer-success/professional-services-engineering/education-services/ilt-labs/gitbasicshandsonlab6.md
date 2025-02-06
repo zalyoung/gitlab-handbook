@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Implementing Security Scanners"
+title: "GitLab Fundamentals - Hands-On Lab: Implementing Security Scanners"
 description: "This Hands-On Guide walks you through the process of adding security scanners to your CI/CD process."
 ---
 

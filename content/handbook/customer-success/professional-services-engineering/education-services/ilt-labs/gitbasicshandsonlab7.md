@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Analytics"
+title: "GitLab Fundamentals - Hands-On Lab: Analytics"
 description: "This Hands-On Guide walks you through the process of viewing analytics in GitLab."
 ---
 

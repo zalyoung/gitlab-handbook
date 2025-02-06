@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Organizing your work in GitLab"
+title: "GitLab Fundamentals - Hands-On Lab: Organizing your work in GitLab"
 description: "This Hands-On Guide walks you through the basics of organizing and structuring your work in GitLab."
 ---
 

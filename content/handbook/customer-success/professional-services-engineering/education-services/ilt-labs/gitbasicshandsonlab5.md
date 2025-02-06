@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Continuous Integration and Development"
+title: "GitLab Fundamentals - Hands-On Lab: Continuous Integration and Development"
 description: "This Hands-On Guide walks you through the process of adding CI/CD to your project."
 ---
 

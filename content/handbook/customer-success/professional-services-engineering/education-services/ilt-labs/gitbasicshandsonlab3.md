@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Fundamentals - Hands-On Lab: Repository Management and Branching"
+title: "GitLab Fundamentals - Hands-On Lab: Repository Management and Branching"
 description: "This Hands-On Guide walks you through managing code repositories in GitLab."
 ---
 
