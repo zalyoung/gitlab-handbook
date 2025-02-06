@@ -245,7 +245,7 @@ Once you have the image tag, [spin up GitLab instance locally](https://gitlab.co
 
 **Special Considerations**
 
-Note that to be able to pull the docker image from `registry.gitlab.com` you need to [authenticate with the Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/#authenticate-with-the-container-registry).
+Note that to be able to pull the docker image from `registry.gitlab.com` you need to [authenticate with the Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/authenticate_with_container_registry.html).
 
 To run Nightly images change `registry.gitlab.com/gitlab-org/build/omnibus-gitlab-mirror/gitlab-ee:<tag>` from one of the Docker commands above to `gitlab/gitlab-ee:nightly` or `gitlab/gitlab-ce:nightly`.
 
