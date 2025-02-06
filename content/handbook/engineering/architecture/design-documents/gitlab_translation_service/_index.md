@@ -179,12 +179,12 @@ The application is event driven. The application remains dormant until either Gi
 
 Quick checks and handling for large volumes of HTTP Requests before putting them into the queue.
 
-1. [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25") or GitLab events are received to [_`ArgoController`_](#argocontroller) or _`GitLabController`_ respectively, auth is checked, then passed unaltered to the next service.
+1. [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) or GitLab events are received to [`ArgoController`](#argocontroller) or `GitLabController` respectively, auth is checked, then passed unaltered to the next service.
    - **Purpose**: Simple endpoint that allows the internal services to be interfaced with, and authenticate the request
    - More on `ArgoController`: receives events from Argo. When the source language files have completed translation and are ready in Argo, Argo will make a call to the GitLab Integration informing what has completed, which it receives via the [`ArgoController`](#argocontroller). From there, the GitLab Integration will grab the translated file, create a branch and MR if necessary, and the commit to that branch.
-2. **(GitLab Event)** _`GitLabWebhookService`_ will take the event, convert that data, and check if it's relevant. If the checks find it is relevant, then it’s added to the queue
+2. **(GitLab Event)** `GitLabWebhookService` will take the event, convert that data, and check if it's relevant. If the checks find it is relevant, then it’s added to the queue
    - **Purpose**: Filter out most of the junk events, convert the data into a more manageable form, handle events immediately, prevent the queue and database being filled with useless events
-3. **(**[**Argo**](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25")\*\* Event)\*\* _`ArgoStepService`_ will take the event and just add it to the queue
+3. **(Argo Event)** `ArgoStepService` will take the event and just add it to the queue
    - **Purpose**: All Argo events are relevant so this has no use, but if in the future we need to do preprocessing like with the GitLab events, then this serves as a convenient place to do so
 
 ![queue-service-in-depth](/images/engineering/architecture/design-documents/gitlab_translation_service/queue-service-in-depth.png)*An in-depth diagram of Queue Service*
