@@ -20,6 +20,6 @@ We can provide the following instruction to update the [CustomersDot](https://cu
 1. Navigate to `My Account` → `Account details`
 1. Change the Company name in `Company details`
 
-This will update future auto-generated invoices. To change the name in `Zuora`, use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the request.
+This will update future auto-generated invoices. To change the name in `Zuora`, use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the request.
 
 To change the name in `SFDC`, find the account in Salesforce and chatter the Sales support team ([at]sales-support) as well as the account manager, letting them know about the change. Include the ticket link as reference.

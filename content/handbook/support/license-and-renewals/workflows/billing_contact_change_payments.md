@@ -28,7 +28,7 @@ In the past when making contact changes in Zuora this was done by billing.  Rece
    - If the requester is presently listed as the `Sold To:` contact currently on file.
    - If they pass the [account ownership verification](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases#ownership-verification)
 1. To update the Zuora contact information from within [CustomersDot](https://customers.gitlab.com/customers/sign_in) refer to the [Update Zuora Sold To contact using CustomersDot](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#update-zuora-sold-to-contact-using-customersdot) section of the `Associating purchases with additional accounts` page in the L&R workflow portion of the handbook.
-1. If the change to Zuora is outside changing either the `Bill To:` or `Sold To:` on record or their address information, please use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness and in a private comment update inform them of what needs to be changed along with why we need them to make this change themselves.
+1. If the change to Zuora is outside changing either the `Bill To:` or `Sold To:` on record or their address information, please use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness. Also add a private comment to inform Accounts Receivable of what needs to be changed along with why we need them to make this change themselves.
 
 For self-managed customers, if the new contact would like their license updated it will update automatically if they have a cloud license.  This is done during a daily sync that happens between their instance and GitLab.  For customers using a legacy license or an offline cloud license they will receive a license with an updated contact on it at the time of a license change.  Such as a renewal, seat increase, tier change, or contract reset to list a few reasons when this would happen.
 
@@ -138,13 +138,13 @@ in waiting until the subscription expires.
 
 1. Make sure that there aren't any other types of queries that would need the
    Support team's attention
-1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the cancellation. They will reply to the customer once done and issue a refund if applicable.
+1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the cancelation. They will reply to the customer once done and issue a refund if applicable.
 
 ### Downgrades
 
 There is currently [no ability to downgrade a subscription from a self-service perspective](https://gitlab.com/gitlab-org/customers-gitlab-com/issues/368).
 
-Plan downgrades should only be done at renewal. However, if the customer purchased the wrong plan as a new subscription, use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness and ask that the incorrect purchase be cancelled so that a new subscription can be purchased on the correct plan.
+Plan downgrades should only be done at renewal. However, if the customer purchased the wrong plan as a new subscription, use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness and ask that the incorrect purchase be canceled so that a new subscription can be purchased on the correct plan.
 
 If a SaaS Ultimate customer would like to renew for a Premium plan, advise them to purchase a Premium subscription and link their group to the new subscription. Ensure that they have set their Ultimate subscription to expire/cancel on the end date.
 
@@ -162,7 +162,7 @@ GitLab provides subscriptions on an annual basis which are not eligible for term
 1. Let the customer know that the billing team will advise whether a refund is possible and process the request if appropriate.
 1. Make sure that there aren't any other types of queries that would need the
    Support team's attention
-1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to advise and process if relevant. They will reply to the customer once done.
+1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to advise and process if relevant. They will reply to the customer once done.
 
 Note: we cannot do partial refunds, so when a refund is requested, the whole
 subscription will have to be cancelled and refunded. See [Renewal reversal](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments#renewal-reversal) for accidental renewal scenarios.
@@ -174,7 +174,7 @@ subscription will have to be cancelled and refunded. See [Renewal reversal](/han
 Check first if the invoice is available in [CustomersDot](https://customers.gitlab.com/customers/sign_in).
 
 - If yes: walk the customer through locating the invoices under Payment History for future self-service ability.
-- If no: Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the request. They will reply to the customer once done.
+- If no: Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the request. They will reply to the customer once done.
 
 ### Invoice modification
 
@@ -189,7 +189,7 @@ When a customer wishes to modify their invoice for tax or administration purpose
 
 ### Requests to make a payment/payment failed
 
-Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the request. They will reply to the customer once done.
+Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the request. They will reply to the customer once done.
 
 ### Credit card removal
 
@@ -198,13 +198,13 @@ account.
 
 1. Make sure that there aren't any other types of queries that would need the
    Support team's attention.
-1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the request. They will reply to the customer once done. They will reply to the customer once done.
+1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the request. They will reply to the customer once done.
 
 ### Process payment again after credit card update
 
 When a customer has updated their credit card after a failed payment attempt and would like the payment processed with the new card:
 
-1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the payment again.
+1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the payment again.
 1. Customers can also contact AR drectly ar@gitlab.com to request this.
 
 ### Renewal reversal
@@ -212,13 +212,13 @@ When a customer has updated their credit card after a failed payment attempt and
 When a customer has accidentally renewed twice or mistakenly.
 
 1. Determine the reason that the renewal has to be reversed
-1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the request. They will reverse the renewal so that the subscription is in the same state as before the renewal and refund the renewal if applicable
+1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the request. They will reverse the renewal so that the subscription is in the same state as it was before the renewal, and refund the renewal if appropriate.
 
 ### Requests for split payments
 
 When a customer has a payment limit on their card, preventing a single payment for the full amount of their purchase, Billing is able to charge the card in "batches".
 
 1. Get information on the limit and the total cost of the purchase the customer wishes to make.
-1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (AR) via Support Readiness to process the request. They will reply to the customer once done.
+1. Use the `General::Forms::Incorrect form used` macro to request the ticket be transferred to the correct team (Accounts Receivable) by Support Readiness to process the request. They will reply to the customer once done.
 
 Note that in some cases, the total amount is too large to charge in 2 batches and Billing might request that a sales-assisted order is done instead. If you're unsure whether this would be the case, you can tag [at]Billing-ops in Chatter on the Account or Opportunity in SFDC to double-check with them.
