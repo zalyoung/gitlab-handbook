@@ -145,7 +145,104 @@ journeys:
 
 ### User Journey State Management Service
 
-TBD
+The user journey state management service will serve an endpoint that will respond to the client generated payload:
+
+```json
+POST /api/v1/journeys/events
+Content-Type: application/json
+
+# Start journey
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "journey_type": "http_request",
+  "event_type": "start",
+  "component": "web",
+  "client_timestamp": "2025-02-06T14:30:00Z",
+  "context": {
+    "feature_category": "source_code_management"
+  }
+}
+
+# Response: 201 Created
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "server_timestamp": "2025-02-06T14:30:00.123Z"
+}
+
+# End journey
+POST /api/v1/journeys/events
+Content-Type: application/json
+
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "journey_type": "http_request",
+  "event_type": "end",
+  "component": "web",
+  "client_timestamp": "2025-02-06T14:30:01Z",
+  "context": {
+    "feature_category": "source_code_management"
+  }
+}
+
+# Response: 200 OK
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "server_timestamp": "2025-02-06T14:30:01.234Z"
+}
+
+# Intermediate components participating in journey (optional event_type, meaning it is an intermediate step)
+POST /api/v1/journeys/events
+Content-Type: application/json
+
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "journey_type": "http_request",
+  "component": "database",
+  "client_timestamp": "2025-02-06T14:30:00.500Z",
+  "context": {
+    "feature_category": "source_code_management"
+  }
+}
+
+# Response: 200 OK
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "server_timestamp": "2025-02-06T14:30:00.567Z"
+}
+
+# Error Responses
+# Journey not found
+HTTP/1.1 404 Not Found
+{
+  "error": "journey_not_found",
+  "message": "Journey f6587c32-6e2f-4586-a82e-8d73c335e8cd not found"
+}
+
+# Journey already ended
+HTTP/1.1 409 Conflict
+{
+  "error": "journey_already_ended",
+  "message": "Journey f6587c32-6e2f-4586-a82e-8d73c335e8cd has already ended"
+}
+
+# Journey type not found in definitions
+HTTP/1.1 422 Unprocessable Entity
+{
+  "error": "invalid_journey_type",
+  "message": "Journey type 'http_request' not found in journey definitions"
+}
+
+# Notes:
+# 1. Single endpoint for all event types, differentiated by payload
+# 2. Server always returns its own timestamp
+# 3. Feature category must match the one in journey definition YAML
+# 4. All components must provide journey_type to validate against definitions
+```
+
+The storage must support:
+
+- High write throughput optmized for time-series data
+- Capable of querying events by `journey_id` efficiently for analytical purposes
 
 ### Service Architecture
 
@@ -155,7 +252,7 @@ TBD
 
 ### Failure Modes
 
-- Journey timeout after configured threshold (default 5 minutes)
+- Journey timeout after configured threshold (default 10 minutes)
 - Automatic cleanup of stale journeys
 - Retry mechanisms for state updates
 
