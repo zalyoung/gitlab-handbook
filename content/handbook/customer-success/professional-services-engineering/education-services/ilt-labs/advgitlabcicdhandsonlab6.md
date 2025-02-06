@@ -208,6 +208,7 @@ After these changes, the `index.js` file should look like this:
       script:
         - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
         - ssh root@$ip 'mkdir -p /www'
+        - ssh root@$ip 'sudo apt-get update'
         - ssh root@$ip 'sudo apt-get install nodejs npm -y'
         - ssh root@$ip 'cd /www/ && npm init -y'
         - ssh root@$ip 'cd /www/ && npm i express'
