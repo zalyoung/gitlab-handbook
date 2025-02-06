@@ -594,6 +594,7 @@ and can be formed of just Functional Leads and members who participate in fulfil
 #### Active Stage Working Groups (alphabetic order)
 
 1. [Epic Work Items Migration](/handbook/engineering/development/dev/plan/working-groups/epic-work-items-migration/)
+2. [Work Items API Performance](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
 
 ### Product Outreach
 
