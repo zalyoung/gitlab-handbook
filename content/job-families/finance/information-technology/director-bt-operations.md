@@ -86,7 +86,7 @@ The Sr. Director, IT Operations is a [level 11](/handbook/total-rewards/compensa
 
 ## Career Ladder
 
-The next step in the IT Systems Engineer job family is to move to the [VP, IT](/job-families/finance/vp-information-technology/) job family.
+The next step in the IT Systems Engineer job family is to move to the [VP, IT](/job-families/finance/information-technology/vp-information-technology/) job family.
 
 ## Hiring Process
 
