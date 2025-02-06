@@ -53,7 +53,7 @@ This CI/CD configuration contains a SAST scanner. By adding this in a pipeline e
 
 1. Set the **Name** to `Enforce Security`. 
 
-1. Under **Actions**, select **Inject** from the **cicd template** project.
+1. Under **Actions**, select **Inject** from the **CICD Template** project.
 
 1. Point the file path to your `.gitlab-ci.yml` file. 
 
