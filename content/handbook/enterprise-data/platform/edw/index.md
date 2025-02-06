@@ -576,7 +576,7 @@ The scope of this Analytics Performance Policy at this time is specifically focu
 
 *These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
 
-1. Maintain production dbt DAG run time of less than 8 hours. Assumes we do not scale up warehouse size and keep using a XL warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
+1. Maintain production dbt DAG run time of less than 8 hours. Assumes we do not scale up warehouse size for existing models and keep using a XL warehouse as a maximum. Assumes we can scale out with using more concurrent threads running at the same time.
 1. An individual dbt model's run time is consistently less than 1 hour, and its design accounts for forecasted data volume increases.
 1. A simple query of the Snowplow, Service Ping, and GitLab.com big data sets in Snowflake finishes in under 1 minute on a L or XL warehouse.
 
