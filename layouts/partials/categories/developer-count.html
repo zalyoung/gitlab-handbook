@@ -1,5 +1,5 @@
 {{- $team := site.Data.public.team }}
-{{- $teamCategories := dict 
+{{- $teamCategories := dict
     "be" (dict "tag" .be_team_tag "name" "Backend" "members" slice)
     "fe" (dict "tag" .fe_team_tag "name" "Frontend" "members" slice)
     "fs" (dict "tag" .fs_team_tag "name" "Fullstack" "members" slice)
@@ -27,22 +27,22 @@
 <table>
     <thead>
         <tr>
+            <th>Total Engineers</th>
             {{- range $key, $category := $updatedCategories }}
                 {{- if gt (len $category.members) 0 }}
                 <th>{{ $category.name }}</th>
                 {{- end }}
             {{- end }}
-            <th>Total Engineers</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <td class="text-center">{{ $totalEngineers }}</td>
             {{- range $key, $category := $updatedCategories }}
                 {{- if gt (len $category.members) 0 }}
                 <td class="text-center">{{ len $category.members }}</td>
                 {{- end }}
             {{- end }}
-            <td class="text-center">{{ $totalEngineers }}</td>
         </tr>
     </tbody>
 </table>
