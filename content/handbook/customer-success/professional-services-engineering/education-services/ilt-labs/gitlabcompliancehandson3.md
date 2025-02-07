@@ -15,7 +15,7 @@ In this task, you will enable push rules in your repository to ensure that pushe
 
 1. Navigate to your project.
 
-1. In the left sidebar, select **Settings > Repository**. 
+1. In the left sidebar, select **Settings > Repository** and expand **Push Rules**.
 
 For this example, we want to ensure that every commit is targeted towards an issue in the project. Having the issue ID present in the commit message ensures that all activity related to the issue is logged in the issue. To do this, we can enforce an expression to ensure every commit message contains either an epic or an issue ID.
 
