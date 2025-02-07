@@ -1,5 +1,5 @@
 ---
-owning-stage: "~devops::data stores"
+owning-stage: "~devops::tenant scale"
 title: "Cells ADR 012: Clusterwide syncing for Cells 1.0"
 toc_hide: true
 ---
@@ -15,7 +15,7 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
 
 1. Reference tables, like `plans` do not need synchronization, but rather
    converted to be always consistent by being hard-coded in application code.
-1. Instance Setting tables, like `application_settings` can be synchronized
+1. Cluster Setting tables, like `application_settings` can be synchronized
    independently.
    An external source of truth like
    [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will loop
@@ -31,16 +31,16 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
 
 ## Cons
 
-1. For Instance settings, we will need to tolerate a small amount of time where
+1. For Cluster settings, we will need to tolerate a small amount of time where
    there may be configuration drift.
 
 ## Analysis of clusterwide tables
 
-Below is an analysis of clusterwide tables, which can be categorized into 4
-different types:
+An analysis of clusterwide tables was performed on 2025-01-13.
+The result is that we can categorized into 4 different types:
 
 1. Reference table. Tables which are constant / exactly the same for all cells.
-1. Instance Setting table. Tables which host settings which needs to affect all
+1. Cluster Setting table. Tables which host settings which needs to affect all
    cells.
 1. Organization / Cell table. Tables which may be better categorized as
    `gitlab_main_cell`.
@@ -49,7 +49,7 @@ different types:
 
 This [section](#tables) lists the full list of tables to the different types.
 
-### Instance Setting tables
+### Cluster Setting tables
 
 #### application_settings
 
@@ -75,7 +75,7 @@ Convert reference tables to be in application code instead.
 #### plans
 
 The plans table is a simple table with `id`, `name`, and `title` columns.
-It also has a unique index on the `name` table.
+It also has a unique index on the `name` column.
 There are two referencing tables, `plan_limits` and `gitlab_subscriptions`.
 
 The problem is that each Cell could create in-consistent data where
@@ -208,7 +208,7 @@ synchronize any user related data until Cells 1.5+
 
 This lists all clusterwide tables and its type.
 
-| Table                                                     | Reference table | Instance Setting table | Organization/cell table | User table | Rows Present in new GDK |
+| Table                                                     | Reference table | Cluster Setting table | Organization/cell table | User table | Rows Present in new GDK |
 |-----------------------------------------------------------|-----------------|------------------------|-------------------------|------------|-------------------------|
 | ai_feature_settings                                       |                 | Y                      |                         |            | N                       |
 | ai_settings                                               |                 | Y                      |                         |            | N                       |
