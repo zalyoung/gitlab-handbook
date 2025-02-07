@@ -82,6 +82,46 @@ include:
 
 1. You will now see a new job named *semgrep-sast*. This job is the security scan imported using the `include` keyword.
 
+## Task C. Add `run.py` and review SAST scanning results
+
+In this task, you'll add a file with known vulnerabilities and see if SAST detects it.
+
+1. Return to the **Project overview** page by clicking on the name of your project in the breadcrumbs section.
+
+1. At the top of the project landing page, to the right of the branch dropdown, click **(+) > This directory > New file**.
+
+1. For the **File name** field, type in `run.py`.
+
+1. Copy the content below into the file:
+
+    ```python
+    import subprocess
+
+    in = input("Enter your server ip: ")
+    subprocess.run(["ping", in])
+
+    print("Attempting to connect to the server")
+    print("Application authentication was successful")
+    ```
+
+1. Add an appropriate **Commit message**.
+
+1. Set the **Target Branch** to `main`.
+
+1. Click the **Commit changes** button.
+
+1. In the left-hand navigation pane, click **Build> Pipelines**.
+
+1. At the top of the row of the table of pipelines, click on the **running** (if it is still running) or **passed** (if the pipeline has been completed) status labels.
+
+    > The SAST scan may take a few moments, so feel free to grab a cup of coffee while you wait.
+
+1. When the pipeline finishes, in the left navigation pane, click on **Secure > Vulnerability report**.
+
+1. Click any of the vulnerabilities and read about a potential security problem detected by SAST scanning in `run.py`.
+
+1. Feel free to edit the code to fix the issue raised (such as removing the `subprocess.run` command), and commit the changes. Does the vulnerability report still note the issue as present?
+
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandson).
