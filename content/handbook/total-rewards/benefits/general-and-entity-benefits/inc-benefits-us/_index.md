@@ -66,7 +66,7 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## Who To Contact & Claims Escalations
 
-- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. **You can request this assistance via [HelpLab](https://helplab.gitlab.systems/esc).**
+- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. They'll manage follow up calls and esclations. **You can reach out directly BenefitsHelpline2@willistowerswatson.com**
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc).
 
