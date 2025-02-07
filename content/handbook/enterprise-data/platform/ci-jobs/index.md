@@ -75,17 +75,7 @@ Run this if you want to force refresh raw, prod, and prep. This does a full clon
 
 #### `🔑grant_clones`
 
-Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake role (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLE` variable. This job grants the same `select` permissions as the given role has in `prep` and `prod` for all database objects within the clones of `prep` and `prod`. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
-
-***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Ideally a request contains the specific (new) objects or at minimum the schema. There won't be access granted on full databases. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
-
-**This will be fastest if the Data Engineer is provided with:**
-
-1. the merge request where the new models are being introduced
-1. the fully qualified name (`"database".schema.table`) of the table(s) to which access needs to be granted
-1. the role to which permissions should be granted
-
-The database names for `PREP` and `PROD` can be found in the completed 🔑 `grant_clones` CI job. Linking this job for the DE will also be helpful in expediting this process.
+Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake roles (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLES` CI variable. You can pass in a single role, or muluple separated by a space as in `role1 role2`. This job checks the git commit for the changed models and verifies that the submitted roles have adequate access in `PREP` and `PROD` to grant access in the clone. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
 
 ### 🚂 Extract
 
