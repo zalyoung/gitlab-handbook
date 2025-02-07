@@ -4,7 +4,7 @@ summary: This page outlines the DBRE team escalation process and guidelines for 
 ---
 
 {{% alert title="Note" color="danger" %}}
-We are using Slack, <i class="fa-brands fa-slack"></i> @dbre, for escalations.
+We are using Slack, <i class="fa-brands fa-slack"></i> @dbo, for escalations.
 {{% /alert %}}
 
 ## About This Page
@@ -24,7 +24,7 @@ The expectation for the DBRE engineers is to be a database consultant and collab
 1. This process is **NOT** a path to reach the DBRE team for non-urgent issues that the Development, Security, and Support teams run into. Such issues can be moved forward by:
    1. Labelling with `team::Database Reliability` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
    1. Raising to the `#g_infra_database_reliability` Slack channel, or
-   1. Asking the infrastructure-lounge Slack channel assigning the `@dbre` user group
+   1. Asking the infrastructure-lounge Slack channel assigning the `@dbo` user group
 1. This process provides for Weekdays coverage only.
 
 #### Example of qualified issue
@@ -39,13 +39,13 @@ The expectation for the DBRE engineers is to be a database consultant and collab
 
 #### Weekdays (UTC)
 
-1. Incidents will be escalated by the EOC or Incident Manager by notifying the DBRE through @dbre slack handle with an eligible DBRE according to their working hours.
+1. Incidents will be escalated by the EOC or Incident Manager by notifying the DBRE through @dbo slack handle with an eligible DBRE according to their working hours.
 1. During incidents the available DBRE can pass the incident to another DBRE/Reliability EM, if they are urgently needed somewhere else.
 1. In timezones where we have only one DBRE, the DBRE can pass the incident to the available Reliability Engineering manager who will work to find someone(not necessarily a DBRE) who can help
 
 ##### Escalation
 
-1. EOC/IM, notify the DBRE on-call via slack handle @dbre requesting for the DBRE to join the incident zoom/channel
+1. EOC/IM, notify the DBRE on-call via slack handle @dbo requesting for the DBRE to join the incident zoom/channel
 1. DBRE responds to the ping by acknowledging the ping and joining the incident channel and zoom
 1. If DBRE support does not respond, the EOC/IM, notify the available Reliability EM
 1. DBRE triages the issue and works towards a solution.
