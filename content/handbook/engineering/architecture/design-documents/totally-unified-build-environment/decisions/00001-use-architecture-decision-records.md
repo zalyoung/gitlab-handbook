@@ -32,5 +32,6 @@ supports the future move to `hugo` for GitLab documentation.
 
 - [MADR](https://adr.github.io/madr/)
 - MADR decision to [use YAML front matter for metadata](https://adr.github.io/madr/decisions/0013-use-yaml-front-matter-for-meta-data.html)
-- GitLab Handbook [Engineering > Architecture > Architecture Design Workflow](../../engineering/architecture/workflow/_index.md#design-document)
+- GitLab Handbook [Engineering > Architecture > Architecture Design Workflow](../../engineering/architecture/workflow/index.md#design-documents)
+
 - [GitLab Handbook Hugo Migration]((https://gitlab.com/gitlab-org/technical-writing-group/gitlab-docs-hugo).
