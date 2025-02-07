@@ -57,6 +57,8 @@ Now, let's create a commit and see how our push rules impacts our commit message
 
 1. In the **Commit message**, input the text `Starting work on issue #1`.
 
+> You may need to re-enter the name of the file before committing.
+
 1. Select **Commit changes**. 
 
     > Now, your commit will complete successfully. From here, you can navigate back to your issues to see that the commit is tracked in the issue now.
