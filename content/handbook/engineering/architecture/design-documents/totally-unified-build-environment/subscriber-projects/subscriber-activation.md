@@ -1,4 +1,14 @@
-# Subscriber activation
+---
+title: "Totally Unified Build Environment - Subscriber Activation"
+status: ongoing
+creation-date: "2025-02-06"
+authors: [ "@rmarshall" ]
+coach: [ ]
+approvers: [ "@deriamis", "@balasankarc", "@WarheadsSE", "@denisra" ]
+owning-stage: "~devops::systems"
+participating-stages: []
+toc_hide: true
+---
 
 ## Add subscriber configuration
 
