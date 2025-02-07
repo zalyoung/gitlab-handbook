@@ -23,6 +23,7 @@ No choice: you need to install EE.
 The rule of thumb is that always go with EE, except when you can't.
 
 Upsides of installing EE:
-- No need to do a [migration](./partner-migration-services.md) when your customer decides to upgrade to Premium or Ultimate.
-- Optionally get access to extra Premium or Ultimate features (while staying on the Free tier) through our [Registration Features Program](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#registration-features-program). You can find the list of those features [here](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#available-features).
+1. No need to do a [migration](./partner-migration-services.md) when your customer decides to upgrade to Premium or Ultimate.
+2. Optionally get access to extra Premium or Ultimate features (while staying on the Free tier) through our [Registration Features Program](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#registration-features-program). You can find the list of those features [here](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#available-features).
 
+Then why would anybody go with CE? There are some customers who are mandated to use open source tools that has a license compatible with their internal policies. Since CE is licensed under the extremely permissive [MIT license](https://opensource.org/license/mit), it can generally satisfy any of those requirements. Thus, the only reason to install CE is if the customer explicitly asks for it. Otherwise, start with EE: even if the customer decides not to share usage statistics with us, it'll still be just a flick of a switch for them to upgrade to Premium or Ultimate later.
