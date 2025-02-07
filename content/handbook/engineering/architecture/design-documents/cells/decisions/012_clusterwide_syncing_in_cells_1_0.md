@@ -159,7 +159,7 @@ As the data comes from Gitaly (linguist), we will need to map the
 `name` to an integer in a way that is stable.
 This mapping can be stored on either the GitLab Ruby monolith, or in Gitaly.
 
-<https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml>
+<https://gitlab.com/gitlab-org/gitlab/-/blob/816e3ce6770ad96e3d5b0d7dae4925d63efa02fc/vendor/languages.yml>
 has the full list of languages.
 We can possibly use the `language_id` field.
 
