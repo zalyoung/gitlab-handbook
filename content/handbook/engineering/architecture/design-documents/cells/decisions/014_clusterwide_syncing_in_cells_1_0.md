@@ -22,7 +22,7 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
    An external source of truth like
    [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will
    propogate the desired values for each
-   [ring](../infrastructure.md/_index.md#rings) of cells.
+   [ring](../infrastructure/_index.md#rings) of cells.
 
 ## Pros
 
