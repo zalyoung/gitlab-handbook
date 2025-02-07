@@ -1,5 +1,6 @@
 ---
 title: Advantages of a single application
+description: "Discussing the advantages of having a single application"
 ---
 
 ## Single application
@@ -20,7 +21,7 @@ For example, the experience of one enterprise customer that converted from multi
 - Four-times fewer hours of hands-on keyboard time and four-times fewer tasks for people to do, allowing them to be more productive
 - Five-times fewer different teams requiring to be involved and four-times fewer handoffs between teams, allowing them to be more productive and making the time to value more predictable
 
-[![DevOps GitLab compared with multiple DevOps tools](devops_single_multiple_tool_comparison.png)](dataflow.html)
+[![DevOps GitLab compared with multiple DevOps tools](/images/product/categories/gitlab-the-product/single-application/devops_single_multiple_tool_comparison.png)](dataflow.html)
 
 ### How does having one application vs many applications impact the workflow?
 
@@ -119,7 +120,7 @@ everything you need available at all times makes for more efficient work.
 blocked no longer requires detective work. It's available everywhere and
 accessible to everyone.
 
-This is highlighted by analyst specified benefits of [Value Stream Delivery Platforms](https://about.gitlab.com/analysts/gartner-vsdp21/), of which GitLab is considered a representative vendor.
+This is highlighted by analyst specified benefits of [Value Stream Delivery Platforms](https://about.gitlab.com/press/releases/2021-11-03-gitlab-inc-named-a-representative-vendor-in-new-gartner-market-guide/), of which GitLab is considered a representative vendor.
 
 Some additional example benefits include:
 
@@ -180,7 +181,7 @@ flowchart LR
   A(Plan)
   B(Create)
   C(Release)
-  D(Govern)
+  D(Software Supply Chain Security)
   E(Configure)
   F(Monitor)
   G(Verify)
@@ -238,7 +239,7 @@ hidden costs.
 
 #### Overt cost
 
-The overt cost of paying for [licensing and support of multiple tools](https://about.gitlab.com/calculator/roi/) is
+The overt cost of paying for [licensing and support of multiple tools](https://about.gitlab.com/calculator/) is
 higher than a single application. A single application can charge less because its fixed costs are distributed
 across the functionality, whereas separate vendors each need to pay those costs themselves for each of their solutions.
 
@@ -335,6 +336,6 @@ use cases.
 
 ## Trend Towards DevOps Platform Consolidation
 
-Continuing apace after Microsoft's 2018 [acquisition of GitHub](https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/), the trend to consolidate DevOps companies seems here to stay. In January 2019, [Travis CI was acquired by Idera](https://techcrunch.com/2019/01/23/idera-acquires-travis-ci/), and in February 2019 we saw [Shippable acquired by JFrog](https://techcrunch.com/2019/02/21/jfrog-acquires-shippable-adding-continuous-integration-and-delivery-to-its-devops-platform/). Atlassian and GitHub now both bundle CI/CD with SCM, alongside their ever-growing related suite of products. In January 2020, [CollabNet acquired XebiaLabs to build out their version of a comprehensive DevOps solution](https://xebialabs.com/company/press/collabnet-versionone-and-xebialabs-combine-to-create-integrated-agile-devops-platform/).
+Continuing apace after Microsoft's 2018 [acquisition of GitHub](https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/), the trend to consolidate DevOps companies seems here to stay. In January 2019, [Travis CI was acquired by Idera](https://techcrunch.com/2019/01/23/idera-acquires-travis-ci/), and in February 2019 we saw [Shippable acquired by JFrog](https://techcrunch.com/2019/02/21/jfrog-acquires-shippable-adding-continuous-integration-and-delivery-to-its-devops-platform/). Atlassian and GitHub now both bundle CI/CD with SCM, alongside their ever-growing related suite of products. In January 2020, [CollabNet acquired XebiaLabs to build out their version of a comprehensive DevOps solution](https://www.tpg.com/news-and-insights/collabnet-versionone-and-xebialabs-combine-create-integrated/).
 
 It's natural for technology markets go through stages as they mature: when a young technology is first becoming popular, there is an explosion of tools to support it. New technologies have rough edges that make them difficult to use, and early tools tend to center around adoption of the new paradigm. Once the technology matures, consolidation is a natural part of the lifecycle. GitLab is in a fantastic position to be ahead of the curve on consolidation, as we're already considered a representative vendor in this [newly defined market](/analysts/gartner-vsdp21/), but it's a position we need to actively defend as more competitors start to bring legitimately integrated products to market.

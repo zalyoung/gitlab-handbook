@@ -30,7 +30,7 @@ Unfortunately when there is conflict, rational thought can succumb to negative e
 
 Here are a few articles for additional reading:
 
-- [The Pause Principle](http://cashmanleadership.com/the-pause-principle-book/)
+- [The Pause Principle](https://cashmanleadership.com/books/the-pause-principle/)
 - [The Power of Pause, Discover how to up your game and perform your best](https://www.mindful.org/the-power-of-pause/)
 - [The Power of pause in leadership](https://leadonpurposeblog.com/2019/12/30/the-power-of-pause-in-leadership/)
 - [The Power of Pause](https://hbr.org/2012/01/the-power-of-pause)

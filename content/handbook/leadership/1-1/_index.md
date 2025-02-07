@@ -8,7 +8,7 @@ Maintaining an effective and efficient agenda is important to get the best out o
 
 1. Make sure you use a consistent agenda format for each 1-1.
 1. Both parties add items to the agenda. Preferably, the majority added by the team member. If the manager puts more than half of the items on the agenda this is an indication that something is wrong.
-1. Reference the [suggested format for leadership]({{< ref "suggested-agenda-format" >}}) as necessary.
+1. Reference the [suggested format for leadership](/handbook/leadership/1-1/suggested-agenda-format/) as necessary.
 
 ## Conducting a 1-1
 
@@ -22,7 +22,7 @@ We recorded a training about 1-1s which you can find here:
 1. From [High Output Management](https://getlighthouse.com/blog/high-output-management/) (edited sightly for language):
     1. "A key point about a one-on-one: it should be regarded as the reports's meeting, with its agenda and tone set by them ... issues that preoccupy and nag the individual contributor."
     1. How often you should have 1-1 meetings: "The answer is the job- or task-relevant maturity of each of your individual contributors. In other words, how much experience does a given report have with the specific task at hand?...the most effective management style instance varies from very close to very loose supervision as a report's task maturity increases."
-1. Bill Campbell, executive coach to top executives at Google, had a [suggested approach to the 1-1](https://alearningaday.com/2015/11/29/bill-campbell-style-1-1/). Instead of leaving the conversation open, he required both the manager and the team member to bring a list of 5 things to discuss. At the start of the meeting, they would match lists and talk about whatever is on both lists first. After that, they would spend time on 4 topics – performance on job requirements, relationships with peer teams, leadership and innovation.
+1. Bill Campbell, executive coach to top executives at Google, had a [suggested approach to the 1-1](https://alearningaday.blog/2015/11/29/bill-campbell-style-1-1/). Instead of leaving the conversation open, he required both the manager and the team member to bring a list of 5 things to discuss. At the start of the meeting, they would match lists and talk about whatever is on both lists first. After that, they would spend time on 4 topics – performance on job requirements, relationships with peer teams, leadership and innovation.
 1. If you have negative or positive feedback give it right away rather than waiting for the 1-1. However, make sure bi-directional feedback is given *at least* as often as the 1-1 meeting. The face to face 1-1 is also useful for feedback that the person may be especially sensitive too, or is being given for the second time and needs to be taken more seriously.
 1. It's important not to push times of the 1-1's for "more important" tasks. Book them and ensure you always are on time. Similarly, canceling a 1-1 should be a last resort. The exception to this is talent acquisition interviews. If participating in an interview schedule, reschedule the 1:1 with as much advance notice as possible, but prioritize the interview.
 1. One communication style does not fit all. Some need very direct feedback. Others work better with FYI style information to then come to the conclusion you want them to come to on their own. Others work well with clear goals, but without a clear prescription as to how to reach the goal. Great managers can adapt their style to the report.
@@ -45,7 +45,7 @@ We recorded a training about 1-1s which you can find here:
    - Anything non-work related worth mentioning?
    - When x happened, what will you do differently next time?
    - Have you identified any career development opportunities that I can help you with? For example: [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/)
-   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/great-one-on-one-meeting-questions/) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions/).
+   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/one-on-one-meeting-questions) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions-2/).
 
 1. Consider encouraging direct reports to keep their 1:1 document open in their browser throughout the week. As items come up, they can add them in real time instead of waiting until 30 minutes before the meeting to scramble to fill in the [agenda](/handbook/leadership/1-1/suggested-agenda-format/).
 1. Asking open ended questions is important. "You doing alright?" is a yes/no question. There is no room for an answer unless you dig and prod to get more. Instead asking things like "Tell me how you've been doing since we last talked" leave more room for discussion and result in something both more actionable and results driven. Your goal is not just to know how they are doing, but why they feel that way.
@@ -166,7 +166,7 @@ If asked, share your career goals with your team members. This transparency show
 
 Below are several recommended articles regarding career development conversations.
 
-- [5 business reasons to put employee career development at the top of your agenda](https://cezannehr.com/hr-blog/2019/03/five-reasons-to-prioritise-development/)
+- [5 business reasons to put employee career development at the top of your agenda](https://cezannehr.com/hr-blog/2024/02/five-reasons-to-prioritise-employee-career-development/)
 - [Career Development Mentoring Benefits](https://www.people360ai.com/blog/benefits-of-career-development-mentoring)
 - [Why Employee Development is Important, Neglected and can Cost You Talent](https://www.forbes.com/sites/victorlipman/2013/01/29/why-development-planning-is-important-neglected-and-can-cost-you-young-talent/#22df1a8a6f63)
 - [If You're Not Helping People Develop, You're Not Management Material](https://hbr.org/2014/01/if-youre-not-helping-people-develop-youre-not-management-material)
@@ -221,7 +221,7 @@ We understand that this meeting format may feel a bit awkward as we will openly 
 
 ## Shadowed 1-1
 
-Shadowing a 1-1 is a scenario in which a GitLab team member attends the 1-1 of their manager and their manager's manager. The intent of this model to provide trust through transparency, build connections between team members and leaders who they may not otherwise interact with regularly, and open opportunities for collaboration be providing a broader knowledge to team members. The shadowed 1-1 is exemplified by Sid by having the CEO Shadows attend 1-1s with his direct reports.
+Shadowing a 1-1 is a scenario in which a GitLab team member attends the 1-1 of their manager and their manager's manager. The intent of this model to provide trust through transparency, build connections between team members and leaders who they may not otherwise interact with regularly, and open opportunities for collaboration be providing a broader knowledge to team members. The shadowed 1-1 is exemplified by the CEO having the CEO Shadows attend 1-1s with his direct reports.
 
 ### Agenda
 

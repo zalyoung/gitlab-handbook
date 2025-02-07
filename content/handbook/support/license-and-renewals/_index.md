@@ -158,7 +158,7 @@ storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/
 Changes to how storage and transfer limits are considered at a
 [namespace level](https://docs.gitlab.com/ee/user/usage_quotas.html#namespace-storage-limit) are
 planned, but not currently enforced. See [the storage management improvements issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375296)
-and [Pricing FAQ](https://about.gitlab.com/pricing/faq-paid-storage-transfer/#q-what-is-changing-with-storage-and-transfer-limits)
+and [Pricing FAQ](https://docs.gitlab.com/ee/user/storage_usage_quotas.html)
 for further information.
 
 ### What you'll be working on
@@ -323,7 +323,7 @@ The queue should not be used for the following:
 - [CustomersDot Admin Docs](/handbook/product/fulfillment-guide)
 - [Business Ops](/handbook/business-technology/)
   - [Business Systems: Enterprise Applications, Integrations, and Flow](/handbook/business-technology/enterprise-applications/integrations/)
-  - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/)
+  - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/)
 - [Sales](/handbook/sales/)
   - [Sales Segmentation](/handbook/sales/field-operations/gtm-resources/)
   - [Sales Territories](/handbook/sales/territories/)

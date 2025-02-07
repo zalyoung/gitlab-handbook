@@ -5,7 +5,7 @@ no_list: true
 
 ## Licenses
 
-For GitLab employees, there is a [central license management](https://www.jetbrains.com/help/license-vault-cloud) for JetBrains' products.
+For GitLab employees, there is a [central license management](https://www.jetbrains.com/help/license-vault-cloud/Introduction_to_License_Vault.html) for JetBrains' products.
 
 1. Depending on the Product you want to use, you might want or need to file an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests)
     1. If you want to onboard a larger set of users (5 or more), please *do file* an Access Request.

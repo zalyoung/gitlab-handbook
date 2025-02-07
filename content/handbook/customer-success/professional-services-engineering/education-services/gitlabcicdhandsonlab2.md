@@ -19,10 +19,6 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Select **Provision Training Environment**.
 
-   > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
-
-### Self-Paced Training
-
 1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
 1. In the left sidebar, select your profile image.
@@ -46,22 +42,6 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
 1. Continue to Task B.
-
-### Instructor-led Training
-
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
-
-1. Click the **Download Credentials** button to download your temporary GitLab credentials.
-
-1. Click on **GitLab Dashboard** or the GitLab URL.
-
-1. Login with your temporary GitLab Credentials.
-
-   > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
-
-1. Click on the '**Create a project tile**.
-
-   > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
 ## Task B: Create a Project
 
@@ -315,10 +295,10 @@ If you do not wish to keep the GitLab Runner on your device, you may follow the 
 
    ```ps
    cd C:\GitLab-Runner
-   .\gitlab-runner.exe list 
+   .\gitlab-runner.exe list
    ```
 
-1. Using the URL and token, run the unregister command: ```gitlab-runner unregister --url "http://gitlab.example.com/" --token t0k3n```
+1. Using the URL and token, run the unregister command: ```gitlab-runner unregister --url "https://gitlab.example.com/" --token t0k3n```
 
 ## Lab Guide Complete
 

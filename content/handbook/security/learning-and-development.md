@@ -23,7 +23,7 @@ The ability to pursue professional trainings is of critical importance to securi
 Some great security trainings are available at the following providers:
 
 - [SANS](https://www.sans.org/cyber-security-courses/)
-- [Offensive Security](https://www.offensive-security.com/courses-and-certifications/)
+- [Offensive Security](https://www.offsec.com/courses-and-certifications/)
 - [PluralSight](https://www.pluralsight.com/browse/information-cyber-security)
 - [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 
@@ -35,7 +35,7 @@ It is recognized that there is a trade off with this initiative using the fundam
 
 ### Leadership shadowing
 
-We currently have the [Security Shadow]({{< ref "security-shadow" >}}) program available to all team members. In addition to that we're also working on a Security Leadership shadowing idea, which would be based around the CEO Shadow model. We'll update this entry as we make progress on it.
+We currently have the [Security Shadow](/handbook/security/security-shadow/) program available to all team members. In addition to that we're also working on a Security Leadership shadowing idea, which would be based around the CEO Shadow model. We'll update this entry as we make progress on it.
 
 ### Share what you have learned with other team members
 
@@ -56,4 +56,4 @@ You'll be expected to provide a summary, key take-aways, and any supporting mate
 
 #### Show & Tell
 
-The Security Department Show & Tell takes place every 2nd Thrusday, changing times each time to ensure both APAC and EMEA team members are able to attend at least once a month. Everyone at GitLab is welcome to join the Show & Tell and it's actively advertised in #security-department. The purpose of the Show & Tell is to encourage the sharing of knowledge with your Security peers and other team members - anything from proof-of-concepts, demos, ideas, books, trainings will do.
+The Security Department Show & Tell takes place every 2nd Thrusday, changing times each time to ensure both APAC and EMEA team members are able to attend at least once a month. Everyone at GitLab is welcome to join the Show & Tell and it's actively advertised in #security-division. The purpose of the Show & Tell is to encourage the sharing of knowledge with your Security peers and other team members - anything from proof-of-concepts, demos, ideas, books, trainings will do.

@@ -2,6 +2,9 @@
 title: "GitLab CI/CD - Hands-On Lab: Configuring Pipeline Testing"
 description: "This Hands-On Guide demonstrates how to configure testing for a binary"
 ---
+
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Handling different test types (unit, integration, end to end)
@@ -16,7 +19,7 @@ Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Navigate to your project.
 
-1. Select **+ > New directory**
+1. Select **+ > New directory**.
 
 1. Set the directory name to **ArrayUtils**.
 
@@ -122,7 +125,7 @@ Note that when we add the test stage, it automatically precedes our other stages
 ## Task C. Creating a failable job
 
 *Coding Challenge:*
-What would we add to our job configuration to define this behavior? Write the syntax
+What would we add to our job configuration to define this behavior? Write the syntax.
 
 *Answer:* To allow a job to fail, you can add the `allow_failure` attribute to a job. If you have not done so yet, add `allow_failure: true` to your `test go` job. The job should look like the code below.
 

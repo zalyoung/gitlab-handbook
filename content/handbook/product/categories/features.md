@@ -1,5 +1,6 @@
 ---
 title: "Features by Group"
+description: "List of features by product group"
 ---
 <!-- Looking to update this content? Look at https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml -->
 ## Features by Group

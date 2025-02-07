@@ -6,7 +6,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/pagerduty/schedules
 
 ## What are Pagerduty services
 
-As per [Pagerduty](https://support.pagerduty.com/docs/schedules):
+As per [Pagerduty](https://support.pagerduty.com/main/docs/schedule-basics):
 
 > On-call schedules are used to map out your coverage needs, and determine who
 > will be notified when an incident is triggered.

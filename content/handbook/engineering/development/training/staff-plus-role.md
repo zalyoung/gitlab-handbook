@@ -21,7 +21,7 @@ Here are various activities that can be useful for this purpose:
   This way we can better understand if it can be applicable to other scenarios.
 * Take opportunity during maintainer reviews to understand new features, patterns, tools and to scan for interesting aspects.
   There is a surprising amount of knowledge we can gain doing just that, which often allows us to discover opportunity for reuse between MRs.
-* Keep an eye on new and existing [architectural design docs](https://docs.gitlab.com/ee/architecture). Pay closer attention to docs around your areas of expertise while acknowledging
+* Keep an eye on new and existing [architectural design docs](https://docs.gitlab.com/ee/architecture/). Pay closer attention to docs around your areas of expertise while acknowledging
   the existence of other ones.
 * Use some of your time for deliberate learning.
   Keep a list of things you want to learn more and where you feel there can be potential impact.

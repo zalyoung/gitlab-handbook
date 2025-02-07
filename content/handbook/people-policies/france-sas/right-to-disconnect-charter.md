@@ -145,7 +145,7 @@ Nous communiquons de manière respectueuse et professionnelle à tout moment, co
 
 Lorsqu'il envoie une communication, l'expéditeur doit tenir compte du moment et du fait que cela risque de déranger, et le destinataire doit comprendre qu'il n'est pas tenu d'y répondre avant la reprise de son horaire de travail. Les salariés doivent être attentifs à la quantité de télécommunications qu'ils ont chaque jour et savoir la gérer.
 
-Nous sommes conscients que de nombreux salariés sont actifs sur les réseaux sociaux mais nous vous rappelons que si vous choisissez de communiquer avec d'autres salariés de GitLab sur les réseaux sociaux, vous devez rester professionnel et prendre en compte les  [GitLab's Communication Guidelines]({{< ref "communication" >}})  (« Directives de communication de GitLab ») en toutes circonstances, dans les limites permises par la loi. Les salariés ne doivent pas se sentir obligés de répondre aux messages de leurs collègues sur les réseaux sociaux en dehors de leurs heures de travail, voir la [Team Member Social Media Policy](/handbook/marketing/team-member-social-media-policy/) (« Politique des médias sociaux des salariés ») pour plus de détails.
+Nous sommes conscients que de nombreux salariés sont actifs sur les réseaux sociaux mais nous vous rappelons que si vous choisissez de communiquer avec d'autres salariés de GitLab sur les réseaux sociaux, vous devez rester professionnel et prendre en compte les  [GitLab's Communication Guidelines](/handbook/communication/)  (« Directives de communication de GitLab ») en toutes circonstances, dans les limites permises par la loi. Les salariés ne doivent pas se sentir obligés de répondre aux messages de leurs collègues sur les réseaux sociaux en dehors de leurs heures de travail, voir la [Team Member Social Media Policy](/handbook/marketing/team-member-social-media-policy/) (« Politique des médias sociaux des salariés ») pour plus de détails.
 
 ### 8. Réunions
 
@@ -153,7 +153,7 @@ La Société vous demande de [respecter le temps des autres](/handbook/values/#b
 
 ### 9. Conseils
 
-En plus des conseils donnés à l'échelle globale dans la section Communicating Your Time Off [Communiquer sur votre temps libre]({{< ref "paid-time-off#communicating-your-time-off" >}}), prenez connaissance des conseils suivants pour améliorer votre capacité à vous déconnecter du travail, à tirer le meilleur parti de vos congés et à faciliter votre retour au travail:
+En plus des conseils donnés à l'échelle globale dans la section Communicating Your Time Off [Communiquer sur votre temps libre](/handbook/people-group/paid-time-off/#communicating-your-time-off), prenez connaissance des conseils suivants pour améliorer votre capacité à vous déconnecter du travail, à tirer le meilleur parti de vos congés et à faciliter votre retour au travail:
 
 - Désabonnez-vous de tous les MR qui seront probablement résolus pendant votre absence, ce qui vous évitera d'avoir à traiter tous les e-mails qu'ils vous enverront à votre retour.
 - Mettez en place des filtres de messagerie pour classer les e-mails dans des catégories que vous pourrez traiter un par un à votre retour.
@@ -201,7 +201,7 @@ La présente Charte est conclue pour une durée indéterminée.
 
 ### 1. Purpose
 
-At GitLab (hereinafter the "Company"), we support the safety, health and well-being of all team members and we operate with an emphasis on asynchronous communication and a focus on results, not hours worked. We believe that family and friends should come first and work should come second. In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
+At GitLab (hereinafter the "Company"), we support the safety, health and well-being of all team members and we operate with an emphasis on asynchronous communication and a focus on impact, not activity. We believe that family and friends should come first and work should come second. In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
 
 The present document (hereinafter the "Charter") has been drawn up in order to reiterate and reinforce team members' right to disconnect from IT tools available within the Company.
 

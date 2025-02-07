@@ -14,7 +14,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
   - Please use confidential issues for topics that should only be visible to team members at GitLab.
 - [Accounts Payable](accounts-payable/)
 - [Expense Guidelines](expenses/)
-- [Operating Metrics]({{< ref "key-review" >}})
+- [Operating Metrics](/handbook/company/key-review/)
 - [Procurement](procurement/)
 - [Sales Comp Plan](sales-comp-plan/)
 - [Signature Authorization Matrix](authorization-matrix/)
@@ -75,7 +75,7 @@ If you need this information but cannot find it in your shared vaults, check wit
 ### Fiscal Year
 
 A fiscal year is a one-year period that corporations use for accounting and budgeting.
-GitLab's Fiscal Year runs from February 1 to January 31.
+GitLab's Fiscal Year runs from February 1 to January 31. The fiscal year naming correlates to the ending month of the given fiscal year, for example FY25 is GitLab's fiscal year running February 1, 2024 to January 31, 2025.
 
 - Q1: February 1 through April 30
 - Q2: May 1 through July 31
@@ -101,9 +101,9 @@ Vendor invoices are to be sent to ap@gitlab.com and payroll@gitlab.com for contr
 
 Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South Africa, Switzerland, and Ukraine will get pay their monthly wages and expenses through iiPay. Here is the process:
 
-- enter bank information in BambooHR under Bank Information tab. Note - new contractor should enter their bank information within 3 business days from their start date.
+- enter bank information in Workday under Bank Information tab. Note - new contractor should enter their bank information within 3 business days from their start date.
 - enter VAT number if it is available
-- submit monthly salary/bonus/commission invoice in BambooHR under Contractor Invoice tab (select the currency based on contract agreement) by the 8th of each month
+- submit monthly salary/bonus/commission invoice in through Google form by the 8th of each month (as described to you during onboarding)
 - submit expenses through Navan Expense by the 8th of each month
 - the scheduled payment date is the 22nd of each month
 - iiPay will send out remittance advice along with the scheduled payment via your GitLab email address

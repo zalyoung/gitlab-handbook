@@ -36,7 +36,7 @@ Violations of this policy, regardless of whether an actual law has been violated
 
 ### Harassment
 
-Please refer to the [GitLab Anti-Harassment Policy]({{< ref "anti-harassment" >}}) for more information.
+Please refer to the [GitLab Anti-Harassment Policy](/handbook/people-group/anti-harassment/) for more information.
 
 ## Individuals with Disabilities Policy
 
@@ -182,7 +182,7 @@ You may file a discrimination complaint by:
 - Completing a form in person at an OFCCP office; or
 - Mailing, e-mailing or faxing a completed form to the OFCCP regional office that covers the location where the alleged discrimination occurred.
 
-The form is available online [here](http://www.dol.gov/ofccp/regs/compliance/pdf/pdfstart.htm) and in paper format at all OFCCP offices. To find the office nearest you, visit the online listing of [OFCCP offices](http://www.dol.gov/ofccp/contacts/ofnation2.htm).
+The form is available online [here](https://www.dol.gov/agencies/ofccp/contact/file-complaint) and in paper format at all OFCCP offices. To find the office nearest you, visit the online listing of [OFCCP offices](https://www.dol.gov/agencies/ofccp/contact/district-area-offices).
 
 You must remember to sign your completed complaint form. If you fail to do so, OFCCP will still take your complaint but an OFCCP investigator will ask you to sign the form during a follow-up interview. Complaints alleging discrimination for discussing, disclosing, or inquiring about pay must be fled within 180 days from the date of the alleged discrimination, unless the time for fling is extended for good cause. The same 180-day time frame applies to complaints alleging discrimination based on race, color, religion, sex, sexual orientation, gender identity, or national origin.
 

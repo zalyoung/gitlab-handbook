@@ -28,10 +28,10 @@ Trusted subject matter experts for GitLab's internal and partner teams, providin
 
 ### How to Contact Us
 
-The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Ecosystem Operations Team and the Channel Programs Team monitor this slack channel.
-If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
+The **#global-ecosystem-programs-ops** Slack channel can be leveraged for inquiries. Both the Ecosystem Operations Team and the Ecosystem Programs Team monitor this slack channel.
+If you are reporting a problem, have suggestions, or changes requests, please open an issue on the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
 
-### The Ecosystem Operations Issue Board
+#### The Ecosystem Operations Issue Board
 
 On the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?&label_name[]=Channel%20Ops), each column represents a type of request (feature request, alliances, data & reporting, etc.). When you submit a request to the Ecosystem Operations board, the team will assign the issue and add the corresponding tags. The Ecosystem Operations Board also uses progress tags on issues to show the status of open issues. Each issue is updated regularly with notes and progress tags and should be checked before reaching out to the team for status updates.
 
@@ -70,22 +70,60 @@ Please ensure you have followed the prompts to fill in the selected issue templa
 </figure>
 <!-- blank line -->
 
-## Communicating with the Partner Teams via Slack
+#### External Partner Support and Communication
+
+Email partnersupport@gitlab.com to include a partner or other external stakeholder for help with partner-related requests. Ecosystem Operations team members monitor the queue and email inbox throughout the day in all time zones.
+
+#### Reaching Out to Ecosystem Operations in Salesforce
+
+As of November 25, 2024 the chatter handle `@Partner Operations` has been deprecated. You can reach out to the Ecosystem Operations team by [Requesting Internal Support in Salesforce](/handbook/sales/field-operations/requesting-internal-support/). Please continue to refer to our respective handbooks for in-depth information before opening a new case.
+
+Here is a general list of items you can create a case for assistance within Salesforce:
+
+Deal Registration
+
+- General Questions
+- Unable to Approve/Error Message
+- Update Customer Account
+- Link Reg to a Closed Opportunity
+- Linked Customer Account Employee Count/Segment Update
+- Extension Requestion > 30 Days
+- Link Reg to a Different Open Opportunity
+
+Partner Account
+
+- Training and Certification
+- Partner Program Administration
+- Partner Payments
+- Post-Sale Support
+- Update Account Owner
+- Partner Account Merges, Name Changes, and Acquisitions
+
+Opportunities
+
+- Quote to Order/Discounts
+- SQS/Opp Splits Questions
+- CPPO
+- Link Reg to a Closed Opportunity
+
+Labra Referral
+
+- General Questions
+
+#### Communicating with the Partner Teams via Slack
 
 There are a number of different slack channels to serve the different needs of the organization. Below is a list of the most common channels, as well as their uses, intended audience, and posting permissions. Please refer to this list often to ensure you're posting information and asking questions to the appropriate channel.
 
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
-| ~~~partner-fyi~~~ | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #partner-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Nima Badiey |
-| partner-program-ops | Questions and comments about channel programs and operations | https://handbook.gitlab.com/handbook/resellers/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
-| channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
+| global-ecosystem-programs-ops | Questions and comments about ecosystem programs and operations | https://handbook.gitlab.com/handbook/resellers/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| global-ecosystem-sales |  Questions and comments about opportunities, partner connections, field engagement, and other ecosystem sales questions |  | any | any |
 | channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
 | channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  | any | any |
-| ~~~apac_partners~~~ | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
+| apac_partners | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
 | #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | https://handbook.gitlab.com/handbook/alliances/ | any | any |
-| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | https://handbook.gitlab.com/handbook/alliances/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 
 ## Standard Channel Practices
 
@@ -243,7 +281,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **DR - Status**: Dictates whether the Partner Sourced Deal Registration is Pending, Approved or Denied
 - **DR - Distributor**: The GitLab-authorized distributor from which the DR - Partner is buying, when applicable
 
-    ![PSDR](image-9.png)
+    ![PSDR](/images/sales/field-operations/channel-operations/image-9.png)
 
 ### Section II: Primary Quote Partner Data*
 
@@ -252,7 +290,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **Resale Partner Track**: Value will be Select, Open, or Technology, and is determined based on `Resale Partner`
 ***Stamped from primary quote when approved. Fields are locked.**
 
-    ![Primary_Quote](image-10.png)
+    ![Primary_Quote](/images/sales/field-operations/channel-operations/image-10.png)
 
 ### Section III: Partner Contribution Data
 
@@ -262,7 +300,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **Platform Partner**:  Customer's platform that GitLab is being deployed
 - **Hyperscaler Engaged**: ESMs and Cloud ESMs can select the cloud partner (AWS or GCP) engaged on early stage marketplace deals
 
-    ![Partner_Contribution](image-11.png)
+    ![Partner_Contribution](/images/sales/field-operations/channel-operations/image-11.png)
 
 ### Services Resale
 
@@ -302,7 +340,7 @@ The process to request the [legal team's involvement in partner contracts](/hand
 
 ## Partner Reporting and Tagging
 
-![Partner Reporting and Tagging](image-5.png)
+![Partner Reporting and Tagging](/images/sales/field-operations/channel-operations/image-5.png)
 
 ### Definitions
 
@@ -505,34 +543,34 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
 1. Confirm the `Deal Registration Type` is "Resale" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
    - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
-    ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
+    ![16-Returned_Reg](/images/sales/field-operations/channel-operations/16-Returned_Reg.png)
 1. Discuss the opportunity with the GitLab Sales Rep and ASM and decide to either approve or reject the registration.
 1. Click `Link/Create Opportunity`.
-    ![14-Link_Create_Opp_Button](/handbook/sales/field-operations/channel-operations/images/14-Link_Create_Opp_Button.png)
+    ![14-Link_Create_Opp_Button](/images/sales/field-operations/channel-operations/14-Link_Create_Opp_Button.png)
 1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists** and you plan to:
      - _**Approve**_ the registration, click `Link & Make Primary` next to the opportunity name. You will then be brought back to the deal registration record.
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
-    ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
+    ![15-Link_Create_Opp_Screen](/images/sales/field-operations/channel-operations/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Ecosystem Sales Manager Approvals section of the registration record. If you are going to:
 
    - **Approve**, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
    - **Reject**, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
-     ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
+     ![17-Approve_Deny_Partner_Manager](/images/sales/field-operations/channel-operations/17-Approve_Deny_Partner_Manager.png)
 
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` to the Sales Rep who owns the customer account using the `Change Opportunity Owner` button on the opportunity.
 
-   ![19-Change_Opp_Owner_Button](/handbook/sales/field-operations/channel-operations/images/19-Change_Opp_Owner_Button.png)
+   ![19-Change_Opp_Owner_Button](/images/sales/field-operations/channel-operations/19-Change_Opp_Owner_Button.png)
 
 #### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
 2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
-    ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
+    ![18_1-Approve_Reject_Return_Button](/images/sales/field-operations/channel-operations/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
-    ![18_2-ASM_Approval](/handbook/sales/field-operations/channel-operations/images/18_2-ASM_Approval.png)
+    ![18_2-ASM_Approval](/images/sales/field-operations/channel-operations/18_2-ASM_Approval.png)
 
 _The deal registration form is not a quoting tool and will not have all the information needed to create a quote. The GitLab Sales Rep must connect with the partner to request any necessary information prior to creating a quote._
 
@@ -555,26 +593,26 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 1. Confirm the `Deal Registration Type` is "MSP" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
    - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
-    ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
+    ![16-Returned_Reg](/images/sales/field-operations/channel-operations/16-Returned_Reg.png)
 1. Discuss the opportunity with the GitLab Sales Rep and ASM and decide to either approve or reject the registration.
 1. Click `Link/Create Opportunity`.
-    ![14-Link_Create_Opp_Button](/handbook/sales/field-operations/channel-operations/images/14-Link_Create_Opp_Button.png)
+    ![14-Link_Create_Opp_Button](/images/sales/field-operations/channel-operations/14-Link_Create_Opp_Button.png)
 1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists** and you plan to:
      - _**Approve**_ the registration, click `Link & Make Primary` next to the opportunity name. You will then be brought back to the deal registration record.
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
 
-    ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
+    ![15-Link_Create_Opp_Screen](/images/sales/field-operations/channel-operations/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
 
    - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
    - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
-     ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
+     ![17-Approve_Deny_Partner_Manager](/images/sales/field-operations/channel-operations/17-Approve_Deny_Partner_Manager.png)
 
 1. Change the `Account Name` field on the opportunity to the partner account. This should **not** be the MSP End User (i.e., customer) account.
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` on the opportunity to the Sales Rep who owns the MSP End User (i.e., customer) account using the `Change Opportunity Owner` button.
-   ![19-Change_Opp_Owner_Button](/handbook/sales/field-operations/channel-operations/images/19-Change_Opp_Owner_Button.png)
+   ![19-Change_Opp_Owner_Button](/images/sales/field-operations/channel-operations/19-Change_Opp_Owner_Button.png)
 1. Connect the GitLab Sales Rep to the MSP Partner Rep so they can discuss and align on opportunity and quote details.
 1. Provide [Deal Desk MSP quoting](/handbook/sales/field-operations/sales-operations/deal-desk/#msp-quotes) and [Internal Partner Program discounting](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing) links to the GitLab Sales Rep so they have the process details necessary to manage the opportunity and create a quote.
 
@@ -583,9 +621,9 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
 2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
-    ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
+    ![18_1-Approve_Reject_Return_Button](/images/sales/field-operations/channel-operations/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
-    ![18_2-ASM_Approval](/handbook/sales/field-operations/channel-operations/images/18_2-ASM_Approval.png)
+    ![18_2-ASM_Approval](/images/sales/field-operations/channel-operations/18_2-ASM_Approval.png)
 
 _The deal registration form is not a quoting tool and will not have all the information needed to create a quote. The GitLab Sales Rep must connect with the partner to request any necessary information prior to creating a quote._
 
@@ -606,31 +644,31 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
 1. Confirm the `Deal Registration Type` is "Referral" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
    - _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process.
-    ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
+    ![16-Returned_Reg](/images/sales/field-operations/channel-operations/16-Returned_Reg.png)
 1. Discuss the opportunity with the GitLab Sales Rep and ASM and decide to either approve or reject the registration.
 1. Click `Link/Create Opportunity`.
-    ![14-Link_Create_Opp_Button](/handbook/sales/field-operations/channel-operations/images/14-Link_Create_Opp_Button.png)
+    ![14-Link_Create_Opp_Button](/images/sales/field-operations/channel-operations/14-Link_Create_Opp_Button.png)
 1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists** and you plan to:
      - _**Approve**_ the registration, click `Link & Make Primary` next to the opportunity name. You will then be brought back to the deal registration record.
      - _**Reject**_ the registration, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, click `Create New`, then choose "Standard" as the Opportunity Record Type. Click "Save" on the opportunity and you will be brought back to the "Link/Create Opportunity" page. Click `Link & Make Primary` and you will be brought back to the deal registration record.
-    ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
+    ![15-Link_Create_Opp_Screen](/images/sales/field-operations/channel-operations/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
    - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
    - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
-    ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
+    ![17-Approve_Deny_Partner_Manager](/images/sales/field-operations/channel-operations/17-Approve_Deny_Partner_Manager.png)
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` to the Sales Rep who owns the customer account using the `Change Opportunity Owner` button on the opportunity.
-    ![19-Change_Opp_Owner_Button](/handbook/sales/field-operations/channel-operations/images/19-Change_Opp_Owner_Button.png)
+    ![19-Change_Opp_Owner_Button](/images/sales/field-operations/channel-operations/19-Change_Opp_Owner_Button.png)
 
 #### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
 2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
-    ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
+    ![18_1-Approve_Reject_Return_Button](/images/sales/field-operations/channel-operations/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
-    ![18_2-ASM_Approval](/handbook/sales/field-operations/channel-operations/images/18_2-ASM_Approval.png)
+    ![18_2-ASM_Approval](/images/sales/field-operations/channel-operations/18_2-ASM_Approval.png)
 
 _The deal registration form is not a quoting tool and will not have all the information needed to create a quote. The GitLab Sales Rep must connect with the partner to request any necessary information prior to creating a quote._
 
@@ -654,40 +692,40 @@ Follow the steps below to process a Service Attached Registration for an applica
    - There may also be a Resale or Referral Partner Sourced Deal Registration for the license sale. The Resale or Referral registration will populate in the opportunity fields, while the Service Attached registration will only be linked to the opportunity.
    - A Service Attached Registration **must** attach to a license sale opportunity.
    - There should already be an existing license sale opportunity in the system prior to processing approvals on a Service Attached Registration. If there is no existing license opportunity, the Ecosystem Sales Manager should request that the partner submit a Partner Sourced Deal Registration for the license sale. Once the Ecosystem Sales Manager has processed the Partner Sourced Deal Registration, they can attach the Service Attached Registration to the existing opportunity and proceed with approvals.
-    ![16-Returned_Reg](/handbook/sales/field-operations/channel-operations/images/16-Returned_Reg.png)
+    ![16-Returned_Reg](/images/sales/field-operations/channel-operations/16-Returned_Reg.png)
 1. Discuss the Service Attached registration with the GitLab Sales Rep and ASM and decide to either approve or reject.
 1. Click `Link/Create Opportunity`.
-    ![20-Svce_Att_Reg_LinkCreateOpp_Button](/handbook/sales/field-operations/channel-operations/images/20-Svce_Att_Reg_LinkCreateOpp_Button.png)
+    ![20-Svce_Att_Reg_LinkCreateOpp_Button](/images/sales/field-operations/channel-operations/20-Svce_Att_Reg_LinkCreateOpp_Button.png)
 1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
    - **If the opportunity already exists**, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, and you plan to:
      - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
      - _**Reject**_ the registration, click the `Back` button and proceed to the next step.
-   - **The opportunity must be less than 6 months old to qualify for the incentive**. If the opportunity is greater than 6 months old, the Ecosystem Sales Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
-     ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/handbook/sales/field-operations/channel-operations/images/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
+   - **The opportunity must be less than 6 months old to qualify for the incentive. If the Opportunity has already Closed-Won, chatter `@Partner Operations` to link the Service Attached Registration to the Closed-won opportunity**. If the opportunity is greater than 6 months old, the Ecosystem Sales Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
+     ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/images/sales/field-operations/channel-operations/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
 
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
    - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
    - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
-    ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
+    ![17-Approve_Deny_Partner_Manager](/images/sales/field-operations/channel-operations/17-Approve_Deny_Partner_Manager.png)
 
 #### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
 
 1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
 2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
 3. Click `Approve/Deny/Return Registration`.
-    ![18_1-Approve_Reject_Return_Button](/handbook/sales/field-operations/channel-operations/images/18_1-Approve_Reject_Return_Button.png)
+    ![18_1-Approve_Reject_Return_Button](/images/sales/field-operations/channel-operations/18_1-Approve_Reject_Return_Button.png)
 4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
-    ![18_2-ASM_Approval](/handbook/sales/field-operations/channel-operations/images/18_2-ASM_Approval.png)
+    ![18_2-ASM_Approval](/images/sales/field-operations/channel-operations/18_2-ASM_Approval.png)
 
 #### Post-Approval
 
 1. The registration and opportunity records will be updated with the approval information.
 
    - A Service Attached registration will **not** populate the Partner Sourced Deal Registration section of an opportunity. Click the related list link at the top of the opportunity to locate the Service Attached registration. This will bring you to a list of any registration attached to the opportunity, including the Service Attached Registration.
-   ![10-Reg_Related_Lists](/handbook/sales/field-operations/channel-operations/images/10-Reg_Related_Lists.png)
+   ![10-Reg_Related_Lists](/images/sales/field-operations/channel-operations/10-Reg_Related_Lists.png)
    - Alternatively, you can scroll to the "Registrations" section toward the bottom of the opportunity.
-     ![11-Reg_for_Svc_Att](/handbook/sales/field-operations/channel-operations/images/11-Reg_for_Svc_Att.png)
+     ![11-Reg_for_Svc_Att](/images/sales/field-operations/channel-operations/11-Reg_for_Svc_Att.png)
 
 1. The Partner delivers services, either before or after the license sale is completed.
 
@@ -743,7 +781,7 @@ Partner influence activities include customer executive engagement and advocacy 
 Follow the steps below to track a partner's influence on an opportunity:
 
 1. From the Related List Quick Links at the top of the opportunity page, hover your cursor over Influence Partners and select `New Influence Partner`
-    ![Alt text](image.png)
+    ![Alt text](/images/sales/field-operations/channel-operations/image.png)
 1. Add a partner to the `Influence Partner` field using the lookup button
 1. Select the applicable `Influence Type`:
     - Customer executive engagement and advocacy
@@ -759,7 +797,7 @@ Follow the steps below to track a partner's influence on an opportunity:
 1. Provide a detailed description of the partner's influence activities using `Description of Partner Influence`
 1. Do not edit `Opportunity Owner`, `ASM`, `Ecosystem Sales Manager` and `Customer Account`. These will auto-populate upon save
 1. `Save` the Influence Partner Record
-    ![Alt text](image-1.png)
+    ![Alt text](/images/sales/field-operations/channel-operations/image-1.png)
 1. Attach any supporting documentation that highlights the partner's influence on the opportunity via `Google Docs, Notes, & Attachments` section.
 
 ## Channel Approvals
@@ -773,34 +811,6 @@ If an approver will not be able to approve opportunities due to PTO or some othe
 When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the "Letter of Authorization" button along the top of the page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
 
 The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Ecosystem Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Ecosystem Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
-
-## Partner Support and Communication
-
- Please see the [Partner Support](/handbook/resellers/partner-support/) page.
-
-**External Communication:** Email partnersupport@gitlab.com to include a partner or other external stakeholder for help with partner-related requests. PHD team members monitor the queue and email inbox throughout the day in all time zones.
-
-### Tagging Ecosystem Operations in Salesforce
-
-Here is a general list of items you can chatter `@Partner Operations` for assistance with in Salesforce. Please continue to refer to our respective handbooks for in-depth information before tagging.
-
-Most internal Salesforce (SFDC) and Vartopia system questions and changes, including:
-
-- Channel Compensation Questions
-- Ecosystem Manager Territory Mapping and Account Assignment
-- Deal Registration Record Updates
-- Specific Ecosystem Quoting Questions (Discounts, Approvals,etc.)
-- Distributor Quote Requests
-- SFDC Reporting Issues
-
-Most partner-facing questions and changes to the Impartner (Partner Portal) system, including:
-
-- General Channel Program Questions
-- Partner Portal Access Issues and Resources
-- Reseller Deal Registration Activation
-- Partner Training and Certifications
-- Partner Rebates and Payment Set-Up in Coupa
-- Partner Not-for-Resale (NFR) Licenses
 
 ## Program and Incentive Definitions
 

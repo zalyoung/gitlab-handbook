@@ -35,11 +35,7 @@ Team Members hired prior to April 2022 are legacied in to the medical allowance 
 
 ### Life Insurance
 
-- Death: BRL 50,000
-- Total or partial permanent disability due to accident: BRL 50,000
-- Family funeral assistance: BRL 5,000
-
-Note: All amounts stated above are estimates and may change during the course of the year as more employees in Brazil are added or removed from the policy.
+Remote provides Life Insurance through Prudential. Coverage amount is 24x your monthly salary. Gitlab covers 100% of the premiums. Team Members can assign their Beneficiaries in the Remote portal.
 
 ### Remote - Brazil  Statutory Leave policies
 
@@ -86,7 +82,7 @@ Please enter the dates in Workday and select the `Bereavement` option.
 
 ### Marriage Leave
 
-Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy]({{< ref "paid-time-off" >}}).
+Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy](/handbook/people-group/paid-time-off/).
 
 Please enter the time away in Workday and select the `Paid Time Off` option.
 
@@ -109,7 +105,7 @@ More information can be found below:
 - [Remote Allianz Benefit Guide](https://drive.google.com/file/d/1krO_RGt_H1_kPNgudHeuSIFjJohJuq-h/view)
 - [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view)
 
-Team members in Denmark can also access the [public healthcare system](https://www.healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
+Team members in Denmark can also access the [public healthcare system](https://healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
@@ -249,7 +245,8 @@ To the top of that amount, 24,26% taxes should be added.
 
 ### Life Insurance
 
-Mandatory TGL life insurance is provided via Bliwa Livförsäkring. Lump sum benefit: the basic amount is SEK 285,600 (6 x Price Base Amount – PBA*) upon death before age 55, or after age 55 if there are children under age 17. It decreases for death above age 55, to 1 times PBA between age 64 and age 65.
+All Sweden-based team members will be automatically covered by group life insurance.
+Lump sum benefit: 352,800 SEK for deaths before age 55 (or later if there are children under 17). This benefit decreases with age and is tax-free.
 
 ### Remote - Sweden Statutory Leave Policies
 

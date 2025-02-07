@@ -11,23 +11,23 @@ Click-through demos can be run in multiple ways:
 
 ## GitLab CI Overview demo (OCT 2020- 12.6)
 
- [<img src="./ct-files/ci_overview.png" alt="">](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+ [<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ci_overview.png" alt="">](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 
 ## GitLab Planning to Monitoring (Aug 2019 - 12.0)
 
- [<img src="./ct-files/ptm.png" alt="">](https://tech-marketing.gitlab.io/static-demos/ptm-v14.html)
+ [<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ptm.png" alt="">](https://tech-marketing.gitlab.io/static-demos/ptm-v14.html)
 <!--T [Downloadable macOS](https://drive.google.com/file/d/1H9-l9K9cPhLl7kjSG8np7fvkkCnCRLyH/view?usp=sharing)<br/>
  [Downloadable Windows](https://drive.google.com/file/d/1Sg7jMODZYUvdrkuaS2FI88feWoYv7CxO/view?usp=sharing)-->
 
 ## Create Kubernetes cluster (Aug 2019 - 12.0)
 
-[<img src="./ct-files/gke_setup.png" alt="">](https://tech-marketing.gitlab.io/static-demos/gke_k8s.html)
+[<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/gke_setup.png" alt="">](https://tech-marketing.gitlab.io/static-demos/gke_k8s.html)
 <!--[Downloadable macOS](https://drive.google.com/file/d/1tGpBmyJkMn_ljmFBCAtGkU9DmrPjuGDI/view?usp=sharing)<br/>
 [Downloadable Windows](https://drive.google.com/file/d/1fTkVWsH1okcm_r3MtfRhS-XeeVSExotU/view?usp=sharing)-->
 
 ## Merge Request Approval API (July 2019 - 12.0)
 
- [<img src="./ct-files/mr_approval.png" alt="">](https://tech-marketing.gitlab.io/static-demos/mr_approval.html)
+ [<img src="/images/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/mr_approval.png" alt="">](https://tech-marketing.gitlab.io/static-demos/mr_approval.html)
  <!--[Downloadable macOS](https://drive.google.com/file/d/1Uvl4DorNh_eM7Xn_BJhMDv0yFwuHbdtt/view?usp=sharing)<br/>
  [Downloadable Windows](https://drive.google.com/file/d/1EAEuVsRAlLoCTwi5fSOvR959eKFCAsoY/view?usp=sharing)-->
 

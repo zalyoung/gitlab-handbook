@@ -5,7 +5,7 @@ description: "Digital Success team is a post-sales motion, accountable for drivi
 
 ## Digital Success
 
-The Digital Success team is a post-sales motion, accountable for driving customer adoption, measurable outcomes, and customer satisfaction through digital-first strategies, primarily focused on GitLab's long-tail customer base. This team plays a crucial role in scaling our customer success efforts and increasing customer retention and expansion.
+The Digital Success team is a post-sales motion, accountable for driving customer adoption, measurable outcomes, and customer satisfaction through digital-first strategies, with direct accountability for GitLab's long-tail customer base and influence on the customer base as a whole. This team plays a crucial role in scaling our customer success efforts and increasing customer retention and expansion.
 
 ## Responsibilities
 
@@ -123,25 +123,28 @@ The Manager, Digital Success is a Grade 8.
 
 #### Manager, Digital Success Responsibilities
 
-- Manage a team of Digital Success Managers, providing guidance, mentorship, and performance management
-- Develop and implement strategies to improve team performance and efficiency
-- Collaborate with cross-functional teams to align digital success initiatives with broader company goals
-- Oversee the execution of digital onboarding programs, adoption campaigns, and customer enablement initiatives
-- Analyze team performance metrics and customer data to inform strategy and decision-making
-- Contribute to the development of scalable processes and best practices for the Digital Success team
-- Identify opportunities for automation and process improvement to enhance team efficiency
-- Ensure consistent delivery of high-quality digital customer experiences
-- Participate in resource planning and budget management for the Digital Success team
+- Lead a diverse team of content strategists, customer communications specialists, program managers, and customer experience managers focused on digital-first engagement
+- Develop integrated content and communication strategies that drive customer adoption across the tech touch segment
+- Create and execute scalable programs that blend strategic content, targeted communications, and digital experiences
+- Drive cross-functional collaboration between content, communications, product, and technical teams 
+- Implement data-driven approaches to measure content effectiveness, program success, and customer engagement
+- Design and oversee automated customer journey workflows that combine strategic content and communications
+- Establish content governance frameworks and communication standards across digital touchpoints
+- Manage resource allocation and budget planning across content development and program implementation
+- Champion voice of customer insights to inform content strategy and program development
+- Foster a collaborative environment that encourages innovation and continuous improvement
 
 #### Manager, Digital Success Requirements
 
-- Proven experience in Customer Success or related field
-- Proven track record of managing and developing high-performing teams
-- Strong understanding of SaaS business models and digital customer success strategies
-- Experience with customer success platforms, marketing automation tools, and data analytics
-- Excellent project management and organizational skills
-- Strong communication and interpersonal skills, with the ability to collaborate effectively across departments
-- Demonstrated ability to drive customer adoption and retention through digital initiatives
+- Proven experience managing content strategy, customer communications, or digital customer success teams
+- Deep understanding of content operations, communication strategies, and digital customer engagement in SaaS
+- Experience developing and executing programmatic approaches to customer success at scale
+- Strong background in data-driven decision making and success metrics for content and digital programs
+- Demonstrated ability to build and lead cross-functional teams focused on customer experience
+- Experience with marketing automation, content management systems, and customer success platforms
+- Excellence in strategic planning and program management for large-scale digital initiatives
+- Strong editorial judgment and understanding of brand voice and customer communication best practices
+- Track record of driving customer adoption through integrated content and digital programs
 - Alignment with GitLab values and ability to work in accordance with those values
 
 ### Senior Manager, Digital Success
@@ -155,25 +158,27 @@ The Senior Manager, Digital Success is a Grade 9.
 ### Senior Manager, Digital Success Responsibilities
 
 - Extends the Manager, Digital Success role
-- Design and implement comprehensive digital success strategies aligned with GitLab's overall customer success objectives
-- Drive the adoption and optimization of digital-first programs to improve product adoption, customer retention, and expansion
-- Collaborate with senior leadership across departments to create and execute on strategic initiatives
-- Oversee the development and implementation of sophisticated customer health scoring systems and predictive analytics
-- Lead the evaluation and implementation of new technologies and tools to enhance digital success capabilities
-- Develop and manage KPIs for the Digital Success organization, ensuring alignment with company-wide objectives
-- Contribute to long-term strategic planning for the Customer Success organization
-- Manage budget and resource allocation for the Digital Success team
+- Develop comprehensive strategic frameworks that align content, communications, and digital programs with objectives
+- Lead the vision and strategy for tech touch customer success, incorporating content strategy and digital engagement
+- Build and optimize scalable operating models for content creation, program delivery, and customer engagement
+- Drive innovation in customer experience through strategic use of content, automation, and digital touchpoints
+- Establish advanced analytics frameworks to measure content effectiveness and program impact
+- Partner with senior leadership to align digital success strategies with product, marketing, and business goals
+- Design organizational structures and career development paths for content and program management teams
+- Lead strategic planning and budget management for all digital success initiatives
+- Foster a culture of experimentation and continuous improvement in content strategy and program delivery
 
 ### Senior Manager, Digital Success Requirements
 
-- Proven track record of building and scaling successful digital customer success programs
-- Deep understanding of SaaS business models, customer lifecycle management, and digital engagement strategies
-- Experience with advanced customer success platforms, marketing automation tools, and business intelligence systems
-- Strong analytical skills with the ability to translate complex data into actionable insights and strategies
-- Excellent leadership skills with the ability to inspire and develop high-performing teams
-- Strategic thinking and problem-solving skills, with the ability to navigate complex business challenges
-- Strong communication and presentation skills, with experience presenting to executive leadership
-- Demonstrated ability to drive significant improvements in key customer success metrics
+- Extensive experience leading content strategy, customer communications, or digital success organizations
+- Proven track record of building and scaling content operations and digital programs in high-growth environments
+- Deep expertise in customer experience design, content strategy, and digital engagement for tech touch segments
+- Strong understanding of content technology, marketing automation, and customer success platforms
+- Advanced analytical capabilities with focus on content performance, program effectiveness, and success metrics
+- Executive presence with ability to influence senior stakeholders and drive organizational change
+- Experience building and developing diverse teams across content, communications, and program management
+- Strategic vision for evolving customer success through integrated content and digital approaches
+- Demonstrated success in driving business outcomes through scalable customer success programs
 - Alignment with GitLab values and ability to work in accordance with those values
 
 ### Director, Digital Success

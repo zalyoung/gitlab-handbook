@@ -3,7 +3,7 @@ title: "Guide"
 description: "Guide is a program GitLab uses to increase candidate experience by having an easily digestable and enjoyable resource that houses all interview details and relevant handbook pages depending on where the candidate is in the hiring process."
 ---
 
-[Guide](https://guide.co) is a tool that helps manage candidate experience.
+[Guide](https://www.guide.co/) is a tool that helps manage candidate experience.
 
 Please ensure you have the [Guide Chrome extension](https://chrome.google.com/webstore/detail/guide/hpdfplaccgajokgmocbcpiicbkkjione) installed on your computer.
 

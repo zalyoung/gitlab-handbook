@@ -93,7 +93,7 @@ To submit a security change request, use one of the links below to create a chan
 Follow the instructions in the appropriate issue template to:
 
 - Add the appropriate level of detail to the request
-- Assign the appropriate team member(s) to the request in accordance with the [roles and responsibilities]({{< ref "security-change-management-procedure#roles--responsibilities" >}}) and [approval matrix]({{< ref "security-change-management-procedure#approval-matrix" >}}) sections
+- Assign the appropriate team member(s) to the request in accordance with the [roles and responsibilities](/handbook/security/security-change-management-procedure/#roles--responsibilities) and [approval matrix](/handbook/security/security-change-management-procedure/#approval-matrix) sections
 
 [Security Change Management project](https://gitlab.com/gitlab-com/gl-security/security-change-management)
 

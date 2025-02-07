@@ -25,9 +25,9 @@ In this section we will review various topics that impact new managers. For firs
 
 There are some great articles regarding being new to leadership. Please review the following links for additional reading.
 
-- [15 Tips for New Managers](https://www.thebalancecareers.com/tips-for-new-managers-part-1-2275957)
+- [15 Tips for New Managers](https://www.liveabout.com/tips-for-new-managers-part-1-2275957)
 - [Becoming a Manager: What No One Tells You](https://www.jodymichael.com/blog/becoming-manager-no-one-tells/)
-- [How to Transition From Solo Expert to Effective Manager](https://www.thebalancecareers.com/transitioning-from-solo-expert-to-effective-manager-4116889)
+- [How to Transition From Solo Expert to Effective Manager](https://www.thebalancemoney.com/transitioning-from-solo-expert-to-effective-manager-4116889)
 - [Functions of Managers](https://www.cliffsnotes.com/study-guides/principles-of-management/the-nature-of-management/functions-of-managers)
 - [The Mental Shift From Individual Contributor to Manager](https://greatmanager.co/the-mental-shift-from-individual-contributor-to-manager-df89b4421713)
 
@@ -42,15 +42,15 @@ As a manager you are now responsible for hiring team members to fill open vacanc
 - If unsure, don't ask it
 - Don't make promises or imply anything
 - Ask consistent questions of all candidates
-- Here is a great article to reference for additional information [Keep the interview legal](https://hiring.monster.com/employer-resources/talent-acquisition-strategies/interviewing-candidates/legal-job-interview-questions/)
+- Here is a great article to reference for additional information [Keep the interview legal](https://hiring.monster.com/resources/recruiting-strategies/interviewing-candidates/legal-job-interview-questions/)
 
 ### Harassment
 
-You are responsible as a manager to create and sustain a work environment in which all GitLab team members understand and know the ethical and legal behaivor that is required of them. As a manager you need to familiarize yourself with the [Code of Business Conduct & Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf).  One issue managers may face is harassment.  GitLab's [Anti-Harassment]({{< ref "anti-harassment" >}}) policy makes it clear that team members have a right to a harassment-free work environment.  For further details regarding harassment please read the [Anti-Harassment Policy]({{< ref "anti-harassment" >}}).  As a manager if are made aware of or witness any form of harassment you must  reach out to your aligned people business parter immediately to discuss the issue.  You can find your aligned people business partner on the [People Business Partner Alignment](/handbook/people-group#people-business-partner-alignment-to-division) section of the handbook. Take a moment and review both the [People Group](/handbook/people-group#how-to-report-violations)'s reporting section, as well as the [Questions, Reporting and Effect of Violations](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) section of the Code of Ethics to familiarize yourself with the reporting and investigation process.
+You are responsible as a manager to create and sustain a work environment in which all GitLab team members understand and know the ethical and legal behaivor that is required of them. As a manager you need to familiarize yourself with the  [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).  One issue managers may face is harassment.  GitLab's [Anti-Harassment](/handbook/people-group/anti-harassment/) policy makes it clear that team members have a right to a harassment-free work environment.  For further details regarding harassment please read the [Anti-Harassment Policy](/handbook/people-group/anti-harassment/).  As a manager if are made aware of or witness any form of harassment you must  reach out to your aligned people business parter immediately to discuss the issue.  You can find your aligned people business partner on the [People Business Partner Alignment](/handbook/people-group#people-business-partner-alignment-to-division) section of the handbook. Take a moment and review both the [People Group](/handbook/people-group#how-to-report-violations)'s reporting section, as well as the [Questions, Reporting and Effect of Violations](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) section of the Code of Ethics to familiarize yourself with the reporting and investigation process.
 
 ### Discrimination
 
-You are responsible as a manager in ensuring that all team members are treated consistently.  Please familiarize yourself with the [Discrimination]({{< ref "anti-harassment#discrimination" >}}) section of the Anti-Harassment policy.  Like harassment a manager is required to immediately reach out to their aligned People Business Partner if they believe any discrimination has occurred.  As a hiring manager here a few questions you can ask yourself to ensure all team members are treated consistently:
+You are responsible as a manager in ensuring that all team members are treated consistently.  Please familiarize yourself with the [Discrimination](/handbook/people-group/anti-harassment/#discrimination) section of the Anti-Harassment policy.  Like harassment a manager is required to immediately reach out to their aligned People Business Partner if they believe any discrimination has occurred.  As a hiring manager here a few questions you can ask yourself to ensure all team members are treated consistently:
 
 - Am I holding this team member to stricter or different performance and behavioral standards than their peers?
 - Am I treating this team member differently than I am treating team members with similar skills, abilities and accomplishments?
@@ -64,5 +64,3 @@ GitLab is committed to a work environment that is free of harassment, discrimina
 If managers have any questions regarding their role related to the above topics, process or other related questions please schedule time with your people business partner.  Your people business parter is here to help guide you and provide counsel related to all team member related issues.
 
 ### Diversity, Inclusion & Belonging
-
- A link to the Building an Inclusive Remote Culture can be found here at [Building an Inclusive Remote Culture](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#introduction).  Make sure you review the [Tips for Managers](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#tips-for-managers)

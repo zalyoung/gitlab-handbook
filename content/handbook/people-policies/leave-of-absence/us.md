@@ -9,6 +9,8 @@ This page is designed to educate our team members about the different US-specifi
 
 Taking time away can be confusing, so your Absence Managment team is here and available to help before, during, or after your leave. If you have any questions related to your time away after reviewing this page, please contact leaves@domain to discuss or request a 1:1 with the Absence Management team.
 
+**Please note:** When sending emails to the Absence Management team, please replace `@domain` with `@gitlab.com`.
+
 ## Which leave is right for me?
 
 Below are the GitLab and US-specific leave policies available to US team members, as well as common examples of how each leave may be used. This list may not be all inclusive, so if you have questions regarding which leave may be right for you please contact leaves@domain.
@@ -31,7 +33,7 @@ Below are the GitLab and US-specific leave policies available to US team members
 | [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) | 16 weeks | Yes* |
 | [Family Medical Leave Act<br>(FMLA- Own Condition)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
 | [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
-| [California Family Rights Act (CFRA)](https://www.edd.ca.gov/disability/faqs-fmla-cfra.htm) | Up to 12 weeks** | Yes |
+| [California Family Rights Act (CFRA)](https://edd.ca.gov/en/disability/faqs-fmla-cfra) | Up to 12 weeks** | Yes |
 | Military Leave (USERRA) | Cumulative 5 years | Yes, up to 5 years* |
 
 *Except in certain circumstances
@@ -145,7 +147,7 @@ Team members are required to provide:
 - A copy of the covered servicemember's active duty orders when the team member requests leave and/or documentation (such as Rest and Recuperation leave orders) issued by the military setting forth the dates of the servicemember's leave; and
 - A completed Certification of Qualifying Exigency form within 15 calendar days, unless unusual circumstances exist to justify providing the form at a later date.
 
-Certification forms are available from the Absence Management team (leaves@gdomain).
+Certification forms are available from the Absence Management team (leaves@domain).
 
 **Failure to Provide Notice or Certification and to Return From Leave**
 

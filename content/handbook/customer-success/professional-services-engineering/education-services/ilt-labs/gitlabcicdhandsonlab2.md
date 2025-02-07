@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Rules and Merging Changes"
 description: "This Hands-On Guide demonstrates how to configure rules and merge request pipelines"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Overview of branch, merge request, and merged results pipelines
@@ -122,7 +124,8 @@ A merge request pipeline will run every time you make a change to a branch in a 
 
 To define a job that runs in a merge request, we will add a rules definition to the job. The rule we add will check the `CI_PIPELINE_SOURCE` to see if it is merge_request_event.
 
-1. Open your `.gitlab-ci.yml` file in the pipeline editor
+1. Open your `.gitlab-ci.yml` file in the pipeline editor.
+
 1. Below the `script` for your `build go` and `run go` jobs, add the following rule:
 
     ```yml

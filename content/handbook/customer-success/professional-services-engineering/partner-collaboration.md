@@ -211,7 +211,7 @@ Month end deadlines for timesheet submissions are posted in the partner slack ch
 
 ### Partner Monthly Invoicing
 
-Each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC who originally submitted the PO request within the Procurement System will receive an email notification that there is an invoice waiting for approval.
+After each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC assigned will receive an email notification that there is an invoice waiting for approval.
 Invoies should be submitted in Coupa on the first week each month for the previos month. For example, work performed between May 1-31 would be submitted in Coupa on the first week of June. If invoices are not submitted by the 15th of each month, the PS Operations Team will follow up with the Partner lead to ensure the invoices are submitted on time.
 
 Invoices should be submitted in Coupa with the following details:
@@ -225,7 +225,12 @@ Invoices should be submitted in Coupa with the following details:
 - Hourly Rate
 - Total
 
-Be sure that there is a seperate line for each project.
+[See Example](/handbook/customer-success/professional-services-engineering/examples/partner_invoice_mockup.md)
+
+There should be 1 invoice submitted each month for each partner, then have a line broken out for each project.
+If there is a need to have multiple invoices submitted each month, then approval would need to be obtain from the Operations Manager
+
+If additional support is needed, please, be sure to reach out in your partner slack channel.
 
 Coupa Helpful Resources:
 

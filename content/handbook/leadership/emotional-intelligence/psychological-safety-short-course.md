@@ -19,7 +19,7 @@ You are free to do both of course, but the content is duplicated across the two 
 
 ## Introduction to Psychological Safety
 
-1. [Review the Psychological Safety Handbook Page]({{< ref "psychological-safety" >}})
+1. [Review the Psychological Safety Handbook Page](/handbook/leadership/emotional-intelligence/psychological-safety/)
 1. **Welcome to Psychological Safety: Understanding, Empowerment & Self-Reflection**
 
 ### First, what is psychological safety?

@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through the process of creating feat
 
 The next step in your development process is to determine an appropriate deployment strategy for your application. Rolling out changes to all users at once is a risky strategy, since any errors will impact all of your users and potentially cause outages. To mitigate this, you can take advantage of GitLab’ deployment features. In this section, you will learn how to implement a feature flag in your application to allow for a gradual rollout of features.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -95,4 +95,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request.

@@ -11,7 +11,7 @@ description: "Diversity, Inclusion & Belonging is fundamental to the success of 
 Diversity, Inclusion & Belonging is fundamental to the success of GitLab.  We include it in every way possible and in all that we do.  We strive for a transparent environment where all globally dispersed voices are heard and welcomed.  We strive for an environment where people can show up as their full selves each day and can contribute to their best ability.  And with over 100,000 organizations utilizing GitLab across the globe, we strive for a team that is representative of our users.
 
 Diversity complements our other [values](/handbook/values/), specifically Collaboration, Efficiency and Results.
-And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
+And diversity in our leadership [supports innovation](https://www.bcg.com/publications/2018/how-diverse-leadership-teams-boost-innovation), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
@@ -37,21 +37,20 @@ Sometimes we can see things that make us diverse and sometimes we can't. We beli
 
 The context is "at GitLab" or "in a specific department or team at GitLab."
 This term is generally used in the context of reporting on how GitLab is working on understanding and improving the sourcing, interviewing, hiring, and retention of those who either want to work or currently work at GitLab.
-Institutes like the [National Science Foundation](https://www.nsf.gov/mps/dmr/diversity.jsp) use the word "underrepresented" when discussing research around diversity so we have chosen to use it as well in order to be able to set goals around the data we have and understand where we need to work harder.
 
 - A single person **should not** be referred to as a "diverse person" or a "diversity hire" which would imply they are not included in the current community or that they are only employed because of a factor that is not directly related to their skills and their ability to do their job.
 - People should not be singled out or "othered" by labels with cold terminology in personal interactions.
 
 For additional information about how GitLab uses this data to make progress, please see ["select underrepresented group"](#examples-of-select-underrepresented-groups)
 
-**Inclusion** is the ability to recognize, respect, and value differences in those around us.  It focuses on the action and understanding of what makes us diverse and working towards building a diverse team and creating welcoming workplace. It requires skills such as empathy, openness, listening, etc.  This lays the foundation of an inclusive mindset.  The foundation of understanding gives way to the actions and being intentional about creating policies and practices that embrace diversity that in the end change the overall company culture to create an environment of inclusion. Inclusion also means being aware of both [positive and negative biases]({{< ref "unconscious-bias" >}}) and how those biases impact who we hire, work with, and retain.
+**Inclusion** is the ability to recognize, respect, and value differences in those around us.  It focuses on the action and understanding of what makes us diverse and working towards building a diverse team and creating welcoming workplace. It requires skills such as empathy, openness, listening, etc.  This lays the foundation of an inclusive mindset.  The foundation of understanding gives way to the actions and being intentional about creating policies and practices that embrace diversity that in the end change the overall company culture to create an environment of inclusion. Inclusion also means being aware of both [positive and negative biases](/handbook/company/culture/inclusion/unconscious-bias/) and how those biases impact who we hire, work with, and retain.
 
-GitLab believes that many perspectives coming together creates a more innovative environment to work in with more satisfied teammates, leading to a better product and increased profitability.
+GitLab believes that many perspectives coming together creates a more innovative environment to work in with more satisfied team members, leading to a better product and increased profitability.
 
 **Belonging** is a feeling that your insights and contributions are valued. It goes back to team members feeling they can bring their full selves to work. It's not enough to simply include people to have a "seat at the table", but it's important to amplify everyone's voices, remove barriers and appreciate each others for their unique backgrounds.
 Embracing inclusion may increase the **sense of belonging**. Team members become more engaged and are invested in the work they are doing, because they are able to see themselves in the work being accomplished with the company overall.
 
-We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
+We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs](/handbook/people-group/directly-responsible-individuals/) for all our work. [DRIs do not owe anyone an explanation for their decisions](/handbook/people-group/directly-responsible-individuals/#empowering-dris), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
 All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree](/handbook/values/#disagree-and-commit)- but everyone can contribute and it is on the DRI to acknowledge those.
 Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings](/handbook/values/#negative-feedback-is-1-1).
@@ -76,20 +75,20 @@ An underrepresented group describes a subset of a population that holds a smalle
 At GitLab, we consider the following groups to be *underrepresented groups*:
 
 - Women - Globally
-- Women in [Management]({{< ref "structure#organizational-chart" >}}) - Globally
-- Women in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - Globally
+- Women in [Management](/handbook/company/structure/#organizational-chart) - Globally
+- Women in [Senior Leadership](/handbook/company/structure/#organizational-chart) - Globally
 - Black/African American - United States
-- Black/African American in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Black/African American in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Black/African American in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Black/African American in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 - Hispanic/Latino - United States
-- Hispanic/Latino in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Hispanic/Latino in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Hispanic/Latino in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Hispanic/Latino in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 - Indigenous Peoples/Alaska Native - United States
-- Indigenous Peoples/Alaska Native in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Indigenous Peoples/Alaska Native in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Indigenous Peoples/Alaska Native in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Indigenous Peoples/Alaska Native in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 - Hawaiian/Pacific Islander - United States
-- Hawaiian/Pacific Islander in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Hawaiian/Pacific Islander in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Hawaiian/Pacific Islander in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Hawaiian/Pacific Islander in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 
 **Due to data and or legal limitations, this is not an exhaustive list of all of our underrepresented groups. Those with disabilities, those that identify as LGBTQIA+, those who choose not to disclose as well as underrepresented ethnicities outside of the US, etc.
 
@@ -101,15 +100,9 @@ Source: GitLab's People Analytics Team, WorkDay
 
 ## Diversity, Inclusion and Belonging Team
 
-- [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
 - [Sherida McMullan](/handbook/company/team/#sheridam) - Vice President, Diversity, Inclusion and Belonging
-
-## Request Needed or Want to Learn More?
-
-- Have a request for DIB support?  [Open an issue here](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/new?issue%5Bmilestone_id%5D=).
-- Stay updated via our slack channel - `#diversity_inclusion_and_belonging`
-- Have questions or suggestions for diversity, inclusion and belonging?  Please email `diversityinclusion@gitlab.com`
-- **Monthly DIB Initiatives Company Call**. This call will allow time for GitLab team members to gain an understanding of what we are doing with DIB here at GitLab. It is the second Wednesday of every month. If you aren't able to attend live calls, and would like to listen in on past calls, you can do so [here](https://www.youtube.com/playlist?list=PL05JrBw4t0KqB4N2ruo8nsCwQzBocw-Hn) with our DIB playlist.  You have to be logged into GitLab Unfiltered. If you are not sure how to log into GitLab Unfiltered, you can review how to [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+- [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
+- Naomi Johnson - DIB Business Partner
 
 ## Values
 
@@ -143,12 +136,6 @@ Please see our [identity data](/handbook/company/culture/inclusion/identity-data
 
 ## What we are doing with Diversity, Inclusion & Belonging
 
-### Diversity Inclusion & Belonging Roundtables
-
-A [DIB roundtable](dib-roundtables.md) is a great way to build deeper connections with team members and develop safe spaces to discuss DIB related issues. The DIB roundtable will ask team members to share stories and anecdotes as well as challenge team members to think about how they personally and collectively can positively impact DIB.
-
-This page outlines the process of [DIB Roundtables](dib-roundtables.md). These can be self-organized or organized by the DIB Team.
-
 ### Talent Acquisition initiatives
 
 [This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives](talent-acquisition-initiatives/).
@@ -159,19 +146,15 @@ This page outlines the process of [DIB Roundtables](dib-roundtables.md). These c
 
 ### Sales Initiatives
 
-[This page provides and overview of Diversity, Inclusion and Belonging Initiatives within Sales]({{< ref "women-in-sales-mentorship-pilot-program" >}})
-
-[Sales Sponsorship Program]({{< ref "dib-sponsorship-program" >}})
+- TBD
 
 ### #IamRemarkable Workshop
 
-[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to empower women and other underrepresented groups to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
+[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to individuals to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
 
 #### Logistics
 
 At GitLab we launched the #IamRemarkable workshop in April 2021, and aim to continue with two workshops per quarter on an ongoing basis. Before the start of each quarter, a quarterly workshop planning issue will be opened where team members have the opportunity to volunteer to participate. Slots will be allocated on first come first serve basis.
-
-Our pilot workshop was for team members who are a part of our Women's TMRG. Our Q2 workshops will be open for any member of an underrepresented group, from Q3 moving forward, we will also have three slots/session for allies to attend the workshops.
 
 The workshops are kept to a max of 15 team members to generate more comfort and psychological safety within the group, in addition to providing everyone with an opportunity to share and contribute to discussion. Each workshop is two hours in duration. Due to the personal nature of the workshop, we do not record #IamRemarkable sessions.
 
@@ -185,27 +168,21 @@ Currently, we have three GitLab team members who are certified to facilitate the
 
 In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://www.rmrkblty.org/iamremarkableabout-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
 
-### Stay Interviews or Team Member Experience Interviews
-
-The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with Sid. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
-
 ### Inclusive benefits
 
-We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}), a one-stop shop for all tools related to mental well-being and self-improvement.
+We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health/), a one-stop shop for all tools related to mental well-being and self-improvement.
 
 ### Inclusive language
 
-In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffingtonpost.com/2015/06/02/textio-unitive-bias-software_n_7493624.html). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
-
-- For an additional resource, we also have a presentation on [Inclusive Language](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)
+In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys".
 
 ### TMRGs - Team Member Resource Groups
 
-We have created several TMRGs and welcome interest in creating new ones. Would you like to sign up for an Team Member Resource Group, start an TMRG, or just learn more?  See our [TMRG Guide]({{< ref "erg-guide" >}}).
+We have created several TMRGs and welcome interest in creating new ones. Would you like to sign up for an Team Member Resource Group, start an TMRG, or just learn more?  See our [TMRG Guide](/handbook/company/culture/inclusion/erg-guide/).
 
 ### Military veterans and spouses
 
-GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere]({{< ref "building-culture" >}}) to thrive in when returning to civilian life.
+GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab](/handbook/company/culture/#life-at-gitlab) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere](/handbook/company/culture/all-remote/building-culture/) to thrive in when returning to civilian life.
 
 Our [all-remote culture](/handbook/company/culture/all-remote/) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
 
@@ -227,11 +204,6 @@ If you are unsure how to answer, please review our [Individual with Disabilities
 
 At GitLab, we are proud to make reasonable accommodations to the known disability of a team member. Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you need a reasonable accommodation due to your disability. Find more information on GitLab Inc's [Individuals with Disabilities](/handbook/people-policies/inc-usa#individuals-with-disabilities-policy) policy.
 
-#### Related Disability Legislation
-
-- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
-- [Global Disability Legislation](https://williamsav.com/wp-content/uploads/2020/06/Global_summary_of_disability_leg.pdf)
-
 ### United States Veteran Inclusion
 
 The United States Office of Federal Contract Compliance Programs (OFCCP) enforces the affirmative action provisions of the Vietnam Era Veterans' Readjustment Assistance Act of 1974. This law, sometimes referred to as VEVRAA, requires employers doing business with the United States Federal Government (such as our GitLab Federal entity) to take steps to recruit, hire and promote protected veterans. It also makes it illegal to discriminate against protected veterans when making employment decisions on hiring, firing, pay, benefits, job assignments, promotions, layoffs, training, and other employment-related activities. Under VEVRAA, a veteran who served on active duty in the U.S. military and was discharged or release from service under conditions other than dishonorable may be classified as one or more of the four Protected Veteran categories:
@@ -251,20 +223,11 @@ The options of this field are:
 
 Above this field, we have a section titled `Veteran Status` that we ask our US-based team members to review and also complete during the onboarding process, if it applies to them and if they so wish. The reason we ask is because it is a legal requirement in the United States for us to request and document this information. We encourage our US-based GitLab team members to self-disclose their Veteran Status in our HRIS without any fear of judgment or negative consequences, but it is always optional. Again, all veteran status data is completely confidential, and only requested for mandatory reporting purposes.
 
-If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
+If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/agencies/ofccp/compliance-assistance/outreach/reasonable-accomodation-pocket-card). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
 ### Diversity, Inclusion & Belonging Learning & Development
 
-- We have a variety of trainings on [GitLab University](https://university.gitlab.com/learn/dashboard) including
-  - DIB @ GitLab
-  - Neurodiversity in the Workplace
-  - Digital Accessibility
-  - With many others to increase your knowledge on DIB Subjects
-- [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
-- [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
-- [Delivering Through Diversity](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
- To earn badges and save your responses, you'll need to sign up! Use your GitLab address to sign in using Google+.
-- To be truly inclusive is to be aware of your biases as well as strategies for stopping the effects of those biases. As part of our efforts, we recommend everyone to partake in [the Harvard project Implicit test](https://implicit.harvard.edu/implicit/takeatest.html) which focuses on the hidden causes of everyday discrimination.
+- TBD
 
 ### Process for learning material and course creators
 

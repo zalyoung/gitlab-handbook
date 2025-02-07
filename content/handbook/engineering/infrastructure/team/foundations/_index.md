@@ -4,52 +4,41 @@ title: "Production Engineering Foundations Team"
 
 ## Mission
 
-The mission of the Production Engineering Foundations team at GitLab is to own the lifecycle of the core infrastructure for GitLab Saas instances and services. We seek to reduce the effort required to provide our core infrastructure services, and to enable other teams to self-serve core infrastructure that allows them to more efficiently and effectively run their services across all GitLab offerings.
+The mission of the Production Engineering Foundations team at GitLab is to build and evolve the networking infrastructure that powers GitLab SaaS while maintaining the stability of select core platform services. We focus on developing innovative networking solutions that scale with GitLab's growth, while ensuring our maintained services remain reliable and efficient.
 
 ## Vision
 
-The Foundations teams North Star consists of two pieces:
+The Foundations team's North Star consists of two pieces:
 
-1. **Creating a platform that drives vertical ownership of engineering services.** We will do this by providing the rest of engineering the resources and tools needed for them to manage their infrastructure and core services in a way that makes it easy for other teams to adopt the best practices and conventions defined by our team. By moving towards centralized sets of tooling for all GitLab instances and all services to work from, we will create a culture of scalability for the future of GitLab infrastructure.
-1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what is automated and is done manually so as GitLab grows, the toil involved in running it is maintained at a minimal level for the team.
+1. **Excellence in networking infrastructure.** We will drive GitLab's networking capabilities for GitLab forward by building scalable, secure, and efficient solutions. This includes evolving our edge services, load balancing, rate limiting, and network security to meet the growing demands of all GitLab platforms. Through centralized networking tooling and infrastructure, we create a foundation that supports GitLab's continued growth and innovation.
+1. **Sustainable toil and service maintenance.** While toil is inherent in SRE work, we will adopt processes and policies that create an effective balance between automation and manual work. This approach ensures we can maintain our core infrastructure services reliably while keeping operational overhead minimal as GitLab grows. We strive for efficiency in both our day-to-day operations and our maintenance of essential platform services.
 
 ## Responsibilities
 
-### Ownership
+### Primary Areas of Ownership
 
-There are two primary areas can be considered our flagship services that we actively work to improve and expand:
+The Foundations team's flagship focus is our networking infrastructure, which we actively work to improve and expand:
 
-- Networking (From edge, to ingress. Including, but not limited to: load balancing, WAF, DNS, VPC)
-- Rate limiting
+#### Networking Infrastructure
 
-### Services
+- [Edge](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/) and [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/#what-is-ingress) services
+- Load balancing ([HAProxy](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/frontend/haproxy.md), Ingress)
+- Web Application Firewall (WAF)
+- DNS ([AWS Route 53](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/manage-dns-entries.md), [Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
+- [VPC management](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
+- CDN ([Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
+- Network security and access controls
+- Service discovery ([Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul))
+- [Rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
+  - Design and implementation of rate limiting services
 
-Foundations is responsible for several services related to GitLab SaaS Platforms. The Services that the Foundations team is responsible for fall into two general categories: Core and Edge.
+### Maintained Services
 
-#### Core
+While these services are essential to GitLab's infrastructure, we focus on maintaining their stability and reliability rather than actively expanding their capabilities. Features and improvements will not be prioritized:
 
-Core services are services that are within GitLab.com's ecosystem, generally not talking directly to incoming traffic.
-
-| Service | Description | Co-Ownership? |
-| ------- | ----------- | --------- |
-| K8s | [K8S workloads deployments](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md), Cluster addons | Autodeploy remains with Delivery, and anything Delivery related is co-owned with Delivery |
-| Config | [Terraform](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/terraform-broken-master.md), [Chef](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/config_management), Image Builds | The core TF repos are owned by Foundations, while specific modules may be maintained by the teams that use them |
-| Service discovery | [Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul) | |
-| Secrets Management | [Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault) | Vault is offered as a service to enable teams to manage their own secrets |
-| Ops | [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops), [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md) | |
-
-#### Edge
-
-Edge services are services that sit at the [network edge](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/), or more generally, services that process inbound traffic.
-
-| Service | Description | Co-Ownership? |
-| ------- | ----------- | --------- |
-| CDN | [Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare) | |
-| DNS | [AWS Route 53](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/manage-dns-entries.md), [Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare) | |
-| Load Balancing | [HAProxy](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/frontend/haproxy.md), Ingress | |
-| Networking | [Cloud VPCs](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md), [Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare) | |
-| Rate Limiting | [Rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting) | shared ownership with development teams for specific endpoints and with abuse |
-| RBAC/IAM | [Teleport](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/teleport), GCP IAM permissions and project creation | |
+- [SaaS K8s workloads](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md). GitLab-com is owned by Delivery, Tanka and Helmfiles are often shared by other teams.
+- Secrets Management ([Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault))
+- [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
 
 ## Getting Assistance
 
@@ -71,14 +60,14 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 
 | Priority | Description | Engagement SLA |
 | ------- | ----------- | --------- |
-| Reliability::1 | Very urgent, blocking significant other work | Engage within 24 hours |
-| Reliability::2 | A blocker, but we have workarounds | Engage within 3 business days |
-| Reliability::3 | Not currently a blocker but will be soon | Engage within a week |
-| Reliability::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
+| Production Engineering::1 | Very urgent, blocking significant other work | Engage within 24 hours |
+| Production Engineering::2 | A blocker, but we have workarounds | Engage within 3 business days |
+| Production Engineering::3 | Not currently a blocker but will be soon | Engage within a week |
+| Production Engineering::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
 
 **Note:** Due to the complexity of our systems, we cannot commit to a resolution-based SLA when you open an issue with a given priority level, because we don't know how long something will take to resolve, and there is often more information we need from the stakeholder or external customer, which takes time to obtain. Therefore, we can only commit to an SLA for how quickly we will engage with an issue and prioritize the work.
 
-We endeavor to triage incoming requests twice per week. If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
+We endeavor to triage incoming requests twice per week. If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
 
 ## Considerations for tooling and maintaining our services
 
@@ -94,16 +83,7 @@ We endeavor to triage incoming requests twice per week. If you have an issue tha
 
 ## Key Performance Indicators
 
-KPIs for the team are currently under development in https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24928.
-
-We also internally track team and internal customer satisfaction with regular surveys.
-
-### Internal survey results
-
-- Team Satisfaction - current status: green
-- Customer Satisfaction - current status: green (4.25/5.00)
-
-For more context, see the related [discussion issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/19167).
+KPIs for the team are under development in https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24928.
 
 ## Team Members
 
@@ -123,10 +103,10 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 - [Foundations team meeting agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
 - [Foundations OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=team%3A%3AFoundations&first_page_size=20)
 - GitLab Issues capture smaller, concrete pieces of work, and those labeled `~workflow-infra::In Progress` should be updated weekly or whenever a portion of work has been completed.
-- [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6) - work related discussions, external requests, etc
-- [#g_infra_foundations_social](https://gitlab.slack.com/archives/C04QVEXBVL3) - socializing and standups
-- [#g_infra_foundations_notifications](https://gitlab.slack.com/archives/C04RZC5TPPD) - automated MR notifications
-- [#g_infra_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) - pipeline failures and service alerts
+- [#g_foundations](https://gitlab.slack.com/archives/C0313V3L5T6) - work related discussions, external requests, etc
+- [#g_foundations_social](https://gitlab.slack.com/archives/C04QVEXBVL3) - socializing and standups
+- [#g_foundations_notifications](https://gitlab.slack.com/archives/C04RZC5TPPD) - automated MR notifications
+- [#g_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) - pipeline failures and service alerts
 
 ## How We Work
 
@@ -143,16 +123,15 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 ### Standup
 
-We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
+We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. Any question can be skipped by replying "-".
 
 - Monday questions include:
-  - What are your top priorities this week?
-  - What did you accomplish last week?
-  - What else is on your todo list for the week?
-  - Any blockers or requests for pairing?
+  - What are you working on this week?
+  - Do you have any blockers?
 - Friday questions include:
-  - How did your week go?
-  - What were your wins this week?
+  - What did you do this week?
+  - Do you have any shout outs?
+  - Anything else you'd like to share?
 
 ### Retros
 
@@ -162,27 +141,27 @@ We have a quarterly async retro that aligns with the company fiscal quarters and
 
 We have three buckets of work:
 
-1. OKRs (project work)
+1. Project work
 1. External requests
 1. General operations, also known as Keep the lights on (KTLO)
 
-While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) to understand what specific issues are ready to be picked up.
+While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) to understand what specific issues are ready to be picked up.
 
 In short, anyone on the team can find issues to work on in the Build Board.
 
-When something is prioritized to be worked on, the `Foundations::Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
+When something is prioritized to be worked on, the `Foundations Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
 
 We want the build board to be relatively small in size so it is easy to traverse and there is no confusion around what needs to be worked on. It can provide some options for people to find work, but also prevent key work from being missed.
 
-Different people are responsible for adding the `Foundations::Build` label to issues for each bucket of work:
+Different people are responsible for adding the `Foundations Build` label to issues for each bucket of work:
 
-- OKRs - DRIs of each OKR uses the `Foundations::Build` label to communicate what the next issues needed to be picked up are.
-- External requests - the Engineering manager will add `Foundations::Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations::Build` label when new issues are opened.
+- Project Work - DRIs of each project (epic) uses the `Foundations Build` label to communicate what the next issues needed to be picked up are.
+- External requests - the Engineering manager or person on the [interrupt rotation](#interrupt-rotation) will add `Foundations Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations Build` label when new issues are opened.
 - KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria (prioritization makes sense based on the due date/priority/severity/weight).
 
 From here, people have options when looking for what's next:
 
-1. Pick up issues related to the OKR they are involved with
+1. Pick up issues related to the project they are involved with
 1. Pick up KTLO work they are interested in or to create a break between other project work
 1. Help out with external requests if the interrupt rotation has higher volume on a given week
 
@@ -190,7 +169,7 @@ We trust everyone to be a [Manager of One](../../../../leadership/_index.md#mana
 
 ### Prioritization of work
 
-We use priority labels to prioritize our work. OKR work is updated to `Reliability::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
+We use priority labels to prioritize our work. project work is automatically set considered `Production Engineering::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt project work.
 
 ### Interrupt Rotation
 
@@ -200,16 +179,16 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) throughout the week and ensuring new issues related to Foundations:
-  - Have the correct labels (priority, workflow, any other applicable category labels)
+- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) throughout the week and ensuring new issues related to Foundations:
+  - Have the correct labels (`Foundations::*`, `Production Engineering::P*`, `workflow-infra::*`, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
-- Raising any `Reliability::1` or `Reliability::2` issues and ensuring they have a DRI and are being actively worked on.
+- Raising any `Production Engineering::1` or `Production Engineering::2` issues and ensuring they have a DRI and are being actively worked on.
 - Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
   - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
-- Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
-- Working on Renovate MRs posted in [`#g_infra_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
+- Responding to alerts in [`#g_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
+- Working on Renovate MRs posted in [`#g_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
   - Patch updates with passing pipelines should be merged.
   - Minor updates should have their changelogs be reviewed before merging.
   - Major updates should be looked at closely to understand breaking changes before considering merging.
@@ -226,9 +205,9 @@ Below builds on top of those guidelines.
 
 - For Objectives and Key Results, we align with [Platforms guidance](/handbook/engineering/infrastructure/platforms/#okr) for creation and structure.
 
-#### Epics
+#### Epics / Projects
 
-In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these sections may be helpful
+In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these optional sections may be helpful
 
 ```markdown
 
@@ -238,7 +217,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2"
+/labels ~"group::Production Engineering" ~"team::Foundations" ~"workflow-infra::Triage" ~"Production Engineering::P2" ~"Foundations::Project work"
 \`\`\`
 
 ## References
@@ -266,15 +245,16 @@ In addition to the format described in the [platforms project management page](/
 
 #### Issues
 
-Open planned work for our team is located in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
+Issues for our team are tracked in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
 
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
 
    ```text
-   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"team::Foundations" ~"workflow-infra::Triage" ~"Production Engineering::P4"
    ```
 
+- A Foundations label that aligns with the bucket of work it fits best in: `Foundations::KTLO`, `Foundations::Requests`, `Foundations::Project Work`, ...
 - If there is a service label that is applicable, also apply that.
 
 ##### Issue weighting

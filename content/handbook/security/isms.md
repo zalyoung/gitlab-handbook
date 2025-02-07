@@ -92,7 +92,7 @@ The GitLab Security team executes quarterly cascading [Objectives and Key Result
 
 GitLab has implemented a formal security awareness training program that includes: new hire security awareness training, global annual security awareness training and quarterly targeted phishing exercises. These trainings are administered via a third party portal and include a quiz to test understanding of the security topics presented.
 
-A formal [controlled document procedure]({{< ref "controlled-document-procedure" >}}) is in place to ensure that there is consistency in developing and maintaining controlled documents at GitLab utilizing a hierarchal approach. All controlled documents are available to all GitLab team members and the public via the [GitLab handbook](/) unless otherwise noted. Updates to controlled documents are managed via [GitLab merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) which are also accessible to all GitLab team members for the entire workflow. An annual review of controlled documents is required by the ISMS owner or assigned representative.
+A formal [controlled document procedure](/handbook/security/controlled-document-procedure/) is in place to ensure that there is consistency in developing and maintaining controlled documents at GitLab utilizing a hierarchal approach. All controlled documents are available to all GitLab team members and the public via the [GitLab handbook](/) unless otherwise noted. Updates to controlled documents are managed via [GitLab merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) which are also accessible to all GitLab team members for the entire workflow. An annual review of controlled documents is required by the ISMS owner or assigned representative.
 
 GitLab publishes [Job Families](/handbook/hiring/job-families/) to define roles and responsibilities based on level for all team members. This information is publicly available and the foundation for team member hiring and performance reviews. On a minimum of an annual basis, GitLab management executes [talent assessments](/handbook/people-group/talent-assessment/) with team members to ensure competency to Job Family.
 
@@ -100,37 +100,37 @@ GitLab publishes [Job Families](/handbook/hiring/job-families/) to define roles 
 
 The [GitLab team handbook](/) is the central repository for how we run the company. Everything at GitLab is handbook first, to include development of company policies, standards and procedures. Key controlled documents that support the ISMS include:
 
-- [Data Classification Standard]({{< ref "data-classification-standard" >}})
+- [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
 - [Security Policies]({{< ref "_index.md#information-security-policies" >}})
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Infrastucture Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Security Operational Risk Management (StORM) Program & Procedures]({{< ref "storm-program" >}})
 
-GitLab has a dedicated Security Compliance team responsible for monitoring design and effectiveness of the [GitLab common control framework]({{< ref "sec-controls" >}}) to ensure GitLab's security objectives are thoughtfully planned, implemented and monitored.
+GitLab has a dedicated Security Compliance team responsible for monitoring design and effectiveness of the [GitLab common control framework](/handbook/security/security-assurance/security-compliance/sec-controls/) to ensure GitLab's security objectives are thoughtfully planned, implemented and monitored.
 
-If using a third party service to outsource or supplement security processes, a [third party risk assessment]({{< ref "third-party-risk-management" >}}) is executed prior to onboarding. Critical vendors are also reviewed once per calendar year after onboarding, or at contract renewal if it comes first.
+If using a third party service to outsource or supplement security processes, a [third party risk assessment](/handbook/security/security-assurance/security-risk/third-party-risk-management/) is executed prior to onboarding. Critical vendors are also reviewed once per calendar year after onboarding, or at contract renewal if it comes first.
 
 ### Performance
 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
-- [Continuous control testing/Annual ISMS internal compliance audits]({{< ref "security-control-lifecycle" >}})
+- [Continuous control testing/Annual ISMS internal compliance audits](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
 - [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
 - [Annual security operational risk assessments]({{< ref "storm-program" >}})
-- [Annual third-party penetration testing]({{< ref "penetration-testing-policy" >}})
-- [Ongoing third party scorecard monitoring (BitSight)]({{< ref "independent_security_assurance#third-party-security-ratings" >}})
+- [Annual third-party penetration testing](/handbook/security/security-and-technology-policies/penetration-testing-policy/)
+- [Ongoing third party scorecard monitoring (BitSight)](/handbook/security/security-assurance/field-security/independent_security_assurance/#third-party-security-ratings)
 - [Infrastructure Vulnerability scanning](product-security/vulnerability-management/)
 - [Application Vulnerability Scanning](product-security/application-security/vulnerability-management/)
-- [HackerOne bug bounty program]({{< ref "hackerone-process" >}})
-- [Audit log monitoring]({{< ref "audit-logging-policy" >}})
+- [HackerOne bug bounty program](/handbook/security/product-security/application-security/runbooks/hackerone-process/)
+- [Audit log monitoring](/handbook/security/security-and-technology-policies/audit-logging-policy/)
 - ISMS Council (annual management review)
 
 ### Improvement
 
 GitLab is committed to continually improving the suitability, adequacy and effectiveness of the ISMS.
 
-As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure]({{< ref "observation-remediation-procedure" >}}).
+As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/).
 
 ## Exceptions
 
@@ -138,4 +138,4 @@ Exceptions to Information Security policies or procedures will be tracked as per
 
 ## References
 
-- Policy: [Information Security Policy]({{< ref "_index.md" >}})
+- Policy: [Information Security Policy](_index.md)

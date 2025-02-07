@@ -351,4 +351,4 @@ See more tips on our [All Remote Workspace page](/handbook/company/culture/all-r
 
 #### Krisp.ai License for GitLab Support Team
 
-[Krisp.ai](https://krisp.ai/) will mute background noise when you're in a noisy environment so you can hear and be heard more easily on calls. You may consider installing this app for your calls. GitLab Support team has a [Teams Pro license](https://krisp.ai/pricing/). If you are interested in getting one, kindly leave a comment at [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4642). Currently, it is unavailable for Linux.
+[Krisp.ai](https://krisp.ai/) will mute background noise when you're in a noisy environment so you can hear and be heard more easily on calls. You may consider installing this app for your calls. If you are interested in getting a license, please open an [Individual Use Software request](/handbook/finance/procurement/individual-use-software/#i-need-individual-use-software--where-do-i-start) with Procurement. Currently, it is unavailable for Linux.

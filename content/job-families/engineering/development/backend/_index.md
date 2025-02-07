@@ -171,7 +171,7 @@ For more details on the engineering career ladders, please review the [engineeri
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - As part of the application, candidates are asked to complete a short technical questionnaire, with a possibility of additional technical questions being asked if needed after the application is submitted.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Technical Recruiters
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
 - Next, candidates will be invited to schedule a 60 minute interview with one of our Backend Engineering Managers
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering
@@ -217,9 +217,9 @@ the Container Registry and is responsible for items listed under [Package produc
 - Create and maintain observability of the newly defined features
 - Work with customers on defining their needs to replace existing package repository solutions
 
-### Govern
+### Software Supply Chain Security
 
-Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Govern Engineering Manager.
+Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Software Supply Chain Security Engineering Manager.
 
 #### Requirements
 
@@ -375,9 +375,9 @@ to understand what is working and what is not.
 - Experience using Continuous Integration systems (e.g., GitLab CI, Jenkins, Travis).
 - Experience using Docker and containerized architectures (e.g. Kubernetes).
 
-See the description of the [Quality team](/handbook/engineering/quality/) for more details.
+See the description of the [Developer Experience stage](/handbook/engineering/infrastructure-platforms/developer-experience/) for more details.
 The position also involves working with the community as
-[Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our
+[Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with other
 [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and
 address issues from the community.
 
@@ -413,7 +413,7 @@ An ideal engineer candidate -
 
 - Expert of Ruby on Rails.
 - Experience of performance tuning and/or architecture, [Example](https://rubykaigi.org/2018/presentations/tenderlove.html).
-- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
+- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/https://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
 
 Alternatively, some of the following qualifications, may not necessarily be all -
 <!-- markdownlint-disable MD022 -->
@@ -453,6 +453,33 @@ The Ecosystem team is responsible for seamless integration between GitLab and 3r
 - Proficient with Ruby.
 - Proficient or fluent with one or more of other common languages: Go, Python, Java, Node, JavaScript, etc.
 - Familiar with full web technology stack (e.g. HTTP, cookies, asset loading, caching).
+
+### Git
+
+Git engineers focus on the Git version control system. You will spend the
+majority of your time doing upstream development, provide expertise to other
+teams at GitLab using Git, foster the Git community, and ensure the long-term
+viability of the Git project as a whole.
+
+#### Responsibilities
+
+- Participate in architectural discussions surrounding the use of Git at GitLab.
+- Develop code in the context of the upstream project.
+- Engage with the Git community to review patch series and discuss direction.
+- Provide expertise on how to use Git effectively and efficiently.
+- Provide expertise on how to integrate Git into the product.
+- Scope, estimate and describe tasks to reach the team's goals.
+- Engage with customers and support to root cause Git-related issues.
+
+#### Requirements
+
+- Mandatory: Production experience in building, debugging and optimizing software in large-scale, high-volume environments.
+- Mandatory: Solid production C and Shell scripting experience.
+- Highly desirable: Experience working and communicating with open source communities.
+- Highly desirable: Good understanding of Git's internal data structures.
+- Highly desirable: Experience running Git servers.
+- Highly desirable: You can reason about software, algorithms, and performance from a high level.
+- Highly desirable: Solid production Go experience.
 
 ### Gitaly
 

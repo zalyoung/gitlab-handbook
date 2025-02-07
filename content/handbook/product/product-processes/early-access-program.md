@@ -7,7 +7,7 @@ description: "Alignment & vision of the GitLab Early Access Program"
 
 The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features.
 
-In a secondary priority, this helps to [cultivate contributions from the Wider Community](/handbook/engineering/development/dev/create/remote-development/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/#accountabilities)
+In a secondary priority, this helps to [cultivate contributions from the Wider Community](/handbook/engineering/development/dev/create/remote-development/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations/#accountabilities)
 
 ## Key group that formed alignment on product direction
 
@@ -21,7 +21,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 1. There are multiple categorizations of how customers and users access features:
     1. Generally Available: These are features that are widely available to all customers and users, they may be only available via a paid subscription but otherwise won't be designed with any tag. We will offer full customer support for these features aligned with our support policy.0
-    1. Experiment, Beta: These are features any user can opt in and test independent of the Early Access Program; more detail on what distinguishes Experiment & Beta is included in our [Feature Support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) page.
+    1. Experiment, Beta: These are features any user can opt in and test independent of the Early Access Program; more detail on what distinguishes Experiment & Beta is included in our [Feature Support](https://docs.gitlab.com/ee/policy/development_stages_support.html) page.
     1. Early Access Program Features:  PMs & Product Leadership might select features to require an opt-in to the Early Access Program. Guidance is that this feature must be behind a feature flag so it can be rolled out to a select group of interested customers.
 1. The existing process of accepting the terms & conditions of our testing agreement will be followed.
 1. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
@@ -29,7 +29,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 ### FYI
 
-For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to the following pages: https://docs.gitlab.com/ee/policy/experiment-beta-support.html
+For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to the following pages: https://docs.gitlab.com/ee/policy/development_stages_support.html
 
 ## Program nurturing activities
 

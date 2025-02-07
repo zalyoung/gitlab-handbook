@@ -242,17 +242,22 @@ The table below is a comparison between the existing GitLab.com features, and no
 | Cross-organization downstream pipelines | Private organizations are in Cells 1.0 only and downstream pipelines would be unable to see public organizations. |
 | Any feature dependent on Clickhouse | Clickhouse is not supported on Dedicated, which is the underlying provisioning tool for Cells. Clickhouse is also not supported in any of our other tooling such as Geo, Org Mover, Backup/Restore, etc. |
 | Any feature dependent on [incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) (`mail_room`) | Cut scope. While we have a [proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/442161#note_1828026768) to have ingest email per cell, we are yet to figure out how to have stable email addresses that can be used even when an organizations moves to a different cell. |
+| Global search | Each cell will have an isolated search cluster. With Cells 1.0, global search will only work within the cell. See the [Cells: Global Search design document](../impacted_features/global-search.md) for more details. |
 
 ## Questions
 
-1. How do we create new Organizations with the user on additional Cells?
+1. How will we onboard users to an Organization on additional Cells?
 
-    To be defined.
+    An Admin will perform the following tasks:
 
-1. How do we register new users for the existing Organization on additional Cell?
+    1. Create an Organization on the additional cell.
+    1. Create a new user with the Owner role in the Organization.
+    1. Remove the Admin from the Organization. Optional, depending on feature set.
+    1. The new Owner will import data for this group. This would create users, add them to the groups/projects, and add them to the Organization.
 
-    If an Organization is already created, users can be invited.
-    We can then serve the registration flow from additional Cell.
+1. How do we register new users for the existing Organization on an additional Cell?
+
+    The standard [group](https://docs.gitlab.com/ee/user/group/#add-users-to-a-group) and [project](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) invite flows can be used. This means a user with [adequate permissions](https://docs.gitlab.com/ee/user/permissions.html#user-management) can invite users by email to any group or project in the Organization. After the user registers they will be added to the group or project _and_ the Organization.
 
 1. How would users log in?
 
@@ -449,7 +454,7 @@ The table below is a comparison between the existing GitLab.com features, and no
       or when we migrate the organization to another Cell.
     - For the following reason this is why we don't want to force particular paths, or use of subdomains.
     - If we choose the path to force to use `relative_path` it would break all cell-wide endpoints
-      This seems to be longer and more complex that approaching this by making existing to be shareded.
+      This seems to be longer and more complex that approaching this by making existing to be shared.
     - If we choose to fix existing not sharded [can be made](https://gitlab.com/gitlab-org/gitlab/-/issues/430330)
       at later point we will achieve much better API consistency, and likely much less amount of the work.
 

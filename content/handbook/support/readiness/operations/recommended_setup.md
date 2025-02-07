@@ -99,7 +99,7 @@ You can add this to your Chrome based browser using the
 page.
 
 You can add this to your Firefox based browser using the
-[Calendly browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling)
+[Calendly browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/)
 page.
 
 Once installed, you simply ensure you are logged into Calendly via your browser
@@ -137,7 +137,7 @@ You can add this to your Chrome based browser using the
 page.
 
 You can add this to your Firefox based browser using the
-[1Password browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager)
+[1Password browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 page.
 
 ## Okta browser plugin
@@ -371,9 +371,9 @@ sudo apt-get install -f
 - [Homebrew site](https://brew.sh/)
 - [rbenv repo](https://github.com/rbenv/rbenv)
 - [Calendly browser plugin for Chrome](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp?hl=en)
-- [Calendly browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling)
+- [Calendly browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/)
 - [1Password browser plugin for Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en)
-- [1Password browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager)
+- [1Password browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 - [Okta browser plugin for Chrome](https://chrome.google.com/webstore/detail/okta-browser-plugin/glnpjglilkicbckjpbgcfkogebgllemb?hl=en)
 - [Okta browser plugin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/okta-browser-plugin/)
 - [Support Ops Toolbox](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/toolbox)

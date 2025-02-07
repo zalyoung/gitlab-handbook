@@ -60,7 +60,7 @@ As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 
 **Milestones and Onboarding Roadmap**
 
-![CSE Onboarding Journey Roadmap](/handbook/customer-success/csm/segment/cse/CSE-Onboarding-Journey-Roadmap.png)
+![CSE Onboarding Journey Roadmap](/images/customer-success/csm/segment/cse/CSE-Onboarding-Journey-Roadmap.png)
 
 **Expectations for Manager Support during Onboarding**
 

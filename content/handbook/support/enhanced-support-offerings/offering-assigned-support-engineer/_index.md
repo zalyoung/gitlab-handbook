@@ -1,6 +1,7 @@
 ---
-title: Enhanced Support Offering - Assigned Support Engineer (ASE)
+title: Offering - Assigned Support Engineer (ASE)
 description: Information about the ASE offering, being an ASE, and working with ASEs
+canonical_path: "/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer"
 ---
 
 ## The Assigned Support Engineer offering
@@ -118,7 +119,7 @@ page.
 Please see our [Becoming and Being an ASE page](becoming-and-being-an-ase.html) if:
 
 - you are considering whether to become an ASE
-- you are about to become and ASE
+- you are about to become an ASE
 - you are a new ASE
 
 ### Zendesk for ASEs

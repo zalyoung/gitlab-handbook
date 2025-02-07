@@ -13,7 +13,7 @@ To improve efficiency & predictability with a consistent and scalable customer e
 
 The Accreditations align to the customer's journey and the [field functional competencies](/handbook/sales/training/field-functional-competencies/) that address the critical knowledge, skills, role-based behaviors, processes, and tools to successfully execute customer engagements.
 
-Note: This accreditation program is different from resources like other [GitLab Certifications](https://about.gitlab.com/learn/certifications/public/) that focus on how to *use GitLab* or tied to GitLab competencies (though we encourage field team members to take these as well)!
+Note: This accreditation program is different from resources like other [GitLab Certifications](https://university.gitlab.com/certifications/public/) that focus on how to *use GitLab* or tied to GitLab competencies (though we encourage field team members to take these as well)!
 
 ### Purpose of the Field Accreditation Program
 
@@ -63,10 +63,10 @@ To achieve GitLab "certified" status, candidates must complete both the online w
 
 The GitLab use cases help define the categories of related features with a **business value** narrative. In other words, why are customers buying GitLab and what do they think that we offer. You can read more about each of our use cases by navigating to the Product navigation menu at the top of this page or from anywhere on [about.gitlab.com](https://about.gitlab.com/).
 
-- [Source Code Management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/)
-- [Continuous Integration and Deployment/Delivery (CI/CD)](https://about.gitlab.com/features/continuous-integration/)
-- [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/)
-- [Security and DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [Source Code Management](https://about.gitlab.com/solutions/source-code-management/)
+- [Continuous Integration and Deployment/Delivery (CI/CD)](https://about.gitlab.com/solutions/continuous-integration/)
+- [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+- [Security and DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
 - [Agile Delivery](https://about.gitlab.com/solutions/agile-delivery/)
 - [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/)
 - [GitOps and Infrastructure-as-Code](https://about.gitlab.com/solutions/gitops/)

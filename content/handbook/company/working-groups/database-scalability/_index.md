@@ -62,13 +62,13 @@ Although this working group is closing, our work to improve GitLab's database an
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
 | Track | A sub-group within the WG that tackles one scaling pattern. | | |
 
-![Database Terms](DB-terminology.png)
+![Database Terms](/images/company/working-groups/database-scalability/DB-terminology.png)
 
 ### Overview
 
-Our current architecture relies, almost exclusively and by design, on a [single database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/strategy/#single-data-store) to be the sole and absolute manager of data in terms of storage, consistency, and query results collation. Strictly speaking, we use a single **logical** database that is implemented across several **physical** [replicas](/handbook/engineering/architecture/practice/scalability/#example-postgres-current-state) to handle load demands on the database backend (with the single pseudo-exception of storing diffs on object storage).  Regular analysis of database load, however, is showing that this approach is unsustainable, as the primary RW database server is experiencing high peaks that are approaching the limits of vertical scalability.
+Our current architecture relies, almost exclusively and by design, on a [single database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/doc/strategy/#single-data-store) to be the sole and absolute manager of data in terms of storage, consistency, and query results collation. Strictly speaking, we use a single **logical** database that is implemented across several **physical** [replicas](/handbook/engineering/architecture/practice/scalability/#example-postgres-current-state) to handle load demands on the database backend (with the single pseudo-exception of storing diffs on object storage).  Regular analysis of database load, however, is showing that this approach is unsustainable, as the primary RW database server is experiencing high peaks that are approaching the limits of vertical scalability.
 
-We explored [sharding]({{< ref "sharding" >}}) last year and scoped it to the database layer. We concluded that while there are solutions available in the market, they did not fit our requirements, both in financial and product fit terms, as they would have forced us into a solution that was difficult (if not impossible) to ship as part of the product.
+We explored [sharding](/handbook/company/working-groups/sharding/) last year and scoped it to the database layer. We concluded that while there are solutions available in the market, they did not fit our requirements, both in financial and product fit terms, as they would have forced us into a solution that was difficult (if not impossible) to ship as part of the product.
 
 We are now kicking off a new iteration on this problem, where the scope is **expanded** from the database layer into the application itself, as we recognize this problem cannot be solved to meet our needs and requirements if we limit ourselves to the database: we must consider careful changes in the application to make it a reality.
 
@@ -123,7 +123,7 @@ We should consider some of the following patterns:
 
 These patterns can also be used in combination. For example, partition based on time and drop partitions older than X months.
 
-For details, see the [blueprint]({{< ref "time-decay" >}}).
+For details, see the [blueprint](/handbook/company/working-groups/database-scalability/time-decay/).
 
 #### Entity/Service
 

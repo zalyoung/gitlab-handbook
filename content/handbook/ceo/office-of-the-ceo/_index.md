@@ -111,9 +111,7 @@ Examples of tasks or initiatives that are important to the CEO:
 
 ## How to Work
 
-The team uses a limited access Google doc called "Sid, Stella, and the Office of the CEO" to collaborate and share progress with the CEO.
-It's format is structured like the [1-1 Suggested Agenda Format](/handbook/leadership/1-1/suggested-agenda-format/).
-Many of the tasks on the sheet are quick asks: handbook MRs, formatting changes, or questions to be answered.
+Many of the tasks are quick asks: handbook MRs, formatting changes, or questions to be answered.
 Small asks should be handled as quickly as possible.
 Other asks, such as OKR-related planning or an initiative that requires alignment with multiple stakeholders, require forethought and more appropriate timing.
 Some amount of time each week needs to be spent moving these sorts of tasks forward.
@@ -124,7 +122,7 @@ The CEO will review and delete the item once it's been assessed as completed.
 
 ### Prioritization
 
-Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page]({{< ref "chief-of-staff#responsibilities" >}}).
+Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page](/job-families/chief-executive-officer/chief-of-staff/#responsibilities).
 
 When newly initiated, self-directed, leadership work entails a significant time commitment (>20% capacity for more than a week), the work being done should be flagged to the CEO in a 1:1 or team meeting. This work should stay on the 1:1 agenda between the CoS to the CEO and the team member for the duration of the activity. If needed, activities may be reprioritized based on top demands and priorities.
 

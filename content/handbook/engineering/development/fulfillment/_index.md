@@ -3,7 +3,7 @@ title: Fulfillment Sub-department
 description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, Purchase, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
 ---
 
-- [Direction](https://about.gitlab.com/direction/fulfillment)
+- [Direction](https://about.gitlab.com/direction/fulfillment/)
 - [Groups](https://about.gitlab.com/direction/fulfillment/#groups)
 - [Team](/handbook/engineering/development/fulfillment/#team-members)
 
@@ -18,7 +18,7 @@ Fulfillment focuses on improving our capabilities and metrics in the following a
 - [Platform](/handbook/product/categories/#fulfillment-platform-group): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 - [Provision](/handbook/product/categories/#provision-group): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
 - Purchase
-- [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
+- [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management/#feature-overview-and-maturity)
 - [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
 ## Direction
@@ -77,7 +77,7 @@ On occasion, it may be prudent to include language like the following to the des
 
 Similarly, not all information should be included in the public handbook. Instead, use the [private internal handbook](https://internal.gitlab.com/) for this SAFE information.
 
-Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/versions.html#promising-features-in-future-versions) for more information.
+Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/styleguide/availability_details.html#promising-features-in-future-versions) for more information.
 
 ### Planning
 
@@ -301,12 +301,6 @@ Basecamp thinks about these stages in relation to the [climb and descent of a hi
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
-**Quad-planning workflow**
-
-The SETs helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and the Quality team which aims to bring test planning as a topic before the development of any feature.
-
-We follow the Quad Planning process defined [here](/handbook/engineering/infrastructure/test-platform/quad-planning/#process).
-
 ### User Experience
 
 We strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers.
@@ -471,7 +465,7 @@ Here's an [example](https://www.youtube.com/playlist?list=PL05JrBw4t0KpOKxufy-sl
 
 ### Quality
 
-GitLab's Quality is everyone's responsibility. The [SETs](/handbook/engineering/quality/#stable-counterparts) embedded within Fulfillment section follow the [Quality Engineering Department's principles](/handbook/engineering/quality/#our-principles) primarily to ensure that everyone is aware of product quality.
+GitLab's Quality is everyone's responsibility.
 
 #### End-to-end tests - how, when and why to write them
 
@@ -505,7 +499,7 @@ Planned/automated test cases in the CustomersDot project can be found [here](htt
 
 The CustomersDot has different types of tests running:
 
-1. Linting and [rubocop](https://github.com/rubocop-hq/rubocop) jobs
+1. Linting and [rubocop](https://github.com/rubocop/rubocop) jobs
 1. Unit tests (specs, these could be of many types, such as controller specs)
 1. Integration tests (specs, mocking external calls)
 1. Frontend tests
@@ -607,6 +601,10 @@ Any issues not merged on the current milestone post feature freeze, will need to
 There are times when GitLab temporarily halts production changes during certain events such as major global holidays, and other times where GitLab Team Member availability is substantially reduced. More information about PCLs can be found in [this infrastructure handbook page](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl).
 
 During these PCLs, most notably at the end of the year, PCLs are managed in CustomersDot by creating an issue [using the PCL template](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/.gitlab/issue_templates/Pcl.md). This issue should include a checklist of instructions along with DRIs and target times for adding or removing the `production::blocker` label. Once the PCL has ended, the issue can be closed.
+
+##### Zuora Blocked Period
+
+Zuora follows a [release calendar](/handbook/business-technology/enterprise-applications/pmo/#release-calendar) with blocked periods where Change Requests may not be possible or require additional approvals.
 
 ### Incident management
 
@@ -856,7 +854,7 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 
 ## Performance indicators
 
-See the [Fulfillment Section Performance Indicators](/handbook/engineering/development/performance-indicators/fulfillment/) as well as the
+See the [Fulfillment Section Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/#regular-performance-indicators) as well as the
 [Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ## Maintainer ratios

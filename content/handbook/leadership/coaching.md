@@ -152,7 +152,7 @@ Focus on the other person without judgment. Give your coachee your undivided att
 
 ### Different hats for different conversations
 
-Coaching is just one mode of conversation you might use as a [leader]({{< ref "_index.md" >}}). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/careers/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
+Coaching is just one mode of conversation you might use as a [leader](_index.md). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/careers/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
 
 You may wear multiple hats in any given day:
 
@@ -220,7 +220,7 @@ Compared with people at low-trust companies, people at high trust companies repo
 
 #### Additional resources on trust building
 
-1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust/)
+1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust?subtitle=en)
 1. [New to the Team? Here's How to Build Trust (Remotely) - Harvard Business Review](https://hbr.org/2021/03/new-to-the-team-heres-how-to-build-trust-remotely)
 
 ### Will and skill
@@ -330,7 +330,7 @@ There are times when a Team Member's behavior becomes so egregious that it is mo
 
 ## Live Learning Session
 
-During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust]({{< ref "building-trust" >}}) and [Coaching]({{< ref "." >}}). The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
+During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust](/handbook/leadership/building-trust/) and [Coaching]({{< ref "." >}}). The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
 
 A recording of the first of two sessions can be found here:
 
@@ -353,7 +353,7 @@ In an all-remote organization, coaching is a critical skill for managers to deve
 - Conducts development and career planning dialogues with team members continuously
 - Reflects on their leadership style and impact on the team and team situation
 - Seeks new coaching approaches and techniques and exemplifies what it means to continuously develop their skills
-- Delivers effective strategies for dealing with cases of [underperformance]({{< ref "underperformance" >}}) and instills that in other leaders across the organization
+- Delivers effective strategies for dealing with cases of [underperformance](/handbook/leadership/underperformance/) and instills that in other leaders across the organization
 
 ### Additional coaching resources
 

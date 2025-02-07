@@ -115,16 +115,6 @@ It's okay to create specific engineering-driven implementation issues for more c
 
 ### 🏋 Weighting and Estimation Process
 
-#### New OKR Implementation (3-Milestone Learning Period)
-
-* **Duration**: 3 milestones
-* **Goal**: Implement and refine a lightweight weighting process
-* **Ownership**: Issue assignee is the weight owner
-* **Process**: 
-  * Initial weight assignment when issue is created
-  * Weight updates as understanding evolves
-  * Process review after 3 milestones
-
 #### Weight Guidelines
 
 Issues are weighted using the Fibonacci sequence (0, 1, 2, 3, 5, 8, 13+):
@@ -138,12 +128,9 @@ Issues are weighted using the Fibonacci sequence (0, 1, 2, 3, 5, 8, 13+):
 
 #### Weight Update Process
 
-1. Initial weight assigned upon issue creation
-2. Assignee owns responsibility for weight accuracy
-3. Weights can be adjusted as understanding of complexity evolves
-4. Team reviews weight accuracy during milestone retrospectives
+Every issue assigned to the upcoming milestone needs to be weighed before applying the Deliverable label by Engineering Manager. Engineering Manager needs to check whether weight is assigned and, in case of the weight being equal or above 5, works on breaking issues down into smaller ones. 
 
-This new process will be evaluated after 3 milestones to assess effectiveness and make necessary adjustments.
+Engineering manager and Product Manager are responsible for asking to weight issues assigned for the upcoming milestone during weekly team meetings. They should ask engineers to read issue descriptions before the meeting so they are ready to weight them and ask questions if needed. They can split this process between more than one meeting. 
 
 ## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
 

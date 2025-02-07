@@ -50,16 +50,16 @@ See the [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1T
 
 Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on requesting a Letter of Gaurantee.
 
-### Willis Tower Watson Claims Assistance
+### Willis Towers Watson Claims Assistance
 
-[Willis Tower Watson](https://www.wtwco.com/en-SG/Solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
+[Willis Towers Watson](https://www.wtwco.com/en-sg/solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 
 ### Enrollment
 
 New Team Members will be prompted to fill out a Singapore Benefits Onboarding Form during onboarding.
-Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Tower Watson, to enroll team members into the group plans.
+Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Towers Watson, to enroll team members into the group plans.
 Team Members will receive underwriting forms from WTW within the first month from their hire date.
 
 Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at total-rewards@gitlab.com
@@ -127,7 +127,7 @@ Team members who have been continuously employed by GitLab for at least 3 months
 **Applying for government paid maternity leave**
 
 - Team members must submit a [GPML Declaration](https://file.go.gov.sg/gpml1form.pdf) to [the Absence Management team](mailto:leaves@gitlab.com) as soon as possible.
-- GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://www.profamilyleave.gov.sg/Pages/GPML.aspx#What%20should%20I%20do%20as%20an%20employer?).
+- GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://web.archive.org/web/20210918095026/https://www.profamilyleave.gov.sg/Pages/GPML.aspx#What%20should%20I%20do%20as%20an%20employer?).
 - For 1st and 2nd births, GitLab will apply for reimbursement for the 9th - 16th weeks of leave. For 3rd and subsequent births, GitLab will apply for reimbursement for the full 16 weeks.
 
 **Maternity Leave entitlements under the Employment Act**

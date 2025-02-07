@@ -25,7 +25,7 @@ This communication response plan maps out the who, what, when, and how of GitLab
 
 ## What is an incident?
 
-The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide]({{< ref "sec-incident-response#incident-identification" >}}).
+The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide](/handbook/security/security-operations/sirt/sec-incident-response/#incident-identification).
 
 ### 💁 Corporate incident response
 
@@ -37,7 +37,7 @@ For Infrastructure incidents, please follow the [infrastructure incident managem
 
 ## Defining the scope/severity of an incident
 
-The `Security Engineer On-Call` will determine the scope and [severity]({{< ref "sec-incident-response#incident-severity" >}}) and [potential impact]({{< ref "storm-program#determining-the-impact-of-a-threat-event" >}}) of the security incident. Once the potential impact has been determined, implementation of the appropriate internal and external communications strategy should begin.
+The `Security Engineer On-Call` will determine the scope and [severity](/handbook/security/security-operations/sirt/sec-incident-response/#incident-severity) and [potential impact]({{< ref "storm-program#determining-the-impact-of-a-threat-event" >}}) of the security incident. Once the potential impact has been determined, implementation of the appropriate internal and external communications strategy should begin.
 
 ### Roles and responsibilities in a Security incident
 
@@ -72,7 +72,7 @@ As security practitioners and incident response engineers, our security assuranc
 - Acting as an approval point on final messaging to ensure it's ready for external use
 - Liaising with PR and corporate communications for additional reviews and/or messaging needs (public/media statements)
 - Deploying the messaging via collaboration with our PR (media statement), Content Marketing (blog post) and Marketing Operations teams (email response)
-- Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-department` and `#customer-success`) for awareness and use.
+- Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-division` and `#customer-success`) for awareness and use.
   - `Support manager on call` will manage support team awareness
 
 ## Extended team roles, responsibilities and points of contact
@@ -104,7 +104,7 @@ Any time there is a service disruption for team members, the CMOC should post de
 
 ### Incident response channel on Slack
 
-In the cases of incidents that are on-going and require constant communication the `Security Engineer on Call` will set up an incident response Slack channel. All security incident team members and extended POCs should be invited. If the nature of the incident allows, the Slack channel will be public to GitLab and a link to this channel will also be shared in `#security-department` Slack channel to increase visibility.
+In the cases of incidents that are on-going and require constant communication the `Security Engineer on Call` will set up an incident response Slack channel. All security incident team members and extended POCs should be invited. If the nature of the incident allows, the Slack channel will be public to GitLab and a link to this channel will also be shared in `#security-division` Slack channel to increase visibility.
 
 ### Engaging key internal stakeholders (when/how)
 
@@ -149,7 +149,7 @@ Our intent is to provide clear and accurate information to GitLab users as quick
 | `VP of Security` | Approver | Approver | Approver | Approver if quote attributed to Security, FYI otherwise | FYI Only |
 | `Senior Director of Legal, Privacy and Product` | Approver | Approver | Approver | Approver | Approver |
 | `VP Customer Success` | Approver | Approver | FYI Only | Approver | FYI Only |
-| [Support Manager on Call]({{< ref "security-incident-communication-plan#extended-team-roles-responsibilities-and-points-of-contact" >}}) | FYI Only | FYI Only | FYI Only  | FYI Only | FYI Only |
+| [Support Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan/#extended-team-roles-responsibilities-and-points-of-contact) | FYI Only | FYI Only | FYI Only  | FYI Only | FYI Only |
 | `Director of Corp Comms` | FYI Only | FYI Only | FYI Only | DRI/Contributor | FYI Only |
 | `VP of Investor Relations` | Approver | Approver | FYI Only | Approver | FYI Only |
 
@@ -194,7 +194,7 @@ The communications channels and forms that should be used in an incident or even
 
 - Our most common form of customer response is via direct email communications to affected customers.
 - When a deeper dive response is needed, or to ensure broader coverage on a security incident or event, a blog post may be developed on an urgent basis.
-- See [deeper dive explanations on forms and channels]({{< ref "security-incident-communication-plan#potential-channels-for-use-in-a-security-incident" >}}) for consideration
+- See [deeper dive explanations on forms and channels](/handbook/security/security-operations/sirt/security-incident-communication-plan/#potential-channels-for-use-in-a-security-incident) for consideration
 - Communication to [JiHu]({{< ref "jihu-support" >}}) should happen via the [#security-vulnerability](https://gitlab-jh.slack.com/archives/C039R937PAN) channel within the JiHu Slack workspace. GitLab team members Dominic Couture, James Ritchey, Jerome Ng, Mek Stittri and Kevin Chu have access to this channel.
 
 ## Helpful templates and runbooks
@@ -227,7 +227,7 @@ Depending on scope, impact or risk associated with the incident, our Corporate C
 | Communications Channels | Purpose/Message | Additional Details |
 | ------ | ------ | ------ |
 | Incident Response Customer Email | Provides incident background, response, potential, impact, follow-up actions, and who to contact with questions. | Drafted by SIMOC/CMOC and reviewed by DRIs from Support, Legal, External Comms and Security. Sent from [incident-response@gitlab.com](mailto:incident-response@gitlab.com). Should be in **plain text** with **no link tracking**. If an accompanying blog post is published, blog should be linked. |
-| Mitigation and response blog post | Details the background, GitLab response and any action required by our customers. | Developed when it is determined that a longer, more-in-depth response is needed, Content for the blog post is provided by the `SIMOC/CMOC`, and reviewed and approved by [designated key approvers]({{< ref "security-incident-communication-plan#designated-key-approvers" >}}). The content team performs copyedits and merges. **Note: collaboration and work on the response blog post should happen in the related incident response channel on slack.** |
+| Mitigation and response blog post | Details the background, GitLab response and any action required by our customers. | Developed when it is determined that a longer, more-in-depth response is needed, Content for the blog post is provided by the `SIMOC/CMOC`, and reviewed and approved by [designated key approvers](/handbook/security/security-operations/sirt/security-incident-communication-plan/#designated-key-approvers). The content team performs copyedits and merges. **Note: collaboration and work on the response blog post should happen in the related incident response channel on slack.** |
 | GitLab Security Release Alert/Email | Indicates required action for customers and links to related mitigation and response blog. | Email sent to opt-in security notices distribution list. If a related blog post has been published, this email should include a link. Prepared and sent by `Security External Communications` or `Marketing Ops`, Sent to Security Notices distro through Marketo. Users can sign up for this distribution list through our [Communication Preference Center](https://about.gitlab.com/company/preference-center/). |
 | Customer Frequently Asked Questions (FAQs) | List of early customer questions and responses, or probable questions and responses. | Created by `SIMOC/CMOC` and Support DRI. Provided to appropriate [Support group](/handbook/support#channels). |
 | Social media post | For distribution of related blog post, details our response to X issue. | `Security External Communications` engages `@devrel-team` in the incident response Slack channel. Provides Community Expert(s) with tweet text and blog link. GitLab social media team should also be alerted for ongoing awareness and monitoring, using `@social` in slack. |
@@ -243,9 +243,9 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 - Parent Policy: [Information Security Policy](/handbook/security)
-- [Security Incident Response Guide]({{< ref "sec-incident-response" >}})
+- [Security Incident Response Guide](/handbook/security/security-operations/sirt/sec-incident-response/)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
-- [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
+- [Incident Communications Plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/)
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)
 - [Time-sensitive blog post process](/handbook/marketing/blog/#time-sensitive-posts--instructions)
 - [Marketing rapid response process](/handbook/marketing/#marketing-rapid-response-process)

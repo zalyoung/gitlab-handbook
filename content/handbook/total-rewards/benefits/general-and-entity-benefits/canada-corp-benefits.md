@@ -142,7 +142,7 @@ It's important to have this information up to date to ensure that team member's 
 - Tax-Status: Taxable benefit at time of claim
 - Termination age: 65 or earlier retirement
 
-## Personal Travel Assitance
+## Personal Travel Assistance
 
 Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation.
 
@@ -180,7 +180,7 @@ Employer contributions are made to the federal Canada Pension Plan (CPP).
 
 ## PTO and Vacation Information
 
-GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page]({{< ref "paid-time-off#statutory-vacation-requirements" >}}). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
+GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page](/handbook/people-group/paid-time-off/#statutory-vacation-requirements). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
 
 ## Sick Pay
 
@@ -190,7 +190,7 @@ Ontario - Team members who have been employed by GitLab for at least two consecu
 
 Quebec - The Act Respecting Labour Standards (ALS) provides for two days of paid absence per calendar year (January 1 to December 31). This leave runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.
 
-Québec - [La Loi sur les normes du travail (N-1.1)](http://www.legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
+Québec - [La Loi sur les normes du travail (N-1.1)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
 
 ## GitLab Canada Corp Parental leave
 
@@ -318,7 +318,7 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 - Up to 37 weeks within a 52-week period of leave in relation to a critically ill minor child
 - Up to 17 weeks within a 52-week period in relation to a critically ill adult.
-- The team member must submit a [medical certificate](https://www.labour.gov.on.ca/english/es/pdf/medcert_2019_1.pdf).
+- The team member must submit a [medical certificate](https://www.ontario.ca/document/your-guide-employment-standards-act-0/critical-illness-leave#section-2).
 - Team Members should select `Out Sick` in Workday.
 
 **Child Death Leave** *Team members who have been employed with GitLab for at least six consecutive months*
@@ -509,11 +509,11 @@ More information on these leave entitlements can be found on the [Government of 
 
 The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.
 
-More information about these leave types can be found on the [Government of Alberta website](https://www.alberta.ca/job-protected-leaves.aspx).
+More information about these leave types can be found on the [Government of Alberta website](https://www.alberta.ca/job-protected-leaves).
 
 **Bereavement Leave** *Team members who have been employed with GitLab for at least 90 days*
 
-- 3 days of unpaid leave per year for the death of a [family member](https://www.alberta.ca/bereavement-leave.aspx)
+- 3 days of unpaid leave per year for the death of a [family member](https://www.alberta.ca/bereavement-leave)
 - Team Members should select `Bereavement` in Workday.
 
 **Citizenship Ceremony Leave** *Team members who have been employed with GitLab for at least 90 days*
@@ -523,7 +523,7 @@ More information about these leave types can be found on the [Government of Albe
 
 **Compassionate Care Leave** *Team members who have been employed with GitLab for at least 90 days*
 
-- Up to 27 weeks of unpaid leave to give care or support to a gravely ill [family member](https://www.alberta.ca/compassionate-care-leave.aspx#jumplinks-2) with a significant risk of dying within 26 weeks.
+- Up to 27 weeks of unpaid leave to give care or support to a gravely ill [family member](https://www.alberta.ca/compassionate-care-leave#jumplinks-2) with a significant risk of dying within 26 weeks.
 - Team members must submit a medical certificate to the Absence Management team at `leaves@gitlab.com`
 - Team members may also be eligible for [Employment Insurance](https://www.canada.ca/en/services/benefits/ei/caregiving.html)
 - Team Members should select `Out Sick` in Workday.
@@ -559,13 +559,13 @@ More information about these leave types can be found on the [Government of Albe
 
 **Personal and family responsibility leave** *Team members who have been employed with GitLab for 90 days*
 
-- Up to 5 days each calendar year to care for their own health or to meet family responsibilities in relation to a [family member](https://www.alberta.ca/personal-family-responsibility-leave.aspx#jumplinks-2). This does not carry over to the following year if unused.
+- Up to 5 days each calendar year to care for their own health or to meet family responsibilities in relation to a [family member](https://www.alberta.ca/personal-family-responsibility-leave#jumplinks-2). This does not carry over to the following year if unused.
 - Team Members should select `Out Sick` in Workday.
 
 **Reservist Leave** *Team members who have been employed with GitLab for at least 26 consecutive weeks*
 
 - Up to 20 days each calendar year for annual training
-- As long as necessary to accommodate the period of service required for [international or domestic deployment](https://www.alberta.ca/reservist-leave.aspx#jumplinks-2).
+- As long as necessary to accommodate the period of service required for [international or domestic deployment](https://www.alberta.ca/reservist-leave#jumplinks-2).
 - Team Members should select `Military Service` in Workday.
 
 </details>
@@ -669,7 +669,7 @@ Adjustments for Current Team Members
 
 1. Log on to Group Net Canada Life portal
 1. Select "Billing" > View or Print Bill > Current month's Bill
-1. Open up the Current Statment. Scroll down to the "Adjustments for Prior Periods" section. Anyone on this list needs to have thier Employer Premiums.
+1. Open up the Current Statement. Scroll down to the "Adjustments for Prior Periods" section. Anyone on this list needs to have thier Employer Premiums.
 1. On the Canada Life Portal Select "Enrollment" > "Mantain/Inquire on Employee"
 1. Enter the following
     - Function: View In Force Premiums and Taxes
@@ -698,14 +698,14 @@ Adjustments for Current Team Members
 1. Log on to Group Net Canada Life
 1. Enrollment tab > request reports> coverage summary> effective date(today's date)> sort by Employee name
 1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
-1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
+1. Reach out to the team member with the Eligibility of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quarterly audit was completed as an fyi.
 
 - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
 ### RRSP Process (Semi-monthly)
 
 1. Team members create Canada Life account and sign up for RRSP
-1. Total Rewards logs on to Canada Life, approves RRSP requests: Menu > Administrative Functions > Online Enrollments > Search for a list: All Full Time Employees - 01. Add an Enrolment date and Approve the enrolment.
+1. Total Rewards logs on to Canada Life, approves RRSP requests: Menu > Administrative Functions > Online Enrollments > Search for a list: All Full Time Employees - 01. Add an Enrollment date and Approve the enrollment.
 1. Total Rewards generates a Canada Life report that lists all of the Contribution %s: Menu > Client Reporting & Tools > Create Reports
      - Select a report: Payroll Deduction details
      - Select a plan: Registered Retirement Savings Plan

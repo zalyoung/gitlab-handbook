@@ -27,6 +27,10 @@ toc_hide: true
 - [`#modular_monolith`](https://gitlab.slack.com/archives/C03NTK6HZBM)
 - [`#architecture`](https://gitlab.slack.com/archives/CJ4DB7517)
 
+## Presentations
+
+- [The Myth of the Modular Monolith](https://youtu.be/olxoNDBp6Rg?feature=shared) - Rails 2024 Keynote by Eileen Uchitelle
+
 ## Reference Implementations / Guides
 
 Gusto / RubyAtScale:

@@ -200,7 +200,7 @@ We have a runbook for internal announcements that could lead to heated conversat
    1. When the message will be optimally be shared
    1. Main messages to be communicated and message content
    1. An activity and communications timeline that includes key participants and their responsibilities. It will specify any planned follow up in the minutes, hours, and weeks after the initial communications. This should include:
-      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/content/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
+      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
       1. Any AMAs or other designated plans for discussion or follow up communications
    1. Who is required to sign-off on the message and plan
    1. The desired timeline for sign-off
@@ -224,7 +224,7 @@ This runbook outlines key steps to be followed. Additional steps may be added ba
 
 - [Request for Internal Communications Support Template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r)
 - [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw)
-- [Communication at GitLab]({{< ref "communication" >}})
+- [Communication at GitLab](/handbook/communication/)
 
 ## More to come
 

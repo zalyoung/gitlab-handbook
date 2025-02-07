@@ -18,9 +18,9 @@ Each security team may host 1 individual at a time.  Availability of each team i
 
 Our course catalog is divided into three main areas in alignment with the three [Sub-Organizations]({{< ref "_index.md#department-structure" >}}) within the Security Department.
 
-- [Product Security]({{< ref "security-shadow-sec-eng-res" >}})
-- [Security Operations]({{< ref "security-shadow-security-operations" >}})
-- [Security Assurance]({{< ref "security-shadow-security-assurance" >}})
+- [Product Security](/handbook/security/security-shadow-sec-eng-res/)
+- [Security Operations](/handbook/security/security-operations/sirt/security-shadow-security-operations/)
+- [Security Assurance](/handbook/security/security-shadow-security-assurance/)
 
 ## Who can join the Security Shadow Program
 
@@ -31,7 +31,7 @@ All GitLab team members are welcome!
 Ready to embark on this adventure with us?
 
 1. Talk to your manager. Make sure they approve the time you will need to dedicate to this program.
-1. Join the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack Channel
+1. Join the [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) Slack Channel
 1. Click on the blue lightning bult in the bottom left corner to initiate the Security Shadow Program Workflow
 1. Complete the Enrollment Form
 1. The manager of the applicable Security Team will reach out to schedule your start date

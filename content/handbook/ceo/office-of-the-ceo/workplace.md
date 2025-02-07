@@ -25,7 +25,7 @@ This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief
 
 The All-Remote Flywheel is focused on continually evolving and refining GitLab's all-remote environment (e.g. tooling, approach to meetings, collaboration, and communication, total rewards/compensation) in order to drive stronger brand awareness, marketing potential, and thought leadership. If our [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) continue to stay ahead of the curve, we're able to lead marketing conversations on all-remote and the future of work. This also drives happier, more efficient team members, and impacts elements such as time-to-hire and team member retention.
 
-Strong all-remote marketing may bolster industry trust in the GitLab brand and product due to the [halo effect](https://www.investopedia.com/terms/h/halo-effect.asp). E.g., If [The Remote Playbook](http://allremote.info/) inspires a firm's remote transition blueprint, said firm is likely to show favoritism to GitLab's product offerings and services.
+Strong all-remote marketing may bolster industry trust in the GitLab brand and product due to the [halo effect](https://www.investopedia.com/terms/h/halo-effect.asp). E.g., If [The Remote Playbook](https://allremote.info/) inspires a firm's remote transition blueprint, said firm is likely to show favoritism to GitLab's product offerings and services.
 
 ```mermaid
 graph BT;
@@ -42,7 +42,7 @@ graph BT;
 
 GitLab is an influencer and educator in remote work and people operations. It serves the community by creating valuable content that furthers the proliferation and ubiquity of [remote-first](/handbook/company/culture/all-remote/how-to-work-remote-first/) and [all-remote](/handbook/company/culture/all-remote/terminology/) organizations, while enhancing the operations of colocated and [hybid-remote](/handbook/company/culture/all-remote/hybrid-remote/) companies by sharing implementable remote-first practices.
 
-We believe that the [people practice](/teamops/) and [operating principles]({{ ref "values#operating-principles" >}}) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
+We believe that the [people practice](/teamops/) and [operating principles](/handbook/values/#operating-principles) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
 
 ## Goals (OKR)
 
@@ -91,10 +91,10 @@ Anyone can be a remote evangelist! Help yourself to these materials for your pre
 We're often asked to share how GitLab thrives as an [all-remote](/handbook/company/culture/all-remote/terminology/) team. Here are the foundational resources you can share to start the conversation:
 
 - **[GitLab's Guide to Remote Work](/handbook/company/culture/all-remote/guide/)** is a comprehensive overview of what "all-remote" really means, how it works at GitLab, some tips and tricks for remote teams, and resources to learn more.
-- **[The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook)**, a curated eBook with GitLab's top advice for companies transitioning to remote, can be downloaded via a prompt on the all-remote homepage, accessible at [http://allremote.info/](http://allremote.info/)
+- **[The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook)**, a curated eBook with GitLab's top advice for companies transitioning to remote, can be downloaded via a prompt on the all-remote homepage, accessible at [https://allremote.info/](https://allremote.info/)
 - This blog post — **[Resources for companies embracing remote work](https://about.gitlab.com/blog/2020/03/06/resources-for-companies-embracing-remote-work/)** — gives background and context, and lays out a logical flow of links for leaders and workers to follow as they learn.
 
-In scenarios where you need a quick link to vocalize, tweet, email, or otherwise share, we have established a memorable redirect: http://allremote.info/ ("*All Remote Dot Info*")
+In scenarios where you need a quick link to vocalize, tweet, email, or otherwise share, we have established a memorable redirect: https://allremote.info/ ("*All Remote Dot Info*")
 
 ### Why remote?
 
@@ -151,16 +151,16 @@ Top questions from suddenly or newly-remote companies
 <p>Below are the most common questions asked by suddenly or newly-remote companies, linked to relevant handbook pages that you can study prior to presenting. These shed light on their challenges, and will help you proactively speak to common needs, misconceptions, and struggles.</p>
 
 <ol>
-   <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop video calls)?</li>
-   <li>How we do handle <a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
-   <li>How do we ensure that <a href="https://handbook.gitlab.com/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
-   <li>How does one <a href="https://about.gitlab.com/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop video calls)?</li>
+   <li>How we do handle <a href="/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
+   <li>How do we ensure that <a href="/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
+   <li>How does one <a href="/handbook/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
    <li>How do you <a href="https://www.coursera.org/learn/remote-team-management">effectively lead remote teams</a>?</li>
-   <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/onboarding/">onboard</a> and <a href="https://about.gitlab.com/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
-   <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/collaboration-and-whiteboarding/">collaborate and whiteboard</a> remotely?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/onboarding/">onboard</a> and <a href="/handbook/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/collaboration-and-whiteboarding/">collaborate and whiteboard</a> remotely?</li>
    </ol>
 </details>
 
@@ -204,7 +204,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
    - Provide a feedback mechanism. [It's impossible to know everything](/handbook/values/#its-impossible-to-know-everything), so ask your team members what's missing in their remote approach. Prioritize those asks as you see themes forming.
    - Remind people that GitLab has two Getting Started guides: one for [leaders/companies](/handbook/company/culture/all-remote/remote-work-emergency-plan/), another for [workers](/handbook/company/culture/all-remote/remote-work-starter-guide/).
 1. **Minimize your tool Stack**. The fewer moving pieces when transitioning to remote, the better. GitLab (the product) is at the heart of our workflows.
-1. **"But wait, I still need help!"** Fret not! GitLab's entire library of remote guides are available at http://allremote.info/ ("*All Remote Dot Info*")
+1. **"But wait, I still need help!"** Fret not! GitLab's entire library of remote guides are available at https://allremote.info/ ("*All Remote Dot Info*")
 
 In case you as a subject matter expert are invited to write an Unfiltered blog post or create other written content, please feel free to make a copy of the ["Going remote in ____" blog post template](https://docs.google.com/document/d/199fWehOHX2tPUZgOLDIJUSjpTUOezqQXCtIFXo2uEng/edit?usp=sharing) and tailor based on your audience.
 
@@ -213,9 +213,9 @@ In case you as a subject matter expert are invited to write an Unfiltered blog p
 More examples of how to talk about remote work
 </summary>
 <p>If you're looking for examples of the GitLab team describing our experience with remote work, have a listen at the podcasts below.</p>
-<ul><li>The Future of Work Project — <a href="https://anchor.fm/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7">Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families</a></li>
+<ul><li>The Future of Work Project — <a href="https://creators.spotify.com/pod/show/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7">Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families</a></li>
 <li>HR Leaders Podcast — <a href="https://hrleaders.co/podcast/darren-murph-how-gitlab-creates-and-sustains-scalable-remote-practices">How GitLab Creates and Sustains Scalable Remote Practices</a></li>
-<li>SafetyWing Podcast — <a href="http://buildingremotely.com/episode/2">How to transition to remote</a></li>
+<li>SafetyWing Podcast — <a href="https://buildingremotely.com/episode/how-to-transition-to-remote/">How to transition to remote</a></li>
 <li>The Recruitment Network Podcast — <a href="https://open.spotify.com/show/5Z3HMCHlBOLuYUWvczJjxj?si=giLfsfd-TZOB1hGkFiNeTw">The Future of Remote Working with Darren Murph</a></li>
 <li>Wise Up with Cristina Podcast - <a href="https://podcasts.apple.com/us/podcast/remote-work-opportunities-beyond-work/id1510125819?i=1000486607447">Darren Murph, Remote Rebel, on Opportunities Beyond Work</a></li>
 <li>Changelog Podcast — <a href="https://changelog.com/podcast/397">Creating GitLab's remote playbook</a></li>
@@ -223,7 +223,7 @@ More examples of how to talk about remote work
 <li>Skills for Mars — <a href="https://youtu.be/g78mzVYjDY0">Darren Murph On Transparency, Values & Leadership when All-Remote</a></li>
 <li>Bright & Early Podcast — <a href="https://www.youtube.com/watch?v=Vg0R9r4DcXw">Darren Murph: Remote Work at GitLab</a></li>
 <li>Working Without Borders: The Get on Board Podcast — <a href="https://medium.com/getonbrd/working-without-borders-s01e02-darren-murph-head-of-remote-at-gitlab-5567d7c634fd">Darren Murph on leading a remote culture at GitLab</a></li>
-<li>Outside The Valley: <a href="https://arc.dev/blog/podcast-ep23-gitlab-darren-murph-96ggw37q6t">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
+<li>Outside The Valley: <a href="https://arc.dev/employer-blog/companies-should-go-remote-darren-murph/">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
 <li>Accelerating Support Podcast: <a href="https://soundcloud.com/acceleratingsupport/accelerating-support-export-v1/s-JylGQhxc7il">Darren Murph, Head of Remote at GitLab</a></li>
 </ul>
 </details>
@@ -319,7 +319,7 @@ GitLab is a very [transparent](/handbook/values/#transparency) company. As such,
 ### All-Remote on the GitLab blog
 
 - GitLab blog posts [in the `Culture` category](https://about.gitlab.com/blog/categories/culture/)
-- GitLab blog posts [tagged `remote-work`](https://about.gitlab.com/blog/tags.html#remote-work)
+- GitLab blog posts [tagged `remote-work`](https://about.gitlab.com/blog/tags/remote-work/)
 
 ## Our audience
 
@@ -356,7 +356,7 @@ We chose the all-remote structure so we can hire people irrespective of location
 
 **Managing your team**
 
-- Prioritize results over hours worked
+- Prioritize impact over activity
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork and saying thanks

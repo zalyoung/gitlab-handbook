@@ -6,11 +6,11 @@ title: Level Up
 
 This handbook page is meant to support both learners and administrators in Level Up. Thought Industries is the provider of the Level Up platform and is mentioned often in this documentation.
 
-![Level Up Dashboard](dashboard-2.jpg)
+![Level Up Dashboard](/images/people-group/learning-and-development/level-up/dashboard-2.jpg)
 
 ## Contribute to Level Up
 
-At GitLab, [everyone can contribute]({{< ref "mission#mission" >}}). Read below about how to contribute to Level Up. If you'd like to explore the content creation options in Level Up, check out this [Demo Course](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/demo-course).
+At GitLab, [everyone can contribute](/handbook/company/mission/#mission). Read below about how to contribute to Level Up. If you'd like to explore the content creation options in Level Up, check out this [Demo Course](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/demo-course).
 
 ### Why contribute?
 
@@ -33,7 +33,7 @@ First, please open an issue in the [lxp-contributions project](https://gitlab.co
 
 If you want to build the content into the platform yourself, please complete the Level Up [Learning Evangelist training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/learning-evangelist-training). This training course uses instructional videos to teach learners the basics of content creation in Level Up, and includes some best practice to think about when designing learning content and gathering materials. Once you have completed the training, the Learning and Development team will uplift your permissions in Level Up to give you access to course authoring tools.
 
-You can also use the [Learning Evangelist handbook page]({{< ref "course-author-training" >}}) to review any of the content in the course, directly from the handbook.
+You can also use the [Learning Evangelist handbook page](/handbook/people-group/learning-and-development/level-up/course-author-training/) to review any of the content in the course, directly from the handbook.
 
 ## Support
 
@@ -47,9 +47,9 @@ For questions not answered below, reach out in the #learninganddevelopment Slack
 
 - When you're logged into Level Up, click the drop down menu next to your profile photo and select `Support`. Here, you'll see both general and GitLab-specific help resources related to using Level Up. See screenshots below.
 
-![Adding custom content field in Thought Industries](support.jpg)
+![Adding custom content field in Thought Industries](/images/people-group/learning-and-development/level-up/support.jpg)
 
-![Adding custom content field in Thought Industries](support-page.jpg)
+![Adding custom content field in Thought Industries](/images/people-group/learning-and-development/level-up/support-page.jpg)
 
 ### Training
 

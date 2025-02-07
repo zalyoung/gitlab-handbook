@@ -25,10 +25,9 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Authorization Matrix](/handbook/finance/authorization-matrix/)
 - [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf)
 - [Corporate Communication Policy](/handbook/legal/corporate-communications/)
-- [Data Privacy Impact Assessment (DPIA) Policy](/handbook/legal/privacy/dpia-policy)
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
 - [Entity-Specific Employment Policies](/handbook/people-policies/#entity-specific-employment-policies)
-- [Events Code of Conduct](https://about.gitlab.com/company/culture/ecoc/)
+- [Events Code of Conduct](/handbook/company/culture/ecoc/)
 - [Gifts & Entertainment, Political Activities & Contributions, and Charitable Contributions](/handbook/legal/policies/gifts-contributions/#)
 - [GitLab Federal Code of Ethics](https://drive.google.com/file/d/1whEuxvIwy3M33N3vbUUkGrOKvkow5LAw/view)
 - [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view)
@@ -40,7 +39,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Related Party Transactions](/handbook/legal/gitlab-related-party-transactions-policy/)
 - [SAFE Framework](/handbook/legal/safe-framework/)
 - [Social Media Policy](/handbook/marketing/team-member-social-media-policy/)
-- [Third-Party Risk Management Process](/handbook/finance/procurement/#-third-party-risk-management)
+- [Third-Party Risk Management Process](/handbook/finance/procurement/#third-party-risk-management)
 - [UK Modern Slavery Act Transparency Statement](https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view?usp=sharing)
 - [Whistleblower Policies](/handbook/legal/whistleblowing/#whistleblowing-at-gitlab)
 
@@ -69,7 +68,7 @@ We anticipate the need for policy amendments and new policies and procedures, as
 
 Compliance training is critical to GitLab's success and the success of its team members. Effective training helps team members achieve a more meaningful understanding of what our Compliance Standards require and puts them in a better position to recognize and escalate (as required) unethical and unlawful behavior when they see it.
 
-All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through either [NavexEngage](https://lms.navexglobal.com/topclass5/) and [WILL Interactive](https://learning.willinteractive.com/). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training). Additional information about Navex and the courses available there can be found [here](/handbook/legal/legalops/navex/).
+All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through [NavexEngage](https://lms.navexglobal.com/topclass5/) and [Level Up](https://university.gitlab.com/learn/dashboard). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training). Additional information about Navex and the courses available there can be found [here](/handbook/legal/legalops/navex/). The refresher training schedule for the current year is reflected in the [GitLab Team Member Calendar](/handbook/people-group/calendars/team-member-calendar/).
 
 We recognize that some team members are subject to additional or heightened compliance requirements as a result of their roles and responsibilities or the geographies in which they operate. Depending on these factors, those team members may receive additional training. As an example, team members employed by or working closely with GitLab Federal, our United States public sector entity, must complete a training course titled Government Contracting: Gifts, Gratuities, and Bribery.
 
@@ -79,7 +78,7 @@ We recognize that unlawful and unethical behavior could happen despite our best 
 
 ### Reporting Misconduct (Anonymously OR Non-Anonymously)
 
-Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to report unethical and unlawful behavior, and violations of the Business Code of Conduct and Ethics and policies in support of the Code. Reports can be **anonymous** or **non-anonymous**. Reports can be made using the platform [online](http://gitlab.ethicspoint.com/.) or by using EthicsPoint's hotline, which is available 24 hours a day, 365 days a year. The toll-free hotline number for the USA is 1-833-756-0853. Direct access phone numbers for other locations can be viewed on the EthicsPoint website by using the country location drop-down menu.  In the alternative, misconduct may be reported in any manner described in GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5) or applicable [country-specific whistleblower policies](/handbook/legal/whistleblowing/#country-specific-whistleblower-policies).
+Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to report unethical and unlawful behavior, and violations of the Business Code of Conduct and Ethics and policies in support of the Code. Reports can be **anonymous** or **non-anonymous**. Reports can be made using the platform [online](https://gitlab.ethicspoint.com/.) or by using EthicsPoint's hotline, which is available 24 hours a day, 365 days a year. The toll-free hotline number for the USA is 1-833-756-0853. Direct access phone numbers for other locations can be viewed on the EthicsPoint website by using the country location drop-down menu.  In the alternative, misconduct may be reported in any manner described in GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5) or applicable [country-specific whistleblower policies](/handbook/legal/whistleblowing/#country-specific-whistleblower-policies).
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 

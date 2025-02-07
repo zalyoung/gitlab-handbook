@@ -57,7 +57,7 @@ Should product managers have any questions when making tier decisions, they shou
 
 Multiple considerations go into customers' purchase decisions. Here are some various resources product managers can visit to reference various data points for analysis:
 
-- [Post purchase surveys](https://about.gitlab.com/direction/product-operations/#post-purchase)
+- Post purchase surveys (link no longer available)
 
 ## How to consider impact to revenue
 
@@ -67,7 +67,7 @@ Product managers should be familiar with and leverage strategies and tactics for
 
 - [Create stage's use of popularity to drive revenue](https://about.gitlab.com/direction/create/#pricing)
 - [Plan stage's balance between usage and enterprise adoption](https://about.gitlab.com/direction/plan/#pricing)
-- [Enablement section's balance of ease of use and scale](https://about.gitlab.com/direction/enablement/#pricing)
+- [Enablement section's balance of ease of use and scale](https://about.gitlab.com/direction/core_platform/#pricing)
 
 ### Understanding Investment
 

@@ -21,6 +21,7 @@ This will allow everyone to gain more knowledge regarding Geo and an easier loca
 
 - Lead: {{< member-by-name "Ronald van Zon" >}} (`@rvzon`)
 - Co-Lead: {{< member-by-name "Anton Smith" >}} (`@anton`)
+- Co-Lead: {{< member-by-name "Keelan Lang" >}} (`@klang`)
 - {{< member-by-name "Alexander Strachan" >}} (`@astrachan`)
 - {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
 - {{< member-by-name "Bo Carbonell" >}} (`@bocarbonell`)
@@ -29,7 +30,6 @@ This will allow everyone to gain more knowledge regarding Geo and an easier loca
 - {{< member-by-name "Łukasz Korbasiewicz" >}} (`@lkorbasiewicz`)
 - {{< member-by-name "Mario Mora" >}} (`@mmora`)
 - {{< member-by-name "Harish Ramachandran" >}} (`@harishsr`)
-- {{< member-by-name "Nathaniel Rosario" >}} (`@nrosario`)
 - {{< member-by-name "Aric Buerer" >}} (`@abuerer`)
 
 ## Collaboration channels
@@ -61,7 +61,6 @@ Follow the steps below and you should have a personal view in no time.
     1. This is kind of up to your flavour but below are some suggestions.
         1. Next SLA breach
         1. Priority
-        1. SGG
         1. Preferred Region for Support
         1. Subject
         1. Organization

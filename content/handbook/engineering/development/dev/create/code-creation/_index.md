@@ -15,8 +15,8 @@ Develop cutting-edge AI-powered tools that enhance the efficiency and creativity
 
 One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
-- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start) - GitLab Documentation
-- [Difference betwen Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
+- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
+- [Difference between Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
 - [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
 
 A lot of the terms we use in this area sound similar and can be confusing at first. Here are the basic terms we use:
@@ -47,11 +47,13 @@ stateDiagram
 
 ## Team Handles
 
-| Category                 | Handle              |
-|--------------------------|---------------------|
-| GitLab Team Handle       | @code-creation-team |
-| Slack Channel            | #g_code_creation    |
-| Slack Handle (Engineers) | @code-creation-engs |
+Use this information to connect with the Code Creation group:
+
+| Category                 | Handle                                |
+|--------------------------|---------------------------------------|
+| GitLab Team Handle       | @gitlab-com/create-team/code-creation |
+| Slack Channel            | #g_code_creation                      |
+| Slack Handle (Engineers) | @code-creation-engs                   |
 
 ## Commonly Monitored Issue Lists
 
@@ -77,7 +79,7 @@ The following members of other functional teams are our stable counterparts:
 | Category          | Counterpart                                                                          |
 |-------------------|--------------------------------------------------------------------------------------|
 | Product Manager   | {{< member-by-name "Jordan Janes" >}}                                                |
-| Technical Writing | {{< member-by-name "Jon Glassman" >}}                                                |
+| Technical Writing | {{< member-by-name "Leala Smith" >}}                                                |
 | UX                | {{< member-by-name "Andy Volpe" >}} (Create Stage)                                   |
 | SET               | {{< member-by-name "Jay McCure" >}} (Create Stage)                                   |
 | Support           | [TBD](/handbook/support/support-stable-counterparts/)                                |
@@ -115,7 +117,7 @@ To help get started as a developer with the Create:Code Creation team, we have c
 
 **Sync: Code Creation** - a meeting held once a week on Tuesday at 15:00 UTC to align on group priorities. If there are no points on the meeting agenda one hour before the meeting starts, that meeting is considered as canceled.
 
-All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to swtich to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to switch to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
 
 ### Weekly Status Updates
 
@@ -134,10 +136,15 @@ This is the template to use for the updates
 ```markdown
 ## Async Status Update yyyy-mm-dd
 
-- Current Status: _What is the current status of this issue?_
-- Next Steps: _What are the next steps for you?_
-- Blockers: _List any blockers you have_
-- Shipping this milestone? _Do you expect this to ship this milestone? If not, why?_
+- **Progress & Status**: _What progress have you made? What's the current state?_
+- **Next Steps**: _What are your planned next actions?_
+- **Blockers**: _Are you blocked or need assistance with this?_
+- **How confident are you that this will make it to the current milestone?**
+    - [ ] Not confident
+    - [ ] Slightly confident
+    - [ ] Very confident
+
+_Remember to update the workflow label!_
 
 /cc @mnohr @jordanjanes
 ```
@@ -159,7 +166,7 @@ Be sure to tag the engineering manager, product manager, and any team members yo
 
 ## Code Suggestion Dashboards
 
-1. [Usage and Acceptance Rate](https://10az.online.tableau.com/#/site/gitlab/views/PDCodeSuggestions/ExecutiveSummary) (Tableau)
+1. [Code Suggestions Metrics](https://10az.online.tableau.com/#/site/gitlab/views/PDCodeSuggestions/ExecutiveSummary) ([README](https://10az.online.tableau.com/#/site/gitlab/views/PDCodeSuggestions/README?:iid=1)) - usage, acceptance rate, latency, error rates, etc (Tableau)
 1. [General Metric Reporting](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1) - can find code suggestions rate limiting, X-Ray usage, etc (Tableau)
 1. [Log Visualization Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/6c947f80-7c07-11ed-9f43-e3784d7fe3ca?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-6h,to:now))) - another view of latency, response codes, number of requests, etc (Kibana)
 1. [Code suggestions latency](https://log.gprd.gitlab.net/app/r/s/mMaY3): Breakdown of server-side latency for code suggestions (Kibana)

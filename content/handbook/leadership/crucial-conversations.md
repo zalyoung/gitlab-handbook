@@ -3,11 +3,11 @@ title: Crucial Conversations
 description: "GitLab's strategies for being an effective leader during crucial conversations with team members"
 ---
 
-Any synchronous or asynchronous engagement with team members may turn into a crucial conversation. At GitLab, we can develop the skills of sensing the tone of an async or sync conversation to uncover potential pain-points, risks, blockers, etc for team members. We need to find a way to create [psychological safety]({{< ref "psychological-safety#introduction" >}}) for our people. Using a 1-1 can be a great way to gain context on a situation a team member is facing and hold a crucial conversation.
+Any synchronous or asynchronous engagement with team members may turn into a crucial conversation. At GitLab, we can develop the skills of sensing the tone of an async or sync conversation to uncover potential pain-points, risks, blockers, etc for team members. We need to find a way to create [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/#introduction) for our people. Using a 1-1 can be a great way to gain context on a situation a team member is facing and hold a crucial conversation.
 
 Team members can take a [crucial conversations training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/) led by the Learning and Development team.
 
-What is a Crucial Conversation: According to the [book](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328/ref=sr_1_1?dchild=1&keywords=crucial+conversation&qid=1605712836&sr=8-1), a conversation to be crucial is that the results of it could have a huge impact on the quality of your life. A conversation involving a promotion, performance, debate between coworkers, etc. In short crucial conversations are discussions between two or more people where:
+What is a Crucial Conversation: According to the [book](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328/), a conversation to be crucial is that the results of it could have a huge impact on the quality of your life. A conversation involving a promotion, performance, debate between coworkers, etc. In short crucial conversations are discussions between two or more people where:
 
 1. Stakes are high
 1. Opinion vary
@@ -54,7 +54,7 @@ These are just a few strategies outlined in the Crucial Conversation book. We [h
 
 The ability to influence is an essential leadership skill. To influence is to have an impact on the behaviors, attitudes, opinions and choices of your team members and others across GitLab and externally. Influence should not be confused with power or control. It is also not about manipulating others to get your own way. It is about noticing what motivates team members commitment and using that knowledge to leverage performance and results.
 
-[Leadership]({{< ref "leadership" >}}) has sometimes been described as the ability to influence others. An effective leader does not move team members into action by coercion. An effective leader will articulate the overall vision and goals for the organization. By doing such this can motivate and move team members to action by tapping into their desires and need for success. Positive influence that is properly channeled can also bring about transformation and change for team members, department, division and the company. A leader that exhibits and exerts positive influence in others will build trust and become a true driving force towards transparency, iteration, collaboration and results.
+[Leadership](/handbook/leadership/) has sometimes been described as the ability to influence others. An effective leader does not move team members into action by coercion. An effective leader will articulate the overall vision and goals for the organization. By doing such this can motivate and move team members to action by tapping into their desires and need for success. Positive influence that is properly channeled can also bring about transformation and change for team members, department, division and the company. A leader that exhibits and exerts positive influence in others will build trust and become a true driving force towards transparency, iteration, collaboration and results.
 
 There are many different influencing strategies and in this section we are going to review 9 that leaders can review. Each strategy below will include a definition, example and ways for leaders to develop this strategy.
 
@@ -143,8 +143,8 @@ Below are additional resources on influencing and leadership for you to review.
 - [What Great Leaders Know about Influence](https://www.forbes.com/sites/rebeccanewton/2016/07/27/six-steps-to-increase-your-influence/#5609705a1edd)
 - [Influencing Skills: A Key to Leadership Success!](https://www.linkedin.com/pulse/influencing-skills-key-leadership-success-marcia-zidle-ms-bcc/)
 - [Influencing Others: A Key Leadership Skill](https://www.ginaabudi.com/influencing-others-a-key-leadership-skill/)
-- [The 5 Key Skills of Influential Leaders Within Every Organization](https://www.inspirationaldevelopment.com/5-key-skills-influential-leaders-every-organisation/)
-- [Influence and Leadership](http://www.deeelliottconsulting.com/system/files/Influence%20and%20Leadership.pdf)
+- [The 5 Key Skills of Influential Leaders Within Every Organization](https://beinspirational.com/insight-hub/5-key-skills-influential-leaders-every-organisation/)
+- [Influence and Leadership](https://www.deeelliottconsulting.com/leadership-and-influencing/)
 - [5 Leadership Strategies Proven to Improve Performance on Your Team](https://crestcom.com/blog/2016/12/01/5-leadership-strategies-to-improve-performance-in-your-company/)
 - [The 7 Best Books to Improve Influencing Skills](https://www.roffeypark.com/articles/the-7-best-books-to-improve-influencing-skills/)
 - [7 Ways to Build Influence in the Workplace](https://www.inc.com/jayson-demers/7-ways-to-build-influence-in-the-workplace.html)

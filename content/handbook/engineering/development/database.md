@@ -4,7 +4,7 @@ title: Database Engineering
 
 This page is dedicated to database application engineering and provides an entry-point for resources on this topic.
 
-Also see [Database Team](/handbook/engineering/infrastructure/core-platform/data_stores/database/) in Enablement.
+Also see [Database Team](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) in Enablement.
 
 ## GitLab development
 

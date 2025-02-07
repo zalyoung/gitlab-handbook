@@ -4,7 +4,7 @@ title: Learning & Development
 
 ## Overview
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 50.82%; padding-top: 0; height: 0;"><iframe frameborder="0" width="500" height="350" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/62fe8a909b925c0018b5de80" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 50.82%; padding-top: 0; height: 0;"><iframe frameborder="0" width="500" height="350" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fe8a909b925c0018b5de80" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 ### Purpose
 
@@ -28,7 +28,7 @@ title: Learning & Development
 
 1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding#exit-survey) related to career development
 1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement)
-1. Increased access to career mobility: internal transfers, [promotions]({{< ref "promotions-transfers" >}}), job shadows, intern for learning, and professional development
+1. Increased access to career mobility: internal transfers, [promotions](/handbook/people-group/promotions-transfers/), job shadows, intern for learning, and professional development
 1. Clear evidence of best in class remote learning & development (i.e. [Brandon Hall Awards](https://excellenceawards.brandonhall.com/), Industry Speaking Events, Thought Leadership articles, etc.)
 
 ### Principles
@@ -43,8 +43,8 @@ title: Learning & Development
 We are a small team, but we've got a big role to play at GitLab!
 
 - [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook/company/team/#tely2}})
-- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
-- [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): `vacant`
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
 ## Team Member Resources
 
@@ -54,38 +54,24 @@ The Learning & Development team has a number of resources to help team members l
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Fund</a>
-    <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
+    <a href="/handbook/people-group/learning-and-development/career-development/" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "leadership-chats" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Leadership Chats</a>
     <a href="{{< ref "learning-initiatives" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Initiatives</a>
-    <a href="{{< ref "self-paced-learning" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
+    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/)" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
     <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
-    <a href="{{< ref "compliance-courses" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Compliance Courses</a>
+
   </div>
 </div>
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
-    <a href="{{< ref "coaching" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
-    <a href="{{< ref "slack-training" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Slack Training</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
-    <a href="https://handbook.gitlab.com/handbook/sales/field-manager-development" class="btn btn-primary" style="width:200px;margin:5px;">Field Manager Development</a>
-    <a href="{{< ref "speakers" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Speaker Series</a>
     <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
+    <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
+    <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
   </div>
 </div>
 
@@ -102,11 +88,11 @@ Multiple teams across the company contribute to learning and development of our 
 
 1. Slack: `#learninganddevelopment`
 1. Email Us: `learning@gitlab.com`
-1. [Request support/Collaborate on new learning content]({{< ref "work-with-us" >}})
+1. [Request support/Collaborate on new learning content](/handbook/people-group/learning-and-development/work-with-us/)
 
 ### Work With Us
 
-The [work with us]({{< ref "work-with-us" >}}) page outlines issue templates and processes that are managed on our [Learning and Development issue board](https://gitlab.com/gitlab-com/people-group/learning-and-development/-/issues). We review and classify requests based on the scalability and possible organizational impact. Learning solutions that can be applied and used company-wide take priority. Our process includes:
+The [work with us](/handbook/people-group/learning-and-development/work-with-us/) page outlines issue templates and processes that are managed on our [Learning and Development issue board](https://gitlab.com/gitlab-com/people-group/learning-and-development/-/issues). We review and classify requests based on the scalability and possible organizational impact. Learning solutions that can be applied and used company-wide take priority. Our process includes:
 
 - Evaluate the strategic impact of the learning session
 - Determine the level of work associated with the learning requirement
@@ -118,7 +104,7 @@ The [work with us]({{< ref "work-with-us" >}}) page outlines issue templates and
 
 ### Handbook First Training Content
 
-All material in the handbook is considered training and we build [handbook first learning content]({{< ref "interactive-learning" >}}). One of L&D's primary responsibilities is to ensure that content lives in the appropriate section in the handbook. In the below video, Sid, explains how the content of courses is not separated from the handbook to the L&D team.
+All material in the handbook is considered training and we build [handbook first learning content](/handbook/people-group/learning-and-development/interactive-learning/). One of L&D's primary responsibilities is to ensure that content lives in the appropriate section in the handbook. In the below video, Sid, explains how the content of courses is not separated from the handbook to the L&D team.
 
 {{< youtube "G57Wtt7M_no" >}}
 
@@ -163,16 +149,16 @@ The L&D team freqently uses the following tools for creating and communicating l
 | Tool | Purpose |
 | ----- | -------- |
 | [Powtoon](https://www.powtoon.com/) | Video Creation |
-| [LucidChart](https://www.lucidchart.com/) | Interactive Diagrams |
+| [LucidChart](https://www.lucidchart.com/pages/) | Interactive Diagrams |
 | [Canva](https://www.canva.com/) | Image and infographic creation |
-| [Articulate/Rise 360](https://articulate.com/) | Course Authoring |
+| [Articulate/Rise 360](https://www.articulate.com/) | Course Authoring |
 | [Genial.ly](https://app.genial.ly/dashboard) | Create Interactive Images |
 
 ## Developing Learning Content
 
 ### Learning Content Accessibility Guidelines
 
-In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
+In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
 
 We ask that team members who create both internal and external learning content:
 
@@ -185,7 +171,7 @@ We ask that team members who create both internal and external learning content:
 1. **Know Your Audience** - Analyze and assess the course audience. Ensure that all audience needs are accounted for at every level in the organization you are delivering the training too.
 1. **Define Learning Objectives** - Highlight the learner outcome. Consider developing two to three broad overall statements of what the audience will achieve.
 1. **Break Down Complex Information** - Consider breaking down complex information into easy to digest visuals or text. Reference the handbook but do not be afraid to create a visual representation or use storytelling for the audience.
-1. **Engage the Learner** - Adults learn through practice and involvement. Consider using tools to engage learners in a virtual setting like [Mentimeter](https://www.mentimeter.com/) or [Kahoot](https://kahoot.com/business-u/) to stimulate interactivity.
+1. **Engage the Learner** - Adults learn through practice and involvement. Consider using tools to engage learners in a virtual setting like [Mentimeter](https://www.mentimeter.com/) or [Kahoot](https://kahoot.com/) to stimulate interactivity.
 1. **Implement Blended Learning Course Content** - Give the learners pre-course work to read and review before the learning session. Use off-the-shelf resources and ensure the content is applicable to what will be covered in the session. Follow up to gauge how they've applied what they've learned on the job through surveys and questionnaires.
 
 ### Application of Adult Learning Theory
@@ -245,4 +231,4 @@ Please let us know how you would prefer to learn by [filling out this form](http
 
 The launch of the GitLab Learn LXP was awarded a Silver Excellence in Learning by the [Brandon Hall Group](https://excellenceawards.brandonhall.com/) for the Best Launch of a Corporate Learning University.
 
-![silver brandon hall group award logo](silver-award.png)
+![silver brandon hall group award logo](/images/people-group/learning-and-development/silver-award.png)

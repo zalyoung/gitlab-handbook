@@ -31,7 +31,7 @@ Crucially, we use this high bandwidth communication to review issues that need s
 
 #### Times and Timezones
 
-The Utilization group is spread across at least [4 different timezones](https://leipert-projects.gitlab.io/better-team-page/timezones/?search=reports_to%3AChaseSouthard).
+The Utilization group is spread across at least 4 different timezones.
 
 The Utilization Team meets via Zoom on Tuesdays each week at 9:00 AM US Eastern Time (6:00 AM PT / 2:00 PM UTC) to accommodate teammates in their timezones.
 
@@ -56,7 +56,7 @@ In addition to weekly issue updates, we ask that engineeering DRIs also provide 
 - **When**: We aim to provide these updates every Tuesday
 - **Who**: Anyone who is listed as a DRI against our current milestone priority projects
 - **What**: The updates should include accomplishments, any blockers and a sense of how the work is progressing against the timeline. As an added bonus, a link to a demo that has been posted in the #s_fulfillment_demo Slack channel would also be beneficial.
-- **Where**: Please provide them in the comments of the primary/parent epic of your work and tag Alex and Chase when you do so.
+- **Where**: Please provide them in the comments of the primary/parent epic of your work and tag Alex and James when you do so.
 
 An example template to use in these updates looks like:
 
@@ -401,6 +401,14 @@ DRIs assign themselves to the selected issue. This is also a good time to re-eva
 
 [^stsjw-1]: Small effort improvements to the project can be added to the current milestone as unplanned work. Resolving small bugs or fixing flakey tests immediately are examples of how to use the `stuff that should just work` label.
 
+### Unblocking Frontend work
+
+Given the higher capacity to work on Frontend issues, we can use the following system for Frontend Engineers to ping Backend engineers in their timezone to resolve the blockers or backend dependencies faster:
+
+![Fe-Be-Priority-Heatmap](/images/handbook/engineering/priority-heatmap.png)
+
+Depending on the priority of the project or OKR, Frontend engineers are able to ask Backend engineers for help regardless of their current project - unless the priority of the Backend work is higher. In the above table, the cells in green show the times when Frontend Engineers can ping the Backend engineers for help regardless of their DRI status of the project, while cells in yellow may require an escalation to the EM if they are blocked or to wait for the Backend DRI of the project to help out.
+
 ## Triage
 
 The following lists are links to Sentry and other tools where we proactively identify and triage Utilization problems. Proactive triage will not only provide for a more secure and robust application, but also provide for a better user experience especially as we iterate on features, reveal features from behind a feature flag, or introduce a refactoring. It leans into our [Bias for action](/handbook/values/#bias-for-action) sub-value and raises our awareness of application performance.
@@ -426,7 +434,7 @@ e.g. https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/2505559/?query=i
 
 See links in the right sidebar:
 
-![''](sentry_issue_creator.png)
+![''](/images/engineering/development/fulfillment/utilization/sentry_issue_creator.png)
 
 Although both links look the same, the first link is for creating an issue *in the security repo*, the **second should be for the project** (CustomersDot/GitLab) accordingly.
 

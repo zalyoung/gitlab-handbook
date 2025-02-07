@@ -78,7 +78,7 @@ graph TD
 
 <!-- vale gitlab.Spelling = NO -->
 In this proposal, runners created in the GitLab UI are assigned
-[authentication tokens](https://docs.gitlab.com/ee/security/token_overview.html#runner-authentication-tokens)
+[authentication tokens](https://docs.gitlab.com/ee/security/tokens/index.html#runner-authentication-tokens)
 prefixed with `glrt-` (**G**it**L**ab **R**unner **T**oken).
 <!-- vale gitlab.Spelling = YES -->
 The prefix allows the existing `register` command to use the authentication token _in lieu_
@@ -97,8 +97,8 @@ token in the `--registration-token` argument:
 
 | Token type | Behavior |
 | ---------- | -------- |
-| [Registration token](https://docs.gitlab.com/ee/security/token_overview.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners` REST endpoint to create a new runner, creating a new entry in `config.toml` and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
-| [Runner authentication token](https://docs.gitlab.com/ee/security/token_overview.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners/verify` REST endpoint to ensure the validity of the authentication token. Creates an entry in `config.toml` file and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
+| [Registration token](https://docs.gitlab.com/ee/security/tokens/index.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners` REST endpoint to create a new runner, creating a new entry in `config.toml` and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
+| [Runner authentication token](https://docs.gitlab.com/ee/security/tokens/index.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners/verify` REST endpoint to ensure the validity of the authentication token. Creates an entry in `config.toml` file and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
 
 ### Transition period
 

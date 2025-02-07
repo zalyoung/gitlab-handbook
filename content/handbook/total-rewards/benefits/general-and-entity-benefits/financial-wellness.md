@@ -13,7 +13,7 @@ If you have any great resources that you have used in the past, please feel free
 
 ### Modern Health
 
-[Modern Health]({{< ref "modern-health" >}}) offers many self service resources to team members as part of the Employee Assistance benefit through GitLab.
+[Modern Health](/handbook/total-rewards/benefits/modern-health/) offers many self service resources to team members as part of the Employee Assistance benefit through GitLab.
 
 Some of these resources include:
 
@@ -28,7 +28,7 @@ GitLab offers all team members the ability to use the Financial Wellness Program
 
 - 1:1 sessions for all GitLab team members globally to connect with a dedicated Wellness Specialist to discuss topics such as Investment Assets (including Stock Options), Asset Protection, Income Protection, Debt Management, and Estate Planning.
   - The main goal here is the commitment to help understanding how the GitLab equity plan works, and providing resources in what team members can consider in financial management. SageView won't provide tax, legal, or financial advice, but can help you to understand the pieces of information you will need to seek personal advise on to manage your own personal situation.
-- Access to [Sage411](http://www.sage411.com) for general questions and investment support.
+- Access to [Sage411](https://sage411.com/) for general questions and investment support.
 - Access to SageView's communications
 - Financial Wellness Workshops hosted by SageView
 
@@ -105,5 +105,5 @@ The Total Rewards Summary has been generated for management to visualize and und
 - Team members may be eligible for [Equity Compensation](/handbook/total-rewards/stock-options/#restricted-stock-units) as part of their new hire package or the annual refresh program.
 - GitLab has recently adjusted the cliff for the RSU program by implementing an industry leading six month cliff for new hire grants and no cliff for promotion or refresh grants.
 - Close by checking in on how your team member is doing beyond their financial position. A quick and simple method is to use  the "red, yellow, green" scale to ask your team members how they are feeling about their future at GitLab. The goal is to gain actionable feedback about how you can support them going forward.
-- Please note that Total Rewards will be discussed again in February as part of [Annual Compensation Review]({{< ref "compensation-review-cycle" >}}). This is a great opportunity to check in with your direct reports ahead of the planning process, but it is important to not make any forward looking statements on increases during the review cycle.
+- Please note that Total Rewards will be discussed again in February as part of [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/). This is a great opportunity to check in with your direct reports ahead of the planning process, but it is important to not make any forward looking statements on increases during the review cycle.
 - Remember, financial incentives are only one aspect of what keeps our team members excited about their role at GitLab. Career opportunity and ability to make meaningful contributions were highlighted as the 2 highest areas of impact for our team members during our last Engagement Survey. Take this opportunity to have a holistic conversation about your team members' future at GitLab in terms of their career and financial growth opportunity. Remember, we're only at Mile 3 of the marathon.

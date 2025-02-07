@@ -174,7 +174,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 ### 7. Our Competition
 
 - **The Industry In Which GitLab Competes (Material - Video - 11 Minutes)**
-  - Sid Sijbrandij, CEO of GitLab, discusses the overall industry where GitLab competes.
+  - Sid Sijbrandij, co-founder of GitLab, discusses the overall industry where GitLab competes.
   - [You Tube - The Industry GitLab Competes In](https://www.youtube.com/watch?v=qQ0CL3J08lI)
 - **ACTIVITY: Review & Subscribe: Industry Insights (Assignment - 1 Point - Pre Work)**
   - Review and subscribe to the following blogs recommended by Sid to get the latest industry insights.
@@ -183,16 +183,16 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
   - [https://martinfowler.com/](https://martinfowler.com/)
   - [https://about.gitlab.com/blog/](https://about.gitlab.com/blog/)
 - **Competitor Overview (Material - Handbook - 30 Minutes)**
-  - There are a lot of [DevOps tools](https://about.gitlab.com/competition/) out there. As a single application for the entire DevOps life cycle, GitLab can remove the pain of having to choose, integrate, learn, and maintain the multitude of tools necessary for a successful DevOps tool chain. However, GitLab does not claim to contain all the functionality of all the tools listed here. Click on a DevOps tool to compare it to GitLab. Last thing dont forget to log into [Crayon](https://app.crayon.co/intel/gitlab/battlecards/), our competitive intelligence platform to view all of our latest competitive advantages.
+  - There are a lot of [DevOps tools](https://about.gitlab.com/why-gitlab/) out there. As a single application for the entire DevOps life cycle, GitLab can remove the pain of having to choose, integrate, learn, and maintain the multitude of tools necessary for a successful DevOps tool chain. However, GitLab does not claim to contain all the functionality of all the tools listed here. Click on a DevOps tool to compare it to GitLab. Last thing dont forget to log into [Crayon](https://app.crayon.co/intel/gitlab/battlecards/), our competitive intelligence platform to view all of our latest competitive advantages.
 - **GitLab vs. GitHub (Material - Video - 3 Minutes)**
   - No... we are not the same company! This short YouTube video on [GitLab vs. GitHub](https://www.youtube.com/watch?v=s8DCpG1PeaU) covers some basic differences.
-  - Check out the [GitLab vs. GitHub](https://about.gitlab.com/competition/github/)
+  - Check out the [GitLab vs. GitHub](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/)
 - **Azure DevOps**
-  - Check out the [GitLab vs. Azure DevOps](https://about.gitlab.com/competition/azure/)
+  - Check out the [GitLab vs. Azure DevOps](https://about.gitlab.com/why-gitlab/)
 - **ACTIVITY: Phone-A-Friend: Competitors (Assignment - 45 Minutes - 10 Points - Pre Work)**
   - Talk with 3 tenured GitLab sales professionals (individual contributors or people managers) and ask them for their tips and tricks on successfully beating the competition. Please take notes from your calls and briefly summarize one or two things you learned from each conversation in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdCwvGRS_-fV9J57KGYIjkXNEUHDigKoPXss-kf9r3Zjozo9w/viewform?usp=sf_link) to submit the assignment.
 - **QUIZ: Competitors (Assignment - 5 Points - Pre Work)**
-Please take a moment to answer the questions in this short [quiz.](https://docs.google.com/forms/d/e/1FAIpQLSc6-LgwwSBBnsXDn1spi68FCseBY8OjP0rur_DKqa9RmEwQIg/viewform) The information in this quiz is covered in the handbook pages on [Competitive Intelligence](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [DevOps Tools Landscape.](https://about.gitlab.com/competition/)
+Please take a moment to answer the questions in this short [quiz.](https://docs.google.com/forms/d/e/1FAIpQLSc6-LgwwSBBnsXDn1spi68FCseBY8OjP0rur_DKqa9RmEwQIg/viewform) The information in this quiz is covered in the handbook pages on [Competitive Intelligence](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [DevOps Tools Landscape.](https://about.gitlab.com/why-gitlab/)
 
 </details>
 

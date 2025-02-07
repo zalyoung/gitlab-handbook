@@ -14,7 +14,13 @@ The Production Database in the EDW is used for reporting and analysis by Data Co
 
 1. `WORKSPACE_`: This schema follows the [Ad-Hoc Data Development](/handbook/enterprise-data/data-development/#ad-hoc-data-development) process. This schema is where data modelers can experiment and prototype data solutions. The `WORKSPACE_` schema can also be used as a waypoint for models that need an EDM solution in the `COMMON_` schema. The `WORKSPACE_` should be selected for this and not the `SPECIFIC_` schema.
 
-1. `LEGACY_`: This schema is where data from our old modeling paradigm lives. The [Legacy Structure](/handbook/enterprise-data/platform/dbt-guide/#model-structure) is defined in the dbt guide.
+1. `LEGACY_`: This schema is where data from our old modeling paradigm lives. The [Legacy Structure](/handbook/enterprise-data/platform/dbt-guide/#model-structure) is defined in the dbt guide. Legacy deprecation was a strategic priority for FY24 and FY25 with a focus on deprecating:
+    - Zuora
+    - Salesforce
+    - CustomerDot
+    - Snowplow
+    - GitLab.com
+legacy folders. As of 2024-10-23, we have made significant progress on the goal, with all critical analyses that use these 5 data sources running off the EDM. We still have 75+ non-critical gitlab.com legacy tables to migrate. Going forward, with the exception of the gitlab.com legacy tables, deprecation of legacy models will no longer be a strategic priority. Instead, we will use P3-Other bandwidth to create new EDM replacements and deprecate legacy models. We accept that for the foreseeable future, there will be a long tail of legacy models where the costs to deprecate are not justified by the benefits of deprecation, that will persist in the legacy folder.
 
 ## Enterprise Dimensional Model (COMMON Schema)
 
@@ -188,17 +194,6 @@ It is critical to be intentional when organizing a self-service data environment
 ##### Testing and Documentation
 
 - Models are tested and documented in a schema.yml file in the same directory as the models
-
-##### Table Audit Columns
-
-- **All fact and dimension tables should have the following audit columns:**
-  - revision_number - this is a manually incremented number representing a logical change in the model
-  - created_by - this is a GitLab user id
-  - updated_by - this is a GitLab user id
-  - model_created_at timestamp - this is a static value for when the model was created
-  - model_updated_at timestamp - this is the last time the model was updated by someone
-  - dbt_created_at timestamp - this is populated by dbt when the table is created
-  - dbt_updated_at timestamp - this is the date the data was last loaded. For most models, this will be the same as dbt_created_at with the exception of incremental models.
 
 ##### ERD Requirements
 
@@ -406,25 +401,25 @@ The below steps illustrate how to create an `ER Diagram` (Logical & Physical Dat
 <details markdown=1>
 <summary><b>Step 1:</b> Create a blank lucid document from 'Lucidchart app' (should be available via Okta dashboard in case a user is assigned to it).</summary>
 
-![create-lucid-chart.png](images/create-lucid-chart.png)
+![create-lucid-chart.png](/images/enterprise-data/platform/edw/create-lucid-chart.png)
 </details>
 
 <details markdown=1>
 <summary> <b>Step 2:</b> Click 'Import Data' that appears below the 'Shape Library' located at the bottom left hand side of the page. </summary>
 
-![import-data.png](images/import-data.png)
+![import-data.png](/images/enterprise-data/platform/edw/import-data.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 3:</b> Select 'Entity Relationship (ERD)' from 'All Data Sources'. And choose 'Import from SQL Database' option from the dropdown list menu of 'Import your Data'.</summary>
 
-![import-sql-database.png](images/import-sql-database.png)
+![import-sql-database.png](/images/enterprise-data/platform/edw/import-sql-database.png)
 </details>
 
 <details markdown=1>
 <summary> <b>Step 4:</b>  Select 'MySQL' as the DBMS source to import the data from, to create the ERD.</summary>
 
-![sql-script.png](images/sql-script.png)
+![sql-script.png](/images/enterprise-data/platform/edw/sql-script.png)
 </details>
 
 <details markdown=1>
@@ -457,28 +452,28 @@ AND t.TABLE_SCHEMA IN ('COMMON', 'COMMON_PREP')
 <details markdown=1>
 <summary><b>Step 6:</b> Download and export the results/output of the above query from Snowflake in to a csv file.</summary>
 
-![export-results.png](images/export-results.png)
+![export-results.png](/images/enterprise-data/platform/edw/export-results.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 7:</b>  Navigate back to Lucidchart app and select the result.csv file to be uploaded and click 'Import'.</summary>
 
-![import-tables.png](images/import-tables.png)
+![import-tables.png](/images/enterprise-data/platform/edw/import-tables.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 8:</b> All the tables/models from the selected 'table_schema' list will now appear under 'ERD Import'. The schemas can be expanded and scrolled through to view all the tables.</summary>
 
-![schemas.png](images/schemas.png)
+![schemas.png](/images/enterprise-data/platform/edw/schemas.png)
 
-![tables.png](images/tables.png)
+![tables.png](/images/enterprise-data/platform/edw/tables.png)
 </details>
 
 <details markdown=1>
 <summary><b>Step 9:</b>  The required tables/entities of interest can be dragged on to the canvas and relationships between the entities can be defined from the ribbon to create the ER Diagram. <br>
 Note: The number of fields to be shown for each of the entity can easily be modified from the 'Advanced Options' section thats appears towards the right hand side of the page.</summary>
 
-![ERD.png](images/ERD.png)
+![ERD.png](/images/enterprise-data/platform/edw/ERD.png)
 </details> <br>
 
 ## Specific Schema
@@ -581,8 +576,8 @@ The scope of this Analytics Performance Policy at this time is specifically focu
 
 *These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
 
-1. Reduce dbt model production run time from 12 hours to 8 hours. Assumes we do not scale up and keep using a XL size warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
-1. Individual dbt model run time is consistently between 30 minutes to 1 hour maximum per model, overtime as data volumes continue to increase.
+1. Maintain production dbt DAG run time of less than 8 hours. Assumes we do not scale up warehouse size for existing models and keep using a XL warehouse as a maximum. Assumes we can scale out with using more concurrent threads running at the same time.
+1. An individual dbt model's run time is consistently less than 1 hour, and its design accounts for forecasted data volume increases.
 1. A simple query of the Snowplow, Service Ping, and GitLab.com big data sets in Snowflake finishes in under 1 minute on a L or XL warehouse.
 
 ### Architectural Approaches to Improve Performance

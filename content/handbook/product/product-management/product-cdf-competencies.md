@@ -28,13 +28,20 @@ In each CDF review, it's recommended to select an improvement area to focus on u
 
 Product Managers must be able to demonstrate a variety of skills across our CDF. We provide additional career development guidance by listing [competencies](/handbook/people-group/competencies/) for each CDF category in order of priority.
 
+We have four core competencies for Product Managers:
+
+1. Product Roadmap & Product Led Growth
+2. Sensing Mechanisms
+3. Thought Leadership
+4. Aligning Teams With HPT
+
 ### Product Roadmap & Product Led Growth
 
 This competency is about setting and attaining the product direction as defined by the teammate. The teammate is being evaluated on connecting data to product strategy, influencing communication skills internally, plan ambitiously, while effectively practicing iteration, and delivering on the needs of the market.
 
 _Example outcomes: MAU Attainment, Dogfooding Implementation %, Use of Growth Experiments_
 
-#### Competencies
+#### Skills
 
 - [Iteration](/handbook/product/product-management/learning-and-development/#-iteration)
 - [Jobs to Be Done]( /handbook/product/product-manager-role/learning-and-development/#-jobs-to-be-done)
@@ -60,7 +67,7 @@ This competency is about being able to balance and understand the various inputs
 
 _Example outcomes: Uses appropriate methods of Customer Interviewing, Competitive Landscape, Market Research, and new persona research as the basis for Product Direction; Measurement: Direction page updates, DevOps tools updates, Recording of competitive tools walkthroughs, PM Standup Sharing, Opportunity canvases, [category mapping](https://internal.gitlab.com/handbook/corporate-development/#category-mapping)_
 
-#### Competencies
+#### Skills
 
 - [User Research](/handbook/product/product-management/learning-and-development/#-user-research)
 - [Customer Interviewing](/handbook/product/product-management/learning-and-development/#-customer-interviewing)
@@ -83,7 +90,7 @@ This competency is about the recognition of having technical ownership and being
 
 _Example outcomes: Participation in Webinars, Prospect calls, #thanks shoutouts by others, engagement in social with community, Analyst recognition and engagement, Creation of artifacts for community and users, Conference participation, and OSS collaboration_
 
-#### Competencies
+#### Skills
 
 - [Product management thought leadership](/handbook/product/product-management/learning-and-development/#product-management-thought-leadership)
 
@@ -96,13 +103,13 @@ _Example outcomes: Participation in Webinars, Prospect calls, #thanks shoutouts 
 
 \* Example behaviors are intended to complement rather than replace the above CDF role expectations. These behaviors illustrate examples of the differences between various levels; however, as the needs and circumstances of each role are unique, not all of these behaviors will be necessary for every role. Additionally, exibiting all the behaviors of a given role does not guarantee a promotion into that role (see the section below on [typical requirements for promotion](#typical-requirements-for-promotions)).
 
-### Aligning Teams with Values
+### Aligning Teams with HPT
 
 This competency is about how the teammate facilitates team execution and performance using GitLab values.
 
 _Example outcomes: Say/Do, MR Rate, Validation Track Cycle Time and Build Track Cycle Time, OKR Attainment (70-85% is success, 100% means place for improvement), 360 feedback from counterparts, Values demonstration per our Company Competencies_
 
-#### Competencies
+#### Skills
 
 - [Leadership and influence](/handbook/product/product-management/learning-and-development/#-leadership-and-influence)
 - [Communicating to inspire, align, and activate](/handbook/product/product-management/learning-and-development/#-communicating-to-inspire-align-and-activate)

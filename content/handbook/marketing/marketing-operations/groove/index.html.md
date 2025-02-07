@@ -10,7 +10,7 @@ Groove is a Salesforce native sales engagement platform which helps Sales and Sa
 
 Groove is a tool co-owned by the Marketing Operations and Sales Operations teams.
 
-If you require further assistance outside of the contents of this handbook page, please reach out in the appropriate Slack channels based on your role:
+If you require further assistance outside of the contents of this handbook page and [Highspot page](https://gitlab.highspot.com/items/666cbedd1865f2652ce2da4d?lfrm=shp.0), please reach out in the appropriate Slack channels based on your role:
 
 - Marketing or Sales Development requests, please contact #mktgops on Slack.
 - Sales requests, please contact #sales-tools-support on Slack.
@@ -35,7 +35,7 @@ Once you have access please take the following steps:
 
 - Download and install the Groove Chrome extension.
 - Connect your calendar and email.
-  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Emails sent to or from public domains are blocked from logging to Salesforce.
+  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Groove syncs your emails to Salesforce by attaching those messages to contact or lead profiles within your Salesforce instance. This means that emails sent to recipients ***not*** associated with Salesforce will not be synced.
     - To prevent a specific email from being logged to Salesforce, uncheck the `Log` button in the Email Compose window (below the Subject line). This will ensure a specific email is not logged to Salesforce.
 - Connect your LinkedIn Sales Navigator account (if applicable)
 
@@ -59,27 +59,96 @@ To grant new users access- you need to do the following:
 
 Flows must be named by the following [naming conventions](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?usp=sharing).
 
-## Flow Creation
-
-The creation of net new flows need to be approved. Currently, that approval process lives outside of Groove. At the end of Q3, Groove is releasing functionality for flows to be approved directly within Groove. Once this is released, we plan to open up the ability to create flows more widely.
+## Groove Flows Creation
 
 ### Flow Approval Process
 
-In the transition period from Outreach to Groove, if you have identified a sequence that didn’t come over from Outreach, please provide a link to the sequence for approval in the #groove-flow-approvals Slack channel. The flow will be reviewed, and if approved, the appropriate team will rebuild the sequence for you as a Groove flow with an SLA of one (1) business day.
+Individual flows can be created by any team member in Groove for personal use except for XDRs. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals. All flows used by XDRs will be master flows
 
-**Approval Matrix**
+### BDR Flow Creation Process
 
-Approvers for net new flows are dependent on the team creating the flow.
+BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops. The BDR **should not** add anyone to the flow until it is in their manager's ownership.
 
-- Sales Development Org: `Panos Rodopoulos` or `Ed Bao` - Sales Dev please use [this Issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Flow_Creation_Request.md?ref_type=heads)
-- Sales Org
-  - Account Executives: `Kathleen Rintelman-Betances`
-  - Renewals Managers: `Suzy Verdin`
-  - SMB Advocates: `Mike Smith`
+**Checklist for BDRs when Creating Flows**
 
-### Sales Flows
+- Is the name of the flow inline with our naming conventions? If no, adjust it
+  - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
+  - Example: SD IB LT EMEA CONTENT GER
+  - All Sales Dev flows begin with “SD”
+- Have you added labels that align to our naming convention?
+- Is email tracking on/off for each email step?
+- Have you previewed each step of the flow?
+- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps
+- Have you notified your manager with the reason why you are planning to create this flow?
 
-For Sales, blank flows have been pre built for each team member to choose based on frequency of communication, and if you would like to majority call versus email, or a mix of both.
+### New Sales Dev Manager Flow Approval Process (Nov 2024)
+
+**Flow Approval Full Process and Order of Events**
+
+1. BDR creates flow and submits for approval in Groove
+2. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
+3. Operations will check Flow settings, labels, and who it is shared with
+4. Operations Transfers Ownership from BDR to Manager within 24 hours
+5. Manager checks and Approves flow (Directions below)
+6. BDR can now add prospects to the flow after ownership is transferred
+
+**Mandatory Manager Approval Checks:**
+
+- Is the name of the flow inline with our naming conventions? If no, adjust it
+  - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
+  - Example: SD IB LT EMEA CONTENT GER
+  - All Sales Dev flows begin with “SD”
+- Is the flow in your (the managers) ownership?
+- Should you add the flow to the testing collection (org applicable) or to your team collection?
+- Are there labels used that align to our naming convention? (Do not create new labels)
+- Is email tracking on/off for each email step?
+- Consider toggling manual steps to allow them to include their own template
+- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps
+- Are there A/B tests included? (not mandatory but recommended)
+- Recommend previewing/testing the flow to ensure that variables are set up correctly
+- Note: Setting email steps to manual is the only way they’ll be able to customize messaging
+
+**Look at the Settings:**
+
+- Make sure the flow is a master flow
+- Is the Unsubscribe Footer on?
+- If you are sharing a flow with sales do not turn on edit permissions
+- Should there be an expiration date for this flow (use when only to be used for certain date range like an event)
+- Global Block Rules should be toggled on (should be automatic)
+- Make sure the flow is shared with each team you would like to have access to the flow.
+- Do not grant edit permissions on master flows.
+
+**Manager Recommendations:**
+
+- Come up with an intake process otherwise you will have duplicate efforts from team members and you will spend a ton of time approving flows rather than analyzing results.
+- Think if the flow you are approving should be in your team collection or would be useful for the rest of the org and should be added to the testing collection
+- Only approve LT flows for very specific reasons - include that in the description of the flow
+- Schedule recurring monthly checks of flow analytics to help with deprecation and promotion of flows
+
+### Sales: Flow Creation Requirements & Sharing with BDRs
+
+Watch this [15-minute demo](https://youtu.be/pf6OuKWDHIE) on GitLab Unfiltered for a walkthrough on how to create a flow.
+
+**Flow Requirements**
+
+Ensure that your flow is following the specified requirements. Flows will be reviewed by Sales Operations on a bi-weekly basis and will be adjusted or removed if they do not meet the requirements.
+
+- Name the flow according to the [naming conventions](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0)
+  - Example: `AE OB HT AMER JENKINS`
+- Use merge fields for the recipient's name and the company name
+  - Merge fields will pull from Salesforce directly to populate the contact or lead records first name and the related account name.
+- If a flow is intended for an offer or promo, set an expiration date by opening up the Flow in the Groove webapp, clicking on Settings, and clicking on `Flow Expiration Settings`.
+- Assign a Label
+  - Please choose from the available list of Labels, and do not create a new one as Labels are visible to all Groove users. If you have identified a need for a new Label, please post in the #groove-flow-approvals Slack channel.
+  - All Sales labels start with `SALES`. Example: `SALES: Account Executives`, `SALES: Renewals`, `SALES: SMB`.
+
+#### Sharing with BDRs
+
+The Sales and Sales Dev organizations have their own processes for creating and maintaining flows. If you have a flow that you would like to share with your BDR for their usage, please reach out to the BDR Manager or Sales Dev Operations team for review and approval.
+
+**Sample Flows**
+
+If you're new to creating flows, there are blank flows available as samples (or templates) for each team member to choose based on frequency of communication, and if you would like to majority call versus email, or a mix of both. These flows can be found in the [Groove Flows tab](https://groove.clari.com/flows), click on Filter, choose Labels, and select the `SALES: Blank` option.
 
 Below are a few options:
 
@@ -109,7 +178,7 @@ In the email body of some emails of flows, there are references to a meeting lin
 
 ### Labels and Searching for Flows
 
-Labels are how Flows and Templates are organized in Groove. Currently there are no collections in Groove so we must use labels to search for the flows we are looking for.
+Labels are how Flows and Templates are organized in Groove.
 
 **Label Categories:**
 
@@ -123,6 +192,27 @@ Important Notes on Searching using Labels:
 
 - When you filter by choosing multiple labels it creates an “and” statement between all of the labels you choose. For example, if you choose the labels “SD OB HT AMER” and “Motion: Competitive Atlassian” it will show every flow that has EITHER of those labels.
 - Best practice is to only filter down by one label and then search for the key word in the flow you are looking for. For example, you can filter by “SD IB HT AMER” and then in the search bar you can search the word “trial” to narrow your search down to all of the HT AMER Trial flows.
+
+### Groove Variables
+
+Groove Variables are formatted different than Outreach. You can find some commone examples below.
+
+- Personalization Example = {!Personalize Messaging Here}
+- Prospect Company/Account Name = {!company}
+- Prospect First Name = {!firstname}
+- Prospect Last Name = {!lastname}
+- Sender First Name = {!user.firstname}
+- Sender Calender Link = {!User.groove_meeting_link__c}
+
+### Groove Collections
+
+- Team Collections:  Managers own flow approvals for their team members. They are responsible for their team collection which includes: defining their process for content submissions, adhering to naming conventions & labels, quarterly deprecation and reporting on what’s converting. ex. SD EMEA DACH TEAM
+
+- Inbound collections: are required for all MQLs. Ops would own editing etc. To have these changed, approval would require ops.
+
+- SD Good outbound collection: owned by Ops and will only include highest performing flows. These flows will be added over the next 90 days as data from Groove comes in
+
+- SD Assist: Flow to be used for special circumstances (Action Qualifying, Move High Priority Leads, Web Directs ect.)
 
 ### Notable Flows
 
@@ -311,8 +401,19 @@ Dashboards
 ### Highspot
 
 - [Clari Knowledge Base Article - Groove Highspot Integration](https://clari.my.site.com/customer/s/article/Highspot-Integration)
+- When to use Highspot Pitches vs Groove templates [explainer video](https://gitlab.highspot.com/items/64b1c228139060dabfd1e504)
 
 ### LinkedIn Sales Navigator
 
 - Each Groove user can connect their LinkedIn Sales Navigator account to their Groove Omnibar.
 - [Clari Knowledge Base Article - Groove LinkedIn Integration](https://clari.my.site.com/customer/s/article/LinkedIn-Integration)
+
+### ZoomInfo
+
+Can view the demo in [highspot](https://gitlab.highspot.com/items/66db275add81ed254da5b6ee). With this integration, there are three ways to export records to Groove as a lead and select your flow:
+
+1. ZI Chrome Extension (Expand only);
+2. Advanced Search
+3. Company Org Chart
+
+Can read more on the [ZoomInfo Page](/handbook/marketing/marketing-operations/zoominfo/#groove-integration).

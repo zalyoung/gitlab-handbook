@@ -20,6 +20,8 @@ We then apply rigorous data analysis and synthesis to transform this data into v
 
 Note that UX Researchers are **one of the many** GitLab Team Members who conduct user research. Other roles, such as Product Managers and Product Designers, frequently conduct research with guidance from the UX Research team. All Research DRIs are supported by our [UX Research Operations Coordination team](/handbook/product/ux/ux-research-coordination/) to conduct efficient and high-quality research.
 
+If you are planning to lead a research project, you can get started [here](/handbook/product/ux/ux-research/resources-for-research-dris).
+
 ### Our two years vision and strategic pillars
 
 Our vision statement consists of two parts:
@@ -33,13 +35,13 @@ We focus on 3 strategic themes:
   - Deepen strategic impact of insights
   - Establish insight repository
   - Streamline research Operations
-  - Implement global research prioritisation
-- Cultivate engaged partnerships across the organisation, this includes:
+  - Implement global research prioritization
+- Cultivate engaged partnerships across the organization, this includes:
   - Communicate & evangelize research
   - Scale research & enable counterparts
-  - Collaborate across divisions, and join up inisghts and share metrics
+  - Collaborate across divisions, and join up insights and share metrics
 - Encourage a culture of curiosity and experimentation, this includes:
-  - Embrase lean and experimental practices
+  - Embrace lean and experimental practices
   - Establish service design as a new function
   - Facilitate workshops for innovation
   - Lead with recommendations
@@ -50,7 +52,7 @@ Detailed breakdown of our strategic pillars and our 2 years action plan can be f
 
 #### Working with us as a research participant or a research panelist
 
-We want to learn from you! We are always looking for a range of professionals to take part in our studies, and would love to have you sign-up. You can read more about what to expect as a research participant [here](https://docs.google.com/presentation/d/1r0WMYS-ZvvEaqRvW3AazdIipCyz8xAynMFnp7PqjDMA/edit#slide=id.g2873bc64769_0_0), and register your interest in taking part in future research [here](https://research.rallyuxr.com/gitlab/lp/csmsignup?channel=app).
+We want to learn from you! We are always looking for a range of professionals to take part in our studies, and would love to have you sign-up. You can read more about [what to expect as a research participant](https://docs.google.com/presentation/d/1r0WMYS-ZvvEaqRvW3AazdIipCyz8xAynMFnp7PqjDMA/edit#slide=id.g2873bc64769_0_0), and register your interest in [taking part in future research](https://research.rallyuxr.com/gitlab/lp/csmsignup?channel=app).
 
 **What you get in return**:
 
@@ -62,13 +64,13 @@ We want to learn from you! We are always looking for a range of professionals to
 We’d love to collaborate with you, gather your perspective, and partner with you to engage our customers. If your team interacts with customers and users as part of your daily role or make decisions that influence the customer/user experience of GitLab products, we’d love to hear from you!. Here’s how you can partner with us:
 
 - **Ensure Your Customers Are Represented in UX Research**: You can nominate customers as research participants by sharing their details in the #ux_reops channel or direct your customers to [the UX Research Panel](https://research.rallyuxr.com/gitlab/lp/csmsignup?channel=app) to register their interest.
-- **Share what you know via GitLab User Insight Repository**: Share what you learn about your customers in the #ux_research channel, or connect with a designated UX researcher for specific stages or themes.
-- **Identify Areas for Improvement That Need Further Research (unknown)**: If you notice areas that could benefit from deeper exploration, feel free to mention it in the #ux_research channel or contact [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/). Providing a related issue for reference would be a bonus!
+- **Share what you know through GitLab User Insight Repository**: Share what you learn about your customers in the #ux_research channel, or connect with a designated UX researcher for specific stages or themes.
+- **Identify Areas for Improvement That Need Further Research (unknown)**: If you notice areas that could benefit from deeper exploration, feel free to mention it in the #ux_research channel or contact [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned). Providing a related issue for reference would be a bonus!
 - **Leverage UX Research Insights to Guide Your Work**: Stay updated by checking out the #ux_research_reports channel for the latest insights. You can also explore [Dovetail](https://gitlab.dovetail.com/start/), our research insights management tool, to search by keywords or watch interview session recordings. You can also consult with [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/), to be more informed when making design, product or customer engagement decisions.
 
 **What you get in return**:
 
-- **Informed Decision-Making**: The UX research team provides valuable insights based on user behaviour and feedback, helping internal teams make informed, data-driven decisions throughout the product development process.
+- **Informed Decision-Making**: The UX research team provides valuable insights based on user behavior and feedback, helping internal teams make informed, data-driven decisions throughout the product development process.
 - **Risk Mitigation**: UX research helps identify potential issues early in the development process, allowing internal teams to address these challenges before they escalate, thereby reducing the risk of costly mistakes or misaligned products.
 
 ### Do you have questions about UX Research?
@@ -77,6 +79,7 @@ The UX Research team is here for you! Reach out in the #ux_research Slack channe
 
 #### Conducting UX Research at GitLab
 
+- [Resources for research DRIs](/handbook/product/ux/ux-research/resources-for-research-dris)
 - [When to conduct UX Research](/handbook/product/ux/ux-research/when-to-conduct-ux-research/)
 - [Defining goals, objectives, and hypotheses](/handbook/product/ux/ux-research/defining-goals-objectives-and-hypotheses/)
 - [Problem Validation and methods](/handbook/product/ux/ux-research/problem-validation-and-methods/)

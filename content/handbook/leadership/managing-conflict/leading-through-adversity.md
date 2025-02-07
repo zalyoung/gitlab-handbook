@@ -39,6 +39,6 @@ If you are facing challenges within your team and are looking for help and guida
 - [John Addison: The 5 A's of leading Through Adversity](https://www.success.com/john-addison-the-5-as-of-leading-through-adversity/)
 - [15 Trust-Building Practices for Leaders](https://www.success.com/15-trust-building-practices-for-leaders/)
 - [The Five "C's" of a Trusted Leader](https://www.smartdraw.com/management/five-cs-of-a-trusted-leader.htm)
-- [Leading Effectively in Chaos and Uncertainty](https://hbr.org/2009/02/leading-effectively-in-chaos-a.html)
+- [Leading Effectively in Chaos and Uncertainty](https://hbr.org/2009/02/leading-effectively-in-chaos-a)
 - [Five Cs of Leadership](https://sixth.ucsd.edu/_files/_home/student-life/five-cs-of-leadership.pdf)
-- [10 Quotes About Overcoming Adversity From Leaders Who've Done It](https://www.growwire.com/quotes-about-overcoming-adversity)
+- [10 Quotes About Overcoming Adversity From Leaders Who've Done It](https://www.netsuite.com/portal/resource/articles/business-intelligence/quotes-about-overcoming-adversity.shtml)

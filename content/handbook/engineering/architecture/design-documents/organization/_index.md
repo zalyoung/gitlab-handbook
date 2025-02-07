@@ -425,9 +425,9 @@ We propose the following steps to successfully roll out Organizations:
 ### Cells 1.0
 
 - User is confined to one Organization within one Cell.
-- Gitlab.com will have two Cells.
-  - One with the default Organization (public) that holds every existing top-level group except for the internal customer group.
-  - Another with an internal customer Organization (private) holding the internal customer group.
+- Gitlab.com will have two Cells or more.
+  - The [legacy cell](../cells/goals.md#legacy-cell) with the default Organization (public) that holds every existing top-level group except for selected internal customer group(s).
+  - The other cells with Organizations (private) holding select internal customer group(s).
 - Self managed will have one hidden `default Organization`.
 - An Organization UI will not be visible to external users, except by enabling a set of feature flags. The internal customer group will have the feature flag enabled and use the Organization UI.
 

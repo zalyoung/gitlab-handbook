@@ -26,24 +26,25 @@ For any other offboarding questions from active team members please reach out to
 ### Prior to Resignation
 
 1. **Team Member:** Please reach out to your Direct Manager prior to submitting your resignation particularly to discuss the handover process and the [communication plan](#communicating-departures) regarding your departure.
-1. **Team Member:** Review the documented [notice period]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) for your location if applicable and factor in the notice period when submitting your resignation through Workday.
+1. **Team Member:** Review the documented [notice period](/handbook/people-group/contracts-probation-periods/#probation-period) for your location if applicable and factor in the notice period when submitting your resignation through Workday.
 1. **Team Member:** Compile your Letter of Resignation for uploading into Workday.  If you are employed through a PEO or Third-Party Employer, send a copy of your resignation letter to the PEO contact as well.
 
 ### Resignation
 
-1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday which you may access through Okta.
+1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday accessible through Okta.
 1. **Team Member:** If you are employed via a PEO or Third-Party Employer forward a copy of your Letter of Resignation directly to them.
-1. **Team Member:** Within 48 hours of submitting your resignation you can anticipate receiving both your offboarding information email and a request to complete an exit survey along with an invitation to take part in an optional exit interview.
-1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Connect Team. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
-1. **Manager:** You will receive the resignation for review through your Workday Inbox - ensure that the proposed final date of employment aligns to the documented [notice period]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) for the team members location.
-1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
-1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
+1. **Team Member:** After your resignation is submitted in Workday, your manager will receive a request to complete your offboarding in Workday. Once your termination is complete, you can anticipate receiving your offboarding packet with information regarding your final pay, continued benefit offerings, and additional offboarding information such as returning your devices. You can also expect a request to complete an exit survey along with an invitation to take part in an optional exit interview within 48 hours.
+1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Connect Team using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c). **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
 
 #### ***Country Specific Requirements for Resignation***
 
 ##### France
 
-Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)) and complying with any contractual requirements, Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+
+##### Japan
+
+Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
 
 ##### Singapore
 
@@ -51,27 +52,28 @@ Team Members located in Singapore who are resigning and are **not** Singapore ci
 
 ### Termination
 
-1. **Manager:** Once the resignation has been approved you will receive a prompt in your Workday Inbox to terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
-   - **Note**: Submitting the termination in Workday does not immediately terminate access. The offboarding issue, which is opened on the team members termination date, initiates the deprovisioning process for terminated team members.
-1. **Manager:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment]({{< ref "people-policies#job-abandonment" >}}) in which case they would not be eligible:
+1. **Manager:** If your team member completes a resignation in Workday, you will receive a prompt in your Workday inbox to terminate the team member by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) If a resignation was not submitted, you should initiate the termination by going to the departing team member's Workday Profile and selecting `Actions` followed by `Job Change` and finally `Terminate Employee`).
+   - **Note**: Submitting the termination in Workday does not immediately terminate access. The offboarding issue, which is opened on the team members last day worked, initiates the deprovisioning process for terminated team members.
+1. **Manager:** You will be prompted to indicate whether the termination is regrettable or non-regrettable:
     - Regrettable: The team members departure has a significant negative impact on the company, its customers, its projects or the team - the team member was a good and consistent performer both in terms of results and behaviours specifically upholding the GitLab values.
     - Non-Regrettable i.e. The team members departure has a minimal impact on the company, its customers, its projects or the team - the team member has not been meeting expectations due to conduct, culture or values misalignment or performance concerns.
-1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particlars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and/or Team Member should be arranged and the particulars can be sent back for further review.
+1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
+1. **People Business Partner:** You will receive a prompt in your Workday inbox to review the termination details submitted by the Manager and to close the position in Workday. If you are aligned with the details including the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and/or Team Member should be arranged and the termination can be sent back for further review.
 1. **People Connect:** Once the transaction has been fully approved the team will receive a notification of the termination within the Workday Inbox.
 
 ### Offboarding
 
-1. **People Connect:** On the Last Day of Work as indicated in the Workday Termination Report at the [pre-determined time]({{< ref "offboarding_standards#notice-of-offboarding" >}}) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
+1. **People Connect:** On the Last Day of Work as indicated in the Workday Termination Report at the [pre-determined time](/handbook/people-group/offboarding/offboarding_standards/#notice-of-offboarding) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
 1. **Deprovisioners (Systems):** You will be tagged in the departing team members offboarding issue and required to indicate that the team members access has been revoked kindly note that access to SOX Systems must be attended to with urgency and all other tasks within the offboarding issue must be closed out within five days.
 
 ## Involuntary Terminations
 
 **Note:** Involuntary terminations are **only** facilitated by Team Member Relations (TMR) who will initiate the process in Workday.
-Involuntary offboarding of any team member is never easy. We've created guidelines and information to make this process as humane as we can. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance]({{< ref "underperformance" >}}), as well as the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md).
+Involuntary offboarding of any team member is never easy. We've created guidelines and information to make this process as humane as we can. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/leadership/underperformance/), as well as the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md).
 
 ### Involuntary Process
 
-The manager and the team member should have walked through the guidelines on [underperformance]({{< ref "underperformance" >}}) before reaching this point.
+The manager and the team member should have walked through the guidelines on [underperformance](/handbook/leadership/underperformance/) before reaching this point.
 
 1. **Manager**: Reach out to the their TMR specialist for assistance.
     - TMR will ask about what the performance issues have been, how they have been attempted to be addressed, and review all manager/team member documentation.
@@ -258,7 +260,7 @@ I want to share that [team member's name] ([group] [role]) will be leaving GitLa
 
 There will be situations in which team members prefer to share their offboarding message, and situations in which managers prefer to do so. Either is ok, **so long as team member and manager have reviewed the messaging together prior to posting**.
 
-If someone is let go involuntarily, this generally cannot be shared since it affects the individual's privacy and job performance is intentionally kept [between an individual and their manager]({{< ref "confidentiality-levels#not-public" >}}).
+If someone is let go involuntarily, this generally cannot be shared since it affects the individual's privacy and job performance is intentionally kept [between an individual and their manager](/handbook/communication/confidentiality-levels/#not-public).
 
 If you are not close to an employee's offboarding, it may seem unnecessarily swift.
 Please remember that these decisions are never made without following the above process to come to a positive resolution first - we need to protect the interests of the individual as well as the company, and offboarding is a last resort.
@@ -287,7 +289,7 @@ The departing team member may work with their manager to author a goodbye messag
 In some instances there will be no further clarification on why a team member has departed, if there are concerns you can address those with your manager.
 Different levels of transparency will exist based on maintaining respectful treatment for all departures. Having team members leave may be a learning opportunity for some, but should not be a point of gossip for anyone. Managers will need to balance the opportunity for learning with the expectation of privacy and consult their People Business Partner should they have questions.
 
-Transparency is one of our values. In the case of offboarding, we opt to share the feedback only with peers and direct reports as needed, since we balance transparency with our value of collaboration and [constructive guidance]({{< ref "guidance-on-feedback" >}}) shared 1-1.
+Transparency is one of our values. In the case of offboarding, we opt to share the feedback only with peers and direct reports as needed, since we balance transparency with our value of collaboration and [constructive guidance](/handbook/people-group/guidance-on-feedback/) shared 1-1.
 
 ## Turnover Data
 
@@ -297,7 +299,7 @@ GitLab's [turnover data](https://10az.online.tableau.com/#/site/gitlab/workbooks
 
 ### Offboarding Issue
 
-To track all tool deprovisioning, please open an offboarding issue following the [offboarding standards]({{< ref "offboarding_standards" >}}).
+To track all tool deprovisioning, please open an offboarding issue following the [offboarding standards](/handbook/people-group/offboarding/offboarding_standards/).
 
 ### Returning Property to GitLab
 
@@ -311,7 +313,7 @@ To return your laptop to GitLab, please contact `itops@gitlab.com` immediately u
 
 This section of the Accounting Department.
 
-To remove someone from Navan Expense Log in to [Navan Expense](https://www.expensify.com/signin) and go to "Settings" in the left sidebar.
+To remove someone from Navan Expense Log in to [Navan Expense](https://app.navan.com/app/liquid/) and go to "Settings" in the left sidebar.
 Select the right policy based upon the entity that employs the team member. Select "People" in the left menu.
 Select the individual's name and click "Remove".
 If the person has a Corporate Credit Card assigned to them, please notify Accounts Payable before un-assigning it.

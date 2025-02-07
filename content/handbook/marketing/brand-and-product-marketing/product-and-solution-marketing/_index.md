@@ -89,11 +89,17 @@ All Product and Solution Marketing work is aligned to the overall Marketing OKRs
 
 ### Product Marketing Team
 
-- @doneal2022 - Director, Product and Solutions Marketing
-- @BrianMason - Senior Product Marketing Manager, Security and Governance
-- @laurenaalves - Senior Product Marketing Manager, Artificial Intelligence
-- @supadhyaya - Senior Manager, DevSecOps Platform
-- @anair5 - Product Marketing Manager, Continuous Delivery, Analytics and Insights
+- @dsteer - VP of Brand and Product Marketing
+- @mklaus - Sr. Director, Product Marketing
+- @jhurwitz - Senior Manager, Product Marketing
+- @anair - Product Marketing Manager
+- @dhom - Product Marketing Manager
+- @lalves - Principal Product Marketing Manager, AI
+- @jkempton - Senior Product Marketing Manager, Competitive Intelligence
+- @sladha - Principal Product Marketing Manager, Security
+- @aholland - Senior Product Marketing Manager, Financial Services
+- @lburrows - Senior Public Sector Product Marketing Manager
+- @mdelaney - Senior Product Marketing Manager, Embedded Systems/Automotove/Aerospace
 
 ## <i class="fas fa-star fa-fw color-orange font-awesome"></i>Marketing and Sales Enablement
 

@@ -244,7 +244,7 @@ Resources:
 
 1. Conduct session. Ensure consent forms are signed, recorded, and stored.
 
-   - If necessary, provide [Uber gift cards ($10)](https://www.uber.com/us/en/gift-cards/) to participants (send after the session)
+   - If necessary, provide [Uber gift cards ($10)](https://gifts.uber.com/) to participants (send after the session)
    - Pick up drinks and light snacks to have in the room
    - Verify TV/monitor connections for room
    - Determine needed signage

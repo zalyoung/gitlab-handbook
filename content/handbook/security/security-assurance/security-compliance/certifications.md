@@ -22,9 +22,11 @@ The Security Compliance team is instrumental in supporting external audits, cert
 
 ### Current certifications and attestations
 
-Refer to the [GitLab Trust Center](https://trust.gitlab.com/) for the latest information on all all of the certifications and attestations we maintain, including 3rd party reports, commonly request security documentation, and answers to commonly asked questions about our security and compliance posture. There is a dropdown menu to view content for GitLab.com and GitLab Dedicated SaaS offerings. Some of the content is applicable to both SaaS platforms and/or GitLab Inc.
+Refer to the [GitLab Trust Center](https://trust.gitlab.com/) for the latest information on all of the certifications and attestations we maintain, including 3rd party reports, commonly request security documentation, and answers to commonly asked questions about our security and compliance posture. There is a dropdown list to view content for GitLab.com and GitLab Dedicated SaaS offerings. Some of the content is applicable to both SaaS platforms and/or GitLab Inc.
 
-### Tenantive roadmap
+Please refer to our [PCI Charter](pci-charter.md) for details around our attestation as a Service Provider for our SaaS offerings.
+
+### Tentative roadmap
 
 We plan to maintain our existing certifications and attestations. We will continue to add new certifications and attestations, or expand the scope of existing ones, based on customer demand and changes in the regulatory landscape. The following security certifications and attestations are currently on our roadmap for consideration but are not formal commitments and are subject to change at any time.
 
@@ -33,7 +35,7 @@ We plan to maintain our existing certifications and attestations. We will contin
 - FedRAMP Moderate Authorization for GitLab Dedicated for Government
 - StateRAMP
 
-**Under consideration / guaging customer demand:**
+**Under consideration / gauging customer demand:**
 
 - PCI DSS SAQ D (Service Provider) and SAQ A (Merchant)
 - IRAP Protected

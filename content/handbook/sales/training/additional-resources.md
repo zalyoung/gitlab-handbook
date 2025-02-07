@@ -382,7 +382,7 @@ The introductory email sets the tone for the relationship. Before you reach out,
 
 ### Bill Cates from Hubspot {#art}
 
-Wrote [a great article about "The Art of Asking Open-Ended Questions."](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) Here are some highlights
+Wrote [a great article about "The Art of Asking Open-Ended Questions."](https://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) Here are some highlights
 
 High-value questions bring value to the conversation and creates a learning experience for you and your prospect/client.
 
@@ -639,7 +639,7 @@ If there's one common thread in all these tips, it's that the most successful sa
 
 ### Dan Tyre wrote
 
-[a great article about "How to Create a Sales Plan"](http://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights
+[a great article about "How to Create a Sales Plan"](https://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights
 
 First, I would like to change our thinking from being a sales plan to a buying plan.  This puts us in the mindset of the buyer and helps us use words focused on them and not us. The purpose of a buying plan is to help the process move forward.  To avoid inertia.  Time kills deals so we putting a plan in place that moves the conversation and process forward is essential.
 
@@ -692,7 +692,7 @@ This question is crucial. If this is the first time they've ever bought somethin
 
 ### 73 Insightful "How" Sales Questions That Get Buyers Talking <a name="73"></a>
 
-Art Sobczak wrote a great article on [73 Insightful "How" Sales Questions That Get Buyers Talking](http://blog.hubspot.com/sales/how-sales-questions?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=28057486)
+Art Sobczak wrote a great article on [73 Insightful "How" Sales Questions That Get Buyers Talking](https://blog.hubspot.com/sales/how-sales-questions?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=28057486)
 
 These HOW questions are broken down into categories
 
@@ -705,7 +705,7 @@ These HOW questions are broken down into categories
 
 ### 25 Phrases That Signal a Prospect Is Ready to Buy <a name="25-phrases"></a>
 
-Aja Frost wrote an insightful article on [25 Phrases That Signal a Prospect Is Ready to Buy](http://blog.hubspot.com/sales/phrases-signal-prospect-is-ready-to-buy?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36014993#sm.00000thjdio2kmcx3y923dyo5fe5u)
+Aja Frost wrote an insightful article on [25 Phrases That Signal a Prospect Is Ready to Buy](https://blog.hubspot.com/sales/phrases-signal-prospect-is-ready-to-buy?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36014993#sm.00000thjdio2kmcx3y923dyo5fe5u)
 
 As Aja points out, salespeople get happy ears and interpret the buyers response and interest as something not true and inaccurate.  The key is to understand is your buyer in the consideration phase or the buying phase.  This article
 calls out buying phrases that are committal.  Which phrases are you hearing?  Vague, abstract, no-committal.  If so, then your buyer is in the consideration stage and not buying.  Or is your buyer asking you or making very specific references to their interest in purchasing?
@@ -719,7 +719,7 @@ Answer is "This tool would help us do X faster.".  Read the article to gain more
 
 ### 11 Sales Negotiation Mistakes You Might Be Making <a name="11-mistakes"></a>
 
-Leslie Ye wrote an article on [11 Sales Negotiation Mistakes You Might Be Making](http://blog.hubspot.com/sales/sales-negotiation-mistakes?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36093761#sm.00000thjdio2kmcx3y923dyo5fe5u)
+Leslie Ye wrote an article on [11 Sales Negotiation Mistakes You Might Be Making](https://blog.hubspot.com/sales/essential-negotiation-skills-for-salespeople)
 
 Even the best negotiators fall victim to one of these mistakes from time to time.  Here is a list of the 11 mistakes with point 4, 5, and 10 resonating with me.
 
@@ -750,4 +750,4 @@ Even the best negotiators fall victim to one of these mistakes from time to time
 3. The best target accounts have at least 3 bullet points from the first two buckets, with at least one bullet point in the second bucket along with one of the following:
      - The company has targets with LinkedIn profiles that show an interest in the GitLab value proposition.
      - The company published something in its blog or social media that indicates a need for the GitLab value proposition.
-     - The company has a number of internal users of GitLab core or free plans; this can be seen via http://version.gitlab.com.
+     - The company has a number of internal users of GitLab core or free plans; this can be seen via https://version.gitlab.com.

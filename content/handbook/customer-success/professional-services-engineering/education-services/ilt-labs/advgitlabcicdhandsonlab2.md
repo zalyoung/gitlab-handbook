@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through optimizing a build pipeline"
 
 The purpose of this lab is to demonstrate the benefits of caching in a GitLab CI/CD Pipeline. A cache is one or more files a job downloads and saves. Subsequent jobs that use the same cache don’t have to download the files again, so they execute more quickly. Caches, unlike artifacts, are not stored in GitLab.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -301,4 +301,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request.
