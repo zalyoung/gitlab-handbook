@@ -27,7 +27,7 @@ Below the top section, you will see three buttons. The leftmost button will brin
 
 * The **Projects** item will show all of the projects you are a part of. Currently, you have no projects, so the only thing that will show here is a prompt to create or explore projects.
 
-* The **Groups** item will show the groups you are a part of. A group is a container with can contain other groups, known as **Subgroups**, or projects. They provide a way of organizing your GitLab repositories and data. Currently, you will see one group named **Training Users**
+* The **Groups** item will show the groups you are a part of. A group is a container with can contain other groups, known as **Subgroups**, or projects. They provide a way of organizing your GitLab repositories and data. Currently, you will see one group named **Training Users**.
 
 * The **Issues** item will let you explore issues in your GitLab instance. By default, the issues section will be filtered to search for issues you are assigned to. Currently, no results are found, since you have no issues assigned to you.
 
@@ -47,7 +47,15 @@ Below the top section, you will see three buttons. The leftmost button will brin
 
 * The **Security** item will show security report overviews for all of your projects.
 
-Take some time to explore these items and understand more about the information contained in each section.
+Take some time to explore these items and understand more about the information contained in each section. Try to answer the following questions by either exploring the features, or by reading the GitLab documentation:
+
+* If you create a private project, what level(s) of visibility can your Snippets have?
+
+* If you create a project in a private subgroup, can you make it public?
+
+* What tasks will you be notified about in your To-Do list?
+
+* What kind of charts does a milestone contain?
 
 ## Lab Guide Complete
 
