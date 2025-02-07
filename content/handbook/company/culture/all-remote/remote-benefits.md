@@ -90,7 +90,7 @@ Limiting your company's recruiting pipeline to a certain geographic region, or s
 
 Not only does this create a less [inclusive](/handbook/company/culture/inclusion/) hiring process which reaches a less diverse set of candidates, it forces your organization to compete primarily on the basis of [salary](https://www.lhh.com/us/en/insights/2024-salary-guide/).
 
-1. You're able to hire great people [no matter where they live]({{< ref "handbook/people-group/employment-solutions#country-hiring-guidelines" >}}).
+1. You're able to hire great people [no matter where they live](/handbook/people-group/employment-solutions#country-hiring-guidelines).
    - GitLab has a truly global footprint, with team members in [65+ countries](/handbook/company/team).
 1. Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr/), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
    - For example, GitLab has a KPI of [65 tickets closed per support staff per month](/handbook/support/performance-indicators#average-daily-tickets-closed-per-support-team-member).

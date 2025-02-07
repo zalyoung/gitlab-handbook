@@ -340,7 +340,7 @@ Team members are entitled to at least 28 vacation days which consist of 20 days 
 
 This section details the statutory maternity, paternity, parental, and adoption leave as offered by the UK Government. For more information, please review the government's [webpage](https://www.gov.uk/browse/childcare-parenting).
 
-**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit]({{< ref "general-and-entity-benefits#parental-leave" >}}) where, if eligible, statutory pay is supplemented up to 100% regular salary.
+**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) where, if eligible, statutory pay is supplemented up to 100% regular salary.
 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 

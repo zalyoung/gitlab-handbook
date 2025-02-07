@@ -17,7 +17,7 @@ Our Customer Assurance Package contains documents such as our SOC2 report, ISO 2
 
 ### GitLab's Trust Center
 
-Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices]({{< ref "_index.md#security-practices" >}}), our [Environmental, Social, and Governance strategy](/handbook/legal/esg/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
+Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices](/handbook/security/), our [Environmental, Social, and Governance strategy](/handbook/legal/esg/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
 
 ## Frequently asked questions
 
@@ -44,14 +44,14 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Access management
 
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
-- [Access Review Procedure]({{< ref "security-assurance/security-compliance/access-reviews" >}})
+- [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews)
 - [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
 
 ### Business continuity
 
 - [Business Continuity Plan](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/)
 - [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
-- [Information System Contingency Plan]({{< ref "Information-System-Contingency-Plan-ISCP" >}})
+- [Information System Contingency Plan](/handbook/security/information-system-contingency-plan-iscp)
 
 ### Cryptography
 

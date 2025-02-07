@@ -7,7 +7,7 @@ controlled_document: true
 
 ## Purpose
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
+The [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
 /security
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/).
@@ -90,7 +90,7 @@ Assigning severity to an incident isn't an exact science and it takes some ratio
 - Was a user or service account taken over?
   - What level of access did this account have and to what services or hosts?
   - What actions were taken by the compromised account?
-- If a vulnerability is present on a host or service, consider the impact it might have on GitLab and the likelihood of it being exploited by using the [Risk Factors and Risk Scoring]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}) documentation.
+- If a vulnerability is present on a host or service, consider the impact it might have on GitLab and the likelihood of it being exploited by using the [Risk Factors and Risk Scoring](/handbook/security/security-assurance/security-risk/storm-program/#risk-factors-and-risk-scoring) documentation.
   - Was the vulnerability exploited? If so, how was it used and how frequently?
 - What is the scope of the incident?
   - How many GitLab.com users were/may have been impacted?

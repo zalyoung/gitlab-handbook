@@ -131,7 +131,7 @@ In addition to the [incredible benefits of all-remote work](/handbook/company/cu
 Here's our list of more than 20 ways to participate in a happy, healthy [informal work culture](informal-communication/).
 
 - **Schedule check-ins with new employees.**
-It's a good idea to schedule weekly [1-1 meetings]({{< ref "1-1" >}}) to field questions, ask about any challenges, or focus on areas to grow and build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no work is discussed: the goal is to simply listen, share, and have open conversations and nurture the social component of remote working.
+It's a good idea to schedule weekly [1-1 meetings](/handbook/leadership/1-1/) to field questions, ask about any challenges, or focus on areas to grow and build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no work is discussed: the goal is to simply listen, share, and have open conversations and nurture the social component of remote working.
 
 ## What are onboarding activities?
 

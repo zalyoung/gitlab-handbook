@@ -184,7 +184,7 @@ Three references will be requested and at least one needs to be a past manager. 
 
 ## Offer & Background Screening
 
-Depending on your location, a [background screen]({{< ref "people-policies#background-screenings" >}}) will be initiated at the same time as references or once an offer has been extended.
+Depending on your location, a [background screen](/handbook/people-group/contracts-probation-periods/#background-screenings) will be initiated at the same time as references or once an offer has been extended.
 
 ## Where does GitLab hire people?
 

@@ -4,7 +4,7 @@ title: "Security Shadow: Security Assurance"
 
 ## Security Compliance
 
-[Security Compliance:]({{< ref "_index.md#security-compliance" >}}) Where "Just do whatever you want" comes to die.
+Security Compliance: Where "Just do whatever you want" comes to die.
 Have you ever wondered where all those security requests and requirements come from and why in the world you're always being asked to provide evidence and talk through how systems are designed and configured? Well then good news! Come join the security compliance team for a shadow rotation where we'll have you:
 
 - Reading through information security framework documentation
@@ -86,7 +86,7 @@ The Security Risk team acts as a shield between GitLab and the dangers lurking w
 
 #### RSK101: Risk Management
 
-- Review the different types of risks and their sources- [StORM]({{< ref "storm-program" >}}) and [Third Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/)
+- Review the different types of risks and their sources- [StORM](/handbook/security/security-assurance/security-risk/storm-program/) and [Third Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/)
 - Learn the main components of risk management
 - Perform a TPRM Assessment
 - [Perform Risk Manager Activities](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm/-/blob/master/.gitlab/issue_templates/storm-shadow.md)

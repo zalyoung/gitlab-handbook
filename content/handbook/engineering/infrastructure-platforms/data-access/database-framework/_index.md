@@ -258,7 +258,7 @@ We document our insights, road maps and other relevant material in this section.
 Official Business
 - Slack Channel
   [#db-lounge](https://gitlab.slack.com/app_redirect?channel=db-lounge) - Team
-Chat
+[Chat](/handbook/communication/chat)
 - [Database Epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Adatabase)
 - [Database Subgroup](https://gitlab.com/gitlab-org/database-team) - Issues and
   templates related to team processes.

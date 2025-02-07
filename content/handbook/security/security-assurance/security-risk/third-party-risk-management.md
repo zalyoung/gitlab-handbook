@@ -160,7 +160,7 @@ graph TB
                 zgIssues --> zgIssueN --> zgORApprov
 
     %% Clickable Nodes
-         click ProcIntake "https://handbook.gitlab.com/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip" _blank
+         click ProcIntake "https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-initiate-a-new-request" _blank
 
     %% Dedicated styling
       %%  classDef clickme fill:#6E49CB,stroke:#88DDFD,stroke-width:4px,color:#FFFFFF;
@@ -490,5 +490,5 @@ In specific instances, requirements for the performance or contents of TPRM revi
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
 - [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/)
-- [STORM]({{< ref "storm-program" >}})
+- [STORM](/handbook/security/security-assurance/security-risk/storm-program/)
 - [Procurement Process](/handbook/finance/procurement/#how-to-start-the-procurement-process)

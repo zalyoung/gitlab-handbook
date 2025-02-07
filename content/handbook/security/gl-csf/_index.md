@@ -68,7 +68,7 @@ The framework is architected around 3 stages:
 
 | Activity | Security Team | Green & Yellow Data | Orange Data | Red Data |
 | -------- | ------------- | ------------------- | ----------- | -------- |
-| [Data classification](#data-classification) | [Security Assurance]({{< ref "security-assurance" >}}) | N/A | N/A | N/A |
+| [Data classification](#data-classification) | [Security Assurance](/handbook/security/security-assurance/) | N/A | N/A | N/A |
 | [Architecture](architecture.html) | [Security Architects](/handbook/security/product-security/security-architecture/) | Optional| Recommended | Required |
 | Define Target Environment | [InfraSec](/handbook/security/product-security/infrastructure-security/) | Optional | Required | Required |
 | Threat Modeling | [AppSec](/handbook/security/product-security/application-security/) | Optional | Recommended | Required |
@@ -109,5 +109,5 @@ Create or update a corresponding [Threat Model](../product-security/application-
 In case the proposed architectural change introduces new Open Source Software components to our
 infrastructure or our product inform the Security Research Team
 (`@gitlab-com/gl-security/security-research`) for potential inclusion of the dependency into the
-[OSS Ecosystem Testing]({{< ref "../product-security/security-research#gitlab-ecosystem-security-testing" >}})
+[OSS Ecosystem Testing](/handbook/security/product-security/security-research/#gitlab-ecosystem-security-testing)
 efforts.

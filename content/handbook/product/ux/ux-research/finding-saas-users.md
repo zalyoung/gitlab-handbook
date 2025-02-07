@@ -63,7 +63,7 @@ These tables are good for when you want to understand how many of something a us
 For example: You're researching issue weights and you want to find the user IDs for 100 users who have created an issue with a weight assigned in the last 30 days. You also need to know how many of those issues they've created over that period. You would use this query:
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   author_id,
   COUNT(1) as num_issues
 FROM analytics.gitlab_dotcom_issues_xf

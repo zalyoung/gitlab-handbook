@@ -256,11 +256,11 @@ After each stage in the interview process, the Talent DRI and Hiring DRI will re
 
 **References**
 
-References will be conducted in accordance with GitLab's standard policies documented [here]({{< ref "hiring-manager#step-7hm-complete-references" >}})
+References will be conducted in accordance with GitLab's standard policies documented [here](/handbook/hiring/talent-acquisition-framework/hiring-manager#step-7hm-complete-references)
 
 **Background Check**
 
-Background check will be conducted in accordance with GitLab's standard policies documented [here]({{< ref "people-policies#background-screenings" >}})
+Background check will be conducted in accordance with GitLab's standard policies documented [here](/handbook/people-group/contracts-probation-periods/#background-screenings)
 
 **Offer Preparation**
 

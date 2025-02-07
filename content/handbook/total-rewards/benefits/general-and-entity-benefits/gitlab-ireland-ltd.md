@@ -220,7 +220,7 @@ Relevant parents can take paternity leave. These are:
 - Team members must give written notice to the Absence Management team at `leaves@gitlab.com` of their intention to take parent's leave at least 6 weeks before the intended start date.
 - You may also qualify for 7 weeks [Parent's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/parents_benefit.en.html) if you have enough social insurance (PRSI) contributions.
 - To apply for Parent's Benefit, submit your application via the [Parent's Benefit gov.ie website](https://www.gov.ie/en/service/b321b1-parents-benefit/) at least 4 weeks before the date you start your parent's leave.
-- Parent's Leave runs concurrently with [GitLab Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+- Parent's Leave runs concurrently with [GitLab Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Parental Leave
 
@@ -237,7 +237,7 @@ The Vhi Midwife Support Service is a new and improved benefit that's available t
 
 #### Applying for Maternity, Adoptive, Paternity, Parent's or Parental Leave in Ireland
 
-To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 <details>
 <summary markdown="span">Other Types of Statutory Leave</summary>

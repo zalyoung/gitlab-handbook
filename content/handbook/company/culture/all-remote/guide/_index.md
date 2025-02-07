@@ -11,7 +11,7 @@ GitLab is one of the world's largest all-remote companies with over 1,500 [team 
 
 Our all-remote workforce implementation is featured in [The Journal of Organizational Design](https://link.springer.com/article/10.1186/s41469-020-00087-8). It is also the centerpiece of case studies authored by [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://publishing.insead.edu/case/gitlab).
 
-On this page and subpages, we'll share what "all-remote" really means, [how it works at GitLab]({{< ref "../tips#how-it-works-at-gitlab" >}}), some [tips and tricks]({{< ref "../tips#tips-for-leaders-and-other-companies" >}}) for remote teams, and [resources](../resources/) to learn more.
+On this page and subpages, we'll share what "all-remote" really means, [how it works at GitLab](/handbook/company/culture/all-remote/guide/../tips#how-it-works-at-gitlab), some [tips and tricks](/handbook/company/culture/all-remote/guide/../tips#tips-for-leaders-and-other-companies) for remote teams, and [resources](../resources/) to learn more.
 
 ## The Remote Manifesto
 
@@ -63,7 +63,7 @@ You can learn more at GitLab's [remote team solutions page](/handbook/company/cu
 
 As GitLab has grown, we've learned a lot about what it takes to build and manage a fully remote team, and want to share this knowledge to help others be successful.
 
-Find out [how GitLab makes it work]({{< ref "../tips#how-it-works-at-gitlab" >}}).
+Find out [how GitLab makes it work](/handbook/company/culture/all-remote/guide/../tips#how-it-works-at-gitlab).
 
 ## Advantages and benefits
 

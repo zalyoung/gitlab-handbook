@@ -8,10 +8,10 @@ Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RS
 
 | Program Title | Description |
 | ----- | --------------- |
-| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course is **required** of all mentors and mentees. If you prefer text-based learning or don't have a LinkedIn Learning license, you can instead review [these slides]({{< ref "mentor#mentor-and-mentee-training" >}}). We ask that all mentors and mentees also complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) prior to the start of the program. |
+| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course is **required** of all mentors and mentees. If you prefer text-based learning or don't have a LinkedIn Learning license, you can instead review [these slides](/handbook/people-group/learning-and-development/mentor/#mentor-and-mentee-training). We ask that all mentors and mentees also complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) prior to the start of the program. |
 | **Initial program kickoff** | Async kickoff discussion with mentors and mentees. Participation is **strongly encouraged**. |
 | **Mentorship Sessions** | Mentors and mentees meet sync or async every other week for ~30-minutes for a total 5 months, *(with the option to extend)*. Sessions are led by the mentee and should be focused on specific goals. Participation is **required**.|
-| **Mentor/Mentee Workbook** | [Mentorship resources]({{< ref "mentor#resources" >}}) are available for all mentor/mentee pairs, including suggested articles, strategies for goal setting, and sample meeting agendas. Use of resources is **encouraged**. |
+| **Mentor/Mentee Workbook** | [Mentorship resources](/handbook/people-group/learning-and-development/mentor/#resources) are available for all mentor/mentee pairs, including suggested articles, strategies for goal setting, and sample meeting agendas. Use of resources is **encouraged**. |
 | **End of Program Celebration and Feedback** | Async discussion to share mentorship success. Participation is **strongly encouraged**. An end of program feedback form will be shared with all mentors and mentees and is **required.** |
 
 ### Async First Mentorship
@@ -20,9 +20,9 @@ This program includes an opt-in, async first structure to increase opportunity f
 
 **Async first mentorship pairs should consider the following:**
 
-1. Connect every other week using a GitLab issue, Google doc, Slack messages or voice memos, and/or Loom recorded videos. Remember that async does **not** have to mean text only. See this example of [async meeting formats]({{< ref "mentor#sample-async-meeting-formats" >}}).
+1. Connect every other week using a GitLab issue, Google doc, Slack messages or voice memos, and/or Loom recorded videos. Remember that async does **not** have to mean text only. See this example of [async meeting formats](/handbook/people-group/learning-and-development/mentor/#sample-async-meeting-formats).
 1. Consider finding 1-3 times over the course of the 5-month program to meet synchronously, even if just for 15 minutes. This will require advance planning for both mentor and mentee and is not required.
-1. Utilize all async resources provided on the [mentorship]({{< ref "mentor#resources" >}}) handbook page.
+1. Utilize all async resources provided on the [mentorship](/handbook/people-group/learning-and-development/mentor/#resources) handbook page.
 
 ## Current Program Timeline
 
@@ -114,7 +114,7 @@ If you cannot commit to the 5 month program, please consider applying for a futu
 
 **I'm not eligible to be a mentor or a mentee in this program. What are my options for future participation?**
 
-Team members are always encouraged to build mentor/mentee relationships independently. You can find resources and a list of available mentors in the [Learning and Development handbook]({{< ref "mentor" >}})
+Team members are always encouraged to build mentor/mentee relationships independently. You can find resources and a list of available mentors in the [Learning and Development handbook](/handbook/people-group/learning-and-development/mentor/)
 
 ## Additional questions?
 
