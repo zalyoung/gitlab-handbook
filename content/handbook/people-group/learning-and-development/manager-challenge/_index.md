@@ -8,7 +8,7 @@ title: Manager Challenge
 
 Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/) for external training opportunities.
 
-You can learn more about our current manager development program on our [Elevate handbook page]({{< ref "elevate-programs" >}}).
+You can learn more about our current manager development program on our [Elevate handbook page](/handbook/people-group/learning-and-development/elevate-programs/).
 
 ## Introduction
 
@@ -26,7 +26,7 @@ The program was awarded a Gold Excellence in Leadership Development by the [Bran
 
 If you plan to participate in the Manager Challenge, please discuss with your manager. Let them know you are interested and will be dedicating the three weeks to actively participating. This is not like the [CEO Shadow program](/handbook/ceo/shadow), but the Manager Challenge will **require a heavy time investment**. If you plan to participate, try to do everything you can to block one to two hours each day during the program. This is an intensive program with the goal of covering a lot of material in a short amount of time to increase knowledge retention. **There will be more synchronous activities, less async, this challenge due to feedback from past participants.**
 
-Make the program part of your [career development](/handbook/people-group/learning-and-development/career-development/), and include in your [Individual Growth Plan]({{< ref "career-development#internal-resources-1" >}}).
+Make the program part of your [career development](/handbook/people-group/learning-and-development/career-development/), and include in your [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan).
 
 L&D is making some significant changes to the program in the meantime, but expect to dedicate at least **five to seven hours per week**. Some participants, request additional time to complete the async activities so please plan accordingly. You must attend and/or complete at least 80% of the activities to be awarded a certification.
 
@@ -164,7 +164,7 @@ See the video below for a quick overview of how we use GitLab to facilitate mana
 
 ### Individual Growth Plan
 
-Throughout the program, we ask that managers to create or refine their [Individual Growth Plan]({{< ref "career-development#internal-resources-1" >}}). We encourage Managers to self-reflect on their professional development as a people leader and identify areas where they can advance their skills.
+Throughout the program, we ask that managers to create or refine their [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan). We encourage Managers to self-reflect on their professional development as a people leader and identify areas where they can advance their skills.
 
 The document is intended to be a starting point for managers to document where they can improve as a people leader.
 

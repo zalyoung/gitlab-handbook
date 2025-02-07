@@ -90,7 +90,7 @@ There are many different influencing strategies and in this section we are going
 
 Having crucial conversations via a Zoom call might be more difficult than having the conversation in person. These strategies are meant to identify what makes having crucial conversations in an all-remote environment challenging and things we can try to make the conversations more effective.
 
-1. Pre-populate your [1:1 meeting agenda]({{< ref "1-1" >}}) so that everyone can come prepared to have meaningful conversations. The ability to prepare ensures that everyone in the conversation knows the topics that will be discussed and can prepare in advance.
+1. Pre-populate your [1:1 meeting agenda](/handbook/leadership/1-1/) so that everyone can come prepared to have meaningful conversations. The ability to prepare ensures that everyone in the conversation knows the topics that will be discussed and can prepare in advance.
 1. In a video call, we might miss out on key body language markers that are more apparent when having conversations in person. Focus on the body language queues we can see. Does someone who typically uses video have their video off, or does someone turn their video off suddenly? Does the person seem to be looking away or looking down, avoiding the screen?
 1. If an async conversation is starting to get heated and is veering away from productive dialogue, move to a synchronous call to increase safety.
 1. Async conversations make it easier for us to hold off a response until emotions cool off, preventing a fight or flight response. This can be helpful in some cases but watch out for its detriments. It's important to speak up about projects or conversations that make you feel upset or unheard.

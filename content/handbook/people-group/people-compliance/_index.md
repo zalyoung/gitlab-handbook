@@ -70,7 +70,7 @@ Please see the [README.md](https://gitlab.com/gitlab-com/people-group/compliance
 
 This PI encompasses the 100% completion of all mandated, [annual HR reports](/handbook/people-group/people-success-performance-indicators/#compliance-annual-mandated-hr-reporting) to all relevant Offices and Departments, most commonly being related to United States HR-related reports.
 
-- [People Compliance Reporting]({{< ref "people-compliance-reporting" >}})
+- [People Compliance Reporting](/handbook/people-group/people-compliance/people-compliance-reporting/)
 
 {{% details summary="Meet the People Compliance team" %}}
 

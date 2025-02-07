@@ -82,7 +82,7 @@ Once we have a sufficient pool of refined issues, we can proceed with milestone 
 
 ## Role of Team Members
 
-Engineers
+[Engineers](/handbook/engineering/development/dev/create/engineers/)
 
 - Actively participate in issue refinement activities
 - Provide insights and recommendations on technical feasibility and implementation approach

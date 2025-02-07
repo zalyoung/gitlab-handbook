@@ -94,7 +94,7 @@ Holding hurts our prospective customers because while they're sitting there, the
 
 If you're looking for templates, guides, customer 1-pagers, and other editable sales content, head to the [Enterprise Sales Highspot page](https://gitlab.highspot.com/spots/6329c1e293fedc634e196730). If you're looking for skills-based training, [LevelUp](https://levelup.gitlab.com/learn/dashboard?_gl=1*1ejz71x*_ga*MTEwMjkzNzM1MS4xNjI1NTI2MTE3*_ga_ENFH3X7M5Y*MTY3NDI1MjgyMS4zOS4xLjE2NzQyNTU4MjYuMC4wLjA.) is where you need to go.
 
-**External training opportunities:** GitLab also has a robust [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to help you supplement your learning. And if you want to stretch your technical muscle and hear customer feedback, you can sign up to join our audiences in our [CS webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/).
+**External training opportunities:** GitLab also has a robust [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund) to help you supplement your learning. And if you want to stretch your technical muscle and hear customer feedback, you can sign up to join our audiences in our [CS webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/).
 
 If you want to know more about what's available to help you be successful, reach out to your enablement lead in the #field-enablement Slack channel.
 

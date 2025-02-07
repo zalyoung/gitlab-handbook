@@ -14,11 +14,11 @@ The Security Operations department focuses on the operational aspect of security
 
 Our department consists of:
 
-- [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
-- [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
+- [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) - Security detection engineering and incident response
+- [Trust & Safety](/handbook/security/security-operations/trustandsafety/) - Prevention and mitigation of abuse of the GitLab.com platform
 - [Red Team](/job-families/security/red-team/) - Adversary emulation
-- [Threat Intelligence]({{< ref "threat-intelligence" >}}) - Actionable insights on real-world threats
-- [Signals Engineering]({{< ref "signals-engineering" >}}) - Detection Engineering
+- [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) - Actionable insights on real-world threats
+- [Signals Engineering](/handbook/security/security-operations/signals-engineering/) - Detection Engineering
 
 ## Contacting Security Operations
 

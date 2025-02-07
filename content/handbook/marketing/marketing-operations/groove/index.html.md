@@ -347,7 +347,7 @@ Note 1: For fields involving Flow activity, the information will be taken from t
 
 ### “Out-of-the-Box” Salesforce Reports & Dashboards
 
-Dashboards
+[Dashboards](/handbook/company/working-groups/dashboards)
 
 - Groove - Activity Dashboard
   - The top reports from Groove Insights focused on Activities that your team is carrying out. Click into each report for a deeper dive, or find the rest of the reports within the "Groove Insights - Reports" folder.

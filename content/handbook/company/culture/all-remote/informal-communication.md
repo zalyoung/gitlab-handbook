@@ -128,7 +128,7 @@ Below are a number of intentional facets of [GitLab's culture](/handbook/company
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a coworking space or getting dinner together.
 1. [Slack](/handbook/communication/#slack): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
-1. [Zoom calls]({{< ref "tools-and-tips#zoom" >}}): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
+1. [Zoom calls](/handbook/tools-and-tips/#zoom): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 1. Gaming: GitLab has a `#gaming` Slack channel where fans of video games and digital board games can connect. Coordinating shared gaming sessions is a great way to informally connect with team members and collaborate toward goals outside of work.
 1. Music making: GitLab's `#music_making` Slack channel is a place where artists can come together and collaborate synchronously or asynchronously to make music together. Several GitLab team members came together to create [All I Want This Quarter Is You (GitLab)](https://youtu.be/9kTwqsW8I68), a musical masterpiece on the GitLab Unfiltered YouTube channel.
 
@@ -327,7 +327,7 @@ Show and Tell sessions are excellent ways to humanize the work experience, and t
 {{% /card %}}
 {{% /cardpane %}}
 
-[Zoom]({{< ref "tools-and-tips#zoom" >}}) added a unique feature within its `Share Screen` function, enabling a remote team to share audio from their computer with all who are in the Zoom meeting. This is useful for getting an entire team together in a shared virtual space without everyone feeling compelled to speak and socialize. A shared DJ Room is ideal for scenarios where team members need to be mostly heads-down on work, but appreciate the closeness of the team and the shared musical experience.
+[Zoom](/handbook/tools-and-tips/#zoom) added a unique feature within its `Share Screen` function, enabling a remote team to share audio from their computer with all who are in the Zoom meeting. This is useful for getting an entire team together in a shared virtual space without everyone feeling compelled to speak and socialize. A shared DJ Room is ideal for scenarios where team members need to be mostly heads-down on work, but appreciate the closeness of the team and the shared musical experience.
 
 To create additional interaction, hand off the proverbial DJ duties every 2-3 songs, enabling an array of team members to share their favorite tunes. This can trigger fun conversation on preferred music genres and artists
 

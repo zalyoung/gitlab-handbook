@@ -191,7 +191,7 @@ The table includes information regarding current team members, new hires who hav
 <summary markdown="span">Query - Team members count per region</summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   region,
   COUNT(DISTINCT employee_id)
 FROM
@@ -208,7 +208,7 @@ GROUP BY
 <summary markdown="span">Query - Current team members total count</summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   COUNT(DISTINCT employee_id)
 FROM
   PROD.COMMON.DIM_TEAM_MEMBER
@@ -224,7 +224,7 @@ WHERE
 *key_talent_status is a masked field, only team members with the analyst_people role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   key_talent_status,
   COUNT(*) * 100 / SUM(COUNT(*)) OVER() AS key_talent_percentage
 FROM
@@ -248,7 +248,7 @@ The grain of this table is one row per Team ID per event.
 <summary markdown="span">Query - Total count of active organizations</summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   COUNT(*)
 FROM
   PREP.SENSITIVE.DIM_TEAM
@@ -262,7 +262,7 @@ WHERE
 <summary markdown="span">Query - Count of current team members </summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   SUM(team_members_count)
 FROM
   PREP.SENSITIVE.DIM_TEAM
@@ -282,7 +282,7 @@ WHERE
 *Entity is a masked field, only team members with the analyst_people role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   entity,
   COUNT(*)
 FROM
@@ -298,7 +298,7 @@ GROUP BY 1
 <summary markdown="span">Query - Number of employees per position/role </summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   position,
   COUNT(*)
 FROM
@@ -315,7 +315,7 @@ GROUP BY 1
 <summary markdown="span">Query - Number of employees with a specific job specialty </summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   COUNT(*)
 FROM
   PROD.COMMON.FCT_TEAM_MEMBER_POSITION
@@ -332,7 +332,7 @@ WHERE
 *Entity is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   *
 FROM
   PROD.COMMON.FCT_TEAM_MEMBER_POSITION
@@ -356,7 +356,7 @@ The grain of this table is one row per employee_id, employment_status and status
 *Exit impact is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   COUNT(*)
 FROM
   PROD.COMMON.fct_team_member_status
@@ -372,7 +372,7 @@ WHERE
 *Termination type is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   COUNT(*)
 FROM
   PROD.COMMON.fct_team_member_status
@@ -388,7 +388,7 @@ WHERE
 *Termination type, termination reason and exit impact are masked fields, only team members with the analyst_people role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   DISTINCT termination_reason
 FROM
   PROD.COMMON.fct_team_member_status
@@ -410,7 +410,7 @@ This table is a derived fact from `fct_team_member_status` and `fct_team_member_
 *Entity is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   *
 FROM
   PROD.COMMON.fct_team_status
@@ -428,7 +428,7 @@ WHERE
 *Termination type and termination reason are masked fields, only team members with the `analyst_people` role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   team_id,
   COUNT(*)
 FROM
@@ -447,7 +447,7 @@ GROUP BY 1;
 *Termination type and termination reason are masked fields, only team members with the `analyst_people` role in Snowflake can query it*
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   management_level, COUNT(*)
 FROM
   PROD.COMMON.fct_team_status
@@ -497,7 +497,7 @@ WITH final AS (
   QUALIFY pto_rank = 1
 )
 
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   QUARTER(absence_date) AS quarter,
   absence_status,
   COUNT(absence_date)   AS absence_count
@@ -520,7 +520,7 @@ The grain of this table is one row per employee per valid_from/valid_to combinat
 <summary markdown="span">Average location factor by division</summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     directory.division,
     DATE_TRUNC('month', dates.date_actual) AS month,
     ROUND(AVG(location_factors.location_factor),2) AS average_location_factor
@@ -543,7 +543,7 @@ SELECT
 <summary markdown="span">Tenure bucket per team member</summary>
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   employee_id,
   hire_date,
   DATEDIFF(day, hire_date, CURRENT_DATE())           AS tenure_in_days,

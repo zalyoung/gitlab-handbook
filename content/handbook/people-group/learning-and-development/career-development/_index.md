@@ -17,7 +17,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
+    <a href="[general-and-entity-benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund)" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
     <a href="/handbook/people-group/learning-and-development/career-development/#tracking-your-progress" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
     <a href="/handbook/people-group/learning-and-development/career-development/#having-career-conversations" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
     <a href="/handbook/company/structure/#job-frameworks" class="btn btn-primary" style="margin:5px;">Job Frameworks</a>
@@ -29,11 +29,11 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="margin:5px;">Mentorship</a>
+    <a href="[mentor](/handbook/people-group/learning-and-development/mentor/)" class="btn btn-primary" style="margin:5px;">Mentorship</a>
     <a href="/handbook/people-group/learning-and-development/internship-for-learning/" class="btn btn-primary" style="margin:5px;">Internship for Learning</a>
     <a href="https://docs.google.com/presentation/d/1yY0ofMGgzN07ylTAnRP5geFnWcgUYkiVlcIyR54tpD0/edit#slide=id.g29a70c6c35_0_68" class="btn btn-primary" style="margin:5px;">Career Development Workshop</a>
     <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
-    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
+    <a href="[elevate-programs](/handbook/people-group/learning-and-development/elevate-programs/)" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
     <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses)" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
     <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#oreilly-learning)" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
     <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#gcp-learning)" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
@@ -50,7 +50,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="margin:5px;">Elevate</a>
+    <a href="[elevate-programs](/handbook/people-group/learning-and-development/elevate-programs/)" class="btn btn-primary" style="margin:5px;">Elevate</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations" class="btn btn-primary" style="margin:5px;">Support your Team with Career Conversations Course</a>
     <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13409" class="btn btn-primary" style="margin:5px;">Manager M Groups</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/mitigating-risk" class="btn btn-primary" style="margin:5px;">Mitigating Risk Course</a>
@@ -64,7 +64,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 <div class="flex-row" markdown="0">
   <div>
     <a href="/handbook/ceo/shadow" class="btn btn-primary" style="margin:5px;">CEO Shadow</a>
-    <a href="{{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
+    <a href="[office-of-the-ceo](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow)" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
     <a href="/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
     <a href="/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
@@ -101,7 +101,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 ### Career Development versus Career Mobility
 
-GitLab team members [should not feel pressure to climb the career ladder]({{< ref "1-1#key-points" >}}). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
+GitLab team members [should not feel pressure to climb the career ladder](/handbook/leadership/1-1/#key-points). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
 
 You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Connect or your People Business Partner](/handbook/people-group/people-connect#-connect-with-us).
 
@@ -198,7 +198,7 @@ Epics are a great way to [transparently](/handbook/values/#transparency) and [ef
 
 ### Having Career Conversations with your Manager
 
-The video below is a recording of the Live Learning that took place in August 2021 as part of our Career Development [Skill of the Month]({{< ref "learning-initiatives#fy22-topic-outline" >}}).
+The video below is a recording of the Live Learning that took place in August 2021 as part of our Career Development [Skill of the Month](/handbook/people-group/learning-and-development/learning-initiatives/#fy22-topic-outline).
 
 {{< youtube "JA3NNTGoELU" >}}
 
@@ -225,12 +225,12 @@ Team Members: Take the [Support your team with Career Conversations course in Le
 
 #### Recomendations for Managers to support the learning of team members
 
-Managers should support their direct reports with their professional development goals. Implement the following into a [1-1]({{< ref "1-1" >}}), team meeting, or async communication to support your team.
+Managers should support their direct reports with their professional development goals. Implement the following into a [1-1](/handbook/leadership/1-1/), team meeting, or async communication to support your team.
 
 1. Encourage team members to create an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) or use [GitLab Epics to track their career development](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development).
 1. Utilize the [Growth & Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/).
-1. Recommend (and model) blocking [time to learn during the work week]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}).
-1. Organize team specific and cross-functional learning communities to practice [social learning]({{< ref "learning-initiatives#social-learning-through-live-learning" >}}).
+1. Recommend (and model) blocking [time to learn during the work week](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign).
+1. Organize team specific and cross-functional learning communities to practice [social learning](/handbook/people-group/learning-and-development/learning-initiatives/#social-learning-through-live-learning).
 1. Model and share your own career and professional development pursuits.
 
 **Sample questions to ask your team:**

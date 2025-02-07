@@ -220,7 +220,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 - Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue
   - Note that we are importing it using `bounty` only here.
-- Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues]({{< ref "handling-s1p1.html" >}})
+- Support SIRT as required and, if applicable, follow the process for handling severity::1/priority::1 issues
 - Investigate the location of the exposure, and locations like it, for further exposure.
   - Check the history on issue / MR descriptions
   - Use Advanced Search to look for similar patterns in other projects used by GitLab team members

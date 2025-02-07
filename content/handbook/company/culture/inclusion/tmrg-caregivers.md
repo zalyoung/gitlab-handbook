@@ -58,8 +58,8 @@ Coming soon!
 
 ### Caregiver Resources at GitLab
 
-1. [Flexible PTO]({{< ref "general-and-entity-benefits#paid-time-off" >}})
-1. [Financial Wellness]({{< ref "general-and-entity-benefits#financial-wellness" >}})
-1. [Care Concierge Pilot]({{< ref "general-and-entity-benefits#financial-wellness" >}})
-1. [Family Planning]({{< ref "general-and-entity-benefits#fertility--family-planning" >}})
-1. [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}})
+1. [Flexible PTO](/handbook/total-rewards/benefits/general-and-entity-benefits/#paid-time-off)
+1. [Financial Wellness](/handbook/total-rewards/benefits/general-and-entity-benefits/#financial-wellness)
+1. [Care Concierge Pilot](/handbook/total-rewards/benefits/general-and-entity-benefits/#financial-wellness)
+1. [Family Planning](/handbook/total-rewards/benefits/general-and-entity-benefits/#fertility--family-planning)
+1. [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
