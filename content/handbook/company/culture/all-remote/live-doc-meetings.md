@@ -33,7 +33,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 ### Pre-work and meeting kick-off
 
 1. Pre-read/watch or pre-work materials should be emailed to attendees at least 24 hours in advance.
-1. The meeting host ([DRI]({{< ref "directly-responsible-individuals" >}})) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
+1. The meeting host ([DRI](/handbook/people-group/directly-responsible-individuals/)) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
 1. Questions should be [written](/handbook/values/#write-things-down) and listed in advance of the scheduled meeting time; this tends to increase the quality of questions.
 
 ### Note taking and structure during the meeting
@@ -52,7 +52,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. Follow the order of the questions instead of jumping around in the agenda; this prevents the proverbial loudest voice in the room from dominating a conversation.
 1. Always ask if the name preceding the question would like to verbalize; if they wish not to, or are otherwise unavailable, the meeting host should verbalize on their behalf.
 1. Reenact questions in the list by verbalizing them even if they were already asked and answered in the shared document. Hearing the question and answer allows everyone to think about it and respond to it. It might also happen that when verbalizing the question or answer more context is given since most people can talk faster and with less effort than they can type. Another advantage if you're recording the meeting is that the recording contains everything.
-1. Unless the meeting contains [Not Public]({{< ref "confidentiality-levels#not-public" >}}) information, record the meeting to share with those who cannot attend live and consider livestreaming for maximum transparency and feedback potential.
+1. Unless the meeting contains [Not Public](/handbook/communication/confidentiality-levels/#not-public) information, record the meeting to share with those who cannot attend live and consider livestreaming for maximum transparency and feedback potential.
 1. If a portion of a meeting does not pertain to you, [it's OK to look away](meetings/#9-its-ok-to-look-away). You are the [manager of your own time and attention](/handbook/leadership#managers-of-one).
 
 ## Q: What are the benefits of live doc meetings?
@@ -75,7 +75,7 @@ Not all meetings are inherently bad. We encourage managers to establish [regular
 
 Many meetings can be avoided by understanding how to [work well asynchronously](asynchronous/).
 
-For a deeper dive on how GitLab implements meetings in a remote work environment, visit our [all-remote meetings guide](meetings/). To learn more about how GitLab communications, visit our [Communications page]({{< ref "communication" >}}).
+For a deeper dive on how GitLab implements meetings in a remote work environment, visit our [all-remote meetings guide](meetings/). To learn more about how GitLab communications, visit our [Communications page](/handbook/communication/).
 
 ## Q: What is a live doc meeting?
 
@@ -103,4 +103,4 @@ Live doc meetings can happen fully in-person, fully online, or a on hybrid call 
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

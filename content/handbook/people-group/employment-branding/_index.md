@@ -37,11 +37,11 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
 
 1. **Everyone can contribute**
     - We've got big ambitions to make GitLab the [top DevSecOps platform](https://about.gitlab.com/solutions/devops-platform/) and need skilled contributors to get us there.
-    - Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations]({{< ref "using-gitlab-at-gitlab" >}}) on our product. This means everything is read-write by default.
+    - Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations](/handbook/people-group/using-gitlab-at-gitlab/) on our product. This means everything is read-write by default.
     - We operate around the world. We welcome people of all backgrounds to contribute to our success and have built [Diversity, Inclusion, and Belonging programs](/handbook/company/culture/inclusion/) and practices into all parts of our company.
 1. **Anyone can thrive**
-    - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being]({{< ref "benefits" >}}) regardless of location.
-    - [Career development]({{< ref "career-development" >}}), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
+    - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being](/handbook/total-rewards/benefits/) regardless of location.
+    - [Career development](/handbook/people-group/learning-and-development/career-development/), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
     - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we're all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
     - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.
@@ -75,7 +75,7 @@ We strive to be as transparent as possible, but this section is only for GitLab 
 
 ### Content library
 
-The [life at GitLab content library]({{< ref "content-library" >}}) is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.
+The [life at GitLab content library](/handbook/marketing/developer-relations/technical-marketing/content-library/) is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.
 
 ### GitLab talent ambassadors
 
@@ -172,7 +172,7 @@ As an engaged employer with Glassdoor, we're able to customize the branded conte
 
 ##### Responding to Glassdoor reviews
 
-The Talent Brand Manager keeps track of new company reviews and escalates them as needed for an external response and internal action. [Here's our process]({{< ref "glassdoor-escalation" >}}) for tracking and escalating reviews.
+The Talent Brand Manager keeps track of new company reviews and escalates them as needed for an external response and internal action. [Here's our process](/handbook/people-group/employment-branding/glassdoor-escalation/) for tracking and escalating reviews.
 
 ##### OpenCompany designation
 
@@ -239,11 +239,11 @@ We're hiring across the company. Check out our opportunities: https://about.gitl
 
 Our talent brand team evaluates employer awards and recognition to determine if there are particular awards that, if won, will help us to better attract talented people to want to join GitLab. We also see employer awards as a way to benchmark ourselves against our talent competitors, we want to know how credible third-party organizations rate us against our peers to ensure we continue to be a great place to work.
 
-Check out the content library for a [list of the latest awards and recognition]({{< ref "content-library#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work" >}}) related to working at GitLab.
+Check out the content library for a [list of the latest awards and recognition](/handbook/people-group/employment-branding/content-library/#awards-and-lists-recognizing-gitlab-as-a-great-place-to-work) related to working at GitLab.
 
 ### How we apply for employer and workplace awards
 
-We partner closely with the Corporate Marketing team to apply for and track employer awards and recognition each year. More details and our process for applying to these awards can be found [on this page]({{< ref "awards-process" >}}).
+We partner closely with the Corporate Marketing team to apply for and track employer awards and recognition each year. More details and our process for applying to these awards can be found [on this page](/handbook/people-group/employment-branding/awards-process/).
 
 These awards are important to GitLab's talent brand beacuse they raise awareness for why GitLab is such a unqiue place to work.
 
@@ -364,7 +364,7 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 
 ## All-remote work
 
-A foundational aspect of our talent brand is the flexibility and autonomy that all-remote work gives our team members. The Talent Brand Manager collaborates closely with the [All-Remote Marketing team]({{< ref "workplace" >}}) to raise awareness about remote work and tell the stories of how it's impacted the lives of our team members. Learn more about GitLab's approach to remote work on our [all-remote page](/handbook/company/culture/all-remote/).
+A foundational aspect of our talent brand is the flexibility and autonomy that all-remote work gives our team members. The Talent Brand Manager collaborates closely with the [All-Remote Marketing team](/handbook/ceo/office-of-the-ceo/workplace/) to raise awareness about remote work and tell the stories of how it's impacted the lives of our team members. Learn more about GitLab's approach to remote work on our [all-remote page](/handbook/company/culture/all-remote/).
 
 ## Performance indicators
 

@@ -16,15 +16,15 @@ Our department consists of:
 
 - [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
 - [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
-- [Red Team]({{< ref "red-team" >}}) - Adversary emulation
+- [Red Team](/job-families/security/red-team/) - Adversary emulation
 - [Threat Intelligence]({{< ref "threat-intelligence" >}}) - Actionable insights on real-world threats
 - [Signals Engineering]({{< ref "signals-engineering" >}}) - Detection Engineering
 
 ## Contacting Security Operations
 
 - Slack channel to interact with the Security Operations Department [#security-operations](https://gitlab.enterprise.slack.com/archives/C0477TK9RHB)
-- The Security Operations department follows the [Security Team On-Call Rotation](/handbook/engineering/on-call/#security-team-on-call-rotation) with more details available in [Security Operations On-Call]({{< ref "secops-oncall" >}})
-- [How to Engage the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
+- The Security Operations department follows the [Security Team On-Call Rotation](/handbook/engineering/on-call/#security-team-on-call-rotation) with more details available in [Security Operations On-Call](/handbook/security/security-operations/secops-oncall/)
+- [How to Engage the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/)
 
 ## Common Links
 

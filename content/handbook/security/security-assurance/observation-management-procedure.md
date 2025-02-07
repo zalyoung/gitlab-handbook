@@ -58,6 +58,7 @@ Labels in this set are used to categorize issues for metrics and reporting and c
 | Label | Description |
 | ------ | ------ |
 | Department::***   | Department that is responsible for remediation  |
+| RiskRating:: Critical| Risk rating for security compliance observations - Critical|
 | RiskRating:: High| Risk rating for security compliance observations - High|
 | RiskRating:: Moderate| Risk rating for security compliance observations - Moderate|
 | RiskRating::Low | Risk rating for security compliance observations - Low|

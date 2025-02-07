@@ -279,7 +279,13 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 **Applying for Parental Leave in Germany**
 
-- Team members must register their Parental Leave, in writing (wet signature), 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old. At the same time it must be declared for which periods within two years Parental Leave is to be taken.
+- Team members must register their Parental Leave in writing (wet signature) sent via mail to the German entity address:
+  - Gitlab GMBH c/o RPI Roehm International
+  - Eisenheimer Str. 7
+  - 80687 München
+  - DEU
+- Parental leave must be registered 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old.
+- If your child is under 3 years old, you must declare for which periods within the next two years you want to take Parental Leave for.
 - A request for Parental Leave by facsimile or email does not comply with the written form requirement and is therefore void.
 - Please register your leave, in addition to the written application, by emailing leaves@domain.
 - Submit your Parental Leave in Workday by selecting the `Parental Leave` option.
@@ -289,9 +295,10 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 During Parental Leave, employees are [statutorily entitled to part-time work](https://familienportal.de/familienportal/familienleistungen/elternzeit/faq/kann-ich-waehrend-der-elternzeit-teilzeit-arbeiten--124794) (15 to 32 hours per week) if:
 
-- The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
-- The reduction is not opposed by urgent operational reasons, and
-- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
+- The employer usually employs more than 15 employees,
+- the employment relationship exists for at least six months,
+- the reduction is not opposed by urgent operational reasons, and
+- the employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
 
 The request must include the start and scope of the reduced working hours.
 
@@ -330,7 +337,7 @@ How to Apply:
 
 ### Statutory Sick Leave
 
-Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-procedures---all-team-members) policy.
+Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-reporting-procedures---all-team-members) policy.
 
 - If a team member is sick for more than six weeks, they can apply for "Krankengeld" from their health insurer. The benefit amount will be less than the team member's salary.
 

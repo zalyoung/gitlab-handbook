@@ -161,10 +161,9 @@ Project scope for Professional Services is the outline of the work required to d
         * Resuming work before the CO is signed by the Customer, or the change is captured in writing
 
    3. Work Exception (WE)
-      * A Work Exception is used by a PM when seeking approval for a project to exceed the hours/budget originally allotted. Use the Work Exception issue template to gain approvals from PS leadership. It can be used independently or including a CO.
-      * Ensuring we include labels as a PM is crucial, as this is how we will better track and improve our transition process from Sales to PS.
-
-      [Work Exception Report](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&or%5Blabel_name%5D%5B%5D=WE-product&or%5Blabel_name%5D%5B%5D=WE-ps&or%5Blabel_name%5D%5B%5D=WE-scoping&or%5Blabel_name%5D%5B%5D=WE-time&first_page_size=20) - callouts for reasonings behind additional PS effort without a CO request. This  includes Product challenges, scoping definition misalignment, insufficient PS hours, or other PS related items.
+      * A Work Exception is used by a PM when seeking approval for a project to exceed the hours/budget originally allotted. Navigate to the [PS-Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/?sort=updated_desc&state=opened&first_page_size=100) project, add a new issue and select/follow the Work Exception issue template to gain approvals from PS leadership. It can be used independently or including a CO.
+      * Be sure close out work exception issues at the end of each quarter to assure proper quarterly accounting.
+      * Adding labels & detail within the issue as a PM is crucial, as this is how we will work to improve our internal PS processes.
 
 ### Deploy & Close
 
@@ -201,7 +200,7 @@ Project scope for Professional Services is the outline of the work required to d
 
    4. Internal Project Retrospective
 
-      Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Leads as applicable.  The [internal retrospective](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
+      Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Leads as applicable. Additionally, include a Professional Services Architect when the engagement was custom scoped and there are lessons learned related to that scoping. The [internal retrospective](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
 
       Note: The retrospective runs most effectively when it is prepared in advance, with relevant sections updated throughout the project lifecycle. This ensures the meeting is focused and productive.
 

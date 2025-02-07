@@ -199,10 +199,8 @@ difficult to work with.
 
 ### Use our existing Google Cloud IAM integration
 
-We
-[have an integration with Google Cloud
-IAM](https://docs.gitlab.com/ee/integration/google_cloud_iam.html). This
-integration provides a way for customers to connect their cloud accounts to
+We [have an integration with Google Cloud IAM](https://docs.gitlab.com/ee/integration/google_cloud_iam.html).
+This integration provides a way for customers to connect their cloud accounts to
 GitLab and a mechanism inside GitLab for provisioning short-lived credentials.
 It could form the basis of an integration for provisioning VMs for workspaces
 but today it only provides authentication which would leave us to build

@@ -1,6 +1,6 @@
 module gitlab.com/gitlab-com/content-sites/handbook
 
-go 1.22.9
+go 1.22.10
 
 require github.com/google/docsy v0.10.0
 

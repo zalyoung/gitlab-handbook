@@ -76,7 +76,7 @@ If the requestor is not an existing CustomersDot user when doing an email search
 1. Edit the `Name` and `Email` of the current `Sold To:` contact's CustomersDot customer account to the new contact, check the box `Skip email confirmation` and click `Save`.
 1. Check if the CustomersDot account is linked to a GitLab.com account:
       - On the CustomersDot account, navigate to the `Show` tab and confirm there is a value under `Uid`. The `Uid` is the ID of a GitLab account which can be checked via the Users API `https://gitlab.com/api/v4/users/<Uid>`
-      - [Unlink GitLab.com Account mechanizer function]({{< ref "mechanizer#unlink-gitlabcom-account" >}}).
+      - On the CustomersDot account, unlink the GitLab user account by selecting the **Unlink GitLab User** tab. This should prepopulate the GitLab username and associated account to unlink.
 1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the new email. Request the customer to [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account) to the CustomersDot account.
 1. Confirm that the `Sold To:` contact in the Billing account is also updated, otherwise follow [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot).
 
@@ -142,7 +142,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 1. Upon completion of the changes, click the `Save` button near the bottom of the page.
 1. To confirm the changes propogated properly this can be done by verifying in Zuora that the `Sold To:` and/or the `Bill To:` contacts have been updated.
 
-If the Zuora information is not updated properly, or the `Bill To:` and the `Sold To:` records have the same account and the customer needs them to be separate people, you may hand the ticket to the Billing team using the [Zuora contact change workflow]({{< ref "billing_contact_change_payments#zuora-contact-change" >}}) to update the relevant information.
+If the Zuora information is not updated properly, or the `Bill To:` and the `Sold To:` records have the same account and the customer needs them to be separate people, you may hand the ticket to the Billing team using the [Zuora contact change workflow](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments/#zuora-contact-change) to update the relevant information.
 
 ### Remove a billing account membership
 

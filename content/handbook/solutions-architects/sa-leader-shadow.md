@@ -23,7 +23,7 @@ Candidates must:
 
 1. Complete their [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide)
 2. Review their IGP with their manager and discuss leadership aspirations
-3. Review the [SA Manager Operating Rhythm](https://handbook.gitlab.com/handbook/solutions-architects/sa-manager/) and discuss this with your manager
+3. Review the [SA Manager Operating Rhythm](/handbook/solutions-architects/sa-manager/) and discuss this with your manager
 
 ### How to Apply
 
@@ -41,7 +41,7 @@ Candidates must:
 | FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
 | FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
 | FY26 Q3 |  |  |
-| FY26 Q4 |  |  |
+| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |
 | FY27 Q1 |  |  |
 | FY27 Q2 |  |  |
 

@@ -79,7 +79,7 @@ Think creatively about your development goals, focusing on the [70-20-10 rule fo
 
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
-If you need ideas or help finding development opportunities, [access this repository]({{< ref "career-development#directory" >}}) of resources, programs, and learning platforms. Explore the directory of handbook links to guide you. Bookmark learning programs that are most relevant to the direction you'd like to grow.
+If you need ideas or help finding development opportunities, [access this repository](/handbook/people-group/learning-and-development/career-development/#directory) of resources, programs, and learning platforms. Explore the directory of handbook links to guide you. Bookmark learning programs that are most relevant to the direction you'd like to grow.
 
 **Tip: If you can't find resources internally, refer to the Growth and Development Benefit to cover university programs, coding classes, external certifications, coaching programs, and more.**
 
@@ -87,10 +87,10 @@ If you need ideas or help finding development opportunities, [access this reposi
 
 The IGP is a dynamic tool to help support your growth and development. Workday will send a reminder for you to review and re-launch your IGP 6 months after your manager provides input. You can also set calendar reminders where appropriate so you don't forget to revisit your IGP. [Update your development goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) directly in Workday as you make progress against each one. Below are suggestions regarding how and when you might reference, reflect, and iterate on your goals and IGP:
 
-1. Select a format to track your progress. Consider [these examples]({{< ref "career-development#tracking-your-progress" >}}).
-1. Have at least one quarterly [career conversation]({{< ref "career-development#having-career-conversations" >}}) with your manager during a 1:1.
+1. Select a format to track your progress. Consider [these examples](/handbook/people-group/learning-and-development/career-development/#tracking-your-progress).
+1. Have at least one quarterly [career conversation](/handbook/people-group/learning-and-development/career-development/#having-career-conversations) with your manager during a 1:1.
 1. Review your IGP before completing the [Engagement Survey](/handbook/people-group/engagement#cultureamp-engagement-survey-overview) to incorporate in your feedback on career growth.
-1. Review before engaging in the [360 feedback program]({{< ref "360-feedback" >}}). Ask for feedback on your specific development areas.
+1. Review before engaging in the [360 feedback program](/handbook/people-group/360-feedback/). Ask for feedback on your specific development areas.
 1. Include your lessons learned and growth opportunities in your [Talent Assessments](/handbook/people-group/talent-assessment).
 
 Below is a sample timeline that you may want to follow when it comes to tracking, reflecting and iterating on your IGP, aligning with each half of the fiscal year.

@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Rules and Merging Changes"
 description: "This Hands-On Guide demonstrates how to configure rules and merge request pipelines"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Overview of branch, merge request, and merged results pipelines

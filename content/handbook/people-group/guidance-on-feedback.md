@@ -14,7 +14,7 @@ Giving and receiving feedback is an important part of building strong relationsh
 
 Feedback can come in the form of **"praise"** for things team members do well, and **"tips"** pertaining to improvement areas. We encourage sharing and documenting both types of feedback on a regular basis via:
 
-1. [360 Feedback]({{< ref "360-feedback" >}}) via Culture Amp
+1. [360 Feedback](/handbook/people-group/360-feedback/) via Culture Amp
 1. Regularly during [1-1's]({{< ref "1-1" >}})
 1. "365 feedback": Giving verbal, direct feedback 365 days a year in the [#thanks Slack channel](https://app.slack.com/client/T02592416/C038E3Q6L), direct message, or other personal communication
 

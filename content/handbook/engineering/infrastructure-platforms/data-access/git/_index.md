@@ -150,17 +150,9 @@ If you're not part of the Support organization, please consider seeking help fro
 
 If you still need help, please file an issue [here](https://gitlab.com/gitlab-org/git/-/issues/new). Post it on [#g_git](https://gitlab.slack.com/archives/g_git) for more immediate visibility and tag EM and PM, and the Support person you're working with.
 
-### Future oncall rotation
+### On-call rotation
 
-NOTE: Gitaly and Git are working on second-tier [on-call coverage](../gitaly#gitaly-oncall-rotation) for well-defined emergencies only. This is not enabled yet; the tentative start date is 2025-01-01.
-
-Please do not page oncall outside of these cases; contact Support instead!
-
-- For **production incidents only**, SRE or IMOC on-call can page the current [Gitaly oncall](../gitaly#gitaly-oncall-rotation) manually.
-- For **customer emergencies**, Support engineers and managers can page the current [Gitaly oncall](../gitaly#gitaly-oncall-rotation) manually.
-- If you're working on a customer emergency but not part of Support, please contact Support instead.
-
-For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation. For all other cases please file an issue.
+Members of the Git team participate in Gitaly on-call rotation. For more details, see [the team page](../gitaly#on-call-rotation).
 
 ## Workflow in upstream Git
 

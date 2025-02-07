@@ -229,7 +229,7 @@ and make sure to complete all the steps in the template.
 
 When changing the team tags, such as `be_team_tag`, ensure that each team member's individual `data/team_members/person/` YAML has the relevant `departments` entry updated. Alternatively, if the team tag is missing, add the tag under the list of `departments` as the second or lower entry. The first `departments` entry is controlled by the Workday sync and will be overwritten.
 
-When deciding on the naming, ensure that each team tag is unique. For example, `infra_reliability_team_tag` should have a different value compared to `be_team_tag`. If they are the same, then all team members with the tag with be displayed, duplicating the list for BE and SRE.
+When deciding on the naming, ensure that each team tag is unique. For example, `sre_team_tag` should have a different value compared to `be_team_tag`. If they are the same, then all team members with the tag with be displayed, duplicating the list for BE and SRE.
 
 ### Changing category name
 
@@ -349,9 +349,9 @@ Maybe we should make our features easier to search to replace the section below.
 
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
-### Other functionality in Test Platform
+### Other functionality in Developer Experience
 
-[Test Platform](/handbook/engineering/infrastructure/test-platform/)
+[Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/)
 
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)

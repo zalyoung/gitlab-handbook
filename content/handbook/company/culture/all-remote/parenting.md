@@ -18,11 +18,11 @@ While success may look different to each individual, it requires support from on
 
 At GitLab, we believe that [most jobs can be done remotely](terminology/). We are the world's largest all-remote company with no company-owned offices anywhere on the planet. We have team members in more than 65 countries, many of whom are parents. It can be done; it should be done!
 
-When looking for a parent-friendly job, instead of focusing on the specific role, look at the company. Do they offer flexible scheduling? [No-ask PTO]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})? Are they [family first](/handbook/values/#family-and-friends-first-work-second)? Choose an organization that proactively supports parents and prioritizing your kids above your job.
+When looking for a parent-friendly job, instead of focusing on the specific role, look at the company. Do they offer flexible scheduling? [No-ask PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)? Are they [family first](/handbook/values/#family-and-friends-first-work-second)? Choose an organization that proactively supports parents and prioritizing your kids above your job.
 
 ## Q: What are the benefits of work from home parenting?
 
-While there are numerous [advantages to remote work]({{< ref "remote-benefits" >}}), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
+While there are numerous [advantages to remote work](/handbook/company/culture/all-remote/remote-benefits/), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
 
 1. You have more [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -204,8 +204,8 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

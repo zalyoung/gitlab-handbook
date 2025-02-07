@@ -5,7 +5,7 @@ description: "The Organizations team develops the Organizations entity to suppor
 
 ## About
 
-The Organizations team's main focus is to develop the Organization entity needed for data sharding and isolation in the context of [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/). The team also offers support for groups, projects, and user profiles within our product.
+The Organizations team's main focus is to develop the Organization entity needed for data sharding and isolation in the context of [Cells](/handbook/engineering/architecture/design-documents/cells/). The team also offers support for groups, projects, and user profiles within our product.
 
 ### Contact
 
@@ -26,7 +26,7 @@ As we brainstorm and iterate on horizontal scalability proposals, we will
 provide implementation details, prototypes, metrics, demos, and documentation to
 support our hypotheses and outcomes.
 
-Currently, [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/) is
+Currently, [Cells](/handbook/engineering/architecture/design-documents/cells/) is
 our proposal of a new architecture for our platform that is horizontally scalable,
 resilient, and provides a more consistent user experience.
 
@@ -80,10 +80,6 @@ the [product prioritization process](/handbook/product/product-processes/#priori
 with input from the team, Engineering Manager (EM), and other stakeholders.
 The iteration cycle starts on the 2nd Monday of one month, and lasts until the 2nd Friday of the following month,
 and is identified by the GitLab version set to be released.
-
-Engineers are encouraged to work as closely as needed with their stable
-counterparts. Quality engineering is included in our workflow via the
-[quad planning process](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 
 ### Milestone Planning
 

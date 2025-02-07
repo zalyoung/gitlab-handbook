@@ -8,7 +8,7 @@ This policy relates to the types of leaves that GitLab offers and the guidelines
 
 ## Paid Time Off
 
-Time away from work can be extremely helpful for maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership]({{< ref "leadership" >}}) to set the example by taking time off when needed, and ensuring their reports do the same.
+Time away from work can be extremely helpful for maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership](/handbook/leadership/) to set the example by taking time off when needed, and ensuring their reports do the same.
 
 Taking time off is not a selfish behavior. Not only is time away from work aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second), but it is vital to maintaining [mental health](/handbook/company/culture/all-remote/mental-health/). It is also a core part of the creative process.
 
@@ -22,7 +22,7 @@ If you are taking Parental Leave, please see our [Parental Leave Policy](/handbo
 
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
-Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days]({{< ref "family-and-friends-day" >}}). When accounting for time off in Workday, please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).
+Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days](/handbook/company/family-and-friends-day/). When accounting for time off in Workday, please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).
 
 As we all work remotely it can sometimes be difficult to know when and how to plan time off. Here is some advice and guidance on how this can be done in an easy and collaborative way. **Please note that for audit and compliance purposes, all team members are required to use Workday as the single source of truth to accurately track and communicate all time off.**
 
@@ -54,7 +54,7 @@ Entering time off in Workday is not necessary if working but working asynchronou
    - When taking PTO for a mental health day, please select the Paid Time Off label in Workday.  If you'd like to add additional details, you can select Vacation from the drop down 'reason' menu, or add comments.
 1. GitLab runs as usual during regional official days off (including public or statutory holidays): we still help clients during those days, unless they are official days off in both the Netherlands *and* the U.S. On those days, only vital functions (such as incident remediation, emergency on-call, and customer support during [GitLab Global Support Hours](https://about.gitlab.com/support/#hours-of-operation) and [US Federal Support Hours](https://about.gitlab.com/support/us-government-support/#hours-of-operation)) will be staffed. If you need to work during an official day off in your country, you should take a different day off in return.
 1. Please also remember to turn on your out of office message and include the contact details of a co-worker in case anything urgent or critical comes into your inbox while you're away. If you have to respond to an incident while on-call outside of your regular working hours, you should feel free to take off some time the following day to recover and be well-rested. If you feel pressured to *not* take time off to rest, refer to this part of the handbook and explain that you had to handle an incident.
-1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, log into Workday and correct the entry. Events can only be changed within 30 days of the intial request.
+1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, log into Workday and correct the entry. Events can only be changed within 30 days of the initial request.
 
 ### Holidays
 
