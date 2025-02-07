@@ -29,7 +29,7 @@ specific in CE/EE by creating a utility-class library based on the design system
 - Establish working group FE members as GitLab UI maintainers
 - Ensure there is clear documentation written for when and how new components
 should be introduced into the design system and the product, including responsible
-[counterparts](/handbook/security/identity/counterparts/)
+counterparts
 - Ensure there is clear documentation of how to implement GitLab UI components
 and utility classes
 

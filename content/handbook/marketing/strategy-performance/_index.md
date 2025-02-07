@@ -85,7 +85,7 @@ We use labels for two purposes:
 
 <details>
 <summary markdown='span'>
-[Categories](/handbook/product/categories/)
+Categories
 </summary>
 
 - `Bizible`: Used to highlight a data related tech stack tool.

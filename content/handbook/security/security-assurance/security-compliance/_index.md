@@ -262,4 +262,4 @@ The SSOT for our metrics is Tableau. Our metrics are largely collected from issu
 - [Observation Methodology](/handbook/security/security-assurance/observation-management-procedure/)
 - [Gap Analysis Program](/handbook/security/security-assurance/security-compliance/gap-analysis-program/)
 
-<a href="[security-assurance](/handbook/security/security-assurance/)" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>
+<a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

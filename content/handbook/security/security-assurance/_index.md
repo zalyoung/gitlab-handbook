@@ -38,18 +38,18 @@ There are five teams in the Security Assurance sub-department.
   <tr>
       <td>
         <ul>
-            <li><a href="[governance](/handbook/security/security-assurance/governance/)"> Governance Team Page </a></li>
-            <li><a href="[field-security](/handbook/security/security-assurance/field-security/)"> Field Security Team Page </a></li>
+            <li><a href="/handbook/security/security-assurance/governance/"> Governance Team Page </a></li>
+            <li><a href="/handbook/security/security-assurance/field-security/"> Field Security Team Page </a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="[security-compliance](/handbook/security/security-assurance/security-compliance/)"> Security Compliance Team Page </a></li>
+            <li><a href="/handbook/security/security-assurance/security-compliance/"> Security Compliance Team Page </a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="[security-risk](/handbook/security/security-assurance/security-risk/)"> Security Risk Team Page </a></li>
+            <li><a href="/handbook/security/security-assurance/security-risk/"> Security Risk Team Page </a></li>
         </ul>
       </td>
       <td>

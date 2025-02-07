@@ -63,7 +63,7 @@ There are two phases for fixing a broken `master` incident which have a target S
 Note: Recurring incidents are negatively impacting master pipeline stability and development velocity. Any untriaged, recurring incident will be automatically escalated to `#dev-escalation` following this timeline:
 
 ```mermaid
-[timeline](/handbook/customer-success/csm/gainsight/timeline)
+timeline
   title Pipeline incident escalation
     section Pipeline failure incident #1
       not recurring in 24 hours and no human activity : Auto closed

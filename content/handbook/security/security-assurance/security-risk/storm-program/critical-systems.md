@@ -57,7 +57,7 @@ Systems are designated a Critical System Tier based on the following matrix:
   </tr>
   <tr>
     <td class="tg-e02t">Tier 1 Mission Critical<span style="color:#DB3B21;">**</span></td>
-    <td class="tg-zqun">Disruption or breach has an immediate and significant impact on the availability/security of GitLab SaaS subscriptions and Customer data (See <a href="[data-classification-standard](/handbook/security/data-classification-standard/#data-classification-definitions)">Data Classification Standard</a> for definitions).</td>
+    <td class="tg-zqun">Disruption or breach has an immediate and significant impact on the availability/security of GitLab SaaS subscriptions and Customer data (See <a href="/handbook/security/data-classification-standard/#data-classification-definitions">Data Classification Standard</a> for definitions).</td>
     <td class="tg-zqun">GitLab.com, Google Cloud Platform, Devo</td>
   </tr>
   <tr>
