@@ -14,6 +14,7 @@ Hello! I’m Nico Sandoval. I’m a Business Systems Analyst with the [Enterpris
 - I’m bilingual, fluent in Spanish and English.
 - I love cooking and grilling for family and friends.
 - I enjoy swimming and working out.
+-
 
 
 ### My GitLab Story
