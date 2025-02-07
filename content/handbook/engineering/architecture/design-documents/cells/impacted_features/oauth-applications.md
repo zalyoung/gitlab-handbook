@@ -1,7 +1,7 @@
 ---
 stage: enablement
 group: Tenant Scale
-description: 'Cells: OAuth applications'
+title: 'Cells: OAuth applications'
 ---
 <!-- vale gitlab.FutureTense = NO -->
 {{% alert %}}
@@ -48,7 +48,7 @@ OAuth and OIDC have multiple endpoints, with variations in how these requests ar
    Requests such as `.well-known/openid-configuration`, `.well-known/webfinger`, and `/oauth/discovery/keys` return configurations relevant across all Cells.
 
 1. **User info endpoints:**
-   `/userinfo` is authenticated via the access token sent in the `Authorization` header.
+`/userinfo` is authenticated by using the access token sent in the `Authorization` header.
 
 ## 3. Implementation Status for Cells 1.0
 
@@ -77,7 +77,7 @@ Pros:
 
 - Enables third-party applications to register a single OAuth application per GitLab cluster
 - Does not require admins of third-party applications to have visibility into GitLab infrastructure
-- Preserves existing workflows (e.g., VS Code Extension ships with hardcoded OAuth App ID)
+- Preserves existing workflows (such as enabling VS Code Extension to ship with hardcoded OAuth App ID)
 
 Cons:
 
