@@ -24,17 +24,27 @@ manage these as needed during the ASE contract.
 
 ### Auto-assign the customer's tickets
 
-Auto-assignment of customer tickets requires a named ASE for the organization in Zendesk. 
-Support Managers will need to file a request using the
-[Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and 
-select the following options: 
+Auto-assignment of customer tickets requires that two things be true:
 
-- The `What is this request concerning?` option should be
-  `Modifications to a Zendesk Global Organization` and the
-  `What kind of modification are you looking to make?` should be
-  `Set an Assigned Support Engineer for an organization`
+1. There must be a named ASE for the organization in Zendesk
+1. There must be an ASE-related `Product Charge` in the subscription in
+   Salesforce
 
-The request is automated and will create a tracking issue reflecting its status. 
+For both of these, please contact your manager and request that:
+
+1. They file a request using the
+   [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+   and select the following options: 
+   1. The `What is this request concerning?` option should be
+      `Modifications to a Zendesk Global Organization`
+   1. The `What kind of modification are you looking to make?` should be
+      `Set an Assigned Support Engineer for an organization`
+
+   The request is automated and will create a tracking issue reflecting its status.
+
+1. They verify that the subscription in Salesforce has an `SPS` or `ASE`
+   product charge listed. If it does not, they should contact Sales Ops
+   for assistance.
 
 ### Org Note mentioning the ASE and how to treat the ticket
 
