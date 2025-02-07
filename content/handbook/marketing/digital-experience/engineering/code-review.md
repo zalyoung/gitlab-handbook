@@ -17,14 +17,15 @@ Every reviewer at GitLab must strive for our [reviewer values](/handbook/marketi
 
 ### Assigning Reviewers
 
-While it's important to involve the team in the review process, assigning reviews to the entire team can lead to diffusion of responsibility and inefficiencies. Instead, we recommend the following approach:
+While it's important to involve the team in the review process, assigning reviews to the entire team can lead to diffusion of responsibility and inefficiencies. This has historically been implemented so that the whole team is a reviewer for big changes. This is a way to ensure that the team has appropriate visibility into high-impact work. As the team continues to mature, we recommend the following approach (when relavant):
 
-1. Assign one primary reviewer for each merge request:
+1. For all merge requests, assign one primary reviewer for each merge request:
 
 2. For significant changes or when additional perspectives are needed:
    - Assign the review to an additional maintainer of the project
-   - Use the @dex-engineering mention to notify the broader team
+   - Use the `@dex-engineering` mention to notify the broader team
    - Clearly state a due date for additional feedback (e.g., "Please provide any feedback by [date/time]")
+   - Communicate the change publicly in `#dex-engineering`
 
 3. Utilize GitLab's review features for asynchronous collaboration:
    - Use threaded discussions for specific points
@@ -33,7 +34,22 @@ While it's important to involve the team in the review process, assigning review
 Remember:
 
 - Team mentions (@dex-engineering) are for additional input, not primary review responsibility
+- Make clear who the DRI of the initiate is
 - Set clear expectations for feedback timelines to prevent delays
+
+#### Advantages 
+
+- Diffusion of responsibility: When everyone is responsible, sometimes no one feels personally accountable, which can delay reviews or result in less thorough examinations
+- Consensus vs. collaboration: Seeking consensus from an entire team for every change can slow down the development process and may not always lead to the best outcomes.
+- Reduced efficiency: It may take longer to get approvals if multiple team members need to review and agree.
+- Potential for conflicting feedback: More reviewers might lead to contradictory suggestions.
+
+#### Counterpoints
+
+- Knowledge sharing: It can help spread knowledge about the codebase and design decisions across the team.
+- Multiple perspectives: For significant changes like implementing new fonts across buyer experience, having diverse viewpoints can be valuable.
+- Collective ownership: It can foster a sense of shared responsibility for the code quality.
+- Backup reviewers: If some team members are unavailable, others can step in to prevent delays.
 
 ### Acceptance Checklist
 
