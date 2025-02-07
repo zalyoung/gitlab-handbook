@@ -128,6 +128,7 @@ The shadow experience leading up to, during, and after the 2-week shadow is orga
 - [How To Win Friends and Influence People](https://www.amazon.co.uk/gp/product/B07FY2WWZG/ref=kinw_myk_ro_title)
 - [The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/ref=sr_1_1?crid=1R47T9R3OXW2O&dib=eyJ2IjoiMSJ9.b2GpG6Bth1nvC0dnBNNhs-NlvKFJFO_IX9eN7bYqcw-2zWIHZveWBb_gdF_xxEY7g6FqlwMgljuwZMmkHjrKBb_c3lMVWuXoOTnM0539Loquzuny_t6zSUQ4fh-hv8LYEH2kPFQbEJvTyEe00SttSFaRw-YjznMCVkndai4sG1cqnAoBU8tJVKUpHMnl1eH4bl2YCcIg4jRmjjPMGzbf-8pxhJh1L4KJuVnnBhQxt-o.ON7BWwuTILo5LUwZ7F7hoUn_up45l5mrzS3UXCAnaAQ&dib_tag=se&keywords=the+challenger+sales&qid=1732094566&s=books&sprefix=the+challenger+sales%2Cstripbooks-intl-ship%2C198&sr=1-1)
 - [The Qualified Sales Leader](https://www.amazon.co.uk/dp/B09236J2XX/ref=pe_33573471_635671331_TE_M1DP)
+- [Necessary Endings](https://www.amazon.com/Necessary-Endings-Henry-Cloud/dp/0061777129/)
 
 **Share Your Leadership Journey:** Have you read a book, article, or resource that significantly influenced your development as a leader? We welcome your contributions - please submit an MR to add your transformative reading recommendations to this page.
 
