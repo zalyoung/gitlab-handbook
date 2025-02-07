@@ -57,15 +57,15 @@ auto_close: false
 
 |Config Key|Definition|
 |-|-|
-|`components`|List of Framework components required by this project.|
+|`components`|List of Totally Unified Build Environment components required by this project.|
 |`components:<COMPONENT_NAME>:contacts`|The subscriber project's directly responsible individuals. Merges with the top level `labels` key.|
 |`components:<COMPONENT_NAME>:labels`|The subscriber project's preferred triage labels for this component. Merges with the top level `labels` key.|
 |`components:<COMPONENT_NAME>:project_id`|Overrides the `project_id` set for the subscriber. Only needed when a monorepo utilizes two issue trackers for separation.|
-|`project:project_id`| The integer IID assigned to the subscriber project in GitLab. `PATCH` and `NEXT` jobs open an issue in the defined project.|
+|`project:project_id`| The integer IID assigned to the subscriber project in GitLab. `PATCH` and `MAJOR` jobs open an issue in the defined project.|
 |`project_name`| The well known name for a subscriber project.|
-|`labels`|Labels applied to all issues Framework opens for this subscriber project. The list merges with component specific labels.|
-|`contacts`|Framework assigns build failure issues to everyone in `contacts:people`. The list merges with the contacts specified per component. Groups named in `contacts:groups` will be copied in the description. A project must provide at least one entry in `contacts` under `people` or `groups`.|
-|`auto_close`|Optional. If the default pipeline succeeds for a `PATCH` or `NEXT` job, close the related open issue.  Defaults to `false`.|
+|`labels`|Labels applied to all issues the Totally Unified Build Environment opens for this subscriber project. The list merges with component specific labels.|
+|`contacts`|The Totally Unified Build Environment assigns build failure issues to everyone in `contacts:people`. The list merges with the contacts specified per component. Groups named in `contacts:groups` will be copied in the description. A project must provide at least one entry in `contacts` under `people` or `groups`.|
+|`auto_close`|Optional. If the default pipeline succeeds for a `PATCH` or `MAJOR` job, close the related open issue.  Defaults to `false`.|
 
 ## Activation pipeline workflows
 
@@ -101,7 +101,7 @@ flowchart TD
 
     classDef externalCaller stroke:#2B2838,fill:#FC6D26,stroke-width:6px,color:#FFF
     classDef scaffold stroke:#2B2838,fill:#FCA326,stroke-width:6px,color:#000
-    classDef frameworkCtl stroke:#2B2838,fill:#7759C2,stroke-width:6px,color:#FFF
+    classDef tubeCtl stroke:#2B2838,fill:#7759C2,stroke-width:6px,color:#FFF
     classDef taskFinished stroke:#2B2838,fill:#0f0,stroke-width:4px,color:#000
     classDef taskFailed stroke:#2B2838,fill:#f00,stroke-width:4px,color:#000
 ```
@@ -136,9 +136,9 @@ A scheduled job runs on a weekly cadence to detect broken configuration. It
 provides a guard against schema changes that may inadvertently break older
 subscriber configuration files.
 
-## Add Framework to subscriber project repository
+## Add the Totally Unified Build Environment to subscriber project repository
 
 After the subscriber project configuration file successfully merges into the
 central build architecture repository, the directly responsible individuals
-then need to configure their own project to consume Framework's unified
-common build templates.
+then need to configure their own project to consume the Totally Unified
+Build Environment's common build templates.

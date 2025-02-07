@@ -12,43 +12,47 @@ toc_hide: true
 
 ## Introduction
 
-Framework gives subscriber project developers more time to focus on value
-added features. It automatically and transparently manages build
-environments and updates to runtimes. Workflow changes, such as when the
-directly responsible individual changes or labels change, are the only tasks
-that require manual intervention after the initial set up process.
+The Totally Unified Build Environment gives subscriber project developers
+more time to focus on value added features. It automatically and
+transparently manages build environments and updates to runtimes. Workflow
+changes, such as when the directly responsible individual changes or labels
+change, are the only tasks that require manual intervention after the
+initial set up process.
 
-## How projects onboard to Framework
+## How projects onboard to the Totally Unified Build Environment
 
 All subscriber project configuration lives in one repository. This design
-simplifies management for Distribution as a single source of truth and
-simultanenously allows subscriber project maintainers to manage their own
-workflow. New Framework subscribers open a merge request that will:
+simplifies management for Build as a single source of truth and
+simulatenously allows subscriber project maintainers to manage their own
+workflow. New Totally Unified Build Environment subscribers open a merge
+request that will:
 
 - Identify the project.
 - Identify the directly responsible individuals who act as the point of
   contact when required.
-- Set the correct labels for issues Framework opens that follows the
-  subscriber project's established workflow rules.
+- Set the correct labels for issues the Totally Unified Build Environment
+  opens that follows the subscriber project's established workflow rules.
 - Add subscriber project maintainers in `CODEOWNERS` to enable independent
   management of workflow configuration after the initial enrollment.
 
 Project maintainers also open a second merge request in their own
-repository. This request incorporates Framework shared scaffold
-configuration into the continuous integration build jobs. This enables
-transparent delivery of updated build environments to the subscriber project
-and automatically opens issues to schedule and track update tasks with the
-preferred workflow set in the enrollment merge request.
+repository. This request incorporates the Totally Unified Build Environment
+shared scaffold configuration into the continuous integration build jobs.
+This enables transparent delivery of updated build environments to the
+subscriber project and automatically opens issues to schedule and track
+update tasks with the preferred workflow set in the enrollment merge
+request.
 
 ## Software build overview
 
-Subscriber projects always build in the same environment Distribution and
+Subscriber projects always build in the same environment Build and
 Delivery use to ship GitLab. When an update happens in one of those
-environments, Framework automatically adds additional build jobs in some
-pipelines that use the newer version. These extra jobs are allowed to fail
-and update issues automatically created by Framework.
+environments, the Totally Unified Build Environment automatically adds
+additional build jobs in some pipelines that use the newer version. These
+extra jobs are allowed to fail and update the issues automatically created
+by the Totally Unified Build Environment.
 
-The automation eliminates friction caused by Distribution's current role as
+The automation eliminates friction caused by Build's current role as
 intermediary. Challenges discovered in the test build flow directly and
 immediately to an issue. Subscriber projects manage their own workflow, so
 product and engineering managers can schedule work related to updates rather
