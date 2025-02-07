@@ -24,5 +24,5 @@ My team and I look forward to working with the team at [Customer Name], and we'l
 
 XXX XXX
 Manager, Professional Services
-GitLab
+[GitLab](/handbook/security/corporate/systems/gitlab/)
 ```

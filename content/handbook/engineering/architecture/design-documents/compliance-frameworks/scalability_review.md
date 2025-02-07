@@ -87,7 +87,7 @@ end
 https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99421
 
 ```sql
-select
+[select](/handbook/support/partnerships/select)
     "projects"."id"
 from
     projects
@@ -121,7 +121,7 @@ Project.includes(
 https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99422
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     "projects"."id",
     "projects"."name",
     "projects"."path",
@@ -259,7 +259,7 @@ For `at_least_two_approvals` or any other control related to approval rule
 https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99302
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     SUM(approvals_required)
 FROM
     "approval_project_rules"
@@ -275,7 +275,7 @@ LIMIT 1
 https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99303
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     "protected_branches".*
 FROM (
     SELECT
@@ -293,7 +293,7 @@ FROM (
 https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32134/commands/99304
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     "namespaces"."id",
     "namespaces"."name",
     "namespaces"."path",
@@ -358,7 +358,7 @@ LIMIT 1
 https://console.postgres.ai/gitlab/gitlab-production-main/sessions/32139/commands/99427
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     "compliance_requirements".*
 FROM
     "compliance_requirements"

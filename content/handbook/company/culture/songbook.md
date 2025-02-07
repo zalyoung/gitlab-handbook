@@ -161,7 +161,7 @@ Everywhere I code
 Always stored for me
 In the repo
 On its disk
-GitLab
+[GitLab](/handbook/security/corporate/systems/gitlab/)
 
 You can help with all my code
 You're the iteration
@@ -180,7 +180,7 @@ Everywhere I code
 Always stored for me
 In the repo
 On its disk
-GitLab
+[GitLab](/handbook/security/corporate/systems/gitlab/)
 
 Wanna have you test it
 I wanna have you deliver it
@@ -613,7 +613,7 @@ I know just what I'm doing
 GitLab, push it
 GitLab, push it
 
-GitLab
+[GitLab](/handbook/security/corporate/systems/gitlab/)
 
 GitLab, push it
 Push-push-push-push it, push it

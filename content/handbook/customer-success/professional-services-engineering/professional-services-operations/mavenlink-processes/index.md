@@ -196,7 +196,7 @@ Time off cancellation
 
 #### Mavenlink Time Approval Process
 
-Overview
+[Overview](/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/overview)
 
 With Mavenlink's time approval functionality, members with Project Lead account permissions (or higher) can access the Time Approvals page where they can view and manage time for all projects in which they have Financials permissions (or higher).
 

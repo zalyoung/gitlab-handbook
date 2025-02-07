@@ -171,7 +171,7 @@ Video upload:
 1. Add tags: `gitlab`, `gitlab-duo`, `ai`, `development`, etc.
 1. Publish the video.
 
-Distribution
+[Distribution](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution)
 
 1. Add the video to the [GitLab Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html), Highspot, blog posts, social posts, etc.
 

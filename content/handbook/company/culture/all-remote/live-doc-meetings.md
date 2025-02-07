@@ -71,7 +71,7 @@ Improving your meeting hygiene can start by shifting to live doc meetings. It is
 
 ## Q: When should I use a meeting over async?
 
-Not all meetings are inherently bad. We encourage managers to establish [regular 1:1 meetings]({{< ref "1-1" >}}) with their team, for example. There are instances where a brief synchronous chat can replace multiple hours of asynchronous work. Strategically leveraging sync and async is an art, not a science.
+Not all meetings are inherently bad. We encourage managers to establish [regular 1:1 meetings](/handbook/leadership/1-1/) with their team, for example. There are instances where a brief synchronous chat can replace multiple hours of asynchronous work. Strategically leveraging sync and async is an art, not a science.
 
 Many meetings can be avoided by understanding how to [work well asynchronously](asynchronous/).
 

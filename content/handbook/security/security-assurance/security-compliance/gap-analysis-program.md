@@ -73,4 +73,4 @@ Gap analysis requests will be prioritized by the Gap Analysis Program DRI with a
 
 If you have any questions or feedback about the security compliance gap analysis process please [contact the GitLab security compliance team](_index.md).
 
-<a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="[security-assurance](/handbook/security/security-assurance/)" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>

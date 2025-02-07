@@ -57,13 +57,13 @@ Please find pages for potential and active applicants below.
 
 - [Interviewer Prep Requirements](/handbook/hiring/interviewing/)
 - [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
-- [Greenhouse for Interviewers]({{< ref "greenhouse/#for-all-interviewers" >}})
+- [Greenhouse for Interviewers](/handbook/hiring/greenhouse#for-all-interviewers)
 
 ### Hiring Manager Processes
 
 - [Hiring Manager Processes](/handbook/hiring/talent-acquisition-framework/hiring-manager/)
 - [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
-- [Greenhouse for Hiring Managers]({{< ref "greenhouse/#for-hiring-managers" >}})
+- [Greenhouse for Hiring Managers](/handbook/hiring/greenhouse#for-hiring-managers)
 
 ### Candidate Experience Specialist Processes
 
@@ -91,7 +91,7 @@ Please find pages for potential and active applicants below.
 {{% details summary="Open a req in Greenhouse" %}}
 
 - [Instructions here](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
-- [Open a kickoff session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
+- [Open a kickoff session](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session)
 {{% /details %}}
 
 {{% details summary="Evergreen requisitions" %}}
@@ -239,7 +239,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 #### Sourcing at GitLab
 
 - [Sourcing overview](/handbook/hiring/sourcing)
-- [Identifying prospects]({{< ref "req-overview#step-4-identify--engage-top-talent-prospects" >}})
+- [Identifying prospects](/handbook/hiring/talent-acquisition-framework/req-overview#step-4-identify--engage-top-talent-prospects)
 
 #### Notifications
 

@@ -592,7 +592,7 @@ The `mask_model` macro will first retrieve all of the columns of the given model
 The first step of the `apply_masking_policy` is to get the data type of the columns to be masked as the polices are data type dependant.  This is done with a query to the data base `information_schema` table with the following query:
 
 ```sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   t.table_catalog,
   t.table_schema,
   t.table_name,
@@ -1215,7 +1215,7 @@ An example of this from the dbt docs:
 
 -- Refunds have a negative amount, so the total amount should always be >= 0.
 -- Therefore return records where this isn't true to make the test fail
-SELECT
+[SELECT](/handbook/support/partnerships/select)
     order_id,
     sum(amount) AS total_amount
 FROM {{ ref('fct_payments' )}}

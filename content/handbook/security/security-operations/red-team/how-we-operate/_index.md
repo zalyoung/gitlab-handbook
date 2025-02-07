@@ -134,12 +134,12 @@ If the Red Team is ever asked _"Is this you?"_ by someone other than the designa
 
 > Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](../../sirt/engaging-security-on-call).
 >
-> Red Team operations provide an opportunity to practice detecting and responding to real-world attacks, and revealing an operation early might mean we miss out on that opportunity. Because of this, we have a policy to neither confirm nor deny whether an activity belongs to us. You can read more about this policy here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
+> Red Team operations provide an opportunity to practice detecting and responding to real-world attacks, and revealing an operation early might mean we miss out on that opportunity. Because of this, we have a policy to neither confirm nor deny whether an activity belongs to us. You can read more about this policy here: [[.](/handbook/security/security-operations/red-team/how-we-operate/./#is-this-the-red-team)](/handbook/security/security-operations/red-team/how-we-operate/./#is-this-the-red-team).
 
 ### How others should respond to this question
 
 Because we want to treat all activity as potentially malicious, anyone else receiving this question should also use a consistent response. Feel free to use your own words. The following can be a guide:
 
-> We want to treat any suspicious activity as potentially malicious. Let's continue following our normal procedures to report and investigate this. Any Red Team operation has controls in place to keep things from escalating too far. You can read more about this here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
+> We want to treat any suspicious activity as potentially malicious. Let's continue following our normal procedures to report and investigate this. Any Red Team operation has controls in place to keep things from escalating too far. You can read more about this here: [[.](/handbook/security/security-operations/red-team/how-we-operate/./#is-this-the-red-team)](/handbook/security/security-operations/red-team/how-we-operate/./#is-this-the-red-team).
 
 If the person receiving this question happens to be a Security Director or a trusted participant in an ongoing stealth operation, they can then use established channels to communicate with the Red Team.

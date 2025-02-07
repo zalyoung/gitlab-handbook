@@ -77,4 +77,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Candidates will then be invited to schedule separate two 45 minute interviews with cross-functional team members
 - Successful candidates will subsequently be made an offer via email
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).

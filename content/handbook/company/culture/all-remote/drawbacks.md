@@ -15,9 +15,9 @@ In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical
 
 ## The difference between all-remote and remote-first
 
-[All-remote]({{< ref "stages#9-all-remote" >}}) is a work arrangement in which employees do not commute to a central place of work because there are no company-owned offices.
+[All-remote](/handbook/company/culture/all-remote/stages#9-all-remote) is a work arrangement in which employees do not commute to a central place of work because there are no company-owned offices.
 
-[Remote-first]({{< ref "stages#7-remote-first" >}}) typically means there is a physical workplace of some kind available to employees who need or prefer a traditional office space outside of the home. However, these spaces are not always company-owned, they could be a shared workspace, coffee shop, or public library.
+[Remote-first](/handbook/company/culture/all-remote/stages#7-remote-first) typically means there is a physical workplace of some kind available to employees who need or prefer a traditional office space outside of the home. However, these spaces are not always company-owned, they could be a shared workspace, coffee shop, or public library.
 
 Remote-first organizations optimize their company for remote by creating documentation, policies, and [workflows](/handbook/company/culture/all-remote/how-to-work-remote-first/) that assume 100% of the organization is remote.
 
@@ -75,7 +75,7 @@ It can be hard to separate your personal and work life. It's important to encour
 
 **Solutions**
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s](/handbook/leadership/1-1/).
 - All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [impact (as opposed to activity) are measured](/handbook/values/#measure-impact-not-activity). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout), and to be mindful of the last time a team member [took time off from work](/handbook/people-group/paid-time-off/#paid-time-off).
 
@@ -157,7 +157,7 @@ It's not easy to separate work and personal life when working remote. It's impor
 
 **Solutions**
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s](/handbook/leadership/1-1/).
 - Focus on [impact (as opposed to activity)](/handbook/values/#measure-impact-not-activity).
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout), and to be mindful of the last time a team member [took time off from work](/handbook/people-group/paid-time-off/#paid-time-off).
 - Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).

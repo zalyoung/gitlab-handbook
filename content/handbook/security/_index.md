@@ -107,23 +107,23 @@ To reflect this, we have structured the Security Division around four key tenets
 
 #### Secure the Product - The Product Security Department
 
-The [Product Security Department]({{< ref "product-security" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Infrastructure Security, and our HackerOne bug bounty program.
+The [Product Security Department](/handbook/security/product-security/) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Infrastructure Security, and our HackerOne bug bounty program.
 
 The term "Product" is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
 
 #### Protect the Company - The Security Operations Department
 
-[Security Operations Department]({{< ref "security-operations" >}}) teams are primarily focused on protecting GitLab the business and GitLab's platform. This encompasses protecting company property as well as to prevent, detect and respond to risks and events targeting the business and our platform. This department includes the Security Incident Response Team (SIRT) and the Trust and Safety team.
+[Security Operations Department](/handbook/security/security-operations/) teams are primarily focused on protecting GitLab the business and GitLab's platform. This encompasses protecting company property as well as to prevent, detect and respond to risks and events targeting the business and our platform. This department includes the Security Incident Response Team (SIRT) and the Trust and Safety team.
 
 These functions have the responsibility of shoring up and maintaining the security posture of GitLab's platform to ensure enterprise-level security is in place to protect our new and existing customers.
 
 #### Lead with Data - The Threat Management Department
 
-[Threat Management Department]({{< ref "threat-management" >}}) teams are cross-functional. They are responsible for collaborating across the Security Division to identify, communicate, and remediate threats or vulnerabilities that may impact GitLab, our Team Members or our users and the community at large.
+[Threat Management Department](/handbook/security/threat-management/) teams are cross-functional. They are responsible for collaborating across the Security Division to identify, communicate, and remediate threats or vulnerabilities that may impact GitLab, our Team Members or our users and the community at large.
 
 #### Assure the Customer - The Security Assurance Department
 
-The [Security Assurance Department]({{< ref "security-assurance" >}}) is comprised of the teams noted above. They target Customer Assurance projects among their responsibilities. This reflects the need for us to provide resources to our customers to assure them of the security and safety of GitLab as an application to use within their organisation and as a enterprise-level SaaS. This also involves providing appropriate support, services and resources to customers so that they trust GitLab as a Secure Company, as a Secure Product, and Secure SaaS
+The [Security Assurance Department](/handbook/security/security-assurance/) is comprised of the teams noted above. They target Customer Assurance projects among their responsibilities. This reflects the need for us to provide resources to our customers to assure them of the security and safety of GitLab as an application to use within their organisation and as a enterprise-level SaaS. This also involves providing appropriate support, services and resources to customers so that they trust GitLab as a Secure Company, as a Secure Product, and Secure SaaS
 
 #### Protect the Organization - Corporate Security
 
@@ -302,8 +302,8 @@ When opening issues, please follow the [Creating New Security Issues]({{% ref "e
 
 #### Other Resources for GitLab Team Members
 
-- [Security Best Practices]({{< ref "." >}}), using 1Password and similar tools, are documented
-  on their own [security best practices page]({{< ref "." >}}).
+- Security Best Practices, using 1Password and similar tools, are documented
+  on their own security best practices page.
 - [Secure Coding Training](/handbook/security/secure-coding-training/).
 - GitLab.com [data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy).
 - GitLab Internal Acceptable Use [Policy](/handbook/people-group/acceptable-use-policy/).

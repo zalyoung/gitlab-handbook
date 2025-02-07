@@ -170,7 +170,7 @@ At this time the individual Growth teams split into their groups to create and w
 
 ### Create and deliver issues
 
-Acquisition
+[Acquisition](/handbook/engineering/development/growth/acquisition)
 
 * [Test simplified user registration page](https://gitlab.com/gitlab-org/growth/engineering/issues/20) + [Design progress](https://gitlab.com/gitlab-org/growth/engineering/issues/20/designs)
 * [Update .com paid signup process](https://gitlab.com/gitlab-org/growth/product/issues/87)

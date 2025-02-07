@@ -7,7 +7,7 @@ description: "Workflow detailing how and when to verify account ownership includ
 
 ## Overview
 
-This workflow covers how a user can provide account verification. While the workflow focuses on disabling [Two-factor Authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) (2FA) on a GitLab.com account, it should be used for any [account changes]({{< ref "account_changes.md" >}}).
+This workflow covers how a user can provide account verification. While the workflow focuses on disabling [Two-factor Authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) (2FA) on a GitLab.com account, it should be used for any [account changes](/handbook/support/workflows/account_changes).
 
 2FA removal and other account actions can only be completed if the [workflow](#workflow) below is successful.
 
@@ -68,7 +68,7 @@ Only use the [`Support::SaaS::Gitlab.com::2FA::2FA Challenges` macro](https://gi
 A SaaS user must meet **one of** the following conditions to be eligible for a 2FA reset.
 
 1. The user occupies a seat in a paid group on GitLab.com, or a top-level group owner intends to add the user to the paid group.
-1. The user is an [Enterprise User]({{< ref "gitlab-com_overview.md#enterprise-users" >}}).
+1. The user is an [Enterprise User](/handbook/support/workflows/gitlab-com_overview#enterprise-users).
 1. The user is the primary billing contact on a current invoice for a SaaS purchase.
 1. GitLab team member (account managers, CSMs, or others) collaborate with the holder of this account in an account management project.
 1. The user account is required for SSO access to Customers Portal to manage a paid subscription - see: [Conditions for 2FA Reset when account is used to access Customers Portal](#conditions-when-account-is-used-to-access-customers-portal).
@@ -90,7 +90,7 @@ The table below provides a summary of the available verification options based o
 | Paid User | Other member of same paid group | Target user passes challenges on own account |  | Communication is direct from the target user who must be CC'd on ticket. |
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
 
-See the [Enterprise User section]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) on how to identify if a user is an Enterprise User.
+See the [Enterprise User section](/handbook/support/workflows/gitlab-com_overview#enterprise-users) on how to identify if a user is an Enterprise User.
 
 #### Conditions when account is used to access Customers Portal
 
@@ -111,11 +111,11 @@ If you need a basis for a response where you send the challenges, or in a 2FA ti
 
 > **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response. You can provide some additional guidance, such as "please provide the exact date and time of the commit, not just an approximate one".
 
-1. To verify the challenge answers, use [chatops]({{< ref "chatops.md" >}}), the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
+1. To verify the challenge answers, use [chatops](/handbook/support/workflows/chatops), the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
 1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
    - [Specific conditions are required to be considered for 2FA resets](#step-1-checking-user-eligibility-2fa-requests-only).
    - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
-   - If a group owner is answering on an [enterprise user's]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) behalf, see the [Account verification matrix](#account-verification-matrix) for which account to evaluate the answers against. Even if the Enterprise user is not a current member of the paid namespace, the data classifcation is RED.
+   - If a group owner is answering on an [enterprise user's](/handbook/support/workflows/gitlab-com_overview#enterprise-users) behalf, see the [Account verification matrix](#account-verification-matrix) for which account to evaluate the answers against. Even if the Enterprise user is not a current member of the paid namespace, the data classifcation is RED.
 1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`.
 1. **If the verification failed**: A peer review is optional, and you may opt to [offer more challenges to the user](#step-4b-user-fails-to-prove-account-ownership).
 1. *Peer reviewer:* In case you disagree, leave an internal note on the ticket stating your thoughts on what the risk factor should be and reply to the Slack conversation for further discussion. If you agree, move to [the next section](#step-4a-user-successfully-proves-account-ownership) on what to do if successful.
@@ -168,7 +168,7 @@ If a reply is received within 7 days, account for it in the Risk Factor Workshee
 
 This section is typically done by the peer reviewer. If needed, the peer reviewer (or approving manager) may leave an approval note, in which case the original reviewer will perform the actions.
 
-1. For situations other than 2FA, please see [Account Changes workflow]({{< ref "account_changes.md" >}}).
+1. For situations other than 2FA, please see [Account Changes workflow](/handbook/support/workflows/account_changes).
 1. For disabling 2FA: If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
       1. Under the account tab, click `Edit`, add an [Admin Note](/handbook/support/workflows/admin_note/), and save.
       1. On the account tab, click on `Disable 2FA`.
@@ -303,4 +303,4 @@ Peer review is **not** required. You may make the change yourself.
 
 ## Account Ownership Changes
 
-This section has been [moved to the Account Changes workflow]({{< ref "account_changes.md#account-ownership-changes" >}}).
+This section has been [moved to the Account Changes workflow](/handbook/support/workflows/account_changes#account-ownership-changes).
