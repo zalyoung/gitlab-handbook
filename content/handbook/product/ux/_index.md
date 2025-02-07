@@ -116,6 +116,14 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 
 The [UX Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh26fha3e4mvhlrefusb619k%40group.calendar.google.com) (*internal only*) is the SSOT for our team meetings. You can find the details for UX calls, UX Forum, and other team meetings here. These meetings are open to everyone in GitLab. Anyone in the UX department can add events to the Google Calendar. Managers and above can make changes and manage sharing, while ICs can make changes to events. Please reach out in the `#ux_leadership` Slack channel with any questions or requests.
 
+### UX All Hands
+
+The UX All Hands meeting takes place every six weeks, with two sessions to accommodate both EMEA/AMER and APAC/AMER-friendly time zones.
+
+The purpose is to share company updates, stay connected, and receive feedback.
+
+The entire UX department is invited, though anyone at GitLab is welcome to attend and contribute to the [All Hands agenda](https://docs.google.com/document/d/1G52AWUbhrzPqihifeUpp0Q7vb_OChSC-iOKphUMsndI/edit?tab=t.0) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
+
 ### Retrospectives
 
 After each release, we have a company retrospective call in which we discuss what went well, what went wrong, and what we can improve for the next release.
