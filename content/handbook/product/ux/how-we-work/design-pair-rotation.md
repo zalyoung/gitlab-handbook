@@ -44,7 +44,7 @@ This is the rotation schedule for [FY26 Q1 and Q2](/handbook/finance/#fiscal-yea
 | Chad Lavimoniere  | Austin Regnery         |
 | Taylor Vanderhelm | Mark Unthank           |
 | Graham Bacheler   | Gina Doyle             |
-| Nicolle Merrill   | Illonah Pelaez         |
+| Nicolle Merrill   | Ilonah Pelaez         |
 | Alyssa Trinh      | Michael Le             |
 | Ian Gloude        | Sascha Eggenberger     |
 | Michael Fangman   | Timothy Noah           |
