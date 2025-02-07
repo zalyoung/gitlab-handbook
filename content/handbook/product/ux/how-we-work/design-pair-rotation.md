@@ -37,14 +37,13 @@ This is the rotation schedule for [FY26 Q1 and Q2](/handbook/finance/#fiscal-yea
 | Lina Fowler       | Emily Bauman           |
 | Dan Mizzi-Harris  | Torian Parker          |
 | Nick Leonard      | Jesse Hoek             |
-| Amelia Bauerly    | Austin Regnery            |
+| Amelia Bauerly    | Austin Regnery         |
 | Camellia Yang     | Jeremy Elder           |
 | Becka Lippert     | Pedro Moreira da Silva |
 | Alex Fracazo      | Sunjung Park           |
-| Chad Lavimoniere  | Austin Regnery         |
+| Chad Lavimoniere  | Michael Le             |
 | Taylor Vanderhelm | Mark Unthank           |
-| Graham Bachelder   | Gina Doyle             |
-| Nicolle Merrill   | Ilonah Pelaez         |
-| Alyssa Trinh      | Michael Le             |
-| Ian Gloude        | Sascha Eggenberger     |
-| Michael Fangman   | Timothy Noah           |
+| Graham Bachelder  | Timothy Noah           |
+| Nicolle Merrill   | Ilonah Pelaez          |
+| Alyssa Trinh      | Gina Doyle             |
+| Ian Gloude        | Sascha Eggenberger, Michael Fangman     |
