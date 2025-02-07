@@ -83,7 +83,7 @@ When a customer requests a subscription extension, follow the steps below based 
         - Inform the customer that such requests have to be channeled through sales and provide them with their AE's email address before closing the ticket.
         - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
     **SMB Customers:**
-        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](../../../sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
         - Provide the Salesforce (SFDC) ticket ID to the customer.
         - Close the ticket.
 
@@ -142,7 +142,7 @@ Plan changes should **never** be done manually except in the following cases:
 
 Plan changes on a paid non-trial namespace should be done through a subscription purchase.
 
-If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/#3-other-legal-requests) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
+If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/issue-tracker-workflows/) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
 
 ### Downgrading to a free plan
 
