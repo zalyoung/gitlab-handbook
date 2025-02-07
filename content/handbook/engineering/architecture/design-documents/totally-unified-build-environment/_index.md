@@ -182,8 +182,8 @@ close the component epic.
 ## Key metrics
 
 - Container images required to build GitLab.
-    - Total number of build environment containers reduced by 50%.
-    - Total bytes retained in the build container registry reduced by 30%.
+  - Total number of build environment containers reduced by 50%.
+  - Total bytes retained in the build container registry reduced by 30%.
 - Reduce Distribution time spent on version management by 80%.
 - Reduce time spent by non-Distribution engineers on build environment
   maintainence to zero.
@@ -192,10 +192,10 @@ close the component epic.
 - Reduce normal operations engineer time spent on build environment
   generation to zero.
 - Overall increased developer happiness.
-    - Do updates feel timely?
-    - Do updates increase feature delivery time?
-    - Does time spent on update validation block timely feature delivery?
-    - Do updates fit within the scheduled workflow?
+  - Do updates feel timely?
+  - Do updates increase feature delivery time?
+  - Does time spent on update validation block timely feature delivery?
+  - Do updates fit within the scheduled workflow?
 
 ## Alternatives considered
 
@@ -242,8 +242,8 @@ This design:
 ## Timeline
 
 - Draft high level design documents. (3 weeks)
-    - Impact proposal.
-    - High level process flow.
+  - Impact proposal.
+  - High level process flow.
 - High level design document review. (1.5 weeks)
 - Create subcomponent design documents. (3 weeks)
 - Subcomponent design document review. (1.5 weeks)

@@ -1,9 +1,7 @@
 ---
-status: accepted
-date: 2024-07-01
-authors:
-    - @rmarshall
-approvers:
+title: 'Totally Unified Build Environment ADR 001: Use architectural decision records'
+owning-stage: "~devops::systems"
+toc_hide: true
 ---
 
 ## Decision

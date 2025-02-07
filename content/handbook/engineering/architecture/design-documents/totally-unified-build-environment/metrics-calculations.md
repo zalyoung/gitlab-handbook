@@ -1,5 +1,5 @@
 ---
-title: "Totally Unified Build Environment"
+title: "Totally Unified Build Environment - Metrics Calculations"
 status: ongoing
 creation-date: "2025-02-06"
 authors: [ "@rmarshall" ]
@@ -9,8 +9,6 @@ owning-stage: "~devops::systems"
 participating-stages: []
 toc_hide: true
 ---
-
-# Totally Unified Build Environment metrics calculations
 
 ## Container size reduction calculation
 
@@ -89,7 +87,7 @@ Assume:
 The Totally Unified Build Environment eliminates all startup time for a build
 dependency update. This translates into this calculation:
 
-```
+```text
 (4 authors + 10 reviewers) = 14 engineers
 32 productive hours per engineer at 20 percent = 6.4 hours per engineer
 14 engineers * 6.4 hours per engineer = 89.6 engineering hours per update
@@ -120,8 +118,8 @@ Assumptions:
 
 | Update Type   | Calculation                                                                                              |
 |---------------|----------------------------------------------------------------------------------------------------------|
-| Major release | ((12 projects * 3 engineers) * (32 hours * .25)) = (36 engineers) * (8 hours) = 288.0 engineering hours  |
-| Patch release | ((12 projects * 3 engineers) * (32 hours * .1)) = (36 engineers) * (3.2 hours) = 115.2 engineering hours |
+| Major release | ((12 projects x 3 engineers) x (32 hours x .25)) = (36 engineers) x (8 hours) = 288.0 engineering hours  |
+| Patch release | ((12 projects x 3 engineers) x (32 hours x .1)) = (36 engineers) x (3.2 hours) = 115.2 engineering hours |
 
 Part of the percentage cost falls into these categories:
 

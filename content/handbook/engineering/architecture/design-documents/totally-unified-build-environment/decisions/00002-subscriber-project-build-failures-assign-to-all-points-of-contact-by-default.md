@@ -1,12 +1,7 @@
 ---
-status: accepted
-date: 2024-08-07
-authors:
-    - @rmarshall
-approvers:
-    - @balasankarc
-    - @deriamis
-    - @WarheadsSE
+title: 'Totally Unified Build Environment ADR 002: Assign build failures to all points of contact by default'
+owning-stage: "~devops::systems"
+toc_hide: true
 ---
 
 ## Decision
