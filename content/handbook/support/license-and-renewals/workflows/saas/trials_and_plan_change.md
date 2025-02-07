@@ -15,22 +15,9 @@ category: GitLab.com subscriptions & purchases
 
 GitLab.com Premium customers who want to trial SaaS Ultimate have two options to do so:
 
+1. Customers can self-service an Ultimate trial, including Duo Enterprise, on top of their existing paid Premium plan for 60 days from a CTA button on the group's Billing page, see [here in the internal handbook](https://internal.gitlab.com/handbook/product/fulfillment/saas-ultimate-trials/#gitlabcom-ultimate-trial-on-existing-premium-group-details) or the [documentation page](https://internal.gitlab.com/handbook/product/fulfillment/saas-ultimate-trials/#gitlabcom-ultimate-trial-on-existing-premium-group-details) for details
 1. Request an Ultimate trial from [GitLab's public trial page](https://about.gitlab.com/free-trial/?hosted=sass). This will require the customer to set up a new namespace to which to apply the trial. No Sales or Support action will be required.
-1. Temporarily upgrade their existing GitLab Premium subscription to a GitLab Ultimate Trial.
 
-- As part of the initiative to enable current SaaS Premium customers to trial SaaS Ultimate on their primary namespace, the first iteration implementation now grants L&R Support the capability to temporarily upgrade an existing Premium subscription to an Ultimate trial subscription. To facilitate this process, the customer's Account Executive must use the following instructions:
-
-  - Go to the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/); you must have a [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to use this form.
-  - Under `What is this request concerning`, select `License and Renewal Related Requests` > `GitLab Support Internal Request for Global Customers`.
-  - In the form that appears, under `What type of GitLab Support Internal Request is this for?`, select `SaaS Trial Related` > `Request an Ultimate trial for a customer using a Premium subscription`.
-  - Fill out the required fields and click Submit request. If you need assistance filling out the form, please ask in the `#support_operations` Slack channel.
-
-Once the form has been submitted, the L&R Support Engineer should follow the workflow outlined in the following [video](https://www.youtube.com/watch?v=wJCrh45Ug2Q), which entails:
-
-- Locating the correct `Customer` record by searching `Customers`.
-- Clicking the (i) info button on the customer record.
-- Going to the `Zuora Subscriptions` tab.
-- Selecting the appropriate namespace and pressing the `Apply Ultimate Trial` button.
 
 #### Subscription seats during trials-over-subscription
 
