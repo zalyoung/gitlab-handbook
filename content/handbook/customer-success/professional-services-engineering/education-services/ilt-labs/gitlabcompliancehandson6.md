@@ -4,6 +4,7 @@ description: "This Hands-On Guide demonstrates how to create and view compliance
 ---
 
 > Estimated time to complete: 15 minutes
+
 ## Objectives
 
 Learners will run a few actions in GitLab that show up in the compliance center and view how you could see a framework in action.
@@ -65,4 +66,3 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 ## Suggestions?
 
 If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request!
-
