@@ -233,9 +233,9 @@ At any time an MDF campaign has been cancelled, we want to ensure all programs c
 1. Remove the “Partner Account” and uncheck the
 1. Sync to Vartopia” checkbox
 
-### Fund Request
+### PRM MDF Request
 
-1. Update the Status to `Cancelled` - By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been canceled or denied.
+1. Update the Status to `Cancelled` under the MDF Request Details - By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been canceled or denied.
 
 ### Marketo
 
@@ -259,10 +259,10 @@ This is not applicable to distributors with the exception of Carahsoft.
 
 ### Step 1: Partner submits MDF Claim
 
-#### Salesforce Fund Claim
+#### PRM MDF Claim
 
-1. Partner will attach the POP, Lead List and Invoice in the MDF Claim
-1. Verify the POP, then update the Status to `Approved: POP Received`
+1. Partner will attach the POP and Lead List in the MDF Claim
+1. Verify the POP, then update the Approval Status to `Approved`
 
 ### Step 2: List Import
 
@@ -308,9 +308,9 @@ Check the Status column for details on why the import may have failed.
 
 ### Step 4: Close Remaining Items
 
-#### Salesforce Funds Request
+#### PRM MDF Request
 
-1. Update Status to `Closed - Claim to be paid`
+1. Update Status to `Closed - Claim to be paid` under the MDF Request Details.
 
 #### GitLab Epic
 

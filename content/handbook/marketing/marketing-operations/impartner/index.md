@@ -54,6 +54,19 @@ Should you want to review all your requests, [see section](/handbook/marketing/m
 
 Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you’ll need to create an issue request for support from MktgOps.
 
+#### MDF Request Status
+
+The MDF Request Status can be found in the MDF Request Details section.
+
+- Open - when partner submits Request
+- Approved - when Request is approved
+- Complete (Claim Payment is Paid) - when partner is paid
+- Denied - when Request is denied
+- Cancelled - when Request is cancelled
+
+Statuses that are not used: Approved: POP Received, Closed (Claim to be Paid), CMM Approved.
+
+
 ### Step 3 - MDF Claim Submission
 
 Once the MDF Event End Date has been reached, the Partner will receive reminder notification on the 2nd, 14th and 28th day since the End Date to submit their MDF Claim.
@@ -72,8 +85,16 @@ Once submitted, the Partner will receive a confirmation email indicating that th
 
 When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are infact the right attachment.
 
-- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
-- If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
+- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` (under the MDF Claim Details section) with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
+- If all attachments are received and looks good, the GitLab team member will update the `Approval Status` to `Denied` or `Approved` (under the Claim section).
+
+#### MDF Claim Status
+
+The MDF Claim Status you are to used is under the Claims section, called `Approval Status`.
+
+- Open - when partner submits Claim
+- Approved - when POP is approved
+- Denied - when POP is denied
 
 ## Cancelled MDF Request
 
@@ -110,10 +131,10 @@ Should you wish to have a customized view, following the instructions below.
 1. Set Visibility: "Private - can only be seen by me"
 1. In Manage Filters, Click on `+Add`
           
-      1. Field: `Activity Location - Region`
+      1. Field: `Channel Marketing Manager - Name`
       1. Operator: `equals`
       1. Type: `Value`
-      1. Value: Select the region that applies to you
+      1. Value: Select your name
       
 1. In Column Configuration, add any additional fields.
 1. Save and repeat for the other statuses - Approved and Denied.
