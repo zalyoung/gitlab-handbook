@@ -116,11 +116,11 @@ The primary goal of the Deployments team is to provide everything to do with rol
 
 The following people are members of the Delivery:Releases Team:
 
-{{< team-by-departments-with-manager departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE" manager="mbursi" >}}
+{{< team-by-departments departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE" manager-role="Engineering Manager, Delivery:Releases" >}}
 
 The following people are members of the Delivery:Deployments Team:
 
-{{< team-by-departments-with-manager departments="GitLab Delivery:Deploy BE,GitLab Delivery:Deploy SRE" manager="dave-smith" >}}
+{{< team-by-departments departments="GitLab Delivery:Deploy BE,GitLab Delivery:Deploy SRE" manager-role="Engineering Manager, Reliability Engineering" >}}
 
 ## Team counterparts
 
