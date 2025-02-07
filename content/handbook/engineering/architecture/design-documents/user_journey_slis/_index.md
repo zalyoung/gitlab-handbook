@@ -71,6 +71,8 @@ The core proposal consists of three main components:
 
 ## Design and implementation details
 
+### Synchronous workflow
+
 ```mermaid
 flowchart LR
     User@{shape: circle}
@@ -110,6 +112,37 @@ flowchart LR
     s2 --emit event--> journeyService
 
     Runbooks --pull spec--> App
+```
+
+### Batched Workflow
+
+```mermaid
+sequenceDiagram
+    participant Git as Git Client
+    participant WH as Workhorse
+    participant Journey as Journey Service
+    participant Web as Web Service
+
+    Note over Git, Web: First Request
+    Git->>WH: Git HTTP Request
+    WH-->>Git: Response 1
+    Note over WH: Start collecting batch
+
+    Note over Git, Web: More Requests...
+    Git->>WH: Git HTTP Request
+    WH-->>Git: Response 2
+    Git->>WH: Git HTTP Request
+    WH-->>Git: Response 3
+
+    Note over Git,Web: Last Request
+    Git->>WH: Git HTTP Request
+    WH-->>Git: Response N
+
+    Note over WH: Batch threshold met
+    WH->>Journey: Start journey with batch range
+    WH->>Web: Forward batched requests
+    Web-->>WH: Process batch response
+    WH->>Journey: End journey
 ```
 
 ### Journey Definition Spec
@@ -237,6 +270,23 @@ HTTP/1.1 422 Unprocessable Entity
 # 2. Server always returns its own timestamp
 # 3. Feature category must match the one in journey definition YAML
 # 4. All components must provide journey_type to validate against definitions
+```
+
+Batched operations collect the `start` and `end` timestamp of batched requests:
+
+```json
+{
+  "journey_id": "f6587c32-6e2f-4586-a82e-8d73c335e8cd",
+  "journey_type": "http_request",
+  "component": "workhorse",
+  "batch_range": {
+    "start": "2025-02-07T10:00:00.123Z",
+    "end": "2025-02-07T10:00:05.678Z"
+  },
+  "context": {
+    "feature_category": "source_code_management"
+  }
+}
 ```
 
 The storage must support:
