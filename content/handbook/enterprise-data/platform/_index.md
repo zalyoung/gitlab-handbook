@@ -352,6 +352,7 @@ This list of functional roles gives a high level understanding of what the role 
 | `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |
 | `snowflake_analyst` | Access to `PROD` data in Snowflake, EDM schema and workspaces | No |
 | `snowflake_analyst_safe` | Access to `PROD` data in Snowflake, EDM schema and workspaces including SAFE data | Yes |
+| `sensitive_pii_data_viewer` |  Access to all sensitive fields in person and contact data mastery models. | No |
 
 #### Object Roles
 
