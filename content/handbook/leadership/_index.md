@@ -68,7 +68,7 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 
 ## Giving Feedback
 
-Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings]({{< ref "1-1" >}}). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
+Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings](/handbook/leadership/1-1/). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
 1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations](/handbook/leadership/crucial-conversations/) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
@@ -103,7 +103,7 @@ evaluate the feedback and decide how to proceed.
 
 ## 1-to-1
 
-Please see [1-1]({{< ref "1-1" >}}).
+Please see [1-1](/handbook/leadership/1-1/).
 
 ## Skip level interactions
 
@@ -322,7 +322,7 @@ When you give leadership training please [screen share the handbook instead of c
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security](/handbook/security/security-shadow/).
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow), and [Security](/handbook/security/security-shadow/).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
 1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)
 1. Join a monthly [Leadership Chats](/handbook/people-group/learning-and-development/manager-challenge/leadership-chats/) talk to learn from people leaders across the organization.

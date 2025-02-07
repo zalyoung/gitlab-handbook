@@ -254,7 +254,7 @@ Some general guidance and tips for the conversations can be found below:
 - The overall aim is providing meaningful feedback. Don't allow the feedback meeting (document and conversation) to (d)evolve into a "todo" list.
 - Managers should send the results within 48 hours of the feedback cycle closing so they can prepare and come to the meeting with questions and discussion points.
 - Make sure you (Manager) are also prepared for the discussion, write down some notes and key points you want to make. What are the major themes coming out of the feedback?
-- Make time to talk about the future [career development]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) and development opportunities.
+- Make time to talk about the future [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1) and development opportunities.
 - This should be a conversation - remember to be an active listener. As a manager, you can help your team member process and understand the feedback, helping to avoid over/under reactions or defensiveness. Ask questions such as:
     1. Is there feedback that you received that is surprising or upsetting to you?
     1. After reading your feedback, what are the areas you would like to focus on and how can I help?

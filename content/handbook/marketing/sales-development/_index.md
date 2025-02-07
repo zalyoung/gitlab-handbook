@@ -1067,6 +1067,19 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 - “Can you rewrite that in a more casual tone?”
 - “I do not like that message you generated.Can you give me 3more options and explain the pros and cons of each?”
 
+#### Claude Usage Guide
+
+| Use Claude For  | Do Not Use Claude for|
+|---------------|---------------|
+|Editing your emails (ex. make this shorter) | Any Questions about GitLab Features|
+| Any Questions about GitLab Features|Account Research (due to April Cut off)|
+| Organizing rough meeting notes| Competition Research/Questions |
+| Helping you organize your weekly schedule| Crafting Outbound Emails from Scratch|
+| Translate flows (Always review after) | Specific claims about how GitLab solves industry problems|
+| Grammar and tone checks | Grammar and tone checks |
+| Improving email subject lines| ROI for Specific Industries |
+| Summarize large bodies of text | Details about Security Features |
+
 ### ZoomInfo
 
 [Zoominfo](https://www.zoominfo.com/) provides our Sales Development Representatives and Account Executives with access to hundreds of thousands of prospects and their contact information, company information, tech stack, revenue, and other relevant data. Individual records or bulk exports can be imported into Salesforce using extensive search criteria such as job function, title, industry, location, tech stack, employee count, and company revenue. More information can be found on the Marketing Operations [Zoominfo handbook page.](/handbook/marketing/marketing-operations/zoominfo/)

@@ -301,7 +301,10 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates a new project in Asana by following the below steps:
   - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
-  - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
+    - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
+    - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
+- When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
+  - An integration with our [Google calendar](/handbook/marketing/field-marketing/#google-calendar-links) is coming soon, but for now, the FMC will still need to manually add the event to the appropriate Google calendar by completing that specific task provided in the Asana template for each event.
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
 - FMC to add the Asana project link to the top of the GitLab issue, as well as adding the GitLab issue link to the Asana project in the Overview
@@ -563,7 +566,7 @@ It is the FMM's responsibility to not only ship assets to events, but to also en
 
 AMER Warehouse
 Attn: GitLab AMER FM Store - c/o Kerry Phan
-Brilliant
+[Brilliant](/handbook/marketing/marketing-operations/brilliant)
 1605 S Waukegan Rd
 Waukegan, IL 60085
 415-980-4600.

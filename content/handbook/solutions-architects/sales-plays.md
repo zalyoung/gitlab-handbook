@@ -69,7 +69,7 @@ Consider the following questions:
 
 **Expected Outcome**
 
-Discovery
+[Discovery](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/discovery/)
 
 **Owner**
 

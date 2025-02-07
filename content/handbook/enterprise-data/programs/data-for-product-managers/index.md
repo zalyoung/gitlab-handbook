@@ -125,7 +125,7 @@ Here is an example of a query that provides metric-level reporting by month and 
 {{% details summary="Service Ping Metric by Month and Deployment Type"%}}
 
 ``` sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   ping_created_date_month,
   ping_deployment_type,
   metrics_path,
@@ -164,7 +164,7 @@ Here is an example of a query that will generate GitLab.com UMAU by day:
 {{% details summary="GitLab.com UMAU by Day"%}}
 
 ``` sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   event_date,
   COUNT(DISTINCT dim_user_id) AS umau
 FROM common_mart.mart_event_user_daily
@@ -182,7 +182,7 @@ Here is an example of a query that will generate paid GitLab.com GMAU by month:
 {{% details summary="Paid GitLab.com GMAU by Month"%}}
 
 ``` sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   event_calendar_month,
   group_name,
   user_count
@@ -241,7 +241,7 @@ Here is an example of a query that will look at the top 100 Snowplow events from
 {{% details summary="Top 100 Snowplow Events"%}}
 
 ``` sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   event_action,
   COUNT(*) AS event_count
 FROM common_mart.mart_behavior_structured_event
@@ -259,7 +259,7 @@ Here is an example of a query that will look at top 100 pages viewed in the last
 {{% details summary="Top 100 Pages Viewed"%}}
 
 ``` sql
-SELECT
+[SELECT](/handbook/support/partnerships/select)
   page_url,
   COUNT(*) AS page_view_count
 FROM common.fct_behavior_website_page_view

@@ -64,7 +64,7 @@ A remote leader must be intuitive and able to adapt to the preferences of their 
 
 Being a remote manager means building a support system for your team, while at the same time striking a balance to hold them accountable. Building trust and maintaining transparency, frequent and open communication, and ensuring a safe working environment are critical skills.
 
-Use weekly [1-1 meetings]({{< ref "1-1" >}}) to discuss business topics, challenges, and focus areas to build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no business is discussed. Listening and sharing during these discussions can facilitate more open conversations. Consider structuring team meetings with a social component where team members can share the personal side of themselves.
+Use weekly [1-1 meetings](/handbook/leadership/1-1/) to discuss business topics, challenges, and focus areas to build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no business is discussed. Listening and sharing during these discussions can facilitate more open conversations. Consider structuring team meetings with a social component where team members can share the personal side of themselves.
 
 ## Tips for being a great remote manager
 
@@ -195,7 +195,7 @@ Remote settings can cause a breakdown in communication skills if organizations a
 
 It can be hard to separate personal and work life. It's important to model and encourage boundaries.
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s](/handbook/leadership/1-1/).
   - All-remote companies should consider putting focus on [impact (as opposed to activity)](/handbook/values/#measure-impact-not-activity). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
   - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout), and to be mindful of the last time a team member [took time off from work](/handbook/people-group/paid-time-off/#paid-time-off).
 
@@ -203,7 +203,7 @@ It can be hard to separate personal and work life. It's important to model and e
 
 ## The importance of video chats
 
-Not only do we get to know our coworkers better by seeing them in real time during video chats or Zoom [calls]({{< ref "tools-and-tips#zoom" >}}), we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
+Not only do we get to know our coworkers better by seeing them in real time during video chats or Zoom [calls](/handbook/tools-and-tips/#zoom), we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 
 ## Manage process
 
@@ -268,7 +268,7 @@ Great remote managers will proactively ask about one's [career goals](/handbook/
 
 [Research from Headlamp](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/) shows that 82% of workers said they would be more engaged in their work if their managers regularly discussed their career aspirations but only 16% of employees reported having those conversations on a regular basis. By having [regular conversations about career advancement](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/#chapter5) with your remote team, you can build a more connected and engaged workforce.
 
-GitLab favors more frequent conversations on this topic — even during [routine 1-1 conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) — as opposed to waiting until an annual review cycle.
+GitLab favors more frequent conversations on this topic — even during [routine 1-1 conversations](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1) — as opposed to waiting until an annual review cycle.
 
 ## Remove roadblocks to improve productivity
 

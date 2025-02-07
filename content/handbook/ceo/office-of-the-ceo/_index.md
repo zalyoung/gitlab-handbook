@@ -306,11 +306,11 @@ Once a project or initiative to Shadow has been identified and the team member d
 ## Quick Links and Fun Facts
 
 - [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
-- [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
-- [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
-- [Performance Indicators]({{< ref performance-indicators >}})
+- [Strategy & Operations Job Family](/job-families/chief-executive-officer/strategy-and-operations)
+- [GitLab Strategy and Operations (Workplace) Team Handbook](/handbook/ceo/office-of-the-ceo/workplace)
+- [Performance Indicators](/handbook/ceo/office-of-the-ceo/performance-indicators)
 - [GitLab Team Project](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team)
-- [Team READMEs]({{< ref readmes >}})
+- [Team READMEs](/handbook/ceo/office-of-the-ceo/readmes/)
 
 ## Contact Us
 

@@ -58,14 +58,8 @@ To serve as Support Manager DRI for an Account Escalation, use the following ste
 
     **NOTE:** We are currently trialing an [Escalations-focused Support Engineer role](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4545#designated-escalations-focused-engineers-for-this-trial) in AMER under [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4545). Please reach out to the designated engineer(s) as a first point of contact either to step in as the technical lead or to provide technical guidance and support to the Lead Support Engineer.
 
-- Toggle the escalation state of the organization in Zendesk using the
-  [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/),
-  (the request will make you a tracking issue, but it is completely automated).
-  - The `What is this request concerning?` option should be
-    `Modifications to a Zendesk Global Organization` and the
-    `What kind of modification are you looking to make?` should be
-    `Toggle the escalation status of an organization`
-  - This tag will [add a NOTE to the organization notes](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/uploads/c9a3e2843eff23572100b53cfca0da0c/Screen_Shot_2022-09-07_at_4.46.01_PM.png) signifying that the account is in an escalated state.
+- The organization escalation status is synced directly from the Salesforce account. This means to have an organization be marked as escalated, it must be represented as such within the corresponding Salesforce account.
+- Being in an escalated state will result in the orgnaization notes on a ticket including a message about it (note this only applies to tickets created while an organization is in an escalated state).
 
 ### Step 1: Lead Support Engineer Assignment
 
@@ -127,13 +121,7 @@ Before closing the Account Escalation:
 
 - Review the steps listed in the [Customer Success Escalation Page](/handbook/customer-success/csm/escalations/#closing-the-escalation) and collaborate as needed to complete the closing steps.
 
-- Toggle the escalation state of the organization in Zendesk using the
-  [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/),
-  (the request will make you a tracking issue, but it is completely automated).
-  - The `What is this request concerning?` option should be
-    `Modifications to a Zendesk Global Organization` and the
-    `What kind of modification are you looking to make?` should be
-    `Toggle the escalation status of an organization`
+- The organization escalation status is synced directly from the Salesforce account. This means to have an organization be unmarked as escalated, it must be represented as such within the corresponding Salesforce account.
   - The `org_in_escalated_state` tag will no longer be applied to future tickets opened by the customer. The organization notes will no longer display the escalated heading 1 note.
 
 ### Step 6: Retrospective

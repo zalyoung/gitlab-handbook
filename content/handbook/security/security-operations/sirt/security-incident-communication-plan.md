@@ -11,7 +11,7 @@ GitLab takes the security of our clients' information extremely seriously, regar
 
 ## Scope
 
-This communication response plan maps out the who, what, when, and how of GitLab in notifying and engaging with internal stakeholders and external customers on security incidents. **This plan of action covers the strategy and approach for security events which have a 'high' or greater impact as outlined in [GitLab's risk scoring matrix]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).**
+This communication response plan maps out the who, what, when, and how of GitLab in notifying and engaging with internal stakeholders and external customers on security incidents. **This plan of action covers the strategy and approach for security events which have a 'high' or greater impact as outlined in [GitLab's risk scoring matrix](/handbook/security/security-assurance/security-risk/storm-program/#risk-factors-and-risk-scoring).**
 
 ## Roles & Responsibilities
 
@@ -37,7 +37,7 @@ For Infrastructure incidents, please follow the [infrastructure incident managem
 
 ## Defining the scope/severity of an incident
 
-The `Security Engineer On-Call` will determine the scope and [severity](/handbook/security/security-operations/sirt/sec-incident-response/#incident-severity) and [potential impact]({{< ref "storm-program#determining-the-impact-of-a-threat-event" >}}) of the security incident. Once the potential impact has been determined, implementation of the appropriate internal and external communications strategy should begin.
+The `Security Engineer On-Call` will determine the scope and [severity](/handbook/security/security-operations/sirt/sec-incident-response/#incident-severity) and [potential impact](/handbook/security/security-assurance/security-risk/storm-program/#determining-the-impact-of-a-threat-event) of the security incident. Once the potential impact has been determined, implementation of the appropriate internal and external communications strategy should begin.
 
 ### Roles and responsibilities in a Security incident
 
@@ -80,7 +80,7 @@ As security practitioners and incident response engineers, our security assuranc
 - **Marketing Operations:** Responsible for sending incident-related email to impacted parties in a security incident.  This group has established a [Marketing emergency response process](/handbook/marketing/emergency-response/#marketing-emergency-response) and is engaged by [creating an incident communication request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications) using the `incident_communications` template, tagging in the assigned timezone's `coverage owner` and posting the issue in the #mktgops channel in Slack.
   - Marketing Ops can send emails through MailGun or Marketo. This group will determine based on the information provided what the best platform is for distribution. If a custom distribution list needs to be created, the data team may need to be involved.
 
-- **Support Team:** Using background information and prepared responses provided by the Security Engineer On Call and Communications Manager On Call, our Support Team will triage and respond to customer communications stemming from the security incident. [Contact the on-call manager via `#spt_leadership` in Slack]({{< ref "internal-support#on-slack" >}}). If it's urgent [page the `Support Manager On-call`](/handbook/support/on-call#engaging-the-on-call-manager) using `/pd-support-manager` command in Slack. To ensure this group has early awareness on security incidents and events they are autotagged as an FYI in the security-external-incident-or-event-response template.
+- **Support Team:** Using background information and prepared responses provided by the Security Engineer On Call and Communications Manager On Call, our Support Team will triage and respond to customer communications stemming from the security incident. Contact the on-call manager via `#spt_leadership` in Slack. If it's urgent [page the `Support Manager On-call`](/handbook/support/on-call/#engaging-the-on-call-manager) using `/pd-support-manager` command in Slack. To ensure this group has early awareness on security incidents and events they are autotagged as an FYI in the security-external-incident-or-event-response template.
 
 - **Developer Relations:** May need to respond to customers and the general public via social channels, as such should be engaged before public-facing materials are released. Any prepared responses or FAQs should be provided to assist with their interactions. Contact this group in `#developer-relations` or any Slack channel by pinging `@devrel-team`. To ensure this group has early awareness on security incidents and events they are autotagged as an FYI in the `security-external-incident-or-event-response` template.
 
@@ -195,7 +195,7 @@ The communications channels and forms that should be used in an incident or even
 - Our most common form of customer response is via direct email communications to affected customers.
 - When a deeper dive response is needed, or to ensure broader coverage on a security incident or event, a blog post may be developed on an urgent basis.
 - See [deeper dive explanations on forms and channels](/handbook/security/security-operations/sirt/security-incident-communication-plan/#potential-channels-for-use-in-a-security-incident) for consideration
-- Communication to [JiHu]({{< ref "jihu-support" >}}) should happen via the [#security-vulnerability](https://gitlab-jh.slack.com/archives/C039R937PAN) channel within the JiHu Slack workspace. GitLab team members Dominic Couture, James Ritchey, Jerome Ng, Mek Stittri and Kevin Chu have access to this channel.
+- Communication to [JiHu](/handbook/ceo/office-of-the-ceo/jihu-support/) should happen via the [#security-vulnerability](https://gitlab-jh.slack.com/archives/C039R937PAN) channel within the JiHu Slack workspace. GitLab team members Dominic Couture, James Ritchey, Jerome Ng, Mek Stittri and Kevin Chu have access to this channel.
 
 ## Helpful templates and runbooks
 

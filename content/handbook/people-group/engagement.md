@@ -556,7 +556,7 @@ For the FY'22 Q4 Pulse Engagement Survey results, we will be leaning into epics 
 
 You can find full detail on the process and guidance [here](/handbook/people-group/engagement/#taking-action).
 
-All links should be added by 2022-01-21 aligned with our [timeline]({{< ref "engagement#fy22-pulse-engagement-survey-timeline" >}}).
+All links should be added by 2022-01-21 aligned with our [timeline](/handbook/people-group/engagement#fy22-pulse-engagement-survey-timeline).
 
 #### Actions taken since the last survey
 

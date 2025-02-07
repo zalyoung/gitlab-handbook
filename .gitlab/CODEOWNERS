@@ -82,7 +82,7 @@
 /content/handbook/company/culture/gitlab-101.md @akramer @streas
 /content/handbook/company/culture/inclusion/ @wendybarnes
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
-/content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sam.white @abuerer
+/content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sarahwaldner @abuerer
 /content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @wendybarnes @mdrussell @terrichu
 /content/handbook/company/culture/inclusion/tmrg-gitlab-gente.md @pmejia @romerg
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
@@ -356,14 +356,14 @@
 /content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp
 /content/handbook/marketing/developer-relations/community-programs/startups-program/ @esalvadorp
 /content/handbook/marketing/developer-relations/contributor-success/ @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
-/content/handbook/marketing/developer-relations/developer-advocacy/ @dnsmichi @johncoghlan @sugaroverflow @warias @csaavedra1 @fjdiaz @iganbaruch
+/content/handbook/marketing/developer-relations/developer-advocacy/ @dnsmichi @johncoghlan @sugaroverflow @waarias @csaavedra1 @fjdiaz @iganbaruch
 /content/handbook/marketing/developer-relations/evangelist-program.md @esalvadorp @johncoghlan
 /content/handbook/marketing/developer-relations/leading-organizations/ @nick_vh
 /content/handbook/marketing/developer-relations/program-resources.md @esalvadorp @johncoghlan
 /content/handbook/marketing/developer-relations/project-management.md @esalvadorp @johncoghlan
 /content/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification.md @nick_vh @johncoghlan
 /content/handbook/marketing/developer-relations/technical-marketing/ @johncoghlan @csaavedra1 @fjdiaz @iganbaruch
-/content/handbook/marketing/developer-relations/workflows-tools/ @dnsmichi @johncoghlan @sugaroverflow @warias
+/content/handbook/marketing/developer-relations/workflows-tools/ @dnsmichi @johncoghlan @sugaroverflow @waarias
 /content/handbook/marketing/digital-experience/ @fqureshi @laurenbarker
 /content/handbook/marketing/emergency-response.md @akramer @rkohnke @amy.waller
 /content/handbook/marketing/events/ @akramer
@@ -387,7 +387,7 @@
 /content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
 /content/handbook/marketing/sales-development/ @akramer @jlarramendy
 /content/handbook/marketing/sales-plays-cicd/ @dsteer
-/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @warias @dsteer
+/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @dsteer
 /content/handbook/marketing/strategy-performance/ @akramer @vhempel
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
@@ -414,10 +414,10 @@
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @warias @dsteer
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @warias @dsteer
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @dsteer
 /content/handbook/marketing/use-cases.md @dsteer
 
 ^[Marketing-Integrated-Marketing]
@@ -445,17 +445,17 @@
 /content/handbook/people-group/general-onboarding/ @mpatel8 @Mowry @alex_venter @anechan @ashjammers @nutaurus
 /content/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /content/handbook/people-group/organizational-change-management.md @wendybarnes @rallen3
-/content/handbook/people-group/paid-time-off.md @lyndemeiers
+/content/handbook/people-group/paid-time-off.md @dgoodgame @teranay @JacquelineG
 /content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
 /content/handbook/people-group/people-compliance/ @cgudgenov
 /content/handbook/people-group/promotions-transfers.md @wendybarnes @mpatel8
 /content/handbook/people-group/pronouns.md @klang @ahanselka @lmcnally1
 /content/handbook/people-group/talent-assessment.md @wendybarnes @glucchesi @pegan @cbednarz
-/content/handbook/people-group/team-member-relations.md @pegan @atisdale
+/content/handbook/people-group/team-member-relations.md @pegan @atisdale @lyndemeiers @dgoodgame @AndreaWalsh
 /content/handbook/people-group/using-gitlab-at-gitlab.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/people-policies/ @emilyplotkin @pegan @wendybarnes
-/content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
-/content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
+/content/handbook/people-policies/leave-of-absence/ @dgoodgame @teranay @JacquelineG @pegan @cgudgenov
+/content/handbook/people-policies/leave-of-absence/us.md @dgoodgame @teranay @JacquelineG @pegan @cgudgenov
 /content/handbook/total-rewards/incentives.md @wendybarnes @mwilkins @rallen3 @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
@@ -512,7 +512,7 @@
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
 /content/handbook/sales/field-communications/gitlab-highspot/ @monicaj
 /content/handbook/sales/field-manager-development.md @ashahrazad1
-/content/handbook/sales/field-operations/ @akramer 
+/content/handbook/sales/field-operations/ @akramer
 /content/handbook/sales/field-operations/channel-operations/ @nscala
 /content/handbook/sales/field-operations/customer-success-operations/ @akramer
 /content/handbook/sales/field-operations/field-enablement/ @aileenlu @monicaj
@@ -660,7 +660,7 @@
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @marin @mbursi
-/content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @jeromezng
+/content/handbook/company/working-groups/software-supply-chain-security.md @sarahwaldner @jeromezng
 
 [values]
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites

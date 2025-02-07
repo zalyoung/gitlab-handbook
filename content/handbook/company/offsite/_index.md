@@ -176,7 +176,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q3 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: September
-1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
+1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
 1. Go-to-market (**GTM**) learnings
 1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year (1.5 hrs)
 1. **Org** design
@@ -184,7 +184,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q4 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: January
-1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets
+1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets
 1. Product **Roadmap** including competitive differentiation
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
 1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
