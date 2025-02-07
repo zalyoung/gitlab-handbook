@@ -6,7 +6,7 @@ job: "Business Systems Analyst - Enterprise Applications PMO"
 
 ### Introduction
 
-Hello! I’m Nico Sandoval. I’m a Business Systems Analyst with the [Enterprise Applications PMO](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/pmo/) team.
+Hello! I’m Nico Sandoval. I’m a Business Systems Analyst with the [Enterprise Applications PMO](//handbook.gitlab.com/handbook/business-technology/enterprise-applications/pmo/) team.
 
 ### About me
 
@@ -30,6 +30,7 @@ I believe in open and direct communication. While I embrace asynchronous communi
 ### What I'm Currently Working On
 
 I'm currently focused on several key initiatives that drive efficiency and value across the organization:
+
 - Leading the expansion of our Robotic Process Automation (RPA) program through new project deployments that increase organizational ROI and operational efficiency. This includes standardizing the RPA program framework to enable scaling beyond the finance team.
 - Enhancing G&A systems to optimize processes across the finance organization, with a focus on streamlining workflows and improving user experience.
 - Collaborating closely with compliance and audit teams to ensure proper documentation and maintain robust control frameworks across our systems and processes.
