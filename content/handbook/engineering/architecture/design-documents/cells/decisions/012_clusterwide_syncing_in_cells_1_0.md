@@ -118,7 +118,11 @@ the table entirely.
 
 #### work_item_types
 
-See this epic: TBD
+The `work_item_types` table was re-organized to have a
+[constant set of IDs](https://gitlab.com/groups/gitlab-org/-/epics/15272).
+
+Unless there are reasons not to, we should convert further to use a hard-coded
+list of work item types.
 
 #### abuse_report_labels
 
