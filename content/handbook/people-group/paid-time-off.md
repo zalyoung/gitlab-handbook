@@ -250,7 +250,7 @@ To subscribe or unsubscribe, follow the below instructions and [see an associate
 - Visit `Apps` in the menu bar within Slack and search for or select `Time Off by Deel`
 - On the application's `Home` tab, select `Notifications` from the dropdown
 - Beneath the dropdown, you'll see a line that says "Send me a monthly reminder about taking time off." Click the **Subscribe** button to trigger the notification, which will begin on the first *working* day (e.g. not a weekend or a public holiday) in the month following your subscription.
-- To unsubscribe, revisit Workday within Slack Apps and click the button that says **Unsubscribe**.
+- To unsubscribe, revisit the app and click the button that says **Unsubscribe**.
 
 ##### Checking "Who's Out?"
 
