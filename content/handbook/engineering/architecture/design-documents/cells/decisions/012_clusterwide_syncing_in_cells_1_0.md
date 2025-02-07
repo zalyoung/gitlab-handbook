@@ -18,8 +18,9 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
 1. Cluster Setting tables, like `application_settings` can be synchronized
    independently.
    An external source of truth like
-   [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will loop
-   over each cell, and set the desired value.
+   [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will
+   propogate the desired values for each
+   [ring](../infrastructure.md/_index.md#rings) of cells.
 
 ## Pros
 
@@ -60,8 +61,7 @@ to synchronize each cell's Application Settings.
 
 As a migration step, we will need to first obtain the current values from
 the Legacy Cell, to copy to our external source of truth.
-The external source of truth will then loop over each cell, and set the desired
-values.
+The external source of truth will then propgate the value to each ring.
 
 When creating a setting, developers need to ensure that the default for the
 setting will work correctly for any Cell.
