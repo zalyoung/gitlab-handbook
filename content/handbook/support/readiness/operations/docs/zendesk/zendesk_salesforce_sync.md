@@ -26,7 +26,7 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 <summary>SOQL query used</summary>
 
 ```sql
-[SELECT](/handbook/support/partnerships/select)
+SELECT
   Account_ID_18__c,
   Name,
   Type,
@@ -119,7 +119,7 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 <summary>SOQL query used</summary>
 
 ```sql
-[SELECT](/handbook/support/partnerships/select)
+SELECT
   Account_ID_18__c,
   Name,
   Ultimate_Parent_Sales_Segment_Employees__c,
@@ -194,7 +194,7 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 <summary>SOQL query used</summary>
 
 ```sql
-[SELECT](/handbook/support/partnerships/select)
+SELECT
   Name,
   Email,
   Account.Account_ID_18__c,
