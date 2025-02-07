@@ -38,9 +38,17 @@ The Compliance group's mission is to provide visibility into an organizations co
 Because this group works on components of the application that have a [far-reaching impact](/handbook/engineering/expansion-development/#reducing-the-impact-of-far-reaching-work), we take these extra steps in order to reduce our risk of a production incident:
 
 1. To build more institutional knowledge across the team we try to assign our merge requests to another Compliance team member for first review.
-1. Compliance merge requests use feature flags where it makes sense to minimise impact. We follow the [Feature Flag Lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/) as closely as possible
-1. If a feature flag is used then a feature flag [rollout plan](/handbook/engineering/development/processes/rollout-plans/) will be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
+
+#### Feature Flags
+
+1. Compliance merge requests use feature flags where it makes sense to reduce risk. We follow the [Feature Flag Lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/) as closely as possible. For extended or multi–merge request development, all work should remain behind a dedicated feature flag. This approach allows incremental changes to be merged safely, keeping incomplete functionality off for production users.
+
+1. If a feature flag is used, a [feature flag rollout plan](/handbook/engineering/development/processes/rollout-plans/) should be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
+
+1. Once the feature is ready for testing, the directly responsible individual (DRI) should enable the feature flag on the staging environment and announce availability to relevant stakeholders (for example, via Slack or by updating the related issue). This ensures prompt feedback, thorough validation, and keeps everyone in the loop.
+
+1. After validating the feature in staging, enable the feature flag in production in accordance with your rollout plan. If any issues arise, disabling the feature flag provides a quick rollback mechanism without the need to revert code. This controlled approach aligns with GitLab’s best practices for delivering new features safely and efficiently.
 
 ### Working on ad hoc work and questions
 
