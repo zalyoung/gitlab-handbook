@@ -31,11 +31,17 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
    start producing corrupt data. For example creating `gitlab_subscriptions` with bad
    `plan_id` values. If we replace `plan_id` column to use a globally unique
    reference instead, we will not have any consistency risk.
+1. No need to create a leader/follower topology between cells/databases and no need to keep clusters in quorum.
+1. Each cell is still fully isolated and doesn't depend on one another.
 
 ## Cons
 
 1. For Cluster settings, we will need to tolerate a small amount of time where
    there may be configuration drift.
+1. For Reference tables, there may be downstream services that depend on these
+   data. So we will need to wait for an application change to fully propogate
+   through all rings first, before updating any downstream service to use the
+   new data.
 
 ## Analysis of clusterwide tables
 
