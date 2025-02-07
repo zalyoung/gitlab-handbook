@@ -15,6 +15,8 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
 
 1. Reference tables, like `plans` do not need synchronization, but rather
    converted to be always consistent by being hard-coded in application code.
+   A good example is
+   [VisibilityLevel](https://gitlab.com/gitlab-org/gitlab/-/blob/5ae43dface737373c50798ccd909174bcdd9b664/lib/gitlab/visibility_level.rb#L25-27).
 1. Cluster Setting tables, like `application_settings` can be synchronized
    independently.
    An external source of truth like
