@@ -22,7 +22,7 @@ Each quarter, the Talent Acquisition team reports out on 4 top line productivity
 
 There are a number of additional metrics we monitor to understand the overall health of our hiring motion and where we have risk or are trending above or below industry benchmarks. Those metrics are defined to include:
 
-- S**tart Date Forecast Attainment**: Total number of external starts against forecast starts target set in partnership with Finance during the first week of each quarter. Goal is to be within +/-5% of the forecast.
+- **Start Date Forecast Attainment**: Total number of external starts against forecast starts target set in partnership with Finance during the first week of each quarter. Goal is to be within +/-5% of the forecast.
 - **Ending Headcount to Plan Variance**: Ending headcount from original FY25 Annual Operating Plan.
 - **Reforecast**: Quarterly reforecasted ending headcount number (taking into account RLoA/Incremental Headcount additions, Headcount splits, Reallocation of funds, Culling, etc).
 - **Time to Fill (TTF)**: Number of days from a requisition opening in Greenhouse to offer acceptance. Under 75 day time to fill is considered healthy.
@@ -43,11 +43,13 @@ We have outlined and defined our productivity metrics for recruiters to adequate
 | **Metric**                                         | **Definition**                                                                                             |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | External Hires| Total number of external hires made in the course of the quarter. <br> - Technical teams goal set at 6/quarter. <br> - Non-technical teams goal set at 9/quarter.  |
-| Screens per Week   | Number of recruiter phone screens at or above 12 per week.
+| Screens per Week   | Number of recruiter phone screens at or above 12 per week.|
 | Conversion Rates | Consistent management against industry benchmarks for candidate conversion through the funnel to ensure we are running a quality recruitment process. <br> Targets for 'on track' status include  Initial > Team interview (40-50%), Team Interview > Offer (25-33%), and Offer > Hire (75-85%).|
 
 ### Important Health Metrics 
+
 In addition to our productivity metrics above, we have a number of other important metrics that we use as signals to understand  if our recruiting motion is considered 'healthy'.
+
 1. **Sourcing Rate %**: Percentage of outreach made with a sourcing strategy targeting building representation into top of funnel. Our goal is to maintain activity above 50% consistently.
 1. **Source Mix**: Percentage of hires made from applications vs. referrals vs. passively sourced candidates. Our goal is to maintain a balanced mix quarter over quarter at the team level.
 1. **Time to Fill**: The average number of days from a role opening to a candidate signing an offer and being marked as hired. Our goal is to remain under 75 days TTF consistently. 
