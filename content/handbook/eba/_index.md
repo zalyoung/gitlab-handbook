@@ -11,7 +11,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
 | [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
-| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Carla Sylva**<br>Sr EBA  | Stella Treas (Chief of Staff) |
+| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | TBC | Stella Treas (Chief of Staff) |
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Marin Jankovski (Sr. Director of Infrastructure)<br>Tim Zallmann (VP of Engineering, Core Development) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
@@ -28,6 +28,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
 | [Sales](/handbook/sales/) | TBC | Ashley Kramer (Interim CRO) <br> (temporary support) Brian Wald (Sr. Director, Global Field CRO Org) |
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
+| [Sales](/handbook/sales/) | **Carla Sylva**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Nick Cayou (VP of WW Channels & Alliances) |
 | [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
