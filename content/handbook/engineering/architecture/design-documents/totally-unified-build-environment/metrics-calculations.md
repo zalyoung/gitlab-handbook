@@ -13,8 +13,8 @@ toc_hide: true
 ## Container size reduction calculation
 
 The Totally Unified Build Environment will eliminate all build images from the
-[Gitlab Build Images](ttps://gitlab.com/gitlab-org/gitlab-build-images) repository. The
-script below generaets a comma separated value formatted file with all image sizes.
+[GitLab Build Images](https://gitlab.com/gitlab-org/gitlab-build-images) repository. The
+script below generates a comma separated value formatted file with all image sizes.
 
 ```shell
 glab api --paginate "projects/${GITLAB_BUILD_IMAGES_PROJECT_ID}/registry/repositories" > gitlab-build-image-container-repositories.json
@@ -148,6 +148,6 @@ shared build dependencies.
 | Productivity Cost (Weeks/Year) | 22            | 18          |
 
 The Build team does not feel this full impact in time as sometimes updates
-are skipped. For those misses, the cost would be quantified in los of good
+are skipped. For those misses, the cost would be quantified in loss of good
 will, customer exposure for both self-managed and SaaS, and potential
 impacts to GitLab's certifications.

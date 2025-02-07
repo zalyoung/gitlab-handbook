@@ -51,9 +51,7 @@ difficulty for such failures as they often surface subtle differences in the
 data lifecycles for build environments and deleted build environment
 configuration.
 
-For each outcome below, [the improvements are based on estimates drawn from
-both quantified sources in the GitLab application and the typical time spent
-on previous runtime updates](metrics-calculations.md).
+For each outcome below, [the improvements are based on estimates drawn from both quantified sources in the GitLab application and the typical time spent on previous runtime updates](metrics-calculations.md).
 
 ### Financial
 
@@ -93,7 +91,7 @@ only as long as it takes the automation to generate a new build container.
   project maintainers and allows them to proactively schedule work rather
   than react to last minute requests.
 - Major and patch revision updates become concurrent by default without
-  engineer intevention or additional plans.
+  engineer intervention or additional plans.
 - Frees Build engineers from manual paperwork tasks and allows them
   to focus more strongly on build correctness and speed.
 
@@ -186,7 +184,7 @@ close the component epic.
   - Total bytes retained in the build container registry reduced by 30%.
 - Reduce Distribution time spent on version management by 80%.
 - Reduce time spent by non-Distribution engineers on build environment
-  maintainence to zero.
+  maintenance to zero.
 - Normal operation delivers updated build environments to GitLab teams for
   validation automatically within 12 hours of upstream publication.
 - Reduce normal operations engineer time spent on build environment

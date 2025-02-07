@@ -14,15 +14,15 @@ toc_hide: true
 
 Framework gives subscriber project developers more time to focus on value
 added features. It automatically and transparently manages build
-environments and updates to runtimes. Workfow changes, such as when the
-directly reponsible individual changes or labels change, are the only tasks
+environments and updates to runtimes. Workflow changes, such as when the
+directly responsible individual changes or labels change, are the only tasks
 that require manual intervention after the initial set up process.
 
 ## How projects onboard to Framework
 
 All subscriber project configuration lives in one repository. This design
 simplifies management for Distribution as a single source of truth and
-simulatenously allows subscriber project maintainers to manage their own
+simultanenously allows subscriber project maintainers to manage their own
 workflow. New Framework subscribers open a merge request that will:
 
 - Identify the project.

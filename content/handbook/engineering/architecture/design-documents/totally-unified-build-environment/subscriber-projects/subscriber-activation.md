@@ -63,7 +63,7 @@ auto_close: false
 |`components:<COMPONENT_NAME>:project_id`|Overrides the `project_id` set for the subscriber. Only needed when a monorepo utilizes two issue trackers for separation.|
 |`project:project_id`| The integer IID assigned to the subscriber project in GitLab. `PATCH` and `NEXT` jobs open an issue in the defined project.|
 |`project_name`| The well known name for a subscriber project.|
-|`labels`|Labels applied to all issues Framework opens for this susbcriber project. The list merges with component specific labels.|
+|`labels`|Labels applied to all issues Framework opens for this subscriber project. The list merges with component specific labels.|
 |`contacts`|Framework assigns build failure issues to everyone in `contacts:people`. The list merges with the contacts specified per component. Groups named in `contacts:groups` will be copied in the description. A project must provide at least one entry in `contacts` under `people` or `groups`.|
 |`auto_close`|Optional. If the default pipeline succeeds for a `PATCH` or `NEXT` job, close the related open issue.  Defaults to `false`.|
 
