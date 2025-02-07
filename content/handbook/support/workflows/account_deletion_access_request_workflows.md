@@ -125,7 +125,9 @@ At this stage, do the following:
 
 ###### No Response
 
-If the user fails to respond within 7 calendar days, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
+If the user fails to respond within 7 calendar days:
+1. If you have not already done so, check the form comments for an alternative email, and if it was provided, tag Privacy in an internal comment in the Issue. The user likely never received notification of the Challenge Verifications and Privacy will review to determine if they should communicate directly with the user. Please do not close the Issue until you confirm with Privacy.
+1. If no alternative email was provided in the form comments, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
 
 <details>
   <summary markdown="span">Request Closed - No Response</summary>
