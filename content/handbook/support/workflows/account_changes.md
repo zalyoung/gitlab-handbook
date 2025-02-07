@@ -271,7 +271,7 @@ When a user is reaching out of support to change their usernames or delete their
 
 If a user cannot self-serve because the option ["Disable password authentication for enterprise users"](https://docs.gitlab.com/ee/user/group/saml_sso/#disable-password-authentication-for-enterprise-users) is enabled on the top level group, please follow the steps below: 
 
-1- Confirm "Disable password authentication for enterprise users" is enabled on the top level group.
-1- Ask Owner to temporary disable the option in the group so the user can regain access.
-1- If the owner refused, please go through with [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow (for Enterprise users account changes the ownership verification must be done by a top level group owner).
-1- After verification is successfull, ask permissions to make the changes to the account - For deletion request, do a simple deletion (just the user) as delete user with contributions can [lead to deletion of issues and merge requests on a paid namespace](https://docs.gitlab.com/ee/user/profile/account/delete_account#associated-records).
+1. Confirm "Disable password authentication for enterprise users" is enabled on the top level group.
+1. Ask Owner to temporary disable the option in the group so the user can regain access.
+1. If the owner refused, please go through with [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow (for Enterprise users account changes the ownership verification must be done by a top level group owner).
+1. After verification is successful, ask permissions to make the changes to the account - For deletion request, do a simple deletion (just the user) as delete user with contributions can [lead to deletion of issues and merge requests on a paid namespace](https://docs.gitlab.com/ee/user/profile/account/delete_account#associated-records).
