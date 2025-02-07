@@ -245,7 +245,7 @@ The reminder will read as follows.
 
 > Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can't reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `/handbook/people-group/paid-time-off/`
 
-To subscribe or unsubscribe, follow the below instructions and [see an associated screenshot](/handbook/people-group/gitlab-slack-pto-reminder.png).
+To subscribe or unsubscribe, follow the below instructions and [see an associated screenshot](/images/handbook/people-group/gitlab-slack-pto-reminder.png).
 
 - Visit `Apps` in the menu bar within Slack and search for or select `Time Off by Deel`
 - On the application's `Home` tab, select `Notifications` from the dropdown
