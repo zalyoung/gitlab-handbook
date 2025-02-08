@@ -15,8 +15,8 @@ A few key principles to keep in mind:
 - A retro is a [blameless opportunity](https://docs.gitlab.com/ee/tutorials/scrum_events/standups_retrospectives_velocity.html#sprint-retrospectives) for the team to identify process improvements.
 - :feather: Retros should be as lightweight as possible.
   - The retro is not a comprehensive report for external consumption. "Don't let perfect be the enemy of the good." GitLab team members with access to the project can see [this retro](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/3616) as an example.
-- :reminder_ribbon: [Not every problem should lead to a new process to prevent them.](https://handbook.gitlab.com/handbook/values/#accept-mistakes).
-- :repeat: Retros should be synchronous when possible. It is recommended to conduct a synchronous retro because it can be easier to [establish a safe environment](https://handbook.gitlab.com/handbook/engineering/management/group-retrospectives/#establishing-a-safe-environment) and because biasing for asynchronous communication can reduce the efficiency of the retro.
+- :reminder_ribbon: [Not every problem should lead to a new process to prevent them.](/handbook/values/#accept-mistakes).
+- :repeat: Retros should be synchronous when possible. It is recommended to conduct a synchronous retro because it can be easier to [establish a safe environment](/handbook/engineering/management/group-retrospectives/#establishing-a-safe-environment) and because biasing for asynchronous communication can reduce the efficiency of the retro.
 
 ## :musical_score: Conducting a Retro
 
