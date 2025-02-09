@@ -674,7 +674,7 @@ _The deal registration form is not a quoting tool and will not have all the info
 
 ### Service Attached Registration
 
-GitLab incentivizes Select partners and accredited professional services partners that sell their own professional services into a customer environment. The partner must submit service opportunities via a Service Attached Registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attached qualifications do not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. Service Attached Registration approval requires:
+GitLab incentivizes Select partners and Designated Professional Services Partners (PSP) that sell their own professional services into a customer environment. The partner must submit service opportunities via a Service Attached Registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attached qualifications do not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. Service Attached Registration approval requires:
 
 1. Completion of the associated software opportunity (i.e., closed won)
 2. Submission of an executed Statement of Work (SOW) that meets [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
@@ -708,11 +708,9 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
     - **`Closed`**: If the opportunity has moved to closed-lost or if the partner or ESM communicate that the partner did not win the services business
 
-2. Ecosystem Operations adds the `Service Attach Approval Date` when the registration is moved to `Approved`. Service Reg approval requires both:
+2. Ecosystem Operations adds the `Service Attach Approval Date` when the registration is moved to `Approved`. `Service Reg Approval Date` will be set when both requirements below are fulfilled:
     - Receipt of valid executed SOW
     - Opportunity closed won status
-
-    The approval date will be set when both requirements are fulfilled.
 
 ### Additional Information
 
