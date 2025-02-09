@@ -1,5 +1,5 @@
 ---
-title: "Database Operations Team" (formerly known as the Database Reliablity Engineering (DBRE) team)
+title: "Database Operations Team"  (formerly known as the Database Reliablity Engineering (DBRE) team)
 ---
 
 ## Mission

@@ -9,7 +9,7 @@ We are using Slack, <i class="fa-brands fa-slack"></i> @dbre or @dbo, for escala
 
 ## About This Page
 
-This page outlines the DBO team escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
+This page outlines the DBO team's escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
 
 ## Expectation
 
