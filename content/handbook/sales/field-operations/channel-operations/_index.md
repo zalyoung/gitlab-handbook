@@ -679,7 +679,7 @@ GitLab incentivizes Select partners and Designated Professional Services Partner
 1. Completion of the associated software opportunity (i.e., closed won)
 2. Submission of an executed Statement of Work (SOW) that meets [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
 
-Select partners and accredited professional services partners with approved Service Attached Registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale.
+Select partners and PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale.
 
 Review the steps below to process a Service Attached Registration for an applicable GitLab software opportunity.
 
