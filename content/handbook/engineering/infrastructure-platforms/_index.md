@@ -68,7 +68,7 @@ flowchart LR
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
     GD --> E[Environment Automation]
-    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
+    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation/" 
     GD --> PSS[Public Sector Services]
     click PSS "/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/"
     GD --> Switchboard
