@@ -1,19 +1,19 @@
 ---
-title: DBRE Escalation Process
-summary: This page outlines the DBRE team escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
+title: DBO Escalation Process
+summary: This page outlines the DBO team escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
 ---
 
 {{% alert title="Note" color="danger" %}}
-We are using Slack, <i class="fa-brands fa-slack"></i> @dbre, for escalations.
+We are using Slack, <i class="fa-brands fa-slack"></i> @dbre or @dbo, for escalations.
 {{% /alert %}}
 
 ## About This Page
 
-This page outlines the DBRE team escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
+This page outlines the DBO team escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
 
 ## Expectation
 
-The expectation for the DBRE engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. There is no expectation that the DBRE engineer is solely responsible for a resolution of the escalation.
+The expectation for the DBO engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. There is no expectation that the DBO engineer is solely responsible for a resolution of the escalation.
 
 ## Escalation Process
 
@@ -21,10 +21,10 @@ The expectation for the DBRE engineers is to be a database consultant and collab
 
 1. This process is designed for the following issues:
    1. **GitLab.com** S1 and S2 production incidents raised by the **Engineer On Call** , **Development**, and **Security** teams.
-1. This process is **NOT** a path to reach the DBRE team for non-urgent issues that the Development, Security, and Support teams run into. Such issues can be moved forward by:
-   1. Labelling with `team::Database Reliability` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
-   1. Raising to the `#g_infra_database_reliability` Slack channel, or
-   1. Asking the infrastructure-lounge Slack channel assigning the `@dbre` user group
+1. This process is **NOT** a path to reach the DBO team for non-urgent issues that the Development, Security, and Support teams run into. Such issues can be moved forward by:
+   1. Labelling with `group::database operations` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
+   1. Raising to the `#g_database_operations` Slack channel, or
+   1. Asking the infrastructure-lounge Slack channel assigning the `@dbre` or `@dbo` user group
 1. This process provides for Weekdays coverage only.
 
 #### Example of qualified issue
@@ -35,25 +35,25 @@ The expectation for the DBRE engineers is to be a database consultant and collab
 
 ### Process Outline
 
-**NOTE:** The DBRE support does not need to announce beginning/end of their shift in [#db_squad](https://gitlab.slack.com/messages/C02K0JTKAHJ) unless there is an active incident happening (check the chat history of the channel to know if there is an active incident). This is because many engineers have very noisy notifications enabled for that channel, and such announcements are essentially false positives which make them check the channel unnecessarily.
+**NOTE:** The DBO support does not need to announce beginning/end of their shift in [#db_squad](https://gitlab.slack.com/messages/C02K0JTKAHJ) unless there is an active incident happening (check the chat history of the channel to know if there is an active incident). This is because many engineers have very noisy notifications enabled for that channel, and such announcements are essentially false positives which make them check the channel unnecessarily.
 
 #### Weekdays (UTC)
 
-1. Incidents will be escalated by the EOC or Incident Manager by notifying the DBRE through @dbre slack handle with an eligible DBRE according to their working hours.
-1. During incidents the available DBRE can pass the incident to another DBRE/Reliability EM, if they are urgently needed somewhere else.
-1. In timezones where we have only one DBRE, the DBRE can pass the incident to the available Reliability Engineering manager who will work to find someone(not necessarily a DBRE) who can help
+1. Incidents will be escalated by the EOC or Incident Manager by notifying the DBO through @dbre or @dbo slack handle with an eligible DBO according to their working hours.
+1. During incidents the available DBO can pass the incident to another DBO/Reliability EM, if they are urgently needed somewhere else.
+1. In timezones where we have only one DBO, the DBO can pass the incident to the available Reliability Engineering manager who will work to find someone(not necessarily a DB) who can help
 
 ##### Escalation
 
-1. EOC/IM, notify the DBRE on-call via slack handle @dbre requesting for the DBRE to join the incident zoom/channel
-1. DBRE responds to the ping by acknowledging the ping and joining the incident channel and zoom
-1. If DBRE support does not respond, the EOC/IM, notify the available Reliability EM
-1. DBRE triages the issue and works towards a solution.
-1. If necessary, DBRE reach out for further help or domain expert as needed.
+1. EOC/IM, notify the DBO on-call via slack handle @dbre or @dbo requesting for the DBO to join the incident zoom/channel
+1. DBO responds to the ping by acknowledging the ping and joining the incident channel and zoom
+1. If DBO support does not respond, the EOC/IM, notify the available Reliability EM
+1. DBO triages the issue and works towards a solution.
+1. If necessary, DBO reach out for further help or domain expert as needed.
 
-In the event that no DBRE engineers respond to the ping, the EOC will then notify the Reliability, Engineering Managers. They will need to find someone available and notify this in the escalation thread. As an EM:
+In the event that no DBO engineers respond to the ping, the EOC will then notify the Reliability, Engineering Managers. They will need to find someone available and notify this in the escalation thread. As an EM:
 
-1. Try to find someone available from the DBRE group
+1. Try to find someone available from the DBO group
 1. If the search is positive, leave a message in the thread as an acknowledgement that the engineer will be looking into the issue
 
 #### Weekends and Holidays (UTC)
@@ -64,25 +64,25 @@ The first iteration will only focus on weekdays.
 
 **OPERATIONAL EMERGENCY ISSUES ONLY**
 
-   1. **GitLab.com**: DBRE engineers provide initial response (not solution) in both incident channel and the tracking issue within **15 minutes**.
+   1. **GitLab.com**: DBO engineers provide initial response (not solution) in both incident channel and the tracking issue within **15 minutes**.
 
 #### Relay Handover
 
-* Since the dbre who are on call may change frequently, responsibility
+* Since the dbo who are on call may change frequently, responsibility
      for being available rests with them.
-* In the instance of an ongoing escalation no DBRE should finish
-     their on-call duties until they have arranged for and confirmed the DBRE
+* In the instance of an ongoing escalation no DBO should finish
+     their on-call duties until they have arranged for and confirmed the DBO
      taking over from them is present, or they have notified someone who
      is able to arrange a replacement. They do not have to find a
      replacement themselves, but they need confirmation from someone that
      a replacement will be found.
 * In the instance of an ongoing escalation being handed over to
-     another incoming on-call DBRE the current on-call DBRE
+     another incoming on-call DBO the current on-call DBO
      summarize full context of on-going issues, such as but not limited to
   * Current status
   * What was attempted
   * What to explore next if any clue
-  * Anything that helps bring the next on-call dbre up to speed quickly
+  * Anything that helps bring the next on-call dbo up to speed quickly
 
      These summary items should be in written format in the following locations:
   * _Existing_ threads in respective Incident channel
@@ -90,10 +90,10 @@ The first iteration will only focus on weekdays.
 
      This shall be completed at the end of shifts to hand over smoothly.
 * For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
-* If an incident is ongoing at the time of handover, outgoing DBRE may
+* If an incident is ongoing at the time of handover, outgoing DBO may
      prefer to remain on-call for another shift. This is acceptable as long as
-     the incoming DBRE agrees
-* If you were involved in an incident which has been mitigated during your shift, leave a note about your involvement in the incident issue and link to it in the respective incident Slack channel indicating you participated in the issue as an informational hand-off to future on-call DBRE.
+     the incoming DBO agrees
+* If you were involved in an incident which has been mitigated during your shift, leave a note about your involvement in the incident issue and link to it in the respective incident Slack channel indicating you participated in the issue as an informational hand-off to future on-call DBO.
 
 ## Resources
 
@@ -120,7 +120,7 @@ Situation Room recordings from previous incidents are available in this [Google 
 
 ### Shadowing A Whole Shift
 
-To get an idea of what's expected of an on-call DBRE and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBRE on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents and observe how the DBRE on-call [follows the process](#process-outline) if any arise.
+To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents and observe how the DBO on-call [follows the process](#process-outline) if any arise.
 
 ### Tips & Tricks of Troubleshooting
 

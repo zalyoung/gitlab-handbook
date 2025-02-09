@@ -1,5 +1,5 @@
 ---
-title: "Database Operations Team"
+title: "Database Operations Team" (formerly known as the Database Reliablity Engineering (DBRE) team)
 ---
 
 ## Mission
@@ -45,9 +45,9 @@ Systems or services explicitly not owned by us:
 | Weekly Agenda | [Weekly APAC and EMEA/AMER](https://docs.google.com/document/d/1d8YrRO4Vw_pHXohgwq-lEBM75ihMtkLpcd2_cFa6Yrs/edit#) |
 | Achievements | [FY24 - Q1](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/17443) |
 
-## DBRE Escalations
+## DBO Escalations
 
-We have a detailed [DBRE escalation process](dbre-escalation/process.html) that provides escalation guidelines for handling database related production incidents.
+We have a detailed [DBO escalation process](dbre-escalation/process.html) that provides escalation guidelines for handling database related production incidents.
 
 ## OKRs
 
@@ -65,7 +65,7 @@ and [performance](/handbook/engineering/infrastructure/performance-indicators/#g
 
 ## Key Technical Skills
 
-The team is comprised of DBREs with varying levels of expertise in:
+The team is comprised of Database platform engineeers with varying levels of expertise in:
 
 - Supporting PostgreSQL in large production environments.
 - Infrastucture automation and configuration management, using tools such as Chef, Ansible, Terraform, etc.
