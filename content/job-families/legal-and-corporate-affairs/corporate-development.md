@@ -18,27 +18,36 @@ The Analyst, Corporate Development is a [grade 6](/handbook/total-rewards/compen
 
 #### Responsibilities
 
-- Create a target list of potential acquisitions
-- Develop relationships with tech incubators, investors, and other sources of acquisition candidates
-- Execute a sourcing plan through online research, outreach, and other means to help support the corporate development team goals
-- Operationalize acquisition sourcing and handling processes to help the team scale
-- Validate fit for terms, product roadmap, and other criteria
-- Value the companies in a financial model
-- Help negotiate terms of the deal
-- Manage deal flow CRM system data
-- Prepare all acquisition related documents such as Non-Disclosure Agreements, Letters of Intent, and Purchase Agreements with our legal team and legal counsel
-- Assist in various aspects of the deal as necessary: qualification, initial rationale/pitch, financial modeling, due diligence and closing & integration activities.
+Deal Sourcing & Pipeline Management:
+- Research and analyze market trends, competitive landscape, and emerging technologies in the DevSecOps space to identify potential acquisition targets
+- Build and maintain comprehensive target lists across strategic focus areas, leveraging various data sources and industry research
+- Manage and optimize our deal flow tracking system to ensure efficient pipeline management
+
+Deal Analysis & Execution:
+- Conduct initial screening of potential targets, analyzing strategic fit, product synergies, and financial metrics
+- Assist in building detailed financial models and valuation analyses to support deal evaluation and negotiations
+- Support due diligence process by coordinating with cross-functional teams and supporting multiple work streams
+- Assist drafting key business documents for active acquisition engagements
+- Support post-merger integration planning and technical delivery 
+- Create and maintain process documentation to improve efficiency and knowledge sharing for your areas of responsibility
+
+Analysis & Reporting:
+- Perform market research and competitive analysis to support strategic decision-making
+- Create periodic reports on pipeline activity, deal progress, and integration status
+- Analyze historical deal performance and capture lessons learned to improve future processes
+- Monitor industry trends and provide regular updates to the team on relevant market activities
+
 
 #### Requirements
 
-- Bachelors or equivalent in Finance, Accounting, Economics, Computer Science, Engineering, or a related field
+- Bachelors or equivalent in Science, Finance, Accounting, Economics or a related field
 - Minimum of 2 years of corporate development, venture capital, private equity, or competitive analysis ideally focused on the technology industry
-- Adept with technology and a strategic thinker – knows what's best for the business
-- Excellent judgment, mature personality, and experience working with executives; a sophisticated, worldly businessperson
+- Adept with technology, analytical and detail-oriented critical thinker
+- Excellent judgment, mature personality; a sophisticated, worldly businessperson
+- Strong sense of ownership and ability to drive multiple simultaneous projects independently
 - Proactive and action-oriented, anticipates needs
-- Experience in a deal environment and buyer-seller conducts
 - Excellent verbal and written communication skills
-- Familiarity with the DevOps space
+- Comfortable with working asynchronously across multiple time zones
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 - You share our [values](/handbook/values/), and work in accordance with those values
 
