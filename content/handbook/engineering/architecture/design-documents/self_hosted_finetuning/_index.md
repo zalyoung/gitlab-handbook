@@ -195,11 +195,53 @@ Once hosted, the customer could fetch a specific LoRA by specifying the model's 
 
 **Storage per Adapter**: 200Mb - 1GB. The size of 1 LoRA adapter could vary based on the configuration.
 
-**Training Time per Adapter**: 30 minutes to 1 hour. Varies based on the size of the training dataset. (TODO: add graph performance vs training time)
+**Training Time per Adapter**: 30 minutes to 1 hour (Tested on 4xA100 80GB GCP server). Varies based on the size of the training dataset. In the chart below, we present the results for the embedding cosine similarity vs training time. Here "0" minutes represents the base model without any finetuning. Red line is the results for `code_suggestions_aig_signatures` and blue line for `code-suggestions-input-testcases-v1` datasets respectively.
 
-**Hardware Specs for Training an Adapter**: Depending on the selected base model. For Codestral-22B, the minimum spec is 4xA10, while recommended spec is 4xA100 GPUs.
 
-**Inference Time Impact**: TODO qualitative evaluations
+```mermaid
+---
+config:
+    xyChart:
+        width: 900
+        height: 600
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#ff0000, #0000ff"
+---
+xychart-beta
+    title "Embedding cosine similarity vs Training time"
+    x-axis "Time in minutes" [0, 6, 12, 18, 24, 30, 36, 48, 60, 72, 84]
+    y-axis "Embedding cosine similarity (higher better)" 0.7 --> 0.95
+    line [0.75, 0.80, 0.84, 0.83, 0.85, 0.82, 0.85, 0.83, 0.83, 0.85, 0.84]
+    line [0.85, 0.89, 0.91, 0.90, 0.90, 0.90, 0.91, 0.90, 0.90, 0.90, 0.90]
+```
+
+While we see the relative performance increase after only 6 minutes, the model is still unstable and requires further training time to reduce the number of empty responses.
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 900
+        height: 600
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#ff0000, #0000ff"
+---
+xychart-beta
+    title "Bad Responses vs Training time"
+    x-axis "Time in minutes" [0, 6, 12, 18, 24, 30, 36, 48, 60, 72, 84]
+    y-axis "% of Bad Responses (lower better)" 0.0 --> 0.35
+    line [0.0, 0.3, 0.07, 0.06, 0.06, 0.03, 0.0, 0.0, 0.0, 0.0, 0.0]
+    line [0.0, 0.27, 0.05, 0.04, 0.04, 0.03, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+```
+
+As a conclusion it seems to be optimal to train the model for 30-40 minutes.
+
+**Hardware Specs for Training an Adapter**: Depending on the selected base model. For Codestral-22B, the minimum spec is 4xA10, while recommended spec is 4xA100 80GB GPUs. In total the current set up uses **242GB** of vRAM.
+
+**Inference Time Impact**: None noticed.
 
 ### Early Experimentation (PoC) results
 
