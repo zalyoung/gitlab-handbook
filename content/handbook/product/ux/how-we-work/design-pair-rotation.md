@@ -46,4 +46,5 @@ This is the rotation schedule for [FY26 Q1 and Q2](/handbook/finance/#fiscal-yea
 | Graham Bachelder  | Timothy Noah           |
 | Nicolle Merrill   | Ilonah Pelaez          |
 | Alyssa Trinh      | Gina Doyle             |
-| Ian Gloude        | Sascha Eggenberger, Michael Fangman     |
+| Ian Gloude        | Sascha Eggenberger |
+| Libor Vanc        | Michael Fangman    |
