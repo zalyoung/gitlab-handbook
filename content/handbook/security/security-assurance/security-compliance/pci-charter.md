@@ -56,29 +56,30 @@ PCI requirements 6.5.2, 11.3.1.3, 11.4.3, and 12.5.3 require GitLab to perform v
 
  GitLab has analyzed the types of changes in its environment and has determined the following to be considered significant changes, specifically, changes that could effect the security of systems in-scope for PCI.
  
- **Infrastructure Changes:**
+**Infrastructure Changes:**
  
- - Changes to cloud provider services
- - Changes to container orchestration platforms
- - Implementation of new cloud services that interact with the CDE
- - Rearchitecting application stack
+- Changes to cloud provider services
+- Changes to container orchestration platforms
+- Implementation of new cloud services that interact with the CDE
+- Rearchitecting application stack
  
- **Access and Authentication Changes:** 
+**Access and Authentication Changes:** 
  
- - Changes to cloud-based authentication services
+- Changes to cloud-based authentication services
 
- **Data Flow Changes:**
+**Data Flow Changes:**
  
- - Changes in how cardholder data is processed or stored
- - Modifications to data encryption methods
- - New integrations that affect data flow
+- Changes in how cardholder data is processed or stored
+- Modifications to data encryption methods
+- New integrations that affect data flow
  
- **Third-Party Services:**
- - New IaaS providers
- - Changes to existing cloud service provider agreements
- - New third-party integrations that affect the CDE
+**Third-Party Services:**
+
+- New IaaS providers
+- Changes to existing cloud service provider agreements
+- New third-party integrations that affect the CDE
  
- #### Additional Procedures for Significant Changes
+#### Additional Procedures for Significant Changes
 
 Significant Changes require additional procedures to ensure the continued security of the environment.
 
