@@ -37,12 +37,13 @@ flowchart LR
 
 ### Members
 
-| Team Members                           | Role                                             |
-| -------------------------------------- | ------------------------------------------------ |
-| {{< member-by-name "Vincy Wilson" >}}  | Acting Engineering Manager                       |
-| {{< member-by-name "Nao Hashizume" >}} | Backend Engineer, Developer Tooling              |
-| {{< member-by-name "Kev Kloss" >}}     | Frontend Engineer, Developer Tooling             |
-| {{< member-by-name "Peter Leitzen" >}} | Staff Backend Engineer, Developer Tooling        |
+| Team Members                             | Role                                      |
+| ---------------------------------------- | ----------------------------------------- |
+| [Mohga Gamea](https://gitlab.com/mgamea) | Engineering Manager                       |
+| {{< member-by-name "Doug Barrett" >}}    | Staff Backend Engineer, Developer Tooling |
+| {{< member-by-name "Nao Hashizume" >}}   | Backend Engineer, Developer Tooling       |
+| {{< member-by-name "Kev Kloss" >}}       | Frontend Engineer, Developer Tooling      |
+| {{< member-by-name "Peter Leitzen" >}}   | Staff Backend Engineer, Developer Tooling |
 
 ### Stable counterpart
 
