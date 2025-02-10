@@ -1,5 +1,5 @@
 ---
-title: "Database Operations Team"  (formerly known as the Database Reliablity Engineering (DBRE) team)
+title: "Database Operations Team  (formerly known as the Database Reliablity Engineering (DBRE) team)"
 ---
 
 ## Mission
@@ -65,7 +65,7 @@ and [performance](/handbook/engineering/infrastructure/performance-indicators/#g
 
 ## Key Technical Skills
 
-The team is comprised of Database platform engineeers with varying levels of expertise in:
+The team is comprised of Database Operations engineeers with varying levels of expertise in:
 
 - Supporting PostgreSQL in large production environments.
 - Infrastucture automation and configuration management, using tools such as Chef, Ansible, Terraform, etc.

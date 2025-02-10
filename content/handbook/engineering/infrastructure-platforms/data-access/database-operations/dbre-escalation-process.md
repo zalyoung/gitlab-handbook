@@ -35,13 +35,13 @@ The expectation for the DBO engineers is to be a database consultant and collabo
 
 ### Process Outline
 
-**NOTE:** The DBO support does not need to announce beginning/end of their shift in [#db_squad](https://gitlab.slack.com/messages/C02K0JTKAHJ) unless there is an active incident happening (check the chat history of the channel to know if there is an active incident). This is because many engineers have very noisy notifications enabled for that channel, and such announcements are essentially false positives which make them check the channel unnecessarily.
+**NOTE:** The DBO support does not need to announce beginning/end of their shift in #g_database_operations, unless there is an active incident happening (check the chat history of the channel to know if there is an active incident). This is because many engineers have very noisy notifications enabled for that channel, and such announcements are essentially false positives which make them check the channel unnecessarily.
 
 #### Weekdays (UTC)
 
 1. Incidents will be escalated by the EOC or Incident Manager by notifying the DBO through @dbre or @dbo slack handle with an eligible DBO according to their working hours.
 1. During incidents the available DBO can pass the incident to another DBO/Reliability EM, if they are urgently needed somewhere else.
-1. In timezones where we have only one DBO, the DBO can pass the incident to the available Reliability Engineering manager who will work to find someone(not necessarily a DB) who can help
+1. In timezones where we have only one person, the DBO can pass the incident to the available Reliability Engineering manager who will work to find someone(not necessarily a DB) who can help
 
 ##### Escalation
 
@@ -64,7 +64,7 @@ The first iteration will only focus on weekdays.
 
 **OPERATIONAL EMERGENCY ISSUES ONLY**
 
-   1. **GitLab.com**: DBO engineers provide initial response (not solution) in both incident channel and the tracking issue within **15 minutes**.
+   1. **GitLab.com**: DBO engineers provide initial response (not solution) in both incident channel and the tracking issue on a **best-effort basis**.
 
 #### Relay Handover
 
