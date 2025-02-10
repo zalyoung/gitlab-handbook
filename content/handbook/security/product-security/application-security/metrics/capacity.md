@@ -87,6 +87,7 @@ These labels indicate the current status of the issue.
 ### Table
 
 | Label    | Description |
+| -------- | ----------- |
 | AppSecWorkflow::planned| Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
 |AppSecWorkflow::in-progress|Indicates the issue is actively being worked on, or the rotation is in progress.|
 |AppSecWorkflow::complete|Indicates the work is done, or the rotation has finished.|
@@ -121,5 +122,5 @@ Review Coverage = (Vulnerability-introducing Merge Requests with Application Sec
 Where:
 
 - Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
-- Merge Requests without Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking both `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
-- Merge Requests with Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests with either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+- Vulnerability-introducing Merge Requests **without** Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking both `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+- Vulnerability-introducing Merge Requests with Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests with either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
