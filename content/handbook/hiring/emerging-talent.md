@@ -3,7 +3,7 @@ title: "Emerging Talent @ GitLab"
 description: "Overview of Emerging Talent @ GitLab"
 ---
 
-Emerging Talent, defined as talent with 2 years or less experience in a given domain, will be a value add as GitLab scales. 
+Emerging Talent, defined as talent with 2 years or less experience in a given domain, will be a value add as GitLab scales.
 
 This page will serve to provide additional information for hiring managers when we achieve a critical mass of intern and job grade 4 positions.
 
