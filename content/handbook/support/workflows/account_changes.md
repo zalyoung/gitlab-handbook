@@ -260,12 +260,12 @@ The action of impersonation is in accordance with our [Confidentiality Terms of 
 
 ## Account changes for users that cannot login due to SCIM or SAML misconfiguration
 
-When a user is reaching out of support to change their usernames or delete their account in order to be re-provision by an IdP please always revert them to self-serve options first: 
+When a user is reaching out to support to change their usernames or delete their account in order to be re-provision by an IdP, please always revert them to self-serve options first: 
 
 ### Self-serve options
 
 - Use password reset to authenticate via username/password so the user can use self-serve deletion or modify their username themselves.
-- Or link existing account to their SAML identity by login directly to the group token URL to avoid deleting the account.
+- Or link the user's existing account to their SAML identity by login directly to the group using the tokenized GitLab single sign-on URL to avoid deleting the account.
 
 ### Password reset not received
 
