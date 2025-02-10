@@ -97,7 +97,7 @@ flowchart LR
     click D "" 
 
     TS --> Organizations
-    click Organizations "" 
+    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/" 
     SD --> CM[Cell Infrastructure]
     click CM ""
     SD --> Geo
