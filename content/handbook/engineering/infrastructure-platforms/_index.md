@@ -43,7 +43,7 @@ flowchart LR
     I --> SD[Software Delivery]
     click SD "/handbook/engineering/infrastructure/team/delivery/"
     I --> TS[Tenant Scale]
-    click TS ""
+    click TS "/handbook/engineering/infrastructure-platforms/tenant-scale/"
 
     DA --> DF[Database Framework]
     click DF "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
