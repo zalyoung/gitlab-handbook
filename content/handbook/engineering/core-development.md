@@ -113,10 +113,16 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 *** Remote Development
 *** Editor Extensions
 *** Source Code
-** Manage & AI Framework
-*** AI Framework
+** Foundations & Data Science
+*** Data Science
+**** AI Framework
+**** Duo Chat
+**** Duo Workflow
 *** Foundations
-*** Import
+**** Import and Integrate
+**** Personal Productivity
+**** Design System
+**** Global Search
 ** Ops
 *** Deploy
 *** Observability
@@ -127,13 +133,13 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 **** Pipeline Execution
 **** Pipeline Security
 ** Plan
-*** Optimize
 *** Product Planning
 *** Project Management
 *** Knowledge
 ** Analyze
 *** Product Analytics
 *** Analytics Instrumentation
+*** Optimize
 @endwbs
 ```
 
