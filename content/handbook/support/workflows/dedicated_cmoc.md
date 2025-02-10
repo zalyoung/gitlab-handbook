@@ -27,7 +27,6 @@ If an urgent contact request is needed, you will be paged via PagerDuty. Start b
 
 The description in the PagerDuty alert should contain details about an issue, or a slack thread you need to follow. Follow any communication threads, and let the Dedicated Incident team know you are available to assist. You should be provided with the details of the request. If you're unsure, check [the GitLab Dedicated incidents issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?label_name%5B%5D=Incident%3A%3AActive) or ask in the `#g_dedicated-team` slack channel.
 
-
 ## Creating a new outreach ticket
 
 Follow these steps to create a new ticket to start communications with a customer.
@@ -44,7 +43,6 @@ Follow these steps to create a new ticket to start communications with a custome
     1. Add a `dedicated_contacted_request` **tag** to the ticket.
 1. Assign the ticket to yourself.
 1. After sending the initial outreach message to the customer, mark the PagerDuty alert as **resolved**. The alert's purpose is specifically to engage the GDCMOC to start communication.
-
 
 ## Keep the customer informed
 
