@@ -327,6 +327,8 @@ You will now see that the `README` file has a green font color. This indicates t
    a third line added on the remote copy of temporary_branch
    ```
 
+1. Click the **Commit Changes** button on the upper-right side of the page.
+
 1. Enter an appropriate commit message.
 
 1. Set the target branch to **temporary_branch**.
