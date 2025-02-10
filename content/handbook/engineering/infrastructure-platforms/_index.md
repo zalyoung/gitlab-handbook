@@ -98,8 +98,8 @@ flowchart LR
 
     TS --> Organizations
     click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/" 
-    SD --> CM[Cell Infrastructure]
-    click CM ""
+    TS --> CI[Cells Infrastructure]
+    click CI "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
     SD --> Geo
     click Geo ""
 ```
