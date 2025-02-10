@@ -16,30 +16,24 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 
 {{#fields}}
 
-## [MDF Request]({{fundRequest}})
-
-  
+## MDF Request - {{fundRequest}}
 
 ## :key: Key Details
 
-  
 ### :round_pushpin: DRI  
   
 * **Campaign Owner (CMM)**: {{userHandle}}
 * **Ecosystem Sales Manager**: `Insert ESM`  
 * [ ] **Manager Approval**: `Insert Ecosystem Director` - Approval required only for EMEA.  
   
-
 ### :handshake: Partner Details  
   
-
 * **Channel Partner**: {{channelPartnerName}}
 * **Channel CRM ID**: {{channelPartnerCrmId}}
 * **Is an Alliance Partner Involved?**: {{isAlliancePartnerInvolved}}
 * **Alliance Partner**: {{alliancePartnerName}}
 * **Alliance CRM ID**: {{alliancePartnerCrmId}}
 
-  
 ### :paperclips: Quick Links
 
 * [ ] **MDF Tracking Sheet** (add link)
@@ -50,15 +44,11 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
   * [ ] **Fund Claim** (add link)
 * [ ] [**Marketo Program**]() - [process to follow](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#mdf-campaigns) Remember to paste **Allocadia Line Item ID** into Marketo Description field when syncing to SFDC. The line item in Allocadia will auto-tag/update once the SFDC Campaign is created and an ID match found.
 * [ ] [**Zip**]()
-  
 
 ## :notepad_spiral: Campaign Details
 
-  
-
 *Please do not delete anything in this section. Fill out information in full and complete your budget line item before moving to WIP.*
 
-  
 * **Date(s):** {{startDate}} - {{endDate}}
 * **Campaign Type:** Partner - MDF
 * **Worked by Sales Dev:** {{workedBySalesDev}}
@@ -78,15 +68,9 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 * **Sales Segment:** Assumes both Large & MM unless otherwise explicitly noted.
 
 
-  
-
 ## :vertical_traffic_light: User Journey
 
-  
-
 (REQUIRED: Channel Marketing Manager to provide a description of the user journey. What is this campaign? How will the partner attract leads and drive ROI from this spend?)
-
-  
 
 ## Joint Messaging
 
@@ -96,15 +80,11 @@ Please provide high level joint messaging concepts that you will be using with t
 
 (Fill in if applicable, delete if not.)
 
-  
-
 ## :mega: Does this event have a speaking engagement?
 
 (Fill in if applicable, delete if not.)
   
 ## :busts_in_silhouette: Staffing
-
- 
 
 Please read through the [Event Handbook page](https://about.gitlab.com/handbook/marketing/events/#employee-booth-guidelines) for best practices at events. Once you commit to an event, please make sure to plan to attend.
 
@@ -113,8 +93,6 @@ Please read through the [Event Handbook page](https://about.gitlab.com/handbook/
 * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events.html#requesting-a-reference-customer).
 * [ ] GitLab AE
 * [ ] Other:
-
-  
   
 
 ### Lead Follow-up with Channel Partner
@@ -141,8 +119,6 @@ For all details regarding swag, [please see here](https://about.gitlab.com/handb
 - [ ] Please list what is being shipped (including quantities):
 - [ ] Tracking:
 </details>
-
-  
   
 
 ## :checkered_flag: Post Event
@@ -156,12 +132,10 @@ For all details regarding swag, [please see here](https://about.gitlab.com/handb
 * [ ] Add proof of performance to the epic by posting the SFDC Fund Claim link
  
 </details>
- 
 
 /label ~"mktg-status::wip" ~“Channel Marketing” ~"Channel" ~"MDF" ~”Pending MDF Approval”
 
 /assign {{userHandle}}
-
 /confidential
 
 {{/fields}}
