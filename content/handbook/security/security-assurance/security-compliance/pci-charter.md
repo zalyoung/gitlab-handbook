@@ -23,7 +23,9 @@ Results and status are communicated to executive management.
 
 ## Scope
 
-GitLab is in scope for PCI DSS as both a service provider (SAQ D) covering GitLab.com and a Merchant (SAQ A) covering customers.GitLab.com. For more details, including an an inventory of system components that are in scope for PCI DSS and a description of their function/use, see the [external audit technical scope](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/blob/main/Certifications-Attestations/External_Audit_'Technical'_Scope.md?ref_type=heads#pci).
+GitLab DOES NOT store, process, or transfer cardholder data (CHD) or sensitive authentication data (SAD), however is in scope for PCI DSS because our offering can impact the security of our customers' cardholder data environments (CDE) such as their code repositories and CI/CD workflows. GitLab is also in scope in a limited capacity due to our outsourcing of the Customer Portal payment form.
+
+Therefore GitLab is in scope for PCI DSS as both a service provider (SAQ D) covering GitLab.com and a Merchant (SAQ A) covering customers.GitLab.com. For more details, including an an inventory of system components that are in scope for PCI DSS and a description of their function/use, see the [external audit technical scope](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/blob/main/Certifications-Attestations/External_Audit_'Technical'_Scope.md?ref_type=heads#pci).
 
 ### Program Diagrams
 
