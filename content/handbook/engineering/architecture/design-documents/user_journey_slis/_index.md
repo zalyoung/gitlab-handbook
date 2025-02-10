@@ -28,14 +28,14 @@ The system will help measure the reliability and performance of key user interac
 While GitLab has robust service-level metrics through our SLI framework, we currently lack a systematic way to track and measure complete user journeys that span multiple services. Our existing SLIs excel at measuring individual service performance but cannot effectively track the success/failure rate and performance of end-to-end user interactions. This gap makes it challenging to:
 
 - Understand the true user experience across service boundaries
-- Set and monitor meaningful SLOs for complex user interactions
+- Set and monitor user-centric SLOs for complex user interactions
 - Identify bottlenecks in multi-service flows
 - Ensure critical user paths are well-tested and monitored
 
 ### Goals
 
 - Create a framework for product teams to define important user journeys in a structured way
-- Develop an SDK that makes it easy for engineers to instrument user journey start/end points
+- Develop an SDK that makes it easy for engineers to instrument user journeys using start, checkpoints and ending.
 - Build a service to track journey state and emit relevant metrics/logs
 - Support both GitLab.com and self-managed/dedicated deployments
 - Enable measurement of journey success/failure rates and durations through SLIs
@@ -169,12 +169,13 @@ journeys:
     # Using default timeout
 ```
 
-### SDK Design
+### SDK Requirements
 
-- Implementation in LabKit focusing on Ruby support initially
+- Implementation in LabKit starting with Ruby
 - Journey ID generation
-- Automatic retries with exponential backoff
-- Batch operation support
+- Automatic retries with exponential backoff for sending reports to the User Journey Service
+- Batching reports for the User Journey Service
+- Reports are sent asynchronously outside of the User Journey.
 
 ### User Journey State Management Service
 
@@ -298,7 +299,7 @@ The storage must support:
 
 - Runway service for GitLab.com
 - Kubernetes deployment for self-managed instances
-- Redis for state storage?
+- Redis for journey state storage
 
 ### Failure Modes
 
@@ -318,6 +319,7 @@ The storage must support:
 1. Distributed Tracing
    Pros:
    - Existing solutions available
+   - Opportunity to iterate towards a global Tracing solution
 
    Cons:
    - Different cardinality requirements -- one trace per request
