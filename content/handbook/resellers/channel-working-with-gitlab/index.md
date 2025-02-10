@@ -128,6 +128,7 @@ Service Attached Registration is submitted via the Partner Portal as a deal regi
 
 The following criteria must be met for (i) a Service Attached Registration to be approved and (ii) partner to receive a rebate:
 
+
 - Completion of the associated software opportunity (i.e., closed-won)
 - Partner must be Select and/or PSP 
 - Partner must submit a fully executed Statement of Work (SOW) to partnersupport@gitlab.com and include the Deal ID number. Partner may alternatively provide written customer acknowledgement of completed work descriptions for customers in regulated industries (e.g., PubSec), provided all criteria noted below are met.
