@@ -27,7 +27,7 @@ Switch from the API to downloading and processing the compressed CSV file for re
 
 ### Negative
 
-- Must handle all data at once
+- Must keep all data in memory while processing them. Given the size of the CSV this is not a problem. 
 - Can't choose to download only specific parts of the data (though this is not a relevant use case)
 
 ## Alternatives
