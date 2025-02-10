@@ -67,4 +67,4 @@ We will assist in managing and providing guidance to carry out day to day activi
 - [Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 
-<a href="[security-assurance](/handbook/security/security-assurance/)" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>
+<a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

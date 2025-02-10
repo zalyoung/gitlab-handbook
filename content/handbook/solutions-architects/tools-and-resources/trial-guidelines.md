@@ -156,7 +156,7 @@ Once accessed the form, enter the email and choose "GitLab L&R Internal Request 
 
 Note you also need to have [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
 
-[References](/handbook/engineering/architecture/design-documents/modular_monolith/references)
+References
 
 - [Support Internal Requests](/handbook/support/internal-support/#internal-requests)
 - [Support Super Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/)

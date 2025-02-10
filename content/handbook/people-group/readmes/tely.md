@@ -46,7 +46,7 @@ Inclusion & Belonging: I believe in fostering a work environment where everyone 
 Continuous Learning: I'm always looking to expand my knowledge and skills, both professionally and personally. Whether it's diving into a new book, taking an online course, or experimenting with a new workout routine, I'm all about growth.
 Collaboration: I thrive in collaborative environments where ideas can flow freely and teams work together to achieve great things.
 Honesty
-[Feedback](/handbook/engineering/development/sec/secure/tech-docs/feedback)
+Feedback
 Innovation
 
 ## “Stronger, Better, Faster, Sleepy” (My Leadership Strengths and Areas of Improvement)

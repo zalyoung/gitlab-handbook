@@ -80,4 +80,4 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
   - Mention `@security-risk`
 - <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
 
-<a href="[security-assurance](/handbook/security/security-assurance/)" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>
+<a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

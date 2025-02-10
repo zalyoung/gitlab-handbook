@@ -224,7 +224,7 @@ WITH base AS (
     CROSS JOIN dim_date
 )
 
-[SELECT](/handbook/support/partnerships/select)
+SELECT
     a.dim_crm_account_id,
     a.snapshot_month AS product_usage_date,
     --number of all time features used
@@ -248,7 +248,7 @@ WITH base AS (
     LIMIT 100
     {% endif %}
 )
-[SELECT](/handbook/support/partnerships/select)
+SELECT
     a.dim_crm_account_id,
 
     {% if get_historical_features %} b."entity_timestamp"::DATE {% endif %}

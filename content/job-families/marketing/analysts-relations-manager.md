@@ -118,7 +118,7 @@ Measurement & Reporting
 - Develop and manage an internal analyst relations newsletter
 - Read, distribute and provide insight on relevant published research to teams across GitLab
 
-[Events](/handbook/marketing/developer-relations/events)
+Events
 
 - Execute Gartner Peer Insights reviews sourcing activities at trade shows, conferences, and GitLab events.
 - Proactively secure and staff briefings at industry conferences and events
@@ -143,7 +143,7 @@ The Director of Industry Analyst Relations is responsible for the strategy and i
 
 #### Director of Industry Analyst Relations Responsibilities
 
-[Strategy](/handbook/company/strategy)
+Strategy
 
 - Develop, execute, and manage the company's industry analyst relations strategy and plan to support measurable business objectives.
 - Establish key KPIs, strategy, and industry benchmarks to position GitLab as a leader across markets and in industry analyst reports, hype cycles and through inbound inquiries.
@@ -151,7 +151,7 @@ The Director of Industry Analyst Relations is responsible for the strategy and i
 - Create and nurture strong, positive and collaborative relationships with industry analysts, technology influencers, and thought leaders, serving as a key, centralized contact point.
 - Establish and maintain regular communication with analysts and influencers via multiple channels, which you will develop, to engage and educate these audiences on GitLab's strategy, roadmap, and product updates.
 
-[Operations](/handbook/support/readiness/operations/)
+Operations
 
 - Manage all AR operations, including rationalizing agreements and budgets to support consistent analyst strategy days, quarterly briefings, inbound and outbound inquiries, and research requests. Ensure that contracted services are fully utilized.
 - Plan, schedule, and manage analyst program activities such as participation in analyst research, conferences, advisory events, demos, briefings, inquiries, and reporting.
