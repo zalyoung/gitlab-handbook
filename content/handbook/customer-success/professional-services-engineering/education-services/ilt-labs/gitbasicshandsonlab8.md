@@ -23,8 +23,6 @@ To start, let's learn the basics of creating issues in GitLab.
 
 1. Enter any description you like.
 
-1. In **Assignees**, select **Assign to me**.
-
 1. Select **Create issue**.
 
 By following this process, you created an issue related to your **Cool App QA** project. Let's discuss some of the details related to your issue. In the center, you will see your issue description, as well as activity for the issue and an area to add comments and discussions. Every issue can have child items, which are smaller tasks related to the issue. Issues can also be linked to other issues to show relationships between issues. 
@@ -91,9 +89,15 @@ To help with viewing issues and epics in a singular place, you can utilize issue
 
     > In this view, you will see all your issues associated with their statuses.
 
-1. In the left sidebar, select **Plan > Epic boards**.
+1. We are going to create a new list to store our issues that are associated with us. Click the **New List** button on the right.
 
-    > In this view, you will see all your epics associated with their statuses. 
+1. Select *Assignee**, then select your username. 
+
+1. Select **Add to board**.
+
+1. You should see your issue you created before in the 'Open' list. Click and drag the issue from the 'Open' list to the list with your username.
+
+1. Click on the issue. You should see that you have been automatically assigned to the issue.
 
 It is possible to further customize issue boards to display different sets of information depending on your requirements. For more details on issue boards, check out the [documentation](https://docs.gitlab.com/ee/user/project/issue_board.html).
 
