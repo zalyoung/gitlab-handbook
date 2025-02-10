@@ -703,9 +703,9 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
 1. Ecosystem Operations reviews the partner SOW and moves the registration to one of the following statuses:
 
     - **`Pending`**: Additional information or documentation is needed. Ecosystem Operations will leave the registration in `Pending` status and work with the partner to obtain required documentation.
-    - **`Pending Opportunity Closure`**: The partner's SOW (i) has been submitted and (ii) meets [program requirements](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications), but the related software opportunity is not yet closed-won
+    - **`Pending Opportunity Closure`**: The partner's SOW (i) has been submitted and (ii) meets [program requirements](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications), but the related software opportunity is not yet closed-won
     - **`Approved`**: (i) The SOW has been submitted and approved and (ii) the opportunity has been closed-won
-    - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](https://handbook.gitlab.com/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
+    - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](/handbook/resellers/channel-working-with-gitlab/#how-services-attached-registrations-work)
     - **`Closed`**: If the opportunity has moved to closed-lost or if the partner or ESM communicate that the partner did not win the services business
 
 2. Ecosystem Operations adds the `Service Attach Approval Date` when the registration is moved to `Approved`. `Service Reg Approval Date` will be set when both requirements below are fulfilled:
@@ -876,7 +876,7 @@ Ecosystem Sales Managers can:
 - generate their Partner Insights data by accessing this self-service [spreadsheet](https://docs.google.com/spreadsheets/d/1DfwnsWbKSUbY21KIzCh2hZH3cgJZltmjXSsCeObLT58/edit?usp=sharing). Please follow the instructions on the first tab of the spreadsheet to generate a PDF with charts and metrics for your selected partner.
 - create a Partner Insights PowerPoint by accessing this [step-by-step guide](https://docs.google.com/document/d/1XoyxxF8Ni8HpXqj17Tsoyd47zxpFpCCtnXJJ_WrO5aM/edit?usp=sharing).
 
-If you need assistance with accessing the spreadsheet or PowerPoint step-by-step guide, please contact us at [#partner-program-ops](https://gitlab.slack.com/archives/CTM4T5BPF) in Slack. If you have a customized reporting request that's not on the self-service spreadsheet, [please open an issue on the Ecosystem Operations board](/handbook/sales/field-operations/channel-operations/#the-channel-operations-issue-board).
+If you need assistance with accessing the spreadsheet or PowerPoint step-by-step guide, please contact us at [#partner-program-ops](https://gitlab.slack.com/archives/CTM4T5BPF) in Slack. If you have a customized reporting request that's not on the self-service spreadsheet, [please open an issue on the Ecosystem Operations board](/handbook/sales/field-operations/channel-operations/#the-ecosystem-operations-issue-board).
 
 ## Partner Award Program
 
