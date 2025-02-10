@@ -30,14 +30,14 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Understand the true user experience across service boundaries
 - Set and monitor user-centric SLOs for complex user interactions
 - Identify bottlenecks in multi-service flows
-- Ensure critical user paths are well-tested and monitored
+- Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144)
 
 ### Goals
 
 - Create a framework for product teams to define important user journeys in a structured way
 - Develop an SDK that makes it easy for engineers to instrument user journeys using start, checkpoints and ending.
 - Build a service to track journey state and emit relevant metrics/logs
-- Support both GitLab.com and self-managed/dedicated deployments
+- Support both GitLab.com and dedicated deployments
 - Enable measurement of journey success/failure rates and durations through SLIs
 - Provide data that can help identify test coverage gaps for critical user paths
 
@@ -46,7 +46,7 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Building a general-purpose distributed tracing solution
 - Supporting user journeys that originate outside GitLab services (e.g., client-side only flows)
 - Real-time journey visualization or debugging tools
-- Initial support for languages other than Ruby
+- Logs and metrics will be emitted from self-managed, but it won't officially support ingesting information from those instances as we don't have control over such environments
 
 ## Proposal
 
@@ -94,24 +94,26 @@ flowchart LR
     end
 
     subgraph Runbooks
-        spec[User Journey Spec]
         metricsCatalog[Metrics Catalog]
-
-        metricsCatalog --depends on--> spec
     end
 
-    s1@{shape: subproc, label: "Service A"}
-    s2@{shape: subproc, label: "Service B"}
+    subgraph s1[Service A]
+        LabKitS1[LabKit]
+    end
+    subgraph s2[Service B]
+        LabKitS2[LabKit]
+    end
 
     User --> App
     Process --> s1
     LabKit --emit start--> journeyService
     LabKit --emit end?--> journeyService
     s1 --> s2
-    s1 --emit event--> journeyService
-    s2 --emit event--> journeyService
+    LabKitS1 --emit event--> journeyService
+    LabKitS2 --emit event--> journeyService
 
     Runbooks --pull spec--> App
+    metricsCatalog --consume metrics--> journeyService
 ```
 
 ### Batched Workflow
@@ -147,27 +149,22 @@ sequenceDiagram
 
 ### Journey Definition Spec
 
-The user journey definition will be a YAML file containing the relevant details. For example:
+The user journey definition will contain the relevant details. For example:
 
-```yaml
-journeys:
-  - id: merge_request_creation                        # Required: Unique identifier for the journey
-    description: "User creates a merge request"       # Required: Human readable description
-    feature_category: source_code_management          # Required: GitLab feature category
-    success_threshold: 30                             # Optional: Success threshold in seconds (default: 60)
-    timeout: 300                                      # Optional: Journey timeout in seconds (default: 600)
+| Field                              | Type    | Required | Default | Description                                                      | Example                        |
+|------------------------------------|---------|----------|---------|------------------------------------------------------------------|--------------------------------|
+| id                                 | string  | Yes      | -       | Unique identifier for the journey                                | `merge_request_creation`       |
+| description                        | string  | Yes      | -       | Human readable description                                       | "User creates a merge request" |
+| feature_category                   | string  | Yes      | -       | GitLab feature category                                          | `source_code_management`       |
+| apdex_success_threshold_in_seconds | integer | Yes      | -       | Apdex success threshold in seconds                               | `30`                           |
+| timeout_in_seconds                 | integer | Yes      | -       | Journey timeout in seconds. Zero means it doesn't have a timeout | `300`                          |
 
-  - id: git_push
-    description: "User pushes commits to a repository"
-    feature_category: source_code_management
-    # Using default thresholds
+Example journeys:
 
-  - id: issue_creation
-    description: "User creates an issue"
-    feature_category: team_planning
-    success_threshold: 45                             # Custom success threshold of 45 seconds
-    # Using default timeout
-```
+| id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
+|------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
+| merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
+| git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
 
 ### SDK Requirements
 
@@ -298,7 +295,7 @@ The storage must support:
 ### Service Architecture
 
 - Runway service for GitLab.com
-- Kubernetes deployment for self-managed instances
+- Runway hosted service for dedicated
 - Redis for journey state storage
 
 ### Failure Modes
