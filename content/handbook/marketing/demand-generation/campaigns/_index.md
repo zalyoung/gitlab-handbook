@@ -43,7 +43,7 @@ The goals for new first-order MQLs and SAOs are derived from workbacks of sales 
 
 <details>
 <summary markdown='span'>
-[FY24-Q1](/handbook/company/okrs/fy24-q1)
+FY24-Q1
 </summary>
 
 - **To Be Added**
@@ -52,7 +52,7 @@ The goals for new first-order MQLs and SAOs are derived from workbacks of sales 
 
 <details>
 <summary markdown='span'>
-[FY23-Q4](/handbook/company/okrs/fy23-q4)
+FY23-Q4
 </summary>
 
 - **To Be Added**

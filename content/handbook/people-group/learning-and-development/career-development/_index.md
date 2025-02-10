@@ -17,7 +17,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="[general-and-entity-benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund)" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
     <a href="/handbook/people-group/learning-and-development/career-development/#tracking-your-progress" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
     <a href="/handbook/people-group/learning-and-development/career-development/#having-career-conversations" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
     <a href="/handbook/company/structure/#job-frameworks" class="btn btn-primary" style="margin:5px;">Job Frameworks</a>
@@ -29,14 +29,14 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="[mentor](/handbook/people-group/learning-and-development/mentor/)" class="btn btn-primary" style="margin:5px;">Mentorship</a>
+    <a href="/handbook/people-group/learning-and-development/mentor/" class="btn btn-primary" style="margin:5px;">Mentorship</a>
     <a href="/handbook/people-group/learning-and-development/internship-for-learning/" class="btn btn-primary" style="margin:5px;">Internship for Learning</a>
     <a href="https://docs.google.com/presentation/d/1yY0ofMGgzN07ylTAnRP5geFnWcgUYkiVlcIyR54tpD0/edit#slide=id.g29a70c6c35_0_68" class="btn btn-primary" style="margin:5px;">Career Development Workshop</a>
-    <a href="[coaching](/handbook/leadership/coaching/)" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
-    <a href="[elevate-programs](/handbook/people-group/learning-and-development/elevate-programs/)" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
-    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses)" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
-    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#oreilly-learning)" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
-    <a href="[self-paced-learning](/handbook/people-group/learning-and-development/self-paced-learning/#gcp-learning)" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
+    <a href="/handbook/leadership/coaching/" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
+    <a href="/handbook/people-group/learning-and-development/elevate-programs/" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
+    <a href="/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
+    <a href="/handbook/people-group/learning-and-development/self-paced-learning/#oreilly-learning" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
+    <a href="/handbook/people-group/learning-and-development/self-paced-learning/#gcp-learning" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationscourses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#conferences-and-live-workshops" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
@@ -50,7 +50,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="[elevate-programs](/handbook/people-group/learning-and-development/elevate-programs/)" class="btn btn-primary" style="margin:5px;">Elevate</a>
+    <a href="/handbook/people-group/learning-and-development/elevate-programs/" class="btn btn-primary" style="margin:5px;">Elevate</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations" class="btn btn-primary" style="margin:5px;">Support your Team with Career Conversations Course</a>
     <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13409" class="btn btn-primary" style="margin:5px;">Manager M Groups</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/mitigating-risk" class="btn btn-primary" style="margin:5px;">Mitigating Risk Course</a>
@@ -64,7 +64,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 <div class="flex-row" markdown="0">
   <div>
     <a href="/handbook/ceo/shadow" class="btn btn-primary" style="margin:5px;">CEO Shadow</a>
-    <a href="[office-of-the-ceo](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow)" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
+    <a href="/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
     <a href="/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
     <a href="/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
@@ -134,7 +134,7 @@ Looking for a step-by-step guide on filling out the IGP? Use the resources below
 <div class="flex-row" markdown="0">
   <div>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/how-to-use-the-gitlab-individual-growth-plan-igp" class="btn btn-primary" style="margin:5px;">Short Course: How to use the IGP</a>
-    <a href="[igp-guide](/handbook/people-group/learning-and-development/career-development/igp-guide/)" class="btn btn-primary" style="margin:5px;"> Handbook: The GitLab IGP Guide </a>
+    <a href="/handbook/people-group/learning-and-development/career-development/igp-guide/" class="btn btn-primary" style="margin:5px;"> Handbook: The GitLab IGP Guide </a>
     <a href="https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#" class="btn btn-primary" style="margin:5px;">Workday User Guide: Individual Growth Plans</a>
   </div>
 </div>

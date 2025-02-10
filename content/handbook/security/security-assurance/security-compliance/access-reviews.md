@@ -170,4 +170,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [Access Requests handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
 
-<a href="[security-assurance](/handbook/security/security-assurance/)" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>

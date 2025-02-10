@@ -102,7 +102,7 @@ As a result, the definitions are stored in the following structure:
 ```yaml
 ai_gateway/agents/definitions
 
-[chat](/handbook/communication/chat)
+chat
   react
     base.yml
     mistral.yml

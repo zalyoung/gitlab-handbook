@@ -35,12 +35,12 @@ People Success Experience
 - You can learn how to use GitLab
 - You'll bring some international HR or People Ops experience.
 
-[Scaling](/handbook/company/culture/all-remote/scaling)
+Scaling
 
 - You're able to plan for future hires and hire according to that plan.
 - You've worked in high growth environments. As an example, you could have worked at an organization that has more-than-doubled the number of team members year over year
 
-[Values](/handbook/values/)
+Values
 
 - You'll share our values, work following those values.
 - You'll help reinforce and nurture our [values](/handbook/values/#how-do-we-reinforce-our-values ) internally.
@@ -53,7 +53,7 @@ People Success Experience
 - Transparency: You'll be committed to making the People Team as open and transparent as possible.
 - You'll demonstrate the ability to engage, motivate & inspire a global People team
 
-[All-remote](/handbook/company/culture/all-remote/)
+All-remote
 
 - We're able to hire team members across the globe. Part of your role will involve discovering approaches that help us hire team members in as many locations around the world as possible.
 - You'll help reinforce our [communication guidelines](/handbook/communication/). As you'll see, our approach to communication is unique and you'll need to be comfortable adapting your own style.
