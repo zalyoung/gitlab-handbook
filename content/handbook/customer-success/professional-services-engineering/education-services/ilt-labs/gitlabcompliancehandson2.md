@@ -1,63 +1,45 @@
 ---
-title: "GitLab Compliance - Compliance Center and Frameworks"
-description: "This Hands-On Guide demonstrates how to create and view compliance center events."
+title: "GitLab Compliance - Hands-On Lab: Scan Execution Policies"
+description: "This Hands-On Guide walks you through enabling and using Scan Execution Policies in your projects."
 ---
 
 > Estimated time to complete: 15 minutes
 
 ## Objectives
 
-Learners will run a few actions in GitLab that show up in the compliance center and view how you could see a framework in action.
+Scan execution policies allow you to run security scans against projects and groups in a consistent manner. In this lab, you will learn how to add a scan execution policy to your project.
 
-## Task A. Creating Compliance Center Events
+## Task A. Create a scan execution policy
 
-1. Navigate to your `Compliance Project` project.
+1. In the left sidebar, select **Secure > Policies**. 
 
-1. In the left sidebar, select **Secure > Compliance center**.
+1. Select **New policy**.
 
-In this section, you will see three failed checks in your project. In cases where the **Status** is `Fail`, you will see `View details (fix available)` in the **More information** column. Let's see what information is shown in this section.
+1. Under **Scan execution policy**, select **Select policy**.
 
-1. Select `View details (fix available)` in the `At least one non-author approval` row of your compliance center report.
+1. In the name, input `run scan`.
 
-1. Review the details outlined in this section.
+1. In the **Actions**, set the scan to run a **Secret Detection** scan. Leave all action configurations at default.
 
-1. Close the details panel.
+1. In the **Conditions** section, set to **Triggers:** for **all branches** with **No exceptions**.
 
-Throughout the labs in this course, we will see how to fix each of these compliance issues.
-
-## Task B. Creating compliance center violations
-
-In this task, we will complete some actions in our project that will result in compliance center violations.
-
-1. In the left sidebar, select **Code > Repository**. 
-
-1. Select **+ > New file**.
-
-1. For the filename, enter `main.py`.
-
-1. Add the following content to the file:
-
-```python
-print("Start compliance project")
-```
-
-1. Underneath the **Commit Message** in the **Target Branch** field, enter `new-main`.
-
-1. Ensure that **Start a new merge request with these changes** is selected. 
-
-1. Select **Commit changes**.
-
-1. In the resulting merge request, select **Assign to me** in the **Assignees** section.
-
-1. Select **Create merge request**.
+1. Select **Configure with a merge request**.
 
 1. Select **Merge**.
 
-1. After the merge request completes, select **Secure > Compliance center**.
+## Task B. Testing your scan execution policy
 
-1. Select the **Violations** tab.
+1. Navigate back to your `Compliance Project` project.
 
-1. Review the violation labelled **Less than 2 approvers**. 
+1. Select **+ > New file**.
+
+1. Enter anything for the **Filename** and file contents.
+
+1. Select **Commit changes**.
+
+1. Select **Create merge request**.
+
+1. Review the merge request pipeline. Note that there is now a secret detection scan job.
 
 ## Lab Guide Complete
 
@@ -65,4 +47,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request!
+If you'd like to suggest changes to the *Hands-On Guide for GitLab Compliance*, please submit them via merge request.
