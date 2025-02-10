@@ -27,7 +27,6 @@ If an urgent contact request is needed, you will be paged via PagerDuty. Start b
 
 The description in the PagerDuty alert should contain details about an issue, or a slack thread you need to follow. Follow any communication threads, and let the Dedicated Incident team know you are available to assist. You should be provided with the details of the request. If you're unsure, check [the GitLab Dedicated incidents issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?label_name%5B%5D=Incident%3A%3AActive) or ask in the `#g_dedicated-team` slack channel.
 
-Once an outreach ticket has been sent to the customer, mark the PagerDuty alert as **resolved**.
 
 ## Creating a new outreach ticket
 
@@ -44,6 +43,8 @@ Follow these steps to create a new ticket to start communications with a custome
     1. Set the **Preferred Region for Support** to the region similar to where the tenants' `Primary Region` is located.
     1. Add a `dedicated_contacted_request` **tag** to the ticket.
 1. Assign the ticket to yourself.
+1. After sending the initial outreach message to the customer, mark the PagerDuty alert as **resolved**. The alert's purpose is specifically to engage the GDCMOC to start communication.
+
 
 ## Keep the customer informed
 
@@ -62,6 +63,16 @@ Follow these steps to create a new ticket to start communications with a custome
 | Security-related out-of-band maintenance | SIRT                   | SIRT                  |
 | Incident communication                   | SRE / Incident manager | Optional              |
 | Other urgent communication               | It depends             | Optional              |
+
+## Closing the Outreach Ticket
+
+The outreach ticket's scope is specifically for customer communication about a particular incident or maintenance. Once the communication about the incident/maintenance is complete (e.g., maintenance is finished, incident is resolved), you should:
+
+1. Send a final update to the customer confirming the completion.
+1. Close the outreach ticket.
+1. Add a brief internal note summarizing the communication timeline (optional).
+
+Note: If the customer responds with follow-up questions after closure, create a new ticket to handle those inquiries separately from the original outreach communication.
 
 ## Guidelines
 
