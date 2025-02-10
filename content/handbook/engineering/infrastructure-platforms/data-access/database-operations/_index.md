@@ -47,7 +47,7 @@ Systems or services explicitly not owned by us:
 
 ## DBO Escalations
 
-We have a detailed [DBO escalation process](dbre-escalation-process) that provides escalation guidelines for handling database related production incidents.
+We have a detailed [DBO escalation process](dbre-escalation-process) which provides escalation guidelines for handling database related production incidents.
 
 ## OKRs
 
