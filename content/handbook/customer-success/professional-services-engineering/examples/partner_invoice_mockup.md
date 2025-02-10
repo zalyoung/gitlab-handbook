@@ -14,7 +14,7 @@ PO: 10003403404
 **TO:**
 
 ```md
-[GitLab](/handbook/security/corporate/systems/gitlab/)
+GitLab
 ap@gitlab.com
 268 Bush Street, #350
 San Francisco, CA 94104

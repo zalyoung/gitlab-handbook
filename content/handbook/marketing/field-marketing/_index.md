@@ -284,7 +284,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
-- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) 
+- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas)
 
 ## Items required by FMM to begin the Plan to WIP process
 
@@ -313,7 +313,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - The FMC will then proceed with their tasks in Asana
 - Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. The FMM will then go to the top of the page and click `Set status` and select `Complete`.
 
-## Plan to WIP Recorded Training 
+## Plan to WIP Recorded Training
 
 TBD for new Asana process
 
@@ -566,7 +566,7 @@ It is the FMM's responsibility to not only ship assets to events, but to also en
 
 AMER Warehouse
 Attn: GitLab AMER FM Store - c/o Kerry Phan
-[Brilliant](/handbook/marketing/marketing-operations/brilliant)
+Brilliant
 1605 S Waukegan Rd
 Waukegan, IL 60085
 415-980-4600.

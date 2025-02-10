@@ -77,7 +77,7 @@ The DAST team also monitors #s_application-security-testing and #sec-section. Bo
 ## How We Work
 
 ```mermaid
-[timeline](/handbook/customer-success/csm/gainsight/timeline)
+timeline
   title Annual Kanban Ceremonies
   section Q1 <br> OKR Development Sync
     M1 <br> Milestone Planning Sync
@@ -154,7 +154,7 @@ For all quarterly, monhtly, and weekly Kanban ceremonies, the [Hallway Monitor B
 ### Quarterly OKR Development
 
 ```mermaid
-[timeline](/handbook/customer-success/csm/gainsight/timeline)
+timeline
   section Q1 <br> OKR Development Sync
   section Q2 <br> OKR Development Sync
   section Q3 <br> OKR Development Sync
@@ -179,7 +179,7 @@ The group will get together two weeks before the next quarter begins to create a
 ### Milestone Release Planning
 
 ```mermaid
-[timeline](/handbook/customer-success/csm/gainsight/timeline)
+timeline
   section M1 <br> Milestone Planning Sync
   section M2 <br> Milestone Planning Sync
   section M3 <br> Milestone Planning Sync

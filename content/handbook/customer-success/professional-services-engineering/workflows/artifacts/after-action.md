@@ -25,10 +25,10 @@ Particpants:
 Customer
 ---
 
-[GitLab](/handbook/security/corporate/systems/gitlab/)
+GitLab
 ---
 
-[Goals](/handbook/engineering/architecture/design-documents/cells/goals)
+Goals
 *
 
 Outcomes

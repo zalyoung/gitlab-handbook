@@ -25,7 +25,7 @@ Preparation for Onboarding call
 1. For Ultimate customers hide the Security and Auditing (GitLab Premium) slides
 1. For Premium customers hide the Security and Compliance (GitLab Ultimate) slides
 
-[Resources](/handbook/company/culture/all-remote/resources)
+Resources
 
 - [Deck](https://docs.google.com/presentation/d/1zb-0RdsnvyLhZW0ECppWJSUf0EaWNm20T78PDTCaWzM/edit#slide=id.g1287bf62b57_0_209) (internal link, make a copy)
 - [GitLab Issue](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/331) with discussion on creation of the deck

@@ -217,7 +217,7 @@ The first step is to run an explain plan, which shows the query has 630 partiton
 
 ```sql
 EXPLAIN
-[SELECT](/handbook/support/partnerships/select)
+SELECT
   *
 FROM
   "RAW".tap_postgres.GITLAB_DB_TODOS
@@ -321,7 +321,7 @@ WITH
       LEFT JOIN dim_ci_pipeline ON ci_stages.pipeline_id = dim_ci_pipeline.dim_ci_pipeline_id
       INNER JOIN dim_date ON TO_DATE(ci_stages.created_at) = dim_date.date_day
   )
-[SELECT](/handbook/support/partnerships/select)
+SELECT
   *,
   '@mpeychet_'::VARCHAR AS created_by,
   '@chrissharp'::VARCHAR AS updated_by,

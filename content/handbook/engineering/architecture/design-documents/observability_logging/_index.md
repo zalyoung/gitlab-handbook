@@ -202,7 +202,7 @@ In both cases, their `Body` fields were filled with data that simulates a JSON m
 CREATE FUNCTION genmap AS (n) -> arrayMap (x-> (x::String, (x*(rand()%40000+1))::String), range(1, n));
 
 INSERT INTO tbl(2|3)
-[SELECT](/handbook/support/partnerships/select)
+SELECT
     now() - randUniform(1, 1_000_000) as Timestamp,
     randomPrintableASCII(2) as TraceId,
     randomPrintableASCII(2) as ServiceName,

@@ -122,7 +122,7 @@ These conditions are captured in the `is_sao` field on the fct_crm_opportunity t
 Example Query
 
 ```sql
-[SELECT](/handbook/support/partnerships/select)
+SELECT
 sales_accepted_date,
 dim_crm_opportunity_id
 FROM mart_crm_opportunity
@@ -165,7 +165,7 @@ These conditions are captured in the `is_closed_won` field on the fct_crm_opport
 Example Query
 
 ```sql
-[SELECT](/handbook/support/partnerships/select)
+SELECT
 sales_accepted_date,
 dim_crm_opportunity_id
 FROM mart_crm_opportunity

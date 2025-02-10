@@ -47,7 +47,7 @@ Start with the [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab
 If the shortened message looks like an error caused by a valid attempt at sending an event, we likely need to dig into the actual requests / events being sent. You can get a sample of events for a specific error message with an sql query in Snowflake similar to:
 
 ```sql
-[SELECT](/handbook/support/partnerships/select)
+SELECT
     JSONTEXT:errors[0]:message as message,
     JSONTEXT:line::text as base_64_request
 FROM RAW.SNOWPLOW.GITLAB_BAD_EVENTS

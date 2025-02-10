@@ -289,7 +289,7 @@ Environment
 dbt list 1+pump_disaster_relief_fund
 ```
 
-[Build](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/)
+Build
 
 ```console
 dbt list pump_disaster_relief_fund
