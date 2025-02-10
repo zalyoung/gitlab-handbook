@@ -121,7 +121,7 @@ Central repository for ML model management: [Model registry docs](https://docs.g
 - Standardized model cards
 - Governance instruments
 
-### 3. Efficient management of GPU resources
+#### 3. Efficient management of GPU resources
 
 Link to [GPU runners docs](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled.html).
 
