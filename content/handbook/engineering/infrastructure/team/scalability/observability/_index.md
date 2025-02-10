@@ -105,14 +105,14 @@ For example, instead of answering specific questions from team members individua
 The group is an owner of several performance indicators that roll up to the Infrastructure department indicators:
 
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
-1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/) which generates capacity warnings to prevent incidents.
+1. [Capacity Planning](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/capacity-planning/introduction/) uses capacity warnings to prevent incidents.
 
 These are combined to enable us to better prioritize team projects.
 
 An overly simplified example of how these indicators might be used, in no particular order:
 
 * Service Maturity - provides detail on how trustworthy the data we received from observability stack in relation to the service; the lower the level the more focus we need to improve the service observability
-* Tamland reports - Provides a forecast for a specific service
+* Capacity Planning - Provides a forecast for a specific service
 
 Between these different signals, we have a relatively (im)precise view into the past, present and future to help us prioritise scaling needs for GitLab.com.
 
