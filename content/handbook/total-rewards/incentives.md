@@ -288,6 +288,12 @@ All team members can make nominations for both The DZ Award and Values Awards. W
 - The nominations are finalized and E-group will discuss the nominees from each group and select the award winners.
 - The award winners will be announced.
 
+## CTO DevSecOps Innovation Award
+
+The DevSecOps Innovation Award is a recognition program for GitLab team members who are leveraging our platform and its features to improve the productivity and effectiveness of how they approach their day-to-day work. **Dogfooding** our product is critical to learning how to improve the product, not just for ourselves but also for our customers. By understanding our internal use of the product, we can enhance both our productivity and our ability to market and promote the platform to others.
+
+More details about this award can be seen on the [internal handbook page](https://internal.gitlab.com/handbook/engineering/cto-programs/cto-devsecops-innovation-award/).
+
 ## Referral Bonuses
 
 Chances are that if you work at GitLab, you have great friends and peers who would be fantastic additions to our [Team](/handbook/company/team/) and who may be interested in joining our team. To help us grow with exceptional people, we have a [Referral Bonus](/handbook/hiring/referral-process/) that work as follows:
