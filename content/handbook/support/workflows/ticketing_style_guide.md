@@ -38,7 +38,7 @@ Let's try the following:
 
    This will help the customer as well as fellow support engineers to quickly find the information they're looking for.
 
-1. Aim to add a **public 1 line summary** of the latest current issue for every 3 replies you send to the customer. Example:
+2. Aim to add a **public 1 line summary** of the latest current issue for every 3 replies you send to the customer. Example:
 
 ```text
 Thanks for providing all this info.
@@ -50,13 +50,34 @@ So far we've established that you're facing a 500 error intermittently when load
 ### More sections
 ```
 
+3. For lengthy or more complicated tickets, a more detailed summary can be very helpful. For example:
+   
+```text
+### Problem
+ - States exact what issues the customer is experiencing
+### Context
+- Versions, recent changes to their instance, deployment type, etc.
+### What we've ruled out
+- Useful when taking over an NRT
+### Theories
+- Potential explanations of the problem
+### My questions
+- My questions for further investigation
+### Customer questions
+- Questions the customer wants answered
+### Next steps
+- Questions/requests for the customer, things Support needs to do, etc.
+```
+
    This will ensure that the customer and you remain on the same page regarding what the issue is.
 
    This will also help other support engineers to jump into the ticket and catch up on the context more efficiently.
 
 ## Technical Content
 
-1. Ask for `gitlab.rb`, or any other missing information or logs, but don't let your reply consist of only that. Describe why you're asking for the additional info. Example:
+1. Summarize your understanding of the customer's issue to verify that you are pursuing a valuable troubleshooting path. Customers may focus on one detail or desired outcome, but overlook other necessary information which you want to review. Ensuring you and the customer share a common understanding of the issue and the path forward is very important.
+
+2. Ask for `gitlab.rb`, or any other missing information or logs, but don't let your reply consist of only that. Describe why you're asking for the additional info. Example:
 
 ```text
 Would you please provide your `gitlab.rb` for all your nodes? Specifically, I'm interested in seeing your Redis configuration for each node.
@@ -68,10 +89,20 @@ It is possible that you've configured the caching differently in each node, whic
 
    It will also help other support engineers to understand what you were aiming to look for in the provided data, and keep the debugging direction consistent over the next replies.
 
-1. When requesting logs from the customer, only ask for as much as you think you'll need to diagnose the problem. Example:
+3. When requesting logs from the customer, only ask for as much as you think you'll need to diagnose the problem. Example:
 
 ```text
 If the issue is reproducible and is not front-end related, ask for `gitlab-ctl tail`, if it's intermittent, ask for GitlabSOS.
 ```
 
    This makes it easier to debug the issue as you'll go through the minimal number of log files, and save the customer from breaking up a large GitLabSOS file, unless GitlabSOS is necessary.
+
+4. If you have multiple questions for the customer, consider numbering your questions throughout the ticket. For example:
+
+```text
+- Q1: What is your current version of GitLab?
+- Q2: What upgrade steps did you perform prior to this issue occurring?
+- Q3: Can you share your gitlab.rb file for review?
+```
+
+This can help to organize the information you need, and also avoid repeating questions. If a question is not answered, you can refer back directly by asking `Can you help by providing the response to Q2?`
