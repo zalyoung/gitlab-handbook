@@ -100,8 +100,8 @@ flowchart LR
     click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/" 
     TS --> CI[Cells Infrastructure]
     click CI "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
-    SD --> Geo
-    click Geo ""
+    TS --> Geo
+    click Geo "/handbook/engineering/infrastructure-platforms/tenant-scale/geo/"
 ```
 
 ## Dogfooding
