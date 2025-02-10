@@ -2,6 +2,7 @@ exclude:
   # Files in the /static/ folders are valid.
   - pattern: '^/pdfs/'
   - pattern: '^/videos/'
+  - pattern: '^/images/'
 
   # The team page uses the `{{< team >}}` shortcode, so most anchors cannot be found by hugolint.
   - pattern: '^/handbook/company/team/?#'
