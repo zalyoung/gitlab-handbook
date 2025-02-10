@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) tools and is responsible for all backend aspects of the [Source Code group's](/handbook/product/categories/#source-code-group) product categories in the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages). For information on our product direction, visit the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/source-code/frontend/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
 
 ## About our team handbook page
 
