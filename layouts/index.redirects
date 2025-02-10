@@ -101,3 +101,7 @@
 
 # Remove Infra TPM - remove 2025-04-29
 /handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
+
+# Remove Emerging Talent page - remove 2025-02-10
+/handbook/hiring/emerging-talent/ https://handbook.gitlab.com/handbook/hiring/ 301
+
