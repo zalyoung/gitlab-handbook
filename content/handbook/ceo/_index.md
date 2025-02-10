@@ -53,7 +53,7 @@ I am the CEO of GitLab. Here is what I do in 12 words or less that is unique to 
 1. If you have a complex question or need a discussion on something async that will require more than a few sentences for me to reply, put it into a document and share it with me with comments. I read fast and am pretty efficient at giving feedback this way.
 1. Use email when it is an external-facing communication, but don’t expect me to respond in < 1 week unless you ask me to look at it sooner over Slack or it is regarding a critical external matter.
 
-### Expectations for leadership  
+### Expectations for leadership
 
 What I need from you. What you will get from me.
 
@@ -93,3 +93,15 @@ What I need from you. What you will get from me.
 ## CEO Scam
 
 See [CEO and executive fraud](/handbook/security/security-assurance/governance/phishing/#ceo--executive-fraud) in the security practices section of the handbook.
+
+## Meeting request requirements
+
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/).
+
+## CEO Meeting Cadence
+
+As part of my role, I participate in a variety of meetings both internal and external.
+
+### Monthly Meetings
+
+1. Monthly CEO AMA, [agenda in Gdrive](https://drive.google.com/drive/search?q=monthly%20ceo%20ama) (internal).
