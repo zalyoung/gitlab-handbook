@@ -184,9 +184,23 @@ directory as the `index.md` for the proposal.
 To accomplish set Goals we will require several components to be in place:
 
 1. Infrastructure capable of building Universal Build Toolchain insulated from underlying OS.
+   * From experimentation we have established that insufficiently insulated
+     build infrastructure may "leak" system calls to underlying OS altering
+     build behaviours and undermining system tests etc.
+
 2. Tools enabling assembly of reproducible and flexible Build Toolchains.
+   * We can take inspiration from current source-built toolchains like:
+     * FreeBSD `world`
+     * FreeBSD `ports`
+     * Gentoo Linux `ebuild`/`portage`
+   * Implementation can borrow heavily from experience and expertise of Linux
+     From Scratch project. It too has to bootstrap "alien" toolchain within the
+     currently running OS that may not necessarily share all the traits of
+     target toolchain.
 3. Present tools need to be adjusted to accept outputs produced by Universal
    Build Toolchain.
+   * At present our tooling assumes full control over build thus will need to be
+     adjusted to accept "external" binary artifacts.
 
 ## Alternative Solutions
 
@@ -196,3 +210,8 @@ each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
+
+Alternatively we can continue on current path. However as math above shows that
+path is not very sustainable as our efforts grow in a non-linear fashion with
+addition of platforms and architectures into supported platforms and
+architectures matrix.
