@@ -18,10 +18,23 @@ For certain controls defined in GitLab there will be a event trigger point. When
 
 For example when a Merge Request is merged the system will trigger a potential violation event. The violations engine will check if there is a control defined for the project which states all Merge Requests requiring 2 approvers, if the Merge Request has less then 2 then a violation is created from the event.
 
-Trigger points that would generate potential violation events:
+All GitLab defined controls will have an audit event type configured as its trigger point. We will update the audit event type yml file to include a new paramater that will indicate which control it is associated. One audit event may have mutiple controls associated with it, such as when an MR is merged.
 
-1. Merging an MR
-1. 12 hour schedule
+Here is an example audit event type yml file with the new paramter
+
+```yml
+---
+name: merge_request_merged
+description: A merge request is merged
+introduced_by_issue: https://gitlab.com/gitlab-org/gitlab/-/issues/442279
+introduced_by_mr: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/164846
+feature_category: compliance_management
+milestone: '17.5'
+saved_to_database: true
+streamed: true
+scope: [Project]
+contorls: [merge_request_prevent_author_approval, merge_request_prevent_committers_approval, merge_request_prevent_author_approval]
+```
 
 ## Design Details
 
