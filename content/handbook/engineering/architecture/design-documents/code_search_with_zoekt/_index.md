@@ -114,7 +114,7 @@ Elasticsearch option if we find Zoekt is a suitable long term option.
 
 Every time a repository is created or updated, the GitLab Rails application
 generates `zoekt_tasks` records. The [`gitlab-zoekt-indexer`](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) periodically
-retrieves these tasks via a GET request, processes them, and then sends a
+retrieves these tasks with a GET request, processes them, and then sends a
 callback to the GitLab Rails application. This callback updates the
 corresponding `zoekt_task`, `zoekt_repository`, and `zoekt_index`. GitLab also
 manages deduplication of `zoekt_tasks`.
