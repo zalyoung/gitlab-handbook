@@ -150,6 +150,10 @@ You might want to consider including the pros and cons of the proposed solution 
 compared with the pros and cons of alternatives.
 -->
 
+Build an insulated toolchain that is independent of OS and only tied to
+"OS platform-architecture" pair ("linux-arm64", "linux-amd64", etc.)
+
+
 ## Design and implementation details
 
 <!--
@@ -176,6 +180,13 @@ Diagrams authored in GitLab flavored markdown are preferred. In cases where
 that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
+
+To accomplish set Goals we will require several components to be in place:
+
+1. Infrastructure capable of building Universal Build Toolchain insulated from underlying OS.
+2. Tools enabling assembly of reproducible and flexible Build Toolchains.
+3. Present tools need to be adjusted to accept outputs produced by Universal
+   Build Toolchain.
 
 ## Alternative Solutions
 
