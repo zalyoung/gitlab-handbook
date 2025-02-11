@@ -34,7 +34,7 @@ Any other forms of customizing the model:
 
 ## Motivation
 
-With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to finetune it for a specific task or user's codebase.
+With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to fine-tune it for a specific task or user's codebase.
 
 ### Challenges of Model's Fine-tuning
 
