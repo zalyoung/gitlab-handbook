@@ -257,7 +257,7 @@ In the columns, the two numbers are: embedding similarity, exact match. Higher n
 
 Adapters, and in particular, LoRAs are not a panacea; it is one of the methods that we could utilize if it is found suitable for our use cases. Other potential approaches are:
 
-1) Full finetuning of a smaller model
+1) Full fine-tuning of a smaller model
 2) Human-feedback (RLHF)
 
 **Smaller experts.**
