@@ -244,7 +244,7 @@ In addition to the manual evaluations, the fine-tuned model was evaluated on sev
 
 [Results for Code Completion using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
 
-In the table below we present the results of evaluating the finetune model and base model on three different datasets on a code completion task.
+In the table below, we present the results of evaluating the fine-tuned model and base model on three different datasets for a code completion task.
 
 In the columns, the two numbers are: embedding similarity, exact match. Higher number is better (meaning results were more similar to the expected output).
 
