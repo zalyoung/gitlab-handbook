@@ -99,6 +99,8 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
 | [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
 | [Common Room](https://www.commonroom.io/) | Snowflake task | `commonroom` | `commonroom` | `DevRels`/`Developer Advocates` |  | No | Tier 3 |
+| [Coupa Production](https://www.coupa.com/) | Fivetran | `coupa` | `coupa` | Marketing | 24h / 48h | No | Tier 2 |
+| [Coupa Sandbox](https://www.coupa.com/) | Fivetran | `coupa_sandbox` | `coupa_sandbox` | Marketing | Ad-hoc | No | Tier 3 |
 | [CustomersDot](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-customer-dot-database) [ERD](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/db_erd.pdf) | pgp | `tap_postgres` | `customers` | Product | 24h / x | No | Tier 1 |
 | [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
 |[Demo Architecture Portal](https://cloud.gitlabdap.com/)|Stitch|`demo_architecture_portal`|`demo_architecture_portal`|Sales and marketing|7 Days/7 Days|No|Tier 3|
