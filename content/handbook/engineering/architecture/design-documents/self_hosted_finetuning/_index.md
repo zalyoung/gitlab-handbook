@@ -62,7 +62,7 @@ Additional Resources:
 
 ### Advantages and Limitations
 
-As with any method, the LoRA method comes with its advantages and limitations. _Generally_, LoRA slightly loses against a fully finetuned model in the overall performance, but if time and hardware are the restrictions, then a small performance difference might be okay.
+As with any method, the LoRA method comes with its advantages and limitations. _Generally_, LoRA slightly loses against a fully fine-tuned model in the overall performance; if time and hardware are the restrictions, however, then a small performance degredation may be sufficient.
 
 **Advantages:**
 
