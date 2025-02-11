@@ -154,7 +154,7 @@ To demonstrate the concepts of caching, let’s introduce some testing into our 
     });
     ```
 
-1. Commit your `linearsearch.test.js` file
+1. Commit your `linearsearch.test.js` file.
 
 Next, we will create a `.gitlab-ci.yml` file to define our tests.
 
@@ -186,7 +186,7 @@ Next, we will create a `.gitlab-ci.yml` file to define our tests.
         - jest linearsearch.test.js
     ```
 
-1. Select **Commit changes**
+1. Select **Commit changes**.
 
 ## Task C. Using caching to optimize jobs
 
