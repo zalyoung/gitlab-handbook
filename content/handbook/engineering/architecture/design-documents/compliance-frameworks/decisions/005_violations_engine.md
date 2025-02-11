@@ -33,7 +33,7 @@ milestone: '17.5'
 saved_to_database: true
 streamed: true
 scope: [Project]
-controls: [merge_request_prevent_author_approval, merge_request_prevent_committers_approval, merge_request_prevent_author_approval]
+compliance_requirement_controls: [merge_request_prevent_author_approval, merge_request_prevent_committers_approval, merge_request_prevent_author_approval]
 ```
 
 ## Design Details
