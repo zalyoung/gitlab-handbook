@@ -199,7 +199,7 @@ config:
             plotColorPalette: "#ff0000, #0000ff"
 ---
 xychart-beta
-    title "Embedding cosine similarity vs Training time"
+    title "Embedding cosine similarity vs training time"
     x-axis "Time in minutes" [0, 6, 12, 18, 24, 30, 36, 48, 60, 72, 84]
     y-axis "Embedding cosine similarity (higher better)" 0.7 --> 0.95
     line [0.75, 0.80, 0.84, 0.83, 0.85, 0.82, 0.85, 0.83, 0.83, 0.85, 0.84]
