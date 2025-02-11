@@ -228,6 +228,9 @@ The target of Cells [Cells 1.0] (../iterations/cells-1.0.md) is to deliver a sol
   - How to export PostgreSQL logs into Elastic?
 - Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
 - [Configure and validate SSL/TLS certificates](https://cloud.google.com/sql/docs/postgres/configure-ssl-instance) to ensure PostgreSQL connections are encrypted.
+- Auto-storage-increase behavior – Trigger multiple sequential storage increases and observe any "cool-off" period between increases, operational delays, or performance degradation.
+- Instance scaling downtime – Measure downtime when scaling up/down with and without HA enabled.
+- Minor version upgrade impact – Validate the downtime experienced during minor version upgrades with and without HA.
 
 ##### Cells 1.5 (Future Considerations & Enhancements)
 
@@ -238,7 +241,7 @@ The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration 
 - Validate a connection pooling solution for both Write and Read-Only workloads:
   - PgBouncer on VMs
   - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.  
-- Evaluate [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
+- Evaluate [CloudSQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
 - Compare database migration options:
   - Native logical replication - [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical))
   - [CloudSQL Database Migration Services](https://cloud.google.com/database-migration)
@@ -247,6 +250,8 @@ The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration 
   - CloudSQL does not have a direct equivalent to AWS RDS Blue/Green deployments, so solutions must be engineered in-house.
 - How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`, `2TB`?
 - Evaluate disaster recovery options, including delayed replicas.
+- Performance impact of storage increase – Measure query performance before and after a manual storage increase.
+- High-load stress testing – Load large datasets and measure how CloudSQL handles sustained write-heavy operations.
 
 ##### Evaluate Changes Over the Dedicated Deployment
 
