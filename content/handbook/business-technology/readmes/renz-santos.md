@@ -34,4 +34,3 @@ I'm typically very open and approchable. I'm direct when it comes to work relate
 
 - [LinkedIn Profile](https://www.linkedin.com/in/christian-renz-santos-20a044143)
 - [GitLab Profile](https://gitlab.com/renzsantos)
-
