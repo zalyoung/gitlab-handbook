@@ -2,11 +2,8 @@
 {{- /* Team manager is identified using a regular expression which should match the manager's role entry in their YAML file */}}
 {{- /* Departments and role value can be updated at https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person */}}
 
-{{- /* There are 4 ways to use this shortcode: */}}
-{{- /* Usage: team-by-departments "GitLab Delivery:Release BE" */}}
-{{- /* Usage: team-by-departments department="GitLab Delivery:Release BE" */}}
-{{- /* Usage: team-by-departments departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE" */}}
-{{- /* Usage: team-by-departments departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE" manager-role="Engineering Manager(.*)Delivery:Releases" */}}
+{{- /* Departments and role value can be updated at https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person */}}
+{{- /* For usage information: https://handbook.gitlab.com/docs/shortcodes/#team-by-departments */}}
 
 {{- $departments := slice }}
 {{- $manager := dict }}
