@@ -350,21 +350,11 @@ hugolint:
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
-        MAIN_PROJECT_ID=42817607
-        if [ "${CI_PROJECT_ID}" == "${MAIN_PROJECT_ID}" ]; then
-          hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
-        else
-          # For forks, fetch the artifact from the main project
-          ARTIFACT_URL=$(curl "https://gitlab.com/api/v4/projects/${MAIN_PROJECT_ID}/jobs/artifacts/${CI_DEFAULT_BRANCH}/raw/linkcheck.json?job=hugolint" -o latest.json -w "%{url_effective}")
-        fi
-        if [ -f latest.json ]; then
-          # additional JSON file to populate MR comment in post_comment_on_failure job
-          jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
-          hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
-        else
-          echo "Failed to create latest.json."
-          exit 1
-        fi
+        declare -r MAIN_PROJECT_ID=42817607
+        hugolint codequality latest --project "${MAIN_PROJECT_ID}" --artifact 'linkcheck.json' >'latest.json'
+        # additional JSON file to populate MR comment in post_comment_on_failure job
+        jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
+        hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
       fi
   artifacts:
     when: always
