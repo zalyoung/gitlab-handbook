@@ -42,7 +42,7 @@ While fine-tuning the entire model is a solution for model customization, it com
 
 1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
 2) Storing _n_ custom fine-tuned models would have high disk usage.
-3) Hosting _n_ different finetuned models simultaneously might be slow and resource expensive.
+With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to fine-tune it for a specific task or user's codebase.
 4) Training a model requires extensive and specific knowledge, raising the need for easy to use UI.
 
 This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
