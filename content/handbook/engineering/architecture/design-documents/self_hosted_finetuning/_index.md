@@ -235,7 +235,7 @@ As a conclusion, it seems to be optimal to train the model for 30-40 minutes.
 
 A PoC has been developed for Code Suggestions (code generation and completion) feature. The adapter was trained for [ai-gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) for Codestral-22B. The fine-tuned model has shown positive results on both manual and automated evaluations. 
 
-For **manual** evaluations, the model has been deployed and tested with Duo Self-hosted in WebIDE. The finetuned model proposed code suggestions that are more aligned with the overall code structure, than vanilla Codestral-22B:
+For **manual** evaluations, the model has been deployed and tested with GitLab Duo Self-Hosted in the WebIDE. The fine-tuned model proposed code suggestions that are more aligned with the overall code structure than the base Codestral-22B model:
 
 [Results for manual evaluations in WebIDE](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2284037077)
 and [code completion results](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2285961471)
