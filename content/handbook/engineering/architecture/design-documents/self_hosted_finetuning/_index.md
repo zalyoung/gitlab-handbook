@@ -255,7 +255,7 @@ In the columns, the two numbers are: embedding similarity, exact match. Higher n
 
 ## Alternatives
 
-Adapters, and in particular, LoRAs are not a panacea, it is one of the methods that we could utilize if find it suitable for our use cases. Other potential approaches are:
+Adapters, and in particular, LoRAs are not a panacea; it is one of the methods that we could utilize if it is found suitable for our use cases. Other potential approaches are:
 
 1) Full finetuning of a smaller model
 2) Human-feedback (RLHF)
