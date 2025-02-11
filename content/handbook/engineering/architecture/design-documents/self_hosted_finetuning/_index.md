@@ -26,7 +26,7 @@ With the development of Duo Self-hosted, the need for model customization has ar
 
 ### Challenges of Model's Fine-tuning
 
-While fine-tuning the entire model is a solution for model customization, it comes with several big challenges:
+While fine-tuning the entire model is a solution for model customization, it comes with several significant challenges:
 
 1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
 2) Storing _n_ custom fine-tuned models would have high disk usage.
