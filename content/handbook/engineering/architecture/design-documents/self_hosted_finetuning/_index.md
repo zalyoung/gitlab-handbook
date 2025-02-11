@@ -66,7 +66,7 @@ As with any method, the LoRA method comes with its advantages and limitations. _
 
 **Advantages:**
 
-1) Training an adapter requires less memory and is much more time-efficient than full-model finetuning
+1) Training an adapter requires less memory and is much more time-efficient than full-model fine-tuning
 2) The model's size would be in 100s of megabytes rather than 100s of gigabytes.
 3) Hosting and switching between different adapters is usually a low-latency procedure
 
