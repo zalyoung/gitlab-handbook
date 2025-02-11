@@ -120,7 +120,7 @@ The fine-tuning pipeline would then deploy an instance of the fine-tuning servic
 - Adapter Training
 - Evaluation
 
-The finetuning service would be provided using Docker.
+The fine-tuning service would be provided using Docker.
 
 The container will be published in the GitLab Container Registry and DockerHub on every GitLab Release.
 
