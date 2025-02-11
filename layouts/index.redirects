@@ -92,7 +92,7 @@
 /handbook/engineering/quality/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
 /handbook/engineering/infrastructure/test-platform/gitlab-data-seeder/ https://gitlab-org.gitlab.io/quality/data-seeder 301
 
-# Source Code team pages move
+# Source Code team pages move - remove 2025-05-11
 /handbook/engineering/development/dev/create/source-code-be/ /handbook/engineering/development/dev/create/source-code/backend/ 301
 /handbook/engineering/development/dev/create/create-source-code-fe/ /handbook/engineering/development/dev/create/source-code/frontend/ 301
 
