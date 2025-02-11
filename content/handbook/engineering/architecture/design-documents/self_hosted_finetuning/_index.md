@@ -240,7 +240,7 @@ For **manual** evaluations, the model has been deployed and tested with GitLab D
 [Results for manual evaluations in WebIDE](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2284037077)
 and [code completion results](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2285961471)
 
-In addition to the manual evaluations, the finetuned model was evaluated on several datasets where it also showed positive results (i.e. code suggestions were more aligned with existing code). 
+In addition to the manual evaluations, the fine-tuned model was evaluated on several datasets where it also showed positive results (i.e. code suggestions were more aligned with existing code). 
 
 [Results for Code Completion using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
 
