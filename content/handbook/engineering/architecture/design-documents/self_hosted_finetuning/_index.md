@@ -132,7 +132,7 @@ The Data Preparation step of a pipeline would process the provided by the custom
 
 #### Adapter Training
 
-Once the data is ready, the next step in the pipeline is to train an adapter for the given data. The fine-tuning service would fetch the data and train the model for it. The user would be provided with the feedback on the training, such as evalution and training performance and the remaining time.
+Once the data is ready, the next step in the pipeline is to train an adapter for the given data. The fine-tuning service would fetch the data and use that data as the basis for training. The user would be provided with the feedback on the training, such as evalution and training performance and the remaining time.
 
 #### Fine-tuned Model Evaluation
 
