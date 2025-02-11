@@ -20,20 +20,6 @@ toc_hide: true
 
 This blueprint proposes a solution for fine-tuning Duo Self-hosted models using Parameter-Efficient Fine-Tuning (PEFT). 
 
-## Motivation
-
-With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to finetune it for a specific task or user's codebase.
-
-### Challenges of Model's Fine-tuning
-
-While fine-tuning the entire model is a solution for model customization, it comes with several significant challenges:
-
-1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
-2) Storing _n_ custom fine-tuned models would have high disk usage.
-3) Hosting  _n_ different finetuned models simultaneously might be slow and resource expensive.
-
-This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
-
 ## Goal
 
 Enable lightweight and efficient model fine-tuning for Gitlab Duo Self-hosted customers.
@@ -46,15 +32,35 @@ Any other forms of customizing the model:
 - RAG
 - RLHF
 
+## Motivation
+
+With the development of Duo Self-hosted, the need for model customization has arisen. As the first example, customers were dissatisfied with the performance of the supported models on Code Suggestions for some niche coding languages. Another example was the desire for more personalized code suggestions, i.e. feature responses that are more accurate to their requirement and follow the coding patterns of their codebase. One of the possible approaches to customize the model is to finetune it for a specific task or user's codebase.
+
+### Challenges of Model's Fine-tuning
+
+While fine-tuning the entire model is a solution for model customization, it comes with several big challenges:
+
+1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
+2) Storing _n_ custom fine-tuned models would have high disk usage.
+3) Hosting _n_ different finetuned models simultaneously might be slow and resource expensive.
+4) Training a model requires extensive and specific knowledge, raising the need for easy to use UI.
+
+This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
+
 ## Proposal: PEFT and light-weight adapters
 
 One of the possible solutions to achieve lightweight and quick fine-tuning involves using PEFT techniques, such as adapters.
 
-#### What is an adapter?
+### What is an adapter?
 
 Adapter-based methods add extra trainable parameters to the existing (base) model's layers. The base model weights stay frozen, while the new additional weights are trained on a new dataset. In the case of Code Suggestions, the dataset could be the customer's codebase or any other suitable data. One of the most widely used adapter-based methods is Low-Rank Adaptation (LoRA). In a nutshell, LoRA uses small rank matrices that are combined with the original model's weights. These small new weights are stored separately and are a magnitude smaller in size than the weights of a base model. During the inference, the new weights are combined with the base model weights, allowing us to simultaneously host one base model and multiple different task-specific LoRAs.
 
-#### Advantages and Limitations
+Additional Resources:
+
+- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+- [A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046)
+
+### Advantages and Limitations
 
 As with any method, the LoRA method comes with its advantages and limitations. _Generally_, LoRA slightly loses against a fully finetuned model in the overall performance, but if time and hardware are the restrictions, then a small performance difference might be okay.
 
@@ -72,107 +78,107 @@ As with any method, the LoRA method comes with its advantages and limitations. _
 
 ## Design and Implementation details
 
-### Architecture
-
-#### Inference
-
-```mermaid
-flowchart LR
- subgraph s1["vLLM"]
- n1["Base Model"]
- n2["Adapter 1"]
- n3["Adapter 2"]
- n4["Adapter 3"]
- end
-    
- subgraph s2["UI"]
- n5["Project 1"]
- n6["Project 2"]
- n7["Project 3-5"]
- n8["Project 6"]
- end
-
- n1 --> n2
- n1 --> n3
- n1 --> n4
- n2 --> n5
- n2 --> n6
- n3 --> n7
- n4 --> n8
-
-```
-
-#### Training
+### Training
 
 ```mermaid
 flowchart LR
  subgraph s2["UI"]
- n5["Project 1"]
- n6["Project 2"]
- n7["Project 3"]
+ project1["Project 1"]
+ project2["Project 2"]
+ project3["Project 3"]
  end
- n8["Data Preparation"]
- n9["Data 1"]
- n10["Data 2"]
- n11["Data 3"]
- n12["Data 2 + 3"]
- n13["Adapter Training"]
- n14["Adapter 1"]
- n15["Adapter 2 + 3"]
- n16["Model Evaluation"]
- n17["Inference"]
- n5 --> n8
- n6 --> n8
- n7 --> n8
- n8 --> n9 & n10 & n11
- n10 --> n12
- n11 --> n12
- n12 --> n13
- n9 --> n13
- n13 --> n15 & n14
- n14 --> n16
- n15 --> n16
- n16 --> n17
-
- style n5 stroke:#000000
- style n6 stroke:#000000
- style n7 stroke:#000000
- style n8 stroke:#000000
- style n9 stroke:#000000
- style n10 stroke:#000000
- style n11 stroke:#000000
- style n12 stroke:#000000
- style n13 stroke:#000000
- style n15 stroke:#000000
- style n14 stroke:#000000
- style n16 stroke:#000000
- style n17 stroke:#000000
- style s2 stroke:#000000
+ dataprep["Data Preparation"]
+ data1["Data 1"]
+ data2["Data 2"]
+ data3["Data 3"]
+ combined_data23["Data 2 + 3"]
+ training["Adapter Training"]
+ adapter1["Adapter 1"]
+ adapter2["Adapter 2 + 3"]
+ model_eval["Model Evaluation"]
+ inference["Inference"]
+ project1 --> dataprep
+ project2 --> dataprep
+ project3 --> dataprep
+ dataprep --> data1 & data2 & data3
+ data2 --> combined_data23
+ data3 --> combined_data23
+ combined_data23 --> training
+ data1 --> training
+ training --> adapter2 & adapter1
+ adapter1 --> model_eval
+ adapter2 --> model_eval
+ model_eval --> inference
 ```
+#### Launching Fine-tuning in the UI
 
-### Data Preparation
+As a first step for adapter training, the user would select a project or a collection of projects to use for fine-tuning in the UI. Once selected, the user will configure and launch the fine-tuning pipeline.
 
-Adapters will be trained using customer data, for example, their codebases. To prepare the datasets, customers would need to deploy a local instance of finetuning service on their own infrastructure and provide a path to the repository they wish to use. 
+The fine-tuning pipeline would then deploy an instance of fine-tuning service on their configured infrastructure and trigger the following steps:
 
-The service then would process the provided by the customer repository, constructing a training and validation dataset out of it.
+- Data Preparation
+- Adapter Training
+- Evaluation
 
-### Adapter Training
-
-To train an adapter, customers would need to deploy a local instance of finetuning service on their own infrastructure. The finetuning service would be provided using Docker.
+The finetuning service would be provided using Docker.
 
 The container will be published in the GitLab Container Registry and DockerHub on every GitLab Release.
 
-### Fine-tuned Model Evaluation
+#### Data Preparation
 
-Once the adapter is trained, it should be evaluated against a base model in terms of the overall performance and responses. 
+Once the fine-tuning pipeline is triggered and service has been deployed, it would start with preparing the data.
 
-To evaluate the model, the customer would be required to deploy the model and its adapters and run an evaluation service. The evaluation service would use a validation dataset to test the base and finetuned models and present the results to the customer.
+The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk.
 
-### Fine-tuned Model Deployment
+#### Adapter Training
+
+Once the data is ready, the next step in the pipeline is to train an adapter for the given data. The fine-tuning service would fetch the data and train the model for it. The user would be provided with the feedback on the training, such as evalution and training performance and the remaining time.
+
+#### Fine-tuned Model Evaluation
+
+Once the adapter is trained, the next step in the pipeline would evaluate it in terms of the overall performance and responses. 
+
+The evaluation step would use a validation dataset to test the finetuned model and present the results to the customer. 
+
+### Inference
+
+```mermaid
+flowchart LR
+ subgraph vllm["vLLM"]
+ base_model["Base Model"]
+ adapter1["Adapter 1"]
+ adapter2["Adapter 2"]
+ adapter3["Adapter 3"]
+ end
+    
+ subgraph ui["UI"]
+ project1["Project 1"]
+ project2["Project 2"]
+ projects_345["Project 3-5"]
+ project6["Project 6"]
+ end
+
+ base_model --> adapter1
+ base_model --> adapter2
+ base_model --> adapter3
+ adapter1 --> project1
+ adapter1 --> project2
+ adapter1 --> projects_345
+ adapter3 --> project6
+
+```
+
+#### Fine-tuned Model Deployment
 
 Once the task-specific adapters are trained, customers would need to host their base model and trained LoRAs using vLLM.
 
-Once hosted, the customer could fetch a specific LoRA by specifying the model's name in the API request to vLLM.
+vLLM supports hosting and inference of base model and LoRAs out-of-the-box, requiring the user to simply provide the paths to the base model and its adapters.
+
+Once running, the customer could fetch a specific LoRA by specifying the adapter's name in the API request to vLLM.
+
+#### Fine-tuned Model and UI during the Inference
+
+As discussed in the training section above, each adapter is trained for either a project or a collection of projects. Once trained, the user could select which adapter to use for which project in the UI. By default, each project would be assigned a base model.
 
 ## Technical Details and Early results
 
@@ -181,7 +187,6 @@ Once hosted, the customer could fetch a specific LoRA by specifying the model's 
 **Storage per Adapter**: 200Mb - 1GB. The size of 1 LoRA adapter could vary based on the configuration.
 
 **Training Time per Adapter**: 30 minutes to 1 hour (Tested on 4xA100 80GB GCP server). Varies based on the size of the training dataset. In the chart below, we present the results for the embedding cosine similarity vs training time. Here "0" minutes represents the base model without any finetuning. Red line is the results for `code_suggestions_aig_signatures` and blue line for `code-suggestions-input-testcases-v1` datasets respectively.
-
 
 ```mermaid
 ---
@@ -225,8 +230,6 @@ xychart-beta
 As a conclusion it seems to be optimal to train the model for 30-40 minutes.
 
 **Hardware Specs for Training an Adapter**: Depending on the selected base model. For Codestral-22B, the minimum spec is 4xA10, while recommended spec is 4xA100 80GB GPUs. In total the current set up uses **242GB** of vRAM.
-
-**Inference Time Impact**: None noticed.
 
 ### Early Experimentation (PoC) results
 
