@@ -484,71 +484,6 @@ Note: It is important for this rollout strategy to follow the timeline. You will
    `25`, `50`, `75`, `100` percents. Keep `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` set to `true` through entire rollout cycle.
 1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`. Remove the `OVERRIDE_LAST_PERCENTAGE` and `CHANGE_LOCK_OVERRIDE` environment variables in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml).
 
-### Cell Configuration
-
-#### Domain Setup
-
-- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com) 
-- Each cell responds to its cell-specific domain
-- Nginx ingress handles both domains
-
-#### SSL/TLS Configuration
-
-Cells maintain certificates for:
-
-- The primary GitLab domain (e.g., gitlab.com)
-- The cell-specific domain
-
-#### Nginx-ingress Configuration
-
-The nginx server in each cell:
-
-- Listens on both the primary and cell-specific domains
-- Processes the `X-Forwarded-Host` header for proper routing
-- Handles SSL termination for both domain certificates
-
-#### Cell infrastructure routing
-
-```mermaid
-graph TD
-    user((User))
-    cf[Cloudflare Worker]
-    topology[Topology Service]
-    router[Routing Service]
-    ingress[Nginx Ingress]
-    webserver[GitLab Webserver]
-    gitlab[GitLab.com]
-
-    %% Cell-based routing path
-    user -->|"1. Cookie: _*gitlab*_session=cell-$ID-..." | cf
-    cf -->|"2. Extract cell-$ID- from cookie value"| router
-    router -->|3. Query cell ID| topology
-    topology -->|4. Return cell domain| router
-    router -->|"5. Proxy to cell-domain.com"| ingress
-    ingress -->|"6. Proxy with Host: gitlab.com"| webserver
-
-    %% Default routing path
-    router -->|"No cell prefix"| gitlab
-
-    subgraph Cell Infrastructure
-        ingress
-        webserver
-    end
-
-    classDef service fill:#f9f,stroke:#333,stroke-width:2px
-    classDef infrastructure fill:#bbf,stroke:#333,stroke-width:2px
-    
-    note2[X-Forwarded-Host: gitlab.com]
-    note3[Host header matches X-Forwarded-Host]
-    
-    router -.->|sets| note2
-    ingress -.->|uses| note3
-
-    class cf,router,topology service
-    class ingress,webserver infrastructure
-    class note2,note3 note
-```
-
 ## Request flows
 
 1. There are two Cells.
@@ -713,6 +648,71 @@ is done in a single go in a form of pre-flight check `/api/v4/internal/cells/lea
 - This makes the whole routes learning dynamic, and dependent on availability of the Cells.
 - This proposal does not provide an easy way to handle mixed deployment of Cells, where Cells might be running different versions.
 - This proposal likely requires caching significantly more information, since it is based on requests, rather than on decoded classification keys.
+
+## Single Domain
+
+To maintain a single domain for all cells, the webserver needs to respond as the public host when performing redirects. The
+BYOD feature for dedicated serves this purpose by allowing the cell to behave as thought it's serving on the public domain.
+
+Example byod config snippet. Note - Only the instance is configured, not kas or registry domain
+
+```json
+  "byod": {
+    "instance": "gitlab.com",
+  }
+```
+
+### Domain Setup
+
+- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com) 
+- Each Cell also responds to their configured [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186)
+- Nginx ingress handles both domains
+
+### SSL/TLS Configuration
+
+- The configured BYOD domain should have the certificate managed already, and it's not something instrumentor is managing.
+- The [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186) is handled using [cert-manager](https://cert-manager.io/) DNS solver as the default http solver won't work behind a proxy particularly whem the cells will not be publically routable
+
+### Nginx-ingress Configuration
+
+- Listens on both the primary domain and the [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186) domains
+- Processes the `X-Forwarded-Host` header for proper routing, the host header [can't be used](https://community.cloudflare.com/t/not-possible-to-override-the-host-header-on-workers-requests/13077) so nginx uses `X-Forwarded-Host` which is passed by the router
+
+### Cell infrastructure routing
+
+[Uses the session_prefix rule described here](#routing-rules)
+
+```mermaid
+sequenceDiagram
+    participant User as User (Browser)
+    participant HTTPRouter as HTTP Router (Cloudflare)
+    participant TopologyService as Topolgoy Service
+    box Cell
+    participant CellIngress as Cell Ingress (Nginx)
+    participant CellWebservice as Webserivce Container(workhorse/puma)
+    end
+    participant LegacyCell as Legacy Celll
+
+    Note over User,CellWebservice: Cell-based routing path
+    User->>HTTPRouter: Cookie: _gitlab_session=cell-$ID-xxx
+    HTTPRouter->>+TopologyService: Query Cell ID extract from _gitlab_session
+    TopologyService-->>-HTTPRouter: Return managed_domain for Cell
+    HTTPRouter->>HTTPRouter: Set X-Forwarded-Host: gitlab.com
+    HTTPRouter->>CellIngress: Proxy to managed_domain
+    CellIngress->>CellIngress: Use Host header mathcing X-Forarded_host
+    CellIngress->>+CellWebservice: Proxy with Host: gitlab.com
+ 
+
+    CellWebservice-->>-CellIngress: Response
+    CellIngress-->>HTTPRouter: Response
+    HTTPRouter-->>User: Response
+
+    Note over User,LegacyCell: Default routing (no cell prefix in _gitlab_session)
+    User->>HTTPRouter: Cookie: _gitlab_sesion=xxxx
+    HTTPRouter->>LegacyCell: Proxy to GitLab.com
+    LegacyCell-->>HTTPRouter: Response
+    HTTPRouter-->>User: Response
+```
 
 ## FAQ
 
