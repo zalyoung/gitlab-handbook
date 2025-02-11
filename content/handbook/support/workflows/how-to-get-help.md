@@ -209,3 +209,45 @@ Every problem is a little bit different. Sometimes it makes sense to try a diffe
 - Julia Evans' [comics](https://wizardzines.com/comics/), especially the ones about debugging
 - [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging)
 - [General Purpose Troubleshooting Principles](https://brie.dev/troubleshooting/)
+
+#### Request for Help Lifecycle diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> IssueOpened: Issue Created by Support
+    IssueOpened --> Active: Add Issue Opened Label
+    IssueOpened --> SupportTriage: Add Triage by Support label
+    
+    state SupportTriage {
+        SupportAuthor --> ExpertReview: Support author responds
+        ExpertReview --> SupportAuthor: Support expert responds
+    }
+    
+    SupportTriage --> Active: Needs Dev Team Input
+    
+    state Active {
+        SupportComment --> DevComment: Add Last comment from support team label
+        DevComment --> SupportComment: Add Last comment from dev team label
+        DevComment --> NeedsInfo: Add Needs more info label
+        NeedsInfo --> SupportComment: Support provides info
+    }
+    
+    Active --> PendingClosure: Inactive 14d
+    
+    state PendingClosure {
+        [*] --> Inactivity: Add Pending-Closure label
+        Inactivity --> AutoClose: After 7d
+    }
+    
+    PendingClosure --> Active: Remove Pending-Closure label
+    PendingClosure --> Closed: Add Issue-Closed label
+    Active --> Closed: Add Issue-Closed label
+    SupportTriage --> Closed: Resolution found
+    
+    state Closed {
+        [*] --> SendReminders: 
+        SendReminders --> Resolved: Add Doc-Reminder label\nAdd Resolution-Type label
+    }
+    
+    Closed --> [*]: RFH Lifecycle complete
+```
