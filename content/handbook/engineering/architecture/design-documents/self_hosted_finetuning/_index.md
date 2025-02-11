@@ -114,7 +114,7 @@ flowchart LR
 
 As a first step for adapter training, the user would select a project or a collection of projects to use for fine-tuning in the UI. Once selected, the user will configure and launch the fine-tuning pipeline.
 
-The fine-tuning pipeline would then deploy an instance of fine-tuning service on their configured infrastructure and trigger the following steps:
+The fine-tuning pipeline would then deploy an instance of the fine-tuning service on their configured infrastructure and trigger the following steps:
 
 - Data Preparation
 - Adapter Training
