@@ -22,7 +22,7 @@ This blueprint proposes a solution for fine-tuning Duo Self-hosted models using 
 
 ## Goal
 
-Enable lightweight and efficient model fine-tuning for Gitlab Duo Self-hosted customers.
+Enable lightweight and efficient model fine-tuning for GitLab Duo Self-hosted customers.
 
 ## Non-goals
 
