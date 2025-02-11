@@ -186,7 +186,7 @@ As discussed in the training section above, each adapter is trained for either a
 
 **Storage per Adapter**: 200Mb - 1GB. The size of 1 LoRA adapter could vary based on the configuration.
 
-**Training Time per Adapter**: 30 minutes to 1 hour (Tested on 4xA100 80GB GCP server). Varies based on the size of the training dataset. In the chart below, we present the results for the embedding cosine similarity vs training time. Here "0" minutes represents the base model without any finetuning. Red line is the results for `code_suggestions_aig_signatures` and blue line for `code-suggestions-input-testcases-v1` datasets respectively.
+**Training Time per Adapter**: 30 minutes to 1 hour (Tested on 4xA100 80GB GCP server). Time varies based on the size of the training dataset. In the chart below, we present the results for the embedding cosine similarity vs training time. Here "0" minutes represents the base model without any fine-tuning. Red line is the results for `code_suggestions_aig_signatures` and blue line for `code-suggestions-input-testcases-v1` datasets, respectively.
 
 ```mermaid
 ---
