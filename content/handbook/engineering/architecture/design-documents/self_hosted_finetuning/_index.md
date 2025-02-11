@@ -138,7 +138,7 @@ Once the data is ready, the next step in the pipeline is to train an adapter for
 
 Once the adapter is trained, the next step in the pipeline would evaluate it in terms of the overall performance and responses. 
 
-The evaluation step would use a validation dataset to test the finetuned model and present the results to the customer. 
+The evaluation step would use a validation dataset to test the fine-tuned model and present the results to the customer. 
 
 ### Inference
 
