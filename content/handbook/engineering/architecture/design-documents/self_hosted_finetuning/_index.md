@@ -227,7 +227,7 @@ xychart-beta
 
 ```
 
-As a conclusion it seems to be optimal to train the model for 30-40 minutes.
+As a conclusion, it seems to be optimal to train the model for 30-40 minutes.
 
 **Hardware Specs for Training an Adapter**: Depending on the selected base model. For Codestral-22B, the minimum spec is 4xA10, while recommended spec is 4xA100 80GB GPUs. In total the current set up uses **242GB** of vRAM.
 
