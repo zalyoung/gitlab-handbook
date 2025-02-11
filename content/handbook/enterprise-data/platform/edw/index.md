@@ -31,7 +31,7 @@ Dimensional modeling is part of the Business Dimensional Lifecycle methodology d
 
 Dimensional modeling uses two primary components:
 
-- **Facts (Measures)**: The numerical values in your data - these are the "how many" and "how much" values you want to analyze, like sales amount, quantity sold, or customer count. While most facts can be summed or averaged, some (like ratios or percentages) cannot be meaningfully aggregated.
+- **Facts (Measures)**: The numerical values in your data. These are the "how many" and "how much" values you want to analyze, like sales amount, quantity sold, or customer count. While most facts can be summed or averaged, some (like ratios or percentages) cannot be meaningfully aggregated.
 - **Dimensions (Context)**: The descriptive attributes that give meaning to your facts. Dimensions answer the "who, what, when, where, why" of your data. Dimensions contain hierarchies (like Date -> Month -> Quarter -> Year) and descriptive details (like product name or category), letting you analyze your facts from multiple perspectives.
 
 This approach creates several schema patterns:
