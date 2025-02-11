@@ -350,8 +350,7 @@ hugolint:
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
-        declare -r MAIN_PROJECT_ID=42817607
-        hugolint codequality latest --project "${MAIN_PROJECT_ID}" --artifact 'linkcheck.json' >'latest.json'
+        hugolint codequality latest --project "42817607" --artifact 'linkcheck.json' >'latest.json'
         # additional JSON file to populate MR comment in post_comment_on_failure job
         jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
