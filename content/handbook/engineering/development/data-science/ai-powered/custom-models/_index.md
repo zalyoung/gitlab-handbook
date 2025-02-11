@@ -201,7 +201,7 @@ During on call period, support requests should be acknowledge within 24h.
 
 It is NOT expected for engineers in support to:
 
-- To be available outside of their preferred working hours, but some requests might be urgent. Consult with the engineering manager and the product manager on those situations
+- To be available outside of their preferred working hours, but some requests might be urgent and should be tackled first thing on the next working day. Consult with the engineering manager and the product manager on those situations
 - Lead customer calls, unless discussed otherwise for a specific case
 - Present demos, unless discussed otherwise for a specific case
 
