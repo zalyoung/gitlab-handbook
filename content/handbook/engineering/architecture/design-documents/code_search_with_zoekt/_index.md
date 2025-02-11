@@ -110,34 +110,26 @@ Elasticsearch option if we find Zoekt is a suitable long term option.
 
 ### Indexing
 
-Similar to our Elasticsearch integration, GitLab will notify Zoekt every time
-there are updates to a repository. We've introduced a new indexer called
-[`gitlab-zoekt-indexer`](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) and
-we are going to replace the legacy indexer that needs to clone repositories with it.
-The new indexer expects a payload with all required information to connect to
-Gitaly in order to index the repository.
+![Zoekt Indexing](static/images/engineering/architecture/design-documents/code_search_with_zoekt/diagrams/zoekt_indexing.png)
 
-The rails side of the integration will be a Sidekiq worker that is scheduled
-every time there is an update to a repository and it will simply call this
-`/indexer/index` endpoint in Zoekt. This will also need to send a Gitaly token
-that can allow Zoekt to connect to Gitaly.
+Every time a repository is created or updated, the GitLab Rails application
+generates `zoekt_tasks` records. The [`gitlab-zoekt-indexer`](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) periodically
+retrieves these tasks via a GET request, processes them, and then sends a
+callback to the GitLab Rails application. This callback updates the
+corresponding `zoekt_task`, `zoekt_repository`, and `zoekt_index`. GitLab also
+manages deduplication of zoekt_tasks.
 
 We're going to encrypt the connection with SSL and add basic auth in [Add authentication for GitLab -> Zoekt HTTP calls](https://gitlab.com/gitlab-org/gitlab/-/issues/389749)
 before enabling the new indexer since it receives Gitaly secrets from GitLab.
 
-```mermaid
-sequenceDiagram
-   participant user as User
-   participant gitaly as Gitaly
-   participant gitlab_sidekiq as GitLab Sidekiq
-   participant zoekt as Zoekt
-   user->>gitlab_git: git push git@gitlab.com:gitlab-org/gitlab.git
-   gitlab_git->>gitlab_sidekiq: ZoektIndexerWorker.perform_async(278964)
-   gitlab_sidekiq->>zoekt: POST /indexer/index {"GitalyConnectionInfo": {"Address": "tcp://gitaly:2305", "Storage": "default", "Token": "secret_token", "Path": "@hashed/a/b/c.git"}, "RepoId":7}
-   zoekt->>gitaly: go gitaly client
-```
+`zoekt_task` can be of three different types:
 
-The Sidekiq worker can leverage de-duplication based on the `project_id`.
+- `index_repo`: Used for the incremental indexing. Index from the last indexed
+  sha to the latest sha of the default branch.
+- `force_index_repo`: Used for the full reindex of the repo. Delete existing
+  indexed file and performs indexing from first sha to the latest sha of the default
+  branch.
+- `delete_repo`: Delete existing indexed files.
 
 Zoekt supports indexing multiple projects we'll likely need to, eventually,
 allow a way for users to configure additional branches (beyond the default
@@ -145,11 +137,8 @@ branch) and this will need to be sent to Zoekt. We will need to decide if these
 branch lists are sent every time we index the project or only when they change
 configuration.
 
-There may be race conditions with multiple Zoekt processes indexing the same
-repo at the same time. For this reason we should implement a locking mechanism
-somewhere to ensure we are only indexing 1 project in 1 place at a time. We
-could make use of the same Redis locking we use for indexing projects in
-Elasticsearch.
+To avoid the race condition there is a locking mechanism to ensure we are only
+indexing one project in one place at a time.
 
 ### Searching
 
