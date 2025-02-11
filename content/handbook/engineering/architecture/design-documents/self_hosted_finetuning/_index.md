@@ -26,7 +26,7 @@ With the development of Duo Self-hosted, the need for model customization has ar
 
 ### Challenges of Model's Fine-tuning
 
-While fine-tuning the entire model is one of the obvious solutions for model customization, it comes with several big challenges:
+While fine-tuning the entire model is a solution for model customization, it comes with several big challenges:
 
 1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
 2) Storing _n_ custom fine-tuned models would have high disk usage.
@@ -46,18 +46,13 @@ Any other forms of customizing the model:
 - RAG
 - RLHF
 
-## Proposal
-
-In this section, we propose a solution that addresses the challenges presented in the section above.
-
-### PEFT and light-weight adapters
+## Proposal: PEFT and light-weight adapters
 
 One of the possible solutions to achieve lightweight and quick fine-tuning involves using PEFT techniques, such as adapters.
 
 #### What is an adapter?
 
 Adapter-based methods add extra trainable parameters to the existing (base) model's layers. The base model weights stay frozen, while the new additional weights are trained on a new dataset. In the case of Code Suggestions, the dataset could be the customer's codebase or any other suitable data. One of the most widely used adapter-based methods is Low-Rank Adaptation (LoRA). In a nutshell, LoRA uses small rank matrices that are combined with the original model's weights. These small new weights are stored separately and are a magnitude smaller in size than the weights of a base model. During the inference, the new weights are combined with the base model weights, allowing us to simultaneously host one base model and multiple different task-specific LoRAs.
-``
 
 #### Advantages and Limitations
 
@@ -105,16 +100,6 @@ flowchart LR
  n3 --> n7
  n4 --> n8
 
- style n5 stroke:#000000
- style n6 stroke:#000000
- style n7 stroke:#000000
- style n8 stroke:#000000
- style n1 stroke:#000000
- style n2 stroke:#000000
- style n3 stroke:#000000
- style n4 stroke:#000000
- style s1 stroke:#000000
- style s2 stroke:#000000
 ```
 
 #### Training
