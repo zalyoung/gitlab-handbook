@@ -171,15 +171,17 @@ To better support calls with customers (existing and prospects), Custom Models p
 load and knowledge are shared across team members.
 
 | First Date | Last Date | Lead engineer | Back up engineer |
-|------------|-----------|-------------|--------------|
-| Feb 10     | Feb 16    | @eduardobonet     | @mhamda           |
-| Feb 17     | Feb 23    | @mhamda        | @manojmj        |
-| Feb 24     | Mar 2     | @manojmj        | @jpcyiza |
-| Mar 3      | Mar 9     |  @jpcyiza        | @eduardobonet |
-| Mar 10     | Mar 16    | @eduardobonet  | @mhamda |
-| Mar 17     | Mar 23    | @mhamda    | @manojmj  |
-| Mar 24     | Mar 30    |  @manojmj    | @jpcyiza  |
-| Mar 31     | Mar 31    |  @jpcyiza    | @eduardobonet |
+|------------|-----------|---------------|------------------|
+| Feb 10     | Feb 16    | @eduardobonet | @mhamda          |
+| Feb 17     | Feb 23    | @mhamda       | @manojmj         |
+| Feb 24     | Mar 2     | @manojmj      | @jpcyiza         |
+| Mar 3      | Mar 9     | @jpcyiza      | @bcardoso-       |
+| Mar 10     | Mar 16    | @bcardoso-    | @eduardobonet    |
+| Mar 17     | Mar 23    | @eduardobonet | @mhamda          |
+| Mar 24     | Mar 30    | @mhamda       | @manojmj         |
+| Mar 31     | Apr 7     | @manojmj      | @jpcyiza         |
+| Apr 8      | Apr 13    | @jpcyiza      | @bcardoso-       |
+| Apr 14     | Apr 20    | @bcardoso-    | @eduardobonet    |
 
 During on call period, support requests should be acknowledge within 24h.
 
@@ -189,12 +191,12 @@ During on call period, support requests should be acknowledge within 24h.
 - Monitor income requests on [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel. 
 - Make sure requests for help issues are created.
 - Answer support questions on slack, redirecting to our documentation whenever possible.
-- Join customer calls lead by Solution Architects or Sales representatives.
+- Join customer calls led by Solution Architects or Sales representatives when needed, and own the communication with the customer until it's resolved or handed over to a support engineer.
 - Act on outcomes of problems faced:
    - Can we add documentation to help SA's and customers be more self-sufficient?
    - Could the issue be improved by better tooling? Create an issue with the changes needed.
    - Was it a bug that we didn't caught? Ho can we avoid this the next time?
-- Notify the engineer manager and back up engineer whether they won't be available.
+- Notify the engineering manager and back up engineer whether they won't be available.
 - Hand over the necessary context to the next engineer in support.
 
 It is NOT expected for engineers in support to:
