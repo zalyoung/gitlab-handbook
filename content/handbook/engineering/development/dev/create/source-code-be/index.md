@@ -101,6 +101,7 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 1. Engineers or EM will evaluate the issue, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
 1. When the planned implementation of the issue is in its smallest form, the engineer/EM will provide a weight. EM or PM will mark as `workflow::needs issue review`.
+1. When other teams depend on Source Code Backend issues planned for the current milestone, those issues will be labeled as `SCM::AwaitingBackend`
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
 
@@ -331,6 +332,7 @@ If any priority issues emerge after these meetings, or if assignments can't be d
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
 
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
+- If a parent issue is fixed but pending activation via a Feature Flag, update the parent issue description to: “This change has been merged. Rollout will be managed in this rollout issue. Once the Rollout issue is closed then this change will be live.”. Also, link the related Feature Flag issue to the parent issue.
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&search=source+code+group+planning)
 
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
