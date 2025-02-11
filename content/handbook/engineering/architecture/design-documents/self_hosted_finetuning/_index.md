@@ -72,7 +72,7 @@ As with any method, the LoRA method comes with its advantages and limitations. _
 
 **Limitations:**
 
-1) LoRAs tend to "forget things" a bit more than the fully finetuned model. Thus, we can expect LoRA to perform better than the base model on the task it was trained on, but it could be worse than a base model on the task it was not trained.
+1) LoRAs tend to "forget things" a bit more than the fully fine-tuned model. Thus, we can expect LoRA to perform better than the base model on the task for which it was trained, but it could perform worse than a base model on the tasks for which it was not trained.
 2) LoRAs are model-specific, meaning LoRAs can only properly work on the model it was trained on.
 3) LoRA is likely to lose in the overall performance and generalization to a fully tuned model.
 
