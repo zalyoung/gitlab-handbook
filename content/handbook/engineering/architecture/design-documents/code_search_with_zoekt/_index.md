@@ -124,7 +124,7 @@ before enabling the new indexer since it receives Gitaly secrets from GitLab.
 - `force_index_repo`: Used for the full reindex of the repo. Delete existing
   indexed file and performs indexing from first sha to the latest sha of the default
   branch.
-- `delete_repo`: Delete existing indexed files.
+- `delete_repo`: Schedules existing indexed files for deletion.
 
 Zoekt supports indexing multiple projects we'll likely need to, eventually,
 allow a way for users to configure additional branches (beyond the default
