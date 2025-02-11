@@ -117,7 +117,7 @@ generates `zoekt_tasks` records. The [`gitlab-zoekt-indexer`](https://gitlab.com
 retrieves these tasks via a GET request, processes them, and then sends a
 callback to the GitLab Rails application. This callback updates the
 corresponding `zoekt_task`, `zoekt_repository`, and `zoekt_index`. GitLab also
-manages deduplication of zoekt_tasks.
+manages deduplication of `zoekt_tasks`.
 
 We're going to encrypt the connection with SSL and add basic auth in [Add authentication for GitLab -> Zoekt HTTP calls](https://gitlab.com/gitlab-org/gitlab/-/issues/389749)
 before enabling the new indexer since it receives Gitaly secrets from GitLab.
