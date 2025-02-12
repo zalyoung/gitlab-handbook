@@ -114,7 +114,6 @@ While on shift the engineer should:
 | 2025/02/24 - 2025/03/02 | @halilcoban             |
 | 2025/03/02 - 2025/03/08 | @mikolaj_wawrzyniak     |
 
-
 ### ⏲ Time Off
 
 Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, in accordance with the [taking time off](https://handbook.gitlab.com/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
