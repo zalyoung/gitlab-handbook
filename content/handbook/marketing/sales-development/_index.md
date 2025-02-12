@@ -70,14 +70,11 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **BDR ENT AMER (Manager - Christie Park)** | [`#bdr_amer_ent`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
 | **BDR FINS & LATAM AMER (Manager - Ashley Dunn)**       | [`#bdr_amer_fins_latam`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC AMER (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00)|
-| **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
-| **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
-| **BDR ENTG EMEA NEUR META - (Manager - Fintan Harrington)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
+| **BDR ENTG EMEA NEUR UKI - (Manager - Fintan Harrington)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
-| **SDR APJ - (Manager - Robin Falkowski)**             | [`#apj_sales_dev`](https://gitlab.slack.com/archives/C031T0L) |
-| **BDR ENTG APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
-| **BDR EGC META NL - (Manager - Carolina Marco Bellver)**          | [`#bdr_emea-egc-meta-nl`](https://gitlab.enterprise.slack.com/archives/C04NA4BQP54) |
+| **BDR META TELCO EGC - (Manager - Elsje Smart Temp)**          | [`#bdr_emea-egc-meta-telco`](https://gitlab.enterprise.slack.com/archives/C04NA4BQP54) |
+| **BDR APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
 
 ## Our GitLab Projects
 
