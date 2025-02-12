@@ -2,8 +2,6 @@
 title: Package Stage
 ---
 
-# Package Team
-
 ## Mission and Vision
 
 The Package stage creates a secure environment where both source code and dependencies can live by allowing you to publish, consume, and discover packages across a variety of languages and platforms all in one place. Our vision is to be our customers' single source of truth for storing and distributing packages and container images across the entire DevOps lifecycle.
@@ -44,12 +42,14 @@ The following teams make up the Package stage:
 Our milestone planning aligns closely with our product roadmap and engineering commitments. The process balances delivery of strategic initiatives with operational needs like security issues and customer bugs.
 
 Product Manager responsibilities:
+
 - Creates milestone planning issue with clear goals based on roadmap
 - Defines key projects and expected outcomes
 - Ensures security issues and customer bugs are considered
 - Maintains alignment with product strategy and roadmap
 
 Engineering Manager and DRI responsibilities:
+
 - Reviews carryover work from previous milestone
 - Selects next set of issues from their projects to meet roadmap timelines
 - Evaluates realistic delivery capacity
@@ -57,10 +57,12 @@ Engineering Manager and DRI responsibilities:
 - Updates roadmap dates if needed
 
 Issues are prioritized as:
+
 - `Package:P1`: Committed work for the milestone
 - `Package:P2` + `Stretch`: Stretch goals if capacity allows
 
 Non-roadmap items that may be planned include:
+
 - Security issues (to meet SLAs)
 - Customer bugs
 - Minor reliability/performance fixes
@@ -96,6 +98,7 @@ An issue with weight 1 should take no more than 2 days to complete.
 ### Current Projects
 
 #### Container Registry
+
 - [Tag immutability](https://gitlab.com/groups/gitlab-org/-/epics/15139) (DRI: @jdrpereira)
 - [Protected tags](https://gitlab.com/groups/gitlab-org/-/epics/15608) (DRI: @rchanila)
 - [Metadata database GA](https://gitlab.com/groups/gitlab-org/-/epics/5521) (DRI: @hswimelar)
@@ -103,6 +106,7 @@ An issue with weight 1 should take no more than 2 days to complete.
 - [Background migration support](https://gitlab.com/groups/gitlab-org/-/epics/13609) (DRI: @suleimiahmed)
 
 #### Package Registry
+
 - [Virtual Registry support (Maven, npm, PyPI, NuGet)](https://gitlab.com/groups/gitlab-org/-/epics/15088) (DRI: @10io)
 - [Dependency Firewall](https://gitlab.com/groups/gitlab-org/-/epics/5133) (DRI: @dmeshcharakou)
 - [Package format improvements](https://gitlab.com/groups/gitlab-org/-/epics/12294) (DRI: @radbatnag)
@@ -193,12 +197,14 @@ The team monitors the Slack channel [#g_container-registry_alerts](https://gitla
 Originally launched in milestone 8.8, the Container Registry integrated Docker Distribution registry into GitLab. A key challenge was storage management - deleted images weren't actually removed from storage without downtime-requiring garbage collection.
 
 To address this and enable future features, we:
+
 1. Forked Docker Distribution
 2. Implemented online garbage collection
 3. Added a metadata database
 4. Created cleanup policies
 
 This work enables future capabilities like:
+
 - More robust API and UI
 - Enterprise features (image signing, protection)
 - Improved stability and reliability
@@ -208,6 +214,7 @@ The registry adheres to OCI standards for Image and Distribution specifications 
 ## Measuring Results
 
 ### Key Performance Indicators
+
 - Lighthouse Metric: (Count of Packages Published + Count of Containers Published) / Billable Users
 - Monthly Active Users (GMAU)
 - Error Budget compliance
@@ -217,6 +224,7 @@ The registry adheres to OCI standards for Image and Distribution specifications 
   - Data transfer costs
 
 ### Dashboards
+
 - [Container Registry](https://log.gprd.gitlab.net/goto/e7b62a23a5a9cdc88aa1de3cdb392758)
 - [Package Registry Metrics](https://dashboards.gitlab.net/)
 - [Error Budgets](https://dashboards.gitlab.net/d/stage-groups-detail-package_registry/)

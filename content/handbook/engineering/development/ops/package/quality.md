@@ -2,8 +2,6 @@
 title: Package Group - GitLab Quality Assurance End-to-End Testing for the Package group
 ---
 
-# Package Quality Guidelines
-
 ## Testing Strategy
 
 ### Local Development Testing
@@ -25,6 +23,7 @@ The Package group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for 
 #### Common Test Scenarios
 
 1. Container Registry
+
    ```ruby
    # Publishing a container image
    Resource::Container::Image.fabricate_via_api! do |image|
@@ -34,6 +33,7 @@ The Package group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for 
    ```
 
 2. Package Registry
+
    ```ruby
    # Publishing an npm package
    Resource::Package::Npm.fabricate_via_api! do |package|
@@ -47,16 +47,19 @@ The Package group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for 
 #### Local Testing with GDK
 
 1. Set required environment variables:
+
    ```bash
    export QA_DEBUG=true
    export WEBDRIVER_HEADLESS=false
    ```
+
 2. Ensure GDK is using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk)
 3. Map hostname to the loopback interface
 
 #### Testing File Uploads
 
 Test uploads against multiple storage backends:
+
 1. Local storage (default)
 2. Object storage:
    - GCP (recommended for GitLab.com parity)
@@ -94,6 +97,7 @@ For ephemeral demos with Omnibus and Container Registry:
 #### Common Issues
 
 1. Storage backend connectivity
+
    ```bash
    # Check GCS credentials
    gsutil ls gs://your-bucket
@@ -103,6 +107,7 @@ For ephemeral demos with Omnibus and Container Registry:
    ```
 
 2. Registry authentication
+
    ```bash
    # Test registry login
    docker login registry.gitlab.com
