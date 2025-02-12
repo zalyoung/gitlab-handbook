@@ -102,7 +102,7 @@ These metrics track our team's capacity to handle critical security workloads.
 
 ### Merge Request Review Coverage Rate
 
-This KPI tracks our ability to review security-relevant merge requests that introduced a vulnerability, with or without prior security review.
+This KPI tracks our ability to review security-relevant merge requests that introduced a vulnerability, with or without prior security review. It is tracked through a security review miss rate that we target to get as close to 0% as possible, as that would mean that any merge request that was reviewed by the application security team did not end up introducing a vulnerability.
 
 #### How It's Measured
 
