@@ -210,6 +210,8 @@ We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as o
 
 #### Snowplow nullify geo columns
 
+**Issue**: [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally)
+
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
 - `geo_zipcode`
@@ -224,14 +226,9 @@ As desired to avoid a duplicate load of the updated files in the `S3` bucket as 
 ```bash
 - gitlab-com-snowplow-events/
     output/ <---- all files are located here
-        2019/
-        2020/
-        2021/
-        2022/
-        2023/
-            01/
-            02/
-            03/
+        2019/01/01
+        ...
+        (present day)
 ```
 
 to the new structure:
@@ -239,25 +236,24 @@ to the new structure:
 ```bash
 - gitlab-com-snowplow-events/
     output_nullified_columns/ <---- all files are nullified and updated
-        2019/
-        2020/
-        2021/
-        2022/
-        2023/
-            01/
+        2019/01/01
+        ...
+        2023/01/31
     output/ <---- new files will land here and will be loaded by Snowpipe
-        2023/
-            02/
-            03/
+        2023/02/01
+        ...
+        (present day)
 ```
 
 #### Snowplow nullify `page_url_path` columns
 
-In order to be compliant with data into Snowplow, the following columns were pseudoanonymized:
+**Issue**: [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
+
+In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
 - `page_url_path`
 
-This pseudonymization is applied in Snowplow for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
-The Data Team updated old files and pseudoanonymized  `page_url_path` column, and also pseudoanonymized `page_url_path` column in Snowflake.
+This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
+The Data Team updated old files and pseudo-anonymized  `page_url_path` column, and also pseudo-anonymized `page_url_path` column in Snowflake.
 This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
 
 As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351), the folder structure is modified from:
@@ -290,6 +286,7 @@ to the new structure:
     output/ <---- new files will land here and will be loaded by Snowpipe
         2023/12/02
         ...
+        (present day)
 ```
 
 > **Note:** All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
