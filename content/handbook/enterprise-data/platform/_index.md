@@ -206,7 +206,9 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-### Snowplow nullify columns
+### Snowplow updating columns
+
+#### Snowplow nullify geo columns
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
@@ -248,6 +250,8 @@ to the new structure:
             02/
             03/
 ```
+
+#### Snowplow nullify page_url_path columns
 
 All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
