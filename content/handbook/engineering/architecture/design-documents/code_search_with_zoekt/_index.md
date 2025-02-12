@@ -110,7 +110,7 @@ Elasticsearch option if we find Zoekt is a suitable long term option.
 
 ### Indexing
 
-![Zoekt Indexing](static/images/engineering/architecture/design-documents/code_search_with_zoekt/diagrams/zoekt_indexing.png)
+![Zoekt Indexing](/images/engineering/architecture/design-documents/code_search_with_zoekt/diagrams/zoekt_indexing.png)
 
 Whenever a repository is created or updated, the GitLab Rails application creates `zoekt_tasks` records. The [`gitlab-zoekt-indexer`](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) process periodically retrieves these tasks via a GET request, processes them, and then sends a callback to the GitLab Rails application. This callback updates the corresponding `zoekt_task`, `zoekt_repository`, and `zoekt_index` records. GitLab also handles deduplication of `zoekt_tasks`.
 
@@ -273,7 +273,7 @@ Some of those benefits could also be seen as downsides and maybe not the right c
 
 ##### High level proposal
 
-![Sharding Proposal](static/images/engineering/architecture/design-documents/code_search_with_zoekt/diagrams/sharding_proposal_2023-08.drawio.png)
+![Sharding Proposal](/images/engineering/architecture/design-documents/code_search_with_zoekt/diagrams/sharding_proposal_2023-08.drawio.png)
 
 1. Zoekt nodes are started with 3 additional arguments: its own address, shard name, and GitLab URL.
 1. We'd like to keep shard name separate so that one will be able to migrate a shard to a different address.
