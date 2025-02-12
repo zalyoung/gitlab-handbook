@@ -24,14 +24,7 @@ These differences between Vue Router 3 and 4 require that unit tests are re-writ
 
 Fix all tests that are currently failing due to Vue Router incompatibility.
 
-The initial investigation on [how many tests are failing due to the incompatibility](https://gitlab.com/gitlab-org/gitlab/-/issues/509084#note_2284897081) highlighted the following test suites:
-
-* ee/spec/frontend/insights/insights_router_spec.js
-* ee/spec/frontend/on_demand_scans/components/tabs/base_tab_spec.js
-* spec/frontend/crm/crm_form_spec.js
-* spec/frontend/ml/experiment_tracking/routes/experiments/show/ml_experiments_show_spec.js
-* spec/frontend/organizations/groups_and_projects/components/app_spec.js
-* spec/frontend/projects/your_work/components/app_spec.js
+The list of tests suites that need be fixed will be maintained in this [section of the original issue](https://gitlab.com/gitlab-org/gitlab/-/issues/509084#tests-to-be-fixed). A script that [fetches the router errors is available](https://gitlab.com/gitlab-org/gitlab/-/issues/509084#note_2332185146) to keep this up to date.
 
 Once these tests are fully addressed, it will be necessary to take another look at the [jest speed reporter](https://gitlab-org.gitlab.io/frontend/playground/jest-speed-reporter/vue3) to make sure that no other tests are failing due to router compatibility. The above investigation has assumed that tests failing due to compatibility issues are exposed by the string "Vue router" in the failure message.
 
@@ -43,7 +36,7 @@ The strategy for fixing these tests has been documented in the [Testing Vue rout
 
 ## Exit Criteria
 
-* [Tests](https://gitlab-org.gitlab.io/frontend/playground/jest-speed-reporter/vue3) issuing a `Vue router warn` fixed (where applicable, see non-goals above).
+* [Tests](https://gitlab-org.gitlab.io/frontend/playground/jest-speed-reporter/vue3) issuing any `router` compatibility errors fixed (where applicable, see non-goals above).
 
 ## Roles and Responsibilities
 

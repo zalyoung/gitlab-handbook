@@ -97,7 +97,7 @@ At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/se
 #### Responsibilities - Support
 
 1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
-If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
+If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [the Request for Help project](https://gitlab.com/gitlab-com/request-for-help#sec-section).
     - [#g_ast-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
     - [#s_application-security-testing](https://gitlab.slack.com/archives/C8S0HHM44)
     - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
