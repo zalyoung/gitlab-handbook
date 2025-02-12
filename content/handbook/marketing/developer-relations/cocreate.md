@@ -48,6 +48,10 @@ Identify areas that are of high priority to the customer together with the Solut
 1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-create opportunities and enable technically the customer's engineers to contribute to GitLab.
 1. **Collaborative Development**: GitLab's engineering team will take the lead in pairing engineers with the customer's team to support the development effort.
 
+## Nominate an Issue for CoCreate
+
+Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](https://handbook.gitlab.com/handbook/product/categories/features/) and ask for their approval to add the ~co-create label to the issue. 
+
 ## Resources
 
 - [Contribute to GitLab](https://about.gitlab.com/community/contribute/) - this webpage provides a high-level overview of the benefits related to contributing to GitLab's open-source community, as well as contribution guidelines and tutorials aimed at helping you better understand and visualize the process.
