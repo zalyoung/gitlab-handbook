@@ -182,6 +182,16 @@ If you need assistance with a production issue or incident, please see the secti
 |[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| Our social channel. |
 | #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
 
+**Tenant Scale**
+
+| **Channel** | **Purpose** |
+| ----------- | ----------- |
+|[#s_tenant_scale](https://gitlab.enterprise.slack.com/archives/C07TWC3QX47) | General conversation for Tenant Scale and requests coming from other teams. |
+|[#g_organizations](https://gitlab.enterprise.slack.com/archives/C01TQ838Y3T) | Discussions and requests specific to the Organizations team. |
+|[#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) | Discussions and requests specific to the Geo team. |
+|[#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59) | Discussions and requests specific to the Cells Infrastructure team. |
+|[#f_cells_and_organizations](https://gitlab.enterprise.slack.com/archives/C0609EXHX6F) | Channel for cross-functional discussion and coordination on Cells and Organizations. |
+
 The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
 For more information, refer to the [landing page for getting assistance](/handbook/engineering/infrastructure/getting-assistance/).
@@ -288,6 +298,7 @@ All team members are encouraged to schedule time for personal development. The f
 | Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
 | Scalability Group| [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
+| Tenant Scale | [Group Page](/handbook/engineering/infrastructure-platforms/tenant-scale/) |
 
 ### Learn about tools and technologies used within Platforms
 
@@ -312,6 +323,7 @@ All team members are encouraged to schedule time for personal development. The f
 - [Production incidents, and changes](https://gitlab.com/gitlab-com/gl-infra/production/issues/)
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/)
 - [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability/issues/)
+- [Tenant Scale](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/)
 
 ### Resources
 
