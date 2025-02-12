@@ -80,6 +80,7 @@ This guide outlines the process for instrumenting and tracking feature metrics a
 If your analytics needs for your new or recently modified feature are met by these dashboards, you can skip creating a Product Data Insights (PDI) Issue:
 
 - [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting)
+- [PD: Product Usage Metrics (.com & Service Ping)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2478263/views)
 - [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views)
 - [PD: Subscription Feature Usage Trends](https://10az.online.tableau.com/t/gitlab/views/PDSubscriptionFeatureUsageTrends_17032798065680)
 - [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview)
@@ -119,7 +120,7 @@ For features routed through the AI Gateway:
 
 - New distinct features should be represented as a [unit primitive](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector/-/tree/main/config/unit_primitives). This will enable AI features to be tracked automatically via a new AI Gateway events tracking system. AI Gateway events using the unit primitive framework cannot be blocked by users and are tracked at the event grain for all deployment types.
 - For reporting requiring more granularity than a 'request' of the AI Gateway, utilize [Internal Events Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html).
-- Internal events can be connected to unit primitive events seen in the AI Gateway using a `correlation_id` for behavior funnel use cases.
+- Internal events can be connected to unit primitive events seen in the AI Gateway using a `correlation_id` for behavior funnel use cases (for GitLab.com only).
 - [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview) will automatically display new unit primitive requests.
 
 ### Key Contacts and Resources
