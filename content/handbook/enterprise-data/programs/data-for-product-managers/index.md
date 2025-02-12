@@ -78,6 +78,7 @@ This guide outlines the process for instrumenting and tracking feature metrics a
 ### Self-Service Feature Tracking Dashboards
 
 If your analytics needs for your new or recently modified feature are met by these dashboards, you can skip creating a Product Data Insights (PDI) Issue:
+
 - [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting)
 - [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views)
 - [PD: Subscription Feature Usage Trends](https://10az.online.tableau.com/t/gitlab/views/PDSubscriptionFeatureUsageTrends_17032798065680)
@@ -86,35 +87,36 @@ If your analytics needs for your new or recently modified feature are met by the
 ### Process for Instrumenting Feature Tracking
 
 1. Define Analytics Requirements
-**Owner: Product Manager**
-- Determine if existing dashboards designed to automatically ingest new events will meet your needs
-- If additional analytics are required, create a [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
+   **Owner: Product Manager**
+   - Determine if existing dashboards designed to automatically ingest new events will meet your needs
+   - If additional analytics are required, create a [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
 
 1. Create Instrumentation Issue
-**Owner: Product Manager**
-- Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
-- Ensure proposed event properties align with analytics requirements
-- Tag your [assigned product analyst](https://handbook.gitlab.com/handbook/product/groups/product-analysis/#team-members) for review
+   **Owner: Product Manager**
+   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
+   - Ensure proposed event properties align with analytics requirements
+   - Tag your [assigned product analyst](https://handbook.gitlab.com/handbook/product/groups/product-analysis/#team-members) for review
 
 1. Implement Tracking
-**Owner: Engineer**
-- Create an Internal Events Tracking Merge Request (MR)
-- Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
+   **Owner: Engineer**
+   - Create an Internal Events Tracking Merge Request (MR)
+   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
 
 1. Test and Validate
-**Owner: Engineer**
-- Perform [local testing](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html)
-- Request review from Analytics Instrumentation team member
-- Verify test events match properties defined in the Issue
+   **Owner: Engineer**
+   - Perform [local testing](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html)
+   - Request review from Analytics Instrumentation team member
+   - Verify test events match properties defined in the Issue
 
 1. Create Analysis
-**Owner: Product Analyst**
-- Wait 1-2 weeks after MR merge for sufficient data collection
-- Complete requirements specified in PDI Issue (if applicable)
+   **Owner: Product Analyst**
+   - Wait 1-2 weeks after MR merge for sufficient data collection
+   - Complete requirements specified in PDI Issue (if applicable)
 
 ### Special Considerations for AI Gateway Features
 
 For features routed through the AI Gateway:
+
 - New distinct features should be represented as a [unit primitive](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector/-/tree/main/config/unit_primitives). This will enable AI features to be tracked automatically via a new AI Gateway events tracking system. AI Gateway events using the unit primitive framework cannot be blocked by users and are tracked at the event grain for all deployment types.
 - For reporting requiring more granularity than a 'request' of the AI Gateway, utilize [Internal Events Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html).
 - Internal events can be connected to unit primitive events seen in the AI Gateway using a `correlation_id` for behavior funnel use cases.
