@@ -24,7 +24,7 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 ### New Hire Laptop Ordering Process
 
 The laptop ordering process for new hires starts as soon as an offer is accepted by a candidate and the initial Welcome email is sent by the Candidate Experience Specialist.
-This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop.
+This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop. After the new hire fills out the form, they can expect their GitLab issued laptop to arrive the week before their start date. 
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
@@ -34,7 +34,7 @@ Please note that we are adding supported countries to this list as we discover o
 You can test this by going to order a MacBook Pro (or Dell) from the regional Apple store, and seeing if they let you customize a build or alternately refer you to local retailers.
 If the latter, see below.
 
-We currently cannot procure Apple laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `IT-Help@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
+We currently cannot procure Apple laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `laptops@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
 If the team member requires financial assistance to purchase the hardware, the Company will advance the funds to help facilitate the purchase (see Exception Processes below).
 
 {{% alert title="**Warning: fake job scams**" color="warning" %}}
@@ -88,7 +88,7 @@ When you receive the new laptop, please follow the guidelines in the template. A
 
 Once End User Services receives your laptop order, we will start working on purchasing your laptop. We leverage business relationships with several different vendors across the globe to accomplish this remotely. Please note delivery times will vary depending on location, hardware supply, vendor selection, and shipping method.
 
-In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions at this time but please feel free to reach out to laptops@gitlab.com or talk with your hiring manager to review all options available.
+In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions at this time but please feel free to reach out to `laptops@gitlab.com` or talk with your hiring manager to review all options available.
 
 If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=opened&first_page_size=100)
 
@@ -108,7 +108,7 @@ We do not allow personal laptops to be used for GitLab work. If you are in need 
 
 ### Laptops Out of Spec
 
-If the laptop is outside the standardized specifications listed [here](#apple-hardware) then manager and [Michael Beltran's](/handbook/company/team/#mbeee), [Steve Ladgrove's](https://about.gitlab.com/company/team/#sladgrove) or [Mic Rohr's](https://about.gitlab.com/company/team/#mic_rohr) approval will be required before IT can purchase the laptop.
+If the laptop is outside the standardized specifications listed [here](#apple-hardware) approval will be required from the team member's manager as well as [Michael Beltran's](/handbook/company/team/#mbeee), or [Mic Rohr's](https://about.gitlab.com/company/team/#mic_rohr) before IT will purchase the laptop.
 
 ### Exception Processes
 
@@ -122,7 +122,7 @@ Should a laptop not be available to a new GitLab team-member upon their start da
 
 If in the rare case that your laptop arrives damaged or unusable prior to your start date, please reach out to your Candidate Experience Specialist and CC [laptops@gitlab.com](mailto:laptops@gitlab.com) for next steps on an immediate replacement or repair.
 
-If you are unable to complete any of the steps above, you may request a Laptop Exception using this [template](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/third-party-vendor-security-management/-/blob/master/.gitlab/issue_templates/Laptop%20Exception%20Request). These requests require approval from leadership across multiple departments and are discouraged due to the possibility of data leakage.
+If you are unable to complete any of the steps above, you may request a Laptop Exception using this [template](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/exceptions/-/issues/new?issuable_template=exception_request). These requests require approval from leadership across multiple departments and are discouraged due to the possibility of data leakage.
 
 ### Laptop Configurations
 
