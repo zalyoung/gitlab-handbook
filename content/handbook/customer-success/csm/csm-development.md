@@ -176,15 +176,3 @@ Access codes and recording links can be found in this [internal doc](https://doc
 ### Within GitLab, outside of CS
 
 - While there is no 'formula' for moving into roles in other teams, we welcome CSM growth and desire to explore alternative areas with GitLab.  For CSMs looking to move into different groups outside of CS, the first step is to review the job family requirements and connect with their manager on determining a path. It is encouraged for managers to connect with the group's team leaders in question to build out a development plan that will have the best chances of success.
-
-## External Sources/Tools linked here
-
-### LinkedIn Learning
-
-[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
-
-We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
-
-### Coursera
-
-[Handbook details about Coursera](/handbook/people-group/learning-and-development/growth-and-development/#self-service-learning)

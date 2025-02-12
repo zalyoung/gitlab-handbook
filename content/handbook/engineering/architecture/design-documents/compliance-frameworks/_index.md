@@ -481,16 +481,24 @@ This workflow diagram shows how violation status checks are triggered and stored
 ```mermaid
 flowchart TD
     %% Event-Triggered Violation Check
-    F[User applies Framework to Project] --> U[Async Violation check job triggered]
+    F[User applies Framework to Project] --> U[Async Violation check job triggered by audit event]
     U --> V[Get all Controls in Framework applied to Project]
     V --> W[Loop through Controls]
-    W --> X{Event violates a Control?}
+    W --> X{Audit Event violates a Control?}
     X -- Yes --> Y[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
     X -- No --> Z[No action needed]
-    Y --> AA[Event occurs: every 12 hours or when MR merged]
+    Y --> AA[Audit Event occurs]
     Z --> AA
     AA --> U
 ```
+
+For certain controls defined in GitLab there will be a event trigger point. When this event is triggered for a project the violation engine will check whether the project has a compliance framework configured with that requirement controls. If the project does have this configured then the event will be logged as a violation.
+
+For example when a Merge Request is merged the system will trigger a potential violation event. The violations engine will check if there is a control defined for the project which states all Merge Requests requiring 2 approvers, if the Merge Request has less then 2 then a violation is created from the event.
+
+All GitLab defined controls will have an audit event type configured as its trigger point. We will update the audit event type yml file to include a new parameter that will indicate which control it is associated. One audit event may have multiple controls associated with it, such as when an MR is merged.
+
+#### Audit history
 
 In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
 

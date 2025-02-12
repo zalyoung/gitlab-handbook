@@ -183,7 +183,8 @@
 
 # CODEOWNER approvals are required for Source Code to support dogfooding approvals
 [Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code-be/ @andr3 @dpoosarla @vyaklushin @ashmckenzie @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @dpoosarla @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @dpoosarla @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Eng-Infrastructure-Quality-department]
 /content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson

@@ -27,7 +27,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 
 | Label    | Description |
 | -------- | ------- |
-| AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties |
+| AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties. MR security reviews are not concerned by this label, use AppSecWorkType::SecurityMRReview instead. |
 | AppSecWorkType::ThreatModel | Indicates the work was associated to the AppSec threat model duties |
 | AppSecWorkType::JihuMRreview | Indicates the work was associated to the AppSec JiHu merge request reviews duties |
 | AppSecWorkType::AppSecReview | Indicates the work was associated to the AppSec reviews duties |
@@ -38,7 +38,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::FieldSecurity | Indicates the work was associated to the request from Field Security (example: customer scan review requests) |
 | AppSecWorkType::VATRotation | Indicates the work was associated to the AppSec Federal AppSec VAT duties |
 | AppSecWorkType::FedAppSecRelCert | Indicates the work was associated to the AppSec Federal AppSec release certification and merge monitor review duties |
-| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (non stable counterpart MR reviews) duties |
+| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (including stable counterpart MR reviews) duties |
 | AppSecWorkType::TriageRotation | Indicates the work was associated to the AppSec Triage Rotation |
 | AppSecWorkType::CustomerEscalation | Indicates the work was associated to a customer escalating a security issue |
 | AppSecWorkType::SIRTandSecurityComms | Indicates the work was associated to a SIRT incidents and/or Security communications work |
@@ -87,6 +87,7 @@ These labels indicate the current status of the issue.
 ### Table
 
 | Label    | Description |
+| -------- | ----------- |
 | AppSecWorkflow::planned| Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
 |AppSecWorkflow::in-progress|Indicates the issue is actively being worked on, or the rotation is in progress.|
 |AppSecWorkflow::complete|Indicates the work is done, or the rotation has finished.|
@@ -94,3 +95,32 @@ These labels indicate the current status of the issue.
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to an issue when work on the issue is started or completed.
+
+## Key Performance Indicators
+
+These metrics track our team's capacity to handle critical security workloads.
+
+### Merge Request Review Coverage Rate
+
+This KPI tracks our ability to review security-relevant merge requests that introduced a vulnerability, with or without prior security review. It is tracked through a security review miss rate that we target to get as close to 0% as possible, as that would mean that any merge request that was reviewed by the application security team did not end up introducing a vulnerability.
+
+#### How It's Measured
+
+1. __Merge Request Classification Requirements__
+   - `AppSecWorkType::VulnFixVerification` must be applied to security fix verification Merge Requests
+   - `AppSecWorkType::SecurityMRReview` must be applied to all other security code reviews, including those performed during triage rotation or as part of the stable counter part MR review.
+
+2. __Vulnerability Source Tracking__
+   - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
+
+#### Calculation Method
+
+```text
+`Security Review Miss Rate` = (Merged Vulnerability-introducing Merge Requests with Application Security review / Total vulnerability-introducing Merge Requests) * 100
+```
+
+Where:
+
+- Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
+- Vulnerability-introducing Merge Requests _without_ Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking both `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+- Merged Vulnerability-introducing Merge Requests with Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests with either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`

@@ -306,10 +306,10 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
-| GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
+| GitLab Shell |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
-| LFS |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
+| LFS |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 | Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Mattermost |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
@@ -325,7 +325,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Redis |  | Decentralized |  |  | DRI is similar to Sidekiq which is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
 | Sentry |  | Decentralized |  |  | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
-| Workhorse |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
+| Workhorse |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 
 ## Learning Resources
 
