@@ -48,13 +48,6 @@ Identify areas that are of high priority to the customer together with the Solut
 1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-create opportunities and enable technically the customer's engineers to contribute to GitLab.
 1. **Collaborative Development**: GitLab's engineering team will take the lead in pairing engineers with the customer's team to support the development effort.
 
-## SPIFF (Sales Performance Incentive Fund Formula)
-
-### Q2
-
-- Target account list: Please see the spreadsheet linked in the Slack Channel of `#cocreate-initiative` or find the file in Drive named "Co-Creation SPIFF Target Account List (Data as of April 2024)".
-- Eligibility Criteria: Please see the slide linked in the Slack Channel of `#cocreate-initiative` or find the file in Drive named "FY25 Q2 Customer & Partner Co-Creation SPIFF".
-
 ## Resources
 
 - [Contribute to GitLab](https://about.gitlab.com/community/contribute/) - this webpage provides a high-level overview of the benefits related to contributing to GitLab's open-source community, as well as contribution guidelines and tutorials aimed at helping you better understand and visualize the process.
