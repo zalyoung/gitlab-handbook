@@ -2,11 +2,11 @@
 title: Hone Partnership
 ---
 
-GitLab has partnered with [Hone](https://honehq.com/) to provide expanded professional development opportunities through live, coach-led learning experiences. Hone, who also delivers our [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) leadership development program, specializes in interactive virtual training sessions led by expert facilitators.
+GitLab has partnered with [Hone](https://honehq.com/) to provide expanded professional development opportunities through live, coach-led learning experiences. Our [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) leadership development program, is also delivered via Hone, and they specialize in interactive virtual training sessions led by expert facilitators.
 
 ## Overview
 
-This partnership represents GitLab's commitment to scaling leadership and professional development across the organization. The program will be evaluated quarter over quarter to ensure it continues to meet our development needs.
+This partnership represents GitLab's commitment to scaling leadership and professional development across the organization. The partnership will be evaluated quarter over quarter to ensure it continues to meet our development needs. Currently we support memberships for all GitLab people managers, but interested ICs may also request a license, which will be made avaialable if capacity allows. More details on this below.
 
 Key features of this partnership include:
 
@@ -19,7 +19,7 @@ Key features of this partnership include:
 
 ### People Managers
 
-All GitLab people managers will receive unlimited access to the Hone platform for the year, starting January 27th, 2024. Managers will receive an access link to create their account and begin participating in sessions.
+All GitLab people managers will receive unlimited access to the Hone platform for the year, starting February 13th, 2024. Managers will receive an access link to create their account and begin participating in sessions.
 
 ### Individual Contributors
 
@@ -45,12 +45,6 @@ Program content will be announced closer to the launch date.
 ### Security and Confidentiality
 
 When participating in public workshops through the Hone platform, it's crucial to follow GitLab's [SAFE](/handbook/legal/safe-framework/#safe) Framework.
-
-### Platform Access
-
-1. You will receive an access link to create your Hone account
-1. Use your GitLab email when creating your account
-1. Complete your profile setup before joining sessions
 
 ## Measuring Success
 
@@ -88,7 +82,3 @@ You can cancel or reschedule sessions through the Hone platform according to the
 ### How much time should I dedicate to this?
 
 While there's no minimum requirement beyond the H1 and H2 program components, we encourage regular participation to maximize the benefit of this partnership. Discuss appropriate time allocation with your manager.
-
-### Is this a permanent benefit?
-
-This partnership will be evaluated quarter over quarter to ensure it continues to meet GitLab's development needs. Any changes to the partnership will be communicated in advance.
