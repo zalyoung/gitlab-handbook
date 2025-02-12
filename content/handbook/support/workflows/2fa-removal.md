@@ -206,7 +206,7 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
        A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.
 
       **Support Engineer Instructions**
-       - Ping the customer's organization owners in CUSTOMER_SLACK_CHANNEL using the [Notify Customer - Slack](/handbook/support/workflows/account_verification#2-contact-through-slack-skip-if-no-shared-slack-channel) template. For this organization the owners are SLACK_USERNAME, SLACK_USERNAME, and SLACK_USERNAME.
+       - Ping the customer's organization owners in CUSTOMER_SLACK_CHANNEL using the [Notify Customer - Slack](#2-contact-through-slack-skip-if-no-shared-slack-channel) template. For this organization the owners are SLACK_USERNAME, SLACK_USERNAME, and SLACK_USERNAME.
        - Fill out the `Request Details` section below.
 
       **Request Details**
@@ -289,7 +289,7 @@ If a 2FA ticket is opened by an organization that has had this workflow configur
 
 Wait for the customer to comment on the issue and approve the request to disable 2FA.
 
-As stressed in the Slack notification template, we will wait for the customer's answer for 24 hours. If no response is received by then, regular 2FA verification will take place via the [challenges workflow](#step-2-sending-challenges).
+As stressed in the Slack notification template, we will wait for the customer's answer for 24 hours. If no response is received by then, regular 2FA verification will take place via the [challenges workflow](/handbook/support/workflows/account_verification/#step-1-sending-challenges).
 
 #### 4. Disable 2FA
 
