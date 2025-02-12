@@ -63,7 +63,7 @@ Test uploads against multiple storage backends:
 1. Local storage (default)
 2. Object storage:
    - GCP (recommended for GitLab.com parity)
-   - Minio (local development)
+   - MinIO (local development)
    - AWS S3
    - Azure
 

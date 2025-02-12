@@ -231,8 +231,8 @@ The registry adheres to OCI standards for Image and Distribution specifications 
 
 ## Additional Resources
 
-- [Package Quality Guidelines](handbook/engineering/development/ops/package/quality/)
-- [Package Jobs To Be Done](handbook/engineering/development/ops/package/jtbd/)
+- [Package Quality Guidelines](/handbook/engineering/development/ops/package/quality/)
+- [Package Jobs To Be Done](/handbook/engineering/development/ops/package/jtbd/)
 - [Container Registry Documentation](https://docs.gitlab.com/ee/user/packages/container_registry/)
 - [Package Registry Documentation](https://docs.gitlab.com/ee/user/packages/package_registry/)
 - [Team YouTube Channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf) (includes demos, team meetings, customer summaries, and user interviews)
