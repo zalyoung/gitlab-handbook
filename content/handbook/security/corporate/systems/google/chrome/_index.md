@@ -1,6 +1,3 @@
----
-title: Duplicate Chrome Profile Created
----
 # Duplicate Chrome Profile Created
 
 This guide to help team members who had an extra Google Chrome profile created and they end up losing all their bookmarks.
@@ -31,5 +28,4 @@ This guide to help team members who had an extra Google Chrome profile created a
 3. When prompted to `Turn on Sync`, click `Yes, I'm in`. This will back up your bookmarks, browsing history, etc. into your work Google account.
 
     ![alt text](/static/images/security/corporate/systems/google/chrome/image-5.png)
-
 4. Your bookmarks, browsing history, etc. should now be restored.
