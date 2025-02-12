@@ -69,12 +69,14 @@ If needed, you may create an issue in the [Product Data Insights project](https:
 This guide outlines the process for instrumenting and tracking feature metrics at GitLab. Product Managers (PMs) are responsible for defining and tracking metrics for their team's features, with support from the Analytics Instrumentation team and Product Data Insights.
 
 ### Quick links for Instrumenting Feature Tracking
+
 - [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
 - [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features.
 - [Product Data Insights Performance Indicator Chart Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=PI%2520Chart%2520Help)
 - [Product Data Insights Ad Hoc Analysis Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%2520Hoc%2520Request)
 
 ### Self-Service Feature Tracking Dashboards
+
 If your analytics needs for your new or recently modified feature are met by these dashboards, you can skip creating a Product Data Insights (PDI) Issue:
 - [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting)
 - [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views)
@@ -88,24 +90,24 @@ If your analytics needs for your new or recently modified feature are met by the
 - Determine if existing dashboards designed to automatically ingest new events will meet your needs
 - If additional analytics are required, create a [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
 
-2. Create Instrumentation Issue
+1. Create Instrumentation Issue
 **Owner: Product Manager**
 - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
 - Ensure proposed event properties align with analytics requirements
 - Tag your [assigned product analyst](https://handbook.gitlab.com/handbook/product/groups/product-analysis/#team-members) for review
 
-3. Implement Tracking
+1. Implement Tracking
 **Owner: Engineer**
 - Create an Internal Events Tracking Merge Request (MR)
 - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
 
-4. Test and Validate
+1. Test and Validate
 **Owner: Engineer**
 - Perform [local testing](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html)
 - Request review from Analytics Instrumentation team member
 - Verify test events match properties defined in the Issue
 
-5. Create Analysis
+1. Create Analysis
 **Owner: Product Analyst**
 - Wait 1-2 weeks after MR merge for sufficient data collection
 - Complete requirements specified in PDI Issue (if applicable)
