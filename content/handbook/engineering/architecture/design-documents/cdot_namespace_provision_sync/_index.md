@@ -12,18 +12,20 @@ toc_hide: true
 
 {{< design-document-header >}}
 
-
 ## Summary
+
 As a part of aligning provisioning between Self-Managed and SaaS , we are restructuring the way provision for namespace is done on GitLab.com
 
 ## Motivation
+
 The work for this will align the provisioning for GitLab.com closer to the way SM/Dedicated is provisioned. A similar approach will be implemented to sync a namespace's subscription (or trial) info.
 
 ## Goals
+
 The goal of this blueprint is to produce:
 
-   - an architectural design(s) on how the namespace will be provisioned in new process
-   - an iteration plan to achieve the chosen design
+- an architectural design(s) on how the namespace will be provisioned in new process
+- an iteration plan to achieve the chosen design
 
 ## Proposal
 
@@ -189,10 +191,6 @@ A new internal endpoint will be created on `GitLab` that will do full provision 
 
 The endpoint will accept following JSON body structure:
 
-Notes:
-
-* All params inside `provision` object are optional
-
 ```json
 {
   "provision": {
@@ -242,10 +240,11 @@ Notes:
 }
 ```
 
-##### Response:
+##### Response
 
-1. `200` : Successful Request :white_check_mark:
-2. `422` : Unprocesssable Entity :warning:
-3. `401` : Unauthorized Request :closed_lock_with_key:
-4. `404` : Namespace not found :shrug:
-5. `500`: Server Error :boom:
+1. `200` : Successful Request
+1. `400` : Bad Request
+1. `401` : Unauthorized Request
+1. `404` : Namespace not found
+1. `422` : Unprocesssable Entity
+1. `500`: Server Error
