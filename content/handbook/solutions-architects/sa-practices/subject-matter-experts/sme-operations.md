@@ -207,7 +207,7 @@ Once a SMEs Ares of Interest becomes a formal SME Programs These are the tasks n
 * Create the necessary SME google groups for calendar purposes
    1. Open an [Access Request](https://handbook.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/access-requests/) with IT to have the Google Group created. 
    2. Use the same naming convention as other SME areas, provide the DRI's as Group Owner and Group Manager. You can clone this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/34007) as an example. 
-   3. Once the Google Group has been created by IT the group owner/manager can navigate to [Google Groups](https://groups.google.com) page to add SME's as group members.
+   3. Once the Google Group has been created by IT the group owner/manager can navigate to groups.google.com to add SME's as group members.
 * Set up Stack OverFlow with SMEs to answer questions.
 * Set up SME Collaboration project
    1. Navigate to the [SME Subgroup](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts)
