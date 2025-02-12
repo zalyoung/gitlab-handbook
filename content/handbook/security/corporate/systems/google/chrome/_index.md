@@ -17,15 +17,15 @@ This guide to help team members who had an extra Google Chrome profile created a
 3. To figure out which Chrome profile is the correct one to delete.
     Based on the screenshots below, I would be deleting `new-profile` as it has a low count of bookmarks, browsing history, etc.:
     - Click on the ⋮ (triple dots) → delete → in a pop-up it'll show a low bookmarks/browsing history count.
-    ![image](/static/images/security/corporate/systems/google/chrome/image-1.png)
-    ![image](/static/images/security/corporate/systems/google/chrome/image-2.png)
-    ![image](/static/images/security/corporate/systems/google/chrome/image-3.png)
+    ![image](/images/security/corporate/systems/google/chrome/image-1.png)
+    ![image](/images/security/corporate/systems/google/chrome/image-2.png)
+    ![image](/images/security/corporate/systems/google/chrome/image-3.png)
 
 ### Loading the correct profile
 
 1. Open the old profile that has all your bookmarks/browsing history, etc. Based on the example above it would be `old-profile`. 
 2. When you get the `Your organization requires a profile` , make sure the `Add existing browsing data to managed profile` box is checked off.
-    ![image](/static/images/security/corporate/systems/google/chrome/image-4.png)
+    ![image](/images/security/corporate/systems/google/chrome/image-4.png)
 3. When prompted to `Turn on Sync`, click `Yes, I'm in`. This will back up your bookmarks, browsing history, etc. into your work Google account.
-    ![image](/static/images/security/corporate/systems/google/chrome/image-5.png)
+    ![image](/images/security/corporate/systems/google/chrome/image-5.png)
 4. Your bookmarks, browsing history, etc. should now be restored.
