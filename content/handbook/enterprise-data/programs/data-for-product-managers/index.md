@@ -129,7 +129,6 @@ For features routed through the AI Gateway:
 
 By following this process and understanding the roles involved, PMs can effectively instrument and track metrics for their features, enabling data-driven decision-making and product improvement.
 
-
 ## Key Data Sources for Product Managers at GitLab
 
 We have three primary data sources for product usage data:
