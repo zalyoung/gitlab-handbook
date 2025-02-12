@@ -2,13 +2,16 @@
 title: "Duplicate Chrome Profile Created"
 ---
 
-# Duplicate Chrome Profile Created
+## Duplicate Chrome Profile Created
+
 This guide to help team members who had an extra Google Chrome profile created and they end up losing all their bookmarks.
 
 ## Steps
+
 **READ ME:** Read all the steps below running through the steps, we cannot recover a deleted Chrome profile if you delete the wrong one. 
 
 ### Deleting the newly created profile 
+
 1. Open Chrome.
 2. Click your profile picture in Chrome → `Manage Chrome Profiles`.
 3. To figure out which Chrome profile is the correct one to delete.
@@ -19,6 +22,7 @@ This guide to help team members who had an extra Google Chrome profile created a
     ![image](/static/images/security/corporate/systems/google/chrome/image-3.png)
 
 ### Loading the correct profile
+
 1. Open the old profile that has all your bookmarks/browsing history, etc. Based on the example above it would be `old-profile`. 
 2. When you get the `Your organization requires a profile` , make sure the `Add existing browsing data to managed profile` box is checked off.
     ![image](/static/images/security/corporate/systems/google/chrome/image-4.png)
