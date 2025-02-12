@@ -167,7 +167,7 @@ Don't hesitate to ask for help from other team members with the [#g_custom_model
 
 ## Customer support
 
-To better support calls with customers (existing and prospects), Custom Models provides engineers that will prioritize requests. This ensures both
+To better support calls with customers (existing and prospects), Custom Models provides engineers that will prioritize customer support requests. This ensures both
 load and knowledge are shared across team members.
 
 | First Date | Last Date | Lead engineer | Back up engineer |
