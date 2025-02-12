@@ -18,4 +18,5 @@ Composed of Security Architecture, Security Research, and Product Security Engin
 - Finally, as long-tenured security professionals, we lend our expertise to our peer teams across the organization to enable them to accomplish their security goals in the form of informal training, documentation, and mentorship.
 
 ## FY26 Key Focus Areas
+
 In FY26, our key focus areas are Software Supply Chain and Ecosystem Security, Authorization and Authentication, and AI Security.
