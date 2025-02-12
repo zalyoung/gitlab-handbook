@@ -241,12 +241,12 @@ stateDiagram-v2
     
     PendingClosure --> Active: Remove Pending-Closure label
     PendingClosure --> Closed: Add Issue-Closed label
-    Active --> Closed: Add Issue-Closed label
+    Active --> Closed: Resolution found and/or Issue Closed
     SupportTriage --> Closed: Resolution found
     
     state Closed {
-        [*] --> SendReminders: 
-        SendReminders --> Resolved: Add Doc-Reminder label\nAdd Resolution-Type label
+        SendReminders: 
+        SendReminders --> Resolved: Add Doc-Reminder label Add Resolution-Type label
     }
     
     Closed --> [*]: RFH Lifecycle complete
