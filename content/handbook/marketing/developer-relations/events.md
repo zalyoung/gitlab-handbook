@@ -276,6 +276,10 @@ GitLab's Developer Relations team does not hold or allocate a budget for event s
 All events sponsorship requests should be directed to [Corporate Events](/handbook/marketing/integrated-marketing/corporate-events/) or
 [Field Marketing](/handbook/marketing/field-marketing/). Please follow the [decision path for suggesting an event for sponsoring](/handbook/marketing/events/#suggesting-an-event).
 
+### Student-run hackathons
+
+Student hackathons are the events most frequently submitting requests for support from GitLab. Hackathon organizers who wish to leverage GitLab's DevOps platform for their events are encouraged to use free trials for their events. This can be done by directing hackathon participants to apply for a [free trial of GitLab](https://about.gitlab.com/free-trial/) for use during the hackathon which will allow them to use all of GitLab's features. In some cases, if your event meets [the criteria](/handbook/marketing/developer-relations/workflows-tools/team-budgets/#community-event-sponsorship) above at a score of 9 or higher, we may also send stickers for participants or swags as prizes. Given the volume of requests we receive, providing financial support for these events is not feasible.
+
 ## Diversity, inclusion, and belonging
 
 This section is meant to document tips and best practices that the Developer Relations team,

@@ -65,6 +65,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 
 - [Developer Relations project management](/handbook/marketing/developer-relations/project-management/)
 - [Common program resources](/handbook/marketing/developer-relations/program-resources/)
+- [Meetup checklist](/handbook/marketing/developer-relations/meetup-checklist)
 
 ### <i class="far fa-edit fa-fw color-orange font-awesome"></i> Our handbooks
 
