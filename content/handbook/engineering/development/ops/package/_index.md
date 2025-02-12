@@ -69,6 +69,19 @@ Instrumentation is a key requirement for all features to measure impact and effe
 
 ### Issue Management
 
+#### Async Issue Updates
+
+The purpose of async updates is to communicate progress and allow others to prepare for upcoming work as necessary. In an all-remote culture, we keep the updates asynchronous and put them directly in the issues.
+
+The async update communicates the progress and confidence using an issue comment and the milestone health status. Add a comment in your issue with the title `Async Update` once per week, or when something notable happens with regard to the issue. It's preferable to update the issue rather than the related merge requests.
+
+The async update comment should include:
+
+* what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
+* the confidence of the person that their estimate is correct
+* notes on what was done and/or if review has started
+* it could be good to include whether this is a front end or back end update if there are multiple people working on it
+
 #### Issue Weighting Guidelines
 
 | Weight | Description | Confidence Level |
@@ -210,8 +223,8 @@ The registry adheres to OCI standards for Image and Distribution specifications 
 
 ## Additional Resources
 
-- [Package Quality Guidelines](handbook/engineering/development/ops/package/quality)
-- [Package Jobs To Be Done](handbook/engineering/development/ops/package/jtbd)
+- [Package Quality Guidelines](handbook/engineering/development/ops/package/quality/)
+- [Package Jobs To Be Done](handbook/engineering/development/ops/package/jtbd/)
 - [Container Registry Documentation](https://docs.gitlab.com/ee/user/packages/container_registry/)
 - [Package Registry Documentation](https://docs.gitlab.com/ee/user/packages/package_registry/)
 - [Team YouTube Channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf) (includes demos, team meetings, customer summaries, and user interviews)
