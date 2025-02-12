@@ -238,7 +238,7 @@ to the new structure:
 
 ```bash
 - gitlab-com-snowplow-events/
-    output_nullified/ <---- all files are nullified and update
+    output_nullified_columns/ <---- all files are nullified and updated
         2019/
         2020/
         2021/
@@ -251,9 +251,48 @@ to the new structure:
             03/
 ```
 
-#### Snowplow nullify page_url_path columns
+#### Snowplow nullify `page_url_path` columns
 
-All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
+In order to be compliant with data into Snowplow, the following columns were pseudoanonymized:
+- `page_url_path`
+
+This pseudonymization is applied in Snowplow for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
+The Data Team updated old files and pseudoanonymized  `page_url_path` column, and also pseudoanonymized `page_url_path` column in Snowflake.
+This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+
+As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351), the folder structure is modified from:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated (in the previous iteration)
+        2022/10/26
+        ...
+        2023/
+            02/
+    output/
+        2023/
+            02/
+            03/
+```
+
+to the new structure:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/
+        2019/01/01
+        ...
+        2022/10/25
+    output_mask_page_url_path/ <---- all files are pseudonimized
+        2022/10/26
+        ...
+        2023/12/01
+    output/ <---- new files will land here and will be loaded by Snowpipe
+        2023/12/02
+        ...
+```
+
+> **Note:** All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
 
