@@ -70,7 +70,7 @@ GitLab does not currently require subsequent background screenings, or re-screen
 
 The Candidate Experience Specialists will [initiate](/handbook/hiring/talent-acquisition-framework/coordinator/#background-screenings) all background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members.
 
-Please contact the Senior Background Check Specialist at backgroundchecks@gitlab.com regarding any questions.
+Please contact the Senior Background Check Specialist or submit a ticket in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=1f5cb781478c069067429ee0026d4392) reagrding any questions or assistance.
 
 #### Contractors, Contingent Workers, & Temporary Service Providers
 
