@@ -1,5 +1,6 @@
 ---
 title: "Barbara Roncato's README"
+description: "Personal README for Barbara Roncato"
 job: "Manager, Enterprise Applications PMO"
 ---
 
