@@ -50,7 +50,7 @@ Identify areas that are of high priority to the customer together with the Solut
 
 ## Nominate an Issue for CoCreate
 
-Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](https://handbook.gitlab.com/handbook/product/categories/features/) and ask for their approval to add the ~co-create label to the issue. 
+Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/content/handbook/product/categories/features/) and ask for their approval to add the ~co-create label to the issue. 
 
 ## Resources
 
