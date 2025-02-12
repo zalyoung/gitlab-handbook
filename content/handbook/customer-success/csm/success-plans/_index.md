@@ -72,10 +72,10 @@ A success plan consists of two integrated components: the GitLab-based continuou
 
 The success plan is maintained as a living document within a GitLab project, following our continuous planning methodology. This approach provides several key benefits:
 
-* Real-time collaboration and updates through GitLab's native features
-* Automated generation of presentation materials through CI/CD pipelines
-* Direct integration with daily workflow and project management
-* Standardized documentation through epic and issue templates
+- Real-time collaboration and updates through GitLab's native features
+- Automated generation of presentation materials through CI/CD pipelines
+- Direct integration with daily workflow and project management
+- Standardized documentation through epic and issue templates
 
 The structure of the success plan in GitLab organizes objectives as epics and initiatives as issues, with standardized labels and templates ensuring consistent documentation. This makes it easy to track progress, demonstrate measurable results, and maintain up-to-date information that's accessible to all stakeholders.
 
@@ -86,7 +86,6 @@ For ease of discovery and visibility, the GitLab continuous planning project mus
 Gainsight's success plan capability enables us to analyze and understand patterns across a CSM's book of business and our organization more broadly, helping identify what drives successful use case adoption.
 
 While detailed information about objectives and initiatives lives in the GitLab project, we maintain key objective actions / updated in Gainsight timeline, like customer calls, meeting or similar.
-
 
 When an objective is identified and documented as an epic in GitLab, it is also synced to Gainsight. Once an objective is achieved, or if it is removed for any reason, it is closed in both GitLab and Gainsight accordingly.
 
