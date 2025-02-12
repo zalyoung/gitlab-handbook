@@ -1,5 +1,5 @@
 ---
-title: SME Operations - Collaboration Project, Groups, Slack Channels 
+title: SME Operations - Collaboration Project, Groups, Slack Channels
 
 description: Describe SME Collaboration Projects, Google Groups and Slack Channels necessary for SME Program Operations
 
@@ -7,7 +7,7 @@ description: Describe SME Collaboration Projects, Google Groups and Slack Channe
 
 ## StackOverflow (TBD)
 
-The preferred channel is our [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/#stack-overflow-for-teams) via #cs-questions.
+The preferred channel is our [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/#stack-overflow-for-teams) within #cs-questions.
 
 * Maintain List of SMEs (also in StackOverFlow) and SME Associates
 
@@ -54,7 +54,7 @@ Purpose: Async Coordination among SME Area Leaders on any changes or decisions m
 
 | SME Area                       |  Slack Channels        |
 |--------------------------------|------------------------|
-| SME Program Leadership Channel |  #sme-program-leaders  |               
+| SME Program Leadership Channel |  #sme-program-leaders  |
 
 ### Channel for all SMEs in All Areas
 
@@ -82,11 +82,11 @@ Purpose: These SME Pod channels are mainly for SME Program Leads, SME Area Leads
 | SME Area                  | Slack Channel           |
 |---------------------------|-------------------------|
 | AI                        | #sme-ai-internal        |
-| Security & Compliance     | #sme-appsec-internal    | 
-| Dedicated                 | #sme-dedicated-internal | 
+| Security & Compliance     | #sme-appsec-internal    |
+| Dedicated                 | #sme-dedicated-internal |
 | Plan                      | #sme-plan-internal      |
-| CICD/Runner               | #sme-ci-internal        | 
-| Metrics & Observability   | #sme-metrics-internal   | 
+| CICD/Runner               | #sme-ci-internal        |
+| Metrics & Observability   | #sme-metrics-internal   |
 
 ### SME Public Channels
 
@@ -108,11 +108,11 @@ These channels are open to all SMEs, Product Managers (PMs), and all field membe
 
 **Vertical SME Public Slack Channels**
 
-| Vertical              | Slack Channel           |    
+| Vertical              | Slack Channel           |
 |-----------------------|-------------------------|
 | Embedded DevOps       | #sme-embedded-devops    |
-| Financial Serverices  | #v_finserve_global      |
-| Telecommuinications   | #sme-telecommunications |
+| Financial Services    | #v_finserve_global      |
+| Telecommunications    | #sme-telecommunications |
 | Healthcare            | #sme-healthcare         |
 
 ## SME Collaboration Projects
@@ -131,9 +131,9 @@ Each SME Area Lead should set up SME Collaboration project (See [AppSec Example)
 | Aerospace Vertical          | [Aerospace SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/aerospace-sme)        |
 | Automotive Vertical         | [Automotive SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/automotive-sme)|
 | Embedded DevOps Vertical    | [Embedded DevOps SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/embedded-devops-sme) |
-| Healthcare Vertical         | [Healthcare SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/healthcare-sme) | 
-| Financial Services Vertical | [FinServ SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/financial-services-sme) |
-| Telecommunications Vertical | [Telco SME PRoject](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/telecommunications-sme)|
+| Healthcare Vertical         | [Healthcare SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/healthcare-sme) |
+| Financial Services Vertical | [Financial Services SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/financial-services-sme) |
+| Telecommunications Vertical | [Telecommunications SME PRoject](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/telecommunications-sme)|
 
 ### SME Metrics (TBD)
 
@@ -190,7 +190,7 @@ These are the differences between SMEs Areas of Interest and Formal SME Programs
 |---|---|---|
 | <br><br> | 1. CICD/ Runners<br>2. Metrics & Observability<br>3. Embedded Systems | 1. AI<br>2. App Security<br>3. Dedicated<br>4. Plan |
 | Leadership Structure | No official SME Area Leader, or SMEs.<br>Can be a pool of interested folks of SME Associates.<br>One person driving program | [x] SME Area Leads<br>[x] SMEs<br>[x] SME Associates |
-| Operations | [ ] Formal List of SA and CS SMEs<br>[x] List of SME Associates or Interested Folks<br>[ ] SME Google Groups<br>[x] Slack Channels - General<br>[ ] Slack Channel - Request a SME<br>[ ] Collab Project<br>[ ] StackOverFlow | [x] Formal List of SA and CS SMEs<br>[x] List of SME Associates<br>[x] SME Google Groups<br>[x] Slack Channels - General<br>[x] Slack Channel - Request a SME<br>[x] Collab Project<br>[x] StackOverFlow |
+| Operations | [ ] Formal List of SA and CS SMEs<br>[x] List of SME Associates or Interested Folks<br>[ ] SME Google Groups<br>[x] Slack Channels - General<br>[ ] Slack Channel - Request a SME<br>[ ] Collaboration Project<br>[ ] StackOverFlow | [x] Formal List of SA and CS SMEs<br>[x] List of SME Associates<br>[x] SME Google Groups<br>[x] Slack Channels - General<br>[x] Slack Channel - Request a SME<br>[x] Collaboration Project<br>[x] StackOverFlow |
 | Cadences | [ ] ARR Driver<br>[ ] SME Area Leads Meetings<br>[x] SME Area Pod Cadences<br>[ ] PM/ SME Area Cadences<br>[x] PM Roadmaps<br>[x] Technical Skills Exchange<br>Meetings can be in the form of trainings, async, office hours etc<br> | [x] ARR Driver<br>[x] SME Area Leads Meetings<br>[x] SME Area Pod Cadences<br>[x] PM/ SME Area Cadences<br>[x] PM Roadmaps<br>[x] Technical Skills Exchange |
 | Process to Request a SME | No | Yes |
 | Customer Feedback Mechanisms | No | Yes (with Issue Boards etc) |
@@ -205,13 +205,13 @@ Once a SMEs Ares of Interest becomes a formal SME Programs These are the tasks n
 * Maintain List of SA SME Participants - Confirm List of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list) and [CS SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on)
 * Maintain list of potential SMEs (SME Associates) as a pool for each area
 * Create the necessary SME google groups for calendar purposes
-   1. Open an [Access Request](https://handbook.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/access-requests/) with IT to have the Google Group created. 
-   2. Use the same naming convention as other SME areas, provide the DRI's as Group Owner and Group Manager. You can clone this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/34007) as an example. 
+   1. Open an [Access Request](https://handbook.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/access-requests/) with IT to have the Google Group created.
+   2. Use the same naming convention as other SME areas, provide the DRI's as Group Owner and Group Manager. You can clone this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/34007) as an example.
    3. Once the Google Group has been created by IT the group owner/manager can navigate to groups.google.com to add SME's as group members.
 * Set up Stack OverFlow with SMEs to answer questions.
 * Set up SME Collaboration project
    1. Navigate to the [SME Subgroup](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts)
    2. Click **New Project**
-   3. Create your project using the same naming nomenclature as the other projects in the subgroup 
-* Set up both a public SME Slack Channel for the field and a private internal channel for the SME pod using the nominclatures outlined above (example *#sme-(area)* and *#sme-(area)-internal*)
+   3. Create your project using the same naming nomenclature as the other projects in the subgroup
+* Set up both a public SME Slack Channel for the field and a private internal channel for the SME pod using the naming conventions outlined above (example *#sme-(area)* and *#sme-(area)-internal*)
 * Update Handbook on SME Operations
