@@ -38,7 +38,7 @@ Once an objective has been fully defined, one or more initiatives are created as
 
 ### Pre-sales
 
-The success plan starts during the pre-sales phase, driven by the [Solutions Architect](/handbook/customer-success/account-team/#solutions-architect-sa). Throughout the product evaluation process the SA and the [Account Executive](/handbook/customer-success/account-team/#strategic-account-executive-sae--account-executive-ae) define customer objectives, and use these to demonstrate GitLab value aligned to these objectives. The SA documents these [objectives](#customer-objectives) in the [success plan slide deck](#success-plan-slide-deck) with all of the requisite details. This information is part of what is used for a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov/), and ensures that we have a clear understanding of the customer's needed business outcomes.
+The success plan starts during the pre-sales phase, driven by the [Solutions Architect](/handbook/customer-success/account-team/#solutions-architect-sa). Throughout the product evaluation process the SA and the [Account Executive](/handbook/customer-success/account-team/#strategic-account-executive-sae--account-executive-ae) define customer objectives, and use these to demonstrate GitLab value aligned to these objectives. The SA documents these [objectives](#customer-objectives) in the [success plan slide deck](#success-plan-components) with all of the requisite details. This information is part of what is used for a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov/), and ensures that we have a clear understanding of the customer's needed business outcomes.
 
 To understand the full process between Pre-sales and Post-sales, please read about the [mutual customer success plan process](/handbook/solutions-architects/sa-practices/customer-success-plan/).
 
@@ -64,39 +64,33 @@ The most frequent customer engagement point for this is the [cadence call](/hand
 
 The success plan and business review should be thought of as mirror images of each other: the information maintained in the success plan feeds the discussion for the business review, and new information attained through the business review meeting is captured in the success plan to add to the roadmap for the customer's success.
 
-## Systems and workflow
+## Success Plan Components
 
-There are two main components that make up a full success plan: the [customer-facing slide deck](#success-plan-slide-deck), and the [Gainsight success plan](#gainsight-success-plan). These two elements are used in tandem to ensure ongoing alignment across all stakeholders and the ability to measure & analyze the results of our efforts.
+A success plan consists of two integrated components: the GitLab-based continuous planning project and the Gainsight success plan. These elements work together to ensure ongoing alignment across all stakeholders and enable measurement and analysis of our efforts.
 
-### Success plan slide deck
+## GitLab Continuous Planning Project
 
-As the success plan is a mutually agreed upon living document, the primary format is a slide deck that follows a [defined template](https://docs.google.com/presentation/d/1T-Y2WJ-mRqGey7b1YQMTKE3tVbBTnyY3a9HzaOpxPQ4/edit?usp=sharing). This provides several benefits:
+The success plan is maintained as a living document within a GitLab project, following our continuous planning methodology. This approach provides several key benefits:
 
-- A standardized format for documenting and managing the success plan
-- Easy, visually appealing way of reviewing and updating success plan details with customer stakeholders and GitLab team members
-- Highly collaborative and shareable
+- Real-time collaboration and updates through GitLab's native features
+- Automated generation of presentation materials through CI/CD pipelines
+- Direct integration with daily workflow and project management
+- Standardized documentation through epic and issue templates
 
-The structure of the success plan slide deck focuses on [objectives](#customer-objectives) & [initiatives](#initiatives) as defined above, as well as specific focus on the customer enablement plan and an outline of next steps at any given time. It makes it easy to visualize progress and key details in a way that's clear and easy to follow, and identify needed updates or demonstrate measurable results.
+The structure of the success plan in GitLab organizes objectives as epics and initiatives as issues, with standardized labels and templates ensuring consistent documentation. This makes it easy to track progress, demonstrate measurable results, and maintain up-to-date information that's accessible to all stakeholders.
 
-For ease of discovery and visibility, the success plan slide deck must be located in the appropriate [Google Drive Customer Folder](https://drive.google.com/drive/u/1/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q) as well as [linked in the customer's Gainsight success plan](#link-to-the-slide-deck-from-gainsight) using the designated field on the plan info screen (to the right of Approval Status). The permissions for the slide deck should be set to Editor for everyone at GitLab, to maximize the ability to collaborate.
+For ease of discovery and visibility, the GitLab continuous planning project must be linked in the customer's Gainsight success plan using the designated field on the plan info screen (to the right of Approval Status).
 
-### Gainsight success plan
+## Gainsight Success Plan
 
-Gainsight's success plan capability provides us with the ability to understand, across a CSM's book of business and our organization more broadly, what is working and what we can improve to drive use case adoption.
+Gainsight's success plan capability enables us to analyze and understand patterns across a CSM's book of business and our organization more broadly, helping identify what drives successful use case adoption.
 
-While most information related to achieving objectives lives in the [slide deck](#success-plan-slide-deck), we still enter key details about objectives into Gainsight. This includes:
+While detailed information about objectives and initiatives lives in the GitLab project, we maintain key objective actions / updated in Gainsight timeline, like customer calls, meeting or similar.
 
-- Name/description of the objective
-- Baseline: current state and associated metrics
-- Expected outcome: measurable results we plan to achieve, and associated metrics
-- Expected completion date
+When an objective is identified and documented as an epic in GitLab, it is also synced to Gainsight. Once an objective is achieved, or if it is removed for any reason, it is closed in both GitLab and Gainsight accordingly.
 
-The rest of the details, including the initiatives and other action item details for the objective, are maintained in the [slide deck](#success-plan-slide-deck).
+This workflow minimizes duplication while enabling CSMs to maintain visibility into the progress and status of their initiatives across their book of business and track results over time.
 
-When an objective is identified and outlined with the customer and documented in the [slide deck](#success-plan-slide-deck), it is also added to Gainsight. Once an objective is achieved, or if it is removed for any reason, it is closed in Gainsight accordingly.
+## Linking GitLab and Gainsight
 
-This workflow allows us to minimize overlap between the two success plan components, while enabling a CSM to have visibility into the progress and status of their initiatives across their book of business and their results over time.
-
-#### Link to the slide deck from Gainsight
-
-For ease of discovery and visibility, there is a field on the Gainsight success plan info screen to provide a link to the [success plan slide deck](#success-plan-slide-deck). When the slide deck is created, the link is added to this field in Gainsight.
+For ease of discovery and visibility, there is a field on the Gainsight success plan info screen to provide a link to the GitLab continuous planning project. When the GitLab project is set up, the link must be added to this field in Gainsight to ensure proper integration between both systems.
