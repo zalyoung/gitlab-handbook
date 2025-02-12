@@ -36,13 +36,13 @@ Use list of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter
 | Metrics & Observability | sme-metrics    |
 
 **Vertical SME Google Groups**
+
 | Vertical           | SME Group           |
 |--------------------|---------------------|
 | Embedded DevOps    | sme-embedded-devops |
 | Financial Services | sme-finserv        |
 | Healthcare         | sme-healthcare     |
 | Telecommunications | sme-telco          |
-
 
 ## **SME Slack Channels** {#sme-slack}
 
@@ -52,10 +52,9 @@ To facilitate effective communication and collaboration between Subject Matter E
 
 Purpose: Async Coordination among SME Area Leaders on any changes or decisions made concerning the SME program.
 
-| SME Area                       |  Slack Channels |
-|--------------------------------|------------------------------------------------|
-| SME Program Leadership Channel |  #sme-program-leaders
-
+| SME Area                       |  Slack Channels        |
+|--------------------------------|------------------------|
+| SME Program Leadership Channel |  #sme-program-leaders  |               
 
 ### Channel for all SMEs in All Areas
 
@@ -115,7 +114,6 @@ These channels are open to all SMEs, Product Managers (PMs), and all field membe
 | Financial Serverices  | #v_finserve_global      |
 | Telecommuinications   | #sme-telecommunications |
 | Healthcare            | #sme-healthcare         |
-
 
 ## SME Collaboration Projects
 
@@ -209,7 +207,7 @@ Once a SMEs Ares of Interest becomes a formal SME Programs These are the tasks n
 * Create the necessary SME google groups for calendar purposes
    1. Open an [Access Request](https://handbook.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/access-requests/) with IT to have the Google Group created. 
    2. Use the same naming convention as other SME areas, provide the DRI's as Group Owner and Group Manager. You can clone this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/34007) as an example. 
-   3. Once the Google Group has been created by IT the group owner/manager can navigate to [Google Groups](https://groups.google.com/) page to add SME's as group members.
+   3. Once the Google Group has been created by IT the group owner/manager can navigate to [Google Groups](https://groups.google.com) page to add SME's as group members.
 * Set up Stack OverFlow with SMEs to answer questions.
 * Set up SME Collaboration project
    1. Navigate to the [SME Subgroup](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts)
