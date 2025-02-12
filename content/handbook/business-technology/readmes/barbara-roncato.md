@@ -5,11 +5,11 @@ job: "Manager, Enterprise Applications PMO"
 
 ### About me
 
-I'm based in Portugal where I share my home with a human, two cats, and one dog.
+I'm based in Portugal where I share a house with a human, two cats, and one dog.
 
 ### My GitLab Story
 
-I joined GitLab in January 2020 as a Business Systems Analyst (BSA) under the Enterprise Applications department. Over time, I progressed to Senior BSA and in 2023, was promoted to Manager of the Project Management Office team.
+I joined GitLab in January 2020 as a Business Systems Analyst (BSA) under the Enterprise Applications department. Over time, I progressed to Senior BSA and in 2023, was promoted to Manager of the Program Management Office (PMO) team.
 
 In the past five years, I have participated in 9 different system implementations, supporting either as a BSA or Program Manager. My contributions have ranged from gathering requirements to performing user testing, developing training materials and helping with enablement and adoption.
 
