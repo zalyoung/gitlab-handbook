@@ -193,9 +193,9 @@ During on call period, support requests should be acknowledge within 24h.
 - Answer support questions on slack, redirecting to our documentation whenever possible.
 - Join customer calls led by Solution Architects or Sales representatives when needed, and own the communication with the customer until it's resolved or handed over to a support engineer.
 - Act on outcomes of problems faced:
-   - Can we add documentation to help SA's and customers be more self-sufficient?
-   - Could the issue be improved by better tooling? Create an issue with the changes needed.
-   - Was it a bug that we didn't caught? Ho can we avoid this the next time?
+   1. Can we add documentation to help SA's and customers be more self-sufficient?
+   1. Could the issue be improved by better tooling? Create an issue with the changes needed.
+   1. Was it a bug that we didn't caught? Ho can we avoid this the next time?
 - Notify the engineering manager and back up engineer whether they won't be available.
 - Hand over the necessary context to the next engineer in support.
 
