@@ -38,12 +38,12 @@ to run GitLab QA locally for development.
     - If Allure report is available: Click on report link -> Product defects -> Select failed spec -> click Failure issues. [Demo](https://youtu.be/_0dM6KLdCpw?t=234)
     - Some specs might have multiple QA failure issues with different stack trace. In such case, compare failed stack trace from the job with the ones listed in the issues.
 1. If an issue with the same error is not found
-    - Continue to debug the QA failure [following the guide](/handbook/engineering/infrastructure/test-platform/pipeline-triage/#investigate-the-root-cause)
-    - Reach out to the Test Platform sub-department - [on-call DRI](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) or [Distribution SET](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/#team-members)
+    - Continue to debug the QA failure [following the guide](/handbook/engineering/infrastructure-platforms/developer-experience/pipeline-triage/#investigate-the-root-cause)
+    - Reach out to the Developer Experience stage - [on-call DRI](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) or [Distribution SET](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/#team-members)
 
 ### Bug Prioritization
 
-The Distribution team works together on [Bug Prioritization](/handbook/engineering/infrastructure/test-platform/bug-prioritization/) and aims to close at least 6 bugs per milestone [based on the team's current availability](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1075#note_1056963489). The number of bugs per milestone is revisited in the following [issue#1100](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1100).
+The Distribution team works together on [Bug Prioritization](/handbook/engineering/infrastructure-platforms/developer-experience/bug-prioritization/) and aims to close at least 6 bugs per milestone [based on the team's current availability](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1075#note_1056963489). The number of bugs per milestone is revisited in the following [issue#1100](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1100).
 
 Process:
 
@@ -51,7 +51,7 @@ Process:
 - SET creates a new issue using [Bug Prioritization template](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/new?issuable_template=Distribution%20Bug%20Prioritization)
 - SET reviews open bugs using [Distribution Issues](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard)
   - Add [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) to bugs that are missing a severity label
-  - Review open bugs following [Prioritization Guidelines](/handbook/engineering/infrastructure/test-platform/bug-prioritization/#prioritization-guidelines)
+  - Review open bugs following [Prioritization Guidelines](/handbook/engineering/infrastructure-platforms/developer-experience/bug-prioritization/#prioritization-guidelines)
 - SET to propose in team planning issue 6 bugs to be considered in milestone
 - At the end of the quarter:
   - SET reviews [Distribution Issues](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard) metrics for open bugs
@@ -60,4 +60,4 @@ Process:
 
 ### Quad Planning
 
-Quality team reviews [open issues for quad planning](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=created_date&state=opened&label_name%5B%5D=section%3A%3Aenablement&label_name%5B%5D=Quality&first_page_size=20) following [Quad Planning process](/handbook/engineering/infrastructure/test-platform/quad-planning/).
+Quality team reviews [open issues for quad planning](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=created_date&state=opened&label_name%5B%5D=section%3A%3Aenablement&label_name%5B%5D=Quality&first_page_size=20) following Quad Planning process.

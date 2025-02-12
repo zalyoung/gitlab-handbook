@@ -11,7 +11,7 @@ in service of supporting GitLab.com.
 ## Scope
 
 The scope of the requirements and practices documented in this page are Security
-Department tools and resources that collect, process, and store [RED]({{< ref "data-classification-standard#red" >}}) data.
+Department tools and resources that collect, process, and store [RED](/handbook/security/data-classification-standard/#red) data.
 
 ## What's in this page
 
@@ -28,7 +28,7 @@ Department tools and resources that collect, process, and store [RED]({{< ref "d
 ### Review Process
 
 Future work: At this time, we don't have defined process for architecture and
-implementation review like we have for [AppSec Reviews]({{< ref "appsec-reviews" >}}).
+implementation review like we have for [AppSec Reviews](/handbook/security/product-security/application-security/appsec-reviews/).
 Such a process will be the responsibility of a future Security team.
 
 ## Requirements
@@ -37,9 +37,9 @@ Such a process will be the responsibility of a future Security team.
 
 The following requirements are driven by 3 high level guidelines:
 
-- [Least Privilege]({{< ref "access-management-policy#principle-of-least-privilege" >}})
+- [Least Privilege](/handbook/security/product-security/security-architecture/#assign-the-least-privilege-possible)
 - [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust/)
-- [GitLab's Security Controls]({{< ref "sec-controls#gitlabs-security-controls" >}})
+- [GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 
 ### Identity, Authentication, and Authorization
 
@@ -81,7 +81,7 @@ The following requirements are driven by 3 high level guidelines:
 
 #### Data Handling and Isolation
 
-1. Data [retention policies]({{< ref "records-retention-deletion" >}}) MUST be followed.
+1. Data [retention policies](/handbook/security/records-retention-deletion/) MUST be followed.
 1. Data MUST be encrypted at rest.
    1. Data MAY be encrypted using provider managed keys.
 1. Data of different types MUST be logically seperated at rest.
@@ -95,7 +95,7 @@ Examples of different data types:
 
 ## Vulnerability and Patch Management
 
-1. Resources MUST be covered by the [Security Vulnerability Management]({{< ref "../product-security/vulnerability-management" >}}) process.
+1. Resources MUST be covered by the [Security Vulnerability Management](../product-security/vulnerability-management/) process.
 
 ## Change Management and Tracking
 
@@ -104,8 +104,8 @@ Examples of different data types:
 
 ## Audit Logging
 
-1. Environment audit logs MUST be enabled and stored in accordance with [retention policies]({{< ref "records-retention-deletion" >}}).
-1. Application audit logs, if supported and available, MUST be enabled and stored in accordance with [retention policies]({{< ref "records-retention-deletion" >}}).
+1. Environment audit logs MUST be enabled and stored in accordance with [retention policies](/handbook/security/records-retention-deletion/).
+1. Application audit logs, if supported and available, MUST be enabled and stored in accordance with [retention policies](/handbook/security/records-retention-deletion/).
 1. Logs MUST be forwarded and processed in a centralized location that provides
    access to any operational team, such as Security Operations.
 

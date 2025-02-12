@@ -6,11 +6,15 @@ description: "GitLab Dedicated Support - Working with logs"
 
 ## Working with logs
 
-Support can access GitLab Dedicated tenant logs through our [OpenSearch](https://opensearch.org/) infrastructure. See [Accessing logs](#accessing-logs) to get started. [OpenSearch](https://opensearch.org/) can be used like [Kibana]({{< ref "kibana" >}}) but read about [searching logs](#searching-logs) for information on the differences.
+Support can access GitLab Dedicated tenant logs through our [OpenSearch](https://opensearch.org/) infrastructure. See [Accessing logs](#accessing-logs) to get started. [OpenSearch](https://opensearch.org/) can be used like [Kibana](/handbook/support/workflows/kibana/) but read about [searching logs](#searching-logs) for information on the differences.
 
 When working on a GitLab Dedicated ticket, prioritize asking for information that will help identify applicable log entries. It is best to start collecting this information as early in the ticket as possible. The specific kinds of information will vary depending on the problem you are trying to solve but username, project path, project ID, exact date and time with time zone, [correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html) and outgoing IP address are all good examples.
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
+
+### Log requests older than 7 days
+
+If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
 
 ## Identifying tenants
 
@@ -27,7 +31,7 @@ Once in the tenant's OpenSearch site:
 
 It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used. If you are unable to see the logs, try clearing cookies, local storage, and all session data for the site and repeat the steps above.
 
-Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support.  Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note]({{< ref "fieldnote_issues" >}}) in order to preserve them beyond the retention period.
+Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support.  Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note](/handbook/support/workflows/fieldnote_issues/) in order to preserve them beyond the retention period.
 
 ### Sharing logs
 
@@ -50,7 +54,7 @@ If **yes**: the log entry **can** be shared directly with the customer via the t
 If one of the criteria above are not met, the log entry should not be shared
 directly with the customer by default. If you think sharing the log entry would
 benefit the customer, please read
-[Sharing internal logs, data & graphs]({{< ref "dedicated#sharing-internal-logs-data--graphs" >}}).
+[Sharing internal logs, data & graphs](/handbook/support/workflows/dedicated/#sharing-internal-logs-data--graphs).
 
 GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#access-to-application-logs).
 
@@ -77,11 +81,11 @@ Each entry in OpenSearch can be expanded to show more information by clicking th
 
 ## Searching logs
 
-Since GitLab Dedicated uses [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative), searching logs on OpenSearch is a bit different from [Kibana]({{ ref "kibana" >}}).
+Since GitLab Dedicated uses [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative), searching logs on OpenSearch is a bit different from [Kibana](kibana.md).
 
 - In OpenSearch, terms can be freely typed in the search bar.
-  - By comparison, freely typing in the search bar is [discouraged]({{< ref "kibana#fields-and-filters" >}}) in Kibana.
-- Fields can also be used as filters, similarly to [Kibana]({{< ref "kibana" >}}).
+  - By comparison, freely typing in the search bar is [discouraged](kibana.md#fields-and-filters) in Kibana.
+- Fields can also be used as filters, similarly to [Kibana](kibana.md).
 
 ### Fields and Filters
 

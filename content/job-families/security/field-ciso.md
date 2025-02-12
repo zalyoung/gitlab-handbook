@@ -71,10 +71,10 @@ For more details on the security engineering career ladders, please review the [
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with CISO
 - Candidates will then be invited to schedule separate 60 minute interviews with three leaders of the organization
 - Candidates will then be invited to schedule separate two 45 minute interviews with cross-functional team members
 - Successful candidates will subsequently be made an offer via email
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).

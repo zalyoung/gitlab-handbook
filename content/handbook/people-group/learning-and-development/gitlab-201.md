@@ -94,7 +94,7 @@ Once the desired epic has been selected, it will be shown on the issue like this
 
 ## Lesson 2: Merge Requests
 
-In GitLab 101, we learned how to [create merge requests]({{< ref "gitlab-101#lesson-3-gitlab-merge-requests" >}}). In this lesson, we will dive deeper into merge requests.
+In GitLab 101, we learned how to [create merge requests](/handbook/people-group/learning-and-development/gitlab-101#lesson-3-gitlab-merge-requests). In this lesson, we will dive deeper into merge requests.
 
 ### Reviewing a merge request
 

@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## What is a forcing function?
 
-A [forcing function]({{< ref "remote-work-glossary#forcing-function" >}}) is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior.
+A [forcing function](/handbook/company/culture/all-remote/remote-work-glossary/#forcing-function) is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior.
 
 [Transitioning](transition/) to remote is challenging but worthwhile. For many leaders, the question of "How do we do it?" is a giant one. Whether it's entirely disconnecting from offices and going [all-remote](terminology/), or attempting to create a level playing field for in-office and remote team members in a [hybrid-remote](hybrid-remote/) arrangement, leaders should consider using some of key forcing functions outlined below to ensure a commitment to remote-first practices. At GitLab, we use [forcing functions](how-to-work-remote-first/) to empower and encourage team members to use best practices and to reinforce our [values](/handbook/values/).
 
@@ -63,14 +63,14 @@ For example, GitLab has group, location, section, values feed, and social group 
 
 Because we do not use a chat tool such as Slack for work, we need a tool that's built for remote collaboration. GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page]({{< ref "gitlab-for-remote" >}}).
+You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
 
 ### Implement discretionary bonuses for exemplifying values
 
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-Intentional companies can surface their values during onboarding, but you should consider how this will be reinforced on an ongoing basis. Forcing your company to honor and respect remote employees, and not forget their presence and value, can be done very simply: implement [discretionary bonuses]({{< ref "incentives#discretionary-bonuses" >}}), where the only mechanism for earning one is to be nominated by another team member for living out one or more of the [company values](/handbook/values/).
+Intentional companies can surface their values during onboarding, but you should consider how this will be reinforced on an ongoing basis. Forcing your company to honor and respect remote employees, and not forget their presence and value, can be done very simply: implement [discretionary bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses), where the only mechanism for earning one is to be nominated by another team member for living out one or more of the [company values](/handbook/values/).
 
 These bonuses aren't about sales targets, added revenue, or working late. They are *purely* about values. When you create an incentive program that recognizes someone publicly for exemplifying a value, this serves as a constant reminder to all that values have meaning, and they should be lived out daily — even when (and especially when) it's difficult.
 
@@ -82,7 +82,7 @@ When you give the bonus and celebrate the bonus in Slack, it also serves as a re
 
 Remote teams have an easier time speaking freely about travel. Because they're remote, they're autonomous by default, and location is [decoupled from output](/handbook/values/#measure-impact-not-activity). In-office teams face stigmas related to conversing about vacations in the office.
 
-An easy way to force this toxic cloud of taboo out of your team is to use a digital program to remind team members to take time off. At GitLab, we work with [Time Off by Deel](https://www.deel.com/plugins/pto/) in conjunction with Workday to create an [opt-in program]({{< ref "paid-time-off#monthly-reminder-to-consider-taking-pto" >}}) which sends a direct message on the first working day of each month asking the individual to consider what time they plan on taking this month to rest and recharge. It also gives permission to the team member to directly confront their manager if they feel as if they cannot possibly take time off.
+An easy way to force this toxic cloud of taboo out of your team is to use a digital program to remind team members to take time off. At GitLab, we work with [Time Off by Deel](https://www.deel.com/plugins/pto/) in conjunction with Workday to create an [opt-in program](/handbook/people-group/paid-time-off/#monthly-reminder-to-consider-taking-pto) which sends a direct message on the first working day of each month asking the individual to consider what time they plan on taking this month to rest and recharge. It also gives permission to the team member to directly confront their manager if they feel as if they cannot possibly take time off.
 
 GitLab's verbiage is below.
 
@@ -176,11 +176,11 @@ Read more about this forcing function in GitLab's guide to [adopting a self-serv
 
 Values drive action. If your values are structured to encourage conventional colocated workplace norms (such as [consensus gathering](management/#separating-decision-gathering-from-decision-making), or recurring meetings with in-person teams), rewrite them.
 
-Feel welcome to study [GitLab's values](/handbook/values/), and learn more on how this collection [contributes to an all-remote environment]({{< ref "remote-values" >}}).
+Feel welcome to study [GitLab's values](/handbook/values/), and learn more on how this collection [contributes to an all-remote environment](/handbook/company/culture/all-remote/remote-values/).
 
 ## What are some tips for working remote-first?
 
-We've gathered our top [5 tips for successful remote working]({{< ref "remote-work-starter-guide" >}}):
+We've gathered our top [5 tips for successful remote working](/handbook/company/culture/all-remote/remote-work-starter-guide/):
 
 1. Create a dedicated workspace (focus)
 1. Separate work from life (avoid burnout)
@@ -190,7 +190,7 @@ We've gathered our top [5 tips for successful remote working]({{< ref "remote-wo
 
 ## What are some challenges of working remote-first?
 
-Despite having many [advantages]({{< ref "remote-benefits" >}}), all-remote work can have some downsides.
+Despite having many [advantages](/handbook/company/culture/all-remote/remote-benefits/), all-remote work can have some downsides.
 
 {{< youtube "CwOLAKSdlfs" >}}
 
@@ -206,8 +206,8 @@ Anyone can test their knowledge on How to use forcing functions to work remote-f
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

@@ -109,11 +109,17 @@ The template will ping CMOC DRIs in scenarios where we need to update or add com
 
 ### About Contact Requests
 
-Whether related to an ongoing incident or not, Infrastructure or Security may ask you to reach out to one or more users if they detect unusual usage. Please follow the [Sending Notices]({{< ref "sending_notices" >}}) workflow to action these requests. Additionally, refer to the [End of Shift Handover Procedure](#end-of-shift-handover-procedure) for details on handing off contact requests.
+Whether related to an ongoing incident or not, Infrastructure or Security may ask you to reach out to one or more users if they detect unusual usage. Please follow the [Sending Notices](/handbook/support/workflows/sending_notices/) workflow to action these requests. Additionally, refer to the [End of Shift Handover Procedure](#end-of-shift-handover-procedure) for details on handing off contact requests.
 
 ### How to Page the CMOC?
 
 The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the EOC, IM or CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc) section of the main incident management handbook.
+
+### About Coordinating a Support Response
+
+When there is an incident that results in unexpected customer impact, and requires a non-standard workflow or communication from Support, you should create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to help coordinate Support action and response.
+
+Keep this issue updated as communication guidelines or workflows change so that it remains the single source of truth for Support-related information.
 
 ### CMOC Performance Indicators
 

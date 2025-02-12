@@ -148,6 +148,37 @@ pp head_resp
 
 That command will return output very similar to what a typical `curl -I` would return, but it relies on internal ruby classes to route the request in the same way GitLab would, therefore exposing any potential issues that are happening specifically within the GitLab application.
 
+### Simulating a cloud license SeatLink attempt with `curl`
+
+If you need to check if the SeatLink query will work from a different network segment, where GitLab is not installed, you may use Rails console to generate an equivalent `curl` command. To do that, enter the Rails console with `sudo gitlab-rails console` and enter the code snippet below:
+
+```ruby
+headers = Gitlab::SubscriptionPortal::Client.send(:json_headers)
+base_url = Gitlab::SubscriptionPortal::Client.send(:base_url)
+params = Gitlab::SeatLinkData.new.to_json
+path = "api/v1/seat_links"
+curl_cmd = ['curl --trace - --trace-time -X POST']
+curl_cmd << "\"#{File.join(base_url, path)}\""
+headers.each do |key, value|
+curl_cmd << "-H \"#{key}: #{value}\""
+end
+curl_cmd << "-d '#{params}'"
+puts curl_cmd.join(" \\\n  ")
+```
+
+The result should look similar to the one below:
+
+```shell
+curl --trace - --trace-time -X POST \
+  "https://customers.gitlab.com/api/v1/seat_links" \
+  -H "User-Agent: GitLab/17.6.1-ee" \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json" \
+  -d '{"gitlab_version":"17.6.1-ee","timestamp":"2025-01-21T12:00:11Z","license_key":"xxxx...\n","max_historical_user_count":2,"billable_users_count":2,"hostname":"gitlab.example.com","instance_id":"aaaaaaaa-0000-0000-aaaa-aaaaaaaaaaaa","add_on_metrics":[{"add_on_type":"duo_enterprise","purchased_seats":10,"assigned_seats":3}]}'
+```
+
+Notice the `--trace - --trace-time` parameters - this will cause `curl` to produce large amounts of debug output. You can also add `--proxy [protocol://]host[:port]` if needed.
+
 ### Custom proxy settings
 
 At present, cloud licensing does not officially support network proxies, deep packet inspection, etc.  But if the customer is aware of custom network proxy configurations on their end, they may be able to configure GitLab to ignore them via the `no_proxy` environment variable.  More information is available in our documentation on [Setting custom environment variables](https://docs.gitlab.com/omnibus/settings/environment-variables.html)

@@ -8,7 +8,7 @@ description: Information for Sales, CS and PS about how best to collaborate with
 ### ASE service kickoff meeting
 
 The ASE service can be sold to an account as a standalone service or as part
-of a bundled offering such as [SPS](https://handbook.gitlab.com/handbook/support/support-idk/#sps). In both situations, the Account Team
+of a bundled offering such as [SPS](/handbook/support/support-idk/). In both situations, the Account Team
 generally facilitates a services kickoff meeting that includes Support.
 For the ASE service to get off to a strong start and have the best chance at
 long-term success, the ASEs need the Account Team's help:
@@ -71,7 +71,7 @@ such as when the existing ASE moves into a new role, we will want to host an abb
    won't do, please let the ASE or their manager answer that question. If it
    turns out from our answer that you had a different expectation, we can
    discuss that internally and get realigned.
-1. Please trust in Support. If an ASE customer is upset about anything related to  
+1. Please trust in Support. If an ASE customer is upset about anything related to
    the ASE or the service, please listen to and document the customer's concerns,
    and share your faith and trust in us. Afterward, discuss the concerns with the
    ASE and, if needed, their manager.

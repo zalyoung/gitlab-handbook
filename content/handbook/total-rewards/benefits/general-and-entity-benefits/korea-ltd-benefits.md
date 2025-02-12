@@ -40,12 +40,12 @@ Maternity leave should be granted even in the case of miscarriage or stillbirth 
 
 ### Maternity Leave Payment
 
-The first 60 days (75 days in case of multiple births) are calculated based on the regular wage by the employer and the remaining 30 days are covered by the Employment Insurance Fund. If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement insurance payments to ensure you receive 100% pay for up to 16 weeks of your Parental Leave.
+The first 60 days (75 days in case of multiple births) are calculated based on the regular wage by the employer and the remaining 30 days are covered by the Employment Insurance Fund. If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement insurance payments to ensure you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 ### Paternity Leave Payment
 
-If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
+If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
 ### Applying for Parental Leave in Korea
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).

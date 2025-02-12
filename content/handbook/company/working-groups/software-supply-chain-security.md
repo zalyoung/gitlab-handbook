@@ -9,7 +9,7 @@ status: active
 | Property     | Value                                                                                                                                                                            |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Date Created | 2023-03-23                                                                                                                                                                       |
-| End Date     | TBD                                                                                                                                                                              |
+| End Date     | 2025-01-31                                                                                                                                                                              |
 | Slack        | `#wg_software_supply_chain_security` (only accessible from within the company)                                                                                                   |
 | Google Doc   | [Software Supply Chain Security Working Group Agenda](https://docs.google.com/document/d/1MEMPo1zxRrVr7yliOq1HMRJuaOZEgYvmFSIPBIXpu3A) (only accessible from within the company) |
 | Issue Label  | `WorkingGroup::SSCS`                                                                                                                                                             |
@@ -68,6 +68,17 @@ The exit criteria for this working group is the completion of the following four
 1. Build signatures and validation status is visible in the UI for [build artifacts](https://gitlab.com/groups/gitlab-org/-/epics/8839), [container images](https://gitlab.com/groups/gitlab-org/-/epics/7856), and packages. Verification status should be visible by default without requiring users to run custom tooling outside of just viewing the item in GitLab.
 
 Epics to track the above work are still being created, along with the necessary requirements and designs. Please consider the items that do have links as a work-in-progress. Epics to track items that do not have links will be created and added in the future.
+
+### Closing Summary
+
+With the [Sec section realignment](https://gitlab.com/gitlab-com/sec-sub-department/meta/-/issues/1) the Govern stage was renamed to the Software Supply Chain Security Stage. With this change we are closing this working group and distributing the work to individual groups to own.
+
+What we acheived:
+
+1. Added [GitLab.com as an OIDC provider for Cosign](https://gitlab.com/groups/gitlab-org/-/epics/10254)
+1. Released a [User Experience for Signed Container Registry Images](https://gitlab.com/groups/gitlab-org/-/epics/7856)
+1. Added dcouemntation on how to [Use Sigstore for keyless signing and verification](https://docs.gitlab.com/ee/ci/yaml/signing_examples.html)
+1. Released [storing a `source` value for Jobs including policies](https://gitlab.com/groups/gitlab-org/-/epics/11796)
 
 ## Priorities and progress
 

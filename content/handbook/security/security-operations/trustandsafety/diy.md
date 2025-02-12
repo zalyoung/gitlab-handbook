@@ -57,4 +57,4 @@ For any abuse prevention feature requests and suggestions for CE and EE, please 
 
 ### Open Source Program Partners, Premium and Ultimate Customers
 
-Please see the [Contact Us]({{< ref "trustandsafety#contact-us" >}}) section on out Team page for details on reaching us.
+Please see the [Contact Us](/handbook/security/security-operations/trustandsafety/#reporting-abuse) section on out Team page for details on reaching us.

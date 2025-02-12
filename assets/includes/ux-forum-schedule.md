@@ -3,13 +3,12 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly         |                        |
-| 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Sunjung Park           | Libor Vanc             |
+| 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Libor Vanc             |                        |
 | 2025-02-19 | Paul Wright          |                        | Ilonah Pelaez          |                        |
 | 2025-03-05 | Marcel van Remmerden | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
 | 2025-03-19 | Rayana Verissimo     | Austin Regnery         | Julia Miocene          |                        |
 | 2025-04-02 | Taurie Davis         | Gina Doyle             | Nick Leonard           |                        |
-| 2025-04-16 | Justin Mandell       | Camellia Yang          | Libor Vanc             |                        |
+| 2025-04-16 | Justin Mandell       | Camellia Yang          | Libor Vanc             | Sunjung Park           |
 | 2025-04-30 | Emily Sybrant        | Alyssa Trinh           | Sascha Eggenberger     |                        |
 | 2025-05-14 | Jacki Bouer          | Michael Fangman        | Tina Lise Ng           |                        |
 | 2025-05-28 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |

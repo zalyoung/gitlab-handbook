@@ -78,7 +78,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Quality Risk Mapping](/handbook/engineering/infrastructure/test-platform/risk-mapping/)
+[Developer Experience Risk Mapping](/handbook/engineering/infrastructure-platforms/developer-experience/risk-mapping/)
 
 [Development ops risk mapping](/handbook/engineering/development/ops/package/risk-map/)
 

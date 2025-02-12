@@ -3,13 +3,13 @@ title: "Referral Operations"
 description: "This page is for information regarding the backend process of the Referral Process."
 ---
 
-This page is for information regarding the "backend" of the [Referral Process]({{< ref "referral-process" >}}).
+This page is for information regarding the "backend" of the [Referral Process](/handbook/hiring/referral-process/).
 
 #### Adding a Referral to Workday (People Connect Team)
 
 People Connect will review the following guidelines to ensure the correct amount is being awarded with the One Time Payment in Workday.
 
-1. Ensure that the current team member is eligible for a referral based upon the [requirements]({{< ref "referral-process#referral-bonus-eligibility" >}}).
+1. Ensure that the current team member is eligible for a referral based upon the [requirements](/handbook/hiring/referral-process/#referral-bonus-eligibility).
 1. Review when the referral was submitted in Greenhouse
     - `Job` > `Application Review` > `Applied On YYYY-MMM-DD`
     - Our current referral bonus amount as of **2023-11-20** is listed [here](/handbook/total-rewards/incentives/#referral-bonuses).
@@ -20,7 +20,7 @@ People Connect will review the following guidelines to ensure the correct amount
 
 #### Transferring Referral Submissions to Greenhouse
 
-Per the current [Referral Submission Process]({{< ref "referral-process#submitting-a-referral" >}}), Team Members will submit referrals through Greenhouse if the vacancy is posted externally and via Issues if the vacancy is **only** open internally. When a new Issue appears, please do the following:
+Per the current [Referral Submission Process](/handbook/hiring/referral-process/#how-to-submit-a-referral-in-greenhouse), Team Members will submit referrals through Greenhouse if the vacancy is posted externally and via Issues if the vacancy is **only** open internally. When a new Issue appears, please do the following:
 
 1. Assign the Issue to yourself (upper right corner).
     - *Reruiting Operations & Insights* is responsible for assigning the appropriate *Sourcer(s)*.
@@ -80,7 +80,7 @@ To take action on Issues in that project:
 1. Add the appropriate label(s).
 1. Look-up the candidate in Greenhouse, if applicable.
 1. Respond to the Issue by commenting and please be sure to do so just as you would with any other GitLab communication.
-    - e.g. *"Hi, NAME. Thank you for reaching out about the status of your referral. Per our [SLA]({{< ref "referral-process#referral-statuses" >}}), please allow us 5 business days to review the submission. `@RECRUITER` is responsible for this role and they'll provide the candidate with an update soon."*
+    - e.g. *"Hi, NAME. Thank you for reaching out about the status of your referral. Per our [SLA](/handbook/hiring/referral-process/#referral-statuses), please allow us 5 business days to review the submission. `@RECRUITER` is responsible for this role and they'll provide the candidate with an update soon."*
     - e.g. *"Thank you for the referral. `@RECRUITER` is responsible for this role and will provide you with an update soon."*
 1. Please be sure to `@-mention` the responsible Recruiter so that they're aware an update is being requested.
 1. If one comment addresses the entirety of the message, comment and **close** the Issue. If further information is needed, comment and leave the Issue open.

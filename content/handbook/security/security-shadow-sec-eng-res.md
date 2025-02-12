@@ -6,7 +6,7 @@ Completion of each course you will receive a certificate. At the completion of a
 
 ## Restrictions
 
-Please keep in mind that there are [some restrictions]({{< ref "transparency-by-default#restricted-security-only-or-other-restrictions-imposed" >}}) on what can and cannot be shared as part of the shadow program, particularly related to high severity vulnerabilities or incidents.
+Please keep in mind that there are [some restrictions](/handbook/security/transparency-by-default/#restricted-security-only-or-other-restrictions-imposed) on what can and cannot be shared as part of the shadow program, particularly related to high severity vulnerabilities or incidents.
 
 For example if a shadow is watching an AppSec team member triage HackerOne issues and a High or Critical vulnerability is reported, the shadow call should end.
 
@@ -55,4 +55,4 @@ The [Security Research Team](product-security/security-research/) is a multi-dis
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

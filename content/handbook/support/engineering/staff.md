@@ -15,7 +15,7 @@ You can learn about the promotion process to the Staff level in [Support Enginee
 Staff Support Engineers at GitLab will generally focus on the following things:
 
 - Improve and collaborate within Support and with other teams to improve our technologies and how we work.
-- [Mentor]({{< ref mentorship >}}) and [coach](/handbook/leadership/coaching/) others on our technologies and how we work.
+- [Mentor](/handbook/support/engineering/mentorship) and [coach](/handbook/leadership/coaching/) others on our technologies and how we work.
 - Enable others to action on ideas and issues.
 - Assist the team to meet [Support KPIs](/handbook/support/performance-indicators.md).
 

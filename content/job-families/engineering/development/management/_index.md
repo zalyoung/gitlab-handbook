@@ -21,11 +21,11 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 
 #### Responsibilities
 
-Senior Engineering Manager, Development responsibilities extend those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/senior-manager/).
+Senior Engineering Manager, Development responsibilities extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities) with [specific responsibities for the Development role](/job-families/engineering/development/management/senior-manager/).
 
 #### Requirements
 
-Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
+Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
 
 ### Director, Development
 
@@ -37,11 +37,11 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 
 #### Responsibilities
 
-Director, Development responsibilities extend those of [Director, Engineering](/handbook/job-families/engineering/engineering-management/#director-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/director/).
+Director, Development responsibilities extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-responsibilities) with [specific responsibities for the Development role](/job-families/engineering/development/management/director/).
 
 #### Requirements
 
-Director, Development requirements match those of [Director, Engineering](/handbook/job-families/engineering/engineering-management/#director-engineering-requirements).
+Director, Development requirements match those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-requirements).
 
 #### Nice-to-have Requirements
 

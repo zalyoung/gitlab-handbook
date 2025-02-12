@@ -5,14 +5,14 @@ description: "This page is an overview of the processes the hiring manager is re
 
 ## Step 1/HM: Identifying hiring need
 
-1. [Add Vacancy to the Hiring Plan]({{< ref "req-creation#adding-vacancies-to-the-hiring-plan" >}})
+1. [Add Vacancy to the Hiring Plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process)
 Determine the purpose of this role
-1. [Create or Review the Job Family]({{< ref "req-creation#create-or-review-the-job-family" >}})
+1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family-dri-hiring-manager)
 1. [Work with the Recruiting Manager/Lead to open the vacancy in Greenhouse](req-creation/#opening-vacancies-in-greenhouse)
 
 ## Step 2/HM: Complete Kick-off
 
-[Complete Kick-off]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
+[Complete Kick-off](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session)
 
 ## Step 3/HM: Setup Scorecard and Prepare Interview Team
 
@@ -77,6 +77,8 @@ At least 2 references must be completed and documented in Greenhouse (one of the
 
 Hiring managers are expected to contact references by call or by email. Some managers [send the reference a brief email](https://gitlab.com/gitlab-com/people-group/hiring-processes/snippets/1933704) stating the purpose of the call and including a Calendly link so that the reference can select a convenient time. You can add a template to your Greenhouse account for quick use. Some managers also ask the candidate to reach out to their references to expect the email from the manager (as sometimes the email is ignored if the recipient is not expecting it).
 
+**For Engineering:** Before extending an offer, one reference (from either a manager - preference or peer) must be completed and documented in Greenhouse by the Recruiter. After reviewing the initial reference, the Hiring Manager can either proceed with the offer or contact additional references themselves to gather more information about the candidate.
+
 In Greenhouse: Configure (the gear on the top right) - Email Templates - My Templates - New. Be sure to create the template as a Team Email under the Type field. If you create the email template with tokens please check the tokens were added correctly upon the first use.
 
 After creating the email template you can send to the references. Because there is not a bcc option you should send individual emails to each reference. From the Candidate's profile: Tools (bottom right on the page view) - Email the Team - Choose a template (drop-down) - (select the name of the template you created) - **Uncheck "Add a link to the candidate's profile"** - Send Email.
@@ -112,7 +114,7 @@ You should not ask any questions about the person's race, gender, sexual prefere
 - Who watches their children while they are at work?
 - What types of groups does the candidate belong to that are not work related?
 
-[Use our guide to scoring]({{< ref "conducting-a-gitlab-interview#all-divisions-but-engineering" >}}) to help select the vote you choose when submitting a scorecard for each reference check.
+[Use our guide to scoring](/handbook/hiring/conducting-a-gitlab-interview/#candidate-evaluation-and-scorecards) to help select the vote you choose when submitting a scorecard for each reference check.
 
 ### Reference Check Review
 

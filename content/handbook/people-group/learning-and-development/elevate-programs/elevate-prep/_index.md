@@ -2,7 +2,7 @@
 title: ElevatePrep
 ---
 
-ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong 
+ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong professional skills that support a variety of goals.
 
 ### Important Note About Career Development
 
@@ -24,11 +24,15 @@ In Elevate Prep, participants will:
 ElevatePrep consists of 4 core learning modules, each focusing on essential professional development areas:
 
 1. **Take control of your career path**: Learn to create meaningful development plans and navigate your professional growth
-1. **Give feedback that lands**: Develop skills to provide and receive effective feedback
+1. **Get Feedback that Improves your Performance**: Develop skills to provide and receive effective feedback
 1. **Give Feedback that Lands**: Build confidence in delivering honest feedback and have direct conversations with anyone
 1. **Influence without authority**: Learn to drive results through influence and effective stakeholder management
 
 Each module is 60 minutes long and delivered live through our learning portal (in partnership with Hone). The program brings together cohorts of approximately 25 participants to ensure meaningful interaction and discussion.
+
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevateprepoverview.png)
+
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
 ## Program Requirements
 
@@ -50,7 +54,7 @@ While team members can express interest in participating, preference is given to
 
 ## Making up missed sessions
 
-Attendance at all live sessions is required to complete the program. If you cannot attend one of the scheduled GitLab sessions, you will be able to schedule into a public offerings hosted by Hone. We'll share more information on [SAFE](https://handbook.gitlab.com/handbook/legal/safe-framework/#safe) best practices when joining public sessions. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
+Attendance at all live sessions is required to complete the program. If you cannot attend one of the scheduled GitLab sessions, you will be able to schedule into a public offerings hosted by Hone. We'll share more information on [SAFE](/handbook/legal/safe-framework/#safe) best practices when joining public sessions. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
 
 ## Supporting your team members in ElevatePrep
 

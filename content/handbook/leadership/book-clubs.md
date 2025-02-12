@@ -5,7 +5,7 @@ title: "Book clubs"
 From time to time, we run internal book clubs on a book from one of our resource lists. All are welcome! However,
 each club has a suggested audience to indicate roles to which the content is tailored.
 
-- [Leadership]({{< ref "_index.md#books" >}})
+- [Leadership](/handbook/leadership/#books)
 - [Development](/handbook/engineering/development/#books)
 
 To propose a new book club, [create an issue](https://gitlab.com/gitlab-com/books-clubs/combined-book-clubs/-/issues/new) in the [book clubs project](https://gitlab.com/gitlab-com/books-clubs/combined-book-clubs/). Individual book clubs which need a dedicated project can create on in the [book-clubs group](https://gitlab.com/gitlab-com/books-clubs) ([example](https://gitlab.com/gitlab-com/books-clubs/bookclub-hands-on-machine-learning)).
@@ -91,7 +91,7 @@ This book club was internal-only.
     1. Books that are also available as audiobooks increase the
        potential audience. The more ways people can experience the book,
        the more people can attend.
-1. [Set up the meeting schedule.]({{< ref "tools-and-tips#gitlab-team-meetings-calendar" >}})
+1. [Set up the meeting schedule.](/handbook/tools-and-tips/#gitlab-team-meetings-calendar)
     1. Record the meetings and [post them to YouTube](/handbook/marketing/marketing-operations/youtube/). If the participants
        agree, make the videos public.
     1. Consider having the same section of the book covered in different

@@ -12,11 +12,11 @@ An Evergreen Requisition is a requisition used to pipeline candidates on a conti
 
 ## How do you request an Evergreen req?
 
-Contact the [Recruiting Manager]({{< ref "recruiting-alignment#talent-acquisition-leader-alignment" >}}) aligned with your function to discuss whether it's appropriate to open an Evergreen req for your needs.
+Contact the [Recruiting Manager](/handbook/hiring/recruiting-alignment/#talent-acquisition-leader-alignment) aligned with your function to discuss whether it's appropriate to open an Evergreen req for your needs.
 
 ## Creating an Evergreen Requisition
 
-- Follow the Req Creation process found [here]({{< ref "req-creation#requisition-creation-process" >}}). In addition, please be aware of these added steps:
+- Follow the Req Creation process found [here](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter). In addition, please be aware of these added steps:
   - Start the Req title with "Evergreen" followed by the name of the req (example Evergreen - Sales Development Representative)
   - Select "Evergreen" when selecting opening Type
 

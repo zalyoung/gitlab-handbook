@@ -14,8 +14,8 @@ toc_hide: true
 
 ## Summary
 
-This design doc covers architectural decisions and proposed changes to
-[Cloud Connector's technical foundations](https://gitlab.com/groups/gitlab-org/-/epics/11417).
+This design doc covers architectural decisions and proposed changes aligned with the team's
+[technical vision](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/technical_vision/).
 Refer to the [official architecture documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture.html)
 for an accurate description of the current status.
 

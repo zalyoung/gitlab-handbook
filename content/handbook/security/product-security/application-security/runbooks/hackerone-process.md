@@ -47,7 +47,7 @@ report to themselves immediately.
 if it is a duplicate or related to another report you are familiar with, just
 be sure to get it reassigned if you won't be able to meet the estimated triage time.
 - When starting a triage work cycle, team members should prioritize as follows:
-  1. Identify, triage, and [escalate any New severity::1/priority::1]({{< ref "handling-s1p1" >}}) issues first, from any queue.
+  1. Identify, triage, and [escalate any New severity::1/priority::1](/handbook/security/product-security/application-security/runbooks/handling-s1p1/) issues first, from any queue.
   1. Close duplicate and invalid reports.
   1. Triage further using Sort by "Oldest" reports.
   1. Triage the `GitLab Team` queue.
@@ -98,8 +98,8 @@ the responsible engineering team:
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
   - On the imported GitLab issue:
     - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
-    - Assign the appropriate [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
-    - Have a proper [`How to reproduce`]({{< ref "engaging-with-security#reproducibility-on-security-issues" >}}) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
+    - Assign the appropriate [Due Date](/handbook/security/engaging-with-security/#due-date-on-security-issues)
+    - Have a proper [`How to reproduce`](/handbook/security/engaging-with-security/#reproducibility-on-security-issues) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
     - If the report is a security-related documentation change, add the `~documentation` label
     - @-mention the product manager and engineering manager based on the [product categories page](/handbook/product/categories/). Ask for engineering feedback if it is required to complete the triage
     - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
@@ -144,7 +144,7 @@ For future reports that involve "vulnerability chaining" with previously disclos
   - [ ] If the exposed secret is a Personal Access Token:
     - [ ] Using the API, gather the output of [`/api/v4/user`](https://docs.gitlab.com/ee/api/users.html#for-normal-users-1) and [`/api/v4/personal_access_tokens/self`](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header) for the SIRT incident.
     - [ ] [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
-  - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
+  - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://internal.gitlab.com/handbook/security/security_operations/sirt/runbooks/exposed_secrets/#general-revocation-template-for-secrets)
   - [ ] If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) an incident
   - [ ] In the description section, include a link to the HackerOne report and any other useful information
@@ -220,7 +220,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 - Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue
   - Note that we are importing it using `bounty` only here.
-- Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues]({{< ref "handling-s1p1.html" >}})
+- Support SIRT as required and, if applicable, follow the process for handling severity::1/priority::1 issues
 - Investigate the location of the exposure, and locations like it, for further exposure.
   - Check the history on issue / MR descriptions
   - Use Advanced Search to look for similar patterns in other projects used by GitLab team members
@@ -329,7 +329,7 @@ disclose it regardless of quality unless there is a good reason not to.
 
 ## Application Security Engineer Procedures for severity::1/priority::1 Issues
 
-Please see [Handling severity::1/priority::1 Issues]({{< ref "handling-s1p1" >}})
+Please see [Handling severity::1/priority::1 Issues](/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
 
 ## Closing reports as Informative, Not Applicable, or Spam
 

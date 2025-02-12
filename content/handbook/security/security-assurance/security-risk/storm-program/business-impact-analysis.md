@@ -8,7 +8,7 @@ controlled_document: true
 
 The Business Impact Analysis (BIA) helps determine the systems critical to serving GitLab's Customers.   The output of the BIA is the designation of a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST) for a new system. The CST aids Security Compliance in Scoping and is also available to help business owners determine the prioritization of system restoration efforts in the event of a disruption.
 
-**Note:** In adjacent to the BIA, questions may be asked to satisfy [global privacy regulation requirements](/handbook/legal/privacy/privacy-laws/#gdpr) pertaining to a system's [Personal Data]({{< ref "data-classification-standard#data-classification-definitions" >}}) processing.
+**Note:** In adjacent to the BIA, questions may be asked to satisfy [global privacy regulation requirements](/handbook/legal/privacy/privacy-laws/#gdpr) pertaining to a system's [Personal Data](/handbook/security/data-classification-standard/#data-classification-definitions) processing.
 
 ## Scope
 
@@ -18,7 +18,7 @@ The BIA procedure covers all new systems to be added to GitLab's [Tech Stack](/h
 
 |Role|Responsibility|
 |----------|------------------------------|
-|[Security Risk Team]({{< ref "../../security-risk" >}})|Responsible for executing and maintaining this procedure.|
+|[Security Risk Team](/handbook/security/security-assurance/security-risk/)|Responsible for executing and maintaining this procedure.|
 |[Business/Technical Owner](/handbook/business-technology/tech-stack-applications/#tech-stack-definitions) of a System|Responsible for answering BIA questions during procurement and validating CST designation proposed by Security Risk.|
 |Security Assurance Management (Code Owners)|Responsible for approving significant changes and exceptions to the BIA.|
 
@@ -49,5 +49,5 @@ System Proof of Concepts (POC), Proof of Values (POV), and Pilots are exempt fro
 
 ## References
 
-- [Critical System Tiering Methodology]({{< ref "critical-systems" >}})
-- [Data Classification Standard]({{< ref "data-classification-standard" >}})
+- [Critical System Tiering Methodology](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/)
+- [Data Classification Standard](/handbook/security/data-classification-standard/)
