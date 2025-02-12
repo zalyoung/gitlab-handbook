@@ -40,18 +40,6 @@ GitLab hosted a kickoff call with SageView to discuss an overview of the program
 - **[Session Description](https://drive.google.com/file/d/1rPc_7iCiZV33BMuoithOlaJefeWNYgAK/view?usp=sharing):**
   - The specifics of Financial Wellness are different for everyone, but the common underlying theme is similar for most; identify your resources and utilize your opportunities in a way that gives you both peace of mind and the highest likelihood of achieving your financial goals.
 
-### LinkedIn Learning
-
-Self Learning around money management is also available through the company sponsored [LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning) account.
-
-Examples of Learning Courses include:
-
-- [Managing Your Personal Finances](https://www.linkedin.com/learning/managing-your-personal-finances-2021/what-s-your-money-story?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Behavioral Finance Foundations](https://www.linkedin.com/learning/behavioral-finance-foundations-2/behavioral-finance-and-the-stock-market?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Personal Finance Tips & Tricks](https://www.linkedin.com/learning/personal-finance-tips-and-tricks/welcome-to-the-series?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Managing Your Personal Investments](https://www.linkedin.com/learning/managing-your-personal-investments/taking-control-of-your-investments?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Financial Wellness: Managing Personal Cash Flow](https://www.linkedin.com/learning/financial-wellness-managing-personal-cash-flow/understanding-your-relationship-with-money?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-
 ### Schwab
 
 Within Schwab, as of no later than December 9th, you will see a summary of your options (vested and unvested) and vested exercised shares.  Exercised unvested options will be held at Computershare. When RSUs are granted, these will also be visible in Schwab.
@@ -102,7 +90,7 @@ The Total Rewards Summary has been generated for management to visualize and und
 
 - It's important for all team members to understand and consider all components of the Total Rewards Package. One key component being the value of our equity program (Options, RSU's & ESPP) as core to our Total Rewards (benefits, cash compensation, equity) at GitLab.
 - Equity aligns team members with a long term incentive for the company. By delivering results, GitLab has the ability to contribute to company performance and drive long-term potential value.
-- Team members may be eligible for [Equity Compensation](/handbook/total-rewards/stock-options/#restricted-stock-units) as part of their new hire package or the annual refresh program.
+- Team members may be eligible for [Equity Compensation](/handbook/total-rewards/stock-options/#restricted-stock-units-rsus) as part of their new hire package or the annual refresh program.
 - GitLab has recently adjusted the cliff for the RSU program by implementing an industry leading six month cliff for new hire grants and no cliff for promotion or refresh grants.
 - Close by checking in on how your team member is doing beyond their financial position. A quick and simple method is to use  the "red, yellow, green" scale to ask your team members how they are feeling about their future at GitLab. The goal is to gain actionable feedback about how you can support them going forward.
 - Please note that Total Rewards will be discussed again in February as part of [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/). This is a great opportunity to check in with your direct reports ahead of the planning process, but it is important to not make any forward looking statements on increases during the review cycle.
