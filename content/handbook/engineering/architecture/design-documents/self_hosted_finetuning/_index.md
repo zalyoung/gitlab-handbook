@@ -135,7 +135,7 @@ The container will be published in the GitLab Container Registry and DockerHub o
 
 Once the fine-tuning pipeline is triggered and service has been deployed, it would start with preparing the data.
 
-The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk. The data will be stored at the same instance where the service is running.
+The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk based on the provided configuration.
 
 #### Adapter Training
 
