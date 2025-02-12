@@ -11,5 +11,4 @@ Google is considered a platform and the various features and functionality are o
 - [Google Docs and Drive](/handbook/security/corporate/systems/google/drive)
 - [Google Groups](/handbook/security/corporate/systems/google/groups)
 - [Google Mail](/handbook/security/corporate/systems/google/mail)
-- [Google Users](/handbook/security/corporate/systems/google/users)
 - [Google Workspace (Organization)](/handbook/security/corporate/systems/google/workspace)
