@@ -93,7 +93,7 @@ To submit a security change request, use one of the links below to create a chan
 Follow the instructions in the appropriate issue template to:
 
 - Add the appropriate level of detail to the request
-- Assign the appropriate team member(s) to the request in accordance with the [roles and responsibilities]({{< ref "security-change-management-procedure#roles--responsibilities" >}}) and [approval matrix]({{< ref "security-change-management-procedure#approval-matrix" >}}) sections
+- Assign the appropriate team member(s) to the request in accordance with the [roles and responsibilities](/handbook/security/security-change-management-procedure/#roles--responsibilities) and [approval matrix](/handbook/security/security-change-management-procedure/#approval-matrix) sections
 
 [Security Change Management project](https://gitlab.com/gitlab-com/gl-security/security-change-management)
 
@@ -115,6 +115,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Change Management Policy]({{< ref "change-management-policy." >}})
+- [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/)
 - [Controlled Documents Procedure](/handbook/security/controlled-document-procedure/)
 - [Controlled Documents Annual Review Program](/handbook/security/controlled-document-procedure/#review)

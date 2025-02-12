@@ -17,7 +17,7 @@ Yearlies are informed by the [three-year strategy](/handbook/company/strategy/).
 
 ### Annual Plan and Yearlies
 
-1. Yearlies come before the [Annual Plan](/handbook/finance/financial-planning-and-analysis/#plan).
+1. Yearlies come before the [Annual Plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop).
 1. Yearlies contain our priorities for the fiscal year while the Annual Plan contains our budgets and our financials.
 1. We first determine our priorities for the upcoming year in the form of Yearlies, then we use these priorities to inform the budget in the Annual Plan process.
 

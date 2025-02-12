@@ -14,18 +14,18 @@ This page contains useful tips for working at GitLab and for various tools we us
 ## GitLab tips
 
 ### Change your username at GitLab.com
-<!-- markdownlint-disable MD051 -->
+
 - Starting point: let's say your username is `old-mary` and you want it to be just `mary`.
 - **Note:** each GitLab account is tracked by an **userID**, which is a number stored in a database.
 If we change the username, the userID does not change.
 And all the permissions, issues, MRs, and relevant stuff within GitLab are related to your **userID**, not with your username.
 - **Note:** if you are not a GitLab Team member, the same process applies except your e-mail ([STEP 2](#change-username-step-2)), which will be different (will not be @gitlab.com email), so you can replace it with your own email account.
-<!-- markdownlint-enable MD051 -->
+
 #### STEP 1: Request your new username
 
 - As of this [Merge Request](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170), it is no longer possible to request a username via the [Namesquatting process](/handbook/support/workflows/namesquatting_policy). If the username you wish to use is unavailable, you will have to pick a different one.
 
-#### STEP 2: Create a new account with your new username{#change-username-step-2}
+#### STEP 2: Create a new account with your new username {#change-username-step-2}
 
 - If support replies to you telling that the username is free to use, create a new GitLab.com account with it.
 Use a personal email to register your new account and choose one that has not been used with your old GitLab account.
@@ -63,13 +63,17 @@ This won't affect Pages projects that use custom domains, as they all point to t
 Your groups won't be affected either, as they operate under their own namespace.
 Add both users as members of your groups and nothing changes.
 
-That's it! Don't forget to update your username in the following places:
+That's it!
+
+#### STEP 5: Update your username in other places
+
+Don't forget to update your username in the following places:
 
 - [team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/team.yml)
-- [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md), in case you're a Marketing Team member.
+- If you're part of Marketing, [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md)
 - Workday - GitLab Username under 'Additional Data' > 'View all' in your profile actions
 
-#### STEP 5: Set up your notifications
+#### STEP 6: Set up your notifications
 
 Team members choose to manage their GitLab activities in different ways. Setup your notifications in a way that works best for you.
 
@@ -79,7 +83,7 @@ Team members choose to manage their GitLab activities in different ways. Setup y
 
 ### GitLab team members' resources
 
-The [GitLab team-member resources project](https://gitlab.com/gitlab-com/gitlab-team-member-resources) has a wiki for sharing among [GitLab team-members]({{< ref "structure#team-and-team-members" >}}).
+The [GitLab team-member resources project](https://gitlab.com/gitlab-com/gitlab-team-member-resources) has a wiki for sharing among [GitLab team-members](/handbook/company/structure/).
 
 It's for topics like parenting where people may want to share knowledge, but the handbook is not the best fit.
 
@@ -105,8 +109,8 @@ A few additional resources that can be helpful when working with Mermaid are:
 - A [CSS color bank](https://www.rapidtables.com/web/css/css-color.html) to add color to your charts.
 - You can see an example of how to add images to Mermaid charts [here](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuICBDIC0tPiBHXG4gIEcoXCI8aW1nIHNyYz0naHR0cHM6Ly9pY29uc2NvdXQuY29tL21zLWljb24tMzEweDMxMC5wbmcnOyB3aWR0aD0nMzAnIC8-XCIpIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQiLCJzZWN1cml0eUxldmVsIjoibG9vc2UifX0).
 - Examples of Mermaid charts that have been created by GitLab team members:
-  - [Talent Development Program Chart]({{< ref "talent-development-program#talent-development-program-chart" >}}) by [Cassiana Gudgenov](https://gitlab.com/cgudgenov), People Compliance Partner
-  - [CEO Year at a Glance]({{< ref "cadence#year-at-a-glance" >}})
+  - [Talent Development Program Chart](/handbook/people-group/talent-development-program/#talent-development-program-chart) by [Cassiana Gudgenov](https://gitlab.com/cgudgenov), People Compliance Partner
+  - [CEO Year at a Glance](/handbook/company/cadence/#year)
   - [Data Infrastructure System Diagram](/handbook/enterprise-data/platform/infrastructure/#system-diagram)
 - [Advanced layout demos](mermaid) for Mermaid diagrams
 
@@ -399,7 +403,7 @@ Note: you have to pay for these items yourself.
 ### Wi-fi usage
 
 When using unsecured Wi-Fi, consider a personal VPN.
-We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn) but consider [purchasing]({{< ref "expenses#reimbursements" >}}) a [personal VPN]({{< ref "personal-vpn" >}}) if you travel for GitLab or use unknown networks often.
+We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn) but consider [purchasing](/handbook/finance/expenses/#vpn-subscription) a [personal VPN](/handbook/tools-and-tips/personal-vpn/) if you travel for GitLab or use unknown networks often.
 
 Remember that if your job has restrictions based upon geolocation (for example supporting customers with specific data restrictions and country-based access), a personal VPN may not be the best choice as often the VPN vendor routes traffic through other countries.
 If this restriction applies to you, consider tethering.
@@ -524,7 +528,7 @@ This is great when someone is speaking about something they are typing on a vide
     - [Emoji live-search](https://support.google.com/docs/answer/3371015) can be accessed by typing `@:`, or shorter using the `:` character. Start typing to search for an emoji and press enter to insert.
 1. Pageless docs are great for documents you don't intend to print, and is the [preferred format at GitLab](/handbook/communication/#pageless-is-the-gitlab-preferred-format). You can [switch in File > Page setup](https://support.google.com/docs/answer/11528737).
 
-See also [Live Doc Meetings]({{< ref "live-doc-meetings" >}}) for more Google Doc tips.
+See also [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/) for more Google Doc tips.
 
 ### Google Analytics
 
@@ -593,7 +597,7 @@ For meetings spanning across multiple time zones and with external parties, [Tim
 #### GitLab availability calendar
 
 The GitLab Availability Calendar has been deprecated to allow for GitLab to scale effectively.
-We have created [tools and tips for managing your time off]({{< ref "paid-time-off" >}}).
+We have created [tools and tips for managing your time off](/handbook/people-group/paid-time-off/).
 
 #### Setting working hours & location
 
@@ -854,7 +858,7 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature if employed by our German entity
 
-If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page]({{< ref "gmbh-germany" >}})) as follows:
+If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page](/handbook/entity/gmbh-germany/)) as follows:
 
 <span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>

@@ -21,5 +21,5 @@ Ellen Boyd, Director, FP&A @eboyd1
 
 ## Common Links
 
-- [Financial Planning & Analysis (FP&A)]({{< ref "financial-planning-and-analysis" >}})
+- [Financial Planning & Analysis (FP&A)](/handbook/finance/financial-planning-and-analysis/)
 - [Finance Issue Tracker](https://gitlab.com/gitlab-com/finance/issues)

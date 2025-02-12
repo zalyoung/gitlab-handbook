@@ -79,13 +79,14 @@ generate_table() {
     LENGTH=$(jq '. | length' $LREPORT)
     for i in $(seq 0 $((LENGTH-1))); do
       ERROR=$(jq -r ".[$i].check_name" $LREPORT | cut -d '/' -f 1)
+      URL="https://handbook.gitlab.com/handbook/about/editing-handbook/#link-and-anchor-errors"
       FILE=$(jq -r ".[$i].location.path" $LREPORT)
       LINE=$(jq -r ".[$i].location.lines.begin" $LREPORT)
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
       DESCRIPTION=$(jq -r ".[$i].description" $LREPORT | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
       if [[ "$ERROR" ]]; then
-        MSG+="| Broken link ($ERROR) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+        MSG+="| [Broken link ($ERROR)]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
       fi
     done
 

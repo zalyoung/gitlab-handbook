@@ -145,9 +145,9 @@ See the relevant information in our [Global Travel and Expense Policy - Internet
 ## GitLab B.V. Netherlands Leave Policy
 
 - Statutory Sick Leave
-  - Team members who are unable to work due to illness are entitled to 70% of their salary for up to 104 weeks. This leave runs concurrently with GitLab's [Sick Time Policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}). Team members will receive 100% of their salary for the first 25 days of illness.
+  - Team members who are unable to work due to illness are entitled to 70% of their salary for up to 104 weeks. This leave runs concurrently with GitLab's [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting). Team members will receive 100% of their salary for the first 25 days of illness.
   - GitLab complies with [Dutch local Laws](https://business.gov.nl/regulation/reporting-employee-illness-recovery/) regarding sick leave. Local laws override any leave policy we have in the benefit of the team members.
-  - Team members must select `Out Sick` in Workday to ensure that all sick time is properly tracked. For complete reporting procedures, please review [the sick time procedure for The Netherlands here]({{< ref "paid-time-off#sick-time-procedures---netherlands" >}}).
+  - Team members must select `Out Sick` in Workday to ensure that all sick time is properly tracked. For complete reporting procedures, please review [the sick time procedure for The Netherlands here](/handbook/people-group/paid-time-off/#sick-time-procedures---netherlands).
 - Statutory Vacation Leave
   - Team members are entitled to at least 20 vacation days per year which run concurrently with GitLab PTO. The days will accrue at 1.67 days/month from the team member's start date. Any unused days will be carried into the next calendar year, but expire on July 1st. Should the team member leave GitLab within the calendar year, an entitlement to a pro rata part vacation days exists. Team members must designate all vacation days taken as `Paid Time OFF` in Workday to ensure that vacation entitlement is properly tracked.
 
@@ -170,13 +170,13 @@ Team members are eligible for leaves as included in the Work and Care Act. Pleas
 
 - After your partner has given birth, you are entitled to up to five days of paid parental leave.
 - Within 6 months of the birth you are also entitled to 5 weeks of additional paid leave (["Aanvullend geboorteverlof"](https://www.rijksoverheid.nl/onderwerpen/geboorteverlof-en-partnerverlof/geboorteverlof-voor-partners)) at a maximum of [70% of the maximum day wage](https://www.uwv.nl/nl/premies-bedragen/maximum-dagloon). If you have a compensation that is higher than the maximum day wage you will receive the 70% of the maximum day wage as set by the UWV.
-- Please also refer to [the company policy]({{< ref "general-and-entity-benefits#parental-leave" >}}) as when more beneficial they supersede the statutory leave benefits.
+- Please also refer to [the company policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) as when more beneficial they supersede the statutory leave benefits.
 
 ### Adoption and Foster Leave
 
 Team members who have adopted or taken in a foster child are entitled to 6 weeks of leave and [adoption or foster care allowance](https://www.uwv.nl/nl/adoptie-pleegzorg/voorwaarden-adoptie-pleegzorguitkering#hoe-hoog-is-mijn-adoptie-of-pleegzorguitkering).
 
-- This leave runs concurrently with GitLab Parental Leave. GitLab will supplement adoption or foster care allowance for [eligible team members]({{< ref "general-and-entity-benefits#parental-leave" >}}) so that they receive 100% of their pay for the first 16 weeks of leave.
+- This leave runs concurrently with GitLab Parental Leave. GitLab will supplement adoption or foster care allowance for [eligible team members](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) so that they receive 100% of their pay for the first 16 weeks of leave.
 - Team members must notify the Absence Management team at `leaves@gitlab.com` of their intent to take adoption or foster leave at least three weeks in advance, and must designate this time off as `Parental Leave` in Workday to ensure that statutory entitlements are properly tracked.
 
 #### Effective 2022-08-02

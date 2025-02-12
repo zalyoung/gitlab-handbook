@@ -89,12 +89,12 @@ the customer's needs and streamline the resolution process:
 By following these steps, you ensure a structured approach to ticket handling
 that can save time and enhance customer satisfaction.
 
-## Contacting a Customer Success Manager (CSM) or Account Manager (AM)
+## Contacting the Customer Success or Account team
 
-Engage a CSM or AM for reasons such as discussing architecture, Professional
+Support can connect with the Customer and/or Account team for reasons such as discussing architecture, Professional
 Services, or support collaboration. If escalation is required, follow the
 designated workflow. If no CSM is available, contact the AM, identified in
-Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
+Zendesk as `Account Owner`. During FY26Q1 (Feb25-Apr25), APAC are participating in a pilot to reach the CSE (Customer Success engineer) for customers that are `TAM Scale` and don't have a dedicated CSM.  See below if you are in APAC. To involve a CSM or AM, use the following methods:
 
 1. Zendesk: Add the CSM/AM as a CC on the ticket, inform the customer, and add
    an internal note for context.
@@ -104,6 +104,28 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
      (#a_customerName-internal).
    - Post a message in a relevant support channel (`#support_leadership`,
      `#support_gitlab-com`, or `#support-self_managed`).
+
+### Pilot for CSE collaboration - APAC FY26Q1
+
+During Quarter 1 of FY26 (February - April 2025) the CSEs and APAC Support are participating in a pilot to reach out to CSEs for TAM Scale customers, similar to working with CSMs for larger customers.
+
+During this period, if you a Support Engineer in APAC and you are working on a ticket that would benefit from collaboration with the customer success team and the listed CSM in the meta details is `TAM Scale`, please follow the process below.  For more details or to share feedback, please refer to the [planning issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6489).
+
+1. Share the ticket in [#team-cse](https://gitlab.enterprise.slack.com/archives/C04FPTL837S) on Slack and ping `@Arihant` for a review (this is a known single point of failure which will be addressed in following iterations).
+1. If necessary to meet SLA, send a response to the customer letting them know that you have initiated this.
+1. During the pilot, Arihant will respond to let you know if the CSE team can help.  If they can, they will provide a  one-time use Calendly scheduling link for the customer to schedule a call. This scheduling link will be posted as an internal note in the Support ticket.
+1. Once received, send a reply to the customer, sharing the scheduling link.  You can use the following text as a starting point:
+
+    ```text
+    Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for SAST Enforcement and Deployment Control.
+    
+    Please use the following link to schedule a call with Bernard Ng from the CSE team: <CALENDLY SCHEDULING LINK HERE>
+    
+    Do let me know if you run into issues scheduling a call, we'll be happy to assist.
+    ```
+
+1. If the customer didn't have any other questions that need Supports input, the ticket can now be marked as Solved. Use a resolution of `Other`, and add the text `CSE Referral` in the description.
+1. If the discussion in the CSE channel results in the CSE advising they can not help with the ticket, continue to work it as a support ticket.
 
 ### Helping with a ticket that has an Assigned Support Engineer
 

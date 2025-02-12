@@ -5,9 +5,9 @@ description: "This Hands-On Guide walks you through creating and maintaining a D
 
 Runner scalers rely on a consistent runner image to be able to spin up runner machines on demand. The first step to creating this image is understanding how the underlying runner functions. In this lab, you will learn how to create a Docker based runner. This runner will be able to serve as a basis for a Docker autoscaler.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
-### Task A. Create a new project
+## Task A. Create a new project
 
 To start, let's create a new project in the lab environment:
 
@@ -19,7 +19,7 @@ To start, let's create a new project in the lab environment:
 
 1. Leave all other options as default and select **Create project**.
 
-### Task B. Adding the runner to the project
+## Task B. Adding the runner to the project
 
 1. Navigate to your project.
 
@@ -41,7 +41,7 @@ To start, let's create a new project in the lab environment:
 
 1. Take note of the value following `--token`. You will need this token later for the registration of your runner.
 
-### Task C. Deploying a runner
+## Task C. Deploying a runner
 
 We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes.
 

@@ -169,6 +169,26 @@ These are the past award winners. The quarter indicated is the quarter the award
 | FY25-Q3 | Customer Results | Performance and Scalability | **Not Awarded**|
 | FY25-Q3 | Customer Results | Contribution to Sales or Renewal | Fabian Zimmer |
 
+### FY25-Q4
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q4 | Efficiency | Best Design Proposal | Andy Knight |
+| FY25-Q4 | Efficiency | Cost Savings | Gosia Ksionek |
+| FY25-Q4 | Efficiency | Software Efficiency | **Not Awarded** |
+| FY25-Q4 | Efficiency | Proactive Avoidance | Rob Hunt |
+| FY25-Q4 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q4 | Efficiency | Hiring Efficiency | Eduardo Bonet |
+| FY25-Q4 | Excellence | Engineering Excellence | **Not Awarded** |
+| FY25-Q4 | Excellence | Excellence Under Pressure | Andrew Newdigate |
+| FY25-Q4 | Excellence | Testing Excellence | Andrejs Cunskis |
+| FY25-Q4 | Excellence | Most Impactful MR or Doc Update | Veronica Mondo |
+| FY25-Q4 | Excellence | Everyone-can-contribute | **Not Awarded** |
+| FY25-Q4 | Customer Results | Customer Centered Individual | Michael Kozono |
+| FY25-Q4 | Customer Results | Customer Kudos | **Not Awarded** |
+| FY25-Q4 | Customer Results | Performance and Scalability | Jarka Košanová|
+| FY25-Q4 | Customer Results | Contribution to Sales or Renewal | **Not Awarded** |
+
 ---
 
 ## Engineering Quarterly Achievers Process

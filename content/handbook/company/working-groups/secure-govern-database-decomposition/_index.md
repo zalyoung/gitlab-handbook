@@ -125,10 +125,10 @@ axisFormat  %Y-%m
 | ---                | ---    | ---                  |
 | [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 100% | Complete |
 | [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | Complete |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 83%  | 2025-01 |
-| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 68% | 2025-04 |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 93%  | 2025-02 |
+| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 79% | 2025-04 |
 
-Last update: [2025-01-13](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2294280780).
+Last update: [2025-01-28](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2315843897).
 
 ### Plan
 
@@ -193,7 +193,7 @@ See [rollout for full details](https://gitlab.com/groups/gitlab-org/-/epics/1523
 
 | Reference | Description |
 | ---       | ---         |
-| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
+| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/_index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
 | [Link](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043) | Epic dashboard for tracking outstanding work towards completion of decomposition |
 
 ## Thanks

@@ -94,11 +94,11 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.139.3'
+  HUGO_VERSION: '0.140.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
-  HUGOLINT_VERSION: '2.0.2'
-  MARKDOWNLINT_VERSION: '0.15.0'
-  VALE_VERSION: '3.9.1'
+  HUGOLINT_VERSION: '2.0.3'
+  MARKDOWNLINT_VERSION: '0.17.2'
+  VALE_VERSION: '3.9.4'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -125,6 +125,29 @@ variables:
 
 .scheduled-update: &scheduled-update
   if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "count-update"'
+
+###################################
+#
+# JOB TEMPLATES
+#
+###################################
+
+.glab_job:
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk update
+    - apk upgrade
+    - apk add bash git jq sed
+
+.linting_notification_job:
+  extends: .glab_job
+  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  stage: notify
+  rules:
+  - <<: *merge-request-or-tag
+
 
 ###################################
 #
@@ -162,7 +185,7 @@ build:
     - apk add go npm yq curl coreutils sed
     - echo -e "\e[0Ksection_end:`date +%s`:group3\r\e[0K"
     - echo -e "\e[0Ksection_start:`date +%s`:group4\r\e[0KGroup 4"
-    - ./scripts/sync-data.sh
+    - scripts/sync-data.sh
     - echo -e "\e[0Ksection_end:`date +%s`:group4\r\e[0K"
     - echo -e "\e[0Ksection_start:`date +%s`:group5\r\e[0KGroup 5"
     - npm ci --cache $NPM_CACHE
@@ -173,7 +196,9 @@ build:
     - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
     - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
-    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX/"
+    - echo "CI_PAGES_URL ${CI_PAGES_URL}"
+    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
+    - echo "Base URL build ${CI_PAGES_URL}/$PAGES_PREFIX/"
     - echo "Verify base URL ${HUGO_BASEURL}"
   artifacts:
     paths:
@@ -205,7 +230,8 @@ pages:
     paths:
       - public
   script:
-    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX/"
+    - echo "CI_PAGES_URL ${CI_PAGES_URL}"
+    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
     - echo "Pages accessible through ${HUGO_BASEURL}"
   rules:
     - <<: *default-branch
@@ -214,12 +240,12 @@ pages:
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
+        HUGO_BASEURL: "${CI_PAGES_URL}/"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
+        HUGO_BASEURL: "${CI_PAGES_URL}/"
       when: manual
       allow_failure: true
 
@@ -241,9 +267,9 @@ markdownlint:
     FORCE_COLOR: 1
   before_script:
     - npm install chalk terminal-link
+    - apk add git bash
   script:
-    - apk add git
-    - sh ./scripts/markdownlint.sh
+    - scripts/markdownlint.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *is-fork
@@ -263,9 +289,10 @@ vale:
       user: root
   stage: build
   needs: []
+  before_script:
+    - apk add git bash
   script:
-    - apk add git
-    - sh ./scripts/vale.sh
+    - scripts/vale.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *is-fork
@@ -278,17 +305,11 @@ vale:
       codequality: vale-codequality.json
 
 handbooklint:
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
+  extends: .glab_job
   stage: build
   needs: []
-  before_script:
-    - apk update
-    - apk upgrade
-    - apk add jq sed bash
   script:
-    - bash ./scripts/handbook-lint.sh
+    - scripts/handbook-lint.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *is-fork
@@ -301,18 +322,18 @@ handbooklint:
       codequality: handbook-codequality.json
 
 check_path_change:
+  extends: .glab_job
   stage: build
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
-  before_script:
-    - apk add git bash jq
   script:
-    - bash ./scripts/check-path-change.sh
+    - scripts/check-path-change.sh
   rules:
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
-    - <<: *merge-request-or-tag
+    - if: $CI_MERGE_REQUEST_SOURCE_PROJECT_ID != $CI_PROJECT_ID
+      when: never
+    - <<: *is-fork
+      when: never
+    - <<: *merge-request-only
 
 hugolint:
   stage: build
@@ -363,24 +384,22 @@ secret_detection:
 ####################################
 
 post_comment_on_failure:
-  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  extends: .linting_notification_job
   when: on_failure
-  stage: notify
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
-  before_script:
-    - apk add jq sed bash
   script:
-    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
-  rules:
-  - <<: *merge-request-or-tag
+    - scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - scripts/post-comment.sh "$(cat msg.txt)"
+
+resolve_comment_on_success:
+  extends: .linting_notification_job
+  when: on_success
+  script:
+    - scripts/resolve-comment.sh
 
 notify_slack_on_build_failures:
   when: on_failure
   stage: notify
-  script: ./scripts/send-failure-notification-to-slack.sh
+  script: scripts/send-failure-notification-to-slack.sh
   rules:
   - <<: *is-fork
     when: never
@@ -396,6 +415,6 @@ update_counts:
   stage: maintenance
   before_script:
     - apk add git
-  script: ./scripts/update-counts.sh
+  script: scripts/update-counts.sh
   rules:
   - <<: *scheduled-update

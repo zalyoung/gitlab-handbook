@@ -15,9 +15,9 @@ Enabling feature flags can be done via ChatOps. Before you can use ChatOps, you 
 Once the request has been received via a support ticket:
 
 1. If the feature flag issue does not already say it can be enabled for customers, comment on the feature flag issue to confirm that the product and development teams are comfortable with Support turning on the feature flag for customers.
-1. Add the customer's Account Owner/Customer Success Manager found in ZendDesk as a CC on the ticket so that they are aware of the request.
+1. Add the customer's Account Owner/Customer Success Manager found in Zendesk as a CC on the ticket so that they are aware of the request.
 1. Run the appropriate [ChatOps command](#chatops) to enable it.
-1. Once enabled, add an internal comment with:
+1. Once enabled, add an internal comment on the feature flag issue with:
 
 - A screenshot of the chatops response on the feature flag issue. This should include the group, project, or user that the feature flag is scoped to.
 - The relevant zendesk ticket.

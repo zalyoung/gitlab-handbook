@@ -65,7 +65,7 @@ People with the S (Supporter) personality type tend to be "calm, patient and res
 - I have many strong opinions, but they're [weakly held](https://blog.codinghorror.com/strong-opinions-weakly-held/). I love finding a new perspective that makes me change my opinion, because it means that I've gotten a chance to learn something substantive and new. This also means that I expect my working style will evolve over time.
 - When scheduling a meeting, please share an agenda beforehand (unless it is a coffee chat). I like to be able to come prepared to discuss the topics and have issues/MRs or announcements pulled up for reference.
 - If I have a recommendation backed up by experience or people ops/compliance knowledge, I am happy to speak up.
-- I want to earn your trust. I want to allow you the space to take risks, be vulnerable with me, and also tell me when I could be doing something better. [Psychological safety]({{< ref "psychological-safety" >}}) is extremely important to me.
+- I want to earn your trust. I want to allow you the space to take risks, be vulnerable with me, and also tell me when I could be doing something better. [Psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) is extremely important to me.
 - Partnerships are invaluable. Life is more fun with community, working together to achieve common goals.
 
 ### My Availability

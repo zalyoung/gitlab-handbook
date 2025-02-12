@@ -214,4 +214,4 @@ There is capacity to do this, but further research is needed to understand the a
 
 ## For those who used a GitLab personal account when onboarded, what happens at offboarding?
 
-For users who started prior to 2020-03-23, they are removed from GitLab groups. When offboarding happens, your Okta account and related accounts is Deactivated.
+For users who started prior to 2020-03-23, they are removed from GitLab groups. When offboarding happens, your Okta account and related accounts are deactivated.

@@ -197,4 +197,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})
+- Parent Policy: [Information Security Policy](_index.md)

@@ -69,11 +69,11 @@ The following workflows will guide you on how to search Kibana and/or Sentry for
 
 #### Searching Kibana
 
-See the [500-specific section in the Kibana]({{< ref "kibana#searching-kibana-for-500-level-errors" >}}) workflow.
+See the [500-specific section in the Kibana](/handbook/support/workflows/kibana#searching-kibana-for-500-level-errors) workflow.
 
 #### Searching Sentry
 
-See the [Sentry workflow]({{< ref sentry >}}).
+See the [Sentry workflow](/handbook/support/workflows/sentry).
 
 A video walkthrough of investigating 500 errors using Kibana and Sentry can be seen [here](https://youtu.be/o02t3V3vHMs) (GitLab Unfiltered).
 

@@ -214,7 +214,7 @@ You cannot search for race or gender on LinkedIn, but you can search for associa
 
 #### Pitch Pages
 
-Pitch Pages are a [Guide]({{< ref "interviewing#guide" >}})-like experience, intended for prospective candidates that have yet to dive into learning about the experience of working at GitLab, or for current candidates who are in the process and interested in learning more. Pitch Pages are a great sourcing tool aimed to help convert a prospect into a true candidate, or to provide more insight about our company for those currently in the process.
+Pitch Pages are a Guide-like experience, intended for prospective candidates that have yet to dive into learning about the experience of working at GitLab, or for current candidates who are in the process and interested in learning more. Pitch Pages are a great sourcing tool aimed to help convert a prospect into a true candidate, or to provide more insight about our company for those currently in the process.
 
 To help form a strong and meaningful relationship with both passive and active candidates, Recruiters can leverage a unique Pitch Page built specific to their departments including Sales, Engineering, UX, G&A, Product, or our General Pitch Page. Pitch Pages will highlight GitLab's achievements, life at GitLab, our values, culture, benefits, and working on a specific team! Recruiters may choose to send the Pitch Page via Inmails, LinkedIn messages or use it in any strategy for sourcing by sharing this [link](https://app.guide.co/p/c462b99a-d4a6-4246-9e5c-e4232c7bd958) with candidates.
 
@@ -235,7 +235,7 @@ If a former GitLab team member is identified by the Hiring Manager, Recruiter, o
 
 If you are a Hiring Manager on a open role, your recruiter will partner with you to ensure you have a good action plan for building a passive candidate pool for your role.
 
-Sourcing vs. Referrals: If you **know** a candidate from school, previous companies, seminars... even among your neighbors or family members - the best next step is to submit them as a referral by creating an `Issue` in the [Referrals Project](https://gitlab.com/gl-talent-acquisition/referrals/-/issues/new?issuable_template=Referral%20Submission). More information about the **Referrals** can be found on the [Referral Process]({{< ref "referral-process" >}}) page.
+Sourcing vs. Referrals: If you **know** a candidate from school, previous companies, seminars... even among your neighbors or family members - the best next step is to submit them as a referral by creating an `Issue` in the [Referrals Project](https://gitlab.com/gl-talent-acquisition/referrals/-/issues/new?issuable_template=Referral%20Submission). More information about the **Referrals** can be found on the [Referral Process](/handbook/hiring/referral-process/) page.
 
 For anyone that you **do not** have a personal relationship with, please add them as a *Prospect* in Greenhouse. Talent Acquisition will be able to engage prospects during the interview process by leveraging information in Greenhouse.
 
@@ -266,7 +266,7 @@ You can go on YouTube and search for candidates who have spoken at seminars or p
 When you have identified someone as a good potential candidate, send their
 profile along with any requested information to the TA member so they can reach out to
 the candidate and add them to Greenhouse. You can check the Talent Acquisition alignment
-[here]({{< ref "recruiting-alignment" >}}).
+[here](/handbook/hiring/recruiting-alignment/).
 
 If you want to reach out to a sourced candidate directly, you should discuss your communication strategy with your
 recruiting partner beforehand in order to avoid duplication and/or poor candidate experience.

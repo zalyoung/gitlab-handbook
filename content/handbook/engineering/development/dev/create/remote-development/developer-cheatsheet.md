@@ -12,7 +12,7 @@ description: Helpful information for developers on the Editor team.
 ### gitlab-org/gitlab
 
 - `gdk start`
-( `gdk doctor`
+- `gdk doctor`
 - `bin/rake frontend:fixtures`
 - Running tests:
   - `yarn karma`

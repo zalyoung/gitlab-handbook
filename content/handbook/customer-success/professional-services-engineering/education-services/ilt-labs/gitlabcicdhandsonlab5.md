@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Investigating Broken Pipelines"
 description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD pipelines"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Syntax error catching
@@ -145,9 +147,9 @@ To test if this fixes the error:
 
 1. Select **Build > Pipelines** from the left sidebar.
 
-1. Select **Run pipeline**.
+1. Select **New pipeline**.
 
-1. Leave all values as default and select **Run pipeline** again. You will now see the job complete successfully!
+1. Leave all values as default and select **New pipeline** again. You will now see the job complete successfully!
 
 ## Lab Guide Complete
 

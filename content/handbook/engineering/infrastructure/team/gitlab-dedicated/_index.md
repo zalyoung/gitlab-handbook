@@ -218,7 +218,7 @@ When it is necessary to refer to a specific customer we use the following guidel
 
 | Use Case                               | Example                                                                    | Process                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Internal Communication & Collaboration | Slack conversations                                                        | <ul><li>Use the customer name</li></ul> |
+| Internal Communication & Collaboration | Slack conversations, RFH (Request for Help) issues | <ul><li>Use the customer name</li></ul> |
 | Public Collaboration | Collaboration on issues, including SIRT issues, epics and recorded calls   | <ul><li>Avoid using the customer name publicly. Instead use internal notes, or provide an accessible internal link to aid the identification - remember that not everyone has access to Switchboard</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
 | Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
 
@@ -390,9 +390,11 @@ Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
-    1. Brief update for each of these three areas:
+    1. Brief update for each of these four areas:
+        1. Indicate project [Health Status by label](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels).
+        1. Briefly highlight project status.
+        1. Indicate progress items since the last update.
         1. Indicate any project blockers.
-        1. Briefly highlight progress since the last update.
         1. Indicate planned next steps, or mitigations required to progress. This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
     1. If the DRI for a sub-epic is different than the epic DRI, the epic DRI is responsible for getting updates from the sub-epic DRI.
     1. **Update Workflow and Health label** - After each status update, the Workflow label and Health label should be updated. See [Epic labels criteria](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels)

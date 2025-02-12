@@ -13,28 +13,28 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 
 ## Entity Benefits
 
-- [GitLab BV (Netherlands)]({{< ref "bv-benefits-netherlands" >}})
-- [GitLab BV (Belgium)]({{< ref "bv-benefits-belgium" >}})
-- [GitLab BV (Finland)]({{< ref "bv-benefits-finland" >}})
-- [Global Upside (India)]({{< ref "global-upside-benefits-india" >}})
-- [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
-- [GitLab LTD (UK)]({{< ref "ltd-benefits-uk" >}})
-- [GitLab GmbH (Germany)]({{< ref "gmbh-germany" >}})
-- [GitLab PTY (Australia & New Zealand)]({{< ref "pty-benefits-australia" >}})
-- [GitLab Canada Corp]({{< ref "canada-corp-benefits" >}})
-- [GitLab GK (Japan)]({{< ref "gitlab-gk" >}})
-- [GitLab Ireland LTD]({{< ref "gitlab-ireland-ltd" >}})
-- [GitLab Korea LTD]({{< ref "korea-ltd-benefits" >}})
-- [GitLab France S.A.S.]({{< ref "france-sas" >}})
-- [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
+- [GitLab BV (Netherlands)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/)
+- [GitLab BV (Belgium)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/)
+- [GitLab BV (Finland)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland/)
+- [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
+- [GitLab Inc (US)](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/)
+- [GitLab LTD (UK)](/handbook/total-rewards/benefits/general-and-entity-benefits/ltd-benefits-uk/)
+- [GitLab GmbH (Germany)](/handbook/entity/gmbh-germany/)
+- [GitLab PTY (Australia & New Zealand)](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/)
+- [GitLab Canada Corp](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/)
+- [GitLab GK (Japan)](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-gk/)
+- [GitLab Ireland LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-ireland-ltd/)
+- [GitLab Korea LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/korea-ltd-benefits/)
+- [GitLab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
+- [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
-- [Papaya Global (Italy)]({{< ref "papaya-global" >}})
-- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)]({{< ref "global-expansion" >}})
+- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
+- [Papaya Global (Italy)](/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global/)
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
 
 ### Benefits Available to Contractors
 
-Contractors of GitLab IT BV are eligible for the [general benefits]({{< ref "benefits" >}}), but are not eligible for entity specific benefits. A contractor may bear the costs of their own health insurance, social security taxes, payroll administration, or tax details.
+Contractors of GitLab IT BV are eligible for the [general benefits](/handbook/total-rewards/benefits/), but are not eligible for entity specific benefits. A contractor may bear the costs of their own health insurance, social security taxes, payroll administration, or tax details.
 
 Our contractor agreements and employment contracts are all on the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
@@ -62,7 +62,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
       - In Linux, use the Xournal app's pen tool to draw the signature.
       - Use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); Please beware that there are always security concerns with tools that require uploading personal data. So, you may want to do this as a last resort only.
     - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
-  - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000]({{< ref "compensation#exchange-rates" >}}).
+  - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## HealthKick Well-being Platform & Discounts
 
@@ -81,11 +81,11 @@ If team members have any questions about this service or would like to cancel th
 
 ## Financial Wellness
 
-GitLab offers resources related to [Financial Wellness]({{< ref "financial-wellness" >}}) to support team members in their financial journey.
+GitLab offers resources related to [Financial Wellness](/handbook/total-rewards/benefits/general-and-entity-benefits/financial-wellness/) to support team members in their financial journey.
 
 ## Paid Time Off
 
-GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}) applicable to vacations up to 25 consecutive calendar days off.
+GitLab has a "Flexible PTO policy" [time off policy](/handbook/people-group/paid-time-off/) applicable to vacations up to 25 consecutive calendar days off.
 
 ## Growth and Development Fund
 
@@ -93,11 +93,11 @@ GitLab supports team members who wish to continue their education and growth wit
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) handbook page covers information on the application process and the different types of expenses that are eligible for reimbursement.
+The [Growth and Development](/handbook/people-group/learning-and-development/growth-and-development/) handbook page covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## Modern Health - Mental Health Benefit
 
-GitLab offers Mental Health Support through therapy and coaching sessions to all team members via [Modern Health]({{< ref "modern-health" >}}).
+GitLab offers Mental Health Support through therapy and coaching sessions to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health/).
 
 ## Vivvi Caregiving Benefits
 
@@ -242,7 +242,7 @@ You don't have to take your Parental Leave in one continuous period, we encourag
 
 ### Taking PTO After Taking Parental Leave
 
-If you need to take more time off after Parental Leave, you may utilize GitLab's [Paid Time Off policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) with manager coordination. This time off should be discussed with your Manager following the same reporting guidelines outlined in the PTO policy (double the amount of notice as the amount requested), but if business critical deadlines will be missed your Manager may ask you to change the dates.
+If you need to take more time off after Parental Leave, you may utilize GitLab's [Paid Time Off policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) with manager coordination. This time off should be discussed with your Manager following the same reporting guidelines outlined in the PTO policy (double the amount of notice as the amount requested), but if business critical deadlines will be missed your Manager may ask you to change the dates.
 
 Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
@@ -250,7 +250,7 @@ Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
 <summary>How to Initiate Your Parental Leave</summary>
 
-Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
+Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) (if any).
 
 **30 days prior to the start of your leave** Enter your Parental Leave into Workday by selecting the `Parental Leave` option under the `Leaves` dropdown menu. We understand the Parental Leave dates may change, so you can edit the dates in Workday as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
 
@@ -348,7 +348,7 @@ It can be helpful to connect with other team members who are parents or caregive
 - Expecting parents sign up for the program before they start their Parental Leave. (If you decide you would like to participate in this program while on leave that is ok too!)
 - Barbara (from [Your 4th Trimester](https://drive.google.com/file/d/1NOkpt1oBruKunt3IdR6bQuvR0P2ht6Tg/view)) will start working with the team member prior to their leave and 30 days before the end of their Parental Leave
 - To apply for this coaching program, please notify Total Rewards that you would like to participate in the program by sending an email to growth-development@gitlab.com
-- Note the program cost is funded within your [Growth and Development](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) benefit
+- Note the program cost is funded within your [Growth and Development](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund) benefit
 
 #### Tips for a smoother transition
 
@@ -387,9 +387,9 @@ To alleviate the stress associated with returning to work after parental leave, 
 
 This provides space for a team member to test out life adjustments and iterate further without feeling overwhelmed by a full workload. For instance, if a prearranged daycare solution turns out to be suboptimal, this 50% capacity window empowers a parent to iterate — to find a different solution with the air cover at work to put in the appropriate amount of research and care.
 
-Parents at GitLab who are reentering work following parental leave are encouraged to read the [Team Member Tool Kit]({{< ref "parental-leave-toolkit#team-member-tool-kit" >}}) and to reach out to team members who self-designate as a [Parental Leave Reentry Buddy]({{< ref "parental-leave-toolkit#parental-leave-reentry-buddies" >}}).
+Parents at GitLab who are reentering work following parental leave are encouraged to read the [Team Member Tool Kit](/handbook/total-rewards/benefits/parental-leave-toolkit/#team-member-tool-kit) and to reach out to team members who self-designate as a [Parental Leave Reentry Buddy](/handbook/total-rewards/benefits/parental-leave-toolkit/#parental-leave-reentry-buddies).
 
-Managers of soon to be parents should check out this [Parental Leave Manager Tool Kit]({{< ref "parental-leave-toolkit#manager-tool-kit" >}}) for best practices in supporting your team members as they prepare for and return from Parental Leave.
+Managers of soon to be parents should check out this [Parental Leave Manager Tool Kit](/handbook/total-rewards/benefits/parental-leave-toolkit/#manager-tool-kit) for best practices in supporting your team members as they prepare for and return from Parental Leave.
 
 If you're interested in learning about how other GitLab team members approach parenthood, take a look at [the parenting resources wiki page](https://gitlab.com/gitlab-com/gitlab-team-member-resources/wikis/parenting) and [#intheparenthood](https://gitlab.slack.com/messages/CHADS8G12/) on Slack.
 

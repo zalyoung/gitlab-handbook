@@ -176,7 +176,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q3 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: September
-1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
+1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
 1. Go-to-market (**GTM**) learnings
 1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year (1.5 hrs)
 1. **Org** design
@@ -184,7 +184,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q4 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: January
-1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets
+1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets
 1. Product **Roadmap** including competitive differentiation
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
 1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
@@ -230,7 +230,7 @@ Examples of prep work include:
 - Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 - Reviewing any Section Direction Materials for reviews, such as the [Growth Section's Direction](/handbook/marketing/growth/)
 - Executives propose [draft Key Results for their functions](/handbook/company/okrs/#executives-propose-okrs-for-their-functions)
-- [Watch this short clip on the danger of sticky bears]({{< ref "beware-sticky-bears" >}})
+- [Watch this short clip on the danger of sticky bears](/handbook/company/offsite/beware-sticky-bears/)
 
 Anyone who is presenting for a topic should share materials with the prep work.
 
