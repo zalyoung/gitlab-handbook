@@ -95,7 +95,7 @@ If your analytics needs for your new or recently modified feature are met by the
    **Owner: Product Manager**
    - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
    - Ensure proposed event properties align with analytics requirements
-   - Tag your [assigned product analyst](https://handbook.gitlab.com/handbook/product/groups/product-analysis/#team-members) for review
+   - Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) for review
 
 1. Implement Tracking
    **Owner: Engineer**
