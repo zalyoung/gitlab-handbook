@@ -35,6 +35,7 @@ Focus areas:
 
 1. Bridge Cultural Differences Across your Organization
 1. Communicate Powerfully Around Change
+
 Note: Session availability may vary. As demand increases, more sessions will become available. Spanning H1 allows enough time for all people leaders to find dates and times that work. Hone is aware of this H1 focus and will support accommodating session availability as needed. Each of these workshops is 60 minutes.
 
 ### H2 Program (August - December 2024)
