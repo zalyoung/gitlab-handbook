@@ -28,13 +28,13 @@ If you use `brew` or a package manager, it can keep your [software updated autom
 - [Vendor Docs - VS Code](https://code.visualstudio.com/docs/setup/setup-overview#_update-cadence)
 - [Vendor Docs - Zoom](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060716)
 
-## Nudge Reminders
+## Nudge for macOS Updates
 
 This is a placeholder.
 
-# Third Party Software Deployment and Patching
+## Third Party Software Deployment and Patching
 
-## New System Deployment
+### New System Deployment
 
 When a new macOS device completes enrollment, we automatically deploy our most commonly used applications through [Installomator](https://github.com/Installomator/Installomator). This process should kickoff within five minutes of when the team member reaches their Desktop for the first time.
 
@@ -43,11 +43,13 @@ When a new macOS device completes enrollment, we automatically deploy our most c
 1. The team member completes their initial account setup via Okta login and selected Setup Assistant panes, which include Location Services, Accessibility, Touch ID enrollment, and Light/Dark appearance selection.
 1. Upon first Desktop access, Installomator should automatically launch within five minutes.
 1. Installomator performs two primary functions:
-  - Installs our most commonly used applications (1Password, Google Chrome, Slack, Zoom)
-  - Optimizes the Dock configuration
+  1. Installs our most commonly used applications (1Password, Google Chrome, Slack, Zoom)
+  1. Optimizes the Dock configuration
 1. Once Installomator finishes the installation process, the user clicks "Done" in the Installomator interface to exit.
 1. The system will prompt the team member to logout, and then will initiates an automatic restart.
 1. The restart completes the setup process, including prompting the team member to enable FileVault.
+
+<img src="/images/security/corporate/services/laptops/security/updates/installomator-onboarding.png" alt="Installomator Notification" width="400">
 
 This automated approach ensures consistent application deployment across all newly enrolled macOS devices while minimizing manual intervention.
 
