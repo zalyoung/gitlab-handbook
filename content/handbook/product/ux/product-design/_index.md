@@ -136,7 +136,7 @@ Great design requires both a strategic vision and tactical execution. This means
 - Planning designs in phases, with each phase delivering user value and contributing to the broader vision.
 - Reviewing progress regularly to ensure that iterations are moving the design in the right strategic direction.
 
-----
+---
 
 ### Product Designer Tools
 
@@ -162,7 +162,7 @@ Product Designers adhere to the [Product Development flow](/handbook/product-dev
 - [Contributing to Pajamas](https://design.gitlab.com/get-started/contributing/)
 - [Designing with AI](/handbook/product/ux/product-designer/#designing-with-ai)
 
-New GitLab Product Designers should refer to the [Product Designer Workflow handbook page](/handbook/ux/product-design/workflow/) for a comprehensive guide to getting started.
+New GitLab Product Designers should refer to the [Product Designer Workflow handbook page](/handbook/product/ux/product-designer/) for a comprehensive guide to getting started.
 
 ## Product Design Management Workflow
 
