@@ -117,7 +117,7 @@ As a first step for adapter training, the user would select a project or a colle
 The configuration page will allow the user to:
 
 - Confirm the projects and select the file types for which the adapter will be trained
-- Configure where the data will be stored
+- Configure where the data will be stored and provide necessary keys (if stored remotely)
 - Configure where the adapters weights will be stored
 - Change the hyperparameters via sliders or fields (the sensitive defaults will be provided by us)
 
@@ -135,17 +135,23 @@ The container will be published in the GitLab Container Registry and DockerHub o
 
 Once the fine-tuning pipeline is triggered and service has been deployed, it would start with preparing the data.
 
-The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk based on the provided configuration.
+The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk based on the provided configuration. The data could be stored either locally or on third-party storage solution (i.e. AWS S3), as long as it is supported and accessible by the fine-tuning service.
+
+At the initial version of the service we will support local storage and AWS S3.
 
 #### Adapter Training
 
-Once the data is ready, the next step in the pipeline is to train an adapter for the given data. The fine-tuning service would fetch the data and use that data as the basis for training. The user would be provided with the feedback on the training, such as evalution and training performance and the remaining time.
+Once the data is ready, the next step in the pipeline is to train an adapter for the given data and provided configuration. The fine-tuning service would fetch the data and use that data as the basis for training. The user would be provided with the feedback on the training, such as evalution and training performance and the remaining time.
+
+The fine-tuned service will be written using well-known HuggingFace libraries and PyTorch and the weights will be stored in the widely accepted and used HuggingFace format.
 
 #### Fine-tuned Model Evaluation
 
 Once the adapter is trained, the next step in the pipeline would evaluate it in terms of the overall performance and responses. 
 
-The evaluation step would use a validation dataset to test the fine-tuned model and present the results to the customer. 
+The evaluation step would use a small random sample from validation dataset to test the fine-tuned model and present the results to the customer. 
+
+Under the hood, the evaluation service will deploy a newly fine-tuned model using vLLM and HuggingFace libraries and run the model on the prompts from the validation datasets. The model's outputs will then be evaluated against the ground truth responses using [Cosine Embedding Distance](https://python.langchain.com/v0.1/docs/guides/productionization/evaluation/string/embedding_distance/).
 
 ### Inference
 
@@ -179,13 +185,15 @@ flowchart LR
 
 Once the task-specific adapters are trained, customers would need to host their base model and trained LoRAs using vLLM.
 
-vLLM supports hosting and inference of base model and LoRAs out-of-the-box, requiring the user to simply provide the paths to the base model and its adapters.
+vLLM supports hosting and inference of base model and LoRAs out-of-the-box. To deploy the base model with its adapters, the user would need to provide the paths to the stored adapter's weights.
 
-Once running, the customer could fetch a specific LoRA by specifying the adapter's name in the API request to vLLM.
+To trigger the inference with a specific adapter, the customer could specify the adapter's name in the API request to vLLM. The vLLM will do all the heavy lifting behind the scene, by loading and merging the adapter weights into the base model.
 
 #### Fine-tuned Model and UI during the Inference
 
-As discussed in the training section above, each adapter is trained for either a project or a collection of projects. Once trained, the user could select which adapter to use for which project in the UI. By default, each project would be assigned a base model.
+Each adapter could be used with either a single project or a collection of projects. It is also true that one project could use several adapters at the same time. The UI will provide a way for the user to select which adapter to use for which project. The UI will also inform the user which adapters were trained for which project. By default, each project would be assigned a base model.
+
+During the feature request the configured model will be used for the inference by the backend.
 
 ## Technical Details and Early results
 
