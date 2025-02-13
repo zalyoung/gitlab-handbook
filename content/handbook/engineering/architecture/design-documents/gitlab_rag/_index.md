@@ -19,6 +19,53 @@ across deployment types. The aim is to describe RAG implementations that provide
 our AI features–and by extension our customers–with best-in-class user
 experiences.
 
+## Status of RAG at GitLab
+
+### RAG for Duo Chat
+
+[Gitlab Duo RAG blueprint](../gitlab_duo_rag/_index.md)
+
+**Implemented:**
+
+Duo chat uses [Vertex AI Search](vertex_ai_search.md) to store and retrieve embeddings for GitLab documentation question-answering.
+
+> Released in %17.0.
+
+**Deprecated:**
+
+Duo chat initially used [Postgres with PGVector extension](postgresql.md) for GitLab documentation question-answering but was deprecated in favour of Vertex AI Search.
+
+> Released in %16.0, deprecated in %17.0.
+
+**Proposed:**
+
+Once the [AI Context Abstraction layer](#ai-context-abstraction-layer) is complete, Duo documentation embeddings should be moved over to the framework and Vertex AI Search deprecated.
+
+### RAG for Search features
+
+**Implemented:**
+
+The Global Search feature uses [Elasticsearch](elasticsearch.md) to store and retrieve embeddings for hybrid issues and epics search. OpenSearch is also supported.
+
+> Released in %17.6.
+
+### AI Context Abstraction Layer
+
+[AI Context Abstraction layer blueprint](../ai_context_abstraction_layer/_index.md)
+
+**Ongoing:**
+
+The abstraction layer is in development and will support embedding storage and retrieval for GitLab data.
+
+The following vector stores will be supported and customers can choose which one to use:
+- [Elasticsearch](elasticsearch.md)
+- [OpenSearch](./elasticsearch.md)
+- [Postgres with PGVector extension](postgresql.md)
+
+Development teams will be able to self-serve managing embeddings for the features they own.
+
+Progress can be followed in the [epic](https://gitlab.com/groups/gitlab-org/-/epics/16008).
+
 ## Overview of RAG
 
 RAG, or Retrieval Augmented Generation, involves several key process blocks:
