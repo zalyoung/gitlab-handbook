@@ -1,23 +1,23 @@
 ---
-title: "Partner Technical Enablement Specialist"
+title: "Practice Engineer, Partner Enablement"
 description: "The GitLab Global Services Practice Management team defines and matures the consulting services offered by the GitLab Global Services and Partner organizations."
 ---
 
-The GitLab Global Services Practice Management team defines and matures the consulting services offered by GitLab Global Services and Partner organizations with a focus on creating long-term success for our customers. The Partner Technical Enablement Specialist plays a pivotal role in ensuring our service partners have the necessary technical skills and knowledge to effectively implement, integrate, and support our software solutions. You will be responsible for designing and delivering technical tools, technical training programs, creating technical documentation and best practices, and providing hands-on support to our partner network to drive technical excellence.
+The GitLab Global Services Practice Management team defines and matures the consulting services offered by GitLab Global Services and Partner organizations with a focus on creating long-term success for our customers. The Practice Engineer, Partner Enablement plays a pivotal role in ensuring our service partners have the necessary technical skills and knowledge to effectively implement, integrate, and support our software solutions. You will be responsible for designing and delivering technical tools, technical training programs, creating technical documentation and best practices, and providing hands-on support to our partner network to drive technical excellence.
 
 To learn more about Professional Services, see the [Professional Services handbook page](/handbook/customer-success/professional-services-engineering)
 
 ## Level
 
-### Intermediate Partner Technical Enablement Specialist
+### Intermediate Practice Engineer, Partner Enablement
 
-The Intermediate Partner Technical Enablement Specialist reports to Sr. Manager of Practice Development.
+The Intermediate Practice Engineer, Partner Enablement reports to Sr. Manager of Practice Development.
 
-#### Intermediate Partner Technical Enablement Specialist Job Grade
+#### Intermediate Practice Engineer, Partner Enablement Job Grade
 
-The Intermediate Partner Technical Enablement Specialist is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Intermediate Practice Engineer, Partner Enablement is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Intermediate Partner Technical Enablement Specialist Responsibilities
+#### Intermediate Practice Engineer, Partner Enablement Responsibilities
 
 - Technical Training Development & Delivery: Deliver comprehensive technical training programs (both virtual and in-person) for partners, covering installation, configuration, customization, and troubleshooting of our software products. Contribute to or iterate on existing training programs.
 - Enablement Resources & Content Creation: Develop technical enablement assets in close cooperation with other Practice Management team members, such as guides, how-to videos, certification exams, and hands-on labs to empower partners at different technical skill levels.
@@ -32,7 +32,7 @@ The Intermediate Partner Technical Enablement Specialist is a [grade 6](/handboo
 - Identify and act on opportunities to improve the customer experience through innovative services/training offerings.
 - Tracks and reports success metrics for partner enablement initiatives.
 
-#### Intermediate Partner Technical Enablement Specialist Requirements
+#### Intermediate Practice Engineer, Partner Enablement Requirements
 
 - Knowledge and familiarity with the Software Development Life Cycle, DevOps, and DevSecOps required (open source software knowledge and familiarity considered a plus).
 - Technical Background: Technical background with hands-on experience in software implementation, support, or consulting.
@@ -50,15 +50,15 @@ The Intermediate Partner Technical Enablement Specialist is a [grade 6](/handboo
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Highly determined to learn new things, including GitLab
 
-### Senior Partner Technical Enablement Specialist
+### Senior Practice Engineer, Partner Enablement
 
-The Senior Partner Technical Enablement Specialist reports to Sr. Manager of Practice Development.
+The Senior Practice Engineer, Partner Enablement reports to Sr. Manager of Practice Development.
 
-#### Senior Partner Technical Enablement Specialist Job Grade
+#### Senior Practice Engineer, Partner Enablement Job Grade
 
-The Senior Partner Technical Enablement Specialist is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Practice Engineer, Partner Enablement is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Partner Technical Enablement Specialist Responsibilities
+#### Senior Practice Engineer, Partner Enablement Responsibilities
 
 - Technical Training Development & Delivery: Create and deliver comprehensive technical training programs (both virtual and in-person) for partners, covering installation, configuration, customization, and troubleshooting of our software products.
 - Enablement Resources & Content Creation: Develop technical enablement assets such as guides, how-to videos, certification exams, and hands-on labs to empower partners at different technical skill levels. Create the roadmap for strategic initiatives, identify new enablement opportunities, and influence the overall partner enablement strategy.  Create Standardized delivery tools for internal and external use.
@@ -74,7 +74,7 @@ The Senior Partner Technical Enablement Specialist is a [grade 7](/handbook/tota
 - Defines success metrics for partner enablement initiatives, analyzes trends, and makes data-driven recommendations for program improvements.
 - Mentor other members of the team, providing guidance on complex technical issues and help develop best practices.
 
-#### Senior Partner Technical Enablement Specialist Requirements
+#### Senior Practice Engineer, Partner Enablement Requirements
 
 - Knowledge and familiarity with the Software Development Life Cycle, DevOps, and DevSecOps required (open source software knowledge and familiarity considered a plus).
 - Technical Background: Strong technical background with hands-on experience in software implementation, support, or consulting.
