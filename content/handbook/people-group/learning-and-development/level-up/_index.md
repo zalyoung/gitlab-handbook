@@ -2,7 +2,11 @@
 title: Level Up
 ---
 
-## Welcome to Level Up
+## Leveling Up Level Up!
+
+**TEASER:** Get ready for HUGE changes coming to learning technology for GitLab team members! We are upgrading the technology solution that powers Level Up to better support the pace, demand, complexity, and CULTURE of GitLab. This overhaul will allow team members to engage around learning in a COMPLETELY different way. Learning today goes way beyond self-paced content, far passed webinars, leaps above documents; learning is much much more. And GitLab's new "**LevelUp**" (integrated talent EXPERIENCE platform) will show you just how dynamic learning, growth, skills development, and performance can go. Consider this page your LevelUp information highway. Over the coming weeks, you'll see updates, announcements, and rollout plans here.
+
+## (LEGACY) Level Up
 
 This handbook page is meant to support both learners and administrators in Level Up. Thought Industries is the provider of the Level Up platform and is mentioned often in this documentation.
 
