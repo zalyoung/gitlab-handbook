@@ -25,11 +25,120 @@ As Product Designers, we are entrusted with the authority of **design judgment**
 
 In cases where our counterparts have differing opinions, we consider their perspectives but hold the final say on design decisions as we are the ultimate guardians of design judgment.
 
-### Design Principles and Tools
+### Design Principles
 
-Our [design principles](https://design.gitlab.com/get-started/principles/) are outlined in the Pajamas Design System.
+#### Strive for Simplicity
 
-Product Designer Tools
+**Simplify complexity without sacrificing functionality.**
+
+Simplicity means creating effortless user experiences—even when solving complex problems. It requires identifying and distilling essential functionality while eliminating unnecessary complexity.
+
+**How we achieve this**
+
+- Deep Understanding of Complexity: Recognize the underlying complexities of user workflows, technical constraints, and business needs.
+- Clarity and Focus: Eliminate ambiguity, reduce cognitive load, and ensure designs communicate a clear purpose.
+- Functionality Over Frills: Simplify designs without compromising essential features or user goals.
+- Seamless Integration: Place capabilities where they are expected and needed, rather than relying on visual indicators to compensate for a lack of intuitive design.
+- Iterative Refinement: Continuously test and refine designs to ensure simplicity is achieved without sacrificing functionality.
+- Empowering Users: Enable users to achieve their goals efficiently by providing straightforward pathways and intuitive interactions.
+
+**What it looks like in practice**
+
+- Creating concise interfaces that guide users effortlessly.
+- Applying progressive disclosure to show the right amount of information at the right time.
+- Using the Pajamas Design System to maintain consistency and clarity.
+- Reducing the number of steps or interactions to only what is essential for completing the task.
+- Ensuring that new features are usable by design, rather than relying on indicators to make them noticeable.
+
+#### Embrace Rigor in Design Methods
+
+**Follow structured, repeatable processes to ensure consistency, quality, and informed decisions.**
+
+Rigor in design means committing to structured, repeatable processes to ensure consistency, quality, and thoughtful decision-making. This includes leveraging established frameworks, design principles, and data to guide work.
+
+**How we achieve this**
+
+- Consistency: Following defined workflows, such as research, ideation, prototyping, testing, and iteration.
+- Framework-Driven Design: Applying established methodologies such as, journey mapping, JTBD, and other conventional approaches to guide decision-making.
+- Data-Informed Decisions: Incorporating insights from user research, analytics, and feedback to validate and refine designs.
+- Documentation and Transparency: Clearly documenting design decisions, assumptions, and processes to support collaboration and accountability.
+- Continuous Improvement: Regularly reviewing processes and outputs to identify areas for enhancement.
+
+**What it looks like in practice**
+
+- Conducting structured user research before initiating design work.
+- Defining experiment criteria, success, failure, duration, etc., prior to running experiments.
+- Utilizing JTBD or journey mapping frameworks to map user needs and goals.
+- Performing regular design critiques and MR reviews to uphold quality.
+- Maintaining detailed documentation to ensure clarity and transparency.
+
+#### Lead with User Insights
+
+**Put user needs at the center of every decision with continuous research and advocacy.**
+
+Great design starts with a deep understanding of users—their pain points, behaviors, and goals. Insights, not assumptions, should drive decisions.
+
+**How we achieve this**
+
+- Continuous Research: Invest time in user interviews, surveys, usability tests, and analytics to maintain an up-to-date understanding of user needs.
+- User Advocacy: Act as a champion for users in meetings, reviews, and planning sessions, ensuring their needs and pain points are considered.
+- Evidence-Based Decisions: Ground design choices in real user data rather than assumptions or subjective opinions.
+- Empathy and Curiosity: Foster a culture of empathy and curiosity to deeply understand users’ motivations, goals, and challenges.
+- Visibility of Insights: Share research findings widely to ensure the entire team and stakeholders understand the users’ perspective.
+
+**What it looks like in practice**
+
+- Starting every project with a clear understanding of user needs, documented in a structured statement.
+- Regularly conducting usability tests and integrating findings into design iterations.
+- Creating assets such as journey maps through research initiatives to keep the user top of mind.
+
+#### Design for Meaningful Impact
+
+**Prioritize work that drives the most value for users and the business.**
+
+Focusing on high-impact work ensures that design efforts create real, measurable outcomes instead of surface-level improvements. This requires aligning efforts with clear goals, focusing on what delivers the most value, and measuring success through tangible results.
+
+**How we achieve this**
+
+- Prioritization of Value: Identify and focus on projects that will have the highest impact on user satisfaction, efficiency, and reliability.
+- Alignment with Goals: Ensure design initiatives align with business goals, and user needs.
+- Outcome-Oriented Thinking: Define what success looks like for each project and use metrics to measure progress and results.
+- Holistic Solutions: Address root causes of user problems rather than just surface-level symptoms.
+- Measurable Results: Track the impact of design work through UX metrics like USAT scores, task completion rates, and usability scores.
+
+**What it looks like in practice**
+
+- Acknowledge that all work is necessary: 
+  - **Low Impact:** Routine or minor tasks such as chores, non-urgent activities, and small requests. Minimize time spent on these by delegating when possible or politely declining to stay focused on higher priorities.
+  - **Supportive:** Essential but secondary tasks that enable progress, such as MR reviews, answering questions, and facilitating discussions. Streamline these activities and allocate time efficiently to maintain smooth workflows without detracting from high-impact work.
+  - **High Impact:** The primary focus of your time and energy. Prioritize work that directly contributes to the company roadmap, key metrics, and strategic goals, ensuring meaningful progress and impact.
+- Defining success metrics at the start of each initiative.
+- Prioritizing design work that addresses key user pain points identified in research.
+- Regularly reviewing the impact of design changes and adjusting based on results.
+
+#### Balance Vision with Iteration
+
+**Keep the long-term vision in mind while delivering value through iterative improvements.**
+
+Great design requires both a strategic vision and tactical execution. This means keeping the long-term product vision in mind while delivering value through incremental improvements. Each iteration should be a step toward a cohesive, inspiring end-state.
+
+**How we achieve this**
+
+- Long-Term Vision: Develop a clear, aspirational vision for the product experience and use it to guide design decisions.
+- Incremental Steps: Deliver improvements in manageable iterations, ensuring each step contributes to the larger vision.
+- Continuous Feedback Loop: Gather feedback from users and stakeholders to refine the vision and iterations over time.
+- Intentional Iteration: Avoid aimless or rushed iterations; each iteration should be purposeful and build toward the ultimate goal.
+- Adaptability: Be open to refining the vision as new insights and constraints emerge.
+
+**What it looks like in practice**
+
+- Creating and referencing experience visions to guide iterative design work.
+- Planning designs in phases, with each phase delivering user value and contributing to the broader vision.
+- Reviewing progress regularly to ensure that iterations are moving the design in the right strategic direction.
+
+----
+
+### Product Designer Tools
 
 - [UX Scorecard](/handbook/product/ux/ux-scorecards/)
 - [Category Maturity Scorecard](/handbook/product/ux/category-maturity/category-maturity-scorecards/)
