@@ -250,6 +250,7 @@ to the new structure:
 **Issue**: [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
 
 In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
+
 - `page_url_path`
 
 This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
