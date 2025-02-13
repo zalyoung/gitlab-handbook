@@ -15,6 +15,42 @@ Every reviewer at GitLab must strive for our [reviewer values](/handbook/marketi
 
 ## Getting your merge request reviewed, approved, and merged
 
+### Assigning Reviewers
+
+While it's important to involve the team in the review process, assigning reviews to the entire team can lead to diffusion of responsibility and inefficiencies. This has historically been implemented so that the whole team is a reviewer for big changes. This is a way to ensure that the team has appropriate visibility into high-impact work. As the team continues to mature, we recommend the following approach (when relavant):
+
+1. For all merge requests, assign one primary reviewer for each merge request:
+
+2. For significant changes or when additional perspectives are needed:
+   - Assign the review to an additional maintainer of the project
+   - Use the `@dex-engineering` mention to notify the broader team
+   - Clearly state a due date for additional feedback (e.g., "Please provide any feedback by [date/time]")
+   - Communicate the change publicly in `#dex-engineering`
+
+3. Utilize GitLab's review features for asynchronous collaboration:
+   - Use threaded discussions for specific points
+   - Resolve threads as items are addressed
+
+Remember:
+
+- Team mentions (@dex-engineering) are for additional input, not primary review responsibility
+- Make clear who the DRI of the initiate is
+- Set clear expectations for feedback timelines to prevent delays
+
+#### Advantages 
+
+- Diffusion of responsibility: When everyone is responsible, sometimes no one feels personally accountable, which can delay reviews or result in less thorough examinations
+- Consensus vs. collaboration: Seeking consensus from an entire team for every change can slow down the development process and may not always lead to the best outcomes.
+- Reduced efficiency: It may take longer to get approvals if multiple team members need to review and agree.
+- Potential for conflicting feedback: More reviewers might lead to contradictory suggestions.
+
+#### Counterpoints
+
+- Knowledge sharing: It can help spread knowledge about the codebase and design decisions across the team.
+- Multiple perspectives: For significant changes like implementing new fonts across buyer experience, having diverse viewpoints can be valuable.
+- Collective ownership: It can foster a sense of shared responsibility for the code quality.
+- Backup reviewers: If some team members are unavailable, others can step in to prevent delays.
+
 ### Acceptance Checklist
 
 This checklist encourages the authors, reviewers, and maintainers of merge requests (MRs) to confirm changes were analyzed for high-impact risks to quality, performance, reliability, security, observability, and maintainability.
@@ -24,32 +60,32 @@ Using checklists improves quality in software engineering. This checklist is a s
 ### Checklist for Submitting a Merge Request
 
 1. Complete the Merge Request Template
-   * Prefix the merge request with `Draft:` while you are building it.
-   * Ensure all fields in the merge request template are properly filled out.
+   - Prefix the merge request with `Draft:` while you are building it.
+   - Ensure all fields in the merge request template are properly filled out.
 Provide a Comprehensive Description
-   * Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
-   * If applicable, mention any refactoring or architectural decisions made.
+   - Clearly describe what has changed, why the changes were necessary, and how they address the problem or feature request.
+   - If applicable, mention any refactoring or architectural decisions made.
 2. Link Related Issues
-   * Reference any related issues, tickets, or user stories using appropriate syntax (e.g., related #1234).
+   - Reference any related issues, tickets, or user stories using appropriate syntax (e.g., related #1234).
 Ensure the issues being referenced are correctly tagged and updated.
 3. Document Testing Instructions
-   * Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
-   * Mention any special configurations, test data, or preconditions required for testing.
-   * If automated tests are included, specify their location and how to run them.
+   - Provide clear, step-by-step instructions on how to test the changes locally or in a testing environment.
+   - Mention any special configurations, test data, or preconditions required for testing.
+   - If automated tests are included, specify their location and how to run them.
 4. Deployment Steps
-   * Detail the deployment process, including any scripts, commands, or configurations needed.
-   * Mention any dependencies or services that need to be updated or restarted.
+   - Detail the deployment process, including any scripts, commands, or configurations needed.
+   - Mention any dependencies or services that need to be updated or restarted.
 5. QA and Verification
-   * Outline the QA process, specifying which environments (e.g., local, review app, production) will be used for validation.
-   * List key scenarios and edge cases to be tested, including expected results.
+   - Outline the QA process, specifying which environments (e.g., local, review app, production) will be used for validation.
+   - List key scenarios and edge cases to be tested, including expected results.
 6. Post-Deployment Validation
-   * Provide a plan for validating the changes in the production environment post-deployment.
-   * Include any monitoring or logging to watch for potential issues.
-   * Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
+   - Provide a plan for validating the changes in the production environment post-deployment.
+   - Include any monitoring or logging to watch for potential issues.
+   - Detail a rollback plan in case of issues, specifying steps to revert the changes safely.
 7. Request Feedback and Review
-   * Remove `Draft:` from merge request title or explain why it is left in draft
-   * Tag relevant team members for code review, QA, and any other necessary approvals.
-   * Address any comments or requested changes promptly to ensure a smooth review process. The assignee is responsible for creating and tracking any follow-up issues to ensure they are completed in a timely manner.
+   - Remove `Draft:` from merge request title or explain why it is left in draft
+   - Tag relevant team members for code review, QA, and any other necessary approvals.
+   - Address any comments or requested changes promptly to ensure a smooth review process. The assignee is responsible for creating and tracking any follow-up issues to ensure they are completed in a timely manner.
 
 ## Reviewer
 
