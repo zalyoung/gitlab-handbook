@@ -43,7 +43,7 @@ The key ideas here is that this `ci_pipeline_bot` is
 1. Can be assigned a role of `developer` or `maintainer`
 1. Can only be assigned to `pipeline_schedules` and `pull_mirroring`
 1. Has no cross-project permissions
-1. Has no other token privilages, aside from the CI_JOB_TOKEN
+1. Has no other token privileges, aside from the CI_JOB_TOKEN
     1. This means it cannot generate Personal Access Tokens, Project/Group access tokens, Login, Session tokens, Deploy/Trigger tokens, etc
 1. Users can only assign this bot to the feature if they already have permission to run pipelines for that branch
 
