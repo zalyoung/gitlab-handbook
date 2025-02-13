@@ -216,22 +216,7 @@ In line with our [guidance on feedback](/handbook/people-group/guidance-on-feedb
 
 ### Talent Assessment Process
 
-Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](processes/talent-assessment/).
-
-### Annual Compensation Review
-
-The SSOT timeline for the upcoming Annual Compensation Review can be found [here](/handbook/total-rewards/compensation/compensation-review-cycle/#january). Below you will find additional dates specific to the Development department to ensure all levels have time to review as we move through the process.
-
-Phase 1 (cash only):
-
-- January 9-13 @5pm PT - Manager level finalizes comp recommendations
-- January 16-17 @5pm PT - Sr Mgr (or next level; Director in some cases) finalize comp recommendations
-- January 18-19 @5pm PT - VP, Development direct reports (Dir/Sr Dir) finalize comp recommendations
-- January 20-23 @ 5pm PT - VP/PBP finalize comp recommendations
-
-Phase 2 (equity only):
-
-- February TBD
+Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
 
 ### How we hire contractors
 
@@ -287,10 +272,6 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 Development's headcount planning follows the Engineering [headcount planning](/handbook/engineering/#headcount-planning) and [long term profitability targets](/handbook/engineering/#long-term-profitability-targets). Development headcount is a percentage of overall engineering headcount. For FY20, the headcount size is 271 or ~58% of overall engineering headcount.
 
 We follow normal span of control both for our managers and directors of [4 to 10](/handbook/company/structure/#management-group). Our sub-departments and teams match as closely as we can to the [Product Hierarchy](/handbook/product/categories/#hierarchy) to best map 1:1 to [Product Managers](/handbook/product/).
-
-### Development Staff Meeting
-
-While we try to work as much as possible async, the Development department leadership does meet synchronously on a cadence of weekly. This meeting coordinates initiatives, communicates relevant information, discusses more difficult decisions, and provides feedback on how we are progressing as an organization. As part of this meeting, we discuss our culture of reliability monthly. This was part of the agenda spawned from an initiative we took up in August of 2021. We want to make sure we keep the organization healthy when thinking about reliability in every part of our work.
 
 ### Daily Duties for Engineering Directors
 
