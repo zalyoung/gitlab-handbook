@@ -79,10 +79,10 @@ The async update communicates the progress and confidence using an issue comment
 
 The async update comment should include:
 
-* what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
-* the confidence of the person that their estimate is correct
-* notes on what was done and/or if review has started
-* it could be good to include whether this is a front end or back end update if there are multiple people working on it
+- what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
+- the confidence of the person that their estimate is correct
+- notes on what was done and/or if review has started
+- it could be good to include whether this is a front end or back end update if there are multiple people working on it
 
 #### Issue Weighting Guidelines
 
