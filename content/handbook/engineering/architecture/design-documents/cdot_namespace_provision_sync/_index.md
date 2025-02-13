@@ -14,37 +14,37 @@ toc_hide: true
 
 ## Summary
 
-As a part of aligning provisioning between Self-Managed and SaaS , we are restructuring the way provision for namespace is done on GitLab.com.
+As a part of aligning provisioning between Self-Managed/Dedicated and GitLab.com, we are restructuring the way provision for namespace works on GitLab.com.
 
 ## Motivation
 
 The work for this will align the provisioning for GitLab.com closer to the way SM/Dedicated is provisioned.
 
-For `GitLab.com`, we will record the params generated for the `Namespace` provisioning on new `namespace_syncs` table, along with attempts made to sync the namespace provision and the result status on `sync_attempts` table. This is similar to what we have for `Self-Managed` with `License` and `LicenseSeatLink`, brining both provisioning processes closer.
+For `GitLab.com`, we will record the params generated for the `Namespace` provisioning on a new `gitlab_namespaces_syncs` table, along with each attempt for a sync and the result status via a `gitlab_namespacess_sync_attempts` table. This is similar to the way we handle `Licenses` for `Self-Managed` and results in bringing both provisioning processes closer.
 
 ## Goals
 
 The goal of this blueprint is to produce:
 
-- an architectural design(s) on how the namespace will be provisioned in new process
+- an architectural design on how the namespace will be provisioned via the new process
 - an iteration plan to achieve the chosen design
 
 ## Proposal
 
-We want to create a new table `namespace_syncs` that will hold the records for the `namespace` provision params generated. A `namespace_sync` record we will have many `sync_attempts` that will log the status of `namespace_sync`. The statuses can be `[started, failed, skipped, completed]`.
+We want to create a new table `gitlab_namespace_syncs` that will hold the records for the generated `namespace` provision params. A `gitlab_namespaces_sync` record will have many `gitlab_namespaces_sync_attempts` that will log the status of `gitlab_namespaces_sync`. The states can be `[started, failed, skipped, completed]`.
 
-Whenever a `namespace_sync` record is created, it will always have a associated `sync_attempt` record with `started` state. We will then make a **internl HTTP request** to `GitLab` to provision the namespace with the associated `params`. Based on the response of provision call, we will update the status of `sync_attempt` record . The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
+Whenever a `gitlab_namespaces_sync` record is created, it will always have an associated `gitlab_namespaces_sync_attempt` record with `started` state. We will then make an **internal HTTP request** to `GitLab` to provision the namespace with the associated `params`. Based on the response of the provision sync, we will update the state of the `gitlab_namespaces_sync_attempt` record. The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
 
 Based on the failed response code we will perform further action:
 
-- `5XX` : This is `Server` error and we will retry the sync few times
-- `4XX` : This is validation error and will be related params generation by `Client`. We log will it and then investigate on case by case basis.
+- `5XX` : This is a `Server` error and the sync will be retried a few times
+- `4XX` : This is a validation error and will be related to the params generation by the `Client`. We will log it and investigate on case by case basis.
 
 ## Iteration 1
 
 For Iteration 1, following are the `Sequence Diagram`, `Flow Chart`, `Database Table` and `Internal API` we plan to implement on `CustomersDot` and `GitLab`.
 
-### CDot Side
+### CustomersDot (CDot) Side
 
 #### Sequence Diagram
 
@@ -95,7 +95,7 @@ graph TD
 
     K[Manual re-sync request] --> L[Trigger sync to GitLab]
     L --> M[GitLab: response]
-    M --> N{success: 201?}
+    M --> N{success: 200?}
     N -->|Yes| O[Update state in gitlab_namespaces_sync_attempts]
     N -->|No| P[Update state in gitlab_namespaces_sync_attempts and handle error response]
     O --> Q[End]
@@ -108,9 +108,9 @@ graph TD
 erDiagram
     gitlab_namespaces_sync_attempts {
         bigint id PK
+        bigint namespaces_sync_id FK
         timestamptz created_at
         timestamptz updated_at
-        bigint namespaces_sync_id FK
         integer state
     }
     gitlab_namespaces_syncs {
@@ -178,7 +178,7 @@ sequenceDiagram
         Note over BW: Job completed successfully
     else Validation Error (422)
         Note over BW: Log error details
-        BW->>DB: Update namespace_sync as partially failed
+        BW->>DB: Update gitlab_namespaces_sync as partially failed
     else Server Error (5XX)
         Note over BW: Schedule job retry
         BW->>DB: Update job status for retry
