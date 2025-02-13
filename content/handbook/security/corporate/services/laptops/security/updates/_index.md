@@ -36,21 +36,17 @@ This is a placeholder.
 
 ## New System Deployment
 
-When a new macOS device completes enrollment, we automatically deploy our most commonly used applications through [Installomator](https://github.com/Installomator/Installomator). This process should kickoff within 5 minutes of when the user reaches their Desktop for the first time.
+When a new macOS device completes enrollment, we automatically deploy our most commonly used applications through [Installomator](https://github.com/Installomator/Installomator). This process should kickoff within five minutes of when the user reaches their Desktop for the first time.
 
-## Process Details
+### Process Details
 
 1. The user completes their initial account setup via Okta login and selected Setup Assistant panes, which include Location Services, Accessibility, Touch ID enrollment, and Light/Dark appearance selection.
-1. Upon first Desktop access, Installomator automatically launches within 5 minutes.
+1. Upon first Desktop access, Installomator should automatically launch within five minutes.
 1. Installomator performs two primary functions:
   - Installs our most commonly used applications (1Password, Google Chrome, Slack, Zoom)
   - Optimizes the Dock configuration
-
-## Completion
-
-Once Installomator finishes the installation process:
-1. The user clicks "Done" in the Installomator interface
-1. The system will prompt the user to logout, and then will initiates an automatic restart
+1. Once Installomator finishes the installation process, the user clicks "Done" in the Installomator interface to exit.
+1. The system will prompt the user to logout, and then will initiates an automatic restart.
 1. The restart completes the setup process, including prompting the user to enable FileVault.
 
 This automated approach ensures consistent application deployment across all newly enrolled macOS devices while minimizing manual intervention.
