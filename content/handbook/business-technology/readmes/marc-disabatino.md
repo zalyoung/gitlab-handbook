@@ -10,7 +10,7 @@ This page's intention is to give a little information about who I am and what it
 
 ### Intro
 
-Hey! I'm Marc and I'm a [Manager, Enterprise Applications Services](/job-families/finance/information-technology/it-entapps-services) for the [IT Enterprise Applications](/handbook/business-technology/) division.
+Hey! I'm Marc and I'm a [Manager, Enterprise Applications Services](/job-families/finance/information-technology/it-entapps-services/#manager-enterprise-applications-services-intermediate) for the [IT Enterprise Applications](/handbook/business-technology/) division.
 
 ### About me
 
