@@ -12,7 +12,7 @@ Composed of [Security Architecture](/handbook/security/product-security/security
 - We contribute directly to the product's evolution in multiple ways:
   - We build product-first capabilities that mitigate risk and meet the needs of both GitLab security teams and GitLab customers.
   - We design security architecture solutions and execute proofs-of-concept for critical risk areas that accelerate engineering teams’ delivery of security improvements or strategic roadmap initiatives within GitLab.
-  - We use our expertise to influence GitLab’s security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
+  - We use our expertise to influence GitLab's security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
   - We serve as Customer 0 for new security features to validate their functionality and utility for security teams.
   - We continuously monitor the Product Security Department’s ability to effectively use GitLab product features to secure the GitLab ecosystem. Where there are gaps, we provide clear and documented feedback to reduce friction and unlock customer value.
 - Finally, as long-tenured security professionals, we lend our expertise to our peer teams across the organization to enable them to accomplish their security goals in the form of informal training, documentation, and mentorship.
