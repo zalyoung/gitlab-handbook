@@ -9,7 +9,7 @@ Composed of [Security Architecture](/handbook/security/product-security/security
 
 - We own and operate the Product Security Risk Register, which enables us to continuously identify and assess risks, plan cross-organizational risk reduction efforts to enhance GitLab's platform security posture and protect our customers, and prioritize our work.
 - We assess GitLab, the product and the company, holistically from a security perspective to identify previously unknown risks and vulnerabilities.
-- We contribute directly to the product’s evolution in multiple ways:
+- We contribute directly to the product's evolution in multiple ways:
   - We build product-first capabilities that mitigate risk and meet the needs of both GitLab security teams and GitLab customers.
   - We design security architecture solutions and execute proofs-of-concept for critical risk areas that accelerate engineering teams’ delivery of security improvements or strategic roadmap initiatives within GitLab.
   - We use our expertise to influence GitLab’s security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
