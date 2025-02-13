@@ -14,8 +14,7 @@ Composed of [Security Architecture](/handbook/security/product-security/security
   - Building product-first capabilities that mitigate risk and meet the needs of both GitLab team members and customers.
   - Designing secure architecture solutions and executing proofs-of-concept that accelerate engineering teams' delivery of security improvements.
   - Influencing GitLab's security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
-  - Monitoring the Product Security Department's ability to effectively use GitLab product features to secure the GitLab ecosystem. 
-  - Coordinating cross-divisional Customer 0 efforts to validate new security features for their functionality and utility. Where there are gaps, we provide clear and documented feedback to reduce friction and unlock customer value.
+  - Coordinating cross-divisional Customer 0 efforts to validate new and existing security features for their functionality and utility. Where there are gaps, we provide clear and documented feedback to reduce friction and unlock customer value.
 - Finally, we lend our expertise to our peer teams across the organization to enable them to accomplish their security goals by providing automation, informal training, documentation, and mentorship.
 
 ## FY26 Key Focus Areas
