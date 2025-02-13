@@ -27,7 +27,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA | Justin Farris (VP of Product Management)<br>Angela Pesta (VP UX)|
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
 | [Sales](/handbook/sales/) | TBC | Ashley Kramer (Interim CRO) <br> (temporary support) Brian Wald (Sr. Director, Global Field CRO Org) |
-| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
+| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Carla Sylva**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Nick Cayou (VP of WW Channels & Alliances) |
