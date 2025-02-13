@@ -19,4 +19,8 @@ Composed of [Security Architecture](/handbook/security/product-security/security
 
 ## FY26 Key Focus Areas
 
-In FY26, our key focus areas are Software Supply Chain and Ecosystem Security, Authorization and Authentication, and AI Security.
+In FY26, our key focus areas are:
+
+- Software Supply Chain and Ecosystem Security
+- Authorization and Authentication
+- AI Security
