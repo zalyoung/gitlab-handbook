@@ -52,7 +52,7 @@ You might also find it helpful to review the
 ### On-call responsibilities
 
 Support Engineers who are moving into an ASE role will continue participating in the CMOC/CEOC
-on-call rotations until they have two assigned accounts. At that point, you and your manager should
+on-call rotations until they have two assigned accounts. At that point, the ASE and their manager should
 plan for you to be taken off the on-call rota.
 
 This transition plan is influenced by:
