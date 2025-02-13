@@ -89,28 +89,33 @@ If your analytics needs for your new or recently modified feature are met by the
 ### Process for Instrumenting Feature Tracking
 
 1. Define Analytics Requirements
+
    **Owner: Product Manager**
    - Determine if existing dashboards designed to automatically ingest new events will meet your needs
    - If additional analytics are required, create a [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
 
 1. Create Instrumentation Issue
+
    **Owner: Product Manager**
    - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation). Alternatively you can also use the [CLI generator](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics) to automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
    - Ensure proposed event properties align with analytics requirements
    - Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) for review
 
 1. Implement Tracking
+
    **Owner: Engineer**
    - Create an Internal Events Tracking Merge Request (MR)
    - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
 
 1. Test and Validate
+
    **Owner: Engineer**
    - Perform [local testing](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html)
    - Request review from Analytics Instrumentation team member
    - Verify test events match properties defined in the Issue
 
 1. Create Analysis
+
    **Owner: Product Analyst**
    - Wait 1-2 weeks after MR merge for sufficient data collection
    - Complete requirements specified in PDI Issue (if applicable)
