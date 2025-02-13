@@ -11,6 +11,7 @@ I'm Louis Dwan, based in Dublin, Ireland, working within the Enterprise Applicat
 ### About Me
 
 When I'm not working, you'll find me:
+
 - Exploring Ireland's numerous hiking trails
 - Experimenting with new recipes in the kitchen
 - Traveling to new destinations
@@ -53,4 +54,4 @@ My current initiatives include:
 - Optimizing system performance
 - Developing automation solutions
 - Creating comprehensive logging systems
-- Enhancing reporting and dashboard capabilities
+- Enhancing reporting and dashboard capabilities.
