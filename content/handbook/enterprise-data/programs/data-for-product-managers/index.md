@@ -113,7 +113,7 @@ If your analytics needs for your new or recently modified feature are met by the
    Option B: Use Usage Data Instrumentation Issue Template to outline metric requirements
    - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
   
-   Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-member) to review metric properties
+   Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) to review metric properties
 
 1. Implement Tracking
 
