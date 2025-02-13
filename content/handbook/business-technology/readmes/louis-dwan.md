@@ -4,14 +4,13 @@ description: "Personal README for Louis Dwan"
 job: "Business Systems Analyst - Enterprise Applications PMO"
 ---
 
-# About Louis Dwan
-
 ### 👋 Introduction
 
 I'm Louis Dwan, based in Dublin, Ireland, working within the Enterprise Applications Team. My career has focused on Financial Applications, with experience in early-stage companies that have allowed me to wear many hats and take on diverse responsibilities. I've been instrumental in building out teams, driving implementations, and developing strategies.
 
-When I'm not working, you'll find me:
+### About Me
 
+When I'm not working, you'll find me:
 - Exploring Ireland's numerous hiking trails
 - Experimenting with new recipes in the kitchen
 - Traveling to new destinations
@@ -55,5 +54,3 @@ My current initiatives include:
 - Developing automation solutions
 - Creating comprehensive logging systems
 - Enhancing reporting and dashboard capabilities
-
-*Last Updated: February 2025*
