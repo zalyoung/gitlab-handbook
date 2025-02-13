@@ -3,50 +3,6 @@ title: "Greenhouse"
 description: "Greenhouse is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more."
 ---
 
-## For all Interviewers
-
-### Feedback and Interview Kits
-
-When you have an interview, you have two ways to get to your Interview Kit to leave feedback for a candidate. The first is by clicking the link in the calendar invitation for the interview. The second is by going to your Greenhouse [dashboard](https://app2.greenhouse.io/dashboard) where you will see a list of your upcoming interviews and can click `See Interview Kit`.
-
-The Interview Kit consists of a few tabs:
-
-- **Interview Prep**
-  - Quick overview of what you'll want to look for in the interview, as well as any notes that previous Interviewers left to look into further.
-- **Job Details**
-  - The full requisition description posted on Greenhouse.
-- **Resume**
-  - This tab will only show up if the candidate provided a resume.
-- **LinkedIn**
-  - This tab will only show up if the candidate provided their LinkedIn profile.
-- **Scorecard**
-  - This is where you will enter all of your notes, score various attributes, and make a decision. (More detail below!)
-
-Additionally, the Interview Kit shows the candidate's name, contact details, pop-out links to their resume, cover letter, and other details, as well as the details for the interview (location, time, etc.) on the lefthand side. It also includes the requisition that the candidate is interviewing for at the top of the page.
-
-#### Scorecards
-
-The scorecard consists of a few elements. In general, they feature text boxes for adding notes and text boxes for addressing specific questions. To note, if a text box is required, there will be a red asterisk by the question.
-
-All the meeting notes should live in Greenhouse, and not in links to Google Docs or other external sources. Doing so we allow Greenhouse to be the single source of truth (SSOT) for information from the candidate for GDPR and compliance reasons.
-
-Underneath the first text box, `Key Take-Aways`, there are two additional links, `Private Note` and `Note for Other Interviewers`, which will open additional text boxes. A `Private Note` is typically used by the Talent Acquisition Team when collecting compensation information and it's only viewable by the Talent Acquisition Team and Hiring Managers for the requisition. The `Note for Other Interviewers` text box is extremely useful to all Interviewers, as it's where you can include information that you think would be relevant to future Interviewers. For example, specifying areas to dig into, further evaluate, or look out for. Any notes in this field will appear in the next Interviewer's Interview Kit on the `Interview Prep` tab.
-
-We want to highlight the strengths and weaknesses of the candidate in an easy to absorb, standardized way. Every scorecard must include  `Pros` and `Cons`. This helps the talent acquisition team gather data that will be presented to the candidate in the form of feedback.
-
-Below the text boxes for notes, each role has a list of desired attributes. Each stage has certain attributes highlighted that are recommended points of evaluation. However, **no** attributes are required, so you're welcome to rate any attributes you've gained insight into. All stages include attributes for values-alignment, which all Interviewers are heavily encouraged to complete, so we can assess values-alignment for each candidate.
-
-You'll see a selection of symbols aligned with each attribute. You should use the `neutral` symbol sparingly
-. Do not use the `neutral` symbol to indicate you skipped the assessment of this attribute or didn't meet with the candidate.
-
-Below the attributes is the final piece where you will make your decision. Greenhouse says *"Overall Recommendation: Did the candidate pass the interview?"*.  The final score is not required by Greenhouse, but it must be completed by the Interviewer. If the Interviewer does **not** add their vote, the Talent Acquisition Team will follow-up to fetch their vote. If you are on the fence about a candidate, that's typically an indication that you would not recommend hiring this candidate based on the competency you are assessing. Though, if you're really unsure, feel free to reach out to the Recruiter to discuss further. Your Recruiter may agree with your hesitations and decline or you may agree that there is an element that should be explored in an additional interview.
-
-Your scorecard will automatically save as you enter information. If there is an error and Greenhouse is **not** able to save the scorecard, it will say so at the top righthand corner and you'll be unable to submit your scorecard. You can either wait until it does save or open the Interview Kit again and copy/paste the information over. If you have further issues, please reach out to the Talent Acquisition Team.
-
-Finally, click `Submit Scorecard` and you're done! From there, you may go back to review and edit your scorecard, view the candidate profile, or return to your dashboard.  Shadowers should not submit their scorecard, but can keep the draft to discuss during their debrief with the interviewer they are shadowing. In order to ensure a timely response for each candidate and to reduce the possibility of forgetting important details and impressions of the candidate, all scorecards should be submitted within 24 hours of the interview. Please note that unless in interview training or interview calibration, interviewers should not discuss nor debrief on candidate interview performance prior to submitting scorecards in Greenhouse.
-
-In order to help remove bias, Interviewers (unlike Hiring Managers) are **not** able to see another Interviewer's scorecard. If there are certain specific flags, concerns, or notes that should be highlighted to the rest of the Interview Team, the Interviewer should add a note in their scorecard by clicking the `Note for Other Interviewers` section right underneath the `Key Take-Aways` text box. This box can also be used to communicate *what* topics you were expected to cover and were unable to make time for so they can be covered in later interviews. You are also able to add notes outside of your scorecard that will be visible to future Interviewers by going to the candidate profile and to the text box on the right side under `Make a Note`, adding your note, and checking off the radio button to make it `Visible to Interviewers`.
-
 #### Interview notifications
 
 You can set up reminders in Greenhouse by going to your [account settings](https://app2.greenhouse.io/myinfo) and turning on `Daily interview reminder email` which will email you each morning with a list of your interviews for the day. You can also [connect your Slack account](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack-integration) to your Greenhouse account and receive reminders after the interview is over if your scorecard is still due, as well as other notifications depending on your settings.
@@ -56,12 +12,6 @@ You can also set up notifications to be delivered to your Slack by clicking on y
 ### Email syncing
 
 All email communication with candidates must be kept in Greenhouse. Only Job Admins (Hiring Managers, Executives, and People Success) are able to email candidates from Greenhouse. If you are **not** a Job Admin and want to email your candidate, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
-
-### Leaving notes
-
-It's always recommended to leave notes in a candidate profile to maintain communication between the Hiring Managers, Interviewers, and Talent Acquisition Team. To leave a note, go to a candidate's profile, and, on the right side under `Make a Note`, type your note and tag anyone you like to see the note. If you do **not** tag anyone, **no** one will receive a notification. Once you're done with your note, click `Save` and it will notify anyone tagged and be logged in the candidate's profile in the `Activity Feed`. Anyone who has access to the requisition will be able to view it there.
-
-Again, `Private Notes` should only be used to discuss compensation or other confidential items related to the candidate. To leave such a note, go to the candidate's profile, click `Private`, scroll to the bottom, and click `Add Private Note`. Be sure to tag anyone that should be notified. Please note that only Job Admins (i.e. **not** Interviewers) are able to view these notes. All Job Admins, including Hiring Managers, are able to see private notes whether or not they are tagged.
 
 ## For Hiring Managers
 
