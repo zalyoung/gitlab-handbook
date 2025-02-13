@@ -14,11 +14,13 @@ toc_hide: true
 
 ## Summary
 
-As a part of aligning provisioning between Self-Managed and SaaS , we are restructuring the way provision for namespace is done on GitLab.com
+As a part of aligning provisioning between Self-Managed and SaaS , we are restructuring the way provision for namespace is done on GitLab.com.
 
 ## Motivation
 
-The work for this will align the provisioning for GitLab.com closer to the way SM/Dedicated is provisioned. A similar approach will be implemented to sync a namespace's subscription (or trial) info.
+The work for this will align the provisioning for GitLab.com closer to the way SM/Dedicated is provisioned.
+
+For `GitLab.com`, we will record the params generated for the `Namespace` provisioning on new `namespace_syncs` table, along with attempts made to sync the namespace provision and the result status on `sync_attempts` table. This is similar to what we have for `Self-Managed` with `License` and `LicenseSeatLink`, brining both provisioning processes closer.
 
 ## Goals
 
@@ -29,9 +31,9 @@ The goal of this blueprint is to produce:
 
 ## Proposal
 
-We want to create a new table `namespace_syncs` that will hold the records for the `namespace` provision params generated. A `namespace_sync` recrod we will have many `sync_attempts` that will log the status of `namespace_sync`. The statuses can be `[started, failed, skipped, completed]`.
+We want to create a new table `namespace_syncs` that will hold the records for the `namespace` provision params generated. A `namespace_sync` record we will have many `sync_attempts` that will log the status of `namespace_sync`. The statuses can be `[started, failed, skipped, completed]`.
 
-Whenever a `namespace_sync` record is created, it will always have a associated `sync_attempt` record with `started` state. We will then make a **internl HTTP request** to `GitLab` to provision the namespace with the associated `params`. We will update the status of `sync_attempt` record based on the response of provision call. The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
+Whenever a `namespace_sync` record is created, it will always have a associated `sync_attempt` record with `started` state. We will then make a **internl HTTP request** to `GitLab` to provision the namespace with the associated `params`. Based on the response of provision call, we will update the status of `sync_attempt` record . The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
 
 Based on the failed response code we will perform further action:
 
@@ -40,7 +42,7 @@ Based on the failed response code we will perform further action:
 
 ## Iteration 1
 
-For Iteration 1, following are the `Sequence Diagram`, `Flow Chart` and `Database table` we plan to implement on `CustomersDot` and `GitLab`.
+For Iteration 1, following are the `Sequence Diagram`, `Flow Chart`, `Database Table` and `Internal API` we plan to implement on `CustomersDot` and `GitLab`.
 
 ### CDot Side
 
