@@ -7,7 +7,7 @@ description: "The Security Platforms and Architecture (SPA) team's mission is to
 
 Composed of [Security Architecture](/handbook/security/product-security/security-architecture/), [Security Research](/handbook/security/product-security/security-research/), and [Product Security Engineering](/handbook/security/product-security/product-security-engineering/), we focus on addressing systemic product security risks.
 
-- We own and operate the Product Security Risk Register to continuously identify, assess, and prioritize risks, enabling us to plan cross-organizational risk reduction efforts that enhance GitLab's platform security posture and protect our customers.
+- We own and operate the Product Security Risk Register to continuously identify, assess, and prioritize risks, enabling us to drive cross-organizational risk reduction efforts that enhance GitLab's platform security posture and protect our customers.
 - We assess the GitLab ecosystem to identify previously unknown security risks and vulnerabilities.
 - We develop the security strategy and roadmap to address complex security challenges. 
 - We contribute directly to the product's evolution by:
