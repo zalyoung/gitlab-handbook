@@ -233,7 +233,7 @@ Social short UTM URLs:
 2. Twitter:
 3. Mastodon:
 
-Content epic: <URL>
+Content epic: URL tbd
 
 Thanks/cc @teammembers
 ```
