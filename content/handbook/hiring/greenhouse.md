@@ -2,41 +2,6 @@
 title: "Greenhouse"
 description: "Greenhouse is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more."
 ---
-
-#### Interview notifications
-
-You can set up reminders in Greenhouse by going to your [account settings](https://app2.greenhouse.io/myinfo) and turning on `Daily interview reminder email` which will email you each morning with a list of your interviews for the day. You can also [connect your Slack account](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack-integration) to your Greenhouse account and receive reminders after the interview is over if your scorecard is still due, as well as other notifications depending on your settings.
-
-You can also set up notifications to be delivered to your Slack by clicking on your name > `account settings`. From there, connect your Slack account and set @mentions as well as any job-specific notifications.
-
-### Email syncing
-
-All email communication with candidates must be kept in Greenhouse. Only Job Admins (Hiring Managers, Executives, and People Success) are able to email candidates from Greenhouse. If you are **not** a Job Admin and want to email your candidate, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
-
-## For Hiring Managers
-
-### What access do I have?
-
-Hiring Managers and Executives have access to view all candidates for any requisition where they're listed as a `Hiring Manager`. Additionally, they can view `Private Notes` for those candidates. To note, a Hiring Manager is **not** able to view candidates once they are hired or any candidates outside of a requisition where they're a Hiring Manager.
-
-### How do I view my roles and candidates?
-
-When you log in to Greenhouse, you will see your dashboard; however, this will not paint the full picture for all of your roles. In order to view the status of your current vacancies, click `All Jobs` at the top of the page, then choose whichever job you want to review. There will be an indicator if you are the Hiring Manager for a role or not below the job name, and you will only be able to view the jobs you have access to as a member of the Hiring Team for that role; please note the below details are only accessible to Job Admins, and Interviewers have less functionality available to them.
-
-After you click on a requisition, you will be brought to the job dashboard for that specific requisition, which contains all of the information you should need. At the top of the page, there is a quick snapshot of application trends, showing you how many applications have been received, how many have been rejected, and how many are active. Below that you can see a snapshot of the sources where you are getting your applicants as well as the average quality of the applicants from each source. Next, you'll see a list of any candidates you're following in this role. The last section on this page is `Pipeline Tasks` where any pending tasks for candidates in this role will be shown. You can also view a less detailed version of this task list at the top right sidebar on this page, where you can easily click `Review Applications` (which is the quickest and easiest way to bulk review applications) or click on the number next to each stage to view the candidates in each stage. If you wanted to view all candidates regardless of stage, simply click `Candidates` right above the `Application Trends` section (**not** the `All Candidates` at the very top of the page). Below the snapshot pipeline at the right sidebar, you can view any prospects for this role, Greenhouse predictions of when the role will be filled, and finally job setup links that enable you to adjust the settings for the requisition. It's recommended for only the Talent Acquisition Team to edit the requisition setup, but please reach out to them if you have any questions.
-
-If you want to review the candidates for multiple jobs at the same time, click `All Candidates` instead, and then use the filter on the left sidebar, `Jobs` > `Filter by Job` > select the appropriate jobs. You can use the filters to further narrow down candidates.
-
-### Configuring notifications
-
-Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove yourself for that section.
-
-### Setting Up Interview Questions
-
-Greenhouse includes the ability to [include specific questions within the interview kits](https://support.greenhouse.io/hc/en-us/articles/115002276366-Add-an-interview-question-to-an-interview-kit) made available to interviewers. Setting interview questions in advance makes the interviewing process more consistent. Having a consistent interviewing process [improves the efficiency and fairness of the hiring process](https://www.linkedin.com/pulse/why-consistency-matters-hiring-george-oehlert/).
-
-To add interview questions to a position from the `Job Dashboard` click the `Interview Plan` link on the right sidebar. In the `Team Interview` section select the interviewer you would like to assign the question to and click the edit link for them. In the `Interview Questions` section press the add button to bring up a modal form for adding your specific question. A video walkthrough of using this feature can be found on the GitLab unfiltered YouTube channel [here](https://youtu.be/CpShUn7kjI8).
-
 ## For Talent Acquisition
 
 #### Enabling LinkedIn Recruiter System Connect
