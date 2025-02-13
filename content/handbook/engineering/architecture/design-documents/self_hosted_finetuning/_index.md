@@ -191,6 +191,28 @@ To trigger the inference with a specific adapter, the customer could specify the
 
 #### Fine-tuned Model and UI during the Inference
 
+```mermaid
+flowchart LR
+ subgraph ui["UI"]
+ project1["Python Project"]
+ project_conf["Project Configuration"]
+ ui_api["API"]
+ end
+ aig["AI-Gateway"]
+ vllm["vLLM"]
+ api_request1["{ model: lora-python, prompt: def hello_world }"]
+ api_request2["{ model: lora-python, prompt: def hello_world, max_tokens: 64, temperature: 0 }"]
+    project_conf --> project1
+    api_request1 --> aig
+    aig --> api_request2
+    api_request2 --> vllm
+    project1 --> ui_api
+    ui_api --> api_request1
+    vllm -- def hello_world(): print Hello World! --> aig
+    aig -- print Hello World! --> ui_api
+
+```
+
 Each adapter could be used with either a single project or a collection of projects. It is also true that one project could use several adapters at the same time. The UI will provide a way for the user to select which adapter to use for which project. The UI will also inform the user which adapters were trained for which project. By default, each project would be assigned a base model.
 
 During the feature request the configured model will be used for the inference by the backend.
