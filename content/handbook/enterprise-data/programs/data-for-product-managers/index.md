@@ -72,6 +72,7 @@ This guide outlines the process for instrumenting and tracking feature metrics a
 
 - [CLI generator to automatically create event and metric definition files](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics): An interactive CLI that gathers your requirements, automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
 - [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
+- [Getting Started Standard Context Fields](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/standard_context_fields.html): Documentation on each standard context field included in Internal Event Tracking and descriptions of their intent. 
 - [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features.
 - [Product Data Insights Performance Indicator Chart Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=PI%2520Chart%2520Help)
 - [Product Data Insights Ad Hoc Analysis Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%2520Hoc%2520Request)
@@ -128,7 +129,7 @@ For features routed through the AI Gateway:
 - For reporting requiring more granularity than a 'request' of the AI Gateway, utilize [Internal Events Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html).
 - Internal events can be connected to unit primitive events seen in the AI Gateway using a `correlation_id` for behavior funnel use cases (for GitLab.com only).
 - [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview) will automatically display new unit primitive requests.
-
+ - [AI Gateway instrumentation](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#internal-events-on-other-systems)
 ### Key Contacts and Resources
 
 - For questions about the feature tracking process, reach out to #g_monitor_analytics_instrumentation.
