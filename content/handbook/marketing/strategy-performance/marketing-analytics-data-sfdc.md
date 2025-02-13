@@ -56,9 +56,9 @@ The dbt solution generates a dimensional model from RAW source data. The excepti
 | Field                  | Business Logic   |
 |------------------------|------------------|
 | touchpoint_sales_stage | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/mart_crm_attribution_touchpoint.sql#L114) |
-| is_mgp_opportunity     | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common/facts_sales_and_marketing/fct_crm_attribution_touchpoint.sql#L40) |
-| is_fmm_influenced      | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/mart_crm_attribution_touchpoint.sql#L311) |
-| is_fmm_sourced         | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/mart_crm_attribution_touchpoint.sql#L320) |
+| is_mgp_opportunity     | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common/facts_sales_and_marketing/fct_crm_attribution_touchpoint.sql#L191) |
+| is_fmm_influenced      | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/mart_crm_attribution_touchpoint.sql#L322) |
+| is_fmm_sourced         | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/mart_crm_attribution_touchpoint.sql#L331) |
 
 ## Mart_crm_event
 
