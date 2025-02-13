@@ -32,7 +32,15 @@ If you use `brew` or a package manager, it can keep your [software updated autom
 
 This is a placeholder.
 
-## Third Party Software Patching with Jamf App Installers
+## Third Party Software Patching
+
+# Installomator
+
+We use [Installomator](https://github.com/Installomator/Installomator) to install core applications to newley enrolled macbooks. Once a computer finishes account setup and a user sees their Desktop for the first time. Installomator will pop up and begin to install our core applications and clean up the dock. After Installomator is complete and the user clicks "Done" a restart will trigger to finish setup.
+
+<img src="/content/handbook/security/corporate/services/laptops/security/updates/installomator-onboarding.png" alt="Installomator Notification" width="400">
+
+# Jamf App Installers
 
 Certain third party software is automatically patched by Jamf using their [app installers](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/App_Installers.html). Periodically users will recieve notifications in the top right corner of their screen to initiate an update. Users can either quit their software and reopen once complete or restart their computer in order for updates to complete. Updates typically take less than a minute to complete.
 
