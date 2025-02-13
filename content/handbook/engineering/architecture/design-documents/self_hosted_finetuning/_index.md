@@ -229,28 +229,26 @@ During the feature request the configured model will be used for the inference b
 ---
 config:
     xyChart:
-        width: 900
-        height: 600
+        width: 500
+        height: 400
     themeVariables:
         xyChart:
             plotColorPalette: "#ff0000, #0000ff"
 ---
 xychart-beta
-    title "Embedding cosine similarity vs training time"
+    title "Embedding cosine similarity vs Training time"
     x-axis "Time in minutes" [0, 6, 12, 18, 24, 30, 36, 48, 60, 72, 84]
     y-axis "Embedding cosine similarity (higher better)" 0.7 --> 0.95
     line [0.75, 0.80, 0.84, 0.83, 0.85, 0.82, 0.85, 0.83, 0.83, 0.85, 0.84]
     line [0.85, 0.89, 0.91, 0.90, 0.90, 0.90, 0.91, 0.90, 0.90, 0.90, 0.90]
 ```
 
-While we see the relative performance increase after only 6 minutes, the model is still unstable and requires further training time to reduce the number of empty responses.
-
 ```mermaid
 ---
 config:
     xyChart:
-        width: 900
-        height: 600
+        width: 500
+        height: 400
     themeVariables:
         xyChart:
             plotColorPalette: "#ff0000, #0000ff"
@@ -263,6 +261,8 @@ xychart-beta
     line [0.0, 0.27, 0.05, 0.04, 0.04, 0.03, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 ```
+
+While we see the relative performance increase after only 6 minutes, the model is still unstable and requires further training time to reduce the number of empty responses.
 
 As a conclusion, it seems to be optimal to train the model for 30-40 minutes.
 
