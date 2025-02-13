@@ -58,6 +58,7 @@ The Global Search feature uses [Elasticsearch](elasticsearch.md) to store and re
 The abstraction layer is in development and will support embedding storage and retrieval for GitLab data.
 
 The following vector stores will be supported and customers can choose which one to use:
+
 - [Elasticsearch](elasticsearch.md)
 - [OpenSearch](./elasticsearch.md)
 - [Postgres with PGVector extension](postgresql.md)
@@ -309,7 +310,7 @@ retrieval process. Tailoring the retrieval process based on specific user
 feedback can lead to biased optimizations, potentially causing regressions for
 other users. It's essential to have a dedicated test dataset and tools for a
 comprehensive quality assessment. For assistance with AI evaluation, please
-reach out to the [AI Model Validation Group](../../../development/data-science/model-validation/).
+reach out to the [AI Model Validation Group](../../../development/data-science/ai-powered/model-validation/_index.md).
 
 ## Before Implementing RAG
 
