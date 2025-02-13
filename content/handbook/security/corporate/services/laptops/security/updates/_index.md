@@ -32,15 +32,30 @@ If you use `brew` or a package manager, it can keep your [software updated autom
 
 This is a placeholder.
 
-## Third Party Software Patching
+# Third Party Software Deployment and Patching
 
-# Installomator
+## New System Deployment
 
-We use [Installomator](https://github.com/Installomator/Installomator) to install core applications to newley enrolled macbooks. Once a computer finishes account setup and a user sees their Desktop for the first time. Installomator will pop up and begin to install our core applications and clean up the dock. After Installomator is complete and the user clicks "Done" a restart will trigger to finish setup.
+When a new macOS device completes enrollment, we automatically deploy our most commonly used applications through [Installomator](https://github.com/Installomator/Installomator). This process should kickoff within 5 minutes of when the user reaches their Desktop for the first time.
 
-<img src="/content/handbook/security/corporate/services/laptops/security/updates/installomator-onboarding.png" alt="Installomator Notification" width="400">
+## Process Details
 
-# Jamf App Installers
+1. The user completes their initial account setup via Okta login and selected Setup Assistant panes, which include Location Services, Accessibility, Touch ID enrollment, and Light/Dark appearance selection.
+1. Upon first Desktop access, Installomator automatically launches within 5 minutes.
+1. Installomator performs two primary functions:
+  - Installs our most commonly used applications (1Password, Google Chrome, Slack, Zoom)
+  - Optimizes the Dock configuration
+
+## Completion
+
+Once Installomator finishes the installation process:
+1. The user clicks "Done" in the Installomator interface
+1. The system will prompt the user to logout, and then will initiates an automatic restart
+1. The restart completes the setup process, including prompting the user to enable FileVault.
+
+This automated approach ensures consistent application deployment across all newly enrolled macOS devices while minimizing manual intervention.
+
+## Jamf App Installers
 
 Certain third party software is automatically patched by Jamf using their [app installers](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/App_Installers.html). Periodically users will recieve notifications in the top right corner of their screen to initiate an update. Users can either quit their software and reopen once complete or restart their computer in order for updates to complete. Updates typically take less than a minute to complete.
 
