@@ -69,8 +69,8 @@ If needed, you may create an issue in the [Product Data Insights project](https:
 This guide outlines the process for instrumenting and tracking feature metrics at GitLab. Product Managers (PMs) are responsible for defining and tracking metrics for their team's features, with support from the Analytics Instrumentation team and Product Data Insights.
 
 ### Quick links for Instrumenting Feature Tracking
- 
--[CLI generator to automatically create event and metric definition files](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics): An interactive CLI that gathers your requirements, automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
+
+- [CLI generator to automatically create event and metric definition files](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics): An interactive CLI that gathers your requirements, automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
 - [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
 - [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features.
 - [Product Data Insights Performance Indicator Chart Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=PI%2520Chart%2520Help)
@@ -95,7 +95,7 @@ If your analytics needs for your new or recently modified feature are met by the
 
 1. Create Instrumentation Issue
    **Owner: Product Manager**
-   - Use the [Usage Data Instrumentation Issue Template].(https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation) ALternatively you can also use the [CLI generator](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics) to automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
+   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation). Alternatively you can also use the [CLI generator](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics) to automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
    - Ensure proposed event properties align with analytics requirements
    - Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) for review
 
