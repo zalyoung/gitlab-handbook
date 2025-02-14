@@ -143,7 +143,7 @@ The following criteria must be met for a Service Attached Registration to be app
 
 Rebates are paid out no later than 45 days after the end of each quarter. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
-Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook.gitlab.com/handbook/resellers/channel-program-guide/#delivery-requirements).
+Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements).
 
 ##### Quote to Order
 
