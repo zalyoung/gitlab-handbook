@@ -98,10 +98,11 @@ While on shift the engineer should:
 1. Look at the channel at least once per day.
 1. For any incoming message for a sentry error try to find out:
    1. Is the error related to an existing issue?
-   1. Has the error ocurred more than once?
    1. Depending on that either:
-      1. create a new issue
-      1. link the error in an existing issue
+      1. Create a new issue.
+         1. Tag the EM in the issue.
+         1. If it turns out to be a [severity 1 issue](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), then announce it in Slack, to coordinate work on it.
+      1. Link the error in an existing issue.
       1. continue to observe the error the next days if it only occured once.
 1. Apply the ✅ as a reaction to the error once it's been triaged.
 
