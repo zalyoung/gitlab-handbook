@@ -170,7 +170,7 @@ Don't hesitate to ask for help from other team members with the [#g_custom_model
 To better support calls with customers (existing and prospects), Custom Models provides engineers that will prioritize customer support requests. This ensures both
 load and knowledge are shared across team members.
 
-| First Date | Last Date | Lead engineer | Back up engineer |
+| First Date | Last Date | Lead engineer | Backup engineer |
 |------------|-----------|---------------|------------------|
 | Feb 10     | Feb 16    | @eduardobonet | @mhamda          |
 | Feb 17     | Feb 23    | @mhamda       | @manojmj         |
@@ -195,8 +195,8 @@ During on call period, support requests should be acknowledge within 24h.
 - Act on outcomes of problems faced:
    1. Can we add documentation to help SA's and customers be more self-sufficient?
    1. Could the issue be improved by better tooling? Create an issue with the changes needed.
-   1. Was it a bug that we didn't caught? Ho can we avoid this the next time?
-- Notify the engineering manager and back up engineer whether they won't be available.
+   1. Was it a bug that we didn't caught? How can we avoid this the next time?
+- Notify the engineering manager and a backup engineer in advance if you won't be available.
 - Hand over the necessary context to the next engineer in support.
 
 It is NOT expected for engineers in support to:
@@ -205,7 +205,7 @@ It is NOT expected for engineers in support to:
 - Lead customer calls, unless discussed otherwise for a specific case
 - Present demos, unless discussed otherwise for a specific case
 
-### Responsibilities of back up engineers
+### Responsibilities of backup engineers
 
 - Join customer calls as a shadow.
 - Support the lead engineer in support in case they are not available due to unforseen circumstances.
