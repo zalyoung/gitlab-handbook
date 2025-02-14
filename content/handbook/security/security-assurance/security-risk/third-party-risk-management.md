@@ -484,7 +484,6 @@ In specific instances, requirements for the performance or contents of TPRM revi
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
