@@ -110,7 +110,7 @@ Share that a handover has happened in the incident's Slack channel, and cross-po
  
 Apply the correct labels and milestones in the SIRT issue so that we can track the work done in our metrics.
 
-```
+```text
 /label ~"AppSecWorkType::SIRTandSecurityComms" ~AppSecWeight::<> ~"Application Security Team" ~"AppSecWorkflow::complete" 
 /milestone %<>
 ```
