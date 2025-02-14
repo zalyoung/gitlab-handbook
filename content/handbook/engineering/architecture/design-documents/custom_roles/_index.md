@@ -15,9 +15,9 @@ toc_hide: true
 # Overview
 
 GitLab Custom Roles lets Ultimate subscribers create roles with specific permissions that fit their team's needs. Instead of using only the standard roles (Guest, Reporter, Developer, Maintainer, Owner), administrators can create new roles with exactly the permissions they want. This works for both project/group permissions and admin area access.
-For example, an Ultimate customer could create an "Engineer" role with `read code` and `admin merge requests` abilities, but without abilities like `admin issues`.
+For example, an Ultimate customer could create an "Engineer" role based on the Guest standard role with `read code` and `admin merge requests` abilities, but without abilities like `admin issues`.
 
-Each role can be customized by turning specific permissions on, making it easy to give team members just the access they need.
+Each role can be customized by turning specific permissions on, making it easy to give team members just the access they need. Currently, custom abilities can only be added to standard roles, not subtracted.
 
 # Custom roles vs default roles
 
@@ -25,7 +25,7 @@ In GitLab 15.9 and earlier, GitLab only had [default roles](https://docs.gitlab.
 
 With custom roles, the customers can decide which abilities they want to assign to certain user groups. For example:
 
-- In the default role system, reading of vulnerabilities is limited to a Developer role.
+- In the default role system, reading of vulnerabilities is limited to at least the Developer role.
 - In the custom role system, a customer can assign this ability to a new custom role based on any default role.
 
 Like default roles, custom roles are [inherited](https://docs.gitlab.com/ee/user/project/members/#membership-types) within a group hierarchy. If a user has custom role for a group, that user will also have a custom role for any projects or subgroups within the group.
@@ -51,12 +51,12 @@ The terms "permission" and "ability" are often used interchangeably.
 
 - Based on a default role
 - Has one or more additive permissions
-- Scoped to projects and groups
+- Scoped to projects and/or groups
 - Hierarchical Permission Inheritance:
   - A user with different custom roles at different levels receives all permissions
   - Example: If a user has guest+read_code in Group A and guest+read_vulnerability in Project B (within Group A),
     they will effectively have guest role with both read_code and read_vulnerability permissions in Project B
-  - When goping down the hiearchy, only custom roles with same or higher base role can be added
+  - When going down the hierarchy, only custom roles with same or higher base role can be added
 
 ### Admin Permissions
 
@@ -125,7 +125,7 @@ MemberRoles::RolesFinder is a search service class that filters and sorts member
 - YAML configuration in `ee/config/custom_abilities`
 - Schema validation and spec file generation
 - Feature flag support with `custom_ability_<name>` pattern
-- Policy updates in GroupPolicy and/or ProjectPolicy + specific entites if needed
+- Policy updates in GroupPolicy and/or ProjectPolicy + specific entities if needed
 - For detailed process on how to add custom permissions, please refer to the [respective contributor documentation page.](https://docs.gitlab.com/ee/development/permissions/custom_roles.html)
 
 ### Development Status
