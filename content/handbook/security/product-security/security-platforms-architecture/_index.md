@@ -24,3 +24,30 @@ In FY26, our key focus areas are:
 - Software Supply Chain and Ecosystem Security
 - Authorization and Authentication
 - AI Security
+
+In the near future, we will expand upon these priorities and produce a high-level team-wide roadmap.
+
+## FY26 Key "Good Job" Metrics 
+
+The following are key metrics we will start tracking in FY26 to measure the SPA team's success delivering upon our charter, with e-Group as our intended audience. These reflect the reality that our ultimate success lies not in our individual activity, but requires working across teams and driving results that directly benefit our customers. 
+
+Additional Notes:
+
+- The SPA team launched in FY26Q1. As the team matures, these metrics will evolve. 
+- These metrics are _in addition_ to team-level, project, and operational metrics. 
+- For many of these, metrics instrumentation and reporting mechanisms are still forthcoming.
+
+| **FY26 Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| **Architectural Documentation Coverage** | ProdSec's fluency in GitLab's architecture enables comprehensive risk assessment of our platform, proactively identifies opportunities to improve our security posture, accelerates secure software review and delivery, and reduces PSIRT response times | TBD | This percentage should steadily increase through FY26 | Monthly | TBD | As this coverage increases, we will shift to measuring risk assessment coverage across our architecture instead. | 
+| **Product Security Risk Mitigations** | TBD - I need a wordsmithing brain break | The count of closed MRs linked to risks in the [Product Security Risk Register](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Department%3A%3AProduct%20Security&first_page_size=20) | Baseline Required | TBD | Monthly Product Security Risk Register Report (to be established) | This Monthly Product Security Risk Register Report will also detail other PSRR operational metrics like number of new risks documented, reviewed, assigned, prioritized, remediated, mitigated to an acceptable level, and closed. However, for purposes of executive-level metrics, we will focus on mitigations. |
+| **Security Research Findings Mitigations Completed** | TBD - I need a wordsmiting brain break | TBD | Baseline Required | Monthly | TBD | TBD |  
+| **Direct product contributions to security roadmap initiatives and enhancements** | TBD - I need a wordsmithing brain break | TBD - MRs, this is documented somewhere already | TBD | Monthly | TBD | TBD |  
+| **Percentage of new features dogfooded and validated by Product Security before launch** | Tie to Objective 3 - Customer Focused Innovation - strong upsell paths to Ultimate - Customer 0 to validate functionality before release | TBD | TBD | TBD | TBD | TBD |  
+| **Percentage of product-applicable security processes effectively supported by GitLab features** | Tie to Fully realize GitLab's all-in-one DevSecOps narrative | TBD | TBD | TBD | TBD | The designation of 'product-applicable' accounts for the possible existence of GitLab-specific security processes that lack utility for GitLab customers. We will evaluate these as they are identified. |  
+
+
+
+
+
+
