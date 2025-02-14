@@ -108,5 +108,4 @@ Changes and exceptions to this policy must be approved by the appropriate Infras
 
 ## References
 
-- [Information Security Policy](/handbook/security)
 - [Records Retention & Disposal](/handbook/security/records-retention-deletion/)
