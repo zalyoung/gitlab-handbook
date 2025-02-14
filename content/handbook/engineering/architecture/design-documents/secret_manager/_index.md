@@ -82,7 +82,6 @@ This blueprint does not cover the following:
 ## Decisions
 
 - [ADR-005: Non-hierarchical key structure for secrets in OpenBao](decisions/005_secrets_key_structure/)
-- [ADR-006: Use AppRole authentication method between Rails and OpenBao](decisions/006_approle_authentication_rails/)
 - [ADR-007: Use OpenBao as the secrets management service](decisions/007_openbao/)
 - [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
 
@@ -94,6 +93,7 @@ These documents are part of the initial iteration of this blueprint.
 - [ADR-002: Use GCP Key Management Service](decisions/002_gcp_kms/)
 - [ADR-003: Build Secrets Manager in Go](decisions/003_go_service/)
 - [ADR-004: Stateless Key Management Service](decisions/004_stateless_kms/)
+- [ADR-006: Use AppRole authentication method between Rails and OpenBao](decisions/006_approle_authentication_rails/)
 
 ## Proposal
 
@@ -151,12 +151,12 @@ advanced features such as Transit for other solutions inside GitLab Rails.
 
 Within OpenBao, we'll use two authentication engines:
 
- 1. [AppRole](https://openbao.org/docs/auth/approle/), to authenticate GitLab
-    Rails to OpenBao Server for privileged access.
- 1. [JWT](https://openbao.org/docs/auth/jwt/), to authenticate created
-    pipeline jobs to OpenBao. These will be issued by GitLab Rails,
-    using GitLab [OIDC ID Tokens](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
+ 1. [JWT](https://openbao.org/docs/auth/jwt/), to authenticate Rails to OpenBao
+    and created pipeline jobs to OpenBao. All of these JWTs will will be issued
+    by GitLab Rails, using GitLab [OIDC ID Tokens](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
     supported by the existing [HashiCorp Vault Runner integration](https://docs.gitlab.com/ee/ci/secrets/hashicorp_vault.html).
+    Claims on tokens for administrative use by Rails will have different
+    values than those issued for GitLab's OIDC ID tokens.
 
 ```mermaid
 flowchart LR
@@ -282,13 +282,13 @@ direct access even if they don't otherwise have secrets management
 capabilities.
 
 Initially, users will manage secrets through GitLab Rails and its broader
-AppRole token, but the intent longer-term is to use per-user JWTs. The
+privileged JWT tokens, but the intent longer-term is to use per-user JWTs. The
 current design necessitates that GitLab Rails sees the value of the secret,
 proxying it on behalf of the Browser UI to OpenBao. By using a per-user JWT
 issued to the browser session in LocalStorage, the UI can directly contact
 the public OpenBao instance and GitLab Rails will not have access to the
 secret during provisioning and thus, risk inadvertently logging it. However,
-the privileged AppRole token will still be used to safely limit changes to
+the privileged JWT token will still be used to safely limit changes to
 the ACL policies.
 
 ### Secret and authentication hierarchy
@@ -366,7 +366,7 @@ Authentication uses five sets of mounts:
 - `/auth/group_{groupid}/pipeline_jwt`
 - `/auth/org_{orgid}/pipeline_jwt`
 - `/auth/user_jwt`
-- `/auth/gitlab_approle`
+- `/auth/gitlab_jwt`
 
 In particular, because pipelines may need access to nested secrets, but
 won't need access to anything outside the tenant's scope, we will provision
@@ -385,6 +385,23 @@ the secrets of.
 Aside: presently the order is auth and then tenant segment, but when adding
 proper namespace support, auth mounts could be inside of a tenant and thus
 the order will be swapped to e.g., `/user_{userid}/auth/pipeline_jwt`.
+
+##### GitLab Privileged JWT
+
+Initially using the same JWT issuer, though potentially migrating to a
+purpose-built issuer, GitLab will issue itself JWTs to authenticate against
+the privileged `/auth/gitlab_jwt` path. The subject of this token and other
+fields will be uniquely different than the OIDC ID tokens issued to pipelines,
+preventing them from successfully authenticating against this endpoint.
+
+Long-term, we'll attempt to tie inbound GitLab Rails requests to outbound,
+user-initiated management actions via custom claims on these JWTs, allowing
+auditing and attribution from source request through to OpenBao.
+
+Using JWTs instead of AppRole removes the need for additional, external
+secrets management in the operational side of GitLab Rails: it already has
+access to the provisioned JWT issuer and thus can self-issue JWTs to auth
+against OpenBao as it remains in a privileged place in the design.
 
 #### ACL design
 
@@ -538,10 +555,10 @@ granted in a given view and expand OpenBao to allow templating of profiles
 user). This would be rather involved but would help scope user JWTs more
 specifically.
 
-The upgrade path (from global AppRole token to incrementally using these
-policies) would simply be changing the Rails code to generate a user JWT
-and updating the Ruby client's request to authenticate and use the subsequent
-token for a particular request instead of the global AppRole token.
+The upgrade path (from privileged JWT token to incrementally using tightly
+scoped policies) would simply be changing the Rails code to generate a user
+JWT and updating the Ruby client's request to authenticate and use the
+subsequent token for a particular request instead of the privileged JWT token.
 
 Note that users lack read permissions on the actual secret; they can only set
 the value. When rolling out dynamic secrets, users would be granted full
@@ -979,8 +996,7 @@ nodes on secondary sites.
 OpenBao maintains an upstream [Helm chart](https://github.com/openbao/openbao-helm)
 that can be used for deploying OpenBao in a Kubernetes environment. This can
 be referenced and configured from the [GitLab Helm chart](https://docs.gitlab.com/charts/)
-as required. In Kubernetes deployments, Proxy can be used in a sidecar
-container in the Rails monolith.
+as required.
 
 For self-hosted, OpenBao server will also be executed by GitLab Rails.
 

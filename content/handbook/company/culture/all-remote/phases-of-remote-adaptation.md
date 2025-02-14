@@ -146,14 +146,14 @@ An organization's ability to transition quickly from Phase 1 to Phase 3 is depen
 - Is there a natural inclination to open up a feedback mechanism to shape a company-wide transition, or is leadership's first instinct to implement strict rules and check-ins?
 - Does management default to creating a [single source of truth](handbook-first/) for processes and protocols, or are FAQs and communiques created behind closed doors and only by executives?
 - Does management seek to listen to newly-remote team members to understand what voids exist and need to be addressed? Said another way, do they default to servant leadership in early phases of remote adaptation?
-- Does management seek to maximize the [advantages]({{< ref "remote-benefits" >}}) of a remote environment once stabilization occurs?
+- Does management seek to maximize the [advantages](/handbook/company/culture/all-remote/remote-benefits/) of a remote environment once stabilization occurs?
 
 ### Technical maturity
 
-- Do team members have a preexisting understanding of [digital communication tools]({{< ref "communication" >}})?
+- Do team members have a preexisting understanding of [digital communication tools](/handbook/communication/)?
 - Do team members have preexisting methods of accessing sensitive information (e.g. established VPN protocols)?
 - Does a company's [business operations](/handbook/business-technology) or IT department have preexisting protocols for enabling team members from locales outside of the office?
-- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](in-person/), [expensing](/handbook/finance/spending-company-money/), working hours, [metrics and goals](/handbook/company/okrs), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
+- Does a company have preexisting documentation for core company processes ([communication](/handbook/communication/), client service expectations, socializing and relationship building, onboarding, [in-person interactions](in-person/), [expensing](/handbook/finance/spending-company-money/), working hours, [metrics and goals](/handbook/company/okrs), owners/[DRIs](/handbook/people-group/directly-responsible-individuals/), etc.)
 
 ## GitLab Knowledge Assessment: Phases of Remote Adaptation
 
@@ -163,8 +163,8 @@ Anyone can test their knowledge on the phases of remote adaptation by completing
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

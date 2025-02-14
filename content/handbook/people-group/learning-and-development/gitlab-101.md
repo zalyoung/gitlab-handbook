@@ -106,14 +106,14 @@ As you learned in the technical terminology portion, a GitLab Issue is the funda
 To open a GitLab issue:
 
 1. Navigate to the project where you want to open the issue
-   1. **How do you know what project to use?** - Find the project that is most relevant to the issue you want to create. For example if you wanted to open an issue on something relating to our [benefits]({{< ref "benefits" >}}), you would open an issue in the Total Rewards project. If you do open an issue in an incorrect project, you can move it. We will cover that as the next topic.
+   1. **How do you know what project to use?** - Find the project that is most relevant to the issue you want to create. For example if you wanted to open an issue on something relating to our [benefits](/handbook/total-rewards/benefits/), you would open an issue in the Total Rewards project. If you do open an issue in an incorrect project, you can move it. We will cover that as the next topic.
 1. Select "Issues" in the left hand side
 1. Click the blue "New issue" button in the top right
 1. Add in a Title for the issue
 1. In the Description add any relevant information
 1. Click the "preview" button at the top of the issue box to preview your issue and make sure you have formatted everything correctly
 1. Decide whether the issue needs to be confidential or not
-   1. **How do you know if your issue should be confidential or not?** [Transparency](/handbook/values/#transparency) is one of our values so we try to be open about as many things as possible. Only use confidential issues, if the issue must contain [non-public information]({{< ref "confidentiality-levels#not-public" >}}).
+   1. **How do you know if your issue should be confidential or not?** [Transparency](/handbook/values/#transparency) is one of our values so we try to be open about as many things as possible. Only use confidential issues, if the issue must contain [non-public information](/handbook/communication/confidentiality-levels/#not-public).
 1. Assign the issue to the relevant person (that might be you!)
 1. If relevant: assign a milestone
 1. If relevant: add a label (or multiple)

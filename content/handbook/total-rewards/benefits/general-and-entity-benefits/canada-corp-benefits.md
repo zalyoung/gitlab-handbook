@@ -180,7 +180,7 @@ Employer contributions are made to the federal Canada Pension Plan (CPP).
 
 ## PTO and Vacation Information
 
-GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page]({{< ref "paid-time-off#statutory-vacation-requirements" >}}). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
+GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page](/handbook/people-group/paid-time-off/#statutory-vacation-requirements). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
 
 ## Sick Pay
 
@@ -255,7 +255,7 @@ Québec - [La Loi sur les normes du travail (N-1.1)](https://www.legisquebec.gou
 - Team members in Ontario, British Columbia, Alberta, and Manitoba may be eligible to receive [Employment Insurance Maternity Benefit](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.1) through the Government of Canada for up to 15 weeks of Maternity Leave if they meet the required eligibility criteria.
   - The Province of Québec is responsible for providing maternity, paternity, parental, and adoption benefits to residents of Quebec through a program called the [Québec Parental Insurance Plan](https://www.rqap.gouv.qc.ca/en/about-the-plan/general-information/premiums-and-maximum-insurable-earnings).
 - Team members may also be eligible to receive Employment Insurance Parental Benefit (see below) if they meet the required eligibility criteria.
-- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab's top-up payment under Parental Leave will equal 100% of the team members' normal weekly salary during each week of the top-up payments.
+- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab's top-up payment under Parental Leave will equal 100% of the team members' normal weekly salary during each week of the top-up payments.
 - If a team member is ineligible to receive Employment Insurance, but eligible to take GitLab's paid Parental Leave, GitLab will pay 100% of the team members' normal weekly salary for up to 16 weeks of leave.
 - To determine your eligibility for such benefits and/or apply for Employment Insurance, follow the instructions on the [Service Canada website](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.3). Please note that GitLab is not responsible for, or at all involved in, the adjudication of claims for employment insurance benefits.
 
@@ -263,13 +263,13 @@ Québec - [La Loi sur les normes du travail (N-1.1)](https://www.legisquebec.gou
 
 - Team members in Ontario, British Columbia, Alberta, and Manitoba may be eligible to receive [Employment Insurance Standard Parental Benefit](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.1-h3.2) through the Government of Canada of up to 35 weeks or [Employment Insurance Extended Parental Benefit](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.1-h3.2) of up to 61 weeks if they meet the required eligibility criteria.
   - The Province of Québec is responsible for providing maternity, paternity, parental, and adoption benefits to residents of Quebec through a program called the [Québec Parental Insurance Plan](https://www.rqap.gouv.qc.ca/en/about-the-plan/general-information/premiums-and-maximum-insurable-earnings).
-- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab's top-up payment under Parental Leave will equal 100% of the team members' normal weekly salary during each week of the top-up payments.
+- If a team member is eligible to receive Employment Insurance and also eligible to receive payments under [GitLab's paid Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Employment Insurance payments for up to 16 weeks such that the gross amount of the Employment Insurance payments plus GitLab's top-up payment under Parental Leave will equal 100% of the team members' normal weekly salary during each week of the top-up payments.
 - If a team member is ineligible to receive Employment Insurance, but eligible to take GitLab's Parental Leave, GitLab will pay 100% of the team members' normal weekly salary for up to 16 weeks of leave.
 - To determine your eligibility for such benefits and/or apply for Employment Insurance, follow the instructions on the [Service Canada website](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/maternity-parental.html#h2.3).  Please note that GitLab is not responsible for, or at all involved in, the adjudication of claims for employment insurance benefits.
 
 ### Applying for Parental Leave in Canada
 
-- To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 6 weeks before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+- To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 6 weeks before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 - Pregnant team members must provide a certificate from a health care practitioner certifying their pregnancy to the Absence Management team at `leaves@domain.com`.
 
 ### GitLab Parental Leave Payments and Employment Insurance

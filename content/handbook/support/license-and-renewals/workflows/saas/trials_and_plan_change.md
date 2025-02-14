@@ -15,22 +15,8 @@ category: GitLab.com subscriptions & purchases
 
 GitLab.com Premium customers who want to trial SaaS Ultimate have two options to do so:
 
+1. Customers can self-service an Ultimate trial, including Duo Enterprise, on top of their existing paid Premium plan for 60 days from a CTA button on the group's Billing page, see [here in the internal handbook](https://internal.gitlab.com/handbook/product/fulfillment/saas-ultimate-trials/#gitlabcom-ultimate-trial-on-existing-premium-group-details) or the [documentation page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-enterprise-trial) for details
 1. Request an Ultimate trial from [GitLab's public trial page](https://about.gitlab.com/free-trial/?hosted=sass). This will require the customer to set up a new namespace to which to apply the trial. No Sales or Support action will be required.
-1. Temporarily upgrade their existing GitLab Premium subscription to a GitLab Ultimate Trial.
-
-- As part of the initiative to enable current SaaS Premium customers to trial SaaS Ultimate on their primary namespace, the first iteration implementation now grants L&R Support the capability to temporarily upgrade an existing Premium subscription to an Ultimate trial subscription. To facilitate this process, the customer's Account Executive must use the following instructions:
-
-  - Go to the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/); you must have a [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to use this form.
-  - Under `What is this request concerning`, select `License and Renewal Related Requests` > `GitLab Support Internal Request for Global Customers`.
-  - In the form that appears, under `What type of GitLab Support Internal Request is this for?`, select `SaaS Trial Related` > `Request an Ultimate trial for a customer using a Premium subscription`.
-  - Fill out the required fields and click Submit request. If you need assistance filling out the form, please ask in the `#support_operations` Slack channel.
-
-Once the form has been submitted, the L&R Support Engineer should follow the workflow outlined in the following [video](https://www.youtube.com/watch?v=wJCrh45Ug2Q), which entails:
-
-- Locating the correct `Customer` record by searching `Customers`.
-- Clicking the (i) info button on the customer record.
-- Going to the `Zuora Subscriptions` tab.
-- Selecting the appropriate namespace and pressing the `Apply Ultimate Trial` button.
 
 #### Subscription seats during trials-over-subscription
 
@@ -60,19 +46,19 @@ Sales will often request through a Zendesk Ticket that we extend the duration of
 
 If any fields when opening the ticket were filled out incorrectly,  send a public reply in the ticket asking the submitter to supply the missing information.
 
-> **NOTE**: Due to [customers #973](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/973) and [customers #1643](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1643), these must be done via [mechanizer]({{< ref "mechanizer" >}}) or [CustomersDot console]({{< ref "customer_console" >}}). Once those issues are resolved, these requests should be done via CustomersDot admin.
+> **NOTE**: Due to [customers #973](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/973) and [customers #1643](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1643), these must be done via [mechanizer](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/) or [CustomersDot console](/handbook/support/license-and-renewals/workflows/customersdot/customer_console/). Once those issues are resolved, these requests should be done via CustomersDot admin.
 
 1. Take ownership of the ZD ticket.
 1. Check over the request and ensure that we've been provided enough information to action the request. To do this check that:
    1. The `Namespace:` field contains a valid GitLab namespace and it that holds the trial plan (active or expired). This should not be a Salesforce link or email address.
    1. The `Extend the date to:` field contains a future date. (Trial expires around 23:59 UTC on this date)
    1. The `Trial license plan:` field is filled out
-1. Use the [Manage GitLab Plan and Trials]({{< ref "mechanizer#manage-gitlab-plan-and-trials" >}}) to process the request.
+1. Use the [Manage GitLab Plan and Trials](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#manage-gitlabcom-plan-and-trials) to process the request.
    1. This should create a new internal request issue documenting the change action. Reference this new issue to the ZD Ticket where the extension was requested.
    1. If there is an error while taking action, check the internal issue to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry) if needed) and file an issue, or comment on an existing one.
 1. If namespace needs to be adjusted manually, then raise a new internal issue with details and  `~Console Escalation::Customers` label.
 
-If a customer is requesting a trial extension, please follow [Working with Sales workflow]({{< ref "working_with_sales" >}}) to let Sales team know in case they would like to have a discussion with the customer.
+If a customer is requesting a trial extension, please follow [Working with Sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales/) to let Sales team know in case they would like to have a discussion with the customer.
 
 ### Customer requests for a subscription extension
 
@@ -96,7 +82,7 @@ When a customer requests a subscription extension, follow the steps below based 
         - Inform the customer that such requests have to be channeled through sales and provide them with their AE's email address before closing the ticket.
         - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
     **SMB Customers:**
-        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](../../../sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
         - Provide the Salesforce (SFDC) ticket ID to the customer.
         - Close the ticket.
 
@@ -122,7 +108,7 @@ Please note that the above approach has the following caveats:
    yourself so that you will receive the customer's response and be
    able to take action quickly.
 1. This is done via the Mechanizer tool through
-   [Manage GitLab Plan and Trials]({{< ref "mechanizer#manage-gitlab-plan-and-trials" >}}).
+   [Manage GitLab Plan and Trials](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#manage-gitlabcom-plan-and-trials).
 
 **Note**: We cannot extend the trial if the customer hasn't started one on the namespace. The Subscription name field in the ZenDesk Mechanizer app is there for that reason. When there's a Subscription name, the mechanizer will create a new trial for the namespace.
 
@@ -155,7 +141,7 @@ Plan changes should **never** be done manually except in the following cases:
 
 Plan changes on a paid non-trial namespace should be done through a subscription purchase.
 
-If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/#3-other-legal-requests) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
+If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/issue-tracker-workflows/) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
 
 ### Downgrading to a free plan
 
@@ -222,7 +208,7 @@ To extend a trial SaaS extension.
 
 1. Execute the command to synchronise the update: ```Gitlab::Namespaces::UpdatePlanInfoService.new(o, force_sync: true).execute```
 1. In GitLab.com admin, edit the group and update the **Quota of compute minutes** to 400. See next step on how to find the admin screen.
-1. [Add an admin note]({{< ref "admin_note" >}}) for the group to document the partner has an NFR subscription and link the issue.
+1. [Add an admin note](/handbook/support/workflows/admin_note/) for the group to document the partner has an NFR subscription and link the issue.
 
 Some important information to consider:
 

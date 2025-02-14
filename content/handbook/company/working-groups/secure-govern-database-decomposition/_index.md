@@ -193,7 +193,7 @@ See [rollout for full details](https://gitlab.com/groups/gitlab-org/-/epics/1523
 
 | Reference | Description |
 | ---       | ---         |
-| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
+| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/_index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
 | [Link](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043) | Epic dashboard for tracking outstanding work towards completion of decomposition |
 
 ## Thanks

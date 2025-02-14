@@ -185,8 +185,8 @@ Each of these platforms support search via hashtag. Be aware that many results w
 1. `#telecommute`
 1. `#locationindependent`
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](/handbook/company/culture/all-remote/remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

@@ -22,7 +22,7 @@ The following incentives are available for GitLab team members. Also see our sep
 1. As with other bonuses, only active GitLab team members can be nominated and can nominate other GitLab team members to receive discretionary bonuses.
    Should a nominated team member leave GitLab, they will not receive a discretionary bonus.
    It's at the discretion of the manager if they still want to publicly recognize the team member's behavior for the nomination.
-1. Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing [underperformance remediation]({{< ref "underperformance" >}})). If a team member receives a discretionary bonus nomination during a period of underperformance remediation, managers should wait until the underperformance remediation period concludes successfully before determining whether to admit the discretionary bonus request.
+1. Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing [underperformance remediation](/handbook/leadership/underperformance/)). If a team member receives a discretionary bonus nomination during a period of underperformance remediation, managers should wait until the underperformance remediation period concludes successfully before determining whether to admit the discretionary bonus request.
 1. Any bonus that sits idle for 90 days will be automatically canceled. At GitLab, only 90 days of Slack is retained and therefore any history of this request has also been deleted for the approver.
 
 ### Valid and Invalid criteria for discretionary bonuses
@@ -136,7 +136,7 @@ graph TD;
 
 ### Working Group Bonus
 
-1. Sometimes a [working group]({{< ref "structure#working-groups" >}}) strongly displays GitLab Values over a period, project or situation. For this case, use the  Working Group Bonus.
+1. Sometimes a [working group](/handbook/company/structure/#working-groups) strongly displays GitLab Values over a period, project or situation. For this case, use the  Working Group Bonus.
 1. As with individuals, we recognize those who make up that group through the `#thanks` channel and sometimes through a Working Group Bonus.
 1. Anybody can [recommend a Working Group Bonus](#process-for-recommending-working-group-bonus-in-workday) through the managers of the individuals involved for $100 per person at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates).
 
@@ -288,6 +288,12 @@ All team members can make nominations for both The DZ Award and Values Awards. W
 - The nominations are finalized and E-group will discuss the nominees from each group and select the award winners.
 - The award winners will be announced.
 
+## CTO DevSecOps Innovation Award
+
+The DevSecOps Innovation Award is a recognition program for GitLab team members who are leveraging our platform and its features to improve the productivity and effectiveness of how they approach their day-to-day work. **Dogfooding** our product is critical to learning how to improve the product, not just for ourselves but also for our customers. By understanding our internal use of the product, we can enhance both our productivity and our ability to market and promote the platform to others.
+
+More details about this award can be seen on the [internal handbook page](https://internal.gitlab.com/handbook/engineering/cto-programs/cto-devsecops-innovation-award/).
+
 ## Referral Bonuses
 
 Chances are that if you work at GitLab, you have great friends and peers who would be fantastic additions to our [Team](/handbook/company/team/) and who may be interested in joining our team. To help us grow with exceptional people, we have a [Referral Bonus](/handbook/hiring/referral-process/) that work as follows:
@@ -372,7 +378,7 @@ We canceled Contribute FY23-Q3 due to the COVID risk to team members in having a
 
 ### The Original Visiting Grant Program (suspended)
 
-Please note in FY21-Q1, GitLab suspended the Original Visiting Grant program until further notice. GitLab is an [all-remote company](/handbook/company/culture/all-remote/) with GitLab team-members all over the world. If you want to visit other team members to get to know them, GitLab will assist with travel expenses (flights, trains, and ground transportation to and from the airport) for a total of up to $150 for every team member that you visit and work with. Please note lodging is excluded. To be clearer, if you meet 2 [GitLab team members]({{< ref "top-misused-terms" >}}) during your visit, the maximum limit of your visiting grant could be $150x2. You don't need to work on the same project or team, either, so long as you discuss work for at least part of the time you're meeting. Before booking any travel using the travel grant budget please discuss your proposed travel with your manager. We encourage team members to utilize the travel grant, however in some cases - for example, a team member has performance issues related to their role - the visiting grant would not be applicable.
+Please note in FY21-Q1, GitLab suspended the Original Visiting Grant program until further notice. GitLab is an [all-remote company](/handbook/company/culture/all-remote/) with GitLab team-members all over the world. If you want to visit other team members to get to know them, GitLab will assist with travel expenses (flights, trains, and ground transportation to and from the airport) for a total of up to $150 for every team member that you visit and work with. Please note lodging is excluded. To be clearer, if you meet 2 [GitLab team members](/handbook/communication/top-misused-terms/) during your visit, the maximum limit of your visiting grant could be $150x2. You don't need to work on the same project or team, either, so long as you discuss work for at least part of the time you're meeting. Before booking any travel using the travel grant budget please discuss your proposed travel with your manager. We encourage team members to utilize the travel grant, however in some cases - for example, a team member has performance issues related to their role - the visiting grant would not be applicable.
 
 Note that meals and local travel while visiting are not typically covered for anyone as that wouldn't really be fair to those being visited. It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible and there are four or more GitLab team-members attending.
 
@@ -384,7 +390,7 @@ To claim the grant, include a line item on your expense report or invoice along 
 
 As we continue to prioritize the health and safety of our team members, GitLab is temporarily suspending the Significant Life Event Grant program until further notice.  We continue to monitor the situation and will update this information and the [travel policy](/handbook/finance/expenses/) accordingly.
 
-Recognizing that [GitLab Team Members]({{< ref "top-misused-terms" >}}) may wish to share significant events in each other's lives, such as weddings or civil partnerships, GitLab will assist with travel expenses to attend these events. This grant works the same way as the [Visiting Grant](#visiting-grant), except the reimbursement limit is $300 per team member you visit at an event.
+Recognizing that [GitLab Team Members](/handbook/communication/top-misused-terms/) may wish to share significant events in each other's lives, such as weddings or civil partnerships, GitLab will assist with travel expenses to attend these events. This grant works the same way as the [Visiting Grant](#visiting-grant), except the reimbursement limit is $300 per team member you visit at an event.
 
 ## GitLab Ultimate
 

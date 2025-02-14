@@ -476,37 +476,22 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-06-24 | Brandon Labuschagne |
-| 2024-07-01 | John Hope |
-| 2024-07-08 | Vladimir Shushlin |
-| 2024-07-15 | Kushal Pandya |
-| 2024-07-22 | John Hope |
-| 2024-07-29 | Vladimir Shushlin |
-| 2024-08-05 | Kushal Pandya |
-| 2024-08-12 | Donald Cook |
-| 2024-08-19 | John Hope |
-| 2024-08-26 | Vladimir Shushlin |
-| 2024-09-02 | Kushal Pandya |
-| 2024-09-09 | Donald Cook |
-| 2024-09-16 | Donald Cook |
-| 2024-09-23 | Kushal Pandya |
-| 2024-09-30 | John Hope |
-| 2024-10-07 | John Hope |
-| 2024-10-14 | Kushal Pandya |
-| 2024-10-21 | Donald Cook |
-| 2024-10-28 | John Hope |
-| 2024-11-04 | Vladimir Shushlin |
-| 2024-11-11 | Kushal Pandya |
-| 2024-11-18 | Donald Cook |
-| 2024-11-25 | John Hope |
-| 2024-12-02 | Vladimir Shushlin |
-| 2024-12-09 | Kushal Pandya |
-| 2024-12-16 | Donald Cook |
-| 2024-12-23 | John Hope |
 | 2024-12-30 | Vladimir Shushlin |
 | 2025-01-06 | Kushal Pandya |
 | 2025-01-13 | Donald Cook |
 | 2025-01-20 | John Hope |
+| 2025-01-27 | Vladimir Shushlin |
+| 2025-02-03 | Kushal Pandya |
+| 2025-02-10 | Donald Cook |
+| 2025-02-17 | John Hope |
+| 2025-02-24 | Vladimir Shushlin |
+| 2025-03-03 | Kushal Pandya |
+| 2025-03-10 | Donald Cook |
+| 2025-03-17 | John Hope |
+| 2025-03-24 | Vladimir Shushlin |
+| 2025-03-31 | Kushal Pandya |
+| 2025-04-07 | Donald Cook |
+| 2025-04-14 | John Hope |
 
 #### Links
 

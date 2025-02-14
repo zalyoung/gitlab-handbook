@@ -50,6 +50,10 @@ If the outdated logo is something you have access or permission to update, you c
 
 Please reach out in the #brand Slack channel if you have questions.
 
+### Naming process
+
+Our [naming handbook page](/handbook/marketing/brand-and-product-marketing/brand/naming/) contains everything you need to know about naming products, features, events, and other initiatives at GitLab. The Brand & Creative team is here to guide and facilitate this process. 
+
 ### Vendor reference requests
 
 If you receive a vendor request for GitLab to act as a reference (case study, blog post or GitLab logo on their website, etc.) for the product, service, or technology that your GitLab team is using, please refer to these guidelines and check to see if the request meets the criteria. If it does, you can move through the approval process to notify the Brand team of your request.

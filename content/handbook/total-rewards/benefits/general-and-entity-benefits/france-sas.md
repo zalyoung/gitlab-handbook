@@ -57,15 +57,15 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 
 #### Maternity Leave Payment
 
-- [Eligible team members](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-maternite-salariee) may apply for maternity allowance through social security. Statutory maternity leave runs concurrently with GitLab Parental Leave. If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) for GitLab Parental Leave and you receive a maternity leave allowance, GitLab will supplement your pay so that you receive 100% of your salary for the first 16 weeks of leave.
+- [Eligible team members](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-maternite-salariee) may apply for maternity allowance through social security. Statutory maternity leave runs concurrently with GitLab Parental Leave. If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) for GitLab Parental Leave and you receive a maternity leave allowance, GitLab will supplement your pay so that you receive 100% of your salary for the first 16 weeks of leave.
 
 #### Paternity Leave Payment
 
-- Team members are entitled to be paid by their employer for the first 3 days of paternity leave. [Eligible](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-paternite-accueil-enfant) team members may apply for paternity benefits through social security. Statutory paternity leave runs concurrently with GitLab Parental Leave. If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) for GitLab Parental Leave and you receive a paternity leave allowance, GitLab will supplement your pay so that you receive 100% of yor salary for the first 16 weeks of leave.
+- Team members are entitled to be paid by their employer for the first 3 days of paternity leave. [Eligible](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-paternite-accueil-enfant) team members may apply for paternity benefits through social security. Statutory paternity leave runs concurrently with GitLab Parental Leave. If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) for GitLab Parental Leave and you receive a paternity leave allowance, GitLab will supplement your pay so that you receive 100% of yor salary for the first 16 weeks of leave.
 
 #### Applying for Parental Leave in France
 
-To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ## GitLab France S.A.S. Paid Time Off (Vacation)
 

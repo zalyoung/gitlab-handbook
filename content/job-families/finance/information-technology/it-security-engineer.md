@@ -111,7 +111,7 @@ A Staff Security Engineer may decide to pursue the [Manager, IT Security Operati
 
 All interviews are conducted using Zoom video conferencing software. Candidates for this position can expect the hiring process to follow the order below, with modifications to the process as required, based on specific situations. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute Intervew with the Hiring Manager
 - After that, candidates will be invited to schedule a 30 minute interview with members of the IT team.
 - Finally, the candidates will interview with the Sr. Director of IT.

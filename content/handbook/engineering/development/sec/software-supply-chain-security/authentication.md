@@ -108,7 +108,7 @@ Lastly, due to the direct impact of authentication change on the ability to acce
 
 You are encouraged to work as closely as needed with stable counterparts. We include quality engineering and application security counterparts prior to a release kickoff and as-needed during code reviews or issue concerns.
 
-Quality engineering is included in our workflow via the [Quad Planning Process](/handbook/engineering/infrastructure/test-platform/quad-planning/) and is responsible for bug prioritization during release planning. They are also the DRI when it comes to adding new [end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/), though anyone can contribute. Here are some examples of when to engage with your counterpart:
+Quality engineering is included in our workflow via the Quad Planning Process and is responsible for bug prioritization during release planning. They are also the DRI when it comes to adding new [end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/), though anyone can contribute. Here are some examples of when to engage with your counterpart:
 
 - [Seeking Quality's opinion if an MR would introduce flakiness in existing end-to-end tests](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92333#note_1033648348)
 - [You need help deciding the best way to fix a test](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93467#note_1042495993)
@@ -140,7 +140,7 @@ However there are frequently instances where a review request primarily pertains
 We plan in monthly cycles in accordance with our [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline). Our typical planning cycle includes:
 
 - At the beginning of each month, Product creates [a planning issue](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the coming release.
-  - This issue should include the general themes of a release. It should also include placeholders for [the quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) to put their prioritized feature, bug, and maintenance lists.
+  - This issue should include the general themes of a release. It should also include placeholders for the quad to put their prioritized feature, bug, and maintenance lists.
   - Issues without estimates should be investigated by engineering throughout the month so weighting does not need to happen at once. Once the prioritized feature list is determined for a milestone, engineering will put a weight on any issues on the list that do not have a weight.
 - Within the first 12 days of the month we estimate the issues. We also identify any key issues that our team feels should be addressed in the upcoming milestone, including bugs, maintenance tasks, and new features. This approach helps us build a list of important issues that we all agree should be prioritized in future milestones.
 - By the 12th day, all planned issues proposed for the next release should be estimated by engineering and put into `~"workflow::ready for development"`.

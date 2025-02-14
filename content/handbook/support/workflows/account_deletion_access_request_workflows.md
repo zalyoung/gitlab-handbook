@@ -125,7 +125,10 @@ At this stage, do the following:
 
 ###### No Response
 
-If the user fails to respond within 7 calendar days, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
+If the user fails to respond within 7 calendar days:
+
+1. If you have not already done so, check the form comments for an alternative email, and if it was provided, tag Privacy in an internal comment in the Issue. The user likely never received notification of the Challenge Verifications and Privacy will review to determine if they should communicate directly with the user. Please do not close the Issue until you confirm with Privacy.
+1. If no alternative email was provided in the form comments, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
 
 <details>
   <summary markdown="span">Request Closed - No Response</summary>
@@ -161,7 +164,7 @@ For all other blocked or banned reasons, proceed to [step 2](#step-2-evaluate) f
 
 ##### **Step 2:** Evaluate
 
-Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification#evaluating-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
+Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification/#step-3-evaluating-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
 </details>
 
 - If the verification passes, proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue).
@@ -215,7 +218,7 @@ If the above conditions are not met, respond with the following before closing t
 ##### **Step 2.5:** Verification Passed - Unblock user
 
 1. Ensure that the user has passed the challenge questions and has been properly evaluated.
-1. Proceed to follow the [reinstating a blocked account workflow]({{< ref "reinstating-blocked-accounts#blocked-accounts" >}}). Generally, this means opening a Trust and Safety issue for evaluation.
+1. Proceed to follow the [reinstating a blocked account workflow](/handbook/support/workflows/reinstating-blocked-accounts/#blocked-accounts). Generally, this means opening a Trust and Safety issue for evaluation.
 1. Reply to the user to let them know.
 
 <details>

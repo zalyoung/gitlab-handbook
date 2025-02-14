@@ -14,7 +14,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
   - Please use confidential issues for topics that should only be visible to team members at GitLab.
 - [Accounts Payable](accounts-payable/)
 - [Expense Guidelines](expenses/)
-- [Operating Metrics]({{< ref "key-review" >}})
+- [Operating Metrics](/handbook/company/key-review/)
 - [Procurement](procurement/)
 - [Sales Comp Plan](sales-comp-plan/)
 - [Signature Authorization Matrix](authorization-matrix/)

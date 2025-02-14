@@ -83,7 +83,7 @@ For those looking for a somewhat more stable version of the continual road trip,
 {{% /card %}}
 {{% /cardpane %}}
 
-The beauty of [asynchronous communication]({{< ref "communication" >}}) is that you're able to travel more freely without the burden of needing to be online at a specific time. When you take your office on the road (or to the skies), keep your Slack status updated with your location, time zone, and expected working hours. This enables team members around the globe to easily recognize where you're at, and respect shifting work hours.
+The beauty of [asynchronous communication](/handbook/communication/) is that you're able to travel more freely without the burden of needing to be online at a specific time. When you take your office on the road (or to the skies), keep your Slack status updated with your location, time zone, and expected working hours. This enables team members around the globe to easily recognize where you're at, and respect shifting work hours.
 
 At GitLab, and other companies using Google Apps, your coworkers, trying to
 schedule meetings or interviews with you, will rely on Google calendar as the
@@ -99,7 +99,7 @@ when you will be working by looking at the unblocked times.
 
 ## Connect with locals
 
-At GitLab, our [Visiting Grant]({{< ref "incentives#visiting-grant" >}}) partially reimburses travel when one team member travels to visit another. In an all-remote setting, this encouragement is important. It sends a message that we should seek out opportunities to spend face-to-face time with colleagues when we travel.
+At GitLab, our [Visiting Grant](/handbook/total-rewards/incentives/#visiting-grant) partially reimburses travel when one team member travels to visit another. In an all-remote setting, this encouragement is important. It sends a message that we should seek out opportunities to spend face-to-face time with colleagues when we travel.
 
 For those in other remote companies, consider asking if there are colleagues located in areas where you intend to travel. If not, engage with local coworking spaces in order to build community and seek advice on the areas where you're traveling.
 
@@ -107,8 +107,8 @@ For those in other remote companies, consider asking if there are colleagues loc
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

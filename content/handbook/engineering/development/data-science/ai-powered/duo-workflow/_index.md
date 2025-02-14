@@ -76,8 +76,8 @@ These are the workflow labels we work with:
 We use priority labels to help with understanding the order in which issues should be worked on:
 
 1. **DuoWF-Prio::1**: These items are the primary deliverables of an iteration and should therefore be picked up first.
-1. **DuoWF-Prio::2**: Ideally, all of these items are deliverd throughout the iteration as well.
-1. **DuoWF-Prio::3**: These are likely follow-up issues that might depend on Prio 1 or 2 work or other kinds of issues that are not yet time-sensitive.
+1. **DuoWF-Prio::2**: We aim to deliver all of these items, but as part of planning ambitiously some of them might slip.
+1. **DuoWF-Prio::3**: These are likely follow-up issues that might depend on Prio 1 or 2 work or the are generally not yet time-sensitive.
 
 ## 👏 Communication
 
@@ -90,7 +90,7 @@ The Duo Workflow Team communicates based on the following guidelines:
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, so that the Engineering Manager is aware of PTO and can plan accordingly.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, in accordance with the [taking time off](/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
 
 ### 🤙 Ad-hoc sync calls
 
