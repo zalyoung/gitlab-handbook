@@ -337,7 +337,7 @@ If you have tried to create from the subcategory and you're still not able to cr
    - Proof of Performance issue
    - List Import issue
 5. In the marketing campaign epic, update the campaign details, user journey, joint messaging and all sections.
-6. Once the MDF request has been submitted and Channel Partner Marketing team creates the Marketo program and Salesfore campaign, on the Salesforce campaign, the MDF request number must be selected.
+6. Once the MDF request has been submitted and Channel Partner Marketing team creates the Marketo program and Salesforce campaign, on the Salesforce campaign, the MDF request number must be selected.
 7. During the nightly sync, "MDF 000" in the line item will update with the MDF number selected, alongside the MDF fields:
    - Target Number of Contact
    - Expected Number of DR

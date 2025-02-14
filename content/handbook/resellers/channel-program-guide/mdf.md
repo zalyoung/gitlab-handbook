@@ -123,14 +123,15 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 
 #### Phase 2: Processing MDF
 
-- When a MDF fund request is received, the Channel Marketing Manager receives an email alert to approve the MDF request.
+When a MDF fund request is received, the Channel Marketing Manager receives an email alert to approve the MDF request.
 <!--- At this point, all the MDFs that were approved and are ready to be processed.-->
 
-- Processing an MDF consists of:
-   - Adding the MDF in Salesforce, with all of its information.
+Processing an MDF consists of:
+
+- Adding the MDF in Salesforce, with all of its information.
 *We don't add this in the pre-planning phase because sometimes fund requests may get canceled or the Marketing Activity/event moves to a different date.*
-   - From Allocadia we opens issue for the MDF request.
-   - Marketo and Salesforce Campaign are created.
+- From Allocadia we opens issue for the MDF request.
+- Marketo and Salesforce Campaign are created.
 
 <!--- POP Tracking board:
 To better track the POP we have created a [MDF Operations Board](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/boards/5415585?label_name[]=MDF-POP).
@@ -173,7 +174,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 - If applicable, CMPM to ping procurement and finance in the Coupa req to notify them that the MDF has been canceled.
 - Once all sub-issues are closed, the CMPM will also note the cancellation in the epic and close the epic.
 - The CMPM will change the MDF Request status in SFDC from `Approved` to `Cancelled` or `denied` (where applicable) if request has been submitted by the partner. By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been cancelled or denied.
-- SFDC: CMPM to add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown. Also, unlink the `Partner Account` and unsync to `Vartopia`.
+- SFDC: CMPM to add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown. Also, unlink the `Partner Account` and un-sync to `Vartopia`.
 - Marketo: CMPM to delete Marketo program.
 
 <!--## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns

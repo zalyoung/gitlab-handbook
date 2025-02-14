@@ -19,7 +19,7 @@ At times GitLab needs to communicate a "breaking" change or details related to a
 
 ### Coverage Matrix
 
-Please review the coverage owner closest available per their timezone when deciding who to reach out to. 
+Please review the coverage owner closest available per their timezone when deciding who to reach out to.
 
 | MOPs Team Coverage                          | PT / ET Time Available                 | Coverage Owner: Monday - Friday | Backup: Monday - Friday | Coverage Owner GEO Time |
 |---------------------------------------------|-------------------------------|---------------------------|----------------------|-------------------|
@@ -48,7 +48,6 @@ Outside of normal working hours, we do not have an "on call" procedure, so pleas
 * #mktgops
 * Manager (Amy Waller)
 * If still no response, use Text or Whatsapp to contact Amy via the number in her slack profile. If you cannot reach her, try to reach out to a timezone appropriate member in the matrix above.
-
 
 ## Roles and responsibilities
 

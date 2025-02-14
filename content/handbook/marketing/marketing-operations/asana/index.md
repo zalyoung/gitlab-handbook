@@ -251,17 +251,25 @@ Turn any Slack message into an actionable Asana task with just a few clicks. A f
 
 1. Create a new task, assign it to yourself or a teammate, and add it to an existing project
 2. Mark a task complete, or make a comment
-3. Receive updates on task creation, completion, or 
+3. Receive updates on task creation, completion, or
 4. Stay up to date on projects with AI-generated Summaries
-   - Once an Asana task link is pasted in Slack, you can simply click on the “Summarize task” button and a summary is generated.
+   - Once an Asana task link is pasted in Slack, you can simply click on the "Summarize task" button and a summary is generated.
    - You can ask questions Asana AI in Slack to understand the latest updates on projects and tasks, identify next steps, uncover key blockers, and more.
 5. Create rules in Asana to trigger updates to Slack channels.
 
 ### Google Workspace
 
 1. Google Docs & Sheets - Connection will allow you to paste Asana projects/tasks and have them format well within the doc. To create tasks, you must use the Chrome Extension.
-2. GMail - Turn emails into tasks by syncing email threads into Asana. You can also mark tasks as complete, reply and post comments from notifications sent to your inbox.
+2. G-Mail - Turn emails into tasks by syncing email threads into Asana. You can also mark tasks as complete, reply and post comments from notifications sent to your inbox.
 3. Google Drive - Connect and link documents directly in the Asana task
+
+If you are using the Asana App, in order to connect your GDrive, follow these steps: (must have Yubikey)
+1. Make sure your Yubikey is registered in Okta
+2. Start the connection process using this guide - https://asana.com/apps/google-drive
+3. After entering your email address, you'll be prompted for your Okta password. Please enter that.
+4. Next you'll be prompted to use biometrics, but no pop-up will appear. Simply press the Yubikey at this point and the login process should continue.
+5. You may see a black window for a few seconds. Please keep this window open and wait for the next step to load.
+6. Confirm that you want to link the account.
 
 ### Chrome Browser
 
@@ -269,9 +277,10 @@ Utilize the Asana plugin in your chrome browser to quickly create tasks and add 
 
 ### Figma
 
-Limited integration, but allows you to view live embeds of Figma diagrams and charts directly inside of project briefs. 
+Limited integration, but allows you to view live embeds of Figma diagrams and charts directly inside of project briefs.
 
 **In Figma**
+
 - Open the file you want to embed in your Project Brief.
 - To link to a specific frame in the Figma file, select the frame.
 - Click the Share button in the toolbar.
@@ -279,6 +288,7 @@ Limited integration, but allows you to view live embeds of Figma diagrams and ch
 - Click Copy link when you're ready to embed the file.
 
 **In Asana**
+
 - Open the project where you'd like to embed a Figma file.
 - Go to the Overview tab.
 - In the Key Resources section, click Create a Project Brief. If there's already a Project Brief, click anywhere on the title.

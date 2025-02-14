@@ -162,15 +162,15 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
 
 ## Requesting MDF funds
 
-- Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/prm/English/s/add-mdf-request), and GitLab approvers will be notified of the request via email.
+- Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/prm/English/s/add-mdf-request), and GitLab approvers will be notified of the request through email.
   - The MDF proposal from the Regional Channel Marketing Manager
   - Once the MDF request has been either approved or declined the partner will be notified:
           - If declined, the partner will receive a notification informing that their request has been denied.
-          - If approved, the MDF Operation's team will [open an issue](/handbook/marketing/channel-marketing/channel-marketing-epics/) 
+          - If approved, the MDF Operation's team will [open an issue](/handbook/marketing/channel-marketing/channel-marketing-epics/)
 
 ### PTO Process for MDF Request Approvers
 
-Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you’ll need to create an issue request for support from MktgOps.
+Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you'll need to create an issue request for support from MktgOps.
 
 ### Demand Generation activities eligible for MD
 

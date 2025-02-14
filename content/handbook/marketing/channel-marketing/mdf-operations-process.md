@@ -203,7 +203,7 @@ description: "The page details the operational process for the MDF program."
          1. Expected Number of Deal Registration
          1. Estimated Pipeline Created (USD)
      1. Automated Line Item Name Updates
-         1. When Partner Marketing uses “MDF 000” as a placeholder
+         1. When Partner Marketing uses "MDF 000" as a placeholder
          1. System automatically replaces it with the actual MDF number
          1. Updates MDF number in the GitLab issue/epic name
      1. GitLab Integration Features - the system automatically populates GitLab issues with:
@@ -217,7 +217,7 @@ description: "The page details the operational process for the MDF program."
 
 1. Add Fund Request to epic and tracking spreadsheet.
 
-## Cancelled
+## Canceled
 
 At any time an MDF campaign has been cancelled, we want to ensure all programs created get marked as cancelled or deleted.
 
@@ -230,8 +230,7 @@ At any time an MDF campaign has been cancelled, we want to ensure all programs c
 
 1. Add `[CANCELLED]` to the beginning of the campaign name
 1. Update the Status to `Aborted`
-1. Remove the “Partner Account” and uncheck the
-1. Sync to Vartopia” checkbox
+1. Remove the "Partner Account" and uncheck the "Sync to Vartopia” checkbox
 
 ### PRM MDF Request
 

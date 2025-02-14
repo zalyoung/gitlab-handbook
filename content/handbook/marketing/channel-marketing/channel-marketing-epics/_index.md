@@ -20,14 +20,14 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 
 ## :key: Key Details
 
-### :round_pushpin: DRI  
-  
+### :round_pushpin: DRI
+
 * **Campaign Owner (CMM)**: {{userHandle}}
-* **Ecosystem Sales Manager**: `Insert ESM`  
-* [ ] **Manager Approval**: `Insert Ecosystem Director` - Approval required only for EMEA.  
-  
-### :handshake: Partner Details  
-  
+* **Ecosystem Sales Manager**: `Insert ESM`
+* [ ] **Manager Approval**: `Insert Ecosystem Director` - Approval required only for EMEA.
+
+### :handshake: Partner Details
+
 * **Channel Partner**: {{channelPartnerName}}
 * **Channel CRM ID**: {{channelPartnerCrmId}}
 * **Is an Alliance Partner Involved?**: {{isAlliancePartnerInvolved}}
@@ -42,7 +42,7 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 * [x] [**Salesforce Campaign**]({{campaignLink}})(automated)
   * [ ] **Funds Request** (add link)
   * [ ] **Fund Claim** (add link)
-* [ ] [**Marketo Program**]() - [process to follow](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#mdf-campaigns) Remember to paste **Allocadia Line Item ID** into Marketo Description field when syncing to SFDC. The line item in Allocadia will auto-tag/update once the SFDC Campaign is created and an ID match found.
+* [ ] [**Marketo Program**]() - [process to follow](/handbook/marketing/channel-marketing/#mdf-campaigns) Remember to paste **Allocadia Line Item ID** into Marketo Description field when syncing to SFDC. The line item in Allocadia will auto-tag/update once the SFDC Campaign is created and an ID match found.
 * [ ] [**Zip**]()
 
 ## :notepad_spiral: Campaign Details
@@ -74,7 +74,7 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 
 ## Joint Messaging
 
-Please provide high level joint messaging concepts that you will be using with the campaign 
+Please provide high level joint messaging concepts that you will be using with the campaign
 
 ## :level_slider: Sponsorship Level & Details
 
@@ -83,7 +83,7 @@ Please provide high level joint messaging concepts that you will be using with t
 ## :mega: Does this event have a speaking engagement?
 
 (Fill in if applicable, delete if not.)
-  
+
 ## :busts_in_silhouette: Staffing
 
 Please read through the [Event Handbook page](https://about.gitlab.com/handbook/marketing/events/#employee-booth-guidelines) for best practices at events. Once you commit to an event, please make sure to plan to attend.
@@ -93,15 +93,14 @@ Please read through the [Event Handbook page](https://about.gitlab.com/handbook/
 * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events.html#requesting-a-reference-customer).
 * [ ] GitLab AE
 * [ ] Other:
-  
 
 ### Lead Follow-up with Channel Partner
 
 - [x] Will the partner do the initial lead follow-up? _(Auto-checked - if Sales Dev is involved make sure to uncheck)_
 
-  - [x] YES, based on [process outlined here](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#channel-partner-lead-sharing-via-vartopia).
+  - [x] YES, based on [process outlined here](/handbook/marketing/channel-marketing/#channel-partner-lead-sharing-via-vartopia).
 	  - [x] Partner will submit for Deal Registration via Partner Portal
-          - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
+        - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
   - [ ] No
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
 
@@ -123,17 +122,16 @@ For all details regarding swag, [please see here](https://about.gitlab.com/handb
 
 ## :checkered_flag: Post Event
 
-
 <details>
 
 <summary> Expand </summary>
 
-* [ ] Import lead list to Google Drive 
+* [ ] Import lead list to Google Drive
 * [ ] Add proof of performance to the epic by posting the SFDC Fund Claim link
- 
+
 </details>
 
-/label ~"mktg-status::wip" ~“Channel Marketing” ~"Channel" ~"MDF" ~”Pending MDF Approval”
+/label ~"mktg-status::wip" ~“Channel Marketing" ~"Channel" ~"MDF" ~"Pending MDF Approval"
 
 /assign {{userHandle}}
 /confidential
