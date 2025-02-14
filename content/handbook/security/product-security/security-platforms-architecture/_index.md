@@ -1,6 +1,6 @@
 ---
 title: "Security Platforms & Architecture"
-description: "The Security Platforms and Architecture (SPA) team's mission is to address complex security challenges facing GitLab and its customers to enable GitLab to be the most secure software factory platform on the market."
+description: "The Security Platforms and Architecture (SPA) team's mission is to address complex security challenges facing GitLab and its customers, enabling GitLab to be the most secure software factory platform on the market."
 ---
 
 ## What We Do
