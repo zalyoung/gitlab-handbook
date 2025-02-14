@@ -27,6 +27,7 @@ title: "Channel Partner Implementation Services"
   - GitLab Runners represent the **largest workload the system generates.**  The Runner is the software that executes all of the CI pipelines.  It's possible to deploy them on fixed infrastructure, or autoscale them (up and down) in a cloud provider.
 - [GitLab Runner Installation](https://docs.gitlab.com/runner/install/)
 - [GitLab Runner Advanced Configuration](https://docs.gitlab.com/runner/configuration/)
+- [GitLab Runner Monitoring](https://docs.gitlab.com/runner/monitoring/) and [GitLab Runner Fleet Dashboards](https://docs.gitlab.com/ee/ci/runners/runner_fleet_dashboard.html)
 
 ## Deciding between GitLab Community and Enterprise Editions
 
