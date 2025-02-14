@@ -8,7 +8,7 @@ This guide to help team members who had an extra Google Chrome profile created a
 
 ## Steps
 
-**READ ME:** Read all the steps below running through the steps, we cannot recover a deleted Chrome profile if you delete the wrong one. 
+🚨 **READ ME:** Read all the steps below running through the steps, we cannot recover a deleted Chrome profile if you delete the wrong one. 🚨
 
 ### Deleting the newly created profile 
 
