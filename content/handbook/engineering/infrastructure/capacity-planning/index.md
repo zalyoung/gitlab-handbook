@@ -233,7 +233,7 @@ The manifest is generated from the GET metrics catalog using a [jsonnet generato
 ### Executing Tamland
 
 Tamland runs inside tenant environments on a daily cadence and produces forecasting data to a S3 bucket.
-For more information, please refer to [documentation](/handbook/engineering/infrastructure/team/scalability/observability/tamland/#gitlab-projects-and-capacity-planning-trackers) and this [project](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated).
+For more information, please refer to [documentation](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/capacity-planning/introduction/) and this [project](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated).
 
 ### Reporting and capacity warnings
 
