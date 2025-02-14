@@ -99,8 +99,7 @@ Each PSP must be:
 
 ##### Delivery Requirements
 
-- Each PSP must complete an average of at least 2 service engagements per GitLab Fiscal Quarter.
-  - As a note, the GitLab fiscal year starts on February 1 of each year.
+- Each PSP must complete an average of at least 2 service engagements per GitLab Fiscal Quarter. Note, the GitLab fiscal year starts on February 1 of each year.
 - Starting in Q3 FY25 (August 1, 2024), the following qualify as proof of completed service engagements:
     1. [Service Attach Registrations](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work)
     1. [Managed Services Provider deal registrations](/handbook/resellers/channel-working-with-gitlab/#submitting-a-deal-registration)
