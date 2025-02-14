@@ -113,7 +113,7 @@ This process ensures a balanced approach between feature development and technic
 
 The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but our teams work toward a single, aligned direction to accomplish their vision. This process describes how we achieve that alignment within the product group itself, and across the company. 
 
-1. Product will provide a proposed roadmap at the company level similar to this example
+1. Product will provide a proposed roadmap at the company level similar to [this example](https://docs.google.com/presentation/d/1BP1e7bzpW1AmvCSjluRSMUJbhkJwQe-Hwm3EHS0nS34/edit#slide=id.g2d8e6978604_0_506)
    - The intent is not to encompass every team, but rather most critical objectives to achieve
    - **Tier 1** topics are meant to be 100% committed to within the defined quarter
    - **Tier 2** topics are meant to be committed to with 80% confidence that it will be delivered in the defined quarter
