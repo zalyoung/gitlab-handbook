@@ -80,7 +80,7 @@ To schedule a technical interview, CES should follow the process outlined below:
   - Note: when you send the interview invite to the interviewer, select the template 'Technical Interview with MR'.
 - CES will then open the Guide extension in Greenhouse
   - Under Guide Process click Team Interview. Then click the interview you just scheduled. You will see a section to "add a description". CES will insert the appropriate text expander snippet here. This provides the candidate with additional information about what they can expect for their technical interview.
-- CES will proceed with sending the Guide. Guide processes can be found [here](/handbook/hiring/guide).
+- CES will proceed with sending the Guide.
 
 **No Work Submitted on the MR 24 hours Before Interview?**
 
@@ -150,8 +150,6 @@ When a candidate or an interviewer reaches out to CES via slack / email / Guide 
 #### Resource - Candidate Guide
 
 Please ensure you have the [guide Chrome extension](https://chrome.google.com/webstore/detail/resource-button/ikeemflbkbdhkgmgbdpeapmnnggbfogd) installed on your Chrome Browser.
-
-Guide processes can be found [here](/handbook/hiring/guide).
 
 #### If a Candidate Withdraws from the Hiring Process
 
