@@ -36,7 +36,6 @@ When creating a new project, please follow these steps:
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
 1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](/handbook/product/groups/product-analysis/engineering/dashboards).
 1. Help [AppSec](/handbook/security/product-security/application-security/) [categorize your new project](/handbook/security/product-security/application-security/inventory.md#how-to-categorize-projects).
-1. If your project contains code that is distributed with GitLab or is executed in production, set up [security jobs](https://gitlab.com/help/user/application_security/security_dashboard/index#gitlab-security-dashboard) for your project. 
 1. Enable the appropriate [security scanners](https://docs.gitlab.com/ee/user/application_security/).
 1. Onboard the project to Renovate (https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot), and set up a process to regularly triage findings and update dependencies
 1. If the repository is public, set up a [security mirror](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/mirrors.md).
