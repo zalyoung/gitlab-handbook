@@ -13,7 +13,6 @@ At GitLab, Service Design is a discipline within User Experience Research (UXR).
 - **Help teams adopt and implement new service solutions** through clear roadmaps and frameworks
 - **Contribute to a collaborative and open team culture** by participating in peer reviews, sharing knowledge in team discussions, and mentoring others to strengthen the UX team’s collective expertise.
 
-
 ## Basic Requirements
 
 - Ability to use GitLab
@@ -24,7 +23,6 @@ At GitLab, Service Design is a discipline within User Experience Research (UXR).
 - **Product & Business Acumen**: Understanding business goals, user needs, and technical constraints
 - **Change Management & Implementation**: Ensuring design solutions are adopted and scalable 
 - **UX Research & Design Thinking**: Leveraging qualitative research to inform service innovations
-
 
 ## Levels
 
@@ -68,7 +66,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 ### Step 1: Recruiter Screening Call
 
-Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters.  In this call, we will discuss your experience, understand what you are looking for in a service design role, talk about your work and approach to service design, discuss your compensation expectations, and reasons why you want to join GitLab, and answer any questions you have.
+Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.  In this call, we will discuss your experience, understand what you are looking for in a service design role, talk about your work and approach to service design, discuss your compensation expectations, and reasons why you want to join GitLab, and answer any questions you have.
 
 ### Step 2: Portfolio Review and interview
 
@@ -88,4 +86,4 @@ The next and final interview will be with a product manager and an engineering m
 
 Successful candidates will subsequently be made an offer through a video call or phone call.
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
