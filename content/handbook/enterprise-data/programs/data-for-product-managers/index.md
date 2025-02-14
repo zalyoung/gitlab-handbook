@@ -137,13 +137,26 @@ If your analytics needs for your new or recently modified feature are met by the
 
 ### Special Considerations for AI Gateway Features
 
-For features routed through the AI Gateway:
+When instrumenting features routed through the AI Gateway, follow these guidelines:
 
-- New distinct features should be represented as a [unit primitive](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector/-/tree/main/config/unit_primitives). This will enable AI features to be tracked automatically via a new AI Gateway events tracking system. AI Gateway events using the unit primitive framework cannot be blocked by users and are tracked at the event grain for all deployment types.
-- For reporting requiring more granularity than a 'request' of the AI Gateway, utilize [Internal Events Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html).
-- Internal events can be connected to unit primitive events seen in the AI Gateway using a `correlation_id` for behavior funnel use cases (for GitLab.com only).
-- [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview) will automatically display new unit primitive requests.
-- [AI Gateway instrumentation](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#internal-events-on-other-systems)
+1. Represent new features routed through the AI Gateway as unit primitives
+   - New distinct features should be represented as a [unit primitive](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector/-/tree/main/config/unit_primitives)
+   - To add a new unit primitive, reach out to ~"group::cloud connector"
+
+1. Set up tracking for the new unit primitive
+   - Contact ~"group::analytics instrumentation" with the necessary fields to be tracked
+   - For more information on AI Gateway instrumentation, see the [documentation](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#internal-events-on-other-systems)
+   - Once instrumented, AI Gateway events using the unit primitive framework:
+     - Cannot be blocked by users
+     - Are tracked at the event grain for all deployment types
+
+1. For more granular reporting
+   - If you need more detail than a 'request' of the AI Gateway at the broad feature grain, use [Internal Events Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html)
+   - Internal events can be connected to unit primitive events using a `correlation_id` for behavior funnel or more granular reporting use cases (GitLab.com only)
+
+1. Viewing AI Gateway data
+   - [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview) automatically displays new unit primitive requests once they have been instrumented by ~"group::analytics instrumentation"
+   - Additional analytics can be requested by creating a [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
 
 ### Key Contacts and Resources
 
