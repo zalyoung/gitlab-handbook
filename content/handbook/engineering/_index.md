@@ -109,6 +109,47 @@ Key Steps:
 
 This process ensures a balanced approach between feature development and technical improvements, promoting long-term sustainability and efficiency of the engineering organization.
 
+### Interlock Process for Quarterly R&D Roadmaps
+
+The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but our teams work toward a single, aligned direction to accomplish their vision. This process describes how we achieve that alignment within the product group itself, and across the company. 
+
+1. Product will provide a proposed roadmap at the company level similar to this example
+   - The intent is not to encompass every team, but rather most critical objectives to achieve
+   - **Tier 1** topics are meant to be 100% committed to within the defined quarter
+   - **Tier 2** topics are meant to be committed to with 80% confidence that it will be delivered in the defined quarter
+   - **Tiers 3-5** are topics that will not take priority over Tier 1 or 2, and should be considered next as time allows
+1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template similar to this
+1. Engineering will evaluate the proposal from product and identify:
+   - The team(s), including PM, EM, and Engineering leader, who will be responsible for a quality delivery
+   - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
+   - Whether we commit to the timeline / scope [Example], commit to a different timeline / scope that we propose [Example], or recommend an alterative [Example] 
+   - What milestone we are committing to within the proposed quarter
+   - What dependencies we will have once committed (e.g. other teams, other projects, etc) in order to align in advance
+   - What distributions will be available with the proposal
+   - What potential drivers this could generate for the company based on your knowledge of the customer (e.g. design partners, marquee customers, revenue)
+   - A brief written description of Engineering's Committment (including confidence, unknowns, or concerns)
+1. Once complete, and potentially more rounds of review/feedback between Product and Engineering leadership, this will complete the interlock process for a finalized quarterly plan
+
+This quarterly R&D roadmap represents a contract, not between Product and Engineering, but between GitLab and our customer. Engineering is responsible for the delivery of a product that meets the need of the customer - up to and including resolving the pain point with the highest quality for the company. As we work through the interlock process, this requires us to have an understanding of the customer journey, the true problem to be solved, and a strong opinion on the solution that meets the bar for Results for Customers. 
+
+#### Why this matters
+- Establish a unified, aligned-upon, and transparent roadmap across technical roadmaps, engineering initiatives or projects, cross-functional prioritization, and company planning. 
+- Have a heirarchy to priority, confidence that these are the correct priorities, and an understanding of how flexible we can be with changing these priorities
+- Allow space to review and assess the effort required to ship something of truly high quality, that will support the scalability required of where we are going in the future, and to have a clear understanding of customer expectation
+- Prompt teams to think through all angles and whether they have the information needed to move forward
+- Surface awareness of critical work that must be prioritized before the proposed work
+- Provide Transparency and time to prepare for other stakeholders in the company downstream from delivery, the field, and our customers
+- Understand in advance what our upcoming goals will be, reducing churn, borrows, escalations, etc
+
+#### Things to be aware of
+- Milestone dates, which may not correspond to your quarterly commitment date (cases where milestone dates run past the quarter-end)
+- Dedicated distributions remain behind by 1 stable release 
+- Hard dependencies and their timelines
+- We may not get all the information needed from Product about topics we are asked to commit to. This does not mean we need to commit without having information, but rather doing this diligence ourselves to help support these goals. (e.g. Commit to different scope, or Propose alternative)
+- Engineering commitments must be aligned upon up the chain of Engineering. Directors should be assisting their teams with this process with an understanding of the topic in question. Engineers should be assisting their management with an understanding of capacity, feasibility, alternative solutions or proposals to solve the customer problem, and helping their teams deliver against these commitments. 
+
+
+
 ### Community Contributions
 
 We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren't on our roadmap, and even translate our product into multiple languages.
