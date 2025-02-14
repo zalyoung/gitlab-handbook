@@ -27,7 +27,7 @@ long-term success, the ASEs need the Account Team's help:
       meeting
       - The ASE will facilitate this meeting
       - The ASE will base the agenda off of the
-        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.md/#introductory-meeting-structure)
+        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.md/#customer-introductory-meeting-structure)
       - We welcome Account Team participation in the meeting so that you can
         stay well informed about the ASE's work and also so that the customers
         can see that we really are a team.
@@ -37,7 +37,7 @@ long-term success, the ASEs need the Account Team's help:
         briefly, and we will mention that there will be a second meeting
       - The second meeting will be conducted as described above, with the ASE
         facilitating and the agenda being based off the
-        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#introductory-meeting-structure)
+        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#customer-introductory-meeting-structure)
 
 ### New ASE introductory meeting
 
@@ -45,7 +45,7 @@ When it becomes necessary to introduce a new ASE to an established ASE account,
 such as when the existing ASE moves into a new role, we will want to host an abbreviated kickoff-style meeting. In this meeting:
 
 1. The new ASE will build the agenda with a focus on the first two main items
-   in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#introductory-meeting-structure)
+   in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#customer-introductory-meeting-structure)
 1. We will ask that the CSA participate in the meeting in order to help the
    transition to be as smooth as possible. This also provides an opportunity
    for the CSA and ASE to ensure that they know the customer's GitLab plans and

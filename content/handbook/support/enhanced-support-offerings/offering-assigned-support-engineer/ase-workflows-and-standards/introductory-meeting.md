@@ -57,7 +57,7 @@ to maintain professionalism and avoid undermining confidence.
 discuss matters thoroughly before considering the need to involve other
 resources.
 
-## Introductory Meeting Structure
+## Customer Introductory Meeting Structure
 
 1. Introduce yourself
    1. Tell them your name
@@ -98,7 +98,7 @@ resources.
       that work can wait or needs to be done by someone else
    1. discussing upcoming projects, tasks, changes, time off, etc.
 
-## Introductory Meeting Tips
+## Customer Introductory Meeting Tips
 
 1. State clearly to the account team when the meeting is being scheduled that
    the ASE will run the meeting and that they will use the entire meeting for
