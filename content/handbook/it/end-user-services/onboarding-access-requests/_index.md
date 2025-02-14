@@ -24,7 +24,7 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 ### New Hire Laptop Ordering Process
 
 The laptop ordering process for new hires starts as soon as an offer is accepted by a candidate and the initial Welcome email is sent by the Candidate Experience Specialist.
-This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop. After the new hire fills out the form, they can expect their GitLab issued laptop to arrive the week before their start date. 
+This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop. After the new hire fills out the form, they can expect their GitLab issued laptop to arrive the week before their start date.
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
@@ -394,4 +394,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)

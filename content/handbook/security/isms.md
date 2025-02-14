@@ -138,4 +138,4 @@ Exceptions to Information Security policies or procedures will be tracked as per
 
 ## References
 
-- Policy: [Information Security Policy](_index.md)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
