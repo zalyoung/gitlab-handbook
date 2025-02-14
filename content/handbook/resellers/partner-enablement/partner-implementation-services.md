@@ -6,6 +6,8 @@ title: "Channel Partner Implementation Services"
 
 ## Implementing a GitLab instance
 
+- [Decide between GitLab Community and Enterprise Editions](#deciding-between-gitlab-community-and-enterprise-editions)
+  - First, you need to decide which edition of GitLab to install for your customer. You can find plenty of information about this below.
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
   - **Read, understand, and follow the guidance given in this reference architecture page.  It's crucially important for long term maintainability of a GitLab instance.**
 - [GitLab Environment Toolkit GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation)
@@ -35,9 +37,9 @@ GitLab has [two distributions](https://about.gitlab.com/install/ce-or-ee/):
 
 - **Enterprise Edition (EE)**: built from the [official GitLab repository](https://gitlab.com/gitlab-org/gitlab). It contains the code of [all license tiers](https://about.gitlab.com/pricing/), including the open-source code of Free and the proprietary code of Premium and Ultimate.
 
-- **Community Edition (CE)**: built from the [open source fork of GitLab](https://gitlab.com/rluna-gitlab/gitlab-ce). It contains only the [MIT licensed](https://opensource.org/license/mit) code from the EE repository above, synced with that one automatically.
+- **Community Edition (CE)**: built from the [open source fork of GitLab](https://gitlab.com/rluna-gitlab/gitlab-ce). It contains only the [MIT licensed](https://opensource.org/license/mit) code from the EE repository above, synced with that one automatically on each push.
 
-This means that both editions contain the exact same version of our Free features, but only EE contains Premium and Ultimate features.
+This means that both editions contain the exact same version of our Free features, but **only EE contains Premium and Ultimate features**.
 
 ### Which one should I install for my customer?
 
@@ -47,7 +49,7 @@ No choice: you need to install EE.
 
 #### Free customers
 
-The rule of thumb is: always go with EE, except when you can't.
+Rule of thumb: always go with EE, except when you can't.
 
 Upsides of installing EE:
 
