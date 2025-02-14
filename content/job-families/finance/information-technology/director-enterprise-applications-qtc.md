@@ -8,7 +8,7 @@ The Quote to Cash (QTC) IT Leader is responsible for leading the design, impleme
 
 ### Job Grade
 
-The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [VP of IT](https://handbook.gitlab.com/job-families/finance/information-technology/vp-information-technology/).
+The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### What You’ll Do
 
