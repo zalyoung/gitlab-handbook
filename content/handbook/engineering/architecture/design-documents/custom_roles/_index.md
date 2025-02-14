@@ -12,14 +12,14 @@ toc_hide: true
 
 {{< design-document-header >}}
 
-# Overview
+## Overview
 
 GitLab Custom Roles lets Ultimate subscribers create roles with specific permissions that fit their team's needs. Instead of using only the standard roles (Guest, Reporter, Developer, Maintainer, Owner), administrators can create new roles with exactly the permissions they want. This works for both project/group permissions and admin area access.
 For example, an Ultimate customer could create an "Engineer" role based on the Guest standard role with `read code` and `admin merge requests` abilities, but without abilities like `admin issues`.
 
 Each role can be customized by turning specific permissions on, making it easy to give team members just the access they need. Currently, custom abilities can only be added to standard roles, not subtracted.
 
-# Custom roles vs default roles
+## Custom roles vs default roles
 
 In GitLab 15.9 and earlier, GitLab only had [default roles](https://docs.gitlab.com/ee/development/permissions/predefined_roles.html) as a permission system. In this system, there are a few predefined roles that are statically assigned to certain abilities. These default roles are not customizable by customers.
 
@@ -30,7 +30,7 @@ With custom roles, the customers can decide which abilities they want to assign 
 
 Like default roles, custom roles are [inherited](https://docs.gitlab.com/ee/user/project/members/#membership-types) within a group hierarchy. If a user has custom role for a group, that user will also have a custom role for any projects or subgroups within the group.
 
-# Terminology
+## Terminology
 
 - **Custom Roles**: User-facing feature name for customer-defined groups of permissions
 - **Member Roles**: Backend/API term for custom roles, stored in the `member_roles` table
@@ -43,11 +43,11 @@ The terms "permission" and "ability" are often used interchangeably.
 - "Ability" is an action a user can do. These map to [Declarative Policy abilities](https://gitlab.com/gitlab-org/ruby/gems/declarative-policy/-/blob/main/doc/defining-policies.md#rules) and live in Policy classes in `ee/app/policies/*`.
 - "Permission" is how we refer to an ability [in user-facing documentation](https://docs.gitlab.com/ee/user/permissions). The documentation of permissions is manually generated so there is not necessarily a 1:1 mapping of the permissions listed in documentation and the abilities defined in Policy classes.
 
-# Architecture
+## Architecture
 
-## Permission Models
+### Permission Models
 
-### Regular Permissions
+#### Regular Permissions
 
 - Based on a default role
 - Has one or more additive permissions
@@ -58,12 +58,12 @@ The terms "permission" and "ability" are often used interchangeably.
     they will effectively have guest role with both read_code and read_vulnerability permissions in Project B
   - When going down the hierarchy, only custom roles with same or higher base role can be added
 
-### Admin Permissions
+#### Admin Permissions
 
 - Not tied to base access levels
 - Specific permissions for admin area access
 
-## Database Structure
+### Database Structure
 
 - Individual custom roles are stored in the `member_roles` table (`MemberRole` model). It includes individual permissions and a `base_access_level` value.
 - A `member_roles` record is associated with top-level groups (not subgroups) via the `namespace_id` foreign key for regular custom roles SaaS. Regular custom roles on self-managed instances and admin custom roles are not associated with groups.
@@ -76,7 +76,7 @@ The terms "permission" and "ability" are often used interchangeably.
 - Admin-related roles use `Users::UserMemberRole` model with its `user_member_roles` table
 - Custom roles for admin permissions always have nil `base_access_level`
 
-## Permission Loading Architecture
+### Permission Loading Architecture
 
 The `Authz::CustomAbility` class orchestrates permission checking:
 
@@ -86,31 +86,31 @@ The `Authz::CustomAbility` class orchestrates permission checking:
 
 We use specialized preloaders to efficiently load custom permissions for different resource types:
 
-### Project Permissions
+#### Project Permissions
 
 - Handled by `Authz::Project` class
 - Uses `UserMemberRolesInProjectsPreloader` to load permissions
 - Returns project-specific custom permissions for a given user
 
-### Group Permissions
+#### Group Permissions
 
 - Handled by `Authz::Group` class
 - Uses `UserMemberRolesInGroupsPreloader` to load permissions
 - Returns group-specific custom permissions for a given user
 
-### Admin Permissions
+#### Admin Permissions
 
 - Handled by `Authz::Admin` class
 - Uses `UserMemberRolesForAdminPreloader` to load admin-specific permissions
 - Returns admin-level custom permissions for a user
 
-### Finder
+#### Finder
 
 MemberRoles::RolesFinder is a search service class that filters and sorts member roles based on parameters like parent, ID, and type. It handles both regular and admin custom roles.
 
-# Documentation and Maintenance
+## Documentation and Maintenance
 
-## Automated Documentation
+### Automated Documentation
 
 - Documentation is automatically generated using Rake tasks:
 
@@ -119,7 +119,7 @@ MemberRoles::RolesFinder is a search service class that filters and sorts member
 
 - Generated documentation ensures consistency between code and docs
 
-## Adding New Custom Abilities
+### Adding New Custom Abilities
 
 - Generated using `./ee/bin/custom-ability <ABILITY_NAME>`
 - YAML configuration in `ee/config/custom_abilities`
@@ -138,6 +138,6 @@ MemberRoles::RolesFinder is a search service class that filters and sorts member
 
 ## References
 
-- [Custom Roles Blueprint](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/permissions/)
+- [Custom Roles Blueprint](../permissions/)
 - [Technical Discovery for Custom Permissions MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/352891)
 - [Designs for Custom Permissions MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/350192)
