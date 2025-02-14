@@ -173,4 +173,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
-- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-in-transit)
+- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy/)
