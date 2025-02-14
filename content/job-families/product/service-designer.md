@@ -66,7 +66,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 ### Step 1: Recruiter Screening Call
 
-Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.  In this call, we will discuss your experience, understand what you are looking for in a service design role, talk about your work and approach to service design, discuss your compensation expectations, and reasons why you want to join GitLab, and answer any questions you have.
+Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring#screening-call) with one of our Global Recruiters.  In this call, we will discuss your experience, understand what you are looking for in a service design role, talk about your work and approach to service design, discuss your compensation expectations, and reasons why you want to join GitLab, and answer any questions you have.
 
 ### Step 2: Portfolio Review and interview
 
