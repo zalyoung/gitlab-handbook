@@ -4,6 +4,30 @@ title: "Channel Partner Implementation Services"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## Implementing a GitLab instance
+
+- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+  - **Read, understand, and follow the guidance given in this reference architecture page.  It's crucially important for long term maintainability of a GitLab instance.**
+- [GitLab Environment Toolkit GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation)
+  - [GET getting started video](https://partners.gitlab.com/prm/English/s/assets?id=543232&renderMode=Collection)
+  - **This is the Way... to install GitLab.**  The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures.  Built and actively maintained by the Quality Enablement team.
+- [Other Installation Methods](https://docs.gitlab.com/ee/install/install_methods.html)
+  - Make sure any automation you provide that automatically installs GitLab is installing the Enterprise Edition, and leverages at the core one of these installation methodologies to have a supported configuration
+- [Unsupported Designs](https://docs.gitlab.com/ee/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures)
+  - Also review these unsupported configurations to make sure you are in compliance with our support requirements.
+- [Next Implementation Steps After Installation](https://docs.gitlab.com/ee/install/next_steps.html)
+  - Once you have the product installed, here are additional steps to make the installation operationally successful (like backups).
+- [Upgrading GitLab](https://docs.gitlab.com/ee/update/)
+  - **Upgrades are important to become good at.**  GitLab schedules major releases for May each year, by default.  GitLab releases a minor update on the 3rd Thursday of every month, and has released monthly consistently for more than a decade.  Security patches are released more frequently.
+     GitLab.com has updates multiple times per day.
+
+## Implementing GitLab Runners
+
+- [GitLab Runner Overview](https://docs.gitlab.com/runner/)
+  - GitLab Runners represent the **largest workload the system generates.**  The Runner is the software that executes all of the CI pipelines.  It's possible to deploy them on fixed infrastructure, or autoscale them (up and down) in a cloud provider.
+- [GitLab Runner Installation](https://docs.gitlab.com/runner/install/)
+- [GitLab Runner Advanced Configuration](https://docs.gitlab.com/runner/configuration/)
+
 ## Deciding between GitLab Community and Enterprise Editions
 
 GitLab has [two distributions](https://about.gitlab.com/install/ce-or-ee/):
