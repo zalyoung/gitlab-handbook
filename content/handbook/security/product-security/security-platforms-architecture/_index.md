@@ -45,9 +45,3 @@ Additional Notes:
 | **Direct product contributions to security roadmap initiatives and enhancements** | TBD - I need a wordsmithing brain break | TBD - MRs, this is documented somewhere already | TBD | Monthly | TBD | TBD |  
 | **Percentage of new features dogfooded and validated by Product Security before launch** | Tie to Objective 3 - Customer Focused Innovation - strong upsell paths to Ultimate - Customer 0 to validate functionality before release | TBD | TBD | TBD | TBD | TBD |  
 | **Percentage of product-applicable security processes effectively supported by GitLab features** | Tie to Fully realize GitLab's all-in-one DevSecOps narrative | TBD | TBD | TBD | TBD | The designation of 'product-applicable' accounts for the possible existence of GitLab-specific security processes that lack utility for GitLab customers. We will evaluate these as they are identified. |  
-
-
-
-
-
-
