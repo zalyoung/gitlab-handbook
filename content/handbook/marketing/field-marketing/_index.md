@@ -311,7 +311,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
 - FMM follows the tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be notified to move the project to WIP.
 - The FMC will then proceed with their tasks in Asana
-- Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. The FMM will then go to the top of the page and click `Set status` and select `Complete`.
+- Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. **NOTE:** You must complete or delete all open tasks in a project or they will still show up in your assigned tasks (see how to bulk complete tasks [here](https://forum.asana.com/t/closing-tasks-for-a-project-set-for-a-completed-status/282266)). The FMM will then go to the top of the page and click `Set status` and select `Complete`. Then the FMM will click on the carrot next to the project title and click `Archive`. This will remove the project from the active projects list, but the project will still exist to reference in the future.
 
 ## Plan to WIP Recorded Training
 
