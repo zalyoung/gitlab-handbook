@@ -132,4 +132,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Controlled Document Procedure](handbook/security/controlled-document-procedure/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
