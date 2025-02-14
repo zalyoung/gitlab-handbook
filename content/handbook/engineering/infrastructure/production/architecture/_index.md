@@ -197,4 +197,5 @@ Exceptions to this architecture policy and design will be tracked in the [compli
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
+- [Controlled Document Procedure](handbook/security/controlled-document-procedure/)
+

@@ -174,7 +174,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
 - [Incident Communications Plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/)
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)
