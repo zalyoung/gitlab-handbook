@@ -8,7 +8,7 @@ The Quote to Cash (QTC) IT Leader is responsible for leading the design, impleme
 
 ### Job Grade
 
-The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [VP of IT](/job-families/finance/vp-information-technology).
+The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [VP of IT](https://handbook.gitlab.com/job-families/finance/information-technology/vp-information-technology/).
 
 ### What You’ll Do
 
@@ -51,12 +51,12 @@ The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/
 
 - [Benefits to support your health, finances, and well-being](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/)
 - [All remote](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/), [asynchronous](https://about.gitlab.com/company/culture/all-remote/asynchronous/) work environment
-- [Flexible Paid Time Off](https://handbook.gitlab.com/handbook/people-group/paid-time-off/)
+- [Flexible Paid Time Off](/handbook/people-group/paid-time-off/)
 - [Team Member Resource Groups](https://about.gitlab.com/company/culture/inclusion/erg-guide/#:~:text=Definition%20of%20the%20TMRG%20%2D%20Team%20Member%20Resource%20Groups,-TMRGs%20are%20voluntary&text=The%20purpose%20for%20this%20type,developing%20the%20sense%20of%20belonging.)
-- [Equity Compensation & Employee Stock Purchase Plan](https://handbook.gitlab.com/handbook/total-rewards/stock-options/)
-- [Growth and Development Fund](https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/)
+- [Equity Compensation & Employee Stock Purchase Plan](/handbook/total-rewards/stock-options/)
+- [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/)
 - [Parental leave](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
-- [Home office](https://handbook.gitlab.com/handbook/finance/expenses/#equipment) support
+- [Home office](/handbook/finance/expenses/#equipment) support
 
 Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from [underrepresented groups](https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups) are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.
 
