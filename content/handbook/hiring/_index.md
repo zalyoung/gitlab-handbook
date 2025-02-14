@@ -276,10 +276,6 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 - [Posting a job internally](/handbook/hiring/talent-acquisition-framework/req-creation/#post-the-job-internally)
 - [In the offer process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process)
 
-### Executive Hiring
-
-- [Executive Search](/handbook/hiring/talent-acquisition-framework/executive-search/)
-
 ### Emerging Talent
 
 **[Emerging Talent](emerging-talent.md)**
