@@ -197,5 +197,4 @@ Exceptions to this architecture policy and design will be tracked in the [compli
 
 ## References
 
-- [Controlled Document Procedure](handbook/security/controlled-document-procedure/)
-
+- [Controlled Document Procedure](./security/controlled-document-procedure/)
