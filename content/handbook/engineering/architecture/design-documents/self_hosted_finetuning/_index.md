@@ -135,7 +135,7 @@ The container will be published in the GitLab Container Registry and DockerHub o
 
 Once the fine-tuning pipeline is triggered and service has been deployed, it would start with preparing the data.
 
-The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk based on the provided configuration. The data could be stored either locally or on third-party storage solution (i.e. AWS S3), as long as it is supported and accessible by the fine-tuning service.
+The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk based on the provided configuration. The data could be stored either locally or on third-party storage solution (i.e. AWS S3), as long as it is supported and accessible by the fine-tuning service. To speed up training data will be encoded and stored in the vector format.
 
 At the initial version of the service we will support local storage and AWS S3.
 
@@ -151,7 +151,7 @@ Once the adapter is trained, the next step in the pipeline would evaluate it in 
 
 The evaluation step would use a small random sample from validation dataset to test the fine-tuned model and present the results to the customer. 
 
-Under the hood, the evaluation service will deploy a newly fine-tuned model using vLLM and HuggingFace libraries and run the model on the prompts from the validation datasets. The model's outputs will then be evaluated against the ground truth responses using [Cosine Embedding Distance](https://python.langchain.com/v0.1/docs/guides/productionization/evaluation/string/embedding_distance/).
+Under the hood, the evaluation step will deploy a newly fine-tuned model using HuggingFace libraries and run the model on the prompts from the validation datasets. The model's outputs will then be evaluated against the ground truth responses using [Cosine Embedding Distance](https://python.langchain.com/v0.1/docs/guides/productionization/evaluation/string/embedding_distance/).
 
 ### Inference
 
@@ -214,6 +214,8 @@ flowchart LR
 ```
 
 Each adapter could be used with either a single project or a collection of projects. It is also true that one project could use several adapters at the same time. The UI will provide a way for the user to select which adapter to use for which project. The UI will also inform the user which adapters were trained for which project. By default, each project would be assigned a base model.
+
+If the project is new (i.e. there isn't much code to fine-tune on), the user could still pick an adapter from already existing ones. By default such project will also be assigned a base model.
 
 During the feature request the configured model will be used for the inference by the backend.
 
@@ -300,5 +302,28 @@ Adapters, and in particular, LoRAs are not a panacea; it is one of the methods t
 **Smaller experts.**
 Fine-tuning a smaller model might be a suitable approach, as the time and hardware resources to train such a model are better than a model with a high number of parameters. However, the scalability of such an approach is questionable, as well as the overall performance of a smaller model.
 
+Pros:
+
+- Small LLMs would be relatively quick to fine-tune.
+- Fully fine-tuned model generalizes better than LoRA.
+
+Cons:
+
+- Less scalable than LoRA. Hosting several models at the same time is resource expensive.
+- Generally less capable than big LLMs.
+- Potentially more resource expensive than LoRA.
+
 **Reinforcement Learning from Human Feedback (RLHF).**
 Human feedback could be used together with reinforcement learning (RLHF) to further fine-tune the model to the user's needs. For example, whether a suggestion was accepted or rejected can serve as valuable domain-specific feedback data to then further customize the model's fine-tuning process.
+
+Pros:
+
+- Utilizes human feedback, fine-tuning the model to the real user needs.
+- Continuous learning.
+
+Cons:
+
+- Usually requires a lot of data. The approach would be more suitable for .com rather than Self-hosted.
+
+**Why Adapters?**
+As discussed before, the main challenge of fine-tuning on the customer's infrastructure is to make the process quick and resource efficient. Adapters allow us to fine-tune the model quickly and relatively cheap. In addition, adapters are scalable and lightweight allowing us to potentially host hundreds of them on the single GPU-capable instance. Adapters are widely used in the industry, where quick and lightweight fine-tuning is required ([for example](https://developer.apple.com/videos/play/wwdc2024/102/?time=185)).
