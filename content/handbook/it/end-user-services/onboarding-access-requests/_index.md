@@ -332,7 +332,7 @@ For more information regarding DriveStrike, refer to our [DriveStrike](/handbook
 
 ### Backblaze
 
-Backblaze is a tool that might be deployed to backup data on your company owned device in the event of a legal hold/investigation and only following a request of the Legal and People Ops teams, subject to local data, privacy and employment laws.
+Backblaze is a tool that might be deployed to backup data on your company owned device in the event of a security or legal hold/investigation and only following a request of the Legal and People Ops teams, subject to local data, privacy and employment laws.
 
 ### Google Workspace Deprovisioning
 
