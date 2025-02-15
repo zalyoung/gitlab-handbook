@@ -219,7 +219,7 @@ description: "The page details the operational process for the MDF program."
 
 ## Canceled
 
-At any time an MDF campaign has been cancelled, we want to ensure all programs created get marked as cancelled or deleted.
+At any time an MDF campaign has been canceled, we want to ensure all programs created get marked as cancelled or deleted.
 
 ### Allocadia
 
@@ -230,7 +230,7 @@ At any time an MDF campaign has been cancelled, we want to ensure all programs c
 
 1. Add `[CANCELLED]` to the beginning of the campaign name
 1. Update the Status to `Aborted`
-1. Remove the "Partner Account" and uncheck the "Sync to Vartopia” checkbox
+1. Remove the "Partner Account" and uncheck the "Sync to Vartopia" checkbox
 
 ### PRM MDF Request
 
@@ -268,10 +268,10 @@ This is not applicable to distributors with the exception of Carahsoft.
 #### Google Sheet/Drive
 
 1. Clone the [List Import Template](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838)
-1. Paste the information to the spreadsheet - don’t forget Marketo Program Name, First Name, Last Name, Email, Company Country, Province (only USA/Canada), Member Status, CRM Partner ID are mandatory.
+1. Paste the information to the spreadsheet - don't forget Marketo Program Name, First Name, Last Name, Email, Company Country, Province (only USA/Canada), Member Status, CRM Partner ID are mandatory.
      1. For Distributor: In the CRM ID, add each individual partner CRM ID that each leads corresponds to.
-1. Download the csv file: File > Download > csv
-1. Drop the csv file to [Google Drive Folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link)
+1. Download the .csv file: File > Download > .csv
+1. Drop the .csv file to [Google Drive Folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link)
 
 #### Slack
 

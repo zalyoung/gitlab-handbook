@@ -263,11 +263,12 @@ Turn any Slack message into an actionable Asana task with just a few clicks. A f
 2. G-Mail - Turn emails into tasks by syncing email threads into Asana. You can also mark tasks as complete, reply and post comments from notifications sent to your inbox.
 3. Google Drive - Connect and link documents directly in the Asana task
 
-If you are using the Asana App, in order to connect your GDrive, follow these steps: (must have Yubikey)
-1. Make sure your Yubikey is registered in Okta
+If you are using the Asana App, in order to connect your GDrive, follow these steps: (must have YubiKey)
+
+1. Make sure your YubiKey is registered in Okta
 2. Start the connection process using this guide - https://asana.com/apps/google-drive
 3. After entering your email address, you'll be prompted for your Okta password. Please enter that.
-4. Next you'll be prompted to use biometrics, but no pop-up will appear. Simply press the Yubikey at this point and the login process should continue.
+4. Next you'll be prompted to use biometrics, but no pop-up will appear. Simply press the YubiKey at this point and the login process should continue.
 5. You may see a black window for a few seconds. Please keep this window open and wait for the next step to load.
 6. Confirm that you want to link the account.
 

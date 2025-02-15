@@ -62,7 +62,7 @@ The MDF Request Status can be found in the MDF Request Details section.
 - Approved - when Request is approved
 - Complete (Claim Payment is Paid) - when partner is paid
 - Denied - when Request is denied
-- Canceled - when Request is cancelled
+- Canceled - when Request is canceled
 
 Statuses that are not used: Approved: POP Received, Closed (Claim to be Paid), CMM Approved.
 
@@ -97,7 +97,7 @@ The MDF Claim Status you are to used is under the Claims section, called `Approv
 
 ## Canceled MDF Request
 
-When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been cancelled. If Partners try to submit a Claim, it will automatically be rejected.
+When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been canceled. If Partners try to submit a Claim, it will automatically be rejected.
 
 ## MFB MDF Request Form
 

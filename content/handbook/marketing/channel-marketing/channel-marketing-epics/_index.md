@@ -100,7 +100,7 @@ Please read through the [Event Handbook page](https://about.gitlab.com/handbook/
 
   - [x] YES, based on [process outlined here](/handbook/marketing/channel-marketing/#channel-partner-lead-sharing-via-vartopia).
 	  - [x] Partner will submit for Deal Registration via Partner Portal
-        - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
+      - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
   - [ ] No
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
 
@@ -118,7 +118,6 @@ For all details regarding swag, [please see here](https://about.gitlab.com/handb
 - [ ] Please list what is being shipped (including quantities):
 - [ ] Tracking:
 </details>
-  
 
 ## :checkered_flag: Post Event
 
