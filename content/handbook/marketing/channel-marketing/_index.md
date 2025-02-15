@@ -343,7 +343,7 @@ Skip to step 2 of the list import [instructions](/handbook/marketing/channel-mar
 
 #### FY25 GitLab Sales Dev Working Partner Leads
 
-As part of a [pilot program in FY25](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
+As part of a [pilot program in FY25](/handbook/resellers/channel-program-guide/mdf/#the-fine-print), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
 
 We are treating these leads as non-partner leads with Source = `Partner Qualified Lead`. They will be scored, assigned to BDRs, and have LIM. The source will remain as Partner Qualified Lead as we will use this to track partner ownership, while allowing our GitLab Sales Dev team to work these leads and not lose insight into where the lead came from.
 

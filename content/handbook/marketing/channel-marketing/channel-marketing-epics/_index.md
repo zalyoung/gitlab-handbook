@@ -99,7 +99,7 @@ Please read through the [Event Handbook page](https://about.gitlab.com/handbook/
 - [x] Will the partner do the initial lead follow-up? _(Auto-checked - if Sales Dev is involved make sure to uncheck)_
 
   - [x] YES, based on [process outlined here](/handbook/marketing/channel-marketing/#channel-partner-lead-sharing-via-vartopia).
-	  - [x] Partner will submit for Deal Registration via Partner Portal
+    - [x] Partner will submit for Deal Registration via Partner Portal
       - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
   - [ ] No
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
