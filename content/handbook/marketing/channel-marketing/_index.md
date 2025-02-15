@@ -130,7 +130,7 @@ Visit our [partner portal page](https://partners.gitlab.com/prm/English/c/ptnrmk
 
 ##### Technical platform used to host
 
-Our team hosts the Channel Partner webinar using On24. Details on how this operationally set up can be found [here](/handbook/marketing/virtual-events/webcasts/#on24-webcast-setup).
+Our team hosts the Channel Partner webinar using On24. Details on how this operationally set up can be found [here](/handbook/marketing/virtual-events/webcasts/#on24-setup).
 
 - [Epic Code for To Partners webinars](/handbook/marketing/channel-marketing/channel-marketing-epics/)
 
@@ -204,7 +204,7 @@ Partners and team members may review current campaigns available to partners by 
 - Unique Partner Asset Creation: Channel Marketing is unable to work directly with partners to customize their marketing assets.
 - Event speakers: The Channel Marketing team does not have the resources to help locate GitLab speakers for partner events.
 - Partner Blogs: The Channel Marketing team does not have the resources to craft unique content to support a partner blog or content request.
-- Public Relations: The Channel Marketing team is not responsible for editing or approving blogs or partner press releases. Please see the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) for more information.
+- Public Relations: The Channel Marketing team is not responsible for editing or approving blogs or partner press releases. Please see the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-external-communications-support) for more information.
 - Sponsored social media posts: partners looking to GitLab to promote partner activities would not route those requests through Channel Marketing.  Instead, CAM's obtain the partner's social media channels and [create an issue](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#open-a-new-issue-to-request-social-coverage) for the Social Media team.  This request should include the partner's social media information, detailed description of what we are being asked to promote and target dates.
 - Event attendance: The Channel Marketing team does not own a database of contacts by which to drive attendance to partner specific events nor do we possess the resources to support such requests.
 - [Partner training](/handbook/resellers/training/) is managed and supported by the Channel Partner Training, Certifications, and Enablement team.
@@ -566,7 +566,7 @@ First, use the general set up found in [campaigns and programs page](/handbook/m
 
 ### On24 Webcast Hosted by GitLab - Lead Capture via Form
 
-GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketing/virtual-events/webcasts/#on24-webcast-setup). To incorporate the steps required for partners, follow these additional steps.
+GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketing/virtual-events/webcasts/#on24-setup). To incorporate the steps required for partners, follow these additional steps.
 
 **Step 1: Setup in Marketo**
 
