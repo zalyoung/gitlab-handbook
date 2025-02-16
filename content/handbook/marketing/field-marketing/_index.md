@@ -1047,9 +1047,9 @@ The Channel Marketing Manager is responsible for keeping track of which partners
 
 The complete list of Marketing Channel Partners are identified in SFDC [here](https://gitlab.my.salesforce.com/00OPL0000002muz).
 
-## FMM/CAM alignment
+## FMM/ESM alignment
 
-| Region | FMM | PTM |
+| Region | FMM | ESM |
 | ------ | ------ | -------------- |
 | AMER East & Canada Enterprise| Beth Parker | Jay Bahar |
 | AMER South Central & LATAM Enterprise| Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
@@ -1061,11 +1061,10 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
-| EMEA META | Marcus Hall & Juliette Francon | Adham Alattar |
-| EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
-| EMEA UK/I | Neha Pujari | Aaron Burgess |
-| EMEA DACH | Sarina Kraft | Ilaria Pazienza |
-| EMEA CEE | Sarina Kraft | Michal Kulakowski  |
+| EMEA Northern Europe | Neha Pujari| Aaron Burgess |
+| EMEA UK/I | Neha Pujari | Adam Woolford |
+| EMEA DACH | Sarina Kraft | Michi Tluste (Germany)/Christian Heitzler (ALPS) |
+| EMEA Telco | Sergei Rogalin | Country Specific |
 
 ## Field Marketing initiated and funded campaigns
 
