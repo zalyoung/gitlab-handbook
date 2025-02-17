@@ -14,7 +14,7 @@ The [FinOps function](../../../../../job-families/engineering/infrastructure/sit
 
 We focus on several key activities:
 
--  Analysis of costs related to cloud infrastructure.
+- Analysis of costs related to cloud infrastructure.
 - Providing insights into cloud resource utilization, identifying inefficiencies, and helping stakeholders optimize their spend.
 - Provide analysis on spend trends, forecasting future expenses, and helping teams plan their budgets accordingly.
 - Helping stakeholders access and interpret the cloud cost data they need for decision-making.
@@ -25,7 +25,6 @@ If something requires immediate attention, please tag the relevant person/team i
 DMs and ad-hoc requests can lead to duplicated work or missed context and should be avoided in favor of formal issue submission. Slack should be used primarily for quick clarifications or urgent escalations but not for initiating work requests.
 
 Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview).
-
 
 - **Work Requests:** All tasks and requests should be tracked via [issues in GitLab](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
 - **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/198) is updated weekly.
