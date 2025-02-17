@@ -103,9 +103,9 @@ If the candidate submits the form, all the CES team members will receive an emai
 
 1. Forward the form to CES desk (ces@gitlab.com).
 2. Label the ticket as “accommodation request” and assign to the respective CES. Type in “accesschecktodo” in the comments section of the issue so the next steps are listed.
-3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews, Additional time for technical interviews, and Multi-Day interviews.
+3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews and Multi-Day interviews.
 4. Schedule the interview based on the recruiter’s scheduling request.
-5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning or "adtime" for an additional interview time. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
+5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
 7. Close the issue once the scheduling is completed.
 
