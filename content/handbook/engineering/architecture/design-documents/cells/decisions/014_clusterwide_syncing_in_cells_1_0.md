@@ -13,7 +13,7 @@ For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables d
 
 ## Decision
 
-1. Reference tables, like `plans` do not need synchronization, but rather
+1. Static data tables, like `plans` do not need synchronization, but rather
    converted to be always consistent by being hard-coded in application code.
    A good example is
    [VisibilityLevel](https://gitlab.com/gitlab-org/gitlab/-/blob/5ae43dface737373c50798ccd909174bcdd9b664/lib/gitlab/visibility_level.rb#L25-27).
@@ -26,7 +26,7 @@ For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables d
 
 ## Pros
 
-1. We can avoid work to prevent writes on follower cells, and setup syncing service, and creating APIs to update each Reference type table.
+1. We can avoid work to prevent writes on follower cells, and setup syncing service, and creating APIs to update each Static data type table.
 1. We reduce consistency risks. If for any reason, the syncing fails, the application might
    start producing corrupt data. For example creating `gitlab_subscriptions` with bad
    `plan_id` values. If we replace `plan_id` column to use a globally unique
@@ -38,7 +38,7 @@ For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables d
 
 1. For Cluster settings, we will need to tolerate a small amount of time where
    there may be configuration drift.
-1. For Reference tables, there may be downstream services that depend on these
+1. For Static data tables, there may be downstream services that depend on these
    data. So we will need to wait for an application change to fully propogate
    through all rings first, before updating any downstream service to use the
    new data.
@@ -48,7 +48,7 @@ For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables d
 An analysis of clusterwide tables was performed on 2025-01-13.
 The result is that we can categorized into 4 different types:
 
-1. Reference table. Tables which are constant / exactly the same for all cells.
+1. Static data table. Tables which are constant / exactly the same for all cells.
 1. Cluster Setting table. Tables which host settings which needs to affect all
    cells.
 1. Organization / Cell table. Tables which may be better categorized as
@@ -76,7 +76,7 @@ setting will work correctly for any Cell.
 This applies especially when the new setting has not had a chance to be
 synchronized yet with the external source of truth.
 
-### Reference tables
+### Static data tables
 
 Convert reference tables to be in application code instead.
 
@@ -220,7 +220,7 @@ synchronize any user related data until Cells 1.5+
 
 This lists all clusterwide tables and its type.
 
-| Table                                                     | Reference table | Cluster Setting table | Organization/cell table | User table | Rows Present in new GDK |
+| Table                                                     | Static data table | Cluster Setting table | Organization/cell table | User table | Rows Present in new GDK |
 |-----------------------------------------------------------|-----------------|------------------------|-------------------------|------------|-------------------------|
 | ai_feature_settings                                       |                 | Y                      |                         |            | N                       |
 | ai_settings                                               |                 | Y                      |                         |            | N                       |
