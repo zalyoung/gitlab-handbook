@@ -49,7 +49,7 @@ We have introduced a new, enhanced version of our software [every month](/handbo
 
 ### Individual innovation
 
-We empower individuals to innovate. For example, we have designated coaches who support contributors from the wider community in getting their contributions to the point where they can be merged by GitLab. We also have an [incubation department](/handbook/engineering/incubation/) dedicated to quickly turning ideas into viable features and products.
+We empower individuals to innovate. For example, we have designated coaches who support contributors from the wider community in getting their contributions to the point where they can be merged by GitLab. We also have an [incubation department](/handbook/engineering/development/incubation/) dedicated to quickly turning ideas into viable features and products.
 
 ### Dogfooding
 
