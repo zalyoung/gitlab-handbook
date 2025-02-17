@@ -4,16 +4,17 @@ summary: This page outlines the DBO team escalation process and guidelines for d
 ---
 
 {{% alert title="Note" color="danger" %}}
-We are using Slack, <i class="fa-brands fa-slack"></i> @dbre or @dbo, for escalations.
+We are using PagerDuty for escalations: https://gitlab.pagerduty.com/schedules#P1JP4AL
+[comment]: We are using Slack, <i class="fa-brands fa-slack"></i> @dbre or @dbo, for escalations.
 {{% /alert %}}
 
 ## About This Page
 
-This page outlines the DBO team's escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
+This page outlines the DBO team's incident escalation process.
 
-## Expectation
+## Expectations
 
-The expectation for the DBO engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. There is no expectation that the DBO engineer is solely responsible for a resolution of the escalation.
+The expectation for the DBO engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. Due to limited staffing, please note the **DBO RESPONSE IS ON A BEST-EFFORT BASIS** at this time.  Furthermore, there is no expectation that the DBO engineer is solely responsible for a resolution of the escalation.  DBO may need to in-turn escalate to other subject matter experts, i.e. the Database Framework team, in order to make headway on the incident at hand.
 
 ## Escalation Process
 
