@@ -62,7 +62,7 @@ This [section](#tables) lists the full list of tables to the different types.
 
 #### application_settings
 
-See related design document: TBD
+See related issue: [issue 505685](https://gitlab.com/gitlab-org/gitlab/-/issues/505685).
 
 In short, we will use an external source of truth
 to synchronize each cell's Application Settings.
