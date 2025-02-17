@@ -78,7 +78,7 @@ At times, it is required to create private collaboration projects under https://
 
 Use the comment template to apply the approrpiate labels for the feature categories:
 
-- Workspaces - `/label ~"Category:Workspaces" ~"Customer Collaboration"`
+- Workspaces - `/label ~"Category:Workspaces" ~"customer-collaboration"`
 
 You can find the customer collaboration issues dashboard for the feature categories:
 
