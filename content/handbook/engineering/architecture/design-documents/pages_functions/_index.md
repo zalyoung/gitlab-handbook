@@ -91,6 +91,11 @@ community members.
 A good summary is probably at least a paragraph in length.
 -->
 
+We want to offer Pages Functions – The ability to have GitLab Pages run
+user-provided Javascript functions on the server-side. To make use of the
+functionality, the user includes a `gl-server.js` file as part of the pages
+artifacts.
+
 ## Motivation
 
 <!--
@@ -108,6 +113,17 @@ but this section may be framed in terms of problem statements, challenges, or
 opportunities. The latter may be a more suitable framework in cases where the
 problem is not well-defined or design details not yet established.
 -->
+
+GitLab Pages is a strong contender in the space of static site hosting
+services. A gap that we have compared to contenders like Netlify and Vercel
+is the ability to execute server-side code. This enables users to serve
+not only pre-built HTML and client-side SPAs, but build entire websites with
+Pages, using poplular SSR-Frameworks such as Next, Remix, Nuxt or Sveltekit.
+
+Other examples include, but are not limited to:
+- the ability for users to implement custom authentication mechanisms.
+- Use GitLab Pages for simple APIs, with a virtual filesystem even with a
+  file-based (eg. SQLite) storage solution
 
 ### Goals
 
