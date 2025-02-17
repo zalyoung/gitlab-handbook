@@ -7,7 +7,7 @@ The [FinOps function](../../../../../job-families/engineering/infrastructure/sit
 |  |  |
 |--|--|
 | GitLab Handle | @tonyganga |
-| Issue Tracker | [FinOps Issue Tracker](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/boards/5046766) |
+| Issue Tracker | [FinOps Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/boards/5046766) |
 | Slack | [#g_finops](https://gitlab.enterprise.slack.com/archives/C05KWUER6SV) |
 
 ## Our Core Responsibilities
@@ -27,8 +27,8 @@ DMs and ad-hoc requests can lead to duplicated work or missed context and should
 Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview).
 
 
-- **Work Requests:** All tasks and requests should be tracked via [issues in GitLab](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
-- **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/issues/198) is updated weekly.
+- **Work Requests:** All tasks and requests should be tracked via [issues in GitLab](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
+- **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/198) is updated weekly.
 - **Educating Stakeholders:** We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds it's way into our [data warehouse](../../../../enterprise-data/platform/_index.md). This reduces repetitive work for the FinOps team and empowers other teams to work independently.
 
 ### Engaging with Stakeholders
