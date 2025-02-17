@@ -106,6 +106,61 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
 
+
+#### Diagram
+
+```mermaid
+flowchart TD
+    Start([When the issue is ready for engineering review])
+
+    subgraph PM[Product Manager]
+        RefinementLabel[Apply workflow::refinement label]
+    end
+
+    subgraph EM[Engineering Manager]
+        CreateRefIssue[Create refinement issue]
+        DistributeTasks[Distribute tasks to engineers]
+    end
+
+    subgraph ENG[Engineer/EM]
+        RefineIssue[Follow refinement checklist]
+        NeedBreakdown{Can be broken down?}
+        CreateNewIssues[Create smaller issues]
+        FullyRefined[Issue fully refined]
+        ReadyLabel[Apply workflow::ready for development label]
+    end
+
+    subgraph PM_EM[PM & EM]
+        AddMilestone[Add to milestone]
+    end
+
+    Start --> RefinementLabel
+    RefinementLabel --> CreateRefIssue
+    CreateRefIssue --> DistributeTasks
+    DistributeTasks --> RefineIssue
+    RefineIssue --> NeedBreakdown
+    NeedBreakdown -->|Yes| CreateNewIssues
+    CreateNewIssues --> RefineIssue
+    NeedBreakdown -->|No| FullyRefined
+    FullyRefined --> ReadyLabel
+    ReadyLabel --> AddMilestone
+    AddMilestone --> End([Development process starts])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style End fill:#f9f,stroke:#333,stroke-width:2px
+    style NeedBreakdown fill:#ffd,stroke:#333
+    
+    classDef pmStyle fill:#e6f3ff,stroke:#333
+    classDef emStyle fill:#fff0e6,stroke:#333
+    classDef engStyle fill:#e6ffe6,stroke:#333
+    classDef sharedStyle fill:#f0f0f0,stroke:#333
+    
+    class RefinementLabel pmStyle
+    class CreateRefIssue,DistributeTasks emStyle
+    class RefineIssue,NeedBreakdown,CreateNewIssues,FullyRefined,ReadyLabel engStyle
+    class AddMilestone sharedStyle
+  ```
+
 ### Issue Refinement Checklist
 
 For issues that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
