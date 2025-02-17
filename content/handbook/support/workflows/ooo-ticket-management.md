@@ -18,7 +18,7 @@ As part of this workflow, the Support Engineer going on leave will leave notes o
 - adds you (the Support Engineer going on leave) to the ticket's CC list
 - adds the `ooo_summary` tag to the ticket.
 
-It is recommended to follow this workflow if 5 days or more of PTO are planned. 
+It is recommended to follow this workflow if 3 days or more of PTO are planned.
 
 #### Workflow
 
