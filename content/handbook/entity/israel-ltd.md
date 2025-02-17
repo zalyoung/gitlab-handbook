@@ -42,7 +42,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-Each team member employed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
+Each team member employed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed below. These records will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -55,6 +55,35 @@ Each team member is entitled to a rest period of at least 8 hours between work d
 ### Overtime
 
 The fact that team members may work beyond the regular work hours, overtime hours and/or on irregular days is reflected in a monthly consideration, payable as salary, and team members should not work hours or days beyond this quota (60 hours) without prior written approval. If GitLab has _not_ required or authorized overtime work, then any such time worked in excess will not be considered overtime for any purposes.
+
+## Timesheets
+
+Team members will be expected to fill out a monthly timesheet at the end of each month. The Israel timesheet template can be found [here](https://docs.google.com/spreadsheets/d/1FgyMwgaGRmrJSiYB7ZQ3TrIWO5pw7uuVMGEhOFqEfIQ/edit?usp=drive_link).
+
+### Submitting Timesheets
+
+1. Completed timesheets must be submitted before the 2nd of the following month.
+1. Completed timesheets must be saved as a PDF file.
+1. Go to your Okta account and click on the HelpLab SSO tile.
+1. Click on the Payroll dropdown, and select Timecards.
+
+![HelpLab Payroll dropdown](/images/entity/timecards.png "HelpLab Payroll dropdown")
+
+1. Click on the Timecards request tile.
+
+![Timecards request tile](/images/entity/timecards-request.png "HelpLab Timecards Request")
+
+1. Enter the Entity (GitLab Israel)
+1. Enter that No, you do not require your manager's approval
+1. In the How can we help box, state that you are submitting your timesheet for MONTH YEAR, for GitLab Israel.
+1. Upload your timesheet pdf file, and ensure that it contains your Name, the Month and Year of the timesheet in the file title.
+1. Click Submit.
+
+![Timecards submission](/images/entity/timecards-submission.png "HelpLab Timecard Submission")
+
+For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
+
+Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Breaks, and OOO**. Only enter “OOO” in the OOO column for any half or full days that you are Out of Office, whether it is paid or unpaid. **Team members must also accurately log and categorise all OOO time into Workday and provide sick notes per statutory sick leave guidelines.**https://docs.google.com/spreadsheets/d/1FgyMwgaGRmrJSiYB7ZQ3TrIWO5pw7uuVMGEhOFqEfIQ/edit?usp=drive_link
 
 ## Payroll Details
 
