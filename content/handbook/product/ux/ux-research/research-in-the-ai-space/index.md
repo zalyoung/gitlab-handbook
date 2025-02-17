@@ -83,7 +83,7 @@ To get robust feedback during solution validation, it's recommended to collect a
 
 **Tip:** Avoid asking the tempting "Would you use this?" question.
 
-If you are maturing your AI feature towards [Generally Available](https://docs.gitlab.com/ee/policy/development_stages_support.html#generally-available-ga), take a look at the [UX maturity requirements](/handbook/product/ai/ux-maturity/) for further guidance on metrics and success criteria.
+If you are maturing your AI feature towards [Generally Available](https://docs.gitlab.com/policy/development_stages_support/#generally-available-ga), take a look at the [UX maturity requirements](/handbook/product/ai/ux-maturity/) for further guidance on metrics and success criteria.
 
 ### Guideline 4: Learn about the cost of errors that AI will make
 
