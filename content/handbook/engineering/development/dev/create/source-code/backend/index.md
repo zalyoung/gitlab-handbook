@@ -113,36 +113,18 @@ For issues that need refinement, the Engineer/EM should update the issue descrip
 ```
 # Issue Refinement Checklist
 
-## Issue Basics
+## Problem verification
 - [ ] Issue label is ~"workflow::refinement"
 - [ ] Issue title clearly describes the feature or change
 - [ ] Issue description defines requirements and expectations
-- [ ] Acceptance criteria are clearly defined
-- [ ] Edge cases are documented
-- [ ] Required inputs and expected outputs are specified
-
-## Dependencies
-- [ ] Requires ~backend 
-- [ ] Requires ~frontend
-- [ ] Requires ~database
-- [ ] Requires ~documentation
-- [ ] Requires ~UX work
-- [ ] External service dependencies identified
-- [ ] Requires ~API changes
-
-## Technical Scope
 - [ ] Required permissions and access levels defined
-- [ ] Data migration needs identified (if any)
-- [ ] Security considerations documented (if any)
-- [ ] Performance requirements specified (if any)
 
-## Complexity Assessment
+## Implementation plan
+
+- [ ] A comment with an implementation plan is created
 - [ ] Issue is small and doesn't need to be broken down
-- [ ] Effort estimation is reasonable
-- [ ] Technical risks are identified
 
-## Final Steps
-- [ ] Does issue have an implementation plan?
+## Final steps
 - [ ] Does issue have a weight?
 - [ ] There are no blockers
 - [ ] Issue has ~"workflow::ready for development" label
@@ -156,11 +138,18 @@ Add a comment to the issue under refinement  using the provided template.
 ### Implementation Plan
 
 **1. Approach**
+
 <!-- Provide a high-level description of the implementation idea -->
 
-**2. Cross-team Collaboration**
+**2. Dependencies**
 
-<!-- Mention external dependencies required (Teams involved, external services/APIs needed) -->
+- [ ] Requires ~backend 
+- [ ] Requires ~frontend
+- [ ] Requires ~database
+- [ ] Requires ~documentation
+- [ ] Requires ~UX work
+- [ ] External service dependencies identified
+- [ ] Requires ~API changes
 
 **3. Implementation Steps**
 
