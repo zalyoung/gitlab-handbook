@@ -73,8 +73,7 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
 
 After coming back from PTO:
 
-1. Refer to your handover Slack channel if you wish to follow up on your previously handed off tickets.
-1. Archive the Slack channel
+1. Refer to the [#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel if you wish to follow up on your previously handed off tickets.
 
 #### Finding your tickets upon your return
 
