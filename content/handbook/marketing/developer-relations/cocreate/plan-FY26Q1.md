@@ -6,7 +6,7 @@ title: "Co-Create Action Plan - FY26Q1"
 
 This action plan outlines our strategy to launch 7 new Co-Create projects in FY26Q1. The plan establishes processes for identifying high-potential customers, engaging effectively, and ensuring successful project delivery.
 
-## Customer Segmentation Process 
+## Customer Segmentation Process
 
 Customer segmentation helps us identify organizations most likely to successfully participate in Co-Create. By analyzing multiple criteria, we can focus our resources on customers with the highest probability of contributing meaningful features to GitLab.
 
@@ -48,7 +48,7 @@ A structured outreach process ensures consistent communication and sets clear ex
 
 ### Engagement Steps
 
-- Initial contact via dedicated Slack channel
+- Initial contact through dedicated Slack channel
 - CSM follow-up if needed
 - Schedule alignment meeting with:
   - Customer Success Manager
@@ -95,7 +95,8 @@ Identifying and addressing potential risks ensures smooth program execution and 
 
 ## Target Timeline
 
-This action plan supports launching 7 new Co-Create projects by the end of FY26Q1 through:
+This action plan supports launching 7 new Co-Create projects by the end of FY26Q1 through
+
 - Building a pipeline of 21+ prospects
 - Converting 33% to active projects
 - Managing 8-10 week average project initiation time
