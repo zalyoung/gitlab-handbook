@@ -66,7 +66,7 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
     - If a quick pairing or handover call is needed, ensure this is arranged.
     - Once a candidate agrees to take assignment of the ticket, mark the thread with a ✅.
     - The new assignee is then responsible for taking any comments in the thread and adding an internal note in Zendesk.
-1. **IMPORTANT NOTE:** For all remaining assigned tickets, use the [Ticket handover (assignee change not related to preferred region)](https://handbook.gitlab.com/handbook/support/workflows/ticket-transfers/#ticket-handover-assignee-change-not-related-to-preferred-region) workflow to ensure all of your tickets are left `Unassigned`.   
+1. **IMPORTANT NOTE:** For all remaining assigned tickets, use the [Ticket handover (assignee change not related to preferred region)](/handbook/support/workflows/ticket-transfers/#ticket-handover-assignee-change-not-related-to-preferred-region) workflow to ensure all of your tickets are left `Unassigned`.   
 1. Once all tickets have been handed over, enjoy your PTO!
 
 #### When you're back from PTO
