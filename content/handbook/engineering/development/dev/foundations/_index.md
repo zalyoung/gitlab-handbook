@@ -22,6 +22,20 @@ GitLab team members can also use [#s_foundations](https://gitlab.slack.com/messa
 * Everyone can contribute; no silos.
   * The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
 
+### Workflow
+
+We use a standardize workflow that heavily depends on the `~Deliverable` label to measure Say/Do ratio:
+
+* Before the milestone starts
+  * EM applies the ~Deliverable label along with the milestone to issues that Engineering is committed to deliver.
+* During the milestone:
+  * If a Deliverable is added during the milestone and the current milestone is applied, it should be included in the Say/Do ratio and rules from At the end of the milestone apply.
+  * If Deliverable is added and then removed during the same milestone, and no missed:X label is added at the end of the milestone, then this issue won't be counted towards deliverables (no negative impact to say/do ratio).
+* At the end of the milestone:
+  * If a Deliverable was completed in the given milestone, the issue needs to be closed. This will positively impact Say/Do ratio.
+  * If a Deliverable was not completed in the given milestone and needs to be worked on in the next milestone, the EM applies the ~missed:X label and updates the milestone. Alternatively, this step can also be performed by the GitLab Bot who will automatically apply the missed label and update the milestone after the current milestone has concluded. In both cases the missed Deliverable will negatively impact Say/Do ratio.
+  * If a Deliverable was not completed in the given milestone and will not be worked on in the next milestone, the EM applies the ~missed:X label and removes the milestone. This will negatively impact Say/Do ratio
+
 ## OKRs
 
 For a list of active OKRs, [check the OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Afoundations&milestone_title=Started&first_page_size=50).
