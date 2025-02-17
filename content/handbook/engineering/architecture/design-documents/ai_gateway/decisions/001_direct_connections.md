@@ -4,7 +4,7 @@ toc_hide: true
 ---
 
 {{% alert %}}
-This decision is scoped to code completion requests. Code completion requests are a type of [code suggestion request](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/index.html).
+This decision is scoped to code completion requests. Code completion requests are a type of [code suggestion request](https://docs.gitlab.com/user/project/repository/code_suggestions/).
 {{% /alert %}}
 
 ## Summary

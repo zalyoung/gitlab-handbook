@@ -11,7 +11,7 @@ For information on developing security fixes in GitLab, please see the
 
 ## Secure Coding Guidelines
 
-The [GitLab Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html) (Required) cover how to address specific
+The [GitLab Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) (Required) cover how to address specific
 classes of vulnerabilities that have been identified in GitLab.
 
 ## Secure Code Warrior

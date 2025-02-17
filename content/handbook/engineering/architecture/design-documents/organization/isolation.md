@@ -24,15 +24,15 @@ Isolation means that data or features can never cross Organization boundaries.
 Many features in GitLab can link data together.
 A few examples of things that would be disallowed by Organization Isolation are:
 
-1. [Related issues](https://docs.gitlab.com/ee/user/project/issues/related_issues.html): Users would not be able to take an issue in one Project in `Organization A` and relate that issue to another issue in a Project in `Organization B`.
-1. [Share a project/group with a group](https://docs.gitlab.com/ee/user/group/manage.html#share-a-group-with-another-group): Users would not be allowed to share a Group or Project in `Organization A` with another Group or Project in `Organization B`.
-1. [System notes](https://docs.gitlab.com/ee/user/project/system_notes.html): Users would not get a system note added to an issue in `Organization A` if it is mentioned in a comment on an issue in `Organization B`.
+1. [Related issues](https://docs.gitlab.com/user/project/issues/related_issues/): Users would not be able to take an issue in one Project in `Organization A` and relate that issue to another issue in a Project in `Organization B`.
+1. [Share a project/group with a group](https://docs.gitlab.com/user/group/manage/#share-a-group-with-another-group): Users would not be allowed to share a Group or Project in `Organization A` with another Group or Project in `Organization B`.
+1. [System notes](https://docs.gitlab.com/user/project/system_notes/): Users would not get a system note added to an issue in `Organization A` if it is mentioned in a comment on an issue in `Organization B`.
 
 ## Why?
 
 ![Broken Organization Isolation](/images/engineering/architecture/design-documents/organization/diagrams/organization-isolation-broken.drawio.png)
 
-[GitLab Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) depend on using the Organization as the sharding key, which will allow us to shard data between different Cells.
+[GitLab Cells](https://docs.gitlab.com/architecture/blueprints/cells/) depend on using the Organization as the sharding key, which will allow us to shard data between different Cells.
 Initially, when we start rolling out Organizations, we will be working with a single Cell `Cell 1`.
 `Cell 1` is our current GitLab.com deployment.
 Newly created Organizations will be created on `Cell 1`.
@@ -142,7 +142,7 @@ that might need to cross Organization boundaries and this would solve the proble
 This could be an option for a limited set of features and may turn out to be
 necessary for some critical workflows.
 However, this should not become the default option, because it will ultimately lead to the Cells architecture not achieving the horizontal scaling goals.
-Features like [sharing a group with a group](https://docs.gitlab.com/ee/user/group/manage.html#share-a-group-with-another-group) are very tightly connected to some of the worst performing functionality in our
+Features like [sharing a group with a group](https://docs.gitlab.com/user/group/manage/#share-a-group-with-another-group) are very tightly connected to some of the worst performing functionality in our
 application with regard to scalability.
 We are hoping that by splitting up our databases in Cells we will be able to unlock more scaling headroom and reduce the problems associated with supporting these features.
 

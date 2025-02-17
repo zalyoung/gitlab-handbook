@@ -49,7 +49,7 @@ or when new features are requested.
 
 This proves especially challenging when trying to add a new syntax to the
 `.gitlab-ci.yml` file
-to support a specific feature, like [`secure files`](https://docs.gitlab.com/ee/ci/secure_files/index.html)
+to support a specific feature, like [`secure files`](https://docs.gitlab.com/ci/secure_files/)
 or `release:` keyword. Adding these special features on a syntax level
 results in a more complex config, which is harder to maintain, and more complex
 to deal with technical debt when requirements change.

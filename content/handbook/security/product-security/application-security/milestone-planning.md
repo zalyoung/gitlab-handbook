@@ -65,7 +65,7 @@ Any issue being worked on by an Application Security team member must include:
 
 ### Updating issues health
 
-DRIs are responsible for updating [the health of issues](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) they are working on:
+DRIs are responsible for updating [the health of issues](https://docs.gitlab.com/user/project/issues/managing_issues/#health-status) they are working on:
 
 - `On track`: well, pretty easy to understand.
 - `Needs attention`: not yet at risk of missing the milestone, but requires attention. DRI should reach out to AppSec Managers to evaluate what can be adjusted to put it back `On track`.

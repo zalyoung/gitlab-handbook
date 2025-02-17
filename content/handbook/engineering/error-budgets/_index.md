@@ -45,7 +45,7 @@ GitLab's current implementation of Error Budgets is only using some of the above
 
 Web requests that result in a `500` status code error are counted. In Sidekiq, jobs that fail due to an unhandled exception are counted.
 
-If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis/), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
+If a group has [custom SLIs](https://docs.gitlab.com/development/application_slis/), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
 
 Engineers can use `Gitlab::ErrorTracking.track_exception`, or other logging, freely without affecting the error budget.
 
@@ -64,7 +64,7 @@ Assigning error budgets down to the feature category sets a baseline for specifi
 ## How do we determine the highest priority improvements?
 
 Each group has a `Budget spend attribution` section in their
-[Budget detail dashboard](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/error_budget_detail.html) that allows them to [discover where their budget is being spent](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#check-where-budget-is-being-spent).
+[Budget detail dashboard](https://docs.gitlab.com/development/stage_group_observability/dashboards/error_budget_detail/) that allows them to [discover where their budget is being spent](https://docs.gitlab.com/development/stage_group_observability/#check-where-budget-is-being-spent).
 
 Both the `Budget failures` panel and each link in the `Failure log links` panel are ordered by the number of errors. Prioritising fixing the top offenders in these tables will have the biggest impact on the budget spent.
 
@@ -125,7 +125,7 @@ We elected to use the 28 day period to match Product reporting methods.
 
 The budget is set on the SaaS platform and is shared between stage and infrastructure teams. Service Availability calculation methodology is covered in details at [the GitLab.com Service Availability page](/handbook/engineering/monitoring/#gitlabcom-service-availability).
 
-This includes all Rails Controllers, API Endpoints, Sidekiq workers, and other SLIs defined in the service catalog. This is attributed to groups by defining a feature category. Documentation about feature categorization is available in the [developer guide](https://docs.gitlab.com/ee/development/feature_categorization/index.html#feature-categorization).
+This includes all Rails Controllers, API Endpoints, Sidekiq workers, and other SLIs defined in the service catalog. This is attributed to groups by defining a feature category. Documentation about feature categorization is available in the [developer guide](https://docs.gitlab.com/development/feature_categorization/#feature-categorization).
 
 The number or complexity of features owned by a team, existing product priorities, or the team size does not influence the budget.
 
@@ -165,7 +165,7 @@ There is [an example available](error-budget-by-stage-group-example.md) with a m
 
 The current [28 day](/handbook/enterprise-data/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups). Feature categories for that stage group are rolled up to a single value.
 
-Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/stage_group_dashboard.html)
+Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/development/stage_group_observability/dashboards/stage_group_dashboard/)
 
 The formula for calculating availability:
 
@@ -197,13 +197,13 @@ At this time we are not looking further into automatically discounting system-wi
 
 ### How to change error budget attribution
 
-Error budget events are attributed to stage groups via feature categorization. To change the feature category for an endpoint, update the endpoint as described in the [feature categorization development documentation](https://docs.gitlab.com/ee/development/feature_categorization/index.html#feature-categorization).
+Error budget events are attributed to stage groups via feature categorization. To change the feature category for an endpoint, update the endpoint as described in the [feature categorization development documentation](https://docs.gitlab.com/development/feature_categorization/#feature-categorization).
 
 Updates to feature categories only change how future events are mapped to stage groups. Previously reported events will not be retroactively updated.
 
 The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections/) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
 
-1. The [Rails application](https://docs.gitlab.com/ee/development/feature_categorization/#updating-configfeature_categoriesyml).
+1. The [Rails application](https://docs.gitlab.com/development/feature_categorization/#updating-configfeature_categoriesyml).
 1. The [Runbooks repository](https://gitlab.com/gitlab-com/runbooks/-/blob/master/services/stage-group-mapping.jsonnet).
 
 ### Error budgets for new groups
@@ -343,5 +343,5 @@ Product Development teams are encouraged to:
 ## More information
 
 - [Error Budget AMA](https://docs.google.com/presentation/d/1yYnLlTN8KOYNHww91nJgnbFK7l2xf3Cy1mRvUAxHa08/edit)
-- [Understanding Stage Level Error Budget Dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/#error-budget)
+- [Understanding Stage Level Error Budget Dashboards](https://docs.gitlab.com/development/stage_group_observability/#error-budget)
 - [Setting up recurring Slack updates](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/error-budget-weekly.md)

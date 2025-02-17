@@ -6,7 +6,7 @@ title: "Evangelist Program"
 
 At GitLab our mission is to change all creative work from read-only to read-write so that **everyone can contribute**. In order to fulfill this mission, we need to create both the tools and platform to enable this change and a community of contributors who share our mission. We are just getting started in building the GitLab community and we encourage everyone to contribute to its growth.
 
-There are many ways to participate in the GitLab community today: [contributing to an open source project](/handbook/marketing/developer-relations/contributor-success/), [contributing to our documentation](https://docs.gitlab.com/ee/development/documentation/), [hosting your open source project on GitLab](https://about.gitlab.com/solutions/open-source/), or teaching your colleagues and collaborators about the value of [Concurrent DevOps](https://about.gitlab.com/topics/devops/ ).
+There are many ways to participate in the GitLab community today: [contributing to an open source project](/handbook/marketing/developer-relations/contributor-success/), [contributing to our documentation](https://docs.gitlab.com/development/documentation/), [hosting your open source project on GitLab](https://about.gitlab.com/solutions/open-source/), or teaching your colleagues and collaborators about the value of [Concurrent DevOps](https://about.gitlab.com/topics/devops/ ).
 
 We are building an evangelist program to support people who share our mission and want to give tech talks, run local meetups, or create videos or blogs. For now, please email `evangelists@gitlab.com` if you have feedback on our vision, ideas for how we can build our community, or suggestions for a name for our evangelist program.
 
@@ -78,7 +78,7 @@ Please email us at `evangelists@gitlab.com` if you have questions about the GitL
 We use GitLab to manage our Heroes application process. To apply for GitLab Heroes, community members must follow these steps:
 
 1. Click the "Become a Hero" button or the "Apply to become a GitLab Hero" button on the [GitLab Heroes page](https://about.gitlab.com/community/heroes/#apply)
-1. Clicking the button will open an email message, in which, the applicant will be prompted to send an email which creates an issue in the [`GitLab Heroes Application`](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/gitlab-heroes-applications) project using GitLab's [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) feature. _Note: only GitLab team members can view this project as the issues may contain applicants' email addresses._
+1. Clicking the button will open an email message, in which, the applicant will be prompted to send an email which creates an issue in the [`GitLab Heroes Application`](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/gitlab-heroes-applications) project using GitLab's [Service Desk](https://docs.gitlab.com/user/project/service_desk/) feature. _Note: only GitLab team members can view this project as the issues may contain applicants' email addresses._
 1. Using Service Desk, an auto-reply will send an application template to the applicant.
 1. Once the applicant replies with their completed the application, the Evangelist Program Manager should apply the `heroes-application` template to their Service Desk issue.
 1. Hero applications will expire 5 weeks after they are received if there is no communication from the applicant. If you are interested in the program and your original application has expired, you are encouraged to reapply.
@@ -148,7 +148,7 @@ Once you have the above items, follow these steps to add yourself to the Heroes 
 1. Check the files to ensure your updates are what you expect. If they are, click the check mark next to the filename to "stage" these changes.
 1. Once you have verified all of the edits, enter a short commit message including what you've changed. Choose `Create a new branch`. Name the branch in the format of `YOURINITIALS-heroes-page` or similar. Tick the `Start a new merge request` checkbox. Then click `Commit` once more.
 1. Click on the Activity link in the header to go to your Activity page. Once there, click on the blue `Create merge request` button at the top of the page.
-1. Fill out the merge request details. Please ensure you tick the box to `Allow commits from members who can merge to target branch` as detailed on the [Allow collaboration on merge requests across forks](https://docs.gitlab.com/ee/user/project/merge_requests/allow_collaboration.html#enabling-commit-edits-from-upstream-members) page in our docs.
+1. Fill out the merge request details. Please ensure you tick the box to `Allow commits from members who can merge to target branch` as detailed on the [Allow collaboration on merge requests across forks](https://docs.gitlab.com/user/project/merge_requests/allow_collaboration/#enabling-commit-edits-from-upstream-members) page in our docs.
 1. Mention `@gitlab-da` in a comment in the merge request so our team can review and merge.
 
 ### Adding members to the GitLab Heroes project

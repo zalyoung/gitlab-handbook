@@ -16,7 +16,7 @@ title: "Marketing Project Management Guidelines"
 
 ## <i class="fas fa-toolbox fa-fw color-orange font-awesome"></i> Marketing Project Management Guidelines
 
-Marketing uses GitLab for agile project management including [groups](https://docs.gitlab.com/ee/user/group/), [projects](https://docs.gitlab.com/ee/user/project/), [epics](https://docs.gitlab.com/ee/user/group/epics/), [roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/), [issues](https://docs.gitlab.com/ee/user/project/issues/), [labels](https://docs.gitlab.com/ee/user/project/labels.html), and [boards](https://docs.gitlab.com/ee/user/project/issue_board.html). Read through the documentation on each of these GitLab features if you are unfamiliar.
+Marketing uses GitLab for agile project management including [groups](https://docs.gitlab.com/user/group/), [projects](https://docs.gitlab.com/user/project/), [epics](https://docs.gitlab.com/user/group/epics/), [roadmaps](https://docs.gitlab.com/user/group/roadmap/), [issues](https://docs.gitlab.com/user/project/issues/), [labels](https://docs.gitlab.com/user/project/labels/), and [boards](https://docs.gitlab.com/user/project/issue_board/). Read through the documentation on each of these GitLab features if you are unfamiliar.
 
 ## Integrated Campaigns
 

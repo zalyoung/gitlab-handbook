@@ -4,13 +4,13 @@ title: "Secret Push Protection Monitoring"
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
+This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/user/application_security/secret_detection/secret_push_protection/) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
 
 * [Secret Push Protection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1)
 
 ### What to monitor?
 
-While the feature, in its [current form](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#high-level-architecture), doesn't have any external components and is entirely encapsulated within the application server as a dependency, it does interact with a number of components as can be seen in this [push event sequence diagram](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#push-event-detection-flow). Those components are:
+While the feature, in its [current form](https://docs.gitlab.com/architecture/blueprints/secret_detection/#high-level-architecture), doesn't have any external components and is entirely encapsulated within the application server as a dependency, it does interact with a number of components as can be seen in this [push event sequence diagram](https://docs.gitlab.com/architecture/blueprints/secret_detection/#push-event-detection-flow). Those components are:
 
 * GitLab Shell (Git over SSH):
   * `git-receive-pack`
@@ -123,7 +123,7 @@ The dashboard itself is split into 4 rows (or sections), with each containing a 
 
 #### GitLab Shell (Git over SSH)
 
-This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd.html) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/index.html#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#ssh-request-22) for more information on how that works.
+This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/development/gitlab_shell/gitlab_sshd/) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/development/gitlab_shell/#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/development/architecture/#ssh-request-22) for more information on how that works.
 
 The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a `git push` operation is carried out over SSH. It is dividend into two rows/sections as follows.
 
@@ -296,7 +296,7 @@ This panel displays average number of requests per second (RPS) made to `gitlab-
 
 #### Workhorse (Git over HTTP/S)
 
-This section monitors the stability of certain operations related to the feature within `Workhorse`, which is a smart reverse proxy intended to handle resource-intensive and long-running requests. It intercepts all HTTP requests and either propagates them without changing or handles them itself by performing additional logic. Please check [this diagram](https://docs.gitlab.com/ee/development/workhorse/handlers.html#git-push) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#web-request-80443) for more information on how that works.
+This section monitors the stability of certain operations related to the feature within `Workhorse`, which is a smart reverse proxy intended to handle resource-intensive and long-running requests. It intercepts all HTTP requests and either propagates them without changing or handles them itself by performing additional logic. Please check [this diagram](https://docs.gitlab.com/development/workhorse/handlers/#git-push) and [this description of a request cycle](https://docs.gitlab.com/development/architecture/#web-request-80443) for more information on how that works.
 
 The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a `git push` operation is carried out over HTTP/S.
 
@@ -531,7 +531,7 @@ _Panel Information_
 
 #### Rails
 
-This section monitors the stability of the [`/internal/allowed` endpoint](https://docs.gitlab.com/ee/development/internal_api/internal_api_allowed.html) which is a focal point in the feature's journey to protect against leaked secrets in a `git` push. The endpoint is part of GitLab's [Internal API](https://docs.gitlab.com/ee/development/internal_api/), and is responsible for assessing if a user has permission to perform certain operations on the repository.
+This section monitors the stability of the [`/internal/allowed` endpoint](https://docs.gitlab.com/development/internal_api/internal_api_allowed/) which is a focal point in the feature's journey to protect against leaked secrets in a `git` push. The endpoint is part of GitLab's [Internal API](https://docs.gitlab.com/development/internal_api/), and is responsible for assessing if a user has permission to perform certain operations on the repository.
 
 The section can be used to ensure there are no performance degradations related to the `/internal/allowed` endpoint when changes in a certain `git` push are scanned for secrets.
 
@@ -653,7 +653,7 @@ If a new component is utilised by the feature, please follow the steps below.
 
 * Identify endpoints or services the feature interacts with in the component.
 * Explore metrics available for the endpoint or service.
-* If no metrics are available, consider [creating them](https://docs.gitlab.com/ee/administration/monitoring/prometheus/) to monitor the performance of the endpoint/service.
+* If no metrics are available, consider [creating them](https://docs.gitlab.com/administration/monitoring/prometheus/) to monitor the performance of the endpoint/service.
 * Create a new row for the component in the dashboard you are editing.
 * Add as many panels as for available metrics in the new row. Use your best judgement on what is should be added.
 * Create a merge request updating this runbook with information about the panel. Use panels above for guidance.

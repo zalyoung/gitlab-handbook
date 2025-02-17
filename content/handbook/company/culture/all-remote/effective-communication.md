@@ -158,7 +158,7 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-Specific examples of using text effectively are ideal for showing new hires how to learn this skill. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+Specific examples of using text effectively are ideal for showing new hires how to learn this skill. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

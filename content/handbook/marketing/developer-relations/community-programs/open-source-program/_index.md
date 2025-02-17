@@ -33,7 +33,7 @@ Send questions about the GitLab for Open Source Program to `opensource@gitlab.co
 
 #### What are the benefits of the GitLab for Open Source Program?
 
-At no cost, members of the GitLab for Open Source Program receive a [GitLab Ultimate](https://about.gitlab.com/pricing/) subscription (self-managed or SaaS), which includes 50,000 compute minutes calculated at a [program-specific cost factor](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor).
+At no cost, members of the GitLab for Open Source Program receive a [GitLab Ultimate](https://about.gitlab.com/pricing/) subscription (self-managed or SaaS), which includes 50,000 compute minutes calculated at a [program-specific cost factor](https://docs.gitlab.com/ci/pipelines/compute_minutes/#cost-factor).
 Product support is not included as part of this subscription.
 
 #### Who qualifies for the GitLab for Open Source Program?
@@ -80,7 +80,7 @@ They should submit screenshots of:
 * The project's license contents
 * The project's public visibility settings
 
-For more specific instructions on obtaining and submitting required screenshots, [see GitLab Docs](https://docs.gitlab.com/ee/subscriptions/community_programs.html#gitlab-for-open-source).
+For more specific instructions on obtaining and submitting required screenshots, [see GitLab Docs](https://docs.gitlab.com/subscriptions/community_programs/#gitlab-for-open-source).
 
 #### How are GitLab for Open Source Program applications processed?
 
@@ -114,7 +114,7 @@ The team will use this form to determine whether the entity applying for renewal
 Whether applying to the program for the first time or renewing a pre-existing membership, applicants complete the same form.
 
 The person claiming the renewal for the subscription must be the same person who created the subscription for this open source project or organization in the GitLab Customer Portal.
-If a different person wishes to initiate the renewal, the existing owner needs to [transfer ownership of the Customers Portal account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-account-owner-information).
+If a different person wishes to initiate the renewal, the existing owner needs to [transfer ownership of the Customers Portal account](https://docs.gitlab.com/subscriptions/customers_portal/#change-account-owner-information).
 If the existing owner is no longer able to transfer ownership or renew, the project should [open a support ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293) to change the owner of the subscription before initiating renewal.
 
 After completing application form, verified applicants receive a verification email with instructions for activating their subscriptions.

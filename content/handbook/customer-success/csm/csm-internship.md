@@ -56,7 +56,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
-   1. [Start using Git on the command line](https://docs.gitlab.com/ee/topics/git/commands.html)
+   1. [Start using Git on the command line](https://docs.gitlab.com/topics/git/commands/)
    1. [Learn Git Branching](https://learngitbranching.js.org/)
    1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)/)
 
@@ -195,19 +195,19 @@ In order to make the most of the internship, it's expected for the intern to do 
 1. Learn about Architecture/HA and what's best for each customer
    1. Learn about HA and our reference architectures
       1. [What is HA?](https://www.digitalocean.com/community/tutorials/what-is-high-availability)
-      1. Review [architecture overview documentation](https://docs.gitlab.com/ee/development/architecture.html)
-      1. Understand the differences between the different [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+      1. Review [architecture overview documentation](https://docs.gitlab.com/development/architecture/)
+      1. Understand the differences between the different [reference architectures](https://docs.gitlab.com/administration/reference_architectures/)
       1. Complete [HA Certification course](https://gitlab-training.gitlab.io/ha/) (pre-Gitaly) - **note** this course is no longer graded, but still helpful in learning about HA
-      1. Review [Gitaly documentation](https://docs.gitlab.com/ee/administration/gitaly/)
-      1. Understand our [GitLab Dedicated offering](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
+      1. Review [Gitaly documentation](https://docs.gitlab.com/administration/gitaly/)
+      1. Understand our [GitLab Dedicated offering](https://docs.gitlab.com/subscriptions/gitlab_dedicated/)
    1. Be prepared to discuss with your mentor:
       1. Ask them to share an architecture diagram from one of their customers
       1. Why a customer would choose SaaS vs self-managed vs Dedicated
       1. What you would tell a customer who has 500 users but wants to be HA
       1. Recommended upgrade paths and frequencies
 1. Review Geo and discuss with your mentor the different use cases and why customers should use it and when
-   1. [Documentation](https://docs.gitlab.com/ee/administration/geo/)
-   1. [Geo FAQ](https://docs.gitlab.com/ee/administration/geo/replication/faq.html)
+   1. [Documentation](https://docs.gitlab.com/administration/geo/)
+   1. [Geo FAQ](https://docs.gitlab.com/administration/geo/replication/faq/)
 
 #### Week 11
 

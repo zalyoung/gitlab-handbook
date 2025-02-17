@@ -18,7 +18,7 @@ Epics to Work Items conversion plan and status
 
 ### Context
 
-Plan stage is developing [Work Items](https://docs.gitlab.com/ee/architecture/blueprints/work_items/) as a platform to build GitLab features like Issues,
+Plan stage is developing [Work Items](https://docs.gitlab.com/architecture/blueprints/work_items/) as a platform to build GitLab features like Issues,
 Epics, Tasks, etc. to be more extensible to meet product needs. This working group is focused on the [migration of Epics to Work Items](https://gitlab.com/groups/gitlab-org/-/epics/9290)
 and provides detailed insight on individuals involved in the effort, the technical plan for the migration, as well as current status and exit criteria.
 

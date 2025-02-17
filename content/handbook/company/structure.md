@@ -406,7 +406,7 @@ We do have the [Application Performance group](/handbook/product/categories/#app
 
 The [Application Performance group](/handbook/product/categories/#application-performance-group) is focused on identifying systemic performance bottlenecks, creating documentation, and tooling to assist other groups in understanding and improving the performance of their features.
 
-The [Database group](/handbook/product/categories/#database-group) is focused on the specifics of database management/scaling and to provide consulting for development teams in need of database development guidance.  While database related merge requests still require approval from a database maintainer our [database review](https://docs.gitlab.com/ee/development/database_review.html) process has necessarily scaled beyond just the members of the database team.
+The [Database group](/handbook/product/categories/#database-group) is focused on the specifics of database management/scaling and to provide consulting for development teams in need of database development guidance.  While database related merge requests still require approval from a database maintainer our [database review](https://docs.gitlab.com/development/database_review/) process has necessarily scaled beyond just the members of the database team.
 
 #### Product Group health Assessment
 
@@ -434,7 +434,7 @@ When designating a team members `specialty` we use the smallest unit of our Prod
 
 The goal of a Single-Engineer Group (SEG) is to initiate GitLab into a planned or minimal category within the GitLab project. The single-engineer group is not to invest in an existing viable or complete category.  Here is a [list](https://about.gitlab.com/direction/#single-engineer-groups) of product ideas that are candidates for a SEG to work on.
 
-At GitLab, we believe in the power of a single engineer to accomplish amazing feats.  Many open source projects started with a single engineer's  decision to build around a problem they personally experienced. For instance, [Continuous Integration](https://docs.gitlab.com/ee/ci/) by [DZ](/handbook/company/team/#dzaporozhets) and [GitLab Runner](https://docs.gitlab.com/runner/) by [Kamil](/handbook/company/team/#ayufan). We want to create room for this energy.
+At GitLab, we believe in the power of a single engineer to accomplish amazing feats.  Many open source projects started with a single engineer's  decision to build around a problem they personally experienced. For instance, [Continuous Integration](https://docs.gitlab.com/ci/) by [DZ](/handbook/company/team/#dzaporozhets) and [GitLab Runner](https://docs.gitlab.com/runner/) by [Kamil](/handbook/company/team/#ayufan). We want to create room for this energy.
 
 Our belief is that we can guarantee a higher rate of success by incubating ideas inside our larger organization and existing code base while limiting the negative aspects of friction that come from a larger organization. A few benefits of SEG include:
 

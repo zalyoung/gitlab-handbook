@@ -18,7 +18,7 @@
 #    - Merge when pipeline succeeds
 #   info: |
 #     A common phrase used by GitLab team members when adding approved MRs to the merge train, when
-#     [auto-merge when using merge trains](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html#auto-merge-when-using-merge-trains)
+#     [auto-merge when using merge trains](https://docs.gitlab.com/user/project/merge_requests/auto_merge/#auto-merge-when-using-merge-trains)
 #     is configured
 #
 

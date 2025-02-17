@@ -11,7 +11,7 @@ Discussions are documented in this [GitLab project](https://gitlab.com/gitlab-or
 
 ### Hierarchy of Work Items
 
-One aspect of planning that provides clarity for development execution is the breakdown of roadmap into a hierarchy of informational pieces that are organized in GitLab's own [work items](https://docs.gitlab.com/ee/development/work_items.html) as part of product management.
+One aspect of planning that provides clarity for development execution is the breakdown of roadmap into a hierarchy of informational pieces that are organized in GitLab's own [work items](https://docs.gitlab.com/development/work_items/) as part of product management.
 
 This section describes the approach that the Geo team takes to break down the requirements into work-in-progress items that engineers move through the workflow of implementation.
 

@@ -348,20 +348,20 @@ the number of application versions will make the difference between something th
 something that works in production.
 
 An extra challenge, almost unique to GitLab, is that we deploy from the main branch multiple times each day, but we have a monthly release cycle
-and [zero downtime updates](https://docs.gitlab.com/ee/update/zero_downtime.html) is a requirement for both releases.
+and [zero downtime updates](https://docs.gitlab.com/update/zero_downtime/) is a requirement for both releases.
 
-Overlooking the [compatibility with multiple versions of the application running at the same time](https://docs.gitlab.com/ee/development/multi_version_compatibility.html)
+Overlooking the [compatibility with multiple versions of the application running at the same time](https://docs.gitlab.com/development/multi_version_compatibility/)
 can induce a production incident.
 
 You can find more detailed information in the links below. If this is not enough, please reach out to the
 [delivery](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) or
 [scalability](/handbook/engineering/infrastructure/team/scalability/) team.
 
-1. [Expand and Contract pattern](https://docs.gitlab.com/ee/development/multi_version_compatibility.html)
-2. [Zero Downtime Updates](https://docs.gitlab.com/ee/update/zero_downtime.html)
-3. [Sidekiq Compatibility across Updates](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html)
-4. [Avoiding downtime in migrations](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html)
-5. [Uploads development documentation](https://docs.gitlab.com/ee/development/uploads/)
+1. [Expand and Contract pattern](https://docs.gitlab.com/development/multi_version_compatibility/)
+2. [Zero Downtime Updates](https://docs.gitlab.com/update/zero_downtime/)
+3. [Sidekiq Compatibility across Updates](https://docs.gitlab.com/development/sidekiq/compatibility_across_updates/)
+4. [Avoiding downtime in migrations](https://docs.gitlab.com/development/database/avoiding_downtime_in_migrations/)
+5. [Uploads development documentation](https://docs.gitlab.com/development/uploads/)
 
 ## Team History
 

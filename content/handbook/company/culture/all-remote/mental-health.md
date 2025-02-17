@@ -375,7 +375,7 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-Creating a healthy remote workplace is essential to business success. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+Creating a healthy remote workplace is essential to business success. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

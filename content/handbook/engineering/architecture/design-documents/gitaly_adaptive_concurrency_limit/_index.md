@@ -99,8 +99,8 @@ constraints and distinguishing features, including cgroup utilization and
 upload-pack RPC, among others.
 
 The proposed solution does not aim to replace the existing limits in Gitaly
-for [RPC concurrency](https://docs.gitlab.com/ee/administration/gitaly/concurrency_limiting.html#limit-rpc-concurrency)
-and [pack object concurrency](https://docs.gitlab.com/ee/administration/gitaly/concurrency_limiting.html#limit-pack-objects-concurrency),
+for [RPC concurrency](https://docs.gitlab.com/administration/gitaly/concurrency_limiting/#limit-rpc-concurrency)
+and [pack object concurrency](https://docs.gitlab.com/administration/gitaly/concurrency_limiting/#limit-pack-objects-concurrency),
 but automatically tweak the parameters. This means
 that other aspects, such as queuing, in-queue timeout, queue length,
 partitioning, and scoping, will remain unchanged. The proposed solution only
@@ -335,7 +335,7 @@ Picking which request to kill is tricky. In many systems, request criticality is
 considered. A request from downstream is assigned with a criticality point.
 Requests with lower points are targeted first. Unfortunately, GitLab doesn't
 have a similar system. We have an
-[Urgency system](https://docs.Gitlab.com/ee/development/application_slis/rails_request.html),
+[Urgency system](https://docs.Gitlab.com/development/application_slis/rails_request/),
 but it is used for response time committing rather than criticality.
 
 As a replacement, we can prioritize requests harming the system the most. Some

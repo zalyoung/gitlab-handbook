@@ -133,7 +133,7 @@ It's not rude to focus on documentation in a meeting. A surefire way to waste ti
 
 1. During the meeting, add input and feedback from attendees to existing agenda items.
 1. When referencing a team member's name in the meeting agenda, ensure that both the first and last names are displayed. (e.g: When we write the name of the person who is speaking in the agenda, we should write the first and last name or use the tagging feature as a prefix)
-1. For action items, we [go directly to a GitLab issue](/handbook/communication/#start-with-a-merge-request) or [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/). This creates a direct takeaway from the meeting, where ideas are summarized and action can begin immediately. Be sure to add a link the issue or MR in your meeting agenda for reference and completeness.
+1. For action items, we [go directly to a GitLab issue](/handbook/communication/#start-with-a-merge-request) or [merge request](https://docs.gitlab.com/user/project/merge_requests/). This creates a direct takeaway from the meeting, where ideas are summarized and action can begin immediately. Be sure to add a link the issue or MR in your meeting agenda for reference and completeness.
 1. For optional attendees, or key team members who could not attend the meeting live, tagging them in the resulting GitLab issue(s) enables them to get themselves up to speed and contribute when it is suitable for their schedule.
 1. Record the meeting. You can always delete an unwanted meeting, but you cannot turn back the clock and record a meeting retroactively. This is particularly important if you want to present or wish to have a written transcription of the meeting. Zoom's [Cloud Recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064927) supports [transcription](/handbook/tools-and-tips/zoom#recording-video-transcripts) natively, and [Otter](https://otter.ai) is another popular transcription tool.
 
@@ -142,7 +142,7 @@ It's not rude to focus on documentation in a meeting. A surefire way to waste ti
 All-remote meetings are made simpler given that there's no jockeying for space in a conference room, scrounging for huddle rooms, or wondering if a given group still needs the  room they've reserved — all very real conundrums in colocated environments.
 
 1. GitLab uses Zoom for video calls and screen sharing. Its simple recording function makes it easy to capture meetings for others to watch at a later time. Learn more about how we optimize Zoom usage in our meetings in the [Tools and Tips](/handbook/tools-and-tips#zoom) portion of our Handbook.
-1. We use [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) to document action items that come out of any given meeting, and loop anyone else in who opted out of real-time attendance.
+1. We use [GitLab Issues](https://docs.gitlab.com/user/project/issues/) to document action items that come out of any given meeting, and loop anyone else in who opted out of real-time attendance.
 1. Leverage tools such as Calendly, which can show you as busy in chat tools like Slack.
 
 #### Use GitLab to replace meetings

@@ -53,7 +53,7 @@ Choose the app's category accordingly. The code block is to be added **to the en
 1. Check the files to ensure your updates are what you expect. If they are, click the check mark next to the filename to "stage" these changes.
 1. Once you have verified all of the edits, enter a short commit message including what you've changed. Choose `Create a new branch`. Name the branch in the format of `CompanyName-partners-page` or similar. Tick the `Start a new merge request` checkbox. Then click `Commit` once more.
 1. A new merge request will then initiate and you will be able to fill out a description and details around the MR. Select the 'Applications' template and fill out the information accordingly.
-1. When you have filled out the merge request details. **Please ensure you tick the box to `Allow commits from members who can merge to target branch` as detailed on the [Allow collaboration on merge requests across forks](https://docs.gitlab.com/ee/user/project/merge_requests/allow_collaboration.html#enabling-commit-edits-from-upstream-members) page in our docs.**
+1. When you have filled out the merge request details. **Please ensure you tick the box to `Allow commits from members who can merge to target branch` as detailed on the [Allow collaboration on merge requests across forks](https://docs.gitlab.com/user/project/merge_requests/allow_collaboration/#enabling-commit-edits-from-upstream-members) page in our docs.**
     > Make sure when submitting the MR, the source is the branch that was just created from the MR and the destination/target is the `/gitlab-com/marketing/digital-experience/buyer-experience/`.
 1. Once the MR is created, use the Application template and complete the instructions.
 

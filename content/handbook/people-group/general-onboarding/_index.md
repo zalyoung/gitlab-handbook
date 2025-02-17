@@ -9,7 +9,7 @@ We highly recommend taking at least two full weeks for onboarding and only in we
 
 All onboarding steps are in the [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) which is owned by the People Connect team. The onboarding process for the new team member is [self-driven and self-learning](/handbook/values/#self-service-and-self-learning), whilst also remaining as [asynchronous](/handbook/values/#bias-towards-asynchronous-communication) as possible settling into the remote life at GitLab.
 
-At GitLab we take great pride in [dogfooding](/handbook/values/#dogfooding) our own product, that is why all onboarding tasks are completed in a GitLab issue. First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/ee/user/project/issues/).
+At GitLab we take great pride in [dogfooding](/handbook/values/#dogfooding) our own product, that is why all onboarding tasks are completed in a GitLab issue. First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/user/project/issues/).
 
 The People Connect Specialist assigned to the team members specific onboarding will [open](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#onboarding-issue-creation) the onboarding issue at least 4 days prior to the hire date.
 
@@ -84,7 +84,7 @@ The employment bot will automatically close any onboarding issues still open aft
 
 ### <i class="fas fa-tasks fa-fw color-orange font-awesome"></i>Completing Onboarding Issue
 
-First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/ee/user/project/issues/).
+First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/user/project/issues/).
 
 To ensure a successful completion of the onboarding issue, it is important that all tasks are checked off, whether the task is applicable to the onboarding team member or not. Checking the box indicates one of the following:
 

@@ -89,7 +89,7 @@ Elasticsearch currently supports [Reciprocal rank fusion (RRF)](https://www.elas
 
 Elasticsearch is available on GitLab.com and can be integrated on Dedicated and Self-Managed instances. To use as a vector store only:
 
-- [Install Elasticsearch version `8.12`](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html#install-elasticsearch-or-aws-opensearch-cluster) or upgrade to at least version `8.12`.
+- [Install Elasticsearch version `8.12`](https://docs.gitlab.com/integration/advanced_search/elasticsearch/#install-elasticsearch-or-aws-opensearch-cluster) or upgrade to at least version `8.12`.
 - Add URL, Username and Password on the Advanced Search settings page: `admin/application_settings/advanced_search`
 
 After the integration is configured, instance admins don't need to do further work to use it as a vector store since the GitLab Elasticsearch framework handles setting mappings, settings and indexing data.
@@ -153,14 +153,14 @@ Repository X Ray hasn't yet implemented any semantic seach and this section is b
 
 ### Synchronizing embeddings with data source
 
-In a similar manner as with the [documentation example](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_duo_rag/elasticsearch.html#retrieve-gitlab-documentation) Repository X Ray report data is a derivative. It uses an underlying repository source code as a base, and it must be synchronised with it, whenever any changes to the source code occurs.
+In a similar manner as with the [documentation example](https://docs.gitlab.com/architecture/blueprints/gitlab_duo_rag/elasticsearch/#retrieve-gitlab-documentation) Repository X Ray report data is a derivative. It uses an underlying repository source code as a base, and it must be synchronised with it, whenever any changes to the source code occurs.
 
 Right now there is no synchronisation mechanism that includes embeddings and vector storage. However there is an existing pipeline that generates and stores Repository X Ray reports.
 
 The ingestion pipeline is performed in following steps:
 
-1. A CI X Ray scanner job is triggered - a documentation [page](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html#enable-repository-x-ray) suggest limiting this job to be executed only when changes occur to the main repository branch. However repository maintainers may configure trigger rules differently.
-   - An X Ray [scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) locates and process one of the supported [dependencies files](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html#supported-languages-and-package-managers), producing JSON report files.
+1. A CI X Ray scanner job is triggered - a documentation [page](https://docs.gitlab.com/user/project/repository/code_suggestions/repository_xray/#enable-repository-x-ray) suggest limiting this job to be executed only when changes occur to the main repository branch. However repository maintainers may configure trigger rules differently.
+   - An X Ray [scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) locates and process one of the supported [dependencies files](https://docs.gitlab.com/user/project/repository/code_suggestions/repository_xray/#supported-languages-and-package-managers), producing JSON report files.
 1. After the X Ray scanner job finishes successfully, a [background job](https://gitlab.com/gitlab-org/gitlab/-/blob/c6b2f18eaf0b78a4e0012e88f28d643eb0dfb1c2/ee/app/workers/ai/store_repository_xray_worker.rb#L18) is triggered in GitLab Rails monolith that imports JSON report into [`Projects::XrayReport`](https://gitlab.com/gitlab-org/gitlab/-/blob/bc2ad40b4b026dd359e289cf2dc232de1a2d3227/ee/app/models/projects/xray_report.rb#L22).
    - There can be only one Repository X Ray report per project in the scope of programming language, duplicated records are being upserted during import process
 
@@ -168,7 +168,7 @@ As of today, there are 84 rows on `xray_reports` table on GitLab.com.
 
 ### Retrieval
 
-After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/index.html),
+After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/user/project/repository/code_suggestions/),
 Repository X Ray report is retrieved in the following steps:
 
 1. GitLab Rails monotlith fetches corresponding `xray_reports` record from main database. `xray_reports` records are filiterd based on `project_id` foreign key, and `lang` columns.

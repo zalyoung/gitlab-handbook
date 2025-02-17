@@ -311,7 +311,7 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 
 ### Geo
 
-[GitLab Geo](https://docs.gitlab.com/ee/administration/geo/)
+[GitLab Geo](https://docs.gitlab.com/administration/geo/)
 is an enterprise product feature, built to help speed up the development of distributed teams by providing one or more
 read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch
 large repositories and projects, or can be part of a Disaster Recovery solution.

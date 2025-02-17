@@ -39,7 +39,7 @@ Per the GitLab Terms of Service:
 
 Account name squatting is prohibited by GitLab. Account names on GitLab are administered to users on a first-come, first-serve basis. Accordingly, account names cannot be held or remain inactive for future use.
 
-The GitLab.com Support Team will consider a [namespace](https://docs.gitlab.com/ee/user/group/#namespaces) (user name or group name) to fall under the provisions of this policy when the user has not logged in or otherwise used the namespace for an extended time. For more information, see the `Name Squatting` section further below.
+The GitLab.com Support Team will consider a [namespace](https://docs.gitlab.com/user/group/#namespaces) (user name or group name) to fall under the provisions of this policy when the user has not logged in or otherwise used the namespace for an extended time. For more information, see the `Name Squatting` section further below.
 
 ### DMCA
 
@@ -111,7 +111,7 @@ You can send this information to dmca@gitlab.com, you should receive an automate
 #### Name Squatting
 
 {{% details summary="Requesting a dormant namespace" %}}
-The GitLab.com Support Team will consider a [namespace](https://docs.gitlab.com/ee/user/group/#namespaces) (user name or group name) to fall under the provisions of this policy when the user has not logged in or otherwise used the namespace for an extended time.
+The GitLab.com Support Team will consider a [namespace](https://docs.gitlab.com/user/group/#namespaces) (user name or group name) to fall under the provisions of this policy when the user has not logged in or otherwise used the namespace for an extended time.
 
 **Specifically:**
 

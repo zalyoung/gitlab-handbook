@@ -88,20 +88,20 @@ we rely on individual teams to make smart decisions about when consistency is im
 
 #### SAST
 
-[SAST](https://docs.gitlab.com/ee/user/application_security/sast/) (*Static Application Security Testing*) refers to static code analysis.
+[SAST](https://docs.gitlab.com/user/application_security/sast/) (*Static Application Security Testing*) refers to static code analysis.
 GitLab leverages the power of various opensource tools to provide a wide range of checks for many languages and support.
 These tools are wrapped inside docker images which ensure we get a standard output from there.
 An orchestrator, [developed by GitLab](https://gitlab.com/gitlab-org/security-products/sast), is in charge of running these images, and gathering all the data needed to generate the final report.
 
 #### DAST
 
-[DAST](https://docs.gitlab.com/ee/user/application_security/dast/) (*Dynamic Application Security Testing*) is used to hit a live application.
+[DAST](https://docs.gitlab.com/user/application_security/dast/) (*Dynamic Application Security Testing*) is used to hit a live application.
 Because some vulnerabilities can only be detected once all the code is actually running, this method complements the static code analysis.
 DAST is relying on [OWASP Zed Attack Proxy Project](https://gitlab.com/gitlab-org/security-products/zaproxy), modified by GitLab to enable authentication.
 
 #### Dependency Scanning
 
-[Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) is used to detect vulnerabilities introduced by external dependencies in the application.
+[Dependency Scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/) is used to detect vulnerabilities introduced by external dependencies in the application.
 Because a large portion of the code shipped to production is actually coming from third-party libraries, it's important to monitor them as well.
 Dependency Scanning is relying mostly on the Gemnasium engine.
 
@@ -111,7 +111,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 
 #### License Compliance
 
-[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
+[License Compliance](https://docs.gitlab.com/user/compliance/license_approval_policies/) helps with the licenses introduced by third-party libraries in the application.
 Licence management relies on the [LicenseFinder](https://github.com/pivotal/LicenseFinder) gem.
 
 #### Vulnerability Research
@@ -146,11 +146,11 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 Our team also must have a good sense of security, with at least basic skills in [application security](https://en.wikipedia.org/wiki/Application_security).
 
-We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
+We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/user/compliance/license_approval_policies/#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
 
 ### Release process
 
-See [Versioning and release process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html).
+See [Versioning and release process](https://docs.gitlab.com/development/sec/analyzer_development_guide/).
 
 ### QA process
 
@@ -265,10 +265,10 @@ Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5
 #### Resources
 
 * [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
-* [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
+* [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/development/testing_guide/end_to_end/beginners_guide/)
 * [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 * [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)
-* [E2E info for GitLab developers](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+* [E2E info for GitLab developers](https://docs.gitlab.com/development/testing_guide/end_to_end/)
 * [Quality training video material](https://www.youtube.com/playlist?list=PL05JrBw4t0KoNUmi5MOeNURxjl_BtUBxH)
 
 #### Product Documentation
@@ -280,7 +280,7 @@ To update the documentation, the following process should be followed:
 1. When an issue has been identified as needing documentation, add the `~Documentation` label, outline in the description of the issue what documentation is needed, and assign a Backend Engineer and Technical Writer(TW) to the issue (find the appropriate TW by searching the [product categories](/handbook/product/categories/)).
 1. If the task is documentation only, apply a `~Px` label.
 1. For documentation around features or bugs, a backend engineer should write the documentation and work with the technical writer for editing. If the documentation only needs styling cleanup, clarification, or reorganization, this work should be lead by the Technical Writer with support from a BE as necessary. The availability of a technical writer should in no way hold up work on the documentation.
-[Further information on the documentation process](https://docs.gitlab.com/ee/development/documentation/workflow.html).
+[Further information on the documentation process](https://docs.gitlab.com/development/documentation/workflow/).
 
 #### Async Daily Standups
 
@@ -370,9 +370,9 @@ Engineering Managers are encouraged to look at this queue of work during milesto
 
 #### Coding standards and style guidelines
 
-The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
+The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/development/), however, please consult the following guidelines which are specific to the Secure Team:
 
-* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines)
+* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/development/go_guide/#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 
@@ -388,7 +388,7 @@ The author of changes should announce broadly the changes made on these componen
 
 ### Development of new analyzers
 
-For a complete guide about developing a new analyzer please refer to our [user documentation](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#development-of-new-analyzers)
+For a complete guide about developing a new analyzer please refer to our [user documentation](https://docs.gitlab.com/development/sec/analyzer_development_guide/#development-of-new-analyzers)
 
 ## Technical Documentation
 
@@ -435,4 +435,4 @@ MR Type labels help us report what we're working on to industry analysts in a wa
 
 * [Secure team board](https://gitlab.com/groups/gitlab-org/-/boards/588843?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Asecure)
 * [#s_secure](https://gitlab.slack.com/archives/s_secure) in Slack
-* [Secure and Govern Glossary of Terms](https://docs.gitlab.com/ee/user/application_security/terminology/)
+* [Secure and Govern Glossary of Terms](https://docs.gitlab.com/user/application_security/terminology/)

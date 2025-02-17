@@ -14,7 +14,7 @@ The objectives for the quarter are defined on this page.
 To add new objectives in GitLab, follow the steps below:
 
 1. In the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), navigate to OKRs by selecting **Issues** on the left sidebar.
-1. In the top right corner of the **Issues** screen, select the down arrow next to **New issue** in the top right corner and then select **New objective** from the menu. Next, select the **New objective** button to [create an Objective](https://docs.gitlab.com/ee/user/okrs#create-an-objective).
+1. In the top right corner of the **Issues** screen, select the down arrow next to **New issue** in the top right corner and then select **New objective** from the menu. Next, select the **New objective** button to [create an Objective](https://docs.gitlab.com/user/okrs#create-an-objective).
 1. Enter a short but descriptive title for the objective then click **Create objective**.
     1. When referring to a division, use the division name, not the e-group leader's position. For example, use "Marketing OKRs" (not "CMO OKRs").
 1. Select the objective from the list to open in an editable view and add more details:
@@ -25,7 +25,7 @@ To add new objectives in GitLab, follow the steps below:
         1. Add `OKR` label.
         1. Add [division label](https://gitlab.com/gitlab-com/gitlab-OKRs/-/labels?subscribed=&search=division) to assign to the relevant division (i.e. Sales, Product, etc).
             1. Company OKRs are designated with a division::CEO scoped label.
-        1. Only Product & Engineering cascade OKRs below division level, so for Product & Engineering OKRs, in addition to division labels, follow [stage labels](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) to add the Section/Stage/Group scoped labels to assign the OKR to the relevant parts of [Product Hierarchy](/handbook/product/categories/#hierarchy).
+        1. Only Product & Engineering cascade OKRs below division level, so for Product & Engineering OKRs, in addition to division labels, follow [stage labels](https://docs.gitlab.com/development/labels/#stage-labels) to add the Section/Stage/Group scoped labels to assign the OKR to the relevant parts of [Product Hierarchy](/handbook/product/categories/#hierarchy).
         1. Each part of hierarchy should have a label. For example, an OKR for a group would have a division label, a section label, a stage label, and a group label.
 1. Review the objective against the [SAFE Framework](/handbook/legal/safe-framework/) to ensure it is information that can be shared. Review to ensure that the objective should not be [limited access](/handbook/communication/confidentiality-levels/#internal). If the information is limited access, use code name if relevant or link to a supporting issue that is limited access.
 
@@ -38,7 +38,7 @@ Since [Key Results are the measure](okrs-basics.md#what-are-okrs) that helps us 
 To add new key results in GitLab, follow the steps below:
 
 1. Navigate to the objective that you want to add a child key result to by opening the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), selecting **Issues** on the left sidebar, then clicking on the target objective.
-1. [Add new key result](https://docs.gitlab.com/ee/user/okrs#add-a-child-key-result) by clicking **Add** in the **Child objectives and key results** section of an objective and then select **New key result**. Use the [SAFE framework](/handbook/legal/safe-framework/) to determine whether it needs to have limited access.
+1. [Add new key result](https://docs.gitlab.com/user/okrs#add-a-child-key-result) by clicking **Add** in the **Child objectives and key results** section of an objective and then select **New key result**. Use the [SAFE framework](/handbook/legal/safe-framework/) to determine whether it needs to have limited access.
 1. Enter a short but descriptive title for the key result then click **Create key result**.
     1. When referring to a division, use the division name, not the e-group leader's position. For example, use "Marketing KR" (not "CMO KR").
 1. Select the key result from the list in the **Child objectives and key results** section to open in an editable view and add more details:
@@ -48,10 +48,10 @@ To add new key results in GitLab, follow the steps below:
     1. Add labels so that KR is [searchable/filterable](#search-and-filter-okrs):
         1. Add `OKR` label.
         1. Add [division label](https://gitlab.com/gitlab-com/gitlab-OKRs/-/labels?subscribed=&search=division) to assign to the relevant division (i.e. Sales, Product, etc). Company OKRs are designated with a `division::CEO` scoped label.
-        1. Only Product & Engineering cascade OKRs below division level. For Product & Engineering OKRs, in addition to division labels, follow [stage labels](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) to add the Section/Stage/Group scoped labels to assign the OKR to the relevant parts of [Product Hierarchy](/handbook/product/categories/#hierarchy).
+        1. Only Product & Engineering cascade OKRs below division level. For Product & Engineering OKRs, in addition to division labels, follow [stage labels](https://docs.gitlab.com/development/labels/#stage-labels) to add the Section/Stage/Group scoped labels to assign the OKR to the relevant parts of [Product Hierarchy](/handbook/product/categories/#hierarchy).
         1. Each part of hierarchy should have a label. For example, an OKR for a group would have a division label, a section label, a stage label, and a group label.
 1. Review the key result against the [SAFE Framework](/handbook/legal/safe-framework/) to ensure it is information that can be shared. Review to ensure that information should not be [limited access](/handbook/communication/confidentiality-levels/#internal). If the information is limited access, use code name if relevant or link to a supporting issue that is limited access.
-1. Optionally, [turn on check-in reminders](https://docs.gitlab.com/ee/user/okrs.html).
+1. Optionally, [turn on check-in reminders](https://docs.gitlab.com/user/okrs/).
 1. The key result now appears in the **Child objectives and key results** section of the corresponding parent objective.
 
 Watch this video for a demo on how to create objectives and key results:
@@ -92,7 +92,7 @@ Once company OKRs are created, other divisions and departments following one of 
 Typically at GitLab, divisions create OKRs to automatically have progress score towards division objectives.
 To indicate that a division KR should also show progress of a Company KR, add the division KR as a related item of the Company KR following these instructions:
 
-1. Click on the [relevant Company KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/ee/user/okrs.html#linked-items-in-okrs).
+1. Click on the [relevant Company KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/user/okrs/#linked-items-in-okrs).
 1. Click **Add** in the **Linked items** section.
 1. Click inside of **the following item(s)** text field.
 1. Find (enter text to filter) and select 1 or more objective(s) or KR(s) that should score to the Company KR.
@@ -127,7 +127,7 @@ To add the division OKRs as children of the relevant Company KR:
 1. Click on the Company KR you want to be the new parent for an objective/key result.
 1. Click **Add** in the **Child objectives and key results** section of the Company KR.
 1. Create team objective or KR as a child objective of the relevant Company KR (Company KR will be a GitLab objective).
-1. If the team objectives or KRs already exist, [find the objective or key result for alignment](https://docs.gitlab.com/ee/user/okrs#child-objectives-and-key-results) by typing the name of the OKR in the search bar that appears in the **Child objectives and key results** section. See [documentation to add a child objective](https://docs.gitlab.com/ee/user/okrs#add-a-child-objective).
+1. If the team objectives or KRs already exist, [find the objective or key result for alignment](https://docs.gitlab.com/user/okrs#child-objectives-and-key-results) by typing the name of the OKR in the search bar that appears in the **Child objectives and key results** section. See [documentation to add a child objective](https://docs.gitlab.com/user/okrs#add-a-child-objective).
 1. If applicable, add the team key results as children inside of the team objective.
 1. Ensure they have an assignee, labels, etc. [following guidelines on Creating Key Results](#creating-key-results).
 

@@ -47,7 +47,7 @@ The application core (functional domains) is composed of all the code that descr
 that is unique to GitLab product.
 It is divided into separate top-level [bounded contexts](../bounded_contexts.md).
 A bounded-context is represented in the form of a Ruby module.
-This follows the existing [guideline on naming namespaces](https://docs.gitlab.com/ee/development/software_design.html#use-namespaces-to-define-bounded-contexts)
+This follows the existing [guideline on naming namespaces](https://docs.gitlab.com/development/software_design/#use-namespaces-to-define-bounded-contexts)
 but puts more structure to it.
 
 Modules should:
@@ -58,7 +58,7 @@ Modules should:
 
 Feature categories represent a product area that is large enough for the module to be deep, so we don't have a proliferation
 of small top-level modules. It also helps the codebase to follow the
-[ubiquitous language](https://docs.gitlab.com/ee/development/software_design.html#use-ubiquitous-language-instead-of-crud-terminology).
+[ubiquitous language](https://docs.gitlab.com/development/software_design/#use-ubiquitous-language-instead-of-crud-terminology).
 A team can be responsible for multiple feature categories, hence owning the vision for multiple bounded contexts.
 While feature categories can sometimes change ownership, this change of mapping the bounded context to new owners
 is very cheap.

@@ -31,20 +31,20 @@ consolidates the user journey into a single feature without sacrificing usabilit
 
 ## Context
 
-[Machine learning model experiments](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/index.html)
+[Machine learning model experiments](https://docs.gitlab.com/user/project/ml/experiment_tracking/)
 is a feature released in 16.2 that allow users to store model candidates and their
 associated metadata into GitLab. The two main entities in Model experiments are
 a candidate, a combination of training code, parameters and data, and an experiment,
 a collection of comparable candidates. Model experiments are used to track evolution
 of candidates within an experiment according to user defined metrics, and to manage
 the metadata associated to these candidates. One of the key functionalities in Model
-experiments is the compatibility layer with [MLflow client](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client.html),
+experiments is the compatibility layer with [MLflow client](https://docs.gitlab.com/user/project/ml/experiment_tracking/mlflow_client/),
 allowing existing MLflow users to use GitLab as their new solution without
 changes to their codebase.
 
 [More context on is Model experiments](https://www.youtube.com/watch?v=qC8yssVEh8A)
 
-[Model registry](https://docs.gitlab.com/ee/user/project/ml/model_registry/index.html) is a
+[Model registry](https://docs.gitlab.com/user/project/ml/model_registry/) is a
 feature being released in 16.8 to address the follow up need of model experiments:
 managing and deploying models and their versions. In its current form it is a
 package registry that allows users to manage their model's metadata. In addition

@@ -29,7 +29,7 @@ Therefore GitLab is in scope for PCI DSS as both a service provider (SAQ D) cove
 
 ### Program Diagrams
 
-[Network](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/blob/main/Certifications-Attestations/PCI%20DSS/pci-networking-diagram.md) and [Data Flow](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) Diagrams are maintained to illustrate the in-scope environment for PCI requirements. These diagrams are maintained and updated as needed upon significant changes to the environment.
+[Network](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/blob/main/Certifications-Attestations/PCI%20DSS/pci-networking-diagram.md) and [Data Flow](https://docs.gitlab.com/development/architecture/#component-diagram) Diagrams are maintained to illustrate the in-scope environment for PCI requirements. These diagrams are maintained and updated as needed upon significant changes to the environment.
 
 ### Scope Documentation and Ongoing Confirmation
 

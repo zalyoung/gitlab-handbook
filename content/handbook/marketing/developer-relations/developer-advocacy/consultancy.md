@@ -53,7 +53,7 @@ Results:
   - [Build your own adventure with GitLab Duo - C++ observability tool with embedded hardware sensors](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-workshop-build-your-own-adventure-cpp-2024-12-05)
 - Blog: Best practice tutorials for customers and field teams ([AI/ML blog category](https://about.gitlab.com/blog/categories/ai-ml/)/)
 - Documentation
-  - Author and maintain the [GitLab Duo Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) and linked resources:
+  - Author and maintain the [GitLab Duo Use Case documentation](https://docs.gitlab.com/user/gitlab_duo/use_cases/) and linked resources:
     - [GitLab Duo Prompts library](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts)
     - [GitLab Duo Challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges)
   - [Improve GitLab Duo Onboarding](https://gitlab.com/gitlab-org/gitlab/-/issues/467162)

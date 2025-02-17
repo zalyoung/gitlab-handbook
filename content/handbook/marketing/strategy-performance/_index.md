@@ -70,7 +70,7 @@ Marketing Analytics uses a [local issue board](https://gitlab.com/gitlab-com/mar
 
 #### Issue Weights
 
-Marketing Analytics uses the Fibonnacci sequence when creating [issue weights](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html). We start with a weight of 2, smaller is too simple for an issue. Similarly, we break any issue larger than 13 into an epic.
+Marketing Analytics uses the Fibonnacci sequence when creating [issue weights](https://docs.gitlab.com/user/project/issues/issue_weight/). We start with a weight of 2, smaller is too simple for an issue. Similarly, we break any issue larger than 13 into an epic.
 
 ### Epics
 

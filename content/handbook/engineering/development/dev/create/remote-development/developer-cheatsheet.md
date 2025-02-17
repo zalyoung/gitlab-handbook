@@ -17,12 +17,12 @@ description: Helpful information for developers on the Editor team.
 - Running tests:
   - `yarn karma`
   - `yarn jest`
-- [Debugging Capybara](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html#debugging-capybara)
+- [Debugging Capybara](https://docs.gitlab.com/development/testing_guide/best_practices/#debugging-capybara)
   - `CHROME_HEADLESS=0 bundle exec rspec spec/features/projects/tree/create_directory_spec.rb`
 - [Capybara Screenshots](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/testing_guide/best_practices.md#screenshots)
   - `screenshot_and_save_page`
   - `screenshot_and_open_image`
-- [`live_debug`](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html#live-debug)
+- [`live_debug`](https://docs.gitlab.com/development/testing_guide/best_practices/#live-debug)
 - Static Analysis:
   - `scripts/static-analysis` (long)
   - `yarn eslint` (faster)
@@ -214,18 +214,18 @@ If you want to try this out yourself with the above example, you can check out
 
 ## New habits
 
-Though the [contributor and development docs](https://docs.gitlab.com/ee/development/) are the single source of truth, there are some additional habits that may be worth developing when you're new to the code contribution process.
+Though the [contributor and development docs](https://docs.gitlab.com/development/) are the single source of truth, there are some additional habits that may be worth developing when you're new to the code contribution process.
 
 Depending on your existing habits and `git` practices the habits below may help mitigate pain during code submissions.
 
 - Keep GDK up to date (update often, if not daily)
 - Keep your commit history clean
-  - Take special note of the [commit message guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines)
+  - Take special note of the [commit message guidelines](https://docs.gitlab.com/development/contributing/merge_request_workflow/#commit-messages-guidelines)
   - See "Git Tips" above
 - Keep merge requests small
   - Merge conflicts are inevitable, but focusing on making your MRs smaller will save you pain later
 - Keep localization files up to date
-  - When adding English copy, messages, or labels don't forget to [update localization files](https://docs.gitlab.com/ee/development/i18n/externalization.html#updating-the-po-files-with-the-new-content)
+  - When adding English copy, messages, or labels don't forget to [update localization files](https://docs.gitlab.com/development/i18n/externalization/#updating-the-po-files-with-the-new-content)
 
 ## Dealing with Broken Master
 

@@ -48,7 +48,7 @@ The main flow should be:
 In addition, there are various legacy sources and locations that might be helpful in locating reusable demos and projects:
 
 - [Demo Catalog Project](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/demo-catalog)
-- [GitLab Examples](https://gitlab.com/gitlab-examples) are used by product groups for feature validation, speed runs, demos, and feature showcasing in docs. The [GitLab CI/CD Examples documentation](https://docs.gitlab.com/ee/ci/examples/) points our customers to these for their own use as well.
+- [GitLab Examples](https://gitlab.com/gitlab-examples) are used by product groups for feature validation, speed runs, demos, and feature showcasing in docs. The [GitLab CI/CD Examples documentation](https://docs.gitlab.com/ci/examples/) points our customers to these for their own use as well.
 - [Guided Explorations](https://gitlab.com/guided-explorations) - has projects for a variety of topics, from language-specific feature flag examples, various DevOps patterns, pipeline tips, tricks, and hacks for windows, and more.
 - [GitLab CS Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) - group that provides projects for GitLab cs automation and migration tools
 - [Customer Success Demos](https://gitlab.com/gitlab-com/customer-success/demos) - centralized location for demos used by Customer Success, including a set of golden repos for different application types, security demos, and more.

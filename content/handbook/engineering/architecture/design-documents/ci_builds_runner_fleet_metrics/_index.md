@@ -84,7 +84,7 @@ So we have chosen it for our CI analytics as well.
 We're starting with the denormalized version of the `ci_builds` table in the main database,
 which will include fields from some other tables. For example, `ci_runners` and `ci_runner_machines`.
 
-[Immutability is a key constraint in ClickHouse](https://docs.gitlab.com/ee/development/database/clickhouse/index.html#how-it-differs-from-postgresql),
+[Immutability is a key constraint in ClickHouse](https://docs.gitlab.com/development/database/clickhouse/#how-it-differs-from-postgresql),
 so we only use `finished` builds.
 
 ### Developing behind feature flags

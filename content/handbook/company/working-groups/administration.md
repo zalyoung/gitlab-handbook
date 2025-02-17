@@ -17,7 +17,7 @@ description: "Learn more about the GitLab Administration Working Group attribute
 
 ### Charter
 
-The GitLab Administration Working Group will determine the work needed to maintain [GitLab Administrator](https://docs.gitlab.com/ee/administration/) functions healthy, identify owning groups for requests, and redirect issues to corresponding groups for resolution. This group is a temporary owner for all GitLab Administrator functions until a team is funded to be a permanent owner.
+The GitLab Administration Working Group will determine the work needed to maintain [GitLab Administrator](https://docs.gitlab.com/administration/) functions healthy, identify owning groups for requests, and redirect issues to corresponding groups for resolution. This group is a temporary owner for all GitLab Administrator functions until a team is funded to be a permanent owner.
 
 ### Context
 

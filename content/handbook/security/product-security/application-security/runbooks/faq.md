@@ -17,7 +17,7 @@ In GitLab, @ mention `@gitlab-com/gl-security/product-security/appsec` and the A
 
 ## I ran a scan on 3rd party images used by GitLab and found vulnerabilities on them. Can they be updated?
 
-We do not maintain 3rd party images. As appropriate we will follow our [Disclosure Guidelines for Vulnerabilities in 3rd Party Software](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software), our [Vulnerability Management Policy](../vulnerability-management/), and our [Release and Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+We do not maintain 3rd party images. As appropriate we will follow our [Disclosure Guidelines for Vulnerabilities in 3rd Party Software](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software), our [Vulnerability Management Policy](../vulnerability-management/), and our [Release and Maintenance Policy](https://docs.gitlab.com/policy/maintenance/).
 
 ## A customer wants to know if a GitLab vulnerability affects them, or if the score is accurate?
 

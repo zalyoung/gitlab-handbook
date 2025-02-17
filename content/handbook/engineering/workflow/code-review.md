@@ -5,7 +5,7 @@ description: "Code reviews are mandatory for every merge request, you should get
 
 ## Overview
 
-Code reviews are mandatory for every merge request, you should get familiar with and follow our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
+Code reviews are mandatory for every merge request, you should get familiar with and follow our [Code Review Guidelines](https://docs.gitlab.com/development/code_review/).
 
 These guidelines also describe who would need to review, approve and merge your, or a community member's, merge request. They also describe the [review response time SLO's](#review-response-slo) team members have to abide by.
 
@@ -84,9 +84,9 @@ Handling disagreements in maintainer readiness:
 The manager/mentor should seek to understand any concern raised by a current maintainer when they disagree with a trainee maintainer's readiness or qualifications. Use the following guidelines to determine if a single disapproval should veto approvals received in favor of the trainee maintainer.
 
 1. In keeping with other values, the maintainer's concern(s) should not be personal or prejudicial.
-1. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-maintainer).
+1. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/development/code_review/#the-responsibility-of-the-maintainer).
 1. The maintainer's concern(s) should be grounded in fact that:
-1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
+1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/development/code_review/#reviewing-a-merge-request), or
 1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
 
 In order to better inform a decision, the manager should privately reach out to 2 existing maintainers without sharing any personal information regarding the feedback. The manager is ultimately responsible for the readiness of the trainee maintainer and owns the decision to entrust the trainee maintainer with maintainer responsibilities.
@@ -100,17 +100,17 @@ Interested reviewers for the projects below should complete the listed tasks in 
 
 #### Project maintainer process for  `gitlab-rails`
 
-- For Backend Maintaiers, ping to `@gitlab-org/maintainers/rails-backend`
+- For Backend Maintaiers, ping to `@g[database guides](https://docs.gitlab.com/development/database/
 - For Frontend Maintainers, ping to `@gitlab-org/maintainers/rails-frontend`
 
 #### Project maintainer process for `gitlab-database`
 
-- Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
+- Familiarize with [database review process](https://docs.gitlab.com/development/database_review/).
 - Familiarize with [migration helpers](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/database/migration_helpers.rb) and review usage in existing migrations.
-- Familiarize with best practices in [database guides](https://docs.gitlab.com/ee/development/database/index.html).
-- Read [Understanding EXPLAIN plans](https://docs.gitlab.com/ee/development/database/understanding_explain_plans.html).
+- Familiarize with best practices in [database guides](https://docs.gitlab.com/development/database/).
+- Read [Understanding EXPLAIN plans](https://docs.gitlab.com/development/database/understanding_explain_plans/).
 - Get yourself added to [`@gl-database`](https://gitlab.com/groups/gl-database/-/group_members) group and respond to @-mentions to the group (reach out to any maintainer on the group to get added). You will get TODOs on gitlab.com for group mentions..
-- Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for [`psql`/`AllFeaturesUser` access to database lab/postgres.ai](https://docs.gitlab.com/ee/development/database/database_lab.html#access-database-lab-engine) if you do not already have `AllFeaturesUser` access.
+- Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for [`psql`/`AllFeaturesUser` access to database lab/postgres.ai](https://docs.gitlab.com/development/database/database_lab/#access-database-lab-engine) if you do not already have `AllFeaturesUser` access.
 
 Tips:
 
@@ -121,8 +121,8 @@ Tips:
 
 [`gitlab-components`](https://gitlab.com/components)
 
-- Review our [documentation and best practices for creating CI/CD components](https://docs.gitlab.com/ee/ci/components/).
-- Familiarize with our [documentation on GitLab-maintained components](https://docs.gitlab.com/ee/development/cicd/components/).
+- Review our [documentation and best practices for creating CI/CD components](https://docs.gitlab.com/ci/components/).
+- Familiarize with our [documentation on GitLab-maintained components](https://docs.gitlab.com/development/cicd/components/).
 - Develop one or more components to familiarize yourself with the development process.
 - Create a merge request and assign the merge request to your manager for you to be added as a CI/CD components maintainer. Be sure to cite references for the CI/CD components you have developed. (See [MR example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/132498))
 - Ping the existing maintainers (`@gitlab-org/maintainers/ci-components`) in the MR for review and feedback.
@@ -161,8 +161,8 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-secure-analyzers`](https://gitlab.com/gitlab-org/security-products/analyzers)
 
-- Understand our [Secure Team standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines).
-- Understand our [Secure Release Process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#versioning-and-release-process).
+- Understand our [Secure Team standards and style guidelines](https://docs.gitlab.com/development/go_guide/#secure-team-standards-and-style-guidelines).
+- Understand our [Secure Release Process](https://docs.gitlab.com/development/sec/analyzer_development_guide/#versioning-and-release-process).
 - Understand our [Secure QA Process](/handbook/engineering/development/sec/secure/qa_process/).
 
 #### Project maintainer process for `gitlab-elasticsearch-indexer`
@@ -179,7 +179,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
 
-- Understand our [standards and style guidelines](https://docs.gitlab.com/ee/development/development_processes.html).
+- Understand our [standards and style guidelines](https://docs.gitlab.com/development/development_processes/).
 - Understand the [software architecture](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/doc/architecture) used in Fulfillment systems.
 - Read through [CustomersDot documentation](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/index.md).
 - Contribute to issues and gain familiarity with the project.
@@ -189,30 +189,30 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
 
-- Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
+- Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/development/go_guide/).
 - Complete [Golang training issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md) if you don't have prior experience with Go.
 - Watch [External License DB Architecture and Repository Walkthrough](https://www.youtube.com/watch?v=5b5QNJNwoJ8)
 - Review [Fullstack Development of LicenseDB guideline](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/fullstack_development.md).
 - Understand how to release and [deploy](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/merge_requests/162) new changes to the components.
 - Understand how [the scheduled pipelines](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) are used for the deployment project.
-- Author or review 3 merge requests in total to a specific project in the `license-db` namespace. Maintainership is granted per project.
+- Author or review 3 merge reque[architecture](https://docs.gitlab.com/charts/architecture/ntainership is granted per project.
 
 #### Project maintainer process for `gitlab-chart`
 
 [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
-- Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
-- Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
+- Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/) and [style guide](https://docs.gitlab.com/charts/development/style_guide/) of the GitLab Helm chart.
+- Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency/).
 - Contribute to issues and review merge requests.
-- Understand how the [GitLab Helm chart is tested using rspec](https://docs.gitlab.com/charts/development/rspec.html).
+- Understand how the [GitLab Helm chart is tested using rspec](https://docs.gitlab.com/charts/development/rspec/).
 
 #### Project maintainer process for `gitlab-operator`
 
 [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
-- Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
+- Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/development/go_guide/).
 - Understand how [custom resources and controllers](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) work.
 - Familiarize yourself with the following libraries and tools:
   - [operator-sdk](https://sdk.operatorframework.io/docs/overview/)
@@ -220,14 +220,14 @@ Upon approval, the maintainer who merges the MR will:
   - [Operator Lifecycle Manager](https://olm.operatorframework.io/docs/)
   - [envtest](https://book.kubebuilder.io/reference/envtest.html)
 - Contribute to issues and review merge requests.
-- Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
+- Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency/).
 
 #### Project maintainer process for `ai-gateway`
 
 [`ai-gateway`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist)
 
 - Understand the [software architecture](/handbook/engineering/architecture/design-documents/ai_gateway/).
-- Setup [GitLab Duo for local development](https://docs.gitlab.com/ee/development/ai_features/#instructions-for-setting-up-gitlab-duo-features-in-the-local-development-environment).
+- Setup [GitLab Duo for local development](https://docs.gitlab.com/development/ai_features/#instructions-for-setting-up-gitlab-duo-features-in-the-local-development-environment).
 - Read through [Maintainership documentation](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/maintainership.md)
 and follow the steps outlined there to become a maintainer.
 
@@ -300,7 +300,7 @@ After consultation with your manager, you may wish or need to transition away
 from being a reviewer/maintainer. Regardless of the circumstances, it's
 perfectly OK for this to happen! Responsibilities and workloads change; projects
 evolve. So it's important to ensure your time is spent on the areas that are
-most important.  To make the change official and to be removed from [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette):
+most important.  To make the change official and to be removed from [reviewer roulette](https://docs.gitlab.com/development/code_review/#reviewer-roulette):
 
 1. See the [Team Member Database](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/team_database.md)
    document for how to update your YAML file.
@@ -446,7 +446,7 @@ Eligible merge requests include contributions to the [GitLab product](/handbook/
 
 ## Domain Experts
 
-Our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) states that we default to assigning reviews to team members with domain expertise.
+Our [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) states that we default to assigning reviews to team members with domain expertise.
 
 ### What makes a domain expert?
 
@@ -526,7 +526,7 @@ and try to help them find another reviewer or maintainer who is able to, so that
 and get on with their work quickly. Remove yourself as a reviewer.
 
 Reviewers may also communicate their status through the use of several other emoji. For more details
-on these other statuses, please refer to the [code review](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
+on these other statuses, please refer to the [code review](https://docs.gitlab.com/development/code_review/#reviewer-roulette)
 page in the developer documentation.
 
 Of course, if you are out of office and have
@@ -546,7 +546,7 @@ As the author of an MR you should reassign to another reviewer or maintainer if 
 
 ## Code Owner approvals
 
-Some GitLab projects use GitLab's [CODEOWNERS file feature](https://docs.gitlab.com/ee/user/project/codeowners/) to manage approvals for specific file paths and types. In the `gitlab-org/gitlab` project, [we use a combination of CODEOWNERS approval rules plus MR approval settings](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) in order to follow segregation of duties best practices. This section describes the process for updating the eligible approvers for CODEOWNERS changes for the `gitlab-org/gitlab` project.
+Some GitLab projects use GitLab's [CODEOWNERS file feature](https://docs.gitlab.com/user/project/codeowners/) to manage approvals for specific file paths and types. In the `gitlab-org/gitlab` project, [we use a combination of CODEOWNERS approval rules plus MR approval settings](https://docs.gitlab.com/development/code_review/#merging-a-merge-request) in order to follow segregation of duties best practices. This section describes the process for updating the eligible approvers for CODEOWNERS changes for the `gitlab-org/gitlab` project.
 
 The Code Owners for the [CODEOWNERS file](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) itself are managed with a rule in the file. For example:
 

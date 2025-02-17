@@ -278,7 +278,7 @@ Some of those benefits could also be seen as downsides and maybe not the right c
 1. Zoekt nodes are started with 3 additional arguments: its own address, shard name, and GitLab URL.
 1. We'd like to keep shard name separate so that one will be able to migrate a shard to a different address.
 1. When Zoekt is running in k8s, we can pass `hostname --fqdn` (for example, `gitlab-zoekt-1.gitlab-zoekt.default.svc.cluster.local`) as an argument for the address. Customers running Zoekt on bare-metal will need to configure it separately.
-1. Zoekt most likely will use [Internal API](https://docs.gitlab.com/ee/development/internal_api/index.html) to connect to GitLab. We might also want to use a separate GitLab URL to keep the traffic internal and to avoid extra traffic cost.
+1. Zoekt most likely will use [Internal API](https://docs.gitlab.com/development/internal_api/) to connect to GitLab. We might also want to use a separate GitLab URL to keep the traffic internal and to avoid extra traffic cost.
 1. GitLab will maintain a lookup table with `last_seen_at` and shard's name (we could expand `::Zoekt::Shard`). We'll also need to introduce the concept of replicas and primaries.
 1. Zoekt nodes (indexers in this case) will send periodic requests to get new jobs with its address and name to the configured GitLab URL. GitLab will either register a new node or update the existing record in the lookup table.
 1. After the job is completed, `zoekt-indexer` will send a callback to GitLab to indicate that the job has been completed.
@@ -297,7 +297,7 @@ When we add more replicas to the stateful set, it should automatically handle ad
 
 - `gitlab-zoekt-0` / `gitlab-zoekt-0.gitlab-zoekt.default.svc.cluster.local`
 - `gitlab-zoekt-1` / `gitlab-zoekt-1.gitlab-zoekt.default.svc.cluster.local`
-- ..
+- ..[Internal API](https://docs.gitlab.com/development/internal_api/
 
 Possible jobs indexer can receive:
 

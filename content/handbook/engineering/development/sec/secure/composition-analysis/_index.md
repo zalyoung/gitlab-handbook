@@ -30,7 +30,7 @@ This includes:
 
 #### Indicating Status and Raising Risk
 
-We leverage [the issue's health status feature](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) to communicate the progress of the issue.
+We leverage [the issue's health status feature](https://docs.gitlab.com/user/project/issues/managing_issues/#health-status) to communicate the progress of the issue.
 
 All issues should be marked `On Track` at the beginning of a milestone. This is done by the Epic DRI, or the Engineering Manager for unassigned, standalone issues.
 
@@ -223,7 +223,7 @@ We use the Vulnerability Report with filters to focus on items matching [our pol
 
 For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. If it's not clear whether there's indeed a threat, [escalate](#creating-security-issues) to our [Application Security team](/handbook/security/product-security/application-security/).
 
-> Refer to [Vulnerability status definitions](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
+> Refer to [Vulnerability status definitions](https://docs.gitlab.com/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
 
 #### Upstream scanners vulnerabilities
 
@@ -305,7 +305,7 @@ You can leverage quick actions to add the necessary labels.
 
 It's important to add the `~security` and `~"bug::vulnerability"` labels as described above, because the [`AppSec Escalation Engine`](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator/-/blob/3a7e8a4baed7b7e54039558f4f76328046543a0c/README.md#L3) will automatically pick up any issues with these labels and add additional labels `~security-sp-label-missing` and `~security-triage-appsec` as well as mention the issue in the `#sec-appsec` Slack channel. At this point, the [Stable Counterpart](/handbook/engineering/development/sec/secure/#stable-counterparts) or [Application Security team](/handbook/security/product-security/application-security/) triage person will pick up the issue and assign a severity as part of the appsec triage rotation.
 
-Once the issue is created, please add it to [the vulnerability's linked items](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#link-a-vulnerability-to-existing-issues) for ease of tracking.
+Once the issue is created, please add it to [the vulnerability's linked items](https://docs.gitlab.com/user/application_security/vulnerabilities/#link-a-vulnerability-to-existing-issues) for ease of tracking.
 
 Developers reporting the security issue should help the [Application Security team](/handbook/security/product-security/application-security/) assess the impact of the vulnerability, and update the issue description with an `Impact` section.
 
@@ -359,7 +359,7 @@ that have impacted composition analysis in the future.
     ```
 
 1. Assign the incident to the engineer currently on the maintainership reaction rotation.
-1. Link any related issues or zoom meetings with the [quick actions](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html#using-a-quick-action) to record incident timeline events. Ensure that an event exists for the incident start,
+1. Link any related issues or zoom meetings with the [quick actions](https://docs.gitlab.com/operations/incident_management/linked_resources/#using-a-quick-action) to record incident timeline events. Ensure that an event exists for the incident start,
 detection, resolution, and any other events that you feel are worth highlighting as part of the incident response.
 1. Upon fixing the issue, include a detailed summary of the resolution and any initial follow up actions that should be completed. Lastly, an entry for incident should be added to the weekly composition analysis group meeting so that it may be reviewed with the entire group.
 
@@ -417,7 +417,7 @@ Additional notes:
 - [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)
 - [OCS module](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/tree/master/internal/module/starboard_vulnerability)
 - [Cluster Image Scanning related code](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/blob/master/internal/module/starboard_vulnerability/agent/scanner.go)
-  - Needed for [Operational Container Scanning](https://docs.gitlab.com/ee/user/clusters/agent/vulnerabilities.html) feature.
+  - Needed for [Operational Container Scanning](https://docs.gitlab.com/user/clusters/agent/vulnerabilities/) feature.
 
 The OCS module is part of the [`gitlab-agent`](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) project which is maintained by the `Environments` group. The `Composition Analysis` group is responsible for maintaining only the OCS module.
 
@@ -450,7 +450,7 @@ The vulnerabilities reported on the currently used version of the scanner are au
 #### Setting up a mirror
 
 1. create a new project in https://gitlab.com/gitlab-org/security-products/dependencies (blank project).
-2. set up the project repository as [a pull mirror](https://docs.gitlab.com/ee/user/project/repository/mirror/#pulling-from-a-remote-repository) of the upstream repository.
+2. set up the project repository as [a pull mirror](https://docs.gitlab.com/user/project/repository/mirror/#pulling-from-a-remote-repository) of the upstream repository.
 3. find the git tag that matches the version currently used by our analyzer (usually represented by the `SCANNER_VERSION` variable in the analyzer's `Dockerfile`). Use exact commit if there is no git tag for the corresponding release we use.
 4. create a branch from that ref following naming convention `VERSION-security-checks` where `VERSION` is the version of the upstream scanner we currently use (e.g. `v6.12.0`).
 5. add a `.gitlab-ci.yml` configuration file to configure all compatible security scans.

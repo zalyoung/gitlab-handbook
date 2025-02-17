@@ -116,7 +116,7 @@ An issue with weight 1 should take no more than 2 days to complete.
 
 ### Breaking Changes Process
 
-[Breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/#minimize-the-impact-of-breaking-changes) can be disruptive to our customers' workflow and we attempt to avoid them or reduce the impact.  When a breaking change is unavoidable, we provide as much visibility and advance notice as possible.
+[Breaking changes](https://docs.gitlab.com/development/deprecation_guidelines/#minimize-the-impact-of-breaking-changes) can be disruptive to our customers' workflow and we attempt to avoid them or reduce the impact.  When a breaking change is unavoidable, we provide as much visibility and advance notice as possible.
 
 1. Announce deprecations, breaking changes, and removals at least 3 milestones before implementation
 2. Before major version milestone:
@@ -233,6 +233,6 @@ The registry adheres to OCI standards for Image and Distribution specifications 
 
 - [Package Quality Guidelines](/handbook/engineering/development/ops/package/quality/)
 - [Package Jobs To Be Done](/handbook/engineering/development/ops/package/jtbd/)
-- [Container Registry Documentation](https://docs.gitlab.com/ee/user/packages/container_registry/)
-- [Package Registry Documentation](https://docs.gitlab.com/ee/user/packages/package_registry/)
+- [Container Registry Documentation](https://docs.gitlab.com/user/packages/container_registry/)
+- [Package Registry Documentation](https://docs.gitlab.com/user/packages/package_registry/)
 - [Team YouTube Channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf) (includes demos, team meetings, customer summaries, and user interviews)

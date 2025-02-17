@@ -50,14 +50,14 @@ Follow the README instructions for setting your local development environment.
 
 #### Tutorials/Videos
 
-- Create a GitLab account and [set up SSH keys](https://docs.gitlab.com/ee/user/ssh.html).
+- Create a GitLab account and [set up SSH keys](https://docs.gitlab.com/user/ssh/).
 - [https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui)
 - If you don't know VueJS 2.0, you can get started on this [guide](https://v2.vuejs.org/v2/guide/)
 - [Slippers Design System walkthough video](https://youtu.be/dphm0TlAqIk)
 
 #### Documentation
 
-- [Read GitLab's contribution guidelines](https://docs.gitlab.com/ee/development/contributing/index.html) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
+- [Read GitLab's contribution guidelines](https://docs.gitlab.com/development/contributing/) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/development/contributing/merge_request_workflow/)
 - Get familiarized with GitLab's Slipper Design System by reading the [intro and exploring our Storybook instance](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page).
 
 #### Deliverables + Timeline

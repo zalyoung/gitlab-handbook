@@ -90,7 +90,7 @@ on a regular issue. Using the issues and notes API you can also create Service D
 This allows customers to build custom integration and intake forms.
 
 See the [feature issue](https://gitlab.com/gitlab-org/gitlab/-/issues/433376) and the
-[documentation](https://docs.gitlab.com/ee/user/project/service_desk/using_service_desk.html#convert-a-regular-issue-to-a-service-desk-ticket)
+[documentation](https://docs.gitlab.com/user/project/service_desk/using_service_desk/#convert-a-regular-issue-to-a-service-desk-ticket)
 for details.
 
 #### Customizable e-mail address on a per-project basis
@@ -146,6 +146,6 @@ the new domain.
 - ["Introducing GitLab Service Desk" product overview video](https://www.youtube.com/watch?v=LDVQXv3I5rI)
 - ["Create Service Desk tickets from the UI and API" feature walkthrough video](https://www.youtube.com/watch?v=ibUGNc2wifQ)
 - ["Reopen Service Desk issues when an external participant comments" feature walkthrough video](https://www.youtube.com/watch?v=163wDM1e43o)
-- [Replace `mail_room` email ingestion with scheduled Sidekiq jobs](https://docs.gitlab.com/ee/architecture/blueprints/email_ingestion/)
+- [Replace `mail_room` email ingestion with scheduled Sidekiq jobs](https://docs.gitlab.com/architecture/blueprints/email_ingestion/)
 - [Custom email address for Service Desk (Overview)](https://youtu.be/_moD5U3xcQs)
 - [Video walkthrough on how to set up `mail_room` and Service Desk locally in GDK](https://youtu.be/SdqBOK43MlI)

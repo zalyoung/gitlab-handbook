@@ -50,7 +50,7 @@ In order to track groups of related projects and issues, the GitLab epic gives p
 
 While milestones at the project level often align to sprints, at the group level, milestones can be created for all the projects and sub-groups within the group.  This way, teams can stay in synch with each other and focus on common release targets.
 
-![Milestone burndown chart](https://docs.gitlab.com/ee/user/project/milestones/img/burndown_chart_v15_3.png)
+![Milestone burndown chart](https://docs.gitlab.com/user/project/milestones/img/burndown_chart_v15_3.png)
 
 #### Roadmaps
 

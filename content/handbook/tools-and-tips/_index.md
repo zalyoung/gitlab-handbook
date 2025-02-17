@@ -77,9 +77,9 @@ Don't forget to update your username in the following places:
 
 Team members choose to manage their GitLab activities in different ways. Setup your notifications in a way that works best for you.
 
-1. **To-do list:** all team members will see a [to-do list](https://docs.gitlab.com/ee/user/todos.html) within their GitLab account. This will track different action items. Items can be marked as done as they are completed.
+1. **To-do list:** all team members will see a [to-do list](https://docs.gitlab.com/user/todos/) within their GitLab account. This will track different action items. Items can be marked as done as they are completed.
 1. **Email:** team members can choose which, if any, notifications show up in their Gmail accounts by [using filters](#filters).
-1. **Slack notifications:** team members can choose to enable [Slack notifications](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html). Please note that GitLab slack expires after 90 days, so this is not a tool for longer-term activity management.
+1. **Slack notifications:** team members can choose to enable [Slack notifications](https://docs.gitlab.com/user/project/integrations/gitlab_slack_application/). Please note that GitLab slack expires after 90 days, so this is not a tool for longer-term activity management.
 
 ### GitLab team members' resources
 
@@ -100,7 +100,7 @@ It is company policy to use a photo, and not an avatar, a stock photo, or someth
 
 ### Using Mermaid
 
-Mermaid is a tool that allows us to create flowcharts, graphs, diagrams, Gantt charts, etc. within GitLab! Check out the [examples in the GitLab docs](https://docs.gitlab.com/ee/user/markdown.html#mermaid) on how to use Mermaid.
+Mermaid is a tool that allows us to create flowcharts, graphs, diagrams, Gantt charts, etc. within GitLab! Check out the [examples in the GitLab docs](https://docs.gitlab.com/user/markdown/#mermaid) on how to use Mermaid.
 
 A few additional resources that can be helpful when working with Mermaid are:
 
@@ -118,7 +118,7 @@ A few additional resources that can be helpful when working with Mermaid are:
 
 ### Visual help to differentiate between GitLab servers
 
-If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Navigation theme](https://docs.gitlab.com/ee/user/profile/preferences.html#navigation-theme) to a different color.
+If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Navigation theme](https://docs.gitlab.com/user/profile/preferences/#navigation-theme) to a different color.
 
 ### Calculating the GitLab handbook page count
 

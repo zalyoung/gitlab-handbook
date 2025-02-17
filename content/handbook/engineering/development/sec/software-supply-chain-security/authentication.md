@@ -74,9 +74,9 @@ Bypassing permissions and authentication mechanisms are, by nature, common secur
 
 Because this group works on components of the application that have a [far-reaching impact](/handbook/engineering/development/#reducing-the-impact-of-far-reaching-work), we take these extra steps in order to reduce our risk of a production incident:
 
-1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines).
+1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/development/code_review/#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/development/code_review/#approval-guidelines).
 1. Auth merge requests will include a comment that needs answered before merging, "Should this be behind a feature flag?" This is an effort to remind engineers about feature flag usage, but also to challenge reasoning as to why changes do not need to be behind a feature flag.
-1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/sscs/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
+1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/sscs/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/) feature of GitLab.
 
 ##### Rollout and validation for token related features or destructive data updates
 
@@ -108,7 +108,7 @@ Lastly, due to the direct impact of authentication change on the ability to acce
 
 You are encouraged to work as closely as needed with stable counterparts. We include quality engineering and application security counterparts prior to a release kickoff and as-needed during code reviews or issue concerns.
 
-Quality engineering is included in our workflow via the Quad Planning Process and is responsible for bug prioritization during release planning. They are also the DRI when it comes to adding new [end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/), though anyone can contribute. Here are some examples of when to engage with your counterpart:
+Quality engineering is included in our workflow via the Quad Planning Process and is responsible for bug prioritization during release planning. They are also the DRI when it comes to adding new [end-to-end tests](https://docs.gitlab.com/development/testing_guide/end_to_end/), though anyone can contribute. Here are some examples of when to engage with your counterpart:
 
 - [Seeking Quality's opinion if an MR would introduce flakiness in existing end-to-end tests](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92333#note_1033648348)
 - [You need help deciding the best way to fix a test](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93467#note_1042495993)
@@ -211,15 +211,15 @@ Issues with the `~"workflow::verification"` or `~"workflow::awaiting security re
 
 For work items that span greater than 1 week or are high priority deliverables (such as critical infradev issues or bugs), the assignee for the work aims to provide a brief weekly update on the progress of tasks within the issue being worked on. This is intended to be 2-3 lines highlighting what was accomplished recently, and the next steps. We do this to share the progress transparently with our counterparts but also to share domain knowledge and course correct on implementation details if uncovered after work has started.
 
-##### Labels and how we use them
+##### La[many labels](https://docs.gitlab.com/development/labels/
 
-We have [many labels](https://docs.gitlab.com/ee/development/labels/index.html) that can be applied to an issue or merge request. Besides the issue workflow labels above, here are the minimum basic labels to apply to issues and merge requests:
+We have [many labels](https://docs.gitlab.com/development/labels/) that can be applied to an issue or merge request. Besides the issue workflow labels above, here are the minimum basic labels to apply to issues and merge requests:
 
 - Type (`type::feature`, `type::bug`, or `type::maintenance`)
 - Stage that owns the area (`devops::software supply chain security`)
 - Group that owns the area (`group::authentication`)
 - Specialization (`frontend`, `backend`, `database`, `documentation`)
-- `security` if the issue is related to application security, and `breaking change` if this work is considered a [breaking change](https://docs.gitlab.com/ee/update/terminology.html#breaking-change)
+- `security` if the issue is related to application security, and `breaking change` if this work is considered a [breaking change](https://docs.gitlab.com/update/terminology/#breaking-change)
 
 #### Working on unscheduled issues
 

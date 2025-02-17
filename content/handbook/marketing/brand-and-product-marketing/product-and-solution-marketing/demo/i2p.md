@@ -109,7 +109,7 @@ domain.
 > - Go to `Settings > CI/CD`
 > - Expand `Auto DevOps`
 > - Check the box `Default to Auto DevOps pipeline`
-> - Change domain to `i2p.online` (or the base domain you are using) by creating the [KUBE_INGRESS_BASE_DOMAIN variable](https://docs.gitlab.com/ee/topics/autodevops/#auto-devops-base-domain)
+> - Change domain to `i2p.online` (or the base domain you are using) by creating the [KUBE_INGRESS_BASE_DOMAIN variable](https://docs.gitlab.com/topics/autodevops/#auto-devops-base-domain)
 > - Leave the default of `Continuous deployment to production`
 > - Click `Save changes`
 

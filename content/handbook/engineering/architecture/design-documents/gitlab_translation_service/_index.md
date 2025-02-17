@@ -124,7 +124,7 @@ It should be noted here that the database will never contain any sensitive data.
 
 #### Data saved in Database
 
-- Entire webhook body contents, which contains all sorts of metadata related to the GitLab MR and the repo it resides in. You can see all the data[here](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html#merge-request-events).
+- Entire webhook body contents, which contains all sorts of metadata related to the GitLab MR and the repo it resides in. You can see all the data[here](https://docs.gitlab.com/user/project/integrations/webhook_events/#merge-request-events).
 - When the webhooks were recieved and processed, along with their status regarding their processing,
 - MRs identifiers and their relation to each other (what Translation MRs are tied to which Original MRs)
 
@@ -306,7 +306,7 @@ The application is deployed in a Rocky Linux 8 OS running on AWS EC2. It’s run
 
 ### Phase 2 - GitLab
 
-- [Pipelines](https://docs.gitlab.com/ee/ci/pipelines/):
+- [Pipelines](https://docs.gitlab.com/ci/pipelines/):
   1. When the GitLab environment is ready, it will work the same for building in the Pipelines from the same [repository](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration).
   2. However, pipelines would run to build the executable java(.jar) plus build the docker container image, that includes Java 17 and nginx to act as a proxy.
 - [Google Cloud](https://gitlabsandbox.cloud/cloud):

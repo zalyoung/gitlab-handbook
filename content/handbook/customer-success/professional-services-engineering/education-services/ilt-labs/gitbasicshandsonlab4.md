@@ -11,7 +11,7 @@ CI/CD stands for Continuous Integration and Continuous Deployment. In other word
 
 This iterative process helps reduce the chance that you develop new code based on buggy or failed previous versions. GitLab CI/CD can catch bugs early in the development cycle, and help ensure that all the code deployed to production complies with your established code standards.
 
-To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your project which contains the configuration for your CI/CD pipeline. This file follows the YAML format and has its own special syntax. To learn more, see the [documentation](https://docs.gitlab.com/ee/ci/). **It is recommended to bookmark this page for future reference.**
+To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your project which contains the configuration for your CI/CD pipeline. This file follows the YAML format and has its own special syntax. To learn more, see the [documentation](https://docs.gitlab.com/ci/). **It is recommended to bookmark this page for future reference.**
 
 ## Task A. Create a new project and add a CI/CD configuration file
 
@@ -48,7 +48,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
         - echo "For example run a test suite"
     ```
 
-    > To learn more about jobs, see the [documentation](https://docs.gitlab.com/ee/ci/jobs/).
+    > To learn more about jobs, see the [documentation](https://docs.gitlab.com/ci/jobs/).
 
 1. Define **build** and **test** stages by adding these 3 lines at the top of the file. The `stages` keyword must be flush left and the stage names must be indented by 2 spaces.
 
@@ -58,7 +58,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
       - test
     ```
 
-    > Use stages to define stages that contain groups of jobs. Use stage in a job to configure the job to run in a specific stage. See the [documentation](https://docs.gitlab.com/ee/ci/yaml/index.html#stages) to learn more.
+    > Use stages to define stages that contain groups of jobs. Use stage in a job to configure the job to run in a specific stage. See the [documentation](https://docs.gitlab.com/ci/yaml/#stages) to learn more.
 
 1. Your current `.gitlab-ci.yml` file should look like this:
 
@@ -83,7 +83,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
 
 ## Task B. Inspect the CI/CD pipeline
 
-> Pipelines are the top-level component of continuous integration, delivery, and deployment. Pipelines comprise of **Jobs**, which define what to do, and **Stages**, which define when to run the jobs. For example, a stage can be defined for all the operations that build a project, and a job of this stage could be to compile the code. To learn more, click [here](https://docs.gitlab.com/ee/ci/pipelines/).
+> Pipelines are the top-level component of continuous integration, delivery, and deployment. Pipelines comprise of **Jobs**, which define what to do, and **Stages**, which define when to run the jobs. For example, a stage can be defined for all the operations that build a project, and a job of this stage could be to compile the code. To learn more, click [here](https://docs.gitlab.com/ci/pipelines/).
 
 1. GitLab started running a CI/CD pipeline as soon as you committed `.gitlab-ci.yml` to your project's repository. To see the project's pipelines, navigate to **Build > Pipelines**.
 

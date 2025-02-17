@@ -186,7 +186,7 @@ These boards show current status of issues.
 
 ### Indicating Status and Raising Risk
 
-Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
+Our teams use the [Health Status](https://docs.gitlab.com/user/project/issues/managing_issues/#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
 
 Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the 10th of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
 
@@ -204,7 +204,7 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 
 ### Running E2E specs in the MR pipeline
 
-We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
 
 * GraphQL (API response, query parameters, schema etc)
 * Gemfile (version changes, adding/removing gems)
@@ -218,7 +218,7 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 ### E2E tests with feature flags
 
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
-Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
+Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/development/testing_guide/end_to_end/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
 
 ## Monitoring
 
@@ -237,7 +237,7 @@ To emulate this locally, follow these steps:
 1. Within the same shell session run `gdk restart`
 1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
 
-See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
+See the [related handbook entry](https://docs.gitlab.com/development/ee_features/#act-as-saas) for more details.
 
 ### Cross-stack collaboration
 

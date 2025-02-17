@@ -6,7 +6,7 @@ title: "GitLab Dedicated Architecture"
 
 ## Architecture
 
-The architecture of GitLab Dedicated is maintained in [GitLab Dedicated Architecture](https://docs.gitlab.com/ee/administration/dedicated/#architecture)
+The architecture of GitLab Dedicated is maintained in [GitLab Dedicated Architecture](https://docs.gitlab.com/administration/dedicated/#architecture)
 
 ## Documents
 

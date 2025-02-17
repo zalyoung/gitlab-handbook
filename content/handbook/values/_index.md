@@ -876,13 +876,13 @@ Moving through the release process is not iteration.
 The release process can include:
 
 - [Dogfooding](#dogfooding)
-- [Early access](https://docs.gitlab.com/ee/policy/early_access_program/)
-- Incremental release using [a feature flag](https://docs.gitlab.com/ee/development/feature_flags/)
-- [Development stage progression](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) (such as experiment to beta)
+- [Early access](https://docs.gitlab.com/policy/early_access_program/)
+- Incremental release using [a feature flag](https://docs.gitlab.com/development/feature_flags/)
+- [Development stage progression](https://docs.gitlab.com/policy/experiment-beta-support/) (such as experiment to beta)
 - Release
 - Announcement
 
-While [development stages](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) can be used to indicate release progress, is not itself iteration.
+While [development stages](https://docs.gitlab.com/policy/experiment-beta-support/) can be used to indicate release progress, is not itself iteration.
 
 ##### Iterate toward global maximum
 
@@ -1088,7 +1088,7 @@ One example of transparency at GitLab is the [public repository of this website]
 that also contains this [company handbook](/handbook/). Others include the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, as well as [marketing](https://gitlab.com/groups/gitlab-com/marketing/-/issues) and [infrastructure](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our values, gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them. It is also about sharing great software, documentation, examples, lessons,
 and processes with the **whole community** and the world in the spirit of open source, which we believe creates more value than it captures.
 
-In line with our value of transparency and being public by default, all GitLab team member [profiles](https://docs.gitlab.com/ee/user/profile/#user-profile) should be public. Public profiles also enable broader collaboration and efficiencies between teams. To do so, please make sure that the checkbox under the [Private profile](https://docs.gitlab.com/ee/user/profile/#private-profile) option is unchecked [in your profile settings](https://gitlab.com/-/profile). If you do not feel comfortable with your full name or location on your profile, please change it to what feels appropriate to you as these are displayed even on private profiles.
+In line with our value of transparency and being public by default, all GitLab team member [profiles](https://docs.gitlab.com/user/profile/#user-profile) should be public. Public profiles also enable broader collaboration and efficiencies between teams. To do so, please make sure that the checkbox under the [Private profile](https://docs.gitlab.com/user/profile/#private-profile) option is unchecked [in your profile settings](https://gitlab.com/-/profile). If you do not feel comfortable with your full name or location on your profile, please change it to what feels appropriate to you as these are displayed even on private profiles.
 
 Because we are public by default and have the [SAFE framework](/handbook/legal/safe-framework/) we don't need to make cases for why things should be transparent. If something is unSAFE and needs to remain [not public](/handbook/communication/confidentiality-levels/#not-public) it can be.
 
@@ -1349,7 +1349,7 @@ Whatever behavior you reward will become your values. We reinforce our values by
 1. Providing GitLab team members and [qualified individuals](/handbook/ceo/shadow/#eligibility) transparency into all aspects of the company through the [CEO Shadow Program](/handbook/ceo/shadow/#goal) to enable them to better engage and collaborate cross-functionally.
 1. Linking the takeaways of courses to our values, like we did for [the Crucial Conversations training](/handbook/leadership/crucial-conversations/#how-crucial-conversations-align-with-gitlab-values).
 1. The default settings of the software we use (for example: [Speedy meetings](/handbook/tools-and-tips/#speedy-meetings), [document sharing](/handbook/communication/#link-sharing), agendas, etc.)
-1. Reinforcing our values with features in GitLab, for example the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/).
+1. Reinforcing our values with features in GitLab, for example the [Iterations feature](https://docs.gitlab.com/user/group/iterations/).
 1. Applying one of our [values virtual backgrounds](https://about.gitlab.com/press/press-kit/#green-screens) in video calls.
 1. Our GitLab [Song Book](/handbook/company/culture/songbook/), the song lyrics often mention GitLab values.
 1. Regularly conduct a values exercise at the [e-group offsite](/handbook/company/offsite/).

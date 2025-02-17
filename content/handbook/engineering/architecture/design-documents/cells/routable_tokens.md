@@ -11,8 +11,8 @@ of [Phase 4](https://gitlab.com/groups/gitlab-org/-/epics/14510).
 
 ## Purpose
 
-GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/tokens/index.html).
-Tokens have different scopes as for example User, [project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), and [group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
+GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/security/tokens/).
+Tokens have different scopes as for example User, [project](https://docs.gitlab.com/user/project/settings/project_access_tokens/), and [group](https://docs.gitlab.com/user/group/settings/group_access_tokens/)
 
 [HTTP Routing Service](http_routing_service.md) require the tokens to be routable,
 so it can route the request to the correct Cell.
@@ -73,7 +73,7 @@ end
 
 This proposal is to make all tokens to encode routable information about object
 to which the token is attached. This document does focus specifically first on tokens
-that are required to be made routable in the Phase 4: [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [CI/CD Job Token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html) and [Runner Authentication Token](https://docs.gitlab.com/ee/security/tokens/#runner-authentication-tokens):
+that are required to be made routable in the Phase 4: [Personal Access Token](https://docs.gitlab.com/user/profile/personal_access_tokens/), [CI/CD Job Token](https://docs.gitlab.com/ci/jobs/ci_job_token/) and [Runner Authentication Token](https://docs.gitlab.com/security/tokens/#runner-authentication-tokens):
 
 Currently tokens are generated with the following pattern: `<prefix><random-string>`. The Routable Token would change this to `<prefix><base64-payload>.<base64-payload-length><crc32>`.
 
@@ -444,8 +444,8 @@ on CPU compute cost:
 
 ## Problems
 
-- Passing `CI Job Token` as part of [POST body](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html#to-authenticate-a-rest-api-request).
-- Passing `CI Trigger token` as part of [POST body](https://docs.gitlab.com/ee/ci/triggers/#use-curl).
+- Passing `CI Job Token` as part of [POST body](https://docs.gitlab.com/ci/jobs/ci_job_token/#to-authenticate-a-rest-api-request).
+- Passing `CI Trigger token` as part of [POST body](https://docs.gitlab.com/ci/triggers/#use-curl).
 - Some tokens use their own implementation instead of `TokensAuthenticatable`, like `EE::Project#external_webhook_token`.
 
 ## Questions
@@ -475,7 +475,7 @@ The JWT is truly meant to be used as an ephemeral token, usually tied with the t
 
 ## References
 
-- [Token Prefixes documentation](https://docs.gitlab.com/ee/security/tokens/index.html#token-prefixes)
+- [Token Prefixes documentation](https://docs.gitlab.com/security/tokens/#token-prefixes)
 - [Routable Token generation PoC in Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/157440)
 - [Technical proposal for routable tokens](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/8527)
 - (Internal) Google Spreadsheet of various [tokens](https://docs.google.com/spreadsheets/d/1n54lCX2axsTIt8DZBRFj9p44s6YcFp-UechVEHEim8Y/) used by the GitLab.

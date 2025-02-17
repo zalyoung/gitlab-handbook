@@ -19,8 +19,8 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 | - | - | - | - |
 | Source SCM System(s) | to-do | Bitbucket Server, GitLab Self-Managed | GitLab PS has automation to facilitate migration for the most popular source systems. Need to know what systems the data is coming from to accurately scope the time to migrate. |
 | Destination GitLab deployment  (SaaS, Self-Managed(HA), Self-Managed(single node)) | to-do | SaaS | We ask this to ensure the destination system deployment is strong enough to handle the throughput of data that will be required during migration. |
-| Source GitLab version (must be 2 behind latest) | to-do | 13.4 | Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history) |
-| Destination GitLab version (must be within 2 minor versions of source) | to-do | 14.1 |  Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history) |
+| Source GitLab version (must be 2 behind latest) | to-do | 13.4 | Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/user/project/settings/import_export/#version-history) |
+| Destination GitLab version (must be within 2 minor versions of source) | to-do | 14.1 |  Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/user/project/settings/import_export/#version-history) |
 | Total number of Users** | to-do | BB = 225, GLSM = 775 | Migrating users is a pre-requisite step to migrating the data to ensure data elements are associated properly. This is a discrete task in migration engagements and must be scoped with number of users as an input. |
 | Total portfolios (w/ stakeholder rep) | to-do | 6 | We use total portfolios as a proxy metric to identify how much coordination will be required during migration. Each portfolio leader needs to understand and buy into the migration process for things to go smoothly. This coordination time is built into the migration engagement. |
 | Total number of git repositories  | to-do | BB = 1,234; GL = 4321 | We need to know the total number of repositories to be migrated in order to estimate the number of days of effort.  Note: A bitbucket project can contain multiple git repositories.  We need the total number of repos. |
@@ -28,9 +28,9 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 | CI/CD System(s) | to-do | Jenkins | We need to know what CI/CD systems are being used to estimate how much it will take to repoint those pipeline jobs to the new SCM system to help the customer resume IT operations. |
 | Total ci/cd jobs? (CI/CD jobs will need cut-over even if not migrated) | to-do | 4567 | The engagement could include repointing CI/CD jobs back to a source repository. If this is the case, we will need to know how many jobs need to be reconfigured. |
 | Typical registry size | to-do | 159MB | If registry sizes are unusually big, it could affect the speed of migration. *Note: this question only applies to migrations where GitLab is a source system.* |
-| SSO Identity Provider | to-do | Auth0 | We want to make sure this is already in place prior to migration as it is a foundational to the success of a migration engagement. See here for a [full list of supported Identity Providers](https://docs.gitlab.com/ee/administration/auth/) |
-| Source system OS and Version | to-do | Ubuntu v21.10 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the OS does not need to be upgraded by the customer to support the new version of GitLab. See [installation requirements](https://docs.gitlab.com/ee/install/requirements.html) for more details. |
-| Source system DB version | to-do | PostgreSQL 13.0 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the DB does not need to be upgraded by the customer to support the new version of GitLab.  See [installation requirements](https://docs.gitlab.com/ee/install/requirements.html) for more details. |
+| SSO Identity Provider | to-do | Auth0 | We want to make sure this is already in place prior to migration as it is a foundational to the success of a migration engagement. See here for a [full list of supported Identity Providers](https://docs.gitlab.com/administration/auth/) |
+| Source system OS and Version | to-do | Ubuntu v21.10 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the OS does not need to be upgraded by the customer to support the new version of GitLab. See [installation requirements](https://docs.gitlab.com/install/requirements/) for more details. |
+| Source system DB version | to-do | PostgreSQL 13.0 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the DB does not need to be upgraded by the customer to support the new version of GitLab.  See [installation requirements](https://docs.gitlab.com/install/requirements/) for more details. |
 
 **Notes:**
 
@@ -63,7 +63,7 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 ## GitLab Self-Managed to GitLab Dedicated Instance
 
 - As with self-managed to self-managed migrations, self-managed to dedicated instance migrations can be performed using Congregate, a backup and restore approach, or Geo replication. If the Congregate option is used, projects can be migrated in waves of up to 500.
-- [Migrating groups with projects is a Beta feature](https://docs.gitlab.com/ee/user/group/import/index.html#migrate-groups-by-direct-transfer-recommended) could also be used to migrate to dedicated instance. Dedicated instance [needs to be on GitLab version 15.10](https://about.gitlab.com/blog/2023/01/18/try-out-new-way-to-migrate-projects/#availability-of-the-feature) or later. Please review linked documentation to understand limits and requirements of this method.
+- [Migrating groups with projects is a Beta feature](https://docs.gitlab.com/user/group/import/#migrate-groups-by-direct-transfer-recommended) could also be used to migrate to dedicated instance. Dedicated instance [needs to be on GitLab version 15.10](https://about.gitlab.com/blog/2023/01/18/try-out-new-way-to-migrate-projects/#availability-of-the-feature) or later. Please review linked documentation to understand limits and requirements of this method.
 
 ## GitHub Source
 
@@ -109,7 +109,7 @@ _Note: A project on bitbucket is equivalent to a GitLab group. A Repository on B
 ### Bitbucket Cloud to GitLab Self-Managed
 
 - GitLab does not have an API to initiate an import from bitbucket cloud currently. Automated migrations are not possible.
-- Can position a teach a customer to fish advisory approach that uses the [BB cloud import UI](https://docs.gitlab.com/ee/user/project/import/bitbucket.html) to help with importing.
+- Can position a teach a customer to fish advisory approach that uses the [BB cloud import UI](https://docs.gitlab.com/user/project/import/bitbucket/) to help with importing.
 
 ### Bitbucket Server to GitLab SaaS
 
@@ -118,17 +118,17 @@ _Note: A project on bitbucket is equivalent to a GitLab group. A Repository on B
 ### Bitbucket Cloud to GitLab SaaS
 
 - GitLab does not have an API to initiate an import from bitbucket cloud currently. Automated migrations are not possible.
-- Can position a teach a customer to fish advisory approach that uses the [BB cloud import UI](https://docs.gitlab.com/ee/user/project/import/bitbucket.html) to help with importing.
+- Can position a teach a customer to fish advisory approach that uses the [BB cloud import UI](https://docs.gitlab.com/user/project/import/bitbucket/) to help with importing.
 
 ## Team Foundation Server (TFS)/Azure DevOps (ADO) to GitLab
 
 Azure DevOps (formerly named Team Foundation Server) contains more than a source code repository, so additional questions need to be asked while scoping out an ADO migration. Five common components in ADO are the following:
 
-- Azure Boards: Set of Agile tools to plan, structure and manage work through a backlog. Equivalent to GitLab [Issues](https://docs.gitlab.com/ee/user/project/issues/) or JIRA tickets.
+- Azure Boards: Set of Agile tools to plan, structure and manage work through a backlog. Equivalent to GitLab [Issues](https://docs.gitlab.com/user/project/issues/) or JIRA tickets.
 - Azure Repos: Version control system. Supports Git or Team Foundation Version Control (TFVC).
-- Azure Pipelines: Build and release services to support continuous integration and delivery of an application. Equivalent to [GitLab CI/CD](https://docs.gitlab.com/ee/ci/).
+- Azure Pipelines: Build and release services to support continuous integration and delivery of an application. Equivalent to [GitLab CI/CD](https://docs.gitlab.com/ci/).
 - Azure Test Plans: Several tools to test an application, including manual/exploratory testing and continuous testing.
-- Azure Artifacts: Service to store and share packages such as Maven, npm, NuGet, generic and others from public and private sources. Equivalent to [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/).
+- Azure Artifacts: Service to store and share packages such as Maven, npm, NuGet, generic and others from public and private sources. Equivalent to [GitLab Package Registry](https://docs.gitlab.com/user/packages/package_registry/).
 
 | Question | Answer | Sample Answer | Rationale for asking|
 | ----- | ----- | ----- | ----- |
@@ -139,7 +139,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 | What is the ratio project/repo? | | 1:1 | Based on answer to this question additional advisory services to refactor/restructure might be required  |
 | **Azure Boards** ||||
 | Are you using workitems in ADO? || Yes | If workitems need to be retained, then additional migration and/or advisory activities need to be added to the engagement. *Note: there are features in ADO workitems (e.g. custom fields and workflows) that are not supported by GitLab issues. During scoping, make sure the customer is aware of these differences.*  |
-| What template do you use? ||Scrum, Agile, SCCM | To understand the current state and ensure [GitLab's Issues](https://docs.gitlab.com/ee/user/project/issues/) support all the capabilities. |
+| What template do you use? ||Scrum, Agile, SCCM | To understand the current state and ensure [GitLab's Issues](https://docs.gitlab.com/user/project/issues/) support all the capabilities. |
 | What customizations do you use in your boards? ||Extra swimming lanes, custom fields etc|Based on this answer we may require additional advisory services to discuss what is possible / not possible and propose alternatives. |
 | **Azure Repos** ||||
 | Are you using Git or TFVC for your SCM? | | Git | This will influence how we interact with the ADO server and determine if a conversion to Git is necessary |
@@ -163,15 +163,15 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 | Do you use test plans and do you need similar functionality in GitLab? || Yes |Based on the answer we need to propose equivalent feature in GitLab|
 | **Azure Artifacts** ||||
 | Do you use artifact feeds? || Yes |To understand the current state|
-| What type of feeds? || Maven, npm, NuGet | To understand the current state and make ensure GitLab has the same capabilities (see [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/)) |
+| What type of feeds? || Maven, npm, NuGet | To understand the current state and make ensure GitLab has the same capabilities (see [GitLab Package Registry](https://docs.gitlab.com/user/packages/package_registry/)) |
 | Do you use build/pipeline artifacts? || Yes ||
-| What is the retention policy of the packages and do you need to migrate them? || 365 days, no migration needed |To estimate additional effort for migration or/and advisory service to retain existing ADO feed refactoring application to use [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/)|
+| What is the retention policy of the packages and do you need to migrate them? || 365 days, no migration needed |To estimate additional effort for migration or/and advisory service to retain existing ADO feed refactoring application to use [GitLab Package Registry](https://docs.gitlab.com/user/packages/package_registry/)|
 | **Integrations** ||||
 | Are there any external tools/applications tied to your ADO server? | | Yes. We use an in-house tool that pulls from TFS daily for gathering metrics | If the answer is yes, additional activities will need to be added to the SOW to accommodate transitioning those tools to pull from Git instead. |
 
 ## Other git based SCMs
 
-- We can support these customers by using the "bare git" method of migration. This is done through the [Import repo by URL UI](https://docs.gitlab.com/ee/user/project/import/repo_by_url.html) or command line using `git push -u`.
+- We can support these customers by using the "bare git" method of migration. This is done through the [Import repo by URL UI](https://docs.gitlab.com/user/project/import/repo_by_url/) or command line using `git push -u`.
 - The customer should provide a list of git urls to iterate over to support the migration.
 - Data elements outside of the git envelope (e.g. pull request comments, user membership, etc.) will not be migrated. Only git data elements (e.g. branches, commits, files, tags, etc.) will be migrated.
 
@@ -190,7 +190,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 
 ### 2. We're on 13.5 (or some old version), can we still migrate?
 
-- The more of a difference between the source and destination software versions, the higher likelihood there is for data integrity to be lost during migration. The team who maintains the import functionality documented that the importers work when source and destination are [no more than 2 minor releases](https://docs.gitlab.com/ee/user/project/settings/import_export.html#130) apart from each other. For this reason we include upgrade services to help customers get their source instance to be matching or no less than 2 minor versions from the destination software version. Only in extreme circumstances will we consider exceptions to this guidance.
+- The more of a difference between the source and destination software versions, the higher likelihood there is for data integrity to be lost during migration. The team who maintains the import functionality documented that the importers work when source and destination are [no more than 2 minor releases](https://docs.gitlab.com/user/project/settings/import_export/#130) apart from each other. For this reason we include upgrade services to help customers get their source instance to be matching or no less than 2 minor versions from the destination software version. Only in extreme circumstances will we consider exceptions to this guidance.
 
 ## Other Resources
 

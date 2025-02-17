@@ -4,9 +4,9 @@ title: "Feature flags in development of GitLab"
 
 **NOTE**:
 The content below covers feature flags used by GitLab to deploy its own features, which **is not** the same
-as the [feature flags offered as part of the product](https://docs.gitlab.com/ee/development/feature_flags/).
+as the [feature flags offered as part of the product](https://docs.gitlab.com/development/feature_flags/).
 
-This page defines the process for the feature flags lifecycle at GitLab. Technical information for GitLab developers and code contributors can be found in the [developer documentation](https://docs.gitlab.com/ee/development/feature_flags/index.html).
+This page defines the process for the feature flags lifecycle at GitLab. Technical information for GitLab developers and code contributors can be found in the [developer documentation](https://docs.gitlab.com/development/feature_flags/).
 
 ## When to use feature flags
 
@@ -37,7 +37,7 @@ For perspective on why we limit our use of feature flags please watch the video
 In case you are uncertain whether feature flag is necessary, please ask about this early in your merge request review process, and reviewers will likely provide you with an answer.
 
 **NOTE**:
-[Feature flags are not supported in GitLab Dedicated](https://docs.gitlab.com/ee/development/enabling_features_on_dedicated.html#feature-flags).
+[Feature flags are not supported in GitLab Dedicated](https://docs.gitlab.com/development/enabling_features_on_dedicated/#feature-flags).
 
 ## The benefits of feature flags
 
@@ -53,7 +53,7 @@ If we use Feature Flags as a configuration, we are doing it wrong and are indeed
 principles. If something needs to be configured, we should intentionally make it configuration from the
 first moment.
 
-Some of the benefits of using [development-type](https://docs.gitlab.com/ee/development/feature_flags/#development-type) feature flags are:
+Some of the benefits of using [development-type](https://docs.gitlab.com/development/feature_flags/#development-type) feature flags are:
 
 1. It enables Continuous Delivery for GitLab.com.
 1. It significantly reduces Mean-Time-To-Recovery.
@@ -137,25 +137,25 @@ follow the [training template](https://gitlab.com/gitlab-com/www-gitlab-com/-/bl
 
 Before using feature flags, make sure to read the information on this page and the following development guides:
 
-1. [Developing with feature flags](https://docs.gitlab.com/ee/development/feature_flags/): Learn about the types of
+1. [Developing with feature flags](https://docs.gitlab.com/development/feature_flags/): Learn about the types of
   feature flags, their definition and validation, how to create them, frontend and
   backend details, and other information.
-1. [Documenting features deployed behind feature flags](https://docs.gitlab.com/ee/development/documentation/feature_flags.html):
+1. [Documenting features deployed behind feature flags](https://docs.gitlab.com/development/documentation/feature_flags/):
   How to document features deployed behind feature flags according to their state, and how to update the
   docs when their state changes.
-1. [Controlling feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls.html): Learn the process for deploying
+1. [Controlling feature flags](https://docs.gitlab.com/development/feature_flags/controls/): Learn the process for deploying
   a new feature, enabling it on GitLab.com, communicating the change,
   logging, and cleaning up.
 1. [Feature flags and the change management process](/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process): Learn whether your flag requires use of the change management process or not.
 1. [Checking on the status of your teams feature flags](#dashboard--metrics): See if your team has too many, or stale feature flags. See how your feature flags have been toggled over time.
-1. [Conducting an experiment with feature flags](https://docs.gitlab.com/ee/development/experiment_guide/): Learn how the Growth department uses experiment feature flags.
+1. [Conducting an experiment with feature flags](https://docs.gitlab.com/development/experiment_guide/): Learn how the Growth department uses experiment feature flags.
 
 For information about how the user will interact with features behind flags, see:
 
-1. [How GitLab administrators can enable and disable features behind flags](https://docs.gitlab.com/ee/administration/feature_flags.html):
+1. [How GitLab administrators can enable and disable features behind flags](https://docs.gitlab.com/administration/feature_flags/):
   An explanation for GitLab administrators about how they can
   enable or disable GitLab features behind feature flags.
-1. [What "features deployed behind flags" means to the GitLab user](https://docs.gitlab.com/ee/user/feature_flags.html):
+1. [What "features deployed behind flags" means to the GitLab user](https://docs.gitlab.com/user/feature_flags/):
   An explanation for GitLab users regarding how certain features
   might not be available to them until they are enabled.
 
@@ -167,39 +167,39 @@ For information about how the user will interact with features behind flags, see
    1. [Process for evaluation](#when-to-use-feature-flags).
    1. You, as an engineer, come up with a proposed solution to the issue you're working on and decide whether you'll implement it behind a feature flag.
 1. Decide how you will implement the feature flag and its rollout according to:
-   1. Choose the feature flag [type](https://docs.gitlab.com/ee/development/feature_flags/#types-of-feature-flags).
-   1. Decide on [the definition](https://docs.gitlab.com/ee/development/feature_flags/#feature-flag-definition-and-validation) and plan out the YAML.
-   1. Decide on what type of [actor](https://docs.gitlab.com/ee/development/feature_flags/#feature-actors) to bind your feature flag to (if any).
+   1. Choose the feature flag [type](https://docs.gitlab.com/development/feature_flags/#types-of-feature-flags).
+   1. Decide on [the definition](https://docs.gitlab.com/development/feature_flags/#feature-flag-definition-and-validation) and plan out the YAML.
+   1. Decide on what type of [actor](https://docs.gitlab.com/development/feature_flags/#feature-actors) to bind your feature flag to (if any).
    1. Think about where your feature flag should toggle in the code.
 1. Create a feature flag definition in code and make a follow-up rollout issue:
-   1. [Create a feature flag](https://docs.gitlab.com/ee/development/feature_flags/#create-a-new-feature-flag).
-   1. [Create a feature flag rollout issue using the template](https://docs.gitlab.com/ee/development/feature_flags/#development-type) (if necessary).
+   1. [Create a feature flag](https://docs.gitlab.com/development/feature_flags/#create-a-new-feature-flag).
+   1. [Create a feature flag rollout issue using the template](https://docs.gitlab.com/development/feature_flags/#development-type) (if necessary).
    1. Ping the EM/PM on the feature flag rollout issue to get it scheduled/planned/refined.
    1. EM and Engineer work together to finalize the rollout plan for the feature flag. Not all steps in the feature flag rollout template are mandatory for every feature flag.
 
 ### Development
 
 1. Add the feature flag into the code for the backend, frontend, and in tests:
-   1. [Develop with the feature flag](https://docs.gitlab.com/ee/development/feature_flags/#develop-with-a-feature-flag) in your vertical slice.
-   1. [Include the feature flag in tests](https://docs.gitlab.com/ee/development/feature_flags/#feature-flags-in-tests) to check its behavior when enabled and disabled.
-   1. [Flip the feature flag locally](https://docs.gitlab.com/ee/development/feature_flags/#enabling-a-feature-flag-locally-in-development) to ensure it works.
-1. Add the feature behind the flag to the codebase through an MR following the [implementation process](https://docs.gitlab.com/ee/development/feature_flags/).
+   1. [Develop with the feature flag](https://docs.gitlab.com/development/feature_flags/#develop-with-a-feature-flag) in your vertical slice.
+   1. [Include the feature flag in tests](https://docs.gitlab.com/development/feature_flags/#feature-flags-in-tests) to check its behavior when enabled and disabled.
+   1. [Flip the feature flag locally](https://docs.gitlab.com/development/feature_flags/#enabling-a-feature-flag-locally-in-development) to ensure it works.
+1. Add the feature behind the flag to the codebase through an MR following the [implementation process](https://docs.gitlab.com/development/feature_flags/).
 1. Continue to iterate towards issue completion, using the feature flag to test logical slices:
    1. You may use your feature flag in more than one MR. Continue to iterate until the issue is complete.
-1. Ensure you follow the [documentation guidelines for feature flags](https://docs.gitlab.com/ee/development/documentation/feature_flags.html) and keep them up-to-date according to the feature flag state.
+1. Ensure you follow the [documentation guidelines for feature flags](https://docs.gitlab.com/development/documentation/feature_flags/) and keep them up-to-date according to the feature flag state.
 1. When slices are deemed complete enough (keeping in mind [low level of shame](/handbook/values/#low-level-of-shame)), proceed to the rollout process.
    1. Some teams may choose to close the feature issue here once it is complete, other teams may want to wait until after the rollout process is finished. If you close your feature issues after the code is present in the default branch, you should close the issue here.
 
 ### Rollout
 
 1. Finalize the rollout plan:
-   1. Following the [rollout guidelines](https://docs.gitlab.com/ee/development/feature_flags/controls.html#rolling-out-changes) determine a plan for rolling out your feature flag.
+   1. Following the [rollout guidelines](https://docs.gitlab.com/development/feature_flags/controls/#rolling-out-changes) determine a plan for rolling out your feature flag.
 1. Begin rollout plan:
    1. Rollout plans vary flag to flag, take the steps you've outlined in your [feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md).
 1. Removing the flag, cleaning up, and feature announcement:
-   1. Follow the [feature flag clean up process](https://docs.gitlab.com/ee/development/feature_flags/controls.html#cleaning-up).
-   1. Ensure that the [feature flag documentation process](https://docs.gitlab.com/ee/development/documentation/feature_flags.html) has been followed.
-   1. Ensure the flag is removed from the code and from the database with the [chatops feature flag removal command](https://docs.gitlab.com/ee/development/feature_flags/controls.html#cleanup-chatops).
+   1. Follow the [feature flag clean up process](https://docs.gitlab.com/development/feature_flags/controls/#cleaning-up).
+   1. Ensure that the [feature flag documentation process](https://docs.gitlab.com/development/documentation/feature_flags/) has been followed.
+   1. Ensure the flag is removed from the code and from the database with the [chatops feature flag removal command](https://docs.gitlab.com/development/feature_flags/controls/#cleanup-chatops).
    1. If your team closes the feature issue after the feature flag has been removed, it should be closed here.
    1. If the originating issue will be included in the Release Post coordinate with Engineering Manager, Product Manager, Product Designer, Product Marketing Manager, and Technical writer to include the Release Post Item
 
@@ -247,7 +247,7 @@ In order to build a final release and present the feature for self-managed
 users, the feature flag should be at least defaulted to **on**. If the feature
 is deemed stable and there is confidence that removing the feature flag is safe,
 consider removing the feature flag altogether. It's *strongly* recommended that
-the feature flag is [enabled **globally** on **production**](https://docs.gitlab.com/ee/development/feature_flags/controls.html#enabling-a-feature-for-gitlabcom) for **at least one day**
+the feature flag is [enabled **globally** on **production**](https://docs.gitlab.com/development/feature_flags/controls/#enabling-a-feature-for-gitlabcom) for **at least one day**
 before making this decision. Unexpected bugs are sometimes discovered during this period.
 
 The process for enabling features that are disabled by default can take 5-6 days
@@ -255,7 +255,7 @@ from when the merge request is first reviewed to when the change is deployed to
 GitLab.com. However, it is recommended to allow 10-14 days for this activity to
 account for unforeseen problems.
 
-Feature flags must be [documented according to their state (enabled/disabled)](https://docs.gitlab.com/ee/development/documentation/feature_flags.html),
+Feature flags must be [documented according to their state (enabled/disabled)](https://docs.gitlab.com/development/documentation/feature_flags/),
 and when the state changes, docs **must** be updated accordingly.
 
 Changing the default state or removing the feature flag has to be done before

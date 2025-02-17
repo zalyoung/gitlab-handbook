@@ -195,7 +195,7 @@ When the above information is being added, the Epic will move from Triage to Rea
 
 At GitLab, we like to label everything. It provides critical metadata on epics and issues because GitLab does not yet [support custom fields](https://gitlab.com/groups/gitlab-org/-/epics/235). We will work on automation that automatically applies labeling logic to issues or reminds assignees, however this is a work in progress. The SSOT for our labeling schemes will soon become our [team's issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team) (new as of Oct 2024).
 
-The easiest way to ensure all labels are applied to issues is to use issue templates for everything which can have [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html) with pre-populated labels that can be modified as needed. A [feature that includes epic templates](https://gitlab.com/gitlab-org/gitlab/-/issues/428690) will hopefully be coming soon but for now refer back to the.
+The easiest way to ensure all labels are applied to issues is to use issue templates for everything which can have [quick actions](https://docs.gitlab.com/user/project/quick_actions/) with pre-populated labels that can be modified as needed. A [feature that includes epic templates](https://gitlab.com/gitlab-org/gitlab/-/issues/428690) will hopefully be coming soon but for now refer back to the.
 
 **All epics and issues should have the following labels:**
 

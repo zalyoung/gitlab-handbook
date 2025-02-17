@@ -4,7 +4,7 @@ title: Environments Group - GitLab Quality Assurance End-to-End Testing for the 
 
 ## Overview
 
-The goal of this page is to document how the Environments group uses the [GitLab QA framework](https://gitlab.com/gitlab-org/gitlab-qa) ([video walkthrough](https://www.youtube.com/watch?v=enfx6tiz5WY)) to implement and run [end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/).
+The goal of this page is to document how the Environments group uses the [GitLab QA framework](https://gitlab.com/gitlab-org/gitlab-qa) ([video walkthrough](https://www.youtube.com/watch?v=enfx6tiz5WY)) to implement and run [end-to-end tests](https://docs.gitlab.com/development/testing_guide/end_to_end/).
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/enfx6tiz5WY" frameborder="0" allowfullscreen="true"> </iframe>
@@ -16,7 +16,7 @@ The goal of this page is to document how the Environments group uses the [GitLab
 
 > End-to-end testing is a strategy used to check whether your application works as expected across the entire software stack and architecture, including the integration of all micro-services and components that are supposed to work together.
 
-The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) can be found under the [Environments Test Plan](https://gitlab.com/groups/gitlab-org/-/epics/8642) epic.
+The testing strategy for [this level of the pyramid](https://docs.gitlab.com/development/testing_guide/testing_levels/) can be found under the [Environments Test Plan](https://gitlab.com/groups/gitlab-org/-/epics/8642) epic.
 
 ### Where are they
 
@@ -63,7 +63,7 @@ Please reach out in the `#s_developer_experience` channel.
 
 ### Helpful Documentation
 
-- [Testing Guide - End-to-End Testing](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+- [Testing Guide - End-to-End Testing](https://docs.gitlab.com/development/testing_guide/end_to_end/)
 - [GitLab QA orchestration tool](https://gitlab.com/gitlab-org/gitlab-qa)
 - [Run QA tests against your GDK setup](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/run_qa_against_gdk.md)
-- [Beginner's Guide to writing End-to-End tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
+- [Beginner's Guide to writing End-to-End tests](https://docs.gitlab.com/development/testing_guide/end_to_end/beginners_guide/)

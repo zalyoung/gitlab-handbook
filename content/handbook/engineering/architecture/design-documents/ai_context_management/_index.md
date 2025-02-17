@@ -31,9 +31,9 @@ provides from their local environment to extend the default _AI Context_.
   - fetching content defined in _Automatic AI Context_ and _Supplementary User Context_ (complete files, definitions,
  methods, etc.), based on the _AI Context Policy Management_
   - correctly augment the user prompt with AI Context before sending it to LLM. Presumably, this part is already
- handled by [AI Gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/).
+ handled by [AI Gateway](https://docs.gitlab.com/architecture/blueprints/ai_gateway/).
 - **Project Administrator**. In the context of this blueprint, "Project Administrator" means any individual with the
-"Edit project settings" permission ("Maintainer" or "Owner" roles, as defined in [Project members permissions](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)).
+"Edit project settings" permission ("Maintainer" or "Owner" roles, as defined in [Project members permissions](https://docs.gitlab.com/user/permissions/#project-members-permissions)).
 
 ![Illustration of the AI Context architecture](/images/engineering/architecture/design-documents/ai_context_management/architecture.jpg)
 
@@ -131,13 +131,13 @@ this architecture blueprint
 
 ### Optional steps
 
-- Provide UI for _Project Administrators_ to configure global _AI Context Policy_. [Source Editor](https://docs.gitlab.com/ee/development/fe_guide/source_editor.html)
+- Provide UI for _Project Administrators_ to configure global _AI Context Policy_. [Source Editor](https://docs.gitlab.com/development/fe_guide/source_editor/)
 can be used as the editor for this type of YAML file format, similar to the
-[Security Policy Editor](https://docs.gitlab.com/ee/user/application_security/policies/index.html#policy-editor).
+[Security Policy Editor](https://docs.gitlab.com/user/application_security/policies/#policy-editor).
 - Implement a validation mechanism for _AI Context Policies_ to somehow notify the _Project Administrators_ in case
 of the invalid format of the YAML configuration file. It could be a job in CI. But to catch possible issues proactively, it is
 also advised to introduce the validation step as part of the
-[pre-push static analysis](https://docs.gitlab.com/ee/development/contributing/style_guides.html#pre-push-static-analysis-with-lefthook)
+[pre-push static analysis](https://docs.gitlab.com/development/contributing/style_guides/#pre-push-static-analysis-with-lefthook)
 
 ## Design and implementation details
 

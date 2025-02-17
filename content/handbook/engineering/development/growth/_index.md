@@ -103,7 +103,7 @@ Growth teams work across the GitLab codebase on multiple groups and projects inc
 ### Issue sequencing
 
 In order to convey Issue implementation order and blocking concepts,
-we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#blocking-issues).
+we leverage the [blocking issue linking feature](https://docs.gitlab.com/user/project/issues/related_issues/#blocking-issues).
 
 More on the discussion can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752.
 
@@ -200,7 +200,7 @@ To ensure consistency and clarity in our communication, we've implemented a stan
 
 This template streamlines our reporting process, making it easier for <abbr title="Directly Responsible Individual">DRI</abbr>s to provide comprehensive and uniform updates. By using a consistent format, we enhance readability and facilitate quick information retrieval for all team members.
 
-For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
+For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/user/project/description_templates/#use-the-templates).
 
 ## Technical exploration ("Spike") guidelines
 
@@ -285,7 +285,7 @@ Async issue update
 The Growth groups regularly run experiments to test product hypothesis.
 
 - Read about the [experimentation process](experimentation/).
-- View the [developer documentation](https://docs.gitlab.com/ee/development/experiment_guide/)
+- View the [developer documentation](https://docs.gitlab.com/development/experiment_guide/)
 - View slides for the [Experimentation Workshop](https://docs.google.com/presentation/d/1nmStWChWkYad9K-dced9wS4jS7XLIrHB-WKafc7jrMU/)
 
 GitLab team members are welcome to attend the Growth Stage Engineering Weekly meetings
@@ -295,7 +295,7 @@ to connect with growth team members and find out more about running experiments 
 
 The Growth stage tracks number of experiments deployed as a development metric. This is not an individual or team performance indicator. This allows teams to track their technical debt.
 
-New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) are tracked until removal.
+New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/development/feature_flags/#experiment-type) are tracked until removal.
 Current experiments shows the total number of experiments in the codebase (pending, active, or concluded and ready to be removed).
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed" >}}

@@ -12,19 +12,19 @@ GitLab contributors and co-creators can also take advantage of AI-powered GitLab
 
 If team members need access in customer demo group on GitLab.com, create an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) using the `GitlabCom_Licensed_Demo_Group_Request` template.
 
-Follow the [Getting Started](https://docs.gitlab.com/ee/user/get_started/getting_started_gitlab_duo.html) documentation to onboard.
+Follow the [Getting Started](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/) documentation to onboard.
 
 ## GitLab Duo in IDEs
 
-For IDE integration through GitLab Duo extensions, follow the [editor extensions documentation](https://docs.gitlab.com/ee/editor_extensions/#available-extensions).
+For IDE integration through GitLab Duo extensions, follow the [editor extensions documentation](https://docs.gitlab.com/editor_extensions/#available-extensions).
 
 ## Resources
 
-- [GitLab Duo documentation](https://docs.gitlab.com/ee/user/gitlab_duo/)
-  - [Getting Started](https://docs.gitlab.com/ee/user/get_started/getting_started_gitlab_duo.html)
-  - [Use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html)
-  - [Duo Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/)
-  - [Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/)
+- [GitLab Duo documentation](https://docs.gitlab.com/user/gitlab_duo/)
+  - [Getting Started](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/)
+  - [Use cases](https://docs.gitlab.com/user/gitlab_duo/use_cases/)
+  - [Duo Code Suggestions](https://docs.gitlab.com/user/project/repository/code_suggestions/)
+  - [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/)
 - [GitLab University](https://university.gitlab.com)
   - [AI and GitLab Duo courses](https://university.gitlab.com/learn/dashboard?labels=%5B%22Topic%22%5D&values=%5B%22AI%22%5D)
   - [GitLab Duo Enterprise learning path](https://university.gitlab.com/learn/learning-path/gitlab-duo-enterprise-learning-path)
@@ -39,7 +39,7 @@ GitLab Duo Chat can answer many questions about GitLab, programming languages, t
 
 If you are using GitLab Duo to write code, dive into the blog post [Top tips for efficient AI-powered Code Suggestions with GitLab Duo](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/).
 
-Explore the use cases in this handbook page for GitLab team members and co-creators. More use cases and workflows are documented in the [GitLab Duo documentation](https://docs.gitlab.com/ee/user/gitlab_duo/).
+Explore the use cases in this handbook page for GitLab team members and co-creators. More use cases and workflows are documented in the [GitLab Duo documentation](https://docs.gitlab.com/user/gitlab_duo/).
 
 Open feature requests:
 
@@ -49,12 +49,12 @@ Open feature requests:
 
 ### Preparation steps for handbook edits
 
-Ensure that GitLab Duo Chat works in [your IDE or GitLab UI](https://docs.gitlab.com/ee/user/get_started/getting_started_gitlab_duo.html#step-4-prepare-to-use-gitlab-duo-in-your-ide).
+Ensure that GitLab Duo Chat works in [your IDE or GitLab UI](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/#step-4-prepare-to-use-gitlab-duo-in-your-ide).
 
-1. [GitLab UI](https://docs.gitlab.com/ee/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-the-gitlab-ui)
-1. [Web IDE](https://docs.gitlab.com/ee/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-the-web-ide)
-1. [VS Code](https://docs.gitlab.com/ee/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-vs-code)
-1. [JetBrains IDEs](https://docs.gitlab.com/ee/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-jetbrains-ides) (IntelliJ IDEA, PyCharm, and others)
+1. [GitLab UI](https://docs.gitlab.com/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-the-gitlab-ui)
+1. [Web IDE](https://docs.gitlab.com/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-the-web-ide)
+1. [VS Code](https://docs.gitlab.com/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-vs-code)
+1. [JetBrains IDEs](https://docs.gitlab.com/user/gitlab_duo_chat/#use-gitlab-duo-chat-in-jetbrains-ides) (IntelliJ IDEA, PyCharm, and others)
 
 Keyboard shortcuts to access Duo Chat in VS Code/Web IDE:
 
@@ -62,7 +62,7 @@ Keyboard shortcuts to access Duo Chat in VS Code/Web IDE:
 1. Search for `GitLab Duo Chat` and press Enter.
 1. Optional: Move Duo Chat to the right panel by dragging it there [explained in [this video](https://www.youtube.com/watch?v=foZpUvWPRJQ)].
 
-If you want to use Code Suggestions to write and complete Markdown content, you need to configure `markdown` as [additional language in the IDE extension settings](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/supported_extensions.html#add-support-for-more-languages). Tip: Multiple open tabs and more file content can help increase the [context](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/#advanced-context) and quality of suggestions. Schedule a coffee chat with @dnsmichi, handbook backend maintainer, and ask for live screenshare learning sessions.
+If you want to use Code Suggestions to write and complete Markdown content, you need to configure `markdown` as [additional language in the IDE extension settings](https://docs.gitlab.com/user/project/repository/code_suggestions/supported_extensions/#add-support-for-more-languages). Tip: Multiple open tabs and more file content can help increase the [context](https://docs.gitlab.com/user/project/repository/code_suggestions/#advanced-context) and quality of suggestions. Schedule a coffee chat with @dnsmichi, handbook backend maintainer, and ask for live screenshare learning sessions.
 
 ### Create Markdown tables
 
@@ -82,7 +82,7 @@ GitLab Duo Chat may visualize the Markdown table. Use that to your advantage to 
 Show the raw Markdown in a code block
 ```
 
-> Note: The same workflow is available in GitLab Duo Chat in [local IDEs with the Duo extension](https://docs.gitlab.com/ee/user/get_started/getting_started_gitlab_duo.html#step-4-prepare-to-use-gitlab-duo-in-your-ide).
+> Note: The same workflow is available in GitLab Duo Chat in [local IDEs with the Duo extension](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/#step-4-prepare-to-use-gitlab-duo-in-your-ide).
 
 ### Update or refactor Markdown tables
 
@@ -114,7 +114,7 @@ Read the blog post [Developing GitLab Duo: How we are dogfooding our AI features
 
 ### Troubleshoot failed CI/CD pipelines
 
-1. Navigate into the failed pipeline's job view, and inspect the log. Follow the [steps in the documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#troubleshoot-failed-cicd-jobs-with-root-cause-analysis) to start the Root Cause Analysis.
+1. Navigate into the failed pipeline's job view, and inspect the log. Follow the [steps in the documentation](https://docs.gitlab.com/user/gitlab_duo_chat/examples/#troubleshoot-failed-cicd-jobs-with-root-cause-analysis) to start the Root Cause Analysis.
 1. Use the chat prompt to ask follow-up questions, for example how to prevent the error long term.
 
 You can explore the use cases in:
@@ -130,4 +130,4 @@ Team members and community contributors can take advantage of AI-powered workflo
 1. Speed up Merge Request summary and code reviews.
 1. Troubleshoot failing CI/CD pipelines.
 
-Learn more in the [GitLab Duo use cases documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html#use-gitlab-duo-to-contribute-to-gitlab).
+Learn more in the [GitLab Duo use cases documentation](https://docs.gitlab.com/user/gitlab_duo/use_cases/#use-gitlab-duo-to-contribute-to-gitlab).

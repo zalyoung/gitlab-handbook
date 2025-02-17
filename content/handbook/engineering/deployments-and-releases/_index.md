@@ -77,4 +77,4 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 | Release manager schedule | [Link](https://about.gitlab.com/community/release-managers/) |
 | Deployment process | [Link](/handbook/engineering/deployments-and-releases/deployments/) |
 | Release process | [Link](/handbook/engineering/releases/) |
-| Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
+| Maintenance Policy | [Link](https://docs.gitlab.com/policy/maintenance/) |

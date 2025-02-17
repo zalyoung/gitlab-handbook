@@ -65,7 +65,7 @@ To engage with the GitLab Dedicated teams:
 ### Handling Configuration Changes for Tenant Environments
 
 Customers require the ability to customize the configuration of their Dedicated instance before they are able to use it in a production setting.
-These customizations involve configuration changes to [functionality already supported in Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features) including infra-level settings like IP Allowlists and Cloud-Specific Private Networking configuration as well as GitLab application settings that cannot currently be self-served through the admin UI like SAML configuration changes.
+These customizations involve configuration changes to [functionality already supported in Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#available-features) including infra-level settings like IP Allowlists and Cloud-Specific Private Networking configuration as well as GitLab application settings that cannot currently be self-served through the admin UI like SAML configuration changes.
 
 To request functionality that is not currently supported within Dedicated, customers must open a feature request using the [feature request issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md). To request functionality for the broader GitLab Application, customers can use the [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md) template.
 
@@ -131,7 +131,7 @@ When it comes to escalating customer support issues, we follow the same definiti
 
 ### Requesting access to logs
 
-GitLab Dedicated comes with strict [access controls for tenant environments](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#access-controls).
+GitLab Dedicated comes with strict [access controls for tenant environments](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#access-controls).
 By default, GitLab Dedicated logs are only accessible by members of the GitLab
 Dedicated and Support Engineering teams. In cases where GitLab Dedicated
 customers are impacted by issues that require additional team members to review
@@ -170,7 +170,7 @@ becomes available.
 Sometimes, a product fix is introduced to resolve a GitLab Dedicated incident or
 [customer escalation](#escalation-policy). There can be a significant delay between when the
 product fix is merged and when it is deployed to GitLab Dedicated environments due to our
-[upgrade policy](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#upgrades).
+[upgrade policy](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#upgrades).
 
 In such cases, we should evaluate the impact of the delay and, if justified, use the
 [backport request process](/handbook/engineering/releases/backports/) to request that the product
@@ -224,7 +224,7 @@ When it is necessary to refer to a specific customer we use the following guidel
 
 ### GitLab Group Hierarchy
 
-We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
+We use [GitLab Groups](https://docs.gitlab.com/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
 The groups cover the following use-cases:
 
 1. GitLab Dedicated group membership: `@gitlab-dedicated`
@@ -235,7 +235,7 @@ The groups cover the following use-cases:
     - Group mention should be used when the information shared is pertinent to the respective team
 1. Individual team GitLab Dedicated groups have two additional subgroups `maintainers` and `reviewers`, for example: `@gitlab-dedicated/switchboard/maintainers`
     - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrow, and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
-    - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners). Team members onboard into the `maintainer` subgroup after meeting the requirements defined in the [Dedicated Maintainer Training](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/maintainer_training.md)(internal only)
+    - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/user/project/codeowners/#code-owners). Team members onboard into the `maintainer` subgroup after meeting the requirements defined in the [Dedicated Maintainer Training](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/maintainer_training.md)(internal only)
 
 ### Project Management
 
@@ -463,7 +463,7 @@ When a red build in the default branch is detected, the first course of action i
 
 #### Merge request reviewers
 
-GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/development/code_review/#dogfooding-the-reviewers-feature).
 
 The process can be summarized as:
 
@@ -542,7 +542,7 @@ There are three other workflow labels of importance:
 | ----------- | ----------- |
 | ![Cancelled](/images/engineering/infrastructure/team/gitlab-dedicated/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
 | ![Stalled](/images/engineering/infrastructure/team/gitlab-dedicated/label-stalled.png) | If no update has been provided in an issue for over a week, the issue will get this label. The team Engineering Manager is responsible for reviewing the status of the issue and helping it move along. |
-| ![Blocked](/images/engineering/infrastructure/team/gitlab-dedicated/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Blocked](/images/engineering/infrastructure/team/gitlab-dedicated/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/user/project/issues/related_issues/) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 #### Support labels
 

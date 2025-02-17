@@ -10,7 +10,7 @@ Database indexes significantly impact table sizes while playing a crucial role i
 
 - Indexes are often added to maintain performance
 - Each index increases the total table size
-- Indexes introduce additional [maintenance overhead](https://docs.gitlab.com/ee/development/database/adding_database_indexes.html#maintenance-overhead), including:
+- Indexes introduce additional [maintenance overhead](https://docs.gitlab.com/development/database/adding_database_indexes/#maintenance-overhead), including:
   - Write amplification
   - Increased backup size
   - Higher vacuum overhead
@@ -20,7 +20,7 @@ Database indexes significantly impact table sizes while playing a crucial role i
 We prevent new indexes to tables larger than 50 GB through:
 
 Exceptions to this rule are documented in our
-[development guidelines](https://docs.gitlab.com/ee/development/database/large_tables_limitations.html#requesting-an-exception)
+[development guidelines](https://docs.gitlab.com/development/database/large_tables_limitations/#requesting-an-exception)
 and require explicit approval.
 
 These restrictions affect:

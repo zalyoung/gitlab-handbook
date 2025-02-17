@@ -398,7 +398,7 @@ Overall, this will lead to a more secure environment for our customers in CDot a
 
 This work focuses on breaking apart the `CustomersDot Order` table and moving towards a data structure that is more representative of the `Zuora Subscriptions` table.
 
-See the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cdot_orders/) for full details.
+See the [Architecture Blueprint](https://docs.gitlab.com/architecture/blueprints/cdot_orders/) for full details.
 
 [Align CustomersDot Orders to Zuora objects](https://gitlab.com/groups/gitlab-org/-/epics/9748)
 

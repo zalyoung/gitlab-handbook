@@ -35,7 +35,7 @@ The functionality offered by the initial version of the control plane is summari
 
 You can review the architecture that enabled this functionality [here](https://gitlab.com/gitlab-org/incubation-engineering/server-runtime/custom-server-runtime-playground/-/blob/main/Readme.md#architecture)
 
-The Server Runtime architecture has gone through several iterations since, and as it stands currently, the notable change in approach is to develop the Server Runtime based on the [GitLab Agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/).
+The Server Runtime architecture has gone through several iterations since, and as it stands currently, the notable change in approach is to develop the Server Runtime based on the [GitLab Agent for Kubernetes](https://docs.gitlab.com/user/clusters/agent/).
 
 GitLab Agent for Kubernetes (GA4K) provides an extensible module based architecture for building services that can communicate with both GitLab (rails) as well as a k8s cluster. The agent can be installed on any k8s cluster; and it communicates with rails over a bi-directional gRPC tunnel. Using the GitLab agent enables the deployment of developer workspaces to all customers clusters that have the GitLab agent installed.
 
@@ -165,7 +165,7 @@ export OWN_PRIVATE_API_URL=grpc://127.0.0.1:8155
 bazel run //cmd/kas -- --configuration-file="$HOME/projects/gitlab-development-kit/gitlab-k8s-agent-config.yml"
 ```
 
-**agentk** can be run using the following. The token file can be obtained by [registering the agent](https://docs.gitlab.com/ee/user/clusters/agent/install/index.html).
+**agentk** can be run using the following. The token file can be obtained by [registering the agent](https://docs.gitlab.com/user/clusters/agent/install/).
 
 ```sh
 export POD_NAME=test

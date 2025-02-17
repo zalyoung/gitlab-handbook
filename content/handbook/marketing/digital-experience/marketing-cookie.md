@@ -12,7 +12,7 @@ The Digital Experience team use the `gitlab_user` and `gitlab_tier` cookies as a
 
 This implementation is on the [GitLab product project](https://gitlab.com/gitlab-org/gitlab) for the Enterprise Edition of the product. Thus, it will exist in the `gitlab.com` domain, and it will propagate down to all project subdomains, including about.gitlab.com. The cookies do not work in review apps for other projects such as within Buyer Experience or Blog, so keep that in mind when developing for personalization in the Digital Experience team. If you want to verify that features are being rolled out appropriately, reach out to Matketing Analytics to see if the breakdown looks correct from their end.  
 
-For more information, read the [docs on that](https://docs.gitlab.com/ee/user/profile/#cookies-used-for-sign-in).
+For more information, read the [docs on that](https://docs.gitlab.com/user/profile/#cookies-used-for-sign-in).
 
 Note that this cookie can sometimes not show up for GitLab team members. This does not affect production. Make sure to check with Marketing analytics to see the user breakdown between authenticated and non-authenticated users.
 

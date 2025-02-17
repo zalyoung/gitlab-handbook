@@ -60,7 +60,7 @@ Given that it is [impossible to know everything](/handbook/values/#its-impossibl
 
 We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented](/handbook/people-group/employment-branding#all-remote-work).
 
-[GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git/) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) will make a decision.
+[GitLab Issues](https://docs.gitlab.com/user/project/issues/) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git/) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) will make a decision.
 
 ## Results
 

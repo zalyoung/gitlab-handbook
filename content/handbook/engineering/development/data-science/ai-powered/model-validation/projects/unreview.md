@@ -96,7 +96,7 @@ The backend work for integration will be primarily handled by the [AI Assisted](
 
 ### Overview
 
-Milestone 1 focuses on creating an UnReview proof-of-concept that works like [Reviewer Roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette) based on the GitLab product code. This milestone retains the existing UnReview functionality but requires a number of changes to the architectural components of the approach.
+Milestone 1 focuses on creating an UnReview proof-of-concept that works like [Reviewer Roulette](https://docs.gitlab.com/development/code_review/#reviewer-roulette) based on the GitLab product code. This milestone retains the existing UnReview functionality but requires a number of changes to the architectural components of the approach.
 
 The following tasks have to be completed:
 

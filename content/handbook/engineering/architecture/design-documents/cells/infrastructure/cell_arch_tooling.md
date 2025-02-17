@@ -170,7 +170,7 @@ cloud "Google Cloud Platform" <<gcp>> {
 
 #### Components
 
-Each cell contains a [Cloud Native Hybrid deployment](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) of GitLab, sized appropriately for its expected workload. This is provided by the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) via the Dedicated tool [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) which acts as an orchestration layer on top of GET.
+Each cell contains a [Cloud Native Hybrid deployment](https://docs.gitlab.com/administration/reference_architectures/50k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) of GitLab, sized appropriately for its expected workload. This is provided by the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) via the Dedicated tool [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) which acts as an orchestration layer on top of GET.
 
 Cell definitions (i.e. size of each cell, which components it includes, etc.) will be stored in the [`cells-tissue` repository](https://gitlab.com/gitlab-com/gl-infra/cells-tissue), which already contains definitions for a number of cells and rings.
 
@@ -191,7 +191,7 @@ Auxiliary services with a global context - that is, services handling data not s
 
 - Hashicorp Vault (for storage and management of secrets used in CI, and shared infrastructure secrets such as those used by the observability stack)
   - We will be using the existing [production Vault instance](https://vault.gitlab.net) which is configured using [`config-mgmt`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/vault-production) and deployed in [`gitlab-helmfiles`](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-helmfiles/-/tree/master/releases/vault).
-- Camoproxy (for [proxying assets](https://docs.gitlab.com/ee/security/asset_proxy.html))
+- Camoproxy (for [proxying assets](https://docs.gitlab.com/security/asset_proxy/))
   - We will be using the existing Camoproxy instance deployed in [`gitlab-helmfiles`](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-helmfiles/-/tree/master/releases/camoproxy).
 
 #### Naming conventions for cells

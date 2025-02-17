@@ -9,7 +9,7 @@ Merge Requests are the responsibility of all Distribution Engineers. For the mos
 
 ## Workflow
 
-The Distribution team uses the [Reviewers feature](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature) in the code review process. The process looks like this:
+The Distribution team uses the [Reviewers feature](https://docs.gitlab.com/development/code_review/#dogfooding-the-reviewers-feature) in the code review process. The process looks like this:
 
 1. Author opens a merge request in a project.
 1. When ready for review:
@@ -66,9 +66,9 @@ When the merge request is ready to be handed back for changes or further review,
 
 ## Squash and merge
 
-Distribution-owned projects enable [squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html) by default. This feature combines all of the merge request's commits into one commit before merging, ensuring a clean history on the target branch.
+Distribution-owned projects enable [squash and merge](https://docs.gitlab.com/user/project/merge_requests/squash_and_merge/) by default. This feature combines all of the merge request's commits into one commit before merging, ensuring a clean history on the target branch.
 
-Because the squash and merge feature is set to [encourage](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html#squash-commits-options), authors can still disable the option if desired. For example, merge requests with only one commit would not necessarily benefit from a squash prior to merge.
+Because the squash and merge feature is set to [encourage](https://docs.gitlab.com/user/project/merge_requests/squash_and_merge/#squash-commits-options), authors can still disable the option if desired. For example, merge requests with only one commit would not necessarily benefit from a squash prior to merge.
 
 ## References
 

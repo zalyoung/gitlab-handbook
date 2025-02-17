@@ -151,11 +151,11 @@ The interaction between the registry and its clients, including GitLab Rails and
 
 ### Database
 
-Following the GitLab [Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/), no ORM is used to manage the database, only the [`database/sql`](https://pkg.go.dev/database/sql) package from the Go standard library, a PostgreSQL driver ([`lib/pq`](https://pkg.go.dev/github.com/lib/pq)) and raw SQL queries, over a TCP connection pool.
+Following the GitLab [Go standards and style guidelines](https://docs.gitlab.com/development/go_guide/), no ORM is used to manage the database, only the [`database/sql`](https://pkg.go.dev/database/sql) package from the Go standard library, a PostgreSQL driver ([`lib/pq`](https://pkg.go.dev/github.com/lib/pq)) and raw SQL queries, over a TCP connection pool.
 
 The design and development of the registry database adhere to the GitLab [database guidelines](../../../development/database/index.md). Being a Go application, the required tooling to support the database will have to be developed, such as for running database migrations.
 
-Running *online* and [*post deployment*](https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html) migrations is already supported by the registry CLI, as described in the [documentation](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/database-migrations.md).
+Running *online* and [*post deployment*](https://docs.gitlab.com/development/database/post_deployment_migrations/) migrations is already supported by the registry CLI, as described in the [documentation](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/database-migrations.md).
 
 #### Partitioning
 
@@ -198,7 +198,7 @@ PostgreSQL introduced significant improvements for partitioning in [version 12](
 - Bulk load (`COPY`) now uses bulk inserts instead of inserting one row at a time;
 
 To leverage these features and performance improvements, we need to use PostgreSQL 12 from the start.
-GitLab 14.0 and later [ships with PostgreSQL 12](https://docs.gitlab.com/ee/administration/package_information/postgresql_versions.html)
+GitLab 14.0 and later [ships with PostgreSQL 12](https://docs.gitlab.com/administration/package_information/postgresql_versions/)
 for self-managed instances. Customers not able to upgrade to PostgreSQL 12 have two options:
 
 - Administrators can manually provision and configure a separate PostgreSQL 12 database for the

@@ -16,7 +16,7 @@ Thirdly, PaC enhances auditing, accountability, and scalability within organizat
 
 ## How and where does Security Compliance implement policy-as-code at GitLab?
 
-Security Compliance is planning to implement Policy as Code (PaC) through the utilization of existing tools, often involving code analysis and scanning Infrastructure-as-Code (IaC) tools like [SAST](https://docs.gitlab.com/ee/user/application_security/sast/) and Checkov.
+Security Compliance is planning to implement Policy as Code (PaC) through the utilization of existing tools, often involving code analysis and scanning Infrastructure-as-Code (IaC) tools like [SAST](https://docs.gitlab.com/user/application_security/sast/) and Checkov.
 
 To further solidify this approach, focusing on [dogfooding](/handbook/values/#dogfooding) and leveraging GitLab as a tool becomes imperative. By embracing GitLab to its full potential, the organization can design a proven and scalable concept that streamlines the implementation of PaC, fosters collaboration and enhances visibility into security practices.
 

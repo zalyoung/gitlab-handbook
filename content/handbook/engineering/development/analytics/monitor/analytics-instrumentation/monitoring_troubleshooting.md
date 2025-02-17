@@ -99,7 +99,7 @@ The AWS layer is maintained by our infrastructure team and configured through a
 [terraform repository](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/aws-snowplow).
 
 If it is likely that the AWS layer is responsible for the drop in events then we need help from the SRE on-call.
-[Declare an official incident](https://docs.gitlab.com/ee/operations/incident_management/slack.html#declare-an-incident) with severity S4 and `gitlab` as the project to get their attention.
+[Declare an official incident](https://docs.gitlab.com/operations/incident_management/slack/#declare-an-incident) with severity S4 and `gitlab` as the project to get their attention.
 
 #### Delay in Snowplow Enrichers
 
@@ -107,7 +107,7 @@ If there is an alert for **Snowplow Raw Good Stream Backing Up**, we receive an 
 
 If the delay goes over 48 hours, we lose data.
 
-To alert the SRE on-call [declare an official incident](https://docs.gitlab.com/ee/operations/incident_management/slack.html#declare-an-incident) with severity S4 and `gitlab` as the project.
+To alert the SRE on-call [declare an official incident](https://docs.gitlab.com/operations/incident_management/slack/#declare-an-incident) with severity S4 and `gitlab` as the project.
 
 Already conducted investigations:
 

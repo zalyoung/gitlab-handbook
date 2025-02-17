@@ -282,9 +282,9 @@ but before a patch was implemented. For example, the vulnerable functionality wa
 or significantly changed resulting in the vulnerability not being present anymore.
 
 If an engineer notices that an issue has become irrelevant, they should @-mention the person
-that triaged the issue to confirm that the vulnerability is not present anymore. <b>Note that it might still be necessary to backport a patch to previous releases according to our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html#security-releases)</b>.
+that triaged the issue to confirm that the vulnerability is not present anymore. <b>Note that it might still be necessary to backport a patch to previous releases according to our [maintenance policy](https://docs.gitlab.com/policy/maintenance/#security-releases)</b>.
 In case no backports are necessary, the issue can be closed.
 
 ### Reducing the number of backports
 
-With the approval of an Application Security Engineer a security issue may be fixed on the current stable release only, with no backports. Follow the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html#security-releases) and apply the `~reduced backports` label to the issue.
+With the approval of an Application Security Engineer a security issue may be fixed on the current stable release only, with no backports. Follow the [GitLab Maintenance Policy](https://docs.gitlab.com/policy/maintenance/#security-releases) and apply the `~reduced backports` label to the issue.

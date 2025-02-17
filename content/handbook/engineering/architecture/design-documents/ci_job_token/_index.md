@@ -18,7 +18,7 @@ toc_hide: true
 GitLab CI is a Continuous Integration platform widely used to run various jobs,
 builds, and pipelines.
 
-Each CI job is provided with a [CI job token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html)
+Each CI job is provided with a [CI job token](https://docs.gitlab.com/ci/jobs/ci_job_token/)
 (a kind of a security token) that allows it to interact with other GitLab APIs
 to accomplish a task. Currently, this token has the same level of access as the
 user who triggered the pipeline, which violates the [principle of least privilege (PoLP)](https://csrc.nist.gov/glossary/term/least_privilege).
@@ -65,8 +65,8 @@ permissions for each token.
 
 - A [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693) will not be created.
 - Reducing the duration of `CI_JOB_TOKEN` access is not a focus.
-- Unifying [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities) will not be pursued.
-- [Token types](https://docs.gitlab.com/ee/security/tokens/index.html) will not be consolidated into a single token.
+- Unifying [PAT scopes](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes) with [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities) will not be pursued.
+- [Token types](https://docs.gitlab.com/security/tokens/) will not be consolidated into a single token.
 - The [permission set](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` will not be expanded.
 - We will not handle cases where specific projects can override group-level permissions.
 
@@ -156,7 +156,7 @@ in the subsequent ADR (Architectural Decision Record):
 }
 ```
 
-- **`sub`**: The subject of the token, represented as a [Global ID](https://docs.gitlab.com/ee/api/graphql/#global-ids).
+- **`sub`**: The subject of the token, represented as a [Global ID](https://docs.gitlab.com/api/graphql/#global-ids).
 - **`exp`**: Token expiration, usually tied to the maximum duration of the CI job.
 - **`scope`**: Permissions associated with the token, bound to specific resources by Global ID.
 
@@ -257,58 +257,58 @@ change in one of the subsequent ADRs.
 
 | Action                                                                                                                                      | Permission(s)                                          |
 | --------                                                                                                                                    | -------------                                          |
-| [Delete a registry repository tag](https://docs.gitlab.com/ee/api/container_registry.html#delete-a-registry-repository-tag)                 | `:admin_container_image` OR `:destroy_container_image` |
-| [Delete a registry repository tags in bulk](https://docs.gitlab.com/ee/api/container_registry.html#delete-registry-repository-tags-in-bulk) | `:admin_container_image` OR `:destroy_container_image` |
-| [Delete registry repository](https://docs.gitlab.com/ee/api/container_registry.html#delete-registry-repository)                             | `:admin_container_image` OR `:destroy_container_image` |
-| [Get details of a registry repository tag](https://docs.gitlab.com/ee/api/container_registry.html#get-details-of-a-registry-repository-tag) | `:admin_container_image` OR `:read_container_image`    |
-| [List registry repositories](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                          | `:admin_container_image` OR `:read_container_image`    |
-| [List registry repository tags](https://docs.gitlab.com/ee/api/container_registry.html#list-registry-repository-tags)                       | `:admin_container_image` OR `:read_container_image`    |
+| [Delete a registry repository tag](https://docs.gitlab.com/api/container_registry/#delete-a-registry-repository-tag)                 | `:admin_container_image` OR `:destroy_container_image` |
+| [Delete a registry repository tags in bulk](https://docs.gitlab.com/api/container_registry/#delete-registry-repository-tags-in-bulk) | `:admin_container_image` OR `:destroy_container_image` |
+| [Delete registry repository](https://docs.gitlab.com/api/container_registry/#delete-registry-repository)                             | `:admin_container_image` OR `:destroy_container_image` |
+| [Get details of a registry repository tag](https://docs.gitlab.com/api/container_registry/#get-details-of-a-registry-repository-tag) | `:admin_container_image` OR `:read_container_image`    |
+| [List registry repositories](https://docs.gitlab.com/api/container_registry/#list-registry-repository-tags)                          | `:admin_container_image` OR `:read_container_image`    |
+| [List registry repository tags](https://docs.gitlab.com/api/container_registry/#list-registry-repository-tags)                       | `:admin_container_image` OR `:read_container_image`    |
 
 #### Deployments
 
 | Action                                                                                                       | Permission(s)                               |
 | --------                                                                                                     | -------------                               |
-| [List project deployments](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments)         | `:read_deployment`                          |
-| [Get a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment)       | `:read_deployment`                          |
-| [Create a deployment](https://docs.gitlab.com/ee/api/deployments.html#create-a-deployment)                   | `:read_deployment` AND `:create_deployment` |
-| [Update a deployment](https://docs.gitlab.com/ee/api/deployments.html#update-a-deployment)                   | `:read_deployment` AND `:update_deployment` |
-| [Delete a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#delete-a-specific-deployment) | `:destroy_deployment`                       |
+| [List project deployments](https://docs.gitlab.com/api/deployments/#list-project-deployments)         | `:read_deployment`                          |
+| [Get a specific deployment](https://docs.gitlab.com/api/deployments/#get-a-specific-deployment)       | `:read_deployment`                          |
+| [Create a deployment](https://docs.gitlab.com/api/deployments/#create-a-deployment)                   | `:read_deployment` AND `:create_deployment` |
+| [Update a deployment](https://docs.gitlab.com/api/deployments/#update-a-deployment)                   | `:read_deployment` AND `:update_deployment` |
+| [Delete a specific deployment](https://docs.gitlab.com/api/deployments/#delete-a-specific-deployment) | `:destroy_deployment`                       |
 
 #### Environments
 
 | Action                                                                                                                      | Permission(s)                                  |
 | --------                                                                                                                    | -------------                                  |
-| [List environments](https://docs.gitlab.com/ee/api/environments.html#list-environments)                                     | `:read_environment`                            |
-| [Get a specific environment](https://docs.gitlab.com/ee/api/environments.html#get-a-specific-environment)                   | `:read_environment`                            |
-| [Create a new environment](https://docs.gitlab.com/ee/api/environments.html#create-a-new-environment)                       | `:create_environment`                          |
-| [Update an existing environment](https://docs.gitlab.com/ee/api/environments.html#update-an-existing-environment)           | `:update_environment`                          |
-| [Delete an environment](https://docs.gitlab.com/ee/api/environments.html#delete-an-environment)                             | `:read_environment` AND `:destroy_environment` |
-| [Delete multiple stopped review apps](https://docs.gitlab.com/ee/api/environments.html#delete-multiple-stopped-review-apps) | `:read_environment` AND `:destroy_environment` |
-| [Stop an environment](https://docs.gitlab.com/ee/api/environments.html#stop-an-environment)                                 | `:read_environment` AND `:stop_environment`    |
-| [Stop stale environments](https://docs.gitlab.com/ee/api/environments.html#stop-stale-environments)                         | `:read_environment` AND `:stop_environment`    |
+| [List environments](https://docs.gitlab.com/api/environments/#list-environments)                                     | `:read_environment`                            |
+| [Get a specific environment](https://docs.gitlab.com/api/environments/#get-a-specific-environment)                   | `:read_environment`                            |
+| [Create a new environment](https://docs.gitlab.com/api/environments/#create-a-new-environment)                       | `:create_environment`                          |
+| [Update an existing environment](https://docs.gitlab.com/api/environments/#update-an-existing-environment)           | `:update_environment`                          |
+| [Delete an environment](https://docs.gitlab.com/api/environments/#delete-an-environment)                             | `:read_environment` AND `:destroy_environment` |
+| [Delete multiple stopped review apps](https://docs.gitlab.com/api/environments/#delete-multiple-stopped-review-apps) | `:read_environment` AND `:destroy_environment` |
+| [Stop an environment](https://docs.gitlab.com/api/environments/#stop-an-environment)                                 | `:read_environment` AND `:stop_environment`    |
+| [Stop stale environments](https://docs.gitlab.com/api/environments/#stop-stale-environments)                         | `:read_environment` AND `:stop_environment`    |
 
 #### Jobs
 
 | Action                                                                                                                                                                         | Permission(s)                           |
 | --------                                                                                                                                                                       | -------------                           |
-| [Get job token's job](https://docs.gitlab.com/ee/api/jobs.html#get-job-tokens-job)                                                                                             | `:read_build`                           |
-| [Get GitLab agent by `CI_JOB_TOKEN`](https://docs.gitlab.com/ee/api/jobs.html#get-gitlab-agent-by-ci_job_token)                                                                | `:read_build`                           |
-| [Update pipeline metadata](https://docs.gitlab.com/ee/api/pipelines.html#update-pipeline-metadata)                                                                             | `:update_pipeline`                      |
-| [Get job artifacts](https://docs.gitlab.com/ee/api/job_artifacts.html#get-job-artifacts)                                                                                       | `:read_build` AND `:read_job_artifacts` |
-| [Download the artifacts archive](https://docs.gitlab.com/ee/api/job_artifacts.html#download-the-artifacts-archive)                                                             | `:read_build` AND `:read_job_artifacts` |
-| [Download a single artifact file by job ID](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-by-job-id)                                       | `:read_build` AND `:read_job_artifacts` |
-| [Download a single artifact file from a specific tag or branch](https://docs.gitlab.com/ee/api/job_artifacts.html#download-a-single-artifact-file-from-specific-tag-or-branch) | `:read_build` AND `:read_job_artifacts` |
+| [Get job token's job](https://docs.gitlab.com/api/jobs/#get-job-tokens-job)                                                                                             | `:read_build`                           |
+| [Get GitLab agent by `CI_JOB_TOKEN`](https://docs.gitlab.com/api/jobs/#get-gitlab-agent-by-ci_job_token)                                                                | `:read_build`                           |
+| [Update pipeline metadata](https://docs.gitlab.com/api/pipelines/#update-pipeline-metadata)                                                                             | `:update_pipeline`                      |
+| [Get job artifacts](https://docs.gitlab.com/api/job_artifacts/#get-job-artifacts)                                                                                       | `:read_build` AND `:read_job_artifacts` |
+| [Download the artifacts archive](https://docs.gitlab.com/api/job_artifacts/#download-the-artifacts-archive)                                                             | `:read_build` AND `:read_job_artifacts` |
+| [Download a single artifact file by job ID](https://docs.gitlab.com/api/job_artifacts/#download-a-single-artifact-file-by-job-id)                                       | `:read_build` AND `:read_job_artifacts` |
+| [Download a single artifact file from a specific tag or branch](https://docs.gitlab.com/api/job_artifacts/#download-a-single-artifact-file-from-specific-tag-or-branch) | `:read_build` AND `:read_job_artifacts` |
 
 #### Packages
 
 | Route                                                                                             | Permission(s)                         |
 | -----                                                                                             | -------------                         |
-| [List packages](https://docs.gitlab.com/ee/api/packages.html#for-a-project)                       | `:read_package`                       |
-| [Get a project package](https://docs.gitlab.com/ee/api/packages.html#for-a-project)               | `:read_package`                       |
-| [List package files](https://docs.gitlab.com/ee/api/packages.html#list-package-files)             | `:read_package`                       |
-| [List package pipelines](https://docs.gitlab.com/ee/api/packages.html#list-package-pipelines)     | `:read_package` AND `:read_pipeline`  |
-| [Delete a project package](https://docs.gitlab.com/ee/api/packages.html#delete-a-project-package) | `:destroy_package`                    |
-| [Delete a package file](https://docs.gitlab.com/ee/api/packages.html#delete-a-package-file)       | `:destroy_package`                    |
+| [List packages](https://docs.gitlab.com/api/packages/#for-a-project)                       | `:read_package`                       |
+| [Get a project package](https://docs.gitlab.com/api/packages/#for-a-project)               | `:read_package`                       |
+| [List package files](https://docs.gitlab.com/api/packages/#list-package-files)             | `:read_package`                       |
+| [List package pipelines](https://docs.gitlab.com/api/packages/#list-package-pipelines)     | `:read_package` AND `:read_pipeline`  |
+| [Delete a project package](https://docs.gitlab.com/api/packages/#delete-a-project-package) | `:destroy_package`                    |
+| [Delete a package file](https://docs.gitlab.com/api/packages/#delete-a-package-file)       | `:destroy_package`                    |
 | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name/authorize`  | `:read_project` AND `:create_package` |
 | GET `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`            | `:read_project` AND `:read_package`   |
 | PUT `/projects/:id/packages/generic/:package_name/*package_version/(*path/):file_name`            | `:read_project`                       |
@@ -317,48 +317,48 @@ change in one of the subsequent ADRs.
 
 | Permission(s)                                                                                                                                     | Route                                 |
 | -------------                                                                                                                                     | -----                                 |
-| [Download a package file at the instance level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-instance-level) | `:read_package`                       |
-| [Download a package file at the group level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-group-level)       | `:read_group` AND `:read_package`     |
-| [Download a package file at the project level](https://docs.gitlab.com/ee/api/packages/maven.html#download-a-package-file-at-the-project-level)   | `:read_project` AND `:read_package`   |
-| [Upload a package file](https://docs.gitlab.com/ee/api/packages/maven.html#upload-a-package-file)                                                 | `:read_project` AND `:create_package` |
+| [Download a package file at the instance level](https://docs.gitlab.com/api/packages/maven/#download-a-package-file-at-the-instance-level) | `:read_package`                       |
+| [Download a package file at the group level](https://docs.gitlab.com/api/packages/maven/#download-a-package-file-at-the-group-level)       | `:read_group` AND `:read_package`     |
+| [Download a package file at the project level](https://docs.gitlab.com/api/packages/maven/#download-a-package-file-at-the-project-level)   | `:read_project` AND `:read_package`   |
+| [Upload a package file](https://docs.gitlab.com/api/packages/maven/#upload-a-package-file)                                                 | `:read_project` AND `:create_package` |
 | PUT `/projects/:id/packages/maven/*path/:file_name/authorize`                                                                                     | `:read_project` AND `:create_package` |
 
 **PyPI**
 
 | Permission(s)                                                                                                                      | Route                                 |
 | -------------                                                                                                                      | -----                                 |
-| [Download a package file from a group](https://docs.gitlab.com/ee/api/packages/pypi.html#download-a-package-file-from-a-group)     | `:read_group` AND `:read_package`     |
-| [Group-level simple API index](https://docs.gitlab.com/ee/api/packages/pypi.html#group-level-simple-api-index)                     | `:read_group` AND `:read_package`     |
-| [Group level simple API entry point](https://docs.gitlab.com/ee/api/packages/pypi.html#group-level-simple-api-entry-point)         | `:read_group` AND `:read_package`     |
-| [Download a package file from a project](https://docs.gitlab.com/ee/api/packages/pypi.html#download-a-package-file-from-a-project) | `:read_project` AND `:read_package`   |
-| [Project-level simple API index](https://docs.gitlab.com/ee/api/packages/pypi.html#project-level-simple-api-index)                 | `:read_project` AND `:read_package`   |
-| [Project-level simple API entry point](https://docs.gitlab.com/ee/api/packages/pypi.html#project-level-simple-api-entry-point)     | `:read_project` AND `:read_package`   |
-| [Upload a package](https://docs.gitlab.com/ee/api/packages/pypi.html#upload-a-package)                                             | `:read_project` AND `:create_package` |
+| [Download a package file from a group](https://docs.gitlab.com/api/packages/pypi/#download-a-package-file-from-a-group)     | `:read_group` AND `:read_package`     |
+| [Group-level simple API index](https://docs.gitlab.com/api/packages/pypi/#group-level-simple-api-index)                     | `:read_group` AND `:read_package`     |
+| [Group level simple API entry point](https://docs.gitlab.com/api/packages/pypi/#group-level-simple-api-entry-point)         | `:read_group` AND `:read_package`     |
+| [Download a package file from a project](https://docs.gitlab.com/api/packages/pypi/#download-a-package-file-from-a-project) | `:read_project` AND `:read_package`   |
+| [Project-level simple API index](https://docs.gitlab.com/api/packages/pypi/#project-level-simple-api-index)                 | `:read_project` AND `:read_package`   |
+| [Project-level simple API entry point](https://docs.gitlab.com/api/packages/pypi/#project-level-simple-api-entry-point)     | `:read_project` AND `:read_package`   |
+| [Upload a package](https://docs.gitlab.com/api/packages/pypi/#upload-a-package)                                             | `:read_project` AND `:create_package` |
 | POST `/projects/:id/-/packages/pypi/authorize`                                                                                     | `:read_project` AND `:create_package` |
 
 **Composer**
 
 | Permission(s)                                                                                            | Route             |
 | -------------                                                                                            | -----             |
-| [Base repository request](https://docs.gitlab.com/ee/api/packages/composer.html#base-repository-request) | `:read_group`     |
-| [V1 packages list](https://docs.gitlab.com/ee/api/packages/composer.html#v1-packages-list)               | `:read_group`     |
-| [V2 Package Metadata](https://docs.gitlab.com/ee/api/packages/composer.html#v2-package-metadata)         | `:read_group`     |
-| [Create a package](https://docs.gitlab.com/ee/api/packages/composer.html#create-a-package)               | `:create_package` |
+| [Base repository request](https://docs.gitlab.com/api/packages/composer/#base-repository-request) | `:read_group`     |
+| [V1 packages list](https://docs.gitlab.com/api/packages/composer/#v1-packages-list)               | `:read_group`     |
+| [V2 Package Metadata](https://docs.gitlab.com/api/packages/composer/#v2-package-metadata)         | `:read_group`     |
+| [Create a package](https://docs.gitlab.com/api/packages/composer/#create-a-package)               | `:create_package` |
 
 **NPM**
 
 | Permission(s)                                                                                                    | Route              |
 | -------------                                                                                                    | -----              |
-| [Project-level: Download a package](https://docs.gitlab.com/ee/api/packages/npm.html#download-a-package)         | `:read_package`    |
-| [Project-level: Upload a package](https://docs.gitlab.com/ee/api/packages/npm.html#upload-a-package-file)        | `:create_package`  |
-| [Group-level: Package Metadata](https://docs.gitlab.com/ee/api/packages/npm.html#metadata)                       | `:read_package`    |
-| [Project-level: Package Metadata](https://docs.gitlab.com/ee/api/packages/npm.html#metadata)                     | `:read_package`    |
-| [Group-level: List tags](https://docs.gitlab.com/ee/api/packages/npm.html#list-tags)                             | `:read_package`    |
-| [Project-level: List tags](https://docs.gitlab.com/ee/api/packages/npm.html#list-tags)                           | `:read_package`    |
-| [Group-level: Create or update a tag](https://docs.gitlab.com/ee/api/packages/npm.html#create-or-update-a-tag)   | `:create_package`  |
-| [Project-level: Create or update a tag](https://docs.gitlab.com/ee/api/packages/npm.html#create-or-update-a-tag) | `:create_package`  |
-| [Group-level: Delete a tag](https://docs.gitlab.com/ee/api/packages/npm.html#delete-a-tag)                       | `:destroy_package` |
-| [Group-level: Delete a tag](https://docs.gitlab.com/ee/api/packages/npm.html#delete-a-tag)                       | `:destroy_package` |
+| [Project-level: Download a package](https://docs.gitlab.com/api/packages/npm/#download-a-package)         | `:read_package`    |
+| [Project-level: Upload a package](https://docs.gitlab.com/api/packages/npm/#upload-a-package-file)        | `:create_package`  |
+| [Group-level: Package Metadata](https://docs.gitlab.com/api/packages/npm/#metadata)                       | `:read_package`    |
+| [Project-level: Package Metadata](https://docs.gitlab.com/api/packages/npm/#metadata)                     | `:read_package`    |
+| [Group-level: List tags](https://docs.gitlab.com/api/packages/npm/#list-tags)                             | `:read_package`    |
+| [Project-level: List tags](https://docs.gitlab.com/api/packages/npm/#list-tags)                           | `:read_package`    |
+| [Group-level: Create or update a tag](https://docs.gitlab.com/api/packages/npm/#create-or-update-a-tag)   | `:create_package`  |
+| [Project-level: Create or update a tag](https://docs.gitlab.com/api/packages/npm/#create-or-update-a-tag) | `:create_package`  |
+| [Group-level: Delete a tag](https://docs.gitlab.com/api/packages/npm/#delete-a-tag)                       | `:destroy_package` |
+| [Group-level: Delete a tag](https://docs.gitlab.com/api/packages/npm/#delete-a-tag)                       | `:destroy_package` |
 | POST `/groups/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                                              | `:read_package`    |
 | POST `/groups/:id/-/packages/npm/-/npm/v1/security/audits/quick`                                                 | `:read_package`    |
 | POST `/projects/:id/-/packages/npm/-/npm/v1/security/advisories/bulk`                                            | `:read_package`    |
@@ -368,38 +368,38 @@ change in one of the subsequent ADRs.
 
 | Permission(s)                                                                                          | Route           |
 | -------------                                                                                          | -----           |
-| [List packages](https://docs.gitlab.com/ee/api/packages/go_proxy.html#list)                            | `:read_package` |
-| [Version metadata](https://docs.gitlab.com/ee/api/packages/go_proxy.html#version-metadata)             | `:read_package` |
-| [Download module file](https://docs.gitlab.com/ee/api/packages/go_proxy.html#download-module-file)     | `:read_package` |
-| [Download module source](https://docs.gitlab.com/ee/api/packages/go_proxy.html#download-module-source) | `:read_package` |
+| [List packages](https://docs.gitlab.com/api/packages/go_proxy/#list)                            | `:read_package` |
+| [Version metadata](https://docs.gitlab.com/api/packages/go_proxy/#version-metadata)             | `:read_package` |
+| [Download module file](https://docs.gitlab.com/api/packages/go_proxy/#download-module-file)     | `:read_package` |
+| [Download module source](https://docs.gitlab.com/api/packages/go_proxy/#download-module-source) | `:read_package` |
 
 #### Releases
 
 | Action                                                                                            | Permission(s)      |
 | --------                                                                                          | -------------      |
-| [List links of a release](https://docs.gitlab.com/ee/api/releases/index.html)                     | `:read_release`    |
-| [Get a release link](https://docs.gitlab.com/ee/api/releases/links.html#get-a-release-link)       | `:read_release`    |
-| [Create a release link](https://docs.gitlab.com/ee/api/releases/links.html#create-a-release-link) | `:create_release`  |
-| [Update a release link](https://docs.gitlab.com/ee/api/releases/links.html#update-a-release-link) | `:update_release`  |
-| [Delete a release link](https://docs.gitlab.com/ee/api/releases/links.html#delete-a-release-link) | `:destroy_release` |
+| [List links of a release](https://docs.gitlab.com/api/releases/)                     | `:read_release`    |
+| [Get a release link](https://docs.gitlab.com/api/releases/links/#get-a-release-link)       | `:read_release`    |
+| [Create a release link](https://docs.gitlab.com/api/releases/links/#create-a-release-link) | `:create_release`  |
+| [Update a release link](https://docs.gitlab.com/api/releases/links/#update-a-release-link) | `:update_release`  |
+| [Delete a release link](https://docs.gitlab.com/api/releases/links/#delete-a-release-link) | `:destroy_release` |
 
 #### Secure Files
 
 | Action                                                                                                  | Permission(s)                                 |
 | --------                                                                                                | -------------                                 |
-| [List project secure files](https://docs.gitlab.com/ee/api/secure_files.html#list-project-secure-files) | `:read_secure_files` OR `:admin_secure_files` |
-| [Show secure file details](https://docs.gitlab.com/ee/api/secure_files.html#show-secure-file-details)   | `:read_secure_files` OR `:admin_secure_files` |
-| [Create secure file](https://docs.gitlab.com/ee/api/secure_files.html#create-secure-file)               | `:admin_secure_files`                         |
-| [Download secure file](https://docs.gitlab.com/ee/api/secure_files.html#download-secure-file)           | `:read_secure_files` OR `:admin_secure_files` |
-| [Remove a secure file](https://docs.gitlab.com/ee/api/secure_files.html#remove-secure-file)             | `:admin_secure_files`                         |
+| [List project secure files](https://docs.gitlab.com/api/secure_files/#list-project-secure-files) | `:read_secure_files` OR `:admin_secure_files` |
+| [Show secure file details](https://docs.gitlab.com/api/secure_files/#show-secure-file-details)   | `:read_secure_files` OR `:admin_secure_files` |
+| [Create secure file](https://docs.gitlab.com/api/secure_files/#create-secure-file)               | `:admin_secure_files`                         |
+| [Download secure file](https://docs.gitlab.com/api/secure_files/#download-secure-file)           | `:read_secure_files` OR `:admin_secure_files` |
+| [Remove a secure file](https://docs.gitlab.com/api/secure_files/#remove-secure-file)             | `:admin_secure_files`                         |
 
 #### Terraform
 
 | Action                                                                                                                                                            | Permission(s)                                       |
 | --------                                                                                                                                                          | -------------                                       |
-| [Retrieve individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions) | `:read_terraform_state` OR `:admin_terraform_state` |
-| [Remove individual Terraform state version](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#manage-individual-terraform-state-versions)   | `:admin_terraform_state`                            |
-| [Remove a state file](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html#remove-a-state-file-by-using-the-api)                               | `:admin_terraform_state`                            |
+| [Retrieve individual Terraform state version](https://docs.gitlab.com/user/infrastructure/iac/terraform_state/#manage-individual-terraform-state-versions) | `:read_terraform_state` OR `:admin_terraform_state` |
+| [Remove individual Terraform state version](https://docs.gitlab.com/user/infrastructure/iac/terraform_state/#manage-individual-terraform-state-versions)   | `:admin_terraform_state`                            |
+| [Remove a state file](https://docs.gitlab.com/user/infrastructure/iac/terraform_state/#remove-a-state-file-by-using-the-api)                               | `:admin_terraform_state`                            |
 | Retrieve a state file                                                                                                                                             | `:read_terraform_state` OR `:admin_terraform_state` |
 | Create a state file                                                                                                                                               | `:admin_terraform_state`                            |
 | Create a lock file                                                                                                                                                | `:admin_terraform_state`                            |
@@ -417,7 +417,7 @@ change in one of the subsequent ADRs.
   - Pros: Standards compliant solution
   - Cons: Additional up front effort and maintenance is required before we can
     realize any value.
-- Migrating to the [GitLab OAuth2 provider](https://docs.gitlab.com/ee/api/oauth2.html)
+- Migrating to the [GitLab OAuth2 provider](https://docs.gitlab.com/api/oauth2/)
   - Pros: Standards compliant solution
   - Cons: More effort is required up front before any value can be realized
 - Do nothing

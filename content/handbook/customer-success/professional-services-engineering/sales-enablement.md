@@ -38,7 +38,7 @@ Migration services are always custom-scoped because of the variability of level 
 
 #### Implementation Services
 
-When customers choose GitLab self-managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Disaster Recovery, etc.). Our team of experts maintains a repository Infrastructure-as-Code and automation scripting to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) best practices.
+When customers choose GitLab self-managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Disaster Recovery, etc.). Our team of experts maintains a repository Infrastructure-as-Code and automation scripting to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/administration/reference_architectures/) best practices.
 
 For gitlab.com users, [implementation services](/services/implementation/) focus mostly on how to organize GitLab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
 

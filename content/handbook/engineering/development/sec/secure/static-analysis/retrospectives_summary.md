@@ -10,7 +10,7 @@ Access to internal retrospective documentation is available to the team and thei
 
 ### 17.0
 
-This milestone focused on the [deprecation](https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-coverage-changing-in-gitlab-170) and migration of functionality from various SAST analyzers to the semgrep based analyzer.
+This milestone focused on the [deprecation](https://docs.gitlab.com/update/deprecations/#sast-analyzer-coverage-changing-in-gitlab-170) and migration of functionality from various SAST analyzers to the semgrep based analyzer.
 
 During this milestone the following concerns were raised in no particular order:
 

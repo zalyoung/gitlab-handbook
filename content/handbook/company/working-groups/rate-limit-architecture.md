@@ -16,7 +16,7 @@ description: "Learn more about the Rate Limit Architecture Working Group attribu
 
 The Rate Limit Architecture WG was active from April - December 2022.  In FY23-Q1 we regularly experienced site incidents related to a lack of rate limits on various features.  We initiated an Engineering Allocation for [Rate Limiting Across DevOps Platform](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/77) which performed an Rate Limiting audit for each DevOps Stage, and updated development docs and guidelines to provide clearer rate limit related guidance, and closed 70+ rate limiting issues.  This resulted in increased reliability and a major reduction in the number of rate limit related site incidents.
 
-Following the Engineering Allocation we initiated this Working Group to establish a forward looking vision for Rate Limiting.  The group developed a [Rate Limiting Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/rate_limiting/) which captures this vision.  The group also collaborated to identify which GitLab stage group would own this functionality long term.  This was documented by adding the [Rate Limiting Framework to the Application Performance group](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/114123).  The blueprint will continue to be reviewed regularly as part of the Architecture Evolution Workflow process.
+Following the Engineering Allocation we initiated this Working Group to establish a forward looking vision for Rate Limiting.  The group developed a [Rate Limiting Architecture Blueprint](https://docs.gitlab.com/architecture/blueprints/rate_limiting/) which captures this vision.  The group also collaborated to identify which GitLab stage group would own this functionality long term.  This was documented by adding the [Rate Limiting Framework to the Application Performance group](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/114123).  The blueprint will continue to be reviewed regularly as part of the Architecture Evolution Workflow process.
 
 As the Working Group has accomplished it's exit criteria we made the decision to disband the group.
 
@@ -30,7 +30,7 @@ In addition to addressing DoS vectors to ensure high availability we have goals 
 - consistent, comprehensive documentation of limits
 - synchronization of GitLab.com limit settings with GitLab default limits
 
-Currently there are multiple approaches to rate limiting documented in [GitLab application limits development documentation](https://docs.gitlab.com/ee/development/application_limits.html).
+Currently there are multiple approaches to rate limiting documented in [GitLab application limits development documentation](https://docs.gitlab.com/development/application_limits/).
 
 ### Exit Criteria
 

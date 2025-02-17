@@ -31,7 +31,7 @@ In a default configuration the [Cloud Native GitLab Helm Chart](https://gitlab.c
 
 To deploy the Cloud Native GitLab Helm Chart at a minimum spec:
 
-- Set the environment variable `NUM_NODES=1` when executing the [cluster bootstrap script](https://docs.gitlab.com/charts/installation/cloud/gke.html#scripted-cluster-creation)
+- Set the environment variable `NUM_NODES=1` when executing the [cluster bootstrap script](https://docs.gitlab.com/charts/installation/cloud/gke/#scripted-cluster-creation)
 - Configure your deployment to use [the minimum spec values](https://gitlab.com/gitlab-org/charts/gitlab/-/blob/master/examples/values-gke-minimum.yaml).  This will ensure that your deployment will fit on a single node.  Ensure that you enable the task-runner in the minimum spec values before deploying as this is often required in support.
 
 ### Minikube

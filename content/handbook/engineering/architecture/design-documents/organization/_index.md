@@ -65,7 +65,7 @@ In order to address this problem there are several possible solutions:
 1. Define a horizontal scaling strategy.
 
 GitLab.com is approaching a point where buying bigger servers is no longer easily possible.
-Hence, the shift to a [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) architecture is an investment into our horizontal scaling strategy.
+Hence, the shift to a [Cells](https://docs.gitlab.com/architecture/blueprints/cells/) architecture is an investment into our horizontal scaling strategy.
 This architecture creates many mostly isolated GitLab instances, called Cells, that include all required services (database, web, Redis, Gitaly, Runners, Sidekiq etc.).
 The number of Cells can grow alongside the growth of the business.
 
@@ -73,7 +73,7 @@ Organizations will be the vehicle to distribute customers amongst different Cell
 While customers will not be exposed to Cells via the UI and they will operate in the context of Organizations, they are likely to benefit from improved service availability as a result of this architecture change.
 Further, the increased isolation of functionality will allow us to tailor the user experience more to an organization's context.
 
-[Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) provide a solution for organizations in the small to medium business (up to 100 users) and the mid-market segment (up to 2000 users). Larger organizations may benefit substantially from [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/index.html).
+[Cells](https://docs.gitlab.com/architecture/blueprints/cells/) provide a solution for organizations in the small to medium business (up to 100 users) and the mid-market segment (up to 2000 users). Larger organizations may benefit substantially from [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/).
 
 Organizations will offer the following functionality:
 
@@ -179,7 +179,7 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
   - When a user becomes a member of a group or project they are also added as an Organization User. They receive an email informing them that they have been added to the Organization.
   - Removing a user from their last group or project should not remove them from the Organization.
   - Users can delete their own accounts. Users should not be able to delete their account when they are the last Owner of an Organization.
-  - [User Profile will be scoped to the Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). In Cells 1.0, this is a result of a user only being part of one Organization.
+  - [User Profile will be scoped to the Organization](https://docs.gitlab.com/architecture/blueprints/cells/impacted_features/user-profile/). In Cells 1.0, this is a result of a user only being part of one Organization.
 - **Groups**
   - All existing top-level Groups on GitLab.com and self-managed GitLab are part of the default Organization.
   - Groups can be created in an Organization.
@@ -231,7 +231,7 @@ A list of features not supported in Cells 1.0 is available in the [Cells 1.0 blu
 
 ##### Open Questions
 
-- To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/ee/api/api_resources.html#standalone-resources) to scope them to an Organization, Group, or Project.
+- To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/api/api_resources/#standalone-resources) to scope them to an Organization, Group, or Project.
 - Consider refactoring global endpoints (e.g. `/jwt/auth`) to be scoped to an Organization, Group, or Project, unless they are supporting cluster-wide resources.
 
 #### Organizations on Cells 1.5 (FY26Q1-FY26Q2)
@@ -245,8 +245,8 @@ Organizations in the context of Cells 1.5 will contain the following functionali
   - Users are able to navigate between their Organizations using an Organization switcher.
   - Non-Enterprise Users can be removed from or leave an Organization.
   - When users are added to Organizations they receive an email informing them that they have been added to the Organization.
-  - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces.html) they are associated with.
-  - [User Profile can be scoped to multiple Organizations](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). Changing the Organization in the switcher will change the scope of the User Profile to the selected Organization.
+  - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/architecture/blueprints/cells/impacted_features/personal-namespaces/) they are associated with.
+  - [User Profile can be scoped to multiple Organizations](https://docs.gitlab.com/architecture/blueprints/cells/impacted_features/user-profile/). Changing the Organization in the switcher will change the scope of the User Profile to the selected Organization.
 - **Groups**
   - Users can transfer existing top-level Groups into Organizations.
 - **Isolation**
@@ -282,11 +282,11 @@ Organizations will have an Owner role. Compared to Users, they can perform the f
 (1) Members can only see what they have access to.
 (2) Users can only see Users from Groups and Projects they have access to.
 
-[Roles](https://docs.gitlab.com/ee/user/permissions.html) at the Group and Project level remain as they currently are.
+[Roles](https://docs.gitlab.com/user/permissions/) at the Group and Project level remain as they currently are.
 
 #### Relationship between Organization Owner and Instance Admin
 
-Users with the (Instance) Admin role can currently [administer a self-managed GitLab instance](https://docs.gitlab.com/ee/administration/index.html).
+Users with the (Instance) Admin role can currently [administer a self-managed GitLab instance](https://docs.gitlab.com/administration/).
 As functionality is moved to the Organization level, Organization Owners will be able to access more features that are currently only accessible to Admins.
 On our SaaS platform, this helps us in empowering enterprises to manage their own Organization more efficiently without depending on the Instance Admin, which is currently a GitLab team member.
 On SaaS, we expect the Instance Admin and the Organization Owner to be different users.
@@ -302,7 +302,7 @@ See [Organization: Settings](organization-settings.md).
 ### Routing
 
 Today only Users, Projects, Namespaces and container images are considered routable entities which require global uniqueness on `https://gitlab.com/<path>/-/`.
-Initially, Organization routes will be [unscoped](https://docs.gitlab.com/ee/development/routing.html).
+Initially, Organization routes will be [unscoped](https://docs.gitlab.com/development/routing/).
 Organizations will follow the path `https://gitlab.com/-/organizations/org-name/` as one of the design goals is that the addition of Organizations should not change existing Group and Project paths.
 
 ## Impact of the Organization on Other Domains
@@ -311,11 +311,11 @@ We want a minimal amount of infrequently written tables in the shared database.
 If we have high write volume or large amounts of data in the shared database then this can become a single bottleneck for scaling and we lose the horizontal scalability objective of Cells.
 With isolation being one of the main requirements to make Cells work, this means that existing features will mostly be scoped to an Organization rather than work across Organizations.
 One exception to this are Users, which are stored in the cluster-wide shared database.
-For a deeper exploration of the impact on select features, see the [list of features impacted by Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html).
+For a deeper exploration of the impact on select features, see the [list of features impacted by Cells](https://docs.gitlab.com/architecture/blueprints/cells/).
 
 ### Alignment between Organization and Fulfillment
 
-Fulfillment enhancements for Organizations will happen in a different timeline to the [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) project and should not be seen as blockers to any Cells timelines.
+Fulfillment enhancements for Organizations will happen in a different timeline to the [Cells](https://docs.gitlab.com/architecture/blueprints/cells/) project and should not be seen as blockers to any Cells timelines.
 
 For Cells 1.0, Billing remains at the top-level Group. Said otherwise, Billing will not occur at the Organization level. The guidance for Cells 1.0 is for GitLab.com SaaS customers to use a single top-level Group to keep Billing consolidated.
 
@@ -460,9 +460,9 @@ An alternative approach to building Organizations is to convert top-level Groups
 
 - [Organization epic](https://gitlab.com/groups/gitlab-org/-/epics/9265)
 - [Organization MVC design](https://gitlab.com/groups/gitlab-org/-/epics/10068)
-- [Enterprise Users](https://docs.gitlab.com/ee/user/enterprise_user/index.html)
-- [Cells blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html)
+- [Enterprise Users](https://docs.gitlab.com/user/enterprise_user/)
+- [Cells blueprint](https://docs.gitlab.com/architecture/blueprints/cells/)
 - [Cells epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
-- [Namespaces](https://docs.gitlab.com/ee/user/namespace/index.html)
+- [Namespaces](https://docs.gitlab.com/user/namespace/)
 - [Organization Isolation](isolation.md)
 - [Organization: Frequently Asked Questions](organization-faq.md)

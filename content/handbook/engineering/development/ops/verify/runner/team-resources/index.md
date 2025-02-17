@@ -27,7 +27,7 @@ The goal of this page is to document resources needed for day-to-day work within
 ![runner-dashboards](/images/engineering/development/ops/verify/runner/team-resources/runner-dashboards.png)
 
 - Metrics
-  - [Runner Metrics](https://docs.gitlab.com/runner/monitoring/index.html)
+  - [Runner Metrics](https://docs.gitlab.com/runner/monitoring/)
 - Logs
   - [Runner Logs](https://log.gprd.gitlab.net/goto/3d8891e0-2035-11ee-8afc-c9851e4645c0) (filter by shard)
   - You can find a list of shards in the dropdown along the top baf of any service dashboard:

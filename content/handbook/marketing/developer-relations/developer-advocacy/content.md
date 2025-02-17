@@ -146,10 +146,10 @@ Developer advocates authored and maintain the following documentation pages, wit
 
 | Title | Area | Created | DRI |
 |-------|------|--------------|-----|
-| [GitLab Duo use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) | Duo/AI | 2024-03 | @dnsmichi |
-| [CI/CD component examples](https://docs.gitlab.com/ee/ci/components/examples.html) | CI/CD | 2024-02 | @dnsmichi |
-| [Automate storage management](https://docs.gitlab.com/ee/user/storage_management_automation.html) | Utilization, API | 2023-08 | @dnsmichi |
-| [Pipeline efficiency](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) | CI/CD | 2020-09 | @dnsmichi |
+| [GitLab Duo use cases](https://docs.gitlab.com/user/gitlab_duo/use_cases/) | Duo/AI | 2024-03 | @dnsmichi |
+| [CI/CD component examples](https://docs.gitlab.com/ci/components/examples/) | CI/CD | 2024-02 | @dnsmichi |
+| [Automate storage management](https://docs.gitlab.com/user/storage_management_automation/) | Utilization, API | 2023-08 | @dnsmichi |
+| [Pipeline efficiency](https://docs.gitlab.com/ci/pipelines/pipeline_efficiency/) | CI/CD | 2020-09 | @dnsmichi |
 
 ### Maintained talks
 
@@ -183,7 +183,7 @@ Product tours are published in the following locations:
 
 - [DA Handbook](#product-tours)
 - Highspot
-- Docs (follow the GitLab documentation style guide for demo [links](https://docs.gitlab.com/ee/development/documentation/styleguide/#link-to-click-through-demos))
+- Docs (follow the GitLab documentation style guide for demo [links](https://docs.gitlab.com/development/documentation/styleguide/#link-to-click-through-demos))
 
 Additionally, select tours may be featured on the website.
 
@@ -227,7 +227,7 @@ After content has been crafted and published, the next step is distribution. Her
 
 For documentation and community:
 
-1. Tutorial blog posts, demos, etc. that are helpful to everyone should be added to the [GitLab documentation](https://docs.gitlab.com/). Follow the contribution docs and create [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics) headings if not existing. Raise an MR, use content short URLs, and ask the [assigned technical writer](/handbook/product/ux/technical-writing/#assignments) to review. Example MR: [Add tutorial blog posts to workspaces docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/127500)
+1. Tutorial blog posts, demos, etc. that are helpful to everyone should be added to the [GitLab documentation](https://docs.gitlab.com/). Follow the contribution docs and create [related topics](https://docs.gitlab.com/development/documentation/topic_types/#related-topics) headings if not existing. Raise an MR, use content short URLs, and ask the [assigned technical writer](/handbook/product/ux/technical-writing/#assignments) to review. Example MR: [Add tutorial blog posts to workspaces docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/127500)
 1. Consider sharing your content on one of our community platforms like the [GitLab Forum](https://forum.gitlab.com/) or the [r/gitlab](https://www.reddit.com/r/gitlab) subreddit. If you're covering a topic that's broader than GitLab, you can also consider other subreddits or cross-posting your content on blogging sites like dev.to.
 
 For social media:

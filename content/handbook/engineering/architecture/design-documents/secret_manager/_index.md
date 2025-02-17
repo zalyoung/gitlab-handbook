@@ -22,8 +22,8 @@ to meet that need without having to access third party tools.
 ## Motivation
 
 The current de-facto approach used by many to store a sensitive credential in GitLab is
-using a [Masked Variable](https://docs.gitlab.com/ee/ci/variables/index.html#mask-a-cicd-variable) or a
-[File Variable](https://docs.gitlab.com/ee/ci/variables/index.html#use-file-type-cicd-variables).
+using a [Masked Variable](https://docs.gitlab.com/ci/variables/#mask-a-cicd-variable) or a
+[File Variable](https://docs.gitlab.com/ci/variables/#use-file-type-cicd-variables).
 However, data stored in variables (masked or file variables) can be inadvertently exposed even with masking.
 A more secure solution would be to use native integration
 with external secret managers such as HashiCorp Vault or Azure Key Vault.
@@ -153,8 +153,8 @@ Within OpenBao, we'll use two authentication engines:
 
  1. [JWT](https://openbao.org/docs/auth/jwt/), to authenticate Rails to OpenBao
     and created pipeline jobs to OpenBao. All of these JWTs will will be issued
-    by GitLab Rails, using GitLab [OIDC ID Tokens](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
-    supported by the existing [HashiCorp Vault Runner integration](https://docs.gitlab.com/ee/ci/secrets/hashicorp_vault.html).
+    by GitLab Rails, using GitLab [OIDC ID Tokens](https://docs.gitlab.com/ci/secrets/id_token_authentication/)
+    supported by the existing [HashiCorp Vault Runner integration](https://docs.gitlab.com/ci/secrets/hashicorp_vault/).
     Claims on tokens for administrative use by Rails will have different
     values than those issued for GitLab's OIDC ID tokens.
 
@@ -450,7 +450,7 @@ secrets management section of the UI: `project_{id}/`, `group_{id}/` &c.
 
 To restrict a pipeline's JWT token to only allowed paths, we'll use GitLab
 Rail to provision a just-in-time ACL policy for the pipeline and a JWT
-role tightly scoping to the [expected claims](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html#token-payload)
+role tightly scoping to the [expected claims](https://docs.gitlab.com/ci/secrets/id_token_authentication/#token-payload)
 from the existing CI/CD OIDC ID token integration.
 
 OpenBao's ACLs are directly [stored on disk](https://github.com/openbao/openbao/blob/7fca5c0baebd3f55254da06d26bc160f465a7e1a/vault/policy_store.go#L287-L345),
@@ -505,7 +505,7 @@ ACLs within a path and issue [a `groups_claim` field](https://openbao.org/api-do
 with all the relevant glob values from the ACL list. However, with the
 mentioned glob enhancements, GitLab Rails should be able to directly compute
 these without requiring a lookup from OpenBao as this information already
-appears [on the `id_token`](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html).
+appears [on the `id_token`](https://docs.gitlab.com/ci/secrets/id_token_authentication/).
 
 The one exception is that the future enhancement for direct explicit grant
 (by stage/job name) does not yet exist on the id token and thus cannot
@@ -742,10 +742,10 @@ privileged token for CUD operation will be replaced with a user JWT and
 subsequently directly by the user (through a JavaScript OpenBao client running
 in the context of the GitLab UI).
 
-Within the [GitLab Rails monolith](https://docs.gitlab.com/ee/development/architecture.html#component-diagram),
-two components will need access to the secrets manager: [Puma](https://docs.gitlab.com/ee/development/architecture.html#puma),
+Within the [GitLab Rails monolith](https://docs.gitlab.com/development/architecture/#component-diagram),
+two components will need access to the secrets manager: [Puma](https://docs.gitlab.com/development/architecture/#puma),
 where the majority of the GitLab backend code executes; and
-[Sidekiq](https://docs.gitlab.com/ee/development/architecture.html#sidekiq),
+[Sidekiq](https://docs.gitlab.com/development/architecture/#sidekiq),
 a background job processor to allow long-lived background operations (such
 as initial provisioning of OpenBao and secret engine mounts).
 
@@ -784,8 +784,8 @@ GitLab Rails needs to issue two types of JWTs:
 1. JWTs for user authentication.
 
 GitLab already supports issuance of both JWT types through its OIDC
-for [CI/CD](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
-and as an [Identity Provider (IDP)](https://docs.gitlab.com/ee/integration/openid_connect_provider.html).
+for [CI/CD](https://docs.gitlab.com/ci/secrets/id_token_authentication/)
+and as an [Identity Provider (IDP)](https://docs.gitlab.com/integration/openid_connect_provider/).
 Within each [auth method](#authentication), we'll need to ensure that we
 create the necessary roles to ensure OIDC tokens get exchanged for OpenBao
 tokens with appropriate JWT-specific policies attached. As discussed in
@@ -836,7 +836,7 @@ For GitLab.Com deployments, OpenBao will use the GCP KMS auto-unseal
 mechanism. For self-hosted environments, if an existing supported KMS
 mechanism is not provided, we can use the Shamir seal for MVC. Later
 improvements might include tying into the existing
-[secrets file](https://docs.gitlab.com/ee/administration/backup_restore/troubleshooting_backup_gitlab.html#when-the-secrets-file-is-lost)
+[secrets file](https://docs.gitlab.com/administration/backup_restore/troubleshooting_backup_gitlab/#when-the-secrets-file-is-lost)
 as an auto-unseal mechanism for OpenBao, supporting PKCS#11 seals,
 and multi-unseal capabilities (discussed below).
 
@@ -852,15 +852,15 @@ handle any requests until this is fixed.
 
 #### High availability
 
-GitLab Rails includes [Geo support](https://docs.gitlab.com/ee/administration/geo/)
+GitLab Rails includes [Geo support](https://docs.gitlab.com/administration/geo/)
 for self-hosted clustering, allowing multiple sites to exist, each with its
-own set of nodes. Each site has its own [PostgreSQL replica](https://docs.gitlab.com/ee/administration/geo/#architecture).
+own set of nodes. Each site has its own [PostgreSQL replica](https://docs.gitlab.com/administration/geo/#architecture).
 One site is designated primary and nodes in the site are allowed to perform
 write operations to the Postgres database. All PostgreSQL data is available
 on all sites. While Gitaly has selective syncing of repository data, projects
 are globally accessible from all sites and nodes. While currently only
 secondary nodes talk to the primary site,
-[this should be a bidirectional channel](https://docs.gitlab.com/ee/administration/geo/replication/multiple_servers.html#architecture-overview).
+[this should be a bidirectional channel](https://docs.gitlab.com/administration/geo/replication/multiple_servers/#architecture-overview).
 
 OpenBao natively includes [High Availability](https://openbao.org/docs/internals/high-availability/)
 support; this is either provided by [Raft](https://openbao.org/docs/internals/integrated-storage/)
@@ -1011,7 +1011,7 @@ For self-hosted, OpenBao server will also be executed by GitLab Rails.
 1. Infrastructure setup, including how OpenBao will be installed for self-managed instances.
 1. How to best implement sharing of secrets between multiple groups in GitLab.
 1. Establish our protocol and processes for incidents that may require sealing the secrets vault.
-1. How to support protected and environment specific rules for secrets.
+1.[Secure Files](https://docs.gitlab.com/ci/secure_files/.
 1. How to audit secret changes. Do we want to use [audit socket](https://openbao.org/docs/audit/socket/)?
 1. Should the secrets be revoked if a project or subgroup is moved under a different top-level group/organization?
 
@@ -1020,7 +1020,7 @@ For self-hosted, OpenBao server will also be executed by GitLab Rails.
 Other solutions we have explored:
 
 - Separating secrets from CI/CD variables as a separate model with limited access, to avoid unintended exposure of the secret.
-- [Secure Files](https://docs.gitlab.com/ee/ci/secure_files/index.html)
+- [Secure Files](https://docs.gitlab.com/ci/secure_files/)
 - Implementing secrets management from scratch (see [Superseded](#superseded)).
 
 ## References

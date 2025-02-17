@@ -15,7 +15,7 @@ If you know something we don't or just want to share your solution to abuse prev
 
 ## Self-managed customers: preventing, detecting and mitigating spam
 
-GitLab uses [Spamcheck](https://docs.gitlab.com/ee/administration/reporting/spamcheck.html) to check for spam when users create issues and reCaptcha as an added level of spam and abuse prevention.
+GitLab uses [Spamcheck](https://docs.gitlab.com/administration/reporting/spamcheck/) to check for spam when users create issues and reCaptcha as an added level of spam and abuse prevention.
 
 This tooling helps respond to the symptoms of abuse, but the root of the problem remains: malicious actors register new accounts, or take over existing accounts and then use the accounts to spam and abuse instances and projects.
 
@@ -23,11 +23,11 @@ This tooling helps respond to the symptoms of abuse, but the root of the problem
 
 ### 2FA
 
-Hosted instances of GitLab can reduce spam by making it more difficult for bots to automate account creation or takeover. Requiring [2FA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) for all users is one way to prevent legitimate users from having their accounts taken over and used to create spam.
+Hosted instances of GitLab can reduce spam by making it more difficult for bots to automate account creation or takeover. Requiring [2FA](https://docs.gitlab.com/user/profile/account/two_factor_authentication/) for all users is one way to prevent legitimate users from having their accounts taken over and used to create spam.
 
 ### Authentication restrictions
 
-[Sign-up restrictions](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions.html) will allow self-managed Admins to:
+[Sign-up restrictions](https://docs.gitlab.com/administration/settings/sign_up_restrictions/) will allow self-managed Admins to:
 
 - Disable new sign-ups.
 - Require Admin approval for new sign-ups.
@@ -35,7 +35,7 @@ Hosted instances of GitLab can reduce spam by making it more difficult for bots 
 - Denylist or allowlist email addresses belonging to specific domains.
 
 In fact, for customers running public-facing GitLab instances, we highly recommend that you consider disabling new sign-ups if you do not expect public users to sign up for an account.
-[Sign in restrictions](https://docs.gitlab.com/ee/administration/settings/sign_in_restrictions.html) allow self-managed Admins to customize authentication restrictions for web interfaces as well as Git over HTTP(S). These settings will allow you to enforce:
+[Sign in restrictions](https://docs.gitlab.com/administration/settings/sign_in_restrictions/) allow self-managed Admins to customize authentication restrictions for web interfaces as well as Git over HTTP(S). These settings will allow you to enforce:
 Mandatory 2FA for new users; this makes it more difficult for bots to surpass and prevents legitimate users from getting pwned via single factor auth + weak password combinations.
 Email confirmation on sign-up; making it more difficult for bots to register new spam accounts.
 
@@ -45,11 +45,11 @@ Customizing your instance configuration can go a long way to discouraging and re
 
 ### Understand how abuse is reported and managed by self-managed Admins
 
-It's also key to understand how users can [report abuse from other GitLab users to GitLab self-managed Administrators](https://docs.gitlab.com/ee/user/report_abuse.html), the [actions that self-managed Admins can take against abusers](https://docs.gitlab.com/ee/administration/moderate_users.html) and how [abuse reports are managed and resolved by Admins](https://docs.gitlab.com/ee/administration/review_abuse_reports.html#resolving-abuse-reports).
+It's also key to understand how users can [report abuse from other GitLab users to GitLab self-managed Administrators](https://docs.gitlab.com/user/report_abuse/), the [actions that self-managed Admins can take against abusers](https://docs.gitlab.com/administration/moderate_users/) and how [abuse reports are managed and resolved by Admins](https://docs.gitlab.com/administration/review_abuse_reports/#resolving-abuse-reports).
 
 ### Rate limits
 
-Finally, if you're in the midst of spam abuse you can impose [rate limits](https://docs.gitlab.com/ee/security/rate_limits.html) to help respond to the increased loads. You can also [limit rates on issue creation](https://docs.gitlab.com/ee/administration/settings/rate_limit_on_issues_creation.html) and impose [rate limits on User and IPs](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html).
+Finally, if you're in the midst of spam abuse you can impose [rate limits](https://docs.gitlab.com/security/rate_limits/) to help respond to the increased loads. You can also [limit rates on issue creation](https://docs.gitlab.com/administration/settings/rate_limit_on_issues_creation/) and impose [rate limits on User and IPs](https://docs.gitlab.com/administration/settings/user_and_ip_rate_limits/).
 
 ### Suggest an Abuse Prevention Feature
 

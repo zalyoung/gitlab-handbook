@@ -32,7 +32,7 @@ Use cases overview:
 |--------------|-----|--------------|
 | [use-cases/ai](https://gitlab.com/gitlab-da/use-cases/ai) | all | [GitLab Duo workflows, coffee chats, learning AI, use cases](https://about.gitlab.com/gitlab-duo/) |
 | [use-cases/ai/ai-applications](https://gitlab.com/gitlab-da/use-cases/ai/ai-applications) | @sugaroverflow | Example applications using GitLab Duo |
-| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) [prompts](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts) and [challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges) with exercise source code and self-learning modules, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) |
+| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) [prompts](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts) and [challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges) with exercise source code and self-learning modules, linked from the [documentation](https://docs.gitlab.com/user/gitlab_duo/use_cases/) |
 | [use-cases/ai/ai-research](https://gitlab.com/gitlab-da/use-cases/ai/ai-research) | @dnsmichi | AI research with local LLMs (`Ollama`), RAG, AI agents, etc. |
 | [use-cases/ai/ai-workshops](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops) | @dnsmichi | GitLab Duo and AI workshops and live-programming sessions with customers |
 | [use-cases/ai/gitlab-duo-coffee-chat](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat) | @dnsmichi | [GitLab Duo coffee chats](#gitlab-duo-coffee-chat) |
@@ -52,7 +52,7 @@ Use cases overview:
 
 Access is limited to [team members in the `gitlab-da` group](https://gitlab.com/groups/gitlab-da/-/group_members). Adding/removing members [requires an issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to document the change.
 
-Allowed exceptions are workshop sub-groups that invite external users into their workshop projects temporarily. All temporarily added users [**must** use a membership expiration date of 7 days](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project).
+Allowed exceptions are workshop sub-groups that invite external users into their workshop projects temporarily. All temporarily added users [**must** use a membership expiration date of 7 days](https://docs.gitlab.com/user/project/members/#add-users-to-a-project).
 
 ### Add a new project or group
 
@@ -63,7 +63,7 @@ Allowed exceptions are workshop sub-groups that invite external users into their
 
 #### README
 
-Always add a `README.md` file that explains the purpose of the project/group (copy the text into `Settings > General > Description`), and links all resources (issues, direction pages, blog posts, etc.). GitLab supports [Group READMEs](https://docs.gitlab.com/ee/user/group/manage#add-group-readme) next to project READMEs.
+Always add a `README.md` file that explains the purpose of the project/group (copy the text into `Settings > General > Description`), and links all resources (issues, direction pages, blog posts, etc.). GitLab supports [Group READMEs](https://docs.gitlab.com/user/group/manage#add-group-readme) next to project READMEs.
 
 Optional but recommended: Add a project/group avatar image that illustrates the topic. Use an official GitLab brand image, or download [a free asset from Unsplash](/handbook/legal/ip-public-materials-guidelines/#visual-content-including-videos-gifs-photographs-illustrations-graphics-and-artwork). Add the credits to the `README.md` file.
 
@@ -102,7 +102,7 @@ Learn more in the [Cloud Resources for Developer Relations handbook](/handbook/m
 ### Best Practices
 
 1. Document the project setup in its README file (or a in a docs/ structure in the Git repository).
-1. Always add [security scanning](https://docs.gitlab.com/ee/user/application_security/) as default, unless it competes with the demo cases.
+1. Always add [security scanning](https://docs.gitlab.com/user/application_security/) as default, unless it competes with the demo cases.
 1. A GitLab app requires OAuth setup from an account. Use a group shared account (for example, [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot)) for production apps (Code challenge, etc.)
 
 ### Workspaces
@@ -138,7 +138,7 @@ Maintainer: [Michael Friedrich, @dnsmichi](/handbook/company/team/#dnsmichi)
 - [Organization issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/375)
 - [Slide templates and resources](https://docs.google.com/presentation/d/1FBOxe43l4qY8KastAWjblphOLiktNtPjHgFNmNYf0Uw/edit#slide=id.g2a6734f20af_0_0) for recording video editing.
 
-The recordings are also linked from the [GitLab Duo Use Cases documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html).
+The recordings are also linked from the [GitLab Duo Use Cases documentation](https://docs.gitlab.com/user/gitlab_duo/use_cases/).
 
 ##### Process
 
@@ -173,7 +173,7 @@ Video upload:
 
 Distribution
 
-1. Add the video to the [GitLab Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html), Highspot, blog posts, social posts, etc.
+1. Add the video to the [GitLab Use Case documentation](https://docs.gitlab.com/user/gitlab_duo/use_cases/), Highspot, blog posts, social posts, etc.
 
 ### CI/CD Adoption
 

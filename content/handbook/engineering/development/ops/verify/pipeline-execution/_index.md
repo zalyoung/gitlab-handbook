@@ -267,7 +267,7 @@ is written in. Familiarity with Docker and Kubernetes is also useful on our team
 
 For those new to the team, these links may be helpful in learning more about the product and technology.
 
-- [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/index.html)
+- [CI/CD Development Documentation](https://docs.gitlab.com/development/cicd/)
 
 ### Engineering Overview
 
@@ -546,7 +546,7 @@ In order to keep our stakeholders informed of work in progress, we provide updat
 
 ##### Issue Health Status
 
-For issues in the current milestone, we use the [Issue Health Status feature](https://docs.gitlab.com/ee/user/project/issues/#health-status) to indicate probability that an issue will ship in the current milestone. This status is updated by the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) as soon as they recognize the probability has changed. If there is no change to the status, a comment to indicate that it has been the status of the issue has been *assessed* would be helpful.
+For issues in the current milestone, we use the [Issue Health Status feature](https://docs.gitlab.com/user/project/issues/#health-status) to indicate probability that an issue will ship in the current milestone. This status is updated by the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) as soon as they recognize the probability has changed. If there is no change to the status, a comment to indicate that it has been the status of the issue has been *assessed* would be helpful.
 
 The following are definitions of the health status options:
 
@@ -618,8 +618,8 @@ The Pipeline Execution group supports the product marketing categories described
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Continuous Integration` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AContinuous%20Integration) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3AContinuous%20Integration) | [Direction](https://about.gitlab.com/direction/verify/continuous_integration/) | [Documentation](https://docs.gitlab.com/ee/ci/) |
-| `Category:Merge Trains` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AMerge%20Trains) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3AMerge%20Trains) | [Direction](https://about.gitlab.com/direction/verify/merge_trains/) | [Documentation](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html) |
+| `Category:Continuous Integration` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AContinuous%20Integration) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3AContinuous%20Integration) | [Direction](https://about.gitlab.com/direction/verify/continuous_integration/) | [Documentation](https://docs.gitlab.com/ci/) |
+| `Category:Merge Trains` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AMerge%20Trains) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3AMerge%20Trains) | [Direction](https://about.gitlab.com/direction/verify/merge_trains/) | [Documentation](https://docs.gitlab.com/ci/pipelines/merge_trains/) |
 
 #### Feature Labels
 
@@ -646,7 +646,7 @@ The Pipeline Execution group supports the product marketing categories described
 
 When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development-flow/feature-flag-lifecycle/) for feature flags.
 
-We also ensure we are collaborating with our teammates in customer support and customer success by [alerting them](https://docs.gitlab.com/ee/development/feature_flags/controls.html#communicate-the-change) to the rollout issue before a feature is enabled.
+We also ensure we are collaborating with our teammates in customer support and customer success by [alerting them](https://docs.gitlab.com/development/feature_flags/controls/#communicate-the-change) to the rollout issue before a feature is enabled.
 
 The feature flags introduced by the team still in the code can be found in [this table](https://10az.online.tableau.com/t/gitlab/views/Engineering-Featureflags/Engineering-FeatureFlags/6ecdfc19-ff4b-4a81-b7b6-25948fe8816f/c486cf97-81c5-4d83-9533-bf259ead2885).
 
@@ -658,7 +658,7 @@ To create a high-quality product that is functional and useful – Engineering, 
 
 Product Designers play a critical role in the product development of user-facing issues. They collaborate with the Engineering and the Product Manager to design the user experience for the features. Once the design solution is proposed, agreed and validated, the Engineering [DRI](/handbook/people-group/directly-responsible-individuals/) is assigned to implement that design and functionality during the milestone for which the issue is planned.
 
-Following the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines) means that we should ensure all MRs with user facing changes are reviewed by a product designer. UX reviews should follow [the designer review guidelines](/handbook/product/ux/product-designer/mr-reviews/) as closely as possible to reduce the impact on velocity while maintaining quality.
+Following the [code review guidelines](https://docs.gitlab.com/development/code_review/#approval-guidelines) means that we should ensure all MRs with user facing changes are reviewed by a product designer. UX reviews should follow [the designer review guidelines](/handbook/product/ux/product-designer/mr-reviews/) as closely as possible to reduce the impact on velocity while maintaining quality.
 
 #### Inclusive Development
 
@@ -704,7 +704,7 @@ Suppose working one milestone ahead to design the big solution is not possible. 
 
 ### Collaborating with the Wider Community on Community Merge Requests
 
-For more details on how to contribute to GitLab generally, please see our [documentation](https://docs.gitlab.com/ee/development/contributing/).
+For more details on how to contribute to GitLab generally, please see our [documentation](https://docs.gitlab.com/development/contributing/).
 
 #### Aligning on feature development
 

@@ -83,7 +83,7 @@ cross-functional initiative that is led by the [Contributor Success team](/handb
 - Participate in GitLab's overall open source outreach events and processes.
 - [Triage community issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to be picked up by the community or GitLab team members
 - [Triage community merge requests](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/#partial-triage-gitlab-org) from the daily merge request coach report
-- [Review merge requests](https://docs.gitlab.com/ee/development/code_review.html) assigned as a merge request coach or from the reviewer roulette
+- [Review merge requests](https://docs.gitlab.com/development/code_review/) assigned as a merge request coach or from the reviewer roulette
 
 ## Team Members
 

@@ -10,7 +10,7 @@ This page describes the processes used to release packages to self-managed users
 
 GitLab version (XX.YY.0) [is published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [planned](/handbook/engineering/releases/patch-releases/#planned-patch-release-process), and [unplanned critical](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process) patch releases are created as needed.
 
-Our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) describes in detail the cadence of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
+Our [maintenance policy](https://docs.gitlab.com/policy/maintenance/) describes in detail the cadence of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
 
 ## Self-managed overview
 
@@ -95,10 +95,10 @@ The metrics used to display this information are updated automatically throughou
 
 ## Patch releases overview
 
-The [patch release policy](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases) allows bug fixes to be backported to the current stable released version of GitLab, and security fixes to be backported to the current and previous two GitLab Versions.
+The [patch release policy](https://docs.gitlab.com/policy/maintenance/#patch-releases) allows bug fixes to be backported to the current stable released version of GitLab, and security fixes to be backported to the current and previous two GitLab Versions.
 
-Patches that are outside of our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) for bug fixes must be requested and agreed upon by the release managers and the requester (see
-[backporting to versions outside the maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for details).
+Patches that are outside of our [maintenance policy](https://docs.gitlab.com/policy/maintenance/) for bug fixes must be requested and agreed upon by the release managers and the requester (see
+[backporting to versions outside the maintenance policy](https://docs.gitlab.com/policy/maintenance/#backporting-to-older-releases) for details).
 
 ### Patch release cadence
 
@@ -263,7 +263,7 @@ Depending on the bug details, follow one of the following processes:
 | Issue Tracker | [`gitlab-org/release/tasks`](https://gitlab.com/gitlab-org/release/tasks/-/issues) |
 | Slack Channels | [#f_upcoming_release](https://gitlab.slack.com/archives/f_upcoming_release) / `@release-managers` |
 | Release Manager schedule | [Link](https://about.gitlab.com/community/release-managers/) |
-| Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
+| Maintenance Policy | [Link](https://docs.gitlab.com/policy/maintenance/) |
 | Reaching us | [How to find us](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team) |
 
 ---

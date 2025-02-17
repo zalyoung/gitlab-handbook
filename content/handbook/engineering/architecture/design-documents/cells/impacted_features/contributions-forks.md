@@ -14,11 +14,11 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-The [forking workflow](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) allows users to copy existing Project sources into their own namespace of choice (personal or Group).
+The [forking workflow](https://docs.gitlab.com/user/project/repository/forking_workflow/) allows users to copy existing Project sources into their own namespace of choice (personal or Group).
 
 ## 1. Definition
 
-The [forking workflow](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) is a common workflow with various usage patterns:
+The [forking workflow](https://docs.gitlab.com/user/project/repository/forking_workflow/) is a common workflow with various usage patterns:
 
 - It allows users to contribute back to an upstream Project.
 - It persists repositories into their personal namespace.
@@ -65,7 +65,7 @@ Example:
 - Any User that can view an Organization (all Users for public Organizations) can create a contribution space in the Organization. This is a dedicated namespace where they can create forks of Projects in that Organization. For example for `Produce Inc.` it could be `gitlab.com/organization/produce-inc/@ayufan`.
 - To create a contribution space we do not require membership of an Organization as this would prevent open source workflows where contributors are able to fork and create a merge request without ever being invited to a Group or Project. We strictly respect visibility, so Users would not be able to create a fork in a private Organization without first being invited.
 - When creating a fork for a Project Users will only be presented with the option to create forks in Groups that are part of the Organization. We will also give Users the option to create a contribution space and put the fork there. Today there is also a "Create a group" option when creating a fork. This functionality would also be limited to creating a new group in the organization to store the new fork.
-- In order to support Users that want to fork without contributing back we might consider an option to create [an unlinked fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#unlink-a-fork) in any namespace they have permission to write to.
+- In order to support Users that want to fork without contributing back we might consider an option to create [an unlinked fork](https://docs.gitlab.com/user/project/repository/forking_workflow/#unlink-a-fork) in any namespace they have permission to write to.
 - The User has as many contribution spaces as Organizations they contribute to.
 - The User cannot create additional personal Projects within contribution spaces. Personal Projects can continue to be created in their personal namespace.
 - The Organization can prevent or disable usage of contribution spaces. This would disable forking by anyone that does not belong to a Group within the Organization.

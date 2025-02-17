@@ -31,7 +31,7 @@ Account Manager, [Expand AE] (in copy).
 
 *ACTION NEEDED*
 → Once you receive your 'Thanks for Purchasing' email from GitLab, please link the
-subscription to the namespace using the steps listed [*here*](https://docs.google.com/document/d/e/2PACX-1vRJ7bvONCdfuvfl26ZFDleiDTZv5LwSzB4sloOu9wCEM3lVK-zSZiCqQJPX3IPI4i_KHJ7E4JbZacfF/pub). A video tutorial can also be found [*here*](https://www.youtube.com/watch?v=qAq8pyFP-a0).  You can also add your payment info to your account [*here*](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-your-payment-method).
+subscription to the namespace using the steps listed [*here*](https://docs.google.com/document/d/e/2PACX-1vRJ7bvONCdfuvfl26ZFDleiDTZv5LwSzB4sloOu9wCEM3lVK-zSZiCqQJPX3IPI4i_KHJ7E4JbZacfF/pub). A video tutorial can also be found [*here*](https://www.youtube.com/watch?v=qAq8pyFP-a0).  You can also add your payment info to your account [*here*](https://docs.gitlab.com/subscriptions/customers_portal/#change-your-payment-method).
 
 → As a part of your purchase a named set of contacts have access to Priority Support. To get your support contacts set up, please submit a ticket using the instructions in the [Managing Support Contacts](https://about.gitlab.com/support/managing-support-contacts/) section of our Statement of Support. All team members are required to be pre-listed in order to engage with GitLab Support.
 
@@ -108,7 +108,7 @@ To get in contact with your sales team, complete the form on our [SMB Account Hu
 
 GitLab Customers Portal
 
-GitLab [Customers Portal](https://customers.gitlab.com/customers/sign_in) enables you to manage key aspects of your GitLab account self-service. Leverage this portal to [renew your subscription](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription), [add seats](https://about.gitlab.com/pricing/licensing-faq/#can-i-add-more-users-to-my-subscription), [change personal or account details](https://docs.gitlab.com/ee/subscriptions/index.html#change-your-personal-details), [update your payment method](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-your-payment-method), and accomplish other account-related tasks.
+GitLab [Customers Portal](https://customers.gitlab.com/customers/sign_in) enables you to manage key aspects of your GitLab account self-service. Leverage this portal to [renew your subscription](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription), [add seats](https://about.gitlab.com/pricing/licensing-faq/#can-i-add-more-users-to-my-subscription), [change personal or account details](https://docs.gitlab.com/subscriptions/#change-your-personal-details), [update your payment method](https://docs.gitlab.com/subscriptions/customers_portal/#change-your-payment-method), and accomplish other account-related tasks.
 GitLab Support
 Need technical assistance? Please contact customer support by submitting a case on our [GitLab Support page](https://support.gitlab.com/hc/en-us).
 Thank you for being a part of the GitLab community,

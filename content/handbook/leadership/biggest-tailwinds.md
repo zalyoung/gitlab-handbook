@@ -9,7 +9,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Digital Transformation](https://about.gitlab.com/blog/2019/03/19/reduce-cycle-time-digital-transformation/)
 
-[Customer Experience](https://docs.gitlab.com/ee/ci/review_apps/index.html#visual-reviews)
+[Customer Experience](https://docs.gitlab.com/ci/review_apps/#visual-reviews)
 
 [Software is Eating the World](https://a16z.com/why-software-is-eating-the-world/)
 

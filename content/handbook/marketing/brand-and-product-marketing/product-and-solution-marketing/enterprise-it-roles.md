@@ -84,7 +84,7 @@ Related Reading:
          - Software-defined Infrastructure
          - [Visibility and Velocity](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
          - [Geographically distributed teams](/features/gitlab-geo/)
-         - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
+         - [High availability development](https://docs.gitlab.com/administration/reference_architectures/)
          - [DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
          - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
          - [Comparison page](https://about.gitlab.com/why-gitlab/)
@@ -96,7 +96,7 @@ Related Reading:
 
    1. Value Prop
       - GitLab's single application that supports the entire DevOps lifecycle is of significant importance.  The DevOps tool chain crisis is real and there is a lot of 'bubble gum and duct tape' going on in and around integrating all these point DevOps tools in order to convey the full story of what's really happening.
-      - Finding new areas across the SDLC to automate is top of mind to this role.  GitLab's [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/) will be a competitive differentiator
+      - Finding new areas across the SDLC to automate is top of mind to this role.  GitLab's [Auto DevOps](https://docs.gitlab.com/topics/autodevops/) will be a competitive differentiator
    1. There are several critical challenges that application development leaders are facing.
       - [Cycle time - how to improve velocity](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/cycle-time/)
       - [How deliver secure Applications](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/secure-applications/)
@@ -110,8 +110,8 @@ Related Reading:
       - Software-defined Infrastructure
       - [Visibility and Velocity](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
       - [Geographically distributed teams](/features/gitlab-geo/)
-      - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
-      - [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+      - [High availability development](https://docs.gitlab.com/administration/reference_architectures/)
+      - [Auto DevOps](https://docs.gitlab.com/topics/autodevops/)
       - [CI/CD](https://about.gitlab.com/solutions/continuous-integration/)
       - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
       - [Comparison page](https://about.gitlab.com/why-gitlab/)
@@ -127,9 +127,9 @@ Related Reading:
       - [GitLab home page](https://about.gitlab.com)
       - [ROI](https://about.gitlab.com/calculator/)
       - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
-      - [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+      - [Auto DevOps](https://docs.gitlab.com/topics/autodevops/)
       - [Geographically distributed teams](/features/gitlab-geo/)
-      - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
+      - [High availability development](https://docs.gitlab.com/administration/reference_architectures/)
       - [DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
       - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
       - [Comparison page](https://about.gitlab.com/why-gitlab/)

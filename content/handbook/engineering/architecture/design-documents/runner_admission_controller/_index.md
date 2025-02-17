@@ -142,7 +142,7 @@ Each runner has a tag identifier unique to that runner, e.g. `DiscoveryOne`, `tu
 1. For jobs where the webhook times out (1 hour) their status should be set as though the admission was denied with a timeout reasoning. This should
    be rare in typical circumstances.
 1. Jobs with denied admission can be retried. Retried jobs will be resent to the admission controller without tag mutations or runner filtering reset.
-1. [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure) should be updated to support jobs that fail on denied admissions, for example:
+1. [`allow_failure`](https://docs.gitlab.com/ci/yaml/#allow_failure) should be updated to support jobs that fail on denied admissions, for example:
 
    ```yaml
    job:
@@ -159,7 +159,7 @@ Each runner has a tag identifier unique to that runner, e.g. `DiscoveryOne`, `tu
 
 1. The payload is comprised of individual job entries consisting of:
    - Job ID.
-   - [Predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)
+   - [Predefined variables](https://docs.gitlab.com/ci/variables/predefined_variables/)
    - Job tag list.
 1. The response payload is comprised of individual job entries consisting of:
    - Job ID.
@@ -282,5 +282,5 @@ Each runner has a tag identifier unique to that runner, e.g. `DiscoveryOne`, `tu
 | Issue                                                                                                                                                                                                     | Resolution |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | Rule definition for the queue web hook                                                                                                                                                                    |            |
-| What data to send to the admissions controller? Is it a subset or all of the [predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)?                                                       |            |
+| What data to send to the admissions controller? Is it a subset or all of the [predefined variables](https://docs.gitlab.com/ci/variables/predefined_variables/)?                                                       |            |
 | Is the `queueing web hook` able to run at GitLab.com scale? On GitLab.com we would trigger millions of webhooks per second and the concern is that would overload Sidekiq or be used to abuse the system. |            |

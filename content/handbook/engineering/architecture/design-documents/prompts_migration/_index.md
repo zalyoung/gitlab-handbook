@@ -36,9 +36,9 @@ Moving prompts to the AI Gateway offers the following advantages:
 
 ## Proposal
 
-Use [Agents](https://docs.gitlab.com/ee/development/ai_features/#2-create-an-agent-definition-in-the-ai-gateway) to implement the functionality that executes a model request based on the given information and agent definition. The agent definition is stored in a YAML file: prompt template, model and client information, and LLM params.
+Use [Agents](https://docs.gitlab.com/development/ai_features/#2-create-an-agent-definition-in-the-ai-gateway) to implement the functionality that executes a model request based on the given information and agent definition. The agent definition is stored in a YAML file: prompt template, model and client information, and LLM params.
 
-[Agent](https://docs.gitlab.com/ee/development/ai_features/glossary.html#duo-workflow-terminology)
+[Agent](https://docs.gitlab.com/development/ai_features/glossary/#duo-workflow-terminology)
 is an AI-driven entity that performs various tasks. In the context of this blueprint, we refer to the agents [implemented](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/ai_gateway/agents?ref_type=heads) in the AI Gateway: an entity that basically locates the defined prompt template and executes it with the passed parameters.
 
 The agents functionality can be exposed by using a generic endpoint, defining a
@@ -373,7 +373,7 @@ ANTHROPIC_LOG=debug poetry run ai_gateway
 ```
 
 For LiteLLM models, run the
-[proxy](https://docs.gitlab.com/ee/administration/self_hosted_models/litellm_proxy_setup.html#example-setup-with-litellm-and-ollama)
+[proxy](https://docs.gitlab.com/administration/self_hosted_models/litellm_proxy_setup/#example-setup-with-litellm-and-ollama)
 with [detailed debug](https://docs.litellm.ai/docs/proxy/debugging#detailed-debug) enabled and
 verify that the parameters sent to the model are the same:
 

@@ -28,11 +28,11 @@ The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/
 
 #### Featured upcoming large architectural changes
 
-- [Iterate on the design of object pools](https://docs.gitlab.com/ee/architecture/blueprints/object_pools/)
-- [Rework repository backups](https://docs.gitlab.com/ee/architecture/blueprints/repository_backups/)
-- [Gitaly Adaptive Concurrency Limit](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_adaptive_concurrency_limit/)
-- [Handle upload-pack traffic in a pure HTTP/2 server](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_handle_upload_pack_in_http2_server/)
-- [Transaction management in Gitaly](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_transaction_management/)
+- [Iterate on the design of object pools](https://docs.gitlab.com/architecture/blueprints/object_pools/)
+- [Rework repository backups](https://docs.gitlab.com/architecture/blueprints/repository_backups/)
+- [Gitaly Adaptive Concurrency Limit](https://docs.gitlab.com/architecture/blueprints/gitaly_adaptive_concurrency_limit/)
+- [Handle upload-pack traffic in a pure HTTP/2 server](https://docs.gitlab.com/architecture/blueprints/gitaly_handle_upload_pack_in_http2_server/)
+- [Transaction management in Gitaly](https://docs.gitlab.com/architecture/blueprints/gitaly_transaction_management/)
 
 ## Stable Counterparts
 
@@ -102,7 +102,7 @@ _Engineering Managers_ (`@jcaigitlab`) and _Product Managers_ (`@mjwood`) are al
 
 We are not a good fit however if you need:
 
-- advice on GitLab instance configuration or architecture in self-hosted scenarios ([Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and Professional Services can help)
+- advice on GitLab instance configuration or architecture in self-hosted scenarios ([Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/) and Professional Services can help)
 - engagements without clear exit criteria (please clarify them first, "let's jump on a call to discuss" is usually in this category)
 - long-term "advise us" scenarios (please refer to Support and the documentation, or engage Professional Services)
 
@@ -338,7 +338,7 @@ The Gitaly consumers are:
 
 ## Gitaly Deprecations
 
-Gitaly offers many customer facing features. As such, all deprecations to customer facing features will follow the standard [GitLab feature deprecations guidance](/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes) and announced within the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations.html).
+Gitaly offers many customer facing features. As such, all deprecations to customer facing features will follow the standard [GitLab feature deprecations guidance](/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes) and announced within the [deprecations documentation page](https://docs.gitlab.com/update/deprecations/).
 
 Gitaly also offers many non-customer facing features, which are used by GitLab and other customers who directly interface with Gitaly. These Gitaly level deprecations will not be announced using the above methods as they are not designed for GitLab end users to interface with directly. Some examples of these non-customer facing features are storage level APIs, which should never be called by GitLab users.
 

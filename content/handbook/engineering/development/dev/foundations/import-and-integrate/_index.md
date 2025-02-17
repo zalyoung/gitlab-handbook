@@ -253,7 +253,7 @@ Before requesting help from the Engineering team, please first review the [GitLa
 - [GitLab Log Analysis Tool](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis)
 - [Jira playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Koazgli_PmMQCER2pVH7vUT)
 
-If you cannot find the answer to your question in the resources listed above, please open a [Request for Help (RFH) issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Import-Integrate) and use the `SupportRequestTemplate-Import-Integrate` template. Please ensure that you provide all the required information before reaching out to the team; otherwise, we will be unable to proceed with your request. New issues will be prioritized according to our internal triage process. Please note that we can only support requests for issues affecting the current and the two most recent minor GitLab versions (N-2). We cannot offer a fix for older versions. This is aligned with our [maintenance policy for backports](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases).
+If you cannot find the answer to your question in the resources listed above, please open a [Request for Help (RFH) issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Import-Integrate) and use the `SupportRequestTemplate-Import-Integrate` template. Please ensure that you provide all the required information before reaching out to the team; otherwise, we will be unable to proceed with your request. New issues will be prioritized according to our internal triage process. Please note that we can only support requests for issues affecting the current and the two most recent minor GitLab versions (N-2). We cannot offer a fix for older versions. This is aligned with our [maintenance policy for backports](https://docs.gitlab.com/policy/maintenance/#patch-releases).
 
 ### Milestone Doctors
 
@@ -288,8 +288,8 @@ An [Application Security Review](/handbook/security/product-security/application
 
 ### Longer lived feature flags
 
-This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags/)
-for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/ee/development/feature_flags/#ops-type).
+This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/development/feature_flags/)
+for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/development/feature_flags/#ops-type).
 
 Changes to Import and Integrate features often happen in high-traffic code paths and have
 led to outages on GitLab.com in the past. Outages are often to do with resource contention that can
@@ -423,7 +423,7 @@ Below is an overview of topics that are overseen by a tech lead:
 
 ## Merge request roulette reviews
 
-When areas of the Import and Integrate codebase are changed, the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
+When areas of the Import and Integrate codebase are changed, the [reviewer roulette](https://docs.gitlab.com/development/code_review/#reviewer-roulette)
 will recommend that the merge request is reviewed by an Import and Integrate team member. This will only happen when the merge request is
 authored by people outside of the Import and Integrate team. See [this example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/74338#note_731247058) of how the review recommendation looks.
 
@@ -545,9 +545,9 @@ Fixing the top offenders will have the biggest impact on the budget spend.
 Learn more about error budgets with these resources:
 
 - [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
-- [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
-- [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
-- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+- [What Apdex is and how it works](https://docs.gitlab.com/development/application_slis/rails_request/)
+- [Error budget in Grafana dashboards](https://docs.gitlab.com/development/stage_group_observability/#error-budget)
+- [Error budget in Grafana dashboards](https://docs.gitlab.com/development/stage_group_observability/ to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
 
 ## Links and resources {#links}
 
@@ -560,8 +560,8 @@ Learn more about error budgets with these resources:
 - Issue boards
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
 - Contribution guides
-  - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
-  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing/)
+  - [Principles of importer design](https://docs.gitlab.com/development/import/principles_of_importer_design/)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/development/bulk_imports/contributing/)
     - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)

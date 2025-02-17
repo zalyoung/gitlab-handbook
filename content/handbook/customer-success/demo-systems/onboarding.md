@@ -28,7 +28,7 @@ You will have your two of your own groups on GitLab.com that allow you to showca
 - `https://gitlab.com/gl-demo-ultimate-{handle}`
 - `https://gitlab.com/gl-demo-premium-{handle}`
 
-This group should then be where you store all of your demo projects as it will not be constrained by the limitations of trying to just keep your demos in your personal namespace (ex. [Epics](https://docs.gitlab.com/ee/user/group/epics/#epics), [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/#gitlab-security-dashboards-and-security-center) and other [group features](https://docs.gitlab.com/ee/user/group/#groups)).
+This group should then be where you store all of your demo projects as it will not be constrained by the limitations of trying to just keep your demos in your personal namespace (ex. [Epics](https://docs.gitlab.com/user/group/epics/#epics), [Security Dashboard](https://docs.gitlab.com/user/application_security/security_dashboard/#gitlab-security-dashboards-and-security-center) and other [group features](https://docs.gitlab.com/user/group/#groups)).
 
 - [ ] **Action:** Do not try to create these groups yourself. Open an access request using the [GitlabCom_Licensed_Demo_Group_Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request) template.
 
@@ -313,7 +313,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
    - If you configured a group runner, navigate back to the **CI/CD > Runners** page in your group. You should now see your runner listed with an **Online** status.
 
-     > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) for additional details)
+     > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration/) for additional details)
 
    - If you configured a project runner, navigate back to the **Settings > CICD** page and expand the **Runners** section. You should now see your runner listed with an **Online** status.
 

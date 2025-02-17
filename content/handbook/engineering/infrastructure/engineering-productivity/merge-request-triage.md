@@ -28,10 +28,10 @@ The initial triage is automated by the [Contributor Success team](/handbook/mark
 
 A merge request is considered partially triaged when it has a:
 
-- [type label](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) applied.
-  - (For `~"type::bug"` and `~"Deferred UX"`) It has a [severity label](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) applied.
-- [stage label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) applied.
-- [group label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) applied (e.g. `~"group:editor"`). If no group label exists, the stage label is enough.
+- [type label](https://docs.gitlab.com/development/labels/#type-labels) applied.
+  - (For `~"type::bug"` and `~"Deferred UX"`) It has a [severity label](https://docs.gitlab.com/development/labels/#severity-labels) applied.
+- [stage label](https://docs.gitlab.com/development/labels/#stage-labels) applied.
+- [group label](https://docs.gitlab.com/development/labels/#group-labels) applied (e.g. `~"group:editor"`). If no group label exists, the stage label is enough.
 
 The partial triage is completed by [Merge Request Coaches](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle) via the [Newly created community merge requests](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#newly-created-community-merge-requests) triage report.
 
@@ -102,15 +102,15 @@ A merge request is considered completely triaged when it has:
 - a reviewer assigned by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community).
 - been reviewed by a reviewer.
 
-Typically, the reviewer is the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) of the page the merge request is updated. If there is no code owner assigned, the triager will reach out to the relevant team the page belongs to identify a reviewer.
+Typically, the reviewer is the [code owner](https://docs.gitlab.com/user/project/codeowners/) of the page the merge request is updated. If there is no code owner assigned, the triager will reach out to the relevant team the page belongs to identify a reviewer.
 
 ##### Complete triage for idle merge requests (`gitlab-com/www-gitlab-com`)
 
 A merge request is considered completely triaged when it:
 
-- is closed following the [closing policy for merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership).
+- is closed following the [closing policy for merge requests](https://docs.gitlab.com/development/contributing/merge_request_workflow/#merge-request-ownership).
 
-This triage process is being done manually on a case-by-case basis by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community) or the relevant [code owner](https://docs.gitlab.com/ee/user/project/codeowners/).
+This triage process is being done manually on a case-by-case basis by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community) or the relevant [code owner](https://docs.gitlab.com/user/project/codeowners/).
 
 ### Wider community merge request triage SLOs (`gitlab-com/www-gitlab-com`)
 

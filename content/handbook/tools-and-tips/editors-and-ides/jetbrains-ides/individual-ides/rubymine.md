@@ -25,7 +25,7 @@ By default, the Rails [puma configuration template which GitLab uses binds to a 
 
 [This MR](https://gitlab.com/gitlab-org/gitlab-development-kit/-/merge_requests/1693) added support for configuring the GDK to bind Rails puma to a TCP socket, and added support for Workhorse to use TCP ports instead of sockets, and [this JetBrains issue](https://youtrack.jetbrains.com/issue/RUBY-27404) added support for starting a socket-based Puma server in a Run Configuration.
 
-See the [architecture documentation around components](https://docs.gitlab.com/ee/development/architecture.html#components) for more details on how GitLab Workhorse and Puma work together.
+See the [architecture documentation around components](https://docs.gitlab.com/development/architecture/#components) for more details on how GitLab Workhorse and Puma work together.
 
 #### Setting up a RubyMine "Ruby" Run Configuration with puma using default socket binding
 
@@ -63,7 +63,7 @@ To debug services run as background jobs, you will need to set up debugging for 
 
 ## Configuring GDK database connection
 
-First, follow the ["Access the database with a GUI"](https://docs.gitlab.com/ee/development/database/database_debugging.html#access-the-database-with-a-gui)
+First, follow the ["Access the database with a GUI"](https://docs.gitlab.com/development/database/database_debugging/#access-the-database-with-a-gui)
 instructions to reconfigure postgresql under the GDK to run on localhost.
 
 Then configure the develoment database:

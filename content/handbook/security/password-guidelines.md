@@ -216,7 +216,7 @@ For a more secure approach, use 1Password's CLI utility which can help manage lo
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
 To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
 
-It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/user/profile/personal_access_tokens/)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
 on the CLI. Many shells write a command history to disk and where the secret is
 used literally on the command line this will be written to the command history
@@ -434,7 +434,7 @@ To configure Docker to use `osxkeychain` for secure credential storage, follow t
 
 **Prerequisites**
 
-1. [Create a GPG key](https://docs.gitlab.com/ee/user/project/repository/signed_commits/gpg.html#create-a-gpg-key)
+1. [Create a GPG key](https://docs.gitlab.com/user/project/repository/signed_commits/gpg/#create-a-gpg-key)
 1. [Install `pass`](https://www.passwordstore.org/#download)
 
 To configure Docker to use `pass` for secure credential storage, follow these steps:
@@ -452,5 +452,5 @@ To configure Docker to use `pass` for secure credential storage, follow these st
     }
     ```
 
-1. Log in using `docker login registry.gitlab.com`, and enter your email and password (a valid [token](https://docs.gitlab.com/ee/user/packages/container_registry/authenticate_with_container_registry.html)) when prompted.
+1. Log in using `docker login registry.gitlab.com`, and enter your email and password (a valid [token](https://docs.gitlab.com/user/packages/container_registry/authenticate_with_container_registry/)) when prompted.
 1. Validate that the credentials were not saved as base64-encoded text in `~/.docker/config.json`.

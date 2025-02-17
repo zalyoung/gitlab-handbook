@@ -316,8 +316,8 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 
 #### Management
 
-- [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/)
-- [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+- [GitLab Issues](https://docs.gitlab.com/user/project/issues/)
+- [GitLab Pages](https://docs.gitlab.com/user/project/pages/)
 - [Qatalog](https://qatalog.com/) - work hub syncing multiple tools and services
 - [Range](https://www.range.co/) - team collaboration and management
 - [There](https://there.pm/) - quick time zone reference for your global team

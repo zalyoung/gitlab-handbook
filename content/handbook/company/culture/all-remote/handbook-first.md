@@ -43,11 +43,11 @@ It's important not to let hindsight thwart progress in the here and now. While a
 
 At GitLab, only [90 days of Slack activity is retained](/handbook/communication/#slack). After that, it's gone. This is intentional, as it prevents Slack as being useful as a tool for managing projects end-to-end. Slack, Microsoft Teams, and similar tools are *instant* messaging platforms, which may work to the detriment of a truly [asynchronous culture](asynchronous/).
 
-Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#plugging-the-knowledge-leak) and further splinters communication, alignment, and understanding throughout an organization.
+Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#plugging-the-knowledge-leak) and further splinters communication, alignment, and understanding throughout an organization.
 
 A limited retention policy acts as a forcing function. It nudges team members to discuss work matters in a location that is directly tied to the ultimate single source of truth. At GitLab, all work, process, and policies are documented in the [handbook](/handbook).
 
-To get there, [discussions begin](/handbook/communication/#start-with-a-merge-request) in [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and/or [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) — not in Slack. This ensures that whatever is merged into the handbook has a proper trail, full of [context](effective-communication/#understanding-low-context-communication) and universally accessible.
+To get there, [discussions begin](/handbook/communication/#start-with-a-merge-request) in [GitLab Issues](https://docs.gitlab.com/user/project/issues/) and/or [Merge Requests](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/) — not in Slack. This ensures that whatever is merged into the handbook has a proper trail, full of [context](effective-communication/#understanding-low-context-communication) and universally accessible.
 
 Instant messaging tools are difficult to add people to a conversation, and all work history is left in that program, with no context following the work to where it eventually ends up.
 
@@ -186,8 +186,8 @@ Learn more about [using handbook screenshots instead of creating a presentation]
 Learn more about the importance of documentation in the GitLab resources below.
 
 1. [Documentation handbook section](/handbook/product/ux/technical-writing/documentation/)
-1. [Documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-1. [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/)
+1. [Documentation style guide](https://docs.gitlab.com/development/documentation/styleguide/)
+1. [Documentation guidelines](https://docs.gitlab.com/development/documentation/)
 1. [Scaling by documenting](management/#scaling-by-documenting)
 
 ## GitLab Knowledge Assessment: Handbook-First Documentation
@@ -198,6 +198,6 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-Approaching documentation with unwavering intention is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+Approaching documentation with unwavering intention is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 Return to the main [all-remote page](_index.md).

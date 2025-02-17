@@ -343,7 +343,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. All meetings recorded by default.
     - All meetings that happen over Zoom are recorded and placed on the Google Drive under "GitLab Videos."
 1. Instructions on how to build a project on GitLab.
-    - Here is some [documentation](https://docs.gitlab.com/ee/user/project/working_with_projects.html#create-a-project) on how to build a project within GitLab.
+    - Here is some [documentation](https://docs.gitlab.com/user/project/working_with_projects/#create-a-project) on how to build a project within GitLab.
 
 We also received a many responses stating we should not change or add anything, and that GitLab is an awesome place to work. This is great that GitLab team-members feel this way, and People Ops will continue to strive to create a culture where GitLab team-members are satisfied and engaged. Want to see where most of these changes were made? Check out the [issue](https://gitlab.com/gitlab-com/peopleops/issues/122)!
 

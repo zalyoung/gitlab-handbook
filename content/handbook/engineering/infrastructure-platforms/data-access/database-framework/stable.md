@@ -22,11 +22,11 @@ If you have a need for database assistance please review the table below for the
 | [Background Migrations](https://gitlab.com/groups/gitlab-org/-/epics/6751) | Diogo Frazão | @dfrazao-gitlab |
 | [CI Partitioning](https://gitlab.com/groups/gitlab-org/-/epics/7522) | Simon Tomlinson | @stomlinson |
 | [Consumables Management (storage, compute, seats, usage, etc)](https://about.gitlab.com/direction/fulfillment/#fulfillment-sections-current-focus-fy22-q3) | Kras Angelov | @krasio |
-| [Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/) | Simon Tomlinson | @stomlinson |
-| [Database Testing Framework](https://docs.gitlab.com/ee/architecture/blueprints/database_testing/) | Matt Kasa | @mattkasa |
+| [Container Registry](https://docs.gitlab.com/user/packages/container_registry/) | Simon Tomlinson | @stomlinson |
+| [Database Testing Framework](https://docs.gitlab.com/architecture/blueprints/database_testing/) | Matt Kasa | @mattkasa |
 | [Database query intercepter](https://gitlab.com/gitlab-org/database-team/query-intercepter) | Jon Jenkins | @jon_jenkins |
 | [Embeddings Database](https://gitlab.com/groups/gitlab-org/-/epics/10240) | Matt Kasa | @mattkasa |
 | [Primary Key Migrations](https://gitlab.com/groups/gitlab-org/-/epics/4785) | Kras Angelov | @krasio |
 | [Table Size Reduction](https://gitlab.com/groups/gitlab-org/-/epics/6211) | Simon Tomlinson | @stomlinson |
 | [Vulnerability Management](https://about.gitlab.com/direction/software_supply_chain_security/) | Simon Tomlinson | @stomlinson |
-| [Work Items](https://docs.gitlab.com/ee/architecture/blueprints/work_items/) | Matt Kasa | @mattkasa |
+| [Work Items](https://docs.gitlab.com/architecture/blueprints/work_items/) | Matt Kasa | @mattkasa |

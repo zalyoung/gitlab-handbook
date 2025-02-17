@@ -4,7 +4,7 @@ title: Secure QA Process
 
 ## Everything starts with a Merge Request
 
-We expect and require all contributions to our products to go a merge request with a formal review. As such, we follow the [Merge Request workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html) and [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html) articulated in GitLab's developer documentation. We would, however, like to highlight a few items from these documents and add a few additional considerations for reviewers and authors.
+We expect and require all contributions to our products to go a merge request with a formal review. As such, we follow the [Merge Request workflow](https://docs.gitlab.com/development/contributing/merge_request_workflow/) and [code review guidelines](https://docs.gitlab.com/development/code_review/) articulated in GitLab's developer documentation. We would, however, like to highlight a few items from these documents and add a few additional considerations for reviewers and authors.
 
 ### Additional considerations for Merge Request reviewers
 
@@ -99,7 +99,7 @@ You can setup an OpenShift cluster following the steps below assuming that you a
 
 1. Once the cluster is set up, we have to create a user to login to the OpenShift cluster; you can select `Cluster List > <your cluster>` and select `htpasswd` for `Identity Provider`. Under `Cluster Roles and Access` you can create the user for accessing the OpenShift cluster. Make sure that this user belongs to the groups `dedicated-admin` and `cluster-admins`.
 1. Afterwards you can click on the `Open console` button and login with the cluster admin user you created in the previous step.
-1. Once you are logged into the OpenShift cluster, you can now install the GitLab Runner Operator by selecting `Operators > Operator Hub`. You can search GitLab Runner, click on the search result and then click on the `Install` button as explained [here](https://docs.gitlab.com/runner/install/operator.html).
+1. Once you are logged into the OpenShift cluster, you can now install the GitLab Runner Operator by selecting `Operators > Operator Hub`. You can search GitLab Runner, click on the search result and then click on the `Install` button as explained [here](https://docs.gitlab.com/runner/install/operator/).
 1. In order to set up the runner in the OpenShift cluster, you can follow the instructions that are included in the [README of the operator](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator/-/blob/5f1134143f1b73171a7bb90d48b1fec948360db8/operator.yaml#L380).
 
    Note that the [runner token](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator/-/blob/master/README.md?plain=1#L43) referenced in the `gitlab-runner-operator README.md` can be obtained by selecting `CI/CD Settings > Runners > New Runner` from a GitLab project.

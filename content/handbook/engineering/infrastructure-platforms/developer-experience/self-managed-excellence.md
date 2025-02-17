@@ -7,7 +7,7 @@ description: "This page lists more details about Self-Managed Excellence initiat
 
 This page provides more detail about Self-Managed Excellence initiatives.
 
-Quality Engineering owns several tools which form a 3-prong trident for Self-Managed Excellence: the [Reference Architectures (RA)](https://docs.gitlab.com/ee/administration/reference_architectures/), the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), and the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance). Together, these tools support our broader strategy of cementing customer confidence and contributing to their ongoing success by ensuring their instances are built to a rigorously tested standard that performs smoothly at scale.
+Quality Engineering owns several tools which form a 3-prong trident for Self-Managed Excellence: the [Reference Architectures (RA)](https://docs.gitlab.com/administration/reference_architectures/), the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), and the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance). Together, these tools support our broader strategy of cementing customer confidence and contributing to their ongoing success by ensuring their instances are built to a rigorously tested standard that performs smoothly at scale.
 
 ```mermaid
 flowchart LR
@@ -34,7 +34,7 @@ tracks merge requests and issues metrics for GitLab Environment Toolkit, GitLab 
 
 ## Reference Architectures
 
-The [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) are officially recommended environment designs for deploying GitLab at scale in production that are tested and maintained by the Reference Architecture group. The group, led by Quality Engineering, is comprised of various individuals across GitLab disciplines and has the following responsibilities:
+The [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/) are officially recommended environment designs for deploying GitLab at scale in production that are tested and maintained by the Reference Architecture group. The group, led by Quality Engineering, is comprised of various individuals across GitLab disciplines and has the following responsibilities:
 
 - To test, maintain and update the Reference Architectures - Officially recommended environment designs and guidance for deploying GitLab at scale in production
 - To review any existing or proposed environment designs not already covered in the documentation
@@ -60,7 +60,7 @@ In FY23 we're focusing on enabling self-service approach for Reference Architect
 ## GitLab Environment Toolkit
 
 Quality Engineering is currently building and maintaining the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) (GET),
-which is a collection of tools to deploy and operate production GitLab instances based on our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
+which is a collection of tools to deploy and operate production GitLab instances based on our [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/).
 
 ### FY23 Direction
 

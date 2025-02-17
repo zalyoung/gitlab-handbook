@@ -13,7 +13,7 @@ This page documents the frontend architecture process used in the Verify:Pipelin
 
 _Other teams don't have an architecture process like this_, you may be thinking. _Why do we?_
 
-This process is the Pipeline Authoring group's approach for avoiding stumbling blocks we have encountered in the course of our work — late-breaking unexpected issues, lack of context, etc. This needs to be addressed by a process lighter than [the Architecture Evolution Workflow](/handbook/engineering/architecture/workflow/) and more specific to the needs and knowledges of the Pipeline Authoring team than [the frontend process](https://docs.gitlab.com/ee/development/fe_guide/architecture.html).
+This process is the Pipeline Authoring group's approach for avoiding stumbling blocks we have encountered in the course of our work — late-breaking unexpected issues, lack of context, etc. This needs to be addressed by a process lighter than [the Architecture Evolution Workflow](/handbook/engineering/architecture/workflow/) and more specific to the needs and knowledges of the Pipeline Authoring team than [the frontend process](https://docs.gitlab.com/development/fe_guide/architecture/).
 
 By writing down what we plan to do, we hope to create a space where:
 

@@ -8,11 +8,11 @@ description: "This is the handbook page for the Cells project. Cells is one of t
 
 Cells is a new architecture for our software as a service platform. This architecture is horizontally scalable, resilient, and provides a more consistent user experience. It may also provide additional features in the future, such as data residency control (regions) and federated features.
 
-For more information about the goals of Cells, see [goals](https://docs.gitlab.com/ee/architecture/blueprints/cells/goals.html).
+For more information about the goals of Cells, see [goals](https://docs.gitlab.com/architecture/blueprints/cells/goals/).
 
 ## Requirements and Architecture
 
-Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cells/).
+Cells overall architecture [blueprint](https://docs.gitlab.com/architecture/blueprints/cells/).
 
 ## Roadmap, Stages, Phases, and DRIs
 
@@ -22,17 +22,17 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>
 
-[Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.0.html)
+[Cells 1.0](https://docs.gitlab.com/architecture/blueprints/cells/iterations/cells-1.0/)
 
 </td>
 <td>
 
-[Cells 1.5](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.5.html)
+[Cells 1.5](https://docs.gitlab.com/architecture/blueprints/cells/iterations/cells-1.5/)
 
 </td>
 <td>
 
-[Cells 2.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-2.0.html)
+[Cells 2.0](https://docs.gitlab.com/architecture/blueprints/cells/iterations/cells-2.0/)
 
 </td>
 </tr>
@@ -43,7 +43,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 - Organizations are private
 - Users cannot interact with other Organizations (including GitLab Org)
 - Groups and projects are private in the Organization
-- For more details, see [Organizations on Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-10)
+- For more details, see [Organizations on Cells 1.0](https://docs.gitlab.com/architecture/blueprints/organization/#organizations-on-cells-10)
 
 </td>
 <td>
@@ -52,7 +52,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 - Organizations are private
 - Existing users can interact with private Organizations on Secondary Cells
 - Groups and projects are private in the Organization
-- For more details, see [Organizations on Cells 1.5](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-15)
+- For more details, see [Organizations on Cells 1.5](https://docs.gitlab.com/architecture/blueprints/organization/#organizations-on-cells-15)
 
 </td>
 <td>
@@ -60,7 +60,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 - Organizations are public or private
 - Users can interact with other Organizations
 - Groups and projects are private or public in the Organization
-- For more details, see [Organizations on Cells 2.0](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-20)
+- For more details, see [Organizations on Cells 2.0](https://docs.gitlab.com/architecture/blueprints/organization/#organizations-on-cells-20)
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Exit Criteria:
 - 100% of API traffic goes through router using passthrough proxy rule.
 - 100% of Web traffic goes through router using passthrough proxy rule.
 - 100% of Git HTTPS traffic goes through router using passthrough proxy rule.
-- Requests meet [latency target](https://docs.gitlab.com/ee/architecture/blueprints/cells/http_routing_service.html#low-latency)
+- Requests meet [latency target](https://docs.gitlab.com/architecture/blueprints/cells/http_routing_service/#low-latency)
 - registry.gitlab.com not proxied.
 
 ![phase-2](/images/cells/phase-2.png)
@@ -146,7 +146,7 @@ Exit Criteria:
 - PreQA Cell configured to generate `_gitlab_session` with prefix using rails config.
 - Route `_gitlab_session` with matching prefix to PreQA Cell using TopologyService::Classify (REST only) with static config file.
 - Continuous Delivery on Ring 0 with no rollback capabilities and doesn't block production deployments.
-- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
+- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/policy/development_stages_support/#experiment)
 - Topology Service gRPC endpoint not implemented.
 
 Unblocks:

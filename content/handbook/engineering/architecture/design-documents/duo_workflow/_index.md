@@ -513,7 +513,7 @@ token, we will use a composite OAuth token. Composite tokens is a new concept
 that will require [adding dynamic scopes to Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper/pull/1739),
 the library we use for OAuth.
 
-The composite OAuth token will belong to a [service account](https://docs.gitlab.com/ee/user/profile/service_accounts.html)
+The composite OAuth token will belong to a [service account](https://docs.gitlab.com/user/profile/service_accounts/)
 but will be tied to a human user. As a result, the output of Duo Workflow will
 be attributed to a machine user but the access of the token will be the
 intersection of what the machine user's permissions and what the human user's
@@ -838,7 +838,7 @@ Foreseen tools include:
 1. Tools to execute bash commands via the Duo Workflow Executor.
 1. Tools to manipulate files (including reading and writing to files).
 1. Tools to manipulate Git VCS.
-1. Tools to integrate with the [GitLab HTTP API](https://docs.gitlab.com/ee/api/api_resources.html).
+1. Tools to integrate with the [GitLab HTTP API](https://docs.gitlab.com/api/api_resources/).
 
 The fact that the Duo Workflow Service is going to require Git and GitLab API tools entails that the **Duo Workflow Service
 must have the ability to establish an SSH connection and make HTTP requests to the GitLab instance.** This ability can be granted directly to the Duo Workflow Service or can be provided via the Duo Workflow Executor if a direct connection between the Duo Workflow Service and a GitLab instance is not possible due to a firewall or network partition.

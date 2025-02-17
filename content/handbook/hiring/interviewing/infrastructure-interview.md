@@ -62,7 +62,7 @@ You might expect to hear back from us via email within three business days from 
 
 Successful candidates will be moved to the next step: Technical Interview. The Technical Interview varies depending on the team and position that you are applying for. We will share more information about what to expect and what to prepare ahead of this round if required. If there is prep work, it will be limited to about an hour.
 
-The technical interview will require a GitLab account, if you are not yet familiar with GitLab we recommend getting some hands-on experience with GitLab before your interview. See [Intro to GitLab](https://docs.gitlab.com/ee/#new-to-git-and-gitlab) for a general introduction. If you don't have an account, you can create one on the [sign-up page](https://gitlab.com/users/sign_up).
+The technical interview will require a GitLab account, if you are not yet familiar with GitLab we recommend getting some hands-on experience with GitLab before your interview. See [Intro to GitLab](https://docs.gitlab.com/#new-to-git-and-gitlab) for a general introduction. If you don't have an account, you can create one on the [sign-up page](https://gitlab.com/users/sign_up).
 
 While not necessary for the interview, the following links will help you to understand a bit more about the responsibilities of the Infrastructure team:
 

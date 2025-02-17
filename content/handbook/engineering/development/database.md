@@ -8,7 +8,7 @@ Also see [Database Team](/handbook/engineering/infrastructure-platforms/data-acc
 
 ## GitLab development
 
-Please refer to the [development documentation for database guidelines](https://docs.gitlab.com/ee/development/#database-guides).
+Please refer to the [development documentation for database guidelines](https://docs.gitlab.com/development/#database-guides).
 
 ### Database Roles at GitLab
 
@@ -23,7 +23,7 @@ The Database Reliability Engineer is an operational role targeting and running t
 
 #### Database Maintainer
 
-For the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab), Database Maintainers contribute to the [code review process](https://docs.gitlab.com/ee/development/code_review.html) by reviewing database-related changes and applying [database review guidelines](https://docs.gitlab.com/ee/development/database_review.html). They typically engage into conversations about database queries and their performance, database schema design and database migrations.
+For the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab), Database Maintainers contribute to the [code review process](https://docs.gitlab.com/development/code_review/) by reviewing database-related changes and applying [database review guidelines](https://docs.gitlab.com/development/database_review/). They typically engage into conversations about database queries and their performance, database schema design and database migrations.
 
 The Database Maintainer role:
 
@@ -31,7 +31,7 @@ The Database Maintainer role:
 * Follows the same definition as any other [GitLab maintainer](/handbook/engineering/workflow/code-review/#maintainer).
 * It does not come with operational responsibility for GitLab.com and its database infrastructure. This responsibility belongs to the [Database Reliability Engineer](/job-families/engineering/infrastructure/database-reliability-engineer/).
 * It is not expected to participate in incident management issues.
-* Adheres to the [review turnaround time](https://docs.gitlab.com/ee/development/code_review.html#review-turnaround-time) of 2 working days.
+* Adheres to the [review turnaround time](https://docs.gitlab.com/development/code_review/#review-turnaround-time) of 2 working days.
 
 If you're interested in participating in database reviews, please start by reviewing [the Database maintainer process](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/workflow/code-review/index.md#project-maintainer-process-for-gitlab-database) which contains all the resources for a reviewer.
 

@@ -45,7 +45,7 @@ The data of the latest version will be refreshed by a nightly build with [Data S
 
 ### AI Gateway API
 
-API design is following the existing patterns in [AI Gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/).
+API design is following the existing patterns in [AI Gateway](https://docs.gitlab.com/architecture/blueprints/ai_gateway/).
 
 ```plaintext
 POST /v1/search/docs

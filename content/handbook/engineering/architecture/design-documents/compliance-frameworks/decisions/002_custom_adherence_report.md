@@ -34,11 +34,11 @@ We thought of the following approaches to implement custom compliance adherence 
 configuration.
 1. Users would create a file for each framework named `.compliance-standard@framework_name.yml`. These YAML files
 would be stored in special projects within that group similar to
-[security policies project](https://docs.gitlab.com/ee/user/application_security/policies/#security-policy-project)
+[security policies project](https://docs.gitlab.com/user/application_security/policies/#security-policy-project)
 which is used for storing security policies.
 1. While creating compliance frameworks users would be able to set the reference of this standards YAML file to
 associate the YAML with that compliance framework.
-1. We would create a Standards Editor similar to [Policy Editor](https://docs.gitlab.com/ee/user/application_security/policies/#policy-editor)
+1. We would create a Standards Editor similar to [Policy Editor](https://docs.gitlab.com/user/application_security/policies/#policy-editor)
 easily allowing users to modify the configuration from the UI.
 1. The YAML would be used for saving the requirements and checks configuration. An example YAML:
 

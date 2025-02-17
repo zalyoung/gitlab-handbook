@@ -143,22 +143,22 @@ Below we list product categories and the current and proposed features which res
 
 #### Feature - Kanban Boards
 
-1. **Project and Group Boards (Free)** : The primary user and buyer for Issue Boards in general is Individual Contributors. While group boards likely span teams, there are also valid use cases for an individual to organize code in several projects and manage issues across those projects at the group level. The key differentiation is that an Individual Contributor will likely only ever need a single group level Issue Board; whereas Managers need several group level Issue Boards to facilitate their team's workflows. ([Documentation](https://docs.gitlab.com/ee/user/project/issue_board.html))
-1. **Issue Weight on Boards (Premium)** : The users assigning issue weights are individual contributors but the value of that weight is for Directors of teams to ensure proper milestone planning. (Documentation [with respect to boards](https://docs.gitlab.com/ee/user/project/issue_board.html#sum-of-issue-weights))
-1. **Multiple Group Issue Boards (Premium)** : Issue boards which span groups are valuable to and also utilized by groups of groups which aligns to Director level likely buyer. ([Related documentation](https://docs.gitlab.com/ee/user/project/issue_board.html#group-issue-boards))
+1. **Project and Group Boards (Free)** : The primary user and buyer for Issue Boards in general is Individual Contributors. While group boards likely span teams, there are also valid use cases for an individual to organize code in several projects and manage issues across those projects at the group level. The key differentiation is that an Individual Contributor will likely only ever need a single group level Issue Board; whereas Managers need several group level Issue Boards to facilitate their team's workflows. ([Documentation](https://docs.gitlab.com/user/project/issue_board/))
+1. **Issue Weight on Boards (Premium)** : The users assigning issue weights are individual contributors but the value of that weight is for Directors of teams to ensure proper milestone planning. (Documentation [with respect to boards](https://docs.gitlab.com/user/project/issue_board/#sum-of-issue-weights))
+1. **Multiple Group Issue Boards (Premium)** : Issue boards which span groups are valuable to and also utilized by groups of groups which aligns to Director level likely buyer. ([Related documentation](https://docs.gitlab.com/user/project/issue_board/#group-issue-boards))
 1. **Issue Board Epic Swimlanes (Ultimate)** : Everyday users of swimlanes might be individual contributors but their value is in the visualization of activity for company wide portfolio management by Executives. ([Related issue](https://gitlab.com/gitlab-org/gitlab/issues/7371))
 
 #### Feature - Merge Requests
 
-1. **Merge conflict resolution (Free)** : Resolving merge conflicts is part of the daily workflow and valuable to Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html#methods-of-resolving-conflicts))
-1. **Merge approvals (Premium)** : Requiring approvals on merge requests is only useful when there is a team working on a project and their Director (who isn't likely to be the user of approvals) requires specific individuals to provide their approval. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/))
-1. **Merge request reviews (Premium)** : Merge request reviews enables the expedient review by multiple team members on merge requests. Typically large enough teams to value the reduced chatter accompanying MR reviews reside under Directors. ([Documentation](https://docs.gitlab.com/ee/user/discussions/index.html))
+1. **Merge conflict resolution (Free)** : Resolving merge conflicts is part of the daily workflow and valuable to Individual Contributors. ([Documentation](https://docs.gitlab.com/user/project/merge_requests/conflicts/#methods-of-resolving-conflicts))
+1. **Merge approvals (Premium)** : Requiring approvals on merge requests is only useful when there is a team working on a project and their Director (who isn't likely to be the user of approvals) requires specific individuals to provide their approval. ([Documentation](https://docs.gitlab.com/user/project/merge_requests/approvals/))
+1. **Merge request reviews (Premium)** : Merge request reviews enables the expedient review by multiple team members on merge requests. Typically large enough teams to value the reduced chatter accompanying MR reviews reside under Directors. ([Documentation](https://docs.gitlab.com/user/discussions/))
 
 #### Feature - Pipelines
 
-1. **Built in CI Pipelines (Free)** : CI Pipelines are integral to GitLab and used primarily by Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/ci/))
-1. **Show pipeline code coverage rate (Premium)** : The ability to determine code coverage rate is particularly valuable to Directors. ([Documentation](https://docs.gitlab.com/ee/user/group/repositories_analytics/index.html))
-1. **Pipeline dashboards (Premium)** : Dashboards of pipelines across groups and projects are primarily used and valued by Directors. ([Documentation](https://docs.gitlab.com/ee/user/operations_dashboard/))
+1. **Built in CI Pipelines (Free)** : CI Pipelines are integral to GitLab and used primarily by Individual Contributors. ([Documentation](https://docs.gitlab.com/ci/))
+1. **Show pipeline code coverage rate (Premium)** : The ability to determine code coverage rate is particularly valuable to Directors. ([Documentation](https://docs.gitlab.com/user/group/repositories_analytics/))
+1. **Pipeline dashboards (Premium)** : Dashboards of pipelines across groups and projects are primarily used and valued by Directors. ([Documentation](https://docs.gitlab.com/user/operations_dashboard/))
 1. **Downloadable all pipeline logs (Ultimate)** : Pipeline logs would be generated and even downloaded by individual contributors, but the value of collating these logs is provided to Executives responsible for ensuring compliance.
 
 ### Usage can be more important than buyer-based tiering
@@ -172,7 +172,7 @@ When considering tiering, if the feature is geared to be used (not purchased) by
 
 ### Prevent the ability to circumvent tiering
 
-If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/pull/) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
+If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/user/project/repository/mirror/pull/) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
 
 ### Partner integration considerations
 
@@ -258,7 +258,7 @@ We use the same names for SaaS and Self-Managed tiers because:
 ## Type of sell
 
 1. A feature sell means that people want to buy the extra features. This can be done self-serve.
-1. A benefit sell means that people buy the business outcomes that come with fully utilizing GitLab. You need case studies, metrics like [DevOps Score](https://docs.gitlab.com/ee/administration/analytics/dev_ops_reports.html#devops-score), and a quarterly check-in with a Customer Success Manager from Customer Success to review the status of the adoption plan. A competitive process can include a bake-off to show people are 10x faster in starting new projects with GitLab.
+1. A benefit sell means that people buy the business outcomes that come with fully utilizing GitLab. You need case studies, metrics like [DevOps Score](https://docs.gitlab.com/administration/analytics/dev_ops_reports/#devops-score), and a quarterly check-in with a Customer Success Manager from Customer Success to review the status of the adoption plan. A competitive process can include a bake-off to show people are 10x faster in starting new projects with GitLab.
 1. A transformation sell means that people want to transform as an organization. They want to reduce cycle time by 10x and want us to help them. We do workshops with transformation consultants and define a complete, shared project.
 
 ## Hybrid sales model
@@ -332,7 +332,7 @@ For the GitLab sales team and for GitLab customers, we suggest handling the obje
 
 ### Reporter User Permission Pricing
 
-As our customers adopt GitLab as the single application for their entire DevOps lifecycle, we are hearing more and more non-developer use cases using GitLab for Agile project management. The main functionality that some non-developer roles need aligns fairly well with our [reporter permission](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) access, including Managing Labels, Assigning Issues, and Creating and Editing Epics, etc. Those users don't really need to use much other developer functionality.
+As our customers adopt GitLab as the single application for their entire DevOps lifecycle, we are hearing more and more non-developer use cases using GitLab for Agile project management. The main functionality that some non-developer roles need aligns fairly well with our [reporter permission](https://docs.gitlab.com/user/permissions/#project-members-permissions) access, including Managing Labels, Assigning Issues, and Creating and Editing Epics, etc. Those users don't really need to use much other developer functionality.
 
 Currently, we do not offer a different list price for users who only need the reporter permission because:
 
@@ -340,7 +340,7 @@ Currently, we do not offer a different list price for users who only need the re
 1. The list prices of our plans are blended prices with consideration for both developer and non-developer use cases.
 1. We are [selling a suite](#only-sell-a-suite) and taking care of specific non-developer use cases by making a discount conditional on not using part of the product.
 1. A simplified pricing and packaging (PnP) strategy serves customers in the optimal way per the industry best practice. More SKUs lead to a more complex PnP model as a company scales, which eventually causes huge confusion to customers.
-1. We do not limit a license to the [reporter permission](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) in GitLab. Any reporter user can be updated to a regular developer user by using the same license.
+1. We do not limit a license to the [reporter permission](https://docs.gitlab.com/user/permissions/#project-members-permissions) in GitLab. Any reporter user can be updated to a regular developer user by using the same license.
 
 We understand that our customers have non-developer use cases. Please [contact our sales team](https://about.gitlab.com/sales/) or connect with us via [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/213185) to discuss your specific use cases.
 
@@ -348,7 +348,7 @@ We understand that our customers have non-developer use cases. Please [contact o
 
 1. With true-up pricing, the license/sale is never blocking user growth.
 1. We currently charge 100% for users added during the year, because some organizations gave an intentionally too-low estimate when we charged 50%. If we technically can count "user days," we can make it fair for everyone. A pre-requisite of this would be customer adoption of [Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/).
-1. For customers on Cloud Licensing, we offer [Quarterly Subscription Reconciliation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
+1. For customers on Cloud Licensing, we offer [Quarterly Subscription Reconciliation](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/).
 
 ## Consumption pricing principles
 
@@ -574,7 +574,7 @@ When in doubt, we will default to moving features to a lower tier, [moving it do
 data shows that this is more appropriate. Not all tier changes will involve moving things to lower-priced plans and paid features may move into the higher tier, but
 [open source features should never move to paid tiers](/handbook/company/stewardship/#promises).
 
-Occasionally, a feature may unintentionally become available at a lower-tier due to a bug. This can include the free (open source) tier. When we fix the bug and return the feature to the correct tier, this is not the same as moving an open source feature to a paid tier. The definitive source for a given feature's tier is [our documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#product-tier-badges).
+Occasionally, a feature may unintentionally become available at a lower-tier due to a bug. This can include the free (open source) tier. When we fix the bug and return the feature to the correct tier, this is not the same as moving an open source feature to a paid tier. The definitive source for a given feature's tier is [our documentation](https://docs.gitlab.com/development/documentation/styleguide/#product-tier-badges).
 
 We should focus on building new features that buyers want and making sure that the initial assessment of new features is never too low. While we reserve the
 ability to move features up in tier, proving the necessity has a much higher bar since we are constraining the existing reach of a feature rather than expanding it.
@@ -590,7 +590,7 @@ To propose a change that impacts pricing or changes a feature's tier (e.g. movin
 
 What is interesting is that GitLab creates more value as you adopt more of it.
 This shouldn't be confused with DevOps maturity.
-DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/).
+DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/user/group/value_stream_analytics/).
 With the best practices embedded in GitLab, you will mature faster than without it. GitLab enables a 200% faster DevOps lifecycle.
 But DevOps maturity is mostly about organizational change. GitLab the product is just an enabler of it.
 Even if an organization uses everything of GitLab (high DevOps score), they can still have a slow process (slow lifecycle).

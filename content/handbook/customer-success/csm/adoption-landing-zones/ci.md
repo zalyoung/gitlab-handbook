@@ -66,7 +66,7 @@ GitHub to GitLab
 
 Jenkins to GitLab
 
-1. Docs page: 'How To' Overview: [Docs Page: Migrating from Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html)
+1. Docs page: 'How To' Overview: [Docs Page: Migrating from Jenkins](https://docs.gitlab.com/ci/migration/jenkins/)
 1. Jenkins Integration demo (CS-Led): [CSM Demo: Jenkins Integration](https://gitlab.com/gitlab-learn-labs/webinars/cicd/jenkins-integration-demo)
 1. Jenkins Discovery Questions: [Technical Customer Deep Dive](https://docs.google.com/document/d/1g0ftF3kSQ0_OUpvuM4WUseFUjd_iSsPXQoIqKR7Ledg/edit)
 

@@ -17,9 +17,9 @@ One of the main features we work on in the Create:Code Creation group is Code Su
 
 - [Code Suggestions Engineering Overview](/handbook/engineering/development/dev/create/code-creation/engineering_overview/) - Handbook technical overview of Code Suggestions
 - [Code Suggestions Guide](/handbook/engineering/development/dev/create/code-creation/code-suggestions-guide/) - Handbook development guide for engineers
-- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
+- [Code Suggestions Quick Start](https://docs.gitlab.com/user/gitlab_duo/quick_start/) - GitLab Documentation
 - [Difference between Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
-- [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
+- [Code Suggestion Documentation](https://docs.gitlab.com/user/project/repository/code_suggestions/) - GitLab Documentation
 
 A lot of the terms we use in this area sound similar and can be confusing at first. Here are the basic terms we use:
 

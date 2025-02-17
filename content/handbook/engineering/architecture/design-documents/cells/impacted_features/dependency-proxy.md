@@ -15,7 +15,7 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-[GitLab Dependency Proxy](https://docs.gitlab.com/ee/user/packages/dependency_proxy/) is a feature allowing storage of Docker container images in GitLab for use by CI jobs and end users. It acts as a pull-through cache of upstream registries such as Docker Hub, enabling faster image builds and avoiding restricted rate limits by upstream services.
+[GitLab Dependency Proxy](https://docs.gitlab.com/user/packages/dependency_proxy/) is a feature allowing storage of Docker container images in GitLab for use by CI jobs and end users. It acts as a pull-through cache of upstream registries such as Docker Hub, enabling faster image builds and avoiding restricted rate limits by upstream services.
 
 As Dependency Proxy is a effectively a private image registry, it follows the same deployment pattern and challenges as the [GitLab container registry](container-registry.md).
 
@@ -78,7 +78,7 @@ To authenticate with the dependency proxy in a Cells environment, users will nee
 docker login gitlab.example.com
 ```
 
-Currently, [using your GitLab username and password is supported](https://docs.gitlab.com/ee/user/packages/dependency_proxy/#authenticate-with-the-dependency-proxy) by this flow. In a Cells architecture, this will only work for the legacy cell and default organization, since the username / password combination is not routeable.
+Currently, [using your GitLab username and password is supported](https://docs.gitlab.com/user/packages/dependency_proxy/#authenticate-with-the-dependency-proxy) by this flow. In a Cells architecture, this will only work for the legacy cell and default organization, since the username / password combination is not routeable.
 
 The username can be anything; it is not used by dependency proxy. The "password" must be a Personal Access Token from a user, service account, or CI job token. The docker client will then submit this username and password combination to the `/jwt/auth` endpoint in GitLab Rails using HTTP Basic Auth.
 

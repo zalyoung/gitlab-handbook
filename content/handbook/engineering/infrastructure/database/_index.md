@@ -79,8 +79,8 @@ As a database specialist the following tools can be very helpful:
 
 - [Postgres Checkup](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues?label_name%5B%5D=postgres-checkup):Detailed report about the status of the PostgreSQL database.
 - [Private Grafana](https://dashboards.gitlab.net/): for both application and system level performance data.
-- [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html): type `pb` in GitLab and a bar with performance metrics will show up at the top of the page. This tool is especially useful for viewing the queries executed and their timings.
-- [Sherlock](https://docs.gitlab.com/ee/development/profiling.html#sherlock): a tool similar to the performance bar but meant for development environments. Sherlock is able to show backtraces and the output of `EXPLAIN ANALYZE` for executed queries. Enable by starting Rails with `env ENABLE_SHERLOCK=1 bundle exec rails s`.
+- [Performance Bar](https://docs.gitlab.com/administration/monitoring/performance/performance_bar/): type `pb` in GitLab and a bar with performance metrics will show up at the top of the page. This tool is especially useful for viewing the queries executed and their timings.
+- [Sherlock](https://docs.gitlab.com/development/profiling/#sherlock): a tool similar to the performance bar but meant for development environments. Sherlock is able to show backtraces and the output of `EXPLAIN ANALYZE` for executed queries. Enable by starting Rails with `env ENABLE_SHERLOCK=1 bundle exec rails s`.
 - <https://explain.depesz.com/> for visualizing the output of `EXPLAIN ANALYZE`.
 
 ### Dashboards
@@ -95,12 +95,12 @@ The following (private) Grafana dashboard are important / useful for database sp
 
 Basically everything under <https://docs.gitlab.com/ee/development/#databases>, but the following guides in particular are important:
 
-- [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)
-- [Adding database indexes](https://docs.gitlab.com/ee/development/database/adding_database_indexes.html)
-- [Post Deployment Migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html)
-- [Background Migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html)
-- [SQL Migration Style Guide](https://docs.gitlab.com/ee/development/migration_style_guide.html)
-- [SQL Query Guidelines](https://docs.gitlab.com/ee/development/sql.html)
+- [What requires downtime?](https://docs.gitlab.com/update/with_downtime/)
+- [Adding database indexes](https://docs.gitlab.com/development/database/adding_database_indexes/)
+- [Post Deployment Migrations](https://docs.gitlab.com/development/database/post_deployment_migrations/)
+- [Background Migrations](https://docs.gitlab.com/development/database/batched_background_migrations/)
+- [SQL Migration Style Guide](https://docs.gitlab.com/development/migration_style_guide/)
+- [SQL Query Guidelines](https://docs.gitlab.com/development/sql/)
 - [Infrastructure runbooks and documentation](https://gitlab.com/gitlab-com/runbooks#postgresql)
 
 For various other development related guides refer to <https://docs.gitlab.com/ee/development/>.

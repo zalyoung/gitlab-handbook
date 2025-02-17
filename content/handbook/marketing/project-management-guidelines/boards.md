@@ -6,7 +6,7 @@ title: "Issue and Kanban boards project management guidelines"
 
 ## Background
 
-[Boards](https://docs.gitlab.com/ee/user/project/issue_board.html) in GitLab make it possible to visualize and manage lists of issues which can be defined by one of three ways: **Labels**, **Team members**, and **Milestones**.
+[Boards](https://docs.gitlab.com/user/project/issue_board/) in GitLab make it possible to visualize and manage lists of issues which can be defined by one of three ways: **Labels**, **Team members**, and **Milestones**.
 
 ### Key things to know
 

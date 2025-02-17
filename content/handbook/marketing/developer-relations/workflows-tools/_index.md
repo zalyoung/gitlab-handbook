@@ -55,7 +55,7 @@ These are the tools the Developer Relations team is the DRI for:
 
 | Tool Name | Description | How We Use |
 |-------------|-------------|-----------|
-| Crowdin | [Crowdin](https://translate.gitlab.com/) is the platform for the wider community to collaboratively contribute translations for GitLab | [How we use Crowdin](https://docs.gitlab.com/ee/development/i18n/translation.html) |
+| Crowdin | [Crowdin](https://translate.gitlab.com/) is the platform for the wider community to collaboratively contribute translations for GitLab | [How we use Crowdin](https://docs.gitlab.com/development/i18n/translation/) |
 | Discourse | [Discourse](https://www.discourse.org) is the platform on which the [GitLab forum](https://forum.gitlab.com) is run. | [How we use Discourse](/handbook/marketing/developer-relations/workflows-tools/forum/#administration)|
 | Discord | [Discord](https://discord.gg/gitlab) is the instant messaging platform the GitLab community communicates on (in addition to GitLab.com itself) | popular channels are #contribute, #general and the support channels |
 | SheerId | [SheerId](https://www.sheerid.com/) is the platform we use to automatically qualify applications to our community programs | |

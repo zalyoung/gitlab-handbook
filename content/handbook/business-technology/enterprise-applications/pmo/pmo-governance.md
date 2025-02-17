@@ -138,7 +138,7 @@ The program DRI should establish a clear escalation process so that if a program
 There should be a clear program timeline with sprints defined so that we can deliver the program in smaller increments. There should be clarity around key requirement deadlines, delivery milestones, testing timelines so that everyone is clear. The program timeline should consider company holidays, enablement time and consider adding additional time for complex requirements (if needed).
 
 {{% alert color="warning" %}}
-The IT PMO team uses the [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/#roadmap) feature to track the progress of each program.
+The IT PMO team uses the [GitLab Roadmap](https://docs.gitlab.com/user/group/roadmap/#roadmap) feature to track the progress of each program.
 {{% /alert %}}
 
 ### Clear documentation for data model

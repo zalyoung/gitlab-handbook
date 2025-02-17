@@ -54,7 +54,7 @@ Support Managers also work on things that will make your (and the lives of your 
 - Created a tool to [quickly analyze strace output](https://gitlab.com/gitlab-com/support/toolbox/strace-parser)
 - Built and maintained tooling to handle our call scheduling
 - Scripted a [solution to capture the state of a customer's server](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) for easier troubleshooting
-- Added functionality to [ChatOps](https://docs.gitlab.com/ee/ci/chatops/) to make it easier to identify user accounts on GitLab.com
+- Added functionality to [ChatOps](https://docs.gitlab.com/ci/chatops/) to make it easier to identify user accounts on GitLab.com
 - Written a [Chrome Extension to route downloads from Zendesk tickets into organized folders](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 - … and more!
 

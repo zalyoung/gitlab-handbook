@@ -56,7 +56,7 @@ The main target of the working group is not to implement everything themselves b
 #### Documentation outcomes
 
 - [DRI List (Eng. and UX)](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list/)
-- [Component technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widgets.html)
+- [Component technical documentation](https://docs.gitlab.com/development/fe_guide/merge_request_widgets/)
 - [Contributing further and extending](/handbook/product/cross-stage-features/merge-requests/)
 
 #### Product outcomes

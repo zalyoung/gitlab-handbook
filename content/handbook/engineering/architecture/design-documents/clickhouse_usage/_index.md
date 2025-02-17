@@ -47,7 +47,7 @@ In FY24 Q2 we began working to integrate ClickHouse with GitLab.com to support m
 
 #### FY25 H1 (current)
 
-After we have formulated best practices of managing ClickHouse ourselves for GitLab.com, we will begin to offer supported recommendations for self-managed instances that want to run ClickHouse themselves. During this phase we will allow users to "Bring your own ClickHouse" similar to our [approach for Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html#install-elasticsearch-or-aws-opensearch-cluster). For the features that require ClickHouse for optimal usage (Value Streams Dashboard, [Product Analytics](https://gitlab.com/groups/gitlab-org/-/epics/8921)), this will be the initial go-to-market action. Notably, the Observability team has made the decision to support self-managed users via GitLab Cloud Connector instead of following this approach.
+After we have formulated best practices of managing ClickHouse ourselves for GitLab.com, we will begin to offer supported recommendations for self-managed instances that want to run ClickHouse themselves. During this phase we will allow users to "Bring your own ClickHouse" similar to our [approach for Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch/#install-elasticsearch-or-aws-opensearch-cluster). For the features that require ClickHouse for optimal usage (Value Streams Dashboard, [Product Analytics](https://gitlab.com/groups/gitlab-org/-/epics/8921)), this will be the initial go-to-market action. Notably, the Observability team has made the decision to support self-managed users via GitLab Cloud Connector instead of following this approach.
 
 #### Long-term
 
@@ -55,7 +55,7 @@ We will work towards a packaged reference version of ClickHouse capable of being
 
 ## Best Practices
 
-Best practices and guidelines for developing performant, secure, and scalable features using ClickHouse are located in the [ClickHouse developer documentation](https://docs.gitlab.com/ee/development/database/clickhouse/index.html).
+Best practices and guidelines for developing performant, secure, and scalable features using ClickHouse are located in the [ClickHouse developer documentation](https://docs.gitlab.com/development/database/clickhouse/).
 
 ## Cost and maintenance analysis
 

@@ -62,7 +62,7 @@ If the emergency is from an error that includes a feature category, go to [8. Re
 
 If the emergency is related to a migration, see [6. Determine Migration Source](#6-determine-migration-source)
 
-If the emergency is related to a Rails controller, Sidekiq worker, API endpoint, or background migration, determine the feature category using details in our [feature categorization guide](https://docs.gitlab.com/ee/development/feature_categorization/), then go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category)
+If the emergency is related to a Rails controller, Sidekiq worker, API endpoint, or background migration, determine the feature category using details in our [feature categorization guide](https://docs.gitlab.com/development/feature_categorization/), then go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category)
 
 If you need assistance to identify the source, go to [9. Escalating assistance](#9-escalating-assistance)
 

@@ -22,7 +22,7 @@ A list of the items in our inventory with the amount of items left to be claimed
 
 ## Sending Swag codes
 
-If you are sending swag codes for the first time, you will need [a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) with the `read_api` scope.
+If you are sending swag codes for the first time, you will need [a personal access token](https://docs.gitlab.com/user/profile/personal_access_tokens/) with the `read_api` scope.
 
 1. Request access to the [Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking"](https://docs.google.com/spreadsheets/d/1LXXAXrxwx3HW1zFdBTB9OLQtjOqqECef9mCbvnzdnU8/edit?usp=sharing).
 1. Go to the tab "Issue rewards".

@@ -102,7 +102,7 @@ We are not a good fit however if you need:
 - Guidance on how Git is used by other teams. While we can provide the expertise
   on _how_ to integrate it, the _actual_ integration is outside of our reach.
 - Advice on workflows and instance configuration or architecture in self-hosted
-  scenarios. ([Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+  scenarios. ([Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/)
   and Professional Services can help)
 - Engagements without clear exit criteria. Please clarify them first, "let's
   jump on a call to discuss" is usually in this category.

@@ -13,7 +13,7 @@ toc_hide: true
 
 ## Summary
 
-When we reach production and can operate organizations on new [cells](../cells), we need to be able to move [organizations](https://docs.gitlab.com/ee/user/organization/) from GitLab.com into a cell or between any two cells. [The Org Mover project](https://gitlab.com/groups/gitlab-org/-/epics/12857) provides a CLI orchestrator tool that makes the process of moving organization data from one cell to another a breeze. It’s designed to ensure no data loss or corruption with minimal downtime.
+When we reach production and can operate organizations on new [cells](../cells), we need to be able to move [organizations](https://docs.gitlab.com/user/organization/) from GitLab.com into a cell or between any two cells. [The Org Mover project](https://gitlab.com/groups/gitlab-org/-/epics/12857) provides a CLI orchestrator tool that makes the process of moving organization data from one cell to another a breeze. It’s designed to ensure no data loss or corruption with minimal downtime.
 
 It is important to note that the tool itself isn't responsible for moving data, but it takes care of setting up all the required logistics. It will be developed as a gem within the [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) codebase.
 
@@ -56,7 +56,7 @@ A organization move can be broken down into five distinct high-level phases:
 
 1. **Continuously replicate an organization's non-PostgreSQL data from the source cell to the target cell.**
 
-    1. Org Mover will reuse [Geo](https://docs.gitlab.com/ee/administration/geo/) code to transfer non-PostgreSQL data continuously to the target cell.
+    1. Org Mover will reuse [Geo](https://docs.gitlab.com/administration/geo/) code to transfer non-PostgreSQL data continuously to the target cell.
 
        The purpose is to reuse GitLab Geo code to replicate organization data outside the PostgreSQL database (files, Git data, object storage, container registry, etc.) from the source cell to the target cell. Given that cells cannot use PostgreSQL streaming replication, we need to make Geo independent of the method of PostgreSQL replication. This way, the target cell can connect directly to the source cell database or use PostgreSQL logical replication.
 
@@ -130,7 +130,7 @@ A organization move can be broken down into five distinct high-level phases:
 
 ## Alternative Solutions
 
-We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/user/group/import/) and [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate). Both have been considered and evaluated, but these solutions do not meet the downtime requirements.
+We could move organizations using [Direct transfer](https://docs.gitlab.com/user/group/import/) and [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate). Both have been considered and evaluated, but these solutions do not meet the downtime requirements.
 
 ## Future iterations
 
@@ -148,7 +148,7 @@ As we discuss creating and migrating Organizations, it's important to call out t
 
 ### Cells 1.0
 
-Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization.
+Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/user/group/import/) to move internal top-level groups to a separate Organization.
 
 We still need to evaluate and address any gaps, but this is the only option available in this time frame.
 
@@ -174,7 +174,7 @@ A list of all GitLab top-level groups can be found [in this Google doc (internal
 
 We will create a new temporary Organization (GitLab Inc.) in a Cell (not Legacy Cell).
 
-We will use [direct transfer](https://docs.gitlab.com/ee/user/group/import/)
+We will use [direct transfer](https://docs.gitlab.com/user/group/import/)
 or [congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) to migrate select top-level groups belonging to GitLab Inc. from the `default Organization` in the Legacy Cell to the GitLab Inc. Organization on the other Cell. If [Org mover](https://gitlab.com/groups/gitlab-org/-/epics/12859) is ready in time, we will use it instead.
 
 All traffic to the top-level groups being migrated will be blocked for the duration of the migration. After the migration is complete, traffic will be resumed and redirected to the other Cell where the groups are located. They will be read/write and fully operational.

@@ -128,6 +128,6 @@ Complete all knowledge assessments in the [Remote Work Foundation](remote-certif
 
 ## Contribute your lessons
 
-Effective onboarding and positively influencing workflow habits is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+Effective onboarding and positively influencing workflow habits is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 Return to the main [all-remote page](_index.md).

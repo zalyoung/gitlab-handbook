@@ -66,7 +66,7 @@ Team members in different time zones may have to compromise on meeting times.
 
 **Solutions**
 
-- All-remote companies should consider [meetings](meetings/) as a last resort, instead relying on asynchronous collaboration tools like Google Docs and [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) to facilitate meaningful dialog without time zone concerns.
+- All-remote companies should consider [meetings](meetings/) as a last resort, instead relying on asynchronous collaboration tools like Google Docs and [GitLab Issues](https://docs.gitlab.com/user/project/issues/) to facilitate meaningful dialog without time zone concerns.
 - To prevent [pent-up frustration](/handbook/values/#five-dysfunctions) over working odd hours to facilitate a global call, all-remote companies should consider treating each team member as a [manager of one](/handbook/values/#managers-of-one). This goes beyond the basic definition of flexibility by empowering team members to structure each day according to the needs at hand. For example, spending more time with family earlier in the day to compensate for a late-night work call.
 
 ### Challenge: Separating work from personal life

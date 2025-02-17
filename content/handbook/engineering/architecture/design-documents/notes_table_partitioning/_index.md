@@ -104,7 +104,7 @@ For example, we could have separate `issue_notes`, `merge_request_notes` and `ep
   - There are many merge request specific columns that interfere with applying other partitioning strategies,
 and contribute to index bloat and non-ideal data alignments.
 
-- Addresses [polymorphic associations](https://docs.gitlab.com/ee/development/database/polymorphic_associations.html)
+- Addresses [polymorphic associations](https://docs.gitlab.com/development/database/polymorphic_associations/)
   and constraints issues
   - On top of having polymorphic associations which are discouraged,
 the presence of the `commit_id` column storing Git SHA hashes prevents utilizing database constraints fully.
@@ -155,7 +155,7 @@ Most note texts (`note` column) do not exceed the 2kB default threshold
 necessary to trigger compression and OUT-OF-LINE storage.
 
 The table for the vertically split column(s)
-could be [partitioned by int range](https://docs.gitlab.com/ee/development/database/partitioning/int_range.html)
+could be [partitioned by int range](https://docs.gitlab.com/development/database/partitioning/int_range/)
 using the `notes` table's `id` column.
 
 **Benefits:**

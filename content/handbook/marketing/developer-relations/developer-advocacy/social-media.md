@@ -186,7 +186,7 @@ Recommended [settings](https://bsky.app/settings):
 
 #### Optional suggestions for Bluesky
 
-1. [Add Bluesky to your GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-external-accounts-to-your-user-profile-page).
+1. [Add Bluesky to your GitLab profile](https://docs.gitlab.com/user/profile/#add-external-accounts-to-your-user-profile-page).
 1. Review the [Bluesky Getting Started guide by Dean Lofts](https://blog.deanlofts.xyz/guides/getting-started-bluesky/).
 1. Explore alternative UIs
     - [deck.blue](https://deck.blue/) is a Tweetdeck alternative for Bluesky.

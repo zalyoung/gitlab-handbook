@@ -38,7 +38,7 @@ There also may be instances when a project doesn't strictly meet our general cri
 
 ## Protected Branch Baseline Configurations
 
-As a general rule, we want to protect our branches in such a way that we [require everyone to submit MRs for that protected branch](https://docs.gitlab.com/ee/user/project/repository/branches/protected.html#require-everyone-to-submit-merge-requests-for-a-protected-branch). This requirement to use an MR allows for an easier trail to follow of changes made and rationale behind them, and most importantly, it requires an MR to be used to make changes to the protected branch which works hand-in-hand with our configured MR Approval Rules. If accounts can push direct to the protected branch, that account does not have to use an MR and can make changes without another team member's involvement.
+As a general rule, we want to protect our branches in such a way that we [require everyone to submit MRs for that protected branch](https://docs.gitlab.com/user/project/repository/branches/protected/#require-everyone-to-submit-merge-requests-for-a-protected-branch). This requirement to use an MR allows for an easier trail to follow of changes made and rationale behind them, and most importantly, it requires an MR to be used to make changes to the protected branch which works hand-in-hand with our configured MR Approval Rules. If accounts can push direct to the protected branch, that account does not have to use an MR and can make changes without another team member's involvement.
 
 ### Example 1 of Protected Branch Settings configured to Require an MR
 
@@ -48,7 +48,7 @@ See [Note on usage of Code Owners](/handbook/security/gitlab_projects_baseline_r
 
 ## MR Approval Rule Configurations
 
-MRs should be reviewed following GitLab's [Code Review Guidelines](/handbook/engineering/workflow/code-review/). To ensure MRs are not merged with unreviewed commits, [MR Approval Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#approval-settings) should be enabled in one of the two below methods.
+MRs should be reviewed following GitLab's [Code Review Guidelines](/handbook/engineering/workflow/code-review/). To ensure MRs are not merged with unreviewed commits, [MR Approval Rules](https://docs.gitlab.com/user/project/merge_requests/approvals/settings/#approval-settings) should be enabled in one of the two below methods.
 
 ### Example 1 of MR Approval Rules configured WITHOUT Code Owners
 
@@ -64,9 +64,9 @@ See [Note on usage of Code Owners](/handbook/security/gitlab_projects_baseline_r
 
 Note that not all projects will have Code Owners enabled as it may not be necessary in all instances.
 
-If a project does use Code Owners, the Proteced Branch settings should be configured to have "Code owner approval" toggled **ON** and an appropriately configured Code Owners file should be created. The GitLab Docs defines how Code Owners work and [how to set up Code Owners](https://docs.gitlab.com/ee/user/project/codeowners/#set-up-code-owners).
+If a project does use Code Owners, the Proteced Branch settings should be configured to have "Code owner approval" toggled **ON** and an appropriately configured Code Owners file should be created. The GitLab Docs defines how Code Owners work and [how to set up Code Owners](https://docs.gitlab.com/user/project/codeowners/#set-up-code-owners).
 
-The [MR Approval Rules should also be configured to utilize Code Owners](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html#code-owners-as-eligible-approvers) and require at least one Code Owner to approve MRs with affected file types
+The [MR Approval Rules should also be configured to utilize Code Owners](https://docs.gitlab.com/user/project/merge_requests/approvals/rules/#code-owners-as-eligible-approvers) and require at least one Code Owner to approve MRs with affected file types
 
 Please review thoroughly and ask questions in the `#sec-assurance` slack channel, or tag in the MR you're setting up Code Owners with if there is any confusion!
 

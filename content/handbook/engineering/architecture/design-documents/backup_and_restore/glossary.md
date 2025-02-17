@@ -29,4 +29,4 @@ toc_hide: true
 
 ## installation types
 
-- An installation type is the result of using one of [the installation methods](https://docs.gitlab.com/ee/install/install_methods.html).
+- An installation type is the result of using one of [the installation methods](https://docs.gitlab.com/install/install_methods/).

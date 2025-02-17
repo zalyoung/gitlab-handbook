@@ -34,18 +34,18 @@ Examples:
 
 ### Setup AI
 
-Follow this [instructions here](https://docs.gitlab.com/ee/development/ai_features/) to configure your GDK access to AI features.
+Follow this [instructions here](https://docs.gitlab.com/development/ai_features/) to configure your GDK access to AI features.
 
 For GitLab Team members only:
 
-* An EE license is required, follow the steps [here](https://docs.gitlab.com/ee/development/ai_features/#required-setup-licenses-in-gitlab-rails) to request one.
+* An EE license is required, follow the steps [here](https://docs.gitlab.com/development/ai_features/#required-setup-licenses-in-gitlab-rails) to request one.
 * Anthropic access is required. Create an access request if necessary ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/29415)).
 
 #### Duo Access
 
 Once you have AI set up locally, you will need to enable Duo features. Follow the steps below to ensure you have everything correctly configured.
 
-Follow this [instructions here](https://docs.gitlab.com/ee/development/ai_features/#set-up-and-run-gdk) to setup and run GDK.
+Follow this [instructions here](https://docs.gitlab.com/development/ai_features/#set-up-and-run-gdk) to setup and run GDK.
 
 ### Usage
 

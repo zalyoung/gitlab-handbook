@@ -406,9 +406,9 @@ or dedicated installations could then start getting better
 AI-supported features without having to upgrade their GitLab instance.
 
 Features that are currently
-[experimental](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
+[experimental](https://docs.gitlab.com/policy/development_stages_support/#experiment)
 can use these generic APIs, but we should aim to convert to a single
-purpose API endpoint before we make the feature [generally available](https://docs.gitlab.com/ee/policy/development_stages_support.html#generally-available-ga)
+purpose API endpoint before we make the feature [generally available](https://docs.gitlab.com/policy/development_stages_support/#generally-available-ga)
 for self-managed installations. This makes it easier for us to support
 features long-term even if the landscape of AI providers change.
 
@@ -460,7 +460,7 @@ Authenticating the GitLab instance on the AI-gateway was discussed in:
 - [Issue 177](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/177)
 - [Epic 10808](https://gitlab.com/groups/gitlab-org/-/epics/10808)
 
-The specific mechanism by which trust is delegated between end-users, GitLab instances, and the AI-gateway is detailed in the [Cloud Connector access control documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture.html#access-control).
+The specific mechanism by which trust is delegated between end-users, GitLab instances, and the AI-gateway is detailed in the [Cloud Connector access control documentation](https://docs.gitlab.com/development/cloud_connector/architecture/#access-control).
 
 The AI Gateway, as a backend service, handles instance authentication among other tasks. It is accessed through the Cloud Connector Load Balancer (currently implemented as Cloudflare), which acts as a Web Application Firewall (WAF) layer but does not perform authentication. The AI Gateway also needs to support end-user authentication because some requests, such as code completion, will be sent directly by clients rather than indirectly through GitLab Rails. A possible solution involving short-term user tokens is described in [Epic 13252](https://gitlab.com/groups/gitlab-org/-/epics/13252). The AI Gateway must distinguish between requests proxied by GitLab Rails and direct client requests, as some endpoints or parameters may not be available for direct requests (e.g., clients should only send sub-components of the final prompt, which the AI Gateway will build).
 
@@ -475,7 +475,7 @@ The AI Gateway is designed as a stateless service, meaning it does not store any
 ## Embeddings
 
 NOTE:
-For the embedding database, see [RAG for GitLab Duo](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_duo_rag/index.html).
+For the embedding database, see [RAG for GitLab Duo](https://docs.gitlab.com/architecture/blueprints/gitlab_duo_rag/).
 
 Embeddings can be requested for all features in a single endpoint, for
 example through a request like this:
@@ -545,7 +545,7 @@ solutions, including those requiring FedRAMP compliance. This approach
 allows us to serve sophisticated customers capable of managing their
 own LLM infrastructure, providing them with more control and flexibility.
 Instructions on how to setup AIGW on self-managed are found in
-our [docs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
+our [docs](https://docs.gitlab.com/administration/self_hosted_models/install_infrastructure/).
 
 While this adds another component to be installed, the alternative would be
 to implement a model interface in the monolith. This presents serveral
@@ -591,7 +591,7 @@ The AI Gateway, a standalone service, is the sole access point for all communica
 
 This strategy significantly simplifies enterprise management and abstracts machine learning away from the monolith. With future expansions including telemetry, embeddings API, and multi-region/customer-specific deployments, our goal is to provide a scalable, comprehensive AI solution for all GitLab users, regardless of their installation type.
 
-[Model registry](https://docs.gitlab.com/ee/user/project/ml/model_registry/index.html) is a feature that allows users to use GitLab to manage the machine learning models. While not solely focused on large language models, and currently more targeted at smaller model applications, which could be deployed in various ways: as a standalone library, a service, a pod, a cloud deployment, and so forth. For these user-deployed models, the ability to auto-configure an API that's accessible through the AI Gateway could be a significant feature.
+[Model registry](https://docs.gitlab.com/user/project/ml/model_registry/) is a feature that allows users to use GitLab to manage the machine learning models. While not solely focused on large language models, and currently more targeted at smaller model applications, which could be deployed in various ways: as a standalone library, a service, a pod, a cloud deployment, and so forth. For these user-deployed models, the ability to auto-configure an API that's accessible through the AI Gateway could be a significant feature.
 
 - [AI Gateway as the Sole Access Point for Monolith to Access Models](https://gitlab.com/groups/gitlab-org/-/epics/13024)
 
@@ -605,7 +605,7 @@ In the next iteration, we plan to decompose the Chat primitive into multiple pri
 
 The introduction of Unit Primitives will simplify the management of AI features and provide a more granular control over the functionalities exposed through the AI Gateway. This will also pave the way for future work on supporting user-deployed models and locally hosted models.
 
-For more details on how to implement and integrate unit primitives, refer to the [Cloud Connector documentation](https://docs.gitlab.com/ee/development/cloud_connector/index.html).
+For more details on how to implement and integrate unit primitives, refer to the [Cloud Connector documentation](https://docs.gitlab.com/development/cloud_connector/).
 
 ## Other components in the AI stack
 
@@ -615,4 +615,4 @@ While AI Gateway centralizes _access_ to AI features and models, it interacts wi
 
 ### Model registry
 
-[Model registry](https://docs.gitlab.com/ee/user/project/ml/model_registry/index.html) is a feature that allows users to use GitLab to manage the machine learning models. While not solely focused on large language models, and currently more targeted at smaller model applications, which could be deployed in various ways: as a standalone library, a service, a pod, a cloud deployment, and so forth. For these user-deployed models, the ability to auto-configure an API that's accessible through the AI Gateway could be a significant feature.
+[Model registry](https://docs.gitlab.com/user/project/ml/model_registry/) is a feature that allows users to use GitLab to manage the machine learning models. While not solely focused on large language models, and currently more targeted at smaller model applications, which could be deployed in various ways: as a standalone library, a service, a pod, a cloud deployment, and so forth. For these user-deployed models, the ability to auto-configure an API that's accessible through the AI Gateway could be a significant feature.

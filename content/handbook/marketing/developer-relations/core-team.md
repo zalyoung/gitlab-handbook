@@ -18,7 +18,7 @@ All meeting recordings are available at the [Core Team meeting Playlist](https:/
 
 ## Contacting Core Team members
 
-Core Team members can be reached by [mentioning](https://docs.gitlab.com/ee/user/group/subgroups/index#mentioning-subgroups) `@gitlab-org/gitlab-core-team` in issues or merge requests.
+Core Team members can be reached by [mentioning](https://docs.gitlab.com/user/group/subgroups/index#mentioning-subgroups) `@gitlab-org/gitlab-core-team` in issues or merge requests.
 
 While GitLab is the primary means of contact, the Core Team can also be contacted on the [#core](https://gitlab.slack.com/messages/core) Slack channel.
 
@@ -178,7 +178,7 @@ All the channels Core Team members have access to, should follow the [SAFE guide
 
 ### Developer permissions for GitLab projects
 
-To improve their development experience, Core Team members are granted [`Developer` permissions](https://docs.gitlab.com/ee/user/permissions#group-members-permissions) on the [`gitlab-org` group](https://gitlab.com/gitlab-org), where the vast majority of projects for GitLab (the product) reside. For any project under that group, and among other abilities, this enables them to:
+To improve their development experience, Core Team members are granted [`Developer` permissions](https://docs.gitlab.com/user/permissions#group-members-permissions) on the [`gitlab-org` group](https://gitlab.com/gitlab-org), where the vast majority of projects for GitLab (the product) reside. For any project under that group, and among other abilities, this enables them to:
 
 - Create branches on the source project instead of forks
 - Assign merge requests

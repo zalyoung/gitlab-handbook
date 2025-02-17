@@ -5,7 +5,7 @@ title: Secure Technical Documentation
 ## Architecture
 
 - [Overview](#overview)
-- [Severity Levels](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/severities.html)
+- [Severity Levels](https://docs.gitlab.com/user/application_security/vulnerabilities/severities/)
 - [Feedback](feedback/)(Dismiss, create an issue or a Merge Request)
 
 ## Overview
@@ -31,13 +31,13 @@ flowchart LR
 ### Scanning
 
 The scanning part is responsible for finding vulnerabilities in given resources and exporting results.
-The scans are executed in CI jobs via several small projects called [Analyzers](https://docs.gitlab.com/ee/user/application_security/terminology/#analyzer) which can be found in our [Analyzers sub-group](https://gitlab.com/gitlab-org/security-products/analyzers).
-The Analyzers are small wrappers around in-house or external security tools called [Scanners](https://docs.gitlab.com/ee/user/application_security/terminology/#scanner) to integrate them into GitLab.
+The scans are executed in CI jobs via several small projects called [Analyzers](https://docs.gitlab.com/user/application_security/terminology/#analyzer) which can be found in our [Analyzers sub-group](https://gitlab.com/gitlab-org/security-products/analyzers).
+The Analyzers are small wrappers around in-house or external security tools called [Scanners](https://docs.gitlab.com/user/application_security/terminology/#scanner) to integrate them into GitLab.
 The Analyzers are mainly written in Go and rely on our [Common Go library](https://gitlab.com/gitlab-org/security-products/analyzers/common).
 
-Some 3rd party integrators also make additional Scanners available by following our [integration documentation](https://docs.gitlab.com/ee/development/integrations/secure/), which leverages the same architecture.
+Some 3rd party integrators also make additional Scanners available by following our [integration documentation](https://docs.gitlab.com/development/integrations/secure/), which leverages the same architecture.
 
-The results of the scans are exported as JSON reports that must follow [Secure Report Format](https://docs.gitlab.com/ee/user/application_security/terminology/#secure-report-format) and are uploaded as [CI Job Report Artifacts](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html#artifactsreports) to make them available for processing after the pipelines completes.
+The results of the scans are exported as JSON reports that must follow [Secure Report Format](https://docs.gitlab.com/user/application_security/terminology/#secure-report-format) and are uploaded as [CI Job Report Artifacts](https://docs.gitlab.com/ci/jobs/job_artifacts/#artifactsreports) to make them available for processing after the pipelines completes.
 
 This part is mainly covered by the following groups:
 
@@ -51,9 +51,9 @@ This part is mainly covered by the following groups:
 
 Once the data is available as Report Artifact, it can be processed by the [GitLab Rails application](https://gitlab.com/gitlab-org/gitlab) to enable our security features:
 
-- [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/), Merge Request widget, Pipeline view, etc.
-- [Interactions with vulnerabilities](https://docs.gitlab.com/ee/user/application_security/#interacting-with-the-vulnerabilities)
-- [Approval rules](https://docs.gitlab.com/ee/user/application_security/#security-approvals-in-merge-requests)
+- [Security Dashboards](https://docs.gitlab.com/user/application_security/security_dashboard/), Merge Request widget, Pipeline view, etc.
+- [Interactions with vulnerabilities](https://docs.gitlab.com/user/application_security/#interacting-with-the-vulnerabilities)
+- [Approval rules](https://docs.gitlab.com/user/application_security/#security-approvals-in-merge-requests)
 - etc.
 
 Depending on the context, the security reports can be stored in the database or stay as Report Artifacts for on-demand access.

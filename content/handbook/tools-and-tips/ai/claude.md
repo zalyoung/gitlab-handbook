@@ -17,7 +17,7 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
 
 > **Note** Only document public use cases and tips with Claude.ai, and keep everything else SAFE in the [internal handbook](https://internal.gitlab.com/handbook/company/ai-at-gitlab/).
 
-Claude.ai can answer many different questions and topics. Be creative, curious, and explore, and iterate on the best chat prompts. Since [GitLab Duo Chat](gitlab-duo.md) also uses [Anthropic Claude as one of the LLMs](https://docs.gitlab.com/ee/user/gitlab_duo_chat/), you can test and repurpose similar chat prompts.
+Claude.ai can answer many different questions and topics. Be creative, curious, and explore, and iterate on the best chat prompts. Since [GitLab Duo Chat](gitlab-duo.md) also uses [Anthropic Claude as one of the LLMs](https://docs.gitlab.com/user/gitlab_duo_chat/), you can test and repurpose similar chat prompts.
 
 1. Join the [#ai-at-gitlab Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
 1. Download [Claude for Desktop](https://claude.ai/download)
@@ -98,7 +98,7 @@ Please rewrite the following paragraph in more modern writing style.
 ...
 ```
 
-When working on the GitLab documentation, first [download](#download-data) the [development style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/), and then upload it as context into the Chat prompt. Then ask to improve specific copied text based on the style guide.
+When working on the GitLab documentation, first [download](#download-data) the [development style guide](https://docs.gitlab.com/development/documentation/styleguide/), and then upload it as context into the Chat prompt. Then ask to improve specific copied text based on the style guide.
 
 #### Embedding a YouTube video into Markdown
 

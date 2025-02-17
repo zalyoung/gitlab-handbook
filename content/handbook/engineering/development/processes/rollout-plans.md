@@ -38,13 +38,13 @@ Here are some things to consider including in your rollout plan:
     * Engage with counterparts to ensure that necessary automated testing is passing.
     * For changes with a wide impact on the product, engage relevant product groups to gather test cases.
     * Account for different states of data during rollout, such as cached data or data that was in a previously valid state.
-    * Include a pre-check list to ensure you are [supporting multi-version compatibility / backwards compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility.html).
+    * Include a pre-check list to ensure you are [supporting multi-version compatibility / backwards compatibility](https://docs.gitlab.com/development/multi_version_compatibility/).
 1. Communication
     * Include a communication plan that includes relevant stakeholders - such as other stage groups, departments, or by [engaging with Support](/handbook/support/managers/change-management/) to communicate changes to users.
     * Outline in the rollout plan locations to communicate or look for signals of an unsuccessful rollout - such as the #production Slack channel or new issues list.
 1. Staging and Production checks
     * Include any specific checks that need to be done when your changes are released on staging and production.
-    * Include any checks specifically needed for self-managed instances. This may involve testing the change on a [reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) before release.
+    * Include any checks specifically needed for self-managed instances. This may involve testing the change on a [reference architecture](https://docs.gitlab.com/administration/reference_architectures/) before release.
 1. The rollout process itself
    * Describe what must happen in preparation for the rollout
    * Include the specific steps to follow

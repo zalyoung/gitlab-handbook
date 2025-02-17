@@ -81,7 +81,7 @@ To delve deeper into troubleshooting the cluster have a look at [Troubleshoot Cl
 
 ### GitLab Requirements
 
-In order to deploy GitLab on Kubernetes, ensure the setup meets the [documented requirements](https://docs.gitlab.com/charts/installation/tools.html#prerequisites).
+In order to deploy GitLab on Kubernetes, ensure the setup meets the [documented requirements](https://docs.gitlab.com/charts/installation/tools/#prerequisites).
 
 ## Checking kubeSOS output
 

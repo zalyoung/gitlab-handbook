@@ -75,7 +75,7 @@ From a learning and development standpoint, this approach ensures that all team 
 ![GitLab remote collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-We encourage companies to consider [GitLab (the product)](/handbook/company/culture/all-remote/gitlab-for-remote/) to manage L&D within their own handbook. With a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/), for instance, *any* team member can suggest new learnings to the appropriate places. Colleagues and those managing learning and development can comment, add feedback, and shape what is eventually added.
+We encourage companies to consider [GitLab (the product)](/handbook/company/culture/all-remote/gitlab-for-remote/) to manage L&D within their own handbook. With a [merge request](https://docs.gitlab.com/user/project/merge_requests/), for instance, *any* team member can suggest new learnings to the appropriate places. Colleagues and those managing learning and development can comment, add feedback, and shape what is eventually added.
 
 This is powerful in that it encourages team members to continually be mindful of new learnings, and to not keep those learnings to themselves. Said another way, all-remote teams are ideally positioned to *contribute* to learning and development, rather than simply waiting for the L&D team to generate new material to ingest.
 
@@ -163,7 +163,7 @@ Learn more about [GitLab Onboarding in our Handbook](/handbook/people-group/gene
 ![GitLab commit illustration](/images/all-remote/gitlab-commit-illustration.jpg)
 {style="max-width: 50%;"}
 
-All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value](/handbook/values/#transparency).
+All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value](/handbook/values/#transparency).
 
 This removes ambiguity about how the company functions, [how it is organized](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/job-families), and what each position is responsible for.
 
@@ -251,7 +251,7 @@ Learn more about [GitLab's Key Reviews](/handbook/company/key-review/).
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

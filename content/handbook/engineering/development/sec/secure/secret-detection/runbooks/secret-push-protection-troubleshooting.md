@@ -5,7 +5,7 @@ title: "Secret push protection troubleshooting"
 ### When to use this runbook?
 
 Use this runbook for troubleshooting Production issues related to the
-[secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html) feature.
+[secret push protection](https://docs.gitlab.com/user/application_security/secret_detection/secret_push_protection/) feature.
 
 ### Relevant settings
 
@@ -31,7 +31,7 @@ To **disable the feature across all of GitLab.com**, there are two options.
 The first option, and most likely quickest, is to disable the feature via ChatOps. Use the following command: `/chatops run feature set pre_receive_secret_detection_push_check false`
 
 The second option is to disable pre-receive
-secret detection, [as described in the docs](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html#enable-secret-push-protection). This will require a change access request ([production example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17907)), as it requires administrator access.
+secret detection, [as described in the docs](https://docs.gitlab.com/user/application_security/secret_detection/secret_push_protection/#enable-secret-push-protection). This will require a change access request ([production example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17907)), as it requires administrator access.
 
 Either of these options will disable the feature for all GitLab.com users and should be
 used in cases where the feature is causing significant performance degradation.
@@ -106,6 +106,6 @@ are both documented in the in-progress documentation MR.
 
 ## Viewing logs
 
-Secret Detection audit log events are documented [here](https://docs.gitlab.com/ee/user/compliance/audit_event_types.html#secret-detection).
+Secret Detection audit log events are documented [here](https://docs.gitlab.com/user/compliance/audit_event_types/#secret-detection).
 
 For GitLab.com, all logged events can be viewed [here](https://log.gprd.gitlab.net/app/discover#/view/31afcbb2-28e9-466f-a6c3-486e869e1ee3?_g=()&_a=h@bd3f1e1), and logs of just blocked push events due to detected secrets can be viewed [here](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).

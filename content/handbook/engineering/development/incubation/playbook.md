@@ -74,7 +74,7 @@ In order to maintain consistency, the process below should be followed when star
 1. Add all labels from the original backlog issue to the issue you just created. For example: [original issue](https://gitlab.com/gitlab-org/gitlab/-/issues/329592) | [new issue](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/7)
 1. Add the new project to the `seg_issues_list` in the handbook direction generator module in the handbook. See this [MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/93485/diffs) for an example.
 1. Close out the original backlog issue with a comment pointing to the new weekly update issue ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/329592#note_676451924)).
-1. Make sure the project maps to an existing stage and feature category, or create new ones if needed. For example: [Add No-code Automation SEG stage and feature category](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/118730). [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/#rspec-examples) is mandatory in RSpec examples to identify the group owning this file.
+1. Make sure the project maps to an existing stage and feature category, or create new ones if needed. For example: [Add No-code Automation SEG stage and feature category](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/118730). [Feature categorization](https://docs.gitlab.com/development/feature_categorization/#rspec-examples) is mandatory in RSpec examples to identify the group owning this file.
 
 ### Video demos / updates every two weeks
 
@@ -151,8 +151,8 @@ Incubation Engineers should familiarize themselves with the [GitLab AppSec Revie
 
 Incubation Engineers are often required to create prototypes or demo applications as they are iterating on ideas and gathering feedback. Below are some security guidelines to keep in mind while building these applications:
 
-* Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
-* Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+* Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/) or [group CI variables](https://docs.gitlab.com/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
+* Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/).
 * Use of [Personal Access Tokens is discouraged](/handbook/security/#tokens), Project Access Tokens are often sufficient.
 
 ### UX Engagement with Incubation Projects

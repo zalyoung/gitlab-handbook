@@ -28,12 +28,12 @@ Some use cases require tighter integration with Gitaly's write flows. For exampl
 - Authorization checks must run before Gitaly accepts a write in order to reject unauthorized writes.
 - Notifications should be sent after writes in order to trigger CI jobs.
 
-This logic is not built directly into Gitaly to separate concerns. Gitaly calls [the Rails application's internal API](https://docs.gitlab.com/ee/development/internal_api/index.html) for both cases:
+This logic is not built directly into Gitaly to separate concerns. Gitaly calls [the Rails application's internal API](https://docs.gitlab.com/development/internal_api/) for both cases:
 
 - Before accepting a write, Gitaly calls `/internal/allowed`. The response from the endpoint decides whether or not Gitaly accepts the write.
 - After accepting a write, Gitaly calls `/internal/post_receive`.
 
-In addition to calling Rails application's internal API, Gitaly supports [custom hooks](https://docs.gitlab.com/ee/administration/server_hooks.html). Custom hooks are
+In addition to calling Rails application's internal API, Gitaly supports [custom hooks](https://docs.gitlab.com/administration/server_hooks/). Custom hooks are
 executables Gitaly invokes before and after accepting a write and conform to the interface of
 [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks). The `pre-receive` hook can reject a write, `update` hook can drop single reference
 update, and `post-receive` can be used to be notified of accepted writes.
@@ -79,7 +79,7 @@ A better interface could be defined as Gitaly executes the custom hooks. There's
 
 #### Performance issues
 
-Rails performs authorization checks in the internal API by fetching data through Gitaly's public API. This leads to performance issues as Rails may need to fetch the complete write to perform its checks. For example, [pre-receive secret detection](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/index.html) would require fetching all new blobs in a write to perform its checks. This could be avoided if there was a way to run the check locally on the Gitaly node.
+Rails performs authorization checks in the internal API by fetching data through Gitaly's public API. This leads to performance issues as Rails may need to fetch the complete write to perform its checks. For example, [pre-receive secret detection](https://docs.gitlab.com/architecture/blueprints/secret_detection/) would require fetching all new blobs in a write to perform its checks. This could be avoided if there was a way to run the check locally on the Gitaly node.
 
 #### Leaking internals
 
@@ -87,7 +87,7 @@ Before a write is accepted, Gitaly holds the new objects in a quarantine directo
 
 - The quarantines are exposed in the public API.
 - On Gitaly Cluster, the quarantine directory is in a different location on each node. This requires Praefect to support force routing calls to the primary replica so the quarantine path points to the correct location in the follow-up calls.
-- This gets even more complicated with [transactions](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_transaction_management/index.html). The quarantine paths are relative to the transaction's snapshot. In order for the quarantine paths to apply, the relative path sent in the request should be the snapshot repository's relative path. Praefect however requires the original relative path of the repository to route the request to the correct Gitaly node.
+- This gets even more complicated with [transactions](https://docs.gitlab.com/architecture/blueprints/gitaly_transaction_management/). The quarantine paths are relative to the transaction's snapshot. In order for the quarantine paths to apply, the relative path sent in the request should be the snapshot repository's relative path. Praefect however requires the original relative path of the repository to route the request to the correct Gitaly node.
 
 Leaking internals adds complexity and has to be worked around.
 
@@ -125,7 +125,7 @@ Define a plugin interface in Gitaly that enables efficient implementation of pre
 
 ## Proposal
 
-The proposal is written with Gitaly's upcoming [transaction management](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_transaction_management/index.html) in mind.
+The proposal is written with Gitaly's upcoming [transaction management](https://docs.gitlab.com/architecture/blueprints/gitaly_transaction_management/) in mind.
 
 ### Plugins
 

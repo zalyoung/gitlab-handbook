@@ -41,7 +41,7 @@ There is a handy resource the Static Site Editor group has put together for [Git
 
 ### How and When to Use Merge Workflow
 
-Use a merge workflow for feature branches where MULTIPLE PEOPLE ARE WORKING ON THEM. Use the built-in [squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html) functionality when merging an MR to ensure only clean, atomic, squashed commits make it to master.
+Use a merge workflow for feature branches where MULTIPLE PEOPLE ARE WORKING ON THEM. Use the built-in [squash and merge](https://docs.gitlab.com/user/project/merge_requests/squash_and_merge/) functionality when merging an MR to ensure only clean, atomic, squashed commits make it to master.
 
 ```console
 git checkout 0000-branch-name
@@ -67,7 +67,7 @@ git push origin  0000-branch-name
 
 ### Official GitLab Documentation
 
-Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html) in GitLab.
+Here is the [official documentation on merge request conflict resolution](https://docs.gitlab.com/user/project/merge_requests/conflicts/) in GitLab.
 
 Here's a great blog post on [resolving merge conflicts from the GitLab UI](https://about.gitlab.com/blog/2016/09/06/resolving-merge-conflicts-from-the-gitlab-ui/).
 

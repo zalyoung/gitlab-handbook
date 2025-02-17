@@ -29,21 +29,21 @@ A: Once signed into the [Customers Portal](https://customers.gitlab.com/customer
 
 Q: **Will my GitLab subscription auto-renew?**
 
-A: [Please review this section of the GitLab documentation that explains where to check on your subscription card](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal).
+A: [Please review this section of the GitLab documentation that explains where to check on your subscription card](https://docs.gitlab.com/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal).
 
 Q: **Will I be notified about my upcoming renewal?**
 
-A: Yes! 30 days before a subscription expires, a banner with the subscription expiry date displays for administrators in the GitLab user interface. If your subscription is on auto-renew, you will also receive an [email notification](https://docs.gitlab.com/ee/subscriptions/self_managed/#email-notifications).
+A: Yes! 30 days before a subscription expires, a banner with the subscription expiry date displays for administrators in the GitLab user interface. If your subscription is on auto-renew, you will also receive an [email notification](https://docs.gitlab.com/subscriptions/self_managed/#email-notifications).
 
 Q: **When my GitLab subscription is due for renewal, am I able to add or remove licenses?**
 
 A: 15 days before your subscription expires, you will see a *Renew* button under your existing subscription in the [Customers Portal](https://customers.gitlab.com/customers/sign_in). This will allow you to adjust your user quantity.
 
-You cannot manually renew your subscription more than 15 days before the subscription expires. [Please review this section of GitLab documentation for instructions on how to manually renew.](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
+You cannot manually renew your subscription more than 15 days before the subscription expires. [Please review this section of GitLab documentation for instructions on how to manually renew.](https://docs.gitlab.com/subscriptions/self_managed/#renew-subscription-manually).
 
 ![manage.renewal](/images/renew_15days_v17_4.png)
 
-Please be aware that if you do not renew manually, you will be [auto-renewed](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
+Please be aware that if you do not renew manually, you will be [auto-renewed](https://docs.gitlab.com/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: **I see I was charged for a Quarterly Subscription Reconciliation. What is this for?**
 
@@ -51,7 +51,7 @@ A: Quarterly reconciliation occurs when you exceed your license limit. You will 
 
 ![QSR.warning](/images/QSR_disclaimer_v17_5.png)
 
-More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
+More information on this can be found [here](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/).
 
 If you want to contest these overages, you can open an [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293) and select the problem type *Quarterly Subscriptions Reconciliation (QSR) Related Problems*.
 
@@ -69,9 +69,9 @@ Q: **My GitLab subscription is due for renewal, and I would like to renew. How d
 
 A: Please see the below content on how to renew, based on your hosting model.
 
-SaaS Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-gitlabcom-subscription)
+SaaS Subscription - [How to Renew](https://docs.gitlab.com/subscriptions/gitlab_com/#renew-gitlabcom-subscription)
 
-Self Managed Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-your-subscription)
+Self Managed Subscription - [How to Renew](https://docs.gitlab.com/subscriptions/self_managed/#renew-your-subscription)
 
 Q: **During my GitLab subscription term, am I able to remove unused licenses and receive a refund for these?**
 
@@ -87,15 +87,15 @@ A: Yes, these users will count as a billable user, and will be charged for.
 
 Q: **I would like to give another user access to my subscription account in the GitLab Customers Portal. How do I do this?**
 
-A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-or-change-subscription-contacts) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
+A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](https://docs.gitlab.com/subscriptions/gitlab_com/#add-or-change-subscription-contacts) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
 
 Q: **I am part way through my GitLab subscription term and I would like to buy extra licenses for some recent hires. Am I able to do this?**
 
 A:  Yes!  Please see the below content on how to add users, based on your hosting model.
 
-SaaS Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-seats-to-subscription)
+SaaS Subscription - [How to Add User](https://docs.gitlab.com/subscriptions/gitlab_com/#add-seats-to-subscription)
 
-Self Managed Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/self_managed/#add-seats-to-a-subscription)
+Self Managed Subscription - [How to Add User](https://docs.gitlab.com/subscriptions/self_managed/#add-seats-to-a-subscription)
 
 ### GitLab Employee Focused Questions
 
@@ -185,10 +185,10 @@ A: If the customer has exceed their license count (this info can be viewed under
 
 [Auto Renewal FAQ](https://internal.gitlab.com/handbook/product/fulfillment/archive/auto-renewal-old/)
 
-[How to subscribe to GitLab](https://docs.gitlab.com/ee/subscriptions/)
+[How to subscribe to GitLab](https://docs.gitlab.com/subscriptions/)
 
 [Licensing FAQ](/handbook/support/license-and-renewals/)
 
-[QSR Process](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
+[QSR Process](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/)
 
 [Cloud Licensing](https://gitlab.highspot.com/items/629a82af9092e7ac989947ca?lfrm=srp.0)

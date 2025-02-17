@@ -19,7 +19,7 @@ status: active
 
 In the context of this working group:
 
-1. keep-around refs: Git references [created through Gitaly](https://docs.gitlab.com/ee/development/gitaly.html#gitlab-specific-references) to ensure certain Git
+1. keep-around refs: Git references [created through Gitaly](https://docs.gitlab.com/development/gitaly/#gitlab-specific-references) to ensure certain Git
    data does not get pruned by Gitaly.
 
 ### Exit criteria

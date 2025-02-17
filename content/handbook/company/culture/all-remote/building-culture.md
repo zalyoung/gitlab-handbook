@@ -236,7 +236,7 @@ A remote culture is only as strong as it is lived. At GitLab, we encourage team 
 1. Use values emoji — ![CREDIT emoji](/images/handbook/values-emoji.png) — to recognize messages that exemplify a company value.
 1. Recommend a colleague for a [discretionary bonus](/handbook/total-rewards/incentives/#discretionary-bonuses). If granted, the rationale and values lived are then documented and announced during a company call, serving as a beacon to others on how to improve the lives of others by living the values.
 1. Serving as a GitLab [Contribute Ambassador](/handbook/company/culture/summit/#ambassadors), which helps the entire company get the most out of a [weeklong trip](/handbook/company/culture/summit/) to spend time with each other in person every 9-12 months.
-1. Everyone can contribute to strengthening GitLab's values by creating [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) and fostering discussion.
+1. Everyone can contribute to strengthening GitLab's values by creating [merge requests](https://docs.gitlab.com/user/project/merge_requests/) and fostering discussion.
 
 ## Put structure around culture
 
@@ -266,7 +266,7 @@ If this is not feasible, and your company operates elsewhere on the [spectrum of
 
 ## Contribute your lessons
 
-Creating and evolving company culture is something that all remote organizations must tackle. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+Creating and evolving company culture is something that all remote organizations must tackle. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 ## GitLab Knowledge Assessment: Building and reinforcing a sustainable culture
 

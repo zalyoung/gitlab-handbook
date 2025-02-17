@@ -12,11 +12,11 @@ get merged into GitLab.
 - Close merge requests that we don't want, with a clear explanation on the
   reasons why, so that people don't feel discouraged but incentivized that they can make a difference next time.
 - Help contributors to get their merge requests to meet the
-  [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria).
+  [contribution acceptance criteria](https://docs.gitlab.com/development/contributing/merge_request_workflow/#contribution-acceptance-criteria).
 - Act on the merge requests assigned to you on the daily [newly created community contribution merge requests triage report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#newly-created-community-contribution-merge-requests-requiring-first-triage).
 - Help find and assign merge requests to available reviewers.
 - If the contributor is unresponsive or if they are unable to finish it, finish
-  their merge requests. Also, see the [closing policy for merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership).
+  their merge requests. Also, see the [closing policy for merge requests](https://docs.gitlab.com/development/contributing/merge_request_workflow/#merge-request-ownership).
 - Make it easy to contribute to GitLab even for people who are new to Ruby,
   JavaScript, Golang, etc. or programming entirely. For example, you can add any hints or possible fixes on issues that are open for community contribution.
 - Join and actively follow the internal [`#mr-coaching` Slack channel](https://app.slack.com/client/T02592416/C2T9APP9C) and the external [GitLab Community Discord](https://discord.gg/gitlab) to assist contributors and fellow MR Coaches when they need help or to discuss best practices for collaboration.
@@ -43,7 +43,7 @@ With each merge request opened by a wider community member, it's important to no
 After a merge request from a wider community member has been submitted and you have provided feedback, allow a period of up to **two weeks** for the community member to continue their work before following up with the community member through a comment in the merge request.
 
 The Danger bot performs many useful activities including reviewer roulette.
-Merge requests from forks outside GitLab require [setup](https://docs.gitlab.com/ee/development/dangerbot.html#configuring-danger-for-forks) to run it.
+Merge requests from forks outside GitLab require [setup](https://docs.gitlab.com/development/dangerbot/#configuring-danger-for-forks) to run it.
 If this setup is missing, you can run the pipeline yourself and it will use your token.
 Or [spin the roulette manually](https://gitlab-org.gitlab.io/gitlab-roulette).
 Please verify that the merge request contains no abusive changes before doing so.
@@ -81,7 +81,7 @@ Sometimes community contributions become stale or obsolete and changes become no
 
 In all cases, **always** provide some context on why the merge request is being closed as this can lead to fewer questions later on and create a point for future reference which would be useful for team members and community contributors.
 
-Last but not least, if there's an opportunity to provide any help or pointers for future contributions try to do that. This could be pointing to [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html), documentation on [how to contribute](https://docs.gitlab.com/ee/development/contributing/#how-to-contribute), or [getting help](https://docs.gitlab.com/ee/development/contributing/#get-help) while [contributing](https://about.gitlab.com/community/contribute/) to GitLab.
+Last but not least, if there's an opportunity to provide any help or pointers for future contributions try to do that. This could be pointing to [code review guidelines](https://docs.gitlab.com/development/code_review/), documentation on [how to contribute](https://docs.gitlab.com/development/contributing/#how-to-contribute), or [getting help](https://docs.gitlab.com/development/contributing/#get-help) while [contributing](https://about.gitlab.com/community/contribute/) to GitLab.
 
 #### Closing empty merge requests
 

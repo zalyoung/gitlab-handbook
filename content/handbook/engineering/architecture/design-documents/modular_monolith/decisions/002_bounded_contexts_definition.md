@@ -25,7 +25,7 @@ would be much better than translating organization structure into folder structu
 
 However, this guideline alone is not sufficient and we need a more specific strategy:
 
-- Bounded contexts (top level modules) should be [sufficiently deep](https://docs.gitlab.com/ee/development/software_design.html#use-namespaces-to-define-bounded-contexts)
+- Bounded contexts (top level modules) should be [sufficiently deep](https://docs.gitlab.com/development/software_design/#use-namespaces-to-define-bounded-contexts)
   to encapsulate implementation details and provide a smaller interface.
 - Some product categories, such as Browser Performance Testing, are just too small to represent
   a bounded context on their own.
@@ -44,7 +44,7 @@ Then, group related or strongly coupled categories under the same bounded contex
 In May 2024 we completed the [Bounded Contexts working group](../../../../company/working-groups/bounded-contexts/)
 which completed the first phase of modularization, described in this page.
 
-We defined a list of [bounded contexts in code](https://docs.gitlab.com/ee/development/software_design.html#use-namespaces-to-define-bounded-contexts)
+We defined a list of [bounded contexts in code](https://docs.gitlab.com/development/software_design/#use-namespaces-to-define-bounded-contexts)
 and started enforcing them with RuboCop, in order to move towards a fully namespaced monolith.
 Team members can edit this list by creating and deleting bounded contexts explicitly and the decision is reviewed
 by Staff+ engineers.

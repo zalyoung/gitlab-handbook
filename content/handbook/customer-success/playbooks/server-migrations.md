@@ -23,7 +23,7 @@ This playbook supports the following migrations...
 Each of these migrations are covered in more detail in the playbook itself.
 Additionally, each of these migrations will have there own playbook in Gainsight.
 
-**Note:** *GitLab highly recommends that customers use our [standard reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) based on their current number of users and accounting for any anticipated growth. Any deviations from these reference architectures may lead to degraded reliability and performance.*
+**Note:** *GitLab highly recommends that customers use our [standard reference architectures](https://docs.gitlab.com/administration/reference_architectures/) based on their current number of users and accounting for any anticipated growth. Any deviations from these reference architectures may lead to degraded reliability and performance.*
 
 ## Migration Methodologies
 
@@ -31,7 +31,7 @@ There are a number of different methodologies for migrating GitLab. This section
 
 ### GitLab Geo
 
-[GitLab Geo](https://docs.gitlab.com/ee/administration/geo/index.html) is built-in functionality that is included with GitLab Premium. It allows a customer to create a read-only replica server that is automatically updated with every change made to the primary server. It also allows for manual failover for disaster recovery. This failover functionality is what makes GitLab Geo an excellent option for server migrations.
+[GitLab Geo](https://docs.gitlab.com/administration/geo/) is built-in functionality that is included with GitLab Premium. It allows a customer to create a read-only replica server that is automatically updated with every change made to the primary server. It also allows for manual failover for disaster recovery. This failover functionality is what makes GitLab Geo an excellent option for server migrations.
 
 **Pros**
 
@@ -44,7 +44,7 @@ There are a number of different methodologies for migrating GitLab. This section
 **Cons**
 
 - Due to the constant need to be connected to the primary server, it is difficult to de-couple the new server for testing.
-- Some data is not replicated. [See here for a full list of replicated data types](https://docs.gitlab.com/ee/administration/geo/replication/datatypes.html). Non-replicated data would have to be subsequently synced over via Rsync.
+- Some data is not replicated. [See here for a full list of replicated data types](https://docs.gitlab.com/administration/geo/replication/datatypes/). Non-replicated data would have to be subsequently synced over via Rsync.
 - Geo setup is non-trivial.
 - Geo adds additional complexity to the migration (ie, there are more moving parts and therefore more things that can go wrong).
 
@@ -68,7 +68,7 @@ Rsync is a standard Linux/Unix tool used to transfer files from a remote locatio
 
 ### GitLab Backup & Restore
 
-GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/administration/backup_restore/index.html).
+GitLab does include [backup & restore functionality](https://docs.gitlab.com/administration/backup_restore/).
 
 **Pros**
 
@@ -83,7 +83,7 @@ GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/
 
 ### GitLab Project Export & Import
 
-GitLab has [export/import functionality](https://docs.gitlab.com/ee/user/project/settings/import_export.html) that allows the per project transfer of projects from one server to another.
+GitLab has [export/import functionality](https://docs.gitlab.com/user/project/settings/import_export/) that allows the per project transfer of projects from one server to another.
 
 **Pros**
 
@@ -93,7 +93,7 @@ GitLab has [export/import functionality](https://docs.gitlab.com/ee/user/project
 
 - Only way to migrate from self-managed to GitLab SaaS w/o PS help.
 - Very manual and slow. Has to be done on a per-project basis.
-- Target & Destination servers need to be very similar versions. [See compatible versions here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history).
+- Target & Destination servers need to be very similar versions. [See compatible versions here](https://docs.gitlab.com/user/project/settings/import_export/#version-history).
 
 ## Tools & Resources
 

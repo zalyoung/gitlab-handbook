@@ -2,7 +2,7 @@
 title: "Responding to customers security scanners review requests"
 ---
 
-We scan our own product using our [security scanners](https://docs.gitlab.com/ee/user/application_security/). Our Engineering teams are remediating vulnerabilities detected by our scanners on a regular basis. This is done when a patch is available **and** for vulnerabilities that can be exploited in our context.
+We scan our own product using our [security scanners](https://docs.gitlab.com/user/application_security/). Our Engineering teams are remediating vulnerabilities detected by our scanners on a regular basis. This is done when a patch is available **and** for vulnerabilities that can be exploited in our context.
 
 We often receive inquiries from customers regarding potential vulnerabilities detected by their own scanning tools or those integrated into GitLab. We value our customers' trust in our expertise to assess these issues. However, given the volume of requests we receive and our limited resources, we kindly request cooperation in performing a reasonable level of initial review before seeking our input. These proactive efforts will enable us to focus on addressing the most critical vulnerabilities efficiently.
 
@@ -15,17 +15,17 @@ We are accepting requests to review vulnerabilities detected in the latest versi
 - `gitlab/gitlab-ee:latest` (Docker Hub)
 - `gitlab/gitlab-runner:latest` (Docker Hub)
 
-Ensure you are scanning an image running on the latest release or previous two monthly release version. You can consult our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) for more details on supported versions for security backports. We will typically not be able to review scanner findings for codebases and image versions outside of the maintenance policy.
+Ensure you are scanning an image running on the latest release or previous two monthly release version. You can consult our [maintenance policy](https://docs.gitlab.com/policy/maintenance/) for more details on supported versions for security backports. We will typically not be able to review scanner findings for codebases and image versions outside of the maintenance policy.
 
 ### What scanners results are we accepting?
 
 We are accepting the following scanner results:
 
-- [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
-- [Dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)
-- [Container scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
-- [Secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)
+- [SAST](https://docs.gitlab.com/user/application_security/sast/)
+- [DAST](https://docs.gitlab.com/user/application_security/dast/)
+- [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/)
+- [Container scanning](https://docs.gitlab.com/user/application_security/container_scanning/)
+- [Secret detection](https://docs.gitlab.com/user/application_security/secret_detection/)
 
 Results from our scanners are accepted for review as long as [you have triaged the results first](#review-scanner-results).
 

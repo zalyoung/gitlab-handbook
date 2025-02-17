@@ -129,8 +129,8 @@ When new features are added to the product they will sometimes only partially me
 Some possible examples of this are:
 
 - Removing the monitoring of commits from our secrets monitoring tooling when the Secrets Push Protection feature is fully available
-- Replacing the custom categorization of projects using YAML files in the [inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/) and replacing it with [Compliance Frameworks](https://docs.gitlab.com/ee/user/group/compliance_frameworks.html) labels when we can [assign multiple labels](https://gitlab.com/groups/gitlab-org/-/epics/13294)
-- Use the [Dependencies API](https://docs.gitlab.com/ee/api/dependencies.html) instead of the inventory in [gem-checker](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/gem-checker) when the API becomes stable
+- Replacing the custom categorization of projects using YAML files in the [inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/) and replacing it with [Compliance Frameworks](https://docs.gitlab.com/user/group/compliance_frameworks/) labels when we can [assign multiple labels](https://gitlab.com/groups/gitlab-org/-/epics/13294)
+- Use the [Dependencies API](https://docs.gitlab.com/api/dependencies/) instead of the inventory in [gem-checker](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/gem-checker) when the API becomes stable
 
 In each situation the custom tool is still in use, but we dogfood more of the product and can give early feedback to the teams about what the issues are, if any.
 

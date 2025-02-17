@@ -57,7 +57,7 @@ The most significant impact towards fostering wider community contributions is t
 
 - Are clear and concise (e.g., the most relevant information is kept [above the fold](https://en.wikipedia.org/wiki/Above_the_fold) and not buried in discussion comments)
 - Do not assume prior knowledge (e.g., a code refactoring that references a new pattern by name without any links or details)
-- Are weighted and the weight is decoupled from time estimates and specific assignees ([see relevant guideline](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#issue-weight)). When issues are weighted for specific individuals, we discourage the wider community from participating and [reinforce silos](#symptom-of-a-silo).
+- Are weighted and the weight is decoupled from time estimates and specific assignees ([see relevant guideline](https://docs.gitlab.com/development/contributing/issue_workflow/#issue-weight)). When issues are weighted for specific individuals, we discourage the wider community from participating and [reinforce silos](#symptom-of-a-silo).
 
 With the wider community as the primary audience, the issue writer is forced to consider that someone who picks up an issue may not even know where to get started. This is an incredible motivator to investigate and leave an **implementation guide**.
 

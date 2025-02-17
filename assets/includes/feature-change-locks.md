@@ -56,7 +56,7 @@ During the FCL, the team(s) exclusive focus is around [reliability work](#scope-
 - Hold a synchronous `closing ceremony` upon completing the FCL to review the retrospectives and celebrate the learnings.
   - All FCL stakeholders and participants shall attend or participate async.  Managers of the groups participating in the FCL, including Sr. EMs and Directors should be invited.
   - Agenda includes reviewing FCL retrospective notes and sharing learnings about improving code change quality and reducing risk of availability.
-  - Outcome includes [handbook](/handbook/) and [GitLab Docs](https://docs.gitlab.com/ee/) updates where applicable.
+  - Outcome includes [handbook](/handbook/) and [GitLab Docs](https://docs.gitlab.com/) updates where applicable.
 
 ##### Scope of work during FCL
 

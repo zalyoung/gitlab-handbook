@@ -13,7 +13,7 @@ In [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/
 
 ## Decision
 
-It was decided that we should have a single GKE cluster per Cell. The motivating factor behind this decision is simplicity: the Cells tooling will harness the existing Dedicated tooling, which in turn uses the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) to deploy the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html). None of the Reference Architectures support running a single GitLab instance across multiple GKE clusters.
+It was decided that we should have a single GKE cluster per Cell. The motivating factor behind this decision is simplicity: the Cells tooling will harness the existing Dedicated tooling, which in turn uses the [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) to deploy the [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/). None of the Reference Architectures support running a single GitLab instance across multiple GKE clusters.
 
 The decision made in [ADR 002](002_gcp_project_boundary.md) to have one Cell per GCP project, along with the choice made above, precludes the possibility of having multiple GKE clusters serve a single Cell.
 

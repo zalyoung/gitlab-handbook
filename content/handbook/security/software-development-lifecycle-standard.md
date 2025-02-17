@@ -57,7 +57,7 @@ Software development at GitLab is accomplished using industry standard developme
 
 Software development must be accomplished using GitLab's development platform in a version controlled manner.
 
-Development must adhere to [Code review guidelines](/handbook/engineering/workflow/code-review/) and [secure coding best practices](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html) (to avoid introducing vulnerabilities).
+Development must adhere to [Code review guidelines](/handbook/engineering/workflow/code-review/) and [secure coding best practices](https://docs.gitlab.com/development/secure_coding_guidelines/) (to avoid introducing vulnerabilities).
 
 Development work must undergo testing and approval prior to deployment to production. This includes configuration changes and other related changes that may not be considered "development" work.
 
@@ -71,4 +71,4 @@ After any necessary verification in production is completed, details of changes 
 
 GitLab continuously monitors the state and stability of its platforms.
 
-Maintenance of GitLab's platform is conducted in accordance with [GitLab's release and maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+Maintenance of GitLab's platform is conducted in accordance with [GitLab's release and maintenance policy](https://docs.gitlab.com/policy/maintenance/).

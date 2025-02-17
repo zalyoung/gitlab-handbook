@@ -49,7 +49,7 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
   - *Instead* set an access expiration date when you invite a customer.
 
 - **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
-  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/user/project/settings/project_access_tokens/) or [Group Access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
 
 ## Cloud Testing Environments
 
@@ -67,7 +67,7 @@ GCP resources can belong to different [GCP projects](https://cloud.google.com/st
 
 #### GitLab Sandbox Cloud for GCP (preferred)
 
-If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
+If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
 
 **Note:** Please remember to shut down resources that you are no longer using.
 We are now using [automation scripts](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/instance-ttl-automation) to shutdown resources over the weekend. To exclude your resources from being shutdown you'll need to add the `instance-ttl-bot-ignore` label to those resources.
@@ -352,7 +352,7 @@ If you wish to test resources using a real domain name (instead of an IP address
 ## Securing Cloud Testing Environments
 
 Test instances are, by default, publicly accessible on the Internet. Often, we need to test specific versions or configurations that may be vulnerable to remote compromise. It is your responsibility to secure your test instances to prevent them from being compromised and used to further attack our cloud environment.
-
+[Configure HTTPS manually](https://docs.gitlab.com/omnibus/settings/ssl/
 The [GitLab Red Team](/handbook/engineering/security/threat-management/red-team/) regularly scans GitLab's cloud environments for publicly accessible instances with known vulnerabilities. Instances vulnerable to known RCEs or other exploits detected through automated scans will be shut down without warning.
 
 ### IP Filtering
@@ -391,7 +391,7 @@ The command's output will tell you the filenames that are generated:
 > The certificate is at "./gitlab.example.com.pem" and the key at "./gitlab.example.com-key.pem" ✅
 >```
 
-For instructions on using self-signed certificates on your test instances, please review the GitLab docs on [Configure HTTPS manually](https://docs.gitlab.com/omnibus/settings/ssl/index.html#configure-https-manually) and the documentation available from these cloud service providers:
+For instructions on using self-signed certificates on your test instances, please review the GitLab docs on [Configure HTTPS manually](https://docs.gitlab.com/omnibus/settings/ssl/#configure-https-manually) and the documentation available from these cloud service providers:
 
 - [Google Cloud](https://cloud.google.com/load-balancing/docs/ssl-certificates/self-managed-certs)
 - [AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html)
@@ -703,7 +703,7 @@ gitlab/gitlab-ee:$VERSION
 ```sh
 echo $IP
 # example output: 192.168.151.134
-```
+```[Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/
 
 - Browse to: <https://192.168.151.134:8888/>
 
@@ -741,8 +741,8 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 ## Windows
 
-It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows.html) or
-even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/index.html#example-for-windowsamd64).
+It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows/) or
+even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/#example-for-windowsamd64).
 
 The options are the same as above:
 

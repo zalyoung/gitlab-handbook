@@ -21,7 +21,7 @@ To help you manage your issues, GitLab provides metadata for each issue. Metadat
 
 - **Iteration:** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
 
-You can learn more about issues and metadata in the [documentation](https://docs.gitlab.com/ee/user/project/issues/).
+You can learn more about issues and metadata in the [documentation](https://docs.gitlab.com/user/project/issues/).
 
 ## Task A. Set issue metadata
 
@@ -45,7 +45,7 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. Apply the label **Status::WIP**. Note this replaces the previous **Status::Open** label, since an issue can't simultaneously have multiple labels with the same scope (the "Status::" part of the label).
 
-   > For more information about scoped labels, see the [documentation](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
+   > For more information about scoped labels, see the [documentation](https://docs.gitlab.com/user/project/labels/#scoped-labels).
 
 1. In the issue's metadata pane, click **Edit** next to the **Weight** field.
 
@@ -63,7 +63,7 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. To promote this issue to an epic, use the `/promote` quick action in the issue's comment field, then click **Comment**.
 
-   > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the descriptions or comments of issues, epics, merge requests, and commits. For more information about quick actions, click [here](https://docs.gitlab.com/ee/user/project/quick_actions.html).
+   > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the descriptions or comments of issues, epics, merge requests, and commits. For more information about quick actions, click [here](https://docs.gitlab.com/user/project/quick_actions/).
    >
    > You can also promote an issue to an epic by clicking the **vertical ellipsis** next to the **Edit button**, then clicking **Promote to epic** in the resulting menu.
 

@@ -4,7 +4,7 @@ description: "This document explains the workflow for anyone working with issues
 ---
 
 This document explains the workflow for anyone working with issues in GitLab Inc.
-For the workflow that applies to the wider community see the [contributing guide](https://docs.gitlab.com/ee/development/contributing/).
+For the workflow that applies to the wider community see the [contributing guide](https://docs.gitlab.com/development/contributing/).
 
 ## GitLab Flow
 
@@ -47,7 +47,7 @@ If you notice that pipelines for the `master` branch of [GitLab](https://gitlab.
 
 A broken master is an event where a pipeline in `master` is failing.
 
-The cost to fix test failures increases exponentially as time passes due to [merged results pipelines](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) used. Auto-deploys, as well as monthly releases and security releases, depend on `gitlab-org/gitlab` master being green for tagging and [merging of backports](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/release-manager.md#regular-security-releases).
+The cost to fix test failures increases exponentially as time passes due to [merged results pipelines](https://docs.gitlab.com/ci/pipelines/merged_results_pipelines/) used. Auto-deploys, as well as monthly releases and security releases, depend on `gitlab-org/gitlab` master being green for tagging and [merging of backports](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/release-manager.md#regular-security-releases).
 
 Our aim should be to keep `master` free from failures, not to fix `master` only after it breaks.
 
@@ -136,9 +136,9 @@ A notification will be sent to the attributed group's Slack channel, or the `#g_
       - Announce that `master` is fixed by enter `/broadcast master fixed` in the chat bar of the `#master-broken` channel to invoke this workflow, and then click `Continue the broadcast`.
       - [Create a revert MR directly](#reverting-a-merge-request) to save some time in case we need to revert down the line.
         - If you are reverting an MR that performs a database migration, you need to follow the [Deployment blockers process](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to prevent the migration from proceeding to deploy and running on staging and production.
-        - If the migration is executed in any environments, communicate to the release managers in `#releases` channel and discuss whether it's appropriate to create another migration to roll back the first migration or turn the migration into a no-op by following [Disabling a data migration steps](https://docs.gitlab.com/ee/development/database/deleting_migrations.html#how-to-disable-a-data-migration).
+        - If the migration is executed in any environments, communicate to the release managers in `#releases` channel and discuss whether it's appropriate to create another migration to roll back the first migration or turn the migration into a no-op by following [Disabling a data migration steps](https://docs.gitlab.com/development/database/deleting_migrations/#how-to-disable-a-data-migration).
    - If you identified that `master` fails **for a flaky reason**, and it cannot be reliably reproduced (i.e. running the failing spec locally or retrying the failing job):
-      - [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#quarantined-tests) the failing test to restore pipeline stability within 30 minutes if the flakiness is continuously causing master pipeline incidents.
+      - [Quarantine](https://docs.gitlab.com/development/testing_guide/flaky_tests/#quarantined-tests) the failing test to restore pipeline stability within 30 minutes if the flakiness is continuously causing master pipeline incidents.
       - Alternatively, if the failure does not seem disruptive, and you have a fix that you are confident with, submit the fix MR with the ~"master:broken" label to ensure your pipeline is expedited.
       - If a flaky test issue already exists, add a comment in it with a link to the failed broken master incident and/or failed job. We have automation in place to create test failure issues automatically. The issue is named after the spec path, which can be a search keyword.
       - If a flaky test issue doesn't exist, create an issue from the `New issue` button in top-right of the failing job page (that will automatically add a link to the job in the issue), and apply the `Broken Master - Flaky` description template.
@@ -207,7 +207,7 @@ A notification will be sent to the attributed group's Slack channel, or the `#g_
 
 #### Pro-tips for Triage DRI
 
-1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) feature following [this documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#troubleshoot-failed-cicd-jobs-with-root-cause-analysis).
+1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/user/gitlab_duo/#root-cause-analysis) feature following [this documentation](https://docs.gitlab.com/user/gitlab_duo_chat/examples/#troubleshoot-failed-cicd-jobs-with-root-cause-analysis).
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
 
    - **Note**, The `retry_job` command can fail for the following reasons:
@@ -229,7 +229,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
        - Reverts can go straight to maintainer review and require 1 maintainer approval.
        - The maintainer can request additional review/approvals if the revert is not trivial.
        - The `pipeline::expedited` label, and `master:broken` or `master:foss-broken` label must be set on merge requests that fix `master` to skip some non-essential jobs in order to speed up the MR pipelines.
-   - [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#quarantined-tests) the failing test if you can confirm that it is flaky (e.g. it wasn't touched recently and passed after retrying the failed job).
+   - [Quarantine](https://docs.gitlab.com/development/testing_guide/flaky_tests/#quarantined-tests) the failing test if you can confirm that it is flaky (e.g. it wasn't touched recently and passed after retrying the failed job).
      - Add the `quarantined test` label to the `failure::flaky-test` issue you previously created during the identification phase.
    - Create a new merge request to fix the failure if revert is not possible or would introduce additional risk. This should be treated as a `priority::1` `severity::1` issue.
      - To ensure efficient review of the fix, the merge request should only contain the minimum change needed to fix the failure. Additional refactor or improvement to the code should be done as a follow-up.
@@ -252,9 +252,9 @@ Once the resolution DRI announces that `master` is fixed:
 
 - Maintainers should start a new merged results pipeline (for canonical MRs)
   and enable "Auto-merge".
-  There's no need to rebase once `master` has been fixed since we use [merged results pipelines](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html).
+  There's no need to rebase once `master` has been fixed since we use [merged results pipelines](https://docs.gitlab.com/ci/pipelines/merged_results_pipelines/).
 - (For forks only) Authors should rebase their open merge requests (since
-  [merged results pipelines](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html)
+  [merged results pipelines](https://docs.gitlab.com/ci/pipelines/merged_results_pipelines/)
   isn't supported in these cases).
 
 ### Merging during broken master
@@ -279,7 +279,7 @@ Merging while `master` is broken can only be done for:
 
 First, ensure the latest pipeline has completed less than 2 hours ago (although it is likely to have failed due to
 `gitlab-org/gitlab` using
-[merged results pipelines](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html)).
+[merged results pipelines](https://docs.gitlab.com/ci/pipelines/merged_results_pipelines/)).
 
 Next, make a request on Slack:
 
@@ -308,7 +308,7 @@ Next, ensure that all the following conditions are met:
 
 1. The latest pipeline has completed less than 2 hours ago (although it is likely to have failed due to
    `gitlab-org/gitlab` using
-   [merged results pipelines](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html)).
+   [merged results pipelines](https://docs.gitlab.com/ci/pipelines/merged_results_pipelines/)).
 1. All of the latest pipeline failures also happen on `master`.
 1. There is a corresponding non-resolved [broken `master` incidents](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues).
    See the "Triage DRI Responsibilities" steps above for more details.
@@ -327,7 +327,7 @@ Next, merge the merge request:
 - If the "Merge" button is enabled (this is unlikely), then click it.
 - Otherwise, you must:
   1. Unset the
-    ["Pipelines must succeed" setting](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html#require-a-successful-pipeline-for-merge)
+    ["Pipelines must succeed" setting](https://docs.gitlab.com/user/project/merge_requests/auto_merge/#require-a-successful-pipeline-for-merge)
     for the [`gitlab-org/gitlab` project](https://gitlab.com/gitlab-org/gitlab/edit).
   1. Click the "Merge" button.
   1. If the merge train is enabled, a warning will be displayed stating the code changes won't be validated by the merge train. Considering the criticality of the merge request it is acceptable to dismiss the warning.
@@ -390,30 +390,30 @@ For better efficiency, it's common for a regression to be fixed in an MR without
    - Add the `workflow::in dev` label to the issue.
    - Create a merge request (MR) by clicking on the **Create merge request** button in the issue. This creates a MR with the labels, milestone and title of the issue. It also relates the just created MR to the issue.
    - Assign the MR to yourself.
-   - Work on the MR until it is ready, it meets GitLab's [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and the pipeline succeeds.
+   - Work on the MR until it is ready, it meets GitLab's [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done), and the pipeline succeeds.
    - Edit the description and click on the **Remove the Draft: prefix from the title** button.
-   - Assign it to the suggested reviewer(s) from [Reviewer Roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette). If there are reviewers for multiple categories, for example: frontend, backend and database, assign all of them. Alternatively, assign someone who specifically needs to review. When assigning, also @mention them in the comments, requesting a review.
+   - Assign it to the suggested reviewer(s) from [Reviewer Roulette](https://docs.gitlab.com/development/code_review/#reviewer-roulette). If there are reviewers for multiple categories, for example: frontend, backend and database, assign all of them. Alternatively, assign someone who specifically needs to review. When assigning, also @mention them in the comments, requesting a review.
    - (Optionally) Unassign yourself from the MR. Some may find leaving the MR assigned to themselves easier to track the MRs they are responsible for by using the built in MR button/notification icon in the GitLab navigation bar.
    - Change the workflow label of the issue to `workflow::in review`. If multiple people are working on the issue or multiple workflow labels might apply, consider breaking the issue up. Otherwise, default to the workflow label farthest away from completion.
    - Potentially, a reviewer offers feedback and assigns back to the author.
    - The author addresses the feedback and this goes back and forth until all reviewers approve the MR.
    - After approving, the reviewer in each category unassigns themselves and assigns the suggested maintainer in their category.
    - Maintainer reviews take place with any back and forth as necessary and attempts to resolve any open threads.
-   - The last maintainer to approve the MR, follows the [Merging a merge request](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) guidelines.
+   - The last maintainer to approve the MR, follows the [Merging a merge request](https://docs.gitlab.com/development/code_review/#merging-a-merge-request) guidelines.
    - (Optionally) Change the workflow label of the issue to `workflow::verification`, to indicate all the development work for the issue has been done and it is waiting to be deployed and verified. We will use this label in cases where the work was requested to be verified by product OR we determined we need to perform this verification in production.
    - When the change has been verified, change the workflow label to `workflow::complete` and close the issue.
 
 1. You are responsible for the issues assigned to you. This means it has to ship with the milestone it's associated with. If you are not able to do this, you have to communicate it early to your manager and other stakeholders (e.g. the product manager, other engineers working on dependent issues). In teams, the team is responsible for this (see [Working in Teams](#working-in-teams)). If you are uncertain, err on the side of overcommunication. It's always better to communicate doubts than to wait.
 1. You (and your team, if applicable) are responsible for:
 
-   - Ensuring that your changes [apply cleanly to GitLab Enterprise Edition](https://docs.gitlab.com/ee/development/ee_features.html).
+   - Ensuring that your changes [apply cleanly to GitLab Enterprise Edition](https://docs.gitlab.com/development/ee_features/).
    - The testing of a new feature or fix, especially right after it has been merged and packaged.
-   - Creating any [relevant feature or API documentation](https://docs.gitlab.com/ee/development/documentation/workflow.html#developers)
+   - Creating any [relevant feature or API documentation](https://docs.gitlab.com/development/documentation/workflow/#developers)
    - Shipping secure code, (see [Security is everyone's responsibility](#security-is-everyones-responsibility)).
 
 1. Once a release candidate has been deployed to the staging environment, please verify that your changes work as intended. We have seen issues where bugs did not appear in development but showed in production (e.g. due to CE-EE merge issues).
 
-Be sure to read general guidelines about [issues](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html) and [merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
+Be sure to read general guidelines about [issues](https://docs.gitlab.com/development/contributing/issue_workflow/) and [merge requests](https://docs.gitlab.com/development/contributing/merge_request_workflow/).
 
 ## Updating Workflow Labels Throughout Development
 
@@ -434,7 +434,7 @@ For larger issues or issues that contain many different moving parts, you'll be 
     1. If the team suspects that they might not be able to ship something in time, the team should escalate / inform others as soon as possible. A good start is informing your manager.
     1. It's generally preferable to ship a smaller iteration of an issue, than ship something a release later.
 1. Consider starting a Slack channel for a new team, but remember to write all relevant information in the related issue(s). You don't want to have to read up on two threads, rather than only one, and Slack channels are not open to the greater GitLab community.
-1. If an issue entails frontend and backend work, consider separating the frontend and backend code into separate MRs and merge them independently under [feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html). This will ensure frontend/backend engineers can work and deliver independently.
+1. If an issue entails frontend and backend work, consider separating the frontend and backend code into separate MRs and merge them independently under [feature flags](https://docs.gitlab.com/development/feature_flags/). This will ensure frontend/backend engineers can work and deliver independently.
     1. It's important to note that even though the code is merged behind a feature flag, it should still be production ready and continue to hold our [definition of done](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done).
     1. A separate MR containing the integration, documentation (if applicable) and removal of the feature flags should be completed in parallel with the backend and frontend MRs, but should only be merged when both the frontend and backend MRs are on the master branch.
 
@@ -477,7 +477,7 @@ When evaluating a merge request from the community, please ensure that a relevan
 
 This should be to be part of your daily routine. For instance, every morning you could triage new merge requests from the rest of the community that are not yet labeled `Community contribution` and either review them or ask a relevant person to review it.
 
-Make sure to follow our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
+Make sure to follow our [Code Review Guidelines](https://docs.gitlab.com/development/code_review/).
 
 ## Working with GitLab.com
 
@@ -593,7 +593,7 @@ presented.
 
 This is currently implemented as part of our [automated triage operations](https://gitlab.com/gitlab-org/quality/triage-ops/blob/master/policies/move-milestone-forward.yml). Additionally, issues with the `~Deliverable` label which have a milestone beyond current +1, will have the `~Deliverable` label removed.
 
-We keep the milestone open for 3 months after it's expired, based on the [release and maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+We keep the milestone open for 3 months after it's expired, based on the [release and maintenance policy](https://docs.gitlab.com/policy/maintenance/).
 
 The milestone cleanup is currently applied to the [following groups and projects](https://gitlab.com/gitlab-org/quality/triage-ops/blob/master/.gitlab/ci/missed-resources.yml):
 
@@ -676,7 +676,7 @@ Open merge requests may also have other properties that indicate that the engine
 
 [Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](https://about.gitlab.com/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/product-security/application-security/stable-counterparts/) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
 
-Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/).
 
 We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](https://about.gitlab.com/direction/application_security_testing/#security-paradigm)
 
@@ -784,7 +784,7 @@ Issues are nominated to the board through the inclusion of the label `infradev` 
 
 Issues with `~infradev ~severity::1 ~priority::1 ~production request` labels applied require immediate resolution.
 
-`~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [deprecation guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
+`~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [deprecation guidance](https://docs.gitlab.com/development/deprecation_guidelines/). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
 
 Infradev issues are also shown in the monthly [Error Budget Report](/handbook/engineering/error-budgets/#budget-reporting).
 

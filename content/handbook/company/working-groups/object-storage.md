@@ -20,7 +20,7 @@ repositories, and user uploaded files.
 User experience, as well as contributors experience, with our file
 storage has room for significant improvement.
 
-- Initial GitLab setup experience requires creation and setup of [13 buckets](https://docs.gitlab.com/ee/administration/object_storage.html#storage-specific-configuration),
+- Initial GitLab setup experience requires creation and setup of [13 buckets](https://docs.gitlab.com/administration/object_storage/#storage-specific-configuration),
   instead of just 1.
 - Features using file storage require contributors to think about both local
   storage and Object Storage which leads to friction and
@@ -70,7 +70,7 @@ fixes) to installation:
   but never enabled globally.
 - Today GitLab supports both local storage and object storage. Local
   storage only works on single box installations or with a NFS, which
-  [we no longer recommend](https://docs.gitlab.com/ee/administration/nfs.html)
+  [we no longer recommend](https://docs.gitlab.com/administration/nfs/)
   to our users and is no longer in use on GitLab.com.
 - Understanding all the moving parts and the flow is extremely
   complicated: we have CarrierWave, Fog, Golang S3/Azure SDKs, all
@@ -95,7 +95,7 @@ A gem that provides a simple and extremely flexible way to upload files from Rub
 
 A technology we developed to intercept file
 uploads with Workhorse and handle the expensive upload operation in
-Workhorse, where it's cheaper. See our [uploads development documentation](https://docs.gitlab.com/ee/development/uploads/#)
+Workhorse, where it's cheaper. See our [uploads development documentation](https://docs.gitlab.com/development/uploads/#)
 for more details.
 
 ### Kickoff video
@@ -144,7 +144,7 @@ implementation and being able to speak a common language.
 
 The working group led an effort to collect and categorize all the
 usages of object storage in the product with the result of building a
-shared understanding of the problem, producing a renewed [Uploads Development Guide](https://docs.gitlab.com/ee/development/uploads/), and
+shared understanding of the problem, producing a renewed [Uploads Development Guide](https://docs.gitlab.com/development/uploads/), and
 removing features such as Pseudonomyzer and background uploads.
 
 Consolidating object storage files into a single bucket and removing
@@ -220,4 +220,4 @@ debt and security fixes, is outlined:
 - In **13.2** an IC added a [S3 client to Workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse/-/issues/222) to improve multipart uploads and ETag checking.
 - In **13.3** an IC added [support for AWS S3 server side encryption](https://gitlab.com/gitlab-org/gitlab/-/issues/22200).
 - In **13.4** an IC added [support for Azure Blob storage](https://gitlab.com/gitlab-org/gitlab/-/issues/25877).
-- From **13.4** to **14.0** the Release group [transitioned GitLab Pages from NFS to Object Storage](https://gitlab.com/groups/gitlab-org/-/epics/3901) following the [GitLab Pages New Architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cloud_native_gitlab_pages/index.html)
+- From **13.4** to **14.0** the Release group [transitioned GitLab Pages from NFS to Object Storage](https://gitlab.com/groups/gitlab-org/-/epics/3901) following the [GitLab Pages New Architecture blueprint](https://docs.gitlab.com/architecture/blueprints/cloud_native_gitlab_pages/)

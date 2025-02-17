@@ -44,9 +44,9 @@ Performance Indicators:
 
 - [GitLab.com (infra) Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Monitoring GitLab.com](/handbook/engineering/monitoring/)
-- [Application Architecture Documentation](https://docs.gitlab.com/ee/development/architecture.html)
-- [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
+- [Application Architecture Documentation](https://docs.gitlab.com/development/architecture/)
+- [GitLab.com Settings](https://docs.gitlab.com/user/gitlab_com/)
+- [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/administration/monitoring/performance/)
 
 **Meta issue** to track various issues listed here is at on the [infrastructure tracker](https://gitlab.com/gitlab-com/infrastructure/issues/2373).
 
@@ -288,7 +288,7 @@ After pushing to a repository, e.g. from the _web UI_:
 1. In a web browser, make an edit to a repo file, type a commit message, and hit "Commit"
 1. NGINX receives the git commit and passes it to Workhorse
 1. Workhorse launches a `git-receive-pack` process (on the workhorse machine) to save the new commit to NFS
-1. On the workhorse machine, `git-receive-pack` fires a [git hook](https://docs.gitlab.com/ee/administration/server_hooks.html) to trigger `GitLab Shell`.
+1. On the workhorse machine, `git-receive-pack` fires a [git hook](https://docs.gitlab.com/administration/server_hooks/) to trigger `GitLab Shell`.
    - GitLab Shell accepts Git payloads pushed over SSH and acts upon them (e.g. by checking if you're authorized to perform the push, scheduling the data for processing, etc).
    - In this case, GitLab Shell provides the `post-receive` hook, and the `git-receive-pack` process passes along details of what was pushed to the repo to the `post-receive` hook. More specifically, it passes a list of three items: old revision, new revision, and ref (e.g. tag or branch) name.
 1. Workhorse then passes the `post-receive` hook to Redis, which is the Sidekiq queue.

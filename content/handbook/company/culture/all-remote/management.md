@@ -157,7 +157,7 @@ The GitLab way of working is more [inclusive](/handbook/company/culture/inclusio
 >
 > At GitLab, we have a rule that says [handbook first](/handbook/about/handbook-usage/#why-handbook-first). If you're going to communicate a change to people, first put it in the handbook and then communicate that change to people.
 >
-> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder, Sid Sijbrandij*
+> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/user/project/issues/) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder, Sid Sijbrandij*
 
 This is one of the harder things to apply on a daily basis. Taking the time to document a solution isn't very satisfying in the moment, and is easy to deprioritize when other seemingly urgent tasks are vying for your attention.
 
@@ -176,7 +176,7 @@ When you [open your talent acquisition pipeline to the world](hiring/), you crea
 
 ### Active reinforcement
 
-The first step in creating an atmosphere where colleagues are comfortable working [asynchronously](asynchronous/) is to avoid the default mentality as it applies to [meetings](meetings/). By making meetings [optional](meetings/#make-meetings-optional), recording and [documenting everything](meetings/#document-everything-live-yes-everything), being diligent to follow an [agenda](meetings/#have-an-agenda), and leveraging tools like [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and Slack, all-remote companies are less reliant on colleagues being online at the same time.
+The first step in creating an atmosphere where colleagues are comfortable working [asynchronously](asynchronous/) is to avoid the default mentality as it applies to [meetings](meetings/). By making meetings [optional](meetings/#make-meetings-optional), recording and [documenting everything](meetings/#document-everything-live-yes-everything), being diligent to follow an [agenda](meetings/#have-an-agenda), and leveraging tools like [GitLab Issues](https://docs.gitlab.com/user/project/issues/) and Slack, all-remote companies are less reliant on colleagues being online at the same time.
 
 This mentality must be actively reinforced. For example, in [team social calls](informal-communication/#team-social-calls) where dozens of people join a video chat to bond as a team, an agenda allows those who cannot make it to add [shout-outs](/handbook/values/#say-thanks) or discussion points that a fellow colleague can verbalize. This is an intentional approach to not only working asynchronously, but socializing asynchronously.
 
@@ -334,7 +334,7 @@ Anyone can test their knowledge on all-remote management by completing the [know
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

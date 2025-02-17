@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through setting up a SAST job to tra
 
 ## Objectives
 
-This lab uses SAST, an optional feature in CI/CD pipelines, to identify security vulnerabilities in your code. GitLab's Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/).
+This lab uses SAST, an optional feature in CI/CD pipelines, to identify security vulnerabilities in your code. GitLab's Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. You can learn more in the [documentation](https://docs.gitlab.com/user/application_security/sast/).
 
 ## Task A. Enable SAST in your `CI Test` project
 
@@ -22,7 +22,7 @@ This lab uses SAST, an optional feature in CI/CD pipelines, to identify security
       - template: Jobs/SAST.gitlab-ci.yml
     ```
 
-    > To learn more about integrating `SAST` scanning into your `.gitlab-ci.yml` file, see the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/#configure-sast-in-your-cicd-yaml).
+    > To learn more about integrating `SAST` scanning into your `.gitlab-ci.yml` file, see the [documentation](https://docs.gitlab.com/user/application_security/sast/#configure-sast-in-your-cicd-yaml).
 
 1. The current `.gitlab-ci.yml` file should look like this:
 
@@ -46,7 +46,7 @@ This lab uses SAST, an optional feature in CI/CD pipelines, to identify security
       - template: Jobs/SAST.gitlab-ci.yml
     ```
 
-    > The **include** lets you include external YAML files in your CI/CD configuration. You can split one long `.gitlab-ci.yml` file into multiple files to increase readability, or reduce duplication of the same configuration in multiple places. You can read more about the include keyword in the [documentation](https://docs.gitlab.com/ee/ci/yaml/#include).
+    > The **include** lets you include external YAML files in your CI/CD configuration. You can split one long `.gitlab-ci.yml` file into multiple files to increase readability, or reduce duplication of the same configuration in multiple places. You can read more about the include keyword in the [documentation](https://docs.gitlab.com/ci/yaml/#include).
 
 1. Enter an appropriate **Commit message**.
 

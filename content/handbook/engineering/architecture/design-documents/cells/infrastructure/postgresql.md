@@ -72,7 +72,7 @@ The current estimate is that each Cell will host a relatively small number of us
 The exact requirements will develop over time, but the following is requested:
 
 - Creation and removal of database clusters via API, which will be part of the provisioning of a cell.
-- Database clusters up to the size of our reference architecture, [50,000 users API: 1000 RPS, Web: 100 RPS, Git (Pull): 100 RPS, Git (Push): 20 RPS](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html).
+- Database clusters up to the size of our reference architecture, [50,000 users API: 1000 RPS, Web: 100 RPS, Git (Pull): 100 RPS, Git (Push): 20 RPS](https://docs.gitlab.com/administration/reference_architectures/50k_users/).
 - Up to 2,000 Cells and database clusters.
 
 Our current automation involves many manual steps, including the creation of dedicated Chef roles for each cluster.
@@ -155,7 +155,7 @@ We observed the following load peaks and can use them as an indication:
 
 TODO: Define performance requirements and check with different steak holders. Discussed with @rnienaber, we will start with the largest reference architecture.
 
-- Up to around 50.000 users, our largest reference architecture, [Up to 50,000 users API: 1000 RPS, Web: 100 RPS, Git (Pull): 100 RPS, Git (Push): 20 RPS](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html)
+- Up to around 50.000 users, our largest reference architecture, [Up to 50,000 users API: 1000 RPS, Web: 100 RPS, Git (Pull): 100 RPS, Git (Push): 20 RPS](https://docs.gitlab.com/administration/reference_architectures/50k_users/)
 - This might increase in the future, or multiple hundred Cells are required to host all current users
 
 #### Decomposition
@@ -187,7 +187,7 @@ Further details below:
 
 [Cloud SQL](https://cloud.google.com/sql) is Google's standard PostgreSQL offering.
 It is a custom fork, claimed to be 100% compatible to the upstream Releases and is simply referenced as `PostgreSQL` in the [Cloud SQL documentation](https://cloud.google.com/sql/docs/postgres/).
-GitLab currently recognizes Cloud SQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#recommended-cloud-providers-and-services).
+GitLab currently recognizes Cloud SQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/administration/reference_architectures/#recommended-cloud-providers-and-services).
 
 | Pro             | Description                                                                                                                    | Priority / Importance |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -297,7 +297,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 ### Amazon RDS PostgreSQL
 
 [Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/).
-GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/#recommended-cloud-providers-and-services).
+GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/administration/reference_architectures/#recommended-cloud-providers-and-services).
 
 | Pro                                  | Description                                                                                                                                                                                                                                                                                                                                                                               | Priority / Importance |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |

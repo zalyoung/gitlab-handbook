@@ -24,7 +24,7 @@ Job `start-as-if-jh` will trigger a cross project downstream pipeline in the
 
 For how the detection works and technical details about how we run this
 validation pipeline, checkout:
-[As-if-JH cross project downstream pipeline](https://docs.gitlab.com/ee/development/pipelines/#as-if-jh-cross-project-downstream-pipeline)
+[As-if-JH cross project downstream pipeline](https://docs.gitlab.com/development/pipelines/#as-if-jh-cross-project-downstream-pipeline)
 
 ## What to do when the validation pipeline failed
 

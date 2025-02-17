@@ -73,8 +73,8 @@ More details on definitions of outage, and degradation are on the [incident-mana
 ## Related Pages
 
 * [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
-* [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-* [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/#gitlab-performance-monitoring)
+* [GitLab.com Settings](https://docs.gitlab.com/user/gitlab_com/)
+* [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/administration/monitoring/performance/#gitlab-performance-monitoring)
 * [Performance of the Application](/handbook/engineering/performance/)
 
 ## Related Videos
@@ -121,7 +121,7 @@ Need access to add a dashboard? Ask any team lead within the [infrastructure tea
 We have a set of monitoring dashboards designed for [each stage group](/handbook/product/categories/#devops-stages). These dashboards are designed to give an insight, to everyone working in a feature category, into how their code operates at GitLab.com scale. They are grouped per stage group to show the impact of feature/code changes, deployments, and feature-flag toggles.
 
 1. [List of dashboards for each stage group (GitLab team members only)](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups).
-1. [Guide to getting started with dashboards for stage groups](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/)
+1. [Guide to getting started with dashboards for stage groups](https://docs.gitlab.com/development/stage_group_observability/dashboards/)
 1. [YouTube video introducing the stage group dashboards](https://youtu.be/xB3gHlKCZpQ)
 
 The dashboards for stage groups are at a very early stage. All contributions are welcome. If you have any questions or suggestions, please submit an issue in the [Scalability Team issues tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new).
@@ -192,7 +192,7 @@ We also did a series of deep dives by pairing with the development teams for eac
 
 Blocks of Ruby code can be "instrumented" to measure performance.
 
-* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data.html) with more detail on [how to implement this](https://docs.gitlab.com/ee/operations/product_analytics/instrumentation/)
+* [Documentation of instrumentation](https://docs.gitlab.com/api/usage_data/) with more detail on [how to implement this](https://docs.gitlab.com/operations/product_analytics/instrumentation/)
 * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools
@@ -201,7 +201,7 @@ Blocks of Ruby code can be "instrumented" to measure performance.
 
 Error tracking service.
 
-* [Documentation](https://docs.gitlab.com/ee/operations/error_tracking.html)
+* [Documentation](https://docs.gitlab.com/operations/error_tracking/)
 * [How to investigate a 500 error - Sentry / Kibana Demo](https://youtu.be/o02t3V3vHMs)
 * [Diagnose Errors on GitLab.com - Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry)
 
@@ -222,6 +222,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
+* [Documentation](https://docs.gitlab.com/ci/testing/browser_performance_testing/#overview)
 * [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
 * [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

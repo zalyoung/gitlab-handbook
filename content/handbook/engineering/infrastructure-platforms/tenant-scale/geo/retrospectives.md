@@ -73,6 +73,6 @@ For each one of these stages, if people are out on PTO, they can be excused from
 
 ## Privacy and Transparency
 
-GitLab promotes the value of transparency, so the activities and data collected for retrospectives will be public by default. However we do want to create a safe space conducive of honest feedback and a high degree of engagement. During Wrap-up, there will be an opportunity to bring up anything that should be shared privately and a new issue can be created with proper permissions to continue the conversation there. Alternatively, you may make use of [GitLab's internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) to have those conversations in the same issue.
+GitLab promotes the value of transparency, so the activities and data collected for retrospectives will be public by default. However we do want to create a safe space conducive of honest feedback and a high degree of engagement. During Wrap-up, there will be an opportunity to bring up anything that should be shared privately and a new issue can be created with proper permissions to continue the conversation there. Alternatively, you may make use of [GitLab's internal notes](https://docs.gitlab.com/user/discussions/#add-an-internal-note) to have those conversations in the same issue.
 
 Highlights of the retrospective will be written to a GitLab issue accessible to team members as record keeping.

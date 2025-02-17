@@ -8,7 +8,7 @@ description: "GitLab Dedicated Support - Working with logs"
 
 Support can access GitLab Dedicated tenant logs through our [OpenSearch](https://opensearch.org/) infrastructure. See [Accessing logs](#accessing-logs) to get started. [OpenSearch](https://opensearch.org/) can be used like [Kibana](/handbook/support/workflows/kibana/) but read about [searching logs](#searching-logs) for information on the differences.
 
-When working on a GitLab Dedicated ticket, prioritize asking for information that will help identify applicable log entries. It is best to start collecting this information as early in the ticket as possible. The specific kinds of information will vary depending on the problem you are trying to solve but username, project path, project ID, exact date and time with time zone, [correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html) and outgoing IP address are all good examples.
+When working on a GitLab Dedicated ticket, prioritize asking for information that will help identify applicable log entries. It is best to start collecting this information as early in the ticket as possible. The specific kinds of information will vary depending on the problem you are trying to solve but username, project path, project ID, exact date and time with time zone, [correlation ID](https://docs.gitlab.com/administration/logs/tracing_correlation_id/) and outgoing IP address are all good examples.
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
@@ -56,7 +56,7 @@ directly with the customer by default. If you think sharing the log entry would
 benefit the customer, please read
 [Sharing internal logs, data & graphs](/handbook/support/workflows/dedicated/#sharing-internal-logs-data--graphs).
 
-GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#access-to-application-logs).
+GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/administration/dedicated/configure_instance/#access-to-application-logs).
 
 #### Sharing log links within GitLab
 
@@ -81,7 +81,7 @@ Each entry in OpenSearch can be expanded to show more information by clicking th
 
 ## Searching logs
 
-Since GitLab Dedicated uses [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative), searching logs on OpenSearch is a bit different from [Kibana](kibana.md).
+Since GitLab Dedicated uses [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative), searching logs on OpenSearch is a bit different from [Kibana](kibana.md).
 
 - In OpenSearch, terms can be freely typed in the search bar.
   - By comparison, freely typing in the search bar is [discouraged](kibana.md#fields-and-filters) in Kibana.
@@ -98,7 +98,7 @@ General fields:
 - `host:` The GitLab host of the log. It can be `<tenant name>-gitaly-*`  or  `<tenant name>-consul-2`, etc.
 - `referrer:` holds the project path. `https://tenant.gitlab-dedicated.com/example-group/test123`
 - `message:` is the message that would be seen in the logs of a self-managed instance.  `xxx.xxx.xxx.xxx - - [08/Jul/2020:13:24:43 +0000] "GET /assets/webpack/commons-pages.projects.show-pages.projects.tree.show.21909065.chunk.js HTTP/1.1" 200 9316 "https://tenant.gitlab-dedicated.com/example-group/test123" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" 1343 0.001 [default-gitlab-webservice-default-8181] [] xxx.xxx.xxx.xxx:8181 9309 0.000 200 fe130eac78314cwf352g3762397572cb`
-- `subcomponent`: The values in this field correspond to entries in [GitLab's log system](https://docs.gitlab.com/ee/administration/logs/). Possible values include `production_json`, `application_json`, `api_json`, `auth_json` and `graphql_json`. You can use [filters](#filters) to collect all log entries associated with a specific subcomponent.
+- `subcomponent`: The values in this field correspond to entries in [GitLab's log system](https://docs.gitlab.com/administration/logs/). Possible values include `production_json`, `application_json`, `api_json`, `auth_json` and `graphql_json`. You can use [filters](#filters) to collect all log entries associated with a specific subcomponent.
 
 Gitaly related fields:
 
@@ -133,7 +133,7 @@ If you don't get the results you expect and you are sure that your filter is cor
 ##### Useful filters
 
 - `kubernetes.labels.app:` used to filter Kubernetes pods. `nginx-ingress`, `webservice`, etc.
-- `correlation_id`: used to [find relevant log entries by correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html)
+- `correlation_id`: used to [find relevant log entries by correlation ID](https://docs.gitlab.com/administration/logs/tracing_correlation_id/)
 Use this OpenSearch filter to find logs related to the GitLab application:
 
 - `kubernetes.labels.release: gitlab`
@@ -159,7 +159,7 @@ To find all logs where the HTTP response status code is in the [4xx client error
 
 #### Filter by correlation ID
 
-GitLab instances log a unique request tracking ID (known as the “correlation ID”) for most requests. An important part of troubleshooting problems in GitLab is [finding relevant log entries with a correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html). Opensearch permits filtering by correlation ID. You may retrieve the correlation ID from information provided by the customer or from looking through Opensearch logs.
+GitLab instances log a unique request tracking ID (known as the “correlation ID”) for most requests. An important part of troubleshooting problems in GitLab is [finding relevant log entries with a correlation ID](https://docs.gitlab.com/administration/logs/tracing_correlation_id/). Opensearch permits filtering by correlation ID. You may retrieve the correlation ID from information provided by the customer or from looking through Opensearch logs.
 
 To show all log entries for a specific correlation ID, you can:
 
@@ -196,7 +196,7 @@ You will now have a list of user creation and deletion events. Use the `action` 
 
 #### Find information about a specific pipeline
 
-Once you know the ID of a specific pipeline, you can get information from the logs about how that pipeline was processed. Given the role that Sidekiq plays in [processing CI pipelines](https://docs.gitlab.com/ee/administration/sidekiq/sidekiq_troubleshooting.html#investigating-sidekiq-queue-backlogs-or-slow-performance), let's check the Sidekiq logs.
+Once you know the ID of a specific pipeline, you can get information from the logs about how that pipeline was processed. Given the role that Sidekiq plays in [processing CI pipelines](https://docs.gitlab.com/administration/sidekiq/sidekiq_troubleshooting/#investigating-sidekiq-queue-backlogs-or-slow-performance), let's check the Sidekiq logs.
 
 In this example, we'll use two filters: one to get the logs from the `sidekiq` container and another to filter on the specific pipeline ID.
 
@@ -222,7 +222,7 @@ You can now read through the Sidekiq logs related to that specific pipeline.
 
 #### Identify who viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_event_reports.html#group-audit-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/administration/audit_event_reports/#group-audit-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Select **Add filter**
 1. Click **Select a field first**
@@ -235,7 +235,7 @@ You now have a list of logs to sort through. You can get a bit more information 
 
 #### Retrieve and inspect SAML Responses
 
-When [troubleshooting](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html) unexpected behavior in [instance-wide SAML single sign on (SSO)](https://docs.gitlab.com/ee/integration/saml.html) for GitLab Dedicated customers, you can use OpenSearch to retrieve the SAML response.
+When [troubleshooting](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/) unexpected behavior in [instance-wide SAML single sign on (SSO)](https://docs.gitlab.com/integration/saml/) for GitLab Dedicated customers, you can use OpenSearch to retrieve the SAML response.
 
 1. Select **Add filter**
 1. Click **Select a field first**
@@ -249,13 +249,13 @@ As you adjust the date range appropriately, you should have a list of logs to lo
 You may wish to inspect an individual SAML response. When you have identified the log entry that includes the SAML response you wish to inspect, click the right arrow to view the **Expanded document**.
 
 1. In the `params` section, you'll see a JSON object that has a key called `SAMLResponse` (The data in the `value` is the base64-encoded SAML response.)
-    - Sometimes this key is too large so the log will only contain the value `truncated`. In this case, you will need to ask the customer [to capture the SAML response](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html#generate-a-saml-response) themselves and send it to you.
+    - Sometimes this key is too large so the log will only contain the value `truncated`. In this case, you will need to ask the customer [to capture the SAML response](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#generate-a-saml-response) themselves and send it to you.
 1. Save the long string in the `value` field (it should end with `=`) to a file like `response.txt`
 1. Decode the base64-encoded value with `base64 -d response.txt`.
     - To make inspection easier, write the output of the base64 decode into an XML file, for example `base64 -d response.txt > /tmp/samlresponse.xml`.
     - This file can be directly opened in some browsers like Firefox and Google Chrome to make it more readable.
 
-Read more about [what to look for in the SAML response](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html#saml-debugging-tools).
+Read more about [what to look for in the SAML response](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#saml-debugging-tools).
 
 #### Debug a failed global search request
 
@@ -276,4 +276,4 @@ You can then filter by `correlation_id` only, to select the failed occurrence. T
 1. Noting the timestamp from above, copy the value of `kubernetes.host` and filter for logs within that `@timestamp` frame.
 1. Fine-tune the results by adding more filters such as, Filter: `message` Operator: `is one of` Value: `elasticsearch` to see any logs with the term elasticsearch
 
-Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch_troubleshooting.html#last-resort-to-recreate-an-index) for potential next steps.
+Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch_troubleshooting/#last-resort-to-recreate-an-index) for potential next steps.

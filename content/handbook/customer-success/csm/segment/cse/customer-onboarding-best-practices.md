@@ -29,9 +29,9 @@ Resources
 
 - [Deck](https://docs.google.com/presentation/d/1zb-0RdsnvyLhZW0ECppWJSUf0EaWNm20T78PDTCaWzM/edit#slide=id.g1287bf62b57_0_209) (internal link, make a copy)
 - [GitLab Issue](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/331) with discussion on creation of the deck
-- [Group and Subgroup hierarchy](https://docs.gitlab.com/ee/user/group/subgroups/#overview)
-- [SAML SSO for GitLab Groups](https://docs.gitlab.com/ee/user/group/saml_sso/) (SaaS)
-- [SAML SSO for Self-Managed GitLab Instances](https://docs.gitlab.com/ee/integration/saml.html)
-- [Integrate LDAP with GitLab](https://docs.gitlab.com/ee/administration/auth/ldap/#integrate-ldap-with-gitlab) (Self-managed)
-- [Get Started with GitLab Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security.html)
+- [Group and Subgroup hierarchy](https://docs.gitlab.com/user/group/subgroups/#overview)
+- [SAML SSO for GitLab Groups](https://docs.gitlab.com/user/group/saml_sso/) (SaaS)
+- [SAML SSO for Self-Managed GitLab Instances](https://docs.gitlab.com/integration/saml/)
+- [Integrate LDAP with GitLab](https://docs.gitlab.com/administration/auth/ldap/#integrate-ldap-with-gitlab) (Self-managed)
+- [Get Started with GitLab Application Security](https://docs.gitlab.com/user/application_security/get-started-security/)
 - [Holistic Approach to Securing the Development Lifecycle](https://www.youtube.com/watch?v=0O7Mpfu9Khg) (webinar recording)

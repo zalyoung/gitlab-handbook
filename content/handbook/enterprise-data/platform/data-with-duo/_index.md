@@ -89,7 +89,7 @@ While GitLab Duo and Snowflake CoPilot can streamline workflows, these risks und
 ### Prerequisites & Setup
 
 1. **Access Permissions**: GitLab Duo is available to Premium users with GitLab Duo Pro, Ultimate users with GitLab Duo Pro, or Enterprise users. It is also available for internal team members.
-2. **Environment Configuration**: Follow the [GitLab Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/) documentation to use Duo with tools like Web IDE, VS Code, DataGrip, and more.
+2. **Environment Configuration**: Follow the [GitLab Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) documentation to use Duo with tools like Web IDE, VS Code, DataGrip, and more.
 
 ## Best Practices for Managing AI-Generated Content
 

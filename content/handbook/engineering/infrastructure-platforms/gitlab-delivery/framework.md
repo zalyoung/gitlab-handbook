@@ -84,7 +84,7 @@ The following list includes Slack channels relevant to projects within the team'
 
 For any requests relating to customer environments, either proposed or existing, they must be raised in the [Reference Architectures project](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/new) in the following circumstances only with the given templates:
 
-* `environment-review-request` - Sanity checks of new environment designs, not already covered in the [Reference Architecture docs](https://docs.gitlab.com/ee/administration/reference_architectures/).
+* `environment-review-request` - Sanity checks of new environment designs, not already covered in the [Reference Architecture docs](https://docs.gitlab.com/administration/reference_architectures/).
 * `request-for-help` - Help requests from the Support Team for assistance when an issue is suspected to be due to the environmental design.
 
 Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons.
@@ -98,7 +98,7 @@ The Triage DRI is a role established by the team to handle initial triage of que
 1. Triaging and monitoring pipelines (e.g., [Upgrade path pipelines](https://gitlab.com/gitlab-org/quality/upgrade-tester)).
 1. Monitoring and responding to requests in GET/RA Slack channels.
 1. Initial issue triage for GET, and RA.
-1. Maintenance of [PG Dump Generator](https://gitlab.com/gitlab-org/quality/pg-dump-generator) and related jobs if [breaking master](https://docs.gitlab.com/ee/development/database/dbmigrate_multi_version_upgrade_job.html#broken-master).
+1. Maintenance of [PG Dump Generator](https://gitlab.com/gitlab-org/quality/pg-dump-generator) and related jobs if [breaking master](https://docs.gitlab.com/development/database/dbmigrate_multi_version_upgrade_job/#broken-master).
 1. [Staging Ref](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref/-/blob/main/doc/troubleshooting.md) maintenance.
 
 ### Cadence

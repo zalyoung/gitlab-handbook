@@ -27,7 +27,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 ## Task B. Create an epic
 
-> Epics provide a way to organize and manage a set of issues and sub-epics that share a strategic theme. In addition to logical grouping, epics enable project managers to perform higher level planning and build a roadmap with visual status tracking. You can read more about epics in the [documentation](https://docs.gitlab.com/ee/user/group/epics/).
+> Epics provide a way to organize and manage a set of issues and sub-epics that share a strategic theme. In addition to logical grouping, epics enable project managers to perform higher level planning and build a roadmap with visual status tracking. You can read more about epics in the [documentation](https://docs.gitlab.com/user/group/epics/).
 
 1. *In the lab environment browser tab,* at the top of the page, click the `...` beside `GitLab Learn Labs`.
 
@@ -101,7 +101,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 ## Task D. Set milestones to represent product goals
 
-> Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize epics, issues and merge requests into a cohesive group, with an optional start date and an optional due date. You can read more about milestones in the [documentation](https://docs.gitlab.com/ee/user/project/milestones/).
+> Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize epics, issues and merge requests into a cohesive group, with an optional start date and an optional due date. You can read more about milestones in the [documentation](https://docs.gitlab.com/user/project/milestones/).
 
 1. Navigate to the **Awesome Inc** subgroup.
 
@@ -137,7 +137,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 ## Task E. Schedule iterations as team sprints
 
-> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
+> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/user/group/iterations/).
 
 1. In your subgroup structure, navigate to **Awesome Inc > Software**.
 
@@ -165,7 +165,7 @@ You will later assign individual tasks to iterations (sprints).
 
 ## Task F. Create a wiki for project documentation
 
-> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
+> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/user/project/wiki/).
 
 1. Navigate to your **Family Budget Calculator** project in the **Software > Core** subgroup.
 

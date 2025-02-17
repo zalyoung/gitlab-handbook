@@ -65,7 +65,7 @@ The GitLab use cases help define the categories of related features with a **bus
 
 - [Source Code Management](https://about.gitlab.com/solutions/source-code-management/)
 - [Continuous Integration and Deployment/Delivery (CI/CD)](https://about.gitlab.com/solutions/continuous-integration/)
-- [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+- [Auto DevOps](https://docs.gitlab.com/topics/autodevops/)
 - [Security and DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
 - [Agile Delivery](https://about.gitlab.com/solutions/agile-delivery/)
 - [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/)

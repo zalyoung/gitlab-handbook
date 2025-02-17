@@ -57,7 +57,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
-   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/user/public_access/).
 
 1. Check **Initialize repository with a README**.
 
@@ -161,7 +161,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 #### Linux
 
-1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner).
+1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/linux-repository/#installing-gitlab-runner).
 
 1. Verify that the gitlab-runner service has started by running this command:
 
@@ -173,7 +173,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 #### macOS
 
-1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/osx.html#manual-installation-official).
+1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/osx/#manual-installation-official).
 
 1. Install gitlab-runner as a service and start the service:
 
@@ -193,7 +193,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 #### Windows
 
-1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/windows.html#installation).
+1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/windows/#installation).
 
 1. Open an elevated PowerShell window:
    1. Click **Start**.
@@ -232,7 +232,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Under **Tags**, select **Run untagged jobs**. Leave the rest of the options blank.
 
-   > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#use-tags-to-control-which-jobs-a-runner-can-run)
+   > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ci/runners/configure_runners/#use-tags-to-control-which-jobs-a-runner-can-run)
 
 1. Click the **Create runner** button.
 

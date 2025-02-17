@@ -307,7 +307,7 @@ You have successfully integrated your GitLab project with Jenkins CI.
 
 There are several approaches to the authentication (shared vs per-user vs per-project), so please consider the best option for your environment when integrating Jenkins.
 
-To learn more about the Jenkins integration, please see the [official GitLab documentation](https://docs.gitlab.com/ee/integration/jenkins.html).
+To learn more about the Jenkins integration, please see the [official GitLab documentation](https://docs.gitlab.com/integration/jenkins/).
 
 You can also learn more in the `jenkinsci/gitlab-plugin` open source integration's [README documentation on GitHub](https://github.com/jenkinsci/gitlab-plugin/blob/master/README.md).
 

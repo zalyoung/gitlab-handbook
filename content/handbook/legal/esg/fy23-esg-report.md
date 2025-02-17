@@ -306,9 +306,9 @@ Our FY23 priorities in this area included:
 
 - **Enhancing platform security**, including improvements in [many industry certifications](https://trust.gitlab.com/).
 
-- **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html) (FIPs) compliance
+- **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/development/fips_compliance/) (FIPs) compliance
 
-- **Launched [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)**
+- **Launched [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/)**
 
     GitLab Dedicated, launched in beta in the spring 2022, removes the overhead of platform management to increase operational efficiency, reduce risk, and enhance the speed and agility of an organization. GitLab teams fully manage the maintenance and operations of each isolated instance so that customers can access our latest product improvements while meeting the most complex compliance standards.
 

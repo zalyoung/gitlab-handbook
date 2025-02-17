@@ -169,7 +169,7 @@ by [filtering by the ~"Plan stage refinement" label](https://gitlab.com/gitlab-o
 
 ### Tracking Committed Work for an Upcoming Release
 
-While we operate in a continuous Kanban manner, we want to be able to report on and communicate if an issue or epic is on track to be completed by a Milestone's due date. To provide insight and clarity on status we will leverage [Issue/Epic Health Status](https://docs.gitlab.com/ee/user/project/issues/index.html#health-status) on priority issues.
+While we operate in a continuous Kanban manner, we want to be able to report on and communicate if an issue or epic is on track to be completed by a Milestone's due date. To provide insight and clarity on status we will leverage [Issue/Epic Health Status](https://docs.gitlab.com/user/project/issues/#health-status) on priority issues.
 
 ### Keeping Health Status Accurate
 
@@ -279,7 +279,7 @@ process itself.
 #### Dogfooding Value Stream Analytics (VSA) in the Milestone Retrospective
 
 To improve the retrospective data-driven experience, we are [dogfooding](/handbook/engineering/development/principles/#dogfooding) VSA to simplify the [data collection for the retrospective](https://gitlab.com/gitlab-org/plan/-/issues/753). This been done by automatically adding a link to the VSA of the current milestone filtered by group/stage to the retrospective.
-With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
+With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
 
 For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
 
@@ -339,7 +339,7 @@ The ~"technical debt" label, used in combination with ~"devops::plan," helps tra
 - features requiring additional refinement;
 - any other items deferred due to the high pace of development.
 
-For example, a [follow-up issue](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
+For example, a [follow-up issue](https://docs.gitlab.com/development/contributing/issue_workflow/#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
 
 Issues marked with this label are prioritized alongside those proposing new features and will be scheduled during milestone planning.
 
@@ -369,7 +369,7 @@ All issues worked on by a designer should have a UX weight before work is schedu
 
 #### Work Items
 
-When designing for objects that use the [work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/) we will follow this process intending to ensure that we are providing value-rich experiences that meet users needs. The work items Architecture enables code efficiency and consistency, and the UX team supports the effort by identifying user needs and the places where those needs converge into similar workflows.
+When designing for objects that use the [work items architecture](https://docs.gitlab.com/architecture/blueprints/work_items/) we will follow this process intending to ensure that we are providing value-rich experiences that meet users needs. The work items Architecture enables code efficiency and consistency, and the UX team supports the effort by identifying user needs and the places where those needs converge into similar workflows.
 
 ##### About work items
 
@@ -377,12 +377,12 @@ The first objects built using the work items architecture support the [Parker](/
 
 Read more about work items
 
-- [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
-- [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
+- [Work items architecture](https://docs.gitlab.com/architecture/blueprints/work_items/)
+- [Work items terminology](https://docs.gitlab.com/development/work_items/#work-item-terminology)
 
 ##### Terminology
 
-Work items refers to objects that use the work items architecture. You can find more terms defined related to the architecture here: [work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology).
+Work items refers to objects that use the work items architecture. You can find more terms defined related to the architecture here: [work items terminology](https://docs.gitlab.com/development/work_items/#work-item-terminology).
 
 When we talk about the user experience, we avoid using the term 'work items' for user facing concepts, because it's not specific to the experience and introduces confusion. Instead, we will use descriptors specific to the part of the product we're talking about and that support a similar JTBD. Here are examples of how we are categorizing these:
 

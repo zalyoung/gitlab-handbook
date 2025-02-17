@@ -237,4 +237,4 @@ Note that we are in the process of automating issue creation for every time a cr
 Details on the various pipelines and jobs implemented by different projects
 under Distribution are listed below:
 
-1. [`omnibus-gitlab`](https://docs.gitlab.com/omnibus/development/pipelines.html)
+1. [`omnibus-gitlab`](https://docs.gitlab.com/omnibus/development/pipelines/)

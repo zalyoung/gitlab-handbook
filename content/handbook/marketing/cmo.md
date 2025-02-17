@@ -49,8 +49,8 @@ Follow-up actions: Share with CMO leadership, add an update for the next Marketi
 
 Before assigning the CMO for review and approval, please ensure that the following applies:
 
-- The MR is mergeable: [All comment threads resolved](https://docs.gitlab.com/ee/user/discussions/#resolve-a-thread), [MR is marked as ready](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html#mark-merge-requests-as-ready) and not a draft, and [CI/CD pipelines ran successfully](https://docs.gitlab.com/ee/user/project/merge_requests/widgets.html#pipeline-information) and deployed the latest [review app](https://docs.gitlab.com/ee/ci/review_apps/).
-- Add [@akramer](https://gitlab.com/akramer) as a `Reviewer` to the MR. You can use `/assign_reviewer @akramer` as a [quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) in the comment (press `r` as keyboard shortcut)
+- The MR is mergeable: [All comment threads resolved](https://docs.gitlab.com/user/discussions/#resolve-a-thread), [MR is marked as ready](https://docs.gitlab.com/user/project/merge_requests/drafts/#mark-merge-requests-as-ready) and not a draft, and [CI/CD pipelines ran successfully](https://docs.gitlab.com/user/project/merge_requests/widgets/#pipeline-information) and deployed the latest [review app](https://docs.gitlab.com/ci/review_apps/).
+- Add [@akramer](https://gitlab.com/akramer) as a `Reviewer` to the MR. You can use `/assign_reviewer @akramer` as a [quick action](https://docs.gitlab.com/user/project/quick_actions/) in the comment (press `r` as keyboard shortcut)
 - Optional: Share a Review App URL for direct access to relevant changes and pages, or add a screenshot/summary in the request for more efficient reviews.
 
 Follow the best practices for merge request reviews in the [CEO handbook](/handbook/ceo/#communicating-merge-requests).

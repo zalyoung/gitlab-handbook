@@ -434,7 +434,7 @@ aka Fail Safe Defaults.
   - share more privileges than the others
   - have more connections to other components
   - are entrypoints (login modules, APIs, ...)
-- Run [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)
+- Run [Dependency Scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/)
 - Avoid weak ciphers and algorithms
 - Sometimes consider the humans (users) as the weakest link. Phishing is still widely used for a
   good reason

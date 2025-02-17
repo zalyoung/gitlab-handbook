@@ -96,7 +96,7 @@ in the database.
 #### Disadvantages
 
 1. Maintenance of additional background worker. In case of Redis failures we could miss events, however, we do have the
-option of [refreshing](https://docs.gitlab.com/ee/api/graphql/reference/#mutationrefreshstandardsadherencechecks) check
+option of [refreshing](https://docs.gitlab.com/api/graphql/reference/#mutationrefreshstandardsadherencechecks) check
 status for all the projects in a group.
 1. Audit events cannot be used as the single source of truth for these checks, however, a user can correlate the status
 of the check with the audit events.

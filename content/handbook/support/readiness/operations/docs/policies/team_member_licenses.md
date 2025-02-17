@@ -81,13 +81,13 @@ To do this, reply with the following:
 > `Your GitLab License File` in your e-mail to locate it.
 >
 > For information on applying a license, please read through
-> [our documentation](https://docs.gitlab.com/ee/administration/license_file.html).
+> [our documentation](https://docs.gitlab.com/administration/license_file/).
 >
 > As this is a staging license, please keep in mind you *must* setup your GitLab
 > deployment to work with those.
 >
 > - For non-GDK instances, please see
->   [our documentation](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab).
+>   [our documentation](https://docs.gitlab.com/omnibus/development/setup/#use-customers-portal-staging-in-gitlab).
 > - For GDK instances:
 >   - Ensure that you have a `env.runit` file created in the root directory of
 >     your GDK repository.

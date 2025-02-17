@@ -27,7 +27,7 @@ By implementing a more efficient architecture, it is expected that GitLab will i
 
 ### Current limitations
 
-Changes to project-level rules are not reflected in any MR-level rules after they have been created. To mitigate this problem we allow project administrators to restrict the editing of approval rules at the MR-level. This means project-level rules are applied directly to MRs, and any updates to them are not propagated. See [prevent editing approval rules in merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#prevent-editing-approval-rules-in-merge-requests) for more details.
+Changes to project-level rules are not reflected in any MR-level rules after they have been created. To mitigate this problem we allow project administrators to restrict the editing of approval rules at the MR-level. This means project-level rules are applied directly to MRs, and any updates to them are not propagated. See [prevent editing approval rules in merge requests](https://docs.gitlab.com/user/project/merge_requests/approvals/settings/#prevent-editing-approval-rules-in-merge-requests) for more details.
 
 ### Goals
 

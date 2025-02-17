@@ -15,7 +15,7 @@ We rely on a combination of self and [AI triage](https://gitlab.com/gitlab-org/q
 ### Partial Triage checklist
 
 - Issue is spam:
-  - [Report the issue](https://docs.gitlab.com/ee/user/report_abuse.html#report-abuse-from-an-issue).
+  - [Report the issue](https://docs.gitlab.com/user/report_abuse/#report-abuse-from-an-issue).
   - Make the issue confidential.
   - Post a link to the issue in the `#abuse` slack channel.
 - Issue is request for help:
@@ -29,7 +29,7 @@ We rely on a combination of self and [AI triage](https://gitlab.com/gitlab-org/q
 - `~"type::bug"`: assign a [severity label](#severity).
   - If ~"severity::1" or ~"severity::2": mention the PM/EM from the [group](#group-labels)
 - Assign a [group label](#group-labels).
-  - If there is no suitable group label: assign a [stage ("devops") label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels).
+  - If there is no suitable group label: assign a [stage ("devops") label](https://docs.gitlab.com/development/labels/#stage-labels).
 - Optionally tag relevant [domain experts](/handbook/company/structure/#expert).
 
 ## Complete Triage
@@ -38,7 +38,7 @@ An issue is considered completely triaged when all of the following criteria are
 
 - It is partially triaged.
 - It has a milestone set.
-- It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for `~"type::bug"` and `~"Deferred UX"`.
+- It has a [priority label](https://docs.gitlab.com/development/labels/#priority-labels) applied for `~"type::bug"` and `~"Deferred UX"`.
 
 ## Type Labels
 
@@ -47,7 +47,7 @@ If you are unsure about the type, you can tag the product or engineering manager
 
 ## Group labels
 
-Assigning a [group label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) allows `gitlab-bot` to automatically assign the right stage label.
+Assigning a [group label](https://docs.gitlab.com/development/labels/#group-labels) allows `gitlab-bot` to automatically assign the right stage label.
 The [Features by Group](/handbook/product/categories/features) listing can help find the right group.
 
 ## Priority
@@ -71,7 +71,7 @@ If you need help estimating severity, reach out in the `#s_developer_experience`
 
 Note: These severity definitions apply to issues only. Please see [Severity Levels section](/handbook/engineering/infrastructure/incident-management/#severities) of the [Incident Management page](/handbook/engineering/infrastructure/incident-management/) for details on incident severity.
 
-[Severity labels](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) help us determine urgency and clearly communicate the impact of a `~"type::bug"` on users. There can be multiple categories of a `~"type::bug"`.
+[Severity labels](https://docs.gitlab.com/development/labels/#severity-labels) help us determine urgency and clearly communicate the impact of a `~"type::bug"` on users. There can be multiple categories of a `~"type::bug"`.
 
 The presence of bug category labels `~"bug::availability"`, `~"bug::performance"`, `~"bug::vulnerability"`, and `~UX` denotes to use the severity definition in that category. When a `~"type::bug"` correspond to multiple categories, the severity to apply should be the higher, for example, if an issue has a `~"severity::2"` for `~"bug::availability"` and a `~"severity::1"` for `~"bug::performance"` then the severity assigned to the issue should be `~"severity::1"`.
 
@@ -120,7 +120,7 @@ If a issue seems to fall between two severity labels, assign it to the higher se
 - Example(s) of `~"severity::2"`
   - Cannot submit changes through the web IDE, but the command line works.
   - A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
-  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
+  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/administration/operations/rails_console/), making it unacceptably complex.
 - Example(s) of `~"severity::3"`
   - Can create merge requests only from the Merge Requests list view, not from an Issue page.
 - Example(s) of `~"severity::4"`
@@ -217,9 +217,9 @@ Priority is tied to severity in the following manner:
 **Improving performance**: It may not be possible to reach the intended response time in one iteration.
 We encourage performance improvements to be broken down. Improve where we can and then re-evaluate the next appropriate level of severity & priority based on the new response time.
 
-[^1]: Our current response time targets for APIs, Web Controllers and Git calls are based on the TTFB P90 results of the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest/10k).
+[^1]: Our current response time targets for APIs, Web Controllers and Git calls are based on the TTFB P90 results of the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance) being run against a [10k-user reference environment](https://docs.gitlab.com/administration/reference_architectures/10k_users/) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest/10k).
 
-[^2]: Our current Browser Rendering targets for [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) and [Total Blocking Time (TBT)](https://web.dev/articles/tbt) are based on results of [SiteSpeed](https://gitlab.com/gitlab-org/quality/performance-sitespeed) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k).
+[^2]: Our current Browser Rendering targets for [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) and [Total Blocking Time (TBT)](https://web.dev/articles/tbt) are based on results of [SiteSpeed](https://gitlab.com/gitlab-org/quality/performance-sitespeed) being run against a [10k-user reference environment](https://docs.gitlab.com/administration/reference_architectures/10k_users/) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k).
 
 ### UX
 
@@ -277,7 +277,7 @@ Follow one of these links:
 Pick an issue, with preference given to the oldest in the list, and evaluate it with a critical eye, bearing the [issue triage practices](#issue-triage-practices) below in mind. Some questions to ask yourself:
 
 - Do you understand what the issue is describing?
-- What labels apply? Particularly consider [type, stage and severity](https://docs.gitlab.com/ee/development/labels/index.html) labels.
+- What labels apply? Particularly consider [type, stage and severity](https://docs.gitlab.com/development/labels/) labels.
 - How critical does it seem? Does it need to be escalated to a product or engineering manager, or to the security team?
 - Would the `~"bug::vulnerability"` label be appropriate?
 - Should it be made confidential? It's usually the case for `~"bug::vulnerability"` issues or
@@ -421,7 +421,7 @@ Sort by "Author: your username" and close any issues which you know have been fi
 
 ### Product feedback issues
 
-Some issues may not fall into the [type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels), but they contain useful feedback on how GitLab features are used.
+Some issues may not fall into the [type labels](https://docs.gitlab.com/development/labels/#type-labels), but they contain useful feedback on how GitLab features are used.
 These issues should be mentioned to the product manager and labeled as `~"Product Feedback"` in addition to the group, category and stage labels.
 <https://gitlab.com/gitlab-org/gitlab/-/issues/324770> is an example of a Product Feedback issue.
 

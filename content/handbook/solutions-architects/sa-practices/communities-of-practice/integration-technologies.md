@@ -24,7 +24,7 @@ As the cluster grows, more nodes can be added to the cluster to improve concurre
 
 ### Installation & Integration
 
-The [global search team](https://gitlab.slack.com/archives/C3TMLK465) maintains a [page](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html) on the basic "know-hows" of setting up Elasticsearch and integrating with GitLab.
+The [global search team](https://gitlab.slack.com/archives/C3TMLK465) maintains a [page](https://docs.gitlab.com/integration/advanced_search/elasticsearch/) on the basic "know-hows" of setting up Elasticsearch and integrating with GitLab.
 
 #### Installation Options
 
@@ -35,7 +35,7 @@ Elasticsearch is able to install on most [platforms](https://www.elastic.co/guid
 Demo Examples:
 
 - [Recently Viewed Suggestions](https://www.youtube.com/watch?v=a1Y9927eC4I) [VIDEO]
-- [Advanced Search Syntax](https://docs.gitlab.com/ee/user/search/advanced_search.html)
+- [Advanced Search Syntax](https://docs.gitlab.com/user/search/advanced_search/)
 
 ### FAQ
 
