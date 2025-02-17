@@ -10,3 +10,23 @@ _TEASER_: Get ready for **HUGE** changes coming to learning technology for GitLa
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUJWcpfq-Y_4C7qOIMAT11wJX0n5pAfuKUp9xnQZvuyrESb87_ZISah83q42b4bo-HHOxMnHvNRJSH/embed?start=false&loop=false&delayms=60000"
 frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 {{</ gdoc >}}
+
+## Benefits and Features
+
+The new Cornerstone TXP platform offers significant improvements over our current learning management system, specifically designed to support internal employee development and career growth at GitLab. Key features include:
+
+- Internal gigs and side projects to provide hands-on learning opportunities
+- Enhanced management tools for training assignment and recommendations
+- Advanced user-generated content capabilities
+- Seamless integration with our talent management infrastructure, ensuring skills development is reflected in performance data
+- Skills library linked to GitLab job architecture 
+
+## Project Team
+
+- Tre Ely - Sr Director Talent Management & Development
+- Jamie Allen - Sr Talent Development Program Manager
+- Michelle Bencomo - Sr Program Manager, People Leadership Group
+
+## Timeline
+
+Initial launch is planned for the engineering teams in late March 2026, with details on company-wide rollout to follow.
