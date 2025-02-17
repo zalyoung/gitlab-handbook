@@ -32,10 +32,10 @@ The categories form a hierarchy:
 1. **Sections**: Are a collection of stages. We attempt to align these logically along common workflows like Dev, Sec and Ops.
 Sections are maintained in [`data/sections.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/sections.yml).
 1. **Stages**: are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
-Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) under the `gitlab-org` group.
+Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/development/labels/#stage-labels) under the `gitlab-org` group.
 1. **Group**: A stage has one or more [groups](/handbook/company/structure/#product-groups).
 Groups are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
-Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) under the `gitlab-org` group.
+Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/development/labels/#group-labels) under the `gitlab-org` group.
 1. **Categories**: A group has one or more categories. Categories are high-level
 capabilities that may be a standalone product at another company. e.g.
 Portfolio Management. To the extent possible we should map categories to
@@ -48,12 +48,12 @@ to be fewer categories, or shorter category names, if the aggregate number of
 lines when rendered would exceed 13 lines, when accounting for category names
 to word-wrap, which occurs at approximately 15 characters.
 Categories are maintained in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml).
-Each category has a corresponding [`Category:<Category>` label](https://docs.gitlab.com/ee/development/labels/index.html#category-labels) under the `gitlab-org` group. Category maturity is managed in the product [Category Maturity Change](/handbook/product/categories/#changing-category-maturity) process
+Each category has a corresponding [`Category:<Category>` label](https://docs.gitlab.com/development/labels/#category-labels) under the `gitlab-org` group. Category maturity is managed in the product [Category Maturity Change](/handbook/product/categories/#changing-category-maturity) process
 1. **Features**: Small, discrete functionalities. e.g. Issue weights. Some
 common features are listed within parentheses to facilitate finding
 responsible PMs by keyword.
 Features are maintained in [`data/features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/features.yml).
-It's recommended to associate [feature labels](https://docs.gitlab.com/ee/development/labels/index.html#feature-labels) to a category or a group with `feature_labels` in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml?ref_type=heads) or [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads).
+It's recommended to associate [feature labels](https://docs.gitlab.com/development/labels/#feature-labels) to a category or a group with `feature_labels` in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml?ref_type=heads) or [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads).
 
 Notes:
 
@@ -337,7 +337,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Pipeline Authoring Group](#pipeline-authoring-group)
 
-- [CI/CD Template Management and Contributions](https://docs.gitlab.com/ee/development/cicd/templates.html)
+- [CI/CD Template Management and Contributions](https://docs.gitlab.com/development/cicd/templates/)
 
 ### Other functionality in Monitor stage
 

@@ -240,7 +240,7 @@ While Product Managers are the DRIs for [milestone planning](/handbook/product/p
 
 ### Foundational Requirements
 
-When thinking about new features, we must not only think about the functional requirements of a feature (defining what the feature will do), but also to think about foundational requirements (defining how the feature works). At the highest level, foundational requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. It is important to have foundational requirements in place up front, as this is much easier than trying to add them later and change expectations, or break existing workflows. Our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) contains specific areas of consideration that are required for the acceptance of new contributions.
+When thinking about new features, we must not only think about the functional requirements of a feature (defining what the feature will do), but also to think about foundational requirements (defining how the feature works). At the highest level, foundational requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. It is important to have foundational requirements in place up front, as this is much easier than trying to add them later and change expectations, or break existing workflows. Our [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) contains specific areas of consideration that are required for the acceptance of new contributions.
 
 For an in depth review of foundational requirements (often referred to as non-functional requirements), see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/).
 
@@ -248,9 +248,9 @@ To deliver features, we must have both functional and foundational requirements 
 
 #### Introducing application limits
 
-To enhance availability and performance of GitLab, configurable limits should be put in place for features which utilize storage, or scale in a manner which could impact performance. For example, we [limit the number of webhooks per project](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html), and we allow admins to set [rate limits on raw endpoints](https://docs.gitlab.com/ee/administration/settings/rate_limits_on_raw_endpoints.html). These limits ensure more consistent performance, reduce the likelihood of outages, and offer admins tools to limit abuse or enforce specific standards. While these limits can be configurable, sensible default limits should be defined for our GitLab SaaS and GitLab dedicated offerings.
+To enhance availability and performance of GitLab, configurable limits should be put in place for features which utilize storage, or scale in a manner which could impact performance. For example, we [limit the number of webhooks per project](https://docs.gitlab.com/user/project/integrations/webhooks/), and we allow admins to set [rate limits on raw endpoints](https://docs.gitlab.com/administration/settings/rate_limits_on_raw_endpoints/). These limits ensure more consistent performance, reduce the likelihood of outages, and offer admins tools to limit abuse or enforce specific standards. While these limits can be configurable, sensible default limits should be defined for our GitLab SaaS and GitLab dedicated offerings.
 
-There is a guide about [developing application limits](https://docs.gitlab.com/ee/development/application_limits.html) in the GitLab Docs.
+There is a guide about [developing application limits](https://docs.gitlab.com/development/application_limits/) in the GitLab Docs.
 
 ##### When implementing application limits
 
@@ -265,7 +265,7 @@ Application limits should be enabled by default. If we are considering enabling 
 - **Document the limits on docs.gitlab.com**
   - Make sure that the limit is documented on the page for the feature and include details such as if it's configurable, what the default value is, and what impact this can have on the end user.
   - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
-  - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
+  - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/security/rate_limits/)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
@@ -283,7 +283,7 @@ When evaluating feature data storage, the following data storage topics should b
 - **How long should data be retained?** - We should consider carefully the need to store data indefinitely. For many features, removing certain data after a specified time period won't impact the functionality of the feature. In these instances, we should put retention policies in place. These retention polices should have a sane default value which is considered best practice for operating the feature long term. _Note: it is easier to iterate toward longer data retention time frames, but far harder to reduce retention time frames. Consider starting out with a conservative time frame._
 - **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Git Group](/handbook/product/categories/#git-group) for assistance.
 
-A good example where we've successfully evaluated data storage is our CI/CD Artifacts. We've set some sane default values for both [maximum artifact size](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#maximum-artifacts-size) and for [default artifacts expiration](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#default-artifacts-expiration), while making these both configurable for administrative users.
+A good example where we've successfully evaluated data storage is our CI/CD Artifacts. We've set some sane default values for both [maximum artifact size](https://docs.gitlab.com/administration/settings/continuous_integration/#maximum-artifacts-size) and for [default artifacts expiration](https://docs.gitlab.com/administration/settings/continuous_integration/#default-artifacts-expiration), while making these both configurable for administrative users.
 
 ### Cross-stage features
 
@@ -527,7 +527,7 @@ translate the priorities of any given group into action by our engineering
 teams, we need to be able to translate this multi-faceted problem into a flat
 list of priorities for at least the next release cycle. Product Managers are
 [responsible for taking all these prioritization considerations](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and creating a
-clear, sequenced list of next priorities. This list should be represented as an [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html)
+clear, sequenced list of next priorities. This list should be represented as an [issue board](https://docs.gitlab.com/user/project/issue_board/)
 so that each team has a clear interface for making decisions about work. From
 this list, Product Designers, Engineering Managers and Product Managers can work together to
 determine what items will be selected for work in the immediate future.
@@ -1427,7 +1427,7 @@ If after evaluating these considerations buying a commercial solution is the bes
 
 When considering open source software in build vs. "buy" decisions we utilize the following general criteria to decide whether to integrate a piece of software:
 
-- **Compatibility** - Does the software utilize a [compatible open source license](https://docs.gitlab.com/ee/development/licensing.html#acceptable-licenses)?
+- **Compatibility** - Does the software utilize a [compatible open source license](https://docs.gitlab.com/development/licensing/#acceptable-licenses)?
 - **Viability** - Is the software, in its current state, viable for the use case in question?
 - **Velocity** - Is there a high rate of iteration with the software? Are new features or enhancements proposed and completed quickly? Are security patches applied regularly?
 - **Community** - Is there a diverse community contributing to the software? Is the software governed by broader communities or by a singular corporate entity? Do maintainers regularly address feedback from the community?

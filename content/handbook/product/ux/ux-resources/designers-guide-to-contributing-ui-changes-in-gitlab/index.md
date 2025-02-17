@@ -92,8 +92,8 @@ If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/stor
 
 ## Terminal (CLI) cheatsheet
 
-- [Command Line basic commands](https://docs.gitlab.com/ee/topics/git/commands.html) in our GitLab docs.
-- [Basic Git commands](https://docs.gitlab.com/ee/topics/git/commands.html#basic-git-commands) in our GitLab docs.
+- [Command Line basic commands](https://docs.gitlab.com/topics/git/commands/) in our GitLab docs.
+- [Basic Git commands](https://docs.gitlab.com/topics/git/commands/#basic-git-commands) in our GitLab docs.
 
 ## Video walkthroughs
 

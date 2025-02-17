@@ -54,8 +54,8 @@ The data source determines the table names used in Tableau queries. We have thre
 - **GitLab.com Postgres Database** (for GitLab.com)
 - **Internal Events** (for GitLab.com)
   - Captures client/server side events and page views
-  - [Tools for viewing events](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html) for exploration/testing
-  - [Implementing event tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html)
+  - [Tools for viewing events](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/) for exploration/testing
+  - [Implementing event tracking](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/quick_start/)
 - **deprecated** Snowplow (for GitLab.com)
   - Captures client/server side events and page views
   - Video: [Snowplow 2.0 Workshop](https://www.youtube.com/watch?v=CaxhdskjWvg)

@@ -65,7 +65,7 @@ It is highly recommended to use the feedback template below to make this easier.
 
 #### Feedback template
 
-You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html#create-comment-templates) for reusability:
+You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/user/profile/comment_templates/#create-comment-templates) for reusability:
 
 ```markdown
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
@@ -120,7 +120,7 @@ If you have followed the process of creating/commenting on issues and have not g
 
 If a customer has identified an issue that is high priority for them, such as a work-stoppage bug or a feature required for the customer to meet a deadline, follow the expected steps for logging and tracking customer feature requests above by adding the customer's interest in a GitLab issue and including it in the collaboration project issue. In addition, [reach out to the Product Manager](/handbook/product/product-management/#where-to-reach-product-managers) who is [responsible for the corresponding group](/handbook/product/product-management/#which-product-manager-should-i-contact) and discuss it with them directly. A general idea of high priority is that the customer needs a particular feature as soon as possible.
 
-**Critical Priority Requests** are extremely rare, but, when they occur, they are agreed upon by both Product and Engineering, with the CSM facilitating the request. If a customer is unable to continue using GitLab without a specific feature, the CSM should begin the [triaging the account](/handbook/customer-success/csm/health-score-triage/), follow the process to indicate customer interest in the issue, then set up regular check-ins with the Product and Engineering teams to assess the status of the feature, expectations, and potential secondary plans. For the product & engineering process, please refer to the details of a [critical customer merge request](https://docs.gitlab.com/ee/development/code_review.html#customer-critical-merge-requests).
+**Critical Priority Requests** are extremely rare, but, when they occur, they are agreed upon by both Product and Engineering, with the CSM facilitating the request. If a customer is unable to continue using GitLab without a specific feature, the CSM should begin the [triaging the account](/handbook/customer-success/csm/health-score-triage/), follow the process to indicate customer interest in the issue, then set up regular check-ins with the Product and Engineering teams to assess the status of the feature, expectations, and potential secondary plans. For the product & engineering process, please refer to the details of a [critical customer merge request](https://docs.gitlab.com/development/code_review/#customer-critical-merge-requests).
 
 ### Why do product teams prefer we ask about the problem rather than the solution?
 
