@@ -142,7 +142,7 @@ Each runner has a tag identifier unique to that runner, e.g. `DiscoveryOne`, `tu
 1. For jobs where the webhook times out (1 hour) their status should be set as though the admission was denied with a timeout reasoning. This should
    be rare in typical circumstances.
 1. Jobs with denied admission can be retried. Retried jobs will be resent to the admission controller without tag mutations or runner filtering reset.
-1. [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure) should be updated to support jobs that fail on denied admissions, for example:
+1. [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/#allow_failure) should be updated to support jobs that fail on denied admissions, for example:
 
    ```yaml
    job:

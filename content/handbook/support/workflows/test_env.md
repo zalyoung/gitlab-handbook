@@ -352,7 +352,7 @@ If you wish to test resources using a real domain name (instead of an IP address
 ## Securing Cloud Testing Environments
 
 Test instances are, by default, publicly accessible on the Internet. Often, we need to test specific versions or configurations that may be vulnerable to remote compromise. It is your responsibility to secure your test instances to prevent them from being compromised and used to further attack our cloud environment.
-
+[Configure HTTPS manually](https://docs.gitlab.com/omnibus/settings/ssl/
 The [GitLab Red Team](/handbook/engineering/security/threat-management/red-team/) regularly scans GitLab's cloud environments for publicly accessible instances with known vulnerabilities. Instances vulnerable to known RCEs or other exploits detected through automated scans will be shut down without warning.
 
 ### IP Filtering
@@ -391,7 +391,7 @@ The command's output will tell you the filenames that are generated:
 > The certificate is at "./gitlab.example.com.pem" and the key at "./gitlab.example.com-key.pem" ✅
 >```
 
-For instructions on using self-signed certificates on your test instances, please review the GitLab docs on [Configure HTTPS manually](https://docs.gitlab.com/omnibus/settings/ssl/index.html#configure-https-manually) and the documentation available from these cloud service providers:
+For instructions on using self-signed certificates on your test instances, please review the GitLab docs on [Configure HTTPS manually](https://docs.gitlab.com/omnibus/settings/ssl/#configure-https-manually) and the documentation available from these cloud service providers:
 
 - [Google Cloud](https://cloud.google.com/load-balancing/docs/ssl-certificates/self-managed-certs)
 - [AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html)
@@ -703,7 +703,7 @@ gitlab/gitlab-ee:$VERSION
 ```sh
 echo $IP
 # example output: 192.168.151.134
-```
+```[Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/
 
 - Browse to: <https://192.168.151.134:8888/>
 
@@ -742,7 +742,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 ## Windows
 
 It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows.html) or
-even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/index.html#example-for-windowsamd64).
+even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/#example-for-windowsamd64).
 
 The options are the same as above:
 

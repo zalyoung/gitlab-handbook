@@ -34,7 +34,7 @@ Today personal Namespaces serve two purposes that are mostly non-overlapping:
 
 ## 1. Definition
 
-A [personal Namespace](https://docs.gitlab.com/ee/user/namespace/index.html#types-of-namespaces) is based on a username and provided when a user creates an account.
+A [personal Namespace](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces) is based on a username and provided when a user creates an account.
 Users can create [personal Projects](https://docs.gitlab.com/ee/user/project/working_with_projects.html#view-personal-projects) under their personal Namespace.
 
 ## 2. Data flow
@@ -77,7 +77,7 @@ Cons:
 
 - A transfer mechanism to move personal Namespaces between Organizations would need to be built, which is extremely complex. This would be in violation of the current Cells architecture, because Organizations can be located on different Cells. To make this possible, we would need to break Organization isolation.
 - High risk that transfer between Organizations would lead to breaking connections and data loss.
-- [Converting personal Namespaces to Groups](https://docs.gitlab.com/ee/tutorials/convert_personal_namespace_to_group/index.html) before transfer is not a straightforward process.
+- [Converting personal Namespaces to Groups](https://docs.gitlab.com/ee/tutorials/convert_personal_namespace_to_group/) before transfer is not a straightforward process.
 
 ### 3.2. One personal Namespace that remains in the default Organization
 

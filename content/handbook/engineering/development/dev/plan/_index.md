@@ -169,7 +169,7 @@ by [filtering by the ~"Plan stage refinement" label](https://gitlab.com/gitlab-o
 
 ### Tracking Committed Work for an Upcoming Release
 
-While we operate in a continuous Kanban manner, we want to be able to report on and communicate if an issue or epic is on track to be completed by a Milestone's due date. To provide insight and clarity on status we will leverage [Issue/Epic Health Status](https://docs.gitlab.com/ee/user/project/issues/index.html#health-status) on priority issues.
+While we operate in a continuous Kanban manner, we want to be able to report on and communicate if an issue or epic is on track to be completed by a Milestone's due date. To provide insight and clarity on status we will leverage [Issue/Epic Health Status](https://docs.gitlab.com/ee/user/project/issues/#health-status) on priority issues.
 
 ### Keeping Health Status Accurate
 

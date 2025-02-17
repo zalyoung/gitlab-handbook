@@ -130,7 +130,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/Eza1wXoDLvs" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Read the [Migrating from SVN to GitLab documentation](https://docs.gitlab.com/ee/user/project/import/index.html#import-from-subversion)
+- **Learn more**: Read the [Migrating from SVN to GitLab documentation](https://docs.gitlab.com/ee/user/project/import/#import-from-subversion)
 
 #### What are best practices for a developer workflow?
 
@@ -266,7 +266,7 @@ No questions at this time.
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Review the [Replication with Geo documentation](https://docs.gitlab.com/ee/administration/geo/index.html)
+- **Learn more**: Review the [Replication with Geo documentation](https://docs.gitlab.com/ee/administration/geo/)
 
 #### What is GitLab's out-of-the-box support for (AWS/Azure/GCP)?
 
@@ -280,7 +280,7 @@ No questions at this time.
 
 1. Number of users
 2. Whether or not HA (High Availability) is required
-3. Whether or not [Geo (Replication)](https://docs.gitlab.com/ee/administration/geo/index.html) is required
+3. Whether or not [Geo (Replication)](https://docs.gitlab.com/ee/administration/geo/) is required
 
 - **Context video** (9 minutes, May 2020):
 
@@ -288,13 +288,13 @@ No questions at this time.
   <iframe src="https://www.youtube.com/embed/-WaX9nLKQME" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: GitLab supports a number of scaling options to ensure that your self-managed instance is able to scale out to meet your organization's needs when scaling up a single-box GitLab installation is no longer practical or feasible. Check out [GitLab's Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#reference-architectures).
+- **Learn more**: GitLab supports a number of scaling options to ensure that your self-managed instance is able to scale out to meet your organization's needs when scaling up a single-box GitLab installation is no longer practical or feasible. Check out [GitLab's Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#reference-architectures).
 
 #### What are the best practices for backing up a GitLab instance?
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Check out the [Backing up and restoring GitLab documentation](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
+- **Learn more**: Check out the [Backing up and restoring GitLab documentation](https://docs.gitlab.com/ee/administration/backup_restore/)
 
 #### What installation method does GitLab recommend customers use?
 

@@ -45,7 +45,7 @@ The dependent services:
 ![Deployment Development Cells](/images/engineering/architecture/design-documents/cells/rejected/diagrams/deployment-development-cells.drawio.png)
 
 The purpose of **Development Cells** is to model a production-like architecture to test and validate the changes introduced.
-This could be achieved with testing Cells on top of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html).
+This could be achieved with testing Cells on top of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
 Read more in [#425197](https://gitlab.com/gitlab-org/gitlab/-/issues/425197).
 
 The differences compared to [Before Cells](#1-before-cells---monolithic-architecture) are:
@@ -72,7 +72,7 @@ The differences compared to [Development Cells](#2-development-cells---adapting-
   - Read access always uses a database replica.
   - A database replica might be deployed with the Cell.
   - Write access uses the dedicated Cluster-wide Data Provider service.
-- Additional Cells are deployed, upgraded and maintained via a [GitLab Dedicated-like](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/index.html) control plane.
+- Additional Cells are deployed, upgraded and maintained via a [GitLab Dedicated-like](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) control plane.
 - Each Cell aims to run as many services as possible in isolation.
 - A Cell can run its own Gitaly cluster, or can use a shared Gitaly cluster, or both.
   Read more in [!131657](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/131657#note_1569151454).
@@ -100,7 +100,7 @@ The differences compared to [Initial Cells deployment](#3-initial-cells-deployme
 
 The differences compared to [Hybrid Cells deployment](#4-hybrid-cells-deployment---initial-complete-cells-architecture) are:
 
-- The Routing Service is expanded to support [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/index.html) and [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html).
+- The Routing Service is expanded to support [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) and [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry/).
 - Each Cell has all services isolated.
 - It is allowed that some Cells will follow a [hybrid architecture](#4-hybrid-cells-deployment---initial-complete-cells-architecture).
 

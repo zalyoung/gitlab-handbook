@@ -6,7 +6,7 @@ toc_hide: true
 
 ## Context
 
-When we provision a Cell we have to choose a [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html) to start with,
+When we provision a Cell we have to choose a [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) to start with,
 then go on to scale accordingly to the workloads based upon [flexible architecture](005_flexible_reference_architectures.md) to scale accordingly to the workloads.
 
 In <https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2838> we did some research on which reference architecture to choose initially.

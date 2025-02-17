@@ -115,9 +115,9 @@ Application
 
 ### Bypasses
 
-[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
+[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
 
-Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
+[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
 ## Traffic management Rate Limits
 
@@ -279,8 +279,8 @@ GitLab utilises [RackAttack](https://docs.gitlab.com/ee/development/application_
 
 For more information about configuring rate limits for a GitLab instance, see the [User and IP rate limits](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html) doc.
 
-You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
-
+You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
+[rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/
 ### ApplicationRateLimiter
 
 The GitLab application has simple rate limit logic that can be used to throttle certain actions which is used when we need more
@@ -301,9 +301,9 @@ Because GitLab Pages is not behind CloudFlare and doesn't have CDN support, rate
 1. Within the [Kubernetes settings](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com/-/blob/1c12c9ac84921893ac774e95e1087f144dd3b04a/releases/gitlab/values/values.yaml.gotmpl#L492) for GitLab.com.
 2. In the [Go ratelimiter module](https://gitlab.com/gitlab-org/gitlab-pages/-/blob/master/internal/ratelimiter/ratelimiter.go?ref_type=heads) for Pages.
 
-For more information, see the [Pages Rate Limit documentation](https://docs.gitlab.com/ee/administration/pages/index.html#rate-limits).
+For more information, see the [Pages Rate Limit documentation](https://docs.gitlab.com/ee/administration/pages/#rate-limits).
 
-### Registry
+### Registry[Pages Rate Limit documentation](https://docs.gitlab.com/ee/administration/pages/
 
 Registry is not fronted by Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/16468) for full details around why). There is no application-level setting for it either (though there is an [open feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/438690) to add that), so the only place where there is rate limiting in place for Registry is [in HAProxy](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/registry_https.erb).
 
@@ -333,7 +333,7 @@ Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/
 
 ## Important Links
 
-- [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
-- [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
+- [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/ks/-/tree/master/docs/rate-limiting)
 - [handbook: Identifying the cause of IP Blocks on GitLab.com](/handbook/support/workflows/ip-blocks/)

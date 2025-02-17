@@ -64,7 +64,7 @@ Assigning error budgets down to the feature category sets a baseline for specifi
 ## How do we determine the highest priority improvements?
 
 Each group has a `Budget spend attribution` section in their
-[Budget detail dashboard](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/error_budget_detail.html) that allows them to [discover where their budget is being spent](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#check-where-budget-is-being-spent).
+[Budget detail dashboard](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/error_budget_detail.html) that allows them to [discover where their budget is being spent](https://docs.gitlab.com/ee/development/stage_group_observability/#check-where-budget-is-being-spent).
 
 Both the `Budget failures` panel and each link in the `Failure log links` panel are ordered by the number of errors. Prioritising fixing the top offenders in these tables will have the biggest impact on the budget spent.
 
@@ -125,7 +125,7 @@ We elected to use the 28 day period to match Product reporting methods.
 
 The budget is set on the SaaS platform and is shared between stage and infrastructure teams. Service Availability calculation methodology is covered in details at [the GitLab.com Service Availability page](/handbook/engineering/monitoring/#gitlabcom-service-availability).
 
-This includes all Rails Controllers, API Endpoints, Sidekiq workers, and other SLIs defined in the service catalog. This is attributed to groups by defining a feature category. Documentation about feature categorization is available in the [developer guide](https://docs.gitlab.com/ee/development/feature_categorization/index.html#feature-categorization).
+This includes all Rails Controllers, API Endpoints, Sidekiq workers, and other SLIs defined in the service catalog. This is attributed to groups by defining a feature category. Documentation about feature categorization is available in the [developer guide](https://docs.gitlab.com/ee/development/feature_categorization/#feature-categorization).
 
 The number or complexity of features owned by a team, existing product priorities, or the team size does not influence the budget.
 
@@ -197,7 +197,7 @@ At this time we are not looking further into automatically discounting system-wi
 
 ### How to change error budget attribution
 
-Error budget events are attributed to stage groups via feature categorization. To change the feature category for an endpoint, update the endpoint as described in the [feature categorization development documentation](https://docs.gitlab.com/ee/development/feature_categorization/index.html#feature-categorization).
+Error budget events are attributed to stage groups via feature categorization. To change the feature category for an endpoint, update the endpoint as described in the [feature categorization development documentation](https://docs.gitlab.com/ee/development/feature_categorization/#feature-categorization).
 
 Updates to feature categories only change how future events are mapped to stage groups. Previously reported events will not be retroactively updated.
 

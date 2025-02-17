@@ -193,7 +193,7 @@ Two code searches are available: `Elasticsearch` and `Zoekt`.
 
 Elasticsearch provides blob search which supports [Advanced Search Syntax](https://docs.gitlab.com/ee/user/search/advanced_search.html#syntax).
 
-[Zoekt](https://docs.gitlab.com/ee/architecture/blueprints/code_search_with_zoekt/index.html) is employed on GitLab.com to provide
+[Zoekt](https://docs.gitlab.com/ee/architecture/blueprints/code_search_with_zoekt/) is employed on GitLab.com to provide
 exact match keyword search and regular expression search capabilities for source
 code.
 

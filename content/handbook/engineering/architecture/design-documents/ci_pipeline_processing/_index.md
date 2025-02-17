@@ -74,13 +74,13 @@ Most of these problems have been discussed before in the
 
 ### Problem 1: The responsibility of the `when` keyword
 
-Right now, the [`when`](https://docs.gitlab.com/ee/ci/yaml/index.html#when) keyword has many responsibilities;
+Right now, the [`when`](https://docs.gitlab.com/ee/ci/yaml/#when) keyword has many responsibilities;
 
 > - `on_success` (default): Run the job only when no jobs in earlier stages fail or have `allow_failure: true`.
 > - `on_failure`: Run the job only when at least one job in an earlier stage fails. A job in an earlier stage
 >   with `allow_failure: true` is always considered successful.
 > - `never`: Don't run the job regardless of the status of jobs in earlier stages.
->   Can only be used in a [`rules`](https://docs.gitlab.com/ee/ci/yaml/index.html#rules) section or `workflow: rules`.
+>   Can only be used in a [`rules`](https://docs.gitlab.com/ee/ci/yaml/#rules) section or `workflow: rules`.
 > - `always`: Run the job regardless of the status of jobs in earlier stages. Can also be used in `workflow:rules`.
 > - `manual`: Run the job only when [triggered manually](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually).
 > - `delayed`: [Delay the execution of a job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#run-a-job-after-a-delay)
@@ -98,7 +98,7 @@ For example; publishing failures to dedicated page or dedicated external service
 
 ### Problem 2: Abuse of the `allow_failure` keyword
 
-We control the blocker behavior of a manual job by the [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure) keyword.
+We control the blocker behavior of a manual job by the [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/#allow_failure) keyword.
 Actually, it has other responsibilities; *"determine whether a pipeline should continue running when a job fails"*.
 
 Currently, a [manual job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually);
@@ -133,12 +133,12 @@ Currently;
 
 `allow_failure` becomes more confusing when using `rules`.
 
-From [docs](https://docs.gitlab.com/ee/ci/yaml/index.html#when):
+From [docs](https://docs.gitlab.com/ee/ci/yaml/#when):
 
 > The default behavior of `allow_failure` changes to true with `when: manual`.
 > However, if you use `when: manual` with `rules`, `allow_failure` defaults to `false`.
 
-From [docs](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure):
+From [docs](https://docs.gitlab.com/ee/ci/yaml/#allow_failure):
 
 > The default value for `allow_failure` is:
 >
@@ -375,8 +375,8 @@ test:
 
 ### Problem 5: The `dependencies` keyword
 
-The [`dependencies`](https://docs.gitlab.com/ee/ci/yaml/index.html#dependencies) keyword is used to define a list of jobs to fetch
-[artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifacts) from. It is a shared responsibility with the `needs` keyword.
+The [`dependencies`](https://docs.gitlab.com/ee/ci/yaml/#dependencies) keyword is used to define a list of jobs to fetch
+[artifacts](https://docs.gitlab.com/ee/ci/yaml/#artifacts) from. It is a shared responsibility with the `needs` keyword.
 Moreover, they can be used together in the same job. We may not need to discuss all possible scenarios but this example
 is enough to show the confusion;
 
@@ -407,8 +407,8 @@ Let's define their differences first;
   - It is a machine response of the CI system to executing the job content. It indicates that execution failed for some reason.
   - It is equal answer of the system to success. The fact that something is failed is relative,
     and might be desired outcome of CI execution, like in when executing tests that some are failing.
-  - We know the result and [there can be artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifactswhen).
-  - Its eventual state is "failed" so subsequent jobs can run depending on their `when` values.
+  - We know the result and [there can be artifacts](https://docs.gitlab.com/ee/ci/yaml/#artifactswhen).
+  - Its eventual state is "[there can be artifacts](https://docs.gitlab.com/ee/ci/yaml/
     - `when: on_failure` and `when: always` are run.
 
 **The one similarity is; they can be "allowed to fail".**
@@ -449,9 +449,9 @@ and we could also use the `canceled` status more appropriately.
 ### Information 2: Empty state
 
 We [recently updated](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/117856) the documentation of
-[the `when` keyword](https://docs.gitlab.com/ee/ci/yaml/index.html#when) for clarification;
+[the `when` keyword](https://docs.gitlab.com/ee/ci/yaml/#when) for clarification;
 
-> - `on_success`: Run the job only when no jobs in earlier stages fail or have `allow_failure: true`.
+[the `when` keyword](https://docs.gitlab.com/ee/ci/yaml/fail or have `allow_failure: true`.
 > - `on_failure`: Run the job only when at least one job in an earlier stage fails.
 
 For example;

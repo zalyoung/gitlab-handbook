@@ -187,7 +187,7 @@ Further details below:
 
 [Cloud SQL](https://cloud.google.com/sql) is Google's standard PostgreSQL offering.
 It is a custom fork, claimed to be 100% compatible to the upstream Releases and is simply referenced as `PostgreSQL` in the [Cloud SQL documentation](https://cloud.google.com/sql/docs/postgres/).
-GitLab currently recognizes Cloud SQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#recommended-cloud-providers-and-services).
+GitLab currently recognizes Cloud SQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/#recommended-cloud-providers-and-services).
 
 | Pro             | Description                                                                                                                    | Priority / Importance |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------- |

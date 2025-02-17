@@ -8,7 +8,7 @@ toc_hide: true
 
 1. **Reference Architecture**: a reference architecture for deploying a GitLab instance,
    as defined by the Test Platforms team and documented in
-   [Reference Architectures Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html).
+   [Reference Architectures Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/).
 1. **Cell Architecture**: an iteratively versioned architecture definition, shared across all cells.
 1. **Cell Sub-Archetype**: a limited set of architectural deltas, deployed across the Cell fleet.
    Implemented as Overlays in the Tenant Model and Instrumentor, the provisioner.
@@ -19,14 +19,14 @@ toc_hide: true
 
 ## Context
 
-At the Cells Fastboot offsite, the use of [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html) with respect to Cells was discussed:
+At the Cells Fastboot offsite, the use of [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) with respect to Cells was discussed:
 
-1. Whether we should use existing [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html)
-1. Whether we should define new [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html)
+1. Whether we should use existing [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+1. Whether we should define new [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 
 Key points from this discussion included:
 
-1. The [GitLab Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/index.html)
+1. The [GitLab Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/)
    specifically states that the Reference Architectures are the **starting point** for defining an environment,
    rather than an immutable definition of an environment.
 1. Being "a single application with all the functionality of a DevSecOps Platform",

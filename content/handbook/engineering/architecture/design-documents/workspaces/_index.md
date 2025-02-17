@@ -26,7 +26,7 @@ It is important to note that `Workspaces !== Web IDE`, and this is something we 
 
 These two separate categories do have some overlap as it is a goal to allow a user to connect a running workspace to the Web IDE, **but** this does not mean the two are dependent on one another.
 
-You can use the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html) to commit changes to a project directly from your web browser without installing any dependencies or cloning any repositories. The Web IDE, however, lacks a native runtime environment on which you would compile code, run tests, or generate real-time feedback in the IDE.
+You can use the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/) to commit changes to a project directly from your web browser without installing any dependencies or cloning any repositories. The Web IDE, however, lacks a native runtime environment on which you would compile code, run tests, or generate real-time feedback in the IDE.
 
 ## Long-term vision
 
@@ -104,7 +104,7 @@ A major goal is that each member of a development team should have the same deve
 
 A workspace should allow access to an existing development environment from multiple machines and locations across a single or multiple teams. It should also allow a user to make use of tools or runtimes not available on their local OS or manage multiple versions of them.
 
-Additionally, workspaces could provide a way to implement disaster recovery if we are able to leverage the capabilities of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html).
+Additionally, workspaces could provide a way to implement disaster recovery if we are able to leverage the capabilities of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/).
 
 ### Scalability
 
@@ -150,7 +150,7 @@ and thus the transitive dependency of Cert Manager.
 ## Architecture details
 
 Workspaces is delivered as a module(`remote_developemnt`) in the
-[GitLab agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/index.html) project.
+[GitLab agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) project.
 The overall goal of this architecture is to ensure that the **actual state** of all
 workspaces running in the Kubernetes clusters is reconciled with the **desired state** of the
 workspaces as set by the user.
@@ -502,7 +502,7 @@ e.g. a reconcile request for 100 workspaces with 20 encrypted values each == 200
 More details about the benchmarking can be found in this [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/421504).
 
 When a workspace is created from a project, it will inherit all the variables from the group/subgroup/project hierarchy
-which are defined under [`Settings > CI/CD > Variables`](https://docs.gitlab.com/ee/ci/variables/index.html#define-a-cicd-variable-in-the-ui).
+which are defined under [`Settings > CI/CD > Variables`](https://docs.gitlab.com/ee/ci/variables/#define-a-cicd-variable-in-the-ui).
 This aspect will be generalized to allow for defining `Variables` which will be inherited in both CI/CD and Workspaces.
 A user will also be able to define, at a user level, environment variables and files to be injected into each
 workspace created by them. While creating a workspace, a user would be able to override any environment variable

@@ -23,7 +23,7 @@ for an accurate description of the current status.
 
 Our "big problem to solve" is to bring feature parity to our SaaS and self-managed offerings.
 Until now, SaaS and self-managed (SM) GitLab instances consume features only from the
-[AI gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/index.html),
+[AI gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/),
 which also implements an `Access Layer` to verify that a given request is allowed
 to access the respective AI feature endpoint.
 <!-- TODO: change to new design doc URL -->

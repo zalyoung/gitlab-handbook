@@ -12,7 +12,7 @@ High-level workflow:
 
 ## What is unplanned upgrade stop?
 
-An unplanned upgrade stop happens when we fail to communicate the necessity of this upgrade stop in our [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths). For more information, read what an [unplanned upgrade stop is](https://docs.gitlab.com/ee/development/avoiding_required_stops.html).
+An unplanned upgrade stop happens when we fail to communicate the necessity of this upgrade stop in our [upgrade path](https://docs.gitlab.com/ee/update/#upgrade-paths). For more information, read what an [unplanned upgrade stop is](https://docs.gitlab.com/ee/development/avoiding_required_stops.html).
 
 The most common cause for unplanned upgrade stops is Database migration errors. For example, [Migration errors in 16.[012]](https://gitlab.com/gitlab-org/gitlab/-/issues/423895). Other common causes of required stops listed in [Avoiding required stops documentation](https://docs.gitlab.com/ee/development/avoiding_required_stops.html#causes-of-required-stops).
 

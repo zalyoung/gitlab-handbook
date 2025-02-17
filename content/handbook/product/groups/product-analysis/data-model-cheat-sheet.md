@@ -224,7 +224,7 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 - [This knowledge base page](https://docs.gitlab.com/ee/topics/set_up_organization.html) covers an overview of namespaces, members and groups.
 
-- [Member-specific knowledge base page](https://docs.gitlab.com/ee/user/project/members/index.html) explaining direct and indirect memberships as well as shared group memberships.
+- [Member-specific knowledge base page](https://docs.gitlab.com/ee/user/project/members/) explaining direct and indirect memberships as well as shared group memberships.
 
 </details>
 

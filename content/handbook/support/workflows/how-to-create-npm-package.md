@@ -44,7 +44,7 @@ You don't need to add a license, keyword etc. All that matters it that:
 
 1. Create and provision the `.npmrc` file
 
-The `npmrc` file is one of the locations where npm gets its settings. In our case, the configuration, per the official [GitLab NPM Registry docs](https://docs.gitlab.com/ee/user/packages/npm_registry/index.html), it will hold is where to look for packages under a particular
+The `npmrc` file is one of the locations where npm gets its settings. In our case, the configuration, per the official [GitLab NPM Registry docs](https://docs.gitlab.com/ee/user/packages/npm_registry/), it will hold is where to look for packages under a particular
 scope, as well as the current user's authentication to push/pull packages.
 
 ### Step 1: Create the ~/.npmrc file

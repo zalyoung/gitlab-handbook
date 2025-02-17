@@ -43,13 +43,13 @@ use custom metrics, which we will evaluate further soon.
 ### Working with Limitations
 
 The limitation of Runway's missing support for Self-Managed(SM) environments made us evaluate other solutions for SM
-environments. The [Cloud Connector](https://docs.gitlab.com/ee/architecture/blueprints/cloud_connector/index.html)'s API-based approach would generally address the missing deployment solution
+environments. The [Cloud Connector](https://docs.gitlab.com/ee/architecture/blueprints/cloud_connector/)'s API-based approach would generally address the missing deployment solution
 for SM environments. However, the Secret Push Protection feature involves frequent transferring large amounts of data between
 Gitaly and Service in real-time so REST-based APIs aren't the right fit as they'd add significant network overhead
 unlike streaming data on an RPC request. We could optimize the Cloud Connector approach with some additional complexity but it will be a matter of time
 until Runway introduces a [deployment solution](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/236)
 for SM environments. One more [alternative solution](https://gitlab.com/gitlab-org/gitlab/-/issues/462359#note_1913306661) for SM environments was to share the Docker image artifact
-along with deployment instructions with the customers (similar to [custom models approach](https://docs.gitlab.com/ee/architecture/blueprints/custom_models/index.html#ai-gateway-deployment)) but the horizontal
+along with deployment instructions with the customers (similar to [custom models approach](https://docs.gitlab.com/ee/architecture/blueprints/custom_models/#ai-gateway-deployment)) but the horizontal
 scaling could be a concern.
 
 We came up with a hybrid solution. To address the scale of GitLab SaaS, we will have a dedicated RPC-based Secret
@@ -98,4 +98,4 @@ sequenceDiagram
 
 - [Runway Docs](https://docs.runway.gitlab.com/)
 - [Epic: Runway - Platform tooling to support AI Innovation](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/969)
-- [Blueprint: GitLab Service-Integration: AI and Beyond](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ml_experiments/index.html)
+- [Blueprint: GitLab Service-Integration: AI and Beyond](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ml_experiments/)

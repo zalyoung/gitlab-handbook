@@ -62,8 +62,8 @@ The best way to assist a user or system admin on any new platform is to arm them
 While many of the links below are included in the email, it would be helpful to review each of the following resources personally with the user/admin.
 
 1. [GitLab Documentation](https://docs.gitlab.com/ee/)
-1. [Administrator Documentation](https://docs.gitlab.com/ee/administration/index.html) (self-managed only)
-1. [Subscription setup and management](https://docs.gitlab.com/ee/subscriptions/index.html)
+1. [Administrator Documentation](https://docs.gitlab.com/ee/administration/) (self-managed only)
+1. [Subscription setup and management](https://docs.gitlab.com/ee/subscriptions/)
 1. [Licensing and subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
 1. [Uploading your license](https://docs.gitlab.com/ee/administration/license.html#uploading-your-license) (self-managed only)
 1. Features available by plan: [GitLab.com](https://about.gitlab.com/pricing/feature-comparison/) & [Self-Managed](https://about.gitlab.com/pricing/feature-comparison/)
@@ -75,13 +75,13 @@ While many of the links below are included in the email, it would be helpful to 
 1. On this page, you'll read about differences between GitLab.com and Self-Managed functionality. Whenever in doubt, don't hesitate to ask us about a particular feature/functionality which is important to your prospect prior to promissing it is available. For a question like this, contact us on Slack in the [#support_gitlab_com](https://gitlab.slack.com/messages/C4XFU81LG) or [#support_self-managed](https://gitlab.slack.com/messages/C4Y5DRKLK) channel.
 1. Be sure to stress to the new user/admin to submit their support issues directly to us via the [Support Portal](https://support.gitlab.com/hc/en-us) instead of using  you as a go-between. This will provide the most timely and comprehensive support we can offer.
 1. If you find yourself having to submit something on behalf of the user/admin, do not submit a ticket via the Support Portal/Zendesk. Instead, create an issue in [internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues).
-1. For GitLab.com, make sure the user understands how to link their GitLab.com account to the [CustomersDot](https://customers.gitlab.com/customers/sign_in) and how to associate their group with their subscription. See [managing subscriptions page](https://docs.gitlab.com/ee/subscriptions/index.html) for instructions.
+1. For GitLab.com, make sure the user understands how to link their GitLab.com account to the [CustomersDot](https://customers.gitlab.com/customers/sign_in) and how to associate their group with their subscription. See [managing subscriptions page](https://docs.gitlab.com/ee/subscriptions/) for instructions.
 
 ## Important differences between GitLab.com and Self-Managed subscriptions
 
 The [Pricing page](https://about.gitlab.com/pricing/) includes a "Frequently asked questions for GitLab.com" section that answers "What features do not apply to GitLab.com?" in detail. Here are some highlights:
 
-1. Features availability including [SAML](https://docs.gitlab.com/ee/integration/saml.html)/[LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/index.html) is Free vs. [SAML SSO](https://docs.gitlab.com/ee/user/group/saml_sso/) is Premium.
+1. Features availability including [SAML](https://docs.gitlab.com/ee/integration/saml.html)/[LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/) is Free vs. [SAML SSO](https://docs.gitlab.com/ee/user/group/saml_sso/) is Premium.
 1. Access controls: customer is admin on GitLab instance vs. group owner on GitLab.com
 1. Log information and auditing: unrestricted access vs. no access on GitLab.com (can work with Support/Security to answer questions)
 

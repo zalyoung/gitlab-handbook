@@ -100,14 +100,14 @@ Interested reviewers for the projects below should complete the listed tasks in 
 
 #### Project maintainer process for  `gitlab-rails`
 
-- For Backend Maintaiers, ping to `@gitlab-org/maintainers/rails-backend`
+- For Backend Maintaiers, ping to `@g[database guides](https://docs.gitlab.com/ee/development/database/
 - For Frontend Maintainers, ping to `@gitlab-org/maintainers/rails-frontend`
 
 #### Project maintainer process for `gitlab-database`
 
 - Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
 - Familiarize with [migration helpers](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/database/migration_helpers.rb) and review usage in existing migrations.
-- Familiarize with best practices in [database guides](https://docs.gitlab.com/ee/development/database/index.html).
+- Familiarize with best practices in [database guides](https://docs.gitlab.com/ee/development/database/).
 - Read [Understanding EXPLAIN plans](https://docs.gitlab.com/ee/development/database/understanding_explain_plans.html).
 - Get yourself added to [`@gl-database`](https://gitlab.com/groups/gl-database/-/group_members) group and respond to @-mentions to the group (reach out to any maintainer on the group to get added). You will get TODOs on gitlab.com for group mentions..
 - Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for [`psql`/`AllFeaturesUser` access to database lab/postgres.ai](https://docs.gitlab.com/ee/development/database/database_lab.html#access-database-lab-engine) if you do not already have `AllFeaturesUser` access.
@@ -195,14 +195,14 @@ Upon approval, the maintainer who merges the MR will:
 - Review [Fullstack Development of LicenseDB guideline](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/fullstack_development.md).
 - Understand how to release and [deploy](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/merge_requests/162) new changes to the components.
 - Understand how [the scheduled pipelines](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) are used for the deployment project.
-- Author or review 3 merge requests in total to a specific project in the `license-db` namespace. Maintainership is granted per project.
+- Author or review 3 merge reque[architecture](https://docs.gitlab.com/charts/architecture/ntainership is granted per project.
 
 #### Project maintainer process for `gitlab-chart`
 
 [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
-- Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
+- Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
 - Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
 - Contribute to issues and review merge requests.
 - Understand how the [GitLab Helm chart is tested using rspec](https://docs.gitlab.com/charts/development/rspec.html).

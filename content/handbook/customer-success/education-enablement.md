@@ -70,7 +70,7 @@ To align our education and enablement with our product, each of the topics below
 - [Epics Feature Docs](https://docs.gitlab.com/ee/user/group/epics/)
 - [Roadmaps Feature Docs](https://docs.gitlab.com/ee/user/group/roadmap/)
 - [Requirements Management Feature Docs](https://docs.gitlab.com/ee/user/project/requirements/)
-- [Quality Management Feature Docs](https://docs.gitlab.com/ee/ci/test_cases/index.html)
+- [Quality Management Feature Docs](https://docs.gitlab.com/ee/ci/test_cases/)
 - [Design Management Feature Docs](https://docs.gitlab.com/ee/user/project/issues/design_management.html)
 
 ### Create Stage
@@ -95,8 +95,8 @@ To align our education and enablement with our product, each of the topics below
   - [Merge request dependencies Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html)
   - [Code Owners Feature Docs](https://docs.gitlab.com/ee/user/project/codeowners/)
 - [Wiki Feature Docs](https://docs.gitlab.com/ee/user/project/wiki/)
-- [Web IDE Feature Docs](https://docs.gitlab.com/ee/user/project/web_ide/index.html)
-- [Live Preview Feature Docs](https://docs.gitlab.com/ee/user/project/web_ide/index.html#live-preview)
+- [Web IDE Feature Docs](https://docs.gitlab.com/ee/user/project/web_ide/)
+- [Live Preview Feature Docs](https://docs.gitlab.com/ee/user/project/web_ide/#live-preview)
 - [Snippets Feature Docs](https://docs.gitlab.com/ee/user/snippets.html)
 - [Gitaly Source Code Project](https://gitlab.com/gitlab-org/gitaly)
 
@@ -150,7 +150,7 @@ To align our education and enablement with our product, each of the topics below
 - [Dependency Proxy Feature Docs](https://docs.gitlab.com/ee/user/packages/dependency_proxy/)
 - [Dependency Firewall Direction and Roadmap](https://about.gitlab.com/direction/package/#dependency-firewall)
 - [Release Evidence Feature Docs](https://docs.gitlab.com/ee/user/project/releases/#release-evidence)
-- [Git LFS - Feature Docs](https://docs.gitlab.com/ee/topics/git/lfs/index.html)
+- [Git LFS - Feature Docs](https://docs.gitlab.com/ee/topics/git/lfs/)
 
 ### Release Stage
 
@@ -174,7 +174,7 @@ To align our education and enablement with our product, each of the topics below
   - [YouTube Webcast Feature Overview](https://www.youtube.com/watch?v=CteZol_7pxo&feature=youtu.be)
   - [Review Apps Direction and Roadmap](https://gitlab.com/groups/gitlab-org/-/epics/495)
   - [Review Apps Feature Docs](https://docs.gitlab.com/ee/ci/review_apps/)
-- [Advanced Deployments Feature Docs](https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production-premium)
+- [Advanced Deployments Feature Docs](https://docs.gitlab.com/ee/topics/autodevops/#incremental-rollout-to-production-premium)
 - [Feature Flags Feature Docs](https://docs.gitlab.com/ee/operations/feature_flags.html)
 - [Release Orchestration Feature Docs](https://docs.gitlab.com/ee/user/project/releases/)
 

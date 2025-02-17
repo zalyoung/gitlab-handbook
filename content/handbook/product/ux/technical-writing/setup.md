@@ -11,13 +11,13 @@ You can use the following tools to set up your environment. Most of
 these are not compulsory - you can set up your environment however you choose.
 These are simply suggestions to help you get up and running quickly:
 
-- If you haven't already, [install Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)
+- If you haven't already, [install Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/)
   and [add an SSH key to your GitLab profile](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account).
   This step is required.
 - Install a code editor, like VS Code or Sublime Text, where you will work with markdown files. You can use whichever tool
   you're most comfortable with.
 - Install documentation
-  [linters](https://docs.gitlab.com/ee/development/documentation/testing/index.html) and
+  [linters](https://docs.gitlab.com/ee/development/documentation/testing/) and
   configure them in your code editor:
   - [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html)
   - [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html)
@@ -32,6 +32,6 @@ These are simply suggestions to help you get up and running quickly:
 
 - The [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
   defines the standards for GitLab documentation, including grammar and formatting.
-- The [documentation testing page](https://docs.gitlab.com/ee/development/documentation/testing/index.html)
+- The [documentation testing page](https://docs.gitlab.com/ee/development/documentation/testing/)
   has important information about tests you should run to help ensure the quality of our documentation codebase.
-- The [documentation topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html) define the structure for how content should be organized.
+- The [documentation topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/) define the structure for how content should be organized.

@@ -68,7 +68,7 @@ The team is responsible for developing and maintaining efficient processes, incl
 - Ensuring that processes are in place and being followed to keep the GitLab docs up to date.
 - Following and optimizing documentation workflows with Product and Engineering, Documentation Team workflows, and the division of work.
 - Triaging doc-related issues.
-- Refining the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html) and continuously improving content about GitLab documentation and its contribution process.
+- Refining the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/) and continuously improving content about GitLab documentation and its contribution process.
 - Making it easier for anyone to contribute to the documentation while efficiently handling community contributions to docs.
 
 #### Style Guide

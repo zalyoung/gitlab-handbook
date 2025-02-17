@@ -13,7 +13,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 **Personal Namespaces:** Although you can create _projects_ in your personal namespace (ex. `https://gitlab.com/exampleuser/example-project`), you cannot create _groups_ in your personal namespace.
 
-**Security Warning:** Any users that have access to parent or grandparent groups will have inherited permissions to this group. In the training environment, each student only has direct member access to their subgroup and does not have inherited member access to the parent groups. See the [subgroup membership docs](https://docs.gitlab.com/ee/user/group/subgroups/index.html#subgroup-membership) to learn more.
+**Security Warning:** Any users that have access to parent or grandparent groups will have inherited permissions to this group. In the training environment, each student only has direct member access to their subgroup and does not have inherited member access to the parent groups. See the [subgroup membership docs](https://docs.gitlab.com/ee/user/group/subgroups/#subgroup-membership) to learn more.
 
 > **Tip:** Remember that the breadcrumbs are a good way to navigate between subgroups when you're creating a multi-level collection of groups and subgroups.
 

@@ -20,7 +20,7 @@ As highlighted in the announcement, one key goal is the ability to
 "_use Google's Artifact Registry with GitLab pipelines and packaging to create a security data plane_".
 The initial step toward this goal is to allow users to configure a new
 [Google Artifact Registry](https://cloud.google.com/artifact-registry) (abbreviated as GAR from now on)
-[project integration](https://docs.gitlab.com/ee/user/project/integrations/index.html) and display
+[project integration](https://docs.gitlab.com/ee/user/project/integrations/) and display
 [container image artifacts](https://cloud.google.com/artifact-registry/docs/supported-formats)
 in the GitLab UI.
 
@@ -43,7 +43,7 @@ the Package stage (e.g., vulnerability scanning, deployments, etc.).
 
 ### Goals
 
-- Allow GitLab users to configure a new [project integration](https://docs.gitlab.com/ee/user/project/integrations/index.html) for connecting to GAR.
+- Allow GitLab users to configure a new [project integration](https://docs.gitlab.com/ee/user/project/integrations/) for connecting to GAR.
 - Limited to a single top-level GAR [repository](https://cloud.google.com/artifact-registry/docs/repositories) per GitLab project.
 - Limited to GAR repositories in [Standard](https://cloud.google.com/artifact-registry/docs/repositories#mode) mode. Support for Remote and Virtual [repository modes](https://cloud.google.com/artifact-registry/docs/repositories#mode) (both in Preview) is a strech goal.
 - Limited to GAR repositories of format [Container images](https://cloud.google.com/artifact-registry/docs/supported-formats#container).
@@ -70,7 +70,7 @@ While some of these may become goals for future iterations, they are currently o
 
 #### Project Integration
 
-A new [project integration](https://docs.gitlab.com/ee/user/project/integrations/index.html) for GAR will be created. Once enabled, this will display a new "Google Artifact Registry" item in the "Operate" section of the sidebar. This is also where the [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor.html) integration is displayed if enabled.
+A new [project integration](https://docs.gitlab.com/ee/user/project/integrations/) for GAR will be created. Once enabled, this will display a new "Google Artifact Registry" item in the "Operate" section of the sidebar. This is also where the [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor.html) integration is displayed if enabled.
 
 The GAR integration can be enabled by project owner/maintainer(s), who must provide four configuration parameters during setup:
 
@@ -91,7 +91,7 @@ As previously highlighted, access to the GAR integration features is restricted 
 
 #### Resource Mapping
 
-For the [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html),
+For the [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry/),
 repositories within a specific project must have a path that matches the project full path.
 This is essentially how we establish a resource mapping between GitLab Rails and
 the registry, which serves multiple purposes, including granular authorization,

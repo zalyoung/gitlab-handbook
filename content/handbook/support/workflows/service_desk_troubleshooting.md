@@ -14,7 +14,7 @@ See also, the [Service Desk runbook doc](https://gitlab.com/gitlab-com/runbooks/
 ## Troubleshooting Steps
 
 1. When an issue related to Service Desk is received, verify with the customer these common occurrences are not applicable:
-    1. [Attachments cannot be over 100MiB](https://docs.gitlab.com/ee/user/gitlab_com/index.html#account-and-limit-settings)
+    1. [Attachments cannot be over 100MiB](https://docs.gitlab.com/ee/user/gitlab_com/#account-and-limit-settings)
     1. [Emails with `Auto-Submitted` or `X-Autoreply` in the header are ignored](https://docs.gitlab.com/ee/administration/incoming_email.html#rejected-headers)
     1. See the [Participants in Service Desk](https://gitlab.com/groups/gitlab-org/-/epics/3758) epic for known limitations.
 

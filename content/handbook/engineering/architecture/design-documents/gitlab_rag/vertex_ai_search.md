@@ -22,7 +22,7 @@ We can use [Vertex AI Search](https://cloud.google.com/products/agent-builder?hl
 It can search at scale, with high queries per second (QPS), high recall, low latency, and cost efficiency.
 
 This approach allows us to minimize code that we can't update on a customer's behalf, which means avoiding hard-coding AI-related logic in the GitLab monolith codebase. We can retain the flexibility to make changes in our product without asking customers to upgrade their GitLab version.
-This is same with the [AI Gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/index.html)'s design principle.
+This is same with the [AI Gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/)'s design principle.
 
 ```mermaid
 flowchart LR

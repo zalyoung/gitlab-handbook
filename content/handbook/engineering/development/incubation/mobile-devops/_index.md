@@ -29,7 +29,7 @@ The future roadmap for Mobile DevOps will look to mature the `build`, `sign`, an
 
 * Support [macOS SaaS Runners to GA](https://gitlab.com/groups/gitlab-org/-/epics/8267)
 * [Android support for Dependency Scanning (gemnasium-maven)](https://gitlab.com/gitlab-org/gitlab/-/issues/336866)
-* Mature [Mobile SAST](https://docs.gitlab.com/ee/user/application_security/sast/index.html#experimental-features)
+* Mature [Mobile SAST](https://docs.gitlab.com/ee/user/application_security/sast/#experimental-features)
 * Device Farm Integrations
 * [Mobile DevOps CI/CD components](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/113)
 * [Firebase Integration](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/46)

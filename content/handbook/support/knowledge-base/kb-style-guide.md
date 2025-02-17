@@ -112,7 +112,7 @@ Provides context to any of the above sections. While information should be conci
 Optional
 
 Add links to relevant feature requests, bug issues, etc. as necessary.
-Follow the format used for [Related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html#related-topics)
+Follow the format used for [Related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics)
 
 ## Integrate pre-existing documentation when possible
 

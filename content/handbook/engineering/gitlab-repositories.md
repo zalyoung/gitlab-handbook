@@ -29,11 +29,11 @@ When creating a new project, please follow these steps:
     * [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html).
     * [Delete source branch after merge](https://docs.gitlab.com/ee/user/project/settings/).
     * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html).
-    * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
+    * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
 1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings.html):
     * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings.html#auto-cancel-pending-pipelines).
 1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements/)
-1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/index.html#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
+1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
 1. If your project contains code that is distributed with GitLab or is executed in production, set up [security jobs](https://gitlab.com/help/user/application_security/security_dashboard/index#gitlab-security-dashboard) for your project and add your project to the AppSec team's [triage rotation](/handbook/security/#triage-rotation). The AppSec will triage security findings from the Security Dashboard and create issues for vulnerabilities.
 1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](/handbook/product/groups/product-analysis/engineering/dashboards/#updating-the-list-of-projects).

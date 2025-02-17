@@ -84,7 +84,7 @@ otherwise agreed with the Product Manager and Technical Writer:
   If the new or changed documentation requires extensive collaboration or
   conversation, a separate, linked issue can be used for the planning process.
 
-- Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html),
+- Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/),
   and other resources linked from there, including:
   - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html) page.
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).

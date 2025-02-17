@@ -58,7 +58,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
       - test
     ```
 
-    > Use stages to define stages that contain groups of jobs. Use stage in a job to configure the job to run in a specific stage. See the [documentation](https://docs.gitlab.com/ee/ci/yaml/index.html#stages) to learn more.
+    > Use stages to define stages that contain groups of jobs. Use stage in a job to configure the job to run in a specific stage. See the [documentation](https://docs.gitlab.com/ee/ci/yaml/#stages) to learn more.
 
 1. Your current `.gitlab-ci.yml` file should look like this:
 

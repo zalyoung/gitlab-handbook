@@ -220,4 +220,4 @@ debt and security fixes, is outlined:
 - In **13.2** an IC added a [S3 client to Workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse/-/issues/222) to improve multipart uploads and ETag checking.
 - In **13.3** an IC added [support for AWS S3 server side encryption](https://gitlab.com/gitlab-org/gitlab/-/issues/22200).
 - In **13.4** an IC added [support for Azure Blob storage](https://gitlab.com/gitlab-org/gitlab/-/issues/25877).
-- From **13.4** to **14.0** the Release group [transitioned GitLab Pages from NFS to Object Storage](https://gitlab.com/groups/gitlab-org/-/epics/3901) following the [GitLab Pages New Architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cloud_native_gitlab_pages/index.html)
+- From **13.4** to **14.0** the Release group [transitioned GitLab Pages from NFS to Object Storage](https://gitlab.com/groups/gitlab-org/-/epics/3901) following the [GitLab Pages New Architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cloud_native_gitlab_pages/)

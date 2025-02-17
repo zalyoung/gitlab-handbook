@@ -320,7 +320,7 @@ The Pipeline Security group supports the product marketing categories described 
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
+| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/) |
 | `Category:Secure Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secure+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecure%20Artifacts) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secure_artifacts/) | Documentation - TBD |
 
 #### Feature Labels

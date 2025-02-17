@@ -3,7 +3,7 @@ title: 'GitLab CI Events Proposal 2: Using the rules keyword'
 toc_hide: true
 ---
 
-Can we do it with our current [`rules`](https://docs.gitlab.com/ee/ci/yaml/index.html#rules) system?
+Can we do it with our current [`rules`](https://docs.gitlab.com/ee/ci/yaml/#rules) system?
 
 ```yaml
 workflow:

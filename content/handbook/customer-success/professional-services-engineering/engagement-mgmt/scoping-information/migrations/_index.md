@@ -63,7 +63,7 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 ## GitLab Self-Managed to GitLab Dedicated Instance
 
 - As with self-managed to self-managed migrations, self-managed to dedicated instance migrations can be performed using Congregate, a backup and restore approach, or Geo replication. If the Congregate option is used, projects can be migrated in waves of up to 500.
-- [Migrating groups with projects is a Beta feature](https://docs.gitlab.com/ee/user/group/import/index.html#migrate-groups-by-direct-transfer-recommended) could also be used to migrate to dedicated instance. Dedicated instance [needs to be on GitLab version 15.10](https://about.gitlab.com/blog/2023/01/18/try-out-new-way-to-migrate-projects/#availability-of-the-feature) or later. Please review linked documentation to understand limits and requirements of this method.
+- [Migrating groups with projects is a Beta feature](https://docs.gitlab.com/ee/user/group/import/#migrate-groups-by-direct-transfer-recommended) could also be used to migrate to dedicated instance. Dedicated instance [needs to be on GitLab version 15.10](https://about.gitlab.com/blog/2023/01/18/try-out-new-way-to-migrate-projects/#availability-of-the-feature) or later. Please review linked documentation to understand limits and requirements of this method.
 
 ## GitHub Source
 

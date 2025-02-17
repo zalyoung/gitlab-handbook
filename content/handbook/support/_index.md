@@ -664,14 +664,14 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 
 - GitLab
   - [GitLab.com Status](https://status.gitlab.com/)
-  - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/
 - Writing docs
   - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
   - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
   - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
 - Setting up GitLab
   - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
-  - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
   - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
   - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
@@ -679,7 +679,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
 - Debugging GitLab
   - [Log system](https://docs.gitlab.com/ee/administration/logs/)
-  - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
+  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/
   - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
   - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
   - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
@@ -688,7 +688,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
   - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
   - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
-- Developing GitLab
+- De[Feature flags](https://docs.gitlab.com/ee/development/feature_flags/
   - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
   - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
   - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)

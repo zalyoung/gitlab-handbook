@@ -103,16 +103,16 @@ To populate the group with project data you can use the following methods:
 
 ##### Use copies of your own existing groups/projects
 
-- [Copy Groups and Projects](https://docs.gitlab.com/ee/user/group/import/index.html)
+- [Copy Groups and Projects](https://docs.gitlab.com/ee/user/group/import/)
   - When copying from one GitLab.com namespace to another, you must copy all subgroups and projects. This is not recommended for customers with a large number of groups and projects.
-  - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-group-items) groups items are migrated, no others
-  - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items) project items are migrated. Note these are the same project items that are migrated with file exports (described in the next section)
+  - Only [these](https://docs.gitlab.com/ee/user/group/import/#migrated-group-items) groups items are migrated, no others
+  - Only [these](https://docs.gitlab.com/ee/user/group/import/#migrated-project-items) project items are migrated. Note these are the same project items that are migrated with file exports (described in the next section)
 - [Migrate Projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html)
   - Only [these](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-exported) project items are migrated.
 - [Project Forking](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
   - This works like standard forking with a copy of the repository and branches
   - You will not have access to a lot of the project items that you get with the previous two approaches
-- [Repository Mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/index.html)
+- [Repository Mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/)
   - Any of the above approaches can be combined with mirroring to make sure that branches, tags, and commits are synced
   - Items such as Merge Requests and issues are not synced
 

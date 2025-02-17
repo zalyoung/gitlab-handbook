@@ -10,7 +10,7 @@ GitLab helps to organize teams and work through a hierarchy of [Groups](https://
 
 ### Key things to know
 
-Groups can contain other groups ([subgroups](https://docs.gitlab.com/ee/user/group/subgroups/index.html)) and projects.
+Groups can contain other groups ([subgroups](https://docs.gitlab.com/ee/user/group/subgroups/)) and projects.
 
 ![groups and subgroups](/images/marketing/project-management-guidelines/groups-subgroups.svg)
 

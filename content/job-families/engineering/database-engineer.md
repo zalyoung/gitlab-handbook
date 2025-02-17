@@ -36,7 +36,7 @@ The Database Engineer is a [grade 6](/handbook/total-rewards/compensation/compen
 - Analyzing tables and optimizing them by adding indexes, breaking them up into separate tables, or by removing unnecessary columns
 - Implement an efficient queueing strategy for pull mirrors
 - Implement efficient patterns for counting
-- Rewriting the database queries and related application logic used for retrieving [subgroups](https://docs.gitlab.com/ee/user/group/subgroups/index.html#subgroups)
+- Rewriting the database queries and related application logic used for retrieving [subgroups](https://docs.gitlab.com/ee/user/group/subgroups/#subgroups)
 - Rewriting code used for importing projects from other platforms (e.g. GitHub)
 - Prevent primary key integer overflows with no-downtime migrations
 - Improve index usage (remove unused, identify missing)

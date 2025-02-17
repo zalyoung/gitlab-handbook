@@ -38,10 +38,10 @@ There are many detailed parts of an [issue](https://docs.gitlab.com/ee/user/proj
 - [Time tracking](https://docs.gitlab.com/ee/user/project/time_tracking.html)
 - [Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html)
 - [Participants and notifications](https://docs.gitlab.com/ee/user/profile/notifications.html)
-- [Mentions](https://docs.gitlab.com/ee/user/discussions/index.html#mentions)
+- [Mentions](https://docs.gitlab.com/ee/user/discussions/#mentions)
 - [Related issues](https://docs.gitlab.com/ee/user/project/issues/related_issues.html)
 - [Related merge Requests](https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html#from-merge-requests)
-- [Comments](https://docs.gitlab.com/ee/user/discussions/index.html)
+- [Comments](https://docs.gitlab.com/ee/user/discussions/)
 - [Zoom meetings](https://docs.gitlab.com/ee/user/project/issues/associate_zoom_meeting.html)
 
 #### Issue templates

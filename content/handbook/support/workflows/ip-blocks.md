@@ -37,7 +37,7 @@ You should see results similar to the following:
 
 The existence of these results tells us that this user was blocked by Rack Attack and we can add the `json.fullpath` field to see which exact path on GitLab.com each request tried to access.
 
-It's common to see multiple failed authentication requests (401) trigger a Rack Attack block which causes a 403 Forbidden message. We block IP addresses if we receive [300 failed requests from a single IP in a one minute period](https://docs.gitlab.com/ee/user/gitlab_com/index.html#git-and-container-registry-failed-authentication-ban). It's worth noting that by default, Git operations are first tried unauthenticated so it's expected to see two 401 responses for every Git operation.
+It's common to see multiple failed authentication requests (401) trigger a Rack Attack block which causes a 403 Forbidden message. We block IP addresses if we receive [300 failed requests from a single IP in a one minute period](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban). It's worth noting that by default, Git operations are first tried unauthenticated so it's expected to see two 401 responses for every Git operation.
 
 Rack Attack can also *throttle* traffic. If that is the case, this is recognizable by the HTTP 429 response code. The preferred solution to this is to have the user make fewer requests. Please refer to our [Bypass Policy](ip-blocks.md#bypass-policy) for more information.
 
@@ -164,7 +164,7 @@ An IP can become rate-limited if a customer attempts to export or download proje
 
 ### Email verification process
 
-In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification.html). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/index.html#ip-blocks).
+In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification.html). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/#ip-blocks).
 
 #### Useful Fields
 

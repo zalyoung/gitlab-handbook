@@ -55,7 +55,7 @@ We will work towards a packaged reference version of ClickHouse capable of being
 
 ## Best Practices
 
-Best practices and guidelines for developing performant, secure, and scalable features using ClickHouse are located in the [ClickHouse developer documentation](https://docs.gitlab.com/ee/development/database/clickhouse/index.html).
+Best practices and guidelines for developing performant, secure, and scalable features using ClickHouse are located in the [ClickHouse developer documentation](https://docs.gitlab.com/ee/development/database/clickhouse/).
 
 ## Cost and maintenance analysis
 

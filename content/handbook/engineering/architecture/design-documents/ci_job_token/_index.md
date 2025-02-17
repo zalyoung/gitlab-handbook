@@ -66,7 +66,7 @@ permissions for each token.
 - A [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693) will not be created.
 - Reducing the duration of `CI_JOB_TOKEN` access is not a focus.
 - Unifying [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities) will not be pursued.
-- [Token types](https://docs.gitlab.com/ee/security/tokens/index.html) will not be consolidated into a single token.
+- [Token types](https://docs.gitlab.com/ee/security/tokens/) will not be consolidated into a single token.
 - The [permission set](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` will not be expanded.
 - We will not handle cases where specific projects can override group-level permissions.
 
@@ -377,7 +377,7 @@ change in one of the subsequent ADRs.
 
 | Action                                                                                            | Permission(s)      |
 | --------                                                                                          | -------------      |
-| [List links of a release](https://docs.gitlab.com/ee/api/releases/index.html)                     | `:read_release`    |
+| [List links of a release](https://docs.gitlab.com/ee/api/releases/)                     | `:read_release`    |
 | [Get a release link](https://docs.gitlab.com/ee/api/releases/links.html#get-a-release-link)       | `:read_release`    |
 | [Create a release link](https://docs.gitlab.com/ee/api/releases/links.html#create-a-release-link) | `:create_release`  |
 | [Update a release link](https://docs.gitlab.com/ee/api/releases/links.html#update-a-release-link) | `:update_release`  |

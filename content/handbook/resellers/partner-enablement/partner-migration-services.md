@@ -40,7 +40,7 @@ Migrating pipelines from other systems, [like Jenkins](https://docs.gitlab.com/e
 
 The best way to migrate from one self-managed GitLab server to another is to perform a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/) at the source instance and then a restore at the target instance. Step-by-step directions are available on our [Migrate to a new server](https://docs.gitlab.com/ee/administration/backup_restore/migrate_to_new_server.html) docs page.
 
-Please note that this migration method only works if [the source and target instances have the exact same version](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab.html#the-destination-gitlab-instance-must-have-the-exact-same-version). If it's not the case for your customer's environments (typically it's the source system which lags behind), then our [Upgrade Path tool](https://docs.gitlab.com/ee/update/index.html#upgrade-path-tool) can help with planning the necessary upgrades on the source system. (Make sure to do a full backup **BEFORE** the upgrades!)
+Please note that this migration method only works if [the source and target instances have the exact same version](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab.html#the-destination-gitlab-instance-must-have-the-exact-same-version). If it's not the case for your customer's environments (typically it's the source system which lags behind), then our [Upgrade Path tool](https://docs.gitlab.com/ee/update/#upgrade-path-tool) can help with planning the necessary upgrades on the source system. (Make sure to do a full backup **BEFORE** the upgrades!)
 
 ## Air-gapped environments
 
@@ -74,9 +74,9 @@ For cases that direct transfer can't or won't cover. A good example would be air
 
 This feature was recently released and is the direction our product team is moving toward for migrating GitLab projects from instance to instance or SaaS. Please review the following resources:
 
-- [Migrated group items (direct transfer)](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-group-items)
+- [Migrated group items (direct transfer)](https://docs.gitlab.com/ee/user/group/import/#migrated-group-items)
 
-- [Migrated project items (direct transfer)](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items-beta)
+- [Migrated project items (direct transfer)](https://docs.gitlab.com/ee/user/group/import/#migrated-project-items-beta)
 
 #### GitLab Log Analysis Tool
 

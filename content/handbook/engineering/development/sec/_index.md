@@ -329,15 +329,15 @@ When creating a new project, all settings should be left to the default options,
          - [ ] Changelog entry added
          - [ ] [Documentation created/updated for GitLab EE](https://docs.gitlab.com/ee/development/documentation/feature-change-workflow.html), if necessary
          - [ ] Documentation created/updated for this project, if necessary
-         - [ ] Documentation reviewed by technical writer *or* follow-up review issue [created](https://gitlab.com/gitlab-org/gitlab-ee/issues/new?issuable_template=Doc%20Review)
-         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/index.html)
+         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/m/gitlab-org/gitlab-ee/issues/new?issuable_template=Doc%20Review)
+         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/)
          - [ ] Job definition updated, if necessary
            - [ ] [Auto-DevOps template](https://gitlab.com/gitlab-org/gitlab-foss/tree/master/lib/gitlab/ci/templates)
            - [ ] [Job definition example](https://docs.gitlab.com/ee/ci/examples/sast.html)
            - [ ] [CI Templates](https://gitlab.com/gitlab-org/security-products/ci-templates/tree/master/includes)
          - [ ] Ensure the report version [matches the equivalent schema version](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/CHANGELOG.md)
-         - [ ] Conforms to the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)
-         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/index.html)
+         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/w.html)
+         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/)
          - [ ] Security reports checked/validated by reviewer
 
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"

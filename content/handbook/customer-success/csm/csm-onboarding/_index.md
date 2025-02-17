@@ -267,9 +267,9 @@ Collection of key handbook pages and other resources for CSMs to read and focus 
 Collection of initial set of key product links, which will help in the first 4-6 weeks of onboarding as a new hire.
 
 - **Offerings: GitLab Dedicated vs. GitLab SaaS vs. GitLab Self Managed**
-  - [**Self Managed**](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html): In GitLab Self-managed you will have full control over the server itself and the environment
-  - [**Dedicated**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/index.html)**:**: A single-tenant SaaS service for highly regulated and large enterprises
-  - [**SaaS**](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html): The GitLab software-as-a-service offering. You don't need to install anything to use GitLab SaaS, you only need to sign up and start using GitLab straight away
+  - [**Self Managed**](https://docs.gitlab.com/ee/subscriptions/self_managed/): In GitLab Self-managed you will have full control over the server itself and the environment
+  - [**Dedicated**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)**:**: A single-tenant SaaS service for highly regulated and large enterprises
+  - [**SaaS**](https://docs.gitlab.com/ee/subscriptions/gitlab_com/): The GitLab software-as-a-service offering. You don't need to install anything to use GitLab SaaS, you only need to sign up and start using GitLab straight away
 - **GitLab Self Managed**
   - [**GitLab Application components**](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) ([details](https://docs.gitlab.com/ee/development/architecture.html#component-list))
   - [**Installation Methods**](https://docs.gitlab.com/ee/install/install_methods.html)
@@ -278,7 +278,7 @@ Collection of initial set of key product links, which will help in the first 4-6
   - [**Upgrade & Update of GitLab**](https://docs.gitlab.com/ee/update/)
     - [**Upgrade Path**](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/)
 - **Key functionality of GitLab**
-  - [**AI**](https://docs.gitlab.com/ee/user/gitlab_duo/index.html)
+  - [**AI**](https://docs.gitlab.com/ee/user/gitlab_duo/)
   - [**CI / CD**](https://docs.gitlab.com/ee/ci/)
   - [**SCM**](https://docs.gitlab.com/ee/user/get_started/get_started_managing_code.html)
 - **GitLab Product**

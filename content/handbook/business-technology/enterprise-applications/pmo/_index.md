@@ -96,7 +96,7 @@ Visit the [Governance and IT Program Management](/handbook/business-technology/e
 
 ## Project Epics & Issues
 
-When assigned to a project, the IT PMO team is responsible for creating and maintaining the project [Epic](https://docs.gitlab.com/ee/user/group/epics/index.html). A single parent Epic is created together with (up to) 5 [child Epics](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#multi-level-child-epics), each representing a distinct phase of the System Development Lifecycle (SDLC). [Issues](https://docs.gitlab.com/ee/user/project/issues/) are used as a means to collaborate on ideas, troubleshoot problems, and strategize for their tasks. By using issues, teams can share and discuss proposals internally or involve external collaborators in the process.
+When assigned to a project, the IT PMO team is responsible for creating and maintaining the project [Epic](https://docs.gitlab.com/ee/user/group/epics/). A single parent Epic is created together with (up to) 5 [child Epics](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#multi-level-child-epics), each representing a distinct phase of the System Development Lifecycle (SDLC). [Issues](https://docs.gitlab.com/ee/user/project/issues/) are used as a means to collaborate on ideas, troubleshoot problems, and strategize for their tasks. By using issues, teams can share and discuss proposals internally or involve external collaborators in the process.
 
 To maintain uniformity across all PMO-led projects, the team follows the same [Epic templates](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/394).
 
@@ -140,7 +140,7 @@ The Maintenance phase begins after the new process becomes fully operational. It
 
 ### Roadmap
 
-To efficiently track program progress, each Epic is assigned a start and end date. The [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/index.html) serves as a timeline to visualize and manage these milestones.
+To efficiently track program progress, each Epic is assigned a start and end date. The [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/) serves as a timeline to visualize and manage these milestones.
 
 ### Issue Boards
 

@@ -47,7 +47,7 @@ Inside of GitLab CI we're able to leverage the following:
 
 * Manual entry of in/out of scope hosts (or URLs) to scan for vulnerabilities
   * These hosts should be accessible from the [GitLab Runner](https://docs.gitlab.com/runner/) you're using.
-  * If using [Runner SaaS](https://docs.gitlab.com/ee/ci/runners/index.html) these hosts **must** be internet accessible.
+  * If using [Runner SaaS](https://docs.gitlab.com/ee/ci/runners/) these hosts **must** be internet accessible.
 * Use existing vulnerability report, e.g. of [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html#security-scanner-integration), which includes hosts or URLs along with detected vulnerabilities.
 * Service containers to run a specific ephemeral target.
   * [Accessing the services](https://docs.gitlab.com/ee/ci/services/#accessing-the-services) documents how to configure/access hostnames.

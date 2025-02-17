@@ -267,7 +267,7 @@ is written in. Familiarity with Docker and Kubernetes is also useful on our team
 
 For those new to the team, these links may be helpful in learning more about the product and technology.
 
-- [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/index.html)
+- [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/)
 
 ### Engineering Overview
 

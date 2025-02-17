@@ -48,7 +48,7 @@ Application security testing is still a foundational part of compliance, but now
 
 **The CTO or head of DevOps Architecture** is usually the buyer for when compliance is the primary driver.
 
-The key capability that addresses the CTO's need is [Compliant Pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration) and the [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation). They need the ability to prescribe scans and policies in the CI pipeline and ensure individual developers cannot bypass them.
+The key capability that addresses the CTO's need is [Compliant Pipelines](https://docs.gitlab.com/ee/user/project/settings/#compliance-pipeline-configuration) and the [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation). They need the ability to prescribe scans and policies in the CI pipeline and ensure individual developers cannot bypass them.
 
 **The Security Manager or CISO (Sam's boss)** is usually the buyer for the Ultimate tier when security gets involved.
 
@@ -154,7 +154,7 @@ Note: The Free tier does not include providing these results in vulnerability re
 
 **Key Compliance features with Ultimate:**
 
-- [Compliant workflows and Compliant pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration) - projects are assigned a compliance framework and policies are enforced accordingly. This is a key capability for winning compliance opportunities!
+- [Compliant workflows and Compliant pipelines](https://docs.gitlab.com/ee/user/project/settings/#compliance-pipeline-configuration) - projects are assigned a compliance framework and policies are enforced accordingly. This is a key capability for winning compliance opportunities!
 - [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 - Fuzz testing, called out by the 2021 US Executive Order to Improve Cybersecurity
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
@@ -166,7 +166,7 @@ In addition, more security scanners are available, along with Vulnerability mana
 | Compliant Pipelines |           |           |    X     |                   |                            |
 | Compliance Dashboard |           |           |    X     |                   |                            |
 | [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_scanning_of_cyclonedx_files/)                                                  |           |           |    X     | user_license_management_jobs  | |
-| [Merge Request Approval Flow / Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/index.html)                 |           |     X     |    X     |   counts.merged_merge_requests_using_approval_rules            |                            |
+| [Merge Request Approval Flow / Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)                 |           |     X     |    X     |   counts.merged_merge_requests_using_approval_rules            |                            |
 | Protected Environments                              |           |     X     |    X     |                   |                            |
 | [SAST (Static Application Security Testing)](https://docs.gitlab.com/ee/user/application_security/sast/)                              |     X     |     X     |    X     | user_sast_jobs                | |
 | [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)                                            |     X     |     X     |    X     | user_secret_detection_jobs    | |

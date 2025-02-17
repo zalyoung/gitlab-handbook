@@ -34,12 +34,12 @@ environment, please complete the
 - Review the [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
   - It's not required to memorize the style guide, but remember to check it when writing your documentation to ensure it complies. This will help to ensure your Merge Request is approved quickly.
 - Remember to also review the [topic types page](https://docs.gitlab.com/ee/development/documentation/topic_types/), paying close attention to the [troubleshooting section](https://docs.gitlab.com/ee/development/documentation/topic_types/troubleshooting.html).
-- While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/ee/development/documentation/testing/index.html)
+- While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/ee/development/documentation/testing/)
   in your local editor to prevent pipelines from failing, or use the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit). Plugins can be also
   used from the command line.
   - Set up [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html).
   - Set up [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html).
-  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/how-can-i-have-multiple-vertical-rulers-in-vs-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
+  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/how-can-i-have-multiple-vertical-rulers-in-vs-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/#text).
 
 #### Documentation Merge Requests
 
@@ -67,8 +67,8 @@ environment, please complete the
   - In Support, you might use the post-merge review option if you have an urgent docs MR, such as when we need to publish a docs fix as soon as possible.
   - If it's in the "Troubleshooting section" of any page, follow the guidelines except assign to a support manager who is online who will do a quick review and merge.
   - If it's not, then depending on how quickly you need it, share it in the [#docs Slack channel](https://gitlab.slack.com/archives/C16HYA2P5) asking anyone there to review and merge ASAP. This does not require a post-merge review, as it involves a TW review.
-- Read about [docs deploy](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html#deploy-the-docs-site). The key thing is to note how often docs are deployed.
-  - Optionally, read the rest of the [site architecture information](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html) to learn how the docs site is built.
+- Read about [docs deploy](https://docs.gitlab.com/ee/development/documentation/site_architecture/#deploy-the-docs-site). The key thing is to note how often docs are deployed.
+  - Optionally, read the rest of the [site architecture information](https://docs.gitlab.com/ee/development/documentation/site_architecture/) to learn how the docs site is built.
 - Also remember to not take feedback personally - we all want the documentation to be accurate and easy to follow, so all feedback from the tech writers will be with this goal in mind!
 
 ### Zendesk "Document this" workflow

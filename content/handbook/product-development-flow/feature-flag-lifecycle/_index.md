@@ -6,7 +6,7 @@ title: "Feature flags in development of GitLab"
 The content below covers feature flags used by GitLab to deploy its own features, which **is not** the same
 as the [feature flags offered as part of the product](https://docs.gitlab.com/ee/development/feature_flags/).
 
-This page defines the process for the feature flags lifecycle at GitLab. Technical information for GitLab developers and code contributors can be found in the [developer documentation](https://docs.gitlab.com/ee/development/feature_flags/index.html).
+This page defines the process for the feature flags lifecycle at GitLab. Technical information for GitLab developers and code contributors can be found in the [developer documentation](https://docs.gitlab.com/ee/development/feature_flags/).
 
 ## When to use feature flags
 

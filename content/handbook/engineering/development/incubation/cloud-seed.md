@@ -90,7 +90,7 @@ There are several ways one may contribute to Cloud Seed. These are listed below:
 
 - [Cloud Seed](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production)
 - [@OpenCloudSeed](https://twitter.com/OpenCloudSeed) on Twitter
-- Cloud Seed [documentation](https://docs.gitlab.com/ee/cloud_seed/index.html)
+- Cloud Seed [documentation](https://docs.gitlab.com/ee/cloud_seed/)
 - Sign up for the invite-only [Trusted Testers platform](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform)
 - [Submit feedback](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/feedback/-/issues/new?template=general_feedback)
 

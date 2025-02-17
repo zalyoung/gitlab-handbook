@@ -118,7 +118,7 @@ The Security Assurance Automation team is continuously engineering new automated
 
 [Tableau Dashboarding](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTZenGRCObservations/ZenGRCObservationsDashboard) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
 
-[Insight Dashboarding](https://docs.gitlab.com/ee/user/project/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
+[Insight Dashboarding](https://docs.gitlab.com/ee/user/project/insights/#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
 
 #### Compliance control monitoring and evidence gathering automation
 

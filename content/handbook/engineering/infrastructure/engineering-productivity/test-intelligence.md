@@ -4,7 +4,7 @@ title: "Test Intelligence"
 
 ## Introduction
 
-As the owner of [pipeline configuration](https://docs.gitlab.com/ee/development/pipelines/index.html) for the [GitLab project](https://gitlab.com/gitlab-org/gitlab), the Engineering Productivity team has adopted several test intelligence strategies aimed to improve pipeline efficiency with the following benefits:
+As the owner of [pipeline configuration](https://docs.gitlab.com/ee/development/pipelines/) for the [GitLab project](https://gitlab.com/gitlab-org/gitlab), the Engineering Productivity team has adopted several test intelligence strategies aimed to improve pipeline efficiency with the following benefits:
 
 - Shortened feedback loop by prioritizing tests that are most likely to fail
 - Faster pipelines to scale better when Merge Train is enabled

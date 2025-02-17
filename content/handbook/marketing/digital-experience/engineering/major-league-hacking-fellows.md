@@ -57,7 +57,7 @@ Follow the README instructions for setting your local development environment.
 
 #### Documentation
 
-- [Read GitLab's contribution guidelines](https://docs.gitlab.com/ee/development/contributing/index.html) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
+- [Read GitLab's contribution guidelines](https://docs.gitlab.com/ee/development/contributing/) with a special focus on the [Merge Request Workflow](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
 - Get familiarized with GitLab's Slipper Design System by reading the [intro and exploring our Storybook instance](https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page).
 
 #### Deliverables + Timeline

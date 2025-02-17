@@ -152,12 +152,12 @@ Below we list product categories and the current and proposed features which res
 
 1. **Merge conflict resolution (Free)** : Resolving merge conflicts is part of the daily workflow and valuable to Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html#methods-of-resolving-conflicts))
 1. **Merge approvals (Premium)** : Requiring approvals on merge requests is only useful when there is a team working on a project and their Director (who isn't likely to be the user of approvals) requires specific individuals to provide their approval. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/))
-1. **Merge request reviews (Premium)** : Merge request reviews enables the expedient review by multiple team members on merge requests. Typically large enough teams to value the reduced chatter accompanying MR reviews reside under Directors. ([Documentation](https://docs.gitlab.com/ee/user/discussions/index.html))
+1. **Merge request reviews (Premium)** : Merge request reviews enables the expedient review by multiple team members on merge requests. Typically large enough teams to value the reduced chatter accompanying MR reviews reside under Directors. ([Documentation](https://docs.gitlab.com/ee/user/discussions/))
 
 #### Feature - Pipelines
 
 1. **Built in CI Pipelines (Free)** : CI Pipelines are integral to GitLab and used primarily by Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/ci/))
-1. **Show pipeline code coverage rate (Premium)** : The ability to determine code coverage rate is particularly valuable to Directors. ([Documentation](https://docs.gitlab.com/ee/user/group/repositories_analytics/index.html))
+1. **Show pipeline code coverage rate (Premium)** : The ability to determine code coverage rate is particularly valuable to Directors. ([Documentation](https://docs.gitlab.com/ee/user/group/repositories_analytics/))
 1. **Pipeline dashboards (Premium)** : Dashboards of pipelines across groups and projects are primarily used and valued by Directors. ([Documentation](https://docs.gitlab.com/ee/user/operations_dashboard/))
 1. **Downloadable all pipeline logs (Ultimate)** : Pipeline logs would be generated and even downloaded by individual contributors, but the value of collating these logs is provided to Executives responsible for ensuring compliance.
 
@@ -574,7 +574,7 @@ When in doubt, we will default to moving features to a lower tier, [moving it do
 data shows that this is more appropriate. Not all tier changes will involve moving things to lower-priced plans and paid features may move into the higher tier, but
 [open source features should never move to paid tiers](/handbook/company/stewardship/#promises).
 
-Occasionally, a feature may unintentionally become available at a lower-tier due to a bug. This can include the free (open source) tier. When we fix the bug and return the feature to the correct tier, this is not the same as moving an open source feature to a paid tier. The definitive source for a given feature's tier is [our documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#product-tier-badges).
+Occasionally, a feature may unintentionally become available at a lower-tier due to a bug. This can include the free (open source) tier. When we fix the bug and return the feature to the correct tier, this is not the same as moving an open source feature to a paid tier. The definitive source for a given feature's tier is [our documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/#product-tier-badges).
 
 We should focus on building new features that buyers want and making sure that the initial assessment of new features is never too low. While we reserve the
 ability to move features up in tier, proving the necessity has a much higher bar since we are constraining the existing reach of a feature rather than expanding it.

@@ -31,7 +31,7 @@ Customer was opted into cloud licensing because of a [bug](https://gitlab.com/gi
 
 ## Troubleshooting Network Connectivity
 
-Cloud licensing requires a connection to `customers.gitlab.com` over port 443 (HTTPS), and this connection must remain available throughout the duration of using a cloud license.  The GitLab server will typically check in once per day, as well as once during activation, and any time a [manual sync is performed](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#manually-synchronize-your-subscription-details).  While general networking is typically outside the scope of what we can support, there are a number of things we can easily test for to help users diagnose any potential network or HTTPS issues blocking the connections.
+Cloud licensing requires a connection to `customers.gitlab.com` over port 443 (HTTPS), and this connection must remain available throughout the duration of using a cloud license.  The GitLab server will typically check in once per day, as well as once during activation, and any time a [manual sync is performed](https://docs.gitlab.com/ee/subscriptions/self_managed/#manually-synchronize-your-subscription-details).  While general networking is typically outside the scope of what we can support, there are a number of things we can easily test for to help users diagnose any potential network or HTTPS issues blocking the connections.
 
 ### Check DNS
 

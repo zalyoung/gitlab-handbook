@@ -209,8 +209,8 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 
 #### GitLab Docs for SaaS (public)
 
-- [Preparing for renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#prepare-for-renewal-by-reviewing-your-account)
-- [Renewing a subscription](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#renew-or-change-a-gitlab-saas-subscription)
+- [Preparing for renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#prepare-for-renewal-by-reviewing-your-account)
+- [Renewing a subscription](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-or-change-a-gitlab-saas-subscription)
 - [Automatic subscription renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#automatic-subscription-renewal)
 
 #### GitLab Docs for Self-managed (public)
@@ -237,8 +237,8 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 
 - [QSR](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
 - [True-up](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
-- [Seat usage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#how-seat-usage-is-determined)
-- [Seats owed](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#seats-owed)
+- [Seat usage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#how-seat-usage-is-determined)
+- [Seats owed](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)
 
 #### Quarterly Subscription Reconciliation (QSR)
 

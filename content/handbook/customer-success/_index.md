@@ -49,7 +49,7 @@ Our top-level metrics are:
 
 The account team is comprised of the Strategic Account Executive/Account Executive, Solutions Architect (Enterprise), and Customer Success Manager.
 
-[More information about the account team](/handbook/customer-success/account-team/)
+[More information about the account team](/handboo[a scalable HA architecture](https://docs.gitlab.com/ee/administration/reference_architectures/
 
 ## Overlap Between Solution Architects and Customer Success Managers or Architects
 

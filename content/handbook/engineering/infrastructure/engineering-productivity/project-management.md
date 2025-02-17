@@ -42,7 +42,7 @@ The list below is ordered based on aligned priorities and includes primary domai
 
 | Project | Domain Knowledge | Documentation |
 | ------- | ------------------------------------------ | ----- |
-| GitLab CI Pipeline configuration optimization and stability | Jen-Shin, David, Jenn | [Pipelines for the GitLab project](https://docs.gitlab.com/ee/development/pipelines/index.html) |
+| GitLab CI Pipeline configuration optimization and stability | Jen-Shin, David, Jenn | [Pipelines for the GitLab project](https://docs.gitlab.com/ee/development/pipelines/) |
 | Triaging master-broken | Jenn, Nao | [Broken Master](/handbook/engineering/workflow/#broken-master) |
 | GitLab Development Kit (GDK) continued development | Nao, Peter | [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit/) |
 | Triage operations for issues, merge requests, community contributions | Jenn, Alina | [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops/) |

@@ -26,7 +26,7 @@ The reasons for this are:
    to load the whole Rails application. The assumption is that for running Sidekiq we don't
    need ActionCable, REST endpoints, GraphQL mutations or Rails views.
    We only need the application domain and infrastructure code.
-   This could still be true even with the introduction of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) but
+   This could still be true even with the introduction of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/) but
    we need to re-evaluate this assumption.
 1. Keep the scope and effort smaller. Tackling only domain code is easier to understand than
    the complexity of how to breakdown the application adapters and all their edge cases.

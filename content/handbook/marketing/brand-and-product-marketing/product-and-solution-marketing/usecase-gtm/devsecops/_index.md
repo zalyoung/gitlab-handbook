@@ -402,7 +402,7 @@ This table shows the recommended use cases to adopt, links to product documentat
 | Try / Utilize Auto DevOps                           | *Partial* | *Partial* |    X     |                   |                            |
 | Automated Testing with CI                           |     X     |     X     |    X     |                   |    Only SAST at all tiers                        |
 | Review app                                          |     X     |     X     |    X     |                   | Needed to run DAST in CI/CD pipeline |
-| [Merge Request Approval Flow / Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/index.html)                 |           |     X     |    X     |   counts.merged_merge_requests_using_approval_rules            |                            |
+| [Merge Request Approval Flow / Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)                 |           |     X     |    X     |   counts.merged_merge_requests_using_approval_rules            |                            |
 | Protected Environments                              |           |     X     |    X     |                   |                            |
 | [Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/) |     X     |     X     |    X     |  container_registry_enabled |                            |
 | [Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/) |     X     |     X     |    X     | counts_monthly.packages |                            |

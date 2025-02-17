@@ -131,7 +131,7 @@ Kibana can be used to determine who triggered the deletion of a group, subgroup,
 1. Add a positive filter on `json.path` for the path of the project, including the group and subgroup, if applicable. This is `gitlab-silver/test-project-to-delete` in this example.
 1. Add a positive filter on `json.method` for `DELETE`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the deletion in the `json.username` field of the result.
-When a project or a group is first going to pending deletion the log entry will have `json.params.key: [_method, authenticity_token, namespace_id, id]`, compare to when a user is [forcing the deletion](https://docs.gitlab.com/ee/user/project/settings/index.html#delete-a-project-immediately) then the log entry looks like `json.params.key: [_method, authenticity_token, permanently_delete, namespace_id, id]` for project or looks like `json.params.key: [_method, authenticity_token, permanently_remove, id]` for group.
+When a project or a group is first going to pending deletion the log entry will have `json.params.key: [_method, authenticity_token, namespace_id, id]`, compare to when a user is [forcing the deletion](https://docs.gitlab.com/ee/user/project/settings/#delete-a-project-immediately) then the log entry looks like `json.params.key: [_method, authenticity_token, permanently_delete, namespace_id, id]` for project or looks like `json.params.key: [_method, authenticity_token, permanently_remove, id]` for group.
 
 To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
@@ -431,7 +431,7 @@ If you encounter a generic error message try checking CustomersDot purchase erro
 1. Add a positive filter on `json.customer_id` for the username of the account used to make the purchase.
 1. Add a positive filter on `json.severity` for `ERROR`.
 
-Feeling Lazy? Go to `https://log.gprd.gitlab.net/goto/9c28ba80-9d9b-11ed-9f43-e3784d7fe3ca` and update the value of `json.customer_id`.
+[Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/
 
 In case you have the namespace details, get the **Namespace ID** then go to `https://log.gprd.gitlab.net/goto/b598dfe0-9d9b-11ed-9f43-e3784d7fe3ca` and update the value of `json.params.gl_namespace_id`
 
@@ -452,7 +452,7 @@ You can use the links in the lists above and fill in the `json.path` or `json.gl
 
 ### Webhook related events
 
-[Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
+[Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
 
 Here are some suggestions:
 

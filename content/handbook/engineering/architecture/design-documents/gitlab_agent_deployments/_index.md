@@ -26,21 +26,21 @@ This blueprint describes how the association is established and how these domain
 
 - The proposed architecture can be used in [GitLab Kubernetes Dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493).
 - The proposed architecture can be used in [Organization-level Environment dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/241506).
-- The cluster resources and events can be visualized per [GitLab Environment](https://docs.gitlab.com/ee/ci/environments/index.html).
+- The cluster resources and events can be visualized per [GitLab Environment](https://docs.gitlab.com/ee/ci/environments/).
   An environment-specific view scoped to the resources managed either directly or indirectly by a deployment commit.
 - Support both GitOps mode and [CI Access mode](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#authorize-the-agent).
 
 ### Non-Goals
 
 - The design details of [GitLab Kubernetes Dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493) and [Organization-level Environment dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/241506).
-- Support Environment/Deployment features that rely on GitLab CI/CD pipelines, such as [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html), [Deployment Approvals](https://docs.gitlab.com/ee/ci/environments/deployment_approvals.html), [Deployment safety](https://docs.gitlab.com/ee/ci/environments/deployment_safety.html), and [Environment rollback](https://docs.gitlab.com/ee/ci/environments/index.html#environment-rollback). These features are already available in CI Access mode, however, it's not available in GitOps mode.
+- Support Environment/Deployment features that rely on GitLab CI/CD pipelines, such as [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html), [Deployment Approvals](https://docs.gitlab.com/ee/ci/environments/deployment_approvals.html), [Deployment safety](https://docs.gitlab.com/ee/ci/environments/deployment_safety.html), and [Environment rollback](https://docs.gitlab.com/ee/ci/environments/#environment-rollback). These features are already available in CI Access mode, however, it's not available in GitOps mode.
 
 ## Proposal
 
 ### Overview
 
 - GitLab Environment and GitLab agent For Kubernetes have 1-to-1 relationship.
-- GitLab Environment tracks all resources produced by the connected [agent](https://docs.gitlab.com/ee/user/clusters/agent/index.html). This includes not only resources written in manifest files but also subsequently generated resources (for example, `Pod`s created by `Deployment` manifest file).
+- GitLab Environment tracks all resources produced by the connected [agent](https://docs.gitlab.com/ee/user/clusters/agent/). This includes not only resources written in manifest files but also subsequently generated resources (for example, `Pod`s created by `Deployment` manifest file).
 - GitLab Environment renders dependency graph, such as `Deployment` => `ReplicaSet` => `Pod`. This is for providing ArgoCD-style resource view.
 - GitLab Environment has the Resource Health status that represents a summary of resource statuses, such as `Healthy`, `Progressing` or `Degraded`.
 
@@ -187,7 +187,7 @@ The microservice project setup can be improved by [Multi-Project Deployment Pipe
 - Environments can be created within the application projects. It gives more visibility of environments for developers.
 - Deployment Project can be managed under Operator group. More segregation of duties.
 - Users don't need to set up [RBAC to restrict CI/CD jobs](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-project-and-group-access-by-using-impersonation).
-- This is especially helpful for [dynamic environments](https://docs.gitlab.com/ee/ci/environments/index.html#create-a-dynamic-environment) like review apps.
+- This is especially helpful for [dynamic environments](https://docs.gitlab.com/ee/ci/environments/#create-a-dynamic-environment) like review apps.
 
 ```mermaid
 flowchart LR

@@ -14,7 +14,7 @@ The work items framework provides a consistent approach to creating work item ob
 
 ## What functionality is available?
 
-The work items framework provides a [base work item object](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-properties) with options to extend functionality using [widgets](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Additional work item data and functionality is encapsulated within a widget. For example, the [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) enables user assignment.
+The work items framework provides a [base work item object](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-properties) with options to extend functionality using [widgets](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Additional work item data and functionality is encapsulated within a widget. For example, the [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetassignees) enables user assignment.
 
 You can see the list of available widgets [here](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Each widget, except for the core work item object, can be turned on or off for each work item type.
 

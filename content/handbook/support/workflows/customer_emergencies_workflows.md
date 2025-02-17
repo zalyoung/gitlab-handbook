@@ -397,11 +397,11 @@ A customer may be blocked because of a license expiring or neglecting to apply a
 
 - **Note:** Refer to [Handling multi-year subscriptions](/handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription/) for Self Managed licensing.
 
-Some legacy-type subscriptions are called "multi-year" but are actually multiple, separate subscriptions sold up front to cover a multi-year period.  When a customer has a deal like this, each anniversary of the renewal requires that the next subscription be associated, or else the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
+Some legacy-type[steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/t to cover a multi-year period.  When a customer has a deal like this, each anniversary of the renewal requires that the next subscription be associated, or else the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
 
 1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at https://customers.gitlab.com/customers/sign_in for subscription management.
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
-1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#change-the-linked-namespace).
+1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace).
 
 If a customer is an [Unlinked CustomersDot account](/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
 

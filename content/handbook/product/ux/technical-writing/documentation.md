@@ -64,9 +64,9 @@ For more information, see the [Documentation section of our Development document
 
 - The [Documentation Guidelines](https://docs.gitlab.com/ee/development/documentation/):
   - [Workflow](https://docs.gitlab.com/ee/development/documentation/workflow.html)
-  - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html)
+  - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/topic_types/)
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-  - [Site architecture](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html)
+  - [Site architecture](https://docs.gitlab.com/ee/development/documentation/site_architecture/)
 - The [Documentation Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - The [GitLab Docs project](https://gitlab.com/gitlab-org/gitlab-docs/), which
 contains the code that pulls the documentation content from multiple

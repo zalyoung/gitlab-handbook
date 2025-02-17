@@ -36,7 +36,7 @@ The SLA is the percentage of time that SLIs met their SLO.
 
 In this section, we talk about Apdex for Web and API endpoints.
 
-Every endpoint is [associated with a feature category](https://docs.gitlab.com/ee/development/feature_categorization/index.html#feature-categorization).
+Every endpoint is [associated with a feature category](https://docs.gitlab.com/ee/development/feature_categorization/#feature-categorization).
 We use this to help with incident response as well as to attribute error budget spend to the right stage group.
 
 For every request, we store log information - including:

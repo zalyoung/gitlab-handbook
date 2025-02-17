@@ -207,7 +207,7 @@ A notification will be sent to the attributed group's Slack channel, or the `#g_
 
 #### Pro-tips for Triage DRI
 
-1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) feature following [this documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#troubleshoot-failed-cicd-jobs-with-root-cause-analysis).
+1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/#root-cause-analysis) feature following [this documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#troubleshoot-failed-cicd-jobs-with-root-cause-analysis).
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
 
    - **Note**, The `retry_job` command can fail for the following reasons:
@@ -434,7 +434,7 @@ For larger issues or issues that contain many different moving parts, you'll be 
     1. If the team suspects that they might not be able to ship something in time, the team should escalate / inform others as soon as possible. A good start is informing your manager.
     1. It's generally preferable to ship a smaller iteration of an issue, than ship something a release later.
 1. Consider starting a Slack channel for a new team, but remember to write all relevant information in the related issue(s). You don't want to have to read up on two threads, rather than only one, and Slack channels are not open to the greater GitLab community.
-1. If an issue entails frontend and backend work, consider separating the frontend and backend code into separate MRs and merge them independently under [feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html). This will ensure frontend/backend engineers can work and deliver independently.
+1. If an issue entails frontend and backend work, consider separating the frontend and backend code into separate MRs and merge them independently under [feature flags](https://docs.gitlab.com/ee/development/feature_flags/). This will ensure frontend/backend engineers can work and deliver independently.
     1. It's important to note that even though the code is merged behind a feature flag, it should still be production ready and continue to hold our [definition of done](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done).
     1. A separate MR containing the integration, documentation (if applicable) and removal of the feature flags should be completed in parallel with the backend and frontend MRs, but should only be merged when both the frontend and backend MRs are on the master branch.
 

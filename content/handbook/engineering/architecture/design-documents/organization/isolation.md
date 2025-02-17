@@ -32,7 +32,7 @@ A few examples of things that would be disallowed by Organization Isolation are:
 
 ![Broken Organization Isolation](/images/engineering/architecture/design-documents/organization/diagrams/organization-isolation-broken.drawio.png)
 
-[GitLab Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) depend on using the Organization as the sharding key, which will allow us to shard data between different Cells.
+[GitLab Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/) depend on using the Organization as the sharding key, which will allow us to shard data between different Cells.
 Initially, when we start rolling out Organizations, we will be working with a single Cell `Cell 1`.
 `Cell 1` is our current GitLab.com deployment.
 Newly created Organizations will be created on `Cell 1`.

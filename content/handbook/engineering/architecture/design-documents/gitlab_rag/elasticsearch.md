@@ -168,7 +168,7 @@ As of today, there are 84 rows on `xray_reports` table on GitLab.com.
 
 ### Retrieval
 
-After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/index.html),
+After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/),
 Repository X Ray report is retrieved in the following steps:
 
 1. GitLab Rails monotlith fetches corresponding `xray_reports` record from main database. `xray_reports` records are filiterd based on `project_id` foreign key, and `lang` columns.

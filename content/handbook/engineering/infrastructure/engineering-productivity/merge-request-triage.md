@@ -28,10 +28,10 @@ The initial triage is automated by the [Contributor Success team](/handbook/mark
 
 A merge request is considered partially triaged when it has a:
 
-- [type label](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) applied.
-  - (For `~"type::bug"` and `~"Deferred UX"`) It has a [severity label](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) applied.
-- [stage label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) applied.
-- [group label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) applied (e.g. `~"group:editor"`). If no group label exists, the stage label is enough.
+- [type label](https://docs.gitlab.com/ee/development/labels/#type-labels) applied.
+  - (For `~"type::bug"` and `~"Deferred UX"`) It has a [severity label](https://docs.gitlab.com/ee/development/labels/#severity-labels) applied.
+- [stage label](https://docs.gitlab.com/ee/development/labels/#stage-labels) applied.
+- [group label](https://docs.gitlab.com/ee/development/labels/#group-labels) applied (e.g. `~"group:editor"`). If no group label exists, the stage label is enough.
 
 The partial triage is completed by [Merge Request Coaches](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle) via the [Newly created community merge requests](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#newly-created-community-merge-requests) triage report.
 

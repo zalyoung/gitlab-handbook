@@ -96,7 +96,7 @@ We assign issue weights according to our stage's [issue weight definitions](/han
 
 #### How we commit to delivering work in a milestone
 
-In GitLab, the `~Deliverable` label is referred to as a [release scoping label](https://docs.gitlab.com/ee/development/labels/index.html#release-scoping-labels). Applying this label
+In GitLab, the `~Deliverable` label is referred to as a [release scoping label](https://docs.gitlab.com/ee/development/labels/#release-scoping-labels). Applying this label
 represents a commitment from the engineering team to realize the work required in the issue within the milestone to which the issue is assigned. This means we decide whether we can commit to
 delivering work once an issue is in the `workflow::ready for development` state.
 

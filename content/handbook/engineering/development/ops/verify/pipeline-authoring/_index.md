@@ -10,7 +10,7 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [Product Vision](https://about.gitlab.com/direction/ops/#verify)
 - [Pipeline Authoring Category direction](https://about.gitlab.com/direction/verify/pipeline_composition/)
 - [number of unique users who trigger ci_pipelines (Performance indicator)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifypipeline-authoring---gmau---number-of-unique-users-interacting-with-gitlab-ciyml-file) - Internal link
-- [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/index.html)
+- [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/)
 - [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
 - [CI/CD Catalog Documentation](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
 

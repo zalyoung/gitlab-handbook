@@ -40,14 +40,14 @@ SaaS, or Dedicated.
 |:----:| ----- |
 |Self-managed| Check out the [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) we recommend to our customers and their different variations|
 |DotCom| [The GitLab.com architecture](/handbook/engineering/infrastructure/production/architecture/#infra-current-archi-diagram) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
-|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) is a fully isolated, single-tenant, SaaS service managed through AWS by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated). GitLab Dedicated tenants [use](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#availability-and-scalability) the GitLab [Cloud Native Hybrid reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#cloud-native-hybrid) with high availability enabled. See the list of [changes from the reference architectures](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html#changes-from-reference-architectures).|
+|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) is a fully isolated, single-tenant, SaaS service managed through AWS by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated). GitLab Dedicated tenants [use](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#availability-and-scalability) the GitLab [Cloud Native Hybrid reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/#cloud-native-hybrid) with high availability enabled. See the list of [changes from the reference architectures](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html#changes-from-reference-architectures).|
 
 ### Auth
 
 |      |       |
 |:----:| ----- |
 |Self-managed| Self Managed Administrators will need to [configure the desired auth provider](https://docs.gitlab.com/ee/administration/auth/) directly in their gitlab.rb. Any configuration change on this file will require that you run `gitlab-ctl reconfigure` to successfully apply changes.|
-|DotCom| Customers will [Configure SAML SSO for Groups](https://docs.gitlab.com/ee/user/group/saml_sso/index.html) directly, by going to **Group > Settings > SAML SSO**.|
+|DotCom| Customers will [Configure SAML SSO for Groups](https://docs.gitlab.com/ee/user/group/saml_sso/) directly, by going to **Group > Settings > SAML SSO**.|
 |Dedicated| Start the investigation by [searching the logs](/handbook/support/workflows/dedicated_logs). To escalate, [raise an issue with the GitLab Dedicated team](/handbook/support/workflows/dedicated/#filing-issues).|
 
 ### Geo
@@ -90,8 +90,8 @@ Note that [GitLab Duo add-ons](https://docs.gitlab.com/ee/subscriptions/subscrip
 
 |      |       |
 |:----:| ----- |
-|Self-managed| Self-managed runners are [deployed](https://docs.gitlab.com/runner/install/index.html) to customer-owned infrastructure and [registered](https://docs.gitlab.com/runner/register/index.html) to the self-managed GitLab instance.|
-|DotCom| [GitLab-hosted runners](https://docs.gitlab.com/ee/ci/runners/index.html) are available to all projects stored on GitLab.com. Self-managed runners can also be registered to GitLab.com. |
+|Self-managed| Self-managed runners are [deployed](https://docs.gitlab.com/runner/install/) to customer-owned infrastructure and [registered](https://docs.gitlab.com/runner/register/) to the self-managed GitLab instance.|
+|DotCom| [GitLab-hosted runners](https://docs.gitlab.com/ee/ci/runners/) are available to all projects stored on GitLab.com. Self-managed runners can also be registered to GitLab.com. |
 |Dedicated| [GitLab-hosted runners (beta)](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#hosted-by-gitlab) can be provisioned for Dedicated customers. Self-managed runners can also be registered to Dedicated environments. |
 
 ### Rails console

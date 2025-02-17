@@ -165,7 +165,7 @@ export OWN_PRIVATE_API_URL=grpc://127.0.0.1:8155
 bazel run //cmd/kas -- --configuration-file="$HOME/projects/gitlab-development-kit/gitlab-k8s-agent-config.yml"
 ```
 
-**agentk** can be run using the following. The token file can be obtained by [registering the agent](https://docs.gitlab.com/ee/user/clusters/agent/install/index.html).
+**agentk** can be run using the following. The token file can be obtained by [registering the agent](https://docs.gitlab.com/ee/user/clusters/agent/install/).
 
 ```sh
 export POD_NAME=test

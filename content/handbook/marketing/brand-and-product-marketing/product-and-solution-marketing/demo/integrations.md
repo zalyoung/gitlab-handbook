@@ -47,7 +47,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 
 ### Dev Panel integration using the GitLab for Jira app
 
-1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/ee/integration/jira/index.html#configuration) instructions.
+1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/ee/integration/jira/#configuration) instructions.
 2. Navigate to the Jira issue board and select your issue (*SI-X* if using the `spring-integrations` project). Note the GitLab commit and branch information displayed in the Development panel on the right side.
 
 ## Jenkins Integration Demo

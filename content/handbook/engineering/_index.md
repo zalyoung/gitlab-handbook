@@ -172,7 +172,7 @@ Consider whether any new commitments would be affected by your planned PTO. If a
 #### 3. Manager reviews coverage issue
 
 Once the team member has shared their coverage issue with their manager, the manager will review the coverage issue and validate assumptions with stakeholders or impacted project DRIs as needed.
-
+[Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/
 The manager will make a decision on approval or discuss different arrangements or other contingency plans. Once the manager ticks their box on the coverage issue approving the leave, enter the time off into Workday.
 
 #### 4. Communicate your time off

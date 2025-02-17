@@ -103,7 +103,7 @@ We need **one** of the following in order to verify eligibility for the subscrip
 1. Copy of last loaded license (Self-Managed only) in text format only.
    - Screenshots are not valid
    - To obtain the license code:
-     - GitLab version 14.2 and newer: Use [license usage export](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#export-your-license-usage).
+     - GitLab version 14.2 and newer: Use [license usage export](https://docs.gitlab.com/ee/subscriptions/self_managed/#export-your-license-usage).
      - GitLab version 14.1, run the command `sudo gitlab-rails runner 'print License.current.data'` on the GitLab instance. N.B. this command can take a few minutes to complete.
      - GitLab versions older than 14.1, use `Download license` from the `Admin area > License` page.
    - License file can be decoded in customersDot from `Licenses` -> `Validate License` (`/admin/license/validate_license`)

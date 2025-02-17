@@ -153,7 +153,7 @@ On GitLab.com (SaaS), [project storage limits](https://docs.gitlab.com/ee/user/u
 are enforced. The default storage limit is 10 GB *per project*. Once a project reaches its storage limit, it is considered as
 having [excess storage usage](https://docs.gitlab.com/ee/user/usage_quotas.html#excess-storage-usage)
 and may enter into a read-only state until additional storage is purchased. Additional
-storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#purchase-more-storage-and-transfer).
+storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#purchase-more-storage-and-transfer).
 
 Changes to how storage and transfer limits are considered at a
 [namespace level](https://docs.gitlab.com/ee/user/usage_quotas.html#namespace-storage-limit) are

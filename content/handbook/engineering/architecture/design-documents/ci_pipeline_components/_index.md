@@ -24,7 +24,7 @@ can be evolved and improved over time.
 This design doc used to define the architectural guidelines on how to build a CI/CD
 catalog of pipeline components. Since we've done it, you can find a link to the official user documentation below along with the historic content of the document.
 
-For more information on the feature, see the [CI/CD Components documentation](https://docs.gitlab.com/ee/ci/components/index.html).
+For more information on the feature, see the [CI/CD Components documentation](https://docs.gitlab.com/ee/ci/components/).
 
 The archived version of the blueprint file can be found [here](https://gitlab.com/gitlab-org/gitlab/-/blob/a22b7be24f372feec596bcf71ebaf07ea0df40cf/doc/architecture/blueprints/ci_pipeline_components/index.md).
 

@@ -14,7 +14,7 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-GitLab [Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html) is a feature allowing to store Docker container images in GitLab.
+GitLab [Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/) is a feature allowing to store Docker container images in GitLab.
 
 ## 1. Definition
 

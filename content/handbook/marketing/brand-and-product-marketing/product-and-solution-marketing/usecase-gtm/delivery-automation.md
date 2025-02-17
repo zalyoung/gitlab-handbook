@@ -221,8 +221,8 @@ For up-to-date and full list of value at Premium, visit [Why Premium](https://ab
   - [Merge Request Dependencies](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html) Coordinate the order in which merge requests are merged within the same project and/or across different projects.
   - [Push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) Reject new code and commits that don't comply with company policy.
 - **Self Managed Reliability** Ensure disaster recovery, high availability and load balancing of your self-managed deployment
-  - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html) Fail over in minutes to another data-center.
-  - [Maintenance mode](https://docs.gitlab.com/ee/administration/maintenance_mode/index.html) Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users.
+  - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) Fail over in minutes to another data-center.
+  - [Maintenance mode](https://docs.gitlab.com/ee/administration/maintenance_mode/) Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users.
   - [Fault-tolerant Git storage with Gitaly](https://docs.gitlab.com/ee/administration/gitaly/praefect.html) Configure replicated Git storage with automatic failover, strong consistency, and read distribution for improved fault tolerance and performance.
 
 ### Value at Ultimate

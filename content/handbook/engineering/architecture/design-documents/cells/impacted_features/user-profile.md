@@ -18,7 +18,7 @@ The existing User Profiles will initially be scoped to an Organization. Long-ter
 
 ## 1. Definition
 
-Each GitLab account has a [User Profile](https://docs.gitlab.com/ee/user/profile/index.html), which contains information about the User and their GitLab activity.
+Each GitLab account has a [User Profile](https://docs.gitlab.com/ee/user/profile/), which contains information about the User and their GitLab activity.
 
 ## 2. Data flow
 

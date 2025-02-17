@@ -11,7 +11,7 @@ of [Phase 4](https://gitlab.com/groups/gitlab-org/-/epics/14510).
 
 ## Purpose
 
-GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/tokens/index.html).
+GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/tokens/).
 Tokens have different scopes as for example User, [project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), and [group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
 
 [HTTP Routing Service](http_routing_service.md) require the tokens to be routable,
@@ -475,7 +475,7 @@ The JWT is truly meant to be used as an ephemeral token, usually tied with the t
 
 ## References
 
-- [Token Prefixes documentation](https://docs.gitlab.com/ee/security/tokens/index.html#token-prefixes)
+- [Token Prefixes documentation](https://docs.gitlab.com/ee/security/tokens/#token-prefixes)
 - [Routable Token generation PoC in Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/157440)
 - [Technical proposal for routable tokens](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/8527)
 - (Internal) Google Spreadsheet of various [tokens](https://docs.google.com/spreadsheets/d/1n54lCX2axsTIt8DZBRFj9p44s6YcFp-UechVEHEim8Y/) used by the GitLab.

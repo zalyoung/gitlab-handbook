@@ -199,7 +199,7 @@ require one bucket.
 
 ## Additional reading materials
 
-- [Uploads development guide](https://docs.gitlab.com/ee/development/uploads/index.html).
+- [Uploads development guide](https://docs.gitlab.com/ee/development/uploads/).
 - [Speed up the monolith, building a smart reverse proxy in Go](https://archive.fosdem.org/2020/schedule/event/speedupmonolith/): a presentation explaining a bit of workhorse history and the challenge we faced in releasing the first cloud-native installation.
 - [Object Storage improvements epic](https://gitlab.com/groups/gitlab-org/-/epics/483).
 - We are moving to GraphQL API, but [we do not support direct upload](https://gitlab.com/gitlab-org/gitlab/-/issues/280819).

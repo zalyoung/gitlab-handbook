@@ -32,7 +32,7 @@ With GitLab.com, GitLab (the company) is the administrator of the instance. This
 
 ### Users Are Not Admins
 
-Users including customers [never have an admin role](https://docs.gitlab.com/ee/administration/index.html#administrator-documentation).
+Users including customers [never have an admin role](https://docs.gitlab.com/ee/administration/#administrator-documentation).
 
 This means that none of our administrator specific documentation will apply to end-users, and [instance level settings](https://docs.gitlab.com/ee/user/gitlab_com/) are managed by our infrastructure team.
 

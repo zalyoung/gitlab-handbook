@@ -4,7 +4,7 @@ title: "Secret Push Protection Monitoring"
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
+This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
 
 * [Secret Push Protection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1)
 
@@ -123,7 +123,7 @@ The dashboard itself is split into 4 rows (or sections), with each containing a 
 
 #### GitLab Shell (Git over SSH)
 
-This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd.html) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/index.html#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#ssh-request-22) for more information on how that works.
+This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd.html) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#ssh-request-22) for more information on how that works.
 
 The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a `git push` operation is carried out over SSH. It is dividend into two rows/sections as follows.
 

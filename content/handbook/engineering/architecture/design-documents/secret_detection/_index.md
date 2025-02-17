@@ -46,7 +46,7 @@ for this blueprint. Any detections will be managed using the existing
 Vulnerability Management UI.
 
 Management of detected secrets will remain distinct from the
-[Secret Management feature capability](https://docs.gitlab.com/ee/ci/secrets/index.html) as
+[Secret Management feature capability](https://docs.gitlab.com/ee/ci/secrets/) as
 "detected" secrets are categorically distinct from actively "managed" secrets.
 When a detected secret is identified, it has already been compromised due to
 their presence in the target object (that is a repository). Alternatively, managed
@@ -161,7 +161,7 @@ as self-managed instances.
 
 ### Transfer optimizations for large Git data blobs
 
-As described in [Gitaly's upload-pack traffic blueprint](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_handle_upload_pack_in_http2_server/index.html#git-data-transfer-optimization-with-sidechannel), we have faced problems in the past handling large data transfers over gRPC. This could be a concern as we expand secret detection to large blob sizes to increase coverage over leaked secrets. We expect to rollout pre-receive scanning with a 1 megabyte blob size limit which should be well within boundaries. From [Protobuffers' documentation](https://protobuf.dev/programming-guides/techniques/#large-data):
+As described in [Gitaly's upload-pack traffic blueprint](https://docs.gitlab.com/ee/architecture/blueprints/gitaly_handle_upload_pack_in_http2_server/#git-data-transfer-optimization-with-sidechannel), we have faced problems in the past handling large data transfers over gRPC. This could be a concern as we expand secret detection to large blob sizes to increase coverage over leaked secrets. We expect to rollout pre-receive scanning with a 1 megabyte blob size limit which should be well within boundaries. From [Protobuffers' documentation](https://protobuf.dev/programming-guides/techniques/#large-data):
 
 > As a general rule of thumb, if you are dealing in messages larger than a megabyte each, it may be time to consider an alternate strategy.
 
@@ -173,7 +173,7 @@ The detection capability relies on a multiphase rollout, from an experimental co
 
 The implementation of the secret scanning service is highly dependent on the outcomes of our benchmarking
 and capacity planning against both GitLab.com and
-[Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html).
+[Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
 As the scanning capability must be an on-by-default component of both our SaaS and self-managed
 instances, [each iteration's](#iterations) deployment characteristic defines whether
 the service will act as a standalone component, or executed as a subprocess of the Rails architecture
@@ -204,7 +204,7 @@ These systems may be worth exploring in the future if our performance characteri
 
 ### Organization-level Controls
 
-Configuration and workflows should be oriented around [Organizations](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html). Detection controls and governance patterns should support configuration across multiple projects and groups in a uniform way that emphasizes shared allowlists, organization-wide policies (i.e. disablement of push option bypass), and auditability.
+Configuration and workflows should be oriented around [Organizations](https://docs.gitlab.com/ee/architecture/blueprints/organization/). Detection controls and governance patterns should support configuration across multiple projects and groups in a uniform way that emphasizes shared allowlists, organization-wide policies (i.e. disablement of push option bypass), and auditability.
 
 Each phase documents the paradigm used as we iterate from Instance-level to Organization-level controls.
 
@@ -436,7 +436,7 @@ Suppression of detection and action on leaked secrets will be supported at sever
 
 1. _Global suppression_ - If a secret is highly-likely to be a false token (i.e. `EXAMPLE`) it should be suppressed in workflow contexts where user would be seriously inconvenienced.
 
-    We should still provide some means of triaging these results, whether via [audit events](#auditability) or as [automatic vulnerability resolution](https://docs.gitlab.com/ee/user/application_security/sast/index.html#automatic-vulnerability-resolution).
+    We should still provide some means of triaging these results, whether via [audit events](#auditability) or as [automatic vulnerability resolution](https://docs.gitlab.com/ee/user/application_security/sast/#automatic-vulnerability-resolution).
 
 1. _Organization suppression_ - If a secret matches an organization's allowlist (or was previously flagged and remediated as irrelevant) it should not reoccur. See [Organization-level controls](#organization-level-controls).
 

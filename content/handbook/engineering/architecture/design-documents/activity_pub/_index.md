@@ -264,7 +264,7 @@ TBC
 ### The social following part
 
 This part is laying the ground work allowing to
-[add new ActivityPub actors](https://docs.gitlab.com/ee/development/activitypub/actors/index.html) to
+[add new ActivityPub actors](https://docs.gitlab.com/ee/development/activitypub/actors/) to
 GitLab.
 
 There are 5 actors we want to implement:

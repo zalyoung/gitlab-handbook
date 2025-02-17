@@ -22,8 +22,8 @@ to meet that need without having to access third party tools.
 ## Motivation
 
 The current de-facto approach used by many to store a sensitive credential in GitLab is
-using a [Masked Variable](https://docs.gitlab.com/ee/ci/variables/index.html#mask-a-cicd-variable) or a
-[File Variable](https://docs.gitlab.com/ee/ci/variables/index.html#use-file-type-cicd-variables).
+using a [Masked Variable](https://docs.gitlab.com/ee/ci/variables/#mask-a-cicd-variable) or a
+[File Variable](https://docs.gitlab.com/ee/ci/variables/#use-file-type-cicd-variables).
 However, data stored in variables (masked or file variables) can be inadvertently exposed even with masking.
 A more secure solution would be to use native integration
 with external secret managers such as HashiCorp Vault or Azure Key Vault.
@@ -1011,7 +1011,7 @@ For self-hosted, OpenBao server will also be executed by GitLab Rails.
 1. Infrastructure setup, including how OpenBao will be installed for self-managed instances.
 1. How to best implement sharing of secrets between multiple groups in GitLab.
 1. Establish our protocol and processes for incidents that may require sealing the secrets vault.
-1. How to support protected and environment specific rules for secrets.
+1.[Secure Files](https://docs.gitlab.com/ee/ci/secure_files/.
 1. How to audit secret changes. Do we want to use [audit socket](https://openbao.org/docs/audit/socket/)?
 1. Should the secrets be revoked if a project or subgroup is moved under a different top-level group/organization?
 
@@ -1020,7 +1020,7 @@ For self-hosted, OpenBao server will also be executed by GitLab Rails.
 Other solutions we have explored:
 
 - Separating secrets from CI/CD variables as a separate model with limited access, to avoid unintended exposure of the secret.
-- [Secure Files](https://docs.gitlab.com/ee/ci/secure_files/index.html)
+- [Secure Files](https://docs.gitlab.com/ee/ci/secure_files/)
 - Implementing secrets management from scratch (see [Superseded](#superseded)).
 
 ## References

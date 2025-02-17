@@ -167,10 +167,10 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 
 - What is your organization's HA (High Availability) strategy? Do you have one? Why / why not?
   - If HA support is needed, position Premium's HA support via our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/); note: Free offers HA capabilities with self-support vs. expert GitLab support
-- How does your organization handle [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)?
+- How does your organization handle [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)?
   - GitLab's Disaster Recovery feature, only available in Premium and Ultimate SKUs, handles fail-over to another data center within minutes
 - Are your development teams centrally located in generally the same vicinity or are they distributed across the world? If distributed, how do you ensure that latency between geographically dispersed developers is minimized?
-  - If this is important to the customer, discuss with your SA whether or not [Geographic Replication](https://docs.gitlab.com/ee/administration/geo/index.html) is a required capability
+  - If this is important to the customer, discuss with your SA whether or not [Geographic Replication](https://docs.gitlab.com/ee/administration/geo/) is a required capability
 
 #### Developer Productivity
 
@@ -179,7 +179,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - If you were able to analyze graphs and reports to understand team, project, and group productivity to uncover patterns and best practices, how would that improve overall productivity?
   - If this is of interest, position [Productivity Analytics](https://docs.gitlab.com/ee/user/analytics/productivity_analytics.html)
 - How does your organization currently track and manage code reviews and feedback?
-  - GitLab Premium includes built-in [merge request reviews](https://docs.gitlab.com/ee/user/discussions/index.html#merge-request-reviews)
+  - GitLab Premium includes built-in [merge request reviews](https://docs.gitlab.com/ee/user/discussions/#merge-request-reviews)
 - How important is having consistent and standard practices to boost overall developer productivity?
   - [Group and file templates](https://docs.gitlab.com/ee/user/group/#group-file-templates) allow you to share a set of templates for common file types with every project in a group
 - What is your organization doing to simplify and streamline system logon processes for developers? Do you currently use or have plans to use SmartCard authentication?
@@ -195,7 +195,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
   - [Group Milestone Boards/Lists](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards) - Visualize future work to be delivered in future releases/milestones
   - [Assignee Boards/Lists](https://docs.gitlab.com/ee/user/project/issue_board.html) - Streamline assignment of work to team members in a graphical assignment board
   - [Group Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards) - Visually manage programs (groups) with multiple issue boards where work can be dynamically assigned and tracked
-  - [Issue Analytics](https://docs.gitlab.com/ee/user/group/issues_analytics/index.html) - Establish consistent and standard practices
+  - [Issue Analytics](https://docs.gitlab.com/ee/user/group/issues_analytics/) - Establish consistent and standard practices
 
 #### Deploy with Confidence
 
@@ -204,7 +204,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
   - [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/) - Visualize the flow of business initiatives across time in order to plan when future features will ship
 
 - How many tools do you have to use to understand current status? How long does that take? How does that affect your teams?
-  - If this line of questioning reveals challenges in lack of visibility across the DevOps toolchain, position GitLab Premium's [Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/index.html#doc-nav) which provides a holistic view of the overall health of an organization's operations
+  - If this line of questioning reveals challenges in lack of visibility across the DevOps toolchain, position GitLab Premium's [Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/#doc-nav) which provides a holistic view of the overall health of an organization's operations
 - How would you assess your level of confidence in how your organization currently manages software deploys? Are there any risks you wish you could mitigate? If so, what are they and why? GitLab Premium offers a multitude of capabilities to allow organizations to deploy with confidence including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
   - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines) - Link CI pipelines from multiple projects to deliver integrated solutions
   - [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html) - Establish controls and limit the access to change specific environments
@@ -221,7 +221,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - GitLab Premium includes several enhancements that help with auditing and compliance including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
   - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_event_reports.html) - Review changes by user and track access
   - [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html) - Read-only access to all projects, groups, and other resources on the GitLab instance
-  - [Merge Request Reviews](https://docs.gitlab.com/ee/user/discussions/index.html#merge-request-reviews) - Draft multiple comments in a merge request code review and review/resolve comments together
+  - [Merge Request Reviews](https://docs.gitlab.com/ee/user/discussions/#merge-request-reviews) - Draft multiple comments in a merge request code review and review/resolve comments together
   - [Verified Committer](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
   - [Require Signed Commits](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Enforce policy to require signed commits from contributors
 

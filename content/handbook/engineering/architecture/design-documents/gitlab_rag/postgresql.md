@@ -94,7 +94,7 @@ As of today, there are 84 rows on `xray_reports` table on GitLab.com.
 
 ### Retrieval
 
-After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/index.html), Repository X Ray report is retrieved, in following steps
+After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/), Repository X Ray report is retrieved, in following steps
 
 1. Fetch embedding of the user input from `textembedding-gecko` model (768 dimensions).
 1. Query to `vertex_gitlab_docs` table for finding the nearest neighbors. For example:

@@ -40,8 +40,8 @@ While the default work item types from above exist in the production database, t
 | [Objective](https://gitlab.com/groups/gitlab-org/-/epics/9003)   | Implemented    | Fully available behind a feature flag | No                                         | [Objective](https://docs.gitlab.com/ee/user/okrs.html)                               |
 | [Key Result](https://gitlab.com/groups/gitlab-org/-/epics/9003)  | Implemented    | Fully available behind a feature flag | No                                         | [Key Result](https://docs.gitlab.com/ee/user/okrs.html)                              |
 | [Incident](https://gitlab.com/groups/gitlab-org/-/epics/9585)    | Planned        | -                                     | No                                         | [Incident](https://docs.gitlab.com/ee/operations/incident_management/incidents.html) |
-| [Test case](https://gitlab.com/groups/gitlab-org/-/epics/9923)   | Planned        | -                                     | No                                         | [Test case](https://docs.gitlab.com/ee/ci/test_cases/index.html)                     |
-| [Requirement](https://gitlab.com/groups/gitlab-org/-/epics/9923) | Planned        | -                                     | No                                         | [Requirement](https://docs.gitlab.com/ee/user/project/requirements/index.html)       |
+| [Test case](https://gitlab.com/groups/gitlab-org/-/epics/9923)   | Planned        | -                                     | No                                         | [Test case](https://docs.gitlab.com/ee/ci/test_cases/)                     |
+| [Requirement](https://gitlab.com/groups/gitlab-org/-/epics/9923) | Planned        | -                                     | No                                         | [Requirement](https://docs.gitlab.com/ee/user/project/requirements/)       |
 | [Issue](https://gitlab.com/groups/gitlab-org/-/epics/10842)      | In Development | -                                     | No                                         | [Issue](https://gitlab.com/groups/gitlab-org/-/epics/9584)                           |
 | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9290)        | In Development | -                                     | Yes, in progress                           | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9290)                            |
 | [Ticket](https://gitlab.com/gitlab-org/gitlab/-/issues/412055)   | Planned        | -                                     | No                                         | [Ticket](https://gitlab.com/groups/gitlab-org/-/epics/10419)                         |
@@ -51,7 +51,7 @@ While the default work item types from above exist in the production database, t
 Every Work Item type has the following common properties:
 
 **NOTE:**
-You can also refer to fields of [Work Item](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitem) to learn more.
+You can also refer to fields of [Work Item](https://docs.gitlab.com/ee/api/graphql/reference/#workitem) to learn more.
 
 - `id` - a unique Work Item global identifier;
 - `iid` - internal ID of the Work Item, relative to the parent workspace (currently workspace can only be a project)
@@ -76,7 +76,7 @@ set of widgets for them.
 
 | Widget  | Description | Feature flag | Write permission | GraphQL Subscription Support |
 |---|---|---|---|---|
-| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | List of work item assignees | For epics work item type `work_items_beta`, otherwise no FF |`Guest`|Yes|
+| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetassignees) | List of work item assignees | For epics work item type `work_items_beta`, otherwise no FF |`Guest`|Yes|
 | [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetawardemoji) | Emoji reactions added to work item, including support for upvote/downvote counts | |Anyone who can view|No|
 | [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcolor) | Set color of a work item. **Note:** Color is available only for epics. | |`Reporter`|No|
 | [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcurrentusertodos) | User todo state of work item | |Anyone who can view|No|
@@ -106,7 +106,7 @@ set of widgets for them.
 
 | Widget | Epic | Issue | Task | Objective | Key Result |
 |---|---|---|---|---|---|
-| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/index.html#workitemwidgetassignees) | ✅ | ✔️  | ✅ | ✅ | ✅ |
+| [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetassignees) | ✅ | ✔️  | ✅ | ✅ | ✅ |
 | [WorkItemWidgetAwardEmoji](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetawardemoji) | ✅ | ✔️ | ✅ | ✅ | ✅ |
 | [WorkItemWidgetColor](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcolor) | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [WorkItemWidgetCurrentUserTodos](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetcurrentusertodos) | ✅ | ✅ | ✅ | ✅ | ✅ |

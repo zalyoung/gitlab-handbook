@@ -13,7 +13,7 @@ Every Product Designer is empowered to triage issues labeled with "~UX", ["~Defe
 
 ### Scheduling issues in a milestone
 
-All issues labeled [`Deliverable`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=UX&label_name%5B%5D=Deliverable) that require UX will be assigned to a Product Designer by the kickoff. Issues labeled [`Stretch`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Stretch&label_name%5B%5D=UX) may or may not be assigned by the kickoff. Learn more about how we use Workflow labels in the [GitLab Docs](https://docs.gitlab.com/ee/development/labels/index.html#release-scoping-labels).
+All issues labeled [`Deliverable`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=UX&label_name%5B%5D=Deliverable) that require UX will be assigned to a Product Designer by the kickoff. Issues labeled [`Stretch`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Stretch&label_name%5B%5D=UX) may or may not be assigned by the kickoff. Learn more about how we use Workflow labels in the [GitLab Docs](https://docs.gitlab.com/ee/development/labels/#release-scoping-labels).
 
 #### Communicating scheduled UX issues to the stage group
 

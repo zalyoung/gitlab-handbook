@@ -68,7 +68,7 @@ The working group can be disbanded when:
 
 The working group would map the Ruby codebase, in particular the domain code into `app/` and `lib/` folder and come up
 with a list of bounded contexts. This may exclude `app/controllers` and `app/views` initially since we want to focus primarily
-on the domain layer (the core) of the [Hexagonal Architecture](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/hexagonal_monolith/index.html).
+on the domain layer (the core) of the [Hexagonal Architecture](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/hexagonal_monolith/).
 
 During the process of mapping the codebase we would need to do:
 

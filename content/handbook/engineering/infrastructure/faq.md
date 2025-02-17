@@ -16,7 +16,7 @@ A: Yes. We use GCP Persistent Storage volumes underneath all of our filesystems,
 
 Subquestion in detail: If a customer deletes their project, group, or account on GitLab.com, is their data securely deleted?
 
-A: Neither the git repo backups nor the database backups will be purged immediately. When a project is deleted, the corresponding data from the database as well as the files associated with that project's repository, pages, and wiki will be removed, but will continue to exist in backups for up to two weeks after the deletion. Note that this time frame can be longer in case [Delayed project deletion](https://docs.gitlab.com/ee/user/gitlab_com/index.html#delayed-project-deletion) is enabled. For this reason we cannot guarantee that a deleted project is entirely purged from our system until the oldest of those backups expires. Please note that this is not the same as "secure delete", which typically means overwriting the deleted files' blocks with random bytes at least N times, but without the decryption keys, a stolen copy of our disk images would be unreadable.
+A: Neither the git repo backups nor the database backups will be purged immediately. When a project is deleted, the corresponding data from the database as well as the files associated with that project's repository, pages, and wiki will be removed, but will continue to exist in backups for up to two weeks after the deletion. Note that this time frame can be longer in case [Delayed project deletion](https://docs.gitlab.com/ee/user/gitlab_com/#delayed-project-deletion) is enabled. For this reason we cannot guarantee that a deleted project is entirely purged from our system until the oldest of those backups expires. Please note that this is not the same as "secure delete", which typically means overwriting the deleted files' blocks with random bytes at least N times, but without the decryption keys, a stolen copy of our disk images would be unreadable.
 
 #### Q: How is GitLab.com backed up?
 
@@ -38,7 +38,7 @@ A: Currently you can only use the [project import/export](https://docs.gitlab.co
 
 #### Q: If a customer project is deleted can it be restored?
 
-A: No, once a project is deleted it cannot be restored. For some projects, [Delayed project deletion](https://docs.gitlab.com/ee/user/gitlab_com/index.html#delayed-project-deletion) will allow users to restore a project during the soft deletion state.
+A: No, once a project is deleted it cannot be restored. For some projects, [Delayed project deletion](https://docs.gitlab.com/ee/user/gitlab_com/#delayed-project-deletion) will allow users to restore a project during the soft deletion state.
 
 For Support team members looking for further guidance, please refer to [Support's restoring deleted data workflow](/handbook/support/workflows/restore_requests/).
 

@@ -243,5 +243,5 @@ The initial iteration will provide a framework to house features under `Namespac
 
 ## Related topics
 
-- [Organization developer documentation](https://docs.gitlab.com/ee/development/organization/index.html)
-- [Organization user documentation](https://docs.gitlab.com/ee/user/organization/index.html)
+- [Organization developer documentation](https://docs.gitlab.com/ee/development/organization/)
+- [Organization user documentation](https://docs.gitlab.com/ee/user/organization/)

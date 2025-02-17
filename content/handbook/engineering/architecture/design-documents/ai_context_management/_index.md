@@ -133,7 +133,7 @@ this architecture blueprint
 
 - Provide UI for _Project Administrators_ to configure global _AI Context Policy_. [Source Editor](https://docs.gitlab.com/ee/development/fe_guide/source_editor.html)
 can be used as the editor for this type of YAML file format, similar to the
-[Security Policy Editor](https://docs.gitlab.com/ee/user/application_security/policies/index.html#policy-editor).
+[Security Policy Editor](https://docs.gitlab.com/ee/user/application_security/policies/#policy-editor).
 - Implement a validation mechanism for _AI Context Policies_ to somehow notify the _Project Administrators_ in case
 of the invalid format of the YAML configuration file. It could be a job in CI. But to catch possible issues proactively, it is
 also advised to introduce the validation step as part of the

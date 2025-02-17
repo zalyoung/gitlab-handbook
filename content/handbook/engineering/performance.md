@@ -46,7 +46,7 @@ Performance Indicators:
 - [Monitoring GitLab.com](/handbook/engineering/monitoring/)
 - [Application Architecture Documentation](https://docs.gitlab.com/ee/development/architecture.html)
 - [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
+- [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/)
 
 **Meta issue** to track various issues listed here is at on the [infrastructure tracker](https://gitlab.com/gitlab-com/infrastructure/issues/2373).
 

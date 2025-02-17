@@ -52,7 +52,7 @@ We will need a new permission on the [Project policy](https://gitlab.com/gitlab-
 
 ## Project Integration
 
-We will need to build a new [project integration](https://docs.gitlab.com/ee/development/integrations/index.html) with the following properties:
+We will need to build a new [project integration](https://docs.gitlab.com/ee/development/integrations/) with the following properties:
 
 - `google_project_id` - the Google project ID. A simple string.
 - `google_location` - the Google location. A simple string.
@@ -64,13 +64,13 @@ We will also have derived properties:
 
 - `repository`- the repository name. Derived from `repositories`.
 
-`repositories` is used as a way to store the repository name in an array. This is to help with a future follow up where multiple repositories will need to be supported. As such, we store the repository name into an array and we create a `repository` property that is the first entry of the array. By having a `repository` single property, we can use the [frontend helpers](https://docs.gitlab.com/ee/development/integrations/index.html#customize-the-frontend-form) as array values are not supported in project integrations.
+`repositories` is used as a way to store the repository name in an array. This is to help with a future follow up where multiple repositories will need to be supported. As such, we store the repository name into an array and we create a `repository` property that is the first entry of the array. By having a `repository` single property, we can use the [frontend helpers](https://docs.gitlab.com/ee/development/integrations/#customize-the-frontend-form) as array values are not supported in project integrations.
 
 We also need the base64 version of the `json_key`. This is required for the [`CI/CD variables`](#cicd-variables).
 
 Regarding the class name, we suggest using `Integrations::GoogleCloudPlatform::ArtifactRegistry`. The `Integrations::GoogleCloudPlatform` namespace allows us to have possible future other integrations for the other services of the Google Cloud Platform.
 
-Regarding the [configuration test](https://docs.gitlab.com/ee/development/integrations/index.html#define-configuration-test), we need to get the repository info on the official API (method `#get_repository`). The test is successful if and only if, the call is successful and the returned repository has the format `DOCKER`.
+Regarding the [configuration test](https://docs.gitlab.com/ee/development/integrations/#define-configuration-test), we need to get the repository info on the official API (method `#get_repository`). The test is successful if and only if, the call is successful and the returned repository has the format `DOCKER`.
 
 ## GraphQL APIs
 
@@ -80,7 +80,7 @@ In order to support the other repository formats in follow ups, we choose to not
 
 All GraphQL changes should be marked as [`alpha`](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html#mark-schema-items-as-alpha).
 
-First, on the [`ProjectType`](https://docs.gitlab.com/ee/api/graphql/reference/index.html#project), we will need a new field `google_cloud_platform_artifact_registry_repository_artifacts`. This will return a list of an [abstract](https://docs.gitlab.com/ee/api/graphql/reference/index.html#abstract-types) new type: `GoogleCloudPlatform::ArtifactRegistry::ArtifactType`. This list will have pagination support. Ordering options will be available.
+First, on the [`ProjectType`](https://docs.gitlab.com/ee/api/graphql/reference/#project), we will need a new field `google_cloud_platform_artifact_registry_repository_artifacts`. This will return a list of an [abstract](https://docs.gitlab.com/ee/api/graphql/reference/#abstract-types) new type: `GoogleCloudPlatform::ArtifactRegistry::ArtifactType`. This list will have pagination support. Ordering options will be available.
 
 We will have `GoogleCloudPlatform::ArtifactRegistry::DockerImage` as a concrete type of `GoogleCloudPlatform::ArtifactRegistry::ArtifactType` with the following fields:
 

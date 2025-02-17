@@ -211,9 +211,9 @@ Issues with the `~"workflow::verification"` or `~"workflow::awaiting security re
 
 For work items that span greater than 1 week or are high priority deliverables (such as critical infradev issues or bugs), the assignee for the work aims to provide a brief weekly update on the progress of tasks within the issue being worked on. This is intended to be 2-3 lines highlighting what was accomplished recently, and the next steps. We do this to share the progress transparently with our counterparts but also to share domain knowledge and course correct on implementation details if uncovered after work has started.
 
-##### Labels and how we use them
+##### La[many labels](https://docs.gitlab.com/ee/development/labels/
 
-We have [many labels](https://docs.gitlab.com/ee/development/labels/index.html) that can be applied to an issue or merge request. Besides the issue workflow labels above, here are the minimum basic labels to apply to issues and merge requests:
+We have [many labels](https://docs.gitlab.com/ee/development/labels/) that can be applied to an issue or merge request. Besides the issue workflow labels above, here are the minimum basic labels to apply to issues and merge requests:
 
 - Type (`type::feature`, `type::bug`, or `type::maintenance`)
 - Stage that owns the area (`devops::software supply chain security`)

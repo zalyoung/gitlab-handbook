@@ -200,7 +200,7 @@ This is handled by GitLab downstream pipeline triggers. Because of this, all per
 
 #### Deployment project to GCP Cloud
 
-GitLab CI pipelines in the deployment project are responsible for talking to GCP to provision and change the cloud resources for a Runway Service. This is done via [OpenID Connnect](https://docs.gitlab.com/ee/ci/cloud_services/google_cloud/index.html) leveraging setup done in the Runway provisioner, in order to make deployment projects authenticate as a GCP service account
+GitLab CI pipelines in the deployment project are responsible for talking to GCP to provision and change the cloud resources for a Runway Service. This is done via [OpenID Connnect](https://docs.gitlab.com/ee/ci/cloud_services/google_cloud/) leveraging setup done in the Runway provisioner, in order to make deployment projects authenticate as a GCP service account
 with restricted permissions.
 
 #### Reconciler to GCP Cloud

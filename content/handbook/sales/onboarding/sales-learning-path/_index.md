@@ -88,7 +88,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 - **GitLab Security Solutions (Material - Slides and Video - 30 minutes)**
   - Security is one of the biggest differentiators to Ultimate. In this course, you will learn detailed information about GitLab security capabilities with a click through demo.
   - Using [GitLab for Software Security Video](https://youtu.be/SP0VSH-NqJs)
-  - [GitLab Secure Doc](https://docs.gitlab.com/ee/user/application_security/index.html)
+  - [GitLab Secure Doc](https://docs.gitlab.com/ee/user/application_security/)
   - [GitLab Security and Compliance Capabilities Deck](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit)
 - **Selling Professional Services (Material - Video - 30 Minutes)**
   - Our [Professional Services](/handbook/customer-success/professional-services-engineering/selling/) team is made up of not only GitLab subject matter experts but seasoned DevOps professionals who have experience in deploying and maintaining both large-scale applications as well as creating and teaching best practices throughout the SDLC. Our experts help lead Concurrent DevOps Transformations, providing direct support to our customer's strategic business initiatives. GitLab's Professional Services team exists to enable your clients realize the full value of their GitLab installation. We can provide direct implementation support to ensure the GitLab installation is resilient and secure. We also offer migration services to facilitate the transition to GitLab by delivering a clean dataset to resume operations at once. Our education and specialized training provide training in best practices, such as CI/CD, version control, metrics, and more.
