@@ -121,6 +121,7 @@ not only pre-built HTML and client-side SPAs, but build entire websites with
 Pages, using poplular SSR-Frameworks such as Next, Remix, Nuxt or Sveltekit.
 
 Other examples include, but are not limited to:
+
 - the ability for users to implement custom authentication mechanisms.
 - Use GitLab Pages for simple APIs, with a virtual filesystem even with a
   file-based (eg. SQLite) storage solution
@@ -135,6 +136,10 @@ List the specific goals / opportunities of the document.
 - What are other less tangible opportunities here?
 -->
 
+- User is able to provide Javascript functions as part of the GitLab Pages 
+  files
+- Requests to the user's Pages URL may be handled by the handler from that file
+
 ### Non-Goals
 
 <!--
@@ -143,6 +148,9 @@ optional.
 
 - What is out of scope for this document?
 -->
+
+- While possible, Pages functions aren't primarily intended internal workflow
+ enhancements (unlike the serverless or workflow approach)
 
 ## Proposal
 
