@@ -6,7 +6,9 @@ description: How to manage assigned tickets when going on scheduled PTO
 
 ## Overview
 
-These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO. Before you sign-off on your last day before PTO, ensure that there are 0 tickets in your assigned queue. 
+These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO.
+
+**IMPORTANT NOTE**: Before you sign-off on your last day before PTO, ensure that there are 0 tickets in your assigned queue. 
 
 ### Using the OOO Ticket Summary macro
 
