@@ -98,7 +98,7 @@ On the gitlab.com side, there are three real components to Dev Pulse:
 ### Analyzing a ticket
 
 This part is triggered via the Zendesk instance's webhook using a GitLab
-[pipeline trigger](https://docs.gitlab.com/ee/ci/triggers/). When triggered,
+[pipeline trigger](https://docs.gitlab.com/ci/triggers/). When triggered,
 specific parts of the code within the project will be run to perform an analysis
 of the request. The result of said analysis determine what actions are taken:
 

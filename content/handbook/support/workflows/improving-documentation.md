@@ -8,7 +8,7 @@ category: Handling tickets
 
 As outlined in the [Documentation section](/handbook/support/workflows/how-to-respond-to-tickets#documentation) of the **How to Respond to Tickets** workflow, comprehensive documentation is a powerful tool for ticket deflection.
 
-> By taking a [docs-first](https://docs.gitlab.com/ee/development/documentation/styleguide/#docs-first-methodology) approach to answering, we can ensure that the documentation remains a highly useful [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot). By building up a corpus of documentation informed by real-world problems, we help GitLab customers find the answers or solutions they need before they come into the queues.
+> By taking a [docs-first](https://docs.gitlab.com/development/documentation/styleguide/#docs-first-methodology) approach to answering, we can ensure that the documentation remains a highly useful [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot). By building up a corpus of documentation informed by real-world problems, we help GitLab customers find the answers or solutions they need before they come into the queues.
 
 With that in mind, whenever possible, include a link to the applicable documentation as part of your response to a ticket. If the documentation does not exist yet, then *write* a documentation issue or draft merge request, and send the link  in the response.
 
@@ -20,7 +20,7 @@ The information collected below should be helpful for when you contribute to the
 
 Make your edits and commits on a new branch named according to the Documentation
 guidelines, which state that branch names must start with `docs-` (or
-[one of the other options listed in the branch name scheme](https://docs.gitlab.com/ee/development/documentation/#branch-naming)).
+[one of the other options listed in the branch name scheme](https://docs.gitlab.com/development/documentation/#branch-naming)).
 
 - Commit the changes. Make sure the commit message follows our [commit message guidelines](https://docs.gitlab.com/development/contributing/merge_request_workflow/#commit-messages-guidelines).
     If you don't follow the guidelines, the [Danger Bot](https://docs.gitlab.com/development/dangerbot/) job may fail when it checks if the commits are aligned with our guidelines. If it fails, read the job trace and fix the issue with a new commit, or an [interactive rebase](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). (Ask for help if you're not sure how to do a rebase!)
@@ -31,9 +31,9 @@ environment, please complete the
 
 #### Style Guide and Linting
 
-- Review the [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- Review the [documentation style guide](https://docs.gitlab.com/development/documentation/styleguide/).
   - It's not required to memorize the style guide, but remember to check it when writing your documentation to ensure it complies. This will help to ensure your Merge Request is approved quickly.
-- Remember to also review the [topic types page](https://docs.gitlab.com/development/documentation/topic_types/), paying close attention to the [troubleshooting section](https://docs.gitlab.com/ee/development/documentation/topic_types/troubleshooting/).
+- Remember to also review the [topic types page](https://docs.gitlab.com/development/documentation/topic_types/), paying close attention to the [troubleshooting section](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/).
 - While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/development/documentation/testing/)
   in your local editor to prevent pipelines from failing, or use the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit). Plugins can be also
   used from the command line.
@@ -43,7 +43,7 @@ environment, please complete the
 
 #### Documentation Merge Requests
 
-- Follow the [docs MR guidelines](https://docs.gitlab.com/ee/development/documentation/#merge-requests-for-gitlab-documentation) as you create the MR
+- Follow the [docs MR guidelines](https://docs.gitlab.com/development/documentation/#merge-requests-for-gitlab-documentation) as you create the MR
 - In the MR Description, be sure to include a link to any relevant ticket or issue
 - Add appropriate labels:
   - documentation (the template should be automatically adding this label, but check to make sure).

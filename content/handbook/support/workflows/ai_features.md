@@ -19,8 +19,8 @@ This table links to the epic name or production documentation, along with the re
 
 | AI Feature | Feedback issue |
 | ------ | ------ |
-| [AI for Developer Teams: Suggested Reviewers](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375624)    |
-| [AI for Developer Teams: Code suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/405152)       |
+| [AI for Developer Teams: Suggested Reviewers](https://docs.gitlab.com/user/project/merge_requests/reviews/#suggested-reviewers) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375624)    |
+| [AI for Developer Teams: Code suggestions](https://docs.gitlab.com/user/project/repository/code_suggestions/) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/405152)       |
 | [AI for Developer Teams: Summarize my MR review](https://gitlab.com/groups/gitlab-org/-/epics/10347) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/408991) |
 | [AI for Developer Teams: Summarize proposed MR Changes](https://gitlab.com/groups/gitlab-org/-/epics/10223) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/408726) |
 | [AI for Security and Operations: Explain this vulnerability](https://gitlab.com/groups/gitlab-org/-/epics/10284) | [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/407295) |
@@ -71,7 +71,7 @@ When a customer follows [these steps to start a GitLab Duo Pro trial](https://do
 All GitLab.com Duo Pro trials can be located using this query: https://customers.gitlab.com/admin/order?query=saas-gitlab-duo-pro-trial-plan-id
 
 1. Navigate to the [Orders page is CustomersDot](https://customers.gitlab.com/admin/order).
-1. Search using the customer's [Namespace ID](https://docs.gitlab.com/ee/user/group/#get-the-group-id).
+1. Search using the customer's [Namespace ID](https://docs.gitlab.com/user/group/#get-the-group-id).
 1. Locate an order that has plan `saas-gitlab-duo-pro-trial-plan-id`.
 1. If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/subscriptions/subscription-add-ons/#for-gitlabcom).
    - **NOTE**: Always check the **start and end date** of the Duo Pro.

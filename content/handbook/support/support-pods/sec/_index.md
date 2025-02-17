@@ -64,7 +64,7 @@ How can I get involved in Sec Pod?
 - Container registries for analyzer images: https://gitlab.com/security-products/
 - Scanner Report Schemas: https://gitlab.com/gitlab-org/security-products/security-report-schemas/
 - 15.0 Readiness - Secure: https://gitlab.com/groups/gitlab-com/support/-/epics/202
-- Secure & Protect terminology: https://docs.gitlab.com/ee/user/application_security/terminology/
+- Secure & Protect terminology: https://docs.gitlab.com/user/application_security/terminology/
 - Vulnerability Severity Levels: https://docs.gitlab.com/user/application_security/vulnerabilities/severities/
 - Security Reports Examples: https://gitlab.com/gitlab-examples/security/security-reports/
 
@@ -72,7 +72,7 @@ How can I get involved in Sec Pod?
 
 - Slack: `#g_secure-static-analysis`
 - GitLab.com label: ~"group::static analysis"
-- Docs: https://docs.gitlab.com/ee/user/application_security/sast
+- Docs: https://docs.gitlab.com/user/application_security/sast
 - Template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.gitlab-ci.yml
 - Test/demo project: https://gitlab.com/gitlab-com/support/test-projects/ci-examples/sast
 - Collection of separate demo project: https://gitlab.com/gitlab-com/support/test-projects/ci-examples/secure/static-analysis
@@ -81,7 +81,7 @@ How can I get involved in Sec Pod?
 
 - Slack: `#g_secure-secret-detection`
 - GitLab.com label: ~"group::secret detection", ~"Category:Secret Detection"
-- Docs: https://docs.gitlab.com/ee/user/application_security/secret_detection/
+- Docs: https://docs.gitlab.com/user/application_security/secret_detection/
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Secret-Detection.gitlab-ci.yml
 - Secret scanner codebase: https://gitlab.com/gitlab-org/security-products/analyzers/secrets/
 - Secret detection rules: https://gitlab.com/gitlab-org/security-products/analyzers/secrets/-/blob/master/gitleaks.toml
@@ -92,18 +92,18 @@ How can I get involved in Sec Pod?
 
 - Slack: `#g_secure-composition-analysis`
 - GitLab.com label: ~"group::composition analysis"
-- Docs: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/
+- Docs: https://docs.gitlab.com/user/application_security/dependency_scanning/
 - Template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Dependency-Scanning.gitlab-ci.yml
 - Test/demo project: https://gitlab.com/gitlab-com/support/test-projects/ci-examples/dependency-scanning/
-- Dependency List docs: https://docs.gitlab.com/ee/user/application_security/dependency_list/
+- Dependency List docs: https://docs.gitlab.com/user/application_security/dependency_list/
 
 ### DAST (**D**ynamic **A**pplication **S**ecurity **T**esting)
 
 - Slack: `#g_secure-dynamic-analysis`
 - GitLab.com label: ~"group::dynamic analysis"
-- DAST Docs: https://docs.gitlab.com/ee/user/application_security/dast/
+- DAST Docs: https://docs.gitlab.com/user/application_security/dast/
 - DAST CI/CD template: https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Security/DAST.gitlab-ci.yml
-- DAST API scanning: https://docs.gitlab.com/ee/user/application_security/dast_api/
+- DAST API scanning: https://docs.gitlab.com/user/application_security/dast_api/
 - DAST API scanning CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/DAST-API.gitlab-ci.yml
 - DAST API test/demo projects: https://docs.gitlab.com/user/application_security/api_security_testing/#example-dast-api-scanning-configurations
 - DAST test/demo projects: https://gitlab.com/gitlab-org/security-products/demos/dast/
@@ -112,7 +112,7 @@ How can I get involved in Sec Pod?
 
 - Slack: `#g_secure-static-analysis`
 - GitLab.com label: ~"group::static analysis"
-- Docs: https://docs.gitlab.com/ee/user/application_security/iac_scanning/
+- Docs: https://docs.gitlab.com/user/application_security/iac_scanning/
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST-IaC.latest.gitlab-ci.yml
 - IaC Scanner Codebase: https://gitlab.com/gitlab-org/security-products/analyzers/kics
 
@@ -120,15 +120,15 @@ How can I get involved in Sec Pod?
 
 - Slack: `#g_secure_threat_insights`
 - GitLab.com label: ~"group::threat insights"
-- Security Dashboard Docs: https://docs.gitlab.com/ee/user/application_security/security_dashboard/
-- Vulnerability Report docs: https://docs.gitlab.com/ee/user/application_security/vulnerability_report/
-- Vulnerability pages docs: https://docs.gitlab.com/ee/user/application_security/vulnerabilities/
+- Security Dashboard Docs: https://docs.gitlab.com/user/application_security/security_dashboard/
+- Vulnerability Report docs: https://docs.gitlab.com/user/application_security/vulnerability_report/
+- Vulnerability pages docs: https://docs.gitlab.com/user/application_security/vulnerabilities/
 
 ### Security Scan Policies
 
 - Slack: `#g_protect_container_security`
 - GitLab.com label: ~"devops::protect", ~"Category:Container Scanning", ~"group::container security",
-- Scan policies overview: https://docs.gitlab.com/ee/user/application_security/policies/
+- Scan policies overview: https://docs.gitlab.com/user/application_security/policies/
 - Scan Results Policies Docs: https://docs.gitlab.com/user/application_security/policies/merge_request_approval_policies/
 - Scan execution policy docs: https://docs.gitlab.com/user/application_security/policies/scan_execution_policies/
 
@@ -146,7 +146,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_protect_container_security`
 - GitLab.com label: ~"devops::protect", ~"Category:Container Scanning", ~"group::container security"
-- Docs: https://docs.gitlab.com/ee/user/application_security/container_scanning/
+- Docs: https://docs.gitlab.com/user/application_security/container_scanning/
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/Container-Scanning.gitlab-ci.yml
 
 ### License Scanning
@@ -160,8 +160,8 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-dynamic-analysis`
 - GitLab.com label: ~""
-- API Fuzzing Docs: https://docs.gitlab.com/ee/user/application_security/api_fuzzing/
-- Coverage Fuzzing docs: https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/
+- API Fuzzing Docs: https://docs.gitlab.com/user/application_security/api_fuzzing/
+- Coverage Fuzzing docs: https://docs.gitlab.com/user/application_security/coverage_fuzzing/
 - API Fuzz test/demo projects: https://gitlab.com/gitlab-org/security-products/demos/api-fuzzing/
 - Coverage Fuzzing test/demo projects: https://gitlab.com/gitlab-org/security-products/demos/coverage-fuzzing/
 

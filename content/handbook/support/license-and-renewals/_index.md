@@ -312,7 +312,7 @@ The queue should not be used for the following:
 
 ### Product documentation
 
-- [GitLab subscription](https://docs.gitlab.com/ee/subscriptions/)
+- [GitLab subscription](https://docs.gitlab.com/subscriptions/)
 
 ### Marketing pages
 

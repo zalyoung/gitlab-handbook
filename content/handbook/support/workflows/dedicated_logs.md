@@ -98,7 +98,7 @@ General fields:
 - `host:` The GitLab host of the log. It can be `<tenant name>-gitaly-*`  or  `<tenant name>-consul-2`, etc.
 - `referrer:` holds the project path. `https://tenant.gitlab-dedicated.com/example-group/test123`
 - `message:` is the message that would be seen in the logs of a self-managed instance.  `xxx.xxx.xxx.xxx - - [08/Jul/2020:13:24:43 +0000] "GET /assets/webpack/commons-pages.projects.show-pages.projects.tree.show.21909065.chunk.js HTTP/1.1" 200 9316 "https://tenant.gitlab-dedicated.com/example-group/test123" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" 1343 0.001 [default-gitlab-webservice-default-8181] [] xxx.xxx.xxx.xxx:8181 9309 0.000 200 fe130eac78314cwf352g3762397572cb`
-- `subcomponent`: The values in this field correspond to entries in [GitLab's log system](https://docs.gitlab.com/ee/administration/logs/). Possible values include `production_json`, `application_json`, `api_json`, `auth_json` and `graphql_json`. You can use [filters](#filters) to collect all log entries associated with a specific subcomponent.
+- `subcomponent`: The values in this field correspond to entries in [GitLab's log system](https://docs.gitlab.com/administration/logs/). Possible values include `production_json`, `application_json`, `api_json`, `auth_json` and `graphql_json`. You can use [filters](#filters) to collect all log entries associated with a specific subcomponent.
 
 Gitaly related fields:
 

@@ -52,7 +52,7 @@ Here are some tips:
   - Consider adding a reaction on all issues that you come across, and any you raise. For example use `bookmark`, `reminder ribbon`, or pick something really unusual! You can then filter on `My-Reaction` and search within those results.
   - Try searching your browser's history.
   - For quickly finding things based on your own comments, consider setting up the [User Contribution Search](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/user-contribution-search) tool. It indexes all your contributions and gives you a fulltext search interface.
-- [Read more about searching in GitLab](https://docs.gitlab.com/ee/user/search/) in the product documentation.
+- [Read more about searching in GitLab](https://docs.gitlab.com/user/search/) in the product documentation.
 
 ## Adding Comments on Existing Issues
 
@@ -72,7 +72,7 @@ Using the appropriate labels is *critical* to ensuring visibility of issues and 
 
 Required:
 
-- [Group](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#group-labels): Unsure of which? Check out [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#metadata), [label descriptions](https://gitlab.com/gitlab-org/gitlab/-/labels), [DevOps Stages](/handbook/product/categories/#devops-stages), [features list by stage](https://about.gitlab.com/features/) or similar existing issue.
+- [Group](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#group-labels): Unsure of which? Check out [documentation metadata](https://docs.gitlab.com/development/documentation/#metadata), [label descriptions](https://gitlab.com/gitlab-org/gitlab/-/labels), [DevOps Stages](/handbook/product/categories/#devops-stages), [features list by stage](https://about.gitlab.com/features/) or similar existing issue.
 - [Type Labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) should be added by the template, but *add* them if any are missing.
 - `~customer` (if a ZenDesk link is added, the bot will add this automatically if you forget)
 - `~regression ##.x` if applicable; for high-impact ones, add `~"Next Patch Release"` and ping the relevant lead and subject area experts
@@ -161,7 +161,7 @@ If you create a feature proposal on behalf of a customer, please follow the same
 ### GitLab Runner
 
 - Information on [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner#features)
-- [Runner documentation](https://docs.gitlab.com/ee/ci/runners/)
+- [Runner documentation](https://docs.gitlab.com/ci/runners/)
 
 ### GitLab Workhorse
 

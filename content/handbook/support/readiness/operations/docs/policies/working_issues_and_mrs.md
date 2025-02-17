@@ -108,7 +108,7 @@ exists on. If you are sure you wish to confirm the deletion, click the red
 ### Milestones
 
 In regards to milestones, as per
-[GitLab](https://docs.gitlab.com/ee/user/project/milestones/):
+[GitLab](https://docs.gitlab.com/user/project/milestones/):
 
 > Milestones in GitLab are a way to track issues and merge requests created to
 > achieve a broader goal in a certain period of time.

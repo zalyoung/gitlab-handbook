@@ -31,22 +31,22 @@ SaaS, or Dedicated.
 |      |       |
 |:----:| ----- |
 |Self-managed| Customers manage the configuration for their self-managed instances. Depending on the deployment method, the configuration will be in `/etc/gitlab/gitlab.rb`, `docker-compose.yml`, `values.yaml` or similar.|
-|DotCom| [The GitLab.com configurations](https://docs.gitlab.com/ee/user/gitlab_com/) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
-|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) customers can configure their tenants via [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) and via the **Admin Area**. GitLab Support team members can get access [Switchboard](dedicated_switchboard.md) through Okta by [following these steps](/handbook/support/workflows/dedicated_switchboard/#accessing-switchboard). Some [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) must be done via a [Request for Help issue](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team). |
+|DotCom| [The GitLab.com configurations](https://docs.gitlab.com/user/gitlab_com/) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
+|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) customers can configure their tenants via [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) and via the **Admin Area**. GitLab Support team members can get access [Switchboard](dedicated_switchboard.md) through Okta by [following these steps](/handbook/support/workflows/dedicated_switchboard/#accessing-switchboard). Some [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) must be done via a [Request for Help issue](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team). |
 
 ### Architecture
 
 |      |       |
 |:----:| ----- |
-|Self-managed| Check out the [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) we recommend to our customers and their different variations|
+|Self-managed| Check out the [reference architectures](https://docs.gitlab.com/administration/reference_architectures/) we recommend to our customers and their different variations|
 |DotCom| [The GitLab.com architecture](/handbook/engineering/infrastructure/production/architecture/#infra-current-archi-diagram) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
-|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) is a fully isolated, single-tenant, SaaS service managed through AWS by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated). GitLab Dedicated tenants [use](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#availability-and-scalability) the GitLab [Cloud Native Hybrid reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/#cloud-native-hybrid) with high availability enabled. See the list of [changes from the reference architectures](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture/#changes-from-reference-architectures).|
+|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) is a fully isolated, single-tenant, SaaS service managed through AWS by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated). GitLab Dedicated tenants [use](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#availability-and-scalability) the GitLab [Cloud Native Hybrid reference architectures](https://docs.gitlab.com/administration/reference_architectures/#cloud-native-hybrid) with high availability enabled. See the list of [changes from the reference architectures](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture/#changes-from-reference-architectures).|
 
 ### Auth
 
 |      |       |
 |:----:| ----- |
-|Self-managed| Self Managed Administrators will need to [configure the desired auth provider](https://docs.gitlab.com/ee/administration/auth/) directly in their gitlab.rb. Any configuration change on this file will require that you run `gitlab-ctl reconfigure` to successfully apply changes.|
+|Self-managed| Self Managed Administrators will need to [configure the desired auth provider](https://docs.gitlab.com/administration/auth/) directly in their gitlab.rb. Any configuration change on this file will require that you run `gitlab-ctl reconfigure` to successfully apply changes.|
 |DotCom| Customers will [Configure SAML SSO for Groups](https://docs.gitlab.com/user/group/saml_sso/) directly, by going to **Group > Settings > SAML SSO**.|
 |Dedicated| Start the investigation by [searching the logs](/handbook/support/workflows/dedicated_logs). To escalate, [raise an issue with the GitLab Dedicated team](/handbook/support/workflows/dedicated/#filing-issues).|
 
@@ -54,7 +54,7 @@ SaaS, or Dedicated.
 
 |      |       |
 |:----:| ----- |
-|Self-managed| Geo is [configured in the gitlab.rb](https://docs.gitlab.com/ee/administration/geo/setup/) file. It requires a premium or higher subscription. **The steps must be followed in the order in which they appear.**|
+|Self-managed| Geo is [configured in the gitlab.rb](https://docs.gitlab.com/administration/geo/setup/) file. It requires a premium or higher subscription. **The steps must be followed in the order in which they appear.**|
 |DotCom| *Geo is a Self-Managed feature only.*|
 |Dedicated|[Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues)|
 
@@ -72,7 +72,7 @@ Use the [Admin Area docs](https://docs.gitlab.com/administration/admin_area/#git
 
 |      |       |
 |:----:| ----- |
-|Self-managed| [Gitaly](https://docs.gitlab.com/administration/gitaly/) configuration is managed through the **gitlab.rb** file. A customer can configure stand-alone [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly/) or leverage [Gitaly Cluster](https://docs.gitlab.com/administration/gitaly/praefect/) to fulfill its git requirements. Be sure you know which of these types of Gitaly configuration a self-managed customer is using before you begin troubleshooting.|
+|Self-managed| [Gitaly](https://docs.gitlab.com/administration/gitaly/) configuration is managed through the **gitlab.rb** file. A customer can configure stand-alone [Gitaly](https://docs.gitlab.com/administration/gitaly/configure_gitaly/) or leverage [Gitaly Cluster](https://docs.gitlab.com/administration/gitaly/praefect/) to fulfill its git requirements. Be sure you know which of these types of Gitaly configuration a self-managed customer is using before you begin troubleshooting.|
 |DotCom| Gitaly is managed by the infrastructure team of GitLab, so customers do not have access to it.|
 |Dedicated| [Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues) |
 
@@ -80,7 +80,7 @@ Use the [Admin Area docs](https://docs.gitlab.com/administration/admin_area/#git
 
 |      |       |
 |:----:| ----- |
-|Dedicated|GitLab Dedicated customers [get **Ultimate**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#application) but please note that [some features are not available in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#unavailable-features).|
+|Dedicated|GitLab Dedicated customers [get **Ultimate**](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#application) but please note that [some features are not available in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#unavailable-features).|
 |DotCom| For folks who make use of GitLab.com, the [available plans](https://about.gitlab.com/pricing/) include **Free**, **Premium** and **Ultimate**.|
 |Self-managed| For self-managed instances, folks can use either GitLab CE (Community Edition) or GitLab EE (Enterprise Edition) without a license. GitLab EE can be [activated](https://docs.gitlab.com/administration/license/) with a **Premium** or an **Ultimate** license.|
 
@@ -92,7 +92,7 @@ Note that [GitLab Duo add-ons](https://docs.gitlab.com/subscriptions/subscriptio
 |:----:| ----- |
 |Self-managed| Self-managed runners are [deployed](https://docs.gitlab.com/runner/install/index.html) to customer-owned infrastructure and [registered](https://docs.gitlab.com/runner/register/index.html) to the self-managed GitLab instance.|
 |DotCom| [GitLab-hosted runners](https://docs.gitlab.com/ci/runners/) are available to all projects stored on GitLab.com. Self-managed runners can also be registered to GitLab.com. |
-|Dedicated| [GitLab-hosted runners (beta)](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#hosted-by-gitlab) can be provisioned for Dedicated customers. Self-managed runners can also be registered to Dedicated environments. |
+|Dedicated| [GitLab-hosted runners (beta)](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#hosted-by-gitlab) can be provisioned for Dedicated customers. Self-managed runners can also be registered to Dedicated environments. |
 
 ### Rails console
 

@@ -5,7 +5,7 @@ category: GitLab.com
 subcategory: Troubleshooting
 ---
 
-Users of GitLab.com can find that their IP address has been blocked due to rate limiting. Currently, rate limit parameters on GitLab.com are best described on the [GitLab.com settings docs page](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). The single source of truth for rate limiting on GitLab.com exists in our [infrastructure rate limiting documentation](../../../engineering/infrastructure/rate-limiting/). This page is intended to help Support Engineers troubleshoot issues related to rate limits and IP blocks.
+Users of GitLab.com can find that their IP address has been blocked due to rate limiting. Currently, rate limit parameters on GitLab.com are best described on the [GitLab.com settings docs page](https://docs.gitlab.com/user/gitlab_com/#gitlabcom-specific-rate-limits). The single source of truth for rate limiting on GitLab.com exists in our [infrastructure rate limiting documentation](../../../engineering/infrastructure/rate-limiting/). This page is intended to help Support Engineers troubleshoot issues related to rate limits and IP blocks.
 
 ## Responding
 
@@ -64,13 +64,13 @@ These fields can be helpful but aren't essential.
 
 - `json.controller` - Gives you a clue as to what part of GitLab.com was being accessed by a particular request.
 - `json.params` - Shows what user made the request, what action was taken, and on what resource it was taken on. This field shows what repository was targeted for requests to the container registry.
-- `json.matched` - This is the name of the Rack Attack rule used to limit this request (when `json.env` is `throttle`). This can help you find out which of the [current limits](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits) the request surpassed.
+- `json.matched` - This is the name of the Rack Attack rule used to limit this request (when `json.env` is `throttle`). This can help you find out which of the [current limits](https://docs.gitlab.com/user/gitlab_com/#gitlabcom-specific-rate-limits) the request surpassed.
 
 ## Common Causes
 
 ### Container Registry
 
-Numerous failed pushes or pulls to `registry.gitlab.com` can result in an IP block, from the [docs](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban):
+Numerous failed pushes or pulls to `registry.gitlab.com` can result in an IP block, from the [docs](https://docs.gitlab.com/user/gitlab_com/#git-and-container-registry-failed-authentication-ban):
 
 > GitLab.com responds with HTTP status code 403 for 1 hour, if 30 failed authentication requests were received in a 3-minute period from a single IP address.
 
@@ -103,7 +103,7 @@ A failed pull will look like the following in Kibana.
 
 #### `gitlab-ci-token` Pulls
 
-The `gitlab-ci-token` user is exempted from [rate-limiting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
+The `gitlab-ci-token` user is exempted from [rate-limiting](https://docs.gitlab.com/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
 
 ### LFS
 

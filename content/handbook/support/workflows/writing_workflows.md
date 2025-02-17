@@ -42,7 +42,7 @@ Good workflows have:
 1. visual aids, such as flowcharts, whenever helpful.
     - Consider adding a [mermaid chart](https://docs.gitlab.com/user/markdown/#mermaid) or image to help visual learners.
 
-For general writing practices including inclusive language and use of markdown, consider following the [GitLab documentation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+For general writing practices including inclusive language and use of markdown, consider following the [GitLab documentation guidelines](https://docs.gitlab.com/development/documentation/styleguide/).
 
 ### Example from okay to better
 
