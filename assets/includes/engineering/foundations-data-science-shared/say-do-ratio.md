@@ -10,7 +10,7 @@ The Say/Do Ratio is a metric used to:
 
 We use a standardize workflow that heavily depends on the `~Deliverable` label to measure Say/Do ratio:
 
-* Before the milestone starts
+* Before the milestone starts:
   * EM applies the ~Deliverable label along with the milestone to issues that Engineering is committed to deliver.
 * During the milestone:
   * If a Deliverable is added during the milestone and the current milestone is applied, it should be included in the Say/Do ratio and rules from At the end of the milestone apply.
