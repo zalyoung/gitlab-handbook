@@ -165,6 +165,8 @@ flowchart TD
 
 For issues that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
 
+If you cannot finish any of these steps, ping EM/PM.
+
 ```plaintext
 # Issue Refinement Checklist
 
@@ -180,7 +182,39 @@ For issues that need refinement, the Engineer/EM should update the issue descrip
 - [ ] Issue is small and doesn't need to be broken down
 
 ## Final steps
-- [ ] Does issue have a weight?
+- [ ] This issue has a weight 
+- [ ] There are no blockers
+- [ ] Issue has ~"workflow::ready for development" label
+```
+
+### Bug Refinement Checklist
+
+For bug reports that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
+
+```plaintext
+# Bug Refinement Checklist
+
+## Bug verification
+- [ ] Issue label is ~"workflow::refinement"
+- [ ] Issue label is ~"type::bug"
+- [ ] Issue title clearly describes the bug
+- [ ] Steps to reproduce are documented
+- [ ] Issue is still reproducible
+- [ ] Severity labels are defined
+- [ ] Related logs or error messages are attached
+
+## Technical analysis
+- [ ] Root cause has been identified or hypothesized
+- [ ] Affected components/services are identified
+- [ ] Potential side effects of the fix are considered
+
+## Implementation plan
+- [ ] A comment with an implementation plan is created
+- [ ] Fix scope is contained and doesn't require larger refactoring
+- [ ] Test cases to verify the fix are defined
+
+## Final steps
+- [ ] This issue has a weight
 - [ ] There are no blockers
 - [ ] Issue has ~"workflow::ready for development" label
 ```
