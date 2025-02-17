@@ -291,10 +291,10 @@ end
 ```
 
 The final implementation could build upon
-[the Background migration framework, which includes a throttling mechanism](https://docs.gitlab.com/ee/development/database/batched_background_migrations/#throttling-batched-migrations).
+[the Background migration framework, which includes a throttling mechanism](https://docs.gitlab.com/development/database/batched_background_migrations/#throttling-batched-migrations).
 
 Also, using the Background migration framework, we could have one background migration per table to be re-encrypted,
-and report [its progress](https://docs.gitlab.com/ee/development/database/batched_background_migrations/#monitor-the-progress-and-status-of-a-batched-background-migration)
+and report [its progress](https://docs.gitlab.com/development/database/batched_background_migrations/#monitor-the-progress-and-status-of-a-batched-background-migration)
 directly in the admin UI.
 
 ### Data encrypted through `ActiveRecord::Encryption`

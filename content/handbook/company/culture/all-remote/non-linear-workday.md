@@ -180,7 +180,7 @@ In December of 2021, the Learning and Development team hosted [Dr. Krystal Wilki
 
 The not-so-obvious answer is: Create a workplace culture where meetings are a last resort, and ensure that unavoidable meetings can be [contributed to asynchronously](meetings/#have-an-agenda).
 
-It bears repeating that not every single day will present itself as a natural, meeting-free day. However, the more intentional your company is about ruthlessly minimizing meetings, [separating decision gathering from decision making](management/#separating-decision-gathering-from-decision-making), and insisting that all work begin where it eventually needs to end up (e.g. in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues/) or [merge request](https://about.gitlab.com/blog/2019/12/19/future-merge-requests-realtime-collab/), the more feasible it will be. You'll also realize benefits on the [mental health](mental-health/) front.
+It bears repeating that not every single day will present itself as a natural, meeting-free day. However, the more intentional your company is about ruthlessly minimizing meetings, [separating decision gathering from decision making](management/#separating-decision-gathering-from-decision-making), and insisting that all work begin where it eventually needs to end up (e.g. in a [GitLab issue](https://docs.gitlab.com/user/project/issues/) or [merge request](https://about.gitlab.com/blog/2019/12/19/future-merge-requests-realtime-collab/), the more feasible it will be. You'll also realize benefits on the [mental health](mental-health/) front.
 
 GitLab's [approach to meetings](meetings/), as with all of our processes, is public in our [handbook](/handbook). We encourage leaders to study, implement, and make suggestions for improvement.
 
@@ -218,7 +218,7 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

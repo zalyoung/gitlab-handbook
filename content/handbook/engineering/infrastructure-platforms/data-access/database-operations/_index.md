@@ -81,7 +81,7 @@ The following tools can be helpful:
 
 - [Postgres Checkup](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues?label_name%5B%5D=postgres-checkup):Detailed report about the status of the PostgreSQL database.
 - [Private Grafana](https://dashboards.gitlab.net/): for both application and system level performance data.
-- [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar/): type `pb` in GitLab and a bar with performance metrics will show up at the top of the page. This tool is especially useful for viewing the queries executed and their timings.
+- [Performance Bar](https://docs.gitlab.com/administration/monitoring/performance/performance_bar/): type `pb` in GitLab and a bar with performance metrics will show up at the top of the page. This tool is especially useful for viewing the queries executed and their timings.
 
 ### Dashboards
 
@@ -100,10 +100,10 @@ The following (private) Grafana dashboard are important / useful for database sp
 
 ### Documentation
 
-- [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime/)
-- [Adding database indexes](https://docs.gitlab.com/ee/development/database/adding_database_indexes/)
-- [Post Deployment Migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations/)
-- [Background Migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations/)
-- [SQL Migration Style Guide](https://docs.gitlab.com/ee/development/migration_style_guide/)
-- [SQL Query Guidelines](https://docs.gitlab.com/ee/development/sql/)
+- [What requires downtime?](https://docs.gitlab.com/update/with_downtime/)
+- [Adding database indexes](https://docs.gitlab.com/development/database/adding_database_indexes/)
+- [Post Deployment Migrations](https://docs.gitlab.com/development/database/post_deployment_migrations/)
+- [Background Migrations](https://docs.gitlab.com/development/database/batched_background_migrations/)
+- [SQL Migration Style Guide](https://docs.gitlab.com/development/migration_style_guide/)
+- [SQL Query Guidelines](https://docs.gitlab.com/development/sql/)
 - [Infrastructure runbooks and documentation](https://gitlab.com/gitlab-com/runbooks#postgresql)

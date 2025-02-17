@@ -123,7 +123,7 @@ Especially the module [Introduction to Cloud Computing](https://www.coursera.org
 
 ### Data Seeding (Demo Data)
 
-The [GitLab Data Seeder](https://docs.gitlab.com/ee/development/data_seeder/) is a tool that Solutions Architects can use to showcase to customers "what good data looks like" in GitLab.
+The [GitLab Data Seeder](https://docs.gitlab.com/development/data_seeder/) is a tool that Solutions Architects can use to showcase to customers "what good data looks like" in GitLab.
 The data that is generated is customizable, time-relative, and can be used on-demand to generate data to demonstrate.
 
 The Demo Data can be showcased on any self-managed instance including Docker, GDK, and customer environments.

@@ -23,6 +23,6 @@ Flaky test are problematic [for many reasons](/handbook/engineering/infrastructu
 
 #### Slow RSpec Test Issues
 
-Slow tests are impacting the [GitLab pipeline duration](https://docs.gitlab.com/ee/development/pipelines/).
+Slow tests are impacting the [GitLab pipeline duration](https://docs.gitlab.com/development/pipelines/).
 
 {{- end }}

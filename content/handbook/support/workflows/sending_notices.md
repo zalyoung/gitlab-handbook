@@ -36,7 +36,7 @@ Some examples:
 
 ### Tips for avoiding RED data in notices
 
-- Make use of the built-in [Project](https://docs.gitlab.com/ee/user/project/working_with_projects/#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/ee/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
+- Make use of the built-in [Project](https://docs.gitlab.com/user/project/working_with_projects/#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
   - Project example: `https://gitlab.com/-/p/278964` will redirect to `https://gitlab.com/gitlab-org/gitlab`.
   - Group example: `https://gitlab.com/-/g/9970` will redirect to `https://gitlab.com/gitlab-org`.
 

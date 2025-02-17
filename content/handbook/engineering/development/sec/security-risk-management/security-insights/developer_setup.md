@@ -32,7 +32,7 @@ For additional details or troubleshooting, consult the official [runner setup gu
 To display Vulnerability Reports and the Vulnerability Management tool in GitLab, you need an Enterprise Edition [(EE) license](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/index.md#use-gitlab-enterprise-features). This license enables features exclusive to the EE tier. To generate an EE development license, follow these steps:
 
 1. Request an EE developer license. Follow the steps in [the handbook](../../../../../engineering/developer-onboarding.md#working-on-gitlab-ee-developer-licenses).
-1. Add the EE license to your local environment. Follow the steps in [the handbook](https://docs.gitlab.com/ee/administration/license_file/#add-license-in-the-admin-area) under **Add license in the Admin area**.
+1. Add the EE license to your local environment. Follow the steps in [the handbook](https://docs.gitlab.com/administration/license_file/#add-license-in-the-admin-area) under **Add license in the Admin area**.
 
 ## Resources and examples
 

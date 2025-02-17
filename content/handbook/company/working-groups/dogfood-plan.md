@@ -25,7 +25,7 @@ This working group will integrate new Plan stage features in GitLab's own agile 
 ## Exit Criteria
 
 - [x] Determine feature within plan that will be used for dogfooding
-  - [Iterations](https://docs.gitlab.com/ee/user/group/iterations/) => **Done** We selected Iterations in Q and drove it internally in Plan to be used across the quarter
+  - [Iterations](https://docs.gitlab.com/user/group/iterations/) => **Done** We selected Iterations in Q and drove it internally in Plan to be used across the quarter
 - [x] Finalized Q3 OKR's => **Done**
   - [FY21-Q3 Engineering Division OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8303)
   - Development: [KR: Project planning & Portfolio management](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8429)

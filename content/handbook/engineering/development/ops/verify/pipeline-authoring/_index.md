@@ -10,9 +10,9 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [Product Vision](https://about.gitlab.com/direction/ops/#verify)
 - [Pipeline Authoring Category direction](https://about.gitlab.com/direction/verify/pipeline_composition/)
 - [number of unique users who trigger ci_pipelines (Performance indicator)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifypipeline-authoring---gmau---number-of-unique-users-interacting-with-gitlab-ciyml-file) - Internal link
-- [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/)
-- [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
-- [CI/CD Catalog Documentation](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
+- [CI/CD Development Documentation](https://docs.gitlab.com/development/cicd/)
+- [CI/CD Components Documentation](https://docs.gitlab.com/ci/components/)
+- [CI/CD Catalog Documentation](https://docs.gitlab.com/ci/components/#cicd-catalog)
 
 ## Team Handles
 
@@ -40,16 +40,16 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 
 | Product | Navigation | Documentation |
 | ------- | ---------- | ------------- |
-| **CI/CD Pipelines** | [Build >> Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipelines) | [GitLab docs](https://docs.gitlab.com/ee/ci/pipelines/) |
-| **Pipeline editor** | [Build >> Pipeline editor](https://gitlab.com/gitlab-org/gitlab/-/ci/editor?branch_name=master) | [GitLab docs](https://docs.gitlab.com/ee/ci/pipeline_editor/) |
-| **CI/CD Catalog** | [Explore >> CI/CD Catalog](https://gitlab.com/explore/catalog) | [GitLab docs](https://docs.gitlab.com/ee/ci/components/) |
+| **CI/CD Pipelines** | [Build >> Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipelines) | [GitLab docs](https://docs.gitlab.com/ci/pipelines/) |
+| **Pipeline editor** | [Build >> Pipeline editor](https://gitlab.com/gitlab-org/gitlab/-/ci/editor?branch_name=master) | [GitLab docs](https://docs.gitlab.com/ci/pipeline_editor/) |
+| **CI/CD Catalog** | [Explore >> CI/CD Catalog](https://gitlab.com/explore/catalog) | [GitLab docs](https://docs.gitlab.com/ci/components/) |
 
 ### Features
 
-- [Pipeline creation](https://docs.gitlab.com/ee/ci/quick_start/)
-- [YAML syntax](https://docs.gitlab.com/ee/ci/yaml/)
-- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/yaml/lint/)
-- [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
+- [Pipeline creation](https://docs.gitlab.com/ci/quick_start/)
+- [YAML syntax](https://docs.gitlab.com/ci/yaml/)
+- [CI/CD configuration lint tool](https://docs.gitlab.com/ci/yaml/lint/)
+- [CI/CD Variables](https://docs.gitlab.com/ci/variables/)
 - Additional features can be found [here](/handbook/product/categories/features/#pipeline-authoring)
 
 ## Technical Roadmap
@@ -186,7 +186,7 @@ We hold a bi-weekly design sync meeting open to all team members where we discus
 
 Issues are refined and weighted prior to assigning them to a milestone. We use `candidate::` scoped labels to help with planning work in future milestones. This label allows us to filter on the issues we are planning, allowing Product, Engineering, and UX to refine issues async that have `workflow::design` and `workflow::ready for development` labels applied. Weighting also helps with capacity planning with respect to how issues are scheduled in future milestones.
 
-We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) is the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
+We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) is the single source of truth ([SSOT](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 
 #### Finding issues that need refinement
 
@@ -248,7 +248,7 @@ Anything weighted as a 5 or larger should be broken down. These should not be `r
 
 Our CI syntax keeps evolving. We cannot support all keywords indefinitely, so deprecating and removing keywords is inevitable.
 
-GitLab does not have a versioning system for CI/CD configuration. Therefore, it is critical to over-communicate our deprecation purposes to our users and take the necessary precautions to reduce the impact on their projects. Deprecating a keyword is risky because it will break all pipelines using it, and in some cases, users are not aware of the keyword they use in their pipeline. The deprecation process described below is similar to the [deprecating and removing features](https://docs.gitlab.com/ee/development/deprecation_guidelines/) process, with additional steps to reduce the risks which involved with removing a CI/CD keyword.
+GitLab does not have a versioning system for CI/CD configuration. Therefore, it is critical to over-communicate our deprecation purposes to our users and take the necessary precautions to reduce the impact on their projects. Deprecating a keyword is risky because it will break all pipelines using it, and in some cases, users are not aware of the keyword they use in their pipeline. The deprecation process described below is similar to the [deprecating and removing features](https://docs.gitlab.com/development/deprecation_guidelines/) process, with additional steps to reduce the risks which involved with removing a CI/CD keyword.
 
 1. Deprecation notice - Syntax removal introduces a breaking change, as outlined in our deprecation process, we must notify the community and customers, which means including a deprecation notice in the monthly release post.
 1. Track keyword usage - Tracking keyword usage should begin as early as possible. It is a mandatory step that helps estimate the user impact, timing, and needed effort. The more users use the keyword, the more time it takes to remove it (It took more than four years to move from [remove](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9766) to [deprecation](https://gitlab.com/gitlab-org/gitlab/-/issues/346823) for 'type' keyword).

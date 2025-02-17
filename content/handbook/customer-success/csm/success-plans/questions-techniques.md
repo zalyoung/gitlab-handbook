@@ -69,7 +69,7 @@ Ask the customers the following questions that tie back to [our three Value Driv
 1. Are you measuring cycle time? Is this an important metric for you?
    - If yes, how are you doing this today?
    - If not, have you seen our project & group level Analytics > Value Stream?
-   - **Note:** There are [customizable stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#customizable-value-stream-analytics) in Premium.
+   - **Note:** There are [customizable stages](https://docs.gitlab.com/user/group/value_stream_analytics/#customizable-value-stream-analytics) in Premium.
 1. Are you measuring deployment frequency? Is this an important metric for you?
    - If not, this can also be done at the project & group level via Analytics > Value Stream displaying Deployment Frequency (deploys per day) over the last 7/30/90 days.
 1. What metrics do you use for developer/team productivity?
@@ -209,7 +209,7 @@ If you'd like to see more examples of how to use the Five Whys framework and wha
 
 ### Customer meeting about DORA Metrics with GitLab
 
-One of our customers has asked to have a meeting to understand what GitLab can offer related to metrics, specifically they've mentioned [Dora Metrics](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics/#dora4-metrics) as the topic of interest, their [Developer Experience Lead](/handbook/product/personas/#delaney-development-team-lead) will be attending. We can't lose the opportunity to gather valuable information to build a Metric adoption's Success Plan.
+One of our customers has asked to have a meeting to understand what GitLab can offer related to metrics, specifically they've mentioned [Dora Metrics](https://docs.gitlab.com/user/analytics/ci_cd_analytics/#dora4-metrics) as the topic of interest, their [Developer Experience Lead](/handbook/product/personas/#delaney-development-team-lead) will be attending. We can't lose the opportunity to gather valuable information to build a Metric adoption's Success Plan.
 
 [Orit Golowinski](/handbook/company/team/#ogolowinski),  Release Stage Senior Product Manager,  has shared some open-ended questions that would be useful in another similar scenario illustrated above.
 

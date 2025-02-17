@@ -193,7 +193,7 @@ There may be projects that should belong in `secure` or `software-supply-chain-s
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
 
-1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file to the project, for example:
+1. Add a [CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/) file to the project, for example:
 
    ```shell
    [Maintainers]
@@ -205,7 +205,7 @@ When creating a new project, all settings should be left to the default options,
 
    We recommend creating a [dedicated group of maintainers](https://gitlab.com/groups/gitlab-org/maintainers) for use in the `CODEOWNERS` file.
 
-1. Disable the project [issue tracker](https://docs.gitlab.com/ee/user/project/issues/).
+1. Disable the project [issue tracker](https://docs.gitlab.com/user/project/issues/).
 
    - `Settings -> General -> Visibility, project features, permissions -> Issues`
       - `Disabled`
@@ -236,7 +236,7 @@ When creating a new project, all settings should be left to the default options,
    1. Add an issue template with instructions.
    1. Ensure there's a triage process in place.
 
-1. Configure a [custom issue tracker](https://docs.gitlab.com/ee/user/project/integrations/custom_issue_tracker/)
+1. Configure a [custom issue tracker](https://docs.gitlab.com/user/project/integrations/custom_issue_tracker/)
 
    - `Settings -> Integrations -> Custom issue tracker -> Configure`
       - `Enable integration`
@@ -248,7 +248,7 @@ When creating a new project, all settings should be left to the default options,
       - `New issue URL`
          - `https://gitlab.com/gitlab-org/gitlab/issues/new`
 
-1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/) settings:
+1. Configure the following [project features and permissions](https://docs.gitlab.com/user/project/settings/) settings:
 
    - `Settings -> General -> Visibility, project features, permissions`
       - `Project visibility`
@@ -327,17 +327,17 @@ When creating a new project, all settings should be left to the default options,
          ## Does this MR meet the acceptance criteria?
 
          - [ ] Changelog entry added
-         - [ ] [Documentation created/updated for GitLab EE](https://docs.gitlab.com/ee/development/documentation/feature-change-workflow/), if necessary
+         - [ ] [Documentation created/updated for GitLab EE](https://docs.gitlab.com/development/documentation/feature-change-workflow/), if necessary
          - [ ] Documentation created/updated for this project, if necessary
-         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/m/gitlab-org/gitlab-ee/issues/new?issuable_template=Doc%20Review)
-         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/)
+         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/development/testing_guide/m/gitlab-org/gitlab-ee/issues/new?issuable_template=Doc%20Review)
+         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/development/testing_guide/)
          - [ ] Job definition updated, if necessary
            - [ ] [Auto-DevOps template](https://gitlab.com/gitlab-org/gitlab-foss/tree/master/lib/gitlab/ci/templates)
-           - [ ] [Job definition example](https://docs.gitlab.com/ee/ci/examples/sast/)
+           - [ ] [Job definition example](https://docs.gitlab.com/ci/examples/sast/)
            - [ ] [CI Templates](https://gitlab.com/gitlab-org/security-products/ci-templates/tree/master/includes)
          - [ ] Ensure the report version [matches the equivalent schema version](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/CHANGELOG.md)
-         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/w/)
-         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/)
+         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/development/go_guide/w/)
+         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/development/go_guide/)
          - [ ] Security reports checked/validated by reviewer
 
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"

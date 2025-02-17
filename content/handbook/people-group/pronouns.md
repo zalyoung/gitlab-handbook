@@ -97,7 +97,7 @@ mistake after the fact, perhaps after seeing someone's pronouns listed in Slack.
 
 ### GitLab.com
 
-You can set your GitLab.com pronouns on your [GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-your-gender-pronouns).
+You can set your GitLab.com pronouns on your [GitLab profile](https://docs.gitlab.com/user/profile/#add-your-gender-pronouns).
 
 ### Google Mail (Gmail)
 

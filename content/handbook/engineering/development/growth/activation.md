@@ -43,8 +43,8 @@ We work directly with the following team members in the Growth:Activation group:
 Prioritization is a collaboration between Product, UX, and Engineering.
 
 - We use the [ICE framework](/handbook/marketing/growth/) for experiments.
-- We use [Priority](https://docs.gitlab.com/ee/development/labels/#priority-labels)
-  and [Severity](https://docs.gitlab.com/ee/development/labels/#severity-labels) labels for bugs.
+- We use [Priority](https://docs.gitlab.com/development/labels/#priority-labels)
+  and [Severity](https://docs.gitlab.com/development/labels/#severity-labels) labels for bugs.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="activation" >}}

@@ -6,7 +6,7 @@ title: "Contributing to GitLab the Product as a Security Team Member"
 
 Security Engineers typically act as Subject Matter Experts and advisors to GitLab's engineering teams. Security Engineers may wish to make a larger contribution to GitLab products, for example a defense-in-depth measure or new security feature.
 
-Like any contributor, follow the [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), paying particular attention to the issue workflow, merge requests workflow, style guides, and testing standards.
+Like any contributor, follow the [Contributor and Development Docs](https://docs.gitlab.com/development/), paying particular attention to the issue workflow, merge requests workflow, style guides, and testing standards.
 
 Security Engineers will need to collaborate with and ultimately hand over their work to a team in the Development Department. That team will be responsible for prioritisation, review, rollout, error budget, and maintenance of the contribution. Security Engineers should ideally open an Issue or Epic as early as possible, labeled with the candidate owning team. The team can inform implementation or architectural decisions, highlight existing or upcoming work that may impact yours, and let them plan capacity for reviewing your work.
 
@@ -31,4 +31,4 @@ The Security Team works with our Community Outreach Team to ensure that security
 
 ## Package Signing{#package-signing}
 
-The packages we ship are signed with GPG keys, as described in the [GitLab documentation](https://docs.gitlab.com/ee/administration/package_information/signed_packages/). The process around how to make and store the key pair in a secure manner is described in [the runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/packaging/manage-package-signing-keys.md). The Distribution team is responsible for updating the package signing key. For more details that are specific to key locations and access at GitLab, find the internal google doc titled "Package Signing Keys at GitLab" on Google Drive.
+The packages we ship are signed with GPG keys, as described in the [GitLab documentation](https://docs.gitlab.com/administration/package_information/signed_packages/). The process around how to make and store the key pair in a secure manner is described in [the runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/packaging/manage-package-signing-keys.md). The Distribution team is responsible for updating the package signing key. For more details that are specific to key locations and access at GitLab, find the internal google doc titled "Package Signing Keys at GitLab" on Google Drive.

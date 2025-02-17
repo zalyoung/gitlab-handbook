@@ -207,23 +207,23 @@ As organizations get started and grow in their automation journey, GitLab Premiu
 For up-to-date and full list of value at Premium, visit [Why Premium](https://about.gitlab.com/pricing/premium/). Some key features include (based on highest Post Purchase Survey Results):
 
 - **Faster code reviews** Ensure high code quality across teams through seamless code review workflows
-  - [Multiple approvers](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/) in code review To ensure strict code review, you can require a minimum number of users to approve of a merge request before it is able to be merged.
-  - [Code Owners](https://docs.gitlab.com/ee/user/project/codeowners/) Assign Code Owners to files to indicate the team members responsible for code in your project. Code owners are assigned automatically as merge request approvers.
-  - [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics/) Find bottlenecks in your code review process by understanding how long open merge requests have been in review.
+  - [Multiple approvers](https://docs.gitlab.com/user/project/merge_requests/approvals/rules/) in code review To ensure strict code review, you can require a minimum number of users to approve of a merge request before it is able to be merged.
+  - [Code Owners](https://docs.gitlab.com/user/project/codeowners/) Assign Code Owners to files to indicate the team members responsible for code in your project. Code owners are assigned automatically as merge request approvers.
+  - [Code Review Analytics](https://docs.gitlab.com/user/analytics/code_review_analytics/) Find bottlenecks in your code review process by understanding how long open merge requests have been in review.
 - **Advanced CI/CD** Build, maintain, deploy, and monitor complex pipelines
-  - [CI/CD Pipelines Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/) Visualize the history and current status of pipelines across projects and groups all in a single dashboard that can be customized for each user.
-  - [Multi-project pipeline graphs](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines/#multi-project-pipelines) Visualize how pipelines across projects are linked together, including cross project dependencies.
-  - [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains/) Reduce pipeline queueing and waiting time with merge trains which allows parallel pipeline execution, with each pipeline building off the merge result of the previous one.
-  - [CI/CD for external repo](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/) Connect your projects hosted on external services (like GitHub or Bitbucket) and leverage the power of GitLab CI/CD pipelines to build, test, and deploy your applications easily.
+  - [CI/CD Pipelines Dashboard](https://docs.gitlab.com/user/operations_dashboard/) Visualize the history and current status of pipelines across projects and groups all in a single dashboard that can be customized for each user.
+  - [Multi-project pipeline graphs](https://docs.gitlab.com/ci/pipelines/downstream_pipelines/#multi-project-pipelines) Visualize how pipelines across projects are linked together, including cross project dependencies.
+  - [Merge Trains](https://docs.gitlab.com/ci/pipelines/merge_trains/) Reduce pipeline queueing and waiting time with merge trains which allows parallel pipeline execution, with each pipeline building off the merge result of the previous one.
+  - [CI/CD for external repo](https://docs.gitlab.com/ci/ci_cd_for_external_repos/) Connect your projects hosted on external services (like GitHub or Bitbucket) and leverage the power of GitLab CI/CD pipelines to build, test, and deploy your applications easily.
 - **Release Controls** Implement controls to ensure teams ship high quality and secure code
-  - [Approval rules for code review](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/) Approval rules ensure that the right people review merge requests by specifying eligible approvers and the minimum number of approvals required for a merge request.
-  - [Required Merge Request Approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) Guarantee quality and standards of your code by mandating a set number of necessary approvals and predefine a list of specific approvers.
-  - [Merge Request Dependencies](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies/) Coordinate the order in which merge requests are merged within the same project and/or across different projects.
-  - [Push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules/) Reject new code and commits that don't comply with company policy.
+  - [Approval rules for code review](https://docs.gitlab.com/user/project/merge_requests/approvals/rules/) Approval rules ensure that the right people review merge requests by specifying eligible approvers and the minimum number of approvals required for a merge request.
+  - [Required Merge Request Approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/) Guarantee quality and standards of your code by mandating a set number of necessary approvals and predefine a list of specific approvers.
+  - [Merge Request Dependencies](https://docs.gitlab.com/user/project/merge_requests/dependencies/) Coordinate the order in which merge requests are merged within the same project and/or across different projects.
+  - [Push rules](https://docs.gitlab.com/user/project/repository/push_rules/) Reject new code and commits that don't comply with company policy.
 - **Self Managed Reliability** Ensure disaster recovery, high availability and load balancing of your self-managed deployment
-  - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) Fail over in minutes to another data-center.
-  - [Maintenance mode](https://docs.gitlab.com/ee/administration/maintenance_mode/) Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users.
-  - [Fault-tolerant Git storage with Gitaly](https://docs.gitlab.com/ee/administration/gitaly/praefect/) Configure replicated Git storage with automatic failover, strong consistency, and read distribution for improved fault tolerance and performance.
+  - [Disaster Recovery](https://docs.gitlab.com/administration/geo/disaster_recovery/) Fail over in minutes to another data-center.
+  - [Maintenance mode](https://docs.gitlab.com/administration/maintenance_mode/) Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users.
+  - [Fault-tolerant Git storage with Gitaly](https://docs.gitlab.com/administration/gitaly/praefect/) Configure replicated Git storage with automatic failover, strong consistency, and read distribution for improved fault tolerance and performance.
 
 ### Value at Ultimate
 

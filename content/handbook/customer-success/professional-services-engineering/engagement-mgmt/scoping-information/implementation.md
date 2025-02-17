@@ -9,7 +9,7 @@ description: "Describes the process for scoping GitLab implementations."
 
 - We have scoped several different reference architectures in the past.  Examples can be found in the [Deployment Equations tab of the Engagement Estimates TEMPLATES document](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=1929043076).
 
-- Implementations will use the standard documented [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
+- Implementations will use the standard documented [reference architectures](https://docs.gitlab.com/administration/reference_architectures/).
 
 - All implementation services on prem with Geo included assume that we use a single large omnibus implementation for the secondary.   There are some challenges with full HA secondaries, so if we choose to scope an HA Geo, the general rule of thumb is to add an additional 20-25 days to the scope to account for the complexities.
 
@@ -29,7 +29,7 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA/S
 | - | - | - | - |
 | License level (support for HA requires at least Premium) | to-do | Premium | Validates that the Customer will have the appropriate license needed in order to install, configure and use the requested features. |
 | Is this a brand new install of GitLab or do they have an existing instance that they are trying to scale up? | to-do | New Install | If the customer is an existing GitLab deployment and what to move to a new system with stronger availability/stability requirements, we will want to talk about upgrading the current deployment vs standing up a new one then migrating their data. |
-| How many users does the customer expect to have on GitLab when fully implemented? | to-do | 3,250 | The number of users helps us ensure we're implementing an infrastructure that will support the number of users they have, based on [GitLab Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/). |
+| How many users does the customer expect to have on GitLab when fully implemented? | to-do | 3,250 | The number of users helps us ensure we're implementing an infrastructure that will support the number of users they have, based on [GitLab Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/). |
 | Does the customer have a hard requirement for high availability (HA)? | to-do | Yes - 99.5% availability is our goal | Availability requirements help us understand what architecture we will be deploying, which helps us scope the engagement accurately. |
 | Does the customer need secondary site mirroring (Geo) to improve performance for geographically distributed teams or for use for disastor recovery (DR)? | to-do | Yes - Primary will be in AWS US-east, GEO Secondary in US-west | We need this information to accurately account for time to build and configure a Geo secondary configuration in the estimate. |
 | Will the GitLab IaC using terraform and ansible, or CloudFormation on AWS, be acceptable or are there customer-specific IaC requirements? | to-do | Terraform + Ansible preferred | GitLab provides standard Infrastructure as Code (IAC) via terraform and ansible for most deployments. We can offer CloudFormation for AWS, and Helm chart for k8s implementation.  If a customer wants different IAC, e.g. Puppet or Chef, then we will need to consider whether we have written this before for a customer or if additional effort needs to be factored in to account for this work. |

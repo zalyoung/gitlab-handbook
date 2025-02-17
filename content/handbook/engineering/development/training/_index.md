@@ -37,13 +37,13 @@ Team members can use the Growth and Development Fund to request a subscription b
 
 We use GraphQL alongside our REST API at GitLab and are increasingly adding new features to the GraphQL API over time.
 
-The GraphQL API can be added to by anyone, including [community members](https://docs.gitlab.com/ee/development/contributing/). We have a group of self-selected team members who are willing to help with any GraphQL questions you may have. You can get in touch with them by mentioning `@gitlab-org/graphql-experts` in any GitLab issue or merge request.
+The GraphQL API can be added to by anyone, including [community members](https://docs.gitlab.com/development/contributing/). We have a group of self-selected team members who are willing to help with any GraphQL questions you may have. You can get in touch with them by mentioning `@gitlab-org/graphql-experts` in any GitLab issue or merge request.
 
 You can read more information about GraphQL at GitLab here:
 
-- [Getting started with GitLab GraphQL API](https://docs.gitlab.com/ee/api/graphql/getting_started/)
-- [GraphQL frontend guide](https://docs.gitlab.com/ee/development/fe_guide/graphql/)
-- [GraphQL API style guide](https://docs.gitlab.com/ee/development/api_graphql_styleguide/)
+- [Getting started with GitLab GraphQL API](https://docs.gitlab.com/api/graphql/getting_started/)
+- [GraphQL frontend guide](https://docs.gitlab.com/development/fe_guide/graphql/)
+- [GraphQL API style guide](https://docs.gitlab.com/development/api_graphql_styleguide/)
 - [Introduction to GraphQL (graphql.org)](https://graphql.org/learn/)
 
 We also run GraphQL office hours, which is a place where GitLab team members can ask questions and chat amongst peers about GraphQL at GitLab.

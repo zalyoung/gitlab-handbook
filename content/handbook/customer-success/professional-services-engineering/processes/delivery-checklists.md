@@ -13,7 +13,7 @@ The pre-training checklist below provides a list of tasks and reminders to help 
 
 - Ensure that you have training logistics information, such as training dates, times, and main customer point of contact.
 - For onsite training, make sure that you have the training venue address, point of contact information, sign-in procedures and required documentation, if applicable.
-- Make sure to review all of the trainer materials, such as the slide deck, hands-on guide, facilitator guide, train-the-trainer video, and [GitLab documentation](https://docs.gitlab.com/ee/) for the course you are delivering.
+- Make sure to review all of the trainer materials, such as the slide deck, hands-on guide, facilitator guide, train-the-trainer video, and [GitLab documentation](https://docs.gitlab.com/) for the course you are delivering.
 - Please ensure that you use the latest version of the slide deck for your upcoming class.
 - Ensure that the lab environment and lab exercises are working properly by reviewing ahead of the first day of class.
 - Ensure that you can access and have full functionality of the teleconferencing system.

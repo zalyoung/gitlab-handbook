@@ -7,7 +7,7 @@ title: "CSM Infrastructure Upgrade Coordination"
 Customers on self-managed GitLab deployments may need to upgrade to new
 infrastructure for a number of reasons, including moving to a cloud provider,
 utilizing technologies such as Kubernetes, or because GitLab growth requires
-more computational resources. GitLab provides recommended [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/#available-reference-architectures)
+more computational resources. GitLab provides recommended [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/#available-reference-architectures)
 for different scales.
 
 CSMs are the primary point of contact for customers and are responsible for
@@ -31,7 +31,7 @@ This is a high-level process for CSMs coordinating an infrastructure upgrade:
    migration can be performed with minimal interruption. Migrations of this size
    often take at least three months to plan and execute.
 1. Should a customer choose not to procure Professional Services, a CSM can
-   provide relevant documentation e.g. for [Reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/#available-reference-architectures)
+   provide relevant documentation e.g. for [Reference architectures](https://docs.gitlab.com/administration/reference_architectures/#available-reference-architectures)
    but won't provide a detailed hardware upgrade plan.
    1. Other internal teams (Product, Quality, Support, etc.) may assist if specific questions arise.
 1. Once a hardware upgrade plan is created, either via Professional Services or
@@ -42,16 +42,16 @@ This is a high-level process for CSMs coordinating an infrastructure upgrade:
 
 ## Architecture review
 
-When a customer is planning an infrastructure upgrade, they may want to review their proposed architecture with their CSM. Likewise, the CSM should be asking the customer for an architecture diagram and ensuring that they are following one of our [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
+When a customer is planning an infrastructure upgrade, they may want to review their proposed architecture with their CSM. Likewise, the CSM should be asking the customer for an architecture diagram and ensuring that they are following one of our [reference architectures](https://docs.gitlab.com/administration/reference_architectures/).
 
 ### Deviating from reference architecture
 
 If a customer's proposed architecture deviates from the reference architecture for their intended scale, there is a defined process to ensure the best result for the customer. This involves a review between the CSM and the customer, and a final validation from Support.
 
-1. Ensure that the customer knows about, and has reviewed, the [reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) appropriate for their user count and/or scalability requirements.
+1. Ensure that the customer knows about, and has reviewed, the [reference architecture](https://docs.gitlab.com/administration/reference_architectures/) appropriate for their user count and/or scalability requirements.
 1. Discuss with the customer how they could revise their architecture to match the reference.
 1. If the customer asserts that they cannot, or will not, follow the reference, find out why that is. There may be valid, unavoidable reasons such as company policy or budget limitations.
-   1. Clarify for the customer that [their performance and subsequent support may be affected](https://docs.gitlab.com/ee/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures), so that you are adequately managing expectations before going any further.
+   1. Clarify for the customer that [their performance and subsequent support may be affected](https://docs.gitlab.com/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures), so that you are adequately managing expectations before going any further.
 1. Advise them to run the [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) against their instance, and provide the results to you for review alongside their architecture diagram.
 1. Provide them with our [benchmark GPT results](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest) for comparison, and review their results against the benchmark figures.
    1. If their GPT results are equivalent to, or better than, our benchmark results then they will likely see good performance from their proposed architecture.

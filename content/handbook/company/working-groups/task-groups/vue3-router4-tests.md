@@ -28,7 +28,7 @@ The list of tests suites that need be fixed will be maintained in this [section 
 
 Once these tests are fully addressed, it will be necessary to take another look at the [jest speed reporter](https://gitlab-org.gitlab.io/frontend/playground/jest-speed-reporter/vue3) to make sure that no other tests are failing due to router compatibility. The above investigation has assumed that tests failing due to compatibility issues are exposed by the string "Vue router" in the failure message.
 
-The strategy for fixing these tests has been documented in the [Testing Vue router](https://docs.gitlab.com/ee/development/testing_guide/testing_vue3/#testing-vue-router) section of the Vue 3 testing handbook.
+The strategy for fixing these tests has been documented in the [Testing Vue router](https://docs.gitlab.com/development/testing_guide/testing_vue3/#testing-vue-router) section of the Vue 3 testing handbook.
 
 ## Non-goals
 

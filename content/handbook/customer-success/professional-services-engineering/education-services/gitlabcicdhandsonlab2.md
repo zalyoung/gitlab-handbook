@@ -57,7 +57,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
-   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access/).
+   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/user/public_access/).
 
 1. Check **Initialize repository with a README**.
 
@@ -232,7 +232,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Under **Tags**, select **Run untagged jobs**. Leave the rest of the options blank.
 
-   > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ee/ci/runners/configure_runners/#use-tags-to-control-which-jobs-a-runner-can-run)
+   > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ci/runners/configure_runners/#use-tags-to-control-which-jobs-a-runner-can-run)
 
 1. Click the **Create runner** button.
 

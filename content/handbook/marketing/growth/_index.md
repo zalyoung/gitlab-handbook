@@ -63,9 +63,9 @@ The Growth section owns the following areas of the product experience.
 
 * The [free user](https://gitlab.com/users/sign_up/) and [trial registration](https://about.gitlab.com/free-trial/) experience
 * The new user [onboarding experience](/handbook/product/groups/growth/#contributing-to-the-learn-gitlab-project)
-* [GitLab Experiment Gem (also refered to as GLEX)](https://docs.gitlab.com/ee/development/experiment_guide/)
-* [Instance review](https://docs.gitlab.com/ee/administration/instance_review/)
-* [Product Qualified Leads](https://docs.gitlab.com/ee/development/product_qualified_lead_guide/)
+* [GitLab Experiment Gem (also refered to as GLEX)](https://docs.gitlab.com/development/experiment_guide/)
+* [Instance review](https://docs.gitlab.com/administration/instance_review/)
+* [Product Qualified Leads](https://docs.gitlab.com/development/product_qualified_lead_guide/)
 
  While we own these areas our work is not limited to these specific areas as the teams work cross-functionaly with other product and business teams to improve the user experience the most efficient way possible.
 

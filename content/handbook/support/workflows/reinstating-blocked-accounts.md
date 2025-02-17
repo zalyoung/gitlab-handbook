@@ -9,9 +9,9 @@ This workflow page will describe how to action on **Locked**,  **Blocked** and *
 
 1. The best way to view this information is via the [Zendesk User Lookup app (part of the GitLab Super App)](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app), through the `Locked` and `State` fields.
 1. The Admin User UI in `/admin/user/USERNAME` will say `(Locked)`, `(Blocked)` or `(Banned)` next to the name at the top.
-1. The [Users API](https://docs.gitlab.com/ee/api/users/#single-user) through the URL `https://gitlab.com/api/v4/users/<user_id>` in your browser while logged in as an Admin User, also indicates the `locked` and `state` status of the user.
+1. The [Users API](https://docs.gitlab.com/api/users/#single-user) through the URL `https://gitlab.com/api/v4/users/<user_id>` in your browser while logged in as an Admin User, also indicates the `locked` and `state` status of the user.
 
-Our implementation of [Arkose Protect](https://docs.gitlab.com/ee/integration/arkose/#arkose-protect) does *not* affect account locking, but instead can prevent users from signing in without solving the challenge.
+Our implementation of [Arkose Protect](https://docs.gitlab.com/integration/arkose/#arkose-protect) does *not* affect account locking, but instead can prevent users from signing in without solving the challenge.
 
 ## Locked accounts
 
@@ -47,14 +47,14 @@ Process:
 1. Follow the locked accounts workflow above and ensure that the user has exhausted all self-serve methods first.
 1. For other cases, [comment or create an issue](/handbook/support/workflows/working-with-issues/) as applicable.
 1. Do an [account ownership verification](/handbook/support/workflows/account_verification/).
-1. [Unlock the account from the admin area](https://docs.gitlab.com/ee/security/unlock_user/#unlock-a-user-from-the-admin-area)
+1. [Unlock the account from the admin area](https://docs.gitlab.com/security/unlock_user/#unlock-a-user-from-the-admin-area)
 1. [Add an admin note](/handbook/support/workflows/admin_note/).
 
 Feature request for group owners to self-serve is in [anti-abuse#339](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tasks/-/issues/339).
 
 ### Change risk assessment (Credit Card verification)
 
-If a user has failed credit card verification or cannot use a credit card, follow the below process to verify the user in order to change their risk level. Please see [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5154#what-impact-will-this-have-on-users) and the [documentation](https://docs.gitlab.com/ee/security/identity_verification#stages) for more details.
+If a user has failed credit card verification or cannot use a credit card, follow the below process to verify the user in order to change their risk level. Please see [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5154#what-impact-will-this-have-on-users) and the [documentation](https://docs.gitlab.com/security/identity_verification#stages) for more details.
 
 **Note**: This process can only be done for free users if it's determined that they are impacted by a GitLab bug, such as [customers#3811](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3811).
 
@@ -63,7 +63,7 @@ Process:
 1. Follow the steps above for [manual unlock](#manual-unlock).
 1. While in the admin area for the user, scroll to the **Custom Attributes** section.
 1. Change the field for `arkose_risk_band` from `high` to `medium`.
-1. If necessary, [unlock the account](https://docs.gitlab.com/ee/security/unlock_user/#unlock-a-user-from-the-admin-area).
+1. If necessary, [unlock the account](https://docs.gitlab.com/security/unlock_user/#unlock-a-user-from-the-admin-area).
 1. [Add an admin note](/handbook/support/workflows/admin_note/).
 1. Click `Save` when done.
 

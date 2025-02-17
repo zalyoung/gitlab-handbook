@@ -53,7 +53,7 @@ Apply:
 
 We use the following labels to reflect the priority of our OKRs:
 
-The Priority [scoped](https://docs.gitlab.com/ee/user/project/labels/#scoped-labels) label ranges from 0 to 2 and is applied to OKRs.
+The Priority [scoped](https://docs.gitlab.com/user/project/labels/#scoped-labels) label ranges from 0 to 2 and is applied to OKRs.
 
 - `sec-okr::p0`: Should only be reserved for [Critical Projects](https://internal.gitlab.com/handbook/security/critical_projects)
 - `sec-okr::p1`: 70% or greater completed across the team/Objective, important

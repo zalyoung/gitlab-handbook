@@ -338,7 +338,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.
 - **Small projects:** Smaller projects are typically assigned to one designer and completed within 2 weeks. Given the quick turnaround at GitLab, we work in small iterations, referred to as the MVC ([minimal valuable change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)) approach.
 - **Medium and large projects:** For larger projects, we assess the request and then propose a timeline. For campaigns or projects with a unique concept, we kick off a brainstorming session either async or on a cross-functional call with the larger team, or whoever has been assigned, and then we pitch the concept(s) to the stakeholders.
-- **Sharing work:** Work should be shared early and often, either in our team calls or async in our private `#brand-design-team` slack channel. Drafts are typically shared async with the stakeholder using the [design tab](https://docs.gitlab.com/ee/user/project/issues/design_management/) in issues or as a screenshot in comments.
+- **Sharing work:** Work should be shared early and often, either in our team calls or async in our private `#brand-design-team` slack channel. Drafts are typically shared async with the stakeholder using the [design tab](https://docs.gitlab.com/user/project/issues/design_management/) in issues or as a screenshot in comments.
 
 #### Saving work
 
@@ -360,7 +360,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
 
 #### Using git and terminal
 
-- [Push and pull](https://docs.gitlab.com/ee/topics/git/commands/#pull-and-push) work frequently, at least once a day, to keep our work up-to-date. If you are working on a file that others may be in as well, communicate it with the team so that no one saves over someone else's work.
+- [Push and pull](https://docs.gitlab.com/topics/git/commands/#pull-and-push) work frequently, at least once a day, to keep our work up-to-date. If you are working on a file that others may be in as well, communicate it with the team so that no one saves over someone else's work.
 - To get started, [set up](https://docs.google.com/document/d/1u7iNFnbD4Nj4aeLRFpmnzHewgKBjCwdyjvTuOND0rfA/edit?usp=sharing) a local clone of the `brand-design` repository to your machine. For your day-to-day work, here are the typical git commands for pulling and pushing work, in the order of which they should be used:
   - `cd brand-design` - this command only needs to be used once upon opening the [Terminal app](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac). Depending on where you've stored the repository on your machine, the `cd` [parent folder name] command may need to be done multiple times, until you get into the `brand-design` folder
   - `git pull` - this updates your local repository to mirror any changes made by the rest of the team; do this command before starting work or pushing any new work
@@ -388,7 +388,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
 
 #### Brand Guidelines
 
-The Brand Design team maintains the Brand Guidelines on [design.gitlab.com](https://design.gitlab.com/brand/overview/) ([Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main)). For our team's purposes, we can make updates to the guidelines using [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/).
+The Brand Design team maintains the Brand Guidelines on [design.gitlab.com](https://design.gitlab.com/brand/overview/) ([Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main)). For our team's purposes, we can make updates to the guidelines using [Web IDE](https://docs.gitlab.com/user/project/web_ide/).
 
 To get started, follow the workflow outlined below and check out our [demo](https://youtu.be/d8vUeHCkbnk) with the Product team.
 

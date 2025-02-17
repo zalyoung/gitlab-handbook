@@ -101,8 +101,8 @@ constraints:
   the diagram.
 
 GitLab offers out of the box some nice integrations in Markdown files, like
-[Mermaid](https://docs.gitlab.com/ee/user/markdown/#mermaid) or
-[PlantUML](https://docs.gitlab.com/ee/user/markdown/#plantuml). These are great for sequence or
+[Mermaid](https://docs.gitlab.com/user/markdown/#mermaid) or
+[PlantUML](https://docs.gitlab.com/user/markdown/#plantuml). These are great for sequence or
 activity diagram, but don't work well for other views. [Diagrams](https://www.drawio.com/) is an
 open source tool to create drag and drop diagrams, and is the recommended tool for this activity as
 of today.

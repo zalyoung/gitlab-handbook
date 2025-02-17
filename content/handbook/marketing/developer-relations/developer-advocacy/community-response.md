@@ -85,7 +85,7 @@ This is a set of general recommendations for automating the monitoring processes
 
 When possible and appropriate, our team will engage experts to respond to the community. This direct feedback from the DRIs is [appreciated by members of the wider GitLab community](https://news.ycombinator.com/item?id=26261479). It also allows the DRIs and experts to better understand community sentiment and get direct feedback from our community. To identify the DRIs for a specific feature, follow one of the these steps:
 
-1. Search Google for the docs page that corresponds to the feature in question. For example, [CI/CD](https://docs.gitlab.com/ee/ci/).
+1. Search Google for the docs page that corresponds to the feature in question. For example, [CI/CD](https://docs.gitlab.com/ci/).
 1. Scroll to the bottom of the docs page for the feature
 1. At the bottom of the page, click the "View page source" link
 1. After the file opens in your browser, review the top of the file to see the stage/group that owns the feature

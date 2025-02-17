@@ -42,7 +42,7 @@ In GitLab 15.0 a malicious user could create a stored XSS payload. See if you ca
 
 #### Installation
 
-1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker/). Depending on your setup, the command will look something like:
+1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/install/docker/). Depending on your setup, the command will look something like:
 
 ```shell
 sudo docker run --detach \
@@ -136,7 +136,7 @@ On GitLab installations before 14.3.6, a malicious actor could perform a Denial 
 
 #### Installation
 
-1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker/). Depending on your setup, the command will look something like:
+1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/install/docker/). Depending on your setup, the command will look something like:
 
 ```shell
 sudo docker run --detach \

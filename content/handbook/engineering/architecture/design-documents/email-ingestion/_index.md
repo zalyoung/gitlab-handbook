@@ -46,14 +46,14 @@ and maintenance costs for customers on self-managed and make it easier for team 
 - `mail_room`: [An executable script](https://gitlab.com/gitlab-org/ruby/gems/gitlab-mail_room) that spawns
   a new process for each configured mailbox, reads new emails on a regular basis
   and forwards the emails to a processing unit.
-- [`incoming_email`](https://docs.gitlab.com/ee/administration/incoming_email/): An email
+- [`incoming_email`](https://docs.gitlab.com/administration/incoming_email/): An email
   address that is used for adding comments and issues via email. When you reply
   on a GitLab notification of an issue comment, this response email will go to
   the configured `incoming_email` mailbox, read via `mail_room` and processed by
   GitLab. You can also use this address as a Service Desk email address. The
   configuration is per instance and needs full IMAP or Microsoft Graph API
   credentials to access the mailbox.
-- [`service_desk_email`](https://docs.gitlab.com/ee/user/project/service_desk/configure/#use-an-additional-service-desk-alias-email):
+- [`service_desk_email`](https://docs.gitlab.com/user/project/service_desk/configure/#use-an-additional-service-desk-alias-email):
   Additional alias email address that is only used for Service Desk. You can
   also use an address generated from `incoming_email` to create Service Desk
   issues.
@@ -121,8 +121,8 @@ IMAP and Microsoft Graph API for `incoming_email` and `service_desk_email`.
 ## Current setup
 
 Administrators configure settings (credentials and delivery method) for email
-mailboxes (for [`incoming_email`](https://docs.gitlab.com/ee/administration/incoming_email/) and
-[`service_desk_email`](https://docs.gitlab.com/ee/user/project/service_desk/configure/#use-an-additional-service-desk-alias-email))
+mailboxes (for [`incoming_email`](https://docs.gitlab.com/administration/incoming_email/) and
+[`service_desk_email`](https://docs.gitlab.com/user/project/service_desk/configure/#use-an-additional-service-desk-alias-email))
 in `gitlab.rb` configuration file. After each change GitLab needs to be
 reconfigured and restarted to apply the new settings.
 
@@ -165,7 +165,7 @@ flowchart TB
 
 The `sidekiq` delivery method adds the email body and metadata directly to the
 Redis queue that Sidekiq uses to manage jobs. It has been
-[deprecated in 16.0](https://docs.gitlab.com/ee/update/deprecations/#sidekiq-delivery-method-for-incoming_email-and-service_desk_email-is-deprecated)
+[deprecated in 16.0](https://docs.gitlab.com/update/deprecations/#sidekiq-delivery-method-for-incoming_email-and-service_desk_email-is-deprecated)
 because there is a hard coupling between the delivery method and the Redis
 configuration. Moreover we cannot use Sidekiq framework optimizations such as
 job payload compression.
@@ -243,7 +243,7 @@ server instead of one (n+1).
 
 ## Change management
 
-We decided to [deprecate the `sidekiq` delivery method for `mail_room` in GitLab 16.0](https://docs.gitlab.com/ee/update/deprecations/#sidekiq-delivery-method-for-incoming_email-and-service_desk_email-is-deprecated) and scheduled it for removal in GitLab 18.0.
+We decided to [deprecate the `sidekiq` delivery method for `mail_room` in GitLab 16.0](https://docs.gitlab.com/update/deprecations/#sidekiq-delivery-method-for-incoming_email-and-service_desk_email-is-deprecated) and scheduled it for removal in GitLab 18.0.
 We can only remove the `sidekiq` delivery method after this blueprint has been implemented and our customers can use the new email ingestion in general availability.
 
 We should then schedule `mail_room` for removal (GitLab 17.0 or later). This will be a breaking change. We could make the new email ingestion the default beforehand, so self-managed customers wouldn't need to take action.

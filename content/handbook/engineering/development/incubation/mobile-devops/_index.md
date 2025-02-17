@@ -18,9 +18,9 @@ GitLab's vision for Mobile DevOps is to provide high-value, best-in-class capabi
 
 | Feature                                                                                                  | Status      |
 |----------------------------------------------------------------------------------------------------------|-------------|
-| [macOS Build Environments](https://docs.gitlab.com/ee/ci/runners/hosted_runners/macos/)            | Public Beta |
-| [Project-level Secure Files](https://docs.gitlab.com/ee/ci/secure_files/)                                | GA          |
-| [Apple App Store Integration](https://docs.gitlab.com/ee/user/project/integrations/apple_app_store/) | GA          |
+| [macOS Build Environments](https://docs.gitlab.com/ci/runners/hosted_runners/macos/)            | Public Beta |
+| [Project-level Secure Files](https://docs.gitlab.com/ci/secure_files/)                                | GA          |
+| [Apple App Store Integration](https://docs.gitlab.com/user/project/integrations/apple_app_store/) | GA          |
 | [Google Play Integration](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/111621)                  | GA          |
 
 ## What's Next & Why?
@@ -29,7 +29,7 @@ The future roadmap for Mobile DevOps will look to mature the `build`, `sign`, an
 
 * Support [macOS SaaS Runners to GA](https://gitlab.com/groups/gitlab-org/-/epics/8267)
 * [Android support for Dependency Scanning (gemnasium-maven)](https://gitlab.com/gitlab-org/gitlab/-/issues/336866)
-* Mature [Mobile SAST](https://docs.gitlab.com/ee/user/application_security/sast/#experimental-features)
+* Mature [Mobile SAST](https://docs.gitlab.com/user/application_security/sast/#experimental-features)
 * Device Farm Integrations
 * [Mobile DevOps CI/CD components](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/113)
 * [Firebase Integration](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/46)
@@ -37,7 +37,7 @@ The future roadmap for Mobile DevOps will look to mature the `build`, `sign`, an
 
 ## Other Resources
 
-* [Mobile DevOps Docs](https://docs.gitlab.com/ee/ci/jobs/mobile_devops/)
+* [Mobile DevOps Docs](https://docs.gitlab.com/ci/jobs/mobile_devops/)
 * Mobile DevOps Blog Posts
   * [Tutorial: iOS CI/CD with GitLab](https://about.gitlab.com/blog/2023/06/07/ios-cicd-with-gitlab/)
   * [Tutorial: Android CI/CD with GitLab](https://about.gitlab.com/blog/2023/06/13/android-cicd-with-gitlab/)

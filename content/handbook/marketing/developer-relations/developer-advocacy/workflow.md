@@ -269,7 +269,7 @@ endif
 stop
 ```
 
-Example CFP workflow using [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions/):
+Example CFP workflow using [quick actions](https://docs.gitlab.com/user/project/quick_actions/):
 
 1. Planning to submit, or when you have submitted already:
     1. Create a new [CFP issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp).

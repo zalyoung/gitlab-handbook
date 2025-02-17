@@ -21,7 +21,7 @@ The first internal customer to migrate is yet to be identified.
 The migration will loosely follow this plan:
 
 1. Create `GitLab Inc.` Organization on another Cell
-1. Use [Direct Transfer](https://docs.gitlab.com/ee/user/group/import/) to move a group from the existing GitLab.com infrastructure to the other Cell.
+1. Use [Direct Transfer](https://docs.gitlab.com/user/group/import/) to move a group from the existing GitLab.com infrastructure to the other Cell.
 1. Use [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857) when it's ready to migrate the rest of the top-level groups and the feature set is enough for that top-level group. For example, `gitlab-org` will be moved in Cells 2.0.
 
 ## Consequences

@@ -173,10 +173,10 @@
   - Search
   - Elasticsearch
   use_instead:
-  - Global Search with the features Basic Global Search and [Advanced Global Search](https://docs.gitlab.com/ee/user/search/advanced_search/).
+  - Global Search with the features Basic Global Search and [Advanced Global Search](https://docs.gitlab.com/user/search/advanced_search/).
   - "[Log Search](https://about.gitlab.com/direction/monitor/platform-insights/) for the monitor stage logging feature."
   - Issue Search and Merge Request search for filtering and searching in those content areas.
-  - "[Elastic log Stack](https://docs.gitlab.com/ee/user/clusters/applications/#elastic-stack) when referring to Elasticsearch and Filebeat."
+  - "[Elastic log Stack](https://docs.gitlab.com/user/clusters/applications/#elastic-stack) when referring to Elasticsearch and Filebeat."
   reason: There are many kinds of search in the GitLab application; use complete feature names to describe areas.
   exclude_from_exports: false
 
@@ -185,7 +185,7 @@
   use_instead:
   - Seat link is the number of seats on a license
   - "[Version check](https://handbook.gitlab.com/handbook/sales/process/version-check/) is what version of GitLab a subscription is using"
-  - "[Usage ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics/#usage-ping) is high-level data of how GitLab is being used in a license"
+  - "[Usage ping](https://docs.gitlab.com/administration/settings/usage_statistics/#usage-ping) is high-level data of how GitLab is being used in a license"
   - "[Snowplow](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/snowplow/) is a dynamic site for web event analytics"
   - "[Google Analytics](/handbook/tools-and-tips/#google-analytics) is a static site for receiving data from `about.gitlab.com` and `docs.gitlab.com`"
   - "Database events is using the database records of GitLab.com to look at how people are using the application."
@@ -370,7 +370,7 @@
   use_instead:
   - Reference Architecture
   - Scaled Architecture
-  reason: All solutions come with a [trade-off between cost/complexity and uptime](https://docs.gitlab.com/ee/administration/reference_architectures/). Each availability component comes with complexity and maintenance. Users should thoroughly analyze the benefits of a solution against its costs and the team's readiness.
+  reason: All solutions come with a [trade-off between cost/complexity and uptime](https://docs.gitlab.com/administration/reference_architectures/). Each availability component comes with complexity and maintenance. Users should thoroughly analyze the benefits of a solution against its costs and the team's readiness.
   exclude_from_exports: false
 
 - avoid:

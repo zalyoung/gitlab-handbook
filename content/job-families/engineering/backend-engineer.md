@@ -54,7 +54,7 @@ requirements and responsibilities:
 - Advocate for improvements to product quality, security, and performance
 - Solve technical problems of moderate scope and complexity.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment.
-- Conduct [Code Review](/handbook/engineering/workflow/code-review/) within our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review/) and ensure community contributions receive a swift response.
+- Conduct [Code Review](/handbook/engineering/workflow/code-review/) within our [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) and ensure community contributions receive a swift response.
 - Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
@@ -359,7 +359,7 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 
 ### Geo
 
-[GitLab Geo](https://docs.gitlab.com/ee/administration/geo/)
+[GitLab Geo](https://docs.gitlab.com/administration/geo/)
 is an enterprise product feature, built to help speed up the development of distributed teams by providing one or more
 read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch
 large repositories and projects, or can be part of a Disaster Recovery solution.

@@ -7,9 +7,9 @@ description: "This Hands-On Guide walks you through creating a merge request and
 
 ## Objectives
 
-A merge request is a proposal to incorporate changes from a source branch to a target branch. Merge requests help you manage the changes that are applied to your code. In this lab, you will learn how to setup and manage merge request approval rules in your projects. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
+A merge request is a proposal to incorporate changes from a source branch to a target branch. Merge requests help you manage the changes that are applied to your code. In this lab, you will learn how to setup and manage merge request approval rules in your projects. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/user/project/merge_requests/).
 
-Approval rules define how many approvals a merge request must receive before it can be merged, and which users should do the approving. They can be used in conjunction with Code owners to ensure that changes are reviewed both by the group maintaining the feature, and any groups responsible for specific areas of oversight. See the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/) to learn more.
+Approval rules define how many approvals a merge request must receive before it can be merged, and which users should do the approving. They can be used in conjunction with Code owners to ensure that changes are reviewed both by the group maintaining the feature, and any groups responsible for specific areas of oversight. See the [documentation](https://docs.gitlab.com/user/project/merge_requests/approvals/rules/) to learn more.
 
 ## Task A. Set merge request approval rules
 
@@ -71,7 +71,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. From the merge request details page, select **Code > Open in Web IDE** to edit files on the **update-db-docs-perf-tools** branch.
 
-    > The Web IDE is an advanced editor with built-in ability to commit to your repository branches. You can use the Web IDE to make changes to multiple files directly from the GitLab UI. See the [documentation](https://docs.gitlab.com/ee/user/project/web_ide/) to learn more.
+    > The Web IDE is an advanced editor with built-in ability to commit to your repository branches. You can use the Web IDE to make changes to multiple files directly from the GitLab UI. See the [documentation](https://docs.gitlab.com/user/project/web_ide/) to learn more.
 
 1. Click **README.md** from the left file pane.
 
@@ -93,7 +93,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 ## Task C. Perform code review and merge changes
 
-> For advice on best practices when it comes to code reviews, see the [documentation](https://docs.gitlab.com/ee/development/code_review/).
+> For advice on best practices when it comes to code reviews, see the [documentation](https://docs.gitlab.com/development/code_review/).
 
 1. Navigate to the `Draft: Add performance tools to database documentation` merge request by clicking on the red GitLab button in the bottom left corner of the Web IDE, and then clicking **Go to Database project on GitLab**.
 
@@ -101,7 +101,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. On the merge request page, click the **Changes** tab to see the changes that will be applied to the project's **main** branch after merge.
 
-    > Code reviewers can critique individual lines of code and suggest changes. See the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/) to learn more.
+    > Code reviewers can critique individual lines of code and suggest changes. See the [documentation](https://docs.gitlab.com/user/project/merge_requests/reviews/) to learn more.
 
 1. Click on the **Overview** tab.
 

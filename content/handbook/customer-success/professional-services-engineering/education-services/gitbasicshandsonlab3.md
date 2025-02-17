@@ -41,7 +41,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 ## Task C. Create a merge request
 
-> Merge requests are a core feature of source control with GitLab since they let you make suggestions to update documents in a repository. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
+> Merge requests are a core feature of source control with GitLab since they let you make suggestions to update documents in a repository. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/user/project/merge_requests/).
 
 1. On the issue details page, click the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
 
@@ -89,7 +89,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 
 ## Task D. Edit files on a branch using GitLab's Web IDE
 
-> To address the changes required in the issue, you can edit files in your code branch. There are many ways to edit files in a branch. In the last lab, you learned how to edit a file locally. In this lab, you will edit a file online through the Web IDE. The Web IDE is an advanced editor with commit staging. You can use the Web IDE to make changes to multiple files directly from the GitLab UI. You can find out more information in the [documentation](https://docs.gitlab.com/ee/user/project/web_ide/).
+> To address the changes required in the issue, you can edit files in your code branch. There are many ways to edit files in a branch. In the last lab, you learned how to edit a file locally. In this lab, you will edit a file online through the Web IDE. The Web IDE is an advanced editor with commit staging. You can use the Web IDE to make changes to multiple files directly from the GitLab UI. You can find out more information in the [documentation](https://docs.gitlab.com/user/project/web_ide/).
 
 1. In the top right of the merge request page, click on the arrow to the right of **Code** and click **Open in Web IDE**.
 

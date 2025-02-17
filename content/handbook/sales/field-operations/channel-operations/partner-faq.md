@@ -143,7 +143,7 @@ My customer's renewal quote includes true-up seats. What are true-ups and why is
 
 The customer purchased a specific number of seats in their original subscription. If the customer adds more users to their GitLab instance than the number they are licensed for during the subscription period, payment for the additional/overage users is required at time of renewal.
 
-Note, "Users over subscription ([Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#users-over-subscription)) / "Seats owed" ([SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)) in the customer's admin dashboard represent the number of overage users the customer incurred during the subscription term. Please refer the customer to these guides for how to locate their admin dashboard for [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
+Note, "Users over subscription ([Self-Managed](https://docs.gitlab.com/subscriptions/self_managed/#users-over-subscription)) / "Seats owed" ([SaaS](https://docs.gitlab.com/subscriptions/gitlab_com/#seats-owed)) in the customer's admin dashboard represent the number of overage users the customer incurred during the subscription term. Please refer the customer to these guides for how to locate their admin dashboard for [Self-Managed](https://docs.gitlab.com/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
 
 </details>
 
@@ -152,7 +152,7 @@ Note, "Users over subscription ([Self-Managed](https://docs.gitlab.com/ee/subscr
 How can my customer find their admin usage dashboard to take a screenshot to facilitate their upcoming renewal?
 </summary>
 
-Please refer the customer to these guides on how to locate their admin dashboard for [Self Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
+Please refer the customer to these guides on how to locate their admin dashboard for [Self Managed](https://docs.gitlab.com/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
 
 </details>
 
@@ -161,7 +161,7 @@ Please refer the customer to these guides on how to locate their admin dashboard
 Our customer has blocked/deactivated/removed users from their subscription. Will these users count towards billable users/seats currently in use at renewal? How will these users be reflected/charged?
 </summary>
 
-Deactivated, blocked, and removed users don't count as "Billable Users (Self-Managed) / "Seats currently in use" (SaaS) in the current subscription. However, they may count toward overages in the subscribed seat count which will be charged as true-ups at renewal. Refer to [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#billable-users) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#remove-users-from-your-subscription) subscription documentation for more information.
+Deactivated, blocked, and removed users don't count as "Billable Users (Self-Managed) / "Seats currently in use" (SaaS) in the current subscription. However, they may count toward overages in the subscribed seat count which will be charged as true-ups at renewal. Refer to [Self-Managed](https://docs.gitlab.com/subscriptions/self_managed/#billable-users) and [SaaS](https://docs.gitlab.com/subscriptions/gitlab_com/#remove-users-from-your-subscription) subscription documentation for more information.
 
 </details>
 
@@ -170,7 +170,7 @@ Deactivated, blocked, and removed users don't count as "Billable Users (Self-Man
 My customer would like to renew their subscription, but reduce their total license count. What is the minimum quantity required for renewal?
 </summary>
 
-The minimum quantity required to be renewed is the customers "Billable users" (Self-Managed) or "Seats currently in use" (SaaS) in order to have an active instance post renewal. If the customer wants to renew fewer users than those currently active, they will need to remove the excess users from their instance. Refer to the following guides for details on where a customer can view their usage and/or instructions on how to block, deactivate, or remove users: [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-user-totals), [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription).
+The minimum quantity required to be renewed is the customers "Billable users" (Self-Managed) or "Seats currently in use" (SaaS) in order to have an active instance post renewal. If the customer wants to renew fewer users than those currently active, they will need to remove the excess users from their instance. Refer to the following guides for details on where a customer can view their usage and/or instructions on how to block, deactivate, or remove users: [Self-Managed](https://docs.gitlab.com/subscriptions/self_managed/#view-user-totals), [SaaS](https://docs.gitlab.com/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription).
 
 </details>
 

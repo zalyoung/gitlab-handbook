@@ -26,11 +26,11 @@ We use a relational database (PostgreSQL) as the primary metadata storage engine
 
 ### Relational: PostgreSQL
 
-[PostgreSQL](https://docs.gitlab.com/ee/development/scalability/#postgresql) is our relational database engine of choice, and, until recently, all metadata for projects, issues, merge requests, users, and so on resided in a single cluster. Its schema is managed by the Rails application ([`db/structure.sql`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/structure.sql)). We commonly refer to this data store as the **main database**. As scalability needs increased, we adopted some [best practices](/handbook/engineering/architecture/practice/scalability/) to address them. Some items have been extracted from the database (diffs were the first ones), while others were deployed in separate logical databases or instances (at scale) because they were already separate services and had low data coupling requirements (Registry and Praefect). Still others have been decomposed ([CI](https://gitlab.com/groups/gitlab-org/-/epics/6168)) because of their scale (and because we found ways to work around tight coupling).
+[PostgreSQL](https://docs.gitlab.com/development/scalability/#postgresql) is our relational database engine of choice, and, until recently, all metadata for projects, issues, merge requests, users, and so on resided in a single cluster. Its schema is managed by the Rails application ([`db/structure.sql`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/structure.sql)). We commonly refer to this data store as the **main database**. As scalability needs increased, we adopted some [best practices](/handbook/engineering/architecture/practice/scalability/) to address them. Some items have been extracted from the database (diffs were the first ones), while others were deployed in separate logical databases or instances (at scale) because they were already separate services and had low data coupling requirements (Registry and Praefect). Still others have been decomposed ([CI](https://gitlab.com/groups/gitlab-org/-/epics/6168)) because of their scale (and because we found ways to work around tight coupling).
 
 #### Data Structure: Redis
 
-[Redis](https://docs.gitlab.com/ee/development/scalability/#redis) is used for specialized, non-relational needs, including queues (Sidekiq jobs marshal jobs into JSON payloads), persistent state (session data and exclusive leases), and cache (repository data such as branch and tag names, and view partials). Redis is a critical component of the application, but it is not used with the same durability contraints as PostgreSQL.
+[Redis](https://docs.gitlab.com/development/scalability/#redis) is used for specialized, non-relational needs, including queues (Sidekiq jobs marshal jobs into JSON payloads), persistent state (session data and exclusive leases), and cache (repository data such as branch and tag names, and view partials). Redis is a critical component of the application, but it is not used with the same durability contraints as PostgreSQL.
 
 ## Considerations
 
@@ -55,7 +55,7 @@ In general, if the codebase is part of the main RoR application, more than likel
 
 ### Exception
 
-Due to scalability concerns, we are currently executing the first [functional decomposition](https://gitlab.com/groups/gitlab-org/-/epics/6168) of the main database by moving the [CI tables](https://gitlab.com/groups/gitlab-org/-/epics/6167) to a separate cluster. Although the CI related code base is part of the main RoR application, the CI tables account for \~40% of the overall size and roughly 50% of writes of the main database. Data coupling with the rest of the database is relatively loose, so we are able to ensure data consistency between the two databases while making minimal changes and iterating on new techniques that we build ([Loose Foreign Keys](https://docs.gitlab.com/ee/development/database/loose_foreign_keys/)).
+Due to scalability concerns, we are currently executing the first [functional decomposition](https://gitlab.com/groups/gitlab-org/-/epics/6168) of the main database by moving the [CI tables](https://gitlab.com/groups/gitlab-org/-/epics/6167) to a separate cluster. Although the CI related code base is part of the main RoR application, the CI tables account for \~40% of the overall size and roughly 50% of writes of the main database. Data coupling with the rest of the database is relatively loose, so we are able to ensure data consistency between the two databases while making minimal changes and iterating on new techniques that we build ([Loose Foreign Keys](https://docs.gitlab.com/development/database/loose_foreign_keys/)).
 
 In general, a separate cluster will only be supported if the size of the dataset and its corresponding transaction rate requirements are large enough to merit the cost of operating it and the added complexity of developing code to support it. Initially, this will likely reside in a separate logical database as part of the main cluster.
 
@@ -63,7 +63,7 @@ In general, a separate cluster will only be supported if the size of the dataset
 
 ### Relational (PostgreSQL)
 
-If the application is **not** part of the main RoR application code base (for instance, [Container Registry](https://gitlab.com/gitlab-org/container-registry), [Praefect](https://gitlab.com/gitlab-org/gitaly), [Geo Tracking Database](https://docs.gitlab.com/ee/administration/geo/#geo-tracking-database)), then a separate database is the only option. Whether this is logical or belongs in an independent cluster will come down to scale.
+If the application is **not** part of the main RoR application code base (for instance, [Container Registry](https://gitlab.com/gitlab-org/container-registry), [Praefect](https://gitlab.com/gitlab-org/gitaly), [Geo Tracking Database](https://docs.gitlab.com/administration/geo/#geo-tracking-database)), then a separate database is the only option. Whether this is logical or belongs in an independent cluster will come down to scale.
 
 | Code base | Transaction Rate | Storage       | Database             |
 | --------- | ---------------- | ------------- | -------------------- |

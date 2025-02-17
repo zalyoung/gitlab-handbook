@@ -93,7 +93,7 @@ browser/tool you are using to talk to the environment or ensure that "current" i
 
 ### Confirming I am using the "canary" stage of an environment
 
-The best method when using the UI is to [enable the performance bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar/)
+The best method when using the UI is to [enable the performance bar](https://docs.gitlab.com/administration/monitoring/performance/performance_bar/)
 and look at the name of the Kubernetes pod service your page. If it starts
 with `gitlab-cny` (and has a baby chicken next to it), you are using the canary
 stage. There will also be the word "next" in a green box next to the GitLab logo

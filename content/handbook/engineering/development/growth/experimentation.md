@@ -8,7 +8,7 @@ description: "Information about creating and running experiments at GitLab."
 This page covers the Growth engineering process for running experiments. See also:
 
 * [How Growth Launches Experiments](/handbook/product/groups/growth/#how-growth-launches-experiments) (Product)
-* [Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/) (GitLab Developer Documentation)
+* [Experiment Guide](https://docs.gitlab.com/development/experiment_guide/) (GitLab Developer Documentation)
 * [Experimentation Design & Analysis](/handbook/product/groups/product-analysis/experimentation/) (Product Analysis)
 
 ## Running Experiments
@@ -157,10 +157,10 @@ Ask yourself, "Is there a simpler version of this experiment which is worth depl
 
 ## Experiment Status
 
-For real time experiment rollout status GitLab team members can view the [experiments API](https://gitlab.com/api/v4/experiments) ([docs](https://docs.gitlab.com/ee/api/experiments/)) (a JSON viewer for your browser is recommended).
+For real time experiment rollout status GitLab team members can view the [experiments API](https://gitlab.com/api/v4/experiments) ([docs](https://docs.gitlab.com/api/experiments/)) (a JSON viewer for your browser is recommended).
 
-The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/ee/development/experiment_guide/experiment_rollout/) in the experiment guide.
+The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/development/experiment_guide/experiment_rollout/) in the experiment guide.
 
 There are dashboards in Sisense to indicate whether the experiment flag still exists, but not the current status. These are also only available to GitLab team members.
 
-The [experiment rollout board](https://gitlab.com/groups/gitlab-org/-/boards/1352542?label_name[]=experiment-rollout) lists rollout issues linked to [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) used in development and on SaaS.
+The [experiment rollout board](https://gitlab.com/groups/gitlab-org/-/boards/1352542?label_name[]=experiment-rollout) lists rollout issues linked to [experiment feature flags](https://docs.gitlab.com/development/feature_flags/#experiment-type) used in development and on SaaS.

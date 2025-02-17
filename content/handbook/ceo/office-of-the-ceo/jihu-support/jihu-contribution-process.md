@@ -71,7 +71,7 @@ Contributions in projects that have proprietary and upstream contributions will 
 1. The JiHu Engineering team will open two MRs:
    1. JiHu MR with all changes against the default branch in [JiHu project](https://jihulab.com/gitlab-cn/gitlab).
    1. GitLab Inc MR with all non-`jh/` changes against the default branch in [GitLab Inc project](https://gitlab.com/gitlab-org/gitlab).
-1. The GitLab Inc MR will be reviewed by the GitLab Inc team members. Reviewers should follow the [guidelines for reviewing JiHu (JH) Edition related merge requests](https://docs.gitlab.com/ee/development/jh_features_review/).
+1. The GitLab Inc MR will be reviewed by the GitLab Inc team members. Reviewers should follow the [guidelines for reviewing JiHu (JH) Edition related merge requests](https://docs.gitlab.com/development/jh_features_review/).
 1. After merging, the updates will be mirrored to JiHu project via pull mirroring and synchronized via [code sync](https://jihulab.com/gitlab-cn/code-sync), merging into the default branch [`main-jh`](https://jihulab.com/gitlab-cn/gitlab/-/commits/main-jh) in the JiHu project.
 1. The JiHu Engineering team will remove all non-`jh/` changes from the JiHu MR.
 1. The JiHu Engineering team will review and merge the JiHu MR in the JiHu project.
@@ -104,11 +104,11 @@ Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-te
 
 Upstream merge requests require the same level of review and approval as all merge requests including:
 
-- [Regular code review](https://docs.gitlab.com/ee/development/code_review/)
+- [Regular code review](https://docs.gitlab.com/development/code_review/)
 - [Security review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process)
 - [Database migration review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process) when applicable
 
-Upstream merge requests may require additional [specific team reviews](https://docs.gitlab.com/ee/development/code_review/#approval-guidelines) based on changed files. High impact code is identified with [CODEOWNERS](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) rules and required approvals for specific files. For example, if the merge request includes changes related to authentication or authorization, it must be approved by a [Manage:Authentication and Authorization team member](/handbook/company/team/)
+Upstream merge requests may require additional [specific team reviews](https://docs.gitlab.com/development/code_review/#approval-guidelines) based on changed files. High impact code is identified with [CODEOWNERS](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) rules and required approvals for specific files. For example, if the merge request includes changes related to authentication or authorization, it must be approved by a [Manage:Authentication and Authorization team member](/handbook/company/team/)
 
 #### What to review
 
@@ -119,7 +119,7 @@ Upstream merge requests may require additional [specific team reviews](https://d
   - Features which can be added to CE/EE.
   - Refactoring which can make CE/EE code more clean or more modular.
   - Changes for prepending the classes/modules should be reviewed based on
-    [JH features based on CE or EE features](https://docs.gitlab.com/ee/development/jh_features_review/#jh-features-based-on-ce-or-ee-features).
+    [JH features based on CE or EE features](https://docs.gitlab.com/development/jh_features_review/#jh-features-based-on-ce-or-ee-features).
   - Database migrations related changes should be reviewed following
     [database migration review process](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process).
 

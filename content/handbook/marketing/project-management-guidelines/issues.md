@@ -6,7 +6,7 @@ title: "Issues project management guidelines"
 
 ## Background
 
-[Issues](https://docs.gitlab.com/ee/user/project/issues/) are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work.
+[Issues](https://docs.gitlab.com/user/project/issues/) are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work.
 
 Issues are typically used to
 
@@ -33,30 +33,30 @@ Because the issue discussions can be long and flowing, often a best practice is 
 
 #### Issue Details
 
-There are many detailed parts of an [issue](https://docs.gitlab.com/ee/user/project/issues/), such as:
+There are many detailed parts of an [issue](https://docs.gitlab.com/user/project/issues/), such as:
 
-- [Time tracking](https://docs.gitlab.com/ee/user/project/time_tracking/)
-- [Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight/)
-- [Participants and notifications](https://docs.gitlab.com/ee/user/profile/notifications/)
-- [Mentions](https://docs.gitlab.com/ee/user/discussions/#mentions)
-- [Related issues](https://docs.gitlab.com/ee/user/project/issues/related_issues/)
-- [Related merge Requests](https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues/#from-merge-requests)
-- [Comments](https://docs.gitlab.com/ee/user/discussions/)
-- [Zoom meetings](https://docs.gitlab.com/ee/user/project/issues/associate_zoom_meeting/)
+- [Time tracking](https://docs.gitlab.com/user/project/time_tracking/)
+- [Weight](https://docs.gitlab.com/user/project/issues/issue_weight/)
+- [Participants and notifications](https://docs.gitlab.com/user/profile/notifications/)
+- [Mentions](https://docs.gitlab.com/user/discussions/#mentions)
+- [Related issues](https://docs.gitlab.com/user/project/issues/related_issues/)
+- [Related merge Requests](https://docs.gitlab.com/user/project/issues/crosslinking_issues/#from-merge-requests)
+- [Comments](https://docs.gitlab.com/user/discussions/)
+- [Zoom meetings](https://docs.gitlab.com/user/project/issues/associate_zoom_meeting/)
 
 #### Issue templates
 
-In each project, a set of "Issue Templates" can be defined to make it easy to create common issues for different situations or problems. [Learn how to create an issue template](https://docs.gitlab.com/ee/user/project/description_templates/#create-an-issue-template)
+In each project, a set of "Issue Templates" can be defined to make it easy to create common issues for different situations or problems. [Learn how to create an issue template](https://docs.gitlab.com/user/project/description_templates/#create-an-issue-template)
 
 #### Designs and Design Discussions
 
-Issues enable and support discussions on images and designs with [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management/#overview).  Design management makes it very useful in reviewing graphics and design work asynchronously.
+Issues enable and support discussions on images and designs with [Design Management](https://docs.gitlab.com/user/project/issues/design_management/#overview).  Design management makes it very useful in reviewing graphics and design work asynchronously.
 
 #### Quick Actions
 
 Issues, Merge Requests and Epics all support the ability to use keyboard shortcuts trigger key actions in the issue, MR or epic.
 
-[Quick Actions](https://docs.gitlab.com/ee/user/project/quick_actions/) are effectively commands that make it easy and efficient to change an issue such as:
+[Quick Actions](https://docs.gitlab.com/user/project/quick_actions/) are effectively commands that make it easy and efficient to change an issue such as:
 
 - `/label` followed by the label name will add a label.
 - `/assign` followed by a user ID, will assign the issue to a person
@@ -74,7 +74,7 @@ Default to public issues, and use the [guidance on non-public communication](/ha
 
 #### Task lists
 
-In the Markdown language that is used to write the description and comments in issues it is possible to [create lists of items that work as **checkboxes**](https://docs.gitlab.com/ee/user/markdown/#task-lists) - a list of `tasks`
+In the Markdown language that is used to write the description and comments in issues it is possible to [create lists of items that work as **checkboxes**](https://docs.gitlab.com/user/markdown/#task-lists) - a list of `tasks`
 
 Realize that `task lists` are a relatively simple list of items that can be 'checked off'.
 

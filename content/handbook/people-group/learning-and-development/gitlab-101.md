@@ -50,7 +50,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** This is an [Issue](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training/-/issues/1) (internal).
 1. Labels
    1. **Definition:** They help you organize and tag your work so you can track and find the work items you're interested in. You can use descriptive titles like bug, feature request, or docs, as well as customizable colors.
-   1. **More information on:** [labels](https://docs.gitlab.com/ee/user/project/labels/).
+   1. **More information on:** [labels](https://docs.gitlab.com/user/project/labels/).
 1. Local
    1. **Definition:** your machine. You can also use GitLab locally, on your machine, not just in the browser.
    1. **Example:** If someone says to do something locally that means to open the terminal on your computer to make a change.
@@ -59,7 +59,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** Take a look at our [GitLab Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 1. Milestones
    1. **Definition:** are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. They allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
-   1. **More information on:** [milestones](https://docs.gitlab.com/ee/user/project/milestones/)
+   1. **More information on:** [milestones](https://docs.gitlab.com/user/project/milestones/)
 1. Merge Request
    1. **Definition:** allows you to visualize and collaborate on the proposed changes to source code that exist as commits on a given Git branch. A Merge Request (MR) is the basis of GitLab as a code collaboration and version control platform. It is as simple as the name implies: a request to merge one branch into another.
    1. **Example:** This is a [Merge Request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/40563#0c7def9794ef444dbc7eb560126846353b630886).
@@ -79,7 +79,7 @@ This will make more sense once you understand all of the terminology.
    1. **Definition:** are lists of issues, merge requests or epics where you were mentioned in.
 1. Weight
    1. **Definition:** allow you to get a better idea of how much time, value or complexity a given issue has or will cost.
-   1. **More information on:** [issue weights](https://docs.gitlab.com/ee/user/project/issues/issue_weight/)
+   1. **More information on:** [issue weights](https://docs.gitlab.com/user/project/issues/issue_weight/)
 
 ### Most Common Terms at GitLab
 
@@ -162,7 +162,7 @@ Knowing how to search for a GitLab issue can be very helpful, especially if you 
 1. Then, select the project the issue is in that you are searching for. In this instance the project is `gitlab-tool-training`
 1. Click on the "issues" tab under the search bar to see all issues with the text you are searching for in that specific group and project.
 
-This [docs resource](https://docs.gitlab.com/ee/user/search/) has helpful tips on searching for an Issue.
+This [docs resource](https://docs.gitlab.com/user/search/) has helpful tips on searching for an Issue.
 
 #### Video: How to search for a GitLab Issue (~4 minutes)
 
@@ -202,8 +202,8 @@ You can search for a GitLab Merge Request in the same way as you search for a Gi
 
 ### Helpful Tips for Merge Requests
 
-1. Who can merge your Merge Request (MR)? - your manager should have the ability to merge (i.e. [maintainer access](https://docs.gitlab.com/ee/user/permissions/#project-members-permissions)). If they don't have the ability to merge, they will know who you can assign it to for review/merging.
+1. Who can merge your Merge Request (MR)? - your manager should have the ability to merge (i.e. [maintainer access](https://docs.gitlab.com/user/permissions/#project-members-permissions)). If they don't have the ability to merge, they will know who you can assign it to for review/merging.
 1. If you assign your MR to someone who isn't a Maintainer, there will be a yellow triangle with an exclamation point by their picture.
 1. Soft Wrap - when you are editing your MR, you can either select soft wrap or no wrap. If you select "soft wrap" you will be able to see all of the text in one screen. If you select "no wrap" (which is the default) you will have to scroll to the right if the text on the line is wider than the page.
-1. Squash Commits - when obtaining a merge request, there is an option to enable or disable ["Squash commits when merge request is accepted"](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge/). If enabled, it combines all your merge request's commits into one and retain a clean history.
-1. Delete Branch - when creating or editing your merge request, you can also select the ["Delete source branch when merge request accepted"](https://docs.gitlab.com/ee/user/project/merge_requests/#delete-the-source-branch-on-merge-by-default) option.
+1. Squash Commits - when obtaining a merge request, there is an option to enable or disable ["Squash commits when merge request is accepted"](https://docs.gitlab.com/user/project/merge_requests/squash_and_merge/). If enabled, it combines all your merge request's commits into one and retain a clean history.
+1. Delete Branch - when creating or editing your merge request, you can also select the ["Delete source branch when merge request accepted"](https://docs.gitlab.com/user/project/merge_requests/#delete-the-source-branch-on-merge-by-default) option.

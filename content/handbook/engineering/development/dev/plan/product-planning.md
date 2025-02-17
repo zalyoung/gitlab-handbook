@@ -129,9 +129,9 @@ As a team we often work on features that require close collaboration. We've iden
 1. Feature is designed and broken down in advance of milestone start, including a [spike](#consider-a-spike-andor-a-design-document) if appropriate.
 1. Participants in the spike take part in delivery of the feature.
 1. Prior to closing the description is updated with Acceptance Criteria, with sign-off by each assignee + PM. This is what will be delivered.
-1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/ee/development/work_items/)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
+1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/development/work_items/)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
 1. Requirements are well-defined with a goal that is achievable within a single milestone and provides business value. For larger features, work may be spread out over several milestones.
-1. Items that must be delivered in separate milestones are identified and prioritized first; such as migrations, security issues, and other [multi-version compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility/) issues.
+1. Items that must be delivered in separate milestones are identified and prioritized first; such as migrations, security issues, and other [multi-version compatibility](https://docs.gitlab.com/development/multi_version_compatibility/) issues.
 1. The stable counterpart from documentation is included at the start of the spike.
 1. Reviews are kept inside the team where possible to ensure domain expertise, capacity and a low level of context switching.
 1. EM and PM work to remove or limit unneccessary/distracting work.
@@ -209,17 +209,17 @@ Using health status allows stakeholders, such as product and engineering manager
 #### Documentation
 
 Documentation should accompany code for any [new or changed functionality](/handbook/product/ux/technical-writing/workflow/#for-a-product-change) as per our
-[definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done). This can become tricky when collaborating on a feature that is
+[definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done). This can become tricky when collaborating on a feature that is
 behind a feature flag.
 
 Since all feature flags start as disabled by default, we should aim to document the
-feature as soon as it's safe for testing by users using the [feature flag template](https://docs.gitlab.com/ee/development/documentation/feature_flags/#features-disabled-by-default).
+feature as soon as it's safe for testing by users using the [feature flag template](https://docs.gitlab.com/development/documentation/feature_flags/#features-disabled-by-default).
 Don't wait until a feature is performant and stable to document it, instead do so once
 it's secure and won't leave data in a corrupt, interim state.
 
 Try to include docs with the first MR to introduce usable functionality. If this is
 an API addition with no UI, document that and allow the FE engineers to update it as
-work proceeds. As the feature flag rollout proceeds, the [documentation should be updated](https://docs.gitlab.com/ee/development/documentation/feature_flags/#features-that-became-enabled-by-default).
+work proceeds. As the feature flag rollout proceeds, the [documentation should be updated](https://docs.gitlab.com/development/documentation/feature_flags/#features-that-became-enabled-by-default).
 
 This avoids the rush to provide documentation that often accompanies the release cutoff.
 

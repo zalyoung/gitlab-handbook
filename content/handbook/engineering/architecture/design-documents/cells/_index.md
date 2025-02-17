@@ -165,7 +165,7 @@ Cluster-wide features are strongly discouraged because:
 
 ### Will Cells use the reference architecture for up to 1000 RPS or 50,000 users?
 
-See [reference architecture for up to 1000 RPS or 50,000 users](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users/).
+See [reference architecture for up to 1000 RPS or 50,000 users](https://docs.gitlab.com/administration/reference_architectures/50k_users/).
 
 The infrastructure team will properly size Cells depending on the load.
 The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for Cells deployment.

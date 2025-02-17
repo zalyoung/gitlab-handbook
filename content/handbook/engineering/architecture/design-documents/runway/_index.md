@@ -196,11 +196,11 @@ The goal of Runway is to not rely on long lived secrets or tokens inside the run
 
 #### Service projects to runway deployment projects
 
-This is handled by GitLab downstream pipeline triggers. Because of this, all permissions are handled within GitLab itself (and API calls to GitLab use short lived `CI_JOB_TOKEN`). We leverage [CI_JOB_TOKEN allowlists](https://docs.gitlab.com/ee/ci/jobs/ci_job_token/#add-a-group-or-project-to-the-job-token-allowlist) to allow deployment projects and service projects to interact in API calls (e.g. updating environments in the service project).
+This is handled by GitLab downstream pipeline triggers. Because of this, all permissions are handled within GitLab itself (and API calls to GitLab use short lived `CI_JOB_TOKEN`). We leverage [CI_JOB_TOKEN allowlists](https://docs.gitlab.com/ci/jobs/ci_job_token/#add-a-group-or-project-to-the-job-token-allowlist) to allow deployment projects and service projects to interact in API calls (e.g. updating environments in the service project).
 
 #### Deployment project to GCP Cloud
 
-GitLab CI pipelines in the deployment project are responsible for talking to GCP to provision and change the cloud resources for a Runway Service. This is done via [OpenID Connnect](https://docs.gitlab.com/ee/ci/cloud_services/google_cloud/) leveraging setup done in the Runway provisioner, in order to make deployment projects authenticate as a GCP service account
+GitLab CI pipelines in the deployment project are responsible for talking to GCP to provision and change the cloud resources for a Runway Service. This is done via [OpenID Connnect](https://docs.gitlab.com/ci/cloud_services/google_cloud/) leveraging setup done in the Runway provisioner, in order to make deployment projects authenticate as a GCP service account
 with restricted permissions.
 
 #### Reconciler to GCP Cloud

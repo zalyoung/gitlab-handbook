@@ -96,7 +96,7 @@ Visit the [Governance and IT Program Management](/handbook/business-technology/e
 
 ## Project Epics & Issues
 
-When assigned to a project, the IT PMO team is responsible for creating and maintaining the project [Epic](https://docs.gitlab.com/ee/user/group/epics/). A single parent Epic is created together with (up to) 5 [child Epics](https://docs.gitlab.com/ee/user/group/epics/manage_epics/#multi-level-child-epics), each representing a distinct phase of the System Development Lifecycle (SDLC). [Issues](https://docs.gitlab.com/ee/user/project/issues/) are used as a means to collaborate on ideas, troubleshoot problems, and strategize for their tasks. By using issues, teams can share and discuss proposals internally or involve external collaborators in the process.
+When assigned to a project, the IT PMO team is responsible for creating and maintaining the project [Epic](https://docs.gitlab.com/user/group/epics/). A single parent Epic is created together with (up to) 5 [child Epics](https://docs.gitlab.com/user/group/epics/manage_epics/#multi-level-child-epics), each representing a distinct phase of the System Development Lifecycle (SDLC). [Issues](https://docs.gitlab.com/user/project/issues/) are used as a means to collaborate on ideas, troubleshoot problems, and strategize for their tasks. By using issues, teams can share and discuss proposals internally or involve external collaborators in the process.
 
 To maintain uniformity across all PMO-led projects, the team follows the same [Epic templates](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/394).
 
@@ -140,15 +140,15 @@ The Maintenance phase begins after the new process becomes fully operational. It
 
 ### Roadmap
 
-To efficiently track program progress, each Epic is assigned a start and end date. The [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/) serves as a timeline to visualize and manage these milestones.
+To efficiently track program progress, each Epic is assigned a start and end date. The [GitLab Roadmap](https://docs.gitlab.com/user/group/roadmap/) serves as a timeline to visualize and manage these milestones.
 
 ### Issue Boards
 
-IT EntApps teams use GitLab [issue boards](https://docs.gitlab.com/ee/user/project/issue_board/) to strategically plan, organize, and visualize their work. To learn more about how IT EntApps teams manage issue boards, refer to [each team’s respective page](/handbook/business-technology/#i-classfas-fa-users-idbiz-tech-iconsi-our-functional-structure).
+IT EntApps teams use GitLab [issue boards](https://docs.gitlab.com/user/project/issue_board/) to strategically plan, organize, and visualize their work. To learn more about how IT EntApps teams manage issue boards, refer to [each team’s respective page](/handbook/business-technology/#i-classfas-fa-users-idbiz-tech-iconsi-our-functional-structure).
 
 ### Labels
 
-The IT EntApps teams use [labels](https://docs.gitlab.com/ee/user/project/labels/) to efficiently categorize issues and epics. A well-maintained, concise label list facilitates dynamic filtering and streamlined management of work. All labels are created within the `gitlab.com/gitlab-com` top-level group, making them applicable across all projects.
+The IT EntApps teams use [labels](https://docs.gitlab.com/user/project/labels/) to efficiently categorize issues and epics. A well-maintained, concise label list facilitates dynamic filtering and streamlined management of work. All labels are created within the `gitlab.com/gitlab-com` top-level group, making them applicable across all projects.
 
 To better organize and manage their work, the IT teams have different label categories. Click on each category to view the current labels utilized by the IT teams:
 

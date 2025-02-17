@@ -108,7 +108,7 @@ Examples include:
 - [GitLab handbook](/)
   - Including most GitLab runbooks/work instructions/manuals/policies/procedures
 - Public announcements
-- [Public product information](https://docs.gitlab.com/ee/)
+- [Public product information](https://docs.gitlab.com/)
 
 ### Data Classification Standards
 

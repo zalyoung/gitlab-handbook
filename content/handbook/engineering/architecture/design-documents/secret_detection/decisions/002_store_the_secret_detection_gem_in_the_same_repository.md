@@ -12,8 +12,8 @@ Part of the process to create this library and make it available for use within 
 
 We evaluated two possible approaches:
 
-1. Store the library [in the same repository](https://docs.gitlab.com/ee/development/gems/#in-the-same-repo) as the monolith.
-1. Store the library [in an external repository](https://docs.gitlab.com/ee/development/gems/#in-the-external-repo).
+1. Store the library [in the same repository](https://docs.gitlab.com/development/gems/#in-the-same-repo) as the monolith.
+1. Store the library [in an external repository](https://docs.gitlab.com/development/gems/#in-the-external-repo).
 
 Each approach came with some advantages and disadvantages, mostly around distribution, consistency, maintainability, and the overhead of having to set up review and release workflows and similar processes. See below for more information.
 
@@ -32,6 +32,6 @@ Storing the library in an external repository meant having more visibility espec
 
 The decision was made to store the library in the same repository during the first phase to ensure easier distribution since it's packaged within GitLab and will be available immediately without having to install external dependencies.
 
-With that said, we still followed [the process](https://docs.gitlab.com/ee/development/gems/#reserve-a-gem-name) to reserve the gem on [RubyGems.org](https://rubygems.org/gems/gitlab-secret_detection) to avoid name-squatters from taking over the name and providing malicious code to 3rd-parties.
+With that said, we still followed [the process](https://docs.gitlab.com/development/gems/#reserve-a-gem-name) to reserve the gem on [RubyGems.org](https://rubygems.org/gems/gitlab-secret_detection) to avoid name-squatters from taking over the name and providing malicious code to 3rd-parties.
 
 We have no plans to publish the gem externally at least until [Phase 2](../_index.md#phase-2---standalone-secret-detection-service) as we begin to consider building a standalone service to perform secret detection.

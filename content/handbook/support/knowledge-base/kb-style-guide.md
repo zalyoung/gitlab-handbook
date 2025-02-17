@@ -11,11 +11,11 @@ The voice in KB articles should be concise, direct and precise. Since many users
 
 ## Formatting
 
-Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide) and use the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/). The important thing is that we have clear information for the customer following a standard template that, over time, users will be accustomed to navigating.
+Follow the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide) and use the [recommended word list](https://docs.gitlab.com/development/documentation/styleguide/word_list/). The important thing is that we have clear information for the customer following a standard template that, over time, users will be accustomed to navigating.
 
 ### File naming
 
-File name should be similar to the title of the article. Follow the conventions in the [structure guide](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure/#work-with-directories-and-files). Specifically:
+File name should be similar to the title of the article. Follow the conventions in the [structure guide](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/#work-with-directories-and-files). Specifically:
 
 - Do not use special characters and spaces, or capital letters in file names, directory names, branch names, and anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
 - When creating or renaming a file or directory and it has more than one word in its name, use underscores (_) instead of spaces or dashes.
@@ -59,7 +59,7 @@ The environment quickly highlights what custom configs, installation types, or v
 
 - Use bullet points when possible
 - Impacted offerings - aligns with the Offering section of Docs pages
-- Impacted versions - highlights affected versions. Use [earlier](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/#earlier) and [later](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/#later) when talking about version numbers. This can be excluded if all known / supported versions are affected; be as specific as possible:
+- Impacted versions - highlights affected versions. Use [earlier](https://docs.gitlab.com/development/documentation/styleguide/word_list/#earlier) and [later](https://docs.gitlab.com/development/documentation/styleguide/word_list/#later) when talking about version numbers. This can be excluded if all known / supported versions are affected; be as specific as possible:
   - 16.1 to 16.3
   - 16.5 and earlier
   - 17.1 and later
@@ -112,7 +112,7 @@ Provides context to any of the above sections. While information should be conci
 Optional
 
 Add links to relevant feature requests, bug issues, etc. as necessary.
-Follow the format used for [Related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics)
+Follow the format used for [Related topics](https://docs.gitlab.com/development/documentation/topic_types/#related-topics)
 
 ## Integrate pre-existing documentation when possible
 

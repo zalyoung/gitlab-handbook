@@ -6,7 +6,7 @@ This guide provides guidelines and best practices for how to properly position a
 
 ## Establish an Experiment
 
-The first step when releasing the first iteration for an Incubation Engineering project is to establish the experiment. See the [documentation](https://docs.gitlab.com/ee/policy/development_stages_support/#experiment) for more details on what makes a GitLab Experiment.
+The first step when releasing the first iteration for an Incubation Engineering project is to establish the experiment. See the [documentation](https://docs.gitlab.com/policy/development_stages_support/#experiment) for more details on what makes a GitLab Experiment.
 
 To establish an experiment, ensure that the feature being released has:
 
@@ -19,13 +19,13 @@ Be sure not to include this feature in a release post until it is mature enough 
 
 ## Graduate from Experiment to Beta
 
-Once an experiment has matured sufficiently and the SEG is confident the feature is stable, unlikely to cause data loss, and the interface is unlikely to drastically change, the feature should be moved to Beta. See the [documentation](https://docs.gitlab.com/ee/policy/development_stages_support/#beta) for expectations of a Beta feature.
+Once an experiment has matured sufficiently and the SEG is confident the feature is stable, unlikely to cause data loss, and the interface is unlikely to drastically change, the feature should be moved to Beta. See the [documentation](https://docs.gitlab.com/policy/development_stages_support/#beta) for expectations of a Beta feature.
 
 To move an experiment to Beta, the following items should be in place:
 
-1. Any monitoring and alerting to ensure that any availability issues are captured. Use [logging](https://docs.gitlab.com/ee/development/logging/) or event tracking and build dashboards from the data received.
+1. Any monitoring and alerting to ensure that any availability issues are captured. Use [logging](https://docs.gitlab.com/development/logging/) or event tracking and build dashboards from the data received.
 2. [Runbook entries](https://gitlab.com/gitlab-com/runbooks) are added if necessary in order to support SRE in the event of availability issues.
-3. All data for this feature should be included in the [backup and restore processes](https://docs.gitlab.com/ee/administration/backup_restore/).
+3. All data for this feature should be included in the [backup and restore processes](https://docs.gitlab.com/administration/backup_restore/).
 4. Any feature flags should be on by default, or better yet removed completely.
 5. Update the experiment badge to a [beta badge](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions) in the UI.
 6. Documentation must exist (blog posts aren't sufficient), and the documentation should reflect beta status.
@@ -34,11 +34,11 @@ To move an experiment to Beta, the following items should be in place:
 
 ## Graduate from Beta to Generally Available (GA)
 
-The final maturity step for a feature is to move to Generally Available (GA). See the [documentation](https://docs.gitlab.com/ee/policy/development_stages_support/#generally-available-ga) for expectations of a GA feature.
+The final maturity step for a feature is to move to Generally Available (GA). See the [documentation](https://docs.gitlab.com/policy/development_stages_support/#generally-available-ga) for expectations of a GA feature.
 
 A feature that is ready for GA will have:
 
 1. Passed a [Production Readiness Review](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md)
 2. Completed a design review and all UIs are in line with GitLab's [design guidelines](https://design.gitlab.com/).
-3. Full documentation in line with GitLab's [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+3. Full documentation in line with GitLab's [documentation style guide](https://docs.gitlab.com/development/documentation/styleguide/).
 4. Full support documentation and is fully supported by the customer service team.

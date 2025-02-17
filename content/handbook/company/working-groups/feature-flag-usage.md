@@ -22,14 +22,14 @@ This group will create processes and policies that are as lean as possible in or
 
 #### Definitions
 
-- **Feature Flag** - this isn't necessarily the [feature flag feature](https://docs.gitlab.com/ee/operations/feature_flags/) but rather the way we [use feature flags in the development of GitLab](https://docs.gitlab.com/ee/development/feature_flags/)
+- **Feature Flag** - this isn't necessarily the [feature flag feature](https://docs.gitlab.com/operations/feature_flags/) but rather the way we [use feature flags in the development of GitLab](https://docs.gitlab.com/development/feature_flags/)
 
 ### Exit Criteria
 
-1. ✅ Fulfillment of the feature flag [architectural blueprint](https://docs.gitlab.com/ee/architecture/blueprints/feature_flags_development/)
+1. ✅ Fulfillment of the feature flag [architectural blueprint](https://docs.gitlab.com/architecture/blueprints/feature_flags_development/)
 1. ✅ Completion of all issues labeled with the working group scoped label on [GitLab.org](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=WorkingGroup%3A%3AFeatureFlagUsage) and [GitLab.com](https://gitlab.com/groups/gitlab-com/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=WorkingGroup%3A%3AFeatureFlagUsage)
 1. ✅ Refinement and assignment of [Feature Flag Training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/80476d9861756b3a9c8a062267288f36ff6156ca/.gitlab/issue_templates/feature-flag-training.md), and [Feature Flag Monitoring training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/80476d9861756b3a9c8a062267288f36ff6156ca/.gitlab/issue_templates/monitoring-training.md) for GitLab engineers
-1. ✅ Audit, refine, and communicate the [Feature flags in development of GitLab documentation](https://docs.gitlab.com/ee/development/feature_flags/)
+1. ✅ Audit, refine, and communicate the [Feature flags in development of GitLab documentation](https://docs.gitlab.com/development/feature_flags/)
 1. ✅ [Each functional lead is satisfied](https://gitlab.com/gitlab-org/gitlab/-/issues/336142) of the state of the feature flag processes in place in the development of GitLab
 1. ✅ Provide data to support long-term feature flag management so we can monitor the lifecycle of feature flags and take action on them as appropriate.
 
@@ -47,7 +47,7 @@ The functional leads will be responsible for:
 
 Ideally the functional lead is someone who is an IC that might be affected by the policy put in place. but anyone capable of representing a department or sub-department in the fashion mentioned above is welcome.
 
-The stakeholder departments in the table are the ones identified in the [architectural blueprint](https://docs.gitlab.com/ee/architecture/blueprints/feature_flags_development/), and listed here for reference: Engineer, Engineering Manager, Engineering Director, Product Manager, Technical Writer, Delivery Engineer, SRE.
+The stakeholder departments in the table are the ones identified in the [architectural blueprint](https://docs.gitlab.com/architecture/blueprints/feature_flags_development/), and listed here for reference: Engineer, Engineering Manager, Engineering Director, Product Manager, Technical Writer, Delivery Engineer, SRE.
 
 | Working Group Role                     | Person | Stakeholder Department | Title |
 |:---------------------------------------|:-------|:------|:------|

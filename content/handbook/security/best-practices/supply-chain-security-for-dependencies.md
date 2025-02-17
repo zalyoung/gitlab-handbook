@@ -93,7 +93,7 @@ Note: these criteria are *not* required to use a dependency, but they are good i
 
 ### Ruby Gems
 
-When a new gem is added to our `Gemfile` or when versions are changed in `Gemfile.lock`, we ask developers to [reach out to the AppSec team](https://docs.gitlab.com/ee/development/gemfile/#request-an-appsec-review) to request a review. As an AppSec engineer performing the review, please refer to the guidelines above and follow the steps mentioned below to perform reviews like these:
+When a new gem is added to our `Gemfile` or when versions are changed in `Gemfile.lock`, we ask developers to [reach out to the AppSec team](https://docs.gitlab.com/development/gemfile/#request-an-appsec-review) to request a review. As an AppSec engineer performing the review, please refer to the guidelines above and follow the steps mentioned below to perform reviews like these:
 
 - First, look to see if the gem is well maintained.
   - Look closer at the gem's code to see if there are any anomalies. This step can be time consuming, so, make sure you balance the time taken to review the gem's code with the urgency of the MR/issue the GitLab developer pinged us on.

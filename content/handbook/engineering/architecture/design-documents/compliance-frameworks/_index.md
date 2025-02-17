@@ -15,11 +15,11 @@ no_list: true
 
 ## Summary
 
-This blueprint serves as living documentation of the technical considerations in the implementation of Compliance Frameworks. This includes functionality in [Compliance Frameworks](https://docs.gitlab.com/ee/user/group/compliance_frameworks/), the [Compliance Center](https://docs.gitlab.com/ee/user/compliance/compliance_center/) and the relationship with [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/).
+This blueprint serves as living documentation of the technical considerations in the implementation of Compliance Frameworks. This includes functionality in [Compliance Frameworks](https://docs.gitlab.com/user/group/compliance_frameworks/), the [Compliance Center](https://docs.gitlab.com/user/compliance/compliance_center/) and the relationship with [Security Policies](https://docs.gitlab.com/user/application_security/policies/).
 
 ### Proposal
 
-Outline how compliance enforcement and visibility will be handled through Compliance Frameworks as an evolution from [Compliance Standards Adherence](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_standards_adherence_dashboard/).
+Outline how compliance enforcement and visibility will be handled through Compliance Frameworks as an evolution from [Compliance Standards Adherence](https://docs.gitlab.com/user/compliance/compliance_center/compliance_standards_adherence_dashboard/).
 
 ### Motivation
 
@@ -28,7 +28,7 @@ and [Audit History](#audit-history).
 
 #### Enforcement
 
-Enforcement within GitLab is currently done through [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/) and [Compliance Pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines/). This gives users two very different ways of implementing the same functionality, which has been described as confusing for users. Compliance pipelines also have some inherent technical limitation, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/6241).
+Enforcement within GitLab is currently done through [Security Policies](https://docs.gitlab.com/user/application_security/policies/) and [Compliance Pipelines](https://docs.gitlab.com/user/group/compliance_pipelines/). This gives users two very different ways of implementing the same functionality, which has been described as confusing for users. Compliance pipelines also have some inherent technical limitation, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/6241).
 
 #### Visibility
 
@@ -43,14 +43,14 @@ Currently the Standards are hard coded in the Adherence report (renamed to Statu
 
 #### Audit History
 
-This is currently achieved through compliance events ([Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events/) and [Violations within MRs](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_violations_report/)).
+This is currently achieved through compliance events ([Audit events](https://docs.gitlab.com/user/compliance/audit_events/) and [Violations within MRs](https://docs.gitlab.com/user/compliance/compliance_center/compliance_violations_report/)).
 
 ### Background
 
 #### Deprecate compliance pipelines
 
-We deprecated [compliance pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines/) in favour of
-[pipeline execution policy](https://docs.gitlab.com/ee/user/application_security/policies/pipeline_execution_policies/)
+We deprecated [compliance pipelines](https://docs.gitlab.com/user/group/compliance_pipelines/) in favour of
+[pipeline execution policy](https://docs.gitlab.com/user/application_security/policies/pipeline_execution_policies/)
 in GitLab 17.3. This decision was taken to align with the future state of enforcing compliance through security policies.
 
 #### Scope policies through compliance frameworks
@@ -78,20 +78,20 @@ compliance frameworks in GitLab 17.3.
 ### Non-Goals
 
 1. Compliance events
-   1. [Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events/)
-1. [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
+   1. [Audit events](https://docs.gitlab.com/user/compliance/audit_events/)
+1. [Security Policies](https://docs.gitlab.com/user/application_security/policies/)
    1. This document does not intend to outline how Security Policies work or how Policies use Compliance Frameworks to scope projects
    1. For more information on Security Policies refer [this document](compliance_security_policy_relationship.md)
 
 ### Terminology/Glossary
 
 1. Framework
-   1. A [Compliance Framework](https://docs.gitlab.com/ee/user/group/compliance_frameworks/) is a user-modifiable capability within GitLab to identify projects that have certain compliance requirements or need additional oversight. Compliance Frameworks generally align with established industry compliance frameworks such as SOC2 or ISO 27001.
+   1. A [Compliance Framework](https://docs.gitlab.com/user/group/compliance_frameworks/) is a user-modifiable capability within GitLab to identify projects that have certain compliance requirements or need additional oversight. Compliance Frameworks generally align with established industry compliance frameworks such as SOC2 or ISO 27001.
 1. Standard - deprecated in favor of framework
    1. A standard groups together compliance checks in the Adherence report. Compliance standards align with established compliance frameworks/standards such as SOC2 or ISO 27001
 1. Adherence
    1. Reports the percentage of a projects compliance posture against a compliance framework. For example if Project A is 50% complaint towards Framework A.
-1. [Policy](https://docs.gitlab.com/ee/user/application_security/policies/)
+1. [Policy](https://docs.gitlab.com/user/application_security/policies/)
 1. Requirement
    1. A particular requirement from an industry standard compliance frameworks/standards such as SOC2 or ISO 27001. Usually a statement of intent for a particular part of the compliance framework. These are broken down into specific Controls.
 1. Check
@@ -152,7 +152,7 @@ The external HTTP/HTTPS URLs for the user's external services are stored in the 
 We POST the latest project settings to these external services and expect a HTTP 2xx status as the response.
 
 We provide an API endpoint that can be used to update the status of an external requirement, this would be
-similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks/#set-status-of-an-external-status-check).
+similar to [setting the status of external status checks](https://docs.gitlab.com/api/status_checks/#set-status-of-an-external-status-check).
 
 The shared HMAC secret must be used to sign the request and is also used to check the responses. This
 ensures we do not need to use API tokens and complicate role management, while
@@ -500,7 +500,7 @@ All GitLab defined controls will have an audit event type configured as its trig
 
 #### Audit history
 
-In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events/) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming/) to trigger other workflows.
+In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/user/compliance/audit_events/) or [streaming audit events](https://docs.gitlab.com/user/compliance/audit_event_streaming/) to trigger other workflows.
 
 Audit events will be logged when:
 

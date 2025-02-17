@@ -5,7 +5,7 @@ title: "GitLab.com Subscriptions"
 ## How GitLab.com subscriptions work
 
 GitLab.com subscriptions work slightly differently to Self-managed licenses.
-Unlike Self-managed licenses which grant equal access to features across an installation, GitLab.com subscriptions are applied to *[namespaces](https://docs.gitlab.com/ee/user/group/#namespaces)* on GitLab.com (typically groups). Members of groups that have subscriptions applied to them will enjoy those features anywhere within the licensed namespace. For example, if `BigCorp` has an Ultimate license, the sub-groups `BigCorp/Frontend`, `BigCorp/Backend` will each have access to Ultimate features and share a common pool of Shared Runner minutes.
+Unlike Self-managed licenses which grant equal access to features across an installation, GitLab.com subscriptions are applied to *[namespaces](https://docs.gitlab.com/user/group/#namespaces)* on GitLab.com (typically groups). Members of groups that have subscriptions applied to them will enjoy those features anywhere within the licensed namespace. For example, if `BigCorp` has an Ultimate license, the sub-groups `BigCorp/Frontend`, `BigCorp/Backend` will each have access to Ultimate features and share a common pool of Shared Runner minutes.
 
 ### Common Misconceptions
 
@@ -61,11 +61,11 @@ a subscription to an internal group or internal project, please submit an
 The best way to assist a user or system admin on any new platform is to arm them with the resources they will need when questions arise. During the onboarding process after the sale, the user/admin will receive an email from GitLab with pertinent information about their subscription. Highlight this and encourage them to save it somewhere easily accessible.
 While many of the links below are included in the email, it would be helpful to review each of the following resources personally with the user/admin.
 
-1. [GitLab Documentation](https://docs.gitlab.com/ee/)
-1. [Administrator Documentation](https://docs.gitlab.com/ee/administration/) (self-managed only)
-1. [Subscription setup and management](https://docs.gitlab.com/ee/subscriptions/)
+1. [GitLab Documentation](https://docs.gitlab.com/)
+1. [Administrator Documentation](https://docs.gitlab.com/administration/) (self-managed only)
+1. [Subscription setup and management](https://docs.gitlab.com/subscriptions/)
 1. [Licensing and subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
-1. [Uploading your license](https://docs.gitlab.com/ee/administration/license/#uploading-your-license) (self-managed only)
+1. [Uploading your license](https://docs.gitlab.com/administration/license/#uploading-your-license) (self-managed only)
 1. Features available by plan: [GitLab.com](https://about.gitlab.com/pricing/feature-comparison/) & [Self-Managed](https://about.gitlab.com/pricing/feature-comparison/)
 1. [Support portal](https://support.gitlab.com/hc/en-us)
 1. [Statement of Support](https://about.gitlab.com/support/statement-of-support/)
@@ -75,13 +75,13 @@ While many of the links below are included in the email, it would be helpful to 
 1. On this page, you'll read about differences between GitLab.com and Self-Managed functionality. Whenever in doubt, don't hesitate to ask us about a particular feature/functionality which is important to your prospect prior to promissing it is available. For a question like this, contact us on Slack in the [#support_gitlab_com](https://gitlab.slack.com/messages/C4XFU81LG) or [#support_self-managed](https://gitlab.slack.com/messages/C4Y5DRKLK) channel.
 1. Be sure to stress to the new user/admin to submit their support issues directly to us via the [Support Portal](https://support.gitlab.com/hc/en-us) instead of using  you as a go-between. This will provide the most timely and comprehensive support we can offer.
 1. If you find yourself having to submit something on behalf of the user/admin, do not submit a ticket via the Support Portal/Zendesk. Instead, create an issue in [internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues).
-1. For GitLab.com, make sure the user understands how to link their GitLab.com account to the [CustomersDot](https://customers.gitlab.com/customers/sign_in) and how to associate their group with their subscription. See [managing subscriptions page](https://docs.gitlab.com/ee/subscriptions/) for instructions.
+1. For GitLab.com, make sure the user understands how to link their GitLab.com account to the [CustomersDot](https://customers.gitlab.com/customers/sign_in) and how to associate their group with their subscription. See [managing subscriptions page](https://docs.gitlab.com/subscriptions/) for instructions.
 
 ## Important differences between GitLab.com and Self-Managed subscriptions
 
 The [Pricing page](https://about.gitlab.com/pricing/) includes a "Frequently asked questions for GitLab.com" section that answers "What features do not apply to GitLab.com?" in detail. Here are some highlights:
 
-1. Features availability including [SAML](https://docs.gitlab.com/ee/integration/saml/)/[LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/) is Free vs. [SAML SSO](https://docs.gitlab.com/ee/user/group/saml_sso/) is Premium.
+1. Features availability including [SAML](https://docs.gitlab.com/integration/saml/)/[LDAP](https://docs.gitlab.com/administration/auth/ldap/) is Free vs. [SAML SSO](https://docs.gitlab.com/user/group/saml_sso/) is Premium.
 1. Access controls: customer is admin on GitLab instance vs. group owner on GitLab.com
 1. Log information and auditing: unrestricted access vs. no access on GitLab.com (can work with Support/Security to answer questions)
 

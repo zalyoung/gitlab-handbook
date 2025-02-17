@@ -127,7 +127,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### DevSecOps
 
-- [Get started with GitLab application security](https://docs.gitlab.com/ee/user/application_security/get-started-security/)
+- [Get started with GitLab application security](https://docs.gitlab.com/user/application_security/get-started-security/)
 - [Application Security in DevSecOps](https://www.linkedin.com/learning/application-security-in-devsecops) (LinkedIn Learning)
 
 #### Git
@@ -140,7 +140,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 #### Markdown
 
 - [Handbook Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
-- [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown/)
+- [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/user/markdown/)
 - [Handbook Style Guide](/handbook/about/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
 

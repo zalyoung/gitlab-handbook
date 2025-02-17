@@ -8,7 +8,7 @@ description: "A 5-day plan to get started with GitLab"
 
 We've laid out a 5-day plan you and your team can use to begin learning about and using GitLab successfully.
 
-Want to make this into a template to share with others in your organization? [Create an issue template](https://docs.gitlab.com/ee/user/project/description_templates/#create-an-issue-template) and build [this template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/017ada32b15cd9fe0385d3e65a98c29c7b63a8b1/.gitlab/issue_templates/developer_onboarding.md) into your onboarding and training so your team can use GitLab to learn GitLab.
+Want to make this into a template to share with others in your organization? [Create an issue template](https://docs.gitlab.com/user/project/description_templates/#create-an-issue-template) and build [this template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/017ada32b15cd9fe0385d3e65a98c29c7b63a8b1/.gitlab/issue_templates/developer_onboarding.md) into your onboarding and training so your team can use GitLab to learn GitLab.
 
 ## Day 1
 
@@ -22,28 +22,28 @@ Want to make this into a template to share with others in your organization? [Cr
 ## Day 3
 
 - Watch the [Intro GitLab CI/CD](https://www.youtube.com/watch?v=bE2YXhAVBeE) webinar - 1 hour.
-- Read about [CI/CD concepts](https://docs.gitlab.com/ee/ci/quick_start/#continuous-integration).
-- Browse through some [GitLab CI/CD Examples](https://docs.gitlab.com/ee/ci/examples/). We recommend bookmarking this page so you can refer back to it, as there is a lot of information available.
+- Read about [CI/CD concepts](https://docs.gitlab.com/ci/quick_start/#continuous-integration).
+- Browse through some [GitLab CI/CD Examples](https://docs.gitlab.com/ci/examples/). We recommend bookmarking this page so you can refer back to it, as there is a lot of information available.
 - Review [CI/CD resources](https://university.gitlab.com/pages/ci-cd-content) - including the GitLab CI Fundamentals learning path.
 
 ## Day 4
 
 - Watch the [Advanced CI/CD](https://www.youtube.com/watch?v=9VTGW1pCTC8) webinar - 1 hour.
-- Work through the [CI/CD Quick Start](https://docs.gitlab.com/ee/ci/quick_start/).
-- Bookmark the [CI/CD Keywords documentation](https://docs.gitlab.com/ee/ci/yaml/) for a list of all the configuration options for your `.gitlab-ci.yml` file.
+- Work through the [CI/CD Quick Start](https://docs.gitlab.com/ci/quick_start/).
+- Bookmark the [CI/CD Keywords documentation](https://docs.gitlab.com/ci/yaml/) for a list of all the configuration options for your `.gitlab-ci.yml` file.
 
 ## Day 5
 
 - Watch the [DevSecOps](https://www.youtube.com/watch?v=PH9Z_znll40&list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq&index=8) webinar - 30 minutes.
 - Watch [Adding Security to your GitLab CI/CD Pipeline](https://www.youtube.com/watch?v=Fd5DhebtScg&list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED&index=12&t=2s) - 5 minutes.
-- Read how to [secure your application](https://docs.gitlab.com/ee/user/application_security/).
+- Read how to [secure your application](https://docs.gitlab.com/user/application_security/).
 
 ## Additional resources
 
 Once you're done with the steps above, take a look at:
 
 - [GitLab University](https://university.gitlab.com/) and explore other trainings and resources.
-- [Learn GitLab with tutorials](https://docs.gitlab.com/ee/tutorials/) for a variety of video and tutorials on a range of topics.
+- [Learn GitLab with tutorials](https://docs.gitlab.com/tutorials/) for a variety of video and tutorials on a range of topics.
 
 ## Stay up to date with new features
 

@@ -23,5 +23,5 @@ h1bot and h1-attachments are deployed using GitLab continuous delivery features.
 To re-deploy these:
 
 1. Visit the appropriate configuration and deployment project
-1. Under the `Operate` menu option on the left side of the Project view, click on [Environments](https://docs.gitlab.com/ee/ci/environments/)
-1. For the `live` environment, [follow the steps to re-deploy to environment](https://docs.gitlab.com/ee/ci/environments/#retry-or-roll-back-a-deployment)
+1. Under the `Operate` menu option on the left side of the Project view, click on [Environments](https://docs.gitlab.com/ci/environments/)
+1. For the `live` environment, [follow the steps to re-deploy to environment](https://docs.gitlab.com/ci/environments/#retry-or-roll-back-a-deployment)

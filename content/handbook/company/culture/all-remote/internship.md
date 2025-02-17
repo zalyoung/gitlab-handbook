@@ -188,6 +188,6 @@ Don't forget to gather information they are willing to share such as their email
 
 ## Contribute your lessons
 
-GitLab is currently piloting an [engineering internship program](/handbook/engineering/internships). We expect to learn a great deal from the experience, while documenting challenges and solutions. If you or your organization has experience offering remote internships which would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab is currently piloting an [engineering internship program](/handbook/engineering/internships). We expect to learn a great deal from the experience, while documenting challenges and solutions. If you or your organization has experience offering remote internships which would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/user/project/merge_requests/) and adding a contribution to this page.
 
 Return to the main [all-remote page](_index.md).

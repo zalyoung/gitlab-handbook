@@ -237,7 +237,7 @@ Delivery leadership can be reached via PagerDuty. See the [Release Management Es
 
 ### Incident Mitigation Methods - EOC/Incident Manager
 
-1. If wider user impact has been established during an S1 or S2 incident, as EOC you have the authority - without requiring further permission - to [Block Users](https://docs.gitlab.com/ee/administration/moderate_users/#block-a-user) as needed in order to mitigate the incident. Make sure to follow [Support guidelines regarding `Admin Notes`](../../../support/workflows/admin_note/#adding-the-note), leaving a note that contains a link to the incident, and any further notes explaining why the user is being blocked.
+1. If wider user impact has been established during an S1 or S2 incident, as EOC you have the authority - without requiring further permission - to [Block Users](https://docs.gitlab.com/administration/moderate_users/#block-a-user) as needed in order to mitigate the incident. Make sure to follow [Support guidelines regarding `Admin Notes`](../../../support/workflows/admin_note/#adding-the-note), leaving a note that contains a link to the incident, and any further notes explaining why the user is being blocked.
     1. If users are blocked, then further follow-up will be required. This can either take place during the incident, or after it has been mitigated, depending on time-constraints.
         1. If the activity on the account is considered [abusive](../../security/security-operations/trustandsafety/#what-is-abuse), report the user to [Trust and Safety](../../security/security-operations/trustandsafety/#-contact-us) so that the account can be permanently blocked and cleaned-up. Depending on the nature of the event, the EOC may also consider reaching out to the SIRT team.
         1. If not, [open a related confidential incident issue and assign it to CMOC](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data) to reach out to the user, explaining why we had to block their account temporarily.
@@ -575,11 +575,11 @@ The EOC and the Incident Manager On Call, at the time of the incident, are the d
 
 ### Timeline
 
-Incidents use the [Timeline Events](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events/) feature, the timeline can be viewed by selecting the "Timeline" tab on the incident.
+Incidents use the [Timeline Events](https://docs.gitlab.com/operations/incident_management/incident_timeline_events/) feature, the timeline can be viewed by selecting the "Timeline" tab on the incident.
 By default, all label events are added to the Timeline, this includes `~"Incident::Mitigated"` and `~"Incident::Resolved"`.
 At a minimum, the timeline should include when start and end times of user impact.
 You may also want to highlight notes in the discussion, this is done by selecting the clock icon on the note which will automatically add it to the timeline.
-For adding timeline items quickly, use the [quick action](https://docs.gitlab.com/ee/user/project/quick_actions/), for example:
+For adding timeline items quickly, use the [quick action](https://docs.gitlab.com/user/project/quick_actions/), for example:
 
 ```text
 /timeline DB load spiked resulting in performance issues | 2022-09-07 09:30

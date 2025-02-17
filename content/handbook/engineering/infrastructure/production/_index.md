@@ -63,7 +63,7 @@ All direct or indirect changes to authentication and authorization mechanisms us
 - developer from a different team that is staff level or higher
 
 This process is enforced for the following repositories where the approval is mandatory using
-[MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/):
+[MR approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/):
 
 - [gitlab-oauth2-proxy](https://gitlab.com/gitlab-cookbooks/gitlab-oauth2-proxy)
 - [gitlab_users](https://gitlab.com/gitlab-cookbooks/gitlab_users)

@@ -25,7 +25,7 @@ This matches the `Ci` in GraphQL types (e.g., CiJob, CiStatus) and other compone
 
 ### Frontend Testing
 
-We follow the [Frontend development testing standards and style guidelines](https://docs.gitlab.com/ee/development/testing_guide/frontend_testing/)
+We follow the [Frontend development testing standards and style guidelines](https://docs.gitlab.com/development/testing_guide/frontend_testing/)
 plus some recommendations to write tests.
 
 #### Test fully rendered components

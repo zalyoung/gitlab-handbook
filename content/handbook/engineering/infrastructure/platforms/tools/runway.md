@@ -19,7 +19,7 @@ Runway is maintained by the [Scalability:Practices](/handbook/engineering/infras
 
 - [AI-gateway](/handbook/engineering/architecture/design-documents/ai_gateway/)
 - [Duo Workflow](/handbook/engineering/architecture/design-documents/duo_workflow/)
-- [PVS Service](https://docs.gitlab.com/ee/administration/external_pipeline_validation/)
+- [PVS Service](https://docs.gitlab.com/administration/external_pipeline_validation/)
 - [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse)
 - [glgo](https://gitlab.com/gitlab-org/architecture/gitlab-gcp-integration/glgo)
 - [Runway Docs](https://docs.runway.gitlab.com/)
@@ -48,7 +48,7 @@ If you need further support in understanding whether Runway can help you, or you
 
 - [Epic: Runway - Platform tooling to support AI Innovation](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/969)
 - [Runway Docs: Architecture](https://gitlab.com/gitlab-com/gl-infra/platform/runway/docs/-/blob/master/architecture.md)
-- [Blueprint: GitLab Service-Integration: AI and Beyond](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ml_experiments/)
+- [Blueprint: GitLab Service-Integration: AI and Beyond](https://docs.gitlab.com/architecture/blueprints/gitlab_ml_experiments/)
 
 ## Resources
 

@@ -1216,7 +1216,7 @@ In addition, recommendation to check, explore and considering:
 
 #### Tools for automating our coding quality standards
 
-For automating code quality and testing, we are using our own product [GitLab CI/CD pipeline](https://docs.gitlab.com/ee/ci/pipelines/).
+For automating code quality and testing, we are using our own product [GitLab CI/CD pipeline](https://docs.gitlab.com/ci/pipelines/).
 Details of pipelines we use for python should be found on the page [CI jobs (Python)](/handbook/enterprise-data/platform/ci-jobs/#-python).
 
 #### When not to use Python

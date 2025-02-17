@@ -16,7 +16,7 @@ after every iteration, to become even more useful with time.
 At GitLab, everyone can contribute, including to our design documents. If you would like to contribute to any of these documents, feel free to:
 
 1. Go to the [source files in the repository](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/content/handbook/engineering/architecture/design-documents) and select the design document you wish to contribute to.
-1. [Create a merge request](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/).
+1. [Create a merge request](https://docs.gitlab.com/development/contributing/merge_request_workflow/).
 1. `@` message both an author and a coach assigned to the design document, as listed below.
 
 {{< design-documents-list folder="handbook/engineering/architecture/design-documents" >}}

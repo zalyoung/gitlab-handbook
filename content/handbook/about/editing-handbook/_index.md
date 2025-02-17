@@ -26,10 +26,10 @@ which includes how to embed videos.
 
 A typical workflow to edit the handbook:
 
-1. [Use the Web IDE to make changes](https://docs.gitlab.com/ee/user/project/web_ide/#use-the-web-ide).
-1. [Commit changes](https://docs.gitlab.com/ee/user/project/web_ide/#commit-changes).
-1. [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests/), [assign reviewers](/handbook/about/handbook-usage/#when-to-get-approval).
-1. [Apply suggestions](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/suggestions/#apply-suggestions) if any.
+1. [Use the Web IDE to make changes](https://docs.gitlab.com/user/project/web_ide/#use-the-web-ide).
+1. [Commit changes](https://docs.gitlab.com/user/project/web_ide/#commit-changes).
+1. [Create a merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/), [assign reviewers](/handbook/about/handbook-usage/#when-to-get-approval).
+1. [Apply suggestions](https://docs.gitlab.com/user/project/merge_requests/reviews/suggestions/#apply-suggestions) if any.
 1. Merge once all suggestions are resolved and you have the necessary approvals.
 
 ### Web IDE editing steps
@@ -39,7 +39,7 @@ A typical workflow to edit the handbook:
 
    ![Handbook page at the bottom, action: Edit in Web IDE](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_bottom_handbook_action.png)
 
-1. Familiarize yourself with the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/):
+1. Familiarize yourself with the [Web IDE](https://docs.gitlab.com/user/project/web_ide/):
    - The menu sections are located on the left
    - The explorer section provides the file tree for the project, which is opened automatically when editing a handbook file. (keyboard shortcut: `Shift+Cmd+E`)
    - The editing view is on the right side. On top, there are tabs to organize open files.
@@ -49,7 +49,7 @@ A typical workflow to edit the handbook:
    ![Web IDE overview, handbook page highlighted in the file tree](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_tree_edit_handbook_page.png)
 
 1. Edit the selected file, and try the Markdown preview. `Cmd+Shift+P` on macOS opens the Web IDE command palette to search for commands. For example, type `Markdown`, select `Markdown: Open Preview to the Side` and try the preview.
-   - Note that the [handbook markdown engine](https://handbook.gitlab.com/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts/) to view the handbook [review apps](#preview-changes-on-gitlab) to preview the page, such as to verify embedded images.
+   - Note that the [handbook markdown engine](https://handbook.gitlab.com/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/user/project/merge_requests/drafts/) to view the handbook [review apps](#preview-changes-on-gitlab) to preview the page, such as to verify embedded images.
 
    ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 
@@ -74,7 +74,7 @@ A typical workflow to edit the handbook:
 
    ![Web IDE, commit and push: Create Merge Request](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_source_control_popup_create_mr.png)
 
-1. Fill in the MR template, provide why the merge request is created, add labels (optionally using quick actions, `/label ~handbook`), assign yourself (`/assign me`), and set the branch to delete when merged. Optionally, use the [draft option](https://docs.gitlab.com/ee/user/project/merge_requests/drafts/) to prevent merging until ready.
+1. Fill in the MR template, provide why the merge request is created, add labels (optionally using quick actions, `/label ~handbook`), assign yourself (`/assign me`), and set the branch to delete when merged. Optionally, use the [draft option](https://docs.gitlab.com/user/project/merge_requests/drafts/) to prevent merging until ready.
 
    ![GitLab Merge Request view](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_gitlab_create_mr.png)
 
@@ -123,10 +123,10 @@ In these videos, we run through the GitLab Handbook with experts, uncovering how
 
 ## Editing the handbook locally
 
-1. Set up an [SSH key](https://docs.gitlab.com/ee/user/ssh/) to use with GitLab, if you have not previously done so.
-1. [Set up Git](https://docs.gitlab.com/ee/topics/git/commands/) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
-1. Use your editor of choice to make changes. If you use [Visual Studio Code](https://code.visualstudio.com/download) optionally along with the [GitLab Workflow extension for VS Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/), you can follow the [Web IDE editing instructions](#use-the-web-ide-to-edit-the-handbook).
-1. [Push the changes to GitLab](https://docs.gitlab.com/ee/topics/git/commands/#send-changes-to-gitlab).
+1. Set up an [SSH key](https://docs.gitlab.com/user/ssh/) to use with GitLab, if you have not previously done so.
+1. [Set up Git](https://docs.gitlab.com/topics/git/commands/) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
+1. Use your editor of choice to make changes. If you use [Visual Studio Code](https://code.visualstudio.com/download) optionally along with the [GitLab Workflow extension for VS Code](https://docs.gitlab.com/editor_extensions/visual_studio_code/), you can follow the [Web IDE editing instructions](#use-the-web-ide-to-edit-the-handbook).
+1. [Push the changes to GitLab](https://docs.gitlab.com/topics/git/commands/#send-changes-to-gitlab).
 1. Create a merge request.
 
 Additional notes:
@@ -289,7 +289,7 @@ For all other errors, the error message should provide the information necessary
 
 See the below sections for more details on how to resolves specific types of issues.
 
-If the problem was on the `main` branch, you may need to [rebase](https://docs.gitlab.com/ee/user/project/quick_actions/#issues-merge-requests-and-epics).
+If the problem was on the `main` branch, you may need to [rebase](https://docs.gitlab.com/user/project/quick_actions/#issues-merge-requests-and-epics).
 
 If you're unsure, you can [reach out for help](#need-help).
 

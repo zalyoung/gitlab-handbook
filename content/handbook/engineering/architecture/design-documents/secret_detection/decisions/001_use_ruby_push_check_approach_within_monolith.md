@@ -16,7 +16,7 @@ The choice to use other languages (such as C++) for implementation was discarded
 
 ### Deployment architecture
 
-Several options were considered for deployments: directly embedding the logic within the Rails monolith's Push Check execution path, placement as a sidecar within a Rails node deployment, placement as a sidecar within a Gitaly node as a [server-side hook](https://docs.gitlab.com/ee/administration/server_hooks/), and deployment as a standalone service.
+Several options were considered for deployments: directly embedding the logic within the Rails monolith's Push Check execution path, placement as a sidecar within a Rails node deployment, placement as a sidecar within a Gitaly node as a [server-side hook](https://docs.gitlab.com/administration/server_hooks/), and deployment as a standalone service.
 
 ## Decision
 

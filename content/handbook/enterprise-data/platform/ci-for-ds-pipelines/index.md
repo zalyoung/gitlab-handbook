@@ -26,9 +26,9 @@ When it comes to training, scoring, and deploying machine learning models, there
     - Training CI pipelines only execute with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
     - Scoring CI pipeline only executes with the following commit message: `score <path/to/notebook/your_notebook.ipynb>`
     - Allows the pipeline to execute just the desired notebook
-  - Allow training and scoring CI pipelines to run at set dates and times using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules/)
-  - Log results to [Project wiki](https://docs.gitlab.com/ee/user/project/wiki/)
-  - Use [GitLab for Slack](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application/) integration to monitor pipeline status
+  - Allow training and scoring CI pipelines to run at set dates and times using [Scheduled pipelines](https://docs.gitlab.com/ci/pipelines/schedules/)
+  - Log results to [Project wiki](https://docs.gitlab.com/user/project/wiki/)
+  - Use [GitLab for Slack](https://docs.gitlab.com/user/project/integrations/gitlab_slack_application/) integration to monitor pipeline status
 
 ### Advantages of Using CI for Training Data Science Models
 
@@ -58,7 +58,7 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 - **scoring_config.yaml**: Configuration for scoring notebook
 - **notebooks/training_example.ipynb**: training notebook used for this example
 - **notebooks/scoring_example.ipynb**: scoring code notebook used for this example
-- **xgb_model.json**: The saved model from training that will be used for scoring (Note: in future iterations this will be pulled directly from the [Model Registry](https://docs.gitlab.com/ee/user/project/ml/model_registry/))
+- **xgb_model.json**: The saved model from training that will be used for scoring (Note: in future iterations this will be pulled directly from the [Model Registry](https://docs.gitlab.com/user/project/ml/model_registry/))
 
 ## Model Training with CI/CD
 
@@ -72,7 +72,7 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 3. **Notify** (optional)
    - **publish-metrics-comment**: Write model metrics as a comment to the merge request. This is executed after a training or scoring run is performed through the commit message method.
 4. **Test** (optional)
-   - **secret_detection**: [Pipeline secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) to scan for potential exposed secrets in your pipeline
+   - **secret_detection**: [Pipeline secret detection](https://docs.gitlab.com/user/application_security/secret_detection/) to scan for potential exposed secrets in your pipeline
 
 ![CI Jobs](/images/enterprise-data/platform/ci-for-ds-pipelines/ci-pipelines.png)
 
@@ -100,10 +100,10 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 
 ### Step-by-Step Instructions
 
-1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow/) the public [GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example) repository. Forking will allow you to further customize the code to meet your own needs.
+1. [Fork](https://docs.gitlab.com/user/project/repository/forking_workflow/) the public [GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example) repository. Forking will allow you to further customize the code to meet your own needs.
 1. Optional (but recommended) Configurations:
-   - Experiment Tracker: This will allow you to log your experiments in the native [Experiment Tracker](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/) (or MLFlow instance) and log the model artifacts to the [package registry](https://docs.gitlab.com/ee/user/packages/package_registry/).
-      - Review the [MLflow Client Compatibility Instructions](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client/) to set up the `MLFLOW_TRACKING_URI` and `MLFLOW_TRACKING_TOKEN` CI/CI in your project.
+   - Experiment Tracker: This will allow you to log your experiments in the native [Experiment Tracker](https://docs.gitlab.com/user/project/ml/experiment_tracking/) (or MLFlow instance) and log the model artifacts to the [package registry](https://docs.gitlab.com/user/packages/package_registry/).
+      - Review the [MLflow Client Compatibility Instructions](https://docs.gitlab.com/user/project/ml/experiment_tracking/mlflow_client/) to set up the `MLFLOW_TRACKING_URI` and `MLFLOW_TRACKING_TOKEN` CI/CI in your project.
       - Create a project access token (**Settings -> Access Tokens -> Add New Token**) named `REPO_TOKEN` with a `Developer` role and the following scopes: `api, read_api, read_repository, write_repository`. Be sure to copy this token.
           - ***Note***: Enabling group access tokens is a not available for SaaS Free accounts.  If using a Free account, you will need to fork the project into a personal (instead of a group) namespace ![Create Project Token](/images/enterprise-data/platform/ci-for-ds-pipelines/create_token.png)
       - Create the following new CI Variables (**Settings -> CI/CD -> Variables -> Add New Variable**):
@@ -146,7 +146,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - **build-mr-image**: Checks if a image exists in the Container Registry for the MR. If not, one will be built.
 2. **Score**
    - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using `score <path/to/notebook/your_notebook.ipynb>` in the commit message
-   - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules/)
+   - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipelines](https://docs.gitlab.com/ci/pipelines/schedules/)
 3. **Notify** (Optional)
    - **publish-metrics-comment**: Write model performance metrics as a comment on the merge request. This is executed after a scoring run is performed through the commit message method.
    - **write-to-wiki**: Write model performance metrics and job details to the project wiki. The CI configuration it set up to only execute for scheduled jobs that use the `score-scheduled` job
@@ -165,7 +165,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
   - `image: $CONTAINER_IMAGE:$IMAGE_TAG`: The training job will use the container created in the build job (as defined in `build-mr-image`), using the [Dockerfile](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/Dockerfile) and [requirements.txt](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/requirements.txt) files in the repository.
   - `tags`: Determines which runner to use. We want to be able to change the runner based on the project needs. This gets specified by `SCORE_RUNNER` in [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml) located back in our project repository
 - There is also a `score-scheduled` job, which we cover in more detail in Model Deployment
-  - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules/)
+  - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ci/pipelines/schedules/)
   - This job will also trigger the `write-to-wiki` job, which will publish model metrics to the project wiki
 - Finally, let's look at the [scoring_config.yaml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/scoring_config.yaml). Here we can configure certain variables for training our model:
   - **model_file**: The model file created during training that will be used to score the model. This could also be pulled directly from the Model Registry, but for simplicity, we are including it directly in the repository
@@ -175,7 +175,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 ### Step-by-Step Instructions
 
 1. Optional (but recommended) Wiki Configurations:
-   - This allows you to log your scheduled runs to the GitLab [Project Wiki](https://docs.gitlab.com/ee/user/project/wiki/).
+   - This allows you to log your scheduled runs to the GitLab [Project Wiki](https://docs.gitlab.com/user/project/wiki/).
    - Create a new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
       - `API_ENDPOINT`: For the value, use the GitLab API endpoint (will be similar to the `MLFLOW_TRACKING_URI` set up during training) using the following format: `https://gitlab.com/api/v4/projects/<your_project_id>`. Project ID can be found in **Settings -> General**.
       - **Note:** De-select the "Protect Variable" flag to enable experiment tracking on unprotected branches
@@ -229,7 +229,7 @@ Now that we have our model trained and scoring pipeline set up, we can focus on 
    - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/wiki.png" width="700" alt="">
 1. Configure Slack notifications (optional):
    - In your GitLab project, go to **Settings -> Integrations -> GitLab for Slack**
-   - Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application/)
+   - Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/user/project/integrations/gitlab_slack_application/)
    - We've setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
    - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/slack_notifications.png" width="700" alt="">
    - Save your changes
@@ -237,7 +237,7 @@ Now that we have our model trained and scoring pipeline set up, we can focus on 
 ## Slack Notifications (optional)
 
 - In Slack, add the GitLab for Slack app
-- Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application/)
+- Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/user/project/integrations/gitlab_slack_application/)
 - We've setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
 - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/slack_notifications.png" width="700" alt="">
 

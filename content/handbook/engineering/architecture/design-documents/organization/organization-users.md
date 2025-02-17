@@ -23,7 +23,7 @@ Organization members can get access to Groups and Projects in an Organization as
 
 Organization members can be managed in the following ways:
 
-- As [Enterprise Users](https://docs.gitlab.com/ee/user/enterprise_user/), managed by the
+- As [Enterprise Users](https://docs.gitlab.com/user/enterprise_user/), managed by the
   Organization. This includes control over their User account and the ability to
   block the User. In the context of Cells 1.0, Organization members will
   essentially function like Enterprise Users.
@@ -115,10 +115,10 @@ in total they have created 17 merge requests across both Organizations.
 
 How Billable Members are defined differs between GitLabs two main offerings:
 
-- Self-managed (SM): [Billable Members are Users who consume seats against the SM License](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-seats).
+- Self-managed (SM): [Billable Members are Users who consume seats against the SM License](https://docs.gitlab.com/subscriptions/self_managed/#subscription-seats).
   Custom roles elevated above the Guest role are consuming seats.
-- GitLab.com (SaaS): [Billable Members are Users who are Members of a Namespace (Group or Project) that consume a seat against the SaaS subscription for the top-level Group](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#how-seat-usage-is-determined).
-  Currently, [Users with Minimal Access](https://docs.gitlab.com/ee/user/permissions/#users-with-minimal-access)
+- GitLab.com (SaaS): [Billable Members are Users who are Members of a Namespace (Group or Project) that consume a seat against the SaaS subscription for the top-level Group](https://docs.gitlab.com/subscriptions/gitlab_com/#how-seat-usage-is-determined).
+  Currently, [Users with Minimal Access](https://docs.gitlab.com/user/permissions/#users-with-minimal-access)
   and Users without a Group count towards a licensed seat, but [that's changing](https://gitlab.com/gitlab-org/gitlab/-/issues/330663#note_1133361094).
 
 These differences and how they are calculated and displayed often cause

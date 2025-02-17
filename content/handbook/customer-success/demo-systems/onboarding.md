@@ -28,7 +28,7 @@ You will have your two of your own groups on GitLab.com that allow you to showca
 - `https://gitlab.com/gl-demo-ultimate-{handle}`
 - `https://gitlab.com/gl-demo-premium-{handle}`
 
-This group should then be where you store all of your demo projects as it will not be constrained by the limitations of trying to just keep your demos in your personal namespace (ex. [Epics](https://docs.gitlab.com/ee/user/group/epics/#epics), [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/#gitlab-security-dashboards-and-security-center) and other [group features](https://docs.gitlab.com/ee/user/group/#groups)).
+This group should then be where you store all of your demo projects as it will not be constrained by the limitations of trying to just keep your demos in your personal namespace (ex. [Epics](https://docs.gitlab.com/user/group/epics/#epics), [Security Dashboard](https://docs.gitlab.com/user/application_security/security_dashboard/#gitlab-security-dashboards-and-security-center) and other [group features](https://docs.gitlab.com/user/group/#groups)).
 
 - [ ] **Action:** Do not try to create these groups yourself. Open an access request using the [GitlabCom_Licensed_Demo_Group_Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request) template.
 

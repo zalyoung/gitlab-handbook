@@ -6,7 +6,7 @@ title: "Labels project management guidelines"
 
 ## Background
 
-[Labels](https://docs.gitlab.com/ee/user/project/labels/) are a powerful, flexible way to categorize epics, issues, and merge requests.
+[Labels](https://docs.gitlab.com/user/project/labels/) are a powerful, flexible way to categorize epics, issues, and merge requests.
 
 When applied appropriately and consistently, Labels enable GitLab users to discover, filter, manage, and report on issues, projects, or epics.
 
@@ -75,7 +75,7 @@ also grouping your Labels together in the UI.
 ### Templatize Label creation
 
 Labels only work properly when they are applied consistently. Wherever possible, automate the creation of appropriate Labels by adding them to
-[Issue templates](https://docs.gitlab.com/ee/user/project/description_templates/#create-an-issue-template).
+[Issue templates](https://docs.gitlab.com/user/project/description_templates/#create-an-issue-template).
 
 ![Sample scoped labels](/images/marketing/project-management-guidelines/labels-template.png)
 

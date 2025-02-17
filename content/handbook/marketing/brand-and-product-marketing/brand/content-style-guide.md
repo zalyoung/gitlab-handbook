@@ -112,7 +112,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 ## Style and formatting
 
-For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. For guidance on how to use specific terms, refer to the [recommended word list in the documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/).
+For any style questions not directly addressed below, refer to the [Associated Press Stylebook](https://www.apstylebook.com/). Where the guidance below conflicts with AP style, the guidance below takes priority. For guidance on how to use specific terms, refer to the [recommended word list in the documentation](https://docs.gitlab.com/development/documentation/styleguide/word_list/).
 
 ### Style
 
@@ -208,7 +208,7 @@ If the word the forms part of a brand or publication's name, capitalize it. Omit
 
 #### GitLab feature names
 
-Generally, GitLab feature names are lowercase, but there are exceptions. Refer to the [recommended word list in the documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/) if you're unsure.
+Generally, GitLab feature names are lowercase, but there are exceptions. Refer to the [recommended word list in the documentation](https://docs.gitlab.com/development/documentation/styleguide/word_list/) if you're unsure.
 
 #### GitLab functions, departments, and teams
 
@@ -320,7 +320,7 @@ Generally, don't hyphenate prefixes such as _semi, pre, non, un, sub_, or _multi
 
 Do use a hyphen after a prefix followed by a proper noun and for words beginning with the prefixes _all-, mid-, ex-_ (meaning "former"), and _self-_ (_mid-July, self-managed_).
 
-Refer to the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/) for guidance on how to hyphenate specific words.
+Refer to the [recommended word list](https://docs.gitlab.com/development/documentation/styleguide/word_list/) for guidance on how to hyphenate specific words.
 
 #### Spacing
 

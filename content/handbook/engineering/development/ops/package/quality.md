@@ -121,6 +121,6 @@ For ephemeral demos with Omnibus and Container Registry:
 ## Documentation
 
 - [GitLab QA Framework](https://gitlab.com/gitlab-org/gitlab-qa)
-- [End-to-End Testing Guide](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+- [End-to-End Testing Guide](https://docs.gitlab.com/development/testing_guide/end_to_end/)
 - [Container Registry Development](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/development.md)
-- [Package Development](https://docs.gitlab.com/ee/development/packages/)
+- [Package Development](https://docs.gitlab.com/development/packages/)

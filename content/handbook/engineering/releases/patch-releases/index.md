@@ -4,12 +4,12 @@ title: "Patch Releases"
 
 ## Patch release overview
 
-Patch releases are performed according to the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance/):
+Patch releases are performed according to the [GitLab Maintenance Policy](https://docs.gitlab.com/policy/maintenance/):
 
 * Backport bug fixes to the current stable released version of GitLab.
 * Backport security fixes to the current, and previous two GitLab Versions.
 
-Patches that are outside of our maintenance policy must be requested and agreed upon by the release managers and the requester (see [backporting to versions outside the maintenance policy](https://docs.gitlab.com/ee/policy/maintenance/#backporting-to-older-releases) for details).
+Patches that are outside of our maintenance policy must be requested and agreed upon by the release managers and the requester (see [backporting to versions outside the maintenance policy](https://docs.gitlab.com/policy/maintenance/#backporting-to-older-releases) for details).
 
 Patch releases are prepared in parallel with regular GitLab.com deployments so that continuous deployment is not blocked. In this way we can apply security fixes to GitLab.com instances before the public release.
 
@@ -29,7 +29,7 @@ bug and vulnerability fixes.
 At GitLab, there are two types of patch releases processes:
 
 1. **Planned (default)**: An SLO-driven patch to publish all available bug and vulnerability fixes per
-   the [GitLab maintenance policy](https://docs.gitlab.com/ee/policy/maintenance/). Scheduled twice a month on
+   the [GitLab maintenance policy](https://docs.gitlab.com/policy/maintenance/). Scheduled twice a month on
    the Wednesday before and after the [monthly release week](https://about.gitlab.com/releases/), planned patches comply
    with the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and
    the [security remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/). Patches that include

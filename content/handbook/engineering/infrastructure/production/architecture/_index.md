@@ -26,11 +26,11 @@ The compute and network layout that runs GitLab.com
 
 ### Related Pages
 
-- [Application Architecture documentation](https://docs.gitlab.com/ee/development/architecture/)
-- [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab.com Rate Limits](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits)
+- [Application Architecture documentation](https://docs.gitlab.com/development/architecture/)
+- [GitLab.com Settings](https://docs.gitlab.com/user/gitlab_com/)
+- [GitLab.com Rate Limits](https://docs.gitlab.com/user/gitlab_com/#gitlabcom-specific-rate-limits)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
-- [GitLab performance monitoring documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/)
+- [GitLab performance monitoring documentation](https://docs.gitlab.com/administration/monitoring/performance/)
 - [Performance of the Application](/handbook/engineering/performance/)
 - [Gemnasium Service Production Architecture](supporting-architecture.html#gemnasium)
 - [CI Service Architecture](ci-architecture.html)

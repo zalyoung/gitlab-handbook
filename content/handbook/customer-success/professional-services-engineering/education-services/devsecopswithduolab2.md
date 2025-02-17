@@ -17,7 +17,7 @@ In this task, we are going to generate a basic 'hello world' program in Go using
 
 1. Select **Edit > Web IDE**.
 
-    > **Note:** In this lab we are using the Web IDE, but you can also use Duo Chat and other Duo tools in your local IDE. [See available extensions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/supported_extensions/#supported-editor-extensions).
+    > **Note:** In this lab we are using the Web IDE, but you can also use Duo Chat and other Duo tools in your local IDE. [See available extensions](https://docs.gitlab.com/user/project/repository/code_suggestions/supported_extensions/#supported-editor-extensions).
 
 1. In the Web IDE, locate the GitLab Duo Chat icon. This icon will be the last item in the left side bar, showing the GitLab icon.
 

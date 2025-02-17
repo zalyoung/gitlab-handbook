@@ -118,7 +118,7 @@ The Security Assurance Automation team is continuously engineering new automated
 
 [Tableau Dashboarding](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTZenGRCObservations/ZenGRCObservationsDashboard) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
 
-[Insight Dashboarding](https://docs.gitlab.com/ee/user/project/insights/#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
+[Insight Dashboarding](https://docs.gitlab.com/user/project/insights/#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
 
 #### Compliance control monitoring and evidence gathering automation
 
@@ -189,7 +189,7 @@ The general philosophy is to solve new requests via scripts, which live in the [
 
 Templates for each of these will be found under the [SAA Project Templates](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/project-templates) subgroup.
 
-The `.gitlab-ci.yml` of module repositories will be used to test and package the code then publish it to GitLab's [PyPi Registry](https://docs.gitlab.com/ee/user/packages/pypi_repository/). Meanwhile, in the scripts repo, LINT and security scanning will be the focus. Finally, scheduled / periodic executions should be managed in projects created under the SAA [schedules](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/schedules) subgroup.
+The `.gitlab-ci.yml` of module repositories will be used to test and package the code then publish it to GitLab's [PyPi Registry](https://docs.gitlab.com/user/packages/pypi_repository/). Meanwhile, in the scripts repo, LINT and security scanning will be the focus. Finally, scheduled / periodic executions should be managed in projects created under the SAA [schedules](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/schedules) subgroup.
 
 Below is a list of libraries we use to assist with standardization:
 

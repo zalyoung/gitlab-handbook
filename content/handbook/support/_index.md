@@ -205,13 +205,13 @@ FY24 was a year of better understanding the needs of our customers. In FY25 we w
 
 ## Dogfooding in Support
 
-Citing our [dogfooding](/handbook/values/#dogfooding) operating principle, people sometimes ask why GitLab Support doesn't use [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/).
+Citing our [dogfooding](/handbook/values/#dogfooding) operating principle, people sometimes ask why GitLab Support doesn't use [Service Desk](https://docs.gitlab.com/user/project/service_desk/).
 
 Dogfooding is using a piece of GitLab *for its intended purpose*. For example, one *could* use GitLab issues as a newsletter (and we do! See: [Support Week in Review](#support-week-in-review)), but creating merge requests to help Issues serve as a newsletter more effectively wouldn't be dogfooding unless that improvement also helps its core use case.
 
 In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
 
-At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
+At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/user/discussions/#add-an-internal-note).
 
 We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
 
@@ -543,7 +543,7 @@ or accountability.
 Artifacts of approval can include:
 
 - Getting a peer or manager to review and merge your MR
-- A peer or manager showing their approval using [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
+- A peer or manager showing their approval using [MR approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
 - A peer or manager commenting "looks good to me"
 
 ### Support Workflows
@@ -563,7 +563,7 @@ Each Slack channel within Support has a number of [Workflows](https://slack.com/
 #### Issue Notification
 
 Some workflows are meant to notify the team of new issues created in the relevant project.
-In these cases, a [project webhook](https://docs.gitlab.com/ee/user/project/integrations/webhooks/) passes information to [Zapier](https://zapier.com/app/zaps/folder/210292),
+In these cases, a [project webhook](https://docs.gitlab.com/user/project/integrations/webhooks/) passes information to [Zapier](https://zapier.com/app/zaps/folder/210292),
 which then sends the information to a Slack workflow.
 
 - `#support_gitlab-com`
@@ -664,31 +664,31 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 
 - GitLab
   - [GitLab.com Status](https://status.gitlab.com/)
-  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/development/documentation/
 - Writing docs
-  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index/)
-  - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-  - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown/)
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/development/documentation/index/)
+  - [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
+  - [GitLab Markdown](https://docs.gitlab.com/user/markdown/)
 - Setting up GitLab
-  - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture/)
-  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/
+  - [GitLab Architecture Overview](https://docs.gitlab.com/development/architecture/)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/administration/backup_restore/
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
-  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index/)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/administration/backup_restore/index/)
   - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
   - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration/)
   - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database/#seed-the-database-fresh-installs-only)
 - Debugging GitLab
-  - [Log system](https://docs.gitlab.com/ee/administration/logs/)
-  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/
-  - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance/)
-  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index/#support-team-docs)
-  - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet/)
+  - [Log system](https://docs.gitlab.com/administration/logs/)
+  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/administration/
+  - [Maintenance Rake Tasks](https://docs.gitlab.com/administration/raketasks/maintenance/)
+  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/administration/index/#support-team-docs)
+  - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/administration/troubleshooting/gitlab_rails_cheat_sheet/)
 - GitLab features
   - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
   - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
-  - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch/)
-  - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
-- De[Feature flags](https://docs.gitlab.com/ee/development/feature_flags/
-  - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities/)
-  - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index/)
-  - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime/)
+  - [Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch/)
+  - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/user/project/clusters/)
+- De[Feature flags](https://docs.gitlab.com/development/feature_flags/
+  - [GitLab development utilities](https://docs.gitlab.com/development/utilities/)
+  - [Feature flags](https://docs.gitlab.com/development/feature_flags/index/)
+  - [What requires downtime?](https://docs.gitlab.com/update/with_downtime/)

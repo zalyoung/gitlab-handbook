@@ -175,7 +175,7 @@ are essential. The table below describes these and gives the reason why.
 |---    | --- | ---               | --- |
 | ~workflow::* | Communicates the current workflow state of an issue. Important for understanding progress & quantifying risk during the course of a milestone. | [Updating Issues Throughout Development](/handbook/engineering/workflow/#updating-issues-throughout-development) | Engineer |
 | ~type::* | Communicates the type of work being done. Used to quantify and report the split of work to roles inside and outside GitLab. | [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) | |
-| ~Deliverable/~Stretch | ~Deliverable communicates to customers and stakeholders that we intend to deliver an issue within the assigned milestone. ~Stretch indicates that it might be started during the milestone but is not expected to complete. | [Release Scoping Labels](https://docs.gitlab.com/ee/development/labels/#release-scoping-labels) | Engineering Manager |
+| ~Deliverable/~Stretch | ~Deliverable communicates to customers and stakeholders that we intend to deliver an issue within the assigned milestone. ~Stretch indicates that it might be started during the milestone but is not expected to complete. | [Release Scoping Labels](https://docs.gitlab.com/development/labels/#release-scoping-labels) | Engineering Manager |
 
 #### Async update
 
@@ -220,7 +220,7 @@ To avoid rework we reach out to other teams early when working on the following 
 
 | Team | Domain overlap |
 | ---  | ---    |
-| [Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/) | GitLab Pages [.gitlab-ci.yml syntax](https://docs.gitlab.com/ee/ci/yaml/) |
+| [Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/) | GitLab Pages [.gitlab-ci.yml syntax](https://docs.gitlab.com/ci/yaml/) |
 
 ## Dashboards
 

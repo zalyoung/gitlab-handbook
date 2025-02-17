@@ -139,7 +139,7 @@ The Remote Development group has decided to use an alternate planning process fo
 1. Workspace is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
 1. The Workspace category is also currently receiving much attention as part of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Workspace category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
-1. To better support the use of these methodologies, the Remote Development group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint/) where possible.
+1. To better support the use of these methodologies, the Remote Development group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/user/group/iterations/), and following the [documented process for running agile iterations](https://docs.gitlab.com/tutorials/agile_sprint/) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
 
 Even though the Web IDE category does not have all these constraints (e.g. it is based on VS Code and is not greenfield code, and has fewer unknowns), the Web IDE category will follow a similar process in order reduce the cognitive overhead of the entire group.
@@ -288,7 +288,7 @@ The "Pre-Iteration Planning" (Pre-IPM) meeting prepares for the Iteration Planni
 
 During the Pre-IPM, the team will collaborate on creating/refining, organizing, and clarifying all issues which are to be prioritized for the upcoming iteration(s). This will normally involve Product and Engineering leaders on the team, but may also involve Design or other team members depending on the nature of the issues involved. The goal is to ensure that all issues which have been identified as a priority for the upcoming releases are properly refined, curated, prioritized, and ready for the wider team to briefly discuss and estimate in the next IPM.
 
-If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks/#set-task-weight), because boards cannot display individual
+If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/user/tasks/#set-task-weight), because boards cannot display individual
 tasks.
 
 **QUESTION: Why isn't there a `~(workspaces|webide)-workflow::refined` phase instead of using the `~refined` label?**
@@ -462,7 +462,7 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 ### 🧹 Follow-up issues which span multiple releases
 
-Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations/#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process).
+Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/development/database/avoiding_downtime_in_migrations/#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/api/graphql/#deprecation-and-removal-process).
 
 In such cases where we have pending or follow up tasks for future releases such as removing an ignore rule, removing a deprecated field from GraphQL, finalizing background migrations, etc., we must create follow up issues so we do not forget to complete the work in the future. Here is the process to follow:
 

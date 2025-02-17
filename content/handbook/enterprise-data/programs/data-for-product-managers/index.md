@@ -15,12 +15,12 @@ Here are some useful links that we recommend for you to bookmark:
 - [Data Catalog](/handbook/enterprise-data/data-catalog): Helpful guides on how to use our data
 - [DBT documentation](https://dbt.gitlabdata.com/#!/overview): Data model documentation
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/): Service Ping metric definitions and metadata
-- [Service Ping documentation](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
+- [Service Ping documentation](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 - [Snowplow Event Dictionary](https://metrics.gitlab.com/events/): Snowplow event definitions and metadata
 - [Product Data Insights handbook](/handbook/product/groups/product-analysis/): Information about the Product Data Insights team
 - [Tableau documentation](/handbook/enterprise-data/platform/tableau/): Information and guides on how to use Tableau
 - [Analytics Instrumentation Quick Links](/handbook/product/product-processes/analytics-instrumentation-guide/#quick-links)
-- [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start/): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
+- [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/quick_start/): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
 - [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features.
 
 ### Getting Tableau Access
@@ -76,7 +76,7 @@ Each data source comes with its own caveats, capabilities, and limitations. The 
 
 ### Service Ping (Version App)
 
-[Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics/) is a custom tool that GitLab built to collect weekly aggregated information from our customers across various deployment options:
+[Service Ping](https://docs.gitlab.com/administration/settings/usage_statistics/) is a custom tool that GitLab built to collect weekly aggregated information from our customers across various deployment options:
 
 - Self-Managed: Customers who host our product on their own hardware.
 - GitLab Dedicated: Our fully-managed, single-tenant SaaS offering where each customer gets their own isolated instance of GitLab, hosted and managed by GitLab's team.
@@ -214,15 +214,15 @@ Snowplow Analytics is an open-source enterprise event-level analytics platform t
 
 #### Instrumentation
 
-Analytics Instrumentation has built [Internal Event tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/), which will guide you on how to instrument Snowplow events. To get started, use the [Quick Start Guide to Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start/#quick-start-for-internal-event-tracking).
+Analytics Instrumentation has built [Internal Event tracking](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/), which will guide you on how to instrument Snowplow events. To get started, use the [Quick Start Guide to Internal Event Tracking](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/quick_start/#quick-start-for-internal-event-tracking).
 
-Once your Snowplow events have been instrumented, as part of the validation process, the newly instrumented event should be tested to ensure it is working properly. While you as the PM probably won't be doing the validation yourself every time, it is nice to know how it works. You can learn more about testing Snowplow events in the [Internal Event documentation here](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/).
+Once your Snowplow events have been instrumented, as part of the validation process, the newly instrumented event should be tested to ensure it is working properly. While you as the PM probably won't be doing the validation yourself every time, it is nice to know how it works. You can learn more about testing Snowplow events in the [Internal Event documentation here](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/).
 
 #### Visualize your events in Tableau
 
 The data you have instrumented is most useful if it can be visualized in a chart. Refer to the [Tableau section](/handbook/enterprise-data/platform/tableau/) of the handbook for information on creating charts.
 
-- First, check if they are correctly stored in Snowflake in the [Snowplow Event Exploration Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2294309) (note: the data volume is quite large, so please be patient with dashboard load time). You can use the filters to find your events. If you are not sure of the value of the different attributes, they should have been captured in the [event definition](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/event_definition_guide/). If not, check with your engineering manager.
+- First, check if they are correctly stored in Snowflake in the [Snowplow Event Exploration Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2294309) (note: the data volume is quite large, so please be patient with dashboard load time). You can use the filters to find your events. If you are not sure of the value of the different attributes, they should have been captured in the [event definition](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/event_definition_guide/). If not, check with your engineering manager.
 - Once you have verified that your events are properly stored, you are ready to query and visualize the data! Please be aware that we are collecting several millions of events (page views, structured events) per day, so the whole dataset is quite slow to query. In order to make it easier to explore this data source, we have created several smaller tables:
   - [`common_mart.mart_behavior_structured_event`](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_behavior_structured_event): contains ALL structured events (these are what is instrumented with Internal Event tracking)
   - [`common.fct_behavior_website_page_view`](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_behavior_website_page_view): contains ALL page views

@@ -14,19 +14,19 @@ The work items framework provides a consistent approach to creating work item ob
 
 ## What functionality is available?
 
-The work items framework provides a [base work item object](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-properties) with options to extend functionality using [widgets](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Additional work item data and functionality is encapsulated within a widget. For example, the [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetassignees) enables user assignment.
+The work items framework provides a [base work item object](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-properties) with options to extend functionality using [widgets](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-widgets). Additional work item data and functionality is encapsulated within a widget. For example, the [WorkItemWidgetAssignees](https://docs.gitlab.com/api/graphql/reference/#workitemwidgetassignees) enables user assignment.
 
-You can see the list of available widgets [here](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Each widget, except for the core work item object, can be turned on or off for each work item type.
+You can see the list of available widgets [here](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-widgets). Each widget, except for the core work item object, can be turned on or off for each work item type.
 
 The work items framework also provides an out-of-the-box work item detail view and work items can be displayed in the Issues list if desired.
 
 ## Where is the work items framework used?
 
-The work items framework is currently used in several features; including [Tasks](https://docs.gitlab.com/ee/user/tasks/) and [OKRs](https://docs.gitlab.com/ee/user/okrs/).
+The work items framework is currently used in several features; including [Tasks](https://docs.gitlab.com/user/tasks/) and [OKRs](https://docs.gitlab.com/user/okrs/).
 
 Work is ongoing to convert existing objects to Work Item Types, and implement new ones; for example [Issues](https://gitlab.com/groups/gitlab-org/-/epics/9584) and [Epics](https://gitlab.com/groups/gitlab-org/-/epics/9290).
 
-A comprehensive list of Work Item Types currently implemented and being implemented is available in the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-types).
+A comprehensive list of Work Item Types currently implemented and being implemented is available in the [Architecture Blueprint](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-types).
 
 ## What functionality is on the roadmap for the work items framework?
 
@@ -63,11 +63,11 @@ If you decide to use the work items framework this will usually mean that you're
 
 ### Creating a new work item type
 
-If your group would like a particular work item type to describe your user's work, you can create a new work item type. Creating a new work item type sets the foundation for adding widgets that are specific to data and behavior for your use case. For example, OKRs have a [progress widget](https://docs.gitlab.com/ee/user/okrs/#set-objective-progress) that is not present in other work item types.
+If your group would like a particular work item type to describe your user's work, you can create a new work item type. Creating a new work item type sets the foundation for adding widgets that are specific to data and behavior for your use case. For example, OKRs have a [progress widget](https://docs.gitlab.com/user/okrs/#set-objective-progress) that is not present in other work item types.
 
 You can see an example of the solution validation and build planning process in [this epic](https://gitlab.com/groups/gitlab-org/-/epics/7864). Here the PM defined the data elements and behavior desired in the Objective and Key Result work item type.
 
-For details on the technical implementation process, please refer to our [documentation](https://docs.gitlab.com/ee/development/work_items/#creating-a-new-work-item-type-in-the-database). You can see an example of the implementation in the introduction of OKRs:
+For details on the technical implementation process, please refer to our [documentation](https://docs.gitlab.com/development/work_items/#creating-a-new-work-item-type-in-the-database). You can see an example of the implementation in the introduction of OKRs:
 
 - [Backend Work to add Objective and Key Result Work Item Types](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/101324)
 - [Backend work to support creation of objectives behind feature flag](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/103355)
@@ -75,7 +75,7 @@ For details on the technical implementation process, please refer to our [docume
 
 ### Creating or modifying widgets
 
-Widgets encompass the specific data and behaviors that differentiate work items from each other. If you need to modify or add a new work item widget, refer to [this page](https://docs.gitlab.com/ee/development/work_items_widgets/) for the technical details on how to achieve this.
+Widgets encompass the specific data and behaviors that differentiate work items from each other. If you need to modify or add a new work item widget, refer to [this page](https://docs.gitlab.com/development/work_items_widgets/) for the technical details on how to achieve this.
 You can see an example of the implementation in the [introduction of the dates widget](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93204). Note that this widget is planned to be used across several work item types.
 
 ### Ideas only

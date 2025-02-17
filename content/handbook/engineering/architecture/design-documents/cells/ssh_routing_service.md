@@ -43,7 +43,7 @@ sequenceDiagram
     GitLab Shell-->>-Git on client: ssh git-upload-pack response
 ```
 
-Gitaly servers [must not](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly/#network-architecture)
+Gitaly servers [must not](https://docs.gitlab.com/administration/gitaly/configure_gitaly/#network-architecture)
 be exposed to the public internet, as Gitaly network traffic is unencrypted by default.
 This restriction makes it challenging to redirect Git over SSH requests to other instances.
 

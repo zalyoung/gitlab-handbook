@@ -20,7 +20,7 @@ However, there will be some secrets that will be required to be the same for all
 ## 1. Definition
 
 GitLab has a few [secrets](https://docs.gitlab.com/charts/installation/secrets/) that need to be configured.
-These secrets are [stored in different locations depending on the installation method](https://docs.gitlab.com/ee/development/application_secrets/#where-the-secrets-are-stored).
+These secrets are [stored in different locations depending on the installation method](https://docs.gitlab.com/development/application_secrets/#where-the-secrets-are-stored).
 
 - Secrets for encryption: `secret_key_base` (session data) and `db_key_base` (encryption at rest in the database).
 - Secrets for features: `otp_key_base` and `openid_connect_signing_key`.
@@ -33,7 +33,7 @@ Last but not least, many features need credentials to be set up. These credentia
 
 - [`/etc/gitlab/gitlab.rb` for Omnibus](https://docs.gitlab.com/omnibus/settings/configuration/)
 - [Kubernetes secrets](https://docs.gitlab.com/charts/installation/secrets/#smtp-password) for Charts
-- [`config/gitlab.yml` for source installation](https://docs.gitlab.com/ee/administration/incoming_email/#self-compiled-installations)
+- [`config/gitlab.yml` for source installation](https://docs.gitlab.com/administration/incoming_email/#self-compiled-installations)
 
 ## 2. Data flow
 

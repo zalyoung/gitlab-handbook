@@ -26,10 +26,10 @@ Make sure to save these credentials as distinct from your regular GitLab credent
 
 - Resources for Prospects who are trialing and need direction
   - [Get started with GitLab](https://docs.gitlab.com/)
-  - [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/)
+  - [GitLab epics](https://docs.gitlab.com/user/group/epics/)
 - [Instructions on how to renew self-managed](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription)
 - [Customer Facing: Licensing, Renewing, and Subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
-- [Subscription Setup and Management (user facing)](https://docs.gitlab.com/ee/subscriptions/)
+- [Subscription Setup and Management (user facing)](https://docs.gitlab.com/subscriptions/)
 
 ## True-Ups, Adding Seats, Users
 
@@ -77,7 +77,7 @@ The "Maximum Users" count in the instance refers to this running list of active 
 Communicate to customer
 
 >>>
-- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/ee/subscriptions/customers_portal/#sign-in-to-customers-portal)
+- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/subscriptions/customers_portal/#sign-in-to-customers-portal)
 - Go to `Manage Purchases`
 - Locate the subscription you wish to add more users to and click the button `Add more seats`
 - Enter the additional amount of users you wish to have (i.e. you have 50 but want to have 60, so you have to enter 10)
@@ -107,7 +107,7 @@ Communicate to the customer
 To help me provide better support for your renewal I'll need some more information, could you please provide a screenshot following the below instructions?
 
 1. Navigate to Admin Area
-1. Click `License` as it's described [here](https://docs.gitlab.com/ee/administration/license_file/#view-license-details-and-history) and send it to me
+1. Click `License` as it's described [here](https://docs.gitlab.com/administration/license_file/#view-license-details-and-history) and send it to me
    - For GitLab.com
 1. Navigate to group settings
 1. Navigate to billing

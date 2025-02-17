@@ -92,8 +92,8 @@ The corresponding Service Level Objectives (SLOs) for these SLIs require low lat
 It's crucial to ensure that the addition of the routing layer in front of these services does not impact the SLIs.
 The routing layer is a proxy for these services, and we lack a comprehensive SLI monitoring system for the entire request flow (including components like the Edge network and Load Balancers) we use the SLIs for `web`, `git`, and `api` as a target.
 
-The main SLI we use is the [rails requests](https://docs.gitlab.com/ee/development/application_slis/rails_request/).
-It has multiple `satisfied` targets (apdex) depending on the [request urgency](https://docs.gitlab.com/ee/development/application_slis/rails_request/#how-to-adjust-the-urgency):
+The main SLI we use is the [rails requests](https://docs.gitlab.com/development/application_slis/rails_request/).
+It has multiple `satisfied` targets (apdex) depending on the [request urgency](https://docs.gitlab.com/development/application_slis/rails_request/#how-to-adjust-the-urgency):
 
 | Urgency    | Duration in ms |
 | ---------- | -------------- |

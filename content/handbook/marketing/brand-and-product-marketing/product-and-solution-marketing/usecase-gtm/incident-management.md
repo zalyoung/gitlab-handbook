@@ -170,7 +170,7 @@ Check out the [Incident Management category direction page](https://about.gitlab
 
 ### Documentation
 
-[Incident Management documentation](https://docs.gitlab.com/ee/operations/incident_management/)
+[Incident Management documentation](https://docs.gitlab.com/operations/incident_management/)
 
 ### Presentations
 

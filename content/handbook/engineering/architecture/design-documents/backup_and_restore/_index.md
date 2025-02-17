@@ -14,7 +14,7 @@ toc_hide: true
 
 ## Summary
 
-[The Unified Backups project](https://gitlab.com/groups/gitlab-org/-/epics/11577) provides a single command-line tool that will handle the application backup and recovery needs of GitLab installations across supported [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/). It will be packaged separately from the main GitLab code base to keep it decoupled from specific release versions but will be shipped along with GitLab releases.
+[The Unified Backups project](https://gitlab.com/groups/gitlab-org/-/epics/11577) provides a single command-line tool that will handle the application backup and recovery needs of GitLab installations across supported [reference architectures](https://docs.gitlab.com/administration/reference_architectures/). It will be packaged separately from the main GitLab code base to keep it decoupled from specific release versions but will be shipped along with GitLab releases.
 
 This tool will be aware of the nuances of each runtime environment configuration and it will make adaptations to capture and restore data appropriately. It will stand as the primary recommended solution for most customers going forward.
 
@@ -34,7 +34,7 @@ A reliable application data backup is crucial to any disaster recovery plan. A b
 
 While DR is the primary motivation for creating tooling around backup creation and restoration, we also acknowledge that administrators of self-hosted installations often need to use backup and restoration for configuration and maintenance purposes. The administrator may need to upgrade versions of a crucial component of the system such as PostgreSQL or object storage appliance. In such cases, it is often best to take down their GitLab application temporarily to prevent further updates. Then, the admin may capture a point-in-time backup of their installation. The admin then performs the necessary changes to the system such as upgrading PostgreSQL to a more recent version. When complete, the captured backup data may be restored to ensure GitLab is close to the same state as it was in prior to the maintenance work. Finally, the site may be brought back online for general use again.
 
-Alternatively, an admin may need to migrate their current GitLab production architecture to new infrastructure. For example, an organization may be running a simple GitLab 1K [reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) on a single machine the organization manages. However, over time, this organization has usage that has grown beyond the parameters of a simple 1K architecture, and now an admin has been charged with setting up a cloud-based 3K multi-node reference architecture hosted through Amazon Web Services (AWS). This is a common use case for backup and restoration tooling. The admin builds out their 3K deployment on AWS. Then, the admin takes a backup of the running 1K deployment. Finally, the admin restores the backup on the 3K architecture to ensure the organization can seamlessly switch from the small architecture to this new high-usage one.
+Alternatively, an admin may need to migrate their current GitLab production architecture to new infrastructure. For example, an organization may be running a simple GitLab 1K [reference architecture](https://docs.gitlab.com/administration/reference_architectures/) on a single machine the organization manages. However, over time, this organization has usage that has grown beyond the parameters of a simple 1K architecture, and now an admin has been charged with setting up a cloud-based 3K multi-node reference architecture hosted through Amazon Web Services (AWS). This is a common use case for backup and restoration tooling. The admin builds out their 3K deployment on AWS. Then, the admin takes a backup of the running 1K deployment. Finally, the admin restores the backup on the 3K architecture to ensure the organization can seamlessly switch from the small architecture to this new high-usage one.
 
 In this last example, we are indicating how backup tools can facilitate customers to move their GitLab installations to different architectures. However, we need to discuss an important limitation for this use case. We only permit restoring a backup archive on the exact same version number of GitLab upon which the backup was created. We have seen many situations in the past where customers attempt to use GitLab backup tools to transfer their application data between different release versions of GitLab itself. As an example, a customer may have primarily used a version 15.10 installation without managing incremental releases updates over time. Now, the customer wants to jump to a much more recent version like 16.10. That customer may believe they can just use the Rake backup creation task to get a tarball of their older site data, setup a new location with the more recent version of GitLab, and then just use the Rake backup restoration task to populate the newer version installation with the same data. However, our current backup tooling does not support restorations on a different GitLab version than the one under which the backup was created.
 
@@ -42,9 +42,9 @@ Currently, we plan on making the new unified backup tool also uphold this restri
 
 ### Current GitLab Backup Offering
 
-Currently GitLab provides recommendations for [how to create application backups](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab/) across different installation types and different hosting architectures. We provide a fairly rudimentary set of tools to create a point-in-time application backup, as well as specialized documentation for how to handle more complex cloud backup situations. You can read more on [how GitLab backups work here](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/158058).
+Currently GitLab provides recommendations for [how to create application backups](https://docs.gitlab.com/administration/backup_restore/backup_gitlab/) across different installation types and different hosting architectures. We provide a fairly rudimentary set of tools to create a point-in-time application backup, as well as specialized documentation for how to handle more complex cloud backup situations. You can read more on [how GitLab backups work here](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/158058).
 
-These are based on [Rake tasks](https://docs.gitlab.com/ee/raketasks/) in the GitLab repository.
+These are based on [Rake tasks](https://docs.gitlab.com/raketasks/) in the GitLab repository.
 
 #### Drawbacks of the current approach
 
@@ -143,7 +143,7 @@ The results of the following on-going [technical design discussions](https://git
 ### Limitations
 
 - We don't support the data in a Cloud-based Backup to be exportable to a Portable Backup format or vice-versa.
-- We do not support backing up data in the cache store (Redis) which includes the [Sidekiq state](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab/#other-data). TODO: [More research on Redis stored data](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
+- We do not support backing up data in the cache store (Redis) which includes the [Sidekiq state](https://docs.gitlab.com/administration/backup_restore/backup_gitlab/#other-data). TODO: [More research on Redis stored data](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
 
 ### Backup types
 
@@ -303,7 +303,7 @@ For the initial Cloud Backup implementation:
   - Database Backups using [Cloud SQL Backups](https://cloud.google.com/sql/docs/postgres/backup-recovery/backups) (on demand backups only, initially)
   - Object Storage Backups using [Storage Transfer Service](https://cloud.google.com/storage-transfer-service?hl=en)
   - [GCE disk snapshots](https://cloud.google.com/compute/docs/disks/snapshots) initially for repository backups.
-    - We will revisit [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly/#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) when the technology has matured.
+    - We will revisit [Gitaly server side backups](https://docs.gitlab.com/administration/gitaly/configure_gitaly/#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) when the technology has matured.
 - Only support data/snapshots managed by the Backup tool
 - Not relying on automated/scheduled Backup implementation (like AWS Backup or Google Cloud Backup)
 

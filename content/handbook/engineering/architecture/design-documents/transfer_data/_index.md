@@ -133,7 +133,7 @@ PRIMARY KEY (project_id, root_namespace_id)
 
 ### Rails
 
-Rails application uses [a gem to connect and query ClickHouse](https://docs.gitlab.com/ee/development/database/clickhouse/clickhouse_within_gitlab/).
+Rails application uses [a gem to connect and query ClickHouse](https://docs.gitlab.com/development/database/clickhouse/clickhouse_within_gitlab/).
 Customers will be able see their transfer data details in their dashboard.
 They can request a transfer data report for their whole namespace or
 for particular projects.

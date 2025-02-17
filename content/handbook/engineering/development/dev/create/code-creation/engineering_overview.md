@@ -47,9 +47,9 @@ Components pictured on diagram are as follow:
    1. JetBrains Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin
    1. NeoVim Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim
 1. [Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp): it is a unified way of delivering features that can be shared across different IDEs reducing duplication. Language Server is a component that uses the [LSP protocol](https://microsoft.github.io/language-server-protocol/) for communication with IDE extensions.
-1. [GitLab Workhorse](https://docs.gitlab.com/ee/development/workhorse/) - GitLab Workhorse is a smart reverse proxy for GitLab intended to handle resource-intensive and long-running requests.
+1. [GitLab Workhorse](https://docs.gitlab.com/development/workhorse/) - GitLab Workhorse is a smart reverse proxy for GitLab intended to handle resource-intensive and long-running requests.
 1. [GitLab Rails](https://gitlab.com/gitlab-org/gitlab) - main GitLab component providing majority of features.
-1. [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) - a standalone-service that will give access to AI features to all users of GitLab, no matter which instance they are using: self-managed, dedicated or GitLab.com. For more conceptual information refer to [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/)
+1. [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) - a standalone-service that will give access to AI features to all users of GitLab, no matter which instance they are using: self-managed, dedicated or GitLab.com. For more conceptual information refer to [architecture blueprint](https://docs.gitlab.com/architecture/blueprints/ai_gateway/)
 1. Large Language Model - a AI model that provides code generation capabilities
 
 Code Suggestions includes two types of interactions:
@@ -105,7 +105,7 @@ The components pictured on the diagram are described in the [technical overview]
 
 Code Generation interaction is another type of code creation request that can be triggered by IDE. Its goal is to provide long and extensive responses generating
 complete blocks of code like functions or classes. It has a much longer response time than code completions (up to 30 seconds). This type of code creation request
-takes extended context into account when resolving the user task. This context comes from current files in IDE as well as [Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray/) report.
+takes extended context into account when resolving the user task. This context comes from current files in IDE as well as [Repository X-Ray](https://docs.gitlab.com/user/project/repository/code_suggestions/repository_xray/) report.
 
 ```mermaid
 sequenceDiagram
@@ -128,7 +128,7 @@ remains unchanged.
 
 ## Repository X-Ray
 
-[Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray/) is a feature that generates additional context data for code generation requests. This data is used to ground the AI model into the context of existing source code and align it with its private API as well as coding patterns.
+[Repository X-Ray](https://docs.gitlab.com/user/project/repository/code_suggestions/repository_xray/) is a feature that generates additional context data for code generation requests. This data is used to ground the AI model into the context of existing source code and align it with its private API as well as coding patterns.
 
 Repository X-Ray report is generated as shown on following diagram:
 
@@ -149,7 +149,7 @@ sequenceDiagram
 
 Components pictured on diagram are as follows:
 
-1. [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/) - an application that provides high-level RPC access to Git repositories.
+1. [Gitaly](https://docs.gitlab.com/administration/gitaly/) - an application that provides high-level RPC access to Git repositories.
 1. GitLab PostgreSQL DB - relational database engine storing GitLab operational data.
 
 Existing Repository X-Ray reports are included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph.
@@ -157,9 +157,9 @@ Existing Repository X-Ray reports are included into code generation requests as 
 ## Code Tasks
 
 A user can also use one of the predefined chat commands to suggest changes in the selected code.
-We currently support [refactoring](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples/#refactor-code-in-the-ide),
-[explaining code](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples/#explain-code-in-the-ide),
-and [writing tests](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples/#write-tests-in-the-ide).
+We currently support [refactoring](https://docs.gitlab.com/user/gitlab_duo_chat/examples/#refactor-code-in-the-ide),
+[explaining code](https://docs.gitlab.com/user/gitlab_duo_chat/examples/#explain-code-in-the-ide),
+and [writing tests](https://docs.gitlab.com/user/gitlab_duo_chat/examples/#write-tests-in-the-ide).
 These commands can be used in Duo Chat and also its response is displayed in Duo Chat window.
 
 ```mermaid

@@ -632,7 +632,7 @@ We're looking for a PM to drive improvements to the responsiveness and scalabili
 
 ### Switchboard
 
-We're looking for a PM to build the [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) administrative portal (Switchboard). Customers using GitLab Dedicated (ie tenants) should have a delightful experience provisioning and managing their GitLab instance with little to no support from GitLab. Tenants should be empowered to change configurations, such as SAML, Private Link or the IP allowlist. Your goal is to work closely with tenants and prospective customers to identify critical jobs to be done. You'll then work with the engineering team to develop Switchboard from Prototype to General Availability and beyond.
+We're looking for a PM to build the [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) administrative portal (Switchboard). Customers using GitLab Dedicated (ie tenants) should have a delightful experience provisioning and managing their GitLab instance with little to no support from GitLab. Tenants should be empowered to change configurations, such as SAML, Private Link or the IP allowlist. Your goal is to work closely with tenants and prospective customers to identify critical jobs to be done. You'll then work with the engineering team to develop Switchboard from Prototype to General Availability and beyond.
 
 #### Requirements
 

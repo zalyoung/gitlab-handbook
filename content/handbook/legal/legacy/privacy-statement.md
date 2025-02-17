@@ -179,7 +179,7 @@ One exception to embedded information in a public project occurs when your Perso
 
 If you contribute to a GitLab owned project by commenting in, or creating an issue or merge request and you provide your Personal Data in connection with that contribution, your Personal Data associated with your contribution will be deleted and attributed to a ghost user. However, please note that if the content of the contribution contains Personal Data, this information would remain and you will need to submit a specific request to have this information deleted.
 
-*To port your projects:* You may port your projects by either using the [Export functionality](https://docs.gitlab.com/ee/user/project/settings/import_export/) provided within the SaaS product which will also include all metadata, or by cloning your repositories. To port your profile information, you may use the [API](https://docs.gitlab.com/ee/api/users/#for-user).
+*To port your projects:* You may port your projects by either using the [Export functionality](https://docs.gitlab.com/user/project/settings/import_export/) provided within the SaaS product which will also include all metadata, or by cloning your repositories. To port your profile information, you may use the [API](https://docs.gitlab.com/api/users/#for-user).
 
 *To inform your Supervisory Authority:* In the unlikely event you disagree with our handling of your request, you have the right to file a complaint with the competent supervisory authority in your jurisdiction.
 

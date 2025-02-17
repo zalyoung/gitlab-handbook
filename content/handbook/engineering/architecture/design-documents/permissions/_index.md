@@ -15,7 +15,7 @@ toc_hide: true
 ## Summary
 
 Today, the GitLab permissions system is a backend implementation detail of our
-static [role-based access control system](https://docs.gitlab.com/ee/user/permissions/#roles).
+static [role-based access control system](https://docs.gitlab.com/user/permissions/#roles).
 
 In %15.9, we [announced](https://about.gitlab.com/blog/2023/03/08/expanding-guest-capabilities-in-gitlab-ultimate/)
 a customer MVC of the custom roles feature. The MVC introduced the ability to
@@ -54,7 +54,7 @@ This plan is important to define because the [custom roles project](https://gitl
 current architecture is built off of our current permissions system, [Declarative Policy](https://gitlab.com/gitlab-org/ruby/gems/declarative-policy).
 Declarative Policy makes it inexpensive to add new permissions, which has
 resulted in our current state of having [over 700 permissions](https://gitlab.com/gitlab-org/gitlab/-/issues/393454#more-context)
-in the `gitlab-org/gitlab` codebase. Even our [permissions documentation](https://docs.gitlab.com/ee/user/permissions/)
+in the `gitlab-org/gitlab` codebase. Even our [permissions documentation](https://docs.gitlab.com/user/permissions/)
 contains a table with over 200 rows, each row representing a unique
 "permission." Up until now, the proliferation of permissions in the code has
 been manageable because these checks are not part of a public API. With custom
@@ -65,7 +65,7 @@ permissions checked in the UI to determine if a user can see those page
 elements, another few permissions checks in the Rails controller to determine if
 the user can access the route at all, and maybe a few more permissions checks
 sprinkled into other Ruby service classes that run as part of the page load.
-This approach is [recommended in the GitLab developer documentation](https://docs.gitlab.com/ee/development/permissions/authorizations/#where-should-permissions-be-checked)
+This approach is [recommended in the GitLab developer documentation](https://docs.gitlab.com/development/permissions/authorizations/#where-should-permissions-be-checked)
 as a "defense-in-depth" measure.
 
 In the context of custom roles, however, this approach will not work. When a
@@ -171,17 +171,17 @@ Cons:
   on the roles of individual users." RBAC is the method of access control that
   GitLab uses.
 - **Default roles**: the 5 categories that GitLab users can be grouped into: Guest,
-  Reporter, Developer, Maintainer, Owner ([documentation](https://docs.gitlab.com/ee/user/permissions/#roles)).
+  Reporter, Developer, Maintainer, Owner ([documentation](https://docs.gitlab.com/user/permissions/#roles)).
   A default role can be thought of as a group of permissions.
 - **Declarative Policy**: [code library](https://gitlab.com/gitlab-org/ruby/gems/declarative-policy/)
   used by GitLab to define our authorization logic.
 - **Permissions**: a specific ability that a user with a Role has. For example, a
   Developer can create merge requests but a Guest cannot. Each row listed in
-  [the permissions documentation](https://docs.gitlab.com/ee/user/permissions/#project-members-permissions)
+  [the permissions documentation](https://docs.gitlab.com/user/permissions/#project-members-permissions)
   represents a "permission" but these may not have a 1:1 mapping with a Declarative Policy
   [ability](https://gitlab.com/gitlab-org/ruby/gems/declarative-policy/-/blob/main/doc/defining-policies.md#invocation).
   An ability is how permissions are represented in the GitLab codebase.
-- **Access level**: integer value representing a default role, used for determining access and calculating inherited user access in group hierarchies ([documentation](https://docs.gitlab.com/ee/api/access_requests/#valid-access-levels)).
+- **Access level**: integer value representing a default role, used for determining access and calculating inherited user access in group hierarchies ([documentation](https://docs.gitlab.com/api/access_requests/#valid-access-levels)).
 
 ## Resources
 

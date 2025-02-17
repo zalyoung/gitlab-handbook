@@ -26,7 +26,7 @@ It is important to note that `Workspaces !== Web IDE`, and this is something we 
 
 These two separate categories do have some overlap as it is a goal to allow a user to connect a running workspace to the Web IDE, **but** this does not mean the two are dependent on one another.
 
-You can use the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/) to commit changes to a project directly from your web browser without installing any dependencies or cloning any repositories. The Web IDE, however, lacks a native runtime environment on which you would compile code, run tests, or generate real-time feedback in the IDE.
+You can use the [Web IDE](https://docs.gitlab.com/user/project/web_ide/) to commit changes to a project directly from your web browser without installing any dependencies or cloning any repositories. The Web IDE, however, lacks a native runtime environment on which you would compile code, run tests, or generate real-time feedback in the IDE.
 
 ## Long-term vision
 
@@ -104,7 +104,7 @@ A major goal is that each member of a development team should have the same deve
 
 A workspace should allow access to an existing development environment from multiple machines and locations across a single or multiple teams. It should also allow a user to make use of tools or runtimes not available on their local OS or manage multiple versions of them.
 
-Additionally, workspaces could provide a way to implement disaster recovery if we are able to leverage the capabilities of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/).
+Additionally, workspaces could provide a way to implement disaster recovery if we are able to leverage the capabilities of [Cells](https://docs.gitlab.com/architecture/blueprints/cells/).
 
 ### Scalability
 
@@ -150,7 +150,7 @@ and thus the transitive dependency of Cert Manager.
 ## Architecture details
 
 Workspaces is delivered as a module(`remote_developemnt`) in the
-[GitLab agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) project.
+[GitLab agent for Kubernetes](https://docs.gitlab.com/user/clusters/agent/) project.
 The overall goal of this architecture is to ensure that the **actual state** of all
 workspaces running in the Kubernetes clusters is reconciled with the **desired state** of the
 workspaces as set by the user.
@@ -502,7 +502,7 @@ e.g. a reconcile request for 100 workspaces with 20 encrypted values each == 200
 More details about the benchmarking can be found in this [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/421504).
 
 When a workspace is created from a project, it will inherit all the variables from the group/subgroup/project hierarchy
-which are defined under [`Settings > CI/CD > Variables`](https://docs.gitlab.com/ee/ci/variables/#define-a-cicd-variable-in-the-ui).
+which are defined under [`Settings > CI/CD > Variables`](https://docs.gitlab.com/ci/variables/#define-a-cicd-variable-in-the-ui).
 This aspect will be generalized to allow for defining `Variables` which will be inherited in both CI/CD and Workspaces.
 A user will also be able to define, at a user level, environment variables and files to be injected into each
 workspace created by them. While creating a workspace, a user would be able to override any environment variable
@@ -525,12 +525,12 @@ Once such a feature is available, Personal Access Tokens for each workspace woul
 
 We need to only allow certain users to access workspaces. Currently, we are restricting this to the creator/owner of the workspace. After the workspace is created, it needs to be exposed to the network so that the user can connect to it.
 Thus, any traffic incoming to the workspace needs to be authenticated and authorized.
-[`gitlab-workspaces-proxy`](https://docs.gitlab.com/ee/user/workspace/set_up_workspaces_proxy/) handles discovery, authentication and authorization of the workspaces running in a Kubernetes cluster.
+[`gitlab-workspaces-proxy`](https://docs.gitlab.com/user/workspace/set_up_workspaces_proxy/) handles discovery, authentication and authorization of the workspaces running in a Kubernetes cluster.
 
 It will proxy all HTTP and WebSocket calls to the correct workspace. It will perform the following tasks:
 
 1. Workspace discovery - The proxy will auto discover workspaces based on labels of Kubernetes service resources. The proxy will watch the Kubernetes API for the creation/updation/deletion of Kubernetes service resources. When an service resource is created, the proxy will automatically configure itself to use corresponding service as an upstream. Thus it will require a Kubernetes service account and a role that allows it to watch, list and get service resources.
-1. Authentication - It will use the [OAuth 2.0 flow](https://docs.gitlab.com/ee/api/oauth2/) with GitLab to authenticate the user. GitLab will act as the identity provider. If the customer uses a third party SSO service to sign in to GitLab, the flow would automatically delegate authentication to that provider. One of the complexities with authentication is the fact that each workspace is served on its own domain, and therefore we can't set the redirect URI on the GitLab app to a specific workspace. We need to set a state in the OAuth 2.0 flow to redirect to the correct workspace.
+1. Authentication - It will use the [OAuth 2.0 flow](https://docs.gitlab.com/api/oauth2/) with GitLab to authenticate the user. GitLab will act as the identity provider. If the customer uses a third party SSO service to sign in to GitLab, the flow would automatically delegate authentication to that provider. One of the complexities with authentication is the fact that each workspace is served on its own domain, and therefore we can't set the redirect URI on the GitLab app to a specific workspace. We need to set a state in the OAuth 2.0 flow to redirect to the correct workspace.
 1. Authorization - The proxy will make a call to a GitLab GraphQL endpoint with the user's credentials obtained in the authentication phase. The endpoint will validate if the user has access to the workspace and accordingly return either a 404 or a 200.
 1. Session Management - The proxy will be stateless and be deployed without additional third party software such as a cache or database, and therefore will be using a signed JWT to manage sessions. The JWT is signed using a key provided to the proxy during startup.
 

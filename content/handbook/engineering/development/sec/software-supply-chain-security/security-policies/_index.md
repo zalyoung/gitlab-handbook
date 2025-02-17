@@ -108,7 +108,7 @@ When creating a new issue, use the `/copy_metadata #373191` quick command to cop
 
 ### How to classify MRs which need to run Package and QA?
 
-It is advisable to manually trigger the `Package and QA` downstream [E2E](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/) job in an MR and review the results when there are changes in:
+It is advisable to manually trigger the `Package and QA` downstream [E2E](https://docs.gitlab.com/development/testing_guide/end_to_end/) job in an MR and review the results when there are changes in:
 
 * GraphQL (API response, query parameters, schema etc)
 * Gemfile (version changes, adding/removing gems)
@@ -164,7 +164,7 @@ To emulate this locally, follow these steps:
 1. Within the same shell session run `gdk restart`
 1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
 
-See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features/#act-as-saas) for more details.
+See the [related handbook entry](https://docs.gitlab.com/development/ee_features/#act-as-saas) for more details.
 
 ### Cross-stack collaboration
 

@@ -85,7 +85,7 @@ ssh_host_ed25519_key-cert.pub:
 
 #### Application behavior
 
-[GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell) is the project responsible for handling [commands](https://docs.gitlab.com/ee/development/gitlab_shell/features/) sent to GitLab instance via SSH.
+[GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell) is the project responsible for handling [commands](https://docs.gitlab.com/development/gitlab_shell/features/) sent to GitLab instance via SSH.
 When a user tries to establish an SSH connection and authenticate via a public key, GitLab Shell sends an internal API request to `/authorized_keys` endpoint to detect whether the key is associated with a GitLab user. If a certificate is used for authentication, GitLab Shell can recognize it and perform a request to `/authorized_certs` instead.
 
 1. A group admin adds `CA.pub` file to a group.

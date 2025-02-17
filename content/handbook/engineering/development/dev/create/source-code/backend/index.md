@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) tools and is responsible for all backend aspects of the [Source Code group's](/handbook/product/categories/#source-code-group) product categories in the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages). For information on our product direction, visit the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/source-code/frontend/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index/) page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/source-code/frontend/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/development/backend/create_source_code_be/index/) page.
 
 ## About our team handbook page
 
@@ -335,7 +335,7 @@ You will begin to collect follow-up issues when you've worked on something in a 
 - If a parent issue is fixed but pending activation via a Feature Flag, update the parent issue description to: “This change has been merged. Rollout will be managed in this rollout issue. Once the Rollout issue is closed then this change will be live.”. Also, link the related Feature Flag issue to the parent issue.
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&search=source+code+group+planning)
 
-You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
+You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.
 

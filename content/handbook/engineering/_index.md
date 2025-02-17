@@ -172,7 +172,7 @@ Consider whether any new commitments would be affected by your planned PTO. If a
 #### 3. Manager reviews coverage issue
 
 Once the team member has shared their coverage issue with their manager, the manager will review the coverage issue and validate assumptions with stakeholders or impacted project DRIs as needed.
-[Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/
+[Contributing to Go projects](https://docs.gitlab.com/development/go_guide/
 The manager will make a decision on approval or discuss different arrangements or other contingency plans. Once the manager ticks their box on the coverage issue approving the leave, enter the time off into Workday.
 
 #### 4. Communicate your time off
@@ -224,7 +224,7 @@ There are five departments within the Engineering Division:
   - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
-- [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index/)
+- [Contributing to Go projects](https://docs.gitlab.com/development/go_guide/index/)
 - [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Root Cause Analysis](/handbook/engineering/root-cause-analysis/)
 - [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
@@ -350,7 +350,7 @@ requires immediate scheduling of bug fixes or development effort.
 - If issue is type feature DRI is the Director of Product
 - If issue requires Infrastructure work the DRI is the Engineering Manager in Infrastructure
 
-The DRI can use the [customer critical merge requests](https://docs.gitlab.com/ee/development/code_review/#customer-critical-merge-requests) process to expedite code review & merge.
+The DRI can use the [customer critical merge requests](https://docs.gitlab.com/development/code_review/#customer-critical-merge-requests) process to expedite code review & merge.
 
 ## Pairing Engineers on priority::1/severity::1 Issues
 

@@ -36,7 +36,7 @@ requirements and guidelines evolve with time and it's important to keep our feat
 This framework is meant to be used for all significant engineering changes in services or features,
 and more precisely for changes in:
 
-1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture/)
+1. The [GitLab Architecture](https://docs.gitlab.com/development/architecture/)
 1. The [GitLab.com    infrastructure](/handbook/engineering/infrastructure/production/architecture/)
 1. The [classification](/handbook/security/data-classification-standard/) of
    the data being managed (stored, transferred, or updated)

@@ -18,7 +18,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/8o1Ifdte6Ps" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Check out the [System for Cross-domain Identity Management (SCIM) documentation](https://docs.gitlab.com/ee/user/group/saml_sso/scim_setup/)
+- **Learn more**: Check out the [System for Cross-domain Identity Management (SCIM) documentation](https://docs.gitlab.com/user/group/saml_sso/scim_setup/)
 
 #### What options do we have to manage user access on .com?
 
@@ -29,7 +29,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/cq85NMeO_YY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Check out the [SAML SSO for GitLab.com groups documentation](https://docs.gitlab.com/ee/user/group/saml_sso/)
+- **Learn more**: Check out the [SAML SSO for GitLab.com groups documentation](https://docs.gitlab.com/user/group/saml_sso/)
 
 #### How should customers set up and customize user roles in GitLab?
 
@@ -40,7 +40,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/N1YmkdvN2Bc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: There are multiple types of permissions across GitLab, and when implementing anything that deals with permissions, all of them should be considered. Check out the [GitLab permissions guide](https://docs.gitlab.com/ee/development/permissions/).
+- **Learn more**: There are multiple types of permissions across GitLab, and when implementing anything that deals with permissions, all of them should be considered. Check out the [GitLab permissions guide](https://docs.gitlab.com/development/permissions/).
 
 #### How can users be auto-provisioned?
 
@@ -51,7 +51,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/2UvAKN3W_zY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Review the [Create users through integrations documentation](https://docs.gitlab.com/ee/user/profile/account/create_accounts/#create-users-through-integrations)
+- **Learn more**: Review the [Create users through integrations documentation](https://docs.gitlab.com/user/profile/account/create_accounts/#create-users-through-integrations)
 
 #### How is user management different on .com compared to self-managed?
 
@@ -109,7 +109,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/t0_52j2Zp2I" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Review the [GitLab Jira development panel integration](https://docs.gitlab.com/ee/integration/jira/) documentation
+- **Learn more**: Review the [GitLab Jira development panel integration](https://docs.gitlab.com/integration/jira/) documentation
 
 ### Plan Quiz
 
@@ -130,7 +130,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/Eza1wXoDLvs" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Read the [Migrating from SVN to GitLab documentation](https://docs.gitlab.com/ee/user/project/import/#import-from-subversion)
+- **Learn more**: Read the [Migrating from SVN to GitLab documentation](https://docs.gitlab.com/user/project/import/#import-from-subversion)
 
 #### What are best practices for a developer workflow?
 
@@ -174,7 +174,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/bmnFgGSY_L8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Continuous Integration works by pushing small code chunks to your application's code base hosted in a Git repository, and, to every push, run a pipeline of scripts to build, test, and validate the code changes before merging them into the main branch. Check out the [GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/).
+- **Learn more**: Continuous Integration works by pushing small code chunks to your application's code base hosted in a Git repository, and, to every push, run a pipeline of scripts to build, test, and validate the code changes before merging them into the main branch. Check out the [GitLab CI/CD documentation](https://docs.gitlab.com/ci/).
 
 #### How can we do test management with GitLab?
 
@@ -220,7 +220,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/jXNrUBRWynA" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: GitLab can check your application for security vulnerabilities that may lead to unauthorized access, data leaks, denial of services, and more. Check out the [GitLab Secure documentation](https://docs.gitlab.com/ee/user/application_security/).
+- **Learn more**: GitLab can check your application for security vulnerabilities that may lead to unauthorized access, data leaks, denial of services, and more. Check out the [GitLab Secure documentation](https://docs.gitlab.com/user/application_security/).
 
 #### When will we no longer rely on using Docker-in-Docker (DinD) for security scanners?
 
@@ -260,13 +260,13 @@ No questions at this time.
   <iframe src="https://www.youtube.com/embed/EtRfe40yvOk" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Check out the [Reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) documentation for additional details.
+- **Learn more**: Check out the [Reference architecture](https://docs.gitlab.com/administration/reference_architectures/) documentation for additional details.
 
 #### What are the best ways to achieve disaster recovery?
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Review the [Replication with Geo documentation](https://docs.gitlab.com/ee/administration/geo/)
+- **Learn more**: Review the [Replication with Geo documentation](https://docs.gitlab.com/administration/geo/)
 
 #### What is GitLab's out-of-the-box support for (AWS/Azure/GCP)?
 
@@ -280,7 +280,7 @@ No questions at this time.
 
 1. Number of users
 2. Whether or not HA (High Availability) is required
-3. Whether or not [Geo (Replication)](https://docs.gitlab.com/ee/administration/geo/) is required
+3. Whether or not [Geo (Replication)](https://docs.gitlab.com/administration/geo/) is required
 
 - **Context video** (9 minutes, May 2020):
 
@@ -288,19 +288,19 @@ No questions at this time.
   <iframe src="https://www.youtube.com/embed/-WaX9nLKQME" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: GitLab supports a number of scaling options to ensure that your self-managed instance is able to scale out to meet your organization's needs when scaling up a single-box GitLab installation is no longer practical or feasible. Check out [GitLab's Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#reference-architectures).
+- **Learn more**: GitLab supports a number of scaling options to ensure that your self-managed instance is able to scale out to meet your organization's needs when scaling up a single-box GitLab installation is no longer practical or feasible. Check out [GitLab's Reference Architecture documentation](https://docs.gitlab.com/administration/reference_architectures/#reference-architectures).
 
 #### What are the best practices for backing up a GitLab instance?
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Check out the [Backing up and restoring GitLab documentation](https://docs.gitlab.com/ee/administration/backup_restore/)
+- **Learn more**: Check out the [Backing up and restoring GitLab documentation](https://docs.gitlab.com/administration/backup_restore/)
 
 #### What installation method does GitLab recommend customers use?
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: GitLab strongly recommends downloading the Omnibus package installation since it is quicker to install, easier to upgrade, and contains features to enhance reliability not found in other methods. We also strongly recommend [at least 4GB of free RAM](https://docs.gitlab.com/ee/install/requirements/#cpu) to run GitLab. Find out more on the [GitLab Installation page](https://about.gitlab.com/install/).
+- **Learn more**: GitLab strongly recommends downloading the Omnibus package installation since it is quicker to install, easier to upgrade, and contains features to enhance reliability not found in other methods. We also strongly recommend [at least 4GB of free RAM](https://docs.gitlab.com/install/requirements/#cpu) to run GitLab. Find out more on the [GitLab Installation page](https://about.gitlab.com/install/).
 
 #### How do customers migrate from GitLab CE to EE?
 
@@ -312,4 +312,4 @@ No questions at this time.
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Find out how on the [Upgrade to Enterprise Edition page](https://docs.gitlab.com/ee/user/project/import/#migrating-from-self-managed-gitlab-to-gitlabcom)
+- **Learn more**: Find out how on the [Upgrade to Enterprise Edition page](https://docs.gitlab.com/user/project/import/#migrating-from-self-managed-gitlab-to-gitlabcom)

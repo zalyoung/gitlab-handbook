@@ -88,7 +88,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 - **GitLab Security Solutions (Material - Slides and Video - 30 minutes)**
   - Security is one of the biggest differentiators to Ultimate. In this course, you will learn detailed information about GitLab security capabilities with a click through demo.
   - Using [GitLab for Software Security Video](https://youtu.be/SP0VSH-NqJs)
-  - [GitLab Secure Doc](https://docs.gitlab.com/ee/user/application_security/)
+  - [GitLab Secure Doc](https://docs.gitlab.com/user/application_security/)
   - [GitLab Security and Compliance Capabilities Deck](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit)
 - **Selling Professional Services (Material - Video - 30 Minutes)**
   - Our [Professional Services](/handbook/customer-success/professional-services-engineering/selling/) team is made up of not only GitLab subject matter experts but seasoned DevOps professionals who have experience in deploying and maintaining both large-scale applications as well as creating and teaching best practices throughout the SDLC. Our experts help lead Concurrent DevOps Transformations, providing direct support to our customer's strategic business initiatives. GitLab's Professional Services team exists to enable your clients realize the full value of their GitLab installation. We can provide direct implementation support to ensure the GitLab installation is resilient and secure. We also offer migration services to facilitate the transition to GitLab by delivering a clean dataset to resume operations at once. Our education and specialized training provide training in best practices, such as CI/CD, version control, metrics, and more.
@@ -204,7 +204,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 - **Using GitLab: The Basics (Material - Handbook - 45 minutes)**
    -This module includes information to help you learn GitLab, and walks you through Projects, Issues, Merge Requests, Pipelines, Settings, User & Admin Area. It includes the Git Basics Training commonly delivered to customers by Professional Services and documentation to help you feel more comfortable with using GitLab.
    -[Learning GitLab with Git Basics](https://gitlab-training.gitlab.io/basics/deck/both.html#/1)
-   -[GitLab Basics Guides](https://docs.gitlab.com/ee/tutorials/)
+   -[GitLab Basics Guides](https://docs.gitlab.com/tutorials/)
    -[Introduction to GitLab Workflow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
    -[Description Templates](https://gitlab.com/help/user/project/description_templates)
 - **GitLab Tech Stack Details (Material - Handbook - 10 Minutes)**
@@ -307,10 +307,10 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
    -Review the [GitLab Ultimate Demo](https://chorus.ai/meeting/1837148?tab=summary&call=5E63AE4EDCAD4960A59BEBBEF4CEE1BF)
 - **Auto DevOps (Material - GitLab Docs - 15 minutes)**
    -Auto DevOps provides pre-defined CI/CD configuration which allows you to automatically detect, build, test, deploy, and monitor your applications. Leveraging CI/CD best practices and tools, Auto DevOps aims to simplify the setup and execution of a mature & modern software development lifecycle.
-   -Review the [GitLab Doc on Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+   -Review the [GitLab Doc on Auto DevOps](https://docs.gitlab.com/topics/autodevops/)
 - **GitLab API (Material - GitLab Doc - 15 minutes)**
    -Automate GitLab via a simple and powerful API.
-   -Review the [GitLab Doc on API](https://docs.gitlab.com/ee/api/)
+   -Review the [GitLab Doc on API](https://docs.gitlab.com/api/)
 - **GitLab for Agile (Material - 30 minutes)**
    -Agile development is iterative, incremental, and lean approaches to streamline and accelerate the delivery of projects. Ever wondered if GitLab supports Agile methodology? If you're considering using GitLab it might not be obvious how its features correspond with Agile artifacts, so we've broken it down for you in a blog and the GitLab Agile Planning page.
    -Review the [Agile Delivery page on the company website](https://about.gitlab.com/solutions/agile-delivery/)
@@ -322,7 +322,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
    -[GitLab Runner Deep Dive Reording](https://drive.google.com/file/d/1QdgNLxepxiNwUwykhOX6DBmUMp067ooQ/view)
 - **GitLab Reference Architectures and GitLab GEO (Material - 20 minutes)**
    -Review the GitLab Reference Architectures and Geo Replication Overview, then hear Brian Wald, Solution Architect Manager, break it all down.
-   -[GitLab Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+   -[GitLab Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/)
    -[GitLab High Availability and Geo Options Video](https://youtu.be/fji7nvmOHNQ)
 - **ACTIVITY: Let's Install GitLab! (Material - Handbook - 60 minutes)**
    -Choose one of the installation options mentioned in the link below. Once installed populate with some test data. Be sure to include: Populate with some test data: User account, Project, Issue.
@@ -344,16 +344,16 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 ### 13. Integrations (SA, CSM, and PSE Only)
 
 - **Category Overview**
-  - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
+  - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/user/project/integrations/) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
 - **Jira**
-  - GitLab Issues are a powerful tool for discussing ideas and planning and tracking work. However, many organizations have been using Jira for these purposes and have extensive data and business processes built into it. While you can always migrate content and process from Jira to GitLab Issues, you can also opt to continue using Jira and use it together with GitLab through our [integration.](https://docs.gitlab.com/ee/integration/jira/) For a video demonstration of integration with Jira, watch [GitLab workflow with Jira issues](https://youtu.be/fWvwkx5_00E)
+  - GitLab Issues are a powerful tool for discussing ideas and planning and tracking work. However, many organizations have been using Jira for these purposes and have extensive data and business processes built into it. While you can always migrate content and process from Jira to GitLab Issues, you can also opt to continue using Jira and use it together with GitLab through our [integration.](https://docs.gitlab.com/integration/jira/) For a video demonstration of integration with Jira, watch [GitLab workflow with Jira issues](https://youtu.be/fWvwkx5_00E)
 - **Jenkins**
-  - GitLab's [Jenkins integration](https://docs.gitlab.com/ee/integration/jenkins/) allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge request widgets and on the project's home page. Videos are also available on [GitLab workflow with Jira issues and Jenkins pipelines](https://youtu.be/Jn-_fyra7xQ) and [Migrating from Jenkins to GitLab.](https://youtu.be/RlEVGOpYF5Y)
+  - GitLab's [Jenkins integration](https://docs.gitlab.com/integration/jenkins/) allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge request widgets and on the project's home page. Videos are also available on [GitLab workflow with Jira issues and Jenkins pipelines](https://youtu.be/Jn-_fyra7xQ) and [Migrating from Jenkins to GitLab.](https://youtu.be/RlEVGOpYF5Y)
 - **Github**
-  - GitLab provides an integration for updating the pipeline statuses on GitHub. This is especially useful if using GitLab for CI/CD only. This project integration is separate from the [instance wide GitHub integration](https://docs.gitlab.com/ee/user/project/import/github/#mirroring-and-pipeline-status-sharing) and is automatically configured on [GitHub import.](https://docs.gitlab.com/ee/integration/github/)
+  - GitLab provides an integration for updating the pipeline statuses on GitHub. This is especially useful if using GitLab for CI/CD only. This project integration is separate from the [instance wide GitHub integration](https://docs.gitlab.com/user/project/import/github/#mirroring-and-pipeline-status-sharing) and is automatically configured on [GitHub import.](https://docs.gitlab.com/integration/github/)
 - **GitLab as OAuth 2 Authentication Service Provider (Material - GitLab Docs - 60 minutes)**
    -OAuth provides to client applications a 'secure delegated access' to server resources on behalf of a resource owner. In fact, OAuth allows an authorization server to issue access tokens to third-party clients with the approval of the resource owner, or the end-user.
-   -Review this page to learn how to use [GitLab as an OAuth authentication service provider](https://docs.gitlab.com/ee/integration/oauth_provider/)
+   -Review this page to learn how to use [GitLab as an OAuth authentication service provider](https://docs.gitlab.com/integration/oauth_provider/)
 
 </details>
 
@@ -372,12 +372,12 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
   - Create a project in a familiar framework and language. Add the following capabilities to the project:
     - Containerize the application and push to the container registry
     - Enable GitLab Kubernetes integration and [connect to the demo cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)
-    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/testing/unit_test_reports/)
-    - Add [static analysis](https://docs.gitlab.com/ee/user/application_security/sast/) to identify vulnerabilities in the codebase
-    - Add [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
-    - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/) and review gating mechanisms
-    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/repository/branches/protected/)
-    - Create an [issue board with a workflow](https://docs.gitlab.com/ee/user/project/issue_board/)
+    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ci/testing/unit_test_reports/)
+    - Add [static analysis](https://docs.gitlab.com/user/application_security/sast/) to identify vulnerabilities in the codebase
+    - Add [dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
+    - Add [multiple approvals rules](https://docs.gitlab.com/user/project/merge_requests/approvals/rules/) and review gating mechanisms
+    - Enable [protected branches](https://docs.gitlab.com/user/project/repository/branches/protected/)
+    - Create an [issue board with a workflow](https://docs.gitlab.com/user/project/issue_board/)
 - **ACTIVITY: Deliver Your Demo (Assignment - 60 minutes - 10 points)**
    -Deliver a short demo of your choice in the SA Bootcamp Demo Scenarios below. Access to Jenkins and Jira and the associated GitLab.com project are available in the [SA Vault within 1Password](https://docs.google.com/document/d/1tIaZUU5YYyQtvQwZ2EOpeCoIK2TGDHbVfJv7jbAI0kk/edit)
    -Be sure to invite your manager and onboarding buddy.

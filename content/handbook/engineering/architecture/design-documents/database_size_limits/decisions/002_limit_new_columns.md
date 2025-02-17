@@ -22,7 +22,7 @@ We prevent new column additions to tables larger than 100 GB through:
 1. Documentation of allowed exceptions ([!169164](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/169164/diffs))
 
 Exceptions to this rule are documented in our
-[development guidelines](https://docs.gitlab.com/ee/development/database/large_tables_limitations/#requesting-an-exception)
+[development guidelines](https://docs.gitlab.com/development/database/large_tables_limitations/#requesting-an-exception)
 and require explicit approval.
 
 ## Consequences

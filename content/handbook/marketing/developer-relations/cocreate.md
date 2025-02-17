@@ -30,7 +30,7 @@ GitLab has [a list of smaller issues](https://gitlab.com/groups/gitlab-org/-/iss
 Identify areas that are of high priority to the customer together with the Solutions Architect & Contributor Success. Alignment with Product & Engineering is a required prerequisite.
 
 1. Identify the opportunity and create a Slack channel with the following pattern `#cocreate-initiative-CUSTOMERNAME`.
-1. Determine the level of willingness and ability of the customer to [contribute to GitLab](https://docs.gitlab.com/ee/development/contributing/).
+1. Determine the level of willingness and ability of the customer to [contribute to GitLab](https://docs.gitlab.com/development/contributing/).
 1. Invite the CSM, SA, AE, Nick Veenhof & Raimund Hook.
 1. Share your understanding of what we could work on with the customer. Contributor Success will qualify that the opportunity meets the requirements of the co-create program.
 1. Contributor Success will lead the triage process and partner with the appropriate PMs. We will invite the PMs and other stakeholders of the problem-space to get their buy-in. This will result in 3 pathways:

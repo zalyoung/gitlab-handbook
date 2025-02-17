@@ -95,6 +95,6 @@ To make this feature available to Self-Managed customers, this feature needs to 
 ## Alternatives
 
 We considered generating and storing private keys within GitLab Secrets Service,
-but this would not meet the requirements for [FIPS Compliance](https://docs.gitlab.com/ee/development/fips_compliance/).
+but this would not meet the requirements for [FIPS Compliance](https://docs.gitlab.com/development/fips_compliance/).
 
 On the other hand, GCP HSM Keys comply with [FIPS 140-2 Level 3](https://cloud.google.com/docs/security/key-management-deep-dive#fips_140-2_validation).

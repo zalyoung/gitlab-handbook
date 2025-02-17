@@ -97,7 +97,7 @@ Check the user's activity page:
 
 ## Change primary email address of enterprise users
 
-Enterprise users [cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains. An enterprise user or a top level group owner can reach out to Support to request primary email address change.
+Enterprise users [cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains. An enterprise user or a top level group owner can reach out to Support to request primary email address change.
 **Note that changing the primary email address to an email that is not part of the group domain verification will disassociate the user**: the user will no longer be an enterprise user.
 
 ### Request from a top level group owner
@@ -115,7 +115,7 @@ Until [the issue 412966](https://gitlab.com/gitlab-org/gitlab/-/issues/412966) i
 >
 > Could you please confirm that you would like us to change the enterprise user primary address from example@primary-email.address to example@new-primary-email address ? Replying in this ticket stating you provide permission will be sufficient.
 >
-> [Important notice](https://docs.gitlab.com/ee/user/enterprise_user/#dissociation-of-the-user-from-their-enterprise-group): Changing an enterprise user's primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
+> [Important notice](https://docs.gitlab.com/user/enterprise_user/#dissociation-of-the-user-from-their-enterprise-group): Changing an enterprise user's primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
 
 1. Update the primary email address of the enterprise user(s).
 1. Add an Admin Note to the user's account(s).
@@ -128,7 +128,7 @@ Enterprise users have user accounts that are administered by an organization tha
 
 > Greetings,
 >
-> Your account is an enterprise user account, [enterprise users cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains.
+> Your account is an enterprise user account, [enterprise users cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains.
 > Updating your primary email address to an email with a non-verified domain will automatically disassociate you from your enterprise group.
 >
 > If you still wish to update your primary email, address please note it will require involvement of a top level group owners. Please let us know if you wish to proceed.
@@ -183,8 +183,8 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 
 **Ensure that the requestor has exhausted all self-service options:**
 
-- If the existing Owner's account does not have 2FA enabled, suggest that the requestor issue a password reset to the existing Owner's account, and [claim the account](https://docs.gitlab.com/ee/user/group/manage/#change-the-owner-of-a-group).
-- If the existing Owner's account has 2FA enabled, suggest the requestor contact the existing Owner to request that the existing Owner provide the one time password, backup codes, or private ssh key to allow the requestor to regain access, and [claim the account](https://docs.gitlab.com/ee/user/group/manage/#change-the-owner-of-a-group).
+- If the existing Owner's account does not have 2FA enabled, suggest that the requestor issue a password reset to the existing Owner's account, and [claim the account](https://docs.gitlab.com/user/group/manage/#change-the-owner-of-a-group).
+- If the existing Owner's account has 2FA enabled, suggest the requestor contact the existing Owner to request that the existing Owner provide the one time password, backup codes, or private ssh key to allow the requestor to regain access, and [claim the account](https://docs.gitlab.com/user/group/manage/#change-the-owner-of-a-group).
 
 **If no self-service options are viable, follow the steps below:**
 
@@ -226,7 +226,7 @@ The Support team will only take action from the requester if they:
 
 We expect users to provide specific links in order to focus on the related views and logs while investigating an issue. For example, a request to look into a CI/CD error should include links to the relevant job logs, pipelines, and/or CI YAML file.
 
-Any time user data needs to be downloaded (such as cloning a repository), or where secrets must be revealed (such as [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)), to further troubleshoot, requires [explicit permission](#asking-permission) before continuing. Any user data that has been downloaded for reproduction purposes must be deleted when the issue is resolved, for example with [our `zd-dl-wiper` tool](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-wiper#zd-dl-wiper).
+Any time user data needs to be downloaded (such as cloning a repository), or where secrets must be revealed (such as [CI/CD Variables](https://docs.gitlab.com/ci/variables/)), to further troubleshoot, requires [explicit permission](#asking-permission) before continuing. Any user data that has been downloaded for reproduction purposes must be deleted when the issue is resolved, for example with [our `zd-dl-wiper` tool](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-wiper#zd-dl-wiper).
 
 ## Asking Permission
 
@@ -269,9 +269,9 @@ When a user is reaching out to support to change their usernames or delete their
 
 ### Password reset not received
 
-If a user cannot self-serve because the option ["Disable password authentication for enterprise users"](https://docs.gitlab.com/ee/user/group/saml_sso/#disable-password-authentication-for-enterprise-users) is enabled on the top level group, please follow the steps below: 
+If a user cannot self-serve because the option ["Disable password authentication for enterprise users"](https://docs.gitlab.com/user/group/saml_sso/#disable-password-authentication-for-enterprise-users) is enabled on the top level group, please follow the steps below: 
 
 1. Confirm "Disable password authentication for enterprise users" is enabled on the top level group.
 1. Ask Owner to temporary disable the option in the group so the user can regain access.
 1. If the owner refused, please go through with [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow (for Enterprise users account changes the ownership verification must be done by a top level group owner).
-1. After verification is successful, ask permissions to make the changes to the account - For deletion request, do a simple deletion (just the user) as delete user with contributions can [lead to deletion of issues and merge requests on a paid namespace](https://docs.gitlab.com/ee/user/profile/account/delete_account#associated-records).
+1. After verification is successful, ask permissions to make the changes to the account - For deletion request, do a simple deletion (just the user) as delete user with contributions can [lead to deletion of issues and merge requests on a paid namespace](https://docs.gitlab.com/user/profile/account/delete_account#associated-records).

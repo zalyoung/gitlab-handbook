@@ -22,7 +22,7 @@ The testing strategy for Cells follows our practice of testing at the correct le
   - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
 - Non functional testing will also be included
   - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
-  - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide/), ensuring that the migrations are performant and handle .com scale
+  - [Migration testing](https://docs.gitlab.com/development/testing_guide/testing_migrations_guide/), ensuring that the migrations are performant and handle .com scale
   - Performance testing
     - We will the the Observability tools to do performance analysis on the live environments
     - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
@@ -59,7 +59,7 @@ This testing is done as part of the day to day work of development, the unit/int
 
 #### Single Cell
 
-The Single Cell level has pretty significant existing coverage due to overlap with our existing test suites (Unit, Integration, E2E). Since each Cell is an instance of GitLab, the existing tests will give us good confidence. We will want to ensure that we have tests that cover the [impacted features](https://docs.gitlab.com/ee/architecture/blueprints/cells/#impacted-features) as well as data that is shared across Cells (like Users). The SET can help on developing edge cases / scenarios to cover, ensuring the tests get written at the correct level, writing E2E tests, ensuring the tests get run in CI with the correct feature flags set.
+The Single Cell level has pretty significant existing coverage due to overlap with our existing test suites (Unit, Integration, E2E). Since each Cell is an instance of GitLab, the existing tests will give us good confidence. We will want to ensure that we have tests that cover the [impacted features](https://docs.gitlab.com/architecture/blueprints/cells/#impacted-features) as well as data that is shared across Cells (like Users). The SET can help on developing edge cases / scenarios to cover, ensuring the tests get written at the correct level, writing E2E tests, ensuring the tests get run in CI with the correct feature flags set.
 
 #### Multiple Cells
 

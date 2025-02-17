@@ -13,11 +13,11 @@ toc_hide: true
 
 This document is to cover GitLab current usage and future use of Feature Flags when used in Development specifically with use on the Cells Infrastructure. Reference our development documentation for Feature Flags here:
 
-- [Development Documentation](https://docs.gitlab.com/ee/development/feature_flags/)
+- [Development Documentation](https://docs.gitlab.com/development/feature_flags/)
 - [Blueprint Implementation](../feature_flags_development/)
 - [Blueprint Operations Proposal](../feature_flags_usage_in_dev_and_ops/)
 
-:warning: Do not confuse this with the GitLab Application feature set of [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags/).
+:warning: Do not confuse this with the GitLab Application feature set of [Feature Flags](https://docs.gitlab.com/operations/feature_flags/).
 
 ### Current Usage
 

@@ -6,7 +6,7 @@ toc_hide: true
 
 ## Context
 
-When we provision a Cell we have to choose a [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) to start with,
+When we provision a Cell we have to choose a [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/) to start with,
 then go on to scale accordingly to the workloads based upon [flexible architecture](005_flexible_reference_architectures.md) to scale accordingly to the workloads.
 
 In <https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2838> we did some research on which reference architecture to choose initially.
@@ -16,15 +16,15 @@ In <https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2838> we did som
 ### Ring 0
 
 For Ring 0 we will only run QA Jobs and it will not serve any customer traffic,
-for cost efficiency reasons we will go with a [3k reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/).
+for cost efficiency reasons we will go with a [3k reference architecture](https://docs.gitlab.com/administration/reference_architectures/3k_users/).
 
 ### Ring 2 and above
 
 The first Cell will be used for [internal customers only/ GitLab Inc](007_internal_customers.md) only, and it will be done gradually so that not all of GitLab Inc repositories will be moved at once.
 The time between when we first provision this Cell vs when we on-board all of GitLab Inc is still unknown,
-so we'll start with a medium sized Cell [25k reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/25k_users/) sized Cell, and then scale it up to a [50k reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users/).
+so we'll start with a medium sized Cell [25k reference architecture](https://docs.gitlab.com/administration/reference_architectures/25k_users/) sized Cell, and then scale it up to a [50k reference architecture](https://docs.gitlab.com/administration/reference_architectures/50k_users/).
 
-The other Cells that we'll provision in this ring and other outer rings will start with a [50k reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users/).
+The other Cells that we'll provision in this ring and other outer rings will start with a [50k reference architecture](https://docs.gitlab.com/administration/reference_architectures/50k_users/).
 
 ## Consequences
 

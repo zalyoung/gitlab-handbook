@@ -183,7 +183,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 
 #### Definition of Blocked
 
-Issues that depend on another issue to be completed before they can be validated on `Canary` are considered blocked, and should have the `~workflow::blocked` label applied. The issues should also be marked as blocked within the [related issues section](https://docs.gitlab.com/ee/user/project/issues/related_issues/#adding-a-related-issue) of the issues.
+Issues that depend on another issue to be completed before they can be validated on `Canary` are considered blocked, and should have the `~workflow::blocked` label applied. The issues should also be marked as blocked within the [related issues section](https://docs.gitlab.com/user/project/issues/related_issues/#adding-a-related-issue) of the issues.
 
 #### Follow-up Issues
 
@@ -253,7 +253,7 @@ For iterations on features behind feature flags, even when the changes won't be 
 
 #### Issue progress updates
 
-When an engineer is actively working (workflow of ~workflow::"In dev" or further right on current milestone) on an issue they will periodically leave status updates as top-level comments in the issue. The status comment should include the updated health status, any blockers, notes on what was done, if review has started, and anything else the engineer feels is beneficial. If there are multiple people working on it also include whether this is a front end or back end update. An update for each of MR associated with the issue should be included in the update comment. Engineers should also update the [health status](https://docs.gitlab.com/ee/user/project/issues/#health-status) of the issue at this time.
+When an engineer is actively working (workflow of ~workflow::"In dev" or further right on current milestone) on an issue they will periodically leave status updates as top-level comments in the issue. The status comment should include the updated health status, any blockers, notes on what was done, if review has started, and anything else the engineer feels is beneficial. If there are multiple people working on it also include whether this is a front end or back end update. An update for each of MR associated with the issue should be included in the update comment. Engineers should also update the [health status](https://docs.gitlab.com/user/project/issues/#health-status) of the issue at this time.
 
 This update need not adhere to a particular format. Some ideas for formats:
 
@@ -298,13 +298,13 @@ Some notes/suggestions:
 
 #### Monitoring changes behind feature flags
 
-In addition to the steps documented for [developing with feature flags at GitLab](https://docs.gitlab.com/ee/development/feature_flags/) Software Supply Chain Security:Pipeline Security engineers monitor their changes' impact on infrastructure using dashboards and logs where possible. Because feature flags allow engineers to have complete control over their code in production it also enables them to take ownership of monitoring the impact their changes have against production infrastructure. In order to monitor our changes we use this [helpful selection of dashboards](/handbook/engineering/monitoring/#selection-of-useful-dashboards-from-the-monitoring) and specifically the [Rails controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller) (Internal Only) for monitoring our changes in production. Metrics we evaluate include latency, throughput, CPU usage, memory usage, and database calls, depending on what our change's expected impact will be and any considerations called out in the issue.
+In addition to the steps documented for [developing with feature flags at GitLab](https://docs.gitlab.com/development/feature_flags/) Software Supply Chain Security:Pipeline Security engineers monitor their changes' impact on infrastructure using dashboards and logs where possible. Because feature flags allow engineers to have complete control over their code in production it also enables them to take ownership of monitoring the impact their changes have against production infrastructure. In order to monitor our changes we use this [helpful selection of dashboards](/handbook/engineering/monitoring/#selection-of-useful-dashboards-from-the-monitoring) and specifically the [Rails controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller) (Internal Only) for monitoring our changes in production. Metrics we evaluate include latency, throughput, CPU usage, memory usage, and database calls, depending on what our change's expected impact will be and any considerations called out in the issue.
 
 The goal of this process is to reduce the time that a change could potentially have on production infrastructure to the smallest possible window. A side benefit of this process is to increase engineer familiarity with our monitoring tools, and develop more experience with predicting the outcomes of changes as they relate to infrastructure metrics.
 
 #### Closing Issues
 
-After an engineer has ensured that the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done) is met for an issue, they are the ones responsible for closing it. The engineer responsible for verifying an issue is done is the engineer who is the DRI for that issue, or the DRI for the final merge request that completes the work on an issue.
+After an engineer has ensured that the [Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) is met for an issue, they are the ones responsible for closing it. The engineer responsible for verifying an issue is done is the engineer who is the DRI for that issue, or the DRI for the final merge request that completes the work on an issue.
 
 #### Issues for community contributions
 
@@ -320,7 +320,7 @@ The Pipeline Security group supports the product marketing categories described 
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/) |
+| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ci/secrets/) |
 | `Category:Secure Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secure+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecure%20Artifacts) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secure_artifacts/) | Documentation - TBD |
 
 #### Feature Labels

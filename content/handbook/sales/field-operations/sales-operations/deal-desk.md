@@ -932,7 +932,7 @@ For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure th
 - Copy the `GitLab Namespace Id` and `GitLab Namespace Name` data into these same fields on the New subscription quote.
 - Once ready, ensure the New subscription quote is submitted to Zuora _prior_ to the Cancellation quote.
 
-If any issues with this process occur, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
+If any issues with this process occur, the customer may [change the linked namespace](https://docs.gitlab.com/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
 
 - Deal Desk will attach a PDF of the consolidated quote to the opportunity
 - Sales team will send the order form to the customer for signature

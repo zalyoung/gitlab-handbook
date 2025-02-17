@@ -34,10 +34,10 @@ All changes are performed in GitLab branches that have a `terraform validate`, `
 
 ## Approval Rules
 
-Each merge request requires a peer review and is configured with three (2) [GitLab approval rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/). The peer reviewer is allowed to add commits to make fixes or make suggestions in merge request review comments.
+Each merge request requires a peer review and is configured with three (2) [GitLab approval rules](https://docs.gitlab.com/user/project/merge_requests/approvals/). The peer reviewer is allowed to add commits to make fixes or make suggestions in merge request review comments.
 
 1. The **Identity Approval** approval requires review from the Identity Engineering or Identity Operations team to ensure technical accuracy. This can be performed by the Identity Peer Reviewer if they did not make commits. If the Peer Reviewer makes commits, then an additional person must provide approval for separation of duties.
-1. The **System Owner** approval uses the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file that specifies the business owner and technical owner for each directory or file in the Terraform GitLab repository. We rely on GitLab's Tech Stack by default, however this can be updated by the Identity Operations team to be the domain subject matter expert (SME) for the specific configuration.
+1. The **System Owner** approval uses the [CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/) file that specifies the business owner and technical owner for each directory or file in the Terraform GitLab repository. We rely on GitLab's Tech Stack by default, however this can be updated by the Identity Operations team to be the domain subject matter expert (SME) for the specific configuration.
 
 The merge request is automatically merged after all approvals are provided. **Approval should not be provided until changes are ready to go live.**
 

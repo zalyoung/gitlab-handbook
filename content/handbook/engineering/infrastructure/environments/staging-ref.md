@@ -23,17 +23,17 @@ Staging Ref is a sandbox environment used for pre-production testing of the late
 
 ### Environment information
 
-- [Geo](https://docs.gitlab.com/ee/administration/geo/) is setup on Staging Ref with these configurations:
-  - Staging Ref US site - *primary* - [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) environment - stateless components (Webservice, Sidekiq, NGINX) deployed to Google Kubernetes Engine cluster and the remaining stateful components installed to GCP virtual machines
-  - Staging Ref EU site - *secondary* - [3k Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/) full Omnibus environment
+- [Geo](https://docs.gitlab.com/administration/geo/) is setup on Staging Ref with these configurations:
+  - Staging Ref US site - *primary* - [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/administration/reference_architectures/3k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) environment - stateless components (Webservice, Sidekiq, NGINX) deployed to Google Kubernetes Engine cluster and the remaining stateful components installed to GCP virtual machines
+  - Staging Ref EU site - *secondary* - [3k Reference Architecture](https://docs.gitlab.com/administration/reference_architectures/3k_users/) full Omnibus environment
 - Deployed with [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer)
 - SSL Certificates automated with [Let's Encrypt](https://letsencrypt.org/)
-- [Google OAuth](https://docs.gitlab.com/ee/integration/google/) gives access to environment for GitLab team members
+- [Google OAuth](https://docs.gitlab.com/integration/google/) gives access to environment for GitLab team members
 - [Outgoing email](https://docs.gitlab.com/charts/charts/globals/#outgoing-email) configured with Mailgun
-- [Advanced Search](https://docs.gitlab.com/ee/user/search/advanced_search/) is configured with Elasticsearch and [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#advanced-search-with-elasticsearch)
+- [Advanced Search](https://docs.gitlab.com/user/search/advanced_search/) is configured with Elasticsearch and [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#advanced-search-with-elasticsearch)
 - Ultimate license with [Free paid plan by default](#upgrade-paid-plans)
 - [Sentry](https://new-sentry.gitlab.net/organizations/gitlab/projects/staging-ref/) configured for error reporting
-- [Snowplow](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/#configure-a-remote-event-collector) tracking is enabled and collected to `snowplow.trx.gitlab.net`
+- [Snowplow](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/#configure-a-remote-event-collector) tracking is enabled and collected to `snowplow.trx.gitlab.net`
 
 #### Deployment process
 
@@ -93,7 +93,7 @@ After signing in you can proceed using the environment as required. If destructi
 
 #### Admin access
 
-To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area's Users page](https://docs.gitlab.com/ee/administration/admin_area/#administering-users) and edit your user's Access Level.
+To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area's Users page](https://docs.gitlab.com/administration/admin_area/#administering-users) and edit your user's Access Level.
 
 Note that Staging Ref environment is shared across all engineers. If you plan to perform changes to GitLab Admin settings, use the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel to communicate changes broadly.
 
@@ -150,7 +150,7 @@ If you need a specific dashboard or an existing dashboard does not work please r
 
 By default, all users and groups are on the `Free` plan. To upgrade a paid plan use [Admin account](#admin-access) and do the following:
 
-1. Navigate to [Admin area](https://docs.gitlab.com/ee/administration/).
+1. Navigate to [Admin area](https://docs.gitlab.com/administration/).
 1. Select Users or Groups section depending on what entity you would like to upgrade.
 1. Search for user or group by name and click "Edit".
 1. Select the required paid plan in "Plan".

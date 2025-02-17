@@ -494,7 +494,7 @@ The pipeline performs the following action:
 
 - All channges to ApexClasses, ApexTriggers, ApexPage, and ApexComponents stored in the Sales Systems source will now be managed directly from source, rather than having to be managed manually through change sets or via manual deploys.
 - We reduce the number of manual changes to the STAGING environment, limiting potential conflicts and issues creeping into production.
-- We can leverage [the power of GitLab Analytics](https://docs.gitlab.com/ee/user/analytics/) to better understand how we can better run our team!
+- We can leverage [the power of GitLab Analytics](https://docs.gitlab.com/user/analytics/) to better understand how we can better run our team!
 
 ### What's next?
 

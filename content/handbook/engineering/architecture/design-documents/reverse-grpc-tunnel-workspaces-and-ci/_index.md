@@ -51,7 +51,7 @@ In addition we found that it was easy to extend this tunnel to be useful for
 debugging CI jobs using the GitLab VS Code fork so that is also included in this proposal.
 This idea of tunneling may provide an alternative network transport
 to support
-[Interactive Web Terminals](https://docs.gitlab.com/ee/ci/interactive_web_terminal/)
+[Interactive Web Terminals](https://docs.gitlab.com/ci/interactive_web_terminal/)
 which currently relies on direct network access to the Runner Manager and is likely a
 considerable barrier for adoption.
 

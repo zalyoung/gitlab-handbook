@@ -14,7 +14,7 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-GitLab [Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/) is a feature allowing to store Docker container images in GitLab.
+GitLab [Container Registry](https://docs.gitlab.com/user/packages/container_registry/) is a feature allowing to store Docker container images in GitLab.
 
 ## 1. Definition
 
@@ -124,7 +124,7 @@ The username can be anything; it is not used by GitLab's container registry. The
 - Project access token
 - Group access token
 
-Per the current [container registry authentication process](https://docs.gitlab.com/ee/user/packages/container_registry/authenticate_with_container_registry/).
+Per the current [container registry authentication process](https://docs.gitlab.com/user/packages/container_registry/authenticate_with_container_registry/).
 
 Note that **Deploy token** is listed as an available password for the container registry, but since these tokens are not routeable, they will only work with the legacy cell. The user's **GitLab username and password** can also be used to authenticate with the container registry, but this authentication method also does not contain routing information, so will only work with the legacy cell. For the first iteration, only routing to the legacy cell and default organization will be supported for all token types.
 

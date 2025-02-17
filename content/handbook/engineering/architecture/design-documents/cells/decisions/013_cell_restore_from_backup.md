@@ -29,7 +29,7 @@ There will be two modes of Cell restoration:
    1. Validate the recovered Cell by connecting to it directly, bypassing the routing.
    1. Tear down the recovered Cell.
 
-**Note**: During the recovery process we may need to utilize [silent mode](https://docs.gitlab.com/ee/administration/silent_mode/) on the recovered Cell, or [maintenance mode](https://docs.gitlab.com/ee/administration/maintenance_mode/) on the Cell being recovered.
+**Note**: During the recovery process we may need to utilize [silent mode](https://docs.gitlab.com/administration/silent_mode/) on the recovered Cell, or [maintenance mode](https://docs.gitlab.com/administration/maintenance_mode/) on the Cell being recovered.
 
 ## Consequences
 

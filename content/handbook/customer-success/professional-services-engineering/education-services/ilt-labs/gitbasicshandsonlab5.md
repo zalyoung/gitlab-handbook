@@ -7,7 +7,7 @@ description: "This Hands-on Guide walks you through setting up and running an Au
 
 ## Objectives
 
-GitLab Auto DevOps is a collection of pre-configured features and integrations that work together to support your software delivery process. Auto DevOps detects your programming language and uses CI/CD templates to create and run default pipelines to build and test your application. Then, you can configure deployments to deploy your apps to staging and production, and set up Review Apps to preview your changes per branch. See the [documentation](https://docs.gitlab.com/ee/topics/autodevops/) to learn more.
+GitLab Auto DevOps is a collection of pre-configured features and integrations that work together to support your software delivery process. Auto DevOps detects your programming language and uses CI/CD templates to create and run default pipelines to build and test your application. Then, you can configure deployments to deploy your apps to staging and production, and set up Review Apps to preview your changes per branch. See the [documentation](https://docs.gitlab.com/topics/autodevops/) to learn more.
 
 In other words, Auto DevOps is an alternative to writing and using your own `.gitlab-ci.yml` file.
 
@@ -51,7 +51,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Click on the pipeline's **running** status icon and note the stages (represented by columns in the pipeline graph) and the jobs that Auto DevOps has created.
 
-   > You may see the `dast` job fail in your pipeline. This job requires additional configurations to scan successfully. See the [documentation](https://docs.gitlab.com/ee/user/application_security/dast/#configuration) to learn more about DAST scan configurations.
+   > You may see the `dast` job fail in your pipeline. This job requires additional configurations to scan successfully. See the [documentation](https://docs.gitlab.com/user/application_security/dast/#configuration) to learn more about DAST scan configurations.
 
 ## Task B. Commit a change to trigger a pipeline run
 

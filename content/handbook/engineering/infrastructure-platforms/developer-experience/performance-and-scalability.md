@@ -10,7 +10,7 @@ performant configurations.
 ## Reference Architectures
 
 To ensure that self-managed customers have performant, reliable, and scalable on-premise
-configurations, the Quality Department has built and verified [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/).
+configurations, the Quality Department has built and verified [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/).
 The goal is to provide tested and verified examples to customers which can be used to ensure good performance and
 give insight into what changes need to be made as organizations scale.
 
@@ -20,20 +20,20 @@ discussions related to the Reference Architectures.
 
 | Users      | Status            | Link to more info                                                                                                                                                         |
 |------------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1k         | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/1k_users/)                                                                          |
-| 1k hybrid  | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/1k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts)                                                                                   |
-| 2k         | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/2k_users/)                                                                          |
-| 2k hyrbid  | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/2k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative)  |
-| 3k         | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/)                                                                          |
-| 3k hyrbid  | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative)  |
-| 5k         | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/5k_users/)                                                                          |
-| 5k hyrbid  | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/5k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative)  |
-| 10k        | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users/)                                                                         |
-| 10k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
-| 25k        | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/25k_users/)                                                                         |
-| 25k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/25k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
-| 50k        | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users/)                                                                         |
-| 50k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
+| 1k         | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/1k_users/)                                                                          |
+| 1k hybrid  | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/1k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts)                                                                                   |
+| 2k         | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/2k_users/)                                                                          |
+| 2k hyrbid  | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/2k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative)  |
+| 3k         | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/3k_users/)                                                                          |
+| 3k hyrbid  | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/3k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative)  |
+| 5k         | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/5k_users/)                                                                          |
+| 5k hyrbid  | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/5k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative)  |
+| 10k        | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/10k_users/)                                                                         |
+| 10k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
+| 25k        | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/25k_users/)                                                                         |
+| 25k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/25k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
+| 50k        | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/50k_users/)                                                                         |
+| 50k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/administration/reference_architectures/50k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
 | 100k       | To Do (on demand) | [Issue link](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/6)                                                                                    |
 
 ## Performance Tool
@@ -68,7 +68,7 @@ High-level GPT pipeline overview:
 #### Test Results
 
 Information on the testing results can be found over on the
-[Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#validation-and-test-results).
+[Reference Architecture documentation](https://docs.gitlab.com/administration/reference_architectures/#validation-and-test-results).
 
 #### Performance results comparison of different GitLab versions
 
@@ -113,7 +113,7 @@ GitLab Performance Tool tests are not executed in merge requests due to several 
 
 Given these considerations, we adopt an approach of conducting comprehensive performance tests at the end of the test chain, where we can best control the conditions and allocate necessary resources.
 
-For shifting performance testing left, the recommended approach is to break down performance testing to specific components rather than the entire application. For example, GitLab team maintains performance testing for [Database Queries](https://docs.gitlab.com/ee/development/database/database_lab/). Similar unit-level performance testing approach can be followed by creating dedicated test frameworks, where the components are configured only the mock data and stressed tested accordingly.
+For shifting performance testing left, the recommended approach is to break down performance testing to specific components rather than the entire application. For example, GitLab team maintains performance testing for [Database Queries](https://docs.gitlab.com/development/database/database_lab/). Similar unit-level performance testing approach can be followed by creating dedicated test frameworks, where the components are configured only the mock data and stressed tested accordingly.
 
 ### Expanding the Tool
 
@@ -142,7 +142,7 @@ GBPT is run against the environment and then it's being shut down to save costs.
 
 | Environment                                                                             | GCP project                                                                         | Schedule                                                                                          | Latest results and dashboards                                                                  |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [10k](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users/) | [10k](https://console.cloud.google.com/home/dashboard?project=gitlab-qa-10k-cd77c7) | [Every weekday](https://gitlab.com/gitlab-org/quality/performance-sitespeed/-/pipeline_schedules) | [10k wiki](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k) |
+| [10k](https://docs.gitlab.com/administration/reference_architectures/10k_users/) | [10k](https://console.cloud.google.com/home/dashboard?project=gitlab-qa-10k-cd77c7) | [Every weekday](https://gitlab.com/gitlab-org/quality/performance-sitespeed/-/pipeline_schedules) | [10k wiki](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k) |
 
 ## Performance Playbook
 

@@ -248,7 +248,7 @@ Below are tips for developing individual's OKRs:
 [Engineering Allocation](/handbook/engineering/#engineering-allocation) require us to track goals with more diligence and thought.  We need confidence that we're making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
 
 1. [Demos](/handbook/engineering/demos/)
-1. [GitLab Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/)
+1. [GitLab Roadmaps](https://docs.gitlab.com/user/group/roadmap/)
 1. [GitLab Architecture Workflow](/handbook/engineering/architecture/workflow/)
 1. <span class="colour" style="color: rgb(0, 0, 0);">Dogfooding of features we think may be useful</span>
 
@@ -293,7 +293,7 @@ There are a few available models to choose from so that the flexibility is maxim
 
 #### Shared Services and Components
 
-The shared services and components below are extracted from the GitLab [product documentation](https://docs.gitlab.com/ee/development/architecture/).
+The shared services and components below are extracted from the GitLab [product documentation](https://docs.gitlab.com/development/architecture/).
 
 | Service or Component | Sub-Component | Ownership Model | DRI (Centralized Only) | Ownership Group (Centralized Only) | Additional Notes |
 | -------------------- | ------------- | --------------- | ---------------------- | ---------------------------------- | ---------------- |
@@ -425,19 +425,19 @@ Some areas have already been identified that meet the definition above, and may 
 
 | Area             | Reason                      | Special workflows (if any)                                                                                            |
 | ---------------- | --------------------------- |-----------------------------------------------------------------------------------------------------------------------|
-| Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review/#general-process)                          |
-| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates/) |
+| Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/development/database_review/#general-process)                          |
+| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/development/sidekiq/compatibility_across_updates/) |
 | Redis changes    | impact to multiple services<br/><br/>Redis instances are responsible for sets of data that are not grouped by feature category. If one set of data is misconfigured, that Redis instance may fail.  |                                                                                                                       |
 | Package product areas            | high percentage of traffic share |                                                                                                                       |
 | Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
 | [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. | |
-| Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/ee/development/contributing/verify/)                                          |
+| Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/development/contributing/verify/)                                          |
 | Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/software-supply-chain-security/authentication-and-authorization#code-review)            |
 | Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/software-supply-chain-security/compliance/#code-review)                     |
 | Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/dev/manage/workspace#how-we-work)                                   |
 | [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
-| Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade/#ruby-upgrade-guidelines)           |
-| Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update/)                                  |
+| Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/development/ruby_upgrade/#ruby-upgrade-guidelines)           |
+| Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/development/rails_update/)                                  |
 | Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
 
 ## AI-powered stakeholders

@@ -19,7 +19,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 #### Week of Aug 14-18
 
 - Completed:
-  - Updated the [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/) with a new table structured for our feature based rollout approach: [https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824)
+  - Updated the [architecture blueprint](https://docs.gitlab.com/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/) with a new table structured for our feature based rollout approach: [https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824)
   - Completed the POC for installing the database using Helm and Omnibus for new installations.  Demo videos are posted in the [issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1065) for both installation paths.
   - Implemented Headway automation. All issues and MRs marked with the `~headway-self-managed-registry-db label` will be added to tables in the [epic](https://gitlab.com/groups/gitlab-org/-/epics/5521).
   - Product is researching how GitLab has structured communication with users in other beta programs through the use of separate issues for enrollment and feedback.  This also provides a communication channel for users who reach out to us through our Support counterpart.
@@ -35,7 +35,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 #### Week of Aug 21-26
 
 - Plan:
-  - Define the features and draft changes for the feature based rollout approach discussed last week.  This matrix of features will be documented in the [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/).
+  - Define the features and draft changes for the feature based rollout approach discussed last week.  This matrix of features will be documented in the [architecture blueprint](https://docs.gitlab.com/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/).
   - Officially opening the Beta program this week.
   - Continue [testing](https://gitlab.com/gitlab-org/container-registry/-/issues/1099) data migration strategies with different types of storage backend and registry sizes.
   - Starting work on Omnibus and Helm Chart installations following discovery in the POC completed last week.
@@ -271,7 +271,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Continue testing and documentation for manual Charts migration
 - Completed:
   - Progress on Charts documentation [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/436406)
-  - Merged Omnibus documentation [docs](https://docs.gitlab.com/ee/administration/packages/container_registry_metadata_database/)
+  - Merged Omnibus documentation [docs](https://docs.gitlab.com/administration/packages/container_registry_metadata_database/)
 
 #### Week of Jan 29-Feb 2
 

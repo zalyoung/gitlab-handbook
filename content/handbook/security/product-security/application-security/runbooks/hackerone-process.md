@@ -66,7 +66,7 @@ following guidelines as necessary:
     requested that the reporter creates one if desired, but the report can be
     closed as "Informative".
   - Report is otherwise [Informative, Not Applicable, or Spam](#closing-reports-as-informative-not-applicable-or-spam).
-    For example, we've gotten a number of reports for [inline HTML in markdown](https://docs.gitlab.com/ee/user/markdown/#inline/)
+    For example, we've gotten a number of reports for [inline HTML in markdown](https://docs.gitlab.com/user/markdown/#inline/)
     that do not exceed the capabilities of markdown itself.
   - Report is a duplicate. Verify that the issue was not previously reported in HackerOne, or
     that an issue does not already exist in GitLab. If it is a duplicate:
@@ -92,7 +92,7 @@ the responsible engineering team:
   - Verify and/or set the appropriate Severity in H1, using the CVSS previously calculated
     - Optionally explain the CVSS to the researcher, mention that CVSS scores are validated by a peer, and link to our Awards process to avoid inefficient misunderstandings relating to severity and payouts
   - Verify and/or set the appropriate Weakness in H1
-  - If the report is [permissions related](https://docs.gitlab.com/ee/development/secure_coding_guidelines/#permissions), check for similar issues in the API, GraphQL, and Elasticsearch, as appropriate. Also check with alternate authentication mechanisms like Deploy Tokens, Deploy Keys, Trigger Tokens, etc.
+  - If the report is [permissions related](https://docs.gitlab.com/development/secure_coding_guidelines/#permissions), check for similar issues in the API, GraphQL, and Elasticsearch, as appropriate. Also check with alternate authentication mechanisms like Deploy Tokens, Deploy Keys, Trigger Tokens, etc.
   - Add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
   - Import the report into a GitLab issue using `/h1 import <report> [project] [options]` in Slack
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
@@ -140,10 +140,10 @@ For future reports that involve "vulnerability chaining" with previously disclos
 - [ ] Mitigate the incident if possible
   - [ ] If the exposed secret is a Agent Token:
     - [ ] Validate if the token is a valid one by following the steps [here](https://gitlab.com/gitlab-com/gl-security/security-research/verify-kas-token#testing-kas-token-for-validity) and gather the output for the SIRT incident.
-    - [ ] [Reset the token](https://docs.gitlab.com/ee/user/clusters/agent/work_with_agent/#reset-the-agent-token) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
+    - [ ] [Reset the token](https://docs.gitlab.com/user/clusters/agent/work_with_agent/#reset-the-agent-token) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - [ ] If the exposed secret is a Personal Access Token:
-    - [ ] Using the API, gather the output of [`/api/v4/user`](https://docs.gitlab.com/ee/api/users/#for-normal-users-1) and [`/api/v4/personal_access_tokens/self`](https://docs.gitlab.com/ee/api/personal_access_tokens/#using-a-request-header) for the SIRT incident.
-    - [ ] [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens/#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
+    - [ ] Using the API, gather the output of [`/api/v4/user`](https://docs.gitlab.com/api/users/#for-normal-users-1) and [`/api/v4/personal_access_tokens/self`](https://docs.gitlab.com/api/personal_access_tokens/#using-a-request-header) for the SIRT incident.
+    - [ ] [Revoke the token](https://docs.gitlab.com/api/personal_access_tokens/#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://internal.gitlab.com/handbook/security/security_operations/sirt/runbooks/exposed_secrets/#general-revocation-template-for-secrets)
   - [ ] If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) an incident
@@ -174,10 +174,10 @@ Exposure of information and secrets is handled a little differently to vulnerabi
 - Mitigate the incident if possible
   - If the exposed secret is a Agent Token:
     - Validate if the token is a valid one by following the steps [here](https://gitlab.com/gitlab-com/gl-security/security-research/verify-kas-token#testing-kas-token-for-validity) and gather the output for the SIRT incident.
-    - [Reset the token](https://docs.gitlab.com/ee/user/clusters/agent/work_with_agent/#reset-the-agent-token) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
+    - [Reset the token](https://docs.gitlab.com/user/clusters/agent/work_with_agent/#reset-the-agent-token) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - If the exposed secret is a Personal Access Token:
-    - Using the API, gather the output of [`/api/v4/user`](https://docs.gitlab.com/ee/api/users/#for-normal-users-1) and [`/api/v4/personal_access_tokens/self`](https://docs.gitlab.com/ee/api/personal_access_tokens/#using-a-request-header) for the SIRT incident.
-    - [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens/#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
+    - Using the API, gather the output of [`/api/v4/user`](https://docs.gitlab.com/api/users/#for-normal-users-1) and [`/api/v4/personal_access_tokens/self`](https://docs.gitlab.com/api/personal_access_tokens/#using-a-request-header) for the SIRT incident.
+    - [Revoke the token](https://docs.gitlab.com/api/personal_access_tokens/#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - Use the `/security` slack command to initiate an incident
@@ -227,14 +227,14 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 
 ## Triaging features behind a feature flag
 
-Sometimes researchers will report a vulnerability in features behind a [feature flag](https://docs.gitlab.com/ee/operations/feature_flags/). These reports are excellent as they allow us to patch vulnerabilities prior to them affecting our wider audience that utilizes the default settings. These reports are eligible for the full amount of their calculated bounty.
+Sometimes researchers will report a vulnerability in features behind a [feature flag](https://docs.gitlab.com/operations/feature_flags/). These reports are excellent as they allow us to patch vulnerabilities prior to them affecting our wider audience that utilizes the default settings. These reports are eligible for the full amount of their calculated bounty.
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - _**"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."**_.
 
 - A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs.
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
-Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags/#risks-when-enabling-features-still-in-development), not security releases.
+Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/administration/feature_flags/#risks-when-enabling-features-still-in-development), not security releases.
 
 ## Triaging issues in lower Ruby versions
 

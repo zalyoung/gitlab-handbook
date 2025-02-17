@@ -76,7 +76,7 @@ On occasion, it may be prudent to include language like the following to the des
 
 Similarly, not all information should be included in the public handbook. Instead, use the [private internal handbook](https://internal.gitlab.com/) for this SAFE information.
 
-Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/styleguide/availability_details/#promising-features-in-future-versions) for more information.
+Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/development/documentation/styleguide/availability_details/#promising-features-in-future-versions) for more information.
 
 ### Planning
 
@@ -336,7 +336,7 @@ The MRs must meet the following criteria:
 - They must receive at least one approval.
 - A maintainer's review is required.
 
-In addition to the approval rules, MRs may require additional reviews as suggested by the [Danger bot](https://docs.gitlab.com/ee/development/dangerbot/):
+In addition to the approval rules, MRs may require additional reviews as suggested by the [Danger bot](https://docs.gitlab.com/development/dangerbot/):
 
 1. Modifications to the DB require database reviewer and maintainer approval
 1. Security-related issues (such as changes to authentication) require a [Security review](/handbook/security/product-security/application-security/appsec-reviews/#adding-features-to-the-queue)
@@ -450,7 +450,7 @@ GitLab's Quality is everyone's responsibility.
 
 #### End-to-end tests - how, when and why to write them
 
-End-to-end tests (often referred to as e2e tests) cover full or partial flows that the end-user will go through. Detailed information on testing levels can be found [here](https://docs.gitlab.com/ee/development/testing_guide/testing_levels/).
+End-to-end tests (often referred to as e2e tests) cover full or partial flows that the end-user will go through. Detailed information on testing levels can be found [here](https://docs.gitlab.com/development/testing_guide/testing_levels/).
 
 Some examples of these flows:
 

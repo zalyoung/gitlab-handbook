@@ -230,7 +230,7 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 
 ### Geo
 
-[GitLab Geo](https://docs.gitlab.com/ee/administration/geo/) is an enterprise product feature, built to help speed up the development of distributed teams by providing one or more read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch large repositories and projects, or can be part of a Disaster Recovery solution.
+[GitLab Geo](https://docs.gitlab.com/administration/geo/) is an enterprise product feature, built to help speed up the development of distributed teams by providing one or more read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch large repositories and projects, or can be part of a Disaster Recovery solution.
 
 #### Responsibilties
 
@@ -502,7 +502,7 @@ Candidate should ideally be:
 - Methodical when troubleshooting and solving problems.
 - Experienced in working on large scale systems.
 - Experienced in application and systems observability.
-- Have working knowledge of one or more of the [technologies](https://docs.gitlab.com/ee/development/architecture/) used to deliver GitLab.com.
+- Have working knowledge of one or more of the [technologies](https://docs.gitlab.com/development/architecture/) used to deliver GitLab.com.
 - Able to articulate systems performance concepts to other engineers.
 
 Other qualifications include:

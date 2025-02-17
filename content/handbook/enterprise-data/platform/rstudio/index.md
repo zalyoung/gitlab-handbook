@@ -185,7 +185,7 @@ This documentation was creating using RStudio version 2022.07.1.
 - Set the path to the Git executable that you just installed.
   - If you don't know where Git is installed, access your Terminal and enter command `which git` and hit the **return** key
   - The path should be something similar to `/usr/bin/git`. (Note: if navigating through Finder, hidden files can be viewed by pressing `Command` + `Shift` + `.`)
-- Create an SSH key by following the instructions it/data-team/ the [Generate an SSH Key Pair](https://docs.gitlab.com/ee/user/ssh/) section.
+- Create an SSH key by following the instructions it/data-team/ the [Generate an SSH Key Pair](https://docs.gitlab.com/user/ssh/) section.
   - ED25519 is recommended
   - Once complete, add the private key path to the **SSH RSA Key** field
   - ![Git-SVN](/images/enterprise-data/platform/rstudio/Git1.png)

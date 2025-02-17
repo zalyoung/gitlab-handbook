@@ -50,7 +50,7 @@ Sales Motion and Sequence:
 1. **First Purchase:** When a successful PoC is completed: _**agree to another workshop**
    1. DELIVER: Demo of how to use GitLab in their phase 1 deployment. Show the desired end-state to the customer.
    1. Train customer on GitLab best practices
-   1. Set customer up with Shared Compute (attached [Runners](https://docs.gitlab.com/ee/ci/runners/) and [Kubernetes clusters](https://docs.gitlab.com/ee/user/project/clusters/))
+   1. Set customer up with Shared Compute (attached [Runners](https://docs.gitlab.com/ci/runners/) and [Kubernetes clusters](https://docs.gitlab.com/user/project/clusters/))
    1. Leave demo with agreed deployment plan, timeline and target results
    - On completion: customer purchases subscription
 1. **CI Expansion conversations:** If not in the first deployment, as soon as possible ***agree to a CI workshop***

@@ -42,7 +42,7 @@ Our current architecture of having a separate database for embeddings is probabl
 ### Performance and scalability implications
 
 - Is there any guidance on how much data we can add to the PostgreSQL (regardless of the vector data or normal data)?
-  - Not really, as we do not usually just add data to the database, but rather it's a result of the instance being used. I don't see any specific [storage requirements](https://docs.gitlab.com/ee/install/requirements/#storage). If the existing `vertex_gitlab_docs` table size is a good indicator, we probably can add this without causing much trouble, though having an option to opt-in or opt-out is preferable.
+  - Not really, as we do not usually just add data to the database, but rather it's a result of the instance being used. I don't see any specific [storage requirements](https://docs.gitlab.com/install/requirements/#storage). If the existing `vertex_gitlab_docs` table size is a good indicator, we probably can add this without causing much trouble, though having an option to opt-in or opt-out is preferable.
 
 ### Availability
 
@@ -78,15 +78,15 @@ Repository X Ray hasn't yet implemented any semantic seach and this section is b
 
 ### Synchronizing embeddings with data source
 
-In symilar manner as with the [documentation example](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_duo_rag/postgresql/#retrieve-gitlab-documentation) Repository X Ray report data is a derivative. It uses an underlaying repository source code as a base,
+In symilar manner as with the [documentation example](https://docs.gitlab.com/architecture/blueprints/gitlab_duo_rag/postgresql/#retrieve-gitlab-documentation) Repository X Ray report data is a derivative. It uses an underlaying repository source code as a base,
 and it must be synchronised with it, whenever any changes to the source code occurs.
 
 Right now there is no synchronisation mechanism that includes embeddings and vector storage. However there is an existing pipeline that generates and stores Repository X Ray reports
 
 The ingestion pipeline is performed in following steps:
 
-1. A CI X Ray scanner job is triggered - a documentation [page](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray/#enable-repository-x-ray) suggest limiting this job to be executed only when changes occur to the main repository branch. However repository maintainers may configure trigger rules differently.
-   1. An X Ray [scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) locates and process one of the supported [dependencies files](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray/#supported-languages-and-package-managers), producing JSON report files
+1. A CI X Ray scanner job is triggered - a documentation [page](https://docs.gitlab.com/user/project/repository/code_suggestions/repository_xray/#enable-repository-x-ray) suggest limiting this job to be executed only when changes occur to the main repository branch. However repository maintainers may configure trigger rules differently.
+   1. An X Ray [scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) locates and process one of the supported [dependencies files](https://docs.gitlab.com/user/project/repository/code_suggestions/repository_xray/#supported-languages-and-package-managers), producing JSON report files
 1. After the X Ray scanner job finishes successfully, a [background job](https://gitlab.com/gitlab-org/gitlab/-/blob/c6b2f18eaf0b78a4e0012e88f28d643eb0dfb1c2/ee/app/workers/ai/store_repository_xray_worker.rb#L18) is triggered in GitLab Rails monolith that imports JSON report into [`Projects::XrayReport`](https://gitlab.com/gitlab-org/gitlab/-/blob/bc2ad40b4b026dd359e289cf2dc232de1a2d3227/ee/app/models/projects/xray_report.rb#L22)
    1. There can be only one Repository X Ray report per project in the scope of programming language, duplicated records are being upserted during import process
 
@@ -94,7 +94,7 @@ As of today, there are 84 rows on `xray_reports` table on GitLab.com.
 
 ### Retrieval
 
-After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/), Repository X Ray report is retrieved, in following steps
+After Repository X Ray report gets imported, when IDE extension sends request for a [code generation](https://docs.gitlab.com/user/project/repository/code_suggestions/), Repository X Ray report is retrieved, in following steps
 
 1. Fetch embedding of the user input from `textembedding-gecko` model (768 dimensions).
 1. Query to `vertex_gitlab_docs` table for finding the nearest neighbors. For example:

@@ -87,7 +87,7 @@ consul .[#e76a9b]-> prsd_cluster
 
 #### Service Level Indicators(SLIs)
 
-We will adopt the same SLIs followed for [GitLab Applications](https://docs.gitlab.com/ee/development/application_slis/) i.e.,
+We will adopt the same SLIs followed for [GitLab Applications](https://docs.gitlab.com/development/application_slis/) i.e.,
 **Apdex score**, **Error Ratio** and two additional metrics specific to the service - **Request Latency** and
 **Memory Saturation rate**.
 
@@ -120,5 +120,5 @@ concurrently from the RPC client side.
 
 ### Reference links
 
-- [Standalone Service as a concept](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ml_experiments/)
+- [Standalone Service as a concept](https://docs.gitlab.com/architecture/blueprints/gitlab_ml_experiments/)
 - [Runway: Service Deployment & Docs](https://gitlab.com/gitlab-com/gl-infra/platform/runway)

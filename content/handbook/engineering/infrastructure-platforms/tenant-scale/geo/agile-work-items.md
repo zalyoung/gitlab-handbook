@@ -90,7 +90,7 @@ This table aims to provide a mapping between the concepts in the hierarchy and t
 | Task       | Tasks *      |
 | Bug        | Issue with label `type::bug` |
 
-\* For tasks, there is a couple of options, we can use [task lists](https://docs.gitlab.com/ee/user/markdown/#task-lists) in the issue description using markdown, or we can create formally [Tasks](https://docs.gitlab.com/ee/user/tasks/) that are its own work item type in GitLab.
+\* For tasks, there is a couple of options, we can use [task lists](https://docs.gitlab.com/user/markdown/#task-lists) in the issue description using markdown, or we can create formally [Tasks](https://docs.gitlab.com/user/tasks/) that are its own work item type in GitLab.
 
 ## Guidelines and rules of thumb
 

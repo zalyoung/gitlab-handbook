@@ -15,7 +15,7 @@ For a more inutitive UI for managing your cluster resources, we recommend using 
 
 ### Deprecation Notice
 
-This method of connecting your cluster was deprecated in GitLab v14.5. This tutorial is preserved for educational purposes. See the [Kubernetes Agent](https://docs.gitlab.com/ee/user/clusters/agent/) documentation for the new method for connecting clusters to GitLab.
+This method of connecting your cluster was deprecated in GitLab v14.5. This tutorial is preserved for educational purposes. See the [Kubernetes Agent](https://docs.gitlab.com/user/clusters/agent/) documentation for the new method for connecting clusters to GitLab.
 
 ### Pre-Requisites
 

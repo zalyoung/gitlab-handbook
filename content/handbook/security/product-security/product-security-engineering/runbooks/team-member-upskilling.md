@@ -62,7 +62,7 @@ Recommended:
 Essential:
 
 - [ ] Review the following and identify areas that you want to learn more about:
-  - [ ] GitLab's [Secure Code Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines/)
+  - [ ] GitLab's [Secure Code Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/)
   - [ ] GitLab's [Security Risk Quarterly](/handbook/security/security-assurance/security-risk/storm-program/#risk-tracking-and-reporting)
 - [ ] Create an issue or epic to track your learning efforts. Include:
   - [ ] Type of training / URL(s)

@@ -4,13 +4,13 @@ title: Secure Architecture - Feedback (Dismiss, create an issue or a Merge Reque
 
 ## Overview
 
-Once a Finding is reported for a project, users can interact with it in multiple ways. One of them is called [Feedback](https://docs.gitlab.com/ee/user/application_security/terminology/#feedback) and allows the user to:
+Once a Finding is reported for a project, users can interact with it in multiple ways. One of them is called [Feedback](https://docs.gitlab.com/user/application_security/terminology/#feedback) and allows the user to:
 
 - dismiss the finding
 - create an issue from the finding
 - create an MR from the finding
 
-These features are described in details in our [user documentation](https://docs.gitlab.com/ee/user/application_security/#interacting-with-the-vulnerabilities).
+These features are described in details in our [user documentation](https://docs.gitlab.com/user/application_security/#interacting-with-the-vulnerabilities).
 
 It has been called Feedback as the initial intent was to gather feedback from users about reported Findings and possibly leverage that to increase the signal to noise ratio.
 
@@ -20,7 +20,7 @@ One challenge with the Feedback is the reliability of its tracking.
 Indeed, when a Finding is dismissed, we want to make sure it will stay dismissed in any subsequent scan that would report it.
 
 Another one is that the Feedback feature is available on all views, for all branches.
-This means, it must work with the [Vulnerability Findings](https://docs.gitlab.com/ee/user/application_security/terminology/#vulnerability-finding) (that are stored in the database) and the [Report Findings](https://docs.gitlab.com/ee/user/application_security/terminology/#report-finding) (that are NOT stored in the database).
+This means, it must work with the [Vulnerability Findings](https://docs.gitlab.com/user/application_security/terminology/#vulnerability-finding) (that are stored in the database) and the [Report Findings](https://docs.gitlab.com/user/application_security/terminology/#report-finding) (that are NOT stored in the database).
 
 ## Implementation
 
@@ -66,7 +66,7 @@ For each Finding, the Analyzer creates a `cve` property from proprietary data gi
 So unlike it's name, this property doesn't contain a CVE value anymore.
 This legacy property was initially used for comparison and deduping of findings in the early stage of the security features, which was only based on CVE number at that time.
 Then the property has been overloaded in an attempt to provide a value that will achieve both uniqueness and stability over time, and in a backward compatible way.
-The `cve` property is part of the [Secure Report Format](https://docs.gitlab.com/ee/user/application_security/terminology/#secure-report-format).
+The `cve` property is part of the [Secure Report Format](https://docs.gitlab.com/user/application_security/terminology/#secure-report-format).
 
 When parsing the report in the rails application, this `cve` property is unmarshalled into [a `compare_key` attribute](https://gitlab.com/gitlab-org/gitlab/-/blob/0d013cc934887497874f2f1dc2411015e8575084/ee/lib/gitlab/ci/parsers/security/common.rb#L62) of the Finding object.
 

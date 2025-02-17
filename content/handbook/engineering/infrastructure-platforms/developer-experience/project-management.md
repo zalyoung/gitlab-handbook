@@ -8,7 +8,7 @@ description: "Guidelines for project management for the Developer Experience Sta
 Established Projects are those that have proven their value, are mature, and are fully integrated into regular department workflows. These projects are critical to the department's operations and require ongoing management and development.
 
 - Ensure that the project is created under the respective Group within the [Developer Experience Group](https://gitlab.com/gitlab-org/dx) for organizational alignment.
-- Make projects [Public or Internal](https://docs.gitlab.com/ee/user/public_access/) based on the required usage needs.
+- Make projects [Public or Internal](https://docs.gitlab.com/user/public_access/) based on the required usage needs.
 - Add Ownership details for the established project by following below steps:
   - Navigate to your project and select "Settings" > "General".
   - In the General settings, find and expand the "Badges" section.
@@ -31,9 +31,9 @@ The process of deprecating a project should be methodical and transparent to all
 
 - Conduct a thorough review of the project against the deprecation criteria.
 - Inform all stakeholders, including project maintainers, users, and dependent teams, about the decision to deprecate.
-- For an established project, ensure all valuable data and documentation are securely [archived](https://docs.gitlab.com/ee/user/project/settings/migrate_projects/#archive-a-project).
+- For an established project, ensure all valuable data and documentation are securely [archived](https://docs.gitlab.com/user/project/settings/migrate_projects/#archive-a-project).
 - Archive the project. This action will make the project read-only and prevent further changes. If needed, it can be unarchived in the future.
-- Consider [deleting the project](https://docs.gitlab.com/ee/user/project/working_with_projects/#delete-a-project) after a three-month window from the archival for established projects. Deletion can be performed immediately for personal and POC projects once the purpose is served.
+- Consider [deleting the project](https://docs.gitlab.com/user/project/working_with_projects/#delete-a-project) after a three-month window from the archival for established projects. Deletion can be performed immediately for personal and POC projects once the purpose is served.
 
 ## Project Management
 

@@ -28,10 +28,10 @@ The projects are further ordered into Sub-Groups by region:
 
 ### Use cases for the Customer Collaboration Projects
 
-- The encompassing group for the customer collaboration project has space for other special projects (Proof of Value, Value stream assessment, different Subscription at the customer) or an [Group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens/) - API key for automations.
+- The encompassing group for the customer collaboration project has space for other special projects (Proof of Value, Value stream assessment, different Subscription at the customer) or an [Group access token](https://docs.gitlab.com/user/group/settings/group_access_tokens/) - API key for automations.
 - Agenda Issue for cadence or other meetings with the customer, via [agenda issue template](https://gitlab.com/gitlab-com/account-management/templates/collaboration/-/blob/master/.gitlab/issue_templates/Meeting%20Agenda.md) or on [group Level](https://gitlab.com/gitlab-com/account-management/sub-group-issue-templates/-/tree/master/.gitlab/issue_templates).
-- Conversations about Initiatives with the Customer, including collaborating with other GitLab members by [@ mentioning](https://docs.gitlab.com/ee/user/discussions/#mentions) into this issue.
-- Async Planning of Enablement Sessions [@ mentioning](https://docs.gitlab.com/ee/user/discussions/#mentions) GitLab contributors in the issue.
+- Conversations about Initiatives with the Customer, including collaborating with other GitLab members by [@ mentioning](https://docs.gitlab.com/user/discussions/#mentions) into this issue.
+- Async Planning of Enablement Sessions [@ mentioning](https://docs.gitlab.com/user/discussions/#mentions) GitLab contributors in the issue.
 - Async retrospectives, with [retrospective issue creation](https://gitlab.com/gitlab-org/async-retrospectives).
 - SA (Solution Architect) activities tracked for example demos or POVs.
 - Architecture diagram with history (git history).
@@ -39,13 +39,13 @@ The projects are further ordered into Sub-Groups by region:
 - [TAM Issue tracker](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/tam-issue-tracking) Tracking of product feature requests.
 - [Interacting with the Product Team](/handbook/customer-success/csm/product/#product-interacting-with-csms) and [Prioritizing Customer issues](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-success).
 - [Public Pages for Issue creation](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/tree/master/public).
-- [ServiceDesk Function](https://docs.gitlab.com/ee/user/project/service_desk/), to enable other users of the customer without a role in the Customer Collaboration Project to create issues. The CSM should notify the customer that the Collaboration Project is not meant for product support and troubleshooting inquiries.
-- Sharing service ping metrics, graphics, and Usage metrics guides via PDF, CSV with GitLab from the Customer ([configure Collab project for LFS](https://docs.gitlab.com/ee/user/project/settings/#configure-project-visibility-features-and-permissions)).
-- Storing EBR and other meeting recordings ([configure Collab project for LFS](https://docs.gitlab.com/ee/user/project/settings/#configure-project-visibility-features-and-permissions)).
+- [ServiceDesk Function](https://docs.gitlab.com/user/project/service_desk/), to enable other users of the customer without a role in the Customer Collaboration Project to create issues. The CSM should notify the customer that the Collaboration Project is not meant for product support and troubleshooting inquiries.
+- Sharing service ping metrics, graphics, and Usage metrics guides via PDF, CSV with GitLab from the Customer ([configure Collab project for LFS](https://docs.gitlab.com/user/project/settings/#configure-project-visibility-features-and-permissions)).
+- Storing EBR and other meeting recordings ([configure Collab project for LFS](https://docs.gitlab.com/user/project/settings/#configure-project-visibility-features-and-permissions)).
 - Store Meeting Minutes.
 - Providing the [GitLab Support Team](/handbook/support/) and their Architecture Diagrams app access to the [Infrastructure Diagram](/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project)
 - GitLab exploration. Allowing the customer access to an Ultimate tier namespace can come in handy for exploration of uses they may not have access to in their own instance. Also, it exposes them to our use of issues/epics/boards and may drive some interest in expanding their own use of these features.
-- Issue Boards with [scoped labels](https://docs.gitlab.com/ee/user/project/labels/#scoped-labels) as [workflow states](https://docs.gitlab.com/ee/user/project/labels/#scoped-labels-examples).
+- Issue Boards with [scoped labels](https://docs.gitlab.com/user/project/labels/#scoped-labels) as [workflow states](https://docs.gitlab.com/user/project/labels/#scoped-labels-examples).
 - Provide:
   - Training recommendations.
   - Important links & resources.
@@ -93,4 +93,4 @@ The customer's team should be included on the project and begin to work collabor
 
 #### General Actions on a Customer Collaboration Project
 
-1. Set the [notification level on the Customer Collaboration Project](https://docs.gitlab.com/ee/user/profile/notifications/#change-level-of-project-notifications) to either ["Watching" or "Custom"](https://docs.gitlab.com/ee/user/profile/notifications/#notification-levels) to get notified, if the customer opens an issue for example.
+1. Set the [notification level on the Customer Collaboration Project](https://docs.gitlab.com/user/profile/notifications/#change-level-of-project-notifications) to either ["Watching" or "Custom"](https://docs.gitlab.com/user/profile/notifications/#notification-levels) to get notified, if the customer opens an issue for example.

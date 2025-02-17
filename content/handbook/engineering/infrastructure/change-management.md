@@ -12,7 +12,7 @@ Our overriding objective is maximize changes that avoid traditional aspects of c
 
 ## Scope
 
-**Changes** are defined as modifications to the operational environment, including configuration changes, adding or removing components or services to the environment and cloud infrastructure changes. Our [Staging environment](/handbook/engineering/infrastructure/environments/#staging) is crucial to our GitLab.com release process.  Therefore, Staging should be considered within scope for Change Management, as part of GitLab's operational environment. Application deployments, while technically being changes, are excluded from the change management process, as are most, but not all, [feature flag toggles](https://docs.gitlab.com/ee/development/feature_flags/controls/#process).
+**Changes** are defined as modifications to the operational environment, including configuration changes, adding or removing components or services to the environment and cloud infrastructure changes. Our [Staging environment](/handbook/engineering/infrastructure/environments/#staging) is crucial to our GitLab.com release process.  Therefore, Staging should be considered within scope for Change Management, as part of GitLab's operational environment. Application deployments, while technically being changes, are excluded from the change management process, as are most, but not all, [feature flag toggles](https://docs.gitlab.com/development/feature_flags/controls/#process).
 
 Changes that need to be performed during the resolution of an Incident fall under [Incident Management](/handbook/engineering/infrastructure/incident-management/).
 
@@ -178,7 +178,7 @@ Change plans often involve manual tasks
 
 - Avoid using UIs instead of command-line tools. For example use the `gcloud` command line utility instead of the GCP console.
 - Consider using a script over many individual shell commands
-- If a script is necessary, consider adding dry-run capability and follow GitLab's [scripting guidelines](https://docs.gitlab.com/ee/development/shell_scripting_guide/)
+- If a script is necessary, consider adding dry-run capability and follow GitLab's [scripting guidelines](https://docs.gitlab.com/development/shell_scripting_guide/)
 
 ## Scheduling the Change
 
@@ -350,7 +350,7 @@ Feature flags reduce risk by allowing application changes to be easily tested in
 quickly turned off, their use is encouraged whenever appropriate.
 
 However, as the company and the number of developers working with feature flags continues to grow, it becomes important to manage risk associated with
-these changes too. Developers follow the process defined in the [developers documentation for feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls/#rolling-out-changes).
+these changes too. Developers follow the process defined in the [developers documentation for feature flags](https://docs.gitlab.com/development/feature_flags/controls/#rolling-out-changes).
 
 On any given day, dozens of feature flag changes may occur. Many of these are trivial, allowing low risk changes -- sometimes just changes to UI appearance -- to be tested. However, some feature flag changes can have a major impact on the operation of GitLab.com, negatively affecting our **service level agreements**. This in turn can have a negative impact to the reputation and financial well being for the company. Without clear communication between the application developers toggling features and the engineer-on-call (EOC), it can be difficult for the EOC to assess which feature flag toggles are high risk and which are not.
 

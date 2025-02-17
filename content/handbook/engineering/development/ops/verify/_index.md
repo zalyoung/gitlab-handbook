@@ -36,7 +36,7 @@ The [product roadmap](https://gitlab.com/gitlab-com/Product/-/issues/12911) outl
    1. [Implemented distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854)
    1. Prioritized further work in [CI/CD Build Speed working group](/handbook/company/working-groups/ci-build-speed/)
    1. Built more observability related to Pipeline speed improvements.
-1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - this is deferred from FY25 due to capacity constraints in Verify.
+1. [CI Events](https://docs.gitlab.com/architecture/blueprints/gitlab_ci_events/) - this is deferred from FY25 due to capacity constraints in Verify.
 1. Better onboarding for contributors who are not CI subject domain experts - this includes improvements to code readability and accessibility, or better documentation and onboarding material.
 
 ### FY24
@@ -130,7 +130,7 @@ Similar to our [reviewer mentorship programs](/handbook/engineering/workflow/cod
 
 ### API development
 
-Our API exists in two formats ([REST](https://docs.gitlab.com/ee/api/#rest-api) and [GraphQL](https://docs.gitlab.com/ee/api/#graphql-api)) which should allow the same degree of querying.
+Our API exists in two formats ([REST](https://docs.gitlab.com/api/#rest-api) and [GraphQL](https://docs.gitlab.com/api/#graphql-api)) which should allow the same degree of querying.
 In Verify, we are **`GraphQL` first** which means that we will develop new user facing features using `GraphQL` by default.
 We will refactor older `REST` user facing features to support `GraphQL` wherever possible.
 In some instances, it might make more sense to keep or even develop a new feature using `REST`.
@@ -263,7 +263,7 @@ Once a contribution has been created, the Engineering Manager assigns an enginee
 
 #### Contributions from Partners
 
-Our partners are an important part of our ecosystem at GitLab. These contributions should be reviewed with the same [GitLab Contribution Guidelines](https://about.gitlab.com/community/contribute/) as community MR contributions, and aligns with the [Verify contribution guidelines](https://docs.gitlab.com/ee/development/contributing/verify/) for working in the Verify areas of the codebase.
+Our partners are an important part of our ecosystem at GitLab. These contributions should be reviewed with the same [GitLab Contribution Guidelines](https://about.gitlab.com/community/contribute/) as community MR contributions, and aligns with the [Verify contribution guidelines](https://docs.gitlab.com/development/contributing/verify/) for working in the Verify areas of the codebase.
 
 ### Merging the Contribution
 

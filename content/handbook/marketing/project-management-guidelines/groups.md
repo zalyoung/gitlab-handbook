@@ -6,11 +6,11 @@ title: "Marketing Groups and Projects guidelines"
 
 ## Background
 
-GitLab helps to organize teams and work through a hierarchy of [Groups](https://docs.gitlab.com/ee/user/group/) and [Projects](https://docs.gitlab.com/ee/user/project/).
+GitLab helps to organize teams and work through a hierarchy of [Groups](https://docs.gitlab.com/user/group/) and [Projects](https://docs.gitlab.com/user/project/).
 
 ### Key things to know
 
-Groups can contain other groups ([subgroups](https://docs.gitlab.com/ee/user/group/subgroups/)) and projects.
+Groups can contain other groups ([subgroups](https://docs.gitlab.com/user/group/subgroups/)) and projects.
 
 ![groups and subgroups](/images/marketing/project-management-guidelines/groups-subgroups.svg)
 

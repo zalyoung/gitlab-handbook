@@ -16,7 +16,7 @@ This document is a work in progress and represents the current state of the visi
 
 ## Summary
 
-Users need a single solution for enforcing jobs to be run as part of a project pipeline. They want a way to combine the flexibility of [compliance framework pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines/) with the simplicity of [scan execution policies](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies/#scan-execution-policies-schema).
+Users need a single solution for enforcing jobs to be run as part of a project pipeline. They want a way to combine the flexibility of [compliance framework pipelines](https://docs.gitlab.com/user/group/compliance_pipelines/) with the simplicity of [scan execution policies](https://docs.gitlab.com/user/application_security/policies/scan_execution_policies/#scan-execution-policies-schema).
 
 There are many cases that could be addressed using pipeline execution policies to define policy rules, but here are a few of the most common we've heard so far:
 
@@ -56,13 +56,13 @@ Known compliance pipelines issues are:
 
 Currently, security policies can include multiple scan actions. Each scan action will result in a CI job that will be injected in the project CI pipeline.
 The new policy type Pipeline Execution Policy allows users to define custom CI jobs that will be injected into the project CI pipeline as well. We want to generalize the security policy
-approach to provide the same flexibility that [compliance framework](https://docs.gitlab.com/ee/user/group/compliance_frameworks/) needs. The combination of the 2 features
+approach to provide the same flexibility that [compliance framework](https://docs.gitlab.com/user/group/compliance_frameworks/) needs. The combination of the 2 features
 means that security policies can be scope to compliance frameworks and enforce the presence of custom CI jobs.
 
 Like Scan Execution Policies, Pipeline Execution Policy jobs can be
-[scoped](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies/#policy_scope-scope-type)
+[scoped](https://docs.gitlab.com/user/application_security/policies/scan_execution_policies/#policy_scope-scope-type)
 to certain compliance frameworks applied to the project.
-It should be possible to control when the policy jobs are enforced by using the existing [workflow rules](https://docs.gitlab.com/ee/ci/yaml/workflow/).
+It should be possible to control when the policy jobs are enforced by using the existing [workflow rules](https://docs.gitlab.com/ci/yaml/workflow/).
 Users can leverage one of the predefined security-policy stages to position jobs in the pipeline according to their needs.
 Transitioning from compliance pipelines to the new feature should be as smooth as possible.
 
@@ -77,13 +77,13 @@ The Pipeline Execution Policy MVC will allow the transition from compliance pipe
 - Pipeline Execution Policies should execute custom CI YAML by creating jobs in isolated pipelines which are merged into the pipeline of the target projects.
 - Organizations may require different CI configurations/templates to enforce globally for various use cases. Commonly, some projects focus on code and do not perform deployment. These projects may have different security/compliance requirements compared to other projects that facilitate the build and deployment steps. Pipeline execution policies must be able to support this need, allowing for variable configuration dependent on the type of project. Thus, it may be necessary to support more than one pipeline execution policy per level (e.g., more than one policy at the group level). However, we may be able to leverage policy scopes to limit the number of configurations enforced per level against a single project.
 - When considering pipeline execution policy limits, another use case is hierarchical enforcement. Policies may be enforced globally (defined in one top-level group and enforcing all other groups/projects). Policies may also be enforced a tier lower in the business, such as via individual business units. Each BU may have unique requirements to satisfy. While we want to limit the opportunity for collision, we may be able to identify a solution that satisfies the need for top-down enforcement. Some customers have been exploring mechanisms for appending/extending policy enforcement down the tree/hierarchy. We could also start with lower limits, ensuring that top-level groups and sub-groups higher in the tree take precedence over projects or lower-tier subgroups.
-- At minimum, Pipeline Execution Policy jobs should align with [existing CI variable precedence](https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence).
+- At minimum, Pipeline Execution Policy jobs should align with [existing CI variable precedence](https://docs.gitlab.com/ci/variables/#cicd-variable-precedence).
   Ideally, Pipeline Execution Policy jobs should not get any user-defined variables except those defined in the group or project where the policy belongs.
 - Jobs should be executed in a way that is visible to users within the pipeline and that will not allow project jobs to override the policy jobs. In Scan Execution Policies today, we utilize the index pattern (-0,-1,-2,...) to increment the name of the job if a job of the same name exists. This also gives some minor indication of which jobs are executed by a security policy. For Pipeline Execution Policy jobs, the same pattern should be utilized.
 - Jobs coming from the policies should be marked as such in the database so that they can be distinguished, for example by using build metadata. This allows for different handling of jobs and the corresponding variables by the runner.
 - Users should be able to define the stage in which their job will run, and Pipeline Execution Policies will have a method to handle precedence. For example, a security/compliance team may want to enforce jobs that run commonly after a build stage. The stages and jobs must not interfere with those defined by development teams once enforced by a Pipeline Execution Policy.
 - Pipeline Execution Policies should allow for jobs to be enforced in projects that do not contain an existing CI configuration.
-- To reduce complexity, the `content` of a Pipeline Execution Policy can only be an inclusion of a single [CI file from a project](https://docs.gitlab.com/ee/ci/yaml/#includeproject).
+- To reduce complexity, the `content` of a Pipeline Execution Policy can only be an inclusion of a single [CI file from a project](https://docs.gitlab.com/ci/yaml/#includeproject).
 
 MVC syntax example:
 

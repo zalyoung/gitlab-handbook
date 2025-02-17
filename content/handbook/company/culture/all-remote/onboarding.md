@@ -24,7 +24,7 @@ We anticipate the remote onboarding process to take at least two full weeks, wit
 
 ## What is an onboarding session?
 
-At GitLab, we like to do what we call ["dogfooding"](/handbook/values/#dogfooding) our own product. Hence onboarding tasks are completed in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues/).
+At GitLab, we like to do what we call ["dogfooding"](/handbook/values/#dogfooding) our own product. Hence onboarding tasks are completed in a [GitLab issue](https://docs.gitlab.com/user/project/issues/).
 
 All onboarding steps are found in an [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md), which contains a standardized set of tasks and steps that each new team member will complete. The onboarding process for the new team member is [self-driven and self-learning](/handbook/values/#self-service-and-self-learning)and as [asynchronous](/handbook/values/#bias-towards-asynchronous-communication) as possible. This is intentional, in order to aid acclimation into the remote life at GitLab.
 
@@ -49,7 +49,7 @@ A large part of onboarding is providing answers to logistical questions:
 
 Traditional in-person companies usually rely on trainers or more hands-on approaches to help new hires navigate their surroundings. All-remote companies have to be more efficient and make information easily accessible, so documentation will be essential for a smooth onboarding process. At GitLab, we provide a detailed [handbook](/handbook) that is always evolving.
 
-The GitLab team handbook is the central repository for how we run the company. It consists of over [2,000 web pages of text](/handbook/about#count-handbook-pages), all searchable of course. Our handbook serves as a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) that all team members can reference and depend on for answers about GitLab.
+The GitLab team handbook is the central repository for how we run the company. It consists of over [2,000 web pages of text](/handbook/about#count-handbook-pages), all searchable of course. Our handbook serves as a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) that all team members can reference and depend on for answers about GitLab.
 
 For onboarding, we're able to direct new hires to a huge repository of information and also teaching them to be self-sufficient and proactive when looking for answers. Because we've implemented a [handbook-first approach](handbook-first/#make-handbook-first-a-value), the GitLab handbook is always changing and growing as we learn new things.
 

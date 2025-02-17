@@ -52,7 +52,7 @@ In order to target leaders and decision-makers on accounts, three types of users
 
 * [GitLab admin contacts](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)
 * Sold-To Billing Contact (if no GitLab Admin exists)
-* [GitLab.com Owner](https://docs.gitlab.com/ee/user/permissions/) role
+* [GitLab.com Owner](https://docs.gitlab.com/user/permissions/) role
 
 ### **Who is not contacted?**
 

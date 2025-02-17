@@ -22,7 +22,7 @@ TL;DR
 
 ## 3. Proposal
 
-There is an [investigation](https://gitlab.com/gitlab-org/gitlab/-/issues/458338) to solve this problem using [direct transfer](https://docs.gitlab.com/ee/user/group/import/).
+There is an [investigation](https://gitlab.com/gitlab-org/gitlab/-/issues/458338) to solve this problem using [direct transfer](https://docs.gitlab.com/user/group/import/).
 
 ## 4. Evaluation
 

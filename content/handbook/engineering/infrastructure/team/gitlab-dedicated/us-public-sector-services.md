@@ -60,7 +60,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 ### GitLab Group Hierarchy
 
-We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
+We use [GitLab Groups](https://docs.gitlab.com/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
 The groups cover the following use-cases:
 
 1. GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
@@ -68,19 +68,19 @@ The groups cover the following use-cases:
     - Group mention should only be used in circumstances where the information shared is pertinent for all team members of GitLab Dedicated group
 2. Individual team GitLab groups have two additional subgroups `maintainers` and `reviewers`, for example: `@gitlab-dedicated/uspubsec/maintainers`
     - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrows and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example. `/assign_reviewer @gitlab-dedicated/uspubsec/reviewers`
-    - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners)
+    - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/user/project/codeowners/#code-owners)
 
 Do note that the transition between `reviewers` and `maintainers` groups is still not fully defined, and this will be defined as the team continues to grow. Currently, the founding team-members with a significant early contribution to the specific codebase and specific topic knowledge have been granted `maintainers` rights.
 
 ### Project Management
 
-We use [epics](https://docs.gitlab.com/ee/user/group/epics/), [issues](https://docs.gitlab.com/ee/user/project/issues/), and [issue boards](https://docs.gitlab.com/ee/user/project/issue_board/) to organize our work, as they complement each other.
+We use [epics](https://docs.gitlab.com/user/group/epics/), [issues](https://docs.gitlab.com/user/project/issues/), and [issue boards](https://docs.gitlab.com/user/project/issue_board/) to organize our work, as they complement each other.
 
 The single source of truth for _all_ GitLab US Public Sector Services work across different functions is the top-level [GitLab US Public Sector Services epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/876). Please view that epic for more details on active and upcoming work. To view the specific issues the team is working on, see the overall [issue board](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/boards/4964764?label_name[]=team%3A%3AUS%20PubSec) for the team's work.
 
 #### Epic Hierarchy
 
-[Sub-epics](https://docs.gitlab.com/ee/topics/plan_and_track/#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
+[Sub-epics](https://docs.gitlab.com/topics/plan_and_track/#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
 
 When applicable, additional sub-epics may be created within the existing epic hierarchy to further segment issues for project tracking purposes.
 
@@ -88,7 +88,7 @@ When applicable, additional sub-epics may be created within the existing epic hi
 2. Sub-epics represent an item from the roadmap and are delivered in a specific phase
 3. Sub-epics can span multiple months, but their end date should match the 'anticipated completion date' of the roadmap phase they are added to.
 
-In addition to epics, [milestones](https://docs.gitlab.com/ee/user/project/milestones/) can be used as a project tracking tool that allows issues across multiple epics to be associated with a target milestone date. Milestones can be filtered on an issue board for a single-pane view of current priority issues to be actioned by the team.
+In addition to epics, [milestones](https://docs.gitlab.com/user/project/milestones/) can be used as a project tracking tool that allows issues across multiple epics to be associated with a target milestone date. Milestones can be filtered on an issue board for a single-pane view of current priority issues to be actioned by the team.
 
 #### Epic Owners
 
@@ -124,7 +124,7 @@ Labels are described in the [epic label section](#epic-structure).
 
 #### Issue boards
 
-[Issue boards](https://docs.gitlab.com/ee/user/project/issue_board/) are used to track the overall status of epics and/or milestones.
+[Issue boards](https://docs.gitlab.com/user/project/issue_board/) are used to track the overall status of epics and/or milestones.
 
 ##### Accessing US Public Sector Services Issue Boards
 

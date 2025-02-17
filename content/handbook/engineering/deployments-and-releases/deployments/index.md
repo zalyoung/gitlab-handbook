@@ -70,7 +70,7 @@ involved in the process that their change is going through environments
 
 ### Post-deploy migration (PDM) execution
 
-To make GitLab.com packages rollbackable, the [post-deploy migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations/) are independent from the GitLab.com deployment process. These migrations
+To make GitLab.com packages rollbackable, the [post-deploy migrations](https://docs.gitlab.com/development/database/post_deployment_migrations/) are independent from the GitLab.com deployment process. These migrations
 are run in staging and production environments through the post-deploy migration pipeline that is triggered on a daily basis at the discretion of
 the release managers.
 
@@ -203,4 +203,4 @@ For high severity bugs found in the lead up to the [monthly release](/handbook/e
 | Release related tasks issue tracker | [Link](https://gitlab.com/gitlab-org/release/tasks/) |
 | Delivery group issue tracker | [Link](https://gitlab.com/gitlab-com/gl-infra/delivery/issues) |
 | Release manager schedule | [Link](https://about.gitlab.com/community/release-managers/) |
-| Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance/) |
+| Maintenance Policy | [Link](https://docs.gitlab.com/policy/maintenance/) |

@@ -127,7 +127,7 @@ Other items that can be included are:
 
 1. **Exit criteria** for the specific goals of the project.
     1. These are created as issues with the `exit criterion` label in the epic and are linked in the description.
-    1. We create these at the start of the project to allow us to keep focused on our goal, and use [blocking issues](https://docs.gitlab.com/ee/user/project/issues/related_issues/) to indicate the state of each exit criterion.
+    1. We create these at the start of the project to allow us to keep focused on our goal, and use [blocking issues](https://docs.gitlab.com/user/project/issues/related_issues/) to indicate the state of each exit criterion.
 
 This template may be used for epics:
 

@@ -15,7 +15,7 @@ YouTube Video (private - GitLab internal only) guiding CSMs on the Gainsight pro
    - Why they bought ultimate (in the strategy section)
    - Objectives focused on implementation, with tasks that have timelines
    - Customer DRI listed in task
-1. Begin taking the customer through the steps within the DevSecOps playbook, offering both an enablement session on the [Get Started Guide](https://docs.gitlab.com/ee/user/application_security/get-started-security/) and on our [DevSecOps & Compliance Features and Best Practices](/handbook/customer-success/workshops/secure/).
+1. Begin taking the customer through the steps within the DevSecOps playbook, offering both an enablement session on the [Get Started Guide](https://docs.gitlab.com/user/application_security/get-started-security/) and on our [DevSecOps & Compliance Features and Best Practices](/handbook/customer-success/workshops/secure/).
 1. If a customer is not able to move forward with the implementation
    - Change the status of the enablement CTA to 'blocked'
    - Record the date and reason for being blocked in the comments section

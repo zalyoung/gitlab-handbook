@@ -22,18 +22,18 @@ When creating a new project, please follow these steps:
 1. Add a section titled "Developer Certificate of Origin and License" to `CONTRIBUTING.md` in the repository. It is easiest to simply copy-paste the [`gitlab-org/gitaly` DCO + License section](https://gitlab.com/gitlab-org/gitaly/-/blob/master/CONTRIBUTING.md#developer-certificate-of-origin-license) verbatim.
 1. Add any further relevant details to the Contribution Guide. See [Contribution Example](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md).
 1. Add a link to `CONTRIBUTING.md` from the project's `README.md`.
-1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file, to make it easy for contributors to figure out which teams are best suited to review their changes.
+1. Add a [CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/) file, to make it easy for contributors to figure out which teams are best suited to review their changes.
     * Use teams rather than individuals as owners, to make it self updating over time and resilient to people taking time off
     * You can scope ownership to subdirectories or individual files, but it should contain at the very least a top-level catch all for any new or non explicitly mentionned file.
-1. When possible, projects should have the following [Merge request settings enabled](https://docs.gitlab.com/ee/user/project/settings/#delete-the-source-branch-on-merge-by-default):
-    * [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains/).
-    * [Delete source branch after merge](https://docs.gitlab.com/ee/user/project/settings/).
-    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge/).
-    * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
-1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings/):
-    * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings/#auto-cancel-pending-pipelines).
+1. When possible, projects should have the following [Merge request settings enabled](https://docs.gitlab.com/user/project/settings/#delete-the-source-branch-on-merge-by-default):
+    * [Merge Trains](https://docs.gitlab.com/ci/pipelines/merge_trains/).
+    * [Delete source branch after merge](https://docs.gitlab.com/user/project/settings/).
+    * [Merge only if pipeline succeeds](https://docs.gitlab.com/user/project/merge_requests/auto_merge/).
+    * [Merge only when all threads are resolved](https://docs.gitlab.com/user/discussions/#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
+1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ci/pipelines/settings/):
+    * [Auto-cancel pending pipelines](https://docs.gitlab.com/ci/pipelines/settings/#auto-cancel-pending-pipelines).
 1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements/)
-1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
+1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/user/project/members/#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
 1. If your project contains code that is distributed with GitLab or is executed in production, set up [security jobs](https://gitlab.com/help/user/application_security/security_dashboard/index#gitlab-security-dashboard) for your project and add your project to the AppSec team's [triage rotation](/handbook/security/#triage-rotation). The AppSec will triage security findings from the Security Dashboard and create issues for vulnerabilities.
 1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](/handbook/product/groups/product-analysis/engineering/dashboards/#updating-the-list-of-projects).
@@ -77,7 +77,7 @@ default:
 
 This:
 
-1. Includes a [`workflow`](https://docs.gitlab.com/ee/ci/yaml/#workflowrules-templates) to create pipelines for MR, `master`, and tags only.
+1. Includes a [`workflow`](https://docs.gitlab.com/ci/yaml/#workflowrules-templates) to create pipelines for MR, `master`, and tags only.
 1. Defines the `gitlab-org` tag to be used by default which corresponds to cost-optimized runners, with no Docker support. Jobs that need Docker support would use the `gitlab-org-docker` tag.
 
 If a job requires the usage of Docker, it needs to be defined only in the context of the specific job with the `gitlab-org-docker` tag:
@@ -88,7 +88,7 @@ sast:
     - gitlab-org-docker
 ```
 
-If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows/#machine-types-available-for-windows).
+If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ci/runners/hosted_runners/windows/#machine-types-available-for-windows).
 
 ### Publishing a Project
 

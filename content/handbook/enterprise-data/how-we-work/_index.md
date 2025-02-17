@@ -150,7 +150,7 @@ This helps verify that numbers are accurate and the original data source and the
 
 ### Incidents
 
-Incidents are times when a problem is discovered and some immediate action is required to fix the issue. When this happens, we make an [Incident Issue](https://docs.gitlab.com/ee/operations/incident_management/incidents/) in the Data Team Project. The process for working through incidents is as follows:
+Incidents are times when a problem is discovered and some immediate action is required to fix the issue. When this happens, we make an [Incident Issue](https://docs.gitlab.com/operations/incident_management/incidents/) in the Data Team Project. The process for working through incidents is as follows:
 
 - Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
 - Detail the relevant information with appropriate timestamps
@@ -245,7 +245,7 @@ _Ideally_, your workflow should be as follows:
     - e.g. if you're working on dbt changes, run the job most appropriate for your changes. See the [CI jobs page](/handbook/enterprise-data/platform/ci-jobs/) for an explanation of what each job does.
 
 1. Document in the MR description what the purpose of the MR is, any additional changes that need to happen for the MR to be valid, and if it's a complicated MR, how you verified that the change works. See [this MR](https://gitlab.com/gitlab-data/analytics/merge_requests/658) for an example of good documentation. The goal is to make it easier for reviewers to understand what the MR is doing so it's as easy as possible to review.
-1. Request a review by assigning the MR to a peer using the [Merge Request Reviewer](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/) feature.
+1. Request a review by assigning the MR to a peer using the [Merge Request Reviewer](https://docs.gitlab.com/user/project/merge_requests/reviews/) feature.
     - Requesting a review in this manner indicates to the person that you would like their code review and approval if everything is good. This does not mean they will merge the MR if they approve it.
     - The peer reviewer should use the native approve button in the MR after they have completed their review and approve of the changes in the MR.
     - After approval, the reviewer can unassign themselves from the Reviewer list. The reviewer is not responsible for the final tasks. The author is responsible for finalizing the checklist, closing threads, removing Draft, and getting it in a merge-ready state.

@@ -38,7 +38,7 @@ OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbo
 
 OKRs are drafted in collaboration with our Business Partners and every KRs that is put up for scheduling must have an opportunity canvas, see the [project intake](/handbook/enterprise-data/how-we-work/#project-intake). Everyone at GitLab is welcome to [open](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/%5BNew%20Request%5D%20Create%20Opportunity%20Canvas.md?ref_type=heads) an opportunity canvas and we ask the Data Team members to contribute to the planning process by updating the gSheet with KRs they think are important and should be considered for scheduling. This collaborative approach ensures that all team members have a voice in the planning process and can contribute their insights and expertise.
 
-Once the initial draft of OKRs is complete, the Data Leadership Team reviews and refines the OKRs to ensure alignment with company goals and strategic priorities. The finalized OKRs are then communicated to the entire Data Team and relevant stakeholders. If needed prioritization is raised and discussed within the Data Leadership Forum. KRs are converted into GitLabs [OKR functionality](https://docs.gitlab.com/ee/user/okrs/).
+Once the initial draft of OKRs is complete, the Data Leadership Team reviews and refines the OKRs to ensure alignment with company goals and strategic priorities. The finalized OKRs are then communicated to the entire Data Team and relevant stakeholders. If needed prioritization is raised and discussed within the Data Leadership Forum. KRs are converted into GitLabs [OKR functionality](https://docs.gitlab.com/user/okrs/).
 
 ### Prioritization
 

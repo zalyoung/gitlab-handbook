@@ -249,7 +249,7 @@ We are developing HackyStack as an open source project to allow other infrastruc
 - [AWS API](https://github.com/aws/aws-sdk-php)
 - [Google Cloud](https://github.com/googleapis/google-api-php-client)
 - [GitLab API](https://github.com/GitLabPHP/Client) - For Git SCM of Terraform configurations
-- [GitLab CI](https://docs.gitlab.com/ee/ci/) - For automated Terraform deployments
+- [GitLab CI](https://docs.gitlab.com/ci/) - For automated Terraform deployments
 
 This project was built using Laravel instead of other viable languages due to Jeff's prior experience and proficiency with Laravel to achieve the most efficient time to business value. This builds on the success of the [GitLab Demo Systems](/handbook/customer-success/demo-systems/) that is powered by the [demosys-portal](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-portal).
 

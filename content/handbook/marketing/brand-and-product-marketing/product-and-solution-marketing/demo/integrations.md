@@ -26,8 +26,8 @@ There are 3 different Jira integrations avaialble.
 
 The following guide can be used to integrate GitLab.com with Jira Software Cloud:
 
-- [GitLab Jira integration](https://docs.gitlab.com/ee/integration/jira/) - mention a Jira issue ID from GitLab and have this reflected in the Jira Issue's comments.
-- [Dev Panel integration using the GitLab for Jira app](https://docs.gitlab.com/ee/integration/jira/) - for each Jira issue, displays links with number of related commits, branches, and pull (merge) requests from GitLab.
+- [GitLab Jira integration](https://docs.gitlab.com/integration/jira/) - mention a Jira issue ID from GitLab and have this reflected in the Jira Issue's comments.
+- [Dev Panel integration using the GitLab for Jira app](https://docs.gitlab.com/integration/jira/) - for each Jira issue, displays links with number of related commits, branches, and pull (merge) requests from GitLab.
 
 Prerequisite: Must be a `Premium` group owner on GitLab.com
 
@@ -47,7 +47,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 
 ### Dev Panel integration using the GitLab for Jira app
 
-1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/ee/integration/jira/#configuration) instructions.
+1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/integration/jira/#configuration) instructions.
 2. Navigate to the Jira issue board and select your issue (*SI-X* if using the `spring-integrations` project). Note the GitLab commit and branch information displayed in the Development panel on the right side.
 
 ## Jenkins Integration Demo

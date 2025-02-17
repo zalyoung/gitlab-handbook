@@ -50,7 +50,7 @@ See [Community-related reactive workflow automation](/handbook/engineering/infra
 
 - Identifying reviewers for the MR.
 - Answering questions from contributors.
-- Educating contributors on the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow#contribution-acceptance-criteria).
+- Educating contributors on the [contribution acceptance criteria](https://docs.gitlab.com/development/contributing/merge_request_workflow#contribution-acceptance-criteria).
 - Or completing the MR if the contributor is unresponsive or unable to complete.
   - In that case, the `coach will finish` label will be added to the MR and the coach will either directly push new commits to the MR, or re-create a new MR with the original changes.
   - Contributors can mention the coaches in their MRs by typing `@gitlab-org/coaches`.
@@ -408,7 +408,7 @@ For contributors who don't own a credit card and need to be manually verified, a
 
 ### For contributors who run out of compute minutes or other CI/CD resources
 
-Wider community members may run out of monthly compute minutes, or run into other [GitLab CI/CD limits](https://docs.gitlab.com/ee/user/gitlab_com/index#gitlab-cicd) if they are working from a personal fork.
+Wider community members may run out of monthly compute minutes, or run into other [GitLab CI/CD limits](https://docs.gitlab.com/user/gitlab_com/index#gitlab-cicd) if they are working from a personal fork.
 
 The solution is to work from the [GitLab community forks](https://gitlab.com/gitlab-community/meta#about).
 
@@ -421,7 +421,7 @@ Here are some ways to reach out to contributors to e.g. distribute Hackathon pri
 - You can mention them in an issue using their GitLab user name.
 - In private through our communication platform (Discord, Slack, etc.).
 - A user might have e-mail or Twitter info on their GitLab profile. Sometimes users have the same username in other platforms (e.g. GitHub), and might have more information on their profiles there.
-- Their e-mail address is stored in their git commits, unless they choose to use a [private commit e-mail](https://docs.gitlab.com/ee/user/profile/index#private-commit-email).
+- Their e-mail address is stored in their git commits, unless they choose to use a [private commit e-mail](https://docs.gitlab.com/user/profile/index#private-commit-email).
 
 If you need assistance finding a contributor's email address please see [Finding Community Member Contact Information](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#finding-community-member-contact-information)
 

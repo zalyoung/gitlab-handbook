@@ -147,7 +147,7 @@ Action Cable was the first choice because it is included with Rails. Scalability
 ### Documentation
 
 - [Omnibus settings](https://docs.gitlab.com/omnibus/settings/actioncable/)
-- [Real-time issue sidebar user documentation](https://docs.gitlab.com/ee/user/project/issues/managing_issues/#real-time-sidebar)
-- [Developer Documentation](https://docs.gitlab.com/ee/development/real_time/)
+- [Real-time issue sidebar user documentation](https://docs.gitlab.com/user/project/issues/managing_issues/#real-time-sidebar)
+- [Developer Documentation](https://docs.gitlab.com/development/real_time/)
 - [Performance testing](https://gitlab.com/gitlab-org/quality/performance/-/issues/256)
 - [Readiness review for GitLab.com](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/355)

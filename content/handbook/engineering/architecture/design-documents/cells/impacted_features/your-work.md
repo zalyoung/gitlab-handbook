@@ -19,7 +19,7 @@ Counts presented in the individual dashboards will relate to the selected Organi
 
 ## 1. Definition
 
-When accessing `gitlab.com/dashboard/`, users can find a [focused view of items that they have access to](https://docs.gitlab.com/ee/tutorials/left_sidebar/#use-a-more-focused-view).
+When accessing `gitlab.com/dashboard/`, users can find a [focused view of items that they have access to](https://docs.gitlab.com/tutorials/left_sidebar/#use-a-more-focused-view).
 This overview contains dashboards relating to:
 
 - Projects

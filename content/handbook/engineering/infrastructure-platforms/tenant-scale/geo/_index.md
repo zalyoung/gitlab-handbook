@@ -5,7 +5,7 @@ description: "Information about the Geo Team"
 
 ## The Geo Team
 
-[Geo](https://docs.gitlab.com/ee/administration/geo/) is a [Premium](https://about.gitlab.com/pricing/premium/) feature, built to help speed up the development of distributed teams by providing
+[Geo](https://docs.gitlab.com/administration/geo/) is a [Premium](https://about.gitlab.com/pricing/premium/) feature, built to help speed up the development of distributed teams by providing
 one or more read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch large
 repositories and projects, or can be part of a Disaster Recovery solution.
 
@@ -52,7 +52,7 @@ This section outlines the process and expectations when requesting support from 
 
 ### Before requesting support
 
-Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there. **Please reach out in the Geo Support Pod Channel `#spd_pod_geo` first before submitting a RFH.**
+Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there. **Please reach out in the Geo Support Pod Channel `#spd_pod_geo` first before submitting a RFH.**
 
 ### Asking a general question
 
@@ -88,11 +88,11 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 ### Documentation
 
-- [Geo](https://docs.gitlab.com/ee/administration/geo/)
-- [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)
-- [Planned Failover](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover/)
-- [Background Verification](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/background_verification/)
-- [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary/)
+- [Geo](https://docs.gitlab.com/administration/geo/)
+- [Disaster Recovery](https://docs.gitlab.com/administration/geo/disaster_recovery/)
+- [Planned Failover](https://docs.gitlab.com/administration/geo/disaster_recovery/planned_failover/)
+- [Background Verification](https://docs.gitlab.com/administration/geo/disaster_recovery/background_verification/)
+- [Geo Glossary](https://docs.gitlab.com/administration/geo/glossary/)
 
 ### Issue Lists
 
@@ -127,7 +127,7 @@ If you recorded the demo, please make sure the recording ends up in that folder.
 
 ## Geo Terminology
 
-See the [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary/).
+See the [Geo Glossary](https://docs.gitlab.com/administration/geo/glossary/).
 
 ## Dashboards
 

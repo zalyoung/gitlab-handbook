@@ -66,7 +66,7 @@ Some guidelines for which features should be added to the queue are:
 - Features related to authorization or authentication
 - Features that handle [Red or Orange data](https://docs.google.com/document/d/15eNKGA3zyZazsJMldqTBFbYMnVUSQSpU14lo22JMZQY/edit)
 - Features that work with cryptography or other data protection solutions
-- Features which touch on topics mentioned in the [secure coding guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines/)
+- Features which touch on topics mentioned in the [secure coding guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/)
 
 The idea is to capture features determined to be higher risk for
 vulnerabilities. It is quite probable that all features, especially `priority::4`

@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through creating projects, issues, l
 
 ## Objectives
 
-A GitLab Project is a repository where you can store your code, as well as supplemental files such as configuration files. You can also use projects to track issues, plan work, collaborate on code, and continuously build, test, and use built-in CI/CD to deploy your app. You can find out more information about GitLab projects in the [documentation](https://docs.gitlab.com/ee/user/project/organize_work_with_projects/)
+A GitLab Project is a repository where you can store your code, as well as supplemental files such as configuration files. You can also use projects to track issues, plan work, collaborate on code, and continuously build, test, and use built-in CI/CD to deploy your app. You can find out more information about GitLab projects in the [documentation](https://docs.gitlab.com/user/project/organize_work_with_projects/)
 
 GitLab provides various tools for tracking and managing projects. In this lab, you will learn how to create a project, create an issue, create labels at a project level, and apply quick actions to an issue.
 
@@ -53,7 +53,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
-   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access/).
+   > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/user/public_access/).
 
 1. Check **Initialize repository with a README**.
 
@@ -61,7 +61,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 ## Task C. Create an issue
 
-> Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues belong to **Project** and **not** a Group. When viewing issues at the group-level, you can see all of the issues that have been created across all of the projects in that group. You can read more about them [here](https://docs.gitlab.com/ee/user/project/issues/).
+> Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues belong to **Project** and **not** a Group. When viewing issues at the group-level, you can see all of the issues that have been created across all of the projects in that group. You can read more about them [here](https://docs.gitlab.com/user/project/issues/).
 
 1. In the left-hand navigation pane, navigate to **Plan > Issues**.
 
@@ -73,7 +73,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. The description is an optional section, but feel free to type in your own description for this issue.
 
-   > In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates/).
+   > In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/user/project/description_templates/).
 
 1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 
@@ -81,23 +81,23 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. While we will leave the options as they are for now, it is important to understand what they do:
 
-   - **[Epic](https://docs.gitlab.com/ee/user/group/epics/):** Associates the issue with an epic. An epic is a parent grouping of one or more child issues. You can think of an epic as a initiative or meta-level topic and an issue as an objective or detailed task for that initiative.
+   - **[Epic](https://docs.gitlab.com/user/group/epics/):** Associates the issue with an epic. An epic is a parent grouping of one or more child issues. You can think of an epic as a initiative or meta-level topic and an issue as an objective or detailed task for that initiative.
 
-   - **[Milestone](https://docs.gitlab.com/ee/user/project/milestones/):** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time, usually associated with a release and/or version number.
+   - **[Milestone](https://docs.gitlab.com/user/project/milestones/):** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time, usually associated with a release and/or version number.
 
-   - **[Labels](https://docs.gitlab.com/ee/user/project/labels/):** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
+   - **[Labels](https://docs.gitlab.com/user/project/labels/):** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
 
-   - **[Weight](https://docs.gitlab.com/ee/user/project/issues/issue_weight/):** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
+   - **[Weight](https://docs.gitlab.com/user/project/issues/issue_weight/):** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
 
-   - **[Due date](https://docs.gitlab.com/ee/user/project/issues/due_dates/):** Use in issues to keep track of deadlines and make sure features are shipped on time. You will receive an email reminder when an issue due date is approaching if it has not been closed yet.
+   - **[Due date](https://docs.gitlab.com/user/project/issues/due_dates/):** Use in issues to keep track of deadlines and make sure features are shipped on time. You will receive an email reminder when an issue due date is approaching if it has not been closed yet.
 
-   - **[Iteration](https://docs.gitlab.com/ee/user/group/iterations/):** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
+   - **[Iteration](https://docs.gitlab.com/user/group/iterations/):** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
 
 1. Click the **Create issue** button.
 
 ## Task D. Create custom labels
 
-> Labels allow you to organize and tag your work. Using labels will make it easier for you to track issues you are interested in using features like dynamic filtering. Some examples of using labels include: categorizing epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. You can read more about labels in the [documentation](https://docs.gitlab.com/ee/user/project/labels/).
+> Labels allow you to organize and tag your work. Using labels will make it easier for you to track issues you are interested in using features like dynamic filtering. Some examples of using labels include: categorizing epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. You can read more about labels in the [documentation](https://docs.gitlab.com/user/project/labels/).
 
 1. In the left-hand navigation pane, navigate to **Manage > Labels**.
 
@@ -135,7 +135,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the description or comment for issues, epics, merge requests, and commits.
 >
-> For more information about quick actions and to see a full list of possible quick actions, see the [documentation](https://docs.gitlab.com/ee/user/project/quick_actions/).
+> For more information about quick actions and to see a full list of possible quick actions, see the [documentation](https://docs.gitlab.com/user/project/quick_actions/).
 
 1. In the comment field for the issue from the previous task, type the quick action `/spend 1 hour`
 

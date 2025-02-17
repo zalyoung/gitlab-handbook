@@ -35,7 +35,7 @@ We are actively monitoring the overall health of internal events via [Monte Carl
 
 ### Service Ping Metrics
 
-We're responsible to deliver a reliable [Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) that runs every week on SaaS and Self Managed instances. Our responsiblity is tooling and automations for metric collections to set the company up for success to deliver Service Ping data to our data warehouse.
+We're responsible to deliver a reliable [Service Ping](https://docs.gitlab.com/development/internal_analytics/service_ping/) that runs every week on SaaS and Self Managed instances. Our responsiblity is tooling and automations for metric collections to set the company up for success to deliver Service Ping data to our data warehouse.
 It is the responsibility of each engineering group to create and maintain their own metrics as those are domain specific, but Analytics Instrumentation is always willing to help on those issues be it via pair programming or our [office hours](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
 A list of all metrics can be found on [metrics.gitlab.com](https://metrics.gitlab.com/).
 
@@ -393,7 +393,7 @@ Our group holds synchronous meetings to gain additional clarity and alignment on
 
 ## Error budget
 
-We maintain [UsageData API endpoints](https://docs.gitlab.com/ee/administration/settings/usage_statistics/) under the `service_ping` feature to track events, and because of this we must monitor our [budget spend](/handbook/engineering/error-budgets/).
+We maintain [UsageData API endpoints](https://docs.gitlab.com/administration/settings/usage_statistics/) under the `service_ping` feature to track events, and because of this we must monitor our [budget spend](/handbook/engineering/error-budgets/).
 
 To investigate budget spend, see the [overview](https://dashboards.gitlab.net/d/stage-groups-analytics_instrumentation?orgId=1) and [details](https://dashboards.gitlab.net/d/stage-groups-detail-analytics_instrument?orgId=1) Grafana dashboards for Analytics Instrumentation. You can also check requests contributing to spending the budget in Kibana by filtering by the `service_ping` feature. An example Kibana view can be found [here](https://log.gprd.gitlab.net/goto/8e82ff10-ecb8-11ec-8656-f5f2137823ba).
 
@@ -401,7 +401,7 @@ Note that the budget spend is calculated proportionally by requests failing apde
 
 ## Incidents
 
-Within Analytics Instrumentation we have an incident process that's separate to [GitLab's main incident management process](https://docs.gitlab.com/ee/operations/incident_management/slack/#declare-an-incident), because most incidents that Analytics Instrumentation faces are not customer facing and can be resolved more effectively within the team.
+Within Analytics Instrumentation we have an incident process that's separate to [GitLab's main incident management process](https://docs.gitlab.com/operations/incident_management/slack/#declare-an-incident), because most incidents that Analytics Instrumentation faces are not customer facing and can be resolved more effectively within the team.
 The process below outlines the different stages of the Analytics Instrumentation incident detection and resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs).
 Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
 
@@ -495,9 +495,9 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 
 | Resource                                                                                                                          | Description                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| [Internal Analytics Docs](https://docs.gitlab.com/ee/development/internal_analytics/) | Docs for instrumenting internal analytics at GitLab |
+| [Internal Analytics Docs](https://docs.gitlab.com/development/internal_analytics/) | Docs for instrumenting internal analytics at GitLab |
 | [Analytics Instrumentation Monitoring and Troubleshooting](monitoring_troubleshooting.html) | Information around Troubleshooting Analytics Instrumentation infrastructure|
 | [Analytics Instrumentation Infrastructure](infrastructure.html) | Information about the infrastructure we run |
-| [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)     | An implementation guide for Service Ping      |
+| [Service Ping Guide](https://docs.gitlab.com/development/internal_analytics/service_ping/)     | An implementation guide for Service Ping      |
 | [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/monitor/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |

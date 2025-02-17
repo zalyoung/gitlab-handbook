@@ -35,7 +35,7 @@ The following dashboards are most common:
 
 - [Gitaly: Overview](https://dashboards.gitlab.net/d/gitaly-main/gitaly3a-overview?orgId=1&var-PROMETHEUS_DS=default&var-environment=gprd&var-stage=main). This dashboard contains cluster-wide aggregated metrics. It is used to determine the overall health of the cluster and make it easy to spot any outlier node.
 - [Gitaly: Host details](https://dashboards.gitlab.net/d/gitaly-host-detail/gitaly3a-host-detail?orgId=1). This dashboard contains more detailed metrics of a particular node.
-- [Gitaly Housekeeping statistics](https://dashboards.gitlab.net/d/Z2xwZIP7k/gitaly-housekeeping-statistics?orgId=1&refresh=5m). This dashboard shows detailed operational information of [Gitaly housekeeping feature](https://docs.gitlab.com/ee/administration/housekeeping/).
+- [Gitaly Housekeeping statistics](https://dashboards.gitlab.net/d/Z2xwZIP7k/gitaly-housekeeping-statistics?orgId=1&refresh=5m). This dashboard shows detailed operational information of [Gitaly housekeeping feature](https://docs.gitlab.com/administration/housekeeping/).
 - [Gitaly: Rebalance dashboard](https://dashboards.gitlab.net/d/gitaly-rebalancing/gitaly3a-rebalance-dashboard?from=now-6h%2Fm&to=now%2Fm&var-PROMETHEUS_DS=default&var-environment=gprd&var-fqdn=gitaly-cny-01-stor-gprd.c.gitlab-production.internal&orgId=1): This dashboard shows the relative balance between Gitaly nodes. It is used to determine when we need to relocate the repositories of a node to others.
 
 A Gitaly dashboard could be either auto-generated or manually drafted. We use Jsonnet (a superset of JSON) to achieve dashboards-as-code. The definitions of such dashboards are located [in this folder](https://gitlab.com/gitlab-com/runbooks/-/tree/master/dashboards/gitaly?ref_type=heads). Recently, that's the recommended way to manage an observability dashboard. It allows us to use GitLab's built-in libraries, resulting in a highly standardized dashboard.
@@ -120,8 +120,8 @@ Because of the frequency and noisiness of logs streaming in, customers should us
 
 For more information, see:
 
-- [Profile Git operations](https://docs.gitlab.com/ee/administration/gitaly/troubleshooting/#profile-git-operations).
-- [Use ChatOps to enable and disable feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls/).
+- [Profile Git operations](https://docs.gitlab.com/administration/gitaly/troubleshooting/#profile-git-operations).
+- [Use ChatOps to enable and disable feature flags](https://docs.gitlab.com/development/feature_flags/controls/).
 
 On the client side, for Git trace v1, the customer can enable `GIT_TRACE*` variables, including:
 

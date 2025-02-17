@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you through working with CI/CD jobs with
 
 Job Policy patterns allow the pipeline to control when and if jobs run using the `rules` keyword. In this lab, you will learn how to create jobs with rules. You will see the impact of these rules on a pipeline and learn how to use variables with pipeline rules.
 
-> Usage of the `only` and `except` keywords, while able to accomplish similar results, are not actively being developed and are not encouraged. For more information, click [here](https://docs.gitlab.com/ee/ci/jobs/job_control/).
+> Usage of the `only` and `except` keywords, while able to accomplish similar results, are not actively being developed and are not encouraged. For more information, click [here](https://docs.gitlab.com/ci/jobs/job_control/).
 
 ## Task A: Creating Jobs with Rules
 

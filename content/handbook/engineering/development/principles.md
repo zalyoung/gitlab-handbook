@@ -243,8 +243,8 @@ We develop and document processes that are designed to help us in achieving bett
 
 For example, the following processes exist to reduce the risk and improve code quality:
 
-- [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/)
-- [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review/)
+- [Feature Flags Usage](https://docs.gitlab.com/development/feature_flags/)
+- [Code Review Guidelines](https://docs.gitlab.com/development/code_review/)
 
 We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis/), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
@@ -266,7 +266,7 @@ As the first of these is a monthly release, it's tempting to try to rush to get 
 Due date pressure logically leads to a few outcomes:
 
 1. People are at [increased risk of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
-1. We may compromise on our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done).
+1. We may compromise on our [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done).
 1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change).
 1. We miss the due date.
 
@@ -293,7 +293,7 @@ product offers. Dogfooding is not:
 1. Building a bot outside of GitLab.
 1. Writing scripts that leverage the GitLab API (if the functionality is on our
 roadmap and could be shipped within the GitLab Project).
-1. Using a component of GitLab that is part of our [components](https://docs.gitlab.com/ee/development/architecture/#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/management_project_template/).
+1. Using a component of GitLab that is part of our [components](https://docs.gitlab.com/development/architecture/#component-diagram) or [managed apps](https://docs.gitlab.com/user/clusters/management_project_template/).
 1. Using templates or repos that are not part of the default UI (having to type or copy-paste to add them).
 1. Not deprecating the non-GitLab product or part as you introduce the functionality in GitLab, we need to eat the dogfood, not just serve it.
 1. Using it for something that isn't crucial or essential.
@@ -308,12 +308,12 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 ### Code Quality and Standards
 
-We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
+We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/development/) in general, and the ones that relates to your group in particular:
 
-- [UX Guides](https://docs.gitlab.com/ee/development/ux/)
-- [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
-- [Frontend Guides](https://docs.gitlab.com/ee/development/fe_guide/)
-- [Database Guides](https://docs.gitlab.com/ee/development/#database-guides)
+- [UX Guides](https://docs.gitlab.com/development/ux/)
+- [Backend Guides](https://docs.gitlab.com/development/#backend-guides)
+- [Frontend Guides](https://docs.gitlab.com/development/fe_guide/)
+- [Database Guides](https://docs.gitlab.com/development/#database-guides)
 
 Please remember that the only way to make code flexible is to make it as simple as possible:
 
@@ -327,7 +327,7 @@ Part of our engineering culture is to keep shipping so users and customers see s
 
 It's important to keep in mind that when building complex applications, there are many factors to consider such as the fully planned feature to avoid situations where we build an MVC in HAML only to later need to re-write it in Vue due to growing complexity.
 
-To promote visual consistency and an accessible UI, we should always aim to use simple and reusable UI components provided by the [GitLab UI component library](https://gitlab.com/gitlab-org/gitlab-ui/) both in Vue and HAML views. We implement GitLab UI components based on our Pajamas design system and currently these are mostly in Vue, however, we provide [adapters](https://docs.gitlab.com/ee/development/fe_guide/haml/#available-components) that allow us to use a few simple components in HAML as well.
+To promote visual consistency and an accessible UI, we should always aim to use simple and reusable UI components provided by the [GitLab UI component library](https://gitlab.com/gitlab-org/gitlab-ui/) both in Vue and HAML views. We implement GitLab UI components based on our Pajamas design system and currently these are mostly in Vue, however, we provide [adapters](https://docs.gitlab.com/development/fe_guide/haml/#available-components) that allow us to use a few simple components in HAML as well.
 
 If a GitLab UI component is not available on HAML due to its intrinsic complexity, this is a sign that you should implement your feature using Vue instead.
 
@@ -349,8 +349,8 @@ If a GitLab UI component is not available on HAML due to its intrinsic complexit
 
 A complex component denotes a type of component that cannot be used easily in our HAML files. This might be due to in-built state management, CSS or dynamic behaviour that rapidly becomes a maintainability burden inside HAML. An example of such a component would be our [Table component](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--default).
 
-- [backend](https://docs.gitlab.com/ee/development/api_graphql_styleguide/)
-- [frontend](https://docs.gitlab.com/ee/development/fe_guide/graphql/)
+- [backend](https://docs.gitlab.com/development/api_graphql_styleguide/)
+- [frontend](https://docs.gitlab.com/development/fe_guide/graphql/)
 - [use GraphQL everywhere](https://gitlab.com/groups/gitlab-org/-/epics/1366)
 - [the importance of velocity](/handbook/engineering/development/principles/#the-importance-of-velocity)
 - [engineering proposed initiative](/handbook/engineering/#engineering-proposed-initiatives)

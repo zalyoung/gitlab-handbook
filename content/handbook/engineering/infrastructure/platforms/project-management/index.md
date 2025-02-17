@@ -131,7 +131,7 @@ There are three other workflow labels of importance:
 | ----------- | ----------- |
 | ![Cancelled](/images/engineering/infrastructure/platforms/project-management/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
 | ![Stalled](/images/engineering/infrastructure/platforms/project-management/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
-| ![Blocked](/images/engineering/infrastructure/platforms/project-management/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues/) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Blocked](/images/engineering/infrastructure/platforms/project-management/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/user/project/issues/related_issues/) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 ### Priority labels
 

@@ -13,7 +13,7 @@ There are two concepts of time-based tracking in GitLab.
 
 ## Milestones
 
-[Milestones](https://docs.gitlab.com/ee/user/project/milestones/) are a great way to track the progress of multiple related issues across a specific time period.  With milestones, you can see how fast issues are being completed in that time period ([burndown chart](https://docs.gitlab.com/ee/user/project/milestones/burndown_and_burnup_charts/)), and you can view the issues grouped by labels, and grouped by status (unassigned, assigned, and completed)
+[Milestones](https://docs.gitlab.com/user/project/milestones/) are a great way to track the progress of multiple related issues across a specific time period.  With milestones, you can see how fast issues are being completed in that time period ([burndown chart](https://docs.gitlab.com/user/project/milestones/burndown_and_burnup_charts/)), and you can view the issues grouped by labels, and grouped by status (unassigned, assigned, and completed)
 
 Milestones are **very useful** when tracking the progress of multiple issues and when planning and managing epics.
 
@@ -76,7 +76,7 @@ Because the milestone does not yet include change history or details about who c
 ### Milestones Details
 
 * **Use for**: larger units of work (in scope and duration) that resemble a release. E.g. an executive topic or campaign
-* **Implement with**: [milestones](https://docs.gitlab.com/ee/user/project/milestones/)
+* **Implement with**: [milestones](https://docs.gitlab.com/user/project/milestones/)
 * **Time and duration**: variable
 * **Naming convention**: `teamprefix: MilestoneName`
 * **Issue management**: via workflow and iteration issue boards
@@ -101,7 +101,7 @@ A consistent **Naming Convention** is helpful to ensure similar iterations (i.e.
 ### Iterations Details
 
 * **Use for**: planning agile or agile-like sprints to capture tasks/user stories that can be completed within the iteration.
-* **Implement with**: [iterations](https://docs.gitlab.com/ee/user/group/iterations/)
+* **Implement with**: [iterations](https://docs.gitlab.com/user/group/iterations/)
 * **Time and duration**: 2 weeks, from Mondays to the following Sunday
 * **Naming convention**: `Mktg: YYYY-MM-DD`, with the ISO-formatted date being the **end date** of the milestone. `Mktg:` allows for filtering to only the Marketing-wide iterations, and the ISO date can help further filtering on month/day when assigning the milestone to an issue.
 * **Issue management**: via [workflow](/handbook/marketing/project-management-guidelines/boards/#workflow-board) and [iteration](/handbook/marketing/project-management-guidelines/boards/#iteration-board) issue boards
@@ -112,7 +112,7 @@ A consistent **Naming Convention** is helpful to ensure similar iterations (i.e.
 ### Backlog
 
 * **Use for**: issues that are either not ready to be scheduled or not planned yet. Also as a bucket to choose and schedule issues for the next iteration(s) or milestone(s)
-* **Implement with**: [milestones](https://docs.gitlab.com/ee/user/project/milestones/) at present.
+* **Implement with**: [milestones](https://docs.gitlab.com/user/project/milestones/) at present.
 * **Time and duration**: undefined. Start and due dates are not set.
 * **Naming convention**: `Backlog`
 * **Issue management**: see TBD: backlog refinement

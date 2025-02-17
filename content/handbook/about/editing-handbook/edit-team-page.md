@@ -114,7 +114,7 @@ For more information on setting the `Export Name/Location to Team Page?` opt-in 
 1. Navigate to the relevant `yourslug.yml` file. Click on `Edit` on the top right side of your screen, and choose `Edit single file`.
 1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
 1. After you add your information, add a commit message, and click on "Commit Changes". If you have the "create a new merge request" option checked, then it will create the merge request (MR) for you.
-1. Now [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests/) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created by clicking `Create merge request` button.
+1. Now [Create a merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created by clicking `Create merge request` button.
 1. Once on the `Create a new merge request` page, in the `Description` box, under the `Why is this change being made?` heading, explain what changes are being made and why. For this specific MR, you can enter something like: `Adding my information and picture to the team page as part of onboarding tasks.` For this MR, you do not need to change anything else in the description text.
 1. Click `Create merge request`.
 1. At the upper right of the new page, click `edit` next to `Reviewer`. Set your People Connect onboarding team member and your manager as reviewer for this merge request.
@@ -123,10 +123,10 @@ For more information on setting the `Export Name/Location to Team Page?` opt-in 
 
 *Note:* This method may take longer than other methods, because it requires `git clone` for a large repository.
 
-1. Download Git, following the [start using git documentation](https://docs.gitlab.com/ee/topics/git/how_to_install_git/).
-1. Follow the steps to create and add your [SSH keys](https://docs.gitlab.com/ee/user/ssh/).
-1. Clone the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com) through your terminal, following the [command line commands documentation](https://docs.gitlab.com/ee/topics/git/commands/#git-clone).
-1. [Create and checkout a new branch](https://docs.gitlab.com/ee/topics/git/branch/) for the changes you will be making.
+1. Download Git, following the [start using git documentation](https://docs.gitlab.com/topics/git/how_to_install_git/).
+1. Follow the steps to create and add your [SSH keys](https://docs.gitlab.com/user/ssh/).
+1. Clone the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com) through your terminal, following the [command line commands documentation](https://docs.gitlab.com/topics/git/commands/#git-clone).
+1. [Create and checkout a new branch](https://docs.gitlab.com/topics/git/branch/) for the changes you will be making.
 1. Add your picture to the `sites/uncategorized/source/images/team/` directory. Be sure to follow the [picture requirements](#picture-requirements).
 1. Open `data/team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/SLUG_REPLACE.yml` in your favorite editor, specifically looking for the file with your name or slug.
 1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
@@ -148,9 +148,9 @@ For more information on setting the `Export Name/Location to Team Page?` opt-in 
 
    1. Open the team page and search for your name `http://localhost:4567/company/team`
       *Note:* Searching the handbook in your local environment yields production results, so navigate directly to the team page using the URL to see your changes.
-1. Once ready, [stage and commit your changes](https://docs.gitlab.com/ee/topics/git/commit/), with a comment *Add details for FirstName LastName to team page*.
-1. [Push your branch](https://docs.gitlab.com/ee/topics/git/commit/#send-changes-to-gitlab).
-1. [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests/) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
+1. Once ready, [stage and commit your changes](https://docs.gitlab.com/topics/git/commit/), with a comment *Add details for FirstName LastName to team page*.
+1. [Push your branch](https://docs.gitlab.com/topics/git/commit/#send-changes-to-gitlab).
+1. [Create a Merge Request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
 
 ## Reviewing your changes
 

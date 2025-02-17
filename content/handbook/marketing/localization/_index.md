@@ -53,7 +53,7 @@ We use Slack internally as a communication tool. The Localization channels are a
 | Vendor | Capabilities |
 | ------ | ------------ |
 | [Translated](https://gitlab.slack.com/archives/C0576F7T3L2) | Translation service provider |
-| [Crowdin](https://gitlab.enterprise.slack.com/archives/CBJAG3VHB) | Translation management system (TMS) for translation of product UI text: [translate.gitlab.com](https://docs.gitlab.com/ee/development/i18n/translation/) |
+| [Crowdin](https://gitlab.enterprise.slack.com/archives/CBJAG3VHB) | Translation management system (TMS) for translation of product UI text: [translate.gitlab.com](https://docs.gitlab.com/development/i18n/translation/) |
 | [Spartan](https://gitlab.enterprise.slack.com/archives/C055FPHP287) | Suite of integrations between GitLab, MarTech, TMS, etc., for continuous localization of content |
 | [Argos Multilingual](https://gitlab.enterprise.slack.com/archives/C0764ESN2PN) | Translation and technology service provider |
 

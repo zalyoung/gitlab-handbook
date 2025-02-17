@@ -49,8 +49,8 @@ tools.
 ### OWASP Top 10 2021 Coverage
 
 The chart below depicts the CWEs that map to the [OWASP Top 10 2021](https://owasp.org/www-project-top-ten/).
- All of these CWEs are detected by GitLab's [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)/[DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
-and [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) capabilities.
+ All of these CWEs are detected by GitLab's [SAST](https://docs.gitlab.com/user/application_security/sast/)/[DAST](https://docs.gitlab.com/user/application_security/dast/)
+and [Dependency Scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/) capabilities.
 
 [_Data unavailable in Tableau_](https://gitlab.com/gitlab-data/tableau/-/issues/330)
 
@@ -60,7 +60,7 @@ and [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/d
 
 The table below shows the combined
 [Common Weakness Enumerator (CWE)](https://cwe.mitre.org/) findings reported by
-[our SAST analyzers](https://docs.gitlab.com/ee/user/application_security/sast/) on
+[our SAST analyzers](https://docs.gitlab.com/user/application_security/sast/) on
 projects hosted on [gitlab.com](https://gitlab.com/)
 
 [_Data unavailable in Tableau_](https://gitlab.com/gitlab-data/tableau/-/issues/330)
@@ -95,7 +95,7 @@ Below you can find a list of which CWEs are detected by each analyzer:
 
 The table below shows the combined
 [Common Weakness Enumerator (CWE)](https://cwe.mitre.org/) findings reported by
-[our DAST analyzers](https://docs.gitlab.com/ee/user/application_security/dast/) on
+[our DAST analyzers](https://docs.gitlab.com/user/application_security/dast/) on
 projects hosted on [gitlab.com](https://gitlab.com/)
 
 [_Data unavailable in Tableau_](https://gitlab.com/gitlab-data/tableau/-/issues/330)

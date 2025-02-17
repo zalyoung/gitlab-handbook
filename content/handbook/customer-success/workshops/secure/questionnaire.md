@@ -14,8 +14,8 @@ A few things to keep in mind about this questionnaire:
 
 Please indicate which [areas of the Secure stage](https://about.gitlab.com/stages-devops-lifecycle/secure/) you would like covered in the session:
 
-- [ ] [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
+- [ ] [SAST](https://docs.gitlab.com/user/application_security/sast/)
+- [ ] [DAST](https://docs.gitlab.com/user/application_security/dast/)
 
 ## Objectives & Scoping
 

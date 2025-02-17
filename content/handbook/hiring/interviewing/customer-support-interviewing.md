@@ -86,7 +86,7 @@ If you're unable to install software on your computer you may be able to use the
 
 It is important to have knowledge of the GitLab product. We recommended getting some hands-on experience before your interview. Spend time installing and using GitLab to get more familiar with the software and how to use it. Read through documentation and tutorials on using/configuring/troubleshooting GitLab.
 
-- Read the [Intro to GitLab](https://docs.gitlab.com/ee/#new-to-git-and-gitlab)
+- Read the [Intro to GitLab](https://docs.gitlab.com/#new-to-git-and-gitlab)
 - [Install GitLab](https://about.gitlab.com/install/) locally and explore the product
 - Have a look at [common issues](https://docs.gitlab.com/omnibus/troubleshooting/)
 - Read through the online [forum](https://forum.gitlab.com/search?q=error) to see what errors stand out
@@ -96,8 +96,8 @@ Review and practice:
 
 - [Basic Linux Commands](https://www.dummies.com/article/technology/computers/operating-systems/linux/common-linux-commands-196529/)
 - [Basic SSH Commands](https://www.ssh.com/academy/ssh/command)
-- [PostgreSQL](https://docs.gitlab.com/ee/ci/services/postgres/)
-- [Git](https://docs.gitlab.com/ee/topics/git/commands/)
+- [PostgreSQL](https://docs.gitlab.com/ci/services/postgres/)
+- [Git](https://docs.gitlab.com/topics/git/commands/)
 
 Familiarizing yourself with these will help with your communication through the hiring process, as well as prevent any roadblocks, and keep you focused on the tasks asked of you.
 

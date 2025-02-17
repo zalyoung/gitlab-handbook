@@ -26,21 +26,21 @@ This blueprint describes how the association is established and how these domain
 
 - The proposed architecture can be used in [GitLab Kubernetes Dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493).
 - The proposed architecture can be used in [Organization-level Environment dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/241506).
-- The cluster resources and events can be visualized per [GitLab Environment](https://docs.gitlab.com/ee/ci/environments/).
+- The cluster resources and events can be visualized per [GitLab Environment](https://docs.gitlab.com/ci/environments/).
   An environment-specific view scoped to the resources managed either directly or indirectly by a deployment commit.
-- Support both GitOps mode and [CI Access mode](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow/#authorize-the-agent).
+- Support both GitOps mode and [CI Access mode](https://docs.gitlab.com/user/clusters/agent/ci_cd_workflow/#authorize-the-agent).
 
 ### Non-Goals
 
 - The design details of [GitLab Kubernetes Dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493) and [Organization-level Environment dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/241506).
-- Support Environment/Deployment features that rely on GitLab CI/CD pipelines, such as [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments/), [Deployment Approvals](https://docs.gitlab.com/ee/ci/environments/deployment_approvals/), [Deployment safety](https://docs.gitlab.com/ee/ci/environments/deployment_safety/), and [Environment rollback](https://docs.gitlab.com/ee/ci/environments/#environment-rollback). These features are already available in CI Access mode, however, it's not available in GitOps mode.
+- Support Environment/Deployment features that rely on GitLab CI/CD pipelines, such as [Protected Environments](https://docs.gitlab.com/ci/environments/protected_environments/), [Deployment Approvals](https://docs.gitlab.com/ci/environments/deployment_approvals/), [Deployment safety](https://docs.gitlab.com/ci/environments/deployment_safety/), and [Environment rollback](https://docs.gitlab.com/ci/environments/#environment-rollback). These features are already available in CI Access mode, however, it's not available in GitOps mode.
 
 ## Proposal
 
 ### Overview
 
 - GitLab Environment and GitLab agent For Kubernetes have 1-to-1 relationship.
-- GitLab Environment tracks all resources produced by the connected [agent](https://docs.gitlab.com/ee/user/clusters/agent/). This includes not only resources written in manifest files but also subsequently generated resources (for example, `Pod`s created by `Deployment` manifest file).
+- GitLab Environment tracks all resources produced by the connected [agent](https://docs.gitlab.com/user/clusters/agent/). This includes not only resources written in manifest files but also subsequently generated resources (for example, `Pod`s created by `Deployment` manifest file).
 - GitLab Environment renders dependency graph, such as `Deployment` => `ReplicaSet` => `Pod`. This is for providing ArgoCD-style resource view.
 - GitLab Environment has the Resource Health status that represents a summary of resource statuses, such as `Healthy`, `Progressing` or `Degraded`.
 
@@ -84,12 +84,12 @@ flowchart LR
 
 ### Existing components and relationships
 
-- [GitLab Project](https://docs.gitlab.com/ee/user/project/working_with_projects/) and GitLab Environment have 1-to-many relationship.
+- [GitLab Project](https://docs.gitlab.com/user/project/working_with_projects/) and GitLab Environment have 1-to-many relationship.
 - GitLab Project and Agent have 1-to-many _direct_ relationship. Only one project can own a specific agent.
 - GitOps mode
   - GitLab Project and Agent do _NOT_ have many-to-many _indirect_ relationship yet. This will be supported in [Manifest projects outside of the Agent configuration project](https://gitlab.com/groups/gitlab-org/-/epics/7704).
-- [CI Access mode](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow/#authorize-the-agent)
-  - GitLab Project and Agent have many-to-many _indirect_ relationship. The project owning the agent can [share the access with the other proejcts](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow/#authorize-the-agent-to-access-projects-in-your-groups). (NOTE: Technically, only running jobs inside the project are allowed to access the cluster due to job-token authentication.)
+- [CI Access mode](https://docs.gitlab.com/user/clusters/agent/ci_cd_workflow/#authorize-the-agent)
+  - GitLab Project and Agent have many-to-many _indirect_ relationship. The project owning the agent can [share the access with the other proejcts](https://docs.gitlab.com/user/clusters/agent/ci_cd_workflow/#authorize-the-agent-to-access-projects-in-your-groups). (NOTE: Technically, only running jobs inside the project are allowed to access the cluster due to job-token authentication.)
 
 ### Issues
 
@@ -102,7 +102,7 @@ flowchart LR
 ### Example
 
 This is an example of how the architecture works in push-based deployment.
-The feature is documented [here](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow/) as CI access mode.
+The feature is documented [here](https://docs.gitlab.com/user/clusters/agent/ci_cd_workflow/) as CI access mode.
 
 ```mermaid
 flowchart LR
@@ -186,8 +186,8 @@ The microservice project setup can be improved by [Multi-Project Deployment Pipe
 - Deployment Project can behave as the shared deployment engine for any upstream application projects and environments.
 - Environments can be created within the application projects. It gives more visibility of environments for developers.
 - Deployment Project can be managed under Operator group. More segregation of duties.
-- Users don't need to set up [RBAC to restrict CI/CD jobs](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow/#restrict-project-and-group-access-by-using-impersonation).
-- This is especially helpful for [dynamic environments](https://docs.gitlab.com/ee/ci/environments/#create-a-dynamic-environment) like review apps.
+- Users don't need to set up [RBAC to restrict CI/CD jobs](https://docs.gitlab.com/user/clusters/agent/ci_cd_workflow/#restrict-project-and-group-access-by-using-impersonation).
+- This is especially helpful for [dynamic environments](https://docs.gitlab.com/ci/environments/#create-a-dynamic-environment) like review apps.
 
 ```mermaid
 flowchart LR

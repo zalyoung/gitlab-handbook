@@ -31,7 +31,7 @@ To accurately communicate and effectively mitigate negative impact of a security
 
 ### GitLab Dedicated
 
-When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the following features that are [**not available** in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available):
+When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the following features that are [**not available** in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#features-that-are-not-available):
 
 #### Application Features that are Unavailable in GitLab Dedicated
 
@@ -44,9 +44,9 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 - [ ]  FortiAuthenticator, or FortiToken 2FA
 - [ ]  GitLab-managed runners (hosted runners)
 - [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/saas-platforms/dedicated/#supporting-ai-features-on-gitlab-dedicated))
-- [ ]  Features that must be configured outside of the GitLab user interface, including those behind [feature flags](https://docs.gitlab.com/ee/user/feature_flags/) which are disabled-by-default
+- [ ]  Features that must be configured outside of the GitLab user interface, including those behind [feature flags](https://docs.gitlab.com/user/feature_flags/) which are disabled-by-default
 - [ ]  Mattermost
-- [ ]  Server-side Git hooks (Due to security concerns and potential service SLA impact. Consider using [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules/) or [webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks/) as alternatives.)
+- [ ]  Server-side Git hooks (Due to security concerns and potential service SLA impact. Consider using [push rules](https://docs.gitlab.com/user/project/repository/push_rules/) or [webhooks](https://docs.gitlab.com/user/project/integrations/webhooks/) as alternatives.)
 
 If a vulnerability requires using features listed above for successfuly exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
 

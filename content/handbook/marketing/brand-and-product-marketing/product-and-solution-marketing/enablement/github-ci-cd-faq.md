@@ -46,7 +46,7 @@ A: Yes
 
 ### Q: Does GitLab CI/CD also integrate with Bitbucket? Other solutions?
 
-A: Yes, but the process is more manual. GitLab CI/CD can connect to any git repo via URL, including Bitbucket, and configure status webhooks manually. Docs on how to [manually enable GitLab CI/CD.](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/bitbucket_integration/) (With GitHub the process is all automatic.)
+A: Yes, but the process is more manual. GitLab CI/CD can connect to any git repo via URL, including Bitbucket, and configure status webhooks manually. Docs on how to [manually enable GitLab CI/CD.](https://docs.gitlab.com/ci/ci_cd_for_external_repos/bitbucket_integration/) (With GitHub the process is all automatic.)
 
 ### Q: How does GitLab CI/CD integration to GitHub work?
 
@@ -148,7 +148,7 @@ GitLab SaaS: Premium, Ultimate (after 2019-09-22)
 | Create    | Code Review              | No                 |                                                                                                                                       |
 | Verify    | Continuous integration   | Yes                |                                                                                                                                       |
 | Verify    | Security Testing         | Yes                |                                                                                                                                       |
-| Package   | Container Registry       | Yes                | [On by default once instance container registry enabled](https://docs.gitlab.com/ee/administration/packages/container_registry/)                                                          |
+| Package   | Container Registry       | Yes                | [On by default once instance container registry enabled](https://docs.gitlab.com/administration/packages/container_registry/)                                                          |
 | Release   | CD/Release automation    | Yes                | E.g. You CAN deploy to GCP using the GKE Integration                                                                                  |
 | Configure | Configuration management | Yes                |                                                                                                                                       |
 | Monitor   | Monitoring               | Yes                |                                                                                                                                       |

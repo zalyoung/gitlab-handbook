@@ -5,7 +5,7 @@ title: "Enable Semver Dialect Errors in Sentry"
 
 ## Overview
 
-This runbook provides instructions for enabling the reporting into Sentry of SemverDialect errors generated within the GitLab rails application. This reporting is behind the `track_semver_dialect_errors_for_cvs_in_sentry` [OPS](https://docs.gitlab.com/ee/development/feature_flags/#ops-type) feature flag, which is disabled by default. This prevents flooding our Sentry system with too many errors generated from processing invalid or unsuported user data on gitlab.com.
+This runbook provides instructions for enabling the reporting into Sentry of SemverDialect errors generated within the GitLab rails application. This reporting is behind the `track_semver_dialect_errors_for_cvs_in_sentry` [OPS](https://docs.gitlab.com/development/feature_flags/#ops-type) feature flag, which is disabled by default. This prevents flooding our Sentry system with too many errors generated from processing invalid or unsuported user data on gitlab.com.
 
 **Note:** this feature flag should be removed by 18.4: https://gitlab.com/gitlab-org/gitlab/-/issues/491612
 

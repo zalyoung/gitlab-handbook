@@ -73,7 +73,7 @@ We use the [Handbook Style Guide](/handbook/about/style-guide/) as our base. Thi
 
 We also use the [Pajamas Design System](https://design.gitlab.com/brand/overview/) to guide our own brand principles and tone.
 
-Additionally we use guidance from the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/) to avoid non-inclusive language, and avoid regional phrases or words that may be confusing to a wider audience.
+Additionally we use guidance from the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/) to avoid non-inclusive language, and avoid regional phrases or words that may be confusing to a wider audience.
 
 ### Language and tone
 

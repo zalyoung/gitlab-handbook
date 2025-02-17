@@ -219,7 +219,7 @@ Once an Issue has been labeled **'defined'** and assigned a **'priority'** it is
 
 The goal of the 2 weeks sprint is to agree on what can be completed in the sprint, and commit to delivery.  The goal is to limit adding new work in progress and focus on delivering the committed scope of work in the sprint.  Urgent and unexepected stuff happens, so we will always need to have flexiblity in our approach and capacity on our team to respond to short notice changes.  But, the general patern should be that we don't add scope to the sprint, unless all the work is completed.
 
-To provide insight and clarity on status we will leverage [Issue/Epic Health Status](https://docs.gitlab.com/ee/user/project/issues/#health-status) on priority issues.
+To provide insight and clarity on status we will leverage [Issue/Epic Health Status](https://docs.gitlab.com/user/project/issues/#health-status) on priority issues.
 
 At the beginning of the Sprint, DRIs will assign the 'On Track' status to agreed-upon priority issues. As work progresses, anyone contributing to the work should update the Health Status as appropriate to surface risk or concerns as quickly as possible, and to jumpstart collaboration on getting an issue back to "On Track".
 
@@ -230,7 +230,7 @@ Asynchronously, we will document what we learn in this [retrospective document](
 
 ### Metrics and KPIs (GitLab Insights)
 
-We are experimenting how to utilize [GitLab Insights](https://docs.gitlab.com/ee/user/project/insights/)
+We are experimenting how to utilize [GitLab Insights](https://docs.gitlab.com/user/project/insights/)
 
 For example, one experiment in Product Marketing is tagging our work based on specific outputs / domain.  We're using [scoped labels "pmm::xyz"](https://gitlab.com/gitlab-com/marketing/product-marketing/-/labels?utf8=%E2%9C%93&subscribed=&search=pmm%3A%3A) to tag issues based on the type of output and objective:
 

@@ -411,8 +411,8 @@ POC: [Merge request](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_request
 
 ## Glossary
 
-- **[GitLab Runner](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/#gitlab-runner)** - the software application that you can choose to install and manage, whose source code is hosted at `gitlab.com/gitlab-org/gitlab-runner`.
-- **[runners](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list/#runner-runners)** - the runner is the agent that's responsible for running GitLab CI/CD jobs in an environment and reporting the results to a GitLab instance. It /1/ retrieves jobs from GitLab, /2/ configures a local or remote build environment, and /3/ executes jobs within the provisioned environment, passing along log data and status updates to GitLab.
+- **[GitLab Runner](https://docs.gitlab.com/development/documentation/styleguide/word_list/#gitlab-runner)** - the software application that you can choose to install and manage, whose source code is hosted at `gitlab.com/gitlab-org/gitlab-runner`.
+- **[runners](https://docs.gitlab.com/development/documentation/styleguide/word_list/#runner-runners)** - the runner is the agent that's responsible for running GitLab CI/CD jobs in an environment and reporting the results to a GitLab instance. It /1/ retrieves jobs from GitLab, /2/ configures a local or remote build environment, and /3/ executes jobs within the provisioned environment, passing along log data and status updates to GitLab.
 - **runner manager** - the runner process is often referred to as the `Runner Manager` as it manages multiple runners, which are the `[[runners]]` workers defined in the runners `config.toml` file.
 - **executor** - a concrete environment which can be prepared and used to run a job. A new executor is created for each job.
 - **executor provider** - an implementation capable of providing executors on demand. Executor providers are registered on import and initialized once when a runner starts up.

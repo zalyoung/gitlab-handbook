@@ -13,15 +13,15 @@ In this iteration we introduced the concept of standard and checks. In the initi
 
 The GitLab standard consists of three checks:
 
-- [Prevent authors as approvers](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#prevent-authors-as-approvers)
-- [Prevent committers as approvers](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#prevent-committers-as-approvers)
-- [At least two approvals](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#at-least-two-approvals)
+- [Prevent authors as approvers](https://docs.gitlab.com/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#prevent-authors-as-approvers)
+- [Prevent committers as approvers](https://docs.gitlab.com/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#prevent-committers-as-approvers)
+- [At least two approvals](https://docs.gitlab.com/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#at-least-two-approvals)
 
 ### SOC 2 Standard
 
 The SOC 2 standard consists of one check:
 
-- [At least one non-author approval](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#at-least-one-non-author-approval)
+- [At least one non-author approval](https://docs.gitlab.com/user/compliance/compliance_center/compliance_standards_adherence_dashboard/#at-least-one-non-author-approval)
 
 ## Approach
 

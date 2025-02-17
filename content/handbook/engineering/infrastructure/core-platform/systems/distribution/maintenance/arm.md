@@ -29,6 +29,6 @@ they would normally for any other branch.
 
 ### What GitLab packages get built for Raspberry Pi?
 
-Due to [memory requirements](https://docs.gitlab.com/ee/install/requirements/#memory) we do not currently recommend the Raspberry Pi
+Due to [memory requirements](https://docs.gitlab.com/install/requirements/#memory) we do not currently recommend the Raspberry Pi
 as a production platform. Due to this, we only build packages for the
 Community Edition.

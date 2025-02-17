@@ -10,11 +10,11 @@ Todo: include instructions for writing policies to perform other types of automa
 
 ## Purpose
 
-Triage policies are used when team members migrate labels across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). This tool automates triaging through [policies defined in YAML](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#what-is-a-triage-policy). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/).
+Triage policies are used when team members migrate labels across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). This tool automates triaging through [policies defined in YAML](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#what-is-a-triage-policy). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/user/duo_workflow/).
 
 ## Before you start
 
-Follow the [GitLab Duo Workflow documentation](https://docs.gitlab.com/ee/user/duo_workflow/) to learn how to set up and access GitLab Duo Workflow in your code editor.
+Follow the [GitLab Duo Workflow documentation](https://docs.gitlab.com/user/duo_workflow/) to learn how to set up and access GitLab Duo Workflow in your code editor.
 
 ## Build your prompt
 

@@ -264,7 +264,7 @@ stores the following information that can be used by the step definition:
 - `env`: The current environment variable values.
 - `job`: The metadata about the current job being executed.
   - `job.project`: Information about the project, for example ID, name, or full path.
-  - `job.variables`: All [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables/) as provided by the CI/CD execution,
+  - `job.variables`: All [CI/CD Variables](https://docs.gitlab.com/ci/variables/predefined_variables/) as provided by the CI/CD execution,
     including project variables, predefined variables, etc.
   - `job.pipeline`: Information about the current executed pipeline, like the ID, name, full path
 - `step`: Information about the current executed step, like the location of the step, the version used, or the [specification](#step-specification).

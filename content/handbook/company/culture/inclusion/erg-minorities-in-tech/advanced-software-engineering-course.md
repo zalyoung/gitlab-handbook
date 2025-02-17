@@ -117,13 +117,13 @@ For those interested in using GitLab to support a course whether it is Face to F
 
 | GitLab Feature | How this feature is used in this course |
 | -------------- | --------------------------------------- |
-| [Pages](https://docs.gitlab.com/ee/user/project/pages/) | The course website runs using GitLab Pages. |
-| [Projects](https://docs.gitlab.com/ee/user/project/) | Used as an environment for working on their homework and receiving more confidential feedback. |
-| [Issues](https://docs.gitlab.com/ee/user/project/issues/) | Used for classroom discussions and for turning in some assignments (by linking to their personal projects). |
-| [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) | Used to contribute to GitLab. |
-| [GitLab CI (Continuous Integration)](https://docs.gitlab.com/ee/ci/) | Used to build and test the software when students push code to production. |
-| [GitLab CD(Continuous Deployment)](https://docs.gitlab.com/ee/ci/) | Used to push every day code changes into the production environment resulting in continuous deployments to production. |
-| [Requirements](https://docs.gitlab.com/ee/user/project/requirements/) | Used for homework assignments to mimic real world environments where you have customers who submit requirements to engineering teams. |
-| [Designs](https://docs.gitlab.com/ee/user/project/issues/design_management/) | Used for homework assignments to provide a visual for the Handbook Pages they will contribute to |
+| [Pages](https://docs.gitlab.com/user/project/pages/) | The course website runs using GitLab Pages. |
+| [Projects](https://docs.gitlab.com/user/project/) | Used as an environment for working on their homework and receiving more confidential feedback. |
+| [Issues](https://docs.gitlab.com/user/project/issues/) | Used for classroom discussions and for turning in some assignments (by linking to their personal projects). |
+| [Merge Requests](https://docs.gitlab.com/user/project/merge_requests/) | Used to contribute to GitLab. |
+| [GitLab CI (Continuous Integration)](https://docs.gitlab.com/ci/) | Used to build and test the software when students push code to production. |
+| [GitLab CD(Continuous Deployment)](https://docs.gitlab.com/ci/) | Used to push every day code changes into the production environment resulting in continuous deployments to production. |
+| [Requirements](https://docs.gitlab.com/user/project/requirements/) | Used for homework assignments to mimic real world environments where you have customers who submit requirements to engineering teams. |
+| [Designs](https://docs.gitlab.com/user/project/issues/design_management/) | Used for homework assignments to provide a visual for the Handbook Pages they will contribute to |
 | [GitLab Handbook](/handbook) | Students will learn to update the GitLab Handbook and they will also use some Handbook content as supplemental lecture material. |
 | [GitLab Docs](https://docs.gitlab.com) | Students will use GitLab docs as supplemental lecture material. |

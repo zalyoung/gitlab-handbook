@@ -65,7 +65,7 @@ The inventory files provide a standardized way to capture, find, and reference c
 
 #### Layout
 
-The `inventory` folder lives under `/data` of the website and is organized in the following manner to enable scaling to multiple groups. The thought is that each group can be [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) for their own team inventory, but it should still be easy to search through the inventory of "everything" to find what you are looking for.
+The `inventory` folder lives under `/data` of the website and is organized in the following manner to enable scaling to multiple groups. The thought is that each group can be [CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/) for their own team inventory, but it should still be easy to search through the inventory of "everything" to find what you are looking for.
 
 <pre>
 /data/inventory

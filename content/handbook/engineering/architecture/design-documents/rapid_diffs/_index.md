@@ -114,7 +114,7 @@ Simplicity is the opposite of complexity. This uses a definition of simple and c
 
 ### Done
 
-GitLab has an existing [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done) which is geared primarily toward identifying when an MR is ready to be merged.
+GitLab has an existing [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) which is geared primarily toward identifying when an MR is ready to be merged.
 
 In addition to the items in the GitLab definition of done, work on RRD should also adhere to the following requirements:
 

@@ -80,7 +80,7 @@ of the review.
 Following the in-scope items by priority the reviewer will conduct the
 requested review. Any security related findings and concerns should be captured
 in a dedicated thread in the review issue. Having all initial security concerns
-and findings within the issue allows the review issue to be a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)
+and findings within the issue allows the review issue to be a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)
 for its review cycle. The individual findings can be discussed in the separate
 threads with the development team, if the issue needs a dedicated in-depth
 discussion a separate issue should be created in the according project and

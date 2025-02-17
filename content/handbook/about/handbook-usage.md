@@ -47,7 +47,7 @@ When asked during an [INSEAD](https://www.insead.edu/) case study interview (sho
 
 The handbook is focused on any content that GitLab team members need to do their job. For other content that might be useful, link to the other source.
 
-- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review/)), not the Handbook, which is only for team members. Read more in the [Documentation](/handbook/product/ux/technical-writing/documentation/) section of the Handbook.
+- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/development/code_review/)), not the Handbook, which is only for team members. Read more in the [Documentation](/handbook/product/ux/technical-writing/documentation/) section of the Handbook.
 - For user facing company information, there's the main marketing [website](/handbook/marketing/digital-experience/), and the [blog](/handbook/marketing/blog/).
 - The handbook is for things concerning current and future GitLab team-members only. If something concerns users of GitLab, it should be documented in the [GitLab documentation](https://docs.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), the [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
@@ -100,7 +100,7 @@ See the [Searching GitLab like a pro](/handbook/tools-and-tips/searching/) page 
 
 1. After it is merged you can post this in the `#whats-happening-at-gitlab` slack channel if applicable. You can remind other people of this by asking "Can you please send a merge request for the handbook?"
 1. When substantially changing handbook layout, please leave a link to the specific page of the review app **that is directly affected by this MR**. Along with the link, include as much info as possible in the MR description. This will allow everyone to understand what is the purpose of the MR without looking at diffs.
-1. Keeping up with changes to the Handbook can be difficult, please follow the [commit subject guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#commit-messages-guidelines) with a particular focus on your merge request's title, to ensure someone reading the [Handbook Changelog](/handbook/about/changelog/) can quickly understand the MR's content.
+1. Keeping up with changes to the Handbook can be difficult, please follow the [commit subject guidelines](https://docs.gitlab.com/development/contributing/merge_request_workflow/#commit-messages-guidelines) with a particular focus on your merge request's title, to ensure someone reading the [Handbook Changelog](/handbook/about/changelog/) can quickly understand the MR's content.
 1. Communicate process changes by linking to the **merged diff** (a commit that shows the changes before and after). If you are communicating a change for the purpose of discussion and feedback, it is ok to link to an **unmerged diff**. Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and it leads to outdated documentation. You can remind other people of this by asking "Can you please update the handbook first?"
 1. When feasible, introduce process changes iteratively. It is important that you contribute to the handbook by [making small merge requests](/handbook/values/#make-small-merge-requests). This will help gain adoption among the process's intended audience. We want to avoid significant process changes that are unnecessarily large, top-down, and disruptive. These types of process changes can disempower [DRIs](/handbook/people-group/directly-responsible-individuals/) and cause people to focus on process rather than results.
 1. Like everything else, our processes are always in flux. Everything is always in draft, and the initial version should be in the handbook, too. If you are proposing a change to the handbook, whenever possible, **skip the issue and submit a merge request**. (Proposing a change in a merge request is preferred over an issue description). Mention the people that are affected by the change in the merge request. In many cases, merge requests are easier to collaborate on since you can see the proposed changes.
@@ -209,7 +209,7 @@ If you need permissions to directly commit changes to the handbook, please submi
 
 ## Merge Rights Guidelines
 
-You need [`developer` access](https://docs.gitlab.com/ee/user/permissions/#project-members-permissions) to the relevant handbook project to merge MRs. All team members should have developer access by default. This page contains some tips and guidelines that you should keep in mind when merging.
+You need [`developer` access](https://docs.gitlab.com/user/permissions/#project-members-permissions) to the relevant handbook project to merge MRs. All team members should have developer access by default. This page contains some tips and guidelines that you should keep in mind when merging.
 
 ### Merge with confidence
 
@@ -217,13 +217,13 @@ You should feel confident merging any changes that pass the pipeline without wor
 
 ### Do not use merge immediately
 
-Do **not** use the [merge immediately](https://docs.gitlab.com/ee/ci/pipelines/merge_trains/#immediately-merge-a-merge-request-with-a-merge-train) feature! Even if your MR is important and time-sensitive, using this feature will create a lot of pain for everyone else. This feature should only be used when critical public information needs to be sent live as quickly as possible and should be approved by PR or Legal. **If you don't have PR or Legal approval, don't use this feature**.
+Do **not** use the [merge immediately](https://docs.gitlab.com/ci/pipelines/merge_trains/#immediately-merge-a-merge-request-with-a-merge-train) feature! Even if your MR is important and time-sensitive, using this feature will create a lot of pain for everyone else. This feature should only be used when critical public information needs to be sent live as quickly as possible and should be approved by PR or Legal. **If you don't have PR or Legal approval, don't use this feature**.
 
 More context on the technical reasons behind this:
 
 - We want to have a fast pipeline for the default branch, which minimizes the time needed for changes to be deployed and appear live on the production site.
 - In order to achieve this, we do not run any tests or linters on the default branch, because these are long-running jobs which would block a fast deployment.
-- Instead, we rely on the [Merge Train](https://docs.gitlab.com/ee/ci/pipelines/merge_trains/) to ensure that all Merge Request changes have successfully passed all necessary test/lint jobs before being allowed to merge.
+- Instead, we rely on the [Merge Train](https://docs.gitlab.com/ci/pipelines/merge_trains/) to ensure that all Merge Request changes have successfully passed all necessary test/lint jobs before being allowed to merge.
 - So, if you use "merge immediately", ***none of the test/lint jobs will be run, which will result in a broken default branch if problems were introduced.***
 - This means that **everyone who creates new MRs off of the default branch after this point will experience confusing pipeline failures which are not their fault**, and this will continue until this situation is discovered and a fix is merged to the default branch.
 
@@ -233,7 +233,7 @@ Getting pinged to approve every small change to your page can be annoying, but s
 
 Whenever reasonable, practice [responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). When you expect a page owner will appreciate your changes, go ahead and merge them without approval. Always ping the code owners with an @mention comment to inform them of the changes. They will be happy their page was made better and they didn't need to waste time reviewing and approving the change. In the event that something isn't an improvement, we practice [clean up over sign off](/handbook/values/#cleanup-over-sign-off).
 
-Whenever appropriate, such as publishing a previously internal-only document, get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the [approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings/) before merging changes. Each page in the handbook shows the code owner listed under "Maintained by". The maintainer information and for list of groups that maintain a page, see the relevant [codeowners file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS). The page's code owner is the DRI for the page and has the final say for what appears in the handbook. When in doubt, get the DRI's permission before changing their page. Don't worry if the DRI is a C-level person. You can still assign your MRs to them, even if you are an individual contributor. This is because we prefer to [communicate directly](/handbook/communication/#communicate-directly).
+Whenever appropriate, such as publishing a previously internal-only document, get approval from the [code owner](https://docs.gitlab.com/user/project/codeowners/) using the [approval feature](https://docs.gitlab.com/user/project/merge_requests/approvals/settings/) before merging changes. Each page in the handbook shows the code owner listed under "Maintained by". The maintainer information and for list of groups that maintain a page, see the relevant [codeowners file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS). The page's code owner is the DRI for the page and has the final say for what appears in the handbook. When in doubt, get the DRI's permission before changing their page. Don't worry if the DRI is a C-level person. You can still assign your MRs to them, even if you are an individual contributor. This is because we prefer to [communicate directly](/handbook/communication/#communicate-directly).
 
 ### Have a peer review your changes
 
@@ -241,7 +241,7 @@ Unless it's a small change like a typo, always have another team member review y
 
 ### Broad Permissions
 
-Being a maintainer gives you access to much more than just the ability to merge. You can see a [full list of permissions](https://docs.gitlab.com/ee/user/permissions/#project-members-permissions) in the docs. Keep in mind that you'll have access to a broad set of settings and configuration for the project. Don't adjust any settings or make any structural changes.
+Being a maintainer gives you access to much more than just the ability to merge. You can see a [full list of permissions](https://docs.gitlab.com/user/permissions/#project-members-permissions) in the docs. Keep in mind that you'll have access to a broad set of settings and configuration for the project. Don't adjust any settings or make any structural changes.
 
 ### Granting others maintain access
 
@@ -249,7 +249,7 @@ Do not grant people maintainer access without an [Access Request](/handbook/it/e
 
 ### Description Templates for Issues and Merge Requests
 
-The [description templates](https://docs.gitlab.com/ee/user/project/description_templates/) for issues and merge requests in the various projects are respectively located in the `.gitlab/issue_templates` and `.gitlab/merge_request_templates` directories, and can be edited and changed with a new merge request.
+The [description templates](https://docs.gitlab.com/user/project/description_templates/) for issues and merge requests in the various projects are respectively located in the `.gitlab/issue_templates` and `.gitlab/merge_request_templates` directories, and can be edited and changed with a new merge request.
 
 Changes to the default templates in `Default.md` require review by the [Office of the CEO](/handbook/ceo/office-of-the-ceo/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
 

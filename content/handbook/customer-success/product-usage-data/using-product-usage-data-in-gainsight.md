@@ -231,7 +231,7 @@ If a CSM has marked a production instance under a Premium subscription, DevSecOp
 
 ## Field definitions
 
-The Product Stage definitions have been extracted from the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary/). For more information on Stage metrics, please review the dictionary.
+The Product Stage definitions have been extracted from the [Metrics Dictionary](https://docs.gitlab.com/development/internal_analytics/metrics/metrics_dictionary/). For more information on Stage metrics, please review the dictionary.
 
 Eventually, the metrics list and definitions will be embedded directly in the handbook. As a first iteration, the list of metrics and their definitions are in the [Data Mart - Table Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0) spreadsheet.
 
@@ -383,12 +383,12 @@ Please allow 24-48 hours after making any changes to the instances in Gainsight.
 
 Service Ping is a GitLab process that collects customer analytics on self-managed instances and sends a weekly payload to GitLab. The payload provides important high-level statistics that helps our product, support, and sales teams understand how GitLab is used.
 
-- [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
+- [Service Ping Guide](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 - [Service Ping FAQ](/handbook/customer-success/csm/service-ping-faq/)
 
 #### How can we confirm that a customer has opted into Service Ping?
 
-The only way to confirm if they have opted into Service Ping is if we have data for them. See the [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) for more information.
+The only way to confirm if they have opted into Service Ping is if we have data for them. See the [Service Ping Guide](https://docs.gitlab.com/development/internal_analytics/service_ping/) for more information.
 
 #### Can my customer opt out of Service Ping?
 

@@ -102,7 +102,7 @@ Each month, a Product Manager, Technical Writer, and an Engineering Department T
 
 It's highly recommended that all volunteers shadow the release post prior to the one they run. Volunteers can update the previously mentioned data YAML file to indicate both when they shadow and when they help run the release post.
 
-Release Post Managers will need [Maintainer](https://docs.gitlab.com/ee/user/permissions/#project-members-permissions) access privileges for the `https://gitlab.com/gitlab-com/www-gitlab-com/` project. If you need access, model your request after [this confidential issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/10031).
+Release Post Managers will need [Maintainer](https://docs.gitlab.com/user/permissions/#project-members-permissions) access privileges for the `https://gitlab.com/gitlab-com/www-gitlab-com/` project. If you need access, model your request after [this confidential issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/10031).
 
 ### Release Post Manager
 
@@ -195,7 +195,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 
 ### How to get started
 
-Make sure you have [Maintainer](https://docs.gitlab.com/ee/user/permissions/#project-members-permissions) access to project `https://gitlab.com/gitlab-com/www-gitlab-com/`. If you need access, model your request after [this confidential issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/10031).
+Make sure you have [Maintainer](https://docs.gitlab.com/user/permissions/#project-members-permissions) access to project `https://gitlab.com/gitlab-com/www-gitlab-com/`. If you need access, model your request after [this confidential issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/10031).
 
 [An automated task will](#schedule) create the branches, MRs, and issues necessary to run the Release Post process, including making the appropriate assignments and mentions based on the [Release Post Manager schedule](/handbook/marketing/blog/release-posts/managers/).
 
@@ -263,7 +263,7 @@ After the Review App for the release post has been generated, the Release Post M
 
 It is the Release Post Manager's responsibility to make sure all content is completed by the Tuesday of release week, ensuring a one day buffer is left for final error fixes and small improvements.
 
-**NOTE:** To the extent possible, we strive to use [GitLab's Community Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review/#getting-your-merge-request-reviewed-approved-and-merged) when performing Release Post content review.
+**NOTE:** To the extent possible, we strive to use [GitLab's Community Code Review Guidelines](https://docs.gitlab.com/development/code_review/#getting-your-merge-request-reviewed-approved-and-merged) when performing Release Post content review.
 
 #### What RPM should look for when reviewing content blocks
 
@@ -377,7 +377,7 @@ To include an experimental feature in the release post, use the [experiment temp
 
 PM Director/Group Manager, PMM, and Product Design reviews are highly recommended, but the Tech Writer review is the only one required for inclusion in the Release Post. Tech Writer review is required even when late additions are made to the release post after the Monday of release week. The Tech Writing review should be focused on looking for typos, grammar errors, and helping with style. PMs are responsible for coordinating any significant content/tech changes. Communicating priority about which release post items are most important for review will help Product Section leads, PMMs, and Tech Writers review the right items by the Thursday, 3 weeks before release, to ensure the proper labels are applied to the MR and assign reviewers to the MR when it is ready for them to review (ex: `Tech Writing`, `Direction`, `Deliverable`, etc).
 
-- **Note: For consistency, use the [Reviewers for Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/)] feature in GitLab when assigning PM Director/Group Manager, PMM, TW, and Product Design team members for content reviews.**
+- **Note: For consistency, use the [Reviewers for Merge Requests](https://docs.gitlab.com/user/project/merge_requests/reviews/)] feature in GitLab when assigning PM Director/Group Manager, PMM, TW, and Product Design team members for content reviews.**
 
 #### Recommendations for optional PM Director/Group Manager and PMM Reviews
 
@@ -414,7 +414,7 @@ Before pinging the Release Post Manager, ask yourself if your content absolutely
 - Ping the Release Post Manager (RPM) in `#release-post` to request adding a new late addition for the [release post](/handbook/engineering/releases/), and wait for the RPM to give confirmation to proceed. New late additions are release post items that were created after content assembly has already run. The Release Post Manager will do their best to accommodate the request, but it is not guaranteed.
 - If the RPM approves the late addition, then PM and RPM will proceed by:
   - PM edits the release post item MR and updates the target branch to be on the release post `release-X-Y` branch.
-  - PM [rebases](https://docs.gitlab.com/ee/topics/git/git_rebase/#rebase-from-the-gitlab-ui) the release post item MR on top of `release-X-Y` branch.
+  - PM [rebases](https://docs.gitlab.com/topics/git/git_rebase/#rebase-from-the-gitlab-ui) the release post item MR on top of `release-X-Y` branch.
   - PM moves the RPI yml file and images from `/data/release_posts/unreleased` to `/data/release_posts/x_y/`.
   - PM moves any images from `/source/images/unreleased` to `/source/images/x_y/`
   - PM Ensure that the `image_url` field in the release post yml file points to the image file under `/source/images/x_y/`.
@@ -574,7 +574,7 @@ merge requests, the purpose of the structural check is:
 - Check all content for syntax errors, typos and grammar mistakes, remove extra whitespace.
 - Verify that the images look harmonic when scrolling through the page (for example, suppose that most of the images were screenshots taken of a large portion of the screen and one of them is super zoomed. This one should be ideally replaced with another that looks more like the rest of the images).
 - This should happen in the release post item review, but if there's time, double-check documentation links and product tiers.
-- Make sure the current release's deprecations and removals also show up in the [deprecations doc](https://docs.gitlab.com/ee/update/deprecations/).
+- Make sure the current release's deprecations and removals also show up in the [deprecations doc](https://docs.gitlab.com/update/deprecations/).
 
 Pay special attention to the release post Markdown file, which adds the introduction.
 Review the introduction briefly, but do not change the writing style nor the messaging;
@@ -600,7 +600,7 @@ Until 8:00 am Pacific Time on the Monday of release week, the TW Lead should be 
 directly to the release post. After that time, anyone who wants to include a
 change in the upcoming release may need to submit it in a separate MR, with a
 target of the `release-X-Y` branch. For more information, see
-[Develop on a feature branch](https://docs.gitlab.com/ee/topics/git/).
+[Develop on a feature branch](https://docs.gitlab.com/topics/git/).
 
 ### Frontmatter
 
@@ -664,7 +664,7 @@ of their group for review (required). The process for TW reviews is described in
 
 ### Update the deprecations doc
 
-The [deprecations](https://docs.gitlab.com/ee/update/deprecations/) doc is generated with .yml files in [`gitlab/data/deprecations`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/data).
+The [deprecations](https://docs.gitlab.com/update/deprecations/) doc is generated with .yml files in [`gitlab/data/deprecations`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/data).
 
 The html pages are not generated automatically. The TW assigned as the reviewer of the deprecation item must run a Rake task to compile the documents. They can also run a separate task to check that the docs are up to date.
 
@@ -673,7 +673,7 @@ While the author of the deprecations MR is responsible for creating the content,
 Updating the docs:
 
 1. From the command line, navigate to your local clone of the [`gitlab-org/gitlab`](https://gitlab.com/gitlab-org/gitlab) project, and check out the MR's branch.
-1. [Compile the deprecation documentation](https://docs.gitlab.com/ee/development/deprecation_guidelines/#update-the-deprecations-and-removals-documentation).
+1. [Compile the deprecation documentation](https://docs.gitlab.com/development/deprecation_guidelines/#update-the-deprecations-and-removals-documentation).
 1. Commit the updated doc and push the changes.
 1. Set the MR to merge when the pipeline succeeds (or merge if the pipeline is already complete).
 
@@ -991,7 +991,7 @@ If only Duo Pro applies, use `add_ons: ["Duo Pro"]`.
 
 ##### Features behind flags
 
-From time to time a feature may be developed behind a feature flag and made [available slowly](https://docs.gitlab.com/ee/development/feature_flags/#development-type) to larger audiences. If this is the case, do not include the item in the release post unless you are deliberately seeking beta testers. This may result in a feature issue being closed in a milestone earlier than it is announced.
+From time to time a feature may be developed behind a feature flag and made [available slowly](https://docs.gitlab.com/development/feature_flags/#development-type) to larger audiences. If this is the case, do not include the item in the release post unless you are deliberately seeking beta testers. This may result in a feature issue being closed in a milestone earlier than it is announced.
 
 If you are deliberately seeking beta tests, include the release post as well as instructions on how to enable the feature and provide feedback.
 
@@ -1200,13 +1200,13 @@ When the MR is approved, add the `Ready` label before merging.
 
 ### Deprecations, removals, and breaking changes
 
-Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations/) and in the release post of the announcement's corresponding milestone.
+Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/update/deprecations/) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) to ensure you:
+Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/development/deprecation_guidelines/) to ensure you:
 
 - Are minimizing disruption for our customers.
 - Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](https://docs.gitlab.com/ee/development/deprecation_guidelines/).
+- Have [determined if the change is a breaking change](https://docs.gitlab.com/development/deprecation_guidelines/).
 
 #### Milestone due dates
 
@@ -1258,7 +1258,7 @@ This video will walk you through the process of making an announcement:
 
 ##### Reviewing and merging the announcement
 
-1. The TW Reviewer reviews the content, adds a commit that [updates the deprecations doc](#update-the-deprecations-doc), and merges the MR by the Thursday, 1 week before release. After merging, the announcement will be visible on the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations/) within an hour.
+1. The TW Reviewer reviews the content, adds a commit that [updates the deprecations doc](#update-the-deprecations-doc), and merges the MR by the Thursday, 1 week before release. After merging, the announcement will be visible on the [deprecations documentation page](https://docs.gitlab.com/update/deprecations/) within an hour.
 1. If the MR is at risk of missing the cut off date, open a duplicate MR and set the target branch to `X-Y-stable-ee` where `X-Y` aligns with the version released `X.Y`. If you have trouble, ask for help in `#mr-buddies` or refer to the [full process for backporting an MR](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process_new.md#gitlab-project).
 
 #### Announcing an End of Support period
@@ -1267,7 +1267,7 @@ The [deprecation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/da
 
 An End of Support milestone must be at least 3 milestones *after* the deprecation announcement. For example, if the deprecation announcement is made in `15.1`, the End of Support milestone must be in `15.4` at the earliest. There is no requirement for the gap between the End of Support milestone and the Removal milestone.
 
-If an End of Support milestone is announced, it will be displayed under the title of the deprecation announcement on the [Deprecations page](https://docs.gitlab.com/ee/update/deprecations/). End of Support milestones are not currently displayed in the release post.
+If an End of Support milestone is announced, it will be displayed under the title of the deprecation announcement on the [Deprecations page](https://docs.gitlab.com/update/deprecations/). End of Support milestones are not currently displayed in the release post.
 
 **When to define an End of Support period**
 
@@ -1333,7 +1333,7 @@ Major releases happen once a year and start a new versioning cycle: 14.0 - 14.10
 
 ### Communicating breaking changes
 
-Product Operations will lead the communication of breaking changes for major releases as part of the release post. It is important the breaking changes be flagged for SaaS users prior to the rollout of the updates in the major version, so they are prepared and their workflow is not unexpectedly disrupted. Beginning as early as 3 milestones ahead of the major release, Product operations will start communictions/coordination for announcements and a [breaking changes blog](https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/). Starting as early as 2 milestones ahead of the major release, Product Operations we will use the [broadcast message feature](https://docs.gitlab.com/ee/administration/broadcast_messages/) to communicate upcoming breaking changes with SaaS users.
+Product Operations will lead the communication of breaking changes for major releases as part of the release post. It is important the breaking changes be flagged for SaaS users prior to the rollout of the updates in the major version, so they are prepared and their workflow is not unexpectedly disrupted. Beginning as early as 3 milestones ahead of the major release, Product operations will start communictions/coordination for announcements and a [breaking changes blog](https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/). Starting as early as 2 milestones ahead of the major release, Product Operations we will use the [broadcast message feature](https://docs.gitlab.com/administration/broadcast_messages/) to communicate upcoming breaking changes with SaaS users.
 
 Product Operations initiates breaking changes communications when they're assigned an [automated GitLab issue](https://gitlab.com/gitlab-com/Product/-/tree/main/.gitlab/issue_templates/ProdOps-Breaking-Changes-Comms.md), with a task list and timeline. These communications rampup three minor releases before the major release. For example: if the major 15.0 release is planned for May 22, the communications rampup with the automated issue being generated  during release 14.8.
 
@@ -1701,7 +1701,7 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 1. Add the ~"documentation" label.
 1. Apply the affiliated release `milestone` (it's ok if it says "expired") and labels `whats new` and `release post`.
 1. On the Tuesday of release week, when the MR is ready for review, assign `@[name of PLT member who is reviewing this month]` as reviewer and `@mention` them in the MR to complete their review by the Wednesday of release week. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
-1. After the release post is live and you have verified the images load locally in GDK by pulling down the What's New branch, have the MR reviewed following our standard [code review process](https://docs.gitlab.com/ee/development/code_review/) and have it merged by a `maintainer`. It is recommended to communicate directly to the maintainer that the MR is time sensitive to avoid unnecessary delays.
+1. After the release post is live and you have verified the images load locally in GDK by pulling down the What's New branch, have the MR reviewed following our standard [code review process](https://docs.gitlab.com/development/code_review/) and have it merged by a `maintainer`. It is recommended to communicate directly to the maintainer that the MR is time sensitive to avoid unnecessary delays.
 1. Open a duplicate MR and set the target branch to `X-Y-stable-ee` where `X-Y` aligns with the version released `X.Y`. Assign it to the same maintainer that merged the previous MR. This second MR ensures that any additional releases to version `X.Y` include this "What's New" update. If you have trouble, ask for help in `#mr-buddies` or refer to the [full process for backporting an MR](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process_new.md#gitlab-project).
 
 **IMPORTANT: The MR should not be merged until after the release post is live on the [release date](/handbook/engineering/releases/) or the images will not display.** After the release post is live, but before merging, the branch should be checked out and the content checked in GDK to make sure that all images are displaying, links are accurate, and that the What's New items are part of the final release post. Only once those are confirmed should the MR be merged. Typically this means the What's New content will be live on the day or two after the [release date](/handbook/engineering/releases/), depending on maintainer reviews.
@@ -1711,7 +1711,7 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 ### Pages
 
 - [GitLab the product](/handbook/product/categories/gitlab-the-product/#gitlab-the-product)
-- [General guidance on deprecations, remvoals and breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/)
+- [General guidance on deprecations, remvoals and breaking changes](https://docs.gitlab.com/development/deprecation_guidelines/)
 - [Release Post volunteer schedule](managers/)
 - [Security and monthly releases](https://about.gitlab.com/releases/categories/releases/)
 - [Features per release](https://about.gitlab.com/releases/)

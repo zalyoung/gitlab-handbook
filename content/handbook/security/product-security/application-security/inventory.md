@@ -48,26 +48,26 @@ Rules define actions to take, based on the project categories. These actions are
 
 | Categories | Actions |
 | -------- | ----------- |
-|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ee/api/protected_branches/), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals/), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals/#get-project-level-rules) |
-| `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/ee/api/lint/) |
+|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/api/protected_branches/), [Approvals](https://docs.gitlab.com/api/merge_request_approvals/), [Approval Rules](https://docs.gitlab.com/api/merge_request_approvals/#get-project-level-rules) |
+| `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/api/lint/) |
 | `product`, `secrets_monitoring`  | Download [Vulnerabilities]     |
 
 ### Policies
 
 | Categories | Policies |
 | -------- | ----------- |
-| `red_data`, `product`, `library` | [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), and [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
+| `red_data`, `product`, `library` | [SAST](https://docs.gitlab.com/user/application_security/sast/), [Dependency Scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), and [Secret Detection](https://docs.gitlab.com/user/application_security/secret_detection/) must be enabled |
 | `red_data`, `product`, `library` | *Default branch* must be `protected` (Allowed to merge: `Maintainers`, Allowed to push: `No one`) |
-| `use_pat`, `website`+`external` | [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) and [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
-| `website`+`external` + `yellow/orange/red_data` | [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) must be enabled. Overall SSL grade must be 'A' or 'A+' |
-| `product` + `container` | [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) must be enabled |
+| `use_pat`, `website`+`external` | [Dependency Scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/) and [Secret Detection](https://docs.gitlab.com/user/application_security/secret_detection/) must be enabled |
+| `website`+`external` + `yellow/orange/red_data` | [DAST](https://docs.gitlab.com/user/application_security/dast/) must be enabled. Overall SSL grade must be 'A' or 'A+' |
+| `product` + `container` | [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) must be enabled |
 | `keep_private` | Project `visibility` must be `private` |
-| `docs` | [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
+| `docs` | [Secret Detection](https://docs.gitlab.com/user/application_security/secret_detection/) must be enabled |
 | `marked_for_deletion` | Project will be deleted |
 | `deprecated` | Project will be archived |
-| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/user/public_access/#internal-projects-and-groups) visibility |
+| all | Projects can't have [`internal`](https://docs.gitlab.com/user/public_access/#internal-projects-and-groups) visibility |
 | all | *Default branch* must be `protected` |
-| all | [`SECRET_DETECTION_HISTORIC_SCAN`](https://docs.gitlab.com/ee/user/application_security/secret_detection/#full-history-secret-detection) must not be set in the CI/CD configuration |
+| all | [`SECRET_DETECTION_HISTORIC_SCAN`](https://docs.gitlab.com/user/application_security/secret_detection/#full-history-secret-detection) must not be set in the CI/CD configuration |
 
 These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
 

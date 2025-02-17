@@ -133,8 +133,8 @@ into consideration in the scope of any changes/deprecations to the public API su
 
 | Project | API |
 |---------| --- |
-| [GitLab Terraform Provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab) | [REST API](https://docs.gitlab.com/ee/api/api_resources/) |
-| [GitLab CLI](https://gitlab.com/gitlab-org/cli) | [REST API](https://docs.gitlab.com/ee/api/api_resources/) |
+| [GitLab Terraform Provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab) | [REST API](https://docs.gitlab.com/api/api_resources/) |
+| [GitLab CLI](https://gitlab.com/gitlab-org/cli) | [REST API](https://docs.gitlab.com/api/api_resources/) |
 
 ## Technologies
 
@@ -217,11 +217,11 @@ As a developer on the runner team, you will be contributing to the various runne
 
 #### The responsibility of the merge request author
 
-We follow the [merge request author responsibility guidelines](https://docs.gitlab.com/ee/development/code_review/#the-responsibility-of-the-merge-request-author).
+We follow the [merge request author responsibility guidelines](https://docs.gitlab.com/development/code_review/#the-responsibility-of-the-merge-request-author).
 
 #### The responsibility of Reviewers and Maintainers
 
-We follow the [code review guidelines](https://docs.gitlab.com/ee/development/code_review/#the-responsibility-of-the-reviewer).
+We follow the [code review guidelines](https://docs.gitlab.com/development/code_review/#the-responsibility-of-the-reviewer).
 
 To help authors find a reviewer with capacity to take on a review, we have a [spreadsheet dashboard](https://docs.google.com/spreadsheets/d/1fkPW5cy2Cz_h2T2tSoYGlnuulMzU-zX6Miwz53sErE4/edit#gid=0) that shows the number of MRs any of the backend members of the Verify:Runner or Verify:Runner SaaS groups have assigned.
 
@@ -467,7 +467,7 @@ cherry-picking the commits. You will have to resolve them.
 
 ## Async Issue progress updates
 
-When an engineer is actively working (workflow of ~workflow::"In dev" or further right on current milestone) on an issue they will periodically leave status updates as top-level comments in the issue. The status comment should include the updated health status, any blockers, notes on what was done, if review has started, and anything else the engineer feels is beneficial. If there are multiple people working on it also include whether this is a front end or back end update. An update for each of MR associated with the issue should be included in the update comment. Engineers should also update the [health status](https://docs.gitlab.com/ee/user/project/issues/#health-status) of the issue at this time.
+When an engineer is actively working (workflow of ~workflow::"In dev" or further right on current milestone) on an issue they will periodically leave status updates as top-level comments in the issue. The status comment should include the updated health status, any blockers, notes on what was done, if review has started, and anything else the engineer feels is beneficial. If there are multiple people working on it also include whether this is a front end or back end update. An update for each of MR associated with the issue should be included in the update comment. Engineers should also update the [health status](https://docs.gitlab.com/user/project/issues/#health-status) of the issue at this time.
 
 This update need not adhere to a particular format. Some ideas for formats:
 
@@ -523,7 +523,7 @@ Slack: [`#g_runner`](https://gitlab.slack.com/archives/CBQ76ND6W)
 
 ### Code review
 
-Our code review process follows the [general process](https://docs.gitlab.com/ee/development/code_review/)
+Our code review process follows the [general process](https://docs.gitlab.com/development/code_review/)
 where you choose a reviewer (usually not a maintainer) and then send it over to a maintainer for the final review.
 
 Current maintainers are members of the [`runner-maintainers`](https://gitlab.com/groups/gitlab-com/runner-maintainers/-/group_members?with_inherited_permissions=exclude) group.
