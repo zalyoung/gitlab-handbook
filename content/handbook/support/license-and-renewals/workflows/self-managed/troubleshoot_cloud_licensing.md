@@ -12,11 +12,11 @@ Customer was opted into cloud licensing because of a [bug](https://gitlab.com/gi
 
 1. Determine whether the customer should be on cloud licensing
 1. **If no**, proceed with:
-    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
+    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/administration/operations/rails_console/): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
     1. Once the license has been removed, the customer should have the ability to upload a standard license file on their instance.
 1. **If yes**, proceed with:
     1. [Switching the new subscription to cloud license features](#how-to-switch-a-subscription-to-cloud-license-features)
-    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
+    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/administration/operations/rails_console/): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
     1. Once the license has been removed, the customer should be able to input the new activation code that was generated and emailed to them when you switched the subscription to cloud features.
     1. [See example ticket where customer did want to be on cloud licensing](https://gitlab.zendesk.com/agent/tickets/236163)
 
@@ -31,7 +31,7 @@ Customer was opted into cloud licensing because of a [bug](https://gitlab.com/gi
 
 ## Troubleshooting Network Connectivity
 
-Cloud licensing requires a connection to `customers.gitlab.com` over port 443 (HTTPS), and this connection must remain available throughout the duration of using a cloud license.  The GitLab server will typically check in once per day, as well as once during activation, and any time a [manual sync is performed](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#manually-synchronize-your-subscription-details).  While general networking is typically outside the scope of what we can support, there are a number of things we can easily test for to help users diagnose any potential network or HTTPS issues blocking the connections.
+Cloud licensing requires a connection to `customers.gitlab.com` over port 443 (HTTPS), and this connection must remain available throughout the duration of using a cloud license.  The GitLab server will typically check in once per day, as well as once during activation, and any time a [manual sync is performed](https://docs.gitlab.com/subscriptions/self_managed/#manually-synchronize-your-subscription-details).  While general networking is typically outside the scope of what we can support, there are a number of things we can easily test for to help users diagnose any potential network or HTTPS issues blocking the connections.
 
 ### Check DNS
 
@@ -106,7 +106,7 @@ Implies success.
 
 In most circumstances, if system `curl` is working, then there won't be a need to check further TLS settings.  However, because GitLab does offer several [options for configuring various TLS and SSL certificate settings](https://docs.gitlab.com/omnibus/settings/ssl/), including [custom certificate authorities](https://docs.gitlab.com/omnibus/settings/ssl/#install-custom-public-certificates), it may be necessary to perform some more advanced SSL/TLS troubleshooting.
 
-For example, if the customer server is making use of custom certificate authorities (CA), such as when SSL packet inspection is employed, they will need to add that root CA certificate to `/etc/gitlab/trusted-certs` on the server, then [reconfigure GitLab](https://docs.gitlab.com/ee/administration/restart_gitlab.html#omnibus-gitlab-reconfigure).
+For example, if the customer server is making use of custom certificate authorities (CA), such as when SSL packet inspection is employed, they will need to add that root CA certificate to `/etc/gitlab/trusted-certs` on the server, then [reconfigure GitLab](https://docs.gitlab.com/administration/restart_gitlab/#omnibus-gitlab-reconfigure).
 
 - Refer to our documentation on [how SSL works in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/#details-on-how-gitlab-and-ssl-work) and [troubleshooting SSL in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/ssl_troubleshooting.html) for more in-depth information.  In particular, relying on the packaged version of `openssl` to check and verify SSL connectivity:
 
@@ -134,7 +134,7 @@ See [sec.Okta.com/harfiles](https://sec.okta.com/harfiles) for context.
 
 ### Simulating a cloud license SeatLink attempt from within the Rails application
 
-System tools and binaries such as `ping` and `curl` are helpful, but keep in mind that GitLab is a highly complex application that bundles many of its own tools and binaries.  GitLab the application may handle outbound connections slightly differently than system-supplied binaries will.  The best way to verify this is to check that the connection is possible directly from [rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html).  Login to the server and enter rails console with `sudo gitlab-rails console` and run:
+System tools and binaries such as `ping` and `curl` are helpful, but keep in mind that GitLab is a highly complex application that bundles many of its own tools and binaries.  GitLab the application may handle outbound connections slightly differently than system-supplied binaries will.  The best way to verify this is to check that the connection is possible directly from [rails console](https://docs.gitlab.com/administration/operations/rails_console/).  Login to the server and enter rails console with `sudo gitlab-rails console` and run:
 
 ```ruby
 URI_PATH = '/api/v1/seat_links'

@@ -65,7 +65,7 @@ How can I get involved in Sec Pod?
 - Scanner Report Schemas: https://gitlab.com/gitlab-org/security-products/security-report-schemas/
 - 15.0 Readiness - Secure: https://gitlab.com/groups/gitlab-com/support/-/epics/202
 - Secure & Protect terminology: https://docs.gitlab.com/ee/user/application_security/terminology/
-- Vulnerability Severity Levels: https://docs.gitlab.com/ee/user/application_security/vulnerabilities/severities.html
+- Vulnerability Severity Levels: https://docs.gitlab.com/user/application_security/vulnerabilities/severities/
 - Security Reports Examples: https://gitlab.com/gitlab-examples/security/security-reports/
 
 ### SAST (**S**tatic **A**pplication **S**ecurity **T**esting)
@@ -105,7 +105,7 @@ How can I get involved in Sec Pod?
 - DAST CI/CD template: https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Security/DAST.gitlab-ci.yml
 - DAST API scanning: https://docs.gitlab.com/ee/user/application_security/dast_api/
 - DAST API scanning CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/DAST-API.gitlab-ci.yml
-- DAST API test/demo projects: https://docs.gitlab.com/ee/user/application_security/api_security_testing/index.html#example-dast-api-scanning-configurations
+- DAST API test/demo projects: https://docs.gitlab.com/user/application_security/api_security_testing/#example-dast-api-scanning-configurations
 - DAST test/demo projects: https://gitlab.com/gitlab-org/security-products/demos/dast/
 
 ### IaC (Infrastructure as Code) Scanning
@@ -129,8 +129,8 @@ How can I get involved in Sec Pod?
 - Slack: `#g_protect_container_security`
 - GitLab.com label: ~"devops::protect", ~"Category:Container Scanning", ~"group::container security",
 - Scan policies overview: https://docs.gitlab.com/ee/user/application_security/policies/
-- Scan Results Policies Docs: https://docs.gitlab.com/ee/user/application_security/policies/merge_request_approval_policies.html
-- Scan execution policy docs: https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html
+- Scan Results Policies Docs: https://docs.gitlab.com/user/application_security/policies/merge_request_approval_policies/
+- Scan execution policy docs: https://docs.gitlab.com/user/application_security/policies/scan_execution_policies/
 
 ### Code Quality
 
@@ -138,7 +138,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-secret-detection`
 - GitLab.com label: ~"Category:Code Quality"
-- Docs: https://docs.gitlab.com/ee/ci/testing/code_quality.html
+- Docs: https://docs.gitlab.com/ci/testing/code_quality/
 - CI/CD Template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
 - GitLab Code Quality Analyzer Codebase: https://gitlab.com/gitlab-org/ci-cd/codequality
 
@@ -153,7 +153,7 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - Slack: `#g_secure-composition-analysis`
 - GitLab.com label: ~"group::composition analysis"
-- Docs: https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html
+- Docs: https://docs.gitlab.com/user/compliance/license_approval_policies/
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/License-Scanning.gitlab-ci.yml
 
 ### Fuzz testing

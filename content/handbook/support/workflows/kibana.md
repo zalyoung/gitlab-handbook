@@ -131,7 +131,7 @@ Kibana can be used to determine who triggered the deletion of a group, subgroup,
 1. Add a positive filter on `json.path` for the path of the project, including the group and subgroup, if applicable. This is `gitlab-silver/test-project-to-delete` in this example.
 1. Add a positive filter on `json.method` for `DELETE`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the deletion in the `json.username` field of the result.
-When a project or a group is first going to pending deletion the log entry will have `json.params.key: [_method, authenticity_token, namespace_id, id]`, compare to when a user is [forcing the deletion](https://docs.gitlab.com/ee/user/project/settings/index.html#delete-a-project-immediately) then the log entry looks like `json.params.key: [_method, authenticity_token, permanently_delete, namespace_id, id]` for project or looks like `json.params.key: [_method, authenticity_token, permanently_remove, id]` for group.
+When a project or a group is first going to pending deletion the log entry will have `json.params.key: [_method, authenticity_token, namespace_id, id]`, compare to when a user is [forcing the deletion](https://docs.gitlab.com/user/project/settings/#delete-a-project-immediately) then the log entry looks like `json.params.key: [_method, authenticity_token, permanently_delete, namespace_id, id]` for project or looks like `json.params.key: [_method, authenticity_token, permanently_remove, id]` for group.
 
 To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
@@ -140,7 +140,7 @@ To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
 ### Viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_event_reports.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/administration/audit_event_reports/#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Set a filter for `json.path` `is` and then enter the full path of the associated project in question, followed by `/-/variables`. For example, if I had a project named `tanuki-rules`, I would enter `tanuki-rules/-/variables`.
 1. Set the date in Kibana to the range in which you believe a change was made.
@@ -223,7 +223,7 @@ To investigate SAML login problems:
 In the `pubsub-rails-inf-gprd-*` log:
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
-1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html#searching-rails-log-for-a-saml-response).
+1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#searching-rails-log-for-a-saml-response).
 
 After decoding the SAML response, and observing the results corresponding to your chosen filters, you can see if there are any missing or misconfigured attributes.
 
@@ -325,7 +325,7 @@ Note that depending on the range, this operation may be expensive so it is best 
 
 Most timeout related imports end up with a partial import with very few or zero issues or merge requests. Where there is a relatively smaller difference (10% or less), then there are most likely errors with those specific issues or merge requests.
 
-Anytime there is an error, ensure that the export originated from a [compatible version of GitLab](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history).
+Anytime there is an error, ensure that the export originated from a [compatible version of GitLab](https://docs.gitlab.com/user/project/settings/import_export/#version-history).
 
 Here are some tips for searching for import errors in Kibana:
 
@@ -345,7 +345,7 @@ If no error is found and the import is partial, most likely it is a timeout issu
 
 ### Export Errors
 
-Export errors can occur when a user attempts to export via the UI or [this API endpoint](https://docs.gitlab.com/ee/api/project_import_export.html#schedule-an-export). A parameter in the API allows for exporting to an external URL such as a pre-signed AWS S3 URL. Typically, the export process consists of:
+Export errors can occur when a user attempts to export via the UI or [this API endpoint](https://docs.gitlab.com/api/project_import_export/#schedule-an-export). A parameter in the API allows for exporting to an external URL such as a pre-signed AWS S3 URL. Typically, the export process consists of:
 
 - Returning an initial `202` response to the client confirming the export has started
 - Taking from a few seconds to a few minutes to process the export, depending on the project size
@@ -452,7 +452,7 @@ You can use the links in the lists above and fill in the `json.path` or `json.gl
 
 ### Webhook related events
 
-[Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
+[Webhook events](https://docs.gitlab.com/user/project/integrations/webhooks/) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/user/gitlab_com/#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
 
 Here are some suggestions:
 
