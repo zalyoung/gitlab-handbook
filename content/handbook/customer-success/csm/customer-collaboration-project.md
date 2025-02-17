@@ -28,7 +28,7 @@ The projects are further ordered into Sub-Groups by region:
 
 ### Use cases for the Customer Collaboration Projects
 
-- The encompassing group for the customer collaboration project has space for other special projects (Proof of Value, Value stream assessment, different Subscription at the customer) or an [Group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) - API key for automations.
+- The encompassing group for the customer collaboration project has space for other special projects (Proof of Value, Value stream assessment, different Subscription at the customer) or an [Group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens/) - API key for automations.
 - Agenda Issue for cadence or other meetings with the customer, via [agenda issue template](https://gitlab.com/gitlab-com/account-management/templates/collaboration/-/blob/master/.gitlab/issue_templates/Meeting%20Agenda.md) or on [group Level](https://gitlab.com/gitlab-com/account-management/sub-group-issue-templates/-/tree/master/.gitlab/issue_templates).
 - Conversations about Initiatives with the Customer, including collaborating with other GitLab members by [@ mentioning](https://docs.gitlab.com/ee/user/discussions/#mentions) into this issue.
 - Async Planning of Enablement Sessions [@ mentioning](https://docs.gitlab.com/ee/user/discussions/#mentions) GitLab contributors in the issue.
@@ -45,7 +45,7 @@ The projects are further ordered into Sub-Groups by region:
 - Store Meeting Minutes.
 - Providing the [GitLab Support Team](/handbook/support/) and their Architecture Diagrams app access to the [Infrastructure Diagram](/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project)
 - GitLab exploration. Allowing the customer access to an Ultimate tier namespace can come in handy for exploration of uses they may not have access to in their own instance. Also, it exposes them to our use of issues/epics/boards and may drive some interest in expanding their own use of these features.
-- Issue Boards with [scoped labels](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) as [workflow states](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels-examples).
+- Issue Boards with [scoped labels](https://docs.gitlab.com/ee/user/project/labels/#scoped-labels) as [workflow states](https://docs.gitlab.com/ee/user/project/labels/#scoped-labels-examples).
 - Provide:
   - Training recommendations.
   - Important links & resources.
@@ -93,4 +93,4 @@ The customer's team should be included on the project and begin to work collabor
 
 #### General Actions on a Customer Collaboration Project
 
-1. Set the [notification level on the Customer Collaboration Project](https://docs.gitlab.com/ee/user/profile/notifications.html#change-level-of-project-notifications) to either ["Watching" or "Custom"](https://docs.gitlab.com/ee/user/profile/notifications.html#notification-levels) to get notified, if the customer opens an issue for example.
+1. Set the [notification level on the Customer Collaboration Project](https://docs.gitlab.com/ee/user/profile/notifications/#change-level-of-project-notifications) to either ["Watching" or "Custom"](https://docs.gitlab.com/ee/user/profile/notifications/#notification-levels) to get notified, if the customer opens an issue for example.

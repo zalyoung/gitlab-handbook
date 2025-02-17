@@ -50,7 +50,7 @@ the Package stage (e.g., vulnerability scanning, deployments, etc.).
 - Use a Google Cloud [service account](https://cloud.google.com/iam/docs/service-account-overview) provided by the GitLab project owner/maintainer to interact with GAR.
 - Allow GitLab users to list container images under the connected GAR repository, including sub-repositories. The list should be paginable and sortable.
 - For each listed image, display its URI, list of tags, size, digest, upload time, media type, build time, and update time, as documented [here](https://cloud.google.com/artifact-registry/docs/reference/rest/v1/projects.locations.repositories.dockerImages#DockerImage).
-- Listing container images under the connected GAR repository is restricted to users with [Reporter+](https://docs.gitlab.com/ee/user/permissions.html#roles) roles.
+- Listing container images under the connected GAR repository is restricted to users with [Reporter+](https://docs.gitlab.com/ee/user/permissions/#roles) roles.
 
 ### Non-Goals
 
@@ -70,7 +70,7 @@ While some of these may become goals for future iterations, they are currently o
 
 #### Project Integration
 
-A new [project integration](https://docs.gitlab.com/ee/user/project/integrations/) for GAR will be created. Once enabled, this will display a new "Google Artifact Registry" item in the "Operate" section of the sidebar. This is also where the [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor.html) integration is displayed if enabled.
+A new [project integration](https://docs.gitlab.com/ee/user/project/integrations/) for GAR will be created. Once enabled, this will display a new "Google Artifact Registry" item in the "Operate" section of the sidebar. This is also where the [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor/) integration is displayed if enabled.
 
 The GAR integration can be enabled by project owner/maintainer(s), who must provide four configuration parameters during setup:
 
@@ -87,7 +87,7 @@ The service account key provided during the integration setup must be granted at
 
 Saving the (encrypted) service account key JSON content in the backend allows us to easily grab and use it to initialize the GAR client (more about that later). Providing the content of the key file instead of uploading it is similar to what we do with users' public SSH keys.
 
-As previously highlighted, access to the GAR integration features is restricted to users with [Reporter+](https://docs.gitlab.com/ee/user/permissions.html#roles) roles.
+As previously highlighted, access to the GAR integration features is restricted to users with [Reporter+](https://docs.gitlab.com/ee/user/permissions/#roles) roles.
 
 #### Resource Mapping
 
@@ -177,7 +177,7 @@ GitLab had previously faced significant challenges with the last two limitations
 prompting the development of a custom
 [GitLab container registry API](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/spec/gitlab/api.md)
 to address them. Additionally, GitLab decided to
-[deprecate support](https://docs.gitlab.com/ee/update/deprecations.html#use-of-third-party-container-registries-is-deprecated)
+[deprecate support](https://docs.gitlab.com/ee/update/deprecations/#use-of-third-party-container-registries-is-deprecated)
 for connecting to third-party container registries using the Docker/OCI API due to
 these same limitations and the increased cost of maintaining two solutions in
 parallel. As a result, there is an ongoing effort to replace the use of the

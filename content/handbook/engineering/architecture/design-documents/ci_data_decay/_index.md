@@ -62,7 +62,7 @@ of the primary database, to a different storage, that is more performant and
 cost effective.
 
 It is already possible to prevent processing builds
-[that have been archived](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#archive-jobs#archive-jobs).
+[that have been archived](https://docs.gitlab.com/ee/administration/settings/continuous_integration/#archive-jobs#archive-jobs).
 When a build gets archived it will not be possible to retry it, but we still do
 keep all the processing metadata in the database, and it consumes resources
 that are scarce in the primary database.

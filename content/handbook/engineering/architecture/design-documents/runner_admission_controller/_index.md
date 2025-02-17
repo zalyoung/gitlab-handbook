@@ -159,7 +159,7 @@ Each runner has a tag identifier unique to that runner, e.g. `DiscoveryOne`, `tu
 
 1. The payload is comprised of individual job entries consisting of:
    - Job ID.
-   - [Predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)
+   - [Predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables/)
    - Job tag list.
 1. The response payload is comprised of individual job entries consisting of:
    - Job ID.
@@ -282,5 +282,5 @@ Each runner has a tag identifier unique to that runner, e.g. `DiscoveryOne`, `tu
 | Issue                                                                                                                                                                                                     | Resolution |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | Rule definition for the queue web hook                                                                                                                                                                    |            |
-| What data to send to the admissions controller? Is it a subset or all of the [predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)?                                                       |            |
+| What data to send to the admissions controller? Is it a subset or all of the [predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables/)?                                                       |            |
 | Is the `queueing web hook` able to run at GitLab.com scale? On GitLab.com we would trigger millions of webhooks per second and the concern is that would overload Sidekiq or be used to abuse the system. |            |

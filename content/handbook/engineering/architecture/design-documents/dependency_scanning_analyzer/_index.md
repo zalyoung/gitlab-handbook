@@ -126,7 +126,7 @@ checked into a project's repository. This is likely to happen in cases where
 the dependency graph export does not also function as a lock file like in the
 cases of `pipdeptree` and `pipenv graph` dependency graph exports. In such
 cases, we will expect the build job to generate the dependency graph exports,
-and for the job to store these as [job artifacts](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html).
+and for the job to store these as [job artifacts](https://docs.gitlab.com/ee/ci/jobs/job_artifacts/).
 
 We'll use the following naming conventions to establish a contract with users on
 what file's we'll detect in cases where the dependency graph export does not
@@ -144,7 +144,7 @@ analyzer runs in the `test` stage which runs after the `build` stage.
 ### Analyzer
 
 Once the build jobs complete, and the artifacts are stored, they will be passed
-on to [proceeding jobs](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html#prevent-a-job-from-fetching-artifacts)
+on to [proceeding jobs](https://docs.gitlab.com/ee/ci/jobs/job_artifacts/#prevent-a-job-from-fetching-artifacts)
 unless specifically asked not to do so. The analyzer takes advantage of this and
 expects that users have configured the build jobs to pass on the artifacts using
 the documented naming patterns. It will then search the entire target directory,

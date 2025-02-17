@@ -31,7 +31,7 @@ Resources
 - [GitLab Issue](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/331) with discussion on creation of the deck
 - [Group and Subgroup hierarchy](https://docs.gitlab.com/ee/user/group/subgroups/#overview)
 - [SAML SSO for GitLab Groups](https://docs.gitlab.com/ee/user/group/saml_sso/) (SaaS)
-- [SAML SSO for Self-Managed GitLab Instances](https://docs.gitlab.com/ee/integration/saml.html)
+- [SAML SSO for Self-Managed GitLab Instances](https://docs.gitlab.com/ee/integration/saml/)
 - [Integrate LDAP with GitLab](https://docs.gitlab.com/ee/administration/auth/ldap/#integrate-ldap-with-gitlab) (Self-managed)
-- [Get Started with GitLab Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security.html)
+- [Get Started with GitLab Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security/)
 - [Holistic Approach to Securing the Development Lifecycle](https://www.youtube.com/watch?v=0O7Mpfu9Khg) (webinar recording)

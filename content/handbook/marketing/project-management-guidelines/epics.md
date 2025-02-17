@@ -65,6 +65,6 @@ It's recommended to [set the relative issue weight](/handbook/marketing/project-
 
 ### Set health status for child issues
 
-It can be good practice to highlight issues that need attention or might be at risk before a status review. This information can then be displayed on the roadmap view. For this to work, a [health status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) can be assigned to individual issues.
+It can be good practice to highlight issues that need attention or might be at risk before a status review. This information can then be displayed on the roadmap view. For this to work, a [health status](https://docs.gitlab.com/ee/user/project/issues/managing_issues/#health-status) can be assigned to individual issues.
 
-You can set health status in the UI or with the `/health_status` and `/clear_health_status` [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html).
+You can set health status in the UI or with the `/health_status` and `/clear_health_status` [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions/).

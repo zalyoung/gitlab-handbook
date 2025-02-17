@@ -16,7 +16,7 @@ we can document the reasons for not choosing this approach.
 
 ## Summary
 
-The [Advanced search functionality](https://docs.gitlab.com/ee/user/search/advanced_search.html)
+The [Advanced search functionality](https://docs.gitlab.com/ee/user/search/advanced_search/)
 allows users to search across the entire GitLab instance. Advanced search
 supports Elasticsearch and OpenSearch as the search backend.
 
@@ -24,7 +24,7 @@ supports Elasticsearch and OpenSearch as the search backend.
 [separate design document](global-search.md).
 
 GitLab.com has one Elasticsearch cluster that houses all indexed data to support
-Advanced search. Advanced search includes an [automated indexing pipeline](https://docs.gitlab.com/ee/development/advanced_search.html#deep-dive)
+Advanced search. Advanced search includes an [automated indexing pipeline](https://docs.gitlab.com/ee/development/advanced_search/#deep-dive)
 and [migration framework](https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/)
 for data migrations. Most infrastructure and index maintenance tasks are
 performed manually by the Global Search team through the [change request workflow](../../../../change-management.md/#change-request-workflows).
@@ -73,7 +73,7 @@ To support this, the following is required:
 ### Index maintenance
 
 All index maintenance tasks will be initially be completed using the
-[Advanced search migration framework](https://docs.gitlab.com/ee/development/search/advanced_search_migration_styleguide.html).
+[Advanced search migration framework](https://docs.gitlab.com/ee/development/search/advanced_search_migration_styleguide/).
 Once the migration process is verified, all index maintenance migrations will be
 migrated by Cron workers. There should be a Cron worker per maintenance task:
 

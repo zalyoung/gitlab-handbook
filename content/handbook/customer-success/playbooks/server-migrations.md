@@ -44,7 +44,7 @@ There are a number of different methodologies for migrating GitLab. This section
 **Cons**
 
 - Due to the constant need to be connected to the primary server, it is difficult to de-couple the new server for testing.
-- Some data is not replicated. [See here for a full list of replicated data types](https://docs.gitlab.com/ee/administration/geo/replication/datatypes.html). Non-replicated data would have to be subsequently synced over via Rsync.
+- Some data is not replicated. [See here for a full list of replicated data types](https://docs.gitlab.com/ee/administration/geo/replication/datatypes/). Non-replicated data would have to be subsequently synced over via Rsync.
 - Geo setup is non-trivial.
 - Geo adds additional complexity to the migration (ie, there are more moving parts and therefore more things that can go wrong).
 
@@ -83,7 +83,7 @@ GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/
 
 ### GitLab Project Export & Import
 
-GitLab has [export/import functionality](https://docs.gitlab.com/ee/user/project/settings/import_export.html) that allows the per project transfer of projects from one server to another.
+GitLab has [export/import functionality](https://docs.gitlab.com/ee/user/project/settings/import_export/) that allows the per project transfer of projects from one server to another.
 
 **Pros**
 
@@ -93,7 +93,7 @@ GitLab has [export/import functionality](https://docs.gitlab.com/ee/user/project
 
 - Only way to migrate from self-managed to GitLab SaaS w/o PS help.
 - Very manual and slow. Has to be done on a per-project basis.
-- Target & Destination servers need to be very similar versions. [See compatible versions here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history).
+- Target & Destination servers need to be very similar versions. [See compatible versions here](https://docs.gitlab.com/ee/user/project/settings/import_export/#version-history).
 
 ## Tools & Resources
 

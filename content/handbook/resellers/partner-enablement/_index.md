@@ -114,7 +114,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and [Install Guides](https://docs.gitlab.com/ee/install/) (GitLab Docs)
   - GitLab has a leading market share in self-managed deployments.  Here are our technical specs and docs for solutioning and installing GitLab instances.  
-- [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
+- [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/#supported-modifications-for-lower-user-counts-ha)
   - The 3,000 user GitLab reference architecture is the smallest we recommend that achieves High Availability (HA). However, for environments that need to serve fewer users but maintain HA, there are several supported modifications for this architecture to reduce complexity and cost. Any reference architecture above 3000 users is capable of running as a HA workload. For smaller deployments, we (GitLab) recommend to schedule regular backups which provide a recovery point objective (RPO) that the organization can tolerate.
 - [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
   - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to hyperscaler and On-Prem target environments.
@@ -156,7 +156,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
 
 **Using and Adopting GitLab Effectively**
 
-- [Get Started Administering GitLab](https://docs.gitlab.com/ee/administration/get_started.html)
+- [Get Started Administering GitLab](https://docs.gitlab.com/ee/administration/get_started/)
   - The Platform Team will need to get good at the administrative aspects of using GitLab.  Here is where to start.
 - [Get Started Using GitLab](https://about.gitlab.com/get-started/enterprise/#using-gitlab) (Web Page)
   - Beginning with setting up your Organization, Groups, Projects, etc. this page includes links to the primary things customers need to do to get set up and running successfully with GitLab
@@ -164,7 +164,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
   - Beginning to use GitLab CI effectively is one of the **most important milestones in customer adoption**.
 - [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
   - The golden path of building, securing, and deploying cloud native application code into production automatically is through GitLab Auto DevOps.  Learn how you can use it, and how you can customize it to your customers' needs.
-- [Getting Started with Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security.html)
+- [Getting Started with Application Security](https://docs.gitlab.com/ee/user/application_security/get-started-security/)
   - Shift left and show your customer how to progressively implement an effective application security strategy that makes sense for them
 - [Getting Started with GitLab Main Page](https://about.gitlab.com/get-started/) (Web Page)
   - Review the rest of the assets on the Getting Started with GitLab page.
@@ -206,7 +206,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
   - A fairly unknown tool that can help with understanding the changes in each GitLab version. ([Source code of the website](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/what-is-new-since).) Important features of this website to pay extra attention to:
     - [CVEs by version](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=cves): easily keep track of security vulnerabilities in each GitLab version.
     - [Upgrade path](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/): a handy tool which can list the steps of upgrading self-managed GitLab from version X to version Y.
-- [Deprecations by version](https://docs.gitlab.com/ee/update/deprecations.html)
+- [Deprecations by version](https://docs.gitlab.com/ee/update/deprecations/)
   - same data as [this Deprecations by Version page](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=deprecations) of the Release Overview website, just in a different format.
 - [GitLab Releases Blog](https://about.gitlab.com/releases/categories/releases/)
   - The same information as the Release Overview website, but in nicely formatted blog posts, ready to share with customers.

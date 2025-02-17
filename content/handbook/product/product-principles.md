@@ -63,12 +63,12 @@ Our approach requires four pillars:
 
 - Relentless customer focus and commitment to understanding their workflows, using research and validation
 - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes.
-- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/development_stages_support.html)
+- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/development_stages_support/)
 - Future vision to expand the MVC beyond the initial release
 
-When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle/) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle/#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
+When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle/) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle/#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
-MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/development_stages_support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
+MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/development_stages_support/), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
 
@@ -163,8 +163,8 @@ since they may have important user perspectives around your categories.
 
 We have achieved many successes following this approach:
 
-- [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
-- [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html) by using the [Unleash](https://github.com/Unleash/unleash) client library
+- [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality/) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
+- [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags/) by using the [Unleash](https://github.com/Unleash/unleash) client library
 - [Mobile publishing](https://about.gitlab.com/blog/2019/03/06/ios-publishing-with-gitlab-and-fastlane/) by writing about how to utilize [FastLane](https://fastlane.tools/) with GitLab
 
 There are also many more examples throughout the company where this has been successful.
@@ -285,7 +285,7 @@ This principle is important because unowned product features are unsupervised, a
 
 ### User Experience
 
-A highly usable interface with cohesive workflows and comprehensive documentation is a must to stay ahead of our best-in-class competitors. Work closely with the individuals in [UX](/handbook/product/ux/) to achieve our user experience goals. The UX team has a high level of expertise in Product Design, Technical Writing, and UX Research. They can help decipher or decide how to simplify or avoid complexity. While our Product Designers [review user interface changes in merge requests](https://docs.gitlab.com/ee/development/contributing/design.html), they are not limited to just the UI. Anything that impacts the user journey is relevant to them.
+A highly usable interface with cohesive workflows and comprehensive documentation is a must to stay ahead of our best-in-class competitors. Work closely with the individuals in [UX](/handbook/product/ux/) to achieve our user experience goals. The UX team has a high level of expertise in Product Design, Technical Writing, and UX Research. They can help decipher or decide how to simplify or avoid complexity. While our Product Designers [review user interface changes in merge requests](https://docs.gitlab.com/ee/development/contributing/design/), they are not limited to just the UI. Anything that impacts the user journey is relevant to them.
 
 Keep in mind these general user experience principles.
 
@@ -464,8 +464,8 @@ that would incur _no additional_ effort or cost had we chosen a larger number. T
 effort includes product, design, and engineering effort to create the feature in the first place,
 and to maintain it over time.
 
-For example, GitLab Core has the [issue board feature](https://docs.gitlab.com/ee/user/project/issue_board.html) in every project.
-In GitLab EE, each project supports [multiple boards](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards).
+For example, GitLab Core has the [issue board feature](https://docs.gitlab.com/ee/user/project/issue_board/) in every project.
+In GitLab EE, each project supports [multiple boards](https://docs.gitlab.com/ee/user/project/issue_board/#multiple-issue-boards).
 This _does not_ mean that Core has an artificial limit of one board per project, because there is additional effort
 to manage multiple boards such as supporting the navigation interface, and all the associated engineering work.
 
@@ -530,8 +530,8 @@ As an example, customers requested instance-wide enforcement through required CI
 Small primitives are building blocks in GitLab. They are an abstraction _not_ at
 the technical level, but truly at the product level. Small primitives can be combined,
 built-upon further, and otherwise leveraged to create new functionality in GitLab.
-For example, the label lists in [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html)
-use the smaller primitive of [labels](https://docs.gitlab.com/ee/user/project/labels.html).
+For example, the label lists in [issue boards](https://docs.gitlab.com/ee/user/project/issue_board/)
+use the smaller primitive of [labels](https://docs.gitlab.com/ee/user/project/labels/).
 
 They are especially powerful because they usually take less effort _and_ provide
 higher leverage than you would get from a more "complete" but standalone feature.
@@ -605,7 +605,7 @@ With this in mind, below are some product guidelines to consider:
 
 #### Avoid plugins and commercial marketplaces
 
-_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates.html) and CI components in the [CI/CD Catalog](https://docs.gitlab.com/ee/ci/components/#cicd-catalog). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD components on the other hand, will offer an in product experience for consuming components for YAML configuration from a library of [GitLab maintained components](https://gitlab.com/components).
+_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates/) and CI components in the [CI/CD Catalog](https://docs.gitlab.com/ee/ci/components/#cicd-catalog). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD components on the other hand, will offer an in product experience for consuming components for YAML configuration from a library of [GitLab maintained components](https://gitlab.com/components).
 
 Closed source software vendors commonly depend on plugins and commercial marketplaces because:
 
@@ -633,7 +633,7 @@ Overall, we believe that this approach creates the best possible experience for 
 
 If adding code directly to GitLab isn't an option, we encourage third-parties to integrate through our [APIs](https://docs.gitlab.com/ee/api/).
 
-_Note: GitLab does support [plugins that respond to system hooks](https://docs.gitlab.com/ee/administration/file_hooks.html), which tie directly to application events and are primarily used for administrative purposes such as auditing, logging, and other administrative tasks._
+_Note: GitLab does support [plugins that respond to system hooks](https://docs.gitlab.com/ee/administration/file_hooks/), which tie directly to application events and are primarily used for administrative purposes such as auditing, logging, and other administrative tasks._
 
 ### Product and feature naming guidelines
 
@@ -650,7 +650,7 @@ Exceptions to this principle are considered in limited circumstances - if a prod
 
 #### Use prepositions when referring to third-party products and services in names
 
-When naming a GitLab extension, plugin, app, or integration for a third-party product or service (a "tool"), either include the third-party service name with a preposition like `for`, or don't include it at all. A preposition is important as it indicates that the third party isn't officially affiliated with the tool. For example, our [integration with Jira Cloud](https://docs.gitlab.com/ee/integration/jira/connect-app.html) is called `GitLab.com for Jira Cloud`.
+When naming a GitLab extension, plugin, app, or integration for a third-party product or service (a "tool"), either include the third-party service name with a preposition like `for`, or don't include it at all. A preposition is important as it indicates that the third party isn't officially affiliated with the tool. For example, our [integration with Jira Cloud](https://docs.gitlab.com/ee/integration/jira/connect-app/) is called `GitLab.com for Jira Cloud`.
 
 Provided we use the tool's full name in marketing materials and technical documentation, as exceptions to this general principle we can: (1) refer to the tool solely by the third-party service name in places where we list GitLab's tools in product; and (2) refer to the tool solely as "GitLab" in the third-party product's app directory. For example, we refer to the GitLab for Slack app as "Slack" in our lists of GitLab integrations, and as "GitLab" in the [Slack App Directory](https://gitlab.slack.com/apps/A676ADMV5-gitlab?tab=more_info).
 

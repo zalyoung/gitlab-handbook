@@ -192,7 +192,7 @@ We also did a series of deep dives by pairing with the development teams for eac
 
 Blocks of Ruby code can be "instrumented" to measure performance.
 
-* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data.html) with more detail on [how to implement this](https://docs.gitlab.com/ee/operations/product_analytics/instrumentation/)
+* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data/) with more detail on [how to implement this](https://docs.gitlab.com/ee/operations/product_analytics/instrumentation/)
 * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools
@@ -201,7 +201,7 @@ Blocks of Ruby code can be "instrumented" to measure performance.
 
 Error tracking service.
 
-* [Documentation](https://docs.gitlab.com/ee/operations/error_tracking.html)
+* [Documentation](https://docs.gitlab.com/ee/operations/error_tracking/)
 * [How to investigate a 500 error - Sentry / Kibana Demo](https://youtu.be/o02t3V3vHMs)
 * [Diagnose Errors on GitLab.com - Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry)
 
@@ -222,6 +222,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html#overview)
+* [Documentation](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing/#overview)
 * [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
 * [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

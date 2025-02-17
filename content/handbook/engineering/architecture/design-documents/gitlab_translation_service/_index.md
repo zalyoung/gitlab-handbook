@@ -124,7 +124,7 @@ It should be noted here that the database will never contain any sensitive data.
 
 #### Data saved in Database
 
-- Entire webhook body contents, which contains all sorts of metadata related to the GitLab MR and the repo it resides in. You can see all the data[here](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html#merge-request-events).
+- Entire webhook body contents, which contains all sorts of metadata related to the GitLab MR and the repo it resides in. You can see all the data[here](https://docs.gitlab.com/ee/user/project/integrations/webhook_events/#merge-request-events).
 - When the webhooks were recieved and processed, along with their status regarding their processing,
 - MRs identifiers and their relation to each other (what Translation MRs are tied to which Original MRs)
 

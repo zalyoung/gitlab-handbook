@@ -179,7 +179,7 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
   - When a user becomes a member of a group or project they are also added as an Organization User. They receive an email informing them that they have been added to the Organization.
   - Removing a user from their last group or project should not remove them from the Organization.
   - Users can delete their own accounts. Users should not be able to delete their account when they are the last Owner of an Organization.
-  - [User Profile will be scoped to the Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). In Cells 1.0, this is a result of a user only being part of one Organization.
+  - [User Profile will be scoped to the Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile/). In Cells 1.0, this is a result of a user only being part of one Organization.
 - **Groups**
   - All existing top-level Groups on GitLab.com and self-managed GitLab are part of the default Organization.
   - Groups can be created in an Organization.
@@ -231,7 +231,7 @@ A list of features not supported in Cells 1.0 is available in the [Cells 1.0 blu
 
 ##### Open Questions
 
-- To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/ee/api/api_resources.html#standalone-resources) to scope them to an Organization, Group, or Project.
+- To minimize the number of cluster-wide resources, consider refactoring [Standalone resources](https://docs.gitlab.com/ee/api/api_resources/#standalone-resources) to scope them to an Organization, Group, or Project.
 - Consider refactoring global endpoints (e.g. `/jwt/auth`) to be scoped to an Organization, Group, or Project, unless they are supporting cluster-wide resources.
 
 #### Organizations on Cells 1.5 (FY26Q1-FY26Q2)
@@ -245,8 +245,8 @@ Organizations in the context of Cells 1.5 will contain the following functionali
   - Users are able to navigate between their Organizations using an Organization switcher.
   - Non-Enterprise Users can be removed from or leave an Organization.
   - When users are added to Organizations they receive an email informing them that they have been added to the Organization.
-  - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces.html) they are associated with.
-  - [User Profile can be scoped to multiple Organizations](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). Changing the Organization in the switcher will change the scope of the User Profile to the selected Organization.
+  - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces/) they are associated with.
+  - [User Profile can be scoped to multiple Organizations](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile/). Changing the Organization in the switcher will change the scope of the User Profile to the selected Organization.
 - **Groups**
   - Users can transfer existing top-level Groups into Organizations.
 - **Isolation**
@@ -282,7 +282,7 @@ Organizations will have an Owner role. Compared to Users, they can perform the f
 (1) Members can only see what they have access to.
 (2) Users can only see Users from Groups and Projects they have access to.
 
-[Roles](https://docs.gitlab.com/ee/user/permissions.html) at the Group and Project level remain as they currently are.
+[Roles](https://docs.gitlab.com/ee/user/permissions/) at the Group and Project level remain as they currently are.
 
 #### Relationship between Organization Owner and Instance Admin
 
@@ -302,7 +302,7 @@ See [Organization: Settings](organization-settings.md).
 ### Routing
 
 Today only Users, Projects, Namespaces and container images are considered routable entities which require global uniqueness on `https://gitlab.com/<path>/-/`.
-Initially, Organization routes will be [unscoped](https://docs.gitlab.com/ee/development/routing.html).
+Initially, Organization routes will be [unscoped](https://docs.gitlab.com/ee/development/routing/).
 Organizations will follow the path `https://gitlab.com/-/organizations/org-name/` as one of the design goals is that the addition of Organizations should not change existing Group and Project paths.
 
 ## Impact of the Organization on Other Domains

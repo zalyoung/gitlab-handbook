@@ -13,7 +13,7 @@ Automations for the `gitlab-org` group and projects under it can be split into t
 
 * Automation for repository, packages, container registry within a project: a [project deploy token](https://docs.gitlab.com/ee/user/project/deploy_tokens/) is sufficient.
 * Automation via API within a project: a [project access token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens/) is sufficient.
-* Automation via API within a group: a [group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) is sufficient.
+* Automation via API within a group: a [group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens/) is sufficient.
 
 These guidelines ensure consistency for Engineering automation using approved secure patterns aligned with [least privileged access principle](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
 

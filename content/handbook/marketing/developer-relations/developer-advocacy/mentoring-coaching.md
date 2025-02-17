@@ -96,7 +96,7 @@ Example in FY24: [Aakansha Priya](https://gitlab.com/everyonecancontribute/devre
 
 Organisation:
 
-- Maintain a [templates project for the DevRel group](https://gitlab.com/everyonecancontribute/devrel/gitlab-templates), which [provides issue/MR templates in a single source of truth](https://docs.gitlab.com/ee/user/project/description_templates.html#set-group-level-description-templates).
+- Maintain a [templates project for the DevRel group](https://gitlab.com/everyonecancontribute/devrel/gitlab-templates), which [provides issue/MR templates in a single source of truth](https://docs.gitlab.com/ee/user/project/description_templates/#set-group-level-description-templates).
   - Edit new projects in `Settings > Default description template for issues` with the following text: `<!-- Please choose a description template from the dropdown above to continue. Accept to override this text. -->`
 
 #### Talks and Call for Papers

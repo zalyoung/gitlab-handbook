@@ -337,7 +337,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Pipeline Authoring Group](#pipeline-authoring-group)
 
-- [CI/CD Template Management and Contributions](https://docs.gitlab.com/ee/development/cicd/templates.html)
+- [CI/CD Template Management and Contributions](https://docs.gitlab.com/ee/development/cicd/templates/)
 
 ### Other functionality in Monitor stage
 

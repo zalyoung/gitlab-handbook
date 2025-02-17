@@ -25,7 +25,7 @@ graph TD
 
 ### Backport principles
 
-- Backports are delivered according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) and backport exceptions out of that policy are delivered on a best-effort basis and not guaranteed
+- Backports are delivered according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance/) and backport exceptions out of that policy are delivered on a best-effort basis and not guaranteed
 - Release Managers have the final say on backports that are not covered by the maintenance policy
 - Release Managers will schedule releases containing backports in a way that means customers are not given excessive amounts of upgrades
 
@@ -49,7 +49,7 @@ Backporting can be a very involved process requiring many cycles of back and for
 
 ### How do I know if my backport is covered by the maintenance policy?
 
-You can check the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to see what is covered
+You can check the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance/) to see what is covered
 
 ### What if my backport is not covered by the maintenance policy?
 
@@ -80,23 +80,23 @@ Backporting is when a software fix or update is taken from a recent software ver
 
 This process can be as straightforward as updating several lines of code; it can also involve a major overhaul that is spread across multiple areas of the software requiring tight coordination. In the latter case, applying a backport may be impractical as compared to upgrading to the latest version of the software.
 
-At GitLab, we backport security fixes and bug fixes according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+At GitLab, we backport security fixes and bug fixes according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance/).
 
 ### Is that the same as a Patch Release?
 
-No it's not. Backporting is a catch-all term for any activity that applies updates or patches from a newer version of software to an older version. At GitLab we have a specific [Patch Release process](/handbook/engineering/releases/#patch-releases-overview) that is applied according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html). This is one of the release methods we use to ship self-managed, along with the security release and regular monthly release. There is a separate [exception process](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for backports that are outside the scope of our maintenance policy and these are delivered on a best effort basis and not guaranteed.
+No it's not. Backporting is a catch-all term for any activity that applies updates or patches from a newer version of software to an older version. At GitLab we have a specific [Patch Release process](/handbook/engineering/releases/#patch-releases-overview) that is applied according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance/). This is one of the release methods we use to ship self-managed, along with the security release and regular monthly release. There is a separate [exception process](https://docs.gitlab.com/ee/policy/maintenance/#backporting-to-older-releases) for backports that are outside the scope of our maintenance policy and these are delivered on a best effort basis and not guaranteed.
 
 ### How do I get a backport for my bugfix/security issues?
 
 If your backport is a bug fix and covered by the maintenance policy, please follow the [Patch Release Process](/handbook/engineering/releases/#patch-release-process).
 
-If your backport is a security fix and covered by the maintenance policy, please follow the [Security Release Process](https://docs.gitlab.com/ee/policy/maintenance.html#security-releases).
+If your backport is a security fix and covered by the maintenance policy, please follow the [Security Release Process](https://docs.gitlab.com/ee/policy/maintenance/#security-releases).
 
 For anything outside of the maintenance policy, please follow [the exception process](/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy)
 
 ### What should Product Managers consider when approving a backport?
 
-Backports require multiple engineers to apply a fix through multiple versions and are time intensive. When reviewing a backport requrest, product managers should consult our [backport policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) to ensure that the backport proposal meets the criteria. Product managers should ensure that the severity, priority, customer impact and the potential risks associated with not backporting are properly documented before approval.
+Backports require multiple engineers to apply a fix through multiple versions and are time intensive. When reviewing a backport requrest, product managers should consult our [backport policy](https://docs.gitlab.com/ee/policy/maintenance/#backporting-to-older-releases) to ensure that the backport proposal meets the criteria. Product managers should ensure that the severity, priority, customer impact and the potential risks associated with not backporting are properly documented before approval.
 
 ### Common Backporting Issues and Considerations
 

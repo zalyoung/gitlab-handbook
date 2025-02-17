@@ -34,8 +34,8 @@ abstraction to make it possible to:
 This will allow us to transform GitLab into a generic automation tooling, but
 will also reduce the complexity of existing events-like features:
 
-1. [Webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html)
-1. [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
+1. [Webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhook_events/)
+1. [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports/)
 1. [GitLab CI Events](https://about.gitlab.com/blog/2022/08/03/gitlab-ci-event-workflows/)
 1. [Package Events](https://gitlab.com/groups/gitlab-org/-/epics/9677)
 1. [GraphQL Events](https://gitlab.com/gitlab-org/gitlab/-/blob/dabf4783f5d758f69d947f5ff2391b4b1fb5f18a/app/graphql/graphql_triggers.rb)

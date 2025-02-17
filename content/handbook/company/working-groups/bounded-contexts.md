@@ -17,7 +17,7 @@ description: "Identify backend bounded contexts composing the GitLab Rails monol
 
 Today code is namespaced using Ruby namespaces but we don't have explicit rules or guidelines on how to organize code.
 New namespaces are constantly being created and often there is no need to since new concepts could be nested inside
-existing namespaces to better represent [bounded contexts](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/bounded_contexts.html#1-what-makes-a-bounded-context).
+existing namespaces to better represent [bounded contexts](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/bounded_contexts/#1-what-makes-a-bounded-context).
 Having consistently namespaced code is the pre-requisite for a [modularized codebase](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/).
 
 With this working group we want to:
@@ -37,7 +37,7 @@ that are present today in GitLab Rails monolith.
 
 Members of the working group will:
 
-- Classify the files related to their [bounded context](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/bounded_contexts.html#1-what-makes-a-bounded-context).
+- Classify the files related to their [bounded context](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/bounded_contexts/#1-what-makes-a-bounded-context).
 - Participate to sync meetings, bring questions and communicate progress.
 - Provide feedback on the process and the guidelines to identify bounded contexts.
 - Act as modularization evangelist for their respective stage/domain.
@@ -61,7 +61,7 @@ The working group can be disbanded when:
 | Exit criteria | Resulting artifact |
 | ------------- | ------------------ |
 | We have a published list of identified bounded contexts that acts as a documentation for developers. | [`config/bounded_contexts.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/bounded_contexts.yml) |
-| We have a simple process for creating, deleting and renaming bounded contexts, to allow the codebase evolve over time. | [Docs updated](https://docs.gitlab.com/ee/development/software_design.html#bounded-contexts) |
+| We have a simple process for creating, deleting and renaming bounded contexts, to allow the codebase evolve over time. | [Docs updated](https://docs.gitlab.com/ee/development/software_design/#bounded-contexts) |
 | Bonus: Create a Rubocop Cop to enforce top-level namespaces using the list of identified bounded contexts. | [Rubocop static analyzer added](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/151984) |
 
 ### Details
@@ -73,7 +73,7 @@ on the domain layer (the core) of the [Hexagonal Architecture](https://docs.gitl
 During the process of mapping the codebase we would need to do:
 
 - List all the Ruby files in a spreadsheet and categorize them into components following the
-  [defined guidelines](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/bounded_contexts.html#1-what-makes-a-bounded-context).
+  [defined guidelines](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/bounded_contexts/#1-what-makes-a-bounded-context).
   Files under the same directory can generally be categorized in bulk, so this should not take a lot of time.
 - Inside the `lib` directory, distinguish between generic code that should be extracted as gem and domain code that should be namespaced
   the same as code in app. All code related to the same domain should have the exact same namespace. For example, we should not have

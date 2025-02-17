@@ -22,7 +22,7 @@ This group will create processes and policies that are as lean as possible in or
 
 #### Definitions
 
-- **Feature Flag** - this isn't necessarily the [feature flag feature](https://docs.gitlab.com/ee/operations/feature_flags.html) but rather the way we [use feature flags in the development of GitLab](https://docs.gitlab.com/ee/development/feature_flags/)
+- **Feature Flag** - this isn't necessarily the [feature flag feature](https://docs.gitlab.com/ee/operations/feature_flags/) but rather the way we [use feature flags in the development of GitLab](https://docs.gitlab.com/ee/development/feature_flags/)
 
 ### Exit Criteria
 

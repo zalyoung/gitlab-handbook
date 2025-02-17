@@ -50,20 +50,20 @@ Other optional methods are below:
   1. Navigate to the [Validate License page](https://customers.gitlab.com/admin/license/validate_license).
   1. Paste the license key in the `License File` box and click on `Validate`.
   1. Find the `code_suggestions_seat_count` value that is under the `restrictions` key. A non-zero value means that the customer should have Duo Pro seats available.
-  1. Alternatively, you can request the customer to verify by [checking GitLab Duo Pro page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-self-managed) in their instance.
+  1. Alternatively, you can request the customer to verify by [checking GitLab Duo Pro page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/#for-self-managed) in their instance.
 - For GitLab.com, follow the below steps until [Duo Pro seat count is displayed in Orders page](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9411)
 and [Display if a user has Duo Pro seat assigned in Admin page](https://gitlab.com/gitlab-org/gitlab/-/issues/457675) are implemented:
-  - If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-gitlabcom)
+  - If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/#for-gitlabcom)
 
 ## How to check if a customer has a valid GitLab Duo Pro trial
 
-When a customer follows [these steps to start a GitLab Duo Pro trial](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial), they get a 60 day trial for a maximum of 50 seats by default.
+When a customer follows [these steps to start a GitLab Duo Pro trial](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/#start-gitlab-duo-pro-trial), they get a 60 day trial for a maximum of 50 seats by default.
 
 ### Self-Managed Duo Pro trials
 
 1. Navigate to the [Self-Managed Duo Pro trials page in CustomersDot](https://customers.gitlab.com/admin/trial).
 1. Search using the customer's email domain, company name or subscription.
-1. Alternatively, you can request the customer to verify by [checking GitLab Duo Pro page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-self-managed) in their instance.
+1. Alternatively, you can request the customer to verify by [checking GitLab Duo Pro page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/#for-self-managed) in their instance.
     - **NOTE**: Always check the **start and end date** of the Duo Pro trial
 
 ### GitLab.com Duo Pro trials
@@ -73,12 +73,12 @@ All GitLab.com Duo Pro trials can be located using this query: https://customers
 1. Navigate to the [Orders page is CustomersDot](https://customers.gitlab.com/admin/order).
 1. Search using the customer's [Namespace ID](https://docs.gitlab.com/ee/user/group/#get-the-group-id).
 1. Locate an order that has plan `saas-gitlab-duo-pro-trial-plan-id`.
-1. If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-gitlabcom).
+1. If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/#for-gitlabcom).
    - **NOTE**: Always check the **start and end date** of the Duo Pro.
 
 ### Troubleshooting AI
 
-While we have customer facing [troubleshooting documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/troubleshooting.html), you can also look for more information in Kibana `pubsub-mlops-inf-gprd-*` index. Use one of the following keywords to search:
+While we have customer facing [troubleshooting documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/troubleshooting/), you can also look for more information in Kibana `pubsub-mlops-inf-gprd-*` index. Use one of the following keywords to search:
 
 - `json.jsonPayload.gitlab_host_name`, the value for GitLab.com is `gitlab.com`.
 - `json.jsonPayload.url`, `https://codesuggestions.gitlab.com/` for GitLab Code Suggestion and `https://cloud.gitlab.com/v1/chat/agent` for GitLab Duo chat.

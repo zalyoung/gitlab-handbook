@@ -62,7 +62,7 @@ The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021
 
 - **AWS Account**: See the [instructions](#aws-account-or-gcp-project-sandbox-cloud) for provisioning your own isolated AWS account with the GitLab Sandbox Cloud.
 - **GCP Project**: See the [instructions](#aws-account-or-gcp-project-sandbox-cloud) for provisioning your own isolated GCP project with the GitLab Sandbox Cloud.
-- **AWS Elastic Kubernetes Service (EKS) Cluster:** You can use your AWS account to provision an EKS cluster using the [Adding EKS clusters](https://docs.gitlab.com/ee/user/project/clusters/add_eks_clusters.html) GitLab documentation.
+- **AWS Elastic Kubernetes Service (EKS) Cluster:** You can use your AWS account to provision an EKS cluster using the [Adding EKS clusters](https://docs.gitlab.com/ee/user/project/clusters/add_eks_clusters/) GitLab documentation.
 - **GCP Google Kubernetes Enginge (GKE) Cluster:** Send a message to Jeff Martin with questions about clusters that are in the `group-cs` GCP project. See the tutorial for [configuring GitLab with group-level Kubernetes cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/) to add your cluster to your GitLab group.
 
 ## How to Get Started

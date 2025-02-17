@@ -82,7 +82,7 @@ least expensive ways to implement time-decay patterns at a database level.
 We need to partition CI/CD data because our database tables storing pipelines,
 builds, and artifacts are too large. The `ci_builds` database table size is
 currently around 2.5 TB with an index of around 1.4 GB. This is too much and
-violates our [principle of 100 GB max size](https://docs.gitlab.com/ee/architecture/blueprints/database_scaling/size-limits.html).
+violates our [principle of 100 GB max size](https://docs.gitlab.com/ee/architecture/blueprints/database_scaling/size-limits/).
 We also want to [build alerting](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues/5)
 to notify us when this number is exceeded.
 
@@ -337,11 +337,11 @@ This process can take up to 40 minutes.
 With this strategy, we successfully acquired a lock on `ci_builds` table after 15 retries
 during a low traffic period([after `00:00 UTC`](https://dashboards.gitlab.net/d/web-main/web-overview?orgId=1&viewPanel=537181794&from=now-2d&to=now)).
 
-See an example of this strategy in our [partition tooling](https://docs.gitlab.com/ee/development/database/partitioning/list.html#step-6---create-parent-table-and-attach-existing-table-as-the-initial-partition)).
+See an example of this strategy in our [partition tooling](https://docs.gitlab.com/ee/development/database/partitioning/list/#step-6---create-parent-table-and-attach-existing-table-as-the-initial-partition)).
 
 ### Partitioning steps
 
-The database [partition tooling](https://docs.gitlab.com/ee/development/database/partitioning/list.html)
+The database [partition tooling](https://docs.gitlab.com/ee/development/database/partitioning/list/)
 docs contain a list of steps to partition a table, but the steps are not enough
 for our iterative strategy. As our dataset continues to grow we want to take
 advantage of partitioning performance right away and not wait until all tables

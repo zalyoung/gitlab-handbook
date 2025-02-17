@@ -18,7 +18,7 @@ Congratulations on your new GitLab subscription! Here are some steps to complete
 | [Group](https://docs.gitlab.com/ee/user/group/) | Allows you to manage multiple projects and sub-groups |
 | [Project](https://docs.gitlab.com/ee/user/project/) | A source code management (SCM) repository |
 | [Member](https://docs.gitlab.com/ee/user/project/members/) | User who has access to your groups and projects |
-| [Customer Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) | Place to complete tasks around account management, such as purchasing more seats or CI/CD minutes |
+| [Customer Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal/) | Place to complete tasks around account management, such as purchasing more seats or CI/CD minutes |
 
 ## Sign Into the Customer Portal
 
@@ -29,7 +29,7 @@ You can sign into the [Customer Portal](https://customers.gitlab.com) with your 
 - Subscription Contact: The subscription contact is the primary contact for your billing account.
 - Billing Contact: The billing contact receives all invoices and subscription event notifications.
 
-Sometimes you may want another user to be the primary adminstrative owner of the GitLab subscription (Subscription Contact) or receive invoices (Billing Contact). You can edit the subscription and billing contacts by following [these instructions](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#subscription-and-billing-contacts).
+Sometimes you may want another user to be the primary adminstrative owner of the GitLab subscription (Subscription Contact) or receive invoices (Billing Contact). You can edit the subscription and billing contacts by following [these instructions](https://docs.gitlab.com/ee/subscriptions/customers_portal/#subscription-and-billing-contacts).
 
 ## Link Your Namespace to Your Subscription
 
@@ -90,11 +90,11 @@ Please note that deactivating the user on the identity provider does not deactiv
 Resources for configuration on GitLab.com:
 
 - [SAML SSO for GitLab.com groups](https://docs.gitlab.com/ee/user/group/saml_sso/)
-- [Configure SCIM for GitLab.com groups](https://docs.gitlab.com/ee/user/group/saml_sso/scim_setup.html)
+- [Configure SCIM for GitLab.com groups](https://docs.gitlab.com/ee/user/group/saml_sso/scim_setup/)
 
 ### Permissioning
 
-Familiarize yourself with the Permissions of GitLab listed [here](https://docs.gitlab.com/ee/user/permissions.html). It is recommended to follow the principle of least privilege when providing access to users.
+Familiarize yourself with the Permissions of GitLab listed [here](https://docs.gitlab.com/ee/user/permissions/). It is recommended to follow the principle of least privilege when providing access to users.
 
 If you would like users to automatically have read-only access to not only the top level group, but sub-groups and projects, it is recommended you set the default role to `Guest`. Note that Ultimate customers have an unlimited number of `Guest` users. You can set the default role in Settings > SAML Single Sign On Settings > Configuration.
 
@@ -102,7 +102,7 @@ If you would like to restrict users from having access to any sub-groups or proj
 
 #### Define Custom Roles
 
-There are cases where you may want to customize the role a user can have. You can create a `Custom role` with any permissions listed [here](https://docs.gitlab.com/ee/user/custom_roles.html#available-permissions) expanding on a base role.
+There are cases where you may want to customize the role a user can have. You can create a `Custom role` with any permissions listed [here](https://docs.gitlab.com/ee/user/custom_roles/#available-permissions) expanding on a base role.
 
 Please note you must be the Owner of the group to define a custom role. You can assign the custom role via UI or API to an existing user.
 
@@ -114,5 +114,5 @@ You can monitor the status of GitLab.com at [status.gitlab.com](https://status.g
 
 - [Professional Services Catalog](https://about.gitlab.com/services/catalog/)
 - [Get Started for Enterprise](https://about.gitlab.com/get-started/enterprise/)
-- [Customer Portal Documentation](https://docs.gitlab.com/ee/subscriptions/customers_portal.html)
+- [Customer Portal Documentation](https://docs.gitlab.com/ee/subscriptions/customers_portal/)
 - [GitLab Adminstration on SaaS Webinar](https://www.youtube.com/watch?v=SWMD27dlnEc)

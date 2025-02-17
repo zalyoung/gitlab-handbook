@@ -152,7 +152,7 @@ A few applications have code logic with their Okta authentication integration th
 
 For ~20% of applications that require "resource" or "role" provisioning, we have to use no-code or our own scripts to achieve this. There are no features in Okta or other Identity solutions that offer these features. This requires using the vendor's REST API with our own scripts to call endpoints respectively. Any integrations that you see advertised are usually Professional Services custom integrations that their engineers wrote scripts for.
 
-You can see the GitLab product [Members API](https://docs.gitlab.com/ee/api/members.html) endpoint as an example. We can force users to sign in with Okta, however Okta cannot automate which groups and projects the user has access to or the role/permission level for each of those groups or projects.
+You can see the GitLab product [Members API](https://docs.gitlab.com/ee/api/members/) endpoint as an example. We can force users to sign in with Okta, however Okta cannot automate which groups and projects the user has access to or the role/permission level for each of those groups or projects.
 
 #### No Code Automation
 

@@ -90,7 +90,7 @@ Typically - you would replace the **"sm_"** with the team initials.
 
 ### An Issue Template Starts the process
 
-Using an [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html) helps to consistently define the process and make it easy to get started.
+Using an [issue template](https://docs.gitlab.com/ee/user/project/description_templates/) helps to consistently define the process and make it easy to get started.
 
 - Issue Templates can also be **directly linked to via a URL** which makes it easy for a person requesting help to quickly open an issue template.
 
@@ -99,7 +99,7 @@ For example this URL will open a [Product and Solution Marketing Request](https:
 - `https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request`
 The key is the end of the URL `new?issuable_template=A-SM-Support-Request` which tells GitLab to open a specific template!
 
-The issue template, both describes the information that is needed to understand and prioritize the work, but also includes [Quick Actions](https://docs.gitlab.com/ee/user/project/quick_actions.html) to assign specific labels.   At the bottom of the strategic marketing template there are the following quick actions to add labels:
+The issue template, both describes the information that is needed to understand and prioritize the work, but also includes [Quick Actions](https://docs.gitlab.com/ee/user/project/quick_actions/) to assign specific labels.   At the bottom of the strategic marketing template there are the following quick actions to add labels:
 
 `/label ~"sm_request" ~"Product and Solution Marketing" ~"sm_req::new_request" ~"mktg-status::plan"`
 

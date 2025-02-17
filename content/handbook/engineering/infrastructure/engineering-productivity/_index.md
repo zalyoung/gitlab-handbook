@@ -32,11 +32,11 @@ Integral parts of this vision:
   - Improve existing performance indicators.
 - **Do it for any contributor**: Increase contributor productivity by making measurement-driven improvements to the development tools / workflow / processes, then monitor the results, and iterate.
   - Identify and implement quantifiable improvement opportunities with proposals and hypothesis for metric improvements.
-  - Automated [merge request quality checks](https://docs.gitlab.com/ee/development/dangerbot.html) and [code quality checks](https://docs.gitlab.com/ee/development/contributing/style_guides.html).
+  - Automated [merge request quality checks](https://docs.gitlab.com/ee/development/dangerbot/) and [code quality checks](https://docs.gitlab.com/ee/development/contributing/style_guides/).
   - [GitLab project pipeline](https://docs.gitlab.com/ee/development/pipelines/) improvements to improve efficiency, quality or duration.
 - **Dogfood use**: Dogfood GitLab product features to improve developer workflow and provide feedback to product teams.
   - Use new features from related product groups (Analytics, Monitor, Testing).
-  - Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) for GitLab development and testing.
+  - Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps/) for GitLab development and testing.
 - **Engineering support**:
   - [`#master-broken`](/handbook/engineering/workflow/#broken-master) pipeline monitoring.
   - KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate).

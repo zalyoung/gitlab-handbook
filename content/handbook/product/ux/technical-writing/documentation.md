@@ -63,7 +63,7 @@ For more information, see the [Documentation section of our Development document
 ## Resources about GitLab documentation
 
 - The [Documentation Guidelines](https://docs.gitlab.com/ee/development/documentation/):
-  - [Workflow](https://docs.gitlab.com/ee/development/documentation/workflow.html)
+  - [Workflow](https://docs.gitlab.com/ee/development/documentation/workflow/)
   - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/topic_types/)
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
   - [Site architecture](https://docs.gitlab.com/ee/development/documentation/site_architecture/)

@@ -43,7 +43,7 @@ For that, Security Engineers need to follow these steps:
 1. On the [Omnibus GitLab Mirror](https://gitlab.com/gitlab-org/build/omnibus-gitlab-mirror/) pipeline, wait for the `Trigger:gitlab-docker` build to finish.
 1. In the meantime,
     - Ensure you're logged in to `registry.gitlab.com`. You can login with your pre-configured Docker credentials,
-      or with a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) or a [Deploy Token](https://docs.gitlab.com/ee/user/project/deploy_tokens/) using the command `docker login registry.gitlab.com` (or `nerdctl login registry.gitlab.com -u <username>` depending on what you're using).
+      or with a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens/) or a [Deploy Token](https://docs.gitlab.com/ee/user/project/deploy_tokens/) using the command `docker login registry.gitlab.com` (or `nerdctl login registry.gitlab.com -u <username>` depending on what you're using).
     - Complete the [Set up volumes location](https://docs.gitlab.com/ee/install/docker/#set-up-the-volumes-location) on the Omnibus
 1. Once `Trigger:gitlab-docker` has been completed, scroll down to the end of the log
 and find the docker image that was pushed to `registry.gitlab.com`.

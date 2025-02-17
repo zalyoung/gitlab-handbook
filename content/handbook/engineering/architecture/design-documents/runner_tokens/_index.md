@@ -26,7 +26,7 @@ become apparent as the target audience grew:
 
 | Problem                                     | Symptoms                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Single token per scope                      | - The registration token is shared by multiple runners: <br/>- Single tokens lower the value of auditing and make traceability almost impossible; <br/>- Copied in many places for [self-registration of runners](https://docs.gitlab.com/runner/install/kubernetes.html#required-configuration); <br/>- Reports of users storing tokens in unsecured locations; <br/>- Makes rotation of tokens costly. <br/>- In the case of a security event affecting the whole instance, rotating tokens requires users to update a table of projects/namespaces, which takes a significant amount of time. |
+| Single token per scope                      | - The registration token is shared by multiple runners: <br/>- Single tokens lower the value of auditing and make traceability almost impossible; <br/>- Copied in many places for [self-registration of runners](https://docs.gitlab.com/runner/install/kubernetes/#required-configuration); <br/>- Reports of users storing tokens in unsecured locations; <br/>- Makes rotation of tokens costly. <br/>- In the case of a security event affecting the whole instance, rotating tokens requires users to update a table of projects/namespaces, which takes a significant amount of time. |
 | No provision for automatic expiration       | Requires manual intervention to change token. Addressed in [#30942](https://gitlab.com/gitlab-org/gitlab/-/issues/30942).                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | No permissions model                        | Used to register a runner for protected branches, and for any tags. In this case, the registration token has permission to do everything. Effectively, someone taking a possession of registration token could steal secrets or source code.                                                                                                                                                                                                                                                                                                                                                       |
 | No traceability                             | Given that the token is not created by a user, and is accessible to all administrators, there is no possibility to know the source of a leaked token.                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -319,7 +319,7 @@ The respective `CiRunner` fields must return the values for the `ci_runner_machi
 #### Stale runner cleanup
 
 The functionality to
-[clean up stale runners](https://docs.gitlab.com/ee/ci/runners/runners_scope.html#clean-up-stale-group-runners) needs
+[clean up stale runners](https://docs.gitlab.com/ee/ci/runners/runners_scope/#clean-up-stale-group-runners) needs
 to be adapted to clean up `ci_runner_machines` records instead of `ci_runners` records.
 
 At some point after the removal of the registration token support, we'll want to create a background
@@ -329,9 +329,9 @@ enum column created in the `ci_runners` table.
 ### Runner creation through API
 
 Automated runner creation is possible through a new GraphQL mutation and the existing
-[`POST /user/runners` REST API endpoint](https://docs.gitlab.com/ee/api/users.html#create-a-runner-linked-to-a-user).
+[`POST /user/runners` REST API endpoint](https://docs.gitlab.com/ee/api/users/#create-a-runner-linked-to-a-user).
 These endpoints are only available to users that are
-[allowed](https://docs.gitlab.com/ee/user/permissions.html#gitlab-cicd-permissions) to create runners at the specified
+[allowed](https://docs.gitlab.com/ee/user/permissions/#gitlab-cicd-permissions) to create runners at the specified
 scope.
 
 ## Implementation plan
@@ -376,10 +376,10 @@ scope.
 | GitLab Rails app | `%15.8` | Create database migration to add `config` column to `ci_runner_machines` table. |
 | GitLab Runner    | `%15.9` | Start sending `system_id` value in `POST /jobs/request` request and other follow-up requests that require identifying the unique system. |
 | GitLab Rails app | `%15.9` | Create service similar to `StaleGroupRunnersPruneCronWorker` service to clean up `ci_runner_machines` records instead of `ci_runners` records.<br/>Existing service continues to exist but focuses only on legacy runners. |
-| GitLab Rails app | `%15.9` | Implement the `create_runner_machine` [feature flag](https://docs.gitlab.com/ee/administration/feature_flags.html). |
+| GitLab Rails app | `%15.9` | Implement the `create_runner_machine` [feature flag](https://docs.gitlab.com/ee/administration/feature_flags/). |
 | GitLab Rails app | `%15.9` | Create `ci_runner_machines` record in `POST /runners/verify` request if the runner token is prefixed with `glrt-`. |
 | GitLab Rails app | `%15.9` | Use runner token + `system_id` JSON parameters in `POST /jobs/request` request in the [heartbeat request](https://gitlab.com/gitlab-org/gitlab/blob/c73c96a8ffd515295842d72a3635a8ae873d688c/lib/api/ci/helpers/runner.rb#L14-20) to update the `ci_runner_machines` cache/table. |
-| GitLab Rails app | `%15.9` | Implement the `create_runner_workflow_for_admin` [feature flag](https://docs.gitlab.com/ee/administration/feature_flags.html). |
+| GitLab Rails app | `%15.9` | Implement the `create_runner_workflow_for_admin` [feature flag](https://docs.gitlab.com/ee/administration/feature_flags/). |
 | GitLab Rails app | `%15.9` | Implement `create_{instance|group|project}_runner` permissions. |
 | GitLab Rails app | `%15.9` | Rename `ci_runner_machines.machine_xid` column to `system_xid` to be consistent with `system_id` passed in APIs. |
 | GitLab Rails app | `%15.10` | Remove the ignore rule for `ci_runner_machines.machine_xid` column. |
@@ -419,7 +419,7 @@ scope.
 | Component        | Milestone | Changes                                                                                                                                                                                                                                                                                                                            |
 |------------------|----------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GitLab Rails app | `%16.0`   | Adapt `register_{group|project}_runner` permissions to take [application setting](https://gitlab.com/gitlab-org/gitlab/-/issues/386712) in consideration. |
-| GitLab Rails app | `%16.1`   | Make the [`POST /api/v4/runners`](https://docs.gitlab.com/ee/api/runners.html#create-a-runner) endpoint return `HTTP 410 Gone` permanently if either `allow_runner_registration_token` setting disables registration tokens. The Runners API v5 should return `HTTP 404 Not Found`. |
+| GitLab Rails app | `%16.1`   | Make the [`POST /api/v4/runners`](https://docs.gitlab.com/ee/api/runners/#create-a-runner) endpoint return `HTTP 410 Gone` permanently if either `allow_runner_registration_token` setting disables registration tokens. The Runners API v5 should return `HTTP 404 Not Found`. |
 | GitLab Rails app | `%16.1`   | Add runner group metadata to the runner list. |
 | GitLab Rails app | `%16.11`  | Add UI to allow disabling use of registration tokens in top-level group settings.                                                                                                                                                                                                                                                               |
 | GitLab Rails app | `%16.11`  | Add UI to allow disabling use of registration tokens in admin panel. |
@@ -434,7 +434,7 @@ scope.
 | GitLab Rails app |   `%17.0` | Disable registration tokens for all groups by running database migration (only on GitLab.com) |
 | GitLab Rails app |   `%17.0` | Disable registration tokens on the instance level by running database migration (except GitLab.com) |
 | GitLab Rails app |   `%16.3` | Implement new `:create_runner` PPGAT scope so that we don't require a full `api` scope. |
-| GitLab Rails app |           | Document gotchas when [automatically rotating runner tokens](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#automatically-rotate-runner-authentication-tokens) with multiple machines. |
+| GitLab Rails app |           | Document gotchas when [automatically rotating runner tokens](https://docs.gitlab.com/ee/ci/runners/configure_runners/#automatically-rotate-runner-authentication-tokens) with multiple machines. |
 
 ### Stage 7 - Removals
 
@@ -449,7 +449,7 @@ scope.
 
 ## FAQ
 
-Follow [the user documentation](https://docs.gitlab.com/ee/ci/runners/new_creation_workflow.html).
+Follow [the user documentation](https://docs.gitlab.com/ee/ci/runners/new_creation_workflow/).
 
 ## Status
 

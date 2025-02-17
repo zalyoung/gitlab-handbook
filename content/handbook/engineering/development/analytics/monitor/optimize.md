@@ -57,7 +57,7 @@ These targets will be [reviewed monthly](/handbook/product/product-processes/) a
 
 ##### Data flow for Contribution analytics
 
-**Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
+**Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard/)**
 
 ```mermaid
 flowchart TB
@@ -89,7 +89,7 @@ flowchart TB
 
 ##### Data flow for AI Impact Analytics
 
-**Data flow for [Group/Project AI Impact Analytics](https://docs.gitlab.com/ee/user/analytics/ai_impact_analytics.html)**
+**Data flow for [Group/Project AI Impact Analytics](https://docs.gitlab.com/ee/user/analytics/ai_impact_analytics/)**
 
 ```mermaid
 flowchart TB
@@ -375,7 +375,7 @@ During planning we don't plan 100% of the team's capacity to go into deliverable
 
 #### Documentation
 
-Documentation is a crucial part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done). For any change that requires technical writing, we will add the documentation label. The documentation label should be used in addition to backend/frontend labels. If a feature justifies separate backend and frontend issues, the documentation label should be applied to each issue if applicable. An issue may only get resolved if all the work has been merged, i.e., the technical part and the documentation change.
+Documentation is a crucial part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done). For any change that requires technical writing, we will add the documentation label. The documentation label should be used in addition to backend/frontend labels. If a feature justifies separate backend and frontend issues, the documentation label should be applied to each issue if applicable. An issue may only get resolved if all the work has been merged, i.e., the technical part and the documentation change.
 
 #### Data seeding scripts
 

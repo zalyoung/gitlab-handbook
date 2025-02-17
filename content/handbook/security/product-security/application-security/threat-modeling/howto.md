@@ -42,7 +42,7 @@ Most threat modeling frameworks rely on some diagrams to be drawn and there's a 
 
 ### Drawing diagrams
 
-For diagrams there are almost endless possibilities, for easy and integrated usage within GitLab it'd be recommended to use one of our [supported diagram tools](https://docs.gitlab.com/ee/user/markdown.html#diagrams-and-flowcharts). But really to keep it flexible and accurate you can use whatever diagramming tool you're comfortable with. It should just deliver an accurate diagram of the feature. For instance this mermaid diagram of our [Kubernetes Agent](https://docs.gitlab.com/ee/user/clusters/agent/) is completely sufficient as a start. It shows all involved components in their interaction at a level which is still understandable and meaningful.
+For diagrams there are almost endless possibilities, for easy and integrated usage within GitLab it'd be recommended to use one of our [supported diagram tools](https://docs.gitlab.com/ee/user/markdown/#diagrams-and-flowcharts). But really to keep it flexible and accurate you can use whatever diagramming tool you're comfortable with. It should just deliver an accurate diagram of the feature. For instance this mermaid diagram of our [Kubernetes Agent](https://docs.gitlab.com/ee/user/clusters/agent/) is completely sufficient as a start. It shows all involved components in their interaction at a level which is still understandable and meaningful.
 
 ```mermaid
 graph TB

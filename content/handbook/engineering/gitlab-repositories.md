@@ -26,12 +26,12 @@ When creating a new project, please follow these steps:
     * Use teams rather than individuals as owners, to make it self updating over time and resilient to people taking time off
     * You can scope ownership to subdirectories or individual files, but it should contain at the very least a top-level catch all for any new or non explicitly mentionned file.
 1. When possible, projects should have the following [Merge request settings enabled](https://docs.gitlab.com/ee/user/project/settings/#delete-the-source-branch-on-merge-by-default):
-    * [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html).
+    * [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains/).
     * [Delete source branch after merge](https://docs.gitlab.com/ee/user/project/settings/).
-    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html).
+    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge/).
     * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
-1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings.html):
-    * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings.html#auto-cancel-pending-pipelines).
+1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings/):
+    * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings/#auto-cancel-pending-pipelines).
 1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements/)
 1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
@@ -88,7 +88,7 @@ sast:
     - gitlab-org-docker
 ```
 
-If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html#machine-types-available-for-windows).
+If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows/#machine-types-available-for-windows).
 
 ### Publishing a Project
 

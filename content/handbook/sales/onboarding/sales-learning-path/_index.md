@@ -348,12 +348,12 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 - **Jira**
   - GitLab Issues are a powerful tool for discussing ideas and planning and tracking work. However, many organizations have been using Jira for these purposes and have extensive data and business processes built into it. While you can always migrate content and process from Jira to GitLab Issues, you can also opt to continue using Jira and use it together with GitLab through our [integration.](https://docs.gitlab.com/ee/integration/jira/) For a video demonstration of integration with Jira, watch [GitLab workflow with Jira issues](https://youtu.be/fWvwkx5_00E)
 - **Jenkins**
-  - GitLab's [Jenkins integration](https://docs.gitlab.com/ee/integration/jenkins.html) allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge request widgets and on the project's home page. Videos are also available on [GitLab workflow with Jira issues and Jenkins pipelines](https://youtu.be/Jn-_fyra7xQ) and [Migrating from Jenkins to GitLab.](https://youtu.be/RlEVGOpYF5Y)
+  - GitLab's [Jenkins integration](https://docs.gitlab.com/ee/integration/jenkins/) allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge request widgets and on the project's home page. Videos are also available on [GitLab workflow with Jira issues and Jenkins pipelines](https://youtu.be/Jn-_fyra7xQ) and [Migrating from Jenkins to GitLab.](https://youtu.be/RlEVGOpYF5Y)
 - **Github**
-  - GitLab provides an integration for updating the pipeline statuses on GitHub. This is especially useful if using GitLab for CI/CD only. This project integration is separate from the [instance wide GitHub integration](https://docs.gitlab.com/ee/user/project/import/github.html#mirroring-and-pipeline-status-sharing) and is automatically configured on [GitHub import.](https://docs.gitlab.com/ee/integration/github.html)
+  - GitLab provides an integration for updating the pipeline statuses on GitHub. This is especially useful if using GitLab for CI/CD only. This project integration is separate from the [instance wide GitHub integration](https://docs.gitlab.com/ee/user/project/import/github/#mirroring-and-pipeline-status-sharing) and is automatically configured on [GitHub import.](https://docs.gitlab.com/ee/integration/github/)
 - **GitLab as OAuth 2 Authentication Service Provider (Material - GitLab Docs - 60 minutes)**
    -OAuth provides to client applications a 'secure delegated access' to server resources on behalf of a resource owner. In fact, OAuth allows an authorization server to issue access tokens to third-party clients with the approval of the resource owner, or the end-user.
-   -Review this page to learn how to use [GitLab as an OAuth authentication service provider](https://docs.gitlab.com/ee/integration/oauth_provider.html)
+   -Review this page to learn how to use [GitLab as an OAuth authentication service provider](https://docs.gitlab.com/ee/integration/oauth_provider/)
 
 </details>
 
@@ -372,12 +372,12 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
   - Create a project in a familiar framework and language. Add the following capabilities to the project:
     - Containerize the application and push to the container registry
     - Enable GitLab Kubernetes integration and [connect to the demo cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)
-    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html)
+    - Add unit tests to the project and include [unit test reports](https://docs.gitlab.com/ee/ci/testing/unit_test_reports/)
     - Add [static analysis](https://docs.gitlab.com/ee/user/application_security/sast/) to identify vulnerabilities in the codebase
     - Add [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) to identify vulnerabilities in the projects dependencies
-    - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) and review gating mechanisms
-    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/repository/branches/protected.html)
-    - Create an [issue board with a workflow](https://docs.gitlab.com/ee/user/project/issue_board.html)
+    - Add [multiple approvals rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/) and review gating mechanisms
+    - Enable [protected branches](https://docs.gitlab.com/ee/user/project/repository/branches/protected/)
+    - Create an [issue board with a workflow](https://docs.gitlab.com/ee/user/project/issue_board/)
 - **ACTIVITY: Deliver Your Demo (Assignment - 60 minutes - 10 points)**
    -Deliver a short demo of your choice in the SA Bootcamp Demo Scenarios below. Access to Jenkins and Jira and the associated GitLab.com project are available in the [SA Vault within 1Password](https://docs.google.com/document/d/1tIaZUU5YYyQtvQwZ2EOpeCoIK2TGDHbVfJv7jbAI0kk/edit)
    -Be sure to invite your manager and onboarding buddy.

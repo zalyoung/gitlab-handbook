@@ -21,7 +21,7 @@ The purpose of this lab is to walk you through using Prometheus Service, and how
 
 1. To view the available metrics in Prometheus, navigate to `http://localhost:9090/metrics`.
 
-    > To see a more detailed list of each metric, check out the [documentation](https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics.html).
+    > To see a more detailed list of each metric, check out the [documentation](https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics/).
 
 ### Task B. Viewing Prometheus Metrics
 

@@ -105,7 +105,7 @@ The team has been actively working on enabling Elasticsearch powered Advanced Se
 The two types of operations we detail severity metrics for above are:
 
 - Recall Record, Global: This is the time it takes to recall a record using a globally scoped search of GitLab.com. Records could be entities such as projects, users, groups, etc.
-- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/advanced_search.html#how-does-it-work), and the Elasticsearch database.
+- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/advanced_search/#how-does-it-work), and the Elasticsearch database.
 
 ### Weighting for Search Issues
 
@@ -172,8 +172,8 @@ We are exploring [Rally](https://esrally.readthedocs.io/en/stable/) for performa
 
 ### Documentations
 
-- [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
-- [GitLab Advanced Search Development Guidelines](https://docs.gitlab.com/ee/development/advanced_search.html)
+- [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch/)
+- [GitLab Advanced Search Development Guidelines](https://docs.gitlab.com/ee/development/advanced_search/)
 - [GDK Elasticsearch Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/elasticsearch.md)
 - [GDK Zoekt Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/zoekt.md)
 

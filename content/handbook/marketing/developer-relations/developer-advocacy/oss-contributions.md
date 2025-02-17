@@ -20,7 +20,7 @@ We organize our projects in the [Developer Advocacy group](https://gitlab.com/gi
 
 #### GitLab
 
-* [GitLab CI/CD Pipeline Efficiency documentation](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) sourcing from the CI Monitoring webcast
+* [GitLab CI/CD Pipeline Efficiency documentation](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency/) sourcing from the CI Monitoring webcast
 * [CI/CD Templates: Support the default branch, shift to main](https://gitlab.com/gitlab-org/gitlab/-/issues/324131)
 
 #### Prometheus

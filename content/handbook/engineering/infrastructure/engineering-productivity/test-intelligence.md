@@ -34,7 +34,7 @@ Note that the current design only works with low-impacting merge requests which 
 
 See <https://docs.gitlab.com/ee/development/pipelines/index.html#fail-fast-job-in-merge-request-pipelines> for more information.
 
-Premium GitLab customers, who wish to incorporate the `Fail-Fast job` into their Ruby projects, can set it up with our [Verify/Failfast](https://docs.gitlab.com/ee/ci/testing/fail_fast_testing.html) template.
+Premium GitLab customers, who wish to incorporate the `Fail-Fast job` into their Ruby projects, can set it up with our [Verify/Failfast](https://docs.gitlab.com/ee/ci/testing/fail_fast_testing/) template.
 
 ## Re-run previously failed tests early
 
@@ -46,7 +46,7 @@ See <https://docs.gitlab.com/ee/development/pipelines/index.html#re-run-previous
 ## Selective jobs via pipeline rules
 
 The GitLab pipeline consists of hundreds of jobs, but not all are necessary for each merge request. For example, a merge request with only changes to documentation files do not need to run any backend tests, so we can exclude all backend test jobs from the pipeline.
-See [specify-when-jobs-run-with-rules](https://docs.gitlab.com/ee/ci/jobs/job_control.html#specify-when-jobs-run-with-rules) for how to include/exclude CI jobs based on file changes.
+See [specify-when-jobs-run-with-rules](https://docs.gitlab.com/ee/ci/jobs/job_control/#specify-when-jobs-run-with-rules) for how to include/exclude CI jobs based on file changes.
 Most of the pipeline rules for the [GitLab project](https://gitlab.com/gitlab-org/gitlab) can be found in <https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/rules.gitlab-ci.yml>.
 
 ## Selective jobs via labels

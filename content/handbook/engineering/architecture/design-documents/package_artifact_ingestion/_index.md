@@ -71,7 +71,7 @@ The aforementioned list of pURLs is then submitted to this API Service. Provided
 
 ### Package-processor
 
-The package processor takes the parsed package information, calls out to the package managers API to get a list of versions. It then calls into GitLab's [tags API](https://docs.gitlab.com/ee/api/tags.html) to get a list of tags for the package:  `gitlab.com/gitlab-oss-package-research/source/<pkgmgr>/<pkg>/`. If a version does not exist, or the package does not exist, it then proceeds to pull down each package listed in the package man agers API output. The packages that are downloaded are usually compressed archive files (zip/tar).
+The package processor takes the parsed package information, calls out to the package managers API to get a list of versions. It then calls into GitLab's [tags API](https://docs.gitlab.com/ee/api/tags/) to get a list of tags for the package:  `gitlab.com/gitlab-oss-package-research/source/<pkgmgr>/<pkg>/`. If a version does not exist, or the package does not exist, it then proceeds to pull down each package listed in the package man agers API output. The packages that are downloaded are usually compressed archive files (zip/tar).
 
 If the package already exists on gitlab.com then the git repository is pulled down into the container. The downloaded archive files are iterated over and extracted into this git repository. Each version will be committed and then tagged the particular version. For example if we pull down version v1.0.0 and v1.1.1, we will:
 

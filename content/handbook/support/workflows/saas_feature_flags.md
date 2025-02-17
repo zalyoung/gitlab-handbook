@@ -6,9 +6,9 @@ description: "Workflow to follow when customers request for feature flags to be 
 
 ## Overview
 
-This workflow covers cases where a customer requests support to enable [feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls.html) on their GitLab.com groups, projects, or users.
+This workflow covers cases where a customer requests support to enable [feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls/) on their GitLab.com groups, projects, or users.
 
-Enabling feature flags can be done via ChatOps. Before you can use ChatOps, you will need to [request access](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access).
+Enabling feature flags can be done via ChatOps. Before you can use ChatOps, you will need to [request access](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom/#requesting-access).
 
 ## Process
 
@@ -24,7 +24,7 @@ Once the request has been received via a support ticket:
 
 ## ChatOps
 
-To enable a feature flag using ChatOps, follow [the process](https://docs.gitlab.com/ee/development/feature_flags/controls.html#process) described in the Feature Flags documentation.
+To enable a feature flag using ChatOps, follow [the process](https://docs.gitlab.com/ee/development/feature_flags/controls/#process) described in the Feature Flags documentation.
 
 Typically you will want to set the Feature Flag by actor and run one of the following in the #production Slack channel. Be sure to replace the placeholders.
 

@@ -67,7 +67,7 @@ for Cells, will not be discussed here.
 
 ### Key terms
 
-- ChatOps - [ChatOps commands](https://docs.gitlab.com/ee/development/feature_flags/controls.html)
+- ChatOps - [ChatOps commands](https://docs.gitlab.com/ee/development/feature_flags/controls/)
   are used to control feature flags on environments.
 - Tissue - The [Tissue](https://ops.gitlab.net/gitlab-com/gl-infra/cells/tissue/) project
   is used for [coordinating changes in Cells](managing_changes.md).
@@ -222,7 +222,7 @@ Immediate rollout should only be used by SREs for mitigating incidents.
 
 ### Setting feature flags in each cell
 
-Feature flags can be set on a GitLab instance through the [feature flag API](https://docs.gitlab.com/ee/api/features.html),
+Feature flags can be set on a GitLab instance through the [feature flag API](https://docs.gitlab.com/ee/api/features/),
 or through the Rails console.
 
 | API                                                                                            | Instrumentor                                                                                          |

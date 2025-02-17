@@ -88,7 +88,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[MR acceptance checklist](https://docs.gitlab.com/ee/development/code_review.html#acceptance-checklist)
+[MR acceptance checklist](https://docs.gitlab.com/ee/development/code_review/#acceptance-checklist)
 
 ## Updates to the definition of done
 
@@ -98,7 +98,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)
+[Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done)
 
 ## Backwards Compatibility
 

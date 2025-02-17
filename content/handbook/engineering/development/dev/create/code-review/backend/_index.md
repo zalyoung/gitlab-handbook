@@ -81,7 +81,7 @@ You will begin to collect follow-up issues when you've worked on something in a 
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
 
-You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
+You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.
 
@@ -243,7 +243,7 @@ on the issue (if they have spare time).
 ## Engineering Onboarding
 
 This [example onboarding issue](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/160)
-will eventually be turned into an onboarding [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template).
+will eventually be turned into an onboarding [issue template](https://docs.gitlab.com/ee/user/project/description_templates/#create-an-issue-template).
 
 ## Other Related Pages
 

@@ -183,7 +183,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 
 #### Definition of Blocked
 
-Issues that depend on another issue to be completed before they can be validated on `Canary` are considered blocked, and should have the `~workflow::blocked` label applied. The issues should also be marked as blocked within the [related issues section](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#adding-a-related-issue) of the issues.
+Issues that depend on another issue to be completed before they can be validated on `Canary` are considered blocked, and should have the `~workflow::blocked` label applied. The issues should also be marked as blocked within the [related issues section](https://docs.gitlab.com/ee/user/project/issues/related_issues/#adding-a-related-issue) of the issues.
 
 #### Follow-up Issues
 
@@ -304,7 +304,7 @@ The goal of this process is to reduce the time that a change could potentially h
 
 #### Closing Issues
 
-After an engineer has ensured that the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) is met for an issue, they are the ones responsible for closing it. The engineer responsible for verifying an issue is done is the engineer who is the DRI for that issue, or the DRI for the final merge request that completes the work on an issue.
+After an engineer has ensured that the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#definition-of-done) is met for an issue, they are the ones responsible for closing it. The engineer responsible for verifying an issue is done is the engineer who is the DRI for that issue, or the DRI for the final merge request that completes the work on an issue.
 
 #### Issues for community contributions
 

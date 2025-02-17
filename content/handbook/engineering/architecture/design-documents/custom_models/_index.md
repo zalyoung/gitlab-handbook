@@ -16,7 +16,7 @@ This Blueprint describes support for customer self-deployments of Mistral LLMs a
 
 ## Motivation
 
-Self-hosted LLM models allow customers to manage the end-to-end transmission of requests to enterprise-hosted LLM backends for [GitLab Duo features](https://docs.gitlab.com/ee/user/ai_features.html), and keep all requests within their enterprise network. GitLab provides as a default LLM backends of Google Vertex and Anthropic, hosted externally to GitLab. GitLab Duo feature developers are able to access other LLM choices via the AI Gateway. More details on model and region information can be [found here](https://gitlab.com/groups/gitlab-org/-/epics/13024#current-feature-outline).
+Self-hosted LLM models allow customers to manage the end-to-end transmission of requests to enterprise-hosted LLM backends for [GitLab Duo features](https://docs.gitlab.com/ee/user/ai_features/), and keep all requests within their enterprise network. GitLab provides as a default LLM backends of Google Vertex and Anthropic, hosted externally to GitLab. GitLab Duo feature developers are able to access other LLM choices via the AI Gateway. More details on model and region information can be [found here](https://gitlab.com/groups/gitlab-org/-/epics/13024#current-feature-outline).
 
 ### Goals
 
@@ -106,8 +106,8 @@ In the initial implementation a single self-hosted Model will be supported, but 
 
 Customers will be required to deploy a local instance of the AI Gateway in their own infrastructure. The AI Gateway can be installed using:
 
-- [Docker](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#install-by-using-docker)
-- [Helm Chart](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#install-by-using-the-ai-gateway-helm-chart)
+- [Docker](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure/#install-by-using-docker)
+- [Helm Chart](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure/#install-by-using-the-ai-gateway-helm-chart)
 
 The AI Gateway container is published to the [GitLab Container Registry](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/container_registry/) and [DockerHub](https://hub.docker.com/repository/docker/gitlab/model-gateway/tags) on every GitLab Release.
 
@@ -119,7 +119,7 @@ When the standard prompts are migrated into either the AI Gateway or a prompt te
 
 ### Supported LLMs
 
-The list of supported LLMs are available in the [documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/supported_models_and_hardware_requirements.html#approved-llms).
+The list of supported LLMs are available in the [documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/supported_models_and_hardware_requirements/#approved-llms).
 
 #### RAG / Duo Chat tools
 
@@ -159,7 +159,7 @@ Evaluation of the local-search is being worked on as part of [this epic](https:/
 #### LLM-hosting
 
 Customers will self-manage LLM hosting. We provided limited documentation on how
-customers can host their own [LLMs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html)
+customers can host their own [LLMs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure/)
 
 #### GitLab Duo License Management
 

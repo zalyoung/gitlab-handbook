@@ -51,7 +51,7 @@ A: Quarterly reconciliation occurs when you exceed your license limit. You will 
 
 ![QSR.warning](/images/QSR_disclaimer_v17_5.png)
 
-More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
+More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/).
 
 If you want to contest these overages, you can open an [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293) and select the problem type *Quarterly Subscriptions Reconciliation (QSR) Related Problems*.
 
@@ -189,6 +189,6 @@ A: If the customer has exceed their license count (this info can be viewed under
 
 [Licensing FAQ](/handbook/support/license-and-renewals/)
 
-[QSR Process](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
+[QSR Process](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/)
 
 [Cloud Licensing](https://gitlab.highspot.com/items/629a82af9092e7ac989947ca?lfrm=srp.0)

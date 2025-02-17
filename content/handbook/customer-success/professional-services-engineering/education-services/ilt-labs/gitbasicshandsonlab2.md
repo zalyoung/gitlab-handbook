@@ -30,7 +30,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Task B. Generate an SSH key
 
-> GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don't need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
+> GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don't need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh/).
 
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
 
@@ -97,7 +97,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. For **Usage type**, make sure **Authentication & Signing** is selected
 
-   > This usage type allows your key to be used to authenticate with GitLab, as well as for signing commits. You can learn more about signed commits in the [documentation](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh.html)
+   > This usage type allows your key to be used to authenticate with GitLab, as well as for signing commits. You can learn more about signed commits in the [documentation](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh/)
 
 1. For **Expiration date**, keep the default date.
 
@@ -119,7 +119,7 @@ There are a few possible outcomes with this command:
 
 ## Task D. Clone a GitLab project repository to your local computer
 
-> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/topics/git/commands.html#clone-a-repository).
+> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/topics/git/commands/#clone-a-repository).
 
 1. Navigate back to the `Top Level` project that you created in Lab 1.
 

@@ -8,11 +8,11 @@ GitLab is offered as a [Single Application](/handbook/product/single-application
 
 ### Requirement
 
-When you propose any database additions, updates or deletions it is required that you have participated in a [Database Review](https://docs.gitlab.com/ee/development/database_review.html#database-review-guidelines) prior to deployment (best early in development).
+When you propose any database additions, updates or deletions it is required that you have participated in a [Database Review](https://docs.gitlab.com/ee/development/database_review/#database-review-guidelines) prior to deployment (best early in development).
 
 ### PostgreSQL
 
-The GitLab web app uses [PostgreSQL](https://docs.gitlab.com/ee/development/architecture.html#postgresql) for our persistent database imformation.  We have dropped support for [MySQL](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/52442) and will be requiring PosgreSQL 11 with the release of GitLab 13.0.
+The GitLab web app uses [PostgreSQL](https://docs.gitlab.com/ee/development/architecture/#postgresql) for our persistent database imformation.  We have dropped support for [MySQL](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/52442) and will be requiring PosgreSQL 11 with the release of GitLab 13.0.
 
 #### When to consider another data-store
 

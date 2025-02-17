@@ -20,7 +20,7 @@ repositories, and user uploaded files.
 User experience, as well as contributors experience, with our file
 storage has room for significant improvement.
 
-- Initial GitLab setup experience requires creation and setup of [13 buckets](https://docs.gitlab.com/ee/administration/object_storage.html#storage-specific-configuration),
+- Initial GitLab setup experience requires creation and setup of [13 buckets](https://docs.gitlab.com/ee/administration/object_storage/#storage-specific-configuration),
   instead of just 1.
 - Features using file storage require contributors to think about both local
   storage and Object Storage which leads to friction and
@@ -70,7 +70,7 @@ fixes) to installation:
   but never enabled globally.
 - Today GitLab supports both local storage and object storage. Local
   storage only works on single box installations or with a NFS, which
-  [we no longer recommend](https://docs.gitlab.com/ee/administration/nfs.html)
+  [we no longer recommend](https://docs.gitlab.com/ee/administration/nfs/)
   to our users and is no longer in use on GitLab.com.
 - Understanding all the moving parts and the flow is extremely
   complicated: we have CarrierWave, Fog, Golang S3/Azure SDKs, all

@@ -150,7 +150,7 @@ This helps verify that numbers are accurate and the original data source and the
 
 ### Incidents
 
-Incidents are times when a problem is discovered and some immediate action is required to fix the issue. When this happens, we make an [Incident Issue](https://docs.gitlab.com/ee/operations/incident_management/incidents.html) in the Data Team Project. The process for working through incidents is as follows:
+Incidents are times when a problem is discovered and some immediate action is required to fix the issue. When this happens, we make an [Incident Issue](https://docs.gitlab.com/ee/operations/incident_management/incidents/) in the Data Team Project. The process for working through incidents is as follows:
 
 - Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
 - Detail the relevant information with appropriate timestamps

@@ -7,7 +7,7 @@ description: "Workflow detailing how and when to verify account ownership includ
 
 ## Overview
 
-This workflow covers how a user can provide account verification. While the workflow focuses on disabling [Two-factor Authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) (2FA) on a GitLab.com account, it should be used for any [account changes](/handbook/support/workflows/account_changes).
+This workflow covers how a user can provide account verification. While the workflow focuses on disabling [Two-factor Authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication/) (2FA) on a GitLab.com account, it should be used for any [account changes](/handbook/support/workflows/account_changes).
 
 2FA removal and other account actions can only be completed if the [workflow](#workflow) below is successful.
 
@@ -27,7 +27,7 @@ If the user is a GitLab team member, have them [contact IT Ops](/handbook/it/end
 
 ### Self Service 2FA removal
 
-In most cases, users can disable 2FA themselves and regain access to their accounts using [one of the documented methods](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#recovery-options).
+In most cases, users can disable 2FA themselves and regain access to their accounts using [one of the documented methods](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication/#recovery-options).
 
 > As of August 2020, [Support will not intervene for free users](https://about.gitlab.com/blog/2020/08/04/gitlab-support-no-longer-processing-mfa-resets-for-free-users/) if self-service methods do not work for them.
 
@@ -94,7 +94,7 @@ See the [Enterprise User section](/handbook/support/workflows/gitlab-com_overvie
 
 #### Conditions when account is used to access Customers Portal
 
-[Customers Portal](https://customers.gitlab.com) requires all customers to access through a [Linked GitLab Account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account).
+[Customers Portal](https://customers.gitlab.com) requires all customers to access through a [Linked GitLab Account](https://docs.gitlab.com/ee/subscriptions/customers_portal/#link-a-gitlabcom-account).
 
 The user is eligible and 2FA can be reset when **one** of following conditions are met:
 
@@ -207,7 +207,7 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
      <details>
       <summary markdown="span">2FA Verification Template</summary>
 
-       A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.
+       A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication/) removed from their account. Please review and complete the highlighted sections below.
 
       **Support Engineer Instructions**
        - Ping the customer's organization owners in CUSTOMER_SLACK_CHANNEL using the [Notify Customer - Slack](/handbook/support/workflows/account_verification#2-contact-through-slack-skip-if-no-shared-slack-channel) template. For this organization the owners are SLACK_USERNAME, SLACK_USERNAME, and SLACK_USERNAME.
@@ -240,7 +240,7 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
      <details>
       <summary markdown="span">2FA Verification Template</summary>
 
-       A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.
+       A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication/) removed from their account. Please review and complete the highlighted sections below.
 
        **Support Engineer Instructions**
        - Fill out the `Request Details` section below.

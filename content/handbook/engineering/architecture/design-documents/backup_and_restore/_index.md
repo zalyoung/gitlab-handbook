@@ -42,7 +42,7 @@ Currently, we plan on making the new unified backup tool also uphold this restri
 
 ### Current GitLab Backup Offering
 
-Currently GitLab provides recommendations for [how to create application backups](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html) across different installation types and different hosting architectures. We provide a fairly rudimentary set of tools to create a point-in-time application backup, as well as specialized documentation for how to handle more complex cloud backup situations. You can read more on [how GitLab backups work here](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/158058).
+Currently GitLab provides recommendations for [how to create application backups](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab/) across different installation types and different hosting architectures. We provide a fairly rudimentary set of tools to create a point-in-time application backup, as well as specialized documentation for how to handle more complex cloud backup situations. You can read more on [how GitLab backups work here](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/158058).
 
 These are based on [Rake tasks](https://docs.gitlab.com/ee/raketasks/) in the GitLab repository.
 
@@ -143,7 +143,7 @@ The results of the following on-going [technical design discussions](https://git
 ### Limitations
 
 - We don't support the data in a Cloud-based Backup to be exportable to a Portable Backup format or vice-versa.
-- We do not support backing up data in the cache store (Redis) which includes the [Sidekiq state](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html#other-data). TODO: [More research on Redis stored data](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
+- We do not support backing up data in the cache store (Redis) which includes the [Sidekiq state](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab/#other-data). TODO: [More research on Redis stored data](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
 
 ### Backup types
 
@@ -303,7 +303,7 @@ For the initial Cloud Backup implementation:
   - Database Backups using [Cloud SQL Backups](https://cloud.google.com/sql/docs/postgres/backup-recovery/backups) (on demand backups only, initially)
   - Object Storage Backups using [Storage Transfer Service](https://cloud.google.com/storage-transfer-service?hl=en)
   - [GCE disk snapshots](https://cloud.google.com/compute/docs/disks/snapshots) initially for repository backups.
-    - We will revisit [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly.html#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) when the technology has matured.
+    - We will revisit [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly/#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) when the technology has matured.
 - Only support data/snapshots managed by the Backup tool
 - Not relying on automated/scheduled Backup implementation (like AWS Backup or Google Cloud Backup)
 

@@ -14,7 +14,7 @@ These four "DORA" metrics are:
 - Mean Time to Recover
 - Change Failure Rate
 
-DORA metrics are available in GitLab [Group-level value stream analytics (VSA)](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) and in the [CI/CD analytics](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html). APIs are also available for all four DORA metrics. To learn more check out the [DORA API documentation](https://docs.gitlab.com/ee/api/dora/metrics.html#get-project-level-dora-metrics)
+DORA metrics are available in GitLab [Group-level value stream analytics (VSA)](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) and in the [CI/CD analytics](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics/). APIs are also available for all four DORA metrics. To learn more check out the [DORA API documentation](https://docs.gitlab.com/ee/api/dora/metrics/#get-project-level-dora-metrics)
 
 Here's an overview of each metric, with a look at how they matter to the company as a whole.
 

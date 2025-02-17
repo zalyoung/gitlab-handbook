@@ -78,7 +78,7 @@ The [UI](ui_ux.md) will basically have two pages: listing Docker images out of t
 
 In order to support the other repository formats in follow ups, we choose to not map the official client function names in GraphQL fields or methods but rather have a more re-usable approach.
 
-All GraphQL changes should be marked as [`alpha`](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html#mark-schema-items-as-alpha).
+All GraphQL changes should be marked as [`alpha`](https://docs.gitlab.com/ee/development/api_graphql_styleguide/#mark-schema-items-as-alpha).
 
 First, on the [`ProjectType`](https://docs.gitlab.com/ee/api/graphql/reference/#project), we will need a new field `google_cloud_platform_artifact_registry_repository_artifacts`. This will return a list of an [abstract](https://docs.gitlab.com/ee/api/graphql/reference/#abstract-types) new type: `GoogleCloudPlatform::ArtifactRegistry::ArtifactType`. This list will have pagination support. Ordering options will be available.
 
@@ -101,7 +101,7 @@ All GraphQL changes will require users to have the [`read_gcp_artifact_registry_
 
 ## CI/CD variables
 
-Similar to the [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor.html#configure-gitlab) integration, once users activates the GAR integration, additional CI/CD variables will be automatically available if the integration is enabled. These will be set according to the requirements described in the [documentation](https://cloud.google.com/artifact-registry/docs/docker/authentication#json-key):
+Similar to the [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor/#configure-gitlab) integration, once users activates the GAR integration, additional CI/CD variables will be automatically available if the integration is enabled. These will be set according to the requirements described in the [documentation](https://cloud.google.com/artifact-registry/docs/docker/authentication#json-key):
 
 - `GCP_ARTIFACT_REGISTRY_URL`: This will be set to `https://LOCATION-docker.pkg.dev`, where `LOCATION` is the GCP project location configured for the integration.
 - `GCP_ARTIFACT_REGISTRY_PROJECT_URI`: This will be set to `LOCATION-docker.pkg.dev/PROJECT-ID`. `PROJECT-ID` is the GCP project ID of the GAR repository configured for the integration.

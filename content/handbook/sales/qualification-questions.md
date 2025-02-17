@@ -177,13 +177,13 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How important is it for you to maximize the productivity of your development teams?
 - If you could change one thing to make your developers more productive, what would it be and why?
 - If you were able to analyze graphs and reports to understand team, project, and group productivity to uncover patterns and best practices, how would that improve overall productivity?
-  - If this is of interest, position [Productivity Analytics](https://docs.gitlab.com/ee/user/analytics/productivity_analytics.html)
+  - If this is of interest, position [Productivity Analytics](https://docs.gitlab.com/ee/user/analytics/productivity_analytics/)
 - How does your organization currently track and manage code reviews and feedback?
   - GitLab Premium includes built-in [merge request reviews](https://docs.gitlab.com/ee/user/discussions/#merge-request-reviews)
 - How important is having consistent and standard practices to boost overall developer productivity?
   - [Group and file templates](https://docs.gitlab.com/ee/user/group/#group-file-templates) allow you to share a set of templates for common file types with every project in a group
 - What is your organization doing to simplify and streamline system logon processes for developers? Do you currently use or have plans to use SmartCard authentication?
-  - If yes, highlight Premium's [Smart Card Authentication](https://docs.gitlab.com/ee/administration/auth/smartcard.html) capabilities
+  - If yes, highlight Premium's [Smart Card Authentication](https://docs.gitlab.com/ee/administration/auth/smartcard/) capabilities
 
 #### Streamline Project Planning
 
@@ -191,10 +191,10 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - If you could change one thing to streamline your project planning efforts, what would it be and why?
 - How would your organization benefit from simplified management and visualization of work assignment and tracking?
 - If streamlining project planning is important, consider positioning how the following capabilities can help your customer (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
-  - [Group Backlog management](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards) - Simplify tracking, scoping and planning future work with group level backlog management on multiple issue boards
-  - [Group Milestone Boards/Lists](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards) - Visualize future work to be delivered in future releases/milestones
-  - [Assignee Boards/Lists](https://docs.gitlab.com/ee/user/project/issue_board.html) - Streamline assignment of work to team members in a graphical assignment board
-  - [Group Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards) - Visually manage programs (groups) with multiple issue boards where work can be dynamically assigned and tracked
+  - [Group Backlog management](https://docs.gitlab.com/ee/user/project/issue_board/#multiple-issue-boards) - Simplify tracking, scoping and planning future work with group level backlog management on multiple issue boards
+  - [Group Milestone Boards/Lists](https://docs.gitlab.com/ee/user/project/issue_board/#multiple-issue-boards) - Visualize future work to be delivered in future releases/milestones
+  - [Assignee Boards/Lists](https://docs.gitlab.com/ee/user/project/issue_board/) - Streamline assignment of work to team members in a graphical assignment board
+  - [Group Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board/#multiple-issue-boards) - Visually manage programs (groups) with multiple issue boards where work can be dynamically assigned and tracked
   - [Issue Analytics](https://docs.gitlab.com/ee/user/group/issues_analytics/) - Establish consistent and standard practices
 
 #### Deploy with Confidence
@@ -206,8 +206,8 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How many tools do you have to use to understand current status? How long does that take? How does that affect your teams?
   - If this line of questioning reveals challenges in lack of visibility across the DevOps toolchain, position GitLab Premium's [Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/#doc-nav) which provides a holistic view of the overall health of an organization's operations
 - How would you assess your level of confidence in how your organization currently manages software deploys? Are there any risks you wish you could mitigate? If so, what are they and why? GitLab Premium offers a multitude of capabilities to allow organizations to deploy with confidence including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
-  - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#multi-project-pipelines) - Link CI pipelines from multiple projects to deliver integrated solutions
-  - [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html) - Establish controls and limit the access to change specific environments
+  - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines/#multi-project-pipelines) - Link CI pipelines from multiple projects to deliver integrated solutions
+  - [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments/) - Establish controls and limit the access to change specific environments
 
 #### Manage Development
 
@@ -219,11 +219,11 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How easy or difficult is it for you to pull together audit evidence and proof points across multiple tools? How could you benefit from a faster process?
 - How do you collect the data for security and compliance on a regular basis? When you have a breach, what are the implications and who has to get involved? What type of information is required? How long does it take for your teams to provide audit evidence?
 - GitLab Premium includes several enhancements that help with auditing and compliance including the below (see the [Why GitLab Premium? page](https://about.gitlab.com/pricing/premium/) for value descriptions of each of these features)
-  - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_event_reports.html) - Review changes by user and track access
-  - [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html) - Read-only access to all projects, groups, and other resources on the GitLab instance
+  - [Audit Logs](https://docs.gitlab.com/ee/administration/audit_event_reports/) - Review changes by user and track access
+  - [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users/) - Read-only access to all projects, groups, and other resources on the GitLab instance
   - [Merge Request Reviews](https://docs.gitlab.com/ee/user/discussions/#merge-request-reviews) - Draft multiple comments in a merge request code review and review/resolve comments together
-  - [Verified Committer](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
-  - [Require Signed Commits](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#enabling-push-rules) - Enforce policy to require signed commits from contributors
+  - [Verified Committer](https://docs.gitlab.com/ee/user/project/repository/push_rules/#enabling-push-rules) - Ensure only authorized and verified team members are allowed to commit to the project
+  - [Require Signed Commits](https://docs.gitlab.com/ee/user/project/repository/push_rules/#enabling-push-rules) - Enforce policy to require signed commits from contributors
 
 ### Discovery Questions for GitLab Ultimate
 
@@ -249,7 +249,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - How important is license compliance to your organization so that you can  track project dependencies for their licenses and approve or deny specific licenses?
 - GitLab Ultimate offers the following compliance features:
   - License Compliance - Identify the presence of new software licenses included in your project. Approve or deny the inclusion of a specific license
-  - [Compliance Templates](https://docs.gitlab.com/ee/user/project/working_with_projects.html#enterprise-templates) - Templates to streamline audit management with specific regulatory standards. Currently, HIPAA is available. SOX & SOC2 are in the near term roadmap.
+  - [Compliance Templates](https://docs.gitlab.com/ee/user/project/working_with_projects/#enterprise-templates) - Templates to streamline audit management with specific regulatory standards. Currently, HIPAA is available. SOX & SOC2 are in the near term roadmap.
 
 #### Project Insights
 

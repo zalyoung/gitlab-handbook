@@ -126,7 +126,7 @@ The process of creating the temporary renewal extension from SFDC is also descri
    1. For SaaS, the new temporary extension (once effective) is visible on the gitlab.com group billing page.
    1. An email is sent to the customer with the subject line `[GitLab Transactions] GitLab Temporary Renewal Extension`. For self-managed, a license key is included in the email.
       - This email is also sent to the Revenue Team, as well as copied to SFDC and displayed under Contact Activity.
-   1. `Access temporarily extended until YYYY-MM-DD` badge is displayed on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html).
+   1. `Access temporarily extended until YYYY-MM-DD` badge is displayed on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal/).
 
 ### Viewing and using the extension
 
@@ -134,7 +134,7 @@ Once the temporary renewal extension is created, the evidence of it can be seen 
 
 - SFDC Renewal Opportunity has `Temporary License Extension End Date` field populated with a date when the extension expires.
 - [CustomersDot Admin > Temporary Extensions](https://customers.gitlab.com/admin/temporary_extension_history) page lists all of the temporary extensions.
-- Customer can see the `Access temporarily extended until YYYY-MM-DD` badge on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html).
+- Customer can see the `Access temporarily extended until YYYY-MM-DD` badge on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal/).
   - For self-managed, customer can download the license key and apply it to their instance.
   - For SaaS, the new expiration date is automatically synced to gitlab.com.
 
@@ -235,18 +235,18 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 
 #### Related terminology
 
-- [QSR](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
-- [True-up](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
+- [QSR](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/)
+- [True-up](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/)
 - [Seat usage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#how-seat-usage-is-determined)
 - [Seats owed](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)
 
 #### Quarterly Subscription Reconciliation (QSR)
 
-See [public QSR documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
+See [public QSR documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/).
 
 ##### QSR eligibility
 
-In addition to [documented elibiligy cases](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-reconciliation-eligibility), we exclude from QSRs any subscription where the Account has any of the following settings in Zuora:
+In addition to [documented elibiligy cases](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/#quarterly-reconciliation-eligibility), we exclude from QSRs any subscription where the Account has any of the following settings in Zuora:
 
 1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
 2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
@@ -262,7 +262,7 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnSeat
    2. `Subscription.ContractSeatReconciliation__c` variable is set to Yes.
 2. Usage data is gathered daily via Cloud Licensing (SM/Dedicated) of the namespace API (gitlab.com)
 
-Other details available in [QSR invoicing and payment docs](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-invoicing-and-payment).
+Other details available in [QSR invoicing and payment docs](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/#quarterly-invoicing-and-payment).
 
 **How individual automated reconciliation works:**
 
@@ -316,7 +316,7 @@ As of 2023-05-22, SFDC Opportunities created for QSR have 2 new fields populated
 
 ##### Additional documentation
 
-- [Customer-facing documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
+- [Customer-facing documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation/)
 - [Finance team's documentation about QSR refunds and escalations](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/WIP%20Quarterly%20Subscription%20Reconciliation%20Escalation#quarterly-subscription-reconciliation-process-post-billing)
 - [Process illustrations](https://gitlab.com/groups/gitlab-org/-/epics/5560#illustration)
 

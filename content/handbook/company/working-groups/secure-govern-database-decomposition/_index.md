@@ -51,7 +51,7 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Physical Replication | Replication of data by copying the actual files on the written disk to a new Phsyical Database.| | |
 | Application Replication | Replication of data to a separate database by the configuration of replication routines in GitLab itself. | | |
 | DB Schema | A SQL database schema is a namespace that contains named database objects such as tables, views, indexes, data types, functions, stored procedures and operators, [see docs](https://www.postgresql.org/docs/current/ddl-schemas.html) | | |
-| GitLab DB Schema | An application-level table classification schema that abstracts away the underlying database connection, [see docs](https://docs.gitlab.com/ee/development/database/multiple_databases.html#gitlab-schema) | | |
+| GitLab DB Schema | An application-level table classification schema that abstracts away the underlying database connection, [see docs](https://docs.gitlab.com/ee/development/database/multiple_databases/#gitlab-schema) | | |
 | Server | A database server is a physical or virtual system running an operating system that is running one or more database instances. | Physical Database | |
 | Table | A database table is a collection of tuples having a common data structure (the same number of attributes, in the same order, having the same name and type per position) ([source](https://www.postgresql.org/docs/13/glossary.html#GLOSSARY-TABLE)) | | |
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
@@ -137,12 +137,12 @@ Last update: [2025-01-28](https://gitlab.com/groups/gitlab-org/-/epics/14165#not
 1. In parallel, begin decomposition of foreign keys and cross-database transactions following the loose order of SBOM, Security, and Vulnerability code boundaries. For each slice perform the following breakdown:
     1. Migrate tables with low referentiality (few foreign keys)
     1. Migrate tables with higher referentiality (many foreign keys)
-    1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases.html#allowlist-for-existing-cross-database-foreign-keys) to be addressed
+    1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases/#allowlist-for-existing-cross-database-foreign-keys) to be addressed
     1. Identify and allowlist cross-database transactions to be addressed
     1. Remove previously identified cross-joins and cross-database transactions allowances
 1. Formulate a logical replication path for the safe migration of the Sec dataset to a new physical database.
 1. Open Change Request to migrate tables using a single replication event for all tables in scope of decomposition
-1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
+1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases/)
 
 #### Data Migration Proposal
 

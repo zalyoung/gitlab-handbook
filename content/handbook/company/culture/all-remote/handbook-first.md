@@ -47,7 +47,7 @@ Leaders who are serious about ensuring that their team can rely on a [single sou
 
 A limited retention policy acts as a forcing function. It nudges team members to discuss work matters in a location that is directly tied to the ultimate single source of truth. At GitLab, all work, process, and policies are documented in the [handbook](/handbook).
 
-To get there, [discussions begin](/handbook/communication/#start-with-a-merge-request) in [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and/or [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) — not in Slack. This ensures that whatever is merged into the handbook has a proper trail, full of [context](effective-communication/#understanding-low-context-communication) and universally accessible.
+To get there, [discussions begin](/handbook/communication/#start-with-a-merge-request) in [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and/or [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests/) — not in Slack. This ensures that whatever is merged into the handbook has a proper trail, full of [context](effective-communication/#understanding-low-context-communication) and universally accessible.
 
 Instant messaging tools are difficult to add people to a conversation, and all work history is left in that program, with no context following the work to where it eventually ends up.
 

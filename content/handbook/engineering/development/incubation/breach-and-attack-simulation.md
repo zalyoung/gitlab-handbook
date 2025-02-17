@@ -28,7 +28,7 @@ This scope may include:
 
 Configuring targets is done inside a project's [Security Configuration](https://docs.gitlab.com/ee/user/application_security/configuration/). For example scan targets can currently be configured inside the DAST CI/CD configuration and DAST profiles for defining dynamic or on-demand targets.
 
-Due to the added risk of simulating attacker behavior this scope **should not** include a production server. The documentation for [authenticated DAST scans](https://docs.gitlab.com/ee/user/application_security/dast/authentication.html) sets a clear precedent with a warning. An equivalent warning should be included in documentation surrounding any BAS focused scanners.
+Due to the added risk of simulating attacker behavior this scope **should not** include a production server. The documentation for [authenticated DAST scans](https://docs.gitlab.com/ee/user/application_security/dast/authentication/) sets a clear precedent with a warning. An equivalent warning should be included in documentation surrounding any BAS focused scanners.
 
 ### Features
 
@@ -48,7 +48,7 @@ Inside of GitLab CI we're able to leverage the following:
 * Manual entry of in/out of scope hosts (or URLs) to scan for vulnerabilities
   * These hosts should be accessible from the [GitLab Runner](https://docs.gitlab.com/runner/) you're using.
   * If using [Runner SaaS](https://docs.gitlab.com/ee/ci/runners/) these hosts **must** be internet accessible.
-* Use existing vulnerability report, e.g. of [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html#security-scanner-integration), which includes hosts or URLs along with detected vulnerabilities.
+* Use existing vulnerability report, e.g. of [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure/#security-scanner-integration), which includes hosts or URLs along with detected vulnerabilities.
 * Service containers to run a specific ephemeral target.
   * [Accessing the services](https://docs.gitlab.com/ee/ci/services/#accessing-the-services) documents how to configure/access hostnames.
   * The default ports of an image can be inspected using `docker image inspect "$IMAGE"` under the path `.[0].Config.ExposedPorts`.
@@ -94,7 +94,7 @@ Progress of this portion can be monitored in this issue at [gitlab-org/gitlab#33
 
 In rarer cases an attacker's goal is simply denial of a service through maliciously destroying data or code required for a target system to run applications.
 
-Evidence of code execution or command injection is sufficient for simulated destruction in some ways. Alternative proof of destruction could be a process similar to [Secret Detection post-processing and revocation](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response.html#high-level-architecture).
+Evidence of code execution or command injection is sufficient for simulated destruction in some ways. Alternative proof of destruction could be a process similar to [Secret Detection post-processing and revocation](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response/#high-level-architecture).
 
 We could introduce a feature flag in DAST to enable destructive behaviour when code injection is viable.
 We **must** perform domain/subdomain validation before attempting to run destructive behaviour from Runners.

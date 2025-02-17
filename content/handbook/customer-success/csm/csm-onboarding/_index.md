@@ -271,8 +271,8 @@ Collection of initial set of key product links, which will help in the first 4-6
   - [**Dedicated**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)**:**: A single-tenant SaaS service for highly regulated and large enterprises
   - [**SaaS**](https://docs.gitlab.com/ee/subscriptions/gitlab_com/): The GitLab software-as-a-service offering. You don't need to install anything to use GitLab SaaS, you only need to sign up and start using GitLab straight away
 - **GitLab Self Managed**
-  - [**GitLab Application components**](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) ([details](https://docs.gitlab.com/ee/development/architecture.html#component-list))
-  - [**Installation Methods**](https://docs.gitlab.com/ee/install/install_methods.html)
+  - [**GitLab Application components**](https://docs.gitlab.com/ee/development/architecture/#simplified-component-overview) ([details](https://docs.gitlab.com/ee/development/architecture/#component-list))
+  - [**Installation Methods**](https://docs.gitlab.com/ee/install/install_methods/)
   - [**Reference Architectures**](https://docs.gitlab.com/ee/administration/reference_architectures/)
   - [**Runners**](https://docs.gitlab.com/runner/) (GitLab's "worker" for CI/CD jobs - pipelines)
   - [**Upgrade & Update of GitLab**](https://docs.gitlab.com/ee/update/)
@@ -280,7 +280,7 @@ Collection of initial set of key product links, which will help in the first 4-6
 - **Key functionality of GitLab**
   - [**AI**](https://docs.gitlab.com/ee/user/gitlab_duo/)
   - [**CI / CD**](https://docs.gitlab.com/ee/ci/)
-  - [**SCM**](https://docs.gitlab.com/ee/user/get_started/get_started_managing_code.html)
+  - [**SCM**](https://docs.gitlab.com/ee/user/get_started/get_started_managing_code/)
 - **GitLab Product**
   - [Pricing](https://about.gitlab.com/pricing/)
   - [Find responsible SLACK Channel and Team for GitLab features](/handbook/product/categories/#devops-stages)
@@ -303,8 +303,8 @@ For self lead training and experimentation you can setup your own playground/dem
 Many of our prospects and customer choose the option to maintain their own Self Managed GitLab installation based on the reference architecture. To be able to walk in your customers shoes and experience the same possibilities as well as challenges, there is a [shared GitLab Omnibus enviroment](/handbook/customer-success/demo-systems/#shared-environments) for CSMs to use.
 
 1. Follow [these instructions to get access to the shared Omnibus Instances](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances)
-1. The [Get started administering GitLab](https://docs.gitlab.com/ee/administration/get_started.html) Guide is a great starting point
-1. You can [export](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#manually-upload-service-ping-payload) a [Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) data file from the instance and explore product usage data via the [Service ping analysis engine](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/service-ping-analysis-engine)
+1. The [Get started administering GitLab](https://docs.gitlab.com/ee/administration/get_started/) Guide is a great starting point
+1. You can [export](https://docs.gitlab.com/ee/administration/settings/usage_statistics/#manually-upload-service-ping-payload) a [Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) data file from the instance and explore product usage data via the [Service ping analysis engine](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/service-ping-analysis-engine)
 
 ## Finding Answers
 

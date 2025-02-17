@@ -52,7 +52,7 @@ To maintain our culture of security and transparency, and to minimize the risk t
 
 ### Secure Coding Training
 
-The [GitLab Secure Coding Training](/handbook/security/secure-coding-training/) is a required training completed by a sub-group of GitLab Team Members and contractors/TSPs in the Engineering Department.  This training contains descriptions and [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html) from OWASP (Open Web Application Security Project) addressing security vulnerabilities commonly identified in the GitLab codebase. This training is intended to help developers identify potential security vulnerabilities early, with the goal of reducing the number of vulnerabilities released over time.
+The [GitLab Secure Coding Training](/handbook/security/secure-coding-training/) is a required training completed by a sub-group of GitLab Team Members and contractors/TSPs in the Engineering Department.  This training contains descriptions and [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines/) from OWASP (Open Web Application Security Project) addressing security vulnerabilities commonly identified in the GitLab codebase. This training is intended to help developers identify potential security vulnerabilities early, with the goal of reducing the number of vulnerabilities released over time.
 
 Exceptions during the active campaign will be made for GitLab team members on extended leave.
 

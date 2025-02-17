@@ -24,7 +24,7 @@ MARKDOWN
 
 if rows.empty?
   markdown <<~MARKDOWN
-    There are no required Code Owner approvals. Please ask an appropriate team member to review the content, or use the [Approvers Merge Request widget](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html#multiple-approval-rules).
+    There are no required Code Owner approvals. Please ask an appropriate team member to review the content, or use the [Approvers Merge Request widget](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/#multiple-approval-rules).
   MARKDOWN
 else
   table = <<~MARKDOWN
@@ -40,6 +40,6 @@ else
     - ![available](https://gitlab-org.gitlab.io/gitlab-roulette/status-svg/_success.svg) Reviewer is available!
     - ![unavailable](https://gitlab-org.gitlab.io/gitlab-roulette/status-svg/_alert.svg) Reviewer is unavailable!
 
-    Please use the [Approvers Merge Request widget](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html#multiple-approval-rules) in case the suggestion above wasn't useful.
+    Please use the [Approvers Merge Request widget](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/#multiple-approval-rules) in case the suggestion above wasn't useful.
   MARKDOWN
 end

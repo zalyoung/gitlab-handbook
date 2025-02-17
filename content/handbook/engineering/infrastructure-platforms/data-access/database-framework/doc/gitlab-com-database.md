@@ -91,8 +91,8 @@ With the extended setup, you'll be able to use a psql console on a thin clone, t
 
 In order to evaluate query performance, we have the following tools available:
 
-1. Retrieve query plans through [ChatOps on Slack](https://docs.gitlab.com/ee/development/database/understanding_explain_plans.html#chatops)
-1. Use [`#database-lab` Slack channel to work with a thin clone of the database](https://docs.gitlab.com/ee/development/database/understanding_explain_plans.html#database-lab)
+1. Retrieve query plans through [ChatOps on Slack](https://docs.gitlab.com/ee/development/database/understanding_explain_plans/#chatops)
+1. Use [`#database-lab` Slack channel to work with a thin clone of the database](https://docs.gitlab.com/ee/development/database/understanding_explain_plans/#database-lab)
 1. Use [postgres.ai](https://postgres.ai/) (currently under [evaluation](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/47)) to fully immerse into working with a thin clone to optimize queries
 
 ### Where do I get help with setting up access or any other questions?
@@ -116,12 +116,12 @@ According to [this finding](https://gitlab.com/gitlab-org/gitlab/-/issues/326555
 Common issues seen in the application codebase are N+1 queries, inappropriate use of CTEs, and read-only queries not leveraging read replicas.
 
 1. Guidance on N+1 Queries
-   1. [Query Recorder](https://docs.gitlab.com/ee/development/database/query_recorder.html)
-   1. [Performance guidelines](https://docs.gitlab.com/ee/development/performance.html)
-   1. [Merge request performance guidelines - Query counts](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html#query-counts)
-   1. [Merge request performance guidelines - Cached queries](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html#cached-queries)
-1. [Use CTEs wisely](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html#use-ctes-wisely)
-1. [Use read replicas when possible](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html#use-read-replicas-when-possible)
+   1. [Query Recorder](https://docs.gitlab.com/ee/development/database/query_recorder/)
+   1. [Performance guidelines](https://docs.gitlab.com/ee/development/performance/)
+   1. [Merge request performance guidelines - Query counts](https://docs.gitlab.com/ee/development/merge_request_concepts/performance/#query-counts)
+   1. [Merge request performance guidelines - Cached queries](https://docs.gitlab.com/ee/development/merge_request_concepts/performance/#cached-queries)
+1. [Use CTEs wisely](https://docs.gitlab.com/ee/development/merge_request_concepts/performance/#use-ctes-wisely)
+1. [Use read replicas when possible](https://docs.gitlab.com/ee/development/merge_request_concepts/performance/#use-read-replicas-when-possible)
 
 #### Knowledge sharing
 
@@ -131,5 +131,5 @@ Common issues seen in the application codebase are N+1 queries, inappropriate us
 
 #### Tools
 
-1. [Postgres.ai](https://docs.gitlab.com/ee/development/database/database_lab.html) for testing with production like data.
+1. [Postgres.ai](https://docs.gitlab.com/ee/development/database/database_lab/) for testing with production like data.
 1. [Query plans and optimization](/handbook/engineering/infrastructure-platforms/data-access/database-framework/doc/gitlab-com-database/#query-plans-and-optimization).

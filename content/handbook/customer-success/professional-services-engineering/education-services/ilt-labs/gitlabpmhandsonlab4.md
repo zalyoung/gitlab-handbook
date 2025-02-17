@@ -11,7 +11,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 ## Task A. Create and manage labels
 
-> You can use labels to categorize epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. This allows you to dynamically filter and manage epics, issues, and merge requests. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/labels.html).
+> You can use labels to categorize epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. This allows you to dynamically filter and manage epics, issues, and merge requests. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/labels/).
 
 1. Navigate to your **Awesome Inc** group.
 
@@ -19,7 +19,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 1. Click **New label** in the upper right hand corner.
 
-1. In the **Title** field, enter `Status::Open`. The 2 colons in the label title mean that this will be a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
+1. In the **Title** field, enter `Status::Open`. The 2 colons in the label title mean that this will be a [scoped label](https://docs.gitlab.com/ee/user/project/labels/#scoped-labels).
 
     > A scoped label uses a double-colon (::) syntax in its title, for example: `workflow::in-review`. An issue, merge request, or epic cannot have two scoped labels, of the form `key::value`, with the same key. If you add a new label with the same key but a different value, the previous key label is replaced with the new label.
 

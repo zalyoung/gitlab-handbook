@@ -82,8 +82,8 @@ Right now, the [`when`](https://docs.gitlab.com/ee/ci/yaml/#when) keyword has ma
 > - `never`: Don't run the job regardless of the status of jobs in earlier stages.
 >   Can only be used in a [`rules`](https://docs.gitlab.com/ee/ci/yaml/#rules) section or `workflow: rules`.
 > - `always`: Run the job regardless of the status of jobs in earlier stages. Can also be used in `workflow:rules`.
-> - `manual`: Run the job only when [triggered manually](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually).
-> - `delayed`: [Delay the execution of a job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#run-a-job-after-a-delay)
+> - `manual`: Run the job only when [triggered manually](https://docs.gitlab.com/ee/ci/jobs/job_control/#create-a-job-that-must-be-run-manually).
+> - `delayed`: [Delay the execution of a job](https://docs.gitlab.com/ee/ci/jobs/job_control/#run-a-job-after-a-delay)
 >   for a specified duration.
 
 It answers three questions;
@@ -101,7 +101,7 @@ For example; publishing failures to dedicated page or dedicated external service
 We control the blocker behavior of a manual job by the [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/#allow_failure) keyword.
 Actually, it has other responsibilities; *"determine whether a pipeline should continue running when a job fails"*.
 
-Currently, a [manual job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually);
+Currently, a [manual job](https://docs.gitlab.com/ee/ci/jobs/job_control/#create-a-job-that-must-be-run-manually);
 
 - is not a blocker when it has `allow_failure: true` (by default)
 - a blocker when it has `allow_failure: false`.

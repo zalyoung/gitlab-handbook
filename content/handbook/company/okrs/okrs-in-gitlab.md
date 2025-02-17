@@ -51,7 +51,7 @@ To add new key results in GitLab, follow the steps below:
         1. Only Product & Engineering cascade OKRs below division level. For Product & Engineering OKRs, in addition to division labels, follow [stage labels](https://docs.gitlab.com/ee/development/labels/#stage-labels) to add the Section/Stage/Group scoped labels to assign the OKR to the relevant parts of [Product Hierarchy](/handbook/product/categories/#hierarchy).
         1. Each part of hierarchy should have a label. For example, an OKR for a group would have a division label, a section label, a stage label, and a group label.
 1. Review the key result against the [SAFE Framework](/handbook/legal/safe-framework/) to ensure it is information that can be shared. Review to ensure that information should not be [limited access](/handbook/communication/confidentiality-levels/#internal). If the information is limited access, use code name if relevant or link to a supporting issue that is limited access.
-1. Optionally, [turn on check-in reminders](https://docs.gitlab.com/ee/user/okrs.html).
+1. Optionally, [turn on check-in reminders](https://docs.gitlab.com/ee/user/okrs/).
 1. The key result now appears in the **Child objectives and key results** section of the corresponding parent objective.
 
 Watch this video for a demo on how to create objectives and key results:
@@ -92,7 +92,7 @@ Once company OKRs are created, other divisions and departments following one of 
 Typically at GitLab, divisions create OKRs to automatically have progress score towards division objectives.
 To indicate that a division KR should also show progress of a Company KR, add the division KR as a related item of the Company KR following these instructions:
 
-1. Click on the [relevant Company KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/ee/user/okrs.html#linked-items-in-okrs).
+1. Click on the [relevant Company KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/ee/user/okrs/#linked-items-in-okrs).
 1. Click **Add** in the **Linked items** section.
 1. Click inside of **the following item(s)** text field.
 1. Find (enter text to filter) and select 1 or more objective(s) or KR(s) that should score to the Company KR.

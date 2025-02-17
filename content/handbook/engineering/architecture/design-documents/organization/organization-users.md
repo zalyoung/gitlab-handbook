@@ -118,7 +118,7 @@ How Billable Members are defined differs between GitLabs two main offerings:
 - Self-managed (SM): [Billable Members are Users who consume seats against the SM License](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-seats).
   Custom roles elevated above the Guest role are consuming seats.
 - GitLab.com (SaaS): [Billable Members are Users who are Members of a Namespace (Group or Project) that consume a seat against the SaaS subscription for the top-level Group](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#how-seat-usage-is-determined).
-  Currently, [Users with Minimal Access](https://docs.gitlab.com/ee/user/permissions.html#users-with-minimal-access)
+  Currently, [Users with Minimal Access](https://docs.gitlab.com/ee/user/permissions/#users-with-minimal-access)
   and Users without a Group count towards a licensed seat, but [that's changing](https://gitlab.com/gitlab-org/gitlab/-/issues/330663#note_1133361094).
 
 These differences and how they are calculated and displayed often cause

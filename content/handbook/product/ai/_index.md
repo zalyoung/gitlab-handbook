@@ -25,7 +25,7 @@ This page serves as a resource for team members looking for information about wo
 ## Special considerations for AI features
 
 * [AI ethics principles](/handbook/legal/ethics-compliance-program/ai-ethics-principles/#1-avoid-unfair-bias): Principles to guide our decision making as we continue to build AI features into GitLab and to ensure that these features properly embody our values.
-* [AI data usage and privacy](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html): Public facing docs about how we use and protect data.
+* [AI data usage and privacy](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage/): Public facing docs about how we use and protect data.
 
 ## Engineering AI features
 

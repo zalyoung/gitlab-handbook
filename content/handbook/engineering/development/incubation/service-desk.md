@@ -90,7 +90,7 @@ on a regular issue. Using the issues and notes API you can also create Service D
 This allows customers to build custom integration and intake forms.
 
 See the [feature issue](https://gitlab.com/gitlab-org/gitlab/-/issues/433376) and the
-[documentation](https://docs.gitlab.com/ee/user/project/service_desk/using_service_desk.html#convert-a-regular-issue-to-a-service-desk-ticket)
+[documentation](https://docs.gitlab.com/ee/user/project/service_desk/using_service_desk/#convert-a-regular-issue-to-a-service-desk-ticket)
 for details.
 
 #### Customizable e-mail address on a per-project basis

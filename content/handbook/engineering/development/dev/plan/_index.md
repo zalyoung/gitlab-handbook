@@ -339,7 +339,7 @@ The ~"technical debt" label, used in combination with ~"devops::plan," helps tra
 - features requiring additional refinement;
 - any other items deferred due to the high pace of development.
 
-For example, a [follow-up issue](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
+For example, a [follow-up issue](https://docs.gitlab.com/ee/development/contributing/issue_workflow/#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
 
 Issues marked with this label are prioritized alongside those proposing new features and will be scheduled during milestone planning.
 
@@ -378,11 +378,11 @@ The first objects built using the work items architecture support the [Parker](/
 Read more about work items
 
 - [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
-- [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
+- [Work items terminology](https://docs.gitlab.com/ee/development/work_items/#work-item-terminology)
 
 ##### Terminology
 
-Work items refers to objects that use the work items architecture. You can find more terms defined related to the architecture here: [work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology).
+Work items refers to objects that use the work items architecture. You can find more terms defined related to the architecture here: [work items terminology](https://docs.gitlab.com/ee/development/work_items/#work-item-terminology).
 
 When we talk about the user experience, we avoid using the term 'work items' for user facing concepts, because it's not specific to the experience and introduces confusion. Instead, we will use descriptors specific to the part of the product we're talking about and that support a similar JTBD. Here are examples of how we are categorizing these:
 

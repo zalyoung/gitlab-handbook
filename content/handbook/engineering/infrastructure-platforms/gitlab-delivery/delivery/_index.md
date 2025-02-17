@@ -43,7 +43,7 @@ Each member of the Delivery group is part of this vision:
 
 ### Short-term
 
-- Develop tooling and processes to allow the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to be extended to fully support three versions
+- Develop tooling and processes to allow the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance/) to be extended to fully support three versions
 - Improve deployment pipeline observability to allow deployment inefficiencies to be measured and reduced
 - Measure Release Manager workload to drive process improvements
 
@@ -365,8 +365,8 @@ The Delivery group respects the Company principle of [everything starting with a
 1. All Merge Requests (MRs) must go through the review process.
 1. MRs should be labeled with the [Delivery labels](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#labels).
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
-1. Follow [GitLab Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
-1. We [dogfood the Reviewers feature](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature) to assign reviewers to an MR.
+1. Follow [GitLab Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review/).
+1. We [dogfood the Reviewers feature](https://docs.gitlab.com/ee/development/code_review/#dogfooding-the-reviewers-feature) to assign reviewers to an MR.
 
 Besides, we try to apply some best practices when doing Merge Requests:
 

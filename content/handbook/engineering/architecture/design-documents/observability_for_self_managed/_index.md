@@ -22,7 +22,7 @@ The following architectural overview can be applied to both self-managed GitLab 
 ## Goals
 
 - **Offer seamless Observability features to self-managed users without requiring them to manage a scalable and reliable observability system.**
-- **Move Observability APIs to GitLabs [project resource API](https://docs.gitlab.com/ee/api/api_resources.html#project-resources).**
+- **Move Observability APIs to GitLabs [project resource API](https://docs.gitlab.com/ee/api/api_resources/#project-resources).**
 - **Maintain API consistency between .com and self-managed GitLab**
 
 ## Architecture
@@ -320,7 +320,7 @@ information required by GOB to fulfill requests and enforce quotas and limits.
 
 ## APIs
 
-All observability APIs will proxy through Workhorse and will live under GitLabs [project resource](https://docs.gitlab.com/ee/api/api_resources.html#project-resources).
+All observability APIs will proxy through Workhorse and will live under GitLabs [project resource](https://docs.gitlab.com/ee/api/api_resources/#project-resources).
 HTTP will be supported initially and gRPC will be added at a later date.
 
 ## System Monitoring

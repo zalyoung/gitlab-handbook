@@ -10,7 +10,7 @@ To help you plan, organize, and visualize a workflow, you can utilize an issue b
 
 The issue board is a software project management tool used to plan, organize, and visualize a workflow for a feature or product release. You can use it as a Kanban or a Scrum board. Issue boards can be configured to meet the needs of various project management frameworks.
 
-You can learn more in the [documentation](https://docs.gitlab.com/ee/user/project/issue_board.html).
+You can learn more in the [documentation](https://docs.gitlab.com/ee/user/project/issue_board/).
 
 In this lab, you will learn how to create a simple issue board.
 

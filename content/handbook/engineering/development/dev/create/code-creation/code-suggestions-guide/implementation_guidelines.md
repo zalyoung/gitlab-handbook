@@ -10,10 +10,10 @@ and/or **[GitLab Rails](#gitlab-rails)**.
 Code Suggestion requests can be routed **direct to the AI Gateway** or **indirect through GitLab Rails**.
 
 - For **direct-to-AIGW** requests, the IDE gets the model details from GitLab Rails through the
-[Direct Connections API endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information).
+[Direct Connections API endpoint](https://docs.gitlab.com/ee/api/code_suggestions/#fetch-direct-connection-information).
 The IDE then sends a request to AIGW with the model details fetched from the GitLab Rails.
 - For **indirect-through-GitLab-Rails** requests, the IDE sends a request to GitLab Rails'
-[Code Completions API endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#generate-code-completions).
+[Code Completions API endpoint](https://docs.gitlab.com/ee/api/code_suggestions/#generate-code-completions).
 GitLab Rails then sends a request to the AIGW.
 
 For a more in-depth overview of Code Completions vs Code Generations, and
@@ -58,9 +58,9 @@ to the AIGW.
 
 ### GitLab Rails API endpoints
 
-- [Direct Access endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information) -
+- [Direct Access endpoint](https://docs.gitlab.com/ee/api/code_suggestions/#fetch-direct-connection-information) -
 for direct-to-AIGW requests, this endpoint provides the information necessary to send a request to AIGW
-- [Code Suggestions endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#generate-code-completions) -
+- [Code Suggestions endpoint](https://docs.gitlab.com/ee/api/code_suggestions/#generate-code-completions) -
 this is the endpoint used for indirect-through-GitLab-Rails requests
 
 ## Generic guidelines for supporting a model
@@ -94,5 +94,5 @@ This should ideally be an _opt-out_ flag (instead of _opt-in_), and should alway
 
 The Feature Flag actor can be decided on a case-by-case basis, but in general:
 
-- On GitLab SaaS, the flag will be checked against the _top-level group_ that is providing the user with the [GitLab Duo Add-on](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html) seat.
+- On GitLab SaaS, the flag will be checked against the _top-level group_ that is providing the user with the [GitLab Duo Add-on](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/) seat.
 - On Self-Managed GitLab instances, the flag can be checked on the instance level.

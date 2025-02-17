@@ -174,7 +174,7 @@ To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-
 1. Create OKRs, and KR items.
 1. Add the following labels: `Division::Marketing`, `Department::Developer Relations`, `OKR`.
 
-**OKR Health:** We use [issue health](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) indicators to help people understand an OKRs status at a glance. These status indicators are:
+**OKR Health:** We use [issue health](https://docs.gitlab.com/ee/user/project/issues/managing_issues/#health-status) indicators to help people understand an OKRs status at a glance. These status indicators are:
 
 - `on track`
 - `needs attention`

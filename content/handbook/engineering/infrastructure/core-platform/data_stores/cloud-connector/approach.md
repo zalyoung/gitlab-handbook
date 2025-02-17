@@ -57,7 +57,7 @@ Each of these areas (I/O, CPU, and memory) come with different tooling to analyz
 approaches be taken to optimize them, which is beyond the scope of this document, but a good start might be:
 
 * [Our group's knowledge database](knowledge.html)
-* [The GitLab performance docs](https://docs.gitlab.com/ee/development/performance.html)
+* [The GitLab performance docs](https://docs.gitlab.com/ee/development/performance/)
 
 ### Create meaningful benchmarks
 
@@ -112,7 +112,7 @@ queries fire per every relation that is processed. This leads to a kind of mega-
 has tens or hundreds of thousands of merge requests or issues, all of which have dependencies themselves
 that need to be imported, then we would end up performing a number of database inserts equal to a multiple
 of all these relations. We found that we were able to mitigate some of this overhead without completely changing
-the design by moving to [batch insertions](https://docs.gitlab.com/ee/development/database/insert_into_tables_in_batches.html) instead.
+the design by moving to [batch insertions](https://docs.gitlab.com/ee/development/database/insert_into_tables_in_batches/) instead.
 
 ### Overreliance on ActiveRecord
 
@@ -129,7 +129,7 @@ the more costly it was to process it. We addressed this by moving to a streaming
 already been processed before can be released. This also works at smaller scale. For instance, when processing database
 records in batch, they should be fetched so that each batch is processed individually instead of loading all batches and
 then iterating over them. In fact we have first-class support for this via the
-[`in_batches` helper](https://docs.gitlab.com/ee/development/database/iterating_tables_in_batches.html), but the idea applies to
+[`in_batches` helper](https://docs.gitlab.com/ee/development/database/iterating_tables_in_batches/), but the idea applies to
 more than just database queries.
 
 ### Scaling via processes or threads in Ruby
@@ -143,7 +143,7 @@ This is the approach the popular Unicorn web server uses.
 Moving to a threaded model of concurrency, while not necessarily as CPU efficient, can yield memory savings since threads
 can share memory with their host process, whereas running multiple processes to achieve parallelism implies less memory
 is shared (although there are techniques one can exploit such as the lazy allocation of new unshared memory pages via
-[copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write).) Again, [migrating from Unicorn to Puma](https://docs.gitlab.com/ee/administration/operations/puma.html) was an example of this
+[copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write).) Again, [migrating from Unicorn to Puma](https://docs.gitlab.com/ee/administration/operations/puma/) was an example of this
 and resulted in a significant reduction in memory use across GitLab.
 
 ### Finding performance/product trade-offs
@@ -164,5 +164,5 @@ actually benchmarking it, which is an anti-pattern as outlined above.
 
 It is not an area we think developers should rely on too much for performance sensitive tasks, but in some cases it can
 be useful to give directions as to how something can be improved, especially if the improvement is simple or could
-even be auto-corrected because it's a one-liner. A good example for this is the file I/O API, which offers [faster variants of certain methods](https://docs.gitlab.com/ee/development/performance.html#reading-from-files-and-other-data-sources)
+even be auto-corrected because it's a one-liner. A good example for this is the file I/O API, which offers [faster variants of certain methods](https://docs.gitlab.com/ee/development/performance/#reading-from-files-and-other-data-sources)
 that are just as easy to use, so we might as well make sure that these will never turn into performance problems to begin with!

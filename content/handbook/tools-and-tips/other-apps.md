@@ -12,7 +12,7 @@ request certain permissions for them. Please always be cautious of the
 permissions requested by the application. For example a GitLab integration that
 only requests to be able to read your user profile can be appropriate, however
 an integration shouldn't be able to have read or write access the API. Similarly,
-you should not input a GitLab [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+you should not input a GitLab [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens/)
 linked to your work account in a third-party tool.
 
 Here are some non-exhaustive guidelines:

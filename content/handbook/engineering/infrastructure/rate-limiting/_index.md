@@ -212,7 +212,7 @@ There are multiple application rate limiting mechanisms in place that can often 
 - [Application Rate Limiter](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb)
 - [Plan Limits](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/helpers/plan_limits_helper.rb)
 
-Please see [Application Limits Development](https://docs.gitlab.com/ee/development/application_limits.html) to contribute application limits to GitLab.
+Please see [Application Limits Development](https://docs.gitlab.com/ee/development/application_limits/) to contribute application limits to GitLab.
 
 ### Overview
 
@@ -275,9 +275,9 @@ Configurable list of paths e.g. `/user/sign_in`
 
 ### RackAttack
 
-GitLab utilises [RackAttack](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-rackattack) as middleware to throttle Rack requests. These can be configured by extending `Gitlab::RackAttack` and `Gitlab::RackAttack::Request`.
+GitLab utilises [RackAttack](https://docs.gitlab.com/ee/development/application_limits/#implement-rate-limits-using-rackattack) as middleware to throttle Rack requests. These can be configured by extending `Gitlab::RackAttack` and `Gitlab::RackAttack::Request`.
 
-For more information about configuring rate limits for a GitLab instance, see the [User and IP rate limits](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html) doc.
+For more information about configuring rate limits for a GitLab instance, see the [User and IP rate limits](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits/) doc.
 
 You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
 [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/
@@ -288,7 +288,7 @@ flexibility than what Rack Attack can provide, since it can throttle at the cont
 
 There is no way to bypass these rate limits (e.g. for select users/groups/projects); when the rate limit is reached a plain response with a 429 status code is issued without rate limiting headers.
 
-Instructions for configuring these rate limits can be found in the [GitLab docs](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-gitlabapplicationratelimiter).
+Instructions for configuring these rate limits can be found in the [GitLab docs](https://docs.gitlab.com/ee/development/application_limits/#implement-rate-limits-using-gitlabapplicationratelimiter).
 
 For more information about introducing new Rate Limits for GitLab, see the [Product Processes Handbook](product/product-processes/#introducing-application-limits) page.
 
@@ -311,7 +311,7 @@ There are no rate limit exceptions available for Registry.
 
 ## Headers
 
-The list of semi-standard rate limiting response headers can be found [here](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html#response-headers).
+The list of semi-standard rate limiting response headers can be found [here](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits/#response-headers).
 
 - `Cloudflare` does not return rate limit response headers on any request.
 - `RackAttack` returns rate limit response headers on throttled requests only.
@@ -334,6 +334,6 @@ Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/
 ## Important Links
 
 - [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits)
-- [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
+- [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits/)
 - [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/ks/-/tree/master/docs/rate-limiting)
 - [handbook: Identifying the cause of IP Blocks on GitLab.com](/handbook/support/workflows/ip-blocks/)

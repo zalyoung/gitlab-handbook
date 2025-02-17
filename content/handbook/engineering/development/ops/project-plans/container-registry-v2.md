@@ -271,7 +271,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Continue testing and documentation for manual Charts migration
 - Completed:
   - Progress on Charts documentation [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/436406)
-  - Merged Omnibus documentation [docs](https://docs.gitlab.com/ee/administration/packages/container_registry_metadata_database.html)
+  - Merged Omnibus documentation [docs](https://docs.gitlab.com/ee/administration/packages/container_registry_metadata_database/)
 
 #### Week of Jan 29-Feb 2
 

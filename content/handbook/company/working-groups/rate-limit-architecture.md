@@ -30,7 +30,7 @@ In addition to addressing DoS vectors to ensure high availability we have goals 
 - consistent, comprehensive documentation of limits
 - synchronization of GitLab.com limit settings with GitLab default limits
 
-Currently there are multiple approaches to rate limiting documented in [GitLab application limits development documentation](https://docs.gitlab.com/ee/development/application_limits.html).
+Currently there are multiple approaches to rate limiting documented in [GitLab application limits development documentation](https://docs.gitlab.com/ee/development/application_limits/).
 
 ### Exit Criteria
 

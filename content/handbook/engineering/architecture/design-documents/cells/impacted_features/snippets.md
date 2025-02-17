@@ -20,9 +20,9 @@ Snippets will be scoped to an Organization. Initially it will not be possible to
 
 Two different types of snippets exist:
 
-- [Project snippets](https://docs.gitlab.com/ee/api/project_snippets.html). These snippets have URLs
+- [Project snippets](https://docs.gitlab.com/ee/api/project_snippets/). These snippets have URLs
   like `/<group>/<project>/-/snippets/123`
-- [Personal snippets](https://docs.gitlab.com/ee/user/snippets.html). These snippets have URLs like
+- [Personal snippets](https://docs.gitlab.com/ee/user/snippets/). These snippets have URLs like
   `/-/snippets/123`
 
 Snippets are backed by a Git repository.
@@ -51,5 +51,5 @@ Snippets are scoped to an Organization because Gitaly is confined to a Cell.
 
 ## 4.2. Cons
 
-- We will break [snippet discovery](https://docs.gitlab.com/ee/user/snippets.html#discover-snippets).
+- We will break [snippet discovery](https://docs.gitlab.com/ee/user/snippets/#discover-snippets).
 - Snippet access may become subordinate to the visibility of the Organization.

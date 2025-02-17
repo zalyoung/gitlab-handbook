@@ -283,4 +283,4 @@ using one of two confidential issue templates:
 - [Support Workflows: IP Blocks](/handbook/support/workflows/ip-blocks/)
 - [Runbooks: Rate Limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
 - [Runbooks: Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare)
-- [Docs: RackAttack Troubleshooting](https://docs.gitlab.com/ee/security/rate_limits.html#troubleshooting)
+- [Docs: RackAttack Troubleshooting](https://docs.gitlab.com/ee/security/rate_limits/#troubleshooting)

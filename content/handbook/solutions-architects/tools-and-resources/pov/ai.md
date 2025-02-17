@@ -45,7 +45,7 @@ We need to proactively identify languages, testing questions and teams with them
   - Before: a time estimate if they were working as usual
   - After: the time it actually took, with the help of AI-powered features.
   - After: include qualitative feedback about the comfort of working, quality of software, etc.
-- Familiarize yourself with [Duo Chat best practices](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/) and [Duo Code Suggestions top tips](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/). There are some great tips and tricks in this blog to assist with integrating Duo Chat and Code Suggestions into a customer’s workflow. Check the documentation for more practical [GitLab Duo uses case](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html).
+- Familiarize yourself with [Duo Chat best practices](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/) and [Duo Code Suggestions top tips](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/). There are some great tips and tricks in this blog to assist with integrating Duo Chat and Code Suggestions into a customer’s workflow. Check the documentation for more practical [GitLab Duo uses case](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases/).
 
 ## Pre-requisites
 
@@ -62,7 +62,7 @@ We need to make sure the customer has gone through the AI hands-on [workshop](/h
 Set-up the POV instance with your customer's POV lead or technical counterpart.
 
 - Getting GitLab Duo trial Licenses
-  - For existing GitLab customers, [follow the steps here to request Duo trail](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial)
+  - For existing GitLab customers, [follow the steps here to request Duo trail](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/#start-gitlab-duo-pro-trial)
   - For prospects, request trial licenses [here](https://about.gitlab.com/solutions/gitlab-duo-pro/sales/?toggle=gitlab-duo-pro) 
 - Setup the patricipant environment, their IDE and do a trial run. Below are a few links and documents to help.
   - GitLab University - [Duo Learning Track](https://university.gitlab.com/pages/ai)

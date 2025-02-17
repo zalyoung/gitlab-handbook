@@ -37,5 +37,5 @@ to check for errors, and handle them as appropriate.
 1. If it is a simple fix, fix and close the incident
 1. If it is not a simple fix
    1. Open a follow up issues to handle the fix
-   1. [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#quarantined-tests) the failing test
+   1. [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests/#quarantined-tests) the failing test
    1. Close the incident

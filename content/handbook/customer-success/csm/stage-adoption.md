@@ -42,7 +42,7 @@ If there is no data currently being recorded for your customer in version.gitlab
 
 - Using GitLab for git repo storage and code review (MR's).
 
-Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html) you can determine if the customer is doing the following:
+Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary/) you can determine if the customer is doing the following:
 
 - Using Merge Requests as part of the development lifecycle. (counts.merge_requests)
 - Increase in projects with repositories with continuous growth over 3 months (counts.projects_with_repositories_enabled)
@@ -61,7 +61,7 @@ If there is no data currently being recorded for your customer in version.gitlab
 - More than 25% of teams or projects are using GitLab CI/CD.
 - When 75+% of pipelines are using GitLab CI/CD.
 
-Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html) you can determine if the customer is doing the following:
+Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary/) you can determine if the customer is doing the following:
 
 - Made instance level shared Runner(s) available. (gitlab_shared_runners_enabled)
 - Using Continuous Integration (CI) with continuous growth over 3 months (ci_internal_pipelines)
@@ -88,7 +88,7 @@ If there is no data currently being recorded for your customer in version.gitlab
 
 - Using one of more of our security testing tools (SAST, DAST, Container Scanning, Dependency Scanning) with continuous growth over 3 months
 
-Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html) you can determine if the customer is doing the following:
+Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary/) you can determine if the customer is doing the following:
 
 - Using one of more of our security testing tools (SAST, DAST, Container Scanning, Dependency Scanning) with continuous growth over 3 months
 - SAST jobs (counts.sast_jobs)
@@ -111,7 +111,7 @@ Usage Discovery Questions:
 - From a feature standpoint, if they are using 2 of the following features...
   - [Pages](https://docs.gitlab.com/ee/user/project/pages/)
   - [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/)
-  - [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html)
+  - [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags/)
   - [Release Orchestration](https://docs.gitlab.com/ee/user/project/releases/)
 
 Usage Discovery Questions:
@@ -148,7 +148,7 @@ Usage Discovery Questions:
 - [Vulnerability List](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/)
 - [Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/)
 - [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
-- Making use of [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) at the instance level as part of managing GitLab.
+- Making use of [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports/) at the instance level as part of managing GitLab.
 - Using [Compliance Management](https://about.gitlab.com/direction/software_supply_chain_security/compliance/compliance-management/) within GitLab.
 
 Usage Discovery Questions:

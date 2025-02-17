@@ -64,7 +64,7 @@ Assigning error budgets down to the feature category sets a baseline for specifi
 ## How do we determine the highest priority improvements?
 
 Each group has a `Budget spend attribution` section in their
-[Budget detail dashboard](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/error_budget_detail.html) that allows them to [discover where their budget is being spent](https://docs.gitlab.com/ee/development/stage_group_observability/#check-where-budget-is-being-spent).
+[Budget detail dashboard](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/error_budget_detail/) that allows them to [discover where their budget is being spent](https://docs.gitlab.com/ee/development/stage_group_observability/#check-where-budget-is-being-spent).
 
 Both the `Budget failures` panel and each link in the `Failure log links` panel are ordered by the number of errors. Prioritising fixing the top offenders in these tables will have the biggest impact on the budget spent.
 
@@ -165,7 +165,7 @@ There is [an example available](error-budget-by-stage-group-example.md) with a m
 
 The current [28 day](/handbook/enterprise-data/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups). Feature categories for that stage group are rolled up to a single value.
 
-Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/stage_group_dashboard.html)
+Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/stage_group_dashboard/)
 
 The formula for calculating availability:
 

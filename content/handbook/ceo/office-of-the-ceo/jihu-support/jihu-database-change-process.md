@@ -69,7 +69,7 @@ Other types of database objects, e.g. triggers, functions, extensions, etc., wil
 
 A migration that mutates existing data is also merged into the upstream project. However, we'd like to avoid executing JiHu-specific data migrations in a regular GitLab environment, particularly on GitLab.com.
 
-Any JiHu-specific data migration (including background migrations) is encouraged to target JiHu environments only and will need to go through the standard [database review process](https://docs.gitlab.com/ee/development/database_review.html).
+Any JiHu-specific data migration (including background migrations) is encouraged to target JiHu environments only and will need to go through the standard [database review process](https://docs.gitlab.com/ee/development/database_review/).
 
 ### Switching between GitLab and JiHu
 
@@ -104,11 +104,11 @@ Reviewing changes with database migrations but without the related code changes 
 In order to help GitLab reviewers to understand the context in more detail, we ask to have the related code change ready and reviewed, before asking for a database review.
 The related code change should be linked from the merge request, along with any useful background information.
 
-Otherwise we follow the same process as outlined in [How to prepare the merge request for database review](https://docs.gitlab.com/ee/development/database_review.html#how-to-prepare-the-merge-request-for-a-database-review).
+Otherwise we follow the same process as outlined in [How to prepare the merge request for database review](https://docs.gitlab.com/ee/development/database_review/#how-to-prepare-the-merge-request-for-a-database-review).
 
 ### Sending merge requests with database migrations from a fork
 
-In order to increase the review efficiency when creating a merge request from a fork, we suggest to [configure the `DANGER_GITLAB_API_TOKEN`](https://docs.gitlab.com/ee/development/dangerbot.html#limitations) in the forked project. This will allow to run Danger, which is going to suggest relevant reviewers among other helpful content relevant for review.
+In order to increase the review efficiency when creating a merge request from a fork, we suggest to [configure the `DANGER_GITLAB_API_TOKEN`](https://docs.gitlab.com/ee/development/dangerbot/#limitations) in the forked project. This will allow to run Danger, which is going to suggest relevant reviewers among other helpful content relevant for review.
 
 ### Questions?
 

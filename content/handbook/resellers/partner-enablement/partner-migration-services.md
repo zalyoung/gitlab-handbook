@@ -34,13 +34,13 @@ Similarly, the [Migration group](https://gitlab.com/gitlab-org/professional-serv
 
 To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources) and [Other Import Sources](https://docs.gitlab.com/ee/user/project/import/#other-import-sources) (anchor link on the same page).
 
-Migrating pipelines from other systems, [like Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html), is a value-added **manual** development process. There are automated tools for such migrations out there, but there's none officially supported by GitLab. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [environmental variables](https://docs.gitlab.com/ee/ci/variables/), and secrets used. Partners find a time and materials style contract helpful when consulting on developing pipelines between other source systems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
+Migrating pipelines from other systems, [like Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins/), is a value-added **manual** development process. There are automated tools for such migrations out there, but there's none officially supported by GitLab. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [environmental variables](https://docs.gitlab.com/ee/ci/variables/), and secrets used. Partners find a time and materials style contract helpful when consulting on developing pipelines between other source systems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
 
 ## From GitLab self-managed to GitLab self-managed
 
-The best way to migrate from one self-managed GitLab server to another is to perform a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/) at the source instance and then a restore at the target instance. Step-by-step directions are available on our [Migrate to a new server](https://docs.gitlab.com/ee/administration/backup_restore/migrate_to_new_server.html) docs page.
+The best way to migrate from one self-managed GitLab server to another is to perform a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/) at the source instance and then a restore at the target instance. Step-by-step directions are available on our [Migrate to a new server](https://docs.gitlab.com/ee/administration/backup_restore/migrate_to_new_server/) docs page.
 
-Please note that this migration method only works if [the source and target instances have the exact same version](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab.html#the-destination-gitlab-instance-must-have-the-exact-same-version). If it's not the case for your customer's environments (typically it's the source system which lags behind), then our [Upgrade Path tool](https://docs.gitlab.com/ee/update/#upgrade-path-tool) can help with planning the necessary upgrades on the source system. (Make sure to do a full backup **BEFORE** the upgrades!)
+Please note that this migration method only works if [the source and target instances have the exact same version](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab/#the-destination-gitlab-instance-must-have-the-exact-same-version). If it's not the case for your customer's environments (typically it's the source system which lags behind), then our [Upgrade Path tool](https://docs.gitlab.com/ee/update/#upgrade-path-tool) can help with planning the necessary upgrades on the source system. (Make sure to do a full backup **BEFORE** the upgrades!)
 
 ## Air-gapped environments
 
@@ -60,15 +60,15 @@ There are three different options for these migrations.
 
 For cases that direct transfer can't or won't cover. A good example would be air-gapped environments - see above.
 
-- [Migrating projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html)
+- [Migrating projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export/)
 
-- [Items that are exported via file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-exported)
+- [Items that are exported via file exports](https://docs.gitlab.com/ee/user/project/settings/import_export/#items-that-are-exported)
 
-- [Items that are not exported via file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-not-exported)
+- [Items that are not exported via file exports](https://docs.gitlab.com/ee/user/project/settings/import_export/#items-that-are-not-exported)
 
-- [Project import and export API](https://docs.gitlab.com/ee/api/project_import_export.html)
+- [Project import and export API](https://docs.gitlab.com/ee/api/project_import_export/)
 
-- [Group import and export API](https://docs.gitlab.com/ee/api/group_import_export.html)
+- [Group import and export API](https://docs.gitlab.com/ee/api/group_import_export/)
 
 ### 2. Direct transfer (Beta)
 
@@ -104,7 +104,7 @@ Important to note about Congregate:
 
 [Recommendation](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#does-congregate-migrate-data-from-packagecontainer-management-tools-like-artifactory-or-nexus) (regardless of the use of Congregate): "We typically suggest customers establish pipeline jobs in GitLab after source code migration to publish these containers/packages to the GitLab registry as desired. For customers who are interested in maintaining audit history, we suggest keeping the legacy package/container registry tool around with a reduced license spend until the audit window expires."
 
-In case the migration of history is also required, the [packages importer tool](https://gitlab.com/gitlab-org/ci-cd/package-stage/pkgs_importer) can be used. Documentation [here](https://docs.gitlab.com/ee/user/packages/package_registry/supported_functionality.html#importing-packages-from-other-repositories).
+In case the migration of history is also required, the [packages importer tool](https://gitlab.com/gitlab-org/ci-cd/package-stage/pkgs_importer) can be used. Documentation [here](https://docs.gitlab.com/ee/user/packages/package_registry/supported_functionality/#importing-packages-from-other-repositories).
 
 ## GitLab Professional Migration Services
 

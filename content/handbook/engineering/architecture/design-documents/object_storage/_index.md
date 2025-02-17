@@ -53,7 +53,7 @@ This has led to increased complexity across the board, from development
   but never enabled globally.
 - Today, GitLab supports both local storage and object storage. Local
   storage only works on single box installations or with a NFS, which
-  [we no longer recommend](https://docs.gitlab.com/ee/administration/nfs.html) to our
+  [we no longer recommend](https://docs.gitlab.com/ee/administration/nfs/) to our
   users and is no longer in use on GitLab.com.
 - Understanding all the moving parts and the flow is extremely
   complicated: we have CarrierWave, Fog, Go S3/Azure SDKs, all
@@ -85,7 +85,7 @@ local storage and object storage.
 With local storage, there is the assumption of a shared storage
 between components. This can be achieved by having a single box
 installation, without HA, or with a NFS, which
-[we no longer recommend](https://docs.gitlab.com/ee/administration/nfs.html).
+[we no longer recommend](https://docs.gitlab.com/ee/administration/nfs/).
 
 We have a testing gap on object storage. It also requires Workhorse
 and MinIO, which are not present in our pipelines, so too much is
@@ -127,7 +127,7 @@ infrastructure. It also makes the initial installation more complex
 feature after feature.
 
 Implementing a direct upload by default, with a
-[consolidated object storage configuration](https://docs.gitlab.com/ee/administration/object_storage.html#configure-a-single-storage-connection-for-all-object-types-consolidated-form#configure-a-single-storage-connection-for-all-object-types-consolidated-form)
+[consolidated object storage configuration](https://docs.gitlab.com/ee/administration/object_storage/#configure-a-single-storage-connection-for-all-object-types-consolidated-form#configure-a-single-storage-connection-for-all-object-types-consolidated-form)
 will reduce the number of merge requests needed to ship a new feature
 from four to only one. It will also remove the need for SRE
 intervention as the bucket will always be the same.

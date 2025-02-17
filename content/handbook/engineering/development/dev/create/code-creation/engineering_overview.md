@@ -105,7 +105,7 @@ The components pictured on the diagram are described in the [technical overview]
 
 Code Generation interaction is another type of code creation request that can be triggered by IDE. Its goal is to provide long and extensive responses generating
 complete blocks of code like functions or classes. It has a much longer response time than code completions (up to 30 seconds). This type of code creation request
-takes extended context into account when resolving the user task. This context comes from current files in IDE as well as [Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) report.
+takes extended context into account when resolving the user task. This context comes from current files in IDE as well as [Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray/) report.
 
 ```mermaid
 sequenceDiagram
@@ -128,7 +128,7 @@ remains unchanged.
 
 ## Repository X-Ray
 
-[Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) is a feature that generates additional context data for code generation requests. This data is used to ground the AI model into the context of existing source code and align it with its private API as well as coding patterns.
+[Repository X-Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray/) is a feature that generates additional context data for code generation requests. This data is used to ground the AI model into the context of existing source code and align it with its private API as well as coding patterns.
 
 Repository X-Ray report is generated as shown on following diagram:
 
@@ -157,9 +157,9 @@ Existing Repository X-Ray reports are included into code generation requests as 
 ## Code Tasks
 
 A user can also use one of the predefined chat commands to suggest changes in the selected code.
-We currently support [refactoring](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#refactor-code-in-the-ide),
-[explaining code](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#explain-code-in-the-ide),
-and [writing tests](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#write-tests-in-the-ide).
+We currently support [refactoring](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples/#refactor-code-in-the-ide),
+[explaining code](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples/#explain-code-in-the-ide),
+and [writing tests](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples/#write-tests-in-the-ide).
 These commands can be used in Duo Chat and also its response is displayed in Duo Chat window.
 
 ```mermaid

@@ -23,7 +23,7 @@ Most of the details discussed below are also available as individual issues whic
 
 ## User Authentication
 
-- Authentication via [SAML](https://docs.gitlab.com/ee/integration/saml.html#general-setup)
+- Authentication via [SAML](https://docs.gitlab.com/ee/integration/saml/#general-setup)
 - Authentication via LDAP - Please check with dedicated team (Still part of the roadmap)
 
 ## Connectivity

@@ -90,9 +90,9 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 - [Geo](https://docs.gitlab.com/ee/administration/geo/)
 - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)
-- [Planned Failover](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover.html)
-- [Background Verification](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/background_verification.html)
-- [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary.html)
+- [Planned Failover](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover/)
+- [Background Verification](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/background_verification/)
+- [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary/)
 
 ### Issue Lists
 
@@ -127,7 +127,7 @@ If you recorded the demo, please make sure the recording ends up in that folder.
 
 ## Geo Terminology
 
-See the [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary.html).
+See the [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary/).
 
 ## Dashboards
 

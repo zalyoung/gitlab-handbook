@@ -19,7 +19,7 @@ Runway is maintained by the [Scalability:Practices](/handbook/engineering/infras
 
 - [AI-gateway](/handbook/engineering/architecture/design-documents/ai_gateway/)
 - [Duo Workflow](/handbook/engineering/architecture/design-documents/duo_workflow/)
-- [PVS Service](https://docs.gitlab.com/ee/administration/external_pipeline_validation.html)
+- [PVS Service](https://docs.gitlab.com/ee/administration/external_pipeline_validation/)
 - [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse)
 - [glgo](https://gitlab.com/gitlab-org/architecture/gitlab-gcp-integration/glgo)
 - [Runway Docs](https://docs.runway.gitlab.com/)

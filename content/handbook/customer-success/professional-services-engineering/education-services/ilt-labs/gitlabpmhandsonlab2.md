@@ -51,7 +51,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Ensure that the **Visibility level** is set to `Private`.
 
-   > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+   > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access/).
 
 1. Click the **Create subgroup** button.
    - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>/awesome`.
@@ -80,7 +80,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Set the **Visibility Level** to private.
 
-   > See the [visibility docs](https://docs.gitlab.com/ee/user/public_access.html) to learn more. Keep in mind that any parent groups that have `Private` visibility will be inherited for all child groups and projects and cannot be changed.
+   > See the [visibility docs](https://docs.gitlab.com/ee/user/public_access/) to learn more. Keep in mind that any parent groups that have `Private` visibility will be inherited for all child groups and projects and cannot be changed.
    >
    > **Training Environment Limitation:** In the training environment, your group is part of a private parent group so you will not be able to make a group or project `Public`. To test working with public projects, you can create a project in your personal namespace.
 
@@ -100,7 +100,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. In the **Select a role** dropdown, select **Developer**.
 
-   > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
+   > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions/) to learn more about each role level.
 
 1. Click the **Invite** button.
 

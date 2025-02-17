@@ -22,7 +22,7 @@ The testing strategy for Cells follows our practice of testing at the correct le
   - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
 - Non functional testing will also be included
   - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
-  - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
+  - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide/), ensuring that the migrations are performant and handle .com scale
   - Performance testing
     - We will the the Observability tools to do performance analysis on the live environments
     - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures

@@ -313,7 +313,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
    - If you configured a group runner, navigate back to the **CI/CD > Runners** page in your group. You should now see your runner listed with an **Online** status.
 
-     > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) for additional details)
+     > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration/) for additional details)
 
    - If you configured a project runner, navigate back to the **Settings > CICD** page and expand the **Runners** section. You should now see your runner listed with an **Online** status.
 

@@ -1254,7 +1254,7 @@ graph TD
   F -->|No| H[Run dbt jobs against production]
 ```
 
-In the case where you have a merge request in `data-tests` and one in `analytics`, the `analytics` [MR should be set as a dependency](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html) of the `data-tests` MR. This means that the `analytics` MR must be merged prior the `data-tests` MR being merged.
+In the case where you have a merge request in `data-tests` and one in `analytics`, the `analytics` [MR should be set as a dependency](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies/) of the `data-tests` MR. This means that the `analytics` MR must be merged prior the `data-tests` MR being merged.
 
 #### Running the newly introduced dbt tests in the data-tests project
 

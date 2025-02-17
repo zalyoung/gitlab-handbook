@@ -38,7 +38,7 @@ If we delete the entire job, this can break customer pipelines if they have prov
 We're required to publish notices in advance of potentially-breaking changes.
 See [Deprecations, removals, and breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/) for details on the required process.
 
-An example of a previous SAST analyzer deprecation notice is [the notice from 14.8](https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-consolidation-and-cicd-template-changes).
+An example of a previous SAST analyzer deprecation notice is [the notice from 14.8](https://docs.gitlab.com/ee/update/deprecations/#sast-analyzer-consolidation-and-cicd-template-changes).
 
 The Product Manager and Engineering Manager for SAST are responsible for publishing this announcement.
 Engineers implementing an analyzer removal are responsible for adhering to the stated scope of the change notice, and informing the PM/EM of any important changes to how customers will be affected by the change.

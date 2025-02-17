@@ -164,7 +164,7 @@ To emulate this locally, follow these steps:
 1. Within the same shell session run `gdk restart`
 1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
 
-See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
+See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features/#act-as-saas) for more details.
 
 ### Cross-stack collaboration
 

@@ -13,7 +13,7 @@ If something is missing, add it (as goes with everything at GitLab)!
 We have multiple [GitLab environments](/handbook/engineering/infrastructure/environments/).
 
 On those instances, please enable the
-[performance bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html)
+[performance bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar/)
 by pressing <kbd>p</kbd> then <kbd>b</kbd> (even on production.)
 
 Then, read how to use and enable the
@@ -91,7 +91,7 @@ merged sooner.
 
 Unless the change is very minor, or is fixing a bug that was introduced in the
 same version, create a changelog entry using the
-[`Changelog` Git commit trailer](https://docs.gitlab.com/ee/development/changelog.html).
+[`Changelog` Git commit trailer](https://docs.gitlab.com/ee/development/changelog/).
 Do not include your name in the entry as we only do that to give recognition to
 volunteer contributors.
 
@@ -108,7 +108,7 @@ Wider community members should contact the [Contributor Success team](/handbook/
 
 ### Ruby Gems
 
-Follow the [development guidelines for Ruby gems](https://docs.gitlab.com/ee/development/gems.html).
+Follow the [development guidelines for Ruby gems](https://docs.gitlab.com/ee/development/gems/).
 
 ## Get involved with the wider community
 

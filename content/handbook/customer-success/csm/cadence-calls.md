@@ -82,7 +82,7 @@ With every customer call, always be sure to have an agenda prepared and share it
 
 Additionally, there may be specific items that are worthwhile to discuss about their self-managed subscription on a regular basis:
 
-- Discuss monthly releases & inquire about frequency of their planned upgrades, letting them know about our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html)
+- Discuss monthly releases & inquire about frequency of their planned upgrades, letting them know about our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance/)
 - Inform customer about our [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and that these are the only supported architectures
   - Inquire about current and projected user count to ensure the architecture allows for future growth and is the appropriate scale
 - Inform customer about the [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
@@ -192,7 +192,7 @@ These are suggestions that can be used at any time on customer calls.
 - If self-managed, review their current version, planned upgrades, and if they need [Upgrade Assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/#how-do-i-schedule-upgrade-assistance)
 - If self-managed, review if there are any planned, upcoming, or ongoing deployment changes (e.g. Geo, HA, etc.) and ensure they are familiar with support
 - If self-managed, discuss their backup/recovery plans and if they have recently tested restoring from a backup
-- If self-managed, discuss if they have [signups enabled](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions.html)
+- If self-managed, discuss if they have [signups enabled](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions/)
 - If self-managed, raise the importance of GitLab Security patches and use it as an additional argument to enable usage/service ping reports of GitLab
 - If self-managed, emphasize the importance of opting-in to security alerts
 - If using a collaboration project, the CSM can configure a scheduled job to create agenda issues on a monthly frequency. Instructions for that are in each collaboration project's [instructions file](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/master/PLEASE-READ-THESE-INSTRUCTIONS.md).

@@ -502,7 +502,7 @@ Candidate should ideally be:
 - Methodical when troubleshooting and solving problems.
 - Experienced in working on large scale systems.
 - Experienced in application and systems observability.
-- Have working knowledge of one or more of the [technologies](https://docs.gitlab.com/ee/development/architecture.html) used to deliver GitLab.com.
+- Have working knowledge of one or more of the [technologies](https://docs.gitlab.com/ee/development/architecture/) used to deliver GitLab.com.
 - Able to articulate systems performance concepts to other engineers.
 
 Other qualifications include:

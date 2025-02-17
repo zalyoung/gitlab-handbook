@@ -25,7 +25,7 @@ You can then drill down from there with positive and negative filters on [fields
 
 ### Checking for Rack Attack Blocks
 
-If a user has been blocked by [Rack Attack](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-rackattack), we should be able to locate requests in Kibana that were blocked because of it.
+If a user has been blocked by [Rack Attack](https://docs.gitlab.com/ee/development/application_limits/#implement-rate-limits-using-rackattack), we should be able to locate requests in Kibana that were blocked because of it.
 
 To do so, enter the IP address into the main search field and set a positive filter on `json.message` for `Rack_Attack`.
 
@@ -150,7 +150,7 @@ You should also see `git-upload-pack` in the `json.params` field.
 
 ### Project Export Rate-Limiting
 
-An IP can become rate-limited if a customer attempts to export or download project exports too rapidly. See [Project Import/Export](https://docs.gitlab.com/ee/user/project/settings/import_export.html#rate-limits)
+An IP can become rate-limited if a customer attempts to export or download project exports too rapidly. See [Project Import/Export](https://docs.gitlab.com/ee/user/project/settings/import_export/#rate-limits)
 
 #### Useful Fields
 
@@ -164,7 +164,7 @@ An IP can become rate-limited if a customer attempts to export or download proje
 
 ### Email verification process
 
-In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification.html). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/#ip-blocks).
+In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification/). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/#ip-blocks).
 
 #### Useful Fields
 

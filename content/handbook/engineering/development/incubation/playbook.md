@@ -151,8 +151,8 @@ Incubation Engineers should familiarize themselves with the [GitLab AppSec Revie
 
 Incubation Engineers are often required to create prototypes or demo applications as they are iterating on ideas and gathering feedback. Below are some security guidelines to keep in mind while building these applications:
 
-* Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
-* Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+* Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens/) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
+* Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines/).
 * Use of [Personal Access Tokens is discouraged](/handbook/security/#tokens), Project Access Tokens are often sufficient.
 
 ### UX Engagement with Incubation Projects

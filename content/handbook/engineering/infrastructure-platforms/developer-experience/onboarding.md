@@ -16,11 +16,11 @@ and complete the issue.
   * [GitLab QA Orchestrator Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/README.md)
   * [GitLab QA Testing Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/README.md#documentation)
 * General testing guidelines
-  * [Testing standards and style guidelines](https://docs.gitlab.com/ee/development/testing_guide/index.html)
+  * [Testing standards and style guidelines](https://docs.gitlab.com/ee/development/testing_guide/index/)
 * CI infrastructure for CE and EE
   * [GitLab project pipelines](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
   * [Testing from CI](https://docs.gitlab.com/ee/development/cicd/)
-  * [Review Apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html)
+  * [Review Apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps/)
 * Tests statistics
   * [Redash Test Suite Statistics](https://redash.gitlab.com/dashboard/test-suite-statistics)
 * Insights dashboard

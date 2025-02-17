@@ -27,14 +27,14 @@ This is one of the [pipelines monitored by the Test Platform team](/handbook/eng
 Secure stage has additional testing to test that analyzers can execute in an offline fashion.
 More information on [secure tests](https://gitlab.com/gitlab-org/security-products/tests/common/-/blob/master/README.md#known-testing-branches)(internal only).
 
-Otherwise for setting up an offline environment for testing, the [Getting started with an offline GitLab Installation](https://docs.gitlab.com/ee/topics/offline/quick_start_guide.html) guide can be followed.
+Otherwise for setting up an offline environment for testing, the [Getting started with an offline GitLab Installation](https://docs.gitlab.com/ee/topics/offline/quick_start_guide/) guide can be followed.
 Instructions for working with secure scanners can be found in the [Offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/) guide.
 
 ### GitLab Upgrades
 
-The goal of GitLab Upgrades test coverage is to ensure that a customer following the [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths) will be successful.
+The goal of GitLab Upgrades test coverage is to ensure that a customer following the [upgrade path](https://docs.gitlab.com/ee/update/index/#upgrade-paths) will be successful.
 
-To achieve the best coverage, Test Platform follows the [Test Pyramid approach](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
+To achieve the best coverage, Test Platform follows the [Test Pyramid approach](https://docs.gitlab.com/ee/development/testing_guide/testing_levels/)
 by shifting left to unit tests without build environments in merge requests
 and going up to system level testing with actual environments being built:
 
@@ -48,7 +48,7 @@ and going up to system level testing with actual environments being built:
 |--------------------------------------------|---------------------|
 | Latest update stop → GitLab Merge Requests | [16.7.7 → MR in 16.11](https://gitlab.com/gitlab-org/gitlab/-/jobs/6488556764) |
 
-[`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate_multi_version_upgrade_job.html)
+[`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate_multi_version_upgrade_job/)
 validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author's working branch.
 It allows catching migration error(s) at unit-level without building an environment.
 Test job runs Database migrations against PostgreSQL dump created from the latest known GitLab version stop with test data.

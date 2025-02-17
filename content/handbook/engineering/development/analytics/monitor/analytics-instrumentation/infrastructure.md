@@ -57,7 +57,7 @@ flowchart LR
 
 Snowplow events are fired from GitLab SaaS and other projects, such as [customers.gitlab.com](https://gitlab.com/gitlab-org/customers-gitlab-com) and the [AI gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist), to go through an AWS pipeline managed by GitLab.
 
-Self-Managed instances [can be configured](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html#remote-event-collector) to report to a custom Snowplow collector if desired which will not be managed by GitLab.
+Self-Managed instances [can be configured](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/#remote-event-collector) to report to a custom Snowplow collector if desired which will not be managed by GitLab.
 
 ### Event flow in the AWS pipeline
 

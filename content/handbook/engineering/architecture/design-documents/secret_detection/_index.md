@@ -342,7 +342,7 @@ Git blobs fetched from Gitaly into its own memory before passing it down to the 
 Until the previous phase, there are multiple hops made between Gitaly and Rails for running Pre-receive checks,
 particularly for Secret Push protection so a fairly large amount of Rails memory is occupied for holding Git blobs to
 pass them to the Gem/Service for running secret scan. This problem can be mitigated through a direct interaction between
-the Secret Detection service and Gitaly via standard interface (either [Custom pre-receive hook](https://docs.gitlab.com/ee/administration/server_hooks.html#create-global-server-hooks-for-all-repositories)
+the Secret Detection service and Gitaly via standard interface (either [Custom pre-receive hook](https://docs.gitlab.com/ee/administration/server_hooks/#create-global-server-hooks-for-all-repositories)
 or Gitaly's new [Plugin-based architecture](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/143582)). This setup
 skips the need for Rails to be a blob messenger between Gitaly and Service.
 
@@ -444,12 +444,12 @@ Suppression of detection and action on leaked secrets will be supported at sever
 
 ### External Token Verification
 
-As a post-processing step for detection we should explore verification of detected secrets. This requires processors per supported token type in which we can distinguish tokens that are valid leaks from false positives. Similar to our [automatic response to leaked secrets](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response.html), we must externally verify a given token to give a high degree of confidence in our alerting.
+As a post-processing step for detection we should explore verification of detected secrets. This requires processors per supported token type in which we can distinguish tokens that are valid leaks from false positives. Similar to our [automatic response to leaked secrets](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response/), we must externally verify a given token to give a high degree of confidence in our alerting.
 
 There are two token types: internal and external:
 
 - Internal tokens are verifiable and revocable as part of `ScanSecurityReportSecretsWorker` worker
-- External tokens require external verification, in which [the architecture](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response.html#high-level-architecture) will closely match the [Secret Revocation Service](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/secret-revocation-service/)
+- External tokens require external verification, in which [the architecture](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response/#high-level-architecture) will closely match the [Secret Revocation Service](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/secret-revocation-service/)
 
 ## Iterations
 

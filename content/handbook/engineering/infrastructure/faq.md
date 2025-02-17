@@ -34,7 +34,7 @@ A: Data from March 2019 showed there was 3.5 Million Users, around 4,000 request
 
 #### Q: Does GitLab have an automated way to migrate from a self-managed instance?
 
-A: Currently you can only use the [project import/export](https://docs.gitlab.com/ee/user/project/settings/import_export.html) feature to migrate projects to GitLab.com.
+A: Currently you can only use the [project import/export](https://docs.gitlab.com/ee/user/project/settings/import_export/) feature to migrate projects to GitLab.com.
 
 #### Q: If a customer project is deleted can it be restored?
 

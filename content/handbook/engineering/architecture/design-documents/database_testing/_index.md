@@ -40,11 +40,11 @@ and to do so with high levels of efficiency (particularly in terms of infrastruc
 
 Developers are expected to test database migrations prior to deploying to any
 environment, but we lack the ability to perform testing against large
-environments such as GitLab.com. The [developer database migration style guide](https://docs.gitlab.com/ee/development/migration_style_guide.html)
+environments such as GitLab.com. The [developer database migration style guide](https://docs.gitlab.com/ee/development/migration_style_guide/)
 provides guidelines on migrations, and we focus on validating migrations during code review and testing
 in CI and staging.
 
-The [code review phase](https://docs.gitlab.com/ee/development/database_review.html) involves
+The [code review phase](https://docs.gitlab.com/ee/development/database_review/) involves
 Database Reviewers and Maintainers to manually check the migrations committed.
 This often involves knowing and spotting problematic patterns and their
 particular behavior on GitLab.com from experience. There is no large-scale

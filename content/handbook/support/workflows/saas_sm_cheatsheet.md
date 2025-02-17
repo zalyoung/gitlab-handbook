@@ -40,7 +40,7 @@ SaaS, or Dedicated.
 |:----:| ----- |
 |Self-managed| Check out the [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) we recommend to our customers and their different variations|
 |DotCom| [The GitLab.com architecture](/handbook/engineering/infrastructure/production/architecture/#infra-current-archi-diagram) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
-|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) is a fully isolated, single-tenant, SaaS service managed through AWS by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated). GitLab Dedicated tenants [use](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#availability-and-scalability) the GitLab [Cloud Native Hybrid reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/#cloud-native-hybrid) with high availability enabled. See the list of [changes from the reference architectures](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html#changes-from-reference-architectures).|
+|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) is a fully isolated, single-tenant, SaaS service managed through AWS by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated). GitLab Dedicated tenants [use](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#availability-and-scalability) the GitLab [Cloud Native Hybrid reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/#cloud-native-hybrid) with high availability enabled. See the list of [changes from the reference architectures](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture/#changes-from-reference-architectures).|
 
 ### Auth
 
@@ -64,15 +64,15 @@ SaaS, or Dedicated.
 |:----:| ----- |
 |Self-managed| Administrators of self-managed systems will have access to their instance admin.|
 |DotCom| Only GitLab Team Members can make use of administrative tasks on GitLab.com, therefore access is not granted to customers.|
-|Dedicated| Customers have instance admins that can access the Admin Area. There is no [GitLab Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html) access for customers.|
+|Dedicated| Customers have instance admins that can access the Admin Area. There is no [GitLab Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console/) access for customers.|
 
-Use the [Admin Area docs](https://docs.gitlab.com/ee/administration/admin_area.html#gitlab-admin-area) for reference.
+Use the [Admin Area docs](https://docs.gitlab.com/ee/administration/admin_area/#gitlab-admin-area) for reference.
 
 ### Gitaly
 
 |      |       |
 |:----:| ----- |
-|Self-managed| [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/) configuration is managed through the **gitlab.rb** file. A customer can configure stand-alone [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly.html) or leverage [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/praefect.html) to fulfill its git requirements. Be sure you know which of these types of Gitaly configuration a self-managed customer is using before you begin troubleshooting.|
+|Self-managed| [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/) configuration is managed through the **gitlab.rb** file. A customer can configure stand-alone [Gitaly](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly/) or leverage [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/praefect/) to fulfill its git requirements. Be sure you know which of these types of Gitaly configuration a self-managed customer is using before you begin troubleshooting.|
 |DotCom| Gitaly is managed by the infrastructure team of GitLab, so customers do not have access to it.|
 |Dedicated| [Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues) |
 
@@ -82,9 +82,9 @@ Use the [Admin Area docs](https://docs.gitlab.com/ee/administration/admin_area.h
 |:----:| ----- |
 |Dedicated|GitLab Dedicated customers [get **Ultimate**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#application) but please note that [some features are not available in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#unavailable-features).|
 |DotCom| For folks who make use of GitLab.com, the [available plans](https://about.gitlab.com/pricing/) include **Free**, **Premium** and **Ultimate**.|
-|Self-managed| For self-managed instances, folks can use either GitLab CE (Community Edition) or GitLab EE (Enterprise Edition) without a license. GitLab EE can be [activated](https://docs.gitlab.com/ee/administration/license.html) with a **Premium** or an **Ultimate** license.|
+|Self-managed| For self-managed instances, folks can use either GitLab CE (Community Edition) or GitLab EE (Enterprise Edition) without a license. GitLab EE can be [activated](https://docs.gitlab.com/ee/administration/license/) with a **Premium** or an **Ultimate** license.|
 
-Note that [GitLab Duo add-ons](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html) are handled separately from the subscription.
+Note that [GitLab Duo add-ons](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons/) are handled separately from the subscription.
 
 ### Runners
 
@@ -98,7 +98,7 @@ Note that [GitLab Duo add-ons](https://docs.gitlab.com/ee/subscriptions/subscrip
 
 |      |       |
 |:----:| ----- |
-|Self-managed| Rails console commands can be run by [starting the rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html) on any of the rails nodes. |
+|Self-managed| Rails console commands can be run by [starting the rails console](https://docs.gitlab.com/ee/administration/operations/rails_console/) on any of the rails nodes. |
 |DotCom| On GitLab.com, rails console can be accessed by creating an [internal request](/handbook/support/workflows/internal_requests/#gitlabcom-console-escalation). |
 |Dedicated| Rails console is not available for dedicated. In urgent matters please create a [request for help with dedicated team](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new). |
 
@@ -106,6 +106,6 @@ Note that [GitLab Duo add-ons](https://docs.gitlab.com/ee/subscriptions/subscrip
 
 |      |       |
 |:----:| ----- |
-|Self-managed| Instance adminsitrator can [enable feature flags through the rails console](https://docs.gitlab.com/ee/administration/feature_flags.html).|
+|Self-managed| Instance adminsitrator can [enable feature flags through the rails console](https://docs.gitlab.com/ee/administration/feature_flags/).|
 |DotCom| On GitLab.com some features flags [can be enabled through chatops](/handbook/support/workflows/saas_feature_flags/). |
 |Dedicated| Feature Flags are not available for GitLab Dedicated until the feature flag is enabled by default. Read more about how to [handle feature flag requests from GitLab Dedicated customers](/handbook/support/workflows/dedicated/#feature-flags-are-not-supported). |

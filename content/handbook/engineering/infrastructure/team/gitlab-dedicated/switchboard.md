@@ -213,7 +213,7 @@ As the Switchboard team is currently small, we use an 'Approve and Merge' approa
 1. When you're ready to have your merge request reviewed, select one or more [Switchboard reviewers](https://gitlab.com/groups/gitlab-dedicated/switchboard/reviewers/-/group_members).
    - If you're not certain about who to choose, you can use the [reviewer roulette](#reviewer-roulette) to randomly select a reviewer.
    - If the issue is labeled `technical writing` add the Switchboard technical writer as a reviewer
-1. Reviewers will perform a review based on [reviewing a merge request guidelines](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request).
+1. Reviewers will perform a review based on [reviewing a merge request guidelines](https://docs.gitlab.com/ee/development/code_review/#reviewing-a-merge-request).
 1. If satisfied, a reviewer will approve and merge unless other reviewers have questions or suggestions that are not addressed.
 1. If the merge request contains the required approvals, the reviewer will trigger a pipeline and set auto-merge.
    - If the reviewer does not have merge permission, they should seek out a maintainer for merging.
@@ -243,8 +243,8 @@ Notes:
 
 - It is our intention to move towards a typical 'reviewers and maintainers' approach which would require two reviews as soon as we have the team members to support this.
 - Merge requests should be approved based on the [approval guidelines](#approval-guidelines).
-- As per the [GitLab Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) there are scenarios where it is appropriate for the author to merge the merge request: If there are no blocking comments, and the merge request has all the required approvals, the author or maintainer can merge.
-- Switchboard project is configured to use [pipelines for merged results](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) which means that reviewers need to run a pipeline pre-merge to guarantee that updates are compatible with the latest main branch.
+- As per the [GitLab Review Guidelines](https://docs.gitlab.com/ee/development/code_review/#merging-a-merge-request) there are scenarios where it is appropriate for the author to merge the merge request: If there are no blocking comments, and the merge request has all the required approvals, the author or maintainer can merge.
+- Switchboard project is configured to use [pipelines for merged results](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines/) which means that reviewers need to run a pipeline pre-merge to guarantee that updates are compatible with the latest main branch.
 - When reviewing merge requests, reviewers should use the [Conventional Comment labels](https://conventionalcomments.org/#labels) to convey your intent.
   - For the avoidance of doubt `Suggestion:`, `Issue:` and `Chore:` comments are all blocking, unless decorated with a `(non-blocking)` statement.
 - We label merge requests using the [Specialization labels](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#specialization-labels) found in the [GitLab documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md). MRs should be labeled ~"frontend", ~"backend" or ~"documentation"
@@ -267,12 +267,12 @@ Reviewer roulette is an internal tool for use on GitLab.com projects that random
 
 #### GitLab Code Review Guidelines
 
-- [Having your merge request reviewed](https://docs.gitlab.com/ee/development/code_review.html#having-your-merge-request-reviewed)
-- [Reviewing a merge request](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request)
-- [The Right Balance](https://docs.gitlab.com/ee/development/code_review.html#the-right-balance)
-- [Quality](https://docs.gitlab.com/ee/development/code_review.html#quality)
-- [Performance, reliability and availability](https://docs.gitlab.com/ee/development/code_review.html#performance-reliability-and-availability)
-- [Merge request performance guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html)
+- [Having your merge request reviewed](https://docs.gitlab.com/ee/development/code_review/#having-your-merge-request-reviewed)
+- [Reviewing a merge request](https://docs.gitlab.com/ee/development/code_review/#reviewing-a-merge-request)
+- [The Right Balance](https://docs.gitlab.com/ee/development/code_review/#the-right-balance)
+- [Quality](https://docs.gitlab.com/ee/development/code_review/#quality)
+- [Performance, reliability and availability](https://docs.gitlab.com/ee/development/code_review/#performance-reliability-and-availability)
+- [Merge request performance guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance/)
 
 ### Reviewers and maintainers
 
@@ -312,8 +312,8 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 | [Internal - Support](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
 | [Internal - Provisioner](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
 | [Internal - Read Only](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [External - Tenant Admin](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
-| [Internal - Read Only](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
+| [External - Tenant Admin](https://docs.gitlab.com/ee/administration/dedicated/configure_instance/#add-users-to-an-instance) |  |  |
+| [Internal - Read Only](https://docs.gitlab.com/ee/administration/dedicated/configure_instance/#add-users-to-an-instance) |  |  |
 
 ### User experience goal :goal:
 

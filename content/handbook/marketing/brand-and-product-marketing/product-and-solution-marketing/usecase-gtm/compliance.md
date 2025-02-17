@@ -48,7 +48,7 @@ Application security testing is still a foundational part of compliance, but now
 
 **The CTO or head of DevOps Architecture** is usually the buyer for when compliance is the primary driver.
 
-The key capability that addresses the CTO's need is [Compliant Pipelines](https://docs.gitlab.com/ee/user/project/settings/#compliance-pipeline-configuration) and the [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation). They need the ability to prescribe scans and policies in the CI pipeline and ensure individual developers cannot bypass them.
+The key capability that addresses the CTO's need is [Compliant Pipelines](https://docs.gitlab.com/ee/user/project/settings/#compliance-pipeline-configuration) and the [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance/#compliant-workflow-automation). They need the ability to prescribe scans and policies in the CI pipeline and ensure individual developers cannot bypass them.
 
 **The Security Manager or CISO (Sam's boss)** is usually the buyer for the Ultimate tier when security gets involved.
 
@@ -83,10 +83,10 @@ GitLab Software Compliance solution overview
 
 | Market Requirements | How GitLab Delivers | GitLab Category | Demos |
 | ------ | ------ | ------ | ------ |
-| Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance.html) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) [Compliance Management](https://about.gitlab.com/direction/software_supply_chain_security/compliance/compliance-management/) | Access and Compliance within the Manage stage | |
-| Automated policy enforcement | [Security policies](https://docs.gitlab.com/ee/user/application_security/policies/#policy-management) can be managed in one place while [compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation) helps admins easily apply compliance policies across projects. | Govern | [![Compliance pipelines](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Compliance pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
-| Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events.html) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_event_reports.html) | Access and Compliance within the Manage stage | |
-| Security Governance | Security Policy Automation, [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and [Vulnerability Reports](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), [License compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) | Govern, Secure ||
+| Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance/) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_event_reports/) [Compliance Management](https://about.gitlab.com/direction/software_supply_chain_security/compliance/compliance-management/) | Access and Compliance within the Manage stage | |
+| Automated policy enforcement | [Security policies](https://docs.gitlab.com/ee/user/application_security/policies/#policy-management) can be managed in one place while [compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance/#compliant-workflow-automation) helps admins easily apply compliance policies across projects. | Govern | [![Compliance pipelines](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Compliance pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
+| Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events/) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_event_reports/) | Access and Compliance within the Manage stage | |
+| Security Governance | Security Policy Automation, [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance/#compliant-workflow-automation), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and [Vulnerability Reports](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), [License compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies/) | Govern, Secure ||
 | Security guardrails (Preventative - Pre CI/CD) | GitLab falls short of providing pre-approved dependencies as some other vendors do, [bill of materials feature](https://docs.gitlab.com/ee/user/application_security/dependency_list/) | Govern, Secure | [![Manage your Application Dependencies with GitLab](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Manage your Application Dependencies with GitLab](https://youtu.be/scNS4UuPvLI)|
 
 ## GitLab differentiators
@@ -117,8 +117,8 @@ The GitLab DevOps platform approach helps you achieve Compliance with better vis
 
 - A single platform improves allows the organization to see who changed what, where, and when across the entire SDLC.
 - Compliance and Security policies can be automatically applied to all pipelines for consistency, and simplified audits
-- [Role-based access controls](https://docs.gitlab.com/ee/user/permissions.html) provide seperation of duties and protect against malicious insider threats and accidental events
-- A breadth of additional [compliance controls](https://docs.gitlab.com/ee/administration/compliance.html) provide superior governance over software development, delivery, and use.
+- [Role-based access controls](https://docs.gitlab.com/ee/user/permissions/) provide seperation of duties and protect against malicious insider threats and accidental events
+- A breadth of additional [compliance controls](https://docs.gitlab.com/ee/administration/compliance/) provide superior governance over software development, delivery, and use.
 
 Because developers see compliance concerns in the MR pipeline alongside security vulnerabilities, these can also be fixed while the developer is still iterating on the code, rather than waiting until pre-production when changes cost more time and money.
 
@@ -132,7 +132,7 @@ See how we compare against other DevOps approaches
 
 1. Role-based access control (RBAC) for separation of duties. Competitive products's roles are broader and when a person changes roles, his/her permissions must be changed manually. Why is this important? If someone has access to push to prod and is demoted or moves to another group, you'd want the permissions to change automatically to avoid insider threats.
 1. Our workflows include compliance within MR approvals. No manual checks that impact velocity. (In essence, we shift left compliance also.)
-1. [External status checks](https://docs.gitlab.com/ee/user/project/merge_requests/status_checks.html) is an important feature for regulated industries. Changes are approved and must be pushed to production within a given timeframe. Delays can cause the approval process to start over.
+1. [External status checks](https://docs.gitlab.com/ee/user/project/merge_requests/status_checks/) is an important feature for regulated industries. Changes are approved and must be pushed to production within a given timeframe. Delays can cause the approval process to start over.
 1. With GitLab we have projects and groups where projects inherit policies from the group. Competitors cannot structure policies as flexibly as GitLab, an important feature for enterprise users. Examples include group level runners.
 1. Compliant pipelines allow GitLab users to select their compliance framework (e.g. PCI, HIPPA, etc) and those policies are used - and the developer cannot disable it (due to RBAC)
 
@@ -142,7 +142,7 @@ See how we compare against other DevOps approaches
 
 **Key Compliance features with Free/Premium:**
 
-- [Security Approvals in Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#security-approvals-in-merge-requests) (available in Premium)
+- [Security Approvals in Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings/#security-approvals-in-merge-requests) (available in Premium)
 
 In addition, some security scanning is available in the Free tier:
 
@@ -157,7 +157,7 @@ Note: The Free tier does not include providing these results in vulnerability re
 - [Compliant workflows and Compliant pipelines](https://docs.gitlab.com/ee/user/project/settings/#compliance-pipeline-configuration) - projects are assigned a compliance framework and policies are enforced accordingly. This is a key capability for winning compliance opportunities!
 - [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_center/) - See if merge requests were approved, and by whom.
 - Fuzz testing, called out by the 2021 US Executive Order to Improve Cybersecurity
-- [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
+- [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies/) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
 
 In addition, more security scanners are available, along with Vulnerability management and security dashboard. See the [DevSecOps solution](https://about.gitlab.com/solutions/security-compliance/) for details.
 

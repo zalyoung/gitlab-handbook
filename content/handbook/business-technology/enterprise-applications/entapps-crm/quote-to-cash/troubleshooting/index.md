@@ -77,7 +77,7 @@ The "Maximum Users" count in the instance refers to this running list of active 
 Communicate to customer
 
 >>>
-- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#sign-in-to-customers-portal)
+- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/ee/subscriptions/customers_portal/#sign-in-to-customers-portal)
 - Go to `Manage Purchases`
 - Locate the subscription you wish to add more users to and click the button `Add more seats`
 - Enter the additional amount of users you wish to have (i.e. you have 50 but want to have 60, so you have to enter 10)
@@ -107,7 +107,7 @@ Communicate to the customer
 To help me provide better support for your renewal I'll need some more information, could you please provide a screenshot following the below instructions?
 
 1. Navigate to Admin Area
-1. Click `License` as it's described [here](https://docs.gitlab.com/ee/administration/license_file.html#view-license-details-and-history) and send it to me
+1. Click `License` as it's described [here](https://docs.gitlab.com/ee/administration/license_file/#view-license-details-and-history) and send it to me
    - For GitLab.com
 1. Navigate to group settings
 1. Navigate to billing

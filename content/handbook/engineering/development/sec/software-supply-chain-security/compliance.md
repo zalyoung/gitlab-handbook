@@ -110,7 +110,7 @@ When you pick something to work on, please:
 
 We aim to uphold [GitLab's principle of fostering an environment where Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality).
 Testing is an essential part of our [product development workflow](/handbook/product-development-flow/) and
-[code review process](https://docs.gitlab.com/ee/development/code_review.html#quality).
+[code review process](https://docs.gitlab.com/ee/development/code_review/#quality).
 
 Information regarding test coverage can be found via these issues/epics:
 

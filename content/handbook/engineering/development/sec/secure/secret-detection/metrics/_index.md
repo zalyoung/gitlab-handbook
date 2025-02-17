@@ -32,7 +32,7 @@ in some way that can be extracted with the right query. E.g., the nubmer of
 projects that have a setting enabled.
 
 The Analytics Instrumentation team has great documentation
-[here](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#quick-start-for-internal-event-tracking)
+[here](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start/#quick-start-for-internal-event-tracking)
 but we outline some of the learnings on implementing metrics for our use here.
 
 ### Internal tracking events
@@ -76,7 +76,7 @@ You should utilize them in that order when possible, i.e., `label` before
 
 #### Process for adding
 
-You should follow the process Analytics Instrumentation has defined in the [quick start guide](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#quick-start-for-internal-event-tracking).
+You should follow the process Analytics Instrumentation has defined in the [quick start guide](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start/#quick-start-for-internal-event-tracking).
 linked docs.
 
 TL;DR Run the `ruby scripts/internal_events/cli.rb` CLI tool and follow the
@@ -139,7 +139,7 @@ it_behaves_like 'internal event tracking' do
 
 ### Database Metric (Service Ping)
 
-[Database metrics](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation.html#database-metrics),
+[Database metrics](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation/#database-metrics),
 aka Service Pings, are metrics that can be collected with
 database queries. These metrics are updated in a batch approximately every 7
 days. However, this is not guaranteed and may be generated anywhere from 4-10 days.
@@ -155,7 +155,7 @@ The class should be in `lib/gitlab/usage/metrics/instrumentation/` or the EE
 equivalent.
 
 We have a Rails
-[generator](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation.html#create-a-new-metric-instrumentation-class)
+[generator](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_instrumentation/#create-a-new-metric-instrumentation-class)
 that can be used to create the necessary classes:
 
 ```ruby
@@ -197,7 +197,7 @@ Tracking Events. Unfortunately, database metrics are not yet supported by the `i
     1. If the metric is meant to capture all time, use the `counts_all` subdirectory.
     1. Otherwise use the appropriate `counts_7d` or `counts_28d` subdirectory for weekly and monthly metrics respectively.
 1. Use existing yaml files as templates
-1. Use the schema defined [here](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html).
+1. Use the schema defined [here](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary/).
 
 NOTE: Make sure that the milestone is a string.
 

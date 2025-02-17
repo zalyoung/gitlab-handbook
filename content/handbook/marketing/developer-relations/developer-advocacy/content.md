@@ -146,10 +146,10 @@ Developer advocates authored and maintain the following documentation pages, wit
 
 | Title | Area | Created | DRI |
 |-------|------|--------------|-----|
-| [GitLab Duo use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) | Duo/AI | 2024-03 | @dnsmichi |
-| [CI/CD component examples](https://docs.gitlab.com/ee/ci/components/examples.html) | CI/CD | 2024-02 | @dnsmichi |
-| [Automate storage management](https://docs.gitlab.com/ee/user/storage_management_automation.html) | Utilization, API | 2023-08 | @dnsmichi |
-| [Pipeline efficiency](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) | CI/CD | 2020-09 | @dnsmichi |
+| [GitLab Duo use cases](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases/) | Duo/AI | 2024-03 | @dnsmichi |
+| [CI/CD component examples](https://docs.gitlab.com/ee/ci/components/examples/) | CI/CD | 2024-02 | @dnsmichi |
+| [Automate storage management](https://docs.gitlab.com/ee/user/storage_management_automation/) | Utilization, API | 2023-08 | @dnsmichi |
+| [Pipeline efficiency](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency/) | CI/CD | 2020-09 | @dnsmichi |
 
 ### Maintained talks
 

@@ -49,7 +49,7 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
   - *Instead* set an access expiration date when you invite a customer.
 
 - **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
-  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens/) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens/). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
 
 ## Cloud Testing Environments
 
@@ -741,7 +741,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 ## Windows
 
-It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows.html) or
+It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows/) or
 even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/#example-for-windowsamd64).
 
 The options are the same as above:

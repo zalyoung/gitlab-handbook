@@ -48,8 +48,8 @@ Rules define actions to take, based on the project categories. These actions are
 
 | Categories | Actions |
 | -------- | ----------- |
-|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ee/api/protected_branches.html), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals.html), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules) |
-| `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/ee/api/lint.html) |
+|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ee/api/protected_branches/), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals/), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals/#get-project-level-rules) |
+| `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/ee/api/lint/) |
 | `product`, `secrets_monitoring`  | Download [Vulnerabilities]     |
 
 ### Policies
@@ -65,7 +65,7 @@ Rules define actions to take, based on the project categories. These actions are
 | `docs` | [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
 | `marked_for_deletion` | Project will be deleted |
 | `deprecated` | Project will be archived |
-| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/user/public_access.html#internal-projects-and-groups) visibility |
+| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/user/public_access/#internal-projects-and-groups) visibility |
 | all | *Default branch* must be `protected` |
 | all | [`SECRET_DETECTION_HISTORIC_SCAN`](https://docs.gitlab.com/ee/user/application_security/secret_detection/#full-history-secret-detection) must not be set in the CI/CD configuration |
 

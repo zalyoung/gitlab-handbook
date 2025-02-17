@@ -149,7 +149,7 @@ The difference between the _tool adoption use case_ and the _transformational us
 2. Process
 3. Technology
 4. Continuous Improvement, and
-5. Key Performance Indicators - [DORA metrics](https://docs.gitlab.com/ee/user/analytics/dora_metrics.html)
+5. Key Performance Indicators - [DORA metrics](https://docs.gitlab.com/ee/user/analytics/dora_metrics/)
 
 #### Key Principles
 

@@ -31,7 +31,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 
 1. To view the available metrics in Prometheus, navigate to `http://localhost:8001/api/v1/namespaces/default/pods/PROMETHEUS_POD_NAME:9090/proxy/metrics`.
 
-    > To see a more detailed list of each metric, check out the [documentation](https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics.html).
+    > To see a more detailed list of each metric, check out the [documentation](https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics/).
 
 ### Task C. Viewing Prometheus Metrics
 

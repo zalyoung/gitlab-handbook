@@ -123,7 +123,7 @@ The dashboard itself is split into 4 rows (or sections), with each containing a 
 
 #### GitLab Shell (Git over SSH)
 
-This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd.html) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#ssh-request-22) for more information on how that works.
+This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd/) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture/#ssh-request-22) for more information on how that works.
 
 The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a `git push` operation is carried out over SSH. It is dividend into two rows/sections as follows.
 
@@ -296,7 +296,7 @@ This panel displays average number of requests per second (RPS) made to `gitlab-
 
 #### Workhorse (Git over HTTP/S)
 
-This section monitors the stability of certain operations related to the feature within `Workhorse`, which is a smart reverse proxy intended to handle resource-intensive and long-running requests. It intercepts all HTTP requests and either propagates them without changing or handles them itself by performing additional logic. Please check [this diagram](https://docs.gitlab.com/ee/development/workhorse/handlers.html#git-push) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#web-request-80443) for more information on how that works.
+This section monitors the stability of certain operations related to the feature within `Workhorse`, which is a smart reverse proxy intended to handle resource-intensive and long-running requests. It intercepts all HTTP requests and either propagates them without changing or handles them itself by performing additional logic. Please check [this diagram](https://docs.gitlab.com/ee/development/workhorse/handlers/#git-push) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture/#web-request-80443) for more information on how that works.
 
 The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a `git push` operation is carried out over HTTP/S.
 
@@ -531,7 +531,7 @@ _Panel Information_
 
 #### Rails
 
-This section monitors the stability of the [`/internal/allowed` endpoint](https://docs.gitlab.com/ee/development/internal_api/internal_api_allowed.html) which is a focal point in the feature's journey to protect against leaked secrets in a `git` push. The endpoint is part of GitLab's [Internal API](https://docs.gitlab.com/ee/development/internal_api/), and is responsible for assessing if a user has permission to perform certain operations on the repository.
+This section monitors the stability of the [`/internal/allowed` endpoint](https://docs.gitlab.com/ee/development/internal_api/internal_api_allowed/) which is a focal point in the feature's journey to protect against leaked secrets in a `git` push. The endpoint is part of GitLab's [Internal API](https://docs.gitlab.com/ee/development/internal_api/), and is responsible for assessing if a user has permission to perform certain operations on the repository.
 
 The section can be used to ensure there are no performance degradations related to the `/internal/allowed` endpoint when changes in a certain `git` push are scanned for secrets.
 

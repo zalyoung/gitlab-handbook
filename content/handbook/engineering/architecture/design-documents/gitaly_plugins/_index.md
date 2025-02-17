@@ -33,7 +33,7 @@ This logic is not built directly into Gitaly to separate concerns. Gitaly calls 
 - Before accepting a write, Gitaly calls `/internal/allowed`. The response from the endpoint decides whether or not Gitaly accepts the write.
 - After accepting a write, Gitaly calls `/internal/post_receive`.
 
-In addition to calling Rails application's internal API, Gitaly supports [custom hooks](https://docs.gitlab.com/ee/administration/server_hooks.html). Custom hooks are
+In addition to calling Rails application's internal API, Gitaly supports [custom hooks](https://docs.gitlab.com/ee/administration/server_hooks/). Custom hooks are
 executables Gitaly invokes before and after accepting a write and conform to the interface of
 [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks). The `pre-receive` hook can reject a write, `update` hook can drop single reference
 update, and `post-receive` can be used to be notified of accepted writes.

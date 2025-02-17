@@ -156,13 +156,13 @@ We do not create a role group for `brown` accounts since each service account ha
 
 #### GitLab SaaS Groups
 
-The GitLab SaaS group for the type, role, or organization unit can be invited as a Direct Member on any other GitLab group (with child projects) or a GitLab project with the appropriate [permission role](https://docs.gitlab.com/ee/user/permissions.html).
+The GitLab SaaS group for the type, role, or organization unit can be invited as a Direct Member on any other GitLab group (with child projects) or a GitLab project with the appropriate [permission role](https://docs.gitlab.com/ee/user/permissions/).
 
 - `@gitlab-rbac/type/{color}`
 - `@gitlab-rbac/ou/{ou_name}`
 - `@gitlab-rbac/role/{role_name}`
 
-This allows us to grant minimum permissions at the top level of the `gitlab-com` and `gitlab-org` namespaces, and programatically add elevated `Developer`, `Maintainer`, and `Owner` [permissions](https://docs.gitlab.com/ee/user/permissions.html) in downstream groups and projects for specific teams to self manage their own child namespaces without having full read-write access across all projects inherited by the top-level namespace.
+This allows us to grant minimum permissions at the top level of the `gitlab-com` and `gitlab-org` namespaces, and programatically add elevated `Developer`, `Maintainer`, and `Owner` [permissions](https://docs.gitlab.com/ee/user/permissions/) in downstream groups and projects for specific teams to self manage their own child namespaces without having full read-write access across all projects inherited by the top-level namespace.
 
 In the (distant) future, we will manage GitLab groups and project configuration settings using Terraform.
 

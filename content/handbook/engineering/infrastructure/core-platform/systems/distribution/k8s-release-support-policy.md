@@ -360,7 +360,7 @@ release.
 We document supported and deprecated Kubernetes releases in tables at:
 
 - [GitLab chart](https://docs.gitlab.com/charts/installation/cloud/#supported-kubernetes-releases)
-- [GitLab Operator](https://docs.gitlab.com/operator/installation.html#cluster)
+- [GitLab Operator](https://docs.gitlab.com/operator/installation/#cluster)
 
 These tables are updated every time we change the list of our supported and/or
 deprecated releases for both GitLab Helm chart and Operator.

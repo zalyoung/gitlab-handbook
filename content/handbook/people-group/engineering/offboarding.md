@@ -76,7 +76,7 @@ In the event that the merge request has become out of date and the `/rebase` qui
 
 ### 90 Day Offboarding Issue Closer
 
-Every day, Monday-Friday, we run an automation to check for offboarding issues that have been open longer than 90 days. If any are found, we leave a comment with the [`/close` quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) to close the issue.
+Every day, Monday-Friday, we run an automation to check for offboarding issues that have been open longer than 90 days. If any are found, we leave a comment with the [`/close` quick action](https://docs.gitlab.com/ee/user/project/quick_actions/) to close the issue.
 
 #### Reasoning
 
@@ -86,7 +86,7 @@ More information regarding this addition in [this issue](https://gitlab.com/gitl
 
 #### Details
 
-We leverage the [issues API](https://docs.gitlab.com/ee/api/issues.html#list-issues) to search for related issues matching the following filters:
+We leverage the [issues API](https://docs.gitlab.com/ee/api/issues/#list-issues) to search for related issues matching the following filters:
 
 ```ruby
 {

@@ -205,14 +205,14 @@ We have a [dependencies group](https://gitlab.com/gitlab-org/security-products/d
 1. Please note, some of these projects have complicated builds. Auto DevOps works sometimes, but projects such as [spotbugs](https://gitlab.com/gitlab-org/security-products/dependencies/spotbugs) can require a custom CI configuration for our scans to be successful. Also, these projects include tests that can be noisy if not filtered out.
 1. Evaluate any potential security vulnerabilities which are found.
 1. Work with the relevant Open Source community to resolve any Critical or High severity findings.
-1. GitLab has published [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html), which may be a useful resource to use when trying to solve identified risks.
+1. GitLab has published [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines/), which may be a useful resource to use when trying to solve identified risks.
 
 We do not want to ship updated dependencies which have Critical and High severity vulnerabilities in them. If we find ourselves in this situation, we will
 withhold updates to the dependency until the problems have been patched.
 
 #### Go security fixes
 
-At times we will need to update our analyzers because of security updates to golang itself. In this situation, we follow the [established release process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#security-and-build-fixes-of-go).
+At times we will need to update our analyzers because of security updates to golang itself. In this situation, we follow the [established release process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide/#security-and-build-fixes-of-go).
 
 #### Testing and validation
 

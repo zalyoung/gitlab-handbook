@@ -120,7 +120,7 @@ To enable access to Logs, Tracing, and Metrics Beta for a certain customer, foll
 
 For SaaS:
 
-* Before hand, make sure you have the right access and permissions to run ChatOps command as detailed in [this page](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access).
+* Before hand, make sure you have the right access and permissions to run ChatOps command as detailed in [this page](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom/#requesting-access).
 * Ask customer for their top-level group name (example: `gitlab-org` for https://gitlab.com/gitlab-org/)
 * In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
 

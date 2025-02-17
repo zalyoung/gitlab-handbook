@@ -24,16 +24,16 @@ Staging Ref is a sandbox environment used for pre-production testing of the late
 ### Environment information
 
 - [Geo](https://docs.gitlab.com/ee/administration/geo/) is setup on Staging Ref with these configurations:
-  - Staging Ref US site - *primary* - [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) environment - stateless components (Webservice, Sidekiq, NGINX) deployed to Google Kubernetes Engine cluster and the remaining stateful components installed to GCP virtual machines
-  - Staging Ref EU site - *secondary* - [3k Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html) full Omnibus environment
+  - Staging Ref US site - *primary* - [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) environment - stateless components (Webservice, Sidekiq, NGINX) deployed to Google Kubernetes Engine cluster and the remaining stateful components installed to GCP virtual machines
+  - Staging Ref EU site - *secondary* - [3k Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users/) full Omnibus environment
 - Deployed with [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer)
 - SSL Certificates automated with [Let's Encrypt](https://letsencrypt.org/)
-- [Google OAuth](https://docs.gitlab.com/ee/integration/google.html) gives access to environment for GitLab team members
-- [Outgoing email](https://docs.gitlab.com/charts/charts/globals.html#outgoing-email) configured with Mailgun
-- [Advanced Search](https://docs.gitlab.com/ee/user/search/advanced_search.html) is configured with Elasticsearch and [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#advanced-search-with-elasticsearch)
+- [Google OAuth](https://docs.gitlab.com/ee/integration/google/) gives access to environment for GitLab team members
+- [Outgoing email](https://docs.gitlab.com/charts/charts/globals/#outgoing-email) configured with Mailgun
+- [Advanced Search](https://docs.gitlab.com/ee/user/search/advanced_search/) is configured with Elasticsearch and [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#advanced-search-with-elasticsearch)
 - Ultimate license with [Free paid plan by default](#upgrade-paid-plans)
 - [Sentry](https://new-sentry.gitlab.net/organizations/gitlab/projects/staging-ref/) configured for error reporting
-- [Snowplow](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html#configure-a-remote-event-collector) tracking is enabled and collected to `snowplow.trx.gitlab.net`
+- [Snowplow](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/#configure-a-remote-event-collector) tracking is enabled and collected to `snowplow.trx.gitlab.net`
 
 #### Deployment process
 
@@ -93,7 +93,7 @@ After signing in you can proceed using the environment as required. If destructi
 
 #### Admin access
 
-To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area's Users page](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) and edit your user's Access Level.
+To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area's Users page](https://docs.gitlab.com/ee/administration/admin_area/#administering-users) and edit your user's Access Level.
 
 Note that Staging Ref environment is shared across all engineers. If you plan to perform changes to GitLab Admin settings, use the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel to communicate changes broadly.
 
@@ -112,15 +112,15 @@ If you have `gcloud` or `kubectl` set up locally, then follow [Connect from your
 1. A Cloud Shell should start up
 1. Edit the command `kubectl exec -it gitlab-toolbox-5955db475c-ng2xr -- bash` (the toolbox will have a different suffix) to execute the `bash` command with the [interactive and TTY options](https://docs.docker.com/reference/cli/docker/container/exec/).
 1. At this point, you should be logged in to the toolbox pod. For Rails console, run `gitlab-rails console`.
-1. See [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#gitlab-specific-kubernetes-information) for more
+1. See [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet/#gitlab-specific-kubernetes-information) for more
 
 ##### Connect from your local terminal
 
 1. Navigate to the [staging-ref cluster](https://console.cloud.google.com/kubernetes/clusters/details/us-east1-c/staging-ref-3k-hybrid-us/details?project=gitlab-staging-ref&cloudshell=false) or to the [staging-ref geo cluster](https://console.cloud.google.com/kubernetes/clusters/details/europe-west6-c/staging-ref-3k-hybrid-eu/details?cloudshell=false&project=gitlab-staging-ref)
 1. Click **Connect**
 1. Copy the command and run it locally to get `kubeconfig`
-1. Follow [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#gitlab-specific-kubernetes-information)
-1. Also see [additional developer tools](https://docs.gitlab.com/charts/development/environment_setup.html#additional-developer-tools)
+1. Follow [Kubernetes cheat sheet](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet/#gitlab-specific-kubernetes-information)
+1. Also see [additional developer tools](https://docs.gitlab.com/charts/development/environment_setup/#additional-developer-tools)
 
 #### Request access to GCP project and environment
 

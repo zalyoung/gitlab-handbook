@@ -98,7 +98,7 @@ The Triage DRI is a role established by the team to handle initial triage of que
 1. Triaging and monitoring pipelines (e.g., [Upgrade path pipelines](https://gitlab.com/gitlab-org/quality/upgrade-tester)).
 1. Monitoring and responding to requests in GET/RA Slack channels.
 1. Initial issue triage for GET, and RA.
-1. Maintenance of [PG Dump Generator](https://gitlab.com/gitlab-org/quality/pg-dump-generator) and related jobs if [breaking master](https://docs.gitlab.com/ee/development/database/dbmigrate_multi_version_upgrade_job.html#broken-master).
+1. Maintenance of [PG Dump Generator](https://gitlab.com/gitlab-org/quality/pg-dump-generator) and related jobs if [breaking master](https://docs.gitlab.com/ee/development/database/dbmigrate_multi_version_upgrade_job/#broken-master).
 1. [Staging Ref](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref/-/blob/main/doc/troubleshooting.md) maintenance.
 
 ### Cadence

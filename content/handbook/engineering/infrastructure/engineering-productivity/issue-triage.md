@@ -15,7 +15,7 @@ We rely on a combination of self and [AI triage](https://gitlab.com/gitlab-org/q
 ### Partial Triage checklist
 
 - Issue is spam:
-  - [Report the issue](https://docs.gitlab.com/ee/user/report_abuse.html#report-abuse-from-an-issue).
+  - [Report the issue](https://docs.gitlab.com/ee/user/report_abuse/#report-abuse-from-an-issue).
   - Make the issue confidential.
   - Post a link to the issue in the `#abuse` slack channel.
 - Issue is request for help:
@@ -120,7 +120,7 @@ If a issue seems to fall between two severity labels, assign it to the higher se
 - Example(s) of `~"severity::2"`
   - Cannot submit changes through the web IDE, but the command line works.
   - A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
-  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
+  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console/), making it unacceptably complex.
 - Example(s) of `~"severity::3"`
   - Can create merge requests only from the Merge Requests list view, not from an Issue page.
 - Example(s) of `~"severity::4"`
@@ -217,9 +217,9 @@ Priority is tied to severity in the following manner:
 **Improving performance**: It may not be possible to reach the intended response time in one iteration.
 We encourage performance improvements to be broken down. Improve where we can and then re-evaluate the next appropriate level of severity & priority based on the new response time.
 
-[^1]: Our current response time targets for APIs, Web Controllers and Git calls are based on the TTFB P90 results of the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest/10k).
+[^1]: Our current response time targets for APIs, Web Controllers and Git calls are based on the TTFB P90 results of the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users/) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest/10k).
 
-[^2]: Our current Browser Rendering targets for [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) and [Total Blocking Time (TBT)](https://web.dev/articles/tbt) are based on results of [SiteSpeed](https://gitlab.com/gitlab-org/quality/performance-sitespeed) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k).
+[^2]: Our current Browser Rendering targets for [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) and [Total Blocking Time (TBT)](https://web.dev/articles/tbt) are based on results of [SiteSpeed](https://gitlab.com/gitlab-org/quality/performance-sitespeed) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users/) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k).
 
 ### UX
 

@@ -110,7 +110,7 @@ Like with any other GitLab feature, the first line of support should be the GitL
 
 Before reaching out for support, please first consider whether your inquiry is related to how Duo Chat works and the supported capabilities and/or requirements. That being the case, please review Duo Chat's [documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/).
 
-If you have specific error codes reported by the user you may also review the [troubleshooting page](https://docs.gitlab.com/ee/user/gitlab_duo_chat/troubleshooting.html).
+If you have specific error codes reported by the user you may also review the [troubleshooting page](https://docs.gitlab.com/ee/user/gitlab_duo_chat/troubleshooting/).
 
 If you are a Support Engineer looking to investigate a problem reported by a customer, please go over the [Duo Chat Runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/duo-chat/README.md?ref_type=heads) before reaching out to the development team. This will ensure the Duo Chat engineer can support you better once you do reach out for help.
 

@@ -14,7 +14,7 @@ All SaaS customers should provision their subscriptions from CustomersDot as des
 
 While handling the subscription provisioning requests, we might encounter a 502 error while impersonating the user on the customer portal, this occurs when an admin accidentally links their GitLab.com admin account with the customer portal account, due to which the customer portal tries to fetch all the groups that are accessible to the admin user on GitLab.com and eventually returns a 502 error.
 
-- We can verify that by [retrieving the token information](https://docs.gitlab.com/ee/api/oauth2.html#retrieving-the-token-information)(grab the `access_token` from the customer portal and call the API endpoint to retrieve the `resource_owner_id` attribute, which should be the same as the  GitLab.com `userID`).
+- We can verify that by [retrieving the token information](https://docs.gitlab.com/ee/api/oauth2/#retrieving-the-token-information)(grab the `access_token` from the customer portal and call the API endpoint to retrieve the `resource_owner_id` attribute, which should be the same as the  GitLab.com `userID`).
 
 To fix this, we should **completely unlink the GitLab.com account with the customer portal** account using the [unlink_customer console function](/handbook/support/license-and-renewals/workflows/customersdot/customer_console#unlink_customer) or `Unlink GitLab.com account` form in the ZenDesk ticket Mechanizer app.
 

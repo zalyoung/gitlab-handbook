@@ -177,7 +177,7 @@ processes to find people who can work on it.
 
 #### Domain Experts
 
-[Domain Experts](https://docs.gitlab.com/ee/development/code_review.html#domain-experts)
+[Domain Experts](https://docs.gitlab.com/ee/development/code_review/#domain-experts)
 are engineers with a deep understanding of one or more particular areas. Domain
 Experts:
 

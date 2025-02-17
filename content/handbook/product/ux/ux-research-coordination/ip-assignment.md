@@ -48,7 +48,7 @@ The research tool being used (for example Qualtrics, UserTesting, Respondent) de
 - **Question:** My research study will result in code contibutions from my participants.  What's the ICLA question I need to ask?
 - **Answer:** Below is the exact question to ask.  Note the active link in the statement.
 
-  - `Any code contributions you make as part of your participation in this research activity are made subject to [GitLab's Individual Contributor License Agreement](https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement.html).`
+  - `Any code contributions you make as part of your participation in this research activity are made subject to [GitLab's Individual Contributor License Agreement](https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement/).`
 
        `[ ] I accept the terms of GitLab's Individual Contributor License Agreement.`
        `[ ] I do not accept the terms of GitLab's Individual Contributor License Agreement.`

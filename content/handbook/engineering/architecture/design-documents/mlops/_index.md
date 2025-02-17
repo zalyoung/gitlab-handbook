@@ -95,7 +95,7 @@ graph TB
 - **Experiment tracking**: Code produces runs, artifacts, metrics etc. the metadata is stored centrally in Experiment Tracking
 - **Model Registry**: Uses Package Registry to store artifacts
 - **Deployment pipeline**: These are triggered either via Model Registry or via Git triggers.
-- **Model Monitoring**: Captures input and output metadata from inference and uses [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing.html) for storage. CI pipelines are used for analysis and output is stored in Model Registry
+- **Model Monitoring**: Captures input and output metadata from inference and uses [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing/) for storage. CI pipelines are used for analysis and output is stored in Model Registry
 
 ### Core Components
 
@@ -106,7 +106,7 @@ The experiment management system will track ML training runs and their parameter
 - [Experiment tracking](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/) with metadata storage
 - [Metric logging and visualization](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/#view-logged-metrics)
 - [Storing artifacts](https://docs.gitlab.com/ee/user/project/ml/model_registry/#add-artifacts-to-a-model-version)
-- [Compatibility with MLflow client](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client.html)
+- [Compatibility with MLflow client](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client/)
 
 #### 2. Model Registry
 
@@ -123,7 +123,7 @@ Central repository for ML model management: [Model registry docs](https://docs.g
 
 #### 3. Connection to GPU resources
 
-Link to [GPU runners docs](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled.html).
+Link to [GPU runners docs](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled/).
 
 - Maintain compatibility with GitLab runner
 - Ensure ease of use with GPU runners
@@ -150,7 +150,7 @@ Comprehensive model observability:
 - Resource utilization tracking
 - Custom alert definitions
 - Retraining triggers
-- Tracing via OpenTelemetry and [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing.html)
+- Tracing via OpenTelemetry and [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing/)
 
 #### 6. API Clients
 

@@ -32,7 +32,7 @@ Use cases overview:
 |--------------|-----|--------------|
 | [use-cases/ai](https://gitlab.com/gitlab-da/use-cases/ai) | all | [GitLab Duo workflows, coffee chats, learning AI, use cases](https://about.gitlab.com/gitlab-duo/) |
 | [use-cases/ai/ai-applications](https://gitlab.com/gitlab-da/use-cases/ai/ai-applications) | @sugaroverflow | Example applications using GitLab Duo |
-| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) [prompts](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts) and [challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges) with exercise source code and self-learning modules, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) |
+| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) [prompts](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts) and [challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges) with exercise source code and self-learning modules, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases/) |
 | [use-cases/ai/ai-research](https://gitlab.com/gitlab-da/use-cases/ai/ai-research) | @dnsmichi | AI research with local LLMs (`Ollama`), RAG, AI agents, etc. |
 | [use-cases/ai/ai-workshops](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops) | @dnsmichi | GitLab Duo and AI workshops and live-programming sessions with customers |
 | [use-cases/ai/gitlab-duo-coffee-chat](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat) | @dnsmichi | [GitLab Duo coffee chats](#gitlab-duo-coffee-chat) |
@@ -138,7 +138,7 @@ Maintainer: [Michael Friedrich, @dnsmichi](/handbook/company/team/#dnsmichi)
 - [Organization issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/375)
 - [Slide templates and resources](https://docs.google.com/presentation/d/1FBOxe43l4qY8KastAWjblphOLiktNtPjHgFNmNYf0Uw/edit#slide=id.g2a6734f20af_0_0) for recording video editing.
 
-The recordings are also linked from the [GitLab Duo Use Cases documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html).
+The recordings are also linked from the [GitLab Duo Use Cases documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases/).
 
 ##### Process
 
@@ -173,7 +173,7 @@ Video upload:
 
 Distribution
 
-1. Add the video to the [GitLab Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html), Highspot, blog posts, social posts, etc.
+1. Add the video to the [GitLab Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases/), Highspot, blog posts, social posts, etc.
 
 ### CI/CD Adoption
 

@@ -39,7 +39,7 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
    run: sidekiq: (pid 20798) 297s; run: log: (pid 20806) 296s
    ```
 
-   > To learn more about these components and how they interact, check out the [documentation](https://docs.gitlab.com/ee/development/architecture.html).
+   > To learn more about these components and how they interact, check out the [documentation](https://docs.gitlab.com/ee/development/architecture/).
 
 1. In the output, you will see the `pid`, or process ID of each GitLab service. This process ID verifies that the process is actively running on the system.
 

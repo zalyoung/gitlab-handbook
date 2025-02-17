@@ -17,4 +17,4 @@ See [GKE on GCP](https://www.youtube.com/watch?v=HLNNFS8b_aw)
 
 ## On-prem
 
-See [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
+See [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture/)

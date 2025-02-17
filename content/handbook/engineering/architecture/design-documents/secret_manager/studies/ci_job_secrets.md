@@ -112,7 +112,7 @@ Details the steps and technical information for when the project's native secret
 High-level technical implementation details pertaining to OpenBao and Rails to support the workflow.
 
 1. The OpenBao service needs to be properly configured to make it compatible with the workflow.
-   - Configure [JWT authentication](https://openbao.org/docs/auth/jwt/#jwt-authentication) to make it work with [ID tokens authentication](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html#automatic-id-token-authentication-with-hashicorp-vault).
+   - Configure [JWT authentication](https://openbao.org/docs/auth/jwt/#jwt-authentication) to make it work with [ID tokens authentication](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication/#automatic-id-token-authentication-with-hashicorp-vault).
    - The documentation shows [instructions](https://docs.gitlab.com/ee/ci/secrets/#configure-your-vault-server) using the `vault` CLI, but it should work similarly for `bao`.
    - The OpenBao API is reachable through `https://secrets.gitlab.com`.
    - To reference the `project_id` in the templated policy, it was needed to get the value of the JWT auth mount accessor (`auth_jwt_02163755` from the result of `bao auth list`). This has to be automated during deployments so that the templated policies remain up-to-date with the correct accessor. The mount accessor value is persisted in storage and keeps its value even when the OpenBao server is restarted and sealed.
@@ -233,5 +233,5 @@ Here's a step-by-step guide on how to test this locally:
 
    - `VAULT_AUTH_ROLE` matches the JWT role we created earlier.
    - `aud` matches the role's `bound_audiences`.
-   - The ID token generated in this job is matched by OpenBao using the `bound_claims`, specifically the `user_access_level` which is included in the [custom claims](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html#token-payload) of the ID token.
+   - The ID token generated in this job is matched by OpenBao using the `bound_claims`, specifically the `user_access_level` which is included in the [custom claims](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication/#token-payload) of the ID token.
 1. Run a pipeline and confirm that in the job trace there's a masked output of the secret that it fetched from OpenBao.

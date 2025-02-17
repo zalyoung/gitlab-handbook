@@ -406,7 +406,7 @@ We do have the [Application Performance group](/handbook/product/categories/#app
 
 The [Application Performance group](/handbook/product/categories/#application-performance-group) is focused on identifying systemic performance bottlenecks, creating documentation, and tooling to assist other groups in understanding and improving the performance of their features.
 
-The [Database group](/handbook/product/categories/#database-group) is focused on the specifics of database management/scaling and to provide consulting for development teams in need of database development guidance.  While database related merge requests still require approval from a database maintainer our [database review](https://docs.gitlab.com/ee/development/database_review.html) process has necessarily scaled beyond just the members of the database team.
+The [Database group](/handbook/product/categories/#database-group) is focused on the specifics of database management/scaling and to provide consulting for development teams in need of database development guidance.  While database related merge requests still require approval from a database maintainer our [database review](https://docs.gitlab.com/ee/development/database_review/) process has necessarily scaled beyond just the members of the database team.
 
 #### Product Group health Assessment
 

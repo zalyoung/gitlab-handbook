@@ -293,7 +293,7 @@ There are a few available models to choose from so that the flexibility is maxim
 
 #### Shared Services and Components
 
-The shared services and components below are extracted from the GitLab [product documentation](https://docs.gitlab.com/ee/development/architecture.html).
+The shared services and components below are extracted from the GitLab [product documentation](https://docs.gitlab.com/ee/development/architecture/).
 
 | Service or Component | Sub-Component | Ownership Model | DRI (Centralized Only) | Ownership Group (Centralized Only) | Additional Notes |
 | -------------------- | ------------- | --------------- | ---------------------- | ---------------------------------- | ---------------- |
@@ -425,8 +425,8 @@ Some areas have already been identified that meet the definition above, and may 
 
 | Area             | Reason                      | Special workflows (if any)                                                                                            |
 | ---------------- | --------------------------- |-----------------------------------------------------------------------------------------------------------------------|
-| Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review.html#general-process)                          |
-| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html) |
+| Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review/#general-process)                          |
+| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates/) |
 | Redis changes    | impact to multiple services<br/><br/>Redis instances are responsible for sets of data that are not grouped by feature category. If one set of data is misconfigured, that Redis instance may fail.  |                                                                                                                       |
 | Package product areas            | high percentage of traffic share |                                                                                                                       |
 | Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
@@ -436,8 +436,8 @@ Some areas have already been identified that meet the definition above, and may 
 | Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/software-supply-chain-security/compliance/#code-review)                     |
 | Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/dev/manage/workspace#how-we-work)                                   |
 | [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
-| Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
-| Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
+| Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade/#ruby-upgrade-guidelines)           |
+| Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update/)                                  |
 | Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
 
 ## AI-powered stakeholders

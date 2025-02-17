@@ -16,7 +16,7 @@ toc_hide: true
 
 This design doc covers architectural decisions and proposed changes aligned with the team's
 [technical vision](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/technical_vision/).
-Refer to the [official architecture documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture.html)
+Refer to the [official architecture documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture/)
 for an accurate description of the current status.
 
 ## Motivation

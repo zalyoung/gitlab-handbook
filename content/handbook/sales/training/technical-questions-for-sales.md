@@ -18,7 +18,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/8o1Ifdte6Ps" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Check out the [System for Cross-domain Identity Management (SCIM) documentation](https://docs.gitlab.com/ee/user/group/saml_sso/scim_setup.html)
+- **Learn more**: Check out the [System for Cross-domain Identity Management (SCIM) documentation](https://docs.gitlab.com/ee/user/group/saml_sso/scim_setup/)
 
 #### What options do we have to manage user access on .com?
 
@@ -40,7 +40,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/N1YmkdvN2Bc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: There are multiple types of permissions across GitLab, and when implementing anything that deals with permissions, all of them should be considered. Check out the [GitLab permissions guide](https://docs.gitlab.com/ee/development/permissions.html).
+- **Learn more**: There are multiple types of permissions across GitLab, and when implementing anything that deals with permissions, all of them should be considered. Check out the [GitLab permissions guide](https://docs.gitlab.com/ee/development/permissions/).
 
 #### How can users be auto-provisioned?
 
@@ -51,7 +51,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/2UvAKN3W_zY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Review the [Create users through integrations documentation](https://docs.gitlab.com/ee/user/profile/account/create_accounts.html#create-users-through-integrations)
+- **Learn more**: Review the [Create users through integrations documentation](https://docs.gitlab.com/ee/user/profile/account/create_accounts/#create-users-through-integrations)
 
 #### How is user management different on .com compared to self-managed?
 
@@ -300,7 +300,7 @@ No questions at this time.
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: GitLab strongly recommends downloading the Omnibus package installation since it is quicker to install, easier to upgrade, and contains features to enhance reliability not found in other methods. We also strongly recommend [at least 4GB of free RAM](https://docs.gitlab.com/ee/install/requirements.html#cpu) to run GitLab. Find out more on the [GitLab Installation page](https://about.gitlab.com/install/).
+- **Learn more**: GitLab strongly recommends downloading the Omnibus package installation since it is quicker to install, easier to upgrade, and contains features to enhance reliability not found in other methods. We also strongly recommend [at least 4GB of free RAM](https://docs.gitlab.com/ee/install/requirements/#cpu) to run GitLab. Find out more on the [GitLab Installation page](https://about.gitlab.com/install/).
 
 #### How do customers migrate from GitLab CE to EE?
 

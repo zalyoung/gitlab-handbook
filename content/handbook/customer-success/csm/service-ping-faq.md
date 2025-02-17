@@ -56,7 +56,7 @@ Copy and paste this information into a text file, encrypt and send to GitLab or 
 
 ## 4. Can customers visualize the data?
 
-At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
+At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data/#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
 
 ## 5. How do we ensure that you don't change what's in the payload?
 
@@ -68,7 +68,7 @@ You can inspect the data and have your security team review it. They can continu
 
 ## 7. We have network isolation and there is no way for usage to get out of their network
 
-We respect your organizations' network security policies and restrictions and understand there are situations where it is not feasible or technically possible to submit service ping over the Internet. If Service Ping is blocked by a firewall, load balancer, or proxy, you might consider [modifying](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#network-configuration) your network configuration to un-block the Service Ping payload from being sent to GitLab.
+We respect your organizations' network security policies and restrictions and understand there are situations where it is not feasible or technically possible to submit service ping over the Internet. If Service Ping is blocked by a firewall, load balancer, or proxy, you might consider [modifying](https://docs.gitlab.com/ee/administration/settings/usage_statistics/#network-configuration) your network configuration to un-block the Service Ping payload from being sent to GitLab.
 
 If you see value in sharing Service Ping data and it's not technically possible for you to do so directly, GitLab can provide you instructions to share the data manually, including allowing you to sanitize certain data as preferred.
 
@@ -83,7 +83,7 @@ Product Documentation: Deactivate the Service Ping
 
 **Important Documentation links**
 
-1. [Admin Settings for Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#service-ping)
-1. [Usage Statistics Collected](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#usage-statistics-collected)
-1. [Network Configuration](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#network-configuration)
-1. [Accessing Service Ping through REST API](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data)
+1. [Admin Settings for Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics/#service-ping)
+1. [Usage Statistics Collected](https://docs.gitlab.com/ee/administration/settings/usage_statistics/#usage-statistics-collected)
+1. [Network Configuration](https://docs.gitlab.com/ee/administration/settings/usage_statistics/#network-configuration)
+1. [Accessing Service Ping through REST API](https://docs.gitlab.com/ee/api/usage_data/#export-service-ping-data)

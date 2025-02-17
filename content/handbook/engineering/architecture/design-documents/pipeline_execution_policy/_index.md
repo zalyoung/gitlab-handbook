@@ -16,7 +16,7 @@ This document is a work in progress and represents the current state of the visi
 
 ## Summary
 
-Users need a single solution for enforcing jobs to be run as part of a project pipeline. They want a way to combine the flexibility of [compliance framework pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines.html) with the simplicity of [scan execution policies](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html#scan-execution-policies-schema).
+Users need a single solution for enforcing jobs to be run as part of a project pipeline. They want a way to combine the flexibility of [compliance framework pipelines](https://docs.gitlab.com/ee/user/group/compliance_pipelines/) with the simplicity of [scan execution policies](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies/#scan-execution-policies-schema).
 
 There are many cases that could be addressed using pipeline execution policies to define policy rules, but here are a few of the most common we've heard so far:
 
@@ -56,13 +56,13 @@ Known compliance pipelines issues are:
 
 Currently, security policies can include multiple scan actions. Each scan action will result in a CI job that will be injected in the project CI pipeline.
 The new policy type Pipeline Execution Policy allows users to define custom CI jobs that will be injected into the project CI pipeline as well. We want to generalize the security policy
-approach to provide the same flexibility that [compliance framework](https://docs.gitlab.com/ee/user/group/compliance_frameworks.html) needs. The combination of the 2 features
+approach to provide the same flexibility that [compliance framework](https://docs.gitlab.com/ee/user/group/compliance_frameworks/) needs. The combination of the 2 features
 means that security policies can be scope to compliance frameworks and enforce the presence of custom CI jobs.
 
 Like Scan Execution Policies, Pipeline Execution Policy jobs can be
-[scoped](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html#policy_scope-scope-type)
+[scoped](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies/#policy_scope-scope-type)
 to certain compliance frameworks applied to the project.
-It should be possible to control when the policy jobs are enforced by using the existing [workflow rules](https://docs.gitlab.com/ee/ci/yaml/workflow.html).
+It should be possible to control when the policy jobs are enforced by using the existing [workflow rules](https://docs.gitlab.com/ee/ci/yaml/workflow/).
 Users can leverage one of the predefined security-policy stages to position jobs in the pipeline according to their needs.
 Transitioning from compliance pipelines to the new feature should be as smooth as possible.
 

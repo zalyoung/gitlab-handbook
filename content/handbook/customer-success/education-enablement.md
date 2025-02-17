@@ -47,11 +47,11 @@ To align our education and enablement with our product, each of the topics below
 #### Intermediate Level
 
 - [Value Stream Management Feature Docs](https://about.gitlab.com/solutions/value-stream-management/)
-- [Audit Events Feature Docs](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
-- [DevOps Reports Feature Docs](https://docs.gitlab.com/ee/administration/analytics/dev_ops_reports.html)
-- [Code Analytics Feature Docs](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html)
-- [Compliance Management Feature Docs](https://docs.gitlab.com/ee/administration/compliance.html)
-- [Audit Reports Feature Docs](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
+- [Audit Events Feature Docs](https://docs.gitlab.com/ee/administration/audit_event_reports/)
+- [DevOps Reports Feature Docs](https://docs.gitlab.com/ee/administration/analytics/dev_ops_reports/)
+- [Code Analytics Feature Docs](https://docs.gitlab.com/ee/user/analytics/code_review_analytics/)
+- [Compliance Management Feature Docs](https://docs.gitlab.com/ee/administration/compliance/)
+- [Audit Reports Feature Docs](https://docs.gitlab.com/ee/administration/audit_event_reports/)
 
 ### Plan Stage
 
@@ -65,13 +65,13 @@ To align our education and enablement with our product, each of the topics below
 #### Intermediate Level
 
 - [Issue Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/issues/)
-- [Time Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/time_tracking.html)
-- [Boards Feature Docs](https://docs.gitlab.com/ee/user/project/issue_board.html)
+- [Time Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/time_tracking/)
+- [Boards Feature Docs](https://docs.gitlab.com/ee/user/project/issue_board/)
 - [Epics Feature Docs](https://docs.gitlab.com/ee/user/group/epics/)
 - [Roadmaps Feature Docs](https://docs.gitlab.com/ee/user/group/roadmap/)
 - [Requirements Management Feature Docs](https://docs.gitlab.com/ee/user/project/requirements/)
 - [Quality Management Feature Docs](https://docs.gitlab.com/ee/ci/test_cases/)
-- [Design Management Feature Docs](https://docs.gitlab.com/ee/user/project/issues/design_management.html)
+- [Design Management Feature Docs](https://docs.gitlab.com/ee/user/project/issues/design_management/)
 
 ### Create Stage
 
@@ -90,14 +90,14 @@ To align our education and enablement with our product, each of the topics below
   - [JIRA Integration Solution Overview](https://about.gitlab.com/solutions/jira/)
   - [JIRA Issues Integration Feature Docs](https://docs.gitlab.com/ee/integration/jira/)
   - [JIRA Development Panel Integration Feature Docs](https://docs.gitlab.com/ee/integration/jira/dvcs/)
-  - [Multiple approvers in code review Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html)
-  - [Approval rules for code review Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html)
-  - [Merge request dependencies Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html)
+  - [Multiple approvers in code review Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/)
+  - [Approval rules for code review Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules/)
+  - [Merge request dependencies Feature Docs](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies/)
   - [Code Owners Feature Docs](https://docs.gitlab.com/ee/user/project/codeowners/)
 - [Wiki Feature Docs](https://docs.gitlab.com/ee/user/project/wiki/)
 - [Web IDE Feature Docs](https://docs.gitlab.com/ee/user/project/web_ide/)
 - [Live Preview Feature Docs](https://docs.gitlab.com/ee/user/project/web_ide/#live-preview)
-- [Snippets Feature Docs](https://docs.gitlab.com/ee/user/snippets.html)
+- [Snippets Feature Docs](https://docs.gitlab.com/ee/user/snippets/)
 - [Gitaly Source Code Project](https://gitlab.com/gitlab-org/gitaly)
 
 ### Verify Stage
@@ -123,15 +123,15 @@ To align our education and enablement with our product, each of the topics below
   - [CI/CD configuration with `.gitlab-ci.yml` Docs](https://docs.gitlab.com/ee/ci/yaml/)
   - [CI/CD authoring YAML reference for `.gitlab-ci.yml` Docs](https://docs.gitlab.com/ee/ci/yaml/)
   - [CI/CD Implementation Examples Docs](https://docs.gitlab.com/ee/ci/examples/)
-  - [Migrate from CircleCI Docs](https://docs.gitlab.com/ee/ci/migration/circleci.html)
-  - [Migrate from Jenkins Docs](https://docs.gitlab.com/ee/ci/migration/jenkins.html)
-- [Code Quality Feature Docs](https://docs.gitlab.com/ee/ci/testing/code_quality.html)
-- [Code Testing and Coverage Feature Docs](https://docs.gitlab.com/ee/ci/testing/unit_test_reports.html)
-- [Load Testing Feature Docs](https://docs.gitlab.com/ee/ci/testing/load_performance_testing.html)
-- [Browser Performance Testing Feature Docs](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing.html)
+  - [Migrate from CircleCI Docs](https://docs.gitlab.com/ee/ci/migration/circleci/)
+  - [Migrate from Jenkins Docs](https://docs.gitlab.com/ee/ci/migration/jenkins/)
+- [Code Quality Feature Docs](https://docs.gitlab.com/ee/ci/testing/code_quality/)
+- [Code Testing and Coverage Feature Docs](https://docs.gitlab.com/ee/ci/testing/unit_test_reports/)
+- [Load Testing Feature Docs](https://docs.gitlab.com/ee/ci/testing/load_performance_testing/)
+- [Browser Performance Testing Feature Docs](https://docs.gitlab.com/ee/ci/testing/browser_performance_testing/)
 - [Usability Testing Feature Docs](https://docs.gitlab.com/ee/ci/review_apps/#visual-reviews-starter)
-- [Accessibility Testing Feature Docs](https://docs.gitlab.com/ee/ci/testing/accessibility_testing.html)
-- [Merge Trains Feature Docs](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html)
+- [Accessibility Testing Feature Docs](https://docs.gitlab.com/ee/ci/testing/accessibility_testing/)
+- [Merge Trains Feature Docs](https://docs.gitlab.com/ee/ci/pipelines/merge_trains/)
 
 ### Package Stage
 
@@ -175,7 +175,7 @@ To align our education and enablement with our product, each of the topics below
   - [Review Apps Direction and Roadmap](https://gitlab.com/groups/gitlab-org/-/epics/495)
   - [Review Apps Feature Docs](https://docs.gitlab.com/ee/ci/review_apps/)
 - [Advanced Deployments Feature Docs](https://docs.gitlab.com/ee/topics/autodevops/#incremental-rollout-to-production-premium)
-- [Feature Flags Feature Docs](https://docs.gitlab.com/ee/operations/feature_flags.html)
+- [Feature Flags Feature Docs](https://docs.gitlab.com/ee/operations/feature_flags/)
 - [Release Orchestration Feature Docs](https://docs.gitlab.com/ee/user/project/releases/)
 
 ### Configure Stage
@@ -210,7 +210,7 @@ To align our education and enablement with our product, each of the topics below
 
 - [Runbooks Feature Docs](https://docs.gitlab.com/ee/user/project/clusters/runbooks/)
 - [Incident Management Feature Docs](https://docs.gitlab.com/ee/operations/incident_management/)
-- [Error Tracking Feature Docs](https://docs.gitlab.com/ee/operations/error_tracking.html)
+- [Error Tracking Feature Docs](https://docs.gitlab.com/ee/operations/error_tracking/)
 - [Product Analytics Feature Docs](https://docs.gitlab.com/ee/user/product_analytics/)
 - [Service Desk Feature Docs](https://docs.gitlab.com/ee/user/project/service_desk/)
 

@@ -16,7 +16,7 @@ The following items describe some specific settings or how we addressed some of 
 
 ##### Architecture
 
-We have one [Geo secondary node](https://geo.staging.gitlab.com) up and running for [staging.gitlab.com](https://staging.gitlab.com) configured as an [all-in-one box](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gstg-infra-geo-secondary.json) with all components colocated on one single node. We are currently *not* running [a Geo HA deployment](https://docs.gitlab.com/ee/administration/geo/replication/multiple_servers.html).
+We have one [Geo secondary node](https://geo.staging.gitlab.com) up and running for [staging.gitlab.com](https://staging.gitlab.com) configured as an [all-in-one box](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/master/roles/gstg-infra-geo-secondary.json) with all components colocated on one single node. We are currently *not* running [a Geo HA deployment](https://docs.gitlab.com/ee/administration/geo/replication/multiple_servers/).
 
 ![Geo Staging Diagram](/images/handbook/engineering/geo/geo_staging_diagram.png "Geo Staging Diagram")
 
@@ -52,7 +52,7 @@ The deploy to the Geo secondary node happens indirectly. One of the final steps 
 
 ##### Known issues
 
-The staging environment does not have the data (repositories, LFS Objects, uploads, etc.) on the file system for every project in the database. To avoid a lot of false-positive errors and a waste of resources trying to resync failed registries over and over again, we decided to enable [selective sync](https://docs.gitlab.com/ee/administration/geo/replication/configuration.html#selective-synchronization) at the group level. We currently replicate the `gitlab-org` group.
+The staging environment does not have the data (repositories, LFS Objects, uploads, etc.) on the file system for every project in the database. To avoid a lot of false-positive errors and a waste of resources trying to resync failed registries over and over again, we decided to enable [selective sync](https://docs.gitlab.com/ee/administration/geo/replication/configuration/#selective-synchronization) at the group level. We currently replicate the `gitlab-org` group.
 
 There may be some existing replication/verification problems on staging, we aim to track all of them in the [Geo Staging Maintenance epic](https://gitlab.com/groups/gitlab-org/-/epics/5094).
 

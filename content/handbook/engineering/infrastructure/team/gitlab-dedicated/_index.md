@@ -463,7 +463,7 @@ When a red build in the default branch is detected, the first course of action i
 
 #### Merge request reviewers
 
-GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review/#dogfooding-the-reviewers-feature).
 
 The process can be summarized as:
 
@@ -542,7 +542,7 @@ There are three other workflow labels of importance:
 | ----------- | ----------- |
 | ![Cancelled](/images/engineering/infrastructure/team/gitlab-dedicated/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
 | ![Stalled](/images/engineering/infrastructure/team/gitlab-dedicated/label-stalled.png) | If no update has been provided in an issue for over a week, the issue will get this label. The team Engineering Manager is responsible for reviewing the status of the issue and helping it move along. |
-| ![Blocked](/images/engineering/infrastructure/team/gitlab-dedicated/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Blocked](/images/engineering/infrastructure/team/gitlab-dedicated/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues/) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 #### Support labels
 

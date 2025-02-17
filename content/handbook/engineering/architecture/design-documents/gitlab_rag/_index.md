@@ -161,8 +161,8 @@ make it particularly useful for situations where users expect quick and precise
 results based on specific keywords or phrases.
 
 Elasicsearch uses a BM25 algorigthm to perform keyword search.
-If one of the existing [indexed document types](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html#advanced-search-index-scopes)
-is not covered, a [new document type](https://docs.gitlab.com/ee/development/advanced_search.html#add-a-new-document-type-to-elasticsearch) can be added.
+If one of the existing [indexed document types](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch/#advanced-search-index-scopes)
+is not covered, a [new document type](https://docs.gitlab.com/ee/development/advanced_search/#add-a-new-document-type-to-elasticsearch) can be added.
 
 ### Hybrid Search
 
@@ -191,7 +191,7 @@ search types, each more suited to address different queries.
 
 Two code searches are available: `Elasticsearch` and `Zoekt`.
 
-Elasticsearch provides blob search which supports [Advanced Search Syntax](https://docs.gitlab.com/ee/user/search/advanced_search.html#syntax).
+Elasticsearch provides blob search which supports [Advanced Search Syntax](https://docs.gitlab.com/ee/user/search/advanced_search/#syntax).
 
 [Zoekt](https://docs.gitlab.com/ee/architecture/blueprints/code_search_with_zoekt/) is employed on GitLab.com to provide
 exact match keyword search and regular expression search capabilities for source
@@ -251,9 +251,9 @@ Using a new embedding model or persisting data into a new storage would require
 [legal reviews](../../../../legal/). See the following
 links for more information:
 
-- [Data privacy](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#data-privacy)
-- [Data retention](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#data-retention)
-- [Training data](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#training-data)
+- [Data privacy](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage/#data-privacy)
+- [Data retention](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage/#data-retention)
+- [Training data](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage/#training-data)
 
 ## Evaluation
 

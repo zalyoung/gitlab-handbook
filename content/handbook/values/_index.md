@@ -878,11 +878,11 @@ The release process can include:
 - [Dogfooding](#dogfooding)
 - [Early access](https://docs.gitlab.com/ee/policy/early_access_program/)
 - Incremental release using [a feature flag](https://docs.gitlab.com/ee/development/feature_flags/)
-- [Development stage progression](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) (such as experiment to beta)
+- [Development stage progression](https://docs.gitlab.com/ee/policy/experiment-beta-support/) (such as experiment to beta)
 - Release
 - Announcement
 
-While [development stages](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) can be used to indicate release progress, is not itself iteration.
+While [development stages](https://docs.gitlab.com/ee/policy/experiment-beta-support/) can be used to indicate release progress, is not itself iteration.
 
 ##### Iterate toward global maximum
 

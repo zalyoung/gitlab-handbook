@@ -54,7 +54,7 @@ We need to prevent this for the sake of GitLab.com stability.
 ### Technical debt caused by feature flags
 
 Feature flags are also becoming an ever-growing source of technical debt: there are currently
-[591 feature flags in the GitLab codebase](https://docs.gitlab.com/ee/user/feature_flags.html).
+[591 feature flags in the GitLab codebase](https://docs.gitlab.com/ee/user/feature_flags/).
 
 We need to reduce feature flags count for the sake of long-term maintainability & quality of the GitLab codebase.
 
@@ -100,7 +100,7 @@ We currently show the feature flag default states in several places, for differe
 
 **GitLab customers**
 
-- [User documentation](https://docs.gitlab.com/ee/user/feature_flags.html):
+- [User documentation](https://docs.gitlab.com/ee/user/feature_flags/):
   List all feature flags and their metadata so that GitLab customers can tweak feature flags on
   their instance. Also useful for GitLab.com users that want to check the default state of a feature flag.
 
@@ -169,7 +169,7 @@ Following are the constraints for each feature flag type:
     there's no need to keep the flag in the codebase after it's been enabled on GitLab.com.
     **`default_enabled: true` will not have any effect for this type of feature flag.**
   - Maximum Lifespan: 2 months.
-  - Additional note: This type of feature flag won't be documented in the [All feature flags in GitLab](https://docs.gitlab.com/ee/user/feature_flags.html)
+  - Additional note: This type of feature flag won't be documented in the [All feature flags in GitLab](https://docs.gitlab.com/ee/user/feature_flags/)
     page given they're short-lived and deployment-related.
 - `wip`
   - `default_enabled` **must not** be set to `true`. If needed, this type can be changed to `beta` once the feature is complete.
@@ -252,7 +252,7 @@ default_enabled: true
 
 **GitLab customers**
 
-- [User documentation](https://docs.gitlab.com/ee/user/feature_flags.html):
+- [User documentation](https://docs.gitlab.com/ee/user/feature_flags/):
   Keep the current page but add filtering and sorting, similarly to the
   [unofficial feature flags dashboard](https://samdbeckham.gitlab.io/feature-flags/).
 

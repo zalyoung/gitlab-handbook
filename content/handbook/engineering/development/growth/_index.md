@@ -103,7 +103,7 @@ Growth teams work across the GitLab codebase on multiple groups and projects inc
 ### Issue sequencing
 
 In order to convey Issue implementation order and blocking concepts,
-we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#blocking-issues).
+we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues/#blocking-issues).
 
 More on the discussion can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752.
 
@@ -200,7 +200,7 @@ To ensure consistency and clarity in our communication, we've implemented a stan
 
 This template streamlines our reporting process, making it easier for <abbr title="Directly Responsible Individual">DRI</abbr>s to provide comprehensive and uniform updates. By using a consistent format, we enhance readability and facilitate quick information retrieval for all team members.
 
-For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
+For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/ee/user/project/description_templates/#use-the-templates).
 
 ## Technical exploration ("Spike") guidelines
 

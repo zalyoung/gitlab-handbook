@@ -41,9 +41,9 @@ The GraphQL API can be added to by anyone, including [community members](https:/
 
 You can read more information about GraphQL at GitLab here:
 
-- [Getting started with GitLab GraphQL API](https://docs.gitlab.com/ee/api/graphql/getting_started.html)
-- [GraphQL frontend guide](https://docs.gitlab.com/ee/development/fe_guide/graphql.html)
-- [GraphQL API style guide](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html)
+- [Getting started with GitLab GraphQL API](https://docs.gitlab.com/ee/api/graphql/getting_started/)
+- [GraphQL frontend guide](https://docs.gitlab.com/ee/development/fe_guide/graphql/)
+- [GraphQL API style guide](https://docs.gitlab.com/ee/development/api_graphql_styleguide/)
 - [Introduction to GraphQL (graphql.org)](https://graphql.org/learn/)
 
 We also run GraphQL office hours, which is a place where GitLab team members can ask questions and chat amongst peers about GraphQL at GitLab.

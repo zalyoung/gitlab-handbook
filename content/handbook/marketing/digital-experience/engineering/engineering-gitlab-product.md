@@ -7,15 +7,15 @@ description: "Learn more about how Digital Experience engineers work with the Gi
 
 From time to time, our team has objectives that require us to collaborate on the [GitLab product](https://gitlab.com/gitlab-org/gitlab). The group we have most collaborated in the past has been the [Growth team](/handbook/engineering/development/growth/), though engineers should validate what [stage they should contact](/handbook/product/categories/). They should be [informed and consulted](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) with any changes that affect the GitLab product, ideally doing so before we begin any work. This ensures that we are aligned with their goals and can leverage [their expertise in the GitLab product](/handbook/values/#reach-across-company-departments). Remember that the Digital Experience team's work on the GitLab product should align with our [team's OKRs](/handbook/company/okrs/) and the [overall company strategy](/handbook/company/strategy/).
 
-When working on the GitLab product, it's important to follow the established [contribution guidelines](https://docs.gitlab.com/ee/development/contributing/) and [code review process](https://docs.gitlab.com/ee/development/code_review.html). This includes:
+When working on the GitLab product, it's important to follow the established [contribution guidelines](https://docs.gitlab.com/ee/development/contributing/) and [code review process](https://docs.gitlab.com/ee/development/code_review/). This includes:
 
-1. [Writing clear commit messages](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines)
+1. [Writing clear commit messages](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow/#commit-messages-guidelines)
 2. Opening a merge request with a detailed description
-3. Addressing any feedback from [reviewers](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
+3. Addressing any feedback from [reviewers](https://docs.gitlab.com/ee/development/code_review/#reviewer-roulette)
 
 Additionally, make sure to:
 
-- [Write and update tests](https://docs.gitlab.com/ee/development/code_review.html#quality) as necessary
+- [Write and update tests](https://docs.gitlab.com/ee/development/code_review/#quality) as necessary
 - Follow GitLab's [coding standards](https://docs.gitlab.com/ee/development/contributing/style_guides/)
 - Update documentation if your changes affect user-facing features
 

@@ -259,7 +259,7 @@ Issues for our team are tracked in the [Production Engineering](https://gitlab.c
 
 ##### Issue weighting
 
-We dogfood the [weight feature](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html) in issues. We use a modified Fibonacci sequence (the numbers match roughly with the number of days) and align our weights to t-shirt sizes to make them easy to talk about:
+We dogfood the [weight feature](https://docs.gitlab.com/ee/user/project/issues/issue_weight/) in issues. We use a modified Fibonacci sequence (the numbers match roughly with the number of days) and align our weights to t-shirt sizes to make them easy to talk about:
 
 - Fib 1 (XS) - A few hours of work. Consider if the work should just be completed now depending on competing priorities.
 - Fib 2 (S) - A day or two of work.

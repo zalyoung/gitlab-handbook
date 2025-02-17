@@ -209,7 +209,7 @@ We would store the external HTTP/HTTPS URLs for the user's external services in 
 
 We would POST the latest project settings to these external services and expect a boolean status as the response.
 We could also create a POST API that can be used to update the status of an external requirement, this would be a
-similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
+similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks/#set-status-of-an-external-status-check).
 
 ## Workflow
 

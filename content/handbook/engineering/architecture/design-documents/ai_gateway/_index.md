@@ -406,9 +406,9 @@ or dedicated installations could then start getting better
 AI-supported features without having to upgrade their GitLab instance.
 
 Features that are currently
-[experimental](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
+[experimental](https://docs.gitlab.com/ee/policy/development_stages_support/#experiment)
 can use these generic APIs, but we should aim to convert to a single
-purpose API endpoint before we make the feature [generally available](https://docs.gitlab.com/ee/policy/development_stages_support.html#generally-available-ga)
+purpose API endpoint before we make the feature [generally available](https://docs.gitlab.com/ee/policy/development_stages_support/#generally-available-ga)
 for self-managed installations. This makes it easier for us to support
 features long-term even if the landscape of AI providers change.
 
@@ -460,7 +460,7 @@ Authenticating the GitLab instance on the AI-gateway was discussed in:
 - [Issue 177](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/177)
 - [Epic 10808](https://gitlab.com/groups/gitlab-org/-/epics/10808)
 
-The specific mechanism by which trust is delegated between end-users, GitLab instances, and the AI-gateway is detailed in the [Cloud Connector access control documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture.html#access-control).
+The specific mechanism by which trust is delegated between end-users, GitLab instances, and the AI-gateway is detailed in the [Cloud Connector access control documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture/#access-control).
 
 The AI Gateway, as a backend service, handles instance authentication among other tasks. It is accessed through the Cloud Connector Load Balancer (currently implemented as Cloudflare), which acts as a Web Application Firewall (WAF) layer but does not perform authentication. The AI Gateway also needs to support end-user authentication because some requests, such as code completion, will be sent directly by clients rather than indirectly through GitLab Rails. A possible solution involving short-term user tokens is described in [Epic 13252](https://gitlab.com/groups/gitlab-org/-/epics/13252). The AI Gateway must distinguish between requests proxied by GitLab Rails and direct client requests, as some endpoints or parameters may not be available for direct requests (e.g., clients should only send sub-components of the final prompt, which the AI Gateway will build).
 
@@ -545,7 +545,7 @@ solutions, including those requiring FedRAMP compliance. This approach
 allows us to serve sophisticated customers capable of managing their
 own LLM infrastructure, providing them with more control and flexibility.
 Instructions on how to setup AIGW on self-managed are found in
-our [docs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
+our [docs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure/).
 
 While this adds another component to be installed, the alternative would be
 to implement a model interface in the monolith. This presents serveral

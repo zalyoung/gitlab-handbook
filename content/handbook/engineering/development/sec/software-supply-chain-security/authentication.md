@@ -74,7 +74,7 @@ Bypassing permissions and authentication mechanisms are, by nature, common secur
 
 Because this group works on components of the application that have a [far-reaching impact](/handbook/engineering/development/#reducing-the-impact-of-far-reaching-work), we take these extra steps in order to reduce our risk of a production incident:
 
-1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines).
+1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/ee/development/code_review/#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/ee/development/code_review/#approval-guidelines).
 1. Auth merge requests will include a comment that needs answered before merging, "Should this be behind a feature flag?" This is an effort to remind engineers about feature flag usage, but also to challenge reasoning as to why changes do not need to be behind a feature flag.
 1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/sscs/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
 
@@ -219,7 +219,7 @@ We have [many labels](https://docs.gitlab.com/ee/development/labels/) that can b
 - Stage that owns the area (`devops::software supply chain security`)
 - Group that owns the area (`group::authentication`)
 - Specialization (`frontend`, `backend`, `database`, `documentation`)
-- `security` if the issue is related to application security, and `breaking change` if this work is considered a [breaking change](https://docs.gitlab.com/ee/update/terminology.html#breaking-change)
+- `security` if the issue is related to application security, and `breaking change` if this work is considered a [breaking change](https://docs.gitlab.com/ee/update/terminology/#breaking-change)
 
 #### Working on unscheduled issues
 

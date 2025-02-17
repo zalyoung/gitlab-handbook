@@ -15,7 +15,7 @@ We are accepting requests to review vulnerabilities detected in the latest versi
 - `gitlab/gitlab-ee:latest` (Docker Hub)
 - `gitlab/gitlab-runner:latest` (Docker Hub)
 
-Ensure you are scanning an image running on the latest release or previous two monthly release version. You can consult our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) for more details on supported versions for security backports. We will typically not be able to review scanner findings for codebases and image versions outside of the maintenance policy.
+Ensure you are scanning an image running on the latest release or previous two monthly release version. You can consult our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance/) for more details on supported versions for security backports. We will typically not be able to review scanner findings for codebases and image versions outside of the maintenance policy.
 
 ### What scanners results are we accepting?
 

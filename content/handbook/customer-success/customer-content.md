@@ -8,7 +8,7 @@ description: "A 5-day plan to get started with GitLab"
 
 We've laid out a 5-day plan you and your team can use to begin learning about and using GitLab successfully.
 
-Want to make this into a template to share with others in your organization? [Create an issue template](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template) and build [this template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/017ada32b15cd9fe0385d3e65a98c29c7b63a8b1/.gitlab/issue_templates/developer_onboarding.md) into your onboarding and training so your team can use GitLab to learn GitLab.
+Want to make this into a template to share with others in your organization? [Create an issue template](https://docs.gitlab.com/ee/user/project/description_templates/#create-an-issue-template) and build [this template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/017ada32b15cd9fe0385d3e65a98c29c7b63a8b1/.gitlab/issue_templates/developer_onboarding.md) into your onboarding and training so your team can use GitLab to learn GitLab.
 
 ## Day 1
 

@@ -35,7 +35,7 @@ Today personal Namespaces serve two purposes that are mostly non-overlapping:
 ## 1. Definition
 
 A [personal Namespace](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces) is based on a username and provided when a user creates an account.
-Users can create [personal Projects](https://docs.gitlab.com/ee/user/project/working_with_projects.html#view-personal-projects) under their personal Namespace.
+Users can create [personal Projects](https://docs.gitlab.com/ee/user/project/working_with_projects/#view-personal-projects) under their personal Namespace.
 
 ## 2. Data flow
 

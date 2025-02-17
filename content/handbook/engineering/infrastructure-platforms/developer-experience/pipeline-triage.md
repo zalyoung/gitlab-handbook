@@ -278,8 +278,8 @@ See [Quarantining Tests](#quarantining-tests)
 
 **Read more**:
 
-- [What is a flaky test?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html#whats-a-flaky-test)
-- [What are the potential causes for a test to be flaky?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html#what-are-the-potential-cause-for-a-test-to-be-flaky)
+- [What is a flaky test?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests/#whats-a-flaky-test)
+- [What are the potential causes for a test to be flaky?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests/#what-are-the-potential-cause-for-a-test-to-be-flaky)
 
 **Process**
 
@@ -296,7 +296,7 @@ that have caused us flakiness include:
 - Actions not completing successfully (e.g. logging out).
 
 For more details, see the list with example issues in our
-[unhealthy tests](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html) documentation.
+[unhealthy tests](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests/) documentation.
 
 See [Quarantining Tests](#quarantining-tests)
 
@@ -495,7 +495,7 @@ As with quarantining a test, you can ask in the `#quality` Slack channel for som
 
 ### Re-evaluating tests
 
-If the due date of a failing test issue is reached, you should re-evaluate if the failing test should really be covered at the end-to-end test level, or if it should be covered in a lower level of the [testing levels pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).
+If the due date of a failing test issue is reached, you should re-evaluate if the failing test should really be covered at the end-to-end test level, or if it should be covered in a lower level of the [testing levels pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels/).
 
 If you decide to delete the test, open a merge request to delete it and close the test failure issue. In the MR description or comment, mention the stable counterpart SET for the test's stage for their awareness. Then open a new issue to cover the test scenario in a different test level.
 

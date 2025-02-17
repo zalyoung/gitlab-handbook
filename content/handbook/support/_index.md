@@ -563,7 +563,7 @@ Each Slack channel within Support has a number of [Workflows](https://slack.com/
 #### Issue Notification
 
 Some workflows are meant to notify the team of new issues created in the relevant project.
-In these cases, a [project webhook](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) passes information to [Zapier](https://zapier.com/app/zaps/folder/210292),
+In these cases, a [project webhook](https://docs.gitlab.com/ee/user/project/integrations/webhooks/) passes information to [Zapier](https://zapier.com/app/zaps/folder/210292),
 which then sends the information to a Slack workflow.
 
 - `#support_gitlab-com`
@@ -666,29 +666,29 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [GitLab.com Status](https://status.gitlab.com/)
   - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/
 - Writing docs
-  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index/)
   - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-  - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
+  - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown/)
 - Setting up GitLab
-  - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
+  - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture/)
   - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
-  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index/)
   - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
-  - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
-  - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
+  - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration/)
+  - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database/#seed-the-database-fresh-installs-only)
 - Debugging GitLab
   - [Log system](https://docs.gitlab.com/ee/administration/logs/)
   - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/
-  - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
-  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
-  - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
+  - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance/)
+  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index/#support-team-docs)
+  - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet/)
 - GitLab features
   - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
   - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
-  - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
+  - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch/)
   - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
 - De[Feature flags](https://docs.gitlab.com/ee/development/feature_flags/
-  - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
-  - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-  - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)
+  - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities/)
+  - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index/)
+  - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime/)
