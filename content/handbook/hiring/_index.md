@@ -26,7 +26,7 @@ As we set out to achieve this vision, we will continue to rely on core guiding p
 ### Our Objectives and Roadmap
 
 We strive to be as transparent as possible, but these sections are only available for our GitLab team members.
-[Talent Acquisition Strategy](https://docs.google.com/presentation/d/1TxVaRaBommUMcRxCgrRq9kr2hWW25SBdAObMQdfylO8/edit#slide=id.g2832878d834_0_0)
+[Talent Acquisition Strategy](https://docs.google.com/document/d/1ollQaElBdOK18oUx2VBu9A8aeq0Sg35RmGG9c-DjooA/edit?tab=t.0#heading=h.8zhi3td2dwh9)
 
 ## Talent Acquisition Pages and Processes
 
