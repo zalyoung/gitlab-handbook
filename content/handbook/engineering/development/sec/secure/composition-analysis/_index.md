@@ -114,6 +114,7 @@ These items must be triaged continuously throughout the milestone which means th
 #### Responsibilities - Maintainership
 
 1. Work with community contributors to help drive [their merge requests](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=group%3A%3Acomposition%20analysis&label_name[]=Community%20contribution) to completion (more information on [community contributions triaging process](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)).
+1. Run the [License Alias Generator](https://gitlab.com/gitlab-org/security-products/license-db/license-alias-generator/-/tree/main?ref_type=heads) tool to update the list of [known alias](https://gitlab.com/gitlab-org/security-products/license-db/license-processor/-/blob/main/data/aliases.go?ref_type=heads). You can find instructions [here](https://gitlab.com/gitlab-org/security-products/license-db/license-alias-generator/-/tree/main?ref_type=heads#workflow).
 1. Check for new versions of languages or package managers that we support, or deprecation / removal of support for the same and notify Engineering Manager and Product Manager via issue.
 1. Check for new versions of our dependencies (not related to security):
     1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner)).
