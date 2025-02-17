@@ -40,8 +40,6 @@ Such as:
 
 - Surveys, card sorts, and tree tests will often have a Promotion Game attached e.g. Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards. However, this is not always the case and should always be confirmed on your recruitment issue. On occasion our longer surveys are incentivezed per complete. This must be approved by the Senior UX Research Operations Coordinator or UX Research Manager. 
 
-- Design evaluations: Unpaid.
-
 If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards), please review the following information in the [handbook](/handbook/legal/ux-research-pilot/) and consult with legal where required. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional games or contests.
 
 ## Fulfillment
@@ -52,7 +50,7 @@ Requests for thank you gifts should be fulfilled at least twice per week so that
 
 [Tremendous](https://www.tremendous.com/) is the incentive distributor that we use. These incentives are sent via RallyUXR, our research CRM platform so that we can keep all incentives in one place for tracking and budgeting purposes.
 
-Tremendous allows us to send gratuities globally and participants can easily select gift cards in their currency and preference. The messaging/emails to send rewards is done with our custom GitLab branding.
+Tremendous allows us to send gratuities globally and participants can easily select gift cards in their currency and preference. The messaging/emails to send rewards is done via RallyUXR with our custom GitLab branding.
 
 Unsupported Countries in Tremendous, meaning no rewards are available in the following countries: Cuba, Iran, Myanmar, North Korea, Russia, Syria, Venezuela, and Ukraine.
 
@@ -61,4 +59,3 @@ Check out RallyUXR's Tremendous' [FAQ page](https://help.rallyuxr.com/en/article
 ## Incentives budget tracking and funding
 
 The accounting team funds Tremendous via RallyUXR with a lump sum amount from the pre-approved research incentives budget twice a year. We issue thank you gifts from that prepaid amount. The UX Research Operations Coordinator puts through a budget request in the first month of Q1 (February) and Q3 (August) to get the funds released. 
-
