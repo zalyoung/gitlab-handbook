@@ -159,7 +159,7 @@ flowchart TD
     class CreateRefIssue,DistributeTasks emStyle
     class RefineIssue,NeedBreakdown,CreateNewIssues,FullyRefined,ReadyLabel engStyle
     class AddMilestone sharedStyle
-  ```
+```
 
 ### Issue Refinement Checklist
 
