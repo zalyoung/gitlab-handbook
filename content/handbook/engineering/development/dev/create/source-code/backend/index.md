@@ -114,6 +114,7 @@ flowchart TD
 
     subgraph PM[Product Manager]
         RefinementLabel[Apply workflow::refinement label]
+        click RefinementLabel "https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=workflow%3A%3Arefinement&label_name%5B%5D=scm-backlog&first_page_size=20" _blank
     end
 
     subgraph EM[Engineering Manager]
