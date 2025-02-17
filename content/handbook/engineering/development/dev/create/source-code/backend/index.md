@@ -54,6 +54,12 @@ The following people of other functional teams are our stable counterparts:
 - [Team error budget - Group Dashboard](https://dashboards.gitlab.net/goto/2YoyikIHR?orgId=1)
 - [Team error budget - Detail Dashboard](https://dashboards.gitlab.net/goto/O6YJZodNR?orgId=1)
 
+## Cross-group shared ownership and boundaries
+
+The Source Code Management Backend team shares ownership of parts of the codebase with other groups and teams. These are outlined in these pages:
+
+- [Source Code Management + Import and Integrate](/handbook/engineering/development/dev/create/source-code/backend/ownership-import/)
+
 ## Sisense and KPIs
 
 To help us stay on track with [Development KPIs](/handbook/company/kpis/#development-department-kpis), we use a [metrics dashboard](https://app.periscopedata.com/app/gitlab/570334/Universal-Engineering-Team-Metrics-Dashboard). This dashboard includes security MRs from production, but doesn't include security MRs from `dev.gitlab.org`. For team-specific data and metrics, ensure you filter by our team.
