@@ -97,13 +97,99 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
     1. Issues that require design work are marked with `UX` and `workflow::ready for design`.
     1. Once designs are ready and the proposed solution is viable then the label `workflow::planning breakdown` will be applied.
 1. Once we have confirmed the proposed solution is viable, we will move to break it down as much as possible. When issues are ready for this stage, PM will mark issues with `workflow::refinement` label to signal next step.
-1. EM will work with engineers to decide distribution of work and assign issues for breakdown.
-1. Engineers or EM will evaluate the issue, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
+1. EM will create a refinement issue ([example](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/issues/249)) and distribute tasks labeled `workflow::refinement` among engineers.
+1. Engineers or EM will follow the checklist for assigned issues, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
-1. When the planned implementation of the issue is in its smallest form, the engineer/EM will provide a weight. EM or PM will mark as `workflow::needs issue review`.
+1. Once an issue is fully refined, engineers or EM will label it as `workflow::ready for development`. These issues can then be added to the milestone.
+1. Engineers or EM will mark fully refined issues as `workflow::ready for development`. They can be picked to the milestone. 
 1. When other teams depend on Source Code Backend issues planned for the current milestone, those issues will be labeled as `SCM::AwaitingBackend`
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
+
+### Issue Refinement Checklist
+
+For issues that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
+
+```
+# Issue Refinement Checklist
+
+## Issue Basics
+- [ ] Issue label is ~"workflow::refinement"
+- [ ] Issue title clearly describes the feature or change
+- [ ] Issue description defines requirements and expectations
+- [ ] Acceptance criteria are clearly defined
+- [ ] Edge cases are documented
+- [ ] Required inputs and expected outputs are specified
+
+## Dependencies
+- [ ] Requires ~backend 
+- [ ] Requires ~frontend
+- [ ] Requires ~database
+- [ ] Requires ~documentation
+- [ ] Requires ~UX work
+- [ ] External service dependencies identified
+- [ ] Requires ~API changes
+
+## Technical Scope
+- [ ] Required permissions and access levels defined
+- [ ] Data migration needs identified (if any)
+- [ ] Security considerations documented (if any)
+- [ ] Performance requirements specified (if any)
+
+## Complexity Assessment
+- [ ] Issue is small and doesn't need to be broken down
+- [ ] Effort estimation is reasonable
+- [ ] Technical risks are identified
+
+## Final Steps
+- [ ] Does issue have an implementation plan?
+- [ ] Does issue have a weight?
+- [ ] There are no blockers
+- [ ] Issue has ~"workflow::ready for development" label
+```
+
+### Implementation plan
+
+Add a comment to the issue under refinement  using the provided template.
+
+```
+### Implementation Plan
+
+**1. Approach**
+<!-- Provide a high-level description of the implementation idea -->
+
+**2. Cross-team Collaboration**
+
+<!-- Mention external dependencies required (Teams involved, external services/APIs needed) -->
+
+**3. Implementation Steps**
+
+<!-- Provide step by step description of what needs to be done -->
+
+- Task 1
+- Task 2
+- Task 3
+
+**4. Edge Cases**
+
+<!-- Does the implementation cover all scenarios (success, failure) -->
+
+- Success scenarios:
+  - Case 1
+  - Case 2
+
+- Error scenarios:
+  - Case 1
+  - Case 2
+
+- Edge conditions:
+  - Case 1
+  - Case 2
+
+
+/cc @engineer_username please review this implementation plan
+```
+
 
 #### Epics, issues, and tasks
 
