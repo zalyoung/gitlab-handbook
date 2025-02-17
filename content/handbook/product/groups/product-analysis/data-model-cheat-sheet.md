@@ -26,7 +26,7 @@ These categories are grouped by data source and subject area.
 
 ### Service Ping
 
-[Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) is GitLab's mechanism to collect data by generating a JSON payload of usage data every week to be sent to GitLab. It provides aggregated data to our Product, Customer Success, Support, and Sales teams to understand how GitLab is used. Service Ping is our only data source for understanding Self-Managed product behavior. Service Ping methodology allows us to protect our Self-Managed users' privacy by aggregating metrics at the installation level.
+[Service Ping](https://docs.gitlab.com/development/internal_analytics/service_ping/) is GitLab's mechanism to collect data by generating a JSON payload of usage data every week to be sent to GitLab. It provides aggregated data to our Product, Customer Success, Support, and Sales teams to understand how GitLab is used. Service Ping is our only data source for understanding Self-Managed product behavior. Service Ping methodology allows us to protect our Self-Managed users' privacy by aggregating metrics at the installation level.
 
 #### FAQs
 
@@ -42,7 +42,7 @@ These categories are grouped by data source and subject area.
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Service Ping Overview](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
+- [Service Ping Overview](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 
 - [Service Ping metrics dictionary](https://metrics.gitlab.com/)
 
@@ -200,13 +200,13 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 ### Namespaces, users, & memberships
 
-This category of data models includes GitLab.com (SaaS) [namespaces](https://docs.gitlab.com/ee/user/namespace/) (which include both projects and groups), their firmographic attributes, and individual members.
+This category of data models includes GitLab.com (SaaS) [namespaces](https://docs.gitlab.com/user/namespace/) (which include both projects and groups), their firmographic attributes, and individual members.
 
 #### FAQs
 
 > What is a namespace?
 
-- Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/ee/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to product the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
+- Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to product the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
 
 > What types of namespaces do we normally analyze?
 

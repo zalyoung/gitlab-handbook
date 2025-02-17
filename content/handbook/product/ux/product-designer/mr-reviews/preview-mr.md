@@ -88,7 +88,7 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 
 #### Review Apps
 
-- [Use Review Apps in MRs](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work)
+- [Use Review Apps in MRs](https://docs.gitlab.com/ci/review_apps/#how-review-apps-work)
 - [Log into GitLab instance Review Apps](https://docs.gitlab.com/development/testing_guide/review_apps/#log-into-my-review-app)
 - [Prevent auto-stopping Review Apps](https://docs.gitlab.com/development/testing_guide/review_apps/#auto-stopping-of-review-apps)
 - [How to enable Feature Flags in Review Apps](https://www.youtube.com/watch?v=VBo667LiwBQ)

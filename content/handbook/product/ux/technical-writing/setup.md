@@ -30,7 +30,7 @@ These are simply suggestions to help you get up and running quickly:
 
 ## Additional resources
 
-- The [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+- The [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
   defines the standards for GitLab documentation, including grammar and formatting.
 - The [documentation testing page](https://docs.gitlab.com/development/documentation/testing/)
   has important information about tests you should run to help ensure the quality of our documentation codebase.

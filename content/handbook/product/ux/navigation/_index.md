@@ -5,7 +5,7 @@ description: "The group::personal productivity team owns the navigation structur
 
 The [`group::personal productivity` team](/handbook/product/categories/#personal-productivity-group) owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation.
 
-> Note: a [Code Owners approval rule](https://docs.gitlab.com/ee/user/project/codeowners/) is in place to prevent unapproved changes to the navigation. If you have not followed this process, your Merge Request will be blocked.
+> Note: a [Code Owners approval rule](https://docs.gitlab.com/user/project/codeowners/) is in place to prevent unapproved changes to the navigation. If you have not followed this process, your Merge Request will be blocked.
 
 ## What is navigation?
 

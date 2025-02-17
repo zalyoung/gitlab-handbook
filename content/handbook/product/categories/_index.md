@@ -197,7 +197,7 @@ After approval and prior to merging, ping the Engineering Manager for Quality En
 
 This is to ensure that [GitLab Bot auto-labeling](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#auto-labelling-of-issues-and-merge-requests) can be updated prior to the change, which can be [disruptive if missed](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/467#note_337325686).
 
-Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
+Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
 
 Ensure that relevant slack channels are updated following our [slack channel naming convention](/handbook/communication/chat/#channel-categories), open an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to have slack channel names updated as they can no longer be updated by creators.
 
@@ -316,14 +316,14 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Code Review group](/handbook/product/categories/#code-review-group)
 
-- [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/)
+- [Merge Requests](https://docs.gitlab.com/user/project/merge_requests/)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
 #### Remote Development group
 
 [Remote Development group](/handbook/product/categories/#remote-development-group/)
 
-- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/)
+- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/editor_extensions/visual_studio_code/)
 
 ### Other functionality in Verify
 
@@ -353,7 +353,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/)
 
-- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+- [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
@@ -369,14 +369,14 @@ Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster
 
 [Product Analytics group](/handbook/product/categories/#product-analytics-group)
 
-- [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
+- [Analytics Dashboards](https://docs.gitlab.com/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
 ### Facilitated functionality
 
 Some product areas are have a broad impact across multiple stages. Examples of this include, among others:
 
-- Shared project views, like the [project](https://docs.gitlab.com/ee/user/project/#projects) overview and settings page.
-- Functionality specific to the [admin area](https://docs.gitlab.com/ee/administration/settings/) and not tied to a feature belonging to a particular stage.
+- Shared project views, like the [project](https://docs.gitlab.com/user/project/#projects) overview and settings page.
+- Functionality specific to the [admin area](https://docs.gitlab.com/administration/settings/) and not tied to a feature belonging to a particular stage.
 - UI components available through our design system, [Pajamas](https://design.gitlab.com/).
 - Dashboards for displaying analytics, such as Product Analytics, Value Stream Analytics, and others.
 

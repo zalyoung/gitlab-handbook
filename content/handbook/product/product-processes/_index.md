@@ -166,8 +166,8 @@ Here are some additional examples of well written release blog posts for inspira
 In addition to the written medium, video is an important medium that caters to the different goals you are trying to accomplish and learning styles of your audience.
 Depending on the type of video you are recording, there are some guidelines to keep in mind.
 
-As our documentation guidelines [actively encourage](https://docs.gitlab.com/ee/development/documentation/styleguide/#videos) linking video content,
-please consider following the [Documentation Style Guide section on language](https://docs.gitlab.com/ee/development/documentation/styleguide/#language),
+As our documentation guidelines [actively encourage](https://docs.gitlab.com/development/documentation/styleguide/#videos) linking video content,
+please consider following the [Documentation Style Guide section on language](https://docs.gitlab.com/development/documentation/styleguide/#language),
 and working with your technical writing team to include links to your speed runs, walk-throughs and demos at relevant locations in the product documentation.
 
 #### Using GIFs
@@ -466,7 +466,7 @@ it's important to heavily weight activities which will encourage a stronger comm
 - The addition of tools or features which make the contribution experience easier
 
 Product managers are not responsible for prioritizing contributions outside of their group. These contributions should be
-[reviewed and merged swiftly](https://docs.gitlab.com/ee/development/contributing/#contribution-flow) allowing everyone
+[reviewed and merged swiftly](https://docs.gitlab.com/development/contributing/#contribution-flow) allowing everyone
 to contribute, including non-product teams at GitLab.
 
 ### SaaS-First Framework
@@ -916,7 +916,7 @@ Feedback issues are intended to collect feedback from the wider community and us
 
 1. Feedback issues that are public cannot contain [SAFE](/handbook/legal/safe-framework/#what-is-safe) information
 1. A linked confidential issue for Field feedback can be used, if needed, to support the exchange of customer details and feedback
-1. Leverage [internal comments](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) as needed if customer details are being shared
+1. Leverage [internal comments](https://docs.gitlab.com/user/discussions/#add-an-internal-note) as needed if customer details are being shared
 
 #### Other best practice considerations
 
@@ -1365,7 +1365,7 @@ There are a few different tools PM's can utilize to understand the operational c
 
 - Useful Dashboards to Visualize Infrastructure Costs:
 - [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) required)
-- [Service ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
+- [Service ping](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
 #### Links to learn more about infrastructure cost management initiatives

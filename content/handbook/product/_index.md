@@ -111,4 +111,4 @@ When you are tagging `@mention`:
 - Clearly state why you are tagging the entire product team and what action you need product team members to take.
 - Write a short summary in the same comment so team members can quickly understand the necessary context.
 - Review the issue title and description to ensure it has relevant details other product team members need **BEFORE** submitting the comment. The issue title will be the subject of email notifications and in-product to-do items.
-- If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.
+- If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.

@@ -14,9 +14,9 @@ The work items framework provides a consistent approach to creating work item ob
 
 ## What functionality is available?
 
-The work items framework provides a [base work item object](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-properties) with options to extend functionality using [widgets](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Additional work item data and functionality is encapsulated within a widget. For example, the [WorkItemWidgetAssignees](https://docs.gitlab.com/ee/api/graphql/reference/#workitemwidgetassignees) enables user assignment.
+The work items framework provides a [base work item object](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-properties) with options to extend functionality using [widgets](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-widgets). Additional work item data and functionality is encapsulated within a widget. For example, the [WorkItemWidgetAssignees](https://docs.gitlab.com/api/graphql/reference/#workitemwidgetassignees) enables user assignment.
 
-You can see the list of available widgets [here](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-widgets). Each widget, except for the core work item object, can be turned on or off for each work item type.
+You can see the list of available widgets [here](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-widgets). Each widget, except for the core work item object, can be turned on or off for each work item type.
 
 The work items framework also provides an out-of-the-box work item detail view and work items can be displayed in the Issues list if desired.
 
@@ -26,7 +26,7 @@ The work items framework is currently used in several features; including [Tasks
 
 Work is ongoing to convert existing objects to Work Item Types, and implement new ones; for example [Issues](https://gitlab.com/groups/gitlab-org/-/epics/9584) and [Epics](https://gitlab.com/groups/gitlab-org/-/epics/9290).
 
-A comprehensive list of Work Item Types currently implemented and being implemented is available in the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/work_items/#work-item-types).
+A comprehensive list of Work Item Types currently implemented and being implemented is available in the [Architecture Blueprint](https://docs.gitlab.com/architecture/blueprints/work_items/#work-item-types).
 
 ## What functionality is on the roadmap for the work items framework?
 

@@ -13,7 +13,7 @@ Anyone contributing to GitLab's main codebase should have a working and running 
 
 As a general rule, if it can be fixed in a browser inspector, it can be probably be fixed it for real in the GitLab codebase.
 
-Everyone is encouraged to find small UI issues and submit their changes via a [merge request (MRs)](https://docs.gitlab.com/ee/user/project/merge_requests/).
+Everyone is encouraged to find small UI issues and submit their changes via a [merge request (MRs)](https://docs.gitlab.com/user/project/merge_requests/).
 
 ## GitLab's main codebase contribution basics
 

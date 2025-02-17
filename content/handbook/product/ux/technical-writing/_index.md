@@ -8,7 +8,7 @@ Good documentation meets the evolving needs of GitLab customers, users, and admi
 
 The [documentation roadmap](https://gitlab.com/groups/gitlab-org/-/epics/4602) drives our efforts to improve both the content and [documentation website](https://docs.gitlab.com/). For example, we know that people have trouble finding information on docs.gitlab.com. We have roadmap items and OKRs to replatform the docs site, provide better task-based information, and make content easier to find. These larger projects, completed in addition to feature documentation, provide continual, iterative improvement to the user experience of our documentation.
 
-Anyone can contribute to the documentation. Follow our [GitLab documentation guidelines](https://docs.gitlab.com/ee/development/documentation/).
+Anyone can contribute to the documentation. Follow our [GitLab documentation guidelines](https://docs.gitlab.com/development/documentation/).
 
 ## About Us
 
@@ -73,7 +73,7 @@ The team is responsible for developing and maintaining efficient processes, incl
 
 #### Style Guide
 
-The [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+The [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
 provides language and style guidance for the product documentation and release posts.
 
 Any Technical Writer (or other contributor) can make suggestions for
@@ -360,14 +360,14 @@ The Technical Writers use the following levels of edit:
 
 - Ensure the pipeline passes and no grammar, spelling, or punctuation errors exist.
 - Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
-- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
 
 **Heavy**
 
 - Ensure the pipeline passes and no grammar, spelling, or punctuation errors exist.
 - Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
-- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
-- Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
+- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
+- Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/development/documentation/topic_types/).
 - Ensure the content fits well into the larger documentation set and does not duplicate information in other areas.
 - For UI text, ensure the content meets the standards defined in the [Pajamas Design System](https://design.gitlab.com/) and the [Technical Writer Word List](https://docs.gitlab.com/development/documentation/styleguide/word_list/).
 
@@ -400,7 +400,7 @@ These items receive a **medium** edit:
 
 These items receive a **heavy** edit:
 
-- Topic type restructuring efforts (["CTRT"](https://docs.gitlab.com/ee/development/documentation/topic_types/))
+- Topic type restructuring efforts (["CTRT"](https://docs.gitlab.com/development/documentation/topic_types/))
 - OKR work
 - UI text
 
@@ -414,7 +414,7 @@ To balance [velocity](/handbook/engineering/development/principles/#the-importan
 
 - When a Technical Writer opens a merge request, another Technical Writer must review and merge. 
   - The Technical Writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
-    - This requirement aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review/) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
+    - This requirement aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
   - If the MR contains only documentation changes, the Technical Writer:
     - Reviews the content and offers suggestions.
@@ -529,7 +529,7 @@ question to the list of random Wednesday questions! To do so:
 
 ## Community contribution opportunities
 
-We welcome [improvements to content](https://docs.gitlab.com/ee/development/contributing/)
+We welcome [improvements to content](https://docs.gitlab.com/development/contributing/)
 as well as to the development of our
 documentation website, at https://docs.gitlab.com.
 

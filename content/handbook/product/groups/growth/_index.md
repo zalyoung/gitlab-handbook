@@ -95,7 +95,7 @@ Since the Growth section is among the first groups to launch product experiments
 
 - [Experiment guide for Product managers](https://gitlab.com/gitlab-org/growth/experimentation/-/issues/14)
 - [Experiment ideation Process](https://gitlab.com/gitlab-org/growth/experiment-design-repo/-/issues/1)
-- [Engineering guide for how to run experiment](https://docs.gitlab.com/ee/development/experiment_guide/)
+- [Engineering guide for how to run experiment](https://docs.gitlab.com/development/experiment_guide/)
 - [Growth Engieering Handbook page on running experiments](/handbook/engineering/development/growth/experimentation/)
 - [A way for GitLab team members to view currently active experiments on GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/262725)
 

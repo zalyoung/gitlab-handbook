@@ -4,12 +4,12 @@ title: Using GitLab to plan work
 
 We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are:
 
-- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
-- [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
+- [Milestones](https://docs.gitlab.com/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
+- [Issues](https://docs.gitlab.com/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
 - [Tasks](https://docs.gitlab.com/user/tasks/) (optional): Decompose an Issue into more detailed implementation steps.
-- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
+- [Epics](https://docs.gitlab.com/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
 - [Boards](https://docs.gitlab.com/user/project/issue_board/): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning.
-- [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics in a timeline view.
+- [Roadmaps](https://docs.gitlab.com/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
 
@@ -78,7 +78,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 ### Epics
 
 Issues related to the same feature should be bundled together into an
-into an [epic](https://docs.gitlab.com/ee/user/group/epics/).
+into an [epic](https://docs.gitlab.com/user/group/epics/).
 
 #### Epics for a single iteration
 
@@ -158,7 +158,7 @@ to anything of relevance (the other duplicate, the original feature that this is
 
 ### Roadmaps
 
-A [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/)
+A [roadmap](https://docs.gitlab.com/user/group/roadmap/)
 for your group can aid in tracking timeline oriented long-running efforts (here's [an example](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=group%3A%3Ageo)). This can help keep work well organized, track progress and surface dependencies.
 
 ### Boards

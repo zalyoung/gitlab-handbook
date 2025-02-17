@@ -87,7 +87,7 @@ otherwise agreed with the Product Manager and Technical Writer:
 - Use the [Documentation guidelines](https://docs.gitlab.com/development/documentation/),
   and other resources linked from there, including:
   - Documentation [Structure and template](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/) page.
-  - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+  - [Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
   - [Markdown Guide](https://docs.gitlab.com/user/markdown/).
 - Contact the Technical Writer for the relevant
   [DevOps stage](../#assignments)
@@ -509,7 +509,7 @@ When a community contributor opens a Hackathon merge request:
 
 1. View the related issue. Ensure the user who authored the MR is the same user who asked to be assigned to the issue.
    - If the user is not listed in the issue, and another user has asked to work on the issue, do not merge the MR.
-     Ask the MR author to find an issue that has not already been assigned or point them to [this page](https://docs.gitlab.com/ee/development/contributing/).
+     Ask the MR author to find an issue that has not already been assigned or point them to [this page](https://docs.gitlab.com/development/contributing/).
 
 1. Work to merge the merge request.
 1. When you merge, ensure you close the related issue.
