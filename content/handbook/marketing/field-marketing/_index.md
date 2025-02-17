@@ -904,8 +904,8 @@ The below epic is for tracking venues we would like to utilize for future events
 
 ## What's currently scheduled in my region?
 
-| Region | FM DRI | GitLab User ID | 
-| ------ | ------ | -------------- | 
+| Region | FM DRI | GitLab User ID | Slack Channel |
+| ------ | ------ | -------------- | ------------- |
 | AMER - FinServ | Beth Parker | `@BParker` | 
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | 
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | 
