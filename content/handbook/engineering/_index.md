@@ -138,7 +138,7 @@ This quarterly R&D roadmap represents a contract, not between Product and Engine
 - Allow space to review and assess the effort required to ship something of truly high quality, that will support the scalability required of where we are going in the future, and to have a clear understanding of customer expectation
 - Prompt teams to think through all angles and whether they have the information needed to move forward
 - Surface awareness of critical work that must be prioritized before the proposed work
-- Provide Transparency and time to prepare for other stakeholders in the company downstream from delivery, the field, and our customers
+- Provide transparency and time to prepare for other stakeholders in the company downstream from delivery, the field, and our customers
 - Understand in advance what our upcoming goals will be, reducing churn, borrows, escalations, etc
 
 #### Things to be aware of
