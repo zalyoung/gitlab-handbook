@@ -106,7 +106,6 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
 
-
 #### Diagram
 
 ```mermaid
@@ -165,7 +164,7 @@ flowchart TD
 
 For issues that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
 
-```
+```plaintext
 # Issue Refinement Checklist
 
 ## Problem verification
@@ -189,7 +188,7 @@ For issues that need refinement, the Engineer/EM should update the issue descrip
 
 Add a comment to the issue under refinement  using the provided template.
 
-```
+```plaintext
 ### Implementation Plan
 
 **1. Approach**
@@ -233,7 +232,6 @@ Add a comment to the issue under refinement  using the provided template.
 
 /cc @engineer_username please review this implementation plan
 ```
-
 
 #### Epics, issues, and tasks
 
