@@ -256,7 +256,7 @@ The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) f
 
 **Once a week**, the Reaction Coordinator is responsible for triaging vulnerabilities reported on the projects we maintain and helping resolve them depending on their priority.
 
-1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
+1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Vulnerability Management Process](#vulnerability-management-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Refine scheduled security issues.
