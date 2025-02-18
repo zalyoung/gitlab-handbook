@@ -108,9 +108,9 @@ You can register via the Modern Health Mobile App or on your Desktop Browser:
 - Enter your GitLab email and the password of your choice. (Reminder that you must register with your GitLab email, but you can change your Modern Health account email to your personal email in Settings upon registration.)
 - Select "Register" on the web or "Agree & Join" on the mobile app to complete registration.
 
-Once you are registered you can you grant access to your eligible family members via the Modern Health app
+Once you are registered you can grant access to your eligible family members via the Modern Health app
 
-- You can invite your adult family members (18+) through the Modern Health app using these [instructions](https://support.modernhealth.com/hc/en-us/articles/360045577552-How-do-I-invite-my-dependents-)
+- Your adult family members (18+) can sign up without having you invite them to the Modern Health portal using these [instructions](https://support.modernhealth.com/hc/en-us/articles/360045577552-How-do-I-invite-my-dependents-)
 - You can invite minor family members through Modern Health app using these [instructions](https://support.modernhealth.com/hc/en-us/articles/5386344007451-How-do-I-invite-my-minor-dependents-)
 
 If you have trouble registering for Modern Health, please don't hesitate to reach out to `help@joinmodernhealth.com` with a note or screenshot. Their customer support team will verify the information against what they have on file to provide you the best instructions on how to successfully access Modern Health. For new starters, please note that your account might not be immediately available but will be within the first 14 days.
