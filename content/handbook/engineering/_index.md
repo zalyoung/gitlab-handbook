@@ -120,7 +120,7 @@ The above sections expand on prioritization, engineering responsibility, and tec
    - **Tiers 3-5** are topics that will not take priority over Tier 1 or 2, and should be considered next as time allows
 1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template similar to this
 1. Engineering will evaluate the proposal from product and identify:
-   - The team(s), including PM, EM, and Engineering leader, who will be responsible for a quality delivery
+   - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
    - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
    - Whether we commit to the timeline / scope [Example], commit to a different timeline / scope that we propose [Example], or recommend an alterative [Example] 
    - What milestone we are committing to within the proposed quarter
