@@ -64,7 +64,7 @@ Follow these steps to create a new ticket to start communications with a custome
 
 ## Closing the Outreach Ticket
 
-The outreach ticket's scope is specifically for customer communication about a particular incident or maintenance. Once the communication about the incident/maintenance is complete (e.g., maintenance is finished, incident is resolved), you should:
+The outreach ticket's scope is specifically for customer communication about a particular incident or maintenance. Once the communication about the incident/maintenance is complete (For example, maintenance is finished or the incident is resolved), you should:
 
 1. Send a final update to the customer confirming the completion.
 1. Close the outreach ticket.
