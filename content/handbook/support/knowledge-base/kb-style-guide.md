@@ -7,7 +7,7 @@ This document outlines the standards for GitLab Support's Knowledge Base documen
 
 ## The Knowledge Base voice
 
-The voice in KB articles should be concise, direct and precise. Since many users will use these articles during a stressful situation, it is important that we make the information as clear and simple as possible.
+The voice in KB articles should be concise, direct, and precise. Since many users will use these articles during a stressful situation, it is important that we make the information as clear and simple as possible.
 
 ## Formatting
 
