@@ -183,11 +183,13 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 ```mermaid
   graph LR;
   subgraph Analytics Engineer Roles
+    supe:aae(Associate Analytics Engineer)-->supe:ae(Analytics Engineer);
     supe:ae(Analytics Engineer)-->supe:sae(Senior Analytics Engineer);
     supe:sae(Senior Analytics Engineer)-->supe:fae(Staff Analytics Engineer);
     supe:fae(Staff Analytics Engineer)-->supe:pae(Principal Analytics Engineer);
   end
 
+  click supe:ae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer/#associate-analytics-engineer";
   click supe:ae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#analytics-engineer-intermediate";
   click supe:sae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#senior-analytics-engineer";
   click supe:fae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#staff-analytics-engineer";
