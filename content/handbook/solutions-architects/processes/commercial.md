@@ -31,6 +31,25 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 
 The SA team's engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
 
+#### Enterprise
+1. Solutions Architects(SAs) must be notified of qualified customer opportunities/prospects in stage 1 or stage 2.
+2. Please note solution architects need an oppotunity in sfdc to record their activities.
+3. SAs must be notified of customer meetings atleast 72 hours in advance so they can prepare for their technical evaluation activities including demos, scoping workshops, proof of values, etc.
+4. SAs and AEs need to have prep calls/ dry runs and know next steps before the customer calls; Have a retro after the call
+Use Gong!!!!! Please record as much as possible.
+5. SAs are required to be onsite if customer meetings are onsite. SAs require 14 days advance notice according to GitLab's T&E policy. 
+6. SAs can use create visualizations like whiteboards.
+7. AEs and SAs must meet at least once a week;Update Territory Account Plan, Customer Success Plan,  Discuss Workstreams, Technical Strategy
+8. SAs must be notified when AEs move the opp to Stage 2 and Stage 3
+9. SAs/AEs must use customer internal slack channels wherever possible. Please don’t add ad hoc group DMs and add specific folks to channels
+10. AEs please don’t blindside the SA by going straight to Field CTO or PM. Allow the SA to be involved regardless for follow ups
+11. AEs, SAs and the account teams are required to collaborate with the SA on technical validation strategy and map it out -> Account Plans/Technical Close Plans
+12. SAs require Workshops as a Prerequisite to POV; Allow SAs time to properly scope the POV with Use Cases, Collab Project, etc,
+13. SAs can ask for reverse demos as much as customer ask us for our demos
+14. SAs can request Day in the Life of a Developer when requested to conduct a POV
+15. During technical evaluation and scoping, AEs need to arrange for SAs to present Customer Success Plan to customers
+
+
 #### Mid-Market
 
 1. **Mid-Market First Order (FO)**: Early-stage `2-Scoping` through `4-Proposal` for opportunities where a Command Plan and Custom Pitch Deck are being leveraged where an SA is necessary. The goal is to complete the `3-Technical Evaluation` prior to 15 days of the Close Date.
