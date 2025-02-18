@@ -230,7 +230,7 @@ This lists all clusterwide tables and its type.
 | plan_limits                                               |                 | Y                      |                         |            | N                       |
 | service_access_tokens                                     |                 | Y                      |                         |            | N                       |
 | ai_self_hosted_models                                     | Y               |                        |                         |            | N                       |
-| application_setting_terms                                 | Y               |                        |                         |            | N                       |
+| application_setting_terms                                 |                 | Y                      |                         |            | N                       |
 | broadcast_messages                                        |                 | Y                      | Maybe ?                 |            | N                       |
 | licenses                                                  |                 | Y                      |                         |            | N                       |
 | plans                                                     | Y               |                        |                         |            | Y                       |
