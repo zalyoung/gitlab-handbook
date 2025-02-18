@@ -34,6 +34,7 @@ Customer segmentation helps us identify organizations most likely to successfull
   - Premium/Ultimate subscription
   - Prior contribution experience
 - Tier 2: Medium engagement potential
+   - No previous MR history, but clear overlap between customer and GitLab tech-stack
 - Tier 3: Future potential
 
 ## Outreach Process
