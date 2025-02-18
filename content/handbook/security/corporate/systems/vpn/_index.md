@@ -28,7 +28,6 @@ When it comes to our decision on NordLayer, we had a number of things to look at
 
 We tested many options and while a number fit a few of these, NordLayer fit the most with security being our most important criteria.
 
-
 ## System Owner and Support
 
 - DRI: `@cshankgitlab`
