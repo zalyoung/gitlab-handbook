@@ -221,7 +221,7 @@ For bug reports that need refinement, the Engineer/EM should update the issue de
 
 ### Implementation plan
 
-Add a comment to the issue under refinement  using the provided template.
+Add a comment to the issue under refinement using the provided template.
 
 ```plaintext
 ### Implementation Plan
