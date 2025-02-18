@@ -18,7 +18,7 @@ Another option is using the table below that will help match mentors and interns
 
 | Mentor | Intern | Group | Mentor Timezone | Intern Timezone |
 | ------ | ------ | ----- | --------------- | --------------- |
-|        |        |       |                 |                 |
+| @DarrenEastman |        | Verify    |      EST  (UTC-5)           |                 |
 
 ## Coffee Chat with PM internship Alumni
 
