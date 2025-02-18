@@ -53,7 +53,7 @@ Examples:
 
 ### Description
 
-This section describes the symptoms, task or situation that would need a solution. At the moment, we believe the first 140 characters will be indexed for SEO.
+This section describes the symptoms, task, or situation that would need a solution. At the moment, we believe the first 140 characters will be indexed for SEO.
 
 - Write for the issue encountered, not theoretical situations. Add unconfirmed situations as an additional note if necessary.
 - Entries should be listed in order of significance from top to bottom.
@@ -104,7 +104,7 @@ The Cause does not immediately diagnose or solve the issue, which is why it is a
 
 It is better to say we don't know the cause if it is under investigation.
 
-Link to docs, blog posts, issues and other relevant materials inline as necessary.
+Link to docs, blog posts, issues, and other relevant materials inline as necessary.
 
 ### Additional Information
 
