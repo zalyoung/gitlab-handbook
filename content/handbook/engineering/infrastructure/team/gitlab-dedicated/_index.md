@@ -435,6 +435,7 @@ All new services or significant changes to our existing architecture must have a
 Blueprints are designed to help us think through all the critical parts of making a change and help to share knowledge across the team.
 
 A blueprint should consider:
+
 1. Scope and technical considerations
 1. High-level implementation details, and project iterations
 1. Deployment to new and existing customers
