@@ -3,7 +3,7 @@ title: Knowledge Base Style Guide
 description: Guidelines for writing Support knowledge base articles
 ---
 
-This document outlines the standards for GitLab Support's Knowledge Base documentation. These articles help address a specific customer issue in the moment and allow them to self-solve or receive quicker solutions when Support is required.
+This document outlines the standards for GitLab Support's Knowledge Base documentation. These articles help address a specific customer issue in the moment and allow them to self-solve or receive quicker solutions when Support is required. The style guide helps ensure that we provide information in a consistent format and voice for our customers.
 
 ## The Knowledge Base voice
 
