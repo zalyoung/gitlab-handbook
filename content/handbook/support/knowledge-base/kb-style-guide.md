@@ -29,13 +29,15 @@ File name should be similar to the title of the article. Follow the conventions 
 
 ### Title
 
-This is the title once added to Zendesk. This heading must be changed to properly integrate with the deployment.
+The H1 header becomes the document title in Zendesk. For example:
 
-The title should clearly summarize the customer / reader issue.
+```
+# This is the page title
+```
 
-Only capitalize the first word and proper nouns.
+When creating a new KB article froma a template, the title must be changed to properly integrate with the Zendesk.
 
-Include error snippets if relevant.
+A good title briefly describes the content of the article while remaining concise. Only capitalize the first word and proper nouns, and refer to [capitalization](https://docs.gitlab.com/development/documentation/styleguide/#capitalization) in the Documentation Style Guide when in doubt. You can include error snippets if relevant, but keep title length in mind.
 
 In general you should cover:
 
