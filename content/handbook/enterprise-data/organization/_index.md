@@ -54,9 +54,9 @@ Based on these needs, the Data Team is organized in the following way:
 | Customer Intelligence | @rigerta |
 | Customer Product Adoption | @juwong |
 
-### Data Product Manager
+### Manager, Data
 
-In support of the Data Pod, the Data Product Manager fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
+In support of the Data Pod, the Manager, Data fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
 
 1. Works with the Director, Data to envision and draft Quarterly Objectives, driven by requirements gathered from multiple business partners.
 1. Monitor, measure, and improve key aspects of the Data Pods.
@@ -68,7 +68,7 @@ In support of the Data Pod, the Data Product Manager fulfills the below responsi
 In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
 
 1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
-1. Co-DRI of Key Results along with the Pod's Data Product Manager.
+1. Co-DRI of Key Results along with the Manager, Data.
 1. Lead [work breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) sessions for OKRs.
 1. Work with functional stakeholders to prioritze `P3-Other` issues.
 1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
@@ -78,7 +78,7 @@ In support of the Data Pod and Stable Counterpart relationships, the Lead Analyt
 
 Following the GitLab [Stable Counterpart](/handbook/leadership/#stable-counterparts) principles, every **Data Pod** have a **Data Platform Team** Stable Counterpart assigned. The Data Platform Stable Counterpart divides their time, work and priorities between the Data Platform Team and Data Pod (general an average of 50% each, P2-OKR scheduled ahead of the quarter in collaboration with the respective Pod). The Stable Counterpart is aware of the direction and priorities of the Data Pod and when needed brought into discussion with the Data Platform Team. I.e. when there is a bigger demand than the Stable Counterpart can handle in the assigned availability or architectural direction needs to change. The Stable Counterpart recognize, flags and address this with the applicable stakeholders (in general the Lead/DRI of the Data Platform Team and the Data Pod).
 
-The stable counterpart is expected to participate in the following meetings asynchronously or synchronously. When in doubt, please reach out to the Pod's Data Product Manager to learn which meetings on the calendar you should participate in. In general, the meetings in scope are as follows:
+The stable counterpart is expected to participate in the following meetings asynchronously or synchronously. When in doubt, please reach out to the Data Pod Manager to learn which meetings on the calendar you should participate in. In general, the meetings in scope are as follows:
 
 1. Data Pod Iteration Planning Meetings.
 1. Data Pod Team Meetings.
