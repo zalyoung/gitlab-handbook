@@ -58,21 +58,49 @@ This section describes the symptoms, task, or situation that would need a soluti
 - Write for the issue encountered, not theoretical situations. Add unconfirmed situations as an additional note if necessary.
 - Entries should be listed in order of significance from top to bottom.
 - Include as much relevant context as possible. Every small symptom is an extra data point to help the customer self-diagnose.
-- Include the exact error / message a user would encounter.
+- Include the exact error or message a user would encounter as text in the description. Avoid images of error messages.
 - Error messages should be put in block quotes.
-- Use bullet points for multiple items.
+- Use an unordered list for mutliple items.
 
 ### Environment
 
-The environment quickly highlights what custom configs, installation types, or versions are relevant to the KB.
+The environment quickly highlights what custom configurations, installation types, or versions are relevant to the KB. Be as specific as possible.
 
-- Use bullet points when possible
+- Use an unordered list when possible
 - Impacted offerings - aligns with the Offering section of Docs pages
-- Impacted versions - highlights affected versions. Use [earlier](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#earlier) and [later](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#later) when talking about version numbers. This can be excluded if all known / supported versions are affected; be as specific as possible:
-  - 16.1 to 16.3
-  - 16.5 and earlier
-  - 17.1 and later
-  - 17.x
+- Impacted versions - highlights affected versions.
+  - If the document affects all versions of the product, use your best judgement to either omit the versions section, or state that all versions are affected.
+  - Use [earlier](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#earlier) and [later](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#later) when talking about version numbers.
+  - Note the product with the version, like `GitLab 17.4.4` or `GitLab Runner 14.3.1`.
+  - Always indicate which patch versions are affected, for clarity. This differs from the Documentation Style Guide.
+    - If all patch versions of a minor version are affected, say `All GitLab 17.4.x versions`.
+    - If a fix was backported, say `GitLab 17.4.0 to 17.4.6, fixed in 17.4.7`. You can repeat this if multiple minor versions are affected.
+
+Some examples:
+
+```markdown
+- **Impacted offerings:**
+  - GitLab Dedicated
+  - GitLab Self-Managed
+- **Impacted versions:**
+  - GitLab 16.3.0 to 16.3.7, fixed in GitLab 16.3.8
+  - GitLab 16.4.3 to 16.4.5, fixed in GitLab 16.4.8
+```
+
+```markdown
+- **Impacted offerings:**
+  - GitLab Self-Managed
+- **Impacted versions:**
+  - GitLab 17.0.4 and later
+- GitLab Geo is configured
+- LDAP is configured
+```
+
+```markdown
+- **Impacted offerings:**
+  - GitLab.com
+- Project is configured with SAST scanning
+```
 
 ### Solution and/or Workaround
 
