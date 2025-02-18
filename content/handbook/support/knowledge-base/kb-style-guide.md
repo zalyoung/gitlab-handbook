@@ -134,7 +134,7 @@ If the cause is still under investigation, state that the cause is unknown.
 
 Link to docs, blog posts, issues, and other supporting materials inline as necessary.
 
-### Additional Information
+### Additional information
 
 Providing additional information is optional, but can be useful for sharing related topics that are not addressed in other sections. While most sections should be concise and clear, we can dive deeper into information or steps such as:
 
@@ -142,7 +142,7 @@ Providing additional information is optional, but can be useful for sharing rela
 - Alternative commands to find information in the solution
 - Related feature requests worth upvoting
 
-### Related Links
+### Related links
 
 Optional. Add links to relevant feature requests, bug issues, or other info as necessary. Follow the format used for [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html#related-topics).
 
