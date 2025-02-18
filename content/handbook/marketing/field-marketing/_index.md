@@ -1055,8 +1055,8 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER West Coast and Southwest | Lisa Rom |  |
 | AMER Public Sector | Kira Aubrey and Micaila Gardiner |  |
 | AMER LATAM | Gabby Chorny |  |
-| APAC | Kate Baker | Dirk de Vos |
-| APAC - Japan | Shu Kawaguchi |  |
+| APAC | Kate Baker | SJ Lim |
+| APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
 | EMEA Northern Europe | Neha Pujari| Aaron Burgess |
 | EMEA UK/I | Neha Pujari | Adam Woolford |
