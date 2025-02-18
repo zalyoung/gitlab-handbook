@@ -31,7 +31,7 @@ File name should be as similar to the title of the article as possible. Follow t
 
 The H1 header becomes the document title in Zendesk. For example:
 
-```
+```text
 # This is the page title
 ```
 
