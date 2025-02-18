@@ -102,26 +102,26 @@ Some examples:
 - Project is configured with SAST scanning
 ```
 
-### Solution and/or Workaround
+### Solutions and workarounds
 
 The solution section clearly lists the steps a user must follow to resolve the issue. You can preface the steps with a high-level summary. If there is a solution and a workaround, add the workaround as a level 3 (###) sub-heading.
 
 1. Change the title of this section to best fit its content: Solution or Workaround
-1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible:
+1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible. For example:
 
-   1. Connect to database: `sudo gitlab-psql connect`
-   1. Run:
+    1. On a rails or database node, connect to the database with `sudo gitlab-psql connect`
+    1. Run:
+    
+        ```pgsql
+        --- comment: explain what complicated command does if not obvious
+        <complicated command>
+        ```
 
-```pgsql
---- comment: explain what complicated command does if not obvious
-<complicated command>
-```
-
-- For different environments, list commands as sub-bullets
+- For different environments, list commands as sub-items:
   - Linux: `<command>`
   - macOS: `<command>`
-- Use ordered lists for tasks that must be completed sequentially. Use "1" for all items to allow for steps to be added or removed in the future.
-- Use bullet points for unordered steps.
+- Use ordered lists for tasks that must be completed sequentially. Use `1.` for all items to allow for steps to be added or removed in the future.
+- Use unordered lists for unordered steps.
 - Link to pre-existing documentation when possible.
 
 ### Cause
