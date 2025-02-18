@@ -19,3 +19,5 @@ We use a standardize workflow that heavily depends on the `~Deliverable` label t
   * If a Deliverable was completed in the given milestone, the issue needs to be closed. This will positively impact Say/Do ratio.
   * If a Deliverable was not completed in the given milestone and needs to be worked on in the next milestone, the EM applies the ~missed:X label and updates the milestone. Alternatively, this step can also be performed by the GitLab Bot who will automatically apply the missed label and update the milestone after the current milestone has concluded. In both cases the missed Deliverable will negatively impact Say/Do ratio.
   * If a Deliverable was not completed in the given milestone and will not be worked on in the next milestone, the EM applies the ~missed:X label and removes the milestone. This will negatively impact Say/Do ratio
+* Calculation after milestone X ends:
+   * `Say/Do = #closed issues with labels ~deliverable and milestone X / (closed issues with labels ~deliverable and milestone X + issues with ~missed:X label)
