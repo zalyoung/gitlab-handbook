@@ -252,7 +252,9 @@ On top of our development roadmap, engineering teams need to perform tasks relat
 
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab product milestones. When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
-### Responsibilities - Security
+### Vulnerability Management
+
+**Once a week**, the Reaction Coordinator is responsible for triaging vulnerabilities reported on the projects we maintain and helping resolve them depending on their priority.
 
 1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
@@ -274,7 +276,7 @@ Please utilize all the time you have set aside. If you complete all the ones at 
 
 #### SLA::Breached issues
 
-Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons including:
+Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard?:iid=1) (Note: This does not require SAFE access). `SLA::Breached` issue may appear for many reasons including:
 
 - A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
 - Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
@@ -319,7 +321,7 @@ When a vulnerability has been remediated, it can be "Resolved". When doing so, c
 remediated, then select the "Resolve" option from the vulnerability status options, and close the
 related vulnerability issue.
 
-##### Responsibilities - Support
+##### Support
 
 1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/request-for-help).
