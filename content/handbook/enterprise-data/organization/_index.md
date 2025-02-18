@@ -56,7 +56,7 @@ Based on these needs, the Data Team is organized in the following way:
 
 ### Data Product Manager
 
-In support of the Data Pod, Data Product Manager fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
+In support of the Data Pod, the Data Product Manager fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
 
 1. Works with the Director, Data to envision and draft Quarterly Objectives, driven by requirements gathered from multiple business partners.
 1. Monitor, measure, and improve key aspects of the Data Pods.
@@ -68,7 +68,7 @@ In support of the Data Pod, Data Product Manager fulfills the below responsibili
 In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
 
 1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
-1. Co-DRI of Key Results along with the Data Pod Manager.
+1. Co-DRI of Key Results along with the Pod's Data Product Manager.
 1. Lead [work breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) sessions for OKRs.
 1. Work with functional stakeholders to prioritze `P3-Other` issues.
 1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
