@@ -222,14 +222,14 @@ This lists all clusterwide tables and its type.
 
 | Table                                                     | Static data table | Cluster Setting table | Organization/cell table | User table | Rows Present in new GDK |
 |-----------------------------------------------------------|-----------------|------------------------|-------------------------|------------|-------------------------|
-| ai_feature_settings                                       |                 | Y                      |                         |            | N                       |
+| ai_feature_settings                                       |                 | Y                      | Maybe ?                 |            | N                       |
 | ai_settings                                               |                 | Y                      |                         |            | N                       |
 | appearances                                               |                 | Y                      |                         |            | N                       |
 | application_settings                                      |                 | Y                      |                         |            | Y                       |
 | cloud_connector_access                                    |                 | Y                      |                         |            | N                       |
 | plan_limits                                               |                 | Y                      |                         |            | N                       |
 | service_access_tokens                                     |                 | Y                      |                         |            | N                       |
-| ai_self_hosted_models                                     | Y               |                        |                         |            | N                       |
+| ai_self_hosted_models                                     |                 | Y                      | Maybe ?                 |            | N                       |
 | application_setting_terms                                 |                 | Y                      |                         |            | N                       |
 | broadcast_messages                                        |                 | Y                      | Maybe ?                 |            | N                       |
 | licenses                                                  |                 | Y                      |                         |            | N                       |
