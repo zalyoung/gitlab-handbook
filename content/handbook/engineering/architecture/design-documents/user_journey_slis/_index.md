@@ -71,15 +71,20 @@ The core proposal consists of three main components:
 
 ## Design and implementation details
 
-### Synchronous workflow
+Here's a simplified flowchart to demonstrate how the communication will flow overall:
 
 ```mermaid
 flowchart LR
     User@{shape: circle}
 
-    subgraph App
+    subgraph ServiceA
         subgraph Process
             LabKit
+        end
+    end
+    subgraph ServiceB
+        subgraph ProcessB
+            LabKitB
         end
     end
 
@@ -93,29 +98,106 @@ flowchart LR
         timeout_check --timeout reached--> timeout_action
     end
 
-    subgraph Runbooks
-        metricsCatalog[Metrics Catalog]
-    end
-
-    subgraph s1[Service A]
-        LabKitS1[LabKit]
-    end
-    subgraph s2[Service B]
-        LabKitS2[LabKit]
-    end
-
-    User --> App
-    Process --> s1
-    LabKit --emit start--> journeyService
-    LabKit --emit end?--> journeyService
-    s1 --> s2
-    LabKitS1 --emit event--> journeyService
-    LabKitS2 --emit event--> journeyService
-
-    metricsCatalog --consume metrics--> journeyService
+    User --> ServiceA
+    LabKit --emit message--> journeyService
+    ServiceA --Forward Request--> ServiceB
+    LabKitB --emit message--> journeyService
 ```
 
-### Batched Workflow
+Below there are cases covering in detail synchronous, asynchronous, and batched requests.
+
+### Synchronous workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant App as Service A
+    participant AppB as Service B
+    participant Journey as Journey Service
+    participant Redis
+    participant Metrics as Mimir
+
+    User->>App: Request
+    activate App
+
+    App->>Journey: Start Journey
+    Journey->>Redis: Store Initial State
+
+    App->>AppB: Forward Request
+    activate AppB
+
+    AppB->>Journey: Checkpoint Event
+    Journey->>Redis: Update State
+
+    AppB-->>App: Response
+    deactivate AppB
+
+    App->>Journey: End Journey
+    Journey->>Redis: Mark Complete
+    Journey->>Metrics: Emit Metrics
+
+    App-->>User: Response
+    deactivate App
+
+    loop Expired User Journeys
+        Journey->>Redis: Check for Missing End Events
+        alt Timeout Reached
+            Journey->>Redis: Mark Failed
+            Journey->>Metrics: Emit Failure Metrics
+        end
+    end
+```
+
+### Asynchronous workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Web as Web Service
+    participant Journey as Journey Service
+    participant Redis
+    participant Sidekiq as Sidekiq Worker
+    participant Metrics as Mimir
+
+    User->>Web: Request
+    activate Web
+
+    Web->>Journey: Start Journey
+    Journey->>Redis: Store Journey State
+
+    Web->>Sidekiq: Enqueue Job
+    Web-->>User: Response (202 Accepted)
+    deactivate Web
+
+    Note over Sidekiq: Job may wait in queue
+
+    activate Sidekiq
+    Sidekiq->>Journey: Checkpoint Event
+    Journey->>Redis: Update State
+
+    Note over Sidekiq: Process async work
+
+    alt Success Case
+        Sidekiq->>Journey: End Journey (Success)
+        Journey->>Redis: Mark Complete
+        Journey->>Metrics: Emit Success Metric
+    else Failure Case
+        Sidekiq->>Journey: End Journey (Failed)
+        Journey->>Redis: Mark Failed
+        Journey->>Metrics: Emit Failure Metric
+    end
+    deactivate Sidekiq
+
+    loop Expired User Journeys
+        Journey->>Redis: Check for Missing End Events
+        alt Timeout Reached
+            Journey->>Redis: Mark Failed
+            Journey->>Metrics: Emit Failure Metrics
+        end
+    end
+```
+
+### Batched workflow
 
 ```mermaid
 sequenceDiagram
@@ -167,11 +249,10 @@ Example journeys:
 
 ### SDK Requirements
 
-- Implementation in LabKit starting with Ruby
+- Implementation in LabKit
 - Journey ID generation
 - Automatic retries with exponential backoff for sending reports to the User Journey Service
-- Batching reports for the User Journey Service
-- Reports are sent asynchronously outside of the User Journey.
+- Batching requests for the User Journey Service
 
 ### User Journey State Management Service
 
