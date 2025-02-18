@@ -430,21 +430,21 @@ Having this set of refined epics will help us plan for the upcoming quarter and 
 
 ### Blueprints
 
-All new services or significant changes to our existing architecture must have a [blueprint](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/architecture/blueprints). 
+All new services or significant changes to our existing architecture must have a [blueprint](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/architecture/blueprints).
 
-Blueprints are desgined to help us think through all the critical parts of making a change and help to share knowledge across the team. 
+Blueprints are designed to help us think through all the critical parts of making a change and help to share knowledge across the team.
 
 A blueprint should consider:
-1. Scope and technical considerations 
+1. Scope and technical considerations
 1. High-level implementation details, and project iterations
 1. Deployment to new and existing customers
-1. Ongoing operation and maintenance 
+1. Ongoing operation and maintenance
 1. Security and Compliance
-1. Costs 
-1. Operational risks 
+1. Costs
+1. Operational risks
 1. Resources
 
-Anyone can contribute a Dedicated blueprint. Please make sure there is always a Staff+ approval before merging. 
+Anyone can contribute a Dedicated blueprint. Please make sure there is always a Staff+ approval before merging.
 
 ### Merge Requests
 
