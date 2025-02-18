@@ -40,7 +40,6 @@ Analysis & Reporting:
 - Analyze historical deal performance and capture lessons learned to improve future processes
 - Monitor industry trends and provide regular updates to the team on relevant market activities
 
-
 #### Requirements
 
 - Bachelors or equivalent in Science, Finance, Accounting, Economics or a related field
