@@ -10,7 +10,7 @@ If you want to convert a current contractor into a full-time position, please fo
 
     - If the end date works with the intended start date for the full-time role, that is the  ideal scenario
     - If the date does not work with the intended start date for the full-time role (for example, their contract ends in September and we intend to convert them in March), ask the agency about any early contract termination fees as this will need to be covered by your team’s budget
-2. Ensure the role you want to convert the contractor into has a [job family](handbook.gitlab.com/job-families/)
+2. Ensure the role you want to convert the contractor into has a [job family](handbook.gitlab.com/handbook/hiring/job-families/)
 3. Confirm that their country is [eligible for hiring](https://comp-calculator.gitlab.net/hiring_status/index) as this will technically be adding more headcount to a location 
     - If the country is not open for hiring, we unfortunately will not be able to convert the contractor into a full-time position
 4. Confirm the budget you have for the new full-time role with your FP&A partner/s and make sure it aligns with [compensation benchmarks](https://comp-calculator.gitlab.net/) for the contractor’s location.
