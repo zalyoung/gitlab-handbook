@@ -19,11 +19,13 @@ The Analyst, Corporate Development is a [grade 6](/handbook/total-rewards/compen
 #### Responsibilities
 
 Deal Sourcing & Pipeline Management:
+
 - Research and analyze market trends, competitive landscape, and emerging technologies in the DevSecOps space to identify potential acquisition targets
 - Build and maintain comprehensive target lists across strategic focus areas, leveraging various data sources and industry research
 - Manage and optimize our deal flow tracking system to ensure efficient pipeline management
 
 Deal Analysis & Execution:
+
 - Conduct initial screening of potential targets, analyzing strategic fit, product synergies, and financial metrics
 - Assist in building detailed financial models and valuation analyses to support deal evaluation and negotiations
 - Support due diligence process by coordinating with cross-functional teams and supporting multiple work streams
@@ -32,6 +34,7 @@ Deal Analysis & Execution:
 - Create and maintain process documentation to improve efficiency and knowledge sharing for your areas of responsibility
 
 Analysis & Reporting:
+
 - Perform market research and competitive analysis to support strategic decision-making
 - Create periodic reports on pipeline activity, deal progress, and integration status
 - Analyze historical deal performance and capture lessons learned to improve future processes
