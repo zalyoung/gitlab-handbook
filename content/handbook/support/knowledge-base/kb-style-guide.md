@@ -126,13 +126,13 @@ The solution section clearly lists the steps a user must follow to resolve the i
 
 ### Cause
 
-This section describes _what_ caused the issue to happen and _why_ it was introduced, if known.
+This section describes **what** caused the issue to happen and **why** it was introduced, if known.
 
-The Cause does not immediately diagnose or solve the issue, which is why it is a separate section and listed after the Description and Solution.
+The cause does not immediately diagnose or solve the issue, which is why it is a separate section and listed after the description and solution.
 
-It is better to say we don't know the cause if it is under investigation.
+If the cause is still under investigation, state that the cause is unknown.
 
-Link to docs, blog posts, issues, and other relevant materials inline as necessary.
+Link to docs, blog posts, issues, and other supporting materials inline as necessary.
 
 ### Additional Information
 
