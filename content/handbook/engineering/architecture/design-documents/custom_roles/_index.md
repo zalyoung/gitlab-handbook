@@ -3,7 +3,7 @@ title: "Custom Roles"
 status: ongoing
 creation-date: "2025-02-13"
 authors: [ "@jarka" ]
-coach: [ ]
+coach: [ "@grzesiek" ]
 approvers: [ "@alexbuijs", "@grzesiek" ]
 owning-stage: "~devops::software supply chain security"
 participating-stages: []
@@ -106,7 +106,7 @@ We use specialized preloaders to efficiently load custom permissions for differe
 
 #### Finder
 
-MemberRoles::RolesFinder is a search service class that filters and sorts member roles based on parameters like parent, ID, and type. It handles both regular and admin custom roles.
+`MemberRoles::RolesFinder` is a search service class that filters and sorts member roles based on parameters like parent, ID, and type. It takes care of searching regular roles while for admin roles we have `Members::AdminRolesFinder`
 
 ## Documentation and Maintenance
 
