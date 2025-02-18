@@ -11,7 +11,14 @@ The voice in KB articles should be concise, direct, and precise. Since many user
 
 ## Formatting
 
-Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide) and use the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html). The important thing is that we have clear information for the customer following a standard template that, over time, users will be accustomed to navigating.
+Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide) and use the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html) unless otherwise specified. The important thing is that we deliver clear information following a standard template that customers know they can trust.
+
+Pay special attention to things like:
+
+- [Writing for localization](https://docs.gitlab.com/development/documentation/styleguide/#writing-for-localization)
+- [Capitalization](https://docs.gitlab.com/development/documentation/styleguide/#capitalization), especially for feature and product names
+- [Unordered and ordered lists](https://docs.gitlab.com/development/documentation/styleguide/#choose-between-an-ordered-or-unordered-list), and when to use each type
+- [Acronyms](https://docs.gitlab.com/development/documentation/styleguide/#acronyms)
 
 ### File naming
 
