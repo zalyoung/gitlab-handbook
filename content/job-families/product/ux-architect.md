@@ -5,7 +5,10 @@ description: "At GitLab, UX Architects collaborate closely with product managers
 
 ## UX Architect Roles at GitLab
 
-At GitLab, UX Architects collaborate closely with product designers, product managers, engineers, and technical writers to create cohesive, scalable, and systematic user experiences across the platform. They take both a hands-on and strategic birds-eye view of the overall GitLab product, acting as the connective tissue that ensures dots are connected when delivering robust, high-quality UX solutions. They focus on defining and maintaining the overall information architecture, interaction patterns, and system behaviors that form the foundation of GitLab's user experience.
+At GitLab, UX Architects collaborate closely with product designers, product managers, engineers, and technical writers to ensure cohesive, scalable, and systematic user experiences across the platform. They focus on the high level interaction models, information architecture, workflows, and usability heuristics that shape how users interact holistically with the product.
+
+UX Architects take a strategic, birds-eye view of the overall GitLab product while also contributing hands-on, ensuring that information architecture and system behaviors support a unified and intuitive user experience. They establish system-wide principles that guide teams in delivering consistent, high-quality UX solutions across different product areas.
+
 
 ### Base Requirements
 
