@@ -117,7 +117,7 @@ The above sections expand on prioritization, engineering responsibility, and tec
    - The intent is not to encompass every team, but rather most critical objectives to achieve
    - **Tier 1** topics are meant to be 100% committed to within the defined quarter
    - **Tier 2** topics are meant to be committed to with 80% confidence that it will be delivered in the defined quarter
-   - **Tiers 3-5** are topics that will not take priority over Tier 1 or 2, and should be considered next as time allows
+   - **Tier 3** are topics that will not take priority over Tier 1 or 2, and should be considered next as time allows
 1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template similar to this
 1. Engineering will evaluate the proposal from product and identify:
    - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
