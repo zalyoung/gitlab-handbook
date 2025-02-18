@@ -262,7 +262,7 @@ The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) f
 1. Refine scheduled security issues.
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!)
 
-### Security vulnerabilities triaging process
+### Vulnerability Management Process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
 
@@ -297,13 +297,9 @@ We use the Vulnerability Report with filters to focus on items matching [our pol
 For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. I
 > Refer to [Vulnerability status definitions](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
 
-##### Triaging vulnerabilities
-
-We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
-
 #### Dismissing a vulnerability
 
-When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FedRAMP image (fips).
+When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FIPS image.
 Select the "Dismiss" option from the vulnerability status options.
 Finally, make sure to comment on the vulnerability status change notification to explain why.
 
