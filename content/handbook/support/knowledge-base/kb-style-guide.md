@@ -22,9 +22,9 @@ Pay special attention to things like:
 
 ### File naming
 
-File name should be similar to the title of the article. Follow the conventions in the [structure guide](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html#work-with-directories-and-files). Specifically:
+File name should be as similar to the title of the article as possible. Follow the conventions in the [structure guide](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html#work-with-directories-and-files). Specifically:
 
-- Do not use special characters and spaces, or capital letters in file names, directory names, branch names, and anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
+- Do not use special characters, spaces, or capital letters in file names, directory names, branch names, or anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
 - When creating or renaming a file or directory and it has more than one word in its name, use underscores (_) instead of spaces or dashes.
 
 ### Title
@@ -53,7 +53,7 @@ Examples:
 
 ### Description
 
-This section describes the symptoms, task, or situation that would need a solution. At the moment, we believe the first 140 characters will be indexed for SEO.
+This section describes the symptoms, task, or situation that would need a solution. At the moment, we believe the first 140 characters will be indexed for search engine optimization (SEO).
 
 - Write for the issue encountered, not theoretical situations. Add unconfirmed situations as an additional note if necessary.
 - Entries should be listed in order of significance from top to bottom.
