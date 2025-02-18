@@ -111,15 +111,15 @@ This process ensures a balanced approach between feature development and technic
 
 ### Interlock Process for Quarterly R&D Roadmaps
 
-The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but our teams work toward a single, aligned direction to accomplish their vision. This process describes how we achieve that alignment within the product group itself, and across the company. 
+The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but to accomplish their vision, our teams work toward a joint R&D fully aligned direction described in a top level R&D Roadmap. This process describes how we create that top level R&D roadmap and achieve that alignment within each product group, and across the company. 
 
 1. Product will provide a proposed roadmap at the company level similar to [this example](https://docs.google.com/presentation/d/1BP1e7bzpW1AmvCSjluRSMUJbhkJwQe-Hwm3EHS0nS34/edit#slide=id.g2d8e6978604_0_506)
    - The intent is not to encompass every team, but rather most critical objectives to achieve
    - **Tier 1** topics are meant to be 100% committed to within the defined quarter
    - **Tier 2** topics are meant to be committed to with 80% confidence that it will be delivered in the defined quarter
-   - **Tier 3** are topics that will not take priority over Tier 1 or 2, and should be considered next as time allows
+   - **Tier 3** topics are included in monthly release notes but do not warrant GTM engagement. The confidence of their delivery within a specific quarter is lower than Tier 1 or 2, as they can slip to ensure Tier 1 or 2 deliverables do not miss their committed dates.
 1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template similar to this
-1. Engineering will evaluate the proposal from product and identify:
+1. Engineering will evaluate the proposal from product and validate or identify:
    - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
    - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
    - Whether we commit to the timeline / scope [Example], commit to a different timeline / scope that we propose [Example], or recommend an alterative [Example] 
