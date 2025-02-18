@@ -266,6 +266,7 @@ In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been op
 - Assist the Support team on customer calls
 - Maintain team runbook documentation on how Milestone Doctors have successfully diagnosed problems
 - Respond to questions in our team Slack channel #g_manage_import_and_integrate
+- Update our [FAQ](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/faq.md?ref_type=heads) with any learnings from the shift
 
 #### Rotation schedule
 
