@@ -136,20 +136,17 @@ Link to docs, blog posts, issues, and other supporting materials inline as neces
 
 ### Additional Information
 
-Optional
+Providing additional information is optional, but can be useful for sharing related topics that are not addressed in other sections. While most sections should be concise and clear, we can dive deeper into information or steps such as:
 
-Provides context to any of the above sections. While information should be concise and clear, we can dive deeper into information or steps such as:
-
-- Specific locations of logs / errors mentioned in the description
+- Specific locations of logs, errors, or other data mentioned in the description
 - Alternative commands to find information in the solution
 - Related feature requests worth upvoting
 
 ### Related Links
 
-Optional
+Optional. Add links to relevant feature requests, bug issues, or other info as necessary. Follow the format used for [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html#related-topics).
 
-Add links to relevant feature requests, bug issues, etc. as necessary.
-Follow the format used for [Related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html#related-topics)
+Even when links have been included inline in other sections, it's useful to consolidate the links in one section as well, for quick reference.
 
 ## Integrate pre-existing documentation when possible
 
