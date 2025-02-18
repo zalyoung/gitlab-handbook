@@ -42,14 +42,14 @@ While fine-tuning the entire model is a solution for model customization, it com
 
 1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
 2) Storing _n_ custom fine-tuned models would have high disk usage.
-3) Hosting _n_ different finetuned models simultaneously might be slow and resource expensive.
+3) Serving _n_ different finetuned models simultaneously might be slow and resource expensive.
 4) Training a model requires extensive and specific knowledge, reinforcing the need to enable customers with an user-friendly UI.
 
 This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
 
-## Proposal: PEFT and light-weight adapters
+## PEFT and light-weight adapters
 
-One of the possible solutions to achieve lightweight and quick fine-tuning involves using PEFT techniques, such as adapters.
+The solution selected to achieve lightweight and quick fine-tuning is using PEFT techniques; specifically the use of adapters.
 
 ### What is an adapter?
 
@@ -62,7 +62,7 @@ Additional Resources:
 
 ### Advantages and Limitations
 
-As with any method, the LoRA method comes with its advantages and limitations. _Generally_, LoRA slightly loses against a fully fine-tuned model in the overall performance; if time and hardware are the restrictions, however, then a small performance degredation may be sufficient.
+As with any method, the LoRA method comes with its advantages and limitations. _Generally_, LoRA slightly loses against a fully fine-tuned model in the overall performance; if time and hardware are the restrictions, however, then a small performance degradation may be sufficient.
 
 **Advantages:**
 
@@ -119,7 +119,7 @@ The configuration page will allow the user to:
 - Confirm the projects and select the file types for which the adapter will be trained
 - Configure where the data will be stored and provide necessary keys (if stored remotely)
 - Configure where the adapters weights will be stored
-- Change the hyperparameters via sliders or fields (the sensitive defaults will be provided by us)
+- Change the hyperparameters via sliders or fields (defaults will be provided by GitLab)
 
 The fine-tuning pipeline would then deploy an instance of the fine-tuning service on their configured infrastructure and trigger the following steps:
 
