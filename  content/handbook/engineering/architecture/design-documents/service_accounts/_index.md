@@ -1,14 +1,11 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
-title: Design doc title
+title: Service accounts
 status: proposed
-creation-date: "yyyy-mm-dd"
-authors: [ "@username" ]
-coaches: [ "@username" ]
-dris: [ "@product-manager", "@engineering-manager" ]
-owning-stage: "~devops::<stage>"
+creation-date: "2025-02-19"
+authors: [ "@dblessing" ]
+#coaches: [ "@tbd" ]
+dris: [ "@hsutor", "@adil.farrukh" ]
+owning-stage: "~devops::govern"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
@@ -80,53 +77,18 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
+There are currently more than 10 different bot user account types, each owned by a different team with disparate permission policies and authentication methods. This leads to unclear ownership, can result in security vulnerabilities, are hard for customers to track and have high maintenance overhead. This proposal standarizes on service accounts as the singular solution for bot accounts within GitLab. Service accounts provide nearly identical capabilities to regular users while enforcing constraints like UI sign-in restrictions and fewer distinct permission policies. 
 
 ## Motivation
 
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
+GitLab currently supports multiple types of bot accounts with varying permissions and authentication methods, leading to scattered security policies, unclear ownership, and increased maintenance complexity. We need a unified approach to automated system interactions that maintains security while reducing technical debt.
 
 ### Goals
 
-<!--
-List the specific goals / opportunities of the document.
-
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
-
-### Non-Goals
-
-<!--
-Listing non-goals helps to focus discussion and make progress. This section is
-optional.
-
-- What is out of scope for this document?
--->
+1. Add features to service accounts to support required use-cases
+1. Standarize on service accounts for all new bot user
+1. Create migration path for existing bot user types
+1. Simplify bot permission policies
 
 ## Proposal
 
