@@ -337,7 +337,7 @@ Authorized GitLab Partners can request NFR licenses by filling out the NFR Licen
 
 To be eligible for the NFR Program, Partners must:
 
-- Be Open or Select Partners in good standing. Open and Select Requirements can be found [here](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
+- Be Open or Select Partners in good standing. Open and Select Requirements can be found [here](/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
 - Have at least one employee that has successfully completed the Solution Architect certification or Professional Services Engineer certification training, lab, and exam (with a passing score).
 
 ##### NFR Program Terms and Conditions
