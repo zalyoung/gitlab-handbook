@@ -1049,12 +1049,12 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 
 | Region | FMM | ESM |
 | ------ | ------ | -------------- |
-| AMER FinServ| Beth Parker |  |
-| AMER Northeast and Southeast| Jonathan Santiago |  |
-| AMER North and Canada | Julie Wyatt |  |
-| AMER West Coast and Southwest | Lisa Rom |  |
-| AMER Public Sector | Kira Aubrey and Micaila Gardiner |  |
-| AMER LATAM | Gabby Chorny |  |
+| AMER FinServ| Beth Parker | Jay Bahar |
+| AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
+| AMER North and Canada | Julie Wyatt | Jay Bahar |
+| AMER West Coast | Lisa Rom | Lisa Cartagena |
+| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
+| AMER LATAM | Gabby Chorny | Rodrigo Rios |
 | APAC | Kate Baker | SJ Lim |
 | APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
