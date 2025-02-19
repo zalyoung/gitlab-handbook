@@ -252,11 +252,11 @@ Example journeys:
 - Implementation in LabKit
 - Journey ID generation
 - Automatic retries with exponential backoff for sending reports to the User Journey Service
-- Batching requests for the User Journey Service
+- Optional batching of requests before reporting to the User Journey Service
 
-### User Journey State Management Service
+### User Journey Service
 
-The user journey state management service will serve an endpoint that will respond to the client generated payload:
+The user journey service will serve an endpoint that will respond to the client generated payload:
 
 | Field             | Type              | Required             | Description                                       | Example                                        | Observations                                        |
 |-------------------|-------------------|----------------------|---------------------------------------------------|------------------------------------------------|-----------------------------------------------------|
@@ -273,17 +273,20 @@ The user journey state management service will serve an endpoint that will respo
 
 Batched operations collect the `start` and `end` timestamp of batched requests.
 
-### Service Architecture
+State is managed by Redis. Allowing the querying of stale journeys, timing out after configured threshold.
+
+A background process verifies all stale journeys and clear them out, emitting failure metrics.
+
+Deployments:
 
 - Runway service for GitLab.com
-- Runway hosted service for dedicated
-- Redis for journey state storage
+- Runway hosted service for Dedicated
 
-### Failure Modes
+### Authentication
 
-- Journey timeout after configured threshold (default 10 minutes)
-- Automatic cleanup of stale journeys
-- Retry mechanisms for state updates
+Authentication between the SDK and the user journey service is required to prevent malicious actors from injecting fake journey events that could distort the reliability metrics of GitLab features and cause DDoS.
+
+TBD: implmentation details.
 
 ### Initial Implementation Scope
 
@@ -297,18 +300,23 @@ Batched operations collect the `start` and `end` timestamp of batched requests.
 1. Distributed Tracing
    Pros:
    - Existing solutions available
-   - Opportunity to iterate towards a global Tracing solution
+   - Opportunity to iterate towards a global tracing solution
 
    Cons:
    - Different cardinality requirements -- one trace per request
-   - Lack of business-level success criteria
+   - Lack of business-level success criteria -- the tracing tool would still not be self-sufficient
    - More complex to implement and maintain
+
+   Unknowns:
+   - How would queries perform to aggregate data for a wide timeframe? For example, the 28 days of error budgets
+   - How much would it cost?
+   - How sampling would impact the aggregations?
 
 2. Do Nothing
    Pros:
    - No implementation cost
 
    Cons:
-   - Continue lacking end-to-end user journey visibility
+   - Continue lacking end-to-end user journey visibility and measurement
    - Harder to set meaningful SLOs
    - Miss opportunities for better capturing perceived user experience and testing coverage
