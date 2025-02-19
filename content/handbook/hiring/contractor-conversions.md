@@ -52,4 +52,4 @@ If all of the steps above have been completed and we're able to move forward, pl
 
 1. The hiring manager will receive a new onboarding issue
 2. The hiring manager will submit an issue [here](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues/new) using the ‘tsp_to_fte_conversion’ template
-3. There may be some additional Access Requests that need to be completed to differentiate the new hire’s contract vs full time access. Please check in with IT about this if you have questions.
+3. There may be some additional Access Requests that need to be completed to differentiate the new hire's contract vs full time access. Please check in with IT about this if you have questions.
