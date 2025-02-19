@@ -75,15 +75,15 @@ flowchart LR
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
     PE --> CC[Cloud Connector]
-    click CC "" 
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/" 
     PE --> Foundations
     click Foundations "/handbook/engineering/infrastructure/team/foundations/"
     PE --> O[Observability]
-    click O ""
+    click O "/handbook/engineering/infrastructure/team/scalability/observability/"
     PE --> Ops
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PE --> R[Runway]
-    click R ""
+    click R "/handbook/engineering/infrastructure/team/runway/"
 
     SD --> B[Build]
     click B "" 
