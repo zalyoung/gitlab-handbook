@@ -64,26 +64,25 @@ Many team members can use their company issued laptop until it breaks. If your p
 
 **Please note**
 
-Laptops paid for or reimbursed by the company are property of GitLab. They must be enrolled using the proper Endpoint Operating System for accurate [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
-Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so.\
-**Any loss or damange must be reported to IT Ops as soon as it occurs.**
+Laptops paid for or reimbursed by the company are property of GitLab. They must be enrolled using the proper Endpoint Management System for accurate [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
+Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so.
 
 ### Laptop Repair
 
-If your primary laptop is broken and needs to be repaired you can take it into an Apple authorized service center. You should ensure that you have a recent backup before doing so, and that your laptop is not your only registered device for iCloud two-factor authentication.
+**Any loss or damange must be reported to IT as soon as it occurs.**
 
-If the repair is less than $1,000 USD, and can be completed within a few days, the below process must be followed to be reimbursed. If the repair is going to take longer than a day, make sure you have a back up laptop to work on that uses a supported hardware OS.
+If your laptop has been damaged, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document what is broken. GitLab IT will be able to assess the damage and provide guidance on the most beneficial repair option.
 
-Before repairing, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document the repair. The issue must include IT and your managers approvals **prior** to the repair being done. Please attach/include any estimates or receipts for the repair that you get from the Apple authorized service center in the issue. Picture or PDF will work just fine.
+#### Repair options
 
-Do not provide the repair center with any credentials to your laptop. If they ask, let them know they're authorized to do a factory reset on the laptop, should it be necessary. This will help prevent sensitive data from being accidentally or intentionally leaked during repair.
+In some regions, GitLab IT has an Apple certified vendor to perform repairs. At GitLab IT's discretion and vendor availability, the broken laptop may be sent to the vendor for repair. Our GitLab IT team can check if vendor support is available in your region. For minor repairs or when vendor support isn't an option, they may suggest visiting an Apple authorized service center in your area.
 
-Once you receive your laptop back, re-install the OS ([MacOS instructions here](https://support.apple.com/en-us/102639)). Re-installing the OS is to ensure that no unauthorized software was added during the repair process. You will also want to verify that the [disk is encrypted](/handbook/it/end-user-services/onboarding-access-requests/#full-disk-encryption), [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) is installed and either [Jamf for Mac or DriveStrike for Linux](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) is functioning properly. If you have a recent backup, you can restore your data.
+Estimates or quotes from an Apple authorized service center must be included in the issue before approval. Approval must be given by IT and your manager **prior** to any repair work being done. Either a picture or PDF are both acceptable and should include some identifying information about the laptop (Serial number, year, make, model). If the quote for the repair is less than $1,000 USD, and can be completed within a short time frame, GitLab IT may recommend/approve the Apple authorized service center to complete the work. If the repair is going to take longer than a day, make sure you have a back up laptop that uses an approved OS.
 
-If the repair is going to be more than $1,000 USD and take weeks to fix, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
+However, if the repair is going to be more than $1,000 USD and/or take too long to fix, GitLab IT may decide to replace the laptop. In those cases, a replacement laptop will be shipped out and the broken laptop collected to be repaired or recycled. Be advised, broken laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to GitLab IT. Replacements for broken laptops may be used, but will be the same model of laptop (a performance model wouldn't be replaced by a standard model).
 
-In this case please open [an issue to replace](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement).
-When you receive the new laptop, please follow the guidelines in the template. After you have moved to the replacement laptop, we will have the old one sent off to be [recycled or repaired](#laptop-recyclereturn).
+If IT confirms the laptop needs to be replaced, please create [an issue for the replacement](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) and link it to the laptop repair issue.
+When you receive the new laptop, please follow the guidelines in the replacement template. If you are still using the old laptop, we will have it sent off to be [recycled or repaired](#laptop-recyclereturn).
 
 ### Laptop Purchasing and Shipping Process
 
