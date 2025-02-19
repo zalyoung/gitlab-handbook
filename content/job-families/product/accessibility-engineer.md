@@ -29,7 +29,7 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 
 #### Accessibility Engineer
 
-An Accessibility Engineer collaborates closely with product designers and engineers.
+An Accessibility Engineer collaborates closely with product designers, product managers and engineers.
 
 ##### Job Grade
 
@@ -44,7 +44,7 @@ The Accessibility Engineer is a [grade 6](/handbook/total-rewards/compensation/c
 - **Training**: Provide basic accessibility training and guidance to UX and development teams.
 - **Bug Fixes**: Implement fixes for identified accessibility issues in the GitLab product and design system.
 - **Standards**: Keep up-to-date with accessibility standards and emerging technologies.
-- **Collaboration**: Work with designers and engineers to ensure accessibility is considered early in the product development process.
+- **Collaboration**: Work with designers, product managers and engineers to ensure accessibility is considered early in the product development process.
 
 ##### Requirements
 
@@ -52,7 +52,7 @@ An Accessibility Engineer is expected to meet the base requirements and execute 
 
 #### Senior Accessibility Engineer
 
-A Senior Accessibility Engineer collaborates closely with product designers and engineers and is not exclusive to a single group.
+A Senior Accessibility Engineer collaborates closely with product designers, produt managers and engineers and is not exclusive to a single group.
 
 ##### Job Grade
 
