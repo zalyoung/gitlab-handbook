@@ -41,7 +41,7 @@ flowchart LR
     I --> PE[Production Engineering]
     click PE ""
     I --> SD[Software Delivery]
-    click SD "/handbook/engineering/infrastructure/team/delivery/"
+    click SD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/"
     I --> TS[Tenant Scale]
     click TS "/handbook/engineering/infrastructure-platforms/tenant-scale/"
 
