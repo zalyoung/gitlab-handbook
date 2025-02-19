@@ -24,7 +24,7 @@ experiences.
 | Feature | Current | Deprecated | Ongoing | Links |
 |---------|---------|------------|----------|-------|
 | RAG for Duo Chat: Documentation question-answering | [Vertex AI Search](vertex_ai_search.md)  Released in %17.0 | [Postgres with PGVector extension](postgresql.md) Released in %16.0, deprecated in %17.0 | Once [AI Context Abstraction layer](../ai_context_abstraction_layer/_index.md) is done, embeddings can be moved | [Gitlab Duo RAG blueprint](../gitlab_duo_rag/_index.md) |
-| RAG for Search features: hybrid issues and epics search | [Elasticsearch](elasticsearch.md) Released in %17.6 | | | |
+| RAG for Search features: hybrid issues and epics search | [Elasticsearch](elasticsearch.md) Released in %17.6 | | | [Hybrid issue search epic](https://gitlab.com/groups/gitlab-org/-/epics/13474) |
 | Future RAG features | | | [AI Context Abstraction layer](../ai_context_abstraction_layer/_index.md) will support embedding storage and retrieval for GitLab data on Elasticsearch, OpenSearch or postgres | [AI Context Abstraction layer blueprint](../ai_context_abstraction_layer/_index.md) [AI Context Epic](https://gitlab.com/groups/gitlab-org/-/epics/16008) |
 
 ## Overview of RAG
