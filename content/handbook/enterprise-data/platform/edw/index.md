@@ -97,6 +97,7 @@ A report table provides the records and columns necessary to answer a single bus
 The workspace is the layer in the data warehouse where development and exploration takes place. There are no specific transformation steps that take place in this layer; any transformation can be explored and evaluated. Once the intended result is identified, the transformation should be migrated to the other standard layers to improve maintenance and scalability. Workspace tables do not need to conform to any standards or patterns found in the other layers, but should not be used to regularly answer business questions.
 
 ## Enterprise Dimensional Model (COMMON Schema)
+
 ### Useful links and resources
 
 - [dbt Discourse about Kimball dimensional modelling](https://discourse.getdbt.com/t/is-kimball-dimensional-modeling-still-relevant-in-a-modern-data-warehouse/225/6) in modern data warehouses including some important ideas why we should still use Kimball
