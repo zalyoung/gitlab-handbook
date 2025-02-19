@@ -37,6 +37,7 @@ Follow these steps to create a new ticket to start communications with a custome
 1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer CSM`. You will need these values when creating the ticket.
 1. Follow the instructions [here](/handbook/support/workflows/sending_notices/#manually-create-a-zendesk-ticket) to create a new Zendesk ticket.
     1. For the **subject** of the ticket, use the following template: `GitLab Dedicated Notice: <description>`.
+    1. Apply the macro General::Outbound Contact Request
     1. For the ticket **requestor**, use the first operational email address listed.
     1. **CC** the other operational email addresses and the Customer CSM.
     1. Set the **Preferred Region for Support** to the region similar to where the tenants' `Primary Region` is located.
