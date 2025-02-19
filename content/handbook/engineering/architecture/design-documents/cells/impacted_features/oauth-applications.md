@@ -20,8 +20,8 @@ we can document the reasons for not choosing this approach.
 OAuth applications allow third-party applications to securely access resources associated with a GitLab user.
 Users control what data they share with these applications.
 
-OAuth applications can be created at different levels: instance-owned, user-owned, project-owned, and group-owned.
-However, this is only for management purposes—**all OAuth applications are available instance-wide**.
+OAuth applications can be created at different levels: cluster-owned, user-owned, project-owned, and group-owned.
+However, this is only for management purposes—**all OAuth applications are available cluster-wide**.
 
 Examples of instance-owned applications include:
 - CustomersDot
@@ -74,6 +74,6 @@ Organization handling in Cells 1.0 works as follows:
    - If not specified, the system will fall back to a default `organization_id`
 
 This implementation provides basic OAuth functionality while working within current technical constraints.
-The default organization in this context is the first organization in the first cell which contains the existing data from customers.
+The default organization in this context is the first organization in the legacy cell which contains the existing data from customers. The legacy cell is the original instance of GitLab.com.
 
-For new organizations http router need to updated to route different types requests specified on section 2, which is beyond the scope of cells 1.0 plans.
+For OAuth applications which have to work cluster-wide, we need to update the data flow, and it's beyond the scope of Cells 1.0.
