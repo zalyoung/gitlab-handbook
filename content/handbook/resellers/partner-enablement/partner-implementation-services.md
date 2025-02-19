@@ -4,6 +4,16 @@ title: "Channel Partner Implementation Services"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## TODO: insert these at the right place
+
+Reference Architectures: https://docs.gitlab.com/ee/administration/reference_architectures/
+GitLab Environment Toolkit (GET): https://gitlab.com/gitlab-org/gitlab-environment-toolkit
+GitLab Performance Tool (GPT): https://gitlab.com/gitlab-org/quality/performance
+Upgrade Path Tool: https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
+Deprecations and removals by version: https://docs.gitlab.com/ee/update/deprecations.html (+ What's new since? https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
+Autoscaling GitLab runners: https://docs.gitlab.com/runner/fleet_scaling/
+Runner fleet dashboard: https://docs.gitlab.com/ee/ci/runners/runner_fleet_dashboard.html
+
 ## Implementing a GitLab instance
 
 - [Decide between GitLab Community and Enterprise Editions](#deciding-between-gitlab-community-and-enterprise-editions)
