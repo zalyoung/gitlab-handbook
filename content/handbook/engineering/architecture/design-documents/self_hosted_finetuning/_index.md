@@ -42,7 +42,7 @@ While fine-tuning the entire model is a solution for model customization, it com
 
 1) Training a model usually requires roughly 3-4x more vRAM than simply loading the model.
 2) Storing _n_ custom fine-tuned models would have high disk usage.
-3) Serving _n_ different finetuned models simultaneously might be slow and resource expensive.
+3) Serving _n_ different fine-tuned models simultaneously might be slow and resource expensive.
 4) Training a model requires extensive and specific knowledge, reinforcing the need to enable customers with an user-friendly UI.
 
 This, together with the overall expectation that an average customer would be limited in its available hardware resources, motivates us to look into other more efficient approaches.
@@ -129,7 +129,7 @@ The fine-tuning pipeline would then deploy an instance of the fine-tuning servic
 
 The fine-tuning service would be provided using Docker.
 
-The container will be published in the GitLab Container Registry and DockerHub on every GitLab Release.
+The container will be published in the GitLab.com Container Registry and DockerHub regularly.
 
 #### Data Preparation
 
