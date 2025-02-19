@@ -19,7 +19,7 @@ first. In order to facilitate this process, the framework supports the engineeri
 the life cycle of the feature, to facilitate the creation of the required documentation and other
 artifacts.
 
-The framework relies heavily on the [data classification]({{< ref "data-classification-standard" >}}) of the feature in
+The framework relies heavily on the [data classification](/handbook/security/data-classification-standard/) of the feature in
 scope. It is not necessary for features managing Green data, and more activities are required as the
 level increases, up to Red data.
 
@@ -68,7 +68,7 @@ The framework is architected around 3 stages:
 
 | Activity | Security Team | Green & Yellow Data | Orange Data | Red Data |
 | -------- | ------------- | ------------------- | ----------- | -------- |
-| [Data classification](#data-classification) | [Security Assurance]({{< ref "security-assurance" >}}) | N/A | N/A | N/A |
+| [Data classification](#data-classification) | [Security Assurance](/handbook/security/security-assurance/) | N/A | N/A | N/A |
 | [Architecture](architecture.html) | [Security Architects](/handbook/security/product-security/security-architecture/) | Optional| Recommended | Required |
 | Define Target Environment | [InfraSec](/handbook/security/product-security/infrastructure-security/) | Optional | Required | Required |
 | Threat Modeling | [AppSec](/handbook/security/product-security/application-security/) | Optional | Recommended | Required |
@@ -85,7 +85,7 @@ A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
 ##### Resources
 
-1. The [Data Classification Standard]({{< ref "data-classification-standard" >}}) handbook page
+1. The [Data Classification Standard](/handbook/security/data-classification-standard/) handbook page
 
 #### Architecture
 
@@ -102,12 +102,12 @@ system helps to get started with the Threat Modeling activity.
 
 #### Threat Modeling
 
-Create or update a corresponding [Threat Model]({{< ref "../product-security/application-security/threat-modeling" >}}).
+Create or update a corresponding [Threat Model](../product-security/application-security/threat-modeling/).
 
 #### OSS Ecosystem Testing
 
 In case the proposed architectural change introduces new Open Source Software components to our
 infrastructure or our product inform the Security Research Team
 (`@gitlab-com/gl-security/security-research`) for potential inclusion of the dependency into the
-[OSS Ecosystem Testing]({{< ref "../product-security/security-research#gitlab-ecosystem-security-testing" >}})
+[OSS Ecosystem Testing](/handbook/security/product-security/security-research/#gitlab-ecosystem-security-testing)
 efforts.

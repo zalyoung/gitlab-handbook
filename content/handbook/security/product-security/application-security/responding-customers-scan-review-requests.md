@@ -56,4 +56,4 @@ Our goal is to reply to customer requests within 10 business days.
 
 ## Where do I submit scanner findings that adhere to the standards outlined above?
 
-Our [Field Security team](/handbook/security/security-assurance/field-security/) can open an issue in our issue tracker using [this template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=customer_scan_result_request) to follow-up on the request internally.
+If you are a customer, our [Field Security team](/handbook/security/security-assurance/field-security/) can open an issue in our issue tracker for you using [this template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=customer_scan_result_request) to follow-up on the request internally. Internal team members can directly open issues as long as guidelines outlined above are followed.

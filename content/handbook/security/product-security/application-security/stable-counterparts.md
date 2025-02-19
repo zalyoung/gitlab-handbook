@@ -13,7 +13,7 @@ next to the "Application Security Engineer" mentions.
 
 - Assist in threat modeling features to identify areas of risk prior to
   implementation
-- Code and [AppSec reviews]({{< ref "appsec-reviews" >}})
+- Code and [AppSec reviews](/handbook/security/product-security/application-security/appsec-reviews/)
 - Provide guidance on security best practices
 - Improve security testing coverage
 - Assistance in prioritizing security fixes

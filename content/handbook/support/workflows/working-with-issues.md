@@ -86,7 +86,7 @@ Optional, but highly recommended:
 - [Stage](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#stage-labels)
 - `~Reproduced on GitLab.com` if applicable
 
-For L&R related issues, please see the [specific guidance on Fulfillment issues]({{< ref "managing_product_issues" >}}).
+For L&R related issues, please see the [specific guidance on Fulfillment issues](/handbook/support/license-and-renewals/workflows/managing_product_issues/).
 
 ## Escalate New and Existing Issues
 
@@ -148,7 +148,7 @@ If you create a feature proposal on behalf of a customer, please follow the same
 | Service/Product       | Escalation Type                                                                                  | Escalation Point                                         |  Assignment      |
 |-----------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------|----------------------- |
 | GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | <https://gitlab.com/gitlab-com/infrastructure/issues/new> | Production Lead/Senior Production Engineer |
-| Support Engineers with GitLab.com console access| Anything related to the **use of GitLab.com**, operations that can't be performed with admin access  | See [Console escalation requests]({{< ref "internal_requests.md#gitlabcom-console-escalation" >}}) | Use `~"GitLab.com Console Escalation"` label |
+| Support Engineers with GitLab.com console access| Anything related to the **use of GitLab.com**, operations that can't be performed with admin access  | See [Console escalation requests](/handbook/support/workflows/internal_requests#gitlabcom-console-escalation) | Use `~"GitLab.com Console Escalation"` label |
 | GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | <https://gitlab.com/gitlab-com/support/support-team-meta/issues/new>        | Support Team Lead/Senior Support Engineer |
 
 **See the [GitLab team page](/handbook/company/team/) for assignments**

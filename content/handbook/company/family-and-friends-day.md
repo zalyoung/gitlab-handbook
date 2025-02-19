@@ -1,19 +1,34 @@
 ---
 title: "Family and Friends Day"
-description: "At GitLab, we are family and friends first, work second. A quarterly Family and Friends Day during COVID-19 helps our Team Members prioritize their well-being."
+description: "At GitLab, Family & Friends days are shared days away from work to prioritize time with family and friends, volunteering, self-care, or anything else."
 ---
 
 ## What is a Family and Friends Day?
 
-At GitLab, we are [family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). In an ongoing pandemic with COVID-19 affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a quarterly "Family and Friends Day" for as long as the majority of the world, where our team members reside, are dealing with COVID-19. On this day, we will close the doors to the GitLab virtual office, reschedule all meetings, and have a **publicly visible shutdown**.
+We started our Family & Friends day benefit in early 2020 to help team members cope with the COVID-19 pandemic. We planned to continue Family & Friends days for as long as the majority of the world was dealing with the pandemic. While the World Health Organization declared an [end to the COVID-19 global health emergency](https://www.nbcnews.com/health/health-news/who-ends-covid-global-health-emergency-rcna83046) in early 2023, we have maintained Family & Friends days as a team member benefit with different iterations each fiscal year.
 
-Team members can share about their Family and Friends Day in the `#family-and-friends-day` Slack channel after the event, or publicly on social media such as Twitter, LinkedIn, or wherever they're most comfortable using the hashtag #FamilyFriends1st. Sharing is optional. Taking the day off is strongly encouraged if your role allows it.
+Team members are encouraged to share about their Family and Friends day in the `#family-and-friends-day` Slack channel after the event, or publicly on social media such as Twitter, LinkedIn, or wherever they're most comfortable using the hashtag #FamilyFriends1st. Sharing is optional. Taking the day off is strongly encouraged if your role allows it.
+
+## FY'26 Family and Friends Days
+
+In FY25, we chose one day a quarter to recognize a Family & Friends day. In FY26, we plan to consolidate those 4 Family & Friends days near the end of the calendar year. Keeping our Friends & Family day benefit at a time when our customers are often away from work, and during a quieter time in the year, will allow us to best serve our customers and meet our business objectives.
+
+The proposed dates for FY26 Family & Friends days are:
+
+1. 2025-12-26
+1. 2025-12-29
+1. 2025-12-30
+1. 2025-12-31
+
+In countries where a Family & Friends day falls on a public holiday, team members are encouraged to [utilize their public holiday on another day](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit?usp=sharing), keeping in mind that the public holiday accrual balance needs to be used within the same calendar year.
+
+- In Israel, Family & Friends days will be adjusted to 2025-12-28, 2025-12-29, 2025-12-30, and 2025-12-31.
+
+As with years past, team members in roles that require them to work on a date designated as a Family & Friends day can work with their manager to find an alternative day. Once you have identified which alternative day you’d like to have off, please [submit a request in HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=4d78f24d47c4069067429ee0026d43b2), including the approval from your manager. The alternative date should be within 30 days (before or after) of the scheduled Family & Friends day.
 
 ## FY'25 Family and Friends Days
 
-We started our Family & Friends day benefit in early 2020 to help team members cope with the COVID-19 pandemic. We planned to continue Family & Friends days for as long as the majority of the world was dealing with the pandemic. While the World Health Organization declared an [end to the COVID-19 global health emergency](https://www.nbcnews.com/health/health-news/who-ends-covid-global-health-emergency-rcna83046) in early 2023, we will maintain 4 Family & Friends days per year.
-
-In FY'25, the dates for Family & Friends Day will be:
+In FY'25, the dates for Family & Friends Day were:
 
 1. 2024-04-05
 1. 2024-06-14

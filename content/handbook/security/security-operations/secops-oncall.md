@@ -194,7 +194,3 @@ Being the responsible person does not imply being the sole person to perform inc
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
-
-## References
-
-- Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})

@@ -134,24 +134,27 @@ Topology Service will make sure that the given range is not overlapping with oth
 #### Logic to compute the range
 
 ```mermaid
-graph TD
+flowchart TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
   A -->|6 bits| C[Reserved]
-  A -->|16 bits| D[CellID]
-  A -->|41 bits| E[Sequence]
+  A -->|57 bits| D[Sequence]
+  D --> E{Legacy Cell?}
+  E --> |Yes|F[min: 1, max: 10^12 - 1]
+  E --> |"No (new cells)"| G{'QA' bucket?}
+  G --> |Yes| H[min: currentMaxId + 1, max: min + 10^9 - 1]
+  G --> |No| I[min: currentMaxId + 1, max: min + 10^11 - 1]
 ```
 
 - **Sign**: Always 0 for positive numbers.
 - **Reserved**: Currently always `0`, reserved for 2 purposes.
   1. To increase the number of cells, if needed.
   1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
-   ULID based ID allocator will have the `timestamp` value in the  most significant bits,
+   ULID based ID allocator will have the `timestamp` value in the most significant bits,
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
-- **CellID**: A unique auto-incrementing [unique identifier for a Cell](decisions/012_cell_unique_identifier.md) starting with `1`, can support up to 65,535 Cell IDs.
-- **Sequence**: The sequence that will be used for each table in the database.
-  41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence).
-  At the time of writing, the largest ID is 11,098,430,930 (primary key of `security_findings` table), so it's 200 times the current largest ID, which is sufficient.
+- **Sequence**:
+  - Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
+  - Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
 
 Example `config.toml` of Topology Service:
 
@@ -159,28 +162,60 @@ Example `config.toml` of Topology Service:
 [[cells]]
 id = 1
 address = "legacy.gitlab.com"
-sequence_range = [0, 2199023255551]
+sequence_range = [1, 999999999999] # 1 trillion
+buckets = ["paid", "free"]
+status = "active"
 
 [[cells]]
 id = 2
 address = "cell-2-example.gitlab.com"
-sequence_range = [2199023255552, 4398046511103]
+sequence_range = [1000000000000, 1099999999999] # 100 billion
+buckets = ["paid", "free"]
+status = "active"
+
+[[cells]]
+id = 3
+address = "cells-3-test.gitlab.com"
+sequence_range = [1100000000000, 1100999999999] # 1 billion
+buckets = ["QA"]
+status = "active"
+
+[[cells]]
+id = 4
+address = "cells-4-example.gitlab.com"
+sequence_range = [1101000000000, 1200999999999] # 100 billion
+buckets = ["free"]
+status = "active"
 ```
 
-Calculation for `id = 1`:
+- Status:
+  - ready: Cell is not yet ready to accept traffic, but we hold a slot.
+  - online: Cell is accepting traffic and is part of cluster discovery.
+  - offline: Cell is valid but not accepting traffic and is still part of cluster discovery.
+  - removed: Cell is removed and will never be active again.
 
-- Sequences per cell: `2^41 -> 2199023255552`
-- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(1 - 1) * 2199023255552` -> `0`
-- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(1 * 2199023255552) - 1` -> `2199023255551`
+Once the cell gets `removed`, we will update `sequence_range` with the _maxval_ consumed by the cell.
+So that if a normal cell gets removed (decommissioned), new QA cells can get IDs from those unused IDs (if it's more than 1 billion).
 
-Calculation for `id = 2`:
+##### Sequence Saturation
 
-- Sequences per cell: `2^41 -> 2199023255552`
-- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(2 - 1) * 2199023255552` -> `2199023255552`
-- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(2 * 2199023255552) - 1` -> `4398046511103`
+At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
+the legacy cell and new non-QA cells will have sufficient IDs to grow within their sequence_range.
 
-More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
-and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
+QA cells might need more IDs as they are given 1 billion IDs. Cells sequence data are monitored regularly,
+and TS can provide an additional 1 billion IDs (from currentMaxId) to the cell, if their consumption is over 99%.
+
+[Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) handles this.
+
+NOTE:
+
+- The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
+  - To support Cells 2.0 (i.e: allow moving organizations from
+  Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
+  Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
+  and it is estimated to take around 12 months.
+
+More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
 ```proto
 // sequence_request.proto
@@ -711,7 +746,7 @@ Citations:
 
 1. Google (n.d.). Using private service connect with cloudrun services. Google Cloud. Retrieved Nov 11, 2024, from <https://cloud.google.com/vpc/docs/private-service-connect>
 1. Google (n.d.). How multi-region with cloud spanner works. Google Cloud. Retrieved Nov 11, 2024,<https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations>
-1. [ADR for private service connect](..q/decisions/004_vpc_subnet_design/)
+1. [ADR for private service connect](decisions/004_vpc_subnet_design.md)
 
 ### Performance
 

@@ -406,7 +406,9 @@ Aligned with the [timeline](#timeline), managers can see final assessments for e
 
 ## Promotions or Transfers During Assessment Cycle
 
-The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Guidelines are as follows:
+The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Please note, that a "transfer" constitutes as a change to one or multiple of the following things: job family, department, division, or job grade. A change in job title specialty and manager alone would not constitute as a transfer. 
+
+Guidelines are as follows:
 
 1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle. 
 1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.** For example, if a Senior Manager is promoted to Director on 2024-09-15, they would be assessed based on the new Director-level role for the Talent Assessment cycle.

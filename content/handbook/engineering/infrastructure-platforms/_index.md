@@ -35,7 +35,7 @@ flowchart LR
     I --> DA[Data Access]
     click DA "/handbook/engineering/infrastructure-platforms/data-access/"
     I --> DE[Developer Experience]
-    click DE "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
     I --> SP[SaaS Platforms]
     click SP "/handbook/engineering/infrastructure/platforms/"
 
@@ -73,15 +73,15 @@ flowchart LR
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
     DE --> DA[Development Analytics]
-    click DA "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
     DE --> DT[Developer Tooling]
-    click DT "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/"
     DE --> FR[Feature Readiness]
-    click FR "handbook/engineering/infrastructure-platforms/developer-experience"
+    click FR "/handbook/engineering/infrastructure-platforms/developer-experience"
     DE --> PE[Performance Enablement]
-    click PE "handbook/engineering/infrastructure-platforms/developer-experience"
+    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     DE --> TG[Test Governance]
-    click TG "handbook/engineering/infrastructure-platforms/developer-experience"
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience"
 ```
 
 ## Dogfooding

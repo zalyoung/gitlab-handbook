@@ -137,6 +137,17 @@ We follow Platforms Project Management practices as outlined [here](/handbook/en
 
 <!-- Labels explanations -->
 The primary team label is `team::GitLab Delivery Framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
+The team tracks work using the `workflow` and `workflow-infra` labels across issues, epics, and MRs. Team members will ensure that their work items are updated with the correct workflow labels.
+
+| `gitlab-org` issues | `gitlab-com/gl-infra` issues |
+| ---------- | ------------------  |
+| ~"workflow::refinement" | ~"workflow-infra::Triage" |
+| ~"workflow::ready for development" | ~"workflow-infra::Ready" |
+| ~"workflow::in dev" | ~"workflow-infra::In Progress" |
+| ~"workflow::in review" | ~"workflow-infra::Under Review" |
+| ~"workflow::blocked" | ~"workflow-infra::Blocked" |
+| ~"workflow::verification" | ~"workflow-infra::Verify" |
+| ~"workflow::complete" | ~"workflow-infra::Done" |
 
 #### Epic Template
 

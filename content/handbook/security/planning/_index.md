@@ -48,4 +48,4 @@ enough detail to begin an iteration or develop on MVC:
 
 | Plan | Other Resources and Links|
 |------|--------------------------|
-| [Security Requirements for Development and Deployment]({{< ref "security-development-deployment-requirements" >}}) | |
+| [Security Requirements for Development and Deployment](/handbook/security/planning/security-development-deployment-requirements/) | |

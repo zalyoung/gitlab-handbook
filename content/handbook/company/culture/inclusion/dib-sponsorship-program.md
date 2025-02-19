@@ -19,7 +19,7 @@ In 2023 we conducted a pilot program to address an imbalance of Black Team Membe
 
 **A sponsor at GitLab is:**
 
-- A Senior Leader at a minimum [job grade 10+]({{< ref "compensation-calculator#job-grades" >}}) and is not the sponsees direct manager.
+- A Senior Leader at a minimum [job grade 10+](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) and is not the sponsees direct manager.
   - The senior leader should be a People Manager or Manager of Managers
 - Must have been at GitLab for 6+ months
 - Be able to commit to a 9 month sponsorship program which will include

@@ -282,18 +282,17 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 
 ## Updating Closed Opportunities
 
-If opportunity is closed and fields need updating:
+If opportunity is closed and fields need updating, you can request Sales Operation to make the necessary updates: Please reference the “[Requesting Internal Support](/handbook/sales/field-operations/requesting-internal-support/)” section in the Handbook for additional details.
 
-1. Go to the opportunity
-2. Click "Show Feed"
-3. Tag @Sales-Support
-4. Specify needed updates
-5. Provide clear justification
+1. Navigate to the closed opportunity that needs to be updated
+2. Click on the **“Request Support”** button.
+3. Choose **"Sales Ops"** team from the dropdown list and select Next.
+4. Select **"Other (SPECIFY IN NOTES)"** request type and specify needed updates in the **"Notes"** field providing clear justification
 
 Example message:
 
 ```txt
-@Sales-Support please update the SA Validated Tech Evaluation Close Status to Won, 
+Please update the SA Validated Tech Evaluation Close Status to Won, 
 and SA Validated Tech Evaluation End Date to 2024-01-14
 ```
 

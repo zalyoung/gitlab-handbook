@@ -177,6 +177,7 @@ for further information.
 - Identifying product issues that are important to customers, Support or both,
   and coordinating with the entire L&R Support Team and the Fulfillment Product
   Management Team to prioritize them for Engineering.
+- Some team members work closely with the Fulfillment engineers to review and collaborate on changes in the Customers Portal. If you would like to participate and be pinged on relevant MRs, add yourself as a direct member of the reviewers group: https://gitlab.com/groups/gitlab-com/support/licensing-subscription/reviewers.
 
 ### Systems you'll need access to
 

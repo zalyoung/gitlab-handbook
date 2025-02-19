@@ -32,7 +32,7 @@ To incorporate Pairify into your pairing session workflow:
 
 1. Optional. [Specify the pairing session type](#specifying-the-pairing-session-type).
 
-1. React to the thread with the ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji to mark a conversation for Pairify to process.
+1. React to the thread with the ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji **once the pairing is completed** to mark a conversation for Pairify to process.
 
 You then need to wait for the next scheduled execution of Pairify, as explained in [how Pairify works](#how-pairify-works).
 
@@ -55,10 +55,11 @@ Pairify can apply additional labels to pairing issues to indicate the pairing se
 
 The reactions in this table are mutually exclusive - Pairify will only process the first reaction added to the conversation if multiple reactions are found:
 
-| Emoji                                                                           | Shortcode        | Description                                           |
-|---------------------------------------------------------------------------------|------------------|-------------------------------------------------------|
-| ![Crush emoji](/images/support/workflows/assets/pairify_crush.png "Crush emoji")                       | `:crush:`        | Adds the `crush` label to the pairing issue           |
-| ![Office hours emoji](/images/support/workflows/assets/pairify_office-hours.png "Office hours emoji")  | `:office-hours:` | Adds the `office hours` label to the pairing issue    |
+| Emoji                                                                                                     | Shortcode        | Description                                            |
+|-----------------------------------------------------------------------------------------------------------|-------------------|-------------------------------------------------------|
+| ![Crush emoji](/images/support/workflows/assets/pairify_crush.png "Crush emoji")                          | `:crush:`         | Adds the `crush` label to the pairing issue           |
+| ![Customer call emoji](/images/support/workflows/assets/pairify_customer-call.png "Customer call emoji")  | `:customer_call:` | Adds the `customer-call` label to the pairing issue   |
+| ![Office hours emoji](/images/support/workflows/assets/pairify_office-hours.png "Office hours emoji")     | `:office-hours:`  | Adds the `office hours` label to the pairing issue    |
 
 To ensure these reactions are picked up by Pairify, you should add these reactions before adding the `:pairify:` emoji to your conversation.
 

@@ -46,8 +46,8 @@ armhf
 ARNs
 Artifactory
 Asana
-Asciidoctor
 ASCIIArt
+Asciidoctor
 asdf
 ASMs
 Assembla
@@ -201,6 +201,7 @@ CMMs
 CNAs
 CNs
 Cobertura
+Codecademy
 Codeception
 Codecov
 codenames
@@ -333,6 +334,7 @@ desynchronized
 Dev
 devfile
 devfiles
+Devo
 DevOps
 Dhall
 dialogs
@@ -874,6 +876,7 @@ Permifrost
 PgBouncer
 pgFormatter
 pgLoader
+pgLogical
 pgMustard
 pgvector
 Phabricator
@@ -935,6 +938,7 @@ Pritaly
 Priyanka
 profiler
 Prometheus
+Proofpoint
 ProseMirror
 protobuf
 protobufs
@@ -1172,6 +1176,9 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
+standardize
+standardized
+standardizes
 starrer
 starrers
 Stickermule
@@ -1508,6 +1515,7 @@ ZAProxy
 Zeitwerk
 Zendesk
 ZenTao
+Zerofox
 Zoekt
 Zoominfo
 zsh

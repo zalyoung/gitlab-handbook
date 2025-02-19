@@ -327,12 +327,15 @@ variations, please refer to the [README file](https://gitlab.com/gitlab-com/supp
 | [#support_team-chat](https://gitlab.slack.com/archives/CCBJYEWAW) | Support team lounge for banter, chat and status updates |
 | [#support_gitlab-com](https://gitlab.slack.com/archives/C4XFU81LG) | Discuss GitLab.com tickets and customer issues |
 | [#support_self-managed](https://gitlab.slack.com/archives/C4Y5DRKLK) | Discuss self-managed tickets and customer issues |
+| [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) | Discuss GitLab Dedicated tickets and customer issues |
 | [#support_licensing-subscription](https://gitlab.slack.com/archives/C018C623KBJ) | Discuss Licensing & Renewals tickets and customer issues |
 | [#support_ticket-attention-requests](https://gitlab.slack.com/archives/CBVAE1L48) | Discuss escalated tickets with the Support Manager On-Call |
 | [#support_operations](https://gitlab.slack.com/archives/C018ZGZAMPD) | Discuss operational items related to how Support works |
 | [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
 | [#recruiting-support-engineering](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
 | [#spt_amer_global](https://gitlab.enterprise.slack.com/archives/C07EYM9NNE4) | Discuss topics specific to Global SEs in AMER |
+| [#spt_emea](https://gitlab.enterprise.slack.com/archives/C07N48KHCR0) | Discuss topics specific to Global SEs in EMEA |
+| [#spt_apac](https://gitlab.enterprise.slack.com/archives/C07EJ2L3P7E) | Discuss topics specific to Global SEs in APAC |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
 | [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 

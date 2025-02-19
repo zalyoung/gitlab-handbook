@@ -8,7 +8,7 @@ Good documentation meets the evolving needs of GitLab customers, users, and admi
 
 The [documentation roadmap](https://gitlab.com/groups/gitlab-org/-/epics/4602) drives our efforts to improve both the content and [documentation website](https://docs.gitlab.com/). For example, we know that people have trouble finding information on docs.gitlab.com. We have roadmap items and OKRs to replatform the docs site, provide better task-based information, and make content easier to find. These larger projects, completed in addition to feature documentation, provide continual, iterative improvement to the user experience of our documentation.
 
-Anyone can contribute to the documentation. Follow our [GitLab documentation guidelines](https://docs.gitlab.com/ee/development/documentation/).
+Anyone can contribute to the documentation. Follow our [GitLab documentation guidelines](https://docs.gitlab.com/development/documentation/).
 
 ## About Us
 
@@ -59,7 +59,7 @@ When evaluating work to meet our stakeholders' needs, we prioritize in the follo
 1. Feature work (including documenting new features, and providing guidance on UI text)
 1. OKR-related work
 1. Backlog issues (including docs technical debt and implementing content topic design)
-1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/ee/development/documentation/testing/vale.html#result-types))
+1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/development/documentation/testing/vale/#result-types))
 
 ### Processes
 
@@ -68,12 +68,12 @@ The team is responsible for developing and maintaining efficient processes, incl
 - Ensuring that processes are in place and being followed to keep the GitLab docs up to date.
 - Following and optimizing documentation workflows with Product and Engineering, Documentation Team workflows, and the division of work.
 - Triaging doc-related issues.
-- Refining the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html) and continuously improving content about GitLab documentation and its contribution process.
+- Refining the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/) and continuously improving content about GitLab documentation and its contribution process.
 - Making it easier for anyone to contribute to the documentation while efficiently handling community contributions to docs.
 
 #### Style Guide
 
-The [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+The [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
 provides language and style guidance for the product documentation and release posts.
 
 Any Technical Writer (or other contributor) can make suggestions for
@@ -95,13 +95,13 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 - Link validity: Nanoc
 - File permissions and naming: `lint-doc.sh`
 
-Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a technical writer.
+Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
 
 #### Translation and internationalization
 
 Everyone can contribute to the translation of GitLab from English into other languages.
 To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/foundations/import_and_integrate/internationalization/).
-For a step-by-step guide to translation contributions, read [Translating GitLab](https://docs.gitlab.com/ee/development/i18n/translation.html).
+For a step-by-step guide to translation contributions, read [Translating GitLab](https://docs.gitlab.com/development/i18n/translation/).
 
 The [docs.gitlab.com](https://docs.gitlab.com/) site is not included in the community efforts to internationalize GitLab. Discussion on translating documentation into other languages is included in [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15471#note_214823504).
 
@@ -136,7 +136,7 @@ Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 {{% alert title="Note" color="primary" %}}
 **If you were directed here from a documentation page's metadata:**
 
-- The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
+- The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate Technical Writer.
 - If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the TW team tasks project](https://gitlab.com/gitlab-org/technical-writing/team-tasks/) for discussion. Additional discussion is in [issue 547](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/547).
 - If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
 {{% /alert %}}
@@ -166,13 +166,13 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 
 For collaboration in other projects and subjects:
 
-| Subject                                                                              | Assigned technical writer |
+| Subject                                                                              | Assigned Technical Writer |
 |:--------------------------------------------------------------------------------     |:--------------------------|
 | The documentation site                                                               | {{< member-by-name "Susan Tacker" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
 | [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
-| [Left nav](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
+| [Left nav](https://docs.gitlab.com/development/documentation/site_architecture/global_nav/) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
 | [Testing/Vale/markdownlint](#testing)                                                | {{< member-by-name "Fiona Neill" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
@@ -321,7 +321,8 @@ that need to be regularly completed:
 
 - **Release Post Structural Check:** The Technical Writing Lead [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead) for the release post published at the end of each milestone. See the [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/) Handbook page for each milestone's assigned writer.
 - **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
-- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
+- **Docs project maintenance tasks:** **ON HOLD from February 2025 as we complete our migration to Hugo**. Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
+these tasks at this time.**
 
 <!-- vale handbook.Spelling = NO -->
 
@@ -359,20 +360,20 @@ The Technical Writers use the following levels of edit:
 
 - Ensure the pipeline passes and no grammar, spelling, or punctuation errors exist.
 - Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
-- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
 
 **Heavy**
 
 - Ensure the pipeline passes and no grammar, spelling, or punctuation errors exist.
 - Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
-- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
-- Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
+- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
+- Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/development/documentation/topic_types/).
 - Ensure the content fits well into the larger documentation set and does not duplicate information in other areas.
-- For UI text, ensure the content meets the standards defined in the [Pajamas Design System](https://design.gitlab.com/) and the [Technical Writer Word List](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
+- For UI text, ensure the content meets the standards defined in the [Pajamas Design System](https://design.gitlab.com/) and the [Technical Writer Word List](https://docs.gitlab.com/development/documentation/styleguide/word_list/).
 
 #### How the writers apply the levels of edit
 
-To balance quality, speed, and resource constraints, the technical writers apply different levels of edit to different documentation.
+To balance quality, speed, and resource constraints, the Technical Writers apply different levels of edit to different documentation.
 
 These guidelines are meant to provide general guidance. They aren't set in stone, and they can be overridden on a case-by-case basis.
 
@@ -386,7 +387,7 @@ These items receive a **light** edit:
 
 - Documentation outside of the five main GitLab repositories (GitLab, Charts, Operator, Omnibus, and Runner).
 - Deprecations and removals.
-- Merge requests authored by other technical writers, unless the MR is part of an OKR, or the author requests a more in-depth edit.
+- Merge requests authored by other Technical Writers, unless the MR is part of an OKR, or the author requests a more in-depth edit.
 
 These items receive a **medium** edit:
 
@@ -399,7 +400,7 @@ These items receive a **medium** edit:
 
 These items receive a **heavy** edit:
 
-- Topic type restructuring efforts (["CTRT"](https://docs.gitlab.com/ee/development/documentation/topic_types/))
+- Topic type restructuring efforts (["CTRT"](https://docs.gitlab.com/development/documentation/topic_types/))
 - OKR work
 - UI text
 
@@ -409,26 +410,27 @@ can efficiently perform the necessary verification.
 
 ### Review workflow
 
-To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the technical writers use this workflow:
+To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the Technical Writers use this workflow:
 
-- When a technical writer opens a merge request, another writer must review and merge.
-  Peer reviews are important to maintain quality and a common voice.
+- When a Technical Writer opens a merge request, another Technical Writer must review and merge. 
+  - The Technical Writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
+    - This requirement aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
-  - If the MR contains only documentation changes, the writer:
+  - If the MR contains only documentation changes, the Technical Writer:
     - Reviews the content and offers suggestions.
     - Does not directly make large changes (by applying suggestions or pushing commits) to the author's branch unless they have explicit approval in the MR to do so.
       Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
     - Can use suggestions or commits to make changes themselves only if the writer has agreement from the author to make changes directly to the author's branch.
-      In these cases, the author must always review the technical writer's changes before the writer merges, to help ensure accuracy.
+      In these cases, the author must always review the Technical Writer's changes before the writer merges, to help ensure accuracy.
     - Can apply small suggestions using the **Apply suggestion** feature if an MR is nearly ready to merge.
       Writers can fix things like missing punctuation, typos, and pipeline failures without additional review.
     - Approves and merges the documentation MR when it is ready.
-  - If the MR is primarily a code change that also contains a documentation update, the writer:
+  - If the MR is primarily a code change that also contains a documentation update, the Technical Writer:
     - Offers suggestions for any documentation, UI text, and error message changes, but should not apply any suggestion themselves.
       Making any changes to a code MR can cause pipelines to fail as code and specs often need to be updated by the engineer to match technical writing suggestions.
     - Approves the MR if the documentation changes are ready to merge.
     - Does not merge code MRs. The MR must be merged by an engineer who also reviews the code change.
-  - If the MR is primarily a documentation change, but also has a small code change to update a link to match the change, the writer:
+  - If the MR is primarily a documentation change, but also has a small code change to update a link to match the change, the Technical Writer:
     - Reviews the content using the same workflow as a documentation-only MR.
     - Can merge *only* if the MR has all [required approvals](#merge-rights).
 
@@ -527,7 +529,7 @@ question to the list of random Wednesday questions! To do so:
 
 ## Community contribution opportunities
 
-We welcome [improvements to content](https://docs.gitlab.com/ee/development/contributing/)
+We welcome [improvements to content](https://docs.gitlab.com/development/contributing/)
 as well as to the development of our
 documentation website, at https://docs.gitlab.com.
 
@@ -542,13 +544,13 @@ For more information about community contributions, see:
 See:
 
 - [Technical writing workflow](workflow/) in the handbook.
-- [Documentation workflows](https://docs.gitlab.com/ee/development/documentation/workflow.html) in the contributor documentation.
+- [Documentation workflows](https://docs.gitlab.com/development/documentation/workflow/) in the contributor documentation.
 - [Setting up a local environment](setup/) in the handbook.
 
 ### Make an urgent content update on docs.gitlab.com
 
 The documentation website is refreshed every hour. On rare occasions, we might have to publish documentation
-updates a little faster. If you need an urgent update, follow the steps to [manually deploy the docs site](https://docs.gitlab.com/ee/development/documentation/site_architecture/deployment_process.html#manually-deploy-to-production).
+updates a little faster. If you need an urgent update, follow the steps to [manually deploy the docs site](https://docs.gitlab.com/development/documentation/site_architecture/deployment_process/#manually-deploy-to-production).
 
 ### Report a docs website problem or infrastructure issue
 

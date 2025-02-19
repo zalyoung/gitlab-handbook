@@ -1,8 +1,10 @@
-# Supply Chain Security for Open Source Dependencies and Libraries
+---
+title: Supply Chain Security for Open Source Dependencies and Libraries
+---
 
 ## Overview
 
-Software supply chain security has become increasingly critical as modern applications, including GitLab products, rely heavily on third-party open source dependencies and libraries. 
+Software supply chain security has become increasingly critical as modern applications, including GitLab products, rely heavily on third-party open source dependencies and libraries.
 A single compromised dependency can result in serious real-world consequences.
 This guide provides developers and security team members with best practices and considerations for evaluating and securely using open source dependencies in their projects.
 

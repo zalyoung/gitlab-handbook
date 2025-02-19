@@ -99,25 +99,25 @@ be rolled-out simultaneously to gitlab.com.
 ```mermaid
 gantt
 dateFormat YYYY-MM-DD
-title 50% confidence timeline
+title Estimated Decomposition Timeline
 
-section Work
-Gitlab Decomposition Ready :active , decompose, 2024-07-01, 2025-02-14
-Non-Slice Work :active, nonslicework, 2024-07-15, 2025-02-14
-Slice 1 :active, slice1, 2024-07-23, 2025-01-13
-Slice 2 :active, slice2, 2024-08-06, 2024-12-30
-Slice 3 :active, slice3, 2024-07-15, 2025-02-14
-Gitlab Application Ready for Decomposition :milestone, allslices, after slice1 slice2 slice3 nonslicework, 0d
-Phase 1 & 2 : phase12, 2024-09-11, 16w
-Phase 4 : phase4, after allslices phase3 decompose, 3w
+section Timeline
+Gitlab Application Work Ready :active, decompose, 2025-01-28, 2025-02-17
+GitLab Decomposition Ready 17 February :milestone, rolloutready, after decompose, 0d
+Time left to finish rollout and communication plans :readycomms, 2025-01-28, 2025-03-08
+Inform Customers of Planned Decomposition 8 March :milestone, communicate, 2025-03-08, 0d
+Standard Customer Communication Timeline :comms, 2025-03-8, 6w
+Infrastructure Rollout :inf, after decompose, 2025-04-19
+Phase 4 : phase4, after decompose, 3w
 Phase 5 : phase5, after phase4, 3w
 Phase 6 : phase6, after phase4, 3w
 Phase 7 : phase7, after phase6, 4w
-Rollout complete :milestone, rollout, after phase7, 0d
+Target Rollout Date 19 April :milestone, rollout, 2025-04-19, 0d
 axisFormat  %Y-%m
+
 ```
 
-[Source](https://gitlab.com/groups/gitlab-org/-/epics/15236#timeline).
+[Source](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2351215673).
 
 ##### Decomposition
 
@@ -125,10 +125,10 @@ axisFormat  %Y-%m
 | ---                | ---    | ---                  |
 | [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 100% | Complete |
 | [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | Complete |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 93%  | 2025-02 |
-| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 79% | 2025-04 |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 100% | Complete |
+| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 97% | 2025-02 |
 
-Last update: [2025-01-28](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2315843897).
+Last update: [2025-02-18](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2351215673).
 
 ### Plan
 
@@ -193,7 +193,7 @@ See [rollout for full details](https://gitlab.com/groups/gitlab-org/-/epics/1523
 
 | Reference | Description |
 | ---       | ---         |
-| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
+| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/_index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
 | [Link](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043) | Epic dashboard for tracking outstanding work towards completion of decomposition |
 
 ## Thanks
