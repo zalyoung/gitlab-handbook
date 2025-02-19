@@ -52,18 +52,18 @@ Absorbing a company culture in a colocated setting occurs over time, as one witn
 
 As you settle into a new role, ensure that you devote time to reading and internalizing [company values](/handbook/values/). While this may feel like a skippable activity, understanding the values early on enables you to have a strong foundation on which to build. Every decision you make in your role should be guided by values. If you have questions about how values are lived, take time during onboarding to consult with others.
 
-At GitLab, one's [Onboarding Buddy]({{< ref "onboarding-buddies" >}}) is there to answer these questions and provide guidance. There is also a `#values` Slack channel for related discussions. Whenever you see a value being lived, we encourage the use of a [values emoji reaction](/handbook/communication/#say-thanks) to reinforce values being used day-to-day.
+At GitLab, one's [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies/) is there to answer these questions and provide guidance. There is also a `#values` Slack channel for related discussions. Whenever you see a value being lived, we encourage the use of a [values emoji reaction](/handbook/communication/#say-thanks) to reinforce values being used day-to-day.
 
 ## Adjusting to a self-service mindset
 
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-GitLab's [100% remote culture]({{< ref "_index.md" >}}) and our workplace methodologies are highly unique. You should not expect to transfer the norms of colocated corporations into a work from anywhere scenario. Those who thrive at GitLab take the opportunity to drop prior workplace baggage at the door, embrace a liberating and empowering [set of values](/handbook/values/), and give themselves permission to truly operate differently.
+GitLab's [100% remote culture](_index.md) and our workplace methodologies are highly unique. You should not expect to transfer the norms of colocated corporations into a work from anywhere scenario. Those who thrive at GitLab take the opportunity to drop prior workplace baggage at the door, embrace a liberating and empowering [set of values](/handbook/values/), and give themselves permission to truly operate differently.
 
 So differently, in fact, that many of GitLab's most effective processes would be discouraged or forbidden in conventional corporations. It's not a trap. It's the future of work.
 
-Explore the resources in our [all-remote handbook section](self-service/), as well as our collection of [relevant blog posts](https://about.gitlab.com/blog/categories/culture/), for a deeper understanding of [life at GitLab]({{< ref "_index.md#life-at-gitlab" >}}).
+Explore the resources in our [all-remote handbook section](self-service/), as well as our collection of [relevant blog posts](https://about.gitlab.com/blog/categories/culture/), for a deeper understanding of [life at GitLab](/handbook/company/culture/#life-at-gitlab).
 
 ## Focus your workspace
 
@@ -136,11 +136,11 @@ Below are a number of intentional facets of [GitLab's culture](/handbook/company
 
 1. [Social call](/handbook/communication/#social-call): A series of optional calls once a month on a Tuesday, to which everyone in the organization is invited. We have no set agenda, but items can be added to the linked document. This is just a time set aside for everyone to openly talk where everyone is a moderator.
 1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
-1. [Group conversations]({{< ref "group-conversations" >}}): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
+1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a co-working space or getting dinner together.
 1. [Slack](/handbook/communication/#slack): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
-1. [Zoom calls]({{< ref "tools-and-tips#zoom" >}}): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
+1. [Zoom calls](/handbook/tools-and-tips/#zoom): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 1. Gaming: GitLab has a `#gaming` Slack channel where fans of video games and digital board games can connect. Coordinating shared gaming sessions is a great way to informally connect with team members and collaborate toward goals outside of work.
 1. Music making: GitLab's `#music_making` Slack channel is a place where artists can come together and collaborate synchronously or asynchronously to make music together. Several GitLab team members came together to create [All I Want This Quarter Is You (GitLab)](https://youtu.be/9kTwqsW8I68), a musical masterpiece on the GitLab Unfiltered YouTube channel.
 
@@ -150,7 +150,7 @@ Below are a number of intentional facets of [GitLab's culture](/handbook/company
 
 Spend time getting to know [GitLab's publicly viewable handbook](/handbook), which captures everything you need to know about the company.
 
-Technology is ever-changing. Which is one reason why GitLab's [onboarding process](onboarding/) includes exercises in self-service via an [onboarding issue]({{< ref "general-onboarding" >}}) with multiple tasks broken down into small, digestible chunks. Each issue guides new hires to complete certain tasks on certain days, being a [manager of one](/handbook/values/#managers-of-one)  — an operating principle of [Efficiency](/handbook/values/#efficiency) — applies from the very beginning.
+Technology is ever-changing. Which is one reason why GitLab's [onboarding process](onboarding/) includes exercises in self-service via an [onboarding issue](/handbook/people-group/general-onboarding/) with multiple tasks broken down into small, digestible chunks. Each issue guides new hires to complete certain tasks on certain days, being a [manager of one](/handbook/values/#managers-of-one)  — an operating principle of [Efficiency](/handbook/values/#efficiency) — applies from the very beginning.
 
 ### Develop a schedule that you can initially follow
 
@@ -162,7 +162,7 @@ If you worked at an office before, you might miss interacting with your coworker
 
 ### Set up work-life boundaries
 
-Be intentional about planning your [time off]({{< ref "paid-time-off" >}}).
+Be intentional about planning your [time off](/handbook/people-group/paid-time-off/).
 When you're not working, disconnect by turning off Slack and closing down your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication/#asynchronous-communication-so-everyone-can-focus). It also helps to enable the "working hours" feature on your calendar so that team members in other time zones know when to schedule meetings.
 
 ### Get accustomed to the communication preferences of your co-workers
@@ -261,8 +261,8 @@ We've created this [extensive list of resources for remote professionals, teams,
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

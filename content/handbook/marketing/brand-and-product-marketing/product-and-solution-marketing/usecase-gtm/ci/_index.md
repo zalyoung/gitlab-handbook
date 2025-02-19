@@ -61,7 +61,7 @@ CI purchasing typically does not require executive involvement. It is usually ac
 
 Examples of comparative research for this use case are listed just below. Additional research relevant to this use case can be found in the [Analyst Reports - Use Cases](https://docs.google.com/spreadsheets/d/1vXpniM08Ql0v0yDd22pcNmXpDrA-NInJOwj25PRuHXA/edit?usp=sharing) spreadsheet.
 
-- [Forrester Wave for Cloud-Native CI Tools](/analysts/forrester-cloudci19/)
+- [Forrester Wave for Cloud-Native CI Tools](https://about.gitlab.com/analysts/forrester-cloudci19/)
 
 ## Market Requirements
 

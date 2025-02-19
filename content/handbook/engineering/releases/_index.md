@@ -264,7 +264,7 @@ Depending on the bug details, follow one of the following processes:
 | Slack Channels | [#f_upcoming_release](https://gitlab.slack.com/archives/f_upcoming_release) / `@release-managers` |
 | Release Manager schedule | [Link](https://about.gitlab.com/community/release-managers/) |
 | Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
-| Reaching us | [How to find us](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team) |
+| Reaching us | [How to find us](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team) |
 
 ---
 

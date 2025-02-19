@@ -16,6 +16,14 @@ To ensure effective use of this collaborative period, GitLab will **co-locate 1 
 - Deeper relationship with GitLab product engineers and insights into GitLab's codebase and GitLab's own development and contributions processes.
 - Dedicated support for contributions made by their organizations through the Contributor Success team.
 
+## GitLab Benefits
+
+- Increased trust and ownership from participating customers
+- Improved customer empathy for the participating engineer. 
+- Continuous contributions to fuel our dual fly-wheel approach
+
+Please, note that the CoCreate program is not the next step to a promotion. It could (and should) still be added to a promotion document as a signal of strong orientation towards shipping results for customers.
+
 ## Getting Started
 
 GitLab has [a list of smaller issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=quick%20win&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=100) ready to work on. Identifying and resolving a common problem together while learning the process is the quickest way to get started.
@@ -40,12 +48,9 @@ Identify areas that are of high priority to the customer together with the Solut
 1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-create opportunities and enable technically the customer's engineers to contribute to GitLab.
 1. **Collaborative Development**: GitLab's engineering team will take the lead in pairing engineers with the customer's team to support the development effort.
 
-## SPIFF (Sales Performance Incentive Fund Formula)
+## Nominate an Issue for CoCreate
 
-### Q2
-
-- Target account list: Please see the spreadsheet linked in the Slack Channel of `#cocreate-initiative` or find the file in Drive named "Co-Creation SPIFF Target Account List (Data as of April 2024)".
-- Eligibility Criteria: Please see the slide linked in the Slack Channel of `#cocreate-initiative` or find the file in Drive named "FY25 Q2 Customer & Partner Co-Creation SPIFF".
+Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue. 
 
 ## Resources
 

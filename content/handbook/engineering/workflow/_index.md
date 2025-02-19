@@ -604,7 +604,7 @@ The milestone cleanup is currently applied to the [following groups and projects
 - [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa), [schedule](https://gitlab.com/gitlab-org/quality/triage-ops/pipeline_schedules/29050/edit)
 - [Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab), [schedule](https://gitlab.com/gitlab-org/quality/triage-ops/pipeline_schedules/31880/edit) (only moving milestone for now, not labelling)
 
-Milestones closure is in the remit of [the Delivery team](/handbook/engineering/infrastructure/team/delivery/). At any point in time a release might need to be created for an active milestone,and once that is no longer the case, the Delivery team closes the milestone.
+Milestones closure is in the remit of [the Delivery team](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/). At any point in time a release might need to be created for an active milestone,and once that is no longer the case, the Delivery team closes the milestone.
 
 ### Milestone cleanup schedule
 

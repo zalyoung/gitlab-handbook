@@ -74,10 +74,10 @@ Other Support Engineers are a great resource to help out with tickets. To get he
 
 You can also do one or more of the following:
 
-1. See if there is a [Support Pod]({{< ref "working-with-pods" >}}) that covers the area your ticket is in and ask one of the Pod members for help.
+1. See if there is a [Support Pod](/handbook/support/workflows/working-with-pods/) that covers the area your ticket is in and ask one of the Pod members for help.
 1. Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
    Support page to see who might have the skills to assist, or reach out
-   to the [Support Stable Counterpart]({{< ref "support-stable-counterparts" >}})
+   to the [Support Stable Counterpart](/handbook/support/support-stable-counterparts/)
    for the appropriate product area. Mention those
    people in the thread and in the ticket to let them know you think they can help.
 1. [Request help from the relevant GitLab Development Team](#how-to-formally-request-help-from-the-gitlab-development-team).
@@ -162,6 +162,19 @@ Use the following repositories and resources for identifying similar issues or r
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
 1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
+#### When Development Requires Additional Information
+
+Development engineers may apply the `RFH::Needs more info` label to your issue if additional details are needed. This label indicates that your issue requires clarification or additional information to proceed. When you see this label:
+
+1. Review any comments from the development team carefully.
+1. Provide all requested information in a new comment.
+1. Mention the relevant developer in your response.
+1. Ensure you've included a detailed description of the problem, the required logs, screenshots, or the required reproduction steps.
+
+Once you've provided the requested information, the development team will remove the RFH::Needs more info label and continue with the investigation.
+
+Please Note: Providing thorough and prompt responses when this label is applied helps ensure your issue can be investigated and resolved efficiently.
+
 #### Escalate to unblock a request
 
 If you encounter any problems, such as obtaining a timely response from Development, then please take one or more of the following steps:
@@ -196,3 +209,45 @@ Every problem is a little bit different. Sometimes it makes sense to try a diffe
 - Julia Evans' [comics](https://wizardzines.com/comics/), especially the ones about debugging
 - [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging)
 - [General Purpose Troubleshooting Principles](https://brie.dev/troubleshooting/)
+
+#### Request for Help Lifecycle diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> IssueOpened: Issue Created by Support
+    IssueOpened --> Active: Add Issue Opened Label
+    IssueOpened --> SupportTriage: Add Triage by Support label
+    
+    state SupportTriage {
+        SupportAuthor --> ExpertReview: Support author responds
+        ExpertReview --> SupportAuthor: Support expert responds
+    }
+    
+    SupportTriage --> Active: Needs Dev Team Input
+    
+    state Active {
+        SupportComment --> DevComment: Add Last comment from support team label
+        DevComment --> SupportComment: Add Last comment from dev team label
+        DevComment --> NeedsInfo: Add Needs more info label
+        NeedsInfo --> SupportComment: Support provides info
+    }
+    
+    Active --> PendingClosure: Inactive 14d
+    
+    state PendingClosure {
+        [*] --> Inactivity: Add Pending-Closure label
+        Inactivity --> AutoClose: After 7d
+    }
+    
+    PendingClosure --> Active: Remove Pending-Closure label
+    PendingClosure --> Closed: Add Issue-Closed label
+    Active --> Closed: Resolution found and/or Issue Closed
+    SupportTriage --> Closed: Resolution found
+    
+    state Closed {
+        SendReminders: 
+        SendReminders --> Resolved: Add Doc-Reminder label Add Resolution-Type label
+    }
+    
+    Closed --> [*]: RFH Lifecycle complete
+```

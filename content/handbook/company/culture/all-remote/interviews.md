@@ -229,4 +229,4 @@ GitLab team members interested in being interviewed should message [@dmurph](htt
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

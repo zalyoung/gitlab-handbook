@@ -1,15 +1,16 @@
 ---
 title: "Matt Nohr's README"
-description: "Personal readme page forMatt Nohr, Engineering Manager, Code Review, GitLab"
-job: "Engineering Manager, Code Review"
+description: "Personal readme page for Matt Nohr, Engineering Manager, Code Creation, GitLab"
+job: "Engineering Manager, Code Creation"
 ---
 
 ## Matt Nohr's README
 
-I'm a Backend Engineering Manager at GitLab for the [Code Review Backend](/handbook/engineering/development/dev/create/code-review/backend/) team.
+I'm an Engineering Manager at GitLab for the [Code Creation](/handbook/engineering/development/dev/create/code-creation/) team.
 
 I've previously worked on these teams at GitLab:
 
+- Create:Code Creation
 - Ecosystem
 - Create:Editor
 - Create:Knowledge
@@ -19,8 +20,6 @@ My Links:
 
 - [GitLab](https://gitlab.com/mnohr)
 - [LinkedIn](https://www.linkedin.com/in/matthewnohr/)
-
-This document is a living breathing thing and likely incomplete. I update it frequently and would appreciate your feedback.
 
 ### Work Style
 
@@ -68,8 +67,8 @@ There is also a [good book list in our handbook](/handbook/leadership/#books) if
 ### Personal
 
 - I enjoy spending as much time as possible with my wife and 3 kids.
-- I have a [dog](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/marketing/source/images/team/pets/chaco.jpg).
-- In the summer I like to run, hike, camp, and spend time on one of Minnesota's [10,000 lakes](https://en.wikipedia.org/wiki/List_of_lakes_of_Minnesota).
+- I have a dog named Chaco.
+- In the summer I like to be outside, hike, camp, and spend time on one of Minnesota's [10,000 lakes](https://en.wikipedia.org/wiki/List_of_lakes_of_Minnesota).
 - In the winter you can often find me on the ice [curling](https://www.youtube.com/watch?v=IOk9SVzqHsk).
 
 ---

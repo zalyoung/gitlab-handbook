@@ -119,7 +119,7 @@ All forms should follow these guidelines:
   - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
 - Generally `City` is only visible when `Country` = `Ukraine`
 - Forms should all contain a checkbox to obtain consent to `opting in` to communications via email
-- When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of the Ukraine
+- When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of Ukraine
 - Country should not include [embargoed countries](/handbook/legal/trade-compliance/)
 - All forms should have hidden fields for `gclid` and google analytics tracking
 
@@ -341,19 +341,17 @@ Please note that score decay also applies to scores frozen by the lead being in 
 
 ### Lead Score Classification
 
+A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect to convert to an SAO - with the score being modeled after the lead's current `demographic` and `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`.
+
 The Lead Classification Matrix and the Lead Classification Definitions Table [exist in Figma](https://www.figma.com/file/U4GBe693vvyyrXZnMGGjS7/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=PZBNGKUfGQo8Ocvn-1), if the handbook page ever becomes broken.
 
-To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and `Contact Detail` section of contacts.
-
-A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`.
-
-![Lead Classification Matrix](/images/marketing/marketing-operations/marketo/lead_classification_matrix.png)
+![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
 #### How to use the Lead Classification Matrix and read the Lead Classification
 
-The lead classification score --and its visual companion matrix-- is designed to appropriately rank how to approach a lead based on two primary criteria: the `demographic` and `behavior` scores. The `demographic fit` of a lead is associated with letters/columns `A`, `B`, `C` and `D`. The `behavior level` of a lead is associated with rows `1`, `2`, `3` and `4`. Both `A` and  `1` are the highest designations while `D` and `4` are the lowest. When looking at the matrix, the lowest classification is the bottom left, `D4`, and the highest classification is the top right, `A1`. Total, there are `16` lead classification scores and each of the `16` scores has a specific definition.
+The lead classification score --and its visual companion matrix-- is designed to help prioritize lead follow-up based on both profile fit and engagement levels. The `demographic fit` of a lead is associated with letters/columns `A`, `B`, `C` and `D`. The `behavior level` of a lead is associated with rows `1`, `2`, `3` and `4`. Both `A` and  `1` are the highest designations while `D` and `4` are the lowest. When looking at the matrix, the lowest classification is the bottom left, `D4`, and the highest classification is the top right, `A1`.
 
-In order to best utilize the lead score classification, read the definition provided on the matrix or via the definitions table below and act appropriately. For instance, a lead classified as `B2` or `A2` is more likely to produce a closed-won opportunity than a lead classified as `D2`. A `D2` lead can still lead to a closed-won opporunity due to interest being shown, but due to a low `demographic` fit it's less likely to be worth the time.
+In order to best utilize the lead score classification, read the definition provided on the matrix or via the definitions table below and act appropriately. For instance, a lead classified as `B2` or `A2` is more likely to produce a closed-won opportunity than a lead classified as `D2` because attributes within categories `A` and `B` fit the ideal buyer profile defined by GitLab. A `D2` lead can still lead to a closed-won opporunity due to interest being shown, but with a low `demographic` fit it's likely missing the ideal buyer attributes that often lead to higher conversion and opportunities. As pointed out in [the Lead Scoring educational slide deck](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g2b1545a7631_0_1), classification squares green in color signify the _range_ in which a person with ideal buyer persona attributes will `MQL`, with `A1` signifying a definitive `MQL`. 
 
 |  | D <br> (Demographic - Low) | C | B | A <br> (Demographic - High) |
 | ------ | ------ | ------ | ------ | ------ |
@@ -441,7 +439,7 @@ Recommended for email lists. `Person Region` uses the country of the lead/contac
 - INQ > MQL - `Status = MQL, Accepted or Qualifying` OR (`Status = Recycle` AND `Person Score > 74`)
 - MQL > SAO - `Status = Qualified` OR `1 Open Opportunity` OR `Has an Open Opportunity`
 - Customer - `Current Customer = TRUE` OR `Status = Web Portal Purchase` OR `Is Paid Tier = True`
-- Disqualified - Status is `Disqualified or Bad Data`
+- Disqualified - Status is `Disqualified` or `Ineligible`
 
 </details>
 

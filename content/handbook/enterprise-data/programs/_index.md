@@ -18,7 +18,7 @@ Recordings of previous demos are posted to the [GitLab Unfiltered Data Team play
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Data Onboarding
 
-If you are onboarding to GitLab and will be working in the Data Program as an Engineer, Analyst, or Developer, follow these steps:
+If you are onboarding to GitLab and will be working in the Data Program as an Engineer, Analyst or Developer, follow these steps:
 
 1. Open a new issue in [GitLab Data Analytics](https://gitlab.com/gitlab-data/analytics/-/issues) with the `Data Onboarding` template.
 1. Give the issue a descriptive name: `Your Name - Data Onboarding`

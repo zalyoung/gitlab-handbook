@@ -81,13 +81,9 @@ Please take time to understand any code that you are asked to copy and paste in 
 
    > **Security Warning:** You should never share your private key or paste it into any website form field. Only your public key should be shared.
 
-1. Display the contents of your public key by using the `cat id_rsa.pub` command as seen below.
+1. Display the contents of your public key by using the `cat id_rsa.pub` if you are using Linux, or `type id_rsa.pub` if you are using Windows.
 
-   ```bash
-   cat id_rsa.pub
-   ```
-
-   > If you used a different file name, you command will be `cat <filename>.pub`
+   > If you used a different file name, you command will be `cat <filename>.pub` if you are using Linux, or `type id_rsa.pub` if you are using Windows.
 
 1. Copy the content of the file displayed to your screen to your clipboard.
 
@@ -111,21 +107,15 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. In your terminal, run the following command to test your connection.
 
-   If your instance URL includes `gitlab-learn-labs/*` run:
-
-   ```bash
-   ssh -T git@gitlab.com
-   ```
-
-   If your instance URL includes `ilt.gitlabtraining.cloud` run:
-
    ```bash
    ssh -T git@ilt.gitlabtraining.cloud
    ```
 
-If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
+There are a few possible outcomes with this command:
 
-> If you receive an error stating the connection is refused or the command does not work, this may be becuase your network is blocking connections via SSH. If that is the case, continue onto the next task.
+- If you see a welcome message, you have succeeded in configuring your SSH key. Move on to the next task.
+- If you see an error like `git@ilt.gitlabtraining.cloud: Permission denied (publickey)`, you have configured your key incorrectly. You should ensure your SSH key is setup on your computer and added to your profile correctly. Make sure you have created a valid SSH key by running `ssh-keygen -t ed25519`.
+- If you see an error like `ssh: could not resolve hostname ilt.gitlabtraining.cloud`, then this is likely your network blocking the SSH connection. In this case, move on to the next task.
 
 ## Task D. Clone a GitLab project repository to your local computer
 
@@ -135,7 +125,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 1. In the left sidebar, click on **Code > Repository**.
 
-1. On the right side of the project repository, click the **Code** button. Copy the URL under **Clone with SSH** to your clipboard.
+1. On the right side of the project repository, click the **Code** button. Copy the URL under **Clone with SSH** to your clipboard. If your SSH connection is timed out, copy the URL under **Clone with HTTPS** to your clipboard.
 
 1. In your terminal or PowerShell window, create a new directory called `training` in your home directory, and navigate into it via the commands below.
 
@@ -151,13 +141,11 @@ If the command completes with a welcome message instead of an error, your SSH ke
    cd ~\training
    ```
 
-1. Run the `git clone` command, using the command you copied from **Clone with SSH**.
+1. Run the `git clone` command, using the command you copied earlier. If you copied the command from **Clone with HTTPS**, you will be required to enter in a username and password. Use the username and password you used to log into the lab environment. Make sure you choose the 'Pasword' option, and not the 'Token' option.
 
    ```bash
-   git clone <Clone with SSH Command>
+   git clone <Clone with SSH/HTTPS Command>
    ```
-
-> If you receive an error stating that the connection has timed out or has been refused, it may be because your network blocks connections on port 22 due to a firewall. If this happens, repeat the steps in Task D, but use the **Clone with HTTPS** selection in the **Code** button instead.
 
 1. Move into the repository you just cloned via the `cd` command. All files in this directory will be tracked by Git, and any Git commands you run in this lab should be run from this directory.
 
@@ -211,7 +199,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 ## Task F. Edit a file
 
-1. Using any text editor (Visual Studio Code, Sublime Text, notepad, vi, etc.), add this line to the end of `README.md` and save the file.
+1. Using any text editor (Visual Studio Code, Sublime Text, notepad, vim, nano, etc.), add this line to the end of `README.md` and save the file.
 
    ```text
    a line added to temporary_branch locally

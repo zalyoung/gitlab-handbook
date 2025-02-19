@@ -45,7 +45,7 @@ For illustration, we can see a saturation forecast plot below for the `disk_spac
 Within the 90 days forecast horizon, we predict a violation of the `soft` SLO (set at 85% saturation) and this resulted in the creation of a [capacity planning issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/1219) for further review and potential actions.
 At present, the Scalability::Observability group reviews those issues and engages with the respective DRI for the service in question to remedy a saturation concern.
 
-<img src="images/image-20230911144743188.png" alt="image-20230911144743188" style="zoom:67%;" />
+<img src="/images/engineering/architecture/design-documents/capacity_planning/image-20230911144743188.png" alt="image-20230911144743188" style="zoom:67%;" />
 
 For GitLab.com capacity planning, we operate Tamland from a scheduled CI pipeline with access to the central Thanos, which provides saturation and utilization metrics for GitLab.com.
 The CI pipeline produces the desired report, exposes it on GitLab Pages and also creates capacity planning issues.

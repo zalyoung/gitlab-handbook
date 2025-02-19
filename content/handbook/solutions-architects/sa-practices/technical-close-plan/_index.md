@@ -19,7 +19,7 @@ A Technical Close Plan is most useful as an opportunity is approaching a technic
 
 ### Which Opportunities Should Have a Technical Close Plan?
 
-1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
+1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/sfdc-logging)
 1. Opportunities over $300k net ARR
 1. First Order opportunities for accounts with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M
 

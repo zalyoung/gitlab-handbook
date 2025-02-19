@@ -10,7 +10,7 @@ This is required to satisfy PubSec/FedRamp requirements and
 to handle JiHu's merge request contributions to GitLab Inc repositories.
 
 This process involves ensuring that each JiHu contribution included in the release has been
-[reviewed and approved by an Application Security team member]({{< ref "jihu-contribution-process" >}})
+[reviewed and approved by an Application Security team member](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-contribution-process/)
 and posting a comment on the [relevant release task issue](https://gitlab.com/gitlab-org/release/tasks/issues)
 that no new vulnerabilities have been identified in the code being released.
 

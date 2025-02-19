@@ -20,7 +20,7 @@ This table captures all of the links for different policies that are documented 
 | --------------- | ----- | ----- |
 | [Global Travel and Expense Policy](/handbook/finance/expenses/) | CFO | Policy and procedures by which reimbursable expenses are reimbursed |
 | [Procurement Process (PO)](/handbook/finance/procurement/) | VP Finance | Process to engage the procurement team |
-| [Spending Company Money]({{< ref "spending-company-money" >}}) | CFO | Our policy on spending Company money; Links to resources |
+| [Spending Company Money](/handbook/finance/spending-company-money/) | CFO | Our policy on spending Company money; Links to resources |
 | [GitLab Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy) | CPO, CLO | Requirements related to the use of GitLab computing resources and data assets by GitLab team members |
 | [Growth and Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/) | CPO | Access external resources to develop their career |
 | [Navan Physical Card Policy](/handbook/finance/accounts-payable/corp-credit-cards/) | CFO | Guidelines for acceptable use of physical corporate cards |

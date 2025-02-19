@@ -6,7 +6,7 @@ description: How to send notices out to GitLab.com users and customers to inform
 
 ## Overview of the process
 
-At times the [Support team will be asked to send notices]({{< ref "internal-support#gitlab-changes-and-contacting-users" >}}) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
+At times the [Support team will be asked to send notices](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
 
 This workflow describes how to fulfill different types of contact requests and the helpful tools you can use in the process.
 
@@ -44,11 +44,11 @@ Some examples:
 
 Most notices should be sent in the form of Zendesk tickets. Always send these tickets to users with `Owner` level permissions in the namespace or project in question.
 
-Most contact requests will involve contacting all of the owners of only one project or only a few specific users. If you're tasked with contacting the owners of a project and know that there's only one, feel free to look up their email address using your admin account or [ChatOps]({{< ref "chatops#user" >}}).
+Most contact requests will involve contacting all of the owners of only one project or only a few specific users. If you're tasked with contacting the owners of a project and know that there's only one, feel free to look up their email address using your admin account or [ChatOps](/handbook/support/workflows/chatops/#user).
 
 However, some contact requests may involve contacting all of the owners of multiple projects. Support Engineers should direct requests for reaching out to multiple owners across multiple projects to do [Mass Emails through Marketing Department](#mass-emails-through-marketing-department)
 
-Make sure to [add an admin note]({{< ref "admin_note" >}}) on a user/group we took action on. This will ensure that we can track a block/change reason if a user reaches out to us using a different channel.
+Make sure to [add an admin note](/handbook/support/workflows/admin_note/) on a user/group we took action on. This will ensure that we can track a block/change reason if a user reaches out to us using a different channel.
 
 ### Manually create a Zendesk ticket
 

@@ -76,8 +76,8 @@ These are the workflow labels we work with:
 We use priority labels to help with understanding the order in which issues should be worked on:
 
 1. **DuoWF-Prio::1**: These items are the primary deliverables of an iteration and should therefore be picked up first.
-1. **DuoWF-Prio::2**: Ideally, all of these items are deliverd throughout the iteration as well.
-1. **DuoWF-Prio::3**: These are likely follow-up issues that might depend on Prio 1 or 2 work or other kinds of issues that are not yet time-sensitive.
+1. **DuoWF-Prio::2**: We aim to deliver all of these items, but as part of planning ambitiously some of them might slip.
+1. **DuoWF-Prio::3**: These are likely follow-up issues that might depend on Prio 1 or 2 work or the are generally not yet time-sensitive.
 
 ## 👏 Communication
 
@@ -88,9 +88,36 @@ The Duo Workflow Team communicates based on the following guidelines:
 1. By default communicate in the open.
 1. All work-related communication in Slack happens in the `#g_duo_workflow` channel.
 
+## Sentry Error Triage
+
+New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts_channel]. We set up a triage process in order to stay on top of these errors.
+Every week a different backend engineer of the team is responsible for triaging new messages in this channel.
+The schedule for triage shifts can be found in the [iteration issues](https://gitlab.com/groups/gitlab-org/-/epics/16048).
+While on shift the engineer should:
+
+1. Look at the channel at least once per day.
+1. For any incoming message for a sentry error try to find out:
+   1. Is the error related to an existing issue?
+   1. Depending on that either:
+      1. Create a new issue.
+         1. Tag the EM in the issue.
+         1. If it turns out to be a [severity 1 issue](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), then announce it in Slack, to coordinate work on it.
+      1. Link the error in an existing issue.
+      1. continue to observe the error the next days if it only occured once.
+1. Apply the ✅ as a reaction to the error once it's been triaged.
+
+### Triage Schedule
+
+| Week                    | Engineer                |
+| ----------------------- | –---------------------- |
+| 2025/02/10 - 2025/02/16 | @ssuman3                |
+| 2025/02/17 - 2025/02/23 | @jfypk                  |
+| 2025/02/24 - 2025/03/02 | @halilcoban             |
+| 2025/03/02 - 2025/03/08 | @mikolaj_wawrzyniak     |
+
 ### ⏲ Time Off
 
-Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, so that the Engineering Manager is aware of PTO and can plan accordingly.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, in accordance with the [taking time off](/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
 
 ### 🤙 Ad-hoc sync calls
 

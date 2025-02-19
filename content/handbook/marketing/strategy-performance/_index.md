@@ -23,6 +23,7 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 - [Djordje Micovic, Staff Data Analyst](/handbook/company/team/#dmicovic)
 - [Dennis Charukulvanich, Senior Data Analyst](/handbook/company/team/#dennischarukulvanich)
 - [Ankit Kanwar, Senior Data Analyst](/handbook/company/team/#akanwar)
+- [Luke Salmas, Senior Data Analyst](/handbook/company/team/#lsalmas)
 
 ## <i id="biz-tech-icons" class="far fa-paper-plane"></i>How to Communicate with Us
 

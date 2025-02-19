@@ -42,7 +42,7 @@ It *is* possible to [find remote-first companies](jobs/#remote-first-companies) 
 
 ### No company-owned offices
 
-The company [does not have an office occupied by their employees]({{< ref "remote-benefits#for-your-organization" >}}) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
+The company [does not have an office occupied by their employees](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-organizations) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
 
 ### A more inclusive work environment
 
@@ -87,7 +87,7 @@ It's important to recognize that all-remote is *not* a synonym for outsourcing o
 
 GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](/handbook/company/culture/summit/)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/finance/spending-company-money/#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/) events, and other opportunities such as conferences and trade shows.
 
-GitLab also gathers its [e-group]({{< ref "structure#e-group" >}}) for a [quarterly four-day offsite]({{< ref "offsite" >}}). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
+GitLab also gathers its [e-group](/handbook/company/structure/#e-group) for a [quarterly four-day offsite](/handbook/company/offsite/). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
 
 There is a marked difference between being intentional and selective about in-person interactions, and forcing a team to endure a daily commute.
 
@@ -140,8 +140,8 @@ For added context, consider reading GitLab's guide on the [various stages of rem
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

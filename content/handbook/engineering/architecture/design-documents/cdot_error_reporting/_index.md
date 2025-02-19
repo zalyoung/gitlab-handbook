@@ -68,6 +68,7 @@ erDiagram
     string error_type, limit: 1000
     string status "null:false"
     string gitlab_issue_iid
+    string detailed_gitlab_issue_iid
     text backtrace
     jsonb payload
     text notes

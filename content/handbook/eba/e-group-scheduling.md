@@ -48,7 +48,7 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - Keep meetings to 25 or 50 minutes unless otherwise specified
 - Working blocks on the calendar are OK and can be moved to prioritize other meeting requests, team members should check in with the CLO's Staff EBA to request a meeting using the meeting request requirements as a guideline
 
-## Scheduling for Wendy Barnes, Chief People Officer
+## Scheduling for Rob Allen, Chief People Officer
 
 - Please schedule all meetings through the People Function's EBA, Annette Ramirez
 - All meeting requests should include an agenda or doc for reference unless it is a Coffee Chat

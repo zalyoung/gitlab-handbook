@@ -27,7 +27,7 @@ relation to the upgrades available.
 
 | Up to date | Update available | Update ASAP |
 | ------ | ------ | ------ |
-| <img src="images/up-to-date-badge.png" width="300px" alt="" /> | <img src="images/update-available-badge.png" width="300px" alt="" /> | <img src="images/update-asap-badge.png" width="300px" alt="" /> |
+| <img src="/images/sales/process/version-check/up-to-date-badge.png" width="300px" alt="" /> | <img src="/images/sales/process/version-check/update-available-badge.png" width="300px" alt="" /> | <img src="/images/sales/process/version-check/update-asap-badge.png" width="300px" alt="" /> |
 
 **UI Location(s)**
 
@@ -59,7 +59,7 @@ hidden and set to reappear in 3 days.
 
 | No Stable Versions or Details | Stable Versions but no Details | Both Stable Versions and Details |
 | ------ | ------ | ------ |
-| ![No Stable Versions](images/critical-security-modal-no-stable-versions.png) | ![Stable Versions](images/critical-security-modal-stable-versions.png) | ![Stable Versions and Details](images/critical-security-modal-stable-versions-description.png) |
+| ![No Stable Versions](/images/sales/process/version-check/critical-security-modal-no-stable-versions.png) | ![Stable Versions](/images/sales/process/version-check/critical-security-modal-stable-versions.png) | ![Stable Versions and Details](/images/sales/process/version-check/critical-security-modal-stable-versions-description.png) |
 
 **UI Location(s)**
 

@@ -460,7 +460,7 @@ Support will take the lead on all incoming requests in the queue and only forwar
 - [Detailed Exit Stage Criteria Google Sheet](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321)
 - [Exit Criteria at a Glance](https://gitlab.highspot.com/items/6245c14f198094aabf1cfe52?lfrm=srp.0)
 
-![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
+![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 - Please read through the [Commercial Sales Opportunity Stages handbook page](/handbook/sales/commercial/comm-sales-opp-stages/) for more information.
 

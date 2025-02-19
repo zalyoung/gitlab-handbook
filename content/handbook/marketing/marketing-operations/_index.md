@@ -7,7 +7,7 @@ description: "Marketing Operations (MktgOps) supports the entire Marketing team 
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Charter
 
-Marketing Operations (MktgOps) supports the marketing organization to streamline processes and manage related tools. We work closely with multiple teams to ensure information between systems is seamless, data is as accurate as possible, and terminology is consistent in respective systems. Our team's primary functions are:
+Marketing Operations supports the marketing organization to streamline processes and manage related tools. We work closely with multiple teams to ensure information between systems is seamless, data is as accurate as possible, and terminology is consistent in respective systems. Our team's primary functions are:
 
 - Project management of marketing technology stack
 - Streamline and standardize processes related to tools
@@ -35,7 +35,7 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
 
 ## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help {#how-to-get-help}
 
-**Important**: Before submitting an issue that may contain [Personally Identifable Information (PII) data](/handbook/support/workflows/pii_removal_requests/#overview) (including screenshots), please ensure the issue is marked confidential. You can use [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics) to accomplish this in the issue description priort to submitting.
+**Important**: Before submitting an issue that may contain [Personally Identifable Information (PII) data](/handbook/support/workflows/pii_removal_requests/#overview) (including screenshots), please ensure the issue is marked confidential. You can use [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics) to accomplish this in the issue description prior to submitting.
 
 <div class="flex-row" markdown="0">
   <div>
@@ -108,7 +108,7 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 The MktgOps team works from issues and issue boards. If you are needing our assistance with any project, please open an issue or for small checks and questions, use the `~MktgOps::00: Triage` label anywhere within the GitLab repo.
 
- If you have a bug, error or discrepancy you'd like the team to help and investigate, please use the [bug-request template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=bug_request).
+If you have a bug, error or discrepancy you'd like the team to help and investigate, please use the [bug-request template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=bug_request).
 
 Please do not reopen issues that have been closed in a previous milestone. If you find that you have additional questions about a closed issue, comment in the issue and ping the marketing ops DRI who worked the issue. The DRI within our team will determine whether an issue needs to be reopened and pulled into a current milestone.
 
@@ -133,7 +133,7 @@ Categories
 
 - `MktgOps - FYI`: Issue is not directly related to operations, no action items for MktgOps but need to be aware of the issue
 - `MktgOps - List Import`: Used for list imports of any kind - event or general/ad hoc (do not also use To Be Triaged scoped label)
-- `Marketo`, `Bizible`, `6sensee`, `Qualified`, `LinkedIn Sales Navigator`, `Outreach-io`, `PathFactory`, `ZoomInfo`, `On24`, `Groove`: used to highlight one of our tech stack tools
+- `Marketo`, `Bizible`, `6sensee`, `Qualified`, `LinkedIn Sales Navigator`, `PathFactory`, `ZoomInfo`, `On24`, `Groove`: used to highlight one of our tech stack tools
 - `MktgOps - bug`: A bug issue to be addressed or identified by MktgOps
 - `MktgOps - changelog`: Used to track issues or epics that would need to be logged in the marketing changelog to track major changes across marketing
 - `SMOps/Systems - Changelog`: Used to track changelog issues that will impact Sales Operations or Systems
@@ -256,7 +256,7 @@ Periodically Marketing Operations and other teams through the marketing org make
 - To use [labels](/handbook/marketing/marketing-operations/#labeling) to denote where the issue is
 - To use [Milestones](/handbook/marketing/marketing-operations/#milestones) to denote when the work will be done
 - To provide solution options for the problem statement with clear outline of timeline/ potential blockers.
-- To verify possibility of the suggested solution(if there is one).
+- To verify possibility of the suggested solution (if there is one).
 
 #### Bi-weekly Meeting
 
@@ -427,7 +427,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Quantum Metric](/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
 - [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
 - [SheerID](/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
-- [Sprout Social + Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
+- [Sprout Social + EveryOne Social](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
 - [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 - [Typeform](/handbook/marketing/marketing-operations/typeform/)
@@ -544,7 +544,7 @@ A Marketing Qualified Lead (MQL) is a lead that has reached a certain threshold,
 
 ### What are MQL SLAs?
 
-SLA (or Service Level Agreement) is the agreed upon amount of time that a lead which has MQL’d and routed to a Sales Development Representative will be actioned. Right now, the SLA time has been set to 2 business hours. More information on how the SLA reporting functionality works can be found [here](/handbook/marketing/marketing-operations/mql-sla.md).
+SLA (or Service Level Agreement) is the agreed upon amount of time that a lead which has MQL’d and routed to a Sales Development Representative will be actioned. Right now, the SLA time has been set to 2 business hours. More information on how the SLA reporting functionality works can be found [here](/handbook/marketing/marketing-operations/mql-sla).
 
 ## Campaigns and Programs
 
