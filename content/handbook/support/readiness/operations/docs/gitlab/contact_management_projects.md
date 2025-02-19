@@ -61,7 +61,7 @@ you for a comma-separated list of emails to use for the project's developers.
 After submission, a combination of the app and the ticket processor will handle
 the rest.
 
-# NOTE
+## NOTE
 
 This section below is being kept for historical purposes. Please use the Zendesk
 app for the setup/creation of contact management projects.
