@@ -325,8 +325,9 @@ Once a lead is recalled, it will be reassigned to GitLab Inc. for internal follo
 The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access to our solutions at no cost. The NFR Program provides Partners with an opportunity to develop greater expertise on the GitLab platform. We encourage all GitLab Partners to participate in the program and set up GitLab solutions. Consider using your environment to create integrations with GitLab Technology Solution Partners. This way your staff can fully understand the benefits and features of GitLab products and be better prepared to demonstrate products to customers.
 
 Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR Ultimate license for a 12-month period.
-  - Select Partners can request a license for up to 25 users per license type. Additional licenses may be available with business justification.
-  - Open Partners can request a maximum of 10 NFR licenses per license type (i.e. a total of 20 NFR licenses - 10 Self-Managed and 10 SaaS).
+  - Select Partners can request a license for up to 25 Ultimate users per license type. Additional licenses may be available with business justification.
+  - Select and PSP Partners can request a license for 5 Duo Enterprise users.
+  - Open Partners can request a maximum of 10 Ultimate NFR licenses per license type (i.e. a total of 20 NFR licenses - 10 Self-Managed and 10 SaaS).
 
 ##### Requesting a GitLab NFR (Not-for-Resale) License
 
@@ -336,7 +337,7 @@ Authorized GitLab Partners can request NFR licenses by filling out the NFR Licen
 
 To be eligible for the NFR Program, Partners must:
 
-- Be Open or Select Partners in good standing
+- Be Open or Select Partners in good standing. Open and Select Requirements can be found [here](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
 - Have at least one employee that has successfully completed the Solution Architect certification or Professional Services Engineer certification training, lab, and exam (with a passing score).
 
 ##### NFR Program Terms and Conditions
