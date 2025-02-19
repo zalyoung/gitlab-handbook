@@ -327,6 +327,7 @@ variations, please refer to the [README file](https://gitlab.com/gitlab-com/supp
 | [#support_team-chat](https://gitlab.slack.com/archives/CCBJYEWAW) | Support team lounge for banter, chat and status updates |
 | [#support_gitlab-com](https://gitlab.slack.com/archives/C4XFU81LG) | Discuss GitLab.com tickets and customer issues |
 | [#support_self-managed](https://gitlab.slack.com/archives/C4Y5DRKLK) | Discuss self-managed tickets and customer issues |
+| [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) | Discuss GitLab Dedicated tickets and customer issues |
 | [#support_licensing-subscription](https://gitlab.slack.com/archives/C018C623KBJ) | Discuss Licensing & Renewals tickets and customer issues |
 | [#support_ticket-attention-requests](https://gitlab.slack.com/archives/CBVAE1L48) | Discuss escalated tickets with the Support Manager On-Call |
 | [#support_operations](https://gitlab.slack.com/archives/C018ZGZAMPD) | Discuss operational items related to how Support works |
