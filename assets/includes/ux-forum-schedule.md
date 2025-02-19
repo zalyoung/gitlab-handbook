@@ -3,8 +3,6 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Libor Vanc             |                        |
-| 2025-02-19 | Paul Wright          |                        | Ilonah Pelaez          |                        |
 | 2025-03-05 | Marcel van Remmerden | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
 | 2025-03-19 | Rayana Verissimo     | Austin Regnery         | Julia Miocene          |                        |
 | 2025-04-02 | Taurie Davis         | Gina Doyle             | Nick Leonard           | Mark Unthank           |
