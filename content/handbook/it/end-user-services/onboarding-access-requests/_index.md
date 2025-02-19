@@ -69,7 +69,7 @@ Since these items are company property, you do not need to buy insurance for the
 
 ### Laptop Repair
 
-**Any loss or damange must be reported to IT as soon as it occurs.**
+**Any loss or damage must be reported to IT as soon as it occurs.**
 
 If your laptop has been damaged, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document what is broken. GitLab IT will be able to assess the damage and provide guidance on the most beneficial repair option.
 
