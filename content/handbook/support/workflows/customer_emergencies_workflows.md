@@ -290,6 +290,7 @@ When the call has ended:
 1. Review the guidance in the general [On-call - Ending your on-call shift](/handbook/support/on-call/index#ending-your-on-call-shift) section and follow the relevant steps.
 
 Remember that as the DRI, you maintain ownership of the ticket until one of these conditions is met:
+
 - The emergency is resolved and the ticket is closed
 - The customer confirms they no longer need emergency assistance
 - You've properly handed off DRI responsibility to another engineer during your shift change
