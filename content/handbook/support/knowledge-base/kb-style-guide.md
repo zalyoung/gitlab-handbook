@@ -35,7 +35,7 @@ The H1 header becomes the document title in Zendesk. For example:
 # This is the page title
 ```
 
-When creating a new KB article from a template, the title must be changed to properly integrate with the Zendesk.
+When creating a new KB article from a template, the title must be changed to properly publish the article in Zendesk.
 
 A good title briefly describes the content of the article while remaining concise. Only capitalize the first word and proper nouns, and refer to [capitalization](https://docs.gitlab.com/development/documentation/styleguide/#capitalization) in the Documentation Style Guide when in doubt. You can include error snippets if relevant, but keep title length in mind.
 
@@ -58,7 +58,7 @@ This section describes the symptoms, task, or situation that would need a soluti
 - Write for the issue encountered, not theoretical situations. Add unconfirmed situations as an additional note if necessary.
 - Entries should be listed in order of significance from top to bottom.
 - Include as much relevant context as possible. Every small symptom is an extra data point to help the customer self-diagnose.
-- Include the exact error or message a user would encounter as text in the description. Avoid images of error messages.
+- Include the exact error or message a user would encounter as text in the description to aid with searchability. Avoid images of error messages.
 - Error messages should be put in block quotes.
 - Use an unordered list for multiple items.
 
