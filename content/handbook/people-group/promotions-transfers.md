@@ -595,13 +595,12 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 
 Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for leaders to leverage to review organizational health metrics and ratios. This field is limited to only those in Product, Sales, and Engineering divisions.
 
-**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) case for the People Connect team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
+**If any changes are required to a team members Job Title Speciality, Managers have the ability to maintain and update their team members job title specialities via manager self-service in Workday. Please submit a request with the necessary changes using this [job aid](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit?tab=t.0) for reference.
+For bulk changes (10+) of specialities that require updating, or if a new job title speciality needs to be created, submit a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) request with the necessary changes. It is an important manager responsibility to ensure this field remains accurate in Workday.**
 
-### Job Title Specialty Guidance For Managers
+### Job Title Specialty Monthly Review
 
-Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
-
-Managers will receive a Workday delivered report monthly report to audit and ensure specialties are accurate, if the team member is in one the below departments: 
+If the team member is in one the below departments, Managers will receive a monthly notification via Workday with instructions on how to proactively confirm that the current specialities remain accurate: 
 CI/CD Core Platforms & SaaS Delivery
 Core Development
 Core Infrastructure
@@ -610,11 +609,16 @@ Expansion
 Internal Infrastructure
 Monetization
 Sec & Data Science
+
 To run a report for what current job title specialties are for your team ad-hoc, you can follow these steps:
 
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
 - Click "OK" for your organization
+
+## Job Title Specialty Guidance For Managers
+
+Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
 
 #### For Development, Infrastructure, and Quality departments
 
