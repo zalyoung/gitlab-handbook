@@ -593,21 +593,34 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 
 ## Job Title Specialty Changes
 
-Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for the People Group and leaders to leverage to review organizational health metrics and ratios.
+Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for leaders to leverage to review organizational health metrics and ratios. This field is limited to only those in Product, Sales, and Engineering divisions.
 
-**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) case for the People Connect team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
+**If any changes are required to a team members Job Title Speciality, Managers have the ability to maintain and update their team members job title specialities via manager self-service in Workday. Please submit a request with the necessary changes using this [job aid](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit?tab=t.0) for reference.
+For bulk changes (10+) of specialities that require updating, or if a new job title speciality needs to be created, submit a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) request with the necessary changes. It is an important manager responsibility to ensure this field remains accurate in Workday.**
 
-### Job Title Specialty Guidance For Managers
+### Job Title Specialty Monthly Review
 
-Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
+If the team member is in one the below departments, Managers will receive a monthly notification via Workday with instructions on how to proactively confirm that the current specialities remain accurate: 
+CI/CD Core Platforms & SaaS Delivery
+Core Development
+Core Infrastructure
+Dev & Analytics
+Sec & Monetization
+Internal Infrastructure
+Monetization
+Sec & Data Science
 
-To easily access a report for what current job title specialties are for your team, you can follow these steps:
+To run a report for what current job title specialties are for your team ad-hoc, you can follow these steps:
 
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
-- Click "OK" for your organization
+- Click enter your organization and click Ok
 
-#### For Development, Infrastructure, and Quality departments
+## Job Title Specialty Guidance For Managers
+
+Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
+
+### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
   - ICs: Job grade 11 and below should have Stage and/or primary group (if applicable)
@@ -621,7 +634,7 @@ To easily access a report for what current job title specialties are for your te
     - Note: In situations where there are two groups, pick the primary group.
   - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
 
-#### For Customer Support department
+### For Customer Support department
 
 - Who should have a specialty:
   - ICs: Job Grade 9 and below to indicate the focus of the role being Global, Federal or Readiness (if applicable)
@@ -644,23 +657,7 @@ Job information changes are used to update any information on the team member's 
 
 Note for Sales Managers: If team members are not moved under the correct sales manager in Workday, credits will not be rolled-up to the correct manager for sales commissions. See additional promotion and transfer considerations for commissionable roles [here](/handbook/people-group/promotions-transfers/#promotions-and-transfers-of-employees-in-commissionable-roles).
 
-### For People Connect: Processing Manager changes
 
-1. The People Connect Specialist logs into Workday via Okta to approve the transfer in Workday > click on Inbox in top right corner
-1. Review the business process titled 'Transfer' and reason 'Manager to Another Manager' > click: approve
-
-**Process for EBA to update senior leadership:**
-
-1. Create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1) for the People Connect team requesting the changes to be made in Workday and provide an effective date.
-1. The People Connect Team will process the changes in Workday.
-1. Once complete, the team will follow-up with the EBA to let them know all changes have been made.
-1. The EBA will then need to make the changes on the Team Page.
-
-### For People Connect: Processing Job Information Change Requests
-
-1. Audit all job change requests and ensure the changes are captured in the Payroll tracker.
-1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) to have a team members `Speciality` updated in Workday.
-    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: [https://handbook.gitlab.com/handbook/engineering/development/enablement/data_stores/search/](/handbook/engineering/development/enablement/data_stores/search/)) or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments)
 
 ## Department Transfers
 
@@ -686,10 +683,10 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 #### Different Job Family
 
 - If you are interested in transferring, simply submit an application for the new position. If you are not sure the new role is a good fit, schedule time with the hiring manager to learn more about the role and the skills needed. If after that conversation you are interested in pursuing the internal opportunity, it is recommended that you inform your current manager of your intent to apply for the role. While you do not need their permission to apply, we encourage you to be transparent with them. Most will appreciate that transparency since it's generally better than learning about your move from someone reaching out to them as a reference check. You can also use this as an opportunity to discuss the feedback that would be given to the potential new manager regarding your performance from your current and/or past managers.
-- Transfers must go through the application process for the new position by applying on the [jobs page](https://gitlab.greenhouse.io/internal_job_board). The team member may go through the entire interview process outlined on the vacancy description. Common exceptions to the standard interview process are behavioral or "values alignment" stages. The Recruiter will document the reason behind alterations to the standard interview plan in the team member's Greenhouse profile.  If you have any questions about the role or the process, please reach out to your Department or Division's [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) and/or please visit our [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/) handbook page. In all cases, the applicable People Business Partner should be informed via email, before a transfer is confirmed.
+- Transfers must go through the application process for the new position by applying on the [jobs page](https://gitlab.greenhouse.io/internal_job_board). The team member may go through the entire interview process outlined on the vacancy description. Common exceptions to the standard interview process are behavioral or "values alignment" stages. The Recruiter will document the reason behind alterations to the standard interview plan in the team member's Greenhouse profile.  If you have any questions about the role or the process, please reach out to your Department or Division's [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) and/or please visit our [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/) handbook page. In all cases, the applicable People Business Partner should be informed via email, before a transfer is confirmed.
 - In the case of transfers, it is expected and required that the gaining manager will check with internal references at GitLab limited to the previous and current managers; please do not conduct internal reference checks with peers or direct reports. For questions or exceptions, please engage your recruiter and people business partner.
 - It is recommended (but not required) that the applicant, current manager, or gaining manager create a private Slack channel to help coordinate the transfer. Invite anyone who will be involved such as the relevant managers, directors, people business partners, finance business partners, and recruiters.
-- If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan) for the backfill and open the role in Greenhouse.
+- If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/hiring/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan) for the backfill and open the role in Greenhouse.
 - Before the offer is made the recruiter will confirm with the team member and the gaining manager that they have indeed reached out to the current manager. They will discuss the new opportunity and that an offer will be made to the team member.
 - Talent Acquisition team will ensure that, if applicable, the position has been posted for at least three business days before an offer is made.
 - [Compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
@@ -733,7 +730,7 @@ All transfers should eventually be initiated by team members.
 
 ### When promotion is a consideration - Within Same Job Family
 
-If a team member sees a vacancy posted that is the next level up within their [job family](/handbook/hiring/job-families/#job-families) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
+If a team member sees a vacancy posted that is the next level up within their [job family](/handbook.gitlab.com/job-families/) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
 
 It is the manager's responsibility to be honest with the team member about their performance as it relates to their promotion readiness. If the manager agrees that the team member is ready, then they will follow the cyclical promotion calibration process. If they do not think the team member is ready for the promotion, they should walk through their career development document, as well as work on a promotion plan with the team member. The manager should be clear that the team member is not ready for the promotion at this time and what they need to work on. If the team member would still like to submit an application for the role after the conversation with their manager, they can apply and go through the same interview process as external candidates. The recruiter will confirm with the manager that the promotion readiness conversation has taken place before the internal interview process starts.
 
@@ -817,10 +814,6 @@ Actions by both the current and new managers are required to set the team member
 - Reminding the team member to update their title on the team page, on their GitLab profile, in Zoom, in Slack and on professional networks like LinkedIn. If relevant, remind them to order new business cards as well.
 - If we are in the middle of Annual Compensation Review, it is encouraged that the current manager and new manager arrange a successful handover of the feedback, whether sync or async.
 - All migration tasks by the applicable team members need to be completed within 2 weeks of the migration start date.
-
-## Career Mobility Retrospective
-
-The team member going through this transition and assigned to their Career Mobility issue have a set of tasks to complete. An important one is to create a retrospective thread within their Career Mobility issue, so that they and their respective previous and current managers can discuss any questions, comments, and proposals. Retrospectives are used in many ways at GitLab, such as which are used after GitLab product [releases](/handbook/communication/#release-retrospectives-and-kickoffs) and describing the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Career Mobility issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Please feel free to ping your assigned People Connect Team member in your issue if you have any questions.
 
 ## Promotions and Transfers of Employees in Commissionable Roles
 
