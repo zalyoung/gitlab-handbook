@@ -65,7 +65,7 @@ Merge Request (MR) Rate is a measure of productivity and efficiency. The numerat
 
 You can use [this MR Rate troubleshooting dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MergeRequestRates) to check the number of team members that are counted each month. If the monthly team member count is less than expected, refer to the table to see which team member is missing.
 
-To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#for-people-connect-processing-job-information-change-requests) and [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes).
+To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes)
 
 #### What It Means
 
