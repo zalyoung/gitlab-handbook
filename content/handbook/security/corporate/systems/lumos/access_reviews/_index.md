@@ -8,7 +8,7 @@ Lumos is our access review platform. If you are a DRI for an app, technical owne
 
 ## Access Review Walkthrough
 
-When a review is assigned to you, you will receive a notification via Slack or Email.
+When a review is assigned to you, you will receive a notification through Slack or Email.
 
 1. Go to your [access reviews](https://app.lumosidentity.com/access_reviews) in Lumos
 
