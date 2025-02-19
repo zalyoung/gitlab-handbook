@@ -111,7 +111,7 @@ When an engineer is required to hand over a ticket, either to another region or 
 
 {{% alert title="Note" color="primary" %}}
 
-Use the [OOO Ticket Management](handbook/support/workflows/ooo-ticket-management) if 3 or more days of PTO planned.
+Use the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management) if 3 or more days of PTO planned.
 
 {{% /alert %}}
 
