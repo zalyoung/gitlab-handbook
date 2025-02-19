@@ -40,9 +40,10 @@ If all of the steps above have been completed and we're able to move forward, pl
 
 ### What to know and action as the hiring manager
 
-1.  If more than one current contractor is interviewing for a full-time role, the hiring manager will be making a decision based on overall skills and experience for the role. If the budget allows, the contractor not selected for the full-time role can continue in their role under their current contract.
-2.  If a current contractor is interviewing for a role that is also open externally, the hiring manager will ultimately hire the strongest candidate for the role.If the budget allows, the current contractor can continue in their current contract role if not selected for the full-time opportunity.
-3.  There may be situations where a contractor from one team is interviewing for a full-time role on another GitLab team.
+1. If more than one current contractor is interviewing for a full-time role, the hiring manager will be making a decision based on overall skills and experience for the role. If the budget allows, the contractor not selected for the full-time role can continue in their role under their current contract.
+2. If a current contractor is interviewing for a role that is also open externally, the hiring manager will ultimately hire the strongest candidate for the role.If the budget allows, the current contractor can continue in their current contract role if not selected for the full-time opportunity.
+3. There may be situations where a contractor from one team is interviewing for a full-time role on another GitLab team.
+
    - In this case, the hiring manager of the new full-time position will connect with the contractor's current manager to ensure they're supportive
    - The contractor's current manager can share more details about their contract timeline, etc. The current manager may need to reach out to Procurement to obtain and confirm contract details.
       - As a contractor, please always ensure your current manager is supportive of you interviewing for open roles at GitLab before applying
