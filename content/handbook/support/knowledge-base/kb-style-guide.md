@@ -109,6 +109,7 @@ The solution section clearly lists the steps a user must follow to resolve the i
 1. Change the title of this section to best fit its content: Solution or Workaround
 1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible. For example:
 
+    ```text
     1. On a rails or database node, connect to the database with `sudo gitlab-psql connect`
     1. Run:
     
@@ -116,6 +117,7 @@ The solution section clearly lists the steps a user must follow to resolve the i
         --- comment: explain what complicated command does if not obvious
         <complicated command>
         ```
+    ```
 
 - For different environments, list commands as sub-items:
   - Linux: `<command>`
