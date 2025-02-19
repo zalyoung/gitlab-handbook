@@ -19,7 +19,7 @@
             {{- range $key, $data := $stages }}
             {{- range $k, $v := $data.groups }}
                 {{- if in .categories $cat }}
-                <a href="#{{$k}}">{{ $v.name }}</a>
+                <a href="#{{$k}}-group">{{ $v.name }}</a>
                 {{- end }}
             {{- end }}
             {{- end }}
