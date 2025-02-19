@@ -25,8 +25,8 @@ title: "Channel Partner Implementation Services"
   - **Upgrades are important to become good at.**  GitLab schedules major releases for May each year, by default.  GitLab releases a minor update on the 3rd Thursday of every month, and has released monthly consistently for more than a decade. Security patches are released more frequently. GitLab.com has updates multiple times per day.
 - [Upgrade Path Tool](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/)
   - Plan upgrades with ease. This website generates supported upgrade paths to assist with updating GitLab.
-- [Deprecations and removals by version](https://docs.gitlab.com/ee/update/deprecations.html)
-  - [What's new since?](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
+- [Deprecations and removals by version](https://docs.gitlab.com/ee/update/deprecations.html) and [What's new since?](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
+  - Use these resources to understand what is there and what isn't anymore in a given GitLab version.
 
 ## Implementing GitLab Runners
 
