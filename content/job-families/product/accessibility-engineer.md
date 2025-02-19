@@ -159,6 +159,7 @@ Successful candidates will receive an offer through a video call or phone call.
 - Deep knowledge of manual and automated accessibility testing tools.
 - Deep knowledge of assistive technologies (NVDA, JAWS, VoiceOver, etc.).
 - Experience leading accessibility initiatives.
+- Experience developing accessibility standards at an organization.
 - Strong technical architecture skills.
 - Mentoring and training experience.
 
