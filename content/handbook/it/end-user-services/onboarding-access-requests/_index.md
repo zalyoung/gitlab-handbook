@@ -92,11 +92,9 @@ In some instances, we may be able to work out priority or overnight delivery. We
 
 If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=opened&first_page_size=100)
 
-Estimated Delivery Timelines for GitLab Hardware
+In general, we aim to deliver all laptops within 10 days from the time of order. However, there may be delays based on the region where the laptop is ordered or availability.
 
-- US New Hires - 1-2 weeks (Apple) and 3-5 weeks (Linux)
-- EMEA New Hires - 1-2 weeks (Apple) and 3-5 weeks (Linux)
-- Other Regions - 2-3 weeks (Apple) and 6-9 weeks (Linux)
+For new hires, the laptop order form should be filled out as soon as possible to avoid delays. We aim for laptops to arrive a few days before the start date, but the machine may arrive the day before the start date.
 
 ### Key Performance Indicators
 
@@ -138,7 +136,7 @@ NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased
 
 #### Apple Hardware
 
-Chipset specifications not listed as they will vary based on current inventory levels.
+Chipset specifications not listed as they will vary based on current inventory levels, however the current standard specs are:
 
 - MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
 - MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
