@@ -273,4 +273,4 @@ We encourage organizers of events that are supported through our [GitLab Diversi
 Nearly all our thoughts and actions are influenced, at least in part, by unconscious impulses. There's no reason bias should be out of scope. Categorizing people based on social and other characteristics is a powerful survival mechanism, as it helps to distinguish friends from foes and make quick "life or death" decisions based on "inner feeling". At the same time this is a fertile ground for growing stereotypes, prejudice, discrimination.
 - **Psychological safety** - is defined by Amy Edmondson as a "shared belief held by members of a team that the team is safe for interpersonal risk taking".
 It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better.
-
+## Performance Indicators
