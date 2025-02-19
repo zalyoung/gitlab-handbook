@@ -25,7 +25,7 @@ When serving as the Customer Emergency On-Call (CEOC) engineer, follow these key
 
 1. **Take Assignment**: Immediately assign yourself to any emergency ticket you acknowledge and begin working on. This establishes you as the Directly Responsible Individual (DRI) and ensures clear ownership throughout the emergency response process.
 
-2. **Document Everything**: Keep thorough notes in both Slack threads and the ticket to maintain transparency, reproducability, and enable asynchronous collaboration.
+2. **Document Everything**: Keep thorough notes in both Slack threads and the ticket to maintain transparency, reproducibility, and enable asynchronous collaboration.
 
 3. **Communicate Status**: Keep stakeholders informed of progress and any handoffs required at the end of your shift.
 
