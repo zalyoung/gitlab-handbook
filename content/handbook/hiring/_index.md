@@ -67,15 +67,8 @@ Please find pages for potential and active applicants below.
 
 ### Candidate Experience Specialist Processes
 
-{{% details summary="Greenhouse integrations you'll need" %}}
-
-- [Prelude](/handbook/hiring/prelude/): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
-- [Guide](https://support.greenhouse.io/hc/en-us/articles/360052205072-Guide-integration): Check with your manager if you do not have higher level access to navigate inside of Prelude.
-- [DocuSign](https://support.greenhouse.io/hc/en-us/articles/205633569-DocuSign-integration)
-{{% /details %}}
-
 - [Candidate Experience Specialist Responsibilities](/handbook/hiring/talent-acquisition-framework/coordinator)
-- [Prelude](/handbook/hiring/prelude/)
+- [ModernLoop](/handbook/hiring/prelude/)
 - [How to Complete a Contract - CES Process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
 
 ### Recruiters and Sourcers
