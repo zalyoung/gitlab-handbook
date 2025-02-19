@@ -77,11 +77,16 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-There are currently more than 10 different bot user account types, each owned by a different team with disparate permission policies and authentication methods. This leads to unclear ownership, can result in security vulnerabilities, are hard for customers to track and have high maintenance overhead. This proposal standarizes on service accounts as the singular solution for bot accounts within GitLab. Service accounts provide nearly identical capabilities to regular users while enforcing constraints like UI sign-in restrictions and fewer distinct permission policies. 
+There are currently more than 10 different bot user account types, each owned by a different team with disparate permission policies and authentication methods. This leads to unclear ownership, can result in security vulnerabilities, are hard for customers to track, and have high maintenance overhead. This proposal standarizes on service accounts as the singular solution for bot accounts within GitLab. Service accounts provide nearly identical capabilities to regular users while enforcing constraints like UI sign-in restrictions and fewer distinct permission policies. 
 
 ## Motivation
 
-GitLab currently supports multiple types of bot accounts with varying permissions and authentication methods, leading to scattered security policies, unclear ownership, and increased maintenance complexity. We need a unified approach to automated system interactions that maintains security while reducing technical debt.
+Standardizing on service accounts will:
+
+- Reduce engineering overhead by centralizing bot-related code and policies
+- Improve security by enforcing consistent authentication methods and access controls
+- Allow customers to view and manage credentials alongside other users
+- Establish clearer ownership and responsibility for bot accounts
 
 ### Goals
 
