@@ -1,84 +1,131 @@
 ---
-title: "ESG"
-description: "Information and processes related to ESG"
+title: "ESG | Sustainability"
+description: "Information and processes related to ESG | Sustainability"
 ---
 
-The Environmental, Social, and Governance (ESG) [Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) creates and maintains GitLab's Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab's social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab's values and mission.
+## Quick links
 
-## ESG Strategy
+* To learn more about ESG | Sustainability at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/esg-training/)
+* Join the [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel to follow along for updates, ask questions and provide feedback
+* Customer asking ESG-related questions? Follow the steps outlined in the [Requesting Support with Customer ESG Questions](#requesting-support-with-customer-esg-questions) section below
+* [ESG | Sustainability Programs](#esg--sustainability-programs)
 
-Environmental, social, and governance (ESG) practices, although newly formalized in GitLab Inc.'s ("GitLab", "we", "our") strategy, have been embedded into our work culture since our inception. Deeply integrated into our business philosophy, GitLab's ESG strategy is driven by our [values](/handbook/values/) of Collaboration, Results, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT).
+**ESG** stands for Environmental, Social and Governance and refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company.
 
-In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab's business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
+**Corporate Sustainability** is a business approach that enhances long term stakeholder value by implementing a strategy that considers every dimension of how a business operates when making social, environmental and economic progress.
 
-Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets and plans for the future.
+At GitLab we use ESG and Sustainability interchangeably. Both terms are relevant to our work and both serve different purposes depending on the audience we interact with.
 
-- [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/)
-- [FY24 ESG Report](handbook/company/esg/)
+## Team Overview & Vision
 
-### ESG Advisory Committee
+The ESG | Sustainability [Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) creates and maintains GitLab's Corporate Sustainability strategy and programs by driving and integrating responsible business practices and ESG regulatory compliance.
 
-The purpose of the advisory committee is create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.
+The ESG | Sustainability team builds and maintains strong internal and external relationships to understand stakeholder expectations - including customer, investor and team members. This engagement allows us to remain customer centric and easy to do business with while meeting shareholder and team member expectations.
 
-Members of the ESG Advisory Committee:
+The ESG | Sustainability Team has two primary functions and four corresponding programs:
 
-- Robin Schulman (Egroup)
-- Wendy Barnes (Egroup)
-- Brian Robins (Egroup)
-- Stacy Cline (ESG)
-- Kim Buncle (ESG)
-- Kelsey Turcotte (Investor Relations)
-- Lisa Boughner (Communications)
-- Amie Bright (Marketing)
-- Billy Stallings (Marketing)
-- Pattie Egan (People)
-- Sherida McMullan (DIB)
-- Stella Treas (CoS)
-- Scott Rissmiller (Corporate Legal)
-- Emily Plotkin (Employement Legal)
-- Rendi Miller (Procurement)
-- James Shen (Finance)
+### Compliance, Reporting & Climate Action
 
-## ESG Request Process
+* [**Compliance & Reporting**](#compliance--reporting): Manages customer and prospect ESG-related questionnaires, requests for proposals, and sustainability contractual clauses. Leads annual ESG report and external assurance process. Monitors global ESG regulation and works cross-functionally to advance GitLab's culture of compliance with applicable ESG regulations. Responds to investor ESG rating agencies to maintain competitive ESG scoring among peers.
 
-### RFP Process for ESG Questions & Customer ESG Questionnaires
+* [**Climate Action**](#climate-action): Identifies and executes strategic climate programs, including annual measurement of GitLab's greenhouse gas inventory, emissions reduction target-setting, partners with Procurement to run the sustainable supplier program, identifies emissions reduction opportunities across the business, and purchases high quality carbon credits. Manages team member & customer communications related to GitLab's commitment to environmental sustainability.
 
-- If a customer or potential customer has questions related to GitLab’s ESG practices **as part of an RFP**, please follow the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/).
-- If a customer or potential customer requests information via an ESG questionnaire, please open an issue [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) and select the ‘ESG Questionnaire’ template.’
+### Social Impact
 
-### Philanthropic Requests
+* [**GiveLab**](#givelab): GiveLab is GitLab's team member volunteer program and includes year-round volunteering, GiveLab 30 days of Impact, our annual company-wide volunteer campaign and GiveLab Champions Program. Volunteerism is an effective way to build trust through social connections - this leads to higher individual and team motivation, and greater cross-functional collaboration.
 
-Information on how GitLab Inc. supports Registered Nonprofit Organizations can be found in the [Philanthropy Policy](/handbook/legal/philanthropy-policy/)
+* [**GitLab for Non-Profits**](#gitlab-for-non-profits): GitLab's in-kind donation program. Manages social impact communications with team members and customers, while developing strategic nonprofit partnerships to advance GitLab's ESG goals and help enhance our brand reputation by demonstrating our commitment to the nonprofit community.
 
-Please note that for all Philanthropic Requests, including requests for GitLab to join as a member to an association, program or organization, approval by the ESG team and CLO is required as defined by the Oversight Responsibility section of the Policy.
+## ESG | Sustainability Strategy
 
-If you would like to submit a philanthropic request, please follow the instructions based on your request type.
+Deeply integrated into our business philosophy, GitLab's ESG strategy is driven by our [values](/handbook/values/) of Collaboration, Results for Customers, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT). GitLab's stakeholders, including customers, investors, team members, and community members play a key role in GitLab's ESG strategy.
 
-#### Monetary Contributions
+GitLab conducted its inaugural ESG materiality assessment in 2022. By conducting a materiality assessment with our stakeholders, we identified which ESG topics have the greatest impact on GitLab's business and where we have the potential to have the greatest impact on the environment, society, and our global communities - those material topics drive the programs, policies and initiatives under our strategy.
 
-There are two ways that team members can submit a request for monetary support.
+This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
 
-1. Request funding from the ESG team to support a Registered Nonprofit Organization OR
-1. Request utilizing department or TMRG  budget to support a Registered Nonprofit Organization
+## ESG Advisory Committee
 
-If you are requesting funding from the ESG team to support a Registered Nonprofit Organization, please note that at this time, we are not accepting applications. If you would like to submit a Nonprofit Organization to be considered for support in the future, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support).  You will be notified if there is a future opportunity.
+The purpose of the advisory committee is to create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.
 
-If you have a department or TMRG  budget that you would like to utilize to support a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). Please tag your manager to approve the request if you are submitting on behalf of your department. If you are submitting a request on behalf of a TMRG or DIB, please add Sherida McMullan as a reviewer.
-Please allow a minimum of 10 working days for review.
+**Members of the ESG Advisory Committee**
 
-The team member submitting the issue is responsible for obtaining proper approvals and working with Accounts Payable to issue the payment. Please tag the individuals in the approver section of the issue. Once approvals are completed, the team member requesting the donation needs to obtain an invoice from the non-profit that contains the bank payment details and submit this to AP@GitLab.com.
+* Robin Schulman (Egroup)
+* Rob Allen (Egroup)
+* Brian Robins (Egroup)
+* Stacy Cline (ESG)
+* Kim Buncle (ESG)
+* Kelsey Turcotte (Investor Relations)
+* Lisa Boughner (Communications)
+* Amie Bright (Marketing)
+* Billy Stallings (Marketing)
+* Sherida McMullan (DIB)
+* Stella Treas (CoS)
+* Scott Rissmiller (Corporate Legal)
+* Emily Plotkin (Employment Legal)
+* Rendi Miller (Procurement)
+* James Shen (Finance)
+* Marin Jankovski (Infrastructure)
 
-#### GiveLab
+## ESG | Sustainability Programs
+
+### Compliance & Reporting
+
+Like all functions at GitLab, transparency is a core focus. Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets, and plans for the future.
+
+* [FY23 ESG Report](/handbook/legal/esg/fy23-esg-report/)
+* [FY24 ESG Report](/handbook/company/esg/)
+
+GitLab is subject to new ESG regulation in 2026, which will require public disclosure of a wide range of ESG topics, such as greenhouse gas emissions, climate risk, diversity, business ethics, and more. The ESG | Sustainability team is working cross-functionally to prepare GitLab for upcoming compliance with these regulations.
+
+The ESG | Sustainability team also supports internal teams with customer ESG questionnaires and RFPs. Customers and prospective customers are increasingly asking about GitLab's ESG programs, including questions related to GitLab's climate commitments and greenhouse gas emissions. Many of our customers are also subject to ESG regulation and we expect customer ESG questions to continue to increase as they look to better align to new regulations.
+
+#### Requesting Support with Customer ESG Questions
+
+* If a customer or potential customer has questions related to GitLab's ESG practices **as part of an RFP**, please follow the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/)
+* If a customer or potential customer requests information via an ESG questionnaire, please open an issue [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) and select the 'ESG Questionnaire' template
+* If there's an opportunity to connect the ESG | Sustainability team directly, please reach out in the [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel
+
+### Climate Action
+
+GitLab is committed to doing our part to minimize our environmental footprint, including working to reduce greenhouse gas (GHG) emissions associated with our operations. GitLab's stakeholders, including customers, investors, regulators, and team members expect the company to operate sustainably and to do our part to reduce our environmental footprint.
+
+Many of GitLab's customers have GHG reduction targets and as a vendor, GitLab's carbon emissions contribute to our customers' emissions footprints. To remain easy to transact with, GitLab needs to meet the expectations of our customers by taking action on climate change.
+
+GitLab's Climate Action Program consists of four pillars:
+
+1. **Measure & Report:** Every year GitLab conducts an annual greenhouse gas (GHG) inventory in alignment with the GHG Protocol, the global best practice carbon accounting standard. We publish the results of the inventory in our annual ESG report and have the data assured by a third-party. In 2026, GitLab is subject to new regulations in the US and the EU that will make these disclosures mandatory.
+
+2. **Act:** GitLab is taking action to reduce our carbon emissions. As a fully remote software company, the vast majority of our emissions come from our suppliers. Engaging our suppliers to measure their carbon emissions and set their own reduction targets is a critical component of our reduction pathway, which is why we have set a public supplier engagement target. Please see the [Sustainable Procurement Program](#sustainable-procurement-program) for more information. The ESG | Sustainability team continues to explore other ways to reduce emissions and is doing further analysis on additional reduction targets.
+
+3. **Engage:** This includes engaging GitLab team members in climate education and action. In 2024, we launched the [GitLab Team Member Sustainability Guide](/handbook/legal/esg/team-member-sustainability-guide/), providing actionable steps team members can take at home to minimize their environmental impact. More to come on this!
+
+4. **Accelerate:** While GitLab works to reduce our emissions, we are also committed to accelerating climate solutions by purchasing high quality carbon credits to cover a portion of our carbon footprint. We are proud to partner with [Rubicon Carbon](https://rubiconcarbon.com/) to purchase a diversified portfolio of high quality carbon credits, financing carbon removal projects that meet Rubicon's high standards of quality. For more information on Rubicon's Carbon Integrity Framework, check out [this webinar](https://www.youtube.com/watch?v=fuwTxwZLAyc&t=1s).
+
+#### Sustainable Procurement Program
+
+In FY25, GitLab set a science-aligned supplier engagement target to hold ourselves accountable for reducing our Scope 3 emissions: **70% of our suppliers (by emissions) will have science-aligned climate targets by FY29.**
+
+To achieve our target, we will be expanding supplier engagement to include the following initiatives:
+
+* Updating our Partner Code of Ethics and standard contract to include new climate-related expectations of suppliers, including measuring and reporting their GHG emissions and setting a science-aligned reduction target
+* Use strategic business reviews to understand key barriers suppliers face in taking action on climate change and determine a path forward
+* Provide resources and training to suppliers on how to measure their greenhouse gas emissions and set their own targets
+* Provide resources and training to team members responsible for supplier selection on our new expectations of suppliers
+
+We look forward to sharing our progress on this new initiative.
+
+### GiveLab
 
 At GitLab, all team members do work that supports the company, which supports the enhancement of an open source codebase. This codebase is freely available to everyone to make better software faster and drive progress through what they build. Between 2022 and 2024, team members made over 125,000 commits to the open source part of the GitLab codebase.
 
-But, there are also other ways to give back and many team members choose to contribute beyond GitLab. In addition to contributing to GitLab, GitLab offers additional optional pathways for team members to give back while leveraging their unique skills and passions through programs such as GiveLab, GitLab's Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab's overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development.
+But, there are also other ways to give back and many team members choose to contribute beyond GitLab. In addition to contributing to GitLab, GitLab offers additional optional pathways for team members to give back while leveraging their unique skills and passions through programs such as GiveLab, GitLab's Team Member Volunteer Program.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
 Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](/handbook/legal/philanthropy-policy/#who-we-support) that isn't on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
-Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG team's help organizing the volunteer activity?"
+Team members can also request support from the ESG | Sustainability Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG | Sustainability team's help organizing the volunteer activity?"
 
 All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
@@ -88,305 +135,138 @@ As with all [company expenses](/handbook/finance/expenses/#1-policy), team membe
 
 Expenses allowed for reimbursement (for in-person volunteer events):
 
-- Local travel only -  [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the "GiveLab" classification in Navan
-- [Parking](/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the "GiveLab" classification in Navan
-- [Meal](handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the "GiveLab" classification in Navan
+* Local travel only - [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the "GiveLab" classification in Navan
+* [Parking](/handbook/finance/expenses/#transportationparking) for the event. Must follow and comply with the current limits of our Expense Policy. Please use the "GiveLab" classification in Navan
+* [Meal](/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event. Must follow and comply with the current limits of our Expense Policy. Code under Travel-Meals for Myself and use the "GiveLab" classification in Navan
 
 Expenses not allowed for reimbursement:
 
-- Any airfare, lodging, rental cars, coworking space, internet expenses are not allowed
-- Any supplies or items needed for the event
-- Donations to the nonprofit
-- Any expenses that are not mentioned as "allowed" above are not reimbursable and there will be no exceptions
+* Any airfare, lodging, rental cars, coworking space, internet expenses are not allowed
+* Any supplies or items needed for the event
+* Donations to the nonprofit
+* Any expenses that are not mentioned as "allowed" above are not reimbursable and there will be no exceptions
 
 As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak not only to our [values](/handbook/values/) but also to our [all-remote](/handbook/company/culture/all-remote/guide/) nature. To review previous opportunities that team members participated in, visit the [historical activities page](/handbook/people-group/givelab-volunteer-initiatives/#gitlab-donation-drives).
 
-Add this content to the GiveLab section on the ESG page
+#### GiveLab 30 Days of Impact
 
-## GiveLab 30 Days of Impact
+GiveLab 30 Days of Impact is GitLab's annual volunteer campaign created to encourage team members to foster connections, build trust among one another and embody our CREDIT values while positively impacting our communities. We have designed this program with our high-performing team culture and results for customers in mind.
 
-GiveLab 30 Days of Impact is GitLab’s first annual volunteer campaign created to encourage team members to foster connections, build trust among one another and embody our CREDIT values while positively impacting our communities. We have designed this program with our high-performing team culture and results for customers in mind.
-
-GiveLab 30 days of Impact will run from 2024-11-12 through 2024-12-12 and our goal is to encourage as many team members as possible to volunteer over the course of 30 days.
+GiveLab 30 days of Impact runs annually in Q4 and our goal is to encourage as many team members as possible to volunteer over the course of 30 days.
 
 Throughout the month, team members can volunteer as little as one hour of their time to make an impact. We understand that our team members are driven by many different factors, and we welcome that volunteer participation will look different for everyone. Through GiveLab 30 days of Impact we aim to offer many different ways for team members to get involved such as:
 
-- Through company-sponsored virtual events
-- Local in-person volunteer events organized by the GitLab ESG team, [GiveLab Champions](/handbook/legal/esg/#givelab-champions), and team members
-- Individual volunteer pursuits
-- Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing)
-- Include a volunteer activity at an all-hands or team builder
-- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase) 
+* Through company-sponsored virtual events
+* Local in-person volunteer events organized by the GitLab ESG | Sustainability team, [GiveLab Champions](#givelab-champions), and team members
+* Individual volunteer pursuits
+* Find and contribute to opportunities in the [GiveLab Volunteer Directory](#givelab-volunteer-directory)
+* Include a volunteer activity at an all-hands or team builder
+* Contribute to [GitLab's codebase](https://about.gitlab.com/community/contribute/)
+* Assist with [retention](https://benevity.com/talent-retention-study) and recruitment efforts
 
-### Why GiveLab 30 Days of Impact Exists
+#### Why GiveLab 30 Days of Impact Exists
 
-While GitLab encourages year-round volunteerism through [GiveLab](/handbook/legal/esg/#givelab), GiveLab 30 days of Impact centralizes our efforts into an annual campaign to have a larger collective impact over a specific timeframe. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture).
-Additionally, this program offers volunteering opportunities around a major holiday season in many parts of the world, a time when many are seeking opportunities to give back.
+While GitLab encourages year-round volunteerism through [GiveLab](#givelab), GiveLab 30 days of Impact centralizes our efforts into an annual campaign to have a larger collective impact over a specific timeframe. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture). Additionally, this program offers volunteering opportunities around a major holiday season in many parts of the world, a time when many are seeking opportunities to give back.
 
-### Team Member Benefits of Volunteerism
+#### Team Member Benefits of Volunteerism
 
-- Develop new skills and knowledge
-- Expand your professional network and connections
-- Understand the nonprofit community’s needs and how your skills can help
-- Make a meaningful difference in your community
+* Develop new skills and knowledge
+* Expand your professional network and connections
+* Understand the nonprofit community's needs and how your skills can help
+* Make a meaningful difference in your community
 
-### Importance of Volunteerism at GitLab
+#### Importance of Volunteerism at GitLab
 
-- Provide an additional option for team members to volunteer and make a positive impact beyond the impact team members make every day by contributing to GitLab - the platform and the company
-- Provide another way for team members to embody our CREDIT values through volunteerism and social impact
-- Expand GitLab’s positive impact across communities
-- Build trust amongst team members through social connections
-- [Boost team member engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..)
-- Assist with [retention](https://benevity.com/talent-retention-study) and recruitment efforts
+* Provide an additional option for team members to volunteer and make a positive impact beyond the impact team members make every day by contributing to GitLab - the platform and the company
+* Provide another way for team members to embody our CREDIT values through volunteerism and social impact
+* Expand GitLab's positive impact across communities
+* Build trust amongst team members through social connections
+* [Boost team member engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..)
 
-### Getting Started
+#### Utilizing GitLab's PTO Policy to Volunteer
 
-Below you’ll find information on our GitLab-sponsored virtual events, what’s to come on some local in-person volunteer events, and ideas on how to volunteer as a team or individually.
+Team member participation is voluntary, should not interfere with work commitments, and time off is required to be in alignment with GitLab's [PTO policy](/handbook/people-group/paid-time-off/). Travel is not permitted for this program. Team Members may choose to volunteer virtually or through local in-person events. Volunteer events typically last between one and four hours. Managers play an important role in supporting team members in taking time for themselves and their families, while also ensuring accountability to results and coverage for teams and its goals. Our Results for Customers value sits at the top of our values hierarchy, and our PTO policy empowers managers to appropriately manage workloads and deliverables, while also giving team members the time away they need from work.
 
-Virtual GitLab-sponsored volunteer events are open for all team members to join, and are scheduled across different time zones and regions to offer flexible options in choosing an activity to participate in. By signing up for a virtual event, you’ll receive a calendar invite and a Know Before You Go document outlining all preparation details. Preparation time for the virtual events should not exceed 15 minutes.
+#### How to Request Volunteer Time Off
 
-### Virtual GitLab Sponsored Events
+Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that volunteer time off should be used towards acceptable volunteer activities and in adherence with our [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
 
-#### TL;DR Table
+#### Expenses and Reimbursements for Participation
 
-| Title | Region Supported | Necessary skills | Date | Time Commitment | Signup URL | Description |
-|-------|--------|------------------|------|-----------------|------------|-------------|
-| SuitUp | Global (Americas & EMEA) | No technical skills required | 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10 | 1-2.5 hours | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform) | Empower students through career panels and business competitions focused on Technology & AI for Good or Business & Technology. |
-| The Red Cross & Missing Maps | Global | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSd3xA6Zxgok9DDeJss-2hdhWPfl9X0-EXnn4zqTilZ729H6iA/viewform) | Help map areas for humanitarian organizations to assist in disaster relief efforts. |
-| Goodera, Club Rainbow & The Ronald McDonald House | Singapore (APAC) & Washington DC (Americas) | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform) | Record audiobooks for children undergoing medical treatment to alleviate stress and anxiety. |
-| Goodera & YouthBuild | Mexico (Americas) | Spanish speaking and writing required | 2024-12-10 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSc8cVs01tWr9OYhctP1yGpUT-NLM9RdtsKrnpiI4Ek-c2W9Ug/viewform) | Review resumes of youth to provide tips on industry-standard best practices. |
-| Goodera and Backpacks for VIC Kids | Australia (APAC) | No technical skills required | 2024-11-20 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeYtDM843DJpmEElWVxJvVA2XczKmMYwQs-Xuws1LkWJ4NLmg/viewform) | Create engaging scratch coding exercises for middle school students to explore computer science concepts. |
-| Goodera and the Maya Care Foundation | India (APAC) | No technical skills required | 2024-12-4 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSd03HZBcriGtI6guIsbylKxGtUM1nu36ymdm55YNlnd6T1C2w/viewform) | Engage with Senior Citizens in nursing homes through meaningful conversations and activities. |
+Please see our [GiveLab reimbursement policy](#givelab) to understand current allowances as they relate to volunteering costs.
 
-#### SuitUp, Global
-
-SuitUp programs empower students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers. There are two types of opportunities available with Suit Up:
-
-1. Career panels: volunteers can participate in a one-hour panel discussion with students on the topics of Technology & AI for Good or Business & Technology.
-2. Business competition: volunteers will help coach students as they compete in a business competition focused on addressing a real-world social issue by creating an innovative solution using AI. There are four events to choose from.
-
-**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable in sharing their career journey guidance and/ or providing feedback and coaching to students.
-
-**Dates:** 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform).
-
-**Time commitment:** Coach-1.5 hours, Judge-1 hour
-
-**Regions supported through volunteerism:** US & EMEA
-
-#### The Red Cross & Missing Maps, Global
-
-Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from open and accessible maps and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open source, collaborative project in which volunteers help map areas where humanitarian organizations are working to meet the needs of people who live at risk of disasters and crises. During this volunteer event, The Red Cross will guide volunteers through mapping an area of need within a live group virtual setting. No special skills are necessary and a brief training will be provided during the volunteer session.
-
-**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers will be required to create a [Missing Maps account](https://www.missingmaps.org/) to participate, and user experience is best when completed through the app/ phone.
-
-**Date:** 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSd3xA6Zxgok9DDeJss-2hdhWPfl9X0-EXnn4zqTilZ729H6iA/viewform).
-
-**Time commitment:** 1 hour
-
-**Regions supported through volunteerism:** TBD by Missing Maps based upon the open source projects currently open.
-
-#### Goodera, Club Rainbow & The Ronald McDonald House, APAC & Americas
-
-Hospital visits and medical treatment lead to significant mental and physical stress in children. Studies have shown that listening to an audiobook could be effective in alleviating fear and anxiety for children during treatment or while at the pediatric care center. For this event, volunteers will audio-record short stories and poems for children undergoing treatment. The audiobooks will be available at the nonprofit's center as a source of comfort and engagement over the course of their treatment.
-
-**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting.
-
-**Date:** 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform).
-
-**Time commitment:** 1 hour
-
-**Regions supported through volunteerism:** APAC & US
-
-#### Goodera & YouthBuild, Mexico
-
-Resumes reviewed by skilled professionals empower youth by helping them showcase and communicate their skills to potential employers more effectively. They offer a valuable resource typically unavailable to those from underserved backgrounds and foster equal opportunities in the job market. Volunteers will review the resumes of youth to provide tips on industry-standard best practices and help enhance their resumes.
-
-**Necessary volunteer skills:** Spanish speaking and writing is required for participation in this activity.
-
-**Date:** 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSc8cVs01tWr9OYhctP1yGpUT-NLM9RdtsKrnpiI4Ek-c2W9Ug/viewform).
-
-**Time commitment:** 1 hour
-
-**Regions supported through volunteerism:** LATAM
-
-#### Goodera and Backpacks for VIC Kids, Australia
-
-This exercise is designed to help students build confidence and develop essential problem-solving skills, while the user-friendly and inclusive nature of Scratch makes coding approachable for everyone. Volunteers will create a repository of ten engaging scratch coding exercises to inspire middle school students to explore computer science concepts. These problem statements will then help ignite curiosity and empower students to explore fundamental concepts in a fun and accessible way.
-
-**Necessary volunteer skills:** No technical skills are required to volunteer. Goodera will guide volunteers during this session and will provide templates, samples and resources for volunteers to create the scratch cards.
-
-**Date:** 2024-11-20. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeYtDM843DJpmEElWVxJvVA2XczKmMYwQs-Xuws1LkWJ4NLmg/viewform).
-
-**Time commitment:** 1 hour
-
-**Regions supported through volunteerism:** APAC
-
-#### Goodera and the Maya Care Foundation, India
-
-Engage with Senior Citizens who are presently in a nursing home or institutional care setting, often a place where residents can suffer from social isolation. In this volunteer opportunity, volunteers will foster connections and engage in meaningful conversations and activities with a group of Senior Citizens, guided by Goodera.
-
-**Necessary volunteer skills:** No technical skills are required to volunteer.
-
-**Date:** 2024-12-4. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSd03HZBcriGtI6guIsbylKxGtUM1nu36ymdm55YNlnd6T1C2w/viewform).
-
-**Time commitment:** 1 hour
-
-**Regions supported through volunteerism:** APAC
-
-### Local In-Person Volunteer Events
-
-In-person opportunities can be organized by the GitLab ESG team, [GiveLab Champions](/handbook/legal/esg/#givelab-champions), and team members. If you would like to organize an in-person opportunity, please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel. The following locations have plans to host a volunteer event, and as additional opportunities are confirmed they will be added and promoted within the location-specific slack channel.
-
-- Phoenix, Arizona - 2024-11-22, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeCCqkuG4yD84qSzooMbJZ2AdXo7ftQo1gwe1mW3KlPVlRNrw/viewform)
-- Seattle, Washington - 2024-12-3, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfZgazBaOxn3CUExSUMQshNqdEF28nxxWCzSj3bY616BJbjEw/viewform)
-- San Diego, California - 2024-12-5, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfybXDQga0OgwHazB9OxmCAC_n45ZxIEte-FyN73xXBbj2QAQ/viewform?usp=sharing)
-- Amsterdam, Netherlands - details coming soon
-- San Francisco & San Jose, California - details coming soon
-
-### Identify a volunteer opportunity by using the GiveLab Volunteer Directory
-
-We’ve curated a [list](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=1439615563#gid=1439615563) of eligible nonprofits with open volunteer opportunities in the cities where we have larger numbers of team members. Team members can facilitate conversations directly with the nonprofits to learn about current needs.
-
-### Organize a volunteer activity for an all-hands or team builder
-
-Please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel.
-
-### Volunteer independently
-
-Many of you already volunteer in your community and we want to capture how you make an impact. Please report your independent volunteer efforts [here](https://docs.google.com/forms/d/e/1FAIpQLSdI0QFfGK5QsjXZ0WXs2Z9PF-Vw48LHINTYrkP12KCjRPtTfQ/viewform) so that we can celebrate your impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story!
-
-### Contribute to GitLab’s OSS codebase
-
-At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance and our ESG programs such as GiveLab.
-
-Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time [contributing to GitLab](https://about.gitlab.com/community/contribute/) help live our mission and contribute to the open source community.
-
-### Acceptable Volunteer Activities
-
-All GitLab volunteer activities must support registered nonprofit organizations that align with our values and our GitLab [Philanthropy Policy](/handbook/legal/philanthropy-policy/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
-
-### Utilizing GitLab’s PTO Policy to Volunteer
-
-Team member participation is voluntary, should not interfere with work commitments, and time off is required to be in alignment with GitLab’s [PTO policy](/handbook/people-group/paid-time-off/). Travel is not permitted for this program. Team Members may choose to volunteer virtually or through local in-person events. Volunteer events typically last between one and four hours.
-Managers play an important role in supporting team members in taking time for themselves and their families, while also ensuring accountability to results and coverage for teams and its goals. Our Results for Customers value sits at the top of our values hierarchy, and our PTO policy  empowers managers to appropriately manage workloads and deliverables, while also giving team members the time away they need from work.
-
-### How to Request Volunteer Time Off
-
-Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that when following along with this guide, during “Step 8” there is a section listed as “Reasons”, and here you should select “Volunteer Time Off” from the dropdown options. Note that at this time, entering your paid time off requests labeled as “Volunteer Time Off” can only be completed by submitting your request within Workday, and not the Workday Slack App.
-
-### Expenses and Reimbursements for Participation
-
-Please see our [GiveLab reimbursement policy](/handbook/legal/esg/#givelab) to understand current allowances as they relate to volunteering costs.
-
-### Contributing Feedback for This Program
-
-Surveys will be sent to team members following their volunteer participation and we additionally welcome all feedback around this volunteer program as we aim to continue improving GiveLab 30 Days of Impact following the first iteration.
-
-We appreciate the internal stakeholders who have provided initial input to include relevant program considerations such as the People Team, PBPs, Finance, DIB & TMRGs and EBAs. Additionally, we’ll continue to incorporate considerations from our GiveLab Champions, who sit within various departments across the company.
-
-### Get in touch with the ESG Team
-
-Join the #givelab slack channel
-
-## GiveLab Nonprofits
+### GiveLab Volunteer Directory
 
 We have created an internal [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing) that features a list of vetted nonprofit organizations with available volunteer opportunities. Team members can search the document for virtual volunteer opportunities, opportunities to volunteer with [GitLab Foundation](https://www.gitlabfoundation.org/) grantees and search for local opportunities.
 
 We encourage all team members to contribute to our GiveLab Volunteer Directory. To recommend a nonprofit organization to add to the Directory, please open a [Volunteer Recommendation Issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/volunteer_recommendation.md).
 
-## GiveLab Champions
-
-**GiveLab Champions overview**
+### GiveLab Champions
 
 The GiveLab Champions are team members who are passionate about giving back to their communities and want to encourage other team members to do the same.
 
-GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the ESG team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
+GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the ESG | Sustainability team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
 
-**The importance of GiveLab Champions**
+#### The importance of GiveLab Champions
 
 GiveLab Champions help team members build trust through social connections, build connections within their communities, and help GitLab provide meaningful opportunities for team members to give back. The GiveLab Champions ensure global voices are heard and relevant causes are represented based on where team members live. GiveLab Champions help to make GitLab a better place to work.
 
-**Team member benefits of volunteering**
+#### Team member benefits of volunteering
 
-- Champions introduce new and current team members to GitLab's culture and help to build and maintain engagement
-- Champions help build trust through social connections
-- Champions have the opportunity to develop professional and leadership skills, build relationships across the company and make a difference at work and in local communities
-- Champions can network and provide positive impacts to the business
+* Champions introduce new and current team members to GitLab's culture and help to build and maintain engagement
+* Champions help build trust through social connections
+* Champions have the opportunity to develop professional and leadership skills, build relationships across the company and make a difference at work and in local communities
+* Champions can network and provide positive impacts to the business
 
-**GiveLab Champion responsibilities**
+#### GiveLab Champion responsibilities
 
-- Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab's eligibility criteria for volunteer activities
-- Help organize local volunteer events for team members to participate in
-- Provide recommendations to the ESG Team for virtual volunteer opportunities
-- Encourage team members to volunteer
-- Help plan and execute the GiveLab signature program
-- Participate in quarterly Champion group meetings
-- Provide feedback to the ESG team on the GiveLab and ESG Programs
+* Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab's eligibility criteria for volunteer activities
+* Help organize local volunteer events for team members to participate in
+* Provide recommendations to the ESG | Sustainability Team for virtual volunteer opportunities
+* Encourage team members to volunteer
+* Help plan and execute the GiveLab signature program
+* Participate in quarterly Champion group meetings
+* Provide feedback to the ESG | Sustainability team on the GiveLab and ESG Programs
 
-**Time commitment**
+#### Time commitment
 
 The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quarter. Participation can vary throughout the year.
 
-**Selection criteria**
+#### Selection criteria
 
-- The team member must be performing in their role and not part of any performance management process as confirmed by the People Group
-- Must be a full-time GitLab team member. This includes team members employed through a PEO or who contract with CXC or directly with GitLab IT BV
-- At least 3-month tenure at GitLab
-- Approval from your direct manager and support to commit the time and to use this leadership role as a professional development opportunity
-- A minimum one-year commitment in the role but understanding this may change to less and can be more
+* The team member must be performing in their role and not part of any performance management process as confirmed by the People Group
+* Must be a full-time GitLab team member. This includes team members employed through a PEO or who contract with CXC or directly with GitLab IT BV
+* At least 3-month tenure at GitLab
+* Approval from your direct manager and support to commit the time and to use this leadership role as a professional development opportunity
+* A minimum one-year commitment in the role but understanding this may change to less and can be more
 
-**Selection process**
+#### Selection process
 
-- Interested team members should complete the [GiveLab Champions survey](https://docs.google.com/forms/d/e/1FAIpQLSf1Nx999ruN-_Ja0T6nd-ClkNOMRXNEEj-P40R7rQ64iV7ABQ/viewform) expressing their interest
-- Team members must confirm that they have approval from their manager to participate
-- The ESG Team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
+* Interested team members should complete the [GiveLab Champions survey](https://docs.google.com/forms/d/e/1FAIpQLSf1Nx999ruN-_Ja0T6nd-ClkNOMRXNEEj-P40R7rQ64iV7ABQ/viewform) expressing their interest
+* Team members must confirm that they have approval from their manager to participate
+* The ESG | Sustainability team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
 
-**GiveLab Champions By Division**
+#### GiveLab Champions
 
-Engineering
+* Brenda Nyaringita (Engineering)
+* Max Woolf (Engineering)
+* Yasha Rise (Engineering)
+* Rendi Miller (Finance)
+* Emily Plotkin (Legal)
+* Kim Buncle (Legal)
+* Lauren Lopez (Legal)
+* Alisha Ward (Marketing)
+* Darwin Sanoy (Marketing)
+* Kristof Goossens (Marketing)
+* Nupur Sharma (Marketing)
+* Tess Dutton (Marketing)
+* Michaela Seferian-Jenkins (Product)
 
-- Brenda Nyaringita
-- Max Woolf
-- Yasha Rise
+### GitLab for Non-Profits
 
-Finance
+GitLab launched [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/join/), an in-kind donation program in 2023. Through this program, GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our values by offering free licenses and seats. The program operates on a first come first served basis. Once the [annual donation of 5,000 seats](/handbook/legal/philanthropy-policy/#2-in-kind-product-donation) is met, the application will remain closed for the year.
 
-- Rendi Miller
-
-Legal & Corporate Affairs
-
-- April Skeete
-- Emily Plotkin
-- Kim Buncle
-- Lauren Lopez
-- Stacy Cline
-
-Marketing
-
-- Alisha Ward
-- Ben Rudd
-- Darwin Sanoy
-- Kristof Goossens
-- Nupur Sharma
-- Tess Dutton
-
-People
-
-- Samantha Lee
-
-Product
-
-- Michaela Seferian-Jenkins
-
-## In Kind Support
-
-**GitLab for Nonprofits**
-
-[GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/) is an in-kind donation program that provides licenses and seats at no cost to eligible Registered Nonprofit Organizations.
-
-GitLab for Nonprofits operates on a first come first served basis. Once the [annual donation of 5,000 seats](/handbook/legal/philanthropy-policy/#2-in-kind-product-donation) is met, the application will remain closed for the year.
-
-**FAQs**
+#### FAQs
 
 **What are the benefits of the GitLab for Nonprofits program?**
 
@@ -400,9 +280,9 @@ GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organi
 
 GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab's social and environmental key topics that were defined in GitLab's [2022 materiality assessment](/handbook/legal/esg/). GitLab's current social and environmental key topics are:
 
-- Diversity, Inclusion, and Belonging
-- Talent Management & Engagement
-- Climate Action and Greenhouse Gas Emissions
+* Diversity, Inclusion, and Belonging
+* Talent Management & Engagement
+* Climate Action and Greenhouse Gas Emissions
 
 For the calendar year 2024, we will limit the in-kind program to 5,000 seats, which was approved by finance and the board in the [Philanthropy Policy](https://docs.google.com/document/d/1b40Z-5uVebZ05RQehn5qq86c2qP_0w8T40MrygP3VEU/edit). Each organization will be eligible for up to 20 seats. This will allow us to assist as many organizations as possible. This will be revisited throughout the year and adjusted as needed. Interested organizations who are new customers may request additional seats although the request may not be granted. To limit churn, current GitLab customers that apply to transition to the Nonprofit Program will not be granted a special request above the 20 seats.
 
@@ -417,12 +297,19 @@ Interested organizations need to visit the [GitLab for Nonprofits](https://about
 **How are applications processed?**
 
 1. Nonprofits apply on the [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) page. Once the application is submitted, the Nonprofit will receive a message and a link to TechSoup, our verification partner.
+
 2. The Nonprofit will then need to log in or create their TechSoup account. TechSoup provides a rigorous vetting process to ensure the nonprofit is eligible for the GitLab for Nonprofits program and meets all requirements.
+
 3. If a Nonprofit is verified, TechSoup will notify GitLab.
+
 4. GitLab will then undergo its own vetting and approval process.
+
 5. Once all parties have verified and approved the Nonprofit, GitLab will send the instructions directly to the Nonprofit to redeem their license.
+
 6. If a Nonprofit is not verified through TechSoup, TechSoup will provide details on how the Nonprofit can become verified.
+
 7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via nonprofits@GitLab.com.
+
 8. Please allow up to 15 business days for the application and verification process.
 
 **Must Nonprofits renew their memberships?**
@@ -433,99 +320,45 @@ Yes. All nonprofits must renew their membership annually, which involves a re-ve
 
 While GitLab for Nonprofits Program benefits do not include product [support](https://about.gitlab.com/support/), program members can receive help with GitLab in a number of ways. In general, we recommend the following:
 
-- Send questions or issues requiring immediate attention or sensitive information to the GitLab for Nonprofits team at Nonprofits@GitLab.com
-- Review [GitLab Docs](https://docs.gitlab.com/) for answers to general product-related questions.
-- Post questions in the [GitLab Forum](https://forum.gitlab.com/), where community members and GitLab team members can review and discuss them.
-- File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address.
+* Send questions or issues requiring immediate attention or sensitive information to the GitLab for Nonprofits team at Nonprofits@GitLab.com
+* Review [GitLab Docs](https://docs.gitlab.com/) for answers to general product-related questions
+* Post questions in the [GitLab Forum](https://forum.gitlab.com/), where community members and GitLab team members can review and discuss them
+* File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address
 
 **I'm a GitLab Team Member and I have a customer applying for the program. What do I do?**
 
-- Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application.
-- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
-- If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you.
+* Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application
+* If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP)
+* If you have a question or concern about the customer churn, please raise this in [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) and an ESG | Sustainability team member will contact you
 
-## Matching Gifts Program
+### Philanthropic Requests
 
- At this time, GitLab does not offer a matching gifts program.
+Information on how GitLab Inc. supports Registered Nonprofit Organizations can be found in the [Philanthropy Policy](/handbook/legal/philanthropy-policy/).
 
-## Membership Requests (non-monetary)
+Please note that for all Philanthropic Requests, including requests for GitLab to join as a member to an association, program or organization, approval by the ESG | Sustainability team and CLO is required as defined by the Oversight Responsibility section of the Policy.
 
-For requests related to GitLab Membership of Association, Program or Organization, and includes terms, conditions and/or obligations on GitLab that must be executed, please follow the below process.
-Open an [issue using the Membership Request Issue Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=membership-request). Complete and attach the necessary information. Note: If you are submitting a request on behalf of a TMRG or DIB, please add Sherida McMullan as a reviewer
+If you would like to submit a philanthropic request, please follow the instructions based on your request type.
+
+#### Monetary Contributions
+
+There are two ways that team members can submit a request for monetary support:
+
+1. Request funding from the ESG | Sustainability team to support a Registered Nonprofit Organization OR (not currently accepting applications - see instructions below on submitting a non-profit for future consideration)
+
+2. Request utilizing department or TMRG budget to support a Registered Nonprofit Organization
+
+If you are requesting funding from the ESG | Sustainability team to support a Registered Nonprofit Organization, please note that at this time, we are not accepting applications. If you would like to submit a Nonprofit Organization to be considered for support in the future, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). You will be notified if there is a future opportunity.
+
+If you have a department or TMRG budget that you would like to utilize to support a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). Please tag your manager to approve the request if you are submitting on behalf of your department. If you are submitting a request on behalf of a TMRG or DIB, please add the DIB DRI as a reviewer. Please allow a minimum of 10 working days for review.
+
+The team member submitting the issue is responsible for obtaining proper approvals and working with Accounts Payable to issue the payment. Please tag the individuals in the approver section of the issue. Once approvals are completed, the team member requesting the donation needs to obtain an invoice from the non-profit that contains the bank payment details and submit this to [AP@GitLab.com](mailto:AP@GitLab.com).
+
+#### Membership Requests (non-monetary)
+
+For requests related to GitLab Membership of Association, Program or Organization, and includes terms, conditions and/or obligations on GitLab that must be executed, please follow the below process. Open an [issue using the Membership Request Issue Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=membership-request). Complete and attach the necessary information. Note: If you are submitting a request on behalf of a TMRG or DIB, please add the DIB DRI as a reviewer.
 
 NOTE: For any request(s) that require payment, please be certain to follow applicable ESG & Procurement processes.
 
-## ESG Materiality Matrix
+#### Matching Gifts Program
 
-Six key topics were identified in GitLab's materiality assessment. These key topics will drive GitLab's ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
-
-![2023 Materiality Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
-
-Here are GitLab's current key topics with their drivers:
-
-### Environment
-
-#### Climate action and greenhouse gas emissions
-
-- Measurement and reduction of scope 1, 2 and 3 emissions
-- Greenhouse gas reduction targets, goals and commitments
-
-### Social
-
-#### Diversity, inclusion and belonging
-
-- Diverse hiring and recruitment of underrepresented groups
-- Culture of DIB (events, TMRGs, courses, etc.)
-- Pay and promotion equity and inclusive benefits
-- Board, leadership and workforce diversity KPIs
-- Product accessibility
-
-#### Talent management and engagement
-
-- Talent attraction and recruitment
-- Team member learning and development
-- Leadership programs
-- Succession planning
-- Talent retention
-- Workplace culture and remote work
-- Comp and benefits
-
-### Governance
-
-#### Cybersecurity and data privacy
-
-- Data, system and network breaches
-- Monitoring of emerging threats
-- Information security training
-- Customer data use transparency
-- Data processing and storage
-- PII
-
-#### Business ethics
-
-- Up to date code of conduct, anti-corruption, anti-bribery policies
-- Regulatory compliance
-- Legal proceedings and monetary losses
-- Internal compliance
-- Oversight and ethics training
-- Human rights policies, risk assessments and due diligence
-
-#### Responsible product development
-
-- Open source
-- Ethical AI
-- Human rights issues from product use
-- Environmental impact considerations for product
-- Data processing and storage
-
-## Our Progress
-
-Please read our [ESG report](/handbook/company/esg/) to learn about our progress.
-
-## ESG Training
-
-To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/ESG-Training/).
-
-## Measuring Results
-
-Disclosing our progress through data aligns with our [Transparency](/handbook/values/#transparency) and [Results](/handbook/values/#results) values. We have a section in our Handbook devoted to [Key Performance Indicators](/handbook/company/kpis/) (KPIs) where we update our progress regularly. Every part of GitLab has KPIs linked to the company Objectives and Key Results [(OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the handbook.
+At this time, GitLab does not offer a matching gifts program.

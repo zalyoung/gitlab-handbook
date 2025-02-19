@@ -2,7 +2,7 @@
 title: Renewals Managers
 ---
 
-![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
+![Global Renewals Organiztion](/images/customer-success/renewals-managers/home/GitLab_GR_BLK.gif)
 
 Global Renewals Organization
 

@@ -2,7 +2,7 @@
 title: Test Platform in Cells
 ---
 
-Cells is a project that spans the entirety of GitLab. Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
+Cells is a project that spans the entirety of GitLab. More information on what Cells is and how it is being developed is on the [Cells hanbook page](_index.md). Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
 This approach has the following requirements:
 
@@ -24,6 +24,7 @@ The testing strategy for Cells follows our practice of testing at the correct le
   - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
   - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
   - Performance testing
+    - We will the the Observability tools to do performance analysis on the live environments
     - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
     - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
 
@@ -54,7 +55,7 @@ A majority of the testing we will need to do will exist at the `Single Cell` lev
 
 #### Feature
 
-This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing.
+This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have one E2E test suite defined: `smoke`.
 
 #### Single Cell
 
@@ -76,43 +77,19 @@ Organizations provides the capability for a company to have the ability to bette
 
 ### Router
 
-The router is currently being defined, will add details once specifications are defined. It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined.
+The [HTTP Router definition](../../architecture/design-documents/cells/topology_service.md) and the [SSH Router definition](../../architecture/design-documents/cells/ssh_routing_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. The [Multiple Cells](#multiple-cells) testing will also cover the RouterHowever there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. Router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
 
-### QA Cell
+### Topology Service
 
-### Experiment Cell
+The [Topology Service Blueprint definition](../../architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined.
 
-As part of migrating to Cells architecture, there will be an Experiment Cell to enable testing. We are [discussing how to use it](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2363). As we are rolling out Cells 1.0, the Experiment Cell will be used to test out and support implementing the features needed to support the Cells. Long term it will be an environment we can run Cells specific tests against as part of the deployment process. It will be deployed to as part of Ring 0.
+### Pre-QA Cell
+
+The [Pre-QA Cell](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293) is being used for deployment testing purposes and may make use of the E2E test suite as part of deployment testing, but as a verification that the deployment was successful rather than as a feature/functionality test. It is deployed in Ring 0.
 
 ## Performance Testing
 
-Just like our feature testing, performance testing can be done on the [testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html). An important thing to note is that performance results from one level are not directly mappable to another level, i.e. a code change that improved a unit or integration test to run 1 second faster will not map to a 1 second improvement in production, there are too many other variables that affect performance to directly map results across levels. How we can use them is as an indicator that we can use in a fast feedback loop, i.e. if we see a test run 2x faster, it should help the performance problem; if it runs 2x slower, it will probably hurt...
-
-### Unit Testing
-
-At the lowest level, we have several gems included in GitLab that can be used to test performance during development that we can use to get feedback before the code is finalized:
-
-- [derailed_benchmarks](https://github.com/zombocom/derailed_benchmarks)
-- [benchmark-memory](https://github.com/michaelherold/benchmark-memory)
-- [benchmark-ips](https://github.com/evanphx/benchmark-ips)
-
-We also have [rspec-benchmark](https://github.com/piotrmurach/rspec-benchmark) so we can specifically test for performance results in rspec.
-
-#### Database testing
-
-Analyzing slow queries, number of queries generated by page views / actions
-
-#### Observability testing
-
-Observability testing is actively making use of Observability tools to detect trends that would develop into performance issues. Observability can be enhanced with [synthetic testing and monitoring](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/3637). We are currently investigating using our Grafana dashboards to detect performance issues.
-
-#### System testing
-
-This level is covered by [GPT](https://gitlab.com/gitlab-org/quality/performance) and [GBPT](https://gitlab.com/gitlab-org/quality/performance-sitespeed).
-
-Once the application is deployed to live environments, traditional performance testing (load testing, stress testing, soak testing,...) can begin with the use of Observability tools to analyze the performance of various components of GitLab (slow sql in Postgres, long running jobs in sidekiq,...). Note, performance tests are not run against live environments per [GPT documentation](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/environment_prep.md#creating-an-admin-user). All performance tests will be run on transitory environments.
-
-For more details on our System level performance testing strategy, please refer to the document covering why customers should trust our [Dedicated/Cells/FedRAMP performance testing approach](https://internal.gitlab.com/handbook/engineering/dedicated-performance-test-strategy/).
+Our performance testing approach is a [multi-layered approach](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/performance) that is focused on Shifting Left and Right performance. Shift Left moves performance testing earlier in the process, Shift Right makes data from live environments (production) more Observable so that it can Shift Left.
 
 ## Tracking Issues
 

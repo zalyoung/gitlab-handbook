@@ -147,7 +147,7 @@ For example, it may even be undesirable for a SaaS customer on GitLab.com to acc
 
 In GitLab, we track which projects a user interacted with. Based on that, we conducted an analysis of how many projects, groups and top-level namespaces users interact with on GitLab.com. Here, interaction is defined as performing any kind of action on a project - opening and just looking at a project is not enough in this case (i.e. we're looking at actions that lead to an event). Note this includes users without any activity.
 
-![user-interaction-middle](root-namespace-sharding/user-interaction-middle.png)
+![user-interaction-middle](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/root-namespace-sharding/root-namespace-sharding/user-interaction-middle.png)
 
 A summary and the takeaways are:
 

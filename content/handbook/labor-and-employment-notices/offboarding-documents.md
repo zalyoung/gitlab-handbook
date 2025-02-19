@@ -11,7 +11,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Alabama
 
-- [Unemployment Compensation Documents](https://labor.alabama.gov/docs/dept_type.aspx)
+- [Unemployment Compensation Documents](https://labor.alabama.gov/docs/Default2.aspx)
 
 ### Alaska
 

@@ -59,7 +59,7 @@ There are four levels of access - `Admin`, `Author`, `Reporter`, `Viewer`, and `
 - `Reporter` access allows users to view all analytics pages within our instance of PathFactory.
 - `Sales User` is anyone who has a valid email domain associated with our PathFactory instance, but who does not have a login. These users are not able to login to PathFactory, but they will be able to share any content tracks that `Admins` select on the `Sales Configuration` page.
 
-For more info on the capabilities of each role, [see the knowledge base article](https://support.pathfactory.com/kb/what-are-the-different-user-roles/).
+For more info on the capabilities of each role, [see the knowledge base article](https://support.pathfactory.com/kb/overview-of-user-roles-in-pathfactory/).
 
 ### Rules of Engagement by Team
 
@@ -317,7 +317,6 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 **Please Note:**  PathFactory activity is tied into the [MQL scoring model](/handbook/marketing/marketing-operations/marketo/#scoring-model). This means that you do not need to add form strategy to a content track if entry point is from a landing page.
 
 - [Form strategy best practices](https://support.pathfactory.com/kb/form-strategy-best-practices/)
-- [Form strategy FAQ](https://support.pathfactory.com/kb/forms-strategy-faq/)
 
 **GDPR Considerations:** When using time-based form strategy, aim for at least 15-30 seconds in order for the user to have plenty of time to accept the cookie consent pop-up prior to filling out the form.
 

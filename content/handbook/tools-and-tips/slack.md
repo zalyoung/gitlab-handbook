@@ -11,7 +11,7 @@ description: "Slack usage and tips at GitLab"
 
 Fill in your Slack profile, as we use Slack profiles as our Team Directory to stay in touch with other team members. Important fields include:
 
-- Photo
+- Photo (unobscured photo of your face rather than an artificial avatar, for better human connection and easier recognition)
 - Title (should be your GitLab job title)
 - GitLab.com profile (set the Display text to your @gitlabusername so that people don't need to click the link to identify your username)
 - Time zone (useful for other GitLab team members to see when you're available)
@@ -136,7 +136,7 @@ For details, see [Manage animated images and emoji](https://slack.com/intl/en-gb
 
 Slack allows you to set your [status](https://slack.com/blog/productivity/set-your-status-in-slack) for your fellow GitLab team members by using your choice of standard messages such as "Away" and "Lunch" or a custom message and your choice of emoji.
 
-If you're off work for a holiday or vacation you can update your status by using [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}).
+If you're off work for a holiday or vacation you can update your status by using [Time Off by Deel](/handbook/people-group/paid-time-off/#communicating-your-time-off).
 This is a great way to let your team know whether you are available.
 
 To have your Slack status automatically set to "In a meeting" based on your Google Calendar, add the [Google Calendar app](https://gitlab.slack.com/apps/ADZ494LHY-google-calendar?next_id=0) to your Slack account.
@@ -163,7 +163,7 @@ This will post a preview of the link alongside the message.
 You can remove the unfurled preview of the link by hitting the "x" in the top-left of the preview.
 This will then prompt you to confirm removing the attachment, which you can hit "Yes, remove".
 
-![Unfurl attachment removal](/handbook/tools-and-tips/images/unfurl-remove.png)
+![Unfurl attachment removal](/images/tools-and-tips/unfurl-remove.png)
 
 In the confirmation prompt you may also see a checkbox to *"Disable future attachments from this website"*.
 As a workspace admin if you select the disable option **this will denylist the link/domain across the workspace and will impact every user**.

@@ -2,6 +2,9 @@
 title: "GitLab CI/CD - Hands-On Lab: Working with CI/CD Components"
 description: "This Hands-On Guide demonstrates how to add CI/CD components to a pipeline"
 ---
+
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to add a CI/CD component to your GitLab project.

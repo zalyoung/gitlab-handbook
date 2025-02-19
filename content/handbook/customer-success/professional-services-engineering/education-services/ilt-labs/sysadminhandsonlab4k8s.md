@@ -15,7 +15,7 @@ The objective of this lab is to demonstrate how to upgrade a GitLab instance.
 
 1. In the left sidebar, select **Help > Help**.
 
-1. At the top of the page, you will see your full GitLab version. For this lab, you will see `17.4.1-ee`. 
+1. At the top of the page, you will see your full GitLab version. For this lab, you will see `17.4.1-ee`.
 
 ## Task B. View the available GitLab versions
 
@@ -51,9 +51,9 @@ With our target GitLab version identified, we can now run an upgrade of GitLab.
     kubectl get secrets <rails-secret-name> -o jsonpath="{.data['secrets\.yml']}" | base64 --decode > gitlab-secrets.yaml
     ```
 
-1. Navigate to `https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/`. 
+1. Navigate to `https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/`.
 
-1. Input your current GitLab version (`17.4.1`) and your target version (`17.5.0`). 
+1. Input your current GitLab version (`17.4.1`) and your target version (`17.5.0`).
 
 1. Ensure that **Edition** is set to **Enterprise**, and Distro is set to **Ubuntu**.
 
@@ -77,7 +77,7 @@ You should be met with a message `HTTP 502: Waiting for GitLab to boot`. Wait at
 
 At this point, you have been redirected to the login page of your instance. To validate your upgrade, complete the following steps:
 
-1. Authenticate to your GitLab instance as the root user. 
+1. Authenticate to your GitLab instance as the root user.
 
 1. In the left sidebar, select **Admin**.
 
@@ -87,7 +87,7 @@ At this point, you have been redirected to the login page of your instance. To v
 
     > As an example, after this upgrade you will likely see the migration `BackfillIssuesCorrectWorkItemTypeId: issues`. Try to find this migration in either the **Queued** or **Finished** tab.
 
-1. To validate your version, in the left sidebar, select **Help**. In the resulting menu, you should now see version `17.5`. 
+1. To validate your version, in the left sidebar, select **Help**. In the resulting menu, you should now see version `17.5`.
 
 ## Lab Guide Complete
 

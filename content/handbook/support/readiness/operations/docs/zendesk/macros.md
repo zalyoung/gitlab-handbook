@@ -38,38 +38,25 @@ exactly.
 
 #### Creating a new macro without managed content
 
-This is a bit simpler than creating one with managed content. You will start by
-creating a placeholder macro within Zendesk itself (as you will need the ID for
-the sync repo). To do this, open up the admin page of your corresponding Zendesk
-instance ([Global](https://gitlab.zendesk.com/admin) or
-[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
-`Workspaces` on the left-hand side, and then click `Macros`. On this page, you
-will want to click `Add macro`. This will bring up the new macro page.
+This is a bit simpler than creating one with managed content. You simply need to
+create the file within the sync repo itself. The sync processes will handle
+creating it within Zendesk itself.
 
-On this page, you will do the following:
-
-- Set the name to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
-  link to the issue you are working out of).
-- Set an action of:
-  - `Brand` `GitLab`
-
-After doing so, click the blue `Create` button. You will then locate the
-placeholder macro you just created and get the ID value from it (if you click
-it, you can see it in the URL).
-
-From here, create the merge request in the sync repo project.
+If the macro is "simple" (only involves status changes, adding tags, adding a
+comment, changing assignee, etc.), the processor will create the YAML file for
+you!
 
 #### Updating an existing macro
 
 Updating an existing macro is considerably easier than creating a new one.
-Simply change the code in the source project and it will occur via the
+Simply change the code in the [macro managed content source project](https://gitlab.com/gitlab-com/support/zendesk-global/macros) and it will occur via the
 sync repo.
 
 The one caveat you need to consider is when you are changing a macro to allow
 for managed content (or to disable it using managed content).
 
 If you are adding managed content for the automation, see
-[Creating a new macro with managed content](creating-a-new-macro-with-managed-content)
+[Creating a new macro with managed content](#creating-a-new-macro-with-managed-content)
 as that process will detail setting up the connection.
 
 If you are removing managed content for the macro, you will simply change the

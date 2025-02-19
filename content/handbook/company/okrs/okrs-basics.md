@@ -82,7 +82,7 @@ The following formula can be used to write Key Results:
 Verb + what you're going to measure + from "x to y".
 **Key Result Example**: 100% of employees certified on OKR expectations and process.
 
-For information on getting started with OKRs and writing basic OKRs, consider reviewing the [OKRs 101 lessons on What Matters](https://www.whatmatters.com/get-started). The ["6 Principles of setting OKRs"](https://primalogik.com/blog/okr-examples-best-practices/#How-to-Set-OKRs) may also be helpful.
+For information on getting started with OKRs and writing basic OKRs, consider reviewing the [OKRs 101 lessons on What Matters](https://www.whatmatters.com/okrs-explained). The ["6 Principles of setting OKRs"](https://primalogik.com/blog/okr-examples-best-practices/#How-to-Set-OKRs) may also be helpful.
 
 Teams should limit the number of OKRs they commit to so they have reasonable bandwidth to deliver. When planning OKRs:
 
@@ -133,4 +133,4 @@ This aligns with a focus on outcomes and business results instead of KRs trackin
 
 - [With Goals, FAST beats SMART](https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/)
 - [Measure What Matters by John Doerr](https://www.whatmatters.com)
-- [A Modern Guide to Lean OKRs](https://worldpositive.com/a-modern-guide-to-lean-okrs-part-i-c4a30dba5fa1)
+- [A Modern Guide to Lean OKRs](https://obvious.com/ideas/a-modern-guide-to-lean-okrs-part-i/)

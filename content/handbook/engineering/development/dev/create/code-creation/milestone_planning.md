@@ -42,7 +42,7 @@ The goal of issue refinement is to have engineers review issues to ensure they a
     - Team members, regardless of their timezone, can review issues with the "workflow::refinement" label at their convenience
     - Use the issue comments for discussion and clarification. You may loop in other team members or domain experts from outside the team to provide further context and/or give feedback on a proposed solution.
     - Individual team members are encouraged to schedule regular, asynchronous backlog refinement sessions on their calendars
-    - Use the [Workflow Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5998095) to make issues needing refinement easy to find
+    - Use the [Code Creation Refinement Board](https://gitlab.com/groups/gitlab-org/-/boards/8994789) to make issues needing refinement easy to find
 4. Refinement Tasks:
     - Team members should focus on the following when refining an issue:
         - Clarify the issue description and requirements

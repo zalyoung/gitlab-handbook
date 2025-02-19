@@ -42,7 +42,7 @@ In conventional organizations, multiple departments may maintain their own versi
 
 **Resource:** [The importance of a handbook-first approach to documentation](/handbook/company/culture/all-remote/handbook-first/) (article)
 
-**Resource:** [How Strong Documentation Powers Async Work](https://www.workplaceless.com/blog/how-strong-documentation-powers-async-work) (article)
+**Resource:** [How Strong Documentation Powers Async Work](https://www.workplaceless.com/blog/documentation-strong-async-work) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for Single Source of Truth" %}}
@@ -68,14 +68,6 @@ A traditional business problem is "how do we get the right information to the ri
 In practice, a TeamOps organization uses a knowledge management system that allows any team member to view information related to all other functions. A marketing manager, for example, would be able to view a sales teams' work and data, without requesting special access. The system is free of walls and information silos. The result is that, instead of needing to create a system for unblocking access to information, management's role is to educate team members on how to use the information system, how to organize data, and how to self-serve.
 
 This type of system scales with much less effort, and scalable leadership is effective leadership. By writing guidance down transparently — in a way that others can modify, validate, or contribute to — leadership scales beyond an individual or team, and even beyond the organization.
-
-{{% details summary="Examples and resources for public by default" %}}
-**Example:** [Livestreaming company meetings on a branded YouTube channel](https://youtu.be/XcqloQezOUg)
-
-Shortly after GitLab Chief Revenue Officer Michael McBride joined the company in 2018, he [livestreamed a 1-to-1 meeting](https://youtu.be/XcqloQezOUg) with GitLab co-founder and CEO Sid Sijbrandij. As part of McBride's onboarding, Sid was asked to provide an impromptu pitch of GitLab.
-
-In a conventional organization, this interaction would likely be private and not recorded. By recording it and streaming it to the public on a branded YouTube channel, everyone is more informed — the two individuals on the call; GitLab team members past, present, and future; the wider community; customers and partners; candidates; et al.
-{{% /details %}}
 
 {{% details summary="Change management support for public by default" %}}
 **Quick Start Tips:**
@@ -110,7 +102,7 @@ To minimize miscommunications that can stem from cultural diversity, contextual 
 - *Team:* Build a "suggestion box" communication channel or form where all team members can make suggestions for Collaboration Guideline additions.
 - *Company:* Update your company's onboarding and continuing education programs to include training about collaboration guidelines.
 
-**Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
+**Recommended TeamOps Partner:** [Code Traveller HR](https://www.codetravellerhr.com/) (consultant)
 {{% /details %}}
 
 ## Shared values
@@ -140,7 +132,7 @@ Starting communication and collaboration with an external team (be it prospectiv
 - *Team:* When beginning a new project, discuss which values should be specifically prioritized for project success, and how they will influence the project roadmap or group dynamics.
 - *Company:* Update your company's onboarding and continuing education programs to include training about your company values.
 
-**Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
+**Recommended TeamOps Partner:** [Code Traveller HR](https://www.codetravellerhr.com/) (consultant)
 {{% /details %}}
 
 ## Inclusivity

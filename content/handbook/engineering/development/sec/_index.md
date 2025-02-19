@@ -2,7 +2,7 @@
 title: Sec Section
 description: >-
   The Sec Section is composed of development teams working on Secure
-  and Govern features of the GitLab DevOps Platform.
+  and Software Supply Chain Security features of the GitLab DevOps Platform.
 ---
 
 <div class="diagramwrapper">
@@ -146,8 +146,6 @@ The following teams comprise the sub-department:
   - Authentication group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authentication)
   - Authorization group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authorization)
   - Compliance group - [handbook](software-supply-chain-security/compliance/)
-  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
-  - Threat Insights group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/threat-insights/)
 - Secure stage - [handbook](/handbook/engineering/development/sec/secure/)
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
   - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/)
@@ -155,6 +153,9 @@ The following teams comprise the sub-department:
   - Secret Detection group - [handbook](/handbook/engineering/development/sec/secure/secret-detection/)
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
   - API Security - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/api-security/)
+- Security Risk Management
+  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
+  - Threat Insights group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-insights/)
 
 It is important to delineate who the EM and PM DRIs are for every functionality, especially where this may not be obvious. This is documented on a dedicated [delineation page](delineate-sec.html).
 
@@ -192,7 +193,7 @@ There may be projects that should belong in `secure` or `software-supply-chain-s
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
 
-1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners) file to the project, for example:
+1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file to the project, for example:
 
    ```shell
    [Maintainers]
@@ -247,17 +248,16 @@ When creating a new project, all settings should be left to the default options,
       - `New issue URL`
          - `https://gitlab.com/gitlab-org/gitlab/issues/new`
 
-1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
+1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/) settings:
 
-   - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
-      - `Allowed to merge`
-         - `Maintainers`
-      - `Allowed to push and merge`
-         - `No one`
-      - `Allowed to force push`
-         - `Disabled`
-      - `Code owner approval`
-         - `Enabled`
+   - `Settings -> General -> Visibility, project features, permissions`
+      - `Project visibility`
+         - `Public`
+      - `Additional options`
+         - `Users can request access`
+            - `Disabled`
+      - `Container Registry`
+         - `Only Project Members`
    - `Settings -> Repository -> Protected branches`
       - `Allowed to merge`
          - `Maintainers`
@@ -272,6 +272,7 @@ When creating a new project, all settings should be left to the default options,
          - `v*`
       - `Allowed to create`
          - `Maintainers`
+         - [GitLab Dev Service - Secure Stage - Analyzers Automation](https://gitlab.com/gl-service-dev-secure-analyzers-automation)
    - `Settings -> Merge Requests`
       - `Squash commits when merging`
          - `Require`
@@ -404,7 +405,7 @@ The members of each google group consists of stable counterparts and the correct
 ## Staying Informed and Informing Team Members
 
 - [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/#communication).
-- Slack channels #s_secure and #s_govern are informative since they are all part of Sec Section.
+- Slack channels #s_secure and #s_software-supply-chain-security are informative since they are all part of Sec Section.
 
 ## Planning in the Section
 
@@ -460,6 +461,12 @@ To streamline our workflow and ensure efficient collaboration between the Engine
 
 The Sec engineering teams do not provide support directly to customers. Instead engineers collaborate with our Customer Support Engineers via the [process on the Sec Sub-department support project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/).
 
+## Working on security tooling requests
+
+As GitLab grows, the Sec teams continue to build tooling that makes it easier to securely manage users for our largest customers. In doing so, managing team members on GitLab.com is an excellent use case where the features can be internally dogfooded before they are rolled out to our users. The Security and CorpSec teams can add the label `security tooling`, `section::sec` and the respective priority `priority::1/2/3` to tag an item that will help in such management of GitLab team members and needs to be added to the backlog. The [features page](/handbook/product/categories/features/) is handy in identifying where a particular functionality may belong, such that the correct EM/PM for the group can be tagged in the issue.
+
+The backlog for these issues can viewed at [Sec Security Tooling - issue](https://gitlab.com/groups/gitlab-org/-/boards/9065128?label_name[]=security%20tooling&label_name[]=section%3A%3Asec) for individual issues. Each month, product and security counterparts will [review these requests](https://gitlab.com/gitlab-com/Product/-/issues/?sort=created_date&state=opened&label_name%5B%5D=security%20tooling&first_page_size=100) and ensure that the priority items are scheduled into the roadmap.
+
 ## How to work with the Quality team
 
 ### Frontend Responsibilities
@@ -474,7 +481,7 @@ The Sec engineering teams do not provide support directly to customers. Instead 
 
 ### Communicating changes that may break tests
 
-Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then #quality on slack or the [triage DRI](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) dependent on severity.
+Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then `#s_developer_experience` on Slack or the [triage DRI](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) dependent on severity.
 
 ## Section Retrospectives
 

@@ -5,7 +5,7 @@ description: "Information about the Geo Team"
 
 ## The Geo Team
 
-[Geo](https://about.gitlab.com/solutions/geo/) is a [Premium](https://about.gitlab.com/pricing/premium/) feature, built to help speed up the development of distributed teams by providing
+[Geo](https://docs.gitlab.com/ee/administration/geo/index.html) is a [Premium](https://about.gitlab.com/pricing/premium/) feature, built to help speed up the development of distributed teams by providing
 one or more read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch large
 repositories and projects, or can be part of a Disaster Recovery solution.
 

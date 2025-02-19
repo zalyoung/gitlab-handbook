@@ -26,7 +26,7 @@ GitLab's Security Incident Response Team is the first line of defense for the Gi
 
 Have you ever debated why something is right or  wrong, questioned a rule and wondered how to get around it?
 Do you prefer the uneasiness of ambiguity over the monotony of always knowing what to do?
-If you answered yes to the above, [Trust and Safety]({{< ref "trustandsafety" >}}) might be the place you discover what happens behind the curtains… or not, who knows?
+If you answered yes to the above, [Trust and Safety](/handbook/security/security-operations/trustandsafety/) might be the place you discover what happens behind the curtains… or not, who knows?
 
 The Trust and Safety teams' purpose is to try and ensure that users of GitLab.com operate within the scope of the [GitLab Website Terms of Use](https://about.gitlab.com/terms/#gitlab-com), more specifically, our Acceptable Use Policy (AUP). As the name implies, the AUP is a policy that governs what the business has deemed to be the acceptable use of GitLab.com.
 The AUP mainly consists of 3 parts:
@@ -53,4 +53,4 @@ If you think this is something you would be interested in learning about, maybe 
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

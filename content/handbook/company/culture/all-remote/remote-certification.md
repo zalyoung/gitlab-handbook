@@ -11,7 +11,7 @@ twitter_creator: "@gitlab"
 ![GitLab all-remote team](/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg)
 {style="max-width: 50%;"}
 
-GitLab is a pioneer in the all-remote space. As one of the largest all-remote companies in the world, we have developed a custom course to test and apply knowledge attained throughout the [all-remote]({{< ref "_index.md" >}}) section of the handbook. Emerging leaders must quickly learn and deploy remote-first practices and skills while expanding their knowledge of remote management and overall remote fluency.
+GitLab is a pioneer in the all-remote space. As one of the largest all-remote companies in the world, we have developed a custom course to test and apply knowledge attained throughout the [all-remote](_index.md) section of the handbook. Emerging leaders must quickly learn and deploy remote-first practices and skills while expanding their knowledge of remote management and overall remote fluency.
 
 Presented at a self-directed pace, the GitLab Remote Work Foundation course is designed to give [new managers](being-a-great-remote-manager/) and [individual contributors](getting-started/) an opportunity to master all-remote business concepts and build key skills in remote subject areas.
 
@@ -49,4 +49,4 @@ If you have questions, please reach out to our [Learning & Development team](/ha
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

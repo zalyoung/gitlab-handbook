@@ -1,5 +1,5 @@
 ---
-title: Support Team Handbook - Enhanced Support Offerings
+title: Enhanced Support Offerings
 description: Everything about Support's Enhanced Support Offerings
 canonical_path: "/handbook/support/enhanced-support-offerings"
 ---

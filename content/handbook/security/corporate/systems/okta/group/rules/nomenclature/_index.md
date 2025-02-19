@@ -4,7 +4,7 @@ title: Okta Group Rule Nomenclature
 
 ## Overview
 
-Okta Groups Rules need to follow standardized naming conventions for better discovery, management, and auditing. 
+Okta Groups Rules need to follow standardized naming conventions for better discovery, management, and auditing.
 
 ### Guide
 

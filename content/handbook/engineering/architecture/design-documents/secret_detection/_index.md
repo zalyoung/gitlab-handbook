@@ -1,11 +1,11 @@
 ---
 title: Secret Detection as a platform-wide experience
 status: ongoing
-creation-date: "2022-11-25"
+creation-date: "2024-12-10"
 authors: [ "@theoretick", "@vbhat161", "@ahmed.hemdan" ]
 coach: [ "@theoretick" ]
-approvers: [ "@connorgilbert", "@amarpatel" ]
-owning-stage: "~devops::secure"
+approvers: [ "@abellucci", "@amarpatel" ]
+owning-stage: "~devops::application security testing"
 participating-stages: [ "~devops::systems" ]
 toc_hide: true
 ---
@@ -15,13 +15,9 @@ toc_hide: true
 
 ## Summary
 
-Today's secret detection feature is built around containerized scans of repositories
-within a pipeline context. This feature is quite limited compared to where leaks
-or compromised tokens may appear and should be expanded to include a much wider scope.
+Today secret detection focuses on scanning repositories in a pipeline. We aim to broaden the scope of Secret Detection to cover more areas where leaks or compromised tokens might surface.
 
-Secret detection as a platform-wide experience encompasses detection across
-platform features with high risk of secret leakage, including repository contents,
-job logs, and project management features such as issues, epics, and MRs.
+Evolving secret detection into a comprehensive, platform-wide experience, will extend coverage to high-risk areas.  We will expand the secret detection feature set to detect secrets before they are pushed, in job logs, and in issues, epics, and merge requests.
 
 ## Motivation
 
@@ -67,20 +63,19 @@ Target object types refer to the scanning targets prioritized for detection of l
 
 In order of priority this includes:
 
-1. non-binary Git blobs under 1 megabyte
-1. job logs
-1. issuable creation (issues, MRs, epics)
-1. issuable updates (issues, MRs, epics)
-1. issuable comments (issues, MRs, epics)
+1. Non-binary Git blobs under 1 megabyte
+1. Job logs
+1. Container images
+1. Creating and updating issues, epics and MRs
+1. Comments on issues, epics and MRs
 
-Targets out of scope for the initial phases include:
+Targets out of scope for now include:
 
-- non-binary Git blobs over 1 megabyte
-- binary Git blobs
+- Non-binary Git blobs over 1 megabyte
+- Binary Git blobs
 - Media types (JPEG, PDF, ...)
 - Snippets
 - Wikis
-- Container images
 - External media (Youtube platform videos)
 
 ### Token types
@@ -192,7 +187,7 @@ for past discussion around scaling approaches.
 
 ### Detection engine
 
-Our current secret detection offering uses [Gitleaks](https://github.com/zricethezav/gitleaks/)
+Our current secret detection offering uses [Gitleaks](https://github.com/gitleaks/gitleaks/)
 for all secret scanning in pipeline contexts. By using its `--no-git` configuration
 we can scan arbitrary text blobs outside of a repository context and continue to
 use it for non-pipeline scanning.

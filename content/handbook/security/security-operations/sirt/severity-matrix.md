@@ -4,7 +4,7 @@ description: " "
 weight: 30
 ---
 
-Incidents will be classified using `Priority` and `Severity` labels.  SIRT will use the criteria defined below when assigning labels and the [SIRT Escalation Guide]({{< ref "sirt#-engaging-sirt" >}}) for escalations.
+Incidents will be classified using `Priority` and `Severity` labels.  SIRT will use the criteria defined below when assigning labels and the [SIRT Escalation Guide](/handbook/security/security-operations/secops-oncall/) for escalations.
 
 ## Priority
 
@@ -47,6 +47,7 @@ There are a few factors we take into account when determining impact. Every time
 - One particular application
 - A customer's instance
 - Your own machine
+- GitLab Critical Security Control Systems (IDS/IPS, MDMs, EDR, CDR, IAM, SIEM, network security systems, change detection mechanisms, audit logging mechanisms, automated security testing tools, segmentation controls)
 
 **Exploitability** - How easy is it to exploit the issue?
 

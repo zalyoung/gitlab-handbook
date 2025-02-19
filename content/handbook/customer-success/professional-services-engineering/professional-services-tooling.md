@@ -17,7 +17,7 @@ We use Python for the majority of our backend development. Our dependency manage
 
 ### REST API
 
-Our default REST API framework is [Flask](https://flask.palletsprojects.com/en/2.2.x/).
+Our default REST API framework is [Flask](https://flask.palletsprojects.com/en/stable/).
 
 ### Default Libraries
 

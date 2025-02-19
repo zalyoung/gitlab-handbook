@@ -56,7 +56,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 ### 🗣️ Capturing Customer Engagements
 
 To improve our understanding and traceability of customer needs and to ensure followups action items are systematically done, we want to capture customer engagement notes in a SSoT.
-Please use the confidential issues below to capture all customer engagements for the two feature categories:
+Please use the confidential issues below to capture all customer engagements for the feature categories:
 
 - [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
 - [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
@@ -71,6 +71,18 @@ We highly value user feedback! Please use the epics below to capture feedback an
 - [Workspaces User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/12601)
 
 For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue.
+
+### 🤝 Customer Collaboration Issues Dashboard
+
+At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to collaborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
+
+Use the comment template to apply the approrpiate labels for the feature categories:
+
+- Workspaces - `/label ~"Category:Workspaces" ~"customer-collaboration"`
+
+You can find the customer collaboration issues dashboard for the feature categories:
+
+- [Workspaces](https://gitlab.com/gitlab-org/gitlab/-/issues/517442)
 
 ### Group Metrics Dashboards
 
@@ -100,7 +112,7 @@ The table below briefly outlines the objectives and key details of regular team 
 
 ### 🖖 Weekly EM Updates
 
-Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/?sort=title_asc&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
+Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=created_date&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
 
 ### 😷 Issue Workflow Hygiene
 
@@ -229,7 +241,7 @@ graph TD;
 
 This process identifies and validates higher-priority issues to be worked on in the upcoming releases. It is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), and should consist of many of the same steps and processes.
 
-In addition to validating features, this process can also result in Engineering identifying high-priority issue which are necessary to [address Technical Debt or "Friction"](https://www.mechanical-orchard.com/post/friction-over-debt?utm_campaign=Boost_friction_debt).
+In addition to validating features, this process can also result in Engineering identifying high-priority issue which are necessary to [address Technical Debt or "Friction"](https://www.mechanical-orchard.com/insights/friction-over-debt).
 
 There may be concerns about over-committing too many issues to the `%"Next 1-3 releases"` release. However:
 
@@ -464,15 +476,43 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/ee/api/graphql/index.html#deprecation-and-removal-process).
 
-In such cases where we have follow up tasks for future releases such as removing an ignore rule, removing a deprecated field from GraphQL, finalizing background migrations, etc
+In such cases where we have pending or follow up tasks for future releases such as removing an ignore rule, removing a deprecated field from GraphQL, finalizing background migrations, etc., we must create follow up issues so we do not forget to complete the work in the future. Here is the process to follow:
 
 **Create a Followup Issue:**
 
 1. **References:** Link the issue to the original issue that spawned it.
-2. **Milestone:** Assign it a specific milestone - i.e Drop column (17.5) -> Followup remove ignore rule (17.6).
-3. **Label:** Assign these labels ~refined, ~prioritized, ~due-date-followup to the issue.
-4. **Due Date:** It should have a due date 1 week into the assigned milestone.
-5. **Epic:** Assign it to the Workspaces [Technical Debt Work](https://gitlab.com/groups/gitlab-org/-/epics/11041) epic.
+1. **Label:** Assign these labels:
+    - `~due-date-followup`
+    - `~refined`
+    - `~webide-workflow::prioritized` or `~workspaces-workflow::prioritized`
+1. **Milestone:** Assign it a specific milestone - i.e Drop column (17.5) -> Followup remove ignore rule (17.6).
+1. **Iteration:** Assign it to the current/latest iteration for Workspaces or Web IDE (this is required in order to assign a specific milestone)
+1. **Due Date:** Assign a due date 1 week into the assigned milestone. To see the dates for the milestone, you can click "Preview" after adding the Milestone, then open the milestone link in a new tab, and find its date range at the top of the page.
+1. **Epic:** Assign it to the [WebIDE | Technical Debt/Friction](https://gitlab.com/groups/gitlab-org/-/epics/14656) or [Workspaces Technical Debt Work](https://gitlab.com/groups/gitlab-org/-/epics/11041) epic.
+
+Here's a shortcut of label commands which you can use to easily apply this metadata.
+
+Workspaces:
+
+```text
+/relate #<original issue number or link>
+/milestone %"<target milestone>"
+/due date <one week into milestone's date, obtained from clicking on milestone link>
+/label ~due-date-followup ~refined ~workspaces-workflow::prioritized
+/iteration [cadence:"Workspaces"] --current
+/epic &11041
+```
+
+Web IDE:
+
+```text
+/relate #<original issue number or link>
+/milestone %"<target milestone>"
+/due date <one week into milestone's date, obtained from clicking on milestone link>
+/label ~due-date-followup ~refined ~workspaces-workflow::prioritized
+/iteration [cadence:"WebIDE"] --current
+/epic &14656
+```
 
 Note that these sorts of issues which we are _required_ to defer
 until future releases should not be confused with "tech debt"

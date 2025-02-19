@@ -62,7 +62,7 @@ We are using the Job Frameworks in the following programs:
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-  - We leveral Job Frameworks in Succession planning as we assess requirements for each role level.
+  - We leverage Job Frameworks in Succession planning as we assess requirements for each role level.
 
 ### Competencies per Job
 
@@ -74,7 +74,7 @@ This ranges from focus on own work to cross-company and external influence in te
 This ranges from low/moderate complexity and problem solving to highly complex issues that influence the accomplishment of long-term goals of GitLab.
 - **Leadership & People Management/Communication**: The level of leadership they display and how they communicate within the organization. We expect that individual contributors also show leadership in their roles.
 This ranges from within their team to executives and board members.
-- [**High Performing Teams**](/internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-indicators): Each characteristic of high performance is broken into 3 indicators to help you recognize and measure success.
+- [**High Performing Teams**](https://internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-indicators): Each characteristic of high performance is broken into 3 indicators to help you recognize and measure success.
 - [**Values Competencies**](/handbook/people-group/competencies/#values-competencies): Competencies that are aligned with our [CREDIT Values](/handbook/values/#credit).
 - [**Remote Working Competencies**](/handbook/people-group/competencies/#remote-work-competencies): Competencies that are aligned with our Remote working competencies.
 - [**Functional Competencies**](/handbook/people-group/competencies/#functional-competencies): Competencies that are specific per function. These are built out by each function themselves.
@@ -381,7 +381,7 @@ For example, we have a Product Manager, Product Marketing Manager, Engineering M
 
 We distinguish between types of stable counterparts to these Product Groups with:
 
-- Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/).
+- Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, and Product Design.
 - Complete Stable Counterparts - All team members assigned to product hierarchy from functions outside of the primary functions and defined in our [product categories page](/handbook/product/categories/). For example - we assign stable counterparts from Support, Product Marketing and Customer Success who are all considered part of the complete stable counterparts.
 
 A group has no reporting lines because we [don't want a matrix organization](/handbook/leadership/#no-matrix-organization).
@@ -410,7 +410,7 @@ The [Database group](/handbook/product/categories/#database-group) is focused on
 
 #### Product Group health Assessment
 
-The ability to execute the product roadmaps is dependent on the health of the product groups. Rather than rely on intuition, forceful personalities, or other ad-hoc methods, there are frameworks, such as the [Drexler-Sibbet model](https://www.kaizenko.com/drexler-sibbet-team-performance-model/), for developing high-performance teams. Furthermore, team health can be measured and improvements made systematically. For example, the [Spotify Health Check model](https://engineering.atspotify.com/2014/09/16/squad-health-check-model/) is a lightweight method of visualizing what can be improved within a team.
+The ability to execute the product roadmaps is dependent on the health of the product groups. Rather than rely on intuition, forceful personalities, or other ad-hoc methods, there are frameworks, such as the [Drexler-Sibbet model](https://www.kaizenko.com/drexler-sibbet-team-performance-model/), for developing high-performance teams. Furthermore, team health can be measured and improvements made systematically. For example, the [Spotify Health Check model](https://engineering.atspotify.com/2014/09/squad-health-check-model/) is a lightweight method of visualizing what can be improved within a team.
 
 The goal of product group health assessment is to enable groups to identify improvement areas. If they are used to gauge the relative "maturity" of the group, it creates a perverse incentive for groups to stack the results to make them look as good as possible. As a result, it is important that health assessments **should not** be used by management to compare and contrast product groups against each other. Instead, the leaders of the product group are the DRIs to manage assessments and iterate on improvement over time.
 

@@ -72,8 +72,8 @@ Note that many of these steps are done in the [onboarding script](https://gitlab
 
 #### Choosing the right Snowflake warehouse when running dbt
 
-Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview.html), which allow for dbt developers to allocate
-differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
+Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview), which allow for dbt developers to allocate
+differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
 
 If you have access to multiple warehouses, you can
 create an entry for each warehouse in your `profiles.yml` file. Having done this, you will be able to specify which warehouse should run when you call `dbt run`. This should be done
@@ -180,7 +180,7 @@ To test for SAFE coverage in model the same `safe_model_script` process can be u
 
 #### Cloning models locally
 
-This command enables zero copy cloning using DBT selections syntax to clone entire lineages. This is far faster and more cost-effective than running the models using DBT but do not run any DBT validations. As such, all dbt users are encouraged to use this command to set up your environment.
+This command enables zero copy cloning using dbt selections syntax to clone entire lineages. This is far faster and more cost-effective than running the models using dbt but do not run any dbt validations. As such, all dbt users are encouraged to use this command to set up your environment.
 
 **Prerequisites:**
 
@@ -197,7 +197,7 @@ To use the new `clone-dbt-select-local-user-noscript` command, you have to speci
 make DBT_MODELS="dim_subscription" clone-dbt-select-local-user-noscript
 ```
 
-This will clone the DBT model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
+This will clone the dbt model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
 
 **Tips:**
 
@@ -217,13 +217,13 @@ We are actively transitioning to the new `clone-dbt-select-local-user-noscript` 
 
 ##### Cloning into local user DB (python scripts - pre-`dbt clone`)
 
-- This clones the given DBT model lineage into the active branch DB (ie. `{user_name}_PROD`)
+- This clones the given dbt model lineage into the active branch DB (ie. `{user_name}_PROD`)
   - `make DBT_MODELS="<dbt_selector>" clone-dbt-select-local-user`
   - eg. `make DBT_MODELS="+dim_subscription" clone-dbt-select-local-user`
 
 ##### Cloning into branch DB
 
-- This clones the given DBT model lineage into the active branch DB (ie. `{branch_name}_PROD`), this is equivalent to running the CI pipelines clone step.
+- This clones the given dbt model lineage into the active branch DB (ie. `{branch_name}_PROD`), this is equivalent to running the CI pipelines clone step.
 - It does not work on Master.
   - `make DBT_MODELS="<dbt_selector>" clone-dbt-select-local-branch`
   - eg. `make DBT_MODELS="+dim_subscription" clone-dbt-select-local-branch`
@@ -258,13 +258,13 @@ These commands will ensure you get the newest versions of the containers and gen
 
 #### Command line cheat sheet
 
-This is a simplified version of the [primary command reference](https://docs.getdbt.com/reference/dbt-commands/).
+This is a simplified version of the [primary command reference](https://docs.getdbt.com/reference/dbt-commands).
 
 dbt specific:
 
 - [`dbt clean`](https://docs.getdbt.com/reference/commands/clean) - this will remove the `/dbt_modules` (populated when you run deps) and `/target` folder (populated when models are run)
 - [`dbt run`](https://docs.getdbt.com/reference/commands/run) - regular run
-- Model selection syntax ([source](https://docs.getdbt.com/docs/model-selection-syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
+- Model selection syntax ([source](https://docs.getdbt.com/reference/node-selection/syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
   - `dbt run --models modelname` - will only run `modelname`
   - `dbt run --models +modelname` - will run `modelname` and all parents
   - `dbt run --models modelname+` - will run `modelname` and all children
@@ -414,7 +414,7 @@ They are typically stored in a schema that indicates its original data source, e
 Sources are defined in dbt using a `sources.yml` file.
 
 - We use a variable to reference the database in dbt sources, so that if we're testing changes in a Snowflake clone, the reference can be programmatically set
-- When working with source tables with names that don't meet our usual convention or have unclear meanings, use identifiers to override source table names when the original is messy or confusing. ([Docs on using identifiers](https://docs.getdbt.com/reference/resource-properties/identifier/))
+- When working with source tables with names that don't meet our usual convention or have unclear meanings, use identifiers to override source table names when the original is messy or confusing. ([Docs on using identifiers](https://docs.getdbt.com/reference/resource-properties/identifier))
 
   ```yaml
   # Good
@@ -427,7 +427,7 @@ Sources are defined in dbt using a `sources.yml` file.
     - name: bizible2__bizible_attribution_touchpoint__c
   ```
 
-##### Source Models
+##### Source models
 
 We are enforcing a very thin source layer on top of all raw data.
 This directory is where the majority of source-specific transformations will be stored.
@@ -458,13 +458,13 @@ Key points to remember:
 - These models should be organized by source - this will usually map to a schema in the raw database
 - The name of source models should end with `_source`
 - Only source models should select from source/raw tables
-- Source models should not select from the `raw` database directly. Instead, they should reference sources with jinja, e.g. `FROM {{ source('bamboohr', 'job_info') }}`
+- Source models should not select from the `raw` database directly. Instead, they should reference sources with jinja, e.g. `FROM {{ source('workday', 'job_info') }}`
 - Only a single source model should be able to select from a given source table
 - Source models should be placed in the `/models/sources/<data_source/` directory
 - Source models should perform all necessary data type casting, using the `::` syntax when casting (You accomplish the same thing with fewer characters, and it presents as cleaner).
   - Ideally, source models should cast every column. Explicit is better than implicit. Test your assumptions
 - Source models should perform all field naming to force field names to conform to standard field naming conventions
-- Source fields that use reserved words must be renamed in Source models
+- Source fields that use reserved words must be renamed in source models
 - Source models for particularly large data should always end with an ORDER BY statement on a logical field (usually a relevant timestamp). This essentially defines the cluster key for the warehouse and will help to take advantage of [Snowflake's micro-partitioning](https://docs.snowflake.net/manuals/user-guide/tables-clustering-micropartitions.html).
 
 For a visual of how the source models relate to the raw tables and how they can act as a clean layer for all downstream modeling, see the following chart:
@@ -561,7 +561,7 @@ In the sensitive model, the dbt macro [`nohash_sensitive_columns`](https://dbt.g
 
 All hashing includes a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) as well. These are specified via environment variables. There are different salts depending on the type of data. These are defined in the [`get_salt` macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.get_salt) and are also set when using the dbt container for local development.
 
-In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt.html). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/enterprise-data/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
+In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/enterprise-data/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
 
 ##### Dynamic Masking
 
@@ -587,7 +587,7 @@ Sensitive columns to be masked dynamically are documented in the `schema.yml` fi
 
 A `post-hook` running the macro `mask_model` will need to be configured for any model that will need dynamic masking applied.
 
-The `mask_model` macro will first retrieve all of the columns of the given model that have a `masking_policy` identified. That information is passed to an other macro, `apply_masking_policy`, witch orchestrates the creation and application of Snowflake [masking policies](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy.html#create-masking-policy) for the given columns.
+The `mask_model` macro will first retrieve all of the columns of the given model that have a `masking_policy` identified. That information is passed to an other macro, `apply_masking_policy`, witch orchestrates the creation and application of Snowflake [masking policies](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy#create-masking-policy) for the given columns.
 
 The first step of the `apply_masking_policy` is to get the data type of the columns to be masked as the polices are data type dependant.  This is done with a query to the data base `information_schema` table with the following query:
 
@@ -699,7 +699,7 @@ The Data Team reservers the right to reject code that will dramatically slow the
 #### Model Configuration
 
 There are multiple ways to provide configuration definitions for models.
-The [dbt docs for configuring models](https://docs.getdbt.com/reference/model-configs/) provide a concise explanation of the ways to configure models.
+The [dbt docs for configuring models](https://docs.getdbt.com/reference/model-configs) provide a concise explanation of the ways to configure models.
 
 Our guidelines for configuring models:
 
@@ -793,7 +793,7 @@ This switch is controlled by the target name defined in the `profiles.yml` file.
 ##### Structure
 
 - Macros should be documented in either the `macros.yml` file or in a macros.md file in descriptions are long
-- Use the [arguments property](https://docs.getdbt.com/reference/macro-properties/) in `macros.yml` to describe the input variables
+- Use the [arguments property](https://docs.getdbt.com/reference/macro-properties) in `macros.yml` to describe the input variables
 
 ##### dbt-utils
 
@@ -896,7 +896,7 @@ An exception to the grouping recommendation is when we control the extraction vi
 
 ### Tags
 
-[Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags/) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
+[Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
 
 Tags can be added in YAML files or in the config settings of any model. Review the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml) file for several examples of how tags are used. Specific examples of adding tags for the [Trusted Data Framework](/handbook/enterprise-data/platform/dbt-guide/#tagging) are shown below.
 
@@ -1049,7 +1049,7 @@ Rowcount, and any other custom SQL tests will always be in the [Data Tests](http
 
 ##### Tagging
 
-Tagging the tests is an important step in adding new tests. Labeling the test with a [dbt tag](https://docs.getdbt.com/reference/resource-configs/tags/) is how we parse and identify tests when building trusted data dashboards. There are 2 ways to tag tests depending on their type.
+Tagging the tests is an important step in adding new tests. Labeling the test with a [dbt tag](https://docs.getdbt.com/reference/resource-configs/tags) is how we parse and identify tests when building trusted data dashboards. There are 2 ways to tag tests depending on their type.
 
 The first is by adding tags in the YAML definition. This can be done at the highest level of the YAML definition for source tests, or on the column level for model tests.
 
@@ -1284,22 +1284,18 @@ Data transformation is downstream transformation via dbt for Dimensions, Facts, 
 
 ### Snapshots {#snapshots}
 
-dbt snapshots are
+dbt snapshots are [SCD Type 2](https://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2:_add_new_row) tables, built on top of mutable (SCD Type 1) source tables that record changes to the source table over time.
 
-- [SCD 2](https://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2:_add_new_row) tables, built on top of mutable (SCD1) source tables
-- that record changes to the source table over time
+This single snapshot table, due to its SCD Type 2 nature, captures the entire history of changes in the source table.
 
-One might assume that for each source table, there are multiple snapshot tables- one snapshot for each point in time- but that would be incorrect.
-
-Instead, each source table will have only one corresponding snapshot table, and the snapshot table- due to it's SCD2 nature- contains the entire history of the source table.
-
-For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots).
+For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/build/snapshots).
 
 Take note of how we [talk about and define snapshots](/handbook/enterprise-data/platform/#snapshots-definition).
 
 #### Create snapshot tables with `dbt snapshot`
 
 Snapshot definitions are stored in the [snapshots folder](https://gitlab.com/gitlab-data/analytics/tree/master/transform/snowflake-dbt/snapshots) of our dbt project.
+
 We have organized the different snapshots by data source for easy discovery.
 
 The following is an example of how we implement a snapshot:
@@ -1321,85 +1317,58 @@ The following is an example of how we implement a snapshot:
 {% endsnapshot %}
 ```
 
-**Key items to note:**
+#### Snapshot best practices
 
-- The database and schema are configured in `dbt_project.yml`. The database is an environmental variable while the schema is set to `snapshots`.
-- *Always* select from a source table. Even if some deduplication is required, a source table must be selected from, as selecting from a downstream dbt model is prone to failure
-- As snapshots are stored in `RAW`, your role will need to be explicitly granted access to the schema or tables
-- Follow the naming convention `{source_name}_{source_table_name}_snapshots` for your file name
-- Avoid any transformations in snapshots aside from deduplication efforts. Always clean data downstream
-- Unless you don't have a reliable `updated_at` field, always prefer using `timestamp` as a strategy (over `check`). Please find [documentation about strategy here](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots)
+- **Database and Schema Configuration**: Configure the database and schema in `dbt_project.yml`. Use an environmental variable for the database and set the schema to `snapshots`. This ensures consistency and simplifies deployment across environments.
+- **Follow Naming Conventions**: The table name in the data warehouse should follow the `{source_table_name}_snapshots` naming convention.
+- **Avoid Transformations**: Perform minimal transformations in snapshot models aside from deduplication. Cleaning and transformation logic should be handled downstream to maintain snapshot simplicity.
+- **Prefer Timestamp Strategy**: Unless a reliable `updated_at` field is unavailable, prefer the `timestamp` strategy over `check`. However, note that in Salesforce, the `SystemModstamp` field does not capture changes to formula fields. For SFDC snapshots, it’s better to use the `check` strategy and validate all columns to ensure no updates are missed. Refer to the dbt documentation for more details on [snapshot strategies](https://docs.getdbt.com/reference/resource-configs/strategy).
+- **Enable `invalidate_hard_deletes`**: Use the `invalidate_hard_deletes` option for snapshots where it’s critical to track and exclude deleted records. With this setting enabled, records deleted from the source are assigned a valid end timestamp (`dbt_valid_to`) instead of leaving it NULL.
 
 #### Snapshot Model Types
 
-While the DBT Snapshot tables are built directly over sources to capture changed records, tables are built over the snapshots to be used for analysis.
+A dbt Snapshot model is designed to capture changes to records for a single table over time, providing a historical view of the data. The table being snapshotted can originate from a source table or an existing table already used for analysis. Snapshots are defined using the {% snapshot table_name %} configuration in a snapshot file, which specifies how changes are tracked and stored.
 
-1. A DBT Snapshot model captures changed records for a single table.
-   - The single table being snapshotted may be a Source table or a table already being used for analysis.
-   - A Snapshot table is defined with {% snapshot table_name %} in the configuration section of the model.
-   - The snapshot model has to be added to the `sources.yml` file to be recognized by other models.  This is further described in the [Make snapshots table available in prod database](/handbook/enterprise-data/platform/dbt-guide/#make-snapshots-table-available-in-prod-database) section below.
-   - These tables have to be referenced as Source tables by other models because they are built in RAW.  ie. {{ source(location,name)}} syntax.
-2. DBT models built over snapshot tables include snapshot data and are used for historical analysis. Multiple snapshots may be joined and logic added to provide a historical view of fully built out derived dimensions.
-
-**DBT Snapshot Model:**
+**dbt Snapshot Model Strategy**
 
 The `strategy` to determine when a new snaphot record is written can be configured 2 different ways:
 
-- `timestamp` uses a Date Column in the table to determine if that date has changed since the last snapshot was taken
+- `timestamp` uses an updated_at column to determine if a row has changed since the last snapshot was taken
 - `check` uses a list of columns to determine if any of the columns have changed since the last time the snapshot was taken.
 
-The `record version` is determined by the `dbt_valid_from` and `dbt_valid_to` columns.  These TIMESTAMP columns are created automatically by DBT and utilized by the snapshot model to determine the timeframe of each snapshotted row.
+The `record version` is determined by the `dbt_valid_from` and `dbt_valid_to` columns.  These `TIMESTAMP` columns are created automatically by dbt and utilized by the snapshot model to determine the timeframe of each snapshotted row.
 
-- When a new snapshot record is written, `dbt_valid_from` has the current date time and.  `dbt_valid_to` is NULL to show this is the most recent snapshot row.
-- `dbt_valid_to` in the previous version of the record is updated with the same current date time as the new record.
+- When a new snapshot record is written, `dbt_valid_from` is assigned the current date and time, and `dbt_valid_to` is set to NULL to indicate that this is the most recent snapshot row. With `invalidate_hard_deletes` enabled, records that are deleted from the source will have their last `dbt_valid_to` updated to reflect the timestamp when they were removed instead of NULL.
+- For the previous version of the record, `dbt_valid_to` is updated to match the `dbt_valid_from` timestamp of the new record, marking the end of the previous record's validity.
 
-DBT Snapshots, by default, are loaded incrementally. Records that have changed are picked up each time the snapshot operation runs.
-
-**DBT Model built over Snapshots:**
-
-- [Building Models on top of snapshots](/handbook/enterprise-data/platform/dbt-guide/#building-models-on-top-of-snapshots) is further defined below.
-- DBT Snapshots are Source level data and are not queried directly for user analysis.  These tables may include the `dbt_valid_from` and `dbt_valid_to` columns to identify the `record version` which comes from the Dbt Snapshot table.
-- `date spining` is used to show the record value for any day in history.  Rows are included for all dates between dbt_valid_from and dbt_valid_to.  This allows for easy analysis and joins for particular dates.
-- These models may be configured as `incremental` because the underlying dbt snapshots are appended to and not modified.
-- A published snapshot model may need to be refreshed if the structure or logic is changed.
+dbt Snapshots, by default, are loaded incrementally. Records that have changed are picked up each time the snapshot operation runs.
 
 **Snapshot Model Type Features**
 
-The different types of snapshots are determined by basic features used when building models with snapshot data.
+Snapshot models are categorized based on the features and techniques used when working with snapshot data. Here are the main types of snapshot models:
 
-Some basic features of Snapshot models are:
-
-- `DBT Snapshot` - The DBT Snapshot model is built in RAW over a single table and is not available for analysis
-- `Over Snapshot` - Model built directly over the DBT Snapshot model
-- `Spined Dates` - Model built over one or more Snapshot models that includes Date Spining
-- `History Rebuild` - Model built over one or more Snapshot models using the same logic used to build out the SCD Dimension.  The history in these models can be rebuilt if the columns or logic changes.
+- **dbt Snapshot**: The foundational snapshot model created in RAW over a single table. This model captures the state of the source data over time but is not intended for direct analysis.
+- **Over snapshot**: A model built directly on top of the dbt Snapshot model, adding additional logic or transformations for downstream analysis.
+- **Spined dates**: A model that integrates one or more snapshot models with a date spine, allowing for time-based analysis or alignment with other datasets.
+- **History rebuild**: A model that uses snapshot data to recreate historical states with the same logic as an SCD (Slowly Changing Dimension). These models allow for rebuilding history if columns or business logic change.
 
 **Snapshot Model Type Examples:**
 
-- Snapshot Methods used for ARR Data can be found [HERE](/handbook/enterprise-data/data-catalog/finance-arr/)
 - Here are examples of snapshot models with the variation of features that help determine the type:
 
-| DBT Snapshot | Over Snapshot | Spined Dates | History ReBuild | Example                          |
-|--------------|---------------|--------------|-----------------|----------------------------------|
-|      X       |               |              |                 | [dim_subscription_snapshot](https://gitlab-data.gitlab.io/analytics/#!/snapshot/snapshot.gitlab_snowflake.dim_subscription_snapshot)                                 |
-|      X       |               |              |                 | [dim_user_snapshot](https://gitlab-data.gitlab.io/analytics/#!/snapshot/snapshot.gitlab_snowflake.dim_user_snapshot) |
-|              |         X     |              |                 | [dim_namespace_hist](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_namespace_hist)           |
-|              |         X     |              |                 | [dim_user_hist](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_hist) |
-|              |         X     |      X       |                 | [dim_subscription_snapshot_model](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model) |
-|              |         X     |      X       |         X       | [dim_subscription_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_bottom_up) |
-|              |         X     |      X       |         X       | [dim_user_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_snapshot_bottom_up) |
-
-#### Altering Snapshot Tables within `dbt snapshot`
-
-dbt does a great job of handling schema changes in snapshots, but given the breadth of our main project repository there is the possibility of collisions when we're also changing source schemas in an extraction. **Adding columns to extractions source schemas of snapshotted tables should be done in a prior and seperate merge request from the changes to the snapshot.** dbt references the existing schema in the source tables (in `RAW`) when running snapshots and so the snapshots need to run at least once with the new schema present in the source data before changes can be made to the snapshots themselves with reference to these new columns.
+| dbt Snapshot | Over Snapshot | Spined Dates | History ReBuild | Example                                                                                           |
+|--------------|---------------|--------------|-----------------|---------------------------------------------------------------------------------------------------|
+| X            |               |              |                 | [dim_subscription_snapshot](https://gitlab-data.gitlab.io/analytics/#!/snapshot/snapshot.gitlab_snowflake.dim_subscription_snapshot) |
+| X            |               |              |                 | [dim_user_snapshot](https://gitlab-data.gitlab.io/analytics/#!/snapshot/snapshot.gitlab_snowflake.dim_user_snapshot)                 |
+|              | X             |              |                 | [dim_namespace_hist](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_namespace_hist)                     |
+|              | X             |              |                 | [dim_user_hist](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_hist)                               |
+|              | X             | X            |                 | [dim_subscription_snapshot_model](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model) |
+|              | X             | X            | X               | [dim_subscription_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_bottom_up) |
+|              | X             | X            | X               | [dim_user_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_snapshot_bottom_up)   |
 
 #### Testing Snapshots
 
-Testing of a snapshot can be done in a merge request using the [specify_snapshot](/handbook/enterprise-data/platform/ci-jobs/#specify_snapshot) CI job.
-Engineers should test locally using Airflow, as the proper environment variables are handled based on the git branch.
-Testing should NOT be done while on the master branch.
-It is not recommended to test locally by setting the `SNOWFLAKE_SNAPSHOT_DATABASE` environment variable.
-This should never be set to `RAW` as it will overwrite production data.
+Testing can be performed locally by setting `SNOWFLAKE_SNAPSHOT_DATABASE` to the name of your personal `<USERROLE>_PREP` database in your `zshrc` file during the testing period. This configuration allows you to test new snapshots, and when combined with cloning, enables testing changes to existing snapshots.
 
 #### Snapshots and GDPR
 
@@ -1414,45 +1383,30 @@ Specific to the second flavour, check when creating a new snapshot model or rena
 
 #### Make snapshots table available in prod database
 
-Once a snapshot is taken, it becomes, and should be treated as, a [data source](/handbook/enterprise-data/platform/dbt-guide/#sources).
-
-We currently follow the legacy method for generating models based on snapshots.
-This means we don't have source models.
-Base models for snapshots are available in the folder /models/snapshots of our dbt project.
-Key items to note:
-
-- Before writing a snapshot base model, don't forget to add it in the [`sources.yml` file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/sources.yml) This entry is required for the snapshot to be recognized and used by other models. (keep this file sorted)
-- The name of the table in the data warehouse should be consistent with our data warehouse design guideline. Ideally we would like to stick to `{source_name}_{source_table_name}_snapshots` as our naming convention. But dbt doesn't allow duplicated file names in projects. In order to avoid this the snapshot and the snapshot base model having the same name, we follow this pattern:
-  - The name of the base model file will be the name of the source snapshot table to which we suffix `_base`. Ex: we have a `gitlab_dotcom_members_snapshots` snapshot file [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/snapshots/gitlab_dotcom/gitlab_dotcom_members_snapshots.sql) and a base model of this snapshot [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_members_snapshots_base.sql) named `gitlab_dotcom_members_snapshots_base`.
-  - We use the [dbt config alias argument](https://docs.getdbt.com/docs/build/custom-aliases) to rename the table by removing the `_base` suffix and keep the table name clean
-- If a base model built upon the snapshotted source table exists, please re-use the query that has been already written and apply the following modifications:
-  - Remove the deduplication process, it is not necessary.
-  - Always add `dbt_scd_id` as a primary key to your snapshot base model and rename it to something more explicit (documentation about snapshot meta-fields can be found [here](https://docs.getdbt.com/docs/build/snapshots#snapshot-meta-fields))
-  - Add columns `dbt_valid_from` and `dbt_valid_to` to your query
-  - Good example [here with the snapshot base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_gitlab_subscriptions_snapshots_base.sql) and [the source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/gitlab_dotcom/gitlab_dotcom_gitlab_subscriptions_source.sql)
+We create source models based on snapshots, and we recommend using `ref` instead of `source` for referencing them. Using `ref` ensures that dbt manages dependencies effectively, allowing the DAG to track relationships between models. This ensures the correct build order during dbt runs. By contrast, `source` is more static and bypasses dbt's dependency tracking.
 
 #### Building models on top of snapshots
 
-In some cases there is a need to have a record per day, rather than a record per changed record with timeframe constraints `dbt_valid_from` and `dbt_valid_to`. In this case a technique called `date spining` can be used to create a model with daily snapshots.
+Models built on top of snapshots are designed for historical analysis. These models incorporate snapshot data and can include logic to join multiple snapshots or derive new metrics. By combining snapshots and applying business rules, they provide a comprehensive historical view of data. A key feature of these models is **date spining**, which allows for easy analysis of record values for any day in history by generating rows for all dates between `dbt_valid_from` and `dbt_valid_to`. These models are often configured as `incremental` since the underlying dbt snapshots are append-only and not modified. If the structure or logic of a published snapshot model changes, a full refresh may be required.
 
-In date spining, a snapshot model is joined to a date table based on `dbt_valid_from` and `dbt_valid_to`.
-A good example of daily snapshot model is [dim_subscriptions_snapshots table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/staging/common/dim_subscriptions_snapshots.sql) where [source model of zuora_subscription_snapshots](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/snapshots/zuora/zuora_subscription_snapshots.sql) is joined to  [dim_dates](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/staging/common/dim_dates.sql) based on `dbt_valid_from` and `dbt_valid_to`. This join results with one record per subscription per day with subscription version that was active on given day (called snapshot_date).
+In date spining, a snapshot model is joined with a date table using the `dbt_valid_from` and `dbt_valid_to` fields. This process generates a table with one record for each day, representing the state of records active on a specific day (referred to as the `snapshot_date`).
 
-Another possibility to generate daily records is using [dbt utility function date_spine](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#date_spine-source). We use this function currently to generate [date details source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql).
-
-We also have a convenience macro [create_snapshot_base](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/macros/utils/create_snapshot_base.sql) that utilizes date_spine to generate model with daily records out of any snapshot table. For example implementation look at [sfdc_opportunity_snapshots_base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/sfdc_opportunity_snapshots_base.sql).
-
-#### Incremental models on top of snapshots
-
-If you are using date spining to generate record for each day, consider materializing the model as [incremental](https://docs.getdbt.com/docs/build/incremental-models). This way only new records will be added based on the snapshot_date condition. For an example implementation look at the [mart_arr_snapshots model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/marts/arr/mart_arr_snapshots.sql#L35)
+If you are using date spining to generate record for each day, consider materializing the model as [incremental](https://docs.getdbt.com/docs/build/incremental-models).
 
 ### Testing Downstream Impact
 
-To manually review the downstream impacts a change to a model may have use the asset and filed level lineage in [Monte Carlo](https://getmontecarlo.com/).
+To manually review the downstream impacts a change to a model may have use the asset and field level lineage in [MonteCarlo](https://getmontecarlo.com/).
 
-### Dropping DBT Models
+### Dropping dbt Models
 
-Models are dropped by removing files in your local IDE session and committing these changes to be run in the CI Pipes on the MR.  Snowflake tables in Production have to be removed separately by a DE.  This should be specified on the MR and communicated directly to the DE. Some tables may need to be retained as history, even though the Dbt Models are removed.
+To drop dbt models, remove the relevant files in your local IDE, commit the changes, and push them as part of a merge request to run in the CI pipelines.
+
+Note that Snowflake tables in Production are not automatically removed and must be handled separately by the Data Platform team.
+
+The MR author should create a follow-up issue and assign it to the Data Platform team to complete the table removal.
+
+In some cases, tables may need to be retained for historical purposes even after the dbt models are removed, which means they will no longer be updated but remain in place for reference.
+
 Here is an [Example MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/6990) that shows Models being deprecated with some of the tables being retained in the database.
 
 ## Model Efficiency
@@ -1465,7 +1419,7 @@ For each model the queries executed are first filtered and aggregated. Only the 
 
 #### Local Storage Efficiency
 
-\\[E_l = min\{\frac{s-S_l}s,0\}\\]
+`\\[E_l = min\{\frac{s-S_l}s,0\}\\]`
 
 - Where \\(S_l\\) is the model Bytes Spilled to Local Storage
 - Where \\(E_l\\) is the model Local Storage Efficiency
@@ -1475,35 +1429,35 @@ The metric is calculated as the model bytes scanned less the model bytes spilled
 
 #### Remote Storage Efficiency
 
-\\[E_r = min\{\frac{s-S_r}s,0\}\\]
+`\\[E_r = min\{\frac{s-S_r}s,0\}\\]`
 
-- Where \\(S_r\\) is the model Bytes Spilled to Remote Storage
-- Where \\(E_r\\) is the model Remote Storage Efficiency
-- Where \\(s\\) is the model Bytes Scanned
+- Where `\\(S_r\\)` is the model Bytes Spilled to Remote Storage
+- Where `\\(E_r\\)` is the model Remote Storage Efficiency
+- Where `\\(s\\)` is the model Bytes Scanned
 
 The metric is calculated as the model bytes scanned less the model bytes spilled to remote storage divided by the model bytes scanned and limited to values between 0 and 1. This calculation allows for a number that is independent of other models but still comparable to other models.
 
 #### Partition Scan Efficiency
 
-\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]
+`\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]`
 
-- Where \\(S_p\\) is the model Partitions Scanned
-- Where \\(E_p\\) is the model Partition Scan Efficiency
-- Where \\(p\\) is the model Total Partitions
+- Where `\\(S_p\\)` is the model Partitions Scanned
+- Where `\\(E_p\\)` is the model Partition Scan Efficiency
+- Where `\\(p\\)` is the model Total Partitions
 
 If there is more than one model partition then the metric is calculated as the model total partitions less the model partitions scanned divided by the model total partitions and limited to values between zero and one, otherwise the metric value is set to one.  This calculation allows for a number that is independent of other models but still comparable to other models.  It is expected that most models will not be able to achieve a partitions scan efficiency value of one as some number of partitions will always need to be scanned, but efforts should be made to improve the metric as much as possible.
 
 #### Efficiency Score
 
-\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]
+`\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]`
 
-- Where \\(E\\) is the model Efficiency Score
-- Where \\(E_p\\) is the model Partition Scan Efficiency
-- Where \\(E_r\\) is the model Remote Storage Efficiency
-- Where \\(E_l\\) is the model Local Storage Efficiency
-- Where \\(w_p\\) is the model Partition Scan Efficiency weight
-- Where \\(w_r\\) is the model Remote Storage Efficiency weight
-- Where \\(w_l\\) is the model Local Storage Efficiency weight
+- Where `\\(E\\)` is the model Efficiency Score
+- Where `\\(E_p\\)` is the model Partition Scan Efficiency
+- Where `\\(E_r\\)` is the model Remote Storage Efficiency
+- Where `\\(E_l\\)` is the model Local Storage Efficiency
+- Where `\\(w_p\\)` is the model Partition Scan Efficiency weight
+- Where `\\(w_r\\)` is the model Remote Storage Efficiency weight
+- Where `\\(w_l\\)` is the model Local Storage Efficiency weight
 
 The compound score is calculated as the weighted average of the `Local Storage Efficiency`, `Remote Storage Efficiency`, and `Partition Scan Efficiency` metrics. The metric weights are determined arbitrarily by the needs and focus of the business.
 
@@ -1672,13 +1626,15 @@ Increasing the warehouse size will not always mean an increase in performance an
 - If refactoring has not improved the Model Efficiency, an increase to the Warehouse Size may be warranted.
 - If Model Efficiency is Good but the model is reaching the timeout limit for the warehouse then an increase to the Warehouse Size may be warranted.
 
+The [Snowflake warehouse sizing](/handbook/enterprise-data/platform/pipelines/snowflake-warehouse-optimization/) handbook page has guidelines on properly sizing dbt models.
+
 ## Upgrading dbt
 
 See the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastructure/upgrading_dbt_version.md) for instructions on how to independently and asyncronously upgrade dbt.
 
 ### Staying up to date
 
-Our policy is that we should always be on a version of [`dbt-core`](https://docs.getdbt.com/docs/core-versions) that does have critical support. Check the linked schedule to see planned releases and support windows. For minor releases that are released while we are still on a version with critical support, we will evaluate on a quarterly basis to determine whether the minor release warrants an update.
+Our policy is that we should always be on a version of [`dbt-core`](https://docs.getdbt.com/docs/dbt-versions/core) that does have critical support. Check the linked schedule to see planned releases and support windows. For minor releases that are released while we are still on a version with critical support, we will evaluate on a quarterly basis to determine whether the minor release warrants an update.
 
 When a major release happens, we should upgrade to the new major version before the second minor release on the new major version. So for example, we should be on v2.0.0 *before* v.2.2.0 is released. The extra time allowance is in place to account for breaking changes between major versions.
 
@@ -1686,6 +1642,20 @@ When a major release happens, we should upgrade to the new major version before 
 
 dbt upgrades should take place on a Tuesday of a week in which there are no major worldwide holidays or [Family and Friends days](/handbook/company/family-and-friends-day/). This is to enable enough time for team members to correct any breaking changes that weren't caught in testing without having to work through the weekend. In a worst case scenario, the upgrade can be rolled back on Wednesday so that normal operations can resume for the remainder of the week.
 
-## Snowflake Warehouse Sizing
+## Specifying warehouse size on dbt model level
 
-The [Snowflake warehouse sizing](/handbook/enterprise-data/platform/pipelines/snowflake-warehouse-optimization/) handbook page has guidelines on properly sizing dbt models.
+New `product` and `non-product` models will use a default 'L' warehouse size going forward.
+
+Context: In order to decrease the runtime of the production dbt DAG, the `product` and `non-product` models have been consolidated into one Airflow task, [MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/11305). This means that the new default warehouse size will be 'L', and that if an 'XL' needs to be used, it needs to be specified on the dbt model level.
+
+To specify the warehouse on the dbt model level (thus overriding the default warehouse), you need to add a config block to the model:
+
+```sql
+{{ config(
+    snowflake_warehouse=generate_warehouse_name('XL')
+) }}
+```
+
+[dim_note.sql](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common/dimensions_local/product_and_engineering/dim_note.sql) is an example model you can refer to.
+
+For more info on choosing the correct warehouse, please see the 'Check Warehouse Size viability' section of this page.

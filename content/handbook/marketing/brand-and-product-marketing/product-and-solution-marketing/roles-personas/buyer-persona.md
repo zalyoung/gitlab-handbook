@@ -8,7 +8,7 @@ Buyer personas represent the people who serve as the main buyers in an organizat
 the champions within an enterprise that drive the buying conversation and
 coordinate various teams to make a purchase. We've updated our approach to include persona groups, in addition to specific roles or titles within a group, based on the Jobs To Be Done (JTBD) framework.
 
-![IT Orgchart](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/buyerpersonaorgchart-2022-09-29.png)
+![IT Orgchart](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/buyerpersonaorgchart-2022-09-29.png)
 
 1. [CIO](#tech-exec-tristan)
 1. [App Dev](#app-dev-avery)
@@ -33,7 +33,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Writing for all personas
 
-- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand/overview/#tone-of-voice) regardless of the persona.
+- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand-messaging/brand-voice) regardless of the persona.
 - Never alienate other personas. You can appeal to a buyer without buzzword bingo.
 - Look at who uses a channel most (twitter & docs: user, webinar linkedin: buyer) when shared (website) guide them /features for users /solutions for buyers.
 
@@ -48,15 +48,15 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Comparing the personas
 
-![Motivations and challenges for each buyer persona.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-buyer-persona-motivations-challenges-v3.png)
+![Motivations and challenges for each buyer persona.](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/comparison-buyer-persona-motivations-challenges-v3.png)
 
-![How buyer personas collect technical information.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-how-they-gather-tech-info.png)
+![How buyer personas collect technical information.](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/comparison-how-they-gather-tech-info.png)
 
 ---
 
 ### Tech Exec Tristan
 
-![techexectristan](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/techexectristan.png)
+![techexectristan](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/techexectristan.png)
 
 - **Job To Be Done:**
 
@@ -141,7 +141,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### App Dev Avery
 
-![appdevavery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/appdevavery.png)
+![appdevavery](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/appdevavery.png)
 
 - **Job To Be Done:**
 
@@ -226,7 +226,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### InfoSec Shiloh
 
-![infosecshiloh](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/infosecshiloh.png)
+![infosecshiloh](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/infosecshiloh.png)
 
 - **Job To Be Done:**
 
@@ -311,7 +311,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### Platform Perry
 
-![platformperry](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/platformperry.png)
+![platformperry](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/platformperry.png)
 
 - **Job To Be Done:**
 
@@ -400,7 +400,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Compliance Cooper
 
-![compliancecooper](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/compliancecooper.png)
+![compliancecooper](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/compliancecooper.png)
 
 - **Job To Be Done:**
 
@@ -474,7 +474,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Release Rory
 
-![releaserory](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/releaserory.png)
+![releaserory](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/releaserory.png)
 
 - **Job To Be Done:**
 
@@ -551,7 +551,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Program Management Payton
 
-![pmpayton](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmpayton.png)
+![pmpayton](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/pmpayton.png)
 
 - **Job To Be Done:**
 
@@ -633,7 +633,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Back Office Blake
 
-![backofficeblake](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/backofficeblake.png)
+![backofficeblake](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/backofficeblake.png)
 
 - **Job To Be Done:**
 
@@ -720,7 +720,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Content Buyers Use for Tech Research and Decision-Making
 
-- [Analyst report:](https://about.gitlab.com/analysts/gartner-ast22/) Paid resource that provides insights into major business and IT trends and technologies (Gartner, Forrester, IDC, Red Monk, etc.).
+- [Analyst report:](https://page.gitlab.com/resources-report-gartner-magic-quadrant-ast-2023.html) Paid resource that provides insights into major business and IT trends and technologies (Gartner, Forrester, IDC, Red Monk, etc.).
 - [Announcement/Press release:](https://about.gitlab.com/press/releases/) Official statement to the news media for the purpose of providing information, creating an official statement, or making an announcement directed for public release.
 - [Blog post:](https://about.gitlab.com/blog/) Entry/article written on a blog usually including content in the form of text, photos, infographics, or videos.
 - [Case study:](https://about.gitlab.com/customers/) Detailed study of a specific subject in its real-world context focused on a person, group, event, or organization.
@@ -738,7 +738,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - [Video story from similar organization:](https://www.youtube.com/watch?v=L4zf_QIr4jQ) Recorded talk about how a company's product or service has helped another customer solve a related problem.
 - [Webinar:](https://www.youtube.com/watch?v=muIZthUk4_o) Online event hosted by an organization/company and broadcast to a select group of individuals through their computers via the Internet.
 - [(Product) Website:](https://about.gitlab.com/) Page on a vendor's website describing a particular product/service and including specific specs and features, information about the manufacturer and brand, etc. .
-- [Whitepaper:](https://fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
+- [Whitepaper:](https://www.fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
 
 ### Enablement Artifacts
 

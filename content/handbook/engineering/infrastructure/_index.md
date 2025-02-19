@@ -34,7 +34,7 @@ Integral part of this vision is to:
 
 The direction is accomplished by using [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/).
 
-Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/enablement/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatves across both Infrastructure and Stage Groups needed to address these gaps.
+Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatives across both Infrastructure and Stage Groups needed to address these gaps.
 
 {{% include "includes/we-are-also-product-development.md" %}}
 
@@ -47,15 +47,12 @@ flowchart LR
     I[Infrastructure]
     click I "/handbook/engineering/infrastructure/"
 
-    I --> TPM[Technical Program Management]
-    click TPM "/handbook/engineering/infrastructure/technical-program-management/"
-
     I --> EP[Engineering Productivity]
     click EP "/handbook/engineering/infrastructure/engineering-productivity/"
     I --> C[Core Platform]
     click C "/handbook/engineering/infrastructure/core-platform/"
     I --> EA[Engineering Analytics]
-    click EA "/handbook/engineering/quality/engineering-analytics/"
+    click EA "/handbook/engineering/infrastructure-platforms/developer-experience/engineering-analytics/"
     I --> TP[Test Platform]
     click TP "/handbook/engineering/infrastructure/test-platform/"
     I --> SP[SaaS Platforms]
@@ -114,6 +111,63 @@ flowchart LR
     click TTI "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/"
 ```
 
+## Technical Roadmap
+
+Infrastructure maintains a [Technical Roadmap](/handbook/engineering/#technical-roadmaps)
+for planning projects over the short (1y), medium (2y), and long term (3y).
+This serves as our strategic compass,
+helping us balance immediate needs with long-term sustainability.
+
+The Technical Roadmap is based on the [Product Roadmap](https://about.gitlab.com/direction/),
+where Product provides the "What" (customer needs) and "Why" (business strategy).
+Engineers then determine the "How" (technical implementation),
+while Engineering Managers plan the "When" (scheduling).
+This comprehensive roadmap emphasizes building high-quality,
+complete features in a sustainable manner.
+
+The Technical Roadmap serves three key purposes:
+
+1. It helps build engineering excellence by addressing critical areas that might not show up in product backlogs,
+   such as technical debt, performance improvements, platform improvements, and system scalability.
+
+1. It enables the department to be proactive rather than reactive.
+   By regularly asking key questions like "Where do we see the biggest instability in our systems?" or
+   "What is generating the most toil?", we can address issues before they become critical problems.
+   This helps maintain our SLOs and keeps our customers happy.
+
+1. It aligns engineering efforts with business goals, ensuring technical improvements drive GitLab's success.
+   Each technical roadmap item is prioritized based on business value and strategic alignment.
+
+### Current State
+
+The Infrastructure Roadmap is maintained as a static site.
+GitLab team-members can review the current technical roadmap,
+at [infra-roadmap.gitlab.com](https://infra-roadmap.gitlab.com/).
+
+**NOTE**:
+The Infrastructure Roadmap is not publicly available as some of the projects and
+initiatives may not be considered [unSAFE](/handbook/legal/safe-framework/).
+
+The site presents the roadmap in a visual manner, showing:
+
+- Dependencies between planned initiatives
+- Filtering options by confidence, stage, or tags
+- Individual roadmaps for each stage within the department
+- Impact analysis through dependency visualization
+
+### Updating the Roadmap
+
+Changes to the Roadmap are made through merge requests to the [`infra-roadmap`](https://gitlab.com/gitlab-com/gl-infra/infra-roadmap/-/tree/main/data) project.
+The data is stored in YAML format, and changes can be made by editing the YAML.
+This allows for version control and collaborative discussion through the merge request process.
+
+Full instructions for making changes to the Infrastructure Roadmap are available
+in [the project's README.md](https://gitlab.com/gitlab-com/gl-infra/infra-roadmap/-/blob/main/README.md#updating-the-roadmap).
+
+Everyone is encouraged to contribute to the roadmap,
+whether proposing new initiatives or making smaller changes
+like updating descriptions or adding links to relevant issues.
+
 ## Design
 
 The [**Infrastructure Library**](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library) contains documents that outline our thinking about the problems we are solving and represents the ***current state*** for any topic, playing a significant role in how we produce technical solutions to meet the challenges we face.
@@ -148,10 +202,6 @@ In addition to tracking the backlog, Infrastructure Department projects are capt
 ## Supporting Product Features
 
 We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
-
-## Ownership
-
-The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
 
 ## Stable Counterparts
 

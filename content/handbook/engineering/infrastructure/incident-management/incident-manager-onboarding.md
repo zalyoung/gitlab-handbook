@@ -160,7 +160,7 @@ Example 2, Covering for someone.  Go to the [schedule in PagerDuty](https://gitl
 ### What role of Pagerduty shall I request?
 
 A **Professional Plus - Responder Role** is sufficient to be an Incident Manager.
-[PagerDuty Roles reference](https://support.pagerduty.com/docs/advanced-permissions#base-roles)
+[PagerDuty Roles reference](https://support.pagerduty.com/main/docs/advanced-permissions#base-roles)
 
 ### What if I am not available for my assigned shift?
 
@@ -168,7 +168,7 @@ Shifts are assigned based on the working hours that you selected during onboardi
 
 ### What if I work a shift on a weekend or holiday?
 
-When you are on-call, there is no expectation for you to be sitting at your laptop for the whole shift. You are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this distruption of making yourself available during the weekend and holidays. 
+When you are on-call, there is no expectation for you to be sitting at your laptop for the whole shift. You are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this distruption of making yourself available during the weekend and holidays.
 Everyone is encouraged to explore options that work best for their personal
 situations in lieu of weekend shifts. When on-call you have the following
 possibilities:
@@ -218,7 +218,7 @@ Benefits of adding the PagerDuty IMOC schedule into Google Calendar:
 
 New schedules are [announced](#how-are-incident-managers-scheduled) in the [#im-general](https://gitlab.slack.com/archives/C01NY82EJF6) channel every month.
 
-If you want to get notified when you are added to or removed from a schedule, or changes are made to your shifts, make sure to turn on the [On-Call Boosters](https://support.pagerduty.com/docs/mobile-app-settings#on-call-boosters) setting in the [PagerDuty App on your phone](https://support.pagerduty.com/docs/mobile-app).
+If you want to get notified when you are added to or removed from a schedule, or changes are made to your shifts, make sure to turn on the [On-Call Boosters](https://support.pagerduty.com/main/docs/mobile-app-settings#on-call-boosters) setting in the [PagerDuty App on your phone](https://support.pagerduty.com/main/docs/mobile-app).
 
 ## Learning about Incident Management
 

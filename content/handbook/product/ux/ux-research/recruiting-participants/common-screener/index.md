@@ -7,7 +7,7 @@ A Common Screener uses the same questions to recruit across multiple studies. Th
 
 Each team member who uses the Common Screener for a specific study selects their own inclusion criteria for each question. For example, one study might need users from companies with less than 100 employees, while another study might need  users from companies with more than 1,000 employees (see Figure 1). Each study would set different inclusion criteria for the same, common, question about company size.
 
-![Common Screener Figure](CSfigure1.png)
+![Common Screener Figure](/images/product/ux/ux-research/recruiting-participants/common-screener/CSfigure1.png)
 
 The above figure illustrates how the same questions can be used to match participants to various studies using the Common Screener approach. In this example, a participant from a company with more than 100 people might be screened out of the study if a single screener is used for the study, but may be matched to another study when the Common Screener approach is used. This is possible because each study sets different inclusion criteria for the same question about company size. In this example, the Common Screener approach also allows us to match participants who align with different Personas based on a JTBD question that asks them to select their key tasks.
 

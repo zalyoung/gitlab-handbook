@@ -67,10 +67,10 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 | [Height-adjustable Desk](/handbook/company/culture/all-remote/workspace/#desks) | [Flexispot Electric Height Adjustable Standing Desk](https://www.igreen.my/products/Flexispot-ergonomic-sit-stand-standing-desk-malaysia/malaysia-3-stage-dual-motor-height-adjustable-standing-desk-table) |
 | [Ergonomic Chair](/handbook/company/culture/all-remote/workspace/#chairs) | [Leap Chair](https://store.steelcase.com/seating/office-chairs/leap) |
 | [Headphones](/handbook/company/culture/all-remote/workspace/#headphones) | [HyperX Cloud Alpha headset](https://www.soundguys.com/hyperx-cloud-alpha-gaming-headset-review-23223/) |
-| [External Monitors](/handbook/company/culture/all-remote/workspace/#monitors) | Two [24" Samsung CF390 Curved LED Monitor](https://www.samsung.com/us/computing/monitors/led/samsung-24-curved-led-monitor-lc24f390fhnxza/) |
+| [External Monitors](/handbook/company/culture/all-remote/workspace/#monitors) | Two [24" Samsung CF390 Curved LED Monitor](https://www.samsung.com/us/computing/monitors/curved/24-cf396-curved-led-monitor-lc24f396fhnxza/) |
 | Dual Monitor Arm | [North Bayou F160](https://shopee.com.my/-New-Version-9KG-NB-North-Bayou-F160-17-to-27-Inch-Gas-Strut-Dual-Monitor-Desktop-Arm-Desk-Mount-i.79342221.2408869965) |
 | [Keyboard](/handbook/company/culture/all-remote/workspace/#external-keyboard-and-mouse) | [Keychron K2v2](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard) |
-| [Mouse](/handbook/company/culture/all-remote/workspace/#external-keyboard-and-mouse) | [Logitech MX Master 3](https://www.logitech.com/en-my/products/mice/mx-master-3.910-005698.html) |
+| [Mouse](/handbook/company/culture/all-remote/workspace/#external-keyboard-and-mouse) | [Logitech MX Master 3](https://www.logitech.com/en-my/products/mice/mx-master-3s.html) |
 | Laptop Stand | [Olmaster Laptop Stand](https://www.amazon.com/Muti-Angle-Adjustable-Heat-Vent-Ergonomic-Compatible/dp/B081YHNXZ5) |
 | [Webcam](/handbook/company/culture/all-remote/workspace/#webcams) | [Logitech C920](https://support.logi.com/hc/en-us/articles/360024326953-Getting-started-HD-Pro-Webcam-C920) |
 | USB C Hub | [Ugreen 10 in 1 USB C Hub](https://www.ugreen.com/products/10-in-1-usb-c-hub) |

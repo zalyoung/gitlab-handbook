@@ -72,7 +72,7 @@ Note: this doesn't mean you can't get travel approval without booking meetings. 
 
 #### Trip Notes
 
-The ultimate purpose of attending any GitLab field event is to gain insight and add value. Sid Sijbrandij, our CEO, talks about the importance of conferences and events [here](https://www.youtube.com/watch?v=qQ0CL3J08lI). He believes the main goal of GitLab team participation should always be to connect with our customers and prospects and not to solely attend presentations. Trip notes are our internal process for tracking and capturing this data.
+The ultimate purpose of attending any GitLab field event is to gain insight and add value. Sid Sijbrandij, our co-founder, talks about the importance of conferences and events [here](https://www.youtube.com/watch?v=qQ0CL3J08lI). He believes the main goal of GitLab team participation should always be to connect with our customers and prospects and not to solely attend presentations. Trip notes are our internal process for tracking and capturing this data.
 
 #### Why and When?
 
@@ -460,7 +460,7 @@ Support will take the lead on all incoming requests in the queue and only forwar
 - [Detailed Exit Stage Criteria Google Sheet](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321)
 - [Exit Criteria at a Glance](https://gitlab.highspot.com/items/6245c14f198094aabf1cfe52?lfrm=srp.0)
 
-![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
+![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 - Please read through the [Commercial Sales Opportunity Stages handbook page](/handbook/sales/commercial/comm-sales-opp-stages/) for more information.
 

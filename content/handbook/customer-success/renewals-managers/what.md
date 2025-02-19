@@ -30,7 +30,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 
 - `Stage` [link](/handbook/sales/field-operations/gtm-resources/#opportunity-stages)- indicates where in the Renewal/Sales cycle the deal is
 - `Renewal Manager Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
-- `Renewal Manager Notes` - field to capture running notes specific to the Renewals Manager 
+- `Renewal Manager Notes` - field to capture running notes specific to the Renewals Manager
 
 ## Forecasting
 
@@ -56,7 +56,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 
 - `Closed Won Reason` - the reason the deal was Closed Won
 - `Risk/Loss Reason Category` - the reason the deal was Closed Lost or the cause of contraction on an opportunity
-- `Risk/Loss Reason Sub Category` - additional details on why there was contraction or the opportunity was lost 
+- `Risk/Loss Reason Sub Category` - additional details on why there was contraction or the opportunity was lost
 - `Closed Won Details` - free-form field for additional information and insight as to why we won the deal
 - `Closed Lost Details` - free-form field for additional information and insight as to why we lost the deal
 - `Downgrade Details` - free-form field for additional information and insight as to why the customer reduced.

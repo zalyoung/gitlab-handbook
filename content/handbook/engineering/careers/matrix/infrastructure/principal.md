@@ -9,7 +9,7 @@ description: "The expected team member competencies in the Infrastructure depart
 
 Principal-level engineers in infrastructure are significantly driving the department's results and culture by supporting teams at the same time as helping set and align on future group direction.  Principal engineers are seen as a partner of their group's Senior Engineering Manager or Director. Together, they are expected to balance the day-to-day details needed to guide and unblock individual teams with a longer term view needed to set the group of teams up for future success. Principal engineers are primarily focused on making an impact on a group of teams but work across the entire company to maintain relationships and share information.
 
-We recognize the [four staff engineer archetypes](https://staffeng.com/guides/staff-archetypes/) and believe that each of these types can grow into a Principal-level engineer. They will index more highly on certain activities than others, but the intention for the Principal engineer to act at the group level with a strategic focus remains the same.
+We recognize the [four staff engineer archetypes](https://staffeng.com/guides/staff-archetypes//) and believe that each of these types can grow into a Principal-level engineer. They will index more highly on certain activities than others, but the intention for the Principal engineer to act at the group level with a strategic focus remains the same.
 
 ## Accountability
 
@@ -55,7 +55,7 @@ We recognize the [four staff engineer archetypes](https://staffeng.com/guides/st
 ### Principal Leadership Competencies
 
 {{% include "includes/engineering-careers/principal-leadership-competency.md" %}}
-  
+
 ### Principal Technical Competencies
 
 {{% include "includes/engineering-careers/principal-technical-competency.md" %}}

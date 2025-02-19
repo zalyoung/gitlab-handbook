@@ -20,7 +20,7 @@ description: "This hands-on guide is designed to walk you through the lab exerci
 
 Here are some quick links that may be useful when reviewing this hands-on guide.
 
-- [GitLab System Administration course description](https://about.gitlab.com/services/education/admin/)
+- [GitLab System Administration course description](https://university.gitlab.com/pages/system-admin-training/)
 
 ## Suggestions?
 

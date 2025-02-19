@@ -17,7 +17,7 @@ First, be sure to validate the following:
 
 ### Entity Contract Signatories
 
-This chart reflects the available signatories for each of GitLab's entities. They are listed in order of preferred signatory first. This chart should only be used for new hire contracts where GitLab has entities. This is not for internal moves such as [contract renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}), [job change letters]({{< ref "contracts-probation-periods#job-change-letter" >}}), or [relocations]({{< ref "relocation" >}}).
+This chart reflects the available signatories for each of GitLab's entities. They are listed in order of preferred signatory first. This chart should only be used for new hire contracts where GitLab has entities. This is not for internal moves such as [contract renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals), [job change letters](/handbook/people-group/contracts-probation-periods/#job-change-letter), or [relocations](/handbook/people-group/relocation/).
 
 | Entity | Signatory |
 |-------- | -----|
@@ -26,18 +26,18 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab France S.A.S. | Jake Foster, Pattie Egan, & Rob Allen |
+| GitLab France S.A.S. | Jake Foster, Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
-| GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
-| GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors & Pattie Egan|
+| GitLab GmbH | Marissa Farris, Rob Allen |
+| GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen. Backups: Jim Gladen & Simon Mundy |
+| GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors |
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
 | GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar, Jack Connors & Rob Allen. Backup: Simon Mundy |
-| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen, Pattie Egan|
+| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen |
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -137,8 +137,9 @@ Consistent with GitLab's policy governing Hiring Significant Others or Family Me
 
 To change a start date after a **GitLab entity** contract has been signed and the new team member has been "hired" in GreenHouse the Candidate Experience Specialist will complete the following steps:
 
-1. Confirm the start date via email with the new team member, the recruiter, the hiring manager, and the Candidate Experience Specialist.
-1. Save the email as a pdf file for upload into Workday.
+1. Once the recruiter notifies CES of the start date change, CES should send the “Start Date Change Confirmation” template in Greenhouse under “email the team” and ensure all necessary fields are filled in.
+1. After receiving confirmation from both the Hiring Manager and the New Hire, save the confirmation email as a PDF file for upload into Workday.
+
 1. Update GreenHouse:
    - Offer Details
    - Click the edit pencil next to the start date
@@ -253,7 +254,7 @@ There are certain times when a contract needs to get resent to the candidate aft
 1. If the req is already closed, tag the Enablement team in the greenhouse profile explaining the situation and that the req needs to be reopened to resend a contract.
 1. Unhire the candidate in Greenhouse. (If the position is Closed, Enablement will need to assist with this step).
 1. Resend the correct contract and follow standard steps for doing this.
-1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday (or BambooHR, if applicable) and will need to be manually corrected by the People Connect Team.
+1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday and will need to be manually corrected by the People Connect Team.
 1. Upload the new contract to their Workday profile.
 1. Ping the People Connect Team and let them know the contract has been updated and the details in Workday can be corrected.
 
@@ -284,7 +285,7 @@ If an amendment needs to be made and the previous contract was never active, the
 - Ask People Connect in the `people-exp_ces` Slack channel to delete the previous contract from Workday.
 - Upload the updated contract in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
 
-*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in BambooHR.*
+*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in Workday.*
 
 ### Amendments to contracts for new hires with planned relocations
 
@@ -334,12 +335,11 @@ A contractor requests a modification to their contract due to a name change/comp
 
 If for some reason a candidate declines an offer after they have been hired into the system, whoever receives that information needs to make sure `@ces` is tagged in the Greenhouse profile and is made aware that the candidate will no longer be starting at GitLab. Please note that the steps below are assuming that the person will not be working for GitLab; if you are hoping to just amend their offer after they've been marked as hired, please view the Resend process above.
 
-If they have been hired in Greenhouse and exported to BambooHR and Workday, the team will need to follow these steps:
+If they have been hired in Greenhouse and exported to Workday, the team will need to follow these steps:
 
 1. Unhire the candidate in Greenhouse if the req is still open by clicking the "unhire" button on the candidate's offer. If the req is closed, ask Enablement to unhire.
 1. Ask the Recruiter to reject them in Greenhouse; add reasons in notes, you may add the email that was sent by the candidate. Click 'reject and don't send email'.
 1. Cancel any scheduled emails in Greenhouse.
-1. Tag the VP, People Operations in the `#people-group-confidential` Slack channel and ask to remove the profile from BambooHR and @ mention the People Connect team for visibility. Only a BambooHR owner (at GitLab this is the VP, People Operations) can remove the profile, this is why this step is so important. Note: This isn't a typo---BambooHR is still collecting profiles even though we have migrated to WorkDay.
 1. If they were hired via a PEO, inform the contact person at the PEO of this change immediately, ideally before onboarding starts. If they are in a country that uses outside payroll, we will need to inform the payroll company as well.
 1. Message IT, People Connect, and the Sr. Background Check Specialist in the #peopleops-alerts-private channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
 1. If the Recruiter has not already tagged the FP&A approver in the Greenhouse notes, please tag them to let them know that the candidate has withdrawn.
@@ -366,11 +366,11 @@ If the team member is making a lateral move where there is no change in compensa
 
 When generating a job change letter for a PEO, the steps remains the same as outlined below. However, select the JCL template that does not include RSUs, and send the RSU details via DocuSign email.
 
-The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday & BambooHR. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
+The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
 
 When an internal transition is taking place and the start date for that JCL is amended, please ensure to update the People Connect team via Slack in the `#people-connect_ces` channel of the new start date.
 
-If a team member goes through a promotion through WorkDay versus Greenhouse, a [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) is prepared by the Total Rewards team as listed on their handbook page.
+If a team member goes through a promotion through WorkDay versus Greenhouse, a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) is prepared by the Total Rewards team as listed on their handbook page.
 
 CES: Follow the instructions below on how to create and send a job change letter.
 
@@ -378,11 +378,10 @@ CES: Follow the instructions below on how to create and send a job change letter
 1. The signatory matches the appropriate entity. If the candidate is located in the US (including Federal), Morgan Wilkins can be a signatory. If the candidate is employed through a PEO, Morgan Wilkins and Marissa Ferber can be signatories (this process is subject to change)
 1. Next, Click Generate
 1. Select Job Change Letter template in Greenhouse:
-    - Job Change Letter w/ OTE (US ONLY!)
-    - Job Change Letter w/ no OTE (US ONLY!)
+    - Job Change Letter - OTE/with RSU's
+    - Job Change Letter - No OTE/with RSU's
     - Job Change Letter w/ OTE, no RSU's
     - Job Change Letter, No OTE, No RSU's
-    - **Special Note: Please ensure you are using the bottom two templates ONLY for NON US JCLs!**
 
 JCLs should be treated like contracts, where RSUs are only features in US ones and all other countries should have text within the DocuSign email instead.
 
@@ -446,7 +445,7 @@ The process for New Hires is as follows:
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
 1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please select the Netherlands background check package which only includes employment verification and an extended global sanctions search.
 
-The People Operation Specialist are in charge of [contract renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}). The process the **end of the first 12-month GitLab BV Netherlands temporary contract** is listed in their [Netherlands Renewal Process]({{< ref "contracts-probation-periods#netherlands-renewal-process" >}}) section of the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods" >}}) handbook page.
+The People Operation Specialist are in charge of [contract renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals). The process the **end of the first 12-month GitLab BV Netherlands temporary contract** is listed in their [Netherlands Renewal Process](/handbook/people-group/contracts-probation-periods/#netherlands-renewal-process) section of the [Contracts, Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/) handbook page.
 
 *GitLab IT BV contracts should only be used for contractors. All Netherlands **employees** should be issued the GitLab BV contract.*
 
@@ -505,7 +504,7 @@ To create the contract:
     - Click "Send Email"
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is indefinite, select "Indefinite" from the dropdown in "Offer Details".
@@ -577,7 +576,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
-GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
+GitLab is working in partnership with [Global Upside](https://www.safeguardglobal.com/) for employing GitLab team-members located in:
 
 - India
 
@@ -587,7 +586,7 @@ The process for creating and sending an agreement is as follows:
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends "Contract Info Request-Global Upside" email to the new hire to collect additional details.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is definite, select "Indefinite" from the dropdown in "Offer Details".
@@ -622,7 +621,7 @@ To create the contract:
     - Click "Send Email"
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is indefinite, select "Indefinite" from the dropdown in "Offer Details".
@@ -653,11 +652,11 @@ To create the contract:
 Kindly note the following when filling in this section:
 
 1. Contract Duration: Most contracts will be indefinite, unless specified by the Recruiter
-    - Probation Period: Use the default or minimum options specified by Remote. Please utilize the [Probation Section]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) of the handbook to determine probation.
+    - Probation Period: Use the default or minimum options specified by Remote. Please utilize the [Probation Section](/handbook/people-group/contracts-probation-periods/#probation-period) of the handbook to determine probation.
     - For Mexico: When adding a team member to the Remote platform you should select 30 days as a Christmas bonus, not 15.
 1. Type of employee: Full time
 1. Annual Gross salary: as stated in the offer details in GH
-1. Annual leave: Is usually the statutory minimum. You can also utilize the [General & Entity Specific Benefits page]({{< ref "remote-com" >}})
+1. Annual leave: Is usually the statutory minimum. You can also utilize the [General & Entity Specific Benefits page](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
    - Mexico you can input 20 days
 1. Is this employee approved for outside employment: No
 1. Signing bonus: as stated in the offer details in GH
@@ -675,17 +674,14 @@ Kindly note the following when filling in this section:
 | Country | Benefit plan |
 |---------|--------------|
 | Denmark | Standard |
-| Austria | None |
 | Hungary | Standard |
-| Mexico | Allowance |
-| South Africa | Allowance |
 | Luxembourg | Premium |
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |
 | Switzerland | None |
 | Sweden | None |
 
-1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here]({{< ref "remote-com#brazil" >}}).
+1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/#brazil).
 If there are any questions, these should be directed to help@remote.com.
 1. Click on the benefits acknowledgement and continue
 1. You be will be on the 'billing cycle' page.
@@ -767,31 +763,14 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 
 ## Employment Agreements for GitLab team members in Germany
 
-According to the revised German Contract process, contracts require wet signatures, which means that besides contracts being e-signed in Docusign, GitLab also requires physical copies of the contract to be signed by both parties.
-
-To initiate the process to submit the contract for e-signatures via DocuSign:
+From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below).
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
-1. CES will send the German Contract Step 1 template email via Greenhouse
-1. The offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
-1. Download a copy of the unsigned contract onto your desktop from Greenhouse.
+1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
+1. Send the offer through Greenhouse and DocuSign. Use the "send through Docusign" template and add the RSU information into the body of the email.
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 
-**Once the Contract has been e-signed via DocuSign by both parties, please follow the steps below on how to send the contract in PDF format to the German counsel**
-
-Please follow the outlined steps below before sending the unsigned copy of the Contract to the Counsel:
-
-- Open the saved unsigned contract in Google Drive, remove GitLab signatory from the below fields -
-    1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
-    1. **Scroll down to the end of the contract** - replace Signatory's name with "GitLab Signatory". Save the contract as a PDF format.
-- To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-  - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-  - **Subject line**  : Please Send Physical Contract for "Name of the new hire"
-  - **Body of the email** : Expand the Text expander snippet "GCtogermancounsel"
-  - **Attachment** : CES to attach the unsigned PDF contract
-- In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the "email the "candidate name" function, select the template "German Contract already sent to counsel".
-- A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
-- Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
+Candidates in Germany have the right to ask for a wet signature contract.  (Process to be added)
 
 ## Employment Agreements for GitLab team members in Japan
 

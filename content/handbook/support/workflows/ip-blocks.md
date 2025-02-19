@@ -174,11 +174,9 @@ In certain cases, when the customer is using a shared user account to run pipeli
 
 ### Cloudflare troubleshooting
 
-NOTE: Cloudflare workflows may change in the future. Please see [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24686) for more details.
+There may be cases where a user is being blocked or rate limited by Cloudflare. The absence of logs in Kibana or `RateLimit-*` headers is usually an indication to investigate at the Cloudflare level. You can typically request a screenshot of the Cloudflare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
 
-There may be cases where a user is being blocked by Cloudflare and they are not being blocked in the application. In cases where rate limiting is apparent but there are no logs in Kibana, it is likely that requests are not reaching the application and being rate limited or blocked at Cloudflare. You can typically request a screenshot of the Cloudflare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
-
-![Access Denied](/handbook/support/workflows/assets/AccessDenied.png)
+![Access Denied](/images/support/workflows/assets/AccessDenied.png)
 
 ```text
 curl -i --header "PRIVATE-TOKEN: *****" https://gitlab.com
@@ -201,14 +199,14 @@ cf-ray: 6b01a12345abcde-KBP
 error code: 1020
 ```
 
-Note the `HTTP 403` response and `error code 1020`.
+Note the `HTTP 403` response and `error code 1020`. You should also take note of the `cf-ray` ID to use in the Cloudflare Dashboard.
 
-Once you obtain this information you should open an issue in our [Reliability tracker](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) providing the `cf-ray` ID and the timestamp (date) to request that the IP address block be removed. You can also consult the #infrastructure-lounge Slack channel with the open issue for further assistance. Some blocks may happen as a result of a mitigation effort, so you may want to verify that a [contact request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) is not open on the internal board.
+Once you obtain this information, you should [follow our guide](../../engineering/infrastructure/rate-limiting/troubleshooting.md) for troubleshooting Cloudflare. Some blocks may happen as a result of a mitigation effort, so you may want to verify that a [contact request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) is not open on the internal board.
 
-Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://www.maxmind.com/en/geoip-data-correction-request) of their IP address but it is not guaranteed and GitLab has no control over this process.
+Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://ofac.treasury.gov/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through Cloudflare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://www.maxmind.com/en/geoip-data-correction-request) of their IP address but it is not guaranteed and GitLab has no control over this process.
 
 ## Bypass Policy
 
 If a customer has concerns about being rate limited, work with them as much as possible to lower their traffic from a single IP address.
 
-Please refer to our [Bypass Policy](../../../engineering/infrastructure/rate-limiting/bypass-policy) for more information.
+Please refer to our [Bypass Policy](../../engineering/infrastructure/rate-limiting/bypass-policy.md) for more information.

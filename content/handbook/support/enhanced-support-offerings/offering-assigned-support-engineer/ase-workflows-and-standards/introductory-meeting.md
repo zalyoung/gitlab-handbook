@@ -28,9 +28,9 @@ There are only a few goals for this meeting:
 - Begin the relationship building between you and the customers
 - Learn what the customers really want and need from you
 
-## **Optional** Pre-introductory meeting between ASE and CSM
+## **Optional** Pre-introductory meeting between ASE and CSA
 
-Before your introductory call, it's advisable to meet with the CSM you'll
+Before your introductory call, it's advisable to meet with the CSA you'll
 be working alongside. Here are some key points you should go over to ensure
 you're both aligned and can help each other succeed:
 
@@ -42,7 +42,7 @@ during the meeting, as these tips are essential for effective customer-facing
 interactions:
 
 - Avoid assigning labels to colleagues during all interactions, particularly
-those that are customer-facing. For instance, a CSM should refrain from
+those that are customer-facing. For instance, a CSA should refrain from
 making statements like, "This ASE is really good at CI/CD."
   - Such statements can inadvertently influence the customer’s expectations
 and perceptions, potentially leading to misalignment between what is promised

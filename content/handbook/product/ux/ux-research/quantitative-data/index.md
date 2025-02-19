@@ -66,18 +66,18 @@ You can use these two data sources to build a comprehensive understanding of you
 
 One way to look at data is with data visualizations. Data visualizations are graphical representations of data, commonly seen as charts or tables. Data visualizations are used to represent a trend in your data, or display a summary of your data.
 
-There are many types of visualizations, and each one may suit a particular situation better than another. Below is an overview of common visualizations using example charts driven by SUS data, but you may also want to visit [this helpful blog post](https://monkeylearn.com/blog/data-visualization-types/) for additional examples.
+There are many types of visualizations, and each one may suit a particular situation better than another. Below is an overview of common visualizations using example charts driven by SUS data, but you may also want to visit [this helpful blog post](https://web.archive.org/web/20240422022437/https://monkeylearn.com/blog/data-visualization-types/) for additional examples.
 
 - Tables are good to use when you want to summarize a portion of your data or display aggregations.
-  ![Table Example](table.png)
+  ![Table Example](/images/product/ux/ux-research/quantitative-data/table.png)
 - Pie charts are used to compare data in different categories.
-  ![Pie Chart Example](pie.png)
+  ![Pie Chart Example](/images/product/ux/ux-research/quantitative-data/pie.png)
 - Bar charts are used to compare data across distinct categories, like fiscal quarters.
-  ![Bar chart example](bar.png)
+  ![Bar chart example](/images/product/ux/ux-research/quantitative-data/bar.png)
 - Line charts can be used to see trends. Time series are a type of line chart where the x-axis is always time.
-  ![Line chart example](line.png)
+  ![Line chart example](/images/product/ux/ux-research/quantitative-data/line.png)
 - Scatter plots are used when comparing two numeric variables. These charts can have some of the most flexibility, but that also comes with the risk of creating overly complex visualizations.
-  ![Scatter Chart Example](scatter.png)
+  ![Scatter Chart Example](/images/product/ux/ux-research/quantitative-data/scatter.png)
 
 ### What should you avoid when creating visualizations?
 
@@ -111,7 +111,7 @@ Once you have identified patterns, summarize those patterns as best you can whil
 
 The following is an example of using quantitative data to investigate [Actionable Insights (AI)](/handbook/product/ux/ux-research/research-insights/#actionable-insights). The research question was, "What are the potential factors in whether an (AI) issue is successfully completed or not?" First, the researcher pulled usage data in Sisense related to GitLab issues with the Actionable Insight label. Then, they created these charts:
 
-![sharesettings](/handbook/product/ux/ux-research/quantitative-data/ai.png)
+![sharesettings](/images/product/ux/ux-research/quantitative-data/ai.png)
 
 Based on these charts, it is evident that there is a huge decline in issues closed after 7 months. So the finding were presented as, "If Actionable Insight issues are not addressed within 7 months of creation, they are likely to be left open."
 
@@ -160,7 +160,7 @@ Example 1: *Understand how users interact with a specific page.*
 
 Example 2: *Finding areas for improvement of a new feature for future iterations.*
 
-1. Monitor usage analytics with the [feature flag](https://docs.gitlab.com/ee/development/feature_flags/) after launching the new feature. Examine things like time on page and how many users interacted with other features during the workflow.
+1. Monitor usage analytics with the [feature flag](https://docs.gitlab.com/development/feature_flags/) after launching the new feature. Examine things like time on page and how many users interacted with other features during the workflow.
 1. Understand high-level goals by interviewing users with personas that have any chance of interacting with the new feature, as well as any persona identified in the usage data.
 1. Pair usage analytics and the interview insights to visualize workflows that interact with other features.
 1. Include priorities based on user input and time-on-page trends.

@@ -11,7 +11,7 @@ description: "Manage Snowflake Permissions"
 
 ## Permifrost
 
-![permifront diagram](pf.jpeg)
+![permifront diagram](/images/enterprise-data/platform/pf.jpeg)
 
 Permifrost is a Python tool for managing permissions on a Snowflake data warehouse. The main documentation for using the tool is available in the project and on PyPI.
 

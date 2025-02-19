@@ -134,7 +134,7 @@ While you're here, you can also choose to set your pronouns and the display opti
 
 ### Join meetings with muted microphone
 
-Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.us/hc/en-us/articles/203024649-Muting-your-microphone-when-joining-a-meeting):
+Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614):
 
 1. Navigate to `Zoom > Preferences > Audio`.
 1. Scroll down and select the box `Mute my mic when joining a meeting`.
@@ -404,7 +404,7 @@ Using the Zoom app:
 
 ### Recording video transcripts
 
-[Closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+[Closed captioning and live transcription](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490)
 is enabled by default for all users, however the subtitles will not show for participants unless
 a host manually enables it once the meeting starts.
 
@@ -663,7 +663,7 @@ In the above Chrome support thread, the following macOS solution is listed:
 If you have a loud keyboard or a fan in your office, Zoom may try to automatically reduce your microphone input volume. This can be frustrating because then other participants have trouble hearing you speak later in the call.
 If you are experiencing this issue, go into your Zoom client settings and uncheck "Automatically adjust microphone volume".
 
-![Zoom mic settings](/handbook/tools-and-tips/images/zoom-mic-volume.png)
+![Zoom mic settings](/images/tools-and-tips/zoom-mic-volume.png)
 
 ### Google Calendar Add-on for Zoom
 

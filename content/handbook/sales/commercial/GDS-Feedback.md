@@ -27,7 +27,7 @@ Any other type of feedback is typically posed in this feedback Slack channel.
 
 ### CSAT/NPS
 
-Company-wide CSAT Surveys are sent out twice annually via Gainsight. 
+Company-wide CSAT Surveys are sent out twice annually via Gainsight.
 
 ## Feedback best practices for Advocates
 
@@ -125,7 +125,7 @@ Below are the DRIs to facilitate the investigation of the appropriate feedback t
 <td>Dashboard maintenance</td>
 <td>
 
-- Maintain and improve feedback 
+- Maintain and improve feedback
 
 </td>
 <td>
@@ -196,11 +196,11 @@ Below are the DRIs to facilitate the investigation of the appropriate feedback t
 </td>
 <td>
 
-`@Gsodhi` 
+`@Gsodhi`
 </td>
 <td>
 
-`@mhanks` 
+`@mhanks`
 </td>
 </tr>
 <tr>

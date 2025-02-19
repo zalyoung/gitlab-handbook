@@ -40,9 +40,6 @@ The last week of the milestone is planning week for the next milestone. Here are
 | - | Milestone ends |
 | Mon | Calculate the percentage breakdown of features, bugs, and maintenance and add it to the current planning issue. |
 | Tue | Review all open issues from the previous milestone, move them to the appropriate milestone. |
-| Thu | Find issues to investigate as part of the [planning / backlog refinement process](/handbook/engineering/development/dev/create/code-review/backend/#planning) (*). Create a new issue using the [backlog refinement template](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/new?issuable_template=backlog_refinement). |
-
-(*) This process is not actively in use and needs to be revived or revisited.
 
 ### Capacity planning
 

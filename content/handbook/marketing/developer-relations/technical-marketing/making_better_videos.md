@@ -12,7 +12,7 @@ This page displays information and useful links on creating great technical vide
 
 ### Tools
 
-* [iMovie](https://www.apple.com/imovie/)
+* [iMovie](https://support.apple.com/imovie)
 * [Final Cut Pro](https://www.apple.com/final-cut-pro/)
 
 ### Planning
@@ -27,10 +27,10 @@ Before starting to record a video, a few things must be planned out:
 
 ### Video Length
 
-* [Why Short-Form Video Needs to Be Part of Your Content Strategy](https://www.entrepreneur.com/article/308684)
-* [How Many of These Video Marketing Mistakes Are You Making?](https://www.entrepreneur.com/article/293275)
+* [Why Short-Form Video Needs to Be Part of Your Content Strategy](https://www.entrepreneur.com/science-technology/why-short-form-video-needs-to-be-part-of-your-content/308684)
+* [How Many of These Video Marketing Mistakes Are You Making?](https://www.entrepreneur.com/growing-a-business/how-many-of-these-video-marketing-mistakes-are-you-making/293275)
 * [If your video doesn't capture audiences in 10 seconds, you're losing engagement](https://sociable.co/social-media/video-audiences-engagement/)
-* [focused on explainer videos](https://www.yumyumvideos.com/short-vs-long-videos-explainer-video-length-wp/), but still generally good info such as:
+* [focused on explainer videos](https://www.yumyumvideos.com/blog/short-vs-long-videos-explainer-video-length-wp/), but still generally good info such as:
    > In order to get the most out of your marketing video, always try to follow these guidelines:
    > * Include your audience's pain points at the very beginning of your video so as to quickly grab their attention. Make it in an interesting, clear and direct way.
    > * Work on a custom video. This will make a huge difference in terms of engagement and memorability. If you customize the characters, landscapes, and backgrounds of your video, you will set up a strong emotional connection with your viewers (they will feel that the story was specially made for them).
@@ -60,5 +60,5 @@ Once the video is complete, how it is published is can affect how users react to
 
 ### Analytics/Growth
 
-* [12 YouTube Analytics Every YouTuber Should Know](https://www.business2community.com/youtube/12-youtube-analytics-every-youtuber-should-know-02206636)
+* [12 YouTube Analytics Every YouTuber Should Know](https://web.archive.org/web/20241130130904/https://www.business2community.com/youtube/12-youtube-analytics-every-youtuber-should-know-02206636)
 * [How to Grow Your YouTube Channel in 2020](https://backlinko.com/grow-youtube-channel)

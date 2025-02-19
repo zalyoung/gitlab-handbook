@@ -112,4 +112,4 @@ We recommend the following resources if you'd like to learn more about running
 effective retrospectives:
 
 1. [Agile Retrospectives: Making Good Teams Great](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649)
-1. [The Human Side of Post Mortems](https://www.oreilly.com/webops-perf/free/the-human-side-of-postmortems.csp)
+1. [The Human Side of Post Mortems](https://www.oreilly.com/library/view/the-human-side/9781449369538/)

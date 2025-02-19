@@ -15,7 +15,7 @@ Depending on your previous experience, you may be accustomed to a number of diff
 
 A common breakdown of this hierarchy in general terms is as follows:
 
-![Agile Hierarchy](agile-wip.png)
+![Agile Hierarchy](/images/engineering/infrastructure-platforms/tenant-scale/geo/agile-wip.png)
 
 ### User Story
 

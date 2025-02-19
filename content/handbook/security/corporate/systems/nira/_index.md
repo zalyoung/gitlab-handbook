@@ -17,7 +17,7 @@ We chose Nira because of the easy to navigate interface, alerting mechanisms, fl
 
 ### System Owner
 
-- DRI: `@adamhuss`
+- DRI: `@jbisutti-gl`
 - `#security-corpsec` Slack channel
 
 #### Access Request
@@ -38,7 +38,7 @@ We chose Nira because of the easy to navigate interface, alerting mechanisms, fl
 
 The first section to familiarize yourself with is the "Items" area. as shown below. From here you can filter by file type, share permissions, and many others. You can also see meta-data information which can help you protect access to your Drive files.
 
-![protectaccessarea.png](/handbook/security/corporate/systems/nira/images/protectaccessarea.png)
+![protectaccessarea.png](/images/security/corporate/systems/nira/protectaccessarea.png)
 
 ## Seeing more details about an item
 
@@ -49,7 +49,7 @@ The first section to familiarize yourself with is the "Items" area. as shown bel
 1. In the item panel, you will see details including owner, age, last modified, account types the item was shared with, and link type.
 1. Below the details section, you can see more information about the people who have access and if they are internal or external.
 
-![seeingmoredetails.png](/handbook/security/corporate/systems/nira/images/seeingmoredetails.png)
+![seeingmoredetails.png](/images/security/corporate/systems/nira/seeingmoredetails.png)
 
 ## Security recommends that you review sharing permissions on documents in the following order
 
@@ -87,7 +87,7 @@ The first section to familiarize yourself with is the "Items" area. as shown bel
     1. Add link type, remove link type, transferring ownership, removing a collaborator, copy a link, change permissions, stop sharing, or deleting an item.
 1. A confirmation dialogue will display upon clicking any of the actions, except copying a link. The dialogue enables you to change settings and confirm the action you will be taking.
 
-![changeindividualitem.png](/handbook/security/corporate/systems/nira/images/changeindividualitem.png)
+![changeindividualitem.png](/images/security/corporate/systems/nira/changeindividualitem.png)
 
 ## How to change many items at once
 
@@ -96,7 +96,7 @@ The first section to familiarize yourself with is the "Items" area. as shown bel
 1. To change many items at once, select more than one item or select all items by clicking the square to the left of the Name column.
 1. Four bulk actions can be taken: add link type, remove link type, transfer ownership, remove collaborator, change permission, stop sharing and delete.
 
-    ![changemany.png](/handbook/security/corporate/systems/nira/images/changemany.png)
+    ![changemany.png](/images/security/corporate/systems/nira/changemany.png)
 
 1. A confirmation dialogue will display upon clicking any of the actions. The dialogue enables you to change settings and confirm the action you will be taking.
 
@@ -142,13 +142,13 @@ The first section to familiarize yourself with is the "Items" area. as shown bel
     1. Type FIX ITEMS in all caps to confirm and then click Fix items to complete the action.
 1. You can click Protect access to go back to the list of all your items.
 
-![requestreview.png](/handbook/security/corporate/systems/nira/images/reviewrequest.png)
+![requestreview.png](/images/security/corporate/systems/nira/reviewrequest.png)
 
 ## Access audits
 
 Access audits are completed to make sure that only people who need to have access to information have access to it. As part of an Access audit, you will review a set of items and confirm that permissions are accurate. If permissions or access needs to be updated, you can make changes as needed and complete the access audit by marking as reviewed.
 
-![auditaccess.png](/handbook/security/corporate/systems/nira/images/auditaccess.png)
+![auditaccess.png](/images/security/corporate/systems/nira/auditaccess.png)
 
 ## How to view historical actions
 
@@ -164,7 +164,7 @@ Access audits are completed to make sure that only people who need to have acces
 
 > The "Items" area is where you can review all Google Workspace items you own and make changes to them as well as search and filter.
 
-![image-2.png](/handbook/security/corporate/systems/nira/images/image-2.png)
+![image-2.png](/images/security/corporate/systems/nira/image-2.png)
 
 #### All items
 
@@ -190,7 +190,7 @@ These two columns show you the owner of the item and their email address. When a
 
 > Filters in Nira allow you to adjust the criteria for displaying the items you see.
 
-![filters.png](/handbook/security/corporate/systems/nira/images/filters.png)
+![filters.png](/images/security/corporate/systems/nira/filters.png)
 
 #### Shared with Internal
 

@@ -143,9 +143,9 @@ In Greenhouse, you will use an "interview kit" when interviewing a candidate, wh
 
 We want to highlight the strengths and weaknesses of the candidate in an easy to absorb, standardized way. Every scorecard must include Pros and Cons. This helps the talent acquisition team gather data that will be presented to the candidate in the form of feedback. Remember, if something is not relevant to the job, it should not be written down.
 
-It is important that scorecards are completed within 24 hours so Talent Acquisition can keep the hiring process moving and ensure a positive candidate experience.
+It is important that scorecards are completed within 24 hours so Talent Acquisition can keep the hiring process moving and ensure a positive candidate experience. All meeting notes should live in Greenhouse, and not in links to Google Docs or other external sources. Doing so we allow Greenhouse to be the single source of truth (SSOT) for information from the candidate for GDPR and compliance reasons.
 
-We encourage you to read our detailed handbook page on discussing scorecards and best practices before submitting your scorecard.
+In order to help remove bias, Interviewers (unlike Hiring Managers) are **not** able to see another Interviewer's scorecard. If there are certain specific flags, concerns, or notes that should be highlighted to the rest of the Interview Team, the Interviewer should add a note in their scorecard by clicking the `Note for Other Interviewers` section right underneath the `Key Take-Aways` text box.
 
 Scoring is defined as follows (all divisions but Engineering):
 

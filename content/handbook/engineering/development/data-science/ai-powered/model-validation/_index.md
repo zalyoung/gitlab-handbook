@@ -93,7 +93,7 @@ Our current customers include GitLab [AI-powered Duo feature teams:](https://doc
 
 1. [AI Powered: Duo-Chat team](https://about.gitlab.com/direction/ai-powered/duo_chat/)
 2. [Create: Code Creation team](https://about.gitlab.com/direction/create/code_creation/)
-3. [Govern: Threat Insights `AI Vulnerability Management` team](https://about.gitlab.com/direction/govern/threat_insights/vulnerability_management/)
+3. [Security Risk Management: Threat Insights `AI Vulnerability Management` team](https://about.gitlab.com/direction/security_risk_management/threat_insights/vulnerability_management/)
 4. [Root Cause Analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis)
 5. [RAG Evaluation](/handbook/engineering/development/dev/foundations/search/)
 6. [Issue Summarization](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#issue-description-generation)

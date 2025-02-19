@@ -4,7 +4,7 @@ title: Dynamic Analysis Group
 
 ## Dynamic Analysis
 
-The Dynamic Analysis group at GitLab is charged with developing solutions which perform [Dynamic Analysis Software Testing (DAST)](https://about.gitlab.com/direction/secure/dynamic-analysis/dast/) and Fuzzing. Our work is a mix of open and closed source code.
+The Dynamic Analysis group at GitLab is charged with developing solutions which perform [Dynamic Analysis Software Testing (DAST)](https://about.gitlab.com/direction/application_security_testing/dynamic-analysis/dast/) and Fuzzing. Our work is a mix of open and closed source code.
 
 ### Mission
 
@@ -200,7 +200,7 @@ Two weeks before a release milestone is kicked off, our [Hallway Monitor Bot](#h
 - **Work to Start/Continue** - new work being brought in or existing work rolling over from a previous milestone
 - **Work to Blueprint** - work that needs high-level planning and breakdown this milestone before development work in the next milestone
 
-On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product and ensure all of the priorities for the current milestone are reflected in the monthly release planning issue in the "Work to Release" and "Work to Start/Continue" sections. Medium to large sized bodies of work identified for the next milestone by our PM should be added to the "Work to Blueprint" section for high-level blueprinting and breakdown of the work for pick-up in the next milestone.
+On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/application_security_testing/dynamic-analysis/#priorities) with product and ensure all of the priorities for the current milestone are reflected in the monthly release planning issue in the "Work to Release" and "Work to Start/Continue" sections. Medium to large sized bodies of work identified for the next milestone by our PM should be added to the "Work to Blueprint" section for high-level blueprinting and breakdown of the work for pick-up in the next milestone.
 
 Product sets all of our high-level priorities, and in addition to the above, another output from this kick-off meeting can be an MR update to direction page with an updated mapping of each priority to a group issue/epic and/or targeted milestone. This process allows for the EM and ICs to give direct feedback to our PM for how we'd like to organize the work and which milestone we think we can get to future roadmap items.
 
@@ -226,7 +226,7 @@ After the completion of any milestone, the planning issue for that milestone is 
 
 #### Important Links
 
-- [Dynamic Analysis Group Direction Priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities)
+- [Dynamic Analysis Group Direction Priorities](https://about.gitlab.com/direction/application_security_testing/dynamic-analysis/#priorities)
 - [List of all Dynamic Analysis Milestone Planning Issues & Retros](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=all&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=type%3A%3Aignore&search=%20%F0%9F%93%90&first_page_size=20)
 
 #### Milestone Outputs
@@ -317,7 +317,7 @@ When there are too few or no work items in the `workflow::refinement` or the `wo
 /label `~workflow::planning breakdown`
 ```
 
-If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture).
+If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture/).
 
 #### Issue breakdown
 

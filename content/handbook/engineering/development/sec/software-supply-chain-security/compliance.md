@@ -108,7 +108,7 @@ When you pick something to work on, please:
 
 ### Testing
 
-We aim to uphold [GitLab's principle of fostering an environment where Quality is everyone's responsibility](/handbook/engineering/quality/#our-principles).
+We aim to uphold [GitLab's principle of fostering an environment where Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality).
 Testing is an essential part of our [product development workflow](/handbook/product-development-flow/) and
 [code review process](https://docs.gitlab.com/ee/development/code_review.html#quality).
 
@@ -125,7 +125,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 ### Pre-planning
 
 - By the 4th, Product should have created a planning issue for their group in the [Compliance project](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/issues) for the coming release using the [template](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/blob/main/.gitlab/issue_templates/planning_issue.md).
-- The Complaince [quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
+- The Compliance quad will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
 - We prioritize using the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
 - Pre-planning is completed asynchronously by Product, Engineering, Quality and Design on the issue, this is to identify any unknowns or questions that need to be answered and resolved prior to final planning.
 - Issues can be either in Refinement phase (`workflow::planning breakdown` and `workflow::solution validation`) or Implementation phase (`workflow::scheduling` and `workflow::ready for development`).
@@ -279,7 +279,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 
 ~documentation
 
-1. Update docs page eg https://docs.gitlab.com/ee/administration/audit_events.html
+1. Update docs page eg https://docs.gitlab.com/ee/administration/audit_event_reports.html
 1. Update the GraphQL examples <https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/engineering/graphql-example-requests>
 
 ~quality
@@ -369,7 +369,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Planning for PTO
 
-We follow the [Software Supply Chain Security stage PTO process](/handbook/engineering/development/sec/software-supply-chain-security/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Engineering process for taking time off](/handbook/engineering/#taking-time-off) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Group Shared Calendar
 

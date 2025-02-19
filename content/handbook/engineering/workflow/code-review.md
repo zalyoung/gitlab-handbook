@@ -60,6 +60,8 @@ Before considering maintainership, first you should be a contributor. You should
 
 Interested reviewers should check in regularly with their manager/mentor to discuss progress towards maintainership and review any recent detailed reviews, for example during their 1-on-1s. Reviewers are encouraged to also seek out a [maintainer mentor](#reviewer-mentorship-program) for further perspective on their reviews. Reviewers are encouraged to think of their eligibility for maintainership in the terms of "I could be ready at any time to be a maintainer as long as it is justified".
 
+You can also open a maintainer trainee issue using this [template](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/issue_templates/trainee-maintainer.md) allowing you to build up examples that will translate into your final merge request.
+
 After each review is complete, the reviewer should write up a justification about why they believe the merge request is ready to merge. This justification is then reviewed by the maintainer and if the maintainer agrees with the justification they should add a 👍 reaction to the comment, even if they have additional non-blocking comments. The maintainer should leave a comment highlighting any blocking concerns that were missed in the initial review.
 
 At any time, the manager/mentor may choose to open a merge request, adding the reviewer as a maintainer. This merge request should have a justification from the manager/mentor as to why the reviewer should become a maintainer. You are also welcome to open this merge request yourself at any time. There are [merge request templates available](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/merge_request_templates) to help you with the content and steps.
@@ -95,6 +97,11 @@ After merging, the manager should:
 1. Post an update in the **Engineering Week-in-Review document**. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
+
+#### Project maintainer process for  `gitlab-rails`
+
+- For Backend Maintaiers, ping to `@gitlab-org/maintainers/rails-backend`
+- For Frontend Maintainers, ping to `@gitlab-org/maintainers/rails-frontend`
 
 #### Project maintainer process for `gitlab-database`
 
@@ -182,7 +189,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
 
-- Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
+- Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
 - Complete [Golang training issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md) if you don't have prior experience with Go.
 - Watch [External License DB Architecture and Repository Walkthrough](https://www.youtube.com/watch?v=5b5QNJNwoJ8)
 - Review [Fullstack Development of LicenseDB guideline](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/fullstack_development.md).
@@ -205,7 +212,7 @@ Upon approval, the maintainer who merges the MR will:
 [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
-- Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
+- Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
 - Understand how [custom resources and controllers](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) work.
 - Familiarize yourself with the following libraries and tools:
   - [operator-sdk](https://sdk.operatorframework.io/docs/overview/)

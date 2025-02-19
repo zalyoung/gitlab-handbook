@@ -548,7 +548,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
--Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
+- Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
 - In FY25, each e-group member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
 - Each e-group member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
@@ -579,7 +579,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.
@@ -664,7 +664,7 @@ These virtual cards within Navan are only utilized by the AP team, and they are 
 
 ### Setting up your Navan Account
 
-Below is some more information to help you get set up with your [Navan](https://tripactions.com/) account.
+Below is some more information to help you get set up with your [Navan](https://navan.com/) account.
 
 - Log into Okta and click the Navan tile.
 - Once you are in your dashboard, make sure to set up your info in your profile (see link from drop down menu under your name).

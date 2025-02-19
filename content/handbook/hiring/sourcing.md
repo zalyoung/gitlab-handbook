@@ -56,7 +56,6 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 
 - Paid External Tools (*broken out individually*)
   - LinkedIn (Prospecting i.e. LinkedIn Recruiter)
-  - SeekOut
 - Social Media
 - Greenhouse Sourcing (Prospecting via our CRM)
 - Other Sourcing Tools - this indicates any tool we used that we do not have a paid agreement.
@@ -152,7 +151,7 @@ Our strategy to building representative teams is rooted in our top of funnel str
 
 - As a best practice, Recruiters will focus on screening internal candidates, referrals, and sourced candidates for the first 5 business days a req is open.
 
-1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our CRM)
+1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter and our CRM)
 1. For each candidate that is sourced in step 2 utilizing a DIB sourcing strategy (ie: leveraging HCBUs in a boolean string, utilizing GraceHopper resume books, etc), apply the appropriate tag.
 
 **IMPORTANT NOTE** These indicators are not assuming or identifying an individual's gender, race, or ethnicity—we cannot be certain of this information from a search and do not want to make any assumptions without self-identification.
@@ -179,10 +178,6 @@ Our Talent Acquisition team has two seats for LinkedIn's **Talent Insights** pro
 Once a report has been run, it can be exported in either a `.PDF` or `.CSV` format; the latter allowing you to filter and segment the data. All reports will be uploaded to the [LinkedIn Talent Insights Reports](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/tree/master/LinkedIn%20Talent%20Insights%20Reports/Talent%20Insights%20Reports) project. If there's a report in that project that you'd like refreshed, please submit a new request Issue.
 
 Our Executive Recruitment team performs research before the start of every Dir+ role which leverages our LI Talent Insights tool. The use throughout the rest of the team is discretionary based on need and sourcing strategy.
-
-#### SeekOut
-
-Each quarter, we allocate SeekOut seats strategically through our recruitment team based on need (volume of roles and alignment to goals), usage and opportunity to drive impact to priority pipelines. Allocations are established during the first two weeks of the quarter. If you are interested in having a seat allocated for the following quarter, be sure to raise the request with your manager for consideration.
 
 #### LinkedIn Sourcing
 
@@ -212,8 +207,6 @@ In today's talent market, a CRM enables us to efficiently and quickly engage wit
 
 Examples of searches:
 
-1. Use of SeekOut's gender or race & ethnicity-specific search tools
-A list of all HBCUs (Historically Black Colleges and Universities) in the United States
 1. A search of all sororities in the United States
 1. A LinkedIn search including "she" or "her" pronouns
 You cannot search for race or gender on LinkedIn, but you can search for associations. (Examples would be NSBE OR "Black engineer" OR NSMBA OR "Black MBAs" OR AAWIT OR "African American women in technology" OR NAACP OR "Black chamber of commerce" OR "African American chamber")
@@ -221,7 +214,7 @@ You cannot search for race or gender on LinkedIn, but you can search for associa
 
 #### Pitch Pages
 
-Pitch Pages are a [Guide]({{< ref "interviewing#guide" >}})-like experience, intended for prospective candidates that have yet to dive into learning about the experience of working at GitLab, or for current candidates who are in the process and interested in learning more. Pitch Pages are a great sourcing tool aimed to help convert a prospect into a true candidate, or to provide more insight about our company for those currently in the process.
+Pitch Pages are a Guide-like experience, intended for prospective candidates that have yet to dive into learning about the experience of working at GitLab, or for current candidates who are in the process and interested in learning more. Pitch Pages are a great sourcing tool aimed to help convert a prospect into a true candidate, or to provide more insight about our company for those currently in the process.
 
 To help form a strong and meaningful relationship with both passive and active candidates, Recruiters can leverage a unique Pitch Page built specific to their departments including Sales, Engineering, UX, G&A, Product, or our General Pitch Page. Pitch Pages will highlight GitLab's achievements, life at GitLab, our values, culture, benefits, and working on a specific team! Recruiters may choose to send the Pitch Page via Inmails, LinkedIn messages or use it in any strategy for sourcing by sharing this [link](https://app.guide.co/p/c462b99a-d4a6-4246-9e5c-e4232c7bd958) with candidates.
 
@@ -242,7 +235,7 @@ If a former GitLab team member is identified by the Hiring Manager, Recruiter, o
 
 If you are a Hiring Manager on a open role, your recruiter will partner with you to ensure you have a good action plan for building a passive candidate pool for your role.
 
-Sourcing vs. Referrals: If you **know** a candidate from school, previous companies, seminars... even among your neighbors or family members - the best next step is to submit them as a referral by creating an `Issue` in the [Referrals Project](https://gitlab.com/gl-talent-acquisition/referrals/-/issues/new?issuable_template=Referral%20Submission). More information about the **Referrals** can be found on the [Referral Process]({{< ref "referral-process" >}}) page.
+Sourcing vs. Referrals: If you **know** a candidate from school, previous companies, seminars... even among your neighbors or family members - the best next step is to submit them as a referral by creating an `Issue` in the [Referrals Project](https://gitlab.com/gl-talent-acquisition/referrals/-/issues/new?issuable_template=Referral%20Submission). More information about the **Referrals** can be found on the [Referral Process](/handbook/hiring/referral-process/) page.
 
 For anyone that you **do not** have a personal relationship with, please add them as a *Prospect* in Greenhouse. Talent Acquisition will be able to engage prospects during the interview process by leveraging information in Greenhouse.
 
@@ -273,7 +266,7 @@ You can go on YouTube and search for candidates who have spoken at seminars or p
 When you have identified someone as a good potential candidate, send their
 profile along with any requested information to the TA member so they can reach out to
 the candidate and add them to Greenhouse. You can check the Talent Acquisition alignment
-[here]({{< ref "recruiting-alignment" >}}).
+[here](/handbook/hiring/recruiting-alignment/).
 
 If you want to reach out to a sourced candidate directly, you should discuss your communication strategy with your
 recruiting partner beforehand in order to avoid duplication and/or poor candidate experience.

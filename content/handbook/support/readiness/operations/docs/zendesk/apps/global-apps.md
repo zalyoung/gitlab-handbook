@@ -84,6 +84,8 @@ The current plugins are:
   > It also gives the option of removing the suppression (if one if found). Doing so deletes it from mailgun and adds an intenral comment on the ticket with the results of the suppression deletion.
 - **Fieldnotes**
   > This app checks the [Fieldnotes project](https://gitlab.com/gitlab-com/support/fieldnotes/-/issues) for any existing Issues which reference the current Zendesk ticket ID. If no existing Issues are found, then agents are able to create a new Fieldnotes Issue from directly within the Zendesk ticket.
+- **Two Factor Auth Validator**
+  > This app checks values entered by a support engineer and does a validation check. This effectively acts as the second layer of validation
 
 App information:
 

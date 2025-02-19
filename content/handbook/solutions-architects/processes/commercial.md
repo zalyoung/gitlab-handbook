@@ -29,7 +29,7 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 
 ### Segment-Specific Engagement Models
 
-The SA team’s engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
+The SA team's engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
 
 #### Mid-Market
 
@@ -243,35 +243,6 @@ Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-archite
 - Duration: 25 minutes (assuming two presenters)
 - Two opportunities are reviewed during the session (10 minutes each)
 - Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
-
-### Solutions Architect Judgment Indicator
-
-The Solutions Architect Judgment Indicator (SA Judgment) is a metric used to assess the technical perception and feedback regarding current opportunities. It aids in making informed decisions and effectively managing sales pipelines. This indicator enhances the precision of forecasting by providing a means to validate AE judgment based on the technical seller's assumptions. It also facilitates discussions during deal reviews and pipeline analysis by highlighting potential misalignments more easily.
-
-The key aspects to take into consideration:
-
-1. Technical statement
-   1. Customer knowledge: current state well documented (internal)
-   1. Clear use cases. Identified pains.
-   1. Product-match. Identified capabilities to close the gap.
-1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
-   1. Access to development, information security and operations. Technical/lead developer involved with the right skills
-   1. Connection to the technical validator/buyer
-   1. Established communication channel and responsiveness
-
-The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] Initials Date: One line qualitative comment` with `[COLOR]` equals to:
-
-- `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
-- `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
-- `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
-
-> Example: _[RED] VD 17/10: No access to technical buyers, no clear use case_.
-
-Solutions Architects are required to fill out in their judgment on all opportunities meeting these criteria:
-
-- EMEA COMM Business Unit
-- Net ARR >$50K
-- Stage: 3+ (potentially 2+)
 
 ## Team Meetings
 

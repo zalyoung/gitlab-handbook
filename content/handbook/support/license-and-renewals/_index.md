@@ -158,7 +158,7 @@ storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/
 Changes to how storage and transfer limits are considered at a
 [namespace level](https://docs.gitlab.com/ee/user/usage_quotas.html#namespace-storage-limit) are
 planned, but not currently enforced. See [the storage management improvements issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375296)
-and [Pricing FAQ](https://about.gitlab.com/pricing/faq-paid-storage-transfer/#q-what-is-changing-with-storage-and-transfer-limits)
+and [Pricing FAQ](https://docs.gitlab.com/ee/user/storage_usage_quotas.html)
 for further information.
 
 ### What you'll be working on
@@ -177,6 +177,7 @@ for further information.
 - Identifying product issues that are important to customers, Support or both,
   and coordinating with the entire L&R Support Team and the Fulfillment Product
   Management Team to prioritize them for Engineering.
+- Some team members work closely with the Fulfillment engineers to review and collaborate on changes in the Customers Portal. If you would like to participate and be pinged on relevant MRs, add yourself as a direct member of the reviewers group: https://gitlab.com/groups/gitlab-com/support/licensing-subscription/reviewers.
 
 ### Systems you'll need access to
 

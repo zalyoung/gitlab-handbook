@@ -14,8 +14,8 @@ This README is meant to help anyone who needs to work with me by providing a bri
 
 ### My Personal Values
 
-1. **Integrity:** Trust is the most important thing in any relationship. Trust is knowing you can count on me to say what I mean and do what I say. I try to live my life in strict adherence to this value, and when I fall short, I try to proactively and openly acknowledge and recommit. My single biggest ‘hot button’ issue is when someone does not follow through on something they said they would do. 
-1. **Curious:** I try to live what many call the “growth mindset,” which means that I’m always learning, striving to improve, and iterating to be better. I feel very imperfect and self-critical on the inside, and I constantly strive to learn as much as I can while appreciating that I can’t know it all. I’m open and accept constructive feedback from anyone, anytime. 
+1. **Integrity:** Trust is the most important thing in any relationship. Trust is knowing you can count on me to say what I mean and do what I say. I try to live my life in strict adherence to this value, and when I fall short, I try to proactively and openly acknowledge and recommit. My single biggest ‘hot button’ issue is when someone does not follow through on something they said they would do.
+1. **Curious:** I try to live what many call the “growth mindset,” which means that I’m always learning, striving to improve, and iterating to be better. I feel very imperfect and self-critical on the inside, and I constantly strive to learn as much as I can while appreciating that I can’t know it all. I’m open and accept constructive feedback from anyone, anytime.
 1. **Results:** Good ideas, hard work, and fun on the job are all important, but ultimately, our results are what matter. I care far more about outcomes than effort. I strive to do everything at a high standard of excellence, and I’m never satisfied with the status quo. I seek people who are equally committed to being world-class.
 
 ### My Super Powers - how you can get the best from me
@@ -29,7 +29,7 @@ This README is meant to help anyone who needs to work with me by providing a bri
 1. **Passionate** — I sometimes come across as emotionally charged, overly critical when we fall short of goals, or emotional when something touches my heart. I don’t smile enough on the outside (even though I’m generally pretty happy on the inside—because solving problems is fun to me!).
    1. How to help me manage this: It depends on the situation. There is a time to be serious, but it is also possible to overdo it. Try smiling to remind me that I can lighten the mood. A well-timed joke is always helpful, and feel free to ask with a smile, “Are we having fun yet?” to make me think.
 1. **Curiosity** - I sometimes exhaust people with my many questions and drill-in tendencies. As I’m a genuinely curious person and care about all parts of the business,  I regularly do this, and it is not always an indication that something is off.
-   1. How to help me manage this: Come prepared for meetings. If you don’t know the answer, let me know and be clear on when you will follow up. If you have concerns about whether my drilling affects your performance, let me know so we can discuss it. 
+   1. How to help me manage this: Come prepared for meetings. If you don’t know the answer, let me know and be clear on when you will follow up. If you have concerns about whether my drilling affects your performance, let me know so we can discuss it.
 1. **Work Ethic** - Occasionally, people struggle to keep pace with my style of work.
    1. How to help me manage this: let me know if you are struggling so we can discuss it.
 
@@ -43,7 +43,7 @@ Suggestion: If I am negatively impacting you, I welcome constructive feedback an
 
 ### My Role
 
-I am the CEO of GitLab. Here is what I do in 12 words or less that is unique to my role: 
+I am the CEO of GitLab. Here is what I do in 12 words or less that is unique to my role:
 **Lead the team that defines and drives GitLab’s strategy & execution.**
 
 ### Communication Preferences
@@ -53,7 +53,7 @@ I am the CEO of GitLab. Here is what I do in 12 words or less that is unique to 
 1. If you have a complex question or need a discussion on something async that will require more than a few sentences for me to reply, put it into a document and share it with me with comments. I read fast and am pretty efficient at giving feedback this way.
 1. Use email when it is an external-facing communication, but don’t expect me to respond in < 1 week unless you ask me to look at it sooner over Slack or it is regarding a critical external matter.
 
-### Expectations for leadership  
+### Expectations for leadership
 
 What I need from you. What you will get from me.
 
@@ -92,4 +92,16 @@ What I need from you. What you will get from me.
 
 ## CEO Scam
 
-See [CEO and executive fraud](handbook/security/security-assurance/governance/phishing/#ceo--executive-fraud) in the security practices section of the handbook.
+See [CEO and executive fraud](/handbook/security/security-assurance/governance/phishing/#ceo--executive-fraud) in the security practices section of the handbook.
+
+## Meeting request requirements
+
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/).
+
+## CEO Meeting Cadence
+
+As part of my role, I participate in a variety of meetings both internal and external.
+
+### Monthly Meetings
+
+1. Monthly CEO AMA, [agenda in Gdrive](https://drive.google.com/drive/search?q=monthly%20ceo%20ama) (internal).

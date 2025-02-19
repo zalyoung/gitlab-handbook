@@ -39,7 +39,7 @@ Please reach out to Allie Klatzkin or Alison Lee with any questions.
 * **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
 * **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
 * **Localization**: Owning the translation and localization strategy for email, building new nurtures for prospects
-* **PubSec Nurture**: Rebuild the nurture to educate leads on the value of GitLab for the Public Sector and ultimately generate MQLs 
+* **PubSec Nurture**: Rebuild the nurture to educate leads on the value of GitLab for the Public Sector and ultimately generate MQLs
 
 **Alison Lee** _Senior Customer Lifecycle Marketing Manager_
 

@@ -23,4 +23,4 @@ With performance in mind, avoiding the extra steps that need to happen if Rails 
 
 ## Consequences
 
-GitLab Rails is considered trusted environment, thus granting it access to manipulate secrets and related configuration across all organizations and projects in GitLab. Extra caution is needed to ensure that the secret ID for the role is protected and will never leak. Fortunately, AppRole usage best practices are [documented](https://developer.hashicorp.com/vault/tutorials/auth-methods/approle-best-practices).
+GitLab Rails is considered trusted environment, thus granting it access to manipulate secrets and related configuration across all organizations and projects in GitLab. Extra caution is needed to ensure that the secret ID for the role is protected and will never leak. Fortunately, AppRole usage best practices are [documented](https://developer.hashicorp.com/vault/docs/auth/approle/approle-pattern).

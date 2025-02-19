@@ -245,7 +245,7 @@ As the email builder, you are responsible for making sure the email is formatted
 * Confirm that all tokens used in the email are complete in the program. This can vary from email to email, so you will need to check the email in the editor to confirm which tokens are in use. Generally, be sure to check {{my.landingpageURL}}, {{my.utm}}, the tokens for the title of the event, date, time, and in some cases intro paragraph and bullets. If anything is not complete and you do not have the information, ask the business owner to complete them.
 * Confirm that CTAs are in sentence case: ex: Register now (not Register Now)
 * Check the {{my.landingpageURL}} token to confirm that if you are driving to a `page.gitlab.com` address, there is NO `/` at the end of the url. If you are driving to `about.gitlab.com`, there should be a `/` at the end of the url. For example, the token should look like this (with no https://): `about.gitlab.com/sixteen/` or `page.gitlab.com/sixteen`.
-* In the email editor, confirm that each link is hard-coded with `https://`. This cannot be in a token because the Marketo tracking [will not work properly](https://nation.marketo.com/t5/knowledgebase/how-to-track-tokenized-links-in-email-assets/ta-p/254486). Your links should look like this in the email editor: `https://{{my.LandingpageURL}}?{{my.utm}}`
+* In the email editor, confirm that each link is hard-coded with `https://`. This cannot be in a token because the Marketo tracking [will not work properly](https://web.archive.org/web/20231207132114/https://nation.marketo.com/t5/knowledgebase/how-to-track-tokenized-links-in-email-assets/ta-p/254486). Your links should look like this in the email editor: `https://{{my.LandingpageURL}}?{{my.utm}}`
 * In the editor, click on the text version of the email. The content should have been copied from HTML, but you will need to reformat it. Be sure that after you bring over the copy initially, you uncheck the "Copy from HTML" box. Format the email to use proper spacing between paragraphs and that the date/time information is easy to read.
 * In the text version, there should be no links in line with content. Move the links to the end of the paragraph or into separate bullets. You should have a "Register now" link at the top of the email and at the bottom. Confirm the links in the text version are formatted properly (as described above).
 * On the text version, you do not need unsubscribe text because Marketo will automatically attach this if it is missing. If it is there, no need to remove it. The exception is if you are using the `Localized email footer` snippet. You do need to make sure this appears in the text version.
@@ -371,7 +371,7 @@ Instead, we should take the following steps:
 1. Build a second email and create a description of what was changed in the name i.e "Subject line test version" (or even saying the test)
 2. Add it as a random sample in the send controller as shown in the flow below (use 50% for 2 versions, or split between 100% for more versions):
 
-    ![email-ab-test](/handbook/marketing/lifecycle-marketing/emails-nurture/image-4.png)
+    ![email-ab-test](/images/marketing/lifecycle-marketing/emails-nurture/image-4.png)
 
 3. Monitor results on an email report
 4. Document results on [A/B testing tracker](https://docs.google.com/spreadsheets/d/1BaGJbiYIG8187nnXXy2tvNtJyKXLV4CenCAZMYJbmeI/edit#gid=2079991889)
@@ -460,7 +460,7 @@ Example:
 **Note:** gmail inboxes a majority of our sends, according to litmus analytics pixel data. Outlook makes up 3-15% of our recipients. This is exactly what Limus did:
 
 It's virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a "add to calendar" button that would be compatible with iCalendar, Google's calendar, and Outlook's calendar.
-[Learn More Here](https://litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
+[Learn More Here](https://www.litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
 
 ### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -490,7 +490,7 @@ It's virtually impossible to support all the calendar applications available. To
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Use AddEvent API (available for $19/month billed annually for up to 50 events/month).
 
-  [https://www.addevent.com/plans-and-pricing](https://www.addevent.com/plans-and-pricing)
+  [https://www.addevent.com/c/plans-and-pricing](https://www.addevent.com/c/plans-and-pricing)
 * Use Eventable in Marketo (not sure about price)
 
   [https://www.eventable.com/info/add-to-calendar-marketo/](https://www.eventable.com/info/add-to-calendar-marketo/)

@@ -52,7 +52,7 @@ The current work in [Analyze:Observability](../../../../product/categories/#obse
 - We want to connect a [deployment](https://about.gitlab.com/direction/delivery/glossary.html#deployment) of a service to the MRs, containers, packages, linter results included in the [release artifact](https://about.gitlab.com/direction/delivery/glossary.html#release).
 - A service contains a bunch of links to external (or internal) pages.
 
-![architecture diagram](img/architecture.png)
+![architecture diagram](/images/engineering/architecture/design-documents/gitlab_services/architecture.png)
 
 [src of the architecture diagram](https://docs.google.com/drawings/d/1TJinpfqc48jXZEw7rxe6mB-8AwDOW7o58wTAB_ljSNM/edit?usp=sharing)
 

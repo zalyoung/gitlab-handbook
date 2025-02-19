@@ -322,9 +322,9 @@ Currentness of knowledge of existing and pending legislation and regulations
 - Local international tax compliance supervision
 - International funding, contributions and distributions
 - Identification of issues and project management (knowledge of GitLab merge requests is a plus)
-- Initiating and settling intercompany transactions 
-- Maintaining capital preservation, minimizing any excess cash held by international subsidiaries 
-- Supervising managers and creating leaders 
+- Initiating and settling intercompany transactions
+- Maintaining capital preservation, minimizing any excess cash held by international subsidiaries
+- Supervising managers and creating leaders
 - The Senior Director of International Tax will be a JD or CPA and will have a BS/BA in Accounting or Finance with an MST, MBT, or LLM in taxation.
 
 ## Specialties
@@ -360,7 +360,7 @@ The Tax job family career ladder is outlined on this page.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 
 - Next, qualified candidates will be invited to schedule a first interview with the Hiring Manager
 - Candidates will then be invited to schedule an interview with 2 - 4 team members

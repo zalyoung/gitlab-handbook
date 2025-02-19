@@ -35,7 +35,7 @@ You will access your GitLab installation using SSH. As a part of this class, you
 
     > If you encounter an error like: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!, you may need to reset your SSH known hosts. To do this, run the command `ssh-keygen -R <vm_ip_address>`.
 
-1. Press Enter. 
+1. Press Enter.
 
 1. If your system displays an authentication warning, type `yes` and press Enter.
 
@@ -77,13 +77,13 @@ The `kubectl` command line tool is one of the main ways you will check and verif
 
 1. Next, let's view details about a specific pod. To do this, run the command `kubectl describe pod <your-webservice-pod-name>`
 
-    > In this output, you will see in depth details about your webservice pod. This output is helpful for troubleshooting and monitoring your GitLab instance components. 
+    > In this output, you will see in depth details about your webservice pod. This output is helpful for troubleshooting and monitoring your GitLab instance components.
 
 ## Task C. Working with helm
 
 When you work with Kubernetes, many of your administration tasks will run through helm. To start, we will retrieve the values for our helm deployment, and make some small adjustments to the configuration.
 
-1. To get your helm values, run the command `helm get values gitlab`. You will see an output of all your helm values. 
+1. To get your helm values, run the command `helm get values gitlab`. You will see an output of all your helm values.
 
 1. Copy these into a file using the command `helm get values gitlab > values.yml`
 
@@ -97,11 +97,11 @@ When you work with Kubernetes, many of your administration tasks will run throug
 
     > This command may take several minutes to run.
 
-1. Once the command completes, run `kubectl get pods`. Verify that all pods complete deployment successfully. 
+1. Once the command completes, run `kubectl get pods`. Verify that all pods complete deployment successfully.
 
 ## Task C. Interacting with GitLab Rails
 
-GitLab Rails is a command line tool which allows you to interact with GitLab directly through Ruby on Rails. This tool can be valuable for troubleshooting and fixing instance errors. 
+GitLab Rails is a command line tool which allows you to interact with GitLab directly through Ruby on Rails. This tool can be valuable for troubleshooting and fixing instance errors.
 
 1. To access GitLab Rails, run the command `kubectl get pods -lapp=toolbox` to find your toolbox pod
 

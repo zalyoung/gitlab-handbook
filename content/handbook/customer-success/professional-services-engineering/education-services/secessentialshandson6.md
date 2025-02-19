@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through enabling and using a Scan Ex
 
 ## Objectives
 
-Compliance scans allow you to control merge requests and security scans in your instances, groups, and projects. This lab will demonstrate how to enable security and merge request policies at a group level. 
+Compliance scans allow you to control merge requests and security scans in your instances, groups, and projects. This lab will demonstrate how to enable security and merge request policies at a group level.
 
 ## Task A. Setting up a Security Policy
 
@@ -17,7 +17,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 1. Select **New policy**.
 
-1. Under **Security execution policy**, select **Select policy**.
+1. Under **Scan execution policy**, select **Select policy**.
 
 1. For the **Name**, enter `Group security policy`.
 
@@ -47,7 +47,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 1. In the project repository, select **+ > New file**.
 
-1. In the **Filename**, input `main.py`. 
+1. In the **Filename**, input `main.py`.
 
 1. Add the following code to the file:
 
@@ -73,7 +73,7 @@ With security scans in place, it would be ideal to be able to block merge reques
 
 1. In the left sidebar, select **Secure > Policies**.
 
-1. Select **New policy**. 
+1. Select **New policy**.
 
 1. Under **Merge request approval policy**, select **Select policy**.
 
@@ -134,7 +134,7 @@ With security scans in place, it would be ideal to be able to block merge reques
     print("Application authentication was successful")
     ```
 
-1. Select the branch icon, then select `Commit and push to 'test_branch'`. 
+1. Select the branch icon, then select `Commit and push to 'test_branch'`.
 
 1. Return to your MR.
 
@@ -147,10 +147,10 @@ With security scans in place, it would be ideal to be able to block merge reques
     ```py
     print("Attempting to connect to the server")
     print("Application authentication was successful")
-    ``` 
+    ```
 
-1. Select the branch icon, then select `Commit and push to 'test_branch'`. 
+1. Select the branch icon, then select `Commit and push to 'test_branch'`.
 
-1. Return to your MR. 
+1. Return to your MR.
 
 1. Allow your pipeline to complete. Once complete, take note of the comment stating `Security policy violations have been resolved`.

@@ -18,7 +18,7 @@ Recordings of previous demos are posted to the [GitLab Unfiltered Data Team play
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Data Onboarding
 
-If you are onboarding to GitLab and will be working in the Data Program as an Engineer, Analyst, or Developer, follow these steps:
+If you are onboarding to GitLab and will be working in the Data Program as an Engineer, Analyst or Developer, follow these steps:
 
 1. Open a new issue in [GitLab Data Analytics](https://gitlab.com/gitlab-data/analytics/-/issues) with the `Data Onboarding` template.
 1. Give the issue a descriptive name: `Your Name - Data Onboarding`
@@ -75,7 +75,7 @@ Evaluation Design is the most complex part of the PoV.
 | [Data Catalog](/handbook/enterprise-data/data-catalog/) | Catalog of dashboards, data sets, and analytics projects |
 | [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/) | Information to help Product Managers |
 | [Data for Product Analysis](/handbook/product/groups/product-analysis/) | Information to help Product Analysts |
-| [Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
+| [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
 | [Data for Marketing Analysts](/handbook/marketing/inbound-marketing/search-marketing/analytics/) | Information to help Marketing Analysts |
 | [Data for Sales Analysts](/handbook/sales/field-operations/sales-strategy/) | Information to help Sales Analysts |
 | [Data Triage](/handbook/enterprise-data/how-we-work/triage/) | Daily process to ensure the data platform remains available for analytics. |

@@ -142,8 +142,8 @@ The following sections provide an overview of all content assets, and links to f
 | [Jira to GitLab](https://drive.google.com/file/d/1ME_oU5zGtySPoAf8_I-3u5jJZW-kBMSo/view?usp=drive_link) | Verify        | 2023-12-18   | https://youtu.be/wGnl2fs75Pg |
 | [GitLab Administration (SaaS)](https://drive.google.com/file/d/1JQYVed7StwOBGEnzmsT7yiDmDfNSkx_a/view?usp=drive_link) | Core Platform | 2023-10-23   | https://youtu.be/lXtBV9o7q68 |
 | [GitLab Runners](https://drive.google.com/file/d/1nxglK5j8D5XsbZTaylN-HbbVJ0gKojJd/view?usp=drive_link) | Verify        | 2024-01-17   | https://youtu.be/Xq0kNaGxcaM |
-| [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Govern        | 2024-05-07   | https://youtu.be/CS_GlJGtnpM |
-| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Govern        | 2024-06-18   | https://youtu.be/vFbgzta5cyA |
+| [Vulnerability Management Strategies](https://drive.google.com/file/d/1DRhHsgeqRPGpu2NR5726QSGqg6bh7aJS/view?usp=drive_link) | Software Supply Chain Security        | 2024-05-07   | https://youtu.be/CS_GlJGtnpM |
+| [Separation of Duties](https://drive.google.com/file/d/16YcUdYDNPP0x0vXzG01OsCODVnYhYe4O/view?usp=drive_link) | Software Supply Chain Security        | 2024-06-18   | https://youtu.be/vFbgzta5cyA |
 | [What's New! GitLab 17.0](https://drive.google.com/file/d/11EhjSsgMepd9iZYY9vNz8LFoQPLGVNuS/view?usp=drive_link) | All           | 2024-06-04   | https://youtu.be/3gROieX0-9Q |
 | [CI/CD Components](https://drive.google.com/file/d/1mSj3YhvTu5llgRzqRMZ0Lk08KlFLlhp4/view?usp=drive_link) | Create           | 2024-07-11   | https://youtu.be/2MosExpnxsw |
 | [DAST API and Security Testing](https://drive.google.com/file/d/1G8XeiaQDpGQAyd1gwLsYmaf-tp3N4p91/view?usp=drive_link) | Secure           | 2024-07-12   | https://youtu.be/R6nO_0u2UqA |
@@ -159,7 +159,7 @@ The following sections provide an overview of all content assets, and links to f
 | [GitLab CI](https://docs.google.com/presentation/d/1IiRo4KHAgYqmzNiLkNYEatzHo75ax1BNKy-HsHoZW3k/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify         | 2023-10-23   |
 | [GitLab Advanced CI](https://docs.google.com/presentation/d/1g36th6wlPUj9YMHooAr7M0koscEdDAnxJULTu3F93Fg/edit?usp=drive_link) | [Advanced CI Lab](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/advanced-ci-lab/-/tree/main?ref_type=heads) | Package/Verify | 2024-05-10   |
 | [CI/CD Adoption for Jenkins Users](https://docs.google.com/presentation/d/1d2u6Ls_ELgEAv8VXMatljVkPydOelUQ3_hsOvUe2k28/edit?usp=drive_link) | [CICD Adoption Workshop](https://gitlab.com/gitlab-learn-labs/sample-projects/cicd-adoption-workshop) | Verify         | 2024-01-10   |
-| [Security and Compliance](https://docs.google.com/presentation/d/1_o1UbmM0u96f9XTpjYBLG3jnHeJuwJAVOrCg7Ri4ti4/edit#slide=id.g2e71b1d1f20_1_598) | [Tanuki Racing Security and Compliance](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/tanuki-racing-security-and-compliance) | Govern/Secure  | 2024-06-26   |
+| [Security and Compliance](https://docs.google.com/presentation/d/1_o1UbmM0u96f9XTpjYBLG3jnHeJuwJAVOrCg7Ri4ti4/edit#slide=id.g2e71b1d1f20_1_598) | [Tanuki Racing Security and Compliance](https://gitlab.com/gitlab-learn-labs/onboarding-cohort-projects/tanuki-racing-security-and-compliance) | Software Supply Chain Security/Secure  | 2024-06-26   |
 
 ## <i class="fa-solid fa-folder-plus" style="color: #B197FC;"></i> Content Creation Process
 

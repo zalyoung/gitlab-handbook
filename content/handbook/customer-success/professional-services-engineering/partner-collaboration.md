@@ -191,7 +191,7 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
         - Dates of work completed
         - Travel and expenses (if on site required)
 
-### Delivery Kits 
+### Delivery Kits
 
 Delivery kits are comprehensive packages of resources, tools, and documentation that partners can use to streamline the delivery of GitLab professional services. These kits include:
 
@@ -225,7 +225,7 @@ Invoices should be submitted in Coupa with the following details:
 - Hourly Rate
 - Total
 
-See Example
+[See Example](/handbook/customer-success/professional-services-engineering/examples/partner_invoice_mockup.md)
 
 There should be 1 invoice submitted each month for each partner, then have a line broken out for each project.
 If there is a need to have multiple invoices submitted each month, then approval would need to be obtain from the Operations Manager
