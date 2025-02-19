@@ -605,7 +605,7 @@ CI/CD Core Platforms & SaaS Delivery
 Core Development
 Core Infrastructure
 Dev & Analytics
-Expansion
+Sec & Monetization
 Internal Infrastructure
 Monetization
 Sec & Data Science
