@@ -614,7 +614,7 @@ To run a report for what current job title specialties are for your team ad-hoc,
 
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
-- Click "OK" for your organization
+- Click enter your organization and click Ok
 
 ## Job Title Specialty Guidance For Managers
 
