@@ -20,6 +20,8 @@ Estimated Delivery Timelines for GitLab Hardware
 - EMEA New Hires - 1-2 weeks (Apple) and 3-5 weeks (Linux)
 - Other Regions - 2-3 weeks (Apple) and 6-9 weeks (Linux)
 
+**Note** that GitLab is unable to ship laptops to some countries due to shipping restrictions. Please see the [Internal Handbook](https://internal.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/#laptop-purchasing-and-shipping-process) for more details.
+
 ## Special Requests
 
 ### Additional Laptop Request
