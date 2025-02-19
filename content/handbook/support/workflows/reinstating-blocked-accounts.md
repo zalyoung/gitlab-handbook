@@ -106,6 +106,7 @@ If you receive a ticket for an unblock request and you think it should have been
 1. Work the ticket manually using the guidance below to ensure a timely resolution for the requestor
 
 If a ticket was not automatically worked, Support can manually unblock the user in the following cases:
+
 - Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
 - For [Enterprise users](/handbook/support/workflows/gitlab-com_overview/#enterprise-users), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification](/handbook/support/workflows/account_verification/), and add an [admin note](/handbook/support/workflows/admin_note/) as usual, including if it was user or owner requested.
 - You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
