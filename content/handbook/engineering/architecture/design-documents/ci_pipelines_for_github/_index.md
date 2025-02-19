@@ -58,7 +58,7 @@ These are do-able, but just to reduce scope and complexity we can iterate on add
 
 ## Proposal
 
-![Architecture](images/GitHubGitLabWorkflow.png)
+![Architecture](/static/images/handbook/engineering/architecture/design-documents/ci_pipelines_for_github/GithubGitlabWorkflow.png)
 
 GitHub will communicate with GitLab via our GitHubApp via webhooks.
 GitLab will generate a user access token via the GitHub App for the user that triggered the webhook, and create a pipeline for that user.
@@ -75,7 +75,7 @@ We would reuse [CI/CD For External Repositories](https://GitLab.com/projects/new
 
 After import, we would automatically enable a new GitLab integration called GitHub SCM for these projects.
 
-Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](images/GitHubAppInstallation.png). The App's permissions will be set-up by GitLab and hosted on GitHub. This will be set up with the basic permission of (`read_repository`, and `write_commit_status`). We can modify these permissions and add new ones anytime via [Modifying GitHub App](https://docs.github.com/en/apps/maintaining-github-apps/modifying-a-github-app-registration#changing-the-permissions-of-a-github-app), although this will require users to re-accept the conditions and re-authenticate.
+Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](/static/images/handbook/engineering/architecture/design-documents/ci_pipelines_for_github/GitHubAppInstallation.png). The App's permissions will be set-up by GitLab and hosted on GitHub. This will be set up with the basic permission of (`read_repository`, and `write_commit_status`). We can modify these permissions and add new ones anytime via [Modifying GitHub App](https://docs.github.com/en/apps/maintaining-github-apps/modifying-a-github-app-registration#changing-the-permissions-of-a-github-app), although this will require users to re-accept the conditions and re-authenticate.
 
 Each user that would want to trigger pipeline would need to OAuth with GitHub. Either via OAuth login or connecting their GitLab account with GitHub
 
