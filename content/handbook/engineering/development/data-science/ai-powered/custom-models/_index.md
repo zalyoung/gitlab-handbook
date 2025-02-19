@@ -207,7 +207,7 @@ It is NOT expected for engineers in support to:
 
 ### Responsibilities of backup engineers
 
-- Join customer calls as a shadow.
+- Join customer calls as a shadow. Your main role is to observe and listen closely to the interactions and issues discussed, but also be prepared to assist the lead engineer upon request.
 - Support the lead engineer in support in case they are not available due to unforseen circumstances.
 - Carry over unfinished support tasks from previous week.
 
