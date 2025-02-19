@@ -20,17 +20,17 @@ issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/
 `~"group::import and integrate"` label, along with any other [appropriate labels](#issue-labels). Then,
 feel free to ping the relevant Product Manager and/or Engineering Manager.
 
-For more urgent items, feel free to use the Slack Channel (internal): [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/g_manage_import_and_integrate).
+For more urgent items, feel free to use the Slack Channel (internal): [#g_import_and_integrate](https://gitlab.slack.com/archives/g_import_and_integrate).
 
 ## Team Members
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Manage:Import and Integrate" >}}
+{{< stable-counterparts role="Foundations:Import and Integrate" >}}
 
 ## Metrics
 
-Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/product/groups/product-analysis/engineering/dashboards/dev/manage/import-and-integrate/).
+Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/product/groups/product-analysis/engineering/dashboards/dev/foundations/import-and-integrate/).
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
@@ -106,7 +106,7 @@ All issues should have:
 
 - All of our section, stage and group labels:
   - `~"section::core platform"`
-  - `~"devops::manage"`
+  - `~"devops::foundations"`
   - `~"group::import and integrate"`
 - One or more of the category labels:
   - `~"Category:API"`
@@ -126,7 +126,7 @@ For issues related to our APIs, also apply either `~"api"` for REST or `~"GraphQ
 
 Once you have completed an issue and closed it make sure to add `~"workflow::complete"`.
 
-Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/manage/import-and-integrate/discussions/-/issues/76#note_1718035490).
+Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/foundations/import-and-integrate/discussions/-/issues/76#note_1718035490).
 
 ### Capacity Planning
 
@@ -202,7 +202,7 @@ to look:
 Once identified, the engineering manager will apply the `ready for next refinement` label, which will indicate the issues are ready for
 refinement.
 
-The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
+The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/foundations/import-and-integrate/refinement-bot)
 to generate an issue with all the issues that have been identified for
 refinement.
 
