@@ -727,7 +727,7 @@ All transfers should eventually be initiated by team members.
 
 ### When promotion is a consideration - Within Same Job Family
 
-If a team member sees a vacancy posted that is the next level up within their [job family](/handbook.gitlab.com/job-families/) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
+If a team member sees a vacancy posted that is the next level up within their [job family](/job-families/) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
 
 It is the manager's responsibility to be honest with the team member about their performance as it relates to their promotion readiness. If the manager agrees that the team member is ready, then they will follow the cyclical promotion calibration process. If they do not think the team member is ready for the promotion, they should walk through their career development document, as well as work on a promotion plan with the team member. The manager should be clear that the team member is not ready for the promotion at this time and what they need to work on. If the team member would still like to submit an application for the role after the conversation with their manager, they can apply and go through the same interview process as external candidates. The recruiter will confirm with the manager that the promotion readiness conversation has taken place before the internal interview process starts.
 
