@@ -4,7 +4,7 @@ summary: This page outlines the DBO team escalation process and guidelines for d
 ---
 
 {{% alert title="Note" color="danger" %}}
-We are using PagerDuty for escalations: https://gitlab.pagerduty.com/schedules#P1JP4AL
+We are using [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL) for escalations. 
 [comment]: We are using Slack, <i class="fa-brands fa-slack"></i> @dbre or @dbo, for escalations.
 {{% /alert %}}
 
@@ -14,7 +14,7 @@ This page outlines the DBO team's incident escalation process.
 
 ## Expectations
 
-The expectation for the DBO engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. Due to limited staffing, please note the **DBO RESPONSE IS ON A BEST-EFFORT BASIS** at this time.  Furthermore, there is no expectation that the DBO engineer is solely responsible for a resolution of the escalation.  DBO may need to in-turn escalate to other subject matter experts, i.e. the Database Framework team, in order to make headway on the incident at hand.
+The expectation for the DBO engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. Due to limited staffing, please note the **DBO RESPONSE IS ON A BEST-EFFORT BASIS** at this time.  Furthermore, there is no expectation that the DBO engineer is solely responsible for a resolution of the escalation.  DBO may need to in-turn escalate to other subject matter experts such as the Database Framework team, in order to make headway on the incident at hand.
 
 ## Escalation Process
 
@@ -23,7 +23,7 @@ The expectation for the DBO engineers is to be a database consultant and collabo
 1. This process is designed for the following issues:
    1. **GitLab.com** S1 and S2 production incidents raised by the **Engineer On Call** , **Development**, and **Security** teams.
 1. This process is **NOT** a path to reach the DBO team for non-urgent issues that the Development, Security, and Support teams run into. Such issues can be moved forward by:
-   1. Labelling with `group::database operations` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
+   1. Labeling with `group::database operations` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
    1. Raising to the `#g_database_operations` Slack channel, or
    1. Asking the infrastructure-lounge Slack channel assigning the `@dbre` or `@dbo` user group
 1. This process provides for Weekdays coverage only.
@@ -46,7 +46,7 @@ The expectation for the DBO engineers is to be a database consultant and collabo
 
 ##### Escalation
 
-1. EOC/IM, notify the DBO on-call via slack handle @dbre or @dbo requesting for the DBO to join the incident zoom/channel
+1. EOC/IM, notify the DBO on-call by using slack handle @dbre or @dbo requesting for the DBO to join the incident zoom/channel
 1. DBO responds to the ping by acknowledging the ping and joining the incident channel and zoom
 1. If DBO support does not respond, the EOC/IM, notify the available Reliability EM
 1. DBO triages the issue and works towards a solution.
@@ -130,7 +130,7 @@ To get an idea of what's expected of an on-call DBO and how often incidents occu
 1. [Scalability documentation](https://gitlab.com/gitlab-org/gitlab/merge_requests/18976).
 1. [Use Grafana and Kibana to look at PostgreSQL data to find the root cause](https://youtu.be/XxXhCsuXWFQ).
    * Related incident: [Postgres transactions timing out; sidekiq queues below apdex score; and overdue pull mirror jobs](https://gitlab.com/gitlab-com/gl-infra/production/issues/1433).
-1. [Ues Grafana, Thanos, and Prometheus to troubleshoot API slowdown](https://www.youtube.com/watch?v=DtP4ZcuXT_8).
+1. [Use Grafana, Thanos, and Prometheus to troubleshoot API slowdown](https://www.youtube.com/watch?v=DtP4ZcuXT_8).
    * Related incident: [2019-11-27 Increased latency on API fleet](https://gitlab.com/gitlab-com/gl-infra/production/issues/1419).
 1. [Let's make 500s  more fun](https://youtu.be/6ERO4XsYDn0?list=PL05JrBw4t0KodGBz0XUYdYaAYyYs-6ZK7)
 
@@ -140,7 +140,7 @@ To get an idea of what's expected of an on-call DBO and how often incidents occu
    1. [Visualization Tools Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrDIsPQ68htUUbvCgt9JeQj).
    1. [Monitoring Tools Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpQMEbnXjeQUA22SZtz7J0e).
    1. [How to create Kibana visualizations for checking performance](https://www.youtube.com/watch?v=5oF2rJPAZ-M&feature=youtu.be).
-1. Dashboards examples, more are available via the dropdown at upper-left corner of any dashboard below
+1. Dashboards examples, more are available with the dropdown list at upper-left corner of any dashboard below
    1. [Saturation Component Alert](https://dashboards.gitlab.net/d/alerts-saturation_component/alerts-saturation-component-alert?orgId=1).
    1. [Service Platform Metrics](https://dashboards.gitlab.net/d/general-service/general-service-platform-metrics?orgId=1&var-type=ci-runners&from=now-6h&to=now).
    1. [SLAs](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1).
