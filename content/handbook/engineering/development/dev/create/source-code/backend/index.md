@@ -101,7 +101,6 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 1. Engineers or EM will follow the checklist for assigned issues, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
 1. Once an issue is fully refined, engineers or EM will label it as `workflow::ready for development`. These issues can then be added to the milestone.
-1. Engineers or EM will mark fully refined issues as `workflow::ready for development`. They can be picked to the milestone. 
 1. When other teams depend on Source Code Backend issues planned for the current milestone, those issues will be labeled as `SCM::AwaitingBackend`
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
@@ -163,7 +162,7 @@ flowchart TD
 
 ### Issue Refinement Checklist
 
-For issues that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
+For issues that need refinement, the Engineer/EM should add a comment using this template and complete all checklist items.
 
 If you cannot finish any of these steps, ping EM/PM.
 
@@ -189,7 +188,7 @@ If you cannot finish any of these steps, ping EM/PM.
 
 ### Bug Refinement Checklist
 
-For bug reports that need refinement, the Engineer/EM should update the issue description using this template and complete each task in the checklist.
+For bug reports that need refinement, the Engineer/EM should add a comment using this template and complete all checklist items.
 
 ```plaintext
 # Bug Refinement Checklist
