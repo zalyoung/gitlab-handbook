@@ -101,16 +101,18 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 ### Issue Boards
 
+1. [Asana team Board](https://app.asana.com/0/1208702011967252/1208702155234648) - mostly adhoc requests
+2. [Asana team portfolio](https://app.asana.com/0/portfolio/1208916940053448/1208917081724360) - adhoc and projects
 1. [MktgOps Team (issues by team member)](https://gitlab.com/groups/gitlab-com/-/boards/2629685)
-1. [MktgOps-Support - FM/Event Marketo set-up (issues by milestone)](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5563453?label_name[]=MktgOps-Support)
+
 
 ### Issues
 
-The MktgOps team works from issues and issue boards. If you are needing our assistance with any project, please open an issue or for small checks and questions, use the `~MktgOps::00: Triage` label anywhere within the GitLab repo.
+The MktgOps team works from issues and issue boards. If you are needing our assistance, please do one of the following:
+1. If you are on the Marketing Team, please create a request utilizing this [request form](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
+2. If you do not have Asana access, [open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) and use the `~MktgOps::00: Triage` label.
 
-If you have a bug, error or discrepancy you'd like the team to help and investigate, please use the [bug-request template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=bug_request).
-
-Please do not reopen issues that have been closed in a previous milestone. If you find that you have additional questions about a closed issue, comment in the issue and ping the marketing ops DRI who worked the issue. The DRI within our team will determine whether an issue needs to be reopened and pulled into a current milestone.
+Please do not reopen issues that have been closed in a previous milestone.
 
 ### OKRs
 
@@ -388,6 +390,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Marketo](/handbook/marketing/marketing-operations/marketo)
 - [On24](/handbook/marketing/marketing-operations/on24)
 - [Groove](/handbook/marketing/marketing-operations/groove)
+- [Goldcast]()
 - [PathFactory](/handbook/marketing/marketing-operations/pathfactory/)
 - [Qualified](/handbook/marketing/marketing-operations/qualified/)
 - [Traction](/handbook/marketing/marketing-operations/traction-lead-complete)
@@ -397,7 +400,6 @@ Below are tools in the Marketing Technology stack, organized by tier.
 #### Operational Technology - Tier 2
 
 - [Allocadia](/handbook/marketing/strategy-performance/allocadia/)
-- Base (Customer Reference)
 - [Hightouch](/handbook/marketing/marketing-operations/hightouch/)
 - [LinkedIn Sales Navigator](/handbook/sales/training/social-selling/)
 - [OneTrust](/handbook/marketing/digital-experience/onetrust/) (DEX)
@@ -421,13 +423,13 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - ContentKing
 - Frame.io (Brand)
 - Figma (UX)
-- Humantec.ai (Sales Dev)
+- [Humantec.ai (Sales Dev)](/handbook/marketing/marketing-operations/humantic-ai/)
 - [Launch Darkly](/handbook/marketing/digital-experience/engineering/engineering-ab-tests/)
 - [MeetUp](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 - [Quantum Metric](/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
 - [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
 - [SheerID](/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
-- [Sprout Social + EveryOne Social](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
+- [EveryOne Social](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
 - [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 - [Typeform](/handbook/marketing/marketing-operations/typeform/)
@@ -465,6 +467,7 @@ Click to see dropdown list of available status page URLs.
 - [OneTrust](https://status.onetrust.com/)
 - [Hightouch](https://status.hightouch.io/)
 - [Groove](https://status.groovehq.com/)
+- [Goldcast](https://status.goldcast.io/)
 
 </details>
 
@@ -494,7 +497,7 @@ If you are interested in or would like to request a new tool be added to the tec
 
 The process for requesting a new tool is:
 
-1. [Tool Eval issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=tools_eval) is submited
+1. [Tool Eval Request](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259) is submited
 1. A Marketing Operations member is assigned to review the request. This person scores the requested tool in order to determine its tier. The business and technical owners of the tool are identified.
 1. For tier 1 and 2 tools, once the request has been reviewed, the Marketing Operations manager will:
    - Create a new evaluation Epic, capturing relevant details from the intake issue.
