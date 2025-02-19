@@ -27,6 +27,7 @@ Currently, the ticket processor actions on the following:
 - [Add internal comments on Zendesk tickets based on the organization](#add-internal-comments-on-zendesk-tickets-based-on-the-organization)
 - [Add tags on Zendesk tickets when a STAR is made on them](#add-tags-on-zendesk-tickets-when-a-star-is-made-on-them)
 - [Add ticket weighting values to Zendesk tickets](#add-ticket-weighting-values-to-zendesk-tickets)
+- [CMP Creation](#cmp-creation)
 
 ### Autowork account blocked requests
 
@@ -170,6 +171,10 @@ This adds the ticket tag `star_submitted` onto the ticket.
 This determines the ticket's "weight" based on specific criteria. The criteria
 currently used can be seen within the
 [ticket processor's code](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
+
+### CMP Creation
+
+This creates a contact management project for the ticket.
 
 ## What it does on Zendesk US Government
 
