@@ -8,7 +8,11 @@ description: How to manage assigned tickets when going on scheduled PTO
 
 These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO.
 
-**IMPORTANT NOTE**: Before you sign-off on your last day before PTO, ensure that there are 0 tickets in your assigned queue.
+{{% include "includes/engineering/support/assigned-signoff.md" %}}
+
+### Warm Handover
+
+need to update wording... the ticket is in-flight and under normal circumstances wouldn't be handed over, with the #spt_pto_ticket_handover Slack channel facilitating a warm handover discussion. I don't think this macro should unassign the ticket, because if preparing ahead of time because of high volume, eg. 1- or 2-days before commencing PTO, it might be fine to continue holding the tickets until you find another assignee.
 
 ### Using the OOO Ticket Summary macro
 
@@ -68,8 +72,10 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
     - If a quick pairing or handover call is needed, ensure this is arranged.
     - Once a candidate agrees to take assignment of the ticket, mark the thread with a ✅.
     - The new assignee is then responsible for taking any comments in the thread and adding an internal note in Zendesk.
-1. **IMPORTANT NOTE:** For all remaining assigned tickets, use the [Ticket handover (assignee change not related to preferred region)](/handbook/support/workflows/ticket-transfers/#ticket-handover-assignee-change-not-related-to-preferred-region) workflow to ensure all of your tickets are left `Unassigned`.
-1. Once all tickets have been handed over, enjoy your PTO!
+
+{{% include "includes/engineering/support/assigned-signoff.md" %}}
+
+Once all tickets have been handed over, enjoy your PTO!
 
 #### When you're back from PTO
 

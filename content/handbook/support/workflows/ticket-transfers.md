@@ -109,6 +109,12 @@ When an engineer is required to hand over a ticket, either to another region or 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
 
+{{% alert title="Note" color="primary" %}}
+
+Use the [OOO Ticket Management](handbook/support/workflows/ooo-ticket-management) if 3 or more days of PTO planned.
+
+{{% /alert %}}
+
 1. Set the proper expectations with the customer.
    1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving person or region.
    1. Please ensure that the receiving team is properly informed and aligned on any tasks and timelines before finalizing them with the customer.
