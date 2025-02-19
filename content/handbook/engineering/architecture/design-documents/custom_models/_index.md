@@ -113,9 +113,8 @@ The AI Gateway container is published to the [GitLab Container Registry](https:/
 
 ### Prompt Support
 
-For each supported model and supported GitLab Duo feature, prompts will be developed and evaluated by GitLab. They will be baked into the Rails Monolith source code.
+For each supported model and supported GitLab Duo feature, prompts will be developed and evaluated by GitLab. Prompts are hosted on the AI Gateway.
 
-When the standard prompts are migrated into either the AI Gateway or a prompt template repository (direction is to be determined), the prompts supporting self-hosted models will also be migrated.
 
 ### Supported LLMs
 
