@@ -607,14 +607,13 @@ Core Infrastructure
 Dev & Analytics
 Sec & Monetization
 Internal Infrastructure
-Monetization
 Sec & Data Science
 
 To run a report for what current job title specialties are for your team ad-hoc, you can follow these steps:
 
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
-- Click enter your organization and click Ok
+- Enter your organization and click Ok
 
 ## Job Title Specialty Guidance For Managers
 
@@ -656,8 +655,6 @@ Job information changes are used to update any information on the team member's 
 [This job aid](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit?usp=sharing) will help provide people managers with instructions on how to move team members to another manager within Workday. If the manager you need to move your direct report to is not available, it likely means they do not have a “supervisory organization” created.  Even if their management level shows “Manager” a supervisory organization is needed in Workday for a team member to have a direct report. Supervisory organizations should have a name unique to the team they are managing (e.g. Commercial Sales - EMEA, Content Marketing (John Smith), Backend Engineering - Ruby). Please reach out to the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) with the name of the team member who needs the supervisory organization set up, the unique name, and the effective date of the supervisory organization. We can gladly help set it up in Workday.
 
 Note for Sales Managers: If team members are not moved under the correct sales manager in Workday, credits will not be rolled-up to the correct manager for sales commissions. See additional promotion and transfer considerations for commissionable roles [here](/handbook/people-group/promotions-transfers/#promotions-and-transfers-of-employees-in-commissionable-roles).
-
-
 
 ## Department Transfers
 
@@ -730,7 +727,7 @@ All transfers should eventually be initiated by team members.
 
 ### When promotion is a consideration - Within Same Job Family
 
-If a team member sees a vacancy posted that is the next level up within their [job family](/handbook.gitlab.com/job-families/) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
+If a team member sees a vacancy posted that is the next level up within their [job family](https://handbook.gitlab.com/job-families/) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
 
 It is the manager's responsibility to be honest with the team member about their performance as it relates to their promotion readiness. If the manager agrees that the team member is ready, then they will follow the cyclical promotion calibration process. If they do not think the team member is ready for the promotion, they should walk through their career development document, as well as work on a promotion plan with the team member. The manager should be clear that the team member is not ready for the promotion at this time and what they need to work on. If the team member would still like to submit an application for the role after the conversation with their manager, they can apply and go through the same interview process as external candidates. The recruiter will confirm with the manager that the promotion readiness conversation has taken place before the internal interview process starts.
 
