@@ -159,8 +159,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
-- Candidate Experience Specialists use [Prelude](/handbook/hiring/prelude/) to schedule.
-- Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
+- Candidate Experience Specialists use [Modernloop](/handbook/hiring/talent-acquisition-framework/coordinator/#modernloop) to schedule.
 {{% /details %}}
 
 {{% details summary="Greenhouse for internal candidates" %}}
@@ -337,7 +336,7 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 ## Additional Resources
 
 - [Overview of Job Families](/handbook/hiring/job-families)
-- [Background checks](/handbook/people-policies#background-checks)
+- [Background checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
 - [Benefits](/handbook/total-rewards/benefits/)
 - [Compensation](/handbook/total-rewards/compensation/)
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
