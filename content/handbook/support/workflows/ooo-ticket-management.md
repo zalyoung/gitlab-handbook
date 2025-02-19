@@ -8,7 +8,7 @@ description: How to manage assigned tickets when going on scheduled PTO
 
 These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO.
 
-**IMPORTANT NOTE**: Before you sign-off on your last day before PTO, ensure that there are 0 tickets in your assigned queue. 
+**IMPORTANT NOTE**: Before you sign-off on your last day before PTO, ensure that there are 0 tickets in your assigned queue.
 
 ### Using the OOO Ticket Summary macro
 
@@ -68,7 +68,7 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
     - If a quick pairing or handover call is needed, ensure this is arranged.
     - Once a candidate agrees to take assignment of the ticket, mark the thread with a ✅.
     - The new assignee is then responsible for taking any comments in the thread and adding an internal note in Zendesk.
-1. **IMPORTANT NOTE:** For all remaining assigned tickets, use the [Ticket handover (assignee change not related to preferred region)](/handbook/support/workflows/ticket-transfers/#ticket-handover-assignee-change-not-related-to-preferred-region) workflow to ensure all of your tickets are left `Unassigned`.   
+1. **IMPORTANT NOTE:** For all remaining assigned tickets, use the [Ticket handover (assignee change not related to preferred region)](/handbook/support/workflows/ticket-transfers/#ticket-handover-assignee-change-not-related-to-preferred-region) workflow to ensure all of your tickets are left `Unassigned`.
 1. Once all tickets have been handed over, enjoy your PTO!
 
 #### When you're back from PTO
@@ -84,4 +84,4 @@ up from you, start with this search in Zendesk:
 `tags:ooo_summary cc:me updated>2021-09-01`. Replace `2021-09-01` with the date
 of the last day you worked before going on leave. This may not be 100% accurate
 as someone else may have run the `OOO Ticket Summary` macro on a ticket on which
-you happened to be CCed, but it will help you to filter out most tickets.
+you happened to be CC'd, but it will help you to filter out most tickets.
