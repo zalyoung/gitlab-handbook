@@ -76,8 +76,8 @@ Before merging, the manager/mentor should:
 1. Have at least 2 approvals from existing maintainers.
 
 **If the manager/mentor receives private feedback indicating the reviewer is not ready to become a maintainer**: 
-
-1. The manager/mentor should close the merge request with a comment about there being feedback for the reviewer to work on. 
+1. The manager/mentor should review the concerns raised and decide whether it's substantial enough to close the merge request.
+1. The manager/mentor should close the merge request with a comment about there being feedback for the reviewer to work on, but keep the feedback confidential. 
 1. The manager/mentor and provide the feedback directly to the reviewer in a one-to-one conversation. This approach allows the reviewer to address the gaps before being re-submitted for maintainer status. The earlier the manager/mentor can solicit and receive this feedback, the better.
 
 Handling disagreements in maintainer readiness:
