@@ -917,7 +917,7 @@ The below epic is for tracking venues we would like to utilize for future events
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
 | [EMEA Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA) | Sarina Kraft | `@sarinakraft` | [#emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
-| [EMEA Telco](https://gitlab.com/groups/gitlab-com/marketing/-/boards/9128658?label_name[]=Telco&label_name[]=FM%20EMEA) | Sergei Rogalin | `TBC` | [#emea_telco_fieldmarketing](https://gitlab.enterprise.slack.com/archives/C08E7CSQQ80)|
+| [EMEA Telco](https://gitlab.com/groups/gitlab-com/marketing/-/boards/9128658?label_name[]=Telco&label_name[]=FM%20EMEA) | Sergei Rogalin | @srogalin | [#emea_telco_fieldmarketing](https://gitlab.enterprise.slack.com/archives/C08E7CSQQ80)|
 
 **NOTE:** to see the full list of events, you need to be logged into your GitLab account. There are times we make issues private.
 
