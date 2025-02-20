@@ -1487,15 +1487,15 @@ Please note that there is a limit of $75 USD annually per person on customer spe
 
 ### Field Marketing Contract Requests
 
-In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC.
+In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will utilize the Contract Request task in the Asana project and follow the instructions to provide important details required.
 
 #### SLAs
 
-The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
+The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request task. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
 #### Document Review
 
-Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
+Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* completing your contract request task in Asana. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
 
 - Correct [GitLab entity](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) that needs to be utilized, along with the correct address associated with that entity
 - GitLab company name spelled correctly (capital L!)
