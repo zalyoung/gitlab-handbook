@@ -400,11 +400,12 @@ _Incident Declaration Slack window_
 
 | Field | Description |
 | ----- | ----------- |
-| Title | Give the incident as descriptive as title as you can. Please include the date in the format YYYY-MM-DD which should be present by default. |
+| Name | Give a short description of what is happening. If you'd like to, you can leave it blank and change it later |
+| Incident Type | Select the appropriate incident type: GitLab.com, Dedicated, SIRT, or Gameday depending on the service affected  |
+| Initial status | Choose "Active incident" if you've confirmed there's a problem and you'd like to investigate it right away, or "Triage a problem" for initial investigation |
 | Severity | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity). |
-| Service | If possible, select a service that is likely the cause of the incident. Sometimes this will also be the service impacted. If you are unsure, it is fine to leave this empty. |
-| Page engineer on-call / incident manager / communications manager on-call | **Leave these checked** unless the incident is severity 1 or severity 2, and does not require immediate engagement (this is unusual), or if the person submitting the incident is the EOC. **We will not page anyone for severity 3 and severity 4 incidents, even if the boxes are checked**. |
-| Confidential | This will mark the issue confidential, do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). We generally prefer to leave this unchecked, and use confidential notes for information that cannot be public. |
+| Summary (optional) | Provide your current understanding of what happened in the incident and the impact it had. It's fine to go into detail here |
+ Who should be able to see this incident? | Choose "Everyone (public)" - this means everyone in this Slack workspace will have access. Choose "Private" to mark the issue confidential - do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). |
 
 ![Incident Declaration Results](/images/engineering/infrastructure/incident-management/incident-declare-results.png)
 
