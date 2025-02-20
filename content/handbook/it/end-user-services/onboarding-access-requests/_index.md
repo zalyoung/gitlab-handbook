@@ -92,7 +92,7 @@ In some instances, we may be able to work out priority or overnight delivery. We
 
 If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=opened&first_page_size=100)
 
-Regional minimum processing times for laptop delivery. Some countries may take longer to ship to due to required documentation for delivery.
+Regional minimum processing time for laptop orders before shipping. Some countries may take longer due to required documentation for delivery.
 
 - US/Canada New Hires - 2 weeks (Apple) and 5 weeks (Linux)
 - EMEA/APAC New Hires - 2 weeks (Apple) and 5 weeks (Linux)
