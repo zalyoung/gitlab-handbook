@@ -49,15 +49,15 @@ The APAC region has a pool of [**backup engineers**](/handbook/support/workflows
 
 If you are the Support Manager on-call and a concurrent emergency occurs, you will be paged by the Support Engineer On-call escalated via Pagerduty. You will then be responsible for checking the current situation and determining if the **backup engineers** need to be paged. If so, the Support Manager will then **manually page** the **backup engineers**. At this point, the backup engineers are all pinged. Only one backup engineer needs to acknowledge the page and lend assistance, and there is no expectation that **backup engineers** will be available to respond to a page.
 
-The Support Engineer On-call will [escalate the page directly to the Support Manager On-Call](/handbook/support/workflows/customer_emergencies_workflows/#escalate-to-initiate-page-to-backup-engineers).  
+The Support Engineer On-call will [escalate the page directly to the Support Manager On-Call](/handbook/support/workflows/customer_emergencies_workflows/#escalate-to-initiate-page-to-backup-engineers).
 
 1. When an emergency is escalated, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
 1. `Acknowledge` the alert in PagerDuty or Slack. This means that you received the escalated page, and are currently determining if the situation qualifies as an emergency.
 1. If the situation qualifies, Reassign to the pool of [**backup engineers**](/handbook/support/workflows/customer_emergencies_workflows):
-   1. Select `Reassign` from the More actions drop-down
-   1. Search for and select `Customer Emergencies - APAC Backup Pool` Escalation policy from the drop-down
+   1. Select `Reassign` from the More actions dropdown list
+   1. Search for and select `Customer Emergencies - APAC Backup Pool` Escalation policy from the dropdown list
    1. Don't modify any other options
-   1. Scroll down and click Reassign. 
+   1. Scroll down and click Reassign.
 
 *For further details, please refer to [STM#4583](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4583).*
 
