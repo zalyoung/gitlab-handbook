@@ -676,11 +676,11 @@ _The deal registration form is not a quoting tool and will not have all the info
 
 GitLab incentivizes Select partners and Designated Professional Services Partners (PSP) that sell their own professional services into a customer environment. The partner must submit service opportunities via a Service Attached Registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attached qualifications do not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. 
 
-Refer to the [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) for Service Attached Registration approval requirements. Select partners and PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. GitLab sellers qualify for partners services compensation upon approval of Service Attached Regisration from a Designated Professional Services Partner (PSP). Refer to the [GitLab Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/) for further details.
+Refer to the [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) for Service Attached Registration approval requirements. Select partners and PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. GitLab sellers qualify for partners services compensation upon approval of Service Attached Registration from a Designated Professional Services Partner (PSP). Refer to the [GitLab Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/) for further details.
 
 Review the steps below to understand how a Service Attached Registration for an applicable GitLab software opportunity is processed.
 
-#### Ecosystem Operations for first review and action
+#### Ecosystem Operations for First Review and Action
 
 Ecosystem Operations has first action to review and update the registration when `DR-Status` = `Submitted`:
 
@@ -691,11 +691,11 @@ Ecosystem Operations has first action to review and update the registration when
 5. Add Registration Name (REGxxxxx) to `Service Attach Registration` on the liked opportunity
 6. Add `Service Attach Partner` to the linked opportunity
 
-#### Partner submits Executed Statement of Work
+#### Partner Submits Executed Statement of Work
 
-Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The Statement of Work must meet [GitLab Partner Program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work).
+Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The Statement of Work (SOW) must meet [GitLab Partner Program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work).
 
-#### Ecosystem Operations for second review and final action
+#### Ecosystem Operations for Second Review and Final Action
 
 1. Ecosystem Operations reviews the partner SOW and moves the registration to one of the following statuses:
 
@@ -703,11 +703,11 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - **`Pending Opportunity Closure`**: The partner's SOW (i) has been submitted and (ii) meets [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work), but the related software opportunity is not yet closed-won
     - **`Approved`**: (i) The SOW has been submitted and approved, (ii) the opportunity has been closed-won, and (iii) all other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) have been met
     - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work)
-    - **`Closed`**: If the opportunity has moved to closed-lost or if the partner or ESM communicate that the partner did not win the services business
+    - **`Closed`**: If the opportunity has moved to Closed-Lost or if the partner or ESM communicates the partner did not win the services business
 
 2. Ecosystem Operations adds the `Service Attach Approval Date` when the registration is moved to `Approved`. `Service Reg Approval Date` will be set when both requirements below are fulfilled:
     - Receipt of valid executed SOW
-    - Opportunity closed won status
+    - Opportunity Closed Won status
     - All other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) are met
 
 ### Additional Information
