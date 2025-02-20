@@ -206,7 +206,11 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-### Snowplow nullify columns
+### Snowplow updating columns
+
+#### Snowplow nullify geo columns
+
+**Issue**: [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally)
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
@@ -222,12 +226,48 @@ As desired to avoid a duplicate load of the updated files in the `S3` bucket as 
 ```bash
 - gitlab-com-snowplow-events/
     output/ <---- all files are located here
-        2019/
-        2020/
-        2021/
-        2022/
+        2019/01/01
+        ...
+        (present day)
+```
+
+to the new structure:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated
+        2019/01/01
+        ...
+        2023/01/31
+    output/ <---- new files will land here and will be loaded by Snowpipe
+        2023/02/01
+        ...
+        (present day)
+```
+
+#### Snowplow nullify `page_url_path` columns
+
+**Issue**: [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
+
+In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
+
+- `page_url_path`
+
+This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
+The Data Team updated old files and pseudo-anonymized  `page_url_path` column, and also pseudo-anonymized `page_url_path` column in Snowflake.
+This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+
+As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351), the folder structure is modified from:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated (in the previous iteration)
+        2022/10/26
+        ...
         2023/
-            01/
+            02/
+    output/
+        2023/
             02/
             03/
 ```
@@ -236,20 +276,21 @@ to the new structure:
 
 ```bash
 - gitlab-com-snowplow-events/
-    output_nullified/ <---- all files are nullified and update
-        2019/
-        2020/
-        2021/
-        2022/
-        2023/
-            01/
+    output_nullified_columns/
+        2019/01/01
+        ...
+        2022/10/25
+    output_mask_page_url_path/ <---- all files are pseudonimized
+        2022/10/26
+        ...
+        2023/12/01
     output/ <---- new files will land here and will be loaded by Snowpipe
-        2023/
-            02/
-            03/
+        2023/12/02
+        ...
+        (present day)
 ```
 
-All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
+> **Note:** All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
 
