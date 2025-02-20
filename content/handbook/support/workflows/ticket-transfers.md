@@ -122,7 +122,6 @@ Use the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-managemen
    to ensure all necessary information is included and the ticket is unassigned.
 1. Set the Zendesk Form Field `Handover Status` to `Need Handover`.
 1. CC yourself on the ticket and save the ticket to the `Open` State.
-1. I think we need to rethink this wording -- also the macro is in the out-of-region folder so do we need a copy of this version for the two purposes? I don't think so, but food for thought. anywho, addingt his here so the file gets added to the MR for more musings
 
 </details>
 

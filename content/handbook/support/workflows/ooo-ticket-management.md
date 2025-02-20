@@ -12,7 +12,19 @@ These workflows discuss how support engineers can asynchronously manage and summ
 
 ### Warm Handover
 
-need to update wording... the ticket is in-flight and under normal circumstances wouldn't be handed over, with the #spt_pto_ticket_handover Slack channel facilitating a warm handover discussion. I don't think this macro should unassign the ticket, because if preparing ahead of time because of high volume, eg. 1- or 2-days before commencing PTO, it might be fine to continue holding the tickets until you find another assignee.
+A warm handover involves active discussion and knowledge transfer between team members before planned time off (PTO).
+This practice is essential for maintaining service quality, particularly for in-flight tickets that would typically  
+remain with a single assignee through resolution.
+
+Keep ownership of your tickets while actively seeking and briefing potential assignees through the  
+[#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel. Begin preparations  
+1-2 days before PTO when handling high ticket volumes, using this time to document current status, brief colleagues on  
+ticket context, and ensure a smooth transition. Share relevant customer interactions, troubleshooting steps,  
+expected follow-ups, and provide access to necessary resources.
+
+By prioritizing warm handovers, we maintain consistent service quality, preserve important context, enable informed  
+support, and reduce the risk of delays or misunderstandings. Take the time to equip your colleagues with everything they  
+need to seamlessly continue support after your PTO begins through active discussion and thorough documentation.
 
 ### Using the OOO Ticket Summary macro
 
