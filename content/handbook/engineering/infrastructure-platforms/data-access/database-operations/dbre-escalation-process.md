@@ -10,91 +10,49 @@ We are using [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL) for esc
 
 ## About This Page
 
-This page outlines the DBO team's incident escalation process.
+This page outlines the DBO team's incident escalation policy.
 
-## Expectations
+## Shortcuts
 
-The expectation for the DBO engineers is to be a database consultant and collaborate with the EOC who requested on-call escalation to troubleshoot together. Due to limited staffing, please note the **DBO RESPONSE IS ON A BEST-EFFORT BASIS** at this time.  Furthermore, there is no expectation that the DBO engineer is solely responsible for a resolution of the escalation.  DBO may need to in-turn escalate to other subject matter experts such as the Database Framework team, in order to make headway on the incident at hand.
+* [DBO PagerDuty schedule](https://gitlab.pagerduty.com/schedules#P1JP4AL)
+* Slack handles: `@dbre` and `@dbo`
+* Slack channels: #g_database_operations
+* `group::database operations`
+* [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident)
+
+## SLO and Expectations
+
+* **_DBO RESPONSE IS ON A BEST-EFFORT BASIS_** 
+
+* **_LOCAL TIMEZONE, WEEKDAY COVERAGE ONLY_**
+
+* **_S1 / S2 INCIDENTS ONLY_** 
+
+   * NB1: Due to limited staffing, i.e. having only one person in EMEA timezone, there will be times during the business day, within a given timezone, where there will not be anyone able to respond.  We understand the criticality of responding to S1/S2 incidents and we will make every effort to ensure there is adequete and timeliness in our responses, but given the current staffing levels, we are not at this point adhereing to a hard SLO
+
+   * NB2: DBO will join incidents as a subject matter expert in a consultative capacity and there should be no expectation that the DBO engineer is solely responsible for a resolution of the escalation. There may be times where the DBO needs to escalate to other subject matter experts, such as the [Database Framework (DBF) team](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/database-framework/), in order to make headway on the incident at hand.  
 
 ## Escalation Process
 
-### Scope of Process
+### Scope and Qualifiers
 
-1. This process is designed for the following issues:
-   1. **GitLab.com** S1 and S2 production incidents raised by the **Engineer On Call** , **Development**, and **Security** teams.
-1. This process is **NOT** a path to reach the DBO team for non-urgent issues that the Development, Security, and Support teams run into. Such issues can be moved forward by:
-   1. Labeling with `group::database operations` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
-   1. Raising to the `#g_database_operations` Slack channel, or
-   1. Asking the infrastructure-lounge Slack channel assigning the `@dbre` or `@dbo` user group
-1. This process provides for Weekdays coverage only.
+1. **GitLab.com** S1 and S2 production incidents raised by the **Incident Manager On Call**, **Engineer On Call** , **Development**, and **Security** teams.
 
-#### Example of qualified issue
+   * NB1: **Gitlab Dedicated** support is consultative at this point.  DBO team currently not equipped, i.e. lacking access and and training on how to support Dedicated databases.  This may change in the future; check back here for updates on this topic.
 
-1. Production issue examples:
-   1. GitLab.com: [S1/S2 or DB failover and degraded GitLab.com performance](https://gitlab.com/gitlab-com/gl-infra/production/issues/1054)
-   1. GitLab.com: [Severity 1](/handbook/security/#severity-and-priority-labels-on-security-issues) vulnerability being actively exploited or high likelihood of being exploited and puts the confidentiality, availability, and/or integrity of customer data in jeopardy.
+   * NB2: This process is **NOT** a path to reach the DBO team for non-urgent issues that the Development, Security, and Support teams run into. For non-urgent issues, please reach out to the DBO team via our Slack (see Shortcut section above)
 
-### Process Outline
+   * NB3: The DBO on-shift is responsbile for coordianting warm handoffs during shift changes, especially when there is an ongoing, active incident.
+   
 
-**NOTE:** The DBO support does not need to announce beginning/end of their shift in #g_database_operations, unless there is an active incident happening (check the chat history of the channel to know if there is an active incident). This is because many engineers have very noisy notifications enabled for that channel, and such announcements are essentially false positives which make them check the channel unnecessarily.
+### Escalation
 
-#### Weekdays (UTC)
-
-1. Incidents will be escalated by the EOC or Incident Manager by notifying the DBO through @dbre or @dbo slack handle with an eligible DBO according to their working hours.
-1. During incidents the available DBO can pass the incident to another DBO/Reliability EM, if they are urgently needed somewhere else.
-1. In timezones where we have only one person, the DBO can pass the incident to the available Reliability Engineering manager who will work to find someone(not necessarily a DB) who can help
-
-##### Escalation
-
-1. EOC/IM, notify the DBO on-call by using slack handle @dbre or @dbo requesting for the DBO to join the incident zoom/channel
-1. DBO responds to the ping by acknowledging the ping and joining the incident channel and zoom
-1. If DBO support does not respond, the EOC/IM, notify the available Reliability EM
+1. EOC/IM, Development or Security page the DBO on-call via [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL)
+1. DBO responds by acknowledging the page and joining the incident channel and zoom
 1. DBO triages the issue and works towards a solution.
 1. If necessary, DBO reach out for further help or domain expert as needed.
 
-In the event that no DBO engineers respond to the ping, the EOC will then notify the Reliability, Engineering Managers. They will need to find someone available and notify this in the escalation thread. As an EM:
-
-1. Try to find someone available from the DBO group
-1. If the search is positive, leave a message in the thread as an acknowledgement that the engineer will be looking into the issue
-
-#### Weekends and Holidays (UTC)
-
-The first iteration will only focus on weekdays.
-
-### First response time SLOs
-
-**OPERATIONAL EMERGENCY ISSUES ONLY**
-
-   1. **GitLab.com**: DBO engineers provide initial response (not solution) in both incident channel and the tracking issue on a **best-effort basis**.
-
-#### Relay Handover
-
-* Since the dbo who are on call may change frequently, responsibility
-     for being available rests with them.
-* In the instance of an ongoing escalation no DBO should finish
-     their on-call duties until they have arranged for and confirmed the DBO
-     taking over from them is present, or they have notified someone who
-     is able to arrange a replacement. They do not have to find a
-     replacement themselves, but they need confirmation from someone that
-     a replacement will be found.
-* In the instance of an ongoing escalation being handed over to
-     another incoming on-call DBO the current on-call DBO
-     summarize full context of on-going issues, such as but not limited to
-  * Current status
-  * What was attempted
-  * What to explore next if any clue
-  * Anything that helps bring the next on-call dbo up to speed quickly
-
-     These summary items should be in written format in the following locations:
-  * _Existing_ threads in respective Incident channel
-  * Incident tracking issues
-
-     This shall be completed at the end of shifts to hand over smoothly.
-* For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
-* If an incident is ongoing at the time of handover, outgoing DBO may
-     prefer to remain on-call for another shift. This is acceptable as long as
-     the incoming DBO agrees
-* If you were involved in an incident which has been mitigated during your shift, leave a note about your involvement in the incident issue and link to it in the respective incident Slack channel indicating you participated in the issue as an informational hand-off to future on-call DBO.
+   * NB1: If DBO support does not respond, escalation path as defined within PagerDuty ensues.
 
 ## Resources
 
