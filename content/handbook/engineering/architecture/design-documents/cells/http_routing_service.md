@@ -688,7 +688,7 @@ sequenceDiagram
     participant HTTPRouter as HTTP Router (Cloudflare)
     participant TopologyService as Topolgoy Service
     box Cell
-    participant CellIngress as Cell Ingress (Nginx)
+    participant CellIngress as Cell Ingress (nginx-ingress)
     participant CellWebservice as Webserivce Container(workhorse/puma)
     end
     participant LegacyCell as Legacy Celll
@@ -699,7 +699,7 @@ sequenceDiagram
     TopologyService-->>-HTTPRouter: Return managed_domain for Cell
     HTTPRouter->>HTTPRouter: Set X-Forwarded-Host: gitlab.com
     HTTPRouter->>CellIngress: Proxy to managed_domain
-    CellIngress->>CellIngress: Use Host header mathcing X-Forarded_host
+    CellIngress->>CellIngress: Use Host header matching X-Forwarded-Host
     CellIngress->>+CellWebservice: Proxy with Host: gitlab.com
  
 

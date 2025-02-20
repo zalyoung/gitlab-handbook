@@ -24,7 +24,7 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 ### New Hire Laptop Ordering Process
 
 The laptop ordering process for new hires starts as soon as an offer is accepted by a candidate and the initial Welcome email is sent by the Candidate Experience Specialist.
-This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop. After the new hire fills out the form, they can expect their GitLab issued laptop to arrive the week before their start date. 
+This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop. After the new hire fills out the form, they can expect their GitLab issued laptop to arrive the week before their start date.
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
@@ -35,7 +35,7 @@ You can test this by going to order a MacBook Pro (or Dell) from the regional Ap
 If the latter, see below.
 
 We currently cannot procure Apple laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `laptops@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
-If the team member requires financial assistance to purchase the hardware, the Company will advance the funds to help facilitate the purchase (see Exception Processes below).
+If the team member requires financial assistance to purchase the hardware, the Company can advance the funds to help facilitate the purchase (see Exception Processes below).
 
 {{% alert title="**Warning: fake job scams**" color="warning" %}}
 Scammers may impersonate GitLab and target job seekers. GitLab will never ask new hires to send us funds for equipment purchases.
@@ -46,57 +46,58 @@ Read the ["What to know about a fake job scam impersonating GitLab"](https://abo
 
 ### Laptop Refresh
 
-Team members can choose to refresh their laptop, no questions asked, after 3 years of use (not necessarily 3 years of employment if a used laptop was issued at the time of onboarding). If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
+Team members can choose to refresh their laptop, no questions asked, after 3 years of use (not necessarily 3 years of employment). If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
 
-The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**, so please prioritize transferring information between laptops within this timeframe.
+The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**, please prioritize transferring information between laptops within this timeframe.
 
-Laptops being requested as part of the refresh program use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade).
+Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade) to request a laptop refresh.
 
-If you qualify/complete a laptop refresh, please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
+After 3 years of use, the team member may retain the old laptop at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
 
 ### GitLab Laptop Replacement Program
 
-We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you do not qualify for the 3 year refresh yet. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
+We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you are not yet eligible for a 3 year refresh. Replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
 
-Replacement laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job dutied, screen and battery are damaged) also, please note replacements will require your manager's approval in the issue.
+Replacement laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job duties) also, please note replacements will require approval from IT as well as your manager's approval in the issue.
 
 Many team members can use their company issued laptop until it breaks. If your productivity is suffering, you can request a new laptop. The typical expected timeframe for this is about three years, but it can depend on your usage and specific laptop.
 
 **Please note**
 
-Laptops paid for or reimbursed by the company are property of GitLab. They need to be reported with serial numbers, make, model, screen size and processor to IT Ops by enrolling the device for proper [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
-Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so (for example, at the moment we do not purchase Apple Care), but you do need to report any loss or damage to IT Ops as soon as it occurs.
+Laptops paid for or reimbursed by the company are property of GitLab. They must be enrolled using the proper Endpoint Operating System for accurate [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
+Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so.\
+**Any loss or damange must be reported to IT Ops as soon as it occurs.**
 
 ### Laptop Repair
 
-If your primary laptop is broken and needs to be repaired you can take it into an Apple store (or any authorized service center). You should ensure that you have a recent backup before doing so, and that your laptop is not your only registered device for iCloud two-factor authentication.
+If your primary laptop is broken and needs to be repaired you can take it into an Apple authorized service center. You should ensure that you have a recent backup before doing so, and that your laptop is not your only registered device for iCloud two-factor authentication.
 
-If the repair is not going to be too expensive (less than $1,000 USD), the below process must be followed to repair and expense. If the repair is going to take longer than a day, then you need to make sure you have a back up laptop to work on that uses a supported hardware OS.
+If the repair is less than $1,000 USD, and can be completed within a few days, the below process must be followed to be reimbursed. If the repair is going to take longer than a day, make sure you have a back up laptop to work on that uses a supported hardware OS.
 
-Before repairing, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document the repair. The issue must include IT and your managers approvals **prior** to the repair being done. Please make sure to attach/include any estimates or receipts for the repair that you get from Apple (or any authorized service center) in the issue. Picture or PDF will work just fine.
+Before repairing, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document the repair. The issue must include IT and your managers approvals **prior** to the repair being done. Please attach/include any estimates or receipts for the repair that you get from the Apple authorized service center in the issue. Picture or PDF will work just fine.
 
-Do not provide the repair center with any credentials to your laptop. If they ask, you can tell them that they're authorized to do a factory reset on the laptop should it be necessary to run diagnostics. This will help prevent sensitive data from being accidentally or intentionally leaked during repair.
+Do not provide the repair center with any credentials to your laptop. If they ask, let them know they're authorized to do a factory reset on the laptop, should it be necessary. This will help prevent sensitive data from being accidentally or intentionally leaked during repair.
 
-Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-us/102639)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/it/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
+Once you receive your laptop back, re-install the OS ([MacOS instructions here](https://support.apple.com/en-us/102639)). Re-installing the OS is to ensure that no unauthorized software was added during the repair process. You will also want to verify that the [disk is encrypted](/handbook/it/end-user-services/onboarding-access-requests/#full-disk-encryption), [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) is installed and either [Jamf for Mac or DriveStrike for Linux](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) is functioning properly. If you have a recent backup, you can restore your data.
 
-If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
+If the repair is going to be more than $1,000 USD and take weeks to fix, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
 
 In this case please open [an issue to replace](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement).
 When you receive the new laptop, please follow the guidelines in the template. After you have moved to the replacement laptop, we will have the old one sent off to be [recycled or repaired](#laptop-recyclereturn).
 
 ### Laptop Purchasing and Shipping Process
 
-Once End User Services receives your laptop order, we will start working on purchasing your laptop. We leverage business relationships with several different vendors across the globe to accomplish this remotely. Please note delivery times will vary depending on location, hardware supply, vendor selection, and shipping method.
+After End User Services receives your laptop order, we will start working on the request. New hires can expect their GitLab issued laptop to arrive the week before their start date. We leverage business relationships with several different vendors across the globe to accomplish this remotely. Please note delivery times will vary depending on location, hardware supply, vendor selection, and shipping method.
 
-In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions at this time but please feel free to reach out to `laptops@gitlab.com` or talk with your hiring manager to review all options available.
+In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions. If this is needed please reach out to `laptops@gitlab.com` or talk with your hiring manager to review all options available.
 
 If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=opened&first_page_size=100)
 
-Estimated Delivery Timelines for GitLab Hardware
+Regional minimum processing times for laptop delivery. Some countries may take longer to ship to due to required documentation for delivery.
 
-- US New Hires - 1-2 weeks (Apple) and 3-5 weeks (Linux)
-- EMEA New Hires - 1-2 weeks (Apple) and 3-5 weeks (Linux)
-- Other Regions - 2-3 weeks (Apple) and 6-9 weeks (Linux)
+- US/Canada New Hires - 2 weeks (Apple) and 5 weeks (Linux)
+- EMEA/APAC New Hires - 2 weeks (Apple) and 5 weeks (Linux)
+- Other Regions - 3 weeks (Apple) and 9 weeks (Linux)
 
 ### Key Performance Indicators
 
@@ -331,7 +332,7 @@ For more information regarding DriveStrike, refer to our [DriveStrike](/handbook
 
 ### Backblaze
 
-Backblaze is a tool that might be deployed to backup data on your company owned device in the event of a legal hold/investigation and only following a request of the Legal and People Ops teams, subject to local data, privacy and employment laws.
+Backblaze is a tool that might be deployed to backup data on your company owned device in the event of a security or legal hold/investigation and only following a request of the Legal and People Ops teams, subject to local data, privacy and employment laws.
 
 ### Google Workspace Deprovisioning
 
@@ -394,4 +395,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)

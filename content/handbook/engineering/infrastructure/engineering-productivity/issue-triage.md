@@ -10,7 +10,7 @@ Any GitLab team-member can triage issues. Keeping the number of un-triaged issue
 ## Partial Triage
 
 The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) own the issue triage process, but there is no capacity to manually triage issues without a group label at present.
-We rely on a combination of [self triage](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/c003f65c94ff55a6b43c0b5c8c8ac0173618c0a5/policies/stages/report/untriaged-issues.yml#L70) and [tanuki-stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan) to ensure group labels are added, and issues are seen/triaged by the relevant group.
+We rely on a combination of self and [AI triage](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/c003f65c94ff55a6b43c0b5c8c8ac0173618c0a5/policies/stages/report/untriaged-issues.yml).
 
 ### Partial Triage checklist
 
@@ -368,24 +368,7 @@ Use the issue with the better title, description, or more comments and positive 
 
 #### Support issue message
 
-If the issue is really a support request for help, you can post this message:
-
-```markdown
-Hey {{author}} thanks for reaching out, but it looks like this might be a request for support. The issue tracker is for new bug reports and feature proposals. For support requests we have several resources that you can use to find help and support from the Community, including:
-
-* [Technical Support for Paid Tiers](https://about.gitlab.com/support/)
-
-* [Community Forum](https://forum.gitlab.com/)
-
-* [Reference Documents and Videos](https://about.gitlab.com/get-help/#references)
-
-Please refer to our [Support page](https://about.gitlab.com/support/) for more information.
-
-I'm closing this issue but if you believe this was closed in error, please feel free to reopen the issue.
-
-/label ~"support request"
-/close
-```
+If the issue is really a support request for help, you can use the `Issue triage - support question` [comment template](https://docs.gitlab.com/ee/user/profile/comment_templates).
 
 #### Duplicate issue message
 

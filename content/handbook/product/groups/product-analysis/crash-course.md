@@ -301,7 +301,7 @@ Resource to understand the long-term goals for this team
 
 It can be helpful to search for specific topics on the Package team's main page
 
-[GitLab Docs Package Page](https://docs.gitlab.com/ee/administration/packages/)
+[GitLab Docs Package Page](https://docs.gitlab.com/administration/packages/)
 
 GitLab Docs are awesome!
 
