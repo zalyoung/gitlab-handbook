@@ -45,6 +45,7 @@ Below is a list of some commonly used Zendesk forms with a brief explanation reg
 - Support Ops: An issue with Support portal, Organization association and Shared Organization setup
 
 Note: The following form is depreciated but for queries:
+
 - Level Up: For tickets that should go to the Professional Services or Education team, such as requests about [the GitLab LevelUp platform](/handbook/people-group/learning-and-development/level-up/)(`levelup.gitlab.com`).
 
 **Please note:** Please follow the guidance under [Moving to non-support forms](#moving-to-non-support-forms) to *change* the ticket form, unless it's between Self-Managed, SaaS (GitLab.com) and SaaS Account.
