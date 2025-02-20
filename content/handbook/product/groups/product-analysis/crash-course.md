@@ -1,5 +1,6 @@
 ---
 title: Crash Course for Product Stage Resources
+description: Overview of the most important Product Analytics related resources for each product Stage
 ---
 
 ## Objectives for this page
