@@ -680,7 +680,7 @@ Refer to the [program guidelines](/handbook/resellers/channel-working-with-gitla
 
 Review the steps below to understand how a Service Attached Registration for an applicable GitLab software opportunity is processed.
 
-#### Ecosystem Operations for first review and action
+#### Ecosystem Operations for First Review and Action
 
 Ecosystem Operations has first action to review and update the registration when `DR-Status` = `Submitted`:
 
