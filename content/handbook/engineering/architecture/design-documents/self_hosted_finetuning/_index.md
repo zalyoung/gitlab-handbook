@@ -292,6 +292,8 @@ In the columns, the two numbers are: embedding similarity, exact match. Higher n
 | Codestral-22B | 0.89, 0.03 | 0.84, 0.0 | 0.80, 0.0 |
 | LoRA+Codestral-22B | **0.91**, **0.17** | **0.87**, 0.0 | **0.85**, **0.05** | 
 
+Other models to be assessed: [Mistral Small 3](https://gitlab.com/gitlab-org/gitlab/-/issues/520221).
+
 ## Alternatives
 
 Adapters, and in particular, LoRAs are not a panacea; it is one of the methods that we could utilize if it is found suitable for our use cases. Other potential approaches are:
