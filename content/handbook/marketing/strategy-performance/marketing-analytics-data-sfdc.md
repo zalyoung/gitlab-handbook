@@ -25,8 +25,10 @@ The Attribution Touchpoint mart is the consolidated repository of Marketo Measur
    1. [Bizible-defined](https://experienceleague.adobe.com/en/docs/marketo-measure/using/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models)
    1. Linear
       1. An even distribution of weight/attribution split amongst every touchpoint related to the record. 
-1. Is MGP Opportunity
+1. Is MGP Channel Based
    1. At least 2 unique marketing channel touchpoints for First Order and 3 unique marketing channel touchpoints for Growth opportunities, within a window of 365 days before Pipeline Created Date
+1. Is MGP Opportunity
+   1. Is MGP Channel Based = TRUE and Sales Qualified Source = SDR
 1. Gitlab Model Weight
 1. Time Decay Model Weight
 1. Data Driven Model Weight
