@@ -4,8 +4,7 @@ summary: This page outlines the DBO team escalation process and guidelines for d
 ---
 
 {{% alert title="Note" color="danger" %}}
-We are using [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL) for escalations. 
-[comment]: We are using Slack, <i class="fa-brands fa-slack"></i> @dbre or @dbo, for escalations.
+We are using [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL) for escalations.
 {{% /alert %}}
 
 ## About This Page
