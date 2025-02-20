@@ -38,7 +38,7 @@ We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archive
   </div>
 </div>
 
-See the following page for information specifically pertaining to [Marketing Analytics Data Engineering](marketing-data-engineering).
+See the following page for information specifically pertaining to [Marketing Analytics Analytics Engineering](marketing-analytics-engineering).
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Our Work
 
