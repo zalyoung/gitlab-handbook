@@ -115,7 +115,6 @@ The AI Gateway container is published to the [GitLab Container Registry](https:/
 
 For each supported model and supported GitLab Duo feature, prompts will be developed and evaluated by GitLab. Prompts are hosted on the AI Gateway.
 
-
 ### Supported LLMs
 
 The list of supported LLMs are available in the [documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/supported_models_and_hardware_requirements.html#approved-llms).
