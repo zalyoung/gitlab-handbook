@@ -113,7 +113,7 @@ The AI Gateway container is published to the [GitLab Container Registry](https:/
 
 ### Prompt Support
 
-For each supported model and supported GitLab Duo feature, prompts will be developed and evaluated by GitLab. Prompts are hosted on the AI Gateway.
+For each supported model and supported GitLab Duo feature, prompts will be developed and evaluated by GitLab. Prompts are hosted on the [AI Gateway repository](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/ai_gateway).
 
 ### Supported LLMs
 
