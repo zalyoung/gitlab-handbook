@@ -5,7 +5,7 @@ description: "Describes the role and responsibilities for the Support Managers r
 ---
 
 ## Introduction
-
+   
 The Support Manager On-call helps coordinate responses to urgent and important situations that arise within the scope of delivering a quality
 experience to GitLab customers.
 
@@ -53,11 +53,11 @@ The Support Engineer On-call will [escalate the page directly to the Support Man
 
 1. When an emergency is escalated, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
 1. `Acknowledge` the alert in PagerDuty or Slack. This means that you received the escalated page, and are currently determining if the situation qualifies as an emergency.
-1. If the situation qualifies, escalate to the pool of [**backup engineers**](/handbook/support/workflows/customer_emergencies_workflows):
-   1. Select `Escalate` from the More actions drop-down
+1. If the situation qualifies, Reassign to the pool of [**backup engineers**](/handbook/support/workflows/customer_emergencies_workflows):
+   1. Select `Reassign` from the More actions drop-down
    1. Search for and select `Customer Emergencies - APAC Backup Pool` Escalation policy from the drop-down
    1. Don't modify any other options
-   1. Scroll down and click Escalate. 
+   1. Scroll down and click Reassign. 
 
 *For further details, please refer to [STM#4583](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4583).*
 
