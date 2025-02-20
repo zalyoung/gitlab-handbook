@@ -46,7 +46,7 @@ The Database Operations Team (DBO Team) may or may not choose to apply each mino
 
 Individual minor releases should be evaluated by different people from the DBO team, round robin style. It should not be one team member's sole responsibility to be aware of upcoming postgres minor releases that we may want to install. The team member responsible for evaluating the next minor release is assigned when the current minor release issue is closed. 
 
-New Minor releases should be evaluated by using postgres_minor_release.md template to open an issue in the DBO Issue Tracker Repo.
+New Minor releases should be evaluated by using the [postgresql minor release template](https://gitlab.com/gitlab-com/gl-infra/data-access/dbo/dbo-issue-tracker/-/blob/main/.gitlab/issue_templates/postgres_minor_release.md) to open an issue in the DBO Issue Tracker Repo.
 New Minor releases should be installed after opening a change request in the production repo
 
 The DBO team will usually default to waiting at least a week after a minor release is made available before beginning evaluation. 
