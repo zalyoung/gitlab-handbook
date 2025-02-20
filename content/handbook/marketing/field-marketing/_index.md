@@ -905,21 +905,19 @@ The below epic is for tracking venues we would like to utilize for future events
 ## What's currently scheduled in my region?
 
 | Region | FM DRI | GitLab User ID | Slack Channel |
-| ------ | ------ | -------------- | -------------- |
-| [AMER - East - NE SE & NYC Metro](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290066?label_name[]=East%20-%20Canada&label_name[]=East%20-%20NE%20SE%20%26%20NYC%20Metro)| Beth Parker | `@BParker` | |
-| [AMER - East Canada](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290066?label_name[]=East%20-%20Canada&label_name[]=East%20-%20NE%20SE%20%26%20NYC%20Metro)| Beth Parker | `@BParker` | |
-| [AMER - East - South Central & Mid Atlantic](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290100?label_name[]=East%20-%20South%20Central%20%26%20Mid%20Atlantic&label_name[]=East-%20LATAM)| Jonathan Santiago  | `@JonathanSanti` | |
-| [AMER - East - LATAM](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290100?label_name[]=East%20-%20South%20Central%20%26%20Mid%20Atlantic&label_name[]=East-%20LATAM) | Jonathan Santiago  | `@JonathanSanti` | |
-| [AMER - West -Northwest & North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290156?label_name[]=WEST%20-%20NW%20%26%20North%20Central) | Julie Wyatt | `@Julie Wyatt` | |
-| [AMER - Southwest & Bay](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290054?label_name[]=WEST%20-%20SW%20%26%20Bay%20Area) |  Lisa Rom | `@lrom`  | |
-| [AMER - Public Sector DoD/NSG/Alliances](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey |  `@KiraAubrey` | |
-| [AMER - Public Sector SLED/Civ](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey |  @kiraaubrey` | |
+| ------ | ------ | -------------- | ------------- |
+| AMER - FinServ | Beth Parker | `@BParker` | |
+| AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
+| AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
+| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
+| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
 | [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` | |
-| Japan - link WIP | Shu Kawaguchi | `@skawaguchi1` | |
+| Japan  | Shu Kawaguchi | `@skawaguchi1` | |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
 | [EMEA Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA) | Sarina Kraft | `@sarinakraft` | [#emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
+| [EMEA Telco](https://gitlab.com/groups/gitlab-com/marketing/-/boards/9128658?label_name[]=Telco&label_name[]=FM%20EMEA) | Sergei Rogalin | @srogalin | [#emea_telco_fieldmarketing](https://gitlab.enterprise.slack.com/archives/C08E7CSQQ80)|
 
 **NOTE:** to see the full list of events, you need to be logged into your GitLab account. There are times we make issues private.
 
@@ -1047,25 +1045,23 @@ The Channel Marketing Manager is responsible for keeping track of which partners
 
 The complete list of Marketing Channel Partners are identified in SFDC [here](https://gitlab.my.salesforce.com/00OPL0000002muz).
 
-## FMM/CAM alignment
+## FMM/ESM alignment
 
-| Region | FMM | PTM |
+| Region | FMM | ESM |
 | ------ | ------ | -------------- |
-| AMER East & Canada Enterprise| Beth Parker | Jay Bahar |
-| AMER South Central & LATAM Enterprise| Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
-| AMER North Central Enterprise| Julie Wyatt | Joe McAninch - Central |
-| AMER Southwest & Northwest Enterprise | Lisa Rom | Kyle Olsen |
-| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Lisa Cartegna - AMER Commercial NAMED|
-| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Maria Henry- AMER Commercial |
-| AMER Public Sector | Kira Aubrey | Chris Novello|
-| APAC | Kate Baker | Dirk de Vos |
-| APAC - Japan | Shu Kawaguchi |  |
+| AMER FinServ| Beth Parker | Jay Bahar |
+| AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
+| AMER North and Canada | Julie Wyatt | Jay Bahar |
+| AMER West Coast | Lisa Rom | Lisa Cartagena |
+| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
+| AMER LATAM | Gabby Chorny | Rodrigo Rios |
+| APAC | Kate Baker | SJ Lim |
+| APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
-| EMEA META | Marcus Hall & Juliette Francon | Adham Alattar |
-| EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
-| EMEA UK/I | Neha Pujari | Aaron Burgess |
-| EMEA DACH | Sarina Kraft | Ilaria Pazienza |
-| EMEA CEE | Sarina Kraft | Michal Kulakowski  |
+| EMEA Northern Europe | Neha Pujari| Aaron Burgess |
+| EMEA UK/I | Neha Pujari | Adam Woolford |
+| EMEA DACH | Sarina Kraft | Michi Tluste (Germany)/Christian Heitzler (ALPS) |
+| EMEA Telco | Sergei Rogalin | Country Specific |
 
 ## Field Marketing initiated and funded campaigns
 
