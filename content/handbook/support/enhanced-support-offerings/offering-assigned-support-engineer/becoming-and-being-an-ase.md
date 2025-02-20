@@ -51,17 +51,18 @@ You might also find it helpful to review the
 
 ### On-call responsibilities
 
-Support Engineers who are moving into an ASE role will continue participating in the CMOC/CEOC
-on-call rotations until they have two assigned accounts. At that point, the ASE and their manager should
-plan for you to be taken off the on-call rota.
+ASEs with two or more accounts are not expected to participate in either the
+[Customer Emergencies On-Call (CEOC)](/handbook/support/workflows/customer_emergencies_workflows/)
+or [Communication Manager On-Call (CMOC)](/handbook/support/workflows/cmoc_workflows/) rotations.
 
-This transition plan is influenced by:
+Participating in these on-call rotations creates an ongoing risk of conflict for the ASE between
+high-priority work from their assigned accounts and their on-call responsibilities. This risk
+becomes too great to manage when an ASE has two or more accounts.
 
-- When your backfill is ready to start on-call responsibilities.
-- Whether the on-call rota you are on is sufficient staffed.
-- Any other operational considerations.
-
-Guidance for Support Engineers who are hired into GitLab as ASEs will be defined at a later date.
+ASEs who have been rostered for CEOC or CMOC responsibilities from their time in global support
+should continue participating in these on-call rotations until they have two assigned accounts. At
+that point, the ASE and their manager should create a plan for the ASE to transition off the COEC or
+CMOC rotation that minimizes disruption to the team.
 
 ###
 
