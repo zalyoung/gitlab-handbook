@@ -93,7 +93,7 @@ curl -X POST -ss "https://store.zapier.com/api/records?secret=SECRET_GOES_HERE" 
   -d '{"foo": "bar"}'
 ```
 
-Replacing `SECRET_GOES_HERE` with thhe actual secret value.
+Replacing `SECRET_GOES_HERE` with the actual secret value.
 
 ### Editing an item
 
@@ -106,7 +106,7 @@ curl -X POST -ss "https://store.zapier.com/api/records?secret=SECRET_GOES_HERE" 
   -d '{"foo": "bar2"}'
 ```
 
-Replacing `SECRET_GOES_HERE` with thhe actual secret value.
+Replacing `SECRET_GOES_HERE` with the actual secret value.
 
 ## Troubleshooting zap issues
 
