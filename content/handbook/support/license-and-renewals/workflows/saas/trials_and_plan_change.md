@@ -38,8 +38,6 @@ GitLab.com trials have [some limitations](https://about.gitlab.com/free-trial/#w
 
 Sales will need to work with Deal Desk using this [workflow](../../../../sales/field-operations/sales-operations/deal-desk#concurrent-subscriptions) to request a temporary Premium or Ultimate subscription which will result in a $0 paid subscription without the trial limitations.
 
-Support should not use the [NFR workflow](#how-to-extend-an-nfr-not-for-resale-saas-trial-using-the-rails-console) to process such request.
-
 ## Extending trials
 
 Sales will often request through a Zendesk Ticket that we extend the duration of GitLab.com trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User <gitlab_support@example.com>, with the submitter cc'd on the ticket. If a customer or sales representative raise an extend trial request on a *customer ticket*, we should respond that an internal request **must** be created by the sales representative to request the trial extension.
@@ -184,36 +182,4 @@ In certain scenarios where customer renewals or new customer sales are experienc
 
 ### How to create an NFR (Not for resale) SaaS License
 
-A NFR SaaS 'license' must begin with either an existing trial or a new trial on a GitLab namespace.
-Console acccess is then required to convert from trial to an NFR subscription.
-
-## How to extend an NFR (Not for resale) SaaS trial using the rails console
-
-To extend a trial SaaS extension.
-
-1. The NFR partner needs to either signup for a trial at: <https://about.gitlab.com/free-trial/> or start a trial from within their current GitLab namespace.
-1. Once they have a valid namespace for their trial they need to provide this to support.
-1. The support engineer requires [console access to CustomersDot](/handbook/support/license-and-renewals/workflows/customersdot/customer_console) to GitLab Rails to update the namespace.
-1. Within the CustomersDot rails console you should execute the command: ``` view_namespace '<group name space>' ```
-1. This will return the partners namespace information and order information. Get the order 'id' (i.e. 123456), you will need it for the next command.
-
-![Namespace and order id](/images/support/NFR_Console.png)
-
-1. Execute the command to interact with the order id: ```o = Order.find 123456```
-1. Review, modify, and execute the following command to update the order:
-
-```o.update!(product_rate_plan_id: Plan::ULTIMATE_SAAS_1_YEAR_PLAN, quantity: 25, end_date: Date.parse('2022-11-09'), trial: false)```
-
-- View the important info below for what values to substitute as needed
-
-1. Execute the command to synchronise the update: ```Gitlab::Namespaces::UpdatePlanInfoService.new(o, force_sync: true).execute```
-1. In GitLab.com admin, edit the group and update the **Quota of compute minutes** to 400. See next step on how to find the admin screen.
-1. [Add an admin note](/handbook/support/workflows/admin_note/) for the group to document the partner has an NFR subscription and link the issue.
-
-Some important information to consider:
-
-- Product_rate_plan_id == the requested NFR plan, it should be `Plan::ULTIMATE_SAAS_1_YEAR_PLAN` or `Plan::PREMIUM_SAAS_1_YEAR_PLAN` (no quotes)
-- Quantity ==  the ticket submitter will specify this in the issue, it is typically 10 or 25 users
-- Trial == must be false otherwise they will be unable to use GitLab shared runners.
-- Start date == is the specified in the issue or the date today.
-- End date == is one year from specified date or from today's date.
+As of Feb. 19, 2025, [partner NFR subscriptions](/handbook/resellers/channel-working-with-gitlab/#not-for-resale-nfr-program-and-policy)) will be provisioned as standard GitLab.com subscriptions instead of as trial subscriptions. Ecosystem Operations manage this process and no longer requires assistance from the support team to provision. Reach out to #global-ecosystem-programs-ops via slack with any questions.
