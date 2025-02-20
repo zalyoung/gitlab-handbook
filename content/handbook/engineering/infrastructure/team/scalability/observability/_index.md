@@ -16,7 +16,7 @@ Our mission is to deliver and maintain a world-class observability offering and 
 | **GitLab.com**                 | `@gitlab-org/production-engineering/observability`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Issue Trackers**             | [Observability Tracker](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                                                                                                                                              |
-| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/g_infra_observability_alerts) (Observability Slack Alerts), <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#g_infra_observability_alerts](https://gitlab.slack.com/archives/g_infra_observability_alerts) (Observability Slack Alerts), <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
 | **Documentation**              | [Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/)                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 ## Team Members
@@ -25,7 +25,7 @@ The following people are members of the Observability team:
 
 {{< team-by-manager-slug "liam-m" >}}
 
-The team is located all over the world in [different timezones](https://timezonewizard.com/p4-6e9).
+The team is located all over the world in [different timezones](https://timezonewizard.com/ca-m2n).
 
 ## Technical principles, goals and responsibilities
 
@@ -122,6 +122,7 @@ The team are responsible for provisioning access to the services listed below, a
 
 1. **Kibana** is accessed through Okta. Team members need to be in either of the following Okta groups: `gl-engineering` (entire Engineering department); `okta-kibana-users`. The latter group is used to manage access for team members outside of Engineering on an ad-hoc basis ([context](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/958)). Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28421)). If the access request is approved, the provisioner should add the user to [this group](https://groups.google.com/a/gitlab.com/g/okta-kibana-users), which will then automatically sync to its namesake group in Okta.
 1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions to the instances they require access to. 
+1. **Grafana** is accessed through Okta. The login screen is availabile [here](https://dashboards.gitlab.net).  Any GitLab team member can access Grafana.  Provisioning and deprovisioning is handled through Okta.
 
 ## How we work
 
@@ -173,11 +174,7 @@ A team-level retrospective issue is created every 6 weeks, allowing the team to 
 
 ### Updates in Slack
 
-In order to stay informed with everyone's immediate topics, we post regular status updates in our Slack channel.
-
-These updates include whatever the team member is currently working on and dealing with, for example consider including current focus area, general work items, blockers, in-flight changes, learnings, side tracks, upcoming time off and other relevant information.
-
-There is no strict frequency for posting updates, although we strive to make updates at least once per week.
+We are using [GeekBot](https://app.geekbot.com/dashboard/w/184476) for weekly updates, which go to the #g_observability channel.
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
 
