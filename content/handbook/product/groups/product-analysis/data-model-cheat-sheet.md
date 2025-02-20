@@ -1,6 +1,6 @@
 ---
 title: Product Data Insights Data Models Cheat Sheet
-description: High-level overview of the most common data models used by the Product Data Insights team
+description: Overview of the most common data models used by the Product Data Insights team
 ---
 
 ## Objectives for this page
