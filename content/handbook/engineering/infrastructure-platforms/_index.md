@@ -39,7 +39,7 @@ flowchart LR
     I --> GD[GitLab Dedicated]
     click GD "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
     I --> PE[Production Engineering]
-    click PE ""
+    click PE "/handbook/engineering/infrastructure/team/production-engineering/"
     I --> SD[GitLab Delivery]
     click SD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/"
     I --> TS[Tenant Scale]
