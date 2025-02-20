@@ -1,4 +1,3 @@
-
 ---
 title: "Data Catalog"
 description: "The Data Catalog page indexes Analytics Dashboards, Workflows, and Terms."
