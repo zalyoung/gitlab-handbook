@@ -57,7 +57,7 @@ to maintain professionalism and avoid undermining confidence.
 discuss matters thoroughly before considering the need to involve other
 resources.
 
-## Structure
+## Customer Introductory Meeting Structure
 
 1. Introduce yourself
    1. Tell them your name
@@ -90,8 +90,15 @@ resources.
    1. Determine whether it would make sense to use a
      [collaboration project](../../../../customer-success/csm/customer-collaboration-project.html)
      to track any long-term plans
+1. Agree on a schedule for a regular meeting - either weekly or every other week -
+   to be used for:
+   1. reviewing the work you've done since the previous meeting
+   1. setting priorities for the work you'll do before the next meeting
+   1. agreeing on what you will not do before the next meeting, and whether
+      that work can wait or needs to be done by someone else
+   1. discussing upcoming projects, tasks, changes, time off, etc.
 
-## Tips
+## Customer Introductory Meeting Tips
 
 1. State clearly to the account team when the meeting is being scheduled that
    the ASE will run the meeting and that they will use the entire meeting for
