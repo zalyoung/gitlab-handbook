@@ -88,7 +88,7 @@ flowchart LR
     SD --> B[Build]
     click B "" 
     SD --> SM[Self-Managed]
-    click SM ""
+    click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SD --> Framework
     click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> R[Release]
