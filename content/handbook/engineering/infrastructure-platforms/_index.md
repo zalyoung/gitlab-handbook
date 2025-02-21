@@ -92,7 +92,7 @@ flowchart LR
     SD --> Framework
     click Framework ""
     SD --> R[Release]
-    click R ""
+    click R "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
     SD --> D[Deploy]
     click D "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/" 
 
