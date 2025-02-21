@@ -57,6 +57,7 @@ Communication happens easier when you are familiar with the person reviewing the
 **This applies specifically to backend, frontend and database maintainers. Other areas (docs, etc.) may have separate processes documented below.**
 
 Before considering maintainership, first you should be a contributor. You should have made at least a few feature or maintenance contributions to the project before you can become a reviewer in the trainee maintainer process. These contributions should be complex enough to give you an understanding of the project's unique domain and design.
+
 #### Maintainership check-ins and mentorship
 
 Interested reviewers should check in regularly with their manager/mentor to discuss progress towards maintainership and review any recent detailed reviews, for example during their 1-on-1s. Reviewers are encouraged to also seek out a [maintainer mentor](#reviewer-mentorship-program) for further perspective on their reviews. Reviewers are encouraged to think of their eligibility for maintainership in the terms of "I could be ready at any time to be a maintainer as long as it is justified".
@@ -81,6 +82,7 @@ Before opening the merge request, the author should:
 #### Request Maintainership feedback
 
 Before merging, the manager/mentor should:
+
 1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1). Refer to the additional guidance for [managing negative feedback](#managing-negative-feedback).
 1. Leave the merge request open for 1 week, to give the maintainers time to provide feedback to the manager/mentor.
 1. Have at least 2 approvals from existing maintainers.
