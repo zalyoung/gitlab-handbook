@@ -66,3 +66,7 @@ Upsides of installing EE:
 **Then why would anybody go with CE?**
 
 There are some customers who are mandated to use open source tools that has a license compatible with their internal policies. Since CE is licensed under the extremely permissive [MIT license](https://opensource.org/license/mit), it can generally satisfy any of those requirements. Thus, the only reason to install CE is if the customer explicitly asks for it. Otherwise, start with EE: even if the customer decides not to share usage statistics with us, it'll still be just a flick of a switch for them to upgrade to Premium or Ultimate later.
+
+### I've made a mistake and installed the wrong edition
+
+Fear not, follow one of [these guides](https://docs.gitlab.com/update/#upgrading-between-editions) instead.
