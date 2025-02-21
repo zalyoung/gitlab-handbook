@@ -13,7 +13,7 @@ description: "GitLab Data Team Workflow"
 - [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 - [Triage](/handbook/enterprise-data/how-we-work/triage/)
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
-- [Data Team Programs](/handbook/enterprise-data/organization/programs/#data-programs)
+- [Data Team Programs](/handbook/enterprise-data/organization/programs)
 
 ## Practical guide to contributing to the Data Team Projects
 

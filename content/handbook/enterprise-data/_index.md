@@ -190,8 +190,8 @@ You can tag the Data Team in GitLab using:
 |  **TECH GUIDES** | **INFRASTRUCTURE** | **DATA TEAM** |
 | :--------------- | :----------------- | :-------------- |
 | [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/) | [High Level Diagram](/handbook/enterprise-data/platform/#our-data-stack) | [How We Work](/handbook/enterprise-data/how-we-work/) |
-| [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/) | [System Data Flows](/handbook/enterprise-data/platform/infrastructure/#system-diagram) | [Team Organization](/handbook/enterprise-data/organization/) |
-| [Python Guide](/handbook/enterprise-data/platform/python-guide/) | [Data Sources](/handbook/enterprise-data/platform/#extract-and-load)| [Calendar](/handbook/enterprise-data/how-we-work/calendar/) |
+| [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/) | [System Data Flows](/handbook/enterprise-data/platform) | [Team Organization](/handbook/enterprise-data/organization/) |
+| [Python Guide](/handbook/enterprise-data/platform/python-guide/) | [Data Sources](/handbook/enterprise-data/platform/)| [Calendar](/handbook/enterprise-data/how-we-work/calendar/) |
 | [Airflow & Kubernetes](/handbook/enterprise-data/platform/infrastructure/#common-airflow-and-kubernetes-tasks) | [Snowplow](/handbook/enterprise-data/platform/snowplow/)  | [Triage](/handbook/enterprise-data/how-we-work/triage/) |
 | [Docker](/handbook/enterprise-data/platform/infrastructure/#docker) | [Permifrost](/handbook/enterprise-data/platform/permifrost/) | [Merge Requests](/handbook/enterprise-data/how-we-work/mr-review/) |
 | [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/) | [DataSiren](/handbook/enterprise-data/platform/#datasiren) | [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/) |
@@ -199,7 +199,7 @@ You can tag the Data Team in GitLab using:
 | [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) | | [Data Management](/handbook/enterprise-data/data-governance/data-management/) |
 | [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/) | | |
 | [Experimentation Best Practices](/handbook/enterprise-data/how-we-work/experimentation-best-practices/) | | |
-| [Data Onboarding](/handbook/enterprise-data/organization/programs/#data-onboarding) | | |
+| [Data Onboarding](/handbook/enterprise-data/organization/programs) | | |
 | [Learning Library](/handbook/enterprise-data/organization/learning-library/) | | |
 | [Tableau Guide](/handbook/enterprise-data/platform/tableau/) | | |
 | [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) | | |
@@ -222,7 +222,7 @@ You can tag the Data Team in GitLab using:
 * [How The Data Platform Works](/handbook/enterprise-data/platform/)
   * [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/)
   * [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
-  * [Data Onboarding](/handbook/enterprise-data/organization/programs/#data-onboarding)
+  * [Data Onboarding](/handbook/enterprise-data/organization/programs)
   * [Internship Experience](/handbook/enterprise-data/internship-experience/internship-experience.md)
   * [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
   * [Data Quality](/handbook/enterprise-data/data-governance/data-quality/)

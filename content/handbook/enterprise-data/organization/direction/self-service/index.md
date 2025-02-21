@@ -120,7 +120,7 @@ Access Requests:
 
 ### Self-Service SQL Developer
 
-Self-Service SQL Developer provides Certified GitLab team members a SQL prompt into the Snowflake Data Warehouse. Because not all of the data is currently modeled in a standard form, additional time may be required to perform research, read "RAW" data and unmodeled data, and learn from teams with more experience. As the Data Team builds the Enterprise Dimensional Model and delivers additional [Level 2 Solutions](/handbook/enterprise-data/organization/direction/reference/) with SQL examples and data models, SQL Developer productivity will increase and SQL analysis will become easier and faster.
+Self-Service SQL Developer provides Certified GitLab team members a SQL prompt into the Snowflake Data Warehouse. Because not all of the data is currently modeled in a standard form, additional time may be required to perform research, read "RAW" data and unmodeled data, and learn from teams with more experience. As the Data Team builds the Enterprise Dimensional Model and delivers additional [Level 2 Solutions](/handbook/enterprise-data/organization/direction/) with SQL examples and data models, SQL Developer productivity will increase and SQL analysis will become easier and faster.
 
 Prerequisites:
 
