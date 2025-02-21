@@ -43,7 +43,7 @@ Data that can directly or indirectly identify a person is covered by GDPR. GDPR 
 
 **The right to be notified** – If there has been a data breach which compromises an individual's personal data, the individual has a right to be informed within 72 hours of first having become aware of the breach.
 
-## CPPA
+## CCPA
 
 The California Consumer Protection Act (CCPA) took effect on January 1, 2020. Similar to GDPR, CCPA is intended to protect person information and also articulates the rights that California consumers have regarding their information. CCPA applies specifically to residents of California.
 
@@ -58,3 +58,7 @@ The definition of Person Information in CCPA is very similar to GDPR's definitio
 **The right to opt out of sales of Personal Information.** If a company sells personal information, consumers have the right to opt out.
 
 **The right to non-discrimination.** If a consumer exercises their rights under CCPA, the business may not discriminate against the consumer. For instance, they company cannot deny service or charge different rates to a consumer who exercises their rights under CCPA.
+
+**The right to correct.** Consumers can request a company to update or fix any personal information they believe is incorrect. 
+
+**The right to limit.** Consumers can request a company to limit its use of their sensitive personal information to only what is necessary to provide the expected services.
