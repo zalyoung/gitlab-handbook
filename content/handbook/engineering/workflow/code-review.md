@@ -56,6 +56,7 @@ Communication happens easier when you are familiar with the person reviewing the
 
 **This applies specifically to backend, frontend and database maintainers. Other areas (docs, etc.) may have separate processes documented below.**
 
+Before considering maintainership, first you should be a contributor. You should have made at least a few feature or maintenance contributions to the project before you can become a reviewer in the trainee maintainer process. These contributions should be complex enough to give you an understanding of the project's unique domain and design.
 #### Maintainership check-ins and mentorship
 
 Interested reviewers should check in regularly with their manager/mentor to discuss progress towards maintainership and review any recent detailed reviews, for example during their 1-on-1s. Reviewers are encouraged to also seek out a [maintainer mentor](#reviewer-mentorship-program) for further perspective on their reviews. Reviewers are encouraged to think of their eligibility for maintainership in the terms of "I could be ready at any time to be a maintainer as long as it is justified".
@@ -64,44 +65,53 @@ You can also open a **trainee maintainer issue** using this [template](https://g
 
 #### Merge request feedback for reviewers 
 
-After each merge request review is complete, the reviewer should write up a justification about why they believe the merge request is ready to merge. This justification is then reviewed by the maintainer and if the maintainer agrees with the justification they should add a 👍 reaction to the comment, even if they have additional non-blocking comments. The maintainer should leave a comment highlighting any blocking concerns that were missed in the initial review.
+After each review is complete, the reviewer should write up a justification about why they believe the merge request is ready to merge. This justification is then reviewed by the maintainer and if the maintainer agrees with the justification they should add a 👍 reaction to the comment, even if they have additional non-blocking comments. The maintainer should leave a comment highlighting any blocking concerns that were missed in the initial review.
 
 #### Maintainership nomination process
 
 At any time, the manager/mentor may choose to open a merge request, adding the reviewer as a maintainer. This merge request should have a justification from the manager/mentor as to why the reviewer should become a maintainer. You are also welcome to open this merge request yourself at any time. There are [merge request templates available](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/merge_request_templates) to help you with the content and steps.
 
-### Pre-requesites for Maintainership
+#### Pre-requesites for Maintainership
 
 Before opening the merge request, the author should:
-1. Review justifications for several of the reviewer's recent merge requests
-2. Reach out to at least two of the maintainers privately for feedback on the reviewer. The reviewer may have some suggestions on who these maintainers could be
 
-### Request Maintainership feedback
+1. Review justifications for several of the reviewer's recent merge requests.
+1. Reach out to at least two of the maintainers privately for feedback on the reviewer. The reviewer may have some suggestions on who these maintainers could be.
+
+#### Request Maintainership feedback
 
 Before merging, the manager/mentor should:
-1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1). The manager/mentor should follow [the guidance around managing negative feedback](#managing-negative-feedback) in the maintainership process.
-2. Leave the merge request open for 1 week, to give the maintainers time to provide feedback to the manager/mentor
-3. Have at least 2 approvals from existing maintainers
+1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1).
+1. Leave the merge request open for 1 week, to give the maintainers time to provide feedback to the manager/mentor.
+1. Have at least 2 approvals from existing maintainers.
+
+##### Managing negative feedback
+
+**If the manager/mentor receives private feedback indicating the reviewer is not ready to become a maintainer**:
+
+1. The manager/mentor should review the concerns raised and decide whether it's substantial enough to close the merge request.
+1. The manager/mentor could then close the merge request with a comment about there being feedback for the reviewer to work on, but keep the feedback confidential. 
+1. The manager/mentor would provide the feedback directly to the reviewer in a one-to-one conversation. This approach allows the reviewer to address the gaps before being re-submitted for maintainer status. The earlier the manager/mentor can solicit and receive this feedback, the better.
+
+Handling disagreements in maintainer readiness:
+
+The manager/mentor should seek to understand any concern raised by a current maintainer when they disagree with a trainee maintainer's readiness or qualifications. Use the following guidelines to determine if a single disapproval should veto approvals received in favor of the trainee maintainer.
+
+1. In keeping with other values, the maintainer's concern(s) should not be personal or prejudicial.
+1. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-maintainer).
+1. The maintainer's concern(s) should be grounded in fact that:
+1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
+1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
+
+In order to better inform a decision, the manager should privately reach out to 2 existing maintainers without sharing any personal information regarding the feedback. The manager is ultimately responsible for the readiness of the trainee maintainer and owns the decision to entrust the trainee maintainer with maintainer responsibilities.
+#### Maintainership approval
 
 After merging, the manager should:
-1. Announce this change in the applicable channels listed under [Slack section of the engineering communications handbook](/handbook/engineering/engineering-comms/#slack) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`
-2. Post an update in the **Engineering Week-in-Review document**
 
-#### Managing negative feedback
+1. Announce this change in the applicable channels listed under [Slack section of the engineering communications handbook](/handbook/engineering/engineering-comms/#slack) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`.
+1. Post an update in the **Engineering Week-in-Review document**. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
 
-If the manager/mentor receives private feedback indicating the reviewer is not ready to become a maintainer:
-1. The manager/mentor should review the concerns raised and decide whether it's substantial enough to close the merge request
-2. The manager/mentor could then close the merge request with a comment about there being feedback for the reviewer to work on, but keep the feedback confidential
-3. The manager/mentor would provide the feedback directly to the reviewer in a one-to-one conversation
-
-The manager/mentor should seek to understand any concern raised by a current maintainer when they disagree with a trainee maintainer's readiness or qualifications. Use the following guidelines to determine if a single disapproval should veto approvals received in favor of the trainee maintainer:
-1. The maintainer's concern(s) should not be personal or prejudicial
-2. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-maintainer)
-3. The maintainer's concern(s) should be grounded in fact that:
-   - The trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
-   - The trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards)
-
-### Project-specific Tasks for Maintainership 
+### Additional steps for approved project maintainers
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
 
