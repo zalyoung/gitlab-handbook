@@ -47,6 +47,7 @@ The cost efficiency for some shards is far from ideal. While insights to this da
 ## Goals for FY26
 
 *Effort Level Key:*
+
 - LF: Low Effort
 - MF: Medium Effort
 - TF: Tremendous Effort
@@ -54,35 +55,41 @@ The cost efficiency for some shards is far from ideal. While insights to this da
 ### Knowledge Transparency
 
 **Objectives:**
+
 1. Improve the quality of deployment and scalability docs (MF)
 1. Create discoverable, easy-to-reach information (LF)
 1. Convert docs to CR template for better cross-team transparency (LF)
 1. Coordinate with Runners team to transfer Runbooks ownership (MF)
 
 **Related Links:**
+
 1. [Hosted Runners - improve Runbooks](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1457)
 
 ### Scalability Fatigue
 
 **Objectives:**
 Automate scaling the existing shards [process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/ci-runners/linux/new-shards.md):
+
 1. Author epic/issue in the runner's tracker to (LF):
    1. Improve existing tools ([deployer](https://gitlab.com/gitlab-com/gl-infra/ci-runners/deployer/) and [GRIT](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit))
    1. Consider embedding the process in a pipeline
    1. Research alternative deployment solutions (e.g., revisit [runner-managers in k8s](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/3360))
 
 **Related Links:**
+
 1. [Runners - automate the scaling process](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1313)
 1. [Future iterations for Runner deploy improvements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/581)
 
 ### Cost Efficiency
 
 **Objectives:**
+
 1. Work with FinOps to determine objectives (LF)
 1. Achieve reasonable cost efficiency for all existing shards (MF)
 1. Explore more cost-efficient hosting methods (MF)
 1. Optimize resources usage (TF)
 
 **Related Links:**
+
 1. [Investigate FinOps Cloud Efficiency vs Grafana Idle Efficiency](https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/241)
 1. [Reduce autoscaling parameters for larger Linux runners due to high compute inefficiency](https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/166)
