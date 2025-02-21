@@ -59,6 +59,6 @@ The definition of Person Information in CCPA is very similar to GDPR's definitio
 
 **The right to non-discrimination.** If a consumer exercises their rights under CCPA, the business may not discriminate against the consumer. For instance, they company cannot deny service or charge different rates to a consumer who exercises their rights under CCPA.
 
-**The right to correct.** Consumers can request a company to update or fix any personal information they believe is incorrect. 
+**The right to correct.** Consumers can request a company to update or fix any personal information they believe is incorrect.
 
 **The right to limit.** Consumers can request a company to limit its use of their sensitive personal information to only what is necessary to provide the expected services.
