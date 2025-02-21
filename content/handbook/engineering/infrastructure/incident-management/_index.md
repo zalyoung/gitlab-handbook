@@ -391,7 +391,7 @@ If you are a GitLab team member and would like to report a possible incident rel
 
 ### Report an Incident via Slack
 
-Type `/incident` or `/inc` in the [`#production`](https://gitlab.slack.com/archives/C101F3796) channel in GitLab's Slack and follow the prompts to open an incident issue.
+Type `/incident` or `/inc` in GitLab's Slack and follow the prompts to open an incident issue.
 It is always better to err on side of choosing a higher severity, and declaring an incident for a production issue, even if you aren't sure.
 Reporting high severity bugs via this process is the preferred path so that we can make sure we engage the appropriate engineering teams as needed.
 
