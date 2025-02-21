@@ -178,7 +178,7 @@ To assign a module to an interview plan:
 NOTE: Only Admins can change organizational settings.
 Organizational settings can be found in the menu on the left hand side of the homepage.
 
-#### If a Candidate Withdraws from the Hiring Process
+### If a Candidate Withdraws from the Hiring Process
 
 If a candidate emails the CES Service Desk stating they would like to withdraw from the interview process, the CES should respond to the candidate's email (not the Service Desk ticket) and cc the recruiter (if the recruiter isn't already on the email). The CES response should not say anything definite as there may be a chance for the recruiter to reel the candidate back in. A basic response is below:
 
