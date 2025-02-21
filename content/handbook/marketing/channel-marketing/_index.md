@@ -120,7 +120,7 @@ Channel Marketing communicates with Partners through two online platforms and vi
 
 Partners who create a profile in the [GitLab Partner Portal](https://partners.gitlab.com/) are automatically included in our broad communications and marketing announcements through our Partner Flash newsletter and custom program and marketing announcements.  This is our default method of communication.  Partners may alter their preferences, such as the frequency of communications, preferred topics and declination of receiving messages, in the My Profile section of the portal.
 
-For more information about Partner Flash/News On Demand and process to become a contributor, please see the [Channel Program Operations handbook page](/handbook/sales/channel/channel-programs-ops/#partner-communications).
+For more information about Partner Flash/News On Demand and process to become a contributor, please see the [Ecosystem Operations Handbook Page anchor link](/handbook/sales/field-operations/channel-operations/#external-partner-support-and-communication).
 
 #### Webinars to Channel Partners
 
@@ -208,7 +208,7 @@ Partners and team members may review current campaigns available to partners by 
 - Sponsored social media posts: partners looking to GitLab to promote partner activities would not route those requests through Channel Marketing.  Instead, CAM's obtain the partner's social media channels and [create an issue](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#open-a-new-issue-to-request-social-coverage) for the Social Media team.  This request should include the partner's social media information, detailed description of what we are being asked to promote and target dates.
 - Event attendance: The Channel Marketing team does not own a database of contacts by which to drive attendance to partner specific events nor do we possess the resources to support such requests.
 - [Partner training](/handbook/resellers/training/) is managed and supported by the Channel Partner Training, Certifications, and Enablement team.
-- Partner portal management: [Partner portal administration](/handbook/sales/channel/channel-programs-ops/#partner-portal-administration) is managed by GitLab Channel Program Operations.
+- Partner portal management: [Partner portal administration from the Ecosystem Operations team](/handbook/sales/field-operations/channel-operations/#communicating-with-the-partner-teams-via-slack) is managed by GitLab Ecosystem Operations.
 
 ## Meet the Team
 
