@@ -168,7 +168,7 @@ To find and access your leads, please:
 1. Navigate to SFDC's homepage
 1. Click on the `Leads` tab.
 
-You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
+You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/#inbound-lead-management).
 
 #### SDR Lead Views
 
@@ -1879,7 +1879,7 @@ After a  formal warning is issued if the team member falls short of targets agai
 
 ### Inbound Lead Management
 
-The below apply for all inbound-related leads for both the SDR and BDR teams:
+The below apply for all inbound-related leads for both the SDR and BDR teams. Please note that, other than [SFDC lead views](/handbook/marketing/sales-development/#where-to-find-your-leads-and-accounts), inbound MQLs will also be flagged to you in a dedicated Slack alert channel. The official tracking of SLA times is done on SFDC, but you will also find an 'Acknowledge' button on the Slack notification that you can press so that it helps with daily check-ins with your Manager.
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
