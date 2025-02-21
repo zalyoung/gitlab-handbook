@@ -94,7 +94,7 @@ flowchart LR
     SD --> R[Release]
     click R ""
     SD --> D[Deploy]
-    click D "" 
+    click D "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/" 
 
     TS --> Organizations
     click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/" 
