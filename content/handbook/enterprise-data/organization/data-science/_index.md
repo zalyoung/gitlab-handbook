@@ -33,7 +33,7 @@ AMAs:
 - 2021-12-09 AMA [Recording](https://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
 
 {{% alert title="Want to Learn More?" color="success" %}}
-[Become a Data Science Champion](/handbook/enterprise-data/direction/data-champion/), [visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
+[Become a Data Science Champion](/handbook/enterprise-data/organization/direction/data-champion/), [visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
 {{% /alert %}}
 
 ### Common Data Science Terms
@@ -102,7 +102,7 @@ Examples of current Data Science initiatives include:
 - Customer Health
 - MLOps with GitLab
 
-Please refer to the [Data Science Initiatives Internal Handbook](https://internal.gitlab.com/handbook/enterprise-data/direction/data-science-initiatives) for up-to-date information on all our on-going and planned projects.
+Please refer to the [Data Science Initiatives Internal Handbook](https://internal.gitlab.com/handbook/enterprise-data/organization/direction/data-science-initiatives) for up-to-date information on all our on-going and planned projects.
 
 ## Project Structure
 

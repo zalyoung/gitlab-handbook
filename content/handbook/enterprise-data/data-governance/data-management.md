@@ -43,7 +43,7 @@ In the Data Platform at GitLab we have multiple categories. Its good to highligh
 
 | Data category | Description | Possible values | How to handle | Access controls |
 | ------------- | ----------- | --------------- | ------------- | --------------- |
-| Data Classification | The type and level of data. | Red, Orange, Yellow, Green. | Red data is not allowed to be stored in the Data Platform. Follow the [general data security controls](/handbook/enterprise-data/data-management/#general-data-security-controls). | No particular controls in place. |
+| Data Classification | The type and level of data. | Red, Orange, Yellow, Green. | Red data is not allowed to be stored in the Data Platform. Follow the [general data security controls](/handbook/enterprise-data/data-governance/data-management/#general-data-security-controls). | No particular controls in place. |
 | MNPI | This is material non public information. | MNPI or not MNPI. | Follow the [SAFE Data guide](/handbook/enterprise-data/platform/safe-data/). | Access is granted by Permifrost. GitLab Team Members will become a designated insider. Manager and VP approval needed via an AR. |
 | Sensitive data | Data that is considered to be kept sensitive and not be shared with all GitLab Team members by default. | Sensitive or not Sensitive. | Sensitive data is [masked](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) via DBT | Access is granted by Permifrost. Manager approval needed via an AR. |
 

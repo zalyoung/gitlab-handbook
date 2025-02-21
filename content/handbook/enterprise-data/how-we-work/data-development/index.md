@@ -27,7 +27,7 @@ GitLab deploys two distinct but interrelated approaches to build data solutions 
 | Built Using the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw) | optional | optional |
 | Built Using Data from the `COMMON` or `SPECIFIC` schemas | optional | **required** |
 | Registered in the [Data Catalog](/handbook/enterprise-data/data-catalog/) | N/A | **required** |
-| Follows [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) process | N/A | **required** |
+| Follows [Trusted Data Development](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development) process | N/A | **required** |
 | Tested using the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf) | N/A | **required** |
 | Auditable w/linkage to source systems | N/A | **required** |
 | `Trusted Data Branded` |  N/A | **required** |

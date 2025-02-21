@@ -13,7 +13,7 @@ description: "GitLab Data Team Workflow"
 - [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 - [Triage](/handbook/enterprise-data/how-we-work/triage/)
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
-- [Data Team Programs](/handbook/enterprise-data/programs/#data-programs)
+- [Data Team Programs](/handbook/enterprise-data/organization/programs/#data-programs)
 
 ## Practical guide to contributing to the Data Team Projects
 
@@ -76,7 +76,7 @@ Requests to expedite responses, triage issues, or MR reviews are rare. Given the
 
 ### Deciding What And How To Build
 
-Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/enterprise-data/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development).
+Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/enterprise-data/how-we-work/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development).
 
 ### Design Spike
 

@@ -18,10 +18,10 @@ title: "Self-Service Data"
 
 The GitLab Self-Service Data program helps GitLab move faster with trusted data and helps the Data Team scale by providing four distinct, but complimentary capabilities:
 
-- **[Data Catalog](/handbook/enterprise-data/direction/self-service/#data-catalog)** - the Data Catalog helps Data Customers find data definitions, dashboards, and models based on a subject area
-- **[Dashboard Viewer](/handbook/enterprise-data/direction/self-service/#self-service-dashboard-viewer)** - all GitLab team members have *access* to pre-build Dashboards through an always-on portal accessible from Okta
-- **[Dashboard Developer](/handbook/enterprise-data/direction/self-service/#self-service-dashboard-developer)** - for GitLab team members who want to build their own data visualization charts or dashboards
-- **[SQL Developer](/handbook/enterprise-data/direction/self-service/#self-service-sql-developer)** - for GitLab team members who are familiar with SQL and want to conduct their own SQL-based analysis
+- **[Data Catalog](/handbook/enterprise-data/organization/direction/self-service/#data-catalog)** - the Data Catalog helps Data Customers find data definitions, dashboards, and models based on a subject area
+- **[Dashboard Viewer](/handbook/enterprise-data/organization/direction/self-service/#self-service-dashboard-viewer)** - all GitLab team members have *access* to pre-build Dashboards through an always-on portal accessible from Okta
+- **[Dashboard Developer](/handbook/enterprise-data/organization/direction/self-service/#self-service-dashboard-developer)** - for GitLab team members who want to build their own data visualization charts or dashboards
+- **[SQL Developer](/handbook/enterprise-data/organization/direction/self-service/#self-service-sql-developer)** - for GitLab team members who are familiar with SQL and want to conduct their own SQL-based analysis
 
 ```mermaid
 graph LR
@@ -54,7 +54,7 @@ graph LR
 
 #### Summary of Self-Service Capabilities
 
-|                                                                                          | [Dashboard Viewer](/handbook/enterprise-data/direction/self-service/#self-service-dashboard-viewer) | [Dashboard Developer](/handbook/enterprise-data/direction/self-service/#self-service-dashboard-developer) | [SQL Developer](/handbook/enterprise-data/direction/self-service/#self-service-sql-developer) |
+|                                                                                          | [Dashboard Viewer](/handbook/enterprise-data/organization/direction/self-service/#self-service-dashboard-viewer) | [Dashboard Developer](/handbook/enterprise-data/organization/direction/self-service/#self-service-dashboard-developer) | [SQL Developer](/handbook/enterprise-data/organization/direction/self-service/#self-service-sql-developer) |
 | :--------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
 | Access Data Catalog                                                                      |                                                     Yes                                                    |                                                        Yes                                                       |                                                  Yes                                                 |
 | Access Pre-Built Sisense Dashboards                                                      |                                                     Yes                                                    |                                                        Yes                                                       |                                                  Yes                                                 |
@@ -120,7 +120,7 @@ Access Requests:
 
 ### Self-Service SQL Developer
 
-Self-Service SQL Developer provides Certified GitLab team members a SQL prompt into the Snowflake Data Warehouse. Because not all of the data is currently modeled in a standard form, additional time may be required to perform research, read "RAW" data and unmodeled data, and learn from teams with more experience. As the Data Team builds the Enterprise Dimensional Model and delivers additional [Level 2 Solutions](/handbook/enterprise-data/direction/reference/) with SQL examples and data models, SQL Developer productivity will increase and SQL analysis will become easier and faster.
+Self-Service SQL Developer provides Certified GitLab team members a SQL prompt into the Snowflake Data Warehouse. Because not all of the data is currently modeled in a standard form, additional time may be required to perform research, read "RAW" data and unmodeled data, and learn from teams with more experience. As the Data Team builds the Enterprise Dimensional Model and delivers additional [Level 2 Solutions](/handbook/enterprise-data/organization/direction/reference/) with SQL examples and data models, SQL Developer productivity will increase and SQL analysis will become easier and faster.
 
 Prerequisites:
 

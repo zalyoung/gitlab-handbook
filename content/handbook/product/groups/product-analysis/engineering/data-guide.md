@@ -108,7 +108,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 ## Additional Resources
 
 - [Data governance](/handbook/sales/field-operations/data-intelligence/data-governance/)
-- [Data quality](/handbook/enterprise-data/data-quality/)
+- [Data quality](/handbook/enterprise-data/data-governance/data-quality/)
 - [Data Team Handbook](/handbook/enterprise-data/)
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific Engineering Analytics Models, please reference the Commonly Used Data Models section for a starting point.
 - [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.

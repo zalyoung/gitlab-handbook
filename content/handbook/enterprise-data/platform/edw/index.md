@@ -25,7 +25,7 @@ Dimensional modeling is part of the Business Dimensional Lifecycle methodology d
 - [Dimensional modelling manifesto](https://www.kimballgroup.com/1997/08/a-dimensional-modeling-manifesto/)
 - [Dimensional Modelling techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
 - [Kimball bus matrix](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/kimball-data-warehouse-bus-architecture/)
-- The [Dimensional Modelling Development Process](/handbook/enterprise-data/data-development/#trusted-data-development) covers our modeling standards, including naming conventions.
+- The [Dimensional Modelling Development Process](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development) covers our modeling standards, including naming conventions.
 
 ### Core Concepts
 
