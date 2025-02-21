@@ -86,7 +86,7 @@ flowchart LR
     click R "/handbook/engineering/infrastructure/team/runway/"
 
     SD --> B[Build]
-    click B "" 
+    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/" 
     SD --> SM[Self-Managed]
     click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SD --> Framework
