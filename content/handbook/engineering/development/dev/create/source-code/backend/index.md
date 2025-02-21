@@ -156,7 +156,148 @@ For an initial review, it's recommended to select a reviewer from the Source Cod
 
 For maintainer reviews, you can follow the recommendations from the Reviewer Roulette. For time-sensitive or complex reviews, it's preferable to choose a reviewer from the Source Code team.
 
-### Triage process
+## MR Metrics
+
+### Developer Metrics
+
+#### Total MR’s per engineer 
+
+**Expectation:**
+
+Staff - 13 | Senior - 8 | Intermediate - 5 | Associate - 5
+
+To be met at least for 6 months out of 12 months.
+
+**What this Metrics Defines?**
+
+- Total no. of MR’s merged by a Developer in a month.
+
+**How to achieve success?**
+
+- Having smaller issues and creating smaller MR’s.
+- Identifying the complexities better and split the issues upfront.
+- To work on smaller maintenance issues/bugs along with core functionality.
+
+#### Total MRs per engineer merged in 4 days or less and Total MRs per engineer merged in 5 days or more
+
+**What this Metrics Defines?**
+
+- It’s a good sign if your MR is merged in 4 days or less.
+- If your MR is taking more than 4 days to merge
+- Understand the reasons, If your MR is taking more time than 4 days
+    - Larger MR’s?
+    - Security Reviews?
+    - Any other reasons?
+
+#### Average MTTM (Mean Time To Merge) for a team member
+
+**Mean Time to Merge (MTTM)** measures the average time it takes for a merge request (MR) to be merged after it has been opened. It helps identify bottlenecks in the code review and merging process.
+
+Example:
+
+- MR 1 took **5 days** to merge.
+- MR 2 took **3 days** to merge.
+- MR 3 took **7 days** to merge.
+- MTTM = **(5 + 3 + 7) / 3 = 5 days**
+- Note: **Mean Time to Merge (MTTM)** metric **does include the time the Merge Request (MR) is in Draft mode** because it is calculated from the **MR creation time to the merge time**.
+
+**How to reduce MTTM?**
+
+- **Improve Code Review Practices**
+- **Reduce Merge Conflicts - Encourage frequent smaller MRs instead of large ones.**
+- Merge changes faster without waiting for a full feature to be complete.
+
+***Reviewing MR metrics in Tableau***
+
+**[MTTM Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MTTMAllMRs/MTTMDashboard?:iid=2)** 
+
+- From Merged At Dropdown, select appropriate values to show the results (ideally this month or last month)
+- Enter username in the ‘Team Member Username’ textbox and tab out.
+- This will show
+    - MTTM
+    - No. of MR’s merged in 4 days or less and 5 days or more
+    - Total no. of MR’s per engineer.
+
+#### **RTTM (Required Time To Merge)**
+
+**What this Metrics Defines?**
+
+- RTTM is the Time from first review request to merge.
+- Useful for **measuring bottlenecks in the review process** (e.g., long approval wait times).
+
+**How many times did the team member have a RTTM > 8**
+
+- It means that, on average, their Merge Requests (MRs) spend **more than 8 days in the review and approval process** after being marked **“Ready for Review”**.
+
+**Possible Reasons for High RTTM**
+
+- **Long Review Wait Times**
+    - Reviewers might be overloaded or slow to provide feedback.
+    - The MR might be waiting too long for approvals.
+- **Frequent Review Cycles & Changes**
+    - The MR might need **multiple revisions**, requiring back-and-forth discussions.
+    - Review comments may not be addressed promptly.
+- **Large or Complex MRs**
+    - Bigger MRs take longer to review thoroughly.
+    - Code changes might be **too broad**, making it harder for reviewers to assess quickly.
+- **External Dependencies**
+    - The MR might rely on **DB Maintainer, Security, or other teams** for review.
+    - Some approvals may take longer due to compliance or policy checks.
+- **Team Capacity Issues**
+    - Reviewers might be busy with **high-priority work (e.g., incidents, security fixes)**.
+    - Lack of enough reviewers available to handle MRs efficiently.
+
+***Reviewing RTTM metrics in Tableau***
+
+[RTTM Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RTTM/RTTMDrilldown?:iid=2)
+
+- Select the Merged Month from the dropdown
+- Group label as ‘source code’. If you have contributed to other teams (ex: code review), search with that team as well to ensure you don’t miss the data/.
+- Select RTTM range as 8+ days (As we are evaluating RTTM > 8)
+- The table displays information at the team level.
+- Sort the list by Author Username and find the relevant data.
+
+### Reviewer Metrics
+
+#### Total Number of MRs Reviewed
+
+**What this Metrics Defines?**
+
+- No. of MR’s reviewed by the engineer in a month
+
+**How to achieve success?**
+
+- Setting up the Roulette to have the appropriate MR’s assigned
+- Asking for more reviews within the team to get more knowledge and increased MR reviews
+
+#### Average Reviewer 1st Engagement- (Number of times  > 48 hours)
+
+**What this Metrics Defines?**
+
+- **“Average Reviewer 1st Engagement”** → Measures how quickly a reviewer responds to an MR for the first time.
+- **”(Number of times > 48 hours)”** → Counts how often the first engagement happens **more than 48 hours** after the MR was assigned or created.
+
+**How to achieve success?**
+
+- Prioritize Review Work by **setting aside dedicated review time** in a day.
+- Make **MR review responsiveness** a team priority
+- Ensure **well-defined MR descriptions** to minimize back-and-forth.
+- Promote **smaller MRs**, which are easier and faster to review.
+
+***Reviewer metrics in Tableau***
+
+[Review Stats By User](https://10az.online.tableau.com/#/site/gitlab/views/AverageReviewTime/ReviewStatsbyUser?:iid=4)
+
+- Select respective month from the ‘Month of Merge Month’ Dropdown.
+- Type the username in ‘Reviewer username’
+- The table displayed shows the no.of MR’s reviewed in different projects for the selected month
+
+Average Reviewer 1st Engagement- (Number of times  > 48 hours) - [Drilldown table](https://10az.online.tableau.com/#/site/gitlab/views/AverageReviewTime/DrilldownTables?:iid=1)
+
+- Select the Merge Month
+- Add Reviewer Username and click the + icon present in the textbox to select the username.
+
+## Triage process
 
 The weekly Triage Report is generated automatically by the [GitLab bot](https://gitlab.com/gitlab-bot) and this report is reviewed by the EM. Here is [an example](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/2700) of a previous report.
 
