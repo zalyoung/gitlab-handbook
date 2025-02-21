@@ -380,7 +380,7 @@ LIMIT 100
 - **Customers Dot (CDot) database**
   - CDot is our SSOT for Fulfillment-related data, including trials.
 - **Sheetload**
-  - You can load your own Google Sheets into the data warehouse. Read more [here](/handbook/enterprise-data/platform/#using-sheetload).
+  - You can load your own Google Sheets into the data warehouse. Read more [here](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#sheetload).
 
 ## Analytics Instrumentation
 

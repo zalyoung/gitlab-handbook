@@ -20,7 +20,7 @@ Data security is essential to protect the privacy and confidentiality of team me
 
 ### Data Ownership
 
-Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [Data Champion program](/handbook/enterprise-data/organization/direction/data-champion/) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
+Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [hub and spoke model](https://handbook.gitlab.com/handbook/enterprise-data/#how-data-teams-work-together) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
 
 ### Data Retention
 

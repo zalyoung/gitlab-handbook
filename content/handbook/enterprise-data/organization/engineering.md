@@ -7,7 +7,7 @@ The mission of the Data Platform team is to build a secure and trusted data plat
 
 ## Data Platform Responsibilities
 
-Of the [Data Team's Responsibilities](/handbook/enterprise-data/#responsibilities) the Data Platform team is directly responsible for:
+The Data Platform team is directly responsible for:
 
 - Integrating new data sources to enable analysis of subject areas, activities, and processes
 - Keeping the data sources running per established [Service Level Objectives and Tiers](/handbook/enterprise-data/platform/#data-sources)

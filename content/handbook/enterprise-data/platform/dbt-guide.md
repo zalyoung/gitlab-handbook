@@ -1023,7 +1023,7 @@ For more details on how the macros used in sampling function see the following d
 
 ### Trusted Data Framework
 
-See the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
+See the [Trusted Data Framework](/handbook/enterprise-data/how-we-work/data-development) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
 
 #### Schema To Golden Data Coverage
 
