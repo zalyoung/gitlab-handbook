@@ -93,4 +93,15 @@ This workflow minimizes duplication while enabling CSMs to maintain visibility i
 
 ## Linking GitLab and Gainsight
 
-For ease of discovery and visibility, there is a field on the Gainsight success plan info screen to provide a link to the GitLab continuous planning project. When the GitLab project is set up, the link must be added to this field in Gainsight to ensure proper integration between both systems.
+GitLab.com serves as the source of truth for Success Plans, with automatic synchronization to Gainsight. This integration enables seamless visibility while reducing manual overhead.
+
+## How It Works
+- Success Plans created in GitLab.com (epics and tasks) automatically sync to Gainsight
+- Data is transferred via API, creating corresponding Success Plans in Gainsight
+- Updates in GitLab.com reflect automatically in Gainsight
+
+## Benefits
+- Single source of truth in GitLab.com
+- Reduced manual data entry and maintenance
+- Consistent Success Plan visibility across platforms
+- Eliminates need to maintain plans in multiple locations
