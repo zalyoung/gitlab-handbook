@@ -224,7 +224,7 @@ You can tag the Data Team in GitLab using:
   * [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
   * [Data Onboarding](/handbook/enterprise-data/programs/#data-onboarding)
   * [Internship Experience](/handbook/enterprise-data/internship-experience/internship-experience.md)
-  * [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
+  * [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
   * [Data Quality](/handbook/enterprise-data/data-quality/)
   * [Data Services](/handbook/enterprise-data/data-service/)
   * [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/)

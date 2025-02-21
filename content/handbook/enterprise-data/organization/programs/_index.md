@@ -73,7 +73,7 @@ Evaluation Design is the most complex part of the PoV.
 | Program Name | Purpose |
 | :--- | :--- |
 | [Data Catalog](/handbook/enterprise-data/data-catalog/) | Catalog of dashboards, data sets, and analytics projects |
-| [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/) | Information to help Product Managers |
+| [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/) | Information to help Product Managers |
 | [Data for Product Analysis](/handbook/product/groups/product-analysis/) | Information to help Product Analysts |
 | [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
 | [Data for Marketing Analysts](/handbook/marketing/inbound-marketing/search-marketing/analytics/) | Information to help Marketing Analysts |
