@@ -81,7 +81,7 @@ Before opening the merge request, the author should:
 #### Request Maintainership feedback
 
 Before merging, the manager/mentor should:
-1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1).
+1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1). Refer to the additional guidance for [managing negative feedback](#managing-negative-feedback).
 1. Leave the merge request open for 1 week, to give the maintainers time to provide feedback to the manager/mentor.
 1. Have at least 2 approvals from existing maintainers.
 
