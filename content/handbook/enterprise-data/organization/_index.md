@@ -121,7 +121,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | Extract [new data sources](/handbook/enterprise-data/how-we-work/new-data-source/) | Own a specific area of the data platform |
-| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Propose new ideas and come up with Data Platform improvement initiatives |
+| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Propose new ideas and come up with Data Platform improvement initiatives |
 | Understand the current setup of the data platform | Make small/corrective changes to the platform infrastructure or data pipelines | Contribute on work breakdown | |
 
 ### Data Analyst
@@ -173,7 +173,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Meet stakeholders across the organization | Re-train or enhance an existing data science model |  Make a contribution to improve the Data Science handbook, packages, or processes |
-| Start attending Data Science Team meetings | Refine/improve one data science dashboard | Work on [OKR assignments](https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Take ownership of at least one quarterly OKR |
+| Start attending Data Science Team meetings | Refine/improve one data science dashboard | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Take ownership of at least one quarterly OKR |
 | Understand the current data science systems and processes |  | |  |
 
 ### Analytics Engineering
@@ -229,7 +229,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Take up tasks related to assigned program | Own epic / KR from planning to execution | Own specific data domain for data governance and data quality improvement |
-| Fully understand the data governance and data quality program, priorities and its strategy | Investigate incidents and issues | Work on [OKR assignments](https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Collaborate cross functionally and identify areas for improvement |
+| Fully understand the data governance and data quality program, priorities and its strategy | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Collaborate cross functionally and identify areas for improvement |
 | Create a MR to contribute to handbook or templates |  |  |  |
 
 ### Data Governance and Quality Program Manager Job Family
@@ -271,7 +271,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People, Data, and Manager Onboarding | Meet everyone on the team and business data champions | Complete a Team Assessment | Draft a people development Roadmap |
-| Understand the current setup of the data platform | Work on [OKR assignments](https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
+| Understand the current setup of the data platform | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
 | Add a new page to the handbook | Make regular contributions to the handbook spanning your area of management | Become DRI for major portions of the Data Handbook | System/Application Change Control Management of one or more modules |
 
 ## Tool Technology Tandem
