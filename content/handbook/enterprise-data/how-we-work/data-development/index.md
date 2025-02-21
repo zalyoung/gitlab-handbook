@@ -26,7 +26,7 @@ GitLab deploys two distinct but interrelated approaches to build data solutions 
 | Visualization using [Tableau](/handbook/enterprise-data/platform/tableau/) | optional | **required** |
 | Built Using the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw) | optional | optional |
 | Built Using Data from the `COMMON` or `SPECIFIC` schemas | optional | **required** |
-| Registered in the [Data Catalog](/handbook/enterprise-data/data-catalog/) | N/A | **required** |
+| Registered in the [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/) | N/A | **required** |
 | Follows [Trusted Data Development](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development) process | N/A | **required** |
 | Tested using the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf) | N/A | **required** |
 | Auditable w/linkage to source systems | N/A | **required** |
@@ -72,7 +72,7 @@ All Trusted Data solutions must meet the following criteria:
 1. If a Dimensional Data Model solution is indicated, then the Dimensional Data Model is designed and integrated into the [Enterprise Dimensional Model Bus Matrix](https://docs.google.com/spreadsheets/d/1j3lHKR29AT1dH_jWeqEwjeO81RAXUfXauIfbZbX_2ME/edit#gid=742713121). This step is not applicable for data modeled in the `SPECIFIC` application schema.
 1. (`DRAFT: Under review with Monte Carlo Project`) [Trusted Data Tests](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework) are created and deployed
 1. The solution enters a User Acceptance Testing phase, including data validations to source systems
-1. The solution is registered in the [Data Catalog](/handbook/enterprise-data/data-catalog/)
+1. The solution is registered in the [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/)
 1. The solution is deployed, including any required training and user enablement
 
 Trusted data development prioritizes consistency, reliability, and adherence to industry best practices.

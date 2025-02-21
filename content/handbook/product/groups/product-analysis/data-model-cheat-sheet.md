@@ -37,7 +37,7 @@ These categories are grouped by data source and subject area.
 
 > What is the difference between an instance and an installation?
 
-- An installation is the unique combination of instance_id and host_id. [Read more here](/handbook/enterprise-data/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
+- An installation is the unique combination of instance_id and host_id. [Read more here](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
 
 #### Documentation
 

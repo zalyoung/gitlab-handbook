@@ -21,7 +21,7 @@ As a team member responsible for helping to bridge the gap between business and 
 - Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for small sections of the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw/)
 - Design and develop [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
 - Create and maintain architecture and systems documentation in the [Data Team Handbook](/handbook/enterprise-data/)
-- Maintain the [Data Catalog](/handbook/enterprise-data/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
+- Maintain the [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
 - Document plans and results in either issue, MRs, the [handbook](/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Craft code that meets our internal standards for style, maintainability, and best practices (such as the [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide)) for a high-scale database environment. Maintain and advocate for these standards through code review.
