@@ -17,12 +17,12 @@ For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables d
    converted to be always consistent by being hard-coded in application code.
    A good example is
    [VisibilityLevel](https://gitlab.com/gitlab-org/gitlab/-/blob/5ae43dface737373c50798ccd909174bcdd9b664/lib/gitlab/visibility_level.rb#L25-27).
-1. Cluster Setting tables, like `application_settings` can be synchronized
-   independently.
+1. Cluster Setting tables, like `application_settings` can be synchronized independently.
    An external source of truth like
    [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will
-   propogate the desired values for each
-   [ring](../infrastructure/_index.md#rings) of cells.
+   propogate the desired values for each [ring](../infrastructure/_index.md#rings) of cells.
+1. To support this synchronization, an internal API is required for each Cluster Setting
+   table.
 
 ## Pros
 
@@ -75,6 +75,16 @@ When creating a setting, developers need to ensure that the default for the
 setting will work correctly for any Cell.
 This applies especially when the new setting has not had a chance to be
 synchronized yet with the external source of truth.
+
+#### broadcast_messages
+
+Similar to `application_settings`, broadcast messages will be synchronized by
+an external source of truth.
+
+The `broadcast_messages.id` column is referred to by the
+`user_broadcast_message_dismissals` table - it is used to record if a user has
+dismissed a broadcast message. To improve consistency, the synchronization may
+set the value of the `broadcast_messages.id` directly.
 
 ### Static data tables
 
