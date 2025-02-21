@@ -90,7 +90,7 @@ flowchart LR
     SD --> SM[Self-Managed]
     click SM ""
     SD --> Framework
-    click Framework ""
+    click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> R[Release]
     click R "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
     SD --> D[Deploy]
