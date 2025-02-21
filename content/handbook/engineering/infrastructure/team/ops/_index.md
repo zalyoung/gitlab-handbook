@@ -154,6 +154,10 @@ The Production Engineering Ops team maintains roadmaps for our key focus areas:
 
 - [View All Roadmaps](roadmaps/)
 
+## Team Impact Overviews
+
+- [2025 Team Impact](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26146)
+
 ## Common Links
 
 - Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176
