@@ -104,6 +104,7 @@ The manager/mentor should seek to understand any concern raised by a current mai
 1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
 
 In order to better inform a decision, the manager should privately reach out to 2 existing maintainers without sharing any personal information regarding the feedback. The manager is ultimately responsible for the readiness of the trainee maintainer and owns the decision to entrust the trainee maintainer with maintainer responsibilities.
+
 #### Maintainership approval
 
 After merging, the manager should:
