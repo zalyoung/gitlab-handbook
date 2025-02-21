@@ -50,7 +50,7 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
 
 Feel free to also ask regional peers if they can pickup tickets in [other forms of communication](/handbook/communication/#multimodal-communication), such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other team members.
 
-### Using a dedicated Slack channel
+### Using a dedicated Slack channel (Optional)
 
 The [#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel has been created specifically for this purpose. Within this channel, a thread is created for each ticket that
 contains notes on all currently Open, Pending and On-Hold tickets. The Support Engineer is then responsible for pinging other Engineers that
