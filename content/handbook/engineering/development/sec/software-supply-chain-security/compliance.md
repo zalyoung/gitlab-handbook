@@ -44,9 +44,9 @@ Because this group works on components of the application that have a [far-reach
 
 1. Compliance merge requests use feature flags where it makes sense to reduce risk. We follow the [Feature Flag Lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/) as closely as possible. For extended or multi–merge request development, all work should remain behind a dedicated feature flag. This approach allows incremental changes to be merged safely, keeping incomplete functionality off for production users.
 
-1. If a feature flag is used, a [feature flag rollout plan](/handbook/engineering/development/processes/rollout-plans/) should be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
+1. If a feature flag is used, a [feature flag rollout plan](/handbook/engineering/development/processes/rollout-plans/) issue should be created and added to the appropriate epic. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 
-1. Once the feature is ready for testing, the directly responsible individual (DRI) should enable the feature flag on the staging environment and announce availability to relevant stakeholders (for example, via Slack or by updating the related issue). This ensures prompt feedback, thorough validation, and keeps everyone in the loop.
+1. Once the feature is ready for testing, the directly responsible individual (DRI) should enable the feature flag on the staging environment and announce availability to relevant stakeholders (PM, EM, designer, wider team) via Slack and commenting in the rollout issue. This ensures prompt feedback, thorough validation, and keeps everyone in the loop.
 
 1. After validating the feature in staging, enable the feature flag in production in accordance with your rollout plan. If any issues arise, disabling the feature flag provides a quick rollback mechanism without the need to revert code. This controlled approach aligns with GitLab’s best practices for delivering new features safely and efficiently.
 
