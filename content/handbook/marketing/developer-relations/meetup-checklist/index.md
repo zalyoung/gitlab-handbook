@@ -1,7 +1,6 @@
 ---
 title: "GitLab Meetup Checklist"
 ---
-# Meetup Organizer Guide
 
 This guide is intended to help Meetup organizers run events that their community will love. Our aim is to be as comprehensive as possible to enable everyone to become an organizer, regardless of experience. Happy planning!
 
@@ -11,13 +10,13 @@ The reasons for getting involved in a meetup community include:
 
 * **Connecting with your community** - Meetups tend to bring together folks with similar interests and values. Meeting and networking with like-minded individuals helps build lasting professional relationships.
 
-* **Expanding your skillset** - Whether you're new to tech or looking to develop new skills, meetups are an opportunity to develop core skills needed for success - particularly communication and collaboration.
+* **Expanding your skill set** - Whether you're new to tech or looking to develop new skills, meetups are an opportunity to develop core skills needed for success - particularly communication and collaboration.
 
 * **Pursuing your passion** - If you're passionate about a technology or programming language, meetups are a way to grow interest in those topics, increase your influence in their community, and help advocate and champion them.
 
-## Planning an In-Person Meetup 
+## Planning an In-Person Meetup
 
-### What to Do ASAP 
+### What to Do ASAP
 
 * **Find speakers** - Reach out to potential speakers and confirm their availability and topics.
 
@@ -73,9 +72,10 @@ The reasons for getting involved in a meetup community include:
   * Request feedback
   * Promote next meetup
 
-### What to Do the Day After Your Event 
+### What to Do the Day After Your Event
 
 Send personalized thank-you notes to:
+
 * Venue hosts
 * Co-organizers
 * Volunteers
@@ -100,9 +100,9 @@ Send personalized thank-you notes to:
   * Provide special swag for speakers
   * Consider custom stickers or memorabilia
 
-## Planning a Virtual Meetup 
+## Planning a Virtual Meetup
 
-### What to Do ASAP 
+### What to Do ASAP
 
 * **Choose format** - Consider various options:
   * Discussion groups
@@ -163,9 +163,10 @@ Send personalized thank-you notes to:
   * Request feedback
   * Promote next meetup
 
-### What to Do the Day After Your Event 
+### What to Do the Day After Your Event
 
 Send thank-you messages to all contributors:
+
 * Co-organizers
 * Speakers
 * Support staff
@@ -194,6 +195,7 @@ Send thank-you messages to all contributors:
 #### Zoom Security Settings
 
 **Pre-meeting setup**:
+
 * Enable passcode requirement
 * Activate waiting room
 * Set "Mute participants upon entry"
@@ -201,6 +203,7 @@ Send thank-you messages to all contributors:
 * Add co-hosts as needed
 
 **Meeting start**:
+
 * Disable screen sharing
 * Prevent participant renaming
 * Control annotation settings
@@ -208,11 +211,13 @@ Send thank-you messages to all contributors:
 #### Managing Disruptions
 
 **Chat disruptions**:
+
 * Disable chat features
 * Remove disruptive participants
 * Report serious violations
 
 **Audio/Visual disruptions**:
+
 * Mute all participants
 * Disable self-unmuting
 * Remove problem users
