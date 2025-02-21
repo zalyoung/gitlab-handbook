@@ -96,11 +96,13 @@ This workflow minimizes duplication while enabling CSMs to maintain visibility i
 GitLab.com serves as the source of truth for Success Plans, with automatic synchronization to Gainsight. This integration enables seamless visibility while reducing manual overhead.
 
 ## How It Works
+
 - Success Plans created in GitLab.com (epics and tasks) automatically sync to Gainsight
 - Data is transferred via API, creating corresponding Success Plans in Gainsight
 - Updates in GitLab.com reflect automatically in Gainsight
 
 ## Benefits
+
 - Single source of truth in GitLab.com
 - Reduced manual data entry and maintenance
 - Consistent Success Plan visibility across platforms
