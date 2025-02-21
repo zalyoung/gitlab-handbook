@@ -1,6 +1,6 @@
 ---
 title: Product Data Insights
-
+description: Product Data Insights team handbook
 ---
 
 ## Product Data Insights Handbook
@@ -431,10 +431,7 @@ Recordings from office hours, analysis/read-outs, etc
 
 ## Other helpful resources & links
 
-1. [Data Guide Series](/handbook/enterprise-data/data-catalog/#product-release-to-adoption-catalog)
-1. [Data Team Handbook](/handbook/enterprise-data/)
-1. [Data Catalog](/handbook/enterprise-data/data-catalog/)
-1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit/)
 1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
+1. [Data Catalog/Data Guide Series](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (internal handbook)
+1. [Data Team Handbook](/handbook/enterprise-data/)
 1. [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
-1. [Functional Analytics Center of Excellence (FACE) Source of Truth Fields for Reporting](/handbook/enterprise-data/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/)

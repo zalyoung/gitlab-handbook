@@ -1,5 +1,6 @@
 ---
 title: Experimentation Design & Analysis
+description: Overview of PDI's approach to experimentation
 ---
 
 ## Overview
