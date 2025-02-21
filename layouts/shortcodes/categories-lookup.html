@@ -8,9 +8,7 @@
     <thead>
         <tr>
         <th>Category</th>
-        <th>Group</th>
-        <th>Slack Channel</th>
-        <th>EM</th>
+        <th>Details</th>
         </tr>
     </thead>
     <tbody>
@@ -21,25 +19,9 @@
             {{- range $key, $data := $stages }}
             {{- range $k, $v := $data.groups }}
                 {{- if in .categories $cat }}
-                <a href='/handbook/product/categories/#{{ replace $k "_" "-" }}-group'>{{ $data.display_name }}: {{ $v.name }}</a><br/>
-                {{- end }}
-            {{- end }}
-            {{- end }}
-        </td>
-        <td>{{- $cat := $k }}
-            {{- range $key, $data := $stages }}
-            {{- range $k, $v := $data.groups }}
-                {{- if in .categories $cat }}
-                <a href='https://gitlab.slack.com/channels/{{ $v.slack.channel }}'>#{{ $v.slack.channel }}</a><br/>
-                {{- end }}
-            {{- end }}
-            {{- end }}
-        </td>
-        <td>{{- $cat := $k }}
-            {{- range $key, $data := $stages }}
-            {{- range $k, $v := $data.groups }}
-                {{- if in .categories $cat }}
-                    {{ or $v.em $v.backend_engineering_manager }}<br/>
+                    Group: <a href='/handbook/product/categories/#{{ replace $k "_" "-" }}-group'>{{ $data.display_name }}: {{ $v.name }}</a><br/>
+                    Slack: <a href='https://gitlab.slack.com/channels/{{ $v.slack.channel }}'>#{{ $v.slack.channel }}</a><br/>
+                    Manager: {{ or $v.em $v.backend_engineering_manager }}<br/>
                 {{- end }}
             {{- end }}
             {{- end }}
