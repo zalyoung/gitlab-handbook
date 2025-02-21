@@ -1,5 +1,6 @@
 ---
 title: Product Data Insights Data Models Cheat Sheet
+description: Overview of the most common data models used by the Product Data Insights team
 ---
 
 ## Objectives for this page
@@ -12,13 +13,13 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. When in doubt, search DBT!
 
-- [Data guides to data subject areas](/handbook/enterprise-data/data-catalog/) managed by the Data team.
+- [Data guides to data subject areas](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) managed by the Data team.
 
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
 
-- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) to undertand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
+- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
 
 ## Data Model Categories
 
@@ -46,9 +47,9 @@ These categories are grouped by data source and subject area.
 
 - [Service Ping metrics dictionary](https://metrics.gitlab.com/)
 
-- [Data Guide to Self-Managed Analysis](/handbook/enterprise-data/data-catalog/self-managed/)
+- [Data Guide to Self-Managed Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/self-managed/)
 
-- [Data Guide to xMAU Analysis](/handbook/enterprise-data/data-catalog/xmau-analysis/)
+- [Data Guide to xMAU Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/)
 
 </details>
 
@@ -108,7 +109,7 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 - [DBT documentation on the prep_event model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.prep_event) contains compiled SQL logic to better understand any filtering applied to events.
 
-- [Data Guide to xMAU Analysis](/handbook/enterprise-data/data-catalog/xmau-analysis/)
+- [Data Guide to xMAU Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/)
 
 - [Schema file](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/structure.sql) containing SQL logic for the creation of each postgres table available in production.
 
@@ -161,7 +162,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Guide to Snowplow for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/#sts=Snowplow)
+- [Guide to Snowplow for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/#snowplow)
 
 - [Technical Snowplow overview](/handbook/enterprise-data/platform/snowplow/)
 
@@ -220,7 +221,7 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Data Guide to Namespace Analysis](/handbook/enterprise-data/data-catalog/namespace/) contains comprehensive documentation on namespace analytics and example SQL code.
+- [Data Guide to Namespace Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/namespace/) contains comprehensive documentation on namespace analytics and example SQL code.
 
 - [This knowledge base page](https://docs.gitlab.com/topics/set_up_organization/) covers an overview of namespaces, members and groups.
 

@@ -1191,6 +1191,14 @@ This is where you can find messaging related to GitLab vs some of our competiors
   - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
 - These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.
 
+#### Gem-E FY26 Auto Enrollment
+
+For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities. 
+
+- Leads that have no activity, and match the filters on the [report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000D2Ifh2AF/edit?queryScope=userFolders) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow. 
+- These flows will automatically include AI generated customisation as per the [video presentation here](https://www.loom.com/share/3413118b3dd545d38f9a2abe707e3082). 
+- These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
+
 ### Sales Dev Manager Resources
 
 #### Manager Tool Certification
