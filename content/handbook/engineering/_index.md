@@ -46,6 +46,10 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 - Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites.
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
 
+### Engineering Innovation
+
+Engineering Innovation is a new process geared toward individual or small-team experiments that encourages engineers to explore new ideas and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.  See the [Innovation at GitLab Guide](./engineering-innovation.md).
+
 ### Technical Roadmaps
 
 Some of the above examples for the 40% time budget can help in forming a long-term technical roadmap for your group, and determine how best to prioritize your technical work to support overall business goals. In addition to the examples above:
