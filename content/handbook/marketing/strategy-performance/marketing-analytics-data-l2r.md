@@ -215,10 +215,10 @@ Tableau-specific table that is a filtered view of rpt_lead_to_revenue, focused e
 
 The dbt solution generates a dimensional model from RAW source data. The exceptions are the following fields that are calculated based on business logic implemented within specific dbt models:
 
-| Field              | Business Logic   |
+| Field | Business Logic |
 |--------------------|------------------|
-| lead_to_revenue_id |  [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L699)  |
-| kpi_date_range_*   |  [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L703)  | 
+| lead_to_revenue_id | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L699) |
+| kpi_date_range_* | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L703) | 
 
 ## Wk_rpt_l2r_cohort_model
 
