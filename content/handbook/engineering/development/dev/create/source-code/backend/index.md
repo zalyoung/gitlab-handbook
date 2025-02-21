@@ -297,6 +297,9 @@ Average Reviewer 1st Engagement- (Number of times  > 48 hours) - [Drilldown tabl
 - Select the Merge Month
 - Add Reviewer Username and click the + icon present in the textbox to select the username.
 
+Projects considered for MR Metrics: https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv
+Please Note: Handbook update MR's were not included in the MR count.
+
 ## Triage process
 
 The weekly Triage Report is generated automatically by the [GitLab bot](https://gitlab.com/gitlab-bot) and this report is reviewed by the EM. Here is [an example](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/2700) of a previous report.
