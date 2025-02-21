@@ -7,7 +7,7 @@ subcategory: Upgrade Assistance
 
 ### Overview
 
-As a part of our [Priority Support](https://about.gitlab.com/support/index.html#priority-support),
+As a part of our [Priority Support](https://about.gitlab.com/support/#priority-support),
 GitLab Support offers [Upgrade Assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/).
 That is, we'll review upgrade and rollback plans, providing feedback and
 suggestions to the customer to help ensure a smooth upgrade. Customers may also
@@ -22,7 +22,7 @@ If the customer has not provided a plan, or it lacks the detail we need to suppo
 
 #### Initiating The Process
 
-1. The end user initiating the request will open a new Support Request using the Support for Self managed Instance form with the problem type set to "Upgrade Assistance Request" or for eligible users, the [US Government Upgrade Planning Assistance Request](https://federal-support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360001434131) form in the respective Support Portal. This will generate a high priority ticket in the instance.
+1. The end user initiating the request will open a new Support Request using the Support for Self managed Instance form with the problem type set to "Upgrade Assistance Request" or for eligible users, the [US Government Upgrade Planning Assistance Request](https://federal-support.gitlab.com/hc/en-ushc/en-us/requests/new?ticket_form_id=360001434131) form in the respective Support Portal. This will generate a high priority ticket in the instance.
 1. The triaging engineer should assign the ticket to themselves.
 1. The ticket assignee should review if the organization has a CSM, if so then the CSM should be added as a CC or follower to the ticket.
 1. The user provided information must include all of the [required information](https://about.gitlab.com/support/scheduling-upgrade-assistance/#what-information-do-i-need-to-schedule-upgrade-assistance).

@@ -71,7 +71,7 @@
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Escalation
-    url: /handbook/about/on-call.md
+    url: /handbook/about/escalation.md
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
@@ -162,23 +162,18 @@
       url: /handbook/engineering/development/fulfillment/
     - name: Ops Sub-department
       url: /handbook/engineering/development/ops/
-    - name: Govern Sub-department
-      url: /handbook/engineering/development/sec/govern/
+    - name: Software Supply Chain Security Sub-department
+      url: /handbook/engineering/development/sec/software-supply-chain-security/
     - name: Secure Sub-department
       url: /handbook/engineering/development/sec/secure/
   - name: Incubation Engineering Department
     url: /handbook/engineering/development/incubation
   - name: Infrastructure Department
     url: /handbook/engineering/infrastructure/
-  - name: Quality Department
-    url: /handbook/engineering/quality/
-    links:
-    - name: Test Platform
-      url: /handbook/engineering/infrastructure/test-platform/
-    - name: Engineering Productivity
-      url: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/
-    - name: Engineering Analytics
-      url: /handbook/engineering/quality/engineering-analytics
+  - name: Developer Experience
+    url: /handbook/engineering/infrastructure-platforms/developer-experience/
+  - name: Engineering Productivity
+    url: /handbook/engineering/infrastructure/engineering-productivity/
   - name: Security Practices
     url: /handbook/security/
   - name: Open Source

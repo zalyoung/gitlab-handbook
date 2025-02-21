@@ -21,7 +21,7 @@ graph TD
 
 ## **Stage 1:** Submission Handling
 
-We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/account-deletion/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
+We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/personal-data-request/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
 
 When a user submits a request through the form, an issue is [automatically created](/handbook/support/readiness/operations/docs/gitlab/account_deletions.md) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), *even for invalid requests*. Comments made in the issue will be emailed to the user. You will communicate with the user through the issue on the progress of their request.
 
@@ -46,7 +46,7 @@ If a request to the [Personal Account Requests Service Desk](https://gitlab.com/
 
   <p>Greetings,</p>
 
-  <p>It looks like you've emailed this request in to us directly. In order for us to best assist you please re-submit this request via our [Personal Data Request form](https://support.gitlab.io/account-deletion/). Doing so will allow us to process your request more quickly and efficiently. This request will now be closed. We eagerly await your resubmission. Thank you!</p>
+  <p>It looks like you've emailed this request in to us directly. In order for us to best assist you please re-submit this request via our [Personal Data Request form](https://support.gitlab.io/personal-data-request/). Doing so will allow us to process your request more quickly and efficiently. This request will now be closed. We eagerly await your resubmission. Thank you!</p>
 
   <p>Regards,</p>
 </details>
@@ -125,14 +125,17 @@ At this stage, do the following:
 
 ###### No Response
 
-If the user fails to respond within 7 calendar days, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
+If the user fails to respond within 7 calendar days:
+
+1. If you have not already done so, check the form comments for an alternative email, and if it was provided, tag Privacy in an internal comment in the Issue. The user likely never received notification of the Challenge Verifications and Privacy will review to determine if they should communicate directly with the user. Please do not close the Issue until you confirm with Privacy.
+1. If no alternative email was provided in the form comments, close it using the following snippet (note the 3 labels that are set: `Account Verification Failed`  `deletion request::denied` and `denied-reason::no_response` and 1 label is removed: `Awaiting::Challenge Answers`):
 
 <details>
   <summary markdown="span">Request Closed - No Response</summary>
 
   <p>Greetings,</p>
 
-  <p>We have not heard back from you with responses to our verification challenge questions, which are required in order to verify your identity before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/account-deletion/).</p>
+  <p>We have not heard back from you with responses to our verification challenge questions, which are required in order to verify your identity before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/personal-data-request/).</p>
 
   <p>Regards,</p>
 
@@ -161,7 +164,7 @@ For all other blocked or banned reasons, proceed to [step 2](#step-2-evaluate) f
 
 ##### **Step 2:** Evaluate
 
-Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification#evaluating-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
+Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification/#step-3-evaluating-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
 </details>
 
 - If the verification passes, proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue).
@@ -215,7 +218,7 @@ If the above conditions are not met, respond with the following before closing t
 ##### **Step 2.5:** Verification Passed - Unblock user
 
 1. Ensure that the user has passed the challenge questions and has been properly evaluated.
-1. Proceed to follow the [reinstating a blocked account workflow]({{< ref "reinstating-blocked-accounts#blocked-accounts" >}}). Generally, this means opening a Trust and Safety issue for evaluation.
+1. Proceed to follow the [reinstating a blocked account workflow](/handbook/support/workflows/reinstating-blocked-accounts/#blocked-accounts). Generally, this means opening a Trust and Safety issue for evaluation.
 1. Reply to the user to let them know.
 
 <details>
@@ -371,7 +374,7 @@ Use the following workflows based on the type of request submitted.
 
   <p>Greetings,</p>
 
-  <p>We have not heard back from you, which is required in order to validate your email address before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/account-deletion/).</p>
+  <p>We have not heard back from you, which is required in order to validate your email address before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/personal-data-request/).</p>
 
   <p>Regards,</p>
 </details>
@@ -416,7 +419,7 @@ Use this workflow for data export request submissions. Note that we can only act
     - [Evaluate answers](/handbook/support/workflows/account_deletion_access_request_workflows#step-2-evaluate)
 1. Only if the user passes account validation, start the process to get them project exports.
    1. If the user cannot sign in, export project using [the UI](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data) or [the API](https://docs.gitlab.com/ee/api/project_import_export.html#schedule-an-export).
-   1. If there are errors, follow [the project exports workflow](/handbook/support/workflows/importing_projects#project-exports). You can also search ZenDesk for examples of past project export tickets from *paid* customers for additional troubleshooting help and ideas.
+   1. If there are errors, follow [the project exports workflow](/handbook/support/workflows/exporting_projects). You can also search ZenDesk for examples of past project export tickets from *paid* customers for additional troubleshooting help and ideas.
 1. Upload the project exports to a new folder in the "Personal Data Requests" shared drive. Share the request specific folder with the user and let them know they should download the files within 7 days.
 1. After 7 days, unshare the request related folder and ask them to confirm they have the files.
 1. Once their issue is resolved, close the issue and apply the `Export Request::complied` label.

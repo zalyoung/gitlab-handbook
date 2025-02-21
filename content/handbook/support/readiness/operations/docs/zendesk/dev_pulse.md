@@ -122,7 +122,7 @@ of the request. The result of said analysis determine what actions are taken:
 ### Analzying problem tickets
 
 This part is triggered via GitLab
-[scheduled pipleines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+[scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
 running at a schedule specified by the GitLab Support team. During this part,
 specific parts of the code will do the following:
 
@@ -146,7 +146,7 @@ specific parts of the code will do the following:
 ### Analyzing RFH tickets
 
 This part is triggered via GitLab
-[scheduled pipleines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+[scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
 running at a schedule that runs hourly. During this part, specific parts of the
 code will do the following:
 

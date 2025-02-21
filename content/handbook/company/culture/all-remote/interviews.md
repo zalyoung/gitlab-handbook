@@ -26,7 +26,7 @@ Remote interviews are similar to in-person interviews in many ways: You're still
 1. **Make eye contact.** Look into the camera as much as possible, not the screen.
 1. **Have a practice meeting.** If it will help you feel more comfortable, try to download any software for a video call far enough in advance to test your audio and video settings.
 1. **Don't browse on your computer or phone during an interview.** Only have what you need for the interview, and don't get distracted.
-1. **Use headphones with a microphone.** Not only will this make you sound better, it will reduce listening fatigue for the other person as well so that you can have a better conversation. One of the more common phrases you'll hear from GitLab CEO Sid Sijbrandij is, "[Can you put your headphones on?](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo)"
+1. **Use headphones with a microphone.** Not only will this make you sound better, it will reduce listening fatigue for the other person as well so that you can have a better conversation.
 
 ## What technology do you need to participate in and manage a remote interview?
 
@@ -42,13 +42,13 @@ For a remote interview, being able to easily navigate a [video call](/handbook/c
 
 Wearing headphones can create a more positive video experience for all. If you're using a dedicated microphone, you may prefer comfortable studio-style headphones without an in-line mic. If you want to reduce the amount of hardware you're using, headphones with an in-line mic will be more appropriate.
 
-Some prefer in-ear headphones rather than over-the-head headphones, and it's important to consider long-term comfortability for those who may find themselves in [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) for multiple hours per day.
+Some prefer in-ear headphones rather than over-the-head headphones, and it's important to consider long-term comfortability for those who may find themselves in [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) for multiple hours per day.
 
 Bluetooth headphones can be problematic due to limitations of microphone quality, latency, and battery life. If you opt for Bluetooth headphones, it is recommended that you use a separate wired microphone. Bluetooth headsets can easily jump between devices, thus it is recommended to only pair one set per device to avoid unexpected disconnects during video calls.
 
 ### Microphones
 
-"*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://tips.ariyh.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote setting.
+"*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://app.sciencesays.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote setting.
 
 When possible, avoid doing a job interview in a room with other people or in a place with heavy background noise. If you have a pair of Bluetooth or wired earbuds with an in-line microphone (like the ones commonly included with most smartphones), use those instead of the built-in microphone of a laptop, phone, or desktop monitor. These microphones tend to be of low quality, and do little to stop background noise.
 
@@ -66,7 +66,7 @@ Conducting a remote interview is all about preparation, and most importantly, se
 1. **Give instructions for how to connect to the video call.** Include download instructions for the software you're using or a step-by-step guide if connecting from the web.
 1. **Give the candidate an outline.** The team at [FlexJobs](https://www.flexjobs.com/employer-blog/best-practices-conducting-remote-interviews) recommends an outline with an interview start time, the name of the interviewer and anyone else they will be meeting, and the general order of events so they know when to speak.
 1. **Have a practice meeting.** Use this opportunity to make sure your audio and video is coming through clearly.
-1. **Have questions prepared and in front of you ahead of time.** Owl Labs has prepared [this list of remote questions](https://www.owllabs.com/blog/remote-job-interview-questions) if you need some inspiration.
+1. **Have questions prepared and in front of you ahead of time.** Owl Labs has prepared [this list of remote questions](https://resources.owllabs.com/blog/remote-job-interview-questions) if you need some inspiration.
 1. **Share the process and documentation with others.** Make templates and processes available to other interviewers so that everyone communicates effectively.
 
 ## How can you make a remote interview feel more personal?
@@ -93,8 +93,8 @@ During the interview phase, it's vital to get an understanding of how a potentia
 - self-disciplined and able to be a [manager of one](/handbook/values/#managers-of-one)
 - comfortable with remote communication, much of which is [communicated through text](effective-communication/)
 - ready to engineer an [optimal workspace](workspace/)
-- able to focus and pinpoint both [when and where you prefer to work on a daily basis](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office)
-- prepared to create work/life boundaries and balance in a [work from anywhere scenario](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr)
+- able to focus and pinpoint both [when and where you prefer to work on a daily basis](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/)
+- prepared to create work/life boundaries and balance in a [work from anywhere scenario](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr/)
 
 ## What are some tips for succeeding in a remote interview?
 
@@ -191,18 +191,18 @@ An archive of Pick Your Brain interviews are below. We've also created a [Pick Y
 
 Learn more about scheduling a GitLab [Pick Your Brain series](/handbook/eba/#pick-your-brain-meetings).
 
-1. [GitLab CEO Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein)
-1. [GitLab CEO Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese)
-1. [GitLab CEO Sid Sijbrandij and Polymail Co-founder and CEO Brandon Foo](https://about.gitlab.com/blog/2017/06/02/pick-your-brain-interview-brandon-foo)
-1. [GitLab CEO Sid Sijbrandij and Stitch Co-founder and CEO Jake Stein](https://about.gitlab.com/blog/2017/08/18/pick-your-brain-interview-jake-stein)
-1. [GitLab CEO Sid Sijbrandij and SaaS.CEO Founder Vincent Jong](https://about.gitlab.com/blog/2018/01/26/pick-your-brain-interview-vincent-jong)
-1. [GitLab CEO Sid Sijbrandij and Crazy Wisdom Podcast host Stewart Alsop III](https://www.youtube.com/watch?v=23XIx6n9SsQ)
-1. [GitLab CEO Sid Sijbrandij and Outklip Founder Sunil Kowlgi](https://about.gitlab.com/blog/2019/04/18/lessons-on-building-a-distributed-company)
-1. [GitLab CEO Sid Sijbrandij and Zapier's Mike Knoop and Noah Manger](https://about.gitlab.com/blog/2018/01/08/zapier-pick-your-brain-interview)
-1. [GitLab CEO Sid Sijbrandij and FineTune CTO Kwan Lee](https://about.gitlab.com/blog/2017/09/15/pick-your-brain-interview-kwan-lee)
-1. [GitLab CEO Sid Sijbrandij and Buffer CEO Joel Gascoigne](https://about.gitlab.com/blog/2017/03/14/buffer-and-gitlab-ceos-talk-transparency)
-1. [GitLab CEO Sid Sijbrandij and leadership psychologist Banu Hantal](https://about.gitlab.com/blog/2019/06/21/cofounder-relations)
-1. [GitLab CEO Sid Sijbrandij and Slab co-founder Jason Chen](https://about.gitlab.com/blog/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo)
+1. [GitLab co-founder Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein/)
+1. [GitLab co-founder Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese/)
+1. [GitLab co-founder Sid Sijbrandij and Polymail Co-founder and CEO Brandon Foo](https://about.gitlab.com/blog/2017/06/02/pick-your-brain-interview-brandon-foo/)
+1. [GitLab co-founder Sid Sijbrandij and Stitch Co-founder and CEO Jake Stein](https://about.gitlab.com/blog/2017/08/18/pick-your-brain-interview-jake-stein/)
+1. [GitLab co-founder Sid Sijbrandij and SaaS.CEO Founder Vincent Jong](https://about.gitlab.com/blog/2018/01/26/pick-your-brain-interview-vincent-jong/)
+1. [GitLab co-founder Sid Sijbrandij and Crazy Wisdom Podcast host Stewart Alsop III](https://www.youtube.com/watch?v=23XIx6n9SsQ)
+1. [GitLab co-founder Sid Sijbrandij and Outklip Founder Sunil Kowlgi](https://about.gitlab.com/blog/2019/04/18/lessons-on-building-a-distributed-company/)
+1. [GitLab co-founder Sid Sijbrandij and Zapier's Mike Knoop and Noah Manger](https://about.gitlab.com/blog/2018/01/08/zapier-pick-your-brain-interview/)
+1. [GitLab co-founder Sid Sijbrandij and FineTune CTO Kwan Lee](https://about.gitlab.com/blog/2017/09/15/pick-your-brain-interview-kwan-lee/)
+1. [GitLab co-founder Sid Sijbrandij and Buffer CEO Joel Gascoigne](https://about.gitlab.com/blog/2017/03/14/buffer-and-gitlab-ceos-talk-transparency/)
+1. [GitLab co-founder Sid Sijbrandij and leadership psychologist Banu Hantal](https://about.gitlab.com/blog/2019/06/21/cofounder-relations/)
+1. [GitLab co-founder Sid Sijbrandij and Slab co-founder Jason Chen](https://about.gitlab.com/blog/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo/)
 
 ## GitLab All-Remote Snapshot interviews
 
@@ -229,4 +229,4 @@ GitLab team members interested in being interviewed should message [@dmurph](htt
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

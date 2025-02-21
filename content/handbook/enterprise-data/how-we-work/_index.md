@@ -17,7 +17,7 @@ description: "GitLab Data Team Workflow"
 
 ## Practical guide to contributing to the Data Team Projects
 
-Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/practical-guide/web-ide/) designed for all team members.
+Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/how-we-work/practical-guide/) designed for all team members.
 
 This guide complements our existing resources, but with a more practical focus on the step-by-step process of contributing to the Data Team’s projects.
 
@@ -92,12 +92,36 @@ The below steps should be followed when performing a **Design Spike**:
 
 ### Documentation
 
-The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://documentation.divio.com/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
+The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://docs.divio.com/documentation-system/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
+
+#### Documentation guideline
+
+There are several types of documentation we use to capture the topics. Noted the criteria when to use which type of the documentation
+
+- [**(Public) Handbook**](/handbook) - Items related to the operational model we used in the company and in the team, all explanations about tools, technologies and processes and **why** we are doing. Data that is publicly shareable, and does not expose GitLab or its customers to any harm or material impact (Green data, as per Data classification).
+- [**Internal handbook**](https://internal.gitlab.com/) - Items which explain the same category as the public handbook, with the difference that the internal handbook contains [internal information](/handbook/communication/confidentiality-levels/#internal)
+- **Readme.md** file - Specific information related to the code where the README.md file resides, which explains **how** to use that code. If more explanation is needed, a good practice is to either use and/or link to a Handbook article.
+- [**Runbooks**](https://gitlab.com/gitlab-data/runbooks) - Context which explains **how** to solve the issue in production or **how** to sort out other problems. The vital thing is to understand that runbook is a guideline of problem-solving approach
+
+Matrix with the explanation when to use which documentation type:
+
+| Example | Appropriate documentation type|
+|---------|----------------------------------------------------------------|
+| GitLab Duo explanation                                                 | Handbook |
+| Python/dbt/Snowflake guideline                                         | Handbook |
+| Description of the package inventory                                   | Handbook |
+| Explanation about the new pipeline/project                             | Internal Handbook |
+| Data classification description                                        | Internal Handbook |
+| dbt Data lineage diagram                                               | Internal Handbook |
+| Technical explanation of how to run the project                        | README.md |
+| Basic context about the project from the technical perspective         | README.md |
+| Solution of how to fix the Triage issue                                | Runbooks |
+| Exploration article (ie. Design spike) of how to pseudonimize the data | Runbooks |
 
 ### Data Team Value Calculator
 <!-- read through this and make adjustments -->
 
-The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives/) for Marketing.
+The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives) for Marketing.
 
 The calculator below is based on the following [Value Calculator](https://docs.google.com/spreadsheets/d/1FROB7j0YfNS_cQM6qQD0CPkE0Emuf77EJwTb96UduWs/edit?usp=sharing) spreadsheet. Please select the values below to define the value of new work.
 
@@ -180,6 +204,8 @@ All issues should get the following classes of labels assigned to them:
 - **Workflow:** The status of the work
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
 
+Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.
+
 Optional labels that are useful to communicate state or other priority:
 
 - **What:**
@@ -188,6 +214,14 @@ Optional labels that are useful to communicate state or other priority:
   - Pod: [Data team pod](/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
+
+#### Epic Labeling
+
+Similar to issue labeling, epic labeling helps the Data team categorize, quantify, and prioritize the projects in our backlog.
+
+At a minimum, all epics should have a **Team:** label applied. This tags the epic for the Data Team that is primarily responsible for performing the work, and enables managers to review the backlog of projects for their respective teams. This is particularly helpful during quarterly planning. 
+
+Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are being considered for OKR-level commitments (these should have the `Opportunity Canvas` label applied) vs. those that are used to group related issues under a general theme (these should _not_ have the `Opportunity Canvas` label applied). 
 
 ##### Merge Request Workflow
 
@@ -243,12 +277,10 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 
 ### SLO for Issues and Merge Requests
 
-- First-Response SLO for a new Issue or MR: 36 hours from the time of creation
-- Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/enterprise-data/how-we-work/#issue-pointing) assigned by the Data Team.
-  - Issue weight of 1-5 points: 4 weeks (2 iterations)
-  - Issue weight > 5 points: No SLO
-- MR Review SLO
-  - 4 weeks (2 iterations)
+- First-Response SLO for a new Issue: 2 business days from the time of issue creation
+- First-Response SLO for a new MR: 2 business days from the time of submission to the codeowner
+
+When opening an issue or submitting a MR for review, it is good to add a comment bringing the issue or MR to the attention of a DRI or codeowner. Please allow the SLO time period to expire before requesting additional updates or first responses on an Issue or MR. Issues and MRs within the SLO time period are not considered blocked. If the issue or MR is urgent or a break-fix scenario, it is good to follow-up with the team member in the Issue or MR within the SLO period as determined by the required urgency and importance.
 
 ### Removal and deletion process
 <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->

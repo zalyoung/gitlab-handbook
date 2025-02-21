@@ -67,8 +67,8 @@ Managers should add approved growth and development programs to the [department 
 ### LinkedIn Learning
 
 - [UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation/writing-an-effective-hypothesis) - This is a great overview of Lean UX and discusses business impact, iteration, hypothesis writing, experiment design, lean interviewing and more.
-- [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback?u=2255073) - This one might be a review for some of you but it's a good overview of what to know about surveys.
-- [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives?u=2255073) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
+- [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback) - This one might be a review for some of you but it's a good overview of what to know about surveys.
+- [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
 
 ### Other Resources
 
@@ -119,19 +119,19 @@ Managers should add approved growth and development programs to the [department 
 
 ### Other Resources
 
-- [Growth Design](https://lexroman.com/growthdesign)
-- [Practicing Growth Design](https://lexroman.com/blog/2019/9/30/practicing-growth-design)
+- [Growth Design](https://lexroman.com/guides/growth-design)
+- [Practicing Growth Design](https://lexroman.com/guides/practicing-growth-design)
 - [What is a Growth Designer?](https://blog.alexaroman.com/what-is-a-growth-designer-1b342d55a358)
-- [Growth Designers Resources](https://growthdesigners.co/resources)
-- [Growth Design Case Studies](https://growth.design/case-studies/)
-- [The Psychology of Design](https://growth.design/psychology/)
+- [Growth Designers Resources](https://www.growthdesigners.co/tools)
+- [Growth Design Case Studies](https://growth.design/case-studies)
+- [The Psychology of Design](https://growth.design/psychology)
 - [10 insights into user-centered growth design](https://medium.com/dropbox-design/user-centered-growth-design-97a53d829807)
 - [A/B Testing: Concept != Execution](https://booking.design/a-b-testing-concept-execution-b37bf4d744d)
 - [Design Like a Scientist](https://youtu.be/XRd6Ddn4ZSY)
 
 ## UX writing
 
-- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/ref=cm_sw_em_r_mt_dp_51MKD8EZ2M7KMZYX7N2T) by Niaw de Leon
+- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/) by Niaw de Leon
 
 ## Leadership and Communication
 
@@ -159,13 +159,13 @@ Managers should add approved growth and development programs to the [department 
 
 ### LinkedIn Learning
 
-- [Leading with Intelligent Disobediance](https://www.linkedin.com/learning/leading-with-intelligent-disobedience/what-is-intelligent-disobedience?u=2255073)
+- [Leading with Intelligent Disobediance](https://www.linkedin.com/learning/strategic-leadership-deploying-intelligent-disobedience/what-is-intelligent-disobedience)
 
 ## Time management and productivity
 
 ### Books
 
-- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/ref=cm_sw_r_tw_dp_F00CBYJ3VJMPM6A2NYNQ) by Cal Newport
+- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/) by Cal Newport
 - [Make time](https://www.goodreads.com/book/show/37880811-make-time) by Jake Knapp and John Zeratsky
 
 ## Behavioral Psychology in Design
@@ -184,7 +184,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Books
 
-- [Refactoring UI](https://www.refactoringui.com/book) by Adam Wathan and Steve Schoger
+- [Refactoring UI](https://www.refactoringui.com/) by Adam Wathan and Steve Schoger
 - [About Face 3: The Essentials of Interaction Design](https://www.goodreads.com/book/show/289062.About_Face_3) by Alan Cooper, Robert Reimann, David Cronin
 
 ## Other GitLab resources

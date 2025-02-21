@@ -48,7 +48,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2"
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Production Engineering::P2"
 \`\`\`
 
 ## References
@@ -86,7 +86,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Include the following Labels (update the priority as needed):
 
    ```text
-   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Production Engineering::P4"
    ```
 
 - If there is a service label that is applicable, also apply that.
@@ -137,6 +137,12 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 1. Week 4: Reply to the announcement thread that the process is coming to a close
 1. Week 4: Add an item to the [Reliability Leadership Sync Agenda](https://docs.google.com/document/d/1K-od3_I1TsMcyLag-KyUw-iuCAaaqjR0GIbrmBwVU4M/edit#) and include a summary of action items created.  Please include severity for each item.
 1. Week 4: Send a final reply to the announcement thread indicating that the process is closed for the month.
+
+## Continuous Disaster Recovery Testing and Practice
+
+The Ops team creates, manages, and coordinates regular DR Practices (or "Gamedays") to test and measure our Disaster Recovery processes.
+
+[Our Disaster Recovery Gameday process can be found here.](dr-practice.md)
 
 ## Team Members
 

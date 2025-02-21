@@ -38,7 +38,7 @@ When putting a ticket `On-Hold`, you should:
 - Invite them to inform you if your chosen schedule does not meet their needs
   so that you can adjust your plans accordingly. See also
   [Understanding Business Impact](#understanding-business-impact).
-- Aim to provide updates daily, and no less than every four days, which is the [`On-Hold` period length]({{< ref "zendesk-ticket-basics#behavior-of-on-hold-tickets" >}}).
+- Aim to provide updates daily, and no less than every four days, which is the [`On-Hold` period length](/handbook/support/workflows/zendesk-ticket-basics/#behavior-of-on-hold-tickets).
 
 When setting a ticket to `Pending` or `On-Hold`, consider using our [Due Date](/handbook/support/readiness/operations/docs/zendesk/apps/#zendesk-super-app)
 and [Reminders](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-reminders-app)
@@ -47,7 +47,7 @@ apps to help you to meet commitments you make.
 ### Avoiding giving concrete answers to "when can I expect feature / fix X?"
 
 During the course of your ticket work you may link back to feature requests and bugs. While an issue with an assigned milestone *may* ship in the release indicated,
-do not promise that it will be. See more in our [documentation style-guide](https://docs.gitlab.com/ee/development/documentation/versions#promising-features-in-future-versions).
+do not promise that it will be. See more in our [documentation style-guide](https://docs.gitlab.com/ee/development/documentation/styleguide/availability_details.html).
 
 ## Emotionally-charged tickets
 

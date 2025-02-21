@@ -54,7 +54,7 @@ The People Group Junior Fullstack Engineer is [grade 5](/handbook/total-rewards/
 #### Nice-to-haves
 
 - Experience working with modern Frontend frameworks (eg. React, Vue.js, Angular).
-- Experience with People systems such as Workday, Greenhouse, and BambooHR.
+- Experience with People systems such as Workday and Greenhouse.
 - Experience with the GitLab product as a user or contributor.
 - Experience working with a remote team.
 - Passionate about/experienced with open source and developer tools and how we use it in non-engineering teams.

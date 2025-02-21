@@ -55,8 +55,8 @@ Below are a list of resources and links to suggested professional development to
 1. Agile (scrum,kanban, etc)
    1. **Videos and Webpages**
       - [GitLab Agile Delivery](https://about.gitlab.com/solutions/agile-delivery/)
-      - [Scrum.org- What is Scrum](https://www.scrum.org/resources/what-is-scrum)
-      - [What is Kanban](https://www.digite.com/kanban/what-is-kanban/)
+      - [Scrum.org- What is Scrum](https://www.scrum.org/learning-series/what-is-scrum)
+      - [What is Kanban](https://www.nimblework.com/kanban/what-is-kanban/)
    1. **Courses:**
 
    1. **Conferences:**

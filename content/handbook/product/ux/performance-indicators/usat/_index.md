@@ -3,16 +3,36 @@ title: "User Satisfaction (USAT) Survey"
 description: "The User Satisfaction (USAT) survey is a performance indicator we use within the Product division to measure the end user satisfaction of our product."
 ---
 
-* Within the Product division, we have adopted [User Satisfaction (USAT)](https://www.qualtrics.com/uk/experience-management/customer/what-is-csat/) (formerly called Product CSAT) as a survey metric and are collecting data on this metrics within a survey on a quarterly basis.
+* Within the Product division, we have adopted [Product Customer Satisfaction Score (PCSAT)](https://www.qualtrics.com/en-gb/experience-management/customer/what-is-csat/) and are conducting this survey on a quarterly basis.
   * We previously surveyed users with the Net Promoter Score (NPS) metric, which we moved away from starting in FY25 Q1 ([see internal only proposal deck](https://docs.google.com/presentation/d/18FYO0UoUQi__7hPnD0uhVmeJrN16n23OISQnom0eRE8/edit?usp=sharing)).
 * We are using USAT because it allows us to:
   * Measure satisfaction directly vs. indirectly.
   * Connect satisfaction ratings and open ended responses back to changes in our product.
   * Compare and contrast USAT survey data against our other company wide metrics (System Usability Scale (SUS)).
 
+### Satisfaction surveys across GitLab
+
+There are two teams across GitLab who run separate, but related satisfaction surveys. UX Research conducts the User Satisfaction (USAT) survey and Customer Success conducts the All-Customer Satisfaction survey. This [handbook section](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#what-are-the-differences-between-the-all-customer-csat-and-usat-surveys) has more details on how these two satisfaction surveys are different.
+
 ### How the USAT survey is run
 
 UX Research determines our USAT score for paid users of GitLab.com and self-managed GitLab on a quarterly basis through a survey launched through Qualtrics. A [USAT template issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/USAT%20Survey%20(UX%20Research%20only).md?ref_type=heads) is created by the UX Research DRI at the beginning of each quarter. The issue template contains background information, research goals, and processes on conducting the survey from start to finish. Data is collected over a period of four weeks starting in the beginning of each quarter and the survey stays open until we have met our [data collection goals](/handbook/product/ux/performance-indicators/usat/#sampling-goals). The next two weeks after data collection are used to clean, analyze, and report on the survey responses. All documents created are stored in an [internal only Google Drive within UX Research](https://drive.google.com/drive/u/0/folders/1ia-SJujFRWgOpnBGUdLE6gAWE8ldf0DM).
+
+#### USAT questions
+
+1. How satisfied are you with GitLab (the product)?  
+   * Very dissatisfied  
+   * Dissatisfied  
+   * Neutral  
+   * Satisfied  
+   * Very satisfied  
+2. Why are you satisfied or dissatisfied with GitLab (the product)? (optional)  
+   * Note: Open text field  
+3. How could we improve your satisfaction with GitLab (the product)? (optional)  
+   * Note: Open text field  
+4. Would you be willing to talk with someone at GitLab about your feedback? This would be for research purposes, not for sales or marketing.  
+   * Yes, I would be willing to discuss my feedback (please enter the email address where you would like to be contacted)  
+   * No, I would not like to be contacted
 
 ### Current workflow
 

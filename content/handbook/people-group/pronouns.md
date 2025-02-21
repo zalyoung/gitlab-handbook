@@ -34,7 +34,7 @@ Due to the nature of language, there are many pronouns that one could choose fro
 **she/her**, **they/them**, and **he/him**.
 
 The way people display pronouns vary, but most people choose to display their
-[personal pronouns](https://www.grammarly.com/blog/personal-pronouns/) in the format shown above. Occasionally, one might
+[personal pronouns](https://www.grammarly.com/blog/parts-of-speech/personal-pronouns/) in the format shown above. Occasionally, one might
 also include the corresponding possessive pronoun, such as **they/them/theirs**, as a matter of personal preference or
 to provide additional clarity.
 
@@ -51,7 +51,7 @@ as in this example from [Wikipedia](https://en.wikipedia.org/wiki/Singular_they)
 More recently, "they" has seen an increase in usage as a singular pronoun for known individuals who do not identify as
 a man or woman. Simply use "they" as you normally would in a sentence when referring to someone who uses **they/them**
 pronouns, and you're all set! If you ever get stuck, Grammarly has a great write-up on
-[singular they](https://www.grammarly.com/blog/use-the-singular-they/).
+[singular they](https://www.grammarly.com/blog/parts-of-speech/use-the-singular-they/).
 
 ### Multiple pronouns
 
@@ -109,13 +109,13 @@ You can set your Slack pronouns on your [Slack profile](https://slack.com/help/a
 
 ### Zoom
 
-You can set your Zoom pronouns through the [Zoom web portal](https://support.zoom.us/hc/en-us/articles/4402698027533-Adding-and-sharing-your-pronouns#h_01F89H5DCX04A6QG8Q3MS69Q4J).
+You can set your Zoom pronouns through the [Zoom web portal](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066454#h_01F89H5DCX04A6QG8Q3MS69Q4J).
 
 ## Additional resources
 
 - [**Reference:** Pronouns.org](https://pronouns.org/)
 - [**Article:** A Guide To Gender Identity Terms](https://www.npr.org/2021/06/02/996319297/gender-identity-pronouns-expression-guide-lgbtq)
 - [**Article:** 'She/They' and Other Pronouns You Might See on Candidate Profiles](https://www.linkedin.com/business/talent/blog/talent-acquisition/pronouns-you-might-see-on-candidate-profiles)
-- [**Book:** *Gender: A Graphic Guide*](https://www.introducingbooks.com/ib-title/gender-a-graphic-guide/)
+- [**Book:** *Gender: A Graphic Guide*](https://introducingbooks.com/ib-title/gender-a-graphic-guide/)
 - [**Book:** *What's Your Pronoun? Beyond He and She*](https://wwnorton.com/books/9781631496042)
 - [**Book:** *A Quick & Easy Guide to They/Them Pronouns*](https://www.onipress.com/titles/project-one-f5w4d-233sh-3ybcx-9w275-dphaz-4h8ew-saabl-kdbm2-bed8a-szjan)

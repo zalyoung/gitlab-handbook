@@ -2,7 +2,7 @@
 title: "Common Room workflows"
 ---
 
-[Common Room](https://docs.commonroom.io/) is a community growth platform that helps manage, engage, and grow digital communities by integrating data across different platforms, identifying members, and reporting trends and sentiment.
+[Common Room](https://www.commonroom.io/docs/get-started/) is a community growth platform that helps manage, engage, and grow digital communities by integrating data across different platforms, identifying members, and reporting trends and sentiment.
 
 The [Developer Relations](/handbook/marketing/developer-relations/) team uses Common Room to aggregate, review, and take action on insights from across our community platforms. It is also used to track trends and community sentiment.
 
@@ -32,7 +32,7 @@ which runs via a scheduled pipeline to injest data.
 
 ## Resources
 
-* Common Room's [getting started documentation](https://docs.commonroom.io/get-started).
+* Common Room's [getting started documentation](https://www.commonroom.io/docs/get-started/).
 * Common Room's [playbooks for nurturing community](https://www.commonroom.io/resources/).
 
 ## Business Cases for Developer Relations
@@ -43,7 +43,7 @@ which runs via a scheduled pipeline to injest data.
 
 **Description**:
 
-* Monitor [segments](https://docs.commonroom.io/using-common-room/segments-page) Heroes, Core Team, and MVPs.
+* Monitor [segments](https://www.commonroom.io/docs/using-common-room/segments/) Heroes, Core Team, and MVPs.
 * See what topics are trending and track negative sentiment in those segments.
 * Spot potential new contributors based on their activity.
 
@@ -154,7 +154,7 @@ which runs via a scheduled pipeline to injest data.
 
 For requests to extract information from Common Room, you can open [a confidential issue in the Developer Advocacy Meta project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues) with the details of your request and assign it to `@sugaroverflow`. The DevRel team can then execute the query and export the report as a PDF to the issue.
 
-Requests can be for the export of information or for setting up [a team alert](https://docs.commonroom.io/using-common-room/team-alerts-page) to Slack. You can learn more about the types of reporting in [Common Room's documentation](https://docs.commonroom.io/using-common-room/reporting-page).
+Requests can be for the export of information or for setting up [a team alert](https://www.commonroom.io/docs/using-common-room/team-alerts-page/) to Slack. You can learn more about the types of reporting in [Common Room's documentation](https://www.commonroom.io/docs/using-common-room/reporting-page/room-overview/).
 
 Here are some request-based business cases:
 

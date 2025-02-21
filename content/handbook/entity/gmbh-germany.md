@@ -29,7 +29,7 @@ for more information on how the works council operates.
 
 ## Germany-Specific Team Member Benefits
 
-Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Germany.
+Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continuously review our benefits design and offerings available through GitLab in Germany.
 
 Join the [#gitlab-germany channel](https://gitlab.slack.com/archives/CCLBN72TW) in Slack for questions.
 
@@ -39,7 +39,7 @@ Under The Occupational Health and Saftey Act, employers must provide computer gl
 
 The team member needs to provide documentation (a prescription) from the optician that confirms if the lenses are specifically required for reading a display screen only and not required for general day to day use.
 
-Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
+Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to Navan for reimbursement.
 
 ### German Supplemental Pension Plans
 
@@ -107,7 +107,7 @@ There are two different options on how to handle existng direct insurance contra
 
 For the Direct Insurance plan, Team Members on Leave, including unpaid, maternity, and paternity and extended Long Term Sickness (42 continuous calendar days of sick leave- 6 weeks) are not eligible to contribute on the plans while on leave.
 
-For the Support Fund, during times the team members is not paid pensionable salary, support fund contribtuions will stop, with the exception of paid maternity and paternity leave.
+For the Support Fund, during times the team members is not paid pensionable salary, support fund contributions will stop, with the exception of paid maternity and paternity leave.
 
 Contributions will cease the month after the team member goes on leave.  – For example if the team member goes on leave on May 2nd (i.e. they are active on the 1st of the month) they can continue the contribution for that month, the next month (June 1st) we will stop contribution. Contributions will start again the following month after the team member returns from leave.
 
@@ -119,7 +119,7 @@ When a team member leaves the company, Total-Rewards will notify Allianz of the 
 
 GitLab and team members contributions to pension, health insurance, care in old age insurance and unemployment insurance are mandatory, as required by the state system. The payments are calculated each month by payroll and are shown on the employee pay-slips.
 
-Further information can also be found on the [Germany Trade & Invest Website](https://www.gtai.de/en/invest/investment-guide/employees-social-security-659058).
+Further information can also be found on the [Germany Trade & Invest Website](https://www.gtai.de/en/invest/investment-guide/employment-social-insurance-germany-659058).
 
 ## Personal Accident Insurance
 
@@ -154,7 +154,7 @@ To initiate your Parental Leave, submit the dates in Workday by selecting `Paren
 
 **Maternity Leave**
 
-Regardless of the length of service, under the Maternity Protection Act, pregnant team members are entitled to 6 weeks of leave prior to their estimated due date with full pay ([Maternity pay](https://www.tk.de/en/service-faqs/life-change/maternity-pay-2079400)). If a birthing parent does not give birth on the expected day, the period of protection before childbirth is shortened or extended accordingly. Team members may choose to opt-out of the six-week maternity protection period before their due date. This declaration can be revoked at any time with effect for the future.
+Regardless of the length of service, under the Maternity Protection Act, pregnant team members are entitled to 6 weeks of leave prior to their estimated due date with full pay ([Maternity pay](https://www.tk.de/en/health-insurance-in-germany/basic-informations/life-change/maternity-pay-2079400)). If a birthing parent does not give birth on the expected day, the period of protection before childbirth is shortened or extended accordingly. Team members may choose to opt-out of the six-week maternity protection period before their due date. This declaration can be revoked at any time with effect for the future.
 
 The Maternity Protection period after the delivery is 8 weeks following the birth (or 12 weeks in case of multiple or premature birth and if the child is medically diagnosed with a disability within the meaning of sec. 2 para. 1 sentence 1 of Book 9 of the Social Code (Neuntes Buch Sozialgesetzbuch) before the end of eight weeks after delivery). Team members may not opt-out of the maternity protection period following childbirth. In case of premature delivery, the period of protection after delivery is extended by the period of reduction of the period of protection before delivery; if the child has been diagnosed with a disability in the sense described above, the period of protection after delivery is extended only if the birthing parent applies for it. The team member will receive full payment during this period. GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please notify the Absence Management team at `leaves@domain` of your health insurance carrier name and your insurance number.
 
@@ -271,15 +271,26 @@ In case a birthing parent takes Parental Leave subsequently to the child's birth
 
 **Parental Leave and GitLab's Global Parental Leave Policy**
 
-GitLab GmbH employees in Germany are entitled to both the statutory German parental and Maternity Leave as well as [GitLab's global 16-week paid Parental Leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
+GitLab GmbH employees in Germany are entitled to both the statutory German parental and Maternity Leave as well as [GitLab's global 16-week paid Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
 
 - Maternity Leave: The statutory Maternity Leave period (minimum 14 weeks for single births) is separate from and precedes both statutory German Parental Leave and GitLab's paid Parental Leave.
 - Parental Leave: When overlapping with statutory paternity leave, GitLab's paid Parental Leave will substitute for the gaps in payment.
-- No statutory paternity/Maternity Leave: If the GitLab team member does not apply for any statutory leave regarding the birth of their offspring, they are still eligible for [GitLab's global 16-week paid Parental Leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
+- No statutory paternity/Maternity Leave: If the GitLab team member does not apply for any statutory leave regarding the birth of their offspring, they are still eligible for [GitLab's global 16-week paid Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 **Applying for Parental Leave in Germany**
 
-- Team members must register their Parental Leave, in writing (wet signature), 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old. At the same time it must be declared for which periods within two years Parental Leave is to be taken.
+- Team members must register their Parental Leave in writing (wet signature) sent via mail to the German entity address:
+
+   ```text
+   Gitlab GmbH
+   c/o RPI Roehm International
+   Elsenheimerstraße 7
+   80687 München
+   Deutschland
+   ```
+
+- Parental leave must be registered 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old.
+- If your child is under 3 years old, you must declare for which periods within the next two years you want to take Parental Leave for.
 - A request for Parental Leave by facsimile or email does not comply with the written form requirement and is therefore void.
 - Please register your leave, in addition to the written application, by emailing leaves@domain.
 - Submit your Parental Leave in Workday by selecting the `Parental Leave` option.
@@ -287,11 +298,12 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 **Part-time work during Parental Leave**
 
-During Parental Leave, employees are statutorily entitled to part-time work (15 to 30 hours per week) if:
+During Parental Leave, employees are [statutorily entitled to part-time work](https://familienportal.de/familienportal/familienleistungen/elternzeit/faq/kann-ich-waehrend-der-elternzeit-teilzeit-arbeiten--124794) (15 to 32 hours per week) if:
 
-- The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
-- The reduction is not opposed by urgent operational reasons, and
-- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
+- The employer usually employs more than 15 employees,
+- the employment relationship exists for at least six months,
+- the reduction is not opposed by urgent operational reasons, and
+- the employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
 
 The request must include the start and scope of the reduced working hours.
 
@@ -330,7 +342,7 @@ How to Apply:
 
 ### Statutory Sick Leave
 
-Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-procedures---all-team-members) policy.
+Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-reporting-procedures---all-team-members) policy.
 
 - If a team member is sick for more than six weeks, they can apply for "Krankengeld" from their health insurer. The benefit amount will be less than the team member's salary.
 
@@ -340,7 +352,7 @@ Beginning January 1, 2023 team members with statutory health insurance are not r
 
 #### Reporting Guidelines
 
-Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Workday by selecting the label `Out Sick` under the `Time Offs` dropdown menu.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Workday using the label `Out Sick` under the `Leave Types` dropdown menu.  The Absence Management Team will then "call up" the AU certficiate on behalf of the team member.
+Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Workday by selecting the label `Out Sick` under the `Time Offs` dropdown menu.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Workday using the label `Out Sick` under the `Leave Types` dropdown menu.  The Absence Management Team will then "call up" the AU certificate on behalf of the team member.
 
 - Team Members with private health insurance will still be required to email leaves@domain a hard copy of their certificate no later than the 4th day of illness.
 
@@ -350,7 +362,7 @@ We encourage all team members to meet with a *virtual doctor* for the certificat
 
 **Infection Protection Act**
 
-The [Infection Protection Act](http://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/themen/coronavirus/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
+The [Infection Protection Act](https://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/service/archiv/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
 
 ## Administrative Details for Benefits Team
 
@@ -384,11 +396,11 @@ Our legal council has the German company stamp and can stamp government forms fo
 
 ## Email Signature
 
-During onboarding you may have been asked to set up your GitLab Gmail and your email signature using the following [example as a guideline](/handbook/tools-and-tips/#email-signature). If you are a employed by our German entity, you will need to add some company related details to the end of your email signature as [set out here]({{< ref "tools-and-tips#email-signature-if-employed-by-our-german-entity" >}}) (accessible internally to GitLab only).
+During onboarding you may have been asked to set up your GitLab Gmail and your email signature using the following [example as a guideline](/handbook/tools-and-tips/#email-signature). If you are a employed by our German entity, you will need to add some company related details to the end of your email signature as [set out here](/handbook/tools-and-tips/#email-signature-if-employed-by-our-german-entity) (accessible internally to GitLab only).
 
 ## Company details/Signature on Company Communications
 
-Some company related details are required to be added as a signature to certain forms of communication, where that communication is going from a team member employed by our German entity GitLab GmbH to outside of the company, *and* relates to GitLab's business activities. There are further details listed [here]({{< ref "tools-and-tips#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity" >}}) (accessible internally to GitLab only).
+Some company related details are required to be added as a signature to certain forms of communication, where that communication is going from a team member employed by our German entity GitLab GmbH to outside of the company, *and* relates to GitLab's business activities. There are further details listed [here](/handbook/tools-and-tips/#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity) (accessible internally to GitLab only).
 
 ## Useful links
 

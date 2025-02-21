@@ -33,7 +33,7 @@ Disable notifications on your computer, put your phone on silent, and disable an
 
 Every interview consists of distinct phases that are important to follow, because they help users to feel comfortable during the interview.
 
-![Different phases of a user interview](interview_arch.png)
+![Different phases of a user interview](/images/product/ux/ux-research/facilitating-user-interviews/interview_arch.png)
 
 **Introduction:** Make sure users feel comfortable by introducing yourself, informing them about the purpose of the interview, and asking if they have any questions. It's helpful to be welcoming and friendly, so smile and look at users as they join the session. Avoid fidgeting and crossing your arms.
 

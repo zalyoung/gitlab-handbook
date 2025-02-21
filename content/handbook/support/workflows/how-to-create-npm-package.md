@@ -56,7 +56,7 @@ scope, as well as the current user's authentication to push/pull packages.
 
 - Add the registry to your scope, that way npm knows where to look for packages that start with @nameofyourscope.
   Example:
-  - `@sahbabou:registry=http://gitlab.ahbabou.com/api/v4/packages/npm`
+  - `@sahbabou:registry=https://gitlab.ahbabou.com/api/v4/packages/npm`
 - Add your Oauth token(create one [here](https://docs.gitlab.com/ee/api/oauth2.html#resource-owner-password-credentials-flow) if you don't have one), and add it using this format:
   - `//gitlab.ahbabou.com/api/v4/packages/npm/:_authToken=<Oauth Token>`
 

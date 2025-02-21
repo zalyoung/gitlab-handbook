@@ -2,7 +2,7 @@
 title: "Technical Blueprint"
 ---
 
-The purpose of this document is to detail the goals and guidelines for the Scalability:Observability team. The focus is on our principles and our goals for the next five years.
+The purpose of this document is to detail the goals and guidelines for the Observability team. The focus is on our principles and our goals for the next five years.
 
 ## Team Principles
 

@@ -17,7 +17,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL if you are in Self-Paced Training, or `https://ilt.gitlabtraining.cloud` if you are in Instructor-Lead Training, and the project should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL if you are in Self-Paced Training, and the project should appear in your history.
 
 1. Before beginning this lab, you should ensure that the dependency scanning template is enabled in your CI/CD pipeline. To verify this, check your `.gitlab-ci.yml` file. Under `include`, you should see the template `Security/Dependency-Scanning.gitlab-ci.yml`:
 
@@ -70,9 +70,9 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select the **Run pipeline** button at the top right of the page.
+1. Select the **New pipeline** button at the top right of the page.
 
-1. Leave all of the options at their default values, then select **Run pipeline**.
+1. Leave all of the options at their default values, then select **New pipeline**.
 
 1. Monitor your pipeline and wait for each job to complete successfully.
 

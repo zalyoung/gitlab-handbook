@@ -34,9 +34,9 @@ Below is a breakdown of the 4-part [Renewal Operations Strategy](https://docs.go
 
 | Person | Role |
 | ------ | ------ |
-| [John Budreski](https://gitlab.com/jbudreski ) | [Manager, Renewal Operations](/job-families/sales/renewal-operations-analyst/#manager-renewal-operations-requirements) |
-| [Heather Kacmarski](https://gitlab.com/hkacmarski) | [Renewal Operations Analyst](/job-families/sales/renewal-operations-analyst/) |
-| [Laura Simmons](https://gitlab.com/simmons-laura) | [Renewal Operations Analyst](/job-families/sales/renewal-operations-analyst/) |
+| [John Budreski](https://gitlab.com/jbudreski ) | [Senior Manager, CS Strategy & Operations](/job-families/sales/renewal-operations-analyst/#manager-renewal-operations-requirements) |
+| [Heather Kacmarski](https://gitlab.com/hkacmarski) | [Customer Success Operations Analyst](/job-families/sales/renewal-operations-analyst/) |
+| [Laura Simmons](https://gitlab.com/simmons-laura) | [Customer Success Operations Analyst](/job-families/sales/renewal-operations-analyst/) |
 
 ## Get in Touch
 
@@ -58,7 +58,9 @@ The Renewal Operations team primary focus is to support the Global Renewals team
 
 ### Renewal Manager Account & Opportunity Management
 
-To reach out to Renewal Operations within Salesforce simply @ mention @Renewal-Ops in chatter on the relevant Opportunity or Account. Renewal Operations can assist with:
+To reach out to Renewal Operations within Salesforce, follow the process to request internal support outlined [here](/handbook/sales/field-operations/requesting-internal-support/)
+
+Renewal Operations can assist with:
 
 - Territory Assignment Questions or Corrections ([for a Territory Change Request please follow the instructions here](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#territory-ownership-renewals-managers))
 - Renewal Manager Opportunity Assignment
@@ -73,11 +75,11 @@ To reach out to Renewal Operations within Salesforce simply @ mention @Renewal-O
 
 ### Quoting, Approvals and Bookings
 
-For questions on Quoting, Approvals, Opportunity Booking or Opportunity data quality refer to the [Sales Order Processing Handbook Page](/handbook/sales/field-operations/order-processing/) or reach out to [Deal Desk via chatter by @ mention to @Sales-Suport](/handbook/sales/field-operations/sales-operations/deal-desk/#communicating-with-the-deal-desk-team)
+For questions on Quoting, Approvals, Opportunity Booking or Opportunity data quality refer to the [Sales Order Processing Handbook Page](/handbook/sales/field-operations/order-processing/) or reach out to [Deal Desk via an Internal Support Request](/handbook/sales/field-operations/requesting-internal-support/)
 
 ### Compensation
 
-For Compensation related questions please reach out to @Sales-Comp on chatter. Renewal Operations does not approve Churn exception requests, to request a Churn exception [please follow the process outlined here.](/handbook/customer-success/renewals-managers/how/#churn-exceptions).
+For Compensation related questions please reach out to Sales Comp via the [internal support request](/handbook/sales/field-operations/requesting-internal-support/). Renewal Operations does not approve Churn exception requests, to request a Churn exception [please follow the process outlined here.](/handbook/customer-success/renewals-managers/how/#churn-exceptions).
 
 ## Renewal Operations Process Cadences
 

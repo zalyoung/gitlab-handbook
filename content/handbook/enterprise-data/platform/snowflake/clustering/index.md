@@ -29,7 +29,11 @@ This process helps Snowflake's query optimizer to quickly locate and retrieve re
 
 ## When to Use Clustering
 
-Our guidelines are to only apply clustering to incremental models that are set to never full refresh. This minimizes the large up-front cost we pay to cluster the data. Consider using clustering when:
+If a model includes the `incremental_backfill_date` variable then it must also be configured to never fully refresh. These models can incur large re-clustering charges since the backfill DAG reprocesses months in random order which leads to an unsorted table. An example of this is `mart_behavior_structured_event`.
+
+Models which can be fully refreshed without additional configuration can be clustered in the normal way as dbt will produce a clustered table.
+
+Consider using clustering when:
 
 - Your table is large (typically > 1 TB)
 - You frequently query on specific columns
@@ -45,7 +49,7 @@ cluster_by=['column1','column2'],
 automatic_clustering='true'
 ```
 
-The cluster key and automatic_clustering configuration setting must be added to the model so that automatic clustering is enabled by default should the model be rebuilt.
+The cluster key and automatic_clustering configuration setting must be added to the model so that automatic clustering is enabled by default should the model be rebuilt. A full-refresh of an incremental model will be required before the automatic clustering is enabled.
 
 ### Manual applying via SQL
 

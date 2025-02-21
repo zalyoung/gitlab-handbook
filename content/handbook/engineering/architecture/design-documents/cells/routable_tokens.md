@@ -11,7 +11,7 @@ of [Phase 4](https://gitlab.com/groups/gitlab-org/-/epics/14510).
 
 ## Purpose
 
-GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/token_overview.html).
+GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/tokens/index.html).
 Tokens have different scopes as for example User, [project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), and [group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
 
 [HTTP Routing Service](http_routing_service.md) require the tokens to be routable,
@@ -75,20 +75,69 @@ This proposal is to make all tokens to encode routable information about object
 to which the token is attached. This document does focus specifically first on tokens
 that are required to be made routable in the Phase 4: [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [CI/CD Job Token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html) and [Runner Authentication Token](https://docs.gitlab.com/ee/security/tokens/#runner-authentication-tokens):
 
-- Currently tokens are generated with the following pattern: `<prefix><random-string>`.
-- The Routable Token would change the `<random-string>` to become a `<payload>`. Likely, the `<payload>` will have a longer length than the previous `<random-string>`, due to the need to encode more information.
-- The ability to decode `<payload>` is a feature reserved for the HTTP Router.
-- Application should never decode `<payload>` and use it for authentication purposes.
-- The generated token is stored in whole as-is and is validated against its full value.
-  This is contrary to JWT which usually a signature is used to validate authenticity of the token itself.
-- The `<payload>` contains encoded information about the cell where the token can be used.
-- The `<payload>` is `base64` encoded structured string that is line delimited.
-- Each line starts with a character indicating a type of value it describes. We also use a `:` to delimit between type, and value.
+Currently tokens are generated with the following pattern: `<prefix><random-string>`. The Routable Token would change this to `<prefix><base64-payload>.<base64-payload-length><crc32>`.
+
+### Specification
+
+- The Routable Token would change the `<random-string>` to become `<base64-payload>.<base64-payload-length><crc32>`.
+
+- The `<base64-payload>` is a base64-encoded string composed of 3 parts: `<routing-payload><random-bytes><random-bytes-length>`.
+  - The `<routing-payload>` is a line-delimited string in the form of `c:3w5e11264sgsf\ng:3w5e11264sgsf\np:3w5e11264sgsf`.
+    - It contains information that will allow the HTTP Router to route requests to the cell where the token is intended to be used.
+    - Each routing line starts with a character indicating a type of value it describes. The type and value are separated by the `:` character.
+    - Integer values must be encoded as base36 string for space efficiency.
+    - Lines are sorted alphabetically (e.g. `c:` comes before `g:` etc.).
+  - The `<random-bytes>` is a set of random bytes to ensure a high entropy, so the token cannot be forged.
+  - The `<random-bytes-length>` is 1 byte (`8-bit unsigned (unsigned char)`) (i.e. `<integer>.pack("C")`) that stores the length of `<random-bytes>`.
+- The `<base64-payload-length>` is an integer represented in base36, which we use 2 bytes and pad with 0 on the significant digit (i.e. `<integer>.to_s(36).rjust(2, '0')`) that store the length of `<base64-payload>`.
+- The `<crc32>` is an integer represented in base36, which we use 7 bytes and pad with 0 on the significant digits (i.e. `<integer>.to_s(36).rjust(7, '0')` in Ruby) that store a CRC32 checksum of `<prefix><base64-payload>.<base64-payload-length>`.
+
+#### Constraints
+
+- Minimum number of routing parts is 1.
+  - An exception should be raised if no routing part is defined.
+- Maximum number of routing parts is 10.
+  - An exception should be raised if more than 10 routing parts are defined.
+- Minimum size of `<routing-payload>` is 3 bytes (i.e. `o:1`).
+  - An exception should be raised if `<routing-payload>` is smaller than 3 bytes.
+- Maximum size of `<routing-payload>` is 159 bytes: `'c:3w5e11264sgsf'.size * 10 + (10 - 1)` (see [Maximum token length](#maximum-token-length)).
+  - An exception should be raised if `<routing-payload>` is bigger than 159 bytes.
+- Valid routing part keys are currently `c`, `g`, `o`, `p`, `u`. Any other keys should raise an exception.
+- Minimum number of random bytes is 16.
+  - This is arbitrary to ensure a high entropy.
+- Maximum number of random bytes is 65: `(maximum bytes before encoding) - (max size of <routing-payload>) - (size of <random-bytes-length>) = 225 - 159 - 1 = 65`
+  - This ensures we can always encode the biggest `<routing-payload>`.
+- Minimum size of `<base64-payload>` is 27 bytes (20 bytes before encoding: `(min size of <routing-payload>) + (min size of <random-bytes>) + (size of <random-bytes-length>) = 3 + 16 + 1 = 20`)
+- Maximum size of `<base64-payload>` is 300 bytes (225 bytes before encoding).
+  - This is arbitrary and should be enough to carry all the information we need for now.
+  - An exception should be raised if `<base64-payload>` is bigger than 300 bytes.
+- Minimum size of prefix is 0 bytes.
+- Maximum size of prefix is 20 bytes.
+  - An exception should be raised if prefix is bigger than 20 bytes.
+- Minimum size of token is 37 bytes: `(min size of <base64-payload>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 27 + 1 + 2 + 7 = 37`
+- Maximum size of token without prefix is 310 bytes: `(max size of <base64-payload>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 300 + 1 + 2 + 7 = 310`
+- Maximum size of token with prefix is 330 bytes: `(max size of prefix) + (max size of <base64-payload>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 20 + 300 + 1 + 2 + 7 = 330`
+
+#### Additional information
+
+- The generated token is stored in whole as-is, and is validated against its full value by the Rails application. This doesn't change from the current logic.
+  Note that this is contrary to JWT which usually a signature is used to validate authenticity of the token itself.
+- The Rails application should never decode `<base64-payload>` and only use the whole token as-is for authentication purposes.
 - The tokens as stored and validated by the application would not change.
-- Extend `TokensAuthenticatable` framework to allow generating a structured routable token.
-- The high entropy of a token is provided by requiring `r` parameter with 16 random bytes, so the token cannot be forged.
-- The `base64` encoded `<payload>` should not change a character set of a random string. Looking at existing character sets used for secret detection it is important to ensure that tokens follows the `<prefix>[0-9a-zA-Z_-]*` format. It seems to be valid to use `Base64.urlsafe_encode64` without padding to force the usage of the `[0-9a-zA-Z_-]` character set.
-- The secret detection script at `app/assets/javascripts/lib/utils/secret_detection_patterns.js` will need to be modified as the `<payload>` length will change. Note also the `<payload>` length will be variable as the encoded information contains varying sizes (for example `u: 1` vs `u: 9223372036854775807`).
+- The ability to decode `<base64-payload>` is a feature reserved for the HTTP Router.
+- The `<routing-payload>` can be easily retrieved from `<base64-payload>` (pseudo-code):
+  1. Retrieve `<base64-payload-length>` and convert it from base36 to integer (i.e. `<token>[-9, 2].to_i(36)` in Ruby. `parseInt(<token>.slice(-9, -7), 36)` in JavaScript)
+  1. Retrieve `<base64-payload>` (i.e. `<token>[(-10 - <base64-payload-length>), <base64-payload-length>]` in Ruby. `<token>.slice(-10 - <base64-payload-length>, -11)` in JavaScript)
+  1. Base64-decode `<base64-payload>` to get `<payload>` (i.e. `Base64.urlsafe_decode64(<base64-payload>)` in Ruby. `atob(<base64-payload>.replace(/_/g, '/').replace(/-/g, '+'))` in JavaScript)
+  1. Retrieve `<random-bytes-length>` and unpack it to a `1 byte unsigned char` (i.e. `<payload>[-1].unpack1("C")` in Ruby. `payload.slice(-1).charCodeAt(0)` in JavaScript)
+  1. Retrieve `<routing-payload>` (i.e. `<payload>[...-<random-bytes-length> - 1]` in Ruby. `payload.slice(0, -<random-bytes-length> - 1)` in JavaScript)
+- Secret detection tools will be able to check authenticity of tokens offline, and without base64-decoding the token (i.e. `Zlib.crc32(<token>[...-7]) == <token>[-7, 7].to_i(36)` in Ruby), since the checksum is included as the last 7 characters of the token.
+- The `TokenAuthenticatable` framework will be updated to allow generating routable tokens.
+- Secret detection tools will need to be changed to accommodate the longer and variable token length, and the new `.<base64-payload-length><crc32>` suffix:
+  - `app/assets/javascripts/lib/utils/secret_detection_patterns.js`
+  - [The GitLab Secret Detection gem](https://gitlab.com/gitlab-org/gitlab/-/tree/master/gems/gitlab-secret_detection)
+  - [GitLab secrets SAST analyzer](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-rules)
+  - [Tokinator](https://gitlab.com/gitlab-com/gl-security/appsec/tokinator/-/merge_requests/125)
 
 ### Pseudo code implementation
 
@@ -103,45 +152,74 @@ the following ids:
 Pseudo code for generating a routable token for personal access token:
 
 ```ruby
-def generate_pat(user)
+RANDOM_BYTES_LENGTH = 16
+BASE64_PAYLOAD_LENGTH_HOLDER_BYTES = 2
+CRC_BYTES = 7
+
+def generate_routable_token(user)
   params = {
     c: Gitlab.cell.id.to_s(36),
     o: user.organization_id.to_s(36),
-    u: user.id.to_s(36),
-    r: SecureRandom.random_bytes(16)
+    u: user.id.to_s(36)
   }
 
-  payload = params.map{|k,v| "#{k}:#{v}"}.join("\n")
+  routing_payload = params.sort.map { |k,v| "#{k}:#{v}" }.compact_blank.join("\n")
+  base64_payload = Base64.urlsafe_encode64("#{routing_payload}#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{[RANDOM_BYTES_LENGTH].pack("C")}", padding: false)
+  base64_payload_length = base64_payload.size.to_s(36).rjust(BASE64_PAYLOAD_LENGTH_HOLDER_BYTES, '0')
 
-  "#{PersonalAccessToken.token_prefix}#{Base64.urlsafe_encode64(payload, padding: false)}"
+  checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{base64_payload_length}"
+  crc = Zlib.crc32(checksummable_payload).to_s(36).rjust(CRC_BYTES, '0')
+
+  "#{checksummable_payload}#{crc}"
 end
 ```
 
-Note that we use base36 for bigint to shorten the length of the eventual token.
+Note that we encode integers into base36 strings to shorten the length of the eventual token.
 It's also the reason why we're using raw random bytes instead of encoding them
-in text. Users do not need to look at the random bytes and we encode the
-eventual token in base64 anyway.
+in text. Users do not need to look at the random bytes and we encode the eventual token in base64 anyway.
+
+### Minimum token length
+
+Here's an example of a token having minimum id for a single routable part,
+with no prefix showing the minimum length of a token (37 bytes):
+
+```text
+bzoxd_Rb5_cHeWe1JH56wr2FCBA.0r1pum4t4
+```
+
+Here is its routing payload:
+
+```text
+o:1
+```
 
 ### Maximum token length
 
 Here's an example of a token having maximum ids for all possible routable parts,
-prefixed with the longest prefix (20 characters) showing the maximum length of a token (151 characters):
-
-`++++++++++++++++++++bzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3NmCmM6M3c1ZTExMjY0c2dzZgpyOivLGUxNDOviOsd3ePiA6gs`
-
-Here is its encoded payload:
+prefixed with the longest prefix (20 bytes) showing the maximum length of a token (330 bytes):
 
 ```text
-o:3w5e11264sgsf
+++++++++++++++++++++YzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpoOjN3NWUxMTI2NHNnc2YKajozdzVlMTEyNjRzZ3NmCms6M3c1ZTExMjY0c2dzZgpsOjN3NWUxMTI2NHNnc2YKbTozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3Nmw5bzMmayzK43Ugba9fl8T_I-nZqc5gxOGH2HsUF6-J7UesTG4lmc3PT2aoPyuiUndG5Ci5IMThAbaiNkUTR87KBB.8c1adh6iv
+```
+
+Here is its routing payload:
+
+```text
+c:3w5e11264sgsf
 g:3w5e11264sgsf
+h:3w5e11264sgsf
+j:3w5e11264sgsf
+k:3w5e11264sgsf
+l:3w5e11264sgsf
+m:3w5e11264sgsf
+o:3w5e11264sgsf
 p:3w5e11264sgsf
 u:3w5e11264sgsf
-c:3w5e11264sgsf
-r:+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v
 ```
 
 Note that `3w5e11264sgsf` is `(2**64-1).to_s(36)` which is the largest number
-for a bigint. `+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v` is 16 random bytes.
+for a bigint. Also note that `l`, `k`, `j`, `h`, `m` are not actual routing keys and are only there
+to demonstrate the maximum theoretical size of a token.
 
 In practice, it's unlikely that all routable parts would be set, but this can be useful to know that
 maximum token length (e.g. for secret detection scripts).
@@ -151,12 +229,11 @@ maximum token length (e.g. for secret detection scripts).
 Since the payload holds a structured information, each single letter has a
 particular meaning. The following fields are always required:
 
+- `c`: Cell ID
 - `o`: Organization ID
-- `r`: Random bytes to increase the token entropy
 
 The following fields are optional. Each specific tokens can include them if needed:
 
-- `c`: Cell ID
 - `g`: Group ID
 - `p`: Project ID
 - `u`: User ID
@@ -234,11 +311,12 @@ class PersonalAccessToken
   add_authentication_token_field :token,
     encrypted: :required,
     format_with_prefix: :prefix_from_application_current_settings,
-    routable_token: {
-      c: -> (token) { Gitlab.cell.id },
-      o: -> (token) { token.user.user_preference.home_organization_id },
-      u: -> (token) { token.user.id }
-    }
+    routable_token:
+      if: ->(token_owner_record) { Feature.enabled?(:routable_token, token_owner_record.user) },
+      payload: {
+        o: ->(token_owner_record) { token_owner_record.organization_id.to_s(36) },
+        u: ->(token_owner_record) { token_owner_record.user_id.to_s(36) }
+      }
 end
 ```
 

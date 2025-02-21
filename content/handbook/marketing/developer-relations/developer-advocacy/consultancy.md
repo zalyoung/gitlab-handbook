@@ -48,9 +48,10 @@ Customer adoption engagement examples are available in the [FY25Q2 OKR KR](https
 
 Results:
 
-- Customer workshops for GitLab Duo
+- Customer workshops for GitLab Duo ([full maintained list in the content handbook](/handbook/marketing/developer-relations/developer-advocacy/content/#workshops))
   - [GitLab Duo Use Case - Python workshop 2024-07-10](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-use-case-python-2024-07-10)
-- Blog: Best practice tutorials for customers and field teams ([AI/ML blog category](https://about.gitlab.com/blog/categories/ai-ml/))
+  - [Build your own adventure with GitLab Duo - C++ observability tool with embedded hardware sensors](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-workshop-build-your-own-adventure-cpp-2024-12-05)
+- Blog: Best practice tutorials for customers and field teams ([AI/ML blog category](https://about.gitlab.com/blog/categories/ai-ml/)/)
 - Documentation
   - Author and maintain the [GitLab Duo Use Case documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) and linked resources:
     - [GitLab Duo Prompts library](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-prompts)
@@ -68,4 +69,4 @@ Goal: Enable data scientists and [MLOps](https://about.gitlab.com/direction/mode
 
 Recent customer workshop examples are available in [this pre-filtered issue list](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=DA-Type%3A%3AConsulting&search=mlops&first_page_size=20) (internal).
 
-SME DRI: @warias
+SME DRI: @waarias

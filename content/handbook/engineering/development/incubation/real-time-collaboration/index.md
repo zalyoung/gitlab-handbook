@@ -48,7 +48,7 @@ and considered ready for production.
 
 ### Foundational libraries
 
-GitLab's software stack enables real-time collaboration via [Websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), in particular [GraphQL subscriptions](https://graphql.org/blog/subscriptions-in-graphql-and-relay/). Real-time comes with certain complexities when users want to collaboratively edit text, in particular rich text. In order to allow multiple parties to edit the same *text* concurrently, we must ensure a conflict-free replication mode between all participating clients. There are several ways to achieve this, but we utilize [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type). CRDTs allow us to concurrently edit state from `1, 2, … n` clients and eventually end up with a consistent representation of the document on all clients.
+GitLab's software stack enables real-time collaboration via [Websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), in particular [GraphQL subscriptions](https://graphql.org/blog/2015-10-16-subscriptions/). Real-time comes with certain complexities when users want to collaboratively edit text, in particular rich text. In order to allow multiple parties to edit the same *text* concurrently, we must ensure a conflict-free replication mode between all participating clients. There are several ways to achieve this, but we utilize [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type). CRDTs allow us to concurrently edit state from `1, 2, … n` clients and eventually end up with a consistent representation of the document on all clients.
 
 Every participant in the editing process is a client (in comparison to [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation)). The CRDT we picked ([YATA](https://www.researchgate.net/publication/310212186_Near_Real-Time_Peer-to-Peer_Shared_Editing_on_Extensible_Data_Types)) has a popular frontend implementation [Y.js](https://github.com/yjs/yjs) and we have created bindings for its [Rust](https://www.rust-lang.org/) port [`y-crdt`](https://github.com/y-crdt/y-crdt). This allows our Ruby on Rails backend to just act as one more client.
 
@@ -110,11 +110,11 @@ wait for another client propagating a new update.
 This Ruby gem is developed under the `y-crdt` umbrella ([project link](https://github.com/y-crdt/yrb-actioncable)).
 It implements the [Y sync protocol](https://github.com/yjs/y-protocols/blob/master/PROTOCOL.md) on top of ActionCable by providing
 a `SyncChannel` that clients can subscribe to in order to receive and request state updates.
-On top of using `y-rb_redis` to store YATA state, it utilizes [Redis Streams](https://redis.io/docs/data-types/streams/)
+On top of using `y-rb_redis` to store YATA state, it utilizes [Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/)
 to keep track of which updates were last seen by any given client.
 
 GitLab has settled on [ActionCable](https://guides.rubyonrails.org/action_cable_overview.html) to implement websockets on top of the
-[Redis PubSub](https://redis.io/docs/manual/pubsub/) adapter.
+[Redis PubSub](https://redis.io/docs/latest/develop/interact/pubsub/) adapter.
 This implementation has no delivery guarantees (we look for `at-least-once`), and no atomic broadcast mechanism.
 This means that if a client disconnects then reconnects, it may lose out on updates other clients may have sent to the
 server. Upon reconnection, a client is now able to sync its state with the server and catch up on lost messages.
@@ -165,7 +165,7 @@ The GitLab UI does not rely on a uniform text editor but instead offeres a mix o
   This could be accomplished by first translating markdown into an intermediate AST that could act as a universal
   interchange format between different editors:
 
-  ![editor bindings](editor_bindings.png)
+  ![editor bindings](/images/engineering/development/incubation/real-time-collaboration/editor_bindings.png)
 
 ## Updates
 
@@ -206,4 +206,4 @@ The GitLab UI does not rely on a uniform text editor but instead offeres a mix o
 
 ### Reading List
 
-- [Hybrid Anxiety and Hybrid Optimism: The Near Future of Work](https://future.a16z.com/hybrid-anxiety-optimism-future-of-work/)
+- [Hybrid Anxiety and Hybrid Optimism: The Near Future of Work](https://future.com/hybrid-anxiety-optimism-future-of-work/)

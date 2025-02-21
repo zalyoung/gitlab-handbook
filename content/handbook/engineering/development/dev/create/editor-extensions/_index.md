@@ -42,6 +42,10 @@ Additionally to our main team's slack channels, each extension/project we work o
   - JetBrains extension: [#f_jetbrains_plugin](https://gitlab.slack.com/archives/C02UY9XKABH)
   - Neovim extension: [#f_neovim_plugin](https://gitlab.slack.com/archives/C05BF7L6PEX)
 
+## Shared calendars
+
+- Editor Extensions Shared Calendar (Calendar ID: c_673d889354d021f7fa9f20a003b5867185a9bf12989b5eaacbc8b537cc9ef27c@group.calendar.google.com)
+
 ## Cross-group ownership and boundaries
 
 Editor extensions systems host features and modules owned by different groups.

@@ -4,15 +4,15 @@ title: "Developer Advocacy on Social Media"
 
 ## Introduction
 
-Developer Advocacy builds out their thought leadership through social media and community engagement. The tips and strategies shared here can be used by team members and the wider community to help build their own profile as an evangelist.
+Developer Advocacy builds out their thought leadership through social media and community engagement. The tips and strategies shared here can be used by team members and the wider community to help build their own profile as an evangelist and advocate for GitLab.
 
 Topics:
 
 - Education and Learning: Tips from own experience. Workshops, slides, blog posts, videos, etc.
-- Events live tweets / tweet storms. Amplify talks with screenshots and messages.
+- Events live posts. Amplify talks with screenshots, pictures and messages.
 - [Release Evangelism](#release-evangelism): Share feature insights with personal views.
-- Community best practices and GitLab insights.
-- Contributions to GitLab and the cloud native ecosystem.
+- Community and customer best practices and GitLab insights.
+- Contributions to GitLab, encouraging customers to co-create with GitLab.
 
 ### UTM Tracking
 
@@ -20,56 +20,79 @@ Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tr
 
 ## Target Platforms
 
-LinkedIn and Twitter are the target platforms. Both platforms have different target audiences and content distribution.
+LinkedIn is the main target platform for content distribution, release evangelism, and customer engagement.
 
-> Wil Spillane in Slack:
->
-> Tweets are more fleeting. I think a lot of folks choose to view tweets in reverse chronological order. For LinkedIn, the default is "top" posts and it's not very visible to many to switch to "recent". Also, LinkedIn shows posts with recent activity in the recent feed, not just the plain reverse chronological order that Twitter does. So in some ways, LinkedIn posts linger across feeds longer than a tweet.
+> Note: With the platform changes on Twitter/X in 2024, and lack of content engagements thereof, we have de-prioritzed Twitter/X as platform for Developer Advocates in FY25Q4.
 
-Experimental platforms:
+Social platform evaluations:
 
-- Mastodon (requires an account on a specific instance in the Fediverse). [Evaluation issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues/123).
-- Bluesky Social (invite only). [Evaluation issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues/277).
+- Bluesky, in progress. [Evaluation issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/277).
+- Mastodon, stopped. [Evaluation issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/123).
 
 ### General Social Media Tips
+
+The following sections provide best practices for social media to increase engagement, reach, and amplify content.
 
 #### Message Tips
 
 - Keep the message short and appealing. If you have multiple sentences, break them down into a list.
   - 💡 Use emoji as list markers, this one to learn something.
-  - 🏗 This way users learn what you want to share and build together.
+  - 🏗 This way users learn what you want to share and build together, for example CI/CD.
   - 🔥 Pick the right emoji, this one expresses a fast success for example.
-- Use 3-4 hashtags at maximum, at the end of the message. Twitter/LinkedIn are not Instagram and use different algorithms to amplify shares.
-  - `#development` and `#DevSecOps` are good examples, avoid them to include in every tweet though.
+  - 🛡️ This emoji can be security related.
+  - 🌱 Starting something new, or first MR merged as contribution can be illustrated with this emoji.
+- Use 3-4 hashtags at maximum, at the end of the message. LinkedIn allows to search for hashtags, but will not amplify content with many hashtags similar to Instagram or Threads.
+  - `#development` and `#DevSecOps` are good examples. You do not need to include them every time though.
 - Too many emoji can hide key messages.
 - Use an appealing screenshot image or animated GIF to make people stop when scrolling.
   - When attaching images to your posts, make sure to include an ALT text describing the content.
-- Do not start with an `@` character on Twitter, this will be hidden as reply and hinder audience reach on Twitter. Escape it with a leading `.` or an emoji. Example: `.@gitlab 13.9 adds ...`.
+- Do not start with an `@` character on Bluesky and Twitter/X, this will be hidden as reply and hinder audience reach. Escape it with a leading `.` or an emoji. Example: `.@gitlab 13.9 adds ...`.
 
-Follow the tips on [resizing images](/handbook/tools-and-tips/#resizing-images) and [creating GIFs](/handbook/product/making-gifs/) to learn more about image and video conversions for social media, [resizing GIFs](/handbook/product/making-gifs/#resizing-gifs), etc.
+Limits:
 
-When tagging users, find a balance to not spam them with notifications. Instead, share the post URL in Slack and ask team members to amplify it.
+- LinkedIn: 3000 characters, including URLs.
+- Bluesky: 300 characters
+- Twitter/X: 280 characters
+- Mastodon: 500 characters
 
-- On LinkedIn, type `@` to start searching for companies, brand accounts and users to tag. Buffer requires you to copy the full company URL into the composer window (the LinkedIn API does not allow user tagging).
-- On Twitter, Mastodon and Bluesky, you can use `@` to mention users.
+##### Media files for messages
+
+Follow the tips on [resizing images](/handbook/tools-and-tips/#resizing-images) and [creating GIFs](/handbook/product/making-gifs/) to learn more about image and video conversions for social media, [resizing GIFs](/handbook/product/making-gifs/#resizing-gifs), etc. Always use the best source available, or convert to a common file format. For example, macOS exports a proprietary `HEIC` image format which is not supported by [LinkedIn on the desktop](https://www.linkedin.com/help/linkedin/answer/a564109). Instead, use `JPG` or `PNG` for better compatibility. You can use ImageMagick and macOS Finder to [convert HEIC to JPG](/handbook/tools-and-tips/#convert-heic-to-jpg).
+
+Media limits:
+
+- LinkedIn allows to upload up to 20 images to a post.
+  - [File size limit: 5 MB](https://www.linkedin.com/help/lms/answer/a527229)
+  - You cannot mix images and videos.
+  - The post editor allows to reorder images with drag&drop or cursor keys.
+- Bluesky allows to upload up to 4 images, or 1 video of 60 seconds length ([since 2024-09](https://bsky.social/about/blog/09-11-2024-video)).
+- Twitter/X: 4 images, or 1 video of 140 seconds length and 512 MB size.
+- Mastodon: 4 images.
+
+##### Tagging users
+
+- On LinkedIn, type `@` to start searching for companies, brand accounts and users to tag.
+- On Bluesky, Mastodon, Twitter/X, you can use `@` to mention users.
+
+##### Accessibility
+
+- Always add ALT tags to attached media files (images, GIFs, videos).
+- Do not use bold/italic formatted looking text. Generator tools use special unicode characters, and this breaks screen readers and accessibility. Use emojis and formatting techniques instead.
 
 #### Social Card Validators
 
 Use the social card validators to verify the social preview of included URLs before sharing.
 
-- [OpenGraph validator](https://opengraph.xyz) to debug the tags, including social previews.
+- [OpenGraph validator](https://www.opengraph.xyz/) to debug the tags, including social previews.
 - [LinkedIn post inspector](https://www.linkedin.com/post-inspector/)
-- Twitter suggests using the tweet composer. The card validator was [deprecated and removed in August 2022](https://twittercommunity.com/t/card-validator-preview-removal/175006).
 
 #### Fast Emoji Workflows
 
-[Raycast](https://www.raycast.com/) is a productivity app and can replace Spotlight on macOS. Open Raycast with your preferred shortcut (`option + space` by default) and start typing `emoji`, press `enter` and type the emoji name. You can also assign a shortcut to the emoji view by opening the extensions settings. Open Raycast and type `extensions` and select `Extensions Raycast Settings` in the prompt. Search for `emoji` and assign a keyboard shortcur, for example `cmd 2`.
+> Optional efficiency tip.
 
-![Raycast extensions: Emoki keyboard shortcut](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/raycast_extensions_settings_emojis_keyboard_shortcut.png)
+[Raycast](/handbook/tools-and-tips/other-apps/#raycast) is a productivity app and can replace Spotlight on macOS. Open Raycast with your preferred shortcut (`option + space` by default) and start typing `emoji`, press `enter` and type the emoji name. You can also assign a shortcut to the emoji view by opening the extensions settings. Open Raycast and type `extensions` and select `Extensions Raycast Settings` in the prompt. Search for `emoji` and assign a keyboard shortcut, for example `cmd 2`.
 
-If you are using Alfred on macOS, you can use [Alfred's Powerpack with the emoji workflow](https://dev.to/dnsmichi/emojis-everywhere-supercharged-with-alfred-workflows-1o3n) to quickly access common emojis for tweets.
-
-[Rocket](https://matthewpalmer.net/rocket/) is another alternative which provides an emoji search on macOS.
+![Raycast extensions: Emoji keyboard shortcut](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/raycast_extensions_settings_emojis_keyboard_shortcut.png)
 
 ### LinkedIn Tips
 
@@ -80,7 +103,7 @@ LinkedIn provides [groups](https://www.linkedin.com/help/linkedin/answer/a540824
 - [DevOps and SRE discussions](https://www.linkedin.com/groups/6585254/): 137,000 members as of 2023-07-04
 - [Artificial Intelligence (AI), Digital Transformation, Data Science, Automation, Machine Learning, and Analytics Group](https://www.linkedin.com/groups/4376214/): 101,000 members as of 2023-07-04
 
-Benefits: Increase reach of content shares (e.g. the [GitLab blog](https://about.gitlab.com/blog/)), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
+Benefits: Increase reach of content shares (for example, the [GitLab blog](https://about.gitlab.com/blog/)/), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
 
 Some groups require moderators to approve the posts. Please follow these guidelines:
 
@@ -88,11 +111,11 @@ Some groups require moderators to approve the posts. Please follow these guideli
 - Check the [social card preview](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) and replace them with screenshots or [GIFs](/handbook/product/making-gifs/) that make folks stop scrolling.
 - Do not spam the groups with messages every day. Be thoughtful about shares and help the group owners to create a helpful stream of free learning content.
 
-Example: The [GitLab CLI announcement post by Michael](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-7006375881359130624-1812) which shows the CLI interface with CI/CD pipelines, job traces, and CLI API calls as attached screenshots created 92 likes, and 5,200 impressions in 24 hours. The [same post](https://www.linkedin.com/feed/update/urn:li:activity:7006803920949755904) to the [DevOps group on LinkedIn](https://www.linkedin.com/groups/2825397/), once approved, got 40 likes and 9000 impressions in 9 hours.
+Example: The [GitLab CLI announcement post by Michael](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-7006375881359130624-1812) which shows the CLI interface with CI/CD pipelines, job traces, and CLI API calls as attached screenshots created 92 likes, and 5,200 impressions in 24 hours. The same post to the [DevOps group on LinkedIn](https://www.linkedin.com/groups/2825397/), once approved, got 40 likes and 9000 impressions in 9 hours.
 
 #### LinkedIn: Use Creator Mode Profile
 
-LinkedIn defaults to connections between users, and everyone uses a different strategy to manage connections, i.e. only having met in person, etc. Sometimes users want to follow and engage with your content, without the direct need of a LinkedIn connection. This is a great strategy to share thought leadership content on LinkedIn too, for example [automated schedules](/handbook/marketing/developer-relations/developer-advocacy/social-media/#sharing-content) in the same way as Twitter.
+LinkedIn defaults to connections between users, and everyone uses a different strategy to manage connections, for example, only having met in person, etc. Sometimes users want to follow and engage with your content, without the direct need of a LinkedIn connection. This is a great strategy to share thought leadership content on LinkedIn too, for example [automated schedules](/handbook/marketing/developer-relations/developer-advocacy/social-media/#sharing-content) in the same way as Twitter.
 
 LinkedIn provides the [Creator Mode](https://www.linkedin.com/help/linkedin/answer/a522537/creator-mode) for profiles which brings multiple benefits:
 
@@ -130,17 +153,127 @@ When attending events, networking and connecting to new folks often is a thing. 
 
 5. The QR Code view also has a tab to scan other QR codes. If you don't want to grant access to the camera to the LinkedIn app, you can also scan the QR code using your mobile camera and open the LinkedIn app from the scanned profile URL.
 
-### Twitter Tips
+### Bluesky Tips
 
-#### Twitter: Allow direct messages from everyone
+Bluesky is a new platform and the user base is growing. It is important to both grow followers, and engage with other users to grow your own network.
 
-On Twitter, you need to follow another user to allow them for sending you a direct message. Sometimes, invitation to events, wider community highlights or new opportunities may come from direct messages, and it is desirable to [enable them for everyone](https://help.twitter.com/en/using-twitter/direct-message-faqs). Users you do not follow yet are then able to send so-called "Message requests" that will show up in a separate section inside the direct messages view.
+#### Bluesky account and settings
 
-Navigate to `Settings > Privacy and Safety > Direct Messages` to enable the `Allow message requests from everyone` checkbox.
+Bluesky uses a federated protocol and started with a single instance on `bsky.social`. The community has since created multiple instances. It is recommended to create an account on the `bsky.social` instance.
 
-New message requests will show up in your Twitter DMs on top, saying `Message requests. X people you may know.`. You can review the request without the users seeing a read notification, and accept the request to continue the conversation.
+1. Register for an account at [bsky.app](https://bsky.app).
+1. Optional: Download the app
+    - [iOS](https://apps.apple.com/us/app/bluesky-social/id6444370199)
+    - [Android](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en&pli=1) from the app store.
+1. Login into Bluesky.
+1. Setup your account.
+    - Upload a profile picture and banner image
+    - Add a biography: Focus on role, topics you are interested in or offer content for. You can add mutiple lines and URLs. Example: [@dnsmichi profile](https://bsky.app/profile/dnsmichi.dev). Tip: You can mention the GitLab handle using `@gitlab.com` to render a direct handle URL.
 
-Note: be cautious of phishing, spam, and other undesirable messages arriving via Message requests.
+   ![Bluesky profile from @dnsmichi, with @gitlab.com brand handle](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/bluesky_profile_bio_gitlab.png)
+
+Recommended [settings](https://bsky.app/settings):
+
+1. Two-factor authenticaton: Require email code to log into your account.
+1. Accessibility Settings:
+    - ALT text: Require ALT text before posting media.
+    - Media: Disable autoplay for videos and GIFs.
+1. Chat Settings: Review the `Allow messages from` setting to determine whether to accepted them from everyone, users I follow (default), no one.
+1. You can use your domain as custom Bluesky handle, for example `@gitlab.com`, `@sugaroverflow.com` or `@dnsmichi.dev`. This can help to make your handle more memorable and easy to share.
+    - [Follow the instructions on the Bluesky blog](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) or [@dnsmichi's tutorial](https://dnsmichi.at/2024/11/19/moving-to-bluesky-with-custom-domain-handle/) to setup the DNS TXT record verification.
+    - Consider changing your handle early. All historical tags and quotes will be redirected, but incoming URLs to starter packs, etc. will be broken and need external updates.
+    - Ensure to register the old handle with a secondary email address, and add a note `moved to @newhandle` into the biography. This helps avoid name squatting.
+
+#### Optional suggestions for Bluesky
+
+1. [Add Bluesky to your GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-external-accounts-to-your-user-profile-page).
+1. Review the [Bluesky Getting Started guide by Dean Lofts](https://blog.deanlofts.xyz/guides/getting-started-bluesky/).
+1. Explore alternative UIs
+    - [deck.blue](https://deck.blue/) is a Tweetdeck alternative for Bluesky.
+1. Review available moderation block lists (search for `block list` on Bluesky). You can click `Subscribe` and select whether to mute or block all accounts in the list.
+
+Review the options for importing data from Twitter/X:
+
+- The [Sky follower bridge Chrome extension](https://chromewebstore.google.com/detail/sky-follower-bridge/behhbpbpmailcnfbjagknjngnfdojpko?hl=en) will search through Twitter/X follower lists and can help find users on Bluesky.
+- Automated data import:
+  - Open source data import: [twitter-to-bluesky](https://github.com/marcomaroni-github/twitter-to-bluesky) imports a downloaded Twitter/X archive zip file. Test it with a test account first.
+  - Paid data import: [BlueArk](https://blueark.app/en-us/)
+- It is recommended to keep your Twitter/X account to avoid impersonation. You can protect the account and update the biography with new social media locations.
+- You can also start fresh on Bluesky and do not import anything.
+
+_Missing features, 2024-11-11:_
+
+1. Bookmark action to save posts ([issue](https://github.com/bluesky-social/social-app/issues/1091)).
+    - Workaround: Pin [this feed](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/my-pins) to your home timeline. Use the 📌 emoji on a post to make it appear in your personal 📌 feed.
+
+   ![Bluesky feeds, with pins](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/bluesky_bookmarks_workaround_pins_feed.png)
+
+1. Show exact follower count if your followers are more than 1,000.
+    - Workaround: Use a raw API call with the handle: `https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=YOURHANDLE` in your browser or on the CLI with `curl` and `jq`. Example for `dnsmichi.dev`:
+
+    ```shell
+    curl -s 'https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=dnsmichi.dev' | jq -c '.handle,.did,.followersCount'
+    "dnsmichi.dev"
+    "did:plc:orvu3nk4bdy7edgw3bvnk4pm"
+    2605
+    ```
+
+1. Add user to Starter Pack from their profile view ([issue](https://github.com/bluesky-social/social-app/issues/6104)).
+
+#### Follow team members and their followers
+
+| Name | Bluesky handle |
+|------|----------------|
+| Cesar Saveedra | [@cealsair.bsky.social](https://bsky.app/profile/cealsair.bsky.social) |
+| Daniel Helfand | [@dhelfand.bsky.social](https://bsky.app/profile/dhelfand.bsky.social) |
+| Fatima Sarah Kalid | [@sugaroverflow.com](https://bsky.app/profile/sugaroverflow.com) |
+| John Coghlan | [@coghlan.me](https://bsky.app/profile/coghlan.me) |
+| Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
+| William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
+| GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
+
+#### Bluesky Starter Packs
+
+Starter packs provide a list of users to follow, and help quick start with potential users to follow and read in your feed.
+
+Users can create starter packs on their profile for specific topics, community groups, events, etc. and share them with the wider community.
+
+GitLab team members have started to create and maintain the following Starter Packs:
+
+| Starter Pack | Maintainer |
+|--------------|------------|
+| [GitLab Community](https://bsky.app/starter-pack/dnsmichi.dev/3l7t2mtkdmu22) | [@dnsmichi](https://bsky.app/profile/dnsmichi.dev) |
+| [GitLab DevRel team](https://bsky.app/starter-pack/dnsmichi.dev/3laofnohynf2o) | [@dnsmichi](https://bsky.app/profile/dnsmichi.dev) |
+| [AI/ML](https://bsky.app/starter-pack/dnsmichi.dev/3l7szgjersb2e) | [@dnsmichi](https://bsky.app/profile/dnsmichi.dev) |
+| [Platform Engineering](https://bsky.app/starter-pack/bryanross.me/3l7pz6aoenx2s) | [Bryan Ross](https://bsky.app/profile/bryanross.me) |
+
+Other community maintained starter packs:
+
+| Starter Pack | Maintainer |
+|--------------|------------|
+| [DevRel](https://bsky.app/starter-pack/matty.wtf/3l6xheltlof2a) | [Matty Stratton](https://bsky.app/profile/matty.wtf) |
+| [DevOps](https://bsky.app/starter-pack/matty.wtf/3l6xh3p7du42o) | [Matty Stratton](https://bsky.app/profile/matty.wtf) |
+| [CloudNative](https://bsky.app/starter-pack/justingarrison.com/3kvwk4rncwb2k) | [Justin Garrison](https://bsky.app/profile/justingarrison.com) |
+| [The world of open source](https://bsky.app/starter-pack/kelset.dev/3l7vrkvoxh225) | [Lorenzo Sciandra](https://bsky.app/profile/kelset.dev) |
+| [Diversify Tech's Starter Pack](https://bsky.app/starter-pack/diversifytech.com/3l7bakgvapc2m) | [Diversify Tech](https://bsky.app/profile/diversifytech.com) |
+| [Ruby, Rails and Web](https://bsky.app/starter-pack/julianpinzon.com/3l7zyk5zr6u2m) | [Julián Pinzon](https://bsky.app/profile/julianpinzon.com) |
+| [Ruby on Rails](https://bsky.app/starter-pack/joshuawood.net/3kw3olx5gf72m) | [Joshua Wood](https://bsky.app/profile/joshuawood.net) |
+| [Python](https://bsky.app/starter-pack/savannah.dev/3l7y3twh7xm2l) | [Savannah Ostrowski](https://bsky.app/profile/savannah.dev) |
+| [NLP Researchers](https://bsky.app/starter-pack/mariaa.bsky.social/3la4hhvdgsp2s) | [Maria Antoniak](https://bsky.app/profile/mariaa.bsky.social) |
+| [Data](https://bsky.app/starter-pack/chrisalbon.com/3l7teencn4f2r) | [Chris Albon](https://bsky.app/profile/chrisalbon.com) |
+
+Complete lists and Bluesky threads are also available, but are changing fast. _Last updated 2024-11-11, external URLs._
+
+- [Bluesky Tech Starter Packs list](https://github.com/stevendborrelli/bluesky-tech-starter-packs) by Steven Borrelli
+- [Starter Packs thread on Bluesky - Dev, Cloud Native, Ops, Sec](https://bsky.app/profile/danawoodman.com/post/3l7yeqhnopp2s) by Dana Woodman
+- [Bluesky Directory - curated collection with search](https://blueskydirectory.com/) by Mubashar Iqbal
+
+#### Followers and engagements on Bluesky
+
+1. Ask team members and friends to get added to [Starter Packs](/handbook/marketing/developer-relations/developer-advocacy/social-media/#bluesky-starter-packs).
+    - Users tend to click the `Follow all` action button in Starter Packs. Example: @dnsmichi's follower count grew from 200 to 1,200 in 3 weeks when the tech community moved to Bluesky in late October 2024. Michael is in the DevRel, DevOps, CloudNative starter packs.
+1. Engage with posts and start discussions, help users with their questions from your experience.
+1. Balance GitLab focussed content with general technology thoughts, helpful tutorials, tips, memes, pictures.
 
 ### Mastodon Tips
 
@@ -148,7 +281,7 @@ Note: be cautious of phishing, spam, and other undesirable messages arriving via
     - [hachyderm.io](https://hachyderm.io): [@sugaroverflow](https://hachyderm.io/@sugaroverflow), [@john_cogs](https://hachyderm.io/@john_cogs)
     - [crashloop.social](https://crashloop.social) (small community instance operated by #EveryoneCanContribute cafe members): [@dnsmichi](https://crashloop.social/@dnsmichi)
 1. Mobile apps
-    - Mastodon on [iOS](https://apps.apple.com/de/app/mastodon-for-iphone-and-ipad/id1571998974?l=en), [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android&hl=en&gl=US&pli=1)
+    - Mastodon on [iOS](https://apps.apple.com/de/app/mastodon/id1571998974), [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android&hl=en&gl=US&pli=1)
     - Metatext on [iOS](https://apps.apple.com/de/app/metatext/id1523996615?l=en)
 1. A Tweetdeck alternative is built into the Mastodon web interface.
     - Navigate into [`Preference > Appearance`](https://docs.joinmastodon.org/user/preferences/) and select `enable advanced web interface`.
@@ -161,66 +294,33 @@ Note: be cautious of phishing, spam, and other undesirable messages arriving via
 The composer features of Twitter, Linked, Mastodon, etc. are available for posting live content. **Note** When sharing content that points to GitLab blog posts or the marketing website, always create short URLs with UTM tracking.
 
 - [LinkedIn web app](https://www.linkedin.com/). Start a new post to find the clock icon in the lower-right corner to [schedule posts](https://www.linkedin.com/help/linkedin/answer/a1347212/schedule-posts?lang=en).
-- [Twitter web app](https://twitter.com/home). The composer also allows to send scheduled tweets.
+- Bluesky: Log into the app and post content.
+- [Twitter/X web app](https://twitter.com/home). The composer also allows to send scheduled tweets.
 - Mastodon: Log into your instance and use the composer form. The [Mastodon scheduler](https://www.scheduler.mastodon.tools/) allows to schedule posts.
-- Bluesky Social: Log into the app and post content.
 
-Paid platforms provide more features, such as scheduling content shares with calendar views, threads on Twitter, live sharing across multiple social media platforms, etc. You can use [Buffer](/handbook/marketing/developer-relations/developer-advocacy/tools/#buffer) to create scheduling queues from browser extensions, mobile apps, and managed campaigns for LinkedIn, Twitter and Mastodon. In July 2023, Twitter announced a [new Tweetdeck feature exclusively for Twitter Blue subscribers](https://www.theverge.com/2023/7/3/23783092/twitter-tweetdeck-new-preview-force-legacy-apis) and deprecated the old free versions.
-
-_2023-07-01:_ Twitter [announced rate limits](https://techcrunch.com/2023/07/01/twitter-imposes-limits-on-the-number-of-tweets-users-can-read-amid-extended-outage/) for all users on the platform, and only authenticated users can see tweets. This introduces an accessibility problem: Website-embedded tweets and previews are visible, but additional engagement requires a Twitter account and login. According to Twitter, these limits are temporary.
+_2023-07-01:_ Twitter/X [announced rate limits](https://techcrunch.com/2023/07/01/twitter-imposes-limits-on-the-number-of-tweets-users-can-read-amid-extended-outage/) for all users on the platform, and only authenticated users can see tweets. This introduces an accessibility problem: Website-embedded tweets and previews are visible, but additional engagement requires a Twitter/X account and login. According to Twitter/X, these limits were temporary but the login requirement is still there on 2024-11-11. _When sharing a Twitter/X URL internally, always create a screenshot/text copy so that everyone can access the content and contribute._
 
 ### Content Sources
 
 #### Newsletters
 
-DevSecOps
-
-- [CloudSecList](https://cloudseclist.com/) (Cloud, Security)
-- [Seven-Day DevOps](https://anaisurl.com) (DevOps, Cloud, SRE)
-- [DevOps'ish](https://devopsish.com/) (DevOps, Cloud, Dev) (paused)
-- [Last week in AWS](https://www.lastweekinaws.com/) (Cloud)
-- [The New Stack](https://thenewstack.io/newsletter-archive/) (Cloud Native, DevOps)
-- [allesnurgegloud.com](https://allesnurgecloud.com/) (Cloud, German)
-- [opsindev.news](https://opsindev.news/) (Dev, DevOps, SRE, day-2-ops - @dnsmichi)
 - [GitLab Community newsletter](https://about.gitlab.com/community/newsletter/) (GitLab, DevOps, Cloud)
-
-Observability
-
-- [o11y.news](https://o11y.news/) (Observability, Monitoring, SRE)
-- [eCHO news](https://cilium.io/newsletter/) (Cloud, Network, Observability, eBPF)
-- [Monitoring Weekly](https://monitoring.love/) (Monitoring/Observability)
-- [Heavybit](https://www.heavybit.com/subscribe/) (Monitoring/Observability)
-
-General topics
-
-- [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/) (Big Tech and high-growth startups - paid subscription required)
-- [Developer Avocados 🥑 Weekly](https://tinyletter.com/developeravocados) (DevRel)
+- [CloudSecList](https://cloudseclist.com/) (Cloud, Security)
+- [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/) (Big Tech and high-growth startups - paid subscription required, ask @dnsmichi)
+- [Last week in AWS](https://www.lastweekinaws.com/) (Cloud)
+- [The New Stack](https://thenewstack.io/newsletter/) (Cloud Native, DevOps)
+- [allesnurgegloud.com](https://allesnurgecloud.com/) (Cloud, German)
 
 #### Community platforms
 
+- [GitLab Forum](https://forum.gitlab.com/) - [handbook](/handbook/marketing/developer-relations/workflows-tools/forum/)
 - [Hacker News](https://news.ycombinator.com/)
   - Search example: [Rust](https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=rust&sort=byDate&type=story)
   - Slack: [#hn-mention](https://gitlab.slack.com/archives/CBL93C22D) (internal)
-- Learning websites
-  - [o11y.love - learn Obsrvability](https://o11y.love/) (@dnsmichi maintainer)
-  - [learnk8s.io](https://learnk8s.io/) (Kubernetes, email subscription option)
-  - [100daysofkubernetes.io](https://100daysofkubernetes.io/) (Kubernetes)
 - Blogs & News
-  - [opensource.com](https://opensource.com/)
-  - [DZone](https://dzone.com/)
-  - [Geeker's digest](https://www.geekersdigest.com/)
+  - [InfoQ](https://www.infoq.com/)
+  - [The New Stack](https://thenewstack.io/)
   - [GitLab blog](https://about.gitlab.com/blog/)
-- [GitLab Forum](https://forum.gitlab.com/)
-
-#### Social Media Lists
-
-- Twitter lists: [@dnsmichi](https://twitter.com/dnsmichi/lists)
-  - [DevRel](https://twitter.com/i/lists/1288789359865606145) (220 members, 2022-12-09)
-  - [Observability & SRE](https://twitter.com/i/lists/1208410203831619588) (141 members, 2022-12-09)
-- LinkedIn
-  - Groups: [DevOps](https://www.linkedin.com/groups/2825397/)
-  - Hashtags: [#cloudnative](https://www.linkedin.com/feed/hashtag/cloudnative/)
-- [dev.to Following tags](https://dev.to/dashboard/following_tags)
 
 #### Other content sources
 
@@ -266,46 +366,6 @@ Example: Chromium build times discussion led to [Self-Managed GitLab with auto-s
 - Post something funny, use an animated GIF which relates to a tech story. Something which makes you laugh when you look at it.
 
 When you find something interesting to be shared with our brand account, please share it on Slack in [#social_media_action](https://gitlab.slack.com/archives/C01AZ9C8Z4G) and retweet by yourself too.
-
-### Thought Leader Examples
-
-- Kelsey Hightower: [@kelseyhightower](https://twitter.com/kelseyhightower) 160k+ (cloud-native)
-- Emily Freeman: [@editingemility](https://twitter.com/editingemily) 70k+ (cloud)
-- Liz Rice: [@lizrice](https://twitter.com/lizrice) 26k+ (cloud-native, security, observability
-- Charity Majors: [@mipsytipsy](https://twitter.com/mipsytipsy) 77k+ (observability, SRE, cloud-native)
-- Jaana Dogan: [@rakyll](https://twitter.com/rakyll) 101k+ (cloud)
-- Cassidy Williams: [@casidoo](https://twitter.com/cassidoo) 180k+ (dev)
-- Scott Hanselman: [@shanselman](https://twitter.com/shanselman) 280K+ (dev)
-- Marko Denic: [@denicmarko](https://twitter.com/denicmarko) 110k+ (dev)
-- Nader Dabit: [@dabit3](https://twitter.com/dabit3) 100K+ (web3, dev)
-- Julia Evans: [@b0rk](https://twitter.com/b0rk) 200K+ (dev, learning zines)
-- Emma Bostian: [@emmabostian](https://twitter.com/EmmaBostian) 200k+ (dev, design)
-- Ali Spittel: [@ASpittel](https://twitter.com/ASpittel) 126k+ (dev, cloud)
-- Corey House: [@housecore](https://twitter.com/housecor) 70k+ (dev, learn)
-- Forrest Brazeal: [@forrestbrazeal](https://twitter.com/forrestbrazeal) (cloud, DevOps, cartoons)
-
-### Thought Leader Efficency Tips
-
-The following tips evolved from @dnsmichi experimenting with thought leadership strategies and efficiency.
-
-- Follow [thought leaders](/handbook/marketing/developer-relations/developer-advocacy/social-media/#thought-leader-examples) and engineers who share thoughts and interesting content.
-  - Eventually users follow back - the more invisible benefit is that the Twitter and LinkedIn algorithms will show you more content you potentially like to see.
-- Repurpose everyone's content and use it as a way to learn and educate.
-- Subscribe to the [newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources) and extract your focus topics and content.
-- Do not immediately retweet/reshare tweets or content you see in your social streams. Collect them in a GitLab issue, Markdown file in Git, etc.
-  - Evaluate potential trending topics and prioritize the [scheduled tweets queue](/handbook/marketing/developer-relations/developer-advocacy/social-media/#sharing-content).
-- Collect all blog articles, tweets, and tools for daily use and compile them into a monthly blog post or newsletter issue.
-  - Create 1-2 sentences sharing your thoughts on the article, its content, what you liked, what you see as a emerging trend, etc.
-  - Publish the newsletter / blog post and tag all folks who contributed to your success in a Twitter thread / LinkedIn post. This shows appreciation and helps with engagement and reshares. Example: Dotan appreciated his talk being shared, and [reshared the newsletter post](https://www.linkedin.com/posts/horovits_how-much-observability-is-enough-activity-6935487128235569152-beqn/).
-- Make room for your own content based on what you learn from the articles and talks.
-  - Seed this into the summary blog and newsletter.
-- Regularly review your learnings and adjust themes and messaging.
-  - Update talk stories and thoughts based on the learned ideas.
-
-The [August 2022 issue of Michael's opsindev.news newsletter](https://opsindev.news/archive/2022-08-16/) helped fill the social media queue for 2-3 weeks, with 2 shares during week days. That way folks stay engaged on Twitter and LinkedIn, and learn about your thought leadership on these topics. The content also inspired future talks messaging, and helped update the [strategy for Observability in FY23](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2593).
-
-- [Newsletter text](https://opsindev.news/archive/2022-08-16/): `The first release of Cilium Service Mesh is available following the release of Cilium 1.12. "eBPF-Native When Possible" - Besides the option to remove sidecars, Cilium Service Mesh can perform a variety of service mesh features directly in eBPF to reduce the overhead even further.`
-- [Twitter text](https://twitter.com/dnsmichi/status/1559969314643525632): `The first release of @ciliumproject #ServiceMesh (https://buff.ly/3w89QG2) is available following the release of #Cilium 1.12 (https://buff.ly/3K4xB7B). #eBPF-Native When Possible - perform a variety of service mesh features directly in eBPF to reduce the overhead even further 🚀`
 
 ## Social Campaigns
 
@@ -363,8 +423,8 @@ Workflow:
   - Example from [14.9, LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q): `Shoutout to Timo Furrer for becoming the GitLab 14.9 MVP 🎉 Your work on the #Terraform provider, automating all things GitLab, is invaluable. Thanks for all your contributions! 💜 🦊 #EveryoneCanContribute https://about.gitlab.com/releases/2022/03/22/gitlab-14-9-released/#mvp`
 - Post the MVP share on Twitter and LinkedIn
   - Add the URLs to the release evangelism issue
-- Ask Sid in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
-  - Suggested actions: Reshare/like, add a comment thanking for the contributions. Follow the [CEO voice](/handbook/ceo/#ceo-voice) to suggest a text to copy.
+- Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
+  - Suggested actions: Reshare/like, add a comment thanking for the contributions. 
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 
@@ -426,7 +486,7 @@ Developer Advocates will take the end-user point-of-view and help review the rel
 - Suggest promoting a feature to primary.
 - Add a feature from the Changelog, seeing huge impact or a missing addition.
 
-The first pilot experiment was established with our [Verify product group](/handbook/product/categories/verify/) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
+The first pilot experiment was established with our [Verify product group](/handbook/product/categories/#verify-stage) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
 
 ### Product Feedback
 

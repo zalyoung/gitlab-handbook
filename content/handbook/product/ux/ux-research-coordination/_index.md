@@ -1,5 +1,5 @@
 ---
-title: "UX Research Operations (ReOps) Coordination at GitLab"
+title: "UX Research Operations (ReOps) at GitLab"
 description: "We empower UX Research DRIs with the resources needed for efficient and high-quality research, enabling team members to focus on generating insights that drive exceptional user experiences and product innovation."
 ---
 
@@ -16,7 +16,7 @@ Here are some key aspects of UX Research Operations in GitLab:
 1. Training and support
 1. Logistics and Administration
 
-The ReOps Coordinator drives all of the above aspects. And often, Research DRIs can lead the ReOps aspects of their own projects, with the ReOps Coordinator's supervision.
+The ReOps team drives all of the above aspects. And often, Research DRIs can lead the ReOps aspects of their own projects, with the ReOps Coordinator's supervision.
 
 ## Our Strategy
 

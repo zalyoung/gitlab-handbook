@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/triggers"
 ## What are Zendesk triggers?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203662246-About-triggers-and-how-they-work):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work):
 
 > Triggers are business rules you define that run immediately after tickets are
 > created or updated. For example, a trigger can be used to notify the customer

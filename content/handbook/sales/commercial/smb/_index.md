@@ -31,8 +31,8 @@ Small and Medium Size Business Account Executives "SMB AE" act as Account Execut
 #### SMB Support
 
 - **SMB Training Support** = [`#smb_training_support`](https://app.slack.com/client/T02592416/CKYLWKGJU)
-- **Sales Support** = [`#sales-support`](http://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
-- **Questions** = [`#questions`](http://app.slack.com/client/T02592416/C0AR2KW4B)
+- **Sales Support** = [`#sales-support`](https://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
+- **Questions** = [`#questions`](https://app.slack.com/client/T02592416/C0AR2KW4B)
 
 #### Closed deals
 
@@ -105,7 +105,7 @@ Customer success planning should be broken into three categories based off the p
 - [Outreach](/handbook/marketing/marketing-operations/outreach/) - Email Sequencing
 - [Periscope](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) - Data Visualization
 - Salesforce - Customer Relationship Management
-- [Scratchpad](https://scratchpad.com/) - Editing tool for Salesforce
+- [Scratchpad](https://www.scratchpad.com/) - Editing tool for Salesforce
 - [Version GitLab](https://version.gitlab.com/users/sign_in)- Customer Product Usage
 - Xactly - Commission Calculator
 - [ZenDesk](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) - Ticketing system

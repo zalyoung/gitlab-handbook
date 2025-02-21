@@ -164,14 +164,14 @@ The Director, Sales Commissions is a [grade 10](/handbook/total-rewards/compensa
 - Deep SFDC, Xactly Incent expertise and knowledge of typical enterprise SaaS tools
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Hiring Process
 
 Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to interview with 2-5 teammates
 - There may be a final executive interview

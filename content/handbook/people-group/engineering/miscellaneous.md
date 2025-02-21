@@ -32,14 +32,6 @@ Team members can edit their export preferences at any time by following [this jo
 - In the event that a daily sync is not merged the same day, that is fine, we can close the outdated MR and merge the most recent as this will contain the latest changes only updating files currently included in the handbook.
 - Pipelines may fail when adding to the merge train if a team member edited their team page entry after the MR was opened, most can be resolved by using the `/rebase` quick action, or by resolving conflicts manually. As above, these will usually resolve themselves on the next sync.
 
-## Parental leave PTO to BambooHR
-
-We run a daily check to see if any new Parental leave PTO was requested for the day before on Time Off by Deel. If there are any PTO events created on that day, we will add 3 employment statuses to the team member's BambooHR profile:
-
-- One with the status `Parental Leave` with the date the start date of the PTO event
-- One with the status `End of Parental Leave` with the date the end of the PTO event
-- One with the status `Active` with the date the end date of the PTO event + 1
-
 ## Sensitive data compliant Time Off by Deel export
 
 Every week, a scheduled job queries all PTO events occurring during a ±4 week time frame. Sensitive information (eg. the *type* of PTO taken) is then filtered out from these PTO events. The compliant data is then uploaded to a Google Cloud Storage bucket for the data analytics team to consume.

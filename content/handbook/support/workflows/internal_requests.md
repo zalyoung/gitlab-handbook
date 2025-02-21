@@ -52,7 +52,7 @@ graph TD;
 
 ## Activate Trial Runners
 
-For sales assisted trials, only we can override the credit card validation requirement for a namespace. See [Internal Requests > SaaS Trial Related > Change an existing SaaS trial plan]({{< ref "internal-support#internal-requests" >}}) for instructions on how to perform this task.
+For sales assisted trials, only we can override the credit card validation requirement for a namespace. See [Internal Requests > SaaS Trial Related > Change an existing SaaS trial plan](/handbook/support/internal-support/#internal-requests) for instructions on how to perform this task.
 
 ## GitLab.com Trial Change Request
 
@@ -60,7 +60,7 @@ Sales team members will typically open this on behalf of their prospects in orde
 
 ## Ask for Support as a Solution Architect
 
-Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
+Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). This form is an internal request, which means the work takes place between the SA and the engineer. Customers can not collaborate on these tickets. In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
 
 ## Inactive Namespace Request
 

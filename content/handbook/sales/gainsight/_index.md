@@ -49,7 +49,7 @@ Your timezone is dependent on your timezone in Salesforce, so even if you change
 
 ### Configure your notifications
 
-To adjust your individual notifications, click on your name in the upper right corner, select "My Settings", then "Notifications" at the top middle. The below pictures show the default, and you will have the following options to select based on your preferences. View Gainsight's [documentation](https://support.gainsight.com/Gainsight_NXT/Notifications/User_Guides/Setup_User_Notifications) for more information.
+To adjust your individual notifications, click on your name in the upper right corner, select "My Settings", then "Notifications" at the top middle. The below pictures show the default, and you will have the following options to select based on your preferences. View Gainsight's [documentation](https://support.gainsight.com/gainsight_nxt/Notifications/User_Guides/Setup_User_Notifications) for more information.
 
 ![Gainsight Channel Subscriptions](/images/handbook/customer-success/gainsight-channel-subscriptions.png "Gainsight Channel Subscriptions")
 
@@ -95,7 +95,7 @@ This is because two SFDC accounts were merged into one. What happens is this:
 
 #### Error "Timeline: Invalid authentication credentials. Authentication failed" (Chrome users only)
 
-Usually, this type of error occurs if the Chrome extension version is out of date. Try [updating the Chrome extension](https://community.gainsight.com/timeline-17/update-your-chrome-plugin-39237) to the latest version. It should automatically refresh and begin working, but try logging out and back in if it doesn't resolve right away.
+Usually, this type of error occurs if the Chrome extension version is out of date. Try [updating the Chrome extension](https://communities.gainsight.com/customer-success-cs-15/update-your-chrome-plugin-10392) to the latest version. It should automatically refresh and begin working, but try logging out and back in if it doesn't resolve right away.
 
 If this doesn't solve the issue, reach out to [Gainsight support](#support-tickets) and let them know you've already tried updating the extension and logging out and back in.
 

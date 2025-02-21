@@ -23,8 +23,8 @@ How to facilitate Cognitive Bias exercise:
 
 Step by Step guide to continuously focus discussions on cognitive bias & psychological safety
 
-1. Pick a topic from this [list](https://www.linkedin.com/learning/overcoming-cognitive-bias/make-better-decisions-by-understanding-bias-2?u=2255073) to discuss during your team meetings at a regular cadence. Plan to dedicate 15 mins to such discussions. The discussion topic can revolve around :
+1. Pick a topic from this [list](https://www.linkedin.com/learning/overcoming-cognitive-bias-2022) to discuss during your team meetings at a regular cadence. Plan to dedicate 15 mins to such discussions. The discussion topic can revolve around :
    - <span class="colour" style="color: rgb(60, 64, 67);"> Identifying with the bias & to provide some real-life examples</span>
    - <span class="colour" style="color: rgb(60, 64, 67);">What actions can we take if we recognize we have that bias in order to create a psychologically safe environment.</span>
 1. Make sure to pick the moderator & a topic for your next meeting.
-1. Please use this LinkedIn learning [course](https://www.linkedin.com/learning/overcoming-cognitive-bias/make-better-decisions-by-understanding-bias-2?u=2255073) to schedule deeper discussions around this for the interested audience.
+1. Please use this LinkedIn learning [course](https://www.linkedin.com/learning/overcoming-cognitive-bias-2022) to schedule deeper discussions around this for the interested audience.

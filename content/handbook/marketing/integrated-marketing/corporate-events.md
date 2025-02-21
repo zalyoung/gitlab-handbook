@@ -23,7 +23,7 @@ twitter_creator: gitlab
   * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
   * The primary goal is always driving brand awareness but that cannot be the only result.
 * Owned events
-  * [GitLab DevSecOps World Tour](https://about.gitlab.com/events/commit/), our User & Customer Conference
+  * [GitLab DevSecOps World Tour](https://about.gitlab.com/events/), our User & Customer Conference
 * Internal events
   * GitLab Summit, our internal company and core community event
   * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
@@ -461,7 +461,7 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
 
 ## Virtual Events at GitLab
 
-At GitLab, the Corporate Events team owns events that meet specific criteria (link), including those events that have a global hybrid or virtual element. By design, virtual events at GitLab are not a simple video call nor are they a static playlist. GitLab virtual events aim to retain the same [brand personality](https://design.gitlab.com/brand-overview/resources), engagement, inclusivity, and fun as our in-person events.
+At GitLab, the Corporate Events team owns events that meet specific criteria (link), including those events that have a global hybrid or virtual element. By design, virtual events at GitLab are not a simple video call nor are they a static playlist. GitLab virtual events aim to retain the same [brand personality](https://design.gitlab.com/brand-overview/resources/), engagement, inclusivity, and fun as our in-person events.
 
 ### Lead time
 

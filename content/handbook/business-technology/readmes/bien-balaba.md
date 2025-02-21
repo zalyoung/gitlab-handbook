@@ -1,5 +1,6 @@
 ---
 title: "Bien Balaba's README"
+description: "Personal README for Bien Balaba"
 job: "Systems Analyst - Enterprise Applications"
 ---
 

@@ -36,4 +36,4 @@ You can read a detailed analysis of Cloudflare workers in <https://gitlab.com/gi
 - We considered [Istio](https://gitlab.com/gitlab-org/gitlab/-/issues/433472) but concluded that it's not the right fit.
 - We considered [Request Buffering](../rejected/proposal-stateless-router-with-buffering-requests.md)
 - We considered [Routes Learning](../rejected/proposal-stateless-router-with-routes-learning.md)
-- Use WASM for Cloudflare workers which is the wrong choice: <https://blog.cloudflare.com/webassembly-on-cloudflare-workers#whentousewebassembly>
+- Use WASM for Cloudflare workers which is the wrong choice: <https://blog.cloudflare.com/webassembly-on-cloudflare-workers/#whentousewebassembly>

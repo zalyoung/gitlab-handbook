@@ -49,6 +49,8 @@ Before you get started, complete the following:
 
 ### Task B. Install necessary dependencies
 
+1. Before proceeding with installing dependencies, ensure that your repository is updated by running `sudo apt-get update`.
+
 1. Install Postfix so GitLab can send notification emails by using the command below:
 
     ```bash
@@ -81,7 +83,7 @@ Before you get started, complete the following:
     ```
 
     > This step may take a few minutes to complete.
-    > For this example, we added `http://` to the front of the URL. For this set of labs, we are using the `http` protocol. If you are installing GitLab in a production environment, it is recommended to use `https://` to use the `https` protocol.
+    > For this example, we added `https://` to the front of the URL. For this set of labs, we are using the `http` protocol. If you are installing GitLab in a production environment, it is recommended to use `https://` to use the `https` protocol.
 
 ### Task D. Login and reset password
 

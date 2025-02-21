@@ -31,7 +31,7 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
 >
 > - On macOS, install `brew` for all the things
 >   - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-> - You need to have the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) installed. e.g.
+> - You need to have the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) installed. e.g.
 >   - `curl -L https://aka.ms/InstallAzureCli | bash`
 >   - `sudo az acs kubernetes install-cli`
 > - Install `helm`

@@ -1,4 +1,6 @@
-# Cost of Observability Stack
+---
+title: Cost of Observability Stack
+---
 
 ## Elastic Cloud Costs (Snowflake)
 

@@ -24,7 +24,7 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 ### User
 
 1. Asking probing questions in customer discovery meetings
-1. Engaging with our community alongside our [Developer Relations team](/handbook/marketing/developer-relations/) and [triaging](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#issue-triaging) community generated issues and ideas
+1. Engaging with our community alongside our [Developer Relations team](/handbook/marketing/developer-relations/) and [triaging](https://docs.gitlab.com/development/contributing/issue_workflow/#issue-triaging) community generated issues and ideas
 1. Reviewing top up voted issues
 1. Engagement directly with customers and via the [customer](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=customer) label
 1. [Requesting](/handbook/product/ux/ux-research/#how-to-request-research) and analyzing [results](https://gitlab.com/gitlab-org/uxr_insights) from [UX research](/handbook/product/ux/ux-research/).

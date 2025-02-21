@@ -1,0 +1,34 @@
+# Error: handbook.FrontmatterTitle
+#
+# Ensures that 'title:' exists in page frontmatter
+#
+---
+extends: script
+message: "Page must have title specified in frontmatter."
+link: https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/blob/main/content/docs/frontmatter.md
+level: error
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+  frontmatterDelimiterCount := 0
+  frontmatter := ""
+
+  for line in text.split(scope, "\n") {
+    // If we've matched '---' once, start storing the frontmatter content
+    if frontmatterDelimiterCount == 1 {
+      frontmatter += line
+    }
+    // If we've matched '---' twice, we don't need any more content
+    if frontmatterDelimiterCount == 2 {
+      break
+    }
+    // Note if we've located a frontmatter delimiter.
+    if text.re_match("^---", line) {
+      frontmatterDelimiterCount++
+    }
+  }
+
+  if !text.re_match("[tT]itle: ", frontmatter) {
+      matches = append(matches, { begin: 1, end: 1 })
+  }

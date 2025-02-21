@@ -43,7 +43,7 @@ different uses of the word `pod` in the GitLab context.
 | [Licensing and Renewals](licensing-and-renewals) | [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) | <ul><li>{{< member-by-name "Bethany Mcgrew" >}}</li></ul> |
 | [Performance and Reliability](performance-and-reliability) | [#spt_pod_performance](https://gitlab.enterprise.slack.com/archives/C04DP058MT2) | <ul><li>{{< member-by-name "Cody West" >}}</li></ul> |
 | [Runner](runner) | [#spt_pod_runner](https://gitlab.enterprise.slack.com/archives/C05MBS5RZ50) | <ul><li>{{< member-by-name "Justin Farmiloe" >}}</li><li>{{< member-by-name "Tony Marsh" >}}</li></ul> |
-| [Secure](secure) | [#spt_pod_secure](https://gitlab.enterprise.slack.com/archives/C03FV8G5LV7) | <ul><li>{{< member-by-name "Katrin Leinweber" >}}</li><li>{{< member-by-name "Brie Carranza" >}}</li></ul> |
+| [Sec](sec) | [#spt_pod_sec](https://gitlab.enterprise.slack.com/archives/C03FV8G5LV7) | <ul><li>{{< member-by-name "Katrin Leinweber" >}}</li><li>{{< member-by-name "Brie Carranza" >}}</li></ul> |
 | [Training](training) | [#spt_pod_training](https://gitlab.enterprise.slack.com/archives/C06P0J75H6Y) | <ul><li>{{< member-by-name "Matthew Badeau" >}}</li><li>{{< member-by-name "John Gaughan" >}}</li></ul> |
 | [Upgrade](upgrade) | [#spt_pod_upgrade](https://gitlab.enterprise.slack.com/archives/C04MEHW7J4W) | |
 

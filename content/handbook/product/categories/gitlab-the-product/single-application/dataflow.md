@@ -1,5 +1,6 @@
 ---
 title: Data flow GitLab vs. multiple applications
+description: "About the data flow in GitLab"
 ---
 
 How does having one application vs many applications impact workflow?

@@ -21,7 +21,7 @@ The GitLab Professional Education Services team currently provides the following
 
 - [Live Instructor-led training (ILT)](https://about.gitlab.com/services/education/)
 - [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/) as Professional Service offerings.
-- [Train-the-Trainer](https://about.gitlab.com/services/education/train-the-trainer/)
+- [Train-the-Trainer](https://university.gitlab.com/pages/train-the-trainer-training/)
 
 ### Immediate Priorities
 
@@ -76,7 +76,7 @@ Note that participation in this program is limited and requires GitLab program t
       </td>
       <td>
 
-TSP can provide [GitLab Education Services](https://about.gitlab.com/services/education) by purchasing GitLab student kits and then delivering instructor-led training courses in GitLab LevelUp.
+TSP can provide [GitLab Education Services](https://about.gitlab.com/services/education/) by purchasing GitLab student kits and then delivering instructor-led training courses in GitLab LevelUp.
       </td>
   </tr>
   <tr>

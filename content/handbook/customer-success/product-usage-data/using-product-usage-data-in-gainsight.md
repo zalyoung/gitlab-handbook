@@ -207,7 +207,7 @@ The instance types are synced from Gainsight to Snowflake weekly and updated Sun
 
 When an account has multiple GitLab instances identified as Production (Instructions on how to [Update Self-Managed Instance Type](#self-managed)).
 
-Health Scores are now calculated by aggregating usage data at the Account level combining all the instances across the organization as well as in Gainsight health scoring. The values are provided to Gainsight and the proper Red/Yellow/Green values are displayed based on the following [thresholds](handbook/customer-success/product-usage-data/use-case-adoption/). 
+Health Scores are now calculated by aggregating usage data at the Account level combining all the instances across the organization as well as in Gainsight health scoring. The values are provided to Gainsight and the proper Red/Yellow/Green values are displayed based on the following [thresholds](/handbook/customer-success/product-usage-data/use-case-adoption/).
 
 Users will still need to verify and assign which instance is the primary one if there are any issues observed.
 
@@ -297,12 +297,12 @@ When they activate with Cloud Licensing, customers share `Subscription Data`, wh
   - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
 - **Service Ping**: a service that collects the payload including Subscription, Operational, and Optional Metrics
   - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
-- **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](https://about.gitlab.com/services/customer-success-services/))
+- **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](/handbook/customer-success/csm/digital-journey/))
   -. Available on 14.1+
 
 **References**:
 
-- [Customer Success Services](https://about.gitlab.com/services/customer-success-services/) (client facing)
+- [Customer Success Services](/handbook/customer-success/csm/digital-journey/) (client facing)
 - [Operational Data Vision](/handbook/customer-success/product-usage-data/)
 - [Cloud Licensing Documentation](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/cloud-licensing/) (internal handbook)
 - [Strict Cloud Licensing](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/strictcloudlicensing/) (internal handbook)

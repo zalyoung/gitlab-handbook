@@ -296,7 +296,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - mjozenazemian
     - sgillespie
   gitlab_saas_tag: '@gitlab-com/gl-security/security-operations/sirt'
-  slack_channel: '#security-department'
+  slack_channel: '#security-division'
   handbook_page: 'https://handbook.gitlab.com/handbook/security/security-operations/sirt/'
   issue_tracker: '/security'
 ```

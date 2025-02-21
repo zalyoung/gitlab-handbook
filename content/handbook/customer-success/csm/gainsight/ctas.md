@@ -3,7 +3,7 @@ title: "Calls to Action (CTAs)"
 description: "The Gainsight guide to using Calls to Action (CTAs) to assist you managing your accounts, making sure customers' needs are addressed, and planning for what's next."
 ---
 
-A [CTA](https://support.gainsight.com/Gainsight_NXT/04Cockpit_and_Playbooks/01About/CTAs_Tasks_and_Playbooks_Overview) is a call to action that is tied to a customer and appears in a CSM's cockpit, as well as the account cockpit. CTAs can be created manually at any time, but some will automatically be created for you based on certain events or data.
+A [CTA](https://support.gainsight.com/gainsight_nxt/04Cockpit_and_Playbooks/Cockpit_Version_-_Archived/About/Archived_CTAs%2C_Tasks%2C_and_Playbooks_Overview) is a call to action that is tied to a customer and appears in a CSM's cockpit, as well as the account cockpit. CTAs can be created manually at any time, but some will automatically be created for you based on certain events or data.
 
 To create a new CTA, go to your cockpit and click "+ CTA", then fill out the appropriate information. If a CTA will consist of multiple tasks over a period of time, click CTA after saving it, then click the three dots on the top right of the new right sidebar, and click "Add Task". You can add as many as needed and track your progress in the milestone section.
 
@@ -128,4 +128,4 @@ When a CTA is snoozed, it will not appear in the main Cockpit until the snooze e
 
 To request additional Snooze options, please open an issue in the [Gainsight issue tracker](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
-For more information and illustrations, review [Gainsight's documentation](https://support.gainsight.com/Gainsight_NXT/04Cockpit_and_Playbooks/Cockpit_Version_-_Old/User_Guides/Using_Call_to_Action_(CTA)_and_Task_Detail_Views#How_to_Use_the_Snooze_Option).
+For more information and illustrations, review [Gainsight's documentation](https://support.gainsight.com/gainsight_nxt/04Cockpit_and_Playbooks/Cockpit_Version_-_Archived/User_Guides/Archived_Using_Call_to_Action_(CTA)_and_Task_Detail_Views#How_to_Use_the_Snooze_Option).
