@@ -891,6 +891,8 @@ It is critical that any reference to asset number in Marketo automation (not tok
   - **Flow** (confirm that program references match the Marketo program name): 
   - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. 
   - If you add any SFDC campaigns to the list, be sure to use "Content Syndication asset CONTAINS Asset x -" in your filter.
+  - **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+  - `Step 6 - Execute Campaign` (Content Syndication Asset) - If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 - `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign. 
@@ -906,7 +908,7 @@ This applies to a manual upload or the sync from DAP.
 
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
-It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1. These instructions apply to the "Content Syndication Asset 2" for double touch campaigns field as well.
 
 ### Step 6: Test lead flow into your Content Syndication programs
 
@@ -914,7 +916,8 @@ There are a few common errors we see with Content Syndication leads. You can add
 
 - `Employee Bucket` (Employee count): Values [here](/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
 - `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.
-- `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
+- `Content Syndication Asset`: Required field. The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
+- `Content Syndication Asset 2`: Only required for double touch campaigns. This value should be pushed as blank otherwise. The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
 - After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.
 
 1. After the test lead is submitted, go to Marketo, click on the "Database" tab, and enter the email address of the test record in the search box under "Quick Find". You can always get to this box by clicking on the "Default" folder in the left sidebar.
@@ -991,6 +994,8 @@ It is critical that any reference to asset number in the Marketo automation belo
 - `01 Processing`
   - **Flow**: 
   - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+ - **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+  - `Step 6 - Execute Campaign` (Content Syndication Asset) - If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
   - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
@@ -999,7 +1004,7 @@ It is critical that any reference to asset number in the Marketo automation belo
 
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
-It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1. These instructions apply to the "Content Syndication Asset 2" for double touch campaigns field as well.
 
 ### Step 7: Test the new asset in your Content Syndication programs
 
