@@ -99,11 +99,11 @@ Which are formed as follows:
 
 [LOC-SPANISH](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR3050A1LA1)
 
-## Action streams 
+### Action streams
 
-In FY26 Q1, we  began evolving our person-based nurture strategy by launching our first intent-based nurture program, where we tailor our messaging based on our lead’s interest.
+In FY26 Q1, we  began evolving our person-based nurture strategy by launching our first intent-based nurture program, where we tailor our messaging based on our lead's interest.
 
-These send weekly at the same time as our Persona nurture. 
+These send weekly at the same time as our Persona nurture.
 
 Example of how this works:
 
@@ -126,12 +126,12 @@ What happens after they finish the action stream?
  
 *Requested Flow (Existing)*
 
-* If existing person has not exhausted content on regional nurture, do not move to action stream. 
+* If existing person has not exhausted content on regional nurture, do not move to action stream
 * If content is exhausted or they aren't in regional nurture, move to action stream
   * If customer (or segment changes to customer), move/keep in regional nurture
-* If they take a trial, pause Action Stream, move to trial nurture. Restart action stream when trial nurture completes.
+* If they take a trial, pause Action Stream, move to trial nurture. Restart action stream when trial nurture completes
 * After action stream content is exhausted, move to regional nurture
-* If preferred language changes (from EN or other language we send EN nurture to), move to localized nurture 
+* If preferred language changes (from EN or other language we send EN nurture to), move to localized nurture
 * If emailable status changes, pause nurture
 
 #### Links
