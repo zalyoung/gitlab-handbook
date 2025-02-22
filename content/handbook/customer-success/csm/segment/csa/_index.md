@@ -14,7 +14,7 @@ The Customer Success Architect (CSA) is an experienced advisor who combines deep
 
 - Design optimal solutions tailored to your specific needs
 - Anticipate and address potential challenges
-- - Leverage their implementation experience to guide your success
+- Leverage their implementation experience to guide your success
 - Work closely with you to understand and achieve your business objectives
 
 1. **Accelerator Program Implementation**: Your CSA will lead focused 12-week accelerator programs aligned with your strategic goals. These programs provide:
