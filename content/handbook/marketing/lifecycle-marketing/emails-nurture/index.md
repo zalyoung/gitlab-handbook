@@ -115,7 +115,7 @@ What happens after they finish the action stream?
 * Go back into the persona nurture
 * Once we have other nurtures, can go into recycled or whatever level makes sense
 
-#### Flow (New)
+*Flow (New):*
 
 * New person created, add to action stream based on program token
   * If preferred language one that we have a nurture stream for, bypass action stream and put in localized nurture
@@ -124,7 +124,7 @@ What happens after they finish the action stream?
 * After they exhaust content on action stream, move to regional nurture
 * If emailable status changes, pause nurture
  
-#### Requested Flow (Existing)
+*Requested Flow (Existing)*
 
 * If existing person has not exhausted content on regional nurture, do not move to action stream. 
 * If content is exhausted or they aren't in regional nurture, move to action stream
