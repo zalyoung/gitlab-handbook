@@ -35,7 +35,7 @@ The Customer Success Architect (CSA) is an experienced advisor who combines deep
 1. **Cross-Functional Collaboration**: Your CSA works closely with GitLab teams to ensure your success:
 
 - Collaborates with Product Engineering to influence roadmap based on your needs
-- Partners with your [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer) (Signature tier) for enhanced support
+- Partners with your [Assigned Support Engineer (ASE)](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/) (Signature tier) for enhanced support
 - Coordinates with Education services to maximize your learning benefits
 - Leverages their broad internal network to accelerate innovation
 
@@ -63,7 +63,7 @@ A Customer Success Architect (CSA) is included with GitLab's Advanced and Signat
 
 **Signature Tier** 
 
-- Designated CSA and [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer)
+- Designated CSA and [Assigned Support Engineer (ASE)](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/)
 - Enhanced educational benefits (20% discount, 60 certification vouchers)
 - Up to 4 accelerators per year 
 - 24x7 coverage and faster response times for Severity 2 tickets (2 hours vs 4 hours)
