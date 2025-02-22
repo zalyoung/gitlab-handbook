@@ -71,10 +71,6 @@ The following shows the day of the week and cadence of the different streams in 
   * Portuguese: Inactive - leads rerouted to English nurtures
 * PubSec User/Buyer: Thursday, 7:00AM PT
 
-### Persona Nurture Processes
-
-Our Nurture processes have moved to our [email processes handbook page](/handbook/marketing/lifecycle-marketing/emails-processes-requests#intelligent-nurture-processes).
-
 #### Persona Nurture Reporting Process
 
 All Nurtures within persona nurture have their link directly to their specific report.
@@ -108,26 +104,31 @@ Which are formed as follows:
 In FY26 Q1, we  began evolving our person-based nurture strategy by launching our first intent-based nurture program, where we tailor our messaging based on our lead’s interest.
 
 These send weekly at the same time as our Persona nurture. 
+
 Example of how this works:
+
 * Lead comes in on security asset and we send security content.
 * Lead comes in on an industry asset or is segmented into an industry, then they would go into the industry action stream
 
 What happens after they finish the action stream?
+
 * Go back into the persona nurture
 * Once we have other nurtures, can go into recycled or whatever level makes sense
 
 #### Flow (New)
+
 * New person created, add to action stream based on program token
-   * If preferred language one that we have a nurture stream for, bypass action stream and put in localized nurture
-   * If customer, do not put in action stream, put in regional nurture
-   * If they come in from a trial, they will go through trial nurture. If they qualify for an action stream before trial nurture completes, do not move to action stream. After trial, move to regional nurture.
+  * If preferred language one that we have a nurture stream for, bypass action stream and put in localized nurture
+  * If customer, do not put in action stream, put in regional nurture
+  * If they come in from a trial, they will go through trial nurture. If they qualify for an action stream before trial nurture completes, do not move to action stream. After trial, move to regional nurture.
 * After they exhaust content on action stream, move to regional nurture
 * If emailable status changes, pause nurture
  
-####  Requested Flow (Existing)
+#### Requested Flow (Existing)
+
 * If existing person has not exhausted content on regional nurture, do not move to action stream. 
 * If content is exhausted or they aren't in regional nurture, move to action stream
-    * If customer (or segment changes to customer), move/keep in regional nurture
+  * If customer (or segment changes to customer), move/keep in regional nurture
 * If they take a trial, pause Action Stream, move to trial nurture. Restart action stream when trial nurture completes.
 * After action stream content is exhausted, move to regional nurture
 * If preferred language changes (from EN or other language we send EN nurture to), move to localized nurture 
