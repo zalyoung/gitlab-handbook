@@ -1203,8 +1203,12 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 - No changes to steps 5 and 6.
 - Step 7: For EMEA or APAC: `7 - Change Data Value` - Delete this step. Those forms use a checkbox to gather consent, so the correct opt-in status will be applied upon submission and this step cannot be included in the flow.
 - Step 7: For AMER: `7 - Change Data Value` - No change. Keep this step. In AMER, the opt-in language is included on the form, so this step is required to complete the opt-in.
+- Step 8: `Execute campaign` - This processes Action Stream tagging. No action required on this step. This should be: Executed Campaign: Action Stream tagging: (LinkedIn) Check Asset
 - Turn on / Activate the triggered campaign in the `schedule` tab of the smart campaign
 - All LinkedIn programs with your form prefix will now flow through this campaign
+- If your new form promotes an asset that qualifies for an action stream (speak to Lifecycle Marketing to find out), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
+- Smart List: Add the name of the LinkedIn Lead Gen form in filter 1.
+- Flow: Add the name of the LinkedIn Lead Gen form in filter 1.  
 
 ### Step 5: Autoresponder email
 
