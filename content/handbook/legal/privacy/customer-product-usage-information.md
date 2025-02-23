@@ -129,7 +129,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## GitLab Duo (AI-Powered Features)
 
-*Purpose*: GitLab collects [Snowplow events](https://handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
+*Purpose*: GitLab collects [Snowplow events](/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
 
 *Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab.  
 
@@ -141,7 +141,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: GitLab Duo Metrics that are collected from GitLab.com, Dedicated, and Self-Managed are sent to our data warehouse contemporaneously.
 
-*Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
+*Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: A full list of the GitLab Duo Metrics collected can be viewed [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
 
