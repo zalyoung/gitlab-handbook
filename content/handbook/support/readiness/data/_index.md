@@ -25,23 +25,23 @@ We follow the [GitLab Pajamas Design System](https://design.gitlab.com/) [recomm
 
 Performance indicators:
 
- - **SSAT**: #5A5087 (Purple)
- - **FRT**: #D7786E (Red)
- - **NRT**: #F0AF64 (Yellow)
+- **SSAT**: #5A5087 (Purple)
+- **FRT**: #D7786E (Red)
+- **NRT**: #F0AF64 (Yellow)
 
 Ticket Priorities:
 
-  - **Low**: #FFA600 (Yellow)
-  - **Normal**: #F57F6C (Salmon)
-  - **High**: #D45384 (Magenta)
-  - **Urgent / Emergency** ##5A5087 (Purple)
+- **Low**: #FFA600 (Yellow)
+- **Normal**: #F57F6C (Salmon)
+- **High**: #D45384 (Magenta)
+- **Urgent / Emergency** ##5A5087 (Purple)
 
 Regions:
 
-   - **AMER**: #D7786E (Red)
-   - **APAC**: #5A5087 (Purple)
-   - **EMEA**: #F0AF64 (Yellow)
-   - **All Regions**: #52b87a (Green)
+- **AMER**: #D7786E (Red)
+- **APAC**: #5A5087 (Purple)
+- **EMEA**: #F0AF64 (Yellow)
+- **All Regions**: #52b87a (Green)
 
 Please see [GitLab Support Data Visualization Style Guide](https://drive.google.com/drive/u/0/search?q=GitLab%20Support%20Data%20Visualization%20Style%20Guide) (GitLab internal only) for more detail.
 
