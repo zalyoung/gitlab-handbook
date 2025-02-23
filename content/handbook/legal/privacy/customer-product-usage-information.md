@@ -121,12 +121,28 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Switchboard Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
-*Ownership*: Switchboard Metrics are owend by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).
+*Ownership*: Switchboard Metrics are owned by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).
 
-*Types of Data*: A full list of the Switchboard Mertics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
+*Types of Data*: A full list of the Switchboard Metrics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
 
 *Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics.
 
-## Usage Data for AI-Powered Features
+## GitLab Duo (AI-Powered Features)
 
-AI-powered features, such as Code Suggestions, are not encompassed by the descriptions on this page.  Those features are subject to their own collection configuration.  Usage data and telemetry collected for AI-powered features will be detailed on the GitLab Duo Docs page [here](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#telemetry).
+*Purpose*: GitLab collects [Snowplow events](https://handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
+
+*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab.  
+
+*Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the extension editor by our Snowplow collector and then sent to our data warehouse.  For Self-Managed instances, first-party Duo Metrics are collected from the extension editor, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
+
+*Personal Data Collected*:  GitLab Duo Metrics may contain the personal data of individual users in a raw format.  These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse.  These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.   
+
+*Data Sharing*: GitLab Duo Metrics are not shared with independent third-parties. All systems and software used in the collection and transfer of GitLab Duo Metrics are GitLab-controlled systems.
+
+*Cadence*: GitLab Duo Metrics that are collected from GitLab.com, Dedicated, and Self-Managed are sent to our data warehouse contemporaneously.
+
+*Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
+
+*Types of Data*: A full list of the GitLab Duo Metrics collected can be viewed [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
+
+*Opting-Out*: Currently, there is no mechanism within the GitLab settings to opt-out of GitLab Duo Metrics for an entire instance or namespace.  However, if you opt-out of telemetry in the extension editor, GitLab will honor that user-level opt-out across GitLab.com, Dedicated, or Self-Managed.
