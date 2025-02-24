@@ -68,7 +68,7 @@ Within the Epic, create an issue with the following:
 
 ## Sharing Your Innovation
 
-Once you have gathered initial feedback from your closest peers and validated the potential of your innovation, these communication steps will help you share your innovation with the larger organization:
+Once you have gathered initial feedback and validated the potential of your innovation, these communication steps will help you share your innovation with the larger organization:
 
 1. **Get Internal Feedback:**
 
