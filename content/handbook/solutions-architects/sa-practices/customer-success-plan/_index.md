@@ -46,8 +46,8 @@ The Mutual Customer Success Plan should be reviewed and accepted with a customer
 ### Opportunity Thresholds for Creating and Reviewing Mutual Customer Success Plans?
 
 1. All New or Growth Opportunities with $300k net ARR or more, in stage-3 (technical evaluation) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
-2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.
-3. All opportunities where the SA is involved in a ![*SA Validated Tech Evaluation*](../processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
+2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.  *(Opportunities that are part of a focus account have salesforce named "Compensation Target Account" checked.)*
+3. All opportunities where the SA is involved in a ![*SA Validated Tech Evaluation*](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
 
 SA Managers have discretion for additional opportunities to be included or excluded.
 
