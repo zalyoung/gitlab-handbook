@@ -135,7 +135,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the extension editor by our Snowplow collector and then sent to our data warehouse.  For Self-Managed instances, first-party Duo Metrics are collected from the extension editor, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
 
-Personal Data Collected: GitLab Duo Metrics may contain the personal data of individual users in a raw format. These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse. Specifically, we pseudonymize fields such as [user_id, namespace_id, project_id and page_url](https://metrics.gitlab.com/identifiers/) to protect user privacy while still maintaining the ability to analyze usage patterns. These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users. 
+*Personal Data Collected*: GitLab Duo Metrics may contain the personal data of individual users in a raw format. These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse. Specifically, we pseudonymize fields such as [user_id, namespace_id, project_id and page_url](https://metrics.gitlab.com/identifiers/) to protect user privacy while still maintaining the ability to analyze usage patterns. These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users. 
 
 *Data Sharing*: GitLab Duo Metrics are not shared with independent third-parties. All systems and software used in the collection and transfer of GitLab Duo Metrics are GitLab-controlled systems.
 
@@ -143,6 +143,6 @@ Personal Data Collected: GitLab Duo Metrics may contain the personal data of ind
 
 *Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
-*Types of Data*: A full list of the GitLab Duo Metrics collected can be viewed [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
+*Types of Data*: A full list of the categories of GitLab Duo Metrics collected can be viewed [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
 
 *Opting-Out*: Currently, there is no mechanism within the GitLab settings to opt-out of GitLab Duo Metrics for an entire instance or namespace.  However, if you opt-out of telemetry in the extension editor, GitLab will honor that user-level opt-out across GitLab.com, Dedicated, or Self-Managed.
