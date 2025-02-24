@@ -418,14 +418,14 @@ request.
 
 ## Engaging Distribution for expertise in support
 
-GitLab provides a unified process to request help when supporting customers. This process
-is in place to ensure we have a single-source-of-truth for those, so that we better
-collaborate cross-functionally as, many times, the requests actually required expertize
+GitLab provides a unified process to open a request for help (RFP) to support customers. This process
+is in place to ensure we have a single source of truth for those, so that we better
+collaborate cross-functionally as, many times, the requests actually requiree expertize
 of multiple areas of the product, or is not initially clear which area is more suitable
-to support the customer. When sharing the information with multiple relevant groups,
-we're able to get to a solution much more efficiently.
+to support the customer. When sharing the information with multiple relevant groups, within the
+same support request proccess, we're able to get to a solution much more efficiently.
 
-To open a request for help (RFP), refer to the procedures of our
+To open an RFP, refer to the procedures of our
 [how to get help](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help)
 handbook page.
 
