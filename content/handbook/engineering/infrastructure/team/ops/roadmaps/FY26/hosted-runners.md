@@ -22,7 +22,7 @@ In FY25, SRE supported Runners in the following chronologically-sorted efforts:
 5. Implemented the VPC re-design [across all .com runner shards](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1459)
 6. Consolidated .com [runner environment deviations in terraform](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1458)
 
-In FY26, the focus will be on enabling the runners team to to better self-service runners operational work.
+In FY26, the focus will be on enabling the runners team to better self-service runners operational work.
 
 ## North Star
 
