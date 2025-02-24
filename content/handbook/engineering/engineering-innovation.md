@@ -108,7 +108,7 @@ Once you have gathered initial feedback and validated the potential of your inno
 
 While both innovation and incubation engineering play crucial roles in GitLab’s development ecosystem, they have distinct focuses:
 
-- **Innovation at GitLab** is geared toward individual or small-team experiments that explore new ideas and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.
+- **Innovation at GitLab** is geared toward individual or small-team ideas that explore new ways to improve our product and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.
 
 - **Incubation Engineering** (detailed in the [Incubation Engineering Handbook](../engineering/development/incubation/_index.md)) is a more structured process where established teams work on early-stage, high-impact projects. These projects often require dedicated resources and are evaluated with a longer-term perspective, aiming to transition successful experiments into fully supported product areas.
 
