@@ -418,10 +418,18 @@ request.
 
 ## Engaging Distribution for expertise in support
 
-There are occasions where the experise of the Distribution team may be needed in
-support of a customer issue. When this does occur, the appropriate method of requesting
-our engagement is by opening an issue on the [Distribution team tracker](https://gitlab.com/gitlab-org/distribution/team-tasks)
-using the `Support Request` template. This process allows us to track time involved
+GitLab provides a unified process to request help when supporting customers. This process
+is in place to ensure we have a single-source-of-truth for those, so that we better
+collaborate cross-functionally as, many times, the requests actually required expertize
+of multiple areas of the product, or is not initially clear which area is more suitable
+to support the customer. When sharing the information with multiple relevant groups,
+we're able to get to a solution much more efficiently.
+
+To open a request for help (RFP), refer to the procedures of our
+[how to get help](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help)
+handbook page.
+
+This process allows us to track time involved
 and ensure that the right parties are involved at the correct time.
 
 Requests should be opened **two or more** business
