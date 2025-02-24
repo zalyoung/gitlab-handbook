@@ -49,6 +49,14 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
 
+## Scoping Work using Epics and Tech Leads
+
+Epics should be used as the primary definition of scope for any work item larger a single issue in size. This could be a new feature, a complex refactoring or bug. The issues in the epic constitute the entire scope of the work item, and when they are all closed the work is completed and the epic is closed. It may take multiple milestones to complete all work in the Epic.
+
+The technical ownership of individual work items as defined by an Epic, is delegated to a "Tech Lead", an engineer. The engineer is assigned to the Epic and ensures the scope is correct. The Tech Lead works with the EM, the PM and other engineers.
+
+Any engineer on the team can work on the issues contained in the Epic, as self-assigned using the Kanban process, including the Tech Lead themselves.
+
 ## Team Milestone Planning Process
 
 Custom Models follows the [Product Development Flow](/handbook/product-development-flow/) and [Cross Functional Prioritization](/handbook/engineering/cross-functional-prioritization/). The team uses a planning issue and boards to manage the planning process. [Planning automation](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/blob/main/doc/planning/index.md) scripts are available to make this process easier.
