@@ -321,6 +321,3 @@ our security automation initiatives.
 #### AI in Security Learning Group
 
 This group is setup to help interested Security team members get up to speed with AI technologies and how to secure them. For more information, see the [AI in Security Learning Group page](/handbook/security/learning-group-ai/).
-
-
-[def]: https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes
