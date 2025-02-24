@@ -2,11 +2,11 @@
 title: Solutions Architects Processes
 ---
 
-## Weekly SA Operating Rhythm
+## SA Opportunity Hygiene
 
-This Section of the handbood describes all the processes Solutions Architects are either responsible for or are involved in.
+This Section of the handbood describes all the processes Solutions Architects are either responsible for or are involved in, several of which require an updates and tracking in Sales Force, GitLab's record of accounts and opportunities.
 
-To increase the SA's efficiency, a checklist call the [SA's Operating Rhythm](/handbook/solutions-architects/processes/sa-operating-rhythm.md) has been created, to help you keep track of your operational responsbiliies on a weekly basis.
+To increase the SA's efficiency, a checklist of all [SA's Opportunity updates](/handbook/solutions-architects/processes/sa-opportunity-hygiene.md) has been created, to assist the SA, in keeping track their opportunity responsbiliies on a weekly basis.
 
 ## SA Process Maps
 
