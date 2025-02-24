@@ -18,7 +18,7 @@ toc_hide: true
 
 ## Background
 
-A growing number of AI models—both open-source and proprietary—are continually emerging, each with distinct characteristics such as latency, maximum token length, training approach, and output quality. Today, GitLab Duo relies on a fixed set of models for features like Code Completion, Chat, Duo Code Review, and Vulnerability Analysis. This rigidity limits administrators, operations teams, and end users in selecting the model that best suits their needs.
+A growing number of AI models—both open-source and proprietary—are continually emerging, each with distinct characteristics such as latency, maximum token length, training approach, and output quality. Today, GitLab Duo relies on a fixed set of models for features like Code Suggestions, Chat, Duo Code Review, and Vulnerability Analysis. This rigidity limits administrators, operations teams, and end users in selecting the model that best suits their needs.
 
 Additionally, whenever we introduce a new sub-processor or model, customers must undertake a thorough review and threat assessment process. These procedures that can span several months. This review is crucial for compliance and governance but also slows our ability to adopt new and potentially better-performing models.
 
@@ -40,7 +40,7 @@ We can deliver this work in iterations so that we deliver value to the customer 
 
 **Iteration 1: Instance Level Configuration**: In this phase we enable instance level configuration for `.com`, `self-managed` and `dedicated` so that administrators can choose which models need to be made available. We will also support a `default` model which will be our recommended model.
 
-**Iteration 2: IDE Settings for Code Completion**: In this iteration users will be able to see a list of allowed models in their IDE and we will allow users to pick a preferred model in their IDE for their requests. Users will be able to pick from a list of model for Code Completion only. We will also need to develop the backend APIs needed to be able to fetch the list of allowed models at the instance level.
+**Iteration 2: IDE Settings for Code Suggestions**: In this iteration users will be able to see a list of allowed models in their IDE and we will allow users to pick a preferred model in their IDE for their requests. Users will be able to pick from a list of model for Code Suggestions only. We will also need to develop the backend APIs needed to be able to fetch the list of allowed models at the instance level.
 
 **Iteration 3: IDE Settings for Chat**: This is the same as above, however this time users should be able to pick the chat model from a list. The UI will continue to use the default model.
 
@@ -69,6 +69,7 @@ erDiagram
         bigint ai_self_hosted_model_id FK
         varchar feature
         int provider
+        bool gitlab_managed_model
     }
     
     AI_SELF_HOSTED_MODELS {
@@ -223,7 +224,7 @@ The IDE must call GitLab to retrieve the list of allowed models for each feature
 **2. User Preferences**
 
 - A settings screen in the IDE lets users select their default model per feature.
-- The IDE continues to pass the chosen model in chat and code completion requests.
+- The IDE continues to pass the chosen model in chat and code suggestion requests.
 
 ```mermaid
 sequenceDiagram
@@ -240,15 +241,15 @@ sequenceDiagram
         IDE->>User: Show list of settings options in IDE
         User->>IDE: Pick model to be used for each feature
     end
-    alt Code Completion
-        User->>IDE: User performs code completion request
-        IDE->>AIGateway: Send Model in completion Request
+    alt Code Suggestions
+        User->>IDE: User performs code suggestions request
+        IDE->>AIGateway: Send Model in suggestions Request
         AIGateway->>AIGateway: Check whether model is allowed from JWT claims
-        AIGateway->>LLM: Get completion from model
-        LLM-->>AIGateway: Completion response
+        AIGateway->>LLM: Get suggestions from model
+        LLM-->>AIGateway: Suggestions response
         AIGateway->>AIGateway: Post processing
-        AIGateway-->>IDE: Send completion response
-        IDE->>User: Show completion
+        AIGateway-->>IDE: Send suggestions response
+        IDE->>User: Show suggestions
     end
     alt Chat
         User->>IDE: User interacts with Chat widget
@@ -301,6 +302,17 @@ query {
 1. When a model is depreciated / inactivated then we need a way to cascade the deprecations down to the namespace level. We will need to build a Sidekiq job that can do that.
 
 1. We need to update the UI for the current Self Hosted Models screen to allow us to choose a list of models per feature instead of a single model.
+
+1. We need a way to sync models as we release them to self managed instances as well. This could be done using a separate sidekiq job that will sync GitLab Managed models with the self-managed instance.
+
+```mermaid
+sequenceDiagram
+    Self Managed->>GitLab.com: Scheduled Sidekiq job calls GraphQL API
+    GitLab.com->>GitLab.com: Search for all GitLab Managed models
+    GitLab.com-->>Self Managed: Return list of models
+    Self Managed->>Self Managed: Insert model records and set defaults
+    Self Managed->>Administrator: Send email about new model availability
+```
 
 ### AI Gateway Changes
 
