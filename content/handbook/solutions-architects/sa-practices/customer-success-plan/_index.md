@@ -39,9 +39,11 @@ As a follow on to the [Technical Close Plan process](/handbook/solutions-archite
 
 ## When to Create a Mutual Customer Success Plan
 
-A Mutual Customer Success Plan should be initiated during stage-2 (scoping) and the first version should exist before going into stage-3 (technical evaluation).  This is when an SA begins to prescribe the GitLab solution to the prospect or customer's objectives and what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that for some SA regions, a Technical Close Plan should also be started in stage 2 or 3 and will contain the required information for a CSP.
+A Mutual Customer Success Plan should be initiated during stage-2 (scoping) and the first version should exist before going into stage-3 (technical evaluation).  This is when an SA begins to prescribe the GitLab solution to the prospect or customer's objectives and what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that for some SA regions, a Technical Close Plan should also be started in stage 2 or 3 and will contain the required information for a CSP.  
 
-### Which Opportunities Should Have a Completed First Version of a Mutual Customer Success Plan that is Reviewed with the Prospect / Customer?
+The Mutual Customer Success Plan should be reviewed and accepted with a customer at some point before stage-4.
+
+### Opportunity Thresholds for Creating and Reviewing Mutual Customer Success Plans?
 
 1. All New or Growth Opportunities with $300k net ARR or more, in stage-3 (technical evaluation) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
 2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.
