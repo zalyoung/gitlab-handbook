@@ -49,7 +49,7 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
   - *Instead* set an access expiration date when you invite a customer.
 
 - **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
-  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/user/project/settings/project_access_tokens/) or [Group Access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
 
 ## Cloud Testing Environments
 
@@ -67,7 +67,7 @@ GCP resources can belong to different [GCP projects](https://cloud.google.com/st
 
 #### GitLab Sandbox Cloud for GCP (preferred)
 
-If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
+If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
 
 **Note:** Please remember to shut down resources that you are no longer using.
 We are now using [automation scripts](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/instance-ttl-automation) to shutdown resources over the weekend. To exclude your resources from being shutdown you'll need to add the `instance-ttl-bot-ignore` label to those resources.
@@ -735,7 +735,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- <https://docs.gitlab.com/ee/install/docker/index.html>
+- <https://docs.gitlab.com/install/docker/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 
