@@ -80,10 +80,6 @@ When adding a new widget or data element to a work item type, follow the guideli
 
 ### Definition of Done (DoD) for contributing to the Work Items framework
 
-1. **Feature completeness**
-   - **Widget functionality**: Ensure the widget performs the intended task without errors and integrates with the platform as expected.
-   - **User acceptance criteria**: Ensure all user stories and acceptance criteria related to the widget, including usability requirements defined by the UX team, are satisfied.
-   - **Cross-browser and responsive design**: Verify that the widget works seamlessly across all supported browsers, devices, and viewports (e.g., desktop, tablet, and mobile screens).
 1. **Search integration**
    - **Inclusion in global search**: Ensure the new widget can be discovered using GitLab's global search functionality.
    - **Inclusion in filter options across Plan stage features**: Where relevant, ensure there is a filter option for the new widget in boards, lists and roadmap.
