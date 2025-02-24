@@ -96,8 +96,7 @@ Data triagers are the first responders to requests and problems for the Data Pro
     - Incoming incidents
     - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
     - New issues: We have a [SLO](/handbook/enterprise-data/how-we-work/#slo-for-issues-and-merge-requests) to respond within 2 business days. The Data Platform Team member on triage duty checks for open, [unassigned issues](https://gitlab.com/groups/gitlab-data/-/boards/9050723?label_name[]=Team%3A%3AData%20Platform&label_name[]=workflow%3A%3A1%20-%20triage&assignee_id=None) labeled "Data Platform Team" and "workflow::1 - triage".
-      - Triage process: The team member triages issues to ensure they meet the criteria to progress to the next stage, following the [workflow](/handbook/enterprise-data/how-we-work/#workflow-summary). If unable to triage an issue, they may assign it to the appropriate team member or team, and apply the correct labels.
-        - Note: If triage of an issue rolls over to the next week, it will not automatically be reassigned to the new team member on triage duty, as this would be inefficient.    
+      - Triage process: The team member triages issues to ensure they meet the criteria (`A clear problem statement & business value statement are included in the issue, and appropriate labels (Priority, Champion, and Team) have been applied.`) to progress to the next stage, following the [workflow](/handbook/enterprise-data/how-we-work/#workflow-summary).   
     - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
       - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
       - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
