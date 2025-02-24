@@ -54,7 +54,6 @@ These challenges often result in:
 - Implementing data stores and becoming a dataops platform
 - Developing a full-fledged MLflow server by achieving 100% MLflow API compatibility
 
-
 ## Proposal
 
 GitLab will provide a comprehensive MLOps platform built on top of existing GitLab infrastructure, leveraging and extending our CI/CD capabilities, package registry for artifact storage. The platform will support the full ML lifecycle through dedicated components while maintaining GitLab single application philosophy.
