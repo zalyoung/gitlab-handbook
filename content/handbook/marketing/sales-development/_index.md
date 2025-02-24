@@ -1196,7 +1196,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities. 
 
 - Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow. 
-- These flows will automatically include AI generated customisation as per the [video presentation here](https://www.loom.com/share/3413118b3dd545d38f9a2abe707e3082). 
+- These flows will automatically include AI generated customisation as per the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b). 
 - These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
 
 ### Sales Dev Manager Resources
