@@ -2,6 +2,11 @@
 title: Solutions Architects Processes
 ---
 
+## Weekly SA Operating Rhythm
+This Section of the handbood describes all the processes Solutions Architects are either responsible for or are involved in.
+
+To increase the SA's efficiency, a checklist call the [SA's Operating Rhythm](/handbook/solutions-architects/processes/sa-operating-rhythm.md) has been created, to help you keep track of your operational responsbiliies on a weekly basis.
+
 ## SA Process Maps
 
 The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map. This provides a single location to find reusable artifacts, enablement, and tooling.
