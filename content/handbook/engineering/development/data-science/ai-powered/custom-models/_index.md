@@ -92,12 +92,18 @@ The EM maintains a [Google Sheet](https://docs.google.com/spreadsheets/d/18LhwZp
 
 The EM selects issues from the [Planning Board](#planning-board) based on:
 
-- previous milestone slippage
+- Previous milestone slippage
 - PM preference
-- weight
-- priority
+- Weight
+- Priority
 
-The EM then applies the `~Deliverable` label to each issue in the Release and assigns then to an engineer. The issues are tracked throughout the release with the Build Board.
+The EM then applies the `~Deliverable` label to each issue in the Release. 
+
+#### Kanban Self-Assignment
+
+Each engineer self-assigns issues from the build board and works on them. In general, issues are assigned one at a time, but if issues are linked an engineer may want to self-assign more than one. The team works to collectively close all issues on the Build Board.
+
+All issues are tracked throughout the release with the Build Board, using workflow status.
 
 ### Say / Do Ratio
 
