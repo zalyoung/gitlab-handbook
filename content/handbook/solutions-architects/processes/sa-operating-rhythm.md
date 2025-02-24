@@ -1,5 +1,5 @@
 ---
-title: SA Pperating Rhythm
+title: SA Operating Rhythm
 ---
 
 ## Weekly SA Operating Rhythm
