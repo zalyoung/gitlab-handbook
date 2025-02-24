@@ -92,7 +92,7 @@ Once you have gathered initial feedback and validated the potential of your inno
 
 4. **Cross-Team Collaboration:**
 
-    - When your innovation extends beyond your team's domain expertise, please try to partner with relevant counterparts (engineering, UX, and product) to refine and implement the idea effectively<span class="mark">.</span>
+    - When your innovation extends beyond your team's domain, partner with relevant counterparts (engineering, UX, and product) to refine and handover the idea effectively<span class="mark">.</span>
 
     - While [short toes](../values/_index.md#short-toes) is a core value at GitLab, successful innovation requires thoughtful collaboration with the right partners.
 
