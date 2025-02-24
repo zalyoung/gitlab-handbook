@@ -25,6 +25,7 @@ The API TMRG provides a safe space for every GitLab team member to better unders
 - [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan)
 - [Christopher Wang](https://gitlab.com/cs.wang) [Co-Lead]
 - [Steve Xu](https://gitlab.com/steve_xu) [Co-Lead]
+- [Robin Falkowski](https://gitlab.com/robinfalkowski) [Co-Lead]
 
 ## Executive Sponsors
 
