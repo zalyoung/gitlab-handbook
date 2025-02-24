@@ -6,8 +6,8 @@ title: SA Operating Rhythm
 
 [**Sales Force Technical Recording Requirements**](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/)
 
-1. Validate that for the accounts you are working on, you are set as the Solutions Architect   
-2. Validate that for the opportunities you are working on, you are set as the [Primary Solutions Architect](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#primary-solutions-architect)   
+1. Validate that for the **accounts** you are working on, you are set as the Solutions Architect   
+2. Validate that for the **opportunities** you are working on, you are set as the [Primary Solutions Architect](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#primary-solutions-architect)   
 3. Update your [SA Next Steps](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-next-steps) in the Opportunities you are working on this Quarter
 4. Ensure you have created a [corresponding POV object in Salesforce](/handbook/solutions-architects/tools-and-resources/pov/#tracking-a-pov-in-salesforce), if you log POV related activities   
 5. Ensure that for opportunities in Tech Eval that you have set the [SA Validated Tech Eval Start Date](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation-start-date)   
