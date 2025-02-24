@@ -97,7 +97,16 @@ The EM selects issues from the [Planning Board](#planning-board) based on:
 - Weight
 - Priority
 
-The EM then applies the `~Deliverable` label to each issue in the Release. 
+#### The `~Deliverable` Label
+
+Application of the `~Deliverable` label indicates the Engineering team has committed to Product to make best efforts to complete the issue in that Milestone. The `~Deliverable` label drives the `Say/Do Ratio` used in monthly Engineering management reporting.
+
+- It is preferred to not add `~Deliverable` issues after the start of the milestone.
+  - If additional work is brought into the milestone after it has started, it will not be marked `~Deliverable`.
+- Issues should not have the `~Deliverable` label removed once added to the milestone.
+- Issues marked `~Deliverable` that do not make the milestone will be marked `~missed-deliverable` by a bot (or manually).
+- Only the EM should apply the `~Deliverable` label.
+  - Engineers can ping the EM on the Planning Issue, for any issues that should be `~Deliverable`.
 
 #### Kanban Self-Assignment
 
@@ -195,7 +204,7 @@ During on call period, support requests should be acknowledge within 24h.
 ### Responsibilities of lead engineer in support
 
 - Triage [Requests for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acustom%20models&first_page_size=20).
-- Monitor income requests on [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel. 
+- Monitor income requests on [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 - Make sure requests for help issues are created.
 - Answer support questions on slack, redirecting to our documentation whenever possible.
 - Join customer calls led by Solution Architects or Sales representatives when needed, and own the communication with the customer until it's resolved or handed over to a support engineer.
