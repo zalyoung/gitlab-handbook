@@ -83,6 +83,7 @@ When adding a new widget or data element to a work item type, follow the guideli
 1. **Search integration**
    - **Inclusion in global search**: Ensure the new widget can be discovered using GitLab's global search functionality.
    - **Inclusion in filter options across Plan stage features**: Where relevant, ensure there is a filter option for the new widget in boards, lists and roadmap.
+   - **Inclusion in sort options across Plan stage features**: Where relevant, ensure there is a sorting option for the new widget in boards, lists and roadmap.
    - **Inclusion in glql**: Ensure the new widget can be used as a filter option in GitLab Query Language (GLQL) searches.
    - **Indexing**: Confirm that the widget is indexed appropriately, enabling quick retrieval in search results.
 1. **Inclusion within views**
