@@ -60,6 +60,54 @@ you can leave the page.
 **Tip**: When making major edits, it is always preferred to turn the zap off
 first by clicking the slider in the top-right of the zap editor page.
 
+## Using Zapier Storage
+
+When we need to utilize something that needs to be secret, such as a token, we
+utilize Zapier Storage. You would need a step in your Zap to get the secret from
+Zapier Storage. From there, your future steps need to use this to fetch the
+secret value. If using code blocks, you would do this by setting an input
+variable with the value of the secret (and then using that input variable in
+your code). Some examples are below (assuming an input variable name of
+`secret`):
+
+```python
+client = StoreClient(input.get('secret'))
+value = client.get('foo')
+return { "key": value }
+```
+
+```javascript
+const store = StoreClient(inputData.secret);
+const value = await store.get('foo');
+return { result: value };
+```
+
+### Adding an item
+
+To add a new item to Zapier Storage, you must use the storage secret (found in
+the Support Readiness 1Password Vault). With that in hand, you would do the
+following:
+
+```bash
+curl -X POST -ss "https://store.zapier.com/api/records?secret=SECRET_GOES_HERE" \
+  -d '{"foo": "bar"}'
+```
+
+Replacing `SECRET_GOES_HERE` with the actual secret value.
+
+### Editing an item
+
+To edit an item in Zapier Storage, you would do the same action you did to
+create one. So if updating the key `foo` to have a value of `bar2`, you would
+do:
+
+```bash
+curl -X POST -ss "https://store.zapier.com/api/records?secret=SECRET_GOES_HERE" \
+  -d '{"foo": "bar2"}'
+```
+
+Replacing `SECRET_GOES_HERE` with the actual secret value.
+
 ## Troubleshooting zap issues
 
 To troubleshoot a zap, you will login to Zapier and locate the zap in question.
