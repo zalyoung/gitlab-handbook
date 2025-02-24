@@ -44,8 +44,8 @@ A Mutual Customer Success Plan should be initiated during stage-2 (scoping) and 
 ### Which Opportunities Should Have a Completed First Version of a Mutual Customer Success Plan that is Reviewed with the Prospect / Customer?
 
 1. All New or Growth Opportunities with $300k net ARR or more, in stage-3 (technical evaluation) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
-2. All opportunities with $30K net ARR or more for _focus accounts_ as indicated in salesforce.
-3. All opportunities where the SA is involved in a ![_SA Validated Tech Evaluation_](https://handbook.gitlab.com/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
+2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.
+3. All opportunities where the SA is involved in a ![*SA Validated Tech Evaluation*](../processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
 
 SA Managers have discretion for additional opportunities to be included or excluded.
 
