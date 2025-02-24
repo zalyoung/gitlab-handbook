@@ -32,7 +32,7 @@ Each year all employees will be sent ecocheques no later than July 31. In accord
 
 ## Rate per kilometer
 
-See https://www.securex.be/nl/lex4you/werkgever/actuele-bedragen/sociaalrechtelijke-bedragen/kilometervergoeding to find the current rate per kilometer for our [mileage & mileage rates policies](https://bosa.belgium.be/nl/news/het-staatsblad-kilometervergoeding-7)
+See [https://bosa.belgium.be/nl/news/het-staatsblad-kilometervergoeding-7](https://bosa.belgium.be/nl/news/het-staatsblad-kilometervergoeding-7) to find the current rate per kilometer for our [mileage & mileage rates policies](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/#specific-to-belgium-based-employees)
 
 ## First Aid Kit
 
