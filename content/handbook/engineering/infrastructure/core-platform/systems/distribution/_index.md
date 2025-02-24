@@ -426,7 +426,7 @@ to support the customer. When sharing the information with multiple relevant gro
 same support request proccess, we're able to get to a solution much more efficiently.
 
 To open an RFP, refer to the procedures of our
-[how to get help](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help)
+[how to get help](../../../../../support/workflows/how-to-get-help.md)
 handbook page.
 
 This process allows us to track time involved
