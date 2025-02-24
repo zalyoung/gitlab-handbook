@@ -317,7 +317,3 @@ our security automation initiatives.
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member](/handbook/security/contributing-to-gitlab-the-product/)
 - [Threat Modeling](product-security/application-security/threat-modeling/)
-
-#### AI in Security Learning Group
-
-This group is setup to help interested Security team members get up to speed with AI technologies and how to secure them. For more information, see the [AI in Security Learning Group page](/handbook/security/learning-group-ai/).
