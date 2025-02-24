@@ -35,7 +35,7 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
   - **Name**  - Please search for and populate the `Name` field with a prospect/customer contact existing in Salesforce that was part of the activity.   <i>`Name` is currently a single select field. Choose any contact that was part of the meeting, if possible. In the future, we may have the ability to select multiple contacts.</i>
   - **Subject**  - High-level description of the activity. Usually, the subject of the calendar event for this activity is appropriate.
   - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to  to the [Enterprise and Commercial SA Activity Types](#enterprise-and-commercial-sa-activity-types) section below.
-  - **Products Positioned** (Optional) - Select the products that were either positioned directly within a Demo, Pitch, or aligned to product capabilities within a Close Plan.  If the call was a discovery call, please select which product(s) would best be positioned in future calls. 
+  - **Products Positioned** (Optional) - Select the products that were either positioned directly within a Demo, Pitch, or aligned to product capabilities within a Close Plan.  If the call was a discovery call, please select which product(s) would best be positioned in future calls.
   - **Persona Levels** (Optional if unknown) - Select the customer/prospect participants' levels in this activity. Current options include: `Individual Contributor, Manager/Director, Executive` _Note: Executive should be used for any VP, C-level or the Economic Buyer_
   - **Persona Functions** (Optional if unknown) - Select the customer/prospect functions represented during the activity (ie. Development, Security, DevOps)
   - **Description** - Enter a summary of the interaction. Two to three sentences are usually sufficient, but more detail is ok. Try to capture the meeting's intent, how it went (the outcome or customer/prospect sentiment), and any prospect/customer perceived next steps. It is highly encouraged that you provide a link to more detailed notes of your meeting. You can use [Google Docs Bookmarks](https://support.google.com/docs/answer/45893) to do so.
@@ -122,9 +122,9 @@ Select these [SA] Activity types when capturing activities by the Strategic Fiel
 - **SA Assistance - Strategic Field** - Calls with client's management and executives to review enterprise DevOps strategy and alignment to the overall company initiatives such as digital or cloud transformation.
 - **Executive Solution Plan** - Calls with client's management and executives to discuss, strategize and review DevOps solution for organization wide transformation, develop the trusted advisory relationship with industry thought leadership and guide the enterprise for DevOps adoption with best practices.
 
-### Alliance/Channel SA Activity Types
+### Ecosystem SA Activity Types
 
-Select these [SA] Activity types when capturing activities by the Alliance/Channel team but other activity types for Enterprise can also be used.  There is an implied priority with higher value activities listed highest / first to lowest / last.
+Select these [SA] Activity types when capturing activities by the Ecosystem team but other activity types for Enterprise can also be used.  There is an implied priority with higher value activities listed highest / first to lowest / last.
 
 - **Partner Opportunity** Alliances / Channel - Sales opportunity # aligned work alongside field SA on specific sales opportunities with a partner involvement. This includes being an overlay SME on partner technologies and its joint value proposition with GitLab and/or helping a channel/services partner become successful with joint customers.
 - **Partner Assisted Demand Gen** Alliances / Channel - Delivering or developing customer facing webinars, workshops, roadshows and similar activities in collaboration with a partner, focussed on demand generation / lead generation.
