@@ -18,7 +18,7 @@ title: SA Opportunity Hygiene
 
 1. Capture [activities](/handbook/solutions-architects/processes/#sa-activity-capture) with customers via Rattle
 1. Check in Slack if opportunities from your AE were moved to Stage 3 without your knowledge in #rattle-activities-east|west-sa*. Rattle Boards can be used to make these checks much easier. Channels to request support:  #rattle-users
-1.  Check opportunities for duplicates / merged - To ensure your recorded activities flow into the new opportunity, the old opportunity must have either a “Merged Opportunity” or “Duplicate Opportunity” field filled in, pointing to the new opportunity.
+1. Check opportunities for duplicates / merged - To ensure your recorded activities flow into the new opportunity, the old opportunity must have either a “Merged Opportunity” or “Duplicate Opportunity” field filled in, pointing to the new opportunity.
 
 [**Review your Customer Success Plans**](/handbook/solutions-architects/sa-practices/customer-success-plan/)
 
