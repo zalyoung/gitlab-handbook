@@ -19,11 +19,19 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 ### Team Members
 
-**Engineering Manager & Engineers**
+**Engineering**
 
-Engineering Manager: [@sean_carroll](https://gitlab.com/sean_carroll)
-
-{{< team-by-manager-slug "sean-carroll" >}}
+| Name               |  Handle          | team.yml   | Email prefix |
+|--------------------|------------------|------------|--------------|
+| Sean Carroll       | @sean_carroll    | [sean-carroll.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/s/sean-carroll.yml)    | scarroll |
+| Igor Drozdov       | @igor.drozdov    | [igor.drozdov](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/i/id-backend.yml)      | idrozdov |
+| Patrick Cyiza      | @jpcyiza         | [jpcyiza.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/j/jpcyiza.yml)                 | jpcyiza |
+| Mohamed Hamda      | @mhamda         | [mhamda.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/mhamda.yml)                 | mhamda |
+| Julie Huang        | @julie_huang     | [julie_huang.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/j/julie_huang.yml)     | julhuang |
+| Bruno Cardoso  | @bcardoso-  | [bcardoso-.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/b/bcardoso-.yml)       | bcardoso |
+| Eduardo Bonet      | @eduardobonet    | [eduardobonet.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/e/eduardobonet.yml) | ebonet |
+| Manoj M J | @manojmj | [manojmj.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/manojmj.yml) | mmj |
+| Ekaterina Nikonova | @enikon | [enikon.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/e/enikon.yml) | enikonova |
 
 **Product, Design & Quality**
 
