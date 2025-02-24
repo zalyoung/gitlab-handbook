@@ -103,7 +103,7 @@ For Self-Managed licences, GitLab will refuse to install a license key with less
 
 ### Add project-level storage to a namespace
 
-Sets [additional project storage](https://docs.gitlab.com/ee/user/usage_quotas.html#excess-storage-usage) for a namespace to the value specified in the `Extra storage (MiB)` field
+Sets [additional project storage](https://docs.gitlab.com/user/usage_quotas/#excess-storage-usage) for a namespace to the value specified in the `Extra storage (MiB)` field
 
 - **Namespace:** The customer namespace as it appears in the URL.
 - **Extra storage (MiB):** Additional space to add in MB

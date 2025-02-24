@@ -8,7 +8,7 @@ description: "Guide for common ChatOps commands used by Support Engineering"
 
 [ChatOps](https://gitlab.com/gitlab-com/chatops/) commands can be used to service support requests for GitLab.com, especially useful when one does not have admin access. In the interest of maintaining a single source of truth, it is recommended to use the built-in "help" command within ChatOps to see what commands are available or [inspecting the code itself](https://gitlab.com/gitlab-com/chatops/-/tree/master/lib/chatops/commands).
 
-**Note**: Before you can use ChatOps, you will need to [request access](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access).
+**Note**: Before you can use ChatOps, you will need to [request access](https://docs.gitlab.com/development/chatops_on_gitlabcom/#requesting-access).
 
 ## Namespace
 
