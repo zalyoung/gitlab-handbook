@@ -1,5 +1,5 @@
 ---
-title: Service accounts
+title: Service accounts as the core machine identity
 status: proposed
 creation-date: "2025-02-19"
 authors: [ "@dblessing" ]
