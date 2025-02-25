@@ -62,6 +62,14 @@ To engage with the GitLab Dedicated teams:
     - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
   - Our social channel, [#g_dedicated-team-social](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
 
+#### Urgent Availability or Security Events
+In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/incident-management/#severities), please *Page* the GitLab Dedicated Engineer On Call. Further guidance on when to use this can be found [here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#what-is-an-emergency).
+1. From any Slack channel, use `/pd trigger`:
+  1. Impacted Service: `Dedicated Platform Service` (for commercial customers) or `Dedicated US Public Sector Platform Service`
+  1. Title: `GitLab Dedicated`
+  1. Description: Provide information on the report, and how you can be contacted
+  1. _Urgency_, _Priority_and _Assign To_ should not be set
+
 ### Escalation Policy
 
 When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
