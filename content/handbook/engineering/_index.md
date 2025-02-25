@@ -150,11 +150,13 @@ The configurable ratio between P-track and E-track allocations provides implemen
 
 #### R&D Alignment
 
-1. Product will provide a proposed roadmap at the company level similar to [this example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g3372045a936_0_0)
-   - The intent is not to encompass every team, but rather most critical objectives to achieve
-   - **Tier 1** topics are meant to be 100% committed to within the defined quarter with GA and validation through the Early Access Program. It also requires customer references.
-   - **Tier 2** topics are meant to be committed to with 80% confidence of delivery within the defined quarter delivering features that don't have to be GA but must be available broadly with customer references as a "better" vs a requirement. These efforts are noteworthy enough for a blog post or media interviews 
-   - **Tier 3** topics are included in monthly release notes but do not warrant GTM engagement. The confidence of their delivery within a specific quarter is lower than Tier 1 or 2, as they can slip to ensure Tier 1 or 2 deliverables do not miss their committed dates.
+1. After a joint session between Product Management, Engineering, and UX Design of the product group to generate initial ideas and potential initiatives, any team member can create a joint alignment slide following the roadmap structure. **How granular should you be?** There is a minimum threshold of 1 full-time team member per quarter. Smaller initiatives are aggregated as milestones into thematic features. The following content is required:
+  - Initiative overview
+  - Proposed Business value
+  - Proposed solution
+  - Resource requirements
+  - Initial timeline estimates
+1. Apply preliminary prioritization: Perform an initial assessment of business value, technical feasibility, resource requirements, and strategic alignment - in order to understand prioritization. 
 1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template [similar to this](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a2c78e62a_0_32)
 1. Engineering will evaluate the proposal from product and validate or identify:
    - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
