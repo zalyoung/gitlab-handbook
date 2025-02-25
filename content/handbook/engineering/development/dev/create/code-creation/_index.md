@@ -14,12 +14,14 @@ Develop cutting-edge AI-powered tools that enhance the efficiency and creativity
 ## Team Ownership
 
 Features/capabilities Code Creation owns today:
+
 - Code suggestions: completion + generation
 - Code-related slash commands: `/explain`, `/refactor`, `/tests`, `/fix` 
 - Repository X-Ray
 - Code suggestions context (e.g. open tabs) - partnered with [Create:Editor Extensions Group](/handbook/engineering/development/dev/create/editor-extensions/)
 
 Code Creation is also responsible for evaluations for each of these features which includes:
+
 - Creating datasets in LangSmith and registering them in the [Datasets repository](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/datasets/-/blob/main/doc/guidelines/register_dataset.md#registration-process)
 - Creating evaluators in [Eli5](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/tree/main/eli5?ref_type=heads)
 - Running evaluations 
