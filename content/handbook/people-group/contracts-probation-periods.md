@@ -52,6 +52,12 @@ If a team member changes roles at GitLab and the approval goes through Workday, 
 
 For other instances such as a [Relocation](/handbook/people-group/relocation/), the People Connect Team member will create a [Relocation letter](/handbook/people-group/relocation/#once-approved) according to the parameters as listed in the [Relocation within the Same Country](/handbook/people-group/relocation/#once-approved) section on the Relocation handbook page.
 
+### Job Change Letter Inc to Fed Entity Change
+
+For US team members who are changing from the Federal entity to Inc, or Inc to Federal, a job change letter will need to be created. Add the below verbiage to the appropriate letter template:
+
+- GitLab is pleased to inform you that you are receiving a [transfer OR promotion] to [GitLab Inc OR GitLab Federal, LLC] as {{JOB_TITLE}} effective as of {{START_DATE}}.
+
 ### Background Screenings
 
 GitLab uses appropriate controls to ensure that its team members, assets, customer relationships, and information are protected. To reduce these risks, GitLab will obtain and review background information of covered prospective, and, as applicable, current team members as allowed by local law.
@@ -64,7 +70,7 @@ GitLab does not currently require subsequent background screenings, or re-screen
 
 The Candidate Experience Specialists will [initiate](/handbook/hiring/talent-acquisition-framework/coordinator/#background-screenings) all background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members.
 
-Please contact the Senior Background Check Specialist at backgroundchecks@gitlab.com regarding any questions.
+Please contact the Senior Background Check Specialist at `backgroundchecks@gitlab.com` or submit a request in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=1f5cb781478c069067429ee0026d4392) for additional assistance or questions.
 
 #### Contractors, Contingent Workers, & Temporary Service Providers
 

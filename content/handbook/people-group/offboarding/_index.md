@@ -44,7 +44,7 @@ In addition to submitting their resignation directly in Workday (following the g
 
 ##### Japan
 
-Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
+Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) by the 10th of the month in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
 
 ##### Singapore
 
@@ -127,7 +127,7 @@ You may also contact X at GitLab (provide phone number and email address) with a
 ### Initiating an Involuntary Termination in Workday
 
 1. **TMR:** Terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
-1. **TMR:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment]({{< ref "people-policies#job-abandonment" >}}) in which case they would not be eligible.
+1. **TMR:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment](/handbook/people-policies/#job-abandonment) in which case they would not be eligible.
 1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particlars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and TMR in question should be arranged and the particulars can be sent back for further review.
 1. **People Connect:** Once the transaction has been fully approved the team will receive a TODO of the termination within your Workday Inbox.
 
@@ -135,7 +135,7 @@ You may also contact X at GitLab (provide phone number and email address) with a
 
 After the involuntary offboarding call has taken place and the last working day has been determined, team members will have no access to GitLab systems and may not be required to do any work on GitLab's behalf.
 
-If they are on "Garden Leave" they will still be active on payroll through the termination date. When determining the timing of the involuntary offboarding call and termination date it is important to consider any effect this might have on ongoing tasks and responsibilities of the team member.
+If they are on "Garden Leave" they will still be active on payroll through the termination date. When determining the timing of the involuntary offboarding call and termination date it is important to consider any effect this might have on ongoing tasks and responsibilities of the team member. No expenses may be incurred while on garden leave unless necessary to the performance of GitLab duties and approved by the team member's manager or as subject to local law.
 
 As a manager, in collaboration with the Team Member Relations Specialist (TMR) and/or the People Business Partner (PBP), we recommend to avoid scheduling the involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is [on-call](/handbook/engineering/on-call/). If this is unavoidable, the manager is responsible for ensuring a transition/remediation plan.
 

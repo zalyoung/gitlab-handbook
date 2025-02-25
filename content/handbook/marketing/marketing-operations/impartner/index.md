@@ -52,7 +52,19 @@ The GitLab team member must use the links below to review the MDF request submis
 
 Should you want to review all your requests, [see section](/handbook/marketing/marketing-operations/impartner/#prm-mdf).
 
-Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you’ll need to create an issue request for support from MktgOps.
+Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you'll need to create an issue request for support from MktgOps.
+
+#### MDF Request Status
+
+The MDF Request Status can be found in the MDF Request Details section.
+
+- Open - when partner submits Request
+- Approved - when Request is approved
+- Complete (Claim Payment is Paid) - when partner is paid
+- Denied - when Request is denied
+- Canceled - when Request is canceled
+
+Statuses that are not used: Approved: POP Received, Closed (Claim to be Paid), CMM Approved.
 
 ### Step 3 - MDF Claim Submission
 
@@ -70,14 +82,22 @@ Once submitted, the Partner will receive a confirmation email indicating that th
 
 ### Step 4 - Check Attachments and Claim Approval
 
-When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are infact the right attachment.
+When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are in-fact the right attachment.
 
-- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
-- If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
+- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` (under the MDF Claim Details section) with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
+- If all attachments are received and looks good, the GitLab team member will update the `Approval Status` to `Denied` or `Approved` (under the Claim section).
 
-## Cancelled MDF Request
+#### MDF Claim Status
 
-When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been cancelled. If Partners try to submit a Claim, it will automatically be rejected.
+The MDF Claim Status you are to used is under the Claims section, called `Approval Status`.
+
+- Open - when partner submits Claim
+- Approved - when POP is approved
+- Denied - when POP is denied
+
+## Canceled MDF Request
+
+When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been canceled. If Partners try to submit a Claim, it will automatically be rejected.
 
 ## MFB MDF Request Form
 
@@ -109,12 +129,12 @@ Should you wish to have a customized view, following the instructions below.
 1. Update the Name to "My Pending Requests"
 1. Set Visibility: "Private - can only be seen by me"
 1. In Manage Filters, Click on `+Add`
-          
-      1. Field: `Activity Location - Region`
+     
+      1. Field: `Channel Marketing Manager - Name`
       1. Operator: `equals`
       1. Type: `Value`
-      1. Value: Select the region that applies to you
-      
+      1. Value: Select your name
+
 1. In Column Configuration, add any additional fields.
 1. Save and repeat for the other statuses - Approved and Denied.
 

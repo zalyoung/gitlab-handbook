@@ -200,7 +200,7 @@ Project scope for Professional Services is the outline of the work required to d
 
    4. Internal Project Retrospective
 
-      Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Leads as applicable.  The [internal retrospective](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
+      Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Leads as applicable. Additionally, include a Professional Services Architect when the engagement was custom scoped and there are lessons learned related to that scoping. The [internal retrospective](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
 
       Note: The retrospective runs most effectively when it is prepared in advance, with relevant sections updated throughout the project lifecycle. This ensures the meeting is focused and productive.
 

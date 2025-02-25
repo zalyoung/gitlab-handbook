@@ -144,7 +144,7 @@ For future reports that involve "vulnerability chaining" with previously disclos
   - [ ] If the exposed secret is a Personal Access Token:
     - [ ] Using the API, gather the output of [`/api/v4/user`](https://docs.gitlab.com/ee/api/users.html#for-normal-users-1) and [`/api/v4/personal_access_tokens/self`](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header) for the SIRT incident.
     - [ ] [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
-  - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
+  - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://internal.gitlab.com/handbook/security/security_operations/sirt/runbooks/exposed_secrets/#general-revocation-template-for-secrets)
   - [ ] If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) an incident
   - [ ] In the description section, include a link to the HackerOne report and any other useful information
@@ -220,7 +220,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 - Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue
   - Note that we are importing it using `bounty` only here.
-- Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues]({{< ref "handling-s1p1.html" >}})
+- Support SIRT as required and, if applicable, follow the process for handling severity::1/priority::1 issues
 - Investigate the location of the exposure, and locations like it, for further exposure.
   - Check the history on issue / MR descriptions
   - Use Advanced Search to look for similar patterns in other projects used by GitLab team members

@@ -115,7 +115,7 @@ as [velocity is more important than predictability](/handbook/engineering/develo
 ### Capacity planning documentation from other teams
 
 - [Plan:Project Management BE Team Capacity Planning](/handbook/engineering/development/dev/plan/project-management/#capacity-planning)
-- [Create: Source Code BE Team Weights](/handbook/engineering/development/dev/create/source-code-be/#weights)
+- [Create: Source Code BE Team Weights](/handbook/engineering/development/dev/create/source-code/backend/#weighting-issues)
 - [Geo Team Weights](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#weights)
 - [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
 

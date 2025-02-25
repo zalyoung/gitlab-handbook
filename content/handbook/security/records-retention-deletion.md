@@ -79,7 +79,6 @@ Exceptions to these requirements will be tracked as per the [Information Securit
 
 ## References
 
-- Parent Policy: [Information Security Policy](_index.md)
 - [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 - [Data Classification Standard](/handbook/security/data-classification-standard/)
 - [Google Cloud Platform data deletion](https://cloud.google.com/security/deletion)

@@ -174,6 +174,10 @@ Please note that not every member of the team will be observing that holiday, so
 1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email ces@gitlab.com anytime.
 {{% /details %}}
 
+### GitLab's interview recording policy 
+
+As part of our commitment to creating an open and comfortable interview environment, interviews may not be recorded in any format. This policy helps ensure authentic conversations and protects the privacy of all participants.
+
 ## References
 
 ### How references are conducted
@@ -184,7 +188,7 @@ Three references will be requested and at least one needs to be a past manager. 
 
 ## Offer & Background Screening
 
-Depending on your location, a [background screen]({{< ref "people-policies#background-screenings" >}}) will be initiated at the same time as references or once an offer has been extended.
+Depending on your location, a [background screen](/handbook/people-group/contracts-probation-periods/#background-screenings) will be initiated at the same time as references or once an offer has been extended.
 
 ## Where does GitLab hire people?
 

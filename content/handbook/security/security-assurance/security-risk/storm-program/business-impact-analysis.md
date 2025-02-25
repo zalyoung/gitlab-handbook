@@ -18,7 +18,7 @@ The BIA procedure covers all new systems to be added to GitLab's [Tech Stack](/h
 
 |Role|Responsibility|
 |----------|------------------------------|
-|[Security Risk Team]({{< ref "../../security-risk" >}})|Responsible for executing and maintaining this procedure.|
+|[Security Risk Team](/handbook/security/security-assurance/security-risk/)|Responsible for executing and maintaining this procedure.|
 |[Business/Technical Owner](/handbook/business-technology/tech-stack-applications/#tech-stack-definitions) of a System|Responsible for answering BIA questions during procurement and validating CST designation proposed by Security Risk.|
 |Security Assurance Management (Code Owners)|Responsible for approving significant changes and exceptions to the BIA.|
 

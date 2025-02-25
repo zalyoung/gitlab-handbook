@@ -107,7 +107,7 @@ Anyone can chime in on any subject, including people who don't work at GitLab. C
 
 Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. Mentorships help build trust, provide safe space to make mistakes, and encourage both personal and professional development.
 
-Mentorship is an opportunity for both the mentor and mentee to develop their leadership and communication skills and should be led by the mentee, similar to how [1:1's at GitLab]({{< ref "1-1" >}}) are driven by direct reports.
+Mentorship is an opportunity for both the mentor and mentee to develop their leadership and communication skills and should be led by the mentee, similar to how [1:1's at GitLab](/handbook/leadership/1-1/) are driven by direct reports.
 
 ### 7. Create inclusion commitments among remote team staff
 

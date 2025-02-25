@@ -54,20 +54,6 @@ description: "The page details the operational process for the MDF program."
 
 ## Pre-Activity
 
-### Allocadia
-
-#### Step 1: Confirm details are correct
-
-1. When the approvals have been completed, review the Funds Request and Allocadia to make sure all the details match including the dates and amounts
-     1. Revise accordingly is there are any discrepancy
-     1. You can check the budgeted amount in MDF Tracking View
-
-#### Step 2: Update MDF # in Allocadia & Epic
-
-1. Replace MDF “000” in Allocadia line item name with the new MDF #
-1. In the details panel, check the epic is linked correctly
-1. Once confirmed, hit “Create/Update MDF Epic/Issues” to save changes
-
 ### Marketo
 
 #### Step 1: Create the Marketo Program
@@ -210,13 +196,30 @@ description: "The page details the operational process for the MDF program."
 
 #### Step 3: Add MDF Request on the Salesforce Campaign
 
+1. Edit the Salesforce Campaign to add the MDF Request. This is the foundational step that ensures MDF request data flow between Salesforce, Allocadia and GitLab system during the nightly sync.
+     1. Field Sync to Allocadia - the system automatically transfers four key metrics from Salesforce to Allocadia details panel each night:
+         1. MDF Request Number
+         1. Target Number of Contacts
+         1. Expected Number of Deal Registration
+         1. Estimated Pipeline Created (USD)
+     1. Automated Line Item Name Updates
+         1. When Partner Marketing uses "MDF 000" as a placeholder
+         1. System automatically replaces it with the actual MDF number
+         1. Updates MDF number in the GitLab issue/epic name
+     1. GitLab Integration Features - the system automatically populates GitLab issues with:
+         1. Salesforce campaign name
+         1. Salesforce campaign link
+         1. Target Number of Contacts
+         1. Expected Number of DR
+         1. Estimated Pipeline Created (USD)
+
 #### Step 4: Update Tracking Sheet and Epic
 
-1. Add Salesforce Campaign and Fund Request to epic and tracking spreadsheet.
+1. Add Fund Request to epic and tracking spreadsheet.
 
-## Cancelled
+## Canceled
 
-At any time an MDF campaign has been cancelled, we want to ensure all programs created get marked as cancelled or deleted.
+At any time an MDF campaign has been canceled, we want to ensure all programs created get marked as cancelled or deleted.
 
 ### Allocadia
 
@@ -227,12 +230,11 @@ At any time an MDF campaign has been cancelled, we want to ensure all programs c
 
 1. Add `[CANCELLED]` to the beginning of the campaign name
 1. Update the Status to `Aborted`
-1. Remove the “Partner Account” and uncheck the
-1. Sync to Vartopia” checkbox
+1. Remove the "Partner Account" and uncheck the "Sync to Vartopia" checkbox
 
-### Fund Request
+### PRM MDF Request
 
-1. Update the Status to `Cancelled` - By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been canceled or denied.
+1. Update the Status to `Cancelled` under the MDF Request Details - By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been canceled or denied.
 
 ### Marketo
 
@@ -256,20 +258,20 @@ This is not applicable to distributors with the exception of Carahsoft.
 
 ### Step 1: Partner submits MDF Claim
 
-#### Salesforce Fund Claim
+#### PRM MDF Claim
 
-1. Partner will attach the POP, Lead List and Invoice in the MDF Claim
-1. Verify the POP, then update the Status to `Approved: POP Received`
+1. Partner will attach the POP and Lead List in the MDF Claim
+1. Verify the POP, then update the Approval Status to `Approved`
 
 ### Step 2: List Import
 
 #### Google Sheet/Drive
 
 1. Clone the [List Import Template](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838)
-1. Paste the information to the spreadsheet - don’t forget Marketo Program Name, First Name, Last Name, Email, Company Country, Province (only USA/Canada), Member Status, CRM Partner ID are mandatory.
-     1. For Distributor: In the CRM ID, add each individual partner CRM ID that each leads corresponds to.  
-1. Download the csv file: File > Download > csv
-1. Drop the csv file to [Google Drive Folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link)
+1. Paste the information to the spreadsheet - don't forget Marketo Program Name, First Name, Last Name, Email, Company Country, Province (only USA/Canada), Member Status, CRM Partner ID are mandatory.
+     1. For Distributor: In the CRM ID, add each individual partner CRM ID that each leads corresponds to.
+1. Download the .csv file: File > Download > .csv
+1. Drop the .csv file to [Google Drive Folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link)
 
 #### Slack
 
@@ -305,9 +307,9 @@ Check the Status column for details on why the import may have failed.
 
 ### Step 4: Close Remaining Items
 
-#### Salesforce Funds Request
+#### PRM MDF Request
 
-1. Update Status to `Closed - Claim to be paid`
+1. Update Status to `Closed - Claim to be paid` under the MDF Request Details.
 
 #### GitLab Epic
 

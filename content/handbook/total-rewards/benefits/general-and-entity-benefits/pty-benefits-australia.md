@@ -542,10 +542,10 @@ Partner Leave
 ### Applying for Parental Leave in New Zealand
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-  - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+  - Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 - To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/applications).
   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 ### Other Types of Leave
 

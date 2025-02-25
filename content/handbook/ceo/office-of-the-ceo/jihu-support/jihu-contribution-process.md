@@ -105,8 +105,8 @@ Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-te
 Upstream merge requests require the same level of review and approval as all merge requests including:
 
 - [Regular code review](https://docs.gitlab.com/ee/development/code_review.html)
-- [Security review]({{< ref jihu-security-review-process >}})
-- [Database migration review]({{< ref jihu-database-change-process >}}) when applicable
+- [Security review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process)
+- [Database migration review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process) when applicable
 
 Upstream merge requests may require additional [specific team reviews](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines) based on changed files. High impact code is identified with [CODEOWNERS](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) rules and required approvals for specific files. For example, if the merge request includes changes related to authentication or authorization, it must be approved by a [Manage:Authentication and Authorization team member](/handbook/company/team/)
 
@@ -121,7 +121,7 @@ Upstream merge requests may require additional [specific team reviews](https://d
   - Changes for prepending the classes/modules should be reviewed based on
     [JH features based on CE or EE features](https://docs.gitlab.com/ee/development/jh_features_review.html#jh-features-based-on-ce-or-ee-features).
   - Database migrations related changes should be reviewed following
-    [database migration review process]({{< ref jihu-database-change-process >}}).
+    [database migration review process](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process).
 
 #### Merge request review escalation
 
@@ -129,6 +129,6 @@ Please refer to our [guidelines](https://docs.google.com/document/d/1zEiPBZ1D90L
 
 ### Release certification process
 
-The Application Security team performs a certification of each release that includes JiHu contributions. Please see [this documentation]({{< ref release-certification >}}) for more information about this process.
+The Application Security team performs a certification of each release that includes JiHu contributions. Please see [this documentation](/handbook/ceo/office-of-the-ceo/jihu-support/release-certification) for more information about this process.
 
 Certification issues containing a report can be found in the [issue tracker](https://gitlab.com/gitlab-org/jh-upstream-report/-/issues/) of the [jh-upstream-report repository](https://gitlab.com/gitlab-org/jh-upstream-report).

@@ -26,7 +26,7 @@ As we set out to achieve this vision, we will continue to rely on core guiding p
 ### Our Objectives and Roadmap
 
 We strive to be as transparent as possible, but these sections are only available for our GitLab team members.
-[Talent Acquisition Strategy](https://docs.google.com/presentation/d/1TxVaRaBommUMcRxCgrRq9kr2hWW25SBdAObMQdfylO8/edit#slide=id.g2832878d834_0_0)
+[Talent Acquisition Strategy](https://docs.google.com/document/d/1ollQaElBdOK18oUx2VBu9A8aeq0Sg35RmGG9c-DjooA/edit?tab=t.0#heading=h.8zhi3td2dwh9)
 
 ## Talent Acquisition Pages and Processes
 
@@ -34,10 +34,8 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 ### Team Process Pages
 
-- [TA Key Performance Indicators](https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/) Note: this page is currently in our internal handbook as they are a work in progress.
-- [Meeting Cadence](/handbook/hiring/meetings)
+- [Talent Acquisition Productivity](/handbook/hiring/meetings)
 - [Talent Acquisition Alignment](/handbook/hiring/recruiting-alignment/)
-- [Diversity, Inclusion & Belonging Talent Acquisition Initiatives](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)
 - [Triad Process](/handbook/hiring/talent-acquisition-framework/triadprocess/)
 - [Quarterly Updates](https://internal.gitlab.com/handbook/people-group/talent-acquisition/quarterly-updates/) Note: Internal only
 
@@ -59,25 +57,18 @@ Please find pages for potential and active applicants below.
 
 - [Interviewer Prep Requirements](/handbook/hiring/interviewing/)
 - [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
-- [Greenhouse for Interviewers]({{< ref "greenhouse/#for-all-interviewers" >}})
+- [Greenhouse for Interviewers](/handbook/hiring/greenhouse#for-all-interviewers)
 
 ### Hiring Manager Processes
 
 - [Hiring Manager Processes](/handbook/hiring/talent-acquisition-framework/hiring-manager/)
 - [Conducting a GitLab Interview](/handbook/hiring/conducting-a-gitlab-interview/)
-- [Greenhouse for Hiring Managers]({{< ref "greenhouse/#for-hiring-managers" >}})
+- [Greenhouse for Hiring Managers](/handbook/hiring/greenhouse#for-hiring-managers)
 
 ### Candidate Experience Specialist Processes
 
-{{% details summary="Greenhouse integrations you'll need" %}}
-
-- [Prelude](/handbook/hiring/prelude/): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
-- [Guide](https://support.greenhouse.io/hc/en-us/articles/360052205072-Guide-integration): Check with your manager if you do not have higher level access to navigate inside of Prelude.
-- [DocuSign](https://support.greenhouse.io/hc/en-us/articles/205633569-DocuSign-integration)
-{{% /details %}}
-
 - [Candidate Experience Specialist Responsibilities](/handbook/hiring/talent-acquisition-framework/coordinator)
-- [Prelude](/handbook/hiring/prelude/)
+- [ModernLoop](/handbook/hiring/prelude/)
 - [How to Complete a Contract - CES Process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
 
 ### Recruiters and Sourcers
@@ -93,7 +84,7 @@ Please find pages for potential and active applicants below.
 {{% details summary="Open a req in Greenhouse" %}}
 
 - [Instructions here](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter)
-- [Open a kickoff session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
+- [Open a kickoff session](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session)
 {{% /details %}}
 
 {{% details summary="Evergreen requisitions" %}}
@@ -161,8 +152,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
-- Candidate Experience Specialists use [Prelude](/handbook/hiring/prelude/) to schedule.
-- Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
+- Candidate Experience Specialists use [Modernloop](/handbook/hiring/talent-acquisition-framework/coordinator/#modernloop) to schedule.
 {{% /details %}}
 
 {{% details summary="Greenhouse for internal candidates" %}}
@@ -241,7 +231,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 #### Sourcing at GitLab
 
 - [Sourcing overview](/handbook/hiring/sourcing)
-- [Identifying prospects]({{< ref "req-overview#step-4-identify--engage-top-talent-prospects" >}})
+- [Identifying prospects](/handbook/hiring/talent-acquisition-framework/req-overview#step-4-identify--engage-top-talent-prospects)
 
 #### Notifications
 
@@ -277,10 +267,6 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 - [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/)
 - [Posting a job internally](/handbook/hiring/talent-acquisition-framework/req-creation/#post-the-job-internally)
 - [In the offer process](/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approval-process)
-
-### Executive Hiring
-
-- [Executive Search](/handbook/hiring/talent-acquisition-framework/executive-search/)
 
 ### Emerging Talent
 
@@ -343,7 +329,7 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 ## Additional Resources
 
 - [Overview of Job Families](/handbook/hiring/job-families)
-- [Background checks](/handbook/people-policies#background-checks)
+- [Background checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
 - [Benefits](/handbook/total-rewards/benefits/)
 - [Compensation](/handbook/total-rewards/compensation/)
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)

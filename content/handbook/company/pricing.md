@@ -104,11 +104,15 @@ in what plan based on [the paid tiers](#three-tiers).
 
 The following table describes how large cross-functional pricing decisions should be made.  This decision making method differs from our normal [RADCIE](/handbook/people-group/directly-responsible-individuals/) method due to the extremely cross-functional nature and business risk of large pricing decisions.
 
-| Responsible | Sr. Director, Pricing | Responsible for analysis and recommendation |
-| Agree | Chief Product Officer, CRO | Should ideally agree with the recommendation |
-| Perform | Pricing, Fulfillment, Sales Ops, Product Marketing, and Website teams | Executes the recommendation |
-| Input |  CMO, CFO | Should be consulted and allowed to provide input prior to decision |
-| Decide | CEO | Final decision maker |
+| **Responsibility** | **Role** | **Description** |
+| --- | --- | --- |
+| **Responsible** | Group Manager, Pricing | Responsible for analysis and recommendation |
+| **Agree** | VP Monetization, Chief Product Officer, CRO | Should ideally agree with the recommendation |
+| **Perform** | Pricing, Fulfillment, Sales Ops, Product Marketing, and Website teams | Executes the recommendation |
+| **Input** |  CMO, CFO | Should be consulted and allowed to provide input prior to decision |
+| **Decide** | CEO | Final decision maker |
+
+To ensure alignment across stakeholders, a monthly Pricing Steering Committee is held to align on upcoming monetization decisions, discuss historical insights/trends, and prioritize areas of opportunity.
 
 ## Three Tiers
 

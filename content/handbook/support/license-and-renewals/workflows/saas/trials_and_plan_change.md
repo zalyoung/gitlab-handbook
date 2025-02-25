@@ -15,22 +15,8 @@ category: GitLab.com subscriptions & purchases
 
 GitLab.com Premium customers who want to trial SaaS Ultimate have two options to do so:
 
+1. Customers can self-service an Ultimate trial, including Duo Enterprise, on top of their existing paid Premium plan for 60 days from a CTA button on the group's Billing page, see [here in the internal handbook](https://internal.gitlab.com/handbook/product/fulfillment/saas-ultimate-trials/#gitlabcom-ultimate-trial-on-existing-premium-group-details) or the [documentation page](https://docs.gitlab.com/subscriptions/subscription-add-ons/#start-gitlab-duo-enterprise-trial) for details
 1. Request an Ultimate trial from [GitLab's public trial page](https://about.gitlab.com/free-trial/?hosted=sass). This will require the customer to set up a new namespace to which to apply the trial. No Sales or Support action will be required.
-1. Temporarily upgrade their existing GitLab Premium subscription to a GitLab Ultimate Trial.
-
-- As part of the initiative to enable current SaaS Premium customers to trial SaaS Ultimate on their primary namespace, the first iteration implementation now grants L&R Support the capability to temporarily upgrade an existing Premium subscription to an Ultimate trial subscription. To facilitate this process, the customer's Account Executive must use the following instructions:
-
-  - Go to the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/); you must have a [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to use this form.
-  - Under `What is this request concerning`, select `License and Renewal Related Requests` > `GitLab Support Internal Request for Global Customers`.
-  - In the form that appears, under `What type of GitLab Support Internal Request is this for?`, select `SaaS Trial Related` > `Request an Ultimate trial for a customer using a Premium subscription`.
-  - Fill out the required fields and click Submit request. If you need assistance filling out the form, please ask in the `#support_operations` Slack channel.
-
-Once the form has been submitted, the L&R Support Engineer should follow the workflow outlined in the following [video](https://www.youtube.com/watch?v=wJCrh45Ug2Q), which entails:
-
-- Locating the correct `Customer` record by searching `Customers`.
-- Clicking the (i) info button on the customer record.
-- Going to the `Zuora Subscriptions` tab.
-- Selecting the appropriate namespace and pressing the `Apply Ultimate Trial` button.
 
 #### Subscription seats during trials-over-subscription
 
@@ -51,8 +37,6 @@ These namespaces are allowed to start an Ultimate trial over Premium subscriptio
 GitLab.com trials have [some limitations](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded), including the use of group access tokens. Some customers may request circumvention of these limitations in cases such as facilitating post-migration checks.
 
 Sales will need to work with Deal Desk using this [workflow](../../../../sales/field-operations/sales-operations/deal-desk#concurrent-subscriptions) to request a temporary Premium or Ultimate subscription which will result in a $0 paid subscription without the trial limitations.
-
-Support should not use the [NFR workflow](#how-to-extend-an-nfr-not-for-resale-saas-trial-using-the-rails-console) to process such request.
 
 ## Extending trials
 
@@ -96,7 +80,7 @@ When a customer requests a subscription extension, follow the steps below based 
         - Inform the customer that such requests have to be channeled through sales and provide them with their AE's email address before closing the ticket.
         - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
     **SMB Customers:**
-        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](../../../sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
         - Provide the Salesforce (SFDC) ticket ID to the customer.
         - Close the ticket.
 
@@ -155,7 +139,7 @@ Plan changes should **never** be done manually except in the following cases:
 
 Plan changes on a paid non-trial namespace should be done through a subscription purchase.
 
-If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/#3-other-legal-requests) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
+If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/issue-tracker-workflows/) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
 
 ### Downgrading to a free plan
 
@@ -198,36 +182,4 @@ In certain scenarios where customer renewals or new customer sales are experienc
 
 ### How to create an NFR (Not for resale) SaaS License
 
-A NFR SaaS 'license' must begin with either an existing trial or a new trial on a GitLab namespace.
-Console acccess is then required to convert from trial to an NFR subscription.
-
-## How to extend an NFR (Not for resale) SaaS trial using the rails console
-
-To extend a trial SaaS extension.
-
-1. The NFR partner needs to either signup for a trial at: <https://about.gitlab.com/free-trial/> or start a trial from within their current GitLab namespace.
-1. Once they have a valid namespace for their trial they need to provide this to support.
-1. The support engineer requires [console access to CustomersDot](/handbook/support/license-and-renewals/workflows/customersdot/customer_console) to GitLab Rails to update the namespace.
-1. Within the CustomersDot rails console you should execute the command: ``` view_namespace '<group name space>' ```
-1. This will return the partners namespace information and order information. Get the order 'id' (i.e. 123456), you will need it for the next command.
-
-![Namespace and order id](/images/support/NFR_Console.png)
-
-1. Execute the command to interact with the order id: ```o = Order.find 123456```
-1. Review, modify, and execute the following command to update the order:
-
-```o.update!(product_rate_plan_id: Plan::ULTIMATE_SAAS_1_YEAR_PLAN, quantity: 25, end_date: Date.parse('2022-11-09'), trial: false)```
-
-- View the important info below for what values to substitute as needed
-
-1. Execute the command to synchronise the update: ```Gitlab::Namespaces::UpdatePlanInfoService.new(o, force_sync: true).execute```
-1. In GitLab.com admin, edit the group and update the **Quota of compute minutes** to 400. See next step on how to find the admin screen.
-1. [Add an admin note](/handbook/support/workflows/admin_note/) for the group to document the partner has an NFR subscription and link the issue.
-
-Some important information to consider:
-
-- Product_rate_plan_id == the requested NFR plan, it should be `Plan::ULTIMATE_SAAS_1_YEAR_PLAN` or `Plan::PREMIUM_SAAS_1_YEAR_PLAN` (no quotes)
-- Quantity ==  the ticket submitter will specify this in the issue, it is typically 10 or 25 users
-- Trial == must be false otherwise they will be unable to use GitLab shared runners.
-- Start date == is the specified in the issue or the date today.
-- End date == is one year from specified date or from today's date.
+As of Feb. 19, 2025, [partner NFR subscriptions](/handbook/resellers/channel-working-with-gitlab/#not-for-resale-nfr-program-and-policy)) will be provisioned as standard GitLab.com subscriptions instead of as trial subscriptions. Ecosystem Operations manage this process and no longer requires assistance from the support team to provision. Reach out to #global-ecosystem-programs-ops via slack with any questions.

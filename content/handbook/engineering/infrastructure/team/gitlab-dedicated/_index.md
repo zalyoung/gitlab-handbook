@@ -218,7 +218,7 @@ When it is necessary to refer to a specific customer we use the following guidel
 
 | Use Case                               | Example                                                                    | Process                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Internal Communication & Collaboration | Slack conversations                                                        | <ul><li>Use the customer name</li></ul> |
+| Internal Communication & Collaboration | Slack conversations, RFH (Request for Help) issues | <ul><li>Use the customer name</li></ul> |
 | Public Collaboration | Collaboration on issues, including SIRT issues, epics and recorded calls   | <ul><li>Avoid using the customer name publicly. Instead use internal notes, or provide an accessible internal link to aid the identification - remember that not everyone has access to Switchboard</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
 | Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
 
@@ -428,6 +428,25 @@ While the above information is being added, the Epic will move from ![Triage](/i
 
 Having this set of refined epics will help us plan for the upcoming quarter and allow engineers to quickly get started on an Epic once it's ready to be picked up during the quarter.
 
+### Blueprints
+
+All new services or significant changes to our existing architecture must have a [blueprint](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/architecture/blueprints).
+
+Blueprints are designed to help us think through all the critical parts of making a change and help to share knowledge across the team.
+
+A blueprint should consider:
+
+1. Scope and technical considerations
+1. High-level implementation details, and project iterations
+1. Deployment to new and existing customers
+1. Ongoing operation and maintenance
+1. Security and Compliance
+1. Costs
+1. Operational risks
+1. Resources
+
+Anyone can contribute a Dedicated blueprint. Please make sure there is always a Staff+ approval before merging.
+
 ### Merge Requests
 
 GitLab Dedicated team respects the Company principle of [everything starting with a merge request](/handbook/communication/#start-with-a-merge-request).
@@ -594,7 +613,8 @@ and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+The Dedicated capacity planning process is built on top of [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland).
+More information about capacity planning is available in [documentation](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/capacity-planning/introduction/).
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.

@@ -419,7 +419,7 @@ available. Processing takes about 15 minutes, so the video files appear before t
 
 ### Zoom AI Companion
 
-#### Meeting summary with AI Companion
+#### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
 1. Click `AI Companion` in the meeting control toolbar.
@@ -430,8 +430,13 @@ available. Processing takes about 15 minutes, so the video files appear before t
 #### Accessing AI Companion Meeting Summaries
 
 1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
-1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
+1. In the sidebar expand `AI Companion` and then click on `Meeting Summary`.
 1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+#### Accessing AI Companion Smart Recordings
+
+1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
+1. In the sidebar click on `Recordings`, your smart recordings will be under `Cloud Recordings`.
 
 ### Enabling email notifications for hosts when attendees join first
 

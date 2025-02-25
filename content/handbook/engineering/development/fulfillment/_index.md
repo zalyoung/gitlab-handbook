@@ -1,6 +1,6 @@
 ---
 title: Fulfillment Sub-department
-description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, Purchase, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
+description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
 ---
 
 - [Direction](https://about.gitlab.com/direction/fulfillment/)
@@ -17,7 +17,6 @@ Fulfillment focuses on improving our capabilities and metrics in the following a
 
 - [Platform](/handbook/product/categories/#fulfillment-platform-group): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 - [Provision](/handbook/product/categories/#provision-group): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
-- Purchase
 - [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management/#feature-overview-and-maturity)
 - [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
@@ -126,24 +125,6 @@ Every team uses the [monthly prioritization template](https://gitlab.com/gitlab-
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
-{{< /tableau >}}
-
-### Purchase team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="purchase" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="purchase" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="purchase" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="purchase" >}}
 {{< /tableau >}}
 
 ### Subscription Management team dashboards
@@ -300,12 +281,6 @@ Generally speaking, issues are in one of two states:
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/hill-charts).
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
-
-**Quad-planning workflow**
-
-The SETs helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and the Quality team which aims to bring test planning as a topic before the development of any feature.
-
-We follow the Quad Planning process defined [here](/handbook/engineering/infrastructure/test-platform/quad-planning/#process).
 
 ### User Experience
 
@@ -471,7 +446,7 @@ Here's an [example](https://www.youtube.com/playlist?list=PL05JrBw4t0KpOKxufy-sl
 
 ### Quality
 
-GitLab's Quality is everyone's responsibility. The [SETs](/handbook/engineering/quality/#stable-counterparts) embedded within Fulfillment section follow the [Quality Engineering Department's principles](/handbook/engineering/quality/#our-principles) primarily to ensure that everyone is aware of product quality.
+GitLab's Quality is everyone's responsibility.
 
 #### End-to-end tests - how, when and why to write them
 
@@ -665,7 +640,6 @@ Critical problems like a production outage should be raised quickly. You can che
 These dashboards are designed to give an insight, to everyone working in a feature category, into how our code operates at GitLab.com scale.
 
 - [Provision](https://dashboards.gitlab.net/d/stage-groups-provision/stage-groups-group-dashboard-fulfillment-provision)
-- [Purchase](https://dashboards.gitlab.net/d/stage-groups-purchase/stage-groups-group-dashboard-fulfillment-purchase)
 - [Utilization](https://dashboards.gitlab.net/d/stage-groups-subscription/stage-groups-group-dashboard-fulfillment-utilization)
 
 ### Customer escalations
@@ -822,14 +796,14 @@ This table lists recurring activities that are part of our Project Management Pr
 | [CustomersDot Deployments](https://gitlab.com/gitlab-org/customers-gitlab-com#deployments)                                                                       | Continuously | Async | Fulfillment Engineering                                         |
 | [Issue Updates](/handbook/engineering/development/fulfillment/#weekly-async-issue-updates)                                               | Weekly       | Async | Fulfillment Section                                             |
 | [Fulfillment Weekly Updates](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues?sort=created_date&state=all&label_name[]=weekly+update)                     | Weekly       | Async | Fulfillment PMs, EMs, QEMs, UXMs                                |
-| [Fulfillment Group Syncs](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com&ctz=America/Bogota) | Weekly       | Sync  | Fulfillment Utilization, Purchase, Provision, and InfraDev Groups |
+| [Fulfillment Group Syncs](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com&ctz=America/Bogota) | Weekly       | Sync  | Fulfillment Utilization, Provision, and InfraDev Groups |
 | [Fulfillment PM Syncs](https://docs.google.com/document/d/1t1KHlpjIEEzG02Gqth6uttQ0Vc3-pFo7yScTgvHWgeQ/edit)                                                     | Weekly       | Sync  | Fulfillment PMs                                                 |
 | [Fulfillment, Growth, AI Assisted EM Syncs](https://docs.google.com/document/d/1amVctQAmAVIXijxfyLxJNsdR2OqP6IXAK1sqD2pQMi4/edit)                                 | Weekly       | Sync  | Fulfillment, Growth, AI Assisted EMs                             |
 | [Fulfillment PM / EM / QEM / UXM Syncs](https://docs.google.com/document/d/1UBfHiGK6BgJY76sFJ1qqlsRbtYhbBZETpaA4ftX_BBc/edit)                                    | Weekly       | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
 | [OKR Check-Ins](https://about.gitlab.com/direction/fulfillment/#okrs)                                                                                            | Weekly       | Async | Fulfillment PMs, EMs, QEMs, UXMs                                |
 | [Monthly Self-Managed Releases](/handbook/engineering/releases/#self-managed-releases)                                                   | Monthly      | Async | Delivery Engineering                                            |
 | [Monthly Release Posts](/handbook/marketing/blog/release-posts/)                                                                         | Monthly      | Async | Product and Marketing Functions                                 |
-| [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization, Purchase, Provision, and InfraDev Groups |
+| [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization,, Provision, and InfraDev Groups |
 | [Roadmap Planning](https://about.gitlab.com/direction/fulfillment/#roadmap)                                                                                      | Monthly      | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
 | [Monthly Product Kickoffs](/handbook/product/product-processes/#kickoff-meetings)                                                        | Monthly      | Sync  | Product Function                                                |
 | [Product Key Reviews](/handbook/company/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
@@ -850,9 +824,9 @@ This table lists recurring activities that are part of [working groups and cross
 | [GitLab Order to Cash Technical Fusion Team](https://docs.google.com/document/d/17tJraRunjge5nI-qBEjWlhcKWYLXwGW4uhhu-Sf5464/edit) | Weekly        | Sync | Fulfillment PMs, Fulfillment Engineering, EntApps, Sales Systems            |
 | [Data & Analytics Program for R&D Teams](https://docs.google.com/document/d/1CRIGdNATvRAuBsYnhpEfOJ6C64B7j8hPAI0g5C8EdlU/edit)     | Every 2 Weeks | Sync | Fulfillment PMs, Analytics Instrumentation, Growth, Data                         |
 | [Cloud Licensing Executive Status Update](https://docs.google.com/document/d/1bjjD36uayT9Zd29qnmT20HJMYLRvF1XIS6YqCWEFJB4/edit)    | Every 2 Weeks | Sync | Cloud Licensing Program Manager, E-Group                                    |
-| [Ramps / Orders Bi-Weekly](https://docs.google.com/document/d/17uClbaVWMJSFULYlw6-G5twWsF7FK0yO94g3fCANu08/edit)                   | Every 2 Weeks | Sync | Purchase, Provision, EntApps, Channel Ops, Field Ops, Support, Finance, Legal |
+| [Ramps / Orders Bi-Weekly](https://docs.google.com/document/d/17uClbaVWMJSFULYlw6-G5twWsF7FK0yO94g3fCANu08/edit)                   | Every 2 Weeks | Sync | Provision, EntApps, Channel Ops, Field Ops, Support, Finance, Legal |
 | [Product ARR Drivers Sync](https://docs.google.com/document/d/1TxcJqOPWo4pP1S48OSMBnb4rysky8dRrRWJFflQkmlM/edit)                   | Monthly       | Sync | Customer Success, Sales, Product Leadership                                 |
-| [Distributor E-Marketplace](https://docs.google.com/document/d/1uCMf9tYp5QlPwIrSkZdJ11HwpcbqsZayN8dk90pKGLI/edit)                  | Monthly       | Sync | Purchase, Provision, EntApps, Channel Ops, Field Ops, Finance, Legal          |
+| [Distributor E-Marketplace](https://docs.google.com/document/d/1uCMf9tYp5QlPwIrSkZdJ11HwpcbqsZayN8dk90pKGLI/edit)                  | Monthly       | Sync | Provision, EntApps, Channel Ops, Field Ops, Finance, Legal          |
 
 ## Diversity, Inclusion, and Belonging
 

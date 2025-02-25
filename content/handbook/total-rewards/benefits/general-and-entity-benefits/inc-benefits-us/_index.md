@@ -66,7 +66,7 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## Who To Contact & Claims Escalations
 
-- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. **You can request this assistance via [HelpLab](https://helplab.gitlab.systems/esc).**
+- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. They'll manage follow up calls and esclations. **You can reach out directly BenefitsHelpline2@willistowerswatson.com**
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc).
 
@@ -133,7 +133,7 @@ Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefit
 
 <summary>Process for submitting a Qualifying Life Event</summary>
 
-1. Log into [PlanSource]({{< ref "inc-benefits-us#logging-into-plansource" >}})
+1. Log into [PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource)
 1. Select `Update your current Benefits`.
 1. Select the Life Event that applies to your situation from the list & enter the event date.
 1. The system will ask you to review your personal details, update as necessary and select continue.
@@ -279,7 +279,7 @@ See the [2024 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1R
 
 Cigna has advised they will provide [WPATH](https://wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
 
-Please reach out to the [Total Rewards team and WTW]({{< ref "inc-benefits-us#who-to-contact" >}}) with any questions or if you need help while seeking authorization for a treatment.
+Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact--claims-escalations) with any questions or if you need help while seeking authorization for a treatment.
 
 </details>
 
@@ -442,7 +442,7 @@ Review the [2024 Kaiser Permanente Chiropractic and Acupuncture Benefits Flyer](
 
 <summary>Kaiser Pregnancy & Maternity Care</summary>
 
-With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. To learn more about Parental Leave, please refer to our [Parental Leave policy](#parental-leave). Once your child has arrived, please follow the steps outlined above in regard to this [Qualifying Life Event]({{< ref "inc-benefits-us#qualifying-life-events" >}}).
+With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. To learn more about Parental Leave, please refer to our [Parental Leave policy](#parental-leave). Once your child has arrived, please follow the steps outlined above in regard to this [Qualifying Life Event](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events).
 
 You may need a [reasonable accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) during your pregnancy. For more information regarding GitLab's [Pregnancy Accommodation](/handbook/people-policies/inc-usa/#pregnancy-accommodation) policy, please also refer to our [Individuals with Disabilities](/handbook/people-policies/inc-usa/#individuals-with-disabilities-policy) policy.
 
@@ -900,7 +900,7 @@ Note that if you increase the amount of your FSA, you will only be able to use t
 
 GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits).
 
-Team Members can make mid-year changes to their commuter benefit by going throught the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Elect "Commuter/Transit Benefit Change" and today's date as the effective date to make the change. You will see the change in the next available payroll period. 
+Team Members can make mid-year changes to their commuter benefit by going throught the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Elect "Commuter/Transit Benefit Change" and today's date as the effective date to make the change. You will see the change in the next available payroll period.
 
 In 2025 the contribution limits are $325/month for parking and $325 per month of transit. These contributions rollover month to month.
 
@@ -1070,7 +1070,7 @@ If you are currently employed and have any general COBRA questions, feel free to
 
 ### Apply For Parental Leave in the US
 
-Information regarding GitLab's Parental Leave policy and how to apply, can be found on our [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) overview on our Benefits handbook page.
+Information regarding GitLab's Parental Leave policy and how to apply, can be found on our [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) overview on our Benefits handbook page.
 
 ## State-Specific Allowed Leaves
 

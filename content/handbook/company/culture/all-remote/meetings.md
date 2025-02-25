@@ -46,7 +46,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 
 ### What to do after the meeting
 
-1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
+1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature](/handbook/leadership/1-1/) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
 1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
 1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda with in 12 hours after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
 1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn't work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
@@ -77,7 +77,7 @@ This works because of our values, which leads GitLab to hire individuals who enj
 
 #### Record meetings to encourage async participation
 
-You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook]({{< ref "tools-and-tips#recording-in-zoom" >}}).
+You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
 #### Managing meeting attendance for team members
 
@@ -121,7 +121,7 @@ Meeting agendas should be include:
 1. Have adequate time for any required review.
 1. Have adequate time to contribute asynchronously within the agenda.
 
-We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings]({{< ref "1-1#the-1-1-agenda" >}}). [Coffee chats](informal-communication/#coffee-chats) do not require agenda as their function is informal communication.
+We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings](/handbook/leadership/1-1/#the-1-1-agenda). [Coffee chats](informal-communication/#coffee-chats) do not require agenda as their function is informal communication.
 
 While it is problematic to have no agenda, it is also problematic to have more than one agenda. Meeting and meeting notes require a single source of truth. If you are in a meeting with more than one agenda, stop the meeting as soon as this is known. Clarify the agenda to use with other attendees and immediately deprecate the additional agenda. Add a link to the agenda being used from the deprecated agenda, so anyone who discovers it is aware of the source of truth agenda.
 

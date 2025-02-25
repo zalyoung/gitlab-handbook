@@ -42,7 +42,7 @@ Users don't have to set up or ask others to set up a project across applications
 
 ### Single setup
 
-With [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/) your new projects have all the needed testing and deployment from the get go. And by having logging and security scanning happen automatically you reduce risk.
+With [Auto DevOps](https://docs.gitlab.com/topics/autodevops/) your new projects have all the needed testing and deployment from the get go. And by having logging and security scanning happen automatically you reduce risk.
 
 ### Single interface
 
@@ -97,7 +97,7 @@ offering plugins for the following reasons:
 1. We think a single application provides a better user experience than a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 1. The open source nature of GitLab ensures that we can combine great open source products.
 1. Everyone can contribute to create a feature set that is [more complete than other tools](https://about.gitlab.com/why-gitlab/). We'll focus on making all the parts work well together to create a better user experience.
-1. Because GitLab is open source, the enhancements can become [part of the codebase instead](https://docs.gitlab.com/ee/user/project/integrations/) of being external. This ensures the automated tests for all
+1. Because GitLab is open source, the enhancements can become [part of the codebase instead](https://docs.gitlab.com/user/project/integrations/) of being external. This ensures the automated tests for all
 functionality are continually run, ensuring that additions keep working. This is in contrast to externally maintained plugins that might not be updated.
 1. Having the enhancements as part of the codebase also
 ensures GitLab can continue to evolve with its additions instead of being bound
@@ -314,7 +314,7 @@ faster.
 
 Every GitLab projects comes with a container registry. That means there is no
 need for elaborate configuration to be able to use and push container images in
-CI. Rather, all you have to do is use a [pre-defined](https://docs.gitlab.com/ee/user/packages/container_registry/index.html)
+CI. Rather, all you have to do is use a [pre-defined](https://docs.gitlab.com/user/packages/container_registry/)
 variable in
 your CI configuration file (`.gitlab-ci.yml`).
 

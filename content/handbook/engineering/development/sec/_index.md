@@ -481,7 +481,7 @@ The backlog for these issues can viewed at [Sec Security Tooling - issue](https:
 
 ### Communicating changes that may break tests
 
-Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then #quality on slack or the [triage DRI](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) dependent on severity.
+Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then `#s_developer_experience` on Slack or the [triage DRI](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) dependent on severity.
 
 ## Section Retrospectives
 

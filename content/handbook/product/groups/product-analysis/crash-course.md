@@ -1,5 +1,6 @@
 ---
 title: Crash Course for Product Stage Resources
+description: Overview of the most important Product Analytics related resources for each product Stage
 ---
 
 ## Objectives for this page
@@ -285,21 +286,15 @@ Primarily time series analyses for Package features on GitLab.com
 
 General and feature specific user interviews for the Package team
 
-[Demos and Speedruns](/handbook/engineering/development/ops/package/#demos--speedruns)
+[Demos and Speedruns](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf)
 
-Package Handbook section with feature and roadmap demos
+Package channel featuring demos, speed-runs and other content
 
 **Product roadmap link**
 
-[Link to product roadmap](/handbook/engineering/development/ops/package/#roadmap)
+[Link to product roadmap](https://about.gitlab.com/direction/package/)
 
 Resource to understand the long-term goals for this team
-
-**OKRs**
-
-[Link to OKRs handbook page](/handbook/engineering/development/ops/package/#okrs)
-
-Resource to understand the current OKRs for this team
 
 **Key documentation**
 
@@ -307,7 +302,7 @@ Resource to understand the current OKRs for this team
 
 It can be helpful to search for specific topics on the Package team's main page
 
-[GitLab Docs Package Page](https://docs.gitlab.com/ee/administration/packages/)
+[GitLab Docs Package Page](https://docs.gitlab.com/administration/packages/)
 
 GitLab Docs are awesome!
 

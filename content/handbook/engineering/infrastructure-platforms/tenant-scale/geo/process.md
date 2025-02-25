@@ -229,7 +229,7 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](../../../../product-development-flow).
 
 Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
-Each week 5 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
+Each week 3 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
 
 1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
 2. Phase 1: Engineers will select 1-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
@@ -237,6 +237,10 @@ Each week 5 issues will be randomly selected by a bot and refined by the team. B
    2. If the issue is a go, move to `~"workflow::refinement` for Phase 2
 3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
    1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels. 
+   2. For features/maintenance issues, a timebox of 1 hour or so is expected per issue and for bugs this could take 2-3 hours as we need to reproduce it before adding implementation details 
+   3. Please also label as `~"Seeking Community contributions"` if an implementation guide has been added and weights are 1-3.
+
+The refinement script can be found [here](https://gitlab.com/gitlab-org/geo-team/bots/-/tree/main/cmd/refinement?ref_type=heads)
 
 ### Bugs Process (Being Deprecated/Combined with the Refinement Process Above)
 

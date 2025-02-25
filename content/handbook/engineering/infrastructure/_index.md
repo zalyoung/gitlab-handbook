@@ -44,58 +44,33 @@ Other strategic initiatives to achieve this vision are driven by the needs of en
 
 ```mermaid
 flowchart LR
-    I[Infrastructure]
+    I[Infrastructure Platforms]
     click I "/handbook/engineering/infrastructure/"
 
-    I --> EP[Engineering Productivity]
-    click EP "/handbook/engineering/infrastructure/engineering-productivity/"
-    I --> C[Core Platform]
-    click C "/handbook/engineering/infrastructure/core-platform/"
-    I --> EA[Engineering Analytics]
-    click EA "/handbook/engineering/quality/engineering-analytics/"
-    I --> TP[Test Platform]
-    click TP "/handbook/engineering/infrastructure/test-platform/"
-    I --> SP[SaaS Platforms]
-    click SP "/handbook/engineering/infrastructure/platforms/"
-
-    C --> SS[Systems Stage]
-    click SS "/handbook/engineering/infrastructure/core-platform/systems/"
-
-    SS --> GC[Gitaly]
-    click GC "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
-    SS --> Git[Git]
-    click GG "/handbook/engineering/infrastructure-platforms/data-access/git/"
-    SS --> Geo
-    click Geo "/handbook/engineering/infrastructure/core-platform/systems/geo/"
-    SS --> DB[Distribution::Build]
-    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SS --> DD[Distribution::Deploy]
-    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-
-    C --> DS[Data Stores Stage]
-    click DS "/handbook/engineering/infrastructure/core-platform/data_stores/"
-    DS --> TS[Tenant Scale]
-    click TS "/handbook/engineering/infrastructure/core-platform/tenant-scale/"
-    DS --> Database
-    click Database "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
-    DS --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
-
-    SP --> DE[Delivery]
-    click DE "/handbook/engineering/infrastructure/team/delivery/"
-    DE --> Deployments
-    DE --> Releases
-    SP --> Ops
-    click Ops "/handbook/engineering/infrastructure/team/ops/"
-    SP --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
-    SP --> Scalability
-    click Scalability "/handbook/engineering/infrastructure/team/scalability/"
-    Scalability --> Observability
-    Scalability --> Practices
-
-    SP --> D[Dedicated]
+    I --> DA[Data Access]
+    click DA "/handbook/engineering/infrastructure-platforms/data-access/"
+    I --> D[Dedicated]
     click D "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
+    I --> DE[Developer Experience]
+    click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
+    I --> PE[Production Engineering]
+    click PE "/handbook/engineering/infrastructure/platforms/"
+    I --> SD[Software Delivery]
+    click SD "/handbook/engineering/infrastructure/team/delivery/"
+    I --> TS[Tenant Scale]
+    click TS "/handbook/engineering/infrastructure-platforms/tenant-scale/"
+
+    DA --> GC[Gitaly]
+    click GC "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
+    DA --> Git[Git]
+    click GG "/handbook/engineering/infrastructure-platforms/data-access/git/"
+    DA --> DF[Database Framework]
+    click DF "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
+    DA --> DO[Database Operations]
+    click DO "/handbook/engineering/infrastructure-platforms/data-access/database-operations/"
+    DA --> DU[Durability]
+    click DU "/handbook/engineering/infrastructure-platforms/data-access/durability/"
+
     D --> E[Environment Automation]
     click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
     D --> PSS[Public Sector Services]
@@ -103,12 +78,45 @@ flowchart LR
     D --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    TP --> PE[Performance Enablement]
-    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
-    TP --> TE[Test Engineering]
-    click TE "/handbook/engineering/infrastructure/test-platform/test-engineering-team/"
-    TP --> TTI[Test and Tools Infrastructure]
-    click TTI "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/"
+    DE --> EA[Development Analytics]
+    click EA "/handbook/engineering/infrastructure-platforms/developer-experience/engineering-analytics/"
+    DE --> DT[Developer Tooling]
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
+    DE --> FE[Feature Readiness]
+    click FE "/handbook/engineering/infrastructure-platforms/developer-experience/"
+    DE --> PER[Performance Enablement]
+    click PER "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
+    DE --> TG[Test Governance]
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
+
+    PE --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
+    PE --> Foundations
+    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    PE --> Observability
+    click Observability "/handbook/engineering/infrastructure/team/scalability/"
+    PE --> Ops
+    click Ops "/handbook/engineering/infrastructure/team/ops/"
+    PE --> Runway
+    click Ops "/handbook/engineering/infrastructure/team/runway/"
+
+    SD --> DB[Build]
+    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    SD --> DD[Deploy]
+    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    SD --> FR[Framework]
+    click FR "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
+    SD --> RE[Releases]
+    click RE "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+    SD --> SM[Self-managed]
+    click SM "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+
+    TS --> Geo
+    click Geo "/handbook/engineering/infrastructure-platforms/tenant-scale/geo/"
+    TS --> Organizations
+    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/"
+    TS --> Cells
+    click Cells "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
 ```
 
 ## Technical Roadmap

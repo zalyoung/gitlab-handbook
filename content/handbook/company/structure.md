@@ -62,7 +62,7 @@ We are using the Job Frameworks in the following programs:
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-  - We leveral Job Frameworks in Succession planning as we assess requirements for each role level.
+  - We leverage Job Frameworks in Succession planning as we assess requirements for each role level.
 
 ### Competencies per Job
 
@@ -381,7 +381,7 @@ For example, we have a Product Manager, Product Marketing Manager, Engineering M
 
 We distinguish between types of stable counterparts to these Product Groups with:
 
-- Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/).
+- Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, and Product Design.
 - Complete Stable Counterparts - All team members assigned to product hierarchy from functions outside of the primary functions and defined in our [product categories page](/handbook/product/categories/). For example - we assign stable counterparts from Support, Product Marketing and Customer Success who are all considered part of the complete stable counterparts.
 
 A group has no reporting lines because we [don't want a matrix organization](/handbook/leadership/#no-matrix-organization).

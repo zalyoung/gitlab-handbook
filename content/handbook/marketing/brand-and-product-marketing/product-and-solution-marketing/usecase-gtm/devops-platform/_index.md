@@ -12,7 +12,7 @@ The page below is intended to align GitLab's sales and marketing efforts with a 
 
 | Product Marketing | Developer Advocate |
 | ---- | --- |
-| Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/warias) |
+| Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/waarias) |
 
 **NOTE: If you are looking for messaging guidelines regarding The DevOps Platform, please visit [The DevOps Platform Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/).**
 

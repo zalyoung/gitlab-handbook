@@ -100,7 +100,7 @@ Remember that someone's home time zone will not necessarily represent their day-
 Practically, the following should be considered.
 
 1. Leaders should proactively optimize as many workflows as possible for [asynchronous](asynchronous/). This enables people to work when they are [most productive](/handbook/leadership/#managers-of-one), fosters a culture of [rich documentation](handbook-first/), and creates a more [inclusive work environment](/handbook/values/#bias-towards-asynchronous-communication).
-1. Attempt to align on a time, or a rotation of times, where the manager and direct report can be online at the same time for a regular [1-1]({{< ref "1-1" >}}). If this pulls one person or the other into non-working hours, consider rotating times so the burden is equally shared.
+1. Attempt to align on a time, or a rotation of times, where the manager and direct report can be online at the same time for a regular [1-1](/handbook/leadership/1-1/). If this pulls one person or the other into non-working hours, consider rotating times so the burden is equally shared.
 1. Document what success looks like using [Objectives and Key Results (OKRs)](/handbook/company/okrs). This should be conveyed plainly and mutually agreed upon.
 1. Foster community and mentorship with like time zones. E.g. If a manager gains a new direct report with a sizable time zone gap, ask others in the organization — even if they are not in the same department — who are more aligned with the time zone to include this person in their social activities.
 1. Lean on documentation. Place importance on using [low-context communication](effective-communication/) in 1-1 documents, GitLab issues/merge requests, etc.

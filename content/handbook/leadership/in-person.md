@@ -96,7 +96,7 @@ Regardless of what your team is working on during time in person - whether it be
 
 1. [Roses, Buds, Thorns activity](https://easyretro.io/templates/rose-bud-thorn/): Gather feedback on what is and isn't working, then identify new opportunities.
 1. [Eisenhower Matrix](https://asana.com/resources/eisenhower-matrix): Map top priorities to set realistic goals.
-1. [Empathy Map](https://web.archive.org/web/20240718170452/https://www.accenture.com/us-en/blogs/software-engineering-blog/what-is-an-empathy-map): Apply [emotional intelligence]({{< ref "emotional-intelligence" >}}) skills to understand the root cause of a problem.
+1. [Empathy Map](https://web.archive.org/web/20240718170452/https://www.accenture.com/us-en/blogs/software-engineering-blog/what-is-an-empathy-map): Apply [emotional intelligence](/handbook/leadership/emotional-intelligence/) skills to understand the root cause of a problem.
 1. [Structured Brainstorming](https://www.innovationtraining.org/online-templates-for-brainstorming/): Focus discussion on a specific topic or problem to solve. Set [brainstorming norms](https://www.innovationtraining.org/brainstorming-rules/) to stay efficient.
 
 ## Logistics

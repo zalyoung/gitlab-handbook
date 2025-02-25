@@ -28,7 +28,7 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 | Fullstack Engineer | [Miracle Banks](https://gitlab.com/miraclebanks) |
 | Senior Fullstack Engineer | [John Arias](https://gitlab.com/jariasc-ext) |
 | Senior Fullstack Engineer | [Mateo Penagos](https://gitlab.com/mpenagos-ext) |
-| Engineering Manager | [Lauren Barker](https://gitlab.com/laurenbarker) |
+| Engineering Manager | [Chris Frazer](https://gitlab.com/de_fraz) |
 | Director | [Filza Qureshi](https://gitlab.com/fqureshi)|
 
 ## Scope

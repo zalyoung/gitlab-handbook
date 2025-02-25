@@ -7,7 +7,7 @@ title: "Coaching"
 At GitLab, we use coaching to:
 
 1. Provide opportunity for self reflection, communication and feedback
-1. Equip team members with skills they need to [deliver results for customers]({{< ref "https://handbook.gitlab.com/handbook/values/#results" >}})
+1. Equip team members with skills they need to [deliver results for customers](/handbook/values/#results)
 1. Create space to practice strategies for achieving [high performance](https://internal.gitlab.com/handbook/company/high-performing-teams/)
 
 Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. People leaders and individual contributions alike use coaching at GitLab during our [360 review process](/handbook/people-group/360-feedback/), giving and receiving [feedback](/handbook/people-group/guidance-on-feedback/), throughout stages of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), and more.
@@ -315,7 +315,7 @@ The coach might also want to end the conversation with a few statements about wh
 - Championing
 - Challenging
 - Identifying underlying limiting beliefs, assumptions, and mindset
-- [Tips for managing conflict]({{< ref "managing-conflict#8-tips-for-managing-conflict" >}})
+- [Tips for managing conflict](/handbook/leadership/managing-conflict/#8-tips-for-managing-conflict)
 
 ## Team member relations
 
@@ -330,7 +330,7 @@ There are times when a Team Member's behavior becomes so egregious that it is mo
 
 ## Live Learning Session
 
-During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust](/handbook/leadership/building-trust/) and [Coaching]({{< ref "." >}}). The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
+During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust](/handbook/leadership/building-trust/) and Coaching. The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
 
 A recording of the first of two sessions can be found here:
 

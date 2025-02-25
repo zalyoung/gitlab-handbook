@@ -876,6 +876,7 @@ Permifrost
 PgBouncer
 pgFormatter
 pgLoader
+pgLogical
 pgMustard
 pgvector
 Phabricator

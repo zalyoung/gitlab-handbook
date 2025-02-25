@@ -6,7 +6,7 @@ description: How to send notices out to GitLab.com users and customers to inform
 
 ## Overview of the process
 
-At times the [Support team will be asked to send notices]({{< ref "internal-support#gitlab-changes-and-contacting-users" >}}) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
+At times the [Support team will be asked to send notices](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
 
 This workflow describes how to fulfill different types of contact requests and the helpful tools you can use in the process.
 
@@ -36,7 +36,7 @@ Some examples:
 
 ### Tips for avoiding RED data in notices
 
-- Make use of the built-in [Project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/ee/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
+- Make use of the built-in [Project](https://docs.gitlab.com/user/project/working_with_projects/#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
   - Project example: `https://gitlab.com/-/p/278964` will redirect to `https://gitlab.com/gitlab-org/gitlab`.
   - Group example: `https://gitlab.com/-/g/9970` will redirect to `https://gitlab.com/gitlab-org`.
 

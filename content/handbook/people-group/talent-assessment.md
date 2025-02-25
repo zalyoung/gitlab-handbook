@@ -362,7 +362,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 - **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
-- **2025-03-07:** Annual Compensation Review Kicks off for Managers
+- **2025-03-10:** Annual Compensation Review Kicks off for Managers
 - **2025-03-17:** Due date for all Manager evaluations. Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
 - **2025-04-27 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
@@ -760,7 +760,9 @@ Team members identified as key talent must be assessed at minimum Performing and
 
 The only exception is for newly promoted individuals that fall into "Developing" Performance and "Developing" Growth Potential due to time and experience in their new role. Although Performance and Growth Potential are a consideration in the Key Talent selection process, they are not the only criteria used to determine the designation and should not be used in isolation. It is important to look holistically at the Key Talent Criteria outlined above when determining who qualifies as Key Talent on your team.
 
-"Too new to rate" team members can be considered key talent but this would be an exception. In order for a "too new to rate" team member to be identified as key talent they must have specialized skills that drive a significant impact to business results.
+"TNTR" (Too New to Rate) team members can be considered key talent but this would be an exception. In order for a "TNTR" team member to be identified as key talent they must have specialized skills that drive a significant impact to business results. 
+
+We exclude team members rated "TNTR" when we calculate our Key Talent distribution across the company. E.g. Team members designated Key Talent during Calibration *divided by* Talent Assessment eligible team members (excluding TNTR) = Key Talent Distribution %
 
 Below are a few examples to help managers think through Key Talent designations as they relate to Performance and Growth Potential:
 

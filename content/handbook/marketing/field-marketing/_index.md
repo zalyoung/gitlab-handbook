@@ -284,12 +284,12 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
-- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) 
+- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas)
 
 ## Items required by FMM to begin the Plan to WIP process
 
 - The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
-  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
+  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well). For shared events, please make sure to ONLY have the lead FMM listed in the FMM field in the GitLab issue, as Asana will only pull over one person into the project and that person will be assigned all of the FMM tasks.
 - The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
 - **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 
@@ -301,16 +301,19 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates a new project in Asana by following the below steps:
   - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
-  - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
+    - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
+    - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
+- When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
+  - An integration with our [Google calendar](/handbook/marketing/field-marketing/#google-calendar-links) is coming soon, but for now, the FMC will still need to manually add the event to the appropriate Google calendar by completing that specific task provided in the Asana template for each event.
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
 - FMC to add the Asana project link to the top of the GitLab issue, as well as adding the GitLab issue link to the Asana project in the Overview
 - FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
 - FMM follows the tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be notified to move the project to WIP.
 - The FMC will then proceed with their tasks in Asana
-- Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. The FMM will then go to the top of the page and click `Set status` and select `Complete`.
+- Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. **NOTE:** You must complete or delete all open tasks in a project or they will still show up in your assigned tasks (see how to bulk complete tasks [here](https://forum.asana.com/t/closing-tasks-for-a-project-set-for-a-completed-status/282266)). The FMM will then go to the top of the page and click `Set status` and select `Complete`. 
 
-## Plan to WIP Recorded Training 
+## Plan to WIP Recorded Training
 
 TBD for new Asana process
 
@@ -902,21 +905,19 @@ The below epic is for tracking venues we would like to utilize for future events
 ## What's currently scheduled in my region?
 
 | Region | FM DRI | GitLab User ID | Slack Channel |
-| ------ | ------ | -------------- | -------------- |
-| [AMER - East - NE SE & NYC Metro](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290066?label_name[]=East%20-%20Canada&label_name[]=East%20-%20NE%20SE%20%26%20NYC%20Metro)| Beth Parker | `@BParker` | |
-| [AMER - East Canada](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290066?label_name[]=East%20-%20Canada&label_name[]=East%20-%20NE%20SE%20%26%20NYC%20Metro)| Beth Parker | `@BParker` | |
-| [AMER - East - South Central & Mid Atlantic](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290100?label_name[]=East%20-%20South%20Central%20%26%20Mid%20Atlantic&label_name[]=East-%20LATAM)| Jonathan Santiago  | `@JonathanSanti` | |
-| [AMER - East - LATAM](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290100?label_name[]=East%20-%20South%20Central%20%26%20Mid%20Atlantic&label_name[]=East-%20LATAM) | Jonathan Santiago  | `@JonathanSanti` | |
-| [AMER - West -Northwest & North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290156?label_name[]=WEST%20-%20NW%20%26%20North%20Central) | Julie Wyatt | `@Julie Wyatt` | |
-| [AMER - Southwest & Bay](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290054?label_name[]=WEST%20-%20SW%20%26%20Bay%20Area) |  Lisa Rom | `@lrom`  | |
-| [AMER - Public Sector DoD/NSG/Alliances](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey |  `@KiraAubrey` | |
-| [AMER - Public Sector SLED/Civ](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey |  @kiraaubrey` | |
+| ------ | ------ | -------------- | ------------- |
+| AMER - FinServ | Beth Parker | `@BParker` | |
+| AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
+| AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
+| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
+| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
 | [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` | |
-| Japan - link WIP | Shu Kawaguchi | `@skawaguchi1` | |
+| Japan  | Shu Kawaguchi | `@skawaguchi1` | |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
 | [EMEA Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA) | Sarina Kraft | `@sarinakraft` | [#emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
+| [EMEA Telco](https://gitlab.com/groups/gitlab-com/marketing/-/boards/9128658?label_name[]=Telco&label_name[]=FM%20EMEA) | Sergei Rogalin | @srogalin | [#emea_telco_fieldmarketing](https://gitlab.enterprise.slack.com/archives/C08E7CSQQ80)|
 
 **NOTE:** to see the full list of events, you need to be logged into your GitLab account. There are times we make issues private.
 
@@ -1044,25 +1045,23 @@ The Channel Marketing Manager is responsible for keeping track of which partners
 
 The complete list of Marketing Channel Partners are identified in SFDC [here](https://gitlab.my.salesforce.com/00OPL0000002muz).
 
-## FMM/CAM alignment
+## FMM/ESM alignment
 
-| Region | FMM | PTM |
+| Region | FMM | ESM |
 | ------ | ------ | -------------- |
-| AMER East & Canada Enterprise| Beth Parker | Jay Bahar |
-| AMER South Central & LATAM Enterprise| Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
-| AMER North Central Enterprise| Julie Wyatt | Joe McAninch - Central |
-| AMER Southwest & Northwest Enterprise | Lisa Rom | Kyle Olsen |
-| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Lisa Cartegna - AMER Commercial NAMED|
-| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Maria Henry- AMER Commercial |
-| AMER Public Sector | Kira Aubrey | Chris Novello|
-| APAC | Kate Baker | Dirk de Vos |
-| APAC - Japan | Shu Kawaguchi |  |
+| AMER FinServ| Beth Parker | Jay Bahar |
+| AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
+| AMER North and Canada | Julie Wyatt | Jay Bahar |
+| AMER West Coast | Lisa Rom | Lisa Cartagena |
+| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
+| AMER LATAM | Gabby Chorny | Rodrigo Rios |
+| APAC | Kate Baker | SJ Lim |
+| APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
-| EMEA META | Marcus Hall & Juliette Francon | Adham Alattar |
-| EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
-| EMEA UK/I | Neha Pujari | Aaron Burgess |
-| EMEA DACH | Sarina Kraft | Ilaria Pazienza |
-| EMEA CEE | Sarina Kraft | Michal Kulakowski  |
+| EMEA Northern Europe | Neha Pujari| Aaron Burgess |
+| EMEA UK/I | Neha Pujari | Adam Woolford |
+| EMEA DACH | Sarina Kraft | Michi Tluste (Germany)/Christian Heitzler (ALPS) |
+| EMEA Telco | Sergei Rogalin | Country Specific |
 
 ## Field Marketing initiated and funded campaigns
 
@@ -1484,15 +1483,15 @@ Please note that there is a limit of $75 USD annually per person on customer spe
 
 ### Field Marketing Contract Requests
 
-In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC.
+In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will utilize the Contract Request task in the Asana project and follow the instructions to provide important details required.
 
 #### SLAs
 
-The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
+The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request task. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
 #### Document Review
 
-Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
+Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* completing your contract request task in Asana. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
 
 - Correct [GitLab entity](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) that needs to be utilized, along with the correct address associated with that entity
 - GitLab company name spelled correctly (capital L!)

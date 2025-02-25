@@ -69,7 +69,7 @@ Team members also have obligations to protect the personal and sensitive informa
 
 #### Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). 
 
 ### Anti-Harassment
 
@@ -237,8 +237,8 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 
 ### France
 
-- [Remote Work Charter]({{< ref "france-sas/remote-work-charter" >}})
-- [Right to Disconnect Charter]({{< ref "france-sas/right-to-disconnect-charter" >}})
+- [Remote Work Charter](/handbook/people-policies/france-sas/remote-work-charter)
+- [Right to Disconnect Charter](/handbook/people-policies/france-sas/right-to-disconnect-charter)
 {{% /details %}}
 
 {{% details summary="GitLab GmbH (Germany)" %}}
@@ -280,7 +280,7 @@ To ensure the health and safety of our team members in Germany, and to maintain 
 - [Disciplinary Procedure](https://docs.google.com/document/d/1cTSESXTt1Fn8680AVAcpq1g3wkJ_voFj192ak3rXNcA/edit?usp=sharing)
 - [Grievance Procedure](https://docs.google.com/document/d/1RJ5rWMz_FRiKDOOyAgCn5b4XZkV0dcrKZ82D7etBlUo/edit?usp=sharing)
 - [Protected Disclosure Policy](https://docs.google.com/document/d/1cIRHYLBCKJy2doHcpL4Yg-A4PWaw16IgjWLUCb34OyE/edit?usp=sharing)
-- [Right to Disconnect Policy]({{< ref "ireland-ltd/right-to-disconnect-policy" >}})
+- [Right to Disconnect Policy](/handbook/people-policies/ireland-ltd/right-to-disconnect-policy)
 
 **Health and Safety**
 

@@ -69,4 +69,4 @@ Goal: Enable data scientists and [MLOps](https://about.gitlab.com/direction/mode
 
 Recent customer workshop examples are available in [this pre-filtered issue list](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=DA-Type%3A%3AConsulting&search=mlops&first_page_size=20) (internal).
 
-SME DRI: @warias
+SME DRI: @waarias
