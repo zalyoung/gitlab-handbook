@@ -24,7 +24,8 @@ The charter of this working group is to:
 - Successfully decompose the Sec datasets to a separate `gitlab_sec` database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
 - Consider the timing, scope, and impact of the decomposition related to prioritization and implementation of additional efforts to support GitLab.com db performance and optimization for related tables - [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/7863) (GitLab internal)
 - Evaluate the impact of the decomposition on Self-Managed instances regarding feature parity, performance/hardware requirement, improvements for different size of DBs, and admin's effort to support.
-- Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Sec databases in alignment with GitLab.com
+
+Support for decomposition in Self-managed or Dedicated is not in scope for this working group.
 
 ### Objectives
 
@@ -142,7 +143,6 @@ Last update: [2025-02-18](https://gitlab.com/groups/gitlab-org/-/epics/14165#not
     1. Remove previously identified cross-joins and cross-database transactions allowances
 1. Formulate a logical replication path for the safe migration of the Sec dataset to a new physical database.
 1. Open Change Request to migrate tables using a single replication event for all tables in scope of decomposition
-1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
 
 #### Data Migration Proposal
 
