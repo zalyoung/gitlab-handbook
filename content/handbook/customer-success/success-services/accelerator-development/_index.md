@@ -39,7 +39,6 @@ This guide and issue template refer strictly to the **development** of new Accel
 - [Accelerator Development Project](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/csa)
 - [Success Advanced/Signature Customers](https://gitlab.com/gitlab-com/customer-success/success-services/success-enterprise-customers)
 
-
 ### Issue Boards
 
 - [Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/boards)
