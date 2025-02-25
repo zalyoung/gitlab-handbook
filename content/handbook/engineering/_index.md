@@ -166,8 +166,11 @@ The configurable ratio between P-track and E-track allocations provides implemen
    - What distributions will be available with the proposal
    - What potential drivers this could generate for the company based on your knowledge of the customer (e.g. design partners, marquee customers, revenue)
    - A brief written description of the effort required (including confidence, unknowns, or concerns)
-1. Once complete, and potentially more rounds of review/feedback between Product and Engineering leadership, this will complete the interlock process for a finalized quarterly plan
-
+1. This will finalize alignment. Final commitment will occur with VP/PLT signoff to ensure that features are mapped to team capacity, tier assignments (P1/P2/P3 or E1/E2/E3) are finalized and commitment on timelines is in place.
+1. This allows us to move forward with upstream communication, with some P1/P2 initiatives becoming integrated into the GTM/Customer Roadmap as T1/T2:
+  - **Tier 1** topics are meant to be 100% committed to within the defined quarter with GA and validation through the Early Access Program. It also requires customer references.
+   - **Tier 2** topics are meant to be committed to with 80% confidence of delivery within the defined quarter delivering features that don't have to be GA but must be available broadly with customer references as a "better" vs a requirement. These efforts are noteworthy enough for a blog post or media interviews 
+   - **Tier 3** topics are included in monthly release notes but do not warrant GTM engagement. The confidence of their delivery within a specific quarter is lower than Tier 1 or 2, as they can slip to ensure Tier 1 or 2 deliverables do not miss their committed dates.
 This quarterly R&D roadmap represents a contract, not between Product and Engineering, but between GitLab and our customer. Engineering is responsible for the delivery of a product that meets the need of the customer with the highest quality for the company. 
 
 #### Why this matters
