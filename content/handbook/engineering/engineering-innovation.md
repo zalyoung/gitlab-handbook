@@ -4,11 +4,11 @@ title: "Innovation at GitLab"
 
 This guide serves as a comprehensive handbook for GitLab team members (engineers, product managers, and designers) who want to create innovations (proofs-of-concept) and share them internally—and eventually, with the public—in a transparent and collaborative way.
 
-## Alignment with GitLab’s Strategy
+## Alignment with GitLab's Strategy
 
-Innovation at GitLab is important: It is a core component of our long-term strategic vision outlined in the [Company Strategy](../company/strategy.md). Our approach of “seed then nurture” ensures that early proofs-of-concepts can evolve into mature features that drive both user adoption and business growth.
+Innovation at GitLab is important: It is a core component of our long-term strategic vision outlined in the [Company Strategy](../company/strategy.md). Our approach of "seed then nurture" ensures that early proofs-of-concepts can evolve into mature features that drive both user adoption and business growth.
 
-This iterative and collaborative guide directly supports GitLab’s three-year strategy by bridging short-term proofs-of-concepts with long-range planning. As innovations are refined and scaled, they reinforce our strategic priorities and allow us to adapt dynamically to evolving market trends.
+This iterative and collaborative guide directly supports GitLab's three-year strategy by bridging short-term proofs-of-concepts with long-range planning. As innovations are refined and scaled, they reinforce our strategic priorities and allow us to adapt dynamically to evolving market trends.
 
 ## Table of Contents
 
@@ -28,7 +28,8 @@ Creating an innovation at GitLab means exploring new ideas, testing new features
 
 - **Innovation (Proof-of-Concept):** A project created to validate a new idea or potential product feature.
 
-- **Epic Tracking:** We use GitLab Epics to consolidate all tasks and issues related to the innovation under a single board (specifically the “[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)” board) for transparency and visibility.
+- **Epic Tracking:** We use GitLab Epics to consolidate all tasks and issues related to the innovation under a single board (specifically the "[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)" board) for transparency and visibility.
+- **Epic Tracking:** We use GitLab Epics to consolidate all tasks and issues related to the innovation under a single board (specifically the "[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)" board) for transparency and visibility.
 
 > **Note:** Innovations are not yet [*Experiments*](https://docs.gitlab.com/policy/development_stages_support/#experiment) - however, this guide will help your innovation become an experiment if applicable. When an innovation demonstrates success through monitoring metrics and positive feedback, it can be promoted to a full product feature through collaboration with our product organization.
 
@@ -138,13 +139,13 @@ Once you have gathered initial feedback and validated the potential of your inno
 
     - Post your innovation summary in the \#innovation channel to share it with the larger organization and begin cross-team conversations.
 
-    - Tag anyone relevant in your Epic’s issue description.
+    - Tag anyone relevant in your Epic's issue description.
 
 3. **Transitioning to Public:**
 
-    - In line with GitLab’s [Public by Default](../values/_index.md#public-by-default) value, work with the corresponding Product and UX team to make your innovation public as soon as possible once you’ve validated its potential. If your innovation contains potentially patentable information, work with your manager and the Legal Team to see if it meets [patent requirements](../legal/patent-program.md#conditions-of-participation).
+    - In line with GitLab's [Public by Default](../values/_index.md#public-by-default) value, work with the corresponding Product and UX team to make your innovation public as soon as possible once you've validated its potential. If your innovation contains potentially patentable information, work with your manager and the Legal Team to see if it meets [patent requirements](../legal/patent-program.md#conditions-of-participation).
 
-    - Ensure the transition aligns with GitLab’s [Company Strategy](../company/strategy.md) and [Values](../values/), and collaborate with Product and UX when publicly communicating the innovation.
+    - Ensure the transition aligns with GitLab's [Company Strategy](../company/strategy.md) and [Values](../values/), and collaborate with Product and UX when publicly communicating the innovation.
 
 4. **Cross-Team Collaboration:**
 
@@ -170,7 +171,7 @@ An innovation can be closed out in a few ways:
 
 ## Innovation vs. Incubation Engineering
 
-While both innovation and incubation engineering play crucial roles in GitLab’s development ecosystem, they have distinct focuses:
+While both innovation and incubation engineering play crucial roles in GitLab's development ecosystem, they have distinct focuses:
 
 - **Innovation at GitLab** is geared toward individual or small-team ideas that explore new ways to improve our product and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.
 
