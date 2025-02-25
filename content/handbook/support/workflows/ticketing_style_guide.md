@@ -54,7 +54,7 @@ Everyone in the Support Team is welcome to contribute or modify the suggestions 
    
    ```text
    ### Problem
-   - States exact what issues the customer is experiencing
+   - States what exact issues the customer is experiencing
    ### Context
    - Versions, recent changes to their instance, deployment type, etc.
    ### What we've ruled out
