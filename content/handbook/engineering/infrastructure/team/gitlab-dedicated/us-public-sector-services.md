@@ -1,5 +1,6 @@
 ---
 title: US Public Sector Services team
+description: "The GitLab US Public Sector Services team mission is to create a fully managed, single-tenant GitLab environment, served through a GitLab Dedicated platform that is purpose-built to help address specific regulatory and compliance requirements of US government agencies at the federal, state, and local level, as well as contractors, educational institutions, and other U.S. customers that run sensitive workloads. It is developed to remove any manual interactions with customer tenant installations, and to ensure that the customer tenants are fully focused on unlocking the power of The One DevOps Platform."
 ---
 
 ## Mission

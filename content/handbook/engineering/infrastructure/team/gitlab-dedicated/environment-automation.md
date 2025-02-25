@@ -1,5 +1,6 @@
 ---
 title: Environment Automation Team
+description: "Environment Automation is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to develop and operate the automated plumbing of the GitLab Dedicated solution."
 ---
 
 ## Summary
