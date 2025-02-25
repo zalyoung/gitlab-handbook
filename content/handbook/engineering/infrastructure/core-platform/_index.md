@@ -16,7 +16,7 @@ Core Platform focuses on improving our capabilities and metrics in the following
 - [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
-- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
+- [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/)
 - [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
