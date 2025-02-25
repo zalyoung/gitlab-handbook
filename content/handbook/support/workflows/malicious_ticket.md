@@ -61,7 +61,7 @@ If you suspect a ticket may have malicious intent:
 
 1. Do not communicate your suspicions to the customer
 2. Continue normal communication while seeking guidance
-3. Contact the security team via Slack by typing `/security` and provide:
+3. Contact the security team via Slack by using `/security` and provide:
    - The ticket number
    - Specific elements that raised your concern
    - Any actions you've taken so far
