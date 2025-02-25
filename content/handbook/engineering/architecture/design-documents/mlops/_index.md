@@ -4,7 +4,7 @@ status: proposed
 creation-date: "2025-01-30"
 authors: [ "@a_akgun", "@fdegier" ]
 coach: "@igor.drozdov"
-approvers: [ "@tmccaslin", "@sean_carrol" ]
+approvers: [ "@sean_carroll" ]
 owning-stage: "~devops::modelops"
 participating-stages: []
 toc_hide: true
@@ -39,7 +39,7 @@ These challenges often result in:
 
 ### Goals
 
-- Provide end-to-end ML lifecycle management integrated with existing development workflows
+- Provide end-to-end ML lifecycle management integrated with existing GitLab DevOps workflows
 - Enable seamless collaboration between data scientists, engineering and governance teams
 - Enable integration with existing GitLab components such as CI/CD pipelines and issues, merge requests, tracing etc.
 - Integration with cloud providers; model registry and inference
@@ -189,12 +189,6 @@ MLOps will support self-managed installation, including support for air-gapped e
 ### Development Guidelines
 
 No additional need beyond GDK. You might need MLflow client and [GitLab MLOps Python Client](https://pypi.org/project/gitlab-mlops/)
-
-### Documentation
-
-Comprehensive user, API and operations documentation will be provided:
-
-- Troubleshooting guides
 
 ## Out of scope
 
