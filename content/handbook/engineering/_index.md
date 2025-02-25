@@ -124,15 +124,15 @@ This section outlines the process for aligning Product Management, User Experien
 1. Engineering will evaluate the proposal from product and validate or identify:
    - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
    - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
-   - Whether we commit to the timeline / scope [Example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a03bf4e05_0_100), commit to a different timeline / scope that we propose [Example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a2c78e62a_0_1012), or recommend an alterative [Example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a03bf4e05_0_130) 
+   - What the status of our commitment is [example](https://docs.google.com/presentation/d/1UTjvJVl544gj9cYrmKeW8KI8dtXBZ6jzxywOuIxRHrI/edit#slide=id.g338442d3ae9_0_122) 
    - What milestone we are committing to within the proposed quarter
    - What dependencies we will have once committed (e.g. other teams, other projects, etc) in order to align in advance
    - What distributions will be available with the proposal
    - What potential drivers this could generate for the company based on your knowledge of the customer (e.g. design partners, marquee customers, revenue)
-   - A brief written description of Engineering's Committment (including confidence, unknowns, or concerns)
+   - A brief written description of the effort required (including confidence, unknowns, or concerns)
 1. Once complete, and potentially more rounds of review/feedback between Product and Engineering leadership, this will complete the interlock process for a finalized quarterly plan
 
-This quarterly R&D roadmap represents a contract, not between Product and Engineering, but between GitLab and our customer. Engineering is responsible for the delivery of a product that meets the need of the customer - up to and including resolving the pain point with the highest quality for the company. As we work through the interlock process, this requires us to have an understanding of the customer journey, the true problem to be solved, and a strong opinion on the solution that meets the bar for Results for Customers. 
+This quarterly R&D roadmap represents a contract, not between Product and Engineering, but between GitLab and our customer. Engineering is responsible for the delivery of a product that meets the need of the customer with the highest quality for the company. 
 
 #### Why this matters
 - Establish a unified, aligned-upon, and transparent R&D Roadmap across technical roadmaps, engineering initiatives or projects, cross-functional prioritization, and company planning. 
