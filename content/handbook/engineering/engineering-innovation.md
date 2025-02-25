@@ -86,7 +86,7 @@ Within the Epic, create an issue with the following:
 
 - **Overview:** This should be a high-level summary of the innovation detailing the purpose, expected business benefits, and a resource list for more information. This can also be in the Epic Description section. Your epic overview section should include the following:
   - **Base Properties**: all innovations should have the following:
-    - **A DRI (Directly Responsible Individual):** for each innovation (and if moved to experiemental, the DRI for the experiment). This person should be responsible for the cleanup of the innovation so that does not go stale.
+    - **A DRI (Directly Responsible Individual):** for each innovation (and if moved to experimental, the DRI for the experiment). This person should be responsible for the cleanup of the innovation so that does not go stale.
     - **Why Now?** or **Problem to Solve?** - this should include the business case for the innovation. This should help everyone to understand the problem the POC is solving.
     - **Dependencies or Implications:** Any dependencies or implications for other product areas or teams.
     - **Timeline:** What will mark this innovation as "complete"?
