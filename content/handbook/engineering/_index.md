@@ -157,8 +157,7 @@ The configurable ratio between P-track and E-track allocations provides implemen
   - Resource requirements
   - Initial timeline estimates
 1. Apply preliminary prioritization: Perform an initial assessment of business value, technical feasibility, resource requirements, and strategic alignment - in order to understand prioritization. 
-1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template [similar to this](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a2c78e62a_0_32)
-1. Engineering will evaluate the proposal from product and validate or identify:
+1. In order to finalize alignment, these proposals will be provided to UX stage owners, Product GTM and Engineering Directors to revise priority, business value, technical feasibility, resource requirements, and strategic alignment. For all proposals, validate the definition of good (clear success and landing criteria), timeline, and resource allocation, identify dependencies, and assess risks. You should ensure that proposals include:
    - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
    - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
    - What the status of our commitment is [example](https://docs.google.com/presentation/d/1UTjvJVl544gj9cYrmKeW8KI8dtXBZ6jzxywOuIxRHrI/edit#slide=id.g338442d3ae9_0_122) 
