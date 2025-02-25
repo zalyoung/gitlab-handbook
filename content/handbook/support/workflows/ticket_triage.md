@@ -34,7 +34,10 @@ graph TD
 
 A ticket should have the correct [form](/handbook/support/readiness/operations/docs/zendesk/forms/) applied to it to help route it to the right set of individuals who can assist with that request.
 
-The single source of truth for what forms exist is the [Current active forms](/handbook/support/readiness/operations/docs/zendesk/forms/#current-zendesk-global-form) list in the Support Ops handbook section.
+The single source of truth for what forms are active is:
+
+- [zendesk-global/tickets/forms-and-fields](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields/-/tree/master/data/forms/active?ref_type=heads)
+- [zendesk-us-government/tickets/forms-and-fields](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields/-/tree/master/data/forms/active?ref_type=heads)
 
 For tickets submitted using an incorrect form or those that need to be moved to non-support forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will handle the reassignment from there.
 
