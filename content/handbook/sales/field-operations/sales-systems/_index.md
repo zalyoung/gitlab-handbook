@@ -272,21 +272,22 @@ The Business DRI should sign off after validating the provided solution works as
 
 Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
 
-| Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
-|-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
-| Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
-| Partner Operations          | Sales Operations                            | Sales Operations                                 |
-| Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |
-| Sales Operations            | Director, Sales Operations                  | Senior Director, Sales Operations                |
-| Deal Desk                   | Sr. Director, Deal Desk                     | Senior Director, Sales Operations                |
-| Professional Services       | Director, Professional Services             | VP of Professional Services & Education          |
-| Marketing Operations        | Director, Marketing Operations              | Senior Director, Marketing Strategy & Platforms  |
-| Sales Dev Operations        | Director, Sales Development Operations      | VP, Sales Development                            |
-| Sales Compensation          | Director, Sales Commissions                 | Senior Director, Sales Operations                |
-| Legal                       | Legal Compliance and Ethics                 | Senior Director, Legal, Corporate and Compliance |
-| Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
-| Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
+| Team / Lane                 | Main Approver                                                                                  | Backup Approver                                  |
+|-----------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Quote To Cash               | Director, Quote to Cash                                                                        | Senior Director, Sales Operations                |
+| Territory Management        | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
+| Partner Operations          | Sales Operations                                                                               | Sales Operations                                 |
+| Customer Success Operations | Senior Director, CS Strategy & Operations                                                      | VP of Field Operations                           |
+| Sales Operations            | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
+| Deal Desk                   | Sr. Director, Deal Desk                                                                        | Senior Director, Sales Operations                |
+| Professional Services       | Director, Professional Services                                                                | VP of Professional Services & Education          |
+| Marketing Operations        | Director, Marketing Operations                                                                 | Senior Director, Marketing Strategy & Platforms  |
+| Sales Dev Operations        | Director, Sales Development Operations                                                         | VP, Sales Development                            |
+| Sales Compensation          | Director, Sales Commissions                                                                    | Senior Director, Sales Operations                |
+| Legal                       | Legal Compliance and Ethics                                                                    | Rashmi Chachra VP, Legal                         |
+| Sales Systems               | Senior Manager, Sales Systems                                                                  | Senior Director, Enterprise Applications         |
+| Fulfillment                 | Courtney Meddaugh (until omar backup ) Group Manager Fulfillment                               | VP, Product Management                           |
+| Data                        | Krishna Priya Vasireddy Israel Weeks  Director Data Analytics                                  | Amie Bright VP Data & Analytics                  |
 
 #### [Systems Owner] Systems Owner Sign-off
 
