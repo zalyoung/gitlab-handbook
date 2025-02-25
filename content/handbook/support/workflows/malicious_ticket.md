@@ -12,6 +12,7 @@ Customers are inherently trusted partners and tickets are opened with positive i
 ## Potential risks
 
 Malicious tickets could be attempts to:
+
 - Extract sensitive information about GitLab's infrastructure or systems
 - Socially engineer support staff to bypass security controls
 - Request configuration changes that would create security vulnerabilities
@@ -66,9 +67,11 @@ If you suspect a ticket may have malicious intent:
    - Any actions you've taken so far
 
 ### After reporting
+
 - Continue normal communication until advised otherwise by the security team
 - Follow instructions provided by security
 - Do not take exceptional actions requested by the customer without security approval
 
 ## Remember
+
 Most tickets are fortunately legitimate, this guidance is meant to help identify rare exceptions where caution is warranted. When in doubt, it's always better to consult with security than to ignore potential warning signs.
