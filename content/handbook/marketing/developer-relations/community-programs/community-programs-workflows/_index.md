@@ -8,6 +8,13 @@ description: "Review various workflows associated with the GitLab for Education,
 This handbook page describes various workflows associated with [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/), including GitLab for Education, GitLab for Open Source, and GitLab for Startups.
 By maintaining this page, we aim to establish more transparency into our workflows so GitLab team members can integrate with them.
 
+## Support queues
+
+* Support queue for the GitLab for Open Source program: https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support/-/issues
+* Support queue for the GitLab for Education program: https://gitlab.com/gitlab-com/marketing/developer-relations/education-program/education-program-support/-/issues/
+
+Use the comment templates to answer to the questions. Use https://docs.google.com/spreadsheets/d/1kORpssdu28RS1GIeE5C-LVzrrKC1iLwEoC3x0_2OnwU/edit?gid=0#gid=0 as basis for coupon codes at your own judgment.
+
 ## Automated applications workflow overview
 
 Community Programs applications workflows have been automated since FY23Q3.
@@ -154,7 +161,7 @@ Each step of the automated application workflow has different set of potential e
 
 |Phase|Source|Error|DRI|Action|
 |-----|------|-----|---|------|
-| Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
+| Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email. Program manager can override by sending a coupon from https://docs.google.com/spreadsheets/d/1kORpssdu28RS1GIeE5C-LVzrrKC1iLwEoC3x0_2OnwU/edit?gid=0#gid=0 |
 | Verification | SheerID Application| False Rejection OSS | [Open Source Service Desk](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
 | Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
@@ -174,6 +181,8 @@ Below are details related to various Commuity Programs workflows.
 
 Sales team members receiving inbound requests regarding community programs should adhere to the following workflow and direct leads according to the routing table below.
 
+
+
 | If the lead is inquiring about | Then take this action |
 | ------------------------------ | --------------------- |
 | Whether they qualify for a specific program | Send the relevant [marketing or handbook page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) detailing the program's requirements |
@@ -181,6 +190,7 @@ Sales team members receiving inbound requests regarding community programs shoul
 | How to renew | Send the [relevant marketing or application page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with renewal instructions and the application form |
 | How to alter some aspect of a subscription | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance |
 | An edge case | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance |
+
 
 ## Common program-related Salesforce workflows
 
