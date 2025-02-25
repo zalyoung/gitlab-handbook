@@ -77,23 +77,26 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-There are currently more than 10 different bot user account types, each owned by a different team with disparate permission policies and authentication methods. This leads to unclear ownership, can result in security vulnerabilities, are hard for customers to track, and have high maintenance overhead. This proposal standarizes on service accounts as the singular solution for bot accounts within GitLab. Service accounts provide nearly identical capabilities to regular users while enforcing constraints like UI sign-in restrictions and fewer distinct permission policies. 
+GitLab currently supports more than 10 different bot user account types, each managed by different teams with inconsistent permission policies and authentication methods. This fragmentation creates challenges in ownership clarity, potential security vulnerabilities, customer visibility issues, and significant maintenance overhead. This proposal establishes service accounts as the core machine identity. Service accounts provide capabilities similar to regular users while enforcing important security constraints like UI sign-in restrictions and implementing streamlined permission policies.
 
 ## Motivation
 
-Standardizing on service accounts will:
+A consolidated approach to machine identities through service accounts will:
 
+- Simplify GitLab's machine access story by providing a unified interface and code path
+- Enhance security through consistent authentication methods and access controls
 - Reduce engineering overhead by centralizing bot-related code and policies
-- Improve security by enforcing consistent authentication methods and access controls
-- Allow customers to view and manage credentials alongside other users
-- Establish clearer ownership and responsibility for bot accounts
+- Improve customer experience by allowing management of machine identities alongside other users
+- Establish clear ownership and responsibility for machine identities
+- Create proper isolation between human users and machine identities to facilitate easier ownership transfer and management.
 
 ### Goals
 
-1. Add features to service accounts to support required use-cases
-1. Standarize on service accounts for all new bot user
-1. Create migration path for existing bot user types
-1. Simplify bot permission policies
+1. Enhance service accounts with features to support all required use-cases (e.g., project/group allow lists)
+1. Standardize on service accounts for all new machine identities
+1. Create migration paths for existing bot user types
+1. Simplify permission policies for machine identities
+1. Develop a revised monetization strategy for service accounts in collaboration with product teams
 
 ## Proposal
 
