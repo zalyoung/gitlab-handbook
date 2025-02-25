@@ -114,6 +114,41 @@ This process ensures a balanced approach between feature development and technic
 The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but we want to ensure an aligned upon roadmap across all stakeholders.
 
 This section outlines the process for aligning Product Management, User Experience and Engineering teams on roadmap planning and execution. The process creates a balanced approach between product-driven and engineering-driven initiatives while ensuring clear communication channels with various stakeholders. 
+ 
+#### Resource Allocation Framework
+
+We're establishing a balanced approach between product-led and engineering-driven initiatives that prioritizes customer needs, quality standards, and long-term product sustainability. This balance serves as the foundation for ongoing dialogue between Product Management, User Experience, and Engineering teams, with the flexibility to adjust ratios as needed for each team's specific context.
+
+- P1/P2/P3: Product-Driven Initiatives
+  - Prioritization Levels
+    - P1: 100% Eng Commitment
+    - P2: 80% Eng Commitment
+    - P3: Best Effort
+  - Some of the P1/P2/P3 projects will be added to the GTM Roadmap (see below). In this process, they will be labeled T1/T2. It’s possible that the numeric priority will change, as a P1 that’s a commitment to a specific customer might be a T2 for Marketing.
+  - Externally communicated to stakeholders
+- E1/E2/E3: Engineering-Driven Initiatives
+  - Prioritization Levels:
+    - E1: 100% Eng Commitment
+    - E2: 80% Eng Commitment
+    - E3: Best Effort
+  - Internal visibility only
+  - Not externally communicated
+
+Creating a clean alignment ("interlock") between Product, UX and Engineering requires a structured planning methodology that integrates user requirements with focused quality improvements and essential technical efforts. This framework establishes a dual-track system where product-driven initiatives (P1/P2/P3) operate with explicit resource allocation parameters—P1 receiving engineering capacity to deliver with 100% certainty and full visibility in release communications, P2 allocated engineering resources to deliver with 80% certainty, both with defined acceptance criteria. P3 efforts are implemented through iterative development cycles when capacity permits. This systematic approach ensures proper resource allocation while creating a traceable relationship between committed functionality and execution.
+
+Parallel to these requirement-driven developments, the framework implements a technical sustainability track (E1/E2/E3) with equivalent resource allocation metrics but isolated from external dependencies and release communications. This architecture enables critical refactoring, dependency upgrades, test automation improvements, and infrastructure optimization to proceed with appropriate prioritization without external scheduling constraints.
+
+The configurable ratio between P-track and E-track allocations provides implementation flexibility across different system components and architectural layers, allowing teams to adapt the framework based on technical debt accumulation, system stability metrics, and component lifecycle phases—ultimately producing systems that satisfy functional requirements while maintaining architectural integrity.
+
+#### Roadmap Structure for R&D Execution
+
+- Content: All P1/P2/P3 and E1/E2/E3 initiatives
+- Cadence: Quarterly updates, 4-quarter rolling window
+- Audience: PM and Engineering leadership
+- Purpose: Readiness, Feasibility, and Execution Planning
+- Format: One deck per [section](../handbook/product/categories/#hierarchy) ([internal-only template](https://docs.google.com/presentation/d/1UTjvJVl544gj9cYrmKeW8KI8dtXBZ6jzxywOuIxRHrI/edit#slide=id.g31e0626c3d4_0_248)), one roadmap overview for customer and engineering driven initiatives per stage, Individual alignment slides for each initiative
+
+#### R&D Alignment
 
 1. Product will provide a proposed roadmap at the company level similar to [this example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g3372045a936_0_0)
    - The intent is not to encompass every team, but rather most critical objectives to achieve
