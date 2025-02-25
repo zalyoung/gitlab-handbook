@@ -152,12 +152,13 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
     - component: ilt.gitlabtraining.cloud/components/sast/sast@main
         inputs:
         excluded_paths: venv
+        run_advanced_sast: true
     - component: ilt.gitlabtraining.cloud/components/secret-detection/secret-detection@main
     ```
 
     > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure Secret Detection** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
 
-1. Configure Secret Detection to ignore the test directory by pasting this job definition below your component import
+1. Configure Secret Detection to ignore the test directory by pasting this job definition below your component import.
 
     ```yml
     secret_detection:

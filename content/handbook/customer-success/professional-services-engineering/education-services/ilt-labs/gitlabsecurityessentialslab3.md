@@ -35,7 +35,7 @@ For Infrastructure as Code, you will start by deploying an S3 bucket to your env
 
 1. Add the following contents to the file:
 
-    ```yml
+    ```tf
     resource "aws_s3_bucket_public_access_block" "publicaccess" {
         bucket = aws_s3_bucket_demobucket.id
         block_public_acls = false
