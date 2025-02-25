@@ -276,18 +276,18 @@ Business Process Owner pertaining to the team should provide signoff. The signof
 |-----------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | Quote To Cash               | Director, Quote to Cash                                                                        | Senior Director, Sales Operations                |
 | Territory Management        | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
-| Partner Operations          | Sales Operations                                                                               | Sales Operations                                 |
-| Customer Success Operations | Senior Director, CS Strategy & Operations                                                      | VP of Field Operations                           |
+| Ecosystems                  | Director, Sales Operations                                                                     | Senior Manager, Global Ecosystem Specialists     |
+| Customer Success Operations | Senior Director, CS Strategy & Operations                                                      | VP, Field Operations                             |
 | Sales Operations            | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
 | Deal Desk                   | Sr. Director, Deal Desk                                                                        | Senior Director, Sales Operations                |
-| Professional Services       | Director, Professional Services                                                                | VP of Professional Services & Education          |
+| Professional Services       | Director, Professional Services                                                                | VP, Professional Services & Education            |
 | Marketing Operations        | Director, Marketing Operations                                                                 | Senior Director, Marketing Strategy & Platforms  |
 | Sales Dev Operations        | Director, Sales Development Operations                                                         | VP, Sales Development                            |
 | Sales Compensation          | Director, Sales Commissions                                                                    | Senior Director, Sales Operations                |
-| Legal                       | Legal Compliance and Ethics                                                                    | Rashmi Chachra VP, Legal                         |
+| Legal                       | Director, Legal Compliance and Ethics                                                          | VP, Legal                                        |
 | Sales Systems               | Senior Manager, Sales Systems                                                                  | Senior Director, Enterprise Applications         |
-| Fulfillment                 | Courtney Meddaugh (until omar backup ) Group Manager Fulfillment                               | VP, Product Management                           |
-| Data                        | Krishna Priya Vasireddy Israel Weeks  Director Data Analytics                                  | Amie Bright VP Data & Analytics                  |
+| Fulfillment                 | Group Manager, Fulfillment                                                                     | VP, Product Management                           |
+| Data                        | Director, Data Analytics                                                                       | VP, Data & Analytics                             |
 
 #### [Systems Owner] Systems Owner Sign-off
 
