@@ -175,7 +175,7 @@ Self-Managed customers who deploy a self-managed AI Gateway will only be able to
 
 ### Development Environment
 
-Engineering documentation will be produced on how to develop this feature, with work in progress on:
+Some related work completed for the development environment include:
 
 - [Include AI Gateway in GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/issues/2025)
 - [Developer setup for self-hosted models](https://gitlab.com/gitlab-org/gitlab/-/issues/452509)
