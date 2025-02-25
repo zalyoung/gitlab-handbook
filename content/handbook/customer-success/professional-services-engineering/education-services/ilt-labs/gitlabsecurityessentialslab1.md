@@ -92,7 +92,7 @@ For this section of the course, we will use a template with prepopulated code to
 
 1. After the pipeline completes, refresh the merge request screen. 
 
-1. You should now see a message stating **Security Scanning detected 5 new potential vulnerabilities**. 
+1. You should now see a message stating **Security Scanning detected 4 new potential vulnerabilities**. 
 
 1. Select **View all pipeline findings**.
 
