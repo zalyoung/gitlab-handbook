@@ -1,7 +1,7 @@
 ---
 title: Suspecting a ticket to be malicious  
-category: GitLab.com 
-subcategory: Security 
+category: Handling tickets
+subcategory: General
 description: Documenting how and when to contact security if a ticket is looking suspicious/malicious in nature. 
 ---
 
