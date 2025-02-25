@@ -12,7 +12,7 @@ description: "Overview of how work is performed by Distribution Engineers, for O
 Distribution team members are expected to:
 
 * Be kind in their interaction with the rest of the community and other teams
-* Ensure that fixing red master branch in projects takes the highest priority
+* Ensure that fixing red main branch in projects takes the highest priority
 * Pick items to work on from the project scheduled queues
 * Define test plans for changes not covered by integration tests
 * Label issues and merge requests to track [engineering metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
