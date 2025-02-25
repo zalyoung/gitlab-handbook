@@ -111,18 +111,20 @@ This process ensures a balanced approach between feature development and technic
 
 ### Interlock Process for Quarterly R&D Roadmaps
 
-The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but to accomplish their vision, our teams work toward a joint R&D fully aligned direction described in a top level R&D Roadmap. This process describes how we create that top level R&D roadmap and achieve that alignment within each product group, and across the company. 
+The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but we want to ensure an aligned upon roadmap across all stakeholders.
 
-1. Product will provide a proposed roadmap at the company level similar to [this example](https://docs.google.com/presentation/d/1BP1e7bzpW1AmvCSjluRSMUJbhkJwQe-Hwm3EHS0nS34/edit#slide=id.g2d8e6978604_0_506)
+This section outlines the process for aligning Product Management, User Experience and Engineering teams on roadmap planning and execution. The process creates a balanced approach between product-driven and engineering-driven initiatives while ensuring clear communication channels with various stakeholders. 
+
+1. Product will provide a proposed roadmap at the company level similar to [this example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g3372045a936_0_0)
    - The intent is not to encompass every team, but rather most critical objectives to achieve
-   - **Tier 1** topics are meant to be 100% committed to within the defined quarter
-   - **Tier 2** topics are meant to be committed to with 80% confidence that it will be delivered in the defined quarter
+   - **Tier 1** topics are meant to be 100% committed to within the defined quarter with GA and validation through the Early Access Program. It also requires customer references.
+   - **Tier 2** topics are meant to be committed to with 80% confidence of delivery within the defined quarter delivering features that don't have to be GA but must be available broadly with customer references as a "better" vs a requirement. These efforts are noteworthy enough for a blog post or media interviews 
    - **Tier 3** topics are included in monthly release notes but do not warrant GTM engagement. The confidence of their delivery within a specific quarter is lower than Tier 1 or 2, as they can slip to ensure Tier 1 or 2 deliverables do not miss their committed dates.
-1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template similar to this
+1. This proposed roadmap will be provided to Engineering leadership (Director+) to evaluate with their teams using a template [similar to this](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a2c78e62a_0_32)
 1. Engineering will evaluate the proposal from product and validate or identify:
    - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
    - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
-   - Whether we commit to the timeline / scope [Example], commit to a different timeline / scope that we propose [Example], or recommend an alterative [Example] 
+   - Whether we commit to the timeline / scope [Example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a03bf4e05_0_100), commit to a different timeline / scope that we propose [Example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a2c78e62a_0_1012), or recommend an alterative [Example](https://docs.google.com/presentation/d/1PXLj0Nf-Irl1da67KK-wBdWe5CqLLmNF1azRfOpmbqg/edit#slide=id.g32a03bf4e05_0_130) 
    - What milestone we are committing to within the proposed quarter
    - What dependencies we will have once committed (e.g. other teams, other projects, etc) in order to align in advance
    - What distributions will be available with the proposal
@@ -133,8 +135,8 @@ The above sections expand on prioritization, engineering responsibility, and tec
 This quarterly R&D roadmap represents a contract, not between Product and Engineering, but between GitLab and our customer. Engineering is responsible for the delivery of a product that meets the need of the customer - up to and including resolving the pain point with the highest quality for the company. As we work through the interlock process, this requires us to have an understanding of the customer journey, the true problem to be solved, and a strong opinion on the solution that meets the bar for Results for Customers. 
 
 #### Why this matters
-- Establish a unified, aligned-upon, and transparent roadmap across technical roadmaps, engineering initiatives or projects, cross-functional prioritization, and company planning. 
-- Have a heirarchy to priority, confidence that these are the correct priorities, and an understanding of how flexible we can be with changing these priorities
+- Establish a unified, aligned-upon, and transparent R&D Roadmap across technical roadmaps, engineering initiatives or projects, cross-functional prioritization, and company planning. 
+- Have a hierarchy to prioritization, confidence that these are the correct priorities, and an understanding of how flexible we can be with changing these priorities
 - Allow space to review and assess the effort required to ship something of truly high quality, that will support the scalability required of where we are going in the future, and to have a clear understanding of customer expectation
 - Prompt teams to think through all angles and whether they have the information needed to move forward
 - Surface awareness of critical work that must be prioritized before the proposed work
