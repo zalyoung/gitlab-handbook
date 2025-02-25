@@ -231,6 +231,12 @@ Runs all the tests
 
 Runs only data tests
 
+#### `🔍ds_exposure_dependencies_query`
+
+This CI job runs automatically whenever SQL files in the dbt project are updated. It checks if any modified models are tied to Data Science exposures and, if so, fails the job while notifying the user. It is then the MR creator’s responsibility to inform the Data Science team, ensuring they have the opportunity to review any potential impact.
+
+By catching these updates early, the job helps maintain smooth Data Science workflows and prevents unintended disruptions from dbt model changes.
+
 #### `🔍tableau_direct_dependencies_query`
 
 This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** connected to tableau views, tableau data-extracts and/or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
