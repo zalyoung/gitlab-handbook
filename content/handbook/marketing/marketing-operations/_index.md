@@ -629,6 +629,7 @@ Status in the table below means:
 | Paid Social|inbound|Sourced from Paid Social Campaigns|Active|
 | Vendor Arranged Meetings|paid demand gen| Registered or attended a vendor arranged meeting|Active|
 | Trust Center | inbound | Requested access to the GitLab [Trust Center](/handbook/security/security-assurance/field-security/trust_center_guide/) | Active |
+| JiffleNow | outbound | Created by JiffleNow integration | Active |
 
 | Source | Source Bucket | Definition and/or transition plan | Status* |
 | ------ | ------------- | --------------------------------- | ------- |
