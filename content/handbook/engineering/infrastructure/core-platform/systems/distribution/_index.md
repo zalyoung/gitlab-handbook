@@ -432,7 +432,6 @@ handbook page.
 This process allows us to track time involved
 and ensure that the right parties are involved at the correct time.
 
-
 ## Trivia
 
 How did Distribution get its name? We iterated, as always. "Distribution" was chosen as better than "Install" when renaming the original "Build" team, [live on an AMA](https://www.youtube.com/watch?v=gSyAFN6LPHU) with our co-founder, Sid. Since then we have [iterated further](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/936) in order to grow the team, and now have subgroups for "Build" and "Deploy".
