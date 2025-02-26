@@ -49,7 +49,11 @@ flowchart TD
     E -->|Yes| F[Create an experiment]
     E -->|No| G[Deprecate the innovation]
     
-    D --> I[Eventual cleanup]
+    D --> J[Maintain as Internal]
+    D --> K[Upgrade to External / Experimental]
+    D --> I[Deprecate - not valuable]
+
+    K --> C
 ```
 
 ### Internal Innovations
