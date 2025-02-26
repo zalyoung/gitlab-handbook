@@ -44,7 +44,7 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 ### Non-Goals
 
 - Building a general-purpose distributed tracing solution
-- Supporting user journeys that originate outside GitLab services (e.g., client-side only flows)
+- Tracking client side timings, and time on the wire to clients. In the future, we want to add support for clients we build (IDE-extensions, our frontend), but we're keeping this out of scope in the first iteration.
 - Real-time journey visualization or debugging tools
 - Logs and metrics will be emitted from self-managed, but it won't officially support ingesting information from those instances as we don't have control over such environments
 
