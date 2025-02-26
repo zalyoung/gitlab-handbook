@@ -423,7 +423,7 @@ is in place to ensure we have a single source of truth for those, so that we bet
 collaborate cross-functionally as, many times, the requests actually require expertize
 of multiple areas of the product, or is not initially clear which area is more suitable
 to support the customer. When sharing the information with multiple relevant groups, within the
-same support request proccess, we're able to get to a solution much more efficiently.
+same support request process, we're able to get to a solution much more efficiently.
 
 To open an RFP, refer to the procedures of our
 [how to get help](../../../../../support/workflows/how-to-get-help.md)
@@ -432,8 +432,6 @@ handbook page.
 This process allows us to track time involved
 and ensure that the right parties are involved at the correct time.
 
-Requests should be opened **two or more** business
-days before action is needed to ensure the team has time to prepare.
 
 ## Trivia
 
