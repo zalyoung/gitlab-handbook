@@ -124,9 +124,9 @@ Select these [SA] Activity types when capturing activities by the Strategic Fiel
 
 ### Ecosystem SA Activity Types
 
-:videocassette: [Video on How to quickly Log, Classify and Triage lots of Rattle Entries for the busy Solutions Architect 9:17, Highspot.](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0)
-
 Select these [SA] Activity types when capturing activities by the Ecosystem team but other activity types for Enterprise can also be used. There is an implied priority with higher value activities listed highest / first to lowest / last.
+
+:videocassette: Video on [How to quickly Log, Classify and Triage lots of Rattle Entries for the busy Solutions Architect 9:17, Highspot.](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) Supplements the below text.
 
 - **Partner Opportunity** - :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: Sales opportunity # aligned work alongside field SA on specific sales opportunities with a partner involvement. This includes being an overlay SME on partner technologies and its joint value proposition with GitLab and/or helping a channel/services partner become successful with joint customers.
 - **Partner Assisted Demand Gen** - :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: Delivering or developing customer facing webinars, workshops, roadshows and similar activities in collaboration with a partner, focussed on demand generation / lead generation.
