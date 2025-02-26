@@ -387,7 +387,7 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 Security Architects are responsible for the assessment, reduction or mitigation of risks associated with the GitLab product and architecture. They maintain the security strategy and solutions across the entire GitLab ecosystem.
 
-Security Architects report to the VP of Director of Security Platforms and Architecture. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. These Security Engineers have a wide sphere of influence and responsibility at the Individual Contributor level and as such may be asked to focus on high impacting focus areas.
+Security Architects report to the Director of Security Platforms and Architecture. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. These Security Engineers have a wide sphere of influence and responsibility at the Individual Contributor level and as such may be asked to focus on high impacting focus areas.
 
 Responsibilities
 
