@@ -40,7 +40,6 @@ Our internal motivation is to create a system that is easy to extend and loosly 
 
 ### Goals
 
-
 - Create a comprehensive experience for users, who will have one place to see everything they need to know to work 
 - Improve MAU (Monthly Active Users) metric between current to-dos and new notification centre
 - Refactor code to achieve higher cohesion and more extendable system
