@@ -40,22 +40,14 @@ Our internal motivation is to create a system that is easy to extend and loosly 
 
 ### Goals
 
-<!--
-List the specific goals / opportunities of the document.
 
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
+- Create a comprehensive experience for users, who will have one place to see everything they need to know to work 
+- Improve MAU (Monthly Active Users) metric between current to-dos and new notification centre
+- Refactor code to achieve higher cohesion and more extendable system
 
 ### Non-Goals
 
-<!--
-Listing non-goals helps to focus discussion and make progress. This section is
-optional.
-
-- What is out of scope for this document?
--->
+TBD
 
 ## Proposal
 
