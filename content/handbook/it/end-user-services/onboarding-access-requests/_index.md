@@ -328,7 +328,7 @@ To accomplish this goal we are utilizing Jamf for MacOS devices to obtain only t
 
 For more information regarding Jamf, refer to our [Endpoint Management](https://internal.gitlab.com/handbook/it/endpoint-tools/) handbook page.
 
-For more information regarding DriveStrike, refer to our [DriveStrike](/handbook/it/guides/drivestrike/) handbook page.
+For more information regarding DriveStrike, refer to our [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) handbook page.
 
 ### Backblaze
 
