@@ -35,7 +35,7 @@ In many organizations, altering the expense report policy would require —at mi
 
 Scaled across an organization, this meeting-free approach to making decisions enables more decisions to be made. This approach allows a more diverse array of perspectives to influence the decision, as there was no requirement to align thirteen individuals to a single time slot on a given day for a synchronous meeting.
 
-**Resource:** [Placeless Taxonomy: A Simple Framework for Adopting Async](https://www.workplaceless.com/blog/placeless-taxonomy) (framework)
+**Resource:** [Placeless Taxonomy: A Simple Framework for Adopting Async](https://www.workplaceless.com/blog/async-communication-placeless-taxonomy) (framework)
 {{% /details %}}
 
 {{% details summary="Change management support for asynchronous workflows" %}}
@@ -92,7 +92,7 @@ GitLab's [Group Conversations](/handbook/company/group-conversations/#presentati
 
 The editable agenda document, which is attached to the company-wide calendar invite, is also used to gather questions ahead of the meeting and organize the order of speakers. The agenda itself becomes an artifact to share or reference later. Plus, recordings of the sync sessions are uploaded as [videos on the GitLab Unfiltered YouTube channel](https://www.youtube.com/@GitLabUnfiltered/search?query=group%20conversation).
 
-**Resource:** [Anatomy of a perfect blended meeting](https://www.workplaceless.com/blog/perfect-blended-meeting) (article)
+**Resource:** [Anatomy of a perfect blended meeting](https://www.workplaceless.com/blog/conducting-effective-blended-meetings) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for well-managed meetings" %}}
@@ -154,7 +154,7 @@ To create an efficient navigation experience and prevent information overload fo
 
 As a visual guide for when to use which tools in their digital infrastructure, fully-remote company [Doist](doist.com) created a [Pyramid of Remote Team Communication Tools](https://blog.doist.com/remote-team-communication-tools/) that has not only made their company operations more efficient, but also inspired all-remote teams from around the world to do the same.
 
-**Resource:** [6 Reasons Your Team Needs a Communication Charter](https://www.workplaceless.com/blog/your-team-needs-a-communication-charter)
+**Resource:** [6 Reasons Your Team Needs a Communication Charter](https://www.workplaceless.com/blog/communication-charter-reasons-vital-team)
 {{% /details %}}
 
 {{% details summary="Change management support for tool prioritization" %}}

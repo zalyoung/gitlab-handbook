@@ -2,7 +2,7 @@
 title: "GitLab Dedicated Architecture"
 ---
 
-![GitLab Dedicated Group logo](img/dedicated_team_logo.png)
+![GitLab Dedicated Group logo](/images/engineering/infrastructure/team/gitlab-dedicated/architecture/dedicated_team_logo.png)
 
 ## Architecture
 

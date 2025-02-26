@@ -345,7 +345,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 - [Principles of our company strategy](/handbook/company/strategy/#principles)
 - [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
-- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
 
 ## Work/life harmony
 
@@ -429,7 +429,7 @@ days before action is needed to ensure the team has time to prepare.
 
 ## Trivia
 
-How did Distribution get its name? We iterated, as always. "Distribution" was chosen as better than "Install" when renaming the original "Build" team, [live on an AMA](https://www.youtube.com/watch?v=gSyAFN6LPHU) with our CEO Sid. Since then we have [iterated further](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/936) in order to grow the team, and now have subgroups for "Build" and "Deploy".
+How did Distribution get its name? We iterated, as always. "Distribution" was chosen as better than "Install" when renaming the original "Build" team, [live on an AMA](https://www.youtube.com/watch?v=gSyAFN6LPHU) with our co-founder, Sid. Since then we have [iterated further](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/936) in order to grow the team, and now have subgroups for "Build" and "Deploy".
 
 ## Dashboards
 

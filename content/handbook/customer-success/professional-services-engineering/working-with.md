@@ -80,7 +80,7 @@ When scoping custom SOWs, the Professional Services Engagement Manager partners 
 
 ##### SOW Proposal Approval Board
 
-![SOW proposal board screenshot](/handbook/customer-success/professional-services-engineering/sow-approvals-board.png)
+![SOW proposal board screenshot](/images/customer-success/professional-services-engineering/sow-approvals-board.png)
 
 The [SOW Proposal Approval Board](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/boards/1353982?label_name[]=Services%20Calculator) is used to progress all SOWs through the scoping and approval process before sending them to a customer for review and signature.
 

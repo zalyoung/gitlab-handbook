@@ -13,7 +13,7 @@ This page covers the Growth engineering process for running experiments. See als
 
 ## Running Experiments
 
-We follow a four step process for running experiments as outlined by [Andrew Chen's How to build a growth team.](https://andrewchen.co/how-to-build-a-growth-team/)
+We follow a four step process for running experiments as outlined by [Andrew Chen's How to build a growth team.](https://andrewchen.com/how-to-build-a-growth-team/)
 
 1. **Form Hypotheses:** Define ideas our team wants to test.
 2. **Prioritize Ideas:** Decide which ideas to test first.

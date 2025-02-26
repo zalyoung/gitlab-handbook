@@ -110,23 +110,23 @@ Highspot provides powerful ways to browse and filter content and helps you pinpo
 
 To quickly explore a spot, you can click on a tag list in the left nav pane. The main area will show only the items tagged within that list. For example, in the screenshot below, the **eBook** tag list shows all items that match that asset type found in the **Customer-Facing Content** spot.
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_BrowseTagLists2.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_BrowseTagLists2.png)
 
 #### Filter Tag Lists
 
 You can also use Filter mode to narrow down all items in a spot to just the content you need, much like filtering for products in an e-commerce application. To enter **Filter** mode, click the funnel icon in the left nav pane.
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_FilterTagLIsts.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_FilterTagLIsts.png)
 
 You'll see lists with checkboxes for narrowing down the results. In the filtered view of the **Solution Selling** spot, pictured below, you can filter results based on Asset Type and Buyer Persona, for example. You can also use your own activity to filter results. In this case, if you've copied or viewed an asset, you can click Copied and Viewed under Your Activity.
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_ListsAndCheckboxes.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_ListsAndCheckboxes.png)
 
 #### Spot Sort
 
 Another way to navigate a spot is by using Sort under the spot title:
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_SpotSort.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_SpotSort.png)
 
 Here is an overview of each sort:
 
@@ -143,11 +143,11 @@ Here is an overview of each sort:
 
 One of the quickest and easiest ways to find content in Highspot is through search. You can run a quick search across the entire site by entering your query and clicking return. When you type in a search term, individual items will appear at the top of the list. Different types of items in the search results are divided by lines. You can use the icons to quickly identify results by type: a target for Spot, a headshot outline for person, three heads for Group, etc.
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_SearchforContent.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_SearchforContent.png)
 
 You'll see the Search results page, pictured below:
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_SearchResultsPage.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_SearchResultsPage.png)
 
 You can scroll through the search results and use the left nav to filter down the results.
 
@@ -188,7 +188,7 @@ Once these steps are complete, you will see your custom signature included under
 
 ### Pitching Types & Use Cases
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_PitchExamples.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_PitchExamples.png)
 
 #### Email Pitch
 
@@ -243,7 +243,7 @@ Once these steps are complete, you will see your custom signature included under
 
 - **When to use:** If you have an existing email thread going and want to share content inline. And/or if you just don't feel like going into the Highspot web app.
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_PitchDirectlyFromGmail.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_PitchDirectlyFromGmail.png)
 
 - **Gmail Pitch Settings:** When preparing to send a pitch directly through Gmail, you can control the following activities:
   - Set expiration on pitch
@@ -356,13 +356,13 @@ Once these steps are complete, you will see your custom signature included under
 The following steps are used to create Pitches using specific Pitch Style and Pitch Templates:
 
 - Select **New Pitch**:
-![Pitch_template_step1](/handbook/sales/field-communications/gitlab-highspot/images/Pitch_template_step1.png)
+![Pitch_template_step1](/images/sales/field-communications/gitlab-highspot/Pitch_template_step1.png)
 - Select **Link Pitch**:
-![Pitch_template_step2](/handbook/sales/field-communications/gitlab-highspot/images/Pitch_template_step2.png)
+![Pitch_template_step2](/images/sales/field-communications/gitlab-highspot/Pitch_template_step2.png)
 - Select the **Pitch Template** - choose "Browse all templates" and select the appropriate *Template*:
-![Pitch_template_step3](/handbook/sales/field-communications/gitlab-highspot/images/Pitch_template_step3.png)
+![Pitch_template_step3](/images/sales/field-communications/gitlab-highspot/Pitch_template_step3.png)
 - Select the **Pitch Style** - choose "Browse all templates" and select the appropriate *Style*:
-![Pitch_template_step4](/handbook/sales/field-communications/gitlab-highspot/images/Pitch_template_step4.png)
+![Pitch_template_step4](/images/sales/field-communications/gitlab-highspot/Pitch_template_step4.png)
 
 ### Editing Content in Highspot
 
@@ -399,7 +399,7 @@ Contributing to Highspot is easy, and we encourage all team members to contribut
 
 To submit content, navigate to the Highspot homepage and click on the `Contribute Content to Highspot` button. From there, you'll see [these instructions](https://gitlab.highspot.com/spots/61a55821bfc73fc1b19395f1?list=61e8a12843d672fdfa27e199) that will guide you through how to submit a piece / pieces of content in less than one minute! Please follow the instructions for [adding a piece of content from Google Drive](/handbook/sales/field-communications/gitlab-highspot/#links-from-google-drive) or [adding a piece of content via a URL](/handbook/sales/field-communications/gitlab-highspot/#embedding-links) below when contributing content.
 
-![Screenshot_ContributeContent](/handbook/sales/field-communications/gitlab-highspot/images/Example_ContributeContent.png)
+![Screenshot_ContributeContent](/images/sales/field-communications/gitlab-highspot/Example_ContributeContent.png)
 
 **Who can upload content to Highspot?**
 
@@ -518,13 +518,13 @@ Please note: Highspot Lists are not auto-populated. It is best practice to check
 
 Highspot offers the ability to link files directly from GitLab's Google Drive. **When adding a piece of content from Google Drive, you should *always* add the file directly from Drive versus add the link** – i.e. select the + button --> Add Files --> From Cloud Services (Google Drive) vs. + --> Add Link. This will allow Highspot to keep that piece of content up-to-date as changes are made to the Google Drive file.
 
-![Screenshot_LinkVSFile](/handbook/sales/field-communications/gitlab-highspot/images/Example_AddFiles_vs_AddLink.png)
+![Screenshot_LinkVSFile](/images/sales/field-communications/gitlab-highspot/Example_AddFiles_vs_AddLink.png)
 
-![Screenshot_AddFromDrive](/handbook/sales/field-communications/gitlab-highspot/images/Example_AddFromDrive.png)
+![Screenshot_AddFromDrive](/images/sales/field-communications/gitlab-highspot/Example_AddFromDrive.png)
 
 In addition, when adding files directly from Drive, ALWAYS select the `Automatically update content from Google Drive` option to maintain version control.
 
-![Screenshot_DriveAutoUpdate](/handbook/sales/field-communications/gitlab-highspot/images/Example_AutoUpdate.png)
+![Screenshot_DriveAutoUpdate](/images/sales/field-communications/gitlab-highspot/Example_AutoUpdate.png)
 
 #### Google Slide Considerations
 
@@ -554,7 +554,7 @@ Using the embed code will allow Highspot users to view the webpage content direc
 1. External - Some external links (ex. industry articles) will not allow embedding. You can test this by selecting `Use embed code` and then clicking on the item to check. You will see a broken link message if that link is unable to be embedded.
 1. Private YouTube Unfiltered - Links for videos set to private will not embed.
 
-![Screenshot_DriveAutoUpdate](/handbook/sales/field-communications/gitlab-highspot/images/Example_EmbedCode.png)
+![Screenshot_DriveAutoUpdate](/images/sales/field-communications/gitlab-highspot/Example_EmbedCode.png)
 
 #### Internal vs. External Content
 
@@ -566,7 +566,7 @@ For any internal Google Drive resources, you should also select the option to `P
 
 If you are unsure about whether a piece of content is fit to be external, please contact GitLab Legal in the #legal channel.
 
-![Screenshot_DriveAutoUpdate](/handbook/sales/field-communications/gitlab-highspot/images/Example_InternalContentPermissions.png)
+![Screenshot_DriveAutoUpdate](/images/sales/field-communications/gitlab-highspot/Example_InternalContentPermissions.png)
 
 #### Content expiration 101
 
@@ -578,7 +578,7 @@ The recommendation is to set a piece of content to expire one year from the uplo
 
 When a piece of content does expire, it will not be deleted. Instead, it will be moved into an Archived folder. All spot owners will receive a notification and can easily reset the content expiration date with the click of a button.
 
-![Screenshot_ScheduleContent](/handbook/sales/field-communications/gitlab-highspot/images/Example_ScheduleContent.png)
+![Screenshot_ScheduleContent](/images/sales/field-communications/gitlab-highspot/Example_ScheduleContent.png)
 
 #### Validation Rules
 
@@ -592,9 +592,9 @@ If one of these validation rules is broken, you will see a `Validates Policy` fl
 
 A piece of content that has this flag will still be visible in Highspot for users to see. The flag is more of a visual cue to help content owners maintain Highspot best-practices.
 
-![Screenshot_ViolatesPolicyFlag](/handbook/sales/field-communications/gitlab-highspot/images/Example_ViolatesPolicyFlag.png)
+![Screenshot_ViolatesPolicyFlag](/images/sales/field-communications/gitlab-highspot/Example_ViolatesPolicyFlag.png)
 
-![Screenshot_ValidationRuleMessage](/handbook/sales/field-communications/gitlab-highspot/images/Example_ValidationRuleMessage.png)
+![Screenshot_ValidationRuleMessage](/images/sales/field-communications/gitlab-highspot/Example_ValidationRuleMessage.png)
 
 #### Including content in more than one spot
 
@@ -602,7 +602,7 @@ Some content might fit in more than one spot. When this happens, you should book
 
 It is likely that this scenario will happen most often with the Customer-Facing Content spot, as content that fits under Marketing could also fit under Customer-Facing Content. Always default to adding the content within the primary spot first and then bookmark into Customer-Facing Content. In this scenario, you'd add the link/file to `Marketing` and then bookmark to `Customer-Facing Content`.
 
-![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_AddBookmark.png)
+![Screenshot_AddBookmark](/images/sales/field-communications/gitlab-highspot/Example_AddBookmark.png)
 
 #### Designing and building SmartPages
 

@@ -21,12 +21,13 @@ After you sign your offer and complete your background check and references, you
     - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
-1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
+1. If you live in Belgium or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
 
    - France: Papaya
+   - Germany: Papaya
    - Netherlands: HR Savvy
-   - Singapore: Global Upside / Safeguard
+   - Singapore: Papaya
    - South Korea: Global Upside / Safeguard
    - UK: Papaya
 
@@ -52,7 +53,7 @@ After you sign your offer and complete your background check and references, you
 
     - [Clocker App](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
 
-        <img src="/handbook/people-group/general-onboarding/images/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
+        <img src="/images/people-group/general-onboarding/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
 
     - [Find a Time in Google Calendar](https://www.getclockwise.com/blog/google-calendar-find-a-time)
     - [See Other TimeZone in Google Calendar](https://support.google.com/calendar/answer/37064?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csee-other-time-zones)
@@ -130,7 +131,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 
 If you're nearing your start date and still haven't received your laptop, please reach out to people-connect@gitlab.com for us to check in with the IT department and see where your laptop is in transit.
 
-**New user to Mac?** Don't worry, many of us were also first time users! When you get your laptop, feel free to explore and get used to using your MacBook (just remembering not to set up an Apple ID). There is this really great [Handbook page](/handbook/tools-and-tips/mac/) that share different helpful tips and many helpful [YouTube video's](https://www.youtube.com/watch?v=PlruI5ryP8Q). If you are switching from Windows to macOS, these [keyboard tips](https://support.apple.com/en-us/HT204216) may be useful.
+**New user to Mac?** Don't worry, many of us were also first time users! When you get your laptop, feel free to explore and get used to using your MacBook (just remembering not to set up an Apple ID). There is this really great [Handbook page](/handbook/tools-and-tips/mac/) that share different helpful tips and many helpful [YouTube video's](https://www.youtube.com/watch?v=PlruI5ryP8Q). If you are switching from Windows to macOS, these [keyboard tips](https://support.apple.com/en-us/102323) may be useful.
 
 GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/) reimbursement tool. All team members will have access to Navan within 2 days from their hire date. If you don't see a tile for Navan in your Okta dashboard, please contact `ap@gitlab.com`.
 

@@ -1,7 +1,7 @@
 ##### Quality
 
 - Test Strategy (Quad Planning) & Test Coverage
-  - Own [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and proactively optimize test coverage.
+  - Own quad planning efforts and proactively optimize test coverage.
   - Coach other SETs and fellow counterpart team members on effective testing strategies and implementation of test automation for new features.
   - Proactively manage the competing priorities and potential collisions of concurrent projects to reduce risk, increase test coverage, and leverage efficiency gains in overlapping testing activities.
   - Identify and design potential new testing practices/tools/frameworks, demonstrate their value, and implement in collaboration with other Software Engineers in Test.
@@ -25,7 +25,7 @@
   - Define and independently manages multiple projects within the department.
   - Able to create new methods for obtaining results.
   - Analyze engineering metrics and make suggestions to improve engineering processes and velocity.
-  - Contributes to [Working Groups](https://about.gitlab.com/company/team/structure/working-groups/#whats-a-working-group) as a Quality lead.
+  - Contributes to [Working Groups](/handbook/company/working-groups/#whats-a-working-group) as a Quality lead.
 - Knowledge Sharing
   - Clearly document, review, and broadly share our process and knowledge. This could be across mediums (recorded videos, written artifacts) and may include activities like:
     - Participating in customer calls and taking part in Engineering outreach.

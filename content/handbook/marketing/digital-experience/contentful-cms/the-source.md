@@ -89,13 +89,13 @@ Example markdown:
 ````markdown
 ##### You may also be interested in
 
-> ![image](url)
+> ![image](/images/marketing/digital-experience/contentful-cms/url)
 > #### Main Header
 >
 > Lorem ipsum dolor est
 > [See how > ](/){class="button"}
 
-![image](url)
+![image](/images/marketing/digital-experience/contentful-cms/url)
 
 ````
 

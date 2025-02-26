@@ -35,7 +35,7 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 The Expansion department includes the following sub-departments and groups:
 
 - [Secure](/handbook/engineering/development/sec/secure/)
-- [Govern](/handbook/engineering/development/sec/govern/)
+- [Software Supply Chain Security](/handbook/engineering/development/sec/software-supply-chain-security/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
 - [Growth](/handbook/engineering/development/growth/)
 
@@ -55,7 +55,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Promotion Process
 
-Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/#bamboohr-promotion-approval-process). The goal of this quarterly promotion projection and review is to:
+Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this quarterly promotion projection and review is to:
 
 - Promote the right people at the right time
 - Maintain a high bar for promotions
@@ -187,7 +187,7 @@ The following is a non exhaustive list of daily duties for engineering directors
     1. Growth
     1. Ops
     1. Secure
-    1. Govern
+    1. Software Supply Chain Security
 1. Review hiring dashboards
 1. Personal todo list
 1. Personal GitLab board(s) if any
@@ -306,10 +306,10 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
-| GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
+| GitLab Shell |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
-| LFS |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
+| LFS |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 | Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Mattermost |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
@@ -325,7 +325,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Redis |  | Decentralized |  |  | DRI is similar to Sidekiq which is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
 | Sentry |  | Decentralized |  |  | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
-| Workhorse |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
+| Workhorse |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 
 ## Learning Resources
 
@@ -432,8 +432,8 @@ Some areas have already been identified that meet the definition above, and may 
 | Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
 | [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. | |
 | Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/ee/development/contributing/verify/)                                          |
-| Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/govern/authentication-and-authorization#code-review)            |
-| Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/govern/compliance/#code-review)                     |
+| Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/software-supply-chain-security/authentication-and-authorization#code-review)            |
+| Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/software-supply-chain-security/compliance/#code-review)                     |
 | Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/dev/manage/workspace#how-we-work)                                   |
 | [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
 | Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
@@ -459,7 +459,7 @@ These are the stakeholders:
 
 ## ClickHouse Datastore usage
 
-[ClickHouse usage by Monitor:Observability group](/handbook/engineering/development/ops/monitor/observability/#clickhouse-datastore)
+[ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/development/analytics/monitor/platform-insights/#clickhouse-datastore)
 
 ## Customer Account Escalation coordination
 

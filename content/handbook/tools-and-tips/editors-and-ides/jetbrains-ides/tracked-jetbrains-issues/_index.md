@@ -61,6 +61,15 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
   - UPDATE 2023-01-06: This still happens in some cases, notably in the Declarative Policy DSL. Asked if we can get a specific issue to follow for this case:
     https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8744732.0-0
 
+### RUBY-25600
+
+- Title: Code style: compatibility with Rubocop's Layout/MultilineOperationIndentation
+- Link: https://youtrack.jetbrains.com/issue/RUBY-25600
+- Notes:
+  - This issue makes it impossible to have RubyMine autoformat match GitLab's RuboCop settings, and we have decided that we do not
+    want to change the default settings.
+  - Please upvote (thumbs-up) this issue to bring attention to it!
+
 ### RUBY-31542
 
 - Title: Cannot resolve attributes on ActiveRecord model which is not in standard location
@@ -75,6 +84,16 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 
 - Title: RubyResolve error when calling ActiveRecord dynamically defined attribute methods from within an `if` block on ActiveRecord lifecycle methods
 - Link: <https://youtrack.jetbrains.com/issue/RUBY-32287>
+
+### RUBY-32288
+
+- Title: "Go To Declaration" shows libraries from gems in non-current SDK
+- Link: https://youtrack.jetbrains.com/issue/RUBY-32288
+- Notes:
+  - The root of this problem is really that we don't want rubymine to create modules for all our vendored gems under `gems`,
+    but it always prompts by default to make modules. Then this causes a related problem where the interpreters for these modules get
+    out of date.
+  - See this comment for some workarounds: https://youtrack.jetbrains.com/issue/RUBY-32288/Go-To-Declaration-shows-libraries-from-gems-in-non-current-SDK#focus=Comments-27-8922166.0-0
 
 ### RUBY-32301
 

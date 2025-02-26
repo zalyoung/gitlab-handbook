@@ -48,6 +48,8 @@ The main identifiable problems are:
 
 ## 2. Data flow
 
+The data flow for `docker login` is documented in [the container registry project](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/auth-request-flow.md#login). The equivalent requests using `curl` are documented below.
+
 ### 2.1. Authorization request that is send by `docker login`
 
 ```shell
@@ -107,6 +109,30 @@ The only downside is increased complexity of managing standalone registry for ea
 There do not seem to be any theoretical problems with running GitLab container registry in a Cell.
 It seems that the service can be easily made routable to work well.
 The practical complexities are around managing a complex service from an infrastructure side.
+
+Since multiple Cells can be run on the same top-level domain, and the Docker client stores authentication tokens per-hostname, users may not be able to access resources from one Cell while logged in to another on the same hostname.
+
+To authenticate with the container registry in a Cells environment, users will need to run:
+
+```shell
+docker login gitlab.example.com
+```
+
+The username can be anything; it is not used by GitLab's container registry. The "password" must be one of:
+
+- Personal access token
+- Project access token
+- Group access token
+
+Per the current [container registry authentication process](https://docs.gitlab.com/ee/user/packages/container_registry/authenticate_with_container_registry.html).
+
+Note that **Deploy token** is listed as an available password for the container registry, but since these tokens are not routeable, they will only work with the legacy cell. The user's **GitLab username and password** can also be used to authenticate with the container registry, but this authentication method also does not contain routing information, so will only work with the legacy cell. For the first iteration, only routing to the legacy cell and default organization will be supported for all token types.
+
+The docker client will then submit this username and password combination to the `/jwt/auth` endpoint in GitLab Rails using HTTP Basic Auth.
+
+The Cells http router will be able to determine the correct Cell to route this request to by supporting HTTP Basic Auth requests using access tokens as the password. Support for this is [currently being built](https://gitlab.com/gitlab-org/cells/http-router/-/issues/138).
+
+The returned JWT will contain enough information (something like `scope: cell-1`) for the Cells Registry Router to route the authenticated requests to the correct container registry / cell.
 
 ## 4.1. Pros
 

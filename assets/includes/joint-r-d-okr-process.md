@@ -24,7 +24,7 @@ The OKR process is designed to tie in to the overall [OKR process](/handbook/com
 - **2 weeks** prior to the key review meeting:
   - Chief Product Officer and Chief Technology officer review the proposed OKRs from teams and provide feedback (async)
   - Teams have a chance to iterate as needed until the Key Review deadline (one week prior to the Key Review)
-  - Product Program Management finalizes R&D OKRs in GitLab and mentions `@gl-product-pm` (section, stage, and group product leads), `@gitlab-com/engineering-division/cto-leadership`, and/or post in the #product and #engineering-fyi Slack channels to finalize KR drafts with their respective [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/)
+  - Product Program Management finalizes R&D OKRs in GitLab and mentions `@gl-product-pm` (section, stage, and group product leads), `@gitlab-com/engineering-division/cto-leadership`, and/or post in the #product and #engineering-fyi Slack channels to finalize KR drafts with their respective Quad
   - Leads from each section, stage, and group review R&D OKRs and provide feedback directly in GitLab on changes that may be needed.
   - Leads plan and propose their respective section, stage and section OKRs following the guidance on [how to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs).
 - **1 week** prior to key review meeting:

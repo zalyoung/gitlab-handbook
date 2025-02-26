@@ -19,7 +19,7 @@ For some, there's still a looming question: *How do I know if we're running a gr
 ![GitLab remote work checklist illustration](/images/all-remote/remote_checklist_illustration.jpg)
 {style="max-width: 50%;"}
 
-Enter **The GitLab Test: 12 Steps to Better Remote**. Kudos to [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code) for the nomenclature inspiration.
+Enter **The GitLab Test: 12 Steps to Better Remote**. Kudos to [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) for the nomenclature inspiration.
 
 The great part about this test is it takes around 10 minutes (or less, if you read quickly). Each question is a quick yes or no. A score of 12 is perfect and 11 is tolerable. 10 or lower indicates that there are significant [office-first strongholds](what-not-to-do/) which are preventing your organization from reaching the goal of Phase 4 of Remote Adaption— **[Intentionality](phases-of-remote-adaptation/#phase-4-intentionality)**.
 
@@ -47,7 +47,7 @@ There are [valid reasons](asynchronous/#best-practices-guidelines-and-async-feat
 Prerequisites for this to work well are below.
 
 1. Leveraging a single tool to funnel communication about work (e.g. [GitLab](/handbook/product/gitlab-the-product), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com))
-1. Documented [communication guidelines]({{< ref "communication" >}}) on how and where to communicate about work
+1. Documented [communication guidelines](/handbook/communication/) on how and where to communicate about work
 1. Executive commitment to [transparency](/handbook/values/#transparency)
 
 ### 4. Are your values, and how to live them, explicitly defined and documented?
@@ -66,13 +66,13 @@ Great remote organizations are careful not to use the word "documentation" when 
 
 ### 7. Is informal communication formalized?
 
-Great remote organizations do not leave camaraderie (mutual trust and friendship) to chance or serendipity. Camaraderie is created and maintained by [informal communication](informal-communication/), and is a key pillar of [culture]({{< ref "culture#culture-at-gitlab" >}}).
+Great remote organizations do not leave camaraderie (mutual trust and friendship) to chance or serendipity. Camaraderie is created and maintained by [informal communication](informal-communication/), and is a key pillar of [culture](/handbook/company/culture/#culture-at-gitlab).
 
 Remote culture is largely built by empowering people to fill their social quota *outside* of work, in local neighborhoods and communities, and then bring that culture *to* work. Too many leaders are looking to replace onsite lunches with virtual lunches and happy hours, instead of empowering workers to look to their communities to further define who they are as people.
 
 ### 8. Are communication expectations documented in a single source of truth?
 
-Absent [communication guidelines]({{< ref "communication" >}}), colocated organizations generally default to meetings as the catch-all for communicating about work. Great remote organizations create and document expectations and suggestions around communication, both formal and informal. For transitioning organizations, don't wait until you have implemented a central workspace tool to start articulating communication expectations. Even a [boring solution](/handbook/values/#boring-solutions) such as requiring all work-related meetings to [have an agenda attached](live-doc-meetings/) to the calendar invite can usher in new ways of thinking.
+Absent [communication guidelines](/handbook/communication/), colocated organizations generally default to meetings as the catch-all for communicating about work. Great remote organizations create and document expectations and suggestions around communication, both formal and informal. For transitioning organizations, don't wait until you have implemented a central workspace tool to start articulating communication expectations. Even a [boring solution](/handbook/values/#boring-solutions) such as requiring all work-related meetings to [have an agenda attached](live-doc-meetings/) to the calendar invite can usher in new ways of thinking.
 
 ### 9. Does each team member call/collaborate with their own equipment?
 
@@ -80,7 +80,7 @@ A [hybrid call](meetings/#avoid-hybrid-calls) is one that has a mix of participa
 
 ### 10. Do you have a documented and defined in-person strategy?
 
-Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages]({{< ref "remote-benefits" >}}) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](in-person/), even if they're optional for team members.
+Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](/handbook/company/culture/all-remote/remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](in-person/), even if they're optional for team members.
 
 Quarterly or bi-annual retreats, annual company-wide gatherings, in-person onboarding cohorts, and budgets for ad hoc in-person moments are just a few examples. Great remote organizations recognize that people do not need to spend hours each day commuting to see one another every 24 hours, but budgeting for *strategic* in-person gatherings are useful for bolstering culture and building rapport.
 
@@ -98,8 +98,8 @@ Great remote organizations recognize that there are more than two places to work
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

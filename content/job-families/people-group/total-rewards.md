@@ -41,7 +41,7 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 
 #### Job Grade
 
-The Senior Total Rewards Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Total Rewards Program Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -289,7 +289,7 @@ The responsibilities for a Senior Manager, Total Rewards will be added at the ti
 
 The Senior Manager, Total Rewards is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### Director, Global Compensation 
+### Director, Global Compensation
 
 The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -307,10 +307,10 @@ The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compen
 - Determine M&A strategy and execution for compensation
 - Lead and mentor a team of compensation professionals to provide strategic business partnership and support while fostering their own growth and development
 
-#### Requirements 
+#### Requirements
 
 - Progressive experience and demonstrated leadership in designing and managing compensation ideally at rapidly growing, global companies in a relevant industry
-- Strong understanding of executive compensation; in-depth knowledge of core compensation principles and methodologies 
+- Strong understanding of executive compensation; in-depth knowledge of core compensation principles and methodologies
 - Forward thinking, creative, and open-minded approach with sound technical skills, analytical ability, and seasoned judgment
 - Comfortable and enthusiastic about working in a fast-paced, high growth, constantly changing, geographically dispersed, transparent environment
 - Ability to drive consensus and engagement across a wide variety of stakeholders in multiple parts of the business
@@ -321,21 +321,21 @@ The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compen
 - Experience working remotely and managing remote team members is preferred
 
 ### Director, Executive and Equity Compensation
- 
+
 The Director, Executive and Equity Compensation is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
 - Lead, implement, and communicate executive and equity compensation philosophies, practices and strategies including base salary, bonuses, long-term incentives, and equity awards
-- Provide thought leadership to internal partners around industry best practices to motivate and retain top talent globally and serve as a subject matter expert to executives, People partners, and the Compensation Committee 
-- Prepare documentation, present to, and where necessary, guide GitLab’s Compensation Committee 
+- Provide thought leadership to internal partners around industry best practices to motivate and retain top talent globally and serve as a subject matter expert to executives, People partners, and the Compensation Committee
+- Prepare documentation, present to, and where necessary, guide GitLab’s Compensation Committee
 - Manage the annual compensation review process for executives
 - Partner with internal stakeholders to assess and analyze compensation trends, regulations, and market data to inform compensation decisions.
 - Develop clear and effective communication strategies for compensation programs that impact the GitLab leadership team
 - Monitor the effectiveness of existing compensation practices, policies, and procedures, making adjustments as necessary to maintain competitiveness
-- Manage relationships with external consultants 
+- Manage relationships with external consultants
 
-#### Requirements 
+#### Requirements
 
 - Deep and progressive experience designing and managing executive and equity compensation programs, ideally at rapidly growing, global companies in a relevant industry
 - Previous experience in both public and startup companies
@@ -345,7 +345,7 @@ The Director, Executive and Equity Compensation is a [grade 10](/handbook/total-
 - A strong ability to analyze and turn data into insights and action plans aligned with company direction
 - Excellent verbal and written communication skills, ability to package and present complex analyses and recommendations clearly
 - Experience working remotely and with remote team members is preferred
-- Experience building and leading a team of Compensation team members 
+- Experience building and leading a team of Compensation team members
 - High level of integrity, discretion and professionalism in handling confidential information
 
 ### Director, Total Rewards

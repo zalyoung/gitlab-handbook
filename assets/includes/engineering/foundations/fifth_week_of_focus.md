@@ -8,19 +8,18 @@ The only requirement is that it contributes to the team, or their personal devel
 
 We trialled this as an [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5528) in December 2023 and it was a great success.
 
-The upcoming five week milestones are:
+## Previous Milestones
+- 17.10 _(2025-02-07)_: [Epic](https://gitlab.com/groups/gitlab-org/foundations/-/epics/15)
 
-- Aug 09, 2024 - Sep 13, 2024
-- Oct 11, 2024 - Nov 14, 2024
-- Jan 10, 2025 - Feb 13, 2025
-- Apr 11, 2025 - May 15, 2025
+## Up-coming Milestones
 
+- 18.01 _(2025-05-12)_
+- 18.04 _(2025-08-11)_
+- 18.07 _(2025-11-10)_
+- 18.09 _(2026-01-12)_
 <!--
-- Jul 11, 2025 - Aug 14, 2025
-- Oct 10, 2025 - Nov 13, 2025
-- Dec 12, 2025 - Jan 15, 2026
-- Apr 10, 2026 - May 14, 2026
-- Jul 10, 2026 - Aug 13, 2026
-- Oct 09, 2026 - Nov 12, 2026
-- Jan 08, 2027 - Feb 11, 2027
+- 19.01 _(2026-05-11)_
+- 19.04 _(2026-08-10)_
+- 19.07 _(2026-11-09)_
+- 19.10 _(2027-02-08)_
 -->

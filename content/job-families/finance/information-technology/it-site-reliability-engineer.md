@@ -88,7 +88,7 @@ The next step in the IT Site Reliability Engineer job family is to move to the [
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Candidates will be invited to complete a 'take home assessment'.  This is to be completed in your own time and returned within 3-5 working days
 - Next, candidates will be invited to schedule an interview with the Hiring Manager
 - Candidates will then be invited to schedule a Team interview with two members of the IT Systems Engineering team in a panel interview

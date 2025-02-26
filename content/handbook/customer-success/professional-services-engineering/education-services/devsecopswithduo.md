@@ -15,7 +15,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 ## Quick links
 
-* GitLab Duo Principles Course Description
+* [GitLab Duo Principles Course Description](https://university.gitlab.com/pages/duo-training)
 
 ## Suggestions?
 

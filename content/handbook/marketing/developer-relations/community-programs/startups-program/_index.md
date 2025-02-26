@@ -69,7 +69,9 @@ During **Year Two**, you'll receive:
 
 When creating a quote at either 50% (Seed Y2, Early Y1 ) or 25% discount (Early Y2), please follow the below steps;
 
-Chatter Sales-Support on the opp to request quote approval override. Use the below template, and amend it as required.
+* Create the quote
+* Request approval from `Alex Karsten` or `Hugh Walker` on Chatter on the opp
+* Once approval granted, request Deal Desk's approval override by submitting an [Internal Support Case in Salesforce](https://gitlab.highspot.com/items/672cea6ea7be2e314c87ba3b?lfrm=srp.1). Use the below template, and amend it as required.
 
 *Deals Desk, please provide approval overide for this Startup opportunity*;
 
@@ -80,10 +82,10 @@ Chatter Sales-Support on the opp to request quote approval override. Use the bel
 *Please also;*
 
 * *Disable Auto-Renewal*
-* *Diable QSRs*
+* *Disable QSRs*
 * *Change the Opportunity Order Type from 3. Growth to 1. First Order (if Seed Y2 or Early Y1)*
 
-Note:  Also include this chatter message content in the quote Submitter Comments.
+Note:  include chatter approval message in the case.
 
 ## Additional information
 

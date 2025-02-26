@@ -29,7 +29,7 @@ To gain access to the UX Cloud Sandbox, the first step is to generate credential
 
 Once you have generated credentials and accessed [the sandbox instance](https://ux.gitlabdemo.cloud/), you will be automatically granted your own group space with your name on it (see picture below). This group is like any other group in GitLab, it just has your name on it, and will act as the container for all of the work you do in the sandbox.
 
-![Top-level group organization by user name in the UX cloud sandbox](sandbox_groups.png)
+![Top-level group organization by user name in the UX cloud sandbox](/images/product/ux/ux-research/ux-cloud-sandbox/sandbox_groups.png)
 
 ### Structuring your study
 
@@ -37,7 +37,7 @@ Once you have generated credentials and accessed [the sandbox instance](https://
 
 Within your group, you can structure sub-groups and projects however you see fit. One good way to think about it is as a file system: groups are 'folders' and projects are 'files'. Your structure may end up looking something like this:
 
-![Organizing sub-groups and projects in the UX cloud sandbox](sandbox_files.png)
+![Organizing sub-groups and projects in the UX cloud sandbox](/images/product/ux/ux-research/ux-cloud-sandbox/sandbox_files.png)
 
 If you find that you need to make adjustments to the group/subgroup structure, you can move subgroups around by following these steps:
 
@@ -48,7 +48,7 @@ If you find that you need to make adjustments to the group/subgroup structure, y
 1. Click **Transfer group**
 1. The group you edited should now be a subgroup of the folder/parent group you selected in the dropdown. (Note: this is recursive, so anything under the group you move also moves)
 
-![Transfer group UI](sandbox_transfer_group.png)
+![Transfer group UI](/images/product/ux/ux-research/ux-cloud-sandbox/sandbox_transfer_group.png)
 
 ## Creating a project with sample data
 

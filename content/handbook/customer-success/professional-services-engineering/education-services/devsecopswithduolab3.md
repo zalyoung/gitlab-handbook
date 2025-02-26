@@ -57,9 +57,9 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. In your MR, select **Code > Open in Web IDE**.
 
-1. Select the Tanuki icon from the left sidebar.
+1. Select the Duo Chat icon from the left sidebar.
 
-1. In the chat, write the prompt: `How could I use the go-figure module of go-to print hello world in a different font?`
+1. In the chat, write the prompt: `How could I use the go-figure module of go to print hello world in a different font?`
 
    You will get a response similar to this:
 
@@ -82,7 +82,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select `main.go`.
 
-1. Replace the contents of `main.go` with the AI generated code.
+1. Replace the contents of `main.go` with the AI generated code by copying and pasting or using the insert button on the code snippet in the Duo Chat window.
 
 1. From the left sidebar, select **Source Control**.
 

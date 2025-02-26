@@ -28,7 +28,7 @@ When thinking about the users of your product, you will likely come up with a nu
 
 When thinking about your screener questions, try to organize them like a funnel to narrow down participants, starting with broad questions and moving to more specific questions.
 
-![Start with broad questions and move to more specific questions to narrow down participants](/handbook/product/ux/ux-research/screener_funnel.png)
+![Start with broad questions and move to more specific questions to narrow down participants](/images/product/ux/ux-research/screener_funnel.png)
 
 ### Step 3: Build the screener
 
@@ -74,4 +74,4 @@ When crafting questions, keep the following in mind:
 
 ### Example GitLab Screener
 
-- [Screener template](https://docs.google.com/document/d/1k_6D-IKByLel7KCHhLOhTTDOS91B4CiQXQdPudYQV5U/copy)
+- [Screening Question Repository](https://docs.google.com/document/d/1v8_a3DH9UKhakn61Z1vFXUT-IOAPC6-FwJegaquYUS4/edit?usp=sharing) (internal access only)

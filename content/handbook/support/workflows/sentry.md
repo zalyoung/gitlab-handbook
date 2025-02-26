@@ -30,7 +30,7 @@ See the [Sentry guide](https://docs.sentry.io/concepts/search/) and [this presen
 
 In most cases errors in Sentry can be found by searching using `user.id:`, but this won't always be the case. Sometimes, you may need to search Kibana first to locate the correlation ID that can then be searched for in Sentry.
 
-In the following example, the customer is attempting to [change the notification email for one of their groups](https://docs.gitlab.com/ee/user/profile/notifications.html#group-notification-email-address) but receives a `500` error when selecting the desired address from the dropdown list. Searching Sentry for their `user.id:` turns up nothing, so we need to do the following to find the `500` in Kibana to get the correlation ID that we'll then provide to Sentry.
+In the following example, the customer is attempting to [change the notification email for one of their groups](https://docs.gitlab.com/user/profile/notifications/#group-notification-email-address) but receives a `500` error when selecting the desired address from the dropdown list. Searching Sentry for their `user.id:` turns up nothing, so we need to do the following to find the `500` in Kibana to get the correlation ID that we'll then provide to Sentry.
 
 1. Add positive filters in Kibana for `json.username` with their GitLab.com username, `json.controller` for `Profiles::NotificationsController`, and `json.status` with `500`.
 1. Using the left-hand side menu add the `json.path`, `json.controller`, `json.status`, and `json.correlation_id` fields to your search results, which should give you results similar to the following if any errors occurred within your set time range.

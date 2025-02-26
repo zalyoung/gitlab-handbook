@@ -25,7 +25,7 @@ The Tenant Scale group is working towards a horizontally scalable, fault-toleran
 
 ### Organizations
 
-{{< team-by-manager-slug manager="sissiyao" >}}
+{{< team-by-manager-slug manager="nick-nguyen" team="Organizations" >}}
 
 ### Cells Infrastructure
 

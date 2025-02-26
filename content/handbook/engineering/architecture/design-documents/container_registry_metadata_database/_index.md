@@ -109,7 +109,7 @@ With the output from the *mark* phase in hand, the registry starts the *sweep* p
 
 Doing this for a huge registry may require multiple hours/days to complete, during which the registry must remain in read-only mode. This is not feasible for platforms with tight availability requirements, such as GitLab.com.
 
-This limitation is also described in the upstream [Docker Distribution documentation](https://github.com/docker/distribution/blob/749f6afb4572201e3c37325d0ffedb6f32be8950/ROADMAP.md#deletes).
+This limitation is also described in the upstream [Docker Distribution documentation](https://github.com/distribution/distribution/blob/749f6afb4572201e3c37325d0ffedb6f32be8950/ROADMAP.md#deletes).
 
 #### Performance
 
@@ -151,7 +151,7 @@ The interaction between the registry and its clients, including GitLab Rails and
 
 ### Database
 
-Following the GitLab [Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/), no ORM is used to manage the database, only the [`database/sql`](https://pkg.go.dev/database/sql) package from the Go standard library, a PostgreSQL driver ([`lib/pq`](https://pkg.go.dev/github.com/lib/pq?tab=doc)) and raw SQL queries, over a TCP connection pool.
+Following the GitLab [Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/), no ORM is used to manage the database, only the [`database/sql`](https://pkg.go.dev/database/sql) package from the Go standard library, a PostgreSQL driver ([`lib/pq`](https://pkg.go.dev/github.com/lib/pq)) and raw SQL queries, over a TCP connection pool.
 
 The design and development of the registry database adhere to the GitLab [database guidelines](../../../development/database/index.md). Being a Go application, the required tooling to support the database will have to be developed, such as for running database migrations.
 
@@ -295,7 +295,7 @@ Together, these resources should provide an adequate level of insight into the r
 
 #### Third-Party Container Registries
 
-GitLab ships with the GitLab container registry by default, but it's also compatible with third-party registries, as long as they comply with the [Docker Distribution V2 Specification](https://distribution.github.io/distribution/spec/api/), now superseded by the [Open Container Initiative (OCI) Image Specification](https://github.com/opencontainers/image-spec/blob/master/spec.md).
+GitLab ships with the GitLab container registry by default, but it's also compatible with third-party registries, as long as they comply with the [Docker Distribution V2 Specification](https://distribution.github.io/distribution/spec/api/), now superseded by the [Open Container Initiative (OCI) Image Specification](https://github.com/opencontainers/image-spec/blob/main/spec.md).
 
 So far, we have tried to maintain full compatibility with third-party registries when adding new features. For example, in 12.8, we introduced a new [tag delete feature](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/23325) to delete a single tag without deleting the underlying manifest. Because this feature is not part of the Docker or OCI specifications, we have kept the previous behavior as a fallback option to maintain compatibility with third-party registries.
 

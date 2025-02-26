@@ -68,11 +68,11 @@ Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/secu
 
 #### Threat Briefings
 
-Threat Briefings offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
+Threat Briefings offer regular, higher-level updates on the evolving threat landscape by aggregating Flash Reports and other Security Operations activities over each month. Threat Briefings aim to provide on ongoing view into the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
 
 These reports help team members stay informed, vigilant, and prepared.
 
-Recommendations linked to Threat Briefings are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
+Recommendations linked to Threat Briefings are not as time-sensitive as those from a Flash Report. Threat Briefing recommendations are leveraged for more strategic activities like:
 
 - Product roadmap and prioritization
 - Standard iterations to security controls and detection capabilities
@@ -123,6 +123,7 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 - Threat Hunting (`TIRec::Hunting`)
 - Communications (`TIRec::Comms`)
 - Training (`TIRec::Training`)
+- Purple Team Operations (`TIRec::PurpleTeamOp`)
 
 **Recommendation Outcome Labels:**
 

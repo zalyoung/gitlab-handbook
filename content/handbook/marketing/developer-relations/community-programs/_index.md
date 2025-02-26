@@ -36,6 +36,10 @@ As each of these programs provides free, unlimited seats of GitLab Ultimate to q
 As part of this work, the team leads community outreach efforts, marketing activities, and other strategic engagements (which may include serving on foundation boards, building partnerships, creating enablement and marketing content, delivering public presentations and learning sessions, and sponsoring events).
 We strive to be thought leaders in each respective community.
 
+## What are we working on?
+
+For visiblity into the on going work in community programs please refer to the [Community Programs issue board](https://gitlab.com/groups/gitlab-com/-/boards/8983654).
+
 ## Meet the programs
 
 | Community Program      | Handbook Page                                                                               | Marketing Page | Application Page | Program Owner                                     | Email Address|

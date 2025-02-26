@@ -155,7 +155,7 @@ A Principal Product Designer is expected to meet the [base requirements](#base-r
 
 In addition to embedding in [groups](/handbook/product/categories/#hierarchy) that focus on a specific product area, we also have a Foundations team that works on building a cohesive and consistent user experience across platform experiences like navigation, both visually and functionally. You'll be responsible for leading the direction of the experience design, visual style, and technical tooling of the GitLab product. You'll act as a centralized resource, helping to triage large-scale experience problems as the need arises.
 
-You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), implementing our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams are designing and building products. A breakdown of the vision you'll be helping to deliver within the UX Foundation category can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
+You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), implementing our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams are designing and building products. A breakdown of the vision you'll be helping to deliver within the UX Foundation category can be found on our [product direction page](https://about.gitlab.com/direction/foundations/personal_productivity/).
 
 ## UX Paper Cuts Specialty
 
@@ -203,7 +203,7 @@ Everything in the various levels of product designer roles, plus:
 
 Candidates for this position can expect the hiring process to follow the order below, although it can change depending on calendar availability. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who is conducting your interview, you can find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with a member of our hiring team. In this call, we will discuss your experience, understand what you are looking for in a product design role, talk about your work and approach to product design, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
+- Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with a member of our hiring team. In this call, we will discuss your experience, understand what you are looking for in a product design role, talk about your work and approach to product design, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 - Next, if a candidate successfully passes the screening call, they will have two 1-hour interviews: One with a product designer and another with the hiring product design manager.
   - During these interviews you'll be asked several situational questions to help us learn how you have responded or would respond in certain scenarios.
   - You should be prepared to discuss your design and research process, details about how you collaborate, and how you approach your role.

@@ -83,7 +83,7 @@ Media limits:
 
 Use the social card validators to verify the social preview of included URLs before sharing.
 
-- [OpenGraph validator](https://opengraph.xyz) to debug the tags, including social previews.
+- [OpenGraph validator](https://www.opengraph.xyz/) to debug the tags, including social previews.
 - [LinkedIn post inspector](https://www.linkedin.com/post-inspector/)
 
 #### Fast Emoji Workflows
@@ -103,7 +103,7 @@ LinkedIn provides [groups](https://www.linkedin.com/help/linkedin/answer/a540824
 - [DevOps and SRE discussions](https://www.linkedin.com/groups/6585254/): 137,000 members as of 2023-07-04
 - [Artificial Intelligence (AI), Digital Transformation, Data Science, Automation, Machine Learning, and Analytics Group](https://www.linkedin.com/groups/4376214/): 101,000 members as of 2023-07-04
 
-Benefits: Increase reach of content shares (for example, the [GitLab blog](https://about.gitlab.com/blog/)), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
+Benefits: Increase reach of content shares (for example, the [GitLab blog](https://about.gitlab.com/blog/)/), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
 
 Some groups require moderators to approve the posts. Please follow these guidelines:
 
@@ -176,16 +176,17 @@ Recommended [settings](https://bsky.app/settings):
 
 1. Two-factor authenticaton: Require email code to log into your account.
 1. Accessibility Settings:
-    - ALT text: Require ALT text before posting.
+    - ALT text: Require ALT text before posting media.
     - Media: Disable autoplay for videos and GIFs.
 1. Chat Settings: Review the `Allow messages from` setting to determine whether to accepted them from everyone, users I follow (default), no one.
 1. You can use your domain as custom Bluesky handle, for example `@gitlab.com`, `@sugaroverflow.com` or `@dnsmichi.dev`. This can help to make your handle more memorable and easy to share.
     - [Follow the instructions on the Bluesky blog](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) or [@dnsmichi's tutorial](https://dnsmichi.at/2024/11/19/moving-to-bluesky-with-custom-domain-handle/) to setup the DNS TXT record verification.
-    - Consider changing your handle early. All historical tags and quotes will be redirected, but  incoming URLs to starter packs, etc. will be broken and need external updates.
+    - Consider changing your handle early. All historical tags and quotes will be redirected, but incoming URLs to starter packs, etc. will be broken and need external updates.
     - Ensure to register the old handle with a secondary email address, and add a note `moved to @newhandle` into the biography. This helps avoid name squatting.
 
 #### Optional suggestions for Bluesky
 
+1. [Add Bluesky to your GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-external-accounts-to-your-user-profile-page).
 1. Review the [Bluesky Getting Started guide by Dean Lofts](https://blog.deanlofts.xyz/guides/getting-started-bluesky/).
 1. Explore alternative UIs
     - [deck.blue](https://deck.blue/) is a Tweetdeck alternative for Bluesky.
@@ -211,9 +212,10 @@ _Missing features, 2024-11-11:_
     - Workaround: Use a raw API call with the handle: `https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=YOURHANDLE` in your browser or on the CLI with `curl` and `jq`. Example for `dnsmichi.dev`:
 
     ```shell
-    curl -s 'https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=dnsmichi.dev' | jq -c '.handle, .followersCount'
+    curl -s 'https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=dnsmichi.dev' | jq -c '.handle,.did,.followersCount'
     "dnsmichi.dev"
-    1913
+    "did:plc:orvu3nk4bdy7edgw3bvnk4pm"
+    2605
     ```
 
 1. Add user to Starter Pack from their profile view ([issue](https://github.com/bluesky-social/social-app/issues/6104)).
@@ -225,7 +227,7 @@ _Missing features, 2024-11-11:_
 | Cesar Saveedra | [@cealsair.bsky.social](https://bsky.app/profile/cealsair.bsky.social) |
 | Daniel Helfand | [@dhelfand.bsky.social](https://bsky.app/profile/dhelfand.bsky.social) |
 | Fatima Sarah Kalid | [@sugaroverflow.com](https://bsky.app/profile/sugaroverflow.com) |
-| John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/john-cogs.bsky.social) |
+| John Coghlan | [@coghlan.me](https://bsky.app/profile/coghlan.me) |
 | Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
 | William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
 | GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
@@ -279,7 +281,7 @@ Complete lists and Bluesky threads are also available, but are changing fast. _L
     - [hachyderm.io](https://hachyderm.io): [@sugaroverflow](https://hachyderm.io/@sugaroverflow), [@john_cogs](https://hachyderm.io/@john_cogs)
     - [crashloop.social](https://crashloop.social) (small community instance operated by #EveryoneCanContribute cafe members): [@dnsmichi](https://crashloop.social/@dnsmichi)
 1. Mobile apps
-    - Mastodon on [iOS](https://apps.apple.com/de/app/mastodon-for-iphone-and-ipad/id1571998974?l=en), [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android&hl=en&gl=US&pli=1)
+    - Mastodon on [iOS](https://apps.apple.com/de/app/mastodon/id1571998974), [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android&hl=en&gl=US&pli=1)
     - Metatext on [iOS](https://apps.apple.com/de/app/metatext/id1523996615?l=en)
 1. A Tweetdeck alternative is built into the Mastodon web interface.
     - Navigate into [`Preference > Appearance`](https://docs.joinmastodon.org/user/preferences/) and select `enable advanced web interface`.
@@ -306,7 +308,7 @@ _2023-07-01:_ Twitter/X [announced rate limits](https://techcrunch.com/2023/07/0
 - [CloudSecList](https://cloudseclist.com/) (Cloud, Security)
 - [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/) (Big Tech and high-growth startups - paid subscription required, ask @dnsmichi)
 - [Last week in AWS](https://www.lastweekinaws.com/) (Cloud)
-- [The New Stack](https://thenewstack.io/newsletter-archive/) (Cloud Native, DevOps)
+- [The New Stack](https://thenewstack.io/newsletter/) (Cloud Native, DevOps)
 - [allesnurgegloud.com](https://allesnurgecloud.com/) (Cloud, German)
 
 #### Community platforms
@@ -421,8 +423,8 @@ Workflow:
   - Example from [14.9, LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q): `Shoutout to Timo Furrer for becoming the GitLab 14.9 MVP 🎉 Your work on the #Terraform provider, automating all things GitLab, is invaluable. Thanks for all your contributions! 💜 🦊 #EveryoneCanContribute https://about.gitlab.com/releases/2022/03/22/gitlab-14-9-released/#mvp`
 - Post the MVP share on Twitter and LinkedIn
   - Add the URLs to the release evangelism issue
-- Ask Sid in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
-  - Suggested actions: Reshare/like, add a comment thanking for the contributions. Follow the [CEO voice](/handbook/ceo/#ceo-voice) to suggest a text to copy.
+- Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
+  - Suggested actions: Reshare/like, add a comment thanking for the contributions. 
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 
@@ -484,7 +486,7 @@ Developer Advocates will take the end-user point-of-view and help review the rel
 - Suggest promoting a feature to primary.
 - Add a feature from the Changelog, seeing huge impact or a missing addition.
 
-The first pilot experiment was established with our [Verify product group](/handbook/product/categories/verify/) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
+The first pilot experiment was established with our [Verify product group](/handbook/product/categories/#verify-stage) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
 
 ### Product Feedback
 

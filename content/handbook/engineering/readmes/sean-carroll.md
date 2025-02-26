@@ -1,7 +1,9 @@
 ---
 title: "Sean Carroll's Readme"
+description: "Personal readme page for Sean Carroll, Senior Engineering Manager, ModelOps and Custom Models, GitLab"
 job: "Senior Engineering Manager, ModelOps and Custom Models"
 ---
+
 ## Sean Carroll's - README
 
 I'm [Sean Carroll](https://gitlab.com/sean_carroll), Senior Engineering Manager for [Custom Models Group](/handbook/engineering/development/data-science/ai-powered/custom-models/) and the [ModelsOps Stage](/handbook/engineering/development/data-science/modelops/). I've been fortunate enough to have travelled to 24 countries and have been living in Geneva, Switzerland for a while now. I've also lived in the US, Turkey, Scotland and of course Australia, where I'm from. These experiences have given me a strong understanding of different cultures and work styles.
@@ -51,7 +53,7 @@ Please don't hesitate to schedule one with me!
 
 - [MacBook Pro](/handbook/it/end-user-services/onboarding-access-requests/#apple-hardware)
 - Paper notebook, I like [Moleskins](https://www.amazon.com/Moleskine-Classic-Cover-Notebook-Ruled/dp/8883701127)
-- [Fully Standing Desk](https://www.fully.com/en-eu/standing-desks/jarvis/jarvis-hardwood-standing-desk.html)
+- [Fully Standing Desk](https://store.hermanmiller.com/brands-fully)
 - Office chair
 - [Bose 700](https://www.bose.com/c/headphones/noise-cancelling) Noise canceling headphones, essential for deep focus.
 

@@ -86,7 +86,7 @@ In addition, the project may also benefit from the [internal dogfooding process]
 
 #### References
 
-- [Direction - No-Code and Low-Code](https://about.gitlab.com/direction/create/nolowcode)
+- [Direction - No-Code and Low-Code](https://about.gitlab.com/direction/create/nolowcode/)
 - [Low-code Platform Integration - Ideation](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/3)
 
 #### Glossary

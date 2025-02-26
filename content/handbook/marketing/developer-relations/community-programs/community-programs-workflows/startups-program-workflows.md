@@ -21,7 +21,7 @@ The easiest way to obtain this information is a Crunchbase, PitchBook, or Y Comb
 
 ## Startup Program Service Desk
 
-- We use issue Boards in GitLab service Desk to manage the Startups Program **applications** and **support**. 
+- We use issue Boards in GitLab service Desk to manage the Startups Program **applications** and **support**.
 - If you are looking to check the status or file a question with the Startups Program please do so via the Startups Program Issue Board below.
 - [Startups Program Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
 
@@ -55,7 +55,7 @@ When the promotion period ends, startups will have the option of becoming regula
 
 Here are some common workflows associated with managing the program, including qualifying a startup:
 
-### Review application within 
+### Review application within
 
 - [Startups Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
 
@@ -102,9 +102,9 @@ In **GitLab Service Desk**:
 
 **Use the Sales Case Routing Sheet**
 
-This sheet can be found [Here](https://docs.google.com/spreadsheets/d/1etzGAGH4n-pzA52xka_VAymMYSE44UBySblXhAEh6rM/edit?gid=0#gid=0) 
+This sheet can be found [Here](https://docs.google.com/spreadsheets/d/1etzGAGH4n-pzA52xka_VAymMYSE44UBySblXhAEh6rM/edit?gid=0#gid=0)
 
-- Follow the steps provided via the Sales Case Routing to decide on what stage you will qualify these Startup Companies. 
+- Follow the steps provided via the Sales Case Routing to decide on what stage you will qualify these Startup Companies.
 
 These are types of qualifications that Startups can land under:
 

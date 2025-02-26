@@ -15,7 +15,7 @@ JetBrains is a powerful IDE, and is by far the industry leader in traditional "I
 Here's some various surveys showing usage of JetBrains editors:
 
 - [StackOverflow 2023 Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment)
-- [Ruby on Rails 2022 Community Survey](https://rails-hosting.com/2022/#what-is-your-preferred-editor)
+- [Ruby on Rails 2022 Community Survey](https://railsdeveloper.com/survey/2022/#what-is-your-preferred-editor)
 - [JetBrains 2022 Developer Ecosystem Survey](https://www.jetbrains.com/lp/devecosystem-2022/ruby/#what-editor-ide-do-you-mostly-use-for-ruby-development-)
 - [GitLab 2023 IDE/Editor usage (INTERNAL DOCUMENT LINK)](https://docs.google.com/document/d/1tITdhdkJm5xaPiPpXQ9wW1X6M3SAMhncJYaNmQfja70/edit)
 
@@ -48,7 +48,7 @@ keep things clean, similar to `disable` comments in RuboCop, ESLint, or similar 
 These false positives often indicate a bug or missing functionality in the IDE. Therefore, in these
 cases, we will proactively report these to JetBrains, and track the corresponding issues in their issue tracker.
 
-This tracking exists under [Tracked JetBrains Issues]({{< ref "tracked-jetbrains-issues" >}}), and the related
+This tracking exists under [Tracked JetBrains Issues](/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/tracked-jetbrains-issues/), and the related
 comments should all include the relevant issue entry as a reference. Once the underlying issues are
 resolved and included in a new IDE release,
 [the corresponding `noinspection` comments can be removed](../../tracked-jetbrains-issues#handling-of-issues-related-to-noinspection-comments).

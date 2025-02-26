@@ -127,7 +127,7 @@ We recommend doing all of the following:
 
 ##### 1. Share your event on your social media channels
 
-Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to "convert" your @handles from Twitter to tagging people and companies on LinkedIn. While you start with "@" like all social channels, you'll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en).
+Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to "convert" your @handles from Twitter to tagging people and companies on LinkedIn. While you start with "@" like all social channels, you'll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/a525082/mention-people-in-your-posts).
 
 ##### 2. Share your social media posts on GitLab Slack Channels related to your topic
 
@@ -136,7 +136,7 @@ Ask for team members to amplify your posts.
 Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here's how to do it while living up to our values around informal communication:
 Example: Your webcast is the same from our examples above, about remote DevOps. One of the topics to focus on is `remote work`. In addition to being a hashtag in your social posts, `remote work` is also the topic for a GitLab Slack channel, `remote`. Team members in this channel share stories and opinions on your webcast topic.
 
-After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here's how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en). Here's how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url).
+After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here's how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/a1340792/finding-the-url-for-shared-content). Here's how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url).
 
 Take the links to your social media posts and add them to a Slack channel message. Send a variation of this message to the channel:
 

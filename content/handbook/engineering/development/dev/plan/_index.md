@@ -6,7 +6,7 @@ Plan teams:
 
 - [Plan:Project Management Team](/handbook/engineering/development/dev/plan/project-management/)
 - [Plan:Product Planning Team](/handbook/engineering/development/dev/plan/product-planning/)
-- [Plan:Optimize Team](/handbook/engineering/development/dev/plan/optimize/)
+- [Plan:Optimize Team](/handbook/engineering/development/analytics/monitor/optimize/)
 - [Plan:Knowledge Team](/handbook/engineering/development/dev/plan/knowledge/)
 
 The responsibilities of this collective team are described by the [Plan stage](/handbook/product/categories/#plan-stage). Among other things, this means
@@ -56,7 +56,7 @@ Groups within Plan use the same numerical scale when estimating upcoming work.
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
 
-![plan-workflow-example.png](plan-workflow-example.png)
+![plan-workflow-example.png](/images/engineering/development/dev/plan/plan-workflow-example.png)
 
 Everyone is encouraged to move issues to different workflows if they feel they belong somewhere else. In order to keep issues constantly refined, when moving an issue to a different workflow stage, please review any open discussions within the issue and update the description with any decisions that have been made. This ensures that descriptions are [laid out clearly](/handbook/values/#say-why-not-just-what), keeping with our value of Transparency.
 
@@ -79,6 +79,33 @@ Examples of successful themes:
 
 1. **Requirements Management** ([#f_requirements-management](https://app.slack.com/client/T02592416/CUEQBQ7K8), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2703))
 1. **Jira Importer** ([#f_jira-importer](https://app.slack.com/client/T02592416/CUS6GB2JH), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2738))
+
+### Roadmap
+
+In product development at GitLab, Product is responsible for the **what** and **why**, Engineering is responsible for the **how** and **when** [[1](https://docs.google.com/presentation/d/1xd2-G8i68dNOd-dsa78xzYectz68T2EETQz2wJye6EA/edit#slide=id.g30963720e56_3_516)]. Maintaining a credible roadmap is therefore a collaborative process, requiring input from both.
+
+The Product Roadmap outlines what the team aims to accomplish over a 4-6 quarter timeline. It is shared across the organization to ensure alignment with the go-to-market strategy and enable reliable commitments to customers.
+
+Changes to the Plan Product Roadmap, made by the Product Manager, are reviewed and accepted by the Engineering Manager of the affected group. This happens at least once a month and is captured in a [Wiki Page](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/wikis/Plan-Roadmap-Signoffs).
+
+Most items being reviewed during roadmap planning have not yet had detailed technical investigation from engineering. Planning at this resolution is intended to be thoughtful but not perfect. Velocity [remains our priority](/handbook/engineering/development/principles/#velocity).
+
+#### Reviewing the Roadmap
+
+By performing a review, Engineering Managers play a key role by ensuring the roadmap is achievable and effectively sequenced to maximize velocity. Below are some best practices to guide a thoughtful review:
+
+- Assess Achievability: Is the timeline realistic given the team's current capacity, skills, and dependencies?
+- Account for Technical Preparation: Does the roadmap allocate time for necessary technical preparation, such as technical spikes or investigations?
+- Optimize Team Utilization: Does the sequence of work align with the team’s skill profile, avoiding periods of underutilization or skill mismatches?
+- Evaluate Redundancy: How robust is the rest of the roadmap if one item takes longer than anticipated?
+- Clarify Requirements: Do you sufficiently understand each proposed change or do you need additional information?
+- Ensure Shared Understanding: Do you and your Product and UX counterparts have a shared understanding of all terminology used?
+- Seek Opportunities to Optimize: Have you identified opportunities to iterate or increase velocity by adjusting the order of work?
+- Reduce Friction: Is the sequence of work likely to cause avoidable conflicts, such as multiple engineers committing to the same codebase areas simultaneously?
+- Identify Process-Driven Delays: Are there items expected to take longer due to process requirements (e.g., multi-version compatibility) rather than capacity constraints?
+- Account for Cross-Team Dependencies: Are there cross-team dependencies that could put parts of the timeline at risk?
+- Incorporate a Buffer: Is a proportion of capacity allowed for exogenous shocks; such as unexpected PTO, or a high-severity incident?
+- Lean on Your Experience: When you look at the roadmap as a whole and think about recent quarters, does it look achievable?
 
 #### Roadmap Organization
 
@@ -172,8 +199,7 @@ FY25-Q1 Stage-level Objectives all closed out between 74% and 88% and are availa
 
 #### Drafting OKRs using GitLab
 
-Guidance is available, including a video guide, on [how to use GitLab for OKRs](/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
-
+Guidance is available, including a video guide, on [Approach to OKRs at GitLab](/handbook/company/okrs/).
 GitLab currently offers some freedom in how to structure OKR hierarchies. We take the following approach in Plan:
 
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
@@ -304,9 +330,22 @@ _One-line description of the regression in behavior._
 
 Please reassure the participants that the purpose is not to apportion blame but to gather data, identify causal factors and implement corrective actions - but ask for a swift and brief response while the information is still fresh.
 
+### Technical Debt
+
+The ~"technical debt" label, used in combination with ~"devops::plan," helps track opportunities for improving the codebase. These labels should be applied to issues that highlight:
+
+- improvements to existing code or architecture;
+- shortcuts taken during development;
+- features requiring additional refinement;
+- any other items deferred due to the high pace of development.
+
+For example, a [follow-up issue](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
+
+Issues marked with this label are prioritized alongside those proposing new features and will be scheduled during milestone planning.
+
 ### UX
 
-The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
+The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](/handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
 
 #### UX issue management, weights and capacity planning
 
@@ -324,7 +363,7 @@ _Weighting UX issues_
 
 All issues worked on by a designer should have a UX weight before work is scheduled for a milestone.
 
-- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/#ux-issue-weights).
+- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/capacity-management/#ux-issue-weights).
 - If the issue is a dedicated [UX] issue, then the issue weight can be added to the `weight` field, but it should also be duplicated as a ~'design weight:" label. This is for UX Department planning purposes. For smaller issues where implementation and UX work happen in the same issue, UX weight should be added using the ~'design weight:" label (the `weight` field is used by engineering).
 - Product Managers and Product Designers can use issue weights to ensure the milestone has the right amount of work, to discuss tradeoffs, or to initiate conversations about breaking work into smaller pieces for high-weight items.
 
@@ -361,9 +400,9 @@ This enables us to differentiate these by persona and workflow. While they may s
 ##### Guiding principles
 
 - The DRI for the user experience is the Product Designer assigned to the group that is using the work item architecture for their object(s).
-- We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#ux-research-for-work-items) for supporting work item initiatives.
-- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
-- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
+- We work in a user-first mindset, rather then technology-first.
+- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing/).
+- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles/) for the user experience.
 - MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
@@ -437,29 +476,22 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-06-24 | Brandon Labuschagne |
-| 2024-07-01 | John Hope |
-| 2024-07-08 | Vladimir Shushlin |
-| 2024-07-15 | Kushal Pandya |
-| 2024-07-22 | John Hope |
-| 2024-07-29 | Vladimir Shushlin |
-| 2024-08-05 | Kushal Pandya |
-| 2024-08-12 | Donald Cook |
-| 2024-08-19 | John Hope |
-| 2024-08-26 | Vladimir Shushlin |
-| 2024-09-02 | Kushal Pandya |
-| 2024-09-09 | Donald Cook |
-| 2024-09-16 | Donald Cook |
-| 2024-09-23 | Kushal Pandya |
-| 2024-09-30 | John Hope |
-| 2024-10-07 | John Hope |
-| 2024-10-14 | Kushal Pandya |
-| 2024-10-21 | Donald Cook |
-| 2024-10-28 | John Hope |
-| 2024-11-04 | Vladimir Shushlin |
-| 2024-11-11 | Kushal Pandya |
-| 2024-11-18 | Donald Cook |
-| 2024-11-25 | John Hope |
+| 2024-12-30 | Vladimir Shushlin |
+| 2025-01-06 | Kushal Pandya |
+| 2025-01-13 | Donald Cook |
+| 2025-01-20 | John Hope |
+| 2025-01-27 | Vladimir Shushlin |
+| 2025-02-03 | Kushal Pandya |
+| 2025-02-10 | Donald Cook |
+| 2025-02-17 | John Hope |
+| 2025-02-24 | Vladimir Shushlin |
+| 2025-03-03 | Kushal Pandya |
+| 2025-03-10 | Donald Cook |
+| 2025-03-17 | John Hope |
+| 2025-03-24 | Vladimir Shushlin |
+| 2025-03-31 | Kushal Pandya |
+| 2025-04-07 | Donald Cook |
+| 2025-04-14 | John Hope |
 
 #### Links
 
@@ -554,7 +586,7 @@ Some sessions may require small purchases to participate fully; for example, ing
 
 Unless communicated in advance these are **not expensable**.
 
-The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
+The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget. If successful it should be made clear to team-members well in advance:
 
 - What purchases qualify for reimbursement.
 - The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
@@ -567,7 +599,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 #### Tips for a Successful Team Day
 
-- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
+- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/about.html) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
 - Secure expense budget and communicate at least a week in advance of the Team Day.
 - Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
 - Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).

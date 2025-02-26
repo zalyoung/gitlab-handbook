@@ -86,11 +86,11 @@ At GitLab, we lean towards overcommunication to ensure that attendees are aware 
 
 ### Async workshop kickoff message example
 
-![asyncstartingworkshopmessage](asyncstartingworkshopmessage.png)
+![asyncstartingworkshopmessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/asyncstartingworkshopmessage.png)
 
 ### Sync workshop kickoff message example
 
-![syncstartingworkshopmessage](syncstartingworkshopmessage.png)
+![syncstartingworkshopmessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/syncstartingworkshopmessage.png)
 
 #### Make the FigJam board available to team members
 
@@ -112,8 +112,8 @@ Some types of workshop outcomes include:
 
 ### Async workshop outcome message example
 
-![asyncworkshopoutcomemessage](asyncworkshopoutcomemessage.png)
+![asyncworkshopoutcomemessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/asyncworkshopoutcomemessage.png)
 
 ### Sync workshop outcome message example
 
-![syncworkshopoutcomemessage](syncworkshopoutcomemessage.png)
+![syncworkshopoutcomemessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/syncworkshopoutcomemessage.png)

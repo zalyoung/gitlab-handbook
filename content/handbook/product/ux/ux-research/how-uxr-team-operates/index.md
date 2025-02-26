@@ -41,13 +41,13 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 | Section: Stage Groups | Assigned UX Researchers |
 |---------|-------------------------------|
 | **Systems**: Distribution, Geo, Cloud Connector <br> **Data Stores**: Global Search, Tenant Scale, Database <br> **SaaS Platforms**: GitLab Dedicated, US Public Sector Services, Delivery <br> **Deploy**: Environments <br> **Monitor**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
-| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**AI-Powered**: AI Framework, Duo Chat, AI Model Validation | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**Data Science**: AI Framework, Duo Chat, Custom Models, MLOps | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
 | **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
 | **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
-| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
+| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Software Supply Chain Security**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
 | **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
-| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Software Supply Chain Security**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
 
 | AI themes | UXR Point of Contact |
 | -------- | --------- |
@@ -159,7 +159,7 @@ When we drive our own research projects, it means we're also responsible for soc
 
 Below is an example of the formatting:
 
-![Slack snippet](posting.png)
+![Slack snippet](/images/product/ux/ux-research/how-uxr-team-operates/posting.png)
 
 ## How the UX Research team handles scheduling Paid Time Off (PTO)
 

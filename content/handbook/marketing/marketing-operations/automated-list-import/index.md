@@ -36,7 +36,7 @@ Go to the import template [Google Sheet](https://docs.google.com/spreadsheets/d/
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![ALT](/handbook/marketing/marketing-operations/automated-list-import/images/make-a-copy.png)
+![ALT](/images/marketing/marketing-operations/automated-list-import/make-a-copy.png)
 
 </details>
 
@@ -47,7 +47,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span">Click  to expand screenshot</summary>
 
-![Download CSV](/handbook/marketing/marketing-operations/automated-list-import/images/download-csv.png)
+![Download CSV](/images/marketing/marketing-operations/automated-list-import/download-csv.png)
 
 </details>
 
@@ -70,7 +70,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Slack alert](/handbook/marketing/marketing-operations/automated-list-import/images/slack-alert-import.png)
+![Slack alert](/images/marketing/marketing-operations/automated-list-import/slack-alert-import.png)
 
 </details>
 
@@ -87,7 +87,7 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Report status column](/handbook/marketing/marketing-operations/automated-list-import/images/report-status.png)
+![Report status column](/images/marketing/marketing-operations/automated-list-import/report-status.png)
 
 </details>
 
@@ -197,6 +197,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
 | CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) |
 | Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
+| High Priority Reason? | No | High Priority Campaign <br> White Glove  | Only used if leads [need to appear in front of SDRs quickly due to some high propensity to purchase reason](/handbook/marketing/sales-development/#sdr-lead-views). Familiarize yourself with the [white glove](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) process to determine if that dropdown should be used|
 
 ## Reference values for picklists
 

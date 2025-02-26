@@ -37,7 +37,7 @@ Use the folder navigation panel on the left side of your screen to open 01.Uncat
 
 Once you have the correct file selected, uploading is very simple. You can either drag and drop into the files panel on the right or use the blue `upload` button to browse your files. Please ensure that the contract version you upload is the signed pdf.
 
-![upload](./upload.png)
+![upload](/images/legal/vendor-contract-filing-process/upload.png)
 
 GitLab Legal will complete the remaining steps.
 
@@ -69,9 +69,9 @@ Please watch the [ContractWorks tutorial](https://securedocs.wistia.com/medias/2
 
 Click on the greyed out tags in your file line. This will take you to a screen entitled "Manage Tags". From the drop-down menu, select the template that best fits your contract.
 
-![tag](tag.png)
+![tag](/images/legal/vendor-contract-filing-process/tag.png)
 
-![template](template.png)
+![template](/images/legal/vendor-contract-filing-process/template.png)
 
 #### 2. Tag the Contract
 

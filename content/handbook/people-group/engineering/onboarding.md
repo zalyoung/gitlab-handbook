@@ -5,7 +5,7 @@ description: "Information on the automations we have in place to support the Peo
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
 
-Everything on this page, assumes the team member is already present in Workday. To read more about how they get synced to Workday, you can read [this handbook section](/handbook/people-group/engineering/gh-bhr-sync).
+Everything on this page, assumes the team member is already present in Workday.
 
 ## Onboarding
 
@@ -15,7 +15,7 @@ Note: this section only discusses items in the onboarding where People Engineeri
 
 ```mermaid
 graph TD
-  A[4 Days before: PEA triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
+  A[2 Weeks before: People Connect triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
   K[1 day before: Team member is invited to gitlab-com and gitlab-org] --> I
   I[Start date: onboarding and swag email is send to the team member] --> C
   C[Day 2: Access Request issue is created and team page sync readiness is checked.] --> CA
@@ -96,7 +96,7 @@ This  triggers the following flow:
 ```mermaid
 graph TD
     A[PEA triggers the automation via Slack] -->B(Finds the open onboarding issue)
-    B --> C(Finds the BHR profile from the onboarding issue description)
+    B --> C(Finds the Workday profile from the onboarding issue description)
     C --> D(Sends the e-mail to the team member)
 ```
 
@@ -183,6 +183,10 @@ Every day at 09AM UTC, we have a pipeline running that syncs our new team member
 
 We fetch all the new team members with a start date of the day before yesterday and check if they opted-in on
 being synced to the team page. Opt-in happens by setting `Export Name Location to Team Page` to `Yes` on their Workday profile. This is a task on day one for the new team member.
+
+{{% alert title="Note" color="primary" %}}
+You can find a Howto guide for setting the Opt-in mentioned above by searching for a doc titled, "How to: Set Team Page Export Preferences" in Google drive.
+{{% /alert %}}
 
 If they selected yes, we grab some data (name, job title, start date, department and country) and format it,
 so it can be added to the team page entry. If they did not opt-in, we still add an entry to the team page.

@@ -73,7 +73,7 @@ Our Mission is on a 30 year [cadence](/handbook/company/cadence/#30-years).
 
 [Our purpose](/handbook/company/purpose/) is to help people **increase their lifetime earnings** through training, access to opportunities, and the DevSecOps platform.
 
-Our mission is the way we realize [our purpose](/handbook/company/purpose/). By **enabling everyone to contribute to and co-create the software that powers our world**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb/educational/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
+Our mission is the way we realize [our purpose](/handbook/company/purpose/). By **enabling everyone to contribute to and co-create the software that powers our world**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 

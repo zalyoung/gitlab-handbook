@@ -79,7 +79,7 @@ GitLab is an async-first and remote-first company. We use the **GitLab UX Resear
 - The Research DRI, and their UX Researcher partner if applicable, synthesise findings, validate key takeaways, and create the report.
 - Though Google Slides is the most popular format, the report can really be in any form, for example, a doc, an issue, a board, or an diagram.
 - It should be put through a peer review process in the ux_research_team_lounge channel. The peer review may results in further analysis.
-- The final report is shared in the ux_research_reports channel, and any other relevant channels and sync meetings.
+- The final report is shared in the ux_research_reports channel (using the template in the research issue itself), and any other relevant channels and sync meetings.
 - It is expected that stakeholders and / or the Research DRI will follow up the report by identifying and issuing actionable insights for the Product and Design team to action on.
 
 #### Useful to know

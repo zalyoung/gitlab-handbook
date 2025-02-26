@@ -26,8 +26,8 @@ Give your agenda document these headers:
 
 ## Performance management (Optional)
 
-1. List reports with high or exceptional performance. Team members with high performance [should be recognized and praised]({{< ref "structure#management-group" >}}).
-1. List reports who might be [underperforming]({{< ref "underperformance" >}}). Err on the side of putting people on too early and taking them off when it turns out there was no underperformance. It is important to bring people [up with your manager immediately]({{< ref "underperformance#immediately-discuss-with-the-managers-manager" >}}) and not have your manager have to tell you about concerns.
+1. List reports with high or exceptional performance. Team members with high performance [should be recognized and praised](/handbook/company/structure/#management-group).
+1. List reports who might be [underperforming](/handbook/leadership/underperformance/). Err on the side of putting people on too early and taking them off when it turns out there was no underperformance. It is important to bring people [up with your manager immediately](/handbook/leadership/underperformance/#immediately-discuss-with-the-managers-manager) and not have your manager have to tell you about concerns.
 
 ## Career development
 

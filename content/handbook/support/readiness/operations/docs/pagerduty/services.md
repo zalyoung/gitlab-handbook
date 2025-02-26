@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/pagerduty/services"
 ## What are Pagerduty services
 
 As per
-[Pagerduty](https://support.pagerduty.com/docs/services-and-integrations):
+[Pagerduty](https://support.pagerduty.com/main/docs/services-and-integrations):
 
 > A technical service reflects a discrete piece of functionality that is wholly
 > owned by one team. One or more technical services combine to deliver

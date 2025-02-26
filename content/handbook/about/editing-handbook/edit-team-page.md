@@ -5,7 +5,7 @@ description: "Instructions on how to add yourself to the team page, and make edi
 
 This page specifically covers how to add yourself to the team page, add your pets to the pets page, and edit the relevant entries.
 
-For the handbook, see the [editing handbook page]({{< ref "editing-handbook" >}}).
+For the handbook, see the [editing handbook page](/handbook/about/editing-handbook/).
 
 ## Add yourself to the Team Page
 
@@ -33,6 +33,10 @@ Choose the method below that feels most comfortable and have the following infor
 - Story about your background and interests. (See other team member profiles for examples.)
 - Add your personal LinkedIn / Twitter / GitLab handles. When adding these handles, make sure to only include your username without any links or `@` in front of them, such as `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
 - A relative link to your role. If your link is `https://handbook.gitlab.com/job-families/engineering/support-engineer/` use `/job-families/engineering/support-engineer/`. Refer to other entries for reference.
+
+{{% alert title="Note" color="primary" %}}
+For more information on setting the `Export Name/Location to Team Page?` opt-in mentioned below, search for the ["How to: Set Team Page Export Preferences" Google doc](https://drive.google.com/drive/search?q=how+to+Set+Team+Page+Export+Preferences) (internal).
+{{% /alert %}}
 
 ### Method 1: Add your info on GitLab.com using Web IDE
 

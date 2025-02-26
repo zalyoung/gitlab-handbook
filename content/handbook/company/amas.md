@@ -13,7 +13,7 @@ While most AMAs only occur once or as requested, some AMAs are scheduled regular
 
 | AMAs | DRI |  AMA Frequency | Alternate Hosts | Scheduling DRI |
 | ------------------ | --- | ------------ | --------------- | -------------- |
-| AMA with Sid Sijbrandij (CEO) | EBA to CEO| Every other month | N/A | EBA to CEO |
+| AMA with the CEO | EBA to CEO | Monthly | N/A | EBA to CEO |
 
 ## Request an AMA
 

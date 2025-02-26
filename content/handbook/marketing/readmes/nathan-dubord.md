@@ -14,7 +14,7 @@ description: "Learn more about working with Nathan Dubord"
 
 ## About me
 
-Hi! 🙋‍♂️ I'm Nathan, designer turned engineer who has spent the last 9 years building awesome SaaS products: Superna Eyeglass, [SurveyMonkey Apply](https://apply.surveymonkey.com/), [SurveyMonkey Market Research](https://www.surveymonkey.com/market-research/solutions/), and [Wufoo](https://www.wufoo.com/).
+Hi! 🙋‍♂️ I'm Nathan, designer turned engineer who has spent the last 9 years building awesome SaaS products: Superna Eyeglass, [SurveyMonkey Apply](https://apply.surveymonkey.com/), [SurveyMonkey Market Research](https://www.surveymonkey.com/product/market-research/), and [Wufoo](https://www.wufoo.com/).
 
 I am curious minded, with a strong sense of direction. I value moving fast, and facing difficult challenges.
 
