@@ -534,16 +534,6 @@ Some people think of expertise as hard skills (Ruby, International Employment La
 
 If you would like to be a mentor in a certain area, please add the information to the team page. It is important to note whether you would like to be a mentor internally and/or externally at GitLab. Examples of how to specify in the expertise section of the team page: `Mentor - Marketing, Internal to GitLab` or `Mentor - Development (Ruby), External and Internal to GitLab`.
 
-#### Exception: Product Management Senior Leader
-
-We do have an exception to the above, which is a senior leader in Product Management that is responsible for the cross-functional outcomes needed on GitLab.com. This is because GitLab.com is a large operational expense, it's also potentially a large source of IACV, and because it's strategically important that we have a thriving SaaS offering as more of the world gets comfortable hosting their source code in the cloud.
-
-Here are some examples of the things that this senior leader will coordinate:
-
-- Growth Group: [Stages per User (SpU)](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
-- Pricing: [Tiers](https://about.gitlab.com/pricing/)
-- Infrastructure Department: Cloud spend (within limits, not cost per user)
-- Development Department: Prioritization of large enterprise features
 
 ## Other Considerations
 
