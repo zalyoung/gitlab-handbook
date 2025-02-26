@@ -45,6 +45,8 @@ Support engineers should be alert to these potential indicators of malicious int
 - Links to external sites that require authentication with GitLab credentials
 - Requests to run scripts or executables on GitLab systems
 - Requests to disable security features or monitoring
+- Requests to log in to their self-managed GitLab instance
+- Invitations to an external GitLab instance or group
 
 ## Response procedure
 
