@@ -123,7 +123,6 @@ Select these [SA] Activity types when capturing activities by the Strategic Fiel
 - **Executive Solution Plan** - Calls with client's management and executives to discuss, strategize and review DevOps solution for organization wide transformation, develop the trusted advisory relationship with industry thought leadership and guide the enterprise for DevOps adoption with best practices.
 
 ### Ecosystem SA Activity Types
-(Formerly Alliance/Channel Activity Types)
 
 :videocassette: [Video on How to quickly Log, Classify and Triage lots of Rattle Entries for the busy Solutions Architect 9:17, Highspot.](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0)
 
