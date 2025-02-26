@@ -73,7 +73,6 @@ For details on the technical implementation process, please refer to our [docume
 - [Backend work to support creation of objectives behind feature flag](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/103355)
 - [Frontend work to support creation of Objectives & include them in Issue lists](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102721)
 
-
 ## Contributing to the Work Items framework
 
 The Work Items framework is at the core of planning and collaboration in GitLab, and we welcome contributions from other teams. To help you integrate new widgets or data elements successfully, this page outlines the main considerations. Depending on the scope of your contribution, you might not need to address every point. However, reviewing them all ensures that your feature is robust, user-friendly, and consistent with the rest of GitLab.
