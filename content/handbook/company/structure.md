@@ -534,7 +534,6 @@ Some people think of expertise as hard skills (Ruby, International Employment La
 
 If you would like to be a mentor in a certain area, please add the information to the team page. It is important to note whether you would like to be a mentor internally and/or externally at GitLab. Examples of how to specify in the expertise section of the team page: `Mentor - Marketing, Internal to GitLab` or `Mentor - Development (Ruby), External and Internal to GitLab`.
 
-
 ## Other Considerations
 
 ### The word "Manager" in a title doesn't imply people management or structure
