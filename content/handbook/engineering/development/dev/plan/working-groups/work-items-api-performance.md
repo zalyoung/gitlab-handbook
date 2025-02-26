@@ -1,6 +1,6 @@
 ---
-title: "Work-items API Performance Working Group"
-description: "Stage Working Group for improving work-items APIs performance"
+title: "Work Items API Performance Working Group"
+description: "Stage Working Group for improving Work Items API performance"
 ---
 
 ## Attributes
