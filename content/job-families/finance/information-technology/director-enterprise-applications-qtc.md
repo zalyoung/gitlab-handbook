@@ -1,25 +1,25 @@
 ---
-title: Director, Enterprise Applications (Quote to Cash)
+title: Director, Enterprise Applications (Lead to Cash)
 ---
 
 ## Overview of the role
 
-The Quote to Cash (QTC) IT Leader is responsible for leading the design, implementation, and optimization of end-to-end Quote to Cash processes and technology solutions. This role requires a strong understanding of sales operations, billing, revenue recognition, and financial processes, ensuring seamless integration between CRM, CPQ, ERP, and other enterprise systems. The ideal candidate will work closely with cross-functional teams to drive business transformation, system scalability, operational efficiency, enhance customer satisfaction, streamline go-to-market (GTM) processes, and accelerate revenue growth for the company.
+The Lead to Cash (LTC) IT Leader is responsible for leading the design, implementation, and optimization of end-to-end Lead to Cash processes and technology solutions. This role requires a strong understanding of sales operations, billing, revenue recognition, and financial processes, ensuring seamless integration between CRM, CPQ, ERP, and other enterprise systems. The ideal candidate will work closely with cross-functional teams to drive business transformation, system scalability, operational efficiency, enhance customer satisfaction, streamline go-to-market (GTM) processes, and accelerate revenue growth for the company.
 
 ### Job Grade
 
-The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Enterprise Applications (Lead to Cash) is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### What You’ll Do
 
-- Lead the IT strategy and roadmap for Quote to Cash, aligning with business objectives and growth initiatives.
-- Craft and articulate a compelling vision for the Quote to Cash Technology domain, mapping out a transformative plan that improves how products are brought to customers and partners.
-- Oversee the architecture, implementation, and management of QTC technology solutions, including CPQ, billing, contract management, and ERP integrations.
+- Lead the IT strategy and roadmap for Lead to Cash, aligning with business objectives and growth initiatives.
+- Craft and articulate a compelling vision for the Lead to Cash Technology domain, mapping out a transformative plan that improves how products are brought to customers and partners.
+- Oversee the architecture, implementation, and management of LTC technology solutions, including CPQ, billing, contract management, and ERP integrations.
 - Collaborate with Sales, Finance, and Operations teams to streamline processes and enhance system capabilities.
 - Manage system configurations, enhancements, and custom developments to meet business needs.
-- Drive automation and efficiency improvements across the QTC lifecycle.
+- Drive automation and efficiency improvements across the LTC lifecycle.
 - Ensure compliance with financial regulations, revenue recognition standards, and audit requirements.
-- Provide leadership and direction to IT teams and external vendors in delivering QTC solutions.
+- Provide leadership and direction to IT teams and external vendors in delivering LTC solutions.
 - Monitor system performance, identify potential risks, and implement mitigation strategies.
 - Stay informed on industry trends and emerging technologies to drive continuous improvement.
 - Define and deliver analytics on Q2C success metrics from various sources, including quote velocity, operational metrics, automation efficiency, and pricing/packaging trends.
@@ -28,8 +28,8 @@ The Director, Enterprise Applications (Quote to Cash) is a [grade 10](/handbook/
 
 - Bachelor’s or Master’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline.
 - Industry certifications a plus: Salesforce, PMP, ITIL, CISSP or similar certification.
-- 8+ years of experience in IT leadership roles, with a focus on Quote to Cash or related enterprise processes.
-- Expertise in the QTC ecosystem: Salesforce, CPQ, Billing (Zuora), ERP (SAP, Oracle, or NetSuite), CLM (DocuSign, Ironclad), Commissions (Xactly).
+- 8+ years of experience in IT leadership roles, with a focus on Lead to Cash or related enterprise processes.
+- Expertise in the LTC ecosystem: Salesforce, CPQ, Billing (Zuora), ERP (SAP, Oracle, or NetSuite), CLM (DocuSign, Ironclad), Commissions (Xactly).
 - Experience with financial systems, revenue recognition, and contract management.
 - Experience leading and managing an IT organization or Applications group at a fast growing high technology company.
 - Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
