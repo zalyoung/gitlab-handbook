@@ -44,7 +44,7 @@ We can deliver this work in iterations so that we deliver value to the customer 
 
 **Iteration 3: IDE Settings for Chat**: This is the same as above, however this time users should be able to pick the chat model from a list. The UI will continue to use the default model.
 
-**Iteration 4: Namespace Level Configuration**: In this phase customers will be able to select models at a namespace level, where the models available will be a subset of the ones picked at the parent level (group-subgroup). Users will be able to see the relevant models in the IDE. This will also allow `.com` customers to decide which models they want their organization to use.
+**Iteration 4: Namespace Level Configuration**: In this phase customers will be able to select models at a namespace level, where the models available will be a subset of the ones picked at the parent level (group-subgroup). Users will be able to see the relevant models in the IDE. This will also allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
 
 **Iteration 5: UI Changes for Chat**: After this iteration customers will be able to select chat models from the GitLab UI.
 
@@ -184,6 +184,7 @@ erDiagram
 
 - Allows users to select their **preferred AI model** per feature, overriding the namespace default.
 - Links `USERS`, `AI_FEATURE_SETTINGS`, and `AI_SELF_HOSTED_MODELS`.
+- **New**
 - **Why?**
   - Empowers users with flexibility while maintaining organizational defaults.
   - Allows for personalization of AI-assisted workflows.
@@ -307,9 +308,13 @@ query {
 
 ```mermaid
 sequenceDiagram
-    Self Managed->>GitLab.com: Scheduled Sidekiq job calls GraphQL API
+    Self Managed->>Cloud Connector: Scheduled Sidekiq job calls API
+    Cloud Connector->>AI Gateway: Fetch Model List
+    AI Gateway->>GitLab.com: Fetch Model List
     GitLab.com->>GitLab.com: Search for all GitLab Managed models
-    GitLab.com-->>Self Managed: Return list of models
+    GitLab.com-->>AI Gateway: Return list of models
+    AI Gateway-->>Cloud Connector: Return list of models
+    Cloud Connector-->>Self Managed: Return list of models
     Self Managed->>Self Managed: Insert model records and set defaults
     Self Managed->>Administrator: Send email about new model availability
 ```
