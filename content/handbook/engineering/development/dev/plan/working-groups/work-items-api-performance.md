@@ -35,8 +35,8 @@ TBD
 
 ### Exit Criteria
 
-- [ ] Migrate issue filters for groups/projects to work-items API
-- [ ] Measure performance of the work-items API and set improvement targets, such us:
+- [ ] Migrate issue filters for groups/projects to Work Items API
+- [ ] Measure performance of the Work Items API and set improvement targets, such us:
   - Specific common queries not timing-out
   - Get X-th request duration percentile under X target
   - Get Error-budget in the green
