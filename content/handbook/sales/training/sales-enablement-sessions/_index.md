@@ -23,7 +23,6 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Feb 20 | Self-Hosted Models and Security Sprint    |  Product Marketing  |
 | Feb 27 | No Session - SKO   |    |
 | Mar 6 |  Google Private Offer Updates  |  Ecosystem Team   |
 | Mar 13 | Automated Software Delivery Roadmap   | Product Marketing   |
@@ -41,6 +40,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-02-20 | **[GitLab Duo Self-Hosted Models + Security & Compliance Updates](https://drive.google.com/file/d/1s97Q-R23ZVX77inVQb1LBBk60HFkRtFZ/view?usp=drive_link)**   |  Private  |
 | 2025-02-13 |  **[Tools for Field Efficiency: HG Insights & Highspot](https://drive.google.com/file/d/12u6uNibsMuym5EcH2yvO6K2ENxGvNhBA/view?usp=drive_link)**   |  Private  |
 | 2025-01-23 | **[Customer Success: New Paid Tiers](https://drive.google.com/file/d/1oGm4UbUAQzI_bwiBdIvj-D3D-f_Nz9fN/view?usp=drive_link)**   | Private  |
 | 2025-01-16 |  **[GitLab Dedicated for Gov: The FedRAMP Journey](https://drive.google.com/file/d/1lvFqgW4xPvRU2a9yHK9J4YokQEy3XyOQ/view?usp=drive_link)** | Private |

@@ -39,7 +39,7 @@ We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archive
   </div>
 </div>
 
-See the following page for information specifically pertaining to [Marketing Analytics Data Engineering](marketing-data-engineering).
+See the following page for information specifically pertaining to [Marketing Analytics Analytics Engineering](marketing-analytics-engineering).
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Our Work
 
@@ -168,6 +168,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
 - [Dashboards Page](dashboards)
+- [Marketing Analytics Data Overview and General Information](/handbook/marketing/strategy-performance/marketing-analytics-data)
 
 ## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications
 
@@ -199,4 +200,4 @@ We use Adobe Marketo Measure (Bizible) for marketing attribution and tracking ti
 
 ## Web Traffic Analysis
 
-Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/web-traffic-analysis/) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
+Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/metrics/#web-traffic-analysis) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
