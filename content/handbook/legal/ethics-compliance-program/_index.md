@@ -49,6 +49,8 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 
 ### Guidelines and Other Resources
 
+- [Conflicts of Interest Disclosure Form](https://docs.google.com/forms/d/e/1FAIpQLSegpCkaD8L6mnCuT4cMnC1ohfE9mqEnoenx7h5YmT-OJqSyAA/viewform?usp=sf_link)
+- [Gifts & Entertainment Inquiry Form](https://docs.google.com/forms/d/e/1FAIpQLSfVOYD-YFXd-DZAOkzCukFLQWWT9tOSKOKd5ESI4kLP2zx3pA/viewform?usp=sf_link)
 - [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
 - [Data Classification Standards](/handbook/security/data-classification-standard/)
 - [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#heading=h.b3pm8ljoip1y)

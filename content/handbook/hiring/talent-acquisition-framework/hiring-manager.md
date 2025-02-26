@@ -51,11 +51,13 @@ One way a Hiring Manager can help create more engagement in the open role is to 
 1. Ask the [sourcing team](/handbook/hiring/sourcing) to embed the video in the initial message they send to new candidates for the role.
 1. If you have questions, please reach out to the #talent-brand channel on slack. Please also share newly created videos in the #talent-brand channel so these can be captured in our content library.
 
-## Step 5/HM (Optional): Source candidates and/or review inbound applications
+## Step 5/HM (Optional): Set up notifications & email sync
 
-Our hybrid recruiting model means that candidates enter the pipeline through an inbound application or via direct sourcing. Depending on capacity, Hiring Managers can contribute to the hiring process by reviewing inbound applications or helping identify and source candidates to ensure we have a robust pipeline.
+You can set up reminders in Greenhouse by going to your [account settings](https://app2.greenhouse.io/myinfo) and turning on `Daily interview reminder email` which will email you each morning with a list of your interviews for the day. You can also [connect your Slack account](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack-integration) to your Greenhouse account and receive reminders after the interview is over if your scorecard is still due, as well as other notifications depending on your settings.
 
-You can work with your Recruiter and Sourcer to understand whether your time will be better spent on sourcing outreach or on reviewing inbound applications.
+You can also set up notifications to be delivered to your Slack by clicking on your name > `account settings`. From there, connect your Slack account and set @mentions as well as any job-specific notifications.
+
+All email communication with candidates must be kept in Greenhouse. If you need to email your candidate directly, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
 
 ## Step 6/HM: Hiring team to complete feedback in Greenhouse
 

@@ -48,12 +48,9 @@ Identify areas that are of high priority to the customer together with the Solut
 1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-create opportunities and enable technically the customer's engineers to contribute to GitLab.
 1. **Collaborative Development**: GitLab's engineering team will take the lead in pairing engineers with the customer's team to support the development effort.
 
-## SPIFF (Sales Performance Incentive Fund Formula)
+## Nominate an Issue for CoCreate
 
-### Q2
-
-- Target account list: Please see the spreadsheet linked in the Slack Channel of `#cocreate-initiative` or find the file in Drive named "Co-Creation SPIFF Target Account List (Data as of April 2024)".
-- Eligibility Criteria: Please see the slide linked in the Slack Channel of `#cocreate-initiative` or find the file in Drive named "FY25 Q2 Customer & Partner Co-Creation SPIFF".
+Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue. 
 
 ## Resources
 

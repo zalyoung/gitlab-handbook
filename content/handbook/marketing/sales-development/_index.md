@@ -168,7 +168,7 @@ To find and access your leads, please:
 1. Navigate to SFDC's homepage
 1. Click on the `Leads` tab.
 
-You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
+You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/#inbound-lead-management).
 
 #### SDR Lead Views
 
@@ -1191,11 +1191,19 @@ This is where you can find messaging related to GitLab vs some of our competiors
   - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
 - These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.
 
+#### Gem-E FY26 Auto Enrollment
+
+For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities. 
+
+- Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow. 
+- These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
+- These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
+
 ### Sales Dev Manager Resources
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit).
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893). 
 
 #### General leadership principles
 
@@ -1798,7 +1806,7 @@ Announcement Channels
 |                                        | - Completion of SDR Q1-Q3 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | SDR to BDR                             | - Minimum 12 months in the SDR Role (incl. ramp)                                                                                                                                    |
-|                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
+|                                        | - Hitting quota cumulatively over the last 2 fully-ramped financial quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from current SDR manager                                                                                                                                              |
 |                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of SDR Q1-Q4 Tanuki Techs                                                                                                                                              |
@@ -1821,7 +1829,7 @@ Announcement Channels
 |                                        | - Completion of BDR Q1-Q3 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | BDR and BDR Team Lead to Next Step     | - Minimum 12 months in the BDR Role (incl. ramp)                                                                                                                                    |
-|                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
+|                                        | - Hitting quota cumulatively over the last 2 fully-ramped financial quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from BDR management                                                                                                                                                   |
 |                                        | - Demonstration of GitLab Values                                                                                                                                                    |
 |                                        | - Completion of BDR Q1-Q4 Tanuki Techs                                                                                                                                              |
@@ -1879,7 +1887,7 @@ After a  formal warning is issued if the team member falls short of targets agai
 
 ### Inbound Lead Management
 
-The below apply for all inbound-related leads for both the SDR and BDR teams:
+The below apply for all inbound-related leads for both the SDR and BDR teams. Please note that, other than [SFDC lead views](/handbook/marketing/sales-development/#where-to-find-your-leads-and-accounts), inbound MQLs will also be flagged to you in a dedicated Slack alert channel. The official tracking of SLA times is done on SFDC, but you will also find an 'Acknowledge' button on the Slack notification that you can press so that it helps with daily check-ins with your Manager.
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|

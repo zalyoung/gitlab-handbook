@@ -291,6 +291,10 @@ Failures in `update-major` or `update-minor` might indicate that GitLab upgrade 
 
 Follow the document  [Investigating update-major or update-minor tests locally and common failures](https://gitlab.com/gitlab-org/quality/runbooks/-/blob/main/debug_orchestrated_test_locally/running_update-major_and_update-minor_locally.md).
 
+## Test Licenses
+
+Please see the [Test Licenses runbook](https://gitlab-org.gitlab.io/quality/runbooks/test_licenses/) for more information on the licenses in use by E2E test pipelines.
+
 ## Training videos
 
 - [Quality Engineering: Failure Triage - Using git bisect to identify commit that introduced a failure](https://www.youtube.com/watch?v=ZvrOF5Bx2Bo)

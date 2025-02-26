@@ -183,7 +183,8 @@
 
 # CODEOWNER approvals are required for Source Code to support dogfooding approvals
 [Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code-be/ @andr3 @dpoosarla @vyaklushin @ashmckenzie @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @dpoosarla @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @dpoosarla @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Eng-Infrastructure-Quality-department]
 /content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
@@ -208,7 +209,7 @@
 /content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
-/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
+/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
@@ -459,7 +460,7 @@
 /content/handbook/total-rewards/incentives.md @wendybarnes @mwilkins @rallen3 @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
-/content/handbook/people-group/learning-and-development/team-workshops @tely2
+/content/handbook/people-group/learning-and-development/team-workshops @tely2 @jwrs @jallen16
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
@@ -503,7 +504,6 @@
 /content/handbook/sales/ @akramer
 /content/handbook/sales/account-planning/ @lschoenfeld @akramer @monicaj
 /content/handbook/sales/build-value-with-customers.md @akramer
-/content/handbook/sales/channel/ @ecepulis
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @akramer @dsteer
 /content/handbook/sales/commercial/ @bcaller @MDines @akramer @steve_xu @carolynharding
