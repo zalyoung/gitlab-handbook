@@ -129,14 +129,14 @@ Select these [SA] Activity types when capturing activities by the Strategic Fiel
 
 Select these [SA] Activity types when capturing activities by the Ecosystem team but other activity types for Enterprise can also be used. There is an implied priority with higher value activities listed highest / first to lowest / last.
 
-- **Partner Opportunity** - Sales opportunity # aligned work alongside field SA on specific sales opportunities with a partner involvement. This includes being an overlay SME on partner technologies and its joint value proposition with GitLab and/or helping a channel/services partner become successful with joint customers.
-- **Partner Assisted Demand Gen** - Delivering or developing customer facing webinars, workshops, roadshows and similar activities in collaboration with a partner, focussed on demand generation / lead generation.
+- **Partner Opportunity** - :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: Sales opportunity # aligned work alongside field SA on specific sales opportunities with a partner involvement. This includes being an overlay SME on partner technologies and its joint value proposition with GitLab and/or helping a channel/services partner become successful with joint customers.
+- **Partner Assisted Demand Gen** - :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: Delivering or developing customer facing webinars, workshops, roadshows and similar activities in collaboration with a partner, focussed on demand generation / lead generation.
 - **Partner VSA Enablement** - Activities involving enablement of partners to pitch or execute Value Stream Assessment and similar presales value selling motions.
-- **Partner Technical Evangelism** - Delivering or developing partner facing (not customer facing) events and evangelism, including partner internal conference, meetup, webinar, open-invite bootcamp, blog and customer success stories.
-- **Internal Enablement and SME Assistance** - GitLab facing internal calls, meetings, webinars for partner promotion and GitLab field team assistance.
-- **Partner Solutioning** - Solution architecture work for defining and developing partner solutions and integration with GitLab.  For a work done on a specific sales opportunity, consider "Partner Opportunity."
-- **Partner Services Attach** - Develop partner services catalog and/or SoW for future services engagements.
-- **Partner Enablement** - Partner facing calls, meetings, workshops, webinars, including prep work to enable partner Champions on GitLab product and pre-sales.
+- **Partner Technical Evangelism** - :money_with_wings: :money_with_wings: :money_with_wings: Delivering or developing partner facing (not customer facing) events and evangelism, including partner internal conference, meetup, webinar, open-invite bootcamp, blog and customer success stories.
+- **Internal Enablement and SME Assistance** - :money_with_wings: :money_with_wings: GitLab facing internal calls, meetings, webinars for partner promotion and GitLab field team assistance.
+- **Partner Solutioning** - :money_with_wings: :money_with_wings: Solution architecture work for defining and developing partner solutions and integration with GitLab.  For a work done on a specific sales opportunity, consider "Partner Opportunity."
+- **Partner Services Attach** - :money_with_wings: :money_with_wings: Develop partner services catalog and/or SoW for future services engagements.
+- **Partner Enablement** - :money_with_wings: Partner facing calls, meetings, workshops, webinars, including prep work to enable partner Champions on GitLab product and pre-sales.
 - **Partner Cadence calls** - Cadence calls with partners for partnership building and presales activities on customer opportunities and account strategy.
 
 ### Value Stream Workshop (Assessment) Activity Types
