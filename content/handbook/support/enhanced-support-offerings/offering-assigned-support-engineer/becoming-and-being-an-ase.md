@@ -50,7 +50,7 @@ You might also find it helpful to review the
 1. Update your signature in Zendesk to indicate that you are an ASE
 1. Submit an Access Request to get a user account created for yourself in
    Salesforce. This account will be read-only, and will **not** add you to the
-   [Designated Insiders](https://handbook.gitlab.com/handbook/legal/publiccompanyresources/#designated-insiders)
+   [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders)
    list. It is needed in order to be able to display in some reports and
    dashboards the ASEs for each account. Please follow these steps:
    1. Use this
@@ -59,10 +59,12 @@ You might also find it helpful to review the
    1. Set the title to: `[YOUR NAME]`, Salesforce, Executive-NoViewAll
    1. Fill in `Step 1` appropriately
    1. In `Step 2` enter:
+
       ```markdown
       * [ ] Salesforce: Executive-NoViewAll
          * [ ] Justification: As per https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5626, support engineers serving as Assigned Support Engineers need SFDC access in order to enable the picklist functionality that the issue describes
       ```
+
    1. Assign the issue to your manager
 
 ### On-call responsibilities
