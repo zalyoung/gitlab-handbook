@@ -34,21 +34,9 @@ To improve user experience and create parity between to-dos and email notificati
 
 ## Motivation
 
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
+Our goal is to create a system that allow users to receive information about activity in their groups and projects in GitLab itself, without need to go check their email inbox. Those notifications should be personalizable, it should be easy to filter and mark as done/read. We want to grow the usage of notifications (metric here?). 
 
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
+Our internal motivation is to create a system that is easy to extend and loosly coupled with other parts of the codebase. We also want to create system with clear retention policies, allowing to have a mainainable database load. We also want to make sure that adding new notifications to the codebase is easy and feature teams can self-serve with it. 
 
 ### Goals
 
