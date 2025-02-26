@@ -1,145 +1,114 @@
 ---
-title: Secure Engineering Refinement
+title: Application Security Testing - Planning
 ---
 
 ## Overview
 
-Engineering refinement is the most important step to ensure an issue is ready to move into development and that the issue will match
-everyone's expectations when the work is delivered.
+Our stage follows the [product development flow](/handbook/product-development-flow/) process, including the `workflow` labels. This page documents tweaks and additions to the general GitLab Process. If there's a conflict, the stage documentation should take precedence.
 
-The goal of the refinement process is to
+Some groups prefer to split the [Plan](/handbook/product-development-flow/#build-phase-1-plan) phase into two adjacent steps: [Planning breakdown](#planning-breakdown) and [Refinement](#refinement). Either way, once planning is complete, issues and epics are ready for [scheduling](#scheduling).
+
+### Planning breakdown
+
+Epics and issues are selected according to your team's prioritization process, and must have the `~workflow::planning breakdown` label applied.
+
+The main questions to be answered are:
+
+1. Are requirements clear enough to understand intent of request?
+1. Do we know the boundaries of work to be accomplished? (e.g. code maintained by another team)
+
+If either answer is “No”, discussion continues with the PM to improve the DRI’s understanding of the request.
+
+If both answers are “Yes”, the DRI estimates whether or not the issue can be delivered in a single milestone. For an epic, it's assumed that it can't be delivered in a single milestone.
+
+When it’s determined that an issue cannot be delivered within a single milestone, the DRI works to break it down into multiple issues, each of which can be delivered in a milestone. As much as possible, the issues are independent “slices” of value (results for customers) so, for example, no mocked UIs or backend work that is inaccessible.
+
+Engineering output:
 
 - Identify and resolve outstanding questions or discussions.
-- Raise any questions, concerns or alternative approaches.
-- Outline an implementation plan.
-- Ensure issue is ready to be worked on.
-- Identify code boundaries, for example, does the issue change code maintained by another team.
 - Notify other teams if the issue is relevant to them in some way.
-- Assign a weight to the issue.
+- For epics: create implementation issues within the epic(s).
+- Apply the `~workflow::refinement` label to all issues.
 
-The refinement process can break down the issue into technical subtasks by following the [sub-issue convention](https://gitlab.com/gitlab-com/www-gitlab-com/issues/4588) but we should avoid redefining the scope of an implementation issue as this should have already been done during the Planning Breakdown with UX and PM.
+### Refinement
 
-## When engineering refinement should be completed
+Engineers assigned to refine issues are encouraged to ask questions and push back if issues lack the information required for successful refinement and execution.
 
-Engineering refinement should be an ongoing activity for all engineers.
-Our aim is to have enough issues to fill two iterations ready to be scheduled.
-Unless specified differently for your team, every engineer should try to refine enough issues each week to result in a total weight of at least 6, and should do this following the weekly team meetings.
+Engineering output:
 
-- [Composition Analysis](https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Acomposition+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None)
-- [Dynamic Analysis](https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Adynamic+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None)
-- [Static Analysis](https://gitlab.com/groups/gitlab-org/-/boards/1590105?label_name[]=group%3A%3Astatic%20analysis)
-- [Frontend](https://gitlab.com/gitlab-org/gitlab/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Asecure&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name[]=frontend&weight=None)
+- Ensure issue is ready to be worked on; apply the `~workflow::ready for dev` label.
+- Confirm that the issue has the correct [labels](https://docs.gitlab.com/development/labels/), especially the [work type classification label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+- Remove assignee(s) from issue.
 
-## Steps
+### Scheduling
 
-1. Assign yourself the issue
-2. If an engineer is required for the issue, ensure the appropriate `~backend` or `~frontend` label is applied. Otherwise, remove any backend/frontend label, assign any relevant labels and you are done.
-3. Check the issue for completeness.
-    - Does it have the necessary designs?
-    - Is the functionality clearly articulated and there is a consensus or decision on how it should function.
-    - Are the technical details outlined? Has a consensus been reached or decision been made in areas of discussion?
-    - Are there dependencies? Call those out.
-4. If the issue is not complete:
-    - Tag the relevant people that can help complete the issue and outline what is needed. Tag the appropriate EM and PM, so they know that the item can not be fully groomed.
-5. Ensure the issue is fully understood.
+The EM is responsible for scheduling work, according to feature, maintenance, and bug prioritization for their team.
+
+Engineering output:
+
+- Apply the correct milestone.
+- Apply the `~Deliverable` label to issues that the team has committed to delivering in the milestone.
+
+## Refinement guidelines
+
+1. Assign yourself the issue. Note the differences for [bugs](#bug-diagnosis) and [spikes](#refinement-for-spikes).
+1. Consider using the [`Implementation`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md?ref_type=heads) issue template as it has the structure used in these guidelines.
+1. Ensure the appropriate `~backend` or `~frontend` label is applied or removed.
+1. Check the issue for completeness:
+    - It has the necessary designs.
+    - The functionality clearly articulated, and there is a decision on how it should function.
+    - The technical details are outlined, and discussions are resolved.
+    - Dependencies have been called-out.
+    - Determine if a [feature flag is needed](/handbook/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
+1. If the issue is not complete:
+    - Tag the relevant people that can help complete the issue and outline what is needed. Tag the EM and PM, so they are aware of the blocker.
+1. Ensure the issue is fully understood.
     - Update the issue description with the final description of what will be implemented.
     - Update the issue description with an [implementation plan](#implementation-plan).
+    - Optionally, as per your team's customs, add [verification steps](#verification-steps).
     - Ensure the issue title is accurate for the work being done.
     - Open up new issues for 'follow-up' work, or work that was forced out of scope.
-6. Assign a [weight](#weights) and set the label `~workflow::scheduling`
-7. Assign a [work type classification label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) e.g. `/label ~"type::feature" ~"feature::enhancement"`
-8. Once refinement is done unassign yourself.
+    - Assign a [work type classification label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification); e.g. `/label ~"feature::enhancement"`.
+1. If your team uses weights, assign one accordingly (except for [bugs](#bug-diagnosis) and [spikes](#refinement-for-spikes)).
+1. For complex issues, request a review from anoter engineer. Teams may have set a weight threshold to require reviews.
+1. Add the `~workflow::ready for dev` label and unassign yourself.
 
-When you are done refining, anyone should be able to read the issue description and should know what the issue is solving, how it is solving the problem,
-and the technical plan for implementing the issue.
+When you are done refining, anyone should be able to read the issue description and should know what the issue is solving, how it is solving the problem, and the technical plan for implementing the issue.
 
-In order for someone to understand the issue and its implementation, they should **not** have to read through all the comments. The important bits should be captured in the description, as the **single source of truth.**
+In order for someone to understand the issue and its implementation, they should not have to read through all the comments. The necessary information must be in the description, as the single source of truth.
 
-## Failing Refinement
+### Implementation Plan
 
-An issue should fail refinement if it can not be worked on without additional information or decisions to be made. To fail an issue:
+A list of the steps and the parts of the code that will need to get updated to implement this feature. The implementation plan should also call-out any responsibilities for other team members or teams.
 
-1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to be done.
-2. Unassign yourself if you can not contribute further to issue at the current time.
-3. Assign the `blocked` label.
-
-## Weights
-
-Weights are used as a *rough* order of magnitude to help signal to the rest of the team how much work is involved.
-Weights should be considered an output of the refinement process rather than its purpose.
-
-The weighting system roughly aligns the scales used by other teams within GitLab. However, we use relative sizing rather than
-assigning time estimates to possible values. A curated set of reference issues have been provided below, which will be updated periodically
-to keep examples as current as possible.
-
-### Possible Values
-
-It is perfectly acceptable if items take longer than the initial weight. We do not want to inflate weights,
-as [velocity is more important than predictability](/handbook/engineering/development/principles/#velocity-over-predictability) and weight inflation over-emphasizes predictability.
-
-| Weight | Description | Reference issues |
-| ------ | ----------- | ---------------- |
-| 1 | Trivial task | [Update Bandit analyzer to v1.6.2](https://gitlab.com/gitlab-org/gitlab/-/issues/12926) |
-| 2 | Small task | [Security Dashboard should show dismissal details on issues](https://gitlab.com/gitlab-org/gitlab/-/issues/9715) |
-| 3 | Medium task | [Dependency Scanning Fails: "engine 'node' is incompatible with this module"](https://gitlab.com/gitlab-org/gitlab/-/issues/12471), [Dependency List contains duplicates (npm project)](https://gitlab.com/gitlab-org/gitlab/-/issues/12162), [Support setup.py in Dependency Scanning](https://gitlab.com/gitlab-org/gitlab/issues/11244), [Make vulnerability-details receive a vulnerability as a prop](https://gitlab.com/gitlab-org/gitlab/-/issues/14006) |
-| 5 | Large task | [Engineering Discovery: reconsider Gemnasium client/server architecture](https://gitlab.com/gitlab-org/gitlab/issues/12930) |
-| 8 | Extra-large task | [SAST for Apex](https://gitlab.com/gitlab-org/gitlab/-/issues/10680), [Add License information to the Dependency List - add license info backend](https://gitlab.com/gitlab-org/gitlab/issues/13084), [WAF statistics reporting](https://gitlab.com/gitlab-org/gitlab/-/issues/14707) |
-| 13 | Extra-extra-large task | [Add support for REST API scans to DAST](https://gitlab.com/gitlab-org/gitlab/-/issues/10928) |
-| Bigger | Epic in disguise |  |
-
-### Things to keep in mind when estimating
-
-- For tasks that involve making changes to the Rails codebase
-
-  Sometimes the most challenging part of working on a Rails codebase issue or bug is the difficulty of reproducing the problem locally and
-  writing tests to demonstrate that the fix correctly solves the issue. When estimating, make sure to take into account the time required
-  for a developer to understand how test factories for the relevant code are used and if they'll need to be updated in order to produce data
-  to create a failing test.
-
-  Bear in mind that the review process will be much more involved than a change to one of the secure analyzer projects because the number
-  of reviewers will be higher, sometimes requiring as many as 4 people, across different timezones. Keep in mind the turnover time
-  required to respond to comments, receive feedback the next day due to timezone differences, and then re-address those comments.
-
-  Also be careful when estimating issues that might have efficiency concerns, such as adding sorting code or anything that may increase
-  computational complexity. If this might be applicable to the issue you're estimating, make sure to include additional headroom to account
-  for the work required to possibly provide benchmarking details or the addition of feature flags to ensure that system performance isn't
-  negatively impacted.
-
-  In addition to the above concerns, running into flaky tests or unrelated failures can sometimes require
-  re-running the entire test suite after re-basing, or at least re-running individual tests until the pipeline goes green.
-
-  Because of these considerations, be careful when estimating issues with a weight of `1`, since this is extremely difficult to achieve
-  unless it's a minor uncontentious documentation change or a simple update such as adding a new element to an array of menu options, for
-  example.
-
-### Capacity planning documentation from other teams
-
-- [Plan:Project Management BE Team Capacity Planning](/handbook/engineering/development/dev/plan/project-management/#capacity-planning)
-- [Create: Source Code BE Team Weights](/handbook/engineering/development/dev/create/source-code/backend/#weighting-issues)
-- [Geo Team Weights](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#weights)
-- [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
-
-## Implementation Plan
-
-A list of the steps and the parts of the code that will need to get updated to implement this feature. The implementation plan should also
-call out any responsibilities for other team members or teams. An example: [execution plan for a real issue](https://gitlab.com/gitlab-org/gitlab/issues/5656#execution).
-
-The goal of the implementation plan is to spur critical analysis of the issue and have the groomer think through what parts of the application will get touched.
-The implementation plan will also permit other engineers to review the issue and call out any areas of the application that might have dependencies or
-been overlooked.
+The goal of the implementation plan is to spur critical analysis of the issue and have the DRI think through what parts of the application will get touched. The implementation plan will also permit other engineers to review the issue and call out any areas of the application that might have dependencies or been overlooked.
 
 The implementation plan might be limited to a single step but it should not be skipped, even when the implementation is simple.
+
 This improves consistency across issues, and communicates that issues have been properly refined.
 
-## FAQs
+### Verification Steps
 
-**Q:** Should discovery issues be groomed?
+Explain how your changes can be verified by another person. This expedites the merge request review process, since reviewers won't need to ask for the information.
 
-**A:** Yes. Discovery issues should be groomed but some of the steps above may not be relevant. Use good judgement to apply the process above. The purpose of
-refining a discovery issue is to make sure the scope of the discovery is clear, what the output will be and that the prerequisites for the discovery are known
-and completed. Discovery issues can have a habit of dragging out or not creating actionable steps, the refinement process should lock down what needs to be answered
-in the discovery process.
+It also improves the (`~workflow::verification`) step by enabling someone else to do the verification, which should reduce the chance of the issue being reopened.
 
-**Q:** If an issue has both frontend and backend work how should I weight it?
+### Bug Diagnosis
 
-**A:** Issues that require both frontend and backend work can be broken into [sub-issues as outlined in this document](https://gitlab.com/gitlab-com/www-gitlab-com/issues/4588).
+Note the following differences when refining bugs:
+
+1. As a guideline, spend no more than 1 hour per issue. Bugs that take too long to refine are indicative of a more complex issue.
+1. Do not add weight. Our velocity represents the capacity to deliver new, bug-free features.
+1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be or further steps for diagnosis.
+
+### Refinement for Spikes
+
+1. Do not add weights[^1].
+1. Time-box how much time to spend on the issue, and note it in the description; e.g. `Time-box: 2d`.
+1. The deliverable is typically an answer or solution to be used in upcoming issues, along with follow-up issues.
+
+[^1]: a spike doesn't directly add value to users so it shouldn't contribute to our velocity. The information delivered by a spike is what will be useful to deliver direct value to users.
+
+### Refinement for Security Issues
+
+The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md) can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security Issue Release Buddy".

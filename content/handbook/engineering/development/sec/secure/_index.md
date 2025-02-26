@@ -358,9 +358,7 @@ Every new hire will have an assigned [onboarding issue](https://gitlab.com/gitla
 
 #### Workflow and Refinement
 
-Secure largely follows our [Product Development Flow](/handbook/product-development-flow/)
-
-See [Issue Refinement](workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
+See [Secure Engineering Refinement](/handbook/engineering/development/sec/secure/planning).
 
 #### Shared pool of Frontend work
 
