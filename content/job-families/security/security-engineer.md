@@ -385,34 +385,36 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-Security Architects are responsible for the assessment, reduction or mitigation of risks associated with the GitLab product and architecture. They maintain the security strategy and solutions across the entire GitLab ecosystem.
+Security Architects are responsible for the identification, assessment, prioritization, and reduction of systemic risks associated with the GitLab product and architecture. They lead the development and execution of the security strategy, roadmap, and standards to address complex security challenges across the GitLab ecosystem. 
 
-Security Architects report to the Director of Security Platforms and Architecture. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. These Security Engineers have a wide sphere of influence and responsibility at the Individual Contributor level and as such may be asked to focus on high impacting focus areas.
+Security Architects report to the Director of Security Platforms and Architecture within the Product Security Department. As Staff+ Security Engineers, they have a wide sphere of influence and responsibility, and they maximize their impact by working through and with others.
 
 Responsibilities
 
-- Define key architectural patterns, practices, and standards and drive them across the organization.
-- Maintain a high level of Architecture fluency by documenting GitLab systems, environments, and flows.
-- Advocate, document, and define Security Architecture vision from a strategic perspective.
-- Maintain a good understanding of our security posture and a better grasp on priorities with the Product Risk Register.
-- Derive metrics and dashboards from the Product Risk Register to drive decisions and define Key Performance Indicators (KPIs) for the Product Security department.
-- Contribute to, interpret, and disseminate information security policies, standards, and promote awareness of these artifacts to technical component owners.
-- Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities.
-- Be a consultant for escalated security incidents where applicable.
-- Unification and optimization of processes between teams.
+- Lead the development and execution of the security strategy and roadmap to address complex security challenges at scale
+- Develop expert-level knowledge of GitLab’s platform architecture and perform comprehensive risk identification, assessment, and prioritization 
+- Work cross-organizationally to create remediation plans for key security risks in the Product Security Risk Register
+- Lead the security architecture and design work for strategic initiatives, providing clear direction to cross-functional teams
+- Conduct security architecture reviews for large strategic projects
+- Drive continuous improvement of security architecture practices and patterns across the organization
+- Develop and communicate security standards to proactively enable teams to make sound security decisions and establish clear expectations for secure software delivery
+- Cultivate strong relationships across Product and Engineering to maintain visibility into major initiatives and drive security outcomes 
+- Anticipate emerging security challenges and propose proactive architectural solutions
+- Provide expert guidance and mentorship to security engineers across the division
 
 Requirements
 
-- Ability to measure and quantify risk to adopt the right response.
-- Understand the concept of architectural complexity.
-- Deep, experience-based, understanding of one or more of software/infrastructure/enterprise architectural best practices
-- Knowledge of AI concepts and threats.
+- Demonstrated ability to translate complex security concepts into clear, actionable recommendations
+- Proven track record of driving complex security initiatives through cross-functional collaboration and influence
+- Deep expertise in risk assessment, secure system design, and threat modeling
+- Extensive experience securing modern application architectures and/or cloud platforms (AWS/Azure/GCP)
+- Strong understanding of DevSecOps practices and secure software delivery
 
 Nice to have
 
-- Ecosystem knowledge of security teams and cross-departmental processes.
-- Experience in working on high-impact operations involving multiple departments and divisions.
-- Experience in establishing and presenting security metrics to C-Level executives through dashboarding tools like Tableau.
+- Demonstrated ability to quantify risk, develop metrics, and/or develop Key Risk Indicators for Product Security
+- Expertise in emerging technology, like AI
+- Understanding of security certifications, frameworks, and standards, like FedRAMP, ISO 27001, SOC 2, PCI-DSS, etc.
 
 ## Security Engineer Hiring Process
 
