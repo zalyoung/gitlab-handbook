@@ -3,7 +3,7 @@ title: "GitLab Security Essentials - Hands-On Lab: DAST and API Scans"
 description: "This Hands-On Guide walks you through the process of using container scanning in your projects"
 ---
 
-> Estimated time to complete: 15 to 20 minutes
+> Estimated time to complete: 40 minutes
 
 ## Objectives
 
