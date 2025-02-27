@@ -15,7 +15,7 @@ Our mission is to empower developers to focus on innovation, build, and deliver 
 
 ## Team Structure
 
-Infrastructure Platforms Department structure is documented [here](/handbook/engineering/infrastructure-platforms/#organization-structure).
+[Infrastructure Platforms Department structure](/handbook/engineering/infrastructure-platforms/#organization-structure) is documented in our handbook.
 
 ## OKRs
 
@@ -25,14 +25,14 @@ TODO
 
 We use Fibonacci Series for weights and limit the highest number to 8. The definitions are as below:
 
-| Weight      | Description                                                                                                                                                                              |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 - Trivial | Simple and quick changes (e.g. typo fix, test tag update, trivial documentation additions)                                                                                               |
-| 2 - Small   | Straight forward changes, no underlying dependencies needed. (e.g. new test that has existing factories or page objects)                                                                 |
-| 3 - Medium  | Well understood changes with a few dependencies. Few surprises can be expected. (e.g. new test that needs to have new factories or page object / page components)                        |
-| 5 - Large   | A task that will require some investigation and research, in addition to the above weights (e.g. Tests that need framework level changes which can impact other parts of the test suite) |
-| 8 - X-large | A very large task that will require much investigation and research. Pushing initiative level                                                                                            |
-| 13 or more  | Please break the work down further, we do not use weights higher than 8.                                                                                                                 |
+| Weight      | Description                                                                                                                                                                                |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 - Trivial | Simple and quick changes such as typo fixes, test tag updates, or trivial documentation additions                                                                                          |
+| 2 - Small   | Straight forward changes with no underlying dependencies needed, such as new tests that use existing factories or page objects                                                             |
+| 3 - Medium  | Well understood changes with a few dependencies. Few surprises can be expected, such as new tests that require new factories or page objects/components                                    |
+| 5 - Large   | A task that will require some investigation and research, in addition to the above weights, such as tests that need framework level changes which can impact other parts of the test suite |
+| 8 - X-large | A very large task that will require much investigation and research. Pushing initiative level                                                                                              |
+| 13 or more  | Please break the work down further, we do not use weights higher than 8.                                                                                                                   |
 
 ### Developer Experience group structure
 
@@ -61,7 +61,7 @@ graph TD
 
 ### Individual contributors
 
-The following people are members of the [Development Analytics group](./development-analytics/):
+The following people are members of the [Development Analytics group](development-analytics/):
 
 {{< team-by-manager-slug "ghosh-abhinaba" >}}
 
