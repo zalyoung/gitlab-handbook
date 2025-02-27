@@ -123,7 +123,8 @@ so unauthorized attendees cannot join your zoom room.
 ### Adding your title to your name
 
 Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title as part of the display name field.
-For example, if your name is Art VanDelay and your role is Engineer, you can write display name: `Art VanDelay - Engineer`. It is recommended to include your department and team name.
+Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title, department, and team name (if applicable) as part of the display name field.
+For example, if your name is Art VanDelay and your role is Backend Engineer within the Source code group, you can write display name: `Art VanDelay - Backend Engineer (Create:Source Code)`.
 
 1. Navigate to the [profile page](https://gitlab.zoom.us/profile)
 1. Click on `Edit` on the far right of your avatar/name
