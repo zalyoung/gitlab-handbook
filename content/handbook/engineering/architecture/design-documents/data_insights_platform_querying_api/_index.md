@@ -576,152 +576,152 @@ end
 package main
 
 import (
-	"context"
-	"log"
-	"net"
-	
-	pb "gitlab.com/api/group/contributions/v1"
-	"google.golang.org/grpc"
+  "context"
+  "log"
+  "net"
+  
+  pb "gitlab.com/api/group/contributions/v1"
+  "google.golang.org/grpc"
 )
 
 type groupContributionsServer struct {
-	pb.UnimplementedGroupContributionsServiceServer
+  pb.UnimplementedGroupContributionsServiceServer
 }
 
 func (s *groupContributionsServer) GetGroupContributions(ctx context.Context, req *pb.GetGroupContributionsRequest) (*pb.GetGroupContributionsResponse, error) {
-	// In a real implementation, you would:
-	// 1. Parse dates
-	// 2. Fetch data from database
-	// 3. Format the response
-	
-	// Mock implementation for example
-	return &pb.GetGroupContributionsResponse{
-		Group: &pb.Group{
-			Id: "gid://gitlab/Group/9970",
-			Contributions: &pb.ContributionConnection{
-				Nodes: []*pb.ContributionNode{
-					{
-						RepoPushed:            5,
-						MergeRequestsCreated:  3,
-						MergeRequestsMerged:   2,
-						MergeRequestsClosed:   1,
-						MergeRequestsApproved: 4,
-						IssuesCreated:         2,
-						IssuesClosed:          1,
-						TotalEvents:           18,
-						User: &pb.User{
-							Id:     "gid://gitlab/User/123456",
-							Name:   "Jane Developer",
-							WebUrl: "https://gitlab.com/jane_developer",
-						},
-					},
-					// Additional nodes would be added here
-				},
-				PageInfo: &pb.PageInfo{
-					NextToken:     "next_token_xyz",
-					PreviousToken: "", // Empty because this is the first page
-				},
-			},
-		},
-		PageInfo: &pb.PageInfo{
-			NextToken:     "next_token_xyz",
-			PreviousToken: "", // Empty because this is the first page
-		},
-	}, nil
+  // In a real implementation, you would:
+  // 1. Parse dates
+  // 2. Fetch data from database
+  // 3. Format the response
+  
+  // Mock implementation for example
+  return &pb.GetGroupContributionsResponse{
+    Group: &pb.Group{
+      Id: "gid://gitlab/Group/9970",
+      Contributions: &pb.ContributionConnection{
+        Nodes: []*pb.ContributionNode{
+          {
+            RepoPushed:            5,
+            MergeRequestsCreated:  3,
+            MergeRequestsMerged:   2,
+            MergeRequestsClosed:   1,
+            MergeRequestsApproved: 4,
+            IssuesCreated:         2,
+            IssuesClosed:          1,
+            TotalEvents:           18,
+            User: &pb.User{
+              Id:     "gid://gitlab/User/123456",
+              Name:   "Jane Developer",
+              WebUrl: "https://gitlab.com/jane_developer",
+            },
+          },
+          // Additional nodes would be added here
+        },
+        PageInfo: &pb.PageInfo{
+          NextToken:     "next_token_xyz",
+          PreviousToken: "", // Empty because this is the first page
+        },
+      },
+    },
+    PageInfo: &pb.PageInfo{
+      NextToken:     "next_token_xyz",
+      PreviousToken: "", // Empty because this is the first page
+    },
+  }, nil
 }
 
 func main() {
-	lis, err := net.Listen("tcp", ":50051")
-	if err != nil {
-		log.Fatalf("failed to listen: %v", err)
-	}
-	
-	grpcServer := grpc.NewServer()
-	pb.RegisterGroupContributionsServiceServer(grpcServer, &groupContributionsServer{})
-	
-	log.Println("Starting gRPC server on port 50051...")
-	if err := grpcServer.Serve(lis); err != nil {
-		log.Fatalf("failed to serve: %v", err)
-	}
+  lis, err := net.Listen("tcp", ":50051")
+  if err != nil {
+    log.Fatalf("failed to listen: %v", err)
+  }
+  
+  grpcServer := grpc.NewServer()
+  pb.RegisterGroupContributionsServiceServer(grpcServer, &groupContributionsServer{})
+  
+  log.Println("Starting gRPC server on port 50051...")
+  if err := grpcServer.Serve(lis); err != nil {
+    log.Fatalf("failed to serve: %v", err)
+  }
 }
 
 // CLIENT IMPLEMENTATION
 package main
 
 import (
-	"context"
-	"log"
-	"time"
-	
-	pb "gitlab.com/api/group/contributions/v1"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
+  "context"
+  "log"
+  "time"
+  
+  pb "gitlab.com/api/group/contributions/v1"
+  "google.golang.org/grpc"
+  "google.golang.org/grpc/credentials/insecure"
 )
 
 func main() {
-	conn, err := grpc.Dial("localhost:50051", grpc.WithTransportCredentials(insecure.NewCredentials()))
-	if err != nil {
-		log.Fatalf("did not connect: %v", err)
-	}
-	defer conn.Close()
-	
-	client := pb.NewGroupContributionsServiceClient(conn)
-	
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
-	defer cancel()
-	
-	// Example of a first page request
-	resp, err := client.GetGroupContributions(ctx, &pb.GetGroupContributionsRequest{
-		FullPath:      "gitlab-org",
-		StartDate:     "2025-02-06",
-		EndDate:       "2025-02-13",
-		NextToken:     "", // Empty for initial request
-		PreviousToken: "", // Empty for initial request
-		PageSize:      50 
-	})
-	
-	if err != nil {
-		log.Fatalf("could not get group contributions: %v", err)
-	}
-	
-	// Process the response, e.g.:
-	log.Printf("Group ID: %s", resp.Group.Id)
-	log.Printf("Number of contributors: %d", len(resp.Group.Contributions.Nodes))
-	
-	// Access pagination info
-	log.Printf("Next page token: %s", resp.PageInfo.NextToken)
-	log.Printf("Previous page token: %s", resp.PageInfo.PreviousToken)
-	log.Printf("Has next page: %v", resp.PageInfo.NextToken != "")
-	log.Printf("Has previous page: %v", resp.PageInfo.PreviousToken != "")
-	
-	// Store tokens for navigation
-	nextPageToken := resp.PageInfo.NextToken
-	
-	// Example of requesting the next page (if available)
-	if nextPageToken != "" {
-		nextPageResp, err := client.GetGroupContributions(ctx, &pb.GetGroupContributionsRequest{
-			FullPath:      "gitlab-org",
-			StartDate:     "2025-02-06",
-			EndDate:       "2025-02-13",
-			NextToken:     nextPageToken, // Use next token from previous response
-			PreviousToken: "", // Not needed when navigating forward
-			PageSize:      50 
-		})
-		
-		if err != nil {
-			log.Fatalf("could not get next page: %v", err)
-		}
-		
-		// Process next page...
-		log.Printf("Next page - contributors: %d", len(nextPageResp.Group.Contributions.Nodes))
-	}
-	
-	// Access individual contributions
-	for i, node := range resp.Group.Contributions.Nodes {
-		log.Printf("Contributor #%d: %s", i+1, node.User.Name)
-		log.Printf("  Total group events: %d", node.TotalEvents)
-		// And so on...
-	}
+  conn, err := grpc.Dial("localhost:50051", grpc.WithTransportCredentials(insecure.NewCredentials()))
+  if err != nil {
+    log.Fatalf("did not connect: %v", err)
+  }
+  defer conn.Close()
+  
+  client := pb.NewGroupContributionsServiceClient(conn)
+  
+  ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+  defer cancel()
+  
+  // Example of a first page request
+  resp, err := client.GetGroupContributions(ctx, &pb.GetGroupContributionsRequest{
+    FullPath:      "gitlab-org",
+    StartDate:     "2025-02-06",
+    EndDate:       "2025-02-13",
+    NextToken:     "", // Empty for initial request
+    PreviousToken: "", // Empty for initial request
+    PageSize:      50 
+  })
+  
+  if err != nil {
+    log.Fatalf("could not get group contributions: %v", err)
+  }
+  
+  // Process the response, e.g.:
+  log.Printf("Group ID: %s", resp.Group.Id)
+  log.Printf("Number of contributors: %d", len(resp.Group.Contributions.Nodes))
+  
+  // Access pagination info
+  log.Printf("Next page token: %s", resp.PageInfo.NextToken)
+  log.Printf("Previous page token: %s", resp.PageInfo.PreviousToken)
+  log.Printf("Has next page: %v", resp.PageInfo.NextToken != "")
+  log.Printf("Has previous page: %v", resp.PageInfo.PreviousToken != "")
+  
+  // Store tokens for navigation
+  nextPageToken := resp.PageInfo.NextToken
+  
+  // Example of requesting the next page (if available)
+  if nextPageToken != "" {
+    nextPageResp, err := client.GetGroupContributions(ctx, &pb.GetGroupContributionsRequest{
+      FullPath:      "gitlab-org",
+      StartDate:     "2025-02-06",
+      EndDate:       "2025-02-13",
+      NextToken:     nextPageToken, // Use next token from previous response
+      PreviousToken: "", // Not needed when navigating forward
+      PageSize:      50 
+    })
+    
+    if err != nil {
+      log.Fatalf("could not get next page: %v", err)
+    }
+    
+    // Process next page...
+    log.Printf("Next page - contributors: %d", len(nextPageResp.Group.Contributions.Nodes))
+  }
+  
+  // Access individual contributions
+  for i, node := range resp.Group.Contributions.Nodes {
+    log.Printf("Contributor #%d: %s", i+1, node.User.Name)
+    log.Printf("  Total group events: %d", node.TotalEvents)
+    // And so on...
+  }
 }
 ```
 
