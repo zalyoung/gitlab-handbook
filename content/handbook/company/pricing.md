@@ -121,7 +121,7 @@ How we make decisions on a day-to-day basis is specified on our [stewardship pag
 
 | Self-Managed/SaaS tier | Free | Premium | Ultimate |
 | ---------- | ------ | ------ | ---- |
-| Per user per month | $0 | $29 | $99 |
+| Per user per month | $0 | $29 | Contact Sales |
 | [Who cares most about the feature](/handbook/company/pricing/#buyer-based-open-core) | Individual Contributors | Directors | Executives |
 | Main competitor | GitHub Team | GitHub Enterprise | Veracode, Checkmarx |
 | Type of sell | No sell | Benefit/solution | Transformation |
@@ -267,7 +267,7 @@ We use the same names for SaaS and Self-Managed tiers because:
 
 ## Hybrid sales model
 
-There is a big price difference between the different tiers (0$, $29, $99 per user per month, a price difference of infinite, 5x). For GitLab Inc., the majority of revenue comes from large enterprises buying the top two tiers.
+There is a big price difference between the different tiers (0$, $29, custom per user per month, a price difference of infinite, 5x). For GitLab Inc., the majority of revenue comes from large enterprises buying the top two tiers.
 
 Most companies in a similar situation would focus only on the highest tiers.
 But we want to make a our hybrid model work for the following reasons:
