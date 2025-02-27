@@ -23,6 +23,14 @@ This design document proposes a new architecture for measuring and tracking user
 
 The system will help measure the reliability and performance of key user interactions and provide valuable data for both operational excellence and product decisions.
 
+We intend to have an aligned definition of User Journey across the organization. Here's a graph that illustrates how the different parties are connected to this idea:
+
+![User Journeys Chart](./User%20Journeys%20for%20Quality.svg)
+
+[graph src](https://lucid.app/lucidchart/e911c437-dbdf-4540-bf44-23962e048661/edit)
+
+PS: The graph is still a work in progress. The image you see might be already outdated. Please refer to the src link to the up-to-date version.
+
 ## Motivation
 
 While GitLab has robust service-level metrics through our SLI framework, we currently lack a systematic way to track and measure complete user journeys that span multiple services. Our existing SLIs excel at measuring individual service performance but cannot effectively track the success/failure rate and performance of end-to-end user interactions. This gap makes it challenging to:
