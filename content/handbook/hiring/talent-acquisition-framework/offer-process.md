@@ -113,10 +113,10 @@ Talent Acqusition partners with hiring managers in order to advise on best pract
 **Additional Process for Engineering**
 Recruiters advise and partner with hiring manager to construct compensation package for candidates. Once details are confirmed, there are a few additional steps specifically for Engineering offers starting in FY25 Q3 as follows:
 
-1. For any offers above 0.85 compa ratio, recruiter and hiring manager will partner with TA Director and Engineering VP to confirm candidate position in range. To provide the VP with a snapshot of the proposed base and equity and how this compares to the average internal salary, the recruiter will be required to complete the [0.85+ VP Approval Template](https://docs.google.com/document/d/1VuunhZFT40d86iOPzsq9PtbobBTelCiKgZyJDepyf-M/edit) and share with the TA Director. Please make sure you add the relevant Finance Business Partner and PBP to the document for visibility. Once approved, recruiter to move through next steps - offer approval process.
+1. For any offer with a compa-ratio above 0.80, flag this to the TA Manager or Director. The TA Manager/Director will then seek VP approval via Slack for all such cases. If an offer exceeds 0.85 compa-ratio, you must first complete the [Exception Form](https://docs.google.com/document/d/1VuunhZFT40d86iOPzsq9PtbobBTelCiKgZyJDepyf-M/edit) and submit it to the TA Manager/Director, who will then obtain approval from the corresponding VP and CTO. Once approved, recruiter to move through next steps - offer approval process.
     - When creating the offer in Greenhouse, add a link to the 0.85+ VP Approval Template in the `Comp Calc Link & Additional Context` section
-1. Recruiter to add compa-ratio information in [Pod Squad](https://docs.google.com/spreadsheets/d/1zGKpr_JUYpW_PrDKF8FVsJtvlCGpCBaFHmUuU48zVRw/edit#gid=2102749819)
-1. For any offers at or below 0.85 compa ratio, recruiter to move through next steps - offer approval process.
+1. Recruiter to add compa-ratio information in [Pod Squad](https://docs.google.com/spreadsheets/d/1zGKpr_JUYpW_PrDKF8FVsJtvlCGpCBaFHmUuU48zVRw/edit#gid=2102749819) and the offer form
+1. For any offers at or below 0.80 compa-ratio, recruiter to move through next steps - offer approval process.
 
 ### Offer Approval Process
 
