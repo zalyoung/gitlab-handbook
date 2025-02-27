@@ -1,46 +1,59 @@
 ---
-title: Product Development Flow
+title: Product Development
 ---
 
 This section of the handbook is for shared Product and Engineering content.
 For any content wholly owned by only one division, please use the relevant sections: [Product](/handbook/product/) or [Engineering](/handbook/engineering/).
 
-## R&D Roles and Responsibilities
+## Product Development Roles and Responsibilities
 
-Successful product development requires and demands a unified commitment to shared outcomes. The entire team must collectively embrace responsibility for the positive user impact. Every mature and successful team requires team members to pay attention to and incorporate their expertise to cover critical responsibilities within the team. These responsibilities are covered by leads, who serve as primary orchestrators and focal points. They are not meant to be sole executors of their respective areas, but are more serving as "go-to" person and all leads are responsible for:
+Successful product development requires and demands a unified commitment to shared outcomes across team members. The entire team must collectively embrace responsibility for the delivery of positive user impact, aligned to our GitLab value of delivering [Results for Customers](/handbook/values/#results).
 
-- Maintaining  the big picture view of their respective areas
-- Ensuring nothing falls through the cracks
-- Driving consistency in approach and standards
-- Facilitating collaboration and cross-pollination of ideas
-- Taking ultimate accountability for their domain while promoting shared responsibility
-- Acting as escalation points when issues arise
-- Coordinating across different stakeholders and teams
-- Championing best practices and continuous improvement in their areas
+### Leads and their Responsibilities
 
-1. The responsibilities needed coverage in each team are:
-   1. Product Lead: Represents the customer's needs, understands the business value associated with those needs, and translates the needs and value into a why and what needs to be built. The result is a prioritized set of requirements and definition of metrics and what success looks like. This individual also provides critical input about the quality bar and drives the definition of acceptance criteria that ensures positive user experience and owns the landing of the defined feature.
-   1. Technical Lead:Guides architectural decisions, assists in breaking down requirements into technical work needed and decides on the "How". Then provides guidance and oversight on implementation. Technical lead also provides input on the definition of done and input on the quality targets, testing & validation strategies.
-   1. Delivery Lead: individual who facilitates team processes, removes obstacles, defines the implementation schedule, and owns the performance against implementation schedules. They also ensure that quality of outcome is explicitly included in the discussion and regularly revisited and evaluated.
-   1. Resource Lead: individual who manages individual and team performance, is responsible for team sizing and composition (seniority) and ensures the team has the skills and the support it needs.
-   1. UX Lead: individual who ensures exceptional user experience of the product from planning through implementation where there is a direct product interface with the end user
-   1. All these responsibilities blend together to form the team output and create a  joint quality outcome for the customer and they all have to be covered to achieve these good outcomes.
-1. There is a distinction between a role (such as Product Manager, Engineering Manager) and a lead responsibility. While roles like Product Manager and Engineering Manager often align with specific leadership responsibilities, it's important to understand that these responsibilities aren't exclusive to the roles. An individual with a Product Manager "role" often fulfills the "Product Lead" responsibility on a team, but they have other critical contributions beyond that specific role. In some cases for products  are consumed internally and don't directly interface with an end customer, the "Product Lead" role may be fulfilled by a Technical IC or an Engineering Manager.
-   - An individual with an Engineering Manager "job" often covers multiple responsibilities simultaneously, for example - an Engineering Manager may fulfill some or all of the Technical Lead, Delivery Lead, and Resource Lead roles
-1. Thesis: the optimal coverage of these responsibilities across Product and Engineering Divisions is as follows:
-   - Product Division is usually covering the responsibilities of :
-     - Product Lead - note: there can be exceptions here, especially in the infrastructure area.
-     - UX Lead
-   - Engineering Division is usually covering the responsibilities of:
-     - Technical Lead
-     - Delivery Lead
-     - Resource Lead
-   - Historically, Delivery Lead responsibilities have seen the greatest inconsistency in allocation over Product Manager vs Engineering Manager roles.
-1. It is important to emphasize that there is no winner on a loosing team!. The whole team owns the outcomes, and responsibilities assigned to a subset of the team are not meant to install rigid boundaries. One individual can cover multiple areas of responsibility on behalf of a team:
-   - Ex: Technical Lead may serve as the Delivery Lead
-   - Ex: Delivery Lead may also serve as Resource Lead for the team
-1. The exact needs that a team has of specific responsibilities may differ, based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc.
-1. Key is ensuring that each product delivery team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
+With a foundation of shared responsibility for delivering results, each team member is accountable to ensure their expertise is leveraged to cover critical responsibilities within the team. These critical responsibilities are covered by **_leads_**, who serve as primary orchestrators and focal points for a responsibility area. This does not mean a lead is the sole executor of their responsibility area, rather they are serving as a "go-to" person with the following expectations:
+
+- Maintain the big picture view of their respective area(s)
+- Ensure nothing falls through the cracks
+- Drive consistency in approach and standards
+- Facilitate collaboration and cross-pollination of ideas
+- Take ultimate accountability for their domain while promoting shared responsibility
+- Act as escalation points when issues arise
+- Coordinate across different stakeholders and teams
+- Champion best practices and continuous improvement in their areas
+
+Within each product development team, the following responsibilities require coverage:
+
+1. **Product Lead**: Represents the customer's needs, understands the business value associated with those needs, and translates the needs and value into the "Why" and "What" needs to be built. The result is a prioritized set of requirements and definition of metrics and what success looks like for the team. This individual also provides critical input about the quality bar and drives the definition of acceptance criteria that ensures positive user experience and owns the landing of the defined feature.
+1. **Technical Lead**: Guides architectural decisions, assists in breaking down requirements into technical work needed and decides on the "How". Then provides guidance and oversight on implementation. Technical lead also provides input on the definition of done and input on the quality targets, testing & validation strategies.
+1. **Delivery Lead**: Facilitates team processes, removes obstacles, defines the implementation schedule, and owns the performance against implementation schedules. They also ensure that quality of outcome is explicitly included in the discussion and regularly revisited and evaluated.
+1. **Resource Lead**: Manages individual and team performance. Also responsible for team sizing and composition (seniority) to ensure the team has the skills and support it needs to be successful.
+1. **UX Lead**: Ensures exceptional user experience of the product from planning through implementation where there is a direct product interface with the end user.
+These responsibilities across Product, Technical, Delivery, Resource, and UX all require coverage to ensure that the product development team's output is delivered on target from a quality, usability, and capability standpoint.
+
+### Role vs. Responsibility
+
+There is an important distinction between a role (i.e. Product Manager, Engineering Manager) and a Lead's responsibility area (i.e. Product, Technical, Delivery, Resource, UX). While roles such as 'Product Manager' and 'Engineering Manager' often align with specific leadership responsibilities, their areas of responsibility are not exclusive to their roles.
+
+- Ex: while a team member with the 'Product Manager' role often fulfills the Product Lead responsibilities, they have other critical contributions beyond the demarcations of the Product Lead role. In some situations where a product are consumed internally and may not directly interface with end customers, the Product Lead role may be fulfilled by a Technical Individual Contributor (IC) or an Engineering Manager.
+- Ex: a team member with an 'Engineering Manager' role often covers multiple responsibilities simultaneously - an Engineering Manager may fulfill some or all of the Technical Lead, Delivery Lead, and Resource Lead roles based upon the needs of their specific team
+
+With the caveats above, the general pattern we see within GitLab product development is:
+
+- Product Division usually covers the responsibilities of:
+  - Product Lead - note: there can be exceptions here, especially in the infrastructure area.
+  - UX Lead
+- Engineering Division usually covers the responsibilities of:
+  - Technical Lead
+  - Delivery Lead
+  - Resource Lead
+
+Within GitLab product development teams, we believe that "we win or lose as a team" - wins are team wins, and losses are team losses. The whole team owns the outcomes, and responsibilities assigned to a subset of the team are intended to drive execution excellence, and not meant to install rigid boundaries. One individual can cover multiple areas of responsibility on behalf of a team:
+
+- Ex: Technical Lead may serve as the Delivery Lead
+- Ex: Delivery Lead may also serve as Resource Lead for the team
+
+Lastly, the specific needs that a product development team has for a specific responsibility may differ based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc. The key is ensuring that each product development team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
 
 ### Key Events & Activities Mapping into Responsibilities
 
