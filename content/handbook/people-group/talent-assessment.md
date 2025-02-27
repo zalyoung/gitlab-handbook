@@ -758,7 +758,7 @@ Team members identified as key talent must be assessed at minimum Performing and
 
 Although Performance and Growth Potential are a consideration in the Key Talent selection process, they are not the only criteria used to determine the designation and should not be used in isolation. It is important to look holistically at the Key Talent Criteria outlined above when determining who qualifies as Key Talent on your team.
 
-"TNTR" (Too New to Rate) team members can be considered key talent but this would be an exception. In order for a "TNTR" team member to be identified as key talent they must have specialized skills that drive a significant impact to business results. 
+"TNTR" (Too New to Rate) team members can be considered key talent but this would be an exception. In order for a "TNTR" team member to be identified as key talent they must meet the criteria above and be ramping successfully in their new role.
 
 We exclude team members rated "TNTR" when we calculate our Key Talent distribution across the company. E.g. Team members designated Key Talent during Calibration *divided by* Talent Assessment eligible team members (excluding TNTR) = Key Talent Distribution %
 
