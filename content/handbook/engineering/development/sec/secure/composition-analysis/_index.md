@@ -114,6 +114,7 @@ These items must be triaged continuously throughout the milestone which means th
 #### Responsibilities - Maintainership
 
 1. Work with community contributors to help drive [their merge requests](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=group%3A%3Acomposition%20analysis&label_name[]=Community%20contribution) to completion (more information on [community contributions triaging process](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)).
+1. Run the [License Alias Generator](https://gitlab.com/gitlab-org/security-products/license-db/license-alias-generator/-/tree/main?ref_type=heads) tool to update the list of [known alias](https://gitlab.com/gitlab-org/security-products/license-db/license-processor/-/blob/main/data/aliases.go?ref_type=heads). You can find instructions [here](https://gitlab.com/gitlab-org/security-products/license-db/license-alias-generator/-/tree/main?ref_type=heads#workflow). This action should be performed once during a milestone.
 1. Check for new versions of languages or package managers that we support, or deprecation / removal of support for the same and notify Engineering Manager and Product Manager via issue.
 1. Check for new versions of our dependencies (not related to security):
     1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner)).
@@ -519,5 +520,7 @@ The following table presents the various Gitlab projects that can generate slack
 | [Gemnasium](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium)          | `#g_ast-composition-analysis-alerts`   |                                                                                                                          |
 | [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment)         | `#g_ast-composition-analysis-alerts`  | Multiple alerts can be generated mainly from scheduled pipelines for exporting or feeding license/advisory/epss/kev data |
 | [Container Scanning](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning) | `#f_container_scanning` | Failures on default branch                                                                                               |
-| [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)  | `#f_operational_container_scanning` | Failures on default branch                                                                                               |
-| [trivy-db-glad](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-glad)      | `#g_ast-composition-analysis-alerts`  | Failures on default branch                                                                                               |
+| [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)  | `#f_operational_container_scanning` | Failures on default branch   |
+| [trivy-db-glad](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-glad)      | `#g_ast-composition-analysis-alerts`  | Failures on default branch |
+| [Dependency Scanning Analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/dependency-scanning)  | `#g_ast-composition-analysis-alerts`  | Failures on default branch |
+| [Dependency Scanning Component](https://gitlab.com/components/dependency-scanning/)  | `#g_ast-composition-analysis-alerts`  | Failures on default branch  |

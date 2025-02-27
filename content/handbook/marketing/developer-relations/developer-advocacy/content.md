@@ -81,6 +81,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [GitLab Duo Self-Hosted](https://gitlab.navattic.com/gitlab-duo-self-hosted) |  GitLab Duo | 2025-02-13 | @iganbaruch |
 | [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2025-01-27 | @iganbaruch |
 | [Idea to MR](https://gitlab.navattic.com/duo-q) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Java modernization](https://gitlab.navattic.com/duo-q-transform) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
@@ -100,6 +101,7 @@ While the [product tours](#product-tours) provide guided walkthroughs with navig
 
 | Title | Area | Last updated |DRI |
 |-------|------|--------------|-----|
+| [Compliance Frameworks](https://gitlab.navattic.com/compliance-internal) | DevSecOps Platform | 2025-02-20 | @iganbaruch |
 | [Idea to MR](https://gitlab.navattic.com/duo-q-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
 | [Java modernization](https://gitlab.navattic.com/duo-q-transform-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast-internal) | DevSecOps Platform | 2024-09-24 | @iganbaruch |
@@ -232,7 +234,7 @@ For documentation and community:
 For social media:
 
 1. Draft some copy for sharing your content on social media. See [Content Sharing](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content) for tips and an overview of different platforms. Review the [message tips](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips) for additional engagement ideas, e.g. emojis.
-1. Suggest your content as a story on Bambu so other GitLab team members can also share it. [Details on how to suggest content on Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-bambu).
+1. Suggest your content as a story on EveryoneSocial so other GitLab team members can also share it. [Details on how to suggest content on EveryoneSocial](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-everyonesocial).
 1. After posting your content on social media, share a link in the [`#social-media-action`](https://gitlab.slack.com/archives/C01AZ9C8Z4G) Slack channel to request promotion from the social media team.
 
 For GitLab teams:

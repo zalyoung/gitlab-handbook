@@ -10,15 +10,14 @@ Our mission is to deliver and maintain a world-class observability offering and 
 
 ## Common Links
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                             |
-| **GitLab.com**                 | `@gitlab-org/scalability/observability`                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Issue Trackers**             | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                      |
-| **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                         |
-| **Project Slack Channels**     | [#observability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/>                                                                                                                                                                                                                                                                                                                    |
-| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
-| **Documentation**              | Technical documentation is on the [Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/)                                                                                                                                                                                                                                                                                                            |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **GitLab.com**                 | `@gitlab-org/production-engineering/observability`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Issue Trackers**             | [Observability Tracker](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                                                                                                                                              |
+| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#g_infra_observability_alerts](https://gitlab.slack.com/archives/g_infra_observability_alerts) (Observability Slack Alerts), <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Documentation**              | [Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/)                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 ## Team Members
 
@@ -26,7 +25,7 @@ The following people are members of the Observability team:
 
 {{< team-by-manager-slug "liam-m" >}}
 
-The team is located all over the world in [different timezones](https://timezonewizard.com/p4-6e9).
+The team is located all over the world in [different timezones](https://timezonewizard.com/ca-m2n).
 
 ## Technical principles, goals and responsibilities
 
@@ -106,14 +105,14 @@ For example, instead of answering specific questions from team members individua
 The group is an owner of several performance indicators that roll up to the Infrastructure department indicators:
 
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
-1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/) which generates capacity warnings to prevent incidents.
+1. [Capacity Planning](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/capacity-planning/introduction/) uses capacity warnings to prevent incidents.
 
 These are combined to enable us to better prioritize team projects.
 
 An overly simplified example of how these indicators might be used, in no particular order:
 
 * Service Maturity - provides detail on how trustworthy the data we received from observability stack in relation to the service; the lower the level the more focus we need to improve the service observability
-* Tamland reports - Provides a forecast for a specific service
+* Capacity Planning - Provides a forecast for a specific service
 
 Between these different signals, we have a relatively (im)precise view into the past, present and future to help us prioritise scaling needs for GitLab.com.
 
@@ -122,11 +121,13 @@ Between these different signals, we have a relatively (im)precise view into the 
 The team are responsible for provisioning access to the services listed below, as per the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file.
 
 1. **Kibana** is accessed through Okta. Team members need to be in either of the following Okta groups: `gl-engineering` (entire Engineering department); `okta-kibana-users`. The latter group is used to manage access for team members outside of Engineering on an ad-hoc basis ([context](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/958)). Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28421)). If the access request is approved, the provisioner should add the user to [this group](https://groups.google.com/a/gitlab.com/g/okta-kibana-users), which will then automatically sync to its namesake group in Okta.
-1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions.
+1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions to the instances they require access to. 
+1. **Grafana** is accessed through Okta. The login screen is availabile [here](https://dashboards.gitlab.net).  Any GitLab team member can access Grafana.  Provisioning and deprovisioning is handled through Okta.
 
 ## How we work
 
-We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
+We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work).
+In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Observability.
 
 ### Project Sizing
 
@@ -134,7 +135,7 @@ Projects will be staffed by at least three engineers from the team, and preferab
 
 ### Issue management
 
-While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.
+While we mainly operate from the [observability issue tracker](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues), there are other projects under the `gl-infra` group team members are working on.
 Hence we strive to use group-level labels and boards to get the entire picture.
 
 #### Labels
@@ -156,9 +157,9 @@ We unassign ourselves from issues we are not actively working on or planning to 
 
 #### Boards
 
-The Scalability::Observability team's [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track the progress of ongoing work.
+The Observability team's [issue boards](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/boards/) track the progress of ongoing work.
 
-We use [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) to track the progress of planned and ongoing work.
+We use [issue boards](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/boards/) to track the progress of planned and ongoing work.
 Refer to the Scalability group [issue boards section](/handbook/engineering/infrastructure/team/scalability/#issue-boards) for more details.
 
 | **Planning** | **Building**|
@@ -173,11 +174,7 @@ A team-level retrospective issue is created every 6 weeks, allowing the team to 
 
 ### Updates in Slack
 
-In order to stay informed with everyone's immediate topics, we post regular status updates in our Slack channel.
-
-These updates include whatever the team member is currently working on and dealing with, for example consider including current focus area, general work items, blockers, in-flight changes, learnings, side tracks, upcoming time off and other relevant information.
-
-There is no strict frequency for posting updates, although we strive to make updates at least once per week.
+We are using [GeekBot](https://app.geekbot.com/dashboard/w/184476) for weekly updates, which go to the #g_observability channel.
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
 

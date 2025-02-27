@@ -28,5 +28,5 @@ Our department consists of:
 
 ## Common Links
 
-- [GitLab Security Department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
-- [GitLab Security Operations Sub-department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)
+- [GitLab Security Division Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
+- [GitLab Security Operations Department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)

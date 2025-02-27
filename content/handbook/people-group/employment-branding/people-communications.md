@@ -48,37 +48,35 @@ If asking for communications to lead communications when preparing key messages 
 
 1. Share the need for communications support by completing a [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit?usp=sharing) as completely as possible and share the need with a member of our People Communications & Engagement team.
     - These requests can be shared on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
-    - Kayla Golden, Senior Program Manager, People Communications & Engagement
-    - Devin Rogozinski, Senior Director, Talent Brand & Engagement
+    - Devin Rogozinski, Senior Director, People Strategy & Engagement
 1. Upon receiving the project brief, our People Communications & Engagement team will socialize the need with the #comms-asks channel to determine who will be a DRI or partner from the People Communications & Engagement team or the broader talent & engagement team assigned to the project.
 1. A [communications plan](https://docs.google.com/document/d/15QN0c6THE2wo_MGkyDi84Dhu3WyiY5p3MJFWfbWUlFQ/edit) including release timing, cadence, and appropriate channels will be developed.
     1. At least ~48 hours advance notice is needed to plan a single message being shared
     1. For more complex internal communications requests, we request at least ~7-10 business days advance notice to effectively collaborate together on a communications plan. We will opt to move more methodically depending on the scope and timeliness of the communication.
 1. To expedite this process, you can create an initial communications plan [using this template](https://docs.google.com/document/d/15QN0c6THE2wo_MGkyDi84Dhu3WyiY5p3MJFWfbWUlFQ/edit).
     1. Once you have created the initial communications plan, share it with the People Communications & Engagement team on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
-       - Kayla Golden, Senior Program Manager, People Communications & Engagement
-       - Devin Rogozinski, Senior Director, Talent Brand & Engagement
+       - Devin Rogozinski, Senior Director, People Strategy & Engagement
 
 ## People Communications & Engagement channels
 
 We use a variety of channels to communicate with various audiences within GitLab. The top channels we use, the purpose of each of these channels, and how everyone can contribute to each is as follows.
 
 1. **"While You Were Iterating" Newsletter...** Communicating new updates that are important for all team members to be aware of on a twice a month basis.
-    - 🤝 To contribute: Write a comment in the [most current newsletter GitLab issue](https://gitlab.com/gitlab-com/internal-communications/newsletter/-/issues) and tag `@kaylagolden`. Things to note when sending over content:
+    - 🤝 To contribute: Write a comment in the [most current newsletter GitLab issue](https://gitlab.com/gitlab-com/internal-communications/newsletter/-/issues) and tag `@cmotes`. Things to note when sending over content:
         - Is it globally relevant to more than 75% of GitLab team members?
         - Is this something all team members should know about and/or action?
         - Does it align with our GitLab values?
         - Make sure there is a team member action included
         - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team's background and knowledge - this is helpful when reviewing and finalizing the messaging.
 1. **Manager README Monthly Newsletter:** Monthly proactive communication to people managers containing: what's coming up, reminders of what's important, guidance on team member talking points and what actions to take
-    - 🤝 To contribute: Write a comment in the most current manager comms GitLab issue and tag @kaylagolden. Things to note when sending over content:
+    - 🤝 To contribute: Write a comment in the most current manager comms GitLab issue and tag @cmotes. Things to note when sending over content:
         - Is it globally relevant to more than 75% of GitLab People Managers?
         - Is this something all people managers should know about and/or action?
         - Does it align with our GitLab values?
         - Make sure there is a people manager action included
         - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team's background and knowledge - this is helpful when reviewing and finalizing the messaging.
 1. **All-team-member Slack channels (#company-fyi and #company-fyi-private):** Timely important and action-oriented important updates to all team members
-    - 🤝 To contribute: Read the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that's the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @kaylagolden.
+    - 🤝 To contribute: Read the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that's the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @devinrogo.
 1. **GitLab Handbook:** For permanent and non-confidential updates, we consider how information should live in the GitLab Handbook.
 1. **GitLab Assembly:** All-company synchronous time to hear from GitLab leaders and answer team member questions
     - 🤝 To contribute: Content creation is determined by the People Comms & Engagement Team with review by members of the E-Group.

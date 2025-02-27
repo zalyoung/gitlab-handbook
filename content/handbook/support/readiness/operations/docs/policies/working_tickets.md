@@ -157,7 +157,7 @@ information:
   - The GitLab.com account associated to the requester's email address should
     have listed the secondary email as verified. You can check this via the User
     Lookup app. To add secondary email to GitLab.com account, they can follow this
-    [documentation](https://docs.gitlab.com/ee/user/profile/#add-emails-to-your-user-profile)
+    [documentation](https://docs.gitlab.com/user/profile/#add-emails-to-your-user-profile)
 - For Self Managed and GitLab Dedicated Users:
   - The ticket needs to be submitted from the email address they wish to have
     added to their existing profile

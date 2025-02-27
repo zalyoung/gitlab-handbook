@@ -80,8 +80,6 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 
 [Developer Experience Risk Mapping](/handbook/engineering/infrastructure-platforms/developer-experience/risk-mapping/)
 
-[Development ops risk mapping](/handbook/engineering/development/ops/package/risk-map/)
-
 ## MR acceptance checklist
 
 <!-- blank line -->

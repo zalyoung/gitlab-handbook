@@ -42,7 +42,7 @@ Benchmarking review is an internal process completed by the Total Rewards team t
 1. Ensure the IC, Manager, Director, and Sales benchmark tabs have been updated with our currently used job codes.
 1. Ensure formulas are in place for each row of the "Radford/Comptryx Job Codes" tab and that the median of the 50th and 75th are properly pulling into the benchmarks tabs.
 1. Use the `Job Codes` sheet to refresh the current FY21 benchmarks. Compare our current benchmarks to the median of the 50th and 75th of the survey data (depending on the role) and make any recommendations based on market fluctuations.
-1. Once the new benchmarks are reviewed and approved, these are updated in the [handbook](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/-/blob/master/data/job_families.yml).
+1. Once the new benchmarks are reviewed and approved, these are updated in the [handbook](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/-/blob/main/data/job_families.yml).
 
 ### Location Factor Review
 

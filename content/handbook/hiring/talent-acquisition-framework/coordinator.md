@@ -103,17 +103,82 @@ If the candidate submits the form, all the CES team members will receive an emai
 
 1. Forward the form to CES desk (ces@gitlab.com).
 2. Label the ticket as “accommodation request” and assign to the respective CES. Type in “accesschecktodo” in the comments section of the issue so the next steps are listed.
-3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews, Additional time for technical interviews, and Multi-Day interviews.
+3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews and Multi-Day interviews.
 4. Schedule the interview based on the recruiter’s scheduling request.
-5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning or "adtime" for an additional interview time. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
+5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
 7. Close the issue once the scheduling is completed.
 
 #### ModernLoop
 
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book
+interviews. Prelude is integrated with Greenhouse via API. DRI: Candidate
+Experience Team
+
+## Logging in to ModernLoop
+
+To log in select the ModernLoop tile in Okta and use SSO.
+
 Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zendesk.com/hc/en-us/articles/18013814809236-ModernLoop-Chrome-Extension) installed on your Chrome Browser.
 
-#### If a Candidate Withdraws from the Hiring Process
+## How to schedule interviews via ModernLoop
+
+- Go to 'My Tasks' using the task bar on the left 
+- In the 'Action required' bucket, click on the candiadte who has the label 'ready to Schedule'
+- A side window will open, scroll down and click the 'Schedule now' button.  The page will open to the candidate's availability.  On the right press 'Next: Setup Interviews' button.
+- Check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
+- ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
+- To select a schedule option click on 'use schedule'on the top right corner of the option card. 
+- The location will be automatically selected as Zoom and a zoom room selected. 
+- The calenders are 'Candidate Interview Calendar' for candidate events and 'Interview calendar' for Internal events. 
+- Select the Email to canditate template from dropdown list. 
+- If the interview requires a brief, you can include this by selecting 'Add attachment'
+- For the interviewer invite, select the correct template from the dropdown list 
+- Review all details and then press 'Confirm and send' 
+- If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
+
+## How to add or replace an interviewer for a scheduled interview
+
+- If you wish to replace or add an extra interviewer to a scheduled interview, in 'My tasks' go to scheduled, click on the scheduled interview.  
+- When the side page opens with the interview details, click on the 3 dots on the interview tile and select 'Edit Interview'.  
+- To add an interviewer select 'add interviewer' and type in the name of the new interviewer. 
+- To remove an interviewer select the three dots next to their name and select remove interviewer. 
+
+## How to set up Interviewer Modules (Interviewer pools & training plans)
+
+A module is modern loop is an interviewer pool, which also allows for trainees to move through shadows/reverse shadows.  
+
+To set up a module take the following steps: 
+
+- Go to Modules on the task bar on the left 
+- Click on 'New Module'
+- Give the Module a name, select the training plan (typically 2 shadow and one reverse shadow), and select role-by-role, then create 
+- Click on add interviewers and then type in the names of the Trained interviewers for the module.  Then select fully trained and the interviewers will be added to the module. 
+- To add the trainees click on 'Add interviewers' in the top right corner.  Type in the names of the trainee interviewers and then select 'Trainee'
+
+To delete a Module, click into the Module, then go to settings and delete module. 
+
+To assign a module to an interview plan: 
+
+- Go to jobs and select the job which you want to use the interviewer module for. 
+- Select the stage tab and select the interview stage required.  
+- The interview plan will pull up the interviews inthis stage from Greenhouse.  Click on 'Add Interviewer' and then in the box type the name of the module you want to use.  
+
+## How to schedule a technical interview
+
+- If the technical interview requires a interviewer module, check in the job interview plan that the correct interviewer module is selected.  
+- Continue to schedule the interview using the same steps as for a 1:1 interview. 
+- For the candidate email select the template 'Technical Interview - Candidate confirmation' and add in the technical instructions using the correct text expander snippet. 
+- For interviews which have an MR, select the 'Technical Interview with MR' for internal invites for interviewers. 
+- If there is a shadow interviewer from a Module, ModernLoop will automatically add in a paragraph to let the interviewers know who is the lead and who is the shadow. 
+- Select finish and send. 
+
+## How to update Organization wide settings
+
+NOTE: Only Admins can change organizational settings.
+Organizational settings can be found in the menu on the left hand side of the homepage.
+
+### If a Candidate Withdraws from the Hiring Process
 
 If a candidate emails the CES Service Desk stating they would like to withdraw from the interview process, the CES should respond to the candidate's email (not the Service Desk ticket) and cc the recruiter (if the recruiter isn't already on the email). The CES response should not say anything definite as there may be a chance for the recruiter to reel the candidate back in. A basic response is below:
 
@@ -161,21 +226,6 @@ For additional information on reviewing Background screenings see [this page](/h
 ### Reference Check Forms
 
 Prior to giving an offer, Recruiters are required to request references and other offer-related information by sending a form in the Reference Check stage. There are a few versions of this form available on every job based on the country where the candidate is located. When CES receives a form in the Service Desk, there are 3-4 fields to look at: NYC status, PIAA (Employee Invention Assignment Agreement), Outside Work disclosure, and TMRG requests.
-
-**Japan Background Checks**
-
-Background Checks for hires in Japan will need to be conducted *before* the offer is sent.
-
-Global Reference Check Forms will have a question for hires asking if they are located in Japan. If the candidate selects  "Yes", you will need to perform the following steps:
-
-1. CES service desk receives a ticket indicating that the candidate has submitted Reference Check Process Information-Global. CES will note that the candidate has selected "Yes" for the Japan location question. CES will label that ticket with the "Japan BGC" label.
-1. CES will [initiate the background](coordinator/#initiating-a-background-screening-through-greenhouse) check in the candidates GH profile.
-
-CES will then need to track the request to know when the Background check clears and we can move forward with sending the offer. Please follow the following steps:
-
-1. Set reminders to follow up to see if Background check has cleared and/or reach out to the Background Check specialist at GitLab to confirm.  You can set reminders in the candidates GH profile and/or due dates on your ticket in GitLab.
-1. Once confirmation of background check clearance is received, the offer can then be sent and the Reference Check form ticket can be closed. Normal [offer process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#employment-agreements-for-gitlab-team-members-in-japan) will continue from there.
-1. **Note**: If recruiter has already sent in the contract request ticket for the candidate, please add the "On Hold" label so that you do not send the offer until you have clearance of the background check
 
 **NYC Location**
 
@@ -308,7 +358,7 @@ The People Connect team has an SLA period of 10 working days to onboard an entit
 
 Prominent reasons for urgent hires are Critical Skill Gap / New business opportunities, Equity vesting grant options and Unexpected departures or backfills. CES can access this email under the "Email the team" option in the candidates' Greenhouse profile.
 
-CES Contract Processes
+### CES Contract Processes
 
 Assuming that the [hiring process](/handbook/hiring) went smoothly, now it is time to prepare the applicable contracts. Once the verbal offer is made, an issue will be created via the "email team" option in Greenhouse. The CES will send the contract to the applicant, using DocuSign in Greenhouse. On rare occasion, the CES may have to create the contract outside of Greenhouse using Google Docs; if this is the case, the CES needs to have a manager review the contract for accuracy before sending it out for signature.
 
@@ -680,7 +730,7 @@ When a team member applies for and receives a new position through Greenhouse, a
 Effective dates for a job change letter should be the first (1st) of the month or the sixteenth (16th). For Sales or Sales Development team members, they can only be the first of the month. These effective dates do not need to be on a business day and should be adhered to payroll purposes.
 Please note that JCLs cannot be used if a team member is moving from the Federal, LLC. entity into any other entity **or** any entity that is not Federal, LLC into the Federal, LLC. entity. In those cases, a new contract **must** be issued as there are tax implications to this entity.
 
-If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
+If the team member is making a lateral move where there is no change in compensation, then the start date can be any day of the month.
 
 When generating a job change letter for a PEO, the steps remains the same as outlined below. However, select the JCL template that does not include RSUs, and send the RSU details via DocuSign email.
 

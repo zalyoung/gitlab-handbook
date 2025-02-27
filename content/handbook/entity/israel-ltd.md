@@ -92,7 +92,7 @@ Study Fund contributions continue while on leave, with the exception of unpaid l
 
 ### Meal Card
 
-Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
+Israel Team Members are granted a meal allowance of up to NIS 1100 per month. This amount can be accumulated for up to three months in the future in an amount of up to NIS 1,700. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
 Team Members do not recieve the meal allowance while on unpaid leave.
 

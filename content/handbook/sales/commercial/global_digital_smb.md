@@ -5,9 +5,12 @@ description: "Overview of the Global Digital SMB Sales Model"
 
 ## Global Digital SMB Sales Model
 
-[FY25 Global Digital SMB Highspot Page](https://gitlab.highspot.com/items/65c2b953cdfb65754adda353?lfrm=shp.0)
+- [FY25 Global Digital SMB Highspot Page](https://gitlab.highspot.com/items/65c2b953cdfb65754adda353?lfrm=shp.0)
 
-[FY25 Global Digital SMB All-Hands Deck](https://docs.google.com/presentation/d/1NIznURPvchLXw22X7JMlaAhKcwoiMUCQhIG2TpTGFUw/edit#slide=id.g2b17593787a_0_275)
+- [FY25 Global Digital SMB All-Hands Deck](https://docs.google.com/presentation/d/1NIznURPvchLXw22X7JMlaAhKcwoiMUCQhIG2TpTGFUw/edit#slide=id.g2b17593787a_0_275)
+
+- Abbreviations
+  - cARR: Contracted Annual Recurring Revenue
 
 All members of the Sales, Support, Billing and Deal Desk teams should familiarize themselves with the Global Digital SMB Model.
 The model leverages team-level account alignment so SMB customers have a team of SMB Advocates to assist them. Every SMB Advocate on the team is equipped to work with any SMB customer as the sales point of contact.
