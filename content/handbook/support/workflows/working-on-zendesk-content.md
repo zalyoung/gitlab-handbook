@@ -40,6 +40,7 @@ Macros are [deployed immediately](/handbook/support/readiness/operations/docs/ch
 #### Organizations
 
 Modifications to Zendesk organizations can be made through the use of the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+
 - The Support Super Form will walk you through making your modification. If an option does not appear in the list of available choices, it cannot currently be modified.
 
 To make changes to a Global organization's note you would use [the Zendesk Global Organizations project](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to modify an organizations notes. 
