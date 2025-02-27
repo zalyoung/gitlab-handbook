@@ -34,12 +34,11 @@ These core elements form the foundation for the rest of the success plan and the
 
 Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan. 
 
-
 ### Verifiable Outcomes
 
 Verifiable outcomes are a framework implemented by GitLab's Customer Success (CS) teams to enhance the objectivity and measurability of customer achievements through the GitLab platform. For example think about GitLab and fitness equipment like treadmills. Both are tools purchased with specific goals in mind, but require intentional planning and execution to deliver results. 
 
-##### The Need for Verifiable Outcomes
+#### The Need for Verifiable Outcomes
 
 As post-sale professionals partnering with customers, CS teams must be intentional about guiding customers through:
 
@@ -47,7 +46,7 @@ As post-sale professionals partnering with customers, CS teams must be intention
 - Navigating transformations toward faster, more compliant, and secure software development
 - Ensuring customers realize the return on their investment in GitLab
 
-#### Verifiable Outcomes Framework
+### Verifiable Outcomes Framework
 The verifiable outcomes framework has been created to:
 
 - Enhance the objectivity and measurability of outcomes that customers achieve through GitLab
@@ -55,7 +54,7 @@ The verifiable outcomes framework has been created to:
 - Help customers drive as effectively as possible toward their desired results
 - Ensure customers see a clear return on their investment in GitLab
 
-#### Building on Existing CS Practices
+### Building on Existing CS Practices
 
 GitLab's CS teams have already established a strong foundation by:
 - Understanding customer goals and capturing them in success plans
@@ -66,7 +65,7 @@ GitLab's CS teams have already established a strong foundation by:
 Verifiable outcomes represent the next evolution of these practices to ensure effectiveness and demonstrate value.
 
 
-#### What is a Verifiable Outcome?
+### What is a Verifiable Outcome?
 
 A verifiable outcome must be SMART:
 - **S**pecific
@@ -81,7 +80,7 @@ Additionally, each verifiable outcome must include:
 3. **Business impact**: The effect on the customer's business in their language
 4. **Timeline**: When the outcome will be achieved
 
-#### Benefits of Verifiable Outcomes
+### Benefits of Verifiable Outcomes
 
 1. **Stakeholder Alignment**
    - Builds understanding of expected business value
@@ -99,7 +98,7 @@ Additionally, each verifiable outcome must include:
    - Improves communication of CS value delivery
    - Strengthens CS positioning within GitLab
 
-#### Implementation Process
+### Implementation Process
 
 Verifiable outcomes follow a four-stage process:
 
@@ -123,7 +122,7 @@ Verifiable outcomes follow a four-stage process:
    - Document business impact achieved
 
 
-#### Best Practices and Guidelines
+### Best Practices and Guidelines
 
 When developing verifiable outcomes:
 
@@ -154,9 +153,9 @@ To measure progress and KPIs related to verifiable outcomes:
    - Goal: implement automated measures through the continuous planning framework and/or Gainsight 
    - All objectives must have a status & date to ensure they sync and are counted in reports
 
-#### Examples of Effective and Ineffective Verifiable Outcomes
+### Examples of Effective and Ineffective Verifiable Outcomes
 
-#### Example of Effective VO: CI/CD Pipeline Optimization
+Example of Effective VO: CI/CD Pipeline Optimization
 
 | Baseline Metrics | Success Criteria | Business Impact |
 |-----------------|------------------|-----------------|
@@ -168,19 +167,19 @@ To measure progress and KPIs related to verifiable outcomes:
 
 This example clearly shows the starting point (baseline), specific measurable targets (success criteria), and the business value to be achieved (business impact).
 
-#### Common Pitfalls to Avoid: Ineffective VO Examples
+### Common Pitfalls to Avoid: Ineffective VO Examples
 
-#### Missing Baseline
+### Missing Baseline
 - ❌ "Current process is slow and manual" → No quantifiable measurements
 - ❌ "Takes too long to deploy" → No specific time measurements
 - ❌ "Too many errors" → No error rate baseline
 
-#### Vague Success Criteria
+### Vague Success Criteria
 - ❌ "Make deployments faster" → No specific target
 - ❌ "Improve success rate" → No target percentage
 - ❌ "Reduce manual work" → No specific reduction goal
 
-#### Unclear Business Impact
+### Unclear Business Impact
 - ❌ "Will improve efficiency" → No measurable impact
 - ❌ "Better developer experience" → No concrete benefits
 - ❌ "Implement when ready" → No timeline or milestones
