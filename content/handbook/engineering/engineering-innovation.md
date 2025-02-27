@@ -79,11 +79,19 @@ External innovations are focused on developing new features or enhancements for 
 
 ## Process: Creating and Managing an Innovation
 
-### Step 1: Initiate an Epic
+## Step 1: Communicate with Your Manager
+
+1. Be sure to consult your manager before investing time into an idea. If possible, start by creating a SPIKE issue. 
+1. Demonstrate how your project supports both team objectives and your professional development. 
+1. Additionally, work with your Manager on identifying any other subject-matter-experts that may be attempting to solve the same problem.
+
+Your work may qualify as innovation for our engineering 40% time allocation. For more details on time allotment, see the [GitLab Engineering Handbook](../engineering/_index.md).
+
+### Step 2: Initiate an Epic
 
 - **Create a GitLab Epic:** Start by creating an Epic on the "[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)" board. This will be the central hub for tracking all aspects of your innovation.
 
-### Step 2: Create the Associated Issues
+### Step 3: Create the Associated Issues
 
 Within the Epic, create an issue with the following:
 
@@ -118,7 +126,7 @@ Within the Epic, create an issue with the following:
 
 > **Note:** If your innovation includes a YouTube video via the GitLab Unfiltered channel, it's recommended to mark that video as private until the innovation is ready to be shared with the public.
 
-### Step 3: Maintain Confidentiality
+### Step 4: Maintain Confidentiality
 
 - **Mark as Confidential:** Initially, all related epics and issues should be marked as confidential. This ensures that proofs-of-concepts that do not align with our [Company Strategy](../company/strategy.md) do not get prematurely disclosed.
 
@@ -179,12 +187,6 @@ While both innovation and incubation engineering play crucial roles in GitLab's 
 - **Innovation at GitLab** is geared toward individual or small-team ideas that explore new ways to improve our product and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.
 
 - **Incubation Engineering** (detailed in the [Incubation Engineering Handbook](../engineering/development/incubation/_index.md)) is a more structured process where established teams work on early-stage, high-impact projects. These projects often require dedicated resources and are evaluated with a longer-term perspective, aiming to transition successful proofs-of-concepts into fully supported product areas.
-
-## Communicating with Your Manager
-
-Keep your manager informed on innovation projects through regular, brief check-ins and async status updates on the epic and issues. Demonstrate how your project supports both team objectives and your professional development. Consistent status check-ins increase transparency and visibility of the work and may qualify as innovation for our engineering 40% time allocation.
-
-For more details on time allotment, see the [GitLab Engineering Handbook](../engineering/_index.md).
 
 ---
 
