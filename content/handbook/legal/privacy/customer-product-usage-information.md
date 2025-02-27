@@ -133,7 +133,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab*.
 
-_*GitLab Duo Metrics are not collectd from instances that only power Duo with self-hosted models_.
+**GitLab Duo Metrics are not collectd from instances that only power Duo with self-hosted model*.
 
 *Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the editor extension by our Snowplow collector and then sent to our data warehouse. For Self-Managed instances, first-party Duo Metrics are collected from the editor extension, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
 
