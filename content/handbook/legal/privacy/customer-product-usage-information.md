@@ -131,7 +131,9 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Purpose*: GitLab collects [Snowplow events](/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
 
-*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab.  
+*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab*.
+
+_*GitLab Duo Metrics are not collectd from instances that only power Duo with self-hosted models_.
 
 *Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the editor extension by our Snowplow collector and then sent to our data warehouse. For Self-Managed instances, first-party Duo Metrics are collected from the editor extension, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
 
