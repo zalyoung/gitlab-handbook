@@ -49,7 +49,7 @@ The following people are members of the Dedicated:Switchboard Team:
 
 To engage with the GitLab Dedicated teams:
 
-- [Create an issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new) in the GitLab Dedicated team issue tracker (**Note** The issue tracker will be made public after [work in epic 33 "Considerations for making Dedicated projects public"](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/33) is completed)
+- [Create an issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new) in the GitLab Dedicated team issue tracker
   - For feature requests, use the [feature requests issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md) and fill in the required information
 - When creating an issue, it is not necessary to `@`mention anyone
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
@@ -61,6 +61,20 @@ To engage with the GitLab Dedicated teams:
     - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
     - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
   - Our social channel, [#g_dedicated-team-social](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
+
+### Urgent Availability or Security Events
+
+In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/incident-management/#severities), please *Page* the GitLab Dedicated Engineer On Call. Further guidance on when to use this can be found [here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#what-is-an-emergency).
+
+1. From any Slack channel, use `/pd trigger`:
+   1. Impacted Service: `Dedicated Platform Service` (for commercial customers) or `Dedicated US Public Sector Platform Service`
+   1. Title: `GitLab Dedicated`
+   1. Description: Provide information on the report, and how you can be contacted
+   1. *Urgency*, *Priority* and *Assign To* should not be set
+
+### Escalation Policy
+
+When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Handling Configuration Changes for Tenant Environments
 
@@ -124,10 +138,6 @@ In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discret
 Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
 
 Changes not associated to any incident must have an exemption approval by the GitLab Dedicated engineering Leadership.
-
-### Escalation Policy
-
-When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Requesting access to logs
 
@@ -277,7 +287,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
+*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 
@@ -607,7 +617,7 @@ in the event of a Capacity Planning shift overlapping with an on-call shift,
 consider swapping your capacity planning shift with another engineer
 to ensure both tasks receive the necessary attention.
 The goal is to give ourselves the best chance of resolving impending saturation events
-_before_ they become a customer-impacting incident
+*before* they become a customer-impacting incident
 It is based on statistical modeling and human interpretation,
 and is not expected to be perfect in every situation.
 Do your best,
