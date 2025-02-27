@@ -40,7 +40,7 @@ description: "This page discusses the Internal Hiring Process"
 - If a team member is not eligible, the Recruiter will send the appropriate decline email template.
 - The recruiter will also review the team member’s current compensation (found in Workday) to ensure they are in line with the salary range and budget for the role.
 - If a team member's current compensation exceeds the budget and/or salary range for the role (due to level or different job family), the recruiter will inform the team member of a potential change to their compensation before completing any team interviews.  
-- Recruiter will then continue the process as described in the [Talent Acquisition Process Framework](/handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/req-overview/) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
+- Recruiter will then continue the process as described in the [Talent Acquisition Process Framework](/handbook/hiring/talent-acquisition-framework/req-overview/) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
 - Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member's current manager and potential new manager via Slack to:
   - Give formal notice that an offer is being created for the team member.
   - At the same time you should tag the relevant [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) (both the departing and receiving PBP) in a note on Greenhouse so they are notified, can track the internal move and take any necessary action.
@@ -92,7 +92,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
       - Business driven transfers (example of realignments)
       - SDR 12 months in role
       - SDR/BDR Team Lead 3 months in role
-- For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group#people-business-partner-alignment-to-division).
+- For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 - At the offer stage, should the Recruiter not have access to compensation data (due to a candidate moving Divisions for example), they will submit a request via HelpLab to attain current compensation information:
   - People Connect checks Workday for current team member base compensation.
   - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
