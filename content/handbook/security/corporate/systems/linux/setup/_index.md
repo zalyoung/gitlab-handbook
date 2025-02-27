@@ -6,17 +6,17 @@ title: Linux Desktop OS Setup Guide
 
 These steps assume you are using the work-purchased Dell running Ubuntu 22.04 LTS or later. This is because Ubuntu 22.04 is known to support the required software packages for remote management and EDR solutions that allow for Linux use in GitLab. If your situation is different and you are running different hardware and/or using a different Linux distribution, it _must_ be capable of supporting the required software packages.
 
-1. ***Ensure your laptop is running Linux***. Certain circumstances (world region and availability of hardware) might require the self installation of Linux on a Dell that was shipped with OEM Windows. If this is the case, you will need to set up a USB drive with Ubuntu and perform the installation.
+1. **Ensure your laptop is running Linux**. Certain circumstances (world region and availability of hardware) might require the self installation of Linux on a Dell that was shipped with OEM Windows. If this is the case, you will need to set up a USB drive with Ubuntu and perform the installation.
 
 For laptops shipped with OEM Windows you may want to make a full drive backup (e.g. by using open source utility [Clonezilla](https://clonezilla.org/)) to an external drive before installing Linux. That way you could restore your laptop to the original state at any time. It will make the RMA process much easier in case you need it. This is optional and not required.
 
-2. ***Ensure the hard drive is encrypted***. From a terminal window run the command `sudo dmsetup ls`. If there is a reference to something like `cryptdata` or `dm_crypt-0` in the output, encryption is enabled. If not, you will need to reinstall Ubuntu and enable drive encryption during the installation process.
+1. **Ensure the hard drive is encrypted**. From a terminal window run the command `sudo dmsetup ls`. If there is a reference to something like `cryptdata` or `dm_crypt-0` in the output, encryption is enabled. If not, you will need to reinstall Ubuntu and enable drive encryption during the installation process.
 
-3. ***Ensure the firewall is enabled***. From a terminal window run the command `sudo ufw status`. If the response is `Status: inactive` run `sudo ufw enable`. If `ufw` is not installed, run `sudo apt install ufw` first.
+1. **Ensure the firewall is enabled**. From a terminal window run the command `sudo ufw status`. If the response is `Status: inactive` run `sudo ufw enable`. If `ufw` is not installed, run `sudo apt install ufw` first.
 
-4. ***Ensure FleetDM is installed***. Follow the instructions at LINK COMING SOON. Installation of FleetDM will allow for remote installation of Crowdstrike Falcon, the EDR solution for GitLab endpoint systems including Linux.
+1. **Ensure FleetDM is installed**. Follow the instructions at LINK COMING SOON. Installation of FleetDM will allow for remote installation of Crowdstrike Falcon, the EDR solution for GitLab endpoint systems including Linux.
 
-5. ***Regular Applications***. Use the regular approved applications such as Google Chrome (and sign into Okta), Zoom, and Slack. Install the other applications for your job description (e.g. development tools) as needed. Complete the steps in your onboarding issue and/or laptop equipment issue.
+1. **Regular Applications**. Use the regular approved applications such as Google Chrome (and sign into Okta), Zoom, and Slack. Install the other applications for your job description (e.g. development tools) as needed. Complete the steps in your onboarding issue and/or laptop equipment issue.
 
 ## Additional Steps
 
@@ -27,4 +27,3 @@ sudo apt install libpam-fprintd
 sudo systemctl status fprintd.service
 sudo systemctl restart fprintd.service
 ```
-
