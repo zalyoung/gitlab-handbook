@@ -823,6 +823,7 @@ GitLab has an entity in this location. All team members in this location are emp
 Always ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 
 ## Process for GitLab Team Members in Ireland, the UK or Singapore
+
 GitLab has an entity in this location. The UK, Ireland and Singapore payroll are now processed through Papaya. There is an updated “Offer Through DocuSign” email templates to group these countries together.
 Papaya will follow up with the team members in these locations regarding their payroll.
 
