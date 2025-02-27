@@ -64,12 +64,11 @@ Open a request for help in the [Request For Help Tracker](https://gitlab.com/git
 
 We can help with:
 
-1. Networking and traffic management (CDN / VPCs / DNS / Load Balancing)
-  1. Rate Limiting: create an issue with the [rate limiting request template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
-  1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
+1. Networking and traffic management (CDN / VPCs / DNS / Load Balancing / Service Discovery)
+1. Rate Limiting: create an issue with the [rate limiting request template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
+1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 1. K8s
 1. Config
-1. Service Discovery with Consul
 1. Secrets Management with Vault
 1. ops.gitlab.net and ops runners
 
