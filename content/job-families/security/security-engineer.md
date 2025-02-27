@@ -385,20 +385,20 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-Security Architects are responsible for the identification, assessment, prioritization, and reduction of systemic risks associated with the GitLab product and architecture. They lead the development and execution of the security strategy, roadmap, and standards to address complex security challenges across the GitLab ecosystem. 
+Security Architects are responsible for the identification, assessment, prioritization, and reduction of systemic risks associated with the GitLab product and architecture. They lead the development and execution of the security strategy, roadmap, and standards to address complex security challenges across the GitLab ecosystem.
 
 Security Architects report to the Director of Security Platforms and Architecture within the Product Security Department. As Staff+ Security Engineers, they have a wide sphere of influence and responsibility, and they maximize their impact by working through and with others.
 
 Responsibilities
 
 - Lead the development and execution of the security strategy and roadmap to address complex security challenges at scale
-- Develop expert-level knowledge of GitLab’s platform architecture and perform comprehensive risk identification, assessment, and prioritization 
+- Develop expert-level knowledge of GitLab’s platform architecture and perform comprehensive risk identification, assessment, and prioritization
 - Work cross-organizationally to create remediation plans for key security risks in the Product Security Risk Register
 - Lead the security architecture and design work for strategic initiatives, providing clear direction to cross-functional teams
 - Conduct security architecture reviews for large strategic projects
 - Drive continuous improvement of security architecture practices and patterns across the organization
 - Develop and communicate security standards to proactively enable teams to make sound security decisions and establish clear expectations for secure software delivery
-- Cultivate strong relationships across Product and Engineering to maintain visibility into major initiatives and drive security outcomes 
+- Cultivate strong relationships across Product and Engineering to maintain visibility into major initiatives and drive security outcomes
 - Anticipate emerging security challenges and propose proactive architectural solutions
 - Provide expert guidance and mentorship to security engineers across the division
 
