@@ -70,24 +70,22 @@ Create a unified notification center built on an event-driven architecture that:
 
 1. Improved user experience:
 
-  - Single location for all notifications
-  - Consistent interface and behavior
-  - Greater control over notification preferences
-
+- Single location for all notifications
+- Consistent interface and behavior
+- Greater control over notification preferences
 
 1. Technical benefits:
 
-  - Decoupled architecture allows independent service development
-  - Centralized notification logic improves maintainability
-  - Event-driven design enables easy addition of new notification types
-  - Reduced code duplication and complexity
-
+- Decoupled architecture allows independent service development
+- Centralized notification logic improves maintainability
+- Event-driven design enables easy addition of new notification types
+- Reduced code duplication and complexity
 
 1. Future flexibility:
 
-  - Straightforward path to add new notification channels (web, mobile push, etc.)
-  - API-first approach enables third-party integrations
-  - Retention policies prevent database bloat
+- Straightforward path to add new notification channels (web, mobile push, etc.)
+- API-first approach enables third-party integrations
+- Retention policies prevent database bloat
 
 ##### Cons
 
@@ -99,31 +97,14 @@ Create a unified notification center built on an event-driven architecture that:
 
 1. System dependencies:
 
-  - Increased reliance on Event Store reliability
-  - Need to manage event processing performance
-  - Potential for more complex failure scenarios
+- Increased reliance on Event Store reliability
+- Need to manage event processing performance
+- Potential for more complex failure scenarios
 
 1. Resource requirements:
 
-  - Significant engineering effort
-  - Careful testing required to ensure seamless transition
-
-
-
-#### Alternatives Considered
-1. Enhance current systems independently
-Pros:
-
-- Less initial development effort
-- Lower migration risk
-- Can be implemented incrementally
-
-Cons:
-
-- Maintains fragmented user experience
-- Doesn't solve code maintenance issues
-- Limited future extensibility
-- Duplicated effort for common features
+- Significant engineering effort
+- Careful testing required to ensure seamless transition
 
 ## Design and implementation details
 
@@ -154,9 +135,17 @@ directory as the `index.md` for the proposal.
 
 ## Alternative Solutions
 
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+1. Enhance current systems independently
 
-"Do nothing" and its pros and cons could be included in the list too.
--->
+Pros:
+
+- Less initial development effort
+- Lower migration risk
+- Can be implemented incrementally
+
+Cons:
+
+- Maintains fragmented user experience
+- Doesn't solve code maintenance issues
+- Limited future extensibility
+- Duplicated effort for common features
