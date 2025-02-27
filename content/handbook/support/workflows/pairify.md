@@ -10,12 +10,11 @@ This document provides information on what Pairify is and how to use it to recor
 
 ## What is Pairify?
 
-[Pairify](https://gitlab.com/gitlab-com/support/toolbox/pairify) is a Slack bot application that will scan monitored Slack channels on a schedule for any conversations reacted with ![Pairify emoji](../assets/pairify.png "Pairify emoji") (`:pairify:`).
+[Pairify](https://gitlab.com/gitlab-com/support/toolbox/pairify) is a Slack bot application that will scan monitored Slack channels on a schedule for any conversations reacted with ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`).
 
-It will then extract all Zendesk URLs, Slack participants/mentions and automatically create a pairing issue with the Zendesk URLs,
-participants (converted to GitLab.com usernames) and closes out the issue.
+It will then extract all Zendesk URLs, GitLab URLs (epics, issues, merge requests, handbook and docs), Slack participants/mentions and automatically create a pairing issue with the extracted URLs, participants (converted to GitLab.com usernames) and closes out the issue.
 
-![Pairify demo](../assets/pairify_demo.gif)
+![Pairify demo](/images/support/workflows/assets/pairify_demo.gif)
 
 ## Using Pairify
 
@@ -33,14 +32,14 @@ To incorporate Pairify into your pairing session workflow:
 
 1. Optional. [Specify the pairing session type](#specifying-the-pairing-session-type).
 
-1. React to the thread with the ![Pairify emoji](../assets/pairify.png "Pairify emoji") (`:pairify:`) emoji to mark a conversation for Pairify to process.
+1. React to the thread with the ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji **once the pairing is completed** to mark a conversation for Pairify to process.
 
 You then need to wait for the next scheduled execution of Pairify, as explained in [how Pairify works](#how-pairify-works).
 
 ## How Pairify works
 
 Pairify executes every 30 minutes via a [scheduled pipeline](https://gitlab.com/gitlab-com/support/toolbox/pairify#production). When the pipeline begins, Pairify will search [all monitored channels](#channels-monitored-by-pairify)
-for any conversation reacted with the ![Pairify emoji](/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji that was created within the last 6 hours.
+for any conversation reacted with the ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji that was created within the last 12 hours.
 
 Pairify will then:
 
@@ -48,7 +47,7 @@ Pairify will then:
 1. Convert all Slack users to their GitLab.com counterparts
 1. Create a GitLab issue in the [Support Pairing](https://gitlab.com/gitlab-com/support/support-pairing) project with the details extracted. The `pairify` label will be automatically applied to the issue, along with any other labels determined during processing.
 1. Creates a message on the conversation thread indicating that the conversation has been processed. The response will also include a link to the issue created
-1. React to the conversation with an ![Issue created emoji](../assets/pairify_issue-created.png "Issue created emoji") (`:issue-created:`) emoji so the conversation is not processed again on subsequent executions.
+1. React to the conversation with an ![Issue created emoji](/images/support/workflows/assets/pairify_issue-created.png "Issue created emoji") (`:issue-created:`) emoji so the conversation is not processed again on subsequent executions.
 
 ## Specifying the pairing session type
 
@@ -56,10 +55,11 @@ Pairify can apply additional labels to pairing issues to indicate the pairing se
 
 The reactions in this table are mutually exclusive - Pairify will only process the first reaction added to the conversation if multiple reactions are found:
 
-| Emoji                                                                           | Shortcode        | Description                                           |
-|---------------------------------------------------------------------------------|------------------|-------------------------------------------------------|
-| ![Crush emoji](../assets/pairify_crush.png "Crush emoji")                       | `:crush:`        | Adds the `crush` label to the pairing issue           |
-| ![Office hours emoji](../assets/pairify_office-hours.png "Office hours emoji")  | `:office-hours:` | Adds the `office hours` label to the pairing issue    |
+| Emoji                                                                                                     | Shortcode        | Description                                            |
+|-----------------------------------------------------------------------------------------------------------|-------------------|-------------------------------------------------------|
+| ![Crush emoji](/images/support/workflows/assets/pairify_crush.png "Crush emoji")                          | `:crush:`         | Adds the `crush` label to the pairing issue           |
+| ![Customer call emoji](/images/support/workflows/assets/pairify_customer-call.png "Customer call emoji")  | `:customer_call:` | Adds the `customer-call` label to the pairing issue   |
+| ![Office hours emoji](/images/support/workflows/assets/pairify_office-hours.png "Office hours emoji")     | `:office-hours:`  | Adds the `office hours` label to the pairing issue    |
 
 To ensure these reactions are picked up by Pairify, you should add these reactions before adding the `:pairify:` emoji to your conversation.
 
@@ -74,6 +74,7 @@ Pairify can be used in the following Slack channels:
 - [`#spt_emea_shift-3`](https://gitlab.enterprise.slack.com/archives/C07DG6PEV26)
 - [`#spt_us-government`](https://gitlab.enterprise.slack.com/archives/C03RTN3JEJ2)
 - [`#spt_us-gov-evening-overnight`](https://gitlab.enterprise.slack.com/archives/C06C3DBT72L)
+- [`#support_self-managed`](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK)
 - [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW)
 - [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) channels
 

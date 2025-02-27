@@ -108,10 +108,6 @@ A core team should be established and commitments should be made from these team
 
 Each program should have an operating rhythm including when the core team meets synchronously and the executive team meets synchronously. The Program Manager is responsible for providing an async structure to document completion of tasks and report status via GitLab Epics.
 
-#### Rolly - Weekly Roll Up Reporting
-
-The IT Program Manager updates the [Rolly](/handbook/business-technology/enterprise-applications/pmo/#weekly-roll-up-reporting) section in the project Epic every week to provide regular updates about the on going program.
-
 #### Status Report
 
 For larger programs, and based on the information from Rolly, the IT Program Manager might create a Status Report to be shared across the program team and is often reviewed during the weekly program status meetings.

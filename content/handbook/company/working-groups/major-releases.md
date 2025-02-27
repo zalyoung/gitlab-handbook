@@ -13,7 +13,15 @@ status: active
 | Slack          | [#wg_major-releases](https://gitlab.enterprise.slack.com/archives/C073MV570F7) (only accessible from within the company) |
 | Google Doc     | [Major Releases Working Group Agenda](https://docs.google.com/document/d/1jxl4SDDeoQgR9DOCZ63_D38OglE1OGkJBq_fC_z46BA/edit?usp=sharing)|
 | Epic           | [Future Major Release Coordination & Improvements](https://gitlab.com/groups/gitlab-com/-/epics/2363) |
-| Overview & Status | Open |
+| Overview & Status | Closed |
+
+## Closing update
+
+This group is closed with the outcome of the group consolidating in and opinion on breaking changes that the org can adopt:
+
+- [Migrations over breaking things 2024 Executive Brief (internal)](https://docs.google.com/document/d/1ByVZEhGJfjb6XTwiDeaSDRVwUiF6dsEQI01TW4BJA0k/edit?tab=t.0)
+- [Migrations over breaking things 2024 SLides (internal)](https://docs.google.com/presentation/d/1VRywg9xQR7yHqlphL-jWyApPrNsSSvmydlmgU88vSJk/edit#slide=id.g31bf0854b0a_0_0)
+- [Migrations over breaking things 2024 Recording (internal)](https://www.youtube.com/watch?v=GkhYD6QAy-4)
 
 ## Purpose
 

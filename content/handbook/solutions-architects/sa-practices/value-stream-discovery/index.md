@@ -229,15 +229,15 @@ The process which we will go through, at a high level, is as follows  (per funct
 
 ##### Idea to Production
 
-![Idea to Production](workflow-02.png)
+![Idea to Production](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
 
 ##### Response to Production Incident
 
-![Response to Production Incident](workflow-01.png)
+![Response to Production Incident](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
 
 ##### Toolchain Upgrading and Maintenance
 
-![Toolchain Upgrading and Maintenance](workflow-03.png)
+![Toolchain Upgrading and Maintenance](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
 
 ### Executive Briefing - Summarize the Findings
 
@@ -302,7 +302,7 @@ The Account Leader (AE) is responsible for maintaining the Salesforce opportunit
 * **VSW URL** - The URL to the google drive folder containing the readout presentation and any other VSW artifacts.
 * **VSW Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSW start date is populated.
 
-Solutions Architects should leverage the following [SA Actiity Types](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop) when [loggin activity](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop)
+Solutions Architects should leverage the following [SA Activity Types](/handbook/solutions-architects/processes/activity-capture/activity-logging) when [logging activity](/handbook/solutions-architects/processes/activity-capture/activity-logging)
 
 * VSW Pitch
 * VSW Execution

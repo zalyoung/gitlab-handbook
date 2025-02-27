@@ -41,7 +41,7 @@ team calendar.
    'Additional calendars to include?'. The 'Support - Time Off' calendar ID is
    `gitlab.com_as6a088eo3mrvbo57n5kddmgdg@group.calendar.google.com`
 1. Verify the following calendars are shared with you. These are shared with the Support Team Google Group:
-   1. [Support OOO - AMER](https://calendar.google.com/calendar/u/0/embed?src=c_rt0g4ptj1nut4045lcgsm21chg@group.calendar.google.com)
+   1. [Support OOO - AMER](https://calendar.google.com/calendar/embed?src=c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513%40group.calendar.google.com)
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
    1. [Support OOO - EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com)
 
@@ -96,7 +96,7 @@ Follow the guidance below to prepare yourself, your customers, and your colleagu
 If you are assigned to any PagerDuty shifts (such as on-call) during the time off, arrange for coverage:
 
 1. Find a volunteer to cover for you; get help from your manager if necessary.
-1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/docs/editing-schedules#create-and-delete-overrides).
+1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/main/docs/edit-schedules#create-overrides).
 
 ### Coverage for assigned tickets
 
@@ -138,7 +138,7 @@ For high priority tickets, tend towards a handing over to someone else:
 ## How Support Handles Family and Friends Days
 
 During [Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days) GitLab Support continues
-to operate as normal. Starting from Q1/FY25, during each quarter you are free to take a day off at your convenience, to celebrate Family and Friends day.
+to operate as normal. In FY26, you are free to take off a total of 4 days at your convenience, to celebrate and record as Family and Friends day.
 Please follow the same guidelines as you would in [Choosing and Recording Time Off](#choosing-and-recording-time-off).
 
 ## How Support Handles Holidays
@@ -230,4 +230,33 @@ Once you have taken the time to catch-up, update your availability using the [Ou
 
 If you unassigned some of your tickets before going on PTO, take the time to go through them and check their status. It's good practice to reassign them to yourself if these are either still missing a DRI, or if it appears that you're still the best equipped person to drive it to a solution.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+## Managers Time Off
+
+### Before PTO is taken
+
+The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects. 
+
+1. List Key Responsibilities: The manager will prepare a comprehensive list of all tasks that require attention during their absence.
+1. Determine Priority: The manager will assess which tasks are time-sensitive and which can be delayed. They will prioritize duties based on urgency, impact, and team dependency.
+1. Select a Delegate: The manager will choose a single team member to be responsible for all of the tasks, or another manager if any of the tasks are confidential.
+
+### Task Delegation
+
+Once tasks have been identified and the team member has been selected, the following steps should be taken to ensure a seamless transition:
+
+Documenting the Process: The manager will create an issue to outline
+
+- Key contacts for each task.
+- Any ongoing projects or deadlines.
+- Specific instructions or checklists to be followed.
+- Access to Resources: Ensure that the delegate has the necessary access to tools, files, and systems to perform tasks effectively.
+
+### Communicate
+
+The manager will inform the team and relevant stakeholders about the temporary delegation of responsibilities. 
+
+### After PTO
+
+Conduct a Debriefing: The manager will meet with the team member to review the progress made, any challenges encountered, and the outcomes of decisions made in their absence.
+
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).

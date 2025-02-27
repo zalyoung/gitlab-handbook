@@ -114,4 +114,4 @@ We will require GCP Deployment Keys from Infrastructure. We would also like a ne
 1. ARR: https://handbook.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/
 1. Vue.js: https://vuejs.org
 1. SSG: Static Site Generator
-1. Nuxt.js: https://nuxtjs.org
+1. Nuxt.js: https://nuxt.com/

@@ -18,6 +18,16 @@ Team members can reach the AppSec team by:
 - Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
+## PTO
+
+Team members that are taking PTO for 5 days or more [must create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organise their coverage during their time off. The PTO coverage issue should :
+
+- List any potential requests that could come to the team while on PTO
+- The team member taking PTO shoud organise their work accordingly and ensure the PTO coverage issue contains the context required to handle the work
+- Assign primary and secondary responsible team members
+
+AppSec team members should add any important information related to the work they are covering for the person on PTO and AppSec manager(s) should add any important announcement to see upon their return.
+
 ## Application Security Roadmap
 
 Please see the [Product Security Program Strategy document](https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit).
@@ -50,11 +60,11 @@ The list above is not exhaustive and is subject to be modified as our processes 
 
 ### Stable Counterparts
 
-Please see the [Application Security Stable Counterparts page]({{< ref "stable-counterparts" >}}).
+Please see the [Application Security Stable Counterparts page](/handbook/security/product-security/application-security/stable-counterparts/).
 
 ### Application Security Reviews
 
-Please see the [Application Security Reviews page]({{< ref "appsec-reviews" >}}).
+Please see the [Application Security Reviews page](/handbook/security/product-security/application-security/appsec-reviews/).
 
 ### RCAs for Critical Vulnerabilities
 
@@ -73,36 +83,36 @@ The following recordings are available internally only:
 
 ## Backlog reviews
 
-When necessary a backlog review can be initiated, please see the [Vulnerability Management Page]({{< ref "vulnerability-management" >}}) for more details.
+When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
 
 ## GitLab Secure Tools coverage
 
 As part of our [dogfooding effort](/handbook/product/product-processes/#dogfood-everything),
-the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies]({{< ref "inventory#policies" >}})).
-This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
+the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/security/product-security/application-security/inventory/#policies)).
+This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
 Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/issues) (internal link).
 
 ## GitLab Inventory
 
-Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
+Learn more about the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
 ## Responding to customer scan review requests
 
-Please see the [Responding to customers security scanners review requests page]({{< ref "responding-customers-scan-review-requests" >}})
+Please see the [Responding to customers security scanners review requests page](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)
 
 ## Reproducible Vulnerabilities
 
-Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities]({{< ref "reproducible-vulnerabilities" >}}).
+Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
 
 ## Reproducible Builds
 
-Learn how GitLab is implementing [Reproducible Builds]({{< ref "reproducible-builds" >}}) for our build processes.
+Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
 
 ## Milestone Planning
 
-The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process]({{< ref "milestone-planning" >}})
+The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process](/handbook/security/product-security/application-security/milestone-planning/)
 
 ## Application Security Automation and Monitoring
 
-Please see the [Application Security Automation and Monitoring page]({{< ref "application-security-automation-monitoring" >}})
+Please see the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)

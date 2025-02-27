@@ -1,6 +1,7 @@
 ---
-title: Enhanced Support Offering - Assigned Support Engineer (ASE)
+title: Offering - Assigned Support Engineer (ASE)
 description: Information about the ASE offering, being an ASE, and working with ASEs
+canonical_path: "/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer"
 ---
 
 ## The Assigned Support Engineer offering
@@ -23,6 +24,8 @@ successful with GitLab.
 
 For the official description of this offering, see the
 [Assigned Support Engineer Delivery Data Sheet](https://drive.google.com/file/d/1I-GDQV9wZkTvTTMqIPw1mSLaeVUru4zU/view).
+
+A list of Assigned Support Engineers is maintained here: [gitlab-com/support/assigned-support-engineers](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/wikis/home)
 
 ### ASE Leadership Team
 
@@ -118,7 +121,7 @@ page.
 Please see our [Becoming and Being an ASE page](becoming-and-being-an-ase.html) if:
 
 - you are considering whether to become an ASE
-- you are about to become and ASE
+- you are about to become an ASE
 - you are a new ASE
 
 ### Zendesk for ASEs

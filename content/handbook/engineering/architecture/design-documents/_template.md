@@ -52,7 +52,8 @@ If there are new details that belong in the document, edit the document. Once
 a feature has become "implemented", major changes should get new blueprints.
 
 The canonical place for the latest set of instructions (and the likely source
-of this file) is [here](/content/handbook/engineering/architecture/design-documents/_template.md).
+of this file) is
+[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
 
 Document statuses you can use:
 
@@ -82,7 +83,7 @@ For long pages, consider creating a table of contents.
 <!--
 This section is very important, because very often it is the only section that
 will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire document like this.
+because executives usually don't have time to read entire documents like this.
 Focus on writing this section in a way that anyone can understand what it says,
 the audience here is everyone: executives, product managers, engineers, wider
 community members.
@@ -152,7 +153,7 @@ If you are not sure how many implementation details you should include in the
 document, the rule of thumb here is to provide enough context for people to
 understand the proposal. As you move forward with the implementation, you may
 need to add more implementation details to the document, as those may become
-an important context for important technical decisions made along the way. A
+valuable context for important technical decisions made along the way. A
 document is also a register of such technical decisions. If a technical
 decision requires additional context before it can be made, you probably should
 document this context in a document. If it is a small technical decision that

@@ -79,7 +79,7 @@ We create temporary management positions when there is organizational need, and 
 
 When someone fills a temporary role they are providing a service to the company, and perhaps getting a valuable career development opportunity for themself; so, poor performance against those duties would not result in termination. At worst, the person would return to their prior responsibilities. That does not mean, however, that an individual is immune to termination of their employment, for example if they commit a breach of their prior responsibilities or of the company's Code of Business Conduct & Ethics while in a temporary position.
 
-Once you have been designated as filling a temporary management role, the current manager should update all reports to in BambooHR with a job information change request and create an access level request to grant interim manager access in BambooHR. Note that direct reports in BambooHR generally are [not moved to Acting managers](/handbook/people-group/promotions-transfers/#acting).
+Once you have been designated as filling a temporary management role, the current manager should update all reports to in Workday with a job information change request and create an access level request to grant interim manager access in Workday. Note that direct reports in Workday generally are [not moved to Acting managers](/handbook/people-group/promotions-transfers/#acting).
 
 Those interested in these roles must:
 
@@ -309,7 +309,7 @@ For more details on logistics of ending an interim or acting period please refer
   graph LR;
 
   subgraph Merit Based
-    supe:si(Intern, Support Engineer)-->supe:se(Support Engineer);
+    supe:sa(Associate Support Engineer)-->supe:se(Support Engineer);
     supe:se(Support Engineer)-->supe:sse(Senior Support Engineer);
   end
 
@@ -491,7 +491,7 @@ We strive to set the clearest possible expectations with regard to performance a
 
 ### Engineering Promotion Rate
 
-People Operations tracks the [Promotion Rate](/handbook/people-group/people-success-performance-indicators/#promotion-rate) for the company overall and each division separately. The target is 12% annually. This metric is treated as an organizational health indicator for the quality of decisioning making our leaders are employing, and for the fairness in our process. In FY21 Engineering was exactly on its target of 12%. So we would not currently consider blocking any individual promotion based on the overall rate. If that were to change, and Engineering became an outlier, we would reevaluate. Here is the company-wide [process](/handbook/people-group/promotions-transfers/#bamboohr-promotion-approval-process).
+People Operations tracks the [Promotion Rate](/handbook/people-group/people-success-performance-indicators/#promotion-rate) for the company overall and each division separately. The target is 15% annually. This metric is treated as an organizational health indicator for the quality of decisioning making our leaders are employing, and for the fairness in our process. In FY21 Engineering was exactly on its target of 12%. So we would not currently consider blocking any individual promotion based on the overall rate. If that were to change, and Engineering became an outlier, we would reevaluate. Here is the company-wide [process](/handbook/people-group/promotions-transfers/).
 
 #### Transfer Options
 

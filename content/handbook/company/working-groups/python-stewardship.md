@@ -10,7 +10,7 @@ status: not started
 | Property         | Value           |
 |------------------|-----------------|
 | Date Created     | 2024-11-01 |
-| Target End Date  | 2025-02-01 |
+| Target End Date  | 2025-03-01 |
 | Epic             | https://gitlab.com/groups/gitlab-org/-/epics/15580 |
 | Slack            | #wg_python-stewardship (only accessible from within the company) |
 | Google Doc       | Agenda (https://docs.google.com/document/d/1gs-OrjjyfxQ3BDaKxOXcrMuUl3z1jmsxGmbdmEgIBF8/edit?tab=t.dma9z3zh8fwb) (only accessible from within the company) |
@@ -42,12 +42,12 @@ Examples of existing Python codebases:
 
 ## Exit Criteria
 
-| Criteria | Progress | DRI | Start date | End date |
-| :---- | :---- | :---- | :---- | :---- |
-| A non-Python developer has guidance on how to understand and contribute to Python codebase |  |  |  |  |
-| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged |  |  |  |  |
-| Code review and maintainership guidelines for Python codebase have been merged |  |  |  |  |
-| Guidelines for deployment of each of the three application types |  |  |  |  |
+| Criteria |  DRI |
+| :---- | :---- | :---- |
+| A non-Python developer has guidance on how to understand and contribute to Python codebase | @mhamda |  
+| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged | @tle_gitlab |
+| Code review and maintainership guidelines for Python codebase have been merged | @brytania |
+| Guidelines for deployment of each of the three application types | @eduardobonet |
 
 ## Outcomes
 
@@ -93,6 +93,11 @@ Development experience:
 | Member | Shola Quadri | Associate Backend Engineer, Code Creation |
 | Member | Vitali Tatarintev | Senior Backend Engineer, Code Creation |
 | Member | Mikołaj Wawrzyniak | Staff Backend Engineer, Duo Workflow (Borrow) |
+| Member | Ryan Egesdahl | Senior Distribution Engineer, Distribution Build |
+
+## Sync Recordings
+
+- [2024-11-21 Kick-off 1](https://youtu.be/N4F6ANNxVP0)
 
 ### Non-goals
 

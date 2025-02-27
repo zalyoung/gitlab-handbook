@@ -17,7 +17,7 @@ The inbound marketing team are the primary business owners and users of Sitebulb
 
 ## Training
 
-1. [Getting started guide](https://sitebulb.com/documentation/getting-started/)
+1. [Getting started guide](https://support.sitebulb.com/en/)
 
 ## Support
 

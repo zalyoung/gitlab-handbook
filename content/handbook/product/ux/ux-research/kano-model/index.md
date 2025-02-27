@@ -5,7 +5,7 @@ description: "Kano model provides a simple and powerful way how to think about t
 
 ## Kano model
 
-The [Kano model](https://www.qualtrics.com/au/experience-management/research/kano-analysis/) is a theory that ties perceived product functionality with user satisfaction. It was developed in Japan in the 1980s by Professor Noriaki Kano.
+The [Kano model](https://www.qualtrics.com/en-au/experience-management/research/kano-analysis/) is a theory that ties perceived product functionality with user satisfaction. It was developed in Japan in the 1980s by Professor Noriaki Kano.
 
 The Kano model classifies product features into five categories based on how developing them impacts user satisfaction:
 
@@ -15,7 +15,7 @@ The Kano model classifies product features into five categories based on how dev
 - **Indifferent**: Investing in these features will not increase or decrease user satisfaction.
 - **Reverse**: Not having these features is actually better than having them.
 
-![KanoImage](KanoImage.png)
+![KanoImage](/images/product/ux/ux-research/kano-model/KanoImage.png)
 
 Once you know which categories your features fall into, you can prioritize the most important ones for development. In theory, features from the Must-be category should be prioritized first, followed by Performance and then Attractive. Depending upon the number of features that fall into each category, you may need to work with your product team to determine how to prioritize them.
 
@@ -152,7 +152,7 @@ Example [Dovetail project](https://dovetailapp.com/projects/5sVL84ZlY492J2jOt5W7
 
 ##### The quantitative approach
 
-We recommend collecting responses from 50 to 80 users in your target audience and analyze them using discrete analysis described in [The Complete Guide to Kano Model](https://foldingburritos.com/kano-model/). This approach will provide you with "the numbers" that can back up your prioritization decisions, but you will still lack the understanding behind the prioritization.
+We recommend collecting responses from 50 to 80 users in your target audience and analyze them using discrete analysis described in [The Complete Guide to Kano Model](https://foldingburritos.com/blog/kano-model/). This approach will provide you with "the numbers" that can back up your prioritization decisions, but you will still lack the understanding behind the prioritization.
 
 For the analysis use this [spreadsheet template](https://docs.google.com/spreadsheets/d/14D-ayhw15J9o7ixzFh7pda_SZQkhZTRsyJvHi_5JXbk/edit?usp=sharing) (GitLab internal link).
 
@@ -162,7 +162,7 @@ Taking the quantitative and qualitative approach will result in a more complete 
 
 ## Additional resources
 
-- Article: [The Complete Guide to Kano Model](https://foldingburritos.com/kano-model/)
+- Article: [The Complete Guide to Kano Model](https://foldingburritos.com/blog/kano-model/)
 - Article: [Kano Model — Ways to use it and NOT use it](https://medium.com/design-ibm/kano-model-ways-to-use-it-and-not-use-it-1d205a9cf808)
 - Video: [Building a Winning UX Strategy Using the Kano Model](https://www.youtube.com/watch?v=Hr1rN3jibIk&feature=youtu.be)
 

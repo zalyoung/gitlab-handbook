@@ -2,7 +2,10 @@
 title: "GitLab Advanced CI/CD - Hands-On Lab: Reviewing Best Practices"
 description: "This Hands-On Guide walks you through common best practices for CI/CD in GitLab"
 ---
-> Estimate time to complete: 15 minutes
+
+The goal of this lab is to use things like hidden jobs and map merges to help make your code more concise, and avoid repitition.
+
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -163,4 +166,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request.

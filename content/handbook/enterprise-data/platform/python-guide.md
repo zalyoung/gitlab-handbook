@@ -534,8 +534,8 @@ from some.deep.module.inside.a.module import (
 
 ##### Spacing
 
-Following [PEP8](https://www.python.org/dev/peps/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
-When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
+Following [PEP8](https://peps.python.org/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
+When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1).
 
 ```python
 ## Bad
@@ -566,7 +566,7 @@ def bar(input_number:int) -> int:
 ##### Type Hints
 
 All function signatures should contain type hints, including for the return type, even if it is `None`.
-This is good documentation and can also be used with [`mypy`](http://mypy-lang.org/) for type checking and error checking.
+This is good documentation and can also be used with [`mypy`](https://mypy-lang.org/) for type checking and error checking.
 
 ```python
 ## Bad
@@ -597,7 +597,7 @@ def bar(some_str: str) -> None:
 
 ##### Import Order
 
-Imports should follow the [PEP8](https://www.python.org/dev/peps/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
+Imports should follow the [PEP8](https://peps.python.org/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
 
 ```python
 ## Bad
@@ -1094,13 +1094,13 @@ def test_convert_response_to_json(fake_response):
 
     expected = {"test1": "pro", "test2": "1"}
     fake_response.get(
-    "http://some_gitlab_api_url/test",
+    "https://some_gitlab_api_url/test",
     body='{"test1": "pro", "test2": "1"}',
     status=200,
     content_type="application/json",
     )
 
-    resp = requests.get("http://some_gitlab_api_url/test")
+    resp = requests.get("https://some_gitlab_api_url/test")
 
     assert resp == expected
 
@@ -1110,7 +1110,7 @@ def test_get_response(utils):
     Force fake url and raise a Connection Error
     """
     with pytest.raises(ConnectionError):
-        _ = utils.get_response("http://fake_url/test")
+        _ = utils.get_response("https://fake_url/test")
 ```
 
 ##### Beyond pytest: Useful pytest Plugins
@@ -1153,7 +1153,7 @@ $ run black --check extract/saas_usage_ping/usage_ping.py
 
 ##### mypy
 
-- [`mypy`](http://mypy-lang.org/)
+- [`mypy`](https://mypy-lang.org/)
 
 > Mypy is an optional static type checker for `Python` that aims to combine the benefits of dynamic *(or `duck`)* typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs.
 
@@ -1223,3 +1223,27 @@ Details of pipelines we use for python should be found on the page [CI jobs (Pyt
 
 Since this style guide is for the entire data team, it is important to remember that there is a time and place for using `Python` and it is usually outside of the data modeling phase.
 Stick to `SQL` for data manipulation tasks where possible.
+
+### SQLAlchemy Upgrade - Codebase Changes
+
+As of 2025-02-04, the `analytics/` repo has been updated to use the latest `data_image`, as detailed in [Analytics MR!11537](https://gitlab.com/gitlab-data/analytics/-/merge_requests/11537). This update includes upgrading several Python libraries, most notably `sqlalchemy`. The specific version installed is `snowflake-sqlalchemy==1.6.1`, which relies on `sqlalchemy==2.0`.
+
+#### Changes in SQLAlchemy Query Patterns
+
+The new version of SQLAlchemy enforces stricter rules on how queries can be passed. Below are examples of how Python statements should be updated to adhere to the updated SQLAlchemy library:
+
+1. **execute**:
+    - Old: `connection.execute(query)`
+    - New: `gitlabdata.execute_query_str(connection, query)`
+
+2. **read_sql**:
+    - Old: `pd.read_sql(query)`
+    - New: `pd.read_sql(text(query))`
+
+3. **has_table**:
+    - Old: `engine.has_table(table)`
+    - New: `gitlabdata.has_table(engine, table)`
+
+4. **Creating a new engine**:
+    - The `autocommit` parameter needs to be set explicitly when creating a new engine. The correct setting depends on the database being used.
+    - The `gitlabdata` library provides preset engines that can be used for convenience, i.e `snowflake_engine_factory` and `postgres_engine_factory`

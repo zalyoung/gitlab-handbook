@@ -39,7 +39,7 @@ For deeper dives on this topic, read our guides below.
 | Ability to [optimize location](https://www.fastcompany.com/90548691/extremely-transparent-and-incredibly-remote-gitlabs-radical-vision-for-the-future-of-work) for something other than a commutable distance to an office |            Yes             |                                    Limited |
 | Avoid [physiological stress of open-plan offices](https://theconversation.com/open-plan-office-noise-increases-stress-and-worsens-mood-weve-measured-the-effects-162843) |            Yes             |                                    Depends |
 | [Equal footing by default](how-to-work-remote-first/) on access to executives and senior leaders |            Yes             |                                         No |
-| Praise and promotion based on [work output](/handbook/values/#measure-results-not-hours) vs. "face time" with the right people |            Yes             |                                         No |
+| Praise and promotion based on [work output](/handbook/values/#measure-impact-not-activity) vs. "face time" with the right people |            Yes             |                                         No |
 | IT/support applied to everyone equally                       |            Yes             |                                         No |
 | All team members use [digital tools to work, collaborate, and communicate](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/) |            Yes             |                                         No |
 | Freedom from manually chasing information shared during siloed, in-person meetings |            Yes             |                                         No |
@@ -60,7 +60,7 @@ For deeper dives on this topic, read our guides below.
 | Eclectic mix of company-wide [in-person gatherings](in-person/) (vs. congregating at a standard office) |            Yes             |                                         No |
 | Hearing about water cooler chitchat and perpetual cubical drop-ins from your in-office colleagues |             No             |                                        Yes |
 
-***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office](out-of-the-office/) report. If this page resonates with you, visit GitLab's [Career Opportunities](https://about.gitlab.com/jobs/).***
+***Learn more through [Life at GitLab](/handbook/company/culture/#life-at-gitlab) and our [Out of the Office](out-of-the-office/) report. If this page resonates with you, visit GitLab's [Career Opportunities](https://about.gitlab.com/jobs/).***
 
 ## Assessing the remote workplace experience
 

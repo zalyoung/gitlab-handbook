@@ -84,7 +84,7 @@ As product managers progress in their product career, we encourage our product m
 The progression of responsibilities allocation between tactical, operational and strategic in product roles
 is well illustrated by this chart.
 
-![GitLab PM Responsibility Allocation Chart](/handbook/product/pm-allocation.png)
+![GitLab PM Responsibility Allocation Chart](/images/product/pm-allocation.png)
 
 _[Source File](https://docs.google.com/spreadsheets/d/19gAgPJVdXfBpXiFOlT1WqZLJB_eFU7W7slmAzodEuDM/edit#gid=1012729771). Note - Thanks to [Melissa Perri](https://twitter.com/lissijean/) for the inspiration_
 
@@ -117,7 +117,7 @@ projects:
 * customers.gitlab.com
 * version.gitlab.com
 
-This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
+This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
 
 ## Learning and Development for Product Management
 

@@ -25,9 +25,9 @@ Here's a bunch of topics I'll be happy to talk about:
 
 ### Games
 
-- 🎲 Board Games. My favourites at the moment are [Catan](https://boardgamegeek.com/boardgame/13/catan), [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-ride) and [Pandemic](https://boardgamegeek.com/boardgame/30549/pandemic).
+- 🎲 Board Games. My favourites at the moment are [Catan](https://boardgamegeek.com/boardgame/13/catan), [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-to-ride) and [Pandemic](https://boardgamegeek.com/boardgame/30549/pandemic).
 - 🎮 Video Games. I'm a fan of RPG and/or Strategy games, like  [Surviving Mars](https://store.steampowered.com/app/464920/Surviving_Mars/), the [Fallout series](https://en.wikipedia.org/wiki/Fallout_(series)), and usually anything made by [Obsidian Entertainment](https://en.wikipedia.org/wiki/Obsidian_Entertainment).
-- 🏰 Tabletop Games. I have an ever-expanding collection of TTRPG books, including [GURPS](http://www.sjgames.com/gurps/), [Traveller (Mongoose 2nd Edition)](https://www.mongoosepublishing.com/rpgs/new-traveller.html), [D&D 5th Edition](https://dnd.wizards.com/), [Cyberpunk 2020 & Red](https://rtalsoriangames.com/cyberpunk/), [Shadowrun](https://www.shadowruntabletop.com/) and the [Fallout TTRPG](https://www.modiphius.net/pages/falloutrpg).
+- 🏰 Tabletop Games. I have an ever-expanding collection of TTRPG books, including [GURPS](https://www.sjgames.com/gurps/), [Traveller (Mongoose 2nd Edition)](https://www.mongoosepublishing.com/collections/traveller-rpgs), [D&D 5th Edition](https://www.dndbeyond.com/), [Cyberpunk 2020 & Red](https://rtalsoriangames.com/cyberpunk/), [Shadowrun](https://www.shadowruntabletop.com/) and the [Fallout TTRPG](https://modiphius.net/pages/fallout-the-roleplaying-game).
 
 ### Books
 
@@ -67,7 +67,7 @@ I have experience with a variety of networking concepts, particularly lower leve
 
 | Item | Brand |
 | ------ | ------ |
-| Web Camera | [Logitech C920 HD PRO WEBCAM](https://www.logitech.com/en-au/products/webcams/c920-pro-hd-webcam.960-000770.html) |
+| Web Camera | [Logitech C920 HD PRO WEBCAM](https://www.logitech.com/en-au/shop/p/c920-pro-hd-webcam.960-000770) |
 | Microphone | [Audio-Technica AT2005USB](https://www.audio-technica.com/en-us/at2005usb) |
 | Chair | [AK Racing K7](https://ak-racing.com.au/products/akracing-k7012-gaming-chair-black-blue) |
 | Monitor | [Kogan 34" 144Hz Ultrawide](https://www.kogan.com/au/buy/kogan-34-wqhd-curved-219-ultrawide-144hz-hdr-gaming-monitor-3440-x-1440/) |

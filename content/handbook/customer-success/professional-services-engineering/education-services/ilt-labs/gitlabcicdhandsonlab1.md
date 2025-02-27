@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Configure a Pipeline to Build an Applicatio
 description: "This Hands-On Guide walks you through building a basic pipeline for an application"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 In this lab, you will explore the process of creating a build process for an application.
@@ -109,6 +111,7 @@ You will write all of your pipeline jobs in the `.gitlab-ci.yml file`. To start,
 Let’s explore each of these in detail. To start, navigate to your job:
 
 1. Select **Build > Jobs**.
+
 1. Select your *build go* job.
 
 Let’s walk through the job log to better understand each job stage. The first thing you will see is something like this:
@@ -149,11 +152,11 @@ After doing this, all of your code will be available on the runner. One importan
 - You can access and use any files in your Git repository
 - You can commit changes back to your repository if you make any during your job process
 
-**Optional Task**
+**Optional Task:**
 Want to see this in action? Add the `ls` command to your job scripts. This will list the current directory, showing you all the files that were cloned to the runner.
 
 ```yaml
-defaults:
+default:
   image: golang
 
 stages:
@@ -166,7 +169,7 @@ build go:
     - go build
 ```
 
-**Executing your Scripts**
+**Executing your Scripts:**
 After the environment is set up and your repository is cloned, your job scripts will run.
 
 ```bash
@@ -279,4 +282,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

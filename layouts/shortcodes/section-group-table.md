@@ -1,3 +1,4 @@
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml */}}
 {{- /*Initialize.*/}}
 {{- $section_group := "" }}
 
@@ -25,7 +26,7 @@
       {{- $ux := .ux }}
       {{- $em := .backend_engineering_manager }}
       {{- $fem := .frontend_engineering_manager }}
-      
+
       {{- range $k, $v := site.Data.public.team }}
         {{- if in .departments $be_team_tag }}
           {{- if not (eq (lower .name) (lower $em)) }}

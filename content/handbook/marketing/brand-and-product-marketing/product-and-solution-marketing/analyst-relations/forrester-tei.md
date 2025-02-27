@@ -28,7 +28,7 @@ This study looked at the cost savings and business benefits of enterprises using
 | **Forrester TEI of GitLab Resource Quick Links** |  |
 | -------------------------------------------- | --- |
 | [**Direct link to the TEI study (PDF) for GitLab Team Members**](https://drive.google.com/file/d/1Vi3_InvTs8r6cLvC4gR9bBumlWV5TNvY/view?usp=sharing) | [**Online TEI Calculator / Estimator link to share with anyone**](https://tools.totaleconomicimpact.com/go/gitlab/devopsplatform/index.html) |
-| [**Impactful Metrics & Quotes from the TEI & Customer Case Studies for GitLab Team Members (slides)**](https://docs.google.com/presentation/d/1qGYIf_5L-gZkROLSVqwo8OVDFYqB-qG8NBQ8YHx2ZQY/edit?usp=sharing) | [**Gated landing page link to the TEI study to share with anyone**](https://about.gitlab.com/resources/report-forrester-tei/) |
+| [**Impactful Metrics & Quotes from the TEI & Customer Case Studies for GitLab Team Members (slides)**](https://docs.google.com/presentation/d/1qGYIf_5L-gZkROLSVqwo8OVDFYqB-qG8NBQ8YHx2ZQY/edit?usp=sharing) | [**Gated landing page link to the TEI study to share with anyone**](https://about.gitlab.com/resources/study-forrester-tei-gitlab-ultimate/) |
 | [**DevOps.com Article on the Forrester TEI of GitLab**](https://devops.com/gitlab-makes-economic-case-for-devops-platform/) | [**GitLab Blog Article on the TEI**](https://about.gitlab.com/blog/2020/07/29/forrester-tei/) |
 
 ## How to use the TEI Study (Sales)

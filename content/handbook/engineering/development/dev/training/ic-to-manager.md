@@ -18,9 +18,9 @@ The best way to determine whether or not management is the track you would like 
 There are some online training courses that describe the managerial experience:
 
 * [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate-programs/)
-* [New Manager Foundations](https://www.linkedin.com/learning/new-manager-foundations-2?u=2255073)
-* [Succeeding as a First Time Manager](https://www.linkedin.com/learning/succeeding-as-a-first-time-tech-manager?u=2255073)
-* [Management Foundations](https://www.linkedin.com/learning/management-foundations-5/managing-performance-problems?u=2255073)
+* [New Manager Foundations](https://www.linkedin.com/learning/new-manager-foundations-21965262)
+* [Succeeding as a First Time Manager](https://www.linkedin.com/learning/succeeding-as-a-first-time-tech-manager-2019)
+* [Management Foundations](https://www.linkedin.com/learning/management-foundations-2019/managing-performance-problems)
 
 **Role Playing Manager Real Life Manager Situations**
 
@@ -70,7 +70,7 @@ Currently as an Individual Contributor, your day to day tasks probably do not in
 
 **Growing Others**
 
-* [Mentor](https://www.linkedin.com/learning/mentoring-others/mentoring-others?u=2255073) a team member and host regularly scheduled 1-1's with a Mentee
+* [Mentor](https://www.linkedin.com/learning/becoming-an-inspiring-mentor) a team member and host regularly scheduled 1-1's with a Mentee
 * Regularly provide [feedback](/handbook/people-group/guidance-on-feedback/) in mentoring relationships, team retrospectives, issues, #thanks channel and Team Slack Channels.
 * Host a Book Club
 

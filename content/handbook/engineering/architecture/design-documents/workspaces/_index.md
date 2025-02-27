@@ -1,5 +1,5 @@
 ---
-title: "Remote development workspaces"
+title: "Workspaces"
 status: ongoing
 creation-date: "2022-11-15"
 authors: [ "@vtak" ]
@@ -18,15 +18,15 @@ toc_hide: true
 
 ## Summary
 
-Remote development is a new architecture for our software-as-a-service platform that provides a more consistent user experience writing code hosted in GitLab. It may also provide additional features in the future, such as a purely browser-based workspace and the ability to connect to an already running VM/Container or to use a GitLab-hosted VM/Container.
+Workspaces is a new architecture for our software-as-a-service platform that provides a more consistent user experience writing code hosted in GitLab. It may also provide additional features in the future, such as a purely browser-based workspace and the ability to connect to an already running VM/Container or to use a GitLab-hosted VM/Container.
 
-## Web IDE and remote development
+## Web IDE and Workspaces
 
-It is important to note that `remote development !== Web IDE`, and this is something we want to be explicit about in this document as the terms can become conflated when they shouldn't. Our new Web IDE is a separate ongoing effort that is running in parallel to remote development.
+It is important to note that `Workspaces !== Web IDE`, and this is something we want to be explicit about in this document as the terms can become conflated when they shouldn't. Web IDE is a separate ongoing effort that is running in parallel to Workspaces.
 
 These two separate categories do have some overlap as it is a goal to allow a user to connect a running workspace to the Web IDE, **but** this does not mean the two are dependent on one another.
 
-You can use the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html) to commit changes to a project directly from your web browser without installing any dependencies or cloning any repositories. The Web IDE, however, lacks a native runtime environment on which you would compile code, run tests, or generate real-time feedback in the IDE. For a more complete IDE experience, you can pair the Web IDE with a remote development workspace that has been properly configured to run as a host.
+You can use the [Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html) to commit changes to a project directly from your web browser without installing any dependencies or cloning any repositories. The Web IDE, however, lacks a native runtime environment on which you would compile code, run tests, or generate real-time feedback in the IDE.
 
 ## Long-term vision
 
@@ -42,13 +42,13 @@ As a [new Software Developer to a team such as Sasha](../../../../product/person
 
 ## Terminology
 
-We use the following terms to describe components and properties of the remote development architecture.
+We use the following terms to describe components and properties of the Workspaces architecture.
 
-### Remote development
+### Workspaces
 
-Remote development allows you to use a secure development environment in the cloud that you can connect to from your local machine through a web browser or a client-based solution with the purpose of developing a software product there.
+Workspaces allows you to use a secure development environment in the cloud that you can connect to from your local machine through a web browser or a client-based solution with the purpose of developing a software product there.
 
-#### Remote development properties
+#### Workspaces properties
 
 - Separate your development environment to avoid impacting your local machine configuration.
 - Make it easy for new contributors to get started and keep everyone on a consistent environment.
@@ -76,17 +76,17 @@ VS Code for web - replacement of our current legacy Web IDE.
 
 A package for bootstrapping GitLab context-aware Web IDE that:
 
-- Is built on top of Microsoft's VS Code. We customize and add VS Code features in the [GitLab fork of the VS Code project](https://gitlab.com/gitlab-org/gitlab-web-ide-vscode-fork).
+- Is built on top of Microsoft's VS Code. We customize and add VS Code features in the [GitLab VS Code fork project](https://gitlab.com/gitlab-org/gitlab-web-ide-vscode-fork).
 - Can be configured in a way that it connects to the workspace rather than only using the browser. When connected to a workspace, a user should be able to do the following from the Web IDE:
   - Edit, build, or debug on a different OS than they are running locally.
   - Make use of larger or more specialized hardware than their local machine for development.
   - Separate developer environments to avoid conflicts, improve security, and speed up onboarding.
 
-### Remote development extension for desktop
+### Workspaces extension for desktop
 
 Something that plugs into the desktop IDE and connects you to the workspace.
 
-#### Remote development extension for desktop properties
+#### Workspaces extension for desktop properties
 
 - Allows you to open any folder in a workspace.
 - Should be desktop IDE agnostic.
@@ -104,23 +104,23 @@ A major goal is that each member of a development team should have the same deve
 
 A workspace should allow access to an existing development environment from multiple machines and locations across a single or multiple teams. It should also allow a user to make use of tools or runtimes not available on their local OS or manage multiple versions of them.
 
-Additionally, remote development workspaces could provide a way to implement disaster recovery if we are able to leverage the capabilities of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html).
+Additionally, workspaces could provide a way to implement disaster recovery if we are able to leverage the capabilities of [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html).
 
 ### Scalability
 
-As an organization begins to scale, they quickly realize the need to support additional types of projects that might require extensive workflows. Remote development workspaces aim to solve that issue by abstracting away the burden of complex machine configuration, dependency management, and possible data-seeding issues.
+As an organization begins to scale, they quickly realize the need to support additional types of projects that might require extensive workflows. Workspaces aim to solve that issue by abstracting away the burden of complex machine configuration, dependency management, and possible data-seeding issues.
 
-To facilitate working on different features across different projects, remote development should allow each user to provision multiple workspaces to enable quick context switching.
+To facilitate working on different features across different projects, workspaces should allow each user to provision multiple workspaces to enable quick context switching.
 
 Eventually, we should be able to allow users to vertically scale their workspaces with more compute cores, memory, and other resources. If a user is currently working against a 2 CPU and 4 GB RAM workspace but comes to find they need more CPU, they should be able to upgrade their compute layer to something more suitable with a click or CLI command in the workspace.
 
 ### Built-in security and enterprise readiness
 
-As remote development becomes a viable replacement for virtual desktop infrastructure solutions, it must be secure and support enterprise requirements. These include role-based access control and the ability to remove all source code from developer machines.
+As workspaces becomes a viable replacement for virtual desktop infrastructure solutions, it must be secure and support enterprise requirements. These include role-based access control and the ability to remove all source code from developer machines.
 
 ### Faster project and developer onboarding
 
-As a zero-install development environment that runs in your browser, remote development makes it easy for anyone to join your team and contribute to a project.
+As a zero-install development environment that runs in your browser, workspaces makes it easy for anyone to join your team and contribute to a project.
 
 ### Regions
 
@@ -135,7 +135,7 @@ We have conducted a market analysis to understand the broader market and what ot
 
 ## Che vs DevWorkspace Operator vs custom-built solution
 
-After an investigation into using [Che](https://gitlab.com/gitlab-org/gitlab/-/issues/366052) as our backend to accelerate remote development, we ultimately opted to [write our own custom-built solution using DevWorkspace Operator](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97449#note_1131215629).
+After an investigation into using [Che](https://gitlab.com/gitlab-org/gitlab/-/issues/366052) as our backend to accelerate workspaces, we ultimately opted to [write our own custom-built solution using DevWorkspace Operator](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97449#note_1131215629).
 
 Some advantages of us opting to write our own custom-built solution are:
 
@@ -149,10 +149,10 @@ and thus the transitive dependency of Cert Manager.
 
 ## Architecture details
 
-Remote development is delivered as a module in the
+Workspaces is delivered as a module(`remote_developemnt`) in the
 [GitLab agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/index.html) project.
 The overall goal of this architecture is to ensure that the **actual state** of all
-remote development workspaces running in the Kubernetes clusters is reconciled with the **desired state** of the
+workspaces running in the Kubernetes clusters is reconciled with the **desired state** of the
 workspaces as set by the user.
 
 This is accomplished as follows:
@@ -168,7 +168,7 @@ This is accomplished as follows:
 @startuml
 
 title
-  System design for Remote Development
+  System design for Workspaces
 end title
 
 node "Kubernetes" {
@@ -210,7 +210,7 @@ node "GitLab" {
 @enduml
 ```
 
-### Remote development with the GitLab agent for Kubernetes topology
+### Workspaces with the GitLab agent for Kubernetes topology
 
 - The Kubernetes API is not shown in this diagram, but it is assumed that it is managing the workspaces through the agent.
 - The numbers of components in each Kubernetes cluster are arbitrary.
@@ -219,7 +219,7 @@ node "GitLab" {
 @startuml
 
 title
-  Remote Development with GitLab agent for Kubernetes topology
+  Workspaces with GitLab agent for Kubernetes topology
 end title
 
 node "GitLab Monolith" as gitlab {
@@ -636,7 +636,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
     ingress.kubernetes.io/auth-type: forward
-    ingress.kubernetes.io/auth-url: http://traefik-forward-auth:4181
+    ingress.kubernetes.io/auth-url: https://traefik-forward-auth:4181
     ingress.kubernetes.io/auth-response-headers: X-Forwarded-User
 spec:
   ingressClassName: traefik
@@ -664,16 +664,16 @@ spec:
       secretName: example-secret
 ```
 
-## Accessing the Web IDE from the workspace
+## Accessing the GitLab VS Code fork from the workspace
 
-Currently, we only support GitLab fork of VS Code as the editor that is injected inside a workspace during runtime.
-The [editor injector](https://gitlab.com/gitlab-org/gitlab-web-ide-vscode-fork/-/tree/main/scripts/gl/editor-injector) is a container image that contains GitLab fork of VS Code server.
+Currently, we only support GitLab VS Code fork as the editor that is injected inside a workspace during runtime.
+The [tools injector](https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools) is a container image that contains GitLab VS Code fork server.
 The editor injector contains scripts for copying this server into a workspace and starting the server.
 
-The editor injector packages both the WebUI and the Extension Host (VS Code backend). [Currently](https://gitlab.com/gitlab-org/gitlab/-/issues/393006), we also package the WebUI in the workspace. That means that the GitLab fork of VS Code editor can be used two ways:
+The tools injector packages both the WebUI and the Extension Host (VS Code backend). [Currently](https://gitlab.com/gitlab-org/gitlab/-/issues/393006), we also package the WebUI in the workspace. That means that the GitLab VS Code fork editor can be used two ways:
 
 - Access the Workspace URL **directly** and use the bundled WebUI
-- Access the Workspace through **WebIDE** (ignore the bundled WebUI)
+- Access the Workspace through **Web IDE** (ignore the bundled WebUI) (Not supported yet)
 
 ```plantuml
 @startuml
@@ -683,7 +683,7 @@ title
 end title
 
 node "Workspace" {
-  node "GitLab fork of VS Code" {
+  node "GitLab VS Code fork" {
     [HTTP Server] .[#blue]up.> [Static assets of the WebUI]
     [HTTP Server] -[#blue]-> [Extension Server (VS Code backend)]
     [HTTP Server] -[#green]-> [Extension Server (VS Code backend)]
@@ -736,13 +736,13 @@ You can read more about this decision in this [issue](https://gitlab.com/gitlab-
 
 ## Links
 
-- [Remote Development Workspaces direction](https://about.gitlab.com/direction/create/remote_development/workspaces/)
-- [Remote Development Workspaces presentation](https://docs.google.com/presentation/d/1XHH_ZilZPufQoWVWViv3evipI-BnAvRQrdvzlhBuumw/edit#slide=id.g131f2bb72e4_0_8)
+- [Workspaces direction](https://about.gitlab.com/direction/create/remote_development/workspaces/)
+- [Workspaces presentation](https://docs.google.com/presentation/d/1XHH_ZilZPufQoWVWViv3evipI-BnAvRQrdvzlhBuumw/edit#slide=id.g131f2bb72e4_0_8)
 - [Category Strategy epic](https://gitlab.com/groups/gitlab-org/-/epics/7419)
 - [Minimal Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9189)
 - [Viable Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9190)
 - [Complete Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/9191)
-- [Remote Development Workspaces Engineering Sync](https://docs.google.com/document/d/1hWVvksIc7VzZjG-0iSlzBnLpyr-OjwBVCYMxsBB3h_E/edit#)
+- [Workspaces Engineering Sync](https://docs.google.com/document/d/1hWVvksIc7VzZjG-0iSlzBnLpyr-OjwBVCYMxsBB3h_E/edit#)
 - [Market analysis and architecture](https://gitlab.com/groups/gitlab-org/-/epics/8131)
 - [Developer Documentation](https://gitlab.com/gitlab-org/remote-development/gitlab-remote-development-docs/)
 - [BYO infrastructure](https://gitlab.com/groups/gitlab-org/-/epics/8290)

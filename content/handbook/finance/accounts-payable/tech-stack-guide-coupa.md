@@ -17,7 +17,7 @@ Coupa was implemented in 2 phases. In scope for phase 1 was the implementation o
 
 - [Coupa End Users Guide](/handbook/business-technology/enterprise-applications/guides/coupa-guide)
 - [Coupa Virtual Card Guide](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
-- [Coupa FAQ]({{< ref "coupa-faq" >}})
+- [Coupa FAQ](/handbook/finance/procurement/coupa-faq/)
 
 ### System Diagrams
 

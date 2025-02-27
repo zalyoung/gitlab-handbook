@@ -100,7 +100,7 @@ Partners will appreciate the size of the Ultimate deals as well as the stickines
 
 Which GitLab stages/feature make up this sales play:
 
-* Create, Verify, Release, Secure, Govern
+* Create, Verify, Release, Secure, Software Supply Chain Security
 
 **Key capabilities in Ultimate center around security, compliance, insights/analytics, and releasing better + faster**
 
@@ -171,7 +171,7 @@ In addition to product advantages,
 
 #### **Validation/customer stories**  {#validation-customer-stories}
 
-wip, for now: [Glympse](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/issues/22), [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/), [Jasper](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/issues/49), [Wag!](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/issues/14), [HERE Tech](https://developer.here.com/blog/shifting-security-left-in-the-here-platform)
+wip, for now: [Glympse](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/issues/22), [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/), [Jasper](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/issues/49), [Wag!](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/issues/14), [HERE Tech](https://www.here.com/learn/blog/shifting-security-left-in-the-here-platform)
 
 #### **Offer and CTA**  {#offer-and-cta}
 

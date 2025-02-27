@@ -5,7 +5,7 @@ description: "Guidelines for Product Designers when reviewing merge requests (MR
 
 ## Requirements
 
-**Product Designers must review and approve MRs that include user-facing changes.** According to the [approval guidelines](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines), user-facing changes encompass both visual changes (regardless of how minor) and changes to the rendered DOM affecting screen reader announcements.
+**Product Designers must review and approve MRs that include user-facing changes.** According to the [approval guidelines](https://docs.gitlab.com/development/code_review/#approval-guidelines), user-facing changes encompass both visual changes (regardless of how minor) and changes to the rendered DOM affecting screen reader announcements.
 
 MRs with backend changes that affect UX (e.g., performance, list sorting) do not require your review unless they are user-facing.
 
@@ -52,7 +52,7 @@ Monitor MR review distribution using the [GitLab Review Workload Dashboard](http
 
 ## Reviewing
 
-Follow the [Code Review guidelines](https://docs.gitlab.com/ee/development/code_review.html) (read in entirety). Exceptions to these guidelines are noted below.
+Follow the [Code Review guidelines](https://docs.gitlab.com/development/code_review/) (read in entirety). Exceptions to these guidelines are noted below.
 
 ### Understand the MR
 
@@ -73,11 +73,11 @@ Review the MR in a live environment to experience the changes as users will. For
 
 Some MRs require additional set up:
 
-- **SaaS-only features**: Run the GDK as a SaaS version. [Simulate SaaS in the GDK](https://docs.gitlab.com/ee/development/ee_features.html#simulate-a-saas-instance).
-- **Paid features**: Request a license via an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new), using the GitLab_Team_Member_License_Request template. [Add the license to your instance](https://docs.gitlab.com/ee/administration/license_file.html#add-your-license-file-during-installation).
-  - You can also switch between CE and EE editions: [How to simulate a CE instance](https://docs.gitlab.com/ee/development/ee_features.html#simulate-a-ce-instance-when-unlicensed).
+- **SaaS-only features**: Run the GDK as a SaaS version. [Simulate SaaS in the GDK](https://docs.gitlab.com/development/ee_features/#simulate-a-saas-instance).
+- **Paid features**: Request a license via an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new), using the GitLab_Team_Member_License_Request template. [Add the license to your instance](https://docs.gitlab.com/administration/license_file/#add-your-license-file-during-installation).
+  - You can also switch between CE and EE editions: [How to simulate a CE instance](https://docs.gitlab.com/development/ee_features/#simulate-a-ce-instance-when-unlicensed).
 - **Pipeline-related and Runner features**: Create or enable a runner to run a pipeline. [Create a runner in Gitpod](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#enable-runners) or [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/runner.md).
-- **Compliance**: To test [audit event streaming](https://docs.gitlab.com/ee/administration/audit_event_streaming/) using a stream destination URL. Generate a temporary destination with [Pipedream](https://pipedream.com/).
+- **Compliance**: To test [audit event streaming](https://docs.gitlab.com/administration/audit_event_streaming/) using a stream destination URL. Generate a temporary destination with [Pipedream](https://pipedream.com/).
 - **Fulfillment**: Only Fulfillment Product Designers should review CustomersDot MRs.
   - [Set up CustomersDot locally](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main#setup). If impractical, review screenshots and videos in the MR description or coordinate a demo with the engineer. For complex changes, keep the change behind a feature flag and review on staging post-merge.
 - **Geo**:Install and configure two **GDKs** as Geo primary and secondary sites.
@@ -128,7 +128,6 @@ Some MRs require additional set up:
 - **Secure**:
   - Generate project vulnerabilities, execute `GITLAB_QA_ACCESS_TOKEN=XXXXXXXXXX GITLAB_URL="https://gitlab.com" bundle exec rake vulnerabilities:setup\[<Project_Id>,<Vulnerability_Count>\] --trace` from the `gitlab/qa` directory. Replace the placeholders in the script with your local access token, project ID, and desired number of vulnerabilities. An example of this might be `GITLAB_QA_ACCESS_TOKEN=asdfASDF1234- GITLAB_URL="http://localhost:3000/" bundle exec rake vulnerabilities:setup\[25,10] --trace`
   - Populate a merge request with vulnerabilities by [following these steps](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/89526#note_992018561).
-- **Monitor**: Add test alerts for some MRs. [Sample alert instructions](/handbook/engineering/development/ops/monitor/respond/#assigning-mrs-for-code-review) (see the inline code snippet of instructions).
 - **Service Desk**: Set up `incoming_email`, `service_desk_email` and MailRoom. These MRs can't be reviewed on GitPod and need a working GDK. [GDK setup instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/service_desk_mail_room.md). [Video walkthrough](https://youtu.be/SdqBOK43MlI).
 - **Value Stream Analytics**: [Setup and seed data instructions](https://gitlab.com/-/snippets/2169951/raw/main/blocks.md). [Request a developer license](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses) as many VSA features require an EE license.
 - **Product Analytics**: [GDK setup instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md). This process can only be done on a local version of the GDK, not on GitPod. Additionally, it requires Docker.
@@ -138,13 +137,13 @@ Some MRs require additional set up:
 ### Review the MR
 
 - **Use the checklist**
-  - Follow the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist) to make sure all main aspects are covered.
+  - Follow the [design and UI changes checklist](https://docs.gitlab.com/development/contributing/design/#checklist) to make sure all main aspects are covered.
   - If changes remain behind a feature flag and a full review in staging is planned, merging before a complete review can be considered. Be cautious as this can lead to unplanned issues.
 - **Stick to UX requirements**
   - Adhere to the UX requirements specified in the issue.
-  - Use the [follow-ups checklist](https://docs.gitlab.com/ee/development/contributing/design.html#follow-ups) to create issues for any further updates or missing elements.
+  - Use the [follow-ups checklist](https://docs.gitlab.com/development/contributing/design/#follow-ups) to create issues for any further updates or missing elements.
 - **Best practices for reviews**:
-  - Refer to the best practices for [everyone](https://docs.gitlab.com/ee/development/code_review.html#everyone) and [reviewers](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request).
+  - Refer to the best practices for [everyone](https://docs.gitlab.com/development/code_review/#everyone) and [reviewers](https://docs.gitlab.com/development/code_review/#reviewing-a-merge-request).
   - Treat the review as a dialogue to build trust and rapport within the team.
 - **Commenting**:
   - Separate each topic into its comment thread to facilitate individual discussions and resolutions. Create threads on the relevent line(s) of code.
@@ -154,8 +153,8 @@ Some MRs require additional set up:
     - Try the [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
 - **Visual feedback**:
   - Share annotated screenshots or screen recordings in your comments. This makes issues clear and communication more efficient.
-  - Use free apps like [CloudApp](https://www.getcloudapp.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
-  - Highlight differences between the implementation and the expected result using a [Markdown table](https://docs.gitlab.com/ee/user/markdown.html#tables). Use the template below:
+  - Use free apps like [CloudApp](https://zight.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/en-ca/guide/mac-help/mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
+  - Highlight differences between the implementation and the expected result using a [Markdown table](https://docs.gitlab.com/user/markdown/#tables). Use the template below:
       <details>
       <summary>Differences table template</summary>
 
@@ -188,8 +187,8 @@ Some MRs require additional set up:
 
 **Approval**:
 
-- Once confident the MR meets all requirements, [approve it](https://docs.gitlab.com/ee/development/code_review.html#getting-your-merge-request-reviewed-approved-and-merged) by clicking the "Approve" button in the merge request widget.
-- Follow the [responsibility of the reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer) guidelines for handoff.
+- Once confident the MR meets all requirements, [approve it](https://docs.gitlab.com/development/code_review/#getting-your-merge-request-reviewed-approved-and-merged) by clicking the "Approve" button in the merge request widget.
+- Follow the [responsibility of the reviewer](https://docs.gitlab.com/development/code_review/#the-responsibility-of-the-reviewer) guidelines for handoff.
 
 ## Performance indicator
 

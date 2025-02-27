@@ -1,3 +1,4 @@
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person */}}
 {{- /*  Initialize. */}}
 {{- $members := slice }}
 {{- $manager := dict }}
@@ -24,7 +25,9 @@
 {{- end }}
 
 {{- with (.Get "department") }}
-  {{ $members = where $members "departments" "intersect" (slice .) }}
+  {{- $departmentMembers := where $members "departments" "intersect" (slice .) }}
+  {{- $tagMembers := where $members "team_tags" "intersect" (slice .) }}
+  {{- $members = $departmentMembers | append $tagMembers | uniq }}
 {{- end }}
 
 <table>

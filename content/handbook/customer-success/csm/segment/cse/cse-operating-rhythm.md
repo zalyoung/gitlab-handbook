@@ -52,7 +52,7 @@ At the end of the webinar, the host should launch the poll for the attendees. Th
 2. Select **Polls**, then click on the **Feedback Poll**.
 3. Check the questions and click on the **Launch** button to launch the poll for all attendees.
 
-![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/cse/zoom-polls-cse.gif)
+![example-zoom-polls-webinars-cse](/images/customer-success/csm/segment/cse/zoom-polls-cse.gif)
 
 It is recommended to check before the webinar if the recorded video already mentions the poll. If yes, you should try to launch the poll at the same time it is mentioned in the recorded video.
 
@@ -117,7 +117,22 @@ Account owners (AEs, SAEs, Renewals Managers) working with customers that [quali
 
 This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
 
-![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/CSE-new-workflow.png)
+![example-clip-demonstrating-cse-request-sfdc](/images/customer-success/csm/segment/cse/CSE-new-workflow.png)
+
+#### CSE Catalog Offerings
+
+The CSE Catalog provides a structured framework of engagement offerings that support customer technical needs across different GitLab areas. When submitting an engagement request to the CSE team, Account Executives (AEs), Renewal Managers (RMs), and Solutions Architects (SAs) can select from these offerings to best match the customer's specific requirements. Each offering is designed to address distinct technical challenges and implementation scenarios, allowing for more focused and effective CSE engagements. Below are the detailed descriptions of each available offering:
+
+- **Fast-Track GitLab Implementation**: DevOps leads and platform administrators will recieve expert guidance on how to accelerate their GitLab deployment. The CSEs will share concrete setup recommendations covering configuration, user management strategies, and documentation based best practices.
+- **Optimize Your GitLab Architecture**: Enterprise architects and technical leads will receive expert guidance on designing a robust, scalable GitLab infrastructure. The CSEs will share best practices on architectural patterns, including high availability configurations and disaster recovery strategies that reduce downtime risk.
+- **Streamline Your CI Workflows**: Engineering leads and DevOps teams will learn strategies to enhance their CI pipeline performance and resource utilization. CSEs will analyze the customer's gitlab-ci.yml configuration and share optimization patterns to reduce build times and best practices for job efficiency, caching strategies, and pipeline architecture to improve overall CI performance.
+- **Strengthen Your Application Security**: Development and security leads will discover how to automate and streamline security practices across their pipeline. CSEs will share strategies for implementing automated scans, enforcing security policies, and managing vulnerabilities efficiently using GitLab's security features.
+- **Transform Your Workflow with AI**: Development teams and technical leaders will learn how to leverage GitLab Duo to accelerate their entire software development workflow, improve code quality and deliver more secure applications. CSEs will share strategies for implementing AI-assisted features across planning, code suggestions, and security scanning based on successful implementations.
+- **Optimize Your Migration Strategy**: Technical leaders and migration teams will learn proven strategies for moving to GitLab from their existing tools. CSEs will share migration approaches, technical prerequisites and limitations, architectural considerations, and risk mitigation tactics based on successful transitions at similar organizations.
+- **Accelerate Your Software Delivery**: DevOps teams will discover how to streamline their continuous deployment processes for greater reliability. CSEs will share best practices for deployment automation, environment configuration, and release management drawn from enterprise implementations. 
+- **Strengthen Your GitLab Operations**: System administrators will learn proven strategies for managing their GitLab environment at scale. CSEs will share best practices for authentication, user management, group organization, and project configuration based on enterprise implementations.
+- **Optimize Your Platform Observability**: Platform engineers will gain insights on optimizing their GitLab monitoring and observability practices. CSEs will share monitoring strategies for setting up basic system monitoring, implementing advanced observability, garbage collection statistics, and resource utilization tracking.
+- **Scale Your Agile Planning**: Project leaders and delivery teams will learn how to leverage GitLab's planning capabilities for better visibility. CSEs will share strategies for implementing effective workflows using issues, epics, and iterations while measuring progress through value stream analytics.
 
 #### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 
@@ -246,6 +261,6 @@ QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclH
 **1:MANY** : [Adoption Labs Master Decks](https://drive.google.com/drive/u/1/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY) /  [Webinar Master Recordings](https://drive.google.com/drive/u/1/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3) / [Webinars Youtube](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq) / [Scale Webinars Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/7b7c1229-e510-490f-9dbe-5c082b4e1c30)
 **COACH** : [CI Product Coach playbook](https://docs.google.com/document/d/1qUu2JGe9c_KGMaC67z1R5li_5IVFKdyuz2xdFnic97U/edit) / [CI Coach Report](https://docs.google.com/document/d/1LUtRu5EiPES9g9EORrk6poZ6t6Grj1Wqd19CbYepHGM/edit?usp=sharing) / [Security Coach Playbook](https://docs.google.com/document/d/1e1-Ib6lDR61QigylGLmAEWMePorauCWdg2Kb3v4jYLM) / [Pipeline Parser](https://gitlab.com/ci-product-coach-pipeline-parser/pipeline-parser-2-0) / [Security Coach Common Topics & Recommendations](https://docs.google.com/document/d/1li025fruN2shzQr5tVE5Ss0wVnXcIzOMGe9V6aqeuJ4/edit#heading=h.ndg2qmc91wtx)
 **DEMO** : [Demo Cloud](https://gitlabdemo.cloud/login) / [Shared Demo Systems Doc](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) / [Sandbox Cloud](https://gitlabsandbox.cloud/login) / [CS Shared Demo Space](https://gitlab.com/gitlab-learn-labs/webinars)
-**TRAINING** : [DevSecOps Bootcamp Nana](https://techworld-with-nana.teachable.com/courses/enrolled/2186952) / [New CSE Learning Path](https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
+**TRAINING** : [DevSecOps Bootcamp Nana](https://techworld-with-nana.teachable.com/p/devsecops-bootcamp) / [New CSE Learning Path](https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
 **USEFUL APPS** : [Rectangle](https://rectangleapp.com/) / [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 **CSE Lunch & Learn Recordings** : [Recordings](https://drive.google.com/drive/folders/1lXYzA4QSFEtR1zr0n7Nby7OYMrUYoVw4)

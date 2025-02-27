@@ -41,7 +41,7 @@ The process for these is:
 does not exceed 1 year. If it does, we cannot proceed with the request until
 the requester changes that.
 
-![Creating a license via staging cDot](/handbook/support/readiness/operations/images/generating_license_via_staging.gif)
+![Creating a license via staging cDot](/images/support/readiness/operations/generating_license_via_staging.gif)
 
 1. Login to the
    [staging cDot app](https://customers.staging.gitlab.com/admins/sign_in) via
@@ -81,7 +81,7 @@ To do this, reply with the following:
 > `Your GitLab License File` in your e-mail to locate it.
 >
 > For information on applying a license, please read through
-> [our documentation](https://docs.gitlab.com/ee/administration/license_file.html).
+> [our documentation](https://docs.gitlab.com/administration/license_file/).
 >
 > As this is a staging license, please keep in mind you *must* setup your GitLab
 > deployment to work with those.

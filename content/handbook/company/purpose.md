@@ -57,7 +57,7 @@ We empower how people work by providing thought leadership on remote work which 
 
 1. Enable more companies to work remotely, which spreads job opportunities more evenly globally across regions and countries
 1. Published [The Remote Playbook](https://learn.gitlab.com/suddenlyremote) and the [Remote Work Report](/handbook/company/culture/all-remote/remote-work-report/): with over 100,000 downloads, it's the de facto blueprint as the world transitions to remote work
-1. GitLab's all-remote culture is being taught to execs and business students via case studies with [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://www.insead.edu/conversations/gitlab-can-all-remote-scale)
+1. GitLab's all-remote culture is being taught to execs and business students via case studies with [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://web.archive.org/web/20230608075828/https://www.insead.edu/conversations/gitlab-can-all-remote-scale)
 1. All remote and remote-first [job boards](/handbook/company/culture/all-remote/jobs/#all-remote-and-remote-first-job-boards)
 1. All remote [certification](/handbook/company/culture/all-remote/remote-certification/) to allow more companies to hire remote team members
 1. Reaching hundreds of thousands of remote transitioners via our [How to Manage a Remote Team](https://www.coursera.org/learn/remote-team-management) course on Coursera
@@ -117,7 +117,7 @@ Our purpose is on a 30 year cadence
 
 Our purpose informs [our mission](/handbook/company/mission), and our mission is the way we realize our purpose. [Our mission](/handbook/company/mission) is to make it so **everyone can contribute** by using our product, to our product, and to our company.
 
-By making it so **everyone can contribute**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb/educational/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
+By making it so **everyone can contribute**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 

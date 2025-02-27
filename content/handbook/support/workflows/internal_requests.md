@@ -52,7 +52,7 @@ graph TD;
 
 ## Activate Trial Runners
 
-For sales assisted trials, only we can override the credit card validation requirement for a namespace. See [Internal Requests > SaaS Trial Related > Change an existing SaaS trial plan]({{< ref "internal-support#internal-requests" >}}) for instructions on how to perform this task.
+For sales assisted trials, only we can override the credit card validation requirement for a namespace. See [Internal Requests > SaaS Trial Related > Change an existing SaaS trial plan](/handbook/support/internal-support/#internal-requests) for instructions on how to perform this task.
 
 ## GitLab.com Trial Change Request
 
@@ -60,7 +60,7 @@ Sales team members will typically open this on behalf of their prospects in orde
 
 ## Ask for Support as a Solution Architect
 
-Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
+Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). This form is an internal request, which means the work takes place between the SA and the engineer. Customers can not collaborate on these tickets. In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
 
 ## Inactive Namespace Request
 
@@ -140,7 +140,7 @@ If you're not completely sure about the specifics of the script or commands, tes
 
 ## CI Catalog Badge requests
 
-[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
+[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
 
 1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
 1. In the following query, replace `root-level-group` with the namespace and verification level (`GITLAB_PARTNER_MAINTAINED`, `VERIFIED_CREATOR_MAINTAINED`) provided in the internal request:

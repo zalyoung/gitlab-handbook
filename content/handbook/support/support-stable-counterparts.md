@@ -47,7 +47,7 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 - Inquire about the group's plans for breaking changes in the next major release well in advance (three months/releases prior). Try to get a proper understanding of how customers will be affected early on.
 - Be aware of the priorities and challenges of the product group.
 - Strive to become a subject matter expert in the use of the features they cover. At the section level, focus on becoming knowledgeable on feature usage and effect on customers.
-- Consider adding yourself as a CC to the [request-for-help](https://gitlab.com/gitlab-com/?filter=request-for-help) issue template for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. You might be able to provide additional context, help your colleague or just benefit from increased awareness yourself.
+- Consider adding yourself as a CC to the [RFH issue template](https://gitlab.com/gitlab-com/request-for-help/-/tree/main/.gitlab/issue_templates?ref_type=heads) for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. You might be able to provide additional context, help your colleague or just benefit from increased awareness yourself.
 - [Section SSC] Provide insight into relevant product KPIs and their potential impact on customers and Support.
 
 ### Enable Support with periodic communication relevant to the group
@@ -127,7 +127,7 @@ If your group doesn't have an SSC assigned and you'd like to request one, please
 
 ## Feedback on the current initiative
 
-During Q3-FY23 the [SSC create and document process to ensure alignment of Support and Product issue prioritization and track results](https://app.ally.io/objectives/2228176?time_period_id=155987) OKR focused on reaching out to Product and Engineering Managers, and their SSC/s to gather feedback. A common theme highlighted an interest from Product Managers having inputs from Support that may be able to provide insights for product planning and prioritization meetings with Product Managers.
+During Q3-FY23 the SSC create and document process to ensure alignment of Support and Product issue prioritization and track results OKR focused on reaching out to Product and Engineering Managers, and their SSC/s to gather feedback. A common theme highlighted an interest from Product Managers having inputs from Support that may be able to provide insights for product planning and prioritization meetings with Product Managers.
 
 SSCs that are regularly engaging with their product group are informing Support with knowledge they have picked up and the Product and Engineering Managers have built a steady relationship in these particular groups. There are still a few groups who are yet to build these foundational relationships, however, the feedback issues created an opportunity to encourage these discussions to start and a path forward for these groups to be carved out.
 

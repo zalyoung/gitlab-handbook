@@ -2,7 +2,7 @@
 title: Renewals Managers
 ---
 
-![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
+![Global Renewals Organiztion](/images/customer-success/renewals-managers/home/GitLab_GR_BLK.gif)
 
 Global Renewals Organization
 
@@ -73,27 +73,6 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 2. More efficient and effective renewal operations
 3. A better customer renewal experience driven by a culture of small, incremental continuous improvements
 4. An empowering team culture
-
-### Capabilities and managmeent systems necessary
-
-*Capabilities*
-
-- Renewals enabling SFDC configuration
-- Renewal outreach automation and tracking
-- Risk tagging and forecasting integration
-- Risk mitigation system
-- Late renewal identification
-- Trustworthy SFDC KPIs
-
-*Systems*
-
-- Management dashboards
-- Temp key tracking
-- Churn budgeting and forecasting
-- Balanced renewals scorecard
-- Risk identification / mitigation process
-- Renewal forecasting
-- Real time renewals performance tracking
 
 ### RM New Team Member Onboarding
 

@@ -26,15 +26,15 @@ Each year in the fall, the project lead recruits GitLab Team Member [volunteers]
 
 At the start of the spring semester (usually in January), the participating students vote on which proposal they would like to work on.
 
-The volunteer team begins meeting weekly with the students once they have decided on a proposal. Weekly meetings continue throughout the spring semester (usually until late April or early May).
+The volunteer team begins meeting weekly with the students once they have decided on a proposal. Weekly meetings continue throughout the spring semester (In 2025, the students' spring semester is **January 15, 2025 through May 9, 2025**).
 
-At the end of the semester, the students present their results to an internal audience at GitLab (which is open to the entire org). They also present their final project to their professors.
+At the end of the semester, the students present their results to an internal audience at GitLab (which is open to the entire org). They also present their final project to their professor.
 
 Following the end of the semester, the project lead solicits feedback from volunteers and students, documents the results of the project, and arranges for the following year's project leadership.
 
 ## How to volunteer
 
-If you're interested in volunteering for the Spring 2025 semester, you should complete the following **by Monday, November 18th, 2024**:
+If you're interested in volunteering for the Spring 2025 semester:
 
 1. Reach out to your manager for awareness and to discuss how participation might impact your capacity.
 1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers).
@@ -69,7 +69,7 @@ You can use this list of previous projects considered for the Tufts University c
 {{% /details %}}
 
 {{% details summary="How are developers using runners and why are they important to them?" %}}
-Runners are at the core of [Continuous integration and deployment](https://docs.gitlab.com/ee/ci/) (CI/CD), one of GitLab's primary offerings. Thousands of users use our [GitLab SaaS Runners](https://docs.gitlab.com/ee/ci/runners/), managed by our own GitLab team members. For those companies who run their own instances of GitLab and cannot use gitlab.com, [bringing and managing their own runner](https://docs.gitlab.com/runner/fleet_scaling/) is required in order to use CI/CD features. We've done [extensive research](/handbook/engineering/development/ops/verify/runner/jtbd/#runner-enterprise-administration) around the management and observability needs of platform engineers who are responsible for those runners, but what isn't clear is how developers (and others with lower permissions) make use of runners and what runner information is crucial for them to complete their jobs. You will focus on understanding the problem at hand by running research with real GitLab developers. You'll also create mockups [Pajamas UI kit in Figma](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit) based on what you learn and then validate them with users.
+Runners are at the core of [Continuous integration and deployment](https://docs.gitlab.com/ci/) (CI/CD), one of GitLab's primary offerings. Thousands of users use our [GitLab SaaS Runners](https://docs.gitlab.com/ci/runners/), managed by our own GitLab team members. For those companies who run their own instances of GitLab and cannot use gitlab.com, [bringing and managing their own runner](https://docs.gitlab.com/runner/fleet_scaling/) is required in order to use CI/CD features. We've done [extensive research](/handbook/engineering/development/ops/verify/runner/jtbd/#runner-enterprise-administration) around the management and observability needs of platform engineers who are responsible for those runners, but what isn't clear is how developers (and others with lower permissions) make use of runners and what runner information is crucial for them to complete their jobs. You will focus on understanding the problem at hand by running research with real GitLab developers. You'll also create mockups [Pajamas UI kit in Figma](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit) based on what you learn and then validate them with users.
 Interview developers to understand how they are interacting with runners today and what type of information they need to know about runners (primary issue: [Problem validation: How do developers (and others with the same, or less, permissions) interact with runners?](https://gitlab.com/gitlab-org/ux-research/-/issues/225)). Create mockup proposals to present this data that will replace the Project>CI/CD>Runners view and validate them with real developers.
 {{% /details %}}
 
@@ -117,7 +117,7 @@ In the lead up to the project start, the project lead should:
 - Recruit GitLab Team Member [volunteers](#how-to-volunteer), keeping in mind the ideal [volunteer team composition](#volunteer-team-composition).
 - Solicit at least 2 [project proposals](#project-proposals) from GitLab team members for students to vote on.
 - Communicate with the Product team DRIs (Product Manager, Product Designer, UX Researcher) that own the feature area for each project proposal.
-- Coordinate with the professors, Linda Borghesani (`Linda.Borghesani@tufts.edu`) & Nick Katis (`Nick.Katis@tufts.edu`). They will arrange for the students to choose which proposal.
+- Coordinate with the professor, Linda Borghesani (`Linda.Borghesani@tufts.edu`). She will arrange for the students to choose which proposal.
 
 #### During the project
 
@@ -137,7 +137,7 @@ While the project is in progress, the project lead should:
 - Hold stakeholder review sessions for larger deliverables, such as the discovery research proposal. These meetings should _at least_ include the Product Manager, Product Designer, and UX Researcher of the product area the project focuses on. These can take place instead of a weekly sync or at a separate time depending on the team's preference.
 - Use issues in the project to track sponsor-assigned tasks, such as project prep and reviewing student deliverables.
 - Record weekly check-ins and add them to the [Tufts Capstone Project playlist](https://www.youtube.com/watch?v=ykRgoFRjNkE&list=PL05JrBw4t0KoZr3rjOL2xv5c66_C526nE) on Unfiltered. This playlist is private, as some recordings will contain confidential information, such as reviews of confidential research or competitors.
-- If the students and professors are interested, organize a final presentation for them in a GitLab-held Zoom meeting. Be sure to:
+- If the students and professor are interested, organize a final presentation for them in a GitLab-held Zoom meeting. Be sure to:
   - include the Product Department as attendees.
   - Add the event to the GitLab team meetings calendar by following [these steps](/handbook/tools-and-tips/#adding-an-event-to-the-gitlab-team-meetings-calendar).
   - Post in `#whats-happening-at-gitlab` for extra transparency.

@@ -40,7 +40,7 @@ If you're contributing to an open source project on behalf of GitLab, you may be
 If your GitHub account's primary email is not your @gitlab.com email, you can add it as an additional address. No need to create a separate account.
 
 1. Fork the repository you want to contribute to into your account
-2. Follow the usual [pull request flow](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+2. Follow the usual [pull request flow](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 In the future, we might have a single organization for forks. That will allow us to track various metrics about contributions made by GitLab employees.
 

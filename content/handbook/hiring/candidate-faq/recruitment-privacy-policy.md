@@ -3,7 +3,6 @@ title: "Recruitment Privacy Policy"
 description: "This Recruitment Privacy Policy describes GitLab Inc. and its affiliates (GitLab) practices for collecting, storing, and processing your personal data as part of the recruitment process."
 ---
 
-This Recruitment Privacy Policy describes GitLab Inc. and its affiliates ("GitLab") practices for collecting, storing, and processing your personal data as part of the recruitment process.
 
 #### What Personal Data Does GitLab Collect About You?
 
@@ -14,7 +13,7 @@ We may collect the following personal data from you when you apply for a positio
 - Contact Information such as name, email address, physical address, telephone number;
 - Employment Background Information such as resume/CV, employment history, academic and professional qualifications;
 - Work eligibility and citizenship information;
-- Demographic Information such as racial or ethnic origin for government reported statistics when permitted by law or with your consent.
+- Demographic Information such as gender, race or ethnic origin for government reported statistics when permitted by law or with your consent.
 
 *Information We Collect from Other Parties*
 
@@ -32,7 +31,7 @@ We may collect and use your personal data for the following purposes:
 - To communicate with you about your job application and potential future job opportunities;
 - To administer, support, and manage the job application process;
 - Where necessary to comply with applicable legal or regulatory requirements;
-- To evaluate and report the demographic makeup of our company where allowed by law; and
+- To evaluate and report the demographic makeup of our company's recruitment efforts where allowed by law; and
 - For other purposes as described to you at the time we collect your personal data.
 
 #### When Does GitLab Share Your Data and Who are the Recipients?
@@ -40,7 +39,7 @@ We may collect and use your personal data for the following purposes:
 As part of the recruitment process, GitLab may disclose your personal data in the following circumstances:
 
 - Internally with GitLab team members, contractors, and vendors who require the information to administer and manage the recruitment process;
-- To third-party service providers which process personal data on our behalf to provide certain services, such as background checks;
+- To third-party service providers which process personal data on our behalf to provide certain services, such as background checks and predictive analytics;
 - To third-parties with whom you instruct GitLab to share your personal data;
 - We may share your personal data if we believe it is reasonably necessary to comply with valid legal process (e.g., subpoenas, warrants) or protect the rights, property, or safety, of GitLab, our employees, or users;
 - If GitLab is acquired or transferred (including in connection with a bankruptcy or similar proceedings), we may share your personal data with the acquiring or receiving entity.
@@ -91,4 +90,4 @@ The controller of your personal data is the GitLab affiliate who is hiring.
 
 #### Policy Updates
 
-This policy was last updated on `2023-03-14`.
+This policy was last updated on `2025-01-30`.

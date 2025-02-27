@@ -40,9 +40,13 @@ The service owner shall:
 - Fill in the remaining "Key Information" fields, using the incident issue and conversations with the EOC as reference
 - Create a short executive summary of the incident
 - Write a narrative describing what happened and how we addressed it
+- Engage people that were involved in the incident (EOC, IMOC, CMOC, other engineers and stakeholders) in discussion
+- Ask probing questions to gain further insight leading to corrective actions
+- Do the corrective actions ensure a similar issue will not reoccur? If not, keep probing and consider expanding who is involved in the review.
 - Link and potentially create [corrective actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions), [infradev](/handbook/engineering/workflow/#infradev) issues, or any other actions or outcomes from the incident
 - Add appropriate labels and remaining metadata to the issue
 - Summarize any conversations that happen in the review comments or in Slack
+- Include a summary of the incident in the [SaaS Availability](https://docs.google.com/document/d/1PYcIrIVlraWUwIETqNzIg8aLziMYpeJVBxGGuXplXUI/edit?usp=sharing) and join sync or async to update on impact and corrective actions.  
 - Close the review before the due date
 
 ## Incident Review Process

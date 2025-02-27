@@ -14,9 +14,9 @@ To provide frictionless, world class, Application Support Experience for the Git
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Roadmap
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
-[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/services-and-operations/)
+Learn more about [our team and roles](https://internal.gitlab.com/handbook/it-enterprise-applications/organizational-structure/services-and-operations/) in supporting GitLab's enterprise applications.
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Our Services
 

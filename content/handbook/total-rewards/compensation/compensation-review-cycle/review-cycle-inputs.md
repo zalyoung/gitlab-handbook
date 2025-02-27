@@ -42,7 +42,7 @@ Benchmarking review is an internal process completed by the Total Rewards team t
 1. Ensure the IC, Manager, Director, and Sales benchmark tabs have been updated with our currently used job codes.
 1. Ensure formulas are in place for each row of the "Radford/Comptryx Job Codes" tab and that the median of the 50th and 75th are properly pulling into the benchmarks tabs.
 1. Use the `Job Codes` sheet to refresh the current FY21 benchmarks. Compare our current benchmarks to the median of the 50th and 75th of the survey data (depending on the role) and make any recommendations based on market fluctuations.
-1. Once the new benchmarks are reviewed and approved, these are updated in the [handbook](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/-/blob/master/data/job_families.yml).
+1. Once the new benchmarks are reviewed and approved, these are updated in the [handbook](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/-/blob/main/data/job_families.yml).
 
 ### Location Factor Review
 
@@ -52,7 +52,7 @@ The location factor review is an internal process completed by the Total Rewards
 
 1. Create a copy of the `Location Factor Review` sheet for the upcoming FY.
 1. Ensure all location factors, including ones added throughout the year and ones marked for further review, have been added to the analysis.
-1. [Pull in refreshed data]({{< ref "compensation-review-cycle#pulling-survey-data-and-matching" >}}) for all data sources: ERI, Robert Half, Dice, Radford, and Comptryx.
+1. [Pull in refreshed data](/handbook/total-rewards/compensation/compensation-review-cycle/) for all data sources: ERI, Robert Half, Dice, Radford, and Comptryx.
    1. Check these resources for new matches to our location factors and pull data for all available metros.
 1. Using the refreshed data, compare the new data to our current location factors for fluctuations noting that we will not decrease a location factor.
     1. Analyze the average data for all locations in a geographical region to determine the location factor for that geographical region.
@@ -87,7 +87,7 @@ The location factor review is an internal process completed by the Total Rewards
 
 **Dice**
 
-1. Download the most recently published [Dice Technology Salary Report](https://techhub.dice.com/Dice-2020-Tech-Salary-Report.html).
+1. Download the most recently published [Dice Technology Salary Report](https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/).
 1. Information from Dice has to be manually pulled out of their PDF to our sheet.
 1. Add the salaries for each city and state reported by Dice to the Dice tab, adding a new line for any new cities or states.
 1. Match any Dice locations to the corresponding GitLab locality, if applicable.
@@ -129,7 +129,7 @@ The Total Rewards Team will audit with the following data breakdowns (as aligned
 - Tenure
 - Gender (as self reported in Workday)
 - Geographic Region
-- [Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}})
+- [Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 The Total Rewards team has created a template to automatically sync for each department leader, indirect manager, and overall e-group leader by adding the information submitted into a master file for increased efficiency in data analysis.
 

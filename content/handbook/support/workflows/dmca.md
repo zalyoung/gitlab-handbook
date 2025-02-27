@@ -4,6 +4,7 @@ category: GitLab.com
 subcategory: Legal
 description: "Support Engineering workflow for DMCA requests"
 ---
+The [Digital Millennium Copyright Act (DMCA)](https://www.copyright.gov/dmca/) is a 1998 United States federal law that provides copyright owners with legal mechanisms to protect their digital works from unauthorized use and distribution online.
 
 ## Workflow change March 2019
 
