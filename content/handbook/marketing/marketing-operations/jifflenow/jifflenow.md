@@ -18,7 +18,7 @@ To following along on the project, follow Asana project: https://app.asana.com/0
 
 ## Access
 
-Humantic AI will be made available to Sales attending events, EBAs and necessary Marketing people.
+Jifflenow will be made available to Sales attending events, EBAs and necessary Marketing people.
 
 ## Integrations
 
