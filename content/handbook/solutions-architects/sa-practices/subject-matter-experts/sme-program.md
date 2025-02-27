@@ -161,7 +161,7 @@ When a new SME for any area is selected, the following steps will be taken:
 
 1. The SME receives approval from their direct manager to participate in the SME program for their region.
 2. The new SME will complete any required on-boarding for the SME Area. Required on-boarding will be decided by each area. Examples, [Embedded](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/subject-matter-experts/embedded-devops-sme/-/blob/main/.gitlab/issue_templates/Embedded_DevOps_SME_Candidate_Onboarding.md) and [Dedicated](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/subject-matter-experts/sa-sme-team-dedicated/-/blob/main/.gitlab/issue_templates/New%20Dedicated%20SME%20Onboarding.md) on-boarding Issue templates.
-2. Add the SME to the relevant Google Group and Slack Group for their Area of Expertise. This will ensure that the SME is added automatically to all cadence calls for that Area.
-3. Add the SME to the appropriate Stack OverFlow team area to begin answering questions
-4. Add the SME to the appropriate [SME Slack Channel](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)
-5. As a new SME, strive to contribute to a new request for help, shared content review, Stack Overflow question, or other helpful effort.
+3. Add the SME to the relevant Google Group and Slack Group for their Area of Expertise. This will ensure that the SME is added automatically to all cadence calls for that Area.
+4. Add the SME to the appropriate Stack OverFlow team area to begin answering questions
+5. Add the SME to the appropriate [SME Slack Channel](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)
+6. As a new SME, strive to contribute to a new request for help, shared content review, Stack Overflow question, or other helpful effort.
