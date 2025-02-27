@@ -48,7 +48,7 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 
 ### Engineering Innovation
 
-Engineering Innovation is a new process geared toward individual or small-team experiments that encourages engineers to explore new ideas and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.  See the [Innovation at GitLab Guide](./engineering-innovation.md).
+Engineering Innovation is a new process geared toward individual or small-team collaboration that encourages engineers to explore new ideas and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable experimental feature or product.  See the [Innovation at GitLab Guide](./engineering-innovation.md).
 
 ### Technical Roadmaps
 
