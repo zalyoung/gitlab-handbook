@@ -47,6 +47,7 @@ As post-sale professionals partnering with customers, CS teams must be intention
 - Ensuring customers realize the return on their investment in GitLab
 
 ### Verifiable Outcomes Framework
+
 The verifiable outcomes framework has been created to:
 
 - Enhance the objectivity and measurability of outcomes that customers achieve through GitLab
@@ -57,6 +58,7 @@ The verifiable outcomes framework has been created to:
 ### Building on Existing CS Practices
 
 GitLab's CS teams have already established a strong foundation by:
+
 - Understanding customer goals and capturing them in success plans
 - Evangelizing best practices through awareness and enablement
 - Reporting on value realization and utilization
@@ -64,10 +66,10 @@ GitLab's CS teams have already established a strong foundation by:
 
 Verifiable outcomes represent the next evolution of these practices to ensure effectiveness and demonstrate value.
 
-
 ### What is a Verifiable Outcome?
 
 A verifiable outcome must be SMART:
+
 - **S**pecific
 - **M**easurable
 - **A**ttainable
@@ -75,6 +77,7 @@ A verifiable outcome must be SMART:
 - **T**ime-bound
 
 Additionally, each verifiable outcome must include:
+
 1. **Baseline metrics**: Where we are today
 2. **Success criteria**: How we'll know when we're done
 3. **Business impact**: The effect on the customer's business in their language
@@ -121,7 +124,6 @@ Verifiable outcomes follow a four-stage process:
    - Verify that success criteria have been met
    - Document business impact achieved
 
-
 ### Best Practices and Guidelines
 
 When developing verifiable outcomes:
@@ -143,6 +145,7 @@ When developing verifiable outcomes:
 - **Talk to your stakeholders** 
 
 ## Success Metrics
+
 To measure progress and KPIs related to verifiable outcomes:
 
 1. **Tracking Success Plans**
@@ -170,16 +173,19 @@ This example clearly shows the starting point (baseline), specific measurable ta
 ### Common Pitfalls to Avoid: Ineffective VO Examples
 
 ### Missing Baseline
+
 - ❌ "Current process is slow and manual" → No quantifiable measurements
 - ❌ "Takes too long to deploy" → No specific time measurements
 - ❌ "Too many errors" → No error rate baseline
 
 ### Vague Success Criteria
+
 - ❌ "Make deployments faster" → No specific target
 - ❌ "Improve success rate" → No target percentage
 - ❌ "Reduce manual work" → No specific reduction goal
 
 ### Unclear Business Impact
+
 - ❌ "Will improve efficiency" → No measurable impact
 - ❌ "Better developer experience" → No concrete benefits
 - ❌ "Implement when ready" → No timeline or milestones
