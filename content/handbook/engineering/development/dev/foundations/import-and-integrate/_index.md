@@ -159,6 +159,8 @@ The weights we use are:
 
 Anything larger than 5 should be broken down if possible.
 
+Weights should account for both development and review time.
+
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
 [patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
