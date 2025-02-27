@@ -1243,6 +1243,20 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
      1. Confirm that the test record was added to the SFDC campaign (this may take a few minutes)
      1. Confirm that the test record was not sent any other emails (except double opt-in email for Germany if applicable) or added to other programs as a result of this test
 
+### Adding LinkedIn Lead Gen forms to drive event registration
+LinkedIn Lead Gen forms can be used to drive event registration without adding a new Marketo program. 
+
+1) Follow the instructions above to create the LI Lead Gen form. There are a couple of changes you must make to be sure the responses only flow through the event registration processing and not the standard LI form processing.
+2) For ABM LI Lead Gen forms, use the naming convention: `abmkey_region_gtm` for driving event registration. The standard (non-event) format is `abmkey_gtm_region`. By changing the order of `region` and `gtm`, you will not need to add exclusions to the main LI Lead Gen form processing.
+3) For Digital Marketing forms, do not use the `gtm` in the form name. Use a unique name that represents the event.
+4) In Marketo, go to the Marketo program for the event you are promoting.
+5) For most events, we recommend setting up a waitlist for responses from LinkedIn. This allows the event DRI to approve registrations. If a waitlist processing campaign is already activated in the program, you can skip to step 6.  
+     a) ONLY DO THIS IF THE WAITLIST PROCESSING IS NOT ACTIVE: If only the `Registration` processing campaign is active, you will need to activate the waitlist for LI responses. Click on `Waitlist` and **remove** the "Filled out form" trigger. Now, complete the task in step 6 and activate the `Waitlist` campaign. You must also activate the "Waitlist to Registered" campaign.
+6) Add a trigger for "Fills out LinkedIn Lead Gen Form". Lead Gen Form Name: `contains` (enter Lead Gen form name you created in step 1 here). If you have multiple forms for this event, you can click the green plus sign in the box after `contains` and add multiple forms.
+7) If your form is only targeting AMER responses, click on the "Flow" steps and at the bottom, add "Change Data Value". Add Choice. If LinkedIn Lead Gen Form name `contains` (name(s) of LI lead gen form). Attribute: Opt-in, New value: True
+8) Test your updates. Details for what to look for can be found in the [Test your Marketo program setup](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#test-your-marketo-program-setup) - Note that when a person is added to the waitlist, they will not get an autoresponder, but you will see them added to the program. 
+9) If you have any questions or just want your set-up checked over, please reach out to Marketing Ops before pushing your campaign live.
+
 ## Raffles
 
 Raffles can be associated with many different campaign types and have various ways to enter. You must complete the [legal requirements](/handbook/legal/marketing-collaboration/#engaging-legal-for-approval) before launching your raffle.
