@@ -66,18 +66,18 @@ GitLab will provide a comprehensive MLOps platform built on top of existing GitL
 graph TB
     subgraph DevPhase["Development Phase"]
         direction TB
-        A1[Experiment Tracking]
-        A2[Model Registry]
-        A3[GPU Runner Management]
-        A4[Code repository]
+        A1[Experiment Tracking]:::ongoing
+        A2[Model Registry]:::ongoing
+        A3[GPU Runner Management]:::ongoing
+        A4[Code repository]:::completed
     end
 
     subgraph CiCd["CI/CD Pipeline"]
-        B4[Deployment Pipeline]
+        B4[Deployment Pipeline]:::new
     end
 
     subgraph Prod["Production Phase"]
-        C2[Model Monitoring]
+        C2[Model Monitoring]:::ongoing
     end
 
     A1 --> A2
@@ -86,6 +86,23 @@ graph TB
     A4 --> A1
     CiCd --> Prod
     Prod --> DevPhase
+
+    %% Define styles for different statuses
+    classDef completed fill:#a3cfbb,stroke:#178344,color:black
+    classDef new fill:#ffdebd,stroke:#ff8c00,color:black
+    classDef ongoing fill:#b8d0ff,stroke:#0066cc,color:black
+
+    %% Place the legend at the bottom with right alignment
+    subgraph Legend[" "]
+        direction LR
+        L3[Ongoing]:::ongoing
+        L2[New]:::new
+        L1[Completed]:::completed
+    end
+    
+    %% Position the legend at the bottom right
+    Prod --> Legend
+    style Legend fill:none,stroke:none
 ```
 
 #### Diagram Notes
