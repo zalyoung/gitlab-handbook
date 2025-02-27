@@ -256,6 +256,12 @@ The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) f
 
 This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper ticket management.
 
+**Once a milestone**, the Reaction Coordinator is responsible for triaging RFH issues.
+
+1. Has an engineer engaged with the RFH? Is not, assign RFH to one of the reaction coordination engineers to work on.
+1. Is the RFH a candidate to be closed? If so, close the RFH issue with any needed notes.
+1. Check zendesk for customer responses that haven't made it into the RFH yet.
+
 #### When to Close an RFH
 
 RFH issues can take a long time to resolve with numerous back and forth communications between engineering, support, and the customer. Sometimes customers will stop responding if they get past the issue, a workaround works, or they decide to stop investing in the support case. To limit the amount of issue maintenance that is required, RFH issues should be closed when there are no more steps to be performed or when the last step is a confirmation from the customer. When the last step is a confirmation from the customer close the issue with a message similar to:
