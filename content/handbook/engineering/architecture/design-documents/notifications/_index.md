@@ -50,16 +50,80 @@ TBD
 
 ## Proposal
 
-<!--
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
+### Summary
 
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
--->
+We propose unifying our currently fragmented notification systems (email notifications and to-dos) into a single, cohesive notification center using an event-driven architecture. This will improve user experience, simplify code maintenance, and enable future extensibility.
+
+### Proposed Solution
+
+Create a unified notification center built on an event-driven architecture that:
+
+- Uses our existing Event Store as the backbone for all notifications
+- Establishes a single database model for all notification types
+- Implements sensible retention policies (3-6 months by default)
+- Allows users to save important notifications indefinitely
+- Provides consistent API access for both internal and external integrations
+
+#### Pros and Cons
+
+##### Pros
+
+1. Improved user experience:
+
+  - Single location for all notifications
+  - Consistent interface and behavior
+  - Greater control over notification preferences
+
+
+1. Technical benefits:
+
+  - Decoupled architecture allows independent service development
+  - Centralized notification logic improves maintainability
+  - Event-driven design enables easy addition of new notification types
+  - Reduced code duplication and complexity
+
+
+1. Future flexibility:
+
+  - Straightforward path to add new notification channels (web, mobile push, etc.)
+  - API-first approach enables third-party integrations
+  - Retention policies prevent database bloat
+
+##### Cons
+
+1. Migration complexity:
+
+- Requires careful handling of existing notifications
+- User settings need thoughtful transition
+- Temporary increased system complexity during transition
+
+1. System dependencies:
+
+  - Increased reliance on Event Store reliability
+  - Need to manage event processing performance
+  - Potential for more complex failure scenarios
+
+1. Resource requirements:
+
+  - Significant engineering effort
+  - Careful testing required to ensure seamless transition
+
+
+
+#### Alternatives Considered
+1. Enhance current systems independently
+Pros:
+
+- Less initial development effort
+- Lower migration risk
+- Can be implemented incrementally
+
+Cons:
+
+- Maintains fragmented user experience
+- Doesn't solve code maintenance issues
+- Limited future extensibility
+- Duplicated effort for common features
 
 ## Design and implementation details
 
