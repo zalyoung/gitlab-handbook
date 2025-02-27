@@ -22,32 +22,6 @@ title: "Scalability Group"
 1. [Scalability Issues by Team](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5797977?label_name[]=group%3A%3Ascalability)
 1. [Scalability Issues by Team Member](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5798021?label_name[]=group%3A%3Ascalability)
 
-## Teams
-
-The Scalability group is currently formed of two teams:
-
-* [Scalability:Observability](observability/) and
-* [Scalability:Practices](practices/).
-
-{{< team-by-manager-slug "rachel-nienaber" >}}
-
-### Scalability:Observability
-
-The [Observability team](observability/) focuses on observability, forecasting & projection systems that enable development engineering to predict
-system growth for their areas of responsibility.
-
-The following people are members of the [Scalability:Observability team](observability/):
-
-{{< team-by-manager-slug "liam-m" >}}
-
-### Scalability:Practices
-
-The [Practices team](practices/) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
-
-The following people are members of the [Scalability:Practices team](practices/):
-
-{{< team-by-manager-slug "kwanyangu" >}}
-
 ## Mission
 
 The **Scalability group** is responsible for GitLab at scale, working on the highest priority scaling items related to our SaaS platforms.

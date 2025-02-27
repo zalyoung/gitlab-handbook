@@ -160,7 +160,6 @@ We unassign ourselves from issues we are not actively working on or planning to 
 The Observability team's [issue boards](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/boards/) track the progress of ongoing work.
 
 We use [issue boards](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/boards/) to track the progress of planned and ongoing work.
-Refer to the Scalability group [issue boards section](/handbook/engineering/infrastructure/team/scalability/#issue-boards) for more details.
 
 | **Planning** | **Building**|
 |--------------|-------------|
