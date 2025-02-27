@@ -98,15 +98,15 @@ This proposal references the first part, but is focused on implementing the seco
 ## Goals
 
 - **The querying API must support the Clickhouse exporter**
-    - Although we have plans to support alternative exporters, our core initial goal is to work in conjunction with [Siphon](https://gitlab.com/gitlab-org/analytics-section/siphon) to collate and analyse GitLab data, which will be stored in Clickhouse tables.
+  - Although we have plans to support alternative exporters, our core initial goal is to work in conjunction with [Siphon](https://gitlab.com/gitlab-org/analytics-section/siphon) to collate and analyse GitLab data, which will be stored in Clickhouse tables.
 - **Consistent API interface**
-    - We’ve had issues in the past with our APIs not being consistent in the type of data being available, and filtering options. This has led to a more confusing user experience.
-    - Difficult to accomplish, but we must develop an API which allows different data types and filtering options, without dramatically changing how the API request should be made or handled.
+  - We’ve had issues in the past with our APIs not being consistent in the type of data being available, and filtering options. This has led to a more confusing user experience.
+  - Difficult to accomplish, but we must develop an API which allows different data types and filtering options, without dramatically changing how the API request should be made or handled.
 - **Keep complexity away from the end-user APIs**
-    - The DIP will be handling a wide range of data types and data sources, all being converged into one platform for fully formed analyses. We don’t want this complexity to be passed onto the end-user APIs.
-    - We need to keep the API simple to use; with clear documentation. The user mustn’t need to know which database or table the data is coming from, only what data is available to them.
+  - The DIP will be handling a wide range of data types and data sources, all being converged into one platform for fully formed analyses. We don’t want this complexity to be passed onto the end-user APIs.
+  - We need to keep the API simple to use; with clear documentation. The user mustn’t need to know which database or table the data is coming from, only what data is available to them.
 - **Authentication and authorization**
-    - The data being collected by the DIP will contain a mix of data privacy categories. We need to ensure that any data being queried is only accessible to those with the correct authentication and authorization. Data outside the purview of the requestor must in no way be accessible to them.
+  - The data being collected by the DIP will contain a mix of data privacy categories. We need to ensure that any data being queried is only accessible to those with the correct authentication and authorization. Data outside the purview of the requestor must in no way be accessible to them.
 
 ## Non-Goals
 
@@ -130,15 +130,15 @@ The API uses [Cloud Connector](https://docs.gitlab.com/ee/development/cloud_conn
 Users can read and write data directly to GOB through the APIs various endpoints:
 
 - Read:
-    - `get api/v4/projects/[PROJECT_ID]/observability/v1/analytics`
-    - `get api/v4/projects/[PROJECT_ID]/observability/v1/traces`
-    - `get api/v4/projects/[PROJECT_ID]/observability/v1/services`
-    - `get api/v4/projects/[PROJECT_ID]/observability/v1/metrics`
-    - `get api/v4/projects/[PROJECT_ID]/observability/v1/logs`
+  - `get api/v4/projects/[PROJECT_ID]/observability/v1/analytics`
+  - `get api/v4/projects/[PROJECT_ID]/observability/v1/traces`
+  - `get api/v4/projects/[PROJECT_ID]/observability/v1/services`
+  - `get api/v4/projects/[PROJECT_ID]/observability/v1/metrics`
+  - `get api/v4/projects/[PROJECT_ID]/observability/v1/logs`
 - Write:
-    - `post api/v4/projects/[PROJECT_ID]/observability/v1/traces`
-    - `post api/v4/projects/[PROJECT_ID]/observability/v1/metrics`
-    - `post api/v4/projects/[PROJECT_ID]/observability/v1/logs`
+  - `post api/v4/projects/[PROJECT_ID]/observability/v1/traces`
+  - `post api/v4/projects/[PROJECT_ID]/observability/v1/metrics`
+  - `post api/v4/projects/[PROJECT_ID]/observability/v1/logs`
 
 This API is not sufficiently documented and requires reading the code within GOB or GitLab to understand what data to expect, and what parameters can be used. However, this is expected as O11y has been withdrawn as a customer offering whilst we work on the DIP.
 
@@ -155,9 +155,9 @@ From the Cube proxy, Cube will use the [pre-defined schemas](https://gitlab.com/
 The Cube API is a read-only REST API with the following endpoints:
 
 - `get v1/meta`
-    - Used to generate the list of possible fields, data types, and filtering options for the Data Explorer in conjunction with the Cube data source.
+  - Used to generate the list of possible fields, data types, and filtering options for the Data Explorer in conjunction with the Cube data source.
 - `post v1/load`
-    - Used to retrieve data for the query provided, the core endpoint for data retrieval.
+  - Used to retrieve data for the query provided, the core endpoint for data retrieval.
 
 The API is documented within our [REST API documentation](https://docs.gitlab.com/ee/api/product_analytics.html). This will need deprecating or removing when we decide to move onto alternative approaches other than Cube.
 
@@ -165,7 +165,7 @@ We have had issues with Cube supporting more advanced features without using the
 
 #### Optimize
 
-[Optimize uses Clickhouse](https://handbook.gitlab.com/handbook/engineering/development/analytics/monitor/optimize/#ssot-for-data-flows-across-optimize-features) to help keep their aggregated queries for the Contributions, Value Stream, and AI Impact dashboards performant.
+[Optimize uses Clickhouse](../../development/analytics/monitor/optimize/#ssot-for-data-flows-across-optimize-features) to help keep their aggregated queries for the Contributions, Value Stream, and AI Impact dashboards performant.
 
 For Contributions, data from Postgres is aggregated and added to Clickhouse every 3 minutes. Upon data retrieval, a combination of Clickhouse data and specific Postgres data is used to populate the Contributions dashboard.
 
@@ -216,11 +216,11 @@ We need to remove the complexity of how the DIP works from the API consumer. The
 A few potential solutions were considered before being discarded as unworkable, these include:
 
 - Reusing the existing API implementations
-    - Existing implementations rely on external dependencies, which goes against our [requirements](#goals) for the DIP.
-    - Product Analytics and Observability will be removed as an offering, therefore the existing implementations are not going to be used.
+  - Existing implementations rely on external dependencies, which goes against our [requirements](#goals) for the DIP.
+  - Product Analytics and Observability will be removed as an offering, therefore the existing implementations are not going to be used.
 - Integrating directly with GLQL
-    - [Written in Rust](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust) (reasoning for Rust is [documented](https://docs.google.com/document/d/1hRaS9ibSqe7DUGaIvo8jNIfMuWoF5LA7VxyznP3-E7g/edit?usp=sharing)), which has limited knowledge within the Monitor stage, and would require additional steps to add to the DIP which is primarily Go-based.
-    - The GLQL [roadmap](https://gitlab.com/gitlab-org/plan-stage/knowledge-group/-/wikis/Roadmaps/Roadmaps/GLQL-Roadmap?redirected_from=Roadmaps/GLQL-Roadmap) is Plan stage focused, integrating directly would detract from that roadmap.
+  - [Written in Rust](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust) (reasoning for Rust is [documented](https://docs.google.com/document/d/1hRaS9ibSqe7DUGaIvo8jNIfMuWoF5LA7VxyznP3-E7g/edit?usp=sharing)), which has limited knowledge within the Monitor stage, and would require additional steps to add to the DIP which is primarily Go-based.
+  - The GLQL [roadmap](https://gitlab.com/gitlab-org/plan-stage/knowledge-group/-/wikis/Roadmaps/Roadmaps/GLQL-Roadmap?redirected_from=Roadmaps/GLQL-Roadmap) is Plan stage focused, integrating directly would detract from that roadmap.
 
 Of course, we can use the existing APIs as a learning opportunity for developing the new API.
 
@@ -730,13 +730,13 @@ func main() {
 ##### Group Contributions
 
 - `datetimeBefore`
-    - Only accepts UTC, conversion to and from user's timezone should be done by the API caller
-    - Formatted to [ISO-8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8)
+  - Only accepts UTC, conversion to and from user's timezone should be done by the API caller
+  - Formatted to [ISO-8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8)
 - `datetimeAfter`
-    - Only accepts UTC, conversion to and from user's timezone should be done by the API caller
-    - Formatted to [ISO-8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8)
+  - Only accepts UTC, conversion to and from user's timezone should be done by the API caller
+  - Formatted to [ISO-8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8)
 - `fullPath`
-    - Path to the GitLab group/namespace/project
+  - Path to the GitLab group/namespace/project
 
 #### Response codes
 
@@ -776,7 +776,7 @@ For the GraphQL and REST APIs, as these will run through the existing GitLab fra
 
 Rate limiting headers (`RateLimit-*`) must be returned on API requests for the frontend to manage/inform the user if queries are being slowed down, or if the customer is automating API requests. Requests exceeding the defined rate limit should return a `429 RESOURCE_EXHAUSTED` status code.
 
-For the gRPC API, rather than defining rate limits, it is recommended to use a [concurrency limit](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/gitaly_adaptive_concurrency_limit/) instead. Ideally, this should be adaptive, automatically backing off requests when a specific data source is getting overloaded. Each limit should be customisable per data source, as each one will have different limitations.
+For the gRPC API, rather than defining rate limits, it is recommended to use a [concurrency limit](../gitaly_adaptive_concurrency_limit/) instead. Ideally, this should be adaptive, automatically backing off requests when a specific data source is getting overloaded. Each limit should be customisable per data source, as each one will have different limitations.
 
 #### Metrics and logs
 
