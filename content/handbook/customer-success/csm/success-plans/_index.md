@@ -32,7 +32,160 @@ These core elements form the foundation for the rest of the success plan and the
 
 ### Initiatives
 
-Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan.
+Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan. 
+
+
+### Verifiable Outcomes
+
+Verifiable outcomes are a framework implemented by GitLab's Customer Success (CS) teams to enhance the objectivity and measurability of customer achievements through the GitLab platform. For example think about GitLab and fitness equipment like treadmills. Both are tools purchased with specific goals in mind, but require intentional planning and execution to deliver results. 
+
+##### The Need for Verifiable Outcomes
+
+As post-sale professionals partnering with customers, CS teams must be intentional about guiding customers through:
+
+- Creating and executing plans to achieve their goals
+- Navigating transformations toward faster, more compliant, and secure software development
+- Ensuring customers realize the return on their investment in GitLab
+
+#### Verifiable Outcomes Framework
+The verifiable outcomes framework has been created to:
+
+- Enhance the objectivity and measurability of outcomes that customers achieve through GitLab
+- Capture, validate, and communicate these outcomes effectively
+- Help customers drive as effectively as possible toward their desired results
+- Ensure customers see a clear return on their investment in GitLab
+
+#### Building on Existing CS Practices
+
+GitLab's CS teams have already established a strong foundation by:
+- Understanding customer goals and capturing them in success plans
+- Evangelizing best practices through awareness and enablement
+- Reporting on value realization and utilization
+- Sharing insights through cadence calls, customer onsites, and executive business reviews
+
+Verifiable outcomes represent the next evolution of these practices to ensure effectiveness and demonstrate value.
+
+
+#### What is a Verifiable Outcome?
+
+A verifiable outcome must be SMART:
+- **S**pecific
+- **M**easurable
+- **A**ttainable
+- **R**elevant
+- **T**ime-bound
+
+Additionally, each verifiable outcome must include:
+1. **Baseline metrics**: Where we are today
+2. **Success criteria**: How we'll know when we're done
+3. **Business impact**: The effect on the customer's business in their language
+4. **Timeline**: When the outcome will be achieved
+
+#### Benefits of Verifiable Outcomes
+
+1. **Stakeholder Alignment**
+   - Builds understanding of expected business value
+   - Communicates in language relatable to economic buyers and executive leadership
+
+2. **Growth Opportunity Capture**
+   - Clearly expresses ROI to encourage customer reinvestment
+   - Demonstrates value that drives continued growth
+
+3. **Empowering Cross-Functional Teams**
+   - Provides sales with strong negotiation positions
+   - Enables evidence-based discussions about customer benefits
+
+4. **Internal Image Building**
+   - Improves communication of CS value delivery
+   - Strengthens CS positioning within GitLab
+
+#### Implementation Process
+
+Verifiable outcomes follow a four-stage process:
+
+1. **Proposed**
+   - Gather baseline metrics
+   - Craft a plan with summary and child initiatives
+   - Strategize with peers, account team, and manager
+   - Present to customer (preferably in a cadence call)
+
+2. **Accepted**
+   - Adjust based on customer feedback
+   - Gain alignment on baseline measures, success criteria, and timeline
+   - Apply the "accepted" label once customer agreement is secured
+
+3. **In Progress** *(implied from the stages mentioned)*
+   - Execute on the planned initiatives
+   - Track progress against established metrics
+
+4. **Completed** *(implied from the stages mentioned)*
+   - Verify that success criteria have been met
+   - Document business impact achieved
+
+
+#### Best Practices and Guidelines
+
+When developing verifiable outcomes:
+
+- **Talk to your stakeholders. Ask open-ended "TED" questions.**
+  - "Tell me about the most important priorities for your team. How do they relate to broader company objectives?"
+  - "Explain," "Describe," etc.
+
+- **Leverage the resources and examples available to you, including:**
+  - Publicly available annual/quarterly/investor reports
+  - News/Press releases/conference talks and other media
+  - Use AI
+  - Curate insights from GitLab case studies
+
+- **Draw upon examples from your peers**
+
+- **Strategize with your account team**
+
+- **Talk to your stakeholders** 
+
+## Success Metrics
+To measure progress and KPIs related to verifiable outcomes:
+
+1. **Tracking Success Plans**
+   - Managers report regularly on the number of Success Plans with one or more Verifiable Outcomes in each state
+
+2. **Reporting Process**
+   - Initially reporting will be manual 
+   - Goal: implement automated measures through the continuous planning framework and/or Gainsight 
+   - All objectives must have a status & date to ensure they sync and are counted in reports
+
+#### Examples of Effective and Ineffective Verifiable Outcomes
+
+#### Example of Effective VO: CI/CD Pipeline Optimization
+
+| Baseline Metrics | Success Criteria | Business Impact |
+|-----------------|------------------|-----------------|
+| Deployment frequency: 2 per week | Increase to 10 deployments per week | 95% reduction in deployment incidents |
+| Average deployment time: 4 hours | Reduce deployment time to 20 minutes | 75% faster time to market |
+| Manual steps required: 15 steps | Reduce manual steps to 2 | Improved team work-life balance |
+| Success rate: 85% | Achieve 99.5% success rate | Enhanced deployment reliability |
+| Team overtime: 20 hours/month | Eliminate weekend deployments | |
+
+This example clearly shows the starting point (baseline), specific measurable targets (success criteria), and the business value to be achieved (business impact).
+
+#### Common Pitfalls to Avoid: Ineffective VO Examples
+
+#### Missing Baseline
+- ❌ "Current process is slow and manual" → No quantifiable measurements
+- ❌ "Takes too long to deploy" → No specific time measurements
+- ❌ "Too many errors" → No error rate baseline
+
+#### Vague Success Criteria
+- ❌ "Make deployments faster" → No specific target
+- ❌ "Improve success rate" → No target percentage
+- ❌ "Reduce manual work" → No specific reduction goal
+
+#### Unclear Business Impact
+- ❌ "Will improve efficiency" → No measurable impact
+- ❌ "Better developer experience" → No concrete benefits
+- ❌ "Implement when ready" → No timeline or milestones
+
+Effective verifiable outcomes must avoid these pitfalls by including specific measurements, clear targets, and defined business impacts with timelines.
 
 ## Success plan lifecycle and process
 
