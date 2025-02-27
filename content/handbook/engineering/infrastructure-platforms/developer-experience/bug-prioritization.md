@@ -29,7 +29,7 @@ An automated [Bug Prioritization triage report](https://gitlab.com/gitlab-org/qu
   1. Age of the issues(oldest)
 
 Bug Prioritization triage report are automatically assigned to specific PMs, EMs of each group, listed in
-[the group definition file](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/group-definition.yml),
+[the group definition file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml),
 or directly in the triage report policy files
 [policy YAML files](https://gitlab.com/gitlab-org/quality/triage-ops/tree/master/policies).
 
