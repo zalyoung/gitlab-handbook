@@ -817,13 +817,18 @@ The People Operation Specialist are in charge of [contract renewals](/handbook/p
 
 *GitLab IT BV contracts should only be used for contractors. All Netherlands **employees** should be issued the GitLab BV contract.*
 
-## Process for GitLab Team Members in Australia, New Zealand, or Ireland
+## Process for GitLab Team Members in Australia or New Zealand
 
-GitLab has an entity in this location. All team members in this location are employees. Please note that Northern Ireland is under the United Kingdom, so if you see an address that includes UK you should hold and verify on google maps where the candidate is located and whether a different contract and background check are needed.
-
+GitLab has an entity in this location. All team members in this location are employees. 
 Always ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 
-## Process for GitLab Team Members in Singapore, South Korea, or France
+## Process for GitLab Team Members in Ireland, the UK or Singapore
+GitLab has an entity in this location. The UK, Ireland and Singapore payroll are now processed through Papaya. There is an updated “Offer Through DocuSign” email templates to group these countries together.
+Papaya will follow up with the team members in these locations regarding their payroll.
+
+Please note that Northern Ireland is under the United Kingdom, so if you see an address that includes UK you should hold and verify on google maps where the candidate is located and whether a different contract and background check are needed.
+
+## Process for GitLab Team Members in South Korea, or France
 
 GitLab has entities in Singapore, South Korea, and France. All team members in this location are employees, but payroll will be processed through Global Upside. Please be sure to select the correct docusign email template so they will be CC'ed as the final step of the offer process.
 
@@ -1131,7 +1136,7 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 
 ## Employment Agreements for GitLab team members in Germany
 
-From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below).
+From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below). Germany payroll are now all processed through Papaya.
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
 1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
