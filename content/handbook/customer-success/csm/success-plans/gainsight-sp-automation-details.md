@@ -25,7 +25,7 @@ Process Overview
 
 ## Objective Creation
 
-System creates new Objectives via API using ingested data
+System creates new Objectives using API using ingested data
 - First Objective creation triggers automatic status change from DRAFT to ACTIVE
 - Objectives are mapped directly from GitLab.com data
 - Objectives must have a status, name and due date or they will not get synced over
