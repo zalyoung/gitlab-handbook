@@ -123,7 +123,10 @@ The experiment management system will track ML training runs and their parameter
 - [Metric logging and visualization](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/#view-logged-metrics)
 - [Storing artifacts](https://docs.gitlab.com/ee/user/project/ml/model_registry/#add-artifacts-to-a-model-version)
 - [Compatibility with MLflow client](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client.html)
-- Access control and security policies for model experiments based on existing roles, custom roles and model registry read and write permissions.
+- Access control and security policies for model experiments based on existing roles, custom roles and model registry read and write permissions.  See [Roles and permissions for model registry and experiments](https://docs.gitlab.com/user/permissions/#machine-learning-model-registry-and-experiment
+```)
+
+@sean_carroll we have a well detailed roles/permissions page; it think it suffices if we link there
 - Data stored as in the code repository for smaller data sets using git or larger sets using git LFS.
 
 #### 2. Model Registry (existing feature)
