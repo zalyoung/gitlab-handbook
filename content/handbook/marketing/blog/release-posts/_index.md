@@ -29,7 +29,6 @@ At a high level, the Release post schedule is:
 - After the `Release Post Process Kickoff Tasks` pipeline completes, and the release post branch is created with associated merge request, manually trigger the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
   - `Add deprecations and removals to current release post branch` 
 
-
 ### Monday through Thursday, 3 weeks before release
 
 - **PMs** contribute MRs for their [content blocks](#pm-contributors)
