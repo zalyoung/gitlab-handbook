@@ -253,9 +253,11 @@ On top of our development roadmap, engineering teams need to perform tasks relat
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab product milestones. When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
 ### Request For Help (RFH) Resolution Guide
+
 This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper ticket management.
 
 #### When to Close an RFH
+
 An RFH ticket can be closed under the following circumstances:
 
 1. Confirmed Resolution 
@@ -285,6 +287,7 @@ An RFH ticket can be closed under the following circumstances:
 - Provide detailed explanations when closing tickets to ensure knowledge transfer
 
 #### Ticket Status Monitoring
+
 Regular review of open RFH tickets should be conducted to ensure no issues remain unaddressed for extended periods.
 
 ### Vulnerability Management
