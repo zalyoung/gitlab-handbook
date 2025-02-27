@@ -201,7 +201,7 @@ Error budget events are attributed to stage groups via feature categorization. T
 
 Updates to feature categories only change how future events are mapped to stage groups. Previously reported events will not be retroactively updated.
 
-The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections/) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
+The [Observability team](/handbook/engineering/infrastructure/team/scalability/observability/) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
 
 1. The [Rails application](https://docs.gitlab.com/ee/development/feature_categorization/#updating-configfeature_categoriesyml).
 1. The [Runbooks repository](https://gitlab.com/gitlab-com/runbooks/-/blob/master/services/stage-group-mapping.jsonnet).
