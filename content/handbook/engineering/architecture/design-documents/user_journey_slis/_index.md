@@ -31,12 +31,13 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Set and monitor user-centric SLOs for complex user interactions
 - Identify bottlenecks in multi-service flows
 - Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144)
+- Attribute availability and impact of incidents to customers or users
 
 ### Goals
 
 - Create a framework for product teams to define important user journeys in a structured way
-- Develop an SDK that makes it easy for engineers to instrument user journeys using start, checkpoints and ending.
-- Build a service to track journey state and emit relevant metrics/logs
+- Develop an SDK that makes it easy for engineers to instrument user journeys using start, checkpoints and ending
+- Build a service to track journey state and emit relevant metrics and structured logs with all the relevant context
 - Support both GitLab.com and dedicated deployments
 - Enable measurement of journey success/failure rates and durations through SLIs
 - Provide data that can help identify test coverage gaps for critical user paths
@@ -68,6 +69,7 @@ The core proposal consists of three main components:
    - Metric aggregation and SLI calculation
    - Support for both Runway and self-managed deployments
    - Sensible time to live (TTL) threshold for journey duration
+   - Authentication
 
 ## Design and implementation details
 
@@ -75,7 +77,7 @@ Here's a simplified flowchart to demonstrate how the communication will flow ove
 
 ```mermaid
 flowchart LR
-    User@{shape: circle}
+    User((User))
 
     subgraph ServiceA
         subgraph Process
