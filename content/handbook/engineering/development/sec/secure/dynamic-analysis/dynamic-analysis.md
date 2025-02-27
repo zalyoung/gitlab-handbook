@@ -258,26 +258,38 @@ This guide outlines the standard procedure for handling and resolving Request Fo
 
 #### When to Close an RFH
 
+RFH issues can take a long time to resolve with numerous back and forth communications between engineering, support, and the customer. Sometimes customers will stop responding if they get past the issue, a workaround works, or they decide to stop investing in the support case. To limit the amount of issue maintenance that is required, RFH issues should be closed when there are no more steps to be performed or when the last step is a confirmation from the customer. When the last step is a confirmation from the customer close the issue with a message similar to:
+
+`Closing this issue out as a fix/workaround has been provided. Please feel free to re-open this issue if provided solution doesn't work or the customer has additional questions/concerns.`
+
+This prevents engineers from having to circle back and close out issues if the customer never responds.
+It also helps keep our KPIs looking good (how many RFHs are open, how long to resolve).
+
 An RFH ticket can be closed under the following circumstances:
 
-1. Confirmed Resolution 
-    - The issue has been resolved with confidence and certainty by an engineer 
-    - The customer has confirmed they are satisfied with the resolution
+1. Confirmed resolution 
+    - The customer has confirmed the issue has been resolved
 
-1. Feature Request Backlog  
+1. High confidence workaround or resolution
+    - Engineer provides a high confidence workaround or resolution
+    - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
+
+1. Feature request backlog  
     - The RFH is for a feature that cannot be prioritized immediately
     - An issue has been created in the backlog
     - The backlog issue has been linked to the original RFH
     - A note has been added to the RFH pointing to the linked issue
+    - Engineer closes issue
 
 1. Immediate Implementation 
     - The issue has been worked on immediately
     - Changes have been merged and are ready for customer testing
-    - The customer has confirmed they are satisfied with the solution
+    - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
 
 1. No Customer Response
     - The RFH has received a response from support
-    - There has been no customer reply for a prolonged period
+    - There has been no customer reply for a prolonged period (30+ days)
+    - Engineer closes issue with a note to reopen if the customer responds
 
 #### Best Practices
 
