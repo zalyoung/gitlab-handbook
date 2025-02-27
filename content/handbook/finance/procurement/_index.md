@@ -232,7 +232,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
 - Per GitLab's [People Policies](/handbook/people-group/contracts-probation-periods/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
-- A background screening can be requested by submitting a request in [HelpLab]([HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=1f5cb781478c069067429ee0026d4392))
+- A background screening can be requested by submitting a request in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=1f5cb781478c069067429ee0026d4392)
 - Approval will occur once proof of a completed or an initiated background screening has been shared or once the contractor has submitted their background screening for processing.
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.
 - Submit a reqest in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=1f5cb781478c069067429ee0026d4392) for any additional questions
