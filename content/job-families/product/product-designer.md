@@ -107,6 +107,7 @@ Everything in the Senior Product Designer role, plus:
 - **Cross-stage collaboration:** Promote a holistic UX by proactively helping other designers navigate the organization and consider product overlaps, connections, and potential collisions.
 - **Mentoring:** Provide impactful feedback to ICs of the UX department and mentor them throughout product development.
 - **Vision:** Collaborate with your group to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
+- **Craft:** …
 - **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve the product design practice.
 - **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
 
@@ -135,6 +136,7 @@ Everything in the Staff Product Designer role, plus:
 - **Cross-stage collaboration:** Identify innovation opportunities, and collaborate with teams to help them make informed decisions and iterate on those opportunities.
 - **Mentoring:** Actively engage with and support other designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Vision:** Influence the vision and roadmap of your stage, connecting it to the broader product and company objectives.
+- **Craft:** …
 - **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive results.
 - **Operations:** Expose cultural, operational, and organizational needs in the department, address them or enable others to help.
 - **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve practices in the UX department.
