@@ -89,7 +89,7 @@ Support intervention for 2FA removal after the above steps have been attempted i
 
 #### Request for 2FA removal initiated by the account holder
 
-Requests initiated by the account holder have the opportunity to provide all information they have or know about the account when filling out the request form.
+Requests initiated by the account holder will be prompted by an autoreply to provide information to satisfy the security challenges.
 
 ##### Step 0: Validation
 
