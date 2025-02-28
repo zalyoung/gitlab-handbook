@@ -364,6 +364,7 @@ documentarian
 documentarians
 Docusaurus
 dogfood
+dogfooded
 dogfooding
 dogfoods
 DOMPurify
