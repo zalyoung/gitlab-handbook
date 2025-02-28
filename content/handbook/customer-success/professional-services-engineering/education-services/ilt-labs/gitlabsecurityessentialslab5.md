@@ -135,12 +135,32 @@ Take some time here to review the `postman_collection.json` file. This file cont
 1. To add API scanning to our container, first, define the `dast` job and add the API security template.
 
 ```yml
+image: docker:26
+
 include:
     - template: API-Security.gitlab-ci.yml
 
 stages:
     - build
     - dast
+
+variables:
+  TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+
+```
+
+1. First, we create a build job, which creates a Docker container to scan.
+
+```yml
+build:
+    stage: build
+    services:
+        - docker:26-dind
+    script:
+        - docker build -t $TARGET_IMAGE .
+        - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+        - docker push $TARGET_IMAGE
+        
 ```
 
 1. After this, add the job definition for the API scanner.
