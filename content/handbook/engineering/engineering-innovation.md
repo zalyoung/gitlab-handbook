@@ -24,7 +24,7 @@ This iterative and collaborative guide directly supports GitLab's three-year str
 
 ## Overview
 
-Creating an innovation at GitLab means exploring new ideas, testing new features, or building prototypes to create new products or improve our existing products and processes. This guide outlines the steps you should follow, from ideation to sharing feedback, in both internal and external settings. An innovation can be a new feature, a new organizational tool, or anything that helps the success of GitLab.
+Creating an innovation at GitLab means exploring new ideas, testing new features, or building prototypes to create new products or improve our existing products and processes. This guide outlines the steps you should follow, from ideation to sharing feedback, in both internal and external settings. An innovation can be a new feature, feature improvement, innovative use of GitLab feature to show unknown use cases, a new organizational tool, or anything that helps the success of GitLab.
 
 - **Innovation (Proof-of-Concept):** A project created to validate a new idea or potential product feature.
 
@@ -79,9 +79,16 @@ External innovations are focused on developing new features or enhancements for 
 
 ## Process: Creating and Managing an Innovation
 
-## Step 1: Communicate with Your Manager
+## Step 1: Create proposal and get approval of your manager
 
-1. Be sure to consult your manager before investing time into an idea. If possible, start by creating a SPIKE issue. 
+1. Create a concise abstract that includes:
+    1. Your core idea and vision
+    1. The specific problem you're addressing
+    1. The anticipated business value and impact with example use cases
+    1. Key hypotheses you plan to validate in the timebox
+    1. Timeboxed goals with clear targets
+    1. Estimated time investment required
+1. Be sure to consult your manager before investing time into an idea. Formalize your pitch in a SPIKE issue and obtain explicit manager approval before investing significant time. Work with your manager to identify optimal timing for your timeboxed exploration
 1. Demonstrate how your project supports both team objectives and your professional development. 
 1. Additionally, work with your Manager on identifying any other subject-matter-experts that may be attempting to solve the same problem.
 
