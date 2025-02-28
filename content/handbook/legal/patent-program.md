@@ -34,15 +34,24 @@ Innovation is key to GitLab's success. The GitLab Patent Program seeks to maximi
 
 ### Patent Awards
 
-As a recognition of the efforts of team members who develop inventions for GitLab, named inventors who contribute patentable inventions under the Patent Program may be eligible for Patent Awards totalling $1,750 U.S. dollars, as follows:
+As a recognition of the efforts of team members who develop inventions for GitLab, named inventors who contribute patentable inventions under the Patent Program may be eligible for Patent Awards, as follows:
 
-- Level One Patent Award: $250 for each named inventor on each patent application submission accepted for filing by GitLab, payable after acceptance.
-- Level Two Patent Award: $500 for each named inventor on each patent application filed by GitLab, payable after filing. No Level Two Patent Award is payable for the filing of a *provisional* patent application.
-- Level Three Patent Award: $1,000 for each named inventor on each patent issued to GitLab, payable after patent issue.
+**New and Provisional Patent Applications**
+
+- `Level One Patent Award`: $250 for each named inventor on each patent application submission accepted for filing by GitLab, payable after acceptance.
+- `Level Two Patent Award`: $500 for each named inventor on each patent application filed by GitLab, payable after filing. No Level Two Patent Award is payable for the filing of a *provisional* patent application.
+- `Level Three Patent Award`: $1,000 for each named inventor on each patent issued to GitLab, payable after patent issue.
+
+**Continuation Patent Applications**
+
+Awards are also payable for continuation patent applications. A continuation patent seeks to claim different aspects of the same invention disclosed in an existing patent application.  
+
+- `Level One Continuation Patent Award`: $250 for each named inventor on each continuation patent application filed by GitLab, payable after filing. 
+- `Level Two Continuation Patent Award`: $500 for each named inventor on each continuation patent issued to GitLab, payable after issue.
 
 ### How to participate
 
-To disclose an invention, complete an [Invention Disclosure Form](https://docs.google.com/document/d/1BndxggJyA3aMdYav-ghNwpTdNcfgJcrHFRlT6u8KFD8/copy) and email it to [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
+- To disclose an invention, complete an [Invention Disclosure Form](https://docs.google.com/document/d/1BndxggJyA3aMdYav-ghNwpTdNcfgJcrHFRlT6u8KFD8/copy) and email it to [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
 - To disclose an improvement to an invention, complete an [Invention Improvement Disclosure Form](https://docs.google.com/document/d/10D49F21I-G0V9rnyStgD0EwEfLxi8KzNS_ShCA64br8/copy) and email it to [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
