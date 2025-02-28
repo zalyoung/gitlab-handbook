@@ -43,3 +43,51 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 | UTM Source |last UTM source|Always update |
 | UTM Content |original UTM content|Only update if target is empty|
 | UTM Content |last UTM content|Always update|
+
+## Event Tags in use 
+Tags can be used to quickly filter webcasts and events by the tagged topic. If you add more tags in the Goldcast platform, please be sure to update this handbook list. 
+
+- DevOps Platform
+- DevSecOps
+- Security and Compliance
+- Automated Software Delivery
+- CI
+- CD
+- Duo
+- Language: Japanese
+- Language: Korean
+- Language: French
+- Language: German
+- Language: Italian
+- Language: Spanish
+- Language: English w/ interpreter
+- Type: Workshop (Used for Field Marketing Hands-on workshops)
+- Type: Webcast (only used when another type is not used)
+- Type: ABM Webcast (Used for events designed for a single or small subset of specific accounts)
+- Type: GTM Webcast (A webcast aligned with a GTM, produced by the GTM team.)
+- Type: Technical Demo Series (Used for the weekly Technical Demo Series)
+- Audience: Partners
+- Audience: Customers - Practitioners
+- Audience: Customers - Managers
+- Audience: Customers - Execs
+- Audience: Prospects - Practitioners
+- Audience: Prospects - Managers
+- Audience: Prospects - Execs
+- Audience: Channel (Directly targeting the channel partner, any member of the partner organization)
+- Audience: Channel Marketing (Any activity directly targeting the marketing people within the channel/partner organization)
+- Global
+- APAC
+- EMEA
+- AMER
+- US Public Sector
+- All Segments
+- SMB
+- MM
+- ENT
+- Case Study (Used on any webcast that presents a customer story)
+- Partner Involved (Used on any webcast that is co-branded or has a partner speaking on the webcast)
+
+
+## Event Creation within Goldcast 
+
+## Event Creation within Marketo
