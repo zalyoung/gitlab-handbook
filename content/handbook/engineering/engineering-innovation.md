@@ -87,7 +87,7 @@ External innovations are focused on developing new features or enhancements for 
 
 ## Process: Creating and Managing an Innovation
 
-## Step 1: Create proposal and get approval of your manager
+## Step 1: Create a Proposal and Get Approval of Your Manager
 
 1. Create a concise abstract that includes:
     1. Your core idea and vision
@@ -141,15 +141,23 @@ Within the Epic, create an issue with the following:
 
 - **Monitoring (Optional):** This issue should help users understand how your innovation is performing. You can use this issue to provide metrics and monitoring details for the innovation, such as links to dashboards or performance metrics. If monitoring data is confidential or sensitive, ensure the issue is handled accordingly.
 
-> **Note:** If your innovation includes a YouTube video via the GitLab Unfiltered channel, it's recommended to mark that video as private until the innovation is ready to be shared with the public.
+### Step 4: Consider Confidentiality
 
-### Step 4: Maintain Confidentiality
+- **Public by Default:** In alignment with GitLab's [Public by Default](../values/_index.md#public-by-default) value, innovations should be public from the start if possible. This promotes:
+  - Enhanced trust and transparency with our community
+  - Potential community collaboration opportunities
 
-- **Mark as Confidential:** Initially, all related epics and issues should be marked as confidential. This ensures that proofs-of-concepts that do not align with our [Company Strategy](../company/strategy.md) do not get prematurely disclosed.
+- **Review Confidentiality Guidelines:** Before making your innovation public, review the [Confidentiality Levels](../communication/confidentiality-levels.md#not-public) guidelines to determine if your innovation contains any sensitive information that should not be public, such as:
+  - Potentially patentable innovations (consult with Legal Team)
+  - Strategic initiatives that require temporary confidentiality
 
-- **Review Guidelines:** Ensure that you follow internal guidelines outlined in the [Confidentiality Levels](../communication/confidentiality-levels.md) and consult with your manager if in doubt.
+- **Innovation Disclaimer:** When sharing innovations publicly, include the following disclaimer at the top of your epic:
 
-- **Open to the public**: Transition to public when the innovation is ready to be shared with the public. See the [Sharing Your Innovation](#sharing-your-innovation) section for more details.
+  > This page contains information related to unofficial products, features, and functionality. It is important to note that the information presented is for informational purposes only. Please do not rely on this information for purchasing or planning purposes. The development, release, and timing of any products, features, or functionality may be subject to change or delay and remain at the sole discretion of GitLab Inc.
+
+- **When in Doubt:** If uncertain about the confidentiality requirements of your innovation, consult with your manager. It's better to start confidential and transition to public than to inadvertently disclose sensitive information.
+
+> **Note:** If your innovation includes a video through the GitLab YouTube Unfiltered channel and your innovation is marked confidential, it's recommended to mark that video as private until the innovation is ready to be shared with the public.
 
 ## Sharing Your Innovation
 
@@ -169,15 +177,15 @@ Once you have gathered initial feedback and validated the potential of your inno
 
     - Tag anyone relevant in your Epic's issue description.
 
-3. **Transitioning to Public:**
+3. **Cross-Team Collaboration:**
+
+    - When your innovation extends beyond your team's domain, partner with relevant counterparts (engineering, UX, and product) to refine and handover the idea effectively<span class="mark">.</span>
+
+4. **If Confidential, Transition The Epic to Public:**
 
     - In line with GitLab's [Public by Default](../values/_index.md#public-by-default) value, work with the corresponding Product and UX team to make your innovation public as soon as possible once you've validated its potential. If your innovation contains potentially patentable information, work with your manager and the Legal Team to see if it meets [patent requirements](../legal/patent-program.md#conditions-of-participation).
 
     - Ensure the transition aligns with GitLab's [Company Strategy](../company/strategy.md) and [Values](../values/), and collaborate with Product and UX when publicly communicating the innovation.
-
-4. **Cross-Team Collaboration:**
-
-    - When your innovation extends beyond your team's domain, partner with relevant counterparts (engineering, UX, and product) to refine and handover the idea effectively<span class="mark">.</span>
     
 ## Closing Out an Innovation
 
