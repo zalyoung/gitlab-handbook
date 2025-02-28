@@ -208,8 +208,8 @@
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
-/content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
-/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
+/content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
+/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
@@ -358,7 +358,6 @@
 /content/handbook/marketing/developer-relations/community-programs/startups-program/ @esalvadorp
 /content/handbook/marketing/developer-relations/contributor-success/ @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 /content/handbook/marketing/developer-relations/developer-advocacy/ @dnsmichi @johncoghlan @sugaroverflow @waarias @csaavedra1 @fjdiaz @iganbaruch
-/content/handbook/marketing/developer-relations/evangelist-program.md @esalvadorp @johncoghlan
 /content/handbook/marketing/developer-relations/leading-organizations/ @nick_vh
 /content/handbook/marketing/developer-relations/program-resources.md @esalvadorp @johncoghlan
 /content/handbook/marketing/developer-relations/project-management.md @esalvadorp @johncoghlan
@@ -394,6 +393,8 @@
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
 /content/handbook/marketing/utm-strategy.md @ikryzeviciene @rkohnke @aoetama
 /content/job-families/marketing/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+# The MR Coach speciality is owned by Contributor Success
+/content/job-families/expert/merge-request-coach.md @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 
 ^[Marketing-Brand-and-Product-Marketing]
 /content/handbook/marketing/brand-and-product-marketing/ @akramer @dsteer @rclayman
@@ -460,7 +461,7 @@
 /content/handbook/total-rewards/incentives.md @wendybarnes @mwilkins @rallen3 @Rkole
 /content/handbook/total-rewards/stock-options.md @wendybarnes @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
-/content/handbook/people-group/learning-and-development/team-workshops @tely2
+/content/handbook/people-group/learning-and-development/team-workshops @tely2 @jwrs @jallen16
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
@@ -504,7 +505,6 @@
 /content/handbook/sales/ @akramer
 /content/handbook/sales/account-planning/ @lschoenfeld @akramer @monicaj
 /content/handbook/sales/build-value-with-customers.md @akramer
-/content/handbook/sales/channel/ @ecepulis
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @akramer @dsteer
 /content/handbook/sales/commercial/ @bcaller @MDines @akramer @steve_xu @carolynharding

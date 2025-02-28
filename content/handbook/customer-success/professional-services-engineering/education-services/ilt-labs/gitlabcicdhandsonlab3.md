@@ -23,9 +23,7 @@ Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Set the directory name to **ArrayUtils**.
 
-1. Make sure that **Start a new merge request with these changes** is toggled **Off**.
-
-1. Leave all other options as default and select **Create directory**.
+1. Make sure that **Commit to the current main branch** is selected, and click **Commit changes**.
 
 1. In the **ArrayUtils** directory, select **+ > New file**.
 
@@ -186,4 +184,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

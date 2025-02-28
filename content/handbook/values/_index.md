@@ -627,7 +627,7 @@ We want cultural diversity instead of cultural conformity. Said differently: ["c
 
 ##### Religion and politics at work
 
-We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn't mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company. GitLab also publicly supports pro [diversity, inclusion & belonging](#diversity-inclusion) activities and events.
+We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn't mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company.
 
 There is sometimes a grey area where advocating for diversity and political activities may intersect. Team members should use discretion in grey area communications, because a culture of belonging requires us to be respectful of the broad spectrum of views within our work environment. What does this mean in practice? Please feel empowered to share information that highlights diversity, inclusion and belonging issues and how GitLab and GitLab team members can get involved. In line with our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), avoid posting articles that reference specific political figures or parties.
 

@@ -44,7 +44,7 @@ In addition to submitting their resignation directly in Workday (following the g
 
 ##### Japan
 
-Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
+Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) by the 10th of the month in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
 
 ##### Singapore
 
@@ -135,7 +135,7 @@ You may also contact X at GitLab (provide phone number and email address) with a
 
 After the involuntary offboarding call has taken place and the last working day has been determined, team members will have no access to GitLab systems and may not be required to do any work on GitLab's behalf.
 
-If they are on "Garden Leave" they will still be active on payroll through the termination date. When determining the timing of the involuntary offboarding call and termination date it is important to consider any effect this might have on ongoing tasks and responsibilities of the team member.
+If they are on "Garden Leave" they will still be active on payroll through the termination date. When determining the timing of the involuntary offboarding call and termination date it is important to consider any effect this might have on ongoing tasks and responsibilities of the team member. No expenses may be incurred while on garden leave unless necessary to the performance of GitLab duties and approved by the team member's manager or as subject to local law.
 
 As a manager, in collaboration with the Team Member Relations Specialist (TMR) and/or the People Business Partner (PBP), we recommend to avoid scheduling the involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is [on-call](/handbook/engineering/on-call/). If this is unavoidable, the manager is responsible for ensuring a transition/remediation plan.
 

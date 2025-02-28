@@ -649,6 +649,71 @@ is done in a single go in a form of pre-flight check `/api/v4/internal/cells/lea
 - This proposal does not provide an easy way to handle mixed deployment of Cells, where Cells might be running different versions.
 - This proposal likely requires caching significantly more information, since it is based on requests, rather than on decoded classification keys.
 
+## Single Domain
+
+To maintain a single domain for all cells, the webserver needs to respond as the public host when performing redirects. The
+BYOD feature for dedicated serves this purpose by allowing the cell to behave as thought it's serving on the public domain.
+
+Example byod config snippet. Note - Only the instance is configured, not kas or registry domain
+
+```json
+  "byod": {
+    "instance": "gitlab.com",
+  }
+```
+
+### Domain Setup
+
+- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com) 
+- Each Cell also responds to their configured [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186)
+- Nginx ingress handles both domains
+
+### SSL/TLS Configuration
+
+- The configured BYOD domain should have the certificate managed already, and it's not something instrumentor is managing.
+- The [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186) is handled using [cert-manager](https://cert-manager.io/) DNS solver as the default http solver won't work behind a proxy particularly whem the cells will not be publically routable
+
+### Nginx-ingress Configuration
+
+- Listens on both the primary domain and the [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186) domains
+- Processes the `X-Forwarded-Host` header for proper routing, the host header [can't be used](https://community.cloudflare.com/t/not-possible-to-override-the-host-header-on-workers-requests/13077) so nginx uses `X-Forwarded-Host` which is passed by the router
+
+### Cell infrastructure routing
+
+[Uses the session_prefix rule described here](#routing-rules)
+
+```mermaid
+sequenceDiagram
+    participant User as User (Browser)
+    participant HTTPRouter as HTTP Router (Cloudflare)
+    participant TopologyService as Topolgoy Service
+    box Cell
+    participant CellIngress as Cell Ingress (nginx-ingress)
+    participant CellWebservice as Webserivce Container(workhorse/puma)
+    end
+    participant LegacyCell as Legacy Celll
+
+    Note over User,CellWebservice: Cell-based routing path
+    User->>HTTPRouter: Cookie: _gitlab_session=cell-$ID-xxx
+    HTTPRouter->>+TopologyService: Query Cell ID extract from _gitlab_session
+    TopologyService-->>-HTTPRouter: Return managed_domain for Cell
+    HTTPRouter->>HTTPRouter: Set X-Forwarded-Host: gitlab.com
+    HTTPRouter->>CellIngress: Proxy to managed_domain
+    CellIngress->>CellIngress: Use Host header matching X-Forwarded-Host
+    CellIngress->>+CellWebservice: Proxy with Host: gitlab.com
+ 
+
+    CellWebservice-->>-CellIngress: Response
+    CellIngress-->>HTTPRouter: Response
+    HTTPRouter-->>User: Response
+
+    Note over User,LegacyCell: Default routing (no cell prefix in _gitlab_session)
+    User->>HTTPRouter: Cookie: _gitlab_sesion=xxxx
+    HTTPRouter->>LegacyCell: Proxy to GitLab.com
+    LegacyCell-->>HTTPRouter: Response
+    HTTPRouter-->>User: Response
+```
+
 ## FAQ
 
 1. How and when will Routing Service compile set of rules?

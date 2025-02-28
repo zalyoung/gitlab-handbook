@@ -534,29 +534,6 @@ Some people think of expertise as hard skills (Ruby, International Employment La
 
 If you would like to be a mentor in a certain area, please add the information to the team page. It is important to note whether you would like to be a mentor internally and/or externally at GitLab. Examples of how to specify in the expertise section of the team page: `Mentor - Marketing, Internal to GitLab` or `Mentor - Development (Ruby), External and Internal to GitLab`.
 
-### GitLab.com isn't a role
-
-Some of the things we do make are GitLab.com specific, but we will not have GitLab.com specific people, meetings, or [product KPIs](/handbook/company/kpis/#product-kpis).
-We want to optimize for IACV and customer success and .com is simply a way to deliver that.
-Our innovation and impact will slow down if we need to maintain two separate products and focus our energy on only one of them.
-The majority of work in any role applies to both ways of delivery GitLab, self-managed and .com.
-
-1. We have a functionally organized company, the functions need to as mutually exclusive as possible to be efficient, .com overlaps with a small part of many functions.
-1. Having .com specific people will increase the pressure to get to two codebases, that can be a big hindrance: "splitting development between two codebases and having one for cloud and one for on-prem is what doomed them", and "they split cloud and on-prem early on and it was a 10-year headache with the OP folks feeling left in line to jump in the pool but never could.  While cloud pushed daily/weekly with ease, OP was *easily* 6-mo behind leaving customers frustrated".
-1. The reasons .com customers churned were all things that occur in both self-managed and .com.
-1. Improvements we can make in user growth might be informed by .com specific data but can be implemented for both delivery mechanisms.
-
-#### Exception: Product Management Senior Leader
-
-We do have an exception to the above, which is a senior leader in Product Management that is responsible for the cross-functional outcomes needed on GitLab.com. This is because GitLab.com is a large operational expense, it's also potentially a large source of IACV, and because it's strategically important that we have a thriving SaaS offering as more of the world gets comfortable hosting their source code in the cloud.
-
-Here are some examples of the things that this senior leader will coordinate:
-
-- Growth Group: [Stages per User (SpU)](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
-- Pricing: [Tiers](https://about.gitlab.com/pricing/)
-- Infrastructure Department: Cloud spend (within limits, not cost per user)
-- Development Department: Prioritization of large enterprise features
-
 ## Other Considerations
 
 ### The word "Manager" in a title doesn't imply people management or structure

@@ -1,5 +1,6 @@
 ---
 title: "Guide to Engineering Analytics Data"
+description: Overview of key Engineering data sources and data models
 ---
 
 ## Introduction

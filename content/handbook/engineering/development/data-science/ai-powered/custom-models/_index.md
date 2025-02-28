@@ -161,7 +161,55 @@ See [this internal note](https://gitlab.com/gitlab-org/gitlab/-/issues/470559#no
 
 ## Asking for help
 
+For supporting customers, create a [request for help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?description_template=SupportTemplateRequest-SelfHostedModels), and share on with the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
+
 Don't hesitate to ask for help from other team members with the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
+
+## Customer support
+
+To better support calls with customers (existing and prospects), Custom Models provides engineers that will prioritize customer support requests. This ensures both
+load and knowledge are shared across team members.
+
+| First Date | Last Date | Lead engineer | Backup engineer |
+|------------|-----------|---------------|------------------|
+| Feb 10     | Feb 16    | @eduardobonet | @mhamda          |
+| Feb 17     | Feb 23    | @mhamda       | @manojmj         |
+| Feb 24     | Mar 2     | @manojmj      | @jpcyiza         |
+| Mar 3      | Mar 9     | @jpcyiza      | @bcardoso-       |
+| Mar 10     | Mar 16    | @bcardoso-    | @eduardobonet    |
+| Mar 17     | Mar 23    | @eduardobonet | @mhamda          |
+| Mar 24     | Mar 30    | @mhamda       | @manojmj         |
+| Mar 31     | Apr 7     | @manojmj      | @jpcyiza         |
+| Apr 8      | Apr 13    | @jpcyiza      | @bcardoso-       |
+| Apr 14     | Apr 20    | @bcardoso-    | @eduardobonet    |
+
+During on call period, support requests should be acknowledge within 24h.
+
+### Responsibilities of lead engineer in support
+
+- Triage [Requests for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acustom%20models&first_page_size=20).
+- Monitor income requests on [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel. 
+- Make sure requests for help issues are created.
+- Answer support questions on slack, redirecting to our documentation whenever possible.
+- Join customer calls led by Solution Architects or Sales representatives when needed, and own the communication with the customer until it's resolved or handed over to a support engineer.
+- Act on outcomes of problems faced:
+   1. Can we add documentation to help SA's and customers be more self-sufficient?
+   1. Could the issue be improved by better tooling? Create an issue with the changes needed.
+   1. Was it a bug that we didn't caught? How can we avoid this the next time?
+- Notify the engineering manager and a backup engineer in advance if you won't be available.
+- Hand over the necessary context to the next engineer in support.
+
+It is NOT expected for engineers in support to:
+
+- To be available outside of their preferred working hours, but some requests might be urgent and should be tackled first thing on the next working day. Consult with the engineering manager and the product manager on those situations
+- Lead customer calls, unless discussed otherwise for a specific case
+- Present demos, unless discussed otherwise for a specific case
+
+### Responsibilities of backup engineers
+
+- Join customer calls as a shadow. Your main role is to observe and listen closely to the interactions and issues discussed, but also be prepared to assist the lead engineer upon request.
+- Support the lead engineer in support in case they are not available due to unforseen circumstances.
+- Carry over unfinished support tasks from previous week.
 
 ## Acknowledgement of Pings
 

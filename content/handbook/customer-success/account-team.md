@@ -201,7 +201,7 @@ Identify and flag risks to the appropriate teams while maintaining communication
     3. Update and engage with SA to maintain alignment and uncover new opportunities
     4. Conduct regular assessments of account health to ensure ongoing customer success
 
-  - Collaboration on Mutual Customer Success Plan - Merging of the Pre-Sales Customer Success Plan (owned by the SA - [criteria](/handbook/solutions-architects/sa-practices/customer-success-plan/#which-opportunities-should-have-a-mutual-customer-success-plan)) and the Post Sales CSM Customer Success Plan (owned by the CSM - [criteria](/handbook/solutions-architects/sa-practices/customer-success-plan/#which-opportunities-should-have-a-mutual-customer-success-plan))
+  - Collaboration on Mutual Customer Success Plan - Merging of the Pre-Sales Customer Success Plan (owned by the SA - [criteria](/handbook/solutions-architects/sa-practices/customer-success-plan/#opportunity-thresholds-for-creating-and-reviewing-mutual-customer-success-plans)) and the Post Sales CSM Customer Success Plan (owned by the CSM - [criteria](/handbook/solutions-architects/sa-practices/customer-success-plan/#opportunity-thresholds-for-creating-and-reviewing-mutual-customer-success-plans))
 
 - **With [Support Team](/handbook/support/):**
   - Maintaining communication in case of [high and critical](/handbook/customer-success/csm/escalations/) escalation

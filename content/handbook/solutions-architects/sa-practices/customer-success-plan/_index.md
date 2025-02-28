@@ -39,12 +39,15 @@ As a follow on to the [Technical Close Plan process](/handbook/solutions-archite
 
 ## When to Create a Mutual Customer Success Plan
 
-A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescribe what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that a Technical Close Plan should be started in stage 2 or 3 and will contain the required information for a CSP.
+A Mutual Customer Success Plan should be initiated during stage-2 (scoping) and the first version should exist before going into stage-3 (technical evaluation).  This is when an SA begins to prescribe the GitLab solution to the prospect or customer's objectives and what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that for some SA regions, a Technical Close Plan should also be started in stage 2 or 3 and will contain the required information for a CSP.  
 
-### Which Opportunities Should Have a Mutual Customer Success Plan?
+The Mutual Customer Success Plan should be reviewed and accepted with a customer at some point before stage-4.
 
-1. All New or Growth Opportunities over $300k net ARR, in Proposal stage (Stage-4) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
-2. All existing customers with upcoming Renewals, over $500K in ARR basis.  *(The CSM is the DRI, to create a Mutual Customer Success Plan.  In these cases the SA may optionally create a Technical Close Plan to capture necessary context if one did not exist, or add to the CSM's Mutual Customer Success Plan as needed.)*
+### Opportunity Thresholds for Creating and Reviewing Mutual Customer Success Plans?
+
+1. All New or Growth Opportunities with $300k net ARR or more, in stage-3 (technical evaluation) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
+2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.  *(Opportunities that are part of a focus account have salesforce named "Compensation Target Account" checked.)*
+3. All opportunities where the SA is involved in a [*SA Validated Tech Evaluation*](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
 
 SA Managers have discretion for additional opportunities to be included or excluded.
 

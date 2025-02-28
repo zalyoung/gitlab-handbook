@@ -118,9 +118,8 @@ This pipeline needs to be executed when doing changes to any of the below manife
 This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
-3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ops). For example if the modified table was of `ops` database, the variable passed will be `DATABASE_TYPE`=`ops`.
-4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+1. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
+1. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 ### ⚙️ dbt Run
 
@@ -230,6 +229,12 @@ Runs all the tests
 #### `💾data_tests`
 
 Runs only data tests
+
+#### `🔍ds_exposure_dependencies_query`
+
+This CI job runs automatically whenever SQL files in the dbt project are updated. It checks if any modified models are tied to Data Science exposures and, if so, fails the job while notifying the user. It is then the MR creator’s responsibility to inform the Data Science team, ensuring they have the opportunity to review any potential impact.
+
+By catching these updates early, the job helps maintain smooth Data Science workflows and prevents unintended disruptions from dbt model changes.
 
 #### `🔍tableau_direct_dependencies_query`
 

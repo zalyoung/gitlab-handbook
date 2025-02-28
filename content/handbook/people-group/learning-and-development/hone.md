@@ -2,7 +2,7 @@
 title: Hone Partnership
 ---
 
-GitLab has partnered with [Hone](https://honehq.com/) to provide expanded professional development opportunities through live, coach-led learning experiences. Our [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) leadership development program, is also delivered via Hone, and they specialize in interactive virtual training sessions led by expert facilitators.
+GitLab has partnered with [Hone](https://honehq.com/) to provide expanded professional development opportunities through live, coach-led learning experiences. The current [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) leadership development experience, is also being done via this partnership, and they specialize in science-backed, interactive virtual learning sessions led by expert facilitators.
 
 ## Overview
 
@@ -19,26 +19,28 @@ Key features of this partnership include:
 
 ### People Managers
 
-All GitLab people managers will receive unlimited access to the Hone platform for the year, starting February 13th, 2024. Managers will receive an access link to create their account and begin participating in sessions.
+All GitLab people managers will receive unlimited access to the Hone platform for the year, starting February 13th, 2025. Managers will receive an access link to create their account and begin participating in sessions.
 
 ### Individual Contributors
 
-Individual Contributors can access Hone through their [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/). More details about this process will be shared soon.
+We will provide available seats to ICs based on availability starting MARCH 3,2025. We'll share additional guidance on how to request access. For now, direct questions to the [#learninganddevelopment](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) slack channel.
 
 ## GitLab Membership Programs
 
-As part of this partnership, we're running two targeted programs for all people leaders in 2024:
+As part of this partnership, we're running two targeted programs for all people leaders in 2025:
 
 ### H1 Program (February - July 2024)
 
 Focus areas:
 
-1. Run Effective Performance Review Meetings
-1. Behaviors of an Inclusive Leader
+1. Bridge Cultural Differences Across your Organization
+1. Communicate Powerfully Around Change
+
+Note: Session availability may vary. As demand increases, more sessions will become available. Spanning H1 allows enough time for all people leaders to find dates and times that work. Hone is aware of this H1 focus and will support accommodating session availability as needed. Each of these workshops is 60 minutes.
 
 ### H2 Program (August - December 2024)
 
-Program content will be announced closer to the launch date.
+Contingent on adoption, engagement, and feedback data; program content will be announced closer to the launch date.
 
 ## Important Guidelines
 
@@ -54,8 +56,6 @@ The success of this partnership will be evaluated through:
 1. Participant feedback
 1. Session completion rates
 1. Application of learned skills
-
-Specific success metrics will be developed and shared as we gather data from initial implementation.
 
 ## Support and Resources
 

@@ -95,7 +95,7 @@ With this change, now no one can directly push to main. Only merges into main ar
 
 ## Task C. Cleaning Up Rules
 
-Before proceeding to the next set of labs, it's recommended to remove the commit message rules in your repository. This will prevent any issues of preventing commits due to violations. 
+Before proceeding to the next set of labs, it's recommended to remove the commit message rules in your repository, as well as the rule that prevents pushing on the main branch. This will prevent any issues of preventing commits due to violations. 
 
 1. In the left sidebar, select **Settings > Repository**.
 
@@ -104,6 +104,16 @@ Before proceeding to the next set of labs, it's recommended to remove the commit
 1. Remove the content in **Require expression in commit message**. 
 
 1. Select **Save push rules**.
+
+1. Expand the **Branch rules** section.
+
+1. Click on the **View Details** option to the right of the main branch.
+
+1. Click on the **Edit details** option to the right of the 'Allowed to push and merge' section.
+
+1. Change the setting from **No one** to **Developers and Maintainers**.
+
+1. Click the **Save changes** button.
 
 ## Lab Guide Complete
 

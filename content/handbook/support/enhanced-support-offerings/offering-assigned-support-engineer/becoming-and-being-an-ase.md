@@ -49,6 +49,21 @@ You might also find it helpful to review the
 1. Change your job title in Zoom
 1. Update your signature in Zendesk to indicate that you are an ASE
 
+### On-call responsibilities
+
+ASEs with two or more accounts are not expected to participate in either the
+[Customer Emergencies On-Call (CEOC)](/handbook/support/workflows/customer_emergencies_workflows/)
+or [Communication Manager On-Call (CMOC)](/handbook/support/workflows/cmoc_workflows/) rotations.
+
+Participating in these on-call rotations creates an ongoing risk of conflict for the ASE between
+high-priority work from their assigned accounts and their on-call responsibilities. This risk
+becomes too great to manage when an ASE has two or more accounts.
+
+ASEs who have been rostered for CEOC or CMOC responsibilities from their time in global support
+should continue participating in these on-call rotations until they have two assigned accounts. At
+that point, the ASE and their manager should create a plan for the ASE to transition off the COEC or
+CMOC rotation that minimizes disruption to the team.
+
 ###
 
 **<<<< COMING SOON >>>>**
