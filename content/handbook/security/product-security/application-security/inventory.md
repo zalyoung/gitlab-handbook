@@ -46,7 +46,7 @@ The following categories can be used to decorate the projects we want to monitor
 
 ### Policies
 
-We apply several policies depending on the categories defined above. These policies are available [here](https://gitlab.com/gitlab-com/gl-security/product-security/gib/-/tree/main/policies) and in our (internal only) [inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory).
+We apply several policies depending on the categories defined above. These policies, which include security requirements, are available [here](https://gitlab.com/gitlab-com/gl-security/product-security/gib/-/tree/main/policies) and in our (internal only) [inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory).
 
 They are used are controls for our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
 
