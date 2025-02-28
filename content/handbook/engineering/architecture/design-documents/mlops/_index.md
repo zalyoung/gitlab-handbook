@@ -131,7 +131,8 @@ Central repository for ML model management: [Model registry docs](https://docs.g
 - Compatibility with MLflow client
 - Model cards with freeform markdown descriptions
 - Governance instruments
-- Users can store large data files in model registry too next to their model versin artifacts for example.
+- Users can store large data files in model registry too next to their model version artifacts for example.
+- Integration with GCP Vertex AI [model registry](https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops/-/tree/main/gitlab_mlops/provider/gcp?ref_type=heads)
 
 #### 3. Connection to GPU resources (existing feature)
 
@@ -149,7 +150,7 @@ Automated model deployment pipeline:
 - Canary deployments
 - Rollback capabilities
 - Environment management
-- Integration with cloud providers
+- Integration with GCP Vertex AI for deployment
 
 #### 5. API Clients
 
