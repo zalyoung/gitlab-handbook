@@ -25,10 +25,9 @@ GitLab MLOps is an integrated platform that provides end-to-end machine learning
 Organizations face several key challenges when operationalizing ML:
 
 1. **Reproducibility**: Data scientists struggle to track experiments and recreate results
-2. **Collaboration**: Disconnect between data science, engineering and governance teams slows development
-3. **Deployment**: Manual, error-prone processes for moving models to production
-4. **Monitoring**: Lack of visibility into model performance and drift
-5. **Governance**: Difficulty maintaining oversight of model development, deployment and impact
+1. **Collaboration**: Disconnect between data science, engineering and governance teams slows development
+1. **Deployment**: Manual, error-prone processes for moving models to production
+1. **Governance**: Difficulty maintaining oversight of model development, deployment and impact
 
 These challenges often result in:
 
@@ -41,7 +40,6 @@ These challenges often result in:
 
 - Provide end-to-end ML lifecycle management integrated with existing GitLab DevOps workflows
 - Provide a Model Registry - a place to store model versions, runs, metadata and artifacts
-- Provide a Model Monitoring solution - allowing to store traces of models and analyzing them using CI/CD pipelines for drift
 - Enable deployment of model versions from the model registry using CI/CD pipelines
 - Enable importing models from Vertex and Huggingface to GitLab model registry
 - Limited compatability with MLflow client for model experiments and registry
@@ -53,6 +51,7 @@ These challenges often result in:
 - Implementing feature stores
 - Implementing data stores and becoming a dataops platform
 - Developing a full-fledged MLflow server by achieving 100% MLflow API compatibility
+- Model monitoring and tracing
 
 ## Proposal
 
@@ -76,16 +75,12 @@ graph TB
         B4[Deployment Pipeline]:::new
     end
 
-    subgraph Prod["Production Phase"]
-        C2[Model Monitoring]:::ongoing
-    end
 
     A1 --> A2
     DevPhase --> CiCd
     A3 --> A1
     A4 --> A1
-    CiCd --> Prod
-    Prod --> DevPhase
+    CiCd --> DevPhase
 
     %% Define styles for different statuses
     classDef completed fill:#a3cfbb,stroke:#178344,color:black
@@ -99,9 +94,8 @@ graph TB
         L2[New]:::new
         L1[Completed]:::completed
     end
-    
+
     %% Position the legend at the bottom right
-    Prod --> Legend
     style Legend fill:none,stroke:none
 ```
 
@@ -111,7 +105,6 @@ graph TB
 - **Experiment tracking**: Code produces runs, artifacts, metrics etc. the metadata is stored centrally in Experiment Tracking
 - **Model Registry**: Uses Package Registry to store artifacts
 - **Deployment pipeline**: These are triggered either via Model Registry or via Git triggers.
-- **Model Monitoring**: Captures input and output metadata from inference and uses [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing.html) for storage. CI pipelines are used for analysis and output is stored in Model Registry
 
 ### Core Components
 
@@ -133,7 +126,7 @@ Central repository for ML model management: [Model registry docs](https://docs.g
 - Model versioning and tagging (link to [docs](https://docs.gitlab.com/ee/user/project/ml/model_registry/#model-versions-and-semantic-versioning))
 - Model metadata and lineage tracking
 - Model approval workflows using GitLab labels for models and versions
-- Integration with CI/CD pipelines to allow training, deployment and monitoring
+- Integration with CI/CD pipelines to allow training and deployment
 - Access control and security policies for model registry based on existing roles, custom roles and model registry read and write permissions.
 - Compatibility with MLflow client
 - Model cards with freeform markdown descriptions
@@ -158,19 +151,7 @@ Automated model deployment pipeline:
 - Environment management
 - Integration with cloud providers
 
-#### 5. Model Monitoring
-
-Comprehensive model observability:
-
-- Performance monitoring
-- Data drift detection
-- Model quality metrics
-- Resource utilization tracking
-- Custom alert definitions
-- Retraining triggers
-- We plan tracing using OpenTelemetry and [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing.html) four our MLOps python client, and for mlflow client.
-
-#### 6. API Clients
+#### 5. API Clients
 
 - [Gitlab MLOps client for Python](https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops)
 - [Limited MLflow client support](https://docs.gitlab.com/user/project/ml/experiment_tracking/mlflow_client/#supported-mlflow-client-methods-and-caveats): Logging of metrics, artifacts. Creation of models, versions and runs.
@@ -183,18 +164,13 @@ Comprehensive model observability:
     - Provide training, evaluation and validation CI/CD templates for ML workflows using GitLab (GPU) runners.
     - Predefined variables for ML operations
     - ML-specific CI/CD stages
-    - Model monitoring compute
 
 2. **Issue Tracking Integration**
 
     - Model development issues
     - Approval workflows
 
-3. **GitLab Tracing**
-
-   - Input and output of inference will be send to Tracing so it can be used for Model Monitoring
-
-4. **GitLab Package registry**
+3. **GitLab Package registry**
 
    - Used for storage of model artifacts
 
