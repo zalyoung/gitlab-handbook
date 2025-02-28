@@ -6,7 +6,7 @@ title: Cloud Connector Group
 
 Make it easy to build a feature into GitLab across multiple types of deployment.
 
-We have formalized our technical vision in a separate [vision document](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/technical_vision/), a living document that we
+We have formalized our technical vision in a separate [vision document](/handbook/engineering/infrastructure/team/cloud-connector/technical_vision/), a living document that we
 commit to revisiting at least once a year.
 
 ## Mission
@@ -43,7 +43,7 @@ Where we can we follow the GitLab values and communicate asynchronously.  Howeve
 
 ## Work
 
-We follow the GitLab [engineering workflow](/handbook/engineering/workflow/) guidelines.  To bring an issue to our attention please create an issue in the relevant project, or in the [Cloud Connector team project](https://gitlab.com/gitlab-org/cloud-connector-team/team-tasks/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).  Add the `~"group::cloud connector"` label along with any other relevant labels.  If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/#stable-counterparts) section above.
+We follow the GitLab [engineering workflow](/handbook/engineering/workflow/) guidelines.  To bring an issue to our attention please create an issue in the relevant project, or in the [Cloud Connector team project](https://gitlab.com/gitlab-org/cloud-connector-team/team-tasks/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).  Add the `~"group::cloud connector"` label along with any other relevant labels.  If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/team/cloud-connector/#stable-counterparts) section above.
 
 ### Planning
 
