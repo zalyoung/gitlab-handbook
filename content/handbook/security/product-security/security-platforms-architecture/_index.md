@@ -15,7 +15,7 @@ Composed of [Security Architecture](/handbook/security/product-security/security
   - Designing secure architecture solutions and executing proofs-of-concept that accelerate engineering teams' delivery of security improvements.
   - Influencing GitLab's security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
   - Coordinating cross-divisional Customer 0 efforts to validate new and existing security features for their functionality and utility. Where there are gaps, we provide clear and documented feedback to reduce friction and unlock customer value.
-- We translate our security expertise into public and internal thought leadership contributions that establish GitLab as a leader and trusted enabler for secure software development. 
+- We translate our security expertise into public and internal thought leadership contributions that establish GitLab as a leader and trusted enabler for secure software development.
 - Finally, we support our peer teams across the organization and enable them to accomplish their security goals by providing automation, informal training, documentation, and mentorship.
 
 ## FY26 Key Focus Areas
@@ -30,7 +30,7 @@ In the near future, we will expand upon these priorities and produce a high-leve
 
 ## FY26 Key "Good Job" Metrics
 
-The following are key metrics we will start tracking in FY26 to measure the SPA team's success delivering upon our charter, with e-Group as our intended audience. These reflect the reality that our ultimate success lies not in our individual activity, but requires working across teams and driving results that directly benefit our customers. 
+The following are key metrics we will start tracking in FY26 to measure the SPA team's success delivering upon our charter, with e-Group as our intended audience. These reflect the reality that our ultimate success lies not in our individual activity, but requires working across teams and driving results that directly benefit our customers.
 
 Additional Notes:
 
