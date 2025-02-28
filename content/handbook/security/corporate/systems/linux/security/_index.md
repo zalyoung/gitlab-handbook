@@ -10,3 +10,4 @@ The following is the list of standards that Corporate Security is requiring for 
 - The approved EDR (Endpoint Detection and Response) solution is installed.
 - The user account must be a regular user account, with the administrative account disabled from login. All administrative actions must be carried out using the the `sudo` command.
 - The laptop must have the corporate-approved remote management tools. For Linux this is FleetDM. This is used to confirm certain settings are in use, confirm the hard drive is encrypted, firewall is enabled, deploy the EDR solution, and allow for remote hard drive wiping at "end of life" for the laptop before a new one is provided.
+- We will also require the use of a YubiKey 5 FIPS to authenticate. Please review the [ordering guide](https://handbook.gitlab.com/handbook/security/corporate/systems/yubikey/purchasing/) and associated [user guide](https://handbook.gitlab.com/handbook/security/corporate/systems/yubikey/2fa/).
