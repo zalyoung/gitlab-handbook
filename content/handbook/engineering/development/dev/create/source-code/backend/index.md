@@ -39,7 +39,7 @@ steps:
 
 The following people are permanent members of the Create:Source Code BE Team:
 
-{{< team-by-manager-role role="Engineering Manager(.*)Create:Source Code Backend" team=".*Backend.*Create:Source Code" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*(Backend).*Create:Source Code" >}}
 
 ## Stable counterparts
 
