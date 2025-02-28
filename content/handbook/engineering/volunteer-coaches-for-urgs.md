@@ -28,59 +28,6 @@ graph LR
     click ftm "/jobs/"
 ```
 
-## Partners
-
-To make this program as scalable as possible we partner with other organizations that run their own education, training, coaching, or mentorship programs. They already have processes, curriculum, students, and coaches. GitLab supplies additional coaches through this program. If you run such an organization and would like to tap into our pool of coaches, please contact [Roos Takken](https://gitlab.com/rtakken) or [Giuliana Lucchesi](https://gitlab.com/glucchesi), People Business Partners who work with GitLab Engineering.
-
-### Latinitas
-
-Here is a little bit about **[Latinitas](https://latinitasmagazine.org/)** in [their own words](https://latinitasmagazine.org/about-us/):
-
-> Latinas are underestimated and underrepresented. It's time for Latinas to know that they are important; they deserve to see their experiences reflected honestly and accurately.
-> Through after-school clubs, camps, events and publications, and channels, we provide a space, both in the physical and online, for girls to express themselves, develop their skills, learn about their culture and discover their unique voice.
-
-GitLab Contact: [Melissa Ushakov](https://gitlab.com/mushakov)
-
-| Volunteer   | Start  | End |
-|-------------|--------|-----|
-| [Melissa Ushakov](/handbook/company/team/#mushakov)      |   February 2021     |   TBD  |
-| [Chad Woolley](/handbook/company/team/#cwoolley-gitlab)     |    February 2021     |   TBD  |
-
-### FreeCodeCamp
-
-Here is a little bit about **[FreeCodeCamp](https://www.freecodecamp.org/)** in [their own words](https://www.freecodecamp.org/learn):
-
-> Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.
-
-GitLab Contact: [Greg Myers](https://gitlab.com/greg)
-
-| Volunteer                                      | Start      | End | Topic                                                                   |
-| ---------------------------------------------- | ---------- | --- | ----------------------------------------------------------------------- |
-| [Greg Myers](/handbook/company/team/#greg)              | March 2021 | TBD | HTML/CSS, Project feedback, Technical career advice, Tutorials & Guides |
-| [Gerardo Gutierrez](/handbook/company/team/#ggutierrez5) | March 2021 | TBD | HTML/CSS, Python, Español, Javascript                                   |
-| [Daniel Parker](/handbook/company/team/#dparker)       | March 2021 | TBD | Javascript, Python, HTML/CSS, Project feedback, Technical career advice |
-| [Imre Farkas](/handbook/company/team/#ifarkas)          | March 2021 | TBD | Python, Technical career advice, Tutorials & Guides                     |
-
-Coaches interested in helping others in the freeCodeCamp community are encouraged to join the [freeCodeCamp Forum](https://forum.freecodecamp.org/) to help provide guidance and answer questions.
-
-### re:learn
-
-Here is a little bit about **[re:learn](https://relearn.ng/)** in [their own words](https://relearn.ng/):
-
-> At re:learn, our goal is to help schools use technology in a smart way to enhance learning. Through content curation and capacity development - with a wide network of trained facilitators, our aim is to improve the learning experience in and out of the classroom.
-
-The possibilities for volunteering at re:learn will initially start with Fireside chats for the teachers and/or students as part of the program. Hereafter we will look into 1 to 1 coaching for teachers and any assistance with regards to building curriculum for the students.
-
-GitLab Contact: [Roos Takken](https://gitlab.com/rtakken)
-
-| Volunteer                                 | Start        | End   |
-|-------------------------------------------|--------------|-------|
-| [Christina Hupy](/handbook/company/team/#c_hupy)   | January 2021 |TBD    |
-| [Daniel Parker](/handbook/company/team/#dparker)  | January 2021 |TBD    |
-| [Lindsay Kerr](/handbook/company/team/#lkerr)      | January 2021 |TBD    |
-| [Tom Quirk](/handbook/company/team/#tomquirk)      | January 2021 |TBD    |
-| [Roos Takken](/handbook/company/team/#rtakken)     | January 2021 |TBD    |
-
 ### Free top-tier GitLab for qualifying partners
 
 Partners of this program likely qualify for free top-tier features though one of our Community programs.
