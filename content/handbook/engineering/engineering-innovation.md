@@ -32,6 +32,14 @@ Creating an innovation at GitLab means exploring new ideas and building prototyp
 
 > **Note:** Innovations are not yet [*Experiments*](https://docs.gitlab.com/policy/development_stages_support/#experiment) - however, this guide will help your innovation become an experiment if applicable. When an innovation demonstrates success through monitoring metrics and positive feedback, it can be promoted to a full product feature through collaboration with our product organization.
 
+**Good to Know:** The power of POCs lies in their simplicity and ability to quickly demonstrate value. Keep your POCs small and focused:
+
+- Start with the minimum implementation needed to demonstrate the concept.
+- Focus on proving technical feasibility and value proposition before full implementation. It's okay to simulate or stub certain components that are known to be technically feasible.
+- Examples might include: a new prompt with example outputs, a basic UI mockup, or a simple dataset demonstration.
+
+Remember: The goal is to validate ideas and demonstrate value quickly, not to build a complete feature.
+
 ## Internal vs External Innovations
 
 Innovations can be either internal or external. The goal for external innovations is to move your proof-of-concept to an [experimental](https://docs.gitlab.com/policy/development_stages_support/#experiment) feature, while internal innovations are focused on improving GitLab's internal operations and team efficiency.
