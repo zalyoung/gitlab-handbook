@@ -64,11 +64,6 @@ Alternatively, you can use the keyboard shortcut `⌃+⌘+Q` (`ctrl+cmd+Q`) or p
 
 Docker Desktop is a licensed tool and approved for usage and can be accessed via instructions in the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). 
 
-1. [Rancher Desktop](https://rancherdesktop.io/)
-1. [Colima](https://gitlab.com/-/snippets/2259133)
-
-
-
 To request access to Docker, please follow these steps:
 
 1. Create an account on [hub.docker.com](https://hub.docker.com) using your `@gitlab.com` email. It is not possible to gain access with a non-company email.
@@ -82,8 +77,9 @@ The number of licenses is limited, so provisioning might take time, or might not
 If at some point in the future you do not want to use the product anymore, please [file an Access Change request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bmilestone_id%5D=#), assign to provisioner listed in the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) so that we can assign the license to someone else.
 
 The following open source alternatives appear to be maintained (as of 2025-02-28):
-1. Rancher Desktop
-1. Colima
+
+1. [Rancher Desktop](https://rancherdesktop.io/)
+1. [Colima](https://gitlab.com/-/snippets/2259133)
 
 ## Usage of Java
 
