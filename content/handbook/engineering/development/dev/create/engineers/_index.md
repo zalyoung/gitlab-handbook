@@ -16,7 +16,7 @@ title: Engineers
 
 #### Create:Code Review Frontend
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*(Frontend|Fullstack).*Create:Source Code" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*(Frontend|Fullstack).*Create:Code Review" >}}
 
 #### Create:Editor Extensions
 
@@ -32,4 +32,4 @@ title: Engineers
 
 #### Create:Source Code Frontend
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*(Frontend|Fullstack).*Create:Code Review" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*(Frontend|Fullstack).*Create:Source Code" >}}
