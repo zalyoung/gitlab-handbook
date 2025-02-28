@@ -174,7 +174,6 @@ If you need assistance with a production issue or incident, please see the secti
 | [#infra-terraform-alerts](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH) | Terraform state drift alerts for SaaS infrastructure |
 | [#g_observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
 
-
 **Tenant Scale**
 
 | **Channel** | **Purpose** |
