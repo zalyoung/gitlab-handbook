@@ -14,10 +14,13 @@ and different solutions were discussed in <https://gitlab.com/gitlab-org/core-pl
 ## Decision
 
 All cells will have bigint IDs on creation. While provisioning, each of them will get a
-range of sequences to use from the [Topology Service](../topology_service.md). This range is used to set
+range of sequences to use from the [Topology Service](../topology_service.md).
+
+Topology service uses the logic explained in [here](../topology_service.md#logic-to-compute-the-range) to compute the sequence range, which is used to set
 `minval`, `maxval` for all existing and newly created sequence IDs.
 
-Topology service uses the logic explained in [here](../topology_service.md#logic-to-compute-the-range) to compute the sequence range.
+- Once the database(s) are loaded, `gitlab:db:alter_cell_sequences_range` is called to alter sequences range.
+- The above rake internally registers a EVENT TRIGGER [alter_new_sequences_range](https://gitlab.com/gitlab-org/gitlab/blob/e51a48ba87ecbc70d2c65976e320773f78445045/lib/gitlab/database/alter_cell_sequences_range.rb#L36) to set the correct sequence range for new IDs.
 
 ## Alternatives
 
