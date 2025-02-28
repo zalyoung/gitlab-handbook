@@ -95,12 +95,13 @@ Your work may qualify as innovation for our engineering 40% time allocation. For
 
 Within the Epic, create an issue with the following:
 
-- **Overview:** This should be a high-level summary of the innovation detailing the purpose, expected business benefits, and a resource list for more information. This can also be in the Epic Description section. Your epic overview section should include the following:
+- **Overview:** This should be a high-level summary of the innovation detailing the purpose, expected business value, and a resource list for more information. This can also be in the Epic Description section. Your epic overview section should include the following:
   - **Base Properties**: all innovations should have the following:
     - **A DRI (Directly Responsible Individual):** for each innovation (and if moved to experimental, the DRI for the experiment). This person should be responsible for the cleanup of the innovation so that does not go stale.
     - **Why Now?** or **Problem to Solve?** - this should include the business case for the innovation. This should help everyone to understand the problem the POC is solving.
     - **Dependencies or Implications:** Any dependencies or implications for other product areas or teams.
     - **Timeline:** What will mark this innovation as "complete"?
+    - **Cost:** What are the cost implications of this feature? Are there any infrastructure related costs? Expected maintenance cost?
   - **External Innovation:** If the innovation is intended for an external feature, include the following:
     - **Stage and Group:** Identify the stage and group this functionality would eventually be maintained and owned by - be sure to tag the Product Manager for that group.
     - **Alignment with Product Roadmap and Strategic Initiatives:** A section on how this feature aligns with the Product Roadmap and Strategic Initiatives.
