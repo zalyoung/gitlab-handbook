@@ -46,13 +46,13 @@ Most SaaS Account categories have [automations](../readiness/operations/docs/zen
 
 The table below provides a summary of the available verification options based on the owner and user type:
 
-| Requester | Target | Challenges | Owner vouch | Notes |
+| Requester | Target | Challenges | Support PIN | Notes |
 | --- | --- | --- | --- | --- |
-| Enterprise Owner | Own account | Owner passes challenges on own account | Owner vouch (if required) must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com) for other challenges. |
-| Enterprise Owner | Member of paid group or intent to be added | Owner or target user passes challenges on their own account | Owner vouch can be from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
-| Owner | Non-enterprise user | Target user passes challenges on own account | Owner can vouch | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
-| Paid User | Own account | User passes challenges on own account | Owner can vouch |  |
-| Paid User | Other member of same paid group | Target user passes challenges on own account |  | Communication is direct from the target user who must be CC'd on ticket. |
+| Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com) for other challenges. |
+| Enterprise Owner | Member of paid group or intent to be added | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
+| Owner | Non-enterprise user | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
+| Paid User | Own account | User passes challenges on own account | Support PIN from owner |  |
+| Paid User | Other member of same paid group | Target user passes challenges on own account | Support PIN must come from an owner | Communication is direct from the target user who must be CC'd on ticket. |
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
 
 See the [Enterprise User section](../workflows/gitlab-com_overview.md#enterprise-users) on how to identify if a user is an Enterprise User.
