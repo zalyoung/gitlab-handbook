@@ -45,7 +45,6 @@ The CSSA team is repsonsible for supporting the business via a number of differe
 - Product and Use Case scoring and analytics
 - Customer Journey analytics
 
-
 ## Get in Touch
 
 Head over to [#cs-operations-and-analytics](https://join.slack.com/share/enQtODE3NjYwMDI5NDMyNi1lNzdhOGNjNGE5MDFkYjI3Yjg5Zjg1ZGFhMjIyOWZlZDgxMmQ2MDc1YzE5MjRhMzg5NzNiNDBjNTUwOGYzZDk4) on Slack to get in touch with us and the broader Customer Success Operations team. We use this channel for general support, and key system status updates. We attempt to avoid direct messages where possible as it discourages collaboration.
