@@ -89,7 +89,7 @@ External innovations are focused on developing new features or enhancements for 
     1. Timeboxed goals with clear targets
     1. Estimated time investment required
 1. Be sure to consult your manager before investing time into an idea. Formalize your pitch in a SPIKE issue and obtain explicit manager approval before investing significant time. Work with your manager to identify optimal timing for your timeboxed exploration
-1. Demonstrate how your project supports both team objectives and your professional development. 
+1. Consider any cost implications with the innovation, such as infrastructure cost, license cost, and maintenance cost.
 1. Additionally, work with your Manager on identifying any other subject-matter-experts that may be attempting to solve the same problem.
 
 ### Step 2: Initiate an Epic
@@ -126,9 +126,12 @@ Within the Epic, create an issue with the following:
 
 - **Feedback:** Document both internal feedback from GitLab team members and, when applicable, external user feedback. 
 
-- **Documentation (Optional):** A detailed breakdown of the innovation's internals, including diagrams, code snippets, and technical explanations. This can serve as a "how it was made" guide.
+- **Documentation (Optional):** A detailed breakdown of the innovation's internals, including diagrams, code snippets, and technical explanations. 
+  - This can serve as a "how it was made" guide. 
+  - Since POCs are typically small and often involve stubbed parts, be sure to outline implementation dependencies.
+  - If possible, explain how your POC can be extended. 
 
-- **Monitoring:** This issue should help users understand how your innovation is performing. You can use this issue to provide metrics and monitoring details for the innovation, such as links to dashboards or performance metrics. If monitoring data is confidential or sensitive, ensure the issue is handled accordingly.
+- **Monitoring (Optional):** This issue should help users understand how your innovation is performing. You can use this issue to provide metrics and monitoring details for the innovation, such as links to dashboards or performance metrics. If monitoring data is confidential or sensitive, ensure the issue is handled accordingly.
 
 > **Note:** If your innovation includes a YouTube video via the GitLab Unfiltered channel, it's recommended to mark that video as private until the innovation is ready to be shared with the public.
 
@@ -187,14 +190,6 @@ An innovation can be closed out in a few ways:
 - **Company Strategy:** Learn how innovations fit within our larger [Company Strategy](../company/strategy.md).
 
 - **Architecture Design Workflow:** Architectural innovation usually follows our [Architecture Design Workflow](./architecture/workflow/index.md)
-
-## Innovation vs. Incubation Engineering
-
-While both innovation and incubation engineering play crucial roles in GitLab's development ecosystem, they have distinct focuses:
-
-- **Innovation at GitLab** is geared toward individual or small-team ideas that explore new ways to improve our product and proof-of-concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable feature or product.
-
-- **Incubation Engineering** (detailed in the [Incubation Engineering Handbook](../engineering/development/incubation/_index.md)) is a more structured process where established teams work on early-stage, high-impact projects. These projects often require dedicated resources and are evaluated with a longer-term perspective, aiming to transition successful proofs-of-concepts into fully supported product areas.
 
 ---
 
