@@ -3,15 +3,25 @@ title: "Security Compliance Team"
 description: "Security Compliance Team"
 ---
 
-## Our objectives
+## Security Compliance Team Charter
+Last Updated: 2025-02-25
 
-We support the Security division's [mission and operating principles](/handbook/security/_index.md) by:
+## Table of Contents
+- Mission Statement
+- Value Proposition
+- Core Competencies
+- Operating Model
+- Success Metrics
+- FY26 Strategic Initiatives
 
-1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
-1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
-1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing] ([risk-based-control-testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/)) of assets
-1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
-1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
+## Mission Statement
+A trusted advisor
+sale enablment
+risk reduction
+
+
+## Value Proposition
+Security Compliance maintains GitLab's position as the most trusted DevSecOps offering on the market by providing assurance to our customers and enabling sales through certification maintenance and expansion.
 
 ## Core Competencies
 
@@ -22,7 +32,6 @@ We support the Security division's [mission and operating principles](/handbook/
    - [Policy-as-code](./policy-as-code.md)
    - [Automated evidence collection and control testing](./automated-control-testing.md)
    - [User Access Reviews](./access-reviews.md)
-   - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)](../../information-system-contingency-plan-iscp.md) testing
    - [Risk-based control testing](./risk-based-control-testing.md)
    - [PCI Internal Control Review](./pci-internal-control-review.md)
 1. [Observation and Remediation Management](../observation-management-procedure.md)
@@ -34,6 +43,27 @@ We support the Security division's [mission and operating principles](/handbook/
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
    - Collaborating on responses to relevant RFIs, RFQs, RFPs, and requests for public comment.
    - Monitoring changes to government contractual language that could impact public sector security and compliance posture.
+
+## Operating Model
+
+## Success Metrics
+
+## FY26 Strategic Initiatives
+
+## Review and Updates
+This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
+
+Next scheduled review: [Date]
+
+## Our objectives
+
+We support the Security division's [mission and operating principles](/handbook/security/_index.md) by:
+
+1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
+1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
+1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing] ([risk-based-control-testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/)) of assets
+1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
+1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
 ## Where we work
 
