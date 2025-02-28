@@ -46,7 +46,10 @@ TBD
 
 | Working Group Role          | Person            | Title                                             |
 |-----------------------------|-------------------|---------------------------------------------------|
-| Facilitator                 | Vladimir Shushlin | Engineering Manager, Plan::Knowledge              |
-| Knowledge Team DRI          | Alisa Frunza      | Backend Engineer, Plan::Knowledge                 |
+| Facilitator                 | Vladimir Shushlin | Engineering Manager - Plan::Knowledge             |
+| Knowledge Team DRI          | Alisa Frunza      | Backend Engineer - Plan::Knowledge                |
 | Project Management Team DRI | Heinrich Lee Yu   | Staff Backend Engineer - Plan::Project Management |
 | Product Planning Team DRI   | Kassio Borges     | Staff Backend Engineer - Plan::Product Planning   |
+| Member                      | Alexandru Croitor | Senior Backend Engineer - Plan:Project Management |
+| Member                      | Nicolas Dular     | Staff Backend Engineer - Plan::Product Planning   |
+| Member                      | Eugenia Grieff    | Senior Backend Engineer - Plan::Product Planning  |
