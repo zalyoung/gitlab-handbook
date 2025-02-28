@@ -87,7 +87,7 @@ When Google Calendar is [configured with Humantic AI](/handbook/marketing/market
 1. Input your Write for Me text, then select the `Personalize` button!
 1. Make edit as necessary and send!
 
-#### Groove Omnibar via Salesforce 
+#### Groove Omnibar via Salesforce
 
 1. Go to a Lead or Contact in Salesforce.
 1. Open the Groove Omnibar, then go to Groove tab.

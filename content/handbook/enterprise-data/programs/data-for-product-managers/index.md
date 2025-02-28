@@ -119,7 +119,7 @@ If your analytics needs for your new or recently modified feature are met by the
 
    **Owner: Engineer**
    - Create an Internal Events Tracking Merge Request (MR)
-   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
+   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue
 
 1. Test and Validate
 

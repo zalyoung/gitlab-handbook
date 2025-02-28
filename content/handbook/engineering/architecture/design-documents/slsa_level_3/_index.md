@@ -116,8 +116,8 @@ Note: the projects listed below are note dependent on each other and can be done
 
 #### Provenance Generation
   
-1. Phase 1: Develop and validate the provenance generation component using Sigstore. 
-1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems. 
+1. Phase 1: Develop and validate the provenance generation component using Sigstore.
+1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems.
 1. Phase 3: Add functionality to collect and embed GitLab platform metadata.
 
 #### KMS Integration

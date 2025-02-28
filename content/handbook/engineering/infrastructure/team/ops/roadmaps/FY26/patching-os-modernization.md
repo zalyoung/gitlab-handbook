@@ -10,7 +10,7 @@ In FY25, the Ops team took ownership over the patching processes that are applie
 2. Automating notifications to service owners for required patches and reboots
 3. Creating an automation framework for patching our VM fleet
 
-## North star 
+## North star
 
 All deployed software represents a potential security risk: we aim to ensure that all vulnerabilities impacting the supporting infrastructure of our SaaS products are able to be detected and resolved in an automated fashion.
 

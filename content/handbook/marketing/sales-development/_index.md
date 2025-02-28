@@ -430,7 +430,7 @@ Utilizing these accounts, create an outreach strategy and plan for the upcoming 
 
 #### Account Research Phase (4-5 hours/week)
 
-During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include the below. [You can use the Claude prompt here to help you automate part of this process.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231#note_2316335988) 
+During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include the below. [You can use the Claude prompt here to help you automate part of this process.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231#note_2316335988)
 
 - Identifying new strategic hires - ZoomInfo Scoops, Company Website or LinkedIn
 - Discovering recent job openings in DevOps - Company Website or LinkedIn
@@ -1033,7 +1033,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### Claude
 
-Claude is an AI assistant from Anthropic. It can help with analysis, content writing, research, spreadsheet organization and other tasks. 
+Claude is an AI assistant from Anthropic. It can help with analysis, content writing, research, spreadsheet organization and other tasks.
 
 #### Claude Sales Dev BDR/SDR User Guide
 
@@ -1042,7 +1042,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 **Limitations**
 
 - Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
-- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time** 
+- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time**
 - Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
 - Claude can't maintain context between conversations - each chat starts fresh, so previous discussions about prospects or strategies won't be remembered.
 - Understand that **Claude is not always right and will sound very confident even when it is wrong**
@@ -1050,17 +1050,17 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 **General Tips**
 
 - Treat it like you are having a conversation with a highly intelligent robot (ex. C3P0)
-- Always try to ask follow up questions to get better answers 
-- You can always have Claude write ideal prompts for you! 
+- Always try to ask follow up questions to get better answers
+- You can always have Claude write ideal prompts for you!
 - Because Claude's data cut off is from April you can upload up to date target account's 10Ks, annual reports, and investor letters for up to date research
-- You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format. 
+- You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format.
 
 **Examples of Questions to Ask**
 
 - "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git?
-- “Can you make this email reply more concise?” 
+- “Can you make this email reply more concise?”
 - “Let's say I was a sales rep from GitLab. How should I approach this company/title?” (Can use Panos’s prompt in the prompt library as well )
-- “Can you explain why you gave x answer?” 
+- “Can you explain why you gave x answer?”
 - “Can you rewrite that in a more casual tone?”
 - “I do not like that message you generated.Can you give me 3more options and explain the pros and cons of each?”
 
@@ -1127,7 +1127,7 @@ Specifically:
 - These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**  
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
   - For FY26Q1 we are adding a **Dispute Reason for Low LAM Dev Count** which team members can use when they opt to not pursue a 6QA account because of a small account value potential.
-  - Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of. 
+  - Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of.
 - Accepting or Disputing accounts can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
 - Any accounts that marked as `Accepted` by the BDR team will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/678e891afc1f1f390f3b654f/completed) to automatically bring relevant decision-makers for these accounts to the [B2 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
@@ -1191,9 +1191,9 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 #### Gem-E FY26 Auto Enrollment
 
-For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities. 
+For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities.
 
-- Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow. 
+- Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow.
 - These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
 - These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
 
@@ -1201,7 +1201,7 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893). 
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
 
 #### General leadership principles
 
@@ -1536,7 +1536,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 1. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
 
     **No:** Please proceed to the next step.
-    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br> 
+    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
 
 2. Is the MQL from an Existing Account?
 

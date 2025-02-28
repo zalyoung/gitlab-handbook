@@ -64,7 +64,7 @@ The Senior Legal Operations Manager is a [grade 8](/handbook/total-rewards/compe
 - Strong ability to analyze, iterate, and prioritize multiple projects
 - Excellent problem solving, project management, attention to detail, interpersonal, and organizational skills
 - Adept at predicting and removing blockers and collaborating internally and externally
-- Interest in, and ability to use and teach various software technologies, including GitLab 
+- Interest in, and ability to use and teach various software technologies, including GitLab
 - Shares the GitLab values and works in accordance with those values
 
 ### Director, Contracts and Legal Operations

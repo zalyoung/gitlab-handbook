@@ -126,7 +126,7 @@ The Manager, Digital Success is a Grade 8.
 - Lead a diverse team of content strategists, customer communications specialists, program managers, and customer experience managers focused on digital-first engagement
 - Develop integrated content and communication strategies that drive customer adoption across the tech touch segment
 - Create and execute scalable programs that blend strategic content, targeted communications, and digital experiences
-- Drive cross-functional collaboration between content, communications, product, and technical teams 
+- Drive cross-functional collaboration between content, communications, product, and technical teams
 - Implement data-driven approaches to measure content effectiveness, program success, and customer engagement
 - Design and oversee automated customer journey workflows that combine strategic content and communications
 - Establish content governance frameworks and communication standards across digital touchpoints

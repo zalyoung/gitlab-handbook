@@ -59,6 +59,6 @@ We need to have team members to staff incident response and they need to be equi
 
 **The Infra Leader role** thankfully has not needed to be used much in the past few months. However, we needed clearer guidance about what this role entails, who is part of this rotation, and how handoffs between regions are handled.
 
-### EOC in Engineering 
+### EOC in Engineering
 
 There is a project to establish wider on-call responsibilities in Engineering. Please see [FY26 Directional Theme - On-Call Enhancements across Engineering](https://docs.google.com/document/d/1KGFMyHR2pTw_mkeOGxhG1YBY-MZDb3mwEnUd4Zdwl8M/edit?tab=t.0) for details.

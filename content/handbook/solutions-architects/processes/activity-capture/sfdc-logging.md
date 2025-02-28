@@ -55,7 +55,7 @@ The SA Validated Tech Evaluation Close Status represents the result of the techn
   - **Stalled**: The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution - typically when the SA has not been working with the prospect or customer on evaluation-related activities for at least two weeks
 - Should NOT be used as a forecasted status
 - Should be accompanied by the **SA Validated Tech Evaluation End Date** and **SA Validated Tech Evaluation Close Details**
-   
+
 ### SA Validated Tech Evaluation Close Details
 
 The SA Validated Tech Evaluation Close Details provide additional context for the outcome of the evaluation.
@@ -151,7 +151,7 @@ Not all opportunities require the SA Feasibility Rating fields to be completed. 
 
 #### Applicable Stages
 
-SA Feasibility is most applicable in Stages 3-4. Before Stage 3 - Technical Evaluation, the Solutions Architect should be thinking about how best to structure an evaluation to set up for a successful technical win. After Stage 4 - Proposal, the technical evaluation should have completed and the Solutions Architect moves into a support role. 
+SA Feasibility is most applicable in Stages 3-4. Before Stage 3 - Technical Evaluation, the Solutions Architect should be thinking about how best to structure an evaluation to set up for a successful technical win. After Stage 4 - Proposal, the technical evaluation should have completed and the Solutions Architect moves into a support role.
 
 #### Net ARR Thresholds
 
@@ -188,7 +188,7 @@ The fields are available in the **Technical Evaluation** section of an opportuni
 
 - Planned SA activities to drive deal forward with target dates
 - Functions as daily to-do and follow-up list
-- Examples include demonstrations, value stream workshops, hands-on workshops, Proofs of Value, etc. 
+- Examples include demonstrations, value stream workshops, hands-on workshops, Proofs of Value, etc.
 - Track progress through technical evaluation
 - Must be updated after each customer interaction
 - Empty/outdated field signals inactive opportunity, and lack of activities

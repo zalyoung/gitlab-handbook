@@ -7,7 +7,7 @@ GitLab uses Impartner as our primary Partner Relationship Management (PRM) platf
 
 ## PRM MDF Approval/ Process
 
-The Channel Marketing team offers Market Development Funds to support the Partner's marketing campaigns and events. Channel Partners submit the MDF request and claim to the Partner Portal, and they must be approved before being reimbursed. 
+The Channel Marketing team offers Market Development Funds to support the Partner's marketing campaigns and events. Channel Partners submit the MDF request and claim to the Partner Portal, and they must be approved before being reimbursed.
 
 This process is reflected in Iteration 2, [see flowchart](https://www.figma.com/board/5JXv8yRHDyXttWt669A67E/MDF-Process-Iterations?node-id=0-1&p=f&t=PhdMoT9RvpJz9VKz-0).
 
@@ -116,7 +116,7 @@ We can make edits to the form, which is built using  the Module Form Builder (MF
 5. When you've clicked any of the MDF forms, you will be able to add, remove and update the form fields and layout.
 6. Save and Publish.
 
-## PRM MDF 
+## PRM MDF
 
 To access your MDF request, go to PRM, and retrieve the `MDF` tab. If you do not see it, go to the `More` tab, there you'll be able to see the hidden tabs.
 
@@ -129,7 +129,7 @@ Should you wish to have a customized view, following the instructions below.
 1. Update the Name to "My Pending Requests"
 1. Set Visibility: "Private - can only be seen by me"
 1. In Manage Filters, Click on `+Add`
-     
+
       1. Field: `Channel Marketing Manager - Name`
       1. Operator: `equals`
       1. Type: `Value`

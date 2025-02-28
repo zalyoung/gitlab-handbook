@@ -19,7 +19,7 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
 
-- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
+- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization.
 
 ## Data Model Categories
 

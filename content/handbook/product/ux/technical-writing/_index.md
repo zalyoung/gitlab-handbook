@@ -412,7 +412,7 @@ can efficiently perform the necessary verification.
 
 To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the Technical Writers use this workflow:
 
-- When a Technical Writer opens a merge request, another Technical Writer must review and merge. 
+- When a Technical Writer opens a merge request, another Technical Writer must review and merge.
   - The Technical Writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
     - This requirement aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:

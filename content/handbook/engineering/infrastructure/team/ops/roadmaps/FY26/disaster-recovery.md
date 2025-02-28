@@ -16,7 +16,7 @@ Disaster Recovery is hands-off and built-in to our system. It is tested in an au
 
 ## Goals for FY26
 
-### Push gamedays from process reaction to verification 
+### Push gamedays from process reaction to verification
 
 Right now, gamedays for disaster recovery have mostly been focused on areas in GitLab.com that require manual intervention for zonal degradations. This is important, but there are areas in GitLab.com and the new Cells infrastructure that should be resilient by design, and we should test and verify that design.
 
@@ -30,7 +30,7 @@ Gamedays have been targeted on our staging environment (GSTG) to avoid disruptio
 
 Continue to execute gamedays regularly. Collect feedback to improve services tested, and the gamedays themselves. Improve automation to help minimize toil and look for opportunities to use automation to perform DR verification. Use gameday measurement to inform RTP/RPO values. Leverage instance management tooling to help disaster recovery related responses be performed quicker and with confidence.
 
-### Document and communicate disaster recovery ownership 
+### Document and communicate disaster recovery ownership
 
 Update our Ops handbook and processes to clearly outline what the team's goals are in testing and verifying disaster recovery capabilities. This should include how we interface with other teams and provide feedback on improving disaster recovery response and capability.
 

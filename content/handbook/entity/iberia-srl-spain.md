@@ -126,7 +126,7 @@ Please note that Group Medical plan premiums are tax exempt up to €500 per yea
 <details markdown="1">
 <summary>Medical Plan Enrollment and Opting Out</summary>
 
-Team Members will be automatically enrolled upon hire. 
+Team Members will be automatically enrolled upon hire.
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
 
 New Hires can add Family members by filling out the Survey Link included in their onboarding document.

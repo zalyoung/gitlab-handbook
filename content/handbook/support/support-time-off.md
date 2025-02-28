@@ -234,7 +234,7 @@ If you unassigned some of your tickets before going on PTO, take the time to go 
 
 ### Before PTO is taken
 
-The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects. 
+The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects.
 
 1. List Key Responsibilities: The manager will prepare a comprehensive list of all tasks that require attention during their absence.
 1. Determine Priority: The manager will assess which tasks are time-sensitive and which can be delayed. They will prioritize duties based on urgency, impact, and team dependency.
@@ -253,7 +253,7 @@ Documenting the Process: The manager will create an issue to outline
 
 ### Communicate
 
-The manager will inform the team and relevant stakeholders about the temporary delegation of responsibilities. 
+The manager will inform the team and relevant stakeholders about the temporary delegation of responsibilities.
 
 ### After PTO
 

@@ -29,7 +29,7 @@ Familiarize yourself with what it means to plan your career path, and how leader
 
 ## Path to Promotion: Intermediate Support Engineering
 
-An Intermediate-level Support engineer uses strong communication techniques to understand customer situations, manage customer expectations, produce high quality ticket resolutions and create a consistently excellent customer experience. They demonstrate a personal growth mindset by initiating pairings, completing learning modules, and building product and troubleshooting knowledge. 
+An Intermediate-level Support engineer uses strong communication techniques to understand customer situations, manage customer expectations, produce high quality ticket resolutions and create a consistently excellent customer experience. They demonstrate a personal growth mindset by initiating pairings, completing learning modules, and building product and troubleshooting knowledge.
 
 ### Considerations and Recommendations
 

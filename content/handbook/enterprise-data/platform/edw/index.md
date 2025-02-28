@@ -112,7 +112,7 @@ Mapping/look-up (map_) tables to support dimension tables should be created in t
 
 ## Common Schema
 
-The Common schema is where all of the facts and dimensions that compose the Enterprise Dimensional Model are stored. The Common schema contains a variety of different types of dimensions and facts that create multiple star schemas. The models in this schema are robust and provide the basis for analyzing GitLab's businesses processes. 
+The Common schema is where all of the facts and dimensions that compose the Enterprise Dimensional Model are stored. The Common schema contains a variety of different types of dimensions and facts that create multiple star schemas. The models in this schema are robust and provide the basis for analyzing GitLab's businesses processes.
 
 Our dimensional model revolves around two core components: dimensions (providing context) and facts (measuring events). Understanding each component's role and characteristics is crucial for effective data modeling.
 
@@ -201,7 +201,7 @@ Fact tables record the business events we want to analyze. They contain the quan
 
 ### Key Characteristics
 
-Fact tables capture business events with numeric measures and typically grow continuously as new events occur. They're characterized by many rows (each representing a single event) but relatively few columns. 
+Fact tables capture business events with numeric measures and typically grow continuously as new events occur. They're characterized by many rows (each representing a single event) but relatively few columns.
 
 While most measures in these tables can be aggregated, some can only be partially aggregated (like averages), and others shouldn't be aggregated at all (like percentages). Each fact table represents a specific business process and includes foreign keys that link to dimension tables, providing context to the measures.
 
@@ -209,7 +209,7 @@ While most measures in these tables can be aggregated, some can only be partiall
 
 **Atomic Facts** Fact tables form the foundation of fact-based analysis by capturing business events at their most granular level. Each row represents an individual business event with complete, unfiltered data, preserving the maximum level of detail. By maintaining this granularity, atomic facts enable flexible aggregation options for various analytical needs.
 
-**Derived Facts** Derived facts are specialized views built on top of atomic facts to serve specific analytical needs while maintaining clear data lineage. They improve performance by creating focused subsets of large atomic fact tables. For instance, when analysts typically work with just 10% of a large event table, a derived fact can extract just that portion, improving query speed. These tables also standardize metrics by precomputing commonly used aggregations. 
+**Derived Facts** Derived facts are specialized views built on top of atomic facts to serve specific analytical needs while maintaining clear data lineage. They improve performance by creating focused subsets of large atomic fact tables. For instance, when analysts typically work with just 10% of a large event table, a derived fact can extract just that portion, improving query speed. These tables also standardize metrics by precomputing commonly used aggregations.
 
 Additionally, through "drill across facts", we can combine multiple fact tables through their shared conformed dimensions to create unified analytical views. By using full outer joins on common dimensions, this process creates derived fact tables that link related business processes while maintaining dimensional consistency, enabling analysis across multiple business areas.
 
@@ -254,7 +254,7 @@ The design puts business users first by using familiar business terms for tables
 
 Scaffold tables serve as a foundational structure between fact tables, ensuring comprehensive coverage of all possible dimensional combinations in visualizations and analyses. When working with visualization tools like Tableau, these tables become particularly valuable by filling in gaps and enabling consistent comparisons between actuals and targets. They're especially useful for time-based analysis, where you need to maintain a continuous view even when data points are missing. By providing this complete dimensional framework, scaffold tables help prevent misleading gaps in reports and dashboards, ensuring that analysts can see the full picture, including periods or combinations where no data exists. These scaffold tables reside in the common_mart schema with the rpt_scaffold_ prefix, building on top of fact tables while maintaining complete dimensional combinations.
 
-In our targets vs actuals reporting, we use a scaffold table to ensure data completeness and consistency. This table maintains a comprehensive structure that covers all time periods and attribute combinations, whether or not sales activity occurred. 
+In our targets vs actuals reporting, we use a scaffold table to ensure data completeness and consistency. This table maintains a comprehensive structure that covers all time periods and attribute combinations, whether or not sales activity occurred.
 
 ## Specific Schema
 

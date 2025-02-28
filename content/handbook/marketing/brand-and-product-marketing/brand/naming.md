@@ -72,7 +72,7 @@ It may be helpful to see how other naming projects at GitLab have come to life. 
   - [Brainstorm doc](https://docs.google.com/document/d/17vQeXHftgYwY1amTP7UZMe5X1d9Ov7EY7b87umXffJw/edit?usp=sharing)
   - [Recommendation](https://docs.google.com/document/d/18t0umite-_Jyqs0OhL6VhNi7K-93LBRTvJMrUIWCtvE/edit?usp=sharing)
 
-### Naming tips and tricks 
+### Naming tips and tricks
 
 As you’re brainstorming and creating a naming recommendation, consider these tips and strategies:
 

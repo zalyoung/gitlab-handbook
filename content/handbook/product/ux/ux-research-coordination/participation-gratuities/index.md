@@ -17,10 +17,10 @@ If you are unsure as to whether your study qualifies for incentives, reach out i
 
 ## Incentive Participation Limits & Considerations
 
-- There are some cases outside of country restrictions where we cannot provide a gratuity for participants. 
-Such as: 
-- The participant has received $599 (USD) in one calendar year.* 
-- The participant has indicated that they are a government or non-profit employee.* 
+- There are some cases outside of country restrictions where we cannot provide a gratuity for participants.
+Such as:
+- The participant has received $599 (USD) in one calendar year.*
+- The participant has indicated that they are a government or non-profit employee.*
 - The participant has indicated that they are unable to recieve an incentive based on company policy.*
 
 - *In these cases, the participant can still take part as long as you have confirmation that they are fine to proceed without an incentive. Our core screener questions aims to capture this information.
@@ -38,7 +38,7 @@ Such as:
 | 90 Minutes | $180 |
 | 2 Hours | $240 |
 
-- Surveys, card sorts, and tree tests will often have a Promotion Game attached e.g. Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards. However, this is not always the case and should always be confirmed on your recruitment issue. On occasion our longer surveys are incentivezed per complete. This must be approved by the Senior UX Research Operations Coordinator or UX Research Manager. 
+- Surveys, card sorts, and tree tests will often have a Promotion Game attached e.g. Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards. However, this is not always the case and should always be confirmed on your recruitment issue. On occasion our longer surveys are incentivezed per complete. This must be approved by the Senior UX Research Operations Coordinator or UX Research Manager.
 
 If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards), please review the following information in the [handbook](/handbook/legal/ux-research-pilot/) and consult with legal where required. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional games or contests.
 
@@ -58,4 +58,4 @@ Check out RallyUXR's Tremendous' [FAQ page](https://help.rallyuxr.com/en/article
 
 ## Incentives budget tracking and funding
 
-The accounting team funds Tremendous via RallyUXR with a lump sum amount from the pre-approved research incentives budget twice a year. We issue thank you gifts from that prepaid amount. The UX Research Operations Coordinator puts through a budget request in the first month of Q1 (February) and Q3 (August) to get the funds released. 
+The accounting team funds Tremendous via RallyUXR with a lump sum amount from the pre-approved research incentives budget twice a year. We issue thank you gifts from that prepaid amount. The UX Research Operations Coordinator puts through a budget request in the first month of Q1 (February) and Q3 (August) to get the funds released.

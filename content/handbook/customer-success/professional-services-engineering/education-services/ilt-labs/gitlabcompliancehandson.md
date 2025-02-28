@@ -13,7 +13,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 | License Compliance and Security Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson4) |
 | Pipeline Execution Policies | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson5) |
 | Compliance Center and Frameworks | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson6) |
-| Audit Management | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson7) | 
+| Audit Management | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson7) |
 | Reporting | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson8) |
 
 ## Quick links

@@ -210,7 +210,7 @@ Identified risks are formally tracked via an internal risk register. Given the n
 
 We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/document/d/1cpBbn_0kIWpEzbzLrzEcVesN-3Y0y1K6SD6wiv0-Vaw/edit?usp=sharing) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
 
-GitLab team members can find all Security Risk Quarterly documents in the [SRQ Reports Google Drive folder](https://drive.google.com/drive/folders/18KeZiRGtWuZLke2TxYlhD6Mjgoyv4tBJ). 
+GitLab team members can find all Security Risk Quarterly documents in the [SRQ Reports Google Drive folder](https://drive.google.com/drive/folders/18KeZiRGtWuZLke2TxYlhD6Mjgoyv4tBJ).
 
 ## Top 5 Risks
 

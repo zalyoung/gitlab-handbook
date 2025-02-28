@@ -664,7 +664,7 @@ Example byod config snippet. Note - Only the instance is configured, not kas or 
 
 ### Domain Setup
 
-- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com) 
+- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com)
 - Each Cell also responds to their configured [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186)
 - Nginx ingress handles both domains
 
