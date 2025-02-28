@@ -1,11 +1,14 @@
 ---
 title: "Managing Limits"
-description: ""
+description: "Guidance for when, where, and how to configure limits for GitLab"
 ---
 
 ## Overview
 
-TODO: Write overview for why these processes are important
+GitLab environments require a multi-layered approach to rate limiting to effectively protect services and resources.
+Each layer provides distinct advantages and serves as a complementary control in a comprehensive defense in depth strategy to protect our platform.
+
+Follow this guide when introducing or managing limits.
 
 ## Where to configure the limit
 
@@ -45,13 +48,17 @@ dedicated -- yes --> cloudflare-waf-module
 dedicated -- no --> custom-rule
 ```
 
+> [!note]
+> This is currently focused on inbound limits such as HTTP traffic,
+> and may be expanded in the future to account for internal limits between services.
 
 ## Evaluation
 
 Rate limits should be enabled by default. If we are considering introducing new limits enabling or changing a limit, we should do an evaluation first.
 
 1. Determine if a rate limit already exists
-  -
+
+TODO: More detail here
 
 ### Cloudflare
 
