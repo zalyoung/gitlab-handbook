@@ -109,7 +109,7 @@ Within the Epic, create an issue with the following:
     - **Cost:** What are the cost implications of this feature? Are there any infrastructure related costs? Expected maintenance cost?
   - **External Innovation:** If the innovation is intended for an external feature, include the following:
     - **Stage and Group:** Identify the stage and group this functionality would eventually be maintained and owned by - be sure to tag the Product Manager for that group.
-    - **Alignment with Product Roadmap and Strategic Initiatives:** A section on how this feature aligns with the Product Roadmap and Strategic Initiatives.
+    - **Alignment with Product Roadmap and Strategic Initiatives:** If possible, include a section on how this feature aligns with the Product Roadmap and Strategic Initiatives.
     - **Security and Privacy:** Security and Privacy considerations - has this been reviewed by the Security Team?
     - **Visual Differentiation Plan:** Describe how your innovation will be visually differentiated from standard product features, including:
       - Which visual differentiation approach you'll use (UI badge, experimental mode, feature flags, etc.).
