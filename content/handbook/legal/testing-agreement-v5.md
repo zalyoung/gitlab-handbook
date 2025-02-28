@@ -1,4 +1,6 @@
+---
 Title: GitLab Testing Agreement
+---
 
 # GitLab Testing Agreement
 
