@@ -60,9 +60,34 @@ Alternatively, you can use the keyboard shortcut `⌃+⌘+Q` (`ctrl+cmd+Q`) or p
 1. Drag the `Screen Lock` icon to the Touch Bar
 1. Done!
 
+## Docker Desktop
+
+Docker Desktop is a licensed tool and approved for usage and can be accessed via instructions in the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). 
+
+1. [Rancher Desktop](https://rancherdesktop.io/)
+1. [Colima](https://gitlab.com/-/snippets/2259133)
+
+
+
+To request access to Docker, please follow these steps:
+
+1. Create an account on [hub.docker.com](https://hub.docker.com) using your `@gitlab.com` email. It is not possible to gain access with a non-company email.
+1. Log an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bmilestone_id%5D=) with the Access_Change_Request template, detailing why alternatives are not an option (as noted above).
+1. Once your manager approves the request, assign to the System Provisioner listed in the [Tech Stack] for this system.
+
+Once your access has been provisioned, you will receive an email notification that you have been added to a specific `dockerdesktop` team. Following that, you can [install Docker desktop](https://www.docker.com/products/docker-desktop/), and login with the registered account.
+
+The number of licenses is limited, so provisioning might take time, or might not be temporarily possible to gain access to the team.
+
+If at some point in the future you do not want to use the product anymore, please [file an Access Change request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bmilestone_id%5D=#), assign to provisioner listed in the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) so that we can assign the license to someone else.
+
+The following open source alternatives appear to be maintained (as of 2025-02-28):
+1. Rancher Desktop
+1. Colima
+
 ## Usage of Java
 
-Some applications used on MacOS may require Java. The last open-source version of Oracle Java that was released was in January of 2019. All new versions since then require a paid/licensed scubscription. Therefore GitLab no longer supports Oracle Java, and requires all team-members to use an open-source alternative like OpenJDK. Oracle periodicaly audits all downloads of Oracle Java and actively pursues companies that are out of compliance. The IT department therefore enforces a policy that will remove all instances of Oracle Java that are found on team-members machines
+Some applications used on MacOS may require Java. The last open-source version of Oracle Java that was released was in January of 2019. All new versions since then require a paid/licensed scubscription. Therefore GitLab no longer supports Oracle Java, and requires all team-members to use an open-source alternative like OpenJDK. Oracle periodicaly audits all downloads of Oracle Java and actively pursues companies that are out of compliance. The IT department therefore enforces a policy that will remove all instances of Oracle Java that are found on team-members machines.
 
 To ensure you are using the correct version, use the `java -version` command.
 
