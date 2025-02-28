@@ -28,7 +28,7 @@ title: Engineers
 
 #### Create:Source Code Backend
 
-{{< team-by-manager-slug "dpoosarla" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*(Backend).*Create:Source Code" >}}
 
 #### Create:Source Code Frontend
 
