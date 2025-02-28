@@ -92,8 +92,6 @@ External innovations are focused on developing new features or enhancements for 
 1. Demonstrate how your project supports both team objectives and your professional development. 
 1. Additionally, work with your Manager on identifying any other subject-matter-experts that may be attempting to solve the same problem.
 
-Your work may qualify as innovation for our engineering 40% time allocation. For more details on time allotment, see the [GitLab Engineering Handbook](../engineering/_index.md).
-
 ### Step 2: Initiate an Epic
 
 - **Create a GitLab Epic:** Start by creating an Epic on the "[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)" board. This will be the central hub for tracking all aspects of your innovation.
