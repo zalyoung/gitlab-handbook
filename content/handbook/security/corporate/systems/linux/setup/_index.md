@@ -14,7 +14,7 @@ For laptops shipped with OEM Windows you may want to make a full drive backup (e
 
 1. **Ensure the firewall is enabled**. From a terminal window run the command `sudo ufw status`. If the response is `Status: inactive` run `sudo ufw enable`. If `ufw` is not installed, run `sudo apt install ufw` first.
 
-1. **Ensure FleetDM is installed**. Follow the instructions at LINK COMING SOON. Installation of FleetDM will allow for remote installation of Crowdstrike Falcon, the EDR solution for GitLab endpoint systems including Linux.
+1. **Ensure FleetDM is installed**. Follow the instructions listed [here](https://internal.gitlab.com/handbook/security/corporate/tooling/fleet/#enrolling-in-fleet) (internal link). Installation of FleetDM will allow for remote installation of Crowdstrike Falcon, the EDR solution for GitLab endpoint systems including Linux.
 
 1. **Regular Applications**. Use the regular approved applications such as Google Chrome (and sign into Okta), Zoom, and Slack. Install the other applications for your job description (e.g. development tools) as needed. Complete the steps in your onboarding issue and/or laptop equipment issue.
 
