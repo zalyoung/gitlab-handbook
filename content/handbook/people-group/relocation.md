@@ -305,7 +305,7 @@ Once a Mutual Termination Agreement (MTA) has been created by the People Connect
 ##### Relocating **to** South Korea, France or Singapore
 
 1. The People Connect Lead shares the relocation contract with gitlabHRSS@globalupside.com. Global Upside then sends an Egnyte (payroll platform) login invitation email to the relocating team member. If they are relocating to France an invite to Mihi will also be sent.
-1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/coordinator/#process-for-gitlab-team-members-in-singapore-south-korea-or-france)
+1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/coordinator/#process-for-gitlab-team-members-in-south-korea-or-france)
 
 1. If a team member relocating to France is an expatriate who has not been a French tax resident for the 5 calendar years before the calendar year during which they relocate, and they wish to assess their eligibility for the impatriate tax regime, they must let People Connect know three months in advance that they will be undertaking the assessment. The People Connect team can reach out to legal-employment@gitlab.com for support with appropriate contract language once the relocating team member confirms their eligibility. *Note that eligibility is a complex tax matter and the relocating team member should check with their personal tax advisor.*
 
