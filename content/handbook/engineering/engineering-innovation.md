@@ -24,7 +24,7 @@ This iterative and collaborative guide directly supports GitLab's three-year str
 
 ## Overview
 
-Creating an innovation at GitLab means exploring new ideas, testing new features, or building prototypes to create new products or improve our existing products and processes. This guide outlines the steps you should follow, from ideation to sharing feedback, in both internal and external settings. An innovation can be a new feature, feature improvement, innovative use of GitLab feature to show unknown use cases, a new organizational tool, or anything that helps the success of GitLab.
+Creating an innovation at GitLab means exploring new ideas and building prototypes to create new products or improve our existing products and processes. This guide outlines the steps you should follow, from ideation to sharing feedback, in both internal and external settings. An innovation can be a new feature, feature improvement, innovative use of GitLab feature to show unknown use cases, a new organizational tool, or anything that helps the success of GitLab.
 
 - **Innovation (Proof-of-Concept):** A project created to validate a new idea or potential product feature.
 
