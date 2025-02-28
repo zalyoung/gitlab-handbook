@@ -36,10 +36,10 @@ The following gives an overview of our scope and ownership.
 1. [Monitoring fundamentals](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
    1. Metrics stack
    1. Logging stack
-1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets/)
+1. [Error budgets](/handbook/engineering/infrastructure/team/observability/error_budgets/)
    1. Ownership of concept and implementation
    1. Delivery of monthly error budget report
-1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning/)
+1. [Capacity planning](/handbook/engineering/infrastructure/team/observability/capacity_planning/)
    1. [Triage rotation for .com](/handbook/engineering/infrastructure/capacity-planning/#gitlabcom-capacity-planning)
    1. [Operational aspects for GitLab Dedicated capacity planning](https://docs.gitlab.com/ee/architecture/blueprints/capacity_planning/)
    1. Developing [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), the forecasting tool
@@ -121,7 +121,7 @@ Between these different signals, we have a relatively (im)precise view into the 
 The team are responsible for provisioning access to the services listed below, as per the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file.
 
 1. **Kibana** is accessed through Okta. Team members need to be in either of the following Okta groups: `gl-engineering` (entire Engineering department); `okta-kibana-users`. The latter group is used to manage access for team members outside of Engineering on an ad-hoc basis ([context](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/958)). Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28421)). If the access request is approved, the provisioner should add the user to [this group](https://groups.google.com/a/gitlab.com/g/okta-kibana-users), which will then automatically sync to its namesake group in Okta.
-1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions to the instances they require access to. 
+1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions to the instances they require access to.
 1. **Grafana** is accessed through Okta. The login screen is availabile [here](https://dashboards.gitlab.net).  Any GitLab team member can access Grafana.  Provisioning and deprovisioning is handled through Okta.
 
 ## How we work
@@ -160,7 +160,6 @@ We unassign ourselves from issues we are not actively working on or planning to 
 The Observability team's [issue boards](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/boards/) track the progress of ongoing work.
 
 We use [issue boards](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/boards/) to track the progress of planned and ongoing work.
-Refer to the Scalability group [issue boards section](/handbook/engineering/infrastructure/team/scalability/#issue-boards) for more details.
 
 | **Planning** | **Building**|
 |--------------|-------------|
