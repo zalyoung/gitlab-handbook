@@ -23,13 +23,14 @@ This document outlines our approach to implementing a
 We're evolving beyond the binary open/closed states and label-based status tracking by introducing proper status
 fields with customization capabilities.
 
-The solution introduces system-defined statuses as the foundation for Premium and Ultimate users, with custom
-status configuration capabilities allowing these users to modify names, colors, and workflows as needed.
+The solution introduces system-defined statuses as the foundation for Premium and Ultimate users, with users able to
+add statuses, change status name or color, and alter the order of statuses.
 We'll initially target Tasks before expanding to Issues, Epics and other work item types, while Free users will
 continue using the binary open/closed state system.
 
-This initiative addresses customer feedback regarding label overuse and lays the groundwork
-for comprehensive custom workflows in GitLab.
+This initiative lays the groundwork for users to more effectively manage work
+item lifecycles and addresses problems caused by requiring labels for status
+management.
 
 ## Timeline & status updates
 
@@ -41,26 +42,25 @@ for comprehensive custom workflows in GitLab.
 
 ### Existing concepts and terms
 
-1. Work Item Type - A classification that determines a work item's available features and behaviors
+1. **Work Item Type:** A classification that determines a work item's available features and behaviors
    through its associated widgets.
-1. Widget - A functional component that provides specific capabilities to a work item type
+1. **Widget:** A functional component that provides specific capabilities to a work item type
    (for example "assignees" and "labels").
-1. State - The fundamental binary classification of a work item as either 'open' or 'closed'.
+1. **State:** The fundamental binary classification of a work item as either 'open' or 'closed'.
 
 ### New concepts and terms
 
-1. **Status** - A specific stage in a work item's workflow ("In progress", "Done", "Won't do")
+1. **Status:** A specific step in a work item's workflow ("In progress", "Done", "Won't do")
    that belongs to a category and maps to a binary state (open/closed).
-1. **Status category** - A logical grouping for statuses (triage, to_do, in_progress) that determines
+1. **Status category:** A logical grouping for statuses (triage, to_do, in_progress) that determines
    their effect on a work item's state (and icon).
-1. **System-defined status** - A system-provided status that cannot be modified and that is available
+1. **System-defined status:** A system-provided status that cannot be modified and that is available
    to get started with work item statuses.
-1. **Custom Status** - A namespace-defined status that replaces system-defined statuses for all groups
+1. **Custom Status:** A namespace-defined status that replaces system-defined statuses for all groups
    and projects within that namespace.
-1. **Lifecycle** - A collection of statuses that can be applied to a work item type. It allows statuses
-   to be grouped into meaningful workflows that can be inherited across the group/project hierarchy
-   while maintaining flexibility at each level.
-1. **Status Widget** - The component that displays status and allows users to modify the status of a
+1. **Lifecycle:** A collection of statuses that can be applied to a work item type. It allows statuses
+   to be grouped into meaningful workflows that can be reused consistently across types and namespaces.
+1. **Status Widget:** The component that displays status and allows users to modify the status of a
    work item on list, board, and detail views.
 
 ## Motivation
@@ -73,11 +73,11 @@ labels for status tracking creates inconsistency and management overhead.
 ### Goals
 
 1. Expand work item status beyond the binary open/closed system to represent more workflow stages
-1. Reduce reliance on labels for tracking status
 1. Improve context on the status of work items
 1. Enable better reporting on the reasons for closing issues (completed vs. duplicated/moved/won't do)
 1. Enhance lead/cycle time calculations by distinguishing active time from waiting time
 1. Build on top of our work item system to leverage status for all work item types
+1. Reduce reliance on labels for tracking status
 
 ### Non-Goals
 
@@ -112,7 +112,7 @@ Lifecycles function as a holder for statuses and can be applied to work item typ
 They define which statuses are available for items of a given work item type.
 
 **For example:** In a customers root group, issues should use the "Engineering" lifecycle,
-tasks "Kanban", and epics the "Strategy" lifecycle.
+tasks "Kanban", and epics, objectives, and key results the "Strategy" lifecycle.
 All lifecycles reuse the "Done" and "Won't do" statuses, but overall the number of statuses and
 their position is different.
 
@@ -136,7 +136,7 @@ the work item type and namespace. The default lifecycle contains these statuses:
 
 #### Status Categories
 
-Statuses are organized into categories that determine their behavior:
+Statuses are organized into categories that are not user-configurable that determine their behavior:
 
 ```ruby
 CATEGORIES = {
@@ -420,6 +420,15 @@ statuses, we refrain from doing so in the forseable future. Specifically we've e
    It's to be defined whether we'll work on an intermittent solution or postpone adding status
    to incidents until the migration is completed.
    [See this discussion for details](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/181962#note_2356993383)
+
+### Feature flags and licensed feature
+
+We'll use the feature flag `work_item_status` throughout the development of this feature.
+The actor needs to be the root group.
+
+Since the feature will only be available in Premium and Ultimate tier, we consider it a licensed feature.
+The feature name is `work_item_custom_status`.
+The name differs from the feature flag because we cannot use the same name.
 
 ### Implementation Plan
 
