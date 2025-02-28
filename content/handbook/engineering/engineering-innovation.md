@@ -180,6 +180,8 @@ An innovation can be closed out in a few ways:
 
 - **Company Strategy:** Learn how innovations fit within our larger [Company Strategy](../company/strategy.md).
 
+- **Architecture Design Workflow:** Architectural innovation usually follows our [Architecture Design Workflow](./architecture/workflow/index.md)
+
 ## Innovation vs. Incubation Engineering
 
 While both innovation and incubation engineering play crucial roles in GitLab's development ecosystem, they have distinct focuses:
