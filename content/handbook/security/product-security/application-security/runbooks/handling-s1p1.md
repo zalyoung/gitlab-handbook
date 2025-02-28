@@ -52,7 +52,7 @@ If a vulnerability requires using features listed above for successfuly exploita
 
 ### Disabling affected features
 
-In the event of a reported critical vulnerability, the Senior Director of Application Security, and as backup/alternate the VP of Product Security, has executive authority over the following decisions:
+In the event of a reported critical vulnerability and when in doubt, the Senior Director of Application Security, and as backup/alternate the VP of Product Security, has executive authority over the following decisions:
 
 1. Determining whether specific features need to be disabled due to the vulnerability.
 1. Deciding when it's safe to re-enable features that were previously disabled.
