@@ -20,9 +20,9 @@ For laptops shipped with OEM Windows you may want to make a full drive backup (e
 
 ## Additional Steps
 
-*Fingerprint Reader* - If your Dell laptop has a fingerprint reader, modern Ubuntu may support it out of the box, if not consider the following steps (YMMV):
+_Fingerprint Reader_ - If your Dell laptop has a fingerprint reader, modern Ubuntu may support it out of the box, if not consider the following steps (YMMV, it may require another solution):
 
-```
+```bash
 sudo apt install libpam-fprintd
 sudo systemctl status fprintd.service
 sudo systemctl restart fprintd.service

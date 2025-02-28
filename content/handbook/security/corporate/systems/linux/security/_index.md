@@ -8,5 +8,5 @@ The following is the list of standards that Corporate Security is requiring for 
 
 - The hard drive must be encrypted.
 - The approved EDR (Endpoint Detection and Response) solution is installed.
-- The user account must be a regular user account, with the administrative account disabled from login. All administrative actions must be carried out via the `sudo` command.
+- The user account must be a regular user account, with the administrative account disabled from login. All administrative actions must be carried out using the the `sudo` command.
 - The laptop must have the corporate-approved remote management tools. For Linux this is FleetDM. This is used to confirm certain settings are in use, confirm the hard drive is encrypted, deploy the EDR solution, and allow for remote hard drive wiping at "end of life" for the laptop before a new one is provided.
