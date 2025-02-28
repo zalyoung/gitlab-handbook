@@ -38,19 +38,19 @@ For Self-Managed installations, administrators can configure self-hosted models 
 
 We can deliver this work in iterations so that we deliver value to the customer incrementally
 
-**Iteration 1: Instance Level Configuration**: In this phase we enable instance level configuration for `.com`, `self-managed` and `dedicated` so that administrators can choose which models need to be made available. We will also support a `default` model which will be our recommended model.
+**Iteration 1: Instance Level Configuration**: In this phase we enable instance level configuration for `.com`, `self-managed` and `dedicated` so that administrators can choose which models need to be made available. We will also support a `default` model which will be our recommended model. We will also build a sync mechanism which will allow Self-Managed customers to see a list of GitLab hosted models.
 
-**Iteration 2: IDE Settings for Code Suggestions**: In this iteration users will be able to see a list of allowed models in their IDE and we will allow users to pick a preferred model in their IDE for their requests. Users will be able to pick from a list of model for Code Suggestions only. We will also need to develop the backend APIs needed to be able to fetch the list of allowed models at the instance level.
+**Iteration 2: Namespace Level Configuration**: In this phase customers will be able to select models at a namespace level, where the models available will be a subset of the ones picked at the parent level (group-subgroup). This will allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
 
-**Iteration 3: IDE Settings for Chat**: This is the same as above, however this time users should be able to pick the chat model from a list. The UI will continue to use the default model.
+**Iteration 3: IDE Settings for Code Suggestions**: In this iteration users will be able to see a list of allowed models in their IDE and we will allow users to pick a preferred model in their IDE for their requests. Users will be able to pick from a list of model for Code Suggestions only. We will also need to develop the backend APIs needed to be able to fetch the list of allowed models at the instance level.
 
-**Iteration 4: Namespace Level Configuration**: In this phase customers will be able to select models at a namespace level, where the models available will be a subset of the ones picked at the parent level (group-subgroup). Users will be able to see the relevant models in the IDE. This will also allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
+**Iteration 4: IDE Settings for Chat**: This is the same as above, however this time users should be able to pick the chat model from a list. The UI will continue to use the default model.
 
 **Iteration 5: UI Changes for Chat**: After this iteration customers will be able to select chat models from the GitLab UI.
 
 **Iteration 6: Duo Workflow**: In this iteration we will build out the model switching capability in Duo Workflow.
 
-**Post Iteration 6**: We will build out the capabilities for model switching in Duo Code Review, Vulnerability analysis and other features.
+**Post Iteration 7**: We will build out the capabilities for model switching in Duo Code Review, Vulnerability analysis and other features. In addition to this we also want to allow self hosted customers to bring their own models.
 
 ## New Design (End State)
 
@@ -321,9 +321,9 @@ sequenceDiagram
 
 ### AI Gateway Changes
 
-The AI Gateway already supports model passing for various APIs such as `/v2/chat` and `/v4/suggestions`.
+The AI Gateway (for SaaS only) will have to support an API to fetch GitLab hosted models from `gitlab.com`
 
-We will need to remove checks where we assume that the custom models feature needs to be enabled to use the LiteLLM provider.
+The AI Gateway already supports model passing for various APIs such as `/v2/chat` and `/v4/suggestions`.
 
 The AI Gateway also already supports prompt versioning for different providers so we can tune the prompt in certain cases.
 
