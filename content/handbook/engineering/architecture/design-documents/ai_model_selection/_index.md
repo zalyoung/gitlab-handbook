@@ -64,23 +64,33 @@ The objective is to balance administrative control with user flexibility, ensuri
 
 ```mermaid
 erDiagram
+    ORGANIZATION {
+        bigint id PK
+        varchar name
+    }
+
     AI_FEATURE_SETTINGS {
         bigint id PK
         bigint ai_self_hosted_model_id FK
         varchar feature
         int provider
         bool gitlab_managed_model
+        bigint organization_id FK
     }
     
     AI_SELF_HOSTED_MODELS {
         bigint id PK
+        bigint organization_id FK
         varchar model
         varchar endpoint
         varchar name UNIQUE
         varchar identifier
         varchar api_token ENCRYPTED
     }
-    
+
+    ORGANIZATION ||--o{ AI_SELF_HOSTED_MODELS : "has many"
+    ORGANIZATION ||--o{ AI_FEATURE_SETTINGS : "has many"
+
     AI_SELF_HOSTED_MODELS ||--o{ AI_FEATURE_SETTINGS : "has many"
 
     NAMESPACES {
@@ -91,7 +101,9 @@ erDiagram
         varchar path
         bigint organization_id FK
     }
-    
+
+    ORGANIZATION ||--o{ NAMESPACES : "has many"
+
     NAMESPACES ||--o{ AI_FEATURE_SETTINGS : "can have"
 
     NAMESPACE_AI_SETTINGS {
@@ -113,7 +125,7 @@ erDiagram
         timestamp created_at
         timestamp updated_at
     }
-    
+
     NAMESPACES ||--o{ NAMESPACE_DEFAULT_AI_SETTINGS : "has many"
     AI_FEATURE_SETTINGS ||--o{ NAMESPACE_DEFAULT_AI_SETTINGS : "has many"
     AI_SELF_HOSTED_MODELS ||--o{ NAMESPACE_DEFAULT_AI_SETTINGS : "has many"
@@ -131,11 +143,13 @@ erDiagram
         bigint ai_self_hosted_model_id FK
         timestamp created_at
         timestamp updated_at
+        bigint organization_id FK
     }
-    
+
     USERS ||--o{ USER_AI_SETTINGS : "has many"
     AI_FEATURE_SETTINGS ||--o{ USER_AI_SETTINGS : "has many"
     AI_SELF_HOSTED_MODELS ||--o{ USER_AI_SETTINGS : "has many"
+    ORGANIZATION ||--o{ USER_AI_SETTINGS : "has many"
 ```
 
 #### **Entities and Relationships**
@@ -188,6 +202,8 @@ erDiagram
 - **Why?**
   - Empowers users with flexibility while maintaining organizational defaults.
   - Allows for personalization of AI-assisted workflows.
+
+> **Note**: An `organization_id` field will be added to AI_SELF_HOSTED_MODELS, AI_FEATURE_SETTINGS and USER_AI_SETTINGS so that those work with cells.
 
 #### **Key Design Considerations**
 
