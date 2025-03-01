@@ -101,18 +101,18 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 ### Issue Boards
 
-1. [Asana team Board](https://app.asana.com/0/1208702011967252/1208702155234648) - mostly adhoc requests
+1. [Asana team Board](https://app.asana.com/0/1208702011967252/1208702155234648) - General and Ad-hoc requests
 2. [Asana team portfolio](https://app.asana.com/0/portfolio/1208916940053448/1208917081724360) - adhoc and projects
 1. [MktgOps Team (issues by team member)](https://gitlab.com/groups/gitlab-com/-/boards/2629685)
-
 
 ### Issues
 
 The MktgOps team works from issues and issue boards. If you are needing our assistance, please do one of the following:
+
 1. If you are on the Marketing Team, please create a request utilizing this [request form](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
 2. If you do not have Asana access, [open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) and use the `~MktgOps::00: Triage` label.
 
-Please do not reopen issues that have been closed in a previous milestone.
+Please do not re-open issues that have been closed in a previous milestone.
 
 ### OKRs
 
@@ -390,7 +390,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Marketo](/handbook/marketing/marketing-operations/marketo)
 - [On24](/handbook/marketing/marketing-operations/on24)
 - [Groove](/handbook/marketing/marketing-operations/groove)
-- [Goldcast]()
+- [Goldcast](/handbook/marketing/marketing-operations/goldcast/)
 - [PathFactory](/handbook/marketing/marketing-operations/pathfactory/)
 - [Qualified](/handbook/marketing/marketing-operations/qualified/)
 - [Traction](/handbook/marketing/marketing-operations/traction-lead-complete)
@@ -497,7 +497,7 @@ If you are interested in or would like to request a new tool be added to the tec
 
 The process for requesting a new tool is:
 
-1. [Tool Eval Request](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259) is submited
+1. [Tool Eval Request](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259) is submitted
 1. A Marketing Operations member is assigned to review the request. This person scores the requested tool in order to determine its tier. The business and technical owners of the tool are identified.
 1. For tier 1 and 2 tools, once the request has been reviewed, the Marketing Operations manager will:
    - Create a new evaluation Epic, capturing relevant details from the intake issue.

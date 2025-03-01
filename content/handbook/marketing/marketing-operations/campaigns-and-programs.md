@@ -888,10 +888,10 @@ It is critical that any reference to asset number in Marketo automation (not tok
 
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
-  - **Flow** (confirm that program references match the Marketo program name): 
-  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. 
+  - **Flow** (confirm that program references match the Marketo program name):
+  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset.
   - If you add any SFDC campaigns to the list, be sure to use "Content Syndication asset CONTAINS Asset x -" in your filter.
-  - **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+  - **Double touch campaigns** - The template is set-up to accommodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
   - `Step 6 - Execute Campaign` (Content Syndication Asset) - (Action Streams) If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
   - **Double touch campaigns** - You will need to add a second Execute Campaign to check for Action Stream qualification for "Content Syndication Asset 2". Confirm the second execute campaign is not on your processing flow (one for Content Syndication Asset, one for Content Syndication Asset 2). If it is not, add "Execute Campaign" and Add 2 choices. Choice 1: If Content Syndication Asset 2 is emtpy, Do Nothing. Choice 2: If Content Syndication Asset 2 contains "list of asset x -" (you can copy this from the Content Syndication Asset execute campaign), Executed campaign: Check for Action Stream asset (content syndication). Use parent token context: false. Default Choice: Do nothing
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
@@ -992,14 +992,19 @@ It is critical that any reference to asset number in the Marketo automation belo
   - Click `Add Choice`.
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
   - Move the new asset number to the bottom of the list (to keep the numbers in order).  
+
 - `01 Processing`
-  - **Flow**: 
+  - **Flow**:
   - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+
  - **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+
   - `Step 6 - Execute Campaign` (Content Syndication Asset) - If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
-- `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
-- `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
-  - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
+
+  - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
+
+  - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
+    - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 6: Important information for content syndication list uploads
 
@@ -1208,9 +1213,9 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 - All LinkedIn programs with your form prefix will now flow through this campaign
 - If your new form promotes an asset that qualifies for an action stream (speak to Lifecycle Marketing to find out), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
 - Smart List: Add the name of the LinkedIn Lead Gen form in filter 1.
-- Flow: Add the name of the LinkedIn Lead Gen form in filter 1.  
+- Flow: Add the name of the LinkedIn Lead Gen form in filter 1.
 
-### Step 5: Autoresponder email
+### Step 5: Auto-responder email
 
 - The autoresponder is based on tokens and will not require any changes if you only have one asset.
 - If you have multiple assets, you will need to clone the autoresponder email and update all of the tokens in the email to match the additional tokens you added to the program for each asset.
@@ -1244,17 +1249,18 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
      1. Confirm that the test record was not sent any other emails (except double opt-in email for Germany if applicable) or added to other programs as a result of this test
 
 ### Adding LinkedIn Lead Gen forms to drive event registration
-LinkedIn Lead Gen forms can be used to drive event registration without adding a new Marketo program. 
+
+LinkedIn Lead Gen forms can be used to drive event registration without adding a new Marketo program.
 
 1) Follow the instructions above to create the LI Lead Gen form. There are a couple of changes you must make to be sure the responses only flow through the event registration processing and not the standard LI form processing.
 2) For ABM LI Lead Gen forms, use the naming convention: `abmkey_region_gtm` for driving event registration. The standard (non-event) format is `abmkey_gtm_region`. By changing the order of `region` and `gtm`, you will not need to add exclusions to the main LI Lead Gen form processing.
 3) For Digital Marketing forms, do not use the `gtm` in the form name. Use a unique name that represents the event.
 4) In Marketo, go to the Marketo program for the event you are promoting.
-5) For most events, we recommend setting up a waitlist for responses from LinkedIn. This allows the event DRI to approve registrations. If a waitlist processing campaign is already activated in the program, you can skip to step 6.  
+5) For most events, we recommend setting up a waitlist for responses from LinkedIn. This allows the event DRI to approve registrations. If a waitlist processing campaign is already activated in the program, you can skip to step 6.
      a) ONLY DO THIS IF THE WAITLIST PROCESSING IS NOT ACTIVE: If only the `Registration` processing campaign is active, you will need to activate the waitlist for LI responses. Click on `Waitlist` and **remove** the "Filled out form" trigger. Now, complete the task in step 6 and activate the `Waitlist` campaign. You must also activate the "Waitlist to Registered" campaign.
 6) Add a trigger for "Fills out LinkedIn Lead Gen Form". Lead Gen Form Name: `contains` (enter Lead Gen form name you created in step 1 here). If you have multiple forms for this event, you can click the green plus sign in the box after `contains` and add multiple forms.
 7) If your form is only targeting AMER responses, click on the "Flow" steps and at the bottom, add "Change Data Value". Add Choice. If LinkedIn Lead Gen Form name `contains` (name(s) of LI lead gen form). Attribute: Opt-in, New value: True
-8) Test your updates. Details for what to look for can be found in the [Test your Marketo program setup](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#test-your-marketo-program-setup) - Note that when a person is added to the waitlist, they will not get an autoresponder, but you will see them added to the program. 
+8) Test your updates. Details for what to look for can be found in the [Test your Marketo program setup](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#test-your-marketo-program-setup) - Note that when a person is added to the waitlist, they will not get an autoresponder, but you will see them added to the program.
 9) If you have any questions or just want your set-up checked over, please reach out to Marketing Ops before pushing your campaign live.
 
 ## Raffles
