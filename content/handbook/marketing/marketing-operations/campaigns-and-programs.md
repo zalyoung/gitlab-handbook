@@ -1004,7 +1004,7 @@ It is critical that any reference to asset number in the Marketo automation belo
   - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 
   - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
-    - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
+     - **Smart List**: In filter 2: `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 6: Important information for content syndication list uploads
 
@@ -1260,7 +1260,7 @@ LinkedIn Lead Gen forms can be used to drive event registration without adding a
      a) ONLY DO THIS IF THE WAITLIST PROCESSING IS NOT ACTIVE: If only the `Registration` processing campaign is active, you will need to activate the waitlist for LI responses. Click on `Waitlist` and **remove** the "Filled out form" trigger. Now, complete the task in step 6 and activate the `Waitlist` campaign. You must also activate the "Waitlist to Registered" campaign.
 6) Add a trigger for "Fills out LinkedIn Lead Gen Form". Lead Gen Form Name: `contains` (enter Lead Gen form name you created in step 1 here). If you have multiple forms for this event, you can click the green plus sign in the box after `contains` and add multiple forms.
 7) If your form is only targeting AMER responses, click on the "Flow" steps and at the bottom, add "Change Data Value". Add Choice. If LinkedIn Lead Gen Form name `contains` (name(s) of LI lead gen form). Attribute: Opt-in, New value: True
-8) Test your updates. Details for what to look for can be found in the [Test your Marketo program setup](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#test-your-marketo-program-setup) - Note that when a person is added to the waitlist, they will not get an autoresponder, but you will see them added to the program.
+8) Test your updates. Details for what to look for can be found in the [Test your Marketo program setup](/handbook/marketing/marketing-operations/campaigns-and-programs/#test-your-marketo-program-setup) - Note that when a person is added to the waitlist, they will not get an autoresponder, but you will see them added to the program.
 9) If you have any questions or just want your set-up checked over, please reach out to Marketing Ops before pushing your campaign live.
 
 ## Raffles

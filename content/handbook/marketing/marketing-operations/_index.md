@@ -29,8 +29,8 @@ Marketing Operations supports the marketing organization to streamline processes
 | [Robert Rosu](https://gitlab.com/RobRosu) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Mihai Conteanu](https://gitlab.com/MihaiConteanu) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager) |
 | [Salina Tran](https://gitlab.com/stran5) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
-| [Jameson Burton](https://gitlab.com/jburton) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) | |
-| [Evan Mathis](https://gitlab.com/emathis) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) | |
+| [Jameson Burton](https://gitlab.com/jburton) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
+| [Evan Mathis](https://gitlab.com/emathis) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
 | [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) |
 
 ## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help {#how-to-get-help}
@@ -278,7 +278,7 @@ The marketing operations team uses collective merge requests, known as our miles
 
 ### Working with Sales Systems for SFDC Updates
 
-The MktgOps team frequently works with the [Sales Systems team](/handbook/sales/field-operations/sales-systems/#sales-systems-charter) to make changes in Salesforce.com (SFDC). See the below information regarding the process for working with Sales Systems for these changes and SLAs we adhere to.
+The MktgOps team frequently works with the [Sales Systems team](/handbook/sales/field-operations/sales-systems/) to make changes in Salesforce.com (SFDC). See the below information regarding the process for working with Sales Systems for these changes and SLAs we adhere to.
 
 Video: [Marketing Salesforce.com Sandbox Training - Creating Changesets](https://www.youtube.com/watch?v=tTaepVgxoe8)
 
@@ -304,7 +304,6 @@ If you need assistance with Sales Systems follow the next steps:
 **Other helpful links:**
 
 - [Steps to getting help from Sales Systems](/handbook/sales/field-operations/sales-systems/#steps-to-getting-help-from-sales-systems)
-- [Sales Systems Charter](/handbook/sales/field-operations/sales-systems/#sales-systems-charter)
 
 ### Working with the Integrations team on Workato related issues
 
@@ -325,7 +324,6 @@ Workato is a low-code/no-code tool used to for automations and integrations acro
 **Helpful links**
 
 - [How Integrations Team works](/handbook/business-technology/enterprise-applications/integrations/how-we-work/)
-- [Workato Playbook](/handbook/business-technology/enterprise-applications/integrations/workato-playbook/)
 
 ## Stakeholder Mapping
 
@@ -385,7 +383,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 
 - [6sense](/handbook/marketing/marketing-operations/6sense/)
 - [Bizible / Marketo Measure](/handbook/marketing/marketing-operations/bizible/)
-- [Cognism](/handbook/marketing/marketing-operations/Cognism/)
+- [Cognism](/handbook/marketing/marketing-operations/cognism/)
 - [Iterable](/handbook/marketing/marketing-operations/iterable/)
 - [Marketo](/handbook/marketing/marketing-operations/marketo)
 - [On24](/handbook/marketing/marketing-operations/on24)
@@ -426,9 +424,8 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Humantec.ai (Sales Dev)](/handbook/marketing/marketing-operations/humantic-ai/)
 - [Launch Darkly](/handbook/marketing/digital-experience/engineering/engineering-ab-tests/)
 - [MeetUp](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
-- [Quantum Metric](/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
+- Quantum Metric (DEX)
 - [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
-- [SheerID](/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
 - [EveryOne Social](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
 - [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
@@ -668,7 +665,7 @@ On the lead object we have three types of address information, the local/persona
   - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
 - `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach.
   1. `Account Demographics Fields` (i.e: `Account Demographics: UPA City`) - If the lead matches to an existing account the address is populated through the Account Demographic fields, taken from the account associated with this lead;
-  2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](/handbook/marketing/sales-development/#overriding-incorrect-account-assignments) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).
+  2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](//handbook/marketing/sales-development/#scheduling-iqms) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).
   3. `Zoominfo Company Address Fields` (i.e: `[ZI] Company Country`) - If the lead doesn't match an account, it was not overwritten using the Admin Override Fields mentioned above and the lead matches to Zoominfo's database, the Company Address fields are populted with Zoominfo Company Address information from the Zoominfo Company Address fields.
 - `Zoominfo enrichment address information` which as can be of two types, personal (local) or company level address;
 
@@ -681,7 +678,7 @@ Marketing Operations has the responsibility for cleaning and enriching our datab
 
 The cleaning part of this process is being done with the Cleanse functionality of the lead/contact deduplication tool, Ringlead.
 
-The enrichment part of the process is done using the data appending/enrichment tool, [Zoominfo](/handbook/marketing/marketing-operations/zoominfo/), our SSOT when it comes to account/lead/contact data. [Cognism](/handbook/marketing/marketing-operations/Cognism/), is another enrichment tool but only for a smaller subset of our lead data. As of now, only the BDRs and Cognism admins have login access. However, Cognism data, can be found in the Cognism fields on the lead/contact layout.
+The enrichment part of the process is done using the data appending/enrichment tool, [Zoominfo](/handbook/marketing/marketing-operations/zoominfo/), our SSOT when it comes to account/lead/contact data. [Cognism](/handbook/marketing/marketing-operations/cognism/), is another enrichment tool but only for a smaller subset of our lead data. As of now, only the BDRs and Cognism admins have login access. However, Cognism data, can be found in the Cognism fields on the lead/contact layout.
 
 This cleaning & enrichment process has 5 main priorities:
 
@@ -711,7 +708,7 @@ You can find more details on the enrichment process in our [Zoominfo Handbook Pa
 
 To be able to upload a lead in our SFDC, it is mandator for the lead to have an email address. Sometimes we do run into situations where the email address is not available.
 
-To bypass this challenge and still be able to upload the leads in SFDC, please create an **List Upload - Enrichment Request** with this [issue template](insert_link_here_when_available), upload the CSV file in the issue and Mops will use the **Zoominfo Enhance**, **Zoominfo ListMatch** and **Cognism Enhance** functionality to enrich these records with the most up to date information (including the email address).
+To bypass this challenge and still be able to upload the leads in SFDC, please create an **List Upload - Enrichment Request** with this [issue template](), upload the CSV file in the issue and Mops will use the **Zoominfo Enhance**, **Zoominfo ListMatch** and **Cognism Enhance** functionality to enrich these records with the most up to date information (including the email address).
 
 **Note:** Such records as lead list uploads with no email addres, that sub-sequently are enriched with the email address through Zoominfo/Cognism enrichment, need to be marked as `Opt-out` as **these individuals did not give us the express consent** that they can be reached to;
 
@@ -729,7 +726,7 @@ Notice any test leads? Please open an [issue](https://gitlab.com/gitlab-com/mark
 
 ### Internal DNC (Do Not Call) Lists
 
-Internal DNC List are maintained using the `Do Not Call` checkbox on the lead/contact record layouts. The sales development organization has a clear process on how and in what context should the box be checked. Please visit the [Sales Development Handbook page - Cold Calling Checklist](/handbook/marketing/sales-development/#cold-calling-checklist) section to find out more about it.
+Internal DNC List are maintained using the `Do Not Call` checkbox on the lead/contact record layouts. The sales development organization has a clear process on how and in what context should the box be checked. Please visit the [Sales Development Handbook page - Cold Calling Checklist](/handbook/marketing/sales-development/#cold-calling-and-email-checklist) section to find out more about it.
 
 ### External DNC (Do Not Call) Lists
 
