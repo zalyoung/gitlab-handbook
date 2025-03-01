@@ -8,7 +8,6 @@ description: Automated appointment scheduling of in-person, and virtual B2B meet
 ## Overview
 JiffleNow is an automated appointment scheduling of in-person, and virtual B2B meetings at events or campaigns.
 
-
 ## Current Use
 This page is WIP.
 
@@ -22,7 +21,7 @@ Jifflenow will be made available to Sales attending events, EBAs and necessary M
 
 ## Integrations
 
-1. Salesforce.com - this is in process - This connection will allow for Sales to book meetings directly within Salesforce.com and allow JiffleNow to access and link contact records.
+1. Salesforce.com - This connection will allow for Sales to book meetings directly within Salesforce.com and allow JiffleNow to access and link contact records.
 
 ## Support
 Reach out in #proj_jifflenow-implementation for more information
