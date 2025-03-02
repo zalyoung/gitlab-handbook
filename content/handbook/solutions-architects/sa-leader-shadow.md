@@ -132,6 +132,7 @@ The shadow experience leading up to, during, and after the 2-week shadow is orga
 - [The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/)
 - [The Chimp Paradox](https://www.amazon.com/Chimp-Paradox-Impulses-Determine-Happiness/dp/009193558X)
 - [The Culture Map](https://www.amazon.co.uk/Culture-Map-Decoding-People-Cultures/dp/1610392760)
+- [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
 - [The Ideal Team Player](https://www.amazon.com/Ideal-Team-Player-Recognize-Cultivate/dp/1119209595)
 - [The Leader Lab: Core Skills to Become a Great Manager, Faster](https://www.amazon.com/Leader-Lab-Tania-Luna/dp/1119793319)
 - [The Leader Who Had No Title](https://www.amazon.com/Leader-Who-Had-No-Title/dp/1439109133)
