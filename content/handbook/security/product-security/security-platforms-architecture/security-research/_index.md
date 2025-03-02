@@ -2,6 +2,7 @@
 title: "Security Research"
 aliases:
   - "/handbook/security/product-security/security-research/"
+description: "The Security Research team contributes to the Security Vision and Mission through projects that focus on identifying, quantifying, and developing solutions for complex security risks facing GitLab and its users."
 ---
 
 ## Team Focus
