@@ -89,7 +89,7 @@ A part of this work, that needs further definition, is being able to query the a
 
 This approach is especially necessary when you consider the wider confusion with GitLab APIs in general. Our existing GraphQL and REST APIs contribute to the confusion our customers face when interacting with GitLab, and we must avoid compounding that further.
 
-There will be two aspects of the overall querying architecture. The first part, the customers communication with the DIP through our existing GraphQL and REST APIs. The second part, the GitLab rails application’s (the Monolith) communication with the DIP through the Data Insights Service.
+There will be two aspects of the overall querying architecture. The first part, the customers communication with the DIP through our existing GraphQL and REST APIs. The second part, the GitLab rails application's (the Monolith) communication with the DIP through the Data Insights Service.
 
 This proposal references the first part, but is focused on implementing the second.
 
@@ -97,33 +97,33 @@ This proposal references the first part, but is focused on implementing the seco
 
 ## Goals
 
-- **The querying API must support the Clickhouse exporter**
-  - Although we have plans to support alternative exporters, our core initial goal is to work in conjunction with [Siphon](https://gitlab.com/gitlab-org/analytics-section/siphon) to collate and analyse GitLab data, which will be stored in Clickhouse tables.
+- **The querying API must support the ClickHouse exporter**
+  - Although we have plans to support alternative exporters, our core initial goal is to work in conjunction with [Siphon](https://gitlab.com/gitlab-org/analytics-section/siphon) to collate and analyse GitLab data, which will be stored in ClickHouse tables.
 - **Consistent API interface**
-  - We’ve had issues in the past with our APIs not being consistent in the type of data being available, and filtering options. This has led to a more confusing user experience.
+  - We've had issues in the past with our APIs not being consistent in the type of data being available, and filtering options. This has led to a more confusing user experience.
   - Difficult to accomplish, but we must develop an API which allows different data types and filtering options, without dramatically changing how the API request should be made or handled.
 - **Keep complexity away from the end-user APIs**
-  - The DIP will be handling a wide range of data types and data sources, all being converged into one platform for fully formed analyses. We don’t want this complexity to be passed onto the end-user APIs.
-  - We need to keep the API simple to use; with clear documentation. The user mustn’t need to know which database or table the data is coming from, only what data is available to them.
+  - The DIP will be handling a wide range of data types and data sources, all being converged into one platform for fully formed analyses. We don't want this complexity to be passed onto the end-user APIs.
+  - We need to keep the API simple to use; with clear documentation. The user mustn't need to know which database or table the data is coming from, only what data is available to them.
 - **Authentication and authorization**
   - The data being collected by the DIP will contain a mix of data privacy categories. We need to ensure that any data being queried is only accessible to those with the correct authentication and authorization. Data outside the purview of the requestor must in no way be accessible to them.
 
 ## Non-Goals
 
 - Support for other data sources, such as Snowflake, for this initial phase.
-- Full integration with all existing GraphQL and REST API calls that already leverage Clickhouse. This process will be led by the teams that own these endpoints, with our support and clear documentation.
+- Full integration with all existing GraphQL and REST API calls that already leverage ClickHouse. This process will be led by the teams that own these endpoints, with our support and clear documentation.
 
 ## Historical context
 
 ### Existing APIs
 
-We have three APIs that were already developed to work with analytical data within their own Clickhouse databases. The APIs were developed independently, and therefore are not compatible with each other in terms of data available, how we interact with the APIs, or how the data is formatted.
+We have three APIs that were already developed to work with analytical data within their own ClickHouse databases. The APIs were developed independently, and therefore are not compatible with each other in terms of data available, how we interact with the APIs, or how the data is formatted.
 
-The observability and cube API’s are not planned to be integral to the querying API, but rather are here for historical context and learning from our experiences with them.
+The observability and cube API's are not planned to be integral to the querying API, but rather are here for historical context and learning from our experiences with them.
 
 #### Observability API
 
-Written in Go, the Observability API is REST-based and is used to retrieve data from the [GitLab Observability Backend](https://gitlab.com/gitlab-org/opstrace/opstrace) (GOB). The data is stored in a separate Clickhouse database and formatted to work with the [OTel format](https://opentelemetry.io/).
+Written in Go, the Observability API is REST-based and is used to retrieve data from the [GitLab Observability Backend](https://gitlab.com/gitlab-org/opstrace/opstrace) (GOB). The data is stored in a separate ClickHouse database and formatted to work with the [OTel format](https://opentelemetry.io/).
 
 The API uses [Cloud Connector](https://docs.gitlab.com/ee/development/cloud_connector/) to authenticate requests and is restricted to singular project requests; rather than being able to span multiple projects within a group.
 
@@ -144,13 +144,13 @@ This API is not sufficiently documented and requires reading the code within GOB
 
 #### Cube API
 
-[Product Analytics](https://docs.gitlab.com/ee/development/internal_analytics/product_analytics.html) uses [Cube](https://cube.dev/docs/product/introduction) to act as a query layer for communicating with the [Analytics Stack](https://gitlab.com/gitlab-org/analytics-section/product-analytics/analytics-stack/) which uses Clickhouse under-the-hood to store analytics data.
+[Product Analytics](https://docs.gitlab.com/ee/development/internal_analytics/product_analytics.html) uses [Cube](https://cube.dev/docs/product/introduction) to act as a query layer for communicating with the [Analytics Stack](https://gitlab.com/gitlab-org/analytics-section/product-analytics/analytics-stack/) which uses ClickHouse under-the-hood to store analytics data.
 
-Requests are sent to the [Cube proxy](https://gitlab.com/gitlab-org/gitlab/blob/master/ee/app/services/product_analytics/cube_data_query_service.rb) which is used to validate the request using Rails authentication, prevent direct API requests to Cube from the frontend, handle any errors, and also do any data transformations needed. The only data transformation currently done is to fill empty data points within a given date range. This transformation is something that can be done using [Clickhouse directly](https://clickhouse.com/docs/en/guides/developer/time-series-filling-gaps), but this isn’t supported by Cube and the proposal to add support was rejected by the Cube core team.
+Requests are sent to the [Cube proxy](https://gitlab.com/gitlab-org/gitlab/blob/master/ee/app/services/product_analytics/cube_data_query_service.rb) which is used to validate the request using Rails authentication, prevent direct API requests to Cube from the frontend, handle any errors, and also do any data transformations needed. The only data transformation currently done is to fill empty data points within a given date range. This transformation is something that can be done using [ClickHouse directly](https://clickhouse.com/docs/en/guides/developer/time-series-filling-gaps), but this isn't supported by Cube and the proposal to add support was rejected by the Cube core team.
 
 Cube uses JSON Web Tokens (JWTs) to define [security context](https://cube.dev/docs/product/auth/context) within a multi-tenant environment, which is another reason why we are using the proxy. We use Rails authentication to determine if the requestor has permission to get analytics data for the project, then [build the JWT](https://gitlab.com/gitlab-org/gitlab/blob/master/ee/app/services/product_analytics/cube_data_query_service.rb#L103) with the correct project permissions, which then allows the requestor to retrieve the data from Cube.
 
-From the Cube proxy, Cube will use the [pre-defined schemas](https://gitlab.com/gitlab-org/analytics-section/product-analytics/helm-charts/blob/main/charts/cube/config/schemas/TrackedEvents.js) to generate Clickhouse queries and return the data. Cube provides a consistent query language for users to be able to define queries and return it in a consistent format, with a lot of pre-built filters and formatted data types.
+From the Cube proxy, Cube will use the [pre-defined schemas](https://gitlab.com/gitlab-org/analytics-section/product-analytics/helm-charts/blob/main/charts/cube/config/schemas/TrackedEvents.js) to generate ClickHouse queries and return the data. Cube provides a consistent query language for users to be able to define queries and return it in a consistent format, with a lot of pre-built filters and formatted data types.
 
 The Cube API is a read-only REST API with the following endpoints:
 
@@ -161,17 +161,17 @@ The Cube API is a read-only REST API with the following endpoints:
 
 The API is documented within our [REST API documentation](https://docs.gitlab.com/ee/api/product_analytics.html). This will need deprecating or removing when we decide to move onto alternative approaches other than Cube.
 
-We have had issues with Cube supporting more advanced features without using their [Cube store](https://cube.dev/docs/product/deployment/production-checklist#set-up-cube-store) (we had concerns around storing RED data in their solution). It also doesn’t support more advanced features in Clickhouse, such as certain functions or pre-aggregations. As such, there has been a lot of discussion around moving away from Cube for some time.
+We have had issues with Cube supporting more advanced features without using their [Cube store](https://cube.dev/docs/product/deployment/production-checklist#set-up-cube-store) (we had concerns around storing RED data in their solution). It also doesn't support more advanced features in ClickHouse, such as certain functions or pre-aggregations. As such, there has been a lot of discussion around moving away from Cube for some time.
 
 #### Optimize
 
-[Optimize uses Clickhouse](../../../development/analytics/monitor/optimize/#ssot-for-data-flows-across-optimize-features) to help keep their aggregated queries for the Contributions, Value Stream, and AI Impact dashboards performant.
+[Optimize uses ClickHouse](../../../development/analytics/monitor/optimize/#ssot-for-data-flows-across-optimize-features) to help keep their aggregated queries for the Contributions, Value Stream, and AI Impact dashboards performant.
 
-For Contributions, data from Postgres is aggregated and added to Clickhouse every 3 minutes. Upon data retrieval, a combination of Clickhouse data and specific Postgres data is used to populate the Contributions dashboard.
+For Contributions, data from Postgres is aggregated and added to ClickHouse every 3 minutes. Upon data retrieval, a combination of ClickHouse data and specific Postgres data is used to populate the Contributions dashboard.
 
-Value Stream and AI Impact only use Clickhouse for their data. AI Impact updates its data every 5 minutes rather than the 3 minutes for Contributions and Value stream.
+Value Stream and AI Impact only use ClickHouse for their data. AI Impact updates its data every 5 minutes rather than the 3 minutes for Contributions and Value stream.
 
-All three dashboards use GraphQL for the frontend to query the Monolith, and the GraphQL resolvers [directly call](https://gitlab.com/gitlab-org/gitlab/blob/master/ee/app/services/analytics/value_stream_dashboard/contributor_count_service.rb#L62-62) the Clickhouse database using the [clickhouse_client gem](https://rubygems.org/gems/click_house-client/versions/0.1.0) package maintained by the Optimize team.
+All three dashboards use GraphQL for the frontend to query the Monolith, and the GraphQL resolvers [directly call](https://gitlab.com/gitlab-org/gitlab/blob/master/ee/app/services/analytics/value_stream_dashboard/contributor_count_service.rb#L62-62) the ClickHouse database using the [clickhouse_client gem](https://rubygems.org/gems/click_house-client/versions/0.1.0) package maintained by the Optimize team.
 
 The following GraphQL types are used:
 
@@ -193,7 +193,7 @@ The following GraphQL types are used:
 
 The [GitLab Query Language](https://docs.gitlab.com/ee/user/glql/) (GLQL) is an initiative started within the Plan stage to develop a single query language for our customers to interact with their GitLab data.
 
-GLQL is currently built around being used within Markdown blocks, using YAML as it’s base language. It only supports issues at the time of writing and is specifically developed for use within:
+GLQL is currently built around being used within Markdown blocks, using YAML as it's base language. It only supports issues at the time of writing and is specifically developed for use within:
 
 - Wikis (group and project)
 - Epics and epic comments
@@ -230,21 +230,21 @@ We will use the existing GraphQL and REST API infrastructure for UI/customer com
 
 Later, we will augment these APIs with GLQL integration. GLQL has been built with integrating with existing APIs in mind, whereby the end-user uses GLQL to build their query, and GLQL transforms the request into the underlying API call, so we can go ahead and build our own API, and integrate into the existing GLQL infrastructure later.
 
-We also wouldn’t need to worry about delaying Plan’s existing roadmap, as we can work with them to find a time to integrate later when GLQL is in GA.
+We also wouldn't need to worry about delaying Plan's existing roadmap, as we can work with them to find a time to integrate later when GLQL is in GA.
 
 ### API Structure
 
-We have two existing GitLab API’s in GraphQL and REST that will need to communicate with the Monolith’s DIP service through rails models.
+We have two existing GitLab API's in GraphQL and REST that will need to communicate with the Monolith's DIP service through rails models.
 
 We will need to create a new Protobuf-over-gRPC API for the Monoliths DIP service to communicate with the DIP itself, and translate the response into something that the Monolith will understand.
 
-The GraphQL and REST API’s within the Monolith will not be designed by the team working on the DIP. These API’s will be owned by the teams that own the feature. The team working on the DIP will only own and support the integration with the DIP itself.
+The GraphQL and REST API's within the Monolith will not be designed by the team working on the DIP. These API's will be owned by the teams that own the feature. The team working on the DIP will only own and support the integration with the DIP itself.
 
 #### GraphQL format
 
 The GraphQL API will use the existing [GitLab GraphQL service](https://docs.gitlab.com/api/graphql/). Therefore, we should follow all the relevant guidelines to developing a new GraphQL endpoint within the service.
 
-The GraphQL API’s structure will be determined by the team building the feature. The DIP will not dictate how this API is structured. It is up to the team building the feature to transform the GraphQL request to something that the DIP will understand, and handle the response from the DIP to be returned to the requestor.
+The GraphQL API's structure will be determined by the team building the feature. The DIP will not dictate how this API is structured. It is up to the team building the feature to transform the GraphQL request to something that the DIP will understand, and handle the response from the DIP to be returned to the requestor.
 
 We must [document](#docs) how we expect the GraphQL resolvers interact with the DIP service, in terms of expected request and response.
 
@@ -252,7 +252,7 @@ We must [document](#docs) how we expect the GraphQL resolvers interact with the 
 
 The REST API will use the existing [GitLab REST API](https://docs.gitlab.com/api/rest/). Therefore, we should follow all the relevant guidelines to developing a new REST endpoint within the existing REST API framework.
 
-The REST API’s structure will be determined by the team building the feature. The DIP will not dictate how this API is structured. It is up to the team building the feature to transform the REST request to something that the DIP will understand, and handle the response from the DIP to be returned to the requestor.
+The REST API's structure will be determined by the team building the feature. The DIP will not dictate how this API is structured. It is up to the team building the feature to transform the REST request to something that the DIP will understand, and handle the response from the DIP to be returned to the requestor.
 
 We must [document](#docs) how we expect the REST handlers interact with the DIP service, in terms of expected request and response.
 
@@ -270,7 +270,7 @@ For any API changes, `.proto` files must be generated for both Go and Rails. The
 
 #### Versioning
 
-We must follow the versioning guidelines for GitLab’s GraphQL and REST API.
+We must follow the versioning guidelines for GitLab's GraphQL and REST API.
 
 For gRPC, we must version the packages within Go. This will version the gRPC call itself, and allow us to manage version upgrades. For best practice suggestions, Microsoft has a [good guide](https://learn.microsoft.com/en-us/aspnet/core/grpc/versioning?view=aspnetcore-9.0#version-number-services) focused on .NET, but is applicable for other languages.
 
@@ -284,9 +284,9 @@ For performance reasons, any non-aggregate queries must follow [Keyset-based pag
 
 Aggregate queries are any queries that look to review a small sub-set of data points over a period of time, rather than listing individual rows within the database. In other words, the difference between showing a visualization of merged MRs over time, rather than listing merged MRs in a table.
 
-Aggregate queries must be limited by a restricting factor like a timestamp, but due to their nature can’t be paginated. These queries must also be tagged or labelled to note that these are aggregations. 
+Aggregate queries must be limited by a restricting factor like a timestamp, but due to their nature can't be paginated. These queries must also be tagged or labelled to note that these are aggregations. 
 
-Clickhouse doesn’t leverage “traditional” [primary keys](https://clickhouse.com/docs/en/guides/creating-tables#a-brief-intro-to-primary-keys) which means we need to rely on the sorting option to define the next group of items in the query when generating the pagination link. For example, if a user sorts by descending the last updated timestamp, the generated pagination link would filter the next query to be from the previous queries oldest last updated timestamp. In the event that a query doesn’t define a sorting option, we must set a default for each endpoint.
+ClickHouse doesn't leverage "traditional" [primary keys](https://clickhouse.com/docs/en/guides/creating-tables#a-brief-intro-to-primary-keys) which means we need to rely on the sorting option to define the next group of items in the query when generating the pagination link. For example, if a user sorts by descending the last updated timestamp, the generated pagination link would filter the next query to be from the previous queries oldest last updated timestamp. In the event that a query doesn't define a sorting option, we must set a default for each endpoint.
 
 #### Automated schema generation
 
@@ -745,7 +745,7 @@ The following [response codes](https://google.aip.dev/193#error_model) must be r
 - `200 OK` - On success response
 - `400 INVALID_ARGUMENT` - When a query is malformed
 - `401 UNAUTHENTICATED` - When a user is not authenticated
-- `403 PERMISSION_DENIED` - When a user is authenticated but doesn’t have permission to query a particular resource
+- `403 PERMISSION_DENIED` - When a user is authenticated but doesn't have permission to query a particular resource
 - `404 NOT_FOUND` - When a request is sent to an unknown endpoint
 - `429 RESOURCE_EXHAUSTED` - When a request is trying to retrieve more data than the API can handle (querying all the data we have on every issue since time immemorial, for instance), or when rate limits are exceeded
 - `500 INTERNAL` - When the server fails unexpectedly
@@ -764,9 +764,9 @@ All requests to and from DIP, including internal network requests, should be enc
 
 ### Performance
 
-To keep query times down, as well as to optimize our data retrieval in general, we must leverage Clickhouse’s pre-aggregated [Materialized Views](https://clickhouse.com/docs/en/materialized-view) (MVs) wherever possible. This approach moves complex joining of data away from when data is `SELECT`ed to when it is `INSERT`ed.
+To keep query times down, as well as to optimize our data retrieval in general, we must leverage ClickHouse's pre-aggregated [Materialized Views](https://clickhouse.com/docs/en/materialized-view) (MVs) wherever possible. This approach moves complex joining of data away from when data is `SELECT`ed to when it is `INSERT`ed.
 
-To avoid situations where data hasn’t been fully processed in the background and organised by the MVs, we must set a `GROUP BY` clause for every query.
+To avoid situations where data hasn't been fully processed in the background and organised by the MVs, we must set a `GROUP BY` clause for every query.
 
 Each resource must document in our docs any limits that must be applied to avoid excessive query times. The resource must validated that these limits are not exceeded by any given query. If a query attempts to exceed these limits, a `429 RESOURCE_EXHAUSTED` error must be returned with the reason why. For instance, a resource can only support queries of up to 30 days, and a query requests 60 days.
 
@@ -782,7 +782,7 @@ For the gRPC API, rather than defining rate limits, it is recommended to use a [
 
 We must make sure that the Protobuf API is integrated with our existing observability infrastructure. All logs should be sent to [Kibana](https://docs.gitlab.com/ee/development/logging.html#additional-steps-with-new-log-files), whilst frontend GitLab usage errors and [performance](https://docs.gitlab.com/ee/development/fe_guide/performance.html) should be sent to [Sentry](https://docs.gitlab.com/ee/development/fe_guide/sentry.html).
 
-Logs should not store unnecessary personally identifiable information, secrets, or keys. All new logging calls must be checked to make sure we’re not leaking information into our logs that we shouldn’t.
+Logs should not store unnecessary personally identifiable information, secrets, or keys. All new logging calls must be checked to make sure we're not leaking information into our logs that we shouldn't.
 
 Errors should contribute to our [Error Budget](https://docs.gitlab.com/ee/development/stage_group_observability/#error-budget), so we can monitor improvements over time.
 
@@ -806,10 +806,10 @@ We must create a quick start guide explaining how to connect and use the Protobu
 
 In conjunction with the [automation of the schema](#automated-schema-generation), we should publish the schema details, with all restrictions and parameters, to [docs.gitlab.com](http://docs.gitlab.com).
 
-We must create a guide on how to create MV’s for a given resource, and how to use these within the DIP to improve query times and performance.
+We must create a guide on how to create MV's for a given resource, and how to use these within the DIP to improve query times and performance.
 
 ### Considerations for .com/dedicated/cells/self-managed 
 
-We don’t expect the API’s queries to span multiple cells, or have any major issues with any GitLab instance. The API queries will always be scoped to a specific organization, namespace, group, or project.
+We don't expect the API's queries to span multiple cells, or have any major issues with any GitLab instance. The API queries will always be scoped to a specific organization, namespace, group, or project.
 
 One of the core [requirements](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?pli=1&tab=t.0#heading=h.xcp2tirhr67t) for the DIP is for it to be deployed as part of the GitLab instance, similar to Gitaly. Therefore, all our customers should have access to the DIP in full.
