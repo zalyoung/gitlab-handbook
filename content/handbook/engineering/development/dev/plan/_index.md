@@ -158,9 +158,9 @@ The project manager clarifies scope, identifies dependent work, appoints DRIs fo
 
 EMs maintain a Wiki page for the project containing a project timeline, project status, links to work items, key participants, and a decision register. This is required for Tier 1 and Tier 2 Roadmap commitments and encouraged for all important projects. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Examples of previous Wikis are:
 
-* [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
-* [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
-* [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
+- [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
+- [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
+- [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
 
 ##### Internal Testing
 
