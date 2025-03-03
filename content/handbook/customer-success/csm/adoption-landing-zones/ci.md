@@ -47,7 +47,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
 ## Quickstart Guides
 
 1. Supplemental Resource: CI/CD Quickstart - Premium: [Public-Facing Page](https://gitlab.highspot.com/viewer/63bf4994dc979c98f1d3e832?)
-   - To [create personalized Highspot Pitches using Styles and Templates](/handbook/sales/field-communications/gitlab-highspot/#how-to-create-pitches-using-existing-pitch-style-and-pitch-template-combos), refer to the following components:
+   - To [create personalized Highspot Pitches using Styles and Templates](/handbook/sales/field-communications/gitlab-highspot/#key-functionality/), refer to the following components:
      - **Premium version:**
        - [Pitch Template](https://gitlab.highspot.com/items/63cb7a037d574a107f4e6001?lfrm=srp.2)
        - [Pitch Style](https://gitlab.highspot.com/items/6389983b85763c84b2ed3b8d?lfrm=srp.1)
