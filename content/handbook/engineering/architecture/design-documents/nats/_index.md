@@ -16,7 +16,7 @@ toc_hide: true
 
 This document proposes design, architecture and a rollout roadmap for adopting & using [NATS](https://docs.nats.io/nats-concepts/overview) to support data messaging & queueing needs at GitLab scale.
 
-From some of our recent initiatives such as building the [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?usp=sharing) or [Project Siphon](/handbook/engineering/architecture/design-documents/siphon/), it's become evident that we need a scalable & reliable queueing system within our technology stack to be able to ingest & process large amounts of data. Having gone through multiple discussions around this, we have now narrowed down our choices to [using NATS](https://docs.nats.io/nats-concepts/what-is-nats) as a solution to such needs.
+From some of our recent initiatives such as building the [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?usp=sharing) or [Project Siphon](/handbook/engineering/architecture/design-documents/siphon/), it has become evident that we need a scalable & reliable queueing system within our technology stack to be able to ingest & process large amounts of data. Having gone through multiple discussions around this, we have narrowed down our choices to [using NATS](https://docs.nats.io/nats-concepts/what-is-nats) as a solution to these needs.
 
 ## Motivation
 
@@ -156,7 +156,7 @@ nats://server-1:4222,server-2:4222,server-3:4222
 - NATS allows all ingested data to be stored in-memory or disk-based.
 - We intend to leverage Jetstream to persist all ingested data durably.
 - We expect to use SSDs to improve performance.
-- We must carefully plan disk-sizing based on retention policies for ingested data.
+- We intend to plan disk-sizing based on retention policies for ingested data, possibly overestimating it to begin with, especially while we tune our needs gradually. It is also prudent to ensure we can resize underlying storage trivially when needed.
 - We aim to enable compression to reduce storage footprint further.
 
 ## Security
@@ -165,6 +165,7 @@ nats://server-1:4222,server-2:4222,server-3:4222
 
 - NATS has prebuilt support for connections encrypted over TLS.
 - It also comes with centralised auth support via JWT/NKEYS.
+- We expect to promote the usage of separate principals (users/accounts) across distinct systems, e.g. producers/consumers of a given stream.
 - More auth-related details to be added once https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/3015 concludes.
 
 ### Encryption
