@@ -30,7 +30,7 @@ Should you require assistance from the Runway team, please reference [getting as
 
 ## Team Members
 
-{{< team-by-manager-slug "devin" >}}
+{{< team-by-manager-slug "jtoto-gtl" >}}
 
 ## Common Links
 
