@@ -179,9 +179,9 @@ sequenceDiagram
     alt Success Response (200)
         Note over BW: Job completed successfully
     else Client Error (4XX)
-        Note over BW: Log error details<br>Update gitlab_namespaces_sync as partially failed
+        Note over BW: Log error details<br>Update gitlab_namespaces_sync<br>as partially failed
     else Server Error (5XX)
-        Note over BW: Schedule job retry<br>Update job status for retry
+        Note over BW: Schedule job retry<br>Update job status<br>for retry
     end
 ```
 
@@ -235,7 +235,8 @@ The endpoint will accept following JSON body structure:
           "expires_on": "2024-05-31",
           "purchase_xid": "purchase_123",
           "trial": false
-        },
+        }
+      ],
       "duo_enterprise": [
         {
           "quantity": 100,
@@ -243,7 +244,8 @@ The endpoint will accept following JSON body structure:
           "expires_on": "2024-05-31",
           "purchase_xid": "purchase_123",
           "trial": false
-        },
+        }
+      ],
       "product_analytics": [
         {
           "quantity": 100,
