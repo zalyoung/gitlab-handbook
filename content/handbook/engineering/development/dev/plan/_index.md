@@ -166,17 +166,25 @@ EMs maintain a Wiki page for the project containing a project timeline, project 
 
 Plan Engineering regularly tests new functionality internally before releasing to customers. As part of a drive to improve quality in the work we deliver to customers, this process is divided into two parts.
 
-##### Alpha Testing
+###### Alpha Testing
 
 Testing that occurs during ongoing development. This is limited to subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`.
 
-##### End-of-line testing
+###### End-of-line testing
 
-This "end-of-line" testing is the final step before release to customers. It usually means enablement of the finished product on `gitlab-com` and `gitlab-org` and is accompanied by a method of collecting internal feedback, such as a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager, and only defects and fit & finish issues identified during testing should be addressed. 
+End-of-line (EOL) testing is the final step before release to customers. It usually means enablement of the finished product on `gitlab-com` and `gitlab-org` and is accompanied by a method of collecting internal feedback, such as a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager, and only defects and fit & finish issues identified during testing should be addressed. 
 
 No new scope will be accepted at this time without significant justification and without restarting the testing period.
 
+For this relatively short period, the project DRI should ensure the system under test resembles exactly the one intended to be given to customers.
+
 ##### Dogfooding
+
+Dogfooding helps to build confidence in feature readiness and identify shortcomings before they reach the customer. In most cases, if an improvement cannot be adopted for a useful workflow internally it should not be expected to land with customers either. Identifying a dogfooding opportunity ahead of time can help to reach consensus on what the minimum valuable change should include.
+
+Dogfooding opportunities should be meaningful rather than hypothetical. A new workflow is adopted, an existing workflow complemented or improved, or made redundant.
+
+Project leads should strive to implement dogfooding during the final testing phase and should expect to observe some adoption.
 
 ### Talking With Customers
 
