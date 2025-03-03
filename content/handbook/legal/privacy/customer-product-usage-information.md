@@ -145,6 +145,6 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
-*Types of Data*: A full list of the categories of GitLab Duo Metrics collected can be viewed [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
+*Types of Data*: A full list of the GitLab Duo Metrics collected can be viewed [here](https://metrics.gitlab.com/events/?category=duo).  In addition, you can find a general overview of Duo telemetry [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
 
 *Opting-Out*: Currently, there is no mechanism within the GitLab settings to opt-out of GitLab Duo Metrics for an entire instance or namespace.  However, if you opt-out of telemetry in the extension editor, GitLab will honor that user-level opt-out across GitLab.com, Dedicated, or Self-Managed.
