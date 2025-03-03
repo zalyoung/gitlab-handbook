@@ -55,6 +55,15 @@ Please reach out to Allie Klatzkin or Alison Lee with any questions.
 * **Re-engagement nurture**: Develop and implement strategy for re-engagement email nurture
 * **Email point of contact/support**: Reviewing and optimizing AMER & APAC events (fmm) and campaigns sends to ensure best practices and compliance with the GitLab brand
 
+**Christian Baun** _Lifecycle Marketng Manager_
+
+* Manage updates/optimizations to our existing Persona nurture and PubSec nurtures
+* Support localized nurture programs for prospects
+* **Own MM+ transformation of trial nurture**: Pivot self-serve to focus on business trials: optimize for high-value biz trials and reduce wasted spend on low-ROI trials starts with personal emails. 
+* Ongoing maintenance/optimization of global prospect campaigns post launch (recycled leads nurture, industry nurtures)
+* Regional/event email reviews for EMEA/APAC
+* Email Templates: manage development and testing of new and existing email templates
+
 ## Communication
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
