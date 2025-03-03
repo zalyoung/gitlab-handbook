@@ -262,7 +262,7 @@ When a new RFH is opened the reaction coordinator will be assigned and starts th
 
 **Once a milestone**, the Reaction Coordinator is responsible for triaging existing RFH issues.
 
-1. Has an engineer engaged with the RFH? Is not, assign RFH to one of the reaction coordination engineers to work on.
+1. Has an engineer engaged with the RFH? If not, assign RFH to one of the reaction coordination engineers to work on.
 1. Is the RFH a candidate to be closed? If so, close the RFH issue with any needed notes.
 1. Check zendesk for customer responses that haven't made it into the RFH yet.
 
