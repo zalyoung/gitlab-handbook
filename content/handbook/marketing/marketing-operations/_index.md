@@ -103,7 +103,7 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 1. [Asana team Board](https://app.asana.com/0/1208702011967252/1208702155234648) - General and Ad-hoc requests
 2. [Asana team portfolio](https://app.asana.com/0/portfolio/1208916940053448/1208917081724360) - adhoc and projects
-1. [MktgOps Team (issues by team member)](https://gitlab.com/groups/gitlab-com/-/boards/2629685)
+3. [MktgOps Team (issues by team member)](https://gitlab.com/groups/gitlab-com/-/boards/2629685)
 
 ### Issues
 
@@ -323,7 +323,7 @@ Workato is a low-code/no-code tool used to for automations and integrations acro
 
 **Helpful links**
 
-- [How Integrations Team works](/handbook/business-technology/enterprise-applications/integrations/how-we-work/)
+- [How Integrations Team works](/handbook/business-technology/enterprise-applications/integrations/)
 
 ## Stakeholder Mapping
 
@@ -708,7 +708,7 @@ You can find more details on the enrichment process in our [Zoominfo Handbook Pa
 
 To be able to upload a lead in our SFDC, it is mandator for the lead to have an email address. Sometimes we do run into situations where the email address is not available.
 
-To bypass this challenge and still be able to upload the leads in SFDC, please create an **List Upload - Enrichment Request** with this [issue template](), upload the CSV file in the issue and Mops will use the **Zoominfo Enhance**, **Zoominfo ListMatch** and **Cognism Enhance** functionality to enrich these records with the most up to date information (including the email address).
+To bypass this challenge and still be able to upload the leads in SFDC, please create an **List Upload - Enrichment Request** with this [request form](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259), upload the CSV file in the issue and Mops will use the **Zoominfo Enhance**, **Zoominfo ListMatch** and **Cognism Enhance** functionality to enrich these records with the most up to date information (including the email address).
 
 **Note:** Such records as lead list uploads with no email addres, that sub-sequently are enriched with the email address through Zoominfo/Cognism enrichment, need to be marked as `Opt-out` as **these individuals did not give us the express consent** that they can be reached to;
 
