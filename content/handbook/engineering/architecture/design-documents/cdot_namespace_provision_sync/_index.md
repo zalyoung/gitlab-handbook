@@ -33,9 +33,9 @@ The goal of this blueprint is to produce:
 
 We want to create a new table `gitlab_namespace_syncs` that will hold the records for the generated `namespace` provision params. A `gitlab_namespaces_sync` record will have many `gitlab_namespaces_sync_attempts` that will log the status of `gitlab_namespaces_sync`. The states can be `[started, failed, skipped, completed]`.
 
-Whenever a `gitlab_namespaces_sync` record is created, it will always have an associated `gitlab_namespaces_sync_attempt` record with `started` state. We will then make an **internal HTTP request** to `GitLab` to provision the namespace with the associated `params`. The `params` will have provision information for all the resource to be provisioned: `[main_plan, compute_minutes, storage, add_on_purchases]`. See [API Contract](#api-contract). During the provisioning on `GitLab`, it will continue to provision other resources, even if any one of the resource provisioning fails. For instance, if `Compute Minutes` resource provisioning fails, it will still continue to provision `Storage` and `AddOnPurchase` resources.
+Whenever a `gitlab_namespaces_sync` record is created, it will always have an associated `gitlab_namespaces_sync_attempt` record with `started` state. We will then make an **internal HTTP request** to `GitLab` to provision the namespace with the associated `params`. The `params` will have provision information for all the resources to be provisioned: `[main_plan, compute_minutes, storage, add_on_purchases]`. See the [API Contract](#api-contract) for more information. During the provisioning to `GitLab`, provision to other resources is continued even if any of the resources provisioning fails. For instance, if the `Compute Minutes` resource provisioning fails, provisioning for the `Storage` and `AddOnPurchase` resources is continued.
 
-Based on the response of the provision sync, we will update the state of the `gitlab_namespaces_sync_attempt` record. The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
+Based on the response of the provision sync, we will update the state of the `gitlab_namespaces_sync_attempt` record. The status will be updated to `completed` for a `200 OK` response, and `failed` for any other.
 
 Based on the failed response code we will perform further action:
 
