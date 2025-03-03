@@ -252,11 +252,44 @@ On top of our development roadmap, engineering teams need to perform tasks relat
 
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab product milestones. When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
+### Request For Help (RFH) Resolution Guide
+This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper ticket management.
+
+#### When to Close an RFH
+An RFH ticket can be closed under the following circumstances:
+
+1. Confirmed Resolution 
+    - The issue has been resolved with confidence and certainty by an engineer 
+    - The customer has confirmed they are satisfied with the resolution
+
+1. Feature Request Backlog  
+    - The RFH is for a feature that cannot be prioritized immediately
+    - An issue has been created in the backlog
+    - The backlog issue has been linked to the original RFH
+    - A note has been added to the RFH pointing to the linked issue
+
+1. Immediate Implementation 
+    - The issue has been worked on immediately
+    - Changes have been merged and are ready for customer testing
+    - The customer has confirmed they are satisfied with the solution
+
+1. No Customer Response
+    - The RFH has received a response from support
+    - There has been no customer reply for a prolonged period
+
+#### Best Practices
+
+- Acknowledge receipt of new RFH tickets promptly
+- Set clear expectations about resolution timeframes
+- Link related tickets or documentation when applicable
+- Provide detailed explanations when closing tickets to ensure knowledge transfer
+
+#### Ticket Status Monitoring
+Regular review of open RFH tickets should be conducted to ensure no issues remain unaddressed for extended periods.
+
 ### Vulnerability Management
 
-**Once a week**, the Reaction Coordinator is responsible for triaging vulnerabilities reported on the projects we maintain and helping resolve them depending on their priority.
-
-1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Vulnerability Management Process](#vulnerability-management-process))
+1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Refine scheduled security issues.
