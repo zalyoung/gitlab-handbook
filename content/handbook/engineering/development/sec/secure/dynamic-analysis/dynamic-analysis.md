@@ -254,7 +254,7 @@ The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) f
 
 ### Request For Help (RFH) Resolution Guide
 
-This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper ticket management.
+This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper issue management.
 
 Engineers participating in reaction coordination must make sure there GitLab handles are included in the RFH template so they are notified when a new RFH is opened.
 
