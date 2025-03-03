@@ -310,7 +310,7 @@ An RFH issue can be closed under the following circumstances:
 
 #### Ticket Status Monitoring
 
-Regular review of open RFH tickets should be conducted to ensure no issues remain unaddressed for extended periods.
+Regular review of open RFH issues should be conducted to ensure no issues remain unaddressed for extended periods.
 
 ### Vulnerability Management
 
