@@ -42,21 +42,21 @@ This re-architecture project has several multifaceted objectives.
 
 As the list of goals above shows, there are a good number of desired outcomes we would like to see at the end of implementation. To reach these goals, we will break this work up into smaller iterations.
 
-1. [Phase one: Build Zuora Subscription Cache Models](#phase-one-build-zuora-subscription-cache-models)
+1. [Phase one: Build models for Zuora subscriptions local copy](#phase-one-build-models-for-zuora-subscriptions-local-copy)
 
-    The first iteration focuses on creating the foundation for the local cache for Zuora Subscription objects, including Rate Plans, Rate Plan Charges, and Rate Plan Charge Tiers, in CustomersDot. This involves creating the database tables and models for the cache resources.
+    The first iteration focuses on creating the foundation for the local copy for Zuora Subscription objects, including Rate Plans, Rate Plan Charges, and Rate Plan Charge Tiers, in CustomersDot. This involves creating the database tables and models for the local copy of resources.
 
     [Phase 1: Build Zuora Cache Models (&11751)](https://gitlab.com/groups/gitlab-org/-/epics/11751)
 
-1. [Phase two: Implement Zuora Cache Sync and Backfill](#phase-two-implement-zuora-cache-sync-and-backfill)
+1. [Phase two: Implement sync and backfill of Zuora subscriptions local copy](#phase-two-implement-sync-and-backfill-of-zuora-subscriptions-local-copy)
 
     The second iteration involves establishing a sync between Zuora and the newly introduced models. Additionally, existing Zuora Subscription data will need to be backfilled to ensure seamless integration and data consistency.
 
     [Phase 2: Implement Zuora Cache Sync and Backfill (&13630)](https://gitlab.com/groups/gitlab-org/-/epics/13630)
 
-1. [Phase three: Utilize Zuora Cache Models](#phase-three-utilize-zuora-cache-models)
+1. [Phase three: Utilize Zuora subscriptions local copy](#phase-three-utilize-zuora-subscriptions-local-copy)
 
-    In the third phase, the objective is to leverage the Zuora cache models introduced in phase one and synchronized in phase two. The focus will be on replacing any code in CustomersDot that currently makes read requests to Zuora for Subscription data with ActiveRecord queries. This shift should lead to a significant performance improvement.
+    In the third phase, the objective is to leverage the Zuora subscriptions local copy introduced in phase one and synchronized in phase two. The focus will be on replacing any code in CustomersDot that currently makes read requests to Zuora for Subscription data with ActiveRecord queries. This shift should lead to a significant performance improvement.
 
     [Phase 3: Utilize Zuora Cache Models (&11752)](https://gitlab.com/groups/gitlab-org/-/epics/11752)
 
@@ -66,9 +66,11 @@ As the list of goals above shows, there are a good number of desired outcomes we
 
     [Phase 4: Replace CDot Order with Subscription (&11753)](https://gitlab.com/groups/gitlab-org/-/epics/11753)
 
+- Note: The implementation of the local models doesn't match a traditional cache, as such it was decided to refer to them as local copy instead. The references to cache were updated accordingly, except the names of the completed and in progress issues.
+
 ## Design and implementation details
 
-### Phase one: Build Zuora Subscription Cache Models
+### Phase one: Build models for Zuora subscriptions local copy
 
 The first phase for this blueprint focuses on adding new models for caching Zuora Subscription data locally in CustomersDot. These local data models will allow CustomersDot to query the local database for Zuora Subscriptions. Currently, this requires querying directly to Zuora which can be problematic if Zuora is experiencing downtime. Zuora also has rate limits for API usage which we want to avoid as CustomersDot continues to scale.
 
@@ -188,24 +190,24 @@ erDiagram
 #### Notes
 
 - The namespace `Zuora` is already taken by the classes used to extend `IronBank` resource classes. These classes will be moved to the namespace `Zuora::Remote` to indicate these are intended to reach out to Zuora. This frees up the `Zuora` namespace to be used for other purposes in later Phases.
-- The new models related to Zuora cached data will be added to the namespace `Zuora::Local`. This has nice symmetry with `Zuora::Remote` and makes it clear which classes refer to the remote Zuora data source or the local data source.
+- The new models related to Zuora subscriptions local copy will be added to the namespace `Zuora::Local`. This has nice symmetry with `Zuora::Remote` and makes it clear which classes refer to the remote Zuora data source or the local data source.
 - All versions of Zuora Subscriptions will be stored in this table to be able to support display of current as well as future purchases when Zuora is down. One of the guiding principles from the Architecture Review meeting on 2023-08-06 was "Customers should be able to view and access what they purchased even if Zuora is down". Given that customers can make future-dated purchases, CustomersDot needs to store current and future versions of Subscriptions.
 - `zuora_id` would be the primary key given we want to avoid the field name `id` which is magical in ActiveRecord.
 - The timezone for Zuora Billing is configured as Pacific Time. Let's account for this timezone as we sync data from Zuora into CDot's cached models to allow for more accurate comparisons.
 
-### Phase two: Implement Zuora Cache Sync and Backfill
+### Phase two: Implement sync and backfill of Zuora subscriptions local copy
 
 The second phase for this blueprint focuses building the mechanisms to keep the local data in sync with Zuora and backfilling the existing data. Ideally, the local cache models would be read-only for most of the application to ensure the data stays in sync. Only the syncing mechanism would have the ability to write to these models.
 
 #### Keeping data in sync with Zuora
 
-CDot currently receives and processes `Order Processed` Zuora callouts for Order actions like `Update Product` ([full list](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/64c5d17bac38bef1156e9a15008cc7d2b9aa46a9/lib/zuora/order.rb#L26)). These callouts help to keep CustomersDot in sync with Zuora and trigger provisioning events. These callouts will be important to keeping `Zuora::Local::Subscription` and related cached models in sync with changes in Zuora.
+CDot currently receives and processes `Order Processed` Zuora callouts for Order actions like `Update Product` ([full list](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/64c5d17bac38bef1156e9a15008cc7d2b9aa46a9/lib/zuora/order.rb#L26)). These callouts help to keep CustomersDot in sync with Zuora and trigger provisioning events. These callouts will be important to keeping `Zuora::Local::Subscription` and related local models in sync with changes in Zuora.
 
-This existing callout would not be sufficient to cover all changes to a Zuora Subscription though. In particular, changes to custom fields may not be captured by these existing callouts. We will need to create custom events and callouts for any custom field cached in CustomersDot for any of these resources to ensure CDot is in sync with Zuora. This should only affect `Zuora::Local::Subscription` though as no custom fields are used by CustomersDot on any of the other proposed cached resources at this time.
+This existing callout would not be sufficient to cover all changes to a Zuora Subscription though. In particular, changes to custom fields may not be captured by these existing callouts. We will need to create custom events and callouts for any custom field in the Zuora subscriptions local copy of CustomersDot for any of these resources to ensure CDot is in sync with Zuora. This should only affect `Zuora::Local::Subscription` though as no custom fields are used by CustomersDot on any of the other proposed local resources at this time.
 
 #### Read only models
 
-Given the data stored in these new models are a copy of Zuora data, it will important to ensure these models are modified within the appropriate context, not throughout the application. We want a clear separation when a cached model can be in "write" mode versus "read-only" mode. This separation helps avoid writing to a cached model inappropriately or mistakenly. We considered different options as part of [this Spike issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/8511).
+Given the data stored in these new models are a copy of Zuora data, it will important to ensure these models are modified within the appropriate context, not throughout the application. We want a clear separation when a local copy of a resource can be in "write" mode versus "read-only" mode. This separation helps avoid writing to the local copy of a resource inappropriately or mistakenly. We considered different options as part of [this Spike issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/8511).
 
 We aligned on creating a concern, `ReadOnlyRecord`, that will prevent a save when included in an ActiveRecord model.
 
@@ -221,21 +223,21 @@ end
 
 - Attempting to save (e.g. create, update, or destroy) one of these models would raise an error (e.g. `ActiveRecord::ReadOnlyRecord: Subscription is marked as readonly`)
 - Even with this code, a record could still be deleted with `record.delete`. We could write a RuboCop rule for avoiding using delete (possibly even for just these ReadOnlyModels). We could also overwrite this method to raise an error as well.
-- Within certain namespaces like the Zuora cache sync service, we want access to a model that have write privileges.
+- Within certain namespaces like the Zuora subscriptions local copy sync service, we want access to a model that have write privileges.
 
-#### Rollout of Zuora Cache models
+#### Rollout of Zuora subscriptions local copy
 
-With the first iteration of introducing the cached Zuora data models, we will take an iterative approach to the rollout. There should be no impact to existing functionality as we build out the models, start populating the data through callouts, and backfill these models. Once this is in place, we will iteratively update existing features to use these cached data models instead of querying Zuora directly.
+With the first iteration of introducing the models for Zuora subscriptions local copy, we will take an iterative approach to the rollout. There should be no impact to existing functionality as we build out the models, start populating the data through callouts, and backfill these models. Once this is in place, we will iteratively update existing features to use the Zuora subscriptions local copy instead of querying Zuora directly.
 
-We will make this transition using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using these cache models. This will help us deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
+We will make this transition using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using Zuora subsciptions local copy. This will help us deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
 
-Testing can be performed before the cached models are used in the codebase to ensure data integrity of the cached models.
+Testing can be performed before Zuora subsctiptions local copy is used in the codebase to ensure data integrity of the models of subscriptions local copy.
 
-### Phase three: Utilize Zuora Cache Models
+### Phase three: Utilize Zuora subscriptions local copy
 
-This phase covers the third phase of work of the Orders re-architecture. In this phase, the focus will be utilizing the new Zuora cache data models introduced in phase one. Querying Zuora for Subscription data is fundamental to Customers so there are plenty of places that will need to be updated. In the places where CDot is reading from Zuora, it can be replaced by querying the local cache data models instead. This should result in a big performance boost by avoiding third party requests, particularly in components like the Seat Link Service.
+This phase covers the third phase of work of the Orders re-architecture. In this phase, the focus will be utilizing the new models for Zuora subscriptions local copy introduced in phase one. Querying Zuora for Subscription data is fundamental to Customers so there are plenty of places that will need to be updated. In the places where CDot is reading from Zuora, it can be replaced by querying the local copy instead. This should result in a big performance boost by avoiding third party requests, particularly in components like the Seat Link Service.
 
-This transition will be completed using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using these cache models. This will help to deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
+This transition will be completed using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using these models for local copy. This will help to deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
 
 ### Phase four: Transition from `Order` to `Subscription`
 
