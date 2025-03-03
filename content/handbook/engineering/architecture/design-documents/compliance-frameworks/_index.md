@@ -98,8 +98,8 @@ compliance frameworks in GitLab 17.3.
    1. A Check is a review of a project's settings, to confirm that it is in a particular position. Checks compose a percentage of a project's compliance posture against a Control.
 1. Control
    1. A control is a specific compliance rule that needs to be met to meet a compliance requirement. Enforcement of this is achieved in GitLab through settings, Security Policies or Compliance Pipelines.
-1. Event
-   1. An event is a record of a potentially non-compliance event.
+1. Violation
+   1. A record of an event that when triggered was compared against a Control and found to contravene that control.
 
 ### Design Details
 
@@ -308,96 +308,127 @@ The compliance requirements would be stored in a separate table with the followi
 
 ```mermaid
     classDiagram
-    class namespaces {
-        id: bigint
-        name: text
-        path: text
-        ...(more columns)
-    }
-    class projects {
-        id: bigint,
-        name: text
-        path: text
-        description: text
-        ...(more columns)
-    }
+        class namespaces {
+            id: bigint
+            name: text
+            path: text
+            ...(more columns)
+        }
+        class projects {
+            id: bigint,
+            name: text
+            path: text
+            description: text
+            ...(more columns)
+        }
 
-    class compliance_applied_frameworks {
-        id: bigint,
-        project_id: bigint,
-        framework_id: bigint,
-        ...(more columns)
-    }
+        class project_compliance_framework_settings {
+            id: bigint
+            project_id: bigint
+            framework_id: bigint
+            ...(more columns)
+        }
 
-    class compliance_management_frameworks {
-        id: bigint,
-        name: text,
-        description: text,
-        ...(more columns)
-    }
+        class compliance_management_frameworks {
+            id: bigint,
+            name: text,
+            description: text,
+            ...(more columns)
+        }
 
-    class compliance_requirements {
-        id: bigint
-        created_at: timestamp
-        updated_at: timestamp
-        namespace_id: bigint
-        framework_id: bigint
-        name: text
-        description: text
-        ...(more columns)
-    }
+        class compliance_requirements {
+            id: bigint
+            created_at: timestamp
+            updated_at: timestamp
+            namespace_id: bigint
+            framework_id: bigint
+            name: text
+            description: text
+        }
 
-    class compliance_requirements_controls {
-        id: bigint
-        created_at: timestamp
-        updated_at: timestamp
-        namespace_id: bigint
-        requirement_id: bigint
-        name: text
-        control_type: smallint
-        external_url: text
-        expression: text
-        encrypted_secret_token: bytea
-        encrypted_secret_token_iv: bytea
-    }
+        class compliance_requirements_controls {
+            id: bigint
+            created_at: timestamp
+            updated_at: timestamp
+            namespace_id: bigint
+            requirement_id: bigint
+            name: text
+            control_type: smallint
+            external_url: text
+            expression: text
+            encrypted_secret_token: bytea
+            encrypted_secret_token_iv: bytea
+        }
 
-    class compliance_requirements_controls_evidence {
-        id: bigint
-        compliance_controls_event_id: bigint
-        compliance_requirements_control_id: bigint
-        ...(more columns)
-    }
+        class project_control_compliance_statuses {
+            id: bigint
+            created_at: timestamp
+            updated_at: timestamp
+            project_id: bigint
+            namespace_id: bigint
+            compliance_requirement_id: bigint
+            compliance_requirements_control_id: bigint
+            status: smallint
+        }
 
-    class compliance_controls_events {
-        id: bigint
-        project_id: bigint
-        audit_event_id: bigint
-        merge_request_id: bigint
-        result_event_id: bigint
-        ...more event type ids
-        result: binary
-        status: string
-        reason: string
-        ...(more columns)
-    }
+        class project_compliance_violations {
+            id: bigint
+            created_at: timestamp
+            updated_at: timestamp
+            project_id: bigint
+            namespace_id: bigint
+            compliance_requirement_id: bigint
+            compliance_requirement_expression: jsonb
+            audit_event_id: bigint
+        }
 
-    compliance_management_frameworks --> compliance_applied_frameworks : has_many
-    compliance_applied_frameworks --> projects : has_many
-    compliance_management_frameworks --> compliance_requirements : has_many
-    compliance_management_frameworks "*" ..> "*" projects : has_many_through
-    compliance_requirements --> compliance_requirements_controls : has_many
-    projects <-- namespaces : has_many
-    namespaces --> compliance_management_frameworks : has_many
-    compliance_requirements_controls --> compliance_requirements_controls_evidence : has_many
-    compliance_requirements_controls_evidence --> compliance_controls_events : has_many
+        class security_policy_controls {
+            id: bigint
+            created_at: timestamp
+            updated_at: timestamp
+            compliance_framework_security_policy_id: bigint
+            compliance_requirement_control_id: bigint
+            namespace_id: bigint
+        }
 
+        class audit_events {
+            id: bigint
+            author_id: bigint
+            entity_id: bigint
+            entity_type: string,
+            details: text,
+            author_name: text,
+            entity_path: text,
+            target_details: text,
+            target_type: text,
+            target_id: bigint
+            ...(more columns)
+        }
+
+        namespaces --> projects  : has_many
+
+        compliance_management_frameworks <--> project_compliance_framework_settings : has_many
+        project_compliance_framework_settings <--> projects : many_to_many
+        namespaces --> compliance_management_frameworks : has_many
+        projects --> project_control_compliance_statuses : has_many
+        projects --> project_compliance_violations : has_many
+        compliance_management_frameworks --> compliance_requirements : has_many
+        compliance_requirements --> compliance_requirements_controls : has_many
+        compliance_requirements_controls --> project_control_compliance_statuses : has_many
+        compliance_requirements_controls <--> security_policy_controls : has_and_belongs_to_many
+        project_control_compliance_statuses <--> audit_events
+        compliance_requirements_controls <--> project_compliance_violations : has_and_belongs_to_many
 ```
 
 We plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
 as we don't want to associate requirements directly with a standard, allowing the users to customise
 and group requirements as per their need.
 
-There are two new tables `compliance_controls_evidence` and `compliance_controls_events` to store the results of compliance requirements and violations. `compliance_controls_evidence` is a join table between `compliance_controls_events` and `compliance_requirements_controls`. This allows us to create one event for multiple controls. `compliance_controls_events` can be associated with multiple types of ActiveRecord models, giving us the flexibility to add more types of events in the future. Unlike the current implementation we would only store events for the projects that have compliance requirements configured and would display these results in compliance dashboards.
+Unlike the current implementation we would only store results for the projects that have compliance requirements
+configured. Instead of an enum we would store the `compliance_requirement_id` in the
+`project_control_compliance_statuses` table and would display these results at the compliance dashboard.
+
+Violations records are stored in the new table `project_compliance_violations`. These violation records are immutable and only new records inserted, unlike the `project_control_compliance_statuses` table which is updated on status changes. This creates an immutable history of violations against a requirement for a project.
 
 In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
