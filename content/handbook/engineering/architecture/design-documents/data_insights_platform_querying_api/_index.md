@@ -107,6 +107,7 @@ This proposal references the first part, but is focused on implementing the seco
   - We need to keep the API simple to use; with clear documentation. The user mustn't need to know which database or table the data is coming from, only what data is available to them.
 - **Authentication and authorization**
   - The data being collected by the DIP will contain a mix of data privacy categories. We need to ensure that any data being queried is only accessible to those with the correct authentication and authorization. Data outside the purview of the requestor must in no way be accessible to them.
+  - Data classification will be determined by the [Data Catalog](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/25) in Atlan.
 
 ## Non-Goals
 
@@ -203,7 +204,7 @@ GLQL is currently built around being used within Markdown blocks, using YAML as 
 
 The first goal of GLQL is to allow customers to generate auto-updating lists of issues to help them with collaboration and planning. In the medium-term, the Plan stage plans to add support for listing merge requests, epics, and other work items.
 
-Longer-term, GLQL could be the final piece in the data platform puzzle, providing a consistent query format for our customers to interact with all GitLab data, not just Plan-specific data. This would include data from the data platform. However, internal resource limitations, mean that this is a long-term ideal rather than something that could be actioned in the short-to-medium term.
+Longer-term, GLQL could be the final piece in the data platform puzzle, providing a consistent query format for our customers to interact with all GitLab data, not just Plan-specific data. This would include data from the data platform. However, internal resource limitations, mean that this is a long-term ideal rather than something that could be actioned in FY26.
 
 GLQL is built using [Rust](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust). The code is compiled into a [WASM](https://webassembly.org/) [frontend](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/blob/main/npm/src/index.js#L35) module. The module [parses](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/blob/main/src/parser/mod.rs#L28) the GLQL query before generating the [resulting GraphQL query](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/blob/main/src/codegen/graphql.rs#L5) as its output. The generated GraphQL query is then used by the [frontend](https://gitlab.com/gitlab-org/gitlab/blob/0c47fbd08cf2bec87c407e9ee8e5a1c04e3d91c0/app/assets/javascripts/glql/core/executor.js#L13-13) as it usually would to request the resulting data.
 
@@ -764,9 +765,9 @@ All requests to and from DIP, including internal network requests, should be enc
 
 ### Performance
 
-To keep query times down, as well as to optimize our data retrieval in general, we must leverage ClickHouse's pre-aggregated [Materialized Views](https://clickhouse.com/docs/en/materialized-view) (MVs) wherever possible. This approach moves complex joining of data away from when data is `SELECT`ed to when it is `INSERT`ed.
+To keep query times down, as well as to optimize our data retrieval in general, we will likely heavily leverage ClickHouse's pre-aggregated [Materialized Views](https://clickhouse.com/docs/en/materialized-view) (MVs) wherever possible. This approach moves complex joining of data away from when data is `SELECT`ed to when it is `INSERT`ed. ClickHouse tends to perform better with larger tables, compared to JOINs.
 
-To avoid situations where data hasn't been fully processed in the background and organised by the MVs, we must set a `GROUP BY` clause for every query.
+Due to the asynchronus nature of ClickHouse data merging, queries will likely need to use `GROUP BY` or `FINAL` to ensure the correctness of queried data.
 
 Each resource must document in our docs any limits that must be applied to avoid excessive query times. The resource must validated that these limits are not exceeded by any given query. If a query attempts to exceed these limits, a `429 RESOURCE_EXHAUSTED` error must be returned with the reason why. For instance, a resource can only support queries of up to 30 days, and a query requests 60 days.
 
@@ -810,6 +811,6 @@ We must create a guide on how to create MV's for a given resource, and how to us
 
 ### Considerations for .com/dedicated/cells/self-managed 
 
-We don't expect the API's queries to span multiple cells, or have any major issues with any GitLab instance. The API queries will always be scoped to a specific organization, namespace, group, or project.
+This API's queries will not span multiple cells. Each query must be scoped to an instance (admin users of self-managed intances only), organization, namespace, group or project.
 
 One of the core [requirements](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?pli=1&tab=t.0#heading=h.xcp2tirhr67t) for the DIP is for it to be deployed as part of the GitLab instance, similar to Gitaly. Therefore, all our customers should have access to the DIP in full.
