@@ -15,7 +15,7 @@ Create a partner success approach, providing a framework for partners to integra
 
 ## High-Level Visual of Partner Capabilities Journey
 
-![Partner Capabilities Journey](../images/partner-capabilities-journey_v4.png)
+![Partner Capabilities Journey](/images/customer-success/partners/partner-capabilities-journey_v4.png)
 
 ## Partner Capabilities Journey
 

@@ -2,7 +2,7 @@
 title: "Linux OS Patching"
 status: ongoing
 creation-date: "2024-09-12"
-authors: [ "@mmiller" ]
+authors: [ "@mattmi" ]
 coach: [ "@jarv" ]
 approvers: [  ]
 toc_hide: true

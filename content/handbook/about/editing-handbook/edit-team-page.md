@@ -5,7 +5,7 @@ description: "Instructions on how to add yourself to the team page, and make edi
 
 This page specifically covers how to add yourself to the team page, add your pets to the pets page, and edit the relevant entries.
 
-For the handbook, see the [editing handbook page]({{< ref "editing-handbook" >}}).
+For the handbook, see the [editing handbook page](/handbook/about/editing-handbook/).
 
 ## Add yourself to the Team Page
 

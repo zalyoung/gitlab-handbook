@@ -108,7 +108,7 @@ the Calendly icon at the top right in your browser. Sign in to Calendly, then yo
 Then simply click on the `Copy link` icon under the event of your choice to generate a link you can paste into
 your message to the customer.
 
-![Browser plug-in](/images/support/assets/calendly.png)
+![Browser plug-in](/images/support/workflows/assets/calendly.png)
 
 If you do not want to use a supported browser, you can generate a link from your Calendly home page according to [the Calendly documentation](https://help.calendly.com/hc/en-us/articles/1500001292022-How-to-create-and-share-a-single-use-link-to-a-specific-event).
 

@@ -36,7 +36,7 @@ When looking for the right tool for you and your team, consider what's most impo
 
 ## Does Google have a collaborative whiteboard?
 
-Remote teams should aim to [minimize their tool stack]({{< ref "remote-work-emergency-plan#minimize-your-tool-stack" >}}). It's good practice to consider how you can extract additional value from tools you already use, and [Google Docs](/handbook/communication/#google-docs) is a great example of this. While Google Docs is a fantastic shared editing tool, GitLab also uses it for temporal [meeting documentation]({{< ref "../meetings#document-everything-live-yes-everything" >}}) (prior to contextualizing takeaways for placement in relevant [handbook]({{< ref "handbook-first" >}}) sections).
+Remote teams should aim to [minimize their tool stack](/handbook/company/culture/all-remote/remote-work-emergency-plan/#minimize-your-tool-stack). It's good practice to consider how you can extract additional value from tools you already use, and [Google Docs](/handbook/communication/#google-docs) is a great example of this. While Google Docs is a fantastic shared editing tool, GitLab also uses it for temporal [meeting documentation](/handbook/company/culture/all-remote/meetings/#5-document-everything-live-yes-everything) (prior to contextualizing takeaways for placement in relevant [handbook](/handbook/company/culture/all-remote/handbook-first/) sections).
 
 It also happens to be a great remote whiteboarding tool.
 
@@ -46,7 +46,7 @@ It also happens to be a great remote whiteboarding tool.
 1. Multiple people can write at the same time, allowing purer trains of thought to reach canvas versus waiting your turn
 1. Can see what people are looking at in real-time via cursor indicators
 1. Can make suggestions
-1. Can make [low-context comments]({{< ref "../effective-communication#understanding-low-context-communication" >}}) that are time-stamped
+1. Can make [low-context comments](/handbook/company/culture/all-remote/collaboration-and-whiteboarding/../effective-communication#understanding-low-context-communication) that are time-stamped
 1. Can change hierarchy with indentation
 1. Can copy and paste
 1. Doesn't run out of space
@@ -92,7 +92,7 @@ Once you've decided which tool is best for you, here are a few tips for running 
 
 Do not fixate on the medium; instead, fixate on the outcome. Instead of attempting to create a virtual whiteboard, focus on what outcomes you typically expect from a whiteboarding session. In a remote setting, a team must be intentional about everything, including a fixation on results. This requires a change of mentality.
 
-Learn more about "the whiteboarding fixation" in our [guide to understanding the phases of remote adaptation]({{< ref "phases-of-remote-adaptation#the-whiteboarding-fixation" >}}).
+Learn more about "the whiteboarding fixation" in our [guide to understanding the phases of remote adaptation](/handbook/company/culture/all-remote/phases-of-remote-adaptation/#the-whiteboarding-fixation).
 
 ### People planning
 
@@ -100,7 +100,7 @@ Learn more about "the whiteboarding fixation" in our [guide to understanding the
 
 *In the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) video above, GitLab Head of Remote Darren M. discusses remote team collaboration with Till P. creator of remote collaboration platform [CoScreen](https://www.coscreen.co/).*
 
-Remote collaboration starts with people. Creating a [remote culture]({{< ref "building-culture" >}}) includes trusting that the people within the company will do their work. [Documentation]({{< ref "handbook-first" >}}) is vital to the independence of employees. This includes documenting everything from company [values](/handbook/values/) to daily [meetings]({{< ref "../meetings" >}}).
+Remote collaboration starts with people. Creating a [remote culture](/handbook/company/culture/all-remote/building-culture/) includes trusting that the people within the company will do their work. [Documentation](/handbook/company/culture/all-remote/handbook-first/) is vital to the independence of employees. This includes documenting everything from company [values](/handbook/values/) to daily [meetings](../meetings/).
 
 Tools and technology will enable a company to operate efficiently, but ensuring that there is documentation with core standards is the first step in setting a collaborative remote environment.
 
@@ -118,15 +118,15 @@ Collaborative whiteboarding has positive impacts to diversity, inclusion and bel
 
 ### Collaborating through text
 
-The most important aspect of collaboration meetings is to [have an agenda]({{< ref "../management#docs-instead-of-whiteboards" >}}). Creating an agenda helps to cover everything and sets a plan for the scheduled discussion. It also makes it easier for those who didn't attend to feel included by having a document they can review after the meeting. Not everyone will always be in the meeting, but they can stay up-to-date as long as the meeting is documented, [encouraging clear communication](https://about.gitlab.com/blog/2019/12/23/six-key-practices-that-improve-communication/). Google Docs is a collaborative, real-time tool to take notes, share decisions, and keep all stakeholders informed.
+The most important aspect of collaboration meetings is to [have an agenda](/handbook/company/culture/all-remote/collaboration-and-whiteboarding/../management#docs-instead-of-whiteboards). Creating an agenda helps to cover everything and sets a plan for the scheduled discussion. It also makes it easier for those who didn't attend to feel included by having a document they can review after the meeting. Not everyone will always be in the meeting, but they can stay up-to-date as long as the meeting is documented, [encouraging clear communication](https://about.gitlab.com/blog/2019/12/23/six-key-practices-that-improve-communication/). Google Docs is a collaborative, real-time tool to take notes, share decisions, and keep all stakeholders informed.
 
-Most design discussions and decisions at GitLab are created and worked in [GitLab Issues]({{< ref "gitlab-for-remote" >}}). Recently, [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html) was released in order for designers to upload images and make comments in the same platform that Product Managers and Developers use.
+Most design discussions and decisions at GitLab are created and worked in [GitLab Issues](/handbook/company/culture/all-remote/gitlab-for-remote/). Recently, [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html) was released in order for designers to upload images and make comments in the same platform that Product Managers and Developers use.
 
 > "The most important thing to remember when designing remotely is: document, document, document," — *Christie Lenneville, Director of UX, GitLab*
 
 ### Company handbook
 
-At GitLab, we believe that "everyone can contribute." The company handbook is where everything is documented — our [single source of truth]({{< ref "handbook-first#terminology-documentation-handbook-first-single-source-of-truth" >}}) — specifically laying out the six core [values](/handbook/values/) of the company. The handbook deliberately and intentionally describes each group's role within the company, including how the [UX teams](/handbook/product/ux/product-designer/) researches, designs and writes about the product.
+At GitLab, we believe that "everyone can contribute." The company handbook is where everything is documented — our [single source of truth](/handbook/company/culture/all-remote/handbook-first/#terminology-documentation-handbook-first-single-source-of-truth) — specifically laying out the six core [values](/handbook/values/) of the company. The handbook deliberately and intentionally describes each group's role within the company, including how the [UX teams](/handbook/product/ux/product-designer/) researches, designs and writes about the product.
 
 ### Iterate and iterate some more
 
@@ -140,7 +140,7 @@ Any meeting at GitLab happens over a [Zoom call](/handbook/communication/zoom). 
 
 ### Pinging on Slack
 
-Slack is generally accepted as an [informal method of communication]({{< ref "how-to-work-remote-first#expire-your-slack-or-teams-messages-after-90-days" >}}). Slack channels can be created easily for various groups or individuals. If there are questions or comments that require a quick response, Slack is the best way to get in touch with a co-worker. Slack is a fast way to collaborate on a topic without having to schedule a meeting in advance.
+Slack is generally accepted as an [informal method of communication](/handbook/company/culture/all-remote/how-to-work-remote-first#expire-your-slack-or-teams-messages-after-90-days). Slack channels can be created easily for various groups or individuals. If there are questions or comments that require a quick response, Slack is the best way to get in touch with a co-worker. Slack is a fast way to collaborate on a topic without having to schedule a meeting in advance.
 
 > "Pinging someone on slack is like bumping into them in the hallway," — *Alexis Ginsberg, Senior Product Designer at GitLab*
 
@@ -173,14 +173,14 @@ Every week the Plan designs and Plan PMs meet and discuss research in-flight or 
 
 ### Social hours
 
-Create a [social hour]({{< ref "informal-communication#team-social-calls" >}}) where everyone is welcome to join to chat or play games together. Try two social hours every other week with the purpose of capturing enough time zones so that teammates can be "in-person." This isn't exactly "work" collaboration related, but creates a bond with teammates in order to feel more comfortable together and therefore more effective and excited to collaborate.
+Create a [social hour](/handbook/company/culture/all-remote/informal-communication/#team-days-and-social-calls) where everyone is welcome to join to chat or play games together. Try two social hours every other week with the purpose of capturing enough time zones so that teammates can be "in-person." This isn't exactly "work" collaboration related, but creates a bond with teammates in order to feel more comfortable together and therefore more effective and excited to collaborate.
 
 ## Asynchronous collaboration
 
 ![GitLab all-remote team](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width:50%;"}
 
-[Asynchronous communication]({{< ref "asynchronous" >}}) is the process of being productive without depending on the presence of other people. Async work empowers people to work independently and to trust that others are doing the same, but not necessarily at the same time. Collaborating asynchronously frees people from calendars and time zones.
+[Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) is the process of being productive without depending on the presence of other people. Async work empowers people to work independently and to trust that others are doing the same, but not necessarily at the same time. Collaborating asynchronously frees people from calendars and time zones.
 
 With documentation, there is transparency on workloads, project capacity, and an overall understanding of what everyone's expectations are. The focus shifts away from the hours spent doing the work, to the actual results of the work.
 
@@ -204,7 +204,7 @@ GitLab's policy is to [dogfood everything](https://about.gitlab.com/blog/2020/01
 
 ## GitLab Knowledge Assessment: Remote collaboration and whiteboarding
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification](/handbook/company/culture/all-remote/remote-certification/) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -214,4 +214,4 @@ GitLab believes that all-remote is the future of work, and remote companies have
 
 ---
 
-Return to the main [all-remote page]({{< ref "../_index.md" >}}).
+Return to the main [all-remote page](../_index.md).

@@ -133,7 +133,7 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 |-----------|----|--------------|--------------------|-----------|----------------|------------------------|
 | **SME Area Leads** | **SA**: Edmond Chan<br>**CS**: Jess Perry | **SA**: Julia Gaetjens<br>**CS**: Eduardo Guillen, Jess Perry | **SA**: David Astor<br>**CS**: Brianne Parton | **SA**: Alessia Del Vecchio<br>**CS**: Zane Chua | **SA**: Bradley Lee,<br>Ken McKnight<br>**CS**: Rachel Fuerst,<br>Rodney Bowles | **SA**: Zach Henderson,<br>Breno Gomes<br>**CS**: Jordan Monyhan |
 | **Product Manager Rep/<br>Engineering Manager Rep** | **AMER**: Taylor McCaslin,<br>Michelle Gill<br>**APAC/EU**: Pini Wietchner,<br>David O'Regan | Alana Bellucci,<br>Sara Meadzinger,<br>Joe Randazzo | **PM**: Melissa Ushakov<br>**EM**: John Hope | **PM**: Chris Balane<br>**EM**: Oriol Lluch | | |
-| **APJ** | Ben Ridley,<br>Arun Kumar G,<br>Arjun Krishna | Tomasz Skora | | | | |
+| **APJ** | Ben Ridley,<br>Arun Kumar G,<br>Arjun Krishna | | | Tomasz Skora | | | 
 | **EMEA NEUR** | Ryan Appleby | Dominique Top,<br>Beatriz Barbosa | Gabriela Dobrescu,<br>James Moverley | Martin McVay | | |
 | **EMEA SEUR** | Madou Coulibaly | Paul Dumaitre,<br>Olivier Dupre | | | | |
 | **EMEA DACH/META** | Alex Dess | Mirko Brandner,<br>Julia Gaetjens | Ted Gieschen,<br>Hossam Hamdy | Falko Sieverding | Lars Blockken | |
@@ -141,5 +141,5 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | **US West** | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
 | **High Velocity - AMER** | | | Sophia Manicor | | Noah Ing | |
 | **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | | Sarah Matthies | Breno Gomes |
-| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Michael Bradley | Rachel Fuerst | |
+| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | | Rachel Fuerst | |
 | **Partner** | | | | | | |

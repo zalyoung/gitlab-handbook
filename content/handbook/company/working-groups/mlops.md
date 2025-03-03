@@ -31,7 +31,7 @@ This Working Group has the following goals:
 
 As per Wikipedia, **MLOps** or **ML Ops** is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.
 
-![MLOps Vendiagram](/images/company/mlops.png)
+![MLOps Vendiagram](/images/company/working-groups/mlops.png)
 
 Read more about the topic area from the links below:
 

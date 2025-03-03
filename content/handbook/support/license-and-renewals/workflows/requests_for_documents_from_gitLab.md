@@ -14,7 +14,7 @@ GitLab sign some kind of document. Examples include:
 
 If the documents are related to a subscription, license or sales opportunity,
 Sales team members are responsible for communication with the customer. Follow
-the [working with sales workflow]({{< ref "working_with_sales" >}}) to get the customer's
+the [working with sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales/) to get the customer's
 Account Owner involved.
 
 Additional information on this topic can be found in the following handbook pages:

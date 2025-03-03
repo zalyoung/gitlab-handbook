@@ -65,7 +65,7 @@ To align our education and enablement with our product, each of the topics below
 #### Intermediate Level
 
 - [Issue Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/issues/)
-- [Time Tracking Feature Docs](https://about.gitlab.com/solutions/time-tracking/)
+- [Time Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/time_tracking.html)
 - [Boards Feature Docs](https://docs.gitlab.com/ee/user/project/issue_board.html)
 - [Epics Feature Docs](https://docs.gitlab.com/ee/user/group/epics/)
 - [Roadmaps Feature Docs](https://docs.gitlab.com/ee/user/group/roadmap/)
@@ -288,7 +288,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Advanced Level
 
-- [Terraform Associate Certification](https://www.hashicorp.com/certification/terraform-associate)
+- [Terraform Associate Certification](https://developer.hashicorp.com/certifications/infrastructure-automation)
 
 ### HashiCorp Vault
 

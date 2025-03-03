@@ -4,8 +4,8 @@ title: "Phishing Program"
 
 {{% alert color="danger" title="Alert" %}}
 If you suspect you've received a phishing email and have not engaged with the sender, please see: [What to do if you suspect an email is a phishing attack](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack).
-If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the Security Engineer on-call]({{< ref "engaging-security-on-call#phishing" >}}).
-Further information on GitLab's security response program is described in our [Incident Response]({{< ref "sec-incident-response" >}}) guide.
+If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the Security Engineer on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/#phishing).
+Further information on GitLab's security response program is described in our [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) guide.
 {{% /alert %}}
 
 ## Phishing Program
@@ -84,7 +84,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 *NOTE*
 
 - If the link provided in the phishing email is **NOT** clicked, but copy/pasted, that could also trigger the 'click', please refrain from trying to decipher the link.
-- If [Option 3]({{< ref "handbook/security#option-3" >}}) is used to report an email, this could also trigger the 'click' as the tracking image could be cached by the ATP and proxy services.
+- If Option 3 is used to report an email, this could also trigger the 'click' as the tracking image could be cached by the ATP and proxy services.
 
 Feel free to complete the assigned training and consider it as taking an extra step to stay secure!
 
@@ -219,8 +219,8 @@ The CEO (and Executive team) will not send you an email to wire cash, or a text 
 
 What should you do if you receive a potential phishing email or text [\(smishing\)](https://www.proofpoint.com/us/threat-reference/smishing) from GitLab's CEO?
 
-1. If you are unsure whether the text or email is legitimate, contact [Security]({{< ref "." >}}) to review, and confirm via the #ceo Slack channel.
-1. If the email is determined to be fake, follow the instructions for [phishing attacks]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}) below.
+1. If you are unsure whether the text or email is legitimate, contact [Security](/handbook/security/security-assurance/governance/./) to review, and confirm via the #ceo Slack channel.
+1. If the email is determined to be fake, follow the instructions for [phishing attacks](/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
 
 - If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
@@ -235,16 +235,16 @@ If a person on LinkedIn claims to work at GitLab:
 1. Look up their name on Workday, which is our Single Source of Truth for current team members. Note that alumni and those who have not yet joined GitLab will not appear in Workday.
 
 If you believe that the profile has inaccurate information, [report inaccurate information on another member's LinkedIn profile](https://www.linkedin.com/help/linkedin/answer/a1337291). If the user reaches out to you with a suspicious work-related message please
-[use the `/security` Slack command]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
+[use the `/security` Slack command](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 
 ### What to do if you suspect something else is suspicious
 
 Phishing and other social engineering attacks aren't only sent via email.
 You might receive a suspicious text / SMS message, a weird Direct Message on social
 media platforms like LinkedIn, or a phone call. If it's work related, please
-[use the `/security` Slack command]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
+[use the `/security` Slack command](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 Even if you're unsure or it feels insignificant, you can always ask in the #security Slack channel.
 
 ### Additional Questions, Comments, Concerns?
 
-Please reach out to the [Security Governance team!]({{< ref "governance" >}})
+Please reach out to the [Security Governance team!](/handbook/security/security-assurance/governance/)

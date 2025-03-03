@@ -5,7 +5,7 @@ description: "Prospecting is the process of initiating and developing new busine
 
 ## What is prospecting at GitLab?
 
-All AEs are expected to have good pipeline generation coverage (3.5x) regardless of their role or types of accounts. The more you can integrate good pipe gen habits into your everyday activities, the easier it will be to have a strong pipeline throughout the year and with less maintenance. [Watch the latest on prospecting best practices from recent AEs on Highspot.](https://gitlab.highspot.com/items/63f4e733519f3a9436b95c65) In this video, severals AEs across AMER and EMEA talk about what helped them achieve their goals in prospecting and offer tips you can apply to your strategy right away, in addition to what's here on this page.
+All AEs are expected to have good pipeline generation coverage regardless of their role or types of accounts. The more you can integrate good pipe gen habits into your everyday activities, the easier it will be to have a strong pipeline throughout the year and with less maintenance. [Watch the latest on prospecting best practices from recent AEs on Highspot.](https://gitlab.highspot.com/items/63f4e733519f3a9436b95c65) In this video, severals AEs across AMER and EMEA talk about what helped them achieve their goals in prospecting and offer tips you can apply to your strategy right away, in addition to what's here on this page.
 
 **Prospecting has come a long way from cold calling:** In Enterprise Sales, prospecting is strategic, thoughtful, helpful, and almost always a **warm** connection.
 
@@ -29,7 +29,7 @@ All AEs are expected to have good pipeline generation coverage (3.5x) regardless
 
 **Start from [your territory plan](/handbook/sales/territory-planning/#overview).** This exercise should be your source of information on where you're prioritizing your time and what activities you and your team think will be most effective. It's also where you've set your **pipeline generation target.**
 
-*How to determine your target?* A general rule of thumb is to plan to create 3.5x your target in pipeline and then work backwards to determine what value you need to deliver every quarter and every month. As you measure your success, you'll learn whether that's too high or too low based on how you implement your strategy and the results you deliver.
+*What is my target?* Pipeline targets for every AE are loaded into Clari the first or second week of every quarter.
 
 Working backwards from your target, you'll be able to calculate how many accounts and opportunities you need to be successful. When looking at your target list, make sure you have a mix of those who are likely to buy now and those who may take a year or longer. Strategic partnerships take time so you need to diversify both your list and your outreach.
 

@@ -446,7 +446,7 @@ We're looking for product managers that can help us work on the future of develo
 
 ### Verify (CI)
 
-As a Senior Product Manager in the [Verify Stage](/handbook/product/categories/verify/), you will be directly responsible for the [direction](https://about.gitlab.com/direction/verify/) of a large and important scope in DevOps. Specifically, building out continuous integration (CI), code quality analysis, micro-service testing, usability testing, and more. This product manager owns the foundation of our DevOps product and must have a strong understanding of DevOps, CI/CD, and Release Automation. A practical understanding of container technologies including Docker and Kubernetes will come in handy as this role will reach across various groups to ensure we are building scalable, maintainable, and performant solutions.
+As a Senior Product Manager in the [Verify Stage](/handbook/product/categories/#verify-stage), you will be directly responsible for the [direction](https://about.gitlab.com/direction/verify/) of a large and important scope in DevOps. Specifically, building out continuous integration (CI), code quality analysis, micro-service testing, usability testing, and more. This product manager owns the foundation of our DevOps product and must have a strong understanding of DevOps, CI/CD, and Release Automation. A practical understanding of container technologies including Docker and Kubernetes will come in handy as this role will reach across various groups to ensure we are building scalable, maintainable, and performant solutions.
 
 #### Requirements
 

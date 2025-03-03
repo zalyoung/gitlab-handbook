@@ -501,7 +501,7 @@ FROM final
 
 ### Other SQL Style Guides
 
-- [Brooklyn Data Co](https://github.com/brooklyn-data/co/blob/master/sql_style_guide.md)
+- [Brooklyn Data Co](https://github.com/brooklyn-data/co/blob/main/sql_style_guide.md)
 - [dbt Labs](https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md)
 - [Matt Mazur](https://github.com/mattm/sql-style-guide)
 - [Kickstarter](https://gist.github.com/fredbenenson/7bb92718e19138c20591)

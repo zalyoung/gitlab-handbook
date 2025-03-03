@@ -119,7 +119,7 @@ Please note, requests for meeting about remote work, all-remote efforts, distrib
 
 ### Scheduling Pick Your Brain meetings
 
-1. Once Pick Your Brain meetings are confirmed, schedule a Zoom Webinar and send out a calendar invite to all guests and make sure to add a separate calendar invite for the CEO with preparation time. [Scheduling a Zoom webinar](https://support.zoom.us/hc/en-us/articles/115000350446-Streaming-a-Webinar-on-YouTube-Live)
+1. Once Pick Your Brain meetings are confirmed, schedule a Zoom Webinar and send out a calendar invite to all guests and make sure to add a separate calendar invite for the CEO with preparation time. [Scheduling a Zoom webinar](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060481)
 1. Link the document that the external guest has provided to the calendar invite and ensure it also includes:
    - Who the PYB Meeting is with, Name, Title, Company and their LinkedIn Profile (if applicable)
    - Context: Where did the request originate from (email, text, twitter), what's the source?

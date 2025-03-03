@@ -9,7 +9,7 @@ The GitLab Contributors Program drives strategic growth of our open source contr
 By converting users into active contributors and then champions of GitLab, we create a scalable model where contributors solve real challenges, deepen their knowledge of GitLab, and tackle larger intiatives that impact millions of users.
 
 The [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) implements targeted outreach strategies to existing GitLab users, customers, learners, and partners to funnel top contributors into the program on the [Contributors platform](https://contributors.gitlab.com/).
-The program's dual focus on code and non-code contributions ensures comprehensive platform enhancement, from technical improvements to documentation, translation, design and user experience. 
+The program's dual focus on code and non-code contributions ensures comprehensive platform enhancement, from technical improvements to documentation, translation, design and user experience.
 
 ## Key Objectives
 

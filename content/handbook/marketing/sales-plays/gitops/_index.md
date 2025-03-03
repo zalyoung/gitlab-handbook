@@ -323,7 +323,7 @@ And many more [here](https://learn.gitlab.com/l/gitops-gtm-content)
 ### Finding Last interesting moment and most viewed content on SFDC {#lim-anchor}
 
 - Last interesting moment is in the Marketing info section of SFDC
-![Last Interesting Moment](images/gitops-last-interesting-moment.png)
+![Last Interesting Moment](/images/marketing/sales-plays/gitops/gitops-last-interesting-moment.png)
 
 - Top content consumed by time - is in the Pathfactory for sales section of SFDC
-![Top Content Consumed](images/gitops-top-content-consumed.png)
+![Top Content Consumed](/images/marketing/sales-plays/gitops/gitops-top-content-consumed.png)

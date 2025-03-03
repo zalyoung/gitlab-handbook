@@ -60,13 +60,13 @@ If you need further information on the laws that govern vacation days in Brazil,
 
 ### Statutory Pregnancy & Maternity leave
 
-Team members in Brazil, including contractors, are entitled to 120 days of statutory maternity leave.  This leave will run concurrently with GitLab's 16-week [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}). Team members are eligible to receive up to 100% of their regular salary, paid by the employer who is later refunded by the government. This leave applies to adoption as well.
+Team members in Brazil, including contractors, are entitled to 120 days of statutory maternity leave.  This leave will run concurrently with GitLab's 16-week [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Team members are eligible to receive up to 100% of their regular salary, paid by the employer who is later refunded by the government. This leave applies to adoption as well.
 
 To apply for leave, please enter the dates into Workday and select the `Parental Leave` option.  The Absence Management team will reach out to you with more information.
 
 ### Statutory Partner/Paternity leave
 
-Team Members in Brazil are entitled to up to five days of paid statutory paternity leave.  Team members are also eligible for GitLab's 16-week paid [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}); run concurrently.
+Team Members in Brazil are entitled to up to five days of paid statutory paternity leave.  Team members are also eligible for GitLab's 16-week paid [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave); run concurrently.
 
 Team members will receive up to 100% of their regular salary during their statutory Paternity Leave.  If eligible, team members will receive up to 100% of their regular salary for the full 16 weeks of leave.
 
@@ -82,7 +82,7 @@ Please enter the dates in Workday and select the `Bereavement` option.
 
 ### Marriage Leave
 
-Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy]({{< ref "paid-time-off" >}}).
+Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy](/handbook/people-group/paid-time-off/).
 
 Please enter the time away in Workday and select the `Paid Time Off` option.
 
@@ -123,7 +123,7 @@ Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). 
 
 ### Life Insurance
 
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from Social insurance system if they get ill, injured or have a disability. The [GitLab Life Insurance plan]({{< ref "general-and-entity-benefits#life-insurance" >}}) still applies.
+GitLab does not plan to offer life insurance at this time as team members can access the benefits from Social insurance system if they get ill, injured or have a disability. The [GitLab Life Insurance plan](/handbook/total-rewards/benefits/general-and-entity-benefits/#life-insurance) still applies.
 
 ### Remote - Denmark Statutory Leave Policies
 
@@ -154,7 +154,7 @@ During maternity leave (after childbirth), birthing parents will receive 50% of 
 
 The allowance during parental leave is calculated as an amount per week. The amount depends on how much you work. The maximum amount per week is DKK 4.460 (2021).
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave for up to 16 weeks. Any additional leave time taken (up to 52 weeks total used between both parents) will be paid at 50% from the State.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave for up to 16 weeks. Any additional leave time taken (up to 52 weeks total used between both parents) will be paid at 50% from the State.
 
 *Remote will seek reimbursement from the public authority; Udbetaling Danmark.
 
@@ -192,7 +192,7 @@ Fathers are entitled to 2 weeks of paternity leave before the birth and 14 weeks
 
 #### Paternity Leave Payment
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave for up to 16 weeks. GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave for up to 16 weeks. GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 Please submit the dates of your leave in Workday by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
 
@@ -202,7 +202,7 @@ Parents are entitled to 32 weeks leave with a possibility to extend to a maximum
 
 #### Applying for Parental Leave in Denmark
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Other Leave Policies
 
@@ -322,7 +322,7 @@ For more details on benefits managed by Discovery: [Remote Technology Employee B
 
 Below is the information related to South Africa's statutory leave policies.  Please note that team members hired in South Africa are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
 
-To initiate your parental leave, submit the dates via Workday under the Parental Leave category. This will prompt the Absence Management team to process your leave. You can find out more information about our Parental Leave policy on the [general benefits page]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit the dates via Workday under the Parental Leave category. This will prompt the Absence Management team to process your leave. You can find out more information about our Parental Leave policy on the [general benefits page](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 If you are eligible to for GitLab's parental leave, your payments will be made up of payments from UIF and then supplemented up to 100%.
 
@@ -386,11 +386,11 @@ In Italy, maternity leave is compulsory and women must take up to two months off
 
 These pensions are funded by the INPS (National Institute for Social Security) which are financed by the employers and employees through the rate established by the employment sector. Workers can either be paid from INPS or through the employer who is compensated by the INPS. During the five-month leave, women are paid up to 80% of their wage.
 
-If eligible, a team member's first 16 weeks of leave will be supplemented the remaining 20% per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, a team member's first 16 weeks of leave will be supplemented the remaining 20% per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Applying for Maternity Leave in Italy
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Paternity Leave
 
@@ -398,11 +398,11 @@ Below is the information related to Italy's statutory leave policies.  Please no
 
 Fathers are also obligated to take a seven-day paid leave of absence from work during the five months of maternity leave. The mother has the option to extend the father's paternal leave if she transfers one of her maternity days to him.
 
-If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Applying for Paternity Leave in Italy
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Parental Leave
 
@@ -457,23 +457,23 @@ Team members are eligible for up to 80% of their wages during leave; capped at C
 
 Employees must contribute to AHV (social security) for the nine months preceding childbirth and must be actively employed for five months preceding childbirth to be eligible.
 
-If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Applying for Maternity Leave in Switzerland
 
-To initiate your maternity leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your maternity leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Partner/Paternity leave
 
 Since 1 January 2021, new fathers can take two weeks of paid paternity leave (14 days' daily allowance).
 
-If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Paternity Leave Pay
 
 Paternity allowance amounts to 80% of earnings up to a maximum of CHF 196 per day. Cantonal provisions, personnel regulations, and collective employment contracts may provide for more generous solutions.
 
-If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 To initiate your paternity leave, please enter the dates of your leave into Workday by selecting the `Parental Leave` option at least 30 days prior to the start of your leave.
 
@@ -583,27 +583,27 @@ Below is the information related to Mexico's statutory leave policies.  Please n
 
 **Maternity Leave:**
 
-- Team members can take 12 weeks of Maternity Leave (6 weeks before the child is born and 6 weeks after birth) to run concurrently with GitLab's 16 week [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) policy.
+- Team members can take 12 weeks of Maternity Leave (6 weeks before the child is born and 6 weeks after birth) to run concurrently with GitLab's 16 week [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy.
 
 **Paternity Leave:**
 
-- Team members can take 5 days of Paternity Leave to run concurrently with GitLab's 16 week [Parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) policy.
+- Team members can take 5 days of Paternity Leave to run concurrently with GitLab's 16 week [Parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy.
 
 #### Payroll Process
 
 ##### Maternity Leave Payment
 
 - 12 weeks of the team member's Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
-- GitLab Parental Leave Pay Calculations: If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
+- GitLab Parental Leave Pay Calculations: If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
   - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
 
 ##### Paternity Leave Payment
 
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), the team member will receive 100% paid Parental Leave from Remote for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), the team member will receive 100% paid Parental Leave from Remote for up to 16 weeks.
 
 #### Applying for Parental Leave in Mexico
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ### Mexico Sick Leave
 
@@ -661,12 +661,12 @@ Team members can take unpaid leave to care for their child until the child reach
 ##### Maternity Leave Payment
 
 - The team member will receive Pregnancy and Confinement Benefit (CSED) at a rate of 70% of their salary for 24 weeks.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus any CSED benefits received) for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% pay (minus any CSED benefits received) for up to 16 weeks.
 
 ##### Paternity Leave Payment
 
 - Team members will receive payment from the Hungarian State Treasury for 5 days of their leave.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus State Treasury benefits) for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% pay (minus State Treasury benefits) for up to 16 weeks.
 
 #### Applying for Parental Leave in Hungary
 
@@ -717,7 +717,7 @@ Salaried employees- must have worked at least 10 hours per week
 Have an employment contract during the leave
 Instead of wages, an allowance is given by the Children's Future Fund.
 
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus any statutory benefits received) for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% pay (minus any statutory benefits received) for up to 16 weeks.
 
 #### Applying for Maternity, Paternity, and/or Parental Leave in Luxembourg
 

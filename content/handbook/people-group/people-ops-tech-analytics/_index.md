@@ -65,4 +65,4 @@ You can tag the People Operations in GitLab using:
 - [People Connect team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
 - [People Engineering Handbook](/handbook/people-group/engineering)
 - [People Compliance](/handbook/people-group/people-compliance)
-- [People Analytics Team]({{< ref "people-analytics" >}})
+- [People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics/)

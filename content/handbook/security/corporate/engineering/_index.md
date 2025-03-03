@@ -49,8 +49,10 @@ Clayton Shank<br>
 Erik Lentz<br>
 Jacob Waters<br>
 Justin Bisutti<br>
-Marcus Whitaker<br>
 Mohammed Al Kobaisy<br>
+Peter Hansen<br>
+Steve Ladgrove<br>
+Steve Sagan<br>
 Zack Hardie<br>
 </tr>
 <tr>
@@ -74,6 +76,8 @@ Zack Hardie<br>
 Clayton Shank<br>
 Justin Bisutti<br>
 Zack Hardie<br>
+Peter Hansen<br>
+Steve Sagan<br>
 </tr>
 <tr>
 <td><strong>Identity<br>Engineering</strong></td>
@@ -94,8 +98,8 @@ Role Entitlements<br>
 <td>
 Erik Lentz<br>
 Jacob Waters<br>
-Marcus Whitaker<br>
 Mohammed Al Kobaisy<br>
+Steve Ladgrove<br>
 </tr>
 <tr>
 <td>

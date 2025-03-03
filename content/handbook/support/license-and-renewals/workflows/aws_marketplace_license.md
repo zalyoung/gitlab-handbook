@@ -26,7 +26,7 @@ If the customer needs to go above the 5 users license seats, they would need to 
 
 ### Handling customer request
 
-1. Confirm that the customer is using AWS instance and the [exported license](https://docs.gitlab.com/ee/subscriptions/self_managed/#export-your-license-usage) matches one of the license above.
+1. Confirm that the customer is using AWS instance and the [exported license](https://docs.gitlab.com/subscriptions/self_managed/#export-your-license-usage) matches one of the license above.
 1. Confirm whether the customer still have access to the paid features, if not we should unblock them with a 30 days temporary license.
 1. Ask the customer to reach out to <aws-sales@gitlab.com>.
 

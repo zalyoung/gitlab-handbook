@@ -29,8 +29,8 @@ San Francisco, CA 94104
 |  |  | SHIPPING & HANDLING |  |
 |  |  | TOTAL DUE  | $5,000.00 |
 
-Make all checks payable to \[Company Name\] 
+Make all checks payable to \[Company Name\]
 
-If you have any questions concerning this invoice, contact \[Name, phone, email\] 
+If you have any questions concerning this invoice, contact \[Name, phone, email\]
 
 **THANK YOU FOR YOUR BUSINESS**

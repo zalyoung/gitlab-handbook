@@ -6,7 +6,7 @@ title: "Positioning Professional Services"
 
 Most professional service engagements happen during the onboarding, implementation, and adoption phases of the [customer journey](/handbook/customer-success/customer-success-vision/).
 
-![GitLab Customer Journey](/handbook/customer-success/customer-success-vision/images/customer-journey.png "GitLab Customer Journey")
+![GitLab Customer Journey](/images/customer-success/customer-success-vision/customer-journey.png "GitLab Customer Journey")
 
 When opportunities are approaching closed/won and planning for these stages is occurring, its a good idea to consider bringing in professional services to help expedite the customer's transition to using GitLab to enable them to [realize value faster](/handbook/customer-success/customer-success-vision/#time-to-value-kpis).
 
@@ -14,7 +14,7 @@ This page aims to help the ISR/SAE understand the services that certain types of
 
 ## Value of GitLab Professional Services
 
-![Professional Services Value](ps-value.png)
+![Professional Services Value](/images/customer-success/professional-services-engineering/positioning/ps-value.png)
 
 <!-- ### Elevator Pitch
 
@@ -79,30 +79,25 @@ To get your customer the most [value](/handbook/customer-success/customer-succes
 
 Some customers have a team of git ninjas who can manage migration and setup quickly, but the rest of the engineers might not be as skilled. Its always a good idea to suggest education services because the customer end users will be more likely to push for later stage adoption. This type of grassroots motivation will go a long way when investigating conversion opportunities.
 
-For these customers consider our [Education Services](/services/education/) (Basics, CI/CD, DevOps Fundamentals)
+For these customers consider our [Education Services](/services/education/)
 
 ## Sales Collateral
 
 ### Internal Testimonials
 
-The PS team has been building maturity and repeatability to its services over the later part of 2019 and early part of 2020. We have captured some recent wins with internal testimonials in [this internal document](https://docs.google.com/document/d/1TMZe6yNbvdz9Sfq4pz-i0DHMLnai2Kjqw7HKkqzwpSo/edit?usp=sharing).
+The PS team has been building maturity and repeatability to its services over the later part of 2019 and early part of 2020. We have captured some recent wins with internal testimonials in [[this highspot page](https://gitlab.highspot.com/items/65047cc5d2ccf775a19de0f6)
 
 ### Pitch Deck
 
-To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  Feel free to use this deck directly - however if you'd like to modify it please first make a copy.
+To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  If you need slides for our SKU services feel free to pull from the below deck. If you are thinking this is a larger engagement, please contact [your Engagement Manager](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5)
 
-[Professional Services Pitch Deck](https://bit.ly/psslides)
+[Professional Services Proposal Deck](https://docs.google.com/presentation/d/1M-7aA7f9S6dULvzuKuTJs4j3A4V1z2DtMsoN0T0SMZg/edit#slide=id.g277ce56021a_0_2036)
 
 ### Data Sheets
 
 Professional Services Data Sheets are available as subpages to the marketing site. You can find them through the [Professional Services portal](/services/).
 
-### Services Calculator
-
-The goal of the services calculator is to provide the sales team a starting point to scope more complex services requests with the PS Engagement manager.  You can get access to the service calculator [here](https://services-calculator.gitlab.io/).
-
 ### Other Collateral
 
-- Check other collateral documentation in the [Professional Services Sales Enablement folder](https://drive.google.com/drive/u/0/folders/1vLhSdmlwClou_16I1SU9d3X0oG1EtBHv) on Google Drive.
 - [How to sell professional services](/handbook/customer-success/professional-services-engineering/selling/)
 - General Guidelines for [working with professional services](/handbook/customer-success/professional-services-engineering/working-with/)

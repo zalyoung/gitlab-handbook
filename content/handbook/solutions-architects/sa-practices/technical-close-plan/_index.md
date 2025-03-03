@@ -19,7 +19,7 @@ A Technical Close Plan is most useful as an opportunity is approaching a technic
 
 ### Which Opportunities Should Have a Technical Close Plan?
 
-1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
+1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/sfdc-logging)
 1. Opportunities over $300k net ARR
 1. First Order opportunities for accounts with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M
 
@@ -31,7 +31,7 @@ A Technical Close Plan is primarily focused on opportunity rigor by capturing cu
 
 As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-does-this-differ-from-a-technical-close-plan) for more information.
 
-![Sales Process](sales-process.png)
+![Sales Process](/images/solutions-architects/sa-practices/technical-close-plan/sales-process.png)
 
 ## How to Build a Technical Close Plan
 
@@ -109,7 +109,7 @@ The activity plan is how a Solutions Architect is intentional about what is need
 
 A Technical Close Plan should be tracked on the opportunity with which it is associated via the `Technical Close Plan` field. This should always represent the current state of the Technical Close Plan for the given opportunity. The plan itself can be store in an account folder to retain the account context over time.
 
-![Technical Close Plan field in Salesforce](sfdc-tcp-field.png)
+![Technical Close Plan field in Salesforce](/images/solutions-architects/sa-practices/technical-close-plan/sfdc-tcp-field.png)
 
 If there are several opportunities relevant to the plan, each can point to the single Technical Close Plan.
 

@@ -12,7 +12,7 @@ Below is a list of Frequently Asked Questions.
 
 {{% details summary="What do I do if my account has been blocked?" %}}
 
-1. ![Account_blocked](/images/security/security-operations/Account_blocked.png)
+1. ![Account_blocked](/images/security/security-operations/trustandsafety/Account_blocked.png)
 1. You can open an Account Reinstatement request with [GitLab Support](https://support.gitlab.com/hc/en-us/requests/new)
    - Select `GitLab.com (SaaS) user accounts and login issues` and complete the form.
 1. Wait for feedback from the support team.
@@ -139,15 +139,15 @@ When testing on GitLab.com, your `@wearehackerone.com` address must be associate
 1. The `Report Abuse` form consists out of a text box where you can include information about the type of abuse you are reporting.
 1. You can use the report abuse button in different places on gitlab.com, you can either.
 1. Report the user account
-![Report_user](/images/security/security-operations/report_user.png)
+![Report user](/images/security/security-operations/trustandsafety/report_user.png)
 1. Report a comment/thread
-![Report_Comment](/images/security/security-operations/Report_Comment.png)
+![Report Comment](/images/security/security-operations/trustandsafety/Report_Comment.png)
 1. Report an issue
-![Report_Issue](/images/security/security-operations/Report_Issue.png)
+![Report Issue](/images/security/security-operations/trustandsafety/Report_Issue.png)
 1. Report Merge Request
-![Report_MR](/images/security/security-operations/Report_MR.png)
+![Report MR](/images/security/security-operations/trustandsafety/Report_MR.png)
 1. Email `abuse@gitlab.com`
-    - For more detailed reports, you can email `abuse@gitlab.com`
+   - For more detailed reports, you can email `abuse@gitlab.com`
 {{% /details %}}
 
 ### Using a VPN

@@ -100,7 +100,7 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 #### Salesforce Communication
 
-Deal Desk's primary communication process to request internal support is SFDC Cases. Support can be requested on the Opportunity Object in SFDC, by clicking on the "Request Support" button in the top right hand side of the page layout. Please reference the "[Requesting Internal Support](https://handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support/)" section in the Handbook for detailed instructions.
+Deal Desk's primary communication process to request internal support is SFDC Cases. Support can be requested on the Opportunity Object in SFDC, by clicking on the "Request Support" button in the top right hand side of the page layout. Please reference the "[Requesting Internal Support](/handbook/sales/field-operations/requesting-internal-support/)" section in the Handbook for detailed instructions.
 
 For enablement on requesting Deal Desk Cases, please reference the [New Internal Support Request + Quote Approval Processes - 2024-11-21](https://gitlab.highspot.com/items/673f8c8deaa0ddae6c0b99f8) in HighSpot.
 

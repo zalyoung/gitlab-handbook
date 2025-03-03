@@ -28,5 +28,5 @@ If you have a need for database assistance please review the table below for the
 | [Embeddings Database](https://gitlab.com/groups/gitlab-org/-/epics/10240) | Matt Kasa | @mattkasa |
 | [Primary Key Migrations](https://gitlab.com/groups/gitlab-org/-/epics/4785) | Kras Angelov | @krasio |
 | [Table Size Reduction](https://gitlab.com/groups/gitlab-org/-/epics/6211) | Simon Tomlinson | @stomlinson |
-| [Vulnerability Management](https://about.gitlab.com/direction/software_supply_chain_security/threat_insights/vulnerability_management/) | Simon Tomlinson | @stomlinson |
+| [Vulnerability Management](https://about.gitlab.com/direction/software_supply_chain_security/) | Simon Tomlinson | @stomlinson |
 | [Work Items](https://docs.gitlab.com/ee/architecture/blueprints/work_items/) | Matt Kasa | @mattkasa |

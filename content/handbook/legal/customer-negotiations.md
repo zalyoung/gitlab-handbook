@@ -150,7 +150,7 @@ Occasionally GitLab will receive a notice from a customer or partner outlining e
 
 ### Legal Commercial Coverage Model
 
-1. Please review the [Legal Coverage Model](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/) which provides an overview of the GitLab Legal coverage model by region & segment. **NOTE: this is available to GitLab team members only**
+1. Please review the [Legal Coverage Model](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/#legal-coverage-model) which provides an overview of the GitLab Legal coverage model by region & segment. **NOTE: this is available to GitLab team members only**
 1. Even though this resource provides individual contact information, please follow the applicable steps to open a Legal Request if you have a need related to a customer.
 1. Please note this model is a guide, as the specific team member assigned will take into consideration current work-flow and subject-matter expertise.
 

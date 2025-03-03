@@ -16,7 +16,7 @@ Core Platform focuses on improving our capabilities and metrics in the following
 - [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
-- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
+- [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/)
 - [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
@@ -119,7 +119,7 @@ List of frontend collaborations:
 | Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
 | Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
-| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
+| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - 17.7 | Full-time |
 
 The frontend roadmap items above are broken down into specific epics and issues, and they can also be labeled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 

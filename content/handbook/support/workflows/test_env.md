@@ -49,11 +49,11 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
   - *Instead* set an access expiration date when you invite a customer.
 
 - **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
-  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/user/project/settings/project_access_tokens/) or [Group Access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
 
 ## Cloud Testing Environments
 
-You can create (ephemeral) testing environments. We recommend using the support-resources project for doing so.
+You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
 
 You're free to create any testing environments that you need in order to perform your role, however be advised that:
 
@@ -67,7 +67,7 @@ GCP resources can belong to different [GCP projects](https://cloud.google.com/st
 
 #### GitLab Sandbox Cloud for GCP (preferred)
 
-If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
+If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
 
 **Note:** Please remember to shut down resources that you are no longer using.
 We are now using [automation scripts](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/instance-ttl-automation) to shutdown resources over the weekend. To exclude your resources from being shutdown you'll need to add the `instance-ttl-bot-ignore` label to those resources.
@@ -82,35 +82,9 @@ Check out a [this demo video](https://www.youtube.com/watch?v=aBF-AyQiFfA) for d
 
 #### Other GCP Projects
 
-You can use the `support-resources` project to manually create resources in a GCP testing environment alongside the resources created by our [automation tools](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md). As with the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) for GCP - you can manage these manually created resources using the [GCP console](https://console.cloud.google.com/home/dashboard?project=support-resources-c801eb), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud).
-
-**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. It's strongly recommended that you make use of the `support-resources` project or the GitLab Sandbox Cloud, instead of creating new resources in these projects.
-
-We also have a `support-openshift` project created for the purpose of creating OpenShift clusters for testing the [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) and [GitLab Runner Operator](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator). Reach out to your Support Team colleagues in the [#support-testing Slack Channel](https://gitlab.slack.com/archives/C0167JB9E02) for more details on using this project for shared OpenShift testing.
+**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. You should use [GitLab Sandbox Cloud](#cloud-testing-environments) instead of creating resources in these projects.
 
 **Note:** Please remember to shut down or delete any resources that you are no longer using.
-
-##### GCP `support-resources` automation (deprecated)
-
-You can also use the [support-resources](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md) project to automatically spin up resources. They will appear in the `support-resources` GCP project, which all Support Engineers should have access to as part of their baseline entitlements. If you don't have access to this project, please reach out in the `#support_operations` slack channel for assistance.
-
-`support-resources` is considered deprecated and we're actively tracking migration to Sandbox Cloud in [STM-4037](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4037). Resources can still be created here, but if you're looking to create something enduring Sandbox Cloud should be preferred.
-
-Some advantages of using the `support-resources` automation project over Sandbox Cloud are:
-
-1. [Frugal times](https://gitlab.com/gitlab-com/support/support-resources#frugal-resources) - this is a key feature that allows for resources to be turned off (and on) based on a customizable schedule (GCP only charges for uptime). If you're using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/) to spin up a 10k reference architecture (for example), the cost can be upwards of $250 USD/day. Frugal times lets you halve that by automatically turning it off when you're not online.
-1. Easy provisioning of streamlined complex topologies - with only a few clicks or a couple of commands, one can provision complex GitLab set-ups (GitLab installed on GKE, GitLab+Runner+Elasticsearch stack, etc) on any available version.
-1. Easily troubleshooting customer tickets by replicating their set-up in minutes and easily reproducing their issues. The GitLab instance can be provisioned as already seeded with Groups, Projects, Issues, MRs, etc. Because they are easy to set-up and, hence disposable, the instances can be shared with customers so they can themselves reproduce or showcase an issue or experiment and collaborate.
-1. Easy ramp-up and experimentation for various training modules - running before walking has never been easier. For example for someone taking the HA&Scale-out module, a good first step could be to create a [3K reference arch](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html) to poke around and see how everything is set-up, before actually creating their own HA set-up, or maybe just use the 3K as a reference.
-1. Security - Support-resources allows the ports reviewed by our security team and if those were to change, we have a centralized way of imposing and rolling out that change across instances.
-1. Terraform development - while continuously developing the project a few support engineers have become very familiar with `terraform`, `ansible` and general automation guidelines (could include here `gcloud`, `bash` and `chef`). This is becoming more and more important as we are seeing the adoption of [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
-
-There's also a few disadvantages to using the project:
-
-1. Less granularity - while you can identify all the resources a user is running, having one's personal GCP project brings a lot more granularity to the data about each individual user.
-1. Isolation - while the `Support-Resources` automation project is good at preventing resources conflicts, those can still happen as everybody has access to the pool of resources (so accidents can and have happened). In a personal GCP project one can, among other things, restrict access to their resources.
-1. Familiarity with GCP - when using the `Support-Resources` project a lot of the intricacies of using GCP are performed beneath the covers. Having your own GCP projects will expose you to the complexity of setting things up manually or automating that yourself.
-1. Sandbox Cloud is the emerging company standard. For more history and details on the sets of problems it solves, see the [Sandbox Cloud Context and Problem Statement](/handbook/company/infrastructure-standards/realms/sandbox/#background-context-and-problem-statement)
 
 #### GCP GKE Kubernetes Cluster
 
@@ -271,6 +245,71 @@ Once these steps are completed you can visit your GitLab instance using `gitlab.
 
 </div>
 </details>
+
+### OpenShift Testing Environment using ROSA
+
+One option for creating an OpenShift cluster to run the GitLab and GitLab Runner Operators is to use the [Red Hat OpenShift Service on AWS (ROSA)](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws).
+
+Installation is performed from your laptop using the `rosa` utility which collects cluster configuration details and then runs a scripted deployment of an OpenShift cluster in AWS. The installation typically takes 30-45 minutes.
+
+The key steps are as follows:
+
+Prerequisites:
+
+1. Local AWS command line access is configured on your laptop by setting the `AWS_REGION`, `AWS_ACCESS_KEY_ID` and
+   `AWS_SECRET_ACCESS_KEY` environment variables to access your AWS sandbox account.
+1. The AWS ROSA prerequisites are met - in the AWS Console, search for the `Red Hat OpenShift Service on AWS` service, click on
+   **Get started** and ensure ROSA is enabled and the Service Quotas and ELB service-linked role requirements are met.
+1. A personal Red Hat account - register a new personal account at https://www.redhat.com/wapps/ugc/register.html.
+
+Cluster Setup:
+
+1. Browse to https://console.redhat.com/openshift/create/rosa/getstarted.
+1. Log in using your Red Hat account. This will take you to the Hybrid Cloud Console.
+1. Download and install the ROSA CLI tool for your local OS (step 1).
+1. Login to the ROSA CLI with your Red Hat account token and create AWS account roles and policies as described on the setup page (step 2).
+1. From your laptop, run `rosa create cluster` to start the installation. You will be prompted for quite a few settings - accept the
+   offered defaults for all except the following:
+
+   - `Cluster name` - choose a name for your cluster
+   - `Create cluster admin user` - select Yes
+   - `Openshift version` - enter desired OpenShift version
+   - `AWS region` - enter desired AWS region
+
+1. The installation process will start, and a message will appear prompting you to run commands to create the `operator-roles` and
+   `oidc-provider` in order for the installation to continue. You need to run these now or the installation will pause indefinitely.
+   Accept the default options when prompted.
+1. Record the admin user name and password that were displayed during the setup step.
+1. You can monitor the progress of the installation and the installation log from the Hybrid Cloud Console **Cluster List** page. Note
+   that multiple connection errors will be logged while services are being provisioned - these are expected.
+1. While the cluster is installing you can download the OpenShift CLI tool (`oc`) from the link provided on the cluster status page,
+   if required.
+
+#### Logging in to the OpenShift cluster
+
+Once the cluster state is `ready` you can log into the cluster console from the Hybrid Cloud Console by selecting the cluster from
+**Cluster List** and clicking on the **Open Console** button.
+
+However you will need to wait an additional 5-10 minutes for the setup of the default identify provider and TLS certificates to complete
+and the `cluster-admin` identify provider button to appear first on the login page. If you are only presented with username and
+password fields to fill in wait a few more minutes and try browsing to the console login page again.
+
+Once you see the `cluster-admin` button click on it and you will be prompted for the admin user and password you recorded earlier. You
+are now logged into the cluster.
+
+#### Accessing the OpenShift cluster from the command line
+
+To access the cluster from the command line you first need to log into it using the `oc` command. From the cluster console, click on
+the **cluster-admin** drop down at the top right and then on **Copy login command**. You will be prompted to log in as the cluster
+admin again, and then shown a **Display token** link. Click on the link and copy the `oc login` command that is displayed.
+
+Run the `oc login` command on your laptop with the supplied token - you should then be able to run other commands such as `oc get pods -A`.
+
+#### Destroying the cluster
+
+ROSA clusters aren't cheap to run and so to reduce AWS costs the OpenShift cluster should be destroyed as soon as it is no longer
+needed (even if that means building a new one in a couple of days) - this is done from the command line by running
+`rosa delete cluster --cluster=mycluster`.
 
 ### Azure Testing Environment
 
@@ -696,7 +735,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- <https://docs.gitlab.com/ee/install/docker.html>
+- <https://docs.gitlab.com/install/docker/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 

@@ -57,15 +57,15 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 
 #### Maternity Leave Payment
 
-- [Eligible team members](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-maternite-salariee) may apply for maternity allowance through social security. Statutory maternity leave runs concurrently with GitLab Parental Leave. If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) for GitLab Parental Leave and you receive a maternity leave allowance, GitLab will supplement your pay so that you receive 100% of your salary for the first 16 weeks of leave.
+- [Eligible team members](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-maternite-salariee) may apply for maternity allowance through social security. Statutory maternity leave runs concurrently with GitLab Parental Leave. If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) for GitLab Parental Leave and you receive a maternity leave allowance, GitLab will supplement your pay so that you receive 100% of your salary for the first 16 weeks of leave.
 
 #### Paternity Leave Payment
 
-- Team members are entitled to be paid by their employer for the first 3 days of paternity leave. [Eligible](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-paternite-accueil-enfant) team members may apply for paternity benefits through social security. Statutory paternity leave runs concurrently with GitLab Parental Leave. If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) for GitLab Parental Leave and you receive a paternity leave allowance, GitLab will supplement your pay so that you receive 100% of yor salary for the first 16 weeks of leave.
+- Team members are entitled to be paid by their employer for the first 3 days of paternity leave. [Eligible](https://www.ameli.fr/assure/remboursements/indemnites-journalieres/conge-paternite-accueil-enfant) team members may apply for paternity benefits through social security. Statutory paternity leave runs concurrently with GitLab Parental Leave. If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) for GitLab Parental Leave and you receive a paternity leave allowance, GitLab will supplement your pay so that you receive 100% of yor salary for the first 16 weeks of leave.
 
 #### Applying for Parental Leave in France
 
-To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ## GitLab France S.A.S. Paid Time Off (Vacation)
 
@@ -73,7 +73,7 @@ To initiate your parental leave, submit your time off by selecting `Parental Lea
 - GitLab France S.A.S. team members should be aware of their applicable leave categories and can review [the requirements for logging time away from work and the suggested order for using leave balances](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#logging-time-away). (*_internally accessible only_)
 - Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** Workday in Slack.
 For all technical support inquiries or any inquiries relating to your balances in Mihi, please contact `support@mihi.info` and cc `gitlabHRSS@globalupside.com`.
-- GitLab team members are also entitled to [RTT time](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#reduction-of-working-time-rtt) and we recognize this is different from PTO. Team members are responsible for ensuring that they are tracking their time accurately, both in Mihi and in Workday. When entering RTT time, team members should select the RTT time off type in Mihi, and PTO in Workday leaving a comment noting ‘RTT’.
+- GitLab team members are also entitled to [RTT time](/handbook/people-group/paid-time-off/#reduction-of-working-time-rtt) and we recognize this is different from PTO. Team members are responsible for ensuring that they are tracking their time accurately, both in Mihi and in Workday. When entering RTT time, team members should select the RTT time off type in Mihi, and PTO in Workday leaving a comment noting ‘RTT’.
 
 ## Sick Time
 
@@ -93,7 +93,7 @@ After the 6th month of sick leave team members have to satisfy the following con
 
 ### Sick Leave Pay
 
-The daily allowance is equal to 50% of the daily basic wage.  The gross reference wage is limited to €3,076.70 gross per month. Therefore, the daily allowance paid cannot exceed €50.58 (check [sick time policies and procedures in France](https://ec.europa.eu/social/main.jsp?catId=1110&langId=en&intPageId=4535) webpage for latest up-to-date information).
+The daily allowance is equal to 50% of the daily basic wage.  The gross reference wage is limited to €3,076.70 gross per month. Therefore, the daily allowance paid cannot exceed €50.58 (check [sick time policies and procedures in France](https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/your-rights-country-country/france_en) webpage for latest up-to-date information).
 
 GitLab's Sick Time policy will run concurrently with this benefit for the first 25 working days, "topping up" the team members salary to 100%.  After that, the sick leave will become unpaid by GitLab.
 
@@ -103,7 +103,7 @@ Team members who fall ill are required to inform GitLab as soon as possible (but
 
 If an extension is needed, team members must notify GitLab as soon as possible (but no later than 48hrs) and send an updated sheet no. 3.
 
-For more information, read about the [sick time policies and procedures in France](https://ec.europa.eu/social/main.jsp?catId=1110&langId=en&intPageId=4535).
+For more information, read about the [sick time policies and procedures in France](https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/your-rights-country-country/france_en).
 
 ## Additional Leave Types
 

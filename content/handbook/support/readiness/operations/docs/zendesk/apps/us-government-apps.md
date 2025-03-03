@@ -4,6 +4,23 @@ description: Support Operations documentation page for Zendesk US Government app
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/apps/us-government-apps"
 ---
 
+## Advanced SAST App
+
+<sup>*Introduced via [support-team-meta#6652](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6652)*</sup>
+
+The Advanced SAST App is a ticket app that enables a quick working of User
+requests for source code of LGPL-licensed components in GitLab Advanced SAST.
+
+App information:
+
+- Located in the ticket sidebar
+- Restricted by Group:
+  - Support
+  - Support Managers
+  - Support Operations
+- This application was developed in-house and can be found
+  [GitLab Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/advanced-sast-app).
+
 ## Advanced Search
 
 Advanced Search is an app that provides a simple visual interface for
@@ -78,25 +95,6 @@ App information:
 - Located in the topbar
 - This application was developed in-house and can be found
   [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-duo).
-
-## Out of Office
-
-<sup>*Introduced via [support-team-meta#4303](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4303)*</sup>
-
-This will enable an agent to mark when they are out of office in Zendesk, which
-then updates tickets and makes it visible in the views.
-
-Managers are also able to do this for their reports.
-
-App information:
-
-- Located in the navbar
-- Restricted by Group:
-  - Support
-  - Support Managers
-  - Support Operations
-- This application was developed in-house and can be found
-  [Out of Office project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/out-of-office)
 
 ## Show Related Tickets
 

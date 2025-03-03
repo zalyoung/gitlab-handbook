@@ -321,7 +321,7 @@ Additionally Cells may solve some issues with canaries today, for example not ha
 
 A Cell is a set of infrastructure components that contains multiple top-level Groups that belong to different Organizations. The components include both data stores (PostgreSQL, Redis, etc.) and stateless services (web, etc.). The infrastructure components provided within a Cell are shared among Organizations and their top-level Groups, but are not shared with other Cells. This isolation of infrastructure components means that Cells are independent from each other.
 
-![Term cell](/images/engineering/architecture/design-documents/diagrams/term-cell.drawio.png)
+![Term cell](/images/engineering/architecture/design-documents/cells/diagrams/term-cell.drawio.png)
 
 - Each Cell is independent from other Cells
 - Infrastructure components are shared by Organizations and their top-level Groups within a Cell
@@ -346,7 +346,7 @@ the Cells we provision.
 
 A cluster is a collection of Cells.
 
-![Term cluster](/images/engineering/architecture/design-documents/diagrams/term-cluster.drawio.png)
+![Term cluster](/images/engineering/architecture/design-documents/cells/diagrams/term-cluster.drawio.png)
 
 - A cluster holds cluster-wide metadata, for example: Users, Routes, Settings.
 
@@ -356,7 +356,7 @@ Discouraged synonyms: Whale, GitLab Dedicated instance, instance
 
 An Organization is the umbrella for one or multiple top-level Groups. Organizations are isolated from each other by default meaning that cross-namespace features will only work for namespaces that exist in a single Organization.
 
-![Term Organization](/images/engineering/architecture/design-documents/diagrams/term-organization.drawio.png)
+![Term Organization](/images/engineering/architecture/design-documents/cells/diagrams/term-organization.drawio.png)
 
 See the [Organization blueprint](../organization/).
 
@@ -393,7 +393,7 @@ The top-level Group has served as the de facto Organization entity. With the cre
 
 Over time, there won't be a distinction between a top-level Group and a Group. All features that make top-level Groups different from Groups will move to the Organization.
 
-![Term Top-level Group](/images/engineering/architecture/design-documents/diagrams/term-top-level-group.drawio.png)
+![Term Top-level Group](/images/engineering/architecture/design-documents/cells/diagrams/term-top-level-group.drawio.png)
 
 - Top-level Groups belonging to the same Organization are located on the same Cell.
 - Top-level Groups can interact with other top-level Groups that belong to the same Organization.

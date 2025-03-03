@@ -5,7 +5,7 @@ description: "Blueprint for read-mostly data"
 
 ## Read-Mostly Data
 
-This document describes the *read-mostly pattern* introduced in the [Database Scalability Working Group]({{< ref "database-scalability#read-mostly-data" >}}). We discuss the characteristics of read-mostly data and propose best practices for GitLab development to consider in this context.
+This document describes the *read-mostly pattern* introduced in the [Database Scalability Working Group](/handbook/company/working-groups/database-scalability/#read-mostly-data). We discuss the characteristics of read-mostly data and propose best practices for GitLab development to consider in this context.
 
 ### Characteristics of read-mostly data
 
@@ -29,7 +29,7 @@ Given this dataset is small and read very often, we can expect data to nearly al
 
 In the example of license data above, the query to read license data was [identified](https://gitlab.com/gitlab-org/gitlab/-/issues/292900) to stand out in terms of query frequency. In fact, we were seeing around 6,000 queries per second (qps) on the cluster during peak times. With the cluster size at that time, we were seeing about 1,000 qps on each replica and less than 400 qps on the primary at peak times. The difference is explained by our [database load balancing for scaling reads](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/database/load_balancing.rb), which favors replicas for pure read-only transactions.
 
-![Licenses Calls](/images/company/working-groups/read-mostly-licenses-calls.png)
+![Licenses Calls](/images/company/working-groups/database-scalability/read-mostly-licenses-calls.png)
 
 The overall transaction throughput on the database primary at the time varied between 50,000 and 70,000 transactions per second (tps). In comparison to this, this query frequency only takes a small portion of the overall query frequency. However, we do expect this to still have considerable overhead in terms of context switches and hence it is worth removing this overhead, if we can.
 
@@ -60,15 +60,15 @@ avg by (relname, fqdn) (
 
 This yields a good impression of which tables are much more often read than written (on the database primary):
 
-![Read Write Ratio TOP20](/images/company/working-groups/read-mostly-readwriteratio.png)
+![Read Write Ratio TOP20](/images/company/working-groups/database-scalability/read-mostly-readwriteratio.png)
 
 From here, we can [zoom](https://thanos.gitlab.net/graph?g0.range_input=1d&g0.end_input=2021-04-07%2023%3A11&g0.max_source_resolution=0s&g0.expr=sum(rate(pg_stat_user_tables_idx_tup_fetch%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))&g0.tab=0&g1.range_input=1d&g1.end_input=2021-04-07%2023%3A11&g1.max_source_resolution=0s&g1.expr=sum(rate(pg_stat_user_tables_n_tup_ins%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))%20by%20(instance)%20%2B%20sum(rate(pg_stat_user_tables_n_tup_upd%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))%20by%20(instance)%20%2B%20%20sum(rate(pg_stat_user_tables_n_tup_del%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))%20by%20(instance)&g1.tab=0&g2.range_input=1h&g2.max_source_resolution=0s&g2.expr=pg_stat_user_tables_idx_tup&g2.tab=0) into e.g. `gitlab_subscriptions` and realize that index reads peak at above 10k tuples per second overall (there are no seq scans):
 
-![Subscriptions: Reads](/images/company/working-groups/read-mostly-subscriptions-reads.png)
+![Subscriptions: Reads](/images/company/working-groups/database-scalability/read-mostly-subscriptions-reads.png)
 
  We very rarely write to the table (there are no seq scans):
 
-![Subscriptions: Writes](/images/company/working-groups/read-mostly-subscriptions-writes.png)
+![Subscriptions: Writes](/images/company/working-groups/database-scalability/read-mostly-subscriptions-writes.png)
 
 Additionally, the table is only 400 MB in size - so this may be another candidate we may want to consider in this pattern (see [#327483](https://gitlab.com/gitlab-org/gitlab/-/issues/327483)).
 
@@ -84,7 +84,7 @@ In order to reduce the database overhead, we implement a cache for the data and 
 
 Continuing the above example, we had a `RequestStore` in place to cache license information on a per-request basis. However, that still leads to one query per request. When we [started to cache license information using a process-wide in-memory cache](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/50318) for 1 second, query frequency dramatically dropped:
 
-![Licenses Calls - Fixed](/images/company/working-groups/read-mostly-licenses-fixed.png)
+![Licenses Calls - Fixed](/images/company/working-groups/database-scalability/read-mostly-licenses-fixed.png)
 
 The choice of caching here highly depends on the characteristics of data in question. A very small dataset like license data that is nearly never updated is a good candidate for in-memory caching. A per-process cache is favorable here since this unties the cache refresh rate from the incoming request rate.
 

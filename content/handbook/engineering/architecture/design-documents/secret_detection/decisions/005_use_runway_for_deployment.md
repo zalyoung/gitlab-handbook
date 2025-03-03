@@ -68,7 +68,7 @@ To reuse the core implementation of Secret Scanning, we will have a single sourc
 
 1. Wrap an RPC service around the secret detection logic, deploy it using [Runway](https://gitlab.com/gitlab-com/gl-infra/platform/runway), and invoke the service from Rails for GitLab SaaS
 
-![rpc_service.png](/images/engineering/architecture/design-documents/004_rpc_service.jpg){width="1001" height="311"}
+![rpc_service.png](/images/engineering/architecture/design-documents/secret_detection/004_rpc_service.jpg){width="1001" height="311"}
 
 Here's the workflow illustrating the proposed change:
 

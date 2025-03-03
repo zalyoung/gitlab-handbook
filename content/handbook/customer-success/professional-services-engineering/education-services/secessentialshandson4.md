@@ -70,9 +70,9 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select the **Run pipeline** button at the top right of the page.
+1. Select the **New pipeline** button at the top right of the page.
 
-1. Leave all of the options at their default values, then select **Run pipeline**.
+1. Leave all of the options at their default values, then select **New pipeline**.
 
 1. Monitor your pipeline and wait for each job to complete successfully.
 

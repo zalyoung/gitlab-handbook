@@ -11,9 +11,9 @@ twitter_creator: "@gitlab"
 
 ## What are the signs of remote work burnout?
 
-Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture]({{< ref "culture#culture-at-gitlab" >}}) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.
+Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture](/handbook/company/culture/#culture-at-gitlab) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.
 
-In this [CEO handbook learning session]({{< ref "learning-initiatives#ceo-handbook-learning-sessions" >}}), Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
+In this [CEO handbook learning session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
 
 {{< youtube "od_KdZqc69k" >}}
 
@@ -36,7 +36,7 @@ Burnout rarely happens all at once. Rather, it typically takes one by surprise, 
 
 While working one additional hour to move a given project forward is likely not debilitating when viewed in a vacuum, it can trigger a revised baseline where you must *continue* to overwork in order to maintain the new status quo.
 
-This becomes toxic when managers fail to recognize that a given sprint should not reset the baseline of what is achievable on an ongoing, sustained basis. It becomes disastrous when team members do not feel safe bringing this up to their managers in a [1:1 setting]({{< ref "1-1" >}}).
+This becomes toxic when managers fail to recognize that a given sprint should not reset the baseline of what is achievable on an ongoing, sustained basis. It becomes disastrous when team members do not feel safe bringing this up to their managers in a [1:1 setting](/handbook/leadership/1-1/).
 
 Particularly in a company where [results](/handbook/values/#results) are valued above all, managers should be careful to not assume that results garnered in a given period of overwork are the new norm. This places team members in an unfair scenario where they feel pressured to perpetually overwork in order to meet expectations. More broadly, as other team members witness this, they will be less likely to go above and beyond in special cases for fear of trapping themselves in a similar cycle of overworking just to meet ever-increasing (and unsustainable) expectations.
 
@@ -66,7 +66,7 @@ As part of his session at REMOTE by GitLab, John shares how organizations can in
 
 {{< youtube "bQMoF7oSh2o" >}}
 
-GitLab's L&D team also hosted a [live speaker series]({{< ref "learning-initiatives#learning-speaker-series-overview" >}}) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
+GitLab's L&D team also hosted a [live speaker series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
 
 {{< youtube "BDvpoouM-us" >}}
 
@@ -86,7 +86,7 @@ Traditionally, we've emphasized the importance of having a strong work ethic. Fi
 
 Examples of how you might define your rest ethic:
 
-1. Commitment to taking [time off]({{< ref "paid-time-off" >}}) every month, and truly unplugging from your laptop or work projects when you're off
+1. Commitment to taking [time off](/handbook/people-group/paid-time-off/) every month, and truly unplugging from your laptop or work projects when you're off
 1. Using a [non-linear workday](non-linear-workday/) to take a long break mid-day to walk, exercise, read, or work on a passion project
 1. Practice a morning routine to help prepare you for the workday
 1. Practice an evening routine to turn off work and be present with your friends, family, or time alone
@@ -95,7 +95,7 @@ Examples of how you might define your rest ethic:
 
 To learn more about building a rest ethic, refer to this course by John Fitch and TimeOff entitled [Design your Rest Ethic](https://timeoff.thinkific.com/courses/time-off-design-your-rest-ethic).
 
-GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiatives#learning-speaker-series-overview" >}}) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
+GitLab hosted John Fitch for 2 Live [Speaker Series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
 
 **Session 1**
 
@@ -107,7 +107,7 @@ GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiativ
 
 ## What are the benefits of remote work for mental health?
 
-There are [many mental health benefits]({{< ref "remote-benefits#benefits-for-all-remote-employees" >}}) to remote work, but some that top the list are:
+There are [many mental health benefits](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-employees) to remote work, but some that top the list are:
 
 1. Increased [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
 1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -144,7 +144,7 @@ Because you are likely to work alone most times, it's more difficult to remember
 
 #### Create clarity through documentation
 
-The aforementioned reality makes it all the more important for any company hiring remote workers to place a great deal of focus on [documenting processes]({{< ref "modern-health#what-does-modern-health-offer" >}}) for team members who face these difficulties. Along with offering professional assistance (see [GitLab Modern Health]({{< ref "benefits#employee-assistance-program" >}}) as an example), be sure to showcase documented resources of where to turn during [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and reinforce this in ongoing [learning and development](learning-and-development/) sessions.
+The aforementioned reality makes it all the more important for any company hiring remote workers to place a great deal of focus on [documenting processes](/handbook/total-rewards/benefits/modern-health/#what-does-modern-health-offer) for team members who face these difficulties. Along with offering professional assistance (see [GitLab Modern Health](/handbook/total-rewards/benefits/modern-health/) as an example), be sure to showcase documented resources of where to turn during [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and reinforce this in ongoing [learning and development](learning-and-development/) sessions.
 
 Remote team members may feel less comfortable reaching out to a person when experiencing mental duress, so it's vital to ensure that answers and resources are easily discoverable within a company's handbook.
 
@@ -183,17 +183,17 @@ You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 To combat this and de-stigmatize such issues, leadership should work to [build and sustain a non-judgemental culture](building-culture/). This starts by celebrating a [diverse team](/handbook/values/#diversity-inclusion), and creating an [inclusive work environment](/handbook/company/culture/inclusion/).
 
-At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings]({{< ref "1-1" >}}). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
+At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings](/handbook/leadership/1-1/). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
 
 GitLab also offers a Slack channel — `#mental_health_aware` — dedicated to surfacing and discussing topics related to mental health.
 
 #### Build psychological safety
 
-Creating a non-judgmental culture requires leaders to cultivate [psychological safety]({{< ref "psychological-safety" >}}) within their teams. This means ensuring that team members feel safe to take healthy risks, openly admit when they make mistakes, and challenge one another in a productive, positive way.
+Creating a non-judgmental culture requires leaders to cultivate [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) within their teams. This means ensuring that team members feel safe to take healthy risks, openly admit when they make mistakes, and challenge one another in a productive, positive way.
 
-Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy]({{< ref "being-a-great-remote-manager#empathy" >}}), communication, and intentionality.
+Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy](/handbook/company/culture/all-remote/being-a-great-remote-manager/#empathy), communication, and intentionality.
 
-Learn more about [how to build a psychologically safe environment]({{< ref "psychological-safety#strategies-for-cultivating-a-culture-of-psychological-safety" >}}).
+Learn more about [how to build a psychologically safe environment](/handbook/leadership/emotional-intelligence/psychological-safety/#strategies-for-cultivating-a-culture-of-psychological-safety).
 
 ## Workshop how to work less
 
@@ -247,19 +247,19 @@ Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-thi
 
 GitLab has added a number of changes to the company [handbook](/handbook), encouraging managers and team members to be proactive when it comes to recognizing and avoiding burnout, isolation, and anxiety.
 
-1. [Encourage team members to communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}})
-1. [Encourage team members to notice signs of burnout in their peers and direct reports]({{< ref "paid-time-off#recognizing-burnout" >}})
-1. [Added tips to avoid burnout]({{< ref "paid-time-off#recognizing-burnout" >}})
+1. [Encourage team members to communicate with their manager when they recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)
+1. [Encourage team members to notice signs of burnout in their peers and direct reports](/handbook/people-group/paid-time-off/#recognizing-burnout)
+1. [Added tips to avoid burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)
 
 ### Block Potential PTO in advance
 
 It's therapeutic to set an annual reminder (near year-end works well) to block out windows for *potential* PTO in the year ahead. Toggle through the forward 12 months in Google Calendar and create `Busy` blocks entitled "Blocked for Potential PTO" during days or weeks where future-you may appreciate present-you scheduling time off. Days before and after major holidays, anniversaries, birthdays, daylight savings time (time off to savor more sunshine!), or other moments of importance are a great place to start.
 
-Be liberal in scheduling these blocks. They are [two-way doors](/handbook/values/#make-two-way-door-decisions), and can always be removed or reduced. This exercise serves as a forcing function to be proactive about scheduling time to [rest and recharge]({{< ref "paid-time-off" >}}) *before* you need it. It also provides a great visual pause for others. E.g. If someone wants to schedule you for a webinar in six weeks, but notices a `Potential PTO Block` on your calendar, it will prompt them to ask you if you intend to convert it to a definitive PTO block. This prevents your schedule from perpetually filling up before you have a chance to formalize a break.
+Be liberal in scheduling these blocks. They are [two-way doors](/handbook/values/#make-two-way-door-decisions), and can always be removed or reduced. This exercise serves as a forcing function to be proactive about scheduling time to [rest and recharge](/handbook/people-group/paid-time-off/) *before* you need it. It also provides a great visual pause for others. E.g. If someone wants to schedule you for a webinar in six weeks, but notices a `Potential PTO Block` on your calendar, it will prompt them to ask you if you intend to convert it to a definitive PTO block. This prevents your schedule from perpetually filling up before you have a chance to formalize a break.
 
 ### Make a PTO to-do list
 
-If you find yourself anxious about missing out, or overlooking a *work-related to-do list*, consider replacing that to-do list with a **PTO To-Do List** for the duration of your [paid time off]({{< ref "paid-time-off" >}}). This may include items such as practice yoga, schedule coffee with a family member or friend, go for a walk/hike/cycle, sleep X hours per night, nap X hours per day, read X chapters in a new book, etc.
+If you find yourself anxious about missing out, or overlooking a *work-related to-do list*, consider replacing that to-do list with a **PTO To-Do List** for the duration of your [paid time off](/handbook/people-group/paid-time-off/). This may include items such as practice yoga, schedule coffee with a family member or friend, go for a walk/hike/cycle, sleep X hours per night, nap X hours per day, read X chapters in a new book, etc.
 
 ### Take a moment for gratitude
 
@@ -281,23 +281,23 @@ This is also something you can discuss live with your manager or team during reg
 
 ### Set realistic expectations
 
-Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values]({{< ref "remote-values" >}}), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
+Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values](/handbook/company/culture/all-remote/remote-values/), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
 
 It is foolish to expect a team member to maintain excellent mental health when their workload requires a sustained amount of sacrifice. There is a fine line between collaborating with a team member on an ambitious goal and assigning a task that will be perceived as impossible.
 
 This nuance requires a leader who is adept at understanding a team member's strengths and weaknesses. What is perceived as impossible for one team member may seem trivial to another; it is not always the task that triggers duress, but mismatching a task with an ill-equipped team member.
 
-This can be more pronounced in a remote setting. Leaders should pay close attention to blockers and struggles, and be proactive in asking about these during [1:1 sessions]({{< ref "suggested-agenda-format" >}}). Phrasing questions such as "Are there any assignments that you do not feel comfortable or equipped to handle?" is a better way to uncover truth compared to a blanket "Why isn't this working?"
+This can be more pronounced in a remote setting. Leaders should pay close attention to blockers and struggles, and be proactive in asking about these during [1:1 sessions](/handbook/leadership/1-1/suggested-agenda-format/). Phrasing questions such as "Are there any assignments that you do not feel comfortable or equipped to handle?" is a better way to uncover truth compared to a blanket "Why isn't this working?"
 
 It's also important to understand that not every team members prefers to discuss these topics using the same medium. While some may prefer video communication, others may prefer voice, writing, or something else. Remote leaders should strive to be [inclusive](/handbook/values/#diversity-inclusion) when searching for answers and solutions.
 
 ### Sentiment tracking and feedback
 
-Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [internal feedback]({{< ref "internal-feedback" >}}) until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement. GitLab prefers shorter, but more frequent, check-ins, aligned to our values of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
+Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [internal feedback](/handbook/company/culture/internal-feedback/) until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement. GitLab prefers shorter, but more frequent, check-ins, aligned to our values of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
 
 Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture/) either positively or negatively.
 
-Learn more about [GitLab's approach and guidance on feedback]({{< ref "guidance-on-feedback" >}}).
+Learn more about [GitLab's approach and guidance on feedback](/handbook/people-group/guidance-on-feedback/).
 
 ## What are some tips for staying productive when working remotely?
 
@@ -379,4 +379,4 @@ Creating a healthy remote workplace is essential to business success. If you or 
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

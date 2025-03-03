@@ -200,7 +200,7 @@ You can enable polling in your meeting or virtual event to survey your attendees
 
 You can also download the results of your poll - see [reporting](/handbook/marketing/virtual-events/#reporting).
 
-* [Polling for webcasts](https://support.zoom.us/hc/en-us/articles/203749865-Polling-for-Webinars)
+* [Polling for webcasts](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066668)
 * [Polling for meetings](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066150)
 
 #### Networking {#zoom-networking}

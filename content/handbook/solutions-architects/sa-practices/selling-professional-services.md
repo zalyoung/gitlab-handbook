@@ -12,7 +12,7 @@ GitLab provides a wide array of [Professional Services offerings](https://about.
 
 - via a sku on an order form - no SOW is needed for the customer to purchase these services; they can be added directly to an order form, in conjunction with a license purchase, when applicable.  the [Professional Services Catalog](https://about.gitlab.com/services/catalog/) has a full list of sku-based services offerings.  The most popular sku-based services are:
   - [GitLab Rapid Results - self-managed](https://about.gitlab.com/services/catalog/) for implementing GitLab in a cloud environment
-  - [GitLab Migration+](https://about.gitlab.com/services/catalog/migration-plus/) for migrating up to 500 projects and 1000 repositories from another git-based system to GitLab (SCM only - CI//CD is not included)
+  - [GitLab Migration+](https://about.gitlab.com/services/#migration-services) for migrating up to 500 projects and 1000 repositories from another git-based system to GitLab (SCM only - CI//CD is not included)
   - [GitLab Expert Services](https://about.gitlab.com/services/catalog/) - a block of 40 hours to help a customer with whatever adoption needs they have
 - via an SOW as a "GitLab Service Package" - this is used for any custom package of services that are defined to address a specific customer need.  A custom SOW is typically used for these purposes:
   - bundling together source code migration and GitLab CI adoption/transition from other CI tools such as Jenkins

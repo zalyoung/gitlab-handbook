@@ -38,7 +38,7 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 
 - [Crucial Conversations](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/)
 - [Crucial Conversations Instructor Certification](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/)
-- [Association for Talent Development Certifications](https://www.td.org/education-courses/certificate-programs)
+- [Association for Talent Development Certifications](https://www.td.org/search?categories.lvl0%5B0%5D=Course&categories.lvl0%5B1%5D=Certificate+Program&query=&sort=newest)
 - [Senior Professional in Human Resources](https://www.hrci.org/certifications/individual-certifications/sphr)
 
 ## Resources

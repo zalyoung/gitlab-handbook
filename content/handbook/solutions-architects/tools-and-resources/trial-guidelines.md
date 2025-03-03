@@ -59,7 +59,7 @@ Before getting started, understand the goals and success criteria for each parti
 
 ### Which projects should be used for testing?
 
-For larger organizations, the trial will be too short to test across every single project. Therefore, it’s good to limit the scope to a few projects where you will be able to implement all the functionalities to validate your use cases.
+For larger organizations, the trial will be too short to test across every single project. Therefore, it's good to limit the scope to a few projects where you will be able to implement all the functionalities to validate your use cases.
 
 The selected projects need to be representative enough for the evaluation. Based on our experience, testing on 1 to 3 projects can provide significant results.
 

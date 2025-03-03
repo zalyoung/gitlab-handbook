@@ -9,11 +9,11 @@ description: "The GitLab Delivery Stage focuses on enhancing the reliability, ef
 
 The GitLab Delivery mission is to streamline and optimize the delivery, release, and deployment of GitLab across all platforms—SaaS, Self-Managed, and Dedicated. We aim to enhance the reliability, scalability, and efficiency of our processes, enabling customers to seamlessly adopt, deploy, and scale GitLab solutions. By evolving our tools, automation, and architectural practices, we are committed to delivering a consistent, secure, and high-quality experience that empowers both internal teams and customers to achieve more, faster.
 
-The GitLab Delivery Stage Vision is defined in the [Infrastructure Platforms direction pages](https://about.gitlab.com/direction/saas-platforms/gitlab-delivery/)
+The GitLab Delivery Stage Vision is defined in the [Infrastructure Platforms direction pages](https://about.gitlab.com/direction/saas-platforms/)
 
 ## Vision and Direction
 
-Our vision and direction are located with other product direction pages [here](https://about.gitlab.com/direction/saas-platforms/gitlab-delivery/).
+Our vision and direction are located with other product direction pages [here](https://about.gitlab.com/direction/saas-platforms/).
 
 ## Roadmap
 
@@ -28,11 +28,11 @@ GitLab Delivery stage is responsible for ensuring seamless, reliable, and effici
 
 The GitLab Delivery Stage is composed by the following teams:
 
-- [GitLab Build](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-build-team)
-- [Self-Managed](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy-team) (subject to change)
-- [Framework](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/)
-- [GitLab Release](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/delivery/#deliveryreleases)
-- [GitLab Deploy](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/delivery/#deliverydeployments)
+- [GitLab Build](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-build-team)
+- [Self-Managed](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy-team) (subject to change)
+- [Framework](/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/)
+- [GitLab Release](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#deliveryreleases)
+- [GitLab Deploy](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#deliverydeployments)
 
 <!-- to add links to single teams pages -->
 
@@ -47,7 +47,7 @@ TBD
 
 ## Project Management
 
-GitLab Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly Grand Review 
+GitLab Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly Grand Review
 
 ### Issue Boards
 

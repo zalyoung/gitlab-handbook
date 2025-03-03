@@ -4,9 +4,9 @@ title: Finance Learning and Development
 
 Welcome to Learning and Development for the Finance Department at GitLab! The resources in this page are meant to support team members to expand their knowledge and skills. This page compiles content that spans soft and hard skills in different formats. Everybody is welcome to contribute to this page with content they have found useful/interesting that might benefit other team members.
 
-The content can be mostly accessed through GitLab Learn but any content requiring payment [can be reimbursed following the GitLab reimbursement policies]({{< ref "../expenses#work-related-online-courses-and-professional-development-certifications" >}}).
+The content can be mostly accessed through GitLab Learn but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/expenses/#trainingtuition).
 
-GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}) needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
+GitLab is [committed to providing the time](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign) needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
 
 ## Content by skill
 
@@ -84,7 +84,7 @@ GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-t
 
 #### Online courses
 
-- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership-24384695-24384695/take-action-to-lead) (1h 19m total)
+- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership-24384695) (1h 19m total)
 - [Develop Your Strategic Planning Skills](https://www.linkedin.com/learning/paths/develop-your-strategic-planning-skills)
 - [Mastering Self-Leadership](https://www.linkedin.com/learning/mastering-self-leadership/step-up-to-self-leadership)
 - [Leadership: Practical Skills](https://www.linkedin.com/learning/leadership-practical-skills/welcome)

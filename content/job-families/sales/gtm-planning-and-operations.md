@@ -211,7 +211,7 @@ The next steps in the GTM Planning and Operations job family is not yet defined 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters,
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters,
 - Next, candidates will be invited to schedule a 25 minute interview with the Hiring Manager,
 - Next, candidates can expect 2-5 separate 25 minute interviews with other Team Members,
 - Finally, candidates will be invited to schedule a 50 minute interview with an Executive.

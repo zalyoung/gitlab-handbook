@@ -49,7 +49,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page.
 1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
-1. You will then presented with a password verification and passkey verification prompt.
+1. You will then be presented with a password verification and passkey verification prompt.
 1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](#adding-a-passkey-to-1password) may appear. Click the "YubiKey" icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser.
 
 <img src="/images/it/okta/1password-passkey.png" alt="1Password USB Key" width="300">

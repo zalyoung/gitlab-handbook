@@ -35,7 +35,7 @@ The enterprise data initiatives/projects should broadly be under the scope of fo
 
 ### Composition
 
-The Data Steering Committee consists of 
+The Data Steering Committee consists of
 
 - Head of Data & Insights
 - Leadership team of Data & Insights
@@ -48,7 +48,7 @@ The Data Steering Committee consists of
 
 ### Meetings and Communication
 
-Most of the communication will be done ASYNC through slack channel. 
+Most of the communication will be done ASYNC through slack channel.
 The meetings will be scheduled on a need basis. The meeting will be chaired by the Head of Data & Insights. Meetings may be called by the Chair as needed. Any member may propose additional meetings by contacting the Chair, if needed.
 
 ### Measuring and Reporting
@@ -61,4 +61,4 @@ The following reporting will be built (in future, targeting H2 FY26) to track th
 
 ### Charter Review
 
-This charter will be reviewed every year by Data Steering Committee to ensure it continues to meet the needs and includes the evolving best practices. 
+This charter will be reviewed every year by Data Steering Committee to ensure it continues to meet the needs and includes the evolving best practices.

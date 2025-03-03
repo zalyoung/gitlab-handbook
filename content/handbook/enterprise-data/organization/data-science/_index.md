@@ -108,7 +108,7 @@ Please refer to the [Data Science Initiatives Internal Handbook](https://interna
 
 The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining), which consists of 6 iterative phases:
 
-<img align="right" src="CRISP-DM_Process_Diagram.png" alt="" width="500">
+<img align="right" src="/images/enterprise-data/organization/data-science/CRISP-DM_Process_Diagram.png" alt="" width="500">
 
 1. **Business Understanding**
 

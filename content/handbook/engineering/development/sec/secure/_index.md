@@ -112,7 +112,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 #### License Compliance
 
 [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
-Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
+Licence management relies on the [LicenseFinder](https://github.com/pivotal/LicenseFinder) gem.
 
 #### Vulnerability Research
 
@@ -264,7 +264,7 @@ Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5
 
 #### Resources
 
-* [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#how-to-triage-a-qa-test-pipeline-failure)
+* [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
 * [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
 * [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 * [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)
@@ -372,7 +372,7 @@ Engineering Managers are encouraged to look at this queue of work during milesto
 
 The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
 
-* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
+* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 

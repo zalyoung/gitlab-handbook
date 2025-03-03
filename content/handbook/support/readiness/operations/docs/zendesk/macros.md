@@ -49,14 +49,14 @@ you!
 #### Updating an existing macro
 
 Updating an existing macro is considerably easier than creating a new one.
-Simply change the code in the source project and it will occur via the
+Simply change the code in the [macro managed content source project](https://gitlab.com/gitlab-com/support/zendesk-global/macros) and it will occur via the
 sync repo.
 
 The one caveat you need to consider is when you are changing a macro to allow
 for managed content (or to disable it using managed content).
 
 If you are adding managed content for the automation, see
-[Creating a new macro with managed content](creating-a-new-macro-with-managed-content)
+[Creating a new macro with managed content](#creating-a-new-macro-with-managed-content)
 as that process will detail setting up the connection.
 
 If you are removing managed content for the macro, you will simply change the

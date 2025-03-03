@@ -21,4 +21,4 @@ etc. All Light agents who have access to Zendesk can view the [Organization Perf
 
 This dashboard is used to monitor & track Support KPIS, both Handbook (SSAT, FRT, NRT, Customer Wait Time, FRT Breaches) and Non-Handbook (MHT, MTTR)
 It provides a look into KPI performance for the last 4 weeks and shows 12-month trends of key instances.
-The Support KPIs Dashboard can be accessed [here](https://gitlab.zendesk.com/explore/studio#/dashboards/3DC60497A02C9E0EDB02ECE9C20153733D4AF220B656C550418FF2E42B7E2329) 
+The Support KPIs Dashboard can be accessed [here](https://gitlab.zendesk.com/explore/studio#/dashboards/3DC60497A02C9E0EDB02ECE9C20153733D4AF220B656C550418FF2E42B7E2329)

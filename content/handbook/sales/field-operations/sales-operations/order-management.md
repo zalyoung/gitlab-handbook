@@ -94,12 +94,12 @@ Our regional teams do not operate on a 24/7 support model. If your opportunity o
 
 #### Regional Structure
 
-As noted above, the GitLab **Order Management** team is supported by several key internal teams, including **Deal Desk**, **Billing**, and **Fulfillment**. For more information on the regional structure of each of those teams, pleae refer to their respective Handbook pages. 
+As noted above, the GitLab **Order Management** team is supported by several key internal teams, including **Deal Desk**, **Billing**, and **Fulfillment**. For more information on the regional structure of each of those teams, pleae refer to their respective Handbook pages.
 
 ### Communicating with the Order Management Team
 
 - If support for an Opportunity or a Quote is required *prior* to submitting for Approval, always use the “Request Support” workflow on the Opportunity Object to create a Case for the team you require support from (e.g. Deal Desk, Billing Ops, etc.) For general questions, please use the `#sales-support` Slack channel.
-- Please note that Cases are *not* required when submitting an Opportunity or a Quote for Approval. Once an Opportunity or Quote is submitted for Approval, the approving team is notified and an Approval Queue is managed by the team to support processing the Approval. 
+- Please note that Cases are *not* required when submitting an Opportunity or a Quote for Approval. Once an Opportunity or Quote is submitted for Approval, the approving team is notified and an Approval Queue is managed by the team to support processing the Approval.
 - If a Quote or an Opportunity is submitted for approval and additional information or action is required by the Order Management team, the supporting team will Chatter the rep on the Opportunity and leave any necessary notes in the Approval Comment.
 
 If support for an Opportunity or a Quote is required *prior* to submitting for Approval, this can be requested on the Opportunity Object in SFDC, by clicking on the “Request Support” button in the top right hand side of the page layout. Please reference the [Requesting Internal Support](https:/handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support) section in the Handbook for detailed instructions.

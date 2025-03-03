@@ -35,7 +35,7 @@ flowchart LR
     I --> DA[Data Access]
     click DA "/handbook/engineering/infrastructure-platforms/data-access/"
     I --> DE[Developer Experience]
-    click DE "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
     I --> SP[SaaS Platforms]
     click SP "/handbook/engineering/infrastructure/platforms/"
 
@@ -73,15 +73,15 @@ flowchart LR
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
     DE --> DA[Development Analytics]
-    click DA "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
     DE --> DT[Developer Tooling]
-    click DT "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/"
     DE --> FR[Feature Readiness]
-    click FR "handbook/engineering/infrastructure-platforms/developer-experience"
+    click FR "/handbook/engineering/infrastructure-platforms/developer-experience"
     DE --> PE[Performance Enablement]
-    click PE "handbook/engineering/infrastructure-platforms/developer-experience"
+    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     DE --> TG[Test Governance]
-    click TG "handbook/engineering/infrastructure-platforms/developer-experience"
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience"
 ```
 
 ## Dogfooding
@@ -181,6 +181,16 @@ If you need assistance with a production issue or incident, please see the secti
 |[#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)| Team channel for general work in Practices. |
 |[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| Our social channel. |
 | #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
+
+**Tenant Scale**
+
+| **Channel** | **Purpose** |
+| ----------- | ----------- |
+|[#s_tenant_scale](https://gitlab.enterprise.slack.com/archives/C07TWC3QX47) | General conversation for Tenant Scale and requests coming from other teams. |
+|[#g_organizations](https://gitlab.enterprise.slack.com/archives/C01TQ838Y3T) | Discussions and requests specific to the Organizations team. |
+|[#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) | Discussions and requests specific to the Geo team. |
+|[#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59) | Discussions and requests specific to the Cells Infrastructure team. |
+|[#f_cells_and_organizations](https://gitlab.enterprise.slack.com/archives/C0609EXHX6F) | Channel for cross-functional discussion and coordination on Cells and Organizations. |
 
 The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
@@ -285,9 +295,10 @@ All team members are encouraged to schedule time for personal development. The f
 | Group | Topic |
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
-| Delivery Group | [Delivery Group](/handbook/engineering/infrastructure/team/delivery) |
+| Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
 | Scalability Group| [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
+| Tenant Scale | [Group Page](/handbook/engineering/infrastructure-platforms/tenant-scale/) |
 
 ### Learn about tools and technologies used within Platforms
 
@@ -312,6 +323,7 @@ All team members are encouraged to schedule time for personal development. The f
 - [Production incidents, and changes](https://gitlab.com/gitlab-com/gl-infra/production/issues/)
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/)
 - [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability/issues/)
+- [Tenant Scale](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/)
 
 ### Resources
 

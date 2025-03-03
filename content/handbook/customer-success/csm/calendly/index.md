@@ -21,13 +21,13 @@ To ensure that Calendly is setup to comply with GDPR and similar privacy laws, a
 - To create/view the Static Link
   - Link your [Zoom PMI](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066271) in the Chorus Scheduler Settings (one time only)
   - Then create a test event on your Google calendar, click Add video conferencing, select Chorus Meeting. You will then be able to view the Chorus Go static link (Domain: go.chorus.ai).
-  - ![static-chorus-go-link](grab-static-chorus-go-link.png)
+  - ![static-chorus-go-link](/images/customer-success/csm/calendly/grab-static-chorus-go-link.png)
 
 ### Creating a Calendly Event Type
 
 It is recommended to create multiple event types for your Calendly to ensure customers can choose the appropriate length of time for the meeting or specific topic/area of focus. Below is an example home page on Calendly for a CSE with different event types.
 
-![calendly-home-example](calendly-home-example.png)
+![calendly-home-example](/images/customer-success/csm/calendly/calendly-home-example.png)
 
 #### Instructions for Creating Calendly Event
 
@@ -39,7 +39,7 @@ It is recommended to create multiple event types for your Calendly to ensure cus
       - *Important Note*: Anyone booking through your calendly would use the same location link when booking an event instead of an automatically generated unique meeting ID per meeting. Please make sure your Zoom Personal Meeting follows GitLab's best practices on [privacy and security](/handbook/tools-and-tips/zoom/#a-note-on-privacy-and-security).
 
       - Make sure to select display location only after confirmation
-      - ![calendly-location](calendly-location-chorus-go.jpeg)
+      - ![calendly-location](/images/customer-success/csm/calendly/calendly-location-chorus-go.jpeg)
 
 - *Description/Instructions* (add the following recommended text)
 

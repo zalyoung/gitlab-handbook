@@ -5,7 +5,7 @@ description: "All elearning courses tied to the Field Certification Program will
 
 All elearning courses at GitLab will utilize the Handbook as the Single Source of Truth (SSOT).
 
-![gitlab-learning-content-diagram](gitlab-learning-content-diagram.png)
+![gitlab-learning-content-diagram](/images/people-group/learning-and-development/gitlab-learning-content-diagram.png)
 
 All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard).
 
@@ -52,7 +52,7 @@ Our goal is that each course will have an associated Handbook page including lea
 Consider the following when documenting course content in the handbook:
 
 1. Outline clear learning objectives
-1. Make content discoverable. For example, leadership content should not live in the Learning and Development handbook, but instead in the [Leadership handbook]({{< ref "leadership" >}})
+1. Make content discoverable. For example, leadership content should not live in the Learning and Development handbook, but instead in the [Leadership handbook](/handbook/leadership/)
 1. Embed relevant YouTube videos in the handbook
 1. Link to knowledge assessments
 1. Cross reference any additional handbook content with links
@@ -65,7 +65,7 @@ This [training video](https://youtu.be/wlLKZz3vSAk) provides an example of how i
 
 In the team Articulate - Rise 360 license, there is a block template for iframes. You can access this template in the `block templates` section and add your iframe code directly.
 
-![iframe-embed-template](../iframe-block.png)
+![iframe-embed-template](/images/people-group/learning-and-development/iframe-block.png)
 
 #### iframe tag examples
 

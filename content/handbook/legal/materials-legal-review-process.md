@@ -26,7 +26,7 @@ The DRI is responsible for ensuring materials are compliant. If you're unsure wh
 Review is **always** required for:
 
 - Internal and external materials requiring review as determined by the [SAFE Framework Flowchart](/handbook/legal/safe-framework/#safe-flowchart);
-- External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](/handbook/company/team/board-of-directors);
+- External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](https://about.gitlab.com/company/team/board-of-directors/);
 - Quarterly and year-end earnings reports, and materials which include financial data that has not been publicly disclosed, or a variation previously disclosed financial data;
 - Materials relating to:
   - Mergers and acquisitions, including spin outs, investments, or acqui-hires;

@@ -37,7 +37,7 @@ The future roadmap for Mobile DevOps will look to mature the `build`, `sign`, an
 
 ## Other Resources
 
-* [Mobile DevOps Docs](https://docs.gitlab.com/ee/ci/mobile_devops.html)
+* [Mobile DevOps Docs](https://docs.gitlab.com/ee/ci/jobs/mobile_devops.html)
 * Mobile DevOps Blog Posts
   * [Tutorial: iOS CI/CD with GitLab](https://about.gitlab.com/blog/2023/06/07/ios-cicd-with-gitlab/)
   * [Tutorial: Android CI/CD with GitLab](https://about.gitlab.com/blog/2023/06/13/android-cicd-with-gitlab/)

@@ -260,7 +260,7 @@ With a backend-agnostic abstraction becoming the ingestion interface a client in
   - Self-managed backends:
     - [CHProxy](https://www.chproxy.org/)
     - [Kafka](https://kafka.apache.org/)
-    - [RedPanda](https://redpanda.com/)
+    - [RedPanda](https://www.redpanda.com/)
     - [Vector](https://vector.dev/)
     - [RabbitMQ](https://www.rabbitmq.com/)
 

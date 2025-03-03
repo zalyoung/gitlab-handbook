@@ -12,7 +12,7 @@ We leverage our versatile skill sets to drive positive outcomes for GitLab and o
 
 ### Commercial
 
-The [Commercial](https://handbook.gitlab.com/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
+The [Commercial](/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
 
 ### Corporate & Compliance
 

@@ -282,7 +282,7 @@ I maintain and scale our infrastructure and configurations, and my priority is t
 
 ##### My role
 
-I'm a software engineer in my organization with a keen interest in quality and the skills necessary to promote it. My objective is to **help build quality into the development process** and **promote ownership of quality across every team**. To accomplish this, I develop tooling to support test processes and quality reporting. I also write tests at every level in the [test pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html). I groom my organization's tests to make them both efficient and effective as well as help grow a quality mindset across departments.
+I'm a software engineer in my organization with a keen interest in quality and the skills necessary to promote it. My objective is to **help build quality into the development process** and **promote ownership of quality across every team**. To accomplish this, I develop tooling to support test processes and quality reporting. I also write tests at every level in the [test pyramid](https://docs.gitlab.com/development/testing_guide/testing_levels/). I groom my organization's tests to make them both efficient and effective as well as help grow a quality mindset across departments.
 
 ##### Jobs to be done
 

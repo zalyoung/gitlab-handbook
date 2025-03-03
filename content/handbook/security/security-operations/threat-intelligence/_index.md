@@ -123,6 +123,7 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 - Threat Hunting (`TIRec::Hunting`)
 - Communications (`TIRec::Comms`)
 - Training (`TIRec::Training`)
+- Purple Team Operations (`TIRec::PurpleTeamOp`)
 
 **Recommendation Outcome Labels:**
 

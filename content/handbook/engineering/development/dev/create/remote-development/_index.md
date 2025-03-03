@@ -56,7 +56,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 ### 🗣️ Capturing Customer Engagements
 
 To improve our understanding and traceability of customer needs and to ensure followups action items are systematically done, we want to capture customer engagement notes in a SSoT.
-Please use the confidential issues below to capture all customer engagements for the two feature categories:
+Please use the confidential issues below to capture all customer engagements for the feature categories:
 
 - [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
 - [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
@@ -71,6 +71,18 @@ We highly value user feedback! Please use the epics below to capture feedback an
 - [Workspaces User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/12601)
 
 For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue.
+
+### 🤝 Customer Collaboration Issues Dashboard
+
+At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to collaborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
+
+Use the comment template to apply the approrpiate labels for the feature categories:
+
+- Workspaces - `/label ~"Category:Workspaces" ~"customer-collaboration"`
+
+You can find the customer collaboration issues dashboard for the feature categories:
+
+- [Workspaces](https://gitlab.com/gitlab-org/gitlab/-/issues/517442)
 
 ### Group Metrics Dashboards
 
@@ -100,7 +112,7 @@ The table below briefly outlines the objectives and key details of regular team 
 
 ### 🖖 Weekly EM Updates
 
-Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/?sort=title_asc&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
+Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=created_date&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
 
 ### 😷 Issue Workflow Hygiene
 

@@ -22,17 +22,17 @@ Scenario C: Supplier permanently paid by Virtual Card on invoice (card issued to
 
 - Step 1. When the requisition arrives in the AP **To Do** queue, create a new Supplier Payment Account.
 
-![apvcard1](/images/finance/apvcard1.png)
+![apvcard1](/images/finance/accounts-payable/apvcard1.png)
 
 - Step 2. You will be prompted to enter your 2FA.
 - Step 3. You will be directed to create the new Supplier Payment Account. See below regarding how to complete the necessary fields. **NOTE - for Step 6 (last two fields) leave blank for Company set defaults OR enter number of days for Virtual Card to be valid.**
 
-![apvcard4](/images/finance/apvcard4.png)
+![apvcard4](/images/finance/accounts-payable/apvcard4.png)
 
 - Step 4. Click **Create**. The new SPA request will then be routed to **Internal SPA Approval Group** for approval.
 - Step 5. After the new SPA status = Active, AP will edit the requisition to update the Supplier Name (in the **Cart Items** section) from **Virtual Card** to the **actual Supplier's Name**, which is listed in the Requested Virtual Card Supplier field.
 
-![apvcard3](/images/finance/apvcard3.png)- Step 6. Approve the requisition.
+![apvcard3](/images/finance/accounts-payable/apvcard3.png)- Step 6. Approve the requisition.
 
 ## Allocadia suppliers to be paid permanently by Virtual Card
 
@@ -49,7 +49,7 @@ AP will be tagged on the requisition requesting the permanent Virtual Card SPA s
 
 - Step 3. You will be directed to create the new Supplier Payment Account. See below regarding how to complete the necessary fields. **NOTE - for Step 7 (last two fields) leave blank for Company set defaults OR enter number of days for Virtual Card to be valid.**
 
-![apvcard5](/images/finance/apvcard5.png)
+![apvcard5](/images/finance/accounts-payable/apvcard5.png)
 
 {{< panel header="**Important Note**" header-bg="danger" >}}
 **Ensure the supplier's email address is entered correctly. Once the Virtual Card has been issued, it can't be resent to another email address.**

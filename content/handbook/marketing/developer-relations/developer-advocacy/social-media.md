@@ -227,10 +227,9 @@ _Missing features, 2024-11-11:_
 | Cesar Saveedra | [@cealsair.bsky.social](https://bsky.app/profile/cealsair.bsky.social) |
 | Daniel Helfand | [@dhelfand.bsky.social](https://bsky.app/profile/dhelfand.bsky.social) |
 | Fatima Sarah Kalid | [@sugaroverflow.com](https://bsky.app/profile/sugaroverflow.com) |
-| John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/coghlan.me) |
+| John Coghlan | [@coghlan.me](https://bsky.app/profile/coghlan.me) |
 | Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
 | William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
-| Abubakar Siddiq Ango | [@abuango.me](https://bsky.app/profile/abuango.me) |
 | GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
 
 #### Bluesky Starter Packs
@@ -424,8 +423,8 @@ Workflow:
   - Example from [14.9, LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q): `Shoutout to Timo Furrer for becoming the GitLab 14.9 MVP 🎉 Your work on the #Terraform provider, automating all things GitLab, is invaluable. Thanks for all your contributions! 💜 🦊 #EveryoneCanContribute https://about.gitlab.com/releases/2022/03/22/gitlab-14-9-released/#mvp`
 - Post the MVP share on Twitter and LinkedIn
   - Add the URLs to the release evangelism issue
-- Ask Sid in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
-  - Suggested actions: Reshare/like, add a comment thanking for the contributions. Follow the [CEO voice](/handbook/ceo/#ceo-voice) to suggest a text to copy.
+- Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
+  - Suggested actions: Reshare/like, add a comment thanking for the contributions. 
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 
@@ -487,7 +486,7 @@ Developer Advocates will take the end-user point-of-view and help review the rel
 - Suggest promoting a feature to primary.
 - Add a feature from the Changelog, seeing huge impact or a missing addition.
 
-The first pilot experiment was established with our [Verify product group](/handbook/product/categories/verify/) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
+The first pilot experiment was established with our [Verify product group](/handbook/product/categories/#verify-stage) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
 
 ### Product Feedback
 

@@ -41,7 +41,7 @@ flowchart LR
   click scaleCommunity "./#scale-the-community" _self
  ```
 
-### Current focus 
+### Current focus
 
 We're prioritizing these 5 key items to maximize our impact within our current capacity. While all initiatives are valuable, this focused approach allows us to drive meaningful change more effectively.
 
@@ -74,7 +74,7 @@ Provide an outstanding, highly efficient and fast contributor experience, from o
 
 * **Why:** Provide fast and efficient contributor experience via our tooling. Our contributor tooling needs to be optimized for contributor productivity
 * **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/2>
-* **DRI:** [Developer Tooling team](/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/)
+* **DRI:** [Developer Tooling team](/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/)
 
 ### Increase Contribution Value
 

@@ -55,6 +55,12 @@ Full examples for an apples-to-apples comparison with currently flaky tests:
 * https://gitlab.com/gitlab-org/gitlab/-/blob/wild-standalone-test/ee/spec/features/epic_boards/epic_boards_sidebar_spec.rb
 * https://gitlab.com/gitlab-org/gitlab/-/blob/wild-standalone-test/spec/requests/api/commits_spec.rb
 
+The plan is to measure and compare the following metrics:
+
+* % of runs failed
+* Time to run spec
+* Debugging steps
+
 **Migration Plan**
 
 Strategy to take to gradually migrate to Playwright.

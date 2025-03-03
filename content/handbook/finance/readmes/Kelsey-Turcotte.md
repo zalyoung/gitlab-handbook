@@ -29,7 +29,7 @@ Fundamental to long-term shareholder value creation is company culture. In my ex
 ## My Expectations of Everyone
 
 1. **Put GitLab First** - When I started my career an executive taught me to tackle problems with the question “What is best for the company”. Over the years I have found that this question creates better alignment around objectives and reminds team members to put their self-interest to the side.
-1. **Deliver Quality** - I expect attention to details. Things like spelling mistakes, typos, and miscalculations are a distraction. More than that, I believe quality is asking the question “Why?”. Why? is where the impactful discussions can be had and decisions made. 
+1. **Deliver Quality** - I expect attention to details. Things like spelling mistakes, typos, and miscalculations are a distraction. More than that, I believe quality is asking the question “Why?”. Why? is where the impactful discussions can be had and decisions made.
 
 ## My Role
 

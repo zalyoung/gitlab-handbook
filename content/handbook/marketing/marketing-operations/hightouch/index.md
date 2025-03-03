@@ -55,9 +55,9 @@ Key elements of a Hightouch sync configuration:
 `Specified password has expired. Password must be changed using the Snowflake web console.`
 -The Snowflake connector password expires once every three months and has to be reset in the snowflake UX by logging in with the `HIGHTOUCH_USER`. The password has then to be changed in Hightouch>Sources>Snowflake
 
-![Syncs](/handbook/source/handbook/marketing/marketing-operations/hightouch/Hightouch_1.png)
+![Syncs](/images/source/handbook/marketing/marketing-operations/hightouch/Hightouch_1.png)
 
-![Syncs_2](/handbook/source/handbook/marketing/marketing-operations/hightouch/Hightouch_2.png)
+![Syncs_2](/images/source/handbook/marketing/marketing-operations/hightouch/Hightouch_2.png)
 
 ## Models
 

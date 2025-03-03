@@ -46,8 +46,8 @@ armhf
 ARNs
 Artifactory
 Asana
-Asciidoctor
 ASCIIArt
+Asciidoctor
 asdf
 ASMs
 Assembla
@@ -201,6 +201,7 @@ CMMs
 CNAs
 CNs
 Cobertura
+Codecademy
 Codeception
 Codecov
 codenames
@@ -227,6 +228,7 @@ config
 Configs
 Consul
 Contentful
+contributable
 Coronavirus
 Corosync
 corpuses
@@ -268,6 +270,7 @@ CUnit
 customappsso
 CVEs
 CWEs
+cyber
 cybersecurity
 CycloneDX
 Dangerfile
@@ -331,12 +334,17 @@ desynchronized
 Dev
 devfile
 devfiles
+Devo
 DevOps
 Dhall
 dialogs
 Diffblue
 disambiguates
 discoverability
+disempower
+disempowered
+disempowering
+disempowers
 dismissable
 Disqus
 Distroless
@@ -356,6 +364,7 @@ documentarian
 documentarians
 Docusaurus
 dogfood
+dogfooded
 dogfooding
 dogfoods
 DOMPurify
@@ -370,6 +379,7 @@ Dreamweaver
 DRIs
 DSLs
 DSN
+duplicative
 Dynatrace
 dyscalculia
 dyspraxia
@@ -550,6 +560,8 @@ hotspots
 HTMLHint
 http
 https
+Hugo
+Hugolint
 Hugomods
 hypercare
 hypergrowth
@@ -865,6 +877,7 @@ Permifrost
 PgBouncer
 pgFormatter
 pgLoader
+pgLogical
 pgMustard
 pgvector
 Phabricator
@@ -926,6 +939,7 @@ Pritaly
 Priyanka
 profiler
 Prometheus
+Proofpoint
 ProseMirror
 protobuf
 protobufs
@@ -956,6 +970,7 @@ rbenv
 rbspy
 rbtrace
 Rclone
+RCEs
 Rdoc
 reachability
 readme
@@ -1162,6 +1177,9 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
+standardize
+standardized
+standardizes
 starrer
 starrers
 Stickermule
@@ -1243,6 +1261,7 @@ Tamland
 tanuki
 taskscaler
 tcpdump
+TeamOps
 teardown
 templated
 Tesorio
@@ -1289,6 +1308,7 @@ transpiling
 Trello
 Trendline
 triaged
+triager
 triages
 triaging
 Trivy
@@ -1496,6 +1516,7 @@ ZAProxy
 Zeitwerk
 Zendesk
 ZenTao
+Zerofox
 Zoekt
 Zoominfo
 zsh

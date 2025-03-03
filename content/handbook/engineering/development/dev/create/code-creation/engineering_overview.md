@@ -81,22 +81,19 @@ sequenceDiagram
     participant LS as Language Server
     participant GLR as GitLab Rails
     participant AIGW as AI Gateway
-    participant LLM as Large Language Model
 
-    USR->>IDE: starts
-    IDE->>EXT: starts
-    loop Every 1 hour
-    EXT->>LS: triggers request for direct connection details
-    LS->>GLR: requests for direct connection details
-    GLR->>LS: returns direct connection details (AIGW url and token, model details)
-    LS->>LS: caches direct connection details for 1 hour
-    end
     USR->>IDE: types: "def add(a, b)"
     IDE->>EXT: notify about document change def add(a, b)
     EXT->>LS: register document change def add(a, b)
-    LS->>AIGW: sends code suggestion requests
-    AIGW->>LLM: code suggestion request
-    LLM->>AIGW: "a + b"
+    LS->>LS: triggers code suggestion request
+    alt there is unexpired direct connection details in cache?
+    LS->>LS: fetches direct connection details from cache
+    else
+    LS->>GLR: requests for direct connection details
+    GLR->>LS: returns direct connection details (AIGW url and token, expiry, model details)
+    LS->>LS: caches direct connection details, with 1 hour expiry
+    end
+    LS->>AIGW: sends code suggestion requests using direct connection details
     AIGW->>LS:  suggestion: "a + b"
     LS->>EXT: triggers IDE code suggestion UI: "a + b"
     EXT->>IDE: triggers IDE code suggestion UI: "a + b"

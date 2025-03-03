@@ -99,8 +99,11 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
 | [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
 | [Common Room](https://www.commonroom.io/) | Snowflake task | `commonroom` | `commonroom` | `DevRels`/`Developer Advocates` |  | No | Tier 3 |
+| [Coupa Production](https://www.coupa.com/) | Fivetran | `coupa` | `coupa` | Marketing | 24h / 48h | No | Tier 2 |
+| [Coupa Sandbox](https://www.coupa.com/) | Fivetran | `coupa_sandbox` | `coupa_sandbox` | Marketing | Ad-hoc | No | Tier 3 |
 | [CustomersDot](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-customer-dot-database) [ERD](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/db_erd.pdf) | pgp | `tap_postgres` | `customers` | Product | 24h / x | No | Tier 1 |
 | [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
+|[Demo Architecture Portal](https://cloud.gitlabdap.com/)|Stitch|`demo_architecture_portal`|`demo_architecture_portal`|Sales and marketing|7 Days/7 Days|No|Tier 3|
 | [Elastic Search Billing](https://www.elastic.co/docs/api/doc/cloud/group/endpoint-billingcostsanalysis) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | End to End test metrics | Snowflake tasks | `e2e_metrics` | `e2e_metrics` | Engineering | 24h / 48h | No | Tier 2 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
@@ -126,6 +129,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Kantata](https://developer.kantata.com/tag/Insights-Report-Exports/#operation/get-scheduled-report-export) | Airflow | `kantata` | `kantata` | Customer Success | 24h / 48h | Yes | Tier 3 |
 | [Level Up/Thought Industries](https://api.thoughtindustries.com/#thought-industries-api) | Airflow | `level_up` | `level_up` | People | 24h / 24h | No | Tier 3 |
 | [LinkedIn ads](https://business.linkedin.com/marketing-solutions/ads) | Fivetran | `linkedin_ads` | `n/a` | Marketing | 24h / 48h | No | Tier 3 |
+| [MailGun](https://https://www.mailgun.com/) | Airflow | `mailgun` | `sensitive` | Sales, Marketing, Customer Success, Digital Success | 24h / 24h | No | Tier 3 |
 | [Marketo](https://business.adobe.com/blog/basics/marketing-automation) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
 | Monte Carlo | Snowflake Share | `n/a` | `prep_legacy` | Data | 12h / 24h | No | Tier 3 |
 | [Netsuite](https://www.netsuite.com/portal/home.shtml) | Fivetran | `netsuite_fivetran` | `netsuite` | Finance | 6h / 24h | Yes | Tier 2 |
@@ -142,7 +146,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
 | [Snowplow](https://snowplow.io/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
 | [Tableau Cloud](https://www.tableau.com/products/cloud-bi) | Tableau Prep | `tableau_cloud` | `tableau_cloud` | Data Team | 24h / 24h | No | Tier 3 |
-| [Tableau Back-end Data](https://www.fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
+| [Tableau Back-end Data](https://fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
 | [Thanos](https://thanos-query.ops.gitlab.net/graph) | Snowflake Task | `prometheus` | `prometheus` | Engineering | 24 h / x | No | Tier 3 |
 | [Version DB](https://version.gitlab.com/users/sign_in) | Automatic Process | `version_db` | `version_db` | Product | 24 h / 48 h | No | Tier 1 |
 | [Workday](https://www.workday.com/) | Fivetran | `workday` | `workday` | People | 6h / 24h / | No | Tier 2 |
@@ -202,7 +206,11 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-### Snowplow nullify columns
+### Snowplow updating columns
+
+#### Snowplow nullify geo columns
+
+**Issue**: [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally)
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
@@ -218,12 +226,48 @@ As desired to avoid a duplicate load of the updated files in the `S3` bucket as 
 ```bash
 - gitlab-com-snowplow-events/
     output/ <---- all files are located here
-        2019/
-        2020/
-        2021/
-        2022/
+        2019/01/01
+        ...
+        (present day)
+```
+
+to the new structure:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated
+        2019/01/01
+        ...
+        2023/01/31
+    output/ <---- new files will land here and will be loaded by Snowpipe
+        2023/02/01
+        ...
+        (present day)
+```
+
+#### Snowplow nullify `page_url_path` columns
+
+**Issue**: [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
+
+In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
+
+- `page_url_path`
+
+This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
+The Data Team updated old files and pseudo-anonymized  `page_url_path` column, and also pseudo-anonymized `page_url_path` column in Snowflake.
+This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+
+As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351), the folder structure is modified from:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated (in the previous iteration)
+        2022/10/26
+        ...
         2023/
-            01/
+            02/
+    output/
+        2023/
             02/
             03/
 ```
@@ -232,20 +276,21 @@ to the new structure:
 
 ```bash
 - gitlab-com-snowplow-events/
-    output_nullified/ <---- all files are nullified and update
-        2019/
-        2020/
-        2021/
-        2022/
-        2023/
-            01/
+    output_nullified_columns/
+        2019/01/01
+        ...
+        2022/10/25
+    output_mask_page_url_path/ <---- all files are pseudonimized
+        2022/10/26
+        ...
+        2023/12/01
     output/ <---- new files will land here and will be loaded by Snowpipe
-        2023/
-            02/
-            03/
+        2023/12/02
+        ...
+        (present day)
 ```
 
-All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
+> **Note:** All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
 
@@ -352,6 +397,7 @@ This list of functional roles gives a high level understanding of what the role 
 | `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |
 | `snowflake_analyst` | Access to `PROD` data in Snowflake, EDM schema and workspaces | No |
 | `snowflake_analyst_safe` | Access to `PROD` data in Snowflake, EDM schema and workspaces including SAFE data | Yes |
+| `sensitive_pii_data_viewer` |  Access to all sensitive fields in person and contact data mastery models. | No |
 
 #### Object Roles
 

@@ -124,7 +124,7 @@ If you saved it as a digital PDF file:
 1. Open the PDF file with the scanner by clicking on the camera icon
 
 <div style="text-align:center;">
-  <img src="../1password-setup-open-file-dialog.png" alt="Open PDF file with scanner by clicking on camera icon" width="700"/>
+  <img src="/images/security/1password-setup-open-file-dialog.png" alt="Open PDF file with scanner by clicking on camera icon" width="700"/>
 </div>
 <br>
 
@@ -151,7 +151,7 @@ may have access to others.
 Click the **Vault Selector** in the upper-left corner of the window:
 
 <div style="text-align:center;">
-  <img src="../1password-vault-selector.png" alt="Vault Selector" width="700"/>
+  <img src="/images/security/1password-vault-selector.png" alt="Vault Selector" width="700"/>
 </div>
 <br>
 
@@ -177,14 +177,14 @@ With the extension installed, you should be able to go to a site that you have
 credentials stored for in 1Password and log in:
 
 <div style="text-align:center;">
-  <img src="../1password-login.gif" alt="Mailchimp Login" width="450"/>
+  <img src="/images/security/1password-login.gif" alt="Mailchimp Login" width="450"/>
 </div>
 
 If you don't see the site listed in the results window, make sure you're using
 the correct vault:
 
 <div style="text-align:center;">
-  <img src="../1password-vault-change.gif" alt="Vault switching" width="450"/>
+  <img src="/images/security/1password-vault-change.gif" alt="Vault switching" width="450"/>
 </div>
 
 ### Saving logins
@@ -193,7 +193,7 @@ When 1Password detects a login form submission, it may ask if you want to save
 the login with a dialog like this:
 
 <div style="text-align:center;">
-  <img src="../1password-save-login.png" alt="Save login" width="600"/>
+  <img src="/images/security/1password-save-login.png" alt="Save login" width="600"/>
 </div>
 
 If you do want to save it, make sure the appropriate **Vault** is selected
@@ -228,7 +228,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
  and add a field `api`. Insert the value of your PAT into the newly created field `api`.
 
 <div style="text-align:center;">
-  <img src="../1pass-pat-setup.png" alt="Save login" width="600"/>
+  <img src="/images/security/1pass-pat-setup.png" alt="Save login" width="600"/>
 </div>
 
 - Store a secret reference to the access token in an `.env` file.
@@ -311,13 +311,13 @@ To enable TOTP for a saved account:
 1. Select **One-Time Password**
 
 <div style="text-align:center;">
-  <img src="../1password-otp.png" alt="One-time password field type" width="600"/>
+  <img src="/images/security/1password-otp.png" alt="One-time password field type" width="600"/>
 </div>
 
 1. Click QR code icon that appeared
 
 <div style="text-align:center;">
-  <img src="../1password-qrcode.png" alt="1password QR Code" width="600"/>
+  <img src="/images/security/1password-qrcode.png" alt="1password QR Code" width="600"/>
 </div>
 
 1. Scan QR code using the transparent window
@@ -345,14 +345,14 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 
 <div style="text-align:center;">
-  <img src="../PasskeyAlert.png" alt="You may see something like the image below" width="700"/>
+  <img src="/images/security/PasskeyAlert.png" alt="You may see something like the image below" width="700"/>
 </div>
 <br>
 
 At that point, the key pairing is created and 1Password will use this method of sign in going forward. Note, not all sites are supported at this time. If you're curious about setting this up on a site you use, you can always open 1Password, select that login tab, and see if the "Passkey Available" notification is showing.
 
 <div style="text-align:center;">
-  <img src="../PasskeyAvailable.png" alt="notification is showing. width="700"/>
+  <img src="/images/security/PasskeyAvailable.png" alt="notification is showing. width="700"/>
 </div>
 <br>
 
@@ -387,7 +387,7 @@ one of our developers, uses 1Password:
 > the idea:
 
   <div style="text-align:center;">
-    <img src="../1password-teams-login.png" alt="Teams Login" width="560px"/>
+    <img src="/images/security/1password-teams-login.png" alt="Teams Login" width="560px"/>
   </div>
 
 ### Traveling with 1Password{#travel-mode}
