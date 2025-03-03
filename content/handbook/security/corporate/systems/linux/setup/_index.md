@@ -20,6 +20,13 @@ For laptops shipped with OEM Windows you may want to make a full drive backup (e
 
 ## Additional Steps
 
+_Automatic Updates_ - While not required it is highly recommended that automatic updates are configured to ensure the latest security patches are available. As many of the Linux users in GitLab are developers, it is understood that there might be hesitancy that various components used for developments - particularly those impacting a build process - could cause difficulties. That being said, here are two recommended options for enabling automated updates:
+
+- The GNOME Update Manager's _Software & Updates_ can be configured for automatic updates.
+- Installation and configuration of the `unattended-upgrades` package.
+
+More detail is available [here](https://help.ubuntu.com/community/AutomaticSecurityUpdates).
+
 _Fingerprint Reader_ - If your Dell laptop has a fingerprint reader, modern Ubuntu may support it out of the box, if not consider the following steps (YMMV, it may require another solution):
 
 ```bash
