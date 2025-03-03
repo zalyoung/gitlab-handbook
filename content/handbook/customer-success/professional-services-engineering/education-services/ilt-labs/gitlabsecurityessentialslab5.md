@@ -128,52 +128,52 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
 1. Select **Create project**. 
 
-Take some time here to review the `postman_collection.json` file. This file contains the definitions required to run API scanning against the application in this project. After reviewing the file and structure, you can proceed with enabling API scanning.
+1. Take some time here to review the `postman_collection.json` file. This file contains the definitions required to run API scanning against the application in this project. After reviewing the file and structure, you can proceed with enabling API scanning.
 
 1. Open your `.gitlab-ci.yml` file. 
 
-1. To add API scanning to our container, first, define the `dast` job and add the API security template.
+1. To add API scanning to our container, define the `dast` job and add the API security template.
 
-```yml
-image: docker:26
+  ```yml
+  image: docker:26
 
-include:
-    - template: API-Security.gitlab-ci.yml
+  include:
+      - template: API-Security.gitlab-ci.yml
 
-stages:
-    - build
-    - dast
+  stages:
+      - build
+      - dast
 
-variables:
-  TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+  variables:
+    TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
 
-```
+  ```
 
-1. First, we create a build job, which creates a Docker container to scan.
+1. Create a build job, which creates a Docker container to scan.
 
-```yml
-build:
-    stage: build
-    services:
-        - docker:26-dind
-    script:
-        - docker build -t $TARGET_IMAGE .
-        - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-        - docker push $TARGET_IMAGE
-        
-```
+  ```yml
+  build:
+      stage: build
+      services:
+          - docker:26-dind
+      script:
+          - docker build -t $TARGET_IMAGE .
+          - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+          - docker push $TARGET_IMAGE
+          
+  ```
 
-1. After this, add the job definition for the API scanner.
+1. Add the job definition for the API scanner.
 
-```yml
-api_security:
-    services:
-        - name: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-          alias: target
-    variables:
-        APISEC_POSTMAN_COLLECTION: postman_collection.json
-        APISEC_TARGET_URL: http://target:7777
-```
+  ```yml
+  api_security:
+      services:
+          - name: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+            alias: target
+      variables:
+          APISEC_POSTMAN_COLLECTION: postman_collection.json
+          APISEC_TARGET_URL: http://target:7777
+  ```
 
 1. Commit these changes and view the results once the pipeline completes.
 
