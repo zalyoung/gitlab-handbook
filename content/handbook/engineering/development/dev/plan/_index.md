@@ -150,6 +150,34 @@ graph TD;
   I--> J["Issues"];
 ```
 
+#### Executing on the Roadmap
+
+Every Roadmap commitment has a Directly Responsible Individual (DRI) for overall project management. This is usually the Engineering Manager (EM) of the group that owns the corresponding category.
+
+The project manager clarifies scope, identifies dependent work, appoints DRIs for work streams, and ensures risks and blockers are prioritized.
+
+EMs maintain a Wiki page for the project containing a project timeline, project status, links to work items, key participants, and a decision register. This is required for Tier 1 and Tier 2 Roadmap commitments and encouraged for all important projects. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Examples of previous Wikis are:
+
+* [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
+* [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
+* [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
+
+##### Internal Testing
+
+Plan Engineering regularly tests new functionality internally before releasing to customers. As part of a drive to improve quality in the work we deliver to customers, this process is divided into two parts.
+
+##### Alpha Testing
+
+Testing that occurs during ongoing development. This is limited to subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`.
+
+##### End-of-line testing
+
+This "end-of-line" testing is the final step before release to customers. It usually means enablement of the finished product on `gitlab-com` and `gitlab-org` and is accompanied by a method of collecting internal feedback, such as a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager, and only defects and fit & finish issues identified during testing should be addressed. 
+
+No new scope will be accepted at this time without significant justification and without restarting the testing period.
+
+##### Dogfooding
+
 ### Talking With Customers
 
 In a perfect world, we would have cross-functional representation in every conversation we have with customers.
