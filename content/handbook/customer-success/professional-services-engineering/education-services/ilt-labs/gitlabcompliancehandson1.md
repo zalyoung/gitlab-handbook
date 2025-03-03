@@ -17,7 +17,7 @@ Learners will review the different roles and user permissions in their GitLab pr
 
 1. Select **Create blank project**.
 
-1. For the **Project name**, enter `Compliance project`. 
+1. For the **Project name**, enter `Compliance project`.
 
 1. Leave all other as default and select **Create project**.
 

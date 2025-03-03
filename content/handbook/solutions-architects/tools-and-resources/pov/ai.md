@@ -55,7 +55,7 @@ We need to make sure the customer has gone through the AI hands-on [workshop](/h
 
 - Example Customer [template1](https://docs.google.com/presentation/d/1m1u65qa8oj0_hHTklnhWAjyHxR8euQ14/edit?usp=sharing&ouid=113388956697042742039&rtpof=true&sd=true)
 - Example Customer [template2](https://drive.google.com/file/d/1vAOW0Kko24ASeN7XDMnkHMWfGc57R9cw/view)
-- Streamline your POV by adopting [3 Goals in 30 Days](https://docs.google.com/presentation/d/1PIDwrVSywtz82OANmRpO3rhRPKzh64CoLWf1xqGsBEQ/edit#slide=id.g237d0ad8d2e_0_1287) 
+- Streamline your POV by adopting [3 Goals in 30 Days](https://docs.google.com/presentation/d/1PIDwrVSywtz82OANmRpO3rhRPKzh64CoLWf1xqGsBEQ/edit#slide=id.g237d0ad8d2e_0_1287)
 
 ### Setting up the POV instance
 
@@ -63,7 +63,7 @@ Set-up the POV instance with your customer's POV lead or technical counterpart.
 
 - Getting GitLab Duo trial Licenses
   - For existing GitLab customers, [follow the steps here to request Duo trail](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial)
-  - For prospects, request trial licenses [here](https://about.gitlab.com/solutions/gitlab-duo-pro/sales/?toggle=gitlab-duo-pro) 
+  - For prospects, request trial licenses [here](https://about.gitlab.com/solutions/gitlab-duo-pro/sales/?toggle=gitlab-duo-pro)
 - Setup the patricipant environment, their IDE and do a trial run. Below are a few links and documents to help.
   - GitLab University - [Duo Learning Track](https://university.gitlab.com/pages/ai)
   - Getting Started Documents - [Getting Started with GitLab Duo Enterprise](https://docs.google.com/document/d/1aK8IJMiYCs-7isZ-Ek-FnolY29_WJdexG_x1tkcLGs4/edit?tab=t.0)

@@ -52,7 +52,7 @@ Please reach out in the #brand Slack channel if you have questions.
 
 ### Naming process
 
-Our [naming handbook page](/handbook/marketing/brand-and-product-marketing/brand/naming/) contains everything you need to know about naming products, features, events, and other initiatives at GitLab. The Brand & Creative team is here to guide and facilitate this process. 
+Our [naming handbook page](/handbook/marketing/brand-and-product-marketing/brand/naming/) contains everything you need to know about naming products, features, events, and other initiatives at GitLab. The Brand & Creative team is here to guide and facilitate this process.
 
 ### Vendor reference requests
 

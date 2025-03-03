@@ -178,7 +178,7 @@ Pro tip: Aim to reply to comments within 1-2 days to keep the conversation timel
 
 #### Slack and EveryoneSocial (TBC)
 
-The Slack integration (WIP) will allow us to broadcast an EveryoneSocial story link to Slack, giving our team the headsup on big news items that we'd like to share. 
+The Slack integration (WIP) will allow us to broadcast an EveryoneSocial story link to Slack, giving our team the headsup on big news items that we'd like to share.
 You can also check out the latest stories on EveryOne Social inside of any Slack channel by using `TBD` for a private message showing you our top stories.
 
 #### Okta

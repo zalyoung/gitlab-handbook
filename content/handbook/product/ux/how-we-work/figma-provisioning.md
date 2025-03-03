@@ -47,7 +47,7 @@ Once an access request issue has manager approval:
 
 1. Sign in to [Google Groups](https://groups.google.com/).
 1. Click **My groups**.
-1. Click the name of the group that you want to add the user to. All Google groups which manage users in Figma application are formatting as `okta-figma-xxxxx-users` and include descriptions with access details. A user only needs to be added to the group that matches the highest level of permissions the user needs. 
+1. Click the name of the group that you want to add the user to. All Google groups which manage users in Figma application are formatting as `okta-figma-xxxxx-users` and include descriptions with access details. A user only needs to be added to the group that matches the highest level of permissions the user needs.
 1. Next press the **People** tab on the left side and select **Members**.
 1. To add a member press the **Add Members** button. When a member is added from the group it may take a few minutes for the sync to happen between Google and Figma. Once the sync happens the user's details will be updated in the Figma admin. If you are unable to access a specific group, please reach out to another provisioner for help.
 1. Request help in the `#figma_maintainers` Slack channel to have a Figma application admin (different from provisioner) confirm the user's status in Figma's admin and to assign a billing group and workspace (optional). Currently, it's not possible to automate assigning a team member to a billing group or workspace in Figma.

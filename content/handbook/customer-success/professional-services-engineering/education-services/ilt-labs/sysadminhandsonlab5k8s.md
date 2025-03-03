@@ -16,7 +16,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
     ```bash
     ssh -L 8001:localhost:8001 -i <SSH_KEY_NAME> root@<GITLAB_INSTANCE_HOSTNAME>
     ```
-    
+
 ### Task B. Access the Prometheus Service
 
 1. GitLab's Prometheus server can be reached via TCP port 9090. To access this port, you need to create a proxy into your Kubernetes cluster. This can be done with the following command:

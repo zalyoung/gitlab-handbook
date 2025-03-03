@@ -8,7 +8,7 @@ As part of our [Continuous Control Monitoring](./sec-controls.md) and to support
 
 ## Process
 
-Quarterly, issues are created to confirm that specified activities are performed as required, including testing of the Change Management process, and confirmation that log reviews and configuration reviews occur, alerts are responded to, and configurations are applied to systems per the standards. Procedures for conducting the review activity are detailed in the quarterly issues.    
+Quarterly, issues are created to confirm that specified activities are performed as required, including testing of the Change Management process, and confirmation that log reviews and configuration reviews occur, alerts are responded to, and configurations are applied to systems per the standards. Procedures for conducting the review activity are detailed in the quarterly issues.
 
 ## Requirements
 

@@ -203,7 +203,7 @@ Enterprise Applications generates test data to be utilized during user acceptanc
 
 ### Step 3a. Create the UAT issue
 
-There is a UAT issue template in 
+There is a UAT issue template in
  [this directory](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=SKU-UAT-template). Open an issue in and use the `SKU UAT template`.
 
  **UAT Type**: This section is to determine whether this user acceptance testing is for an existing SKU or a new SKU.
@@ -236,7 +236,7 @@ Each team will need to confirm:
 - The team can test during the testing availability dates for that team established in the timeline alignment above
 - That they approve the test cases to be tested
 
-**Test Scenarios** 
+**Test Scenarios**
 <br> Use this section to link to the test cases
 
 **Bugs Identified**
@@ -321,7 +321,7 @@ Most bug resolution will be executed between the Testing DRI and Enterprise Appl
 
 ### Step 3f: Complete UAT and Cross Functional Approvals
 
-All [Testing DRIs] need to give their final sign-off and approval in the issue. 
+All [Testing DRIs] need to give their final sign-off and approval in the issue.
 
 Once completed, UAT is can be considered done
 

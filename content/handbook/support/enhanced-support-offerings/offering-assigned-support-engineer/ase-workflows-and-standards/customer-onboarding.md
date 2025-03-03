@@ -24,17 +24,17 @@ manage these as needed during the ASE contract.
 
 ### Auto-assign the customer's tickets
 
-Auto-assignment of customer tickets requires a named ASE for the organization in Zendesk. 
+Auto-assignment of customer tickets requires a named ASE for the organization in Zendesk.
 Support Managers will need to file a request using the
-[Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and 
-select the following options: 
+[Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and
+select the following options:
 
 - The `What is this request concerning?` option should be
   `Modifications to a Zendesk Global Organization` and the
   `What kind of modification are you looking to make?` should be
   `Set an Assigned Support Engineer for an organization`
 
-The request is automated and will create a tracking issue reflecting its status. 
+The request is automated and will create a tracking issue reflecting its status.
 
 ### Org Note mentioning the ASE and how to treat the ticket
 

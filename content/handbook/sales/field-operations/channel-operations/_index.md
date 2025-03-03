@@ -674,7 +674,7 @@ _The deal registration form is not a quoting tool and will not have all the info
 
 ### Service Attached Registration
 
-GitLab incentivizes Select partners and Designated Professional Services Partners (PSP) that sell their own professional services into a customer environment. The partner must submit service opportunities via a Service Attached Registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attached qualifications do not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. 
+GitLab incentivizes Select partners and Designated Professional Services Partners (PSP) that sell their own professional services into a customer environment. The partner must submit service opportunities via a Service Attached Registration on the [Partner Portal](https://partners.gitlab.com/English). Service Attached qualifications do not require license purchases through a services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners.
 
 Refer to the [program guidelines](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) for Service Attached Registration approval requirements. Select partners and PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. GitLab sellers qualify for partners services compensation upon approval of Service Attached Registration from a Designated Professional Services Partner (PSP). Refer to the [GitLab Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/) for further details.
 

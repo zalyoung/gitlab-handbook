@@ -51,7 +51,7 @@ Everyone in the Support Team is welcome to contribute or modify the suggestions 
    ```
 
 1. For lengthy or more complicated tickets, a more detailed summary can be very helpful. For example:
-   
+
    ```text
    ### Problem
    - States what exact issues the customer is experiencing

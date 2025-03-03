@@ -13,7 +13,7 @@ The Data Team Organization model is guided by three primary business needs:
 1. The need for **high-performance and reliable data storage and compute** platform to support distributed analyst teams.
 1. The need for centers of excellence for **data technologies** and **advanced analytics**.
 1. The need for flexible data solutions driven by varying **urgency and quality** requirements.
-1. The need to foster **trust, compliance and value driven** insights. 
+1. The need to foster **trust, compliance and value driven** insights.
 
 Based on these needs, the Data Team is organized in the following way:
 
@@ -21,7 +21,7 @@ Based on these needs, the Data Team is organized in the following way:
 1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
-1. **[Data Governance and Data Quality Team](/handbook/enterprise-data/):** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement. 
+1. **[Data Governance and Data Quality Team](/handbook/enterprise-data/):** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement.
 
 ## Data Pod Assignments
 

@@ -71,7 +71,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 ### SPS Customer Onboarding Artefacts
 
-0. Account Context & Technical Documentation Template 
+0. Account Context & Technical Documentation Template
    1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members..
    2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
    3. Tip: you can organise a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call

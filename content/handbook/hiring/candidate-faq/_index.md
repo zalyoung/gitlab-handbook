@@ -174,7 +174,7 @@ Please note that not every member of the team will be observing that holiday, so
 1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email ces@gitlab.com anytime.
 {{% /details %}}
 
-### GitLab's interview recording policy 
+### GitLab's interview recording policy
 
 As part of our commitment to creating an open and comfortable interview environment, interviews may not be recorded in any format. This policy helps ensure authentic conversations and protects the privacy of all participants.
 

@@ -5,7 +5,7 @@ description: "Learn more about working with Simon Mundy, VP Corporate Controller
 
 ## Why I'm at GitLab
 
-I am at GitLab as I believe in the huge market opportunity and best in class fundamentals that the Company offers. I have always focused on roles at platform based Company’s, and thus GitLab’s mission to replace multiple point solutions resonates with me. 
+I am at GitLab as I believe in the huge market opportunity and best in class fundamentals that the Company offers. I have always focused on roles at platform based Company’s, and thus GitLab’s mission to replace multiple point solutions resonates with me.
 
 ## My Personal Values
 
@@ -21,11 +21,11 @@ I am at GitLab as I believe in the huge market opportunity and best in class fun
 
 ## My Weaknesses
 
-1. **Impatience** - When issues or projects come up I have a bias for action and want clarity and a path forward as quickly as possible. 
+1. **Impatience** - When issues or projects come up I have a bias for action and want clarity and a path forward as quickly as possible.
     - How to help me manage this: give me a clear timeline of a pathway to resolution. If the resolution date is unknown, clarify what dependencies there are and when those dependencies are expected to be known. Provide regular updates proactively. This will give me confidence the issue is being addressed and you are on top of it.
-1. **Switching off** - I have difficulty switching off and often times will think about work matters on days off. This may result in questions in Slack on non-work days while it is top of mind for me. 
-    - How to help me manage this: do not feel obligated to respond immediately if I message after hours. If something is urgent I will make it known. 
-1. **Perceived availability** - I am in back to back meetings most days and as a result do not get to spend as much time as I would like with individual team members. 
+1. **Switching off** - I have difficulty switching off and often times will think about work matters on days off. This may result in questions in Slack on non-work days while it is top of mind for me.
+    - How to help me manage this: do not feel obligated to respond immediately if I message after hours. If something is urgent I will make it known.
+1. **Perceived availability** - I am in back to back meetings most days and as a result do not get to spend as much time as I would like with individual team members.
     - How to help me manage this: just because there is no meeting on the calendar, does not mean I am unavailable or uninterested. Please feel free to reach out over Slack if you would like to chat through anything at any time. I am busy, but supporting my team is of the utmost importance to me. We only drive results and efficiencies by working together, so help me, help you.
 
 ## My Expectations of Everyone
@@ -54,7 +54,7 @@ I am at GitLab as I believe in the huge market opportunity and best in class fun
 ## Communication Preferences
 
 1. Primary Channel: Slack is my preferred method of communication
-1. Meetings: 
+1. Meetings:
     - Please contact Sarah Hobbs, my EBA, if you need help getting time on my calendar
     - Meetings should have a prepopulated agenda
 1. Email: Not a fan of long email chains - let's move lengthy discussions to Slack or a meeting

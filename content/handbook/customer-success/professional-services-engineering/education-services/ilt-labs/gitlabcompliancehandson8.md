@@ -11,7 +11,7 @@ This lab will outline how to access the various compliance reports, including au
 
 ## Task A. Viewing Compliance Reports and Permissions
 
-1. Navigate to your project. 
+1. Navigate to your project.
 
 1. In the left sidebar, select **Secure > Compliance center**.
 

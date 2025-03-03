@@ -188,7 +188,7 @@ During on call period, support requests should be acknowledge within 24h.
 ### Responsibilities of lead engineer in support
 
 - Triage [Requests for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acustom%20models&first_page_size=20).
-- Monitor income requests on [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel. 
+- Monitor income requests on [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 - Make sure requests for help issues are created.
 - Answer support questions on slack, redirecting to our documentation whenever possible.
 - Join customer calls led by Solution Architects or Sales representatives when needed, and own the communication with the customer until it's resolved or handed over to a support engineer.

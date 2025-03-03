@@ -10,7 +10,7 @@ Hello! I’m Nico Sandoval. I’m a Business Systems Analyst with the [Enterpris
 
 ### About me
 
-- I currently reside in South Florida but I'am from Cali, Colombia. 
+- I currently reside in South Florida but I'am from Cali, Colombia.
 - I’m bilingual, fluent in Spanish and English.
 - I love cooking and grilling for family and friends.
 - I enjoy swimming and working out.

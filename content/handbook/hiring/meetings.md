@@ -46,16 +46,16 @@ We have outlined and defined our productivity metrics for recruiters to adequate
 | Screens per Week   | Number of recruiter phone screens at or above 12 per week.|
 | Conversion Rates | Consistent management against industry benchmarks for candidate conversion through the funnel to ensure we are running a quality recruitment process. <br> Targets for 'on track' status include  Initial > Team interview (40-50%), Team Interview > Offer (25-33%), and Offer > Hire (75-85%).|
 
-### Important Health Metrics 
+### Important Health Metrics
 
 In addition to our productivity metrics above, we have a number of other important metrics that we use as signals to understand  if our recruiting motion is considered 'healthy'.
 
 1. **Sourcing Rate %**: Percentage of outreach made with a sourcing strategy targeting building representation into top of funnel. Our goal is to maintain activity above 50% consistently.
 1. **Source Mix**: Percentage of hires made from applications vs. referrals vs. passively sourced candidates. Our goal is to maintain a balanced mix quarter over quarter at the team level.
-1. **Time to Fill**: The average number of days from a role opening to a candidate signing an offer and being marked as hired. Our goal is to remain under 75 days TTF consistently. 
-1. **Team Interview Count**: Total number of team interviews. Our goal is to keep a healthy ratio of team interviews to open roles. 
+1. **Time to Fill**: The average number of days from a role opening to a candidate signing an offer and being marked as hired. Our goal is to remain under 75 days TTF consistently.
+1. **Team Interview Count**: Total number of team interviews. Our goal is to keep a healthy ratio of team interviews to open roles.
 1. **Offer Acceptance Rate**: The percentage of candidates that accept an offer against total offers extended. Our goal is to hold an average AR above 75%.
-1. **Candidate Throughput**: The average time it takes a candidate to move through our interview process to hire. Target to keep this metric below 75 days consistently. 
+1. **Candidate Throughput**: The average time it takes a candidate to move through our interview process to hire. Target to keep this metric below 75 days consistently.
 
 ## Reporting Tools
 

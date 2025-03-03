@@ -22,13 +22,13 @@ For issues tracked in the team's issue tracker or other `gitlab-com/gl-infra` pr
 
 Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216).
 
-Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`. 
+Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`.
 
 ##### Workflow Label Mappings
 
 The following are the `workflow::*` and `workflow-infra::*` labels that we use and how they map to each other.
 
-| `gitlab-org` issues | `gitlab-com/gl-infra` issues | 
+| `gitlab-org` issues | `gitlab-com/gl-infra` issues |
 | ---------- | ------------------  |
 | ~"workflow::refinement" | ~"workflow-infra::Triage" |
 | ~"workflow::ready for development" | ~"workflow-infra::Ready" |
@@ -42,7 +42,7 @@ The following are the `workflow::*` and `workflow-infra::*` labels that we use a
 
 We use the following guidelines for denoting when an issue is blocked:
 
-- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency. 
+- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency.
 - If an issue was started but requires further input, completion of another issue, etc before progressing, we use `workflow::blocked`.
 
 #### Weekly Review

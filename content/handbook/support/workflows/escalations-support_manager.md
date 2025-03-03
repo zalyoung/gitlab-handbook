@@ -27,8 +27,8 @@ The Support Manager DRI has the following goals:
 
 1. Minimize uncertainties by turning them into well defined risks
 1. Help define a set of exit criteria (goals) for the escalation, and guide the efforts of the Support team to work toward achieving those criteria
-1. Appoint the Lead Support Engineer and sync with the Escalation DRI on the action plan 
-1. Provide timely updates in the escalation Slack channel with other critical details tied to the Escalation 
+1. Appoint the Lead Support Engineer and sync with the Escalation DRI on the action plan
+1. Provide timely updates in the escalation Slack channel with other critical details tied to the Escalation
 1. Work with the Escalation DRI on the Escalation retrospective issue once an escalation is closed
 
 ## Uncertainty

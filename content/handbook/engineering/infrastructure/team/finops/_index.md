@@ -21,7 +21,7 @@ We focus on several key activities:
 
 ## How We Work
 
-If something requires immediate attention, please tag the relevant person/team in the GitLab issue and include a clear description of the urgency. 
+If something requires immediate attention, please tag the relevant person/team in the GitLab issue and include a clear description of the urgency.
 DMs and ad-hoc requests can lead to duplicated work or missed context and should be avoided in favor of formal issue submission. Slack should be used primarily for quick clarifications or urgent escalations but not for initiating work requests.
 
 Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview).

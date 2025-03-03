@@ -8,7 +8,7 @@ description: >-
 
 ## Mart_crm_attribution_touchpoint
 
-The Attribution Touchpoint mart is the consolidated repository of Marketo Measure’s (Bizible’s) Attribution Touchpoint data. An Attribution Touchpoint is a touchpoint associated with an Opportunity in SFDC. This mart allows you to analyze engagement by Opportunity and/or Account during the entire lifecycle of either. 
+The Attribution Touchpoint mart is the consolidated repository of Marketo Measure’s (Bizible’s) Attribution Touchpoint data. An Attribution Touchpoint is a touchpoint associated with an Opportunity in SFDC. This mart allows you to analyze engagement by Opportunity and/or Account during the entire lifecycle of either.
 
 ### Use Cases
 
@@ -18,13 +18,13 @@ The Attribution Touchpoint mart is the consolidated repository of Marketo Measur
 ### Key Fields
 
 1. Attribution Touchpoint
-   1. The record of engagement, captured through Bizible (Marketo Measure) that is associated with an Opportunity in SFDC. 
+   1. The record of engagement, captured through Bizible (Marketo Measure) that is associated with an Opportunity in SFDC.
 1. Net ARR
    1. Definition
 1. Attribution Models
    1. [Bizible-defined](https://experienceleague.adobe.com/en/docs/marketo-measure/using/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models)
    1. Linear
-      1. An even distribution of weight/attribution split amongst every touchpoint related to the record. 
+      1. An even distribution of weight/attribution split amongst every touchpoint related to the record.
 1. Is MGP Channel Based
    1. At least 2 unique marketing channel touchpoints for First Order and 3 unique marketing channel touchpoints for Growth opportunities, within a window of 365 days before Pipeline Created Date
 1. Is MGP Opportunity
@@ -33,18 +33,18 @@ The Attribution Touchpoint mart is the consolidated repository of Marketo Measur
 1. Time Decay Model Weight
 1. Data Driven Model Weight
 1. Touchpoint Sales Stage
-   1. The Sales funnel stage the touchpoint occurred in. 
+   1. The Sales funnel stage the touchpoint occurred in.
 1. Is FMM Influenced
-   1. Whether a given touchpoint is influenced by FMM effort. 
+   1. Whether a given touchpoint is influenced by FMM effort.
 1. Is FMM Sourced
-   1. Whether a given touchpoint is sourced by FMM effort. 
+   1. Whether a given touchpoint is sourced by FMM effort.
 
 ### Key Metrics
 
 1. Attributed Weight
-   1. The weight of a given touchpoint, based on which attribution model you are looking at. 
+   1. The weight of a given touchpoint, based on which attribution model you are looking at.
 1. Attributed Net ARR
-   1. The attributed net arr, based on which attribution model you are looking at. 
+   1. The attributed net arr, based on which attribution model you are looking at.
 
 ### Data Lineage
 
@@ -64,12 +64,12 @@ The dbt solution generates a dimensional model from RAW source data. The excepti
 
 ## Mart_crm_event
 
-The SFDC Event mart is the organized and formatted consolidation of Event data from SFDC. Events are a form of Activity in SFDC, usually associated with meetings (digital or in-person). 
+The SFDC Event mart is the organized and formatted consolidation of Event data from SFDC. Events are a form of Activity in SFDC, usually associated with meetings (digital or in-person).
 
 ### Use Cases
 
 1. Volume/timeline of Events in the Opportunity lifecycle
-1. Efficacy of a given Event in progressing an Opportunity towards Closed Won. 
+1. Efficacy of a given Event in progressing an Opportunity towards Closed Won.
 
 ### Key Fields
 
@@ -87,11 +87,11 @@ The SFDC Event mart is the organized and formatted consolidation of Event data f
 
 ### DBT Solution
 
-The dbt solution generates a dimensional model from RAW source data. 
+The dbt solution generates a dimensional model from RAW source data.
 
 ## Mart_crm_person
 
-The seamless combination of SFDC Leads and Contacts into a consolidated Person object. This mart allows for quick and easy access to both SFDC objects in a single table. It also integrates information from Bizible/Marketo Measure, Marketo, and IDs from other GitLab Tech Stack sources. 
+The seamless combination of SFDC Leads and Contacts into a consolidated Person object. This mart allows for quick and easy access to both SFDC objects in a single table. It also integrates information from Bizible/Marketo Measure, Marketo, and IDs from other GitLab Tech Stack sources.
 
 ### Use Cases
 
@@ -128,12 +128,12 @@ The dbt solution generates a dimensional model from RAW source data. The excepti
 
 ## Mart_crm_tasks
 
-The SFDC Tasks mart is the organized and formatted consolidation of Task data from SFDC. Tasks are usually notes from the Sales Dev or Sales team on actions taken or engagements that took place. 
+The SFDC Tasks mart is the organized and formatted consolidation of Task data from SFDC. Tasks are usually notes from the Sales Dev or Sales team on actions taken or engagements that took place.
 
 ### Use Cases
 
 1. Volume/timeline of Tasks in the Opportunity lifecycle
-1. Efficacy of a given Task in progressing an Opportunity towards Closed Won. 
+1. Efficacy of a given Task in progressing an Opportunity towards Closed Won.
 
 ### Key Fields
 
@@ -151,11 +151,11 @@ The SFDC Tasks mart is the organized and formatted consolidation of Task data fr
 
 ### DBT Solution
 
-The dbt solution generates a dimensional model from RAW source data. 
+The dbt solution generates a dimensional model from RAW source data.
 
 ## Mart_crm_touchpoint
 
-The Person/Buyer Touchpoint mart is the consolidated repository of Marketo Measure’s (Bizible’s) Person/Buyer Touchpoint data. A Person/Buyer Touchpoint is an engagement associated with a Person (Lead/Contact) based on the rules set by the organization for important/capturable engagements. 
+The Person/Buyer Touchpoint mart is the consolidated repository of Marketo Measure’s (Bizible’s) Person/Buyer Touchpoint data. A Person/Buyer Touchpoint is an engagement associated with a Person (Lead/Contact) based on the rules set by the organization for important/capturable engagements.
 
 ### Use Cases
 
@@ -165,20 +165,20 @@ The Person/Buyer Touchpoint mart is the consolidated repository of Marketo Measu
 ### Key Fields
 
 1. Buyer (Person) Touchpoint
-   1. The record of engagement, captured through Bizible (Marketo Measure) that is associated with a Person (Lead/Contact) in SFDC. 
+   1. The record of engagement, captured through Bizible (Marketo Measure) that is associated with a Person (Lead/Contact) in SFDC.
 1. Attribution Models
    1. [Bizible-defined](https://experienceleague.adobe.com/en/docs/marketo-measure/using/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models)
    1. Linear
-      1. An even distribution of weight/attribution split amongst every touchpoint related to the record. 
+      1. An even distribution of weight/attribution split amongst every touchpoint related to the record.
 1. Is FMM Influenced
-   1. Whether a given touchpoint is influenced by FMM effort. 
+   1. Whether a given touchpoint is influenced by FMM effort.
 1. Is FMM Sourced
-   1. Whether a given touchpoint is sourced by FMM effort. 
+   1. Whether a given touchpoint is sourced by FMM effort.
 
 ### Key Metrics
 
 1. Attributed Weight
-   1. The weight of a given touchpoint, based on which attribution model you are looking at. 
+   1. The weight of a given touchpoint, based on which attribution model you are looking at.
 
 ### Data Lineage
 

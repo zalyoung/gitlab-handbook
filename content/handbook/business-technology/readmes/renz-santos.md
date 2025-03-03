@@ -18,7 +18,7 @@ My GitLab journey began on April 2023 where I was onboarded as a contractor and 
 
 ### My Work Style
 
-I enjoy collaboration and open-style dialogue to exchange ideas and solve problems. I approach every problem with a positive attitude and even if I don't have a solution on top of my mind, I strive to find solutions to it right away by either ramping up my skills/knowledge to the required systems. I treat each requests/projects with utmost importance regardless of how small/big the work is. I'm also approchable so you can engage me with any questions/feedback to work/non-work related topics. 
+I enjoy collaboration and open-style dialogue to exchange ideas and solve problems. I approach every problem with a positive attitude and even if I don't have a solution on top of my mind, I strive to find solutions to it right away by either ramping up my skills/knowledge to the required systems. I treat each requests/projects with utmost importance regardless of how small/big the work is. I'm also approchable so you can engage me with any questions/feedback to work/non-work related topics.
 
 ### Communication Style
 

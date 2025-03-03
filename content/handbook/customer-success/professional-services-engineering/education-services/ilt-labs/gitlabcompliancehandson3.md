@@ -19,7 +19,7 @@ In this task, you will enable push rules in your repository to ensure that pushe
 
 For this example, we want to ensure that every commit is targeted towards an issue in the project. Having the issue ID present in the commit message ensures that all activity related to the issue is logged in the issue. To do this, we can enforce an expression to ensure every commit message contains either an epic or an issue ID.
 
-1. In the **Require expression in commit messages**, add the regular expression: `^.*(#\d+|&\d+).*`. The regular expression will match the string based on the pattern: 
+1. In the **Require expression in commit messages**, add the regular expression: `^.*(#\d+|&\d+).*`. The regular expression will match the string based on the pattern:
 
     - ^ - Matches the start of the string
     - .* - Matches any character (except newline) zero or more times
@@ -37,7 +37,7 @@ To test this, let's first create a new issue in our project.
 
 1. Select **New issue**.
 
-1. In the issue title, input `Create compliance frameworks`. 
+1. In the issue title, input `Create compliance frameworks`.
 
 1. Leave all other options as default and select **Create issue**.
 
@@ -47,7 +47,7 @@ Now, let's create a commit and see how our push rules impacts our commit message
 
 1. Select **+ > New file**.
 
-1. In the **Filename**, input the title `compliance_plan.txt`. 
+1. In the **Filename**, input the title `compliance_plan.txt`.
 
 1. Without changing the **Commit message** or **Target Branch**, select **Commit changes**.
 
@@ -59,7 +59,7 @@ Now, let's create a commit and see how our push rules impacts our commit message
 
 > You may need to re-enter the name of the file before committing.
 
-1. Select **Commit changes**. 
+1. Select **Commit changes**.
 
     > Now, your commit will complete successfully. From here, you can navigate back to your issues to see that the commit is tracked in the issue now.
 
@@ -95,13 +95,13 @@ With this change, now no one can directly push to main. Only merges into main ar
 
 ## Task C. Cleaning Up Rules
 
-Before proceeding to the next set of labs, it's recommended to remove the commit message rules in your repository, as well as the rule that prevents pushing on the main branch. This will prevent any issues of preventing commits due to violations. 
+Before proceeding to the next set of labs, it's recommended to remove the commit message rules in your repository, as well as the rule that prevents pushing on the main branch. This will prevent any issues of preventing commits due to violations.
 
 1. In the left sidebar, select **Settings > Repository**.
 
 1. Expand the **Push rules** section.
 
-1. Remove the content in **Require expression in commit message**. 
+1. Remove the content in **Require expression in commit message**.
 
 1. Select **Save push rules**.
 

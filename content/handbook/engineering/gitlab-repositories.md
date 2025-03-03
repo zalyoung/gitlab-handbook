@@ -95,7 +95,7 @@ If a job requires the usage of Windows, SaaS runners on Windows should be used. 
 
 To publish a project to a package repository, please follow [these directions](/handbook/engineering/developer-onboarding/#ruby-gems).
 
-### Further Security Recommendations 
+### Further Security Recommendations
 
 1. Strongly consider [creating a threat model](/handbook/security/product-security/application-security/threat-modeling/howto/) for the project.
 1. Consider requesting an [AppSec review](/handbook/security/product-security/application-security/appsec-reviews/) when the project is more established.

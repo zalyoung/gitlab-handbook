@@ -4,9 +4,9 @@ title: Level Up
 
 ## Leveling Up Level Up
 
-Get ready for **HUGE** changes coming to learning technology for GitLab team members! We are upgrading the technology solution that powers Level Up to better support the pace, demand, complexity, and CULTURE of GitLab. This overhaul will allow team members to engage around learning in a COMPLETELY different way. 
+Get ready for **HUGE** changes coming to learning technology for GitLab team members! We are upgrading the technology solution that powers Level Up to better support the pace, demand, complexity, and CULTURE of GitLab. This overhaul will allow team members to engage around learning in a COMPLETELY different way.
 
-Learning today goes way beyond self-paced content, far passed webinars, leaps above documents; learning is much much more. And GitLab's new "**LevelUp**" (integrated talent EXPERIENCE platform) will show you just how dynamic learning, growth, skills development, and performance can go. 
+Learning today goes way beyond self-paced content, far passed webinars, leaps above documents; learning is much much more. And GitLab's new "**LevelUp**" (integrated talent EXPERIENCE platform) will show you just how dynamic learning, growth, skills development, and performance can go.
 
 Consider this page your LevelUp information highway. Over the coming weeks, you'll see updates, announcements, and rollout plans here.
 
@@ -35,7 +35,7 @@ The new Cornerstone TXP platform offers significant improvements over our curren
 - Enhanced management tools for training assignment and recommendations
 - Advanced user-generated content capabilities
 - Seamless integration with our talent management infrastructure, ensuring skills development is reflected in performance data
-- Skills library linked to GitLab job architecture 
+- Skills library linked to GitLab job architecture
 
 ## Project Team
 

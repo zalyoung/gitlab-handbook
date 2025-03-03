@@ -424,7 +424,7 @@ Workflow:
 - Post the MVP share on Twitter and LinkedIn
   - Add the URLs to the release evangelism issue
 - Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
-  - Suggested actions: Reshare/like, add a comment thanking for the contributions. 
+  - Suggested actions: Reshare/like, add a comment thanking for the contributions.
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 

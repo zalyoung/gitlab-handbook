@@ -45,42 +45,42 @@ GitLab must document and confirm PCI DSS scope at minimum every 6 months and aft
 
 ## Significant Changes
 
-PCI requirements 6.5.2, 11.3.1.3, 11.4.3, and 12.5.3 require GitLab to perform various tasks whenever significany change occur: 
+PCI requirements 6.5.2, 11.3.1.3, 11.4.3, and 12.5.3 require GitLab to perform various tasks whenever significany change occur:
 
 - 6.5.2 and 12.5.3: Upon completion of a significant change, all applicable PCI DSS requirements are confirmed to be in place on all new or changed systems and networks, and documentation is updated as applicable.
 - 11.3.1.3: Internal vulnerability scans are performed after any significant change as follows:
   - Vulnerabilities that are either high-risk or critical (according to the entity’s vulnerability risk rankings defined at Requirement 6.3.1) are resolved.
-  - Rescans are conducted as needed. 
+  - Rescans are conducted as needed.
   - Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
 - 11.4.3: External penetration testing is performed after any significant infrastructure or application upgrade or change.
 
 ### Significant Change Definition and Procedures
 
  GitLab has analyzed the types of changes in its environment and has determined the following to be considered significant changes, specifically, changes that could effect the security of systems in-scope for PCI.
- 
+
 **Infrastructure Changes:**
- 
+
 - Changes to cloud provider services
 - Changes to container orchestration platforms
 - Implementation of new cloud services that interact with the CDE
 - Rearchitecting application stack
- 
-**Access and Authentication Changes:** 
- 
+
+**Access and Authentication Changes:**
+
 - Changes to cloud-based authentication services
 
 **Data Flow Changes:**
- 
+
 - Changes in how cardholder data is processed or stored
 - Modifications to data encryption methods
 - New integrations that affect data flow
- 
+
 **Third-Party Services:**
 
 - New IaaS providers
 - Changes to existing cloud service provider agreements
 - New third-party integrations that affect the CDE
- 
+
 #### Additional Procedures for Significant Changes
 
 Significant Changes require additional procedures to ensure the continued security of the environment.

@@ -34,7 +34,7 @@ During the synchronous portion of the retro:
 1. the SE who responded to the emergency provides a brief timeline (while the person conducting the retro asks questions to fill in the gaps)
 1. the person conducting the retro and the SE who responded to the emergency work through what went well, what could have gone better and suggestions for what we might do or change
 1. if there are open questions or suggested possible action items in the retro issue
-    1. apply the `retro-actions` label 
+    1. apply the `retro-actions` label
     1. use `/due in 1 week` to set a due date for the issue
     1. assign the issue to the manager of the SE who responded to the emergency
 
@@ -47,7 +47,7 @@ The suggestions and findings of a retrospective will vary. Common findings inclu
 - check-in with PM in an existing issue or feature proposal
 - new knowledge base article
 - update to processes in handbook
-When opening issues or MRs related to a customer emergency retro, apply the `customer-retro` label. 
+When opening issues or MRs related to a customer emergency retro, apply the `customer-retro` label.
 
 ### Addressing Findings from Retros
 
