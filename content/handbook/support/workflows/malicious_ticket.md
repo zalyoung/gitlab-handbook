@@ -22,7 +22,7 @@ Malicious tickets could be attempts to:
 
 ## Warning signs
 
-Support engineers should be alert to these potential indicators of malicious intent:
+Although the following indicators will match legitimate behaviours of some clients, Support engineers should be alert to these potential indicators of malicious intent, especially when multiple of them are combined:
 
 ### Unusual ticket content
 
@@ -35,7 +35,7 @@ Support engineers should be alert to these potential indicators of malicious int
 
 - Excessive urgency or pressure to resolve quickly
 - Attempts to build personal rapport followed by requests for exceptions to policy
-- Reluctance to provide necessary information to troubleshoot
+- Reluctance to provide necessary information to troubleshoot (unless client has strict privacy restrictions like US Government or air gapped clients)
 - Requesting support for capabilities that seem unrelated to the customer's known use case
 
 ### Technical red flags
