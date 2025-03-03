@@ -41,7 +41,7 @@ This page outlines the DBO team's incident escalation policy.
 
    * NB2: This process is **NOT** a path to reach the DBO team for non-urgent issues that the Development, Security, and Support teams run into. For non-urgent issues, please reach out to the DBO team via our Slack (see Shortcut section above)
 
-   * NB3: The DBO on-shift is responsbile for coordianting warm handoffs during shift changes, especially when there is an ongoing, active incident.
+   * NB3: The DBO on-shift is responsbile for coordinating warm handoffs during shift changes, especially when there is an ongoing, active incident.
    
 
 ### Escalation
