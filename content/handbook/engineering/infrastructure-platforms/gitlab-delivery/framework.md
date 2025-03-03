@@ -92,6 +92,7 @@ Requests should be opened two or more business days before action is needed to e
 **It is important to note that only requests following the outlined process will be addressed. To ensure effectiveness and minimize disruption, we strongly discourage directly tagging team members in real-time on issues or customer requests.**
 
 Reference Architecture consultations will not include the following:
+
 1. No involvement in direct customer calls or communications.
 1. All requested data stated in the template must be proactively supplied.
 
