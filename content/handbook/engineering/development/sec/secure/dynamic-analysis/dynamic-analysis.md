@@ -305,7 +305,7 @@ An RFH issue can be closed under the following circumstances:
 
 - Acknowledge receipt of new RFH tickets promptly
 - Set clear expectations about resolution timeframes
-- Link related tickets or documentation when applicable
+- Link related issues or documentation when applicable
 - Provide detailed explanations when closing tickets to ensure knowledge transfer
 
 #### Ticket Status Monitoring
