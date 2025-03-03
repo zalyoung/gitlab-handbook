@@ -91,6 +91,10 @@ Requests should be opened two or more business days before action is needed to e
 
 **It is important to note that only requests following the outlined process will be addressed. To ensure effectiveness and minimize disruption, we strongly discourage directly tagging team members in real-time on issues or customer requests.**
 
+Reference Architecture consultations will not include the following:
+1. No involvement in direct customer calls or communications.
+1. All requested data stated in the template must be proactively supplied.
+
 ## Triage DRI
 
 The Triage DRI is a role established by the team to handle initial triage of questions and requests coming to the team. The Triage DRI process is intended to distribute knowledge and responsibilities across the team, and to prevent the same people from always being responsible for certain areas of the team's work.
