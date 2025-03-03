@@ -303,7 +303,7 @@ An RFH issue can be closed under the following circumstances:
 
 #### Best Practices
 
-- Acknowledge receipt of new RFH tickets promptly
+- Acknowledge receipt of new RFH issues promptly
 - Set clear expectations about resolution timeframes
 - Link related issues or documentation when applicable
 - Provide detailed explanations when closing issues to ensure knowledge transfer
