@@ -269,7 +269,14 @@ To resolve existing duplicates we need to -
   1. Determine which record to keep in case of duplicate, and add rake task to delete the appropriate data
   1. Add unique db constraint and model validation for subscription_name + zuora account id
 
-Subscription related data such as `start_date`, `end_date`, `quantity`, `amendment_type` can be delegated to the latest subscription found by name + zuora account id. The `zuora_subscription_id` could be set to the latest version on typical updates. Most of the data on `Order` is GitLab metadata (e.g. `last_extra_ci_minutes_sync_at`) so it wouldn't need to be updated.
+Subscription related data such as `start_date`, `end_date`, `quantity`, `amendment_type` can be delegated to the latest subscription.
+
+To find the latest subscription you just need its name:
+
+- ID refers to a specific version
+- Name is common for all versions of a subscription
+
+The `zuora_subscription_id` could be set to the latest version on typical updates. Most of the data on `Order` is GitLab metadata (e.g. `last_extra_ci_minutes_sync_at`) so it wouldn't need to be updated.
 
 1. Rename `Order` and/or `Subscription` (TBD)
 
