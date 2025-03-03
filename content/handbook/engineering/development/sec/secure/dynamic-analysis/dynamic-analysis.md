@@ -250,7 +250,7 @@ Every Tuesday, a calendar event with an attached agenda exists for a synchronous
 
 On top of our development roadmap, engineering teams need to perform tasks related to vulnerability management, support, maintenance, community contributions.
 
-The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab product milestones. When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
+The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
 ### Request For Help (RFH) Resolution Guide
 
@@ -317,10 +317,15 @@ Regular review of open RFH issues should be conducted to ensure no issues remain
 1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
+1. Check for new security releases of our dependencies and ensure we use them:
+   1. Upstream scanners (see [Updating an upstream scanner](/handbook/engineering/development/sec/secure/composition-analysis/#updating-an-upstream-scanner))
+   1. Container base images
+   1. Application dependencies
+   1. Programming language
 1. Refine scheduled security issues.
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!)
 
-### Vulnerability Management Process
+### Security vulnerabilities triaging process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
 
@@ -356,9 +361,13 @@ We use the Vulnerability Report with filters to focus on items matching [our pol
 For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. I
 > Refer to [Vulnerability status definitions](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
 
+##### Triaging vulnerabilities
+
+We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
+
 #### Dismissing a vulnerability
 
-When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FIPS image.
+When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FedRAMP image (fips).
 Select the "Dismiss" option from the vulnerability status options.
 Finally, make sure to comment on the vulnerability status change notification to explain why.
 
@@ -375,7 +384,7 @@ If the vulnerability impacts a dependency:
 
 Upon remediating a vulnerability, it will [automatically be moved to "Resolved"](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/merge_requests/8) status by the next scan.
 
-##### Support
+##### Responsibilities - Support
 
 1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/request-for-help).
