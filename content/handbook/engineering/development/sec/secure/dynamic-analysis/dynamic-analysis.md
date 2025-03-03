@@ -275,7 +275,7 @@ RFH issues can take a long time to resolve with numerous back and forth communic
 This prevents engineers from having to circle back and close out issues if the customer never responds.
 It also helps keep our KPIs looking good (how many RFHs are open, how long to resolve).
 
-An RFH ticket can be closed under the following circumstances:
+An RFH issue can be closed under the following circumstances:
 
 1. Confirmed resolution 
     - The customer has confirmed the issue has been resolved
