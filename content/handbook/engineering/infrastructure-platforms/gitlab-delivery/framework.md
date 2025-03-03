@@ -89,6 +89,8 @@ For any requests relating to customer environments, either proposed or existing,
 
 Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons.
 
+**It is important to note that only requests following the outlined process will be addressed. To ensure effectiveness and minimize disruption, we strongly discourage directly tagging team members in real-time on issues or customer requests.**
+
 ## Triage DRI
 
 The Triage DRI is a role established by the team to handle initial triage of questions and requests coming to the team. The Triage DRI process is intended to distribute knowledge and responsibilities across the team, and to prevent the same people from always being responsible for certain areas of the team's work.
@@ -105,7 +107,7 @@ The Triage DRI is a role established by the team to handle initial triage of que
 
 The Triage DRI role will be on a weekly rotation cadence. Regarding response time, we've set an aspirational goal of about one working day. It's important to note that this isn't a strict Service Level Agreement (SLA). We're viewing it more as a general guideline to aim for. We understand that sometimes things might take longer, and that's okay. The main goal is to have a reasonable timeframe for addressing inquiries and issues that come our way.
 
-It must be emphasized that the Triage DRI is not an escalation resource like Support, but rather an advisory one. The Triage DRI is there to provide advice and initial triage, not to be a replacement for Support or other teams.
+It must be emphasized that the Triage DRI is not an escalation resource like Support, but rather an advisory one. The Triage DRI is there to provide advice and initial triage, not to be a replacement for Support or other teams. Please see [schedule here](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/software-delivery-framework-issue-tracker/-/issues/52).
 
 ## Project Management
 
