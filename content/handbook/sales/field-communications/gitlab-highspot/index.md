@@ -189,6 +189,7 @@ Thought Industries (GitLab University in LevelUp) is the main hub for all traini
 **What are the differing goals of Highspot and PathFactory?**
 
 Similar to PathFactory, Highspot is a tool that can point customers to a set of relevant assets. In Highspot, users can create Pitch Templates with Pitch Styles (sometimes called Digital Sales Rooms) that curate a series of content into a customized experience for customers. Once sent, users can update DSRs for their customers and prospects for a customized, personalized experience. In general, the high-level goals for the two platforms are:
+
 1. **Highspot:** To connect with customers 1:1 as part of a campaign, initiative, event, general outreach, other CTA. Can support lead gen/outreach, but primarily used once a lead has become an SAO.
 
 1. **PathFactory:** To increase consumption/engagement with GitLab content in order to move prospects through the marketing funnel.
