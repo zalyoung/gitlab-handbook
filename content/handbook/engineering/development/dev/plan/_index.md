@@ -172,7 +172,7 @@ Testing that occurs during ongoing development. This is limited to subgroups or 
 
 ###### End-of-line testing
 
-End-of-line (EOL) testing is the final step before release to customers. It usually means enablement of the finished product on `gitlab-com` and `gitlab-org` and is accompanied by a method of collecting internal feedback, such as a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager, and only defects and fit & finish issues identified during testing should be addressed. 
+End-of-line (EOL) testing is the final step before release to customers. It usually means delivery of the finished product to all GitLab team-members by enabling it for the `gitlab-com` and `gitlab-org` groups. This is accompanied by collection of internal feedback, usually using a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager, and only defects and fit & finish issues identified during testing should be addressed.
 
 No new scope will be accepted at this time without significant justification and without restarting the testing period.
 
