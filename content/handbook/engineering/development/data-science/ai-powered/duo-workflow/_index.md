@@ -123,6 +123,11 @@ Team members should add any [planned time off](/handbook/people-group/paid-time-
 
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
 
+### Transparency with regards to Duo Workflow
+
+Due to the prominent nature of AI agents and the early development phase of Duo Workflow it is very important to consider our [SAFE Framework](https://handbook.gitlab.com/handbook/legal/safe-framework/) when it comes to information around Duo Workflow.
+Demo, Progress and sharing designs is ok, but feedback should be kept internal by default.
+
 ## 🔗 Useful Links
 
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/duo-workflow)
