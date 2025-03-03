@@ -258,9 +258,9 @@ These are the steps our People Connect team uses to send contracts to team membe
 
 - Relocation Contract and Mutual Termination Agreement Process for Germany
 
-The requirement for a wet ink signature in Germany, although removed for certain employment documents, will still apply to termination documents in order for them to be valid. If a team member is relocating *from* Germany resignation letter or a Mutual Termination Agreement (MTA) must be wet ink signed by an authorised signatory for the German entity.   
+The requirement for a wet ink signature in Germany, although removed for certain employment documents, will still apply to termination documents in order for them to be valid. If a team member is relocating *from* Germany resignation letter or a Mutual Termination Agreement (MTA) must be wet ink signed by an authorised signatory for the German entity.
 
-Once a Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to an authorised signatory for the German entity to have them physically sign and mail the documents. 
+Once a Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to an authorised signatory for the German entity to have them physically sign and mail the documents.
 
 1. Stage the documents for signature in DocuSign. This document will be sent to the Signatory first and then to the team member.
 

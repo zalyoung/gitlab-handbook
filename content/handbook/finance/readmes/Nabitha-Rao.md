@@ -37,10 +37,10 @@ description: "Learn more about working with Nabitha Rao, VP IT EntApps"
 
 ## My Role
 
-1. Drive and align business objectives and delivery value through technology. Advancing our technology ecosystem is a continuous evolution of strategic refinement, aligning our digital capabilities where technology and organizational culture grow together. 
+1. Drive and align business objectives and delivery value through technology. Advancing our technology ecosystem is a continuous evolution of strategic refinement, aligning our digital capabilities where technology and organizational culture grow together.
 1. My team's vision is to: Be a trusted business partner providing world-class solutions and value. By providing a stable, secure, compliant, simple and highly integrated solutions ecosystem to empower business with technology and services that enables productivity to fuel GitLab growth.
 
 ## Communication Preferences
 
-1. I am responsive on all mediums: Slack, Google Workspace, Meetings, Email and Phone (Emergencies).  I will always do my best to acknowledge all inquiries or delegate to someone on my team to provide responses within 24 hours. 
+1. I am responsive on all mediums: Slack, Google Workspace, Meetings, Email and Phone (Emergencies).  I will always do my best to acknowledge all inquiries or delegate to someone on my team to provide responses within 24 hours.
 1. If you have any questions, please reach out to me or schedule a coffee chat. Please contact Anita Mall (EBA) for assistance with scheduling.

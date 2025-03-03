@@ -7,10 +7,10 @@ title: SA Opportunity Hygiene
 [**Sales Force Technical Recording Requirements**](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/)
 
 1. Validate that for the **accounts** you are working on, you are set as the Solutions Architect.
-1. Validate that for the **opportunities** you are working on, you are set as the [Primary Solutions Architect](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#primary-solutions-architect).   
+1. Validate that for the **opportunities** you are working on, you are set as the [Primary Solutions Architect](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#primary-solutions-architect).
 1. Update your [SA Next Steps](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-next-steps) in the Opportunities you are working on, in the current Quarter.
 1. Ensure that for opportunities in Tech Eval (Stage 3), that you have set the [SA Validated Tech Eval Start Date](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation-start-date) once you have begun engaging with a prospect or customer on an explicit solution evaluation.
-1. Ensure you have created a [corresponding POV object in Salesforce](/handbook/solutions-architects/tools-and-resources/pov/#tracking-a-pov-in-salesforce), if you log POV related activities.    
+1. Ensure you have created a [corresponding POV object in Salesforce](/handbook/solutions-architects/tools-and-resources/pov/#tracking-a-pov-in-salesforce), if you log POV related activities.
 1. Ensure that for opportunities with completed Tech Eval you have set the [SA Validated Tech Eval End Date](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation-end-date), [Closed Status](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation-close-status) & [Closed Details](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation-close-details).
 1. **NEW** Record the [Technical Health and Feasibility ratings](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#technical-health-and-feasibility-rating) on your opportunities to be discussed during your 1:1's.
 

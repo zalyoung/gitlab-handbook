@@ -36,7 +36,7 @@ description: "This page discusses the Internal Hiring Process"
     - Once you have received a reply on eligibility please continue with the steps below
     - If they have additional questions, they may reach out to the team member's current PBP.
 - For promotions through the internal mobility process (upward movement from one job grade to another), tag the department specific People Business Partner in the notes section of Greenhouse to ensure they are aligned before moving forward with the offer. Additionally, confirm that the offer has been approved by the skip-level leader of the new role.
-- Once the Recruiter has confirmed the eligibility status via HelpLab (and the team member is confirmed eligible) the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process. This includes ensuring they have notified their current manager. 
+- Once the Recruiter has confirmed the eligibility status via HelpLab (and the team member is confirmed eligible) the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process. This includes ensuring they have notified their current manager.
 - If a team member is not eligible, the Recruiter will send the appropriate decline email template.
 - The recruiter will also review the team member’s current compensation (found in Workday) to ensure they are in line with the salary range and budget for the role.
 - If a team member's current compensation exceeds the budget and/or salary range for the role (due to level or different job family), the recruiter will inform the team member of a potential change to their compensation before completing any team interviews.  
@@ -66,7 +66,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 - What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page [here](/handbook/people-group/promotions-transfers/#internal-transfer-start-date) for some suggestions on transition timelines.
 - Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they'll be able to have a smooth transition between roles.
 - I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks!
-- If the hiring team would like to move forward with an offer, the Recruiter will access the team members current compensation in Workday to create the offer (in partnership with the hiring manager). Any confirmation on equity would need to be verified by the Total Rewards team separately. 
+- If the hiring team would like to move forward with an offer, the Recruiter will access the team members current compensation in Workday to create the offer (in partnership with the hiring manager). Any confirmation on equity would need to be verified by the Total Rewards team separately.
 - Once an internal candidate verbally accepts an offer, the Recruiter will notify CES to get the Job Change Letter (JCL) to the team member.
 
 ## CES Responsibilities

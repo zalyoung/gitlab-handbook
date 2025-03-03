@@ -259,12 +259,12 @@ Turn any Slack message into an actionable Asana task with just a few clicks. A f
 
 ### Google Workspace
 
-#### Google Docs & Sheets 
+#### Google Docs & Sheets
 
 Connection will allow you to paste Asana projects/tasks and have them format well within the doc. To create tasks, you must use the Chrome Extension.
 
 #### G-Mail
- 
+
 Turn emails into tasks by syncing email threads into Asana. You can also mark tasks as complete, reply and post comments from notifications sent to your inbox.
 
 #### Google Drive

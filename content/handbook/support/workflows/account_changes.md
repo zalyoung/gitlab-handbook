@@ -260,7 +260,7 @@ The action of impersonation is in accordance with our [Confidentiality Terms of 
 
 ## Account changes for users that cannot login due to SCIM or SAML misconfiguration
 
-When a user is reaching out to support to change their usernames or delete their account in order to be re-provision by an IdP, please always revert them to self-serve options first: 
+When a user is reaching out to support to change their usernames or delete their account in order to be re-provision by an IdP, please always revert them to self-serve options first:
 
 ### Self-serve options
 
@@ -269,7 +269,7 @@ When a user is reaching out to support to change their usernames or delete their
 
 ### Password reset not received
 
-If a user cannot self-serve because the option ["Disable password authentication for enterprise users"](https://docs.gitlab.com/user/group/saml_sso/#disable-password-authentication-for-enterprise-users) is enabled on the top level group, please follow the steps below: 
+If a user cannot self-serve because the option ["Disable password authentication for enterprise users"](https://docs.gitlab.com/user/group/saml_sso/#disable-password-authentication-for-enterprise-users) is enabled on the top level group, please follow the steps below:
 
 1. Confirm "Disable password authentication for enterprise users" is enabled on the top level group.
 1. Ask Owner to temporary disable the option in the group so the user can regain access.

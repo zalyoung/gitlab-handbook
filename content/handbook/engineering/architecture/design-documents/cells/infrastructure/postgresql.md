@@ -255,7 +255,7 @@ The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration 
 
 ##### Evaluate Changes Over the Dedicated Deployment
 
-- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
+- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping.
 - Evaluate offloading read operations to Standby Replicas.
 - Evaluate "Enable auto minor version upgrade".
 - Assess performance improvements with the "Dedicated Log Volume.".

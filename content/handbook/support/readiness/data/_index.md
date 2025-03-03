@@ -14,8 +14,8 @@ There are a few people who are routinely involved in serving the data needs of S
 |-------------------------------------------------------|---------------------------------------|---------------------------|
 | [Lyle Kozloff](https://gitlab.com/lyle)               | Director of Support, Global Readiness and Acting Support Operations Manager | Leadership |
 | [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Support Readiness Specialist         | Operations |
-| [Melissa Magoma](https://gitlab.com/Melissa_Magoma)   | Support Readiness Specialist         | Service Delivery | 
-| [Ilia Kosenko](https://gitlab.com/Ikosenko)           | Support Engineering Manager          | Data | 
+| [Melissa Magoma](https://gitlab.com/Melissa_Magoma)   | Support Readiness Specialist         | Service Delivery |
+| [Ilia Kosenko](https://gitlab.com/Ikosenko)           | Support Engineering Manager          | Data |
 
 ## Data Visualization Guidelines
 

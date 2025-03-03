@@ -64,7 +64,7 @@ Interested reviewers should check in regularly with their manager/mentor to disc
 
 You can also open a **trainee maintainer issue** using this [template](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/issue_templates/trainee-maintainer.md) allowing you to build up examples that will translate into your final merge request.
 
-#### Merge request feedback for reviewers 
+#### Merge request feedback for reviewers
 
 After each review is complete, the reviewer should write up a justification about why they believe the merge request is ready to merge. This justification is then reviewed by the maintainer and if the maintainer agrees with the justification they should add a 👍 reaction to the comment, even if they have additional non-blocking comments. The maintainer should leave a comment highlighting any blocking concerns that were missed in the initial review.
 
@@ -92,7 +92,7 @@ Before merging, the manager/mentor should:
 **If the manager/mentor receives private feedback indicating the reviewer is not ready to become a maintainer**:
 
 1. The manager/mentor should review the concerns raised and decide whether it's substantial enough to close the merge request.
-1. The manager/mentor could then close the merge request with a comment about there being feedback for the reviewer to work on, but keep the feedback confidential. 
+1. The manager/mentor could then close the merge request with a comment about there being feedback for the reviewer to work on, but keep the feedback confidential.
 1. The manager/mentor would provide the feedback directly to the reviewer in a one-to-one conversation. This approach allows the reviewer to address the gaps before being re-submitted for maintainer status. The earlier the manager/mentor can solicit and receive this feedback, the better.
 
 Handling disagreements in maintainer readiness:

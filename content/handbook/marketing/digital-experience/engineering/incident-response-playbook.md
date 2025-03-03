@@ -84,8 +84,8 @@ We now use [incidents](https://docs.gitlab.com/ee/operations/incident_management
     3. Pacific Timezone (UTC−8):
         1. [Javier Garcia](https://gitlab.enterprise.slack.com/team/U014QDEP73L)
 1. Incident created by DEX team member based on the project. For example, an outage in the Buyer Experience project would be created [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new?issuable_template=root-cause-analysis&issue%5Bissue_type%5D=incident#). Note: Any time we would create an issue for an outage, **create an incident instead**. Make sure we open incidents in the appropriate project as this affects our reporting and metrics. As a general rule, an incident should be created if we are [circumventing the triage process](/handbook/marketing/digital-experience/#labels-and-workflow-boards), there is no existing open issue, and our site uptime is affected.
-    1. Consider filling the Severity, and [Timeline Events](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) when appropriate. 
-    1. After the incident is resolved, you may close the incident. This is what affects our time to resolve outage metric(Time to Resolve = Time Incident was closed - Time Incident was opened). 
+    1. Consider filling the Severity, and [Timeline Events](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) when appropriate.
+    1. After the incident is resolved, you may close the incident. This is what affects our time to resolve outage metric(Time to Resolve = Time Incident was closed - Time Incident was opened).
 
 _Call on the phone if no response within 15 minutes_
 

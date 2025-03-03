@@ -269,16 +269,16 @@ GitLab is successfully partnering with top cloud and LLM providers, including Am
 
 - Messaging and Positioning: Partner to develop internal and external-facing better together messaging that delivers on the strengths, key differentiators, and customer value of our partnerships.
 - Content: Drive the creation of relevant partnership content, including joint customer success stories, blog posts, whitepapers, and webinars, .
-- Event Planning and Execution: Conceptualize and manage partnership presence and activation at owned and third-party events. 
-- Integrated Campaigns: Develop and manage marketing campaigns that drive awareness of our partnerships and contribute to marketing pipeline. 
+- Event Planning and Execution: Conceptualize and manage partnership presence and activation at owned and third-party events.
+- Integrated Campaigns: Develop and manage marketing campaigns that drive awareness of our partnerships and contribute to marketing pipeline.
 - Collaboration: Be the face of partner marketing, building strong and productive relationships with our partner marketing and sales organizations, and GitLab colleagues.
 
 ### Requirements
 
-- 10+ years enterprise software marketing experience, ideally working with software partners. 
-- Product marketing or product management experience is required. 
+- 10+ years enterprise software marketing experience, ideally working with software partners.
+- Product marketing or product management experience is required.
 - Understanding of Agile and DevOps methodologies across the entire Software Development Lifecycle, especially in large enterprise environments.
-- Excellent communication and writing skills, and the ability to distill down complex ideas in a variety of mediums (including content, decks, meetings). 
+- Excellent communication and writing skills, and the ability to distill down complex ideas in a variety of mediums (including content, decks, meetings).
 - Able to coordinate across many teams and iterate and deliver in a fast-moving startup environment.
 - Proven experience being self-directed and working with minimal supervision.
 - Data-driven, use data to measure results and inform decision making and strategy development.
@@ -296,4 +296,4 @@ GitLab is successfully partnering with top cloud and LLM providers, including Am
 
 ### Career Ladder
 
-Career progression for this role can take many forms and is not yet clearly defined at GitLab. 
+Career progression for this role can take many forms and is not yet clearly defined at GitLab.

@@ -99,6 +99,6 @@ Based on a Sentry issue:
 
 In addition one can use a workflow's `workflow_id` that is being recorded either in sentry or in log explorer to filter down LangSmith logs using `thread_id` filter in _metadata_ and comparing it against `workflow_id`.
 
-## Past in depth investigations 
+## Past in depth investigations
 
 1. Faulty network proxy via Cloudflare [investigation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/501170)

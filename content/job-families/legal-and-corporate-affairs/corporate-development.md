@@ -30,7 +30,7 @@ Deal Analysis & Execution:
 - Assist in building detailed financial models and valuation analyses to support deal evaluation and negotiations
 - Support due diligence process by coordinating with cross-functional teams and supporting multiple work streams
 - Assist drafting key business documents for active acquisition engagements
-- Support post-merger integration planning and technical delivery 
+- Support post-merger integration planning and technical delivery
 - Create and maintain process documentation to improve efficiency and knowledge sharing for your areas of responsibility
 
 Analysis & Reporting:

@@ -8,44 +8,44 @@ description: >-
 
 ## Data Modeling Best Practices
 
-As one of the core principles of the CDT’s data modeling practices, Marketing Analytics follows the guidelines for creating [Trusted Data](/handbook/enterprise-data/data-development/#trusted-data-development) wherever and whenever possible. Essentially, Trusted Data (TD) means that the models, at every step of the way, adhere to all coding and style guides and the information/results have been fully vetted as accurate and reliable. For you, the consumer, it means that you know the numbers and results you are viewing are correct. 
+As one of the core principles of the CDT’s data modeling practices, Marketing Analytics follows the guidelines for creating [Trusted Data](/handbook/enterprise-data/data-development/#trusted-data-development) wherever and whenever possible. Essentially, Trusted Data (TD) means that the models, at every step of the way, adhere to all coding and style guides and the information/results have been fully vetted as accurate and reliable. For you, the consumer, it means that you know the numbers and results you are viewing are correct.
 
-Data modeling is both an artform and a science. There are numerous methodologies and guides to perform this task, and CDT has provided the Marketing Analytics team (and all other embedded data teams) with a number of very helpful tools - ranging from the [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/), which outlines the ideal formats and functions for all SQL code in the data warehouse; to the [Kimball Methodology](/handbook/enterprise-data/platform/edw/#useful-links-and-resources), the framework for the ways that the various levels of models should be constructed and fit together to form the final tables ingested into Tableau for analysis. 
+Data modeling is both an artform and a science. There are numerous methodologies and guides to perform this task, and CDT has provided the Marketing Analytics team (and all other embedded data teams) with a number of very helpful tools - ranging from the [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/), which outlines the ideal formats and functions for all SQL code in the data warehouse; to the [Kimball Methodology](/handbook/enterprise-data/platform/edw/#useful-links-and-resources), the framework for the ways that the various levels of models should be constructed and fit together to form the final tables ingested into Tableau for analysis.
 
-The Kimball Methodology outlines key “stages” of table creation along the path from the raw source data to the fully ingestible mart/report tables most heavily used in Tableau and other BI tools. 
+The Kimball Methodology outlines key “stages” of table creation along the path from the raw source data to the fully ingestible mart/report tables most heavily used in Tableau and other BI tools.
 
 1. Raw/Source
     1. We start at the source layer, which is the system housing the data that needs to be analyzed (i.e. Salesforce, Marketo, Iterable, etc.)
-    1. The raw fields for each object (i.e. Opportunity, Account, Contact, etc.) are ingested, formatted, and named clearly and accurately in the raw/source table. 
+    1. The raw fields for each object (i.e. Opportunity, Account, Contact, etc.) are ingested, formatted, and named clearly and accurately in the raw/source table.
 1. Prep
-    1. The raw/source fields are next pulled into a prep layer. It is here that base-level calculations, transformations, and other logical modeling steps are performed on the raw data to prepare it for the next stage in its data journey. 
+    1. The raw/source fields are next pulled into a prep layer. It is here that base-level calculations, transformations, and other logical modeling steps are performed on the raw data to prepare it for the next stage in its data journey.
     1. The prep layer is often the most complex of the layers, as it is the core repository for the primary logic performed on the raw data.
 1. Dim/Fct
     1. The prep models are split into two distinct tables
-        1. Fct: This table has a single unique ID as well as numerous other joinable IDs for a given object/data set. It is here that dates, IDs, and measurements (the numbers involved in business decisions) are stored and prepared. 
-        1. Dim: This table houses a single unique ID for a given object/data set and then all of the descriptive information of a single ID-row of a fct table. 
-            1. Each ID in a fct will have a single Dim table, and each Dim table will only have a single ID within it. 
-            1. Dims are joined together by joining to the fct table that they share in common. 
+        1. Fct: This table has a single unique ID as well as numerous other joinable IDs for a given object/data set. It is here that dates, IDs, and measurements (the numbers involved in business decisions) are stored and prepared.
+        1. Dim: This table houses a single unique ID for a given object/data set and then all of the descriptive information of a single ID-row of a fct table.
+            1. Each ID in a fct will have a single Dim table, and each Dim table will only have a single ID within it.
+            1. Dims are joined together by joining to the fct table that they share in common.
 1. Mart
-    1. The mart layer combines the dims and fct models together to become a complete whole. 
+    1. The mart layer combines the dims and fct models together to become a complete whole.
     1. Marts have very little logic or calculations within them as they serve, primarily, to present a queryable final table for a given object or business process.
 1. Report (rpt)
-    1. Report tables are built off of marts (usually). They are filtered offshoots of the whole mart data set and serve as a queryable table for a refined business question or process. 
-    1. Example: You may have a mart of all opportunities in Salesforce, while having a report/rpt of all closed won opportunities - pre-filteering the mart’s results provides a smaller and more agile data set when you know you only want a portion of the mart’s whole. 
+    1. Report tables are built off of marts (usually). They are filtered offshoots of the whole mart data set and serve as a queryable table for a refined business question or process.
+    1. Example: You may have a mart of all opportunities in Salesforce, while having a report/rpt of all closed won opportunities - pre-filteering the mart’s results provides a smaller and more agile data set when you know you only want a portion of the mart’s whole.
 
 ## Tech Stack Overview
 
-CDT’s and thus Marketing Analytics' data pipeline tech stack is straightforward, efficient, and effective. 
+CDT’s and thus Marketing Analytics' data pipeline tech stack is straightforward, efficient, and effective.
 
-It starts with extracting the raw/source data from each source system, as shown in the [CDT Sources table](/handbook/enterprise-data/platform/#data-sources). The extraction happens with a variety of tools based on which tool best supports the specific source system. In Marketing we primarily rely on Stitch (SFDC) and FiveTran (Marketo and Iterable and others). The extraction tool grabs all specified columns for each synced table/object and creates a raw-level table of those fields. 
+It starts with extracting the raw/source data from each source system, as shown in the [CDT Sources table](/handbook/enterprise-data/platform/#data-sources). The extraction happens with a variety of tools based on which tool best supports the specific source system. In Marketing we primarily rely on Stitch (SFDC) and FiveTran (Marketo and Iterable and others). The extraction tool grabs all specified columns for each synced table/object and creates a raw-level table of those fields.
 
-These raw tables are extracted into Snowflake, the repo/hub of all data at GitLab. 
+These raw tables are extracted into Snowflake, the repo/hub of all data at GitLab.
 
-The next layer is the data build tool (dbt), which is a transformation layer of the modeling process. In dbt, SQL and other code is written to further transform, refine, calculate, and concatenate various fields and logic sets to create the prep layer as mentioned above. 
+The next layer is the data build tool (dbt), which is a transformation layer of the modeling process. In dbt, SQL and other code is written to further transform, refine, calculate, and concatenate various fields and logic sets to create the prep layer as mentioned above.
 
-The finished tables that dbt creates are once again pushed to Snowflake, where the dbt-created tables will live, accessible in the [CDT data catalog](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.gitlab_dotcom_users_xf), otherwise referred to as the Data Warehouse. 
+The finished tables that dbt creates are once again pushed to Snowflake, where the dbt-created tables will live, accessible in the [CDT data catalog](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.gitlab_dotcom_users_xf), otherwise referred to as the Data Warehouse.
 
-The last step in the process is to ingest the finished dbt-created, snowflake-housed tables into our BI tool of choice, which is usually Tableau - where dashboards and charts are created from the various tables, to allow easy analyses. 
+The last step in the process is to ingest the finished dbt-created, snowflake-housed tables into our BI tool of choice, which is usually Tableau - where dashboards and charts are created from the various tables, to allow easy analyses.
 
 ### Data Flow
 
@@ -83,7 +83,7 @@ The last step in the process is to ingest the finished dbt-created, snowflake-ho
 
 ## Marketing Data Models
 
-All GitLab data models are grouped and categorized in snowflake/dbt through a series of folders and hierarchy. Below are the primary Marketing data models, there folders, links, and descriptions. We've added another lvel of organization, the `Grouping` field, which is a custom grouping of the data models based on their usage and lineage. The list of groupings below, preceding the data model inventory table, will you give you a brief understanding of what each grouping represents. 
+All GitLab data models are grouped and categorized in snowflake/dbt through a series of folders and hierarchy. Below are the primary Marketing data models, there folders, links, and descriptions. We've added another lvel of organization, the `Grouping` field, which is a custom grouping of the data models based on their usage and lineage. The list of groupings below, preceding the data model inventory table, will you give you a brief understanding of what each grouping represents.
 
 ### Groupings
 

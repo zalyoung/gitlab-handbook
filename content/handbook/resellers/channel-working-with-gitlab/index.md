@@ -129,7 +129,7 @@ Service Attached Registration is submitted via the Partner Portal as a deal regi
 The following criteria must be met for a Service Attached Registration to be approved and for a partner to receive a rebate:
 
 - Completion of the associated software opportunity (i.e., closed-won)
-- Partner must be Select and/or PSP 
+- Partner must be Select and/or PSP
 - Partner must submit a fully executed Statement of Work (SOW) to partnersupport@gitlab.com and include the Deal ID number. Partner may alternatively provide written customer acknowledgement of completed work descriptions for customers in regulated industries (e.g., Public Sector), provided all criteria noted below are met
   - The SOW must:
     - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
@@ -370,12 +370,12 @@ To be eligible for the NFR Program, Partners must:
 6. GitLab reserves the right to change or cancel the NFR Program at any time and for any or no reason.
 7. Partners can receive one Self-Managed and one SaaS NFR license at the Ultimate level for a 12-month period.
 
-##### NFR Renewals 
+##### NFR Renewals
 
-NFR licenses expire after a 12-month subscription period, unless they are add-on licenses, in which case they will co-term with the base NFR subscription. Partners can resubmit the NFR Request Form within two weeks of their NFR subscription's end date to request new NFR licenses annually. Partners will need to take action to setup their new licenses before the old ones expire to ensure no downtime. Please use the following guides to complete this step: 
+NFR licenses expire after a 12-month subscription period, unless they are add-on licenses, in which case they will co-term with the base NFR subscription. Partners can resubmit the NFR Request Form within two weeks of their NFR subscription's end date to request new NFR licenses annually. Partners will need to take action to setup their new licenses before the old ones expire to ensure no downtime. Please use the following guides to complete this step:
 
 - [Self Managed](https://docs.gitlab.com/ee/administration/license.html)
-- [GitLab.com](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#link-subscription-to-a-group) 
+- [GitLab.com](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#link-subscription-to-a-group)
 
 ##### Add-ons to NFR Subscriptions
 

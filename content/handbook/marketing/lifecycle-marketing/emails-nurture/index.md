@@ -123,7 +123,7 @@ What happens after they finish the action stream?
   * If they come in from a trial, they will go through trial nurture. If they qualify for an action stream before trial nurture completes, do not move to action stream. After trial, move to regional nurture.
 * After they exhaust content on action stream, move to regional nurture
 * If emailable status changes, pause nurture
- 
+
 *Requested Flow (Existing)*
 
 * If existing person has not exhausted content on regional nurture, do not move to action stream

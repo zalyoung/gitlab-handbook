@@ -19,7 +19,7 @@ To ensure effective use of this collaborative period, GitLab will **co-locate 1 
 ## GitLab Benefits
 
 - Increased trust and ownership from participating customers
-- Improved customer empathy for the participating engineer. 
+- Improved customer empathy for the participating engineer.
 - Continuous contributions to fuel our dual fly-wheel approach
 
 Please, note that the CoCreate program is not the next step to a promotion. It could (and should) still be added to a promotion document as a signal of strong orientation towards shipping results for customers.
@@ -50,7 +50,7 @@ Identify areas that are of high priority to the customer together with the Solut
 
 ## Nominate an Issue for CoCreate
 
-Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue. 
+Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue.
 
 ## Resources
 

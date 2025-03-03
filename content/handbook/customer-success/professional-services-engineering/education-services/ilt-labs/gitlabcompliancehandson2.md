@@ -11,7 +11,7 @@ Scan execution policies allow you to run security scans against projects and gro
 
 ## Task A. Create a scan execution policy
 
-1. In the left sidebar, select **Secure > Policies**. 
+1. In the left sidebar, select **Secure > Policies**.
 
 1. Select **New policy**.
 

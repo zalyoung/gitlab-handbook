@@ -24,7 +24,7 @@ twitter_creator: "@gitlab"
 
 * For about.gitlab.com pages: The H1/page title will be the slug of the URL
 * The H1 should be concise and focus on keywords for the campaign
-* For Marketo and PathFactory landing pages, follow the landing page naming convention. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
+* For Marketo and PathFactory landing pages, follow the landing page naming convention. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787).
 
 ## Resources and related issues
 
@@ -96,7 +96,7 @@ Marketo landing pages should use the following naming convention:
 
 * `**type-monthdd-shortcampaignname-region**` (no region for global)
 * For joint partner events, include `partner` in the short name
-* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
+* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787).
 
 The 'type' is outlined in the table below. If your type is not listed, please use `program-`.
 

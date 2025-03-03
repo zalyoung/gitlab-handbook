@@ -43,7 +43,7 @@ This guide and issue template refer strictly to the **development** of new Accel
 
 - [Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/boards)
 
-### Value Stream Analytics 
+### Value Stream Analytics
 
 Value Stream Analytics (VSA) is the solution for managers and leadership to get actionable insights into the Accelerator development process. VSA allows them to balance out workloads, identify bottlenecks.
 
@@ -51,7 +51,7 @@ Value Stream Analytics (VSA) is the solution for managers and leadership to get 
 
 ### Accelerator Repository
 
-The Accelerator Repository is a centralized collection of well-documented, accelerator blueprints (like the AI-Assisted Code Review example), that CSAs can leverage in their own projects. 
+The Accelerator Repository is a centralized collection of well-documented, accelerator blueprints (like the AI-Assisted Code Review example), that CSAs can leverage in their own projects.
 
 The Accelerator blueprints contain information that include workshops guides, timelines, prerequisites, implementation steps, expected outcomes, and success metrics.
 

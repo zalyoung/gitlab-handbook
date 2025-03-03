@@ -56,16 +56,16 @@ A Customer Success Architect (CSA) is included with GitLab's Advanced and Signat
 
 **Advanced Tier**
 
-- Designated CSA 
+- Designated CSA
 - Educational benefits (10% discount, 40 certification vouchers)
 - Up to 2 accelerators per year
 - 24x7 coverage for Severity 2 tickets (from May 2025)
 
-**Signature Tier** 
+**Signature Tier**
 
 - Designated CSA and [Assigned Support Engineer (ASE)](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/)
 - Enhanced educational benefits (20% discount, 60 certification vouchers)
-- Up to 4 accelerators per year 
+- Up to 4 accelerators per year
 - 24x7 coverage and faster response times for Severity 2 tickets (2 hours vs 4 hours)
 
 To get started with a CSA:

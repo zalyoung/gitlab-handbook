@@ -9,11 +9,11 @@ For more information visit GitLabs [Objective and Key Results (OKRs)](/handbook/
 
 ## Purpose
 
-This page provides an overview of CSM team issue tracking, OKRs, and the OKR process. 
+This page provides an overview of CSM team issue tracking, OKRs, and the OKR process.
 
 OKRs should provide continuous strategic alignment with the business. Our Big Rocks are our annual OKRs and our quarterly OKRs contribute to them.
 
-GitLab.com (Epics/Issues) is THE best place to track the work we are doing! The goal is a streamlined way to submit ideas, have those prioritized and agreed and then coordinate the team to work on key focus areas to get the job done. We can't work on everything at once, so we aim to empower everyone to submit ideas and collaborate while keeping actual work focused on core priorities. 
+GitLab.com (Epics/Issues) is THE best place to track the work we are doing! The goal is a streamlined way to submit ideas, have those prioritized and agreed and then coordinate the team to work on key focus areas to get the job done. We can't work on everything at once, so we aim to empower everyone to submit ideas and collaborate while keeping actual work focused on core priorities.
 
 Additionally, this process should lead the way in leveraging GitLab features to demonstrate we can eat our own dog food and live a customer's life in our day-to-day duties. The team should have a single process to provide updates on progress and communicate the likelihood of achieving the outcomes below:
 
@@ -143,7 +143,7 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 - Regular management team meetings to review "New Ideas" issues
 
-- Categorize and prioritize issues using the labeling system (this should link to the labeling system section below) 
+- Categorize and prioritize issues using the labeling system (this should link to the labeling system section below)
 
 - Include Mgr CS as DRI
 
@@ -179,7 +179,7 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 ## Triage Bot Policies
 
-Triage bot utilizes policies to determine what actions to perform on what items. 
+Triage bot utilizes policies to determine what actions to perform on what items.
 
 Each policy contains rules for the resource set. These rules are contained within an array that detail what to run on and what to actually do. Triage bot fields are:
 
@@ -255,7 +255,7 @@ When the work is complete, label the issue with CS::Ready to indicate that it is
 
   - SP Objective::Status :: Watchpoint
 
-  - SP Objective::Status :: Closed Success 
+  - SP Objective::Status :: Closed Success
 
   - SP Objective::Status :: Closed Not a Priority
 

@@ -867,7 +867,7 @@ Interesting Moments for content syndication are global. This means that you only
 ### Step 3: Update Marketo tokens
 
 - Tokens for the asset name and type are handled at the folder level (DAP Content Syndication). The tokens for the SFDC campaigns are handled at the program level (for example: ContentSynd_AMER_Integrate).
-- Be sure to reference the [existing asset list](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184) when you complete the tokens. Do not include the `Asset [number] -` in the token value. 
+- Be sure to reference the [existing asset list](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184) when you complete the tokens. Do not include the `Asset [number] -` in the token value.
 - To add a new asset, click on the [DAP Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF26194C3) folder. Click "My Tokens".
 - Click and drag the word `Text` into the token area.
 - Under Token Name, name the token `Assetx-Title`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Title`.
@@ -877,10 +877,10 @@ Interesting Moments for content syndication are global. This means that you only
 - Under Token Name, name the token `Assetx-Type`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Type`.
 - Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, `General`, or `Infographic`
 - Click Save.
-- After you add your asset name and type to the main content syndication folder, click on the program you created for this region/vendor. 
+- After you add your asset name and type to the main content syndication folder, click on the program you created for this region/vendor.
 - Complete the `{{campaign owner email}}`, `{{region}}`, and `{{vendor}}` tokens.
 - In order to complete the `{{my.Assetx-sfdc_campaign}}`, the campaigns must be created in SFDC first and the campaign in SFDC must be marked as `Active`. This token will validate the campaign exists in SFDC in order to populate. Pay close attention to the asset number you are populating. The tokens are not in order.
-- Add the SFDC campaign for each asset you are using for this Region/Vendor pair. 
+- Add the SFDC campaign for each asset you are using for this Region/Vendor pair.
 
 ### Step 4: Modify & Activate Marketo smart campaigns
 
@@ -888,12 +888,12 @@ It is critical that any reference to asset number in Marketo automation (not tok
 
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
-  - **Flow** (confirm that program references match the Marketo program name): 
-  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. 
+  - **Flow** (confirm that program references match the Marketo program name):
+  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset.
   - If you add any SFDC campaigns to the list, be sure to use "Content Syndication asset CONTAINS Asset x -" in your filter.
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
-- `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign. 
+- `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign.
   - Click `Add Choice`.
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
   - Move the new asset number to the bottom of the list (to keep the numbers in order).
@@ -964,7 +964,7 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 ### Step 4: Add new Marketo tokens
 
 - Tokens for the asset name and type are handled at the folder level (DAP Content Syndication). The tokens for the SFDC campaigns are handled at the program level (for example: ContentSynd_AMER_Integrate).
-- Be sure to reference the [existing asset list](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184) when you complete the tokens. Do not include the `Asset [number] -` in the token value. 
+- Be sure to reference the [existing asset list](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184) when you complete the tokens. Do not include the `Asset [number] -` in the token value.
 - To add a new asset, click on the [DAP Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF26194C3) folder. Click "My Tokens".
 - Click and drag the word `Text` into the token area.
 - Under Token Name, name the token `Assetx-Title`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Title`.
@@ -984,12 +984,12 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 
 It is critical that any reference to asset number in the Marketo automation below uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
 
-- `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign. 
+- `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign.
   - Click `Add Choice`.
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
   - Move the new asset number to the bottom of the list (to keep the numbers in order).  
 - `01 Processing`
-  - **Flow**: 
+  - **Flow**:
   - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.

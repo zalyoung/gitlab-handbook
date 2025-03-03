@@ -11,7 +11,7 @@ To ensure that your CI/CD jobs run in a consistent and compliant way, you can en
 
 ## Task A. Creating a standard pipeline
 
-To start, we will create a standard pipeline to use in our compliance projects. 
+To start, we will create a standard pipeline to use in our compliance projects.
 
 1. Navigate back to your ILT group.
 
@@ -51,11 +51,11 @@ This CI/CD configuration contains a SAST scanner. By adding this in a pipeline e
 
 1. Under **Pipeline execution policy**, select **Select policy**.
 
-1. Set the **Name** to `Enforce Security`. 
+1. Set the **Name** to `Enforce Security`.
 
 1. Under **Actions**, select **Inject** from the **CICD Template** project.
 
-1. Point the file path to your `.gitlab-ci.yml` file. 
+1. Point the file path to your `.gitlab-ci.yml` file.
 
 1. Leave all options as default and select **Update via merge request**.
 
@@ -83,9 +83,9 @@ h.md5('1')
 
 1. Review the pipeline created from the merge request. Notice that it has a `semgrep-sast` job even though it's not defined in `Compliance Project`. This job comes from our pipeline execution policy. Note that we were able to *add* a job into the pipeline because we used the 'inject' keyword when setting up our policy. If we instead used the 'override' keyword, it would run this job *instead of* the jobs in your pipeline.
 
-1. Return to your merge request. You will see that there is one new vulnerability, detected by the SAST scanner. 
+1. Return to your merge request. You will see that there is one new vulnerability, detected by the SAST scanner.
 
-1. Select **Merge** to complete your merge request. 
+1. Select **Merge** to complete your merge request.
 
 ## Lab Guide Complete
 
