@@ -298,7 +298,7 @@ An RFH issue can be closed under the following circumstances:
 
 1. No Customer Response
     - The RFH has received a response from support
-    - There has been no customer reply for a prolonged period (30+ days)
+    - There has been no customer reply for a prolonged period (15 days)
     - Engineer closes issue with a note to reopen if the customer responds
 
 #### Best Practices
