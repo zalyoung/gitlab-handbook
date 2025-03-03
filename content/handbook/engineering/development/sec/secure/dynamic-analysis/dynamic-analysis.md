@@ -260,7 +260,7 @@ Engineers participating in reaction coordination must make sure there GitLab han
 
 When a new RFH is opened the reaction coordinator will be assigned and starts the investigation. If the reaction coordinator rolls off reaction coordination before the RFH is completed, the RFH should be handed off to an incoming reaction coordinator.
 
-**Once a milestone**, the Reaction Coordinator is responsible for triaging existing RFH issues.
+**At least once, each milestone**, the Reaction Coordinator is responsible for triaging existing RFH issues.
 
 1. Has an engineer engaged with the RFH? If not, assign RFH to one of the reaction coordination engineers to work on.
 1. Is the RFH a candidate to be closed? If so, close the RFH issue with any needed notes.
