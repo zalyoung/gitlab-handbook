@@ -18,7 +18,7 @@ As a part of aligning provisioning between Self-Managed/Dedicated and GitLab.com
 
 ## Motivation
 
-The work for this will align the provisioning for GitLab.com closer to the way SM/Dedicated is provisioned.
+The work for this will align the provisioning for GitLab.com closer to the way Self-Managed/Dedicated is provisioned.
 
 For `GitLab.com`, we will record the params generated for the `Namespace` provisioning on a new `gitlab_namespaces_syncs` table, along with each attempt for a sync and the result status via a `gitlab_namespacess_sync_attempts` table. This is similar to the way we handle `Licenses` for `Self-Managed` and results in bringing both provisioning processes closer.
 
@@ -33,7 +33,9 @@ The goal of this blueprint is to produce:
 
 We want to create a new table `gitlab_namespace_syncs` that will hold the records for the generated `namespace` provision params. A `gitlab_namespaces_sync` record will have many `gitlab_namespaces_sync_attempts` that will log the status of `gitlab_namespaces_sync`. The states can be `[started, failed, skipped, completed]`.
 
-Whenever a `gitlab_namespaces_sync` record is created, it will always have an associated `gitlab_namespaces_sync_attempt` record with `started` state. We will then make an **internal HTTP request** to `GitLab` to provision the namespace with the associated `params`. Based on the response of the provision sync, we will update the state of the `gitlab_namespaces_sync_attempt` record. The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
+Whenever a `gitlab_namespaces_sync` record is created, it will always have an associated `gitlab_namespaces_sync_attempt` record with `started` state. We will then make an **internal HTTP request** to `GitLab` to provision the namespace with the associated `params`. The `params` will have provision information for all the resource to be provisioned: `[main_plan, compute_minutes, storage, add_on_purchases]`. See [API Contract](#api-contract). During the provisioning on `GitLab`, it will continue to provision other resources, even if any one of the resource provisioning fails. For instance, if `Compute Minutes` resource provisioning fails, it will still continue to provision `Storage` and `AddOnPurchase` resources.
+
+Based on the response of the provision sync, we will update the state of the `gitlab_namespaces_sync_attempt` record. The status will be updated to `completed` for `200 OK` response, and `failed` for any other.
 
 Based on the failed response code we will perform further action:
 
@@ -136,36 +138,36 @@ sequenceDiagram
     participant GL as GitLab
     participant GLDB as GitLab Database
 
-    Note over BW: Namespace provisioning job starts
-    
+    Note over BW: Namespace provisioning<br>job starts
+
     BW->>DB: Fetch latest namespace_syncs for namespace_id
     activate DB
     DB-->>BW: Return namespace_sync record
     deactivate DB
-    
-    Note over BW: Process namespace attributes
-    
+
+    Note over BW: Process namespace<br>attributes
+
     BW->>GL: HTTP POST /api/v4/internal/gitlab_subscriptions/namespaces/:id/provision
     activate GL
-    
-    Note over GL: Step 1: Update gitlab_subscription
+
+    Note over GL: Step 1:<br>Update gitlab_subscription
     GL->>GLDB: Update gitlab_subscriptions table with plan details
     activate GLDB
     GLDB-->>GL: Confirm subscription update
     deactivate GLDB
-    
-    Note over GL: Step 2: Update namespace for: compute_minutes & storage
+
+    Note over GL: Step 2:<br>Update namespace for:<br>compute_minutes & storage
     GL->>GLDB: Update namespaces table with compute_minutes & storage limits
     activate GLDB
     GLDB-->>GL: Confirm namespace update
     deactivate GLDB
-    
-    Note over GL: Step 3: Provision add_on_purchase
+
+    Note over GL: Step 3:<br>Provision add_on_purchase
     GL->>GLDB: Upsert add_on_purchases table
     activate GLDB
     GLDB-->>GL: Confirm add-on purchase upserted
     deactivate GLDB
-    
+
     Note over GL: Check for any failures
     alt Any step failed
         GL-->>BW: Return error response (422) with failure details
@@ -173,15 +175,13 @@ sequenceDiagram
         GL-->>BW: Return success response (200)
     end
     deactivate GL
-    
+
     alt Success Response (200)
         Note over BW: Job completed successfully
-    else Validation Error (422)
-        Note over BW: Log error details
-        BW->>DB: Update gitlab_namespaces_sync as partially failed
+    else Client Error (4XX)
+        Note over BW: Log error details<br>Update gitlab_namespaces_sync as partially failed
     else Server Error (5XX)
-        Note over BW: Schedule job retry
-        BW->>DB: Update job status for retry
+        Note over BW: Schedule job retry<br>Update job status for retry
     end
 ```
 
@@ -229,6 +229,22 @@ The endpoint will accept following JSON body structure:
     },
     "add_on_purchases": {
       "duo_pro": [
+        {
+          "quantity": 100,
+          "started_on": "2023-06-01",
+          "expires_on": "2024-05-31",
+          "purchase_xid": "purchase_123",
+          "trial": false
+        },
+      "duo_enterprise": [
+        {
+          "quantity": 100,
+          "started_on": "2023-06-01",
+          "expires_on": "2024-05-31",
+          "purchase_xid": "purchase_123",
+          "trial": false
+        },
+      "product_analytics": [
         {
           "quantity": 100,
           "started_on": "2023-06-01",
