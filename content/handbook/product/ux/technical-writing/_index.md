@@ -156,7 +156,7 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
-| Verify           | {{< member-by-name "Marcel Amirault" >}} |
+| Verify           | {{< member-by-name "Lysanne Pinto" >}} |
 | AI-powered       | {{< member-by-name "Jon Glassman" >}} |
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
