@@ -53,16 +53,15 @@ You might also find it helpful to review the
    [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders)
    list. It is needed in order to be able to display in some reports and
    dashboards the ASEs for each account. Please follow these steps:
-   1. Use this
-      [link](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issueable_template=Individual_Bulk_Access_Request)
-      to create the issue with the correct template
-   1. Set the title to: `[YOUR NAME]`, Salesforce, Executive-NoViewAll
+   1. Create an issue using
+      [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issueable_template=Individual_Bulk_Access_Request)
+   1. Set the title to: `<your name>, Salesforce, Executive-NoViewAll`
    1. Fill in `Step 1` appropriately
    1. In `Step 2` enter:
 
       ```markdown
       * [ ] Salesforce: Executive-NoViewAll
-         * [ ] Justification: As per https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5626, support engineers serving as Assigned Support Engineers need SFDC access in order to enable the picklist functionality that the issue describes
+         * [ ] Justification: Support engineers serving as Assigned Support Engineers need SFDC access in order to enable the picklist functionality described in [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5626).
       ```
 
    1. Assign the issue to your manager
