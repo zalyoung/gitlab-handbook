@@ -22,7 +22,7 @@ Upon surveying members of the Field team in 2020, we found that 92% of the Field
 
 GitLab ultimately chose to onboard Highspot as a sales asset management system to increase the efficiency of marketing spend, improve sales productivity and drive more visibility around content adoption and performance.
 
-### [Highspot Optimization](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/517)
+### Highspot Optimization
 
 In 2024, the Field Enablement team recognized the need for [platform optimization](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/517). This transformation addressed evolving organizational needs and field challenges around content sprawl, version control, and findability. As we shifted from segment to region-focused operations and expanded our product portfolio, our content infrastructure needed to evolve. The reimagined Highspot experience delivers three key improvements:
 
@@ -85,6 +85,7 @@ More on Highspot user governance can be found in the [Highspot Governance Playbo
 1. **Analyst** - Analysts have the ability to create reports within the Analytics section of Highspot and view reports in the Analytics Spot. All Field Managers and above have Analyst permissions so they can view team-level reporting.
 
 ### Official GitLab Spots
+
 All Spots are categorized by the following: Product, Team, and Go-to-Market (GTM).
 
 | Spot Title | Description |  Spot Type | Spot Owners |
@@ -106,7 +107,7 @@ All Spots are categorized by the following: Product, Team, and Go-to-Market (GTM
 | **Highspot User Guide & Reporting** | This Spot will be the user guide for all Highspot-related activity, including setting up your account, user and content contributor training, role-specific coaching, reporting templates and more Highspot Analytics recommendations. It also includes HUG and Highspot Reporting. | GTM | Highspot Administrators |
 | **Personal Spot** | Each team member with a Highspot account will have their own personal spot that they can use to upload content of their own. Naming convention is `[Your Account First Name] Spot`. | Personal | User |
 
-### Key [Content Properties](https://gitlab.highspot.com/items/6760e6632323c3df9cbdc5b6?lfrm=shp-ft.0#9)
+### Key Content Properties
 
 Content properties allow content to be organized and discovered via the search bar, side navigation bar, and other platform features, like related or promoted content. By setting [policies and requirements](https://gitlab.highspot.com/items/6760e6632323c3df9cbdc5b6?lfrm=shp-ft.0#9) around this content metadata, we standardize our content (e.g., titles, labels, and lists) and set clearer ownership motions to keep content up to date (e.g., author, feedback owner, and expiration date). 
 
@@ -127,7 +128,6 @@ Content properties allow content to be organized and discovered via the search b
 
 Learn more about critical functionality to enhance your workflows, and more fundamental features to set-up your acccount in the [Getting Started](https://gitlab.highspot.com/spots/66edb5aea861487809d7733a?lfrm=isd.8&list=all&overview=true) section of the Highspot User Guide & Reporting Spot.
 
-
 ## Highspot FAQs
 
 **Who has access to Highspot?**
@@ -142,7 +142,7 @@ All members of GitLab's GTM organization have access to the tool via their Okta 
 
 Contributing to Highspot is easy, and we encourage all team members to contribute resources that you think the entire GTM org or specific teams could benefit from. This could be anything from a Marketing resource you found that isn't already in Highspot or a presentation/document you created or found that would be helpful for team members to reference as an example of "what good looks like." If it's helpful for the team, we want to include it in Highspot!
 
-To submit content, please open a [Content Intake Request Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-highspot-content-request#) and indicate your level of support needed. If "low" to "medium," complete the [Content Contributor Training](https://handbook.gitlab.com/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings). 
+To submit content, please open a [Content Intake Request Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-highspot-content-request#) and indicate your level of support needed. If "low" to "medium," complete the [Content Contributor Training](https://university.gitlab.com/learn/course/highspot-content-contributor-training/main/highspot-content-contributor-training). 
 
 **What is the best way to save a piece of content that I want to come back to later?**
 
@@ -190,6 +190,7 @@ Thought Industries (GitLab University in LevelUp) is the main hub for all traini
 
 Similar to PathFactory, Highspot is a tool that can point customers to a set of relevant assets. In Highspot, users can create Pitch Templates with Pitch Styles (sometimes called Digital Sales Rooms) that curate a series of content into a customized experience for customers. Once sent, users can update DSRs for their customers and prospects for a customized, personalized experience. In general, the high-level goals for the two platforms are:
 1. **Highspot:** To connect with customers 1:1 as part of a campaign, initiative, event, general outreach, other CTA. Can support lead gen/outreach, but primarily used once a lead has become an SAO.
+
 1. **PathFactory:** To increase consumption/engagement with GitLab content in order to move prospects through the marketing funnel.
 
 **Can Highspot users send PathFactory content to customers?**
