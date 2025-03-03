@@ -14,7 +14,7 @@ This page outlines the DBO team's incident escalation policy.
 ## Shortcuts
 
 * [DBO PagerDuty schedule](https://gitlab.pagerduty.com/schedules#P1JP4AL)
-* Slack handles: `@dbre` and `@dbo`
+* Slack handles: `@dbre` or `@dbo-oncall`
 * Slack channels: #g_database_operations
 * `group::database operations`
 * [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident)
