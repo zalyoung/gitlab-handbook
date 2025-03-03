@@ -31,7 +31,7 @@ Once in the tenant's OpenSearch site:
 
 It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used. If you are unable to see the logs, try clearing cookies, local storage, and all session data for the site and repeat the steps above.
 
-Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support.  Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note](/handbook/support/workflows/fieldnote_issues/) in order to preserve them beyond the retention period.
+Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support. If you're working on a ticket where access to older logs would have been helpful, please flag it via the `logging_retention_period_reached` tag. Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note](/handbook/support/workflows/fieldnote_issues/) in order to preserve them beyond the retention period.
 
 ### Sharing logs
 
