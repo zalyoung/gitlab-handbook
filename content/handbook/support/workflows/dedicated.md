@@ -127,7 +127,7 @@ Support team members with questions can check in the [`#spt_pod_dedicated`](http
 
 ### Feature proposals
 
-GitLab Dedicated feature proposal issues should be created in the **Public** [`gitlab-org/gitlab` issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100). Mention the Product Manager when opening a feature proposal issue. Use the [feedback template](/handbook/product/product-management/index.md#feedback-template) to register a customer's interest in an existing feature proposal.
+GitLab Dedicated feature proposal issues should be created in the **Public** [`gitlab-org/gitlab` issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100). Mention the Product Manager when opening a feature proposal issue. Use the [feedback template](/handbook/product/product-management/#feedback-template) to register a customer's interest in the feature proposal.
 
 ### Configuration changes
 
