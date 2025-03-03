@@ -1176,6 +1176,30 @@ The Corporate Security department provides configuration management [engineering
 <span style="background-color: #71717a; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER APP ADMIN ROLE</span>
 </td>
 </tr>
+<!-- Teleport -->
+<tr>
+<td>
+<a href="/handbook/security/corporate/systems/teleport">Teleport</a><br>
+</td>
+<td>
+<i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">Open an Access Request</a><br>
+<i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting#">Troubleshooting Issue</a>
+</td>
+<td>
+<a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?label_name%5B%5D=corpsys-teleport">ARs</a>
+&nbsp;/&nbsp;<a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?label_name%5B%5D=corpsys-teleport">Issues</a>
+&nbsp;/&nbsp;<a href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/epics?label_name[]=corpsys-teleport">Epics</a>
+<br>
+<i class="fas fa-book mr-2"></i><a href="https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/teleport_admin.md">Administration Runbooks</a><br>
+<i class="fas fa-tag mr-2"></i><code>corpsys-teleport</code><br>
+<i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/teleport">@gitlab-com/corpsys/teleport</a><br>
+<i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-teleport</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#it_help</code><br>
+<i class="fas fa-shield-halved mr-2"></i>
+<span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
+<span style="background-color: #b91c1c; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN SSO</span>
+</td>
+</tr>
 <!-- YubiKey -->
 <tr>
 <td>
