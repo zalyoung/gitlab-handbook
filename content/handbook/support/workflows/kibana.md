@@ -12,7 +12,7 @@ This document provides information on what Kibana is, how to search it, interpre
 
 [Kibana](https://log.gprd.gitlab.net/) is an [open source data visualization plugin](https://www.elastic.co/kibana) for [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch). It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Support Engineering uses Kibana to both search for error events on GitLab.com and to detect when specific changes were made to various aspects of it by a user.
 
->**Note:** Kibana defaults to the UTC time zone. It does not retain logs older than 7 days. If you're working on a ticket where access to older logs would have been helpful, please flag it via the `logging_retention_period_reached` tag.
+>**Note:** Kibana defaults to the UTC time zone. It does not retain logs older than 7 days. If you're working on a ticket where access to older logs would have been helpful, please flag it via the `Support::SaaS::Log retention period reached` macro.
 
 ### Parameters
 
