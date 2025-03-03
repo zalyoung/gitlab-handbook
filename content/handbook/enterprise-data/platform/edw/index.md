@@ -45,20 +45,20 @@ The landing layer is where data from source systems are copied into the EDW. It 
 The staging layer is where the first set of administrative transformations take place. These transformations help to create a set of data that will behave in a known and predictable manner as well as help to conform the data to the GitLab standard conventions that make the data easier to work with. These transformations are best done as close to the source of the data as possible wile still being in the data warehouse and before any other transformations take place. Typical transformations in this layer include:
 
 **Conforming Data Types:**
-As part of conforming data types is the disposition of NULL and blank values should take place during the staging of the data. What this means in practice is that blank values should be converted to NULL, if NULL values are not acceptable blank and NULL values should be converted to a an expected default. This conversion will simplify join and filtering conditions is downstream transformations and ensure that comparison operations will behave as expected.
+As part of conforming data types, handling NULL and blank values should happen during the staging of the data. What this means in practice is that blank values should be converted to NULL. If NULL values are not acceptable, blank and NULL values should be converted to an expected default. This conversion will simplify join and filtering conditions in downstream transformations and ensure that comparison operations behave as expected.
 
 **Standardizing Column Names:**
-Conforming column names helps the transforming be as self documenting as possible and will improve readability if future transformations. Care should be taken to avoid repetitive naming across data models to improve readability.
+Conforming column names makes transformations more self-documenting and improves readability for future transformations. Care should be taken to avoid repetitive naming across data models.
 
 **Cleansing Data:**
-The removal of erroneous records of data (i.e. duplicates), different from filtering data to answer a business question, helps to stream line downstream transformations by preventing the need of extraneous error catching logic when the data is malformed.
+The removal of erroneous records of data (i.e. duplicates), which is different from filtering data for a business question, helps streamline downstream transformations by reducing the need for extra error-handling logic when data is malformed.
 
 **Flattening of Non-Tabular Data:**
 When data in the landing layer is stored in a non-tabular format it is often necessary to flatten the data so that the other staging steps can be performed.
 
 ### Preparation
 
-The preparation layer is the first place where general business logic transformations are applied to the data. These transformations are intended to be intermediary and are to help organize the data in a way that allows for maintenance and scalability. In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increases performance, readability or maintainability of the given transformations. As a general rule transformations should be applied as early and on as simple version of the data as possible to improve performance of the transformation. Typical transformations in this layer include:
+The preparation layer is the first place where general business logic transformations are applied to the data. These transformations are intended to be intermediary and help organize the data in a way that allows for maintenance and scalability. In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increases performance, readability or maintainability of the given transformations. As a general rule transformations should be applied as early and on as simple version of the data as possible to improve performance of the transformation. Typical transformations in this layer include:
 
 **Calculating Fields:**
 Calculated fields are defined as being fields that did not originate in a source system but can be formed through the application of business logic to data within a single data set.
@@ -71,7 +71,7 @@ Derived records, such as fanning out date interval data, are defined as being re
 
 ### Modeling
 
-The modeling layer is where the data is transformed in to formal structures that aim to standardize the shape of the data to facilitate maintaining and scaling the data. These transformations are driven by general business logic (reflecting the business process) and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced. The general principle is to minimize models and design models to serve as many reporting needs in the semantic layer as possible. Typical transformations in this layer include:
+The modeling layer is where data is transformed into formal structures to standardize its shape, making it easier to maintain and scale. These transformations are driven by general business logic (reflecting the business process) and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced. The general principle is to minimize the number of models and design them to serve as many reporting needs in the semantic layer as possible. Typical transformations in this layer include:
 
 **Creating Facts and Dimensions:**
 Using the principles of Kimball dimensional modeling the data is filtered, grouped, and combined to create reusable dimensions models that describe attributes of a record. And low granularly facts representing a transaction of a business process.
