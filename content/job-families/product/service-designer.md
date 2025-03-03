@@ -7,8 +7,8 @@ At GitLab, Service Design is a discipline within User Experience Research (UXR).
 ## Basic Responsibilities
 
 - **Design and optimize user journeys across products** to ensure consistent, seamless experiences
-- **Partner with product, engineering, and business teams** to implement service design solutions
-- **Use research insights, stakeholder feedback, and data** to inform and validate design decisions
+- **Partner with product, engineering, and business teams** to implement service design solutions, facilitate workshops and co-create sessions
+- **Conduct research and use research insights, stakeholder feedback, and data** to inform and validate design decisions
 - **Create and test service prototypes**, refining them based on user feedback
 - **Help teams adopt and implement new service solutions** through clear roadmaps and frameworks
 - **Contribute to a collaborative and open team culture** by participating in peer reviews, sharing knowledge in team discussions, and mentoring others to strengthen the UX team’s collective expertise.
@@ -16,19 +16,47 @@ At GitLab, Service Design is a discipline within User Experience Research (UXR).
 ## Basic Requirements
 
 - Ability to use GitLab
-- **Systems Thinking**: Ability to connect various touchpoints and service components 
-- **Design Communication**: Conveying information using the most effective medium and language for the audience, e.g. creating clear service blueprints and flow diagrams 
-- **Strategic Design**: Aligning service solutions with business capabilities and constraints 
+- **Systems Thinking**: Ability to connect various touchpoints and service components
+- **Design Communication**: Conveying information using the most effective medium and language for the audience, e.g. creating clear service blueprints and flow diagrams
+- **Strategic Design**: Aligning service solutions with business capabilities and constraints
 - **Collaborative Design and Implementation**: Effectively identify and involve the right people and teams throughout the design and implementation process, work across teams, designing for feasibility, organizational alignment, and sustainability
 - **Product & Business Acumen**: Understanding business goals, user needs, and technical constraints
-- **Change Management & Implementation**: Ensuring design solutions are adopted and scalable 
+- **Change Management & Implementation**: Ensuring design solutions are adopted and scalable
 - **UX Research & Design Thinking**: Leveraging qualitative research to inform service innovations
 
 ## Levels
 
+### Service Designer (Intermediate)
+
+The Service Designer reports to a UX Research Manager. 
+
+#### Intermediate Job Grade
+
+The Service Designer is a [grade 6]({{% ref "compensation-calculator#gitlab-job-grades" %}}).
+
+#### Intermediate Responsibilities
+
+- Design and optimize user journeys across products to ensure consistent, seamless experiences
+- Partner with product, engineering, and business teams to implement service design solutions, facilitate workshops and co-create sessions
+- Conduct research and use research insights, stakeholder feedback, and data to inform and validate design decisions
+- Create and test service prototypes, refining them based on user feedback
+- Help teams adopt and implement new service solutions through clear roadmaps and frameworks
+- Contribute to a collaborative and open team culture by participating in peer reviews, sharing knowledge in team discussions, and mentoring others to strengthen the UX team’s collective expertise.
+
+#### Intermediate Requirements
+
+- Ability to use GitLab
+- Systems Thinking: Ability to connect various touchpoints and service components
+- Design Communication: Conveying information using the most effective medium and language for the audience, e.g. creating clear service blueprints and flow diagrams
+- Strategic Design**: Aligning service solutions with business capabilities and constraints
+- Collaborative Design and Implementation: Effectively identify and involve the right people and teams throughout the design and implementation process, work across teams, designing for feasibility, organizational alignment, and sustainability
+- Product & Business Acumen: Understanding business goals, user needs, and technical constraints
+- Change Management & Implementation: Ensuring design solutions are adopted and scalable
+- UX Research & Design Thinking: Leveraging qualitative research to inform service innovations
+
 ### Senior Service Designer
 
-The Senior Service Designer reports to the UX Research Manager.
+The Senior Service Designer reports to a UX Research Manager. Responsibilities and requirements follow from the above. 
 
 #### Senior Job Grade
 
@@ -59,6 +87,40 @@ The Senior Service Designer is a [grade 7]({{% ref "compensation-calculator#gitl
 - UX Research & Design Thinking: Proficiency in user research methods, including surveys, interviews, usability testing, and data analysis, to refine and validate service solutions.
 - Influencing & Leadership: Advocate for service design best practices, shaping the discipline and fostering a culture of learning within the organization.
 - Coaching & Mentoring: Skilled in coaching and mentoring, supporting the growth of UX professionals through feedback and knowledge sharing.
+
+### Staff Service Designer
+
+The Senior Service Designer reports to a UX Research Manager. Responsibilities and requirements follow from the above. 
+
+#### Staff Job Grade
+
+The Senior Service Designer is a [grade 8]({{% ref "compensation-calculator#gitlab-job-grades" %}}).
+
+#### Staff Responsibilities
+
+- Lead service design initiatives that drive cross-functional alignment and strategic service improvements.
+- Develop and implement service design methodologies that improve consistency and scalability across teams.
+- Establish best practices for collaborative design, ensuring that service solutions align with both user needs and business objectives.
+- Work with leadership and stakeholders to influence organizational decision-making using service design insights.
+- Mentor and coach senior and intermediate service designers, fostering skill development and knowledge-sharing within the team.
+- Improve or create new service design methods to enhance workflows, tools, and research-driven insights.
+- Identify system-wide optimizations, designing for scalability, sustainability, and feasibility.
+- Conduct high-impact research and analysis to identify trends and opportunities in service ecosystems.
+- Develop roadmaps and influence business and technology strategies based on service design insights.
+- Collaborate with operations, product, and engineering teams to ensure service design recommendations are effectively executed.
+
+#### Staff Requirements
+
+- System Thinking: Proven ability to identify cross-product opportunities and create scalable service ecosystems.
+- User Centricity: Expert at developing persona frameworks and lifecycle strategies to drive organisation-wide decisions.
+- Design Communication: Master visual storyteller, able to explore and establish new ways of communicating complex concepts.
+- Strategic Design: Demonstrated success in shaping business strategy through service design.
+- Collaborative Design and Implementation: Track record of leading complex initiatives across multiple teams, maintaining high engagements across the board.
+- Product & Business Acumen: Strong ability to balance user, business, and technical requirements at scale.
+- Change Management & Implementation: Expertise in driving adoption of major service transformations, anticipating and mitigating resistance to adoption for changes.
+- UX Research & Design Thinking: Skilled at designing and leading research programs that influence strategy.
+- Practice Leadership: Develop and refine service design methodologies, ensuring their effectiveness across teams.
+- Coaching & Mentoring: Demonstrated success in growing the capabilities of other UX-ers through feedback and structured guidance.
 
 ## Hiring Process
 
