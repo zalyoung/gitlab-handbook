@@ -63,6 +63,8 @@ flowchart TD
     K --> C
 ```
 
+> **Note:** Consult your manager if you're unsure which path your innovation should take.
+
 ### Internal Innovations
 
 Internal innovations focus on developing tools, processes, and systems that improve GitLab's internal operations and team efficiency. These innovations:
