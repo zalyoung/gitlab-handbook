@@ -163,6 +163,8 @@ Within the Epic, create the following issues:
 
 ## Sharing Your Innovation
 
+Start with sharing your innovation with a limited, curated group of users (for example, by enabling a feature flag for that group). Ask the group members to share their feedback in the Feedback issue that you created earlier in the Epic above.
+
 Once you have gathered initial feedback and validated the potential of your innovation, these communication steps will help you share your innovation with the larger organization:
 
 1. **Get Internal Feedback:**
