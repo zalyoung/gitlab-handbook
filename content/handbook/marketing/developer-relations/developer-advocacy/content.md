@@ -172,6 +172,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ### Guideline and tips for creating GitLab tours with Navattic
 
+Needs updates
 1. Keep the product tours concise, ideally consisting of 8 to 12 steps, each highly focused on delivering clear value. In contrast, demos in documentation may adopt a more instructional "how-to" approach with longer steps.
 1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
 1. In the demo settings, under 'theme' select 'GitLab Branding [Navattic Team]'.
