@@ -28,21 +28,22 @@ With the guidelines above we will end up with the following communication betwee
 Each Cell will have its [own GCP project](../decisions/002_gcp_project_boundary.md) resulting in its [own VPC](../decisions/004_vpc_subnet_design.md).
 This means when a Cell needs to send requests to downstream services it will either have to go through the public internet or internal network somehow.
 In [ADR 004](../decisions/004_vpc_subnet_design.md) we decided we will use [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect) for internal communication.
-This means any requests between services should be internal for speed, and cost reasons otherwise we would have to pay for ingress and egress fees since.
+This means any requests between services should be internal for speed and cost reasons. Otherwise, we would have to pay for ingress and egress fees.
 Private Service Connect traffic goes directly from consumer clients to producer backends without intermediate hops or proxies.
-NAT is performed directly on the physical host machines that host the consumer and producer VMs, which reduces latency and increases bandwidth capacity.
+NAT (Network Address Translation) is performed directly on the physical host machines that host the consumer and producer VMs, which reduces latency and increases bandwidth capacity.
 
-Private Service Connect is going to be used for any communication between GCP only, we can't use it between HTTP Router and Topology Service, since HTTP Router is not hosted in GCP.
+Private Service Connect is going to be used for communication between GCP hosted services only. We can't use it between HTTP Router and Topology Service since HTTP Router is not hosted in GCP
 
-With Private Service Connect there are two entities to keep in mind the `Consumer` and the `Producer` in the case of Cell sending a request to Topology Service the `Consumer` is the Cell and the `Producer` is Topology Service since Cell is sending requests to Topology Service.
+With Private Service Connect there are two entities to keep in mind: the `Consumer` and the `Producer`. For example, a Cell (`Consumer`) sending a request to Topology Service (`Producer`).
 
-There are two ways for a Consumer to access the Producer either through an [`Endpoint`](https://cloud.google.com/vpc/docs/private-service-connect#endpoints) or a [`Backend`](https://cloud.google.com/vpc/docs/private-service-connect#backends),
+There are two ways for a `Consumer` to access the `Producer` either through an [`Endpoint`](https://cloud.google.com/vpc/docs/private-service-connect#endpoints) or a [`Backend`](https://cloud.google.com/vpc/docs/private-service-connect#backends),
 we will use a `Backend` since Private Service Connect backends use a load balancer configured with Private Service Connect network endpoint group (NEG) backends.
-Accessing APIs and services through a consumer-managed load balancer provides several benefits.
+Accessing APIs and services through a consumer-managed load balancer provides several benefits:
 
-Load balancers can act as a centralized policy enforcement point where security policies (such as Google Cloud Armor policies and SSL policies) or routing policies (such as Google Cloud URL maps) are enforced.
-They provide centralized metrics and logging that a published service might not provide, and they allow consumers to control their routing and failover.
-All load balancers should be multi-regional by default since we have Cells running with Geo for failover, and Topology Service running in two regions.
+- Load balancers can act as a centralized policy enforcement point where security policies (such as Google Cloud Armor policies and SSL policies) or routing policies (such as Google Cloud URL maps) are enforced.
+- They provide centralized metrics and logging that a published service might not provide
+- They allow consumers to control their routing and failover.
+- All load balancers should be multi-regional by default since we have Cells running with Geo for failover, and Topology Service running in two regions.
 
 ![diagram showing how private service connect will work][/images/engineering/architecture/design-documents/cells/diagrams/private-service-connect.png]
 
