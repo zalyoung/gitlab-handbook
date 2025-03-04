@@ -26,7 +26,7 @@ This iterative and collaborative guide directly supports GitLab's three-year str
 
 Creating an innovation at GitLab means exploring new ideas and building prototypes to create new products or improve our existing products and processes. This guide outlines the steps you should follow, from ideation to sharing feedback, in both internal and external settings. An innovation can be a new feature, feature improvement, innovative use of GitLab feature to show unknown use cases, a new organizational tool, or anything that helps the success of GitLab.
 
-- **Innovation (Proof-of-Concept):** A prototype created to validate a new idea or potential product feature.
+- **Innovation (Proof-of-Concept, or POC):** A prototype created to validate a new idea or potential product feature.
 
 - **Epic Tracking:** We use GitLab Epics to consolidate all tasks and issues related to the innovation under a single board (specifically the "[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)" board) for transparency and visibility.
 
