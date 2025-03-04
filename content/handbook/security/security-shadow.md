@@ -31,9 +31,7 @@ All GitLab team members are welcome!
 Ready to embark on this adventure with us?
 
 1. Talk to your manager. Make sure they approve the time you will need to dedicate to this program.
-1. Join the [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) Slack Channel
-1. Click on the blue lightning bult in the bottom left corner to initiate the Security Shadow Program Workflow
-1. Complete the Enrollment Form
+1. Fill out the [issue template](https://gitlab.com/gitlab-com/gl-security/security-managers/security-shadow-program/-/issues/new?description_template=security-shadow-onboarding) and assign to the applicable manager(s) of the course you are interested in participating in.
 1. The manager of the applicable Security Team will reach out to schedule your start date
 
 ## Questions
