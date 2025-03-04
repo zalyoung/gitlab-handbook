@@ -62,8 +62,8 @@ flowchart LR
     click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
     DE --> FR[Feature Readiness]
     click FR "/handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness/"
-    DE --> PE[Performance Enablement]
-    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
+    DE --> PER[Performance Enablement]
+    click PER "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     DE --> TG[Test Governance]
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
