@@ -42,7 +42,7 @@ Live Learning sessions are conducted on an ad hoc. There will be a Zoom video co
 - February - [Receiving Feedback](/handbook/people-group/guidance-on-feedback/#receiving-feedback)
 - June - [Delivering Feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback)
 - June - [Recognizing Bias](/handbook/company/culture/inclusion/unconscious-bias/)
-- September - [Manager Challenge Pilot](/handbook/people-group/learning-and-development/manager-challenge/#pilot-program)
+- September - Manager Challenge Pilot
 - November - [Belonging](https://www.youtube.com/watch?v=WZun1ktIQiw)
 - November - [One Week Challenge - Psychological Safety](/handbook/leadership/emotional-intelligence/psychological-safety/#one-week-challenge)
 - December - [Introduction to Coaching](/handbook/leadership/coaching/)
