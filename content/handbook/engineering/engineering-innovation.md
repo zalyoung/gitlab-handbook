@@ -173,7 +173,7 @@ Once you have gathered initial feedback and validated the potential of your inno
 
 2. **Share Your Innovation!**
 
-    - Post your innovation summary in the \#innovation channel to share it with the larger organization and begin cross-team conversations.
+    - Post your innovation summary in the \#innovation channel to share it with the larger organization and begin cross-team conversations. Share it with any other relevant channel as well. 
 
     - Tag anyone relevant in your Epic's issue description.
 
