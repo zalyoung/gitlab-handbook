@@ -35,13 +35,15 @@ This page outlines the DBO team's incident escalation policy.
 
 ### Scope and Qualifiers
 
-1. **GitLab.com** S1 and S2 production incidents raised by the **Incident Manager On Call**, **Engineer On Call** , **Development**, and **Security** teams.
+1. **GitLab.com** S1 and S2 production incidents raised by the **Incident Manager On Call**, **Engineer On Call** and **Security** teams.
 
    * NB1: **Gitlab Dedicated** support is consultative at this point.  DBO team currently not equipped, i.e. lacking access and and training on how to support Dedicated databases.  This may change in the future; check back here for updates on this topic.
 
-   * NB2: This process is **NOT** a path to reach the DBO team for non-urgent issues that the Development, Security, and Support teams run into. For non-urgent issues, please reach out to the DBO team via our Slack (see Shortcut section above)
+   * NB2: **Self Managed** support is discrtionary and will be evaluated on a case-by-case basis.
 
-   * NB3: The DBO on-shift is responsbile for coordinating warm handoffs during shift changes, especially when there is an ongoing, active incident.
+   * NB3: This process is **NOT** a path to reach the DBO team for non-urgent issues.  For non-urgent issues, please create a [Request for Help](https://gitlab.com/gitlab-com/request-for-help#ops-section) (RFP) issue using this [Issue template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-DatabaseOperations).
+
+   * NB4: The DBO on-shift is responsbile for coordinating warm handoffs during shift changes, especially when there is an ongoing, active incident.
    
 
 ### Escalation
