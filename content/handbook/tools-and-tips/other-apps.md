@@ -97,6 +97,8 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 
 ## Notes/writing
 
+Keep in mind that some of the notes and writing tools make use of cloud servers on the back end, so do not put sensitive information into them.
+
 ### Bear
 
 [Bear (Free)](https://bear.app/) is a clean writing tool for notes and long-form writing.
@@ -120,6 +122,8 @@ This ensures that spell and grammar checking remains both convenient and confide
 [Simplenote](https://simplenote.com/) is a free, open source note taking app which is cross platform, syncs across all devices, and supports markdown.
 
 ## Productivity
+
+Similar to the extensions referenced in notes and tracking, some of these tools make use of cloud servers so do not put sensitive information into them.
 
 ### Alfred
 
