@@ -6,19 +6,10 @@ description: "Security Compliance Team"
 ## Security Compliance Team Charter
 Last Updated: 2025-02-25
 
-## Table of Contents
-- Mission Statement
-- Value Proposition
-- Core Competencies
-- Operating Model
-- Success Metrics
-- FY26 Strategic Initiatives
-
 ## Mission Statement
 A trusted advisor
 sale enablment
 risk reduction
-
 
 ## Value Proposition
 Security Compliance maintains GitLab's position as the most trusted DevSecOps offering on the market by providing assurance to our customers and enabling sales through certification maintenance and expansion.
@@ -48,6 +39,10 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
 
 ## Success Metrics
 
+| **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Good = 12 months, Better = 6 months, Best = 3 months| Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationsKPI/SecCompLeadershipMetrics?:iid=3)| n/a|
+
 ## FY26 Strategic Initiatives
 
 ## Review and Updates
@@ -61,7 +56,7 @@ We support the Security division's [mission and operating principles](/handbook/
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
 1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
-1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing] ([risk-based-control-testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/)) of assets
+1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/) of assets
 1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
