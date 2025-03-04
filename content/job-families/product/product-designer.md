@@ -22,7 +22,7 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 
 - Ability to use GitLab.
 - Several years professional experience designing for complex products.
-- Visual and interaction skills with experience designing responsively.
+- Demonstration of design craft through visual and interaction skills, attention to detail, and commitment to creating high-quality work.
 - Thoughtful decision making motivated by data and research.
 - Familiarity with accessibility best practices and WCAG guidelines.
 - Comfort working in highly agile, iterative product development process.
@@ -107,6 +107,7 @@ Everything in the Senior Product Designer role, plus:
 - **Deliverables:** Create tactical deliverables for your group that solve user problems. Define strategic outputs that connect vision to product outcomes. _Shape the deliverables with a focus on long-term vision and execution._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. _Exemplify frequent and effective asynchronous communication._
 - **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices _across the company._
+- **Craft:** Demonstrate mastery in design execution through detail, refinement, and implementation. Set quality standards and provide constructive critiques that elevate other designers' work.
 - **Thought leadership:** Promote best practices and support others in advocating for them.
 - **Recruiting:** Evaluate design portfolios, and interview product design and product management candidates. _Help identify top product design talent._
 - **Cross-stage collaboration:** Note dependencies and advocate for cross-stage collaboration when needed to promote a holistic UX. _Help others navigate the organization and consider overlaps._
@@ -136,6 +137,7 @@ Everything in the Staff Product Designer role, plus:
 - **Deliverables:** Create tactical deliverables for your _project_ that solve user problems. Define strategic outputs that connect vision to product outcomes. Shape the deliverables with a focus on long-term vision and execution. _Reduce the scope, complexity, and ambiguity of projects to a more manageable state._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. Exemplify frequent and effective asynchronous communication. _Unblock conversations and encourage collaboration across teams._
 - **Iteration:** Practice design iteration and break down designs to fit the release cadence of your _projects_. Review merge requests with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices across the company. _Help others break down solutions into actionable steps, aligned with long-term goals._
+- **Craft:** Drive design proficiency across teams through innovation and strategic vision. Model the application of design criteria and principles while creating frameworks that embed design quality throughout the organization.
 - **Deferred UX:** Identify, track, and make recommendations to address [deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) in your _projects_. Mitigate the risk for deferred UX with [MVCs](/handbook/product/product-principles/#the-minimal-valuable-change-mvc). Help prioritize such issues in your _projects_.
 - **Thought leadership:** Promote best practices and support others in advocating for them. _Bring a UX voice to complex scenarios and build trust with other disciplines. Enable designers to engage on large-scale initiatives._
 - **Recruiting:** Evaluate design portfolios, and interview product design and product management candidates. Help identify top product design talent. _Coach others to find and interview design candidates. Help attract and retain a world-class product design team._
