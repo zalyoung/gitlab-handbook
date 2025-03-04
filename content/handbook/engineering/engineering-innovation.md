@@ -119,7 +119,7 @@ Within the Epic, create an issue with the following:
     - **Stage and Group:** Identify the stage and group this functionality would eventually be maintained and owned by - be sure to tag the Product Manager for that group.
     - **Alignment with Product Roadmap and Strategic Initiatives:** If possible, include a section on how this feature aligns with the Product Roadmap and Strategic Initiatives.
     - **Security and Privacy:** Security and Privacy considerations - has this been reviewed by the Security Team?
-    - **Visual Differentiation Plan:** Describe how your innovation will be visually differentiated from standard product features, including:
+    - **Differentiation Plan:** If applicable, describe how your innovation will be differentiated (visually, or otherwise) from standard product features, including:
       - Which visual differentiation approach you'll use (UI badge, experimental mode, feature flags, etc.).
       - How users will opt-in to see or use the innovation.
       - Any documentation or disclaimers that will accompany the innovation.
