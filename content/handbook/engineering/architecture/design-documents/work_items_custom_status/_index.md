@@ -368,7 +368,7 @@ This legacy widget represents the verification status of requirements and should
 We marked both widgets and fields as experiment in `17.9`, so we can rename them like this:
 
 1. `STATUS` --> `VERIFICATION_STATUS` ([see MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/182520))
-1. `CUSTOM_STATUS` --> `STATUS`
+1. `CUSTOM_STATUS` --> `STATUS` ([see MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/183026))
 
 #### Status migration and migration wizard
 
