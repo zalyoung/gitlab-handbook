@@ -10,7 +10,7 @@
 | 2025-04-30 | Emily Sybrant        | Alyssa Trinh           | Sascha Eggenberger     | Jesse Hoek             |
 | 2025-05-14 | Jacki Bauer          | Michael Fangman        | Tina Lise Ng           |                        |
 | 2025-05-28 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
-| 2025-06-11 | Andy Volpe           | Dan Mizzi-Harris       | Tim Noah               |                        |
+| 2025-06-11 | Create PDM           | Dan Mizzi-Harris       | Tim Noah               |                        |
 | 2025-06-25 | Marcel van Remmerden | Ilonah Pelaez          | Lina Fowler            |                        |
 | 2025-07-09 | Justin Mandell       | Nick Brandt            | Veethika Mishra        |                        |
 | 2025-07-23 | Marcel van Remmerden | Graham Bachelder       | Trevor Storey          | Annabel Gray           |
@@ -19,7 +19,7 @@
 | 2025-09-03 | Paul Wright          | Taylor Vanderhelm      | Sunjung Park           |                        |
 | 2025-09-17 | Emily Sybrant        | Mark Unthank           | Jesse Hoek             |                        |
 | 2025-10-01 | Rayana Verissimo     | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
-| 2025-10-15 | Andy Volpe           | Austin Regnery         | Emily Bauman           |                        |
+| 2025-10-15 | Create PDM           | Austin Regnery         | Emily Bauman           |                        |
 | 2025-10-29 | Chris Micek          | Nick Leonard           | Divya Alagarsamy       |                        |
 | 2025-11-12 | Justin Mandell       | Camellia Yang          | Libor Vanc             |                        |
 | 2025-11-26 | Marcel van Remmerden | Alyssa Trinh           | Sascha Eggenberger     |                        |
