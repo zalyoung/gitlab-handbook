@@ -183,7 +183,7 @@ This process happens in three steps.
 #### Step 1: Identifying Issues for Refinement
 
 The engineering manager will identify issues that need to be
-refined. On average we will try to refine 3-6 issues per
+refined. On average we will try to refine up to 6 backend and up to 3 frontend issues per
 week. If there are issues that are good candidates for the backlog refinement
 process, please let the engineering manager know in the issue.
 
