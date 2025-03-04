@@ -2,9 +2,9 @@
 title: "Optimize Group"
 ---
 
-## Plan:Optimize
+## Monitor:Optimize
 
-**[Optimize FY25 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/440653)**
+**[Optimize FY26 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/512065)**
 
 ### How we work
 
