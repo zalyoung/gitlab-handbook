@@ -97,7 +97,7 @@ External innovations are focused on developing new features or enhancements for 
     1. Timeboxed goals with clear targets
     1. Estimated time investment required
 1. Be sure to consult your manager before investing time into an idea. Formalize your pitch in a SPIKE issue and obtain explicit manager approval before investing significant time. Work with your manager to identify optimal timing for your timeboxed exploration
-1. Consider any cost implications with the innovation, such as infrastructure cost, license cost, and maintenance cost.
+1. Consider any cost implications with the innovation, such as infrastructure cost, license cost, and maintenance cost to the best of your knowledge.
 1. Additionally, work with your Manager on identifying any other subject-matter-experts that may be attempting to solve the same problem.
 
 ### Step 2: Initiate an Epic
