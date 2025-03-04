@@ -146,8 +146,11 @@ variables:
   needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
   stage: notify
   rules:
+    # Skip if MR is authored by a project or group access token
+  - if: '$CI_MERGE_REQUEST_SOURCE_AUTHOR_ID =~ /^(project|group)_/'
+    when: never
+    # Otherwise run the job as usual
   - <<: *merge-request-or-tag
-
 
 ###################################
 #
@@ -327,6 +330,9 @@ check_path_change:
   script:
     - scripts/check-path-change.sh
   rules:
+      # Skip if MR is authored by a project or group access token
+    - if: '$CI_MERGE_REQUEST_SOURCE_AUTHOR_ID =~ /^(project|group)_/'
+      when: never
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
     - if: $CI_MERGE_REQUEST_SOURCE_PROJECT_ID != $CI_PROJECT_ID
