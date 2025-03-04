@@ -56,11 +56,7 @@ Some browser extensions are listed below
 #### Adblockers
 
 Adblockers are browser extensions that can block advertising, prevent user tracking, and include other security-related features.
-A popular one recommended by the Security Team is [uBlock Origin](https://github.com/gorhill/uBlock/) which can be installed by following the links below:
-
-- [Chrome](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) (uBlock Origin Lite)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Edge](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak)
+A popular one recommended by the Security Team is [uBlock Origin](https://github.com/gorhill/uBlock/) which can be installed for [Chrome](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) (uBlock Origin Lite).
 
 #### One Tab
 
