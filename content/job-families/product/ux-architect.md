@@ -31,6 +31,30 @@ UX Architects take a strategic, birds-eye view of the overall GitLab product whi
 
 ### Levels
 
+#### UX Architect
+
+A UX Architect is assigned to a stage group.
+
+##### Job Grade
+
+The UX Architect is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- **System Knowledge**: Maintain deep understanding of the systems and features within your stage group. Act as a technical bridge by developing and applying technical understanding in design problem-solving.
+- **Quality and Consistency**: Drive quality and consistency of UX across products through experience principles, design critiques, and audits.
+- **Information Architecture**: Design and maintain the information architecture for your stage group's area of the product in collaboration with engineers.
+- **Documentation**: Create and maintain comprehensive documentation of architectural decisions and patterns.
+- **User Flows**: Design and document end-to-end user flows that span multiple features.
+- **Technical Understanding**: Work closely with engineering to understand technical constraints and possibilities.
+- **Accessibility**: Ensure architectural decisions support accessibility requirements.
+- **Research Support**: Partner with UX researchers to validate architectural decisions that impact the user experience.
+- **Cross-functional Collaboration**: Work closely with product designers, engineers, and product managers to ensure consistent implementation.
+
+#### Requirements
+
+A UX Architect is expected to meet the base requirements and execute their responsibilities with a commitment to results and agreed actions.
+
 
 #### Senior UX Architect
 
@@ -42,22 +66,21 @@ The UX Architect is a [grade 7](/handbook/total-rewards/compensation/compensatio
 
 ##### Responsibilities
 
-- **System Knowledge**: Maintain deep expertise within your stage group and across the platform, acting as a technical bridge by integrating system knowledge into UX problem-solving.
-- **Quality & Consistency**: Drive UX quality and consistency through experience principles, design critiques, and audits.
-- **Information Architecture**: Define and maintain information architecture patterns that can be applied across stage group, ensuring scalability and usability in collaboration with engineering.
-- **Documentation**: Create and maintain comprehensive documentation, including architectural guidelines, best practices, and UX decisions that can be adopted across teams.
-- **User Flows**: Design end-to-end user flows that span multiple features and stage groups, ensuring consistency and seamless interactions.
-- **Technical Understanding**: Work closely with engineering to understand technical constraints and opportunities, providing architectural guidance that balances user needs with implementation feasibility.
-- **Accessibility**: Ensure architectural decisions align with accessibility standards and best practices.
-- **Research Support**: Partner with UX researchers to validate architectural decisions that impact the user experience.
-- **Collaboration**: Work closely with product designers, engineers, and PMs to align UX architecture with business and user needs. Identify and resolve architectural inconsistencies between stage groups.
+Everything in the UX Architect role, plus:
+
+- **System Knowledge**: Have deep knowledge of systems within you stage group, and across the platform. Understand how different parts of the system interact.
+- **Information Architecture**: Define and maintain information architecture patterns that can be applied across stage groups.
+- **Documentation**: Create architectural guidelines and best practices that can be adopted across teams.
+- **User Flows**: Design complex user flows that span multiple stage groups and systems.
+- **Technical Understanding**: Provide architectural guidance that balances user needs with technical constraints.
 - **Mentoring**: Guide other UX Architects and product designers in architectural best practices. Conduct design critiques with product designers to drive quality and consistency.
 - **Strategic Planning**: Participate in strategic planning to ensure architectural considerations are addressed.
+- **Cross-stage Collaboration**: Identify and resolve architectural inconsistencies between stage groups.
 
 ##### Requirements
 
 A Senior UX Architect is expected to meet the base requirements and execute their responsibilities while modeling a sense of urgency and commitment to deliver results.
-
+=
 #### Staff UX Architect
 
 A Staff UX Architect is assigned to company-wide initiatives, with exceptions made based on business needs.
