@@ -21,7 +21,8 @@
                 {{- if in .categories $cat }}
                     Group: <a href='/handbook/product/categories/#{{ replace $k "_" "-" }}-group'>{{ $data.display_name }}: {{ $v.name }}</a><br/>
                     Slack: <a href='https://gitlab.slack.com/channels/{{ $v.slack.channel }}'>#{{ $v.slack.channel }}</a><br/>
-                    Manager: {{ or $v.em $v.backend_engineering_manager }}<br/>
+                    Engineering Manager: {{ or $v.em $v.backend_engineering_manager }}<br/>
+                    Product Manager: {{ $v.pm }}<br/>
                 {{- end }}
             {{- end }}
             {{- end }}
