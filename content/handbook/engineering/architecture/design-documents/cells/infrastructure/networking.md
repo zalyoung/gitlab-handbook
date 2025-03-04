@@ -1,4 +1,14 @@
-# Networking
+---
+title: "Cells Networking"
+status: proposed
+creation-date: "2025-02-21"
+authors: [ "@sxuereb" ]
+coach:
+owning-stage: "~devops::platforms"
+toc_hide: true
+---
+
+{{< design-document-header >}}
 
 ## Pre-Reads
 
@@ -16,10 +26,12 @@
   Using that identity will also be used to authorize the request.
   This is better known as mTLS and has a [separate blueprint](../mutual_authentication_between_cell_services.md).
 - **Cells are not public but remain individually accessible:** Users must submit all requests through `gitlab.com` domain on the public internet to maintain a central entry point and a global counter for rate limits.
+  - **External:** The cells are individually accessible through an external hostname but this is not public - customers cannot directly interact with the cell domains.
+  - **Public:** The cells are only accessible to customers through the gitlab.com domain which is available on the public internet.
 
 With the guidelines above we will end up with the following communication between
 
-![diagram showing how the networking looks like][/images/engineering/architecture/design-documents/cells/diagrams/networking.png]
+![diagram showing how the networking looks like](/images/engineering/architecture/design-documents/cells/diagrams/networking.png)
 
 [source](https://excalidraw.com/#json=ZkpKyrjuSVihA98HOcnBa,aSljwYS_JGT6G9leGgpHZw)
 
@@ -45,7 +57,7 @@ Accessing APIs and services through a consumer-managed load balancer provides se
 - They allow consumers to control their routing and failover.
 - All load balancers should be multi-regional by default since we have Cells running with Geo for failover, and Topology Service running in two regions.
 
-![diagram showing how private service connect will work][/images/engineering/architecture/design-documents/cells/diagrams/private-service-connect.png]
+![diagram showing how private service connect will work](/images/engineering/architecture/design-documents/cells/diagrams/private-service-connect.png)
 
 [source](https://excalidraw.com/#json=ZkpKyrjuSVihA98HOcnBa,aSljwYS_JGT6G9leGgpHZw)
 
