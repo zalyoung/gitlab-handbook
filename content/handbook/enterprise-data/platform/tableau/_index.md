@@ -224,7 +224,7 @@ There are two options for editing or updating content which is in Production:
 
 ### Tableau Style Guide
 
-For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) handbook page.
+For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/) handbook page.
 
 ### Tableau Publishing Service Level Objectives (SLOs)
 

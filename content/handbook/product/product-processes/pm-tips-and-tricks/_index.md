@@ -109,7 +109,7 @@ and working with your technical writing team to include links to your speed runs
 
 #### Using GIFs
 
-Animated GIFs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
+Animated GIFs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/product-processes/making-gifs/)!
 
 #### Speed Run
 

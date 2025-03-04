@@ -202,7 +202,7 @@ You can tag the Data Team in GitLab using:
 | [Data Onboarding](/handbook/enterprise-data/programs/#data-onboarding) | | |
 | [Learning Library](/handbook/enterprise-data/learning-library/) | | |
 | [Tableau Guide](/handbook/enterprise-data/platform/tableau/) | | |
-| [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) | | |
+| [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/) | | |
 
 ## Data Team Handbook Structure
 
@@ -237,5 +237,5 @@ You can tag the Data Team in GitLab using:
   * [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
   * [Snowplow](/handbook/enterprise-data/platform/snowplow/)
   * [Tableau](/handbook/enterprise-data/platform/tableau/)
-  * [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/)
+  * [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)
   * [Trusted Data Framework](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework)

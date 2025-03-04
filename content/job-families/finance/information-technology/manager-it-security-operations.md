@@ -8,7 +8,7 @@ The Manager, IT Security Operations job family leads a team of highly-collaborat
 
 ### Manager, IT Security Operations
 
-The Manager, IT Security Operations reports to the [Sr Director, IT Operations](/job-families/finance/director-it-operations/).
+The Manager, IT Security Operations reports to the Sr Director, IT Operations.
 
 #### Manager, IT Security Operations Job Grade
 
@@ -62,7 +62,7 @@ The Manager, IT Security Operations is a [level 8](/handbook/total-rewards/compe
 
 ## Career Ladder
 
-The next step in the Manager, IT Security Operations is to move to the [Director, IT Operations](/job-families/finance/director-it-operations/) job family.
+The next step in the Manager, IT Security Operations is to move to the Director, IT Operations job family.
 
 ## Hiring Process
 
