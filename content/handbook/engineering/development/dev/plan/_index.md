@@ -150,7 +150,7 @@ graph TD;
   I--> J["Issues"];
 ```
 
-#### Executing on the Roadmap
+### Executing on the Roadmap
 
 Every Roadmap commitment has a Directly Responsible Individual (DRI) for overall project management. This is usually the Engineering Manager (EM) of the group that owns the corresponding category.
 
@@ -162,15 +162,15 @@ EMs maintain a Wiki page for the project containing a project timeline, project 
 - [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
 - [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
 
-##### Internal Testing
+#### Internal Testing
 
 Plan Engineering regularly tests new functionality internally before releasing to customers. As part of a drive to improve quality in the work we deliver to customers, this process is divided into two parts.
 
-###### Alpha Testing
+##### Alpha Testing
 
 Testing that occurs during ongoing development. This is limited to subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`.
 
-###### End-of-line testing
+##### End-of-line testing
 
 End-of-line (EOL) testing is the final step before release to customers. The finished product is delivered to all GitLab team-members, usually by enabling it for the `gitlab-com` and `gitlab-org` groups. This is accompanied by collection of internal feedback, typically using a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager. 
 
@@ -178,7 +178,7 @@ No new scope will be accepted at this time without significant justification and
 
 For this period, the project DRI should ensure the system under test resembles exactly the one intended to be given to customers.
 
-##### Dogfooding
+#### Dogfooding
 
 Dogfooding helps to build confidence in feature readiness and identify shortcomings before they reach the customer. In most cases, if an improvement cannot be adopted for a useful workflow internally it should not be expected to land with customers either. Identifying a dogfooding opportunity ahead of time can help to reach consensus on what the minimum valuable change should include.
 
