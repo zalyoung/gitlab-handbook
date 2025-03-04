@@ -36,8 +36,14 @@ flowchart LR
     click DA "/handbook/engineering/infrastructure-platforms/data-access/"
     I --> DE[Developer Experience]
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
-    I --> SP[SaaS Platforms]
-    click SP "/handbook/engineering/infrastructure/platforms/"
+    I --> GD[GitLab Dedicated]
+    click GD "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
+    I --> PE[Production Engineering]
+    click PE "/handbook/engineering/infrastructure/team/production-engineering/"
+    I --> SD[GitLab Delivery]
+    click SD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/"
+    I --> TS[Tenant Scale]
+    click TS "/handbook/engineering/infrastructure-platforms/tenant-scale/"
 
     DA --> DF[Database Framework]
     click DF "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
@@ -50,38 +56,52 @@ flowchart LR
     DA --> Gitaly
     click Gitaly "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
 
-    SP --> DE[Delivery]
-    click DE "/handbook/engineering/infrastructure/team/delivery/"
-    DE --> Deployments
-    DE --> Releases
-    SP --> Ops
-    click Ops "/handbook/engineering/infrastructure/team/ops/"
-    SP --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
-    SP --> Scalability
-    click Scalability "/handbook/engineering/infrastructure/team/scalability/"
-    Scalability --> Observability
-    Scalability --> Practices
-
-    SP --> D[Dedicated]
-    click D "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
-    D --> E[Environment Automation]
-    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
-    D --> PSS[Public Sector Services]
-    click PSS "/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/"
-    D --> Switchboard
-    click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
-
-    DE --> DA[Development Analytics]
-    click DA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
+    DE --> DevA[Development Analytics]
+    click DevA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
     DE --> DT[Developer Tooling]
-    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
     DE --> FR[Feature Readiness]
-    click FR "/handbook/engineering/infrastructure-platforms/developer-experience"
+    click FR "/handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness/"
     DE --> PE[Performance Enablement]
     click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     DE --> TG[Test Governance]
-    click TG "/handbook/engineering/infrastructure-platforms/developer-experience"
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
+
+    GD --> E[Environment Automation]
+    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation/" 
+    GD --> PSS[Public Sector Services]
+    click PSS "/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/"
+    GD --> Switchboard
+    click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
+
+    PE --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/" 
+    PE --> Foundations
+    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    PE --> O[Observability]
+    click O "/handbook/engineering/infrastructure/team/scalability/observability/"
+    PE --> Ops
+    click Ops "/handbook/engineering/infrastructure/team/ops/"
+    PE --> R[Runway]
+    click R "/handbook/engineering/infrastructure/team/runway/"
+
+    SD --> B[Build]
+    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/" 
+    SD --> SM[Self-Managed]
+    click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    SD --> Framework
+    click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
+    SD --> R[Release]
+    click R "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+    SD --> D[Deploy]
+    click D "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/" 
+
+    TS --> Organizations
+    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/" 
+    TS --> CI[Cells Infrastructure]
+    click CI "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
+    TS --> Geo
+    click Geo "/handbook/engineering/infrastructure-platforms/tenant-scale/geo/"
 ```
 
 ## Dogfooding
