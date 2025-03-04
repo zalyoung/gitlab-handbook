@@ -9,7 +9,6 @@ At GitLab, UX Architects collaborate closely with product designers, product man
 
 UX Architects take a strategic, birds-eye view of the overall GitLab product while also contributing hands-on, ensuring that information architecture and system behaviors support a unified and intuitive user experience. They establish system-wide principles that guide teams in delivering consistent, high-quality UX solutions across different product areas.
 
-
 ### Base Requirements
 
 - Deep understanding of information architecture principles and methodologies.
@@ -55,7 +54,6 @@ The UX Architect is a [grade 6](/handbook/total-rewards/compensation/compensatio
 
 A UX Architect is expected to meet the base requirements and execute their responsibilities with a commitment to results and agreed actions.
 
-
 #### Senior UX Architect
 
 A Senior UX Architect is assigned to a stage group with impact and influence across several groups.
@@ -80,7 +78,7 @@ Everything in the UX Architect role, plus:
 ##### Requirements
 
 A Senior UX Architect is expected to meet the base requirements and execute their responsibilities while modeling a sense of urgency and commitment to deliver results.
-=
+
 #### Staff UX Architect
 
 A Staff UX Architect is assigned to company-wide initiatives, with exceptions made based on business needs.
@@ -144,7 +142,6 @@ Candidates can expect the hiring process to follow the order below, although it 
   - Discuss ability to mentor and guide teams in best practices.
   - Explore vision and discuss contribution to GitLab’s overall experience strategy.
 
-
 Candidates should be prepared to:
   
 - Present examples of complex system architecture work.
@@ -152,5 +149,4 @@ Candidates should be prepared to:
 - Show strong technical understanding and ability to collaborate with engineering.
 - Explain approaches to architectural decision-making and documentation.
 - Share examples of influencing design and engineering teams across an organization.
-
    
