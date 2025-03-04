@@ -303,7 +303,7 @@ All team members are encouraged to schedule time for personal development. The f
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
 | Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
-| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure/team/???/) |
+| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure/team/production-engineering/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
 | Tenant Scale | [Group Page](/handbook/engineering/infrastructure-platforms/tenant-scale/) |
 
