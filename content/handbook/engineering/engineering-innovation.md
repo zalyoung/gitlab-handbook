@@ -198,7 +198,7 @@ Once your innovation is no longer needed, it is important to close out the assoc
 An innovation can be closed out in a few ways:
 
 - The innovation is no longer needed.
-- The innovation is ready to be promoted to a full product feature.
+- The innovation is ready to be promoted to an experiment. 
 - There are legal or security concerns that prevent the innovation from moving forward.
 
 ## Additional Resources
