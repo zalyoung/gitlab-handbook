@@ -682,7 +682,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         - The [Scalability:Observability](/handbook/engineering/infrastructure/team/scalability/observability/) team
+         - The [Observability team](/handbook/engineering/infrastructure/team/observability/)
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.

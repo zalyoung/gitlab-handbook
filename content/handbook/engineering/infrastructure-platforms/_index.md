@@ -36,7 +36,15 @@ flowchart LR
     click DA "/handbook/engineering/infrastructure-platforms/data-access/"
     I --> DE[Developer Experience]
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
+
+    I --> GD[GitLab Dedicated]
+    click GD "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
     I --> PRODENG[Production Engineering]
+    click PRODEND "/handbook/engineering/infrastructure/team/production-engineering/"
+    I --> SD[GitLab Delivery]
+    click SD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/"
+    I --> TS[Tenant Scale]
+    click TS "/handbook/engineering/infrastructure-platforms/tenant-scale/"
 
     DA --> DF[Database Framework]
     click DF "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
@@ -48,13 +56,8 @@ flowchart LR
     click Git "/handbook/engineering/infrastructure-platforms/data-access/git/"
     DA --> Gitaly
     click Gitaly "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
-
-    I --> DEL[Delivery]
-    click DEL "/handbook/engineering/infrastructure/team/delivery/"
-    DEL --> Deployments
-    DEL --> Releases
     
-     PRODENG --> Ops
+    PRODENG --> Ops
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PRODENG --> Foundations
     click Foundations "/handbook/engineering/infrastructure/team/foundations/"
@@ -64,26 +67,38 @@ flowchart LR
     click Runway "/handbook/engineering/infrastructure/team/runway/"
     PRODENG --> CC[Cloud Connector]
     click CC "/handbook/engineering/infrastructure/team/cloud-connector/"
+    PRODENG --> FO[FinOps]
+    click CC "/handbook/engineering/infrastructure/team/finops/"
 
-    I --> D[Dedicated]
-    click D "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
-    D --> E[Environment Automation]
-    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
-    D --> PSS[Public Sector Services]
-    click PSS "/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/"
-    D --> Switchboard
-    click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
+    DE --> DevA[Development Analytics]
+    click DevA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
 
-    DE --> DA[Development Analytics]
-    click DA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
     DE --> DT[Developer Tooling]
-    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
     DE --> FR[Feature Readiness]
-    click FR "/handbook/engineering/infrastructure-platforms/developer-experience"
+    click FR "/handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness/"
     DE --> PE[Performance Enablement]
     click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     DE --> TG[Test Governance]
-    click TG "/handbook/engineering/infrastructure-platforms/developer-experience"
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
+
+    SD --> B[Build]
+    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+
+    click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    SD --> Framework
+    click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
+    SD --> R[Release]
+    click R "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+    SD --> D[Deploy]
+    click D "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+
+    TS --> Organizations
+    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/"
+    TS --> CI[Cells Infrastructure]
+    click CI "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
+    TS --> Geo
+    click Geo "/handbook/engineering/infrastructure-platforms/tenant-scale/geo/"
 ```
 
 ## Dogfooding
