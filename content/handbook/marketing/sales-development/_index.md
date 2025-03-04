@@ -1069,7 +1069,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 | Use Claude For  | Do Not Use Claude for|
 |---------------|---------------|
 |Editing your emails (ex. make this shorter) | Any Questions about GitLab Features|
-| Any Questions about GitLab Features|Account Research (due to April Cut off)|
+| Helping you reply professionally with a clear CTA |Account Research (due to April Cut off)|
 | Organizing rough meeting notes| Competition Research/Questions |
 | Helping you organize your weekly schedule| Crafting Outbound Emails from Scratch|
 | Translate flows (Always review after) | Specific claims about how GitLab solves industry problems|
