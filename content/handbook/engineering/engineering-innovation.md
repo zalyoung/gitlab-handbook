@@ -42,7 +42,7 @@ Remember: The goal is to validate ideas and demonstrate value quickly, not to bu
 
 ## Internal vs External Innovations
 
-Innovations can be either internal or external. The goal for external innovations is to move your proof-of-concept to an [experimental](https://docs.gitlab.com/policy/development_stages_support/#experiment) feature, while internal innovations are focused on improving GitLab's internal operations and team efficiency.
+Innovations can be either internal or external. The goal for external innovations is to move your Proof-of-Concept to an [experimental](https://docs.gitlab.com/policy/development_stages_support/#experiment) feature, while internal innovations are focused on improving GitLab's internal operations and team efficiency.
 
 Here is a flowchart outlining the process:
 
