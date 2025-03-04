@@ -41,13 +41,13 @@ The Senior Manager, Global Enablement reviews if all Greenhouse tokens are corre
     - Make a copy of the template and save it to the working documents folder on Google Drive to edit
 1. Once the new contract and cover letter have been created, ping a Candidate Experience Specialist for auditing.
 1. Send the audited created documents and any additional details on the correction to Legal for review.
-1. Once approved by Legal stage the cover letter and new contract in DocuSign and send it for signature first to the [Company signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and subsequently to the team member.
+1. Once approved by Legal stage the cover letter and new contract in DocuSign and send it for signature first to the [Company signatory](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) and subsequently to the team member.
 1. Upload the signed documents to the team member's documents folder in Workday.
 1. If applicable, make any necessary updates to the team member's Workday profile and email Total Rewards total-rewards@ gitlab.com and Payroll uspayroll@ gitlab.com or nonuspayroll@ gitlab.com to notify them of the changes.
 
 ## Job Change Letter
 
-If a team member changes roles at GitLab and the approval goes through Greenhouse, the process for a Job Change Letter is laid out in the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#job-change-letter) section on the CES Contract Processes handbook page.
+If a team member changes roles at GitLab and the approval goes through Greenhouse, the process for a Job Change Letter is laid out in the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/coordinator/#job-change-letter) section on the CES Contract Processes handbook page.
 If a team member changes roles at GitLab and the approval goes through Workday, the process for a Job Change Letter is laid out in the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) section on the Promotions & Transfers handbook page.
 
 For other instances such as a [Relocation](/handbook/people-group/relocation/), the People Connect Team member will create a [Relocation letter](/handbook/people-group/relocation/#once-approved) according to the parameters as listed in the [Relocation within the Same Country](/handbook/people-group/relocation/#once-approved) section on the Relocation handbook page.
@@ -272,7 +272,7 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 - Note: A second [probation period](#probation-period) should only be implemented if the team member's new contract reflects the start of an [entirely new role](https://wsadvocaten.nl/probationary-period-netherlands-dismissal/). If the contract is simply a continuation of employment in the current role, a second probation period should not be applied.
 - Remove any wording regarding certificate of good conduct, as this was already requested as part of their first Netherlands contract.
 
-1. The People Connect team member stages the contract via Docusign for the [GitLab signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and the team member to sign. Add hr@savvy-group.eu to 'Receive a copy' once signed.
+1. The People Connect team member stages the contract via Docusign for the [GitLab signatory](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) and the team member to sign. Add hr@savvy-group.eu to 'Receive a copy' once signed.
 
 - If another temporary contract is issued follow [these steps](https://gl-people-operations.gitlab.io/internal-handbook/people_connect/lead/#netherlands-renewal-process---temporary-contracts) and include the mentioned message when sending the contract via DocuSign
 
