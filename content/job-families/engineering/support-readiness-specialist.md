@@ -76,11 +76,11 @@ coworkers, easier. Current and past Support Readiness Specialists in Operations 
   [tooling to generate weekly 1-1 issues](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator)
   for Support Engineers containing metrics, random tickets to review, etc.
 - Developed
-  [tooling to generate weekly account deletion reports](/handbook/support/readiness/operations/docs/adwr/).
+  [tooling to generate weekly account deletion reports](/handbook/support/readiness/operations/docs/gitlab/adwr/).
 - Leaned into
   [dogfooding](/handbook/engineering/development/principles/#dogfooding) by
   having various aspects of Zendesk
-  [version controlled via GitLab.com](/handbook/support/readiness/operations/docs/sync_repos/).
+  [version controlled via GitLab.com](/handbook/support/readiness/operations/docs/zendesk/).
 - ...and even more!
 
 ### Data Analysis & Services Delivery
