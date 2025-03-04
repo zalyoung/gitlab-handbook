@@ -31,9 +31,76 @@ toc_hide: true
 
 With the guidelines above we will end up with the following communication between
 
-![diagram showing how the networking looks like](/images/engineering/architecture/design-documents/cells/diagrams/networking.png)
+```mermaid
+flowchart LR
+    %% Define main entities
+    Users((Users))
+    GitLabOps(("GitLab Operator\nInternal Tooling"))
 
-[source](https://excalidraw.com/#json=ZkpKyrjuSVihA98HOcnBa,aSljwYS_JGT6G9leGgpHZw)
+    %% CloudFlare section with components in vertical flow
+    subgraph CloudFlare["CloudFlare (GitLab.com)"]
+        direction TB
+        DoS["DoS"]
+        WAF["WAF"]
+        RateLimiting["Rate Limiting"]
+        Workers["Workers\n(HTTP Router)"]
+
+        DoS --> WAF --> RateLimiting --> Workers
+    end
+
+    %% Google Cloud Platform section
+    subgraph GCP["Google Cloud Platform (gitlab-cells.com organization)"]
+        direction TB
+        subgraph AMPSection["AMP"]
+            Jobs["Instrumented Jobs"]
+        end
+
+        %% Cells in a horizontal line
+        subgraph Cells
+            direction LR
+            Cell1["cell-0fj2t2v563b55mswz"]
+            Cell2["cell-0fj98xaflkwpxmcj"]
+            Cell3["cell-0fj98xnabwqagvp"]
+        end
+
+        subgraph PSCSection["Private Service Connect"]
+            TopologyGRPC["Topology Service (gRPC)"]
+        end
+
+        TopologyREST["Topology Service (REST)"]
+
+        %% Connect Jobs to cells more cleanly
+        Jobs --> Cells
+    end
+
+    %% Connect users and operators to CloudFlare
+    Users -->|"gitlab.com\n(Allowed Public)"| CloudFlare
+    GitLabOps -->|"gitlab.com\n(Allowed Public)"| CloudFlare
+
+    %% Direct IDP connection from GitLab Operator to a cell via CloudFlare layer
+    GitLabOps -.->|"IDP"| CellCloudFlare
+
+    %% Add CloudFlare layer for cell communication
+    subgraph CellCloudFlare["CloudFlare Layer for Cells"]
+        direction TB
+        CellDoS["DoS"]
+        CellWAF["WAF"]
+        CellRateLimiting["Rate Limiting"]
+
+        CellDoS --> CellWAF --> CellRateLimiting
+    end
+
+    %% Connect workers to CloudFlare layer for cells, then to cells
+    Workers -->|"mTLS"| CellCloudFlare
+    CellCloudFlare --> Cells
+    Workers -->|"mTLS"| TopologyREST
+
+    %% Connect cells to Private Service Connect with mTLS
+    Cells <-->|"mTLS"| PSCSection
+
+    %% Not allowed connection
+    Users -.->|"Not Allowed"| Cell1
+```
 
 ## Cross-VPC communication in GCP
 
@@ -90,6 +157,12 @@ We need to expand on this after we validate the idea with a proof of concept.
 
 ### Services
 
-With Cloudflare Zero Trust we can set up [mTLS](https://developers.cloudflare.com/cloudflare-one/identity/devices/access-integrations/mutual-tls-authentication/) so HTTP Router sends requests to a Cell.
+We can potentially use Cloudflare Zero Trust [mTLS authentication](https://developers.cloudflare.com/cloudflare-one/identity/devices/access-integrations/mutual-tls-authentication/) for secure communication between our HTTP Router and Cell services.
 
-We need to expand on this after we validate the idea with a proof of concept and finish writing the mTLS blueprint.
+The Cloudflare Workers mTLS documentation states:
+
+>Currently, mTLS for Workers cannot be used for requests made to a service that is a proxied zone on Cloudflare. If your Worker presents a client certificate to a service proxied by Cloudflare, Cloudflare will return a 520 error.
+
+Since our HTTP Router is a Cloudflare Worker, this limitation may apply, but Cloudflare Zero Trust's mTLS implementation might function differently.
+
+We need to expand on this after [we validate the idea with a proof of concept](https://gitlab.com/gitlab-org/gitlab/-/issues/468640) and finish writing the mTLS blueprint.
