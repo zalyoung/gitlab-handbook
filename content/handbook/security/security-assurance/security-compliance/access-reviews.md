@@ -46,7 +46,7 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 
 ## What is Lumos and why do I have an Okta tile for it?
 
-[Lumos](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_reviews/) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Lumos upon onboarding. To access Lumos, team members can select the Lumos tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
+[Lumos](../../corporate/systems/lumos/access_reviews/_index.md) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Lumos upon onboarding. To access Lumos, team members can select the Lumos tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
 
 ## Access Review Procedure
 
@@ -56,11 +56,11 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 
 **Entitlement/Privilaged Access**
 
-- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Lumos. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via Lumos see the [Lumos review handbook page here](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_reviews/).
+- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Lumos. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via Lumos see the [Lumos review handbook page here](../../corporate/systems/lumos/access_reviews/_index.md).
 
 ### Access Review runbook
 
-The [Lumos review handbook page here](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_reviews/) provides the outline to complete these access reviews, including how to confirm [least privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
+The [Lumos review handbook page here](../../corporate/systems/lumos/access_reviews/_index.md) provides the outline to complete these access reviews, including how to confirm [least privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
 
 In the event access is identified to no longer be required, open an [Access Removal](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) issue for each account that no longer requires access and relate it to the system access review issue.
 
