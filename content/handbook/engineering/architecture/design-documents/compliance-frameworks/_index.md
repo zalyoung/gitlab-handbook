@@ -308,116 +308,116 @@ The compliance requirements would be stored in a separate table with the followi
 
 ```mermaid
     classDiagram
-        class namespaces {
-            id: bigint
-            name: text
-            path: text
-            ...(more columns)
-        }
-        class projects {
-            id: bigint,
-            name: text
-            path: text
-            description: text
-            ...(more columns)
-        }
+    class namespaces {
+        id: bigint
+        name: text
+        path: text
+        ...(more columns)
+    }
+    class projects {
+        id: bigint,
+        name: text
+        path: text
+        description: text
+        ...(more columns)
+    }
 
-        class project_compliance_framework_settings {
-            id: bigint
-            project_id: bigint
-            framework_id: bigint
-            ...(more columns)
-        }
+    class project_compliance_framework_settings {
+        id: bigint
+        project_id: bigint
+        framework_id: bigint
+        ...(more columns)
+    }
 
-        class compliance_management_frameworks {
-            id: bigint,
-            name: text,
-            description: text,
-            ...(more columns)
-        }
+    class compliance_management_frameworks {
+        id: bigint,
+        name: text,
+        description: text,
+        ...(more columns)
+    }
 
-        class compliance_requirements {
-            id: bigint
-            created_at: timestamp
-            updated_at: timestamp
-            namespace_id: bigint
-            framework_id: bigint
-            name: text
-            description: text
-        }
+    class compliance_requirements {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        namespace_id: bigint
+        framework_id: bigint
+        name: text
+        description: text
+    }
 
-        class compliance_requirements_controls {
-            id: bigint
-            created_at: timestamp
-            updated_at: timestamp
-            namespace_id: bigint
-            requirement_id: bigint
-            name: text
-            control_type: smallint
-            external_url: text
-            expression: text
-            encrypted_secret_token: bytea
-            encrypted_secret_token_iv: bytea
-        }
+    class compliance_requirements_controls {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        namespace_id: bigint
+        requirement_id: bigint
+        name: text
+        control_type: smallint
+        external_url: text
+        expression: text
+        encrypted_secret_token: bytea
+        encrypted_secret_token_iv: bytea
+    }
 
-        class project_control_compliance_statuses {
-            id: bigint
-            created_at: timestamp
-            updated_at: timestamp
-            project_id: bigint
-            namespace_id: bigint
-            compliance_requirement_id: bigint
-            compliance_requirements_control_id: bigint
-            status: smallint
-        }
+    class project_control_compliance_statuses {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        project_id: bigint
+        namespace_id: bigint
+        compliance_requirement_id: bigint
+        compliance_requirements_control_id: bigint
+        status: smallint
+    }
 
-        class project_compliance_violations {
-            id: bigint
-            created_at: timestamp
-            updated_at: timestamp
-            project_id: bigint
-            namespace_id: bigint
-            compliance_requirement_id: bigint
-            compliance_requirement_expression: jsonb
-            audit_event_id: bigint
-        }
+    class project_compliance_violations {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        project_id: bigint
+        namespace_id: bigint
+        compliance_requirement_id: bigint
+        compliance_requirement_expression: jsonb
+        audit_event_id: bigint
+    }
 
-        class security_policy_controls {
-            id: bigint
-            created_at: timestamp
-            updated_at: timestamp
-            compliance_framework_security_policy_id: bigint
-            compliance_requirement_control_id: bigint
-            namespace_id: bigint
-        }
+    class security_policy_controls {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        compliance_framework_security_policy_id: bigint
+        compliance_requirement_control_id: bigint
+        namespace_id: bigint
+    }
 
-        class audit_events {
-            id: bigint
-            author_id: bigint
-            entity_id: bigint
-            entity_type: string,
-            details: text,
-            author_name: text,
-            entity_path: text,
-            target_details: text,
-            target_type: text,
-            target_id: bigint
-            ...(more columns)
-        }
+    class audit_events {
+        id: bigint
+        author_id: bigint
+        entity_id: bigint
+        entity_type: string,
+        details: text,
+        author_name: text,
+        entity_path: text,
+        target_details: text,
+        target_type: text,
+        target_id: bigint
+        ...(more columns)
+    }
 
-        namespaces --> projects  : has_many
+    namespaces --> projects  : has_many
 
-        compliance_management_frameworks <--> project_compliance_framework_settings : has_many
-        project_compliance_framework_settings <--> projects : many_to_many
-        namespaces --> compliance_management_frameworks : has_many
-        projects --> project_control_compliance_statuses : has_many
-        projects --> project_compliance_violations : has_many
-        compliance_management_frameworks --> compliance_requirements : has_many
-        compliance_requirements --> compliance_requirements_controls : has_many
-        compliance_requirements_controls --> project_control_compliance_statuses : has_many
-        compliance_requirements_controls <--> security_policy_controls : has_and_belongs_to_many
-        project_control_compliance_statuses <--> audit_events
-        compliance_requirements_controls <--> project_compliance_violations : has_and_belongs_to_many
+    compliance_management_frameworks <--> project_compliance_framework_settings : has_many
+    project_compliance_framework_settings <--> projects : many_to_many
+    namespaces --> compliance_management_frameworks : has_many
+    projects --> project_control_compliance_statuses : has_many
+    projects --> project_compliance_violations : has_many
+    compliance_management_frameworks --> compliance_requirements : has_many
+    compliance_requirements --> compliance_requirements_controls : has_many
+    compliance_requirements_controls --> project_control_compliance_statuses : has_many
+    compliance_requirements_controls <--> security_policy_controls : has_and_belongs_to_many
+    project_control_compliance_statuses <--> audit_events
+    compliance_requirements_controls <--> project_compliance_violations : has_and_belongs_to_many
 ```
 
 We plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
