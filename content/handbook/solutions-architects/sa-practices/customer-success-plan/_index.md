@@ -49,16 +49,19 @@ The Mutual Customer Success Plan should be reviewed and accepted with a customer
 2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.  *(Opportunities that are part of a focus account have salesforce named "Compensation Target Account" checked.)*
 3. All opportunities where the SA is involved in a [*SA Validated Tech Evaluation*](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
 
-SA Managers have discretion for additional opportunities to be included or excluded.
+SA Managers have discretion for additional opportunities to be included.  Additionally, SA Directors can provide an [exception](#csp-exception-process) in specific cases where it is impossible or unreasonable for the SA to create a CSP for a customer.
 
 Once an opportunity has been identified using the criteria above, as requiring a Customer Success Plan, the Solutions Architect should initiate it at the end of Stage-3 Technical Evaluation, and place the URL in the Customer Success Plan field, in the opportunity, in Sales Force.
 
-Then the SA ensures that the relevant fields in the Customer Success Plan section, on the Opportunity level in SFDC, is maintained throughout the process:
+Then the SA ensures that the relevant fields in the Customer Success Plan section, on the Opportunity level in SFDC, is maintained throughout the process.
+
+### CSP Exception Process
+When it is unreasonable or impossible for the SA to create a CSP for a customer, the SA Director can mark the opportunity as requiring a CSP exception.  This provides us a feedback driven approach to iterating on our customer engagement models, encourages dialougue on specific opportunity feasibility, and provide a KPI based approach to SA customer success planning that is within the control of the SA organization.  
 
 ![Customer Success Plan Opportunity Fields](/images/solutions-architects/processes/Customer-Success-Plan-SFDC.png)
 
-1. Customer Success Plan: field for the URL to the plan
-1. CSM Ready: Check if the plan is/can be handed over to the CSM
+1. Customer Success Plan: field for the URL to the plan.  If CSM Excpetion is checked, this field will contain the justification for the exception (using this field is a temporary method while a field dedicated for CSM exception justification is implemented).
+1. CSM Exception: SA Director+ can check this if it's impossible or unreasonable for the SA to create a CSP for the customer. 
 1. Customer Accepted: Check if the CSP has been reviewed with the customer.  The customer doesn't need to formally "accept" the CSP for this to be checked.
 
 See how to [initiate a Customer Success Plan from a Technical Close Plan below](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-to-build-a-technical-close-plan-and-transition-to-a-customer-success-plan).
