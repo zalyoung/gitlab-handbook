@@ -68,14 +68,14 @@ flowchart LR
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
     GD --> E[Environment Automation]
-    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation/" 
+    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation/"
     GD --> PSS[Public Sector Services]
     click PSS "/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/"
     GD --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
     PE --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/" 
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
     PE --> Foundations
     click Foundations "/handbook/engineering/infrastructure/team/foundations/"
     PE --> O[Observability]
@@ -86,7 +86,7 @@ flowchart LR
     click R "/handbook/engineering/infrastructure/team/runway/"
 
     SD --> B[Build]
-    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/" 
+    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SD --> SM[Self-Managed]
     click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SD --> Framework
@@ -94,10 +94,10 @@ flowchart LR
     SD --> R[Release]
     click R "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
     SD --> D[Deploy]
-    click D "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/" 
+    click D "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
 
     TS --> Organizations
-    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/" 
+    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/"
     TS --> CI[Cells Infrastructure]
     click CI "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
     TS --> Geo
