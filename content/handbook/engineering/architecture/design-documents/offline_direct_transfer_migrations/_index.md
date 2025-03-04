@@ -159,7 +159,7 @@ sequenceDiagram
           Source-->>ExportTool: Relation export status, loop if not ready
           ExportTool->>Source: Download relation export
           Source-->>ExportTool: Relation export data
-          ExportTool->>ExportTool: Write relation data to .ndjson file on disk
+          ExportTool->>ExportTool: Write relation data to .ndjson file to disk/object storage
         end
     end
     ExportTool->>Owner: Notify export complete
@@ -206,24 +206,98 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
+### New Import Architecture
+
+Once data has been exported from the source destination, the user will have a few options:
+- (first iteration) Import relations from AWS (S3) object storage. This will be the only available option for migrating into SaaS.
+- (future iterations) Import relations from a configured object storage location, including local file storage
+
+- Create a new file download service for bulk imports similar to `BulkImports::FileDownloadService` that downloads from S3 configuration. Validations such as file size, type, etc. on remote file can be done in this service. These services abstract the work to fetch relation files away from the pipelines themselves. 
+- When the user begins an offline import on the destination, they query a new API endpoint to begin an offline export with the following params:
+  ```ruby
+  requires :configuration, type: Hash, desc: 'The AWS S3 configuration' do
+    requires :access_key_id, type: String, desc: 'AWS S3 access key ID'
+    requires :secret_access_key, type: String, desc: 'AWS S3 secret access key'
+    requires :region, type: String, desc: 'AWS region'
+    requires :bucket_name, type: String, desc: 'AWS S3 bucket name where all files are stored'
+  end
+  requires :entities, type: Array, desc: 'List of entities to import' do
+    requires :source_type,
+    type: String,
+    desc: 'Source entity type',
+    values: %w[group_entity project_entity]
+    requires :source_full_path,
+    type: String,
+    desc: 'Relative path of the source entity to import'
+    requires :destination_namespace,
+    type: String,
+    desc: 'Destination namespace for the entity'
+    optional :destination_slug,
+    type: String,
+    desc: 'Destination slug for the entity'
+    optional :migrate_projects,
+    type: Boolean,
+    default: true,
+    desc: 'Indicates group migration should include nested projects'
+    optional :migrate_memberships,
+    type: Boolean,
+    default: true,
+    desc: 'The option to migrate memberships or not'
+  end
+  ```
+  The main difference between this new API is this endpoint accepts params for an AWS S3 storage location instead of source instance configuration. It may also call a new service to handle creating the `BulkImport` record for offline imports if it's substantially different from `BulkImports::CreateService`.
+- `BulkImports::Configuration` is updated to store credentials for AWS S3 object storage and store a hash of mappings to tie `source_full_path` to `object_storage_file_prefix`. These mappings are stored in a metadata file
+
+#### Import metadata file structure
+
+Offline migrations will need a metadata file to map entity source paths to file keys in object storage. Since object storage is always a flat structure, and disk storage is always a nested structure, opting for a flat object storage with information on how to link entities seems best.
+
+The metadata file holds the following information:
+- `instance_version`: Version of the source instance.
+- `instance_enterprise`: Whether or not the source instance was enterprise edition.
+- `export_tag`: Prefix for all files included in the current export. This allows multiple exports of the same entities to exist in object storage at the same time.
+- `entities_mapping`: Hash of entity full paths as keys to its object storage file prefix.
+Example metadata file:
+```ndjson
+{"instance_version":"17.0.0"}
+{"instance_enterprise":true}
+{"entities_mapping:
+  {
+    "top_level_group":"group_1"
+    "top_level_group/group":"group_2",
+    "top_level_group/group/first_project":"project_1",
+    "top_level_group/group/second_project":"project_2",
+    "top_level_group/another_group":"group_3"
+  }
+}
+```
+File keys in object storage follow the format `#{export_tag}-#{entity_prefix}-#{relation_name}.ndjson`. Relation names are defined in each `group/import_export.yml` and `project/import_export.yml`. For example:
+- `group_1-self.ndjson`
+- `group_1-milestones.ndjson`
+- `project_1-issues.ndjson`
+
 ## Iterations
 
 ## Alternative Solutions
 
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+### Alternatives to Congregate
+###### Pros to using Congregate
+Congregate was chosen as the "export tool" for the initial implementation because it seems to have much the export functionality we're looking for. It allows for staging to disk and AWS, and exports using existing export APIs. Professional Services understands this tool well and working with it would likely be familiar to those who help customers with imports regularly.
+###### Cons to using Congregate
+The documentation is not as user-friendly for those used to typical GitLab docs. Additionally, it's unclear whether it will be viable for offline exports via the UI since the UI for Congregate involves a Docker setup. There's also been discussions on whether or not Congregate should be supported in the long-term, or if GitLab should handle this functionality internally
+###### Alternatives to Congregate
+* Building offline export directly into GitLab. This is possible, but it would be harder to support older instances of GitLab because they don't have the models and services necessary to export data to disk or object storage. This would easily support exports from the UI as well.
+* Writing a plain-ol-ruby script: Also possible, but Congregate seems best suited for the first iterations over re-writing all of it. This may change with deeper investigation into congregate. A ruby script could be called from the UI for source GitLab versions that include export from the UI. Source versions that are too old can copy the script from gitlab.com and run it locally, but that could be an issue for customers with the strictest network policies.
 
-"Do nothing" and its pros and cons could be included in the list too.
--->
 
 ### Glossary of terms
 In the past, we've had confusion over terms used within our importers. Here's a glossary of terms to help clear up what some terms mean:
 
-- **Source**: The source instance where Group or Project data is exported from.
-- **Destination:** The destination source where Group or Project data is imported into.
 - **Air-gapped network**: A network that doesn't allow any outside access. For the purposes of offline migrations, we should assume that both the source and destination instances are air-gapped.
-- **Offline migration**: A migration where the source, destination, or both instances of GitLab are on air-gapped networks. In general, offline = air-gapped.
+- **Destination:** The destination source where Group or Project data is imported into.
+- **Entity:** A group or project. An entity has many relations, such as milestones, labels, issues, merge requests, etc.
 - **Export tool**: A tool that exists outside of GitLab to generate export data on an air-gapped GitLab instance. In this context, the export tool is Congregate, but if requirements change and Congregate is not a viable tool, then the export tool will likely be just a script.
-- **Placeholder user**: A literal `User` object with `user_type: :placeholder`. Placeholder users cannot login and do not have any abilities within GitLab. They are meant to fill `user_id` foreign key constraints in the database after an import until the owner of the import can decide which real GitLab user should be in place of the placeholder.
-- **Source user**: An `Import::SourceUser` object that holds details about the user record on the source instance, which placeholder user is associated to the source user, and which real user on the destination the user on the source should be assigned to. It's the connecting object between a user data from an import source and the literal `User` on the destination. Colloquially, we might say "a placeholder user is reassigned," but technically speaking, a `reassign_to_user_id` is set on a source user, then a process runs in the background to replace every `user_id` of its placeholder user with the `reassign_to_user_id`.
+- **File prefix**: A substring of a object storage file key. Since object storage is always a flat file structure, it's similar to a directory name, but more obvious at a glance that it's not actually a directory.
+- **Offline migration**: A migration where the source, destination, or both instances of GitLab are on air-gapped networks. In general, offline = air-gapped.
+- **Relation:** A resource, generally a model, that belongs to an entity. Relations include things like milestones, labels, issues, merge requests. A relation can also be a self relation (attributes on the entity itself), or more abstract concepts such as user contributions.
+- **Source**: The source instance where Group or Project data is exported from.
