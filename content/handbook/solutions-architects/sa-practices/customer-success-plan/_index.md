@@ -73,11 +73,9 @@ To mark an opportunity with a CSP Exception, following the guidance for [Trackin
 
 To drive visibility, accountability, and collaboration, CSPs and the associated customer review need to be recorded on the associated opportunity in salesforce. Please use the following fields:
 
-
 1. Customer Success Plan: field for the URL to the plan.  If CSM Excpetion is checked, this field will contain the justification for the exception (using this field is a temporary method while a field dedicated for CSM exception justification is implemented).
 1. CSM Exception: SA Director+ can check this if it's impossible or unreasonable for the SA to create a CSP for the customer. 
 1. Customer Accepted: Check if the CSP has been reviewed with the customer.  The customer doesn't need to formally "accept" the CSP for this to be checked.
-
 
 See how to [initiate a Customer Success Plan from a Technical Close Plan below](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-to-build-a-technical-close-plan-and-transition-to-a-customer-success-plan).
 
@@ -231,7 +229,6 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
 |4.|OnGoing/ Planned Initiatives w/ Status|||Update Milestones upon Cadence|X|
 |5.|Outcome/ Metric Updates|||Update Metrics/ Customer upon Cadence|X|
 |6.|PS SOWs and RunBook|||Attached|X|
-
 
 ### The CSM and the Customer Success Plan
 
