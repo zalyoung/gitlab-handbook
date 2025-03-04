@@ -11,7 +11,7 @@ Our mission is to empower developers to focus on innovation, build, and deliver 
 2. Robust and reliable test infrastructure.
 3. Data-driven analysis for informed decision-making.
 4. Streamlined release and test governance to ensure consistency, compliance, and quality across the development lifecycle.
-5. Comprehensive performance validation.
+5. Continuous performance profiling.
 
 ## Team Structure
 
