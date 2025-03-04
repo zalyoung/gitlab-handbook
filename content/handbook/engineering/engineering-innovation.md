@@ -106,40 +106,40 @@ External innovations are focused on developing new features or enhancements for 
 
 ### Step 3: Create the Associated Issues
 
-Within the Epic, create an issue with the following:
+Within the Epic, create the following issues:
 
-- **Overview:** This should be a high-level summary of the innovation detailing the purpose, expected business value, and a resource list for more information. This can also be in the Epic Description section. Your epic overview section should include the following:
-  - **Base Properties**: all innovations should have the following:
-    - **A DRI (Directly Responsible Individual):** for each innovation (and if moved to experimental, the DRI for the experiment). This person should be responsible for the cleanup of the innovation so that does not go stale.
-    - **Why Now?** or **Problem to Solve?** - this should include the business case for the innovation. This should help everyone to understand the problem the POC is solving.
-    - **Dependencies or Implications:** Any dependencies or implications for other product areas or teams.
-    - **Timeline:** What will mark this innovation as "complete"?
-    - **Cost:** What are the cost implications of this feature? Are there any infrastructure related costs? Expected maintenance cost?
-  - **External Innovation:** If the innovation is intended for an external feature, include the following:
-    - **Stage and Group:** Identify the stage and group this functionality would eventually be maintained and owned by - be sure to tag the Product Manager for that group.
-    - **Alignment with Product Roadmap and Strategic Initiatives:** If possible, include a section on how this feature aligns with the Product Roadmap and Strategic Initiatives.
-    - **Security and Privacy:** Security and Privacy considerations - has this been reviewed by the Security Team?
-    - **Differentiation Plan:** If applicable, describe how your innovation will be differentiated (visually, or otherwise) from standard product features, including:
-      - Which visual differentiation approach you'll use (UI badge, experimental mode, feature flags, etc.).
-      - How users will opt-in to see or use the innovation.
-      - Any documentation or disclaimers that will accompany the innovation.
+1. **Overview:** This should be a high-level summary of the innovation detailing the purpose, expected business value, and a resource list for more information. This can also be in the Epic Description section. Your epic overview section should include the following:
+    - **Base Properties**: all innovations should have the following:
+      - **A DRI (Directly Responsible Individual):** for each innovation (and if moved to experimental, the DRI for the experiment). This person should be responsible for the cleanup of the innovation so that does not go stale.
+      - **Why Now?** or **Problem to Solve?** - this should include the business case for the innovation. This should help everyone to understand the problem the POC is solving.
+      - **Dependencies or Implications:** Any dependencies or implications for other product areas or teams.
+      - **Timeline:** What will mark this innovation as "complete"?
+      - **Cost:** What are the cost implications of this feature? Are there any infrastructure related costs? Expected maintenance cost?
+    - **External Innovation:** If the innovation is intended for an external feature, include the following:
+      - **Stage and Group:** Identify the stage and group this functionality would eventually be maintained and owned by - be sure to tag the Product Manager for that group.
+      - **Alignment with Product Roadmap and Strategic Initiatives:** If possible, include a section on how this feature aligns with the Product Roadmap and Strategic Initiatives.
+      - **Security and Privacy:** Security and Privacy considerations - has this been reviewed by the Security Team?
+      - **Differentiation Plan:** If applicable, describe how your innovation will be differentiated (visually, or otherwise) from standard product features, including:
+        - Which visual differentiation approach you'll use (UI badge, experimental mode, feature flags, etc.).
+        - How users will opt-in to see or use the innovation.
+        - Any documentation or disclaimers that will accompany the innovation.
 
-- **POC (Proof-of-Concept) or Demo:** This issue should contain:
+2. **POC (Proof-of-Concept) or Demo:** This issue should contain:
 
-  - A concise explanation (could be a text, a video, an image, etc.) of the Why of the idea, story behind the vision, potential business value and demonstrating the POC.
+    - A concise explanation (could be a text, a video, an image, etc.) of the Why of the idea, story behind the vision, potential business value and demonstrating the POC.
 
-  - Links to relevant repositories and code branches.
+    - Links to relevant repositories and code branches.
 
-  - Step-by-step instructions to set up the POC environment, if applicable.
+    - Step-by-step instructions to set up the POC environment, if applicable.
 
-- **Feedback:** Document both internal feedback from GitLab team members and, when applicable, external user feedback. 
+3. **Feedback:** Document both internal feedback from GitLab team members and, when applicable, external user feedback. 
 
-- **Documentation (Optional):** A detailed breakdown of the innovation's internals, including diagrams, code snippets, and technical explanations. 
-  - This can serve as a "how it was made" guide. 
-  - Since POCs are typically small and often involve stubbed parts, be sure to outline implementation dependencies.
-  - If possible, explain how your POC can be extended. 
+4. **Documentation (Optional):** A detailed breakdown of the innovation's internals, including diagrams, code snippets, and technical explanations. 
+    - This can serve as a "how it was made" guide. 
+    - Since POCs are typically small and often involve stubbed parts, be sure to outline implementation dependencies.
+    - If possible, explain how your POC can be extended. 
 
-- **Monitoring (Optional):** This issue should help users understand how your innovation is performing. You can use this issue to provide metrics and monitoring details for the innovation, such as links to dashboards or performance metrics. If monitoring data is confidential or sensitive, ensure the issue is handled accordingly.
+5. **Monitoring (Optional):** This issue should help users understand how your innovation is performing. You can use this issue to provide metrics and monitoring details for the innovation, such as links to dashboards or performance metrics. If monitoring data is confidential or sensitive, ensure the issue is handled accordingly.
 
 ### Step 4: Consider Confidentiality
 
