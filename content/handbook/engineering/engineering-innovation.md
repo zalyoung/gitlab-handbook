@@ -126,7 +126,7 @@ Within the Epic, create an issue with the following:
 
 - **POC (Proof-of-Concept) or Demo:** This issue should contain:
 
-  - A concise video explaining the Why of the idea, story behind the vision, potential business value and demonstrating the POC.
+  - A concise explanation (could be a text, a video, an image, etc.) of the Why of the idea, story behind the vision, potential business value and demonstrating the POC.
 
   - Links to relevant repositories and code branches.
 
