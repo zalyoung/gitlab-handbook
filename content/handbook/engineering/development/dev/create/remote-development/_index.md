@@ -219,7 +219,9 @@ graph TD;
 ```
 
 #### 1. Feature Inception
+
 Ideas can come from anywhere and anyone. If you have an idea...
+
 1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedbback & Insights epic.
 2. Pre-fix the issue title with "Feedback:..." or "Idea:..." 
 3. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda
@@ -233,11 +235,13 @@ The **High Level Planning** meeting is an open forum where new and ongoing work 
 - **Escalation of Bugs/Technical Debt**: Issues that need urgent attention or adjustments to the timeline.
 
 **Meeting Objectives:**
+
 - **Identify and Discuss Topics:** Team members are encouraged to propose any relevant topics in advance and discuss them during the meeting.
   
-- **Prioritize Work:**  The meeting serves to clarify the most important work and make decisions on what should take priority.
+- **Prioritize Work:** The meeting serves to clarify the most important work and make decisions on what should take priority.
 
 **Post-Meeting Actions:**
+
 - **Roadmap Assessment:** After the meeting, the Product Manager will assess the proposed changes and update the epic board(s), which serves as the source of truth for work prioritization.
 
 - **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(workspaces|webide)-workflow::prioritized"` label.
@@ -249,6 +253,7 @@ The **High Level Planning** meeting is an open forum where new and ongoing work 
 The **Async Refinement** process is designed to prepare upcoming work efficiently on the epic board, which serves as our source of truth for prioritization.
 
 **Key Principles:**
+
 - **Epic Board:** The epic board organizes and prioritizes upcoming work, following a color scheme to reflect each epic’s status.
   - <span style="color:#1068bf">Blue</span>: Default color for new epics that need refinement.
   - <span style="color:#f3ad5d">Apricot</span>: Indicates that an epic is fully refined and ready for weighing in the next planning stage.
@@ -277,7 +282,9 @@ The **Async Refinement** process is designed to prepare upcoming work efficientl
 The **Iteration Planning Meeting** is a collaborative session where the team reviews and weighs issues within epics marked as <span style="color:#f3ad5d">apricot</span> on the epic board. This process ensures that each refined epic is fully understood, in scope, and aligned with the team’s goals.
 
 **Meeting Objectives:**
+
 - **Review and Weigh Issues:** 
+
   - For each issue, the facilitator reads the description, and the team **_briefly_** discusses the issue and clarifying any uncertainties. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned. See[What Weights to Use](#-what-weights-to-use) for more details on weights.
   - If there are other prioritized issues that have not yet been weighed, these are also reviewed and weighed during the meeting.
 
@@ -285,11 +292,11 @@ The **Iteration Planning Meeting** is a collaborative session where the team rev
   - This meeting provides an opportunity for the team to ask questions and deepen their understanding of upcoming work, ensuring that the epic is feasible and makes sense to everyone.
 
 **Async Weighing Option:**
+
 - Weighing can also be done asynchronously through the `#remote_development_async_ipm` Slack channel.
 - To initiate async weighing, post the issue that needs to be weighed along with a [Polly poll](https://www.polly.ai/help/slack/creating-polls) to gather input.
 
 This structure allows for both synchronous and asynchronous participation, enabling thorough preparation and alignment on upcoming work.
-
 
 #### 5. Milestone Planning & Starting Development
 
@@ -300,6 +307,7 @@ The **Milestone Planning & Starting Development** process is used to plan issues
 **Epic and Issue Setup:** When starting work on a new epic, all child issues are labeled with `~"(workspaces|webide)-workflow::prioritized"`and assigned the milestone **`%"Next 1-3 Releases"`** to indicate they are prioritized for near-term development.
 
 **Milestone Planning and Creating Planning Issue**:
+
 1. Before each milestone begins, the Engineering Manager along with Product Manager reviews and assigns issues for the upcoming release based on the team’s velocity. Specific milestone number `%XX.X` to designate them as part of the planned release.
 
 2. A **Planning Issue** is automatically created two weeks before start of the new release cycle. This issue is populated with relevant details to guide the team through the milestone. You can view and access all active Planning Issues [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=updated_desc&state=opened&search=planning%20issue&first_page_size=50).
@@ -507,7 +515,7 @@ TODO: None of these are set up yet for the Web IDE category and `webide-workflow
 | <a id="automation-05">05</a> | Ensure closed issues are in the correct state | Every Issue in `~"Category:Workspace"` which is closed must have the `~workspaces-workflow::done` label applied. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces//workflow-05.yml) |
 | <a id="automation-06">06</a> | Sync Workspace workflow and GitLab workflow labels | 1. Issues in `~workspaces-workflow::unprioritized` but with no GitLab workflow label should have `~"refined"` assigned. <br> 2. Unstarted issues in `~workspaces-workflow::prioritized` but with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces/workflow-06.yml) |
 | <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~workspaces-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
-| <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
+| <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the "1. High level validation and planning section", and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
 | <a id="automation-09">09</a> | Apply correct ~workspaces-workflow label to reopened issues | Re-opened issues which are open but in `~workspaces-workflow::done` should have `~"workspaces-workflow::prioritized"` assigned. | TODO: implement |
 | <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> | TODO: implement |
 | <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `workspaces-workflow::ignored` label assigned. | TODO: implement |
