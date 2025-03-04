@@ -156,7 +156,7 @@ Every Roadmap commitment has a Directly Responsible Individual (DRI) for overall
 
 The project manager clarifies scope, identifies dependent work, appoints DRIs for work streams, and ensures risks and blockers are prioritized.
 
-EMs maintain a Wiki page for the project containing a project timeline, project status, links to work items, key participants, and a decision register. This is required for Tier 1 and Tier 2 Roadmap commitments and encouraged for all important projects. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Examples of previous Wikis are:
+EMs maintain a Wiki page for the project containing a project timeline, project status, links to work items, key participants, a [dogfooding proposal](#dogfooding), and a decision register. This is required for Tier 1 and Tier 2 Roadmap commitments and encouraged for all important projects. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Examples of previous Wikis are:
 
 - [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
 - [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
