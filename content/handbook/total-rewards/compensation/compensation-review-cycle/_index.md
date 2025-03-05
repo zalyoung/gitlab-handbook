@@ -30,7 +30,7 @@ graph LR
     step_pay_equity(Total Rewards<br/>conducts pay equity<br/>audit)
     step_comp_group(Comp Group approval)
     step_manager_comm(Manager informs<br/>direct reports of<br/>compensation review<br>outcomes)
-    step_comp_effective(New<br/>compensation<br/>effective 1<br/>Feb 2024)
+    step_comp_effective(New<br/>compensation<br/>effective 1<br/>May)
     stop((Refresh grants<br/>approved during<br/>quarterly grant date))
 
     start-->step_acr_launch
