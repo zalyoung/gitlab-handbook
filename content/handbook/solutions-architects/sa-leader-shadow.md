@@ -37,7 +37,7 @@ Candidates must:
 |-------|---------|---------|
 | FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
 | FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) |  |
-| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) |  |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA |
 | FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
 | FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
 | FY26 Q3 |  |  |
