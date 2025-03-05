@@ -201,7 +201,7 @@ An innovation can be closed out in a few ways:
 
 - The innovation work came to a conclusion to not move forward
 - The innovation is ready that a decision can be made to either be promoted to an product feature experiment, will be implemented (technical innovations) or for internal innovation will be kept longterm internally
-    - For making this decision ping the PM or EM for the specific area and ask for making a clear decision and the Why behind the decision
+  - For making this decision ping the PM or EM for the specific area and ask for making a clear decision and the Why behind the decision
 - There are legal or security concerns that prevent the innovation from moving forward.
 
 ## Additional Resources
