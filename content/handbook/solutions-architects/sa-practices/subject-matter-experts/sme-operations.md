@@ -135,7 +135,7 @@ Each SME Area Lead should set up SME Collaboration project (See [AppSec Example)
 | Financial Services Vertical | [Financial Services SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/financial-services-sme) |
 | Telecommunications Vertical | [Telecommunications SME PRoject](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/telecommunications-sme)|
 
-### SME Metrics (TBD)
+### SME Metrics (TBD) {#sme-metrics}
 
 To effectively measure the impact and success of the SME program, we will track the following metrics:
 
