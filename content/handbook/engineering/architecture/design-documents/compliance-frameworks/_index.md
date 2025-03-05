@@ -382,15 +382,6 @@ The compliance requirements would be stored in a separate table with the followi
         audit_event_id: bigint
     }
 
-    class security_policy_controls {
-        id: bigint
-        created_at: timestamp
-        updated_at: timestamp
-        compliance_framework_security_policy_id: bigint
-        compliance_requirement_control_id: bigint
-        namespace_id: bigint
-    }
-
     class audit_events {
         id: bigint
         author_id: bigint
@@ -413,9 +404,8 @@ The compliance requirements would be stored in a separate table with the followi
     projects --> project_control_compliance_statuses : has_many
     projects --> project_compliance_violations : has_many
     compliance_management_frameworks --> compliance_requirements : has_many
-    compliance_requirements --> compliance_requirements_controls : has_many
     compliance_requirements_controls --> project_control_compliance_statuses : has_many
-    compliance_requirements_controls <--> security_policy_controls : has_and_belongs_to_many
+    compliance_requirements --> compliance_requirements_controls : has_many
     project_control_compliance_statuses <--> audit_events
     compliance_requirements_controls <--> project_compliance_violations : has_and_belongs_to_many
 ```
@@ -458,7 +448,6 @@ flowchart TD
     A -- insert --> compliance_management_frameworks@{ shape: cyl }
     B -- insert --> compliance_requirements@{ shape: cyl }
     C -- update --> compliance_requirements@{ shape: cyl }
-    D -- insert --> security_policy_requirements@{ shape: cyl }
 ```
 
 #### Recurring Configuration Status Checks execution flow
