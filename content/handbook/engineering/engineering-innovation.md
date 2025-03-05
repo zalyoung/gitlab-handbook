@@ -191,14 +191,15 @@ Once you have gathered initial feedback and validated the potential of your inno
 
     - Ensure the transition aligns with GitLab's [Company Strategy](../company/strategy.md) and [Values](../values/), and collaborate with Product and UX when publicly communicating the innovation.
     
-## Closing Out an Innovation
+## Completing the Innovation process
 
-Once your innovation is no longer needed, it is important to close out the associated issues and epics. This ensures that the GitLab issue tracker remains clean and easy to navigate.
+Once the work on your innovation is done, it is important to close out the associated issues and epics and come to a decision on the path forward. This ensures that the GitLab issue tracker remains clean and easy to navigate.
 
 An innovation can be closed out in a few ways:
 
-- The innovation is no longer needed.
-- The innovation is ready to be promoted to an experiment. 
+- The innovation work came to a conclusion to not move forward
+- The innovation is ready that a decision can be made to either be promoted to an product feature experiment, will be implemented (technical innovations) or for internal innovation will be kept longterm internally
+    - For making this decision ping the PM or EM for the specific area and ask for making a clear decision and the Why behind the decision
 - There are legal or security concerns that prevent the innovation from moving forward.
 
 ## Additional Resources
