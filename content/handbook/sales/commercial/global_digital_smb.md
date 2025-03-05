@@ -23,14 +23,14 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 ### Accounts
 
 - All AMER SMB Accounts are owned by the AMER SMB Sales User.
-- All APAC SMB Accounts are owned by the APAC SMB Sales User.
+- AllJ SMB Accounts are owned by the APJ SMB Sales User.
 - All EMEA SMB Accounts are owned by the EMEA SMB Sales User.
-- Note that in SMB only, AMER & APAC are considered one territory.
+- Note that in SMB only, AMER & APJ are considered one territory.
 
 ### Opportunities
 
 - All AMER SMB Opportunities are owned by the AMER SMB Sales User.
-- All APAC SMB Opportunities are owned by the APAC SMB Sales User.
+- All APJ SMB Opportunities are owned by the APJ SMB Sales User.
 - All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
 
 ### High Value Accounts
@@ -83,7 +83,7 @@ Instructions and resources for working each case type are found in the consolida
 
 ## Working with the Global Digital SMB Account Team
 
-If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APAC/ EMEA Sales Users are not monitored).
+If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APJ/ EMEA Sales Users are not monitored).
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
 
@@ -103,9 +103,9 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
   - *AR Request* (if you are in AR/ Billing)
   - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
 - Select a *Case Reason* based on the customers needs.
-- **Check the *Assign using active assignment rules* checkbox, and click *Save*.If this is not done, the case will not enter the SMB Team queue, and will not be actioned**
-- This Case will now drop into the SMB Sales Queue, and will be actioned by a SMB Advocate.
-- Note: if an open SMB Case already exists on the account, do not check the *Assign using active assignment rules* box.  Instead, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account, and send them a chatter message on the case.
+- **Ensure the Account, Contact, or Lead Owner is AMER/EMEA/APJ SMB Sales and click *Save*.If this is not done, the case will not route to the appropriate SMB team, and will not be actioned**
+- This Case will now route to the SMB team, and will be actioned by a SMB Advocate.
+- Note: if an open SMB Case already exists on the account, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account, and send them a chatter message on the case.
 - If a case has not been actioned as per the stated SLA, please chatter the regions [ASM](https://gitlab.my.salesforce.com/00OPL000000rpxF2AQ) on the case to escalate.
 
 ## Tracking Cases you have created
