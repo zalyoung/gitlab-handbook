@@ -1863,6 +1863,8 @@ The process, however, will
 - Month 2: 90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 - Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
+Effective in FY26, Net ARR generated from a Focus Account New Logo (First Order or New Connected) will be counted twice toward this attainment.
+
 Should the team member fall short of the targets above, a formal warning will be issued.
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
@@ -1870,7 +1872,9 @@ After a  formal warning is issued if the team member falls short of targets agai
 
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Uphold Daily Activity Metrics   | - MQLs to be added to Groove Flows within expected activity metrics.                                                                                                                               |
+| 1. Uphold Daily Activity Metrics   | - Adhere to the two hour MQL SLA                                                                                                                               |
+|                                    | - Complete a minimum of 50 omni-channel activities (calls, emails, chats, LinkedIn messages)                                                                                          |
+|                                    | - Maintain an average of 1.5 discovery meetings weekly                                                                                       |
 |                                    | - Work lead records within Salesforce by leveraging relevant Flows tags in Groove.                                                                                            |
 |                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Groove data.                              |
 |                                    | - Maintain SFDC data integrity by following the outbound workflow in researching and prospecting accounts.                                                                             |
