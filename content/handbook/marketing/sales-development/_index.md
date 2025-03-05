@@ -646,7 +646,7 @@ You are also able to downgrade a Trial from Ultimate to Premium through the inte
 
 - New Business: [Quantity]
   - [Name of Company]- [Quantity] [Edition]
-  -  Example: Acme, Inc- 50 Premium
+  - Example: Acme, Inc- 50 Premium
 - Add-On Business (seats only):
   - [Name of Company]- Add [Quantity] [Product]
   - Example: Acme, Inc- Add 25 Duo
