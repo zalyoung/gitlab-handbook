@@ -171,11 +171,11 @@ Once you have gathered initial feedback and validated the potential of your inno
 
 1. **Get Internal Feedback:**
 
-- Get POC feedback from your Manager and Director+ in the Feedback issue created at Step 3, note 3.
+    - Get POC feedback from your Manager and Director+ in the Feedback issue created at [step 3](#step-3-start-work-on-the-poc-and-create-the-associated-issues):
 
-    - If your innovation is [external](#external-innovations) facing, collect input from Product and UX peers.
+      - If your innovation is [external](#external-innovations) facing, collect input from Product and UX peers.
 
-    - If your innovation involves other product areas, lean into our [short toes](../values/_index.md#short-toes) value by involving the correct teams early on.
+      - If your innovation involves other product areas, lean into our [short toes](../values/_index.md#short-toes) value by involving the correct teams early on.
 
 2. **Share Your Innovation!**
 
