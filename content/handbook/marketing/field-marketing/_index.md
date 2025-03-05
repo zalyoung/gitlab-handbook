@@ -1475,10 +1475,9 @@ Field Marketing manages its budget in [Allocadia](/handbook/marketing/strategy-p
 1. As it relates to procurement issues being approved, it is essential that the contract details are submitted with the procurement issue, that way the approver is clear about what they are signing off on.
     - We aim for an MQL to not cost us more than $500, should a contract be submitted that is over the $500 goal, there needs to be a documented reason + path to success shown in the procurement issue. It is the responsibility of the FMM Country Manager to ensure this documentation is listed in the procurement issue before the issue is sent on to further leadership to review/approve. For C-level and other campaign where we target decision makers, the customer journey needs to be documented and we acknowledge that the MQL might be higher.
 
-## Customer Speakers
+## Customer Speaker Gifts
+
 If you require information about paying for Speaker travel and hotel stay, please refer to [this section](/handbook.gitlab.com/handbook/marketing/events/#speaking-at-events) in the GitLab Event Information page.
- 
-#### Gifts
 
 Please note that there is a limit of $75 USD annually per person on customer speaker gifts.
 
