@@ -86,13 +86,15 @@ The following tools can be helpful:
 
 If you have identified a Postgres Performance Problem and want to dive deeper, we reccomend these runbooks and dashboards. They are best used together, with the runbooks explaining how to understand the dashboards.
 
-Dashboards:
+Dashboards: 
+
 - [Postgres node performance overview (high-level)](https://dashboards.gitlab.net/d/postgres-ai-node-performance-overview)
 - [Postgres aggregated query performance analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_02)
 - [Postgres single query performance analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_03)
 - [Postgres wait events analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_04)
 
 Runbooks:
+
 - [High-level performance analysis and troubleshooting of a Postgres node](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/single-node-high-level.md?ref_type=heads)
 - [Postgres wait events analysis (a.k.a. Active Session History; ASH dashboard)](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/wait-events-analisys.md)
 - [SQL query analysis and optimization for Postgres](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/query-analysis.md)
