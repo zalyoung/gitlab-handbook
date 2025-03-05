@@ -1,5 +1,5 @@
 ---
-title: "GitLab Professional Services Agreement V2"
+title: "GitLab Professional Services Agreement V3"
 ---
 <!-- vale off -->
 *Deprecated 2025-03-05*
