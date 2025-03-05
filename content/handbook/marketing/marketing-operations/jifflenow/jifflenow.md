@@ -31,7 +31,6 @@ We have put together a comprehensive [training slide deck](https://docs.google.c
 - Managing On-Site Meetings
 - Mobile App (to be created)
 
-
 ## Salesforce.com Integration
 
 This connection will allow for Sales to book meetings directly within Salesforce.com and allow JiffleNow to access and link contact records. Meeting requestors can access JiffleNow to schedule meetings through a button on the Contact, Account and Opportunity record.
