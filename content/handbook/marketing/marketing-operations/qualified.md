@@ -9,11 +9,11 @@ Qualified allows Sales Development Reps to have live conversations with visitors
 
 ### SDR Use Case
 
-SDRs (inbound reps) will be routed inbound chats of visitors who are not associated with an "Actively Working" account via round robin pools based on the visitor's geography. Once a chat is routed the rep will qualify the lead and determine if a meeting needs to be booked for a discovery call. SDRs can create and update the Salesfoce lead record with information gathered during the chat. Reps can also send their calendar to the visitor to book a meeting directly from the Qualified platform.
+SDRs (inbound reps) will be routed chats of visitors who have requested to chat with a human while having a conversation with our AI Rep. These leads are first order available and not associated with an "Actively Working" account. They will route via round robin pools based on the account or visitor's geography. Once a chat is routed the rep will qualify the lead and determine if a meeting needs to be booked for a discovery call. SDRs can create and update the Salesfoce lead record with information gathered during the chat. Reps can also send their calendar to the visitor to book a meeting directly from the Qualified platform.
 
 ### BDR Use Case
 
-BDRs (outbound reps) will be routed conversations from visitors associated with "Actively Working" accounts they are assigned to. BDRs will also have the ability to initiate a conversation with a site visitor from an "Actively Working" account. Once a chat is routed the rep will qualify the lead and determine if a meeting needs to be booked for a discovery call. BDRs can create and update the Salesfoce lead record with information gathered during the chat. Reps can also send their calendar to the visitor to book a meeting directly from the Qualified platform.
+BDRs (outbound reps) will be routed conversations from visitors who request to chat with a human while speaking with our AI Rep associated with "Actively Working" accounts they are assigned to. BDRs will also have the ability to initiate a conversation with a site visitor from an "Actively Working" account. Once a chat is routed the rep will qualify the lead and determine if a meeting needs to be booked for a discovery call. BDRs can create and update the Salesfoce lead record with information gathered during the chat. Reps can also send their calendar to the visitor to book a meeting directly from the Qualified platform.
 
 ### Experiences
 
@@ -85,7 +85,7 @@ The Rep Performance Dashboard helps you understand the metrics that mean the mos
 
 Qualified has an AI offering that they call "Piper". We have chosen to name our AI SDR "GitLab AI Rep". The GitLab AI Rep has the ability to have conversations with website visitors when human reps are not available. This gives us the ability to provide a better visitor experience on the website by easily answering visitor questions, qualifiying visitors and booking meetings with human reps 24/7.
 
-In the first iteration of leveraging the GitLab AI Rep on English experiences. We will only connect a visitor the the AI Rep when the routed human rep is either unavailable on Qualified or does not respond to a live chat within 30 seconds.
+The GitLab AI Rep is enabled to respond to site visitor chat requests. There are two paths a visitor can take when they engage with the chat. "Connect with us" indicates a high intent visitor. They will be qualified by providing a business email and AI will begin the conversation with the visitor. The AI rep will continue the conversation and look for behavior that will trigger one if it's goals. Those goals are to Book a Meeting, Route to a Rep, or provide Support related information. "I have a question" indicates a lower intent visitor. The visitor will not need to provide an email immediately. AI will jump in to handle the conversation. As the conversation continues, AI will monitor for any indication that a goal is met and one of the actions above should be triggered. If a goal is triggered, an email will be collected and the appropriate action will be performed. 
 
 All aspects of how the GitLab AI Rep behaves is controlled in the "AI Studio" on the admin side of Qualified. The "Content" section is where the GitLab AI Rep has indexed the GitLab marketing site, GitLab documentation, and other GitLab resources to be able to converse with and answer visitor questions live. The goals of the AI Rep are to either connect the visitor to a human rep (if one becomes available) or to book a meeting with a human rep.
 
