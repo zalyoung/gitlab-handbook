@@ -21,7 +21,7 @@ All Directors and above in the Product function are considered Product Leaders. 
 
 ### Product Leadership Team Structure
 
-Product team members who report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) are members of the Product Leadership Team (PLT).
+Product team members that are Director+ and report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a permanent basis are members of the Product Leadership Team (PLT). Team members reporting to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a temporary basis and/or that are not Director+ are PLT observers. PLT observers have the opportunity to be temporarily part of the PLT meetings and activities but may not be permanent members. PLT observers may not be included in all PLT activities.
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
 
