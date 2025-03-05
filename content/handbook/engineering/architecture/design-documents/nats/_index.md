@@ -3,7 +3,7 @@ title: "NATS"
 status: proposed
 creation-date: "2025-02-26"
 authors: [ "@abhatnagar" ]
-coach: [ "andrewn" ]
+coach: [ "@andrewn" ]
 approvers: []
 owning-stage: "~group::platform insights"
 participating-stages: []
@@ -31,7 +31,7 @@ Another key requirement is to be able to _process_ incoming data before it lands
 
 Having a _data buffer_ available upstream to actual storage also helps alleviate resource pressure downstream by absorbing large spikes in volumes of ingested data which tends to happen quite frequently with the nature of data at play here.
 
-Considering [our forward-looking use-cases](#looking-forward), we'll need such a system to be __consistently available across all our deployment-models__ for GitLab instances, i.e. SaaS, Dedicated or Self-Managed. This would ensure we can consolidate how we deal with any data stream generated across the Product. With such a large deployment surface, it's important we reduce any distribution & operational complexities of running such a system while ensuring its reliable, lightweight and capable of delivering performance at GitLab scale.
+Considering [our forward-looking use-cases](#looking-forward), we'll need such a system to be __consistently available across all our deployment-models__ for GitLab instances, i.e. SaaS, Cells, Dedicated or Self-Managed. This would ensure we can consolidate how we deal with any data stream generated across the Product. With such a large deployment surface, it's important we reduce any distribution & operational complexities of running such a system while ensuring its reliable, lightweight and capable of delivering performance at GitLab scale.
 
 All things considered, NATS stands out given its minimal footprint, ease of distribution and its ability to both be embeddable within the Product and scale out as a standalone deployment as needed.
 
@@ -66,14 +66,14 @@ Once NATS is available, we aim to position NATS as the data queueing backbone fo
 | Enterprise Data/Infrastructure | Logically replicating data out of Postgres. | ~100GB of new data ingested from Postgres per hour. We'll also need to scale with Cells architecture. |
 | Platform Insights | Ingesting & processing large amounts of analytics data in real-time, then persisting it into ClickHouse.| Product Usage Data: 1200 events/sec (100M daily), ~15GB/hour, expected to increase with increase in instrumentation + 2.5x when pursuing [event-level data collection from the customer's domain](https://docs.google.com/document/u/0/d/1x8M4t0ELrPlnNJcSXx4juvavV-Yh_NWCom6zo8AmY9o/edit) (about 300M events daily). |
 | Machine Learning | Extracting & processing events/features from GitLab data to create training/test datasets for ML models at scale. |  |
-| Security & Compliance | Extracting and actioning upon events, e.g., audit events, from GitLab data in near real-time. | **Audit events saved to database per day** (excludes streaming only audit events) - ~0.6M records are created per day *(audit event coverage has stalled due to load on Postgres, this is likely to increase if this migrates over to an event pipeline)* <br><br> **Streaming only audit events generated per day** (this excludes audit events saved to DB) - ~35M streaming only events are created per day. <br><br> Total estimates would be at **~40M events per day**. See [Kibana dashboard (internal)](https://log.gprd.gitlab.net/app/dashboards#/view/338615b0-1eea-11ee-8afc-c9851e4645c0?_g=\(\)). |
-| Product development | [Generic Events Platform](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/gitlab_events_platform/) to asynchronously process data, events & tasks. Ingesting & processing external data via webhooks as a service. |  |
+| Security & Compliance | Extracting and actioning upon events, e.g., audit events, from GitLab data in near real-time. | __Audit events saved to database per day__ (excludes streaming only audit events) - ~0.6M records are created per day _(audit event coverage has stalled due to load on Postgres, this is likely to increase if this migrates over to an event pipeline)_ <br><br> __Streaming only audit events generated per day__ (this excludes audit events saved to DB) - ~35M streaming only events are created per day. <br><br> Total estimates would be at __~40M events per day__. See [Kibana dashboard (internal)](https://log.gprd.gitlab.net/app/dashboards#/view/338615b0-1eea-11ee-8afc-c9851e4645c0?_g=\(\)). |
+| Product development | [Generic Events Platform](/handbook/engineering/architecture/design-documents/gitlab_events_platform/) to asynchronously process data, events & tasks. Ingesting & processing external data via webhooks as a service. |  |
 | Product development | Implementing real-time analytics features on top of an analytical database (ClickHouse). (primarily the Optimize team would be involved,other product teams might also contribute) | Data volume: Similar or less than what we observe with the PostgreSQL databases. Depends on how many tables we replicate (Siphon) to ClickHouse.   Enqueued event count: significantly lower as we’re batching the CDC events into packages. |
 | Plan | [JIRA Compete Strategy](https://gitlab.com/groups/gitlab-org/-/epics/364) |  |
 
 ### Rejected alternatives
 
-A feasible solution to the aforementioned problems is not limited to NATS with a few other backends considered throughout our discussions. Some of the backends which were deemed less preferable over NATS were the following:
+A feasible solution to the aforementioned use-cases is not limited to NATS only, with a few other backends considered throughout our discussions. Some of the backends which were deemed less preferable over NATS were the following:
 
 | System/Technology | Key-takeaways |
 |---|---|
@@ -119,11 +119,20 @@ For all deployment-types, we expect a given __NATS cluster to be multi-tenant__,
 
 ### Architecture
 
-The following diagram depicts a simple 3-node NATS cluster with dedicated external volumes to persist data. A given client can then address all of them within their
-applications, e.g.
+The following diagram depicts a simple 3-node NATS cluster deployed as a `StatefulSet` with dedicated persistent volumes. A given application can then discover the service:
+
+- using a headless service, or
 
 ```text
-nats://server-1:4222,server-2:4222,server-3:4222
+nats.default.svc.cluster.local
+```
+
+- addressing the pods directly
+
+```text
+nats-0.nats.default.svc.cluster.local
+nats-1.nats.default.svc.cluster.local
+nats-2.nats.default.svc.cluster.local
 ```
 
 ![server-setup](/static/images/engineering/architecture/design-documents/nats/server-setup.png)
@@ -134,32 +143,28 @@ nats://server-1:4222,server-2:4222,server-3:4222
 - Enable data persistence via [NATS Jetstream](https://docs.nats.io/nats-concepts/jetstream).
 - Configure [stream replication](https://docs.nats.io/nats-concepts/jetstream/source_and_mirror) for subjects as needed.
 
-### Integration with GitLab
-
-- We can add the aforementioned NATS connection string to the instance configuration to be used by services/applications. For example:
-  - Add `nats['address'] = 'nats://server-1:4222'` to `/etc/gitlab/gitlab.rb`, or
-  - Override `NATS_URL=nats://server-1:4222` in `gitlab.yml`.
-
 ### Connectivity
 
 - NATS comes with support for both plaintext and TLS connections; we intend to use TLS-enabled connections to help authenticate all incoming traffic.
 
 - Access to the NATS service will only be available to internal network clients. External clients will not be able to connect to the NATS service.
 
-- External load-balancing is also therefore not needed, which is also [highly advised against](https://docs.nats.io/running-a-nats-service/environment#load-balancers). Each NATS server in a given cluster must be reachable individually with all loadbalancing deferred to NATS itself.
+- External load-balancing is therefore not needed, which is also [highly advised against](https://docs.nats.io/running-a-nats-service/environment#load-balancers). Each NATS server in a given cluster must be reachable individually with all loadbalancing deferred to NATS itself.
 
 - For Cells-based installations, we can leverage the use of [NATS Gateways](https://docs.nats.io/running-a-nats-service/configuration/gateways) to connect clusters should we need to, but we expect each cell to be serviceable in isolation for majority of our applications.
 
 ### Topology
 
-- For `gitlab.com` SaaS installation, we prefer running NATS directly on VMs within the same VPC/network-boundaries to [leverage better utilisation of the underlying hardware](https://docs.nats.io/running-a-nats-service/environment#virtualization-containerization) and reducing operational overheads.
-
-- Though preferred to run on VMs, it's possible to setup & run cloud-native NATS clusters on Kubernetes assuming any additional overheads are well-understood. A few significant sources of operational complexity are:
+- For `GitLab.com`, we intend to setup & run NATS clusters cloud-natively on Kubernetes with the assumption that the following potential overheads can be well-managed:
   - running stateful workloads within Kubernetes.
-  - performance overheads from routing traffic within Kubernetes services.
-  - setting up static routing to each member of the NATS cluster.
+  - [performance overheads from routing traffic within Kubernetes services](https://docs.nats.io/running-a-nats-service/environment#virtualization-containerization).
+  - load-balancing traffic via Kubernetes service-topology.
 
-- We have already prototyped the following deployment tooling:
+- From an operational perspective and considering we prefer new services to be built Kubernetes-based, it'll also be trivial for us to use the same configurations for GitLab.com, Dedicated, Cells and Self-Managed going forward.
+
+- If running it cloud-natively does incur overheads, we can resort to running NATS directly on VMs within the same VPC/network-boundaries to leverage better utilisation of the underlying hardware and reduce any operational complexity.
+
+- We have also prototyped both of these deployment models:
   - using Helm chart for cloud native installations, [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-poc)
   - using Terraform directly on cloud VMs - [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-terraform)
 
@@ -170,6 +175,12 @@ nats://server-1:4222,server-2:4222,server-3:4222
 - We expect to use SSDs to improve performance.
 - We intend to plan disk-sizing based on retention policies for ingested data, possibly overestimating it to begin with, especially while we tune our needs gradually. It is also prudent to ensure we can resize underlying storage trivially when needed.
 - We aim to enable compression to reduce storage footprint further.
+
+### Integration with GitLab
+
+- We can add the aforementioned NATS connection string to the instance configuration to be used by services/applications. For example:
+  - Add `nats['address'] = 'nats://nats.default.svc.cluster.local:4222'` to `/etc/gitlab/gitlab.rb`, or
+  - Override `NATS_URL=nats://nats.default.svc.cluster.local:4222` in `gitlab.yml`.
 
 ## Security
 
@@ -270,11 +281,12 @@ NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
 ### Why not Kafka?
 
 Given our needs to queue/buffer data durably, Apache Kafka comes as an obvious first choice. However, given the operational & distribution complexity around running Kafka especially as we shift focus towards running GitLab as cloud-native deployments, it becomes _less favourable_ for our purposes. Following are some of our past discussions around the challenges Kafka brings:
-* [Support for Kafka across deployment-environments is non-existent](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1878#note_1068741634).
-* [Kafka can be cost-prohibitive regardless of scale](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1589#note_2060391762).
-* [Kafka can be operationally intensive](https://gitlab.com/groups/gitlab-org/-/epics/14860#note_2080961778).
 
-### Key considerations when comparing Kafka with NATS:
+- [Support for Kafka across deployment-environments is non-existent](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1878#note_1068741634).
+- [Kafka can be cost-prohibitive regardless of scale](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1589#note_2060391762).
+- [Kafka can be operationally intensive](https://gitlab.com/groups/gitlab-org/-/epics/14860#note_2080961778).
+
+### Key considerations when comparing Kafka with NATS
 
 | Feature | Comparison |
 | --- | --- |
