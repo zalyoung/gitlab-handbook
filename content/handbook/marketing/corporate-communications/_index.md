@@ -95,7 +95,7 @@ Our media strategy focuses on technology publications, business media, and verti
 The full criteria for PR support at events includes:
 
 - **Spokesperson Availability:** An e-group member or designated delegate is confirmed to be onsite and available for interviews.
-- **Geographic Alignment:** The event is held in a country or region the corporate communications team currently supports(US, UK, Germany, France, Japan, Australia).
+- **Geographic Alignment:** The event is held in a country or region the corporate communications team currently supports (US, UK, Germany, France, Japan, Australia).
 - **Media Presence:** At least three journalists from GitLab Top Media will be present at the event.
 - **News Hook:** The event aligns with a compelling news hook related to a product announcement, significant partnership, or major industry trend for media or analysts in attendance.
 
