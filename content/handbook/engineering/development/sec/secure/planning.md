@@ -27,6 +27,7 @@ Engineering output:
 
 - Identify and resolve outstanding questions or discussions.
 - Notify other teams if the issue is relevant to them in some way.
+- Explain any dependencies on other teams in the description, and engage your EM/PM to facilitate early collaboration.
 - For epics: create implementation issues within the epic(s).
 - Apply the `~workflow::refinement` label to all issues.
 
