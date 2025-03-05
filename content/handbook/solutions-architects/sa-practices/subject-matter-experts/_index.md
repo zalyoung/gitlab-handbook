@@ -27,7 +27,6 @@ Other areas of the SME Program include:
 6. [Process to Gather Feedback from Customers, back to Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
 7. [How to Engage with, and Escalate to Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)
 
-
 ## Areas of Expertise
 
 The SME Program, with formal PM engagement will initially focus on the following areas:
@@ -47,7 +46,6 @@ Other areas may be added in the future, depending on customer and SA demand, suc
 
 - Other Verticals sucu as Telecommunications etc.
 - MLOps
-
 
 ## Responsibilities
 
