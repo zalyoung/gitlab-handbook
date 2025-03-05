@@ -119,4 +119,3 @@ Being an SME provides opportunities for professional growth and recognition:
 - Recognition in performance reviews
 
 SMEs will be regularly evaluated based on their contributions and impact on the SA team and customer satisfaction.  Here is the [list of SME Metrics](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-metrics) that would be gathered to quanify the impact of a SME's contribution.
-
