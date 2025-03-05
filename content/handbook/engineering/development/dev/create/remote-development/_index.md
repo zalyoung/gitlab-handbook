@@ -263,6 +263,7 @@ The **Async Refinement** process is designed to prepare upcoming work efficientl
 
 **Refinement Process:**
 1. **Identify Epics in Need of Refinement:** 
+
    - Look for epics marked in <span style="color:#1068bf">blue</span> on the epic board.
 
 2. **Break Down the Epic:**
