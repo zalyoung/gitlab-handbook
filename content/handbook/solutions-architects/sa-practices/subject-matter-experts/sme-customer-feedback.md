@@ -9,10 +9,7 @@ description: Gather Feedback from Customers
 
 Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
 
-PMs Create issues under [gitlab.org/issues](http://gitlab.org/issues) especially for customer prioritization; prefer to have [customer feedback template](/handbook.gitlab.com/handbook/product/product-management/#feedback-template) included as comments
-
-[Feedback template](/handbook.gitlab.com/handbook/product/product-management/#feedback-template)
-
+PMs Create issues under [gitlab.org/issues](http://gitlab.org/issues) especially for customer prioritization; prefer to have [customer feedback template](/handbook/product/product-management/#feedback-template) included as comments
 
 Gathering and systematically relaying top asks from the field and customers to Product Management and Engineering, is one of the main responsibilities of a SME.
 

@@ -64,6 +64,7 @@ For other recommendations, please see [Before Engaging or Requesting A PM Consid
 PMs are incentivised to get [direct feedback from customers also](/handbook/product/product-processes/#customer-meetings).
 
 PMs should be engaged in customer opportunities, with at least 24hr notice in the following manner: 
+
 1. Request a Customer Call (one time, during evaluation, cadence calls). 
 2. Resolve issues around product gaps and questions
 3. Async involvement in Evaluations (trials, proof of value)
@@ -85,8 +86,6 @@ See also following the [standardized request process based on issues](/handbook/
 ### Requests for Async Involvement in Evaluations (trials, proof of value())
 
 - SAs/ SMEs/ CSMs create Trial/ POV issues in Customer Collaboration Projects
-- 
-
 
 ---
 
