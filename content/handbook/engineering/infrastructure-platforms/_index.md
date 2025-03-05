@@ -36,10 +36,11 @@ flowchart LR
     click DA "/handbook/engineering/infrastructure-platforms/data-access/"
     I --> DE[Developer Experience]
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
+
     I --> GD[GitLab Dedicated]
     click GD "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
-    I --> PE[Production Engineering]
-    click PE "/handbook/engineering/infrastructure/team/production-engineering/"
+    I --> PRODENG[Production Engineering]
+    click PRODEND "/handbook/engineering/infrastructure/team/production-engineering/"
     I --> SD[GitLab Delivery]
     click SD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/"
     I --> TS[Tenant Scale]
@@ -55,9 +56,23 @@ flowchart LR
     click Git "/handbook/engineering/infrastructure-platforms/data-access/git/"
     DA --> Gitaly
     click Gitaly "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
+    
+    PRODENG --> Ops
+    click Ops "/handbook/engineering/infrastructure/team/ops/"
+    PRODENG --> Foundations
+    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    PRODENG --> Observability
+    click Observability "/handbook/engineering/infrastructure/team/observability/"
+    PRODENG --> Runway
+    click Runway "/handbook/engineering/infrastructure/team/runway/"
+    PRODENG --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/team/cloud-connector/"
+    PRODENG --> FO[FinOps]
+    click CC "/handbook/engineering/infrastructure/team/finops/"
 
     DE --> DevA[Development Analytics]
     click DevA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
+
     DE --> DT[Developer Tooling]
     click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
     DE --> FR[Feature Readiness]
@@ -74,21 +89,8 @@ flowchart LR
     GD --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    PE --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
-    PE --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
-    PE --> O[Observability]
-    click O "/handbook/engineering/infrastructure/team/scalability/observability/"
-    PE --> Ops
-    click Ops "/handbook/engineering/infrastructure/team/ops/"
-    PE --> R[Runway]
-    click R "/handbook/engineering/infrastructure/team/runway/"
-
     SD --> B[Build]
     click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SD --> SM[Self-Managed]
-    click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SD --> Framework
     click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> R[Release]
@@ -190,17 +192,7 @@ If you need assistance with a production issue or incident, please see the secti
 | [#g_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) | Non-urgent service alerts for Foundations owned services |
 | [#g_foundations_notifications](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD) | Renovate notifications for Foundations owned projects |
 | [#infra-terraform-alerts](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH) | Terraform state drift alerts for SaaS infrastructure |
-
-**Scalability**
-
-| **Channel** | **Purpose** |
-|-----------|-----------|
-|[#g_scalability](https://gitlab.enterprise.slack.com/archives/CMMF8TKR9)| General conversation for Scalability and requests coming in from other team members. |
-|[confidential managers channel](https://gitlab.enterprise.slack.com/archives/C034V5P1725) | Used for specific communication. We default to public channels. |
-|[#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
-|[#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)| Team channel for general work in Practices. |
-|[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| Our social channel. |
-| #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
+| [#g_observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
 
 **Tenant Scale**
 
@@ -279,7 +271,7 @@ In an effort to enhance the tracking and resolution of requests directed to the 
 - **Acknowledgement**: An agent responds with the `acknowledged_emoji` (👀 in our case) to acknowledge a Slack message in the Infrastructure Lounge channel.
 - **Issue Creation**: The Slack bot then creates an issue with the acknowledging agent assigned to it.
 - **Thread Attachment**: The Slack thread corresponding to the message is also posted on the created GitLab issue.
-- **Label Assignment**: Agents can further categorize issues by adding label emojis (`ops`, `foundations`, `scalability-observability` or `scalability-practices`) in the Slack message. This action automatically assigns the issue to the respective team: Ops, Foundations, Scalability-Observability or Scalability-Practices.
+- **Label Assignment**: Agents can further categorize issues by adding label emojis (`ops`, `foundations`, `observability`) in the Slack message. This action automatically assigns the issue to the respective team: Ops, Foundations, Observability.
 - **Project Tracking**: These converted issues are tracked under a dedicated project hosted at [Infrastructure Lounge Slack Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker).
 - **Issue Closure**: Agents/Requester can close the issue when resolved by adding any of the `resolved_emojis` (`green-circle-check`,`white_check_mark`or `checked`in our case)
 
@@ -316,7 +308,7 @@ All team members are encouraged to schedule time for personal development. The f
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
 | Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
-| Scalability Group| [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) |
+| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure/team/production-engineering/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
 | Tenant Scale | [Group Page](/handbook/engineering/infrastructure-platforms/tenant-scale/) |
 
@@ -342,7 +334,7 @@ All team members are encouraged to schedule time for personal development. The f
 - [Production Engineering issue queue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)
 - [Production incidents, and changes](https://gitlab.com/gitlab-com/gl-infra/production/issues/)
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/)
-- [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability/issues/)
+- [Observability](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/)
 - [Tenant Scale](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/)
 
 ### Resources
