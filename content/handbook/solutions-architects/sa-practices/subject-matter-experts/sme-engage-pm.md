@@ -1,15 +1,17 @@
 ---
 title: SME Engage with Product Management 
 
-description: How to engage with product Management
+description: 
 
 ---
 
-Product Managers at GitLab have been expected to attend to be available to answer every question, techncial or otherwise, posed to them, in any slack channel they are tagged, along with met with customers at a moment's notice. This puts a strange on the capacity of GitLab's Product Managers (PMs).
+## The Challenge
+
+Product Managers at GitLab have been expected to be available to answer every question, techncial or otherwise, in any slack channel they are tagged, along with meeting customers at a moment's notice. This puts a strange on the capacity of GitLab's Product Managers (PMs).
 
 One of the outcomes of the Subject Matters Expertise program is to allow the PMs to scale, by being the first line of experts to answer techncial questions that arise, and offer assistance on opportunitiesas requested by SAs and AEs.  
 
-So in lieu of getting 150 requests from 150 different SAs or CSMs, if the SME program can cut that down by 40%s, PMs can focus on empowering the SMEs and answering SMEs when they are stuck.
+So in lieu of getting 150 requests from 150 different SAs or CSMs, if the SME program can reduce that by 50%s, PMs can focus on empowering the SMEs and answering SMEs when they are stuck.
 
 Product Management then can be utilized as points of escalations, meet customers when appropriate and focus on roadmap development and delivery.
 
@@ -32,7 +34,7 @@ SMEs assist PMs, and support the wider Sales teams by:
 As part of this symbiotic relationship, we expect Gitlab Product Management, as part of a soft contract, to assist the SME program by:
 
 1. Meeting with SMEs at least once a month to enable SMEs and provide understandin on product changes, or give updates to product since last meeting
-1. Being very responsive and available to answer questions from SMEs, or get clarifications from SMEs, in approriate `sme-internal` channels, so that SMEs can accurately assist other resources. We expect PMs to respond to SME's inquiry withinn 4 hours in the SME internal channels. 
+1. Being very responsive and available to answer questions from SMEs, or get clarifications from SMEs, in the approriate [`sme-internal` channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-internal), so that SMEs can accurately assist other resources. **SLA: We expect PMs to respond to SME's inquiry withinn 4 hours in the SME internal channels.** 
 1. Allow and give preference to SMEs, to shadow PMs, in the [Shadow a PM program (TBD)](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/work_items/460)
 1. Enable the field and provide roadmap updates during [Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-tech-skills) sessions.  
 1. Provide roadmaps to customers and not expect the SMEs to comee up with roadmap content based on the rpadmapmin the Handbook.
@@ -40,7 +42,9 @@ As part of this symbiotic relationship, we expect Gitlab Product Management, as 
 
 ## How to Engage with Product Management
 
-**Resist from Directly contacting PM Without First completing a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, or request for product direction.
+**Resist from Directly contacting PM Without First completing a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/ CSM can then request a SME in the appropriate SME channel. 
+
+PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, or request for product direction.
 
 For other recommendations, please see [Before Engaging or Requesting A PM Consider Requesting a SME First](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-pm-alternative)
 
@@ -107,8 +111,8 @@ See also following the [standardized request process based on issues](/handbook/
 
 #### SME Slack Channels
 
-1. Product Management should also be included in SME Slack channels to create forum for SMEs to provide ongoing feedback and suggestions to Product Management.
+1. Product Management should also be included in [SME Slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-slack) to create a forum for SMEs to provide ongoing feedback and suggestions to Product Management.
 
 #### SME/Product Management Cadence Meetings
 
-See [SME/ Product Management Cadence Meetings](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-product-cadence) for suggested cadence and agenda.
+SMEs and PMs are expected to meet at least once a month. Some PMs also conduct their own office hours. See [SME/ Product Management Cadence Meetings](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-product-cadence) for suggested cadence and agenda.
