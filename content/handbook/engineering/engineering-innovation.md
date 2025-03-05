@@ -171,7 +171,7 @@ Once you have gathered initial feedback and validated the potential of your inno
 
 1. **Get Internal Feedback:**
 
-    - Get POC feedback from your Manager and Director+.
+- Get POC feedback from your Manager and Director+ in the Feedback issue created at Step 3, note 3.
 
     - If your innovation is [external](#external-innovations) facing, collect input from Product and UX peers.
 
