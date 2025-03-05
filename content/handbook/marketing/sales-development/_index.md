@@ -644,6 +644,20 @@ To submit a trial extension ticket for a prospect you will navigate [to this int
 
 You are also able to downgrade a Trial from Ultimate to Premium through the internal request form. You just have to choose "Change existing GitLab.com Trial plan"
 
+#### Opportunity Naming Convention 
+
+- New Business: [Quantity]
+  - [Name of Company]- [Quantity] [Edition]
+  -  Example: Acme, Inc- 50 Premium
+- Add-On Business (seats only): 
+  - [Name of Company]- Add [Quantity] [Product]
+  - Example: Acme, Inc- Add 25 Duo
+- Add-On Business (Upgrade from Premium to Ultimate):
+  - [Name of Company]- Upgrade to Ultimate
+  - Example: Acme, Inc- Upgrade to Ultimate
+
+
+
 ### Monthly Audit Process
 
 In an effort to increase transparency as well as consistency in terms of credit attribution for opportunities sourced by the Sales Development organization, we will conduct on a monthly basis a full audit of all opportunities giving credit to either a Sales Development or a Business Development Representative. Please do note that SDRs/BDRs that are on their ramping quarter are exempt from being auditors.
