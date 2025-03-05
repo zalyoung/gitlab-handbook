@@ -7,6 +7,10 @@ description: Maintaining Collateral for each SME Area
 
 ## SME Content and Collateral (TBD)
 
+\*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
+
+This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area
+
 To effectively organize and scale SME knowledge, we can implement the following structure:
 
 1. Discovery Questions
