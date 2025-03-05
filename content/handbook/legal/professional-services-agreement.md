@@ -4,8 +4,6 @@ title: "GitLab Professional Services Terms"
 
 (Additional Terms)
 
-# Professional Services Terms
-
 These Professional Services Terms ("**Terms**") are between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 (or, if a different GitLab Affiliate as listed as "GitLab" on an Order Form) ("GitLab"), and the entity accepting these Terms ("Customer"). These Terms are effective as of the earlier of Customer's acceptance of these Terms (i) within an Order Form or (b) via a SOW ("Effective Date"). Capitalized terms not otherwise defined herein will have the meaning set forth in the Subscription Agreement (defined below).
 
 ## 1. DEFINITIONS
