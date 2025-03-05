@@ -308,7 +308,7 @@ An RFH issue can be closed under the following circumstances:
 - Link related issues or documentation when applicable
 - Provide detailed explanations when closing issues to ensure knowledge transfer
 
-#### Ticket Status Monitoring
+#### Issue Status Monitoring
 
 Regular review of open RFH issues should be conducted to ensure no issues remain unaddressed for extended periods.
 
