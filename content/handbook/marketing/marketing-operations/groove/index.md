@@ -237,6 +237,22 @@ For every flow, Operations have defined a set of actions that will take place de
 
 ## Phone Numbers
 
+Due to global phone number regulations, at this time, we can only purchase a local/mobile phone number where GitLab has an entity. Below are the countries that we can currently purchase for:
+
+- US
+- Canada
+- United Kingdom
+- Ireland
+- Germany
+- France
+- Spain
+- Netherlands
+- Singapore
+- Austraila
+- Japan (Coming soon)
+
+We are also investigating countries where we can purchase toll free numbers we can outbound prospect with. More to come soon. 
+
 ### SDRS
 
 - All SDRs will receive a “base” number from which all calls will come from but local dial and international local dial will support calling into other state/countries.
