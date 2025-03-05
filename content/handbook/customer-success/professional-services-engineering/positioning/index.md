@@ -59,9 +59,9 @@ They have a team that manages the current tooling at the highest level, and are 
 
 To get to [first value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) as soon as possible, you should consider:
 
-- [Implementation](/services/implementation/) (infrastructure deployment and GitLab configuration)
-- [Migration](/services/migration/) (SCM Data and user migration)
-- [Education](/services/education/) (Basics, CI/CD and Admin)
+- [Implementation](https://about.gitlab.com/services/implementation/) (infrastructure deployment and GitLab configuration)
+- [Migration](https://about.gitlab.com/services/migration/) (SCM Data and user migration)
+- [Education](https://about.gitlab.com/services/education/) (Basics, CI/CD and Admin)
 
 ### SMB to Mid-Market moving to gitlab.com
 
@@ -71,15 +71,15 @@ They will likely have a small team responsible for transformation that will be m
 
 To get your customer the most [value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) as soon as possible, you should consider:
 
-- [Migration](/services/migration/) (SCM and/or CI/CD based on entry point)
-- [Integration](/services/implementation/integration/) (LDAP/SSO, Jira, Jenkins)
-- [Education](/services/education/) (Basics and/or CI/CD)
+- [Migration](https://about.gitlab.com/services/migration/) (SCM and/or CI/CD based on entry point)
+- [Integration](https://about.gitlab.com/services/implementation/integration/) (LDAP/SSO, Jira, Jenkins)
+- [Education](https://about.gitlab.com/services/education/) (Basics and/or CI/CD)
 
 ### SMB or Mid-Market without migration needs
 
 Some customers have a team of git ninjas who can manage migration and setup quickly, but the rest of the engineers might not be as skilled. Its always a good idea to suggest education services because the customer end users will be more likely to push for later stage adoption. This type of grassroots motivation will go a long way when investigating conversion opportunities.
 
-For these customers consider our [Education Services](/services/education/)
+For these customers consider our [Education Services](https://about.gitlab.com/services/education/)
 
 ## Sales Collateral
 
@@ -95,7 +95,7 @@ To discuss our services offerings with prospects, it is often helpful to have a 
 
 ### Data Sheets
 
-Professional Services Data Sheets are available as subpages to the marketing site. You can find them through the [Professional Services portal](/services/).
+Professional Services Data Sheets are available as subpages to the marketing site. You can find them through the [Professional Services portal](https://about.gitlab.com/services/).
 
 ### Other Collateral
 
