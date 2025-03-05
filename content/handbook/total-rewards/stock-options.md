@@ -191,7 +191,7 @@ If you would like to purchase GTLB shares, this must be done through your E*TRAD
 
 ### E-TRADE Securities Customer Service
 
--  US Contact 12 a.m. Monday to 11:59 p.m. Friday ET  Closed holidays  (800-838-0908)
+- US Contact 12 a.m. Monday to 11:59 p.m. Friday ET  Closed holidays  (800-838-0908)
 - Non-US local country contact phone numbers are found [here](https://us.etrade.com/e/t/home/contactus_esp)
 
 **Customer Service can assist with**
