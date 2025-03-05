@@ -10,6 +10,7 @@ The Brand Strategy team is responsible for accelerating GitLab's path to market 
 - Rebecca Clayman: Director of Brand Strategy - `@rclayman`
 - Matthew Jordan: Senior Brand Manager - `@jmatthewj`
 - Betsy Bula: Senior Brand Manager - `@bbula`
+- Melody Akhtari: Staff Brand Manager - `@melodyakhtari`
 
 We're part of the broader [Brand and Product Marketing team](/handbook/marketing/brand-and-product-marketing/) at GitLab, and we're close counterparts of the Brand Creative team. Looking for design-related resources? Check out the [Brand Creative handbook](/handbook/marketing/brand-and-product-marketing/design/).
 
