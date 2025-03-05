@@ -74,7 +74,7 @@ A major concern discussed across these backends is the operational, distribution
 ### Components
 
 - One or more [Jetstream-enabled](https://docs.nats.io/nats-concepts/jetstream) NATS servers
-- Dedicated disks preferably SSDs for each deployed NATS server.
+- Persistent volumes, preferably SSDs, for each deployed NATS server.
 - Decentralised authentication callout server (long-term only) : For authentication/authorisation, we aim to start with leveraging hard-coded roles & credentials within NATS (centralised) but in the long-term, we expect to use a [decentralised server-side auth-callout implementation](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_callout) for authenticating inbound traffic.
 
 ### Deployments
@@ -132,7 +132,7 @@ nats://server-1:4222,server-2:4222,server-3:4222
 
 - NATS comes with support for both plaintext and TLS connections; we intend to use TLS-enabled connections to help authenticate all incoming traffic.
 
-- We only need internal connectivity from our services to NATS. Any external/public access to our NATS clusters is _not_ needed right now.
+- Access to the NATS service will only be available to internal network clients. External clients will not be able to connect to the NATS service.
 
 - External load-balancing is also therefore not needed, which is also [highly advised against](https://docs.nats.io/running-a-nats-service/environment#load-balancers). Each NATS server in a given cluster must be reachable individually with all loadbalancing deferred to NATS itself.
 
