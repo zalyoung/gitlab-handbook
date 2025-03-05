@@ -14,13 +14,13 @@ toc_hide: true
 
 ## Summary
 
-[The Unified Backups project](https://gitlab.com/groups/gitlab-org/-/epics/11577) provides a single command-line tool that will handle the application backup and recovery needs of GitLab installations across supported [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html). It will be packaged separately from the main GitLab code base to keep it decoupled from specific release versions but will be shipped along with GitLab releases.
+[The Unified Backups project](https://gitlab.com/groups/gitlab-org/-/epics/11577) provides a single command-line tool that will handle the application backup and recovery needs of GitLab installations across supported [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html).It will be packaged separately from the main GitLab code base to keep it decoupled from specific release versions but will be shipped along with GitLab releases.
 
 This tool will be aware of the nuances of each runtime environment configuration and it will make adaptations to capture and restore data appropriately. It will stand as the primary recommended solution for most customers going forward.
 
 Early development on this tool will focus on providing value to self-hosted customers of GitLab by supporting the variety of installation types and common architectures. For these customers, we will focus on simplifying the disaster recovery process into a common set of recommendations. Additionally, we will work to resolve scalability problems with current backup solutions by supporting the cloud service integration capabilities of large high-usage GitLab instances.
 
-However, we will quickly move into the next phase of the project, which will focus on the specialized needs of [GitLab Dedicated](https://about.gitlab.com/dedicated/). This will provide value to the Dedicated Group in terms of automating and streamlining backup creation and restoration with our standard dedicated architectures on Google and Amazon cloud services.
+Early development on this tool will focus on the specialized needs of GitLab Cells deployments on GCP for the [Tenant Scale](/handbook/engineering/infrastructure-platforms/tenant-scale/) group.
 
 ## Background
 
@@ -105,6 +105,12 @@ With Unified Backups we have the following goals:
 
 By centralizing the codebase into a single project, we aim to simplify the implementation for the permutations of environments and installation types we support. Having everything in a single location makes it easier to test and extend the code.
 
+**A decoupled tool**
+
+- Currently, the Distribution team owns and maintains [backup-utility](https://gitlab.com/gitlab-org/build/CNG/-/blob/master/gitlab-toolbox/scripts/bin/backup-utility) which is used for backups in Kubernetes enabled environments. We will need to work with them to replace that tool, with `gitlab-backup-cli`
+- For the [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab), it does create the `gitlab-backup` wrapper around the backup Rake tasks. Deprecation of the previous tool is TBD.
+- The new tool ([`gitlab-backup-cli`](https://gitlab.com/gitlab-com/gl-infra/data-access/durability/gitlab-backup-cli)) will be distributed as part of the main GitLab codebase as a standalone CLI.
+
 **Supporting multiple cloud providers**
 
 Adding support to new cloud providers will follow an approach similar to the adapter pattern, where we have a generic business logic on how to backup each data-type, and a specialized version for each cloud provider.
@@ -125,27 +131,16 @@ Consistent backups can be taken during downtime.
 
 Online Consistent Backups will be explored through [epic 12043](https://gitlab.com/groups/gitlab-org/-/epics/12043).
 
-**On-going design discussions**
+**Integrating with the Unified Backup CLI**
 
-The results of the following on-going [technical design discussions](https://gitlab.com/groups/gitlab-org/-/epics/14081) will be added to the blueprint.
-
-- [Investigate scaling backups](https://gitlab.com/gitlab-org/gitlab/-/issues/468677)
-- [How to limit concurrency of backup processes?](https://gitlab.com/gitlab-org/gitlab/-/issues/468313)
-- [How to restore a cloud backup with the `gitlab-backup-cli`?](https://gitlab.com/gitlab-org/gitlab/-/issues/465999)
-- [Add how distribution will work with this tool](https://gitlab.com/gitlab-org/gitlab/-/issues/466040)
-- [Investigate how to handle mixed Portable and Cloud backups](https://gitlab.com/gitlab-org/gitlab/-/issues/465529)
-- [Investigate what is required to support Kubernetes and large reference architectures](https://gitlab.com/gitlab-org/gitlab/-/issues/427359)
-- [Investigate how to support backing up Omnibus configuration and secrets](https://gitlab.com/gitlab-org/gitlab/-/issues/428515)
-- [What infra provisioning is needed for each type of datatype being backed up in the cloud?](https://gitlab.com/gitlab-org/gitlab/-/issues/466038)
-- [How to handle Redis data (not backed up)?](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
-- [Investigate Gitaly improvements to Backup](https://gitlab.com/gitlab-org/gitlab/-/issues/465534)
+In order to make the tool easy to integrate with external tools, we will provide optional machine-readable output in JSON format.
 
 ### Limitations
 
 - We don't support the data in a Cloud-based Backup to be exportable to a Portable Backup format or vice-versa.
 - We do not support backing up data in the cache store (Redis) which includes the [Sidekiq state](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html#other-data). TODO: [More research on Redis stored data](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
 
-### Backup types
+### Backup Types
 
 We provide two different approaches to create a Backup: Portable and Cloud-based.
 
@@ -254,48 +249,11 @@ Storage Transfer Service jobs are created that copy from the individual buckets 
 - We (probably) should not empty the buckets first. Leave that up to the users to do if they want to.
 - So at its most basic, a user would run something like `gitlab-backup-cli restore all $BACKUP_ID`, and the tool would create the necessary jobs to copy data from the backup bucket path, to the individual buckets, then monitor them for success/failure.
 
-## Integrating with the Unified Backup CLI
+## Milestones
 
-In order to make the tool easy to integrate with external tools, we will provide optional machine-readable output in JSON format.
+### 1st Milestone: Implement Cloud Backups: support 50k CNH reference architecture on GCP for Cells
 
-As an example, in order to restore from a disk snapshot, as the tool will not handle that operation itself, we will provide a command that can list the resources that should be restored in JSON format. That can be read by any external integration tool.
-
-This type of interface is intended to decouple the Backup CLI from any other specific tool.
-
-### Distribution
-
-- Omnibus
-- Kubernetes
-
-We will work on Omnibus before Kubernetes for a quicker first iteration.
-
-#### Impact
-
-- Currently, the Distribution team owns and maintains [backup-utility](https://gitlab.com/gitlab-org/build/CNG/-/blob/master/gitlab-toolbox/scripts/bin/backup-utility) which is used for backups in Kubernetes enabled environments. We will need to work with them to replace that tool, with `gitlab-backup-cli`
-- For the [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab), it does create the `gitlab-backup` wrapper around the backup Rake tasks. Deprecation of the previous tool is TBD.
-- The new tool (`gitlab-backup-cli`) will be distributed as part of the main GitLab codebase as one of the [bundled gems](https://gitlab.com/gitlab-org/gitlab/-/tree/master/gems/gitlab-backup-cli?ref_type=heads).
-- In the future, the new tool will be decouple from that codebase and may be distributed independently from the main package, to allow for supporting backing up and restoring from distinct (compatible) GitLab versions.
-
-#### Stable Counterpart
-
-[Robert Marshall](https://gitlab.com/rmarshall)
-
-### Dedicated/Cells Deployment
-
-As we proceed with the implementation and initial releaess, we will work together with internal teams to ensure the tool provides the necessary machine-readable information necessary to integrate with their existing tools.
-
-Specific to Kubernetes we will explore how to integrate with its native Cronjob functionality to provide scheduled executions.
-
-## 1st Milestone: Create backup cli: support 1K Linux package reference architecture with local storage
-
-See [epic](https://gitlab.com/groups/gitlab-org/-/epics/11635)
-
-- Targeting Linux package installations
-- Behaves similar to the existing backup Rake tool, with a small feature-set
-
-## 2nd Milestone: Implement Cloud Backups: support 10K CNH reference architectures on GCP
-
-See [epic](https://gitlab.com/groups/gitlab-org/-/epics/11911)
+The first milestone will target [Cells deployments](/handbook/engineering/architecture/design-documents/cells/#will-cells-use-the-reference-architecture-for-up-to-1000-rps-or-50000-users) that use the [50k reference architecture](https://docs.gitlab.com/administration/reference_architectures/50k_users/).
 
 For the initial Cloud Backup implementation:
 
@@ -303,20 +261,21 @@ For the initial Cloud Backup implementation:
   - Database Backups using [Cloud SQL Backups](https://cloud.google.com/sql/docs/postgres/backup-recovery/backups) (on demand backups only, initially)
   - Object Storage Backups using [Storage Transfer Service](https://cloud.google.com/storage-transfer-service?hl=en)
   - [GCE disk snapshots](https://cloud.google.com/compute/docs/disks/snapshots) initially for repository backups.
-    - We will revisit [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly.html#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) when the technology has matured.
 - Only support data/snapshots managed by the Backup tool
+- Cronjob functionality to provide scheduled executions.
 - Not relying on automated/scheduled Backup implementation (like AWS Backup or Google Cloud Backup)
+- [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly.html#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) will be used if the feature is available.
 
-In this iteration, we are NOT aiming to solve backup consistency:
+In this iteration we are NOT aiming to solve backup consistency until we have PITR for Gitaly:
 
 - When backing up the multiple components, what is in the database may point to something that was removed before it could have been included in the backup
 - The Cloud Providers may not provide a reliable way to match each data to a specific point-in-time (that could be used to synchronize with the database snapshot)
 
-## 3rd Milestone: Extend support to 25+K reference architectures
+### 2nd Milestone: Create backup CLI: support 1K Linux package reference architecture for portable backups
 
-See [epic](https://gitlab.com/groups/gitlab-org/-/epics/12042)
-
-TBD
+- Standalone tool that can be used as a replacement for current rake task.
+- Targeting Linux package installations
+- Behaves similar to the existing backup Rake tool, with a small feature-set
 
 ## Future iterations
 
@@ -343,3 +302,119 @@ Backup Management solution, that will be composed of:
   - Optional granularity for different types of data
   - Notifications
 - Support for both Portable and Cloud-Based backups
+
+## User Journey Map
+
+### Cloud Backups: support 50k CNH reference architecture on GCP for Cells
+
+#### CLI invocation
+
+```sh
+gitlab-backup-cli backup all
+gitlab-backup-cli restore all
+```
+
+TBD
+
+#### Cloud Storage
+
+```mermaid
+
+sequenceDiagram
+    participant UBT as Unified Backup Tool
+    participant STAPI as Storage API
+    participant STSVC as Storage Transfer Service
+    participant BUCKETS as Source/Destination Buckets
+    participant MAN as Manifest Builder
+
+    UBT->>STAPI: List source storage buckets
+    STAPI->>UBT: Return buckets list
+
+    UBT->>STSVC: Create transfer job (source→backup-bucket)
+    STSVC->>STAPI: Register transfer job
+    STAPI->>UBT: Return transfer job ID
+
+    STSVC->>BUCKETS: Execute transfer operation
+
+    Note over UBT,BUCKETS: Wait for transfer to complete
+
+    UBT->>STSVC: Get transfer job status (job.id)
+    STSVC->>UBT: Return job status (SUCCESS)
+
+    UBT->>STSVC: Get transfer details
+    STSVC->>UBT: Return transfer metrics
+    UBT->>MAN: Add to manifest (job.id, source, destination, timestamp)
+
+    UBT->>MAN: Request storage transfers section
+    MAN->>UBT: Return storage transfers manifest data
+
+```
+
+#### CloudSQL
+
+```mermaid
+
+sequenceDiagram
+    participant UBT as Unified Backup Tool
+    participant SQLAPI as CloudSQL Admin API
+    participant SQLINST as CloudSQL Instance
+    participant MAN as Manifest Builder
+
+    UBT->>SQLAPI: List CloudSQL instances in project
+    SQLAPI->>UBT: Return instances list
+
+    UBT->>SQLAPI: Create backup request (instance.id)
+    SQLAPI->>SQLINST: Signal backup preparation
+    SQLINST->>SQLAPI: Initialize database backup
+    SQLAPI->>UBT: Return operation ID
+
+    Note over UBT,SQLINST: Wait for database backup to complete
+
+    UBT->>SQLAPI: Get backup operation status (operation.id)
+    SQLAPI->>SQLINST: Check backup status
+    SQLINST->>SQLAPI: Return current status
+    SQLAPI->>UBT: Return operation status (DONE)
+
+    UBT->>SQLAPI: Get backup details
+    SQLAPI->>UBT: Return backup metadata
+    UBT->>MAN: Add to manifest (backup.id, instance.id, timestamp)
+
+    UBT->>MAN: Request CloudSQL backups section
+    MAN->>UBT: Return CloudSQL backups manifest data
+```
+
+#### Disk Snapshots
+
+```mermaid
+
+sequenceDiagram
+    participant UBT as Unified Backup Tool
+    participant CMAPI as Compute API
+    participant DISK as GCP Disks
+    participant SNAP as Snapshot Service
+    participant MAN as Manifest Builder
+
+    UBT->>CMAPI: List disks with label "backup=true"
+    CMAPI->>UBT: Return filtered disk list
+
+    UBT->>CMAPI: Create snapshot request (disk.id)
+    CMAPI->>DISK: Initialize snapshot creation
+    DISK->>SNAP: Create snapshot
+    SNAP->>CMAPI: Return snapshot operation ID
+    CMAPI->>UBT: Return operation ID
+
+    Note over UBT,SNAP: Wait for snapshot to complete
+
+    UBT->>CMAPI: Get snapshot operation status (operation.id)
+    CMAPI->>SNAP: Check snapshot status
+    SNAP->>CMAPI: Return current status
+    CMAPI->>UBT: Return operation status (DONE)
+
+    UBT->>CMAPI: Get snapshot details
+    CMAPI->>UBT: Return snapshot metadata
+    UBT->>MAN: Add to manifest (snapshot.id, disk.id, timestamp)
+
+    UBT->>MAN: Request disk snapshots section
+    MAN->>UBT: Return disk snapshots manifest data
+
+```
