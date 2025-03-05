@@ -106,7 +106,9 @@ External innovations are focused on developing new features or enhancements for 
 
 - **Create a GitLab Epic:** Start by creating an Epic on the "[Innovation at GitLab](https://gitlab.com/groups/gitlab-org/-/epic_boards/2069774?label_name[]=innovation)" board. This will be the central hub for tracking all aspects of your innovation.
 
-### Step 3: Create the Associated Issues
+### Step 3: Start work on the POC and create the Associated Issues
+
+After the creation of the Epic you can in parallel start the actual work on the POC and the creation of the issues.
 
 Within the Epic, create the following issues:
 
