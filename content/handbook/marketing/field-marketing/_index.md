@@ -1477,6 +1477,8 @@ Field Marketing manages its budget in [Allocadia](/handbook/marketing/strategy-p
 
 ## Customer Speaker Gifts
 
+If you require information about paying for Speaker travel and hotel stay, please refer to [this section](/handbook/marketing/events/#paying-for-speaker-travel) in the GitLab Event Information page.
+
 Please note that there is a limit of $75 USD annually per person on customer speaker gifts.
 
 ## Field Marketing and the Procurement Process
