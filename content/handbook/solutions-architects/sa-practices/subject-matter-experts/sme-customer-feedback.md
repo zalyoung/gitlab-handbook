@@ -7,6 +7,8 @@ description: Gather Feedback from Customers
 
 ## **Customer Feedback Loop**
 
+Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
+
 Gathering and systematically relaying top asks from the field and customers to Product Management and Engineering, is one of the main responsibilities of a SME.
 
 This allows a collective view of feedback from the field with analysis, so that it does not always seem reactive, but constructively adds to and builds on a roadmap, with roadmap themes.  
