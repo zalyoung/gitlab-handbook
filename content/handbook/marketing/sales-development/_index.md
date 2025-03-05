@@ -187,11 +187,9 @@ You will find the lead views below. These views are split per use-case for your 
 | FY26 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which one to add to Groove Flow. We do not surface leads that were added to Flows in the last 14 days.                                                                                                                        |
 | FY26 B3 - Change Owner AWA's (Clone)   | These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date. |
 | FY26 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Groove to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Groove and create additional call tasks for your leads currently in high touch flows.                                                                                                                             |
-| FY26 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
-| FY26 B6 - 6QA Imported Leads  | leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.
-|
-| FY26 B7 - AWS Prospecting Last 7 Days  | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
- |
+| FY26 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                        |
+| FY26 B6 - 6QA Imported Leads  | leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.|
+| FY26 B7 - AWS Prospecting Last 7 Days  | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                           |
 
 #### Contact Views
 
@@ -649,14 +647,12 @@ You are also able to downgrade a Trial from Ultimate to Premium through the inte
 - New Business: [Quantity]
   - [Name of Company]- [Quantity] [Edition]
   -  Example: Acme, Inc- 50 Premium
-- Add-On Business (seats only): 
+- Add-On Business (seats only):
   - [Name of Company]- Add [Quantity] [Product]
   - Example: Acme, Inc- Add 25 Duo
 - Add-On Business (Upgrade from Premium to Ultimate):
   - [Name of Company]- Upgrade to Ultimate
   - Example: Acme, Inc- Upgrade to Ultimate
-
-
 
 ### Monthly Audit Process
 
