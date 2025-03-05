@@ -189,7 +189,7 @@ If you would like to purchase GTLB shares, this must be done through your E*TRAD
 - [Non U.S. Session](https://event.on24.com/wcc/r/4817304/5BC09EC01FAD3764137335C6AB4B8E8F)
 - [Deck](https://www.morganstanley.com/cs/pdf/U-S-EQUITY-101-GTLB-2025.pdf) with U.S. and Non U.S. naterials attached
 
-### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
+### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908). Non-US local country contact phone numbers are found [here](https://us.etrade.com/e/t/home/contactus_esp)
 
 - Activating your account
 - Navigating the Stock Plan section of etrade.com
