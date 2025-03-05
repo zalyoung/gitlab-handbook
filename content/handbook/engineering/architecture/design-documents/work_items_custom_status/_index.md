@@ -34,7 +34,7 @@ management.
 
 ## Timeline & status updates
 
-1. Iterations 1 and 2 are planned for completion in FY26 Q2
+1. Custom Status is the Plan Stage's highest priority in FY26Q2, and we've planned to deliver the first two iterations to General Availability by the 18.2 milestone
 1. Status updates can be derived from the [custom statuses epic](https://gitlab.com/groups/gitlab-org/-/epics/5099)
    and the iteration child epics.
 
@@ -90,12 +90,12 @@ We propose implementing a flexible status system for work items in GitLab, built
 
 1. Status is available for Premium and Ultimate customers.
 1. Free customers continue to use state (open/closed) and labels.
-1. Customizable workflows through lifecycles that can be applied to work item types and that hold statuses
+1. Customizable workflows through lifecycles that can be applied to work item types and that hold statuses.
 1. System-defined statuses as a starting point.
 1. Allow users to create and modify status and lifecycles as custom statuses and custom lifecycles.
-1. Sync state and status along the workflow to ensure consistency and compatibility
-1. Use the work item framework and widget concepts and the GraphQL API
-1. Migration tools to assist users in transitioning from workflow labels to the new status system
+1. Sync state and status along the workflow to ensure consistency and compatibility.
+1. Use the work item framework and widget concepts and the GraphQL API.
+1. Migration tools to assist users in transitioning from workflow labels to the new status system.
 
 ## Design and implementation details
 
