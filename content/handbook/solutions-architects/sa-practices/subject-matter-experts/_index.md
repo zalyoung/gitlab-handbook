@@ -119,28 +119,3 @@ Being an SME provides opportunities for professional growth and recognition:
 - Recognition in performance reviews
 
 SMEs will be regularly evaluated based on their contributions and impact on the SA team and customer satisfaction.  Here is the [list of SME Metrics](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-metrics) that would be gathered to quanify the impact of a SME's contribution.
-
-## Scope
-
-- SME support for an opportunity or an account should be requested by a Primary SA this can include roadmap discussions
-- A generalist SA should primarily drive solutions with their broad knowledge. A SME should be consulted ONLY when the generalist SA faces challenges moving forward.
-- The existence of SMEs does not guarantee the availability of their engagement.  
-- The main focus of SMEs are their regular SA responsibilities and then, their assistance as SMEs
-- There will be multiple SME per region (EMEA, APAC, US East, US West) but they will be a cross-regional group of SMEs
-
-## SMEs {#sme-list}
-
-| SME Areas | AI / GitLab Duo | App Security | Agile Planning | Dedicated | CICD / Runners | Metrics / Observability |
-|-----------|----|--------------|--------------------|-----------|----------------|------------------------|
-| **SME Area Leads** | **SA**: Edmond Chan<br>**CS**: Jess Perry | **SA**: Julia Gaetjens<br>**CS**: Eduardo Guillen, Jess Perry | **SA**: David Astor<br>**CS**: Brianne Parton | **SA**: Alessia Del Vecchio<br>**CS**: Zane Chua | **SA**: Bradley Lee,<br>Ken McKnight<br>**CS**: Rachel Fuerst,<br>Rodney Bowles | **SA**: Zach Henderson,<br>Breno Gomes<br>**CS**: Jordan Monyhan |
-| **Product Manager Rep/<br>Engineering Manager Rep** | **AMER**: Taylor McCaslin,<br>Michelle Gill<br>**APAC/EU**: Pini Wietchner,<br>David O'Regan | Alana Bellucci,<br>Sara Meadzinger,<br>Joe Randazzo | **PM**: Melissa Ushakov<br>**EM**: John Hope | **PM**: Chris Balane<br>**EM**: Oriol Lluch | | |
-| **APJ** | Arun Kumar G,<br>Arjun Krishna | Pedric Kng,<br>Ron Teo | Rob Williams | Tomasz Skora | Naoharu Sasaki,<br>Jimmy Gam | Hardy Chou,<br>Arun Kumar | 
-| **EMEA NEUR** | Ryan Appleby | Dominique Top,<br>Beatriz Barbosa | Gabriela Dobrescu,<br>James Moverley | Martin McVay | | |
-| **EMEA SEUR** | Madou Coulibaly | Paul Dumaitre,<br>Olivier Dupre | | | | |
-| **EMEA DACH/META** | Alex Dess | Mirko Brandner,<br>Julia Gaetjens | Ted Gieschen,<br>Hossam Hamdy | Falko Sieverding | Lars Blockken | |
-| **US East** | Sam Morris,<br>Manjeet Singh | Bernard Park,<br>James Nyika,<br>Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jason Morgan,<br>Bradley Lee | Rob Jackson |
-| **US West** | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
-| **High Velocity - AMER** | | | Sophia Manicor | | Noah Ing | |
-| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | | Sarah Matthies | Breno Gomes |
-| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | | Rachel Fuerst | |
-| **Partner** | | | | | | |

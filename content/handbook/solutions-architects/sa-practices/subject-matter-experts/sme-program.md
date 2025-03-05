@@ -36,7 +36,7 @@ Each SME Area, therefore with both SA and CS Area Leads and all SA and CS SMEs c
 
 While it is highly recommended to have only one SA SME for each area per region, there can exist other subject matter experts (SME) or SME Associates.  However one SA should be designated regional SME per area who will take on the responsibilities of being a SME DRI in the SME program, including maintaining collateral, gathering feedback from customers, engaging with product management.
 
-Here is the list of the [current SA SMEs for each Area](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list).  This is the list of the corresponding [CS SMEs for each Area](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on).
+Here is the list of the [SMEs for each Area](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on).
 
 ## SME Roles
 
