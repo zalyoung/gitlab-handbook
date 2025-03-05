@@ -84,7 +84,7 @@ The following tools can be helpful:
 - [Private Grafana](https://dashboards.gitlab.net/): for both application and system level performance data.
 - [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html): type `pb` in GitLab and a bar with performance metrics will show up at the top of the page. This tool is especially useful for viewing the queries executed and their timings.
 
-If you have identified a Postgres Performance Problem and want to dive deeper, we reccomend these Runbooks and Dashboards. They are best used together, with the runbooks explaining how to understand the Dashboards.
+If you have identified a Postgres Performance Problem and want to dive deeper, we reccomend these runbooks and dashboards. They are best used together, with the runbooks explaining how to understand the dashboards.
 
 Dashboards:
 - [Postgres node performance overview (high-level)](https://dashboards.gitlab.net/d/postgres-ai-node-performance-overview)
@@ -99,7 +99,7 @@ Runbooks:
 
 ### Dashboards
 
-The following (private) Grafana dashboard are important / useful for database specialists:
+The following (private) Grafana dashboards are important / useful for database specialists:
 
 - [PostgreSQL Overview](https://dashboards.gitlab.net/d/000000144/postgresql-overview?orgId=1&var-prometheus=Global&var-environment=gprd&var-type=patroni)
 - [Patroni Overview](https://dashboards.gitlab.net/d/patroni-main/patroni-overview?orgId=1)
