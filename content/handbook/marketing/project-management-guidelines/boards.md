@@ -25,7 +25,7 @@ title: "Issue and Kanban boards project management guidelines"
 
 The scope of issues that are displayed on a board are filtered either by `label`, `assignee`, `milestone`, or possibly `weight`.
 
-![board scope](/handbook/marketing/project-management-guidelines/images/board-scope.png)
+![board scope](/images/marketing/project-management-guidelines/board-scope.png)
 
 Boards support groups of lists that are defined by a combination of
 
@@ -91,7 +91,7 @@ If the relevant issues that need to be managed in a board are at the project lev
 - Uses the `mktg-status::` scoped labels as lists
 - [Workflow board example](https://gitlab.com/groups/gitlab-com/-/boards/1781956?milestone_title=%23started&&label_name[]=tech-evangelism)
 
-![Workflow board](/handbook/marketing/project-management-guidelines/images/workflow-board.png)
+![Workflow board](/images/marketing/project-management-guidelines/workflow-board.png)
 
 ### Iteration board
 
@@ -103,4 +103,4 @@ If the relevant issues that need to be managed in a board are at the project lev
 - Optionally: at their discretion groups can add a milestones board for project milestones
 - [Iteration board example](https://gitlab.com/groups/gitlab-com/-/boards/1672643?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tech-evangelism)
 
-![Iteration board](/handbook/marketing/project-management-guidelines/images/iteration-board.png)
+![Iteration board](/images/marketing/project-management-guidelines/iteration-board.png)

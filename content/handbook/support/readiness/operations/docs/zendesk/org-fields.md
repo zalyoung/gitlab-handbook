@@ -25,6 +25,12 @@ might want to pair with a Fullstack Engineer.
 utilizing them. This helps alleviate some of the complexity involved in managing
 organization fields.
 
+If the field is not a drop-down, you can simply create the file within the sync
+repo. The sync process will handle it from there.
+
+However, if creating a drop-down, you still need to create it in Zendesk first,
+as you need the field value IDs.
+
 You will start by creating a placeholder organizations field within Zendesk
 itself (as you will need the ID for the sync repo). To do this, open up the
 admin page of your corresponding Zendesk instance

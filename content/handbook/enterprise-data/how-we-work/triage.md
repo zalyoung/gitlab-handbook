@@ -19,7 +19,7 @@ Steps to uplevel triaging process:
 
 | Triage Group Name   | Triage Slack Alias  | Triage Group Members  |
 | -------------- | ------------------- | -------------------- |
-| Go To Market Analytics Triage | `@GTMAnalyticsTriage` |  Sales Strategy & Analytics Team, Marketing Strategy and Performance Team, Business Insights and Analytics Team, GTM Data Fusion Team |
+| Go To Market Analytics Triage | `@GTMAnalyticsTriage` |  Revenue Strategy & Analytics Team, Marketing Strategy and Performance Team, Business Insights and Analytics Team, GTM Data Fusion Team |
 | R&D Analytics Triage | `@R&DAnalyticsTriage` | Product Data Insights Team, R&D Data Fusion Team |
 | People Analytics Triage | `@PeopleAnalyticsTriage` | People Group Analytics Team, G&A Data Fusion Team |
 | Engineering Analytics Triage | `@EngineeringAnalyticsTriage` | Engineering Analytics Team, G&A Data Fusion Team |
@@ -35,7 +35,6 @@ Steps to uplevel triaging process:
 | [Marketing Strategy and Performance](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance) |
 | [Product Data Insights](https://gitlab.com/gitlab-data/product-analytics) |
 | [Business Analytics](https://gitlab.com/gitlab-com/business-analytics) |
-| [Engineering Analytics](https://gitlab.com/gitlab-com/quality/engineering-analytics) |
 | [People Analytics](https://gitlab.com/gitlab-com/people-group/people-analytics) |
 | [Customer Success Operations - Use CSAnalytics label](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations) |
 | [Online Sales and Self-Service](https://gitlab.com/gitlab-com/sales-team/self-service) |
@@ -44,16 +43,14 @@ Steps to uplevel triaging process:
 
 | Slack Channel Alias| Analytics Team | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday |
 | ---------     | -----------------    | -------| -------|---------| ----------|----------|--------|
-| `@GTMAnalyticsTriage` | Sales Strategy and Analytics | | `@melia` | |  | | |
+| `@GTMAnalyticsTriage` | Revenue Strategy and Analytics | | `@melia` | |  | | |
 |                   | Marketing Strategy and Performance | |  | `@David Egan` | | `@rkohnke` | |
-|                   | Business Insights and Analytics | |  `@Vikas Agrawal` | `@Deepesh Gupta` |  |      |   |
-|                   | GTM Data Fusion | | `@Peter Empey` |  |  |    | `@Michelle Cooper` |
+|                   | Business Insights and Analytics | |  `@Vikas Agrawal` |  |  |      |   |
 | `@R&DAnalyticsTriage` | Product Data Insights |  | `@Matthew Petersen` `@Carolyn Braza` | `@Dave Peterson` | `@Emma Neuberger` | `@Nicole Hervas` | `@Neil Raisinghani` |
-|                   | R&D Data Fusion | | `@utkarsh060` |  | `@Chris Sharp`  | `@snalamaru`  |   |
-| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | |
-|                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |
+| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` | |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
-| `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
+| `@TableauTriage` | Analytics & Insights |  | Weekly rotation  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
+|  `@GTMAnalyticsTriage` `@R&DAnalyticsTriage`  `@PeopleAnalyticsTriage` | Analytics Engineering |  | Weekly rotation  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
 
 #### Data Platform weekly rotation schedule
 
@@ -71,7 +68,11 @@ Because of public holidays or unforeseen circumstances (Family and Friends day e
 
 #### Tableau weekly rotation schedule
 
-For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Tuesday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts.
+For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Monday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts.
+
+#### Analytics Engineering weekly rotation schedule
+
+Beginning on `2025-01-02` Analytics Engineering will move to a weekly triage schedule. The schedule is maintained on the Data Program Google Calendar.
 
 ### Enterprise Data Program Triage Instructions
 
@@ -87,10 +88,9 @@ Having dedicated triagers on the team helps address the bystander affect. The sc
 
 #### Triage responsibilities
 
-Data triagers are the first responders to requests and problems for the Data Program.
+Data triagers are the first responders to requests and problems for the Data Program. Triagers are primarily responsible for responding to GitLab team member requests whether via issue, which posts to **#data-triage**, or directly via slack in **#data**.
 
-- The Data Analyst triager is primarily responsible for responding to GitLab team member requests whether via issue, which posts to **#data-triage**, or directly via slack in **#data**.
-- The Functional Analyst triager is primarily responsible for responding to GitLab team member requests via slack in **#data**.
+- The Functional Analyst triage handle is primarily responsible for responding to GitLab team member requests that relate to their functions via Slack in **#data**.
 - The Data Platform triager is responsible for resolving problems with our data platform, which will either be in the **#data-pipelines** and **#data-prom-alerts** slack channels, on the [DE - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) and on the [MonteCarlo Incident page](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach) (make sure to filter on the `Data Platform` domain in MonteCarlo). Issues created from these errors should use the [DE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20DE).
   - During the assigned triage week the Data Platform Team member will focused on (in priority order):
     - Incoming incidents
@@ -107,7 +107,8 @@ Data triagers are the first responders to requests and problems for the Data Pro
   - Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
     - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
 - The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20AE).
-- The Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
+- The BI / Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
+- The Data Science triager is primarily responsible for reviewing model run issues / breakages and supporting operational requests such as executing field replacements due to dbt model updates.
 
 We will iterate on triage responsibilities to include additional activities such as extract refresh failure review, job failure review, etc. as the team expands.
 

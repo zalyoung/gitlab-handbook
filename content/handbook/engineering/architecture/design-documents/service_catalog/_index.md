@@ -16,8 +16,8 @@ toc_hide: true
 
 **Scalability themes:**
 
-- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/saas-platforms/scalability/#observability-across-the-production-fleet-is-accessible-for-all)
-- [Paved roads are the default for all team members](https://about.gitlab.com/direction/saas-platforms/scalability/#paved-roads-are-the-default-for-all-team-members)
+- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/saas-platforms/production-engineering/#observability-across-the-production-fleet-is-accessible-for-all)
+- [Paved roads are the default for all team members](https://about.gitlab.com/direction/saas-platforms/production-engineering/#paved-roads-are-the-default-for-all-team-members)
 
 This document describes how we want to evolve our metrics- and
 service-catalog into a single definition in YAML for each service. We

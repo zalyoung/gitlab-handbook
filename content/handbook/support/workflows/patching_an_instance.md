@@ -26,7 +26,7 @@ a raw snippet.
 
 curl -o /tmp/$mr_iid.patch https://gitlab.com/gitlab-org/gitlab/-/merge_requests/$mr_iid.patch
 cd /opt/gitlab/embedded/service/gitlab-rails
-patch -p1 -b -f < /tmp/$mr_iid.patch
+patch -p2 -b -f < /tmp/$mr_iid.patch
 gitlab-ctl restart
 ```
 
@@ -50,6 +50,7 @@ The checksums will differ if the patch was applied correctly.
 - This process only applies to the Rails application ([the GitLab repository](https://gitlab.com/gitlab-org/gitlab)).
 Other components may need additional steps.
 - The patch will need to be reapplied if GitLab is upgraded.
+- The value of the patch option `-p` needs to be set to the correct a strip size.
 
 ## Patching a Docker install
 
@@ -68,6 +69,7 @@ gitlab-ctl restart
 **Note**:
 
 - Deleting and recreating the container will revert the patch.
+- The value for the patch option `-p` needs to be set to the correct a strip size.
 
 ## Patching a Kubernetes install
 

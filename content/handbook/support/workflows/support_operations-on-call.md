@@ -6,14 +6,14 @@ description: "Describes the role and responsibilities for the Support Operations
 
 ## Introduction
 
-The Support Readiness team mantains an on-call rotation for those members focused on Support Operations. This rotation ensures that the support team is always able to deliver support.
+The Support Readiness team maintains an on-call rotation for those members focused on Support Operations. This rotation ensures that the support team is always able to deliver support.
 
 ## Expectations for Support Ops On-call
 
 As part of [GitLab Support on-call](/handbook/support/on-call/), Support Readiness members focused on Operations serve in a rotation. The Support Ops on-call is responsible generally for:
 
 1. Address operational emergencies that affect GitLab's ability to deliver support.
-1. Work with Support Managers to develop and communicate interim plans to provide continuity in serivce delivery while root cause analysis is in progress.
+1. Work with Support Managers to develop and communicate interim plans to provide continuity in service delivery while root cause analysis is in progress.
 1. Identify and address root causes
 
 ## Manually triggering a PagerDuty notification

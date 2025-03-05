@@ -18,7 +18,7 @@ Recordings of previous demos are posted to the [GitLab Unfiltered Data Team play
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Data Onboarding
 
-If you are onboarding to GitLab and will be working in the Data Program as an Engineer, Analyst, or Developer, follow these steps:
+If you are onboarding to GitLab and will be working in the Data Program as an Engineer, Analyst or Developer, follow these steps:
 
 1. Open a new issue in [GitLab Data Analytics](https://gitlab.com/gitlab-data/analytics/-/issues) with the `Data Onboarding` template.
 1. Give the issue a descriptive name: `Your Name - Data Onboarding`
@@ -36,7 +36,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 ### Phase 2: Scoping & Policy Awareness
 
 1. Review the [Procurement New Software Guide](/handbook/finance/procurement/new-software/) to ensure you understand the latest procurement process to follow.
-1. Execute an [NDA](/handbook/legal/NDA/) with each Vendor included in the Evaluation.
+1. Execute an [NDA](/handbook/legal/nda/) with each Vendor included in the Evaluation.
 1. Obtain preliminary pricing to help validate established budget. If no existing budget is established, work with the Department lead to determine if the project is feasible. Let's not waste time or energy for projects we can't fund.
 
 ### Phase 3: Evaluation Design
@@ -44,7 +44,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 Evaluation Design is the most complex part of the PoV.
 
 1. Decide how to test the technology versus defined requirements. Often, successfully testing data technologies requires simulating production workloads and constructing a 'Production Level SAFE Workload' is a key challenge in a Data PoV Project.
-     - No [Red Data](/handbook/security/data-classification-standard.html#red) or [Orange Data](/handbook/security/data-classification-standard.html#orange) is ever suitable for inclusion in a PoV.
+     - No [Red Data](/handbook/security/data-classification-standard/#red) or [Orange Data](/handbook/security/data-classification-standard/#orange) is ever suitable for inclusion in a PoV.
 
 ### Phase 4: Procurement
 
@@ -75,7 +75,7 @@ Evaluation Design is the most complex part of the PoV.
 | [Data Catalog](/handbook/enterprise-data/data-catalog/) | Catalog of dashboards, data sets, and analytics projects |
 | [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/) | Information to help Product Managers |
 | [Data for Product Analysis](/handbook/product/groups/product-analysis/) | Information to help Product Analysts |
-| [Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
+| [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
 | [Data for Marketing Analysts](/handbook/marketing/inbound-marketing/search-marketing/analytics/) | Information to help Marketing Analysts |
 | [Data for Sales Analysts](/handbook/sales/field-operations/sales-strategy/) | Information to help Sales Analysts |
 | [Data Triage](/handbook/enterprise-data/how-we-work/triage/) | Daily process to ensure the data platform remains available for analytics. |

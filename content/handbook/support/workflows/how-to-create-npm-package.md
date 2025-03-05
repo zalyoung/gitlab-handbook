@@ -44,7 +44,7 @@ You don't need to add a license, keyword etc. All that matters it that:
 
 1. Create and provision the `.npmrc` file
 
-The `npmrc` file is one of the locations where npm gets its settings. In our case, the configuration, per the official [GitLab NPM Registry docs](https://docs.gitlab.com/ee/user/packages/npm_registry/index.html), it will hold is where to look for packages under a particular
+The `npmrc` file is one of the locations where npm gets its settings. In our case, the configuration, per the official [GitLab NPM Registry docs](https://docs.gitlab.com/user/packages/npm_registry/), it will hold is where to look for packages under a particular
 scope, as well as the current user's authentication to push/pull packages.
 
 ### Step 1: Create the ~/.npmrc file
@@ -56,8 +56,8 @@ scope, as well as the current user's authentication to push/pull packages.
 
 - Add the registry to your scope, that way npm knows where to look for packages that start with @nameofyourscope.
   Example:
-  - `@sahbabou:registry=http://gitlab.ahbabou.com/api/v4/packages/npm`
-- Add your Oauth token(create one [here](https://docs.gitlab.com/ee/api/oauth2.html#resource-owner-password-credentials-flow) if you don't have one), and add it using this format:
+  - `@sahbabou:registry=https://gitlab.ahbabou.com/api/v4/packages/npm`
+- Add your Oauth token(create one [here](https://docs.gitlab.com/api/oauth2/#resource-owner-password-credentials-flow) if you don't have one), and add it using this format:
   - `//gitlab.ahbabou.com/api/v4/packages/npm/:_authToken=<Oauth Token>`
 
  NOTE **Note**: This is so you can pull packages from that repo when running `npm install`.
@@ -126,9 +126,9 @@ In order to run a job to publish your package in a job, paste the snippet below 
 image: node:latest
 
 # This template assumes you have the following settings configured
-# OAUTH Access Token generated and added as an Environment Variable under Project -> Settings -> CI/CD https://docs.gitlab.com/ee/api/oauth2.html
+# OAUTH Access Token generated and added as an Environment Variable under Project -> Settings -> CI/CD https://docs.gitlab.com/api/oauth2/
 # Personal Access Token added as an Environment Variable in order to update your package.json with the new version value
-# Your package.json contains the path to your private NPM Registry on GitLab. https://docs.gitlab.com/ee/user/packages/npm_registry/index.html#uploading-packages
+# Your package.json contains the path to your private NPM Registry on GitLab. https://docs.gitlab.com/user/packages/npm_registry/#uploading-packages
 ######
 ######
 
@@ -140,7 +140,7 @@ build:create_npmrc:
   stage: build
   script:
     - |
-      if [ ! -f .npmrc ]; then echo .npmrc missing. Creating one now. Please review the following link for more information https://docs.gitlab.com/ee/user/packages/npm_registry/index.html#authenticating-with-an-oauth-token;
+      if [ ! -f .npmrc ]; then echo .npmrc missing. Creating one now. Please review the following link for more information https://docs.gitlab.com/user/packages/npm_registry/#authenticating-with-an-oauth-token;
           export NPM_PROJECT_URL=$(echo "$CI_PROJECT_URL" | sed "s/${CI_PROJECT_PATH//\//\\/}/api\/v4/g")
           export NPM_REGISTRY_PATHS=$(echo "$CI_PROJECT_URL" | sed "s/${CI_PROJECT_PATH//\//\\/}/api\/v4/g")
           export NPMRC_URL=$(echo "$NPM_REGISTRY_PATHS" |  sed 's/[^:]*[:]//')

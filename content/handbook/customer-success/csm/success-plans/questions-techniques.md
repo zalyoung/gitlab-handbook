@@ -132,7 +132,7 @@ We also want to ask about Stage Adoption metrics so that we can tie their GitLab
 - **Monitor**
   - How are you monitoring the stability and performance of your GitLab instance?
   - What do you use to monitor your deployed applications?
-- **Govern**
+- **Software Supply Chain Security**
   - How do you manage your organizational security policies?
   - How do you manage your dependencies?
   - How do you manage your vulnerabilities?

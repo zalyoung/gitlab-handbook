@@ -9,7 +9,7 @@ The Command Plan is how GitLab has operationalized [Command of the Message](/han
 
 ## Command Plan Requirements
 
-The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**). 
+The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**).
 
 By day 1 of the current quarter, all Command Plans and Opportunity Consults should be updated for both the current and next quarters. Note: These thresholds are minimum global standards, and geographic and segment specific teams can and should aim to exceed these expectations by extending the command plan process to lower deal thresholds where appropriate.
 
@@ -21,7 +21,7 @@ At the sales level, the Command Plan is owned by the [Strategic Account Executiv
 
 You can find the Command Plan button in the `Opportunity Detail` section of the Salesforce opportunity object (see image below) or in Clari or in the top right dropdown menu on the Opportunity Record in Salesforce Lightning. Please note that Command Plans are capped at 5000 characters in Salesforce to encourage sales team members to be crisp and succinct. To do so, the Command Plan should focus on future-looking plans and remove details that are no longer relevant to the current close plan. For information you'd like to remove from the Command Plan but keep for historical purposes, please add that information as a new activity record on the opportunity.
 
-![Where to find the Command Plan](/handbook/sales/command-plan.png)
+![Where to find the Command Plan](/images/sales/command-plan.png)
 
 ## Opportunity Overview
 

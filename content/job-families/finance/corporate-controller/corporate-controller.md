@@ -78,7 +78,7 @@ The Director, Corporate Controller is a [10](/handbook/total-rewards/compensatio
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ### Senior Director, Assistant Controller
@@ -128,7 +128,7 @@ both grow in the role and grow with the company, demonstrating leadership capabi
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ### Vice President, Corporate Controller
@@ -177,7 +177,7 @@ The Vice President, Corporate Controller is a [12](/handbook/total-rewards/compe
 
 - [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 - [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
-- [New hire location factor](/#new-hire-location-factor)
+- New hire location factor
 - [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Career Ladder
@@ -188,7 +188,7 @@ The next step in the Corporate Controller job family is to move to a senior lead
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Meet with PAO for 50 minutes
 - Meet with Key Reports and Key Finance Leaders - for 30 minutes each
 - Meet with People Business Partner for the CFO Organization for 25 minutes

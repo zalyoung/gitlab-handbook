@@ -7,7 +7,7 @@ description: "Snowflake Data Warehouse Guide"
 
 ## What and why
 
-[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw--text-orangeiour-data-stack).
+[Snowflake](https://www.snowflake.com/en/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw--text-orangeiour-data-stack).
 
 ## What does Snowflake Contain?
 
@@ -16,7 +16,7 @@ Snowflake contains all of our analytical data and [Data Sources](/handbook/enter
 ## Related Content
 
 - [Access](/handbook/enterprise-data/platform/#warehouse-access)
-- [Support Portal Access](/handbook/enterprise-data/platform/#data-warehouse)
+- [Support Portal Access](/handbook/enterprise-data/platform/#snowflake-support-portal-access)
 - [Compute Resources](/handbook/enterprise-data/platform/#compute-resources)
 - [Data Masking](/handbook/enterprise-data/platform/#data-masking)
 - [Backups](/handbook/enterprise-data/platform/#backups)
@@ -27,7 +27,7 @@ Login to Snowflake from Okta.
 
 ## Navigating the UI
 
-The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/user-guide/snowflake-manager.html) provides comprehensive documentation for the UI.
+The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/user-guide/ui-snowsight-quick-tour) provides comprehensive documentation for the UI.
 
 ## Snowflake account configuration
 

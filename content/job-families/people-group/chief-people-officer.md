@@ -79,7 +79,7 @@ Other requirements
 - [12 month PIP Success Rate](/handbook/people-group/people-success-performance-indicators/#regrettable-attrition)
 - [Discretionary bonus per employee per month](/handbook/total-rewards/incentives/#discretionary-bonuses)
 - [Engagement survey inclusion questions](/handbook/company/culture/inclusion/#performance-indicators)
-- [New Hire Location Factor](/#new-hire-location-factor)
+- New hire location factor
 - [Percent of team members over compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band)
 - [Plan vs Actual](/handbook/finance/financial-planning-and-analysis/#plan-vs-actual)
 - [Women in company](/handbook/company/culture/inclusion/#performance-indicators)
@@ -90,7 +90,7 @@ Other requirements
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule at least 2 [screening calls](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters or Talent Acquisition Partners.
+- Qualified candidates will be invited to schedule at least 2 [screening calls](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters or Talent Acquisition Partners.
 - Then a 50 minute meeting with the CEO/Co-Founder,
 - Next, a round of 3 separate 50 minute interviews with the VP of Recruiting, the Senior Director, People Operations and the Chief Legal Officer,
 - Next, a 80 minute interview with the CEO/Co-Founder,

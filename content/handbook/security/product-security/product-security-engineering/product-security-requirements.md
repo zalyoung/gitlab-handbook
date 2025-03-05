@@ -73,7 +73,7 @@ This section describes the ownership, maintenance, and transition of product con
     - The requirement needs to incubated by the GitLab Product Security team for other reasons
   - The Planning process will require that stakeholders from the requesting Product Security team, the Product Security Engineering team, and the relevant Product and Engineering teams discuss and collectively make a decision with regards to the need to put the feature or functionality behind a Product Security specific feature flag
 - As features and functionality become enabled for and available to users outside of the GitLab Product Security team, an agreed-upon transition will happen to handover ownership and maintenance
-  - Standard GitLab processes and expectations around [support for expertiment, beta, and generally available features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) will be followed
+  - Standard GitLab processes and expectations around [support for expertiment, beta, and generally available features](https://docs.gitlab.com/ee/policy/development_stages_support.html) will be followed
   - General availability will constitute a complete transfer of ownership responsibilities, although handovers may occur earlier
 
 ## Build vs. Wait vs. Buy
@@ -164,7 +164,7 @@ A sunset roadmap describes the phases and steps needed to move functionality fro
     1. Identify the stakeholders that use the tool and involve them early - they can point you to relevant context quickly, and might need to remain informed of sunsetting efforts.
     1. The gap analysis might identify requirements that neither the tooling nor GitLab currently meet. These don't need to be added to the Sunset Roadmap.
 1. Identify any GitLab issues and/or architectural blueprints that describe plans the product team might have for GitLab functionality
-1. Segment the work into "phases". 
+1. Segment the work into "phases".
     1. Each phase has the steps needed to move a piece of functionality into GitLab. It will include at least two steps: adding to GitLab, and removing from the custom tooling
     1. Link to existing issues, epics, blueprints
     1. Each phase should state "This phase is complete when ...".

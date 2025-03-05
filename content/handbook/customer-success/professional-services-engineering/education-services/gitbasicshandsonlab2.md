@@ -125,11 +125,11 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
 
-> If you receive an error stating the connection is refused or the command does not work, this may be becuase your network is blocking connections via SSH. If that is the case, continue onto the next task.
+> If you receive an error stating the connection is refused or the command does not work, this may be because your network is blocking connections via SSH. If that is the case, continue onto the next task.
 
 ## Task D. Clone a GitLab project repository to your local computer
 
-> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
+> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/topics/git/commands.html#clone-a-repository).
 
 1. Navigate back to the `Top Level` project that you created in Lab 1.
 
@@ -158,6 +158,8 @@ If the command completes with a welcome message instead of an error, your SSH ke
    ```
 
 > If you receive an error stating that the connection has timed out or has been refused, it may be because your network blocks connections on port 22 due to a firewall. If this happens, repeat the steps in Task D, but use the **Clone with HTTPS** selection in the **Code** button instead.
+
+On a Mac, to locate your cloned project on your machine, you may need to navigate to the home directory. From Finder, click Go > Go to Folder > search by machine username to open your home directory. Or, in Finder, hold down the **Option** key (Alt) and select your machine username from the menu that appears in the bottom left.
 
 1. Move into the repository you just cloned via the `cd` command. All files in this directory will be tracked by Git, and any Git commands you run in this lab should be run from this directory.
 
@@ -326,6 +328,8 @@ You will now see that the `README` file has a green font color. This indicates t
    ```text
    a third line added on the remote copy of temporary_branch
    ```
+
+1. Click the **Commit Changes** button on the upper-right side of the page.
 
 1. Enter an appropriate commit message.
 

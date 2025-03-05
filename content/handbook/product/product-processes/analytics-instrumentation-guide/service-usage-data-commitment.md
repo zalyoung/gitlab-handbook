@@ -22,20 +22,20 @@ Based on this analysis, the team prioritized two bug issues related to deploy to
 
 Over the past few years GitLab has made commitments to our community around the collection, processing, and use of [service usage data](/handbook/legal/privacy/customer-product-usage-information/). This page summarizes those commitments and provides guidance to team members working on projects that involve the collection of product analytics data from our customers.
 
-1. We will not sell your [service usage data](/handbook/product/index.html.md).
+1. We will not sell your [service usage data](/handbook/product/.md).
 1. GitLab will only add free JavaScript (as in [freedom](https://www.gnu.org/philosophy/free-sw.html)) to its core product. ([source](https://mikegerwitz.com/2016/01/google-analytics-removed-from-gitlabcom-instance))
 1. We pseudonymize personally identifying information about you, the user.
 1. We will transparently document the data we collect, how it is used and how it is pseudonymized.
-1. We will alert the community when any changes to our [service usage data](/handbook/product/index.html.md) processes and/or policies occur.
+1. We will alert the community when any changes to our [service usage data](/handbook/product/.md) processes and/or policies occur.
 1. We will not implement telemetry in our products which sends identifiable usage data to a third-party product analytics service [source](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 
 #### Definition of Analytics Data
 
 Analytics Data can be too generic of a term. The list below are the specific types of Product data that is in scope:
 
-- [Service Ping](/handbook/product/analytics-instrumentation-guide/#service-ping) - aggregate counts of product usage from a GitLab instance
-- [Snowplow](https://snowplowanalytics.com/) Events - dynamic events collected from either a client or server.
-- [Database events](/handbook/product/analytics-instrumentation-guide/#database-import) - using Database records from gitlab.com to measure and understand usage
+- [Service Ping](/handbook/product/product-processes/analytics-instrumentation-guide/#service-ping) - aggregate counts of product usage from a GitLab instance
+- [Snowplow](https://snowplow.io/) Events - dynamic events collected from either a client or server.
+- [Database events](/handbook/product/product-processes/analytics-instrumentation-guide/#database-import) - using Database records from gitlab.com to measure and understand usage
 
 ## Data Pseudonymization
 
@@ -57,9 +57,9 @@ Our [pseudonymization process](https://gitlab.com/groups/gitlab-org/-/epics/6309
 
 A key part of our process is pseudonymizing data at the [collection layer](https://gitlab.com/groups/gitlab-org/-/epics/6309#hashing-on-the-collector-layer), which allows GitLab to resolve any issues without a dependency for upgrading versions on your part.
 
-Now that we have the ability to protect user privacy with the pseudonymization service in place, we have started collecting `Project_ID`, `Namespace_ID` and pseudonymized `User_ID`. Collecting these identifiers make the aggregated metrics we collect much more revealing. Now, instead of know there were 1000 clicks of some button, we can know things like: "Unidentified User "X" clicked a button, performed an action, then hit an error." This rich [user journey](/handbook/product/analytics-instrumentation-guide/#example-user-journey) will greatly improve GitLab's ability to improve our product for you, our end user.
+Now that we have the ability to protect user privacy with the pseudonymization service in place, we have started collecting `Project_ID`, `Namespace_ID` and pseudonymized `User_ID`. Collecting these identifiers make the aggregated metrics we collect much more revealing. Now, instead of know there were 1000 clicks of some button, we can know things like: "Unidentified User "X" clicked a button, performed an action, then hit an error." This rich [user journey](/handbook/product/product-processes/analytics-instrumentation-guide/#example-user-journey) will greatly improve GitLab's ability to improve our product for you, our end user.
 
-Next up for our [roadmap](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) includes modeling user journeys to better understand the features are users value most and implementing [events track in self-managed instances](https://gitlab.com/groups/gitlab-org/-/epics/6869).
+Next up for our [roadmap](https://about.gitlab.com/direction/monitor/analytics-instrumentation/) includes modeling user journeys to better understand the features are users value most and implementing [events track in self-managed instances](https://gitlab.com/groups/gitlab-org/-/epics/6869).
 
 ## Related Content
 
@@ -67,4 +67,4 @@ Next up for our [roadmap](https://about.gitlab.com/direction/analytics/analytics
 1. Updates to Pseudonymizing Service Usage Data blog post: *coming soon*
 1. [Update on Free Software and Telemetry](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 1. [Product Usage Tracking Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/5672)
-1. [GitLab's Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)
+1. [GitLab's Analytics Instrumentation Direction](https://about.gitlab.com/direction/monitor/analytics-instrumentation/)

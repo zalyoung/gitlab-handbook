@@ -1,5 +1,6 @@
 ---
 title: "David Kim README"
+description: "Personal README for David Kim"
 job: "Program Mananger"
 ---
 
@@ -11,7 +12,7 @@ job: "Program Mananger"
 
 🔗[**INFP**: Achiever & Loyalist](https://www.enneagraminstitute.com/relationship-type-3-with-type-6/)
 
-Surprisingly, this is not a common pairing, although these two types can work very well as a team. On the positive side, Threes bring hard work, optimism, energy, a desire to communicate to and connect with people, and a feeling of unlimited potential both personally and in the relationship itself. Threes can bring an enormous sense of self-confidence and the hope of success that is assured—that this relationship is a winning team or that this couple is the best ever! Common goals bring them together—they are both practical and want to achieve tangible things in the world. 
+Surprisingly, this is not a common pairing, although these two types can work very well as a team. On the positive side, Threes bring hard work, optimism, energy, a desire to communicate to and connect with people, and a feeling of unlimited potential both personally and in the relationship itself. Threes can bring an enormous sense of self-confidence and the hope of success that is assured—that this relationship is a winning team or that this couple is the best ever! Common goals bring them together—they are both practical and want to achieve tangible things in the world.
 
 ### What I am Working on
 

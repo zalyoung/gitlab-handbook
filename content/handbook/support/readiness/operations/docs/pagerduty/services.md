@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/pagerduty/services"
 ## What are Pagerduty services
 
 As per
-[Pagerduty](https://support.pagerduty.com/docs/services-and-integrations):
+[Pagerduty](https://support.pagerduty.com/main/docs/services-and-integrations):
 
 > A technical service reflects a discrete piece of functionality that is wholly
 > owned by one team. One or more technical services combine to deliver
@@ -56,6 +56,19 @@ on-call in Slack.
 - Integrated Slack Channels
   - #spt_on-call
   - #spt_pod_dedicated
+
+#### Incident Management - GitLab Dedicated for US Gov CMOC
+
+- [Service link](https://gitlab.pagerduty.com/service-directory/PQRVHA8)
+- Escalation policy: Incident Management - GitLab Dedicated for US Gov CMOC
+- Integrations
+  - N/A
+- Extensions and Add-Ons
+  - Slack V2
+- Integrated Slack Channels
+  - #spt_on-call
+  - #spt_pod_dedicated
+  - #spt_us-government
 
 #### Support Managers
 

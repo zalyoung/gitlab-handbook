@@ -15,19 +15,27 @@ A relocation that results in no change in compensation can be approved by the te
 
 ### Importance of Communicating Location
 
-All Team Members are required to request an approval to relocate prior to moving. The consequences of not communicating to the appropriate group could result in [underperformance]({{< ref "underperformance" >}}) management action or loss of employment, depending on the circumstances.
+All Team Members are required to request an approval to relocate prior to moving. Moving to a new location is an exciting adventure, and at GitLab, we want to encourage team members to utilize the flexibility that our relocation policy offers. However, there are multiple aspects to consider including eligibility, possible impact on compensation (including equity and benefit eligibility) and the impact on your role at GitLab. The consequences of not communicating to the appropriate group could result in disciplinary action up to and including termination, depending on the circumstances. Having team members working outside of their contractual location poses potential tax liability for both GitLab and the team member. For this reason, it is important to communicate transparently and promptly with your manager and with the People Team.
 
-Generally, team members may live or work outside their permanent residence for an aggregate amount of 183 days (6 months) per year.  However, the amount does depend on the particular country (or state) and what it considers to be a "resident" for tax purposes, as well as what it considers the tax year.  If you are not sure about the aggregate amount allowed by the country or state where you are visiting, you should check with your personal tax advisor. If you believe you or a team member you manage is at risk of exceeding (or has already exceeded) the aggregate amount of 183 days (6 months) (or less in certain countries), you must contact the People Connect Team **immediately**.
+**Team members must reside in their primary location for at least 183 days (consecutive or not) within a calendar year**. Team members may live or work outside their permanent location, as specified in Workday, for a maximum total of 183 days (approximately 6 months) per calendar year. GitLab is responsible for reporting and remitting taxes based on the location where a team member performs their work (i.e., earned income) and ensuring employment compliance based on each team member’s work location. This means that at least half of the time worked must be from the primary location.  Please be aware that spending extended time in another country or state may have tax implications. Team members are encouraged to consult their personal tax advisor to understand the tax rules applicable in each location. If you believe you may exceed (or has already exceeded) the 183 days limit (or a lower threshold in certain countries), contact the People Connect Team **immediately**.  Managers are responsible for ensuring that team members are abiding by the requirement to be in their primary location for the required amount of time and reporting when someone has or is about to exceed the limit.
 
-Having team members for 6 months or more working outside of their contractual location poses potential tax liability for both GitLab and the team member. For this reason, it is important to communicate transparently and promptly with the People Team.
+Additionally, certain roles require team members to be present in the location for which they were hired to support business activities.  Sales, for example, may require travel to customer sites and for the team member to be available for customers within a specific time zone.  All Team members are required to obtain manager approval to work outside of their primary location regardless of the length of time at that location. Managers can deny a request or ask for a team member to change their request due to the impact on business results. A team member who fails to communicate and/or seek approval to work outside of their primary location could also result in underperformance management action or loss of employment, depending on the circumstances. Long-term relocations (greater than 183 days/6 months stay) must follow the application and approval process [outlined below](/handbook/people-group/relocation/#how-to-apply-for-a-long-term-relocation).
 
-Additionally, certain roles require team members to be present in the location for which they were hired to support business activities.  Sales, for example, may require travel to customers and be available for customers within a specific time.  Team members must seek manager approval to work outside of their home location regardless of the length of time at that location. Managers can deny a relocation request or ask for a team member to change their request due to the impact on business results. If a team member fails to communicate and seek approval to work outside of their hired location could also result in underperformance management action or loss of employment, depending on the circumstances. Long-term relocations must follow the application and approval process outlined below (/handbook/people-group/relocation/#how-to-apply-for-a-long-term-relocation).
+### Digital Nomads
+
+Team Members who want to leverage the flexibility of technology to work remotely while traveling to different locations may do so while adhering to the guidelines of the [long term relocation](/handbook/people-group/relocation/#long-term-relocation-definition) process. Digital Nomad team members are permitted to reside and work from any country [with considerations](/handbook/people-group/relocation/#considerations-for-short-term-travel) for a maximum of 183 days (approximately 6 months) without having to complete a long term relocation request. Remember that team members must still reside in their primary location for at least 183 days per year.  Balancing flexibility with legal, tax, and compliance requirements is key in maintaining a proper employment solution at GitLab.
+
+Digital nomads’ presence in a location for an extended period could risk classification of a “permanent establishment” for GitLab in that country. GitLab may be required to comply with tax liabilities or to formally register to operate business in that location.
+
+Team members are responsible for understanding the tax and legal requirements to work while on a digital nomad visa including costs associated with obtaining a visa. Digital nomad visas are typically granted with the understanding that you will work only for foreign employers.  If we have an established entity, travel to such locations under the nomad visa may be prohibited. Some countries may also require digital nomads to report their earnings or register their presence.
+
+Working in a new location for more than 183 days will qualify as a long term relocation and your compensation and employment agreement will be updated to reflect the new location which can impact your ability to maintain the digital nomad visa work authorization.  Any time spent in temporary locations for 183 days or less (short term relocation) will not result in any change to compensation or employment agreements based on the new location.
 
 ### Short-Term Stay Definition
 
-If you are not changing your permanent location (where you maintain permanent residency), but instead are traveling to different locations over a period of time, you are responsible for maintaining your health insurance, visas, and any other item directly relating to your travel.
+If you are not changing your permanent location (where you maintain permanent residency), but instead are traveling to different locations over a period of time, you are responsible for maintaining your health insurance, visas, and any other item directly relating to your travel. Consider discussing your travel plans with your medical providers so that you can be aware of the resouces available to you, should you need them.
 
-Since any short-term stay is your decision and not required by GitLab as part of your role, you will not be eligible to use the [Business Accident Travel Policy]({{< ref "general-and-entity-benefits#business-travel-accident-policy" >}}) or submit any expenses related to your travel. If you are hired in a role requiring a time zone alignment, you must still be able to fulfill that requirement.
+Since any short-term stay is your decision and not required by GitLab as part of your role, you will not be eligible to use the [Business Accident Travel Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#business-travel-accident-policy) or submit any expenses related to your travel. If you are hired in a role requiring a time zone alignment, you must still be able to fulfill that requirement.
 
 If your short-term stay is for less than 6 months in a new location, there should be no need to update your address in Workday.
 
@@ -52,7 +60,7 @@ A long-term relocation means that you will establish yourself in a new location.
 It is at the company's discretion to determine whether it can approve the relocation:
 
 - Some job positions require GitLab team members to be located in particular countries, locations, regions, or time zones.  For example, a salesperson hired to serve a specific region may need to stay in that region, or an engineer hired to respond to customer requests in a specific region/country.
-- GitLab only allows relocations to countries in which we already have a formed entity that carries no hiring restrictions. Review our [Country hiring guidelines]({{< ref "employment-solutions#country-hiring-guidelines" >}}) to see if the country is eligible for a relocation.
+- GitLab only allows relocations to countries in which we already have a formed entity that carries no hiring restrictions. Review our [Country hiring guidelines](/handbook/people-group/employment-solutions/#country-hiring-guidelines) to see if the country is eligible for a relocation.
 - GitLab cannot accept relocation requests to a location where there might be the possibility of the formation of a new entity until it is formally established, open for hiring, and the business objectives are fully understood.
 - You can only work in countries where you can establish eligibility to work in the country without visa sponsorship provided by GitLab.
 - Relocations can also result in an adjustment to compensation, including equity eligibility, based on the location and the location factor. Depending on the location factor and the benefits offered in the particular country, the adjustment will result in an increase or a decrease to the compensation package. The Company retains discretion to determine whether it can support the relocation due to the required adjustment.
@@ -61,33 +69,33 @@ At the onset, this practice may seem harsh when moving to a lower-paid location.
 
 Now, let's say the company did have a site in your new location and they offered the flexibility to transfer. If they did not have a similar position open, you would have to either apply for a different open position in the same company or resign and apply externally (back to the realization that other companies will pay at a locally competitive rate). If you were lucky enough that they did have a similar role in the new location, a transfer would come with a pay rate based on the local market to ensure equity across all incumbents (people in the job) by location.
 
-Adjusting [pay according to the local market in all cases]({{< ref "compensation" >}}) is fair to everyone. We can't remain consistent if we make exceptions to the policy and allow someone to earn more than locally competitive rates for the same work others in that region are performing (or will be hired to do). Being fair to all team members is not negotiable. It is a value we stand behind and take very seriously.
+Adjusting [pay according to the local market in all cases](/handbook/total-rewards/compensation/) is fair to everyone. We can't remain consistent if we make exceptions to the policy and allow someone to earn more than locally competitive rates for the same work others in that region are performing (or will be hired to do). Being fair to all team members is not negotiable. It is a value we stand behind and take very seriously.
 
 #### Considerations and Eligibility
 
-**GitLab retains discretion at all times whether it can accommodate you to continue your role in the new location based on the requirements of your role and the potential impact on the business.  In some instances a move will not align to your proposed location, (e.g. a recruiter hired in EMEA to support EMEA would not be approved to move to the US), and in other instances the company may not be able to support a relocation in the proposed location. Second, in almost all situations the compensation, including equity eligibility, can change. During the relocation process, you will learn how your compensation may be impacted and be able to make an informed decision.  Any increases in compensation will need to go through an [approval process](/handbook/people-group/relocation/#approvals-phase).  This allows the business to validate budget availability early in the process. If you have a unique situation, please submit a [Relocation Evaluation](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=45f7278647533d1067429ee0026d432d) request via HelpLab to the People Connect team.**
+**GitLab retains discretion at all times whether it can accommodate you to continue your role in the new location based on the requirements of your role and the potential impact on the business.  In some instances a move will not align to your proposed location, (e.g. a recruiter hired in EMEA to support EMEA would not be approved to move to the US), and in other instances the company may not be able to support a relocation in the proposed location. Second, in almost all situations the compensation, including equity eligibility, can change. During the relocation process, you will learn how your compensation may be impacted and be able to make an informed decision.  Any increases in compensation will need to go through an [approval process](/handbook/people-group/relocation/#approvals-phase).  This allows the business to validate budget availability early in the process. If you like to understand how a relocation would impact you please submit a [Relocation Evaluation](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=45f7278647533d1067429ee0026d432d) request via HelpLab to the People Connect team.**
 
-1. If you are considering applying for a long-term relocation to a new country, the first consideration is to ensure that GitLab has an [entity]({{< ref "employment-solutions#gitlab-entities-and-branches" >}}) in the country to which you would like to move.  We currently only support relocations to GitLab Entities that are open for hiring and do not have hiring restrictions or headcount caps.  This is in alignment with our [Country hiring guidelines]({{< ref "employment-solutions#country-hiring-guidelines" >}}).
-1. Consider any changes to [benefits]({{< ref "general-and-entity-benefits" >}}) as benefits can vary by country.
+1. If you are considering applying for a long-term relocation to a new country, the first consideration is to ensure that GitLab has an [entity](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) in the country to which you would like to move.  We currently only support relocations to GitLab Entities that are open for hiring and do not have hiring restrictions or headcount caps.  This is in alignment with our [Country hiring guidelines](/handbook/people-group/employment-solutions/#country-hiring-guidelines).
+1. Consider any changes to [benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) as benefits can vary by country.
 1. You must have the appropriate right to work documentation/visa requirements in the country that you are considering relocating to.
 
-- Please note, at this moment GitLab only sponsors [relocations to the Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) and doesn't cover relocation costs for the team member's family members also looking to relocate.
+- Please note, at this moment GitLab only sponsors [relocations to the Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) and doesn't cover relocation costs for the team member's family members also looking to relocate.
 
 1. You must have satisfied the required one year tenure to be eligible for relocation.
 
 #### Eligibility to Work
 
-If you are interested in a long-term relocation (defined above), you need to confirm that you would be eligible to work in that location. [Except for the Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}), GitLab does not provide any form of sponsorship or immigration aid for team members who choose to move to new countries. For more information, please refer to our [Visa page]({{< ref "visas" >}}). GitLab cannot assist or facilitate a process to help you become eligible to work in a location if you do not already have that eligibility. You are of course free to apply and gain that eligibility if there are steps you can take that do not involve GitLab.  Once you are certain that you are eligible to work in your requested location country, you will need to provide proof of eligibility by [uploading the proof in the Documents tab of your Workday profile](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit). If you move before establishing eligibility to work, but then cannot establish eligibility to work in the new location within the first six months of residency, it may affect your ability to continue your role with GitLab.
+If you are interested in a long-term relocation (defined above), you need to confirm that you would be eligible to work in that location. [Except for the Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands), GitLab does not provide any form of sponsorship or immigration aid for team members who choose to move to new countries. For more information, please refer to our [Visa page](/handbook/people-group/visas/). GitLab cannot assist or facilitate a process to help you become eligible to work in a location if you do not already have that eligibility. You are of course free to apply and gain that eligibility if there are steps you can take that do not involve GitLab.  Once you are certain that you are eligible to work in your requested location country, you will need to provide proof of eligibility by [uploading the proof in the Documents tab of your Workday profile](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit). If you move before establishing eligibility to work, but then cannot establish eligibility to work in the new location within the first six months of residency, it may affect your ability to continue your role with GitLab.
 
 ## How To Apply for a Long-Term Relocation
 
 ### Team Member
 
-1. Review the [Country hiring guidelines]({{< ref "employment-solutions#country-hiring-guidelines" >}}) to see if we can support your relocation.
+1. Review the [Country hiring guidelines](/handbook/people-group/employment-solutions/#country-hiring-guidelines) to see if we can support your relocation.
   *If you are moving to a different country, please start this process no later than **3 months** prior to your ideal relocation date.  If your relocation is within the same country, please start the process no later than 30 days before your ideal relocation date.*
-1. If you are moving to a different country, upload eligibility documentation to Workday -  Per the [Eligibility to Work]({{< ref "relocation#eligibility-to-work" >}}) section above.
+1. If you are moving to a different country, upload eligibility documentation to Workday -  Per the [Eligibility to Work](/handbook/people-group/relocation/#eligibility-to-work) section above.
 1. Complete the [Relocation Request Form](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=3537489247173d1067429ee0026d43b7) via [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#accessing-helplab) to submit the initial request to start the process.  Upon completion, the form is sent automatically to People Connect who will review the details of your move and will work with the proper leaders and approvers to determine if the relocation can be approved (based on any budgetary and job duty impacts).  Your manager will review if your role can be performed adequately in the new location without negatively impacting stakeholders or customers.  Some positions require GitLab team members to be located in particular countries, locations, regions, or time zones and will not be eligible for relocation.  People Connect will work with your manager on the final decision.  Your manager will communicate the decision and the impact on your compensation so that you can make an informed final decision as to your move.  Your assigned People Business Partner will also be informed of your request to relocate.
-1. Start preparing and avoid a delay in your pay or change to your relocation effective date by ensuring you have all required work documentation prior to your relocation. The onus is on the team member to research these requirements in advance as GitLab doesn't provide immigration support, except for the [Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}). Please take into account processing times for visa and other required appointments in the relocating country needed in order to receive a tax number, bank account, etc.
+1. Start preparing and avoid a delay in your pay or change to your relocation effective date by ensuring you have all required work documentation prior to your relocation. The onus is on the team member to research these requirements in advance as GitLab doesn't provide immigration support, except for the [Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands). Please take into account processing times for visa and other required appointments in the relocating country needed in order to receive a tax number, bank account, etc.
 
 Note: Assuming your relocation is approved, any applicable changes in compensation will not be effective until your move date (or the date you start working in the new location), which will be listed as the effective date on your new contract. **We will not be able to process retroactive dated relocations. Please only use future dates when applying for your relocation.**
 
@@ -107,7 +115,9 @@ If the country and the location factor don't change, no change in compensation i
 
    - [Location Eligibility](https://comp-calculator.gitlab.net/hiring_status/index) Check the [Compensation calculator, country hiring status](https://comp-calculator.gitlab.net/hiring_status/index) to confirm that the country is currently an entity country open to further hiring.  These are the only countries where team members can relocate.
    - [Work Eligibility](#eligibility-to-work)
-   - The relocation date is future dated and allows enough time for the process. For sales personnel with a variable change, the effective date should always be the 1st of the month.
+   - The relocation date is future dated and allows enough time for the process to be finalized.
+   - Relocations from one country to a new country: once you have determined an appropriate month for your relocation we will request that the relocation effective date reflects either the 1st or 16th of the month to help avoid any complications with local taxes or absence accrual policies.
+   - For sales personnel with a variable change, the effective date should always be the 1st of the month.
    - Reason for relocation is provided
    - Team member has confirmed whether or not they require employer sponsored visa for relocation
    - The team member has satisfied the required one year tenure to be eligible for relocation
@@ -116,7 +126,7 @@ If the country and the location factor don't change, no change in compensation i
 
    - If the relocation request within the same country does not result in a change in compensation, no further approvals are required and The People Connect team will [inform the manager of the relocation](https://docs.google.com/document/d/1Zq_sxT3ASsnLeTNFJV3-HE5aG3ebv_JXMzhW1zXcEQI/edit)
    - If the country and/or the location factor changes, the compensation will be adjusted based on the location factor change.  For example, if a team member currently resides in a location with a location factor of .70 and the move results in the team member landing in a location with a location factor of .75, the compensation recommendation will be to increase the salary to position the team member's salary to an equal position in the new range (compa-ratio).  If the team member currently resides in a location with a location factor of .80 and the move results in landing in a location with a location factor of .70, the compensation recommendation will be to decrease the salary to position the team member's salary in an equal position in the new range. If the compensation range of the team member's role isn't available in our [compensation calculators](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit?usp=sharing), the People Connect Team member reaches out to Total Rewards to discuss the new compensation.
-   - If the relocation meets all requirements for a compensation change, the People Connect Team will [determine relocation salary](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit#gid=341502022) using the same compa ratio as the previous location (if applicable) and [rounding best practice]({{< ref "compensation-calculator#rounding-best-practice" >}}) method. Ensure that the new salary is within the comp range per the [Compensation Calculator](https://gitlab.okta.com/home/bookmark/0oa87j8ow7KXpsUy1357/2557)
+   - If the relocation meets all requirements for a compensation change, the People Connect Team will [determine relocation salary](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit#gid=341502022) using the same compa ratio as the previous location (if applicable) and [rounding best practice](/handbook/total-rewards/compensation/compensation-calculator/#rounding-best-practice) method. Ensure that the new salary is within the comp range per the [Compensation Calculator](https://gitlab.okta.com/home/bookmark/0oa87j8ow7KXpsUy1357/2557)
 
 1. The People Connect team will then [obtain approvals](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.46wc4xqdjyi7) for the relocation request and add the applicable [PBP of the division](/handbook/people-group#people-business-partner-alignment-to-division) in copy. Considerations in addition to budget availability include business criticality of the role, ability to perform the role from the proposed new location, and demonstrated performance by the team member. Any increase in location factor equal to or greater than .20 will require [VP approval](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.46wc4xqdjyi7) and following that [E-Group member approval](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.1m16plpt2yam) BEFORE [manager approval](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.638wcz4rf9gd) due to the possible significant impact on compensation with a copy to the Division Director and VP to add context and transparency for E-Group member consideration.
 1. The People Connect Team member will update the [Relocation Tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit?ts=5e7a2c42#gid=972787144) with the details of the relocation
@@ -143,7 +153,7 @@ The contract phase is unique based upon the team member's relocation. The differ
     - Make a copy of the [Relocation letter](https://docs.google.com/document/d/18V9Qqlaetft8XMXLMPgbTFtZAGgoa7uiuN01-W38c6k/edit) and save it to the [working documents folder](https://drive.google.com/drive/folders/0B4eFM43gu7VPNUlKZEFtNGtSRk0?resourcekey=0-_qX_2OXbs71yJa3HZy0TAQ&usp=sharing).
     - Enter all applicable information based on the relocation request approval email and the team member's Workday profile
 1. Once the Relocation letter has been created, ping the People Connect Team for auditing.
-1. Stage the letter in DocuSign and send for signature to the [applicable signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and the team member
+1. Stage the letter in DocuSign and send for signature to the [applicable signatory](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) and the team member
 1. Upload the signed document to the team member's `Contracts & Changes` folder in Workday.
 1. Update the [Relocation Tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit?ts=5e7a2c42#gid=972787144) with the details of this relocation.
 1. The People Connect Team member makes any necessary updates to the team member's Workday profile by following these Job Aids:
@@ -168,12 +178,11 @@ The contract phase is unique based upon the team member's relocation. The differ
         - The classification wording that should be added to the template (including information on where the wording should be placed on both the English & French sides)
     - No stock options are given through relocation, so that line can be removed
     - [Probation Period](contracts-probation-periods/#probation-period): If a team member has continued service with GitLab (tenure with GitLab has been uninterrupted) and they have already passed the probationary period of their original location or contract, they do not need to go through the probation period of their new location or contract.
-    - A list of all signatories can be found [here](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories).
+    - A list of all signatories can be found [here](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories).
 1. If applicable:
     - A [Mutual Termination Agreement](https://docs.google.com/document/d/1MJCWQupiqfU7rUk99qowHuxd64OPIHKfD05gLlfs7K8/edit) is needed, if the team member is relocating from IT BV.
     - A [Side letter Relocation - Transfer from one entity to another](https://docs.google.com/document/d/1UesnGAH1y0MMgWU37RRX2DuSP14mDLff/edit) is needed if the team member is relocating from one entity to another.
-    - Please note that a wet signature is necessary if the team member is relocating from GitLab GmbH (Germany).
-    - Inform the current PEO of the relocation effective date. See People Connect 1password vault for contact details. A resignation email (within notice period) from the team member to their current PEO is also required, if the team member is relocating away from a location with [PEO Employment]({{< ref "employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch" >}}).
+    - Inform the current PEO of the relocation effective date. See People Connect 1password vault for contact details. A resignation email (within notice period) from the team member to their current PEO is also required, if the team member is relocating away from a location with [PEO Employment](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch).
 1. Ping a People Connect Team member for auditing in the `#connect-ops-team` private slack channel.
 1. Stage the contract in DocuSign and send for signature first to the GitLab signatory and subsequently to the team member.
       - In the event that the team member requests any changes to the contract, once approved and updated, send an email to the team member with the breakdown of the applicable changes once the contract has been sent for signature via DocuSign.
@@ -192,7 +201,7 @@ The contract phase is unique based upon the team member's relocation. The differ
 ##### Tasks for Team Members - Relocation Approved
 
 Once your relocation has been approved and the contract has been signed, a [relocation issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/relocations.md) will get opened and assigned to you by the People Connect Team. Please ensure you complete any tasks by the due date to ensure a smooth onboarding and to have everything ready for your first payroll in the new country.
-If you are relocating away from a location with PEO Employment, you must give notice to the PEO directly within the notice period. Most [notice periods]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) are usually 30 days, but you must review your own contract, as it will be specified there.
+If you are relocating away from a location with PEO Employment, you must give notice to the PEO directly within the notice period. Most [notice periods](/handbook/people-group/contracts-probation-periods/#probation-period) are usually 30 days, but you must review your own contract, as it will be specified there.
 
 ### Country Specific Tasks
 
@@ -202,6 +211,7 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 1. Run the [Add Employee integration](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
 1. [Place team member in the appropriate benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) in Workday on the effective date
+1. While creating the contract, please remove the summary page as it is not needed for relocating team members.
 
 ##### Relocating **From** The United States
 
@@ -239,37 +249,39 @@ Our PEO in India can only process terminations on working days (typically Monday
 
 ##### Relocating **to** Germany
 
+These are the steps our People Connect team uses to send contracts to team members relocating to, or moving from Germany.
+
+1. From 1 January 2025, certain employee documents in Germany can be issued via DocuSign and will no longer require a wet ink signature. An employment contract for a team member relocating to Germany can be issued through DocuSign.
 1. Review current [onboarding tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/country_germany.md) for Germany and ensure necessary paperwork is filled out.
 
 ##### Relocating **from** Germany
 
 - Relocation Contract and Mutual Termination Agreement Process for Germany
 
-These are the steps our People Connect team uses to send contracts to team members relocating to, or moving from Germany. Please note all German documents require a wet signature.
+The requirement for a wet ink signature in Germany, although removed for certain employment documents, will still apply to termination documents in order for them to be valid. If a team member is relocating *from* Germany resignation letter or a Mutual Termination Agreement (MTA) must be wet ink signed by an authorised signatory for the German entity.   
 
-Once the contract or Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to the German counsel to have them physically sign and mail them.
+Once a Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to an authorised signatory for the German entity to have them physically sign and mail the documents. 
 
 1. Stage the documents for signature in DocuSign. This document will be sent to the Signatory first and then to the team member.
 
    - Once signed, save the file into the team members Workday profile.
 
-1. Email an unsigned pdf of the document to both the German counsel as well as the team member.
+1. Reach out to legal, employment for support with selecting a signatory and starting the process for having the documents physically signed and mailed by both the signatory and the team member.
 
-   - Open the saved unsigned contract, remove GitLab signatory from the below fields:
+   - Open the saved unsigned contract, confirm the GitLab signatory (once decided) is in the  required places:
      1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field
         blank.
      1. **Scroll down to the end of the contract** - replace Signatory's name with "GitLab Signatory". Save
         the contract as a PDF format.
-   - In the body of the email, you will need to explain the below steps for the process.
-      - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com & Team member's GitLab email address
+   - In the body of an email, you will need to explain the below steps for the process.
+      - **To (recipients)**-  Designated GitLab signatory & Team member's GitLab email address
       - **Subject line**  : Please Send Physical Contract for "Name of the team member"
       - **Attachment** : attach the unsigned PDF contract
-        1. The German counsel will need to print two copies of the document. They will need to sign both of the copies, and then mail them to the team member. Please include the address and phone number of the team member in the email.
-        1. Once the team member receives the documents in the mail, they will keep one copy and then will need to sign and send the other copy to our German Counsel. The address for our German Counsel is listed in the PeopleOps 1password vault. Please include this address in the email.
+        1. The Designated GitLab signatory will need to print two copies of the document. They will need to sign both of the copies, and then mail them to the team member. Please include the address and phone number of the team member in the email.
+        1. Once the team member receives the documents in the mail, they will keep one copy and then will need to sign and send the other copy to the signatory or to the address requested. Please include the return mailing address in the email.
    - The postage fees can be submitted for reimbursement. Please also include that information in the email.
-   - It is also best practice to recommend in the email that the German counsel confirm that they have mailed the document.
-
-1. Once the German Legal Counsel receives the documents to put them in our archive, they will also send a scanned copy of the signed documents to the People Connect team. This document will need to be saved in the team member's Workday profile.
+   - It is also best practice to recommend in the email that both parties confirm that they have mailed the document.
+   - Once the designated signatory receives the signed documents (signed by both parties), they should also send a scanned copy of the signed documents to the People Connect team - please also include that request in the email. This document will need to be saved in the team member's Workday profile.
 
 #### Canada
 
@@ -280,14 +292,27 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
     - Start Date: *add effective date of relocation*
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"
     - Add this sentence to the section above 1. Position: "Your continuity of service for all employment purposes begins on the *add original hire date: YYYY-MM-DD*"
-1. The People Connect Team member sets a reminder to update the PTO policy in BambooHR on the effective date of the relocation. The new PTO policy should start without a previous balance, adjust the balance if required. Click on +/- by hovering over the 'Employee Accruals' in the top left. Add or subtract the amount of days to 0 it out. Add a note: "Adjustment due to Relocation from COUNTRY to COUNTRY"
+
+#### Spain
+
+##### Relocating **to** Spain
+
+1. *Before* choosing a template or creating a contract, the People Connect Lead should reach out to legal-employment@gitlab.com with the details of the role the relocating team member has for support with classification of the role under the applicable CBA. The clasification will determine the choice of template used for creating a contract.
+1. If the relocating team member does not yet have an address or NIE in Spain, legal, employment can provide a separate template for use (once the role has been classified).
 
 #### South Korea, France or Singapore
 
 ##### Relocating **to** South Korea, France or Singapore
 
 1. The People Connect Lead shares the relocation contract with gitlabHRSS@globalupside.com. Global Upside then sends an Egnyte (payroll platform) login invitation email to the relocating team member. If they are relocating to France an invite to Mihi will also be sent.
-1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#process-for-gitlab-team-members-in-singapore-south-korea-or-france)
+1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/coordinator/#process-for-gitlab-team-members-in-south-korea-or-france)
+
+1. If a team member relocating to France is an expatriate who has not been a French tax resident for the 5 calendar years before the calendar year during which they relocate, and they wish to assess their eligibility for the impatriate tax regime, they must let People Connect know three months in advance that they will be undertaking the assessment. The People Connect team can reach out to legal-employment@gitlab.com for support with appropriate contract language once the relocating team member confirms their eligibility. *Note that eligibility is a complex tax matter and the relocating team member should check with their personal tax advisor.*
+
+##### Relocating **from** France
+
+1. The relocating team member needs to resign from GitLab France S.A.S. with a notice date effective one day before the start date of their new contract. Please email the resignation letter to legal-employment@gitlab.com and also [upload the resignation letter to your Workday profile](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit?tab=t.0). This is required to process your exit in France while you are simultaneously onboarded in the new country.
+1. Once the resignation letter has been emailed to legal-employment@gitlab.com and uploaded to Workday, the People Connect team member will share [this letter](https://docs.google.com/document/d/1wgbt9vK4w-aQEgjDzdOs94t9XOZuiJmPWj6BvlSl7rY/edit?usp=sharing) with the team member relocating away from France for e-signature via DocuSign as soon as possible (and at least within 7 days) in order to waive the balance of the notice period and address any additional matters. Once signed, the People Connect team member will uplaod the letter to the team member's 'Contracts & Changes' Workday folder.
 
 ## Reporting for Relocations
 

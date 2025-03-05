@@ -168,7 +168,7 @@ Strong analytical, problem-solving, and strategic-thinking skills with a forward
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Career Ladder
@@ -179,7 +179,7 @@ The next step in the Corporate Controller job family is to move to a senior lead
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Qualified candidates will then be invited to interview with 2 - 4 team members
 - Qualified candidates may be invited for a final executive interview
 

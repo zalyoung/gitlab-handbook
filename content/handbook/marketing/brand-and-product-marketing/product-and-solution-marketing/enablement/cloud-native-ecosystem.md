@@ -81,8 +81,8 @@ Reach out consistently and loop in the peers from time to time. Responsiveness i
 
 - [SRE Weekly](https://sreweekly.com/)
 - [Monitoring Weekly](https://monitoring.love/)
-- [Heavybit Newsletter](https://www.heavybit.com/subscribe/)
-- [CNCF](https://www.cncf.io/newsroom/newsletter/)
+- [Heavybit Newsletter](https://www.heavybit.com/devtoolsdigest)
+- [CNCF](https://www.cncf.io/about/contact/#newsletter)
 
 ### Individuals to follow
 

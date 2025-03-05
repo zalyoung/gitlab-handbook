@@ -48,7 +48,7 @@ Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_
 
 #### IT General Controls
 
-[IT General Controls](/handbook/business-technology/it-compliance/ITGC.html)
+[IT General Controls](/handbook/business-technology/it-compliance/ITGC/)
 
 **Most Common:**
 
@@ -69,8 +69,8 @@ The most common ITGCs:
 
 #### Business Continuity Plan
 
-IT Compliance works closely with our Security Compliance team to ensure that GitLab's [Business Continuity Plan](/handbook/business-technology/gitlab-business-continuity-plan/) is up to date.  In the future, we will look to expand or capabilities to further ensure we are doing more in the area of BCP and resiliency to ensure we are meeting all requirements.
+IT Compliance works closely with our Security Compliance team to ensure that GitLab's [Business Continuity Plan](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) is up to date.  In the future, we will look to expand or capabilities to further ensure we are doing more in the area of BCP and resiliency to ensure we are meeting all requirements.
 
 #### Business Technology Change Management
 
-IT Compliance works closely with our internal business partners for all Enterprise Application [Change Management](/handbook/business-technology/change-management/). More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.
+IT Compliance works closely with our internal business partners for all Enterprise Application [Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/). More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.

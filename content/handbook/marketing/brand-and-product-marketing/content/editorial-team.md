@@ -6,7 +6,7 @@ description: "This handbook page describes the styling, punctuation, spelling, a
 ## Related pages
 
 - [Blog handbook](/handbook/marketing/blog/)
-- [Brand guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
+- [Brand guidelines](https://design.gitlab.com/brand-overview/resources/)
 
 ## Why use the blog style guide?
 
@@ -66,7 +66,7 @@ defined first (but use sparingly, see [Tone of Voice](https://design.gitlab.com/
 
 ## American English vs. British English
 
-We use American English by default. Please consult [this list of](https://en.oxforddictionaries.com/spelling/british-and-spelling)
+We use American English by default. Please consult [this list of](https://www.dictionary.com/e/british-english-vs-american-english/)
 spelling differences.
 
 ## Ampersands
@@ -211,7 +211,7 @@ For blog posts, prefer referring to interviewees by their first names as this is
 
 ## Voice
 
-We prefer that writers use active voice instead of passive voice in blog posts. *Voice* describes whether the subject of a sentence receives or performs the action of a verb. Learn more about tone of voice in this [blog post by Grammarly](https://www.grammarly.com/blog/active-vs-passive-voice/).
+We prefer that writers use active voice instead of passive voice in blog posts. *Voice* describes whether the subject of a sentence receives or performs the action of a verb. Learn more about tone of voice in this [blog post by Grammarly](https://www.grammarly.com/blog/sentences/active-vs-passive-voice/).
 
 > Example: "The GitLab community submitted 1 million merge requests in March 2019." (active) vs. "One million merge requests were submitted by the GitLab community in March 2019." (passive)
 
@@ -257,6 +257,8 @@ How to spell and style commonly used words.
 - GitHub
 - GitLab
   - G and L are always capitalized, even in GitLab.com
+- GitLab Self-Managed
+  - Not self-managed GitLab, GitLab self-managed, or GitLab Self-managed
 - internet
   - not capitalized
 - Kubernetes

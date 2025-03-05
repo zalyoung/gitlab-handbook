@@ -11,7 +11,7 @@ By maintaining this page, we aim to establish more transparency into our workflo
 ## Automated applications workflow overview
 
 Community Programs applications workflows have been automated since FY23Q3.
-The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/shoppers/aboutsheerid/), to assist in processing applications to community programs.
+The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/), to assist in processing applications to community programs.
 
 The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/) with a seven-stage workflow:
 
@@ -145,7 +145,7 @@ To do this, they use the same application forms they used when initially enrolli
 
 The success email will contain a direct link to a program-specific page for each program (Education/Open Source) in the GitLab Customers Portal.
 The program-specific pages are not available directly in the GitLab Customers Portal without the direct link.
-See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/community-programs/) for direct links to these portals.
+See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/community-programs/) for direct links to these portals.
 
 As they did when initially applying for the program, applicants enter their unique coupon codes during the checkout process.
 
@@ -156,7 +156,7 @@ Each step of the automated application workflow has different set of potential e
 |Phase|Source|Error|DRI|Action|
 |-----|------|-----|---|------|
 | Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
-| Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
+| Verification | SheerID Application| False Rejection OSS | [Open Source Service Desk](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
 | Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|

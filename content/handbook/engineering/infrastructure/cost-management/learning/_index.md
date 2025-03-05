@@ -95,4 +95,4 @@ This could also be called a "product", the two are interchangeable, and this can
 
 ## Resource Links
 
-- [MultiCloud Service Comparison](http://comparecloud.in/)
+- [MultiCloud Service Comparison](https://comparecloud.in/)

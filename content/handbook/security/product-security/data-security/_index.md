@@ -9,7 +9,7 @@ GitLab's Data Security team is responsible for investigating and remediating iss
 
 The Data Security Team's remit includes (but isn't sharply limited to):
 
-* Data stored out of compliance with our [data classification standard](/handbook/security/data-classification-standard/) or our associated [infrastructure standards](handbook/company/infrastructure-standards/)
+* Data stored out of compliance with our [data classification standard](/handbook/security/data-classification-standard/) or our associated [infrastructure standards](/handbook/company/infrastructure-standards/)
 * Secrets and encryption keys stored outside [KMS](https://en.wikipedia.org/wiki/Key_management#Key_management_system) or [HSM](https://en.wikipedia.org/wiki/Hardware_security_module) systems
 * Copies of RED data outside official production systems
 * Excessive permission grants in production systems that give the power to a single person to `rm -rf gitlab.com` (or similar)

@@ -108,7 +108,7 @@ NOTE: these people generally do not carry pagers and are only likely available d
 
 Use the [product sections](/handbook/product/categories/) handbook page to determine whom to contact.
 
-- [Get attention from Gitaly team](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#how-to-contact-the-team): issues related to Git and Git repositories, Gitaly Cluster, including data recovery.
+- [Get attention from Gitaly team](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#how-to-contact-the-team): issues related to Git and Git repositories, Gitaly Cluster, including data recovery.
 - [Get attention from Fulfillment team](/handbook/engineering/development/fulfillment/#escalation-process-for-incidents-or-outages): issues related to CustomersDot (customers.gitlab.com).
 
 ### First response time SLOs
@@ -338,7 +338,7 @@ For those eligible engineers, everyone is encouraged to explore options that wor
    1. Please create an OOO event in Workday and choose **On-Call Time in Lieu**.
 1. Other alternatives that promote work-life balance and have the least impact to your personal schedule.
 
-With the above alternatives we want to make sure we comply with local labor laws and not surpass the restricted weekly working hours (ranging from 38 to 60 hours) and offer enough rest time for the engineers who sign up on weekend on-call shifts.
+It is important to abide by local labor laws and you are encouraged to understand if there are restrictions around your working time. The purpose of this information is to encourage you to take time off according to your schedule to account for the interruption to your weekend.
 
 If you prefer to work on a preferred weekend day please proactively sign up for shifts to avoid auto-assignment. Team members who have signed up for the fewest shifts are auto-assigned open shifts first.
 
@@ -447,8 +447,8 @@ These are the recommended settings. Your mileage may vary.
    1. Check "Bounce Slack's icon when receiving a notification".
 1. Use your preference for the other settings. The "Channel-specific notifications" are particularly helpful to mute noisy channels that you don't need to be interrupted for.
 
-![screenshot of slack notification settings](notifications-slack-1.png)
-![screenshot of slack notification settings](notifications-slack-2.png)
+![screenshot of slack notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-slack-1.png)
+![screenshot of slack notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-slack-2.png)
 
 #### macOS Notifications
 
@@ -459,7 +459,7 @@ These are the recommended settings. Your mileage may vary.
 1. Enable "Play sound for notifications", particularly if you chose "Banners" above.
 1. Use your preference for the other settings.
 
-![screenshot of macOS notification settings](notifications-macos.png)
+![screenshot of macOS notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-macos.png)
 
 #### iOS Notifications
 
@@ -470,4 +470,4 @@ These are the recommended settings. Your mileage may vary.
 1. Enable "Sounds".
 1. Use your preference for the other settings.
 
-![screenshot of iOS notification settings](notifications-ios.png)
+![screenshot of iOS notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-ios.png)

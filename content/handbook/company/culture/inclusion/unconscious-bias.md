@@ -22,7 +22,7 @@ Everyone has unconscious biases, the goal is to bring them to our consciousness 
 
 ### Unconscious Biases to look out for (in ourselves and in others)
 
-- **[Affinity Bias](https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958#targetText=Affinity%20bias%20is%20the%20unconscious,differences%20when%20diversity%20is%20present.)**: Biased towards people "who make me comfortable"; Biased against people "who make me uncomfortable".
+- **[Affinity Bias](https://web.archive.org/web/20201025085556/https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958)**: Biased towards people "who make me comfortable"; Biased against people "who make me uncomfortable".
 - **[Affective Heuristic Bias](https://en.wikipedia.org/wiki/Affect_heuristic)**: Immediate emotional judgement influenced by superficial traits such as race, gender, age, or names.
 - **Ageism Bias**: The tendency to have adverse feelings/perception about another person based on age.
 - **Authority Bias**: The tendency to attribute greater knowledge to persons in positions of authority than they may actually possess.
@@ -35,14 +35,12 @@ Everyone has unconscious biases, the goal is to bring them to our consciousness 
 - **[Horn Effect](https://en.wikipedia.org/wiki/Horn_effect)**: Opposite of **Halo Effect**. Form of bias that causes one's perception of another to be overly influenced by one or more negative traits. **Example:**  Someone who has failed the project is always like that and incapable of improving.
 - **[Name Bias](https://metro.co.uk/2019/09/17/unconscious-name-bias-damaging-10757825/)**: Form of bias which favors a person based on their name and the perceived origin of their name.
 
-For further reading: Wikipedia has [a comprehensive list of cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) that influence us.
-
 ### Can I test it?
 
 Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one's conscious values. Therefore it would be good to have an instrument to detect and fight it.
 The tool that achieved most popularity both in scientific circles and public is the [implicit-association test (IAT)](https://implicit.harvard.edu/implicit/), which is a collaborative research effort between researchers at Harvard University, the University of Virginia, and University of Washington. It is meant to reveal the strength of one's mental association between certain groups of people and certain traits. It is used to investigate biases in racial groups, gender, sexuality, age, and religion, as well as assessing self-esteem.
 
-Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism/), IAT can jumpstart our thinking about hidden biases:
+IAT can jump start our thinking about hidden biases:
 
 - Where do they come from?
 - How do they influence our actions?
@@ -75,31 +73,3 @@ The [SPACE2 Model of Inclusion](https://drive.google.com/file/d/1TZ_bkpjtUjzZGip
 
 - As an application reviewer or interviewer, if you find yourself biased positively or negatively, excuse yourself and ask someone else to review or interview that applicant. Being positively or negatively biased towards one candidate is unfair to all candidates.
 - Data driven decision making. Rely on pre-defined measurable data points to reduce unconscious bias influences
-
-## Recognizing Bias Training
-
-On 2020-06-24 we held three Live Learning sessions to cover how to recognize bias. This recording is from the second session and includes content as well as a Q&A portion. The content in the video below follows along with this [slide deck](https://docs.google.com/presentation/d/1xl8beGDfymEfSDyuMcDAJlmvIlTRR06ECfF7UmjFrf8/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1yrNA9JMBkJRRa1DXtC4TxKbZAQELjBU-E6TYwwfv9Hw/edit?usp=sharing). We also used Mentimeter during the sessions to ask the attendees questions. GitLab team members can view the [Mentimeter results](https://docs.google.com/spreadsheets/d/1qTpLBNdH8FvuVYPuK5WD7DnuK1xwbZEKS7h3ILtcVQo/edit?usp=sharing).
-
-{{< youtube "nlkvRuafwYY" >}}
-
-<figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQKUZMuPXCYChjokOQlcOrAtKx2inQiwF6Xp-vMzMIyx6tYPLTQVyCzoN6LtGGMI0R0NtvGPyalhDJU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</figure>
-
-## Resources
-
-### Inner resources
-
-- [Ongoing discussion](https://gitlab.com/gitlab-com/diversity-and-inclusion/issues/27)
-- [This MVC is based on Ashley Sullivan's comment here](https://gitlab.com/gitlab-com/people-ops/General/issues/379#note_208972342)
-- [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
-
-### External resources
-
-- [Teaching Tolerance](https://www.tolerance.org/professional-development/test-yourself-for-hidden-bias)
-- [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/resources/unconscious-bias)
-- [The Guardian: Unconscious bias: what is it and can it be eliminated?](https://www.theguardian.com/uk-news/2018/dec/02/unconscious-bias-what-is-it-and-can-it-be-eliminated)
-- [Wikipedia: IAT](https://en.wikipedia.org/wiki/Implicit-association_test)
-- [The world is relying on a flawed psychological test to fight racism](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism/)
-- [How to reduce unconscious bias at work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
-- [Affinity bias](https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958#targetText=Affinity%20bias%20is%20the%20unconscious,differences%20when%20diversity%20is%20present.)

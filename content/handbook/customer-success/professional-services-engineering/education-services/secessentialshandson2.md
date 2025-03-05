@@ -17,7 +17,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, or https://ilt.gitlabtraining.cloud if you are in Instructor-Lead Training, and the project should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL, and the project should appear in your history.
 
 2. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, the DAST scanner takes some time to run, so, to disable the DAST scanner configured in Lab 1, make these edits to your existing `.gitlab-ci.yml`.
 
@@ -40,7 +40,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
         SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
-    > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLE=true` and `SECRET_DETECTION_DISABLE=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
+    > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLED=true` and `SECRET_DETECTION_DISABLED=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
     >
     > It is important to leave at least one job active in your `.gitlab-ci.yml` file. If there are no jobs defined in the pipeline, it will fail to run.
 
@@ -129,9 +129,9 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. Navigate to **Secure > Vulnerability Report**.
 
-1. In the **Tool** filter, click **Dependency Scanning**. Notice any security vulnerabilities Dependency Scanning found in the requirements file.
+1. In the **Activity** filter, change the option to **Tool**, then select the option under **Dependency Scanning**. Notice any security vulnerabilities Dependency Scanning found in the requirements file.
 
-1. There is a single vulnerability in the project dependencies, with a description of **Unintended leak of Proxy-Authorization header in requests**. Click the description.
+1. View the vulnerability with a description of **Unintended leak of Proxy-Authorization header in requests**. Click the description.
 
 1. On the description page, you will see a description of the vulnerability, including the impact of the vulnerability. You will additionally see information about the patch and workaround for the vulnerability.
 

@@ -112,6 +112,7 @@ Each user has 1,000 monthly credits to use for prospecting. A credit is consumed
 ### Field Mappings
 
 All current field mappings are documented [here](https://docs.google.com/spreadsheets/d/1lZ2BgNER_OYR5jjYDHreCMRbpODQbprUpGKVRD5TMnY/edit#gid=504148174).
+
 Custom fields start with [ZI] and will be visible in the Zoominfo section in SFDC. Example name: `[ZI] Company Phone`. All [ZI] fields are set to be able to overwrite the field should new data be available on a lead, contact, or account. The only information mapped to standard fields are fields needed for basic lead, contact, or account creations. Example: `First Name`, `Last Name`, and `Email Address`.
 
 ### SFDC Native Integration
@@ -145,18 +146,6 @@ To do this, follow the steps below:
 - Create Lead List Views & Contact List Views and filter using the operational field;
 - Create & Schedule Zoominfo enrichment jobs for both leads & contacts and select enrichment via the list views created at the previous step.
 
-### Outreach Integration (Will be Deprecated Soon & Replaced with the Groove Integration)
-
-The ZoomInfo Outreach integration is now live and you may export contacts directly to Outreach. Any contacts you do export, will also be exported in SFDC. They will be initially missing some ZI information in SFDC but there will be an append job that will run automatically to update any missing information.
-
- There are some limitations in place:
-
-- There is a 100 contact export limit in place.
-- We do not allow for new accounts/account updates from ZoomInfo into Outreach.
-- Please do not upload any contact without an email address into Outreach- if you do, the prospect will not sync into SFDC and any activities you do on the prospect will not be recorded in SFDC.
-
-Any prospects created without email address will be found and deleted in the Outreach database management we will run monthly. To avoid uploading contacts with no email addresses, please use the ZoomInfo filtering available.
-
 ### Groove Integration
 
 The Zoominfo Groove Integration is live and you may export leads directly using it. The records, once exported as leads, will be created in SFDC and added to the selected Groove flows.
@@ -177,25 +166,33 @@ Marketo/ZoomInfo webhook is triggered, on form-fill, when the person record fill
 1. Filled out a Self-managed Trials form;
 1. Filled out Contact Us form.
 
-Enrich is mostly set to enrich the ZoomInfo fields. The ZoomInfo ([ZI]) fields, will have their values overwritten with the most up to date information. The other standard fileds like `Employees Bucket` or other Marketo standard fields like (First Name, Last Name, Job Title) are getting enriched only if the information is missing.
+Enrich is mostly set to enrich the ZoomInfo fields. The ZoomInfo ([ZI]) fields, will have their values overwritten with the most up to date information. The other standard fields like `Employees Bucket` or other Marketo standard fields like (First Name, Last Name, Job Title) are getting enriched only if the information is missing.
+
+### Zoominfo Tagging
+
+When you're importing leads from ZoomInfo, you can now use Zoominfo Tag to tag your leads in SFDC. If you tag and import records into SFDC, that tag will sync to the SFDC field called `Groove tag`. This field can be used for other tagging purposes as well.
+
+When using the Zoominfo tag, please type `ZI` at the front of the tag so that ZoomInfo can be easy delineated from other tags. So if someone was tagging a set of people in ZoomInfo based on a certain play, I'd want them to write`ZI Premium to Ultimate` or if they want to use a certain date `ZI 11-4-24`.
+
+You'll want to create a lead view that has a rule to show you leads in your name (My Unconverted Leads ) and a Groove Tag contains rule based on your tag name. From here the view should surface your leads so you can add folks to a flow.
+
+Keep in mind that you'll have to tag the records before you export. The tagging can take place in either Zoominfo Sales OS or through the Zoominfo Chrome Extension (expanded version). Applying multiple tags to one record is also possible.
+
+`Reminder:` Sometimes when you import folks into SFDC, the person already exists in our SFDC as a contact, not a lead. Zoominfo will enrich the individual that already exists in our SFDC and tag will apply on it. To surface these individuals, you'll need to use an identically make a contacts list view.
 
 ### Is your Google Chrome stalling?
 
 This may be related to the Zoominfo Google Chrome extension. To troubleshoot the issue that you are encountering, we recommend following the steps outlined below:
 
 1. Remove & reinstall the extension:
-   - [Click here to find the extension in the Chrome store](https://app.forethought.ai/redirect/v2?destination=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzoominfo-reachout-b2b-con%2Ffofjcndophjadilglgimelemjkjblgpf%3Fhl%3Den-US&tracking_token=DxzK1zOdmUHVEiYQxvkjLVG1TtSLBShpOeRFe-cFY8RDNz3tY-gBNtMtkSSy5G-KIAEXTgLO5Esba7yh6-TKslzG2ko_j_q2_5qmxntCv0jIW0iIyb40qIufYGLdW43n8o2-bojTMbTmmrpa8CQe5E4BnVTNwych5SPOC5FC1oGI_wz5kzi6z-h8VLSZqHzs-gTi_MAMGg2R8QfebtRQZpRgImLVM2Fm4LoI1cHnvXkxQ16MJ5YBu5Musbp5_3GlYOa3FbvMeWHf5D_SBzdKag%3D%3D)
+   - [Click here to find the extension in the Chrome store](https://chromewebstore.google.com/detail/zoominfo-chrome-extension/fofjcndophjadilglgimelemjkjblgpf?hl=en-US)
 
 1. Ensure your Chrome browser is up to date:
-
    - Select the three dots in the top right-hand corner of your Chrome browser > choose "Settings". From the Settings page, select "About Chrome" in the bottom left of the page
-
    - You will see at the top of the page if Google Chrome is up to date or updating
-
    - Allow time for the browser to update if necessary and re-launch your browser when prompted
 
 1. Allow all cookies in your browser settings:
-
     - Select the three dots in the top right-hand corner of your Chrome browser > choose "Settings"
     - From the Settings page, select "Privacy and Security" > then "Third-party cookies" > then "Allow third-party cookies"
 

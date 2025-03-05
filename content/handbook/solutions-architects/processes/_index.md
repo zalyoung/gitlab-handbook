@@ -2,6 +2,12 @@
 title: Solutions Architects Processes
 ---
 
+## SA Opportunity Hygiene
+
+This Section of the handbood describes all the processes Solutions Architects are either responsible for or are involved in, several of which require an updates and tracking in Sales Force, GitLab's record of accounts and opportunities.
+
+To increase the SA's efficiency, a checklist of all [SA's Opportunity updates](/handbook/solutions-architects/processes/sa-opportunity-hygiene.md) has been created, to assist the SA, in keeping track their opportunity responsbiliies on a weekly basis.
+
 ## SA Process Maps
 
 The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map. This provides a single location to find reusable artifacts, enablement, and tooling.
@@ -60,7 +66,7 @@ Customer Success Planning core goal is to identify and state:
 
 To summarize, there are three additional fields in the Customer Success Plan section, on the Opportunity level in SFDC, that should be maintained through the process:
 
-![Customer Success Plan Opportunity Fields](Customer-Success-Plan-SFDC.png)
+![Customer Success Plan Opportunity Fields](/images/solutions-architects/processes/Customer-Success-Plan-SFDC.png)
 
 1. Customer Success Plan: field for the URL to the plan
 1. CSM Ready: Check if the plan is/can be handed over to the CSM
@@ -84,18 +90,18 @@ Simplified process description:
 - If it a standard (non-customized) service from our [full catalog](https://about.gitlab.com/services/catalog/).
   - SAE / AE to order PS directly from Zuora in SFDC.
 - If standard services do not meet the needs of the customer
-  - Use the [Services Calculator](http://services-calculator.gitlab.io/) to generate an issue and a draft quote.
+  - Use the [Services Calculator](https://services-calculator.gitlab.io/) to generate an issue and a draft quote.
   - Iterate on that issue with PS and SAE / AE.
 
 ## Customer Security Assurance
 
-Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 handbook page.
 
 **Optional** Considerations when engaging the Customer Assurance team:
 
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
-- Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+- Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 - SAs can attempt a first-pass for all security questionnaires if time permits
   - Do it, it's fun and educational!
   - You can also make use of the [GitLab's Trust Center](https://trust.gitlab.com/)
@@ -212,7 +218,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
@@ -221,7 +227,7 @@ SA's may also work in tandem with a CSM to support existing customers, especiall
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
-Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
+Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers-or-architects)
 
 #### Technical Discovery and Demo Preparation
 
@@ -311,7 +317,7 @@ The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously 
 
 Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem/#engaging-an-ecosystem-solutions-architect) handbook page.
 
 ### Subject Matter Expert Engagement Model
 
@@ -325,19 +331,19 @@ A given opportunity may be found to be too complex, valuable, or risky for a sin
 
 #### Ad Hoc Support
 
-As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops. 
+As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops.
 
 #### Long-Term
 
-To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity. 
+To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity.
 
-When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another. 
+When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another.
 
 #### Tracking Secondary SA Engagement on Opportunities
 
 Ad hoc and long-term secondary SAs should log activities as if they were the primary SA supporting the account, capturing their impression of the customer interaction. The `Primary Solutions Architect` field in Salesforce would be used to designate the primary SA, and any other SAs involved in the opportunity would be derived from the logged activities.
 
-If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity. 
+If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity.
 
 ### Issue Creation Details
 

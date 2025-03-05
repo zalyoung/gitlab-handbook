@@ -5,28 +5,30 @@ description: "Security Compliance Team"
 
 ## Our objectives
 
-We support the Security division's [mission and operating principles](content/handbook/security/_index.md) by:
+We support the Security division's [mission and operating principles](/handbook/security/_index.md) by:
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
-1. Maintaining and achieving [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) that meet the needs of our customers
-1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of systems, applications, and repositories
-1. Applying compliance automation and [compliance-as-code](/handbook/security/security-compliance/policy-as-code/) guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
+1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
+1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing] ([risk-based-control-testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/)) of assets
+1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
 ## Core Competencies
 
-1. [Security certifications and attestations]({{< ref "../security-compliance/certifications" >}})
+1. [Security certifications and attestations](../security-compliance/certifications/)
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
-1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
-   - [Policy-as-code]({{< ref "../../security-assurance/security-compliance/policy-as-code" >}})
-   - Automated evidence collection and control testing
-   - [User Access Reviews]({{< ref "access-reviews" >}})
-   - [Business Continuity Plan (BCP)](/handbook/business-technology/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)]({{< ref "information-system-contingency-plan-iscp" >}}) testing
-1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}})
+1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
+   - [Policy-as-code](./policy-as-code.md)
+   - [Automated evidence collection and control testing](./automated-control-testing.md)
+   - [User Access Reviews](./access-reviews.md)
+   - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)](../../information-system-contingency-plan-iscp.md) testing
+   - [Risk-based control testing](./risk-based-control-testing.md)
+   - [PCI Internal Control Review](./pci-internal-control-review.md)
+1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
-   - Provide [remediation recommendations and guidance](content/handbook/security/security-assurance/observation-remediation-procedure.md)
+   - Provide remediation recommendations and guidance
    - Track remediation to completion
 1. Industry and Regulatory Monitoring and Insights
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
@@ -37,17 +39,17 @@ We support the Security division's [mission and operating principles](content/ha
 
 The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
 
-Much of our work related to the [FedRAMP Authorization Program](content/handbook/security/security-assurance/security-compliance/fedramp-compliance.md) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
+Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
-All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly. 
+All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly.
 
 ## How we work
 
-We use agile program management and project management best practices to organize our work with the goal of being as efficient as possible while continuously iterating towards our objectives. Security Compliance team members are encouraged to regularly bring up feedback on how we can improve the way we work and this is a standing topic in our weekly team meeting agenda. 
+We use agile program management and project management best practices to organize our work with the goal of being as efficient as possible while continuously iterating towards our objectives. Security Compliance team members are encouraged to regularly bring up feedback on how we can improve the way we work and this is a standing topic in our weekly team meeting agenda.
 
 ### Scheduled meetings
 
-We try to avoid meetings when possible and prefer to work async. However, if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However, don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions. 
+We try to avoid meetings when possible and prefer to work async. However, if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However, don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions.
 
 We have a weekly call with all of Security Compliance, which includes time for a breakout discussion specific for Dedicated Markets. In addition to that, we also have recurring calls necessary for our FedRAMP program which are necessary for contributing to the working group, and logging meeting minutes (external audit artifacts) associated with the configuration control board and compliance sync.
 
@@ -121,11 +123,11 @@ Each immediate child epic under our top-level team epic must include the followi
 ## Objective
 
 ## Exit criteria
-- [ ] 
+- [ ]
 
 /label ~"FY26-Q1" ~"seccomp-function::gap assessments"  ~"seccomp workflow::triage" ~"team::security compliance" ~"seccomp-roadmap"
 /health_status on_track
-/set_parent &289 
+/set_parent &289
 
 -----------
 <!--DO NOT EDIT BELOW THIS LINE-->
@@ -176,7 +178,7 @@ DRIs should provide weekly updates for the DRI's epics according to following pr
        - **Risk and Confidence** - Any new blockers identified or existing blockers that persist? Any other challenges now or in the near future? How do these blockers and/or challenges affect our confidence of completing by scheduled due date per the roadmap?
        - **Mitigations** -  What is required to overcome challenges or blockers identified?  Should this be escalated to other team members, teams, executives, or domain experts?
    - **Update Workflow and Health label** - After each status update, the workflow label and health status should be updated. See [Labels](#labels).
-1. **Top-Level Epic Status Update** [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) periodically synthesizes updates from the DRI's status update reply comment to automatically populate their epic with the status and the top-level team epic. 
+1. **Top-Level Epic Status Update** [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) periodically synthesizes updates from the DRI's status update reply comment to automatically populate their epic with the status and the top-level team epic.
 1. In order to ensure efficiency we will use these same status updates across any other department, division, or OKR status updates, to include broadcasts in Slack.
 
 ### Backlog refinement
@@ -253,11 +255,11 @@ The SSOT for our metrics is Tableau. Our metrics are largely collected from issu
 
 ## References
 
-- [Security Certifications]({{< ref "../security-compliance/certifications" >}})
-- [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}})
-- [GCF Security Controls]({{< ref "sec-controls" >}})
-- [User Access Reviews]({{< ref "access-reviews" >}})
-- [Observation Methodology]({{< ref "observation-management-procedure" >}})
-- [Gap Analysis Program]({{< ref "gap-analysis-program" >}})
+- [Security Certifications](../security-compliance/certifications/)
+- [GCF Security Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
+- [GCF Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
+- [User Access Reviews](/handbook/security/security-assurance/security-compliance/access-reviews/)
+- [Observation Methodology](/handbook/security/security-assurance/observation-management-procedure/)
+- [Gap Analysis Program](/handbook/security/security-assurance/security-compliance/gap-analysis-program/)
 
-<a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>
+<a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

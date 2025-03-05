@@ -9,6 +9,7 @@ description: "Learn more about the GitLab UI @vue/compat Compatibility Task Grou
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Date Created    | 2024-10-14                                                                                                                              |
 | Target End Date | 2024-12-24                                                                                                                              |
+| End Date        | 2025-02-03                                                                                                                              |
 | Slack           | [#tg_gitlab_ui_vue_compat](https://gitlab.enterprise.slack.com/archives/C07RN4H2CLV) (only accessible from within the company)          |
 
 ## Context
@@ -30,8 +31,16 @@ Since the GitLab UI library is used by various projects (GitLab, Switchboard, Ed
 - All [known issues](https://gitlab.com/groups/gitlab-org/-/epics/12386) with @vue/compat fixed, or work-arounds documented.
 - All screenshot tests passing under @vue/compat
 
+As of 2025-02-03, the above criteria have been met, so this task group is disbanded.
+
+While some [issues remain](https://gitlab.com/groups/gitlab-org/-/epics/12386),
+they are considered low priority, and/or cannot be fixed until we drop support
+for Vue 2.
+
 ## Roles and Responsibilities
 
-| Task Group Role | Person       | Title                                               |
-| --------------- | ------------ | ----------------------------------------------------|
-| DRI             | Mark Florian | Staff Frontend Engineer, Foundations::Design System |
+| Task Group Role | Person        | Title                                               |
+| --------------- | ------------- | ----------------------------------------------------|
+| DRI             | Mark Florian  | Staff Frontend Engineer, Foundations::Design System |
+| Member          | Marina Mosti  | Sr. Frontend Engineer, Switchboard                  |
+| Member          | Miguel Rincon | Staff Frontend Engineer, Verify:Runner              |

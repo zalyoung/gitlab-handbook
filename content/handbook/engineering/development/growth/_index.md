@@ -117,7 +117,7 @@ The refinement process is driven by [triage bot automations and policies](https:
 
 1. Issues are moved from `~"workflow::planning breakdown"` to `~"workflow::refinement"` automatically by the triage bot in order of priority (from top to bottom). The bot will only move issues to refinement if there is room in refinement column, meaning there is less issues than maximum limit for this column. This is first chance for PMs to prioritize issues by moving them higher in the `planning breakdown` column. After the issue is moved to refinement, a dedicated `refinement thread` is created, which acts as a place for discussion and weight estimation.
      - 💡 Hint: In rare case when an issue has to be expedited, it's possible to move it to refinement manually. This will invoke a reaction from triage bot, which will add `refinement thread` for such issue instantly so the refinement can proceed the same way as with automated path.
-2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/engineering/development/growth/index.html#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
+2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/engineering/development/growth/#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
 3. Each day the triage bot checks all issues in `~"workflow::refinement"` column and if an issue has required minimum number of estimation votes (see `MIN_REACTIONS` constant [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/lib/growth_refine_automation_helper.rb?ref_type=heads#L16) for the current setting) it will be moved to `~"workflow::scheduling"`.
     - 💡 Hint: If there is some problem with the issue and it shouldn't be moved forward even if enough engineers estimate it, ❌ reaction can be added to the thread which will stop the bot from transitioning the issue to `~"workflow::scheduling"` as long as this reaction sticks to the thread. This means that whoever put it is also responsible for removing it once the problem is gone.
 4. Once the issue is in `~"workflow::scheduling"`, it is awaiting final prioritization by PMs - it has to be manually moved to `~"workflow::ready for dev"` depending on the current priorities. This part of the process is PMs responsibility. This allows for additional fine-tuning of priorities and acts as a buffer for our ready for development column.
@@ -138,6 +138,69 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be cautious and estimate high (5).
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
+
+## Engineering DRI for Large-Scale Initiatives
+
+For substantial epics or projects that require extensive coordination, we designate an Engineering Directly Responsible Individual (DRI). This role is pivotal in managing complex workstreams within our team.
+
+The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> is typically assigned in two scenarios:
+
+1. When an epic reaches the development phase and requires detailed oversight.
+1. When an issue grows in scope and complexity, necessitating its promotion to an epic.
+
+Importantly, we appoint the <abbr title="Directly Responsible Individual">DRI</abbr> before breaking down the work into smaller, manageable tasks. This early assignment is crucial because one of the <abbr title="Directly Responsible Individual">DRI</abbr>'s primary responsibilities is to lead the planning process and facilitate the strategic breakdown of the epic or project into actionable deliverables.
+
+By having a dedicated <abbr title="Directly Responsible Individual">DRI</abbr> for these large-scale initiatives, we ensure focused leadership, clear accountability, and effective coordination throughout the development lifecycle of complex engineering efforts.
+
+### Role Responsibilities
+
+*Communicating Progress and Managing Health Status*
+
+The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> oversees weekly updates on the epic, tracking overall health status, including progress, obstacles, and emerging risks.
+
+- They continuously monitor and report on the epic's health status, indicating if it's on track, at risk, or blocked, providing context around any changes.
+- Progress updates are reported via a top-level comment on the epic containing the development work (usually linked to our OKRs).
+- Updates are due by End of Day on the <abbr title="Directly Responsible Individual">DRI</abbr>'s last workday of the week.
+
+*Facilitating Breakdown of Work*
+
+This role is crucial in breaking down epics into smaller, manageable deliverables, ensuring tasks are clearly defined and ready for development.
+
+*Ensuring Steady Progress*
+
+The responsible individual ensures work items progress smoothly through our Kanban flow, with enough work prepared for development to maintain consistent progress.
+
+*Risk Management and Mitigation*
+
+Early identification of potential risks and proactive collaboration with the team to develop mitigation strategies are key responsibilities. This enhances the role in not only communicating issues but actively managing and resolving them.
+
+*Retrospective and Continuous Improvement*
+
+Upon conclusion of each epic, a brief retrospective session should be facilitated to gather feedback on successes and areas for improvement. This practice helps refine processes and improves the handling of future epics.
+
+*Collaboration with Product and Design*
+
+Active collaboration with Product Managers and Designers during the planning phase is essential to ensure the epic's scope aligns with business goals and user experience standards.
+
+*Resource Allocation and Escalation*
+
+The appointed individual is empowered to identify when additional resources or support are needed and to escalate issues promptly. This helps ensure timelines are met and work progresses smoothly.
+
+*Note:* While responsible for timely delivery, the <abbr title="Directly Responsible Individual">DRI</abbr> is not expected to execute every task personally.
+
+### Standardized Status Update Template
+
+To ensure consistency and clarity in our communication, we've implemented a standardized comment template for status updates across the Growth team.
+
+**Template Details:**
+
+- **Name:** "Growth - DRI Status Update"
+- **Scope:** Available for the entire GitLab group
+- **Location:** [GitLab.com Comment Templates](https://gitlab.com/groups/gitlab-org/-/comment_templates/1000452)
+
+This template streamlines our reporting process, making it easier for <abbr title="Directly Responsible Individual">DRI</abbr>s to provide comprehensive and uniform updates. By using a consistent format, we enhance readability and facilitate quick information retrieval for all team members.
+
+For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
 
 ## Technical exploration ("Spike") guidelines
 

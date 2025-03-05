@@ -3,6 +3,10 @@ title: "Infrastructure and Quality department"
 description: ""
 ---
 
+## DEPRECATED
+
+This page is deprecated and will be removed in the future. Please refer to the [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/) page.
+
 ## Vision
 
 Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers' needs.
@@ -16,14 +20,14 @@ We:
 
 ## Direction
 
-Direction is set within the [Infrastructure](/handbook/engineering/infrastructure/#direction), and the [Quality](/handbook/engineering/quality/#fy23-direction) direction pages. With the ongoing consolidation of the departments, separate direction pages will become obsolete.
+Direction is set within the [Infrastructure](/handbook/engineering/infrastructure/#direction), and the Quality direction pages. With the ongoing consolidation of the departments, separate direction pages will become obsolete.
 
 ## Working with us
 
 With the consolidation of previously separate departments (Infrastructure, Quality), we are in the process of also consolidating previously separate handbook pages:
 
 - [Infrastructure](/handbook/engineering/infrastructure/)
-- [Quality](/handbook/engineering/quality/)
+- Quality
 
 We welcome contributions, and if you find an opportunity to consolidate information, please submit a Merge Request!
 
@@ -32,13 +36,13 @@ We welcome contributions, and if you find an opportunity to consolidate informat
 Two distinct groups are responsible for infrastructure at GitLab:
 
 - [**Platforms**](/handbook/engineering/infrastructure/platforms/), responsible for software delivery, scaling and operations of single and multi tenant GitLab SaaS
-- [**Reliability**](/handbook/engineering/infrastructure/team/reliability/), which operate all user-facing GitLab.com services.
+- [**Reliability**](/handbook/engineering/infrastructure/team/), which operate all user-facing GitLab.com services.
 
 To create an issue, or find how to engage with the related teams you can use the links below:
 
-- [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/new) - Follow [directions how to reach us urgently](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
+- [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/new) - Follow [directions how to reach us urgently](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team)
 - [Reliability](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new?issuable_template=default)
-  - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues.html#issue-board)
+  - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues/#issue-board)
 - [Scalability](/handbook/engineering/infrastructure/team/scalability/#working-with-us)
 - [GitLab Dedicated](/handbook/engineering/infrastructure/team/gitlab-dedicated/#working-with-us)
 
@@ -82,6 +86,7 @@ A well prepared meeting:
 The following cross-functional meetings are regularly scheduled:
 
 |**Topics**|**Meeting**|**Participants**|**Cadence**|
+| --- | --- | --- | --- |
 |Incident Review and followup|[Incident Review](https://docs.google.com/document/d/1jrX-Z2NJrNjBBcywY7emQKwaKRqVAlDRdGG0Krk76ys/) (internal only)|All Engineering|Tues|
 |SaaS Availability & Reliability work prioritization| [SaaS Availaiblity weekly standup](https://docs.google.com/document/d/1j_9P8QlvaFO-XFoZTKZQsLUpm1wA2Vyf_Y83-9lX9tg/edit#) (internal only)|All Engineering|Tues|
 |Performance Indicator Review|[Infrastructure Key Meeting](https://docs.google.com/document/d/1YYWwdu2dw-ooXXQGW3PddA0TOvwoSvVHmNN3BNoLE2U/edit) (internal only)|Eng VP Staff, Finance & Exec leadership|Monthly|
@@ -99,11 +104,11 @@ Department level view of [OKR](/handbook/company/okrs/) and scoring is on our [I
 
 Each sub-department has different guidance on OKR:
 
-- [Reliability](/handbook/engineering/infrastructure/team/reliability/#okrs)
+- [Reliability](/handbook/engineering/infrastructure/team/)
 - [Platforms](/handbook/engineering/infrastructure/platforms/#okr)
-- [Test Platform](/handbook/engineering/infrastructure/test-platform/#okrs)
+- Test Platform
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/#okrs)
-- [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/#okrs)
+- Engineering Analytics
 
 ## Key Review
 

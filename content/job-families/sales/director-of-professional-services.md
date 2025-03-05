@@ -17,60 +17,55 @@ The Professional Services Manager contributes to and executes the strategic visi
 
 ## Regional Manager, Professional Services
 
-The Regional Manager, Professional Services reports into the Director, Professional Services.
+The Regional Manager, Professional Services reports into the Director or Sr. Director, Professional Services.
 
 ### Responsibilities
 
-- Ensure the Professional Services Project Managers exceed expectations in completing projects successfully while meeting revenue targets and delivering business outcomes with a high level of customer satisfaction
-- Work with the Professional Services Director to help establish and manage goals and responsibilities for Professional Services Engineers
-- Assist in development of thought leadership, event-specific, and customer-facing presentations
-- Share hands-on technical preparation and presentation work for key accounts helping sell on the value of what GitLab professional services has to offer
-- Ensure the Professional Services Engineers exceeds corporate expectations in achieving billable utilization targets as well as core knowledge, communication, and execution
-- Define and maintain a high bar for team member expectations and enable the team to achieve it
-- Challenge the team and yourself to continually learn and grow as trusted advisors to clients
-- Monitor performance of team members and provide timely feedback and development assistance
-- Create, review, and approve formal statements of work, change requests, and proposals
-- Prepare weekly revenue forecast worksheet and create action plans to address issues
-- Manage resource assignments and staffing levels, including recruitment as needed
-- Identify and implement improvements to the processes and tools used as a seasoned with experience leading teams of project managers and consultants in support of external customers
-- Work together with our engagement management team to propose, scope, and price professional services Statements of Work, including managing a PS sales overlay team
-- Bring the Professional Services team together with Account teams and Partners to plan and execute internal projects, ensure that teams have appropriate training and manage resources to deliver GitLab service offerings
-- Provide leadership and guidance to coach, motivate and lead services team members to their optimum performance levels and career development
-- Ensure delivery model is focused on quality, cost effective delivery of services, and customer success outcomes
-- Remains knowledgeable and up-to-date on GitLab product releases
-- Document services provided to customers, including new code, techniques, and processes, in such a way as to make such services more efficient in the future and to add to the GitLab community
-- Work with the Product Engineering and Support teams to contribute documentation and/or code for GitLab
-- Help build programs that the TAMs and PSEs will execute to effectively grow our enterprise customers
+- Lead and develop Professional Services teams (including Project Managers, Engineers, and partner resources) to exceed expectations in project delivery, revenue targets, and customer satisfaction
+- Establish and maintain GitLab project delivery standards, methodologies, and tools across internal and partner teams to ensure consistent, high-quality delivery
+- Manage resource assignments, capacity planning, and utilization across internal and partner teams, including recruitment and partner resource integration
+- Create, review, and approve statements of work, change requests, and proposals while maintaining forecast accuracy and revenue predictability
+- Drive technical excellence through staying current with GitLab products, contributing to documentation/code, and supporting the broader GitLab community
+- Build and maintain strong relationships with Account teams and Partners to plan and execute projects, ensuring appropriate training and resource allocation
+- Monitor project health, resolve escalations, and maintain communication channels between clients, internal teams, and partner leadership
+- Develop and execute partner onboarding processes, including training on GitLab policies, procedures, and product offerings
+- Provide leadership, coaching, and career development to help team members reach their optimal performance levels
+- Contribute to thought leadership and customer-facing presentations while serving as a trusted advisor to clients
 
 ### Requirements
 
-The Manager, Professional Services role, requires a high level of technical depth as this role will need to understand and participate with the day-to-day aspects of the Professional Services Engineer and Technical Architect roles in addition to managing the team. Additional requirements include:
-
-- Experienced in and with advanced insight to the GitLab platform
-- Experienced in giving and received positive and constructive feedback
-- Able to adapt to environmental change and retrospecting on success and failures
-- Previous leadership experience is a plus
-- Experienced in collaborating with other managers and executing strategies
-- Proven track record in software/technology sales or consulting and management
+- Strong technical depth with advanced insight into the GitLab platform
+- Track record of managing complex, multi-stakeholder projects and partner relationships
+- Deep understanding of DevOps industry services and technology
 - Demonstrated ability to think strategically about business, products, and technical challenges
+- Experience in software/technology sales or consulting management
+- Project Management Professional (PMP) Certification preferred
 
 ## Senior Regional Manager, Professional Services
 
-The Senior Manager, Professional Services reports into the Director, Professional Services.
+The Senior Regional Manager, Professional Services reports to the Director or Sr. Director, Professional Services.
 
 ### Responsibilities
 
-- Extends that of the Manager, Professional Services responsibilities
-- Lead delivery of consulting, education and implementation services to our customers, overseeing resource management, project delivery and operational success metrics.
-- Be accountable for services financial goals and metrics, including revenue, gross margin and utilization.
-- Own operational metrics, such as time-to-value, customer satisfaction and on-time completion of projects.
+- Own all Regional Manager responsibilities while providing strategic leadership across a larger scope or geography
+- Lead delivery of consulting, education, and implementation services, overseeing resource management and operational success metrics across both internal and partner teams
+- Develop and execute partner delivery strategy, including establishing performance metrics, success criteria, and scalable delivery frameworks
+- Drive accountability for services financial goals including revenue, gross margin, and utilization across internal and partner delivery teams
+- Own operational metrics such as time-to-value, customer satisfaction, and on-time completion of projects
+- Build and scale professional services programs that enable enterprise customer growth through both direct and partner delivery
+- Lead strategic initiatives to enhance overall delivery capabilities and efficiency across the professional services organization
+- Establish and maintain strategic relationships with key partners and enterprise customers
+- Create and implement standardized processes for performance evaluation and continuous improvement
+- Drive innovation in service offerings and delivery methodologies to meet evolving customer needs
 
 ### Requirements
 
-- Extends that of the Manager, Professional Services requirements
-- Demonstrated progressive experience managing, leading and/or delivering professional services or customer success
-- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
-- Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
+- All Regional Manager requirements plus:
+- Demonstrated progressive experience managing, leading, and scaling professional services organizations
+- Proven track record of building and managing successful partner delivery programs
+- Advanced experience in partner relationship management and program development
+- Experience managing technical, cross-functional professional services teams and delivery partners at scale
+- Demonstrated success with subscription-based business models, delivering both on-premises and SaaS solutions
 
 ## Director of Professional Services
 
@@ -170,4 +165,4 @@ A Senior Director of Professional Services (Delivery) is responsible for oversee
 
 ## Career Ladder
 
-The next steps for the Manager, Professional Services Job Family would be to move into the [VP, Customer Success](/job-families/sales/vp-of-customer-success/) Job Family.
+The next steps for the Manager, Professional Services Job Family would be to move into the [VP, Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success) Job Family.

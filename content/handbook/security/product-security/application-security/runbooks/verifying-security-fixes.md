@@ -38,16 +38,17 @@ to spin up a docker image in their local environment.
 
 For that, Security Engineers need to follow these steps:
 
-1. On the security merge request, click on the `qa` stage and then trigger the `package-and-qa` build.
-1. Internally the `package-and-qa` build will trigger a pipeline on the [Omnibus GitLab Mirror] project.
+1. On the security merge request, click on the `qa` stage and then trigger the `e2e:test-on-omnibus` build.
+   - If the QA Stage docker build is not present, label the MR with `~"pipeline:run-all-e2e"` to initiate the pipeline in the QA stage that will generate the docker image. Be sure to kick off a new pipeline. For more info see [this handbook page](https://docs.gitlab.com/omnibus/build/team_member_docs.html#test-a-gitlab-orggitlab-project-merge-request).
+1. Internally the `e2e:test-on-omnibus` build will trigger a pipeline on the [Omnibus GitLab Mirror] project.
 1. On the [Omnibus GitLab Mirror](https://gitlab.com/gitlab-org/build/omnibus-gitlab-mirror/) pipeline, wait for the `Trigger:gitlab-docker` build to finish.
 1. In the meantime,
     - Ensure you're logged in to `registry.gitlab.com`. You can login with your pre-configured Docker credentials,
       or with a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) or a [Deploy Token](https://docs.gitlab.com/ee/user/project/deploy_tokens/) using the command `docker login registry.gitlab.com` (or `nerdctl login registry.gitlab.com -u <username>` depending on what you're using).
-    - Complete the [Set up volumes location](https://docs.gitlab.com/ee/install/docker.html#set-up-the-volumes-location) on the Omnibus
+    - Complete the [Set up volumes location](https://docs.gitlab.com/ee/install/docker/index.html#set-up-the-volumes-location) on the Omnibus
 1. Once `Trigger:gitlab-docker` has been completed, scroll down to the end of the log
 and find the docker image that was pushed to `registry.gitlab.com`.
-1. To start the docker image on your local environment, follow the [documentation](https://docs.gitlab.com/ee/install/docker.html) and replace the `gitlab/gitlab-ee:latest` image with the one from the previous step.
+1. To start the docker image on your local environment, follow the [documentation](https://docs.gitlab.com/ee/install/docker/index.html) and replace the `gitlab/gitlab-ee:latest` image with the one from the previous step.
 1. Wait for the installation to be completed, and after that, you'll be able to access the local instance
 by going to `0.0.0.0:80` in your browser.
 

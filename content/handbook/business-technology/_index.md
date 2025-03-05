@@ -6,7 +6,7 @@ title: "IT Enterprise Applications"
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-The **IT Enterprise Applications** oversees the business technology architecture and systems that power GitLab as a business entity. We ensure that the systems are fit-for-purpose, available, reliable, integrated and secure. 
+The **IT Enterprise Applications** oversees the business technology architecture and systems that power GitLab as a business entity. We ensure that the systems are fit-for-purpose, available, reliable, integrated and secure.
 We continue to build business aligned technology to run operations, layering integration and automations to support remote work, enhance team member and customer experience, and generate value.
 
 ### <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Vision
@@ -27,7 +27,7 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Functional Structure
 
-| [IT PMO](../business-technology/pmo/) | [Architecture, Integrations & Automation](../business-technology/enterprise-applications/integrations/) | [G&A Systems](../business-technology/enterprise-applications/finance-ops/) & [CRM Systems](../business-technology/enterprise-applications/entapps-crm/) | [Services & Operations](../business-technology/enterprise-applications/entapps-services/) |
+| [IT PMO](../business-technology/enterprise-applications/pmo/) | [Architecture, Integrations & Automation](../business-technology/enterprise-applications/integrations/) | [G&A Systems](../business-technology/enterprise-applications/finance-ops/) & [CRM Systems](../business-technology/enterprise-applications/entapps-crm/) | [Services & Operations](../business-technology/enterprise-applications/entapps-services/) |
 | ------ | ------ | ------ | ------ |
 | <li> IT Strategy & Planning</li> <li>AOP & Budget Management</li><li>Portfolio & Project Management</li><li>Business Analysis</li> | <li> Enterprise & Applications Architecture</li> <li>Integrations | <li>Application Management</li><li>GTM, L2C, ERP, HCM</li> <li>Application Engineering</li><li>Systems Administration</li><li>Data & Application Reporting | <li>Global Support Services</li><li> RPA and AI Operations</li><li>Vendor Management</li><li>IT Compliance & Governance (SOX & Security Compliance) |
 
@@ -74,13 +74,13 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
          - Release Management
          - Change Management
          - Internal Major Incident Management
-         - Business Systems Analysis: Research and evaluate existing and emerging technologies to understand where new systems can be used to achieve organizational objectives and plan for how the organization will utilize systems for its gain in the near- and far-term future. 
+         - Business Systems Analysis: Research and evaluate existing and emerging technologies to understand where new systems can be used to achieve organizational objectives and plan for how the organization will utilize systems for its gain in the near- and far-term future.
     - Procurement and Technology Acquisition
-         - Vendor & Contract Management 
+         - Vendor & Contract Management
          - New Technology Evaluations: Evaluate, negotiate and purchase technology. Set criteria for when, others within the organization can purchase, implement and deploy technology
     - Digital Transformation: The adoption of digital technologies to innovate and reimplement existing business, talent, and operating models to drive growth, business value, and improved customer experience.
 
-4. **Services We Support: Finance Systems Service Desk**    
+4. **Services We Support: Finance Systems Service Desk**
     - New SKU Request
          - Open a [New SKU issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the CM: Add_New_SKU template or CM: Add_New_PS_SKU for a Professional Services SKU.
     - Retire SKU Request
@@ -114,5 +114,5 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
         - #[business-technology](https://gitlab.slack.com/archives/C01BLS12V37)
 
 8. **Other References**
-    - [Quote to Cash Documentation](../business-technology/enterprise-applications/quote-to-cash/)
+    - [Quote to Cash Documentation](../business-technology/enterprise-applications/entapps-crm/quote-to-cash/)
     - [Enterprise Application Guides:](../business-technology/enterprise-applications/guides/) GitLab's Enterprise Application Guides for Finance Systems

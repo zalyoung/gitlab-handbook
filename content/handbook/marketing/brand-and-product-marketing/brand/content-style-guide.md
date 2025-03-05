@@ -184,7 +184,7 @@ We use American English by default on the GitLab blog and marketing site. Please
 
 #### Voice
 
-Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb.
+Generally, use [active voice](https://www.grammarly.com/blog/sentences/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb.
 
 > ✅ The GitLab community submitted 1 million merge requests in March 2019
 >

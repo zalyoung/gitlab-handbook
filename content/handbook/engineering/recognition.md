@@ -50,6 +50,7 @@ In total, 14 team members from across the Engineering organization will be recog
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
 1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps enviornment for everyone
+1. **Hiring Efficiency Award** - awarded to individuals who made a significant contribution to hiring efforts
 
 #### Engineering Excellence
 
@@ -167,6 +168,26 @@ These are the past award winners. The quarter indicated is the quarter the award
 | FY25-Q3 | Customer Results | Customer Kudos | Sam Bernal-Damasco|
 | FY25-Q3 | Customer Results | Performance and Scalability | **Not Awarded**|
 | FY25-Q3 | Customer Results | Contribution to Sales or Renewal | Fabian Zimmer |
+
+### FY25-Q4
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q4 | Efficiency | Best Design Proposal | Andy Knight |
+| FY25-Q4 | Efficiency | Cost Savings | Gosia Ksionek |
+| FY25-Q4 | Efficiency | Software Efficiency | **Not Awarded** |
+| FY25-Q4 | Efficiency | Proactive Avoidance | Rob Hunt |
+| FY25-Q4 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q4 | Efficiency | Hiring Efficiency | Eduardo Bonet |
+| FY25-Q4 | Excellence | Engineering Excellence | **Not Awarded** |
+| FY25-Q4 | Excellence | Excellence Under Pressure | Andrew Newdigate |
+| FY25-Q4 | Excellence | Testing Excellence | Andrejs Cunskis |
+| FY25-Q4 | Excellence | Most Impactful MR or Doc Update | Veronica Mondo |
+| FY25-Q4 | Excellence | Everyone-can-contribute | **Not Awarded** |
+| FY25-Q4 | Customer Results | Customer Centered Individual | Michael Kozono |
+| FY25-Q4 | Customer Results | Customer Kudos | **Not Awarded** |
+| FY25-Q4 | Customer Results | Performance and Scalability | Jarka Košanová|
+| FY25-Q4 | Customer Results | Contribution to Sales or Renewal | **Not Awarded** |
 
 ---
 

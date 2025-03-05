@@ -3,9 +3,11 @@ title: "GitLab CI/CD - Hands-On Lab: Configure a Pipeline to Build an Applicatio
 description: "This Hands-On Guide walks you through building a basic pipeline for an application"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
-In this lab, you will explore the process of creating a build process for an application. 
+In this lab, you will explore the process of creating a build process for an application.
 
 ## Task A. Creating a Project
 
@@ -19,8 +21,8 @@ In this lab, you will explore the process of creating a build process for an app
 
 1. Leave all other options as default and select **Create project**.
 
- > For this project, we are going to set up `main.go` so that it simply runs. Later, we will extend the functionality of the application to show more complex features of the CI/CD process. 
- 
+ > For this project, we are going to set up `main.go` so that it simply runs. Later, we will extend the functionality of the application to show more complex features of the CI/CD process.
+
 ## Task B. Setup Go Files
 
 1. In your project, select **+ > New file**.
@@ -92,7 +94,7 @@ You will write all of your pipeline jobs in the `.gitlab-ci.yml file`. To start,
 
 ## Task D. View the Build
 
-1. After committing your code, your pipeline will immediately start. To view the pipeline, navigate to **Build > Pipelines**. 
+1. After committing your code, your pipeline will immediately start. To view the pipeline, navigate to **Build > Pipelines**.
 
     Here, you will see a summary of all of your project pipelines. Each pipeline shows the following details:
     - The status of the pipeline
@@ -100,15 +102,16 @@ You will write all of your pipeline jobs in the `.gitlab-ci.yml file`. To start,
     - Who created the pipeline
     - A breakdown of pipeline status by stage
 
-1. To view more details about the pipeline, select the **Status** of the pipeline. In this UI, you will see a graph of the pipeline, showing each stage, and the jobs associated with the stage. 
+1. To view more details about the pipeline, select the **Status** of the pipeline. In this UI, you will see a graph of the pipeline, showing each stage, and the jobs associated with the stage.
 
-1. Select your **build go** job. 
+1. Select your **build go** job.
 
 > On this screen, you will see details about your job, including all of the commands run during your job execution. On the right, you will see the duration of the job, when the job finished, how long the job was queued, the runner that completed the job, the commit that triggered the job, and further pipeline details related to the job.
 
 Let’s explore each of these in detail. To start, navigate to your job:
 
 1. Select **Build > Jobs**.
+
 1. Select your *build go* job.
 
 Let’s walk through the job log to better understand each job stage. The first thing you will see is something like this:
@@ -149,11 +152,11 @@ After doing this, all of your code will be available on the runner. One importan
 - You can access and use any files in your Git repository
 - You can commit changes back to your repository if you make any during your job process
 
-**Optional Task**
+**Optional Task:**
 Want to see this in action? Add the `ls` command to your job scripts. This will list the current directory, showing you all the files that were cloned to the runner.
 
 ```yaml
-defaults:
+default:
   image: golang
 
 stages:
@@ -166,8 +169,8 @@ build go:
     - go build
 ```
 
-**Executing your Scripts**
-After the environment is set up and your repository is cloned, your job scripts will run. 
+**Executing your Scripts:**
+After the environment is set up and your repository is cloned, your job scripts will run.
 
 ```bash
 Executing "step_script" stage of the job script
@@ -209,7 +212,7 @@ run go:
     - ./array
 ```
 
-In this set of jobs, we end up building the go application twice. It would be easier to just build the application once and pass it between jobs. 
+In this set of jobs, we end up building the go application twice. It would be easier to just build the application once and pass it between jobs.
 
 1. To do this, we can define an artifact for the app binary from the first job by adding the following code:
 
@@ -233,7 +236,7 @@ build go:
 
 When this job runs, `go build` will build a new binary named `array`. The path property of artifacts tells GitLab to save the array file. Now, all future jobs will download the array binary and use it in their execution.
 
-With this setup, we no longer need to run a `go build` command in the `run go` job, we can just run the binary, since it was downloaded from the previous job. 
+With this setup, we no longer need to run a `go build` command in the `run go` job, we can just run the binary, since it was downloaded from the previous job.
 
 To test this:
 
@@ -279,4 +282,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

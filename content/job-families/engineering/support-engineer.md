@@ -70,7 +70,7 @@ When you're not tackling difficult customer challenges, you'll have a lot of fre
 
 ## Requirements
 
-You should [apply](https://boards.greenhouse.io/gitlab) if:
+You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 
 ### You've got the personality
 
@@ -122,7 +122,6 @@ For Support Engineers who are nearing or at Senior Level
 - Partner with CSM (where allocated) in scheduled review calls to discuss ticket priorities and progression
 - Coordinate with internal teams as necessary to drive decreased time to resolution
 - Coordinate with customer to enable successful upgrades
-- Participation in CMOC/CEOC rotations remains unchanged and is expected
 
 #### What is it like to be an ASE?
 
@@ -225,7 +224,7 @@ Support Engineers have the following job-family Performance Indicators.
 - [Customer satisfaction with Support](/handbook/support/performance-indicators/#support-satisfaction-ssat)
 - [Maintain at least average monthly tickets](/handbook/support/performance-indicators/#average-daily-tickets-closed-per-support-team-member)
 - [Service Level Agreement](/handbook/support/performance-indicators/#service-level-agreement-sla)
-- [Ticket deflection through documentation updates](/handbook/support/workflows/how-to-respond-to-tickets.html#improving-the-customer-experience-through-ticket-deflection)
+- [Ticket deflection through documentation updates](/handbook/support/workflows/how-to-respond-to-tickets/#improving-the-customer-experience-through-ticket-deflection)
 
 ## Hiring Process
 

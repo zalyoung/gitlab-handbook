@@ -16,7 +16,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | **Where to Begin** | **Field Enablement Resources** | **Sales Processes & Standard Operating Procedures** | **Sales Meetings & Events** |
 | ------ | ------ | ------ | ------ |
 | [Sales & Customer Success Onboarding](/handbook/sales/onboarding/) | [Sales Training](/handbook/sales/training/) | [Sales Order Processing](/handbook/sales/field-operations/order-processing/) | [President's Club](/handbook/sales/club/) |
-| [Commercial Sales](/handbook/sales/commercial/)  |[Sales Enablement Sessions](/handbook/sales/training/sales-enablement-sessions/) | [Engage & Educate the Customer](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/) |[Sales Kickoff](/handbook/sales/training/SKO/) |
+| [Commercial Sales](/handbook/sales/commercial/)  |[Sales Enablement Sessions](/handbook/sales/training/sales-enablement-sessions/) | [Engage & Educate the Customer](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/) |[Sales Kickoff](/handbook/sales/training/sko/) |
 | [Enterprise Sales](/handbook/sales/playbook/) |  [Command of the Message](/handbook/sales/command-of-the-message/)  |  [Facilitate The Opportunity](/handbook/sales/sales-operating-procedures/facilitate-the-opportunity/)  | [Sales Meetings](/handbook/sales/sales-meetings/) |
 | [Inside Sales](/handbook/sales/insidesales/) | [Most Commonly Used Sales Resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | [Deal Closure](/handbook/sales/sales-operating-procedures/deal-closure/) |  |
 | [Channels](/handbook/sales/channel/#channels-handbook)  | [Field Certification Program](/handbook/sales/training/field-certification/) | [Retain and Expand](/handbook/sales/sales-operating-procedures/retain-and-expand/) |  |
@@ -26,7 +26,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [ARR Deep Dive](/handbook/sales/sales-term-glossary/arr-in-practice)  | [Highspot - GitLab Sales Asset Management Tool](/handbook/sales/field-communications/gitlab-highspot) | [Rules of Engagement for Selling GitLab & Partner Professional Services](/handbook/sales/selling-professional-services) |  |
 | **Field Operations Teams and Resources** | **Customer Success Resources** | **Helpful Sales Handbook Tips** | **Sales Resources Outside of the Sales Handbook** |
 |  ------ | ------ | ------ | ------ |
-| [Field Operations](/handbook/sales/field-operations/) | [Customer Success Groups](/handbook/customer-success/#customer-success-groups) | [FAQ from Prospects](/handbook/sales/faq-from-prospects/) |[Resellers Handbook](/handbook/resellers/) |
+| [Field Operations](/handbook/sales/field-operations/) | [Customer Success Teams](/handbook/customer-success/#customer-success-teams) | [FAQ from Prospects](/handbook/sales/faq-from-prospects/) |[Resellers Handbook](/handbook/resellers/) |
 | [Sales Operations](/handbook/sales/field-operations/sales-operations/) | [How to Engage a Solutions Architect](/handbook/solutions-architects#when-and-how-to-engage-a-solutions-architect) | [Client Use Cases](/handbook/marketing/use-cases/) | [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing) |
 | [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/) | [Account Planning Template for Large Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24) | [Dealing with Security Questions From Prospects](/handbook/security/#security-questionnaires-for-customers) | [Customer Reference Case Study Dynamic Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&) |
 | [Field Enablement](/handbook/sales/field-operations/field-enablement/) | [How to Engage a CSM/CSE](/handbook/customer-success/pre-sales-post-sales-transition/) | [How to conduct an executive meeting](https://www.youtube.com/watch?v=PSGMyoEFuMY&feature=youtu.be) | [GitLab Support Handbook](/handbook/support/) |
@@ -36,7 +36,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Customer Success Operations](/handbook/customer-success/) |  | [Prospect Engagement Best Practices](/handbook/sales/prospect-engagement-best-practices/)  |  |
 | [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement) |  |  |  |
 | [Parent and Child Accounts](/handbook/sales/sales-term-glossary/#parent-and-child-accounts) |  |  |  |
-| [Opportunity Stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) |  | [Growth Resources (Finding Seat Count)](/handbook/sales/field-operations/finding-seat-counts.html) |  |
+| [Opportunity Stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) |  | [Growth Resources (Finding Seat Count)](/handbook/sales/field-operations/finding-seat-counts/) |  |
 | [Record Ownership](/handbook/sales/field-operations/gtm-resources/#record-ownership) |  |  |  |
 | [Routing Rules](/handbook/sales/field-operations/gtm-resources/#routing) |  |  |  |
 | [Forecasting Definitions and Processes](/handbook/sales/forecasting/) |  |  |  |
@@ -49,8 +49,8 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/people-group/competencies/) |
 | [MEDDPPICC Qualification](/handbook/sales/meddppicc/) |  | [Contract Resets](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset) | [GitLab Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) |
 | [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) | | |
-| [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | [Women in Sales Mentorship Pilot Program](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
-| [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | [Women in Sales Project](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
+| [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | |
+| [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | |
 | [Creating a Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) |  |  |  |
 | [Quote Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?usp=sharing) |  |  |  |
 | [Delivering a Quote via DocuSign](/handbook/sales/field-operations/order-processing/#how-to-send-an-order-form-to-a-customer) |  |  |  |
@@ -76,7 +76,7 @@ The Sales team is led by the [Chief Revenue Officer (CRO)](/job-families/sales/c
 - [VP, Enterprise Sales](/job-families/sales/vp-enterprise-sales/)
 - [VP, Commercial Sales](/job-families/sales/vp-of-commercial-sales/) (Mid-Market and SMB)
 - [VP, Field Operations](/job-families/sales/vp-of-field-operations/)
-- [VP, Customer Success](/job-families/sales/vp-of-customer-success/)
+- [VP, Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success)
 - [VP, Global Channels](/job-families/sales/vp-of-global-channels/)
 - [VP, Alliances](/job-families/alliances/alliances-job-family-matrix/)
 - [Chief of Staff, CRO](/job-families/sales/chief-of-staff-cro/)
@@ -192,7 +192,7 @@ To standardize our messaging around Coronavirus and the impact it is having on o
 
 ### Export Control Classification, and Countries We Do Not Do Business In
 
-GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of this classification, we currently do not do business in: Iran, Sudan, Syria, North Korea, Cuba and the Crimea, Donetsk, or Luhansk regions of the Ukraine.
+GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of this classification, we currently do not do business in: Cuba, Iran, North Korea, Syria, Russia, Belarus, and the Crimea, Donetsk, and Luhansk regions of Ukraine.
 
 ## Performance Indicators
 

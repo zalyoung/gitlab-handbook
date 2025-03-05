@@ -1,5 +1,6 @@
 ---
 title: GitLab the Product
+description: "About GitLab the product"
 ---
 
 {{% include "includes/product-handbook-links.md" %}}
@@ -66,12 +67,12 @@ For more guidance on feature tiers and pricing, visit [tiering guidance for feat
 
 ### Naming features
 
-Naming new features or [renaming existing features](https://docs.gitlab.com/ee/development/renaming_features.html) is notoriously hard and sensitive to many opinions.
+Naming new features or [renaming existing features](https://docs.gitlab.com/development/renaming_features/) is notoriously hard and sensitive to many opinions.
 
 #### Factors in picking a name
 
-- It should clearly express what the feature is, in order to avoid the [AWS naming situation](https://www.expeditedssl.com/aws-in-plain-english).
-- It should follow [usability heuristics](http://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
+- It should clearly express what the feature is, in order to avoid the [AWS naming situation](https://expeditedsecurity.com/aws-in-plain-english/).
+- It should follow [usability heuristics](https://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
 - It should be common in the industry.
 - It should not overlap with any other existing concepts in GitLab.
 - It should have as few words as possible (so people won't use a shortened name).
@@ -101,7 +102,7 @@ When renaming a feature other items to consider are updates to documentation, bl
 
 ### Using What's New to communicate updates to users
 
-What's New is a feature that is part of GitLab.com and Self-managed GitLab that is used to communicate highlights from each release. After each major release, a [yaml file is published](/handbook/marketing/blog/release-posts/index.html#creating-an-mr-for-whats-new-entries) that contains 3-10 highlights from the release along with links to the relevant documentation to get started using them.
+What's New is a feature that is part of GitLab.com and Self-managed GitLab that is used to communicate highlights from each release. After each major release, a [yaml file is published](/handbook/marketing/blog/release-posts/#creating-an-mr-for-whats-new-entries) that contains 3-10 highlights from the release along with links to the relevant documentation to get started using them.
 
 A small notification dot appears above the "?" icon, and when users click on "What's new" in the menu, a drawer containing the updates slides into view.
 
@@ -134,11 +135,11 @@ So, in the long term, we want our permission system to explicitly cover the next
 
 All the above can be achieved by iteratively improving existing roles.
 
-[Documentation on permissions](https://docs.gitlab.com/ee/user/permissions.html)
+[Documentation on permissions](https://docs.gitlab.com/user/permissions/)
 
 ### Security Paradigm
 
-You can now find our [security paradigm](https://about.gitlab.com/direction/secure/#security-paradigm) on the [Secure Strategy](https://about.gitlab.com/direction/secure/) page.
+You can now find our [security paradigm](https://about.gitlab.com/direction/application_security_testing/#security-paradigm) on the [Secure Strategy](https://about.gitlab.com/direction/application_security_testing/) page.
 
 Also see our [Secure Team engineering handbook](/handbook/engineering/development/sec/secure/).
 
@@ -230,11 +231,11 @@ only one part of GitLab it should be a great experience.
 GitLab ships with built-in integrations to many popular applications. We aspire
 to have the world's best integrations for Slack, JIRA, and Jenkins.
 
-Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
+Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/user/project/integrations/).
 
 GitLab [welcomes and supports new integrations](/partners/technology-partners/integrate/) to be created to extend collaborations with other products.
 GitLab plays well with others by providing APIs for nearly anything you can do within GitLab.
-GitLab can be a [provider of authentication](https://docs.gitlab.com/ee/integration/oauth_provider.html) for external applications.
+GitLab can be a [provider of authentication](https://docs.gitlab.com/integration/oauth_provider/) for external applications.
 
 There is some natural tension between GitLab being a single-application for the
 entire DevOps lifecycle, and our support for better user experience via integration

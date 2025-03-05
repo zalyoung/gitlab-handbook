@@ -5,9 +5,12 @@ description: "Overview of the Global Digital SMB Sales Model"
 
 ## Global Digital SMB Sales Model
 
-[FY25 Global Digital SMB Highspot Page](https://gitlab.highspot.com/items/65c2b953cdfb65754adda353?lfrm=shp.0)
+- [FY25 Global Digital SMB Highspot Page](https://gitlab.highspot.com/items/65c2b953cdfb65754adda353?lfrm=shp.0)
 
-[FY25 Global Digital SMB All-Hands Deck](https://docs.google.com/presentation/d/1NIznURPvchLXw22X7JMlaAhKcwoiMUCQhIG2TpTGFUw/edit#slide=id.g2b17593787a_0_275)
+- [FY25 Global Digital SMB All-Hands Deck](https://docs.google.com/presentation/d/1NIznURPvchLXw22X7JMlaAhKcwoiMUCQhIG2TpTGFUw/edit#slide=id.g2b17593787a_0_275)
+
+- Abbreviations
+  - cARR: Contracted Annual Recurring Revenue
 
 All members of the Sales, Support, Billing and Deal Desk teams should familiarize themselves with the Global Digital SMB Model.
 The model leverages team-level account alignment so SMB customers have a team of SMB Advocates to assist them. Every SMB Advocate on the team is equipped to work with any SMB customer as the sales point of contact.
@@ -62,13 +65,13 @@ Cases are automatically created when;
 
 The cases that will be auto created, are split into 5 distinct categories;
 
-Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab. 
+Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.
 
 Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption, or payments failed.
 
-Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. 
+Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand.
 
-Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. 
+Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate.
 
 High Value - These are only created for the highest spending accounts in the segment.
 
@@ -174,7 +177,7 @@ Case: Owner
 Case: Contact
 
 - Advocate to add/ update the main contact, as the case is being worked.  If a lead exists on the case, it must be converted to a Contact before the case is closed out.
-- A case cannot be set to Closed Resolved unless a Contact is attached to the case. 
+- A case cannot be set to Closed Resolved unless a Contact is attached to the case.
 
 ### Managing
 
@@ -196,7 +199,7 @@ Related Opportunity
 Opp: Close Date
 
 - Only for cases related to an opportunity
-- To help with forecasting.  Must not be in the past. 
+- To help with forecasting.  Must not be in the past.
 
 Opp: Renewal Risk Category
 
@@ -415,7 +418,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. If a prospect/ customer emails me directly requesting assistance, what do I do?
 - A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to smallbusiness@gitlab.com
 - Q. As an Advocate, when I go on PTO, what happens to my cases?
-- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion.  Also, be sure to follow the standard PTO guideline stated [here](/handbook/people-group/paid-time-off/#communicating-your-time-off). 
+- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion.  Also, be sure to follow the standard PTO guideline stated [here](/handbook/people-group/paid-time-off/#communicating-your-time-off).
 
 ## Escalation Paths
 

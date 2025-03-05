@@ -44,7 +44,7 @@ The first three criteria drove a lot of research into many applications + collab
 - **Drawing Surface Option 2:** [Samsung Galaxy Tab S6 Lite 10.4" with Spen (SM-P610NZBAXAR) $300](https://www.amazon.com/SAMSUNG-Android-Included-Speakers-SM-P610NZBAXAR/dp/B086Z3S3MY/).
   - Larger screen for easier drawing
 - **The Drawing Implement:** [Staedtler Digital Pencil $30](https://www.amazon.com/gp/product/B072N31S7C/) - the built in stylus is too small for drawing speed.
-- **The Collaborative Whiteboard App**: [LiveBoard.online Apps / Website](https://liveboard.online), Free Forever attributes:
+- **The Collaborative Whiteboard App**: [LiveBoard.online Apps / Website](https://www.liveboard.online/), Free Forever attributes:
 
 |                                                   | [Liveboard Online](https://www.liveboard.online) | [Google Jamboard](https://support.google.com/jamboard/answer/7424836?hl=en) | [Miro](https://miro.com) |
 | ------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------ |
@@ -66,7 +66,7 @@ The first three criteria drove a lot of research into many applications + collab
 
 ##### Liveboard
 
-1. Create two free accounts on https://liveboard.online.
+1. Create two free accounts on https://www.liveboard.online/.
 1. On your mobile app, create a "session" and invite the second user.
 1. On your zoom laptop, join as the second user. (it is important that the user owning the whiteboard session be logged in on the tablet so that the "new page" control resides there.)
 1. Screen share the whiteboard from the laptop web logon - since in most cases others won't contribute.

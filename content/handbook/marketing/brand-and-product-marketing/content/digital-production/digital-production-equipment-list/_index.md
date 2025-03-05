@@ -28,9 +28,9 @@ twitter_creator: "@gitlab"
 
 ### Camera Options (Choose One)
 
-- Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/ref=sr_1_3?dchild=1&keywords=logitech+c920&qid=1605047326&sr=8-3).
+- Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/).
 **OR**
-- Razer Kiyo (slightly lower performance camera but includes ringlight) - [Example](https://www.amazon.com/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/ref=sr_1_3_mod_primary_new?dchild=1&keywords=razer+kiyo&qid=1605047404&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-3)
+- Razer Kiyo (slightly lower performance camera but includes ringlight) - [Example](https://www.amazon.com/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/)
 
 ### Audio
 
@@ -81,7 +81,7 @@ twitter_creator: "@gitlab"
 
 #### Adapter for Using Camera With Mac
 
-- Elgato Game Capture HD60 S - [Example](https://www.amazon.com/Elgato-Standalone-Recording-Zero-Lag-Passthrough/dp/B07XB6VNLJ/ref=sr_1_1_sspa?dchild=1&keywords=hd60%2Bs%2B&qid=1605213537&s=electronics&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTkFYRlBIWVExNkxJJmVuY3J5cHRlZElkPUEwMjUxNTc0MllDVUZSSDk4T0tWWSZlbmNyeXB0ZWRBZElkPUEwNDk5MDMwN1c1QkJYQ0FGWDhQJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)
+- Elgato Game Capture HD60 S - [Example](https://www.amazon.com/Elgato-Standalone-Recording-Zero-Lag-Passthrough/dp/B07XB6VNLJ/)
 
 #### Miscellaneous
 
@@ -104,7 +104,7 @@ twitter_creator: "@gitlab"
 
 #### Camera
 
-- Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/ref=sr_1_3?dchild=1&keywords=logitech+c920&qid=1605047326&sr=8-3).
+- Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/).
 
 #### Audio
 
@@ -168,7 +168,7 @@ This package is very advanced and intended for those with a high need of profess
 #### Camera Support
 
 - Tripod - [Example](https://www.bhphotovideo.com/c/product/1527795-REG/manfrotto_mkelmii4bk_bh_element_mii_aluminum_tripod.html)
-- Camera Desk Mount - [Example](https://www.corsair.com/us/en/Categories/Products/Elgato-Gaming/Multi-Mount/Master-Mount-L/p/10AAB990)
+- Camera Desk Mount - [Example](https://www.elgato.com/ca/en/p/master-mount-l)
 - Optional clamp to attach camera to a lightstand, or support the lavalier - [Example](https://www.bhphotovideo.com/c/product/1422139-REG/smallrig_2164_multi_functional_crab_shaped_clamp.html)
 
 #### Production Switcher

@@ -88,13 +88,13 @@ The Senior UX Engineer role extends the UX Engineer role and is expected to exec
 
 - [Pajamas component migrations](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - [SUS-impacting issues](/handbook/product/ux/performance-indicators/#sus-impacting-issues-openedclosed-each-month)
-- [Deferred UX](http://gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
+- [Deferred UX](https://gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our global recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our global recruiters.
 - If a candidate successfully passes the screening call, they'll be assigned a brief technical exercise to be completed ahead of the next interview with a product designer or UX engineer. It's an opportunity to learn your comfort and capability working with design systems and building components.
 - Next, the candidate will meet with the hiring product design manager. They'll want to learn how you work in teams and about your past relevant experience.
 - If the candidate successfully passes the previous interviews, they'll meet with a senior manager of product design for a 50-minute interview.

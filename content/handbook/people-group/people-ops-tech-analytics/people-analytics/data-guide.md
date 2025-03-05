@@ -11,7 +11,7 @@ This handbook page provides an overview of data definitions and data models used
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific People Models, please reference the **Commonly Used Data Models** section below for a starting point.
 - [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/) managed by the Data team.
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
-- [People Group Tech Stack Guide]({{< ref "tech-stack-guide-workday" >}}) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
+- [People Group Tech Stack Guide](/handbook/people-group/tech-stack-guide-workday/) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
 
 ## People Group Data Dictionary
 
@@ -139,10 +139,9 @@ Systems used by the People Group
 |---|---|---|---|
 | [R (Language)](/handbook/enterprise-data/platform/rstudio/)   | A programming language and software environment used for statistical analysis, graphical representation, and reporting, popular in data analysis and scientific research. |  |  |
 | [Tableau](/handbook/enterprise-data/platform/tableau/) | Primary data visualization tool at GitLab |  |  |
-| [Workday](/handbook/people-group/tech-stack-guide-workday/) | Current Human Resource Management Systems (HRMS) and the SSoT for all team member related data on or after 2022-06-16 |  |  |
-| BambooHR | Former Human Resource Management Systems (HRMS) and the SSoT for all team member related data prior to 2022-06-16 |  |  |
+| [Workday](/handbook/people-group/tech-stack-guide-workday/) | Current Human Resource Management Systems (HRMS) and the SSoT for all team member related data on or after 2022-06-16 and SSoT for all Absence data on or after 2024-09-01 |  |  |
 | [Greenhouse](/handbook/hiring/greenhouse/) | Current Applicant Tracking System (ATS) at GitLab and the SSOT for all recruiting metrics |  |  |
-| Time Off by Deel | Current absence management tool at GitLab integrated with BambooHR. SSoT for time-off related data |  |  |
+| Time Off by Deel | Current absence management support tool at GitLab integrated with Workday which is the SSoT for Absence. |  |  |
 | Sisense (formerly Periscope) | Former data visualization tool at GitLab |  |  |
 | FiveTran | Fivetran is the automated data movement platform moving data out of Workday and into Snowflake |  |  |
 | [SnowFlake](/handbook/enterprise-data/platform/snowflake/) | Snowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform. |  |  |
@@ -513,7 +512,7 @@ ORDER BY quarter ASC, absence_count DESC;
 
 ### mart_team_member_directory
 
-This table is a derived fact from `fct_team_member_position` and `dim_team`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will become a replacement of the legacy tables `employee_directory_*` once all the BambooHR data has been included in the upstream tables.
+This table is a derived fact from `fct_team_member_position` and `dim_team`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will become a replacement of the legacy tables `employee_directory_*` once all the Workday data has been included in the upstream tables.
 
 The grain of this table is one row per employee per valid_from/valid_to combination.
 
@@ -565,7 +564,7 @@ WHERE is_current AND is_current_team_member
 
 Legacy models are models we will be transitioning from at some point but are still being used for reporting.
 
-### Legacy Workday/BambooHR Data Models
+### Legacy Workday Data Models
 
 <details>
 <summary markdown="span">Click to expand</summary>
@@ -573,12 +572,7 @@ Legacy models are models we will be transitioning from at some point but are sti
 | Database | Schema | Table Name | Data Grain | Description | Notes |
 | --- | --- | --- | --- | --- | --- |
 | prod | legacy | [employee_directory_analysis](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_analysis) | `employee_id` by `date_actual` | Gives the current state of the employees at GitLab at any point of time. This is the model to use for headcount, team size, or any people-related analysis for employees. This has current and past employees, as well as their department, division, and cost center and hire/termination dates. | |
-| prod | legacy | [bamboohr_rpt_headcount_aggregation](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_rpt_headcount_aggregation) | `department`, `division`, `eeoc_value` | This report creates out a headcount report from the bamboohr_headcount_intermediate to be used for Sisense dashboards for each month. | The division reporting is based on current division used. |
 | prep | sensitive | [employee_directory_intermediate](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_intermediate) | `employee_id` by `date_actual` | INCLUDES SENSITIVE INFORMATION. The master collection of all info about GitLab employees for their latest position. | |
-| prep | sensitive | [bamboohr_employment_status_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_employment_status_xf) | `employee_id` by `valid_from_date` | This model provides a transaction record of an employee's status changes (i.e. active, leave, termed). It helps identify when an employee is re-hired, and provides termination type | |
-| prep | sensitive | [bamboohr_promotions_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_promotions_xf) | `employee_id` by `promotion_date` and `compensation_sequence` | This model identifies all individuals that were promoted and the compensation change associated to the promotion. The total compensation change is equal to the change in compensation (from bamboohr_compensation model) times the pay frequency and currency conversion at time of promotion + change in OTE(USD) at time of promotion. In the case the team member is hourly, we use the bamboohr_currency_conversion table. | |
-| prep | sensitive | [bamboohr_id_employee_number_mapping](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_id_employee_number_mapping) | `employee_id` | This model is the canonical source mapping bamboo employee numbers with employee IDs. It includes all employees for all time. The model also captures demographic information, and removes test accounts. | |
-| prep | sensitive | [bamboohr_separations](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.bamboohr_separations) | `employee_id` | Provides a report of all separated team members. | |
 | prep | sensitive | [workday_terminations](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.workday_terminations) | `employee_id` | Provides the termination reason, and exit impact to allow the People Analytics team to accurately report on termination data | |
 | prep | workday | [blended_directory_source](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.blended_directory_source) | `employee_id` by `uploaded_at` and `source_system` | Daily upload of employee data used for downstream models. | Helpful source for auditing any data issues in Snowflake |
 

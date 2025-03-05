@@ -5,9 +5,9 @@ description: "GitLab's People Success Department Performance Indicators."
 
 ## Key Review
 
-The metrics on this page are currently being re-organized according to what the People Group reports out every [Key Review]({{< ref "key-review" >}}) meeting and [Group Conversation]({{< ref "group-conversations" >}}). Below is a link to the most recent `Group Conversation` deck for Team Members to access in the interim.
+The metrics on this page are currently being re-organized according to what the People Group reports out every [Key Review](/handbook/company/key-review/) meeting and [Group Conversation](/handbook/company/group-conversations/). Below is a link to the most recent `Group Conversation` deck for Team Members to access in the interim.
 
-[People Group Conversation Deck](https://docs.google.com/presentation/d/1Ot6Kta9_n83tHvb3pYzVSsC7eR_m_VPMOddHOKJ8QtI/edit#slide=id.g20e385ea126_0_374)
+[People Group Conversation Deck] To be updated
 
 ## Tableau People KPI Dashboard
 

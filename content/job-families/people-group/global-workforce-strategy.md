@@ -100,7 +100,7 @@ The Staff Global Workforce Strategy Program Manager is a [grade 8](/handbook/tot
 - Partner with the Legal and Tax team on international employment and contractual reviews, changes and requirements.
 - Oversee the vendor for immigration questions and counsel while building self-service content regarding immigration questions/processes.
 - Makes independent judgment decisions regarding mobility questions and requests.
-- Serve as a trusted partner with various cross-functional teams to execute program initiatives and policies to scale. 
+- Serve as a trusted partner with various cross-functional teams to execute program initiatives and policies to scale.
 - Independently manage the PEO vendor selection through RFP/RFI's, and ensure vendor QBR's are conducted.
 - Constantly identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager’s experience.
 - Understand our broader People Team strategy and processes to architect, develop and implement scalable, flexible solutions that are extensible to our business needs.
@@ -126,7 +126,7 @@ The next step in the People Operations job family is to move to the [People Oper
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our Manager, People Connect.
 - After that, candidates will be invited to schedule a 30 minute interview with members of the People Operations and Global Workforce Strategy Team.
 - After that, candidates will be invited to interview with the Senior Director, People Operations.

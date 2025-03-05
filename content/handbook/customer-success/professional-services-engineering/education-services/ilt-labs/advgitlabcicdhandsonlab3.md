@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through optimizing a test pipeline"
 
 The goal of this lab is to explore the different ways that we can configure testing in an application.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -57,7 +57,7 @@ This lab will explore how we can ensure a test pipeline when a single job fails.
 
 ## Task A. Stopping a Pipeline after Failure
 
-In this example, let’s look at how we can cancel the pipeline in the case where one of our tests fails. 
+In this example, let’s look at how we can cancel the pipeline in the case where one of our tests fails.
 
 1. Navigate to your `Node` project repository.
 
@@ -195,6 +195,10 @@ The tests will now look like this:
         - npm install -g jest
       script:
         - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+      artifacts:
+        when: always
+        reports:
+          junit: junit.xml
       cache:
         key: $CI_COMMIT_REF_SLUG
         paths:
@@ -221,9 +225,9 @@ The tests will now look like this:
 
 1. Select your most recent pipeline.
 
-1. Wait for the tests to complete. Refresh after the test jobs are complete and select the tab `Tests`. 
+1. Wait for the tests to complete. Refresh after the test jobs are complete and select the tab `Tests`.
 
-1. You will see a report of your test results in the tab. 
+1. You will see a report of your test results in the tab.
 
 ## Lab Guide Complete
 
@@ -231,4 +235,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request!

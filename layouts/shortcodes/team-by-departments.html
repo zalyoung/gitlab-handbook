@@ -1,14 +1,16 @@
-{{- /* <!-- TODO: make this list dynamic based on the `borrow` field in yaml files --> */}}
-{{- /*  Initialize. */}}
+{{- /* Departments and role value can be updated at https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person */}}
+{{- /* For usage information: https://handbook.gitlab.com/docs/shortcodes/#team-by-departments */}}
+
 {{- $departments := slice }}
-{{- $managerRoles := slice }}
+{{- $manager := dict }}
+{{- $managerRole := slice }}
 
 {{- if .IsNamedParams }}
+  {{- with .Get "manager-role" }}
+    {{- $managerRole = . }}
+  {{- end }}
   {{- with .Get "departments"}}
     {{- $departments = strings.Split . "," }}
-  {{- end }}
-  {{- with .Get "manager-roles" }}
-    {{- $managerRoles = strings.Split . "," }}
   {{- end }}
   {{- with .Get "department" }}
     {{- $departments = append (strings.Split . ",") $departments }}
@@ -17,9 +19,11 @@
   {{- $departments = (slice (.Get 0)) }}
 {{- end }}
 
-{{- $members := where site.Data.public.team "departments" "intersect" $departments }}
-{{- $members = append (where site.Data.public.team "job_title" "intersect" $managerRoles) $members }}
+{{- $membersFromDepartments := where site.Data.public.team "departments" "intersect" $departments }}
+{{- $membersFromTags := where site.Data.public.team "team_tags" "intersect" $departments }}
+{{- $members := $membersFromDepartments | append $membersFromTags }}
 {{- $members = sort (uniq $members) "name" }}
+{{- $manager = index (where site.Data.public.team "role" "like" $managerRole) 0 }}
 
 <table>
     <thead>
@@ -27,6 +31,12 @@
         <th>Role</th>
     </thead>
     <tbody>
+        {{- with $manager }}
+        <tr>
+          <td>{{ partial "member/with-team-link" . }}</td>
+          <td>{{ .role | safe.HTML }}</td>
+        </tr>
+        {{- end }}
         {{- range $members }}
           <tr>
               <td>{{ partial "member/with-team-link" . }}</td>

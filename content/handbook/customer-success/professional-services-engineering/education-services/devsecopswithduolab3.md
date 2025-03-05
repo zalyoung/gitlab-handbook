@@ -49,7 +49,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. From the issue you just created, select **Create merge request**.
 
-1. Add a brief description similar to `This MR introduces the Go Figure module to our "hello world" application`. 
+1. Add a brief description similar to `This MR introduces the Go Figure module to our "hello world" application`.
 
 1. Leave all other options as default and select **Create merge request**.
 
@@ -57,9 +57,9 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. In your MR, select **Code > Open in Web IDE**.
 
-1. Select the Tanuki icon from the left sidebar.
+1. Select the Duo Chat icon from the left sidebar.
 
-1. In the chat, write the prompt: `How could I use the go-figure module of go-to print hello world in a different font?`
+1. In the chat, write the prompt: `How could I use the go-figure module of go to print hello world in a different font?`
 
    You will get a response similar to this:
 
@@ -82,7 +82,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select `main.go`.
 
-1. Replace the contents of `main.go` with the AI generated code.
+1. Replace the contents of `main.go` with the AI generated code by copying and pasting or using the insert button on the code snippet in the Duo Chat window.
 
 1. From the left sidebar, select **Source Control**.
 
@@ -110,7 +110,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. At the bottom of the job output, select **Troubleshoot**.
 
-1. This will open a Duo chat window with a description of the `root cause of failure`. **Note:** You could have also opened Duo chat and used the `/troubleshoot` command to generate this explanation. 
+1. This will open a Duo chat window with a description of the `root cause of failure`. **Note:** You could have also opened Duo chat and used the `/troubleshoot` command to generate this explanation.
 
 1. Review the explanation of the failed job and the example fix.
 

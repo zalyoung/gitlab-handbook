@@ -65,7 +65,7 @@ With the goals established above, we also want to establish what specific things
 
 We intend to use GitLab Observability Backend (GOB) as a framework for the Metrics implementation so that its lifecycle can be managed via already established components of our backend.
 
-![Architecture](metrics_indexing_at_ingestion.png)
+![Architecture](/images/engineering/architecture/design-documents/observability_metrics/metrics_indexing_at_ingestion.png)
 
 As depicted in the diagram above, an OTEL-collector pipeline, indexer & query service are components that need to be developed as proposed here while the remaining peripheral components either already exist or can be provisioned via existing code in our centralised `scheduler` within GOB.
 
@@ -79,7 +79,7 @@ As depicted in the diagram above, an OTEL-collector pipeline, indexer & query se
 
 **On the read path**:
 
-![MetricsReadPath](metrics-read-path.png)
+![MetricsReadPath](/images/engineering/architecture/design-documents/observability_metrics/metrics-read-path.png)
 
 - We aim to allow our users to use GitLab itself to read ingested data, which will necessitate building a dedicated `Query Service` on our backend to be able to service API requests originating from GitLab.
 
@@ -97,7 +97,7 @@ As an internal part of the `ingester`, we aim to index per-series labels and/or 
 
 The `Query Service` consists of two primary components - 1. a request parser & 2. a backend-specific querier implementation. On the request path, once its received on the designated endpoint(s), it is handled by a handler which is a part of the request parser. The parser's responsibility is to unmarshal incoming query payloads, validate the contents and produce a `SearchContext` object which describes how must this query/request be processed. Within a `SearchContext` object is a `QueryContext` attribute which further defines one or more `Query` objects - each a completely independent data query against one of our backends.
 
-![QueryServiceInternals](query-service-internals.png)
+![QueryServiceInternals](/images/engineering/architecture/design-documents/observability_metrics/query-service-internals.png)
 
 #### API structure
 

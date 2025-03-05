@@ -58,7 +58,7 @@ in [Preferred Region for Support](https://about.gitlab.com/support/#effect-on-su
 and were chosen to maximise overlap between region's segments, and to align with
 periods of high customer messages received per hour.
 
-![Support time segments](support_time_segments.png)
+![Support time segments](/images/support/support_time_segments.png)
 
 Note that these are time segments and not geographical segments. What's
 important is that we have folks available and actively working Support these

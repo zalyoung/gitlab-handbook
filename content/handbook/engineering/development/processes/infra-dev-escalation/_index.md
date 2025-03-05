@@ -136,9 +136,9 @@ Mute all other channels but the escalation channel during a specific time period
 
 **A:** Let's start with hand counting and review the volume at the Infra/Dev meeting.  This can also be added to the board.
 
-**Q: We are discussing the concept of working hours for new-on-call and having expected shifts, however, this is a departure from non-on-call based on this in the handbook. /handbook/values/#measure-results-not-hours Is this an intentional policy shift?**
+**Q: We are discussing the concept of working hours for new-on-call and having expected shifts, however, this is a departure from non-on-call based on this in the handbook. /handbook/values/#measure-impact-not-activity Is this an intentional policy shift?**
 
-**A:** This is not a shift in policy. Engineers are still in control of their schedules, and can choose when to work, as long as the overall goal of full coverage of the rotation is met. The policy of results vs. hours is based on delivering functionality.  On call is about addressing operational issues which can happen at any time and need to be addressed immediately.  So the policies are congruent.
+**A:** This is not a shift in policy. Engineers are still in control of their schedules, and can choose when to work, as long as the overall goal of full coverage of the rotation is met. The policy of impact vs. activity is based on delivering functionality.  On call is about addressing operational issues which can happen at any time and need to be addressed immediately.  So the policies are congruent.
 
 **Q: In order to effectively debug production issues, developers may require expanded access to production systems and metrics. Is the plan for developers to be on-call solely for consultative purposes without need for direct debugging of systems? If they need access to production systems how will they be onboarded?**
 

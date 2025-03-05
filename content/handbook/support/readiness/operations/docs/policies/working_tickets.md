@@ -157,7 +157,7 @@ information:
   - The GitLab.com account associated to the requester's email address should
     have listed the secondary email as verified. You can check this via the User
     Lookup app. To add secondary email to GitLab.com account, they can follow this
-    [documentation](https://docs.gitlab.com/ee/user/profile/#add-emails-to-your-user-profile)
+    [documentation](https://docs.gitlab.com/user/profile/#add-emails-to-your-user-profile)
 - For Self Managed and GitLab Dedicated Users:
   - The ticket needs to be submitted from the email address they wish to have
     added to their existing profile
@@ -183,7 +183,7 @@ When a ticket is filed using the incorrect form, agents will use the
 tag the ticket, and leave an internal note. From there, we are expected
 to review the ticket and determine the next steps.
 
-As the ticket was initially created using an incorrect form, it is likely that it will not have a first response yet from the correct team. In such cases, we should set the `Ticket Stage` to `FRT` before correcting the form. 
+As the ticket was initially created using an incorrect form, it is likely that it will not have a first response yet from the correct team. In such cases, we should set the `Ticket Stage` to `FRT` before correcting the form.
 
 ```mermaid
 graph TD;

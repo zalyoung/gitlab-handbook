@@ -24,7 +24,7 @@ Team performance indicators are not fully defined. We are going to consider a **
 
 ## Team Members
 
-{{< team-by-manager-slug "sdumesnil" >}}
+{{< team-by-manager-slug "mckgl" >}}
 
 ## Working with us
 
@@ -80,7 +80,7 @@ The single source of truth for _all_ GitLab US Public Sector Services work acros
 
 #### Epic Hierarchy
 
-[Sub-epics](https://docs.gitlab.com/ee/user/group/planning_hierarchy/index.html#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
+[Sub-epics](https://docs.gitlab.com/ee/topics/plan_and_track.html#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
 
 When applicable, additional sub-epics may be created within the existing epic hierarchy to further segment issues for project tracking purposes.
 
@@ -173,4 +173,4 @@ If no update has been provided in an epic or issue for over a week, the issue wi
 
 #### Reporting
 
-We provide reports on status of GitLab Dedicated to meet [Top Cross-Functional Initiative requirements](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris).
+We provide reports on status of GitLab Dedicated to meet Top Cross-Functional Initiative requirements.

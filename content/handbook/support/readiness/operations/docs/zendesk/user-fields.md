@@ -20,35 +20,9 @@ with a Fullstack Engineer.
 
 ### Creating a new user field
 
-**NOTE** Whenever possible, you should aim to create the user field
-*first* in the sync repo and then make any edits to other items that will be
-utilizing them. This helps alleviate some of the complexity involved in managing
-user fields.
-
-You will start by creating a placeholder organizations field within Zendesk
-itself (as you will need the ID for the sync repo). To do this, open up the
-admin page of your corresponding Zendesk instance
-([Global](https://gitlab.zendesk.com/admin)
-or [US Government](https://gitlab-federal-support.zendesk.com/admin)), click
-`People` on the left-hand side, and then click `User fields`. On this
-page page, you will want to click `Add field`. This will bring up the new
-user field page.
-
-On this page, you will do the following:
-
-- Select the type of field you are creating
-- Set the Display name to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK`
-  with the link to the issue you are working out of).
-- Enter the **exact** field key you plan to use. Note this can **not** be
-  changed after the fact, so it is important to get this right the first time.
-- Set any other data to *match* what the desired end-result will be
-
-After doing so, click the blue `Save` button. You will then locate the
-placeholder user field you just created and get the ID value for it (if you
-click the Display name, you can see it in the URL).
-
-From here, create the merge request in the sync repo project. Keep in mind you
-are likely to need to adjust **many** user field files due to positioning.
+As we manage these via our sync repos, you simply need to create the file within
+the sync repo. The sync process will create the user field (and any options it
+may use) within Zendesk itself.
 
 ### Updating an existing user field
 

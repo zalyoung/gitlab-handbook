@@ -4,7 +4,7 @@ title: "Security Culture Committee"
 
 ## Mission Statement
 
-The security department as a part of GitLab should follow and live up to the GitLab [values](/handbook/values/) and [mission]({{< ref "mission#mission" >}}).
+The security department as a part of GitLab should follow and live up to the GitLab [values](/handbook/values/) and [mission](/handbook/company/mission/#mission).
 The [transparency](/handbook/values/#transparency) value can be especially difficult for a security department to embrace and embody, as due to the confidentiality of their work, security people tend to be secretive and intransparent by default.
 
 ### Intent and goals
@@ -35,9 +35,10 @@ Current committee members:
 - [Steve Ladgrove](https://gitlab.com/sladgrove)
 - [Ayoub Fandi](https://gitlab.com/ayofan)
 - [Julie Davila](https://gitlab.com/juliedavila) (Executive Sponsor)
+- [Giuliana Lucchesi](https://gitlab.com/glucchesi) and [Aurelia Akpan](https://gitlab.com/aakpan) - ([People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments))
 
 <details>
-<summary>Previous committee members</summary> 
+<summary>Previous committee members</summary>
 
 Previously nominated committee members (July 2022 - September 2023):
 

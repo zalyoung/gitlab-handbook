@@ -6,7 +6,7 @@ description: How to set and change priority for a ZenDesk ticket.
 
 ## Definitions
 
-The [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) are in the Statment of Support.
+The [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) are in the Statement of Support.
 
 ## Setting Ticket Priority
 

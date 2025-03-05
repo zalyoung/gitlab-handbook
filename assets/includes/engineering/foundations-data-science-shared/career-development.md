@@ -85,7 +85,7 @@ This section lists relevant experience areas for individual contributors interes
 * Participating in stage, sub-department, skip level, and/or engineering manager discussions
 * Coordinating the dev on-call
 * Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
-* Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
+* Collaboration with the full product group quad planning
 
 </details>
 
@@ -102,7 +102,7 @@ This section lists relevant experience areas for individual contributors interes
 
 #### Trainings offered by GitLab for EMs
 
-* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
+* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate-programs/)
 * [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 #### Other resources

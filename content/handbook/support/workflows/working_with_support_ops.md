@@ -27,7 +27,7 @@ portal changes using a Support form. In these cases, please change the form to
 Support Ops in Zendesk and we will handle it from there. Please do not reply
 (as that removes our SLA clock from the ticket).
 
-Please never modify a user's acces permissions or make any edits to the
+Please never modify a user's access permissions or make any edits to the
 organization itself. We have specific processes and policies we must follow for
 such changes to occur.
 

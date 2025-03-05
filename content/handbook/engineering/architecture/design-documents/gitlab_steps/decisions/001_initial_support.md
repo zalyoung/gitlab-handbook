@@ -9,7 +9,7 @@ toc_hide: true
 [GitLab Steps](../index.md) is a new feature that does not have any prior usage at GitLab.
 We decided that there are two important objectives at this stage of the project:
 
-- Integrate the project into existing CI pipelines for the purpose of user evaluation as part of an [experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) phase.
+- Integrate the project into existing CI pipelines for the purpose of user evaluation as part of an [experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment) phase.
 - Provide a contribution framework for other developers in the form of a project with contribution guidelines.
 
 ## Decision

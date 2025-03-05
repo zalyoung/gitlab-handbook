@@ -58,4 +58,4 @@ At a minimum, GitLab has implemented for the GitLab Cloud Services the technical
 
 ## Resources
 
-For additional details and supporting artifacts please see GitLab's [Customer Assurance Package.](https://about.gitlab.com/security/cap/)
+For additional details and supporting artifacts please see GitLab's [Customer Assurance Package.](https://trust.gitlab.com/)

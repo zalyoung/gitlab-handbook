@@ -12,7 +12,7 @@ The GitLab team has members in countries and regions all over the world and from
 
 All of our roles are remote, however, some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions applicants may have about location after starting the recruiting process.
 
-In the past GitLab would hire in any country except those we had already determined were not feasible due to certain restrictions. At present, we are focussing our hiring in countries where we have an [entity]({{< ref "employment-solutions#gitlab-entities-and-branches" >}}) or a [PEO]({{< ref "employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch" >}}), that do not carry any hiring restrictions. More details can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under country hiring status.
+In the past GitLab would hire in any country except those we had already determined were not feasible due to certain restrictions. At present, we are focussing our hiring in countries where we have an [entity](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) or a [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch), that do not carry any hiring restrictions. More details can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under country hiring status.
 
 Compared with our former approach of hiring contractors in any country and later planning to implement an entity/PEO, we see four instant benefits with this approach:
 
@@ -23,7 +23,7 @@ Compared with our former approach of hiring contractors in any country and later
 
 We can consider an exception to hire outside of these countries through the use of a PEO for future team members when supported by business needs, on a case-by-case basis. This approach enables a scalable solution from the onset and allows us to continue to hire diverse global talent whilst providing a consistent and positive team member experience. This approach will require a formal business need justification and will be addressed on a case-by-case basis.
 
-Countries that do not have an entity/scalable PEO will be converted as part of our [country conversion process]({{< ref "employment-solutions#country-conversions" >}}).
+Countries that do not have an entity/scalable PEO will be converted as part of our [country conversion process](/handbook/people-group/employment-solutions/#country-conversions).
 
 ## Team Member Types at GitLab
 
@@ -88,14 +88,14 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 |     Kenya *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        KES       |           Y           |          Y         |           Y           |
 |    Latvia *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
 |  Luxembourg *  | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
-|    Mexico *    | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        MXN       |           Y           |          Y         |           Y           |
-|  Philippines * | Employed via a PEO |   Global Upside  |           GitLab IT BV          |       24      |   PEO   |        PHP       |           Y           |          Y         |           Y           |
+|    Mexico *    | Employed via a PEO | Global Expansion |           GitLab IT BV          |       12      |   PEO   |        MXN       |           Y           |          Y         |           Y           |
+|  Philippines * | Employed via a PEO | Global Expansion |           GitLab IT BV          |       24      |   PEO   |        PHP       |           Y           |          Y         |           Y           |
 | South Africa * | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        ZAR       |           Y           |          Y         |           Y           |
 |  Switzerland * | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
 |    Sweden *    | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
 
-This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring. 
-There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs. 
+This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring.
+There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs.
 More detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
 | Country        | Agreement Type(s)    | Hiring Partner   | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
@@ -142,7 +142,7 @@ The Total Rewards and People Connect Team member should also review alignment to
 
 ### WBSO (R&D tax credit) in the Netherlands
 
-For roles directly relating to Research and Development in the Netherlands, GitLab may be eligible for the [WBSO (R&D Tax Credit)](http://english.rvo.nl/subsidies-programmes/wbso).
+For roles directly relating to Research and Development in the Netherlands, GitLab may be eligible for the [WBSO (R&D Tax Credit)](https://english.rvo.nl/subsidies-financing/wbso).
 
 #### Organizing WBSO
 
@@ -162,7 +162,7 @@ Each year a spreadsheet with the project details and hours logged against the wo
 
 ## Engineering internships
 
-Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/engineering/internships/) has more information on this.
+Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/hiring/emerging-talent/) has more information on this.
 
 Interships require a fixed term contract during the internship, which is not possible in all countries.
 

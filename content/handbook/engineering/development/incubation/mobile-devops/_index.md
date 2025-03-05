@@ -3,7 +3,7 @@ title: Mobile DevOps Single-Engineer Group
 ---
 
 {{% alert title="Note" color="danger" %}}
-This Incubation Engineering project is currently [on hold](handbook/engineering/development/incubation/#on-hold--cancelled).
+This Incubation Engineering project is currently [on hold](/handbook/engineering/development/incubation/#on-hold--cancelled).
 {{% /alert %}}
 
 ## Mobile DevOps Single-Engineer Group
@@ -18,7 +18,7 @@ GitLab's vision for Mobile DevOps is to provide high-value, best-in-class capabi
 
 | Feature                                                                                                  | Status      |
 |----------------------------------------------------------------------------------------------------------|-------------|
-| [macOS Build Environments](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html)            | Public Beta |
+| [macOS Build Environments](https://docs.gitlab.com/ee/ci/runners/hosted_runners/macos.html)            | Public Beta |
 | [Project-level Secure Files](https://docs.gitlab.com/ee/ci/secure_files/)                                | GA          |
 | [Apple App Store Integration](https://docs.gitlab.com/ee/user/project/integrations/apple_app_store.html) | GA          |
 | [Google Play Integration](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/111621)                  | GA          |
@@ -37,7 +37,7 @@ The future roadmap for Mobile DevOps will look to mature the `build`, `sign`, an
 
 ## Other Resources
 
-* [Mobile DevOps Docs](https://docs.gitlab.com/ee/ci/mobile_devops.html)
+* [Mobile DevOps Docs](https://docs.gitlab.com/ee/ci/jobs/mobile_devops.html)
 * Mobile DevOps Blog Posts
   * [Tutorial: iOS CI/CD with GitLab](https://about.gitlab.com/blog/2023/06/07/ios-cicd-with-gitlab/)
   * [Tutorial: Android CI/CD with GitLab](https://about.gitlab.com/blog/2023/06/13/android-cicd-with-gitlab/)

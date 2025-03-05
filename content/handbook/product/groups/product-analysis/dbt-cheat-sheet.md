@@ -171,7 +171,7 @@ the live demo of updating and testing a model starts at ~30:00.
 
 There is one main file used to generate dbt Docs: schema.yml (ex:
 [`transform/snowflake-dbt/models/common_mart/schema.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart/schema.yml)).
-You can read the dbt docs on dbt Docs [here](https://docs.getdbt.com/docs/collaborate/documentation) 🐢️🐢️🐢️.
+You can read the dbt docs on dbt Docs [here](https://docs.getdbt.com/docs/build/documentation) 🐢️🐢️🐢️.
 
 **TL; DR:** Our dbt docs work by setting the model description in `schema_name.md`, setting
 the column definitions in `common_columns.md`, then referencing those files in `schema.yml`.

@@ -35,7 +35,7 @@ In an all-remote organization with team members spread across an array of time z
 
 Documentation is an essential competitive advantage. Companies which rely on vocalizing end up repeating themselves over and over in meetings, creating an inefficient environment with tremendous opportunity for knowledge leaks. While communicating and documenting through text may feel like a burden in the moment, it prevents a toxic cycle of meetings and touch points which serve only to "bring people up to speed."
 
-[Tim Casasola](https://twitter.com/timcasasola) of Sanctuary Computer [asserts](http://www.timcasasola.com/blog/writing) that "great writing makes remote work better. It saves time, reduces meetings, removes extrovert bias, and invites other perspectives."
+[Tim Casasola](https://twitter.com/timcasasola) of Sanctuary Computer [asserts](https://www.timcasasola.com/blog/writing) that "great writing makes remote work better. It saves time, reduces meetings, removes extrovert bias, and invites other perspectives."
 
 Communicating answers to problems via text makes documentation easier. Rather than transcribing one's voice, one must simply copy and paste in a structured format within a company's [handbook](/handbook). It's vital to understand that nurturing this habit serves more than the person receiving the answer. It is, in essence, paying it forward. Documenting solutions makes a more efficient future for every new hire who joins and asks the same question, not to mention existing team members who join a project or conversation midstream and need to understand what steps have been taken thus far (and why).
 
@@ -60,6 +60,7 @@ At GitLab, we [communicate assuming others have low context](/handbook/communica
 1. Getting oneself in a low context frame of mind can be useful. Start by assuming that recipients of your communication **do not know anything** about the topic at hand, and wish to learn as much as possible in as little time as possible.
 1. It's easy to imply your experiences with text communication, but remember that not everyone has similar life experiences to relate to, hence the need to be precise.
 1. By being specific, you're forcing yourself to think through what you're saying. In general, there is value in **taking the time to be deliberate** about communications. Re-read communiques before sending, particularly if they may be perceived as negative or inflammatory to certain parties. The ability to self-edit before sending is a boon to text communication. Vocalized words cannot be unsaid once uttered.
+1. Along these lines, we should be clear in proposals, especially when we are making decisions with trade-offs. For example, we shouldn’t choose between revenue versus usage or broad versus deep without fuller context. To have buy-in and alignment, we need to get into the specifics. We can’t make informed decisions without being **clear on the tradeoffs (do A or B) and the proposal (do A but not B)**. What you should pick depends on the specific situation, and you should aim for agreement on both what you are doing and not doing.
 1. Aiming for precision in communication requires you to put yourself in another person's shoes and **try to understand their current perspective and worldview**. It's important to view text communication not as a way to impose your will, but as a means to listen, understand, and collaborate.
 1. This isn't suggesting that your communication should be cold or soulless. In the GitLab `#thanks` Slack channel, for instance, we encourage team members to be specific about what they are thanking someone for, such that you do not need prior context to understand how a [value](/handbook/values/) was being lived.
 
@@ -110,13 +111,13 @@ If, during a text conversation, you feel that someone is not communicating in th
 
 At the speed of business, it's possible for even the most well-mannered of colleagues to say something regrettable when their heart was typing faster than their brain could regulate. In the event that you think you could have written something better, contrition is advised.
 
-[Say sorry](/handbook/values/#say-sorry) is an operating principle at GitLab. It's simple, yet powerful. Saying sorry via Slack or email, or a quick Zoom call if two parties are online at the same time, enables trust to be rebuilt. When using asynchronous collaboration tools such as [GitLab Issues and Merge Requests]({{< ref "gitlab-for-remote" >}}), feel welcome to reply atop your message if you feel that you may have written something offensive. This will send another email notification to those tagged, whereas an edit to your original message will not.
+[Say sorry](/handbook/values/#say-sorry) is an operating principle at GitLab. It's simple, yet powerful. Saying sorry via Slack or email, or a quick Zoom call if two parties are online at the same time, enables trust to be rebuilt. When using asynchronous collaboration tools such as [GitLab Issues and Merge Requests](/handbook/company/culture/all-remote/gitlab-for-remote/), feel welcome to reply atop your message if you feel that you may have written something offensive. This will send another email notification to those tagged, whereas an edit to your original message will not.
 
 ### Using GitLab for work-related communication
 
 GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page]({{< ref "gitlab-for-remote" >}}).
+You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
 
 ### Communicating dates and time
 
@@ -126,15 +127,15 @@ You can learn more in GitLab's [communication handbook](/handbook/communication/
 
 Managers should strive to **incorporate positive feedback** into their day-to-day work. Particularly in an all-remote setting, where people can work for days, weeks, or months without seeing a colleague [in person](in-person/), friendly words go a long way.
 
-It's easy to brush [positive feedback]({{< ref "leadership#giving-feedback" >}}) aside as nonessential, but that is unwise in a remote setting. If the only feedback a report receives is negative — while hearing nothing when they are exceling — they are likely to view feedback as an attack. Moreover, they're likely to feel unappreciated and misunderstood, and are apt to view critical feedback as something that is being delivered to spite them rather than improve them.
+It's easy to brush [positive feedback](/handbook/leadership/#giving-feedback) aside as nonessential, but that is unwise in a remote setting. If the only feedback a report receives is negative — while hearing nothing when they are exceling — they are likely to view feedback as an attack. Moreover, they're likely to feel unappreciated and misunderstood, and are apt to view critical feedback as something that is being delivered to spite them rather than improve them.
 
-Said another way, putting effort into positive feedback as well as negative feedback creates a climate where the latter is taken seriously. If you are in a situation where you need to deliver [critical feedback]({{< ref "guidance-on-feedback" >}}), consider also offering up what a person is doing well. This creates an element of trust, that you are viewing things in totality and recognize that [people are not their work](/handbook/values/#people-are-not-their-work).
+Said another way, putting effort into positive feedback as well as negative feedback creates a climate where the latter is taken seriously. If you are in a situation where you need to deliver [critical feedback](/handbook/people-group/guidance-on-feedback/), consider also offering up what a person is doing well. This creates an element of trust, that you are viewing things in totality and recognize that [people are not their work](/handbook/values/#people-are-not-their-work).
 
 Feedback is a mechanism to become more understanding and more compassionate. In remote settings where you're working with colleagues from around the globe, feedback enables you to squash misconceptions and become a more understanding human. Though challenging, you should assume positive intent when receiving feedback. If it feels like an attack, ask for clarification.
 
-The goal is to create a two-way street of communication, so that all parties are heard, and work is put in by all sides to ensure that points are understood. It's also important to [think through your responses to feedback]({{< ref "leadership#responding-to-negative-feedback" >}}). You can't choose how you are spoken to, but you *can* control how you respond.
+The goal is to create a two-way street of communication, so that all parties are heard, and work is put in by all sides to ensure that points are understood. It's also important to [think through your responses to feedback](/handbook/leadership/#responding-to-negative-feedback). You can't choose how you are spoken to, but you *can* control how you respond.
 
-If your default [reaction to feedback]({{< ref "guidance-on-feedback" >}}) is to become combative, consider acknowledging feedback and respectfully asking for time to process. Then, schedule a follow-up conversation once you've had time to process it rationally and not just emotionally. This prevents you from feeling compelled to reply in haste.
+If your default [reaction to feedback](/handbook/people-group/guidance-on-feedback/) is to become combative, consider acknowledging feedback and respectfully asking for time to process. Then, schedule a follow-up conversation once you've had time to process it rationally and not just emotionally. This prevents you from feeling compelled to reply in haste.
 
 ## It's about your impact, not your intention
 
@@ -145,13 +146,13 @@ We judge ourselves by our intentions, but people judge us by our actions.
 
 In an all-remote setting, it's important to have a healthy amount of perspective on words that you type. Ask for clarification, and ask if your communication could be delivered in a different or more effective way.
 
-For [managers]({{< ref "leadership" >}}) of multiple people, you may find that one report prefers a certain delivery while another has a different idea of what is ideal. There are multiple ways to deliver a message. Similarly, there are multiple ways to *interpret* a message. It's worth being proactive to ensure that your intentions are delivered.
+For [managers](/handbook/leadership/) of multiple people, you may find that one report prefers a certain delivery while another has a different idea of what is ideal. There are multiple ways to deliver a message. Similarly, there are multiple ways to *interpret* a message. It's worth being proactive to ensure that your intentions are delivered.
 
 When communicating, it's your responsibility to own how something impacted someone, regardless of how you intended it. If you're surprised by how a given communique impacts someone, ask for clarity without being combative. These moments are ideal for learning more about yourself, and how you can tweak your approach to communicating via text to be more considerate.
 
 ## GitLab Knowledge Assessment: Communicating effectively and responsibly through text
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification](/handbook/company/culture/all-remote/remote-certification/) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -161,4 +162,4 @@ Specific examples of using text effectively are ideal for showing new hires how 
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

@@ -48,9 +48,9 @@ Tip: If two or more users use the same MacBook Pro, each user can add a fingerpr
 
 If you are new to using a MacBook or switched from another OS such as windows check out these useful shortcuts and options!
 
-![mactips2.png](mactips2.png)
+![mactips2.png](/images/it/end-user-services/onboarding101/mactips2.png)
 
-![mactips1.png](mactips1.png)
+![mactips1.png](/images/it/end-user-services/onboarding101/mactips1.png)
 
 ### Official Apple Training
 
@@ -72,7 +72,7 @@ Linux: Currently we do not have an endpoint management tool for Linux. However w
 
 It is essential to encrypt your laptops hard drive using Mac's FileVault or Linux's built in encryption. This will prevent unauthorised access of the contents in your hard drive. Please refer to our security pages to complete this.
 
-- [MacBook Encryption](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration)
+- [MacBook Encryption](/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration)
 - [Linux Encryption](/handbook/tools-and-tips/linux/#initial-installation)
 
 ## Need Help?

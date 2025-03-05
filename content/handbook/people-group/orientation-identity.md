@@ -13,14 +13,14 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
 
 ### Additional resources
 
-- [GitLab Ally Resources]({{< ref "ally-resources" >}})
+- [GitLab Ally Resources](/handbook/communication/ally-resources/)
 - [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
 - [Human Rights Campaign website](https://www.hrc.org/)
   - [HRC Sexual Orientation and Gender Identity Definitions](https://www.hrc.org/resources/sexual-orientation-and-gender-identity-terminology-and-definitions)
   - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-and-non-binary-faq)
 - [The Genderbread Person](https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/)
 - [A comprehensive list of LGBTQ+ term definitions](https://www.itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/)
-- [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://www.wearefamilycharleston.org/lgbt-glossary-az)
+- [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://waf.org/lgbt-glossary-az)
 - [UC Davis LGBTQIA Resource Center Glossary](https://lgbtqia.ucdavis.edu/educated/glossary)
 - [Things not to say to a trans person](https://www.youtube.com/watch?v=pvBwWeG4Rpc)
 
@@ -160,9 +160,9 @@ QUILTBAG is a comprehensive, newer term that stands for queer and questioning, u
 
 ### What's the difference between sex and gender?
 
-Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363.php).
+Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363).
 
-Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](http://www.isna.org/faq/frequency).
+Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](https://isna.org/faq/frequency/).
 
 Gender refers to the social norms, emotions, and behaviors that are associated with being female, male, androgynous, or others. Gender traits can vary greatly depending on the time period and cultural context. It's important to remember that gender is not an inherently natural thing, but rather a social construct that varies from society to society.
 
@@ -188,7 +188,7 @@ Transgender is an umbrella term to refer to and capture all non-traditional gend
 
 No, being transgender is not a mental illness.
 
-Transgender people can experience a mental illness known as [gender dysphoria]({{< ref "orientation-identity#gender-dysphoria" >}}), however not all trans people have this experience, so being trans in and of itself is not a mental illness.
+Transgender people can experience a mental illness known as [gender dysphoria](/handbook/people-group/orientation-identity/#gender-dysphoria), however not all trans people have this experience, so being trans in and of itself is not a mental illness.
 
 This [Vox article on transgender mental health](https://www.vox.com/identities/2016/5/13/17938120/transgender-people-mental-illness-health-care) says it well,
 
@@ -208,9 +208,9 @@ Simple, just ask :)
 
 Asking for someone's pronouns is the same as asking for their name. In the same way that you wouldn't assume what someone's name is and start calling them by a name that wasn't theirs, you shouldn't assume someone's pronouns.
 
-In English, there are [many common pronouns](https://uwm.edu/lgbtrc/qa_faqs/what-are-some-commonly-used-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
+In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support-resources/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](https://time.com/4327915/gender-neutral-pronouns/).
 
-For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
+For more information on pronouns, check out [Pronoun Guidance and Information](/handbook/people-group/pronouns/).
 
 ### What if I accidentally use the wrong pronouns?
 
@@ -222,4 +222,4 @@ At GitLab, you will not get fired for any of the following reasons, no matter wh
 
 Race, color, religion, national origin, sex (including pregnancy), age, disability, HIV status, sexual orientation, gender identity, marital status, past or present military service, or any other status protected by the laws or regulations in the locations where we operate.
 
-Please review our [anti-discrimination guidelines]({{< ref "anti-harassment#discrimination" >}}) for more information on what is not tolerated at GitLab.
+Please review our [anti-discrimination guidelines](/handbook/people-group/anti-harassment/#discrimination) for more information on what is not tolerated at GitLab.

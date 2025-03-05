@@ -87,7 +87,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
 1. **As EOC, your highest priority for the duration of your shift is the stability of GitLab.com.**
 1. When there is uncertainty of the cause of a degradation or outage, the **first action of the EOC** is to evaluate whether any changes can be reverted. It is always appropriate to toggle (to previous state) any recently changed application feature flags without asking for permission and without hesitation. The next step is to review Change Requests and validate the eligibility criteria for application rollbacks.
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
-    1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#reliability-lounge` Slack channel.  If you are unable to find coverage reach out to a Reliability Engineering Manager for assistance.
+    1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#eoc-general` Slack channel.  If you are unable to find coverage reach out to the [EOC coordinator](#engineer-on-call-coordinator) for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
     1. Alert-manager alerts in [`#alerts`](https://gitlab.slack.com/archives/alerts) and [`#feed_alerts-general`](https://gitlab.slack.com/archives/feed_alerts-general) are an important source of information about the health of the environment and should be monitored during working hours.
     1. If the PagerDuty alert noise is too high, your task as an EOC is clearing out that noise by either fixing the system or changing the alert.
@@ -131,7 +131,7 @@ When paged, the Incident Managers have the following responsibilities during a S
 1. Ensuring that the root cause is stated clearly and plainly in the incident description, linking to a confidential note or issue if the root cause cannot be made public.
 1. Determining when the incident has been resolved and ensuring that it is closed and labeled when there is no more user impact.
 1. If necessary, help the EOC to engage development using the [InfraDev escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/).
-1. If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/gitlab-business-continuity-plan/).
+1. If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/).
 1. If there is a `~review-requested` label on the incident, after the incident is resolved, the Incident Manager is the DRI of the [post-incident review](/handbook/engineering/infrastructure/incident-review/). The DRI role can be delegated.
 1. Following the first significant Severity 1 or 2 incident for a new Incident Manager, schedule a feedback coffee chat with the Engineer On Call, Communications Manager On Call, and (optionally) any other key participants to receive actionable feedback on your engagement as Incident Manager.
 1. For all Severity 1 and Severity 2 incidents that are communicated on the [GitLab.com status page](https://status.gitlab.com), [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#process-for-asynchronous-reviews) and inform the Engineering Manager of the team owning the root cause that they will need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
@@ -232,8 +232,8 @@ When paged, the Infrastructure Liaison will:
 ### Other escalations
 
 Further support is available from the Scalability and Delivery Groups if required.
-Scalability leadership can be reached via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)).
-Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
+Scalability leadership can be reached via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/#emergency-escalation-during-s1s2-incidents)).
+Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation) steps on the Delivery group page.
 
 ### Incident Mitigation Methods - EOC/Incident Manager
 
@@ -313,7 +313,7 @@ Due to the overhead involved and the risk of detracting from impact mitigation e
 Implementing a direct customer interaction call for an incident is to be initiated by the current Incident Manager by taking these steps:
 
 1. Identify a second Incident Manager who will be dedicated to the customer call. If not already available in the incident, announce the need in #im-general with a message like `/here A second incident manager is required for a customer interaction call for XXX`.
-1. Page the [Infrastructure Leadership pagerduty rotation](https://gitlab.pagerduty.com/schedules#PBSMJH2) for additional assistance and awareness.
+1. Page the [Infrastructure Leadership pagerduty rotation](#infrastructure-leader) for additional assistance and awareness.
 1. Identify a Customer Success Manager who will act as the primary CSM and also be dedicated to the customer call. If this role is not clear, also refer to Infrastructure Leadership for assistance.
 1. Request that both of these additional roles join the main incident to come up to speed on the incident history and current status. If necessary to preserve focus on mitigation, this information sharing may be done in another Zoom meeting (which could then also be used for the customer conversation)
 
@@ -381,7 +381,7 @@ The current EOC can be contacted via the `@sre-oncall` handle in Slack, but plea
 
 1. You need assistance in halting the deployment pipeline. note: this can also be accomplished by [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and labeling it with `~blocks deployments`.
 1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure/change-management/) process and as a required step need to seek the approval of the EOC.
-1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance) section.
+1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/getting-assistance/) section.
 
 The EOC will respond as soon as they can to the usage of the `@sre-oncall` handle in Slack, but depending on circumstances, may not be immediately available. If it is an emergency and you need an immediate response, please see the [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) section.
 
@@ -395,7 +395,7 @@ Type `/incident declare` in the [`#production`](https://gitlab.slack.com/archive
 It is always better to err on side of choosing a higher severity, and declaring an incident for a production issue, even if you aren't sure.
 Reporting high severity bugs via this process is the preferred path so that we can make sure we engage the appropriate engineering teams as needed.
 
-![Incident Declaration Slack window](incident-declare-slack.png)
+![Incident Declaration Slack window](/images/engineering/infrastructure/incident-management/incident-declare-slack.png)
 _Incident Declaration Slack window_
 
 | Field | Description |
@@ -406,7 +406,7 @@ _Incident Declaration Slack window_
 | Page engineer on-call / incident manager / communications manager on-call | **Leave these checked** unless the incident is severity 1 or severity 2, and does not require immediate engagement (this is unusual), or if the person submitting the incident is the EOC. **We will not page anyone for severity 3 and severity 4 incidents, even if the boxes are checked**. |
 | Confidential | This will mark the issue confidential, do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). We generally prefer to leave this unchecked, and use confidential notes for information that cannot be public. |
 
-![Incident Declaration Results](incident-declare-results.png)
+![Incident Declaration Results](/images/engineering/infrastructure/incident-management/incident-declare-results.png)
 
 _Incident Declaration Results_
 
@@ -468,7 +468,7 @@ In the case of a high severity bug that is in an ongoing, or upcoming deployment
 
 ## Security Incidents
 
-If an incident may be security related, engage the Security Engineer on-call by using `/security` in Slack. More detail can be found in [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html).
+If an incident may be security related, engage the Security Engineer on-call by using `/security` in Slack. More detail can be found in [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/).
 
 ## Communication
 
@@ -536,9 +536,9 @@ Incident Managers and Engineers On-Call can use the following table as a guide f
 
 | Severity | Description     | Example Incidents     |
 | ------------- | ------------- | -------------|
-| `~severity::1` |  &emsp;- GitLab.com is unavailable or severely degraded for the typical GitLab user<br>&emsp;- Any data loss directly impacting customers<br>&emsp;- The [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) is put in jeopardy<br>&emsp;- It is a [high impact security incident](/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br>&emsp;- It is an internally facing incident with full loss of metrics observability (Prometheus down)<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::1` incidents| Past `severity::1` [Issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A1&first_page_size=100)|
-| `~severity::2` |   &emsp;- There is a recorded impact to the availability of one or more [GitLab.com Primary Service with a weight > 0](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1h&to=now). This includes `api`, `container registry`, `git access`, `API` and `web`.<br>&emsp;- GitLab.com is unavailable or degraded for a small subset of users <br>&emsp;- GitLab.com is degraded but a reasonable workaround is available<br>&emsp;- A widespread styling problem (frontend degradation) that makes the platform look unreliable.<br>&emsp;- Any [moderate impact security incident](/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br>&emsp;- CustomersDot is offline<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::2` incidents| Past `severity::2` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A2&first_page_size=100)|
-| `~severity::3` |   &emsp;- Broad impact on GitLab.com and minor inconvenience to typical user's workflow <br>&emsp;- A workaround is not needed<br>&emsp;- Any [low impact security incident](/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br>&emsp;- Most internally facing issues pertaining to blocked deployments (should a higher-severity incident be blocked by deployments, the severity for the blocker is still 3)<br>&emsp;- CustomersDot is in maintenance mode | Past `severity::3` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A3&first_page_size=100)|
+| `~severity::1` |  &emsp;- GitLab.com is unavailable or severely degraded for the typical GitLab user<br>&emsp;- Any data loss directly impacting customers<br>&emsp;- The [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) is put in jeopardy<br>&emsp;- It is a [high impact security incident](/handbook/security/security-operations/sirt/severity-matrix/#functional-impact-rating-examples)<br>&emsp;- It is an internally facing incident with full loss of metrics observability (Prometheus down)<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::1` incidents| Past `severity::1` [Issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A1&first_page_size=100)|
+| `~severity::2` |   &emsp;- There is a recorded impact to the availability of one or more [GitLab.com Primary Service with a weight > 0](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1h&to=now). This includes `api`, `container registry`, `git access`, `API` and `web`.<br>&emsp;- GitLab.com is unavailable or degraded for a small subset of users <br>&emsp;- GitLab.com is degraded but a reasonable workaround is available<br>&emsp;- A widespread styling problem (frontend degradation) that makes the platform look unreliable.<br>&emsp;- Any [moderate impact security incident](/handbook/security/security-operations/sirt/severity-matrix/#functional-impact-rating-examples)<br>&emsp;- CustomersDot is offline<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::2` incidents| Past `severity::2` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A2&first_page_size=100)|
+| `~severity::3` |   &emsp;- Broad impact on GitLab.com and minor inconvenience to typical user's workflow <br>&emsp;- A workaround is not needed<br>&emsp;- Any [low impact security incident](/handbook/security/security-operations/sirt/severity-matrix/#functional-impact-rating-examples)<br>&emsp;- Most internally facing issues pertaining to blocked deployments (should a higher-severity incident be blocked by deployments, the severity for the blocker is still 3)<br>&emsp;- CustomersDot is in maintenance mode | Past `severity::3` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A3&first_page_size=100)|
 | `~severity::4` |   &emsp;- Minimal impact on GitLab.com typical user's workflow | Past `severity::4` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A4&first_page_size=100)|
 
 ### Alert Severities
@@ -563,7 +563,8 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 In order to effectively track specific metrics and have a single pane of glass for incidents and their reviews, specific labels are used. The below [workflow diagram](#workflow-diagram) describes the path an incident takes from `open` to `closed`. All `S1` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#review-criteria).
 
-GitLab uses the [Incident Management](/handbook/engineering/infrastructure/incident-management/) feature of the GitLab application. Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and closed when they are resolved. A resolved incident means the degradation has ended and will not likely re-occur.
+Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and closed when the `~Incident::Resolved` label is applied.
+A resolved incident means the degradation has ended and will not likely re-occur.
 
 If there is additional follow-up work that requires more time after an incident is resolved and closed (like a detailed root cause analysis or a corrective action) a new issue may need to be created and linked to the incident issue.
 It is important to add as much information as possible as soon as an incident is resolved while the information is fresh, this includes a high level summary and a timeline where applicable.
@@ -597,7 +598,7 @@ In order to help with attribution, we also label each incident with a scoped lab
 | ----- | -------------- |
 | `~Incident::Active` | Indicates that the incident labeled is active and ongoing. Initial severity is assigned when it is opened. |
 | `~Incident::Mitigated` | Indicates that the incident has been mitigated. A mitigated issue means that the impact is significantly reduced and immediate post-incident activity is ongoing (monitoring, messaging, etc.). The mitigated state should not be used for silenced alerts, or alerts that may reoccur. In both cases you should mark the incident as resolved and close it.|
-| `~Incident::Resolved` | Indicates that SRE engagement with the incident has ended and the condition that triggered the alert has been resolved. Incident severity is re-assessed and determined if the initial severity is still correct and if it is not, it is changed to the correct severity. Once an incident is resolved, the issue will be closed. |
+| `~Incident::Resolved` | Indicates that SRE engagement with the incident has ended and the condition that triggered the alert has been resolved. Incident severity is re-assessed and determined if the initial severity is still correct and if it is not, it is changed to the correct severity. Once an incident has the `~Incident::Resolved` label, it will be automatically closed when all required info has been added to the description. |
 
 #### Root Cause Labeling
 
@@ -684,8 +685,11 @@ The following labels are added and removed automatically by [triage-ops](https:/
 
 | Needs Label | Description |
 | ----------- | ----------- |
-| `~{RootCause,Service,CorrectiveActions,IncidentReview}::Needed` | Will be added automatically if the corresponding label has not been set. If this label persists the DRI of the incident will be mentioned on a note to correctly label the incident |
-| `~{RootCause,Service,CorrectiveActions,IncidentReview}::NotNeeded` | In rare cases, the corresponding label won't be needed, this label can be used to disable the periodic notes to remind the DRI to update the label |
+| `~{RootCause,Service}::Needed` | Will be added automatically if the corresponding label has not been set. If this label persists the DRI of the incident will be mentioned on a note to correctly label the incident |
+| `~CorrectiveActions::Needed` | Will be added automatically if there are no issues with a `~corrective action` or `~infradev` label related on the incident. |
+| `~IncidentReview::Needed` | Will be added automatically if there is not a related incident review issue, create one by using the link in the issue description. |
+| `~ExecSummary::Needed` | For issues where an exec summary is required, this label will be added until the exec summary is filled out in the description.` |
+| `~{RootCause,Service,CorrectiveActions,IncidentReview,ExecSummary}::NotNeeded` | In rare cases, the corresponding label won't be needed, this label can be used to disable the periodic notes to remind the DRI to update the label |
 
 #### Required Labeling
 
@@ -743,11 +747,9 @@ There are [related issue links](https://gitlab.com/gitlab-com/gl-infra/productio
     B --> D
     C --> D(Incident::Resolved)
     D --> |severity is re-assessed| D
-
-    D -.-> |for review-requested incidents| E(Incident::Review-Completed)
 ```
 
-- As soon as an incident transitions to `Incident::Resolved` the incident issue will be closed
+- As soon as an incident transitions to `Incident::Resolved`, automation will close the incident when all necessary information is added to the incident description.
 - All `Severity::1` incidents will automatically be labeled with `review-requested`
 
 ### Alert Silences
@@ -770,7 +772,7 @@ of close calls since 1976. Due to near miss observations and other technological
 the rate of fatal accidents has dropped about 65 percent.
 [source](https://en.wikipedia.org/wiki/Near_miss_(safety))
 
-As [John Allspaw states](https://qz.com/504661/why-etsy-engineers-send-company-wide-emails-confessing-mistakes-they-made/):
+As [John Allspaw states](https://qz.com/504661/why-etsy-engineers-send-company-wide-emails-confessing-mistakes-they-made):
 
 > Near misses are like a vaccine. They help the company better defend against
 > more serious errors in the future, without harming anyone or anything in the process.

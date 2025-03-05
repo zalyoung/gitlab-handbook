@@ -75,7 +75,7 @@ If you see value in sharing Service Ping data and it's not technically possible 
 ## 8. How do I disable service ping?
 
 **Free Self-Managed instances (CE and EE edition): If you want to deactivate this feature, go to the Settings page of your administration panel and uncheck the Service Ping checkbox.
-**Paid Self-Managed instances (EE edition)**:  You may partially deactivate Service Ping by unchecking the Service Ping checkbox of your administration panel.  However, certain Service Ping metrics related to subscriptions and customer success services can only be deactivated via support or through a sales representative. Details can be found in our [Customer Product Usage Information](handbook/legal/privacy/customer-product-usage-information/#service-ping-formerly-known-as-usage-ping).
+**Paid Self-Managed instances (EE edition)**:  You may partially deactivate Service Ping by unchecking the Service Ping checkbox of your administration panel.  However, certain Service Ping metrics related to subscriptions and customer success services can only be deactivated via support or through a sales representative. Details can be found in our [Customer Product Usage Information](/handbook/legal/privacy/customer-product-usage-information/#service-ping-formerly-known-as-usage-ping).
 
 You can view the payload at "/admin/application_settings/metrics_and_profiling" in the Usage Statistics section and press the "View Payload" button.
 
