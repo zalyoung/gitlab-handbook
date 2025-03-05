@@ -77,15 +77,20 @@ flowchart LR
     click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
     DE --> FR[Feature Readiness]
     click FR "/handbook/engineering/infrastructure-platforms/developer-experience/feature-readiness/"
-    DE --> PE[Performance Enablement]
-    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
+    DE --> PER[Performance Enablement]
+    click PER "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     DE --> TG[Test Governance]
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
+    GD --> E[Environment Automation]
+    click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation/"
+    GD --> PSS[Public Sector Services]
+    click PSS "/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services/"
+    GD --> Switchboard
+    click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
+
     SD --> B[Build]
     click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-
-    click SM "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SD --> Framework
     click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> R[Release]
