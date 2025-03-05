@@ -60,7 +60,7 @@ The following items are to be covered/completed in your initial cadence call/kic
   - Strongly advise that they sign-up for security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/)
   - Share the [Communication Preference Center link](https://about.gitlab.com/company/preference-center/) so that customers can manage the emails they get from GitLab
 - If the customer is on a SaaS subscription:
-  - Share [Status](https://status.gitlab.com/) and [Communications Preferences](/handbook/company/preference-center/) pages with customer and advise that they opt-in to security alerts
+  - Share [Status](https://status.gitlab.com/) and [Communications Preferences](https://about.gitlab.com/company/preference-center/) pages with customer and advise that they opt-in to security alerts
   - Subscribe the GitLab Admin to Status page updates
 - Set up recurring cadence calls (CSM-managed only)
 
