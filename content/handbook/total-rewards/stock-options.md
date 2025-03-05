@@ -195,6 +195,7 @@ If you would like to purchase GTLB shares, this must be done through your E*TRAD
 - Non-US local country contact phone numbers are found [here](https://us.etrade.com/e/t/home/contactus_esp)
 
 **Customer Service can assist with**
+
 - Activating your account
 - Navigating the Stock Plan section of etrade.com
 - Finding tax information
