@@ -204,7 +204,7 @@ separately for each project.
 
 Vulnmapper automatically creates Deviation Requests but may fail for various reasons, such as the absence of analysis from NVD.
 
-In cases where automation fails, you must create the [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) manually before the issues reach SLA.
+In cases where automation fails, you must create the [Deviation Requests](/handbook/security/security-assurance/security-compliance/poam-deviation-request-procedure/) manually before the issues reach SLA.
 To do so, use the following procedure.
 
 1. Open a DR issue with the [operational requirement template](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new?issuable_template=operational_requirement_template).

@@ -54,7 +54,7 @@ The following items are to be covered/completed in your initial cadence call/kic
 - Identify training needs and agree on enablement sessions
   - New Customers: Discuss the [Intro to GitLab and the Intro to CI/CD enablement sessions](/handbook/customer-success/csm/workshops/) in your first cadence call
   - Existing Customers: Discuss other [enablement sessions](/handbook/customer-success/csm/workshops/) in-line with their desired use cases and potential expansion opportunities (it can be helpful to start discussing future sessions/topics right after one is delivered and it's fresh in their mind)
-  - Scale Customers: Share the [landing page for upcoming webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/), and encourage them to sign up for the Intro to GitLab and the Intro to CI/CD webinars at a minimum
+  - Scale Customers: Share the [landing page for upcoming webinars](https://university.gitlab.com/pages/gitlab-user-webinars), and encourage them to sign up for the Intro to GitLab and the Intro to CI/CD webinars at a minimum
 - Share our [support offerings](https://about.gitlab.com/support/)
 - If the customer is on a self-managed subscription:
   - Strongly advise that they sign-up for security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/)
