@@ -250,19 +250,82 @@ Every Tuesday, a calendar event with an attached agenda exists for a synchronous
 
 On top of our development roadmap, engineering teams need to perform tasks related to vulnerability management, support, maintenance, community contributions.
 
-The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab product milestones. When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
+The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
+
+### Request For Help (RFH) Resolution Guide
+
+This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper issue management.
+
+Engineers participating in reaction coordination must make sure there GitLab handles are included in the RFH template so they are notified when a new RFH is opened.
+
+When a new RFH is opened the reaction coordinator will be assigned and starts the investigation. If the reaction coordinator rolls off reaction coordination before the RFH is completed, the RFH should be handed off to an incoming reaction coordinator.
+
+**At least once, each milestone**, the Reaction Coordinator is responsible for triaging existing RFH issues.
+
+1. Has an engineer engaged with the RFH? If not, assign RFH to one of the reaction coordination engineers to work on.
+1. Is the RFH a candidate to be closed? If so, close the RFH issue with any needed notes.
+1. Check zendesk for latest customer response.
+
+#### When to Close an RFH
+
+RFH issues can take a long time to resolve with numerous back and forth communications between engineering, support, and the customer. Sometimes customers will stop responding if they get past the issue, a workaround works, or they decide to stop investing in the support case. To limit the amount of issue maintenance that is required, RFH issues should be closed when there are no more steps to be performed or when the last step is a confirmation from the customer. When the last step is a confirmation from the customer close the issue with a message similar to:
+
+`Closing this issue out as a fix/workaround has been provided. Please feel free to re-open this issue if provided solution doesn't work or the customer has additional questions/concerns.`
+
+This prevents engineers from having to circle back and close out issues if the customer never responds.
+It also helps keep our KPIs looking good (how many RFHs are open, how long to resolve).
+
+An RFH issue can be closed under the following circumstances:
+
+1. Confirmed resolution 
+    - The customer has confirmed the issue has been resolved
+
+1. High confidence workaround or resolution
+    - Engineer provides a high confidence workaround or resolution
+    - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
+
+1. Feature request backlog  
+    - The RFH is for a feature that cannot be prioritized immediately
+    - An issue has been created in the backlog
+    - The backlog issue has been linked to the original RFH
+    - A note has been added to the RFH pointing to the linked issue
+    - Engineer closes issue
+
+1. Immediate Implementation 
+    - The issue has been worked on immediately
+    - Changes have been merged and are ready for customer testing
+    - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
+
+1. No Customer Response
+    - The RFH has received a response from support
+    - There has been no customer reply for a prolonged period (15 days)
+    - Engineer closes issue with a note to reopen if the customer responds
+
+#### Best Practices
+
+- Acknowledge receipt of new RFH issues promptly
+- Set clear expectations about resolution timeframes
+- Link related issues or documentation when applicable
+- Provide detailed explanations when closing issues to ensure knowledge transfer
+
+#### Issue Status Monitoring
+
+Regular review of open RFH issues should be conducted to ensure no issues remain unaddressed for extended periods.
 
 ### Vulnerability Management
 
-**Once a week**, the Reaction Coordinator is responsible for triaging vulnerabilities reported on the projects we maintain and helping resolve them depending on their priority.
-
-1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Vulnerability Management Process](#vulnerability-management-process))
+1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
+1. Check for new security releases of our dependencies and ensure we use them:
+   1. Upstream scanners (see [Updating an upstream scanner](/handbook/engineering/development/sec/secure/composition-analysis/#updating-an-upstream-scanner))
+   1. Container base images
+   1. Application dependencies
+   1. Programming language
 1. Refine scheduled security issues.
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!)
 
-### Vulnerability Management Process
+### Security vulnerabilities triaging process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
 
@@ -298,9 +361,13 @@ We use the Vulnerability Report with filters to focus on items matching [our pol
 For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. I
 > Refer to [Vulnerability status definitions](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
 
+##### Triaging vulnerabilities
+
+We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
+
 #### Dismissing a vulnerability
 
-When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FIPS image.
+When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FedRAMP image (fips).
 Select the "Dismiss" option from the vulnerability status options.
 Finally, make sure to comment on the vulnerability status change notification to explain why.
 
@@ -317,7 +384,7 @@ If the vulnerability impacts a dependency:
 
 Upon remediating a vulnerability, it will [automatically be moved to "Resolved"](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/merge_requests/8) status by the next scan.
 
-##### Support
+##### Responsibilities - Support
 
 1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/request-for-help).
