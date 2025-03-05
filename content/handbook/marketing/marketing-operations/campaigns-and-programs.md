@@ -995,16 +995,16 @@ It is critical that any reference to asset number in the Marketo automation belo
 
 - `01 Processing`
   - **Flow**:
-   - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+  - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
 
- - **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+- **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
 
-   - `Step 6 - Execute Campaign` (Content Syndication Asset) - If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
+  - `Step 6 - Execute Campaign` (Content Syndication Asset) - If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
 
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
 
 - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
-   - **Smart List**: In filter 2: `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
+  - **Smart List**: In filter 2: `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 6: Important information for content syndication list uploads
 
