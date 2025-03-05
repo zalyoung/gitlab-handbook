@@ -15,7 +15,7 @@ To following along on the project, follow Asana project: https://app.asana.com/0
 
 ## Access
 
-Jifflenow will be made available to Sales attending events, EBAs and event managers. If you need access, please create an AR. Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set.
+Jifflenow will be made available to Sales attending events, EBAs and event managers. If you need access, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set, so please make sure the Sales Systems team is tagged (Similar to SFDC access requests).
 
 ## User Roles
 
