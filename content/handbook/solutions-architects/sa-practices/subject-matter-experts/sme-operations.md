@@ -69,7 +69,7 @@ Purpose: This is the main channel for all SME-related discussions and announceme
 |----------|---------------------------|
 | All SMEs | #subject-matter-experts   |
 
-### SME Area Internal Slack Channels
+### SME Area Internal Slack Channels {#sme-internal}
 
 Purpose: These SME Pod channels are mainly for SME Program Leads, SME Area Leads, SMEs and SME Associates. They are used for:
 
