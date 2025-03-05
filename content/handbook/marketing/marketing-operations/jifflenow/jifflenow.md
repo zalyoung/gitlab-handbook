@@ -15,7 +15,7 @@ To following along on the project, follow Asana project: https://app.asana.com/0
 
 ## Access
 
-Jifflenow will be made available to Sales attending events, EBAs and event managers. If you need access, please create an AR. Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set. 
+Jifflenow will be made available to Sales attending events, EBAs and event managers. If you need access, please create an AR. Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set.
 
 ## User Roles
 
@@ -24,7 +24,7 @@ Jifflenow will be made available to Sales attending events, EBAs and event manag
 
 ## Training
 
-We have put together a comprehensive [training slide deck](https://docs.google.com/presentation/d/1yzGICzWa1687_da4tte7rV3qnMbwtZjEVpgTDb3XjAA/edit#slide=id.g1d24c3e4ddd_5_252), and we also have linked training videos below: 
+We have put together a comprehensive [training slide deck](https://docs.google.com/presentation/d/1yzGICzWa1687_da4tte7rV3qnMbwtZjEVpgTDb3XjAA/edit#slide=id.g1d24c3e4ddd_5_252), and we also have linked training videos below:
 
 - [EBA and Meeting Manager Training](https://drive.google.com/file/d/1MlgZaD-Z41DSaVfAAql4uR5gIIz4velv/view?usp=drive_link)
 - [Meeting Requestor Training - for Sales and Field](https://drive.google.com/file/d/1JXDmdWs2391CW4h7C3Q2rX8I4NNJPYZv/view?usp=sharing)
@@ -42,5 +42,5 @@ Reach out in #proj_jifflenow-implementation for more information.
 
 For event specfic help, go to:
 
-- #googlenext-execmtgs-2025 
+- #googlenext-execmtgs-2025
 - #rsa-conference-execmtgs-2025
