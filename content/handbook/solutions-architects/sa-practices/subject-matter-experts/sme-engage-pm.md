@@ -34,7 +34,7 @@ As part of this symbiotic relationship, we expect Gitlab Product Management, as 
 1. Meeting with SMEs at least once a month to enable SMEs and provide understandin on product changes, or give updates to product since last meeting
 1. Being very responsive and available to answer questions from SMEs, or get clarifications from SMEs, in approriate `sme-internal` channels, so that SMEs can accurately assist other resources. We expect PMs to respond to SME's inquiry withinn 4 hours in the SME internal channels. 
 1. Allow and give preference to SMEs, to shadow PMs, in the [Shadow a PM program (TBD)](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/work_items/460)
-1. Enable the field and provide roadmap updates during [Technical Skills Exchange]((/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/sme-tech-skills)) sessions.  
+1. Enable the field and provide roadmap updates during [Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-tech-skills) sessions.  
 1. Provide roadmaps to customers and not expect the SMEs to comee up with roadmap content based on the rpadmapmin the Handbook.
 1. Give priority to issues raised by SMEs as part of the [Gathering Customer Feedback process](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback.md). We expect PMs to meet established SLAs as determined by that process.
 
@@ -59,27 +59,42 @@ For other recommendations, please see [Before Engaging or Requesting A PM Consid
 1. During a POV, and you have already triaged with a SME as discussed above. This is usually the case assistance is needed on brand new functionality, or there is a need for a bug fix or enhancement.
 1. During a customer escalation, once the appropriate [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request) has been followed.
 
-### How to Escalate to a PM, After engaging a SME
-
-#### PMs attending Customer Calls
+## How to Engage/ Escalate to a PM, After engaging a SME
 
 PMs are incentivised to get [direct feedback from customers also](/handbook/product/product-processes/#customer-meetings).
 
-To request a PM to attend a Customer Call, you should follow the process described in ["Product Joining Customer Calls".](/handbook/product/product-management/#product-joining-customer-calls)
+PMs should be engaged in customer opportunities, with at least 24hr notice in the following manner: 
+1. Request a Customer Call (one time, during evaluation, cadence calls). 
+2. Resolve issues around product gaps and questions
+3. Async involvement in Evaluations (trials, proof of value)
 
-PMs usually request a gathering of all customer context, filling out the [PM Customer Meeting Briefing Document](https://docs.google.com/document/d/1TPJwjJTOrlrtuJ_srs631ndL6dkiwl9yIi3PPtgStos/edit#heading=h.sujaka5bd7jl), and contacting the PMs in the slack channel for their [group or category](https://handbook.gitlab.com/handbook/product/categories/#devops-stages).
+### Request a Customer Call 
 
-#### Requests for Product Support
+- Do not expect PMs to attend calls to do discovery.
+- To request a PM to attend a Customer Call, you should follow the process described in ["Product Joining Customer Calls".](/handbook/product/product-management/#product-joining-customer-calls)
+- PMs usually request a gathering of all customer context, filling out the [PM Customer Meeting Briefing Document](https://docs.google.com/document/d/1TPJwjJTOrlrtuJ_srs631ndL6dkiwl9yIi3PPtgStos/edit#heading=h.sujaka5bd7jl), and contacting the PMs in the slack channel for their [group or category](/handbook/product/categories/#devops-stages).
 
-Please follow the [standardized request process based on issues](/handbook/product/product-management/#requests-for-product-support) 
+However [some Stages](/handbook/product/categories/#devops-stages) may have a slight variation of this process, example [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#customer-issues) may require opening an issue.
+
+See also following the [standardized request process based on issues](/handbook/product/product-management/#requests-for-product-support) 
+
+### Resolve Issues Around Product Gaps and Questions
+
+- Please refer to the [SME Customer Feedback Process (TBD)](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback.md)
+
+### Requests for Async Involvement in Evaluations (trials, proof of value())
+
+- SAs/ SMEs/ CSMs create Trial/ POV issues in Customer Collaboration Projects
+- 
+
 
 ---
 
-### **Opportunities to Engage with Product Management**
+### **Other Opportunities to Engage with Product Management**
 
 #### Technical Skills Exchange
 
-1. [During Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/sme-tech-skills)Technical Product Managers and Product Managers to provide demos or demo snippets to SMEs for new functionality feedback.
+1. [During Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-tech-skills)Technical Product Managers and Product Managers to provide demos or demo snippets to SMEs for new functionality feedback.
 
 #### Product Management Roadmap Meetings
 
