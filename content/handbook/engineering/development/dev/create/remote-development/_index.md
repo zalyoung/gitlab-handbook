@@ -206,7 +206,7 @@ NOTE: All issues in this process _must_ be assigned the `~Category:Workspace` or
 ```mermaid
 graph TD;
   S[Feature Inception] -->|"New epic is created, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Planning]
-  V -->|"Epic is prioritized into the roadmap and on the epic board by PM"| R[Async Refinement]
+  V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding '(workspaces|webide)-workflow::prioritized' label "| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
   P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
   
@@ -223,8 +223,8 @@ graph TD;
 Ideas can come from anywhere and anyone. If you have an idea...
 
 1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedbback & Insights epic.
-2. Pre-fix the issue title with "Feedback:..." or "Idea:..." 
-3. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda
+1. Pre-fix the issue title with "Feedback:..." or "Idea:..." 
+1. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda
 
 #### 2. High Level Planning
 
@@ -250,7 +250,7 @@ The **High Level Planning** meeting is an open forum where new and ongoing work 
 
 #### 3. Async Refinement Process
 
-The **Async Refinement** process is designed to prepare upcoming work efficiently on the epic board, which serves as our source of truth for prioritization.
+The **Async Refinement** process is designed to prepare upcoming work efficiently focusing on issue breakdowns and identifying any unknows of implementation.
 
 **Key Principles:**
 
@@ -267,15 +267,15 @@ The **Async Refinement** process is designed to prepare upcoming work efficientl
 
    - Look for epics marked in <span style="color:#1068bf">blue</span> on the epic board.
 
-2. **Break Down the Epic:**
+1. **Break Down the Epic:**
    - Divide the epic into smaller, actionable issues.
    - Define the work necessary to meet the epic’s acceptance criteria.
 
-3. **Mark as Refined:**
+1. **Mark as Refined:**
    - Once refined, change the epic color to <span style="color:#f3ad5d">apricot</span> to indicate it is ready for weighing.
    - Add the label **"refined"** to signal readiness.
 
-4. **Next Steps - Iterative Planning Meeting:**
+1. **Next Steps - Iterative Planning Meeting:**
    - Following refinement, epics enter the **Iteration Planning Meeting** where all issues within an epic are weighed.
    - After this stage, epics are marked <span style="color:#4dd787">mint</span> to indicate they are fully weighed and ready for execution.
 
@@ -306,13 +306,15 @@ TODO: Assigning prioritized issues to specific releases based on calculated iter
 
 The **Milestone Planning & Starting Development** process is used to plan issues for development in upcoming releases and to align team efforts with milestone.
 
-**Epic and Issue Setup:** When starting work on a new epic, all child issues are labeled with `~"(workspaces|webide)-workflow::prioritized"`and assigned the milestone **`%"Next 1-3 Releases"`** to indicate they are prioritized for near-term development.
+**Epic and Issue Setup:** When starting work on a new epic, all child issues are labeled assigned the milestone **`%"Next 1-3 Releases"`** to indicate they are prioritized for near-term development.
+
+If any **unplanned work or issues need to be added to an active milestone, discuss them with the EM beforehand**, as they may impact delivery projections and milestone commitments.
 
 **Milestone Planning and Creating Planning Issue**:
 
 1. Before each milestone begins, the Engineering Manager along with Product Manager reviews and assigns issues for the upcoming release based on the team’s velocity. Specific milestone number `%XX.X` to designate them as part of the planned release.
 
-2. A **Planning Issue** is automatically created two weeks before start of the new release cycle. This issue is populated with relevant details to guide the team through the milestone. You can view and access all active Planning Issues [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=updated_desc&state=opened&search=planning%20issue&first_page_size=50).
+1. A **Planning Issue** is automatically created two weeks before start of the new release cycle. This issue is populated with relevant details to guide the team through the milestone. You can view and access all active Planning Issues [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=updated_desc&state=opened&search=planning%20issue&first_page_size=50).
 
 This structure enables smooth planning, tracking, and alignment of development work within each milestone, ensuring work progresses as planned and within scope.
 
