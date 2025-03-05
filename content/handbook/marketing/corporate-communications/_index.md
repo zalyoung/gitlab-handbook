@@ -94,14 +94,15 @@ Our media strategy focuses on technology publications, business media, and verti
 
 The full criteria for PR support at events includes:
 
-- **Spokesperson Availability:** An e-group member or designated delegate is confirmed to be onsite and available for interviews.
-- **Geographic Alignment:** The event is held in a country or region the corporate communications team currently supports (US, UK, Germany, France, Japan, Australia).
-- **Media Presence:** At least three journalists from GitLab Top Media will be present at the event.
-- **News Hook:** The event aligns with a compelling news hook related to a product announcement, significant partnership, or major industry trend for media or analysts in attendance.
+* **Spokesperson Availability:** An e-group member or designated delegate is confirmed to be onsite and available for interviews.
+* **Geographic Alignment:** The event is held in a country or region the corporate communications team currently supports (US, UK, Germany, France, Japan, Australia).
+* **Media Presence:** At least three journalists from GitLab Top Media will be present at the event.
+* **News Hook:** The event aligns with a compelling news hook related to a product announcement, significant partnership, or major industry trend for media or analysts in attendance.
 
 Additional considerations include:
-- **Customer Availability:** At least one customer approved to speak with the media on behalf of their brand about their GitLab experience is confirmed to attend. Customer contact information must be provided to the PR team 6 weeks in advance.
-- **Analyst Alignment:** At least three analysts covering GitLab’s primary markets will be present at external events.
+
+* **Customer Availability:** At least one customer approved to speak with the media on behalf of their brand about their GitLab experience is confirmed to attend. Customer contact information must be provided to the PR team 6 weeks in advance.
+* **Analyst Alignment:** At least three analysts covering GitLab’s primary markets will be present at external events.
 
 ### Vertical Industry Support Requests
 
