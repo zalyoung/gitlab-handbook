@@ -586,14 +586,14 @@ There are times when presenting during a meeting is needed. This may occur when 
 
 #### Framework for meetings with presentations
 
-While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-assembly/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
+While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
 
 GitLab has the following meeting framework for determining which meetings should have presentations:
 
 | Presentation Approach | Types of meetings with few participants | Types of meetings with many participants |
 | ------------- | ------------- | ------------- | ------------- |
 | No presentations (async prep) | Most meetings | [AMA](/handbook/communication/ask-me-anything/) |
-| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-assembly/) and other large team meetings |
+| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-all-company-meetings/) and other large team meetings |
 
 ### Meeting introduction guidelines
 
