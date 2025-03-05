@@ -117,8 +117,8 @@ Example of the Staging environment rollback pipeline:
 
 Anyone can **halt or block a deployment to Production** by:
 
-1. Declaring a [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
-1. Applying the `blocks deployments` label. This prevent automated deployments to the Production environment from starting.
+1. [Declaring](https://gitlab.com/gitlab-com/runbooks/docs/incident-io-onboard/incident-management.md#how-to-raise-an-incident) a [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
+1. From the incident Slack channel, run the `/inc field` command to update [custom fields](https://gitlab.com/gitlab-com/runbooks/docs/incident-io-onboard/oncall.md#on-call-alert-handling-process), then select 'Yes' under Block Deployments.
 1. Alerting the Release Managers in the [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) channel.
 
 In addition, automated deployments to **any production environment** (including [canary]), are
