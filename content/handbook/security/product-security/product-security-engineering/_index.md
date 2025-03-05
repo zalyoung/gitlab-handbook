@@ -21,6 +21,12 @@ Product Security Engineering will take potential work from several areas:
 - Product needs identified by other teams (ex SIRT, Trust & Safety, Security leadership)
 - The Key risks/areas ("Security Focus" areas)
 
+## ProdSecEng for short
+
+For efficiency, we often refer to our team as ProdSecEng and avoid using the PSE
+acronym as it causes confusion with the [Professional Services Engineer](/job-families/sales/professional-services-engineer/)
+role.
+
 ## Contacting us
 
 To reach the Product Security Engineering team, team members can:
