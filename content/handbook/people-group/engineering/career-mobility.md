@@ -56,7 +56,6 @@ A job is scheduled to run once per day to look for career mobility issues that h
 
 Career Mobility templates can make use of the following placeholders to be replaced with different tags of content. See the table below.
 
-
 | Placeholder | Description |
 | --- | --- |
 | `__NAME__` | Team members display name |
