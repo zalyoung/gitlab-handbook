@@ -262,6 +262,7 @@ The **Async Refinement** process is designed to prepare upcoming work efficientl
 - **Just-in-Time Planning:** We refine only the next 1-2 epics to avoid over-preparing, which helps ensure epics remain relevant when work begins. If these are refined, no further refinement is necessary.
 
 **Refinement Process:**
+
 1. **Identify Epics in Need of Refinement:** 
 
    - Look for epics marked in <span style="color:#1068bf">blue</span> on the epic board.
