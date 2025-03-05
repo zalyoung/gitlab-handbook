@@ -108,7 +108,7 @@ External innovations are focused on developing new features or enhancements for 
 
 ### Step 3: Start work on the POC and create the Associated Issues
 
-After the creation of the Epic you can in parallel start the actual work on the POC and the creation of the issues.
+After the creation of the Epic you can in parallel start the actual work on the POC and the creation of the issues. Use the POC work to fill the information on the following sections.
 
 Within the Epic, create the following issues:
 
