@@ -1,7 +1,7 @@
 ---
 title: Generative AI Internal Use Guidelines Template
 ---
-**This template is not legal advice and is provided as a starting point for organizations developing internal generative AI use policies. This template should be customized to align with your organization’s risk tolerance, security posture, privacy practices, regulatory considerations, and vendor agreements.**
+**This template is not legal advice and is provided as a starting point for organizations developing internal generative AI use policies. This template should be customized to align with your organization’s risk tolerance, security posture, privacy practices, regulatory considerations, and vendor agreements. For a Google Docs version of this template, click here.**
 
 Last Updated: [date of most recent update]
 Drafting notes in _italics_
