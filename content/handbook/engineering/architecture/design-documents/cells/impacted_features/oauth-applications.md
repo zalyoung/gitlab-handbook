@@ -20,10 +20,10 @@ we can document the reasons for not choosing this approach.
 OAuth applications allow third-party applications to securely access resources associated with a GitLab user.
 Users control what data they share with these applications.
 
-OAuth applications can be created at different levels: cluster-owned, user-owned, project-owned, and group-owned.
+OAuth applications can be created at different levels: cluster-owned, user-owned, and group-owned.
 However, this is only for management purposes—**all OAuth applications are available cluster-wide**.
 
-Examples of instance-owned applications include:
+Examples of cluster-owned applications include:
 - CustomersDot
 - GitLab Pages
 - GitLab CLI
