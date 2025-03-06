@@ -23,7 +23,9 @@ This design document proposes a new architecture for measuring and tracking user
 
 The system will help measure the reliability and performance of key user interactions and provide valuable data for both operational excellence and product decisions.
 
-We intend to have an aligned definition of User Journey across the organization. Here's a graph that illustrates how the different parties are connected to this idea:
+We intend to have an aligned definition of User Journeys across the organization, with Covered Experience SLIs being a scoped set of steps from a User Journey that support the broader goal a user might be trying to accomplish. Read more [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1524#are-these-related-to-covered-experiences-fka-user-journey-slis).
+
+Here's a graph that illustrates how the different parties are connected to this idea:
 
 ![User Journeys Chart](/images/handbook/engineering/architecture/design-documents/covered_experience_slis/User%20Journeys%20for%20Quality.svg)
 
