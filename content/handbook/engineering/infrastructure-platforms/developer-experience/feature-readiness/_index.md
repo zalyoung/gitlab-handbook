@@ -28,9 +28,9 @@ Engineering Manager: Kassandra Svoboda
 
 | S.No     |                    |
 |------    |-------------------------|
-| 1        | Richard Chong    |
-| 2        | Sanad Liaquat     |
-| 3        | Sofia Vistas       |
+| 1        | Richard Chong (@richard.chong)   |
+| 2        | Sanad Liaquat (@sliaquat)    |
+| 3        | Sofia Vistas (@svistas)      |
 
 ## OKRs
 
