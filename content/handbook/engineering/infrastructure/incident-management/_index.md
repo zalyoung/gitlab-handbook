@@ -391,26 +391,34 @@ If you are a GitLab team member and would like to report a possible incident rel
 
 ### Report an Incident via Slack
 
-Type `/incident declare` in the [`#production`](https://gitlab.slack.com/archives/C101F3796) channel in GitLab's Slack and follow the prompts to open an incident issue.
+Type `/incident declare` in the [`#incidents`](https://gitlab.slack.com/archives/C02HF90ME66) channel in GitLab's Slack and fill the pop-up form to open an incident issue.
 It is always better to err on side of choosing a higher severity, and declaring an incident for a production issue, even if you aren't sure.
 Reporting high severity bugs via this process is the preferred path so that we can make sure we engage the appropriate engineering teams as needed.
 
 ![Incident Declaration Slack window](/images/engineering/infrastructure/incident-management/incident-declare-slack.png)
+
 _Incident Declaration Slack window_
 
-| Field | Description |
-| ----- | ----------- |
-| Title | Give the incident as descriptive as title as you can. Please include the date in the format YYYY-MM-DD which should be present by default. |
-| Severity | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity). |
-| Service | If possible, select a service that is likely the cause of the incident. Sometimes this will also be the service impacted. If you are unsure, it is fine to leave this empty. |
-| Page engineer on-call / incident manager / communications manager on-call | **Leave these checked** unless the incident is severity 1 or severity 2, and does not require immediate engagement (this is unusual), or if the person submitting the incident is the EOC. **We will not page anyone for severity 3 and severity 4 incidents, even if the boxes are checked**. |
-| Confidential | This will mark the issue confidential, do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). We generally prefer to leave this unchecked, and use confidential notes for information that cannot be public. |
-
-![Incident Declaration Results](/images/engineering/infrastructure/incident-management/incident-declare-results.png)
+| Field                      | Description                                                                                                                                                                                                 |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Title**                  | Give the incident as descriptive a title as you can.                                                                                                                                                       |
+| **Incident Type**          | Choose the correct incident type, e.g., `Gitlab.com` or `Dedicated` (Incident involving the GitLab Dedicated product. DO NOT use for Dedicated for Government USPubSec).                                   |
+| **Initial Status**         | Please select `Active Incident` unless absolutely sure it is not an incident.                                                                                                                              |
+| **Severity**               | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity).                                     |
+| **Keep Issue Confidential**| This will mark the issue confidential. Do this for all security-related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). We generally prefer to leave this unselected and use `:pushpin:` emoji on Slack to track confidential notes for information that cannot be public on the incident.io timeline. |
 
 _Incident Declaration Results_
 
-As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. The "woodhouse" bot will post links to all of these resources in the main `#incident-management` channel. Please note that unless you're an SRE, you won't be able to post in `#incident-management` directly. Please join the dedicated Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
+After an incident is declared , it will be announced in `#incidents` Slack channel
+
+![Incident Declaration Announcement](/images/engineering/infrastructure/incident-management/incident-declare-announce.png)
+
+**Note: Incident homepage will be the SSOT for the incidents , it is intended to house both public and private comments related to the incident**
+
+Additionally incident.io generates an incident Slack channel , an incident zoom call that is auto-summarized via Scribe and an incident Gitlab issue
+To view all of these resources please join the incident Slack channel.
+
+![Incident Slack Channel](/images/engineering/infrastructure/incident-management/incident-slack-channel.png)
 
 ### Report an Incident via Email
 
