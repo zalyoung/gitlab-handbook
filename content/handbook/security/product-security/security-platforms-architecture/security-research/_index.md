@@ -1,5 +1,7 @@
 ---
 title: "Security Research"
+aliases:
+  - "/handbook/security/product-security/security-research/"
 ---
 
 ## Team Focus

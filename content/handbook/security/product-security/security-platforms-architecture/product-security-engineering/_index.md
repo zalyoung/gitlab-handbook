@@ -1,6 +1,8 @@
 ---
 title: "Product Security Engineering"
 description: "The Product Security Engineering team's mission is to create proactive and preventative controls which will scale with the organization and result in improved product security."
+aliases:
+  - "/handbook/security/product-security/product-security-engineering/"
 ---
 
 ## Product Security Engineering Mission
