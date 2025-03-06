@@ -20,7 +20,9 @@ Jifflenow will be made available to Sales attending events, EBAs and event manag
 ## User Roles
 
 - **Requestor** - Anyone that has access to schedule meetings within the tool.
-- **Meeting Manger** - Has the ability to manage all meetings for an event.
+- **Meeting Manager** - Users assigned to this role manage the meeting approval process, user accounts, rooms, and calendars and help govern access to the Jifflenow portal. They have full access to all meetings and can view, edit, or cancel any request placed by anyone within an event. Meeting Managers have the highest level of access in Jifflenow.
+- **Junior Meeting Manager** - While a Meeting Manager has full access to all requested meetings, a Junior Meeting Manager may be given limited access to all meetings within a particular meeting type. Someone may need this if tasked with managing a set of rooms or approving a subset of requests based on specified criteria. They can approve meetings for the types they are assigned to.
+- **Executive Admin** - Executive Admins manage meeting activity on behalf of the specific internal attendees they are assigned to. The EA role cannot approve meetings, but they can endorse their executive’s participation in meetings.
 
 ## Training
 
