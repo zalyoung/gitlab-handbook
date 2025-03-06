@@ -28,8 +28,6 @@ Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/s
 - [SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/workbooks/2105107/views) - Dynamic dashboards for exploring SA activity, account, first touch, and individual performance trends.
 - [SA Activity Dashboards (Legacy)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2105107/views) - Dynamic dashboards for exploring SA activity, opportunity, and individual performance trends.
     
- 
-
 ### Activity Review
 
 As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements.  This ensure our data is adequate for driving our KPIs as well as deriving insights to improve our execution.
@@ -103,7 +101,7 @@ As a SA manager, the following is a summary of the operating rhythm when managin
 
 #### One-on-Ones
 
-As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/company/culture/all-remote/live-doc-meetings/#notetaking-and-structure-during-the-meeting) and document discussions.
+As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/leadership/1-1/) and document discussions.
 
 ### Monthly
 
