@@ -18,7 +18,7 @@ To enable GitLab's development teams to follow the same readiness criteria for e
   - Simplify operation of test tools and frameworks used for e2e testing
 - Improved flow state
   - Define feature readiness policies that can be adopted to use by all development teams
-  - Enable self-servicing of using e2e tests as a tool and enabling triaging of test failures 
+  - Enable self-servicing capabilities of testing tools and test failure triage 
 
 Engineers in this team support Feature Readiness projects.
 
