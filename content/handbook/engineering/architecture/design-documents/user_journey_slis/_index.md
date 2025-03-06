@@ -257,13 +257,13 @@ sequenceDiagram
 
 The user journey definition will contain the relevant details. For example:
 
-| Field                              | Type    | Required | Default | Description                                                      | Example                        |
-|------------------------------------|---------|----------|---------|------------------------------------------------------------------|--------------------------------|
-| id                                 | string  | Yes      | -       | Unique identifier for the journey                                | `merge_request_creation`       |
-| description                        | string  | Yes      | -       | Human readable description                                       | "User creates a merge request" |
-| feature_category                   | string  | Yes      | -       | GitLab feature category                                          | `source_code_management`       |
-| apdex_success_threshold_in_seconds | integer | Yes      | -       | Apdex success threshold in seconds                               | `30`                           |
-| timeout_in_seconds                 | integer | Yes      | -       | Journey timeout in seconds. Zero means it doesn't have a timeout | `300`                          |
+| Field                              | Type    | Required | Default | Description                        | Example                        |
+|------------------------------------|---------|----------|---------|------------------------------------|--------------------------------|
+| id                                 | string  | Yes      | -       | Unique identifier for the journey  | `merge_request_creation`       |
+| description                        | string  | Yes      | -       | Human readable description         | "User creates a merge request" |
+| feature_category                   | string  | Yes      | -       | GitLab feature category            | `source_code_management`       |
+| apdex_success_threshold_in_seconds | integer | Yes      | -       | Apdex success threshold in seconds | `30`                           |
+| timeout_in_seconds                 | integer | Yes      | -       | Journey timeout in seconds.        | `300`                          |
 
 Example journeys:
 
