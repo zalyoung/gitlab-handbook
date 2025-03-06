@@ -25,7 +25,7 @@ The system will help measure the reliability and performance of key user interac
 
 We intend to have an aligned definition of User Journey across the organization. Here's a graph that illustrates how the different parties are connected to this idea:
 
-![User Journeys Chart](./User%20Journeys%20for%20Quality.svg)
+![User Journeys Chart](/images/handbook/engineering/architecture/design-documents/covered_experience_slis/User%20Journeys%20for%20Quality.svg)
 
 [graph src](https://lucid.app/lucidchart/e911c437-dbdf-4540-bf44-23962e048661/edit)
 
