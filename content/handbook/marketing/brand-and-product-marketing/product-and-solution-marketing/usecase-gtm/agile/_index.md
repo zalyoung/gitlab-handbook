@@ -35,7 +35,7 @@ Organizations need better ways to manage projects, programs, and portfolios usin
 
 ### GitLab
 
-[GitLab was named a 'Leader' by Gartner in their 2021 Magic Quadrant for Enterprise Agile Planning Tools](/analysts/gartner-eapt21/) after [entering the report as a Visionary just two years prior](https://about.gitlab.com/blog/2019/05/22/gitlab-identified-by-gartner-as-eapt-visionary/) and being a fairly recent entrant into the space.
+[GitLab was named a 'Leader' by Gartner in their 2021 Magic Quadrant for Enterprise Agile Planning Tools](https://about.gitlab.com/press/releases/2021-04-27-gitlab-positioned-leader-gartner-magic-quadrant-enterprise-agile-planning-tools/) after [entering the report as a Visionary just two years prior](https://about.gitlab.com/blog/2019/05/22/gitlab-identified-by-gartner-as-eapt-visionary/) and being a fairly recent entrant into the space.
 
 *Gartner, "Magic Quadrant for Enterprise Agile Planning Tools," Bill Blosen, Mike West, Deacon D.K Wan, Akis Sklavounakis, Keith Mann, Wan Fui Chan, Hassan Ennaciri, April 20, 2021.*
 
@@ -165,7 +165,7 @@ Purchasing for Integrated Agile Planning may not require executive involvement, 
 
 ## Industry Analyst Resources
 
-- [Gartner, "Magic Quadrant for Enterprise Agile Planning Tools,"](/analysts/gartner-eapt21/) Bill Blosen, Mike West, Deacon D.K Wan, Akis Sklavounakis, Keith Mann, Wan Fui Chan, Hassan Ennaciri, April 20, 2021.
+- [Gartner, "Magic Quadrant for Enterprise Agile Planning Tools,"](https://about.gitlab.com/press/releases/2021-04-27-gitlab-positioned-leader-gartner-magic-quadrant-enterprise-agile-planning-tools/) Bill Blosen, Mike West, Deacon D.K Wan, Akis Sklavounakis, Keith Mann, Wan Fui Chan, Hassan Ennaciri, April 20, 2021.
 
 ## Market Requirements
 

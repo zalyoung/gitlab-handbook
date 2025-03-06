@@ -278,7 +278,7 @@ The reaction coordinator of the week is responsible for triaging:
 
 ##### External Security & Quality Issues
 
-- Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) if necessary.
+- Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/security-compliance/poam-deviation-request-procedure/) if necessary.
 - See the [AST sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
 
 ##### Community contributions

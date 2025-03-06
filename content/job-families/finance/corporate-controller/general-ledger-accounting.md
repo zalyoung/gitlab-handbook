@@ -35,7 +35,7 @@ The General Ledger Accounting team are responsible for providing timely and accu
 
 ### Associate General Ledger Accountant (Junior)
 
-The Associate General Ledger Accountant reports to the [Senior Manager, Accounting](/job-families/finance/accountant/).
+The Associate General Ledger Accountant reports to the [Senior Manager, Accounting](/job-families/finance/accounting-operations/).
 
 #### Job Grade
 
@@ -66,7 +66,7 @@ The Associate Accountant is a [grade 5](/handbook/total-rewards/compensation/com
 
 ### General Ledger Accountant (Intermediate)
 
-The General Ledger Accountant (Intermediate) reports to the [Senior Manager, Accounting](/job-families/finance/accountant/).
+The General Ledger Accountant (Intermediate) reports to the [Senior Manager, Accounting](/job-families/finance/accounting-operations/).
 
 #### Job Grade
 
@@ -95,7 +95,7 @@ The Intermediate Accountant is a [grade 6](/handbook/total-rewards/compensation/
 
 ### Senior General Ledger Accountant
 
-The Senior General Ledger Accountant reports to the [Manager, Accounting](/job-families/finance/accountant/).
+The Senior General Ledger Accountant reports to the [Manager, Accounting](/job-families/finance/accounting-operations/).
 
 #### Job Grade
 
@@ -155,7 +155,7 @@ Have or actively pursuing CPA
 
 ### Manager, Accounting
 
-The Manager, Accounting reports to the [Senior Manager, Accounting](/job-families/finance/accountant/).
+The Manager, Accounting reports to the [Senior Manager, Accounting](/job-families/finance/accounting-operations/).
 
 #### Job Grade
 
