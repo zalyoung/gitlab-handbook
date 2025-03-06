@@ -40,8 +40,8 @@ We align our supply chain tracking with the SLSA framework ([Specification 1.0](
 This model illustrates the core steps we track:
 
 1. **Source**: Where code is authored, reviewed, and stored
-2. **Build**: Where source is transformed into packages/artifacts
-3. **Package**: Where built artifacts are stored and distributed
+1. **Build**: Where source is transformed into packages/artifacts
+1. **Package**: Where built artifacts are stored and distributed
 
 The model also depicts:
 
@@ -179,14 +179,14 @@ The Supply Chain Risk Management Strategy serves as a critical foundation for th
    - Risk documentation can include specific artifacts involved
    - The potential for risk propagation through the supply chain should be documented
 
-2. **Bidirectional Traceability**
+1. **Bidirectional Traceability**
 
    - Supply chain model entries must link back to relevant PSRR risk items
    - PSRR entries must link to the affected supply chain components
    - Updates to the supply chain model should trigger reviews of related PSRR entries
    - New PSRR risks related to supply chain must be mapped to this model during risk registration
 
-3. **Unified Risk Assessment Approach**
+1. **Unified Risk Assessment Approach**
 
    - The risk scoring methodology must be consistent between this model and the PSRR
    - Supply chain risk mitigations documented in the PSRR should align with controls in this model
@@ -198,19 +198,12 @@ This integration ensures a comprehensive approach to supply chain risk managemen
 
 ### For Development Teams
 
-1. **Component Registration**
-
-   - When introducing a new tool or system, register it in the supply chain inventory
-   - Complete the classification attributes for each component
-   - Document integrations with existing components
-
-2. **Artifact Documentation**
+1. **Artifact Documentation**
 
    - For each new artifact type, document its source components
-   - Specify build procedures and verification methods
-   - Register artifact in the central inventory
+   - Register artifact in the central inventory (see https://gitlab.com/groups/gitlab-org/-/epics/16484)
 
-3. **Compliance Verification**
+1. **Compliance Verification**
 
    - Regular self-assessments against the model requirements
    - Document evidence of control implementation
@@ -225,14 +218,14 @@ This integration ensures a comprehensive approach to supply chain risk managemen
    - Maintain a supply chain threat intelligence program
    - Establish risk thresholds and escalation procedures for detected anomalies
 
-2. **Risk-Based Audit Support**
+1. **Risk-Based Audit Support**
 
    - Maintain risk evidence collection for compliance purposes
    - Support external audits with risk assessment documentation
    - Verify the implementation and effectiveness of risk controls across teams
    - Develop risk-focused audit narratives and documentation
 
-3. **Risk Model Evolution**
+1. **Risk Model Evolution**
 
    - Update the risk model as new threats and attack techniques emerge
    - Refine risk classification criteria based on incident data and operational feedback
