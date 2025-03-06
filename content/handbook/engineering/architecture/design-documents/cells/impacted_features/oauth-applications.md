@@ -13,8 +13,6 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-# Cells: OAuth applications
-
 ## 1. Definition
 
 OAuth applications allow third-party applications to securely access resources associated with a GitLab user.
@@ -24,6 +22,7 @@ OAuth applications can be created at different levels: cluster-owned, user-owned
 However, this is only for management purposes—**all OAuth applications are available cluster-wide**.
 
 Examples of cluster-owned applications include:
+
 - CustomersDot
 - GitLab Pages
 - GitLab CLI
@@ -35,6 +34,7 @@ OAuth applications that include the `openid` scope are considered OpenID Connect
 ## 2. Data Flow
 
 The data flow for OAuth applications is detailed in the following documentation:
+
 - [OAuth 2.0 identity provider API](https://docs.gitlab.com/ee/api/oauth2)
 - [GitLab as an OpenID Connect identity provider](https://docs.gitlab.com/ee/integration/openid_connect_provider.html)
 
