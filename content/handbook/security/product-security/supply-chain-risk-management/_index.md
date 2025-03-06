@@ -2,8 +2,6 @@
 title: "Supply Chain Risk Management Strategy"
 ---
 
-# Supply Chain Risk Management Strategy
-
 ## Introduction
 
 This page outlines GitLab's comprehensive strategy for identifying, assessing, and mitigating risks within our software supply chain. Our risk-based approach is designed to protect both our own data and our customers' data while progressively advancing towards higher levels of Supply chain Levels for Software Artifacts (SLSA) compliance.
