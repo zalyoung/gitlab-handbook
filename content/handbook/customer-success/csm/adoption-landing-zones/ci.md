@@ -35,7 +35,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
     <td><ul><li><a href="https://docs.google.com/presentation/d/12nax3mmhh7Y9o1SMXKhWNxYH_n55G2Vj8--UQbX13yw/edit#slide=id.g2936d5da52a_0_0">Jenkins to GitLab CSM Enablement</a></li>
     <li>CSM led <a href="/handbook/customer-success/csm/workshops/#currently-available-sessions">enablement sessions</a></li>
     <li>Hands-On Technical <a href="/handbook/solutions-architects/tools-and-resources/workshop/">Workshops</a></li>
-    <li><a href="/handbook/customer-success/csm/segment/scale/webinar-calendar/#upcoming-webinars">Scale Webinars</a></li></ul></td>
+    <li><a href="https://university.gitlab.com/pages/gitlab-user-webinars">Scale Webinars</a></li></ul></td>
   </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ Jenkins to GitLab
 1. Runner Overview: [Link to Deck](https://gitlab.highspot.com/items/64cadeb868936bb54ac9ce2f#)
 
 1. Webinars (Informational & Hands-On):
-     - [Monthly Webinar Calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/)
+     - [Monthly Webinar Calendar](https://university.gitlab.com/pages/gitlab-user-webinars)
 
 ## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 

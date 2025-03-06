@@ -28,7 +28,7 @@ Here are some non-exhaustive guidelines:
 - When installing something from an "app store" of some sort, look for the reviews, the number of downloads and especially for "badges" that show that the application was reviewed by the app store. For example the Chrome Web Store has a [featured badge](https://support.google.com/chrome_webstore/answer/1050673?visit_id=638011195121439702-999154480&p=cws_badges&rd=1#cws_badges&zippy=%2Cunderstand-chrome-web-store-badges) for popular trustworthy applications
 - When in doubt, do not install the application
 
-In any case, you are encouraged to use our [Individual Use Software Request](/handbook/finance/procurement/personal-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) process prior to installing third party apps.
+In any case, you are encouraged to use our [Individual Use Software Request](/handbook/finance/procurement/individual-use-software/) process prior to installing third party apps.
 
 ## Internet browsers
 

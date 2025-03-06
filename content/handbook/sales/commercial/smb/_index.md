@@ -164,4 +164,4 @@ Any further questions related to SMB Compensation can be directed to the slack c
 
 ### Handbook Mantra
 
-GitLab is intentional about documenting in a manner that creates a single source of truth. [It operates handbook-first](/handbook/company/culture/all-remote/handbook-first-documentation/), and in valuing transparency, makes its handbook publicly accessible to all. SMB team members should always be striving to contribute and exemplify this value.
+GitLab is intentional about documenting in a manner that creates a single source of truth. [It operates handbook-first](/handbook/company/culture/all-remote/handbook-first/), and in valuing transparency, makes its handbook publicly accessible to all. SMB team members should always be striving to contribute and exemplify this value.

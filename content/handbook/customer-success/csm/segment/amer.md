@@ -55,7 +55,7 @@ Beginning FY25, all customers aligned with a CSM are considered Priority 1 and s
 
 ### Cadence Frequency
 
-CSMs should have weekly or biweekly calls with each of their customers, and should never go more than one month without a call. If a customer is unegaged, they should be marked as [non-engaged](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/) and [triaged](/handbook/customer-success/csm/health-score-triage/) appropriately. Even if it ends up being a false positive, we want to act swiftly to ensure any risk is mitigated. CSMs should expect to have 5-7 cadence calls per week, in addition to adhoc calls such as workshops, EBRs, product discussions, etc.
+CSMs should have weekly or biweekly calls with each of their customers, and should never go more than one month without a call. If a customer is unegaged, they should be marked as [non-engaged](/handbook/customer-success/csm/engagement/non-engaged-customer-strategies/) and [triaged](/handbook/customer-success/csm/health-score-triage/) appropriately. Even if it ends up being a false positive, we want to act swiftly to ensure any risk is mitigated. CSMs should expect to have 5-7 cadence calls per week, in addition to adhoc calls such as workshops, EBRs, product discussions, etc.
 
 ### EBRs
 
