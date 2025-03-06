@@ -287,7 +287,6 @@ datestamp
 datetime
 daycares
 DBeaver
-DBO
 dbt
 Debian
 debloating
@@ -1132,7 +1131,6 @@ shortcode
 shortcodename
 shortcodes
 Sidekiq
-sidekiq
 Sigstore
 Sijbrandij
 siloed
