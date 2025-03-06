@@ -60,11 +60,9 @@ The MDF Request Status can be found in the MDF Request Details section.
 
 - Open - when partner submits Request
 - Approved - when Request is approved
-- Complete (Claim Payment is Paid) - when partner is paid
+- Closed - when Request and Claim are completed
 - Denied - when Request is denied
 - Canceled - when Request is canceled
-
-Statuses that are not used: Approved: POP Received, Closed (Claim to be Paid), CMM Approved.
 
 ### Step 3 - MDF Claim Submission
 
@@ -99,24 +97,7 @@ The MDF Claim Status you are to used is under the Claims section, called `Approv
 
 When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been canceled. If Partners try to submit a Claim, it will automatically be rejected.
 
-## MFB MDF Request Form
-
-We can make edits to the form, which is built using  the Module Form Builder (MFB). This dynamic page is editable by GitLab by anyone with the correct permissions in PRM.
-
-1. From the PRM, you will want to access the CMS editor using the red pen icon on the top right.
-2. Click on the hamburger menu in the top left of the page and select `Edit Forms`.
-3. Under the Select a Module to Edit section choose `SFDC - Marketing Development Funds`.
-4. Select the MDF forms, you wish to update. You can edit the following form:
-
-      - Create - Funds Request
-      - Edit - Funds Request
-      - Create - Funds Request - Funds Claim
-      - Edit - Funds Request - Fund Claim.
-
-5. When you've clicked any of the MDF forms, you will be able to add, remove and update the form fields and layout.
-6. Save and Publish.
-
-## PRM MDF 
+## PRM MDF View
 
 To access your MDF request, go to PRM, and retrieve the `MDF` tab. If you do not see it, go to the `More` tab, there you'll be able to see the hidden tabs.
 
@@ -137,6 +118,15 @@ Should you wish to have a customized view, following the instructions below.
 
 1. In Column Configuration, add any additional fields.
 1. Save and repeat for the other statuses - Approved and Denied.
+
+## MDF Dashboard Access
+
+Partner needs to be granted access to the MDF dashboard. To do so, they must be an Authorized partner and MDF administrator.
+
+To update the user to an MDF administrator:
+
+1. Go to the user profile and select edit
+1. In the Delegated Administrative Privileges section, check `MDF Administrator` under Administrative Privileges
 
 ## PRM - Salesforce Integration
 
