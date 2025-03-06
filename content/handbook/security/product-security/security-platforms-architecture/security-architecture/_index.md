@@ -1,6 +1,7 @@
 ---
 title: "Security Architecture"
 aliases:
+  - "/handbook/security/product-security/architecture/"
   - "/handbook/security/product-security/security-architecture/"
 ---
 
