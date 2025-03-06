@@ -395,7 +395,8 @@ Type `/incident declare` in the [`#incidents`](https://gitlab.slack.com/archives
 It is always better to err on side of choosing a higher severity, and declaring an incident for a production issue, even if you aren't sure.
 Reporting high severity bugs via this process is the preferred path so that we can make sure we engage the appropriate engineering teams as needed.
 
-![Incident Declaration Slack window](../../../../../static/images/engineering/infrastructure/incident-management/incident-declare-slack.png)
+![Incident Declaration Slack window](/images/engineering/infrastructure/incident-management/incident-declare-slack.png)
+
 _Incident Declaration Slack window_
 
 | Field                      | Description                                                                                                                                                                                                 |
@@ -410,14 +411,14 @@ _Incident Declaration Results_
 
 After an incident is declared , it will be announced in `#incidents` Slack channel
 
-![Incident Declaration Announcement](../../../../../static/images/engineering/infrastructure/incident-management/incident-declare-announce.png)
+![Incident Declaration Announcement](/images/engineering/infrastructure/incident-management/incident-declare-announce.png)
 
 **Note: Incident homepage will be the SSOT for the incidents , it is intended to house both public and private comments related to the incident**
 
 Additionally incident.io generates an incident Slack channel , an incident zoom call that is auto-summarized via Scribe and an incident Gitlab issue
 To view all of these resources please join the incident Slack channel.
 
-![Incident Slack Channel](../../../../../static/images/engineering/infrastructure/incident-management/incident-slack-channel.png)
+![Incident Slack Channel](/images/engineering/infrastructure/incident-management/incident-slack-channel.png)
 
 ### Report an Incident via Email
 
