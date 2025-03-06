@@ -5,7 +5,7 @@ description: "The GitLab Product Security Engineering team's Milestone Planning 
 
 ## Milestone Planning
 
-The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](/handbook/product/milestones/). This page describes the planning process that we use to determine what work will be completed for each Milestone.
+The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](/handbook/product/product-processes/milestones/). This page describes the planning process that we use to determine what work will be completed for each Milestone.
 
 ### Milestone Planning Issue
 
