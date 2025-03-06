@@ -25,13 +25,13 @@ When planning PTO with high-priority tickets in your queue:
 
 1. Notify your manager at least 2 days before PTO about any Sev 2 or higher tickets
 2. Find an appropriate assignee through the following progression:
-    * Check for colleagues on the same shift.
-    * Check regional support channels if no one is available on your shift.
-    * If no assignee can be found, escalate to your manager.
+   - Check for colleagues on the same shift.
+   - Check regional support channels if no one is available on your shift.
+   - If no assignee can be found, escalate to your manager.
 3. Conduct a warm handover with the new assignee:
-    * Schedule a pairing session or have a detailed Slack discussion.
-    * Walk through the ticket details, customer context, and current status.
-    * Apply the OOO Ticket Summary macro using the below Flow Chart Workflow).
+   - Schedule a pairing session or have a detailed Slack discussion.
+   - Walk through the ticket details, customer context, and current status.
+   - Apply the OOO Ticket Summary macro using the below Flow Chart Workflow).
 
 #### For Severity 3 and Below Tickets
 
@@ -47,11 +47,11 @@ Go to the My Assigned Tickets view in Zendesk. For each ticket you wish to summa
 
 1. Use the OOO Ticket Summary macro.
 2. Fill in the sections of the internal note with details for your peers. It is important that you summarize:
-    * What is the problem to be solved?
-    * Action Taken?
-    * Next Steps Needed? Alternatively, clarify if you are uncertain what the next steps are.
-    * Blockers?
-    * Return Date.
+   - What is the problem to be solved?
+   - Action Taken?
+   - Next Steps Needed? Alternatively, clarify if you are uncertain what the next steps are.
+   - Blockers?
+   - Return Date.
 3. Feel free to also ask regional peers if they can pickup tickets in other forms of communication, such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other team members.
 
 #### PTO FlowChart 
@@ -93,7 +93,9 @@ flowchart TD
     end
 ```
 
+
 #### Ticket Handover Process
+
 When taking over a ticket that has the out_of_office tag:
 
 1. Review assigned tickets from the handover queue.
