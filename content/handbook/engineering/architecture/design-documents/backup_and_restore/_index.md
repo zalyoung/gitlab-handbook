@@ -262,7 +262,7 @@ For the initial Cloud Backup implementation:
   - Object Storage Backups using [Storage Transfer Service](https://cloud.google.com/storage-transfer-service?hl=en)
   - [GCE disk snapshots](https://cloud.google.com/compute/docs/disks/snapshots) initially for repository backups.
 - Only support data/snapshots managed by the Backup tool
-- Cronjob functionality to provide scheduled executions.
+- [Kubernetes Cronjob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) functionality to provide scheduled executions.
 - Not relying on automated/scheduled Backup implementation (like AWS Backup or Google Cloud Backup)
 - [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly.html#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) will be used if the feature is available.
 
