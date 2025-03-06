@@ -2,7 +2,7 @@
 title: "NATS"
 status: proposed
 creation-date: "2025-02-26"
-authors: [ "@abhatnagar" ]
+authors: [ "@abhatnagar", "@arun.sori"]
 coach: [ "@andrewn" ]
 approvers: []
 owning-stage: "~group::platform insights"
@@ -189,7 +189,76 @@ nats-2.nats.default.svc.cluster.local
 - NATS has prebuilt support for connections encrypted over TLS.
 - It also comes with centralised auth support via JWT/NKEYS.
 - We expect to promote the usage of separate principals (users/accounts) across distinct systems, e.g. producers/consumers of a given stream.
-- More auth-related details to be added once https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/3015 concludes.
+- NATS offers grouping of clients and subject space with [`accounts`](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/accounts).
+
+#### Sample authentication/authorization scheme
+
+We take Siphon as an example use case here.
+
+It will cover:
+
+- Creation of accounts to isolate clients
+  - Adding users to these accounts with specific permissions for available subjects. Authentication will be achieved via [nkeys](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_intro/nkey_auth).
+  - Producers and consumers have their own users and permissions.
+- Producer/Consumer nkeys are to be treated with the same security practices as we currently do for our database secrets.
+
+`authorization.conf` ->
+
+```text
+listen: 127.0.0.1:4222
+jetstream: enabled
+
+producer_permissions = {
+  publish = ">"
+  subscribe = ">"
+}
+
+consumer_permissions = {
+  publish = {
+    deny = ">"
+  }
+  subscribe = ">"
+}
+
+accounts: {
+    siphon: {
+        users: [
+            {nkey: Uxx, permissions: $producer_permissions},
+            {nkey: Uxx, permissions: $consumer_permissions}
+        ]
+    }
+}
+```
+
+In the above configuration, producer is allowed to publish and subscribe over all the subject space for `siphon` account while consumer is only allowed to subscribe to available subjects.\
+We can also apply further granularity on subject space if desired. [`permissions`](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/authorization#permissions-configuration-map) map allows for such fine-grained control.\
+Example use of this configuration:
+
+```go
+func TestServerConfiguration(t *testing.T) {
+    server, _ := RunServerWithConfig("authorization.conf")
+    t.Logf(server.ClientURL())
+
+  // producer_nkey.txt holds the nkey seed
+    opt, err := nats.NkeyOptionFromSeed("producer_nkey.txt")
+    if err != nil {
+        t.Error(err)
+        return
+    }
+    nc, err := nats.Connect(server.ClientURL(), opt)
+    if err != nil {
+        t.Error(err)
+        return
+    }
+    js, err := nc.JetStream()
+    if err != nil {
+        t.Error(err)
+        return
+    }
+    _ = js.Streams()
+    defer nc.Close()
+}
+```
 
 ### Encryption
 
