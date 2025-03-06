@@ -207,9 +207,7 @@ When the interim/acting period ends, the following process should be followed to
 
 ### Paid in your local currency
 
-The compensation calculator is updated using the November 1 point in time exchange rates according to Google Finance rates. We are using the point in time exchange rate due to significant lag when utilizing an average exchange rate.
-
-The updates to the handbook, compensation calculator, and Workday for the November 1 rates will be made between December and January with an effective date of February 1.
+The compensation calculator is updated using the February 1 point in time exchange rates according to what is shared by Finance. We are using the point in time exchange rate due to significant lag when utilizing an average exchange rate.
 
 Adjustments to existing team members' compensation who are paid in local currency are made **only during** the applicable [compensation review cycle](/handbook/total-rewards/compensation/compensation-review-cycle/).  We only adjust compensation during the review cycle since being paid in local currency means that your local purchasing power does not change.
 
@@ -245,22 +243,7 @@ These roles are still [benchmarked using market data](/handbook/total-rewards/co
 | Zone 2 | 0.70 - 0.85 | 0.85 |
 | Zone 1 | 0.86 - 1.00+ | 1.00 |
 
-## Variable Pay Frequency
-
-The Variable Pay Frequency is a field held in Workday and applicable to roles that receive a commission or bonus. Variable Pay Frequency is assigned according to the following chart:
-
-| Department/Role Description | Variable Pay Frequency Type |
-| --------------------------- | --------------------------- |
-| VP (non-sales), Executives | [Company Executive Bonus Program](#company-director-and-above-bonus-plan) |
-| VP (Channel, Field Operations, Customer Success) | Sales Executive Bonus Program |
-| VP (Commercial Sales, Enterprise Sales) | Monthly Bonus |
-| Director (non-sales) | [Company Director Bonus Program](#company-director-and-above-bonus-plan) |
-| Director (Field Operations) | Sales Director Bonus Program |
-| Director (Channel, Customer Success, Enterprise Sales) | Monthly Bonus |
-| Director (Consulting Delivery) | Quarterly Bonus |
-| Channel, Commercial Sales, Customer Success, Enterprise Sales, Sales Development (IC) | Monthly Bonus |
-| Sales Development (Manager) | Quarterly Bonus |
-| Consulting Delivery, Education Delivery, Practice Management | Quarterly Commissions |
+Exchange rates for commissions payments are as defined per the terms of the Sales Incentive Compensation Plan. PLease reach out to the Sales Commissions team for further information.
 
 ## Director Compensation
 
