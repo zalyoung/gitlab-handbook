@@ -75,6 +75,7 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 ### Annual Compensation Review Timeline
 
 *2025-03-10 - 2025-03-26:* Managers complete merit and equity recommendations
+
 We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline.
     - Managers, Senior Managers, Director: Complete planning by 2024-03-14
     - Senior Directors, VPs: Complete planning by 2025-03-19
@@ -99,7 +100,7 @@ For information on the grant approval date and vesting schedule, please refer to
 
 The following materials are recommended for managers to review ahead of planning:
         - [Workday Job Aid (internal only)](https://docs.google.com/document/d/1hGBHZHa_Lg7XVHTKX2eeqL88QONmF09Wxhz8w4hlVQE/edit?tab=t.0): Please utilize the job aid for instructions on how to access and use the planning tool in Workday.
-        - [Information Guide for Managers (internal only)](https://docs.google.com/document/d/1ZSC0lVo3di9JFJy4kwy9QSGChrI8F3jdO34iG0yO3Sg/edit): The information guide provides additional detail to what has been provided in the handbook.
+        - [Information Guide for Managers (internal only)](https://docs.google.com/document/d/14zZYaDTpCKqjliKnEbfAJCE5ZZGYZsqXBXEgsTFEE8s/edit?tab=t.0): The information guide provides additional detail to what has been provided in the handbook.
 
 ## Annual Compensation Review Guidelines
 
