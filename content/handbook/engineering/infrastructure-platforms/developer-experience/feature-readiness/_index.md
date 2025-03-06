@@ -15,7 +15,7 @@ To enable GitLab's development teams to follow the same readiness criteria for e
   - Automate feature readiness policies with actionable feedback
   - The use of data to ensure critical user journeys meet quality scorecard expectations and feature readiness criteria
 - Reduced cognitive load
-  - Simplify complexity in test running tools and framework used for e2e testing
+  - Simplify operation of test tools and frameworks used for e2e testing
 - Improved flow state
   - Define feature readiness policies that can be adopted to use by all development teams
   - Enable self-servicing of using e2e tests as a tool and enabling triaging of test failures 
