@@ -20,13 +20,13 @@ A Release is **not** required when:
 
 If a Release is required, the circumstances dictate which Release templates should be used:
 
-- If you're organising an event at which photography or videography by or on behalf of GitLab will be captured, use the [Event Photography and Videography Likeness Release](./#event-photograph-and-videography-likeness-release).
+- If you're organising an event at which photography or videography by or on behalf of GitLab will be captured, use the [Event Photography and Videography Likeness Release](https://docs.google.com/document/d/11ihdyShiPngTZg9gtl2LvoU6Uixp2ohEE5mVQEv18NM/edit).
 - For all other circumstances, refer to the diagram below to determine which Release template to use.
 
 ```mermaid
 graph TD
   A{Are the only individuals<br> featured in the materials<br> GitLab team members?}-->|Yes|B{Will the materials<br> be used for paid<br> outbound advertising?}
-  A -->|No| C(Use the Material- and Purpose-Specific Template)
+  A -->|No| C(Use the Publicity Waiver and Release Template)
   B -->|No| D(Use the General Team Member Template)
   B -->|Yes| C
 
@@ -36,7 +36,7 @@ click D "/handbook/legal/publicity-waiver-release/#team-member-general-publicity
 
 ## Team Member General Publicity Waiver and Release
 
-Use the Team Member General Publicity Waiver and Release template when the individuals featured in the materials are GitLab team members, and the materials will **not** be used for paid outbound advertising. For materials featuring individuals other than team members, and materials that will be used in paid outbound advertising, use the [Material- and Purpose-specific Publicity Waiver and Release](./#material--and-purpose-specific-publicity-waiver-and-release) instead.
+Use the Team Member General Publicity Waiver and Release template when the individuals featured in the materials are GitLab team members, and the materials will **not** be used for paid outbound advertising. For materials featuring individuals other than team members, and materials that will be used in paid outbound advertising, use the [Publicity Waiver and Release](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d) instead.
 
 Each team member need only sign the Team Member General Publicity Waiver and Release once.
 
@@ -48,26 +48,25 @@ Each team member need only sign the Team Member General Publicity Waiver and Rel
 1. Once all team members featured in the materials have completed the form accepting the Release, verify this in the [Tracker](https://docs.google.com/spreadsheets/d/1fOENNDeCoAzXSdHIcD7GGJnwpUYL1qlqzwB1WbHrdlg/edit#gid=249560389).
 {{% /details %}}
 
-## Material and Purpose Specific Publicity Waiver and Release
+## Publicity Waiver and Release
 
-Use the Material- and Purpose-specific Publicity Waiver and Release template for materials featuring individuals who are no GitLab team members, or for materials featuring individuals that will be used for paid outbound advertising. For materials that will not be used for paid outbound advertising and feature only GitLab team members, use the [Team Member General Publicity Waiver and Release](./#team-member-general-publicity-waiver-and-release) instead.
+Use the Publicity Waiver and Release template for materials featuring individuals who are not GitLab team members, or for materials featuring individuals that will be used for paid outbound advertising. For materials that will not be used for paid outbound advertising and feature only GitLab team members, use the [Team Member General Publicity Waiver and Release](./#team-member-general-publicity-waiver-and-release) instead.
 
-{{% details summary="Expand for instructions for DRIs using the Material- and Purpose-specific Publicity Waiver and Release" %}}
+{{% details summary="Expand for instructions for DRIs using the Publicity Waiver and Release" %}}
 
 1. If you don't have DocuSign access, open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to get it.
-1. Once you has DocuSign access, access the [Material- and Purpose-specific Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
+1. Once you have DocuSign access, access the [Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:
    - Under `DRI`, enter your name and GitLab email address;
    - Under `Signatory` enter the name and email address of the individuals featured in the materials who needs to sign the Release; and
    - Under `Email Message`, enter a message to the signatory explaining the purpose of the Release and asking them to sign it.
-1. Click `ADVANCED EDIT`.
-1. On the following page, click `NEXT`.
-1. On page 2 of the Release, you as the DRI, complete the definition of `Materials`:
-    - Describe the specific topic(s) that the materials covers, e.g., "Video: Jane Doe discusses the topic, "Explaining Kubernetes."
-1. On page 2 of the Release, you as the DRI, complete the definition of `Authorized Purposes`:
-    - All purposes
-    - Describe a specific purpose, e.g., "Video: For use in 2022 - 2023 Partner campaigns." (Note that if you include a specified purpose, the material can only be used for the specific purpose, and no other.)
+1. Click `NEXT`.
+1. On the next page:
+  - Drag the `Signature` icon to the Signature field in the document.
+  - Drag the `Name` icon to the Name field in the document.
+  - Drag the `Date Signed` icon to the Date field in the document.
+1. If you want to review the document before you send it, click the `Preview` button in the upper right corner. 
 1. Click `SEND`.
 1. You will be notified by email when the Signatory has signed the Release.
 1. Upload the signed Release to the relevant issue.  If there's no issue, send a copy of the signed Release to intellectualproperty@gitlab.com.
