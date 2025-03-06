@@ -14,7 +14,7 @@ These guidelines relate to the use of approved generative AI tools at [company n
 
 Input in this context refers to the information provided to the tool to generate a response. This includes text copied or typed directly into the tool’s user interface and uploaded files.
 
-Do not submit [personal data like names, photographs of individuals, contact information,][customer data,][ or otherwise confidential information, ] as input to the tools. _[Note: Depending on the vendor terms, AI vendors may have the right to view and/or train AI models using tool inputs. Amend this provision as appropriate to protect inputs from such use by vendors.]_ Only submit input that you legally obtained and have the rights to use. If unsure whether a particular type of data can be used as input, reach out to [the team responsible for these guidelines].
+Do not submit [personal data like names, photographs of individuals, contact information, customer data, or otherwise confidential information] as input to the tools. _[Note: Depending on the vendor terms, AI vendors may have the right to view and/or train AI models using tool inputs. Amend this provision as appropriate to protect inputs from such use by vendors.]_ Only submit input that you legally obtained and have the rights to use. If unsure whether a particular type of data can be used as input, reach out to [the team responsible for these guidelines].
 
 ## Output
 
