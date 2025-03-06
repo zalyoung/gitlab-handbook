@@ -79,7 +79,7 @@ Situation Room recordings from previous incidents are available in this [Google 
 
 ### Shadowing A Whole Shift
 
-To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents and observe how the DBO on-call [follows the process](#process-outline) if any arise.
+To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents.
 
 ### Tips & Tricks of Troubleshooting
 
