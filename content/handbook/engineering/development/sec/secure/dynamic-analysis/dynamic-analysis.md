@@ -277,21 +277,21 @@ It also helps keep our KPIs looking good (how many RFHs are open, how long to re
 
 An RFH issue can be closed under the following circumstances:
 
-1. Confirmed resolution 
+1. Confirmed resolution
     - The customer has confirmed the issue has been resolved
 
 1. High confidence workaround or resolution
     - Engineer provides a high confidence workaround or resolution
     - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
 
-1. Feature request backlog  
+1. Feature request backlog
     - The RFH is for a feature that cannot be prioritized immediately
     - An issue has been created in the backlog
     - The backlog issue has been linked to the original RFH
     - A note has been added to the RFH pointing to the linked issue
     - Engineer closes issue
 
-1. Immediate Implementation 
+1. Immediate Implementation
     - The issue has been worked on immediately
     - Changes have been merged and are ready for customer testing
     - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
@@ -346,7 +346,7 @@ Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You
 - A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
 - Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
 
-If SLAs are breached, and if an SLA exception request is not already created then create an [SLA exception request](../../../../../security/product-security/vulnerability-management/sla-exceptions/) is required based on the circumstance.
+If SLAs are breached, and if an SLA exception request is not already created then create an [SLA exception request](../../../../../security/product-security/vulnerability-management/sla-exceptions/) based on the [circumstance](../../../../../security/product-security/vulnerability-management/sla-exceptions/#when-is-an-sla-exception-request-appropriate).
 You can search for `SLA::Breached` issues in the issue tracker using the following label filters:
 
 - [Severity 1](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Adynamicn%20analysis&label_name%5B%5D=severity%3A%3A1&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
