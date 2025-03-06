@@ -19,7 +19,7 @@ toc_hide: true
 
 ## Summary
 
-This design document proposes a new architecture for measuring and tracking user journeys across GitLab services. A user journey represents an end-to-end flow of user interactions that may span multiple services (e.g., from receiving a git push in GitLab Shell to updating a merge request). The proposal includes creating a new service for maintaining journey state, developing an SDK within LabKit for instrumenting journeys, and establishing a framework for product teams to define and monitor critical user journeys.
+This design document proposes a new architecture for measuring and tracking covered experiences across GitLab services. A covered experience SLI represents an end-to-end flow of user interactions that may span multiple services (e.g., from receiving a git push in GitLab Shell to updating a merge request). This proposal includes a design for instrumenting Covered Experience SLIs, and establishing a framework for product teams to define and monitor critical covered experiences.
 
 The system will help measure the reliability and performance of key user interactions and provide valuable data for both operational excellence and product decisions.
 
@@ -50,7 +50,7 @@ Here's a list of words to disambiguate the terms we are going to use in the cont
 
 ## Motivation
 
-While GitLab has robust service-level metrics through our SLI framework, we currently lack a systematic way to track and measure complete user journeys that span multiple services. Our existing SLIs excel at measuring individual service performance but cannot effectively track the success/failure rate and performance of end-to-end user interactions. This gap makes it challenging to:
+While GitLab has robust service-level metrics through our SLI framework, we currently lack a systematic way to track and measure covered experiences that span multiple services. Our existing SLIs excel at measuring individual service performance but cannot effectively track the success/failure rate and performance of end-to-end user interactions. This gap makes it challenging to:
 
 - Understand the true user experience across service boundaries
 - Set and monitor user-centric SLOs for complex user interactions
@@ -60,38 +60,36 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 
 ### Goals
 
-- Create a framework for product teams to define important user journeys in a structured way
-- Develop an SDK that makes it easy for engineers to instrument user journeys using start, checkpoints and ending
-- Build a service to track journey state and emit relevant metrics and structured logs with all the relevant context
+- Create a framework for product teams to define important covered experiences in a structured way
+- Develop an SDK that makes it easy for engineers to instrument covered experiences
+- Build a service to track covered experience state and emit relevant metrics and structured logs with all the relevant context
 - Support both GitLab.com and dedicated deployments
-- Enable measurement of journey success/failure rates and durations through SLIs
+- Enable measurement of covered experience success/failure rates and durations through SLIs
 - Provide data that can help identify test coverage gaps for critical user paths
 
 ### Non-Goals
 
 - Building a general-purpose distributed tracing solution
 - Tracking client side timings, and time on the wire to clients. In the future, we want to add support for clients we build (IDE-extensions, our frontend), but we're keeping this out of scope in the first iteration.
-- Real-time journey visualization or debugging tools
+- Real-time covered experience visualization or debugging tools
 - Logs and metrics will be emitted from self-managed, but it won't officially support ingesting information from those instances as we don't have control over such environments
 
 ## Proposal
 
 The core proposal consists of three main components:
 
-1. Journey Definition Framework
-   - YAML-based journey definitions authored by product teams
+1. Covered Experience Definition Framework
+   - YAML-based covered experience definitions authored by product teams
    - Support for specifying success criteria and SLO targets
    - Integration with test coverage reporting
 
 2. LabKit SDK
-   - DSL for marking journey start/end points
-   - Journey ID generation and propagation
-   - Automatic state management and metric emission
+   - DSL for marking covered experience start/end points
+   - Covered Experience ID generation and propagation
    - Built-in retry and backoff mechanisms
 
-3. Journey State Service
-   - Centralized journey state tracking
-   - Metric aggregation and SLI calculation
+3. Covered Experience Tracker Service
+   - Centralized Covered Experience state tracking
    - Support for both Runway and self-managed deployments
    - Sensible time to live (TTL) threshold for journey duration
    - Authentication
@@ -115,7 +113,7 @@ flowchart LR
         end
     end
 
-    subgraph journeyService[User Journeys Service]
+    subgraph tracker[Covered Experience Tracker]
         missing_end[Missing end event]
         timeout_check{Timeout check}
         timeout_action[Timeout action]
@@ -126,9 +124,9 @@ flowchart LR
     end
 
     User --> ServiceA
-    LabKit --emit message--> journeyService
+    LabKit --emit message--> tracker
     ServiceA --Forward Request--> ServiceB
-    LabKitB --emit message--> journeyService
+    LabKitB --emit message--> tracker
 ```
 
 Below there are cases covering in detail synchronous, asynchronous, and batched requests.
@@ -140,37 +138,37 @@ sequenceDiagram
     participant User
     participant App as Service A
     participant AppB as Service B
-    participant Journey as Journey Service
+    participant Tracker as Covered Experience Tracker
     participant Redis
     participant Metrics as Mimir
 
     User->>App: Request
     activate App
 
-    App->>Journey: Start Journey
-    Journey->>Redis: Store Initial State
+    App->>Tracker: Start Tracker
+    Tracker->>Redis: Store Initial State
 
     App->>AppB: Forward Request
     activate AppB
 
-    AppB->>Journey: Checkpoint Event
-    Journey->>Redis: Update State
+    AppB->>Tracker: Checkpoint Event
+    Tracker->>Redis: Update State
 
     AppB-->>App: Response
     deactivate AppB
 
-    App->>Journey: End Journey
-    Journey->>Redis: Mark Complete
-    Journey->>Metrics: Emit Metrics
+    App->>Tracker: End Tracker
+    Tracker->>Redis: Mark Complete
+    Tracker->>Metrics: Emit Metrics
 
     App-->>User: Response
     deactivate App
 
-    loop Expired User Journeys
-        Journey->>Redis: Check for Missing End Events
+    loop Expired Covered Experience
+        Tracker->>Redis: Check for Missing End Events
         alt Timeout Reached
-            Journey->>Redis: Mark Failed
-            Journey->>Metrics: Emit Failure Metrics
+            Tracker->>Redis: Mark Failed
+            Tracker->>Metrics: Emit Failure Metrics
         end
     end
 ```
@@ -181,7 +179,7 @@ sequenceDiagram
 sequenceDiagram
     participant User
     participant Web as Web Service
-    participant Journey as Journey Service
+    participant Tracker as Covered Experience Tracker
     participant Redis
     participant Sidekiq as Sidekiq Worker
     participant Metrics as Mimir
@@ -189,8 +187,8 @@ sequenceDiagram
     User->>Web: Request
     activate Web
 
-    Web->>Journey: Start Journey
-    Journey->>Redis: Store Journey State
+    Web->>Tracker: Start Covered Experience
+    Tracker->>Redis: Store Covered Experience State
 
     Web->>Sidekiq: Enqueue Job
     Web-->>User: Response (202 Accepted)
@@ -199,27 +197,27 @@ sequenceDiagram
     Note over Sidekiq: Job may wait in queue
 
     activate Sidekiq
-    Sidekiq->>Journey: Checkpoint Event
-    Journey->>Redis: Update State
+    Sidekiq->>Tracker: Checkpoint Event
+    Tracker->>Redis: Update State
 
     Note over Sidekiq: Process async work
 
     alt Success Case
-        Sidekiq->>Journey: End Journey (Success)
-        Journey->>Redis: Mark Complete
-        Journey->>Metrics: Emit Success Metric
+        Sidekiq->>Tracker: End Covered Experience (Success)
+        Tracker->>Redis: Mark Complete
+        Tracker->>Metrics: Emit Success Metric
     else Failure Case
-        Sidekiq->>Journey: End Journey (Failed)
-        Journey->>Redis: Mark Failed
-        Journey->>Metrics: Emit Failure Metric
+        Sidekiq->>Tracker: End Covered Experience (Failed)
+        Tracker->>Redis: Mark Failed
+        Tracker->>Metrics: Emit Failure Metric
     end
     deactivate Sidekiq
 
-    loop Expired User Journeys
-        Journey->>Redis: Check for Missing End Events
+    loop Expired Covered Experiences
+        Tracker->>Redis: Check for Missing End Events
         alt Timeout Reached
-            Journey->>Redis: Mark Failed
-            Journey->>Metrics: Emit Failure Metrics
+            Tracker->>Redis: Mark Failed
+            Tracker->>Metrics: Emit Failure Metrics
         end
     end
 ```
@@ -230,7 +228,7 @@ sequenceDiagram
 sequenceDiagram
     participant Git as Git Client
     participant WH as Workhorse
-    participant Journey as Journey Service
+    participant Tracker as Covered Experience Tracker
     participant Web as Web Service
 
     Note over Git, Web: First Request
@@ -249,15 +247,15 @@ sequenceDiagram
     WH-->>Git: Response N
 
     Note over WH: Batch threshold met
-    WH->>Journey: Start journey with batch range
+    WH->>Tracker: Start Covered Experience with batch range
     WH->>Web: Forward batched requests
     Web-->>WH: Process batch response
-    WH->>Journey: End journey
+    WH->>Tracker: End Covered Experience
 ```
 
-### Journey Definition Spec
+### Covered Experience Definition Spec
 
-The user journey definition will contain the relevant details. For example:
+The Covered Experience definition will contain the relevant details. For example:
 
 | Field                              | Type    | Required | Default | Description                        | Example                        |
 |------------------------------------|---------|----------|---------|------------------------------------|--------------------------------|
@@ -267,7 +265,7 @@ The user journey definition will contain the relevant details. For example:
 | apdex_success_threshold_in_seconds | integer | Yes      | -       | Apdex success threshold in seconds | `30`                           |
 | timeout_in_seconds                 | integer | Yes      | -       | Journey timeout in seconds.        | `300`                          |
 
-Example journeys:
+Examples:
 
 | id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
 |------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
@@ -277,13 +275,13 @@ Example journeys:
 ### SDK Requirements
 
 - Implementation in LabKit
-- Journey ID generation
-- Automatic retries with exponential backoff for sending reports to the User Journey Service
-- Optional batching of requests before reporting to the User Journey Service
+- Covered Experience ID generation
+- Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
+- Optional batching of requests before reporting to the Covered Experience Tracker
 
-### User Journey Service
+### Covered Experience Tracker
 
-The user journey service will serve an endpoint that will respond to the client generated payload:
+The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
 
 | Field             | Type              | Required             | Description                                       | Example                                        | Observations                                        |
 |-------------------|-------------------|----------------------|---------------------------------------------------|------------------------------------------------|-----------------------------------------------------|
@@ -300,9 +298,9 @@ The user journey service will serve an endpoint that will respond to the client 
 
 Batched operations collect the `start` and `end` timestamp of batched requests.
 
-State is managed by Redis. Allowing the querying of stale journeys, timing out after configured threshold.
+State is managed by Redis. Allowing the querying of stale covered experiences, timing out after configured threshold.
 
-A background process verifies all stale journeys and clear them out, emitting failure metrics.
+A background process verifies all stale covered experiences and clear them out, emitting failure metrics.
 
 Deployments:
 
@@ -311,7 +309,7 @@ Deployments:
 
 ### Authentication
 
-Authentication between the SDK and the user journey service is required to prevent malicious actors from injecting fake journey events that could distort the reliability metrics of GitLab features and cause DDoS.
+Authentication between the SDK and the Covered Experience Tracker is required to prevent malicious actors from injecting fake events that could distort the reliability metrics of GitLab features and cause DDoS.
 
 TBD: implmentation details.
 
@@ -331,7 +329,8 @@ TBD: implmentation details.
 
    Cons:
    - Different cardinality requirements -- one trace per request
-   - Lack of business-level success criteria -- the tracing tool would still not be self-sufficient
+   - Asynchronous covered experiences not possible
+   - Lack of business-level success criteria -- the tracing tool would not be self-sufficient
    - More complex to implement and maintain
 
    Unknowns:
@@ -344,6 +343,6 @@ TBD: implmentation details.
    - No implementation cost
 
    Cons:
-   - Continue lacking end-to-end user journey visibility and measurement
+   - Continue lacking end-to-end covered experience visibility and measurement
    - Harder to set meaningful SLOs
    - Miss opportunities for better capturing perceived user experience and testing coverage
