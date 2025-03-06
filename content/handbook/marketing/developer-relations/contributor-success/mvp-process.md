@@ -137,12 +137,7 @@ We only have a few days to put this together. If we don't hear back or you don't
 Finally we will work to get your GitLab swag sent over soon!
 ```
 
-## Sending MVP Appreciation Gifts
+## Sending MVP Rewards
 
-Every release GitLab chooses a [Most Valuable Person (MVP)](https://about.gitlab.com/community/mvp/) and the Developer Relations team recognizes them for their contributions.
+After selecting the MVP and working through the [the workflow for selecting MVPs](#workflow-for-selecting-gitlab-mvp), award 150 contributor store credits to the MVP via [contributors.gitlab.com/rewards](https://contributors.gitlab.com/rewards). 
 
-1. Determine MVP after release post is published to the [blog](https://about.gitlab.com/releases/categories/releases/)
-1. Find MVP's contact information
-   - [Contacting contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contacting-contributors)
-1. Send Swag according to our [SWAG operations guide](/handbook/marketing/developer-relations/workflows-tools/swag/)
-   - Note that MVPs currently receive a Tier 3 swag prize
