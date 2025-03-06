@@ -5,7 +5,7 @@ creation-date: "2024-06-04"
 authors: [ "@aakriti.gupta", "@brodock", "@ibaum", "@kyetter" ]
 coach: [ ]
 approvers: []
-owning-stage: "~devops::systems"
+owning-stage: ~"devops::data access"
 participating-stages: []
 toc_hide: true
 ---
@@ -18,7 +18,7 @@ toc_hide: true
 
 This tool will be aware of the nuances of each runtime environment configuration and it will make adaptations to capture and restore data appropriately. It will stand as the primary recommended solution for most customers going forward.
 
-Early development on this tool will focus on providing value to self-hosted customers of GitLab by supporting the variety of installation types and common architectures. For these customers, we will focus on simplifying the disaster recovery process into a common set of recommendations. Additionally, we will work to resolve scalability problems with current backup solutions by supporting the cloud service integration capabilities of large high-usage GitLab instances.
+Development on this tool will focus on providing value to self-hosted customers of GitLab by supporting the variety of installation types and common architectures. For these customers, we will focus on simplifying the disaster recovery process into a common set of recommendations. Additionally, we will work to resolve scalability problems with current backup solutions by supporting the cloud service integration capabilities of large high-usage GitLab instances.
 
 Early development on this tool will focus on the specialized needs of GitLab Cells deployments on GCP for the [Tenant Scale](/handbook/engineering/infrastructure-platforms/tenant-scale/) group.
 
