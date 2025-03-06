@@ -9,7 +9,7 @@ aliases:
 ## Team Information
 
 - **Team Pages**
-  - [Handbook Page](/handbook/security/product-security/security-architecture/)
+  - [Handbook Page](/handbook/security/product-security/security-platforms-architecture/security-architecture/)
   - [GitLab Sub-Group](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/)
 - **Contact Info**
   - Slack Channels
@@ -205,7 +205,7 @@ Make attacks less attractive.
 
 #### Links
 
-- [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust) at GitLab
 
 </details>
 
@@ -377,7 +377,7 @@ aka Fail Safe Defaults.
 #### Links
 
 - <https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>
-- [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust) at GitLab
 
 </details>
 

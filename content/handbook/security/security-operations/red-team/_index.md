@@ -11,7 +11,7 @@ no_list: true
 - "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks#club-red)
 - "**Can you hack me?**" :point_right: GitLab team members can sign up to our [laptop opt-in programme](https://forms.gle/kMTJEjzktcjAbTVn9)
 - "**Can you help us with an incident?** Does this look like hacker stuff in these logs?" :point_right: [Contact us](#contact-us)
-- "**Can you help find bugs in GitLab the product?**" :point_right: You're better off asking [Security Research](../../product-security/security-research/)
+- "**Can you help find bugs in GitLab the product?**" :point_right: You're better off asking [Security Research](../../product-security/security-platforms-architecture/security-research/)
 
 ## Contact Us
 

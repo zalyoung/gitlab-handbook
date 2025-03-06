@@ -58,7 +58,7 @@ When we take on work:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
     1. Ping the group's PM/EMs. Say that we're working on this issue, do your best to align with any existing efforts, and highlight that after release it will belong to their team (similar to a community contribution).
     1. If we can't figure it out an owner, don't ping anybody.
-1. Apply the appropriate `ProdSecEngMetric::` label based on the definitions listed in the [Metrics labels table](/handbook/security/product-security/product-security-engineering/metrics/)
+1. Apply the appropriate `ProdSecEngMetric::` label based on the definitions listed in the [Metrics labels table](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/metrics/)
     1. If unsure what the appropriate label is at this point, add the `~ProdSecEngMetric::Pending` label
 
 ### Removing work items from the backlog
@@ -106,8 +106,8 @@ Below is a step-by-step process for team members to walk through when refining b
 1. Investigate what an ideal solution might look like and add potential solution information to that issue
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
-1. Add a [weight](/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
-1. Consider adding a [priority](/handbook/security/product-security/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
+1. Add a [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) based on how much effort this will take to accomplish
+1. Consider adding a [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
 1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
 
 ### Weights
@@ -181,7 +181,7 @@ For each custom tool:
   - Any other work required to implement, roll out, or handover that functionality should be tracked as children of these epics
   - Each of these epics must be labeled with `~ProdSecEngMetric::Tooling Integration`
 - A tooling handover epic must be created so that conversations with development teams can begin as soon as possible
-- A [sunset roadmap](/handbook/security/product-security/product-security-engineering/product-security-requirements/#sunset-roadmaps) is created, along with sunsetting issues
+- A [sunset roadmap](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/product-security-requirements/#sunset-roadmaps) is created, along with sunsetting issues
 
 ### Discrete Pieces of Functionality
 
@@ -236,7 +236,7 @@ As we begin to build context on the tool, as part of our planning phase we will:
   - Make these epics children of the tooling integration epic
   - Be sure each of these have the `~ProdSecEngMetric::Tooling Integration` label
 - Make a quick, best-guess recommendation as to what pieces of functionality or components we should start working on first
-- Create a [sunset roadmap](/handbook/security/product-security/product-security-engineering/product-security-requirements/#sunset-roadmaps) and sunsetting issues
+- Create a [sunset roadmap](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/product-security-requirements/#sunset-roadmaps) and sunsetting issues
 
 Once we have identified the functionality and components for this tool, we:
 
@@ -254,15 +254,15 @@ After we have finished a contribution related to a custom tooling integration, w
 
 ## Milestone Planning
 
-Please visit the [Product Security Engineering Milestone Planning page](/handbook/security/product-security/product-security-engineering/milestone-planning/) for information about how we plan our work.
+Please visit the [Product Security Engineering Milestone Planning page](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/milestone-planning/) for information about how we plan our work.
 
 ## Metrics
 
-Please refer to the [Product Security Engineering Metrics page](/handbook/security/product-security/product-security-engineering/metrics/) for information on our metrics.
+Please refer to the [Product Security Engineering Metrics page](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/metrics/) for information on our metrics.
 
 ## Integrating Product Security Team Requirements Into GitLab
 
-Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/product-security-engineering/product-security-requirements/).
+Information on how the Product Security Engineering team plans, develops, and maintains functionality required by the GitLab Product Security sub-department can [be found here](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/product-security-requirements/).
 
 ### Open Source Contributions
 

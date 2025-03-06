@@ -33,11 +33,11 @@ Essential:
 - [ ] Design a solution that makes it easier for developers to avoid this class of bug ("paved road"), and/or prevents or mitigates the class of bug (defense-in-depth)
 - [ ] Document your solution design in an [issue](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new) (and/or epic & child items)
   - Have the solution peer reviewed by a teammate
-  - Iteratively [refine it](/handbook/security/product-security/product-security-engineering/#step-by-step-refinement-process) until it's in the `~workflow::ready for development` state
+  - Iteratively [refine it](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#step-by-step-refinement-process) until it's in the `~workflow::ready for development` state
 
 Recommended:
 
-- [ ] [Add it to a milestone](/handbook/security/product-security/product-security-engineering/milestone-planning/#milestone-planning-issue) and implement your solution
+- [ ] [Add it to a milestone](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/milestone-planning/#milestone-planning-issue) and implement your solution
 - [ ] Reproduce a historic vulnerability on a local version of GitLab
 - [ ] [Create a threat model](/handbook/security/product-security/application-security/runbooks/threat-modeling/#creating-the-threat-model) that encompasses the vulnerability you chose
 - [ ] Compare your designed solution to our actual patches and defense-in-depth measures
@@ -49,11 +49,11 @@ Essential:
 - [ ] Identify an existing issue off our issue board or select a ~ProdSecEngCandidate issue which will help one of the Product Security teams better secure GitLab (the org) _with_ GitLab (the product)
 - [ ] Document your solution design in an [issue](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new) (and/or epic & child items)
   - Have the solution peer reviewed by a teammate
-  - Iteratively [refine it](/handbook/security/product-security/product-security-engineering/#step-by-step-refinement-process) until it's in the `~workflow::ready for development` state
+  - Iteratively [refine it](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#step-by-step-refinement-process) until it's in the `~workflow::ready for development` state
 
 Recommended:
 
-- [ ] [Add it to a milestone](/handbook/security/product-security/product-security-engineering/milestone-planning/#milestone-planning-issue) and implement your solution
+- [ ] [Add it to a milestone](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/milestone-planning/#milestone-planning-issue) and implement your solution
 - [ ] Conduct a post-implementation review and propose improvements
 - [ ] Collaborate with the Application Security team to identify other high-impact automation opportunities
 
