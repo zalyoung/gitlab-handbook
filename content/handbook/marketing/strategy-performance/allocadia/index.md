@@ -346,8 +346,8 @@ Watch the [video](https://youtu.be/Xis0KDi-Iy4) for a step to step walkthrough.
 ##### Allocadia - GitLab Issue Integration Summary
 
 - Issue can be created or updated in Gitlab through an outbound action button on the details panel
-     - Button label: Create/Update MDF Issues
-     - Note that action is available in the Partner portion of the hierarchy only
+  - Button label: Create/Update MDF Issues
+  - Note that action is available in the Partner portion of the hierarchy only
 - Issue creation can be initiated at the "Line Item" row level only in Allocadia, and the line item must be within a sub-category
 - Fields from the Allocadia details panel are used to populate an Issue template in Gitlab
 - User is presented with a link to open the new Issue in Gitlab after creation
@@ -360,8 +360,8 @@ See [slides](https://docs.google.com/presentation/d/13JsM0poTh4TN_U-l-pgRz_gMbaM
 ##### GitLab Issue Creation Details
 
 - The partner issue title is built as follows:
-     - `<item name> - <Start Date Quarter> - <Start Date (MM.DD.YY)>`
-     - E.g. `MDF 179 Spectrum Groupe Devoxx 23 - FY24-Q1 - 2023.04.12`
+  - `<item name> - <Start Date Quarter> - <Start Date (MM.DD.YY)>`
+  - E.g. `MDF 179 Spectrum Groupe Devoxx 23 - FY24-Q1 - 2023.04.12`
 - A pre-defined message template is used for the partner issue Description
 - The message template has several placeholders for fields from Allocadia, as well as some fields that are formatted by the integration
 
