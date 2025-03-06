@@ -16,7 +16,7 @@ This page outlines GitLab's comprehensive strategy for identifying, assessing, a
 - Establish comprehensive visibility and traceability to detect supply chain threats and vulnerabilities
 - Implement a proactive risk management framework to address emerging supply chain threats
 - Create a measurable approach to reduce supply chain attack surfaces
-- Support and enhance the [Product Security Risk Register (PSRR)](/handbook/security/product-security/risk-register/) with structured supply chain risk data and analysis
+- Support and enhance the [Product Security Risk Register (PSRR)](/handbook/security/product-security/security-platforms-architecture/risk-register/) with structured supply chain risk data and analysis
 
 ## Supply Chain Component Model
 
@@ -172,7 +172,7 @@ Software Bills of Materials (SBOMs) play a crucial role in connecting different 
 
 ## Integration with the Product Security Risk Register
 
-The Supply Chain Risk Management Strategy serves as a critical foundation for the [Product Security Risk Register (PSRR)](/handbook/security/product-security/risk-register/). Each supply chain-related risk identified in the PSRR must be linked to specific elements within this supply chain model:
+The Supply Chain Risk Management Strategy serves as a critical foundation for the [Product Security Risk Register (PSRR)](/handbook/security/product-security/security-platforms-architecture/risk-register/). Each supply chain-related risk identified in the PSRR must be linked to specific elements within this supply chain model:
 
 1. **Risk Mapping Requirements**
 
