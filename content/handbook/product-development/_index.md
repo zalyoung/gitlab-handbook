@@ -44,7 +44,6 @@ Within each product development team, the following responsibilities require cov
 1. **UX Lead**: Ensures exceptional user experience of the product from planning through implementation where there is a direct product interface with the end user.
 1. **Documentation Lead**:  Collaborates with Product Lead on definition of documentation deliverables, with UX Lead on text for the GitLab UI, and with Engineering for review and update of documentation drafts.
 
-
 These responsibilities across Product, Technical, Delivery, Resource, and UX all require coverage to ensure that the product development team's output is delivered on target from a quality, usability, and capability standpoint.
 
 ### Role vs. Responsibility
