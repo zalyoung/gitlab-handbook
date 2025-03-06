@@ -50,7 +50,7 @@ The GitLab team member of the Activity Location will receive a notification requ
 
 The GitLab team member must use the links below to review the MDF request submission, however, you can only approve or deny directly from the email notification.
 
-Should you want to review all your requests, [see section](/handbook/marketing/marketing-operations/impartner/#prm-mdf).
+Should you want to review all your requests, [see section](/handbook/marketing/marketing-operations/impartner/#prm-mdf-view).
 
 Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you'll need to create an issue request for support from MktgOps.
 
