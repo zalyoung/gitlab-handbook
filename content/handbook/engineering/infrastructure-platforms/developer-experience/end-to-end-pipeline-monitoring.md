@@ -37,7 +37,6 @@ This diagram provides a visual representation of how our end-to-end test pipelin
 
 The color coding indicates test types and environment categories, making it easier to understand our comprehensive testing strategy across the entire deployment pipeline. This visualization is particularly valuable for infrastructure planning. The original [LucidChart diagram](https://lucid.app/lucidchart/7ce9aad0-9cef-4b46-a62c-962f1f7fec9e/edit?viewport_loc=-686%2C30%2C3133%2C1583%2C0_0&invitationId=inv_3b6960ed-aaf0-4a35-95db-a3e63db5b937) also includes a Cells version so we can visualize what it will look like.
 
-
 ## Test metrics
 
 For visibility on the test health, we have test execution results exported to:
