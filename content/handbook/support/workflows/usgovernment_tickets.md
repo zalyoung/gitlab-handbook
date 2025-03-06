@@ -168,6 +168,8 @@ The following will describe how to create the personal view to list cases in Glo
 
 ### Getting Help
 
+If you are unsure where to take a given investigation, consult the [Troubleshooting Tables](/handbook/support/workflows/saas_sm_cheatsheet/)
+
 There are a few avenues available for getting additional information and assistance when working on a GitLab Dedicated for Government ticket.
 
 - [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
@@ -182,3 +184,5 @@ Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/su
 The Global workflow for [Handling GitLab Dedicated emergencies](/handbook/support/workflows/dedicated/#handling-gitlab-dedicated-emergencies) is your guide.
 
 Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
+
+The [GitLab Dedicated US PubSec On-call runbook](https://gitlab.com/gitlab-com/gl-infra/us-public-sector/documentation/-/blob/main/runbooks/on-call.md) is the SSOT and the US Government Support team should bookmark and reference it.
