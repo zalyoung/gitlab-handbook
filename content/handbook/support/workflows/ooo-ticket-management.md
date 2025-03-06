@@ -23,15 +23,15 @@ As part of this workflow, the Support Engineer going on leave will leave notes o
 
 When planning PTO with high-priority tickets in your queue:
 
-1. Notify your manager at least 2 days before PTO about any Sev 2 or higher tickets
-2. Find an appropriate assignee through the following progression:
+1. Find an appropriate assignee through the following progression:
    - Check for colleagues on the same shift.
    - Check regional support channels if no one is available on your shift.
    - If no assignee can be found, escalate to your manager.
-3. Conduct a warm handover with the new assignee:
+1. Conduct a warm handover with the new assignee:
    - Schedule a pairing session or have a detailed Slack discussion.
    - Walk through the ticket details, customer context, and current status.
-   - Apply the OOO Ticket Summary macro using the below Flow Chart Workflow).
+   - Apply the OOO Ticket Summary macro using the below Flow Chart Workflow.
+   - The new Assignee takes assignment of the ticket.
 
 #### For Severity 3 and Below Tickets
 
@@ -98,7 +98,7 @@ flowchart TD
 
 When taking over a ticket that has the out_of_office tag:
 
-1. Review assigned tickets from the handover queue.
+1. Review unassigned tickets for your region from the Global Suppport Ticket View.
 1. Remove the `out_of_office` tag from the ticket.
 1. Set the Zendesk Form `Handover Status` to `Handover Completed`.
 1. Update ticket status and add appropriate comments for any work performed.
