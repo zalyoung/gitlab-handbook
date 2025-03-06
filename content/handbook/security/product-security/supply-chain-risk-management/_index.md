@@ -35,11 +35,11 @@ We focus our inventory and management efforts on artifacts and components within
 
 ### SLSA Supply Chain Model
 
-We align our supply chain tracking with the SLSA framework, which defines three key areas to secure:
+We align our supply chain tracking with the SLSA framework ([Specification 1.0](https://slsa.dev/spec/v1.0/)), which defines three key areas to secure:
 
 ![SLSA Supply Chain Model](supply-chain-model.svg)
 
-This model illustrates the core components we track:
+This model illustrates the core steps we track:
 
 1. **Source**: Where code is authored, reviewed, and stored
 2. **Build**: Where source is transformed into packages/artifacts
@@ -51,13 +51,15 @@ The model also depicts:
 - **Consumer**: The entity consuming the software (another supply chain, or end-user)
 - **Dependencies**: Internal and external components that feed into the build and package processes
 
-For each artifact in our supply chain, we track its path through these three primary areas, documenting controls and provenance at each stage.
+For each artifact in our supply chain, we track its path through these three core steps, documenting controls and provenance at each stage.
 
-### Supply Chain Component Categories
+### Supply Chain component types
 
-Our model identifies specific dependency types within each core step of the supply chain. These categories serve as reference elements to be used when describing a particular supply chain. Note that not all elements will be present in every supply chain - the categorization below provides a framework for comprehensive modeling.
+Our model identifies specific component types within each core step of the supply chain. These types serve as reference elements to be used when describing a particular subset of the supply chain. Note that not all components will be present in every supply chain - the categorization below provides a framework for comprehensive modeling.
 
-#### Source Core Step
+These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below.
+
+#### Source components
 
 The Source core step includes everything that can edit and alter the source code before the Build step:
 
@@ -76,9 +78,9 @@ The Source core step includes everything that can edit and alter the source code
    * Code owners configuration
    * Repository access controls
 
-#### Build Core Step
-
+#### Build categories
 The Build core step includes everything that can transform the source code (compilation, linting, etc.) and produce an artifact:
+
 
 * **CI/CD**
 
@@ -91,6 +93,7 @@ The Build core step includes everything that can transform the source code (comp
    * Base Docker images
    * Intermediate images
    * Container build tools
+   * Container registries
    
 * **Runtime Dependencies**
 
@@ -115,6 +118,7 @@ The Package core step usually shares many of the same dependency types as the Bu
 * **Repository Management**
 
    * Package registries
+   * Container registries
    * Repository managers
    * Release pipelines
    
@@ -140,6 +144,23 @@ This framework is based on the Supply chain Levels for Software Artifacts (SLSA)
 - Artifact authentication
 - Access control requirements
 
+#### Threats
+
+SLSA [defines a set of threats](https://slsa.dev/spec/v1.0/threats) that are used in the PSRR to link elements of the model to risks:
+
+![SLSA Threats](supply-chain-threats.svg)
+
+| Threat area | Threat | Label |
+| -- | -- | -- |
+| Source | (A) Submit unauthorized change | ~sscs-rm-threat::a-submit-unauthorized-change |
+|        | (B) Compromise source repo | ~sscs-rm-threat::b-compromise-source-repo |
+|        | (C) Build from modified source | ~sscs-rm-threat::c-build-from-modified-source |
+| Dependency | (D) Use compromised dependency | ~sscs-rm-threat::d-use-compromised-dependency |
+| Build  | (E) Compromise build process | ~sscs-rm-threat::e-compromise-build-process |
+|        | (F) Upload modified package | ~sscs-rm-threat::f-upload-modified-package |
+|        | (G) Compromise package registry | ~sscs-rm-threat::a-submit-unauthorized-change |
+|        | (H) Use compromised package | ~sscs-rm-threat::a-submit-unauthorized-change |
+
 ### SBOM Integration
 
 Software Bills of Materials (SBOMs) play a crucial role in connecting different supply chains. For each artifact we produce:
@@ -149,53 +170,6 @@ Software Bills of Materials (SBOMs) play a crucial role in connecting different 
 - These SBOMs serve as the "connective tissue" between different supply chain segments
 - SBOMs provide traceability from any artifact back through its entire dependency tree
 
-Our model encompasses three primary domains across the supply chain:
-
-### 1. Source Management
-
-Components involved in creating, storing, and managing source code:
-- Source code repositories
-- Version control systems
-- Code review platforms
-- Dependency management systems
-- Source code scanning tools
-
-### 2. Build Infrastructure
-
-Components that transform source code into deployable artifacts:
-- Build servers and infrastructure
-- Continuous Integration/Continuous Deployment (CI/CD) pipelines
-- Compilation and build tools
-- Testing frameworks
-- Code signing mechanisms
-- Build verification systems
-
-### 3. Distribution Infrastructure
-
-Components that deliver artifacts to end users:
-- Package repositories
-- Content delivery networks
-- Update servers
-- Release management systems
-- Deployment automation tools
-
-## Component Risk Classification
-
-Each component in our supply chain is classified according to the following risk-focused attributes:
-
-| Attribute | Description |
-|-----------|-------------|
-| Step | The functional category (Source, Build, or Distribution) |
-| Risk Level | Critical, High, Medium, or Low based on impact and likelihood |
-| Criticality | Impact on overall security and operations if compromised |
-| Ownership | Team or individual responsible for risk management of the component |
-| Data Sensitivity | Types of data handled and potential impact if breached (Public, Internal, Confidential, Regulated) |
-| Threat Exposure | Level of exposure to external threats and attack vectors |
-| Authentication Method | How access control risks are managed |
-| Integrity Controls | Measures mitigating tampering and unauthorized modification risks |
-| Audit Capability | Level of logging and monitoring implemented for risk detection |
-| SLSA Relevance | How the component contributes to SLSA compliance and risk reduction |
-
 ## Integration with the Product Security Risk Register
 
 The Supply Chain Risk Management Strategy serves as a critical foundation for the [Product Security Risk Register (PSRR)](/handbook/security/product-security/risk-register/). Each supply chain-related risk identified in the PSRR must be linked to specific elements within this supply chain model:
@@ -203,8 +177,8 @@ The Supply Chain Risk Management Strategy serves as a critical foundation for th
 1. **Risk Mapping Requirements**
 
    - Every supply chain risk in the PSRR must reference specific components from this model
-   - Risks should identify which part of the supply chain step is affected (Source, Build, or Package)
-   - Risk documentation must include the specific artifacts or components involved
+   - By extension, risks identifies which part of the supply chain step is affected (Source, Build, or Package)
+   - Risk documentation can include specific artifacts involved
    - The potential for risk propagation through the supply chain should be documented
 
 2. **Bidirectional Traceability**
@@ -218,93 +192,9 @@ The Supply Chain Risk Management Strategy serves as a critical foundation for th
 
    - The risk scoring methodology must be consistent between this model and the PSRR
    - Supply chain risk mitigations documented in the PSRR should align with controls in this model
-   - Vulnerability management priorities should reflect the criticality classifications in this model
    - Risk acceptance decisions should consider the full context of the supply chain graph
 
 This integration ensures a comprehensive approach to supply chain risk management that leverages our existing security frameworks while providing deeper visibility into supply chain-specific threats.
-
-## Supply Chain Graph Visualization
-
-To effectively manage our supply chain model as a graph:
-
-1. **Artifact-Centric View**
-
-   - Each distributed artifact serves as an entry point to its supply chain
-   - Visualization tools represent dependencies as directed links between components
-   - The graph can be traversed to understand the full lineage of any artifact
-
-2. **Boundary Definition**
-
-   - External dependencies are clearly marked as supply chain boundaries
-   - These boundaries represent where our direct control and visibility end
-   - Future expansion may include deeper visibility into critical external dependencies
-
-3. **Risk Propagation**
-
-   - The graph structure enables analysis of how risks may propagate
-   - Critical paths through the supply chain can be identified and hardened
-   - Bottlenecks and single points of failure become visible for mitigation
-
-## Implementation Guide
-
-1. **Artifact Risk Identification**
-
-   - Catalog all artifacts generated by GitLab systems with risk classifications
-   - Document artifact formats, locations, purposes, and associated threats
-   - Establish unique identifiers and risk profiles for each artifact type
-
-2. **Component Risk Mapping**
-
-   - Identify all components involved in creating each artifact
-   - Map relationships, dependencies, and potential risk propagation paths
-   - Document attack surfaces and threat scenarios throughout the supply chain
-
-3. **Comprehensive Risk Assessment**
-
-   - Evaluate the security posture and risk exposure of each component
-   - Identify and categorize potential vulnerabilities, threats, and attack vectors
-   - Create risk matrices and prioritize components based on risk level and criticality
-   - Establish baseline risk metrics for future comparison
-
-### Phase 2: Control Implementation
-
-1. **Access Controls**
-
-   - Implement least-privilege access across all components
-   - Establish multi-factor authentication for critical systems
-   - Regularly review and audit access permissions
-
-2. **Integrity Verification**
-
-   - Implement digital signatures for all artifacts
-   - Establish build provenance documentation
-   - Create tamper-detection mechanisms for critical components
-
-3. **Monitoring and Alerting**
-
-   - Deploy comprehensive logging across the supply chain
-   - Establish automated alerts for suspicious activities
-   - Create dashboards for supply chain health monitoring
-
-### Phase 3: SLSA Advancement
-
-1. **Gap Analysis**
-
-   - Assess current state against SLSA requirements
-   - Identify specific improvements needed for each SLSA level
-   - Create roadmap for progressive advancement
-
-2. **Documentation and Verification**
-
-   - Establish processes for documenting build provenance
-   - Implement verification mechanisms at each step
-   - Create attestation procedures for artifact authenticity
-
-3. **Continuous Improvement**
-
-   - Regularly review and update the supply chain model
-   - Conduct periodic security assessments
-   - Incorporate industry best practices as they evolve
 
 ## How to Use This Model
 
@@ -362,12 +252,11 @@ Success in our supply chain risk management strategy will be measured by:
 - Successful passing of external security audits with minimal findings
 - Improved visibility and quantification of supply chain risks and dependencies
 - Reduced number of critical and high-risk components in the supply chain
-- Increased maturity in supply chain risk assessment capabilities
+- Increased maturity in supply chain risk assessment capabilities 
 
 ## References and Resources
 
-- [SLSA Framework Documentation v1.0](https://slsa.dev/)
-- [SLSA Specifications and Requirements](https://slsa.dev/spec/v1.0/)
+- [SLSA 1.0 Specifications and Requirements](https://slsa.dev/spec/v1.0/)
 - [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
 - [SPDX SBOM Format](https://spdx.dev/)
 - [CycloneDX SBOM Format](https://cyclonedx.org/)
