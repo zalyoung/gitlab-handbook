@@ -9,9 +9,28 @@ Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/s
 
 ## Managing the Business
 
+### FY26 Solutions Architecture leading KPIs
+
+[To align with the company objectives](https://docs.google.com/document/d/1ZLQA5aj--2gxkcGRI-MakRwE2tpGtbZl0DEA7BDAd4I), SA is targeting POV and SA Validated Tech Evaluation with rates (e.g., technical wins and not necessarily opportunity wins). 
+
+1. **CSPs created and reviewed with customer on 100% of [qualifying opportunities](/handbook/solutions-architects/sa-practices/customer-success-plan/#opportunity-thresholds-for-creating-and-reviewing-mutual-customer-success-plans)**
+2. **90% technical win rate for [SA Validated Technical Evaluations](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation)**
+3. **90% technical win rate for [Proof of Values](/handbook/solutions-architects/tools-and-resources/pov/)
+
+ To hit these targets, SA leaders should ensure high quality data, inspect progress reqularly, drive team accountability, and iterate on our execution.  The following reports dashboards and expected cadences are provided to assist with this.
+
+### Available Reports and Dashboards
+
+- [CQ Hygiene metrics dashboard](https://10az.online.tableau.com/#/site/gitlab/views/CommandPlanCompletionReviewsRLSenabled/HygieneMetrics-CQ?:iid=1) - contains CSP and CSP review percentages for open opportunities in the CQ.
+- [CSP Rates Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/CSPRates?:iid=1) - Provides CSP creation and reviews against our targets for all qualifying opportunities.  
+- [Global Top Deal Review Sheet](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319) - Provides details for all opportunities over 100K Net ARR, including SA engagement information.  (AMER and EMEA also have their own versions of this sheet)
+- [SA Feasibility Rating - Operational Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000025nOj2AI/view?queryScope=userFolders) - Provides visibility into the adoption, trends, and other details of feasibility scoring.
+- [SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/workbooks/2105107/views) - Dynamic dashboards for exploring SA activity, account, first touch, and individual performance trends.
+- [SA Activity Dashboards (Legacy)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2105107/views) - Dynamic dashboards for exploring SA activity, opportunity, and individual performance trends.
+    
 ### Activity Review
 
-As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements.
+As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements.  This ensure our data is adequate for driving our KPIs as well as deriving insights to improve our execution.
 
 ### Weekly
 
@@ -82,7 +101,7 @@ As a SA manager, the following is a summary of the operating rhythm when managin
 
 #### One-on-Ones
 
-As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/company/culture/all-remote/live-doc-meetings/#notetaking-and-structure-during-the-meeting) and document discussions.
+As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/leadership/1-1/) and document discussions.
 
 ### Monthly
 
