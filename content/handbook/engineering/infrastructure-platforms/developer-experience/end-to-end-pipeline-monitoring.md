@@ -31,7 +31,7 @@ For information on how to investigate failing end-to-end tests and pipelines, ch
 
 ## Visual Pipeline Environment Map
 
-![E2E Test Pipeline Environment Map](images/E2E%20test%20suite_pipeline%20mapping%20-%20Current.png)
+![E2E Test Pipeline Environment Map](/images/engineering/infrastructure-platforms/developer-experience/E2E%20test%20suite_pipeline%20mapping%20-%20Current.png)
 
 This diagram provides a visual representation of how our end-to-end test pipelines map to various environments in our infrastructure. It illustrates the flow of tests across Merge Requests, Development, Staging, Preprod, and Production environments, showing when tests are triggered (on commit, after deploy, after configuration changes, etc.) and what type of tests run in each environment (smoke, full, etc.).
 
