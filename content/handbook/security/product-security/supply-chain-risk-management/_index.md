@@ -63,76 +63,76 @@ These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in 
 
 The Source core step includes everything that can edit and alter the source code before the Build step:
 
-* **Development Dependencies**
+- **Development Dependencies**
 
-   * Development environment setup tools and dependencies (asdf/mise)
-   * IDE extensions and plugins
-   * Other local development tools
-   * Docker images
-   * Pre-commit hooks
-   * Local code formatters and linters
+   - Development environment setup tools and dependencies (asdf/mise)
+   - IDE extensions and plugins
+   - Other local development tools
+   - Docker images
+   - Pre-commit hooks
+   - Local code formatters and linters
    
-* **GitLab Repositories**
+- **GitLab Repositories**
 
-   * Project configuration
-   * Code owners configuration
-   * Repository access controls
+   - Project configuration
+   - Code owners configuration
+   - Repository access controls
 
 #### Build categories
+
 The Build core step includes everything that can transform the source code (compilation, linting, etc.) and produce an artifact:
 
+- **CI/CD**
 
-* **CI/CD**
-
-   * GitLab Runners
-   * CI/CD Templates
-   * CI/CD Components
+   - GitLab Runners
+   - CI/CD Templates
+   - CI/CD Components
    
-* **Build images**
+- **Build images**
 
-   * Base Docker images
-   * Intermediate images
-   * Container build tools
-   * Container registries
+   - Base Docker images
+   - Intermediate images
+   - Container build tools
+   - Container registries
    
-* **Runtime Dependencies**
+- **Runtime Dependencies**
 
-   * Ruby Gems
-   * NPM packages
-   * Go modules
-   * Python packages
-   * Other language-specific dependencies
+   - Ruby Gems
+   - NPM packages
+   - Go modules
+   - Python packages
+   - Other language-specific dependencies
    
-* **Secrets**
+- **Secrets**
 
-   * Vault
-   * CI/CD variables
-   * Key management systems
-   * Certificate authorities
-   * Signing infrastructure
+   - Vault
+   - CI/CD variables
+   - Key management systems
+   - Certificate authorities
+   - Signing infrastructure
 
 #### Package Core Step
 
 The Package core step usually shares many of the same dependency types as the Build step, but focuses on artifact distribution:
 
-* **Repository Management**
+- **Repository Management**
 
-   * Package registries
-   * Container registries
-   * Repository managers
-   * Release pipelines
+   - Package registries
+   - Container registries
+   - Repository managers
+   - Release pipelines
    
-* **Distribution Infrastructure**
+- **Distribution Infrastructure**
 
-   * CDNs
-   * Mirror services
-   * Download servers
+   - CDNs
+   - Mirror services
+   - Download servers
    
-* **Verification Systems**
+- **Verification Systems**
 
-   * Signature verification
-   * Checksumming services
-   * Attestation systems
+   - Signature verification
+   - Checksumming services
+   - Attestation systems
 
 ### SLSA 1.0 Alignment
 
