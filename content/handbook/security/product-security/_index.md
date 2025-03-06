@@ -41,8 +41,6 @@ The Product Security sub-department includes the following teams. Learn more abo
 
 - [Application Security](application-security/)
 - [Infrastructure Security](infrastructure-security/)
-- [Product Security Engineering](product-security-engineering/)
 - [Vulnerability Management](vulnerability-management/)
-- [Security Research](security-research/)
-- [Security Architecture](/handbook/security/product-security/security-architecture/)
+- [Security Platforms and Architecture](security-platforms-architecture)
 - [Data Security](data-security/)
