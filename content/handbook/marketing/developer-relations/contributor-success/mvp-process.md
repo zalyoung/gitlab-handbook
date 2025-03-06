@@ -76,7 +76,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
 
    NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown ellipsis (kebab menu) in the upper right corner.
 
-1. Follow the steps for [Sending MVP Appreciation Gifts](#sending-mvp-rewards).
+1. Follow the steps for [Sending MVP Rewards](#sending-mvp-rewards).
 1. After release post goes live, link the MVP section of the release post in Slack `#whats-happening-at-gitlab` channel along with a reminder to add new nominations.
 
    ```md
