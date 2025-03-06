@@ -119,7 +119,7 @@ Recommendations for cash compensation increases are based on performance factors
 
 Actual increases may vary based on:
 
-- [Market adjustments](/handbook/total-rewards/compensation/compensation-review-cycle/#market-adjustments) to ensure a team member is in range based on the refreshed FY25 compensation ranges
+- [Market adjustments](/handbook/total-rewards/compensation/compensation-review-cycle/#market-adjustments) to ensure a team member is in range based on the refreshed FY26 compensation ranges
 - Where a team member falls in their compensation range and whether they are already [competitively placed](/handbook/total-rewards/compensation/#competitive-rate) in their range for their role, level, and location
 - Previous increases
 - Internal equity
