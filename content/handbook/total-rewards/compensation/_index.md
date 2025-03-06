@@ -243,7 +243,7 @@ These roles are still [benchmarked using market data](/handbook/total-rewards/co
 | Zone 2 | 0.70 - 0.85 | 0.85 |
 | Zone 1 | 0.86 - 1.00+ | 1.00 |
 
-Exchange rates for commissions payments are as defined per the terms of the Sales Incentive Compensation Plan. PLease reach out to the Sales Commissions team for further information.
+Exchange rates for commissions payments are as defined per the terms of the Sales Incentive Compensation Plan. Please reach out to the Sales Commissions team for further information.
 
 ## Director Compensation
 
