@@ -271,7 +271,7 @@ GitLab relies on a vast amount of Open Source Software, this is not limited to d
 
 In total there are ten projects in four different categories to pick from. The categories are to ensure our work has a broad impact. The projects are chosen and prioritized by the following factors:
 
-- Data access [(red/orange/green)](../../data-classification-standard.md#data-classification-levels)
+- Data access [(red/orange/green)](../../../data-classification-standard.md#data-classification-levels)
 - GitLab API scopes used (if any)
 - Functionality provided, especially aiming for high-impact features like:
   - authentication and authorization
@@ -325,7 +325,7 @@ Vulnerability disclosure can be a delicate process and there is no one-size-fits
 
 For third party software listed in our [tech stack](/handbook/business-technology/tech-stack-applications/) any vulnerability disclosures should be coordinated with the respective owner of the tech stack item. They might have additional contacts on the vendor side, or more context how to implement a temporary mitigation for an identified vulnerability.
 
-Depending on the actual risk and exposure it might be needed to further limit the information around the disclosure. In such cases it is recommended to involve the [SIRT](../application-security/runbooks/working-with-sirt.md).
+Depending on the actual risk and exposure it might be needed to further limit the information around the disclosure. In such cases it is recommended to involve the [SIRT](../../application-security/runbooks/working-with-sirt.md).
 
 In all cases the team will follow [GitLab's Disclosure Guidelines for Vulnerabilities in 3rd Party Software](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software).
 

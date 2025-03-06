@@ -64,7 +64,7 @@ would impact our security posture. Our security posture is defined by:
 The Application Security team provides guidelines and requirements to follow during all the life
 cycle of source code:
 
-- [AppSec projects policies](../application-security/inventory#policies)
+- [AppSec projects policies](../../application-security/inventory#policies)
 
 ### InfraSec
 
@@ -429,7 +429,7 @@ aka Fail Safe Defaults.
 
 #### How
 
-- [Threat model](../application-security/threat-modeling) the system, repeat, iterate.
+- [Threat model](../../application-security/threat-modeling) the system, repeat, iterate.
 - Identify central components that
   - share more privileges than the others
   - have more connections to other components
