@@ -10,13 +10,13 @@ These workflows discuss how support engineers can asynchronously manage and summ
 
 ### Using the OOO Ticket Summary macro
 
-As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list, and adds the `out_of_office` summary tag to the ticket. It is recommended to follow this workflow if 3 days or more of PTO are planned.
+As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list, and adds the `out_of_office` summary tag to the ticket. It is recommended to follow this workflow for all high-priority tickets or when taking three or more days of PTO.
 
 ### Ticket Prioritization Workflow
 
 ### Before Going on PTO
 
-- Document Your Tickets: Make a list or take a screenshot of your tickets including the description and ID numbers. This serves as a backup reference.
+- Optional: You may choose to document your tickets by making a list or taking a screenshot, including the description and ID numbers. This can serve as a helpful backup reference.
 - Understand Automation: A ticket will automatically be unassigned and placed onto the Global Queue if: The tag `out_of_office` is applied to it AND `the customer responds to the ticket`.
 
 #### For Severity 2 and Above Tickets
@@ -102,18 +102,10 @@ When taking over a ticket that has the out_of_office tag:
 1. Remove the `out_of_office` tag from the ticket.
 1. Set the Zendesk Form `Handover Status` to `Handover Completed`.
 1. Update ticket status and add appropriate comments for any work performed.
-1. Handle the ticket as you normally would.
 1. After the return date specified in the macro, you can liase with the original engineer to hand the ticket back.  If needed, schedule a knowledge transfer session with the returning engineer.
 
 **Important:** If you skip removing the tag `out_of_office` then the ticket will be automatically unassigned if the customer responds again.
 
 #### Return from PTO Process
 
-When returning from PTO, engineers should follow these steps:
-
-1. Check the status of your tickets in the handover queue.
-1. Use your original screenshot or list from before your PTO to identify the tickets you need to reclaim.
-1. Contact the currently assigned engineer and work with them to reclaim your tickets from the handover queue.
-1. Review any updates or changes made to your tickets during your absence.
-1. Prioritize your workload based on current urgency and deadlines.
-1. Update stakeholders on your return and revised timelines if necessary.
+When returning from PTO, you may also choose to review the status of the tickets assigned to you before your PTO. As mentioned above, you can coordinate with the new owner if it makes sense to reclaim ownership. This could be beneficial if you have an established rapport with the customer, possess strong technical expertise on the issue, or had previously agreed to continue the investigation upon your return.
