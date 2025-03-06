@@ -12,7 +12,7 @@ To build and maintain a framework to ensure the readiness and consistent high qu
 To enable GitLab's development teams to follow the same readiness criteria for each feature developed and the ability to ensure the consistent high quality of each feature throughout each stage of the SDLC.
 
 - Optimized and efficient feedback loops
-  - Automate Feature readiness policies with actionable feedback
+  - Automate feature readiness policies with actionable feedback
   - The use of data to ensure critical user journeys meet quality scorecard expectations and feature readiness criteria
 - Reduced cognitive load
   - Simplify complexity in test running tools and framework used for e2e testing
