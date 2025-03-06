@@ -189,7 +189,7 @@ When a customer wishes to modify their invoice for tax or administration purpose
 
 ## Paying invoices
 
-Settling an invoice using a payment card such as debit or credit card is [possible within customersDot](https://docs.gitlab.com/subscriptions/customers_portal/#pay-for-an-invoice).  They can:
+Settling an invoice using a payment card such as debit or credit card is [possible within customersDot](https://docs.gitlab.com/subscriptions/customers_portal/#pay-for-an-invoice).  The customer can:
 
 1. Sign in to the Customers Portal.
 1. Navigate to the Invoices page from the sidebar (`/invoices`).
@@ -199,7 +199,7 @@ Settling an invoice using a payment card such as debit or credit card is [possib
 Unlike adding a credit card during the purchase flow, payment methods entered here are not stored for future purchases.
 Additionally, existing payment methods cannot be accessed in this flow.
 
-Alternative payment methods aren't supported at this time, so requests to do so can be [passed over to Accounts Receivable team](#requests-to-make-a-paymentpayment-failed)
+Alternative payment methods aren't supported at this time, so requests to do so need to be [passed over to Accounts Receivable team](#requests-to-make-a-paymentpayment-failed)
 
 ### Requests to make a payment/payment failed
 
