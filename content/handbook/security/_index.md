@@ -69,9 +69,7 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="product-security/application-security/">Application Security</a></li>
             <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
-            <li><a href="product-security/product-security-engineering/">Product Security Engineering</a></li>
-            <li><a href="product-security/security-architecture/">Security Architecture</a></li>
-            <li><a href="product-security/security-research/">Security Research</a></li>
+            <li><a href="product-security/security-platforms-architecture/">Security Platforms and Architecture</a></li>
             <li><a href="product-security/vulnerability-management/">Vulnerability Management</a></li>
             <li><a href="product-security/data-security/">Data Security</a></li>
             <li><a href="security-operations/security-logging/">Security Logging</a></li>
@@ -254,9 +252,9 @@ For an overview of the communication and response process for a suspected ransom
 
 #### Tokens
 
-The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/company/working-groups/token-management/).
+The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/security/token-management-standard/).
 
-1. When creating a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), be sure to choose the appropriate [scopes](/handbook/security/security-operations/sirt/engaging-security-on-call/) that only have the permissions that are absolutely necessary.
+1. When creating a [Personal Access Token](https://docs.gitlab.com/user/profile/personal_access_tokens/), be sure to choose the appropriate [scopes](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes) that only have the permissions that are absolutely necessary.
 1. Oftentimes a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) might be sufficient instead of a Personal Access Token. Project Access Tokens have a much more limited scope and should be preferred over Personal Access Tokens whenever possible.
 1. Always set an expiration for your tokens when creating them. Tokens should preferably expire in a matter of hours or a day.
 1. Be mindful to keep these personal access tokens secret. Be particularly careful not to accidentally commit them in configuration files, paste them into issue or merge request comments, or otherwise expose them.
@@ -317,7 +315,3 @@ our security automation initiatives.
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member](/handbook/security/contributing-to-gitlab-the-product/)
 - [Threat Modeling](product-security/application-security/threat-modeling/)
-
-#### AI in Security Learning Group
-
-This group is setup to help interested Security team members get up to speed with AI technologies and how to secure them. For more information, see the [AI in Security Learning Group page](/handbook/security/learning-group-ai/).

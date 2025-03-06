@@ -11,7 +11,7 @@ The Field Communications function is part of the Field Enablement team and is re
 
 ### Field Communications Specialist
 
-The Field Communications Specialist reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Field Communications Specialist reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Field Communications Specialist Job Grade
 
@@ -41,7 +41,7 @@ The Field Communications Specialist is a grade [5](/handbook/total-rewards/compe
 
 ### Field Communications Manager
 
-The Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Field Communications Manager Job Grade
 
@@ -77,7 +77,7 @@ The Field Communications Manager is a grade [6](/handbook/total-rewards/compensa
 
 ### Senior Field Communications Manager
 
-The Senior Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Senior Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Senior Field Communications Manager Job Grade
 
@@ -115,7 +115,7 @@ The Senior Field Communications Manager is a grade [7](/handbook/total-rewards/c
 
 ### Staff Field Communications Manager
 
-The Staff Field Communications Manager reports to the [Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Staff Field Communications Manager reports to the [Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Staff Field Communications Manager Job Grade
 

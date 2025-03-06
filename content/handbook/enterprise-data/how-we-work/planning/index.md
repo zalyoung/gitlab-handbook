@@ -93,7 +93,7 @@ Assigning KRs will happen towards the end of the quarter by adding team members 
 
 ### Data Platform Vision and KRs
 
-Although we encourage everyone within the team to contribute, in particular [Staff](/job-families/finance/data-engineer/#staff-data-engineer)+ level Data Engineers are expected to contribute to the long-term vision and strategic [direction](/handbook/enterprise-data/organization/engineering/) of the Data Platform, ensuring that our infrastructure and capabilities evolve to meet the changing needs of the business. They do this by discussing quarterly our Data Platform vision and translate if needed into KRs. Any updates or outcomes from these discussions are incorporated into the overall OKR planning process and communicated to the entire Data Team.
+Although we encourage everyone within the team to contribute, in particular [Staff](/job-families/marketing/enterprise-data/data-engineer/#staff-data-engineer)+ level Data Engineers are expected to contribute to the long-term vision and strategic [direction](/handbook/enterprise-data/organization/engineering/) of the Data Platform, ensuring that our infrastructure and capabilities evolve to meet the changing needs of the business. They do this by discussing quarterly our Data Platform vision and translate if needed into KRs. Any updates or outcomes from these discussions are incorporated into the overall OKR planning process and communicated to the entire Data Team.
 
 Key aspects include:
 

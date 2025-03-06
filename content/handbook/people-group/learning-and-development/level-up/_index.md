@@ -15,6 +15,18 @@ Consider this page your LevelUp information highway. Over the coming weeks, you'
 frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 {{</ gdoc >}}
 
+## What's the difference between LevelUp and GitLab University?
+
+With the launch of this new technology solution, it's important to note that LevelUp and GitLab University our now **two completely separate platforms**, each with a different purpose and audience. GitLab University is used for customer education, whereas LevelUp is designed to support team member learning and professional development.
+
+| | GitLab University | LevelUp |
+|---|---|---|
+| **Target Audience** | Designed for educating customers and community members | Designed for educating internal team members |
+| **Platform** | Runs on ThoughtIndustries Learning System | Runs on Cornerstone Talent Experience Platform |
+| **Training Type** | Delivers external-facing product training | Delivers internal training for team members - including product, professional development, and compliance training |
+
+If you'd like to take any courses / certifications that are currently hosted on GitLab University, don't worry, we'll make them accessible via LevelUp.
+
 ## Benefits and Features
 
 The new Cornerstone TXP platform offers significant improvements over our current learning management system, specifically designed to support internal employee development and career growth at GitLab. Key features include:

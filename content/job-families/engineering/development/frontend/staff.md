@@ -59,7 +59,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Experience contributing to open source software
 - Domain knowledge relevant to the product stage you are looking to join (e.g. someone with CI/CD experience applying for the Verify & Release team)
 
-A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/career-development#engineering) for more detail.
+A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
 
 **Note:** Staff and above positions at GitLab are more of a role than just a "level". We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
 

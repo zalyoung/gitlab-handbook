@@ -27,7 +27,7 @@ Long-term, we think of including Tamland in self-managed installations and think
 
 ### Background: Capacity planning for GitLab.com
 
-[Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland) is an infrastructure resource forecasting project owned by the [Scalability::Observability](../../../infrastructure/team/scalability/#scalabilityobservability) group.
+[Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland) is an infrastructure resource forecasting project owned by the [Observability team](/handbook/engineering/infrastructure/team/observability/).
 It implements [capacity planning](../../../infrastructure/capacity-planning/) for GitLab.com, which is a [controlled activity covered by SOC 2](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/issues/604).
 As of today, it is used exclusively for GitLab.com to predict upcoming SLO violations across hundreds of monitored infrastructure components.
 

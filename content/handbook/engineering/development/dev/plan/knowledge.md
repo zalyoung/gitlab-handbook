@@ -240,7 +240,7 @@ To avoid rework we reach out to other teams early when working on the following 
   {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
 {{< /tableau >}}
 
-Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
+Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ### Application Performance
 

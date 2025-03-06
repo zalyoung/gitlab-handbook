@@ -117,9 +117,9 @@ During this period, if you a Support Engineer in APAC and you are working on a t
 1. Once received, send a reply to the customer, sharing the scheduling link.  You can use the following text as a starting point:
 
     ```text
-    Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for SAST Enforcement and Deployment Control.
+    Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for <SUBJECT REQUESTED HERE>.
     
-    Please use the following link to schedule a call with Bernard Ng from the CSE team: <CALENDLY SCHEDULING LINK HERE>
+    Please use the following link to schedule a call with the CSE team: <CALENDLY SCHEDULING LINK HERE>
     
     Do let me know if you run into issues scheduling a call, we'll be happy to assist.
     ```

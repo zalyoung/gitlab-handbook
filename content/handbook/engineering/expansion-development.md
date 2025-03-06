@@ -306,17 +306,17 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
-| GitLab Shell |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
+| GitLab Shell |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
-| LFS |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
+| LFS |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 | Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Mattermost |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
 | NGINX |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks) |  |
 | Patroni | General except Geo secondary clusters | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
+|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/) |  |
 | PgBouncer |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
 |  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
@@ -325,7 +325,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Redis |  | Decentralized |  |  | DRI is similar to Sidekiq which is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
 | Sentry |  | Decentralized |  |  | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
-| Workhorse |  | Centralized with Specific Team | @dpoosarla | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
+| Workhorse |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 
 ## Learning Resources
 
@@ -391,7 +391,7 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### Development Escalation Process
 
-- [General information](/handbook/engineering/development/processes/Infra-Dev-Escalation/)
+- [General information](/handbook/engineering/development/processes/infra-dev-escalation/)
 - [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/)
 
 ### Reducing the impact of far-reaching work
@@ -454,7 +454,7 @@ These are the stakeholders:
 | [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
 | [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                    | Code Suggestions |
-| [AI Model Validation Group](/handbook/engineering/development/data-science/ai-assisted/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
+| [AI Model Validation Group](/handbook/engineering/development/data-science/ai-powered/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
 | [Infrastructure](/handbook/engineering/infrastructure/)                                                                                | Code Suggestions AI Gateway scalability |
 
 ## ClickHouse Datastore usage

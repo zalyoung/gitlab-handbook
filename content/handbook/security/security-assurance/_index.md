@@ -4,17 +4,26 @@ title: "Security Assurance"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## Vision
+## <i class="fas fa-rocket" id="biz-tech-icons"></i> Security Assurance Mission and Vision
 
-To be a trusted sales enablement partner that is recognized internally and externally for collaborative and transparent security assurance programs.
+Our mission is to provide a high level of assurance that Gitlab (the platform and company) is secure.  
 
-## Overview
+Our vision is to be a trusted sales enablement partner that is recognized internally and externally for its collaborative and transparent security assurance program, powered by AI and automation. This will be achieved through 10 strategic objectives:
 
-As a member of the [Security department](/handbook/security/), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
+1. Establish GitLab as a thought leader in DevSecOps and AI.
+1. Accelerate the sales cycle to enable Sales to acquire new customers and reduce customer churn.
+1. Align Security Assurance with strategic business objectives and develop oversight for continuous alignment
+1. Enhance the efficiency and effectiveness of Security Assurance through automated and custom-built solutions
+1. Facilitate strategic initiatives to expand and improve GitLab’s external Security brand.
+1. Identify, manage, and reduce security risk through cross-functional collaboration, strategic prioritization, and proactive mitigation including governance over data security and resilience programs.
+1. Proactive compliance initiatives to maintain competitive advantage and enable customer acquisition through alignment with regulatory and industry specific requirements.
+1. Intra-division collaboration to enable successful, timely, and cost effective program and project initiation, management, and delivery through repeatable and scalable processes with consistent measurement and actionable reporting.
+1. Influence product development and enhancement through deliberate use and delivery of actionable feedback.
+1. Intra and Inter-division collaboration to enable effective and efficient identification and remediation of compliance findings.
 
-There are five teams in the Security Assurance sub-department.
+## <i id="biz-tech-icons" class="fas fa-tasks"></i> Security Assurance Department Structure
 
-## <i id="biz-tech-icons" class="fas fa-tasks"></i> Security Assurance Sub-Department
+There are four teams in the Security Assurance department.
 
 <table id="core-competencies">
   <tr>

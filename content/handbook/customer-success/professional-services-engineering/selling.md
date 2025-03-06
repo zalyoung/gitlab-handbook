@@ -33,7 +33,7 @@ graph LR;
 
 ### Step 1: Identify the right service
 
-The SAE/ISR can find the general services the PS team offers on the [services page](/services/) or for more details specific SKU offerings, on the [full catalog](https://about.gitlab.com/services/catalog/). The SAE/ISR can pull the SA/CSM in for help selecting services needed based on customer requirements.
+The SAE/ISR can find the general services the PS team offers on the [services page](https://about.gitlab.com/services/) or for more details specific SKU offerings, on the [full catalog](https://about.gitlab.com/services/catalog/). The SAE/ISR can pull the SA/CSM in for help selecting services needed based on customer requirements.
 
 ### Step 2: Create the opportunity in SFDC
 

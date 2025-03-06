@@ -18,7 +18,7 @@ Our comprehensive, [multi-year product security mission](https://internal.gitlab
 
 ### Product Security Risk Register
 
-Our Product Security Risk Register process details can be consulted on [this dedicated page](/handbook/security/product-security/risk-register/).
+Our Product Security Risk Register process details can be consulted on [this dedicated page](/handbook/security/product-security/security-platforms-architecture/risk-register/).
 
 ## Collaboration is Key
 
@@ -41,8 +41,6 @@ The Product Security sub-department includes the following teams. Learn more abo
 
 - [Application Security](application-security/)
 - [Infrastructure Security](infrastructure-security/)
-- [Product Security Engineering](product-security-engineering/)
 - [Vulnerability Management](vulnerability-management/)
-- [Security Research](security-research/)
-- [Security Architecture](/handbook/security/product-security/security-architecture/)
+- [Security Platforms and Architecture](security-platforms-architecture)
 - [Data Security](data-security/)
