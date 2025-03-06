@@ -175,7 +175,11 @@ There are a few avenues available for getting additional information and assista
 - [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
 - [GitLab Dedicated Overview](/handbook/support/workflows/dedicated/)
 
+### Requests for Help
+
 Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). If you need, but don't have, access contact Wade or Ian to get the process started.  
+
+Dialing in the RFH approach will take time and iteration, to be sure.  In the ideal future, we will open Infrastructure-focused RFHs on CompSecGov and non-infrastructure-focused RFHs will follow the typical procedure (**link to typical procedure**)
 
 ### Handling Emergencies
 
