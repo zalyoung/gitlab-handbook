@@ -37,7 +37,7 @@ We focus our inventory and management efforts on artifacts and components within
 
 We align our supply chain tracking with the SLSA framework ([Specification 1.0](https://slsa.dev/spec/v1.0/)), which defines three key areas to secure:
 
-![SLSA Supply Chain Model](supply-chain-model.svg)
+![SLSA Supply Chain Model](/images/security/product-security/supply-chain-risk-management/supply-chain-model.svg)
 
 This model illustrates the core steps we track:
 
@@ -148,7 +148,7 @@ This framework is based on the Supply chain Levels for Software Artifacts (SLSA)
 
 SLSA [defines a set of threats](https://slsa.dev/spec/v1.0/threats) that are used in the PSRR to link elements of the model to risks:
 
-![SLSA Threats](supply-chain-threats.svg)
+![SLSA Threats](/images/security/product-security/supply-chain-risk-management/supply-chain-threats.svg)
 
 | Threat area | Threat | Label |
 | -- | -- | -- |
