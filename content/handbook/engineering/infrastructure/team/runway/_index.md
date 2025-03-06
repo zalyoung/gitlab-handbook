@@ -44,9 +44,12 @@ Should you require assistance from the Runway team, please reference [getting as
 
 The Runway team [has a single top level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/14) that links sub-epics for all projects the team is working on.
 Every sub-epic has a completion date and a DRI for providing a weekly status update.
-We follow Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/). You can read [our 2024 Team Impact Review](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/431)
 
 ### Issues
 
 Issues for work performed by the Runway team is located in the [Runway team issue tracker](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/).
 The exception to this is work that is part of the Rails Application, these issues should be opened in the [GitLab Rails issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues).
+
+
+
