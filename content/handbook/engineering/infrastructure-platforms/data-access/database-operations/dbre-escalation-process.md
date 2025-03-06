@@ -27,9 +27,9 @@ This page outlines the DBO team's incident escalation policy.
 
 * **_S1 / S2 INCIDENTS ONLY_** 
 
-   * NB1: Due to limited staffing, i.e. having only one person in EMEA timezone, there will be times during the business day, within multible timezones, where there will not be anyone able to respond.  We understand the criticality of responding to S1/S2 incidents and we will make every effort to ensure there is adequete and timeliness in our responses, but given the current staffing levels, we are not at this point adhereing to a hard SLO. To do justice to this situation, it is also expected that schedules are changed on an ad-hoc bases. 
+  * NB1: Due to limited staffing, i.e. having only one person in EMEA timezone, there will be times during the business day, within multible timezones, where there will not be anyone able to respond.  We understand the criticality of responding to S1/S2 incidents and we will make every effort to ensure there is adequete and timeliness in our responses, but given the current staffing levels, we are not at this point adhereing to a hard SLO. To do justice to this situation, it is also expected that schedules are changed on an ad-hoc bases. 
 
-   * NB2: DBO will join incidents as a subject matter expert in a consultative capacity and there should be no expectation that the DBO engineer is solely responsible for a resolution of the escalation. There may be times where the DBO needs to escalate to other subject matter experts, such as the [Database Framework (DBF) team](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/database-framework/), in order to make headway on the incident at hand.  
+  * NB2: DBO will join incidents as a subject matter expert in a consultative capacity and there should be no expectation that the DBO engineer is solely responsible for a resolution of the escalation. There may be times where the DBO needs to escalate to other subject matter experts, such as the [Database Framework (DBF) team](../database-framework/), in order to make headway on the incident at hand.  
 
 ## Escalation Process
 
@@ -45,7 +45,6 @@ This page outlines the DBO team's incident escalation policy.
 
    * NB4: The DBO on-shift is responsbile for coordinating warm handoffs during shift changes, especially when there is an ongoing, active incident.
    
-
 ### Escalation
 
 1. EOC/IM, Development or Security page the DBO on-call via [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL)
