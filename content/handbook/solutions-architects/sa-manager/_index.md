@@ -19,7 +19,7 @@ Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/s
 
  To hit these targets, SA leaders should ensure high quality data, inspect progress reqularly, drive team accountability, and iterate on our execution.  The following reports dashboards and expected cadences are provided to assist with this.
 
- ### Available Reports and Dashboards
+### Available Reports and Dashboards
 
 - [CQ Hygiene metrics dashboard](https://10az.online.tableau.com/#/site/gitlab/views/CommandPlanCompletionReviewsRLSenabled/HygieneMetrics-CQ?:iid=1) - contains CSP and CSP review percentages for open opportunities in the CQ.
 - [CSP Rates Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/CSPRates?:iid=1) - Provides CSP creation and reviews against our targets for all qualifying opportunities.  
