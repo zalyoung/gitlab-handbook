@@ -29,7 +29,7 @@ resolution. To that end, incident management provides:
 1. an incident review where lessons and techniques are extracted and shared
 
 When an [incident starts](#reporting-an-incident), the incident automation sends a message
-in the [`#incident-management`](https://gitlab.slack.com/archives/CB7P5CJS1) channel
+in the [`#incidents`](https://gitlab.slack.com/archives/C02HF90ME66) channel
 containing a link to a per-incident Slack channel for text based communication, the
 incident issue for permanent records, and the Situation Room Zoom link for incident team members to join for synchronous verbal
 and screen-sharing communication.
