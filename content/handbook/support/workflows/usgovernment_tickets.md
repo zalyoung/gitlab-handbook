@@ -163,7 +163,7 @@ The following will describe how to create the personal view to list cases in Glo
 ### High-Level Notes
 
 1. Don't Panic.
-1. As of this writing (November 2024), we do not have access to logs for dedicated customers, so we have a much shorter fuse to call on the SREs for help.1
+1. As of this writing (November 2024), we do not have access to logs or observability metrics for GitLab Dedicated for Government customers, so we have a much shorter fuse to call on the SREs for help.
 1. In any given Dedicated ticket--emergency or not--the thing to determine is if it's a GitLab application problem or an infrastructure issue.  This is slightly tricky without access to their logs, but is the driving question.
 
 ### Getting Help
