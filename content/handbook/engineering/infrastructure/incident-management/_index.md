@@ -181,7 +181,7 @@ During an incident, the CMOC will:
 
 ### Infrastructure Leader
 
-To page the Incident Leader directly, run `/pd trigger` and choose the `Infrastructure Leader` as the impacted service.
+To page the Incident leader directly, run `/inc escalate` and choose the `dotcom leadership escalation` from the `Oncall Teams` drop-down menu
 
 The Infrastructure Leadership is on the escalation path for both Engineer On Call (EOC) and Incident Manager (IM).
 This is not a substitute or replacement for the active Incident Manager (unless the current IM is unavailable).
@@ -291,11 +291,15 @@ If the EOC does not respond because they are unavailable, you should escalate th
 
 If during an incident, the EOC, Incident Manager or, CMOC need to be engaged, page the person on-call using one of the following. This triggers a PagerDuty incident and page the appropriate person based on the **Impacted Service** that you select.
 
-- Use the `/pd trigger` command in Slack, select the **Impacted Service** based on the role below,
+- Use the `/inc escalate` command in Slack , select the correct team from the `Oncall team` drop down menu based on the role below,
 or
 - Directly from PagerDuty, navigate to [Incidents page in PagerDuty](https://gitlab.pagerduty.com/incidents), create a new incident and select the **Impacted Service** based on the role below.
 
-| Role | Impacted Service |
+| Role | Team |
+| ----- | ----- |
+| EOC | dotcom EOC |
+| IM | dotcom IMOC |
+| CMOC | dotcom CMOC |
 | ----- | ----- |
 | EOC | GitLab Production |
 | IM | Incident Manager Oncall |
