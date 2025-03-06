@@ -142,10 +142,10 @@ Some media outlets (including [these ~14,000 newspapers and magazines](https://h
 
 A license may be required to do any of the following with extracts, quotes or headlines of print and online articles:
 
-- photocopying, faxing, scanning, emailing or copying;
-- saving on an internal or external intranet or shared drive;
-- printing, photocopying, emailing or distributing material received from a media monitoring organisation or PR agency;
-- posting material on internal or external websites or social media accounts.
+* Photocopying, faxing, scanning, emailing or copying;
+* Saving on an internal or external intranet or shared drive;
+* Printing, photocopying, emailing or distributing material received from a media monitoring organisation or PR agency;
+* Posting material on internal or external websites or social media accounts.
 
 If you are interested in doing any of the above with a media article (or an extract, quote or headline) internally or externally beyond just sharing the bare hyperlink, please reach out to the Corporate Communications team via the `#external-comms` slack channel before proceeding to confirm if a license is required.
 
