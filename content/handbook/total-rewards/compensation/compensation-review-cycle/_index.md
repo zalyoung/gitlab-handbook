@@ -56,9 +56,7 @@ Team members hired after the cutoff date will be reviewed to ensure their salary
 
 Additionally, Team Members who receive a promotion as part of the Q1 FY26 Promotion Cycle (effective February 1st) will be eligible for the Annual Compensation Review process (including merit and equity).
 
-Eligibility for review does not guarantee an increase will be awarded.
-
-### Annual Compensation Review Timeline
+Eligibility for review does not guarantee an increase will be awarded. Awards are recommended in alignment with team members’ contributions to the organization (as assessed during Talent Assessment) as is aligned to our pay-for-performance philosophy.
 
 ### Budget
 
