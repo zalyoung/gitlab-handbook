@@ -257,7 +257,7 @@ Executive Compensation (VP and above) is derived outside of the GitLab Compensat
 
 1. The Total Rewards team collects survey data to review against current compensation to ensure alignment in cash (base/variable) and equity refresh values.
     - Survey Data from the GitLab peer group: GitLab will analyze the peer group data from Radford against peer group data from Compensia.
-1. The Total Rewards team will advise on a market increase or performance factor as determined in the [performance enablement review](/handbook/people-group/learning-and-development/career-development/#performance-enablement-review), whichever is appropriate.
+1. The Total Rewards team will advise on an increase.
 1. The recommendation will be reviewed by the e-group leader for VPs and above. The final approval for VP compensation is the Compensation Group. Total Rewards will work with finance to ensure alignment to budget.
 1. E-Group compensation is reviewed in partnership with Compensia based on the peer group data provided. The CEO will recommend increaes and refresh grants for his direct reports to the Compensation Leadership Development Committee for approval.
 1. The Total Rewards team will then notify the CEO or direct manager of the increase who will then communicate it to the individual.
@@ -305,21 +305,9 @@ The Compensation Leadership Development Committee approves all bonus payouts for
 
 1. The Finance team will generate a calculation of the total bonus payout for the Fiscal Year within 30 days of the last day of the fiscal year including: Employee #, Name, Reporting to, Division, Department, Title, Hire Date, Total Eligible, Total Payout.
 1. The Total Rewards Team will audit the calculation and eligibility list.
-1. Once approved by the Total Rewards and Finance team, a meeting will scheduled with the CEO, CPO, and CFO for approval of the bonus payout. The CEO and CFO will review and approve all bonus payouts (aligned with the [authorization matrix](/handbook/finance/authorization-matrix/#authorization-matrix)) and discuss exceptions with the CPO.
+1. The final payout amounts will be approved by the VP, Total Rewards and VP, Finance.
 1. The Total Rewards Team will collaborate with the Finance team to include the total spend for the bonus plan, attainment, and executive specific payout for the Compensation Leadership Development Committee meeting. Approval of the bonus plan would be captured in the Committee meeting minutes.
-1. Once approved by the Compensation Leadership Development Committee, the Total Rewards team will notify Finance that the bonuses are ready for processing via payroll. The file approved internally will be shared with payroll by the Finance team.
-
-## Compensation Data Analysis and Modeling Sheet
-
-This is an internal process for the Total Rewards team which details how to refresh the Compensation Data Analysis and Modeling sheet which is used for processes such as calculating [percent outside of compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band).
-
-To update:
-
-1. Navigate to the sheet "Comp Data Analysis and Modeling - Workday Report".
-1. Download the "Comp Data Analysis & Modeling" report from Workday as a CSV.
-1. Duplicate the "Template" tab in the sheet and rename it based on the date the Workday report was pulled using format: yyyy-mm-dd.
-1. Copy and paste the Workday report starting from cell A2.
-1. Delete any test accounts, denoted "Test" in their name, by deleting the entire row.
+1. Once approved by the Compensation Leadership Development Committee, the Total Rewards team will notify Payroll that the bonuses are ready for processing.
 
 ## Learning GitLab's Compensation Framework
 

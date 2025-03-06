@@ -60,8 +60,6 @@ Eligibility for review does not guarantee an increase will be awarded.
 
 ### Annual Compensation Review Timeline
 
-Annual Compensation Review will take place in March and April with all merit increases, if applicable, taking effect on May 1.
-
 ### Budget
 
 Our annual cash compensation review budget for FY26 is funded at 3.5% of overall payroll. This budget is in line with the FY25 cycle.
@@ -107,7 +105,7 @@ The following materials are recommended for managers to review ahead of planning
 
 ## Annual Compensation Review Guidelines
 
-Managers should consider both cash and equity when determining a competitive total compensation package for their team members. The below guidelines are recommendations on how to allocate cash and equity to team members based on their [Talent Assessment ratings](/handbook/people-group/talent-assessment/#the-performancegrowth-matrix).
+Managers should consider both cash and equity when determining a competitive total compensation package for their team members. The below guidelines are recommendations on how to allocate cash and equity to team members based on their [Talent Assessment ratings](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix).
 
 ### Merit
 
@@ -123,7 +121,7 @@ Recommendations for cash compensation increases are based on performance factors
 Actual increases may vary based on:
 
 - [Market adjustments](/handbook/total-rewards/compensation/compensation-review-cycle/#market-adjustments) to ensure a team member is in range based on the refreshed FY25 compensation ranges
-- Where a team member falls in their compensation range and whether they are already [competitively placed]({{< ref "compensation#competitive-rate" >}}) in their range for their role, level, and location
+- Where a team member falls in their compensation range and whether they are already [competitively placed](/handbook/total-rewards/compensation/#competitive-rate) in their range for their role, level, and location
 - Previous increases
 - Internal equity
 - Budget
@@ -169,7 +167,7 @@ In calibrating the equity refresh, we recommend managers to take the following i
 
 When determining which team members to allocate an equity refresh grant, managers should avoid the “peanut-butter approach” and differentiate grant size based on team members’ performance and growth potential, zeroing in on team members with a high impact on the team and company’s results. Managers should ensure Key Talent is well positioned against their refresh range and target an overall participation rate of 70 - 75%.
 
-The following equity refresh grant _guidelines_ are recommended for those receiving a grant based on the team member’s growth potential rating:
+The following equity refresh grant *guidelines* are recommended for those receiving a grant based on the team member’s growth potential rating:
      - Developing is not funded
      - Growing is targeted between the minimum and midpoint of the range
      - Exceeding is targeted between the midpoint and maximum of the range
@@ -188,7 +186,7 @@ All planning for Annual Compensation Review will be finalized by March 4th in Wo
 
 Managers should communicate increases to all team members by April 30th.
 
-Further guidelines on communications can be found on the [Compensation Review Conversations handbook page]({{< ref "compensation-review-conversations" >}}).
+Further guidelines on communications can be found on the [Compensation Review Conversations handbook page](/handbook/leadership/compensation-review-conversations/).
 
 ### Total Compensation Statement
 
