@@ -29,7 +29,7 @@ description: Information about setting up technical interview instances
 ### Run your first pipeline
 
 1. Wait a moment until "Dry Run" has finished successfully.
-1. Manually run "Everything" and wait till it's finished.
+1. Manually run "🚀 Everything" and wait till it's finished.
     - Get something to drink, the job can take up to 15 minutes to finish.
 
 ### Finally Finished
