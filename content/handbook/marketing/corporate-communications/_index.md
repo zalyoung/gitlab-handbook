@@ -138,7 +138,16 @@ When representing and/or communicating externally on behalf of GitLab, please fo
 
 ### Sharing Media Coverage
 
-Please follow the guidelines for using third-party IP in external materials outlined in the Legal and Corporate Affairs handbook page.
+Some media outlets (including [these ~14,000 newspapers and magazines](https://hubtitlesearch.nlamediaaccess.com/TitleList/NLA%20Title%20List.xlsx)) require GitLab to hold a license to share (and do the various other things noted below with) extracts, quotes or headlines of print and online articles - both internally (eg. via slack, email or in confidential GitLab issues) and externally (eg. on GitLab's social media channels). The sharing of bare hyperlinks to articles (without extracts, quotes or headlines) does not require a license.
+
+A license may be required to do any of the following with extracts, quotes or headlines of print and online articles:
+
+- photocopying, faxing, scanning, emailing or copying;
+- saving on an internal or external intranet or shared drive;
+- printing, photocopying, emailing or distributing material received from a media monitoring organisation or PR agency;
+- posting material on internal or external websites or social media accounts.
+
+If you are interested in doing any of the above with a media article (or an extract, quote or headline) internally or externally beyond just sharing the bare hyperlink, please reach out to the Corporate Communications team via the `#external-comms` slack channel before proceeding to confirm if a license is required.
 
 ### Requests for External Announcements
 
