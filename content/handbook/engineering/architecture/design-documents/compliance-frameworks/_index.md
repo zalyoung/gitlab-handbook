@@ -459,8 +459,9 @@ flowchart TD
     F[User applies Framework to Project] --> G[Schedule recurring Configuration check sync job]
     G --> H[Get distinct list of actionable Controls in Frameworks applied to Project]
     H --> I[Loop through Controls]
+
     I --> TYPE{Control Type?}
-    TYPE -- Internal --> J{Control has enforcement mechanism?}
+    TYPE -- Internal --> J{Control has enforcement mechanism? setting/policy}
     TYPE -- External & has external_url --> EXT[Post message to external service]
 
     EXT --> PEND[Set control to pending state]
@@ -471,15 +472,12 @@ flowchart TD
     FAIL --> Q
     REPLY --> Q
 
-    J -- Yes --> K{Associated Policy exists?}
-    K -- Yes --> L[Skip Check: Result is Pass]
-    K -- No --> M[Check Setting/Policy configured correctly]
+    J -- Yes --> M[Check setting/policies configured correctly]
     J -- No --> N[Evaluate Control compliance]
 
     M --> O[Result: Pass/Fail]
     N --> O
     O --> Q[Upsert result in DB: project_control_compliance_statuses]
-    L --> Q
     N -- Fail --> S[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
 
     Q --> T[Async Configuration check job repeats every 12 hours]
