@@ -7,7 +7,7 @@ description: Rules of engagement for SMEs, SAs and CSMs engage hen requesting as
 
 ## The Challenge
 
-Product Managers at GitLab have been expected to be available to answer every question, techncial or otherwise, in any slack channel they are tagged, along with meeting customers at a moment's notice. This puts a strange on the capacity of GitLab's Product Managers (PMs).
+Product Managers at GitLab have been expected to be available to answer every question, technical or otherwise, in any slack channel they are tagged, along with meeting customers at a moment's notice. This puts a strange on the capacity of GitLab's Product Managers (PMs).
 
 One of the outcomes of the Subject Matters Expertise program is to allow the PMs to scale, by being the first line of experts to answer technical questions, and offer assistance on opportunities as requested by SAs and AEs.
 
@@ -23,7 +23,7 @@ SMEs assist PMs, and support the wider Sales teams by:
 
 1. Participating in product discovery sessions and strategy workshops leveraging their domain expertise.
 1. Delivering deep technical overviews and assisting on opportunities
-1. Answering techncial questions asked by other SAs and AEs, in the `sme-` channels, especially on behalf of customers.
+1. Answering technical questions asked by other SAs and AEs, in the `sme-` channels, especially on behalf of customers.
 1. Maintaining a Knowledge Base, with often asked questions with answers.
 1. Contributing to documentation, go to market materials, and other sales enablement.
 1. Engaging with customers to gather feedback, better understand what are the gaps in achieving outcomes
