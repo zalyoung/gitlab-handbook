@@ -25,7 +25,7 @@ If a Release is required, the circumstances dictate which Release templates shou
 
 ```mermaid
 graph TD
-  A{Are the only individuals<br> featured in the materials<br> GitLab team members?}-->|Yes|B{Will the materials<br> be used for paid<br> outbound advertising?}
+  A(Are the only individuals<br> featured in the materials<br> GitLab team members?)-->|Yes|B(Will the materials<br> be used for paid<br> outbound advertising?)
   A -->|No| C(Use the Publicity Waiver and Release Template)
   B -->|No| D(Use the General Team Member Template)
   B -->|Yes| C
