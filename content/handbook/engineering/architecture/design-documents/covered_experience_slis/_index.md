@@ -19,7 +19,7 @@ toc_hide: true
 
 ## Summary
 
-This design document proposes a new architecture for measuring and tracking covered experiences across GitLab services. A covered experience SLI represents an end-to-end flow of user interactions that may span multiple services (e.g., from receiving a git push in GitLab Shell to updating a merge request). This proposal includes a design for instrumenting Covered Experience SLIs, and establishing a framework for product teams to define and monitor critical covered experiences.
+This design document proposes a solution for measuring and tracking covered experiences across GitLab services. A covered experience SLI represents an end-to-end flow of user interactions that may span multiple services (e.g., from receiving a git push in GitLab Shell to updating a merge request). This proposal includes a design for instrumenting Covered Experience SLIs, and establishing a framework for product teams to define and monitor critical covered experiences.
 
 The system will help measure the reliability and performance of key user interactions and provide valuable data for both operational excellence and product decisions.
 
@@ -55,17 +55,15 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Understand the true user experience across service boundaries
 - Set and monitor user-centric SLOs for complex user interactions
 - Identify bottlenecks in multi-service flows
-- Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144)
 - Attribute availability and impact of incidents to customers or users
 
 ### Goals
 
-- Create a framework for product teams to define important covered experiences in a structured way
+- Create a framework for product teams to define important covered experience SLIs in a structured way
 - Develop an SDK that makes it easy for engineers to instrument covered experiences
 - Build a service to track covered experience state and emit relevant metrics and structured logs with all the relevant context
 - Support both GitLab.com and dedicated deployments
 - Enable measurement of covered experience success/failure rates and durations through SLIs
-- Provide data that can help identify test coverage gaps for critical user paths
 
 ### Non-Goals
 
@@ -74,6 +72,12 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Real-time covered experience visualization or debugging tools
 - Logs and metrics will be emitted from self-managed, but it won't officially support ingesting information from those instances as we don't have control over such environments
 
+### Unscoped related use-cases
+
+Other projects could benefit from Covered Experience SLIs, but are not part of the scope of this proposal. Such as:
+
+- Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144). The Covered Experience SLIs could provide data that can help identify end-to-end test coverage gaps for critical user paths.
+
 ## Proposal
 
 The core proposal consists of three main components (detail below):
@@ -81,6 +85,11 @@ The core proposal consists of three main components (detail below):
 1. [Covered Experience Definition Framework](#covered-experience-definition)
 2. [LabKit SDK](#sdk-requirements)
 3. [Covered Experience Tracker Service](#covered-experience-tracker)
+
+The project can be done in 2 phases:
+
+1. **Phase 1**: Implementing the Covered Experience Definition and SDK, with the SDK emitting metrics and logs itself for a rapid iteration. The implementation detail is ub discussion [here](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4114).
+2. **Phase 2**: Implementing the Covered Experience Tracker, which is going to be responsible for the Covered Experience time out verification -- relevant for tracking the asynchronous Covered Experience SLIs.
 
 ## Design and implementation details
 
@@ -249,13 +258,13 @@ sequenceDiagram
 
 The Covered Experience definition will contain the following fields:
 
-| Field                              | Type    | Required | Default | Description                        | Example                        |
-|------------------------------------|---------|----------|---------|------------------------------------|--------------------------------|
-| id                                 | string  | Yes      | -       | Unique identifier for the journey  | `merge_request_creation`       |
-| description                        | string  | Yes      | -       | Human readable description         | "User creates a merge request" |
-| feature_category                   | string  | Yes      | -       | GitLab feature category            | `source_code_management`       |
-| apdex_success_threshold_in_seconds | integer | Yes      | -       | Apdex success threshold in seconds | `30`                           |
-| timeout_in_seconds                 | integer | Yes      | -       | Journey timeout in seconds.        | `300`                          |
+| Field                              | Type    | Required | Description                        | Example                        |
+|------------------------------------|---------|----------|------------------------------------|--------------------------------|
+| description                        | string  | Yes      | Human readable description         | "User creates a merge request" |
+| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                           |
+| timeout_in_seconds                 | integer | Yes      | Journey timeout in seconds.        | `300`                          |
+| id                                 | string  | Yes      | Unique identifier for the journey  | `merge_request_creation`       |
+| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`       |
 
 Examples:
 
@@ -266,7 +275,7 @@ Examples:
 
 ### SDK Requirements
 
-- Implementation in LabKit
+- Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
 - DSL for marking covered experience start/end points
 - Covered Experience ID generation and propagation
 - Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
@@ -274,12 +283,14 @@ Examples:
 
 ### Covered Experience Tracker
 
+A new service, the Covered Experience Tracker, is going to control initiated Covered Experience SLIs to guarantee they are finishing within a specified threshold. When the covered experience trepass this threshold, a failure metric will be created, meaning it did not met its completion expectations, better reflecting the perceived user experience.
+
 - Centralized Covered Experience state tracking
-- Sensible time to live (TTL) threshold for journey duration
+- Sensible time to live (TTL) threshold for covered experience duration
 - [Authentication](#authentication)
 - Deployments:
-    - Runway service for GitLab.com
-    - Runway hosted service for Dedicated
+  - Runway service for GitLab.com
+  - Runway hosted service for Dedicated
 
 The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
 
