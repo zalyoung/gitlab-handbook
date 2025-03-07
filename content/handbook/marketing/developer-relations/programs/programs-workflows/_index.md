@@ -1,11 +1,11 @@
 ---
-title: "Community Programs Workflows"
-description: "Review various workflows associated with the GitLab for Education, GitLab for Open Source, and GitLab for Startups programs"
+title: "Programs Workflows"
+description: "Review various workflows associated with the GitLab for Education and GitLab for Open Source programs"
 ---
 
 ## About
 
-This handbook page describes various workflows associated with [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/), including GitLab for Education, GitLab for Open Source, and GitLab for Startups.
+This handbook page describes various workflows associated with [GitLab's community programs](/handbook/marketing/developer-relations/programs/), including GitLab for Education, GitLab for Open Source, and GitLab for Startups.
 By maintaining this page, we aim to establish more transparency into our workflows so GitLab team members can integrate with them.
 
 ## Automated applications workflow overview
@@ -13,17 +13,17 @@ By maintaining this page, we aim to establish more transparency into our workflo
 Community Programs applications workflows have been automated since FY23Q3.
 The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/), to assist in processing applications to community programs.
 
-The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/) with a seven-stage workflow:
+The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/developer-relations/programs/) with a seven-stage workflow:
 
 | Stage | Description |
 | ------ | ------ |
-| 0. [Application](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#application) | Applicant completes an application form and submits it for eligibility verification. |
-| 1. [Verification](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#verification) | SheerID and/or Commuity Programs team verifies applicant's eligibility. |
-| 2. [Booking](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#booking) | Successfully verified applicants receive an email with instructions for activating complimentary GitLab licenses. Applicants receive coupon codes and enter those codes during checkout via a program-specific checkout page in the GitLab Customers Portal. |
-| 3. [Provisioning](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#provisioning) | Subscription licenses are provisioned through the web direct process on the GitLab Customers Portal. |
-| 4. [Compliance](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#compliance) | (Stage handled by Sales-Support and Billing Ops teams. |
-| 5. [Renewal](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#renewal) | Program members receive notifications when their subscriptions are due to expire. They also receive insturctions for renewing those subscriptions. |
-| 6. [Support](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#support) | Both new applicants and renewing members can seek support for issues they encounter during most stages of the application process. |
+| 0. [Application](/handbook/marketing/developer-relations/programs/programs-workflows/#application) | Applicant completes an application form and submits it for eligibility verification. |
+| 1. [Verification](/handbook/marketing/developer-relations/programs/programs-workflows/#verification) | SheerID and/or Commuity Programs team verifies applicant's eligibility. |
+| 2. [Booking](/handbook/marketing/developer-relations/programs/programs-workflows/#booking) | Successfully verified applicants receive an email with instructions for activating complimentary GitLab licenses. Applicants receive coupon codes and enter those codes during checkout via a program-specific checkout page in the GitLab Customers Portal. |
+| 3. [Provisioning](/handbook/marketing/developer-relations/programs/programs-workflows/#provisioning) | Subscription licenses are provisioned through the web direct process on the GitLab Customers Portal. |
+| 4. [Compliance](/handbook/marketing/developer-relations/programs/programs-workflows/#compliance) | (Stage handled by Sales-Support and Billing Ops teams. |
+| 5. [Renewal](/handbook/marketing/developer-relations/programs/programs-workflows/#renewal) | Program members receive notifications when their subscriptions are due to expire. They also receive insturctions for renewing those subscriptions. |
+| 6. [Support](/handbook/marketing/developer-relations/programs/programs-workflows/#support) | Both new applicants and renewing members can seek support for issues they encounter during most stages of the application process. |
 
 ### Application
 
@@ -44,8 +44,8 @@ The application to GitLab for Startups is [a Marketo form](/handbook/marketing/d
 The verification process differs by program.
 See these handbook pages for more detail:
 
-- [GitLab for Education workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows)
-- [GitLab for Open Source workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-verification/)
+- [GitLab for Education workflows](/handbook/marketing/developer-relations/programs/programs-workflows/edu-program-workflows)
+- [GitLab for Open Source workflows](/handbook/marketing/developer-relations/programs/programs-workflows/oss-program-verification/)
 - [GitLab for Startups workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/startups-program-workflows)
 
 Upon successful verification, applicants receive an email with instructions for obtaining their licenses.
@@ -177,11 +177,11 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 | If the lead is inquiring about | Then take this action |
 | ------------------------------ | --------------------- |
-| Whether they qualify for a specific program | Send the relevant [marketing or handbook page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) detailing the program's requirements |
-| How to apply for program membership | Send the relevant [marketing or application page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with instructions and an application form |
-| How to renew | Send the [relevant marketing or application page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with renewal instructions and the application form |
-| How to alter some aspect of a subscription | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance |
-| An edge case | Ask them to [email the relevant program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) for assistance |
+| Whether they qualify for a specific program | Send the relevant [marketing or handbook page](/handbook/marketing/developer-relations/programs/#meet-the-programs) detailing the program's requirements |
+| How to apply for program membership | Send the relevant [marketing or application page](/handbook/marketing/developer-relations/programs/#meet-the-programs) with instructions and an application form |
+| How to renew | Send the [relevant marketing or application page](/handbook/marketing/developer-relations/programs/#meet-the-programs) with renewal instructions and the application form |
+| How to alter some aspect of a subscription | Ask them to [email the relevant program](/handbook/marketing/developer-relations/programs/#meet-the-programs) for assistance |
+| An edge case | Ask them to [email the relevant program](/handbook/marketing/developer-relations/programs/#meet-the-programs) for assistance |
 
 ## Common program-related Salesforce workflows
 

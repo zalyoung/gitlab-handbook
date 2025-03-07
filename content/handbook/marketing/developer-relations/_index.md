@@ -42,7 +42,7 @@ Our operational strategy is [documented in our internal handbook](https://intern
 Teams within Developer Relations are reachable in these Slack channels:
 
 - [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) team shares content updates, thought leadership & product ideas, and support community responses, CFPs, etc.
-- [#community-programs](https://gitlab.slack.com/archives/C024ZBWK5KJ): for all inquiries regarding [GitLab Community Programs](/handbook/marketing/developer-relations/community-programs/) (EDU/OSS/Startups)
+- [#community-programs](https://gitlab.slack.com/archives/C024ZBWK5KJ): for all inquiries regarding [GitLab Community Programs](/handbook/marketing/developer-relations/programs/) (EDU/OSS)
 - [#contributor-success](https://gitlab.slack.com/archives/C02R0NE6P6C): for all inquiries regarding [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 
 ### Email us
@@ -70,11 +70,11 @@ Teams within Developer Relations are reachable in these Slack channels:
 
 - [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
-- [Programs](/handbook/marketing/developer-relations/community-programs/)
+- [Programs](/handbook/marketing/developer-relations/programs/)
   - [Contributors Program](/handbook/marketing/developer-relations/programs/contributors-program/)
-  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
-  - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
-  - [Startups Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
+  - [Open Source Program](/handbook/marketing/developer-relations/programs/open-source-program/)
+  - [Education Program](/handbook/marketing/developer-relations/programs/education-program/)
+  - [Startups Program](/handbook/marketing/developer-relations/programs/startups-program/)
 - [Evangelist Program](/handbook/marketing/developer-relations/evangelist-program/)
 - [Leading Organizations](/handbook/marketing/developer-relations/leading-organizations/)
 
@@ -106,7 +106,7 @@ Organization:
 
 - [<i class="fas fa-credit-card"></i> Team Budgets](/handbook/marketing/developer-relations/workflows-tools/team-budgets)
 - [<i class="fas fa-shopping-cart"></i> Swag operations](/handbook/marketing/developer-relations/workflows-tools/swag/)
-- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview)
+- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/programs/programs-workflows/#automated-applications-workflow-overview)
 - [<i class="fas fa-robot"></i> Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)

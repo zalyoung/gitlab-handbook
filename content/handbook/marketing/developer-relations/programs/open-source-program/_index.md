@@ -5,8 +5,8 @@ description: "Learn about the GitLab for Open Source Program and other open sour
 
 GitLab's open source program is part of the [Developer Relations team](/handbook/marketing/developer-relations/). It consists of three sub-programs:
 
-* [**GitLab for Open Source Program**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-for-open-source-program), through which qualifying open source projects receive benefits like features of GitLab Ultimate with 50,000 compute minutes for free.
-* [**Consortium Memberships**](/handbook/marketing/developer-relations/community-programs/open-source-program/#consortium-memberships-and-sponsorships), which allow us to extend GitLab's leadership in key open source initiatives, enhance GitLab's brand, and/or improve engineering alignment
+* [**GitLab for Open Source Program**](/handbook/marketing/developer-relations/programs/open-source-program/#gitlab-for-open-source-program), through which qualifying open source projects receive benefits like features of GitLab Ultimate with 50,000 compute minutes for free.
+* [**Consortium Memberships**](/handbook/marketing/developer-relations/programs/open-source-program/#consortium-memberships-and-sponsorships), which allow us to extend GitLab's leadership in key open source initiatives, enhance GitLab's brand, and/or improve engineering alignment
 
 ## How to reach us
 
@@ -84,8 +84,8 @@ For more specific instructions on obtaining and submitting required screenshots,
 
 #### How are GitLab for Open Source Program applications processed?
 
-The GitLab for Open Source team processes applications according to the [Community Programs application workflow](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview).
-For additional information on program-specific workflows, see the [Open Source Program Workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-workflows/) page.
+The GitLab for Open Source team processes applications according to the [Community Programs application workflow](/handbook/marketing/developer-relations/programs/programs-workflows/#automated-applications-workflow-overview).
+For additional information on program-specific workflows, see the [Open Source Program Workflows](/handbook/marketing/developer-relations/programs/programs-workflows/oss-program-workflows/) page.
 
 GitLab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements.
 In most cases, applicants receive a decision on their application within three to five business days of submission.
@@ -136,7 +136,7 @@ When seeking to edit the GitLab for Open Source application page, find the appro
 
 #### Managing the program support queue
 
-Members of the [Community Programs team](/handbook/marketing/developer-relations/community-programs/) use GitLab Service Desk to manage program members' support requests.
+Members of the [Community Programs team](/handbook/marketing/developer-relations/programs/) use GitLab Service Desk to manage program members' support requests.
 Because these requests often contain sensitive data and personally identifying information, we file them as issues in [a private project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support).
 
 * When a new request arrives, Service Desk will label the issue as `OS Program Support::Intake`.

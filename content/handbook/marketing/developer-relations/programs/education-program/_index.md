@@ -5,7 +5,7 @@ description: "Learn about the GitLab for Education Program and other education-r
 
 ## About
 
-GitLab's Education program is part of the [Community Programs](/job-families/marketing/community-programs/) team.
+GitLab's Education program is part of the [Community Programs](/job-families/marketing/programs/) team.
 
 On this page, you'll find information about the GitLab for Education Program Team, our vision, our methods, our initiatives, and our program requirements.
 
@@ -22,7 +22,7 @@ Additionally, see the following Slack channels.
 
 | Channel | Purpose |
 |---------|---------|
-|[#community-programs](https://gitlab.slack.com/messages/community-programs)| Communication regarding the GitLab for Education,GitLab for Open Source, and GitLab for Startups Programs.|
+|[#community-programs](https://gitlab.slack.com/messages/programs)| Communication regarding the GitLab for Education,GitLab for Open Source, and GitLab for Startups Programs.|
 |[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](/handbook/product/packaging-and-pricing/gitlab-for-campuses/) (paid) offering |
 
 ## Vision and goals
