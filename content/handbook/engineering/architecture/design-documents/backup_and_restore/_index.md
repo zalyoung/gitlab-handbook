@@ -14,7 +14,7 @@ toc_hide: true
 
 ## Summary
 
-[The Unified Backups project](https://gitlab.com/groups/gitlab-org/-/epics/11577) provides a single command-line tool that will handle the application backup and recovery needs of GitLab installations across supported [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html).It will be packaged separately from the main GitLab code base to keep it decoupled from specific release versions but will be shipped along with GitLab releases.
+[The Unified Backups project](https://gitlab.com/groups/gitlab-org/-/epics/11577) provides a single command-line tool that will handle the application backup and recovery needs of GitLab installations across supported [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html). It will be packaged separately from the main GitLab code base to keep it decoupled from specific release versions but will be shipped along with GitLab releases.
 
 This tool will be aware of the nuances of each runtime environment configuration and it will make adaptations to capture and restore data appropriately. It will stand as the primary recommended solution for most customers going forward.
 
@@ -303,11 +303,9 @@ Backup Management solution, that will be composed of:
   - Notifications
 - Support for both Portable and Cloud-Based backups
 
-## User Journey Map
+## User Journeys
 
 ### Cloud Backups: support 50k CNH reference architecture on GCP for Cells
-
-#### CLI invocation
 
 ```sh
 gitlab-backup-cli backup all
@@ -315,106 +313,3 @@ gitlab-backup-cli restore all
 ```
 
 TBD
-
-#### Cloud Storage
-
-```mermaid
-
-sequenceDiagram
-    participant UBT as Unified Backup Tool
-    participant STAPI as Storage API
-    participant STSVC as Storage Transfer Service
-    participant BUCKETS as Source/Destination Buckets
-    participant MAN as Manifest Builder
-
-    UBT->>STAPI: List source storage buckets
-    STAPI->>UBT: Return buckets list
-
-    UBT->>STSVC: Create transfer job (source→backup-bucket)
-    STSVC->>STAPI: Register transfer job
-    STAPI->>UBT: Return transfer job ID
-
-    STSVC->>BUCKETS: Execute transfer operation
-
-    Note over UBT,BUCKETS: Wait for transfer to complete
-
-    UBT->>STSVC: Get transfer job status (job.id)
-    STSVC->>UBT: Return job status (SUCCESS)
-
-    UBT->>STSVC: Get transfer details
-    STSVC->>UBT: Return transfer metrics
-    UBT->>MAN: Add to manifest (job.id, source, destination, timestamp)
-
-    UBT->>MAN: Request storage transfers section
-    MAN->>UBT: Return storage transfers manifest data
-
-```
-
-#### CloudSQL
-
-```mermaid
-
-sequenceDiagram
-    participant UBT as Unified Backup Tool
-    participant SQLAPI as CloudSQL Admin API
-    participant SQLINST as CloudSQL Instance
-    participant MAN as Manifest Builder
-
-    UBT->>SQLAPI: List CloudSQL instances in project
-    SQLAPI->>UBT: Return instances list
-
-    UBT->>SQLAPI: Create backup request (instance.id)
-    SQLAPI->>SQLINST: Signal backup preparation
-    SQLINST->>SQLAPI: Initialize database backup
-    SQLAPI->>UBT: Return operation ID
-
-    Note over UBT,SQLINST: Wait for database backup to complete
-
-    UBT->>SQLAPI: Get backup operation status (operation.id)
-    SQLAPI->>SQLINST: Check backup status
-    SQLINST->>SQLAPI: Return current status
-    SQLAPI->>UBT: Return operation status (DONE)
-
-    UBT->>SQLAPI: Get backup details
-    SQLAPI->>UBT: Return backup metadata
-    UBT->>MAN: Add to manifest (backup.id, instance.id, timestamp)
-
-    UBT->>MAN: Request CloudSQL backups section
-    MAN->>UBT: Return CloudSQL backups manifest data
-```
-
-#### Disk Snapshots
-
-```mermaid
-
-sequenceDiagram
-    participant UBT as Unified Backup Tool
-    participant CMAPI as Compute API
-    participant DISK as GCP Disks
-    participant SNAP as Snapshot Service
-    participant MAN as Manifest Builder
-
-    UBT->>CMAPI: List disks with label "backup=true"
-    CMAPI->>UBT: Return filtered disk list
-
-    UBT->>CMAPI: Create snapshot request (disk.id)
-    CMAPI->>DISK: Initialize snapshot creation
-    DISK->>SNAP: Create snapshot
-    SNAP->>CMAPI: Return snapshot operation ID
-    CMAPI->>UBT: Return operation ID
-
-    Note over UBT,SNAP: Wait for snapshot to complete
-
-    UBT->>CMAPI: Get snapshot operation status (operation.id)
-    CMAPI->>SNAP: Check snapshot status
-    SNAP->>CMAPI: Return current status
-    CMAPI->>UBT: Return operation status (DONE)
-
-    UBT->>CMAPI: Get snapshot details
-    CMAPI->>UBT: Return snapshot metadata
-    UBT->>MAN: Add to manifest (snapshot.id, disk.id, timestamp)
-
-    UBT->>MAN: Request disk snapshots section
-    MAN->>UBT: Return disk snapshots manifest data
-
-```
