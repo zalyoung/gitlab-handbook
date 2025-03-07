@@ -106,18 +106,17 @@ The Build core step includes everything that can transform the source code (comp
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
-| **Repository Management** | (Wraps all sub-types below) | `~sscs-rm-component:package:repository-management` |
-|  | Package registries | `~sscs-rm-component:package:package-registries` |
-|  | Container registries | `~sscs-rm-component:package:container-registries` |
-|  | Repository managers | `~sscs-rm-component:package:repository-managers` |
-| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:package:distribution-infrastructure` |
-|  | CDNs | `~sscs-rm-component:package:cdns` |
-|  | Mirror services | `~sscs-rm-component:package:mirror-services` |
-|  | Download servers | `~sscs-rm-component:package:download-servers` |
-| **Verification Systems** | (Wraps all sub-types below) | `~sscs-rm-component:package:verification-systems` |
-|  | Signature verification | `~sscs-rm-component:package:signature-verification` |
-|  | Checksumming services | `~sscs-rm-component:package:checksumming-services` |
-|  | Attestation systems | `~sscs-rm-component:package:attestation-systems` |
+| **Registries** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:registries` |
+|  | Package registries | `~sscs-rm-component:pkg:package-registries` |
+|  | Container registries | `~sscs-rm-component:pkg:container-registries` |
+| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:distribution-infrastructure` |
+|  | CDNs | `~sscs-rm-component:pkg:cdns` |
+|  | Mirror services | `~sscs-rm-component:pkg:mirror-services` |
+|  | Download servers | `~sscs-rm-component:pkg:download-servers` |
+| **Verification Systems** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:verification-systems` |
+|  | Signature verification | `~sscs-rm-component:pkg:signature-verification` |
+|  | Checksumming services | `~sscs-rm-component:pkg:checksumming-services` |
+|  | Attestation systems | `~sscs-rm-component:pkg:attestation-systems` |
 
 ### SLSA 1.0 Alignment
 
