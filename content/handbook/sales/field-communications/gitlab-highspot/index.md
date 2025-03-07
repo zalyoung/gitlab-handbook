@@ -1,6 +1,6 @@
 ---
 title: "Highspot at GitLab"
-description: "GitLab uses Highspot as its Sales and Marketing Asset Management System. This central hub enables m members to discover, customize, and share efficiently while measuring its impact on customer engagement.
+description: "GitLab uses Highspot as its Sales and Marketing Asset Management System. This central hub enables m members to discover, customize, and share efficiently while measuring its impact on customer engagement."
 ---
 
 ## Highspot at GitLab
