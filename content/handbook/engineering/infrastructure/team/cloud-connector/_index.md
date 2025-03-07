@@ -23,7 +23,7 @@ You can check our [direction page](https://about.gitlab.com/direction/cloud-conn
 
 ## Roadmap
 
-[Technical Vision](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/cloud-connector/technical_vision/)
+[Technical Vision](/technical_vision/)
 [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acloud%20connector) gives a view of what is currently in flight as well as projects that have been prioritized for the next 3+ months.
 
 ## Team Members
@@ -70,7 +70,6 @@ The validation board is a queue for incoming issues for the Product Manager to r
 #### Say/Do Ratio
 
 We use the `~Deliverable` label to track our Say/Do ratio.  At the beginning of each milestone, during an Cloud Connector group Weekly meeting, we review the issues and determine those issues we are confident we can deliver within the milestone.  The issue will be marked with the `~Deliverable` label.  At the end of the milestone the successfully completed issues with the `~Deliverable` label are tracked in two places.  We have a dashboard in Sisense that will calculate how many were delivered within the milestone and account for issues that were moved.  Additionally, our milestone retro issue lists all of the `~Deliverable` issues shipped along with those that missed the milesone.
-
 
 ## Links
 
