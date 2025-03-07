@@ -195,4 +195,4 @@ This section contains notes on team history and our accomplishments, but is not 
 
 ### Year-in-Review Issues
 
-- [2024](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4024)
+* [2024](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4024)
