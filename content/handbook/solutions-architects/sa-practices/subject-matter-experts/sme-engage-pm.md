@@ -25,8 +25,8 @@ SMEs assist PMs, and support the wider Sales teams by:
 1. Delivering deep technical overviews and assisting on opportunities
 1. Answering techncial questions asked by other SAs and AEs, in the `sme-` channels, especially on behalf of customers.
 1. Maintaining a Knowledge Base, with often asked questions with answers.
-1. Contributing to uplevel documentation, go to market materials, and other sales enablement.
-1. Engaging with customers to gather feedback, better understand what are the gaos in achieving outcomes
+1. Contributing to documentation, go to market materials, and other sales enablement.
+1. Engaging with customers to gather feedback, better understand what are the gaps in achieving outcomes
 1. Collaborate in / Create issues to improve the product.
 1. Spotting opportunities to expand our product offering or reduce gaps
 1. Raising the feedback from the field with the PMs and EMs on a regular cadence
@@ -35,7 +35,7 @@ SMEs assist PMs, and support the wider Sales teams by:
 As part of this symbiotic relationship, we expect GitLab Product Management, as part of a soft contract, to assist the SME program by:
 
 1. Meeting with SMEs at least once a month to enable SMEs and provide an understanding on product changes, or give updates to product since last meeting
-1. Being very responsive and available to answer questions from SMEs, or get clarifications from SMEs, in the approriate [`sme-internal` channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-internal), so that SMEs can accurately assist other resources. **SLA: We expect PMs to respond to SME's inquiry withinn 4 hours in the SME internal channels.**
+1. Being very responsive and available to answer questions from SMEs, or get clarifications from SMEs, in the approriate [`sme-internal` channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-internal), so that SMEs can accurately assist other resources. **SLA: We expect PMs to respond to SME's inquiry within 4 hours in the SME internal channels.**
 1. Allow and give preference to SMEs, to shadow PMs, in the [Shadow a PM program (TBD)](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/work_items/460)
 1. Enable the field and provide roadmap updates during [Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-tech-skills) sessions.
 1. Provide roadmaps to customers.
