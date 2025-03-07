@@ -1,7 +1,7 @@
 ---
 title: SME Engage with Product Management 
 
-description: 
+description: Rules of engagement for SMEs, SAs and CSMs engage hen requesting assistance from Product Management
 
 ---
 
@@ -9,11 +9,11 @@ description:
 
 Product Managers at GitLab have been expected to be available to answer every question, techncial or otherwise, in any slack channel they are tagged, along with meeting customers at a moment's notice. This puts a strange on the capacity of GitLab's Product Managers (PMs).
 
-One of the outcomes of the Subject Matters Expertise program is to allow the PMs to scale, by being the first line of experts to answer techncial questions that arise, and offer assistance on opportunitiesas requested by SAs and AEs.  
+One of the outcomes of the Subject Matters Expertise program is to allow the PMs to scale, by being the first line of experts to answer techncial questions, and offer assistance on opportunities as requested by SAs and AEs.  
+
+This frees up the Product Management who can then be utilized as points of escalation, meet customers when appropriate and focus on roadmap development and delivery.
 
 So in lieu of getting 150 requests from 150 different SAs or CSMs, if the SME program can reduce that by 50%s, PMs can focus on empowering the SMEs and answering SMEs when they are stuck.
-
-Product Management then can be utilized as points of escalations, meet customers when appropriate and focus on roadmap development and delivery.
 
 The field team should be able to self-service most of the sales activities for selling our products. SMEs are a way to support the wider Sales account teams.
 
@@ -22,11 +22,12 @@ The field team should be able to self-service most of the sales activities for s
 SMEs assist PMs, and support the wider Sales teams by:
 
 1. Participating in product discovery sessions and strategy workshops leveraging their domain expertise.
-1. Delivering deep technical overviews and assisting on requested opportunities
-1. Answering techncial questions asked by other SAs and AEs, especially on behalf of customers. Maintain a Knowledge Base.
-1. Contributing to upleveling documentation, go to market materials, and other sales enablement.
-1. Engagiing with customers to gather feedback, better understand what they feel we are missing, or could be doing better
-1. Collaborate in / Create issues to improve the product in the key areas related to the SME area
+1. Delivering deep technical overviews and assisting on opportunities
+1. Answering techncial questions asked by other SAs and AEs, in the `sme-` channels, especially on behalf of customers. 
+1. Maintaining a Knowledge Base, with often asked questions with answers.
+1. Contributing to uplevel documentation, goto market materials, and other sales enablement.
+1. Engaging with customers to gather feedback, better understand what are the gaos in achieveing outcomes
+1. Collaborate in / Create issues to improve the product.
 1. Spotting opportunities to expand our product offering or reduce gaps
 1. Raising the feedback from the field with the PMs and EMs on a regular cadence
 1. Enabling the rest of the team on the SME area - sharing new insights, updates, learnings, etc. on team calls
@@ -42,7 +43,9 @@ As part of this symbiotic relationship, we expect Gitlab Product Management, as 
 
 ## How to Engage with Product Management
 
-**Resist from Directly contacting PM Without First completing a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/ CSM can then request a SME in the appropriate SME channel. 
+**Resist from Directly contacting PM Without First completing a SME Request**.
+
+If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/ CSM can then request a SME in the appropriate SME channel. 
 
 PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, or request for product direction.
 
@@ -50,10 +53,10 @@ For other recommendations, please see [Before Engaging or Requesting A PM Consid
 
 ### When to Engage a Product Manager {#sme-pm}
 
-**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support), and How to [Engage Product Managers](/handbook/product/product-management/#how-to-engage-product-managers) for the following scenarios:
+**In summary, you can engage PMs**, as noted in the [Product Management](/handbook/product/product-management/#requests-for-product-support), and [How to Engage Product Managers](/handbook/product/product-management/#how-to-engage-product-managers) sectins of this Handbook, for the following scenarios:
 
 1. Request for a Roadmap.
-1. Discussion on the Direct of the Product.
+1. Discussion on the Direction of the Product.
 1. Feedback and Questions on Gaps in Functionality
 1. Request to join a Customer Meeting to discuss for gaps in functionality, roadmaps, or future direction of the product.
    1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
@@ -67,13 +70,13 @@ For other recommendations, please see [Before Engaging or Requesting A PM Consid
 
 PMs are incentivised to get [direct feedback from customers also](/handbook/product/product-processes/#customer-meetings).
 
-PMs should be engaged in customer opportunities, with at least 24hr notice in the following manner: 
+PMs should be engaged in customer opportunities, with at least 48hr notice for the following scenariosr: 
 
-1. Request a Customer Call (one time, during evaluation, cadence calls). 
-2. Resolve issues around product gaps and questions
-3. Async involvement in Evaluations (trials, proof of value)
+1. Request for a PM to meet with the Customer (one time, during evaluation, cadence calls). 
+2. Request for a PM to Resolve issues around product gaps
+3. Request for a PM for Async involvement in Evaluations (trials, proof of value)
 
-### Request a Customer Call 
+### A. Request for a PM to meet with the Customer
 
 - Do not expect PMs to attend calls to do discovery.
 - To request a PM to attend a Customer Call, you should follow the process described in ["Product Joining Customer Calls".](/handbook/product/product-management/#product-joining-customer-calls)
@@ -83,13 +86,14 @@ However [some Stages](/handbook/product/categories/#devops-stages) may have a sl
 
 See also following the [standardized request process based on issues](/handbook/product/product-management/#requests-for-product-support) 
 
-### Resolve Issues Around Product Gaps and Questions
+### B. Request for a PM to Resolve issues around Product Gaps
 
 - Please refer to the [SME Customer Feedback Process (TBD)](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback.md)
 
-### Requests for Async Involvement in Evaluations (trials, proof of value())
+### C. Request for a PM for Async involvement in Evaluations (trials, proof of value)
 
 - SAs/ SMEs/ CSMs create Trial/ POV issues in Customer Collaboration Projects
+- TBD (process to be Defined)
 
 ---
 
@@ -109,9 +113,9 @@ See also following the [standardized request process based on issues](/handbook/
    - Product roadmap updates
 1. Establish a regular cadence for SMEs to review and provide input on product roadmaps, ensuring alignment with customer needs and market trends.
 
-#### SME Slack Channels
+#### SME Slack Internal Channels
 
-1. Product Management should also be included in [SME Slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-slack) to create a forum for SMEs to provide ongoing feedback and suggestions to Product Management.
+1. Product Management should also be included in [SME Slack Internal channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-slack) to create a forum for SMEs to provide ongoing feedback and suggestions to Product Management.
 
 #### SME/Product Management Cadence Meetings
 
