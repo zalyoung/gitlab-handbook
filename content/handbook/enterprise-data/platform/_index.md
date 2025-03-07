@@ -931,13 +931,15 @@ In order for Snowflake to access the files in GCS bucket, the files must be copi
 
 To create the external stage, the new path to the bucket must be included (included means **appended** to the existing list of storage locations) in the `STORAGE_ALLOWED_LOCATIONS` attribute. If it is not appended, but **overwritten** to the existing attributes, all existing storage locations will be **erased** and stop many pipelines to run. Follow these instructions to append the new external stage:
 
+The `GCS_INTEGRATION` is Snowflake storage integration for `gitlab-analysis` project in GCP. If the bucket is in different project, a new integration would need to be created.
+
 1. use role `ACCOUNTADMIN`, if you don't have access to this role, you cannot proceed
 1. get all *current* storage locations by running this:
 
     ```sql
     DESC INTEGRATION GCS_INTEGRATION;
     ```
- This GCS_INTEGRATION is snowflake storage integration for `gitlab-analysis` project in GCP. If the bucket is in different project new integration needs to be created.
+
 1. From the output, copy the value  under `property_value` where property=`STORAGE_ALLOWED_LOCATIONS`. It will look something like: `gcs://postgres_pipeline/,gcs://snowflake_backups,..`.
 1. Update the Storage Integration, instructions:
     - take the 'current_paths' that you just copied and combine it with the 'new_path' that you want to add.
@@ -974,7 +976,7 @@ The process involves:
 
 1. Creating a new S3 bucket using terraform
 1. Updating the IAM policy to allow Snowflake access to this bucket
-1. Updating the Snowflake Security integration configuration
+1. Updating the Snowflake storage integration configuration
 
 ### Prerequisites
 
@@ -1002,7 +1004,7 @@ The process involves:
 1. In the same repo as the previous step, navigate to the policy file in GitLab:
    - File path: `environments/aws-snowplow/templates/iam_policy_snowflake_s3_integration.json`
 
-1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket. 
+1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket.
 
     ```json
     {
@@ -1022,7 +1024,7 @@ The process involves:
 
 1. Just like any change in config-mgmt repo, get approvals, and then run `atlantis apply` to deploy the change
 
-#### 3. Update the Snowflake Security Integration
+#### 3. Update the Snowflake Storage Integration
 
 Add the new bucket to the allowed storage locations in Snowflake:
 
@@ -1039,6 +1041,8 @@ Add the new bucket to the allowed storage locations in Snowflake:
     ```sql
     DESC INTEGRATION S3_DATA_PUMP;
     ```
+
+Note: We are treating the `S3_DATA_PUMP` Snowflake storage integration as the generic one which is responsible for establishing connection to S3 in the main AWS project where Snowplow instance is running. If we have a new bucket in different project, such as in a customer provided one, we would need to create a new Snowflake integration for that AWS project, [Snowflake docs](https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration).
 
 #### 4. Verification
 
