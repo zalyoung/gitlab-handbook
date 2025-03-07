@@ -55,82 +55,69 @@ For each artifact in our supply chain, we track its path through these three cor
 
 Our model identifies specific component types within each core step of the supply chain. These types serve as reference elements to be used when describing a particular subset of the supply chain. Note that not all components will be present in every supply chain - the categorization below provides a framework for comprehensive modeling.
 
-These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below.
+These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granualirity is needed.
 
 #### Source components
 
 The Source core step includes everything that can edit and alter the source code before the Build step:
 
-- **Development Dependencies**
+| Component type | Sub type | Label |
+| -- | -- | -- |
+| **Development Dependencies** | (Wraps all sub-types below) | `~sscs-rm-component:src:dev-dependencies` |
+|  | Development environment setup tools and dependencies (ex: [asdf](https://asdf-vm.com/)/[mise](https://mise.jdx.dev/)) | `~sscs-rm-component:src:dev-setup-tools` |
+|  | IDEs (including extensions and plugins) | `~sscs-rm-component:src:IDEs` |
+|  | Docker images | `~sscs-rm-component:src:source-docker-images` |
+|  | Pre-commit hooks | `~sscs-rm-component:src:pre-commit-hooks` |
+|  | Local code formatters and linters | `~sscs-rm-component:src:linters` |  
+| **GitLab Repositories** | (Wraps all sub-types below) | `~sscs-rm-component:src:gitlab-repo` |
+|  | Project configuration | `~sscs-rm-component:source-repo` |
+|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | `~sscs-rm-component:src:repo` | 
+|  | Repository access controls | `~sscs-rm-component:src:access-control` | 
 
-  - Development environment setup tools and dependencies (asdf/mise)
-  - IDE extensions and plugins
-  - Other local development tools
-  - Docker images
-  - Pre-commit hooks
-  - Local code formatters and linters
-   
-- **GitLab Repositories**
-
-  - Project configuration
-  - Code owners configuration
-  - Repository access controls
-
-#### Build categories
+#### Build components
 
 The Build core step includes everything that can transform the source code (compilation, linting, etc.) and produce an artifact:
 
-- **CI/CD**
+| Component type | Sub type | Label |
+| -- | -- | -- |
+| **CI/CD** | (Wraps all sub-types below) | `~sscs-rm-component:build:dev-dependencies` |
+|  | GitLab Runners | `~sscs-rm-component:build:gitlab-runners` |
+|  | CI/CD templates | `~sscs-rm-component:build:ci-templates` |
+|  | CI/CD Components | `~sscs-rm-component:build:ci-components` |
+| **Build images** | (Wraps all sub-types below) | `~sscs-rm-component:build:build-images` |
+|  | Base Docker images | `~sscs-rm-component:build:base-docker-images` |
+|  | Intermediate images | `~sscs-rm-component:build:intermediate-images` |
+|  | Container build tools | `~sscs-rm-component:build:container-build-tools` |
+|  | Container registries | `~sscs-rm-component:build:container-registries` |
+| **Runtime Dependencies** | (Wraps all sub-types below) | `~sscs-rm-component:build:runtime-dependencies` |
+|  | Ruby Gems | `~sscs-rm-component:build:ruby-gems` |
+|  | NPM packages | `~sscs-rm-component:build:npm-packages` |
+|  | Go modules | `~sscs-rm-component:build:go-modules` |
+|  | Python packages | `~sscs-rm-component:build:python-packages` |
+|  | Other language-specific dependencies | `~sscs-rm-component:build:other-lang-dependencies` |
+| **Secrets** | (Wraps all sub-types below) | `~sscs-rm-component:build:secrets` |
+|  | Vault | `~sscs-rm-component:build:vault` |
+|  | CI/CD variables | `~sscs-rm-component:build:ci-variables` |
+|  | Key management systems | `~sscs-rm-component:build:key-management` |
+|  | Certificate authorities | `~sscs-rm-component:build:certificate-authorities` |
+|  | Signing infrastructure | `~sscs-rm-component:build:signing-infrastructure` |
 
-  - GitLab Runners
-  - CI/CD Templates
-  - CI/CD Components
-   
-- **Build images**
+#### Package components
 
-  - Base Docker images
-  - Intermediate images
-  - Container build tools
-  - Container registries
-   
-- **Runtime Dependencies**
-
-  - Ruby Gems
-  - NPM packages
-  - Go modules
-  - Python packages
-  - Other language-specific dependencies
-   
-- **Secrets**
-
-  - Vault
-  - CI/CD variables
-  - Key management systems
-  - Certificate authorities
-  - Signing infrastructure
-
-#### Package Core Step
-
-The Package core step usually shares many of the same dependency types as the Build step, but focuses on artifact distribution:
-
-- **Repository Management**
-
-  - Package registries
-  - Container registries
-  - Repository managers
-  - Release pipelines
-   
-- **Distribution Infrastructure**
-
-  - CDNs
-  - Mirror services
-  - Download servers
-   
-- **Verification Systems**
-
-  - Signature verification
-  - Checksumming services
-  - Attestation systems
+| Component type | Sub type | Label |
+| -- | -- | -- |
+| **Repository Management** | (Wraps all sub-types below) | `~sscs-rm-component:package:repository-management` |
+|  | Package registries | `~sscs-rm-component:package:package-registries` |
+|  | Container registries | `~sscs-rm-component:package:container-registries` |
+|  | Repository managers | `~sscs-rm-component:package:repository-managers` |
+| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:package:distribution-infrastructure` |
+|  | CDNs | `~sscs-rm-component:package:cdns` |
+|  | Mirror services | `~sscs-rm-component:package:mirror-services` |
+|  | Download servers | `~sscs-rm-component:package:download-servers` |
+| **Verification Systems** | (Wraps all sub-types below) | `~sscs-rm-component:package:verification-systems` |
+|  | Signature verification | `~sscs-rm-component:package:signature-verification` |
+|  | Checksumming services | `~sscs-rm-component:package:checksumming-services` |
+|  | Attestation systems | `~sscs-rm-component:package:attestation-systems` |
 
 ### SLSA 1.0 Alignment
 
@@ -150,14 +137,14 @@ SLSA [defines a set of threats](https://slsa.dev/spec/v1.0/threats) that are use
 
 | Threat area | Threat | Label |
 | -- | -- | -- |
-| Source | (A) Submit unauthorized change | ~sscs-rm-threat::a-submit-unauthorized-change |
-|        | (B) Compromise source repo | ~sscs-rm-threat::b-compromise-source-repo |
-|        | (C) Build from modified source | ~sscs-rm-threat::c-build-from-modified-source |
-| Dependency | (D) Use compromised dependency | ~sscs-rm-threat::d-use-compromised-dependency |
-| Build  | (E) Compromise build process | ~sscs-rm-threat::e-compromise-build-process |
-|        | (F) Upload modified package | ~sscs-rm-threat::f-upload-modified-package |
-|        | (G) Compromise package registry | ~sscs-rm-threat::a-submit-unauthorized-change |
-|        | (H) Use compromised package | ~sscs-rm-threat::a-submit-unauthorized-change |
+| Source | (A) Submit unauthorized change | `~sscs-rm-threat::a-submit-unauthorized-change` |
+|        | (B) Compromise source repo | `~sscs-rm-threat::b-compromise-source-repo` |
+|        | (C) Build from modified source | `~sscs-rm-threat::c-build-from-modified-source` |
+| Dependency | (D) Use compromised dependency | `~sscs-rm-threat::d-use-compromised-dependency` |
+| Build  | (E) Compromise build process | `~sscs-rm-threat::e-compromise-build-process` |
+|        | (F) Upload modified package | `~sscs-rm-threat::f-upload-modified-package` |
+|        | (G) Compromise package registry | `~sscs-rm-threat::g-compromise-pkg-registry` |
+|        | (H) Use compromised package | `~sscs-rm-threat::h-use-compromised-pkg` |
 
 ### SBOM Integration
 
