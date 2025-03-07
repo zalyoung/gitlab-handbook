@@ -256,6 +256,35 @@ We want to go over the below attributes and evaluate if their functionality can 
 - amendment_type
 - source
 
+#### Current schema of orders table
+
+| Column                             | Action                            |
+| ---------------------------------- | --------------------------------- |
+| customer_id                        | Handle in trials data migration * |
+| product_rate_plan_id               | Evaluate and remove if feasible   |
+| subscription_id                    | Evaluate and remove if feasible   |
+| subscription_name                  | Keep                              |
+| start_date                         | Evaluate and remove if feasible   |
+| end_date                           | Evaluate and remove if feasible   |
+| quantity                           | Evaluate and remove if feasible   |
+| gl_namespace_id                    | Keep                              |
+| gl_namespace_name                  | Keep                              |
+| amendment_type                     | Evaluate and remove if feasible   |
+| trial                              | Handle in trials data migration * |
+| last_extra_ci_minutes_sync_at      | Keep                              |
+| zuora_account_id                   | Keep                              |
+| increased_billing_rate_notified_at | Keep                              |
+| reconciliation_accepted            | Keep                              |
+| source                             | Evaluate and remove if feasible   |
+| seat_overage_notified_at           | Keep                              |
+| auto_renew_error_notified_at       | Keep                              |
+| billing_account_id                 | Evaluate and remove if feasible   |
+| monthly_seat_digest_notified_on    | Keep                              |
+| source_gl_namespace_id             | Keep                              |
+| trial_type                         | Handle in trials data migration * |
+
+- Trials data migration is being done as part of https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/11047
+
 1. Resolving data issues
 
 There should be only one order per subscription name, but there are a few duplicates present. These duplicates are created because of the current behavior when processing an `Order Processed` callout in CDot if the `zuora_account_id` changes for a Zuora Subscription.
