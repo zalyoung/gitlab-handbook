@@ -24,6 +24,7 @@ All Directors and above in the Product function are considered Product Leaders. 
 Product team members that are Director+ and report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a permanent basis are members of the Product Leadership Team (PLT). Team members reporting to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a temporary basis and/or that are not Director+ are PLT observers. PLT observers have the opportunity to be temporarily part of the PLT meetings and activities but may not be permanent members. PLT observers may not be included in all PLT activities.
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
+
 ## Product Key Review Leader Rotation
 
 The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
