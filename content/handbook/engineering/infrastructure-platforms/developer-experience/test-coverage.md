@@ -55,30 +55,33 @@ Test job runs Database migrations against PostgreSQL dump created from the lates
 
 #### GitLab QA update scenario
 
-| Upgrade path scenarios                                  | Example             |
-|---------------------------------------------------------|---------------------|
-| Latest update stop in previous major → GitLab `master`  | [15.11.13 → 16.1.6 → 16.3.7 → 16.7.7 → 16.11 pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783636#L351) |
-| Current GitLab stable release → GitLab `master`        | [16.10.1 → 16.11 pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783632#L350) |
+| Upgrade Path Description | Upgrade Path | Job Name | Example Job Link |
+|--------------------------|--------------|----------|------------------|
+| From latest update stop in previous major version to current package built from branch/MR | Major-1 → update stops → pre-package | `update-major` | [15.11.13 → 16.1.6 → 16.3.7 → 16.7.7 → 16.11-pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783636#L351) |
+| From latest minor release to current package built from branch/MR | Minor-1 → pre-package | `update-minor` | [16.10.1 → 16.11-pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783632#L350) |
+| From current patch version to current package built from branch/MR | Patch-1 → pre-package | `update-patch` | [17.7.6 → 17.7.7-pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/9274895196) |
+| From current package built from branch/MR package to next stable GitLab release | pre-package → N+1 | `update-from-patch-to-stable` | [17.7.7-pre → 17.8.4](https://gitlab.com/gitlab-org/gitlab/-/jobs/9274895197) |
 
-The Test Platform Department has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatefromprevious-full-image-address-current_version-majorminor)
-GitLab QA scenario that verifies update from the previous (major or minor) version to the current GitLab version ([scenario code](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/omnibus/update_from_previous.rb)).
+GitLab QA has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md?plain=0#testomnibusupdatefromprevious-full-image-address-current_version-majorminorpatch-from_edition)
+scenario that verifies update from the previous (major|minor|patch) version to the current GitLab version ([scenario code](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/omnibus/update_from_previous.rb)).
+
+Additionally, a [`Test::Omnibus::UpdateToNext`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatetonext-full-image-address-current_version-from_edition) GitLab QA scenario supports testing the upgrade path from a development version to the next available stable release.
 
 ##### Test run schedule
 
 1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
-
    - `e2e:test-on-omnibus-ee` / `e2e:test-on-omnibus-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
    - `e2e:test-on-omnibus-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-   Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-omnibus/master/index.html),
-where test states such as failures can be filtered on.
-The update test job names are `update-major`, `update-minor`, and `update-ee-to-ce`.
+   - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from stable releases to pre-release packages built within the MR.
+1. `Test::Omnibus::UpdateToNext` scenario is run with:
+   - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from pre-release packages built within the MR to stable releases.
 
-These pipelines are [monitored by the Quality Engineering team](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) as part of the
-[Quality Department pipeline triage on-call rotation](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule).
+These pipelines are [monitored by the Developer Experience team](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) as part of the
+[pipeline triage on-call rotation](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule).
 
 #### Performance environments nightly upgrades
 
-Quality team supports test performance environments listed on [Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/#how-to-interpret-the-results) page.
+Framework and Performance Enablement teams support test performance environments listed on [Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/#how-to-interpret-the-results) page.
 These environments are built with GitLab Environment Toolkit and are upgraded daily or weekly depending on environment to the latest
 nightly image.
 
