@@ -41,9 +41,9 @@ The upcoming month's hands-on labs are added to an issue in the [Customer Succes
 > As a Lab DRI, you are responsible for submitting a Lab Request for an environment. This should be submitted ideally at least one week before the date of delivery. For assistance/questions please reach out on the `#demo-architect-partners` Slack channel.
 
 1. Navigate and login to the [Demo Architect Portal](https://cloud.gitlabdap.com/).
-1. Select **Customer Workshop/Lab** from the dropdown list.
-1. Fill in the form to the best of your knowledge.
-1. Click `Submit Request`.
+2. Select **Customer Workshop/Lab** from the dropdown list.
+3. Fill in the form to the best of your knowledge.
+4. Click `Submit Request`.
 
 This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team.
 
@@ -85,7 +85,7 @@ When reporting a problem, use the `Bug` template in the [Content project](https:
 
 ### CSE Engagement Request Process
 
-Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/cse/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce.
+Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the normal operating rhythm during the customer lifecycle (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce.
 To open a new CSE case, go to the customer's account in SFDC and select the _Opportunity_ the case will be associated with. On the Opportunity page, click the _**CS Help**_ button. On the next page, you will be asked to select an option between _CSE Help (NOT Escalations)_ and _Escalations (CSM/CSE Accounts)_. Select the _CSE Help option_ (for _Escalations_, please check [this section](#cse-escalations)).
 The next step will ask to provide information about the case. In the _On-Demand Catalog Offerings_ dropdown, select the service that best aligns with the customer's needs. [Below](# cse-catalog-offerings), you have a detailed description of what each offering covers. Next, add the _Contact_ whom the CSE will be speaking with.
 The other mandatory information is a detailed description of what is expected from this engagement. Please add all relevant information in the _Challenges/Pain Points_ field. It is crucial for the CSE to have a clear understanding of the customer's situation so they can prepare appropriately for the meeting.
@@ -102,7 +102,7 @@ NOTE: Unless specified otherwise, CSEs will automatically reach out to the conta
   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
   - [CSE Highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
-##### CSE Catalog Offerings
+#### CSE Catalog Offerings
 
 The CSE Catalog provides a structured framework of engagement offerings that support customer technical needs across different GitLab areas. When submitting an engagement request to the CSE team, Account Executives (AEs), Renewal Managers (RMs), and Solutions Architects (SAs) can select from these offerings to best match the customer's specific requirements. Each offering is designed to address distinct technical challenges and implementation scenarios, allowing for more focused and effective CSE engagements. Below are the detailed descriptions of each available offering:
 
@@ -171,7 +171,7 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
       1. Key Personas
       1. Industry
       1. Duration of contract/last renewal date
-1. Locate and study **Custom Pitch Deck** from AE (find *Custom Pitch Deck* link in **Salesforce Opportunity** or reach out to AE directly)
+1. Locate and study **Custom Pitch Deck** from AE (find **Custom Pitch Deck** link in **Salesforce Opportunity** or reach out to AE directly)
 1. Perform general research of the company and related industry to give better context.
 1. Reach out to AE/SAE and let them know about the meeting; discuss strategy, insights. Add AE/SAE as optional to all calls.
 1. Join the call at least 10-15 minutes early to prepare and be ready to allow customers to join from the waiting room.
