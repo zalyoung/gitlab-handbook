@@ -13,7 +13,7 @@ JiffleNow is an automated appointment scheduling of in-person, and virtual B2B m
 
 Jifflenow will be made available to Sales attending events, EBAs and event managers. If you need access, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set, so please make sure the Sales Systems team is tagged (Similar to SFDC access requests).
 
-## User Roles
+### User Roles
 
 - **Requestor** - Anyone that has access to schedule meetings within the tool.
 - **Meeting Manager** - Users assigned to this role manage the meeting approval process, user accounts, rooms, and calendars and help govern access to the Jifflenow portal. They have full access to all meetings and can view, edit, or cancel any request placed by anyone within an event. Meeting Managers have the highest level of access in Jifflenow.
@@ -33,7 +33,7 @@ We have put together a comprehensive [training slide deck](https://docs.google.c
 
 This connection will allow for Sales to book meetings directly within Salesforce.com and allow JiffleNow to access and link contact records. Meeting requestors can access JiffleNow to schedule meetings through a button on the Contact, Account and Opportunity record.
 
-## Support
+### Support
 
 Reach out in #proj_jifflenow-implementation for more information.
 
@@ -42,7 +42,7 @@ For event specfic help, go to:
 - #googlenext-execmtgs-2025
 - #rsa-conference-execmtgs-2025
 
-## External JiffleNow Invites
+### External JiffleNow Invites
 
 For major events, it is common for other companies to utilize JiffleNow as well, which can cause confusion for EBAs managing executive calendars. Here is how to tell if an invite is for a GitLab initiated meeting, or an external initiated meeting:
 
@@ -50,7 +50,7 @@ For major events, it is common for other companies to utilize JiffleNow as well,
 2. At the bottom of the email, there will be a help contact. Our help contact will always be someone at GitLab (or in the case of internal requests, a Slack channel).
 3. Below is a screenshot of an example INTERNAL request from our Jifflenow instance. If it doesn't have the Confidential note at the top, it isn't from us.
 
-# Onsite Event Management
+## Onsite Event Management
 
 This is WIP - will update once we have more information
 
@@ -58,11 +58,11 @@ This is WIP - will update once we have more information
 
 This has not yet been configured - will update this page when ready
 
-# How To Request Meetings
+## How To Request Meetings
 
 Follow the training doc and slide deck above.
 
-## Requesting Meetings outside of standard meeting space
+### Requesting Meetings outside of standard meeting space
 
 If you have already set a meeting location outside of our space, for example in a partner’s meeting space:
 
@@ -72,7 +72,7 @@ If you have already set a meeting location outside of our space, for example in 
 4. Please do not request this meeting until you have a location
 5. Select your attendees and meeting time as normal
 
-## Requesting Standard Meetings
+### Requesting Standard Meetings
 
 1. Navigate to the Account, Contact or Opp in SFDC.
 2. In the top right drop down, you’ll find JiffleNow Meetings.
@@ -84,3 +84,9 @@ If you have already set a meeting location outside of our space, for example in 
 8. You must include an Executive Request Briefing Doc. For C-Level meetings, you are required to have Regional VP approval before requesting the meeting.
 9. Once complete, select submit. This will then route for approvals through the EBA team, depending on the participants.
 10. Once fully approved, this will trigger email invitations to all participants.
+
+### View Requested Meetings (For Attendees)
+1. In salesforce - On the left side, click on the 9 dots (app launcher) and type in Jifflenow
+2. Click "Jifflenow Home Page" along the top row
+3. Select the 3 dots and click Meetings
+4. Along the left side, under `Internal Attendees` type your name
