@@ -72,6 +72,8 @@ The Cloud Connector group's [Roadmap](https://gitlab.com/groups/gitlab-org/-/roa
 
 ## Links
 
+[2024 Cloud Connector Team Impact Overview](https://gitlab.com/gitlab-org/cloud-connector-team/team-tasks/-/issues/207)
+
 ### Knowledge sharing and lessons learned
 
 * [Cloud Connector group's Approach](approach.html)
