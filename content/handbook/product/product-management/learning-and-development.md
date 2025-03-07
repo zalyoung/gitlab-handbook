@@ -1,7 +1,6 @@
 ---
 title: Product Management Learning and Development
 description: "This page contains links to internal and external resources that Product Managers at GitLab can use to build their skills."
-canonical_path: "/handbook/product/product-manager-role/learning-and-development/"
 
 ---
 
