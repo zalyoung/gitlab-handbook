@@ -5,18 +5,17 @@ title: Product Development
 This section of the handbook is for shared Product and Engineering content.
 For any content wholly owned by only one division, please use the relevant sections: [Product](/handbook/product/) or [Engineering](/handbook/engineering/).
 
-## Product Development 5W1H Framework
+## Product Development 4W1H Framework
 
-The 5W1H is a general purpose questioning method that helps identify and solve problems by explicitly navigating the "what", "who", "where", "when", "why", and "how" questions. To help clarify which organization has the lead role for a specific part of the 5W1H process as it pertains to product development, we have applied the 5W1H framework as follows:
+We will be using 4W1H a modified version without "where" of the 5W1H is a general-purpose questioning method that helps identify and solve problems by explicitly navigating the "what", "who", "where", "when", "why", and "how" questions. To help clarify the lead roles for a specific part of this process we will apply 4W1H follows:
 
-| **5W1H Element** | **Product (PM + UX)** | **Engineering** |
-| ------- | ----------------- | ----------- |
-| **WHO?** | Who are our target customers, users, and buyers? <br> **Prime: UX**, Supporting: PM |  |
-| **WHAT?** | What capabilities do our users need within our product to accomplish their goals and outcomes, including acceptance and success criteria? <br> **Prime: PM**, Supporting: UX |  |
-| **WHY?** | Why do our users need those capabilities to achieve their desired outcomes? <br>**Prime: PM**, Supporting: UX |  |
-| **HOW?** | How will the user navigate specific steps or actions to accomplish their tasks within the product? <br>**Prime: UX**, Supporting: PM | How will we design and build the technical solution that delivers the required capabilities and UX with the desired quality? |
-| **WHERE?** |  | Where will we deploy capabilities and infrastructure to deliver required capabilities, UX, and quality? |
-| **WHEN?** |  | When can the technical solution be built, tested, and made available to users per required capabilities, UX, and quality? |
+| **4W1H Element** |   |
+| ------- | ----------------- |
+| **WHO?** | Who are our target customers, users, and buyers? <br> **UX Lead**  |
+| **WHAT?** | What is the product vision, strategy, roadmap, and priority of features based on business value and user needs? <br> **Product Lead**  <br> <br> What are our users’ pains and needs? What research can enable confident product decisions? What design solutions can optimize both the user experience and business value?  <br> **UX Lead** |
+| **WHY?** | Why do we need to solve a given business problem? Why do users need a given capability? <br> **Product Lead** <br> <br> Why do users experience dissatisfaction or unmet expectations?<br> **UX Lead** |
+| **HOW?** | How will we design and build the technical solution that delivers the required capabilities and UX with the desired quality? <br> **Technical Lead** <br> <br> How should UI be represented, information be structured, user interactions behave, and steps/flows be sequenced? <br> **UX Lead**  |
+| **WHEN?** |  When can the technical solution be built, tested, and made available to users per required capabilities, UX, and quality? <br> **Delivery Lead** |
 
 ## Product Development Roles and Responsibilities
 
