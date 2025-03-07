@@ -9,7 +9,7 @@ This page displays different pieces of information surrounding GitLab laptop pro
 
 ## Scope
 
-At GitLab, we use centralized laptop management for company-issued laptops. If you are in possession of a company-issued laptop, the details below apply to you. However, not all endpoint management technologies GitLab deploys will be required for Apple, Linux, and Windows laptops. Some technologies may be specific to the hardware platform or operating system.
+At GitLab, we use centralized laptop management for company issued devices. If you are in possession of a company issued laptop, the details below apply to you. However, not all endpoint management technologies GitLab deploys will be required for Apple, Linux, and Windows laptops. Some technologies may be specific to the hardware platform or operating system.
 
 ## Roles & Responsibilities
 
@@ -21,21 +21,20 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 
 ## GitLab Laptops
 
-### New Hire Laptop Ordering Process
-
-The laptop ordering process for new hires starts as soon as an offer is accepted by a candidate and the initial Welcome email is sent by the Candidate Experience Specialist.
-This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop. After the new hire fills out the form, they can expect their GitLab issued laptop to arrive the week before their start date.
-
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
 USA, Canada, Mexico, all of the EU, Thailand, China, Japan, Philippines, Singapore, Australia, New Zealand, India, Israel and the UK.
 
-Please note that we are adding supported countries to this list as we discover our ability to order in them.
-You can test this by going to order a MacBook Pro (or Dell) from the regional Apple store, and seeing if they let you customize a build or alternately refer you to local retailers.
-If the latter, see below.
+We are adding supported countries to this list as we discover our ability to order in them.
 
-We currently cannot procure Apple laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `laptops@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
+We currently cannot procure laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `laptops@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
 If the team member requires financial assistance to purchase the hardware, the Company can advance the funds to help facilitate the purchase (see Exception Processes below).
+
+### New Hire Laptop Ordering Process
+
+The laptop ordering process for new hires starts once the initial welcome email is sent by the Candidate Experience Specialist. The email will include a link to place a request for a GitLab issued laptop. Processing time will vary by location. Please fill out the form as soon as possible to avoid delays. After the new hire fills out the form, they can expect their laptop to arrive the week before their start date.
+
+If, in the rare case your laptop arrives damaged or unusable prior to your start date, please reach out to your Candidate Experience Specialist and CC [laptops@gitlab.com](mailto:laptops@gitlab.com) for next steps on an immediate replacement or repair.
 
 {{% alert title="**Warning: fake job scams**" color="warning" %}}
 Scammers may impersonate GitLab and target job seekers. GitLab will never ask new hires to send us funds for equipment purchases.
@@ -46,19 +45,25 @@ Read the ["What to know about a fake job scam impersonating GitLab"](https://abo
 
 ### Laptop Refresh
 
-Team members can choose to refresh their laptop, no questions asked, after 3 years of use (not necessarily 3 years of employment). If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
+Team members are eligible for a laptop refresh, no questions asked, after 3 years of active use. The 3-year period:
 
-The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**, please prioritize transferring information between laptops within this timeframe.
+ * Begins when a team member starts actively using their assigned laptop, not necessarily when it was first received
+ * Resets when a replacement laptop is issued due to damage, malfunction, or other circumstances
+ * Is based on the device's usage period, not the team member's employment duration
+
+If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
 
 Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade) to request a laptop refresh.
 
-After 3 years of use, the team member may retain the old laptop at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
+The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](https://handbook.gitlab.com/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
+
+After 3 years of use, the team member may retain the old laptop after it has been wiped at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), as well as other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
 
 ### GitLab Laptop Replacement Program
 
 We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you are not yet eligible for a 3 year refresh. Replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
 
-Replacement laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job duties) also, please note replacements will require approval from IT as well as your manager's approval in the issue.
+Replacement laptops can be requested by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job duties, internal transfer to a new role) Replacements will require approval from IT as well as your manager within the issue.
 
 Many team members can use their company issued laptop until it breaks. If your productivity is suffering, you can request a new laptop. The typical expected timeframe for this is about three years, but it can depend on your usage and specific laptop.
 
@@ -86,13 +91,13 @@ When you receive the new laptop, please follow the guidelines in the replacement
 
 ### Laptop Purchasing and Shipping Process
 
-After End User Services receives your laptop order, we will start working on the request. New hires can expect their GitLab issued laptop to arrive the week before their start date. We leverage business relationships with several different vendors across the globe to accomplish this remotely. Please note delivery times will vary depending on location, hardware supply, vendor selection, and shipping method.
+After End User Services receives your laptop order, we will start working on the request. New hires can expect their GitLab laptop to arrive the week before their start date. We leverage business relationships with several different vendors across the globe to accomplish this remotely. Please note delivery times will vary depending on location, hardware supply, vendor selection, and shipping method.
 
 In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions. If this is needed please reach out to `laptops@gitlab.com` or talk with your hiring manager to review all options available.
 
-If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=opened&first_page_size=100)
+If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=all&first_page_size=100)
 
-Regional minimum processing time for laptop orders before shipping. Some countries may take longer due to required documentation for delivery.
+Minimum processing time for laptop orders before shipping. Some countries may take longer due to required documentation for delivery.
 
 - US/Canada New Hires - 2 weeks (Apple) and 5 weeks (Linux)
 - EMEA/APAC New Hires - 2 weeks (Apple) and 5 weeks (Linux)
@@ -102,27 +107,31 @@ Regional minimum processing time for laptop orders before shipping. Some countri
 
 KPI 90% of laptops will arrive prior to start date or 21 days from the date of order.
 
-### Additional Laptop Request/Personal Laptop Usage
-
-We do not allow personal laptops to be used for GitLab work. If you are in need of a additional device, have a business justification, have manager approval and IT approval, you can request an additional laptop through the [Laptop Refresh/Upgrade template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new#). Please note that if the secondary device is approved it will be a refurbished device and not a new device.
-
 ### Laptops Out of Spec
 
-If the laptop is outside the standardized specifications listed [here](#apple-hardware) approval will be required from the team member's manager as well as [Michael Beltran's](/handbook/company/team/#mbeee), or [Mic Rohr's](https://about.gitlab.com/company/team/#mic_rohr) before IT will purchase the laptop.
+If a requested laptop is outside the standardized specifications listed [here](#apple-hardware) approval will be required from the team member's manager as well as [Michael Beltran's](/handbook/company/team/#mbeee), or [Mic Rohr's](https://about.gitlab.com/company/team/#mic_rohr) before IT will purchase the laptop.
 
-### Exception Processes
+### Exceptions
 
-If you are in a region where we are not able to have a laptop delivered, and you need to request funds be advanced in order for a local purchase to take place;
-Obtain two quotes from local retailers (online or physical).
+#### Self procurement
 
-Email your manager with those quotes attached, requesting the funds advance and detailing the reason why (geo region, unable to have laptop delivered).
-Your manager will supply this information and follow the [process to initiate an advance](/handbook/finance/expenses/#team-member-expense-temporary-advances).
+**Cost will not be covered by GitLab without proper approval**
 
-Should a laptop not be available to a new GitLab team-member upon their start date, it is permissable for a team member to temporarily use a personal macOS or Linux laptop.
+IT approval is required for self procurement of laptops. Self procurement is only available if you are in a region where we are not able to have a laptop delivered. If the team member desires financial assistance to purchase the hardware, the Company can advance the funds to help facilitate the purchase. See the handbook page for [Temporary Advances](https://handbook.gitlab.com/handbook/finance/expenses/#team-member-expense-temporary-advances). For current team members, please obtain two quotes from local retailers (online or physical) and include them in the refresh/replacement issue.
 
-If in the rare case that your laptop arrives damaged or unusable prior to your start date, please reach out to your Candidate Experience Specialist and CC [laptops@gitlab.com](mailto:laptops@gitlab.com) for next steps on an immediate replacement or repair.
+IT must verify the laptop specs and cost before approval is given. The created issue will be verified by the AP team to release funds.
 
-If you are unable to complete any of the steps above, you may request a Laptop Exception using this [template](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/exceptions/-/issues/new?issuable_template=exception_request). These requests require approval from leadership across multiple departments and are discouraged due to the possibility of data leakage.
+#### Additional Laptop Request
+
+If you are in need of a additional device, have a business justification, have manager approval and IT approval, you can request an additional laptop through the [Laptop Refresh/Upgrade template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new#). Please note that if the secondary device is approved it will be a refurbished device and not a new device.
+
+#### Use of Personal Laptop
+
+We do not allow personal laptops to be used for GitLab work. If a laptop is not be available to a new GitLab team member upon their start date, it is permissable for them to temporarily use a personal macOS or Linux laptop.
+
+#### Laptop exceptions not listed
+
+Any circumstance that falls outside of the listed exceptions or if GitLab IT deems it necessary, a Laptop Exception can be created using this [template](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/exceptions/-/issues/new?issuable_template=exception_request). These requests require approval from leadership across multiple departments and are discouraged due to the possibility of data leakage.
 
 ### Laptop Configurations
 
@@ -154,7 +163,7 @@ IT strongly encourages team members to select Macs; please only request a Linux 
 
 **Below are roles that qualify for Linux Laptops**
 
-- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5690 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [16" display / 512 GB SSD / 32 GB of RAM / Intel Core CPU](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp).
+- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5690 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [16" display/1TB SSD/32 GB of RAM/Intel Core CPU](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp).
 
 \*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
 
@@ -171,7 +180,7 @@ Dell is GitLab's exclusive Linux vendor for the following reasons:
 - [Dell is a certified Ubuntu vendor](https://certification.ubuntu.com/desktop/models?query=&category=Desktop&category=Laptop&level=&release=18.04+LTS&vendors=Dell) with multiple laptop choices available. They even have their own Ubuntu OEM release of Ubuntu they maintain, and as a result of their effort, the standard Ubuntu Linux 20.04 LTS image natively supports Dell hardware and even firmware updates.
 - To date, all of Dell's major security issues have not been related to their hardware.
 
-Laptops are purchased by IT Ops during a team member's onboarding process; the team-member will be sent a form to fill out for ordering.
+Laptops are purchased by GitLab IT during a team member's onboarding process; the team member will be sent a form to fill out for ordering.
 
 #### Windows for Customer Support and Product Development
 
@@ -236,10 +245,10 @@ Some of these reasons include:
 
 Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/#best-practices) when configuring your new laptop.
 
-**All team-members must provide proof of whole-disk encryption within the new laptop order issue.**
+**All team members must provide proof of whole disk encryption within the new laptop order issue.**
 
 Certain circumstances (world region and availability of hardware) might require the self installation of Linux on a Dell that was shipped with OEM Windows.
-Please make sure you follow any needed requirements when self installing and open an issue with IT-Ops for verification.
+Please make sure you follow any needed requirements when self installing and open an issue with GitLab IT if needed for verification.
 
 For laptops shipped with OEM Windows you may want to make a full drive backup (e.g. by using open source utility [Clonezilla](https://clonezilla.org/)) to the external drive before installing Linux.
 That way you could restore your laptop to the original state at any time.
@@ -262,7 +271,7 @@ Reformatting a computer is not sufficient in these cases because it is possible 
 
 ### Laptop Wipe
 
-Laptop wipes must be performed via [scheduling an appointment](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) with an IT analyst to wipe the machine and re-install the base operating system, and remove any and all software and configurations that were supplied by GitLab. Laptops must be wiped with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/) for macOS, and [DriveStrike](https://internal.gitlab.com/handbook/it/endpoint-tools/#drivestrike) for Linux. Using these tools ensures a clean disk wipe is performed and GitLab can retain evidence of the disk wipe.
+Laptop wipes must be performed by [scheduling an appointment](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) with an IT analyst to wipe the machine, re-install the base operating system, and remove all software and configurations that were supplied by GitLab. Laptops must be wiped with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/) for macOS, and [DriveStrike](https://internal.gitlab.com/handbook/it/endpoint-tools/#drivestrike) for Linux. Using these tools ensures a clean disk wipe is performed and GitLab can retain evidence of the disk wipe.
 
 Under no circumstance should you perform your own disk wipe unless you are doing so at the request of IT to troubleshoot a technical problem with the laptop. If GitLab discovers that a device has not been wiped according to policy, GitLab may act to enforce a remote wipe without notice.
 
@@ -283,9 +292,8 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 
 1. Create an issue for [laptop refresh](#laptop-refresh)
 1. Indicate in the issue you want to donate your used laptop to a vendor on the curated list.
-1. Indicate in the issue which option of logistics will be used: Local Drop off or Sending via courier.
-1. For security reasons we must make sure all laptops are fully [wiped](#laptop-wipe) before drop off or sending.
-1. When you receive your new laptop, complete the donation.
+1. For security reasons we must make sure all laptops are fully [wiped](#laptop-wipe) before being donated.
+1. After the wipe has processed, you can complete the donation.
 
 ## GitLab Asset Management
 
