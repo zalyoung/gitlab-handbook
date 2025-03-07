@@ -55,7 +55,7 @@ For each artifact in our supply chain, we track its path through these three cor
 
 Our model identifies specific component types within each core step of the supply chain. These types serve as reference elements to be used when describing a particular subset of the supply chain. Note that not all components will be present in every supply chain - the categorization below provides a framework for comprehensive modeling.
 
-These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granualirity is needed.
+These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granularity is needed.
 
 #### Source components
 
@@ -68,11 +68,11 @@ The Source core step includes everything that can edit and alter the source code
 |  | IDEs (including extensions and plugins) | `~sscs-rm-component:src:IDEs` |
 |  | Docker images | `~sscs-rm-component:src:source-docker-images` |
 |  | Pre-commit hooks | `~sscs-rm-component:src:pre-commit-hooks` |
-|  | Local code formatters and linters | `~sscs-rm-component:src:linters` |  
+|  | Local code formatters and linters | `~sscs-rm-component:src:linters` |
 | **GitLab Repositories** | (Wraps all sub-types below) | `~sscs-rm-component:src:gitlab-repo` |
 |  | Project configuration | `~sscs-rm-component:source-repo` |
-|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | `~sscs-rm-component:src:repo` | 
-|  | Repository access controls | `~sscs-rm-component:src:access-control` | 
+|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | `~sscs-rm-component:src:repo` |
+|  | Repository access controls | `~sscs-rm-component:src:access-control` |
 
 #### Build components
 
@@ -229,7 +229,7 @@ Success in our supply chain risk management strategy will be measured by:
 - Successful passing of external security audits with minimal findings
 - Improved visibility and quantification of supply chain risks and dependencies
 - Reduced number of critical and high-risk components in the supply chain
-- Increased maturity in supply chain risk assessment capabilities 
+- Increased maturity in supply chain risk assessment capabilities
 
 ## References and Resources
 
