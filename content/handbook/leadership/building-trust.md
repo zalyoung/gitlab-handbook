@@ -209,5 +209,3 @@ Below are potential team day activities:
 ## Summary
 
 Building trust takes time and energy. These are not the only strategies teams can apply to build trust but it is a start. Use this page as a guide to building a cohesive and collaborative team. Trust among teammates is the foundation of almost everything we do at GitLab.
-
-If you have further suggestions on building trust in a remote team, make a merge request to this page and alert our [Learning & Development team](/handbook/people-group/learning-and-development/#how-to-communicate-with-us).
