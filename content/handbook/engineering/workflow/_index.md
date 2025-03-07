@@ -118,7 +118,7 @@ A notification will be sent to the attributed group's Slack channel and `#master
 #### Triage DRI Responsibilities
 
 1. Monitor
-   - Pipeline failures are sent to the triage DRI's group channel, if one is identified, and will be reviewed by its group members. The failures will also be sent to [`#master-broken`](https://gitlab.slack.com/archives/CR6QH3D7C) for extra communication. If an incident is announced in a DRI group's Slack channel, the channel member should acknowledge it and assume the triage DRI responsibilites.
+   - Pipeline failures are sent to the triage DRI's group channel, if one is identified, and will be reviewed by its group members. The failures will also be sent to [`#master-broken`](https://gitlab.slack.com/archives/CR6QH3D7C) for extra communication. If an incident is announced in a DRI group's Slack channel, the channel member should acknowledge it and assume the triage DRI responsibilities.
    - If the incident is a duplicate of an existing incident, use the following quick actions to close the duplicate incident:
 
       ```shell
