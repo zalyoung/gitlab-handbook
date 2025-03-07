@@ -76,23 +76,11 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 
 ## Proposal
 
-The core proposal consists of three main components:
+The core proposal consists of three main components (detail below):
 
-1. Covered Experience Definition Framework
-   - YAML-based covered experience definitions authored by product teams
-   - Support for specifying success criteria and SLO targets
-   - Integration with test coverage reporting
-
-2. LabKit SDK
-   - DSL for marking covered experience start/end points
-   - Covered Experience ID generation and propagation
-   - Built-in retry and backoff mechanisms
-
-3. Covered Experience Tracker Service
-   - Centralized Covered Experience state tracking
-   - Support for both Runway and self-managed deployments
-   - Sensible time to live (TTL) threshold for journey duration
-   - Authentication
+1. [Covered Experience Definition Framework](#covered-experience-definition)
+2. [LabKit SDK](#sdk-requirements)
+3. [Covered Experience Tracker Service](#covered-experience-tracker)
 
 ## Design and implementation details
 
@@ -253,9 +241,13 @@ sequenceDiagram
     WH->>Tracker: End Covered Experience
 ```
 
-### Covered Experience Definition Spec
+### Covered Experience Definition
 
-The Covered Experience definition will contain the relevant details. For example:
+- YAML-based covered experience definitions authored by product teams
+- Support for specifying success criteria and SLO targets
+- Integration with test coverage reporting
+
+The Covered Experience definition will contain the following fields:
 
 | Field                              | Type    | Required | Default | Description                        | Example                        |
 |------------------------------------|---------|----------|---------|------------------------------------|--------------------------------|
@@ -275,11 +267,19 @@ Examples:
 ### SDK Requirements
 
 - Implementation in LabKit
-- Covered Experience ID generation
+- DSL for marking covered experience start/end points
+- Covered Experience ID generation and propagation
 - Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
 - Optional batching of requests before reporting to the Covered Experience Tracker
 
 ### Covered Experience Tracker
+
+- Centralized Covered Experience state tracking
+- Sensible time to live (TTL) threshold for journey duration
+- [Authentication](#authentication)
+- Deployments:
+    - Runway service for GitLab.com
+    - Runway hosted service for Dedicated
 
 The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
 
@@ -301,11 +301,6 @@ Batched operations collect the `start` and `end` timestamp of batched requests.
 State is managed by Redis. Allowing the querying of stale covered experiences, timing out after configured threshold.
 
 A background process verifies all stale covered experiences and clear them out, emitting failure metrics.
-
-Deployments:
-
-- Runway service for GitLab.com
-- Runway hosted service for Dedicated
 
 ### Authentication
 
