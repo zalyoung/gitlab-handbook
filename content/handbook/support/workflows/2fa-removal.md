@@ -88,7 +88,7 @@ Some initial validation steps will occur automatically:
 
 If any of these are inaccurate, the ticket will be closed.
 
-If a user submits a 2FA reset request ticket using the `2FA Assistance` category but does not use the `2FA removal` ticket subcategory, set the form subcategory to `2FA removal`. If the user is not eligible for support, the ticket will automatically close.
+If the user is not eligible for support, for example a free user requesting 2FA removal, use the [`General::Forms::Incorrect form used` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Forms/Incorrect%20form%20used.md) to have Support Operations take the appropriate action on the ticket.
 
 ##### Step 1: Checking challenge answers
 

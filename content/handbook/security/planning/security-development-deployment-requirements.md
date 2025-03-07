@@ -37,8 +37,8 @@ Such a process will be the responsibility of a future Security team.
 
 The following requirements are driven by 3 high level guidelines:
 
-- [Least Privilege](/handbook/security/product-security/security-architecture/#assign-the-least-privilege-possible)
-- [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust/)
+- [Least Privilege](/handbook/security/product-security/security-platforms-architecture/security-architecture/#assign-the-least-privilege-possible)
+- [Zero Trust](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/)
 - [GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 
 ### Identity, Authentication, and Authorization

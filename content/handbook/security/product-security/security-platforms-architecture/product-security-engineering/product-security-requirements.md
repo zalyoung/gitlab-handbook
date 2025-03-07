@@ -31,7 +31,7 @@ The following are some examples where Pilot Engineering work would tend to be le
 - API, identity, and role based access control compatibility
 - Product vision and roadmap alignment
 
-In building in-house tools that exist outside of the GitLab product, some Product Security teams have already delivered work that can be considered Pilot Engineering. These tools are actively used by the Security division to perform certain responsibilities and deliver on commitments. The incorporation of those existing tools into the GitLab product is considered Integration Engineering, and is being tracked [in this epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/291) following [the process described here](/handbook/security/product-security/product-security-engineering/#tooling-integration-work).
+In building in-house tools that exist outside of the GitLab product, some Product Security teams have already delivered work that can be considered Pilot Engineering. These tools are actively used by the Security division to perform certain responsibilities and deliver on commitments. The incorporation of those existing tools into the GitLab product is considered Integration Engineering, and is being tracked [in this epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/291) following [the process described here](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#tooling-integration-work).
 
 ### Integration Engineering
 
@@ -169,7 +169,7 @@ A sunset roadmap describes the phases and steps needed to move functionality fro
     1. Link to existing issues, epics, blueprints
     1. Each phase should state "This phase is complete when ...".
     1. Consider any process changes that might be required.
-1. Open [sunsetting issues](/handbook/security/product-security/product-security-engineering/#sunsetting-issues) as needed. Each issue is intended to describe a piece of functionality required to deprecate the custom tool, which may align with a particular sunsetting roadmap phase or a culmination of phases.
+1. Open [sunsetting issues](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#sunsetting-issues) as needed. Each issue is intended to describe a piece of functionality required to deprecate the custom tool, which may align with a particular sunsetting roadmap phase or a culmination of phases.
 1. Have the Sunset Roadmap peer reviewed
 1. Inform a Product Security Manager that the Roadmap is ready for prioritization. This too can follow the same "Build vs. Wait vs. Buy" process documented above.
 

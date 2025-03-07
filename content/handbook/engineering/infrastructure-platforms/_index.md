@@ -68,7 +68,7 @@ flowchart LR
     PRODENG --> CC[Cloud Connector]
     click CC "/handbook/engineering/infrastructure/team/cloud-connector/"
     PRODENG --> FO[FinOps]
-    click CC "/handbook/engineering/infrastructure/team/finops/"
+    click FO "/handbook/engineering/infrastructure/team/finops/"
 
     DE --> DevA[Development Analytics]
     click DevA "/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/"
