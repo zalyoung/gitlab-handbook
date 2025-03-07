@@ -23,9 +23,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Feb 27 | No Session - SKO   |    |
-| Mar 6 |  Google Private Offer Updates  |  Ecosystem Team   |
-| Mar 13 | Automated Software Delivery Roadmap   | Product Marketing   |
+| Mar 11 | Duo Workflow - GitLab's Agentic AI Vision  | Product Marketing   |
 | Mar 20 | Co-Create Initiative   |  Customer Success   |
 | Mar 27 | Azure DevOps Competitive Enablement   |  Product Marketing  |
 | Apr 3 |  Visibility and Measurement Roadmap   |  Product Marketing  |
@@ -40,6 +38,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-03-06 |  **[Google Private Offer Updates](https://drive.google.com/file/d/1Z7GOZ8ZbjoF39nhvULzEc2osmXAyDiO4/view?usp=drive_link)**  |  Private   |
 | 2025-02-20 | **[GitLab Duo Self-Hosted Models + Security & Compliance Updates](https://drive.google.com/file/d/1s97Q-R23ZVX77inVQb1LBBk60HFkRtFZ/view?usp=drive_link)**   |  Private  |
 | 2025-02-13 |  **[Tools for Field Efficiency: HG Insights & Highspot](https://drive.google.com/file/d/12u6uNibsMuym5EcH2yvO6K2ENxGvNhBA/view?usp=drive_link)**   |  Private  |
 | 2025-01-23 | **[Customer Success: New Paid Tiers](https://drive.google.com/file/d/1oGm4UbUAQzI_bwiBdIvj-D3D-f_Nz9fN/view?usp=drive_link)**   | Private  |
