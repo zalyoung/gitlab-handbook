@@ -937,7 +937,7 @@ To create the external stage, the new path to the bucket must be included (inclu
     ```sql
     DESC INTEGRATION GCS_INTEGRATION;
     ```
-
+ This GCS_INTEGRATION is snowflake storage integration for `gitlab-analysis` project in GCP. If the bucket is in different project new integration needs to be created.
 1. From the output, copy the value  under `property_value` where property=`STORAGE_ALLOWED_LOCATIONS`. It will look something like: `gcs://postgres_pipeline/,gcs://snowflake_backups,..`.
 1. Update the Storage Integration, instructions:
     - take the 'current_paths' that you just copied and combine it with the 'new_path' that you want to add.
@@ -966,7 +966,7 @@ To create the external stage, the new path to the bucket must be included (inclu
 
 ## Create new Snowflake external stage for **AWS S3** storage bucket
 
-This guide explains how to grant Snowflake access to a new S3 bucket using the existing Snowflake security integration.
+This guide explains how to grant Snowflake access to a new S3 bucket using the existing Snowflake storage integration.
 
 ### Overview
 
@@ -1002,7 +1002,7 @@ The process involves:
 1. In the same repo as the previous step, navigate to the policy file in GitLab:
    - File path: `environments/aws-snowplow/templates/iam_policy_snowflake_s3_integration.json`
 
-1. Add the following permissions block in the policy's `Statement` array:
+1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket. 
 
     ```json
     {
@@ -1027,7 +1027,7 @@ The process involves:
 Add the new bucket to the allowed storage locations in Snowflake:
 
 1. Use `ACCOUNTADMIN` role
-1. Update the Snowflake security integration, be sure you **append** the new bucket to the existing list of buckets:
+1. Update the Snowflake storage integration, be sure you **append** the new bucket to the existing list of buckets:
 
     ```sql
     ALTER STORAGE INTEGRATION S3_DATA_PUMP
