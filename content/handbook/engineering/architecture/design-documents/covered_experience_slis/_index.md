@@ -317,15 +317,6 @@ A background process verifies all stale covered experiences and clear them out, 
 
 Authentication between the SDK and the Covered Experience Tracker is required to prevent malicious actors from injecting fake events that could distort the reliability metrics of GitLab features and cause DDoS.
 
-TBD: implmentation details.
-
-### Initial Implementation Scope
-
-- Ruby-only support targeting Rails application
-- Focus on web request and Sidekiq job flows
-- Batching support
-- Success/failure tracking measurements
-
 ## Alternative Solutions
 
 1. Do Nothing
