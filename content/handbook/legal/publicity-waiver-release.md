@@ -63,9 +63,9 @@ Use the Publicity Waiver and Release template for materials featuring individual
    - Under `Email Message`, enter a message to the signatory explaining the purpose of the Release and asking them to sign it.
 1. Click `NEXT`.
 1. On the next page:
-  - Drag the `Signature` icon to the Signature field in the document.
-  - Drag the `Name` icon to the Name field in the document.
-  - Drag the `Date Signed` icon to the Date field in the document.
+   - Drag the `Signature` icon to the Signature field in the document.
+   - Drag the `Name` icon to the Name field in the document.
+   - Drag the `Date Signed` icon to the Date field in the document.
 1. If you want to review the document before you send it, click the `Preview` button in the upper right corner. 
 1. Click `SEND`.
 1. You will be notified by email when the Signatory has signed the Release.
