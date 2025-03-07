@@ -100,10 +100,14 @@ Reference Architecture consultations will not include the following:
 
 The Triage DRI is a team role that acts as an initial point of contact for ad hoc team requests, triaging pipelines and redirecting inquiries to appropriate team members. The role enables timely responses while spreading knowledge across the team.
 
+This is a limited role targeting initial triage. It is not a replacement for any initiative maintainers or DRIs as well as not a replacement for Support or other times.
+
 ### Responsibilities
 
 1. Monitoring and triaging the [Reference Architecture performance pipelines](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/wikis/Performance-pipelines-triage)
 1. Monitoring and responding to requests in GET/RA Slack channels.
+
+Responses are aimed to be timely, with a general target of a few days at most. This is not a strict target and can vary depending on team availability.
 
 ### Process Guidelines
 
@@ -123,9 +127,9 @@ The shadowing process works as follows:
 
 ### Cadence
 
-The Triage DRI role will be on a weekly rotation cadence. Regarding response time, we've set an aspirational goal of about one working day. It's important to note that this isn't a strict Service Level Agreement (SLA). We're viewing it more as a general guideline to aim for. We understand that sometimes things might take longer, and that's okay. The main goal is to have a reasonable timeframe for addressing inquiries and issues that come our way.
+The Triage DRI role will be on a weekly rotation cadence.
 
-It must be emphasized that the Triage DRI is not an escalation resource like Support, but rather an advisory one. The Triage DRI is there to provide advice and initial triage, not to be a replacement for Support or other teams. Please see [schedule here](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/software-delivery-framework-issue-tracker/-/issues/52).
+Please see the [schedule here](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/software-delivery-framework-issue-tracker/-/issues/52).
 
 ## Project Management
 
