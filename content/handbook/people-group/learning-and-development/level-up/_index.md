@@ -45,4 +45,4 @@ The new Cornerstone TXP platform offers significant improvements over our curren
 
 ## Timeline
 
-Initial launch is planned for the engineering teams in late March 2026, with details on company-wide rollout to follow.
+Initial launch is planned for the engineering teams in late March 2025, with details on company-wide rollout to follow.
