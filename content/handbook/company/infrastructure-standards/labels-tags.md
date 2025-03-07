@@ -375,7 +375,7 @@ We have abbreviated all values to allow for easier prefixing using industry reco
 | Marketing   | Content Marketing      | `mktg-content`             |
 | Marketing   | Digital Marketing      | `mktg-digital`             |
 | Marketing   | Field Marketing        | `mktg-field`               |
-| Marketing   | Globalization          | `mktg-globalization`       |
+| Marketing   | Globalization          | `mktg-localization`       |
 | Marketing   | Inbound Marketing      | `mktg-inbound`             |
 | Marketing   | Marketing Ops          | `mktg-ops`                 |
 | Marketing   | Owned Events           | `mktg-events`              |
@@ -604,7 +604,7 @@ The full list of groups was last audited and updated on 2021-07-22.
 | business-tech    | mktg-content             |                                   | mktg-content-shared-infra            | |
 | business-tech    | mktg-digital             |                                   | mktg-digital-shared-infra            | |
 | business-tech    | mktg-field               |                                   | mktg-field-shared-infra              | |
-| business-tech    | mktg-globalization       |                                   | mktg-globalization-shared-infra      | |
+| business-tech    | mktg-localization       |                                   | mktg-localization-shared-infra      | |
 | business-tech    | mktg-inbound             |                                   | mktg-inbound-shared-infra            | |
 | business-tech    | mktg-ops                 |                                   | mktg-ops-shared-infra                | |
 | business-tech    | mktg-events              |                                   | mktg-events-shared-infra             | |
