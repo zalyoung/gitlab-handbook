@@ -400,8 +400,9 @@ We keep a [list of data sources in our internal wiki](https://gitlab.com/gitlab-
 
 ## Retrospectives
 
-The Secure sub-department conducts retrospectives at the group level that follow our [engineering workflow](/handbook/engineering/workflow/#retrospective).
-Each group's DRI is responsible to prepare and schedule the retrospective sync sessions and the async retrospective issues can be found in [the corresponding project](https://gitlab.com/gl-retrospectives/secure-sub-dept).
+The Secure sub-department conducts retrospectives at the group level.
+
+Each group's EM or delegated DRI is responsible to prepare and schedule the retrospective sync sessions and the async retrospective issues can be found in [the corresponding project](https://gitlab.com/gl-retrospectives/secure-sub-dept).
 
 After all groups have completed their retrospective, we conduct a [Section Retrospective](/handbook/engineering/development/sec/#section-retrospectives).
 
