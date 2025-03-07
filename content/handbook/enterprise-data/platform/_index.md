@@ -921,13 +921,13 @@ Once a table is permanent with a retention period we are able to use [Time Trave
 
 For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/build/hooks-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
 
-### Admin
+## Snowflake Admin tasks
 
 In order to keep Snowflake up and running, we perform administrative work.
 
-#### Create new Snowflake external stage for storage bucket
+## Create new Snowflake external stage for **GCS** storage bucket
 
-In order for Snowflake to access the files in the storage bucket (i.e GCS, S3), the files must be copied into a Snowflake `external stage`.
+In order for Snowflake to access the files in GCS bucket, the files must be copied into a Snowflake `external stage`.
 
 To create the external stage, the new path to the bucket must be included (included means **appended** to the existing list of storage locations) in the `STORAGE_ALLOWED_LOCATIONS` attribute. If it is not appended, but **overwritten** to the existing attributes, all existing storage locations will be **erased** and stop many pipelines to run. Follow these instructions to append the new external stage:
 
@@ -963,6 +963,91 @@ To create the external stage, the new path to the bucket must be included (inclu
     CREATE STAGE "RAW"."PTO".pto_load
     STORAGE_INTEGRATION = GCS_INTEGRATION URL = 'bucket location';
     ```
+
+## Create new Snowflake external stage for **AWS S3** storage bucket
+
+This guide explains how to grant Snowflake access to a new S3 bucket using the existing Snowflake security integration.
+
+### Overview
+
+The process involves:
+
+1. Creating a new S3 bucket using terraform
+1. Updating the IAM policy to allow Snowflake access to this bucket
+1. Updating the Snowflake Security integration configuration
+
+### Prerequisites
+
+- Access to `config-mgmt` repo, specifically the `aws-snowplow` environment.
+- Snowflake account access with `ACCOUNTADMIN` role
+
+### Detailed Steps
+
+<details><summary>Click to expand</summary>
+
+#### 1. Create the S3 Bucket
+
+1. In the repository: [gitlab-com/gl-infra/config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt)
+1. Create a new S3 bucket via Terraform in the `aws-snowplow` environment:
+
+    ```terraform
+    resource "aws_s3_bucket" "some_new_bucket" {
+      bucket = "your-new-bucket-name"
+      # Add other configuration as needed
+    }
+    ```
+
+#### 2. Update the IAM Policy
+
+1. In the same repo as the previous step, navigate to the policy file in GitLab:
+   - File path: `environments/aws-snowplow/templates/iam_policy_snowflake_s3_integration.json`
+
+1. Add the following permissions block in the policy's `Statement` array:
+
+    ```json
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:PutObject",
+        "s3:ListBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3:::your-new-bucket-name/*",
+        "arn:aws:s3:::your-new-bucket-name"
+      ]
+    }
+    ```
+
+1. Just like any change in config-mgmt repo, get approvals, and then run `atlantis apply` to deploy the change
+
+#### 3. Update the Snowflake Security Integration
+
+Add the new bucket to the allowed storage locations in Snowflake:
+
+1. Use `ACCOUNTADMIN` role
+1. Update the Snowflake security integration, be sure you **append** the new bucket to the existing list of buckets:
+
+    ```sql
+    ALTER STORAGE INTEGRATION S3_DATA_PUMP
+    SET STORAGE_ALLOWED_LOCATIONS = ('s3://existing-bucket-1/', 's3://existing-bucket-2/', 's3://your-new-bucket-name/');
+    ```
+
+1. Verify the integration settings:
+
+    ```sql
+    DESC INTEGRATION S3_DATA_PUMP;
+    ```
+
+#### 4. Verification
+
+To verify everything is working correctly:
+
+1. In Snowflake, attempt to create an external stage using the new bucket
+1. Test reading from and writing to the bucket using Snowflake queries
+
+</details>
 
 ## <i class="fas fa-cogs fa-fw -text-orange"></i>Transformation
 
