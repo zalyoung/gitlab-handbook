@@ -328,23 +328,7 @@ TBD: implmentation details.
 
 ## Alternative Solutions
 
-1. Distributed Tracing
-   Pros:
-   - Existing solutions available
-   - Opportunity to iterate towards a global tracing solution
-
-   Cons:
-   - Different cardinality requirements -- one trace per request
-   - Asynchronous covered experiences not possible
-   - Lack of business-level success criteria -- the tracing tool would not be self-sufficient
-   - More complex to implement and maintain
-
-   Unknowns:
-   - How would queries perform to aggregate data for a wide timeframe? For example, the 28 days of error budgets
-   - How much would it cost?
-   - How sampling would impact the aggregations?
-
-2. Do Nothing
+1. Do Nothing
    Pros:
    - No implementation cost
 
