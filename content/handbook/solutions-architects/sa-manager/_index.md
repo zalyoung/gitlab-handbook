@@ -22,7 +22,8 @@ Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/s
 ### Available Reports and Dashboards
 
 - [CQ Hygiene metrics dashboard](https://10az.online.tableau.com/#/site/gitlab/views/CommandPlanCompletionReviewsRLSenabled/HygieneMetrics-CQ?:iid=1) - contains CSP and CSP review percentages for open opportunities in the CQ.
-- [CSP Rates Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/CSPRates?:iid=1) - Provides CSP creation and reviews against our targets for all qualifying opportunities.  
+- [CSP Rates Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/CSPRates?:iid=1) - Provides CSP creation and reviews against our targets for all qualifying opportunities. 
+- [CSP Exceptions](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000EPfG62AL/view?queryScope=userFolders) - A list of opportunties with CSP exceptions and the associated reason for the current FY
 - [POV and SA Tech Eval Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/POVsTechEvals?:iid=1) - Provides POV an tech eval win rates against targets, tracking hygiene, and other related information.
 - [Global Top Deal Review Sheet](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319) - Provides details for all opportunities over 100K Net ARR, including SA engagement information.  (AMER and EMEA also have their own versions of this sheet)
 - [SA Feasibility Rating - Operational Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000025nOj2AI/view?queryScope=userFolders) - Provides visibility into the adoption, trends, and other details of feasibility scoring.
