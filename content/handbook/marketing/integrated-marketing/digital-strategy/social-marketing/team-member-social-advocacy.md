@@ -15,7 +15,7 @@ twitter_creator: gitlab
 
 ### Social Advocacy Strategy
 
-To enable all GitLab team members to confidently and comfortably share GitLab related stories on their personal social media channels in a way that is risk adverse yet provides measureable performance.
+To enable all GitLab team members to confidently and comfortably share GitLab related stories on their personal social media channels in a way that is risk averse yet provides measureable performance.
 
 #### Goals of social media advocacy
 
