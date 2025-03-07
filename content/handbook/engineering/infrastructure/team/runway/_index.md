@@ -50,6 +50,3 @@ We follow Platforms Project Management practices as outlined in the [Handbook](/
 
 Issues for work performed by the Runway team is located in the [Runway team issue tracker](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/).
 The exception to this is work that is part of the Rails Application, these issues should be opened in the [GitLab Rails issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues).
-
-
-
