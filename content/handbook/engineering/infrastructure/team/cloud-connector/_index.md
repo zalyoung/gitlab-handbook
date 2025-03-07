@@ -23,7 +23,7 @@ You can check our [direction page](https://about.gitlab.com/direction/cloud-conn
 
 ## Roadmap
 
-[Technical Vision](/technical_vision/)
+[Technical Vision](/technical_vision)
 [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acloud%20connector) gives a view of what is currently in flight as well as projects that have been prioritized for the next 3+ months.
 
 ## Team Members
