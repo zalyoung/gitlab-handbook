@@ -17,9 +17,16 @@ GitLab Cloud Connector is a way to access services common to multiple GitLab dep
 * Deploying their own self-managed GitLab instance.
 * Signing up for GitLab Dedicated, our managed single-tenant solution.
 
-The goal of GitLab Cloud Connector is to ensure that GitLab features can work equally across all three. This aligns with Enablement's mission of accelerating other product groups by reducing the friction of developing for multiple deployments.
+The goal of GitLab Cloud Connector is to ensure that GitLab features can work equally across all three, accelerating other product groups by reducing the friction of developing for multiple deployments.
 
-You can check our [direction page](https://about.gitlab.com/direction/cloud-connector/) for more information on our mission, and our short term and long term roadmap.
+You can check our [direction page](https://about.gitlab.com/direction/cloud-connector/) for more information on our mission.
+
+## Roadmap
+
+[Technical Vision](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/cloud-connector/technical_vision/)
+
+[Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acloud%20connector) gives a view of what is currently in flight as well as projects that have been prioritized for the next 3+ months.
+
 
 ## Team Members
 
@@ -66,9 +73,6 @@ The validation board is a queue for incoming issues for the Product Manager to r
 
 We use the `~Deliverable` label to track our Say/Do ratio.  At the beginning of each milestone, during an Cloud Connector group Weekly meeting, we review the issues and determine those issues we are confident we can deliver within the milestone.  The issue will be marked with the `~Deliverable` label.  At the end of the milestone the successfully completed issues with the `~Deliverable` label are tracked in two places.  We have a dashboard in Sisense that will calculate how many were delivered within the milestone and account for issues that were moved.  Additionally, our milestone retro issue lists all of the `~Deliverable` issues shipped along with those that missed the milesone.
 
-### Roadmap
-
-The Cloud Connector group's [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acloud%20connector) gives a view of what is currently in flight as well as projects that have been prioritized for the next 3+ months.
 
 ## Links
 
