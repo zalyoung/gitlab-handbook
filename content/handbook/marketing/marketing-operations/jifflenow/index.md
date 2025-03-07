@@ -7,11 +7,7 @@ description: Automated appointment scheduling of in-person, and virtual B2B meet
 
 ## Overview
 
-JiffleNow is an automated appointment scheduling of in-person, and virtual B2B meetings at events or campaigns.
-
-## Current Use
-
-To following along on the project, follow Asana project: https://app.asana.com/0/1208791785314172/1208791670565152
+JiffleNow is an automated appointment scheduling of in-person, and virtual B2B meetings at events or campaigns. To following along on the implementation project, follow this link: https://app.asana.com/0/1208791785314172/1208791670565152
 
 ## Access
 
@@ -45,3 +41,46 @@ For event specfic help, go to:
 
 - #googlenext-execmtgs-2025
 - #rsa-conference-execmtgs-2025
+
+## External JiffleNow Invites
+
+For major events, it is common for other companies to utilize JiffleNow as well, which can cause confusion for EBAs managing executive calendars. Here is how to tell if an invite is for a GitLab initiated meeting, or an external initiated meeting:
+
+1. Take a look a the meeting invites. If anyone from GitLab with a GitLab email address is listed in "External Attendees", it was not scheduled through our instance.
+2. At the bottom of the email, there will be a help contact. Our help contact will always be someone at GitLab (or in the case of internal requests, a Slack channel).
+3. Below is a screenshot of an example INTERNAL request from our Jifflenow instance. If it doesn't have the Confidential note at the top, it isn't from us.
+
+# Onsite Event Management
+
+This is WIP - will update once we have more information
+
+## Mobile App
+
+This has not yet been configured - will update this page when ready
+
+# How To Request Meetings
+
+Follow the training doc and slide deck above.
+
+## Requesting Meetings outside of standard meeting space
+
+If you have already set a meeting location outside of our space, for example in a partner’s meeting space:
+
+1. Select Executive Meeting with Other Executives
+2. De-select meeting space
+3. Click `Other Location` and add the details of the location
+4. Please do not request this meeting until you have a location
+5. Select your attendees and meeting time as normal
+
+## Requesting Standard Meetings
+
+1. Navigate to the Account, Contact or Opp in SFDC.
+2. In the top right drop down, you’ll find JiffleNow Meetings.
+3. Select the appropriate event, and click Request Meeting.
+4. From there, you can request different meeting types that are available. Make sure to link the correct Account and Opportunity (if applicable - you must type it in).
+5. In the next screen: Select attendees, Internal and External. Pick the room and the available time.
+6. To add attendees not listed in the internal or external list, click the + next to ATTENDEES. Enter their contact details and select them for the meeting. If you would like to add a new external attendee to SFDC, you can toggle the “Sync contact to SFDC” and it will be added to the account.
+7. Then, Add details about the meeting and attendees in the right panel. (SFDC should update most of it)
+8. You must include an Executive Request Briefing Doc. For C-Level meetings, you are required to have Regional VP approval before requesting the meeting.
+9. Once complete, select submit. This will then route for approvals through the EBA team, depending on the participants.
+10. Once fully approved, this will trigger email invitations to all participants.
