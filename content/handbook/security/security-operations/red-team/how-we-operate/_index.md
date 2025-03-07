@@ -52,7 +52,7 @@ We often work with [Signals Engineering](../../signals-engineering/) and [Securi
 
 Recommendations can be raised with any group within GitLab, creating a flexible system for security improvements across the organisation. When raising recommendations:
 
-- **Target the appropriate group** - Direct recommendations to infrastructure teams, product teams, or security teams such as [Infrastructure Security](https://handbook.gitlab.com/handbook/security/product-security/infrastructure-security/), [Security Identity](https://handbook.gitlab.com/handbook/security/identity/), or [Corporate Security](https://handbook.gitlab.com/handbook/security/corporate/).
+- **Target the appropriate group** - Direct recommendations to infrastructure teams, product teams, or security teams such as [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Security Identity](/handbook/security/identity/), or [Corporate Security](/handbook/security/corporate/).
   - Open an issue in the appropriate issue tracker, use the appropriate template to ensure visibility to the right team.
 - **Provide clear context** - Include information about the risk, impact, basis for the recommendation. Use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/recommendation.md).
 - **Leverage domain expertise** - The receiving group determines the most appropriate implementation approach.
