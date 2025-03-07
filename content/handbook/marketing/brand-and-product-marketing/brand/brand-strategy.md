@@ -60,16 +60,18 @@ Our [naming handbook page](/handbook/marketing/brand-and-product-marketing/brand
 If you receive a vendor request for GitLab to act as a reference for a product, service, or technology that your GitLab team is using, please start by referring to the guidelines below. If the request meets our criteria, you can open an issue to kick off the approval process.
 
 Examples of reference requests include:
+
 - Use of GitLab’s logo on the vendor’s website or marketing materials
 - A case study
 - Co-branding opportunities
 - Social media posts mentioning GitLab
 
-For public relations requests or support, please reference the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support).
+For public relations requests or support, please reference the [Corporate Communications handbook page](/handbook/marketing/corporate-communications).
 
 #### Vendor reference criteria
 
 Before starting the approval process, please ensure that the vendor meets this criteria. If you have any questions, reach out to us in the #brand Slack channel.
+
 1. The GitLab team must have used the product, service, or technology for **at least 12 months** prior to the reference request.
 1. The product, service, or technology must have met or exceeded your expectations. We prefer that this satisfaction is documented via a recent QBR.
 1. GitLab must have an official vendor relationship with the product, service, or technology.
@@ -81,6 +83,7 @@ Before starting the approval process, please ensure that the vendor meets this c
 #### Stakeholder reviewers 
 
 The following teams will review the request as part of this process:
+
 - Brand team
 - Corporate Communications team
 - E-group member for the organization using the vendor (this is required for all reference requests except for logo usage requests)
