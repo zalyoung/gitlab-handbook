@@ -1182,7 +1182,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - Similar to above, the same people will be flagged on dashboards and reporting for you to consider as intent signals to add their respective accounts to your pipeline.
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.`
 - We are actively working to remove irrelevant prospect titles from being created as part of the `UserGems - New Hires and Promotions` lead sources. If you notice any titles that you feel should not have been created because they're irrelevant to DevOps decision-making in that company, please feel free to use the #usergems-feedback Slack channel to let us know, and we'll work with our CSM to review them. 
- - In the meantime, you can also mark these leads as Status `Disqualified` and Disqualified reason `No Authority`
+- In the meantime, you can also mark these leads as Status `Disqualified` and Disqualified reason `No Authority`
 
 #### 3. When people leave or join accounts where we have open oppourtunities
 
