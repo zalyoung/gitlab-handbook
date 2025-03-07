@@ -44,11 +44,6 @@ The following process outlines steps for the L&D team to take each month when pl
 
 `Join the Learning and Development team on [DATE] for the Monthly Continuous Learning Call. This month's call is all about [TOPIC]. You can review the slide deck for the call [HERE], and post questions you might have in the call adenga doc [HERE]. Looking forward to seeing you there!`
 
-## Crucial Conversations
-Two members of the GitLab Learning & Development Team are certified to deliver Crucial Conversations Training. You can learn more about the importance of Crucial Converations at GitLab on our [Crucial Conversations](/handbook/leadership/crucial-conversations) handbook page.
-
-If you complete Crucial Conversations training with one of our in house certified trainers, you can utilize our [growth and development budget](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training).
-
 ### What to Expect
 
 The video below gives an overview of what the Crucial Conversations training looks like.
@@ -330,11 +325,9 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 ## Take Time Out To Learn Campaign
 
-[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#resources-and-tools).
+Focus Friday's are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#resources-and-tools).
 
 From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
-
-In a [discussion with Darren Murph, Head of Remote at GitLab, about his career development](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/career-development-with-darren-murph), Darren called out the importance of taking time out to learn, reminding the team that career development is "not something that comes around the fringes of work - it is work". The Take Time out to Learn initiative leans into this idea.
 
 Consider documenting the steps you are going to take learn new skills in the individual growth plan. Check in with your manager and ask for accountability from them to help you stay aligned with goals.
 
