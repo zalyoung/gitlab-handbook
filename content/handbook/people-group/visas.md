@@ -303,7 +303,6 @@ This visa is initially granted for up to 2 years and subsequent renewals are val
 
 Once the selected candidate has accepted the employment offer, we will initiate the Employment Pass (EP) visa application process. The candidate will supply their personal details and specified information to the immigration partner in order to complete the visa application. Each EP visa application is assessed by our immigration partners to ensure it meets the minimum requirements per MOM standards. Once the application is submitted, it will be under review with the visa authorities for a minimum of 10 business days before adjudication. Costs for obtaining the Employment Pass visa are absorbed by the department hiring the candidate.
 
-
 #### UK Global Talent Visa
 
 This visa is for people who are considered leaders in various fields and does not require employer sponsorship. GitLab can likely employ anyone who has been awarded this visa but is unable to provide support with visa applications or fees. This visa is valid for five years and may be renewed.
