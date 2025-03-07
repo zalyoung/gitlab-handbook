@@ -6,11 +6,15 @@ description: "Learn about Patents and GitLab's Patent Program"
 ## Why patents matter?
 
 Patent protection for inventions offers several benefits.
+
 - For **customers**, it signals that they're partnering with an innovative company, that is committed to solving complex technical problems. 
 - For **individual team members**, appearing as a named inventor on a published patent is a significant achievement and something that provides tangible evidence of team members' creative contributions to GitLab and emphasizes GitLab's [focus on results for customers](/handbook/values/#results).
 - For **GitLab**, building a portfolio of patents helps increase our profile as innovators in the DevOps space. Furthermore,
+    
     - Patents are valuable assets, and an investment in building a patent portfolio can increase value for shareholders. 
+    
     - In some regions, obtaining patent protection for inventions renders the related research and development costs tax deductible. 
+    
     - Patents can also be used as a defensive tool in the event the owner of another patent seeks to assert their patent rights against GitLab.
 
 ## Patents and Open Source
