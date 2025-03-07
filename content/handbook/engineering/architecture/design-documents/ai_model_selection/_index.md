@@ -38,7 +38,7 @@ For Self-Managed installations, administrators can configure self-hosted models 
 
 We can deliver this work in iterations so that we deliver value to the customer incrementally
 
-**Iteration 1: Instance Level Configuration**: In this phase we enable instance level configuration for `.com`, `self-managed` and `dedicated` so that administrators can choose which models need to be made available. We will also support a `default` model which will be our recommended model. We will also build a sync mechanism which will allow Self-Managed customers to see a list of GitLab hosted models.
+**Iteration 1: Managed Model Configuration**: In this phase we enable managed model configuration for `.com`, `self-managed` and `dedicated`. Supported models will be stored in the AI Gateway. These models will then be retrieved by gitlab.com, Self-managed instances and dedicated instances.
 
 **Iteration 2: Namespace Level Configuration**: In this phase customers will be able to select models at a namespace level, where the models available will be a subset of the ones picked at the parent level (group-subgroup). This will allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
 
@@ -69,30 +69,6 @@ erDiagram
         varchar name
     }
 
-    AI_FEATURE_SETTINGS {
-        bigint id PK
-        bigint ai_self_hosted_model_id FK
-        varchar feature
-        int provider
-        bool gitlab_managed_model
-        bigint organization_id FK
-    }
-    
-    AI_SELF_HOSTED_MODELS {
-        bigint id PK
-        bigint organization_id FK
-        varchar model
-        varchar endpoint
-        varchar name UNIQUE
-        varchar identifier
-        varchar api_token ENCRYPTED
-    }
-
-    ORGANIZATION ||--o{ AI_SELF_HOSTED_MODELS : "has many"
-    ORGANIZATION ||--o{ AI_FEATURE_SETTINGS : "has many"
-
-    AI_SELF_HOSTED_MODELS ||--o{ AI_FEATURE_SETTINGS : "has many"
-
     NAMESPACES {
         bigint id PK
         bigint parent_id FK
@@ -104,31 +80,25 @@ erDiagram
 
     ORGANIZATION ||--o{ NAMESPACES : "has many"
 
-    NAMESPACES ||--o{ AI_FEATURE_SETTINGS : "can have"
-
-    NAMESPACE_AI_SETTINGS {
+    NAMESPACE_AI_FEATURES {
         bigint id PK
         bigint namespace_id FK
-        bigint ai_feature_settings_id FK
         timestamp created_at
         timestamp updated_at
+        varchar feature_category
+        varchar feature
+        varchar recommended_model
     }
 
-    NAMESPACES ||--o{ NAMESPACE_AI_SETTINGS : "has many"
-    AI_FEATURE_SETTINGS ||--o{ NAMESPACE_AI_SETTINGS : "has many"
+    NAMESPACES ||--o{ NAMESPACE_AI_FEATURES : "has many"
 
-    NAMESPACE_DEFAULT_AI_SETTINGS {
+    NAMESPACE_AI_FEATURE_MODELS {
         bigint id PK
-        bigint namespace_id FK
-        bigint ai_feature_settings_id FK
-        bigint ai_self_hosted_model_id FK
-        timestamp created_at
-        timestamp updated_at
+        bigint namespace_ai_feature_id FK
+        varchar model
     }
 
-    NAMESPACES ||--o{ NAMESPACE_DEFAULT_AI_SETTINGS : "has many"
-    AI_FEATURE_SETTINGS ||--o{ NAMESPACE_DEFAULT_AI_SETTINGS : "has many"
-    AI_SELF_HOSTED_MODELS ||--o{ NAMESPACE_DEFAULT_AI_SETTINGS : "has many"
+    NAMESPACE_AI_FEATURES ||--o{ NAMESPACE_AI_FEATURE_MODELS : "has many"
 
     USERS {
         bigint id PK
@@ -136,68 +106,45 @@ erDiagram
         varchar email UNIQUE
     }
 
-    USER_AI_SETTINGS {
+    USER_AI_MODEL_PREFERENCES {
         bigint id PK
         bigint user_id FK
-        bigint ai_feature_settings_id FK
-        bigint ai_self_hosted_model_id FK
-        timestamp created_at
-        timestamp updated_at
-        bigint organization_id FK
+        varchar feature
+        varchar favourite_model
     }
 
-    USERS ||--o{ USER_AI_SETTINGS : "has many"
-    AI_FEATURE_SETTINGS ||--o{ USER_AI_SETTINGS : "has many"
-    AI_SELF_HOSTED_MODELS ||--o{ USER_AI_SETTINGS : "has many"
-    ORGANIZATION ||--o{ USER_AI_SETTINGS : "has many"
+    USERS ||--o{ USER_AI_MODEL_PREFERENCES : "has many"
 ```
 
 #### **Entities and Relationships**
 
-##### **1. AI_SELF_HOSTED_MODELS**
-
-- Represents AI models available for selection.
-- Includes fields for model name, endpoint, identifier, and API token (encrypted for security).
-- **Existing**
-
-##### **2. AI_FEATURE_SETTINGS**
-
-- Defines the various AI-powered features available (e.g., Code Suggestions, Chat, etc.).
-- Links to `AI_SELF_HOSTED_MODELS` to associate models with features.
-- **Existing**
-
-##### **3. NAMESPACES**
+##### **1. NAMESPACES**
 
 - Represents groups/subgroups in GitLab.
 - **Existing**
 
-##### **4. NAMESPACE_AI_SETTINGS**
+##### **2. NAMESPACE_AI_FEATURES**
 
-- A join table linking `NAMESPACES` and `AI_FEATURE_SETTINGS`.
-- Enables a namespace to enable/disable specific AI features and models.
+- A set of features enabled for the namespace. 
+- This table consists of a feature category (such as Code Suggestions) and a feature (such Code Completion)
+- This also stores the organization level recommended model
 - **New**
 - **Why?**
-  - Allows namespaces to define which AI features are available.
-  - Ensures that only authorized features and models are accessible within an organization.
+  - We need to enable group admins to optionally set the models they want to use for each of the features.
 
-##### **5. NAMESPACE_DEFAULT_AI_SETTINGS**
+##### **5. NAMESPACE_AI_FEATURE_MODELS**
 
-- Allows namespace administrators to specify the **default AI model** for each AI feature.
-- Links `NAMESPACES`, `AI_FEATURE_SETTINGS`, and `AI_SELF_HOSTED_MODELS`.
+- Stores a list of allowed models for each feature. If this list if empty then we will show all the GitLab supported models to the user
 - **New**
-- **Why?**
-  - Provides centralized control for AI settings at the namespace level.
-  - Ensures that users within the namespace have a baseline AI model selection.
 
 ##### **6. USERS**
 
 - Represents individual users who can interact with AI features.
 - **Existing**
 
-##### **7. USER_AI_SETTINGS**
+##### **7. USER_AI_MODEL_PREFERENCES**
 
 - Allows users to select their **preferred AI model** per feature, overriding the namespace default.
-- Links `USERS`, `AI_FEATURE_SETTINGS`, and `AI_SELF_HOSTED_MODELS`.
 - **New**
 - **Why?**
   - Empowers users with flexibility while maintaining organizational defaults.
@@ -213,7 +160,7 @@ erDiagram
 - **Users** can override these defaults for personal preferences.
 - **Fallback Logic:**
   1. Check `USER_AI_SETTINGS` for user preference.
-  2. If no user preference, check `NAMESPACE_DEFAULT_AI_SETTINGS`.
+  2. If no user preference, check `NAMESPACE DEFAULTS`.
   3. If no namespace default, revert to a system-wide default.
 - **Why?**
   - Ensures a structured decision-making process.
@@ -286,7 +233,20 @@ sequenceDiagram
 
 ### Changes to GitLab rails
 
-1. Right now the view (instance level) to do model selection is called "Self-Hosted Models", we should change this to the more generic "AI Model Configuration"
+1. The list of instance level models will be fetched from AI Gateway periodically and cached in the instance.
+
+1. We need a way to sync models to all cells in `.com` and all self managed instances. This could be done using a separate sidekiq job that will sync GitLab Managed models with the self-managed instance.
+
+```mermaid
+sequenceDiagram
+    Self Managed->>Cloud Connector: Scheduled Sidekiq job calls API
+    Cloud Connector->>AI Gateway: Fetch Model List
+    AI Gateway->>AI Gateway: Fetch Model List
+    AI Gateway-->>Cloud Connector: Return list of models
+    Cloud Connector-->>Self Managed: Return list of models
+    Self Managed->>Self Managed: Insert model records and set defaults
+    Self Managed->>Administrator: Send email about new model availability
+```
 
 1. We need to build the rails models, controllers and views as described in the `Data Model` section.
 
@@ -298,7 +258,7 @@ sequenceDiagram
 
 1. We need to be able to build the Group Settings screen to be able to select a list of models from the set offered at the instance level.
 
-1. The existing GraphQL API will need to be updated so that it looks through the group hierarchy and figures out the right set of models to use.
+1. We will need to build a new API to fetch the list of models that user is allowed to use
 
 ```gql
 query {
@@ -318,26 +278,37 @@ query {
 
 1. When a model is depreciated / inactivated then we need a way to cascade the deprecations down to the namespace level. We will need to build a Sidekiq job that can do that.
 
-1. We need to update the UI for the current Self Hosted Models screen to allow us to choose a list of models per feature instead of a single model.
-
-1. We need a way to sync models as we release them to self managed instances as well. This could be done using a separate sidekiq job that will sync GitLab Managed models with the self-managed instance.
-
-```mermaid
-sequenceDiagram
-    Self Managed->>Cloud Connector: Scheduled Sidekiq job calls API
-    Cloud Connector->>AI Gateway: Fetch Model List
-    AI Gateway->>GitLab.com: Fetch Model List
-    GitLab.com->>GitLab.com: Search for all GitLab Managed models
-    GitLab.com-->>AI Gateway: Return list of models
-    AI Gateway-->>Cloud Connector: Return list of models
-    Cloud Connector-->>Self Managed: Return list of models
-    Self Managed->>Self Managed: Insert model records and set defaults
-    Self Managed->>Administrator: Send email about new model availability
-```
 
 ### AI Gateway Changes
 
-The AI Gateway (for SaaS only) will have to support an API to fetch GitLab hosted models from `gitlab.com`
+The AI Gateway will have to support a new API that will allow rails to fetch the allowed list of models.
+
+The following configuration file in AI Gateway will be updated when we need to release a new model.
+
+```yaml
+apiVersion: v1
+kind: HostedModelConfiguration
+features:
+- name: Code Suggestions
+  subfeatures:
+  - name: Code Completion
+    default: code-gecko
+    models:
+    - code-gecko
+    - codestral
+  - name: Code Generation
+    default: claude-3.5
+    models:
+    - claude-3.5
+    - gpt-4.5
+- name: Chat
+  subfeatures:
+  - name: Chat
+    default: claude-3.5
+    models:
+    - claude-3.5
+    - claude-3.7
+```
 
 The AI Gateway already supports model passing for various APIs such as `/v2/chat` and `/v4/suggestions`.
 
@@ -368,7 +339,8 @@ In addition to this we will be need to be able to update the model [factory](htt
 
 **Conflict Resolution**
 
-What happens if multiple namespace admins set conflicting default models at different levels of the hierarchy. Which default should we choose?
+What happens if multiple namespace admins set conflicting default models at different levels of the hierarchy. Which default should we choose? 
+> **Decision**: Configurations on a child namespace to take precedence over the parent namespace.
 
 **Future Model Feature Parity**
 
