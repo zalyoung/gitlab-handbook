@@ -235,7 +235,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
      - Add the `quarantined test` label to the `failure::flaky-test` issue you previously created during the identification phase.
    - Create a new merge request to fix the failure if revert is not possible or would introduce additional risk. This should be treated as a `priority::1` `severity::1` issue.
      - To ensure efficient review of the fix, the merge request should only contain the minimum change needed to fix the failure. Additional refactor or improvement to the code should be done as a follow-up.
-1. The resolution DRI must address all failures in the pipeline, including cases where a job that initially passed fails during a retry.
+1. The resolution DRI must address all failures in the pipeline. Be mindful that the initial opened issue for the incident will only announce the jobs that failed so far. But after you fix those jobs, other subsequent jobs could fail on the same pipeline that you're triaging. The triage DRI is responsible for this whole pipeline, and not only for the initial failed jobs.
 1. Apply the `Pick into auto-deploy` label (along with the needed `severity::1` and `priority::1`) to make sure deployments are unblocked.
 1. If the broken `master` incident affects any stable branches (e.g. <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/25274>) or is caused by a flaky failure,
    open new merge requests **directly against the active stable branches** and ping the current release manager in the merge requests to avoid
