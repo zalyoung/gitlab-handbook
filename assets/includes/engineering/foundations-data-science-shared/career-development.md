@@ -63,6 +63,18 @@ This section lists relevant experience areas for individual contributors interes
 </details>
 
 <details markdown=1>
+<summary>Technical ability</summary>
+
+**Technical ability**
+
+* Participate in long-term architectural decisions
+* Challenge technical decisions where needed (e.g. inefficient refactors, etc)
+* Maintain awareness of the technical implications of your domain and be able to speak to it
+* Coach team members to scalable solutions
+
+</details>
+
+<details markdown=1>
 <summary>Team success</summary>
 
 **Team success**
