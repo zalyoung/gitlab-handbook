@@ -60,8 +60,6 @@ This has not yet been configured - will update this page when ready
 
 ## How To Request Meetings
 
-Follow the training doc and slide deck above.
-
 ### Requesting Meetings outside of standard meeting space
 
 If you have already set a meeting location outside of our space, for example in a partner’s meeting space:
@@ -86,6 +84,7 @@ If you have already set a meeting location outside of our space, for example in 
 10. Once fully approved, this will trigger email invitations to all participants.
 
 ### View Requested Meetings (For Attendees)
+
 1. In salesforce - On the left side, click on the 9 dots (app launcher) and type in Jifflenow
 2. Click "Jifflenow Home Page" along the top row
 3. Select the 3 dots and click Meetings
