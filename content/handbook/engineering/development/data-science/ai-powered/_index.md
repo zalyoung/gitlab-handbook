@@ -17,7 +17,6 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 We are the driving force behind Duo, supporting features directly or through the empowerment of other teams. For a single source of truth of feature use-cases that we enable, [see this list](https://docs.gitlab.com/user/gitlab_duo/).
 
-
 ### AI Powered Operational Agreements
 
 - **Sustainable way of working**: Getting all of our teams back to a sustainable way of working as a first priority. The ambiguity in work schedules, uncertainty around who has license to make decisions, and changes in priority lead to a lack of predictability for people's work, which creates stress and a reduced sense of psychological safety.
