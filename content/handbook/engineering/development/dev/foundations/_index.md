@@ -101,15 +101,9 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 ## Shared calendars
 
 1. Foundations: Important Dates - Use this calendar for stage-wide reminders (OKR due dates, promotion cycles, talent assessment timelines, regular holiday preparations)
-   * To add this calendar to your Google Calendar, use this calendar ID `c_kvfbp2t8edtgm4rjialus0834g@group.calendar.google.com`
+  - To add this calendar to your Google Calendar, use this calendar ID `c_kvfbp2t8edtgm4rjialus0834g@group.calendar.google.com`
 1. Foundations Shared - Use this calendar for recurring group level reminders and meetings (Release kickoff, milestone planning, social calls)
-   * To add the shared calendar to your Google Calendar, please use this [link](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV9rOWYyN2lqamExaGoxNzZvbmNuMWU4cXF2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) (GitLab internal).
-   * To add a meeting to the shared calendar, please add [the link in this document](https://docs.google.com/document/d/1IxGuORI-vfVd6irNdUwpnOBZDWALWzOqhQzC9E39ixQ/edit) to the event.
-
-* To add a new member to the shared calendar
-  * Click "Settings and Sharing" in the kebab menu when mousing over "Foundations Shared" in your Google Calendar sidebar under "My calendars".
-  * Scroll to the "Share with specific people" section of the settings area. Click "Add people" and add the new member with "Make changes and manage sharing".
-* For a more detailed walkthrough, have a look at a quick [video walkthrough](https://www.youtube.com/watch?v=TmcPuuljf1w)
+  - To add this calendar to your Google Calendar, use this calendar ID `gitlab.com_k9f27ijja1hj176oncn1e8qqvk@group.calendar.google.com`
 
 ## Skip Levels
 
