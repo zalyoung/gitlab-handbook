@@ -71,6 +71,7 @@ This section lists relevant experience areas for individual contributors interes
 * Challenge technical decisions where needed (e.g. inefficient refactors, etc)
 * Maintain awareness of the technical implications of your domain and be able to speak to it
 * Coach team members to scalable solutions
+* Backstop Staff or Principal engineers for the team
 
 </details>
 
