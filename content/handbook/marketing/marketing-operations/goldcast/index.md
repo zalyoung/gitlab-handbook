@@ -15,10 +15,6 @@ Page in progress - Purchased as of Jan 2025. Marketing Operations is in the proc
 - The [Goldcast Hall-of-Fame](https://www.goldcast.io/customer-stories) shares multitudes of customer stories and their use cases of the Goldcast platform
 - The [Goldcast Blog](https://www.goldcast.io/blog) shares additional ways to leverage the platform and other relevant updates from Goldcast
 
-## Marketo Program Setup
-
-The primary Marketo program Goldcast template to use is named `YYYYMMDD_EventName_Webcast_Goldcast_template` and is found in the [Templates - Goldcast Webcasts folder](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1). Goldcast can auto-create Marketo programs based on this template, but tokens will still need to be updated. 
-
 ## Fields syncing between Marketo and Goldcast
 
 List of sync fields in draft currently. Let MOps know of any more fields to consider. 
@@ -87,7 +83,33 @@ Tags can be used to quickly filter webcasts and events by the tagged topic. If y
 - Case Study (Used on any webcast that presents a customer story)
 - Partner Involved (Used on any webcast that is co-branded or has a partner speaking on the webcast)
 
+## Marketo Program Setup
+
+The primary Marketo program template to use is named `YYYYMMDD_EventName_Webcast_Goldcast_template` and is found in the [Templates - Goldcast Webcasts folder](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1). Goldcast can auto-clone Marketo programs based on a template, as long as the Goldcast template is synced to a Marketo program. The Marketo program created will have the same name as the Goldcast event, ending with a time stamp. The program will appear in the same folder as the original Marketo program.
+
+When working correctly, the Marketo program's tokens will auto-populate - either on program creation (via Goldcast's program cloning feature) or when manually connected to a Goldcast event. The relevant tokens for this process are:
+
+- {{my.goldcast_eventEndDate}}
+- {{my.goldcast_eventEndTime}}
+- {{my.goldcast_eventId}}
+- {{my.goldcast_eventSeriesID}}
+- {{my.goldcast_eventSeriesName}}
+- {{my.goldcast_eventStartDate}}
+- {{my.goldcast_eventStartTime}}
+- {{my.goldcast_eventTimezone}}
+- {{my.goldcast_eventTitle}}
+- {{my.goldcast_formId}}
+
+Users have the option of starting event creation within either platform. 
 
 ## Event Creation within Goldcast 
 
 ## Event Creation within Marketo
+
+When starting event creation in Marketo, make a duplicate of [YYYYMMDD_EventName_Webcast_Goldcast_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1) and move it to the appropriate folder for the quarter and using the standard naming convention.
+
+Once the program is up, grab the program ID number. The program ID number can be found at the end of the program's URL and between the letters,  i.e. `classic/ME**21842**A1`. The program ID will be placed into your Goldcast event.
+
+To place the Marketo program ID in Goldcast, go to and click into your event. Within the event, click in this order `Integrations` -> `Marketo` -> `Settings`. Place your Marketo program ID into the `Connected Program ID` field and click connect. The Goldcast event and Marketo program are now linked.
+
+Once the Goldcast event and Marketo program are connected the Marketo program tokens will populate.
