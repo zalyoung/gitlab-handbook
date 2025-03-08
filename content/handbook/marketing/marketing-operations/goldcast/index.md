@@ -43,7 +43,8 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 | UTM Content |original UTM content|Only update if target is empty|
 | UTM Content |last UTM content|Always update|
 
-## Event Tags in use 
+
+## Event Tags in use
 Tags can be used to quickly filter webcasts and events by the tagged topic. If you add more tags in the Goldcast platform, please be sure to update this handbook list. 
 
 - DevOps Platform
