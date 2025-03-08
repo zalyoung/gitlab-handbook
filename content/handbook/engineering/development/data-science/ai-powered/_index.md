@@ -80,7 +80,7 @@ description: "The AI-Powered Stage in the Data Science section is focused on pro
 
 ### Standards of Quality and Completeness
 
-- Systems must meet enterprise SLA expectations for availability and performance as measured by [99.9% Error Budget](#metrics)
+- Systems must meet enterprise SLA expectations for availability and performance as measured by 99.9% Error Budget
 - Features should work consistently across all deployment types (SaaS, Self-hosted, Dedicated)
 - All new and existing features should follow the [GitLab Design System](https://design.gitlab.com/)
 - Instrumentation should be standardized for aggregation with metrics
