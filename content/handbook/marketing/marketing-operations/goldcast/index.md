@@ -21,14 +21,17 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 
 | Goldcast Field Name | Marketo Field Name | Update Cadence |
 | ------ | ------ | ------ |
-|   First Name     |   First Name     | Only update if target is empty |
-|   Last Name     |  Last Name     | Only update if target is empty |
+|   First Name     |   First Name     | Don't update if source is empty |
+|   Last Name     |  Last Name     | Don't update if source is empty |
 | Email| email | Lookup Field |
-|Job Title | Job Title| Only update if target is empty |
-| Company | Company Name| Only update if target is empty|
-|City | City| Only update if target is empty|
-| State |State |Only update if target is empty|
-| Country | Country|Only update if target is empty|
+|Job Title | Job Title| Don't update if source is empty |
+| Company | Company Name| Don't update if source is empty|
+|City | City| Don't update if source is empty|
+| State |State |Don't update if source is empty|
+| Country | Country|Don't update if source is empty|
+| Data Share Content | Opt-in| Don't update if source is empty |
+|Province|Canadian Province|Don't update if source is empty|
+|State/Territory|Australian State/Territory|Don't update if source is empty|
 | UTM Campaign |original UTM campaign|Only update if target is empty|
 | UTM Campaign | last UTM campaign| Always update|
 | UTM Medium |original UTM medium|Only update if target is empty |
@@ -108,7 +111,7 @@ Users have the option of starting event creation within either platform.
 
 When starting event creation in Marketo, make a duplicate of [YYYYMMDD_EventName_Webcast_Goldcast_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1) and move it to the appropriate folder for the quarter and using the standard naming convention.
 
-Once the program is up, grab the program ID number. The program ID number can be found at the end of the program's URL and between the letters,  i.e. `classic/ME**21842**A1`. The program ID will be placed into your Goldcast event.
+Once the program is up, grab the program ID number. The program ID number can be found at the end of the program's URL and between the letters,  i.e. `classic/ME**00000**A1`. The program ID will be placed into your Goldcast event.
 
 To place the Marketo program ID in Goldcast, go to and click into your event. Within the event, click in this order `Integrations` -> `Marketo` -> `Settings`. Place your Marketo program ID into the `Connected Program ID` field and click connect. The Goldcast event and Marketo program are now linked.
 
