@@ -1,26 +1,61 @@
 ---
 title: Foundations Stage
-description: The Foundations stage deals with cross functional work from the design system, to importers, to the navigation.
+description: The responsibilities of this stage are described by the [Foundations product category](/handbook/product/categories/#foundations-stage). Foundations is made up of multiple groups, each with their own features and areas of responsibility, noted last on this page.
 ---
 
-## About
+## Core Focuses
 
-The responsibilities of this stage are described by the [Foundations product category](/handbook/product/categories/#foundations-stage).
-Foundations is made up of multiple groups, each with their own features and areas of responsibility, noted last on this page.
+- Elevate all features to enterprise-grade quality through consistent design system adoption, rigorous cross-deployment testing, and maintaining the reliability standards necessary to fulfill our 99.9% SLA commitments.
+- Create a seamless, scalable migration experience for enterprises by optimizing migration pathways (speed, friction), providing clear visibility into migration progress, and reducing manual intervention requirements.
+- Drive operational excellence by optimizing developer workflows, analyzing maintenance burdens, and continuously improving development processes to deliver maximum value with the most efficiency.
 
-* I have a question. Who do I ask?
 
-In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#foundations-stage).
+### Key Priorities (In Order)
+1. Enterprise-grade completeness 
+1. Design System Adoption
+1. Personalized Homepage
+1. Efficiency in migrations
 
-GitLab team members can also use [#s_foundations](https://gitlab.slack.com/messages/CBFCUM0RX).
+### Areas of opportunity
+- Experience features as Professional Services, the Dedicated team, or customers do to close quality gaps
+- Track user adoption and usage to understand maintenance burden or high priority areas to address
+- Identify components that aren't using the standard Design System and prioritize updates
+- Maintain a 4-quarter technical roadmap that anticipates future scale needs
+- 
+- 
+- 
+- 
 
-## How we work
+### User Journeys
+- *Critical to Homepage and Navigation:* User needs to quickly resume work across multiple projects or groups
+- *Critical to Homepage and Navigation:* User wants to see all their active work items in one place without navigating through multiple pages
+- 
+- 
+- *Critical to Import & Integrate:* Large-Scale Enterprise needs to migrate multiple projects/groups from another platform (GitHub, Bitbucket) or GitLab instance
+- *Critical to Import & Integrate:* Enterprise team member wants to perform migrations at scale with minimal manual intervention
+- *Critical to Import & Integrate:* Enterprise team member requires visibility into migration progress and success/failure status
+- *Critical to Import & Integrate:* Enterprise team member wants to map contributors from source system to appropriate users in destination system
+- 
+- 
+- *Critical to Personal Productivity:* User needs to identify and prioritize items requiring immediate attention
+- *Personal Productivity:* User needs to process multiple notifications efficiently without switching contexts
+- *Personal Productivity:* User wants to reduce the "noise" by pruning unnecessary notifications
+- *Personal Productivity:* User needs to control which events generate notifications
+-  
+-  
+- *Critical to Design System:* Maintainer wants to ensure compliance with GitLab's design standards
+- *Critical to Design System:* Developer needs to efficiently migrate legacy components to Pajamas-approved alternatives
+- *Critical to Design System:* Maintainer needs to ensure the implementation meets accessibility standards
+- *Design System:* Developer wants to test components for accessibility issues
 
-* In accordance with our [GitLab values](/handbook/values/).
-* Transparently: nearly everything is public, we record/livestream meetings whenever possible.
-* We get a chance to work on the things we want to work on.
-* Everyone can contribute; no silos.
-  * The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
+### Standards of Quality and Completeness
+
+- Systems must meet enterprise SLA expectations for availability and performance as measured by [99.9% Error Budget](#metrics)
+- Features should work consistently across all deployment types (SaaS, Self-hosted, Dedicated)
+- All new and existing features should follow the GitLab Design System
+- Instrumentation should be standardized for aggregation with metrics
+- Removing areas of technical burden / maintenance
+Optimizing areas of high impact
 
 ## OKRs
 
