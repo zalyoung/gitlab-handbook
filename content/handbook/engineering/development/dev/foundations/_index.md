@@ -29,26 +29,31 @@ description: The responsibilities of this stage are described by the [Foundation
 
 ### User Journeys
 
-- *Critical to Homepage and Navigation:* User needs to quickly resume work across multiple projects or groups
-- *Critical to Homepage and Navigation:* User wants to see all their active work items in one place without navigating through multiple pages
-- 
-- 
-- *Critical to Import & Integrate:* Large-Scale Enterprise needs to migrate multiple projects/groups from another platform (GitHub, Bitbucket) or GitLab instance
-- *Critical to Import & Integrate:* Enterprise team member wants to perform migrations at scale with minimal manual intervention
-- *Critical to Import & Integrate:* Enterprise team member requires visibility into migration progress and success/failure status
-- *Critical to Import & Integrate:* Enterprise team member wants to map contributors from source system to appropriate users in destination system
-- 
-- 
-- *Critical to Personal Productivity:* User needs to identify and prioritize items requiring immediate attention
-- *Personal Productivity:* User needs to process multiple notifications efficiently without switching contexts
-- *Personal Productivity:* User wants to reduce the "noise" by pruning unnecessary notifications
-- *Personal Productivity:* User needs to control which events generate notifications
--  
--  
-- *Critical to Design System:* Maintainer wants to ensure compliance with GitLab's design standards
-- *Critical to Design System:* Developer needs to efficiently migrate legacy components to Pajamas-approved alternatives
-- *Critical to Design System:* Maintainer needs to ensure the implementation meets accessibility standards
-- *Design System:* Developer wants to test components for accessibility issues
+- **Critical to Homepage and Navigation:**
+  - User needs to quickly resume work across multiple projects or groups
+  - User wants to see all their active work items in one place without navigating through multiple pages
+
+- **Critical to Import & Integrate:**
+  - Large-Scale Enterprise needs to migrate multiple projects/groups from another platform (GitHub, Bitbucket) or GitLab instance
+  - Enterprise team member wants to perform migrations at scale with minimal manual intervention
+  - Enterprise team member requires visibility into migration progress and success/failure status
+  - Enterprise team member wants to map contributors from source system to appropriate users in destination system
+
+- **Critical to Personal Productivity:**
+  - User needs to identify and prioritize items requiring immediate attention
+
+- **Personal Productivity:**
+  - User needs to process multiple notifications efficiently without switching contexts
+  - User wants to reduce the "noise" by pruning unnecessary notifications
+  - User needs to control which events generate notifications
+
+- **Critical to Design System:**
+  - Maintainer wants to ensure compliance with GitLab's design standards
+  - Developer needs to efficiently migrate legacy components to Pajamas-approved alternatives
+  - Maintainer needs to ensure the implementation meets accessibility standards
+
+- **Design System:**
+  - Developer wants to test components for accessibility issues
 
 ### Standards of Quality and Completeness
 
