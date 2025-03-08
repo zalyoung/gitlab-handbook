@@ -9,14 +9,15 @@ description: The responsibilities of this stage are described by the [Foundation
 - Create a seamless, scalable migration experience for enterprises by optimizing migration pathways (speed, friction), providing clear visibility into migration progress, and reducing manual intervention requirements.
 - Drive operational excellence by optimizing developer workflows, analyzing maintenance burdens, and continuously improving development processes to deliver maximum value with the most efficiency.
 
-
 ### Key Priorities (In Order)
+
 1. Enterprise-grade completeness 
 1. Design System Adoption
 1. Personalized Homepage
 1. Efficiency in migrations
 
 ### Areas of opportunity
+
 - Experience features as Professional Services, the Dedicated team, or customers do to close quality gaps
 - Track user adoption and usage to understand maintenance burden or high priority areas to address
 - Identify components that aren't using the standard Design System and prioritize updates
@@ -27,6 +28,7 @@ description: The responsibilities of this stage are described by the [Foundation
 - 
 
 ### User Journeys
+
 - *Critical to Homepage and Navigation:* User needs to quickly resume work across multiple projects or groups
 - *Critical to Homepage and Navigation:* User wants to see all their active work items in one place without navigating through multiple pages
 - 
