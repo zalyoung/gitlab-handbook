@@ -68,8 +68,8 @@ For a list of active OKRs, [check the OKR project](https://gitlab.com/gitlab-com
 The direction and strategy for Foundations is documented on [https://about.gitlab.com/direction/foundations/](https://about.gitlab.com/direction/foundations/). This page (and the category direction
 pages under the "Categories" header) is the single source of truth on where we're going and why.
 
-* Direction pages should be reviewed regularly by Product. When updating these pages, please CC the relevant group to keep your teammates informed.
-* Product should make sure that their groups understand the direction and have an opportunity to contribute to it. Consider a monthly direction AMA for your group to field questions.
+- Direction pages should be reviewed regularly by Product. When updating these pages, please CC the relevant group to keep your teammates informed.
+- Product should make sure that their groups understand the direction and have an opportunity to contribute to it. Consider a monthly direction AMA for your group to field questions.
 
 ## Career Development
 
@@ -102,10 +102,8 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Shared calendars
 
-1. Foundations: Important Dates - Use this calendar for stage-wide reminders (OKR due dates, promotion cycles, talent assessment timelines, regular holiday preparations)
-  - To add this calendar to your Google Calendar, use this calendar ID `c_kvfbp2t8edtgm4rjialus0834g@group.calendar.google.com`
-1. Foundations Shared - Use this calendar for recurring group level reminders and meetings (Release kickoff, milestone planning, social calls)
-  - To add this calendar to your Google Calendar, use this calendar ID `gitlab.com_k9f27ijja1hj176oncn1e8qqvk@group.calendar.google.com`
+1. Foundations: Important Dates - Use this calendar for stage-wide reminders (OKR due dates, promotion cycles, talent assessment timelines, regular holiday preparations). To add this calendar to your Google Calendar, use this calendar ID `c_kvfbp2t8edtgm4rjialus0834g@group.calendar.google.com`.
+1. Foundations Shared - Use this calendar for recurring group level reminders and meetings (Release kickoff, milestone planning, social calls). To add this calendar to your Google Calendar, use this calendar ID `gitlab.com_k9f27ijja1hj176oncn1e8qqvk@group.calendar.google.com`.
 
 ## Skip Levels
 
