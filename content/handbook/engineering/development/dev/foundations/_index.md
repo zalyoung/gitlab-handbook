@@ -21,7 +21,7 @@ description: The responsibilities of this stage are described by the [Foundation
 - Experience features as Professional Services, the Dedicated team, or customers do to close quality gaps
 - Track user adoption and usage to understand maintenance burden or high priority areas to address
 - Identify components that aren't using the standard Design System and prioritize updates
-- Maintain a 4-quarter technical roadmap that anticipates future scale needs
+- Maintain a [4-quarter technical roadmap](https://data-science-foundations-roadmap-e4062b.gitlab.io/stages/foundations) that anticipates future scale needs
 - 
 - 
 - 
@@ -59,10 +59,10 @@ description: The responsibilities of this stage are described by the [Foundation
 
 - Systems must meet enterprise SLA expectations for availability and performance as measured by [99.9% Error Budget](#metrics)
 - Features should work consistently across all deployment types (SaaS, Self-hosted, Dedicated)
-- All new and existing features should follow the GitLab Design System
+- All new and existing features should follow the [GitLab Design System](https://design.gitlab.com/)
 - Instrumentation should be standardized for aggregation with metrics
 - Removing areas of technical burden / maintenance
-Optimizing areas of high impact
+- Optimizing areas of high impact
 
 ## OKRs
 
