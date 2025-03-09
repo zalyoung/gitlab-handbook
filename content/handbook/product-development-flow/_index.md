@@ -369,10 +369,25 @@ could create significant risks or friction for GitLab users or the platform, suc
 
 ### Experiment features
 
-In addition to the [experiment details](#experiment) for users, experiments should:
+In addition to the [experiment details](#experiment) for users, experiments:
 
-- Offer a way to opt in with minimal friction. For example, needing to flip a feature flag is too much friction,
-  but a group or project setting in the UI is not.
+- Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
+- Are a tool project managers can use to validate their feature, most commonly to validate the **problem**.
+- Are not required, can be skipped and indeed should be skipped if the problem is already validated, for example via user research or other methods.
+- Shouldn’t be used as a way to get feedback on something that is broken.
+- Shouldn’t be used to release a feature early.
+- Not all experiments are expected to become GA.
+- experiments should follow the scientific method and use a templated structure.
+- Have a testable hypothesis you need an answer to with clear success/failure criteria defined in advance.
+  - Design an experiment that has the ability to test that hypothesis.
+  - Run the experiment for the shortest possible time period.
+  - Report the results of the experiment (even if it’s just a few lines).
+  - Decide if the experiment was successful or not and next steps.
+  - Should ideally last only 1-2 milestones.
+- TODO: [DRI needed] Telemetry requirements should be added or linked to here.
+- TODO: [DRI needed] UX requirements for experiment should be added or linked to here.
+- TODO: [DRI needed] Engineering requirements for experiment should be added or linked to here.
+- Offer a way to opt in with minimal friction.
 - Link out to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/) in the opt-in.
 - Have documentation that reflects that the feature is subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/).
 - Have [UI that reflects the experiment status](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions).
@@ -387,14 +402,24 @@ and complete the [experiment section in the readiness template](https://gitlab.c
 
 ### Beta features
 
-In addition to the [beta details](#beta) for users, beta features should:
+In addition to the [beta details](#beta) for users, beta features:
 
-- Not be required or necessary for most features.
+- Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
+- Are a tool project managers can use to validate their feature, most commonly to validate the solution.
+- Should be used when the problem is already validated and we have confidence in the solution but want to verify with customers.
+- Are not required, and can be skipped.
+- Shouldn’t be used as a way to get feedback on something that is broken.
+- Shouldn’t be used to release a feature early.
+- Have a high likelihood of becoming GA.
+- Project managers should consider using the CAB, EAP to recruit beta users.
+- Project managers should consider how external contributors can participate in betas.
+- Project managers running betas should define beta exit criteria, ideally before work begins and after discussion with UX and Engineering.
+- TODO: [DRI needed] Telemetry requirements should be added or linked to here.
+- TODO: [DRI needed] UX requirements for beta should be added or linked to here.
+- TODO: [DRI needed] Engineering requirements for beta should be added or linked to here.
 - Have documentation that reflects the beta status.
 - Have [UI that reflects the beta status](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions).
 - Have a feedback issue to engage with internal and external users.
-- Be behind a feature flag that is on by default.
-- Be behind a toggle that is off by default.
 - Be announced in a release post that reflects the beta status, if desired.
 - Be promoted in the user interface through [discovery moments](https://design.gitlab.com/usability/feature-management/#discovery-moments),
   if needed.
@@ -410,6 +435,19 @@ Publicly available features must:
 1. Meet the [review criteria](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review).
 1. Complete the [Production Readiness Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/).
 1. Complete all sections up to and including the [General availability section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#general-availability).
+1. TODO: [DRI needed] Terms and conditions (or other agreements and legal) added or linked here.
+1. TODO: [DRI needed] Telemetry requirements added or linked to here.
+1. TODO: [DRI needed] Audit event requirements added or linked to here.
+1. TODO: [DRI needed] Geo (disaster recovery) required added or linked to here.
+1. TODO: [DRI needed] SLA added or linked to here.
+1. TODO: [DRI needed] Support level customers can expect added or linked to here.
+1. TODO: [DRI needed] Security requirements added or linked to here.
+1. TODO: [DRI needed] Information on level and number of known bugs allowed added or linked to here.
+1. TODO: [DRI needed] Scalability requirements added or linked to here.
+1. TODO: [DRI needed] Availability requirements added or linked to here.
+1. TODO: [DRI needed] UX requirements added or linked to here.
+1. TODO: [DRI needed] Future deprecation commitments added or linked to here.
+1. TODO: [DRI needed] Readiness as a platform (API, etc) information added or linked to here.
 
 ### Provide earlier access
 
