@@ -3,7 +3,7 @@ title: Service accounts as the core machine identity
 status: proposed
 creation-date: "2025-02-19"
 authors: [ "@ifarkas", "@bdenkovych", @dblessing" ]
-#coaches: [ "@tbd" ]
+#coaches: [ "@grzesiek" ]
 dris: [ "@hsutor", "@adil.farrukh" ]
 owning-stage: "~devops::govern"
 participating-stages: []
