@@ -2,7 +2,7 @@
 title: Service accounts as the core machine identity
 status: proposed
 creation-date: "2025-02-19"
-authors: [ "@dblessing" ]
+authors: [ "@ifarkas", "@bdenkovych", @dblessing" ]
 #coaches: [ "@tbd" ]
 dris: [ "@hsutor", "@adil.farrukh" ]
 owning-stage: "~devops::govern"
@@ -77,7 +77,7 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-GitLab currently supports more than 10 different bot user account types, each managed by different teams with inconsistent permission policies and authentication methods. This fragmentation creates challenges in ownership clarity, potential security vulnerabilities, customer visibility issues, and significant maintenance overhead. This proposal establishes service accounts as the core machine identity. Service accounts provide capabilities similar to regular users while enforcing important security constraints like UI sign-in restrictions and implementing streamlined permission policies.
+GitLab currently supports more than 10 different bot user account types, each managed by different teams with inconsistent permission policies and authentication methods. This fragmentation creates challenges in ownership clarity, potential security vulnerabilities, customer visibility issues, and significant maintenance overhead. This proposal establishes service accounts as the core machine identity. Service accounts provide capabilities similar to regular users while enforcing important security constraints like UI sign-in restrictions and implementing streamlined permission policies. As part of this excercise, we would also need to ensure service accounts can be introduced on the free tier of GitLab with appropriate abuse prevention controls.
 
 ## Motivation
 
@@ -97,6 +97,7 @@ A consolidated approach to machine identities through service accounts will:
 1. Create migration paths for existing bot user types
 1. Simplify permission policies for machine identities
 1. Develop a revised monetization strategy for service accounts in collaboration with product teams
+2. Bring service accounts to GitLab Free tier with appropriate abuse prevention controls
 
 ## Proposal
 
