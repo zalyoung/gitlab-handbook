@@ -190,7 +190,7 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 1. Provide the IAM principal to the Environment Automation team.
 1. Provide the name of the S3 bucket to the customer.
 
-### Filing Request for Help issues
+### Filing issues
 
 In cases where Customer Support need to interact with Dedicated engineers to gather information or debug a problem at tenant's request (when Grafana or OpenSearch do not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated). 
 
