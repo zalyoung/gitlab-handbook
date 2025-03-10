@@ -110,6 +110,7 @@ Renewal Sales team members can generate multiple temporary extensions for eligib
 - Self Managed customers may have to manually apply their activation code or license key upon successful renewal if it does not appear automatically on their instance [Some instances may block the sync of renewed license key if the temporary extension is still active].
 
 **Internal documentation**
+
 - Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173) and [here](https://gitlab.com/groups/gitlab-org/-/epics/16570), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/16570#extension-timeline) of subscription events related to the temporary renewal extensions.
 
 Please share your feedback with Fulfillment team [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/new)
