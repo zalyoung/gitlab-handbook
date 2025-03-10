@@ -67,7 +67,7 @@ As with any method, the LoRA method comes with its advantages and limitations. _
 **Advantages:**
 
 1) Training an adapter requires less memory and is much more time-efficient than full-model fine-tuning
-2) The model's size would be in 100s of megabytes rather than 100s of gigabytes.
+2) The adapter's size would be in 100s of megabytes rather than 100s of gigabytes, simplifying storage and enabling easier use of multiple adapters, though the base model is still needed.
 3) Hosting and switching between different adapters is usually a low-latency procedure
 
 **Limitations:**
@@ -127,7 +127,7 @@ The fine-tuning pipeline would then deploy an instance of the fine-tuning servic
 - Adapter Training
 - Evaluation
 
-The fine-tuning service would be provided using Docker.
+The fine-tuning service would be provided as a Docker image.
 
 The container will be published in the GitLab.com Container Registry and DockerHub regularly.
 
@@ -135,7 +135,7 @@ The container will be published in the GitLab.com Container Registry and DockerH
 
 Once the fine-tuning pipeline is triggered and service has been deployed, it would start with preparing the data.
 
-The Data Preparation step of a pipeline would process the provided by the customer repository(es), constructing a training and validation dataset out of it and storing them on the hard disk based on the provided configuration. The data could be stored either locally or on third-party storage solution (i.e. AWS S3), as long as it is supported and accessible by the fine-tuning service. To speed up training data will be encoded and stored in the vector format.
+The Data Preparation step of the pipeline would process the data provided by the selected repositories, constructing both a training and a validation dataset out of it and storing them on the hard disk based on the provided configuration. The data could be stored either locally or on third-party storage solution (i.e. AWS S3), as long as it is supported and accessible by the fine-tuning service. To speed up training, data will be encoded and stored in vector format.
 
 At the initial version of the service we will support local storage and AWS S3.
 
