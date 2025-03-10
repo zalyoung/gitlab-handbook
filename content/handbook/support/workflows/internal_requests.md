@@ -82,7 +82,6 @@ At times, users require an increase to the size limit of their repository as a w
 
 In both cases, the limit can be temporarily increased:
 
-
 1. Open an issue in the **[internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues)** issue tracker using the `Repo Size Limit` issue template.
     - If you do not have GitLab.com admin access, add the `Admin escalation` label. If needed, post in the `#support_gitlab-com` Slack channel for attention on it.
 1. If a request is for a free user namespace or to work around a bug issue:
