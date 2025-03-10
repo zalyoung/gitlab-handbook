@@ -80,7 +80,7 @@ We recommend these general timelines for completion based on your level to enabl
 
 - E-Group Skips and below (e.g. Managers, Sr. Managers, Directors, Senior Directors that report into E-Group direct reports): 2025-03-10 to 2025-03-13 EOD PT
 - E-Group Directs (e.g. Senior Directors, VPs that report directly into E-Group leaders): 2025-03-14 to 2025-03-18 EOD PT
-- E-group review/approval: 2025-03-20 to 2025-03-26 EOD PT
+- E-group review/approval: 2025-03-19 to 2025-03-26 EOD PT
 
 Additional due dates and touchpoints in the process after the manager review portion closes: 
 
