@@ -47,15 +47,15 @@ Read the ["What to know about a fake job scam impersonating GitLab"](https://abo
 
 Team members are eligible for a laptop refresh, no questions asked, after 3 years of active use. The 3-year period:
 
- * Begins when a team member starts actively using their assigned laptop, not necessarily when it was first received
- * Resets when a replacement laptop is issued due to damage, malfunction, or other circumstances
- * Is based on the device's usage period, not the team member's employment duration
+* Begins when a team member starts actively using their assigned laptop, not necessarily when it was first received
+* Resets when a replacement laptop is issued due to damage, malfunction, or other circumstances
+* Is based on the device's usage period, not the team member's employment duration
 
 If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
 
 Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade) to request a laptop refresh.
 
-The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](https://handbook.gitlab.com/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
+The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
 
 After 3 years of use, the team member may retain the old laptop after it has been wiped at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), as well as other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
 
@@ -99,25 +99,26 @@ If you are a hiring manager or member of the hiring/recruiting team, you may che
 
 Minimum processing time for laptop orders before shipping. Some countries may take longer due to required documentation for delivery.
 
-- US/Canada New Hires - 2 weeks (Apple) and 5 weeks (Linux)
-- EMEA/APAC New Hires - 2 weeks (Apple) and 5 weeks (Linux)
-- Other Regions - 3 weeks (Apple) and 9 weeks (Linux)
+* US/Canada New Hires - 2 weeks (Apple) and 5 weeks (Linux)
+* EMEA/APAC New Hires - 2 weeks (Apple) and 5 weeks (Linux)
+* Other Regions - 3 weeks (Apple) and 9 weeks (Linux)
 
 ### Key Performance Indicators
 
 KPI 90% of laptops will arrive prior to start date or 21 days from the date of order.
 
-### Laptops Out of Spec
+### Exception Processes
 
-If a requested laptop is outside the standardized specifications listed [here](#apple-hardware) approval will be required from the team member's manager as well as [Michael Beltran's](/handbook/company/team/#mbeee), or [Mic Rohr's](https://about.gitlab.com/company/team/#mic_rohr) before IT will purchase the laptop.
+#### Laptops Out of Spec
 
-### Exceptions
+If a requested laptop is outside the standardized specifications listed [here](#apple-hardware), approval will be required from the team member's manager as well as the Device Logistics Team before IT will purchase the laptop. Once your manager has approved, please tag `@gitlab-com/gl-security/corp/logistics` for logistics approval. 
+
 
 #### Self procurement
 
 **Cost will not be covered by GitLab without proper approval**
 
-IT approval is required for self procurement of laptops. Self procurement is only available if you are in a region where we are not able to have a laptop delivered. If the team member desires financial assistance to purchase the hardware, the Company can advance the funds to help facilitate the purchase. See the handbook page for [Temporary Advances](https://handbook.gitlab.com/handbook/finance/expenses/#team-member-expense-temporary-advances). For current team members, please obtain two quotes from local retailers (online or physical) and include them in the refresh/replacement issue.
+IT approval is required for self procurement of laptops. Self procurement is only available if you are in a region where we are not able to have a laptop delivered. If the team member desires financial assistance to purchase the hardware, GitLab can advance the funds to help facilitate the purchase. See the handbook page for [Temporary Advances](/handbook/finance/expenses/#team-member-expense-temporary-advances). For current team members, please obtain two quotes from local retailers (online or physical) and include them in the refresh/replacement issue.
 
 IT must verify the laptop specs and cost before approval is given. The created issue will be verified by the AP team to release funds.
 
@@ -127,7 +128,7 @@ If you are in need of a additional device, have a business justification, have m
 
 #### Use of Personal Laptop
 
-We do not allow personal laptops to be used for GitLab work. If a laptop is not be available to a new GitLab team member upon their start date, it is permissable for them to temporarily use a personal macOS or Linux laptop.
+We do not allow personal laptops to be used for GitLab work. If a laptop is not available to a new GitLab team member upon their start date, it is permissable for them to temporarily use a personal macOS or Linux laptop.
 
 #### Laptop exceptions not listed
 
@@ -149,9 +150,9 @@ NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased
 
 Chipset specifications not listed as they will vary based on current inventory levels.
 
-- MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
-- MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
-- MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
+* MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
+* MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
+* MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
 
 Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro performance model. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
 
@@ -163,7 +164,7 @@ IT strongly encourages team members to select Macs; please only request a Linux 
 
 **Below are roles that qualify for Linux Laptops**
 
-- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5690 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [16" display/1TB SSD/32 GB of RAM/Intel Core CPU](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp).
+* Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5690 line. Due to supply constraints, specific models available from these lines may vary. IT will work with each person to find an available model meeting the following specifications: [16" display/1TB SSD/32 GB of RAM/Intel Core CPU](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp).
 
 \*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
 
@@ -171,14 +172,14 @@ Our **only approved Linux laptop vendor at this time is Dell**. These laptops ge
 
 Dell is GitLab's exclusive Linux vendor for the following reasons:
 
-- Dell has the longest history of shipping laptops with Linux pre-installed among major manufacturers.
-- Dell is able to ship laptops to all countries in which GitLab employees live.
-- As we move forward with Zero Trust networking solutions, we need to have a stable and unified platform for deployment of software components in the GitLab environment.
+* Dell has the longest history of shipping laptops with Linux pre-installed among major manufacturers.
+* Dell is able to ship laptops to all countries in which GitLab employees live.
+* As we move forward with Zero Trust networking solutions, we need to have a stable and unified platform for deployment of software components in the GitLab environment.
     Standardization on a single platform for Linux simplifies this.
-- The current Ubuntu LTS is the preferred Linux platform; Ubuntu LTS has a record of stability and quick patching.
-- Purchasing laptops from a single vendor opens the possibility of corporate discounts.
-- [Dell is a certified Ubuntu vendor](https://certification.ubuntu.com/desktop/models?query=&category=Desktop&category=Laptop&level=&release=18.04+LTS&vendors=Dell) with multiple laptop choices available. They even have their own Ubuntu OEM release of Ubuntu they maintain, and as a result of their effort, the standard Ubuntu Linux 20.04 LTS image natively supports Dell hardware and even firmware updates.
-- To date, all of Dell's major security issues have not been related to their hardware.
+* The current Ubuntu LTS is the preferred Linux platform; Ubuntu LTS has a record of stability and quick patching.
+* Purchasing laptops from a single vendor opens the possibility of corporate discounts.
+* [Dell is a certified Ubuntu vendor](https://certification.ubuntu.com/desktop/models?query=&category=Desktop&category=Laptop&level=&release=18.04+LTS&vendors=Dell) with multiple laptop choices available. They even have their own Ubuntu OEM release of Ubuntu they maintain, and as a result of their effort, the standard Ubuntu Linux 20.04 LTS image natively supports Dell hardware and even firmware updates.
+* To date, all of Dell's major security issues have not been related to their hardware.
 
 Laptops are purchased by GitLab IT during a team member's onboarding process; the team member will be sent a form to fill out for ordering.
 
@@ -186,7 +187,7 @@ Laptops are purchased by GitLab IT during a team member's onboarding process; th
 
 While GitLab limits the Laptop Hardware OSes supported for team member daily work, specific roles will need to use Windows for Customer Support and Product Development to ensure excellent platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
 
-Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/it/end-user-services/onboarding-access-requests/endpoint-management/edr/) as well all information in this section.
+Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/security/corporate/systems/sentinelone/) as well all information in this section.
 
 Complete details about Windows usage is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
 
@@ -239,11 +240,11 @@ New laptops should be configured with security in mind.
 We require the use of an @gitlab.com Apple ID that is separate from any personal Apple ID's you may have.
 Some of these reasons include:
 
-- Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
-- 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
-- Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
+* Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
+* 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
+* Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
 
-Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/#best-practices) when configuring your new laptop.
+Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/services/laptops/security/) when configuring your new laptop.
 
 **All team members must provide proof of whole disk encryption within the new laptop order issue.**
 
@@ -313,10 +314,10 @@ If you would like a more detailed view of what has been completed and what will 
 In an effort to secure access to systems, GitLab is utilizing Okta.
 The key goals are:
 
-- We can use Okta to enable Zero-Trust based authentication controls upon our assets, so that we can allow authorized connections to key assets with a greater degree of certainty.
-- We can better manage the login process to the 80+ and growing cloud applications that we use within our tech stack.
-- We can better manage the Provisioning and De-provisioning process for our users to access these application, by use of automation and integration into our HRIS system.
-- We can make Trust and Risk based decisions on authentication requirements to key assets, and adapt these to ensure a consistent user experience.
+* We can use Okta to enable Zero-Trust based authentication controls upon our assets, so that we can allow authorized connections to key assets with a greater degree of certainty.
+* We can better manage the login process to the 80+ and growing cloud applications that we use within our tech stack.
+* We can better manage the Provisioning and De-provisioning process for our users to access these application, by use of automation and integration into our HRIS system.
+* We can make Trust and Risk based decisions on authentication requirements to key assets, and adapt these to ensure a consistent user experience.
 
 To read more about Okta, please visit the [Okta](/handbook/it/okta/) page of the handbook.
 
@@ -324,8 +325,8 @@ To read more about Okta, please visit the [Okta](/handbook/it/okta/) page of the
 
 To provide proof of Full Disk Encryption, please do the following depending on the system you are running.
 
-- Apple : Evidence is automatically gathered in Jamf. No user action necessary.
-- Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
+* Apple : Evidence is automatically gathered in Jamf. No user action necessary.
+* Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
 
 ### Fleet Intelligence & Remote Lock/Wipe
 
@@ -347,30 +348,29 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 
 #### These are the steps that follow immediately upon termination of a team-member
 
-- The former team-member (FTM) is removed from all Google groups
-- The former team-member (FTM) is locked from access to their laptop
-- The former team-member (FTM) is removed from access to all GitLab provisioned services linked to their Okta account
-- The former team-member (FTM) is removed from access to all GitLab provisioned services not linked to their Okta account
-- Unless there is a legal hold on their laptop, the laptop is securely wiped
-- The FTM's manager is setup as a delegate to their Gmail and Google Calendar
-- The FTM's manager gains editor privileges to all "My Drive" Google Drive Files
-- The FTM's account is moved to the Former Team Members OU
-- Remove the FTM account from the Global Address List
-- All of the account's sign in cookies/sessions are cleared and the account password is reset to a random 64 character password
-- The account's recovery email is set to null
-- The account's recovery phone number is set to null
-- The FTM's auto-response email message is setup.
+* The former team-member (FTM) is removed from all Google groups
+* The former team-member (FTM) is locked from access to their laptop
+* The former team-member (FTM) is removed from access to all GitLab provisioned services linked to their Okta account
+* The former team-member (FTM) is removed from access to all GitLab provisioned services not linked to their Okta account
+* Unless there is a legal hold on their laptop, the laptop is securely wiped
+* The FTM's manager is setup as a delegate to their Gmail and Google Calendar
+* The FTM's manager gains editor privileges to all "My Drive" Google Drive Files
+* The FTM's account is moved to the Former Team Members OU
+* Remove the FTM account from the Global Address List
+* All of the account's sign in cookies/sessions are cleared and the account password is reset to a random 64 character password
+* The account's recovery email is set to null
+* The account's recovery phone number is set to null
+* The FTM's auto-response email message is setup.
 
 #### These are the steps that follow after the Former Team Member has been gone for 90 days
 
-- All of the former team-member (FTM) aliases are removed
-- Archive of all Google Drive files in the users My Drive that are marked as owner
-- These are saved in the Offboarded Users Drive Archive
-- Each user has their own folder in the following format
-- <emailUsername>_google_drive
-- The FTM's account is suspended
-- The FTM's account will be moved to NoGSuiteLicense OU
-- The Google Workspace License is removed from the account
+* All of the former team-member (FTM) aliases are removed
+* Archive of all Google Drive files in the users My Drive that are marked as owner
+* These are saved in the Offboarded Users Drive Archive
+* Each user has their own folder in the following format `<emailUsername>_google_drive`
+* The FTM's account is suspended
+* The FTM's account will be moved to NoGSuiteLicense OU
+* The Google Workspace License is removed from the account
 
 #### The following notifications will be sent out to the FTM's manager and IT over Slack
 
@@ -402,4 +402,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
+* [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
