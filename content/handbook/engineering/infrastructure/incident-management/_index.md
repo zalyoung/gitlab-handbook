@@ -260,7 +260,7 @@ Occasionally we encounter multiple incidents at the same time. Sometimes a singl
 
 When there are multiple incidents and you decide that additional incident manager help is required, take these actions:
 
-1. Post a slack message in #im-general as well as #incident-management asking for additional Incident Manager help.
+1. Post a slack message in #im-general as well as #incidents asking for additional Incident Manager help.
 1. If your ask is not addressed via slack, escalate to  [Infrastructure Leadership](https://gitlab.pagerduty.com/service-directory/PJKOEIS) in PagerDuty.
 
 If a second incident zoom is desired, choose which incident will move to the new zoom and create a new meeting in zoom.  Be sure to edit the channel topic of the incident slack channel to indicate the correct zoom link.
@@ -277,7 +277,7 @@ If assistance is needed to determine severity, EOCs and Incident Managers are en
 A page will be escalated to the Incident Manager (IM) if it is not answered by the Engineer on Call (EOC).
 This escalation will happen for all alerts that go through PagerDuty, which includes lower severity alerts.
 It's possible that this can happen when there is a large number of pages and the EOC is unable to focus on acknowledging pages.
-When this occurs, the IM should reach out in Slack in the `#incident-management` channel to see if the EOC needs assistance.
+When this occurs, the IM should reach out in Slack in the `#incidents` channel to see if the EOC needs assistance.
 
 Example:
 
@@ -415,7 +415,7 @@ _Incident Declaration Slack window_
 
 _Incident Declaration Results_
 
-As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. The "woodhouse" bot will post links to all of these resources in the main `#incident-management` channel. Please note that unless you're an SRE, you won't be able to post in `#incident-management` directly. Please join the dedicated Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
+As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the main `#incidents` channel. Please note that unless you're an SRE, you won't be able to post in `#incidents` directly. Please join the dedicated Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
 
 ### Report an Incident via Email
 
@@ -490,9 +490,9 @@ Furthermore, avoiding information overload is necessary to keep every stakeholde
 To that end, we will have:
 
 
-1. a dedicated Zoom call for all incidents. A link to the Zoom call can be found in the topic for the [`#incident-management`](https://gitlab.slack.com/archives/incident-management) room in Slack.
+1. a dedicated Zoom call for all incidents. A link to the Zoom call can be found in the incident Slack channel posted in [`#incidents`](https://gitlab.slack.com/archives/incidents) channel.
 1. a Google Doc as needed for multiple user input based on the [shared template](https://docs.google.com/document/d/1NMZllwnK70-WLUn_9IiiyMWeXs-JKPEiq-lordxJAig/edit#)
-1. a dedicated [`#incident-management`](https://gitlab.slack.com/archives/incident-management) channel for internal updates
+1. a dedicated [`#incidents`](https://gitlab.slack.com/archives/incidents) channel for internal updates
 1. regular updates to status.gitlab.com via status.io that disseminates to various media (e.g. Twitter)
 1. a dedicated repo for issues related to [Production](https://gitlab.com/gitlab-com/production) separate from the queue that holds Infrastructure's workload: namely, issues for incidents and changes.
 
@@ -500,7 +500,7 @@ To that end, we will have:
 
 We manage incident [communication](#communication) using status.io, which updates [status.gitlab.com](https://status.gitlab.com). Incidents in status.io have **state** and **status** and are updated by the incident owner.
 
-To create an incident on status.io, you can use `/incident post-statuspage` on Slack.
+To create an incident on status.io, you can use `/woodhouse incident post-statuspage` on Slack.
 
 #### Status during Security Incidents
 
