@@ -674,7 +674,7 @@ Below is some more information to help you get set up with your [Navan](https://
 
 ### Navan Loyalty Program
 
-- Travelers earn Navan Loyalty Points s when booking hotels in Navan.
+- Travelers earn Navan Loyalty Points when booking hotels in Navan.
 - Users who book hotels for others will also earn loyalty points.
 - The Navan Loyalty Program is visible in the platform, with a new loyalty program profile page to track your earn and redemption activity. Team members are able to redeem loyalty points for personal travel hotels. Users can redeem as little or as many loyalty points as desired - they can pay partially with loyalty points  and partially with a personal credit card if team members don't have enough loyalty points  to cover the full cost of the booking. Loyalty Points will be a form of payment on checkout when selecting a prepaid hotel rate.
 - All loyalty points  can be retained by a user when they leave their company by activating a personal-only account. Companies cannot take back earned rewards.
