@@ -63,16 +63,15 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 ### Engagement Models
 
-1. [Request a TPRM Review](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#independent-assessments)
+1. [Request a TPRM Review](/handbook/security/security-assurance/security-risk/third-party-risk-management/#independent-assessments)
 1. [Report Security Operational Risk](/handbook/security/security-assurance/security-risk/storm-program/#communication-of-risks-to-the-security-risk-team)
 1. In GitLab, tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
 
-### Communication Channels
+### Communication Channels{#contact}
 
 1. <i class="fas fa-envelope fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Email: `securityrisk@gitlab.com`
 1. <i class="fab fa-slack fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Slack: [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team) - Mention `@security-risk`
-1. <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
-  - Mention `@security-risk`
+1. <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team` - Mention `@security-risk`
 
 #### Team Members{#team-members}
 
@@ -104,7 +103,10 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 This charter will be reviewed and updated quarterly to ensure alignment with:
 
-1. [Security Division Mission and Vision](https://handbook.gitlab.com/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
-1. [Security's Mui] 
+1. [GitLab Strategy](/handbook/company/strategy/)
+1. [Security Division Mission and Vision](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
+1. [Security's Multi-year Strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal only)
+1. [Security Assurance Mission and Vision](https://handbook.gitlab.com/handbook/security/security-assurance/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-assurance-mission-and-vision)
+1. [Security Assruance Multi-year Strategy](#)
 
 Next scheduled review: [Date]
