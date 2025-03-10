@@ -37,6 +37,10 @@ Our top-level metrics are:
 
 - [Digital Strategy handbook](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
 
+### Digital Success
+
+- [Digital Success handbook](/handbook/customer-success/digital-success/)
+
 ### Demo Systems
 
 - [Demo Systems documentation](/handbook/customer-success/demo-systems/)
