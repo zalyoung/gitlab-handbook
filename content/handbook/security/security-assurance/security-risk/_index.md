@@ -17,8 +17,6 @@ We perform efficient risk assessments and support risk reduction so that GitLab 
 
 ## Core Competencies
 
----
-
 ### Security Operational Risk Management (StORM) Program{#storm}
 
 The Security Risk team manages an integrated [Operational Risk Management](/handbook/security/security-assurance/security-risk/storm-program/) program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our quarterly [Objectives and Key Results (OKRs)](/handbook/company/okrs/). Visit the [StORM Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/) handbook page for additional details, including a quick introduction to Risk Management at GitLab as well as information about the purpose, scope, and specific procedures executed as part of the program.
@@ -38,8 +36,6 @@ The [Business Impact Analysis](/handbook/security/security-assurance/security-ri
 ### Asset Inventory Maintenance{#asset-inventory}
 
 Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities).
-
----
 
 ## Operating Model
 
@@ -94,7 +90,7 @@ Establishing a complete and accurate inventory of assets is key to the success o
 | # | Objective | Key Deliverables | Timeline | Success Criteria |
 |:-:| :-------- | :--------------- | :------: | :--------------- |
 | 1 | Enhance our Acceptable Use Policy Program | | | |
-| 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. via documentation standards<br>-Scalable management of issues/recs. to improve adoption | In progress<br>Target Completion: Q3 |  |
+| 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. via documentation standards<br>- Scalable management of issues/recs. to improve adoption | In progress<br>Target Completion: Q3 |  |
 | 3 | Post-Implementation Control Assessment | | | |
 | 4 | Corp and Product Disaster Recovery Planning and Governance | | | |
 | 5 | Update Security Assurance KPIs | | | |
