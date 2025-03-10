@@ -3,11 +3,16 @@ title: "Security Risk Team"
 description: "Security Risk Team"
 ---
 
-## Security Risk Mission{#security-risk-mission}
+## Security Risk Team Charter
+Last Updated: 2025-MM-DD (UPDATE BEFORE MERGE)
 
+## Mission Statement
 To drive security risk treatment at GitLab by empowering teams to make informed and intelligent [decisions](/handbook/leadership/making-decisions/#making-decisions) through proactive identification, monitoring, prioritization, and reporting of security risks.
 
-## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies{#core-competencies}
+## Value Proposition
+We provide (specific capabilities) so that (stakeholders) can (achieve specific outcomes) while maintaining (security/compliance requirements).
+
+## Core Competencies
 
 ---
 
@@ -39,6 +44,39 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 ---
 
+## Operating Model
+
+## Success Metrics
+| **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Top 5 Risk Reduction over Time| The Top 5 risks represent the top 5 security risks to GitLab the company. These risks need to be reduced and managed effectively to reduce the likelihood of a signficant security incident | Risk scores are calculated based on impact and likelihood. | Risks are considered in tolerance with a risk score of 10 or below. | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/Top5RiskReductionOverTime/Top5RiskReductionoverTimeDashboard)| n/a|
+
+## FY26 Strategic Initiatives
+### Core Processes
+|Function     |DRI|
+|:----------:|:----------:|
+|[Annual Risk Assessment](/handbook/security/security-assurance/security-risk/storm-program/#storm-procedures)     |Kyle Smith|
+|[Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)     |Nirmal Devarajan|
+|[New System Additions to Tech Stack and Post-Implementation Checks](/handbook/business-technology/tech-stack-applications/)     |Nirmal Devarajan|
+|[Critical System Tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#designating-critical-system-tiers)     |Kyle Smith|
+|[Ongoing SecRisk-Related Observations Management](/handbook/security/security-assurance/observation-management-procedure/)     |Nirmal Devarajan|
+|[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
+|[Ongoing TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Ryan Lawson|
+|[Periodic SOX CUEC Facilitation](/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/)     |Eric Geving|
+|[Periodic TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Eric Geving|
+|TPRM Data Quality and Emerging Requirements Management | Eric Geving |
+|[StORM Metrics and Reporting](storm-program#step-5-annual-storm-reports)     |Kyle Smith|
+|TPRM Metrics and Reporting     |Ryan Lawson|
+|TPRM Application Integrations  |Ryan Lawson|
+### Engagement Models
+- <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
+### Communication Channels
+- <i class="fas fa-envelope fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Email: `securityrisk@gitlab.com`
+- <i class="fab fa-slack fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Slack: [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
+  - Mention `@security-risk`
+
+
+
 ## Team Members{#team-members}
 
 |Team Member|Role|
@@ -55,21 +93,7 @@ While the [DRI](/handbook/people-group/directly-responsible-individuals/#charact
 
 DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/culture/all-remote/handbook-first/) to their project(s) and challenging existing processes for [efficiency](/handbook/values/#efficiency).
 
-|Function     |DRI|
-|:----------:|:----------:|
-|[Annual Risk Assessment](/handbook/security/security-assurance/security-risk/storm-program/#storm-procedures)     |Kyle Smith|
-|[Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)     |Nirmal Devarajan|
-|[New System Additions to Tech Stack and Post-Implementation Checks](/handbook/business-technology/tech-stack-applications/)     |Nirmal Devarajan|
-|[Critical System Tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#designating-critical-system-tiers)     |Kyle Smith|
-|[Ongoing SecRisk-Related Observations Management](/handbook/security/security-assurance/observation-management-procedure/)     |Nirmal Devarajan|
-|[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
-|[Ongoing TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Ryan Lawson|
-|[Periodic SOX CUEC Facilitation](/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/)     |Eric Geving|
-|[Periodic TPRM Assessments](/handbook/security/security-assurance/security-risk/third-party-risk-management/)     |Eric Geving|
-|TPRM Data Quality and Emerging Requirements Management | Eric Geving |
-|[StORM Metrics and Reporting](storm-program#step-5-annual-storm-reports)     |Kyle Smith|
-|TPRM Metrics and Reporting     |Ryan Lawson|
-|TPRM Application Integrations  |Ryan Lawson|
+
 
 ## Contact the Team{#contact}
 
