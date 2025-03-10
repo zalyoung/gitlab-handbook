@@ -139,4 +139,9 @@ Finally we will work to get your GitLab swag sent over soon!
 
 ## Sending MVP Rewards
 
-After selecting the MVP and working through the [the workflow for selecting MVPs](#workflow-for-selecting-gitlab-mvp), award 150 contributor store credits to the MVP via [contributors.gitlab.com/rewards](https://contributors.gitlab.com/rewards). 
+After selecting the MVP and working through the [the workflow for selecting MVPs](#workflow-for-selecting-gitlab-mvp):
+
+1. Visit [contributors.gitlab.com/rewards](https://contributors.gitlab.com/rewards)
+1. Issue 150 contributor store credits to their username (if multiple winners, each winner gets 150 credits)
+1. Select the "Notable contributor (MVP)" option from the Reason dropdown
+1. Include an optional thank you note or link to the release post
