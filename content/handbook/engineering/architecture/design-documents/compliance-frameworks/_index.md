@@ -467,10 +467,12 @@ flowchart TD
     EXT --> PEND[Set control to pending state]
     PEND --> WAIT{Wait max 30 minutes}
     WAIT -->|No reply| FAIL[Default to failed]
+    FAIL --> S
     WAIT -->|Got reply| REPLY[Use reply status]
 
     FAIL --> Q
     REPLY --> Q
+    REPLY -->|Fail| S
 
     J -- Yes --> M[Check setting/policies configured correctly]
     J -- No --> N[Evaluate Control compliance]
