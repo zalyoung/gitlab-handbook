@@ -5,10 +5,10 @@ description: "Learn about Patents and GitLab's Patent Program"
 
 ## Why patents matter?
 
-Patent protection for inventions offers several benefits.
+Patent protection for inventions offers several benefits:
 
 - For **customers**, it signals that they're partnering with an innovative company, that is committed to solving complex technical problems. 
-- For **individual team members**, appearing as a named inventor on a published patent is a significant achievement and something that provides tangible evidence of team members' creative contributions to GitLab and emphasizes GitLab's [focus on results for customers](/handbook/values/#results).
+- For **individual team members**, appearing as a named inventor on a published patent is a significant achievement and provides tangible evidence of team members' creative contributions to GitLab and emphasizes GitLab's [focus on results for customers](/handbook/values/#results).
 - For **GitLab**, building a portfolio of patents helps increase our profile as innovators in the DevOps space. Furthermore,
 
   - Patents are valuable assets, and an investment in building a patent portfolio can increase value for shareholders.
@@ -88,7 +88,7 @@ Follow the guidelines below related to the discussion of inventions, treatment o
 | Rejected patents. This includes disclosed inventions and improvements that are determined to not qualify for patent protection as communicated by LACA.  | Open source or source available as appropriate. | The rejected patent may be discussed publicly.                                                                                                             | Software can be licensed under the EE or MIT license with no additional considerations required from a patent perspective.  |
 
 If you have any questions or concerns, reach out to #legal.
-For guidance on how to review third-party patent functionality, visit the [Guidelines for reviewing third-party patents](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/#guidelines-on-reviewing-third-party-patents) (accessible to GitLab team members only).
+For guidance on how to review third-party patent functionality, visit the [Guidelines for reviewing third-party patents](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/#guidelines-for-use-of-third-party-services-for-competitor-benchmarking) (accessible to GitLab team members only).
 
 ### Conditions of participation
 
