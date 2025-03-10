@@ -136,7 +136,7 @@ Marketo landing page tokens
 - {{my.speaker2JobTitle}}
 - {{my.speaker2Company}}
 
-## Users have the option of starting event creation within either platform. 
+## Users have the option of starting event creation within either platform
 
 ### Event Creation within Goldcast 
 
@@ -170,13 +170,13 @@ Once the Goldcast event and Marketo program are connected the Marketo program to
 
 When the Goldcast event and Marketo program are connected, Goldcast will automatically change the program status for all members without the need for a smart campaign. However, processing smart campaigns are still needed for other data appending needs:
 
-#### Smart campaigns for Marketo landing page based registration:
+### Smart campaigns for Marketo landing page based registration
 
 - `01a Marketo Form Registration`: This smart campaign **must** be active for Marketin LP registrations. Without this smart campaign, registrants will not be added to the Goldcast event and will not receive a registration confirmation email. Once the event is over, turn this smart campaign off
 - `01c Marketo Form Fill Waitlist`: If registration has maxed out for the event, deactivate the `Registration` smart campaign and turn this one on to add regsitrants to the waitlist
 - `01e Waitlist to Registered`: If you plan to change registrants who are currently listed as `Waitlisted` to `Registered`, turn this smart campaign on first. It refreshes the `Interesting Moment` and calls the Goldcast webhook 
 
-#### Additional smart campaigns
+### Additional smart campaigns
 
 - `02 Goldcast Form Registration and Live`: Goldcast automatically changes program statuses when events and Marketo programs are connected. This smart campaign watches for program status changes for `Attended`, `No Show`, `Canceled`, `Rejected`, `Waitlisted` and `Registered`. If the event's registration is started on a Goldcast landing page, this smart campaign needs to be turned on immediately and before invite emails are sent out to invitees. This smart campaign needs to be active before the event, regardless of registration landing page location
 - `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing
