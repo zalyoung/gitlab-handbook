@@ -111,7 +111,7 @@ Responses are aimed to be timely, with a general target of a few days at most. T
 
 ### Process Guidelines
 
-* DRI maintain's ownership of cases they begin during their rotation, even after the rotation ends
+* DRI maintains ownership of cases they begin during their rotation, even after the rotation ends
 * DRI focuses solely on new incoming cases
 * Questions requiring specific expertise will be redirected to appropriate team members - when in doubt, seek assistance from the initiative's maintainers.
 
