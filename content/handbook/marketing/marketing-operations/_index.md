@@ -403,7 +403,8 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [OneTrust](/handbook/marketing/digital-experience/onetrust/) (DEX)
 - [RingLead](/handbook/marketing/marketing-operations/ringlead/)
 - Integrate DAP (Digital Strategy - Campaigns)
-- [Mutiny](/handbook/marketing/marketing-operations/mutiny )
+- [Mutiny](/handbook/marketing/marketing-operations/mutiny)
+- [JiffleNow](/handbook/marketing/marketing-operations/jifflenow/)
 
 #### Management Technology - Tier 3
 
