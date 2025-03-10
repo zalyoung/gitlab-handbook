@@ -51,6 +51,8 @@ The cost to fix test failures increases exponentially as time passes due to [mer
 
 Our aim should be to keep `master` free from failures, not to fix `master` only after it breaks.
 
+Any question or suggestion is welcome in the `#g_development_analytics` channel who owns the broken `master` automation proceess.
+
 ### Broken `master` service level objectives
 
 There are two phases for fixing a broken `master` incident which have a target SLO to clarify the urgency. The resolution phase is dependent on the completion of the triage phase.
@@ -109,14 +111,14 @@ Master broken incidents must be manually escalated to `#dev-escalation` on [week
 
 #### Attribution
 
-If a failed test can be traced to a group through its `feature_category` metadata, the broken `master` incident associated with that test will be automatically labeled with this group as the triage DRI through [this line of code](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/5ad6a19bd1b37a304fbd02701a002f4dd83e1fcf/triage/triage/pipeline_failure/incident_creator.rb#L23). In addition, Slack notifications will be posted to the group's Slack channel to notify them about ongoing incidents. The triage DRI is responsible for monitoring, identifying, and communicating the incident. The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) is the backup triage DRI if the failure cannot be traced to a group, or if the current triage DRI requires assistance.
+If a failed test can be traced to a group through its `feature_category` metadata, the broken `master` incident associated with that test will be automatically labeled with this group as the triage DRI through [this line of code](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/5ad6a19bd1b37a304fbd02701a002f4dd83e1fcf/triage/triage/pipeline_failure/incident_creator.rb#L23). In addition, Slack notifications will be posted to the group's Slack channel to notify them about ongoing incidents. The triage DRI is responsible for monitoring, identifying, and communicating the incident.
 
-A notification will be sent to the attributed group's Slack channel, or the `#g_engineering_productivity` channel as a backup DRI.
+A notification will be sent to the attributed group's Slack channel and `#master-broken`.
 
 #### Triage DRI Responsibilities
 
 1. Monitor
-   - Pipeline failures are sent to the triage DRI's group channel, if one is identified, and will be reviewed by its group members. The failures will also be sent to [`#master-broken`](https://gitlab.slack.com/archives/CR6QH3D7C) as a backup channel, in case the failure cannot be traced to a group, or if the triage DRI requires assistance. To maintain a scalable workflow, notifications posted in [`#master-broken`](https://gitlab.slack.com/archives/CR6QH3D7C) does not require a manual acknowledgement from the Engineering Productivity team if the incident is announced in another DRI group's Slack channel.
+   - Pipeline failures are sent to the triage DRI's group channel, if one is identified, and will be reviewed by its group members. The failures will also be sent to [`#master-broken`](https://gitlab.slack.com/archives/CR6QH3D7C) for extra communication. If an incident is announced in a DRI group's Slack channel, the channel member should acknowledge it and assume the triage DRI responsibilities.
    - If the incident is a duplicate of an existing incident, use the following quick actions to close the duplicate incident:
 
       ```shell
@@ -212,7 +214,7 @@ A notification will be sent to the attributed group's Slack channel, or the `#g_
 
    - **Note**, The `retry_job` command can fail for the following reasons:
      - Retrying the same job twice with the `retry_job` command will result in a failure message because each failed job can only be retried once.
-     - If there is no response to either of the `retry` commands, you are likely invoking them in non-supported projects. If you'd like to request for the commands to be added to your project, please [make an issue](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new) and inform `#g_engineering_productivity`. You are encouraged to self-serve the MR following [this example](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/2536) and submit it for review for maximum efficiency.
+     - If there is no response to either of the `retry` commands, you are likely invoking them in non-supported projects. If you'd like to request for the commands to be added to your project, please [make an issue](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new) and inform `#g_development_anallytics`. You are encouraged to self-serve the MR following [this example](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/2536) and submit it for review for maximum efficiency.
 
 ### Resolution of broken master
 
@@ -233,6 +235,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
      - Add the `quarantined test` label to the `failure::flaky-test` issue you previously created during the identification phase.
    - Create a new merge request to fix the failure if revert is not possible or would introduce additional risk. This should be treated as a `priority::1` `severity::1` issue.
      - To ensure efficient review of the fix, the merge request should only contain the minimum change needed to fix the failure. Additional refactor or improvement to the code should be done as a follow-up.
+1. The resolution DRI must address all failures in the pipeline. Be mindful that the initial opened issue for the incident will only announce the jobs that failed so far. But after you fix those jobs, other subsequent jobs could fail on the same pipeline that you're triaging. The triage DRI is responsible for this whole pipeline, and not only for the initial failed jobs.
 1. Apply the `Pick into auto-deploy` label (along with the needed `severity::1` and `priority::1`) to make sure deployments are unblocked.
 1. If the broken `master` incident affects any stable branches (e.g. <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/25274>) or is caused by a flaky failure,
    open new merge requests **directly against the active stable branches** and ping the current release manager in the merge requests to avoid
@@ -243,8 +246,8 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
 1. When `master` build was failing and the underlying problem was quarantined /
    reverted / temporary workaround created but the root cause still needs to be
    discovered, the investigation should continue directly in the incident.
-1. Create an [issue](https://gitlab.com/gitlab-org/quality/team-tasks/issues/new) for the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) describing how the broken `master` incident could have been prevented in the Merge Request pipeline.
-1. When resolution steps are completed, close the incident.
+1. Create an [issue](https://gitlab.com/gitlab-org/quality/analytics/team/-/issues/new) for the [Development Analytics group](/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/) describing how the broken `master` incident could have been prevented in the Merge Request pipeline.
+1. When resolution steps are completed and all of the required fixes are merged, close the incident.
 
 #### Responsibilities of authors and maintainers
 
@@ -335,7 +338,7 @@ Next, merge the merge request:
 
 ### Broken `master` mirrors
 
-[`#master-broken-mirrors`](https://gitlab.slack.com/archives/C01PK38VAN8) was created to remove duplicative notifications from the `#master-broken` channel which provides a space for [Release Managers](https://about.gitlab.com/community/release-managers/) and the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) to monitor failures for the following projects:
+[`#master-broken-mirrors`](https://gitlab.slack.com/archives/C01PK38VAN8) was created to remove duplicative notifications from the `#master-broken` channel which provides a space for [Release Managers](https://about.gitlab.com/community/release-managers/) and the [Developer Experience teams](/handbook/engineering/infrastructure-platforms/developer-experience/) to monitor failures for the following projects:
 
 - <https://gitlab.com/gitlab-org/security/gitlab>
 - <https://dev.gitlab.org/gitlab/gitlab-ee>
