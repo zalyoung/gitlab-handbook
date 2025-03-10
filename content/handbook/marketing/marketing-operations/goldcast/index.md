@@ -45,6 +45,7 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 
 
 ## Event Tags in use
+
 Tags can be used to quickly filter webcasts and events by the tagged topic. If you add more tags in the Goldcast platform, please be sure to update this handbook list. 
 
 - DevOps Platform
