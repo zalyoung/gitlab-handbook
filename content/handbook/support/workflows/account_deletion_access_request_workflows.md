@@ -219,8 +219,8 @@ The purpose is to ensure that a user account does not contain any data that has 
 
 Apply one of the following labels to the Issue:
 
-`Inactive::All_Conditions_Met` (all three conditions are met)
-`Inactive::Has_Data` (the last condition fails) *requires approvals per step below*
+`Inactive::All Conditions Met` (all three conditions are met)
+`Inactive::Has Data` (the last condition fails) *requires approvals per step below*
 
 Reach out to the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to engage a Support Manager and Privacy for review and approval (approver will add `Deletion Request::Exception Approved` to the issue if approved).
 </details>
