@@ -67,7 +67,7 @@ With this setting changed, now no one can directly push to `main`. Let's test th
 
 1. In the **New branch** section, notice that there is a note stating "You don't have permission to commit to `main`". This is a direct result of our branch rules. To accommodate the change, this window has automatically created a new branch for us to use.
 
-1. In **New branch**, change the name to `test-commit`
+1. In **New branch**, change the name to `test-commit`.
 
 1. Uncheck **Create a merge request for this change**.
 
