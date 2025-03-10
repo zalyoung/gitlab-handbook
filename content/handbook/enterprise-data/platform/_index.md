@@ -1358,12 +1358,10 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 
 The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/).
 
-
-
 ## Ecosystems BVA
 
-
 For backfilling `Ecosystems BVA` data, the variable `START_TIME` in DAG `dags/extract/ecosystems.py` should be changed to the date you want to do a backfill. The data set is fairly small, and this approach is sufficient as no performance risk for long-running tasks.
+
 ```python
     env_vars={
         **pod_env_vars,
