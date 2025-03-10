@@ -124,21 +124,6 @@ We perform sprint planning on a weekly or bi-weekly basis (depending on system/t
 See the [Workflow](#workflow) to see the full flow of issues.
 
 - [Cadence Schedule](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences)
-- FY25-Q3 Iterations
-  - [2024-08-04 to 2024-08-18](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370723)
-  - [2024-08-19 to 2024-09-01](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370724)
-  - [2024-09-02 to 2024-09-15](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370725)
-  - [2024-09-16 to 2024-09-26](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370726)
-  - [2024-09-30 to 2024-10-13](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370727)
-  - [2024-10-14 to 2024-10-27](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370728) - Limited Capacity (Oktane Conference)
-- FY25-Q4 Iterations
-  - [2024-10-28 to 2024-11-10](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1370729)
-  - [2024-11-11 to 2024-11-24](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/cadences/1053644/iterations/1378404)
-  - 2024-11-25 to 2024-12-08 - Limited capacity (US Thanksgiving)
-  - 2024-12-09 to 2024-12-22
-  - 2024-12-23 to 2025-01-05 - No capacity (Holiday Break). On call coverage only.
-  - 2025-01-06 to 2025-01-19
-  - 2025-01-20 to 2025-02-02
 
 ### Due Dates
 
@@ -200,12 +185,6 @@ Any expectations should be mentioned in the issue description or comments so the
 </thead>
 <tbody>
 <tr>
-<td><a href="https://gitlab.com/adamhuss">Adam Huss</a></td>
-<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=adamhuss">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=adamhuss">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=adamhuss&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
-<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=adamhuss">ARs</a></td>
-<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=adamhuss">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=adamhuss">Internal</a></td>
-</tr>
-<tr>
 <td><a href="https://gitlab.com/cshankgitlab">Clayton Shank</a></td>
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=cshankgitlab">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=cshankgitlab">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=cshankgitlab&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=cshankgitlab">ARs</a></td>
@@ -254,12 +233,6 @@ Any expectations should be mentioned in the issue description or comments so the
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=kimwaters">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=kimwaters">Internal</a></td>
 </tr>
 <tr>
-<td><a href="https://gitlab.com/mwhitaker">Marcus Whitaker</a></td>
-<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=mwhitaker">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=mwhitaker">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=mwhitaker&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
-<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=mwhitaker">ARs</a></td>
-<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=mwhitaker">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=mwhitaker">Internal</a></td>
-</tr>
-<tr>
 <td><a href="https://gitlab.com/mloveless">Mark Loveless</a></td>
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=mloveless">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=mloveless">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=mloveless&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=mloveless">ARs</a></td>
@@ -270,6 +243,18 @@ Any expectations should be mentioned in the issue description or comments so the
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=malkobaisy">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=malkobaisy">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=malkobaisy&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=malkobaisy">ARs</a></td>
 <td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=malkobaisy">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=malkobaisy">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/p_han">Peter Hansen</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=p_han">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=p_han">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=p_han&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=p_han">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=p_han">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=p_han">Internal</a></td>
+</tr>
+<tr>
+<td><a href="https://gitlab.com/stevesagan">Steve Sagan</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?assignee_username%5B%5D=stevesagan">Issues</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=stevesagan">Kanban</a> - <a target="_blank" href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/boards/7606111?assignee_username=stevesagan&iteration_id=Current&iteration_cadence_id=1053644">Current Iteration</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?assignee_username%5B%5D=stevesagan">ARs</a></td>
+<td><a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&author_username=stevesagan">Public</a> - <a target="_blank" href="https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests?scope=all&state=all&author_username=stevesagan">Internal</a></td>
 </tr>
 <tr>
 <td><a href="https://gitlab.com/vlad">Vlad Stoianovici</a></td>

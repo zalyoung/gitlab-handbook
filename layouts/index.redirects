@@ -71,6 +71,9 @@
 /handbook/engineering/development/sec/secure/dynamic-analysis/ /handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/ 301
 /handbook/engineering/development/sec/secure/api-security/ /handbook/engineering/development/sec/secure/dynamic-analysis/api-security/ 301
 
+# Secure planning - remove 2025-05-27
+/handbook/engineering/development/sec/secure/workflow/ /handbook/engineering/development/sec/secure/planning/ 301
+
 # Infrastructure realignment - remove 2025-06-01
 /handbook/engineering/infrastructure/platforms/ /handbook/engineering/infrastructure-platforms/ 301
 /handbook/engineering/infrastructure/test-platform/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
