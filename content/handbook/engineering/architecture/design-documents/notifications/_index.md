@@ -108,14 +108,13 @@ Create a unified notification center built on an event-driven architecture that:
 
 ## Design and implementation details
 
-### Database tables
+### Database table
 
 First thing to create is the new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user etc. 
 
 ```mermaid
 erDiagram
-    NOTIFICATION
-    NOTIFICATION {
+  NOTIFICATION {
         bigint id
         bigint user_id
         bigint namespace_id
@@ -124,15 +123,24 @@ erDiagram
         bigint author_id
         smallint action
         smallint state
-        timestamp without time zone created_at
-        timestamp without time zone updated_at
+        timestamp created_at
+        timestamp updated_at
         string commit_id
         smallint resolved_by_action
-        bigint note_id,
-        timestamp with time zone snoozed_until 
+        bigint note_id
+        timestamp snoozed_until 
         boolean saved
     }
 ```
+
+### Notification settings 
+
+Currently notification settings allow to define highly customizable rules when to receive email with notification. To create parity between current todos and email system, we should add possibility to establish if user wants to receive email or email and notification or just notification. 
+
+NOTE: changes to the notification settings system apart from adding notification/email differentiation are out of scope for this project. 
+
+### Events 
+
 
 ## Alternative Solutions
 
