@@ -92,7 +92,6 @@ Tags can be used to quickly filter webcasts and events by the tagged topic. If y
 The primary Marketo program template to use is named `YYYYMMDD_EventName_Webcast_Goldcast_template` and is found in the [Templates - Goldcast Webcasts folder](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1). Goldcast can auto-clone Marketo programs based on a template, as long as the Goldcast template is synced to a Marketo program. The Marketo program created will have the same name as the Goldcast event, ending with a time stamp. The new program will appear in the same folder as the original Marketo program.
 
 When working correctly, the Marketo program's tokens will auto-populate - either on program creation (via Goldcast's program cloning feature) or when manually connected to a Goldcast event. The relevant tokens for this process are:
-
 - {{my.goldcast_eventEndDate}}
 - {{my.goldcast_eventEndTime}}
 - {{my.goldcast_eventId}}
@@ -107,7 +106,6 @@ When working correctly, the Marketo program's tokens will auto-populate - either
 Additionally, there are tokens within the program that are _not_ updated by Goldcast but are still relevant for various aspects of the program, like the Marketo landing page or Marketo-sent follow up emails.
 
 Marketo email tokens
-
 - {{my.utm}}
 - {{my.ondemandUrl}}
 - {{my.epic link}}
@@ -116,7 +114,6 @@ Marketo email tokens
 - {{my.event owner}}
 
 Follow up Emails
-
 - {{my.zzfollow up slides or recording link}}
 - {{my.zzFollow up CTA link}}
 - {{my.zzFollow up event or asset description}}
@@ -126,7 +123,6 @@ Follow up Emails
 - {{my.zzFollowup - trial bullets}}
 
 Marketo landing page tokens
-
 - {{my.webcastSubtitle}}
 - {{my.introParagraph}}
 - {{my.bullet1}}
@@ -184,4 +180,4 @@ When the Goldcast event and Marketo program are connected, Goldcast will automat
 
 - `02 Goldcast Form Registration and Live`: Goldcast automatically changes program statuses when events and Marketo programs are connected. This smart campaign watches for program status changes for `Attended`, `No Show`, `Canceled`, `Rejected`, `Waitlisted` and `Registered`. If the event's registration is started on a Goldcast landing page, this smart campaign needs to be turned on immediately and before invite emails are sent out to invitees. This smart campaign needs to be active before the event, regardless of registration landing page location
 - `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing
-- `04 Goldcast Processing - Engagement`: Under construction - intention is to notify event staff of user engagement 
+- `04 Goldcast Processing - Engagement`: Under construction - intention is to notify event staff of certain user engagements
