@@ -420,9 +420,10 @@ If this is to set up a program that involves a channel partner, you must also fo
   - Security: [YYYYMMDD_Workshop_SecurityWorkshop_EventType](https://app-ab13.marketo.com/#ME6521A1)
   - CI Workshop: [YYYYMMDD_Workshop_CI_EventType](https://app-ab13.marketo.com/#ME6807A1)
   - Jenkins [YYYYMMDD_Workshop_Jenkins_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8285A1)
-  - GitLab GitLab Duo Enterprise Workshop : [YYYYMMDD_Workshop_DuoAI_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
+  - GitLab Duo Enterprise Workshop : [YYYYMMDD_Workshop_DuoAI_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
   - GitHub GitLab Migration: [YYYYMMDD_Workshop_GitHubGitLab_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME13738A1)
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
+  - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
 ##### Other Tactic Marketo Templates
 
