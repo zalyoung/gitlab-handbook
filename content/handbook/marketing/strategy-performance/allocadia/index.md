@@ -341,21 +341,21 @@ If you have tried to create from the subcategory and you're still not able to cr
    - Expected Number of DR
    - Estimated Pipeline Created (USD)
 
-Watch the [video](https://youtu.be/Xis0KDi-Iy4) for a step to step walkthrough.   
+Watch the [video](https://youtu.be/Xis0KDi-Iy4) for a step to step walkthrough.
 
 ##### Allocadia - GitLab Issue Integration Summary
 
-- Issue can be created or updated in Gitlab through an outbound action button on the details panel
+- Issue can be created or updated in GitLab through an outbound action button on the details panel
   - Button label: Create/Update MDF Issues
   - Note that action is available in the Partner portion of the hierarchy only
 - Issue creation can be initiated at the "Line Item" row level only in Allocadia, and the line item must be within a sub-category
-- Fields from the Allocadia details panel are used to populate an Issue template in Gitlab
-- User is presented with a link to open the new Issue in Gitlab after creation
+- Fields from the Allocadia details panel are used to populate an Issue template in GitLab
+- User is presented with a link to open the new Issue in GitLab after creation
 - Once the epic has been created it is automatically tagged back to the MDF Issue URL field on the Allocadia item
 - If the MDF Issue URL is populated already, the action is treated as an update rather than creation
 - The sync runs twice daily at 10:30 am and 10:30 pm PT
 
-See [slides](https://docs.google.com/presentation/d/13JsM0poTh4TN_U-l-pgRz_gMbaMpZiGT/edit#slide=id.p1) for technical summary and [sheet](https://docs.google.com/spreadsheets/d/1leqnCPx6GTdyhg9jzgliZK76WartBJV4k3Q57W4rxTQ/edit?usp=sharing) for issue field mapping. 
+See [slides](https://docs.google.com/presentation/d/13JsM0poTh4TN_U-l-pgRz_gMbaMpZiGT/edit#slide=id.p1) for technical summary and [sheet](https://docs.google.com/spreadsheets/d/1leqnCPx6GTdyhg9jzgliZK76WartBJV4k3Q57W4rxTQ/edit?usp=sharing) for issue field mapping.
 
 ##### GitLab Issue Creation Details
 

@@ -31,8 +31,8 @@ description: "The page details the operational process for the MDF program."
      1. MDF Campaign - Type Details
      1. Operational Program Owner
 1. Create line-item with name convention: MDF 000 Partner Activity Name Location. ie: `MDF 000 GitLab Demo Partner DevSecOps World Tour Paris`
-1. Add the forecast amount in that month’s plan column
-1. Select the “Create/Update MDF Issue” at the bottom of the details panel
+1. Add the forecast amount in that month's plan column
+1. Select the `Create/Update MDF Issue` at the bottom of the details panel
 
 ### Step 3: Update the Issue
 
@@ -63,21 +63,21 @@ description: "The page details the operational process for the MDF program."
 1. Right click "YYYYMMDD__MDF_000_PartnerName_EventName_Region" and hit "Clone"
      1. Clone to - select Campaign folder
      1. Name - paste the Campaign Name from Allocadia
-     1. Folder - insert the “FY#- Q# - MDF Campaigns”
-         1. Example, if the campaign was during FY25 Q4, the folder you’ll want to select is “FY25 - Q4 - MDF Campaigns”
+     1. Folder - insert the `FY#- Q# - MDF Campaigns`
+         1. Example, if the campaign was during FY25 Q4, the folder you’ll want to select is `FY25 - Q4 - MDF Campaigns`
      1. Description: **Allocadia Line Item ID** and issue link
          1. Example: 2271710 https://gitlab.com/groups/gitlab-com/marketing/-/epics/4420
 
 #### Step 2: Update Marketo Tokens
 
 1. Go to the Marketo Program
-1. Go on the My Tokens” tab and update the Partner Name (listed in the issue)
+1. Go on the `My Tokens` tab and update the Partner Name (listed in the issue)
 
 #### Step 3: Sync Marketo Program to SFDC
 
 1. Go to the tab showcasing the Marketo Program Name
-1. In the Summary, under Settings session, Salesforce Campaign Sync, click “not set”
-1. Under Campaign, click on the dropdown and select "Create New"
+1. In the Summary, under Settings session, Salesforce Campaign Sync, click `not set`
+1. Under Campaign, click on the dropdown and select `Create New`
 1. In Description, paste the **Allocadia Line Item ID** and save
 
 #### Step 4: Update Tracking Sheet and Issue
@@ -91,7 +91,7 @@ description: "The page details the operational process for the MDF program."
 1. Go to the MDF Funds Request
 1. Ensure all sections are not collapsed
 1. On the Google Chrome Browser, select the three dots on the most right
-1. Click on “Print”
+1. Click on `Print`
 1. Change the Destination to “Save as PDF” then save.
 
 #### Step 2:  Create a new Zip Request
@@ -286,7 +286,7 @@ Check the Status column for details on why the import may have failed.
 1. If the Status remains in Member, complete the following steps:
      1. Go Marketo Program
      1. Select the Processing smart campaign
-         1. In Smart List, add Program Status = “Partner - MDF > Member”
+         1. In Smart List, add Program Status = `Partner - MDF > Member`
          1. In Schedule, run now.
 
 #### GitLab Issue
@@ -303,5 +303,5 @@ Check the Status column for details on why the import may have failed.
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | POP is received and approved           | Approve the MDF Review step in Zip for Coupa Req to be created<br>If there was a contract involved this step has already happened so you’ll open the coupa req and tag Renz Santos and ask him to process the PO  | Check "Zip Approved"                                    |
 | Coupa req is created                   | Check on the status until the PO has been created                                                                                                                                                                 | Update Coupa Req #                                      |
-| PO is created                          | Email Partner the steps to have them upload their invoice                                                                                                                                                         | Check "PO Created" and "Informed Partner about invoice" |
+| PO is created                          | Email Partner the steps to have them upload their invoice                                                                                                                                                         | Check `PO Created` and `Informed Partner about invoice` |
 | 24 hours after the invoice is uploaded | Approve the invoice. You’ll do this by going to your Coupa inbox and clicking on the line time. It will take you to a new screen and double check the amount is correct and click Approve button (it’s in green)  | Check "Invoice Approved Coupa"                          |

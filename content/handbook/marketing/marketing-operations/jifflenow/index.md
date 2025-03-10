@@ -18,7 +18,7 @@ Jifflenow will be made available to Sales attending events, EBAs and event manag
 - **Requestor** - Anyone that has access to schedule meetings within the tool.
 - **Meeting Manager** - Users assigned to this role manage the meeting approval process, user accounts, rooms, and calendars and help govern access to the Jifflenow portal. They have full access to all meetings and can view, edit, or cancel any request placed by anyone within an event. Meeting Managers have the highest level of access in Jifflenow.
 - **Junior Meeting Manager** - While a Meeting Manager has full access to all requested meetings, a Junior Meeting Manager may be given limited access to all meetings within a particular meeting type. Someone may need this if tasked with managing a set of rooms or approving a subset of requests based on specified criteria. They can approve meetings for the types they are assigned to.
-- **Executive Admin** - Executive Admins manage meeting activity on behalf of the specific internal attendees they are assigned to. The EA role cannot approve meetings, but they can endorse their executive’s participation in meetings.
+- **Executive Admin** - Executive Admins manage meeting activity on behalf of the specific internal attendees they are assigned to. The EA role cannot approve meetings, but they can endorse their executive's participation in meetings.
 
 ## Training
 
@@ -73,7 +73,7 @@ If you have already set a meeting location outside of our space, for example in 
 ### Requesting Standard Meetings
 
 1. Navigate to the Account, Contact or Opp in SFDC.
-2. In the top right drop down, you’ll find JiffleNow Meetings.
+2. In the top right drop down, you'll find JiffleNow Meetings.
 3. Select the appropriate event, and click Request Meeting.
 4. From there, you can request different meeting types that are available. Make sure to link the correct Account and Opportunity (if applicable - you must type it in).
 5. In the next screen: Select attendees, Internal and External. Pick the room and the available time.
@@ -85,7 +85,7 @@ If you have already set a meeting location outside of our space, for example in 
 
 ### View Requested Meetings (For Attendees)
 
-1. In salesforce - On the left side, click on the 9 dots (app launcher) and type in Jifflenow
-2. Click "Jifflenow Home Page" along the top row
+1. In salesforce - On the left side, click on the 9 dots (app launcher) and type in JiffleNow
+2. Click "JiffleNow Home Page" along the top row
 3. Select the 3 dots and click Meetings
 4. Along the left side, under `Internal Attendees` type your name

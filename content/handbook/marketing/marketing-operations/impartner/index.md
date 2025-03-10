@@ -130,7 +130,7 @@ To update the user to an MDF administrator:
 
 ## PRM - Salesforce Integration
 
-The intergration from PRM to Salesforce is customizable per object.
+The integration from PRM to Salesforce is customizable per object.
 
 - Impartner `Lead` is mapped to SFDC `Lead`
 - Impartner `MDF Request` is mapped to SFDC `Funds Request`
