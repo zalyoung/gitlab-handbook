@@ -172,11 +172,11 @@ Once the Goldcast event and Marketo program are connected the Marketo program to
 
 ## Program Member Status Processing
 
-When the Goldcast event and Marketo program are connected, Goldcast will automatically change the program status for all members without the need for a smart campaign. However, processing smart campaigns are still needed for other data appending needs:
+When the Goldcast event and Marketo program are connected, Goldcast will automatically change the program status for all members without the need for a smart campaign. However, processing smart campaigns are still needed for other data appending requirements:
 
 ### Smart campaigns for Marketo landing page based registration
 
-- `01a Marketo Form Registration`: This smart campaign **must** be active for Marketin LP registrations. Without this smart campaign, registrants will not be added to the Goldcast event and will not receive a registration confirmation email. Once the event is over, turn this smart campaign off
+- `01a Marketo Form Registration`: This smart campaign **must** be active for Marketo LP registrations. Without this smart campaign, registrants will not be added to the Goldcast event and will not receive a registration confirmation email. Once the event is over, turn this smart campaign off
 - `01c Marketo Form Fill Waitlist`: If registration has maxed out for the event, deactivate the `Registration` smart campaign and turn this one on to add regsitrants to the waitlist
 - `01e Waitlist to Registered`: If you plan to change registrants who are currently listed as `Waitlisted` to `Registered`, turn this smart campaign on first. It refreshes the `Interesting Moment` and calls the Goldcast webhook 
 
