@@ -194,7 +194,9 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
 In cases where Customer Support need to interact with Dedicated engineers to gather information or debug a problem at tenant's request (when Grafana or OpenSearch do not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated). 
 
-RFH have an [SLA](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#sla) of three working days for all severity levels. For severity 1 and 2 issues based on [Support definition](https://about.gitlab.com/support/#definitions-of-support-impact), consider [raising a Dedicated incident](#escalating-an-emergency-issue). Ask in Slack `#support_gitlab-dedicated` if you are unsure.
+RFH have an [SLA](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#sla) of three working days for all severity levels. For severity 1 and 2 issues based on [Support definition](https://about.gitlab.com/support/#definitions-of-support-impact), consider [raising a Dedicated incident](#raise-a-dedicated-incident). Ask in Slack `#support_gitlab-dedicated` if you are unsure.
+
+For RFH issues that exceed the SLA response time, add a comment that mentions the issue assignees to prompt them to review the overdue RFH. [Escalation to the Dedicated Engineer On-Call](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person) should only occur for high-priority cases that have exceeded the SLA. 
 
 During the course of the investigation, you may realize that you need to escalate a Request for Help (RFH) issue to another team. You should follow the existing process to [formally request help from another group in the GitLab Development Team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team). When doing this:
 
@@ -215,14 +217,15 @@ If the customer is reporting an availability or performance issue:
    - Get in touch with the Dedicated SRE on-call and determine if the customer needs to be involved
      with troubleshooting.
    - Assist the customer and the Dedicated SRE as necessary.
-1. If there isn't an open incident, [escalate the emergency](#escalating-an-emergency-issue).
+1. If there isn't an open incident, [raise a Dedicated incident](#raise-a-dedicated-incident).
 
-#### Escalating an Emergency issue
+#### Raise a Dedicated incident
 
-If involving the Dedicated team becomes necessary:
+1. Follow the [Dedicated on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/incident-management.md#how-to-raise-an-incident).
 
-1. Note initial findings in [a `new-incident` issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/new?issuable_template=new-incident).
-1. Follow the [Dedicated on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#escalating-to-an-on-call-person).
+1. Note the initial findings in the Slack channel created. 
+
+1. For Severity 1 and 2 incidents that require immediate attention, page the Dedicated Engineer On-Call by clicking on **Escalate to someone** in the Slack channel created and select **dedicated EOC**. 
 
 #### Engaging the GitLab Dedicated CMOC
 
