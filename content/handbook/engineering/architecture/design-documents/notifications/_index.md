@@ -141,6 +141,7 @@ NOTE: changes to the notification settings system apart from adding notification
 
 ### Events 
 
+Event system is the backbone of this proposal. GitLab event store implementation is described [here](https://docs.gitlab.com/development/event_store/)
 
 ## Alternative Solutions
 
