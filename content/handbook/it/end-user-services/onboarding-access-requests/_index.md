@@ -113,7 +113,6 @@ KPI 90% of laptops will arrive prior to start date or 21 days from the date of o
 
 If a requested laptop is outside the standardized specifications listed [here](#apple-hardware), approval will be required from the team member's manager as well as the Device Logistics Team before IT will purchase the laptop. Once your manager has approved, please tag `@gitlab-com/gl-security/corp/logistics` for logistics approval. 
 
-
 #### Self procurement
 
 **Cost will not be covered by GitLab without proper approval**
