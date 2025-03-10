@@ -156,24 +156,22 @@ The following will describe how to create the personal view to list cases in Glo
 
 **Workflows for US Gov Dedicated are still being written**
 
-1. #spt_pod_dedicated
-1. Dedicated Workflows page
-1. Open RFH on CompSecGov
 
 ### High-Level Notes
 
 1. Don't Panic.
-1. As of this writing (March 2025), we do not have access to logs or observability metrics for GitLab Dedicated for Government customers, so we have a much shorter fuse to call on the SREs for help.
-1. In any given Dedicated ticket--emergency or not--the thing to determine is if it's a GitLab application problem or an infrastructure issue.  This is slightly tricky without access to their logs, but is the driving question.
+1. As of this writing (March 2025), we do not have access to logs or observability metrics for GitLab Dedicated for Government customers. This significantly limits our troubleshooting capabilities, requiring us to contact SREs for assistance much sooner in the process than we otherwise might.
+1. **Application or infrastructure**? In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. This is slightly tricky without access to logs.
 
 ### Getting Help
 
-If you are unsure where to take a given investigation, consult the [Troubleshooting Tables](/handbook/support/workflows/saas_sm_cheatsheet/)
+| What | Useful for |
+| ------ | ------ |
+| [GitLab Dedicated Overview](/handbook/support/workflows/dedicated/) | A good place to start for basic questions |
+| [Troubleshooting Tables](/handbook/support/workflows/saas_sm_cheatsheet/) | Understanding "what's different?" about GitLab Dedicated |
+| Open an [RFH](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team) on `CompSecGov` | Requesting [configuration changes](https://handbook.gitlab.com/handbook/support/workflows/dedicated/#configuration-changes) on behalf of customers, getting help from SREs on things that are not incidents |
+| [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) on Slack | General questions for Support folks focused on GitLab Dedicated (Commercial or Government) |
 
-There are a few avenues available for getting additional information and assistance when working on a GitLab Dedicated for Government ticket.
-
-- [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
-- [GitLab Dedicated Overview](/handbook/support/workflows/dedicated/)
 
 ### Requests for Help
 
