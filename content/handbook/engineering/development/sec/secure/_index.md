@@ -69,9 +69,9 @@ The following members of other functional teams are our stable counterparts:
 ## Secure Team
 
 The Application Security Testing Team is responsible for the security checks features in the GitLab platform, and maps to the [application security testing](/handbook/product/categories/#application-security-testing-stage) transversal stage.
-You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/application_security_testing/) page.
+You can learn more about our approach on the [Application Security Testing Vision](https://about.gitlab.com/direction/application_security_testing/) page.
 
-The features provided by the Secure Team are mostly present at the pipeline level, and mostly available as container images.
+The features provided by the Application Security Testing Team are mostly present at the pipeline level, and mostly available as container images.
 This particularity shapes our processes and QA, which differs a bit from the other stages.
 
 ### Security Products
