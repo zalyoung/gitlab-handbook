@@ -36,7 +36,7 @@ Should you require assistance from the Runway team, please reference [getting as
 
 - [Runway Top Level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/14)
 - [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2) - work and team related discussions.
-- [#r_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA) - external requests, questions, support.
+- [#f_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA) - external requests, questions, support.
 
 ## How We Work
 
