@@ -184,28 +184,29 @@ component:
   variables:
     RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
 
-   before_script:
-      - apk add --update cosign
+  before_script:
+    - apk add --update cosign
 
   script:
     - echo "Fetching GitLab Runner metadata..."
-    - export RUNNER_METADATA=$(cat artifacts-metadata.json)
+    - export RUNNER_METADATA=$(jq -c . ${RUNNER_METADATA_FILE})
 
     - echo "Generating predicate for ${TARGET_ARTIFACT}..."
     - cat <<EOF > predicate.json
       {
-        "buildDefinition": {
-          "buildType": "gitlab-ci",
-          "externalParameters": {},
-          "internalParameters": ${RUNNER_METADATA},
-          "resolvedDependencies": []
-        }
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": $(echo "${RUNNER_METADATA}" | jq -c .subject),
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+              "buildDefinition": $(echo "${RUNNER_METADATA}" | jq -c .predicate.buildDefinition),
+              "runDetails": $(echo "${RUNNER_METADATA}" | jq -c .predicate.runDetails)
+          }
       }
       EOF
 
     - echo "Attesting provenance for ${TARGET_ARTIFACT}..."
-    - cosign attest --predicate predicate.json \
-        --type slsaprovenance \
+    - cosign attest-blob --predicate predicate.json \
+        --type slsaprovenance1 \
         --oidc-issuer "https://gitlab.com" \
         --oidc-token "${GITLAB_OIDC_TOKEN}" \
         "${TARGET_ARTIFACT}"
@@ -232,6 +233,7 @@ stages:
 variables:
   COSIGN_VERSION: "v2.1.0"
   RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
+  RUNNER_METADATA_FILE: "artifacts-metadata.json"
 
 build_artifact:
   stage: build
@@ -242,7 +244,7 @@ build_artifact:
   artifacts:
     paths:
       - dist/
-      - artifacts-metadata.json
+      - ${RUNNER_METADATA_FILE}
     expire_in: 7d
 
 generate_provenance:
@@ -252,13 +254,14 @@ generate_provenance:
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
     PROVENANCE_FILE: "dist/provenance.json"
+    RUNNER_METADATA_FILE: "${RUNNER_METADATA_FILE}"
 
 verify_provenance:
   stage: verification
   needs: ["generate_provenance"]
   script:
     - echo "Verifying signed provenance..."
-    - cosign verify-attestation --type slsaprovenance dist/example-artifact.txt \
+    - cosign verify-blob-attestation --type slsaprovenance1 dist/example-artifact.txt \
         --certificate-identity-regexp ".*" \
         --certificate-oidc-issuer "https://gitlab.com"
 ```
