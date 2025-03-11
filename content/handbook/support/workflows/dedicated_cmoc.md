@@ -23,7 +23,7 @@ There is additional information about engaging the GDCMOC in the [on-call runboo
 
 ## Acknowledging a GitLab Dedicated Contact Request
 
-If an urgent contact request is needed, you will be paged via PagerDuty. Start by marking the PagerDuty alert as **acknowledged**. This can be done through the mobile app, web interface or PagerDuty App in the #spt_pod_dedicated Slack channel.
+If an urgent contact request is needed, you will be paged via PagerDuty. Start by marking the PagerDuty alert as **acknowledged**. This can be done through the mobile app, web interface or PagerDuty App in the #support_gitlab-dedicated Slack channel.
 
 The description in the PagerDuty alert should contain details about an issue, or a slack thread you need to follow. Follow any communication threads, and let the Dedicated Incident team know you are available to assist. You should be provided with the details of the request. If you're unsure, check [the GitLab Dedicated incidents issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?label_name%5B%5D=Incident%3A%3AActive) or ask in the `#g_dedicated-team` slack channel.
 
