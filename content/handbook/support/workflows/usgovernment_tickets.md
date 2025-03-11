@@ -175,7 +175,7 @@ The following will describe how to create the personal view to list cases in Glo
 
 Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). If you need, but don't have, access contact Wade or Ian to get the process started.  
 
-Dialing in the RFH approach will take time and iteration, to be sure.  In the ideal future, we will open Infrastructure-focused RFHs on CompSecGov and non-infrastructure-focused RFHs will follow the typical procedure (**link to typical procedure**)
+In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. This is slightly tricky without access to logs. Infrastructure-issue RFHs follow the CompSecGov procedure and Application-issue RFHs will follow the [typical procedure](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
 
 #### Handling Emergencies
 
