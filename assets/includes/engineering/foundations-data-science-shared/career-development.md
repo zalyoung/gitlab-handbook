@@ -73,6 +73,10 @@ This section lists relevant experience areas for individual contributors interes
 * Coach team members to scalable solutions
 * Backstop Staff or Principal engineers for the team
 * Identify and prioritize technical debt remediation
+* Understand and manage technical dependencies/trade-offs between stages, groups and projects or systems
+* Evaluate, introduce, remove technologies (packages, languages, etc) or tools when appropriate
+* Balance feature delivery and innovation with reliability requirements for customers
+* Resolve complex technical disagreements within the team by providing guidance
 </details>
 
 <details markdown=1>
