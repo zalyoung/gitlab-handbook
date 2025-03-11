@@ -17,7 +17,7 @@ Account actions can only be completed if the [workflow](#workflow) below is succ
 
 GitLab.com requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. For users requesting support when their email address is no longer valid and are unable to receive the email, please see the [Email account lost workflow](/handbook/support/workflows/lost_emails).
 
-If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/workflows/phone-number-verification) to follow.
+If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/workflows/phone-number-verification/) to follow.
 
 ### GitLab Team Members
 
