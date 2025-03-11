@@ -184,6 +184,10 @@ This integration ensures a comprehensive approach to supply chain risk managemen
 
 ### For Development Teams
 
+{{% alert title="Note" color="primary" %}}
+The following items represent future/North Star requests and are not current requirements.
+{{% /alert %}}
+
 1. **Artifact Documentation**
 
    - For each new artifact type, document its source components
