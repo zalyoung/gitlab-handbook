@@ -126,7 +126,7 @@ The process of creating the temporary renewal extension from SFDC is also descri
 1. Temporary Renewal Extension form will load, and display the related OpportunityID and ZuoraSubscriptionID.
 1. Select `Reason` from the drop down, specify number of `Users` for the license, add optional `Notes`, then click `Next`.
    1. If creating a temporary renewal extension for SaaS subscription, the number of `Users` is irrelevant - extension will be created for the same number of users as the current subscription.
-1. Once the extension is created, you will see a success message. Otherwise, you will see an [error message](add-link).
+1. Once the extension is created, you will see a success message. Otherwise, you will see an error message.
 1. Several updates happen for a successfully created temporary extension:
    1. Several fields on the SFDC Renewal Opportunity are updated:
       1. `Temporary License Extension End Date` is updated with a date (equal to subscription end date + 21 days).
