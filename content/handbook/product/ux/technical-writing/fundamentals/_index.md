@@ -50,12 +50,11 @@ Reviews topic types: concepts, tasks, references, troubleshooting (CTRT).
 
 {{< youtube "ZzdE1y7HfzE" >}}
 
-### For more information
+### Related topics
 
-- Review the [GitLab Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
-- Review some [examples for editing for topic types](/handbook/product/ux/technical-writing/fundamentals/examples/).
-- Watch a [related video for more examples](https://youtu.be/HehnjPgPWb0).
-- Provide [suggestions or other feedback](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/445)!
+- [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
+- [Documentation topic types (CTRT)](https://docs.gitlab.com/development/documentation/topic_types/)
+- [Feedback issue for GitLab Technical Writing Fundamentals](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/445)
 
 ## Schedule in-person training
 
