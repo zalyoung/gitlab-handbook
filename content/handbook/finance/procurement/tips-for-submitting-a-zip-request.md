@@ -91,14 +91,14 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - In which country is the contingent worker working from? *
    - Will you be onboarding multiple contingent workers for this engagement? *
    - Do you have the contact information and personal email address(es) of the requested onboardee(s)? * (this will be needed to track contingent workers in Workday, note: this information can come at a later date but not before everything is finalized)
-    - Who is the Manager for the Contingent Worker? *
-    - What is the Business Title for this Contingent Worker? *
-    - What is the Contingent Worker's Non-GitLab email address? *
-    - What is the Contingent Worker's Legal First Name? *
-    - What is the Contingent Worker's Legal Last Name? *
-    - What is the Contingent Worker's Preferred First Name? *
-    - What is the Contingent Worker's Preferred Last Name? *
-    - What is the Contingent Worker's Address *
+   - Who is the Manager for the Contingent Worker? *
+   - What is the Business Title for this Contingent Worker? *
+   - What is the Contingent Worker's Non-GitLab email address? *
+   - What is the Contingent Worker's Legal First Name? *
+   - What is the Contingent Worker's Legal Last Name? *
+   - What is the Contingent Worker's Preferred First Name? *
+   - What is the Contingent Worker's Preferred Last Name? *
+   - What is the Contingent Worker's Address *
 
 1. In the "Spend Information" section, you'll need to fill out the following information:
 
@@ -116,13 +116,13 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - Access to GitLab resources via personal devices is not permitted. Is the contingent worker issued a vendor-managed laptop? *
    - Does this request involve the use of a web application, web portal, or software system? *
 
-2. The Zip Request will be reviewed by the applicable stakeholders
+1. The Zip Request will be reviewed by the applicable stakeholders
 
-3. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
+1. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
 
- - If you need to extend the contract term of an IC, submit a [Zip Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change)
+- If you need to extend the contract term of an IC, submit a [Zip Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change)
 
- - If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
+- If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
 
 *Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
 
