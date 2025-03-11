@@ -231,8 +231,8 @@ The Covered Experience definition will contain the following fields:
 |------------------------------------|---------|----------|------------------------------------|--------------------------------|
 | description                        | string  | Yes      | Human readable description         | "User creates a merge request" |
 | apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                           |
-| timeout_in_seconds                 | integer | Yes      | Journey timeout in seconds.        | `300`                          |
-| id                                 | string  | Yes      | Unique identifier for the journey  | `merge_request_creation`       |
+| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                          |
+| id                                 | string  | Yes      | Unique identifier                  | `merge_request_creation`       |
 | feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`       |
 
 Examples:
@@ -262,15 +262,15 @@ A new service, the Covered Experience Tracker, is going to control initiated Cov
 
 The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
 
-| Field             | Type              | Required             | Description                                       | Example                                        | Observations                                        |
-|-------------------|-------------------|----------------------|---------------------------------------------------|------------------------------------------------|-----------------------------------------------------|
-| journey_id        | string (UUID)     | Yes                  | Unique identifier for a specific journey instance | "f6587c32-6e2f-4586-a82e-8d73c335e8cd"         | Same ID must be used across all events in a journey |
-| journey_name      | string            | Yes                  | Name of journey as defined in YAML config         | "http_request"                                 | Must match a journey definition                     |
-| event_type        | string            | No                   | Type of event in journey lifecycle                | "start", "end", "checkpoint"                   | If omitted, event is considered a checkpoint        |
-| component         | string            | Yes                  | Service/component generating the event            | "web", "database"                              | -                                                   |
-| client_timestamp  | string (ISO-8601) | Yes                  | Timestamp when event occurred                     | "2025-02-06T14:30:00Z"                         | -                                                   |
-| context           | object            | Yes                  | Additional journey context                        | {"feature_category": "source_code_management"} | -                                                   |
-| server_timestamp  | string (ISO-8601) | No (Response only)   | Server processing timestamp                       | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                 |
+| Field            | Type              | Required           | Description                                             | Example                                        | Observations                                                   |
+|------------------|-------------------|--------------------|---------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
+| ce_id            | string (ULID)     | Yes                | Unique identifier for the covered experience            | "01JP0EM7HB39WSJNR4662MYZ6V"                   | Same ID must be used across all events in a covered experience |
+| ce_name          | string            | Yes                | Name of the covered experience as defined in the config | "http_request"                                 | Must match with a covered experience definition                |
+| step             | string            | Yes                | Which step in the lifecycle                             | "start" \| "end" \| "intermediate"             | -                                                              |
+| component        | string            | Yes                | Service/component generating the event                  | "web", "database"                              | -                                                              |
+| client_timestamp | string (ISO-8601) | Yes                | Timestamp when event occurred                           | "2025-02-06T14:30:00Z"                         | -                                                              |
+| meta             | object            | Yes                | Additional metadata                                     | {"feature_category": "source_code_management"} | -                                                              |
+| server_timestamp | string (ISO-8601) | No (Response only) | Server processing timestamp                             | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                            |
 
 State is managed by Redis. Allowing the querying of stale covered experiences, timing out after configured threshold.
 
