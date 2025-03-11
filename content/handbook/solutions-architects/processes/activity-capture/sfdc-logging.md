@@ -157,7 +157,7 @@ SA Feasibility is most applicable in Stages 3-4. Before Stage 3 - Technical Eval
 
 Not all opportunities are large enough to warrant tracking the SA Feasibility Rating. The below thresholds are guidelines for Enterprise and Commercial teams:
 
-- **Enterprise:** Net ARR over $100k or First Order with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M
+- **Enterprise:** Net ARR over $100k or First Orders for Focused Accounts
 - **Commercial:** Net ARR over $50k
 
 #### How to Handle Limited Engagement

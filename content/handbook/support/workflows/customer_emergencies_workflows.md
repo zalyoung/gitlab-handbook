@@ -477,8 +477,8 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
-   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
-   - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/) to raise a developer.
+   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
+   - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/) to raise a developer.
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.
 

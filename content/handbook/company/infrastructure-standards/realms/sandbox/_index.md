@@ -84,7 +84,7 @@ Any team member can request a new AWS account or GCP project for a specific proj
 
 **No RED data is allowed in these accounts/projects.** Any RED data must be hosted in production AWS accounts or GCP projects managed by the appropriate Infrastructure Realm administrators (ex. `eng-infra-saas`, `it-infra`, etc.).
 
-Self-service creation and IAM management is not available yet for end users in HackyStack (will be available through API integration with [GitLab Access Manager](/handbook/business-technology/engineering/#access-manager-engineering) in the future and tracked in [hackystack#38](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/issues/38)). In the meantime, we use access request style issue templates as our boring solution for security compliance reasons and the HackyStack administrators provision accounts and users using the Admin CLI.
+Self-service creation and IAM management is not available yet for end users in HackyStack (will be available through API integration with [GitLab Access Manager](/handbook/security/threat-management/identity/) in the future and tracked in [hackystack#38](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/issues/38)). In the meantime, we use access request style issue templates as our boring solution for security compliance reasons and the HackyStack administrators provision accounts and users using the Admin CLI.
 
 - [Issue Template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request): New AWS Group (Multi-user) Account Request ([Provisioner Runbook](https://gitlab.com/gitlab-com/business-technology/engineering/runbooks/-/blob/main/gitlab-sandbox-cloud/add-group-account-for-aws.md))
 - [Issue Template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_iam_update_request): Add/Remove IAM Users from AWS Group Account ([Provisioner Runbook](https://gitlab.com/gitlab-com/business-technology/engineering/runbooks/-/blob/main/gitlab-sandbox-cloud/add-iam-user-to-aws-group-account.md))
@@ -109,7 +109,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](/handbook/finance/procurement/) and are managed by the respective department's [system owners](/handbook/business-technology/#cross-department-system-owners).
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/product-security/security-architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/product-security/security-platforms-architecture/security-architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 
@@ -178,7 +178,7 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
     #     -------------------------------------------------------------------------    ----
     # Add your Terraform modules and/or resources below this line
     #     -----------------------------------------------------------------------------
-    
+
     locals {
       ssh_key               = "<RSA public key here>"
       normalized_env_prefix = "sr-${var.env_prefix}"

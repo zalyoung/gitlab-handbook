@@ -152,7 +152,7 @@ Unsure what content types align with your asset? Use the table below as a guidel
 | Presentation | Video recording or slides of a live talk. | [Multicloudcon Keynote: The Multicloud Maturity Model](https://www.youtube.com/watch?v=R1LWQPAXFEE) |
 | Pricing | A document that details pricing for GitLab products. | [GitLab pricing](https://about.gitlab.com/pricing/) |
 | Product article |  |  |
-| Research report | An informational report which uses a specific research metholody to validate findings. | [2019 Global Developer Survey: DevSecOps](/developer-survey/) |
+| Research report | An informational report which uses a specific research metholody to validate findings. | [2019 Global Developer Survey: DevSecOps](https://about.gitlab.com/developer-survey/) |
 | Solution article |  |  |
 | Technical blog post |  |  |
 | Testimonials | A formal statement from a customer or user regarding GitLab's value. |  |

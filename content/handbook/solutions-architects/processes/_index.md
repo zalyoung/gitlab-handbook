@@ -213,7 +213,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 
 - GitLab demos
 - GitLab technical deep dives
-- [GitLab hands-on workshops & Labs](/handbook/solutions-architects/demo-architect/#labshands-on-content)
+- [GitLab hands-on workshops & Labs](/handbook/solutions-architects/center-of-excellence/demo-architecture/#labshands-on-content)
 - Whiteboarding sessions
 - Prospect Q&A sessions
 - RFI/RFP completion

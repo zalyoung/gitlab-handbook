@@ -29,6 +29,14 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 NOTE:
 For information on how to investigate failing end-to-end tests and pipelines, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
 
+## Visual Pipeline Environment Map
+
+![E2E Test Pipeline Environment Map](/images/engineering/infrastructure-platforms/developer-experience/E2E%20test%20suite_pipeline%20mapping%20-%20Current.png)
+
+This diagram provides a visual representation of how our end-to-end test pipelines map to various environments in our infrastructure. It illustrates the flow of tests across Merge Requests, Development, Staging, Preprod, and Production environments, showing when tests are triggered (on commit, after deploy, after configuration changes, etc.) and what type of tests run in each environment (smoke, full, etc.).
+
+The color coding indicates test types and environment categories, making it easier to understand our comprehensive testing strategy across the entire deployment pipeline. This visualization is particularly valuable for infrastructure planning. The original [LucidChart diagram](https://lucid.app/lucidchart/7ce9aad0-9cef-4b46-a62c-962f1f7fec9e/edit?viewport_loc=-686%2C30%2C3133%2C1583%2C0_0&invitationId=inv_3b6960ed-aaf0-4a35-95db-a3e63db5b937) also includes a Cells version so we can visualize what it will look like.
+
 ## Test metrics
 
 For visibility on the test health, we have test execution results exported to:

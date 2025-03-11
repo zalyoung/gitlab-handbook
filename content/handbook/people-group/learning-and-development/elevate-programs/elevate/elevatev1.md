@@ -156,7 +156,7 @@ We're committed to working with you to find a solution that let's you successful
 
 ### What if I have already completed the manager challenge?
 
-The [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) is a past iteration of leadership development at GitLab. We appreciate the time that past manager challenge participations have dedicated to their growth and development. Elevate is the next iteration in our GitLab manager journey, and is still required of manager challenge participants.
+The Manager Challenge was a past iteration of leadership development at GitLab. We appreciate the time that past manager challenge participations have dedicated to their growth and development. Elevate is the next iteration in our GitLab manager journey, and is still required of manager challenge participants.
 
 ### When I complete this program will I earn a certificate?
 

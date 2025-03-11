@@ -18,7 +18,7 @@ Depending on the impacted resources, the following teams should be engaged and m
 - [Database: Disaster Recovery Team](/handbook/engineering/infrastructure/database/disaster-recovery/) - responsible for disaster recovery strategy for the PostgreSQL database.
 - [Infrastructure Team](/handbook/engineering/infrastructure/#teams) - availability, reliability, performance, and scalability of GitLab SaaS software
 - [Infrastructure Security Team](/handbook/security/product-security/infrastructure-security/) - infrastructure teams stable counterpart focused on cloud infrastructure security, best practices, and vulnerability management
-- [Business Technology Engineering](/handbook/business-technology/engineering/) - endpoint and systems access management
+- [Business Technology Engineering](/handbook/business-technology/) - endpoint and systems access management
 - [Support Team](https://about.gitlab.com/support/) - responding to customer or employee inquiries regarding system outages
 - [Legal & Corporate Affairs](/handbook/legal/)
 - [Security Assurance](/handbook/security/security-assurance/) - assuring the security of GitLab as an enterprise application

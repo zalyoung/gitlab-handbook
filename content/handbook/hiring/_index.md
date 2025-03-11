@@ -68,8 +68,8 @@ Please find pages for potential and active applicants below.
 ### Candidate Experience Specialist Processes
 
 - [Candidate Experience Specialist Responsibilities](/handbook/hiring/talent-acquisition-framework/coordinator)
-- [ModernLoop](/handbook/hiring/prelude/)
-- [How to Complete a Contract - CES Process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
+- [ModernLoop](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories)
+- [How to Complete a Contract - CES Process](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories)
 
 ### Recruiters and Sourcers
 
@@ -287,9 +287,9 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - For candidates who are located in Countries where we do not have an entity, we use a PEO (Professional Employment Organization).  The actual employment contracts will be sent and issued by the PEO who also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and the PEO.
 - GitLab is currently hiring into three PEOs
-- [Remote.com](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#remotecom)
-- [Global Upside](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside)
-- [Papaya](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-add-the-new-hire-to-the-remote-platform)
+- [Remote.com](/handbook/hiring/talent-acquisition-framework/coordinator/#remotecom)
+- [Global Upside](/handbook/hiring/talent-acquisition-framework/coordinator/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside)
+- [Papaya](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-add-the-new-hire-to-the-papaya-platform)
 - The following timelines to onboarding are advised:
 
 **Remote.com:** [remote.com onboarding timeline](https://support.remote.com/hc/en-us/articles/4411262104589-Employee-Onboarding-Timeline)

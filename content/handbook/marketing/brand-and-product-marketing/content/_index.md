@@ -252,7 +252,7 @@ A topic page is a high-level explanatory "pillar" page dedicated to a specific t
 
 Case studies are in-depth customer stories that provide insight as to how GitLab has resolved significant software workflow problems for a company. The case study tells the story using quotes from customer interviews and straightforward metrics that broadly show the impact of adopting GitLab.
 
-[Case studies](/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#command-of-message-questions). Customer case studies are typically written by the Content Strategy & Ops team, but the case study development process is managed by the Customer Advocacy team. If you have an idea for a new case study, please contact the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
+[Case studies](/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/sales/command-of-the-message/). Customer case studies are typically written by the Content Strategy & Ops team, but the case study development process is managed by the Customer Advocacy team. If you have an idea for a new case study, please contact the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
 
 **Examples:**
 

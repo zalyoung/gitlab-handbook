@@ -40,16 +40,17 @@ Handling GitLab Dedicated tickets should be approached the same way as other tic
 - point the customer to the [GitLab Trust Center](https://trust.gitlab.com/?product=gitlab-dedicated) at `trust.gitlab.com` for inquiries related to compliance
 - point the customer to their CSM for any questions not addressed by the GitLab Trust Center
 
-### Test and reproduction GitLab Dedicated instance
+### Test and reproduction on GitLab Dedicated instance
 
 GitLab Support has access to a GitLab Dedicated instance for testing and problem
 reproduction purposes. This instance can be accessed at the following URLs:
 
-- GitLab: https://dedicatedtestsandbox.gitlab-private.org/
-- OpenSearch: https://opensearch.dedicatedtestsandbox.gitlab-private.org/_dashboards/
-- Grafana: https://grafana.dedicatedtestsandbox.gitlab-private.org/
+- GitLab: https://dedicatedtestsandbox.gitlab-private.org
+- OpenSearch: https://opensearch.dedicatedtestsandbox.gitlab-private.org/_dashboards
+- Grafana: https://grafana.dedicatedtestsandbox.gitlab-private.org
+- Switchboard: https://console.gitlab-private.org/tenants/40
 
-To receive an invite, ask Armin, Brie, Daphne or Wei-Meng.
+To receive an invite, ask Armin, Brie, Daphne or Wei-Meng in [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V).
 
 ### Conducting a test
 
@@ -59,15 +60,12 @@ When running a test on the GitLab Support Dedicated instance,
 - communicate about it on the Slack channel [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
 - revert your changes when you are done
 
-As the test instance is shared within the GItLab Support team, post a message at the beginning of a test with an estimate duration if the test is likely to impact the performance of the instance.
+As the test instance is shared within the GitLab Support team, post a message at the beginning of a test with an estimate duration if the test is likely to impact the performance of the instance.
 Upon test completion, revert your changes and use the emoji `:done:` to show the test is completed and the instance has been restored to the previous state.
 
-The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40.
-Follow [these instructions](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/tree/main#process-to-provision-new-users-pre-production-environment)
-to request access. You may use this [example access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/25151)
-as a starting point.
-
 This instance is deployed to the [`Test` environment](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main#deployed-environments).
+
+GitLab Duo is not supported on the test instance, see [STM 6619](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6619) for more information. 
 
 ### Administrative access to a Dedicated instance
 
@@ -223,7 +221,6 @@ If involving the Dedicated team becomes necessary:
 
 1. Note initial findings in [a `new-incident` issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/new?issuable_template=new-incident).
 1. Follow the [Dedicated on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#escalating-to-an-on-call-person).
-1. Set clear timeframes for the next investigation update with the customer. Our investigation process is transparent to customers and their stakeholders, making regular updates essential. Base the initial timeframe on the reported impact, and adjust it as the investigation progresses and we determine the actual scope. Setting clear expectations about update timing helps maintain customer trust throughout the process.
 
 #### Engaging the GitLab Dedicated CMOC
 

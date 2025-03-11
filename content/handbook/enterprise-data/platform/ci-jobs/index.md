@@ -73,12 +73,6 @@ Clones the entire RAW DB, created due to timeout issues when trying to clone the
 
 Run this if you want to force refresh raw, prod, and prep. This does a full clone of raw, but a shallow clone of `prep` and `prod`.
 
-#### `run_grants`
-
-Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake roles (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLES` CI variable. You can pass in a single role, or muluple separated by a space as in `role1 role2`. This job checks the git commit for the changed models and verifies that the submitted roles have adequate access in `PREP` and `PROD` to grant access in the clone. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
-
-**Note:** The `🔑grant_clones` job can be run multiple times during the development process. If new models are created after the initial run, you can re-run the job to ensure that grants are applied to these new objects as well.
-
 ### 🚂 Extract
 
 These jobs are defined in [`extract-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/extract-ci.yml)
@@ -245,6 +239,7 @@ Current caveats with the job are:
 - It will not tell you which tableau workbook to check
 - It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
 - It does not find dependencies for tables that use a dbt alias. [We discourage the use of aliases](/handbook/enterprise-data/platform/dbt-guide/#general) in models, but there are legacy tables that use aliases, so caution should be exercised when working with aliased tables. Downstream dependencies can be checked manually in MonteCarlo using the alias.
+- If there are any changes in Tableau, like adding or removing dependencies to a dashboard, it can take up to 8 days for Monte Carlo to reflect that change in lineage
 
 ##### Explanation
 
@@ -342,6 +337,12 @@ Runs specified model tests with the variable `DBT_MODELS`
 #### `🌱manual_seed`
 
 Runs a full seed operation. For use to confirm results when working on changes to the dbt seeds themselves.
+
+#### `run_grants`
+
+Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake roles (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLES` CI variable. You can pass in a single role, or multiple separated by a space as in `role1 role2`. This job checks the git commit for the changed models and verifies that the submitted roles have adequate access in `PREP` and `PROD` to grant access in the clone. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
+
+**Note:** The `run_grants` job can be run multiple times during the development process. If new models are created after the initial run, you can re-run the job to ensure that grants are applied to these new objects as well.
 
 ### 🐍 Python
 

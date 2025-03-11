@@ -1,6 +1,6 @@
 ---
 title: "Performance Enablement"
-description: "Performance Enablement team within Developer Experience sub-department"
+description: "Performance Enablement group within Developer Experience sub-department"
 ---
 
 ![Emerald City](images/DALL·E%20Emerald%20City.webp)
