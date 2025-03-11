@@ -184,8 +184,10 @@ component:
   variables:
     RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
 
+  image: alpine:latest
+
   before_script:
-    - apk add --update cosign
+    - apk add --update cosign jq
 
   script:
     - echo "Fetching GitLab Runner metadata..."
@@ -208,7 +210,7 @@ component:
     - cosign attest-blob --predicate predicate.json \
         --type slsaprovenance1 \
         --oidc-issuer "https://gitlab.com" \
-        --oidc-token "${GITLAB_OIDC_TOKEN}" \
+        --identity-token "${GITLAB_OIDC_TOKEN}" \
         "${TARGET_ARTIFACT}"
 
   artifacts:
@@ -233,7 +235,7 @@ stages:
 variables:
   COSIGN_VERSION: "v2.1.0"
   RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
-  RUNNER_METADATA_FILE: "artifacts-metadata.json"
+  RUNNER_METADATA_FILE: "artifacts-metadata.json" //This is the default filename when artifacts aren't explicitly named
 
 build_artifact:
   stage: build
@@ -244,7 +246,6 @@ build_artifact:
   artifacts:
     paths:
       - dist/
-      - ${RUNNER_METADATA_FILE}
     expire_in: 7d
 
 generate_provenance:
