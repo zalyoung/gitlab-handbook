@@ -69,7 +69,7 @@ above two options don’t work with your personal schedule.
 - When a SME is in standby mode (e.g. not paged) during the weekend shift, they can take 1.25x time-off.
 - When a SME is in call-back mode (e.g. being paged) during the weekend shift, they can take double the time-off.
 
-For those who reside in Australia, please refer to [these guidelines](https://gitlab.com/gitlab-com/content-sites/handbook/main/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia#on-call-engineering-only) of time in lieu in the handbook.
+For those who reside in Australia, please refer to [these guidelines](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/#on-call-engineering-only) of time in lieu in the handbook.
 
 Other alternatives that promote work-life balance and have the least impact to SME's personal schedule.
 
