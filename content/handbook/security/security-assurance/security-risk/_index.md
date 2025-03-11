@@ -91,9 +91,8 @@ Establishing a complete and accurate inventory of assets is key to the success o
 |:-:| :-------- | :--------------- | :------: | :--------------- |
 | 1 | Enhance our Acceptable Use Policy Program | | | |
 | 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. with documentation standards<br>- Scalable management of issues/recs. to improve adoption | In progress<br>Target Completion: Q3 |  |
-| 3 | Post-Implementation Control Assessment | | | |
-| 4 | Corp and Product Disaster Recovery Planning and Governance | | | |
-| 5 | Update Security Assurance KPIs | | | |
+| 3 | Corp and Product Disaster Recovery Planning and Governance | | | |
+| 4 | Update Security Assurance KPIs | | | |
 
 ## Review and Updates
 
