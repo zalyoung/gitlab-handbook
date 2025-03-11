@@ -6,11 +6,11 @@ description: "Describes the role and responsibilities for the Incident CMOC rota
 
 ## Introduction
 
-As the GitLab SaaS Incident [Communications Manager on Call (CMOC)](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) you are the voice of GitLab to our users and stakeholders during an incident. To do this effectively, you'll work primarily with the [Incident Manager (IM) and Engineer on Call (EOC)](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) and use a combination of [our status page](https://status.gitlab.com/) (powered by [Status.io](https://status.io)), Slack, Zendesk, and GitLab itself. The CMOC rotation is one of the rotations that make up [GitLab Support On-call](/handbook/support/on-call).
+As the GitLab SaaS Incident [Communications Manager on Call (CMOC)](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) you are the voice of GitLab to our users and stakeholders during an incident. To do this effectively, you'll work primarily with the [Incident Manager (IM) and Engineer on Call (EOC)](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) and use a combination of [our status page](https://status.gitlab.com/) (powered by [Status.io](https://status.io)), Slack, Zendesk, incident.io and GitLab itself. The CMOC rotation is one of the rotations that make up [GitLab Support On-call](/handbook/support/on-call).
 
 To disambiguate this term on other pages, you may see the acronym ICMOC or see the role referred to as "Incident CMOC". As this page is scoped to only this role it uses CMOC, Incident CMOC, and ICMOC interchangeably.
 
-Our Slack bot [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) provides a command (`/incident post-statuspage`) to quickly spin up an incident on [Status.io](https://status.io). From there, the basics of how to update and close incidents in Status.io are covered by their [Incident Overview](https://kb.status.io/incidents/incident-overview/) documentation. This document covers how GitLab specifically uses Status.io to perform those tasks.
+Our Slack bot [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) provides a command (`/woodhouse incident post-statuspage`) to quickly spin up an incident on [Status.io](https://status.io). From there, the basics of how to update and close incidents in Status.io are covered by their [Incident Overview](https://kb.status.io/incidents/incident-overview/) documentation. This document covers how GitLab specifically uses Status.io to perform those tasks.
 
 ### How to be added to the CMOC PagerDuty rotation
 
@@ -29,16 +29,15 @@ This section contains information specific to how incidents are started, what va
 
 #### How Incidents Are Declared
 
-Infrastructure uses [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) to [declare incidents through Slack](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). Doing so will:
+Infrastructure uses [incident.io](https://incident.io/) to [declare incidents through Slack](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). Doing so will:
 
 1. Automatically page the EOC, IM, and CMOC.
 1. Create an issue for the incident in the [Production](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/) issue tracker.
-1. Provide a link to the Zoom call for the incident.
-1. Create a dedicated Slack channel for the incident.
+1. Create a dedicated Slack channel for the incident. It also generates an incident zoom call and an incident.io homepage to keep track of private comments and timeline, read more [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/incident-io-onboard/incident-management.md?ref_type=heads)
 
-This information will all be posted to Slack in the `#incident-management` channel by Woodhouse and it'll look similar to the following example.
+This information will all be posted to Slack in the `#incidents` channel by incident.io and it'll look similar to the following example.
 
-![Incident declared by Woodhouse](/images/support/cmoc_incident_declared.png)
+![Incident declared by incident.io](/images/support/cmoc_incident_declared.png)
 
 GitLab team members are encouraged to use this method of reporting incidents if they suspect GitLab.com is about to face one.
 
@@ -109,11 +108,17 @@ The template will ping CMOC DRIs in scenarios where we need to update or add com
 
 ### About Contact Requests
 
-Whether related to an ongoing incident or not, Infrastructure or Security may ask you to reach out to one or more users if they detect unusual usage. Please follow the [Sending Notices]({{< ref "sending_notices" >}}) workflow to action these requests. Additionally, refer to the [End of Shift Handover Procedure](#end-of-shift-handover-procedure) for details on handing off contact requests.
+Whether related to an ongoing incident or not, Infrastructure or Security may ask you to reach out to one or more users if they detect unusual usage. Please follow the [Sending Notices](/handbook/support/workflows/sending_notices/) workflow to action these requests. Additionally, refer to the [End of Shift Handover Procedure](#end-of-shift-handover-procedure) for details on handing off contact requests.
 
 ### How to Page the CMOC?
 
 The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the EOC, IM or CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc) section of the main incident management handbook.
+
+### About Coordinating a Support Response
+
+When there is an incident that results in unexpected customer impact, and requires a non-standard workflow or communication from Support, you should create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to help coordinate Support action and response.
+
+Keep this issue updated as communication guidelines or workflows change so that it remains the single source of truth for Support-related information.
 
 ### CMOC Performance Indicators
 
@@ -147,7 +152,7 @@ Mark the page as [acknowledged](#pagerduty-status-definitions). This can be done
 
 #### Join Incident Channel & Zoom
 
-A link to the call is provided in the incident declaration post by Woodhouse in `#incident-management`.
+A link to the call is provided in the incident declaration post by incident.io in `#incidents`.
 
 Your role while on the call is to follow along while the incident is worked and make updates to Status.io either when asked to or when it's necessary. Oftentimes chatter in this room will be lively, especially in the early stages of an incident while the source of the issue is being discovered. Use your best judgment on when it's appropriate to speak up to avoid vocalizing at inopportune times. You can always ping anyone on the call through Slack if you need to ask a non-urgent question about the situation.
 
@@ -211,7 +216,7 @@ The following is an example of an incident ready to be created regarding a delay
 
 #### Create Through Slack
 
-You simply need to issue `/incident post-statuspage` from anywhere on Slack. You will be presented with a pre-filled form that you can update to your liking. Once submitted, the incident will be broadcast to the following media:
+You simply need to issue `/woodhouse incident post-statuspage` from anywhere on Slack. You will be presented with a pre-filled form that you can update to your liking. Once submitted, the incident will be broadcast to the following media:
 
 - Email subscribers
 - Webhook subscribers
@@ -445,7 +450,7 @@ Update the new schedule time by hitting on the *Reschedule Maintenance* button *
 > **Note About Automated Maintenance Events**: On the Maintenance Event page you may see `Automation: Running`  with red text in parenthesis next to it reading `(Disable)`.
 Once `(Disable)` has been clicked and subsequently disabled it cannot be re-enabled.
 In order to `Post Update` and `Finish Maintenance` the automated Maintenance Event must be `(Disable)`.
-After being disabled all future updates to this Maintenance Event must be manual updates from that point forward.
+After being disabled all future updates, including starting the Maintenance Event must be performed manually from that point forward.
 
 To send an update about a maintenance event, such as a reminder, go to the *Maintenances* tab in Status.io and select the one that needs an update. On the maintenance's information page, make note of whether automatic email reminders are set to go out. If yes, make sure not to send email broadcasts for your update in order to avoid sending duplicate reminders to subscribers. Once ready to update, select the *Post Update Without Starting* button.
 

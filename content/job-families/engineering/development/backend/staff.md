@@ -226,7 +226,7 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 - Work with the Product Manager to carefully assess technical feasibility of feature requests.
 - Deliver proof-of-concept proposals to help guide technical discussions.
 - Identify ways to deliver complex technical projects in an iterative fashion.
-- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#epic-ownership) of feature implementation.
+- Take [ownership](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#work-ownership) of feature implementation.
 - Respond quickly to customer requests for support.
 
 #### Requirements
@@ -275,7 +275,7 @@ to understand what is working and what is not.
 - Experience using Continuous Integration systems (e.g., GitLab CI, Jenkins, Travis).
 - Experience using Docker and containerized architectures (e.g. Kubernetes).
 
-See the description of the [Quality team](/handbook/engineering/quality/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
+See the description of the [Developer Experience stage](/handbook/engineering/infrastructure-platforms/developer-experience/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with other [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
 
 ### Application Performance
 

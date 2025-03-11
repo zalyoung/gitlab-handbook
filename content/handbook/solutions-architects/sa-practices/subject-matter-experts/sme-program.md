@@ -36,7 +36,7 @@ Each SME Area, therefore with both SA and CS Area Leads and all SA and CS SMEs c
 
 While it is highly recommended to have only one SA SME for each area per region, there can exist other subject matter experts (SME) or SME Associates.  However one SA should be designated regional SME per area who will take on the responsibilities of being a SME DRI in the SME program, including maintaining collateral, gathering feedback from customers, engaging with product management.
 
-Here is the list of the [current SA SMEs for each Area](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list).  This is the list of the corresponding [CS SMEs for each Area](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on).
+Here is the list of the [SMEs for each Area](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on).
 
 ## SME Roles
 
@@ -47,19 +47,21 @@ SMEs are expected in general to fulfill two main responsibilities:
 * Be experts and maintain a high level of expertise in their area, craft and domain
 * Be the DRI and be responsible for leading and directing various aspects associated with the SME program including, maintaining collateral, gathering feedback from customers, engaging with product management.
 
-However there would be number of SAs (and CSMs) who, as part of their career development, would not desire or are not ready to participate as a DRI in the SME program, but would express interest to focus and go technically deeper in one of the SE Areas: AI, App Security, Agile Planning, Dedicated, CI & Runners (TBD), Metrics and Observability (TBD)
+However there would be number of SAs (and CSMs) who, as part of their career development, would not desire or are not ready to participate as a DRI in the SME program, but would express interest to focus and go technically deeper in one of the SE Areas: AI, App Security, Agile Planning, Dedicated, CI & Runners, Metrics and Observability.
 
 Think of SME Associates as those potential SMES. who declare a major as they look to advance and graduate in their craft.
 
 These are not the regional SME representatives, who are responsible for leading and directing various aspects of the SME program.
 
-These are SME Associates. There are no limits to number of SAs who can express interest in becoming an expert in any one of the SME Areas.
+These are SME Associates. There are no limits to number of SAs who can express interest in becoming an expert in any one of the SME Areas. SME Area Leads will use their Collab project to track a list of Associates.
 
 As an example, an SA manager can encourage all SA team members, in a geography or region, to express interest in having one or more focuses, as a part of their development, to improve their craft in that area.
 
 SME Associates can be mentored by their regional SMEs.
 
 SME Associates can form a pool from which the next Regional SME for a particular area can be selected.
+
+SME Associates will proactively track their progress with list of contributions and mapping to skills required in preparation for becoming a SME. Skills required will vary based on the SME Area.
 
 Full Responsibilities for this and other SME roles are detailed [here](\#sme-responsibilities).
 
@@ -141,9 +143,9 @@ The nomination and selection process for SME Are Leads will be as follows:
 5. Selection: The panel will select SME Area Leads based on their areas of expertise and relevant experience.
 6. Onboarding: Selected SME Area Leads will undergo a brief onboarding process to familiarize with their new responsibilities and expectations.
 
-## SME Training (TBD)
+## SME Training
 
-Training to become a SME can take the form of mentorship, office hours, certifications, a prescribed set of training, videos, demos, support for workshops and field events.
+Training to become a SME can take the form of mentorship, office hours, certifications, a prescribed set of training, videos, demos, support for workshops and field events. Each SME Area will determine the necessary training path for new SMEs. For example, this [Issue](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/subject-matter-experts/sa-sme-team-dedicated/-/issues/6) describes the skill levels and associated skills expected to be customer ready as a Dedicated SME.
 
 In addition, SMEs should be given the opportunity to attend conferences and speak on behalf of GitLab in their area of experties.
 
@@ -151,13 +153,15 @@ We will offer a Shadow a PM program in the future.
 
 Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
-The Goal in the future is to organize the content in a prescribed way to allow a SME Associate to gain expertise to become a SME (TBD)
+The Goal in the future is to organize the content in a prescribed way to allow a SME Associate to gain expertise to become a SME.
 
-## SME Onboarding (TBD)
+## SME Onboarding
 
 When a new SME for any area is selected, the following steps will be taken:
 
-1. Add the SME to the relevant Goggle Group (TBD) for their Area of Expertise. This will ensure that the SME is added automatically to all cadence calls for that Area.
-2. Add the SME to the appropriate Stack OverFlow team area to begin answering questions
-3. Add the SME to the appropriate [SME Slack Channel](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)
-4. TBD
+1. The SME receives approval from their direct manager to participate in the SME program for their region.
+2. The new SME will complete any required on-boarding for the SME Area. Required on-boarding will be decided by each area. Examples, [Embedded](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/subject-matter-experts/embedded-devops-sme/-/blob/main/.gitlab/issue_templates/Embedded_DevOps_SME_Candidate_Onboarding.md) and [Dedicated](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/subject-matter-experts/sa-sme-team-dedicated/-/blob/main/.gitlab/issue_templates/New%20Dedicated%20SME%20Onboarding.md) on-boarding Issue templates.
+3. Add the SME to the relevant Google Group and Slack Group for their Area of Expertise. This will ensure that the SME is added automatically to all cadence calls for that Area.
+4. Add the SME to the appropriate Stack OverFlow team area to begin answering questions
+5. Add the SME to the appropriate [SME Slack Channel](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/#sme-slack)
+6. As a new SME, strive to contribute to a new request for help, shared content review, Stack Overflow question, or other helpful effort.

@@ -11,6 +11,14 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 
 ### Task A. Access the Prometheus Service
 
+1. GitLab's Prometheus server can be reached via TCP port 9090. Unfortunately, the training environment currently blocks inbound traffic to that port. As a workaround, you can open an SSH tunnel as follows.
+
+    ```bash
+    ssh -L 8001:localhost:8001 -i <SSH_KEY_NAME> root@<GITLAB_INSTANCE_HOSTNAME>
+    ```
+    
+### Task B. Access the Prometheus Service
+
 1. GitLab's Prometheus server can be reached via TCP port 9090. To access this port, you need to create a proxy into your Kubernetes cluster. This can be done with the following command:
 
     ```bash
@@ -25,7 +33,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 
     > To see a more detailed list of each metric, check out the [documentation](https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics.html).
 
-### Task B. Viewing Prometheus Metrics
+### Task C. Viewing Prometheus Metrics
 
 > For this example, suppose you wanted to monitor HTTP requests sent into your GitLab instance. To achieve this, we can use some built in GitLab metrics.
 
@@ -43,7 +51,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 
     > On the left hand side of the graph, you will see a **-** and **+** button. You can click these buttons to change the scale of the graph. Try adjusting the scale to see how it impacts your data.
 
-### Task C. Alert Configurations
+### Task D. Alert Configurations
 
 > Prometheus can be used to alert administrators based on specific metrics. GitLab comes with a set of predefined alerts for Prometheus.
 
@@ -57,7 +65,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 
     > As an administrator, you can define custom rules inside this file to use for alerting. This will allow you to monitor your system for any potential issues.
 
-### Task D. Common Performance Metrics
+### Task E. Common Performance Metrics
 
 There are a variety of different metrics administrators can use to monitor the performance of their GitLab instances. Let's examine a few common queries you can use to monitor an instance.
 

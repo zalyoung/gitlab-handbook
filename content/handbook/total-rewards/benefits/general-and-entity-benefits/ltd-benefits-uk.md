@@ -54,23 +54,23 @@ Please also note that this is a taxable benefit. Team members enrolled will stil
 
 ### Medical Premiums and Benefit In Kind Reporting
 
-Please see the Annual 2024 Rates effective 2024-03-01:
+Please see the Annual 2025 Rates effective 2025-03-01:
 
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | £904  | £904   | £0   |
-| Team Member + Spouse     | £1,808 | £1500.64 | £307.36 |
-| Team Member + Child.     | £1537  | £1321.78 | £215.22 |
-| Family                   | £2,441  | £1918.42 | £522.58 |
+| Team Member Only         | £958.00 | £958.00  | £0   |
+| Team Member + Spouse     | £1,916.00 | £1,590.28 | £325.72 |
+| Team Member + Child.     | £1,629.00 | £1,400.86 | £228.14 |
+| Family                   | £2,587.00  | £2,033.14 | £553.86 |
 
-Please see the Monthly 2024 Rates effective 2024-03-01:
+Please see the Monthly 2025 Rates effective 2025-03-01:
 
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | £75.34  | £75.34   | £0   |
-| Team Member + Spouse     | £150.67 | £125.05 | £25.62 |
-| Team Member + Child.     | £128.08 | £110.14 | £17.94 |
-| Family                   | £203.41  | £159.87 | £43.55 |
+| Team Member Only         | £79.83 | £79.83  | £0   |
+| Team Member + Spouse     | £159.67 | £132.52 | £27.14 |
+| Team Member + Child.     | £135.75 | £116.74 | £19.01 |
+| Family                   | £215.58 | £169.43 | £46.16 |
 
 The Team Member cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit. An audit and reconciliation of Benefit in Kind reporting and Deductions will occur annually around February.
 
@@ -207,7 +207,7 @@ The certification level that has been chosen is **basic salary** only and will n
   - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
@@ -340,7 +340,7 @@ Team members are entitled to at least 28 vacation days which consist of 20 days 
 
 This section details the statutory maternity, paternity, parental, and adoption leave as offered by the UK Government. For more information, please review the government's [webpage](https://www.gov.uk/browse/childcare-parenting).
 
-**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit]({{< ref "general-and-entity-benefits#parental-leave" >}}) where, if eligible, statutory pay is supplemented up to 100% regular salary.
+**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) where, if eligible, statutory pay is supplemented up to 100% regular salary.
 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 

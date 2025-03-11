@@ -12,7 +12,7 @@ Here are links to the most popular Professional Services topics.
 * [Marketed Offerings](https://about.gitlab.com/services/)
 * [Offerings Framework & Delivery Kits](framework/)
 * [Positioning](positioning/)
-* [Professional Services Methodology](processes/)
+* [Professional Services Methodology](professional-services-delivery-methodology/)
 * [Selling](selling/)
 * [Working with PS](working-with/)
 * [SKUs](SKUs/)
@@ -29,7 +29,7 @@ The Professional Services team is organized according to specialized functions a
 
 | Function | Responsibilities |
 |---|---|
-| [Delivery](processes/) | Service delivery planning and execution through specialized engineering team members |
+| [Delivery](professional-services-delivery-methodology/) | Service delivery planning and execution through specialized engineering team members |
 | [Engagement Management](engagement-mgmt/) | Opportunity and SOW scoping and closing in collaboration with GitLab Sales team members |
 | [Instructional Design and Development](instruct-dev/) | Educational content creation, deployment, and maintenance |
 | [Practice Management](practice-mgmt/) | Definition, planning, go-to-market, and performance for specific categories of professional services offerings |

@@ -23,8 +23,8 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 
 | Contact | Division or Departments |
 |-------------------|-------------|
-| Anjali Kaufmann   | People Goup |
-| Anjali Kaufmann   | Legal and Corporate Affairs |
+| Carolyn Bednarz  | People Group |
+| Carolyn Bednarz  | Legal and Corporate Affairs |
 | Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
 | Tracy Lu | Sales - APJ|
 | Giuliana Lucchesi | Finance |
@@ -36,7 +36,7 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 | Kristina Bullock   |Chief of Staff to the CEO|
 | Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
 | Lauren Tepper     | Sales - AMER, Public Sector, Global Digital, Field Operations  |
-| Brandi McDonald | Marketing |
+| Brandi McDonald | Sales & Marketing |
 
 ## How to partner with PBPs to foster high performance in your team
 

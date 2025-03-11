@@ -81,7 +81,7 @@ Our active feature flags can be found on the [feature flag dashboard](https://10
 
 #### General planning
 
-Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
+Our team does not use Quad-Planning process because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
 
 #### Release planning issue
 
@@ -178,7 +178,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 - Issues labeled with ~"type::feature" include a well stated "why" and customer problem
 - Issues labeled ~"type::bug" include steps to reproduce
 - Designs are in the design tab if needed
-- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code-be/#weights)
+- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code/backend/#weighting-issues)
 - Design proposal satisfies the [UX Definition of Done (DoD)](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#definition-of-done-for-ux-pilot)
 
 #### Definition of Blocked

@@ -701,6 +701,12 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
+#### Success Tiers Attach  
+
+In FY26, we implemented a sales policy around the attachment of Success Tiers. For policy details, please read more on the dedicated Success Tiers HighSpot page [here](https://gitlab.highspot.com/items/661452f930a6998673c6d54b?lfrm=srp.0).
+
+Have questions? Please ping the [#success-tiers](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) Slack channel.
+
 #### Service Attach Quoting Process
 
 If an opportunity meets the criteria listed above, the Minimum Professional Services Amount must be attached to the opportunity. Services can be attached using one of two methods:
@@ -736,7 +742,7 @@ For quotes that contain the Professional Services SKU [consulting block](https:/
 
 **Summary: Waived True-Ups require executive approvals and may negatively impact Net ARR.**
 
-1. Waived True-Ups require written approvals per the [approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.dccvx02huo2y). Approvals should be sought in SFDC via the [quote approval automation](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval).
+1. Waived True-Ups require written approvals per the [approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.dccvx02huo2y). Approvals should be sought in SFDC via the [quote approval automation](/handbook/sales/field-operations/order-processing/#standard-quote-approval).
 1. After approval is obtained, Sales should create the appropriate opportunity and quote. Typically, true up waivers are required after renewal, and thus require an Add-On opportunity with an amend subscription quote. The true up SKU must be added to the same subscription that incurred the overage. On the quote, Sales should apply the appropriate true up SKU and quantity approved to be waived, at a 100% discount. After saving the quote, Sales should request internal support to create a case for Deal Desk to override the quote approval requirement.
 1. Like all GitLab deals, waived true up orders must meet booking requirements as described [here](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements). In most cases, that means that the customer must sign a $0 Order Form, or issue a $0 PO.
 1. Upon booking the true up waiver opportunity, Order Management will notify @Revenue of the waiver in SFDC chatter.
@@ -747,7 +753,7 @@ For quotes that contain the Professional Services SKU [consulting block](https:/
 
 ### How to Request Quote Approval via Chatter
 
-Rarely, certain urgent or complex deals may require expedited approval via chatter. Use the applicable template below to request approvals. You will need to tag the approvers outlined in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0). For **standard quotes** please s[ubmit the quote for approval](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval), do not request additional approval in chatter.
+Rarely, certain urgent or complex deals may require expedited approval via chatter. Use the applicable template below to request approvals. You will need to tag the approvers outlined in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0). For **standard quotes** please s[ubmit the quote for approval](/handbook/sales/field-operations/order-processing/#standard-quote-approval), do not request additional approval in chatter.
 
 **If you are Requesting Approval for New Subscriptions:**
 
@@ -922,11 +928,11 @@ The first time you login to DocuSign from SFDC, you will be required to Authoriz
 
 1. After clicking on the "Send with DocuSign" button, you will be prompted with this screen. Select "Authorize" to continue.
 
-      ![DocuSign 1](/handbook/sales/images/docusign1.png)
+      ![DocuSign 1](/images/sales/docusign1.png)
 
 2. On the next screen, login to your DocuSign account. Enter your GitLab email address and click continue. This will automatically log you in with OKTA.
 
-      ![DocuSign 2](/handbook/sales/images/docusign2.png)
+      ![DocuSign 2](/images/sales/docusign2.png)
 
 3. Once logged in, click "Accept" to grant access to DocuSign.
 4. On the next screen, click "Allow" to grant DocuSign access to Salesforce.
@@ -934,7 +940,7 @@ The first time you login to DocuSign from SFDC, you will be required to Authoriz
 
 #### How to Send an Order Form to the Customer for Signature via DocuSign
 
-![DocuSign 4](/handbook/sales/images/docusign4.png)
+![DocuSign 4](/images/sales/docusign4.png)
 
 To send a digital copy of an Order Form to the customer via DocuSign:
 
@@ -943,7 +949,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 1. Confirm the PDF has been generated under the "Google Docs, Notes & Attachments" section on the opportunity.
 1. From the Opportunity, select the "Send with DocuSign" button.
 
-      ![DocuSign 5](/handbook/sales/images/docusign5.png)
+      ![DocuSign 5](/images/sales/docusign5.png)
 
 1. Here, a DocuSign window appears with the **most recent** file selected by default.
 
@@ -1012,7 +1018,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 
 1. From the Opportunity level in our Salesforce instance, you can view the status of a document by hovering over the "DocuSign Envelope Status.
 
-    ![DocuSign 6](/handbook/sales/images/docusign6.png)
+    ![DocuSign 6](/images/sales/docusign6.png)
 
     - Once the document has been sent the status will state "Sent."
     - Once the document has been signed the status will update to "Completed."

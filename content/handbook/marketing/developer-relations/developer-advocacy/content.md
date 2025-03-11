@@ -28,11 +28,6 @@ The team's content is distributed in the content platforms below, and in [Highsp
 
 This section provides examples from the many blog posts authored by the Developer Advovacy team. Click on the author names for a full list of blog posts.
 
-- [Abubakar Siddiq Ango](https://about.gitlab.com/blog/authors/abuango/)
-  - [Streamline DevSecOps engineering workflows with GitLab Duo](https://about.gitlab.com/blog/2024/12/05/streamline-devsecops-engineering-workflows-with-gitlab-duo/)
-  - [GitLab Duo Chat 101: Get more done on GitLab with our AI assistant](https://about.gitlab.com/blog/2024/05/29/gitlab-duo-chat-101-get-more-done-on-gitlab-with-our-ai-assistant/)
-  - [Write Terraform plans faster with GitLab Duo Code Suggestions](https://about.gitlab.com/blog/2024/01/24/write-terraform-plans-faster-with-gitlab-duo-code-suggestions/)
-  - [How to migrate from Bamboo to GitLab CI/CD](https://about.gitlab.com/blog/2023/10/26/migrating-from-bamboo-to-gitlab-cicd/)
 - [Cesar Saavedra](https://about.gitlab.com/blog/authors/csaavedra1/)
   - [Modernizing a simple C++ application to Java with GitLab Duo](https://about.gitlab.com/blog/2024/12/11/modernizing-a-simple-c-application-to-java-with-gitlab-duo/)
   - [5 videos and interactive tours to learn GitLab Duo fast](https://about.gitlab.com/blog/2024/08/28/5-videos-and-interactive-tours-to-learn-gitlab-duo-fast/)
@@ -86,6 +81,8 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [GitLab Duo Self-Hosted](https://gitlab.navattic.com/gitlab-duo-self-hosted) |  GitLab Duo | 2025-02-13 | @iganbaruch |
+| [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2025-01-27 | @iganbaruch |
 | [Idea to MR](https://gitlab.navattic.com/duo-q) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Java modernization](https://gitlab.navattic.com/duo-q-transform) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast) | DevSecOps Platform | 2024-09-22 | @iganbaruch |
@@ -104,6 +101,7 @@ While the [product tours](#product-tours) provide guided walkthroughs with navig
 
 | Title | Area | Last updated |DRI |
 |-------|------|--------------|-----|
+| [Compliance Frameworks](https://gitlab.navattic.com/compliance-internal) | DevSecOps Platform | 2025-02-20 | @iganbaruch |
 | [Idea to MR](https://gitlab.navattic.com/duo-q-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
 | [Java modernization](https://gitlab.navattic.com/duo-q-transform-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast-internal) | DevSecOps Platform | 2024-09-24 | @iganbaruch |
@@ -186,7 +184,7 @@ Product tours are published in the following locations:
 
 - [DA Handbook](#product-tours)
 - Highspot
-- Docs (following the GitLab documentation style guide for demo [links](https://docs.gitlab.com/ee/development/documentation/styleguide/#link-to-click-through-demos)
+- Docs (follow the GitLab documentation style guide for demo [links](https://docs.gitlab.com/ee/development/documentation/styleguide/#link-to-click-through-demos))
 
 Additionally, select tours may be featured on the website.
 
@@ -230,13 +228,13 @@ After content has been crafted and published, the next step is distribution. Her
 
 For documentation and community:
 
-1. Tutorial blog posts, demos, etc. that are helpful to everyone should be added to the [GitLab documentation](https://docs.gitlab.com/). Follow the contribution docs and create [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics) headings if not existing. Raise an MR, use content short URLs, and ask the [designed technical writer](/handbook/product/ux/technical-writing/#designated-technical-writers) to review. Example MR: [Add tutorial blog posts to workspaces docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/127500)
+1. Tutorial blog posts, demos, etc. that are helpful to everyone should be added to the [GitLab documentation](https://docs.gitlab.com/). Follow the contribution docs and create [related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/#related-topics) headings if not existing. Raise an MR, use content short URLs, and ask the [assigned technical writer](/handbook/product/ux/technical-writing/#assignments) to review. Example MR: [Add tutorial blog posts to workspaces docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/127500)
 1. Consider sharing your content on one of our community platforms like the [GitLab Forum](https://forum.gitlab.com/) or the [r/gitlab](https://www.reddit.com/r/gitlab) subreddit. If you're covering a topic that's broader than GitLab, you can also consider other subreddits or cross-posting your content on blogging sites like dev.to.
 
 For social media:
 
 1. Draft some copy for sharing your content on social media. See [Content Sharing](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content) for tips and an overview of different platforms. Review the [message tips](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips) for additional engagement ideas, e.g. emojis.
-1. Suggest your content as a story on Bambu so other GitLab team members can also share it. [Details on how to suggest content on Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-bambu).
+1. Suggest your content as a story on EveryoneSocial so other GitLab team members can also share it. [Details on how to suggest content on EveryoneSocial](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-everyonesocial).
 1. After posting your content on social media, share a link in the [`#social-media-action`](https://gitlab.slack.com/archives/C01AZ9C8Z4G) Slack channel to request promotion from the social media team.
 
 For GitLab teams:

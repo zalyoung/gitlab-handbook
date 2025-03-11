@@ -61,7 +61,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 1. Select the pipeline that was created from your commit.
 
-1. Review the jobs in the pipeline. Notice how a `SAST` scan is run on this commit even though no `.gitlab-ci.yml` configuraiton exists.
+1. Review the jobs in the pipeline. Notice how a `SAST` scan is run on this commit even though no `.gitlab-ci.yml` configuration exists.
 
 Now, the projects in your group will always have security scans, even if they aren't defined in the `.gitlab-ci.yml` file yet.
 

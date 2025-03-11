@@ -12,7 +12,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 
 | Product Marketing | Developer Advocate |
 | ---- | --- |
-| Aathira Nair (@anair5)  | [William Galindez Arias](https://gitlab.com/warias) |
+| Aathira Nair (@anair5)  | [William Galindez Arias](https://gitlab.com/waarias) |
 
 ## Software Delivery Automation
 

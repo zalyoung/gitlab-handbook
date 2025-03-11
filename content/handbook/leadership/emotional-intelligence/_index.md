@@ -27,7 +27,7 @@ Learn more about emotional intelligence by watching this session titled Being Hu
 
 EQ is a major factor in developing and maintaining [cultural awareness](/handbook/company/culture/all-remote/building-culture/). By fostering emotional intelligence, you are able to promote understanding, respect, and good relationships across all teams, regardless of their locations.
 
-It is a tool that is helping GitLab build an [inclusive environment for everyone](/handbook/company/culture/inclusion/building-diversity-and-inclusion/). By understanding that others might have different responses and customs based on their upbringing, you can develop social and emotional intelligence.
+It is a tool that is helping GitLab build an inclusive environment for everyone By understanding that others might have different responses and customs based on their upbringing, you can develop social and emotional intelligence.
 
 ## Components of EQ
 
@@ -72,7 +72,7 @@ Skills and behavior of the emotional intelligence [manager competency](/handbook
 
 ## How to understand your EQ
 
-In order to develop your EQ, you need to understand your current baseline of how developed the skill is. Take one or more of the many free EQ assessments below to gain a better understanding of where you stand. Share the results with your team. If you are a [manager]({{< ref "leadership" >}}), encourage your team to take one of the assessments. Use the results to tailor discussions and interactions with them. The more you know about your team personally and professionally, the more you can strengthen your EQ.
+In order to develop your EQ, you need to understand your current baseline of how developed the skill is. Take one or more of the many free EQ assessments below to gain a better understanding of where you stand. Share the results with your team. If you are a [manager](/handbook/leadership/), encourage your team to take one of the assessments. Use the results to tailor discussions and interactions with them. The more you know about your team personally and professionally, the more you can strengthen your EQ.
 
 ### Emotional intelligence (EQ) assessments
 

@@ -460,7 +460,7 @@ Support will take the lead on all incoming requests in the queue and only forwar
 - [Detailed Exit Stage Criteria Google Sheet](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321)
 - [Exit Criteria at a Glance](https://gitlab.highspot.com/items/6245c14f198094aabf1cfe52?lfrm=srp.0)
 
-![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
+![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 - Please read through the [Commercial Sales Opportunity Stages handbook page](/handbook/sales/commercial/comm-sales-opp-stages/) for more information.
 
@@ -653,7 +653,7 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 
 - [Approved Partner GitLab Deal Registrations](/handbook/resellers/#the-deal-registration-program-overview) As these are received in your territory, in most cases* you will be contacted by a GitLab channel team member to arrange a co-selling kickoff call to develop a simple Partner co-selling plan to share with the Partner. GitLab Channel Managers do not proactively manage all OPEN Partners. AEs can always request Channel Manager support for a Deal Registration by slacking channel-sales or available contacts.
 - If you find themselves thinking 1. "a Partner SA could execute on this customer-requested SA task", or 2. AEs have customers that could benefit from a "Partner services attach engagement", reach out on slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) with a Partner engagement request, if possible with a link to the related account or opportunity. A member of the channel team will promptly reach out to learn more about the request, and connect you with a Partner that is pre-qualified to promptly and properly execute on the task at hand, and keep you updated along the way.
-- AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
+- AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/resellers/). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
 - Channel Managers will engage with AE's in the following ways:
   - When a new deal registration arrives in the AE's pipeline
   - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
@@ -666,7 +666,7 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 
 - If this is a first time for an AE, we recommend watching the available training delivered. This Levelup video starts with a basic understanding of the [Channel Partner landscape](https://youtu.be/OeykHQetd7U).
 - LevelUp video on [Maximizing Value of Partners in a Deal](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2) specifically for AE's to learn more about co-selling success.
-- [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE's R7 & Command Plans](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans) and much more in the [Channel Sales Handbook](/handbook/sales/channel/).
+- [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE's R7 & Command Plans](/handbook/resellers/) and much more in the [Channel Sales Handbook](/handbook/resellers/).
 - Slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) or reach out to your Channel Account Manager with any questions or requests for assistance. The channel is closely monitored by several members of the channel team who are here to help AE's succeed in co-selling in any way we can.
 - List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/s/articleView?language=en_US&id=reports_schedule.htm&type=5)
 - Channel Partner Finder **[Here](https://partners.gitlab.com/English/directory/)

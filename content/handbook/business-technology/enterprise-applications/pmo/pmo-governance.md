@@ -147,7 +147,7 @@ One of the deliverables of the program beyond a working technical solve is docum
 
 ### Clear documentation for compliance
 
-Additionally, we need clear documentation to meet change management controls and new product introduction controls. These are fully documented [here](/handbook/business-technology/it-compliance/ITGC/).
+Additionally, we need clear documentation to meet change management controls and new product introduction controls. These are fully documented [here](/handbook/security/security-assurance/security-compliance/sec-controls/).
 
 The relevant controls that need to be documented in these programs are these three:
 

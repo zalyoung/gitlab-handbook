@@ -19,7 +19,7 @@ When a new ticket comes in and there is an organization attach to this ticket,
 there will be a Zendesk automation trigger
 ([Ticket::Internal Comment::Organization Info](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/-/blob/master/triggers/active/Automation%20Stage/Post%20internal%20note%20about%20Organization%20info.yaml))
 that puts an internal comment to the ticket. This internal comment will include
-[organization notes]({{ ref "/handbook/support/readiness/operations/docs/zendesk/organizations" >}})
+[organization notes](/handbook/support/readiness/operations/docs/zendesk/organizations/)
 if it exists. These organization notes are saved within Zendesk, visible to
 agents only, not to end-users.
 

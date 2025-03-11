@@ -481,7 +481,7 @@ Here are some reasons to use containers:
 
 ### Add GitLab Colors
 
-You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau-style-guide/#standard-color-palette)
+You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/#standard-color-palette)
 
 ### Using Dual Axis Charts
 

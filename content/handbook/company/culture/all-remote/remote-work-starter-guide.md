@@ -59,7 +59,7 @@ When there is no office to spark spontaneous [informal communication](informal-c
 
 ### 4. Respect the routine, but try new things (find structure)
 
-One of the [benefits of remote]({{< ref "remote-benefits" >}}) is the ability to experiment with unconventional working days. Not everyone shares the same [peak hours of energy and focus](https://www.jonobacon.com/2019/01/14/remote-working-survival/). For example, if you work best in late evenings, let your team know you are going to try some [non-linear workdays](non-linear-workday/#q-what-is-a-non-linear-workday-routine).
+One of the [benefits of remote](/handbook/company/culture/all-remote/remote-benefits/) is the ability to experiment with unconventional working days. Not everyone shares the same [peak hours of energy and focus](https://www.jonobacon.com/2019/01/14/remote-working-survival/). For example, if you work best in late evenings, let your team know you are going to try some [non-linear workdays](non-linear-workday/#q-what-is-a-non-linear-workday-routine).
 
 You can maximize the benefits of [asynchronous workflows](asynchronous/) in an [all-remote](terminology/) situation if you fill your former commute space with things that make you [healthier](mental-health/) like exercising, resting, bonding with family, cooking, reading, studying, etc.
 
@@ -102,8 +102,8 @@ For a deep dive, consider studying and implementing suggestions from GitLab's [c
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

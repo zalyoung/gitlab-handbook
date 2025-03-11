@@ -2,6 +2,12 @@
 title: Solutions Architects Processes
 ---
 
+## SA Opportunity Hygiene
+
+This Section of the handbood describes all the processes Solutions Architects are either responsible for or are involved in, several of which require an updates and tracking in Sales Force, GitLab's record of accounts and opportunities.
+
+To increase the SA's efficiency, a checklist of all [SA's Opportunity updates](/handbook/solutions-architects/processes/sa-opportunity-hygiene.md) has been created, to assist the SA, in keeping track their opportunity responsbiliies on a weekly basis.
+
 ## SA Process Maps
 
 The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map. This provides a single location to find reusable artifacts, enablement, and tooling.
@@ -207,7 +213,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 
 - GitLab demos
 - GitLab technical deep dives
-- [GitLab hands-on workshops & Labs](/handbook/solutions-architects/demo-architect/#labshands-on-content)
+- [GitLab hands-on workshops & Labs](/handbook/solutions-architects/center-of-excellence/demo-architecture/#labshands-on-content)
 - Whiteboarding sessions
 - Prospect Q&A sessions
 - RFI/RFP completion
@@ -221,7 +227,7 @@ SA's may also work in tandem with a CSM to support existing customers, especiall
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
-Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
+Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers-or-architects)
 
 #### Technical Discovery and Demo Preparation
 
@@ -311,7 +317,7 @@ The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously 
 
 Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem/#engaging-an-ecosystem-solutions-architect) handbook page.
 
 ### Subject Matter Expert Engagement Model
 

@@ -178,6 +178,5 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
 - [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
 - [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)

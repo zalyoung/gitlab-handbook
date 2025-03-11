@@ -199,8 +199,7 @@ FY25-Q1 Stage-level Objectives all closed out between 74% and 88% and are availa
 
 #### Drafting OKRs using GitLab
 
-Guidance is available, including a video guide, on [how to use GitLab for OKRs](/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
-
+Guidance is available, including a video guide, on [Approach to OKRs at GitLab](/handbook/company/okrs/).
 GitLab currently offers some freedom in how to structure OKR hierarchies. We take the following approach in Plan:
 
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
@@ -282,13 +281,14 @@ process itself.
 To improve the retrospective data-driven experience, we are [dogfooding](/handbook/engineering/development/principles/#dogfooding) VSA to simplify the [data collection for the retrospective](https://gitlab.com/gitlab-org/plan/-/issues/753). This been done by automatically adding a link to the VSA of the current milestone filtered by group/stage to the retrospective.
 With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
 
-For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
+For example, for the review phase, we are using VSA to count the [time between “Merge request reviewer first assigned" to “Merge request last approved at”.](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2025-01-01&created_before=2025-02-26&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=631&stage_id=4581&milestone_title=17.9&sort=duration&direction=desc&page=1). With this data, we can identify:
 
 - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
-- Types of work that move slower than other types.
+- Slow review start times & Idle time post-approval.
+- MRs with multiple feedback loops.
 - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
 
-Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/issues/759).
+Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/27).
 
 #### Concluding the Retrospective
 
@@ -364,7 +364,7 @@ _Weighting UX issues_
 
 All issues worked on by a designer should have a UX weight before work is scheduled for a milestone.
 
-- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/#ux-issue-weights).
+- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/capacity-management/#ux-issue-weights).
 - If the issue is a dedicated [UX] issue, then the issue weight can be added to the `weight` field, but it should also be duplicated as a ~'design weight:" label. This is for UX Department planning purposes. For smaller issues where implementation and UX work happen in the same issue, UX weight should be added using the ~'design weight:" label (the `weight` field is used by engineering).
 - Product Managers and Product Designers can use issue weights to ensure the milestone has the right amount of work, to discuss tradeoffs, or to initiate conversations about breaking work into smaller pieces for high-weight items.
 
@@ -401,7 +401,7 @@ This enables us to differentiate these by persona and workflow. While they may s
 ##### Guiding principles
 
 - The DRI for the user experience is the Product Designer assigned to the group that is using the work item architecture for their object(s).
-- We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#ux-research-for-work-items) for supporting work item initiatives.
+- We work in a user-first mindset, rather then technology-first.
 - [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing/).
 - We follow [Pajamas principles](https://design.gitlab.com/get-started/principles/) for the user experience.
 - MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
@@ -477,37 +477,22 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-06-24 | Brandon Labuschagne |
-| 2024-07-01 | John Hope |
-| 2024-07-08 | Vladimir Shushlin |
-| 2024-07-15 | Kushal Pandya |
-| 2024-07-22 | John Hope |
-| 2024-07-29 | Vladimir Shushlin |
-| 2024-08-05 | Kushal Pandya |
-| 2024-08-12 | Donald Cook |
-| 2024-08-19 | John Hope |
-| 2024-08-26 | Vladimir Shushlin |
-| 2024-09-02 | Kushal Pandya |
-| 2024-09-09 | Donald Cook |
-| 2024-09-16 | Donald Cook |
-| 2024-09-23 | Kushal Pandya |
-| 2024-09-30 | John Hope |
-| 2024-10-07 | John Hope |
-| 2024-10-14 | Kushal Pandya |
-| 2024-10-21 | Donald Cook |
-| 2024-10-28 | John Hope |
-| 2024-11-04 | Vladimir Shushlin |
-| 2024-11-11 | Kushal Pandya |
-| 2024-11-18 | Donald Cook |
-| 2024-11-25 | John Hope |
-| 2024-12-02 | Vladimir Shushlin |
-| 2024-12-09 | Kushal Pandya |
-| 2024-12-16 | Donald Cook |
-| 2024-12-23 | John Hope |
 | 2024-12-30 | Vladimir Shushlin |
 | 2025-01-06 | Kushal Pandya |
 | 2025-01-13 | Donald Cook |
 | 2025-01-20 | John Hope |
+| 2025-01-27 | Vladimir Shushlin |
+| 2025-02-03 | Kushal Pandya |
+| 2025-02-10 | Donald Cook |
+| 2025-02-17 | John Hope |
+| 2025-02-24 | Vladimir Shushlin |
+| 2025-03-03 | Kushal Pandya |
+| 2025-03-10 | Donald Cook |
+| 2025-03-17 | John Hope |
+| 2025-03-24 | Vladimir Shushlin |
+| 2025-03-31 | Kushal Pandya |
+| 2025-04-07 | Donald Cook |
+| 2025-04-14 | John Hope |
 
 #### Links
 
@@ -602,7 +587,7 @@ Some sessions may require small purchases to participate fully; for example, ing
 
 Unless communicated in advance these are **not expensable**.
 
-The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
+The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget. If successful it should be made clear to team-members well in advance:
 
 - What purchases qualify for reimbursement.
 - The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
@@ -639,7 +624,11 @@ Like all groups at GitLab, a working group is an arrangement of people from diff
 Stage Working Groups are focused on initiatives that require collaboration between multiple groups within the stage. The structure of stage working groups is similar to [company-wide working groups](/handbook/company/working-groups/), with DRI and well-defined roles. The initiatives are driven by a stage-level product direction rather than an [Executive Sponsor](/handbook/company/working-groups/#executive-sponsor),
 and can be formed of just Functional Leads and members who participate in fulfilling the exit criteria.
 
-#### Active Stage Working Groups (alphabetic order)
+#### Active Stage Working Groups
+
+1. [Work Items API Performance](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
+
+#### Archived Stage Working Groups
 
 1. [Epic Work Items Migration](/handbook/engineering/development/dev/plan/working-groups/epic-work-items-migration/)
 

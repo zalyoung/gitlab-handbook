@@ -172,25 +172,48 @@ The reusable component will abstract away the complexity of provenance generatio
 component:
   inputs:
     variables:
-      SIGNING_TOOL: "cosign" # Default signing tool
-      TARGET_ARTIFACT: ""    # Path to artifact (e.g., build artifact)
+      SIGNING_TOOL: "cosign"
+      TARGET_ARTIFACT: ""  # Path to the artifact
       PROVENANCE_FILE: "provenance.json" # Output provenance file
       COSIGN_VERSION: "v2.1.0"
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
       aud: sigstore
+
+  variables:
+    RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
+
+   before_script:
+      - apk add --update cosign
+
   script:
-    - echo "Installing Sigstore cosign..."
-    - wget -O /usr/local/bin/cosign https://github.com/sigstore/cosign/releases/download/${COSIGN_VERSION}/cosign-linux-amd64
-    - chmod +x /usr/local/bin/cosign
-    - echo "Generating provenance for ${TARGET_ARTIFACT}..."
-    - cosign generate-provenance ${TARGET_ARTIFACT} > ${PROVENANCE_FILE}
-    - echo "Signing provenance using GitLab OIDC token..."
-    - cosign attest --type slsaprovenance --predicate ${PROVENANCE_FILE} --oidc-issuer "https://gitlab.com" --oidc-token ${GITLAB_OIDC_TOKEN}
+    - echo "Fetching GitLab Runner metadata..."
+    - export RUNNER_METADATA=$(cat artifacts-metadata.json)
+
+    - echo "Generating predicate for ${TARGET_ARTIFACT}..."
+    - cat <<EOF > predicate.json
+      {
+        "buildDefinition": {
+          "buildType": "gitlab-ci",
+          "externalParameters": {},
+          "internalParameters": ${RUNNER_METADATA},
+          "resolvedDependencies": []
+        }
+      }
+      EOF
+
+    - echo "Attesting provenance for ${TARGET_ARTIFACT}..."
+    - cosign attest --predicate predicate.json \
+        --type slsaprovenance \
+        --oidc-issuer "https://gitlab.com" \
+        --oidc-token "${GITLAB_OIDC_TOKEN}" \
+        "${TARGET_ARTIFACT}"
+
   artifacts:
     paths:
       - ${PROVENANCE_FILE}
+      - artifacts-metadata.json
     expire_in: 7d
 ```
 
@@ -204,9 +227,11 @@ Pipeline YAML Example
 stages:
   - build
   - provenance
+  - verification
 
 variables:
   COSIGN_VERSION: "v2.1.0"
+  RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
 
 build_artifact:
   stage: build
@@ -217,22 +242,25 @@ build_artifact:
   artifacts:
     paths:
       - dist/
+      - artifacts-metadata.json
     expire_in: 7d
 
 generate_provenance:
   stage: provenance
-  needs: ["build_artifact"] # Ensure artifact is built first
+  needs: ["build_artifact"]
   component: .gitlab/components/provenance-signer.yml
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
     PROVENANCE_FILE: "dist/provenance.json"
 
 verify_provenance:
-  stage: provenance
+  stage: verification
   needs: ["generate_provenance"]
   script:
     - echo "Verifying signed provenance..."
-    - cosign verify-attestation --type slsaprovenance dist/example-artifact.txt --certificate-identity-regexp ".*" --certificate-oidc-issuer "https://gitlab.com"
+    - cosign verify-attestation --type slsaprovenance dist/example-artifact.txt \
+        --certificate-identity-regexp ".*" \
+        --certificate-oidc-issuer "https://gitlab.com"
 ```
 
 ### Pipeline Workflow Explanation
@@ -263,7 +291,7 @@ verify_provenance:
 1. Dependency Management:
    1. Pin specific versions of Sigstore tools (e.g., cosign) to prevent supply chain attacks.
 1. CI Variables:
-   1. CI Variables will be included in signed provenance file. But will follow the Visibility setting where Masked variables will not store the value, only the key.
+   1. CI Variables will be included in signed provenance file. But will follow the Visibility setting where `Masked` or `Masked and hidden` variables will not store the value, only the key.
 
 ### Component Maintenance and Scalability
 
