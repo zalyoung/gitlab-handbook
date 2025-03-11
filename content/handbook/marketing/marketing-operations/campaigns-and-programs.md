@@ -425,12 +425,15 @@ If this is to set up a program that involves a channel partner, you must also fo
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
   - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
+Note, if you manage a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_[HyperscalerPartner]_ExecutiveRoundtable_Topic_Region_EventType`. For more info, (see)[https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup]
+
 ##### Other Tactic Marketo Templates
 
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
 - Conference - `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conferences)
 - Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
+  - Note, if you are managing a hyperscaler campaign, update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 - Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
   - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
 - Gated Content: [YYYY_Type_Content_Template](https://app-ab13.marketo.com/#PG5111A1)
@@ -448,6 +451,13 @@ If this is to set up a program that involves a channel partner, you must also fo
 - Partner MDF Funded campaigns go [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
 - Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
 - Partner Trials setup, go to [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners)
+- Hyperscaler campaigns - use the Marketo templates [above](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_[HyperscalerPartner]_ExecutiveRoundtable_Topic_Region_EventType`
+  - Additional Examples:
+   - 20251202_AWS_AWSreinvent_Booth
+   - 0250409_GCP_GoogleCloudNext_Booth
+   - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
+   - Special Instructions for Content Syndication Teams: 
+     - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
