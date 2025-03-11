@@ -14,7 +14,7 @@ These are a few examples of situations where a contingent workers may be require
 
 Whatever the reason, there are some unique challenges and processes related to hiring contracontingent workers, which makes it different from a regular hire.
 
-In the next sections, you can find general information about the process. However, you should consult with your sub-department lead for any variations to this process.
+In the next sections, you can find general information about the process. However, you should consult with your sub-department lead for any variations to this process. You should also read the GitLab [Contingent Worker Policy] (/handbook/finance/procurement/contingent-worker-policy/) as a pre-requisite.
 
 ## Planning and budget approval
 
