@@ -1364,13 +1364,12 @@ The main issue: [New Data Source: request for Ecosystems BVA Data via API](https
 
 The ecosystem provides Digital Customer Value. Collaborative Value Assessment (CVA) leverages generative AI to automate industry research and create a comprehensive library of benefit templates known as Value Drivers. It contextualize interactions based on industry, business objectives, or buyer roles, ensuring no valuable opportunities are missed. More detail on their [official web-site](https://www.ecosystems.io/).
 
-# Endpoints
+### Endpoints
 
 The endpoints extracted in this pipeline are:
 
 1. `/api/v1/document/` - document data that includes CRM identification and personal emails
 1. `/api/v1/vivien/cva` - Collaborative Value Assessment (CVA) - document and user data including personal emails, CRM data, and view logs
-
 
 Api documentation is exposed [here](https://www.ecosystems.us/clients/eco/EcoPublicAPIs.pdf).
 
