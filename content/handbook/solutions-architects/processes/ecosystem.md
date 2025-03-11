@@ -62,6 +62,9 @@ In terms of key responsibilities, the Ecosystem SA is responsible for supporting
 
 ### TODO Working with Services Partners
 
+## Partner Enablement and Onboarding Framework
+
+
 ### MBO Guidelines
 
 The charter of the Global Ecosystem Team is to develop an ecosystem of partners that can scale the number and size of GitLab opportunities, engage with our customers to ensure rapid and widespread adoption of GitLab licenses, and create GTM solutions that drive mutual revenue growth for GitLab and our partners.  This indirect path to GitLab revenue establishes a need to have an objectives based compensation model for the entire Global Ecosystem Team and ESAs.
