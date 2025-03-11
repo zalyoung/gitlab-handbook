@@ -211,7 +211,7 @@ If the user fails the challenge questions AND does not meet the criteria for Sol
 
 The purpose is to ensure that a user account does not contain any data that has been made publicly available for use by others and that deletion of the account and the groups/projects under that account will not have a negative effect. 
 
-1.    Apply one of the following labels to the Issue:
+1. Apply one of the following labels to the Issue:
 
       `Inactive::All Conditions Met` (all three conditions are met)
 
