@@ -166,6 +166,10 @@ The Event Store will serve as the single source of truth for all notification-tr
 - Notification Storage: Valid notifications are stored in the unified notification database with appropriate metadata.
 - Delivery Determination: Based on user preferences and notification type, the system determines which delivery channels to use (emails for now).
 
+### REST API and GraphQL endpoints
+
+Important part of the new implementation is providing REST API and GraphQL endpoints that would allow to interact with notification records, in individaul and batch manner. Current implementation of REST API and GraphQL endpoints for to-dos can serve as example of what we are looking for. 
+
 ## Alternative Solutions
 
 1. Enhance current systems independently
