@@ -181,7 +181,7 @@ Dialing in the RFH approach will take time and iteration, to be sure.  In the id
 
 #### Handling Emergencies
 
-Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
+Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) customers come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
 
 The Global workflow for [Handling GitLab Dedicated emergencies](/handbook/support/workflows/dedicated/#handling-gitlab-dedicated-emergencies) is your guide.
 
