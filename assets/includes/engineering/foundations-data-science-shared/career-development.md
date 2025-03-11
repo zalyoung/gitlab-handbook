@@ -72,7 +72,7 @@ This section lists relevant experience areas for individual contributors interes
 * Maintain awareness of the technical implications of your domain and be able to speak to it
 * Coach team members to scalable solutions
 * Backstop Staff or Principal engineers for the team
-
+* Identify and prioritize technical debt remediation
 </details>
 
 <details markdown=1>
