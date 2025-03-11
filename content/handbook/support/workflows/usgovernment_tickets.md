@@ -179,7 +179,7 @@ Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-d
 
 Dialing in the RFH approach will take time and iteration, to be sure.  In the ideal future, we will open Infrastructure-focused RFHs on CompSecGov and non-infrastructure-focused RFHs will follow the typical procedure (**link to typical procedure**)
 
-### Handling Emergencies
+#### Handling Emergencies
 
 Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
 
