@@ -1,6 +1,6 @@
 ---
 title: Foundations Stage
-description: The responsibilities of this stage are described by the [Foundations product category](/handbook/product/categories/#foundations-stage). Foundations is made up of multiple groups, each with their own features and areas of responsibility, noted last on this page.
+description: The responsibilities of this stage are described by the [Foundations product category](/handbook/product/categories/#foundations-stage). Foundations is [made up of multiple groups](/handbook/product/categories/#core-platform-section), each with their own features and areas of responsibility, noted last on this page.
 ---
 
 ## Core Focuses
@@ -48,9 +48,9 @@ description: The responsibilities of this stage are described by the [Foundation
   - User needs to control which events generate notifications
 
 - **Critical to Design System:**
-  - Maintainer wants to ensure compliance with GitLab's design standards
+  - Maintainer/Reviewer wants to ensure compliance with GitLab's design standards
   - Developer needs to efficiently migrate legacy components to Pajamas-approved alternatives
-  - Maintainer needs to ensure the implementation meets accessibility standards
+  - Maintainer/Reviewer needs to ensure the implementation meets accessibility standards
 
 - **Design System:**
   - Developer wants to test components for accessibility issues
