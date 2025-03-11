@@ -9,10 +9,10 @@ GitLab's approach to AI model validation combines rigorous assessment with pract
 
 ## Operational North Star Metric
 
-The effectiveness of our validation system is measured primarily through **turnaround time** from model submission to validation report delivery:
+The effectiveness of our validation system is measured primarily through **turnaround time** from model submission to validation report delivery. Note that we will only measure turnaround time for Open Source (OSS) model evaluations, because we are unable to control response time of model providers:
 
 * **Existing vendors (standard evaluation urgency)**: 5 business days
-* **New vendors**: 15 business days
+* **New vendors**: 15 business days (best effort to achieve this, but we are dependent on vendor response times)
 
 This turnaround time encompasses assessment across operational metrics (legal and compliance requirements), technical metrics (resource utilization and performance benchmarks), and integration metrics (deployment complexity and usability).
 
@@ -34,7 +34,7 @@ Feature teams can directly nominate specific models for evaluation based on thei
 
 ## Bridge Process for Urgent Model Evaluation
 
-While our standard validation process provides comprehensive assessment for most situations, the **Bridge Process** provides an expedited evaluation path for high-urgency situations, enabling GitLab to respond quickly to significant market developments.
+While our standard validation process provides comprehensive assessment for most situations, the **Bridge Process**  applies to Open Source (OSS) models only, and provides an expedited evaluation path for high-urgency situations, enabling GitLab to respond quickly to significant market developments.
 
 ### When to Use the Bridge Process
 
@@ -148,142 +148,6 @@ We establish ongoing monitoring for:
 * Model selection and prioritization
 * Evaluation criteria development
 * Results review and decision making
-
-## Example: Model Validation Report
-
-Below is a representative example of our model validation reporting format:
-
----
-
-### Model Validation Report: Claude-3 sonnet-20241022
-
-**Request Status**: ✅ Approved
-
-**Report Date**: February 5, 2025
-
-**Model Version**: claude-3-sonnet-20241022
-
-**Evaluation Period**: January 29 - February 2, 2025
-
-#### Executive Summary
-
-Evaluation of Claude-3 sonnet-20241022 shows performance improvements in code-related tasks while maintaining comparable latency to current production models. Cost positioning is moderately higher than baseline. Quality metrics indicate improvements in several key areas, particularly code understanding and generation.
-
-#### Key findings
-
-* XX% improvement in code suggestion accuracy compared to current production models
-* Latency metrics within XX% of current baseline
-* Completed compliance requirements
-* Cost increase (2.5x baseline)
-
-#### Technical Assessment
-
-Sonnet-20241022 is benchmarked against our current production model, sonnet-20240915.
-
-**Latency Analysis**:
-
-| **Metric**          | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-| ------------------- | ---------------------------- | ---------------------------- | ---------- |
-| Mean response time  | 2.1s                         | 2.0s                         | +0.1s      |
-| p95 latency         | 3.8s                         | 3.9s                         | \-0.1s     |
-| p99 latency         | 5.2s                         | 5.1s                         | +0.1s      |
-| Time-to-first-token | 0.8s                         | 0.9s                         | \-0.1s     |
-
-**Resource Requirements**:
-
-In order to meet our current performance standards, the minimum resource requirements are:
-
-* GPU Configuration: A100 80GB
-* Minimum memory per instance: 64GB
-* Recommended replica count: 3 per region
-* Expected peak throughput: 45 requests/second
-
-**Cost Analysis**: Moderately Higher Cost Impact **(2.5x baseline)**
-
-Primary drivers: Higher GPU requirements
-
-Offset by: Improved response quality reducing need for multiple API calls
-
-| **Cost Metric**            | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** |
-| -------------------------- | ---------------------------- | ---------------------------- |
-| Input tokens               | $0.015/1K tokens             | $0.012/1K tokens             |
-| Output tokens              | $0.075/1K tokens             | $0.060/1K tokens             |
-| Average cost per request\* | $0.045                       | $0.036                       |
-
-\* Based on average request size of 1K input tokens and 2K output tokens
-
-#### Quality Metrics
-
-**Duo Chat Performance**:
-
-| **Metric**         | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-| ------------------ | ---------------------------- | ---------------------------- | ---------- |
-| Readability score  | 9.2/10                       | 8.7/10                       | +0.5       |
-| Conciseness rating | 8.8/10                       | 7.9/10                       | +0.9       |
-| Technical accuracy | 94%                          | 88%                          | +6%        |
-
-**Code Suggestions**:
-
-| **Metric**          | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-| ------------------- | ---------------------------- | ---------------------------- | ---------- |
-| Syntax accuracy     | 97%                          | 92%                          | +5%        |
-| Context relevance   | 91%                          | 84%                          | +7%        |
-| Test case pass rate | 88%                          | 82%                          | +6%        |
-
-**RCA Performance**:
-
-| **Metric**                         | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-| ---------------------------------- | ---------------------------- | ---------------------------- | ---------- |
-| Root cause identification accuracy | 86%                          | 79%                          | +7%        |
-| Solution relevance                 | 89%                          | 82%                          | +7%        |
-| Implementation guidance clarity    | 90%                          | 85%                          | +5%        |
-
-#### Long-term Monitoring Baseline
-
-Initial measurements establish the following monitoring baselines:
-
-* E2E Apdex score: 0.95 (target: \>0.92)
-* Workflow reliability: 99.2% success rate
-* Upstream availability: 99.99%
-* Error rate: 0.8% (target: \<1%)
-
-#### Compliance Review
-
-**Legal Status**: APPROVED
-
-**Review Date**: February 2, 2025
-
-**Requirements Met**:
-
-* ✓ Data processing agreement signed and validated
-* ✓ Security assessment completed with no critical findings
-* ✓ Privacy impact analysis completed successfully
-* ✓ Model training dataset review completed
-
-#### Risk Assessment
-
-**Technical Risks**:
-
-1. Increased infrastructure costs during peak usage periods
-
-* Mitigation: Implemented dynamic scaling based on usage patterns
-* Impact: Medium
-* Probability: High
-
-2. Potential performance degradation during multi-user sessions
-
-* Mitigation: Recommend scheduling load balancing improvements if model is a go
-* Impact: Low
-* Probability: Medium
-
-#### Next Steps if a go
-
-1. Begin staged rollout to non-production environments
-2. Schedule training sessions for implementation teams
-3. Establish monitoring dashboards
-4. Define rollback criteria and procedures
-
----
 
 ## Related Resources
 
