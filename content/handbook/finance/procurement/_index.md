@@ -177,7 +177,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 - FP&A is included as an initial reviewer to ensure the requested spend is within budget and that the Billing Code entered in Zip is correct so it can be pushed to Coupa when ready for final approvals.
 
-#### 3.B. IT Review: 2 days if purchasing new software or for contractors
+#### 3.B. IT Review: 2 days if purchasing new software or for contingent workers
 
 - Requester should have vendor complete the [IT New Software Questionnaire](https://docs.google.com/spreadsheets/d/1SgyzxDDiTbig0VtZ5RPgX92U_VlQu1mq/edit?usp=sharing&ouid=115328509315203543998&rtpof=true&sd=true) and submit with the purchase request so IT can complete their review
 
