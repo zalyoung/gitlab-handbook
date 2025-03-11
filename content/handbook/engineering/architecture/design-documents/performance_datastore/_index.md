@@ -70,6 +70,8 @@ This initiative is about amplification and evolution of our performance capabili
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 - [GPT Benchmarks Wiki](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest)
 - [Reference Architecture Test Environment Details](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/wikis/Performance-environments-setup)
-- [Replace InfluxDB with Prometheus InfluxDB exporter](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/merge_requests/174)
+- Replace InfluxDB with Prometheus InfluxDB exporter
+  - [MR](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/merge_requests/174)
+  - [Issue](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/98)
 - [Shift Left and Right Performance Testing](../shift_left_right_performance/_index.md)
 - [End-to-End Pipeline Monitoring](../../../infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/#test-metrics)
