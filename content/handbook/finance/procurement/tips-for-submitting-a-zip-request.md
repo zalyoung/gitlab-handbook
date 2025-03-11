@@ -4,7 +4,7 @@ title: Tips for Submitting a Zip Request
 
 If purchasing Home Office Equipment and/or Software for your individual work use that is <$5K USD, see [Other Services](/handbook/finance/procurement/#other-services) since a Zip Purchase Request is not required in these instances.
 
-Getting started with Zip:
+## Getting started with Zip
 
 1. Login to Zip via your [Okta home page](https://gitlab.okta.com/app/UserHome#).
 1. If you need Zip access, [submit an access request here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request&_gl=1*bsfkbc*_ga*MzkwMDUyMjg5LjE2MzU3NzYxMDA.*_ga_ENFH3X7M5Y*MTY3NzYyMDEwMi4xMzkuMS4xNjc3NjIwOTc3LjAuMC4w).
@@ -22,7 +22,7 @@ Provide a brief description of your purchase and be sure to select the correct c
 - **New** purchase would be any product or service that is brand new.
 - **Renewal** would be any renewals or add-ons with an existing vendor.
 
-#### Submitting a request for a Contingent Worker
+## Submitting a request for a Contingent Worker
 
 At GitLab we have a [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/) in place beginning March 2025. This policy has been designed to provide Team Members a high-level overview and guidelines on the different types of contingent workers available as well as how and when each should be used. After review you'll need to identify which type of contingent worker you are interested in hiring. There are three categories of contingent workers at GitLab:
 
@@ -72,9 +72,9 @@ Limited details of these Contractor Personnel are to be held in Workday if the c
 Max duration for this worker is 24 months, with a 3 month break. End date must be established up front.
 
 
-##### How to Submit a Zip Request for a Contractor
+### How to Submit a Zip Request for a Contractor
 
-1. 1. Before submitting a Zip request for a Contingent Worker: 
+1. Before submitting a Zip request for a Contingent Worker: 
    - Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
    - If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
    - If the Contingent Worker requires GitLab equipment (i.e. access to Orange or Red data), which will require a [Security Review](/handbook/finance/procurement/#3c-security-review-4-14-days), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
@@ -83,33 +83,33 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 2. Open Zip to submit your request for a contingent worker by selecting "New Request" and then "Request a Purchase - Contingent Worker or Consultancy Services"
 
 3. In the "General Information" section, you'll need to fill out the following information:
-   - Who is the requester? * (most likely this is yourself)
-   - Provide a Title for this request * (Best practice: "Vendor Name - FYXX Services Name/Description")
-   - Which detailed category best describes your purchase? * (select either Staff augmentation, Consultancy Services, or Independent Contractor)
-   - What type of purchase is this? * (select new, renewal, or extension)
-   - Will a virtual card be used to pay this vendor? *
-   - What is the vendor's name (look first to see if the vendor has been used previously at GitLab, if not you'll need to create a new vendor)
-   - In which country is the contingent worker working from? *
-   - Will you be onboarding multiple contingent workers for this engagement? *
-   - Do you have the contact information and personal email address(es) of the requested onboardee(s)? * (this will be needed to track contingent workers in Workday, note: this information can come at a later date but not before everything is finalized)
-   - Who is the Manager for the Contingent Worker? *
-   - What is the Business Title for this Contingent Worker? *
-   - What is the Contingent Worker's Non-GitLab email address? *
-   - What is the Contingent Worker's Legal First Name? *
-   - What is the Contingent Worker's Legal Last Name? *
-   - What is the Contingent Worker's Preferred First Name? *
-   - What is the Contingent Worker's Preferred Last Name? *
-   - What is the Contingent Worker's Address *
+     - Who is the requester? * (most likely this is yourself)
+     - Provide a Title for this request * (Best practice: "Vendor Name - FYXX Services Name/Description")
+     - Which detailed category best describes your purchase? * (select either Staff augmentation, Consultancy Services, or Independent Contractor)
+     - What type of purchase is this? * (select new, renewal, or extension)
+     - Will a virtual card be used to pay this vendor? *
+     - What is the vendor's name (look first to see if the vendor has been used previously at GitLab, if not you'll need to create a new vendor)
+     - In which country is the contingent worker working from? *
+     - Will you be onboarding multiple contingent workers for this engagement? *
+     - Do you have the contact information and personal email address(es) of the requested onboardee(s)? * (this will be needed to track contingent workers in Workday, note: this information can come at a later date but not before everything is finalized)
+      - Who is the Manager for the Contingent Worker? *
+      - What is the Business Title for this Contingent Worker? *
+      - What is the Contingent Worker's Non-GitLab email address? *
+      - What is the Contingent Worker's Legal First Name? *
+      - What is the Contingent Worker's Legal Last Name? *
+      - What is the Contingent Worker's Preferred First Name? *
+      - What is the Contingent Worker's Preferred Last Name? *
+      - What is the Contingent Worker's Address *
 
 4. In the "Spend Information" section, you'll need to fill out the following information:
-   - What subsidiary is this purchase for? * (FP&A can help you answer this?)
-   - What is the desired start and end date for this purchase/contract? * (Note: If this is a Staff Augmentation - the Start/End date should not be longer than 24 months)
-   - How much budget will you need for this purchase? *
-   - Line type (select "amount")
-   - Coupa Subsidiary (this is typically your entity like GitLab Inc for US)
-   - Coupa Department (this is typically the org you sit in)
-   - Coupa GL Account (select 6017 Consulting Fees)
-   - Do you have any of the below supporting documentation? * (MSA, SOW, etc)
+  - What subsidiary is this purchase for? * (FP&A can help you answer this?)
+  - What is the desired start and end date for this purchase/contract? * (Note: If this is a Staff Augmentation - the Start/End date should not be longer than 24 months)
+  - How much budget will you need for this purchase? *
+  - Line type (select "amount")
+  - Coupa Subsidiary (this is typically your entity like GitLab Inc for US)
+  - Coupa Department (this is typically the org you sit in)
+  - Coupa GL Account (select 6017 Consulting Fees)
+  - Do you have any of the below supporting documentation? * (MSA, SOW, etc)
 
 5. In the "IT, Security, and Privacy Information" section, you'll need to fill out the following information:
    - What type of access will the vendor need to data and information? *
@@ -126,8 +126,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 *Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
 
-
-#### Submitting a request for New Software
+## Submitting a request for New Software
 
 1. All new software purchases also need reviewed by [IT](/handbook/finance/procurement/#it-review-if-purchasing-new-software)
 1. New software vendors will need to complete the [IT Questionnaire tab](https://docs.google.com/spreadsheets/d/17-NdZF0SeOS_b59XE9lLg9cuCD9iKKlO/edit#gid=392482466).
@@ -135,7 +134,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - Please make a copy of this tab (if not filled out during a formal RFP), have the vendor complete, and attach in the documents section of your Zip Request for IT review.
 1. If you have any questions regarding the IT Questionnaire, please contact the Enterprise Applications team in the #enterprise-apps slack channel.
 
-#### Other tips for submitting requests
+## Other Tips for Submitting Requests
 
 1. Will a virtual card be used to pay this vendor?
    - This applies to instances where the supplier only accepts online credit card payments or for one-time vendor use such as events. More info on allowed uses [here](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
@@ -163,7 +162,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - Upload any contracts and/or quotes you've received.
       - Draft contracts are okay. Make note of any terms and/or pricing still being finalized- this can be done in the Comments section once you submit your request.
 
-### Zip Change Requests
+## Zip Change Requests
 
 If you have a PO with an existing supplier and the costs have increased, end date has changed, and/or the scope or terms and conditions need to be amended, a [Zip Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) can be submitted.
 
