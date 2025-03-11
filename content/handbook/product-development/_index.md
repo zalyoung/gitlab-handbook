@@ -5,6 +5,10 @@ title: Product Development
 This section of the handbook is for shared Product and Engineering content.
 For any content wholly owned by only one division, please use the relevant sections: [Product](/handbook/product/) or [Engineering](/handbook/engineering/).
 
+## Product Development Roles and Responsibilities
+
+Successful product development requires and demands a unified commitment to shared outcomes across team members. The entire team must collectively embrace responsibility for the delivery of positive user impact, aligned to our GitLab value of delivering [Results for Customers](/handbook/values/#results).
+
 ## Product Development 4W1H Framework
 
 We will be using 4W1H a modified version without "where" of the 5W1H is a general-purpose questioning method that helps identify and solve problems by explicitly navigating the "what", "who", "where", "when", "why", and "how" questions. To help clarify the lead roles for a specific part of this process we will apply 4W1H follows:
@@ -12,14 +16,13 @@ We will be using 4W1H a modified version without "where" of the 5W1H is a genera
 | **4W1H Element** |   |
 | ------- | ----------------- |
 | **WHO?** | Who are our target customers, users, and buyers? <br> **UX Lead**  |
-| **WHAT?** | What is the product vision, strategy, roadmap, and priority of features based on business value and user needs? <br> **Product Lead**  <br> <br> What are our users’ pains and needs? What research can enable confident product decisions? What design solutions can optimize both the user experience and business value?  <br> **UX Lead** |
+| **WHAT?** | What is the product vision, strategy, roadmap, and priority of features based on business value and user needs? <br> **Product Lead**  <br> <br> What are our users' pains and needs? What design solutions and implementation specifications <sup>*</sup> can optimize both the user experience and business value   <br> **UX Lead** |
 | **WHY?** | Why do we need to solve a given business problem? Why do users need a given capability? <br> **Product Lead** <br> <br> Why do users experience dissatisfaction or unmet expectations?<br> **UX Lead** |
-| **HOW?** | How will we design and build the technical solution that delivers the required capabilities and UX with the desired quality? <br> **Technical Lead** <br> <br> How should UI be represented, information be structured, user interactions behave, and steps/flows be sequenced? <br> **UX Lead**  |
+| **HOW?** | How will we architect and build the technical solution that delivers the required capabilities with the desired quality? <br> **Technical Lead** 
 | **WHEN?** |  When can the technical solution be built, tested, and made available to users per required capabilities, UX, and quality? <br> **Delivery Lead** |
 
-## Product Development Roles and Responsibilities
-
-Successful product development requires and demands a unified commitment to shared outcomes across team members. The entire team must collectively embrace responsibility for the delivery of positive user impact, aligned to our GitLab value of delivering [Results for Customers](/handbook/values/#results).
+\* *Design solutions*  can come in myriad forms, including wireframes, mock-ups, prototypes, journey maps, flow diagrams, Pajamas documentation, etc.  
+*Implementation specifications*  can be clarified in issues with supporting design solutions, as redlines, as code snippets in the Pajamas design system, accessibility guidelines, etc.
 
 ### Leads and their Responsibilities
 
@@ -41,9 +44,9 @@ Within each product development team, the following responsibilities require cov
 1. **Delivery Lead**: Facilitates team processes, removes obstacles, defines the implementation schedule, and owns the performance against implementation schedules. They also ensure that quality of outcome is explicitly included in the discussion and regularly revisited and evaluated.
 1. **Resource Lead**: Manages individual and team performance. Also responsible for team sizing and composition (seniority) to ensure the team has the skills and support it needs to be successful.
 1. **UX Lead**: Ensures exceptional user experience of the product from planning through implementation where there is a direct product interface with the end user.
-1. **Documentation Lead**:  Collaborates with Product Lead on definition of documentation deliverables, with UX Lead on text for the GitLab UI, and with Engineering for review and update of documentation drafts.
+1. **Documentation Lead**:  Ensures accurate and effective documentation. They're responsible for establishing documentation standards, planning documentation cycles, and ensuring all materials align with product releases and updates
 
-These responsibilities across Product, Technical, Delivery, Resource, and UX all require coverage to ensure that the product development team's output is delivered on target from a quality, usability, and capability standpoint.
+These responsibilities across Product, Technical, Delivery, Resource, UX, and Documentation all require coverage to ensure that the product development team's output is delivered on target from a quality, usability, and capability standpoint.
 
 ### Role vs. Responsibility
 
@@ -67,6 +70,7 @@ Within GitLab product development teams, we believe that "we win or lose as a te
 
 - Ex: Technical Lead may serve as the Delivery Lead
 - Ex: Delivery Lead may also serve as Resource Lead for the team
+- Ex: Technical Lead may serve as the Product Lead and Documentation Lead for technical excellence, reliability, scalability, or sustainability efforts. 
 
 Lastly, the specific needs that a product development team has for a specific responsibility may differ based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc. The key is ensuring that each product development team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
 
@@ -86,28 +90,28 @@ Legend
 - ✅: driving
 - ✔️: involved
 
-|  **#**  | **Key Events & Activities** | **Product Lead** | **Technical Lead** | **Delivery Lead** | **Quality Lead** | **Resource Lead** | **UX Lead** | **Documentation Lead** |
-| --- | ----------------------- | ------------ | -------------- | ------------- | ------------ | ------------- | ------- | ----------------- |
-|  **1** | Define a one year Direction for their area of responsibility that aligns with: (1) company's 3 year strategy, (2) their leader's (CPO/CTO) direction, (3) current company objectives, (4) customer needs. | ✅ Product focus | ✅ Technical focus |  |  |  | ✅ User focus |  |
-|  **2** | Break Direction into Big Initiatives that drive maturity of their area of responsibility | ✅ Product focus | ✅ Technical focus | ✔️ |  |  | ✅ User focus |  |
-|  **3** | Break Big Initiatives into Top-level epics that allow for planning, refining, and scoping the next X amount of days ahead (where X can be 90 days, 180 days, etc.) | ✅ Product focus | ✔️ Technical focus | ✅ Technical focus |  |  | ✔️ |  |
-|  **4** | Break down Top-level Epics into  Capabilities to get to the Top-level Epic goal with a focus on quality and user experience | ✅ Product focus | ✔️ Technical focus | ✅ Technical focus |  | ✔️ | ✅ User focus ✔️ | ✅ Docs focus |
-|  **5** | Prioritize a backlog of Capabilities to keep it up-to-date based on Top-level Epic | ✅ Product focus | ✔️ Technical focus | ✅ Technical focus |  | ✔️ | ✔️ | ✔️ |
-|  **6** | Break Capabilities down into Composite Deliverables that can be assigned to a team of developers |  | ✔️ | ✅ | ✅ |  | ✔️ | ✔️ |
-|  **7** | Prioritize a backlog of Composite Deliverables to keep it up-to-date going into milestone planning | ✅ | ✅ | ✅ | ✔️ | ✔️ | ✔️ | ✔️ |
-|  **8** | Interlock on Committed Deliverables for milestone | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-|  **9** | Interlock on updated R&D roadmap based upon plan | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **10** | Break down Composite Deliverables into frontend, backend, infrastructure, etc. Atomic Deliverables that can be assigned to a developer |  | ✔️ | ✅ | ✅ |  |  | ✅ Docs focus |
-| **11** | Prioritize a backlog of Atomic Deliverables to keep it up-to-date going into milestone planning |  | ✔️ | ✅ | ✅ |  |  |  |
-| **12** | Assign Atomic Deliverables to developers |  | ✔️ | ✅ | ✅ |  |  |  |
-| **13** | Track and report progress of Atomic Deliverables during the milestone to key stakeholders |  |  | ✅ |  |  |  |  |
-| **14** | Validate technical work and level of quality meet acceptance criteria and Definition of Done | ✅ | ✅ | ✔️ |  | ✅ | ✅ | ✅ |
-| **15** | Report status at the end of the milestone to help align planning of the next milestone |  |  | ✅ |  |  |  |  |
-| **16** | Report status of Atomic Deliverables as part of achieving composite deliverables, as part of achieving Capabilities, and as part of achieving Top-level Epic |  |  | ✅ |  |  |  |  |
-| **17** | Update progress against direction and initiatives based upon last milestone results | ✅ Product Focus | ✅ Technical focus | ✅ |  |  |  |  |
-| **18** | Interlock on updated R&D roadmap based upon actuals | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **19** | Engage with PMM and DevRel to ensure messaging is correct, updated, and support the creation of GTM materials as needed | ✅ Product Focus |  |  |  |  |  | ✔️ |
-| **20** | Present the parts of the product and related roadmap to customers in support of sales opportunities or updates for existing customers | ✅ |  |  |  |  |  |  |
+|  **#**  | **Key Events & Activities** | **Product Lead** | **Technical Lead** | **Delivery Lead** | **Resource Lead** | **UX Lead** | **Documentation Lead** |
+| :---: | ----------------------- | :----------: | :------------: | :-----------: | :----------: | :-----------: | :-----: | :---------------: |
+|  **1** | Define a one year Direction for their area of responsibility that aligns with: (1) company's 3 year strategy, (2) their leader's (CPO/CTO) direction, (3) current company objectives, (4) customer needs. | ✅<br>Product focus | ✅<br>Technical focus |  |  | ✅<br>User focus |  |
+|  **2** | Break Direction into Big Initiatives that drive maturity of their area of responsibility | ✅<br>Product focus | ✅<br>Technical focus | ✔️ |  | ✅<br>User focus |  |
+|  **3** | Break Big Initiatives into Top-level epics that allow for planning, refining, and scoping the next X amount of days ahead (where X can be 90 days, 180 days, etc.) | ✅<br>Product focus | ✔️<br>Technical focus | ✅<br>Technical focus |  | ✔️ |  |
+|  **4** | Break down Top-level Epics into Capabilities to get to the Top-level Epic goal with a focus on quality and user experience | ✅<br>Product focus | ✔️<br>Technical focus | ✅<br>Technical focus | ✔️ | ✅<br>User focus ✔️ | ✅<br>Docs focus |
+|  **5** | Prioritize a backlog of Capabilities to keep it up-to-date based on Top-level Epic | ✅<br>Product focus | ✔️<br>Technical focus | ✅<br>Technical focus | ✔️ | ✔️ | ✔️ |
+|  **6** | Break Capabilities down into Composite Deliverables that can be assigned to a team of developers |  | ✔️ | ✅ | ✅ | ✔️ | ✔️ |
+|  **7** | Prioritize a backlog of Composite Deliverables to keep it up-to-date going into milestone planning | ✅ | ✅ | ✅ | ✔️ | ✔️ | ✔️ |
+|  **8** | Interlock on Committed Deliverables for milestone | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+|  **9** | Interlock on updated R&D roadmap based upon plan | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **10** | Break down Composite Deliverables into frontend, backend, infrastructure, etc. Atomic Deliverables that can be assigned to a developer |  | ✔️ | ✅ | ✅ |  | ✅<br>Docs focus |
+| **11** | Prioritize a backlog of Atomic Deliverables to keep it up-to-date going into milestone planning |  | ✔️ | ✅ | ✅ |  |  |
+| **12** | Assign Atomic Deliverables to developers |  | ✔️ | ✅ | ✅ |  |  |
+| **13** | Track and report progress of Atomic Deliverables during the milestone to key stakeholders |  |  | ✅ |  |  |  |
+| **14** | Validate technical work and level of quality meet acceptance criteria and Definition of Done | ✅ | ✅ | ✔️ |  | ✅ | ✅ |
+| **15** | Report status at the end of the milestone to help align planning of the next milestone |  |  | ✅ |  |  |  |
+| **16** | Report status of Atomic Deliverables as part of achieving composite deliverables, as part of achieving Capabilities, and as part of achieving Top-level Epic |  |  | ✅ |  |  |  |
+| **17** | Update progress against direction and initiatives based upon last milestone results | ✅<br>Product Focus | ✅<br>Technical focus | ✅ |  |  |  |
+| **18** | Interlock on updated R&D roadmap based upon actuals | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **19** | Engage with PMM and DevRel to ensure messaging is correct, updated, and support the creation of GTM materials as needed | ✅<br>Product Focus |  |  |  |  | ✔️ |
+| **20** | Present the parts of the product and related roadmap to customers in support of sales opportunities or updates for existing customers | ✅ |  |  |  |  |  |
 
 ## Product Development Interlock for Roadmap Planning & Execution
 
