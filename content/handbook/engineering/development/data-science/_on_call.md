@@ -9,15 +9,15 @@ Our clients need support during incidents, and GitLab as a product has grown too
 
 ### Eligilibility
 
-All Engineers (frontend and backend) level 7 (senior) and higher are eligible to pariticipate in the rotation. 
+All Engineers (frontend and backend) level 6 (intermediate) and higher are eligible to participate in the rotation based on their knowledge level of the subject matter area. 
 The following exceptions apply:
 
-- Engineers who have been at GitLab for less than 3 months
+- Engineers who have been at GitLab for less than 6 months
 - Engineers who are on a performance improvement plan
 - Engineers who are on extended leave (parental, medical, etc.)
 - Engineers who have not completed the required on-call training
 
-Engineers can volunteer to join the rotation before reaching senior level, provided they have demonstrated strong technical expertise and incident response capabilities, and have received approval from their manager.
+Engineers who participate in an on-call rotation have demonstrated strong technical expertise and incident response capabilities, and have received guidance from their manager.
 
 ### SME on call duties
 
@@ -101,12 +101,11 @@ SMEs should acknowledge alerts within 15 minutes and begin investigation.
 Engineers may request to opt-out of the rotation for the following reasons:
 
 1. Personal circumstances requiring extended time off
-1. Personal circumstances that are not allowing to react within the 15-minutes timeframe (like caregiving duties etc.)
-1. Medical conditions
+1. Medical conditions or reasonable accommodations
 1. Temporary work arrangements that prevent on-call duties
 1. Other exceptional circumstances
 
-All opt-out requests must be approved by the engineering manager and should be submitted at least 4 weeks in advance when possible.
+All opt-out requests must be approved by the Rotation coordinator (and engineering manager if different) and should be submitted at least 4 weeks in advance when possible.
 
 ### Cross-training
 
