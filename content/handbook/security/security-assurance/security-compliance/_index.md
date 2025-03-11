@@ -3,9 +3,9 @@ title: "Security Compliance Team"
 description: "Security Compliance Team"
 ---
 
-## Security Compliance Team Charter
+### Security Compliance Team Charter
 
-Last Updated: 2025-02-25
+Last Updated: 2025-03-11
 
 ## Mission Statement
 
@@ -35,6 +35,10 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
    - Collaborating on responses to relevant RFIs, RFQs, RFPs, and requests for public comment.
    - Monitoring changes to government contractual language that could impact public sector security and compliance posture.
+1. Dogfooding
+    - We use the GitLab product to perform our core competencies
+    - We reccomend GitLab feature solutions to remediate observations and reduce risk
+    - We provide feedback to the product by exemplifying the [compliance persona](https://handbook.gitlab.com/handbook/product/personas/#cameron-compliance-manager).
 
 ## Operating Model
 
@@ -50,22 +54,22 @@ Much of our work related to the [FedRAMP Authorization Program](/handbook/securi
 
 - Slack
   - Feel free to tag `@sec-compliance-team` to reach the entire Security Compliance team
-  - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
+  - The `#sec-assurance` slack channel is the best place for questions relating to our team
 - Tag us in GitLab
   - `@gitlab-com/gl-security/security-assurance/security-compliance`
 
 ### Communication Channels
 
-All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly.
+All team members are encouraged to regularly start Slack discussions in `# sec-assurance` or tagging our team in GitLab `@gitlab-com/gl-security/security-assurance/security-compliance`.
 
 ## Success Metrics
 
 | **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Good = 12 months, Better = 6 months, Best = 3 months| Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationsKPI/SecCompLeadershipMetrics?:iid=3)| n/a|
-| TCV/ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| This is not complete. We are working with the sales team to make this possible.|
-| Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)|
-| Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)|
+| TCV/ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| TBD | This is not complete. We are working with the sales team to make this possible.|
+| Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
+| Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
 
 
 ## FY26 Strategic Initiatives
@@ -89,21 +93,7 @@ GCF v4
 ## Review and Updates
 This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
 
-Next scheduled review: [Date]
-
-## Our objectives
-
-We support the Security division's [mission and operating principles](/handbook/security/_index.md) by:
-
-1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
-1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
-1. Identifying and mitigating information security risk through [continuous control monitoring](/handbook/security/security-assurance/security-compliance/sec-controls/) and [risk-based control testing](/handbook/security/security-assurance/security-compliance/risk-based-control-testing/) of assets
-1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
-1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
-
-## How we work
-
-
+Next scheduled review: [2025-07-31]
 
 ### Scheduled meetings
 
@@ -296,12 +286,6 @@ Workflow steps can be skipped. For example, if an issue is well-defined when it 
 | seccomp-function::projects     | Work related to specific projects or initiatives. |
 | seccomp-function::miscellaneous| Tasks that do not fall under a specific function. |
 | seccomp-function::team mgmt    | Activities related to managing and supporting the team. |
-
-## Metrics and Measures of Success
-
-Metrics are absolutely critical in order for us to tell a story about the impact we have as a team and make data-informed decisions. Our metrics can be classified as strategic (informs business strategy / direction), risk indicators, or operational / performance indicators (health and performance of our team). They can also be either leading or lagging.
-
-The SSOT for our metrics is Tableau. Our metrics are largely collected from issues labels. For that reason, it is critical to ensure all epics/issues have appropriate labels and new labeling schemes are designed in a way that allows us to capture meaningful metrics.
 
 ## Contact the Team
 
