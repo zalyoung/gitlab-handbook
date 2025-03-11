@@ -13,7 +13,7 @@ To drive security risk treatment at GitLab by empowering teams to make informed 
 
 ## Value Proposition
 
-We perform efficient risk assessments and support risk reduction so that GitLab can achieve it's goals while maintaining a high level of security.
+We perform thorough, collaborative, and efficient risk assessments as well as drive risk reduction so that GitLab can achieve it's goals while maintaining a high level of security.
 
 ## Core Competencies
 
@@ -83,14 +83,14 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 | **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-|Top 5 Risk Reduction over Time| The Top 5 risks represent the top 5 security risks to GitLab the company. These risks need to be reduced and managed effectively to reduce the likelihood of a signficant security incident | Risk scores are calculated based on impact and likelihood. | Risks are considered in tolerance with a risk score of 10 or below. | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/Top5RiskReductionOverTime/Top5RiskReductionoverTimeDashboard)| n/a|
+|Top 5 Risk Reduction over Time| The Top 5 risks represent the top 5 security risks to GitLab the company. These risks need to be reduced and managed effectively to reduce the likelihood of a significant security incident | Risk scores are calculated based on impact and likelihood. | Risks are considered in tolerance with a risk score of 10 or below. | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/Top5RiskReductionOverTime/Top5RiskReductionoverTimeDashboard)| n/a|
 
 ## FY26 Strategic Initiatives
 
 | # | Objective | Key Deliverables | Timeline | Success Criteria |
 |:-:| :-------- | :--------------- | :------: | :--------------- |
 | 1 | Enhance our Acceptable Use Policy Program | | | |
-| 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. via documentation standards<br>- Scalable management of issues/recs. to improve adoption | In progress<br>Target Completion: Q3 |  |
+| 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. with documentation standards<br>- Scalable management of issues/recs. to improve adoption | In progress<br>Target Completion: Q3 |  |
 | 3 | Post-Implementation Control Assessment | | | |
 | 4 | Corp and Product Disaster Recovery Planning and Governance | | | |
 | 5 | Update Security Assurance KPIs | | | |
