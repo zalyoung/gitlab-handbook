@@ -22,7 +22,7 @@ By integrating a centralized digital ecosystem, we seek to elevate customer enga
    - Automated health monitoring & alerts
    - Proactive, data-driven engagement
 
-2. **Outcome-centric approach**: Aligning metrics with customer outcomes to enhance retention and satisfaction
+2. **Outcome-centric approach**: We prioritise measurable customer outcomes to drive retention and satisfaction. This includes tracking product usage trends, customer feedback, and business impact to refine our approach.
 
 ## Team leadership
 
