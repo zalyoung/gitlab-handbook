@@ -402,7 +402,7 @@ and complete the [experiment section in the readiness template](https://gitlab.c
 
 ### Beta features
 
-In addition to the [beta details](#beta) for users, beta features:
+In addition to the [beta details](https://docs.gitlab.com/policy/development_stages_support/#beta) for users, beta features:
 
 - Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
 - Are a tool project managers can use to validate their feature, most commonly to validate the solution.
