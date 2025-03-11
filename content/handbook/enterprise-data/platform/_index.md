@@ -106,6 +106,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 |[Demo Architecture Portal](https://cloud.gitlabdap.com/)|Stitch|`demo_architecture_portal`|`demo_architecture_portal`|Sales and marketing|7 Days/7 Days|No|Tier 3|
 | [Elastic Search Billing](https://www.elastic.co/docs/api/doc/cloud/group/endpoint-billingcostsanalysis) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | End to End test metrics | Snowflake tasks | `e2e_metrics` | `e2e_metrics` | Engineering | 24h / 48h | No | Tier 2 |
+| [Ecosystems BVA](https://www.ecosystems.us/) | Airflow | `ecosystems` | `ecosystems` | Sales | 24h / 48h | No | Tier 3 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
 | Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
@@ -1445,3 +1446,32 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 ## References
 
 The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/).
+
+## Ecosystems BVA
+
+The main issue: [New Data Source: request for Ecosystems BVA Data via API](https://gitlab.com/groups/gitlab-data/-/epics/1353)
+
+The ecosystem provides Digital Customer Value. Collaborative Value Assessment (CVA) leverages generative AI to automate industry research and create a comprehensive library of benefit templates known as Value Drivers. It contextualize interactions based on industry, business objectives, or buyer roles, ensuring no valuable opportunities are missed. More detail on their [official web-site](https://www.ecosystems.io/).
+
+### Endpoints
+
+The endpoints extracted in this pipeline are:
+
+1. `/api/v1/document/` - document data that includes CRM identification and personal emails
+1. `/api/v1/vivien/cva` - Collaborative Value Assessment (CVA) - document and user data including personal emails, CRM data, and view logs
+
+Api documentation is exposed [here](https://www.ecosystems.us/clients/eco/EcoPublicAPIs.pdf).
+
+### Back filling
+
+For backfilling `Ecosystems BVA` data, the variable `START_TIME` in DAG `dags/extract/ecosystems.py` should be changed to the date you want to do a backfill. The data set is fairly small, and this approach is sufficient as no performance risk for long-running tasks.
+
+```python
+    env_vars={
+        **pod_env_vars,
+        "START_TIME": "{{ logical_date }}", # <<<< change this value to the date you want to run backfill in format YYYY-MM-DD. For example 2025-01-01
+        "END_TIME": "{{ next_execution_date }}",
+    },
+```
+
+After the backfill, revert the code back to the original state.
