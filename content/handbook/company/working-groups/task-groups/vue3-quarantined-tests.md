@@ -39,3 +39,4 @@ The strategy for fixing these tests has been documented in the [epic](https://gi
 | Task Group Role | Person | Title |
 | --------------- | ------ | ----- |
 | DRI | Artur Fedorov | Sr. Frontend Engineer, Security Policies |
+| Member | Alexander Turinske | Staff Frontend Engineer, Security Policies |
