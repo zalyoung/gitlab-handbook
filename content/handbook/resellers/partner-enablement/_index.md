@@ -18,7 +18,7 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 
 - Provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 
-Building Pipelines GitLab Partner Webinar Series (Live Webinar & Episode Content Archive)
+[Building Pipelines GitLab Partner Webinar Series (Live Webinar & Episode Content Archive)](https://partners.gitlab.com/prm/English/c/Building-Pipelines)
 
 - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
 - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
