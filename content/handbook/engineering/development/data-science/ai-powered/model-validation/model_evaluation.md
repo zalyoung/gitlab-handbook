@@ -3,8 +3,6 @@ title: AI Model Validation at GitLab
 description: "How we monitor the market for models to evaluate and respond to on-demand requests for new model evaluation."
 ---
 
-# AI Model Validation at GitLab
-
 ## Introduction
 
 GitLab's approach to AI model validation combines rigorous assessment with practical efficiency to support our AI-powered features. Our framework enables teams to leverage cutting-edge AI technologies while maintaining GitLab's quality and compliance standards. By establishing consistent validation practices, we ensure models meet our performance, quality, and compliance requirements.
@@ -51,17 +49,17 @@ The Bridge Process is appropriate when:
 The Bridge Process compresses our standard validation approach into a streamlined 5-day timeline:
 
 1. **Day 1-2: Initial Assessment**
-   - Use a predefined prompt subset for a basic quality check
-   - Review vendor terms and conditions for legal and operational risks
+   * Use a predefined prompt subset for a basic quality check
+   * Review vendor terms and conditions for legal and operational risks
      * **Note**: Feature teams accept the risk that even if the model passes technical evaluation, Legal may reject it
 
 2. **Day 3-4: Deep Evaluation**
-   - Perform comprehensive testing using existing benchmarks
-   - Assess scalability and integration requirements
+   * Perform comprehensive testing using existing benchmarks
+   * Assess scalability and integration requirements
 
 3. **Day 5: Final Review**
-   - Compile results, document findings, and conduct stakeholder review
-   - Provide clear next steps for feature teams
+   * Compile results, document findings, and conduct stakeholder review
+   * Provide clear next steps for feature teams
 
 ### Bridge Process Outputs
 
@@ -184,12 +182,12 @@ Sonnet-20241022 is benchmarked against our current production model, sonnet-2024
 
 **Latency Analysis**:
 
-| **Metric** | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-|------------|------------------------------|------------------------------|------------|
-| Mean response time | 2.1s | 2.0s | +0.1s |
-| p95 latency | 3.8s | 3.9s | \-0.1s |
-| p99 latency | 5.2s | 5.1s | +0.1s |
-| Time-to-first-token | 0.8s | 0.9s | \-0.1s |
+| **Metric**          | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
+| ------------------- | ---------------------------- | ---------------------------- | ---------- |
+| Mean response time  | 2.1s                         | 2.0s                         | +0.1s      |
+| p95 latency         | 3.8s                         | 3.9s                         | \-0.1s     |
+| p99 latency         | 5.2s                         | 5.1s                         | +0.1s      |
+| Time-to-first-token | 0.8s                         | 0.9s                         | \-0.1s     |
 
 **Resource Requirements**:
 
@@ -206,11 +204,11 @@ Primary drivers: Higher GPU requirements
 
 Offset by: Improved response quality reducing need for multiple API calls
 
-| **Cost Metric** | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** |
-|-----------------|------------------------------|------------------------------|
-| Input tokens | $0.015/1K tokens | $0.012/1K tokens |
-| Output tokens | $0.075/1K tokens | $0.060/1K tokens |
-| Average cost per request\* | $0.045 | $0.036 |
+| **Cost Metric**            | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** |
+| -------------------------- | ---------------------------- | ---------------------------- |
+| Input tokens               | $0.015/1K tokens             | $0.012/1K tokens             |
+| Output tokens              | $0.075/1K tokens             | $0.060/1K tokens             |
+| Average cost per request\* | $0.045                       | $0.036                       |
 
 \* Based on average request size of 1K input tokens and 2K output tokens
 
@@ -218,27 +216,27 @@ Offset by: Improved response quality reducing need for multiple API calls
 
 **Duo Chat Performance**:
 
-| **Metric** | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-|------------|------------------------------|------------------------------|------------|
-| Readability score | 9.2/10 | 8.7/10 | +0.5 |
-| Conciseness rating | 8.8/10 | 7.9/10 | +0.9 |
-| Technical accuracy | 94% | 88% | +6% |
+| **Metric**         | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
+| ------------------ | ---------------------------- | ---------------------------- | ---------- |
+| Readability score  | 9.2/10                       | 8.7/10                       | +0.5       |
+| Conciseness rating | 8.8/10                       | 7.9/10                       | +0.9       |
+| Technical accuracy | 94%                          | 88%                          | +6%        |
 
 **Code Suggestions**:
 
-| **Metric** | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-|------------|------------------------------|------------------------------|------------|
-| Syntax accuracy | 97% | 92% | +5% |
-| Context relevance | 91% | 84% | +7% |
-| Test case pass rate | 88% | 82% | +6% |
+| **Metric**          | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
+| ------------------- | ---------------------------- | ---------------------------- | ---------- |
+| Syntax accuracy     | 97%                          | 92%                          | +5%        |
+| Context relevance   | 91%                          | 84%                          | +7%        |
+| Test case pass rate | 88%                          | 82%                          | +6%        |
 
 **RCA Performance**:
 
-| **Metric** | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
-|------------|------------------------------|------------------------------|------------|
-| Root cause identification accuracy | 86% | 79% | +7% |
-| Solution relevance | 89% | 82% | +7% |
-| Implementation guidance clarity | 90% | 85% | +5% |
+| **Metric**                         | **claude-3-sonnet-20241022** | **claude-3-sonnet-20240915** | **Change** |
+| ---------------------------------- | ---------------------------- | ---------------------------- | ---------- |
+| Root cause identification accuracy | 86%                          | 79%                          | +7%        |
+| Solution relevance                 | 89%                          | 82%                          | +7%        |
+| Implementation guidance clarity    | 90%                          | 85%                          | +5%        |
 
 #### Long-term Monitoring Baseline
 
@@ -274,7 +272,7 @@ Initial measurements establish the following monitoring baselines:
 
 2. Potential performance degradation during multi-user sessions
 
-* Mitigation: Recommend scheduling load balancing improvements if model is a go
+3. Mitigation: Recommend scheduling load balancing improvements if model is a go
 * Impact: Low
 * Probability: Medium
 
@@ -291,3 +289,4 @@ Initial measurements establish the following monitoring baselines:
 
 * [AI Model Guidance](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_model_guidance/)
 * [GitLab Model Vendor Selection Policy](https://docs.google.com/document/d/16PwPggN1wqWP2ezhCXIWc_vYzruYTlkM3Y8ZYyMetE4/edit?usp=sharing)
+
