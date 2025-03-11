@@ -167,7 +167,7 @@ The Supply Chain Risk Management Strategy serves as a critical foundation for th
 
 1. **Bidirectional Traceability**
 
-   - Supply chain model entries must link back to relevant PSRR risk items
+   - Supply chain model components must link back to relevant PSRR risk items (see labels above)
    - PSRR entries must link to the affected supply chain components
    - Updates to the supply chain model should trigger reviews of related PSRR entries
    - New PSRR risks related to supply chain must be mapped to this model during risk registration
