@@ -186,3 +186,14 @@ Cons:
 - Doesn't solve code maintenance issues
 - Limited future extensibility
 - Duplicated effort for common features
+
+2. Introduce new notifications system with new settings, without use of the events
+
+Pros:
+
+- More flexibility on the settings side
+
+Cons:
+
+- Doesn't solve code maintenance issues
+- Limited future extensibility
