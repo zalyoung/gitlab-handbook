@@ -4,7 +4,7 @@ title: Tips for Submitting a Zip Request
 
 If purchasing Home Office Equipment and/or Software for your individual work use that is <$5K USD, see [Other Services](/handbook/finance/procurement/#other-services) since a Zip Purchase Request is not required in these instances.
 
-## Getting started with Zip
+## Getting Started with Zip
 
 1. Login to Zip via your [Okta home page](https://gitlab.okta.com/app/UserHome#).
 1. If you need Zip access, [submit an access request here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request&_gl=1*bsfkbc*_ga*MzkwMDUyMjg5LjE2MzU3NzYxMDA.*_ga_ENFH3X7M5Y*MTY3NzYyMDEwMi4xMzkuMS4xNjc3NjIwOTc3LjAuMC4w).
@@ -79,49 +79,49 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - If the Contingent Worker requires GitLab equipment (i.e. access to Orange or Red data), which will require a [Security Review](/handbook/finance/procurement/#4c-security-review-4-14-days), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
       - Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
 
-2. Open Zip to submit your request for a contingent worker by selecting "New Request" and then "Request a Purchase - Contingent Worker or Consultancy Services"
+1. Open Zip to submit your request for a contingent worker by selecting "New Request" and then "Request a Purchase - Contingent Worker or Consultancy Services"
 
-3. In the "General Information" section, you'll need to fill out the following information:
-     - Who is the requester? * (most likely this is yourself)
-     - Provide a Title for this request * (Best practice: "Vendor Name - FYXX Services Name/Description")
-     - Which detailed category best describes your purchase? * (select either Staff augmentation, Consultancy Services, or Independent Contractor)
-     - What type of purchase is this? * (select new, renewal, or extension)
-     - Will a virtual card be used to pay this vendor? *
-     - What is the vendor's name (look first to see if the vendor has been used previously at GitLab, if not you'll need to create a new vendor)
-     - In which country is the contingent worker working from? *
-     - Will you be onboarding multiple contingent workers for this engagement? *
-     - Do you have the contact information and personal email address(es) of the requested onboardee(s)? * (this will be needed to track contingent workers in Workday, note: this information can come at a later date but not before everything is finalized)
-      - Who is the Manager for the Contingent Worker? *
-      - What is the Business Title for this Contingent Worker? *
-      - What is the Contingent Worker's Non-GitLab email address? *
-      - What is the Contingent Worker's Legal First Name? *
-      - What is the Contingent Worker's Legal Last Name? *
-      - What is the Contingent Worker's Preferred First Name? *
-      - What is the Contingent Worker's Preferred Last Name? *
-      - What is the Contingent Worker's Address *
+1. In the "General Information" section, you'll need to fill out the following information:
+   - Who is the requester? * (most likely this is yourself)
+   - Provide a Title for this request * (Best practice: "Vendor Name - FYXX Services Name/Description")
+   - Which detailed category best describes your purchase? * (select either Staff augmentation, Consultancy Services, or Independent Contractor)
+   - What type of purchase is this? * (select new, renewal, or extension)
+   - Will a virtual card be used to pay this vendor? *
+   - What is the vendor's name (look first to see if the vendor has been used previously at GitLab, if not you'll need to create a new vendor)
+   - In which country is the contingent worker working from? *
+   - Will you be onboarding multiple contingent workers for this engagement? *
+   - Do you have the contact information and personal email address(es) of the requested onboardee(s)? * (this will be needed to track contingent workers in Workday, note: this information can come at a later date but not before everything is finalized)
+   - Who is the Manager for the Contingent Worker? *
+   - What is the Business Title for this Contingent Worker? *
+   - What is the Contingent Worker's Non-GitLab email address? *
+   - What is the Contingent Worker's Legal First Name? *
+   - What is the Contingent Worker's Legal Last Name? *
+   - What is the Contingent Worker's Preferred First Name? *
+   - What is the Contingent Worker's Preferred Last Name? *
+   - What is the Contingent Worker's Address *
 
-4. In the "Spend Information" section, you'll need to fill out the following information:
-  - What subsidiary is this purchase for? * (FP&A can help you answer this?)
-  - What is the desired start and end date for this purchase/contract? * (Note: If this is a Staff Augmentation - the Start/End date should not be longer than 24 months)
-  - How much budget will you need for this purchase? *
-  - Line type (select "amount")
-  - Coupa Subsidiary (this is typically your entity like GitLab Inc for US)
-  - Coupa Department (this is typically the org you sit in)
-  - Coupa GL Account (select 6017 Consulting Fees)
-  - Do you have any of the below supporting documentation? * (MSA, SOW, etc)
+1. In the "Spend Information" section, you'll need to fill out the following information:
+   - What subsidiary is this purchase for? * (FP&A can help you answer this?)
+   - What is the desired start and end date for this purchase/contract? * (Note: If this is a Staff Augmentation - the Start/End date should not be longer than 24 months)
+   - How much budget will you need for this purchase? *
+   - Line type (select "amount")
+   - Coupa Subsidiary (this is typically your entity like GitLab Inc for US)
+   - Coupa Department (this is typically the org you sit in)
+   - Coupa GL Account (select 6017 Consulting Fees)
+   - Do you have any of the below supporting documentation? * (MSA, SOW, etc)
 
-5. In the "IT, Security, and Privacy Information" section, you'll need to fill out the following information:
+1. In the "IT, Security, and Privacy Information" section, you'll need to fill out the following information:
    - What type of access will the vendor need to data and information? *
    - Access to GitLab resources via personal devices is not permitted. Is the contingent worker issued a vendor-managed laptop? *
    - Does this request involve the use of a web application, web portal, or software system? *
 
-6. The Zip Request will be reviewed by the applicable stakeholders
+1. The Zip Request will be reviewed by the applicable stakeholders
 
-7. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
+1. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
 
-8. If you need to extend the contract term of an IC, submit a [Zip Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change)
+1. If you need to extend the contract term of an IC, submit a [Zip Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change)
 
-9. If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
+1. If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
 
 *Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
 
