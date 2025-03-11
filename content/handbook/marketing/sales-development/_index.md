@@ -1760,40 +1760,24 @@ Announcement Channels
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
-| **Team Member OTE (SDR/MM BDR, APJ BDR, & Pub Sec)** |
+| **Team Member OTE (SDRs)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
 | - 100% Individual SAO Quota: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 1.3 x High LAM New Logo Kicker for APJ/Pub Sec BDRs |
-| **Team Member OTE (ENT BDR Strategic)** |
+| **Team Member OTE (MM and ENT BDRs)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
-| - 80% Individual Quota: |
-|   - 20% Growth SAOs |
-|   - 60% First Order SAOs |
-|   - 1.3 x High LAM New Logo Kicker |
+| - 70% Stage 1 nARR Pipe: |
 |   - No floor or ceiling |
-|   - Accelerator x 1.75 after meeting 100% of target of either SAO type for that type |
-| - 20% Pooled Net ARR Bookings: |
+|   - Accelerator x 1.5 after meeting 100% of target |
+|   - 2x on all Focus Account opp nARR |
+| - 30% Stage 3 nARR Pipe: |
 |   - 75% Floor |
-|   - Ceiling of 140% |
-|   - Accelerator x 1.25 from 100% to 140% |
-| **Team Member OTE (ENT BDR Major)** |
-| 70% Base Pay |
-| 30% Variable Pay: |
-| - 80% Individual Quota: |
-|   - 50% SAOs |
-|   - 1.3 x High LAM New Logo Kicker |
-|   - No floor or ceiling |
-|   - Accelerator x 1.75 after meeting 100% of SAO target |
-|   - 30% Net ARR Pipeline |
-|   - No floor with a 200% ceiling, no accelerator |
-| - 20% Pooled Net ARR Bookings: |
-|   - 75% Floor |
-|   - Ceiling of 140% |
-|   - Accelerator x 1.25 from 100% to 140% |
+|   - Accelerator x 1.25 from 100% to 225% |
+|   - Accelerator x 1.0 225%+ |
+|   - 2x on all Focus Account opp nARR |
 | **Results** |
 | - ARR won from opportunities BDR sources |
 | **Activity** |
