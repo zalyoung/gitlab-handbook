@@ -198,6 +198,8 @@ Once data has been exported from the source destination, the user will have a fe
 
 ### Import metadata file structure
 
+**WIP: Do not rely on this specification for development until it's finalized**
+
 Offline migrations will need a metadata file to map entity source paths to file keys in object storage. Since object storage is always a flat structure, and disk storage is always a nested structure, opting for a flat object storage with information on how to link entities seems best.
 
 The metadata file holds the following information:
