@@ -81,7 +81,7 @@ The legal environment surrounding AI-generated creative works, including images,
 
 ### **General Requirements**
 
-- When using AI-generated images, do not misrepresent the nature of the work, i.e., do not claim or imply that the image was human-generated.
+- Follow our [General Purpose AI Tool Usage Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/).
 - Don't use prompts that reference an artist by name. For example, don't use `in the style of [artist name]`. You can, however, use a prompt like `in the impressionist style`.
 - Use only written prompts -- don't use an existing image as a prompt.
 - Use of any text-to-image model besides those listed under `Model-Specific Requirements` below is not permitted without prior legal review of the model's license and any applicable restrictions.
