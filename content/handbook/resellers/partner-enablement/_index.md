@@ -167,9 +167,9 @@ The following Services are examples that you can take, modify and use to provide
 
 - Readiness Assessment - [Data Sheet](https://drive.google.com/file/d/1OWZdw44MMaYLyrvxGo96vYuzz5wTXeaq/view), [Statement of Work (SOW)](https://drive.google.com/file/d/1t5tHaXZrMiNgLGzaBTT2ksjjgDHJqyQN/view), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/health-check), [System Readiness Report (Health Check) TEMPLATE](https://docs.google.com/document/d/1j4Jmz_SCJEeeQT4uCIHiw6ngwsZyW_aAMVvSIyO2ndc/edit?tab=t.0).
 - Partner Led GitLab Optimization - [Data Sheet](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection), [Delivery Kit](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459891&renderMode=Collection).
-- Dedicated Implementation Services	- [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-template).
+- Dedicated Implementation Services - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-template).
 - Migration QuickStart - [Data Sheet](https://drive.google.com/file/d/1dPs65e23bzlBQ_DxXbAkzZl-6t5OkFzZ/view), [Statement of Work (SOW)](https://docs.google.com/document/d/1PXTz1Lvp1H9mrxyQNL_-bcDBrNWmsGQa47pMYPTXnTI/edit?tab=t.0), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits/migration-template), [Service Description](https://about.gitlab.com/professional-services/skus/migration-quickstart/).
-- Self-Managed Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-ha/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-self-managed).	
+- Self-Managed Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-ha/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-self-managed).
 - GitLab.com Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/1dtCtZjCgolbO0lZ8BzTfPG_BNC6Tv078/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-com/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-gitlab-com).
 
 - [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
@@ -182,20 +182,19 @@ The following Services are examples that you can take, modify and use to provide
 
 Here are links to the most popular Professional Services topics from the [Professional Services Team Handbook page](/handbook/customer-success/professional-services-engineering/).
 
-* [Marketed Offerings](https://about.gitlab.com/services/)
-* [Offerings Framework & Delivery Kits](/handbook/customer-success/professional-services-engineering/framework/)
-* [Positioning](/handbook/customer-success/professional-services-engineering/positioning/)
-* [Professional Services Methodology](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/)
-* [Selling](/handbook/customer-success/professional-services-engineering/selling/)
-* [Working with PS](/handbook/customer-success/professional-services-engineering/working-with/)
-* [SKUs](/handbook/customer-success/professional-services-engineering/skus/)
-* [Education Services](/handbook/customer-success/professional-services-engineering/education-services/)
-* [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
-* [Partner Collaboration](/handbook/customer-success/professional-services-engineering/partner-collaboration/)
-* [Sales enablement](/handbook/customer-success/professional-services-engineering/sales-enablement/)
-* [Professional Services Operations](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
-* [Escalation Process](/handbook/customer-success/csm/escalations/)
-
+- [Marketed Offerings](https://about.gitlab.com/services/)
+- [Offerings Framework & Delivery Kits](/handbook/customer-success/professional-services-engineering/framework/)
+- [Positioning](/handbook/customer-success/professional-services-engineering/positioning/)
+- [Professional Services Methodology](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/)
+- [Selling](/handbook/customer-success/professional-services-engineering/selling/)
+- [Working with PS](/handbook/customer-success/professional-services-engineering/working-with/)
+- [SKUs](/handbook/customer-success/professional-services-engineering/skus/)
+- [Education Services](/handbook/customer-success/professional-services-engineering/education-services/)
+- [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
+- [Partner Collaboration](/handbook/customer-success/professional-services-engineering/partner-collaboration/)
+- [Sales enablement](/handbook/customer-success/professional-services-engineering/sales-enablement/)
+- [Professional Services Operations](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
+- [Escalation Process](/handbook/customer-success/csm/escalations/)
 
 ## Additional Resources
 
