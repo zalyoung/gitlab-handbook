@@ -175,6 +175,7 @@ GitLab.com Rapid Results Consulting - [Data Sheet](https://drive.google.com/file
 - [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) (Portal Assets)
   - These delivery kits are what our internal GitLab Professional Services teams use for customer projects. You are encouraged to take, modify and use to provide your own branded professional consultative services that involve GitLab.
 
+
 ## Additional Resources
 
 ## 1. Official GitLab Training on Level Up
