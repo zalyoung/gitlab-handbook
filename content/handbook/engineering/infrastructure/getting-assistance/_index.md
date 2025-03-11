@@ -56,7 +56,7 @@ We can help with:
 
 1. Runway
 
-Our Slack channel is: [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2)
+Our Slack channel is: [fg_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA)
 
 #### Foundations
 
