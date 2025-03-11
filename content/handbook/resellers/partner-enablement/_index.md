@@ -99,7 +99,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
   - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
-- [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
+- [GitLab Proof of Value Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
   - This handbook page is a great resource and link aggregation point for resources to conduct Proof Of Values (POVs).
 - [The GitLab Demo Page](/handbook/solutions-architects/demonstrations/) (Handbook)
   - Good reference material for general purpose demos the same way GitLab SA's do it.
@@ -176,24 +176,24 @@ Dedicated Implementation Services	- [Data Sheet](https://drive.google.com/file/d
   - These delivery kits are what our internal GitLab Professional Services teams use for customer projects. You are encouraged to take, modify and use to provide your own branded professional consultative services that involve GitLab.
 
 - [Professional Services Full Catalog](https://about.gitlab.com/professional-services/catalog/)
-  - This is a full public listing of services offered by GitLab's Professional Services Team. Use this as a starting place to add additional integrations, add-on services, remix bundles of these service offerings as your own. 
+  - This is a full public listing of services offered by GitLab's Professional Services Team. Use this as a starting place to add additional integrations, add-on services, remix bundles of these service offerings as your own.
 
 ### Professional Services Team Handbook Quick links
 
 Here are links to the most popular Professional Services topics from the [Professional Services Team Handbook page](/handbook/customer-success/professional-services-engineering/).
 
 * [Marketed Offerings](https://about.gitlab.com/services/)
-* [Offerings Framework & Delivery Kits](framework/)
-* [Positioning](positioning/)
-* [Professional Services Methodology](professional-services-delivery-methodology/)
-* [Selling](selling/)
-* [Working with PS](working-with/)
-* [SKUs](SKUs/)
-* [Education Services](education-services/)
-* [GitLab Technical Certifications](gitlab-technical-certifications/)
-* [Partner Collaboration](partner-collaboration/)
-* [Sales enablement](sales-enablement/)
-* [Professional Services Operations](professional-services-operations/)
+* [Offerings Framework & Delivery Kits](/handbook/customer-success/professional-services-engineering/framework/)
+* [Positioning](/handbook/customer-success/professional-services-engineering/positioning/)
+* [Professional Services Methodology](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/)
+* [Selling](/handbook/customer-success/professional-services-engineering/selling/)
+* [Working with PS](/handbook/customer-success/professional-services-engineering/working-with/)
+* [SKUs](/handbook/customer-success/professional-services-engineering/skus/)
+* [Education Services](/handbook/customer-success/professional-services-engineering/education-services/)
+* [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
+* [Partner Collaboration](/handbook/customer-success/professional-services-engineering/partner-collaboration/)
+* [Sales enablement](/handbook/customer-success/professional-services-engineering/sales-enablement/)
+* [Professional Services Operations](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
 * [Escalation Process](/handbook/customer-success/csm/escalations/)
 
 
