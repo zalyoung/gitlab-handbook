@@ -163,7 +163,7 @@ The following will describe how to create the personal view to list cases in Glo
 1. As of this writing (March 2025), we do not have access to logs or observability metrics for GitLab Dedicated for Government customers. This significantly limits our troubleshooting capabilities, requiring us to contact SREs for assistance much sooner in the process than we otherwise might.
 1. **Application or infrastructure**? In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. This is slightly tricky without access to logs.
 
-### Getting Help
+#### Getting Help
 
 | What | Useful for |
 | ------ | ------ |
