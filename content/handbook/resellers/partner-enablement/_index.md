@@ -25,7 +25,7 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 
 [GitLab User Webinars and Labs](https://university.gitlab.com/pages/gitlab-user-webinars)
 
-- Regular enablement sessions that you can attend, and promote for your colleagues and customers. Our Customer Success team produces regular enablement sessions in each Geo globally.
+- Our Customer Success team produces regular enablement sessions in each Geo globally that you can attend, and promote for your colleagues and customers.
 - Check out the upcoming sessions and encourage anyone to join them!
 
 **Topical Articles on DevSecOps Concepts**
