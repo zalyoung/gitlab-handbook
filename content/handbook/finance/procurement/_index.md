@@ -217,7 +217,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 #### 3.D. PeopleOps Review: 1-4 Days
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
-- Per GitLab's [People Policies](/handbook/people-policies/#background-screenings) and [Contingent Worker Policy](/ADD LINK), contingent workers are subject to complete a background screening. GitLab will accept a completed background screening from a contingent worker's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
+- Per GitLab's [People Policies](/handbook/people-policies/#background-screenings) and [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/), contingent workers are subject to complete a background screening. GitLab will accept a completed background screening from a contingent worker's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
 - A background screening can be requested by opening an issue in the [Lifecycle Management](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) project by using the `background_check_request` template.
 - Approval will occur once proof of a completed or an initiated background screening has been shared or once the contingent worker has submitted their background screening for processing.
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.
