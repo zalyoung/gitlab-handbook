@@ -171,11 +171,13 @@ The Event Store will serve as the single source of truth for all notification-tr
 1. Enhance current systems independently
 
 Pros:
+
 - Less initial development effort
 - Lower migration risk
 - Can be implemented incrementally
 
 Cons:
+
 - Maintains fragmented user experience
 - Doesn't solve code maintenance issues
 - Limited future extensibility
