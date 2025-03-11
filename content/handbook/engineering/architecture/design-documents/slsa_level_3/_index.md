@@ -196,17 +196,7 @@ component:
     - export RUNNER_METADATA=$(jq -c . ${RUNNER_METADATA_FILE})
 
     - echo "Generating predicate for ${TARGET_ARTIFACT}..."
-    - cat <<EOF > predicate.json
-      {
-          "_type": "https://in-toto.io/Statement/v1",
-          "subject": $(echo "${RUNNER_METADATA}" | jq -c .subject),
-          "predicateType": "https://slsa.dev/provenance/v1",
-          "predicate": {
-              "buildDefinition": $(echo "${RUNNER_METADATA}" | jq -c .predicate.buildDefinition),
-              "runDetails": $(echo "${RUNNER_METADATA}" | jq -c .predicate.runDetails)
-          }
-      }
-      EOF
+    - echo "${RUNNER_METADATA}" | jq -c .predicate > predicate.json
 
     - echo "Attesting provenance for ${TARGET_ARTIFACT}..."
     - cosign attest-blob --predicate predicate.json \
