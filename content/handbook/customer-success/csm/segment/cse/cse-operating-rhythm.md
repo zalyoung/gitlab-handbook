@@ -69,8 +69,10 @@ The upcoming month's hands-on labs are added to an issue in the [Customer Succes
 > As a Lab DRI, you are responsible for submitting a Lab Request for an environment. This should be submitted ideally at least one week before the date of delivery. For assistance/questions please reach out on the `#demo-architect-partners` Slack channel.
 
 1. Navigate and login to the [Demo Architect Portal](https://cloud.gitlabdap.com/).
-1. Select **Customer Workshop/Lab** from the dropdown list.
-1. Fill in the form to the best of your knowledge.
+1. Select **Content/Lab Request** from the dropdown list.
+1. For Salesforce Account Link, enter [https://gitlab.my.salesforce.com/Account/](https://gitlab.my.salesforce.com/Account/)
+1. For Opportunity type, select **CSE Led Lab**.
+1. Fill in the rest of the form to the best of your knowledge.
 1. Click `Submit Request`.
 
 This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team.
