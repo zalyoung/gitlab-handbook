@@ -28,21 +28,21 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-Current notification system is based on emails, requiring user to move constantly between inbox and GitLab. At the same time we have system of to-dos, that partially overlap with notifications, but in general establish only a subset of those. To-dos are also not controlled by any user preferences. 
+The current notification system is based on emails, requiring users to move constantly between their inbox and GitLab. At the same time, we have a system of to-dos that partially overlaps with notifications but generally establishes only a subset of those. To-dos are also not controlled by any user preferences.
 
-To improve user experience and create parity between to-dos and email notifications I propose creating notification system in GitLab itself, which will respect current notification settings for email notifications. 
+To improve user experience and create parity between to-dos and email notifications, I propose creating a notification system within GitLab itself, which will respect current notification settings for email notifications.
 
 ## Motivation
 
-Our goal is to create a system that allow users to receive information about activity in their groups and projects in GitLab itself, without need to go check their email inbox. Those notifications should be personalizable, it should be easy to filter and mark as done/read. We want to grow the usage of notifications (metric here?). 
+Our goal is to create a system that allows users to receive information about activity in their groups and projects in GitLab itself, without the need to check their email inbox. These notifications should be personalizable, easy to filter, and simple to mark as done/read. We want to grow the usage of notifications (metrics to be determined).
 
-Our internal motivation is to create a system that is easy to extend and loosly coupled with other parts of the codebase. We also want to create system with clear retention policies, allowing to have a mainainable database load. We also want to make sure that adding new notifications to the codebase is easy and feature teams can self-serve with it. 
+Our internal motivation is to create a system that is easy to extend and loosely coupled with other parts of the codebase. We also want to create a system with clear retention policies, allowing for a maintainable database load. We also want to ensure that adding new notifications to the codebase is easy and feature teams can self-serve with it.
 
 ### Goals
 
-- Create a comprehensive experience for users, who will have one place to see everything they need to know to work 
-- Improve MAU (Monthly Active Users) metric between current to-dos and new notification centre
-- Refactor code to achieve higher cohesion and more extendable system
+- Create a comprehensive experience for users, who will have one place to see everything they need to know to work
+- Improve MAU (Monthly Active Users) metric between current to-dos and new notification center
+- Refactor code to achieve higher cohesion and a more extendable system
 
 ### Non-Goals
 
@@ -69,48 +69,42 @@ Create a unified notification center built on an event-driven architecture that:
 ##### Pros
 
 1. Improved user experience:
+   - Single location for all notifications
+   - Consistent interface and behavior
+   - Greater control over notification preferences
 
-- Single location for all notifications
-- Consistent interface and behavior
-- Greater control over notification preferences
+2. Technical benefits:
+   - Decoupled architecture allows independent service development
+   - Centralized notification logic improves maintainability
+   - Event-driven design enables easy addition of new notification types
+   - Reduced code duplication and complexity
 
-1. Technical benefits:
-
-- Decoupled architecture allows independent service development
-- Centralized notification logic improves maintainability
-- Event-driven design enables easy addition of new notification types
-- Reduced code duplication and complexity
-
-1. Future flexibility:
-
-- Straightforward path to add new notification channels (web, mobile push, etc.)
-- API-first approach enables third-party integrations
-- Retention policies prevent database bloat
+3. Future flexibility:
+   - Straightforward path to add new notification channels (web, mobile push, etc.)
+   - API-first approach enables third-party integrations
+   - Retention policies prevent database bloat
 
 ##### Cons
 
 1. Migration complexity:
+   - Requires careful handling of existing notifications
+   - User settings need thoughtful transition
+   - Temporary increased system complexity during transition
 
-- Requires careful handling of existing notifications
-- User settings need thoughtful transition
-- Temporary increased system complexity during transition
+2. System dependencies:
+   - Increased reliance on Event Store reliability
+   - Need to manage event processing performance
+   - Potential for more complex failure scenarios
 
-1. System dependencies:
-
-- Increased reliance on Event Store reliability
-- Need to manage event processing performance
-- Potential for more complex failure scenarios
-
-1. Resource requirements:
-
-- Significant engineering effort
-- Careful testing required to ensure seamless transition
+3. Resource requirements:
+   - Significant engineering effort
+   - Careful testing required to ensure seamless transition
 
 ## Design and implementation details
 
 ### Database table
 
-First thing to create is the new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user etc. 
+First thing to create is the new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user, etc.
 
 ```mermaid
 erDiagram
@@ -135,26 +129,53 @@ erDiagram
 
 ### Notification settings 
 
-Currently notification settings allow to define highly customizable rules when to receive email with notification. To create parity between current todos and email system, we should add possibility to establish if user wants to receive email or email and notification or just notification. 
+Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and in-app notification, or just an in-app notification.
 
-NOTE: changes to the notification settings system apart from adding notification/email differentiation are out of scope for this project. 
+NOTE: Changes to the notification settings system apart from adding notification/email differentiation are out of scope for this project.
 
 ### Events 
 
-Event system is the backbone of this proposal. GitLab event store implementation is described [here](https://docs.gitlab.com/development/event_store/)
+The event system is the backbone of this proposal. GitLab event store implementation is described [here](https://docs.gitlab.com/development/event_store/). Every notification record and every notification email should be handled in the subscriber to the particular event.
+
+```mermaid
+flowchart TD
+    A[System Actions] --> B[Event Store]
+    B --> C[Event Processors]
+    C --> D[Notification Service]
+    D --> E[Notification Database]
+    E --> F[API Layer]
+    F --> G[Delivery Channels]
+    G --> H[Email]
+    G --> K[Future Channels]
+    
+    F --> L[User Interface]
+    
+    N[User Preferences] --> D
+```
+
+The Event Store will serve as the single source of truth for all notification-triggering events. This approach provides several key advantages:
+
+- Decoupling: System actions generate events without knowledge of how those events will be processed or which notifications they'll trigger.
+- Consistency: Using a single event source ensures all notification types derive from the same consistent data.
+
+#### Event Processing Pipeline
+
+- Event Emission: When a relevant action occurs in the system (assignment, comment, due date change, etc.), an event is published to the Event Store.
+- Event Processing: Event processors subscribe to specific event types and transform raw events into notification candidates.
+- Notification Filtering: The notification service applies user preferences to determine if a notification should be created.
+- Notification Storage: Valid notifications are stored in the unified notification database with appropriate metadata.
+- Delivery Determination: Based on user preferences and notification type, the system determines which delivery channels to use (emails for now).
 
 ## Alternative Solutions
 
 1. Enhance current systems independently
 
 Pros:
-
 - Less initial development effort
 - Lower migration risk
 - Can be implemented incrementally
 
 Cons:
-
 - Maintains fragmented user experience
 - Doesn't solve code maintenance issues
 - Limited future extensibility
