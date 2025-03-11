@@ -4,14 +4,15 @@ description: "Security Compliance Team"
 ---
 
 ## Security Compliance Team Charter
+
 Last Updated: 2025-02-25
 
 ## Mission Statement
-A trusted advisor
-sale enablment
-risk reduction
+
+The Security Compliance Team safeguards GitLab's position as the industry's most trusted DevSecOps platform through rigorous certification management and automated risk monitoring. We protect our customers by turning compliance requirements into competitive advantages, using our own product to demonstrate security excellence.
 
 ## Value Proposition
+
 Security Compliance maintains GitLab's position as the most trusted DevSecOps offering on the market by providing assurance to our customers and enabling sales through certification maintenance and expansion.
 
 ## Core Competencies
@@ -37,13 +38,53 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
 
 ## Operating Model
 
+We use agile program management and project management best practices to organize our work with the goal of being as efficient as possible while continuously iterating towards our objectives. Security Compliance team members are encouraged to regularly bring up feedback on how we can improve the way we work and this is a standing topic in our weekly team meeting agenda.
+
+### Core Processes
+
+The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
+
+Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
+
+### Engagement Model
+
+- Slack
+  - Feel free to tag `@sec-compliance-team` to reach the entire Security Compliance team
+  - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
+- Tag us in GitLab
+  - `@gitlab-com/gl-security/security-assurance/security-compliance`
+
+### Communication Channels
+
+All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly.
+
 ## Success Metrics
 
 | **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Good = 12 months, Better = 6 months, Best = 3 months| Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationsKPI/SecCompLeadershipMetrics?:iid=3)| n/a|
+| TCV/ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| This is not complete. We are working with the sales team to make this possible.|
+| Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)|
+| Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)|
+
 
 ## FY26 Strategic Initiatives
+
+### Primary Focus Areas
+
+[List 3-4 key initiatives your team will focus on this fiscal year. For each, include:
+
+Objective
+Key deliverables
+Timeline
+Success criteria]
+
+Fedramp ATO / stackarmor transition
+ISO42001
+ISMAP
+Cert Maintenance
+GCF v4
+
 
 ## Review and Updates
 This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
@@ -60,17 +101,9 @@ We support the Security division's [mission and operating principles](/handbook/
 1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
-## Where we work
-
-The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
-
-Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
-
-All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly.
-
 ## How we work
 
-We use agile program management and project management best practices to organize our work with the goal of being as efficient as possible while continuously iterating towards our objectives. Security Compliance team members are encouraged to regularly bring up feedback on how we can improve the way we work and this is a standing topic in our weekly team meeting agenda.
+
 
 ### Scheduled meetings
 
