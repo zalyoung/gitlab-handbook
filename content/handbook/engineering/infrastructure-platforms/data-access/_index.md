@@ -6,7 +6,7 @@ title: Data Access Sub Department
 
 The Data Access sub-department is responsible for the **sustainability** and **availability** of access to GitLab’s user data, in alignment with customer needs and GitLab’s business objectives.
 
-The scope of user data includes Git, PostgreSQL, ClickHouse, Redis, Sidekiq, Object Storage and the development of a scalable backup system for all GitLab deployments.
+The scope of user data includes Git, PostgreSQL, ClickHouse, Redis, Object Storage and the development of a scalable backup system for all GitLab deployments.
 
 For all GitLab deployments:
 
@@ -50,8 +50,8 @@ Below is a non-exhaustive list of considerations from the perspective of new fea
 
 **Each of these points MUST be considered for all GitLab installation types: Cells, Dedicated, SaaS, and Self-Managed:**
 
-1. Growth of a feature over time MUST NOT create a danger to the service as a whole.
-2. Failure of a feature MUST NOT create a danger to the service as a whole.
+1. Growth of a feature over time MUST NOT endanger the service as a whole.
+2. Failure of a feature MUST NOT endanger the service as a whole.
 3. Safeguards SHOULD be architectural failsafes (isolation, [circuit breaker pattern](https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern) etc), not reactive mechanisms.
 4. The critical path of operating a feature MUST be fully automated. (For example, humans watching graphs and reacting is not allowed.)
 5. Specific observability (monitoring and alerting) MUST be in place, to pinpoint and attribute sources of load and growth.
