@@ -24,7 +24,7 @@ Provide a brief description of your purchase and be sure to select the correct c
 
 ## Submitting a Request for a Contingent Worker
 
-At GitLab we have a [Contingent Worker Policy](https://docs.google.com/document/d/10xSFjjW6Sr-KFgV8mXzZShM8met_pedYQZh-HQn9Qt8/edit?tab=t.0) in place beginning February 2025. This policy has been designed to provide Team Members a high-level overview and guidelines on the different types of contingent workers available as well as how and when each should be used. After review you'll need to identify which type of contingent worker you are interested in hiring. There are three categories of contingent workers at GitLab:
+At GitLab we have a [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/) in place beginning March 2025. This policy has been designed to provide Team Members a high-level overview and guidelines on the different types of contingent workers available as well as how and when each should be used. After review you'll need to identify which type of contingent worker you are interested in hiring. There are three categories of contingent workers at GitLab:
 
 - Staff Augmentation Workers
 - Consultancy Services
