@@ -178,6 +178,24 @@ GitLab.com Rapid Results Consulting - [Data Sheet](https://drive.google.com/file
 - [Professional Services Full Catalog](https://about.gitlab.com/professional-services/catalog/)
   - This is a full public listing of services offered by GitLab's Professional Services Team. Use this as a starting place to add additional integrations, add-on services, remix bundles of these service offerings as your own. 
 
+### Professional Services Team Handbook Quick links
+
+Here are links to the most popular Professional Services topics from the [Professional Services Team Handbook page](/handbook/customer-success/professional-services-engineering/).
+
+* [Marketed Offerings](https://about.gitlab.com/services/)
+* [Offerings Framework & Delivery Kits](framework/)
+* [Positioning](positioning/)
+* [Professional Services Methodology](professional-services-delivery-methodology/)
+* [Selling](selling/)
+* [Working with PS](working-with/)
+* [SKUs](SKUs/)
+* [Education Services](education-services/)
+* [GitLab Technical Certifications](gitlab-technical-certifications/)
+* [Partner Collaboration](partner-collaboration/)
+* [Sales enablement](sales-enablement/)
+* [Professional Services Operations](professional-services-operations/)
+* [Escalation Process](/handbook/customer-success/csm/escalations/)
+
 
 ## Additional Resources
 
