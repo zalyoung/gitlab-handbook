@@ -44,12 +44,13 @@ TBD
 
 ### Roles and Responsibilities
 
-| Working Group Role | Person            | Title                                             |
-|--------------------|-------------------|---------------------------------------------------|
-| Facilitator        | Vladimir Shushlin | Engineering Manager - Plan::Knowledge             |
-| Member             | Alisa Frunza      | Backend Engineer - Plan::Knowledge                |
-| Member             | Heinrich Lee Yu   | Staff Backend Engineer - Plan::Project Management |
-| Member             | Kassio Borges     | Staff Backend Engineer - Plan::Product Planning   |
-| Member             | Alexandru Croitor | Senior Backend Engineer - Plan:Project Management |
-| Member             | Nicolas Dular     | Staff Backend Engineer - Plan::Product Planning   |
-| Member             | Eugenia Grieff    | Senior Backend Engineer - Plan::Product Planning  |
+| Working Group Role | Person            | Title                                               |
+|--------------------|-------------------|-----------------------------------------------------|
+| Facilitator        | Vladimir Shushlin | Engineering Manager - Plan::Knowledge               |
+| Member             | Alisa Frunza      | Backend Engineer - Plan::Knowledge                  |
+| Member             | Heinrich Lee Yu   | Staff Backend Engineer - Plan::Project Management   |
+| Member             | Kassio Borges     | Staff Backend Engineer - Plan::Product Planning     |
+| Member             | Alexandru Croitor | Senior Backend Engineer - Plan:Project Management   |
+| Member             | Nicolas Dular     | Staff Backend Engineer - Plan::Product Planning     |
+| Member             | Eugenia Grieff    | Senior Backend Engineer - Plan::Product Planning    |
+| Member             | Dmitry Gruzd      | Staff Backend Engineer - Foundations::Global Search |
