@@ -272,7 +272,7 @@ Initial measurements establish the following monitoring baselines:
 
 2. Potential performance degradation during multi-user sessions
 
-3. Mitigation: Recommend scheduling load balancing improvements if model is a go
+* Mitigation: Recommend scheduling load balancing improvements if model is a go
 * Impact: Low
 * Probability: Medium
 
@@ -289,4 +289,3 @@ Initial measurements establish the following monitoring baselines:
 
 * [AI Model Guidance](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_model_guidance/)
 * [GitLab Model Vendor Selection Policy](https://docs.google.com/document/d/16PwPggN1wqWP2ezhCXIWc_vYzruYTlkM3Y8ZYyMetE4/edit?usp=sharing)
-
