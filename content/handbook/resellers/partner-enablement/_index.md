@@ -23,6 +23,11 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
 - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
 
+[GitLab User Webinars and Labs](https://university.gitlab.com/pages/gitlab-user-webinars)
+
+- Regular enablement sessions that you can attend, and promote for your colleagues and customers. Our Customer Success team produces regular enablement sessions in each Geo globally.
+- Check out the upcoming sessions and encourage anyone to join them!
+
 **Topical Articles on DevSecOps Concepts**
 
 - [What is DevOps](https://about.gitlab.com/topics/devops/)
