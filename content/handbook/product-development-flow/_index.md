@@ -369,7 +369,7 @@ could create significant risks or friction for GitLab users or the platform, suc
 
 ### Experiment features
 
-In addition to the [experiment details](#experiment) for users, experiments:
+In addition to the [experiment details](https://docs.gitlab.com/policy/development_stages_support/#experiment) for users, experiments:
 
 - Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
 - Are a tool project managers can use to validate their feature, most commonly to validate the **problem**.
@@ -388,16 +388,16 @@ In addition to the [experiment details](#experiment) for users, experiments:
 - TODO: [DRI needed] UX requirements for experiment should be added or linked to here.
 - TODO: [DRI needed] Engineering requirements for experiment should be added or linked to here.
 - Offer a way to opt in with minimal friction.
-- Link out to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/) in the opt-in.
-- Have documentation that reflects that the feature is subject to the [GitLab Testing Agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/).
+- Link out to the [GitLab Testing Agreement](/handbook/legal/testing-agreement/) in the opt-in.
+- Have documentation that reflects that the feature is subject to the [GitLab Testing Agreement](/handbook/legal/testing-agreement/).
 - Have [UI that reflects the experiment status](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions).
 - Have a feedback issue to engage with internal and external users.
 - Not be announced in a release post.
 - Be promoted in the user interface through [discovery moments](https://design.gitlab.com/usability/feature-management/#discovery-moments),
   if needed.
 
-All experimental features that [meet the review criteria](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review)
-must [initiate Production Readiness Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/#process)
+All experimental features that [meet the review criteria](/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review)
+must [initiate Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/#process)
 and complete the [experiment section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#experiment).
 
 ### Beta features
@@ -424,16 +424,16 @@ In addition to the [beta details](#beta) for users, beta features:
 - Be promoted in the user interface through [discovery moments](https://design.gitlab.com/usability/feature-management/#discovery-moments),
   if needed.
 
-All beta features that [meet the review criteria](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review)
+All beta features that [meet the review criteria](/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review)
 must complete all sections up to and including the [beta section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#beta)
-by following the [Production Readiness Review process](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/#process).
+by following the [Production Readiness Review process](/handbook/engineering/infrastructure/production/readiness/#process).
 
 ### Publicly available features
 
 Publicly available features must:
 
-1. Meet the [review criteria](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review).
-1. Complete the [Production Readiness Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/readiness/).
+1. Meet the [review criteria](/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review).
+1. Complete the [Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/).
 1. Complete all sections up to and including the [General availability section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#general-availability).
 1. TODO: [DRI needed] Terms and conditions (or other agreements and legal) added or linked here.
 1. TODO: [DRI needed] Telemetry requirements added or linked to here.
@@ -451,7 +451,7 @@ Publicly available features must:
 
 ### Provide earlier access
 
-Our [mission is "everyone can contribute"](https://handbook.gitlab.com/handbook/company/mission/),
+Our [mission is "everyone can contribute"](/handbook/company/mission/),
 and that is only possible if people outside the company can try a feature. We get higher quality (more diverse) feedback
 if people from different organizations try something, so give users the ability to opt in to experimental
 features when there is enough value.
@@ -467,7 +467,7 @@ so we are allowed to make mistakes here and literally experiment.
 
 To ensure the phases before general availability are as short as possible each phase of experiment,
 beta, and limited availability should include exit criteria. This encourages rapid iteration and
-reduces [cycle time](https://handbook.gitlab.com/handbook/values/#reduce-cycle-time).
+reduces [cycle time](/handbook/values/#reduce-cycle-time).
 
 GitLab Product Managers must take the following into account when deciding what exit criteria
 to apply to their experimental and beta features:
@@ -491,7 +491,7 @@ to apply to their experimental and beta features:
   a different direction would provide more value or a better user experience. If open questions must be answered
   to decide if the feature is worth putting in the product, list and answer those.
 
-For the exit criteria of **AI features**, in addition to the above, see the [UX maturity requirements](https://handbook.gitlab.com/handbook/product/ai/ux-maturity/).
+For the exit criteria of **AI features**, in addition to the above, see the [UX maturity requirements](/handbook/product/ai/ux-maturity/).
 
 ## Contributing to this page
 
