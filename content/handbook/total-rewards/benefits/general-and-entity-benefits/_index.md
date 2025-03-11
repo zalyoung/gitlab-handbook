@@ -28,7 +28,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
 - [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
+- [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
 - [Papaya Global (Italy)](/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global/)
 - [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
 
