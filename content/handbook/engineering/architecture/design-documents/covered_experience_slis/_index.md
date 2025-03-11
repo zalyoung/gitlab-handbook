@@ -126,7 +126,7 @@ flowchart LR
     LabKitB --emit message--> tracker
 ```
 
-Below there are cases covering in detail synchronous, asynchronous, and batched requests.
+Below there are cases covering in detail synchronous and asynchronous.
 
 ### Synchronous workflow
 
@@ -219,37 +219,6 @@ sequenceDiagram
     end
 ```
 
-### Batched workflow
-
-```mermaid
-sequenceDiagram
-    participant Git as Git Client
-    participant WH as Workhorse
-    participant Tracker as Covered Experience Tracker
-    participant Web as Web Service
-
-    Note over Git, Web: First Request
-    Git->>WH: Git HTTP Request
-    WH-->>Git: Response 1
-    Note over WH: Start collecting batch
-
-    Note over Git, Web: More Requests...
-    Git->>WH: Git HTTP Request
-    WH-->>Git: Response 2
-    Git->>WH: Git HTTP Request
-    WH-->>Git: Response 3
-
-    Note over Git,Web: Last Request
-    Git->>WH: Git HTTP Request
-    WH-->>Git: Response N
-
-    Note over WH: Batch threshold met
-    WH->>Tracker: Start Covered Experience with batch range
-    WH->>Web: Forward batched requests
-    Web-->>WH: Process batch response
-    WH->>Tracker: End Covered Experience
-```
-
 ### Covered Experience Definition
 
 - YAML-based covered experience definitions authored by product teams
@@ -279,7 +248,6 @@ Examples:
 - DSL for marking covered experience start/end points
 - Covered Experience ID generation and propagation
 - Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
-- Optional batching of requests before reporting to the Covered Experience Tracker
 
 ### Covered Experience Tracker
 
@@ -303,11 +271,6 @@ The Covered Experience Tracker will serve an endpoint that will respond to the c
 | client_timestamp  | string (ISO-8601) | Yes                  | Timestamp when event occurred                     | "2025-02-06T14:30:00Z"                         | -                                                   |
 | context           | object            | Yes                  | Additional journey context                        | {"feature_category": "source_code_management"} | -                                                   |
 | server_timestamp  | string (ISO-8601) | No (Response only)   | Server processing timestamp                       | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                 |
-| batch_range       | object            | No                   | Time range for batched events                     | see below                                      | Used when events are batched together               |
-| batch_range.start | string (ISO-8601) | Yes (if batch_range) | Start time of batch                               | "2025-02-07T10:00:00.123Z"                     | -                                                   |
-| batch_range.end   | string (ISO-8601) | Yes (if batch_range) | End time of batch                                 | "2025-02-07T10:00:05.678Z"                     | -                                                   |
-
-Batched operations collect the `start` and `end` timestamp of batched requests.
 
 State is managed by Redis. Allowing the querying of stale covered experiences, timing out after configured threshold.
 
