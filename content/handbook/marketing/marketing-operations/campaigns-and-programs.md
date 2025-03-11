@@ -425,8 +425,7 @@ If this is to set up a program that involves a channel partner, you must also fo
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
   - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
-Note, if you manage a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_[HyperscalerPartner]_ExecutiveRoundtable_Topic_Region_EventType`. For more info, (see)[https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup]
-
+Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
 ##### Other Tactic Marketo Templates
 
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
@@ -441,6 +440,8 @@ Note, if you manage a hyperscaler campaign, add the hyperscaler partner name aft
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
 
+Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Conference: `YYYYMMDD_HyperscalerPartner_Conference_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
+
 ##### Webcasts Marketo Templates
 
 - Zoom GitLab Hosted Webcast: [YYYYMMDD_WebcastTopic_Region](https://app-ab13.marketo.com/#ME5512A1)
@@ -448,16 +449,15 @@ Note, if you manage a hyperscaler campaign, add the hyperscaler partner name aft
 
 #### Partner Campaign Setup
 
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Partner Trials setup, go to [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners)
-- Hyperscaler campaigns - use the Marketo templates [above](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_[HyperscalerPartner]_ExecutiveRoundtable_Topic_Region_EventType`
+- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/mdf-operations-process/).
+- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
+- Hyperscaler campaigns - use the Marketo templates [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
   - Additional Examples:
-   - 20251202_AWS_AWSreinvent_Booth
-   - 0250409_GCP_GoogleCloudNext_Booth
-   - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
-   - Special Instructions for Content Syndication Teams: 
-     - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
+    - 20251202_AWS_AWSreinvent_Booth
+    - 0250409_GCP_GoogleCloudNext_Booth
+    - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
+    - Special Instructions for Content Syndication Teams: 
+      - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
@@ -480,7 +480,7 @@ Note, if you manage a hyperscaler campaign, add the hyperscaler partner name aft
 
 ### Step 4: Activate Marketo smart campaign(s)
 
-- If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#marketo-automation-and-setup-for-gated-landing-page).
+- If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#steps-gated-landing-pages).
 - If this is a `Vendor Arranged Meeting`:
   - Click the `Smart Campaigns` folder
   - Select the `01 Interesting Moments` smart campaign

@@ -422,7 +422,6 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - ContentKing
 - Frame.io (Brand)
 - Figma (UX)
-- [Humantec.ai (Sales Dev)](/handbook/marketing/marketing-operations/humantic-ai/)
 - [Launch Darkly](/handbook/marketing/digital-experience/engineering/engineering-ab-tests/)
 - [MeetUp](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 - Quantum Metric (DEX)
