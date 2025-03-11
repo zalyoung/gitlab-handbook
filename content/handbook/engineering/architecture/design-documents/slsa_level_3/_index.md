@@ -183,6 +183,8 @@ component:
 
   variables:
     RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
+    REKOR_SERVER: "https://rekor.sigstore.dev"
+    FULCIO_SERVER: "https://fulcio.sigstore.dev"
 
   image: alpine:latest
 
@@ -209,7 +211,9 @@ component:
     - echo "Attesting provenance for ${TARGET_ARTIFACT}..."
     - cosign attest-blob --predicate predicate.json \
         --type slsaprovenance1 \
-        --oidc-issuer "https://gitlab.com" \
+        --oidc-issuer "${CI_SERVER_HOST}" \
+        --fulcio-url "${FULCIO_SERVER}" \
+        --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
         "${TARGET_ARTIFACT}"
 
