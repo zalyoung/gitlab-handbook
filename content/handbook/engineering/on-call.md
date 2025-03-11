@@ -50,7 +50,6 @@ In addition to incident management responsibilities, the EOC also is responsible
     1. Reviewing CRs to ensure they do not conflict with any ongoing incidents or investigations
     1. Executing the CR directly if the author does no thave the required permissions to make the change themselves (such as admin-level changes)
     1. Support during C1 CRs, such as database upgrades, that may occur on weekends
-1. Handling urgent teleport access requests
 1. Approving an exception for running ChatOps commands when they fail their safety checks
 1. Investigating and fixing buggy/flapping alerts
 1. Removing alerts that are no longer relevant
