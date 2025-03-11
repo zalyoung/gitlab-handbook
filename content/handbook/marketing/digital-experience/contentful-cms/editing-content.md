@@ -193,7 +193,7 @@ Due to the way pages are generated, there are a few steps that need to be prefor
    - Note: Since making your changes in the step above, `draft` content will break for other people, so try to do this in one go.
 1. Open an MR in buyer experience with your changes 
    - Delete the file/references to your page
-   - __Use Preview API in your MR!__
+   - *Use Preview API in your MR!*
 1. Once that build passes in your MR:
    - With the webhook still turned off, unpublish your page in Contentful
    - Merge your MR
