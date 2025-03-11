@@ -61,6 +61,21 @@ This initiative is about amplification and evolution of our performance capabili
 
 ## Proposal
 
+We propose building a Performance Results Datastore with the following core components:
+
+1. **Data Collection Layer**: APIs and integration points for various performance testing tools to submit results to the datastore
+2. **Storage Layer**: A time-series database optimized for performance metrics storage and retrieval
+3. **Analysis Layer**: Services for querying, analyzing, and comparing performance results
+4. **Visualization Layer**: Integration with existing visualization tools (e.g., Grafana) for creating dashboards
+
+The solution will be designed to:
+
+- Support multiple types of performance tests
+- Store results with rich metadata (GitLab version, environment details, test parameters)
+- Provide flexible querying capabilities for various analysis needs
+- Scale to accommodate growing volumes of performance data
+- Integrate seamlessly with existing CI/CD pipelines
+
 ## Design and implementation details
 
 ## Alternative Solutions
