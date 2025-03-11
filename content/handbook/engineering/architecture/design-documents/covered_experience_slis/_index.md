@@ -88,152 +88,29 @@ The core proposal consists of three main components (detail below):
 
 The project can be done in 2 phases:
 
-1. **Phase 1**: Implementing the Covered Experience Definition and SDK, with the SDK emitting metrics and logs itself for a rapid iteration. The implementation detail is ub discussion [here](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4114).
-2. **Phase 2**: Implementing the Covered Experience Tracker, which is going to be responsible for the Covered Experience time out verification -- relevant for tracking the asynchronous Covered Experience SLIs.
+1. [Phase 1](#phase-1): Implementing the Covered Experience Definition and SDK, with the SDK emitting metrics and logs itself for a rapid iteration. The implementation detail is in discussion [here](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4114).
+2. [Phase 2](#phase-2): Implementing the Covered Experience Tracker, which is going to be responsible for the Covered Experience time out verification -- relevant for tracking the asynchronous Covered Experience SLIs.
 
-## Design and implementation details
+## Phase 1
 
-Here's a simplified flowchart to demonstrate how the communication will flow overall:
-
-```mermaid
-flowchart LR
-    User((User))
-
-    subgraph ServiceA
-        subgraph Process
-            LabKit
-        end
-    end
-    subgraph ServiceB
-        subgraph ProcessB
-            LabKitB
-        end
-    end
-
-    subgraph tracker[Covered Experience Tracker]
-        missing_end[Missing end event]
-        timeout_check{Timeout check}
-        timeout_action[Timeout action]
-
-        missing_end --> timeout_check
-        timeout_check --no timeout--> missing_end
-        timeout_check --timeout reached--> timeout_action
-    end
-
-    User --> ServiceA
-    LabKit --emit message--> tracker
-    ServiceA --Forward Request--> ServiceB
-    LabKitB --emit message--> tracker
-```
-
-Below there are cases covering in detail synchronous and asynchronous.
-
-### Synchronous workflow
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant App as Service A
-    participant AppB as Service B
-    participant Tracker as Covered Experience Tracker
-    participant Redis
-    participant Metrics as Mimir
-
-    User->>App: Request
-    activate App
-
-    App->>Tracker: Start Tracker
-    Tracker->>Redis: Store Initial State
-
-    App->>AppB: Forward Request
-    activate AppB
-
-    AppB->>Tracker: Checkpoint Event
-    Tracker->>Redis: Update State
-
-    AppB-->>App: Response
-    deactivate AppB
-
-    App->>Tracker: End Tracker
-    Tracker->>Redis: Mark Complete
-    Tracker->>Metrics: Emit Metrics
-
-    App-->>User: Response
-    deactivate App
-
-    loop Expired Covered Experience
-        Tracker->>Redis: Check for Missing End Events
-        alt Timeout Reached
-            Tracker->>Redis: Mark Failed
-            Tracker->>Metrics: Emit Failure Metrics
-        end
-    end
-```
-
-### Asynchronous workflow
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Web as Web Service
-    participant Tracker as Covered Experience Tracker
-    participant Redis
-    participant Sidekiq as Sidekiq Worker
-    participant Metrics as Mimir
-
-    User->>Web: Request
-    activate Web
-
-    Web->>Tracker: Start Covered Experience
-    Tracker->>Redis: Store Covered Experience State
-
-    Web->>Sidekiq: Enqueue Job
-    Web-->>User: Response (202 Accepted)
-    deactivate Web
-
-    Note over Sidekiq: Job may wait in queue
-
-    activate Sidekiq
-    Sidekiq->>Tracker: Checkpoint Event
-    Tracker->>Redis: Update State
-
-    Note over Sidekiq: Process async work
-
-    alt Success Case
-        Sidekiq->>Tracker: End Covered Experience (Success)
-        Tracker->>Redis: Mark Complete
-        Tracker->>Metrics: Emit Success Metric
-    else Failure Case
-        Sidekiq->>Tracker: End Covered Experience (Failed)
-        Tracker->>Redis: Mark Failed
-        Tracker->>Metrics: Emit Failure Metric
-    end
-    deactivate Sidekiq
-
-    loop Expired Covered Experiences
-        Tracker->>Redis: Check for Missing End Events
-        alt Timeout Reached
-            Tracker->>Redis: Mark Failed
-            Tracker->>Metrics: Emit Failure Metrics
-        end
-    end
-```
+In this phase, the main building blocks will be implemented, such as the [Covered Experience Definition](#covered-experience-definition) and the library to emit events (metrics and logs), that will be implemented in the SDK, skipping the [Covered Experience Tracker](#covered-experience-tracker) (that will be come in [phase 2](#phase-2)). This will reduce complexity while we iterate and test our implementation against the specification.
 
 ### Covered Experience Definition
 
-- YAML-based covered experience definitions authored by product teams
-- Support for specifying success criteria and SLO targets
+- YAML-based covered experience definition authored by product teams
+- Support for specifying success criteria
 - Integration with test coverage reporting
 
 The Covered Experience definition will contain the following fields:
 
-| Field                              | Type    | Required | Description                        | Example                        |
-|------------------------------------|---------|----------|------------------------------------|--------------------------------|
-| description                        | string  | Yes      | Human readable description         | "User creates a merge request" |
-| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                           |
-| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                          |
-| id                                 | string  | Yes      | Unique identifier                  | `merge_request_creation`       |
-| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`       |
+| Field                              | Type    | Required | Description                        | Example                               |
+|------------------------------------|---------|----------|------------------------------------|---------------------------------------|
+| covered_experience                 | string  | Yes      | Covered Experience identifier      | `merge_request_creation`              |
+| user_journey                       | string  | Yes      | User journey identifier            | `merge_request_creation_user_journey` |
+| description                        | string  | Yes      | Human readable description         | "User creates a merge request"        |
+| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`              |
+| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                                  |
+| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                                 |
 
 Examples:
 
@@ -245,9 +122,39 @@ Examples:
 ### SDK Requirements
 
 - Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
-- DSL for marking covered experience start/end points
-- Covered Experience ID generation and propagation
+- DSL for sending covered experience events
+- Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
 - Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
+
+The SDK will emit 3 events with the following structure:
+
+| **gitlab_covered_experience_steps_total** | LABEL            | VALUE                                                        | METRIC | LOG |
+|-------------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
+|                                           | ce_name          | security_scan                                                | yes    | yes |
+|                                           | feature_category | vulnerability_management                                     | yes    | yes |
+|                                           | step             | start \| intermediate \| end                                 | yes    | yes |
+|                                           | step_name        | e.g. authorize (impose limited cardinality)                  | yes    | yes |
+|                                           | type             | web                                                          | yes    | yes |
+|                                           | ce_id            | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
+|                                           | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+
+| **gitlab_covered_experience_total** | LABEL            | VALUE                                                        | METRIC | LOG |
+|-------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
+|                                     | error            | true \| false                                                | yes    | yes |
+|                                     | feature_category | vulnerability_management                                     | yes    | yes |
+|                                     | type             | sidekiq                                                      | yes    | yes |
+|                                     | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
+|                                     | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+
+| **gitlab_covered_experience_apdex_total** | LABEL            | VALUE                                                                    | METRIC | LOG |
+|-------------------------------------------|------------------|--------------------------------------------------------------------------|--------|-----|
+|                                           | feature_category | vulnerability_management                                                 | yes    | yes |
+|                                           | success          | true \| false                                                            | yes    | yes |
+|                                           | type             | sidekiq                                                                  | yes    | yes |
+|                                           | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
+|                                           | meta             | { "relevant attribute to the event": "tailored for the specific event" } | no     | yes |
+
+## Phase 2
 
 ### Covered Experience Tracker
 
@@ -276,9 +183,145 @@ State is managed by Redis. Allowing the querying of stale covered experiences, t
 
 A background process verifies all stale covered experiences and clear them out, emitting failure metrics.
 
-### Authentication
+#### Authentication
 
 Authentication between the SDK and the Covered Experience Tracker is required to prevent malicious actors from injecting fake events that could distort the reliability metrics of GitLab features and cause DDoS.
+
+## Design and implementation details
+
+Here's a simplified flowchart to demonstrate how the communication will flow from services to tracker:
+
+```mermaid
+flowchart LR
+    User((User))
+
+    subgraph ServiceA
+        subgraph ProcessA
+            LabKit
+        end
+    end
+    subgraph ServiceB
+        subgraph ProcessB
+            LabKitB
+        end
+    end
+
+    subgraph tracker[Tracker]
+        missing_end[Missing end event]
+        timeout_check{Timeout check}
+        timeout_action[Timeout action]
+
+        missing_end --> timeout_check
+        timeout_check --No timeout--> missing_end
+        timeout_check --Timeout reached--> timeout_action
+    end
+
+    User --Request--> ServiceA
+    LabKit --Event--> tracker
+    ServiceA --> ServiceB
+    LabKitB --Event--> tracker
+```
+
+Below there are cases covering in detail synchronous and asynchronous.
+
+### Synchronous workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant App as Service A
+    participant AppB as Service B
+    participant Tracker as Covered Experience Tracker
+    participant Redis
+    participant Event as Logs and Metrics
+
+    User->>App: Request
+    activate App
+
+    App->>Tracker: Step 1
+    Tracker->>Redis: Store Initial State
+    Tracker->>Event: Emit Start Event
+    Tracker-->>App: Response
+
+    App->>AppB: Forward Request
+    activate AppB
+
+    AppB->>Tracker: Step 2
+    Tracker->>Redis: Update State
+    Tracker->>Event: Emit Intermediate Event
+    Tracker-->>AppB: Response
+
+    AppB-->>App: Response
+    deactivate AppB
+
+    App->>Tracker: Step 3
+    Tracker->>Redis: Mark Complete
+    Tracker->>Event: Emit Success Event
+    Tracker-->>App: Response
+
+    App-->>User: Response
+    deactivate App
+
+    loop Expired Covered Experience
+        Tracker->>Redis: Check for Timeout
+        alt Timeout Reached
+            Tracker->>Redis: Mark Failed
+            Tracker->>Event: Emit Failure Event
+        end
+    end
+```
+
+### Asynchronous workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Web as Web Service
+    participant Worker
+    participant Tracker as Covered Experience Tracker
+    participant Redis
+    participant Event as Logs and Metrics
+
+    User->>Web: Request
+    activate Web
+
+    Web->>Tracker: Step 1
+    Tracker->>Redis: Store Initial State
+    Tracker->>Event: Emit Start Event
+    Tracker-->>Web: Response
+
+    Web->>Worker: Enqueue Job
+    Web-->>User: Response
+    deactivate Web
+
+    Note over Worker: Job wait in queue
+
+    Note over Worker: Job starts
+    activate Worker
+    Worker->>Tracker: Step 2
+    Tracker->>Redis: Update State
+
+    alt Success Case
+        Worker->>Tracker: End Covered Experience (Success)
+        Tracker->>Redis: Mark Complete
+        Tracker->>Event: Emit Success Event
+    else Failure Case
+        Worker->>Tracker: End Covered Experience (Failed)
+        Tracker->>Redis: Mark Failed
+        Tracker->>Event: Emit Failure Event
+    end
+
+    Tracker-->>Worker: Response
+    deactivate Worker
+
+    loop Expired Covered Experiences
+        Tracker->>Redis: Check for Missing End Events
+        alt Timeout Reached
+            Tracker->>Redis: Mark Failed
+            Tracker->>Event: Emit Failure Event
+        end
+    end
+```
 
 ## Alternative Solutions
 
