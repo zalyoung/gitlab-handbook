@@ -5,7 +5,7 @@ description: "How we monitor the market for models to evaluate and respond to on
 
 ## Introduction
 
-GitLab's approach to AI model validation combines rigorous assessment with practical efficiency to support our AI-powered features. Our framework enables teams to leverage cutting-edge AI technologies while maintaining GitLab's quality and compliance standards. By establishing consistent validation practices, we ensure models meet our performance, quality, and compliance requirements.
+GitLab's approach to AI model validation combines rigorous assessment with practical efficiency to support our AI-powered features. Our framework helps enable teams to leverage cutting-edge AI technologies while maintaining GitLab's quality and compliance standards. By establishing consistent validation practices, we help ensure models meet our performance, quality, and compliance requirements.
 
 ## Operational North Star Metric
 
