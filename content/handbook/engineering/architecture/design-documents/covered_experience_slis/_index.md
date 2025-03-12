@@ -88,104 +88,8 @@ The core proposal consists of three main components (detail below):
 
 The project can be done in 2 phases:
 
-1. [Phase 1](#phase-1): Implementing the Covered Experience Definition and SDK, with the SDK emitting metrics and logs itself for a rapid iteration. The implementation detail is in discussion [here](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4114).
-2. [Phase 2](#phase-2): Implementing the Covered Experience Tracker, which is going to be responsible for the Covered Experience time out verification -- relevant for tracking the asynchronous Covered Experience SLIs.
-
-## Phase 1
-
-In this phase, the main building blocks will be implemented, such as the [Covered Experience Definition](#covered-experience-definition) and the library to emit events (metrics and logs), that will be implemented in the SDK, skipping the [Covered Experience Tracker](#covered-experience-tracker) (that will be come in [phase 2](#phase-2)). This will reduce complexity while we iterate and test our implementation against the specification.
-
-### Covered Experience Definition
-
-- YAML-based covered experience definition authored by product teams
-- Support for specifying success criteria
-- Integration with test coverage reporting
-
-The Covered Experience definition will contain the following fields:
-
-| Field                              | Type    | Required | Description                        | Example                               |
-|------------------------------------|---------|----------|------------------------------------|---------------------------------------|
-| covered_experience                 | string  | Yes      | Covered Experience identifier      | `merge_request_creation`              |
-| user_journey                       | string  | Yes      | User journey identifier            | `merge_request_creation_user_journey` |
-| description                        | string  | Yes      | Human readable description         | "User creates a merge request"        |
-| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`              |
-| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                                  |
-| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                                 |
-
-Examples:
-
-| id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
-|------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
-| merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
-| git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
-
-### SDK Requirements
-
-- Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
-- DSL for sending covered experience events
-- Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
-- Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
-
-The SDK will emit 3 events with the following structure:
-
-| **gitlab_covered_experience_steps_total** | LABEL            | VALUE                                                        | METRIC | LOG |
-|-------------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
-|                                           | ce_name          | security_scan                                                | yes    | yes |
-|                                           | feature_category | vulnerability_management                                     | yes    | yes |
-|                                           | step             | start \| intermediate \| end                                 | yes    | yes |
-|                                           | step_name        | e.g. authorize (impose limited cardinality)                  | yes    | yes |
-|                                           | type             | web                                                          | yes    | yes |
-|                                           | ce_id            | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
-|                                           | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
-
-| **gitlab_covered_experience_total** | LABEL            | VALUE                                                        | METRIC | LOG |
-|-------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
-|                                     | error            | true \| false                                                | yes    | yes |
-|                                     | feature_category | vulnerability_management                                     | yes    | yes |
-|                                     | type             | sidekiq                                                      | yes    | yes |
-|                                     | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
-|                                     | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
-
-| **gitlab_covered_experience_apdex_total** | LABEL            | VALUE                                                                    | METRIC | LOG |
-|-------------------------------------------|------------------|--------------------------------------------------------------------------|--------|-----|
-|                                           | feature_category | vulnerability_management                                                 | yes    | yes |
-|                                           | success          | true \| false                                                            | yes    | yes |
-|                                           | type             | sidekiq                                                                  | yes    | yes |
-|                                           | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
-|                                           | meta             | { "relevant attribute to the event": "tailored for the specific event" } | no     | yes |
-
-## Phase 2
-
-### Covered Experience Tracker
-
-A new service, the Covered Experience Tracker, is going to control initiated Covered Experience SLIs to guarantee they are finishing within a specified threshold. When the covered experience trepass this threshold, a failure metric will be created, meaning it did not met its completion expectations, better reflecting the perceived user experience.
-
-- Centralized Covered Experience state tracking
-- Sensible time to live (TTL) threshold for covered experience duration
-- [Authentication](#authentication)
-- Deployments:
-  - Runway service for GitLab.com
-  - Runway hosted service for Dedicated
-
-The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
-
-| Field            | Type              | Required           | Description                                             | Example                                        | Observations                                                   |
-|------------------|-------------------|--------------------|---------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
-| ce_id            | string (ULID)     | Yes                | Unique identifier for the covered experience            | "01JP0EM7HB39WSJNR4662MYZ6V"                   | Same ID must be used across all events in a covered experience |
-| ce_name          | string            | Yes                | Name of the covered experience as defined in the config | "http_request"                                 | Must match with a covered experience definition                |
-| step             | string            | Yes                | Which step in the lifecycle                             | "start" \| "end" \| "intermediate"             | -                                                              |
-| component        | string            | Yes                | Service/component generating the event                  | "web", "database"                              | -                                                              |
-| client_timestamp | string (ISO-8601) | Yes                | Timestamp when event occurred                           | "2025-02-06T14:30:00Z"                         | -                                                              |
-| meta             | object            | Yes                | Additional metadata                                     | {"feature_category": "source_code_management"} | -                                                              |
-| server_timestamp | string (ISO-8601) | No (Response only) | Server processing timestamp                             | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                            |
-
-State is managed by Redis. Allowing the querying of stale covered experiences, timing out after configured threshold.
-
-A background process verifies all stale covered experiences and clear them out, emitting failure metrics.
-
-#### Authentication
-
-Authentication between the SDK and the Covered Experience Tracker is required to prevent malicious actors from injecting fake events that could distort the reliability metrics of GitLab features and cause DDoS.
+1. **Phase 1**: Details in the [section](#phase-1) below. [Epic #1539](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1539).
+2. **Phase 2**: Details in the [section](#phase-2) below. [Epic #1540](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1540).
 
 ## Design and implementation details
 
@@ -322,6 +226,108 @@ sequenceDiagram
         end
     end
 ```
+
+## Phase 1
+
+In this phase, the main building blocks will be implemented, such as the [Covered Experience Definition](#covered-experience-definition) and the [library](#sdk-requirements) to emit events (metrics and logs), that will be implemented in the SDK, skipping the [Covered Experience Tracker](#covered-experience-tracker) (that will be come in [phase 2](#phase-2)). This will reduce complexity while we iterate and test our implementation against the specification.
+
+### Covered Experience Definition
+
+- YAML-based covered experience definition authored by product teams
+- Support for specifying success criteria
+- Integration with test coverage reporting
+
+The Covered Experience definition will contain the following fields:
+
+| Field                              | Type    | Required | Description                        | Example                               |
+|------------------------------------|---------|----------|------------------------------------|---------------------------------------|
+| covered_experience                 | string  | Yes      | Covered Experience identifier      | `merge_request_creation`              |
+| user_journey                       | string  | Yes      | User Journey identifier            | `merge_request_creation_user_journey` |
+| description                        | string  | Yes      | Human readable description         | "User creates a merge request"        |
+| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`              |
+| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                                  |
+| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                                 |
+
+Examples:
+
+| id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
+|------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
+| merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
+| git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
+
+### SDK Requirements
+
+- Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
+- DSL for sending covered experience events
+- Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
+- Automatic retries with exponential backoff for sending reports to the Covered Experience Tracker
+
+The SDK will emit 1 event in every step (each interaction along the entire flow):
+
+| **gitlab_covered_experience_steps_total** | LABEL            | VALUE                                                        | METRIC | LOG |
+|-------------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
+|                                           | ce_name          | security_scan                                                | yes    | yes |
+|                                           | feature_category | vulnerability_management                                     | yes    | yes |
+|                                           | step             | start \| intermediate \| end                                 | yes    | yes |
+|                                           | step_name        | e.g. authorize (impose limited cardinality)                  | yes    | yes |
+|                                           | type             | web                                                          | yes    | yes |
+|                                           | ce_id            | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
+|                                           | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+
+And 2 more events, emitted at the end of the flow, to signify errors and successes:
+
+| **gitlab_covered_experience_total** | LABEL            | VALUE                                                        | METRIC | LOG |
+|-------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
+|                                     | error            | true \| false                                                | yes    | yes |
+|                                     | feature_category | vulnerability_management                                     | yes    | yes |
+|                                     | type             | sidekiq                                                      | yes    | yes |
+|                                     | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
+|                                     | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+
+| **gitlab_covered_experience_apdex_total** | LABEL            | VALUE                                                                    | METRIC | LOG |
+|-------------------------------------------|------------------|--------------------------------------------------------------------------|--------|-----|
+|                                           | feature_category | vulnerability_management                                                 | yes    | yes |
+|                                           | success          | true \| false                                                            | yes    | yes |
+|                                           | type             | sidekiq                                                                  | yes    | yes |
+|                                           | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
+|                                           | meta             | { "relevant attribute to the event": "tailored for the specific event" } | no     | yes |
+
+## Phase 2
+
+In this phase, the focus will be in implementing the [Covered Experience Tracker](#covered-experience-tracker), which is going to be responsible for the Covered Experience time out verification -- especially relevant for tracking the asynchronous Covered Experience SLIs.
+
+With the SDK consolidated, we can move and centralize the functionality of emitting events to this service, removing the complexity from the client libraries.
+
+### Covered Experience Tracker
+
+A new service, the Covered Experience Tracker, is going to control initiated Covered Experience SLIs to guarantee they are finishing within a specified threshold. When the covered experience trepass this threshold, a failure metric will be created, meaning it did not met its completion expectations, better reflecting the perceived user experience.
+
+- Centralized Covered Experience state tracking
+- Sensible time to live (TTL) threshold for covered experience duration
+- [Authentication](#authentication)
+- Deployments:
+  - Runway service for GitLab.com
+  - Runway hosted service for Dedicated
+
+The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
+
+| Field            | Type              | Required           | Description                                             | Example                                        | Observations                                                   |
+|------------------|-------------------|--------------------|---------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
+| ce_id            | string (ULID)     | Yes                | Unique identifier for the covered experience            | "01JP0EM7HB39WSJNR4662MYZ6V"                   | Same ID must be used across all events in a covered experience |
+| ce_name          | string            | Yes                | Name of the covered experience as defined in the config | "http_request"                                 | Must match with a covered experience definition                |
+| step             | string            | Yes                | Which step in the lifecycle                             | "start" \| "end" \| "intermediate"             | -                                                              |
+| component        | string            | Yes                | Service/component generating the event                  | "web", "database"                              | -                                                              |
+| client_timestamp | string (ISO-8601) | Yes                | Timestamp when event occurred                           | "2025-02-06T14:30:00Z"                         | -                                                              |
+| meta             | object            | Yes                | Additional metadata                                     | {"feature_category": "source_code_management"} | -                                                              |
+| server_timestamp | string (ISO-8601) | No (Response only) | Server processing timestamp                             | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                            |
+
+State is managed by Redis. Allowing the querying of stale covered experiences, timing out after configured threshold.
+
+A background process verifies all stale covered experiences and clear them out, emitting failure metrics.
+
+#### Authentication
+
+Authentication between the SDK and the Covered Experience Tracker is required to prevent malicious actors from injecting fake events that could distort the reliability metrics of GitLab features or cause DDoS.
 
 ## Alternative Solutions
 
