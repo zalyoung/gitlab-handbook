@@ -17,6 +17,8 @@ When the specific state is reached, the tickets within Zendesk using Dev Pulse
 are updated to indicate there has been a state change on the issue or merge
 request they were waiting on.
 
+Implementation details about Dev Pulse can be found in the [documentation](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/dev_pulse). 
+
 ## Using it
 
 ### How to mark a ticket as waiting on a bug issue or MR
@@ -46,10 +48,10 @@ the process has been initiated.
 
 ### How to mark a ticket as waiting on a RFH
 
-To mark a ticket as waiting on a feature request issue or MR, take the
+To mark a ticket as waiting on a RFH, take the
 following steps:
 
-1. Add the link to the feature request issue or MR in the Zendesk ticket field
+1. Add the link to the RFH in the Zendesk ticket field
    `Waiting on issue or merge request`. Make sure to remove any extra parameters
    from the URL (anything after the IID of the issue or MR)
 1. Apply the macro `General::Waiting on RFH`
