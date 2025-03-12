@@ -208,3 +208,5 @@ Cons:
 
 - Doesn't solve code maintenance issues
 - Limited future extensibility
+
+## Architectural Decision Record
