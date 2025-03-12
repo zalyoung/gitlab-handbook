@@ -95,6 +95,7 @@ Create a unified notification center built on an event-driven architecture that:
    - Increased reliance on Event Store reliability
    - Need to manage event processing performance
    - Potential for more complex failure scenarios
+   - Bigger database load due to more notifications being saved
 
 3. Resource requirements:
    - Significant engineering effort
@@ -132,6 +133,16 @@ erDiagram
 Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and in-app notification, or just an in-app notification.
 
 NOTE: Changes to the notification settings system apart from adding notification/email differentiation are out of scope for this project.
+
+New columns in the `notification_settings`table: 
+
+```mermaid
+erDiagram
+  NOTIFICATION_SETTINGS {
+        boolean email_enabled
+        boolean notification_centre_enabled
+    }
+```
 
 ### Events 
 
