@@ -1773,7 +1773,6 @@ Announcement Channels
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
 |   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
-|   - 200% Ceiling |
 | - 30% Stage 3 nARR Pipe: |
 |   - 75% Floor |
 |   - Accelerator x 1.25 from 100% to 200% |
