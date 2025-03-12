@@ -264,7 +264,13 @@ Add a comment to the issue under refinement using the provided template.
   - Case 2
 
 
-/cc @engineer_username please review this implementation plan
+@engineer_username please review this implementation plan.
+<!-- 
+Pick a peer engineer following this criteria: 
+1. is a subject matter expert. 
+2. might have some familiarity with the topic. or 
+3. ask on slack who'd be available to review this plan before the due date of the issue 
+-->
 ```
 
 #### Epics, issues, and tasks
