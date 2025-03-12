@@ -214,11 +214,11 @@ From within a Goldcast event, there are a four primary tabs most will utilize: `
 
 Multiple ways to edit your event are within this menu, including but not limited to: 
 
-  - Changing the name, description, time and tags of the event
-  - Toggling on/off waitlist, captions, registration limit, test event and convert to on-demand functionalties
-  - Upload functionality for your event's assets, such as slides, videos, polls, post-event surveys and downloaded content
-  - Changing your events from Live to Pre-recorded broadcast types. RTMP is also available (broadcasting to or from a separate webcast service) but as an org GitLab is unlikely to use this 
-  - Attendee privacy and attendee chat settings
+- Changing the name, description, time and tags of the event
+- Toggling on/off waitlist, captions, registration limit, test event and convert to on-demand functionalties
+- Upload functionality for your event's assets, such as slides, videos, polls, post-event surveys and downloaded content
+- Changing your events from Live to Pre-recorded broadcast types. RTMP is also available (broadcasting to or from a separate webcast service) but as an org GitLab is unlikely to use this 
+- Attendee privacy and attendee chat settings
 
 ### Event Menu
 
