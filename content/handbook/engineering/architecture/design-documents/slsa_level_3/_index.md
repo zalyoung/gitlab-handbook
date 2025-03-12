@@ -203,13 +203,14 @@ component:
         --fulcio-url "${FULCIO_SERVER}" \
         --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
-        --bundle "${TARGET_ARTIFACT}.bundle" \
+        --bundle "${PROVENANCE_FILE}" \
         "${TARGET_ARTIFACT}"
 
   artifacts:
     paths:
       - ${PROVENANCE_FILE}
-      - artifacts-metadata.json
+      - ${PROVENANCE_FILE}
+      - ${RUNNER_METADATA}
     expire_in: 7d
 ```
 
