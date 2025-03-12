@@ -198,7 +198,7 @@ Cons:
 - Limited future extensibility
 - Duplicated effort for common features
 
-2. Introduce new notifications system with new settings, without use of the events
+1. Introduce new notifications system with new settings, without use of the events
 
 Pros:
 
