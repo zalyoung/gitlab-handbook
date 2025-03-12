@@ -253,9 +253,6 @@ generate_provenance:
 verify_provenance:
   stage: verification
   needs: ["generate_provenance"]
-  script:
-  stage: verification
-  needs: ["generate_provenance"]
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
     PROVENANCE_FILE: "dist/provenance.json"
