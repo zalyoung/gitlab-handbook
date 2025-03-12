@@ -224,16 +224,21 @@ The following items represent future/North Star requests and are not current req
 
 ## Risk Management Metrics and Success Criteria
 
+{{% alert title="Note" color="primary" %}}
+The following metrics represent future/North Star indicators. These are not currently tracked and are subject to changes.
+{{% /alert %}}
+
 Success in our supply chain risk management strategy will be measured by:
 
-- Completeness of risk assessment coverage across all components and artifacts
-- Quantifiable reduction in supply chain security incidents and vulnerabilities
-- Decreased mean time to detect and respond to supply chain threats
-- Progressive achievement of higher SLSA levels with documented risk reduction
-- Successful passing of external security audits with minimal findings
-- Improved visibility and quantification of supply chain risks and dependencies
-- Reduced number of critical and high-risk components in the supply chain
-- Increased maturity in supply chain risk assessment capabilities
+| Metric | Possible methodology | Dependencies |
+| -- | -- | -- | 
+| Completeness of risk assessment coverage across all components and artifacts | Track threat models done for each component. | [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
+| Quantifiable reduction in supply chain security incidents and vulnerabilities | Create new labels to track down incidents and vulnerabilities related to our supply chain. | AppSec team |
+| Decreased mean time to detect and respond to supply chain threats | Risks in the PSRR should have remediation issues linked, but also detection issues. | PSRR |
+| Progressive achievement of higher SLSA levels with documented risk reduction | Track implemented [SLSA requirements](https://slsa.dev/spec/v1.0/requirements). | This [Epic](https://gitlab.com/groups/gitlab-org/-/epics/15857) for SLSA Level 3 support. |
+| Successful passing of external security audits with minimal findings | Map findings related to supply chain. Loop back with coverage above to make sure previously unknown risks are logged. | SecAssurance / AppSec |
+| Improved visibility and quantification of supply chain risks and dependencies | Track "dead-ends" in supply chains (missing information). | Each risk is labeled correctly in the PSRR & [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
+| Reduced number of critical and high-risk components in the supply chain | Number of components with risk score above a shreshold. | PSRR |
 
 ## References and Resources
 
