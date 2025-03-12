@@ -371,7 +371,7 @@ We also ensure every division has a clear priority.
 | People | Enable people |
 | Finance | Ensure correctness |
 | Legal | Ensure compliance  |
-| Security | Address risk |
+| Security | Enable trust |
 
 ### Product Groups{#product-groups}
 
