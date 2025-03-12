@@ -586,7 +586,7 @@ Diversity, inclusion and belonging are fundamental to the success of GitLab. We 
 
 Take initiative to operate [asynchronously](/handbook/company/culture/all-remote/asynchronous/) whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are [structuring their day](/handbook/company/culture/all-remote/people/#creating-a-more-efficient-day) around pressing commitments at home or in their community.
 
-This is demonstrated by communicating recordings of [meetings](/handbook/company/culture/all-remote/meetings/), using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to [documentation](/handbook/product/ux/technical-writing/documentation/) rather than pressuring others to be online outside of their working hours.
+This is demonstrated by communicating recordings of [meetings](/handbook/company/culture/all-remote/meetings/), using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to [documentation](/handbook/product/ux/technical-writing/#documentation) rather than pressuring others to be online outside of their working hours.
 
 ##### Embracing uncomfortable ideas and conversations
 

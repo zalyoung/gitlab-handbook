@@ -590,5 +590,3 @@ For outages or website availability issues, see [Docs site infrastructure](https
 
 - [Documentation site architecture](https://docs.gitlab.com/development/documentation/site_architecture/)
 - [Documentation Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
-- [GitLab Docs project](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com)
-  (contains the code that pulls the documentation content from multiple repositories and builds docs.gitlab.com)
