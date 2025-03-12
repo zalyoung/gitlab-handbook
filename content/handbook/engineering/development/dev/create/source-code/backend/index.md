@@ -97,13 +97,181 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
     1. Issues that require design work are marked with `UX` and `workflow::ready for design`.
     1. Once designs are ready and the proposed solution is viable then the label `workflow::planning breakdown` will be applied.
 1. Once we have confirmed the proposed solution is viable, we will move to break it down as much as possible. When issues are ready for this stage, PM will mark issues with `workflow::refinement` label to signal next step.
-1. EM will work with engineers to decide distribution of work and assign issues for breakdown.
-1. Engineers or EM will evaluate the issue, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
+1. EM will create a refinement issue ([example](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/issues/249)) and distribute tasks labeled `workflow::refinement` among engineers.
+1. Engineers or EM will follow the checklist for assigned issues, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
-1. When the planned implementation of the issue is in its smallest form, the engineer/EM will provide a weight. EM or PM will mark as `workflow::needs issue review`.
+1. Once an issue is fully refined, engineers or EM will add an appropriate [weight](/handbook/engineering/development/dev/create/source-code/backend/#weight-categories) and label it as `workflow::ready for development`. These issues can then be added to the milestone.
 1. When other teams depend on Source Code Backend issues planned for the current milestone, those issues will be labeled as `SCM::AwaitingBackend`
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
+
+#### Diagram
+
+```mermaid
+flowchart TD
+    Start([When the issue is ready for engineering review])
+
+    subgraph PM[Product Manager]
+        RefinementLabel[Apply workflow::refinement label]
+        click RefinementLabel "https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=workflow%3A%3Arefinement&label_name%5B%5D=scm-backlog&first_page_size=20" _blank
+    end
+
+    subgraph EM[Engineering Manager]
+        CreateRefIssue[Create refinement issue]
+        DistributeTasks[Distribute tasks to engineers]
+    end
+
+    subgraph ENG[Engineer/EM]
+        RefineIssue[Follow refinement checklist]
+        NeedBreakdown{Can be broken down?}
+        CreateNewIssues[Create smaller issues]
+        FullyRefined[Issue fully refined]
+        ReadyLabel[Apply workflow::ready for development label]
+    end
+
+    subgraph PM_EM[PM & EM]
+        AddMilestone[Add to milestone]
+    end
+
+    Start --> RefinementLabel
+    RefinementLabel --> CreateRefIssue
+    CreateRefIssue --> DistributeTasks
+    DistributeTasks --> RefineIssue
+    RefineIssue --> NeedBreakdown
+    NeedBreakdown -->|Yes| CreateNewIssues
+    CreateNewIssues --> RefineIssue
+    NeedBreakdown -->|No| FullyRefined
+    FullyRefined --> ReadyLabel
+    ReadyLabel --> AddMilestone
+    AddMilestone --> End([Development process starts])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style End fill:#f9f,stroke:#333,stroke-width:2px
+    style NeedBreakdown fill:#ffd,stroke:#333
+    
+    classDef pmStyle fill:#e6f3ff,stroke:#333
+    classDef emStyle fill:#fff0e6,stroke:#333
+    classDef engStyle fill:#e6ffe6,stroke:#333
+    classDef sharedStyle fill:#f0f0f0,stroke:#333
+    
+    class RefinementLabel pmStyle
+    class CreateRefIssue,DistributeTasks emStyle
+    class RefineIssue,NeedBreakdown,CreateNewIssues,FullyRefined,ReadyLabel engStyle
+    class AddMilestone sharedStyle
+```
+
+### Issue Refinement Checklist
+
+For issues that need refinement, the Engineer/EM should add a comment using this template and complete all checklist items.
+
+If you cannot finish any of these steps, ping EM/PM.
+
+```plaintext
+# Issue Refinement Checklist
+
+## Problem verification
+- [ ] Issue label is ~"workflow::refinement"
+- [ ] Issue title clearly describes the feature or change
+- [ ] Issue description defines requirements and expectations
+- [ ] Required permissions and access levels defined
+
+## Implementation plan
+
+- [ ] A comment with an implementation plan is created
+- [ ] Issue is small and doesn't need to be broken down
+
+## Final steps
+- [ ] This issue has a weight 
+- [ ] There are no blockers
+- [ ] Issue has ~"workflow::ready for development" label
+```
+
+### Bug Refinement Checklist
+
+For bug reports that need refinement, the Engineer/EM should add a comment using this template and complete all checklist items.
+
+```plaintext
+# Bug Refinement Checklist
+
+## Bug verification
+- [ ] Issue label is ~"workflow::refinement"
+- [ ] Issue label is ~"type::bug"
+- [ ] Issue title clearly describes the bug
+- [ ] Steps to reproduce are documented
+- [ ] Issue is still reproducible
+- [ ] Severity labels are defined
+- [ ] Related logs or error messages are attached
+
+## Technical analysis
+- [ ] Root cause has been identified or hypothesized
+- [ ] Affected components/services are identified
+- [ ] Potential side effects of the fix are considered
+
+## Implementation plan
+- [ ] A comment with an implementation plan is created
+- [ ] Fix scope is contained and doesn't require larger refactoring
+- [ ] Test cases to verify the fix are defined
+
+## Final steps
+- [ ] This issue has a weight
+- [ ] There are no blockers
+- [ ] Issue has ~"workflow::ready for development" label
+```
+
+### Implementation plan
+
+Add a comment to the issue under refinement using the provided template.
+
+```plaintext
+### Implementation Plan
+
+**1. Approach**
+
+<!-- Provide a high-level description of the implementation idea -->
+
+**2. Dependencies**
+
+- [ ] Requires ~backend 
+- [ ] Requires ~frontend
+- [ ] Requires ~database
+- [ ] Requires ~documentation
+- [ ] Requires ~UX work
+- [ ] External service dependencies identified
+- [ ] Requires ~API changes
+
+**3. Implementation Steps**
+
+<!-- Provide step by step description of what needs to be done -->
+
+- Task 1
+- Task 2
+- Task 3
+
+**4. Edge Cases**
+
+<!-- Does the implementation cover all scenarios (success, failure) -->
+
+- Success scenarios:
+  - Case 1
+  - Case 2
+
+- Error scenarios:
+  - Case 1
+  - Case 2
+
+- Edge conditions:
+  - Case 1
+  - Case 2
+
+
+@engineer_username please review this implementation plan.
+<!-- 
+Pick a peer engineer following this criteria: 
+1. is a subject matter expert. 
+2. might have some familiarity with the topic. or 
+3. ask on slack who'd be available to review this plan before the due date of the issue 
+-->
+```
 
 #### Epics, issues, and tasks
 
@@ -206,7 +374,7 @@ Each month a planning issue is created by one of the EMs, using [automated tools
 
 ##### Planning board
 
-The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/2822491?milestone_title=14.1&label_name%5B%5D=group%3A%3Asource%20code) is created for each release by the PM, and is a curated list of issues by category. The EM requests engineers to allocate weights to all issues on this board via the [Needs weight issue](https://gitlab.com/gitlab-org/create-stage/-/issues/12837)
+The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/2822491?milestone_title=14.1&label_name%5B%5D=group%3A%3Asource%20code) is created for each release by the PM, and is a curated list of issues by category. The EM requests engineers to assist in refining issues and allocate weights via the [refinement](/handbook/engineering/development/dev/create/source-code/backend/#issue-refinement) process.
 
 ##### Capacity planning spreadsheet
 
@@ -241,13 +409,9 @@ At this point the issues are *Candidate* issues, and the milestone does not conf
 
 #### Weighting issues
 
-Based on the issues on the [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/2822491?milestone_title=14.1&label_name%5B%5D=group%3A%3Asource%20code), the EM will create a [Needs Weight](https://gitlab.com/gitlab-org/create-stage/-/issues/12837) issue to request an estimation of work by the engineers. In general no more than 4 issues should be assigned to an engineer for weighting.
+We use a system of weights to assist in forecasting the capacity each issue will require to be completed.
 
-1. Give issue a weight if there's none yet or update if the existing weight isn't appropriate anymore. Optionally leave a comment describing why a certain weight is given.
-1. It's strongly encouraged to spend no more than 1 hour per issue. Give it your best guess and move on if you run out of time.
-1. Label the issue as ~"workflow::ready for development" if you feel we can make progress on it in the next milestone.
-
-If you would like to be assigned to work on this issue in the upcoming release, add a comment and ping the EM.
+These are either assigned by the EM or by engineers ad-hoc or following the [refinement](/handbook/engineering/development/dev/create/source-code/backend/#issue-refinement) process.
 
 ##### Weight categories
 
