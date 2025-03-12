@@ -59,7 +59,7 @@ Gitaly on-call should only be paged by the following people:
 - SRE on-call or IMOC during **production incidents only**.
 - Support Engineers or Support Managers during **customer emergencies**.
 
-Use `/inc escalate` on Slack for these cases, then select the Gitaly EOC under On-call teams.
+Use `/incident escalate` on Slack for these cases, then select the Gitaly EOC under On-call teams.
 For all other cases please file an issue under [Customer issues](#customer-issues).
 
 Please do not page on-call outside of these cases. If you're working on a
