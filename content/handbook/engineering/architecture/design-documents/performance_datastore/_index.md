@@ -122,7 +122,7 @@ There is already an existing InfluxDB instance and Grafana front end our first P
      - Data is isolated within each environment
      - Added complexity on the CI run to determine which data source to use
      - Test run will vary, will the needed data be present?
-3. Build a Custom Performance Analytics Platform
+4. Build a Custom Performance Analytics Platform
    - Pros:
      - Fully tailored to our specific performance testing needs
      - Maximum flexibility in data model and analysis capabilities
@@ -131,6 +131,19 @@ There is already an existing InfluxDB instance and Grafana front end our first P
      - Longer time to initial value
      - Requires specialized skills to build and maintain
      - Will reinvent capabilities already available in existing tools
+5. Use Object Storage (S3/GCS/Package Registry) to Store Baselines as JSON Files
+   - Pros:
+     - Simple implementation with minimal infrastructure dependencies
+     - Easy integration with CI/CD pipelines and existing tools
+     - Straightforward version control of baseline files
+     - Low operational overhead with highly reliable storage
+     - Cost-effective for the amount of data involved
+   - Cons:
+     - Limited query capabilities for dynamic analysis and investigation
+     - No built-in visualization or trending capabilities
+     - Requires custom tooling for comparison and regression detection
+     - Difficult to perform ad-hoc analysis or identify patterns across multiple tests
+     - Doesn't scale well for storing full test result datasets, only suitable for baselines
 
 ## References
 
