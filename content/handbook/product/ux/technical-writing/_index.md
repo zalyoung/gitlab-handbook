@@ -32,7 +32,7 @@ The team manages general documentation-related and team-specific Slack channels:
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
 
-## Public Training for GitLab Technical Writing
+## Public training for GitLab Technical Writing
 
 If you're interested in updating or creating GitLab documentation,
 see [GitLab Technical Writing Fundamentals](https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals).
