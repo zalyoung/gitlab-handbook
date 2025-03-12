@@ -1446,32 +1446,3 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 ## References
 
 The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/).
-
-## Ecosystems BVA
-
-The main issue: [New Data Source: request for Ecosystems BVA Data via API](https://gitlab.com/groups/gitlab-data/-/epics/1353)
-
-The ecosystem provides Digital Customer Value. Collaborative Value Assessment (CVA) leverages generative AI to automate industry research and create a comprehensive library of benefit templates known as Value Drivers. It contextualize interactions based on industry, business objectives, or buyer roles, ensuring no valuable opportunities are missed. More detail on their [official web-site](https://www.ecosystems.io/).
-
-### Endpoints
-
-The endpoints extracted in this pipeline are:
-
-1. `/api/v1/document/` - document data that includes CRM identification and personal emails
-1. `/api/v1/vivien/cva` - Collaborative Value Assessment (CVA) - document and user data including personal emails, CRM data, and view logs
-
-Api documentation is exposed [here](https://www.ecosystems.us/clients/eco/EcoPublicAPIs.pdf).
-
-### Back filling
-
-For backfilling `Ecosystems BVA` data, the variable `START_TIME` in DAG `dags/extract/ecosystems.py` should be changed to the date you want to do a backfill. The data set is fairly small, and this approach is sufficient as no performance risk for long-running tasks.
-
-```python
-    env_vars={
-        **pod_env_vars,
-        "START_TIME": "{{ logical_date }}", # <<<< change this value to the date you want to run backfill in format YYYY-MM-DD. For example 2025-01-01
-        "END_TIME": "{{ next_execution_date }}",
-    },
-```
-
-After the backfill, revert the code back to the original state.
