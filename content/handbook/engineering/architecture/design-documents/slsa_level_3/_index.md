@@ -257,6 +257,7 @@ verify_provenance:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
     PROVENANCE_FILE: "dist/provenance.json"
   script:
+    - echo "Verifying signed provenance..."
     - cosign verify-blob-attestation --type slsaprovenance1 \
         --bundle ${PROVENANCE_FILE} \
         --certificate-identity-regexp ".*" \
