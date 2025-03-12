@@ -107,7 +107,7 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 The following people are members of the Distribution:Build Team:
 
-{{< team-by-manager-slug manager="plu8" team="Build" >}}
+{{< team-by-manager-slug manager="denisra" team="Build" >}}
 
 ### Distribution Deploy Team
 
