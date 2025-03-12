@@ -154,7 +154,6 @@ The following will describe how to create the personal view to list cases in Glo
 
 ## GitLab Dedicated for Government
 
-**Workflows for US Gov Dedicated are still being written**
 
 ### High-Level Notes
 
