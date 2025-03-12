@@ -49,7 +49,7 @@ For suggestions and feedback, see the [feedback issue](https://gitlab.com/gitlab
 
 ## Documentation
 
-GitLab documentation is crafted to help users, admininstrators, and decision-makers
+GitLab documentation is crafted to help users, administrators, and decision-makers
 learn about GitLab features and to optimally implement and use GitLab to meet
 their [DevOps needs](https://about.gitlab.com/stages-devops-lifecycle/).
 
