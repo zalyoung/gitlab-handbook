@@ -25,6 +25,9 @@ Page in progress - Purchased as of Jan 2025. Marketing Operations is in the proc
 - [Event Settings](https://help.goldcast.io/en_US/event-settings)
 - [Event Setup](https://help.goldcast.io/en_US/event-setup)
 - [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
+- [Webinars Powered by Smart Technology](https://help.goldcast.io/en_US/webinars-powered-by-smart-event-technology)
+- [Running an Event](https://help.goldcast.io/en_US/running-an-event)
+- [Enchanced Stage Controls](https://help.goldcast.io/en_US/enhanced-stage-controls)
 
 ## Random Things to Know
 
@@ -249,6 +252,10 @@ This menu is where registrant management occurs
 This section allows for viewing of data directly collected by Goldcast, such as email send rates, survey+polls results and engagement stats. Not all of this information is shared to Marketo at launch and plans to export some of this data will come later
 
 This section also gives access to see registrants' `Magic Links`. A magic link is the link emailed directly to registrants that allows them to access the event. In the event a user reaches out about not getting access to the event, this is the custom link they need 
+
+## Running an Event
+
+under construction
 
 ## Content Hub
 
