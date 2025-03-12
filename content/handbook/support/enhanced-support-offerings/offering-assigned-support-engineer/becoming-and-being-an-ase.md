@@ -76,18 +76,18 @@ CMOC rotation that minimizes disruption to the team.
 
 **<<<< COMING SOON >>>>**
 
-- Balancing between ASE and Global
-  - on-call rotation
-  - ticket queue
-  - pairings and help sessions
-- Learn about how to work with your account (manager 1:1s for now, presentation eventually)
-  - managing customer expectations
-  - stepping out of the SE box - change your way of thinking about what you should
+* Balancing between ASE and Global
+  * on-call rotation
+  * ticket queue
+  * pairings and help sessions
+* Learn about how to work with your account (manager 1:1s for now, presentation eventually)
+  * managing customer expectations
+  * stepping out of the SE box - change your way of thinking about what you should
     or shouldn't do
-  - prioritize and re-prioritize all the time
-  - only attend account meetings in which you will learn or contribute
-  - get to know the people as people
-    - do lots of Zooms with them and chat as you work a ticket
-  - get to know what they're doing with GitLab and why
-- Link to the customer onboarding page (customer-onboarding.html)
-- Tips from ASEs
+  * prioritize and re-prioritize all the time
+  * only attend account meetings in which you will learn or contribute
+  * get to know the people as people
+    * do lots of Zooms with them and chat as you work a ticket
+  * get to know what they're doing with GitLab and why
+* Link to the customer onboarding page (customer-onboarding.html)
+* Tips from ASEs
