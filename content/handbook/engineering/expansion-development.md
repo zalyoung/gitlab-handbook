@@ -316,7 +316,7 @@ The shared services and components below are extracted from the GitLab [product 
 | NGINX |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks) |  |
 | Patroni | General except Geo secondary clusters | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
+|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/) |  |
 | PgBouncer |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
 |  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
@@ -391,7 +391,7 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### Development Escalation Process
 
-- [General information](/handbook/engineering/development/processes/Infra-Dev-Escalation/)
+- [General information](/handbook/engineering/development/processes/infra-dev-escalation/)
 - [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/)
 
 ### Reducing the impact of far-reaching work
@@ -454,7 +454,7 @@ These are the stakeholders:
 | [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
 | [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                    | Code Suggestions |
-| [AI Model Validation Group](/handbook/engineering/development/data-science/ai-assisted/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
+| [AI Model Validation Group](/handbook/engineering/development/data-science/ai-powered/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
 | [Infrastructure](/handbook/engineering/infrastructure/)                                                                                | Code Suggestions AI Gateway scalability |
 
 ## ClickHouse Datastore usage

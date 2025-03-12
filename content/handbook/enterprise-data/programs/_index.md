@@ -35,7 +35,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 
 ### Phase 2: Scoping & Policy Awareness
 
-1. Review the [Procurement New Software Guide](/handbook/finance/procurement/new-software/) to ensure you understand the latest procurement process to follow.
+1. Review the [Procurement New Software Guide](/handbook/finance/procurement/individual-use-software/) to ensure you understand the latest procurement process to follow.
 1. Execute an [NDA](/handbook/legal/nda/) with each Vendor included in the Evaluation.
 1. Obtain preliminary pricing to help validate established budget. If no existing budget is established, work with the Department lead to determine if the project is feasible. Let's not waste time or energy for projects we can't fund.
 
@@ -53,7 +53,7 @@ Evaluation Design is the most complex part of the PoV.
      - We do not pay for PoVs and all should be $0 Cost
 1. Along with the SoW, ask the vendor to send you their Master Services Agreement (MSA).
 1. Because request with an amount of $0 is not supported in Coupa, you need to submit the SoW and MSA to Procurement via GitLab in the Procurement [project](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues).
-   - Submit the SoW and MSA to Procurement via Coupa if the PoV amount is not $0, following this [How Do I Submit a Request to Purchase New Software?](/handbook/finance/procurement/new-software/#how-do-i-submit-a-request-to-purchase-new-software) guide.
+   - Submit the SoW and MSA to Procurement via Coupa if the PoV amount is not $0, following this [How Do I Submit a Request to Purchase New Software?](/handbook/finance/procurement/individual-use-software/) guide.
       - The process to obtain security approvals is supported in Coupa.
 
 ### Phase 5: Assessment

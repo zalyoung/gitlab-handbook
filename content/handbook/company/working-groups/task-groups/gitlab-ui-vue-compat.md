@@ -9,6 +9,7 @@ description: "Learn more about the GitLab UI @vue/compat Compatibility Task Grou
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Date Created    | 2024-10-14                                                                                                                              |
 | Target End Date | 2024-12-24                                                                                                                              |
+| End Date        | 2025-02-03                                                                                                                              |
 | Slack           | [#tg_gitlab_ui_vue_compat](https://gitlab.enterprise.slack.com/archives/C07RN4H2CLV) (only accessible from within the company)          |
 
 ## Context

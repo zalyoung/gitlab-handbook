@@ -59,7 +59,7 @@ For the on-call SRE, every event that pages (where an event may be a group of re
 All direct or indirect changes to authentication and authorization mechanisms used by GitLab Inc. by customers or employees require additional review and approval by a member of at least one of following teams:
 
 - [production team](/handbook/engineering/infrastructure/production/) member
-- [security team](/security/)  member
+- [security team](https://about.gitlab.com/security/)  member
 - developer from a different team that is staff level or higher
 
 This process is enforced for the following repositories where the approval is mandatory using

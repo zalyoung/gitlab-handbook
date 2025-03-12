@@ -420,9 +420,12 @@ If this is to set up a program that involves a channel partner, you must also fo
   - Security: [YYYYMMDD_Workshop_SecurityWorkshop_EventType](https://app-ab13.marketo.com/#ME6521A1)
   - CI Workshop: [YYYYMMDD_Workshop_CI_EventType](https://app-ab13.marketo.com/#ME6807A1)
   - Jenkins [YYYYMMDD_Workshop_Jenkins_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8285A1)
-  - GitLab GitLab Duo Enterprise Workshop : [YYYYMMDD_Workshop_DuoAI_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
+  - GitLab Duo Enterprise Workshop : [YYYYMMDD_Workshop_DuoAI_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
   - GitHub GitLab Migration: [YYYYMMDD_Workshop_GitHubGitLab_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME13738A1)
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
+  - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
+
+Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
 
 ##### Other Tactic Marketo Templates
 
@@ -430,12 +433,15 @@ If this is to set up a program that involves a channel partner, you must also fo
 - Conference - `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conferences)
 - Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
+  - Note, if you are managing a hyperscaler campaign, update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 - Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
   - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
 - Gated Content: [YYYY_Type_Content_Template](https://app-ab13.marketo.com/#PG5111A1)
 - Integrated Campaign: [FY20IntegratedCampaign_Template](https://app-ab13.marketo.com/#PG4924A1)
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
+
+Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Conference: `YYYYMMDD_HyperscalerPartner_Conference_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
 
 ##### Webcasts Marketo Templates
 
@@ -444,9 +450,15 @@ If this is to set up a program that involves a channel partner, you must also fo
 
 #### Partner Campaign Setup
 
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Partner Trials setup, go to [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners)
+- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/mdf-operations-process/).
+- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
+- Hyperscaler campaigns - use the Marketo templates [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
+  - Additional Examples:
+    - 20251202_AWS_AWSreinvent_Booth
+    - 0250409_GCP_GoogleCloudNext_Booth
+    - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
+    - Special Instructions for Content Syndication Teams: 
+      - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
@@ -469,7 +481,7 @@ If this is to set up a program that involves a channel partner, you must also fo
 
 ### Step 4: Activate Marketo smart campaign(s)
 
-- If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#marketo-automation-and-setup-for-gated-landing-page).
+- If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#steps-gated-landing-pages).
 - If this is a `Vendor Arranged Meeting`:
   - Click the `Smart Campaigns` folder
   - Select the `01 Interesting Moments` smart campaign
@@ -888,12 +900,15 @@ It is critical that any reference to asset number in Marketo automation (not tok
 
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
-  - **Flow** (confirm that program references match the Marketo program name): 
-  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. 
+  - **Flow** (confirm that program references match the Marketo program name):
+  - `Step 3 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset.
   - If you add any SFDC campaigns to the list, be sure to use "Content Syndication asset CONTAINS Asset x -" in your filter.
+  - **Double touch campaigns** - The template is set-up to accommodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+  - `Step 6 - Execute Campaign` (Content Syndication Asset) - (Action Streams) If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
+  - **Double touch campaigns** - You will need to add a second Execute Campaign to check for Action Stream qualification for "Content Syndication Asset 2". Confirm the second execute campaign is not on your processing flow (one for Content Syndication Asset, one for Content Syndication Asset 2). If it is not, add "Execute Campaign" and Add 2 choices. Choice 1: If Content Syndication Asset 2 is emtpy, Do Nothing. Choice 2: If Content Syndication Asset 2 contains "list of asset x -" (you can copy this from the Content Syndication Asset execute campaign), Executed campaign: Check for Action Stream asset (content syndication). Use parent token context: false. Default Choice: Do nothing
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
-- `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign. 
+- `Interesting Moments` - These are global, but you must add new assets to the `Flow`. Click the global [Interesting Moments - Content Syndication](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58353C3ZN19) executable campaign.
   - Click `Add Choice`.
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
   - Move the new asset number to the bottom of the list (to keep the numbers in order).
@@ -906,7 +921,7 @@ This applies to a manual upload or the sync from DAP.
 
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
-It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1. These instructions apply to the "Content Syndication Asset 2" for double touch campaigns field as well.
 
 ### Step 6: Test lead flow into your Content Syndication programs
 
@@ -914,7 +929,8 @@ There are a few common errors we see with Content Syndication leads. You can add
 
 - `Employee Bucket` (Employee count): Values [here](/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
 - `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.
-- `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
+- `Content Syndication Asset`: Required field. The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
+- `Content Syndication Asset 2`: Only required for double touch campaigns. This value should be pushed as blank otherwise. The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
 - After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.
 
 1. After the test lead is submitted, go to Marketo, click on the "Database" tab, and enter the email address of the test record in the search box under "Quick Find". You can always get to this box by clicking on the "Default" folder in the left sidebar.
@@ -988,18 +1004,25 @@ It is critical that any reference to asset number in the Marketo automation belo
   - Click `Add Choice`.
   - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
   - Move the new asset number to the bottom of the list (to keep the numbers in order).  
+
 - `01 Processing`
-  - **Flow**: 
+  - **Flow**:
   - `Step 3 - Add to SFDC Campaign` - Click `Add Choice`. To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+
+- **Double touch campaigns** - The template is set-up to accomodate double touch campaigns. There is a second `Add to SFDC Campaign` flow step that is based on "Content Syndication Asset 2". You do not need to remove this. However, if you will NEVER use a double touch campaign with the vendor/region, it is recommended to remove this flow step. In case you do not, it is set-up that if "Content Syndication Asset 2" is empty, the step will be skipped.
+
+  - `Step 6 - Execute Campaign` (Content Syndication Asset) - If any of the assets being promoted are associated with an Action Stream, add them to this Execute Campaign flow step. Several assets are already listed. This will call a separate campaign to process the lead so it is properly added to the relevant Action Stream.
+
 - `03 Manual upload processing` - No action is required here. This campaign is used if the DAP sync fails.
+
 - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
-  - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
+  - **Smart List**: In filter 2: `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 6: Important information for content syndication list uploads
 
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
-It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1. These instructions apply to the "Content Syndication Asset 2" for double touch campaigns field as well.
 
 ### Step 7: Test the new asset in your Content Syndication programs
 
@@ -1197,10 +1220,14 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 - No changes to steps 5 and 6.
 - Step 7: For EMEA or APAC: `7 - Change Data Value` - Delete this step. Those forms use a checkbox to gather consent, so the correct opt-in status will be applied upon submission and this step cannot be included in the flow.
 - Step 7: For AMER: `7 - Change Data Value` - No change. Keep this step. In AMER, the opt-in language is included on the form, so this step is required to complete the opt-in.
+- Step 8: `Execute campaign` - This processes Action Stream tagging. No action required on this step. This should be: Executed Campaign: Action Stream tagging: (LinkedIn) Check Asset
 - Turn on / Activate the triggered campaign in the `schedule` tab of the smart campaign
 - All LinkedIn programs with your form prefix will now flow through this campaign
+- If your new form promotes an asset that qualifies for an action stream (speak to Lifecycle Marketing to find out), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
+- Smart List: Add the name of the LinkedIn Lead Gen form in filter 1.
+- Flow: Add the name of the LinkedIn Lead Gen form in filter 1.
 
-### Step 5: Autoresponder email
+### Step 5: Auto-responder email
 
 - The autoresponder is based on tokens and will not require any changes if you only have one asset.
 - If you have multiple assets, you will need to clone the autoresponder email and update all of the tokens in the email to match the additional tokens you added to the program for each asset.
@@ -1232,6 +1259,21 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
      1. Confirm that the correct Interesting Moment was triggered
      1. Confirm that the test record was added to the SFDC campaign (this may take a few minutes)
      1. Confirm that the test record was not sent any other emails (except double opt-in email for Germany if applicable) or added to other programs as a result of this test
+
+### Adding LinkedIn Lead Gen forms to drive event registration
+
+LinkedIn Lead Gen forms can be used to drive event registration without adding a new Marketo program.
+
+1) Follow the instructions above to create the LI Lead Gen form. There are a couple of changes you must make to be sure the responses only flow through the event registration processing and not the standard LI form processing.
+2) For ABM LI Lead Gen forms, use the naming convention: `abmkey_region_gtm` for driving event registration. The standard (non-event) format is `abmkey_gtm_region`. By changing the order of `region` and `gtm`, you will not need to add exclusions to the main LI Lead Gen form processing.
+3) For Digital Marketing forms, do not use the `gtm` in the form name. Use a unique name that represents the event.
+4) In Marketo, go to the Marketo program for the event you are promoting.
+5) For most events, we recommend setting up a waitlist for responses from LinkedIn. This allows the event DRI to approve registrations. If a waitlist processing campaign is already activated in the program, you can skip to step 6.
+     a) ONLY DO THIS IF THE WAITLIST PROCESSING IS NOT ACTIVE: If only the `Registration` processing campaign is active, you will need to activate the waitlist for LI responses. Click on `Waitlist` and **remove** the "Filled out form" trigger. Now, complete the task in step 6 and activate the `Waitlist` campaign. You must also activate the "Waitlist to Registered" campaign.
+6) Add a trigger for "Fills out LinkedIn Lead Gen Form". Lead Gen Form Name: `contains` (enter Lead Gen form name you created in step 1 here). If you have multiple forms for this event, you can click the green plus sign in the box after `contains` and add multiple forms.
+7) If your form is only targeting AMER responses, click on the "Flow" steps and at the bottom, add "Change Data Value". Add Choice. If LinkedIn Lead Gen Form name `contains` (name(s) of LI lead gen form). Attribute: Opt-in, New value: True
+8) Test your updates. Details for what to look for can be found in the [Test your Marketo program setup](/handbook/marketing/marketing-operations/campaigns-and-programs/#test-your-marketo-program-setup) - Note that when a person is added to the waitlist, they will not get an autoresponder, but you will see them added to the program.
+9) If you have any questions or just want your set-up checked over, please reach out to Marketing Ops before pushing your campaign live.
 
 ## Raffles
 

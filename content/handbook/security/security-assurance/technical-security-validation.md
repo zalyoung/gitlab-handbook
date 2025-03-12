@@ -48,5 +48,5 @@ The Security Risk Engineer opening the TSV is responsible for ensuring initial e
 
 - [GitLab's Integrated Third Party Risk Management (TPRM) Program](/handbook/security/security-assurance/security-risk/third-party-risk-management/) <br>
 - [Third Party Minimum Security Standards](/handbook/security/security-assurance/security-risk/third-party-risk-management/#third-party-minimum-security-standards) <br>
-- [GitLab's Security Research Team](/handbook/security/product-security/security-research/) <br>
+- [GitLab's Security Research Team](/handbook/security/product-security/security-platforms-architecture/security-research/) <br>
 - [TSV Project Workspace](https://gitlab.com/gitlab-com/gl-security/security-assurance/technical-security-validation)

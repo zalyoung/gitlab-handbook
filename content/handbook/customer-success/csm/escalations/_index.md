@@ -41,7 +41,7 @@ Based on the level of the escalation, the DRI for the escalation will be:
 
 1. CSM will be the DRI for account escalations (except otherwise agreed with Support)
 2. The Professional Services Project Manager for any escalation during/as a part of a professional services project
-3. If the customer does not have an assigned CSM but is assigned to [TAM Scale](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#requesting-cse-engagement-account-owners-only---aes-saes) (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
+3. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 

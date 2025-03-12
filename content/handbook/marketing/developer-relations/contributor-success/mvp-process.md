@@ -76,7 +76,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
 
    NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown ellipsis (kebab menu) in the upper right corner.
 
-1. Follow the steps for [Sending MVP Appreciation Gifts](#sending-mvp-appreciation-gifts).
+1. Follow the steps for [Sending MVP Rewards](#sending-mvp-rewards).
 1. After release post goes live, link the MVP section of the release post in Slack `#whats-happening-at-gitlab` channel along with a reminder to add new nominations.
 
    ```md
@@ -137,12 +137,11 @@ We only have a few days to put this together. If we don't hear back or you don't
 Finally we will work to get your GitLab swag sent over soon!
 ```
 
-## Sending MVP Appreciation Gifts
+## Sending MVP Rewards
 
-Every release GitLab chooses a [Most Valuable Person (MVP)](https://about.gitlab.com/community/mvp/) and the Developer Relations team recognizes them for their contributions.
+After selecting the MVP and working through the [the workflow for selecting MVPs](#workflow-for-selecting-gitlab-mvp):
 
-1. Determine MVP after release post is published to the [blog](https://about.gitlab.com/releases/categories/releases/)
-1. Find MVP's contact information
-   - [Contacting contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contacting-contributors)
-1. Send Swag according to our [SWAG operations guide](/handbook/marketing/developer-relations/workflows-tools/swag/)
-   - Note that MVPs currently receive a Tier 3 swag prize
+1. Visit [contributors.gitlab.com/rewards](https://contributors.gitlab.com/rewards)
+1. Issue 150 contributor store credits to their username (if multiple winners, each winner gets 150 credits)
+1. Select the "Notable contributor (MVP)" option from the Reason dropdown
+1. Include an optional thank you note or link to the release post

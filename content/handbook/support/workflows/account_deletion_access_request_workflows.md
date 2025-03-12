@@ -201,6 +201,24 @@ If the user fails the challenge questions, but they are the sole owner of groups
 1. Reach out to the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to engage a Support Manager and Privacy for review and approval (approver will add `Deletion Request::Exception Approved` to the issue if approved).
 1. Proceed with the deletion process.
 
+###### Verification Failed - Inactive Account
+
+If the user fails the challenge questions AND does not meet the criteria for Sole Owner Exception, we can consider approval for an exception due to inactivity by working through the following: 
+
+1. Validate that the user is on a free plan.
+1. Check that the user has not logged in for at least 90 days.
+1. Check that the repository/repositories are essentially empty (there is nothing in the user account)
+
+The purpose is to ensure that a user account does not contain any data that has been made publicly available for use by others and that deletion of the account and the groups/projects under that account will not have a negative effect. 
+
+1. Apply one of the following labels to the Issue:
+
+      `Inactive::All Conditions Met` (all three conditions are met)
+
+      `Inactive::Has Data` (the last condition fails) *requires approvals per step below*
+
+1. Reach out to the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to engage a Support Manager and Privacy for review and approval (approver will add `Deletion Request::Exception Approved` to the issue if approved).
+
 **Note:** If a situation requires further review, and falls outside of the above criteria for a sole owner, please reach out to the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to discuss approving an exception with a Support Manager and the Privacy team.
 
 If the above conditions are not met, respond with the following before closing the issue:

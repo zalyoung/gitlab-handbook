@@ -23,7 +23,7 @@ TODO: Need to detail what exactly is the process to add SMEs to StackOverFlow
 
 Each SA Area Lead should set up SA and CS SME Google Groups for calendars. Have also both SA program Leads owners also, as a backup in case SA Area Lead is OOO
 
-Use list of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list) and [CS SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on) to form Groups
+Use list of [SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on) to form Groups
 
 | SME Area                | SME Group                                                    |
 |-------------------------|--------------------------------------------------------------|
@@ -69,7 +69,7 @@ Purpose: This is the main channel for all SME-related discussions and announceme
 |----------|---------------------------|
 | All SMEs | #subject-matter-experts   |
 
-### SME Area Internal Slack Channels
+### SME Area Internal Slack Channels {#sme-internal}
 
 Purpose: These SME Pod channels are mainly for SME Program Leads, SME Area Leads, SMEs and SME Associates. They are used for:
 
@@ -135,7 +135,7 @@ Each SME Area Lead should set up SME Collaboration project (See [AppSec Example)
 | Financial Services Vertical | [Financial Services SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/financial-services-sme) |
 | Telecommunications Vertical | [Telecommunications SME PRoject](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/telecommunications-sme)|
 
-### SME Metrics (TBD)
+### SME Metrics (TBD) {#sme-metrics}
 
 To effectively measure the impact and success of the SME program, we will track the following metrics:
 
@@ -202,7 +202,7 @@ Once a SMEs Ares of Interest becomes a formal SME Programs These are the tasks n
 * Who decides on new SME Area
 * Rollout to SA and CS Community
 * Enrolling PMs
-* Maintain List of SA SME Participants - Confirm List of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list) and [CS SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on)
+* Maintain List of SA SME Participants - Confirm List of [SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on)
 * Maintain list of potential SMEs (SME Associates) as a pool for each area
 * Create the necessary SME google groups for calendar purposes
    1. Open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) with IT to have the Google Group created.

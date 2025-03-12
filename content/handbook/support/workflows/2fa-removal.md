@@ -46,24 +46,11 @@ A SaaS user must meet **one of** the following conditions to be eligible for a 2
 
 More succinctly: they're paid, they use the account to pay, or we use the account to communicate with them.
 
-In many cases, a top-level group owner may submit a ticket on behalf of the user. See the [Account verification matrix](#account-verification-matrix) for more information.
+In many cases, a top-level group owner may submit a ticket on behalf of the user. See the [Account verification matrix](../workflows/account_verification.md#account-verification-matrix) for more information.
 
 ### Account verification matrix
 
-The table below provides a summary of the available verification options based on the owner and user type:
-
-| Requester | Target | Challenges | Notes |
-| --- | --- | --- | --- |
-| Enterprise owner | Own account | Owner passes challenges on own account | If the requestor fails another Enterprise owner may raise a separate request on their behalf. If no other Enterprise owner is available, see [internal handbook](https://internal.gitlab.com/handbook/support) for other challenges. |
-| Enterprise owner | Member of paid group or intent to be added | Enterprise owner meets base criteria and authenticates request |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
-| Enterprise owner | Non-enterprise user | Invalid request type | Account holder must raise their own request and pass challenges|
-| Account holder (Paid) | Own account | User passes challenges on own account |  |
-| Account holder (Paid) | Other member of same paid group | Invalid request type - must be raised by an Enterprise owner | Communication is direct from the target user who must be CC'd on ticket. |
-| Account holder (Free) | Non-member of group with intent to be added | Invalid request type - request must come from Enterprise owner |  |
-
-To summarize: If a user cannot make use of self-serve methods (lost their account recovery codes and has no SSH key registered) there are two potential ways to validate the request and recover the account: having the account holder open the request, or by having an enterprise owner create the request on their behalf.
-
-See the [Enterprise User section](../workflows/gitlab-com_overview.md#enterprise-users) on how to identify if a user is an Enterprise User.
+Find the Account verification matrix on the [Account Owner Verification handbook page](../workflows/account_verification.md#account-verification-matrix).
 
 ### Conditions when account is used to access Customers Portal
 
@@ -101,7 +88,7 @@ Some initial validation steps will occur automatically:
 
 If any of these are inaccurate, the ticket will be closed.
 
-If a user submits a 2FA reset request ticket using the `2FA Assistance` category but does not use the `2FA removal` ticket subcategory, set the form subcategory to `2FA removal`. If the user is not eligible for support, the ticket will automatically close.
+If the user is not eligible for support, for example a free user requesting 2FA removal, use the [`General::Forms::Incorrect form used` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Forms/Incorrect%20form%20used.md) to have Support Operations take the appropriate action on the ticket.
 
 ##### Step 1: Checking challenge answers
 

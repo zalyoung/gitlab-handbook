@@ -39,6 +39,5 @@ This page serves as a resource for team members looking for information about wo
 
 ## Current AI features and teams
 
-* [List of AI features](/handbook/engineering/development/data-science/ai-powered/#features): Current AI features in developement, the team that owns them and whether they are integrated into Duo Chat.
 * [AI features by tier](https://docs.gitlab.com/user/gitlab_duo/): All features that are available to use, and how to access them.
 * [AI teams](/handbook/engineering/development/data-science/ai-powered/#stage-groups)

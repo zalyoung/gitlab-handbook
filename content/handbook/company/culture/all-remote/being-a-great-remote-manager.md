@@ -315,31 +315,6 @@ This arrangement is best addressed when colocated members adopt [remote-first co
 
 For example, if you're leading a synchronous meeting with colocated reports, ask that each person [use their own](how-to-work-remote-first/#everyone-must-use-their-own-webcam-no-hybrid-calls) webcam and microphone, and that all [documented discussion](handbook-first/) occur in a shared document.
 
-## What GitLab managers say about what it means to be a leader
-
-GitLab runs a quarterly [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) program to enable our people leaders with the skills to manage remote teams. We asked managers:
-
-> In your own definition, what does it mean to be leader and manager at GitLab? My job as a manager is to...
-
-Here's what they had to say:
-
-1. "First and for most my job is to be there for my people - to be their advocate for their career and coach them through various processes at GitLab. As a leader, I am here to make these processes as frictionless as possible. Continuously improving and sharpening our organization as well as the ability to retain talent should be a priority for all managers, and it becomes a big part of leadership when you have to stand up and enforce our values when it's difficult to do so or charge through ambiguity."
-1. "My job as a manager is to support and direct my team. Support can mean coaching (on specific tasks or projects, or career path), listening, and guiding our processes towards results. Direct can mean working with the team cross-functionally to define goals & results (what does success look like?) and what actions we take to get there, reinforcing our values and how we apply them, as well as implementing and refining processes to remove roadblocks and reduce friction."
-1. "My job as a manager is to create a safe space for the team to thrive in. To support each team member in achieving their own goals and to make our team shines as a whole. As long as it is fun and rewarding to wake up and come to work, each person will be able to feel safe at work while also having fun."
-1. "Assist in getting things out of the teams' way so they can work effectively. I also want to be looking out for the next "me". I want to make sure team members are happy with what they are doing and where they are doing it.  If there's another challenge or even a new position that someone wants to try for, I want to be encouraging of that effort and help them any way I can."
-1. "First, it means being both a citizen of and ambassador for GitLab. The core values matter and my actions should be a reflection of them. Second, we (GitLab) have done an admirable job providing async/remote analogs to all the signals and support we can find in an office-based environment."
-1. "My job as a manager is to support the growth, development, and understanding of my team. It is to mentor each team member to reach and exceed their goals."
-1. "My job as a manager is to be a network builder by thinking strategically, understanding and communicating the overall company direction, and aligning people's sense of purpose with where GitLab is going. To support my team by shifting my attention to what's more pressing to them, individually."
-1. "To be a leader at GitLab is upholding our values and sharing vision. I believe most people at GitLab are inspired by the direction their career is going and the direction the company is going. If I can tie their daily tasks and work to a vision that is helping propel something at GitLab forward they will feel valued in their work."
-1. "I need to share the direction that we need to head in our team, through regular course corrections and cadences. This helps the team select what they feel will best contribute and own part of the strategy."
-1. "Help team members reveal and believe in themselves.  Because humans are amazing creatures, I don't believe in a fully-formed & complete sales professional nor do I think anyone is delivering at their highest capability, yet.  My job is to help them identify the "governors" in place (most often their own) and remove them with a menu of my belief in them, and me helping to reset their own expectations of what they can achieve."
-
-## GitLab Knowledge Assessment: Being a great remote manager
-
-Anyone can test their knowledge on Being a great remote manager by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfx9CcEag4ZxiNtYAkUJJ9fzKYg51qEYkcpHRVZNaNxjOJVRA/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public/). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
-
-{{% include "includes/is_this_advice_any_good_remote.md" %}}
-
 ## Contribute your lessons
 
 We believe that remote managers can learn from one another, and direct reports who admire their remote manager can inform others on how to manage well. If you have an anecdote, tip, or experience to share that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.

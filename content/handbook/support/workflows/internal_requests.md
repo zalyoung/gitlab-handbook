@@ -78,17 +78,26 @@ See the [Sending notices workflow](/handbook/support/workflows/sending_notices) 
 
 ## Repo Size Limit Increases
 
-At times, users require an increase to the size limit of their repository as a workaround for a bug issue. In these cases:
+At times, users require an increase to the size limit of their repository as a workaround for a bug issue or due to having inadvertently reached the limit.  There are two different limits in place, 10GiB for free and 500GiB for paid namespaces.  In both cases, we should work with the users to reduce their usage as soon as possible.  Free users should be encouraged to purchase additional storage packs, while paid customers should be directed to speak with their account managers for next steps.
+
+In both cases, the limit can be temporarily increased:
 
 1. Open an issue in the **[internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues)** issue tracker using the `Repo Size Limit` issue template.
     - If you do not have GitLab.com admin access, add the `Admin escalation` label. If needed, post in the `#support_gitlab-com` Slack channel for attention on it.
-1. If a request is a workaround to a bug issue:
+1. If a request is for a free user namespace or to work around a bug issue:
+    - Set the expectation for free users that this is very time limited, just enough to allow them to reduce usage or purchase additional storage packs
+      - Set a due date for reverting: 1-2 days for free users
+      - up to 1 week from the current date for bug encounters
+    - If a longer exception time is required, add the `Manager Approval::Required`, and post in the `#support_leadership` channel to request approval.
     - Use current size + small buffer (2-5 GB) for the exception size.
-    - Set a due date for reverting, up to 1 week from current date.
-    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
     - Make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
+1. If a request is for a paid namespace:
+    - For system stability reasons, we should encourage them to reduce usage as soon as possible
+      - At this time, it is not possible to purchase additional storage beyond the [fixed project limit](https://docs.gitlab.com/user/storage_usage_quotas/#fixed-project-limit)
+    - Inform their account management team if they aren’t already involved, and reach out to  `#support_licensing-subscription` if you need any assistance in locating or communicating with the account managers
+    - Set a due date for reverting, up to 1 week from current date, but loop in `#support_leadership` if longer will be necessary
 1. Apply the `Status::On Hold` label and set the due date to when it should be reverted.
-1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at **<https://gitlab.com/group/subgroup/project/>** you would navigate to **<https://gitlab.com/group/subgroup/project/edit>**.
+1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at `https://gitlab.com/group/subgroup/project/` you would navigate to `https://gitlab.com/group/subgroup/project/edit`.
 1. Enter a new value in the **Repository size limit (MB)** field.
 1. Click **Save changes**.
 1. On the specified due date, revert the size limit back to the default by removing the value.

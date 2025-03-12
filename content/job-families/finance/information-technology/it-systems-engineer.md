@@ -2,7 +2,7 @@
 title: IT Systems Engineer
 ---
 
-The IT Systems Engineer is responsible for performing functions such as evaluation, testing, debugging and implementation of applications programs supporting the company infrastructure business processes and operations. Other functions include analyze, install, modify and support operating systems, databases, and utilities software. The IT Systems Engineer also plans, conducts and directs the analysis of business problems with automated systems solutions. This job family reports to the [IT Manager](/job-families/finance/manager-it/).
+The IT Systems Engineer is responsible for performing functions such as evaluation, testing, debugging and implementation of applications programs supporting the company infrastructure business processes and operations. Other functions include analyze, install, modify and support operating systems, databases, and utilities software. The IT Systems Engineer also plans, conducts and directs the analysis of business problems with automated systems solutions. This job family reports to the [IT Manager](/job-families/finance/information-technology/manager-it/).
 
 ## Responsibilities
 
@@ -142,7 +142,7 @@ The Staff IT Systems Engineer has all the same responsibilities as the ones outl
 
 ## Career Ladder
 
-The next step in the IT Systems Engineer job family is to move to the [IT Manager](/job-families/finance/manager-it/) job family.
+The next step in the IT Systems Engineer job family is to move to the [IT Manager](/job-families/finance/information-technology/manager-it/) job family.
 
 ## Hiring Process
 

@@ -183,7 +183,7 @@ This process happens in three steps.
 #### Step 1: Identifying Issues for Refinement
 
 The engineering manager will identify issues that need to be
-refined. On average we will try to refine 3-6 issues per
+refined. On average we will try to refine up to 6 backend and up to 3 frontend issues per
 week. If there are issues that are good candidates for the backlog refinement
 process, please let the engineering manager know in the issue.
 
@@ -259,7 +259,7 @@ If you cannot find the answer to your question in the resources listed above, pl
 
 ### Milestone Doctors
 
-In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".
+In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 60% to allow taking over additional responsibilities as "Milestone Doctors".
 
 #### Responsibilities
 
