@@ -209,7 +209,6 @@ component:
   artifacts:
     paths:
       - ${PROVENANCE_FILE}
-      - ${PROVENANCE_FILE}
       - ${RUNNER_METADATA}
     expire_in: 7d
 ```
