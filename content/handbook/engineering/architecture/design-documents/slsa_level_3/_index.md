@@ -205,6 +205,7 @@ component:
         --fulcio-url "${FULCIO_SERVER}" \
         --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
+        --bundle "${TARGET_ARTIFACT}.bundle" \
         "${TARGET_ARTIFACT}"
 
   artifacts:
@@ -229,7 +230,7 @@ stages:
 variables:
   COSIGN_VERSION: "v2.1.0"
   RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
-  RUNNER_METADATA_FILE: "artifacts-metadata.json" //This is the default filename when artifacts aren't explicitly named
+  RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
 
 build_artifact:
   stage: build
