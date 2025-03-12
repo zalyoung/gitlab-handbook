@@ -49,26 +49,95 @@ dedicated -- no --> custom-rule
 ```
 
 > [!note]
-> This is currently focused on inbound limits such as HTTP traffic,
+> This document is currently focused on inbound limits such as HTTP traffic,
 > and may be expanded in the future to account for internal limits between services.
 
-## Evaluation
+## Considerations
 
-Rate limits should be enabled by default. If we are considering introducing new limits enabling or changing a limit, we should do an evaluation first.
+Rate limits should be enabled by default. If this is not the case, then this process should be followed for the following cases:
+
+- Introducing new rate limits
+- Lowering existing rate limits
+- Re-enabling disabled rate limits
+- Increasing rate limits
+
+## Process
+
+> [!important]
+> In cases of incident remediation, see [Rate Limiting Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting).
 
 1. Determine if a rate limit already exists
+    - Is there an Application limit for this already? What about Cloudflare?
+    - Is it possible the limit could be adjusted (higher or lower)?
+    - See [Rate Limiting: Limits](/handbook/engineering/infrastructure/rate-limiting/#limits) for where these limits are configured.
+1. Compare proposed limit with existing limits
+    - Will customers be negatively impacted by introducing this limit?
+    - Are there risks with not introducing these limits?
+1. Where possible, enable in `log` or `track` mode first
+    - It should be left in this mode for at least one week to understand weekly traffic patterns.
+    - This will allow you to gauge potential impact.
+    - Use observability tooling (Cloudflare dashboard, logs, metrics). See
+1. Produce evidence for the proposed limit
+    - Why have you selected the value you have?
+    - Are there any knock on effects to customers or backend systems we need to consider?
+1. Determine a rollout plan
+    - Will you use brownouts (temporarily introduce for short periods of time)?
+    - If an Application Limit: will you use feature flags?
+1. Communicate with customers
+    - Announce the rate limits on the GitLab blog, see example for [Projects, Groups, and Users APIs](https://about.gitlab.com/blog/2024/05/14/rate-limitations-announced-for-projects-groups-and-users-apis/).
+    - Raise a contact request by following the Support: Contacting Customers workflow
+1. Follow the [Change Management](/handbook/engineering/infrastructure/change-management/) process.
+    - Any change to rate limits is considered a `Criticality 2` change, as they have the potential to disrupt traffic flow.
+    - This requires approval from `@gitlab-org/saas-platforms/inframanagers`
+    - Inform [#support_gitlab-com](https://gitlab.enterprise.slack.com/archives/C4XFU81LG)
 
-TODO: More detail here
+## Cloudflare
 
-### Cloudflare
+Enforcing limits at the edge network before traffic reaches the underlying GitLab infrastructure enables us to block malicious traffic before it consumes backend resources, protecting us against large-scale volumetric attacks. This is however limited in the configuration options we can use to limit on.
 
-TODO: Talk about process of setting in log mode, whether to create in cloudflare-waf-module or custom-rule, how to validate the potential impact, engaging with customers, etc.
+TODO:
+- how to set in log mode
+- if adding to cloudflare-waf-modules - how?
+- if adding to custom-rule for DotCom - how?
+- if adding to Dedicated - how? (may need to ask Dedicated team about this one)
 
-### Application
+
+## Application
+
+Enforcing limits in the application level within GitLab itself enable us to be more opinionated,
+as they are more context aware (understanding GitLab-specific resources) that provide us more granular control over specific features, and supports the ability to apply business logic and user/project-based dimensions to limiting decisions.
 
 TODO: Break down by RackAttack and ApplicationRateLimiter, reference existing documentation.
 
-## Continued
 
-- Get Approval
-- Raise a Change Request
+## Identifying Potentially Impacted Customers
+
+Cloudflare - Potentially Project ID from URL and IP
+RackAttack - logs contain the user and the IP
+ApplicationRateLimiter - TODO
+
+### Using the Project ID to identify a customer namespace
+
+If you have access to the project ID for requests identified as potentially hitting rate limits,
+there are two methods to attribute these to a namespace:
+
+1. Using the API with an admin token
+
+    ```
+    curl gitlab.com/api/v4/projects/:id
+    ```
+
+1. Using a production Rails console
+
+    ```ruby
+    [ gprd ] production> p = Project.find(PROJECT_ID)
+    => #<Project id:REDACTED redacted/redacted>>
+    [ gprd ] production> p.full_path
+    => "redacted/redacted"
+    ```
+
+## Additional TODOs
+
+TODO: Existing documentation that should be updated to point to this document:
+
+- [Product Processes: Introducing Application Limits](handbook/product/product-processes/#introducing-application-limits)
