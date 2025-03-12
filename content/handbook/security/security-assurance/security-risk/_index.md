@@ -90,7 +90,7 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 | # | Objective | Key Deliverables | Timeline |
 |:-:| :-------- | :--------------- | :------: |
-| 1 | Enhance our Acceptable Use Policy Program | Restricting applications integrating with key GitLab environments, such as Google Workspace, Slack, and Salesforce | Ongoing, FY26-27 |
+| 1 | Enhance our Acceptable Use Policy Program | - Block unnecessary or insecure integrations <br> - Define processes for new integrations <br> - Restrict privileges to install integrations without security and privacy reviews | Ongoing, FY26-27 |
 | 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. with documentation standards<br>- Scalable management of issues/recs. to improve adoption | In progress<br>Target Comp.: Q3 |
 | 3 | Corp and Product Disaster Recovery Planning and Governance | | |
 | 4 | Update Security Assurance KPIs | | |
