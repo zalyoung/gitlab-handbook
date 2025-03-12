@@ -32,7 +32,7 @@ In alignment with the FY25 Marketing strategy, Field Marketing focuses on specif
 
 ## Tier 1 Cities
 
-A Field Marketer should have no more than 5 cities - cities with the largest LAM - that you want to build a ground swell in and be physically present at least 2/quarter.
+A Field Marketer should have no more than 5 cities - cities with the largest LAM - that you want to build a ground swell in and be physically present at least 2 per quarter.
 
 ## Tier 2 Cities
 
