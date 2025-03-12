@@ -11,7 +11,14 @@ GITLAB_TOKEN="$TRIAGE_TOKEN" glab auth login --stdin < <(echo "$TRIAGE_TOKEN")
 user_id=$(GITLAB_TOKEN="$TRIAGE_TOKEN" glab api user | jq .id)
 
 # Search for any existing notes by our bot user.
-note_id=`glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c "last(.[] | select( .author | .id | contains($user_id))) | .id"`
+note_id=$(glab api projects/$CI_PROJECT_ID/merge_requests/$CI_MERGE_REQUEST_IID/notes | jq -c "last(.[] | select( .author | .id | contains($user_id))) | .id")
+
+# note: temp workaround for https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/461
+if [[ $GITLAB_USER_LOGIN =~ /^(project|group)_/ ]]; then
+  echo "Skipping for project or group bot token authored MRs."
+  echo "See https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/461"
+  exit 0
+fi
 
 # If the note already exists, do nothing.
 if [ -n "$note_id" ] && [ "$note_id" != "null" ]; then
