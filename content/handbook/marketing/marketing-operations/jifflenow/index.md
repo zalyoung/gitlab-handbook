@@ -26,7 +26,8 @@ We have put together a comprehensive [training slide deck](https://docs.google.c
 
 - [EBA and Meeting Manager Training](https://drive.google.com/file/d/1MlgZaD-Z41DSaVfAAql4uR5gIIz4velv/view?usp=drive_link)
 - [Meeting Requestor Training - for Sales and Field](https://drive.google.com/file/d/1JXDmdWs2391CW4h7C3Q2rX8I4NNJPYZv/view?usp=sharing)
-- Managing On-Site Meetings
+- [Dashboards and Reporting](https://drive.google.com/file/d/1SWb7RiWQ7dZeWXkPu4wBf-mVfB0fm3z7/view?usp=sharing) 
+- Managing On-Site Meetings (to be created)
 - Mobile App (to be created)
 
 ## Salesforce.com Integration
@@ -48,7 +49,7 @@ For major events, it is common for other companies to utilize JiffleNow as well,
 
 1. Take a look a the meeting invites. If anyone from GitLab with a GitLab email address is listed in "External Attendees", it was not scheduled through our instance.
 2. At the bottom of the email, there will be a help contact. Our help contact will always be someone at GitLab (or in the case of internal requests, a Slack channel).
-3. Below is a screenshot of an example INTERNAL request from our Jifflenow instance. If it doesn't have the Confidential note at the top, it isn't from us.
+3. If an INTERNAL calendar invite doesn't have the Confidential note at the top, it isn't from us.
 
 ## Onsite Event Management
 
@@ -78,7 +79,7 @@ If you have already set a meeting location outside of our space, for example in 
 4. From there, you can request different meeting types that are available. Make sure to link the correct Account and Opportunity (if applicable - you must type it in).
 5. In the next screen: Select attendees, Internal and External. Pick the room and the available time.
 6. To add attendees not listed in the internal or external list, click the + next to ATTENDEES. Enter their contact details and select them for the meeting. If you would like to add a new external attendee to SFDC, you can toggle the “Sync contact to SFDC” and it will be added to the account.
-7. Then, Add details about the meeting and attendees in the right panel. (SFDC should update most of it)
+7. Then, add details about the meeting and attendees in the right panel. (SFDC should update most of it)
 8. You must include an Executive Request Briefing Doc. For C-Level meetings, you are required to have Regional VP approval before requesting the meeting.
 9. Once complete, select submit. This will then route for approvals through the EBA team, depending on the participants.
 10. Once fully approved, this will trigger email invitations to all participants.
