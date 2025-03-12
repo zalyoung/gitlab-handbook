@@ -127,7 +127,7 @@ Support team members with questions can check in the [`#spt_pod_dedicated`](http
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
 
-If it's an emergency, [escalate the emergency](#escalating-an-emergency-issue) and contact GitLab Dedicated infrastructure team on Slack, using channel [`#g_dedicated-team`](https://gitlab.slack.com/archives/C025LECQY0M).
+If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident) and [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call).
 
 When any changes are required besides those listed below, raise [an issue with `SupportRequestTemplate-GitLabDedicated`](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 

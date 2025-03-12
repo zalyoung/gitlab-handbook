@@ -607,7 +607,7 @@ Emergencies from [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab
 
 Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
 
-As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue) to engage the Engineer on Call for GitLab Dedicated.
+As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#raise-a-dedicated-incident) to engage the Engineer on Call for GitLab Dedicated.
 
 ## Special handling notes
 
