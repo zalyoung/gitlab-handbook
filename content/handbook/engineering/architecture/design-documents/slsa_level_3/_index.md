@@ -254,10 +254,17 @@ verify_provenance:
   stage: verification
   needs: ["generate_provenance"]
   script:
-    - echo "Verifying signed provenance..."
-    - cosign verify-blob-attestation --type slsaprovenance1 dist/example-artifact.txt \
+  stage: verification
+  needs: ["generate_provenance"]
+  variables:
+    TARGET_ARTIFACT: "dist/example-artifact.txt"
+    PROVENANCE_FILE: "dist/provenance.json"
+  script:
+    - cosign verify-blob-attestation --type slsaprovenance1 \
+        --bundle ${PROVENANCE_FILE} \
         --certificate-identity-regexp ".*" \
-        --certificate-oidc-issuer "https://gitlab.com"
+        --certificate-oidc-issuer ${CI_SERVER_URL} \
+        ${TARGET_ARTIFACT}
 ```
 
 ### Pipeline Workflow Explanation
