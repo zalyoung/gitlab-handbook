@@ -5,7 +5,7 @@ creation-date: "2025-03-09"
 authors: [ "@dgruzd" ]
 coach: []
 approvers: []
-owning-stage: "~devops::enablement"
+owning-stage: "~devops::foundations"
 participating-stages: []
 ---
 
@@ -15,7 +15,7 @@ This document describes a new advanced architecture for GitLab finders that can 
 
 ## Business Objectives
 
-Currently, searches performed through the dashboard or through the group and project interfaces rely exclusively on database operations rather than leveraging Elasticsearch when available. This results in:
+Currently, searches performed through the dashboard or through the group and project interfaces rely exclusively on database operations rather than leveraging Advanced search when available. This results in:
 
 1. Slower search performance when data is already available in Advanced Search
 2. Limited search capabilities - features like "find all issues with term X in comments" are too performance-intensive to implement with the current database-only approach
