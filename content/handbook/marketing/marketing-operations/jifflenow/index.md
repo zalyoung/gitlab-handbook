@@ -27,6 +27,7 @@ We have put together a comprehensive [training slide deck](https://docs.google.c
 - [EBA and Meeting Manager Training](https://drive.google.com/file/d/1MlgZaD-Z41DSaVfAAql4uR5gIIz4velv/view?usp=drive_link)
 - [Meeting Requestor Training - for Sales and Field](https://drive.google.com/file/d/1JXDmdWs2391CW4h7C3Q2rX8I4NNJPYZv/view?usp=sharing)
 - [Dashboards and Reporting](https://drive.google.com/file/d/1SWb7RiWQ7dZeWXkPu4wBf-mVfB0fm3z7/view?usp=sharing) 
+- [Processing Inbound Requests](https://drive.google.com/file/d/1yGMK4qmw25-9oPeaHByXOnGYkiXbxRsz/view?usp=sharing)
 - Managing On-Site Meetings (to be created)
 - Mobile App (to be created)
 
