@@ -172,10 +172,8 @@ The reusable component will abstract away the complexity of provenance generatio
 component:
   inputs:
     variables:
-      SIGNING_TOOL: "cosign"
       TARGET_ARTIFACT: ""  # Path to the artifact
       PROVENANCE_FILE: "provenance.json" # Output provenance file
-      COSIGN_VERSION: "v2.1.0"
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
