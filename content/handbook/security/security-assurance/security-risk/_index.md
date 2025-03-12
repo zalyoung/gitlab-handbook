@@ -84,6 +84,7 @@ Establishing a complete and accurate inventory of assets is key to the success o
 | **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |Top 5 Risk Reduction over Time| The Top 5 risks represent the top 5 security risks to GitLab the company. These risks need to be reduced and managed effectively to reduce the likelihood of a significant security incident | Risk scores are calculated based on impact and likelihood. | Risks are considered in tolerance with a risk score of 10 or below. | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/Top5RiskReductionOverTime/Top5RiskReductionoverTimeDashboard)| n/a|
+| Third Party Risk Management Capacity | An indicator of third party risk, third party risk assessments proactively identify potential vendor security risks as part of onboarding or contracting, enabling business owners to make risk based decisions throughout the vendor lifecycle. | ------ | Less than 70 per quarter. | Quarterly | ------ | ------ |
 
 ## FY26 Strategic Initiatives
 
