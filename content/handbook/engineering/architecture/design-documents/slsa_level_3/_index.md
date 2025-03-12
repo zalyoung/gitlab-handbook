@@ -174,13 +174,13 @@ component:
     variables:
       TARGET_ARTIFACT: ""  # Path to the artifact
       PROVENANCE_FILE: "provenance.json" # Output provenance file
+      RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
       aud: sigstore
 
   variables:
-    RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
     REKOR_SERVER: "https://rekor.sigstore.dev"
     FULCIO_SERVER: "https://fulcio.sigstore.dev"
 
