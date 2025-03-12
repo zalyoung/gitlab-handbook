@@ -1772,12 +1772,13 @@ Announcement Channels
 | - 70% Stage 1 nARR Pipe: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 2x on all Focus Account opp nARR |
+|   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
+|   - 200% Ceiling |
 | - 30% Stage 3 nARR Pipe: |
 |   - 75% Floor |
-|   - Accelerator x 1.25 from 100% to 225% |
-|   - Accelerator x 1.0 225%+ |
-|   - 2x on all Focus Account opp nARR |
+|   - Accelerator x 1.25 from 100% to 200% |
+|   - Accelerator x 0.0 after meeting 200% of target |
+|   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
 | **Results** |
 | - ARR won from opportunities BDR sources |
 | **Activity** |
