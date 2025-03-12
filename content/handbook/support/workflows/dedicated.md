@@ -196,8 +196,6 @@ In cases where Customer Support need to interact with Dedicated engineers to gat
 
 RFH have an [SLA](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#sla) of three working days for all severity levels. For severity 1 and 2 issues based on [Support definition](https://about.gitlab.com/support/#definitions-of-support-impact), consider [raising a Dedicated incident](#raise-a-dedicated-incident). Ask in Slack `#support_gitlab-dedicated` if you are unsure.
 
-For RFH issues that exceed the SLA response time, add a comment that mentions the issue assignees to prompt them to review the overdue RFH. [Escalation to the Dedicated Engineer On-Call](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person) should only occur for high-priority cases that have exceeded the SLA. 
-
 During the course of the investigation, you may realize that you need to escalate a Request for Help (RFH) issue to another team. You should follow the existing process to [formally request help from another group in the GitLab Development Team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team). When doing this:
 
 - Summarize the investigation thus far and make sure the ask for the team you are escalating to is clear
@@ -221,11 +219,15 @@ If the customer is reporting an availability or performance issue:
 
 #### Raise a Dedicated incident
 
-1. Follow the [Dedicated on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/incident-management.md#how-to-raise-an-incident).
+1. Follow the [Dedicated On-Call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/incident-management.md#how-to-raise-an-incident).
 
 1. Note the initial findings in the Slack channel created. 
 
-1. For Severity 1 and 2 incidents that require immediate attention, page the Dedicated Engineer On-Call by clicking on **Escalate to someone** in the Slack channel created and select **dedicated EOC**. 
+1. [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call) if immediate attention is necessary.
+
+#### Escalate to the Dedicated Engineer On-Call 
+
+If immediate involvement from the Dedicated Engineer On-Call  becomes necessary, follow the [escalation process](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person). 
 
 #### Engaging the GitLab Dedicated CMOC
 
