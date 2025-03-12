@@ -120,6 +120,7 @@ Our quality assessment examines both raw model performance and feature-level imp
   * Duo Chat performance metrics (readability, conciseness, correctness)
   * Code Suggestions accuracy
   * RCA averaged correctness scores
+  * Vulnerability Resolution correctness scores
 
 #### Long-term Monitoring Framework
 
