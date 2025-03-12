@@ -221,7 +221,7 @@ If the customer is reporting an availability or performance issue:
 
 1. Follow the [Dedicated On-Call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/incident-management.md#how-to-raise-an-incident).
 
-1. Note the initial findings in the Slack channel created. 
+1. In the incident channel that is automatically created on Slack, provide a summary of the current state.
 
 1. [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call) if immediate attention is necessary.
 
