@@ -126,6 +126,9 @@ variables:
 .scheduled-update: &scheduled-update
   if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "count-update"'
 
+.skip-bot-authored: &skip-bot-authored
+  if: '$GITLAB_USER_LOGIN =~ /^(project|group)_/'
+  when: never
 ###################################
 #
 # JOB TEMPLATES
@@ -147,8 +150,7 @@ variables:
   stage: notify
   rules:
     # Skip if MR is authored by a project or group access token
-  - if: '$GITLAB_USER_LOGIN =~ /^(project|group)_/'
-    when: never
+  - <<: *skip-bot-authored
     # Otherwise run the job as usual
   - <<: *merge-request-or-tag
 
@@ -331,8 +333,7 @@ check_path_change:
     - scripts/check-path-change.sh
   rules:
       # Skip if MR is authored by a project or group access token
-    - if: '$GITLAB_USER_LOGIN =~ /^(project|group)_/'
-      when: never
+    - <<: *skip-bot-authored
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
     - if: $CI_MERGE_REQUEST_SOURCE_PROJECT_ID != $CI_PROJECT_ID
