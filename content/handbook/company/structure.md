@@ -225,7 +225,7 @@ It is made up of some ICs, some managers, some directors, and some senior leader
 
 ## Functional Leaders
 
-Functional Leaders include all CEO Skips and a small number of other team members who are invited by E-Group members.
+Functional Leaders include Director+ CEO Skips and a small number of other team members who are invited by E-Group members.
 
 This group is called on to help provide input and communicate messaging when appropriate.
 
