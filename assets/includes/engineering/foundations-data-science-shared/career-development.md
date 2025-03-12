@@ -63,6 +63,23 @@ This section lists relevant experience areas for individual contributors interes
 </details>
 
 <details markdown=1>
+<summary>Technical ability</summary>
+
+**Technical ability**
+
+* Participate in long-term architectural decisions
+* Challenge technical decisions where needed (e.g. inefficient refactors, etc)
+* Maintain awareness of the technical implications of your domain and be able to speak to it
+* Coach team members to scalable solutions
+* Serve as a technical fallback for Staff or Principal engineers for the team
+* Identify and prioritize technical debt remediation
+* Understand and manage technical dependencies/trade-offs between stages, groups and projects or systems
+* Evaluate, introduce, remove technologies (packages, languages, etc) or tools when appropriate
+* Balance feature delivery and innovation with reliability requirements for customers
+* Resolve complex technical disagreements within the team by providing guidance
+</details>
+
+<details markdown=1>
 <summary>Team success</summary>
 
 **Team success**
