@@ -272,6 +272,16 @@ The global Field Marketing team is working with the Marketing Operations team to
 
 - [Asana](/handbook/marketing/marketing-operations/asana/)
 
+### Asana tips and best practices
+
+1. If you do not need a task, please delete all subtasks and then the task itself. This will remove the task from the view of everyone involved and is less confusing. Changing the task status can be overwritten by the rules we have set in place, so it’s better to delete if you aren’t using it. Examples of tasks that should be deleted if you are not using them: Build Landing Page, Email tasks, Build Target List.
+1. Do not make any changes to or delete the “Host Live Event” task (or the task that just has the name of the event on it). This is used for the SSOT Marketing Calendar. It will auto-populate, no action required on your part.
+1. When you complete a task that is assigned to you, please be sure to click “Mark Complete”. You can find the “Mark Complete” button at the top of the task. We have several rules to automate the task status field, but they depend on tasks being marked complete when they are done to move to the next step of the workflow.
+1. You have subtasks on emails called “Email approved by DRI” and on landing pages called “Landing page approved by DRI”. If you approve the sample/page, please be sure to click “Approve” on these tasks. This will record your approval and trigger the next step in the workflow (push live, schedule to send, etc).
+1. If you copy new Email tasks from the template, please be sure to change the subtasks from “(template)” to the email number (as well as the main task). This will help avoid confusion in notifications and on My Tasks.
+1. We have added boards for MOps and Lifecycle to track their tasks. Relevant subtasks for these teams will be automatically added to the respective projects upon project creation. **If you create a new task** (or subtask, in the case of emails, landing pages, etc) after the project is created, please be sure to add the MOps subtasks to: `OP - Marketing Operations Support` and the Lifecycle subtasks to: `Lifecycle Marketing - Email Approvals`.
+
+
 ## Process for moving events from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
