@@ -28,7 +28,10 @@ If in doubt, please involve RMDR earlier rather than later – we would always r
 
 ## Privilege
 
-> See the [Legal & Corporate Affairs internal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/) for links to a **video** and **presentation** with additional information about privileged communication.
+<!-- markdownlint-disable MD044 -->
+{{% alert color="warning" %}}
+See the [Legal & Corporate Affairs internal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/) for links to a **video** and **presentation** with additional information about privileged communication.
+{{% /alert %}}
 
 Privileged communication is communication, written or oral, that is protected from later disclosure in litigation because it was conveyed to the attorney in confidence by a client **for the purpose of *seeking* legal advice** or by an attorney **for the purpose of *giving* legal advice**. Privilege can also be asserted over certain confidential documents created by attorneys for the same purpose.
 
