@@ -1774,7 +1774,8 @@ Announcement Channels
 |   - Accelerator x 1.5 after meeting 100% of target |
 |   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
 | - 30% Stage 3 nARR Pipe: |
-|   - 75% Floor |
+|   - 75% floor |
+|   - 200% ceiling |
 |   - Accelerator x 1.25 from 100% to 200% |
 |   - Accelerator x 0.0 after meeting 200% of target |
 |   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
@@ -1788,7 +1789,7 @@ Announcement Channels
 | - Qualified Engagements |
 | - Number of leads accepted and worked |
 | **Daily outbound metrics** |
-| - We aim for 45 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
+| - We aim for 50 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
 
 #### Sales Dev Career Path
 
