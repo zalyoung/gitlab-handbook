@@ -67,7 +67,7 @@ The following people are members of the [Development Analytics group](developmen
 
 The following people are members of the [Developer Tooling group](developer-tooling):
 
-{{< team-by-manager-slug "vincywilson" >}}
+{{< team-by-manager-slug "mgamea" >}}
 
 The following people are members of the [Feature Readiness group](feature-readiness-team):
 
