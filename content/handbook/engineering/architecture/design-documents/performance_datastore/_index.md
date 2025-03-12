@@ -18,7 +18,7 @@ Performance testing is a critical component of our software quality assurance pr
 
 This blueprint proposes the creation of a Performance Results Datastore that builds upon these successful elements and takes our capabilities to the next level. By creating a central repository for performance testing metrics, we can amplify the value of our existing performance testing work, unlock new analytical capabilities, and further integrate performance awareness throughout our development lifecycle.
 
-The Performance Results Datastore will complement our shift-left and shift-right performance testing approach by enabling sophisticated data-driven decisions and providing comprehensive visibility into performance trends across environments, test scenarios, and GitLab versions. This evolution represents the next phase in our performance engineering maturity, turning the valuable data we already collect into actionable insights available to everyone.
+The Performance Results Datastore will complement our shift-left performance testing approach by enabling sophisticated data-driven decisions and providing comprehensive visibility into performance trends across environments, test scenarios, and GitLab versions. This evolution represents the next phase in our performance engineering maturity, turning the valuable data we already collect into actionable insights available to everyone.
 
 ## Motivation
 
@@ -78,7 +78,59 @@ The solution will be designed to:
 
 ## Design and implementation details
 
+As we already have many of these pieces existing already, we will try to reuse what already exists before we re-create.
+
+There is already an existing InfluxDB instance and Grafana front end our first POC will be to create a bucket in that infrastructure, use Grafana to generate views into the data, and build a simple connector that enables a CI pipeline to query the data it needs out.
+
+### Use case
+
+1. Performance run inside an MR
+    - The run generates it's results
+    - It queries the datastore for the latest results (and loads it's data back)
+    - It compares the results to determine if the results are within tolerances and determines Pass/Fail status
+2. User has questions about how performance has trended over time
+    - Queries the results in Grafana
+    - Compares the results to answer questions
+
 ## Alternative Solutions
+
+1. Run a baseline run and the performance run every MR
+   - Pros:
+     - Provides immediate, direct comparison without relying on historical data
+     - Guarantees latest reference point for comparison
+     - Eliminates concerns about environmental or temporal variations
+   - Cons:
+     - Dramatically increases CI resource consumption and pipeline duration
+     - Creates redundant test runs of the same baseline code
+     - Doubles the testing time for every performance-relevant MR
+     - Scales poorly as more performance tests are added to the suite
+     - Use a hard coded baseline
+2. Use Static, Hard-Coded Baselines
+   - Pros:
+     - Simple implementation with minimal infrastructure needs
+     - Consistent reference points for comparison
+     - Low maintenance overhead for implementation
+   - Cons:
+     - Quickly becomes outdated as the application evolves
+     - Fails to account for legitimate performance changes over time
+     - Requires manual updates to adjust expectations
+3. Use Existing Per-Environment Prometheus Instances
+   - Pros:
+     - Leverages existing monitoring infrastructure
+     - Data already collected and available
+   - Cons:
+     - Data is isolated within each environment
+     - Added complexity on the CI run to determine which data source to use
+     - Test run will vary, will the needed data be present?
+3. Build a Custom Performance Analytics Platform
+   - Pros:
+     - Fully tailored to our specific performance testing needs
+     - Maximum flexibility in data model and analysis capabilities
+   - Cons:
+     - Significantly higher development and maintenance effort
+     - Longer time to initial value
+     - Requires specialized skills to build and maintain
+     - Will reinvent capabilities already available in existing tools
 
 ## References
 
