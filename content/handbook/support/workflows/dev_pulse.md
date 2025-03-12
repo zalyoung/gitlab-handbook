@@ -17,7 +17,7 @@ When the specific state is reached, the tickets within Zendesk using Dev Pulse
 are updated to indicate there has been a state change on the issue or merge
 request they were waiting on.
 
-Implementation details about Dev Pulse can be found in the [documentation](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/dev_pulse). 
+Implementation details about Dev Pulse can be found in the [documentation](../readiness/operations/docs/zendesk/dev_pulse).
 
 ## Using it
 
@@ -71,7 +71,7 @@ A so-called "parent problem ticket" is used for each issue/MR to connect
 all regular tickets that are waiting on the same issue/MR together.
 
 Updating the parent problem ticket will result in all the tickets attached to it
-(i.e. the other tickets waiting on a bug or feature request issue/MR) to also be
+(That is, the other tickets waiting on a bug or feature request issue/MR) to also be
 updated. To ensure that works properly, follow these steps:
 
 1. Type out the public comment you wish for all the attached tickets to use
@@ -103,10 +103,10 @@ Slack channel.
 
 ### Where can I view a list of active parent problem tickets?
 
-You can view these via the view `Links to bugs and feature requests` in the
+You can view these by using the view `Links to bugs and feature requests` in the
 Zendesk instance.
 
 ### Where can I view tickets waiting on a bug or feature request?
 
-You can view these via the view `Bug or Feature Request tickets` in the Zendesk
+You can view these by using the view `Bug or Feature Request tickets` in the Zendesk
 instance.
