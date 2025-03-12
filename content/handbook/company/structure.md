@@ -360,7 +360,7 @@ We try our best to keep our handbook and documentation up to date, but certain t
 
 In many ways, we are organized by output.
 This way  we can ensure that responsibilities don't overlap.
-We also ensure every department has a clear priority.
+We also ensure every division has a clear priority.
 
 | Division | Output |
 |-------------|--------------------------------|
@@ -371,6 +371,7 @@ We also ensure every department has a clear priority.
 | People | Enable people |
 | Finance | Ensure correctness |
 | Legal | Ensure compliance  |
+| Security | Enable trust |
 
 ### Product Groups{#product-groups}
 
