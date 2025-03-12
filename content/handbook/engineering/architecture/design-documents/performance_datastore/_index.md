@@ -85,12 +85,12 @@ There is already an existing InfluxDB instance and Grafana front end our first P
 ### Use case
 
 1. Performance run inside an MR
-    - The run generates it's results
-    - It queries the datastore for the latest results (and loads it's data back)
-    - It compares the results to determine if the results are within tolerances and determines Pass/Fail status
+   - The run generates it's results
+   - It queries the datastore for the latest results (and loads it's data back)
+   - It compares the results to determine if the results are within tolerances and determines Pass/Fail status
 2. User has questions about how performance has trended over time
-    - Queries the results in Grafana
-    - Compares the results to answer questions
+   - Queries the results in Grafana
+   - Compares the results to answer questions
 
 ## Alternative Solutions
 
