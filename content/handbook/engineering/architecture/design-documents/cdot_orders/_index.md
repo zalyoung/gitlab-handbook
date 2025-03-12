@@ -62,7 +62,7 @@ As the list of goals above shows, there are a good number of desired outcomes we
 
 1. [Phase four: Transition from `Order` to `Subscription`](#phase-four-transition-from-order-to-subscription)
 
-    The next iteration focuses on trimming down `Order` model and resolving data consistency issues.
+    The next iteration focuses on trimming down the `Order` model and resolving data consistency issues.
 
     [Phase 4: Replace CDot Order with Subscription (&11753)](https://gitlab.com/groups/gitlab-org/-/epics/11753)
 
@@ -203,7 +203,7 @@ The second phase for this blueprint focuses building the mechanisms to keep the 
 
 CDot currently receives and processes `Order Processed` Zuora callouts for Order actions like `Update Product` ([full list](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/64c5d17bac38bef1156e9a15008cc7d2b9aa46a9/lib/zuora/order.rb#L26)). These callouts help to keep CustomersDot in sync with Zuora and trigger provisioning events. These callouts will be important to keeping `Zuora::Local::Subscription` and related local models in sync with changes in Zuora.
 
-This existing callout would not be sufficient to cover all changes to a Zuora Subscription though. In particular, changes to custom fields may not be captured by these existing callouts. We will need to create custom events and callouts for any custom field in the Zuora subscriptions local copy of CustomersDot for any of these resources to ensure CDot is in sync with Zuora. This should only affect `Zuora::Local::Subscription` though as no custom fields are used by CustomersDot on any of the other proposed local resources at this time.
+This existing callout would not be sufficient to cover all changes to a Zuora Subscription though. In particular, changes to custom fields may not be captured by these existing callouts. We will need to create custom events and callouts for any custom field in the Zuora subscriptions local copy in CustomersDot for any of these resources to ensure CDot is in sync with Zuora. This should only affect `Zuora::Local::Subscription` though as no custom fields are used by CustomersDot on any of the other proposed local resources at this time.
 
 #### Read only models
 
@@ -229,7 +229,7 @@ end
 
 With the first iteration of introducing the models for Zuora subscriptions local copy, we will take an iterative approach to the rollout. There should be no impact to existing functionality as we build out the models, start populating the data through callouts, and backfill these models. Once this is in place, we will iteratively update existing features to use the Zuora subscriptions local copy instead of querying Zuora directly.
 
-We will make this transition using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using Zuora subsciptions local copy. This will help us deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
+We will make this transition using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using Zuora subscriptions local copy. This will help us deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
 
 Testing can be performed before Zuora subsctiptions local copy is used in the codebase to ensure data integrity of the models of subscriptions local copy.
 
@@ -243,7 +243,7 @@ This transition will be completed using many small scoped feature flags, rather 
 
 The fourth phase for this blueprint focuses on trimming the `orders` table and resolving data consistency issues.
 
-1. Trimming `orders` table
+#### 1. Trimming `orders` table
 
 We want to go over the below attributes and evaluate if their functionality can be replaced with methods. If it is feasible, we should remove the column from the `orders` table and add a new method for it in `Order` model.
 
@@ -256,7 +256,7 @@ We want to go over the below attributes and evaluate if their functionality can 
 - amendment_type
 - source
 
-#### Current schema of orders table
+##### Current schema of orders table
 
 | Column                             | Action                            |
 | ---------------------------------- | --------------------------------- |
@@ -285,7 +285,7 @@ We want to go over the below attributes and evaluate if their functionality can 
 
 - Trials data migration is being done as part of https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/11047
 
-1. Resolving data issues
+#### 2. Resolving data issues
 
 There should be only one order per subscription name, but there are a few duplicates present. These duplicates are created because of the current behavior when processing an `Order Processed` callout in CDot if the `zuora_account_id` changes for a Zuora Subscription.
 
@@ -293,7 +293,7 @@ There should be only one order per subscription name, but there are a few duplic
   1. CDot attempts to find the CDot `Order` with the new `billing_account_id` and `subscription_name`.
   1. If an `Order` isn't found matching this criteria, a new `Order` is created. This leads to two `Order` records for the same Zuora Subscription.
 
-By removing `billing_account_id` from the `orders` table, and using `subscription_name` and `zuora_account_id` to identify related orders, we can avoid creating more duplicates.
+This should be fixed and existing duplicates should be removed.
 
 To resolve existing duplicates we need to -
 
@@ -309,7 +309,7 @@ To find the latest subscription you just need its name:
 
 The `zuora_subscription_id` could be set to the latest version on typical updates. Most of the data on `Order` is GitLab metadata (e.g. `last_extra_ci_minutes_sync_at`) so it wouldn't need to be updated.
 
-1. Rename `Order` and/or `Subscription` (TBD)
+#### 3. Rename `Order` and/or `Subscription` (TBD)
 
 Renaming the `Order` model and `orders` table could eliminate confusion around the `Order` model. The data stored in the CustomersDot `Order` model does not correspond to a Zuora Order. As `Order` more closely resembles a Zuora Subscription with some additional metadata about syncing with GitLab.com, it could be renamed to `Subscription`.
 
