@@ -7,7 +7,7 @@ last-reviewed: 2025-03-13
 
 ## Overview
 
-Use this workflow when a customer requests that we restore projects or groups that have been deleted from a GitLab Dedicated instance. This workflow is specifically for handling deletions of projects and groups. It is important to note that container images stored within deleted groups or projects cannot be recovered.
+Use this workflow when a customer requests that we restore projects or groups that have been deleted from a GitLab Dedicated instance. This workflow is specifically for handling deletions of projects and groups.
 
 ## Process
 
