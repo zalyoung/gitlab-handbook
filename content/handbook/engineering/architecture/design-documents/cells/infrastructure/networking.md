@@ -143,8 +143,8 @@ For example, a Cell connects to the Topology Service using mTLS for authenticati
 
 | Client | Server | Protocol | Mechanism |
 | ------ | ------ | ------ | ------ |
-| Cloudflare / HTTP Router | Topology Service | HTTP | Cloudflare Zero Trust. |
-| Cloudflare / HTTP Router | Gitlab Webserver/Cell Zone | HTTP | Cloudflare Zero Trust |
+| Cloudflare / HTTP Router | Topology Service | HTTP | Cloudflare Zero Trust (using Service Token) |
+| Cloudflare / HTTP Router | Gitlab Webserver/Cell Zone | HTTP | Cloudflare Zero Trust (using Service Token) |
 | Gitlab Webserver | Topology Service | gRPC | normal mTLS handled by the webservers; (since the connection would be through Private Connect, we wouldn't be going through cloudflare) |
 | Operators | Cell Zone/GitLab webserver | HTTP | Zero trust with IdP auth |
 
@@ -165,7 +165,7 @@ This means that a Cell has 2 types of clients, a human client and other services
 
 With Cloudflare Zero Trust we can set up an Identity provider such as [Okta](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/okta/) so that when we access the `managed_domain` using the browser we will be required to log into Okta to continue to the cell.
 
-We can configure [Access Policies](https://developers.cloudflare.com/cloudflare-one/policies/access/) on our application in CloudFlare ZeroTrust and restrict the access to Operators part of a particualr Okta Group.
+We can configure [Access Policies](https://developers.cloudflare.com/cloudflare-one/policies/access/) on our application in CloudFlare ZeroTrust and restrict the access to Operators part of a particular Okta Group.
 
 This has been validated by the [Cloudflare Zero Trust PoC](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues/241#note_2392103428).
 
