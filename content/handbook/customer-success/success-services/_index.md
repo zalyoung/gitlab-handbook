@@ -98,9 +98,11 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
    1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.  
    2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.  
    3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.  
-   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).  
+   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).
+
 <br>
 <br>
+
 # Recording Success Tier Activities in Gainsight
 
 ### Overview
@@ -108,6 +110,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 Consistently recording key Success Tier activities in Gainsight is essential to our customer success operations. This documentation ensures that all team members follow standardized procedures when logging customer interactions.
 
 Accurate activity tracking in Gainsight enables:
+
 * Complete visibility into customer engagement history
 * Accurate reporting on Success Tier delivery metrics
 * Better collaboration across teams working with the same customer
