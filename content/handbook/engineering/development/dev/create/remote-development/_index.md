@@ -42,6 +42,12 @@ The following people are permanent members of the Remote Development Engineering
 | Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
 | Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
 
+### 📚 Architecture Design Document
+
+Design documents are the primary artifact that the architecture design workflow revolves around. A design document describes a technical vision and a set of principles that will guide feature implementation, as we move forward. It acts as guardrails to keep team aligned.
+
+- [Workspaces](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/workspaces/)
+
 ### 🎓 New Hires
 
 **As the Remote Development team and tech stack continue to mature, it's essential to have a team-specific onboarding process for new hires.** This checklist is designed to guide new team members through the key areas and processes specific to our team, starting two weeks after company onboarding. It covers our mission, essential tools, and workflows related to the Web IDE and Workspaces. Existing team members are encouraged to review the checklist regularly and contribute any missing or updated information to ensure it remains accurate and useful for newcomers. You can find the template https://gitlab.com/gitlab-com/create-stage/remote-development/-/blob/main/.gitlab/issue_templates/remote-development-onboarding.md.
