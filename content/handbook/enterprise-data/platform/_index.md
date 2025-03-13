@@ -981,7 +981,7 @@ The process involves:
 
 ### Prerequisites
 
-- Access to `config-mgmt` repo, specifically the `aws-snowplow` environment.
+- Access to `config-mgmt` repo, specifically the `aws-gitlab-analysis` environment.
 - Snowflake account access with `ACCOUNTADMIN` role
 
 ### Detailed Steps
@@ -991,7 +991,7 @@ The process involves:
 #### 1. Create the S3 Bucket
 
 1. In the repository: [gitlab-com/gl-infra/config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt)
-1. Create a new S3 bucket via Terraform in the `aws-snowplow` environment:
+1. Create a new S3 bucket via Terraform in the `aws-gitlab-analysis` environment:
 
     ```terraform
     resource "aws_s3_bucket" "some_new_bucket" {
@@ -1003,7 +1003,7 @@ The process involves:
 #### 2. Update the IAM Policy
 
 1. In the same repo as the previous step, navigate to the policy file in GitLab:
-   - File path: `environments/aws-snowplow/templates/iam_policy_snowflake_s3_integration.json`
+   - File path: `environments/aws-gitlab-analysis/templates/iam_policy_snowflake_s3_integration.json`
 
 1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket.
 
