@@ -11,6 +11,8 @@ Gmail supports three email security protocols to verify if email is genuine:
 - [DomainKeys Identified Mail (DKIM)](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail).
 - [Domain-based Message Authentication, Reporting and Conformance (DMARC)](https://en.wikipedia.org/wiki/DMARC).
 
+GitLab.com sends email that supports all three protocols to help you verify that emails that claim to originate from GitLab.com are genuine.
+
 To verify if an email from GitLab.com is genuine:
 
 1. Open the email to verify.
