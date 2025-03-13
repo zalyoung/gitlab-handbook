@@ -171,7 +171,7 @@ component:
   inputs:
     variables:
       TARGET_ARTIFACT: ""  # Path to the artifact
-      PROVENANCE_FILE: "provenance.json" # Output provenance file
+      BUNDLE_FILE: "provenance.json" # Output bundle file
       RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
 
   id_tokens:
@@ -201,12 +201,12 @@ component:
         --fulcio-url "${FULCIO_SERVER}" \
         --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
-        --bundle "${PROVENANCE_FILE}" \
+        --bundle "${BUNDLE_FILE}" \
         "${TARGET_ARTIFACT}"
 
   artifacts:
     paths:
-      - ${PROVENANCE_FILE}
+      - ${BUNDLE_FILE}
       - ${RUNNER_METADATA_FILE}
     expire_in: 7d
 ```
