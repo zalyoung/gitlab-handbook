@@ -23,7 +23,7 @@ title: SA Opportunity Hygiene
 [**Review your Customer Success Plans**](/handbook/solutions-architects/sa-practices/customer-success-plan/)
 
 1. From Stage 2, ensure you have created a Customer Succes Plan for [all opportunities that require a CSP](/handbook/solutions-architects/sa-practices/customer-success-plan/#opportunity-thresholds-for-creating-and-reviewing-mutual-customer-success-plans) and [add the url to the opportunity](/handbook/solutions-architects/processes/activity-capture/customer-success-plans/#tracking-in-salesforce)
-1. Fronm Stage 2/3, in your Customer Success Plan, make a note to inform the customer of Professional Services and Success Tiers offerings. Work with your AE, as well as your existing CSA or Success tiers manager on this.
+1. From Stage 2/3, in your Customer Success Plan, make a note to inform the customer of Professional Services and Success Tiers offerings. Work with your AE, as well as your existing CSA or Success tiers manager on this.
 1. By Stage 4, ensure you have reviewed the CSP with the customer and mark the plan as accepted on the opportunity in salesforce
 1. Prepare for Opportunity/ Customer Success Plan Consults you have to attend this week.
 
