@@ -179,6 +179,7 @@ This redaction mechanism is especially important when using Advanced Search, as 
 
 - Additional complexity compared to hardcoded backend selection
 - Requires maintenance of parameter support allowlists
+- Possibly leads to user and GitLab operator confusion as the query might seem to flip randomly between Elasticsearch and Postgres but we hope to mitigate this by generally making Elasticsearch more reliable and up to date and make it easier to debug for operators if their Elasticsearch index is out of date. We also plan to implement a mechanism in advanced finders to automatically switch back to Postgres if Elasticsearch is not up to date
 
 ### Pagination Implementation
 
