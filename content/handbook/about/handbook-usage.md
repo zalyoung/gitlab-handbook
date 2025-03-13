@@ -47,7 +47,7 @@ When asked during an [INSEAD](https://www.insead.edu/) case study interview (sho
 
 The handbook is focused on any content that GitLab team members need to do their job. For other content that might be useful, link to the other source.
 
-- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)), not the Handbook, which is only for team members. Read more in the [Technical Writing](/handbook/product/ux/technical-writing) section of the Handbook.
+- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)), not the Handbook, which is only for team members.
 - For user facing company information, there's the main marketing [website](/handbook/marketing/digital-experience/), and the [blog](/handbook/marketing/blog/).
 - The handbook is for things concerning current and future GitLab team-members only. If something concerns users of GitLab, it should be documented in the [GitLab documentation](https://docs.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), the [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
