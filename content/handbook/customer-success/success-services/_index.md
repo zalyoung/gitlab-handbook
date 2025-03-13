@@ -124,7 +124,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 * **For activities related to a Call to Action (CTA)**:
    1. Click the Cockpit tab within the account
    2. Select the specific CTA to which the activity applies
-   3. Add the activity from there to ensure proper association
+   3. Add the activity from the Timeline tab on the actual CTA to ensure proper association
 
 * **For activities related to a Success Plan**:
    1. Click the Success Plan tab in the account navigation
