@@ -37,7 +37,7 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 
 | Category | Content Modules | Description | Outcome|
 |---|---|---|---|
-|CI/CD|Introduction to CI/CD Workshop|The Intro to CI accelerator for the CI Pipeline track is a Getting Started/How to accelerator, focused on building initial familiarity and basic understanding of usage of GitLab CI for users who are new to the platform.|You'll come away understanding the architecture of GitLab ci yml and GitLab runners, how to create a gitlab-ci.yml, as well as common patterns and rules|
+|CI/CD|Introduction to CI/CD Workshop|The Intro to CI accelerator for the CI Pipeline track is a Getting Started/How to accelerator, focused on building initial familiarity and basic understanding of usage of GitLab CI for users who are new to the platform.|You'll come away understanding the architecture of GitLab ci.yml and GitLab runners, how to create a gitlab-ci.yml, as well as common patterns and rules|
 |CI/CD|Runner fleet guidance  |A Customer Success accelerator to optimize and manage a GitLab Runner fleet at scale.|Your CSA will walk through a maturity assessment, informational sessions and interactive training including|
 |CI/CD|Rules and pipeline flow|The Rules & Pipeline Flow accelerator for the CI Pipeline track is an Advanced Concepts accelerator, which covers methods of defining the flow of a pipeline using rules, DAG, parent/child pipelines, and any other optimization methods to control the operations of pipelines.|Training that is delivered with best practices|
 |CI/CD|CI templates and reusability|The Templates & Reusability accelerator for the CI Pipeline track is an Advanced Concepts accelerator, covering the creation and use of CI templates and optimization of the workflow.|Best practices that have been tailored to your level of maturity|
@@ -90,7 +90,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 2. Customer Kick-off Call
    1. This will be scheduled within the first week of the agreement, subject to customer availability.
-   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations via email.
+   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations through email.
    3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).
    4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.
 
