@@ -60,7 +60,45 @@ Next, we can structure subgroups for both team's projects. Since the development
 
 Now in the `Development` group, you will see a `Cool App Desktop` and `Cool App Mobile` subgroups, ready to contain any projects related to both applications.
 
-For the QA team, they have a single project. There are two main options for structuring this team. We can create a group for `Cool App Testing` that will contain the project, or we can just create the project in the subgroup. For simplicity, we will opt to just create the project and repository in the `QA` group, which we will explore in the next lab.
+For the QA team, they have a single project. There are two main options for structuring this team. We can create a group for `Cool App Testing` that will contain the project, or we can just create the project in the subgroup.
+
+## Task C. Creating a repository
+
+Let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
+
+1. Select **New project**.
+
+1. Select **Create blank project**.
+
+1. In the **Project name**, enter `Cool App QA`. 
+
+1. Ensure that **Initialize repository with a README** is checked on. This will create a README file in the project as a starting point.
+
+1. Select **Create project**.
+
+After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic README template. To get started working with this project, let's create an issue.
+
+## Task D. Creating issues in a project
+
+Let's learn the basics of creating issues in GitLab. 
+
+1. Navigate to your **Cool App QA** project. 
+
+1. In the left sidebar, select **Plan > Issues**. 
+
+1. Select **New issue**.
+
+1. In the title, enter `First issue`.
+
+1. Enter any description you like.
+
+1. Select **Create issue**.
+
+By following this process, you created an issue related to your **Cool App QA** project. Let's discuss some of the details related to your issue. In the center, you will see your issue description, as well as activity for the issue and an area to add comments and discussions. Every issue can have child items, which are smaller tasks related to the issue. Issues can also be linked to other issues to show relationships between issues. 
+
+In the right sidebar, you will see metadata related to your issue. The **Assignee** is the set of people currently working on the issue. If the issue is associated with an epic, milestone, or iteration, these details will display here. Labels can be added to an issue to help organize issues into similar categories or types. Weight defines the amount of work associated with an issue. A due date can be set on an issue for when it should be completed by. Time tracking lets you track time taken to complete an issue. Health status lets you set a status for how the issue is progressing.
+
+Often, we use issues to represent smaller pieces of work that may be completed in a single iteration or sprint. For larger sets of work, we use the concept of an epic, which will be discussed in a later lab.
 
 ## Lab Guide Complete
 

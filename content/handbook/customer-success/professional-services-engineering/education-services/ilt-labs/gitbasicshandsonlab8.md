@@ -7,31 +7,9 @@ description: "This Hands-On Guide walks you through the process of working with 
 
 ## Objectives
 
-The goal of this lab is to get an overview of the different plan features available in GitLab, including issues and epics.
+The goal of this lab is to get an overview of the different plan features available in GitLab, including epics and issue boards.
 
-## Task A. Creating issues in a project
-
-To start, let's learn the basics of creating issues in GitLab. 
-
-1. Navigate to your **Cool App QA** project. 
-
-1. In the left sidebar, select **Plan > Issues**. 
-
-1. Select **New issue**.
-
-1. In the title, enter `First issue`.
-
-1. Enter any description you like.
-
-1. Select **Create issue**.
-
-By following this process, you created an issue related to your **Cool App QA** project. Let's discuss some of the details related to your issue. In the center, you will see your issue description, as well as activity for the issue and an area to add comments and discussions. Every issue can have child items, which are smaller tasks related to the issue. Issues can also be linked to other issues to show relationships between issues. 
-
-In the right sidebar, you will see metadata related to your issue. The **Assignee** is the set of people currently working on the issue. If the issue is associated with an epic, milestone, or iteration, these details will display here. Labels can be added to an issue to help organize issues into similar categories or types. Weight defines the amount of work associated with an issue. A due date can be set on an issue for when it should be completed by. Time tracking lets you track time taken to complete an issue. Health status lets you set a status for how the issue is progressing.
-
-Often, we use issues to represent smaller pieces of work that may be completed in a single iteration or sprint. For larger sets of work, we use the concept of an epic.
-
-## Task B. Defining an epic
+## Task A. Defining an epic
 
 An epic is created at a group level and defines larger sets of work on a project. To create an epic:
 
