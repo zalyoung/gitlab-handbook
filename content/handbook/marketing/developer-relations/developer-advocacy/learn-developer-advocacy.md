@@ -54,6 +54,6 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 
 1. [Developer Advocates on Social Media](/handbook/marketing/developer-relations/developer-advocacy/social-media/)
 1. [How to submit a successful conference proposal](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
-1. [Consortia we work with](/handbook/marketing/developer-relations/community-programs/opensource-program)
+1. [Consortia we work with](/handbook/marketing/developer-relations/community-programs/open-source-program/#consortium-memberships-and-sponsorships)
 1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)
 1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)
