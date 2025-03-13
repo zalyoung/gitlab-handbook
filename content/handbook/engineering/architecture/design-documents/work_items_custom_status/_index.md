@@ -423,11 +423,11 @@ statuses, we refrain from doing so in the forseable future. Specifically we've e
 
 ### Feature flags and licensed feature
 
-We'll use the feature flag `work_item_status` throughout the development of this feature.
+We'll use the feature flag `work_item_status_feature_flag` throughout the development of this feature.
 The actor needs to be the root group.
 
 Since the feature will only be available in Premium and Ultimate tier, we consider it a licensed feature.
-The feature name is `work_item_custom_status`.
+The feature name is `work_item_status`.
 The name differs from the feature flag because we cannot use the same name.
 
 ### Implementation Plan
