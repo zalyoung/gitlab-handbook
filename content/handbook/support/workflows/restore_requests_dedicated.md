@@ -12,11 +12,11 @@ Use this workflow when a customer requests that we restore projects or groups th
 ## Process
 
 1. Work with the customer to explore the self-serve options for recovering this data. Specifically:
-  1. Have the customer [view project pending deletion](https://docs.gitlab.com/user/project/working_with_projects/#view-projects-pending-deletion). If [deplayed project deletion](https://docs.gitlab.com/user/project/working_with_projects/#delayed-project-deletion) is enabled, they may be able to **Restore** the deleted project(s).
-  1. Have the customer check whether one of their team members could `git push` a local copy of the repo up to the GitLab Dedicated instance
+   1. Have the customer [view project pending deletion](https://docs.gitlab.com/user/project/working_with_projects/#view-projects-pending-deletion). If [delayed project deletion](https://docs.gitlab.com/user/project/working_with_projects/#delayed-project-deletion) is enabled, they may be able to **Restore** the deleted project(s).
+   1. Have the customer check whether one of their team members could `git push` a local copy of the repo up to the GitLab Dedicated instance
 1. If the customer can not self-serve the recovery, open an RFH to discuss the feasibility of a restore
-  1. Note that requests to restore a single project for a single user will be declined.
-  1. For all other requests, refrain from letting the customer know that we **will** or **won't** be able to restore until the feasibility assessment is complete in the RFH
+   1. Note that requests to restore a single project for a single user will be declined.
+   1. For all other requests, refrain from letting the customer know that we **will** or **won't** be able to restore until the feasibility assessment is complete in the RFH
 1. Follow up with the customer based on the conversation in the RFH  
 
 ## Additional Resources
