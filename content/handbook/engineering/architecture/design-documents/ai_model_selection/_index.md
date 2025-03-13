@@ -4,8 +4,8 @@ status: ongoing
 creation-date: "2024-09-11"
 authors: [ "@shekharpatnaik" ]
 coaches: []
-dris: []
-approvers: [ "@jordanjanes" ]
+dris: [ "@sean_carroll" ]
+approvers: [ "@jordanjanes", "@sean_carroll" ]
 owning-stage: "~devops::ai-powered"
 participating-stages: []
 toc_hide: true
@@ -277,7 +277,6 @@ query {
 ```
 
 1. When a model is depreciated / inactivated then we need a way to cascade the deprecations down to the namespace level. We will need to build a Sidekiq job that can do that.
-
 
 ### AI Gateway Changes
 
