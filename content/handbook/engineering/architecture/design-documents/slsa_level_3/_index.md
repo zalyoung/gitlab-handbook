@@ -158,10 +158,8 @@ The reusable component will abstract away the complexity of provenance generatio
 #### Component Overview
 
 1. Input Variables:
-   1. SIGNING_TOOL: Default to cosign.
    1. TARGET_ARTIFACT: Path to the artifact or build output.
-   1. PROVENANCE_FILE: Path to generate the provenance file.
-   1. COSIGN_VERSION: Version of cosign to use.
+   1. BUNDLE_FILE: Path to generate the bundle file. This contains everything needed to verify the artifact.
 1. Output:
    1. Signed provenance file uploaded as a pipeline artifact.
 
@@ -226,7 +224,6 @@ stages:
   - verification
 
 variables:
-  COSIGN_VERSION: "v2.1.0"
   RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
   RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
 
