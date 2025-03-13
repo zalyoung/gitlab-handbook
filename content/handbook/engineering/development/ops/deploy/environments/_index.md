@@ -201,7 +201,6 @@ The Environments team size is currently too smal to fully support the entire sco
 With **Critical Maintenance** we mean that we will be able to take on only p2/s2 and above Security, Scalability and Availability issues and only p1/s1 bugs otherwise classified, or issues considered impactful to fix by the Product Manager.
 
 Issues falling out of the mentioned types will be marked with `~environments::parked` label and we will ignore their SLO.
-While we do not have the capacity to work on them we welcome and will support any community contributions to those issues.
 
 #### Issue Weighting
 
