@@ -46,7 +46,7 @@ The following people are permanent members of the Remote Development Engineering
 
 Design documents are the primary artifact that the architecture design workflow revolves around. A design document describes a technical vision and a set of principles that will guide feature implementation, as we move forward. It acts as guardrails to keep team aligned.
 
-- [Workspaces](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/workspaces/)
+- [Workspaces](../../../../architecture/design-documents/workspaces/_index.md)
 
 ### 🎓 New Hires
 
