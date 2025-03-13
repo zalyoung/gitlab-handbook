@@ -158,10 +158,8 @@ The reusable component will abstract away the complexity of provenance generatio
 #### Component Overview
 
 1. Input Variables:
-   1. SIGNING_TOOL: Default to cosign.
    1. TARGET_ARTIFACT: Path to the artifact or build output.
-   1. PROVENANCE_FILE: Path to generate the provenance file.
-   1. COSIGN_VERSION: Version of cosign to use.
+   1. BUNDLE_FILE: Path to generate the bundle file. This contains everything needed to verify the artifact.
 1. Output:
    1. Signed provenance file uploaded as a pipeline artifact.
 
@@ -172,48 +170,44 @@ The reusable component will abstract away the complexity of provenance generatio
 component:
   inputs:
     variables:
-      SIGNING_TOOL: "cosign"
       TARGET_ARTIFACT: ""  # Path to the artifact
-      PROVENANCE_FILE: "provenance.json" # Output provenance file
-      COSIGN_VERSION: "v2.1.0"
+      BUNDLE_FILE: "provenance.json" # Output bundle file
+      RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
       aud: sigstore
 
   variables:
-    RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
+    REKOR_SERVER: "https://rekor.sigstore.dev"
+    FULCIO_SERVER: "https://fulcio.sigstore.dev"
 
-   before_script:
-      - apk add --update cosign
+  image: alpine:latest
+
+  before_script:
+    - apk add --update cosign jq
 
   script:
     - echo "Fetching GitLab Runner metadata..."
-    - export RUNNER_METADATA=$(cat artifacts-metadata.json)
+    - export RUNNER_METADATA=$(jq -c . ${RUNNER_METADATA_FILE})
 
     - echo "Generating predicate for ${TARGET_ARTIFACT}..."
-    - cat <<EOF > predicate.json
-      {
-        "buildDefinition": {
-          "buildType": "gitlab-ci",
-          "externalParameters": {},
-          "internalParameters": ${RUNNER_METADATA},
-          "resolvedDependencies": []
-        }
-      }
-      EOF
+    - echo "${RUNNER_METADATA}" | jq -c .predicate > predicate.json
 
     - echo "Attesting provenance for ${TARGET_ARTIFACT}..."
-    - cosign attest --predicate predicate.json \
-        --type slsaprovenance \
-        --oidc-issuer "https://gitlab.com" \
-        --oidc-token "${GITLAB_OIDC_TOKEN}" \
+    - cosign attest-blob --predicate predicate.json \
+        --type slsaprovenance1 \
+        --oidc-issuer "${CI_SERVER_HOST}" \
+        --fulcio-url "${FULCIO_SERVER}" \
+        --rekor-url "${REKOR_SERVER}" \
+        --identity-token "${GITLAB_OIDC_TOKEN}" \
+        --bundle "${BUNDLE_FILE}" \
         "${TARGET_ARTIFACT}"
 
   artifacts:
     paths:
-      - ${PROVENANCE_FILE}
-      - artifacts-metadata.json
+      - ${BUNDLE_FILE}
+      - ${RUNNER_METADATA_FILE}
     expire_in: 7d
 ```
 
@@ -230,8 +224,8 @@ stages:
   - verification
 
 variables:
-  COSIGN_VERSION: "v2.1.0"
   RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
+  RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
 
 build_artifact:
   stage: build
@@ -242,7 +236,6 @@ build_artifact:
   artifacts:
     paths:
       - dist/
-      - artifacts-metadata.json
     expire_in: 7d
 
 generate_provenance:
@@ -251,16 +244,22 @@ generate_provenance:
   component: .gitlab/components/provenance-signer.yml
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
-    PROVENANCE_FILE: "dist/provenance.json"
+    BUNDLE_FILE: "dist/provenance.json"
+    RUNNER_METADATA_FILE: "${RUNNER_METADATA_FILE}"
 
 verify_provenance:
   stage: verification
   needs: ["generate_provenance"]
+  variables:
+    TARGET_ARTIFACT: "dist/example-artifact.txt"
+    BUNDLE_FILE: "dist/provenance.json"
   script:
     - echo "Verifying signed provenance..."
-    - cosign verify-attestation --type slsaprovenance dist/example-artifact.txt \
+    - cosign verify-blob-attestation --type slsaprovenance1 \
+        --bundle ${BUNDLE_FILE} \
         --certificate-identity-regexp ".*" \
-        --certificate-oidc-issuer "https://gitlab.com"
+        --certificate-oidc-issuer ${CI_SERVER_URL} \
+        ${TARGET_ARTIFACT}
 ```
 
 ### Pipeline Workflow Explanation
