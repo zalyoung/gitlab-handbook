@@ -1,3 +1,7 @@
+---
+title: "Tre Ely's README"
+---
+
 # Tre Ely's README
 
 ## Introduction
