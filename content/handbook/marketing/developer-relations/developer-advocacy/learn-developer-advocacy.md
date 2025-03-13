@@ -52,8 +52,8 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 
 ## <i class="fa fa-external-link" aria-hidden="true"></i> Useful links
 
-1. [GitLab Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/)
 1. [Developer Advocates on Social Media](/handbook/marketing/developer-relations/developer-advocacy/social-media/)
-1. [How to submit a successful conference proposal](/handbook/marketing/developer-relations/developer-advocacy/writing-cfps/)
+1. [How to submit a successful conference proposal](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
 1. [Consortia we work with](/handbook/marketing/developer-relations/community-programs/opensource-program)
+1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)
 1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)
