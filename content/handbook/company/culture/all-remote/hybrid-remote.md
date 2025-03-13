@@ -275,7 +275,7 @@ Clear communication is one of the best ways to overcome hybrid-remote challenges
 
 Each department and team should set, share, and track both monthly and quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs). GitLab's OKRs are also clearly documented in our handbook for visibility across the company.
 
-Our unique approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members](learning-and-development/) by putting everything they need to know in one place.
+Our unique approach to [documentation](/handbook/product/ux/technical-writing/#documentation) also helps with [onboarding new team members](learning-and-development/) by putting everything they need to know in one place.
 
 Finally, we recommend developing an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). Hosting a panel, like our [GitLab 101](/handbook/company/culture/gitlab-101), allows new hires to ask questions.
 
