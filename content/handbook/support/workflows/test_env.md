@@ -512,6 +512,8 @@ NOTE: Some Mac users may experience a [long standing bug](https://github.com/can
 
 Once installed, use `multipass help` to get an idea of what it can do. The general format is `multipass <command> <name>`.
 
+For a solution that uses multipass see [GitLab-in-a-VM](https://gitlab.com/gitlab-com/support/toolbox/gitlab-in-a-vm). It automates a lot of stuff regarding setting up the VMs and making sure the instance is trusted between the GitLab runner and the GitLab instance itself.
+
 #### Examples
 
 ##### Omnibus
