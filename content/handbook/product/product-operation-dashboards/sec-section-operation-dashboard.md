@@ -7,11 +7,7 @@ description: "Operational dashboards for the R&D team working on Security and Co
 
 insert words
 
-|     | Status | Details |
-| --- | ------ | ------- |
-|Vision and Strategy | :yellow_circle:  |         |
-|Priorities|        |         |
-|     |        |         |
+Add some sort of table with green yellow and red stop lights colors to indicate operational health.
 
 ## Vision and Strategy
 
@@ -36,14 +32,14 @@ Granular Product and Engineering Priorities can be found in the [FY26 Execution 
 Product and Engineering roadmaps for each stage in the Sec Section are linked below. The deck contains a slide per priority initiative that is updated on a weekly basis as On-track, Needs Attention, or At Risk. These are reviewed in the weekly Sec Section Planning and Execution meeting. We are working on migrating tracking progress for all projects into epics in GitLab. For now, please refer to the decks linked below.
 
 - Application Security Testing
-    - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g333fe97d1b1_12_886)
-    - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3322950f2e3_12_0)
+  - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g333fe97d1b1_12_886)
+  - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3322950f2e3_12_0)
 - Security Risk Management
-    - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3374097bcb7_3_282)
-    - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3308d0179fd_18_0)
+  - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3374097bcb7_3_282)
+  - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3308d0179fd_18_0)
 - Software Supply Chain Security
-    - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g333fe97d1b1_12_886)
-    - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3322950f2e3_12_0)
+  - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g333fe97d1b1_12_886)
+  - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3322950f2e3_12_0)
 
 
 Here is a WIP [view](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=START_DATE_ASC&layout=MONTHS&timeframe_range_type=CURRENT_YEAR&label_name[]=section::sec&label_name[]=roadmap::FY26Q2&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true) for FY26 Q2 priorities for the Sec Section.
