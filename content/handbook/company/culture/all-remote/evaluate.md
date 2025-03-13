@@ -57,7 +57,7 @@ Because of the self-directed nature of remote work, employers look for people ca
 
 When evaluating a remote role, it's critical to understand where leadership works on a day-to-day basis. In an all-remote company, each team member — including the executive team — is remote. This creates a culture of trust and [transparency](/handbook/values/#transparency), and it sends a clear message that no one will be treated as an outsider within the organization based on their geographic location.
 
-In companies where the leadership team is colocated, but most (if not all) of the company is remote, consider asking how this impacts the dissemination of information. Remote [forces companies to do things they ought to be doing earlier and better](management/#how-do-you-manage-a-100-remote-team), including [documenting](/handbook/product/ux/technical-writing/documentation/) culture and process. With a colocated leadership team, a company runs the risk of bypassing diligent documentation in favor of an in-person sync where discussion notes and outcomes are not documented and shared.
+In companies where the leadership team is colocated, but most (if not all) of the company is remote, consider asking how this impacts the dissemination of information. Remote [forces companies to do things they ought to be doing earlier and better](management/#how-do-you-manage-a-100-remote-team), including [documenting](/handbook/product/ux/technical-writing/#documentation) culture and process. With a colocated leadership team, a company runs the risk of bypassing diligent documentation in favor of an in-person sync where discussion notes and outcomes are not documented and shared.
 
 ### Q: Are hybrid calls utilized or tolerated?
 
@@ -89,7 +89,7 @@ Certain companies prefer to have everyone contributing between certain times, cr
 ![GitLab code illustration](/images/all-remote/gitlab-code-review.jpg)
 {style="max-width: 50%;"}
 
-[Documentation](/handbook/product/ux/technical-writing/documentation/) is important in all companies, and the answer to this question should shed light on how much a company values it. Ideally, a company will have a handbook or similar where processes and culture are documented first, and *then* shared out (via email, Slack, etc.).
+[Documentation](/handbook/product/ux/technical-writing/#documentation) is important in all companies, and the answer to this question should shed light on how much a company values it. Ideally, a company will have a handbook or similar where processes and culture are documented first, and *then* shared out (via email, Slack, etc.).
 
 ### Q: Approximately how many times did you reference the company handbook last month, and propose changes to it?
 
