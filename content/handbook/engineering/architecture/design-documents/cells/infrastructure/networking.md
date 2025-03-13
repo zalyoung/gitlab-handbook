@@ -22,9 +22,9 @@ toc_hide: true
 - **Cross-VPC communication in GCP:** Any interactions between services in different VPCs.
   For instance, Cell communicating with Topology Service will use [Private Service Connect,](https://cloud.google.com/vpc/docs/private-service-connect)
   which helps avoid overlapping CIDRs, VPC peering limitations, inconsistent DNS resolution across VPCs, and going over the public internet.
-- **Authentication and Authorization:** Each service needs to have an identity in the form of a certificate that will be used to communicate using HTTP requests.
+- **Authentication and Authorization:** Each service needs to have an identity in the form of a certificate, or a token that will be used to communicate using HTTP requests.
   Using that identity will also be used to authorize the request.
-  This is better known as mTLS and has a [separate blueprint](../mutual_authentication_between_cell_services.md).
+  The certificate identity is better known as mTLS and has a [separate blueprint](../mutual_authentication_between_cell_services.md).
 - **Cells are not public but remain individually accessible:** Users must submit all requests through `gitlab.com` domain on the public internet to maintain a central entry point and a global counter for rate limits.
   - **External:** The cells are individually accessible through an external hostname but this is not public - customers cannot directly interact with the cell domains.
   - **Public:** The cells are only accessible to customers through the gitlab.com domain which is available on the public internet.
