@@ -2,6 +2,7 @@
 title: "Product Security Risk Register"
 aliases:
   - "/handbook/security/product-security/risk-register/"
+description: "The Product Security Risk Register (PSRR) is driven by and follows the StORM process from our Security Risk Team."
 ---
 
 The Product Security Risk Register (PSRR) is driven by and follows the [StORM process](/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](/handbook/security/security-assurance/security-risk/).

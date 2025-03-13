@@ -3,6 +3,7 @@ title: "Security Architecture"
 aliases:
   - "/handbook/security/product-security/architecture/"
   - "/handbook/security/product-security/security-architecture/"
+description: "Security Architects are the trusted security advisors of GitLab Engineering."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
