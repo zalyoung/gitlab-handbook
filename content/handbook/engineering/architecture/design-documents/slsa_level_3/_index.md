@@ -244,7 +244,7 @@ generate_provenance:
   component: .gitlab/components/provenance-signer.yml
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
-    PROVENANCE_FILE: "dist/provenance.json"
+    BUNDLE_FILE: "dist/provenance.json"
     RUNNER_METADATA_FILE: "${RUNNER_METADATA_FILE}"
 
 verify_provenance:
@@ -252,11 +252,11 @@ verify_provenance:
   needs: ["generate_provenance"]
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
-    PROVENANCE_FILE: "dist/provenance.json"
+    BUNDLE_FILE: "dist/provenance.json"
   script:
     - echo "Verifying signed provenance..."
     - cosign verify-blob-attestation --type slsaprovenance1 \
-        --bundle ${PROVENANCE_FILE} \
+        --bundle ${BUNDLE_FILE} \
         --certificate-identity-regexp ".*" \
         --certificate-oidc-issuer ${CI_SERVER_URL} \
         ${TARGET_ARTIFACT}
