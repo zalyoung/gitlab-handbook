@@ -101,11 +101,9 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
    4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).
 
 <br>
-<br>
 
-# Recording Success Tier Activities in Gainsight
+## Recording Success Tier Timeline Activities in Gainsight
 
-### Overview
 
 Consistently recording key Success Tier activities in Gainsight is essential to our customer success operations. This documentation ensures that all team members follow standardized procedures when logging customer interactions.
 
@@ -118,8 +116,6 @@ Accurate activity tracking in Gainsight enables:
 * Continuity of service during team member transitions
 
 By following these guidelines, we maintain a reliable system of record that supports both operational efficiency and strategic decision-making.
-
-## Timeline Activity Tracking
 
 ### General Instructions (Applies to All Activities)
 
