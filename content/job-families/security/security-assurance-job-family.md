@@ -430,6 +430,83 @@ Additional details about our process can be found on our [hiring page](/handbook
 - Proficient experience with at least six security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
 - Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
 
+### Staff Security Assurance Engineer
+
+This position reports to the manager of the corresponding Security Assurance specialty.
+
+#### Staff Security Assurance Engineer Job Grade
+
+The Staff Security Assurance Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Staff Security Assurance Engineer Responsibilities
+
+- The responsibilities of a Senior Security Assurance Engineer, plus;
+- Proven ability to successfully develop and drive projects to completion at the team and department levels.
+
+#### Hiring Process
+
+Candidates for the staff engineer positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
+- Next, candidates will be invited to schedule a 50-minute interviews with the hiring manager,
+- Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
+- Finally, candidates will be invited to schedule a 25-minute interview with the Senior Director, Security Assurance.
+- Successful candidates will subsequently be made an offer via email
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+
+#### Principal Security Assurance Engineer Specialties
+
+##### Security Assurance Automation
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
+##### Security Compliance
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
+##### Security Governance
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
+##### Security Risk
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
+##### Field Security
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
 ### Manager, Security Assurance
 
 This position reports to the Senior Director of Security Assurance.
