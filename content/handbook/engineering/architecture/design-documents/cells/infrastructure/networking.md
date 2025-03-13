@@ -73,13 +73,6 @@ flowchart LR
         Jobs --> Cells
     end
 
-    %% Connect users and operators to CloudFlare
-    Users -->|"gitlab.com\n(Allowed Public)"| CloudFlare
-    GitLabOps -->|"gitlab.com\n(Allowed Public)"| CloudFlare
-
-    %% Direct IDP connection from GitLab Operator to a cell via CloudFlare layer
-    GitLabOps -.->|"IDP"| CellCloudFlare
-
     %% Add CloudFlare layer for cell communication
     subgraph CellCloudFlare["CloudFlare Layer for Cells"]
         direction TB
@@ -90,16 +83,27 @@ flowchart LR
         CellDoS --> CellWAF --> CellRateLimiting
     end
 
+    %% Connect users and operators to CloudFlare
+    Users -->|"gitlab.com\n(Allowed Public)"| CloudFlare
+    GitLabOps -->|"gitlab.com\n(Allowed Public)"| CloudFlare
+
+    %% Direct IDP connection from GitLab Operator to a cell via CloudFlare layer
+    GitLabOps -.->|"CF Zero Trust IdP"| CellCloudFlare
+
     %% Connect workers to CloudFlare layer for cells, then to cells
-    Workers -->|"mTLS"| CellCloudFlare
+    Workers -->|"CF ZeroTrust Service Auth"| CellCloudFlare
     CellCloudFlare --> Cells
-    Workers -->|"mTLS"| TopologyREST
+
+    %% Connect workers to topology
+    Workers -->|"CF ZeroTrust Service Auth"| TopologyREST
 
     %% Connect cells to Private Service Connect with mTLS
     Cells <-->|"mTLS"| PSCSection
 
     %% Not allowed connection
     Users -.->|"Not Allowed"| Cell1
+
+    %% No styling for cells
 ```
 
 ## Cross-VPC communication in GCP
@@ -130,10 +134,19 @@ Accessing APIs and services through a consumer-managed load balancer provides se
 
 ## Authentication and Authorization
 
-This overlaps the [mTLS blueprint](../mutual_authentication_between_cell_services.md), and will not go over detail here.
-Each workload/service in the Cluster should have an identity in the form of a certificate that will be used to connect to other services as a way to authenticate to that service public or private.
-It's up to the service to implement authorization, using the identity provided in the certificate.
+We would be leveraging a mix of [mTLS](../mutual_authentication_between_cell_services.md) along with [Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/).
+Each cell should have an identity in the form of a certificate that will be used to connect to Topology Service as a way to authenticate.
+It's up to the Topology service to implement authorization, using the identity provided in the certificate.
 For example, a Cell connects to the Topology Service using mTLS for authentication, and then the Topology Service will use that identity to authorize if they can run that request.
+
+### Authentication Protocols and Connection Matrix
+
+| Client | Server | Protocol | Mechanism |
+| ------ | ------ | ------ | ------ |
+| Cloudflare / HTTP Router | Topology Service | HTTP | Cloudflare Zero Trust. |
+| Cloudflare / HTTP Router | Gitlab Webserver/Cell Zone | HTTP | Cloudflare Zero Trust |
+| Gitlab Webserver | Topology Service | gRPC | normal mTLS handled by the webservers; (since the connection would be through Private Connect, we wouldn't be going through cloudflare) |
+| Operators | Cell Zone/GitLab webserver | HTTP | Zero trust with IdP auth |
 
 ## Cells are not public but remain individually accessible
 
@@ -147,22 +160,19 @@ The Cell should be directly accessible not just programmatically by the client,
 but also by human operators that will circumvent the HTTP Router and connect directly to it for operational reasons such as debugging the Rails application without the HTTP Router and Topology service.
 
 This means that a Cell has 2 types of clients, a human client and other services like HTTP Router and Instrumentor, both will be solved using the same core technologies using [Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/).
-There hasn't been a proof of concept yet, so we still need to validate and scrutinize this implementation at GitLab and with the help of Cloudflare.
 
 ### Human Operator
 
 With Cloudflare Zero Trust we can set up an Identity provider such as [Okta](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/okta/) so that when we access the `managed_domain` using the browser we will be required to log into Okta to continue to the cell.
 
-We need to expand on this after we validate the idea with a proof of concept.
+We can configure [Access Policies](https://developers.cloudflare.com/cloudflare-one/policies/access/) on our application in CloudFlare ZeroTrust and restrict the access to Operators part of a particualr Okta Group.
+
+This has been validated by the [Cloudflare Zero Trust PoC](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues/241#note_2392103428).
 
 ### Services
 
-We can potentially use Cloudflare Zero Trust [mTLS authentication](https://developers.cloudflare.com/cloudflare-one/identity/devices/access-integrations/mutual-tls-authentication/) for secure communication between our HTTP Router and Cell services.
+We can leverage Cloudflare Zero Trust [Service Token Auth](https://developers.cloudflare.com/cloudflare-one/identity/service-tokens/) for secure communication between our HTTP Router to Cell and Topology Service.
 
-The Cloudflare Workers mTLS documentation states:
+The service auth token can be uploaded as [worker secrets](https://developers.cloudflare.com/workers/configuration/secrets/) and can be added as headers while proxying the request to a cell.
 
->Currently, mTLS for Workers cannot be used for requests made to a service that is a proxied zone on Cloudflare. If your Worker presents a client certificate to a service proxied by Cloudflare, Cloudflare will return a 520 error.
-
-Since our HTTP Router is a Cloudflare Worker, this limitation may apply, but Cloudflare Zero Trust's mTLS implementation might function differently.
-
-We need to expand on this after [we validate the idea with a proof of concept](https://gitlab.com/gitlab-org/gitlab/-/issues/468640) and finish writing the mTLS blueprint.
+We validated how this would be working as part of [CloudFlare Zero Trust PoC](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues/241).
