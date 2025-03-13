@@ -40,7 +40,8 @@ While these services are essential to GitLab's infrastructure, we focus on maint
 
 - [SaaS K8s workloads](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md). GitLab-com is owned by Delivery, Tanka and Helmfiles are often shared by other teams.
 - Secrets Management ([Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault))
-- [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
+- [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md).
+- [Teleport](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/teleport) - Foundations manages KTLO work such as upgrades, but all other ownership is managed by [CorpSec](../../../../security/corporate/systems/teleport/_index.md).
 
 ## Getting Assistance
 
