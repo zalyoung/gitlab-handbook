@@ -20,7 +20,7 @@ GitLab Support Engineers can access the [Switchboard](https://about.gitlab.com/d
 
 You should now be in **Switchboard**.
 
-During [onboarding](https://docs.gitlab.com/ee/administration/dedicated/#onboarding-to-gitlab-dedicated-using-switchboard), GitLab Dedicated customers get access to Switchboard. Temporary credentials are sent to these customers via email. If these credentials expire, customers may open a Support ticket. Support Engineers should open a [request for help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard) with Switchboard.
+During [onboarding](https://docs.gitlab.com/administration/dedicated/#onboarding-to-gitlab-dedicated-using-switchboard), GitLab Dedicated customers get access to Switchboard. Temporary credentials are sent to these customers via email. If these credentials expire, customers may open a Support ticket. Support Engineers should open a [request for help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard) with Switchboard.
 
 ### Password reset
 

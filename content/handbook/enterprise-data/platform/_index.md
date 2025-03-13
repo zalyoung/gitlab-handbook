@@ -106,6 +106,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 |[Demo Architecture Portal](https://cloud.gitlabdap.com/)|Stitch|`demo_architecture_portal`|`demo_architecture_portal`|Sales and marketing|7 Days/7 Days|No|Tier 3|
 | [Elastic Search Billing](https://www.elastic.co/docs/api/doc/cloud/group/endpoint-billingcostsanalysis) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | End to End test metrics | Snowflake tasks | `e2e_metrics` | `e2e_metrics` | Engineering | 24h / 48h | No | Tier 2 |
+| [Ecosystems BVA](https://www.ecosystems.us/) | Airflow | `ecosystems` | `ecosystems` | Sales | 24h / 48h | No | Tier 3 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
 | Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
@@ -206,7 +207,11 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-### Snowplow nullify columns
+### Snowplow updating columns
+
+#### Snowplow nullify geo columns
+
+**Issue**: [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally)
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
@@ -222,12 +227,48 @@ As desired to avoid a duplicate load of the updated files in the `S3` bucket as 
 ```bash
 - gitlab-com-snowplow-events/
     output/ <---- all files are located here
-        2019/
-        2020/
-        2021/
-        2022/
+        2019/01/01
+        ...
+        (present day)
+```
+
+to the new structure:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated
+        2019/01/01
+        ...
+        2023/01/31
+    output/ <---- new files will land here and will be loaded by Snowpipe
+        2023/02/01
+        ...
+        (present day)
+```
+
+#### Snowplow nullify `page_url_path` columns
+
+**Issue**: [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
+
+In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
+
+- `page_url_path`
+
+This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
+The Data Team updated old files and pseudo-anonymized  `page_url_path` column, and also pseudo-anonymized `page_url_path` column in Snowflake.
+This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+
+As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351), the folder structure is modified from:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated (in the previous iteration)
+        2022/10/26
+        ...
         2023/
-            01/
+            02/
+    output/
+        2023/
             02/
             03/
 ```
@@ -236,20 +277,21 @@ to the new structure:
 
 ```bash
 - gitlab-com-snowplow-events/
-    output_nullified/ <---- all files are nullified and update
-        2019/
-        2020/
-        2021/
-        2022/
-        2023/
-            01/
+    output_nullified_columns/
+        2019/01/01
+        ...
+        2022/10/25
+    output_mask_page_url_path/ <---- all files are pseudonimized
+        2022/10/26
+        ...
+        2023/12/01
     output/ <---- new files will land here and will be loaded by Snowpipe
-        2023/
-            02/
-            03/
+        2023/12/02
+        ...
+        (present day)
 ```
 
-All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
+> **Note:** All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
 
@@ -880,15 +922,17 @@ Once a table is permanent with a retention period we are able to use [Time Trave
 
 For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/build/hooks-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
 
-### Admin
+## Snowflake Admin tasks
 
 In order to keep Snowflake up and running, we perform administrative work.
 
-#### Create new Snowflake external stage for storage bucket
+## Create new Snowflake external stage for **GCS** storage bucket
 
-In order for Snowflake to access the files in the storage bucket (i.e GCS, S3), the files must be copied into a Snowflake `external stage`.
+In order for Snowflake to access the files in GCS bucket, the files must be copied into a Snowflake `external stage`.
 
 To create the external stage, the new path to the bucket must be included (included means **appended** to the existing list of storage locations) in the `STORAGE_ALLOWED_LOCATIONS` attribute. If it is not appended, but **overwritten** to the existing attributes, all existing storage locations will be **erased** and stop many pipelines to run. Follow these instructions to append the new external stage:
+
+The `GCS_INTEGRATION` is Snowflake storage integration for `gitlab-analysis` project in GCP. If the bucket is in different project, a new integration would need to be created.
 
 1. use role `ACCOUNTADMIN`, if you don't have access to this role, you cannot proceed
 1. get all *current* storage locations by running this:
@@ -922,6 +966,93 @@ To create the external stage, the new path to the bucket must be included (inclu
     CREATE STAGE "RAW"."PTO".pto_load
     STORAGE_INTEGRATION = GCS_INTEGRATION URL = 'bucket location';
     ```
+
+## Create new Snowflake external stage for **AWS S3** storage bucket
+
+This guide explains how to grant Snowflake access to a new S3 bucket using the existing Snowflake storage integration.
+
+### Overview
+
+The process involves:
+
+1. Creating a new S3 bucket using terraform
+1. Updating the IAM policy to allow Snowflake access to this bucket
+1. Updating the Snowflake storage integration configuration
+
+### Prerequisites
+
+- Access to `config-mgmt` repo, specifically the `aws-snowplow` environment.
+- Snowflake account access with `ACCOUNTADMIN` role
+
+### Detailed Steps
+
+<details><summary>Click to expand</summary>
+
+#### 1. Create the S3 Bucket
+
+1. In the repository: [gitlab-com/gl-infra/config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt)
+1. Create a new S3 bucket via Terraform in the `aws-snowplow` environment:
+
+    ```terraform
+    resource "aws_s3_bucket" "some_new_bucket" {
+      bucket = "your-new-bucket-name"
+      # Add other configuration as needed
+    }
+    ```
+
+#### 2. Update the IAM Policy
+
+1. In the same repo as the previous step, navigate to the policy file in GitLab:
+   - File path: `environments/aws-snowplow/templates/iam_policy_snowflake_s3_integration.json`
+
+1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket.
+
+    ```json
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:PutObject",
+        "s3:ListBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3:::your-new-bucket-name/*",
+        "arn:aws:s3:::your-new-bucket-name"
+      ]
+    }
+    ```
+
+1. Just like any change in config-mgmt repo, get approvals, and then run `atlantis apply` to deploy the change
+
+#### 3. Update the Snowflake Storage Integration
+
+Add the new bucket to the allowed storage locations in Snowflake:
+
+1. Use `ACCOUNTADMIN` role
+1. Update the Snowflake storage integration, be sure you **append** the new bucket to the existing list of buckets:
+
+    ```sql
+    ALTER STORAGE INTEGRATION S3_DATA_PUMP
+    SET STORAGE_ALLOWED_LOCATIONS = ('s3://existing-bucket-1/', 's3://existing-bucket-2/', 's3://your-new-bucket-name/');
+    ```
+
+1. Verify the integration settings:
+
+    ```sql
+    DESC INTEGRATION S3_DATA_PUMP;
+    ```
+
+Note: We are treating the `S3_DATA_PUMP` Snowflake storage integration as the generic one which is responsible for establishing connection to S3 in the main AWS project where Snowplow instance is running. If we have a new bucket in different project, such as in a customer provided one, we would need to create a new Snowflake integration for that AWS project, [Snowflake docs](https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration).
+
+#### 4. Verification
+
+To verify everything is working correctly:
+
+1. In Snowflake, attempt to create an external stage using the new bucket
+1. Test reading from and writing to the bucket using Snowflake queries
+
+</details>
 
 ## <i class="fas fa-cogs fa-fw -text-orange"></i>Transformation
 

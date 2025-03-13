@@ -4,7 +4,7 @@ status: proposed
 creation-date: "2025-01-30"
 authors: [ "@a_akgun", "@fdegier" ]
 coach: "@igor.drozdov"
-approvers: [ "@tmccaslin", "@sean_carrol" ]
+approvers: [ "@sean_carroll" ]
 owning-stage: "~devops::modelops"
 participating-stages: []
 toc_hide: true
@@ -25,10 +25,9 @@ GitLab MLOps is an integrated platform that provides end-to-end machine learning
 Organizations face several key challenges when operationalizing ML:
 
 1. **Reproducibility**: Data scientists struggle to track experiments and recreate results
-2. **Collaboration**: Disconnect between data science, engineering and governance teams slows development
-3. **Deployment**: Manual, error-prone processes for moving models to production
-4. **Monitoring**: Lack of visibility into model performance and drift
-5. **Governance**: Difficulty maintaining oversight of model development, deployment and impact
+1. **Collaboration**: Disconnect between data science, engineering and governance teams slows development
+1. **Deployment**: Manual, error-prone processes for moving models to production
+1. **Governance**: Difficulty maintaining oversight of model development, deployment and impact
 
 These challenges often result in:
 
@@ -39,21 +38,20 @@ These challenges often result in:
 
 ### Goals
 
-- Provide end-to-end ML lifecycle management integrated with existing development workflows
-- Enable seamless collaboration between data scientists, engineering and governance teams
-- Enable integration with existing GitLab components such as CI/CD pipelines and issues, merge requests, tracing etc.
-- Integration with cloud providers; model registry and inference
-- Limited support for MLflow client for model experiments and registry
-- Increase storage limits for Model Registry for Premium and Ultimate
+- Provide end-to-end ML lifecycle management integrated with existing GitLab DevOps workflows
+- Provide a Model Registry - a place to store model versions, runs, metadata and artifacts
+- Enable deployment of model versions from the model registry using CI/CD pipelines
+- Enable importing models from Vertex and Huggingface to GitLab model registry
+- Limited compatability with MLflow client for model experiments and registry
 
 ### Non-Goals
 
 - Providing extensive computation resources for model training beyond GPU runners
 - Providing a model serving infrastructure
 - Implementing feature stores
-- Implementing data stores
-- Developing a full-fledged MLflow server
-- Achieving 100% MLflow API compatibility
+- Implementing data stores and becoming a dataops platform
+- Developing a full-fledged MLflow server by achieving 100% MLflow API compatibility
+- Model monitoring and tracing
 
 ## Proposal
 
@@ -67,39 +65,50 @@ GitLab will provide a comprehensive MLOps platform built on top of existing GitL
 graph TB
     subgraph DevPhase["Development Phase"]
         direction TB
-        A1[Experiment Tracking]
-        A2[Model Registry]
-        A3[GPU Runner Management]
-        A4[Code]
+        A1[Experiment Tracking]:::ongoing
+        A2[Model Registry]:::ongoing
+        A3[GPU Runner Management]:::ongoing
+        A4[Code repository]:::completed
     end
 
     subgraph CiCd["CI/CD Pipeline"]
-        B4[Deployment Pipeline]
+        B4[Deployment Pipeline]:::new
     end
 
-    subgraph Prod["Production Phase"]
-        C2[Model Monitoring]
-    end
 
     A1 --> A2
     DevPhase --> CiCd
     A3 --> A1
     A4 --> A1
-    CiCd --> Prod
-    Prod --> DevPhase
+    CiCd --> DevPhase
+
+    %% Define styles for different statuses
+    classDef completed fill:#a3cfbb,stroke:#178344,color:black
+    classDef new fill:#ffdebd,stroke:#ff8c00,color:black
+    classDef ongoing fill:#b8d0ff,stroke:#0066cc,color:black
+
+    %% Place the legend at the bottom with right alignment
+    subgraph Legend[" "]
+        direction LR
+        L3[Ongoing]:::ongoing
+        L2[New]:::new
+        L1[Completed]:::completed
+    end
+
+    %% Position the legend at the bottom right
+    style Legend fill:none,stroke:none
 ```
 
 #### Diagram Notes
 
-- **Code**: This is the Git repository either remote or locally.
+- **Code Repository**: This is the Git repository either remote or locally.
 - **Experiment tracking**: Code produces runs, artifacts, metrics etc. the metadata is stored centrally in Experiment Tracking
 - **Model Registry**: Uses Package Registry to store artifacts
 - **Deployment pipeline**: These are triggered either via Model Registry or via Git triggers.
-- **Model Monitoring**: Captures input and output metadata from inference and uses [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing.html) for storage. CI pipelines are used for analysis and output is stored in Model Registry
 
 ### Core Components
 
-#### 1. Experiment Tracking
+#### 1. Experiment Tracking  (existing feature)
 
 The experiment management system will track ML training runs and their parameters:
 
@@ -107,27 +116,30 @@ The experiment management system will track ML training runs and their parameter
 - [Metric logging and visualization](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/#view-logged-metrics)
 - [Storing artifacts](https://docs.gitlab.com/ee/user/project/ml/model_registry/#add-artifacts-to-a-model-version)
 - [Compatibility with MLflow client](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client.html)
+- Access control and security policies for model experiments based on existing roles, custom roles and model registry read and write permissions.  See [Roles and permissions for model registry and experiments](https://docs.gitlab.com/user/permissions/#machine-learning-model-registry-and-experiment)
+- Data stored as in the code repository for smaller data sets using git or larger sets using git LFS.
 
-#### 2. Model Registry
+#### 2. Model Registry (existing feature)
 
 Central repository for ML model management: [Model registry docs](https://docs.gitlab.com/ee/user/project/ml/model_registry/).
 
 - Model versioning and tagging (link to [docs](https://docs.gitlab.com/ee/user/project/ml/model_registry/#model-versions-and-semantic-versioning))
 - Model metadata and lineage tracking
-- Model approval workflows
-- Integration with CI/CD pipelines
-- Access control and security policies
+- Model approval workflows using GitLab labels for models and versions
+- Integration with CI/CD pipelines to allow training and deployment
+- Access control and security policies for model registry based on existing roles, custom roles and model registry read and write permissions.
 - Compatibility with MLflow client
-- Standardized model cards
+- Model cards with freeform markdown descriptions
 - Governance instruments
+- Users can store large data files in model registry too next to their model version artifacts for example.
+- Integration with GCP Vertex AI [model registry](https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops/-/tree/main/gitlab_mlops/provider/gcp?ref_type=heads)
 
-#### 3. Connection to GPU resources
+#### 3. Connection to GPU resources (existing feature)
 
 Link to [GPU runners docs](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled.html).
 
 - Maintain compatibility with GitLab runner
 - Ensure ease of use with GPU runners
-- Simple integrations with hyper-cloud vendors (GCP/AWS/etc)
 
 #### 4. Model Deployment
 
@@ -138,45 +150,28 @@ Automated model deployment pipeline:
 - Canary deployments
 - Rollback capabilities
 - Environment management
-- Integration with cloud providers
+- Integration with GCP Vertex AI for deployment
 
-#### 5. Model Monitoring
-
-Comprehensive model observability:
-
-- Performance monitoring
-- Data drift detection
-- Model quality metrics
-- Resource utilization tracking
-- Custom alert definitions
-- Retraining triggers
-- Tracing via OpenTelemetry and [GitLab Tracing](https://docs.gitlab.com/ee/development/tracing.html)
-
-#### 6. API Clients
+#### 5. API Clients
 
 - [Gitlab MLOps client for Python](https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops)
-- Limited MLflow client support
-- Command-line (cURL) support
+- [Limited MLflow client support](https://docs.gitlab.com/user/project/ml/experiment_tracking/mlflow_client/#supported-mlflow-client-methods-and-caveats): Logging of metrics, artifacts. Creation of models, versions and runs.
+- Command-line (cURL) support with the existing [API](https://docs.gitlab.com/development/documentation/restful_api_styleguide/#curl-examples)
 
 ### Integration Points
 
 1. **GitLab CI/CD Integration**
 
-    - Custom pipeline templates for ML workflows
+    - Provide training, evaluation and validation CI/CD templates for ML workflows using GitLab (GPU) runners.
     - Predefined variables for ML operations
     - ML-specific CI/CD stages
-    - Model monitoring compute
 
 2. **Issue Tracking Integration**
 
     - Model development issues
     - Approval workflows
 
-3. **GitLab Tracing**
-
-   - Input and output of inference will be send to Tracing so it can be used for Model Monitoring
-
-4. **GitLab Package registry**
+3. **GitLab Package registry**
 
    - Used for storage of model artifacts
 
@@ -187,12 +182,6 @@ MLOps will support self-managed installation, including support for air-gapped e
 ### Development Guidelines
 
 No additional need beyond GDK. You might need MLflow client and [GitLab MLOps Python Client](https://pypi.org/project/gitlab-mlops/)
-
-### Documentation
-
-Comprehensive user, API and operations documentation will be provided:
-
-- Troubleshooting guides
 
 ## Out of scope
 

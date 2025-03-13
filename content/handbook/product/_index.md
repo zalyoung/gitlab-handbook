@@ -92,7 +92,7 @@ Learn about [our Product Leadership Team](/handbook/product/product-leaders/prod
 
 ### Communicating with the Product Division
 
-Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/ee/user/todos.html) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/product-management/how-to-engage/).
+Below are team emails and handles that can be used for different departments and sub-departments in the Product Division. These groups are used for internal communication and the `@mention` can only be used by project members. Please remember that tagging `@mention` on issues will generate in-product [to-do items](https://docs.gitlab.com/user/todos/) and email notifications to **all** team members in that project, so use it only when you need to communicate with the entire team. For communication specifically for product managers, please leverage [How to Engage](/handbook/product/product-management/how-to-engage/).
 
 - `@gl-product-leadership` tags all group managers, directors and VPs in the Product Division
 - `@gl-product-plt` tags all direct reports to the VP Product in the Product Division
@@ -111,4 +111,4 @@ When you are tagging `@mention`:
 - Clearly state why you are tagging the entire product team and what action you need product team members to take.
 - Write a short summary in the same comment so team members can quickly understand the necessary context.
 - Review the issue title and description to ensure it has relevant details other product team members need **BEFORE** submitting the comment. The issue title will be the subject of email notifications and in-product to-do items.
-- If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.
+- If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.

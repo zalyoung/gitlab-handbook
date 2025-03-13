@@ -19,7 +19,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Commercial Sales](/handbook/sales/commercial/)  |[Sales Enablement Sessions](/handbook/sales/training/sales-enablement-sessions/) | [Engage & Educate the Customer](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/) |[Sales Kickoff](/handbook/sales/training/sko/) |
 | [Enterprise Sales](/handbook/sales/playbook/) |  [Command of the Message](/handbook/sales/command-of-the-message/)  |  [Facilitate The Opportunity](/handbook/sales/sales-operating-procedures/facilitate-the-opportunity/)  | [Sales Meetings](/handbook/sales/sales-meetings/) |
 | [Inside Sales](/handbook/sales/insidesales/) | [Most Commonly Used Sales Resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | [Deal Closure](/handbook/sales/sales-operating-procedures/deal-closure/) |  |
-| [Channels](/handbook/sales/channel/#channels-handbook)  | [Field Certification Program](/handbook/sales/training/field-certification/) | [Retain and Expand](/handbook/sales/sales-operating-procedures/retain-and-expand/) |  |
+| [Channels](/handbook/resellers/)  | [Field Certification Program](/handbook/sales/training/field-certification/) | [Retain and Expand](/handbook/sales/sales-operating-procedures/retain-and-expand/) |  |
 | [Sales Territories](/handbook/sales/territories/)| [Sales Manager Best Practices](/handbook/sales/field-operations/field-enablement/sales-manager-best-practices/) | [Forecasting](/handbook/sales/forecasting/) |  |
 | [Sales Term Glossary](/handbook/sales/sales-term-glossary/) | [Field Flash Newsletter](/handbook/sales/field-communications/field-flash-newsletter/) | [Investor Sales Support](/handbook/sales/assistance-from-investors) |  |
 | [ACV Deep Dive](/handbook/sales/sales-term-glossary/arr-in-practice)  | [Field Team Recognition Programs](/handbook/sales/field-operations/field-enablement/field-team-recognition) | Customer Planning |  |
@@ -133,7 +133,7 @@ The Inside Sales department is part of the GitLab Sales function and partners wi
 
 #### Channels & Alliances
 
-These teams help accelerate GitLab's trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
+These teams help accelerate GitLab's trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/resellers/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
 
 #### Sales Development Organization
 
@@ -192,7 +192,7 @@ To standardize our messaging around Coronavirus and the impact it is having on o
 
 ### Export Control Classification, and Countries We Do Not Do Business In
 
-GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of this classification, we currently do not do business in: Iran, Sudan, Syria, North Korea, Cuba and the Crimea, Donetsk, or Luhansk regions of the Ukraine.
+GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of this classification, we currently do not do business in: Cuba, Iran, North Korea, Syria, Russia, Belarus, and the Crimea, Donetsk, and Luhansk regions of Ukraine.
 
 ## Performance Indicators
 

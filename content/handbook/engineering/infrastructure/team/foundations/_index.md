@@ -13,6 +13,8 @@ The Foundations team's North Star consists of two pieces:
 1. **Excellence in networking infrastructure.** We will drive GitLab's networking capabilities for GitLab forward by building scalable, secure, and efficient solutions. This includes evolving our edge services, load balancing, rate limiting, and network security to meet the growing demands of all GitLab platforms. Through centralized networking tooling and infrastructure, we create a foundation that supports GitLab's continued growth and innovation.
 1. **Sustainable toil and service maintenance.** While toil is inherent in SRE work, we will adopt processes and policies that create an effective balance between automation and manual work. This approach ensures we can maintain our core infrastructure services reliably while keeping operational overhead minimal as GitLab grows. We strive for efficiency in both our day-to-day operations and our maintenance of essential platform services.
 
+See [our team impact overview](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26128) for an overview of all we accomplished in 2024.
+
 ## Responsibilities
 
 ### Primary Areas of Ownership
@@ -38,7 +40,8 @@ While these services are essential to GitLab's infrastructure, we focus on maint
 
 - [SaaS K8s workloads](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md). GitLab-com is owned by Delivery, Tanka and Helmfiles are often shared by other teams.
 - Secrets Management ([Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault))
-- [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
+- [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md).
+- [Teleport](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/teleport) - Foundations manages KTLO work such as upgrades, but all other ownership is managed by [CorpSec](../../../../security/corporate/systems/teleport/_index.md).
 
 ## Getting Assistance
 
@@ -100,9 +103,8 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 ## Common Links
 
 - [Foundations Top Level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1175)
-- [Foundations team meeting agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
-- [Foundations OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=team%3A%3AFoundations&first_page_size=20)
-- GitLab Issues capture smaller, concrete pieces of work, and those labeled `~workflow-infra::In Progress` should be updated weekly or whenever a portion of work has been completed.
+- [Foundations team meeting agenda](https://docs.google.com/document/d/14Fg7BMHTHAnUxKbOR2vRYIAsv0k4YDUh-YRd3vuhXd8/edit?usp=sharing)
+- [Foundations Roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1502)
 - [#g_foundations](https://gitlab.slack.com/archives/C0313V3L5T6) - work related discussions, external requests, etc
 - [#g_foundations_social](https://gitlab.slack.com/archives/C04QVEXBVL3) - socializing and standups
 - [#g_foundations_notifications](https://gitlab.slack.com/archives/C04RZC5TPPD) - automated MR notifications
@@ -113,7 +115,7 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 ### Team Sync meetings
 
 - We have weekly synchronous meetings in two different time zones to encourage discussion, give status updates, triage incoming requests, and connect as a team.
-  - [Agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
+  - [Agenda](https://docs.google.com/document/d/14Fg7BMHTHAnUxKbOR2vRYIAsv0k4YDUh-YRd3vuhXd8/edit?usp=sharing)
   - [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqWfqy6IhKlVDUbk-f9NnmR).
 
 #### Calendar

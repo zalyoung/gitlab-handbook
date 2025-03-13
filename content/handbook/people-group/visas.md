@@ -33,6 +33,7 @@ GitLab's acceptance of a visa depends on many factors. The following visas may m
 - Netherlands EU Blue Card
 - South Korea F5 Permanent Resident Visa
 - Singapore Personalised Employment Pass
+- Transfer of current Singapore Employment Pass and/or Dependent Pass
 - Spain EU Blue Card
 - UK Global Talent Visa
 - UK India Young Professionals Scheme Visa
@@ -52,7 +53,7 @@ The following list is not exhaustive.
 - Japan Highly Skilled Professional Visa
 - South Korea H1 Working Holiday Visa
 - South Korea D7 Dispatch Visa
-- Singapore Employment Pass / S Pass / ONE Pass
+- Singapore S Pass / ONE Pass
 - UK Skilled Worker Visa
 - US H-1B
 - US H-1B1
@@ -293,6 +294,14 @@ Long-term visa that does not require employer sponsorship. Typically valid indef
 #### Singapore Personalised Employment Pass
 
 This is a visa for high earners that does not require sponsorship. Valid for 3 years and cannot be renewed. When hiring candidates who hold a PEP, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their PEP expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their PEP expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### Singapore Employment Pass
+
+This is an employer-sponsored temporary employment visa. GitLab can support the transfer of this visa from another employer to GitLab Singapore PTE Ltd. To be eligible for the Singapore Employment pass, The candidate must be (1) currently based in Singapore; (2) applying for a quota-carrying role; and (3) meet the relevant requirements under the Ministry of Manpower (MOM). 
+
+This visa is initially granted for up to 2 years and subsequent renewals are valid for up to 3 years. Renewal assessments are based on three factors: individual & company performance, business need at time of renewal, and compliance with MOM obligations. The visa holder may be able to apply for Permanent Residency and would be responsible for their own application and all fees associated with Permanent Residency. 
+
+Once the selected candidate has accepted the employment offer, we will initiate the Employment Pass (EP) visa application process. The candidate will supply their personal details and specified information to the immigration partner in order to complete the visa application. Each EP visa application is assessed by our immigration partners to ensure it meets the minimum requirements per MOM standards. Once the application is submitted, it will be under review with the visa authorities for a minimum of 10 business days before adjudication. Costs for obtaining the Employment Pass visa are absorbed by the department hiring the candidate.
 
 #### UK Global Talent Visa
 

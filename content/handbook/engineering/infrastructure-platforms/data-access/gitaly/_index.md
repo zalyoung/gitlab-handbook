@@ -44,9 +44,13 @@ The following members of other functional teams are our stable counterparts:
 
 ### Urgent issues and outages
 
-If you're not part of the Support organization, please consider seeking help from them first -- Support has better availability and can help in most common cases.
+If you're not part of the Support organization, please consider seeking help
+from them first -- Support has better availability and can help in most common
+cases.
 
-If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
+If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with,
+and `@gitaly-oncall` to notify the Gitaly team member who is on
+call.
 
 #### On Call Rotation
 
@@ -72,15 +76,17 @@ The rotation is staffed during working hours of team members (no weekends). This
 - Given that responsibilities are only during working hours, there's no additional compensation unless explicitly specified otherwise.
 - You can choose to take time in lieu via Workday, selecting `the On-Call Time in Lieu` option after a shift.
 
-##### Expectations for On-call
+##### Expectations during on-call shift
 
-- Provide technical assistance for ONLY the cases described [above](#on-call-rotation)
 - 15 minutes response time to a PagerDuty page while
   on-call. This does not apply to pings to the `@gitaly-oncall` Slack handle,
   which should be used to inform the Gitaly on-call of relevant happenings, but
   should not be used for emergencies.
   - The on-call is expected to be _available and reachable_ (but not necessarily actively working, as long as you can start the investigation within this SLO.)
   - If paged less than 15 minutes before the end of a shift, you still must respond and explicitly hand off the incident.
+- Serve as point of contact for questions in the `#g_gitaly` channel as well as new [Request For Help issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGitaly&first_page_size=100).
+  - Acknowledge inquiries in the `#g_gitaly` channel on a best-effort basis.
+  - Triage new Request for Help issues: establish urgency and work with EM/PM to assign a milestone.
 - Ongoing production incidents and customer escalations are explicitly handed off by the outgoing on-call to the next Gitaly on-call using the incident channel on Slack.
 - Team members are responsible for finding coverage for PTO and Holidays.
 

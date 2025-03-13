@@ -28,7 +28,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
 - [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
+- [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
 - [Papaya Global (Italy)](/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global/)
 - [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
 
@@ -61,7 +61,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
       - In macOS, use the native Preview app.
       - In Linux, use the Xournal app's pen tool to draw the signature.
       - Use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); Please beware that there are always security concerns with tools that require uploading personal data. So, you may want to do this as a last resort only.
-    - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
+    - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?usp=sharing) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## HealthKick Well-being Platform & Discounts
@@ -105,6 +105,8 @@ GitLab recognizes the challenges that balancing caregiving responsibilities at h
 
 GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits.
 
+If you missed the live webinar session, please find the recording [here](https://drive.google.com/file/d/1g7SugxmyV4kggCuVomtdfjRFZyliiCCO/view). Please see the [slide deck](https://www.google.com/url?q=https://drive.google.com/file/d/1KFpjdUWxFziXFOFwxCgmnc8TIUmk5Ijk/view?usp%3Dsharing&sa=D&source=calendar&ust=1737910504735459&usg=AOvVaw2Crosn8YD6vHjB4_Vb31Wg) from the presentation.
+
 ### Benefit Options & Taxability
 
 - **Care Cash:** Use your preferred backup care provider and get reimbursed up to 100 USD per day for the cost.
@@ -141,7 +143,7 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
 
 ## Business Travel Accident Policy
 
-[This policy](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPVl9rYW4tXzIyeUlMR0hidWIzNk1sZjJyLUhB/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
+[This policy](https://drive.google.com/file/d/1XRxpv2kGOQ4Ap03tW6sfk36CZoDVFkTQ/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
 
 - Coverage:
   - Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
@@ -153,9 +155,15 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
   - Baggage & Personal Effects Benefit: $500 lost bag coverage up to 5 bags.
 - For any assistance with claims, please reference the [claims guide (internal only)](https://drive.google.com/file/d/1vmLjhebsf81N8oSxqlCihYg5q1WT8Efw/view?usp=sharing).
 - This policy will not work in conjunction with another personal accident policy as the Business Travel Accident Policy will be viewed as primary and will pay first.
-- For more detailed information on this benefit, please reference the [policy document](https://drive.google.com/file/d/1ktx_mhlEYyQoLrQJ7DhIcibQhrlnB-lb/view?usp=sharing).
-- If you need a confirmation of coverage letter, please reference the [visa letter generation document (internal only)](https://drive.google.com/file/d/1oesZnp-fVWWCakVejB7nTV39lntMFnSd/view?usp=sharing).
-- For any additional questions, please contact the Total Rewards Analyst.
+
+- If you need a confirmation of coverage letter, please reference the [visa letter generation document (internal only)](https://drive.google.com/file/d/1fFdzQ5BpHYabi7tjTHeTmKnJWavM0Zm2/view?usp=sharing).
+- For any additional questions, please contact the Total Rewards
+
+### AIG travel Assistance app
+
+Under this policy, team members also have access to the [AIG travel Assistance App](https://drive.google.com/file/d/1npuraFOKjlHWNYD6xBnH8YYQKKJloapv/view?usp=sharing), we encourage you download prior to your travels, as it is a resource to connect you to emergency travel assistance. 
+
+See the [AIG assistance website and app user guide](https://drive.google.com/file/d/1XPvawtYXEIAk8UBx83ZyWFGUM2Rlp_9G/view?usp=sharing) for more details
 
 ## Immigration
 
@@ -302,7 +310,7 @@ On the day you return from leave, the utilization payout returns to the establis
 
 ### Commission Payments on Non-Parental Leave
 
-Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
+Effective Q1 FY26, team members on approved non-parental leave for 25 business days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
 
 For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave.
 

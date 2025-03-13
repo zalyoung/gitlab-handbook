@@ -224,7 +224,7 @@ There are two options for editing or updating content which is in Production:
 
 ### Tableau Style Guide
 
-For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) handbook page.
+For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/) handbook page.
 
 ### Tableau Publishing Service Level Objectives (SLOs)
 
@@ -284,7 +284,7 @@ Each section below corresponds to a limited access user group and the designated
 
 - **Customer Success Access:** Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
 
-- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and Evan Ludaway @Evan Ludaway or Niles Jamshaid @Niles
+- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and/or Niles Jamshaid @Niles
 
 - **Internal Audit Restricted Access:** Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
 

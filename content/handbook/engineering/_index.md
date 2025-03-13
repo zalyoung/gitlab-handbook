@@ -43,8 +43,12 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 - Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
-- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites.
+- Constructing Proof-of-Concept models for thorough exploration of new technologies, enhancements and new possibilites.
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
+
+### Engineering Innovation
+
+Engineering Innovation is a new process geared toward individual or small-team collaboration that encourages engineers to explore new ideas and Proof-of-Concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable experimental feature or product.  See the [Innovation at GitLab Guide](./engineering-innovation.md).
 
 ### Technical Roadmaps
 

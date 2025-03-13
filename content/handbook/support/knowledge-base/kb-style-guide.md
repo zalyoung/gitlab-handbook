@@ -3,32 +3,41 @@ title: Knowledge Base Style Guide
 description: Guidelines for writing Support knowledge base articles
 ---
 
-This document outlines the standards for GitLab Support's Knowledge Base documentation. These articles help address a specific customer issue in the moment and allow them to self-solve or receive quicker solutions when Support is required.
+This document outlines the standards for GitLab Support's Knowledge Base documentation. These articles help address a specific customer issue in the moment and allow them to self-solve or receive quicker solutions when Support is required. The style guide helps ensure that we provide information in a consistent format and voice for our customers.
 
 ## The Knowledge Base voice
 
-The voice in KB articles should be concise, direct and precise. Since many users will use these articles during a stressful situation, it is important that we make the information as clear and simple as possible.
+The voice in KB articles should be concise, direct, and precise. Since many users will use these articles during a stressful situation, it is important that we make the information as clear and simple as possible.
 
 ## Formatting
 
-Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide) and use the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html). The important thing is that we have clear information for the customer following a standard template that, over time, users will be accustomed to navigating.
+Follow the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/) and use the [recommended word list](https://docs.gitlab.com/development/documentation/styleguide/word_list/) unless otherwise specified. The important thing is that we deliver clear information following a standard template that customers know they can trust.
+
+Pay special attention to things like:
+
+- [Writing for localization](https://docs.gitlab.com/development/documentation/styleguide/#writing-for-localization)
+- [Capitalization](https://docs.gitlab.com/development/documentation/styleguide/#capitalization), especially for feature and product names
+- [Unordered and ordered lists](https://docs.gitlab.com/development/documentation/styleguide/#choose-between-an-ordered-or-unordered-list), and when to use each type
+- [Acronyms](https://docs.gitlab.com/development/documentation/styleguide/#acronyms)
 
 ### File naming
 
-File name should be similar to the title of the article. Follow the conventions in the [structure guide](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html#work-with-directories-and-files). Specifically:
+File name should be as similar to the title of the article as possible. Follow the conventions in the [structure guide](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/#work-with-directories-and-files). Specifically:
 
-- Do not use special characters and spaces, or capital letters in file names, directory names, branch names, and anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
+- Do not use special characters, spaces, or capital letters in file names, directory names, branch names, or anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
 - When creating or renaming a file or directory and it has more than one word in its name, use underscores (_) instead of spaces or dashes.
 
 ### Title
 
-This is the title once added to Zendesk. This heading must be changed to properly integrate with the deployment.
+The H1 header becomes the document title in Zendesk. For example:
 
-The title should clearly summarize the customer / reader issue.
+```text
+# This is the page title
+```
 
-Only capitalize the first word and proper nouns.
+When creating a new KB article from a template, the title must be changed to properly publish the article in Zendesk.
 
-Include error snippets if relevant.
+A good title briefly describes the content of the article while remaining concise. Only capitalize the first word and proper nouns, and refer to [capitalization](https://docs.gitlab.com/development/documentation/styleguide/#capitalization) in the Documentation Style Guide when in doubt. You can include error snippets if relevant, but keep title length in mind.
 
 In general you should cover:
 
@@ -44,75 +53,102 @@ Examples:
 
 ### Description
 
-This section describes the symptoms, task or situation that would need a solution. At the moment, we believe the first 140 characters will be indexed for SEO.
+This section describes the symptoms, task, or situation that would need a solution. At the moment, we believe the first 140 characters will be indexed for search engine optimization (SEO).
 
 - Write for the issue encountered, not theoretical situations. Add unconfirmed situations as an additional note if necessary.
 - Entries should be listed in order of significance from top to bottom.
 - Include as much relevant context as possible. Every small symptom is an extra data point to help the customer self-diagnose.
-- Include the exact error / message a user would encounter.
+- Include the exact error or message a user would encounter as text in the description to aid with searchability. Avoid images of error messages.
 - Error messages should be put in block quotes.
-- Use bullet points for multiple items.
+- Use an unordered list for multiple items.
 
 ### Environment
 
-The environment quickly highlights what custom configs, installation types, or versions are relevant to the KB.
+The environment quickly highlights what custom configurations, installation types, or versions are relevant to the KB. Be as specific as possible.
 
-- Use bullet points when possible
+- Use an unordered list when possible
 - Impacted offerings - aligns with the Offering section of Docs pages
-- Impacted versions - highlights affected versions. Use [earlier](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#earlier) and [later](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#later) when talking about version numbers. This can be excluded if all known / supported versions are affected; be as specific as possible:
-  - 16.1 to 16.3
-  - 16.5 and earlier
-  - 17.1 and later
-  - 17.x
+- Impacted versions - highlights affected versions.
+  - If the document affects all versions of the product, use your best judgement to either omit the versions section, or state that all versions are affected.
+  - Use [earlier](https://docs.gitlab.com/development/documentation/styleguide/word_list/#earlier) and [later](https://docs.gitlab.com/development/documentation/styleguide/word_list/#later) when talking about version numbers.
+  - Note the product with the version, like `GitLab 17.4.4` or `GitLab Runner 14.3.1`.
+  - Always indicate which patch versions are affected, for clarity. This differs from the Documentation Style Guide.
+    - If all patch versions of a minor version are affected, say `All GitLab 17.4.x versions`.
+    - If a fix was backported, say `GitLab 17.4.0 to 17.4.6, fixed in 17.4.7`. You can repeat this if multiple minor versions are affected.
 
-### Solution and/or Workaround
+Some examples:
+
+```markdown
+- **Impacted offerings:**
+  - GitLab Dedicated
+  - GitLab Self-Managed
+- **Impacted versions:**
+  - GitLab 16.3.0 to 16.3.7, fixed in GitLab 16.3.8
+  - GitLab 16.4.3 to 16.4.5, fixed in GitLab 16.4.8
+```
+
+```markdown
+- **Impacted offerings:**
+  - GitLab Self-Managed
+- **Impacted versions:**
+  - GitLab 17.0.4 and later
+- GitLab Geo is configured
+- LDAP is configured
+```
+
+```markdown
+- **Impacted offerings:**
+  - GitLab.com
+- Project is configured with SAST scanning
+```
+
+### Solutions and workarounds
 
 The solution section clearly lists the steps a user must follow to resolve the issue. You can preface the steps with a high-level summary. If there is a solution and a workaround, add the workaround as a level 3 (###) sub-heading.
 
 1. Change the title of this section to best fit its content: Solution or Workaround
-1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible:
+1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible. For example:
 
-   1. Connect to database: `sudo gitlab-psql connect`
-   1. Run:
+    ```text
+    1. On a rails or database node, connect to the database with `sudo gitlab-psql connect`
+    1. Run:
+    
+        ```pgsql
+        --- comment: explain what complicated command does if not obvious
+        <complicated command>
+        ```
+    ```
 
-```pgsql
---- comment: explain what complicated command does if not obvious
-<complicated command>
-```
-
-- For different environments, list commands as sub-bullets
+- For different environments, list commands as sub-items:
   - Linux: `<command>`
   - macOS: `<command>`
-- Use ordered lists for tasks that must be completed sequentially. Use "1" for all items to allow for steps to be added or removed in the future.
-- Use bullet points for unordered steps.
+- Use ordered lists for tasks that must be completed sequentially. Use `1.` for all items to allow for steps to be added or removed in the future.
+- Use unordered lists for unordered steps.
 - Link to pre-existing documentation when possible.
 
 ### Cause
 
-This section describes _what_ caused the issue to happen and _why_ it was introduced, if known.
+This section describes **what** caused the issue to happen and **why** it was introduced, if known.
 
-The Cause does not immediately diagnose or solve the issue, which is why it is a separate section and listed after the Description and Solution.
+The cause does not immediately diagnose or solve the issue, which is why it is a separate section and listed after the description and solution.
 
-It is better to say we don't know the cause if it is under investigation.
+If the cause is still under investigation, state that the cause is unknown.
 
-Link to docs, blog posts, issues and other relevant materials inline as necessary.
+Link to docs, blog posts, issues, and other supporting materials inline as necessary.
 
-### Additional Information
+### Additional information
 
-Optional
+Providing additional information is optional, but can be useful for sharing related topics that are not addressed in other sections. While most sections should be concise and clear, we can dive deeper into information or steps such as:
 
-Provides context to any of the above sections. While information should be concise and clear, we can dive deeper into information or steps such as:
-
-- Specific locations of logs / errors mentioned in the description
+- Specific locations of logs, errors, or other data mentioned in the description
 - Alternative commands to find information in the solution
 - Related feature requests worth upvoting
 
-### Related Links
+### Related links
 
-Optional
+Optional. Add links to relevant feature requests, bug issues, or other info as necessary. Follow the format used for [related topics](https://docs.gitlab.com/development/documentation/topic_types/index/related-topics).
 
-Add links to relevant feature requests, bug issues, etc. as necessary.
-Follow the format used for [Related topics](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html#related-topics)
+Even when links have been included inline in other sections, it's useful to consolidate the links in one section as well, for quick reference.
 
 ## Integrate pre-existing documentation when possible
 

@@ -81,8 +81,8 @@ A description on what to input into each Offer field in Greenhouse can be found 
 - **Signing Currency & Amount:** This is a one-time payment in the same currency as their salary.
 - **Bonus/Variable Percent:** This is a bonus field that specifies what percent of the total salary is bonus. This field will not be used in contracts and is only used for Workday.
 - **References Checked:** This verifies for record whether you have already completed references, or if you've told the candidate that the offer is contingent on positive references as they're still in progress.
-- **Family Relationship:** Use this field to let CES know if there's a family relationship that will require a [Family Member Acknowledgement form](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-send-a-family-member-relationship-acknowledgment).
-- **Signatory Name & Signatory Title:** See [this chart](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) for a list of signatories per country.
+- **Family Relationship:** Use this field to let CES know if there's a family relationship that will require a [Family Member Acknowledgement form](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-send-a-family-member-relationship-acknowledgment).
+- **Signatory Name & Signatory Title:** See [this chart](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) for a list of signatories per country.
 - **Clearances:** If you will be sending a Federal contract, please use these fields to designate if clearances are required in order to complete the job, and what bonus would be given if that is the case.
 - **End Date:** Use for Inc (USA) contractors and interns only.
 - **Entity:** [This](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) is a great place to see which entities are currently associated with different countries. If your candidate has a position that includes "Federal" or PubSec" in the title, or you believe they'll be working in government contracts, please discuss with your Hiring Manager if they belong in the Federal entity. If you're not sure, discuss with Legal before CES sends a contract. If the candidate is internal and is moving from a different entity to Federal, or from Federal to a different entity, please send a note to CES that the candidate requires a full contract rather than an LOA.
@@ -113,10 +113,10 @@ Talent Acqusition partners with hiring managers in order to advise on best pract
 **Additional Process for Engineering**
 Recruiters advise and partner with hiring manager to construct compensation package for candidates. Once details are confirmed, there are a few additional steps specifically for Engineering offers starting in FY25 Q3 as follows:
 
-1. For any offers above 0.85 compa ratio, recruiter and hiring manager will partner with TA Director and Engineering VP to confirm candidate position in range. To provide the VP with a snapshot of the proposed base and equity and how this compares to the average internal salary, the recruiter will be required to complete the [0.85+ VP Approval Template](https://docs.google.com/document/d/1VuunhZFT40d86iOPzsq9PtbobBTelCiKgZyJDepyf-M/edit) and share with the TA Director. Please make sure you add the relevant Finance Business Partner and PBP to the document for visibility. Once approved, recruiter to move through next steps - offer approval process.
+1. For any offer with a compa-ratio above 0.80, flag this to the TA Manager or Director. The TA Manager/Director will then seek VP approval via Slack for all such cases. If an offer exceeds 0.85 compa-ratio, you must first complete the [Exception Form](https://docs.google.com/document/d/1VuunhZFT40d86iOPzsq9PtbobBTelCiKgZyJDepyf-M/edit) and submit it to the TA Manager/Director, who will then obtain approval from the corresponding VP and CTO. Once approved, recruiter to move through next steps - offer approval process.
     - When creating the offer in Greenhouse, add a link to the 0.85+ VP Approval Template in the `Comp Calc Link & Additional Context` section
-1. Recruiter to add compa-ratio information in [Pod Squad](https://docs.google.com/spreadsheets/d/1zGKpr_JUYpW_PrDKF8FVsJtvlCGpCBaFHmUuU48zVRw/edit#gid=2102749819)
-1. For any offers at or below 0.85 compa ratio, recruiter to move through next steps - offer approval process.
+1. Recruiter to add compa-ratio information in [Pod Squad](https://docs.google.com/spreadsheets/d/1zGKpr_JUYpW_PrDKF8FVsJtvlCGpCBaFHmUuU48zVRw/edit#gid=2102749819) and the offer form
+1. For any offers at or below 0.80 compa-ratio, recruiter to move through next steps - offer approval process.
 
 ### Offer Approval Process
 

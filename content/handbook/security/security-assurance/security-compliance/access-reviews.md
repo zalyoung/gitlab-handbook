@@ -44,23 +44,23 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 | IT Operations | * Execution of access removal(s)|
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-## What is Authomize and why do I have an Okta tile for it?
+## What is Lumos and why do I have an Okta tile for it?
 
-[Authomize](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Authomize upon onboarding. To access Authomize, team members can select the Authomize tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
+[Lumos](../../corporate/systems/lumos/access_reviews/_index.md) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Lumos upon onboarding. To access Lumos, team members can select the Lumos tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
 
 ## Access Review Procedure
 
 **Terminated Users**
 
-- The current access listings of systems is correlated against a list of active team members derived from Workday (GitLab's source of truth for employment status) using GitLab's User Access Review tool [Authomize](/handbook/security/security-assurance/). If any users are found to have active system access that are not current GitLab team members, open access removal issues to start the access de-provisioning process.
+- The current access listings of systems is correlated against a list of active team members derived from Workday (GitLab's source of truth for employment status) using GitLab's User Access Review tool [Lumos](/handbook/security/security-assurance/). If any users are found to have active system access that are not current GitLab team members, open access removal issues to start the access de-provisioning process.
 
 **Entitlement/Privilaged Access**
 
-- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Authomize. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via authomize see the [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md).
+- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Lumos. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via Lumos see the [Lumos review handbook page here](../../corporate/systems/lumos/access_reviews/_index.md).
 
 ### Access Review runbook
 
-The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md) provides the outline to complete these access reviews, including how to confirm [least privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
+The [Lumos review handbook page here](../../corporate/systems/lumos/access_reviews/_index.md) provides the outline to complete these access reviews, including how to confirm [least privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
 
 In the event access is identified to no longer be required, open an [Access Removal](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) issue for each account that no longer requires access and relate it to the system access review issue.
 
@@ -119,13 +119,13 @@ For any accounts that are requested for modification or removal, validation they
 
 ### Access Review Notification Reminders
 
-Security Compliance managed access reviews required for audit evidence have a deadline of 10 business days from the launch of the review in Authomize.  Automated reminders will be used based on number of days out from the due date:
+Security Compliance managed access reviews required for audit evidence have a deadline of 10 business days from the launch of the review in Lumos.  Automated reminders will be used based on number of days out from the due date:
 
 |  Days until Due Date | Notification | Who is Notified |
 | :---: | :---: | :---: |
-|  5 | Authomize "nudge" | Reviewer |
+|  5 | Lumos "nudge" | Reviewer |
 |  3 | Slack ping | Reviewer |
-|  2 | Authomize "nudge" & <br/>Slack ping the Reviewer | Reviewer, Reviewer's Manager, and Security Compliance Manager |
+|  2 | Lumos "nudge" & <br/>Slack ping the Reviewer | Reviewer, Reviewer's Manager, and Security Compliance Manager |
 |  0 | Escalated to CISO | CISO |
 
 {-If an access review is not completed within 10 days, identified access will be removed.-}

@@ -1,6 +1,6 @@
 ---
-title: "ESG | Sustainability"
-description: "Information and processes related to ESG | Sustainability"
+title: "Environment, Social,and Governance (ESG)"
+description: "Information and processes related to ESG"
 ---
 
 ## Quick links

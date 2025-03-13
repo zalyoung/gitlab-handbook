@@ -70,7 +70,7 @@ classDiagram
 
 ### The Data Platform & Architecture Team
 
-The **[Data Platform Team & Architecture Team](/handbook/enterprise-data/organization/engineering/)** is part of the Enterprise Data Team and focuses on building and maintaing secure, efficent, and reliable data systems [data infrastructure](/handbook/enterprise-data/platform/). The Data Platform & Architecture Team is both a development team and an operations/site reliability team. The team supports all Data Pods with **available, reliable, and scalable** data compute, processing, and storage. Platform components include the Data Warehouse, New Data Sources, Data Pumps, Data Security, and related new data technology. The Data Platform team also drives the [Data Management processes](/handbook/enterprise-data/data-management/). The Data Platform Team is composed of [Data Engineers](/job-families/finance/data-engineer/).
+The **[Data Platform Team & Architecture Team](/handbook/enterprise-data/organization/engineering/)** is part of the Enterprise Data Team and focuses on building and maintaing secure, efficent, and reliable data systems [data infrastructure](/handbook/enterprise-data/platform/). The Data Platform & Architecture Team is both a development team and an operations/site reliability team. The team supports all Data Pods with **available, reliable, and scalable** data compute, processing, and storage. Platform components include the Data Warehouse, New Data Sources, Data Pumps, Data Security, and related new data technology. The Data Platform team also drives the [Data Management processes](/handbook/enterprise-data/data-management/). The Data Platform Team is composed of [Data Engineers](/job-families/marketing/enterprise-data/data-engineer/).
 
 ### Analytics Engineering Team
 
@@ -202,7 +202,7 @@ You can tag the Data Team in GitLab using:
 | [Data Onboarding](/handbook/enterprise-data/programs/#data-onboarding) | | |
 | [Learning Library](/handbook/enterprise-data/learning-library/) | | |
 | [Tableau Guide](/handbook/enterprise-data/platform/tableau/) | | |
-| [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) | | |
+| [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/) | | |
 
 ## Data Team Handbook Structure
 
@@ -237,5 +237,5 @@ You can tag the Data Team in GitLab using:
   * [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
   * [Snowplow](/handbook/enterprise-data/platform/snowplow/)
   * [Tableau](/handbook/enterprise-data/platform/tableau/)
-  * [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/)
+  * [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)
   * [Trusted Data Framework](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework)

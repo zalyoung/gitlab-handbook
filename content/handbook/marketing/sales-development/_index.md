@@ -129,7 +129,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
 | [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
-| [Global SDR Ops Dashboard](https://gitlab.my.salesforce.com/01ZPL000001KPuX) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
+| [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
 
 ## The pages we frequently use
 
@@ -168,7 +168,7 @@ To find and access your leads, please:
 1. Navigate to SFDC's homepage
 1. Click on the `Leads` tab.
 
-You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
+You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/#inbound-lead-management).
 
 #### SDR Lead Views
 
@@ -183,13 +183,13 @@ You will find the lead views below. These views are split per use-case for your 
 
 | View                           | Description|
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FY25 B1 - My Leads, Action Needed       | Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and MQL's PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. High Priority leads belong to a High Priority campaign - you can find which one at the bottom of the page in the campaigns section.                                                                   |
-| FY25 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which one to add to Groove Flow. We do not surface leads that were added to Flows in the last 14 days.                                                                                                                        |
-| FY25 B3 - Change Owner AWA's (Clone)   | These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date. |
-| FY25 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Groove to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Groove and create additional call tasks for your leads currently in high touch flows.                                                                                                                             |
-| FY25 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
-| FY25 B6 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
-| FY25 B7 - UG leads   | This view will surface leads that were automatically created by UserGems. |
+| FY26 B1 - My Leads, Action Needed       | Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and MQL's PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. High Priority leads belong to a High Priority campaign - you can find which one at the bottom of the page in the campaigns section.                                                                   |
+| FY26 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which one to add to Groove Flow. We do not surface leads that were added to Flows in the last 14 days.                                                                                                                        |
+| FY26 B3 - Change Owner AWA's (Clone)   |  This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner currently working them.   |
+| FY26 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Groove to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Groove and create additional call tasks for your leads currently in high touch flows.                                                                                                                             |
+| FY26 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                        |
+| FY26 B6 - 6QA Imported Leads  | leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.|
+| FY26 B7 - AWS Prospecting Last 7 Days  | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                           |
 
 #### Contact Views
 
@@ -642,6 +642,18 @@ To submit a trial extension ticket for a prospect you will navigate [to this int
 
 You are also able to downgrade a Trial from Ultimate to Premium through the internal request form. You just have to choose "Change existing GitLab.com Trial plan"
 
+#### Opportunity Naming Convention 
+
+- New Business: [Quantity]
+  - [Name of Company]- [Quantity] [Edition]
+  - Example: Acme, Inc- 50 Premium
+- Add-On Business (seats only):
+  - [Name of Company]- Add [Quantity] [Product]
+  - Example: Acme, Inc- Add 25 Duo
+- Add-On Business (Upgrade from Premium to Ultimate):
+  - [Name of Company]- Upgrade to Ultimate
+  - Example: Acme, Inc- Upgrade to Ultimate
+
 ### Monthly Audit Process
 
 In an effort to increase transparency as well as consistency in terms of credit attribution for opportunities sourced by the Sales Development organization, we will conduct on a monthly basis a full audit of all opportunities giving credit to either a Sales Development or a Business Development Representative. Please do note that SDRs/BDRs that are on their ramping quarter are exempt from being auditors.
@@ -1069,7 +1081,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 | Use Claude For  | Do Not Use Claude for|
 |---------------|---------------|
 |Editing your emails (ex. make this shorter) | Any Questions about GitLab Features|
-| Any Questions about GitLab Features|Account Research (due to April Cut off)|
+| Helping you reply professionally with a clear CTA |Account Research (due to April Cut off)|
 | Organizing rough meeting notes| Competition Research/Questions |
 | Helping you organize your weekly schedule| Crafting Outbound Emails from Scratch|
 | Translate flows (Always review after) | Specific claims about how GitLab solves industry problems|
@@ -1136,15 +1148,13 @@ Specifically:
 
 [Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts.
 
-### Chorus
+### Gong
 
-Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywords, provides analytics, and transcribes calls int both Salesforce and Groove. Chorus will be used to onboard new team members, provide ongoing training and development for existing team members, provide non-sales employees with access to sales calls, and allow sales reps to recall certain points of a call or demo. At this time, US Sales, US Customer Success, US SDRs will be considered recorders. Non-US Commercial and Non-US SDRs can request recorder access once they have completed the GDPR training course. Non-US recorders will also need access to the EMEZ Zoom Group. Everyone else can access the tool as a listener if they wish.
+Refer to the [Gong](https://internal.gitlab.com/handbook/sales/sales-tools/gong/) handbook page for full details on how Gong is leveraged at GitLab.
 
-#### Chorus Training Resources
+Sales Development Org team members are provided with Gong collaborator licenses for visibility to recorded sales conversations.
 
-- Chorus: [Tips for Getting Start](https://www.zoominfo.com/about/get-started-old/chorus)
-- GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
-- GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+SDR and BDR team members are able to leverage the `Gong Meeting` option when creating meeting invites for prospects and customers. By using this option and adding an Account Executive with Gong recorder access to the meeting invite, Gong will leverage the AE's recorder access to record the meeting, assuming all meeting participants consent to record. More details about the Gong consent page can be found in the [Gong internal handbook page](https://internal.gitlab.com/handbook/sales/sales-tools/gong/#global-privacy-compliance). Once the recording is processed, the Account Executive that was added to the invite will be listed in Gong as the host and owner of the call with the SDR or BDR as an attendee.
 
 ### Crayon Competitive Messaging Resources
 
@@ -1180,9 +1190,11 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### 2. When a company that we are tracking gets a new hire or promotion
 
 - These people are identified by the lead initial source being `UserGems - New Hires and Promotions`
-- These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).
+- These people will be automatically be enrolled to a fully automated AI-driven sequence as per the guidelines below. 
 - Similar to above, the same people will be flagged on dashboards and reporting for you to consider as intent signals to add their respective accounts to your pipeline.
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.`
+- We are actively working to remove irrelevant prospect titles from being created as part of the `UserGems - New Hires and Promotions` lead sources. If you notice any titles that you feel should not have been created because they're irrelevant to DevOps decision-making in that company, please feel free to use the #usergems-feedback Slack channel to let us know, and we'll work with our CSM to review them. 
+- In the meantime, you can also mark these leads as Status `Disqualified` and Disqualified reason `No Authority`
 
 #### 3. When people leave or join accounts where we have open oppourtunities
 
@@ -1191,11 +1203,19 @@ This is where you can find messaging related to GitLab vs some of our competiors
   - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
 - These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.
 
+#### Gem-E FY26 Auto Enrollment
+
+For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities. 
+
+- Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow. 
+- These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
+- These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
+
 ### Sales Dev Manager Resources
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit).
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893). 
 
 #### General leadership principles
 
@@ -1740,40 +1760,25 @@ Announcement Channels
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
-| **Team Member OTE (SDR/MM BDR, APJ BDR, & Pub Sec)** |
+| **Team Member OTE (SDRs)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
 | - 100% Individual SAO Quota: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 1.3 x High LAM New Logo Kicker for APJ/Pub Sec BDRs |
-| **Team Member OTE (ENT BDR Strategic)** |
+| **Team Member OTE (MM and ENT BDRs)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
-| - 80% Individual Quota: |
-|   - 20% Growth SAOs |
-|   - 60% First Order SAOs |
-|   - 1.3 x High LAM New Logo Kicker |
+| - 70% Stage 1 nARR Pipe: |
 |   - No floor or ceiling |
-|   - Accelerator x 1.75 after meeting 100% of target of either SAO type for that type |
-| - 20% Pooled Net ARR Bookings: |
-|   - 75% Floor |
-|   - Ceiling of 140% |
-|   - Accelerator x 1.25 from 100% to 140% |
-| **Team Member OTE (ENT BDR Major)** |
-| 70% Base Pay |
-| 30% Variable Pay: |
-| - 80% Individual Quota: |
-|   - 50% SAOs |
-|   - 1.3 x High LAM New Logo Kicker |
-|   - No floor or ceiling |
-|   - Accelerator x 1.75 after meeting 100% of SAO target |
-|   - 30% Net ARR Pipeline |
-|   - No floor with a 200% ceiling, no accelerator |
-| - 20% Pooled Net ARR Bookings: |
-|   - 75% Floor |
-|   - Ceiling of 140% |
-|   - Accelerator x 1.25 from 100% to 140% |
+|   - Accelerator x 1.5 after meeting 100% of target |
+|   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
+| - 30% Stage 3 nARR Pipe: |
+|   - 75% floor |
+|   - 200% ceiling |
+|   - Accelerator x 1.25 from 100% to 200% |
+|   - Accelerator x 0.0 after meeting 200% of target |
+|   - 2x on all Focus Account new logo opp nARR (1. New - First Order and 2. New - Connected order types only) |
 | **Results** |
 | - ARR won from opportunities BDR sources |
 | **Activity** |
@@ -1784,7 +1789,7 @@ Announcement Channels
 | - Qualified Engagements |
 | - Number of leads accepted and worked |
 | **Daily outbound metrics** |
-| - We aim for 45 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
+| - We aim for 50 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
 
 #### Sales Dev Career Path
 
@@ -1798,7 +1803,7 @@ Announcement Channels
 |                                        | - Completion of SDR Q1-Q3 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | SDR to BDR                             | - Minimum 12 months in the SDR Role (incl. ramp)                                                                                                                                    |
-|                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
+|                                        | - Hitting quota cumulatively over the last 2 fully-ramped financial quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from current SDR manager                                                                                                                                              |
 |                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of SDR Q1-Q4 Tanuki Techs                                                                                                                                              |
@@ -1821,7 +1826,7 @@ Announcement Channels
 |                                        | - Completion of BDR Q1-Q3 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | BDR and BDR Team Lead to Next Step     | - Minimum 12 months in the BDR Role (incl. ramp)                                                                                                                                    |
-|                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
+|                                        | - Hitting quota cumulatively over the last 2 fully-ramped financial quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from BDR management                                                                                                                                                   |
 |                                        | - Demonstration of GitLab Values                                                                                                                                                    |
 |                                        | - Completion of BDR Q1-Q4 Tanuki Techs                                                                                                                                              |
@@ -1857,6 +1862,8 @@ The process, however, will
 - Month 2: 90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 - Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
+Effective in FY26, Net ARR generated from a Focus Account New Logo (First Order or New Connected) will be counted twice toward this attainment.
+
 Should the team member fall short of the targets above, a formal warning will be issued.
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
@@ -1864,7 +1871,9 @@ After a  formal warning is issued if the team member falls short of targets agai
 
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Uphold Daily Activity Metrics   | - MQLs to be added to Groove Flows within expected activity metrics.                                                                                                                               |
+| 1. Uphold Daily Activity Metrics   | - Adhere to the two hour MQL SLA                                                                                                                               |
+|                                    | - Complete a minimum of 50 omni-channel activities (calls, emails, chats, LinkedIn messages)                                                                                          |
+|                                    | - Maintain an average of 1.5 discovery meetings weekly                                                                                       |
 |                                    | - Work lead records within Salesforce by leveraging relevant Flows tags in Groove.                                                                                            |
 |                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Groove data.                              |
 |                                    | - Maintain SFDC data integrity by following the outbound workflow in researching and prospecting accounts.                                                                             |
@@ -1879,7 +1888,7 @@ After a  formal warning is issued if the team member falls short of targets agai
 
 ### Inbound Lead Management
 
-The below apply for all inbound-related leads for both the SDR and BDR teams:
+The below apply for all inbound-related leads for both the SDR and BDR teams. Please note that, other than [SFDC lead views](/handbook/marketing/sales-development/#where-to-find-your-leads-and-accounts), inbound MQLs will also be flagged to you in a dedicated Slack alert channel. The official tracking of SLA times is done on SFDC, but you will also find an 'Acknowledge' button on the Slack notification that you can press so that it helps with daily check-ins with your Manager.
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|

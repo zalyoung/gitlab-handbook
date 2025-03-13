@@ -6,23 +6,28 @@ The [FinOps function](../../../../../job-families/engineering/infrastructure/sit
 
 |  |  |
 |--|--|
-| Gitlab Handle | @tonyganga |
-| Issue Tracker | [FinOps Issue Tracker](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/boards/5046766) |
+| GitLab Handle | @tonyganga |
+| Issue Tracker | [FinOps Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/boards/5046766) |
 | Slack | [#g_finops](https://gitlab.enterprise.slack.com/archives/C05KWUER6SV) |
 
-## 1. Our Core Responsibilities
+## Our Core Responsibilities
 
 We focus on several key activities:
 
-- **Cloud Cost Management:** Analysis on costs related to cloud infrastructure.
-- **Data and Cost Utilization Analysis:** Providing insights into resource utilization, identifying inefficiencies, and helping stakeholders optimize their spend.
-- **Forecasting:** Provide analysis on spend trends, forecasting future expenses, and helping teams plan their budgets accordingly.
-- **Collaboration & Education:** Helping stakeholders access and interpret the financial data they need for decision-making.
+- Analysis of costs related to cloud infrastructure.
+- Providing insights into cloud resource utilization, identifying inefficiencies, and helping stakeholders optimize their spend.
+- Provide analysis on spend trends, forecasting future expenses, and helping teams plan their budgets accordingly.
+- Helping stakeholders access and interpret the cloud cost data they need for decision-making.
 
-## 2. How We Work
+## How We Work
 
-- **Work Requests:** All tasks and requests should be tracked via [issues in Gitlab](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
-- **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-org/quality/cloud-finops/finops-analysis/-/issues/198) is updated weekly.
+If something requires immediate attention, please tag the relevant person/team in the GitLab issue and include a clear description of the urgency. 
+DMs and ad-hoc requests can lead to duplicated work or missed context and should be avoided in favor of formal issue submission. Slack should be used primarily for quick clarifications or urgent escalations but not for initiating work requests.
+
+Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview).
+
+- **Work Requests:** All tasks and requests should be tracked via [issues in GitLab](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
+- **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/198) is updated weekly.
 - **Educating Stakeholders:** We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds it's way into our [data warehouse](../../../../enterprise-data/platform/_index.md). This reduces repetitive work for the FinOps team and empowers other teams to work independently.
 
 ### Engaging with Stakeholders
@@ -32,9 +37,3 @@ We manage a variety of stakeholder relationships across the organization. Each s
 - **FP&A:** Provide cost insights and analysis for financial forecasting.
 - **Data Teams (PDI & AI):** Collaborate to ensure the data required from our stakeholders is present in the data warehouse. This ensures structure and aligns with both operational and financial needs.
 - **Engineering and Infrastructure:** Work closely with engineering teams to analyze resource utilization and identify cost-saving opportunities in cloud infrastructure.
-
-### Stakeholder Engagement Guidelines
-
-- **Urgency Requests:** If something requires immediate attention, please tag the relevant person/team in the GitLab issue and include a clear description of the urgency. DMs and ad-hoc requests can lead to duplicated work or missed context.
-- **Self-service:** Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview)
-- **Slack:** Slack should be used primarily for quick clarifications or urgent escalations but not for initiating work requests. DMs should be avoided in favor of formal issue submission.

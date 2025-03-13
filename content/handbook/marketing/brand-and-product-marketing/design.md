@@ -111,15 +111,6 @@ Please us [this issue template when requesting to have a video uploaded](https:/
 
 Please use [this issue when requesting an update to an existing video or edits to video footage](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) such as adding lower thirds, bumpers or slides to a zoom recording.
 
-#### **Not sure if you need a brand refresh?** Here's what has changed with our branding
-
-1. [Logomark](https://design.gitlab.com/brand-logo/logomark/) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo/) the rules around how to use it properly
-1. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography/)
-1. [Colors and color usage](https://design.gitlab.com/brand-design/color/)
-1. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations/)
-1. Added [photography guidelines](https://design.gitlab.com/brand-design/photography/) for our brand
-1. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview/) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups/)
-
 #### **Request Instructions and Tips:**
 
 - When submitting your request, please title the request "CREATIVE REQUEST: [Descriptive name]"

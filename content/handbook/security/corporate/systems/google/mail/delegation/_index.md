@@ -1,5 +1,6 @@
 ---
 title: Google Mail (Gmail) User Delegation Guide
+description: How to allow other team members to access and manage the emails in your inbox.
 ---
 
 ## Overview

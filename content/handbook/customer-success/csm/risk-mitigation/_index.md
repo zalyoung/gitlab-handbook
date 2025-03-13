@@ -153,7 +153,7 @@ Once we know the risk and done some discovery into that risk, we have some optio
 
 ### Lack of engagement/Loss of champion
 
-- For lack of engagement, please see our [Strategies for Non-Engaged Customers](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/) handbook page.
+- For lack of engagement, please see our [Strategies for Non-Engaged Customers](/handbook/customer-success/csm/engagement/non-engaged-customer-strategies/) handbook page.
 - For a loss of champion, the CSM and their sales counterpart are to proactively seek out and establish new champions
   - Identify who's replacing your champion and cultivate that relationship.
   - Find someone who loves GitLab and include them in future calls (if they aren't already).

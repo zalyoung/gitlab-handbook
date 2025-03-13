@@ -88,6 +88,33 @@ The Duo Workflow Team communicates based on the following guidelines:
 1. By default communicate in the open.
 1. All work-related communication in Slack happens in the `#g_duo_workflow` channel.
 
+## Sentry Error Triage
+
+New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts_channel]. We set up a triage process in order to stay on top of these errors.
+Every week a different backend engineer of the team is responsible for triaging new messages in this channel.
+The schedule for triage shifts can be found in the [iteration issues](https://gitlab.com/groups/gitlab-org/-/epics/16048).
+While on shift the engineer should:
+
+1. Look at the channel at least once per day.
+1. For any incoming message for a sentry error try to find out:
+   1. Is the error related to an existing issue?
+   1. Depending on that either:
+      1. Create a new issue.
+         1. Tag the EM in the issue.
+         1. If it turns out to be a [severity 1 issue](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), then announce it in Slack, to coordinate work on it.
+      1. Link the error in an existing issue.
+      1. continue to observe the error the next days if it only occured once.
+1. Apply the ✅ as a reaction to the error once it's been triaged.
+
+### Triage Schedule
+
+| Week                    | Engineer                |
+| ----------------------- | –---------------------- |
+| 2025/02/10 - 2025/02/16 | @ssuman3                |
+| 2025/02/17 - 2025/02/23 | @jfypk                  |
+| 2025/02/24 - 2025/03/02 | @halilcoban             |
+| 2025/03/02 - 2025/03/08 | @mikolaj_wawrzyniak     |
+
 ### ⏲ Time Off
 
 Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, in accordance with the [taking time off](/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
@@ -95,6 +122,11 @@ Team members should add any [planned time off](/handbook/people-group/paid-time-
 ### 🤙 Ad-hoc sync calls
 
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
+
+### Transparency with regards to Duo Workflow
+
+Due to the prominent nature of AI agents (such that they generate investment attention) and the early development phase of Duo Workflow it is very important to consider our [SAFE Framework](/handbook/legal/safe-framework/) when it comes to information around Duo Workflow.
+Demo, Progress and sharing designs is ok, but internal feedback issues and unstructured / overly negative internal feedback should remain confidential.
 
 ## 🔗 Useful Links
 

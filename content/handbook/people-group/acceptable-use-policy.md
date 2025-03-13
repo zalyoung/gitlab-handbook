@@ -50,7 +50,7 @@ Individual Use Software (freeware, add-ons and plugins) is permitted, with the e
 
 Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
-To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
+To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process.
 
 {{% alert title="Note" %}}
 In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
@@ -164,5 +164,4 @@ Exceptions to this policy must be approved by Security, Legal and PeopleOps Depa
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to all members of the GitLab community

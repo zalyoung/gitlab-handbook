@@ -44,7 +44,7 @@ In addition to submitting their resignation directly in Workday (following the g
 
 ##### Japan
 
-Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
+Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) by the 10th of the month in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
 
 ##### Singapore
 
@@ -78,10 +78,10 @@ The manager and the team member should have walked through the guidelines on [un
 1. **Manager**: Reach out to the their TMR specialist for assistance.
     - TMR will ask about what the performance issues have been, how they have been attempted to be addressed, and review all manager/team member documentation.
     - Once the review has been completed and the decision has been made to offboard the team member, the manager should review the best timing for the involuntary offboarding call and termination date. We recommend to avoid scheduling a involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is on-call, per guidance below under Last working day.
-    - TMR will enter and approve the offboarding in Workday. Once entered, the releavant offboarding stakeholders will receive an alert via Workday reports or a Workday notification.
-    - TMR will work with IT in a seperate Slack channel.
+    - TMR will enter and approve the offboarding in Workday. Once entered, the relevant offboarding stakeholders will receive an alert via Workday reports or a Workday notification.
+    - TMR will work with IT in a separate Slack channel.
 1. **TMR**: TMR will create a private Slack channel that will include the PBP, Manager, and Leader of the organization to review the offboarding and agreed upon offboarding date.
-1. **TMR**: If applicable, TMR will prepare the severance agreement in preparation for the call between the TMR specialist, Manager, and team member. Additional guidelines for the preparation of this agreement can be found below in the [Separation and Release of Claims Agreements](#separation-agreement) section. To determine whether or not a severance agreement is applicable, please refer to the `Severance Elgibility` guidelines accessible by PBPs, and Team Member Relations Specialist.
+1. **TMR**: If applicable, TMR will prepare the severance agreement in preparation for the call between the TMR specialist, Manager, and team member. Additional guidelines for the preparation of this agreement can be found below in the [Separation and Release of Claims Agreements](#separation-agreement) section. To determine whether or not a severance agreement is applicable, please refer to the `Severance Eligibility` guidelines accessible by PBPs, and Team Member Relations Specialist.
 1. **Manager**: Once the date and time is confirmed, the manager will schedule time with the team member and send the TMR specialist a *private and separate calendar invite* with the Zoom details for the meeting with the team member to share the news of the offboarding.
 1. **Payroll**: If the team member is employed by a PEO/entity with statutory leave requirements, review if any time off needs to be paid on the last paycheck by looking in Workday in the `Time Off` section.
 1. **Payroll**: If the team member has a contract with a co-employer, the payroll lead will forward an email to the contact at the co-employer with the information surrounding the departing team members statutory leave etc.
@@ -102,7 +102,7 @@ The manager and the team member should have walked through the guidelines on [un
 1. **Manager**: Hand the call over to the TMR to continue.
 1. **TMR**: The TMR will also make it clear that the decision is final, but also will genuinely listen to the team member's side of the story since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
 1. **TMR**: Make sure to communicate the [practical points](#offboarding-points) from the offboarding memo outlined below.
-1. **TMR**: Once the conversation is complete, the TMR will stage the involuntary offboardingemail document along with the severance document in DocuSign for review and signatures.
+1. **TMR**: Once the conversation is complete, the TMR will stage the involuntary offboarding email document along with the severance document in DocuSign for review and signatures.
 
 #### Critical Points During Offboarding Call {#offboarding-points}
 
@@ -128,14 +128,14 @@ You may also contact X at GitLab (provide phone number and email address) with a
 
 1. **TMR:** Terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
 1. **TMR:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment](/handbook/people-policies/#job-abandonment) in which case they would not be eligible.
-1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particlars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and TMR in question should be arranged and the particulars can be sent back for further review.
+1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particulars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and TMR in question should be arranged and the particulars can be sent back for further review.
 1. **People Connect:** Once the transaction has been fully approved the team will receive a TODO of the termination within your Workday Inbox.
 
 ### Last Working Day
 
 After the involuntary offboarding call has taken place and the last working day has been determined, team members will have no access to GitLab systems and may not be required to do any work on GitLab's behalf.
 
-If they are on "Garden Leave" they will still be active on payroll through the termination date. When determining the timing of the involuntary offboarding call and termination date it is important to consider any effect this might have on ongoing tasks and responsibilities of the team member.
+If they are on "Garden Leave" they will still be active on payroll through the termination date. When determining the timing of the involuntary offboarding call and termination date it is important to consider any effect this might have on ongoing tasks and responsibilities of the team member. No expenses may be incurred while on garden leave unless necessary to the performance of GitLab duties and approved by the team member's manager or as subject to local law.
 
 As a manager, in collaboration with the Team Member Relations Specialist (TMR) and/or the People Business Partner (PBP), we recommend to avoid scheduling the involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is [on-call](/handbook/engineering/on-call/). If this is unavoidable, the manager is responsible for ensuring a transition/remediation plan.
 
@@ -185,7 +185,7 @@ For team members who will be placed on leave during an investigation please foll
 
 1. **TMR**: Communicates with Legal, Aligned PBP regarding the decision to place a team member on leave and disable accounts during an investigation.
 1. **TMR**: TMR will request IT and People Connect support for disabling a team members accounts.
-1. **TMR**: TMR schedules a call with the teammember and manager to inform them of the decision to place the team member on leave while an investigation occurs.
+1. **TMR**: TMR schedules a call with the team member and manager to inform them of the decision to place the team member on leave while an investigation occurs.
 1. **TMR**: TMR informs the manager and PBP when the conversation is completed and accounts are disabled. During this period managers will not have access to the team members accounts.
 1. **TMR**: TMR notifies IT that an Out Of Office message needs to be set on the account and include the message that the team member is OOO and please reach out to their manager.
 1. **TMR**: TMR send the team member to their personal email the "Team member Suspension letter" via DocuSign. The TMR will upload this document to the team members Workday Profile in documents tab.
@@ -206,7 +206,7 @@ To ensure a successful completion of the offboarding issue, it is important that
 ## GitLab Alumni Program
 
 All voluntary exits are eligible to be added to the Slack channel `#gitlab-alumni`, unless otherwise noted. Involuntary exits are not eligible for the alumni channel, unless otherwise noted by Team Member Relations.
-The offboarding details provided by the terminatino transaction in Workday is how eligibility is determined and later shared with IT.
+The offboarding details provided by the termination transaction in Workday is how eligibility is determined and later shared with IT.
 
 The purpose of this channel is to network and socialize with team members.
 
