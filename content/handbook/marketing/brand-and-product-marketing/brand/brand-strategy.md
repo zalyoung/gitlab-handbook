@@ -79,6 +79,7 @@ Before starting the approval process, please ensure that the vendor meets this c
 1. If the request involves the GitLab logo or brand use, please ensure the vendor follows these guidelines:
     - [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
     - [Brand Standards](https://design.gitlab.com/brand-overview/resources/)
+1. We will consider social media posts or promotions if we've done a case study or blog post with the vendor. All social posts must be reviewed and approved via this process.
 
 #### Stakeholder reviewers 
 
