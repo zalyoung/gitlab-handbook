@@ -104,7 +104,6 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 ## Recording Success Tier Timeline Activities in Gainsight
 
-
 Consistently recording key Success Tier activities in Gainsight is essential to our customer success operations. This documentation ensures that all team members follow standardized procedures when logging customer interactions.
 
 Accurate activity tracking in Gainsight enables:
