@@ -32,7 +32,7 @@ The team manages general documentation-related and team-specific Slack channels:
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
 
-## Public training for GitLab Technical Writing
+## Learn GitLab tech writing fundamentals
 
 If you're interested in updating or creating GitLab documentation,
 see [GitLab Technical Writing Fundamentals](https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals).
@@ -67,8 +67,10 @@ with the goal of creating documentation that is complete, accurate, and easy to 
 The documentation should be easy to browse or search for the information you need, and
 it should be easy to contribute to the documentation itself.
 
-All standards and practices for contributing to the documentation are in the
-[GitLab Documentation guidelines](https://docs.gitlab.com/development/documentation/).
+To get started contributing to the documentation, see
+[Contribute to the GitLab documentation](https://docs.gitlab.com/development/documentation/).
+For standards and guidelines, see [the style guide](https://docs.gitlab.com/development/documentation/styleguide/)
+and [word list](https://docs.gitlab.com/development/documentation/styleguide/word_list/).
 
 ## Responsibilities
 
@@ -589,4 +591,3 @@ For outages or website availability issues, see [Docs site infrastructure](https
 ## Related topics
 
 - [Documentation site architecture](https://docs.gitlab.com/development/documentation/site_architecture/)
-- [Documentation Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
