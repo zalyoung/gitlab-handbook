@@ -3,7 +3,7 @@ title: "Advanced Finders"
 status: draft
 creation-date: "2025-03-09"
 authors: [ "@dgruzd" ]
-coach: []
+coach: [ "@DylanGriffith" ]
 approvers: []
 owning-stage: "~devops::foundations"
 participating-stages: []
@@ -19,13 +19,13 @@ Currently, searches performed through the dashboard or through the group and pro
 
 1. Slower search performance when data is already available in Advanced Search
 2. Limited search capabilities - features like "find all issues with term X in comments" are too performance-intensive to implement with the current database-only approach
-3. Missed opportunity to leverage existing Elasticsearch indexes, which are expensive to maintain
+3. We can provide better user experience by utilizing multiple backends.
+4. PostgreSQL is a finite (and costly) resource. This will help to offload expensive workload to Advanced Search.
 
 By implementing Advanced Finders, we will:
 
 - Improve search performance for users with Advanced Search enabled
 - Enable more sophisticated search capabilities
-- Maximize the value of our existing Elasticsearch infrastructure
 - Create a future-proof architecture that can adapt to different data sources
 
 ## Overview
