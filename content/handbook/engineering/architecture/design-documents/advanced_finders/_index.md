@@ -11,7 +11,7 @@ participating-stages: []
 
 ## Summary
 
-This document describes a new advanced architecture for GitLab finders that can leverage both PostgreSQL and Advanced Search (Elasticsearch/OpenSearch) as data sources. Current finders return ActiveRecord relations, which limits their ability to use Advanced Search efficiently. The new architecture aims to create a unified interface that can seamlessly switch between data sources while providing consistent pagination and result formatting.
+This document describes a new advanced architecture for GitLab finders that can leverage both PostgreSQL and Advanced Search (Elasticsearch/OpenSearch) as data sources. Current finders return ActiveRecord relations, which limits their ability to use Advanced Search efficiently. Even though Elasticsearch queries could return ActiveRecord relations they cannot be composed with subsequent ActiveRecord queries (or at least not in the same way if they are already paginated). The new architecture aims to create a unified interface that can seamlessly switch between data sources while providing consistent pagination and result formatting.
 
 ## Business Objectives
 
