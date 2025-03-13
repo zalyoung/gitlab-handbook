@@ -7,13 +7,13 @@ The Success Tier offerings are part of the [Customer Success](/handbook/customer
 
 The Success Tier team can be reached in [Slack channel](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) (internal only).
 
-For content for positioning the value of the tiers, how to price/quote the tiers and how to handle objections, please visit the internal handbook page [here](https://internal.gitlab.com/handbook/customer-success/success-services/).
+For content for positioning the value of the tiers, how to price/quote the tiers and how to handle objections, please visit the internal handbook page [Success Services (aka Success Plan Services)](https://internal.gitlab.com/handbook/customer-success/success-services/).
 
 ## Success Tiers
 
 ### Overview
 
-Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling a named Support Engineer, a Customer Success Architect (CSA) and Education services into a single orderable SKU as an annual renewable service.
+Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling a named Support Engineer, a Customer Success Architect (CSA) and Education services into a single SKU as an annual renewable service.
 
 The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer.  Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
 
@@ -37,21 +37,21 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 
 | Category | Content Modules | Description | Outcome|
 |---|---|---|---|
-|CI/CD|Introduction to CI/CD Workshop|The Intro to CI accelerator for the CI Pipeline track is a Getting Started/How to accelerator, focused on building initial familiarity and basic understanding of usage of GitLab CI for users who are new to the platform.|You'll come away understanding the architecture of GitLab ci yaml and GitLab runners, how to create a gitlab-ci.yml, as well as common patterns and rules|
+|CI/CD|Introduction to CI/CD Workshop|The Intro to CI accelerator for the CI Pipeline track is a Getting Started/How to accelerator, focused on building initial familiarity and basic understanding of usage of GitLab CI for users who are new to the platform.|You'll come away understanding the architecture of GitLab ci yml and GitLab runners, how to create a gitlab-ci.yml, as well as common patterns and rules|
 |CI/CD|Runner fleet guidance  |A Customer Success accelerator to optimize and manage a GitLab Runner fleet at scale.|Your CSA will walk through a maturity assessment, informational sessions and interactive training including|
 |CI/CD|Rules and pipeline flow|The Rules & Pipeline Flow accelerator for the CI Pipeline track is an Advanced Concepts accelerator, which covers methods of defining the flow of a pipeline using rules, DAG, parent/child pipelines, and any other optimization methods to control the operations of pipelines.|Training that is delivered with best practices|
 |CI/CD|CI templates and reusability|The Templates & Reusability accelerator for the CI Pipeline track is an Advanced Concepts accelerator, covering the creation and use of CI templates and optimization of the workflow.|Best practices that have been tailored to your level of maturity|
 |CI/CD|Product coach|The Product Coach accelerator for the CI Pipeline track is a Deep Dive accelerator, focused on consultative guidance on best practices and pipeline optimization for customer pipelines.|Your CSA will provide a detailed "guidance report" with 20+ categories to optimize your pipeline|
 |Security and Compliance|Intro to security workshop|60 - 90 minute presentation of security concepts, security features, and getting started recommendations|Customer will be appraised of security scanners, vulnerability dashboards, and how to begin using these features|
 |Security and Compliance|Hands-on security lab|90 - 120 minute, hands-on lab that you will have access to a gitlab.com sandbox; we provide the code and have prescriptive steps to configure security and compliance features|Customer will come away with actual experience adding security scanners to a pipeline, configuring security policies and compliance frameworks, and how to triage vulnerabilities|
-|Security and Compliance|Intro to audit, compliance, and separation of duties workshop|60 - 90 minute presentation of audit concepts, compliance and security policy features, and best practices|Your CSA will tailor this content to your needs and maturity; you'll come away with knowledge that'll allow you pass audits, institute consistency across your groups, and recommndations for where to go next|
+|Security and Compliance|Intro to audit, compliance, and separation of duties workshop|60 - 90 minute presentation of audit concepts, compliance and security policy features, and best practices|Your CSA will tailor this content to your needs and maturity; you'll come away with knowledge that'll allow you pass audits, institute consistency across your groups, and recommendations for where to go next|
 |Security and Compliance|Security rollout strategy|This content module will provide a complete plan for rolling out security and compliance features; including timelines and milestones that are mutually agreed upon with GitLab's best practices |The result of this content module will be a presentation of the rollout strategy and how it maps to your outcomes and timelines; additionally, the milestones and tasks will be in the collaboration project backlog so that your CSA can continue to guide on the rollout process|
 |Security and Compliance|Product Coach - Compliance Framework/Security Policies Audit|The Product Coach accelerator for the Security & Compliance track is a Deep Dive accelerator, focused on consultative guidance on best practices for security policies, developer workflow, and separation of duties|Your CSA will spend weeks learning your existing workflow and then provide a guidance report that will have best practices and recommendations|
-|Security and Compliance|Security Policy Rollout Strategy|The Security Policy accelerator for the Security & Compliance track is a multi-quarter program that your CSA will guide you through. The work is broken out into 5 phases: Architecture & Design, Compliance, Audit & Enablement, Dashboards & Integration, and Scaling. |By following our best practices, you'll be able to have a standardized and auditable GitLab instance. [Internal material](https://drive.google.com/drive/folders/1r_d1Lk5RyKoPvdN9HmzNKhHhAfKsSVAh) CSAs will leverage.|
+|Security and Compliance|Security Policy Rollout Strategy|The Security Policy accelerator for the Security & Compliance track is a multi-quarter program that your CSA will guide you through. The work is broken out into 5 phases: Architecture & Design, Compliance, Audit & Enablement, Dashboards & Integration, and Scaling. |By following our best practices, you'll be able to have a standardized and auditable GitLab instance. [Internal material](https://drive.google.com/drive/folders/1r_d1Lk5RyKoPvdN9HmzNKhHhAfKsSVAh) the CSA will leverage.|
 |Agile Planning|Intro to GitLab Plan workshop|Overview of GitLab issue management and backlog workflows|Your teams will come away with an understanding of all the backlog planning features, reporting, and best practices|
 |Agile Planning|Jira + GitLab workshop|This workshop will detail the options you have when integrating Jira and GitLab|Your CSA will spend time discovering your current needs and setup; then they'll deliver a customized workshop catered to your outcomes|
 |AI/ML|AI/ML hands on lab|Bootstrap your developers on all the AI/ML features GitLab has and how to use them|Your team will walk away being familiar with how to invoke all the AI features and suggested usages for them; they will also have access to a gitlab.com sandbox for 3 days to keep experimenting|
-|System administration|Upgrade package|This deep dive accelerator will prepare your system administration team for upcoming upgrades|The outcome will be a detailed upgrade plan, a presentation on the depreprecations as well as new features you need to be aware of, and a collaboration project to track any and all questions you have leading up to the upgrade|
+|System administration|Upgrade package|This deep dive accelerator will prepare your system administration team for upcoming upgrades|The outcome will be a detailed upgrade plan, a presentation on the deprecations as well as new features you need to be aware of, and a collaboration project to track any and all questions you have leading up to the upgrade|
 
 ## CSA Processes
 
@@ -71,10 +71,10 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 ### Success Tier Customer Onboarding Artifacts
 
-0. Account Context & Technical Documentation Template 
+0. Account Context & Technical Documentation Template
    1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members..
    2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
-   3. Tip: you can organise a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
+   3. Tip: you can organize a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
    4. This template should help you structure and play back your understanding of the account to your SA/CS team, creating a foundation for discovery workshops and collaboration projects by capturing key business drivers, technical requirements, and stakeholder priorities in a standardized format that can be easily validated and expanded upon.
 
 1. Introduction Email
@@ -84,20 +84,20 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 ### Success Tier Customer Onboarding Activities
 
-1. Internal Kick-off Call  
-   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.  
-   2. Customer objectives identified prior to the Order Form being signed are to be documented by CSA and shared with the account team.  
+1. Internal Kick-off Call
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.
+   2. Customer objectives identified prior to the Order Form being signed are to be documented by CSA and shared with the account team.
 
-2. Customer Kick-off Call  
-   1. This will be scheduled within the first week of the agreement, subject to customer availability.  
-   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations via email.  
-   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).  
-   4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.  
+2. Customer Kick-off Call
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.
+   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations via email.
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).
+   4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.
 
-3. Discovery Workshop  
-   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.  
-   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.  
-   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.  
+3. Discovery Workshop
+   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.
+   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.
+   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.
    4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).
 
 <br>
@@ -146,15 +146,15 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 #### Kick-off Call
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
-2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown.
-3. Select the **Kickoff** option in the Meeting Type dropdown.
+2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown list.
+3. Select the **Kickoff** option in the Meeting Type dropdown list.
 4. Fill out the remaining fields with all relevant information.
 5. Click **Log Activity** when finished.
 
 #### Accelerator
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
-2. Once the Activity Timeline Entry form is open, select **CSA Engagement** from the Activity Type dropdown.
+2. Once the Activity Timeline Entry form is open, select **CSA Engagement** from the Activity Type dropdown list.
    * Note: Any activity logged under this type will be considered an Accelerator.
 3. Fill out the remaining fields with all relevant information.
 4. Click **Log Activity** when finished.
@@ -162,7 +162,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 #### Workshop
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
-2. Once the Activity Timeline Entry form is open, select **Workshop** from the Activity Type dropdown.
+2. Once the Activity Timeline Entry form is open, select **Workshop** from the Activity Type dropdown list.
 3. Fill out the remaining fields with all relevant information.
    * **Important**: While not required fields, it's highly recommended to log:
       * External Attendees
@@ -172,8 +172,8 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 #### Executive Business Review (EBR)
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
-2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown.
-3. Select **Executive Business Review** from the Meeting Type dropdown.
+2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown list.
+3. Select **Executive Business Review** from the Meeting Type dropdown list.
 4. Fill out the remaining fields with all relevant information.
    * **Important**: Complete as many fields as possible, as this information is critical for reporting purposes.
 
