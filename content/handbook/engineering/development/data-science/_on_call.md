@@ -39,13 +39,13 @@ The on-call rotation operates on a weekly basis, with shifts starting and ending
 - Sufficient time for knowledge transfer between rotations
 - Flexibility to accommodate team members' schedules
 
-Each engineer is typically scheduled for one week of on-call duty in their prefered shift every 3-8 weeks, depending on the size of the rotation pool.
+Each engineer is typically scheduled for one week of on-call duty in their preferred shift every 3-8 weeks, depending on the size of the rotation pool.
 
 (Alternatively, we can offer divide week into two: Wednesday/Thursday/Friday/Saturday and Sunday/Monday/Tuesday - this way noone needs to cover the whole weekend). 
 
 ### Rotation pool limitations
 
-To provide sufficient coverage, we require minimum number of SMEs per region (we identify 3 regions: Asia-Pacific-Japan (APJ) Europe Middle East Europe (EMEA) and Americas (AMER)):
+We require a minimum number of SMEs across all three regions, Asia-Pacific-Japan(APJ), Europe-Middle-East-Africa(EMEA), and Americas(AMER) to provide sufficient on-call coverage. When a team does not have enough eligible on-call engineers, they should consider partnering with another team to ensure comprehensive coverage. They need to make sure knowledge transfer between the teams to maintain effective incident response capabilities.
 
 - Minimum 3 team members per SME group per region (e.g. 3 Americas + 3 APJ + 3 EMEA)
 
@@ -55,7 +55,7 @@ Not all engineers are eligible for weekend shifts due to local labour law restri
 
 ### Weekend shifts, outside of working hours shifts
 
-During on-call, there is no expectation for SME to be sitting at their laptop for the whole shift. They are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this distruption of making themselves available during the weekend and holidays.
+During on-call, there is no expectation for SME to be sitting at their laptop for the whole shift. They are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this disruption of making themselves available during the weekend and holidays.
 
 Everyone is encouraged to explore options that work best for their personal
 situations in lieu of weekend shifts. When on-call you have the following
