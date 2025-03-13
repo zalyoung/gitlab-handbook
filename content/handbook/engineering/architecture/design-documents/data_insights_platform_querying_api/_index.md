@@ -87,7 +87,7 @@ A part of this work, that needs further definition, is being able to query the a
 - Be simple for customers to use that moves the complexity of interacting with different data tables away from the API, and into the backend service.
 - Be consistent for customers to easily identify what data is available, what properties that data has, and how they can interact with it.
 
-This approach is especially necessary when you consider the wider confusion with GitLab APIs in general. Our existing GraphQL and REST APIs contribute to the confusion our customers face when interacting with GitLab, and we must avoid compounding that further.
+This is important because of the current confusion with GitLab APIs in general. The problem we face is that many of the GitLab GraphQL and REST APIs are inconsistent, contributing to the confusion our customers face when interacting with GitLab, and we must avoid compounding that further.
 
 There will be two aspects of the overall querying architecture. The first part, the customers communication with the DIP through our existing GraphQL and REST APIs. The second part, the GitLab rails application's (the Monolith) communication with the DIP through the Data Insights Service.
 
@@ -102,9 +102,10 @@ This proposal references the first part, but is focused on implementing the seco
 - **Consistent API interface**
   - We've had issues in the past with our APIs not being consistent in the type of data being available, and filtering options. This has led to a more confusing user experience.
   - Difficult to accomplish, but we must develop an API which allows different data types and filtering options, without dramatically changing how the API request should be made or handled.
+  - Provide support and [clear documented instructions](#docs) on how other GitLab teams can integrate their GraphQL and REST API endpoints that leverage ClickHouse into the DIP querying API.
 - **Keep complexity away from the end-user APIs**
   - The DIP will be handling a wide range of data types and data sources, all being converged into one platform for fully formed analyses. We don't want this complexity to be passed onto the end-user APIs.
-  - We need to keep the API simple to use; with clear documentation. The user mustn't need to know which database or table the data is coming from, only what data is available to them.
+  - We need to keep the API straightforward to use; with clear documentation. The user should be informed about the data available to them. They should not be required to know which database or table to use.
 - **Authentication and authorization**
   - The data being collected by the DIP will contain a mix of data privacy categories. We need to ensure that any data being queried is only accessible to those with the correct authentication and authorization. Data outside the purview of the requestor must in no way be accessible to them.
   - Data classification will be determined by the [Data Catalog](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/25) in Atlan.
@@ -112,7 +113,7 @@ This proposal references the first part, but is focused on implementing the seco
 ## Non-Goals
 
 - Support for other data sources, such as Snowflake, for this initial phase.
-- Full integration with all existing GraphQL and REST API calls that already leverage ClickHouse. This process will be led by the teams that own these endpoints, with our support and clear documentation.
+- Integrating all other GraphQL and REST API calls that leverage ClickHouse that aren't owned by Monitor/Platform Insights is out of scope. This work is best executed by the team with domain expertise and it is not scalable for Monitor/Platform Insights to do so for every team. Support and [documentation](#docs) will be provided to enable teams to integrate their endpoints into the DIP.
 
 ## Historical context
 
@@ -783,9 +784,11 @@ For the gRPC API, rather than defining rate limits, it is recommended to use a [
 
 We must make sure that the Protobuf API is integrated with our existing observability infrastructure. All logs should be sent to [Kibana](https://docs.gitlab.com/ee/development/logging.html#additional-steps-with-new-log-files), whilst frontend GitLab usage errors and [performance](https://docs.gitlab.com/ee/development/fe_guide/performance.html) should be sent to [Sentry](https://docs.gitlab.com/ee/development/fe_guide/sentry.html).
 
-Logs should not store unnecessary personally identifiable information, secrets, or keys. All new logging calls must be checked to make sure we're not leaking information into our logs that we shouldn't.
+Logs must not store unnecessary personally identifiable information, secrets, or keys. All new logging calls must be checked to make sure we're not leaking information into our logs that we shouldn't.
 
-Errors should contribute to our [Error Budget](https://docs.gitlab.com/ee/development/stage_group_observability/#error-budget), so we can monitor improvements over time.
+ClickHouse queries must be logged in a redacted format, replacing placeholders with a `?`. Query logs must have a hash of the query for easy comparison and finding of similar queries.
+
+Errors must contribute to our [Error Budget](https://docs.gitlab.com/ee/development/stage_group_observability/#error-budget), so we can monitor improvements over time.
 
 We must investigate how we can closely integrate with our [Internal Analytics](https://docs.gitlab.com/ee/development/internal_analytics/) to track usage. We will add metrics to the frontend GitLab usage, but integration with the DIP needs investigation to see if it is feasible, or if we need to design a secondary API for sending events (Service Ping or the [Events Tracking API](https://docs.gitlab.com/ee/api/usage_data.html#events-tracking-api)?).
 
