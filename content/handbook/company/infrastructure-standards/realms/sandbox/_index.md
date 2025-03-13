@@ -18,7 +18,7 @@ description: "This handbook section defines the latest iteration of infrastructu
 #### Issue Tracking and Collaboration
 
 - [HackyStack issue tracking](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/issues) (open source code feature development)
-- [IT Infrastructure issue tracking](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues) (GitLab-specific topics and requests)
+- [CorpSec Infra issue tracking](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues) (GitLab-specific topics and requests)
 - `#sandbox-cloud-questions` Slack channel to ask questions and get help.
 
 #### Code and Examples
@@ -84,12 +84,12 @@ Any team member can request a new AWS account or GCP project for a specific proj
 
 **No RED data is allowed in these accounts/projects.** Any RED data must be hosted in production AWS accounts or GCP projects managed by the appropriate Infrastructure Realm administrators (ex. `eng-infra-saas`, `it-infra`, etc.).
 
-Self-service creation and IAM management is not available yet for end users in HackyStack (will be available through API integration with [GitLab Access Manager](/handbook/business-technology/engineering/#access-manager-engineering) in the future and tracked in [hackystack#38](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/issues/38)). In the meantime, we use access request style issue templates as our boring solution for security compliance reasons and the HackyStack administrators provision accounts and users using the Admin CLI.
+Self-service creation and IAM management is not available yet for end users in HackyStack. In the meantime, we use access request style issue templates as our boring solution for security compliance reasons and the HackyStack administrators provision accounts and users using the Admin CLI.
 
-- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_create): New AWS Group (Multi-user) Account Request ([Provisioner Runbook](https://gitlab.com/gitlab-com/gl-security/corp/infra/runbooks/-/blob/main/gitlab-sandbox-cloud/add-group-account-for-aws.md))
-- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_create): Add/Remove IAM Users from AWS Group Account ([Provisioner Runbook](https://gitlab.com/gitlab-com/gl-security/corp/infra/runbooks/-/blob/main/gitlab-sandbox-cloud/add-iam-user-to-aws-group-account.md))
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=aws_services_account_create): New AWS Group Workload (Multi-user) Account Request
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=aws_services_account_iam_update): Add/Remove IAM Users from AWS Group Workload Account
 - [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_create): New GCP Group (Multi-user) Project Request ([Provisioner Runbook](https://gitlab.com/gitlab-com/gl-security/corp/infra/runbooks/-/blob/main/gitlab-sandbox-cloud/add-group-project-for-gcp.md))
-- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_create): Add/Remove IAM Users from GCP Group Project ([Provisioner Runbook](https://gitlab.com/gitlab-com/gl-security/corp/infra/runbooks/-/blob/main/gitlab-sandbox-cloud/add-iam-user-to-gcp-group-project.md))
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_iam_update): Add/Remove IAM Users from GCP Group Project
 
 #### Production Environments
 
@@ -109,7 +109,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](/handbook/finance/procurement/) and are managed by the respective department's [system owners](/handbook/business-technology/#cross-department-system-owners).
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/product-security/security-architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with CorpSec Infrastructure, [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/). Please tag `@vlad` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [CorpSec Infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 
@@ -260,7 +260,7 @@ For those who are not familiar with Laravel, it is the PHP equivalent of [Ruby o
 See the issue trackers for the latest up-to-date information.
 
 - [HackyStack issue tracking](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/issues) (open source code feature development)
-- [IT Infrastructure issue tracking](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues) (strategic or GitLab-specific issues)
+- [CorpSec] Infrastructure issue tracking](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues) (strategic or GitLab-specific issues)
 
 #### Current Projects
 
