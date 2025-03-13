@@ -16,6 +16,7 @@ Add some sort of table with green yellow and red stop lights colors to indicate 
 ## Priorities
 
 High-level themes:
+
 - Quality and Performance of AppSec Scanners
 - Comprehensive Security Insights - Dashboards and reporting
 - Security Tooling orchestration
@@ -41,9 +42,7 @@ Product and Engineering roadmaps for each stage in the Sec Section are linked be
   - [Product](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g333fe97d1b1_12_886)
   - [Engineering](https://docs.google.com/presentation/d/1ABoGLJkQZNs3Y92NELNrRvjsbo_PNEjGMyCRVz2sU2A/edit#slide=id.g3322950f2e3_12_0)
 
-
 Here is a WIP [view](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=START_DATE_ASC&layout=MONTHS&timeframe_range_type=CURRENT_YEAR&label_name[]=section::sec&label_name[]=roadmap::FY26Q2&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true) for FY26 Q2 priorities for the Sec Section.
-
 
 ## Quality
 
@@ -56,4 +55,3 @@ Adoption and usage event metrics can befound in the [Sec Section Metrics Hub](ht
 ## Executive Issues 
 
 Today we are tracking important customer issues in the [Sec Section Planning and Execution weekly](https://docs.google.com/document/d/1NSlhWlKPe8DpC8pRC5wB1WdZIDT6HvPA3CEJm5lC7wI/edit?tab=t.0#bookmark=kix.kpq5dkqtltdz). We will be moving this to a dynamic view in GitLab.
-
