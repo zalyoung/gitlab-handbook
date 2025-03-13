@@ -1,31 +1,31 @@
 ---
-title: Success Services
+title: Success Tiers
 
 
 ---
-The Success Services department is part of the [Customer Success](/handbook/customer-success/) function who partners with our customers to deliver value and positive business outcomes throughout their journey with GitLab.
+The Success Tier offerings are part of the [Customer Success](/handbook/customer-success/) function that represent enhanced partnership options for our customers to deliver value and positive business outcomes throughout their journey with GitLab.
 
-The team can be reached in [Slack channel](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) (internal only).
+The Success Tier team can be reached in [Slack channel](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) (internal only).
 
-For content for positioning the value of the service, how to price/quote the service and how to handle objections, please visit the internal handbook page [here](https://internal.gitlab.com/handbook/customer-success/success-services/).
+For content for positioning the value of the tiers, how to price/quote the tiers and how to handle objections, please visit the internal handbook page [here](https://internal.gitlab.com/handbook/customer-success/success-services/).
 
-## Success Services
+## Success Tiers
 
 ### Overview
 
-Our Success Services drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling a named Support Engineer, a Customer Success Architect (CSA) and Education services into a single orderable SKU as an annual renewable service.
+Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling a named Support Engineer, a Customer Success Architect (CSA) and Education services into a single orderable SKU as an annual renewable service.
 
 The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer.  Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
 
-The [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/) is accountable for their customer's success through GitLab product adoption using well understood Best Practices.  CSA's bring deeper product knowledge and technical depth than the industries traditional CSM role.  With experience across many customers, they are experts at ensuring features are leveraged the right way for maximum value.   This customer experience has lead to development of best practice content and prescriptive road-maps.  This content is folded into the Success Services offering as "Accelerators".
+The [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/) is accountable for their customer's success through GitLab product adoption using well understood Best Practices.  CSA's bring deeper product knowledge and technical depth than the industries traditional CSM role.  With experience across many customers, they are experts at ensuring features are leveraged the right way for maximum value.   This customer experience has lead to development of best practice content and prescriptive road-maps.  This content is folded into the Success Tiers offerings as "Accelerators".
 
 > Customer Success is not permitted to be "Hands on Keyboard" with customers.   We can and do provide best practices, architectural guidance and will tailor adoption and success plans to a specific customer need.  If a customer needs GitLab to develop a bespoke solutions or actively change or manage their configuration, we will need to engage our [Professional Services](/handbook/customer-success/professional-services-engineering/) team.
 
-Education Services included with Success Services encompasses 1day of Instructor-led Training  as well as a significant number of Training Certification Exam vouchers.   This enables us to partner the running of specific accelerators, aligned to training and certification, to ensure your team is ready and able to drive the cost benefits that GitLab brings.
+Education Services included with Success Tiers encompasses 1 day of Instructor-led Training as well as a significant number of Training Certification Exam vouchers.   This enables us to partner the running of specific accelerators, aligned to training and certification, to ensure your team is ready and able to drive the cost benefits that GitLab brings.
 
 ### Accelerators
 
-Success Services include up to 4 Accelerators, 1 per quarter, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.
+Success Tiers include up to 4 Accelerators for the Signature tier and 2 for Advanced, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.
 
 > An accelerator is a customized form of enablement that a GitLab CSA will define and deliver to a customer. These accelerators span a quarter and they're mapped to your mutual success plan.
 
@@ -57,7 +57,7 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 
 We have CSA specific processes that go above and beyond the CSM role. It is expected that this is layered on top of the CSM processes and responsibilities.
 
-### SPS Customer Onboarding
+### Success Tier Customer Onboarding
 
 ```mermaid
 graph LR
@@ -69,7 +69,7 @@ graph LR
 
 Note that you may be onboarding an account which is not net new. To ensure smooth collaboration and handover with the account team, it is advised to consult the responsibility matrix [issue](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/16)
 
-### SPS Customer Onboarding Artefacts
+### Success Tier Customer Onboarding Artifacts
 
 0. Account Context & Technical Documentation Template 
    1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members..
@@ -82,7 +82,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
    2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
    3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
 
-### SPS Customer Onboarding Activities
+### Success Tier Customer Onboarding Activities
 
 1. Internal Kick-off Call  
    1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.  
@@ -99,24 +99,79 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
    2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.  
    3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.  
    4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).  
+<br>
+<br>
+# Recording Success Tier Activities in Gainsight
 
-### Logging Accelerator Events
+### Overview
 
-In order to keep track of key deliverables in the Accelerator process, CSAs need to log these events in Gainsight. This will allow reporting and a complete account timeline within Gainsight.
+Consistently recording key Success Tier activities in Gainsight is essential to our customer success operations. This documentation ensures that all team members follow standardized procedures when logging customer interactions.
 
-Instructions:
+Accurate activity tracking in Gainsight enables:
+* Complete visibility into customer engagement history
+* Accurate reporting on Success Tier delivery metrics
+* Better collaboration across teams working with the same customer
+* Data-driven insights to improve our Success Tier offerings
+* Continuity of service during team member transitions
 
-1. Add new activity (utilize the calendar plugin to auto-populate details of the meeting)
-2. Select customer
-3. "Activity Type" = "CSA Engagement"
-4. Choose "Acceleratory Type". Use your best judgement to categorize the type of activity it is:
-   * Agile Planning
-   * CI
-   * CD
-   * Security
-   * AI
-   * Compliance
-   * System Administration
-5. Fill in "Accelerator Content Module"
-   * Use this optional field to document the activity itself
-   * i.e. "Delivered guidance report for cost optimization", or "Custom Security Policy Workshop"
+By following these guidelines, we maintain a reliable system of record that supports both operational efficiency and strategic decision-making.
+
+## Timeline Activity Tracking
+
+### General Instructions (Applies to All Activities)
+
+To record any activity in Gainsight, start by navigating to the customer's account taking you to their C360. Then, depending on the context of the activity:
+
+* **For activities related to a Call to Action (CTA)**:
+   1. Click the Cockpit tab within the account
+   2. Select the specific CTA to which the activity applies
+   3. Add the activity from there to ensure proper association
+
+* **For activities related to a Success Plan**:
+   1. Click the Success Plan tab in the account navigation
+   2. Select the relevant Success Plan
+   3. Click on the Cockpit tab
+   4. Click on the desired Objective you wish to log an activity
+   5. On the top-right side, click on the Timeline tab
+   6. Click Add Activity to relate the entry to the Success Plan
+
+* **For general activities** (not related to a CTA or Success Plan):
+   1. Click the Create button in the top right corner from anywhere in the account
+
+### Specific Activity Types
+
+#### Kick-off Call
+
+1. Navigate to the correct area in Gainsight as described in the general section above.
+2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown.
+3. Select the **Kickoff** option in the Meeting Type dropdown.
+4. Fill out the remaining fields with all relevant information.
+5. Click **Log Activity** when finished.
+
+#### Accelerator
+
+1. Navigate to the correct area in Gainsight as described in the general section above.
+2. Once the Activity Timeline Entry form is open, select **CSA Engagement** from the Activity Type dropdown.
+   * Note: Any activity logged under this type will be considered an Accelerator.
+3. Fill out the remaining fields with all relevant information.
+4. Click **Log Activity** when finished.
+
+#### Workshop
+
+1. Navigate to the correct area in Gainsight as described in the general section above.
+2. Once the Activity Timeline Entry form is open, select **Workshop** from the Activity Type dropdown.
+3. Fill out the remaining fields with all relevant information.
+   * **Important**: While not required fields, it's highly recommended to log:
+      * External Attendees
+      * Workshop topic
+4. Click **Log Activity** when finished.
+
+#### Executive Business Review (EBR)
+
+1. Navigate to the correct area in Gainsight as described in the general section above.
+2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown.
+3. Select **Executive Business Review** from the Meeting Type dropdown.
+4. Fill out the remaining fields with all relevant information.
+   * **Important**: Complete as many fields as possible, as this information is critical for reporting purposes.
+
+Click **Log Activity** when finished.
