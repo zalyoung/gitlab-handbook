@@ -1194,7 +1194,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fas fa-tag mr-2"></i><code>corpsys-teleport</code><br>
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/teleport">@gitlab-com/corpsys/teleport</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-teleport</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#it_help</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#security-corpsec</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
 <span style="background-color: #b91c1c; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN SSO</span>
