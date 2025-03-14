@@ -305,6 +305,26 @@ Backup Management solution, that will be composed of:
 
 ## User Journeys
 
+### High level
+
+- As a SRE
+  - I want to
+    - Use a backup tool bundled with our existing GitLab software so I don't need to worry about the tools compatibility with our infrastructure.
+    - Be able to provide a minimum amount of configuration information to the backup tool so that I can start backing up our instance sooner.
+    - Schedule Automated backups of our GitLab instance so that all of our data is protected without manual intervention.
+    - Configure Incremental backups of our GitLab Instance so that I can minimize backup windows while ensuring data protection.
+    - Test restores of our GitLab instance from backup so that I can validate backup integrity without affecting production.
+    - Monitor backups and test restores of our GitLab Instance so that I can ensure our GitLab backups remain reliable.
+    - Restore our GitLab instance to a different infrastructure so that we can recover from hardware failures or data center outages.
+- As a Security Officer
+  - I want to
+    - Ensure that GitLab secrets and tokens are securely backed up so that we maintain security controls during restoration.
+    - Use role based access controls for backup and restore so that our backup data is protected from ransomware attacks.
+- As a Compliance Officer
+  - I want to
+    - Maintain an audit trail of all backup and restore activities in GitLab so that we can demonstrate regulatory compliance.
+    - Apply retention policies to GitLab backups based on project classification so that we meet data retention requirements.
+
 ### Cloud Backups: support 50k CNH reference architecture on GCP for Cells
 
 ```sh
