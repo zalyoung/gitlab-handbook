@@ -231,6 +231,39 @@ sequenceDiagram
 
 In this phase, the main building blocks will be implemented, such as the [Covered Experience Definition](#covered-experience-definition) and the [SDK](#sdk-requirements) to emit events (metrics and logs), skipping the [Covered Experience Tracker](#covered-experience-tracker) (that will come in [phase 2](#phase-2)). This will reduce complexity while we iterate and test our implementation against the specification.
 
+Here's a diagram covering the SDK only representation:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Web as Web Service
+    participant Worker
+    participant Event as Logs and Metrics
+
+    User->>Web: Request
+    activate Web
+
+    Web->>Event: Step 1, SDK Emit Start
+    Web->>Worker: Enqueue Job
+    Web-->>User: Response
+    deactivate Web
+
+    Note over Worker: Job wait in queue
+
+    Note over Worker: Job starts
+    activate Worker
+
+    alt Success Case
+        Worker->>Worker: End Covered Experience
+        Worker->>Event: Step 2, SDK Emit Success
+    else Failure Case
+        Worker->>Worker: End Covered Experience
+        Worker->>Event: Step 2, SDK Emit Failure
+    end
+
+    deactivate Worker
+```
+
 ### Covered Experience Definition
 
 - YAML-based covered experience definition authored by product teams
