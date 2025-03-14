@@ -116,7 +116,6 @@ Further information can also be found in the [2024 AXA VIP Summary](https://driv
 
 You can also view the [VIP User Guide](https://drive.google.com/file/d/102bUKV0_zsJ8voRWmvcdpWQDr91gY1_k/view?usp=sharing) for more detials on accessing your plan amd [AXA Website and User Guide](https://docs.google.com/presentation/d/1osjT9rNwOIesauTviEXnh6-d8IkyqBDZ/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true)
 
-
 <details markdown="1">
 <summary>Taxability of Medical Plans</summary>
 
