@@ -30,11 +30,9 @@ Claude.ai can answer many different questions and topics. Be creative, curious, 
 
 Below is a collection of useful prompts organized by division, with example use cases for each prompt to help team members leverage AI assistants effectively.
 
-I'll update the prompt library markdown to fix the formatting issues. Here's the corrected version:
+### Sales Division
 
-## Sales Division
-
-### Value Proposition Analysis Prompt
+#### Value Proposition Analysis Prompt
 
 ```markdown
 Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] space. Focus on:
@@ -47,7 +45,7 @@ Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] spa
 
 **Example Use Case:** When preparing for a sales call with a prospect in the financial services sector, the sales representative can generate a tailored analysis highlighting GitLab's advantages in meeting compliance requirements and secure CI/CD capabilities.
 
-### Sales Email Template Generator
+#### Sales Email Template Generator
 
 ```markdown
 Generate a personalized sales email to [PROSPECT TYPE] who is currently using [CURRENT SOLUTION]. 
@@ -61,9 +59,9 @@ Keep the tone professional but conversational and limit to 200 words.
 
 **Example Use Case:** Creating tailored outreach emails to development team leads at healthcare companies who are using fragmented DevOps tools and could benefit from GitLab's single application approach.
 
-## Marketing Division
+### Marketing Division
 
-### Content Brief Creator
+#### Content Brief Creator
 
 ```markdown
 Create a detailed content brief for a [CONTENT TYPE] about [TOPIC] targeted at [AUDIENCE].
@@ -78,7 +76,7 @@ Include:
 
 **Example Use Case:** Planning a comprehensive blog post about "How to Implement GitOps with GitLab" targeted at DevOps engineers and IT leaders looking to improve deployment reliability and security.
 
-### Social Media Campaign Planner
+#### Social Media Campaign Planner
 
 ```markdown
 Develop a 2-week social media campaign promoting [GITLAB FEATURE/PRODUCT] across LinkedIn and Twitter.
@@ -92,9 +90,9 @@ Focus on highlighting [SPECIFIC BENEFIT] and target [TARGET AUDIENCE].
 
 **Example Use Case:** Creating a campaign to promote GitLab's new AI-assisted code review features targeting development teams looking to improve code quality and reduce review time.
 
-## General & Administrative
+### General & Administrative
 
-### Policy Document Summarizer
+#### Policy Document Summarizer
 
 ```markdown
 Summarize the following [POLICY/DOCUMENT] into:
@@ -106,7 +104,7 @@ Summarize the following [POLICY/DOCUMENT] into:
 
 **Example Use Case:** Distilling a lengthy updated security compliance document into an easily digestible format for team distribution before quarterly compliance training.
 
-### Data Analysis Assistant
+#### Data Analysis Assistant
 
 ```markdown
 Help analyze this [DATA SET] to identify:
@@ -121,9 +119,9 @@ Provide both summary insights and specific data points that support your analysi
 
 **Example Use Case:** Business users analyzing quarterly expense reports to identify spending patterns across departments, flagging unusual transactions, and generating cost-saving recommendations for leadership.
 
-## Product Division
+### Product Division
 
-### User Story Generator
+#### User Story Generator
 
 ```markdown
 Create detailed user stories for implementing [FEATURE] in GitLab. For each user story:
@@ -136,7 +134,7 @@ Create detailed user stories for implementing [FEATURE] in GitLab. For each user
 
 **Example Use Case:** Developing comprehensive user stories for a new code review automation feature, ensuring all user types (developers, reviewers, managers) are considered with appropriate acceptance criteria.
 
-### Code Visualization Assistant
+#### Code Visualization Assistant
 
 ```markdown
 Visualize the following code to help understand:
@@ -153,9 +151,9 @@ Code:
 
 **Example Use Case:** Product managers and developers collaborating to better understand the implementation of a complex feature by visualizing code execution paths and dependencies before planning refactoring work.
 
-## AI Workflow Prompts
+### AI Workflow Prompts
 
-### Data Set Analysis
+#### Data Set Analysis
 
 ```markdown
 Analyze the attached data file and provide:
@@ -169,7 +167,7 @@ For [TYPE] data, focus on [SPECIFIC METRICS].
 
 **Example Use Case:** Analyzing customer usage data to identify adoption patterns of GitLab features, highlighting which user segments are most actively engaged with specific tools.
 
-### Code Modernization Assistant
+#### Code Modernization Assistant
 
 ```markdown
 Review this legacy code and provide:
