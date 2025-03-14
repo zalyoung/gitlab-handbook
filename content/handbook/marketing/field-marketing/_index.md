@@ -1030,7 +1030,7 @@ You will note in Allocadia in the details panel if you need a customer speaker. 
 
 ### Asks into BDR org
 
-After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#i-classfas-fa-calendar-check-fa-fw-color-orange-font-awesomei-marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Regional Manager of BDR and Director, Sales Dev Operations. The regional FMMs as well as the regional managers should also be invited to this meeting. During this meeting, the team will review asks into the BDR org. Further details on this process can be [found here.](/handbook/marketing/sales-development/#approvals-required)
+After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#i-classfas-fa-calendar-check-fa-fw-color-orange-font-awesomei-marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Regional Manager of BDR and Director, Sales Dev Operations. The regional FMMs as well as the regional managers should also be invited to this meeting. During this meeting, the team will review asks into the BDR org. 
 
 You will note in Allocadia in the details panel if you need BDR support. [Video walk through](https://youtu.be/VYwBXmpJrDg) (you must be logged into GitLab Unfiltered to view.)
 
@@ -1521,7 +1521,7 @@ Please make sure you have reviewed our company's [prepaid policy](/handbook/fina
 
 #### Signature Authority
 
-GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
+GitLab team members DO NOT have signature authority. This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
 
 #### Coupa Card Versus Navan Card
 
@@ -1960,7 +1960,7 @@ The purpose of the regional integrated micro-campaign is to build and drive a sp
 
 **For example:**
 
-- If you are planning a virtual Lunch & Learn and want to utilize LinkedIn InMail as well, those 2 account-centric tactics together make up a micro-campaign. However, if you are planning a Lunch & Learn on its own without any additional tactics, that is just considered an [Individual Tactic](/handbook/marketing/field-marketing/#individual-tactics).
+- If you are planning a virtual Lunch & Learn and want to utilize LinkedIn InMail as well, those 2 account-centric tactics together make up a micro-campaign. However, if you are planning a Lunch & Learn on its own without any additional tactics, that is just considered an individual tactic.
 
 ### What does Account-Centric mean?
 
