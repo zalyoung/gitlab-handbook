@@ -23,6 +23,8 @@ Additionally, this process should lead the way in leveraging GitLab features to 
 
 - Managers support in 1:1s with an improved view of individual team member's internal work
 
+As is the case with all our work, the development of the process to track our work within the CS team is iterative and so it is recommended that you bookmark this page and check back frequently as this process is fine tuned.
+
 ## Terminology
 
 - **Objective:** The Mission
@@ -107,9 +109,9 @@ This will have significant impacts on both GitLab and its customers:
 
 ## Process
 
-### Issue Board
+### GLQL Tracking Table
 
-For an overview of the current CSM OKRs, please see [CSM OKR issue board](https://gitlab.com/gitlab-com/customer-success/okrs/-/boards/5194678?label_name[]=CSM&label_name[]=FY24-Q1)
+Whereas previous iterations used issue boards for tracking work, the team is currently using a GLQL tracker within [this wiki](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/wikis/home).
 
 ### Proposing OKRs
 
@@ -117,7 +119,7 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 - Team members choose the appropriate subgroup and project for their issue. These are organized by region and role, with one subgroup for cross collaboration between these. If you are unsure which project to open your issue in, default to your team's region and role (e.g. a CSM located in AMER would choose subgroup `AMER CS` and project `CSM`), or ask your manager for guidance.
 
-- Team members create new issues with the "New Ideas" label.
+- Team members create new issues with the "CS-Status::Proposed" scoped label.
 
 - Use the issue template below for consistent information capture. The template should capture:
 
@@ -141,7 +143,7 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 ## Review and Prioritization
 
-- Regular management team meetings to review "New Ideas" issues
+- Regular management team meetings to review "CS-Status::Proposed" issues
 
 - Categorize and prioritize issues using the labeling system (this should link to the labeling system section below) 
 
@@ -149,15 +151,17 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 - Identify 2x CSx, at least one Staff/Senior to manage the issue
 
-- Remove the "New Ideas" label after review
+- Remove the CS-Status::Proposed label after review
 
 ## Workload Management
 
-- Use Priority::Top-5 label for immediate action items determined by Mgr CS (This would include when tied back to a Big Rock or OKR)
+- Use CS-Priority::Top-5 label for immediate action items determined by Mgr CS (This would include when tied back to a Big Rock or OKR)
 
-- Assign high-priority issues to the current sprint/work cycle determined Mgr CS
+- Assign CS-Priority::High issues to the current sprint/work cycle determined Mgr CS
 
 - Utilize GitLab boards for workflow visualization
+
+- Reference the [GLQL tracker](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/wikis/home) referenced above as a dashboard
 
 ## Backlog Management
 
@@ -171,11 +175,11 @@ For an overview of the current CSM OKRs, please see [CSM OKR issue board](https:
 
 - Implement time tracking on issues
 
-- Use "At Risk" health status for stalled issues
+- Use the CS-Status::Concern scoped label for issues facing obstacles and require leadership assistance
 
-- Use "On Track" health status for issues progressing as expected
+- Use the CS-Status::On Track scoped label for issues progressing as expected
 
-- Use "Needs Review" health status for flagging to management for attention
+- Use the CS-Status::On Hold scoped label for issues that are temporaryily paused
 
 ## Triage Bot Policies
 
@@ -186,86 +190,59 @@ Each policy contains rules for the resource set. These rules are contained withi
 | Missing Field | Example |
 | ------------- | ---- |
 | Issue Assignee | @csmname  |
-| Priority Label | ~"Priority::Top-5"  |
-| Team Label | ~"Team::CSM"   |
-| Status/At Risk label  | ~"SP Objective::Status::On Track"   |
-| Region label  | ~"CS Region::AMER"   |
-| OKR label  | ~"OKR::Yes"  |
+| CS-Priority Label | ~"CS-Priority::Top-5"  |
+| CS-Team Label | ~"CS-Team::CSM"   |
+| CS-Status Label  | ~"CS-Status::On Track"   |
+| CS-Region Label  | ~"CS-Region::AMER"   |
+| OKR label  | ~"OKR"  |
 | LT Sponsorship label  | ~"CSLT::CS DIR NAME"  |
-| Fiscal quarter label  | FY26-Q1  |
+| Milestone  | 18.5  |
 | XLT DRI label  | ~"CSXLT::MGR CS NAME"  |
 
 ## Completion and Review
 
-When the work is complete, label the issue with CS::Ready to indicate that it is done and needs final review by CS Managers and potentially external stakeholders.
+When the work is complete, label the issue with "CS-Status::Ready for Review" to indicate that it is done and needs final review by CS Managers and potentially external stakeholders.
 
-- Prior to tagging CS::Ready, conduct retrospectives and provide summary lessons learnt on the issue. Ensuring we have Lessons Learnt or Objectives Achieved allows us to share & celebrate the work done and completed.
+- Prior to tagging "CS-Status::Ready for Review", conduct retrospectives and provide summary lessons learned on the issue. Ensuring we have Lessons Learnt or Objectives Achieved allows us to share & celebrate the work done and completed.
 
 - Post Review, if no other action is required, move completed issues to "Done" on the board.
 
 ## Labeling System
 
-- **Region**
+Each issue should have labels and field values to satisfy the triage bot policies listed above.  Below is a table of definitions for each label used in our tracking schema.
 
-  - CS Region::AMER
+| Category | Label | Definition |
+| ------------- | ---- | -------------------------------------------------------- |
+| GitLab Department | Customer Success | Defines the relevant GitLab department as Customer Success for global OKR tracking |
+| OKR | OKR | Required label for tracking OKRs across GitLab |
+| Initiative | Initiative | Non-OKR initiative being tracked by CS org |
+| CS-Status | CS-Status::On Track | Issue is progressing as expected |
+| CS-Status | CS-Status::Watchpoint | Issue is running behind and needs re-alignment on objective timeline between DRI team |
+| CS-Status | CS-Status::Concern | Issue has signficant obstacles that jeopardize completion by due date and require leadership assistance |
+| CS-Status | CS-Status::Proposed | Objective or initiatves has been proposed to CS leadership but not yet approved |
+| CS-Status | CS-Status::Not Started | Issue has been identified but work has not yet begun |
+| CS-Status | CS-Status::On Hold | Issue is temporarily paused |
+| CS-Status | CS-Status::Closed Success | Issue has been successfully completed |
+| CS-Status | CS-Status::Closed Not A Priority | Issue was determined to be not be a priority and closed |
+| CS-Status | CS-Status::Ready for Review | Work on the issue is completed and is ready for signoff from leadership |
+| CS-Priority | CS-Priority::Top-5 | Top-5 OKR being tracked by CS leadership  |
+| CS-Priority | CS-Priority::High | OKR or initiative that significantly impact CS team objectives and metrics |
+| CS-Priority | CS-Priority::Medium | OKR or intiative that moderately impact CS team objectives and metrics |
+| CS-Priority | CS-Priority::Low | "Nice-to-have" OKR or intiative that would be beneficial but aren't critical |
+| CS-Region | CS-Region::Global | Organization-wide objective |
+| CS-Region | CS-Region::AMER | AMER specific objective |
+| CS-Region | CS-Region::EMEA | EMEA specific objective |
+| CS-Region | CS-Region::APAC | APAC specific objective |
+| CS-Team | CS-Team::CSM | Customer Success Manager team |
+| CS-Team | CS-Team::CSA | Customer Success Architect team |
+| CS-Team | CS-Team::On Demand (CSE) | Customer Success Engineer team |
+| CS-Team | CS-Team::RM | Renewal Manager team |
+| CS-Team | CS-Team::Tech-Touch | Tech-Touch (Digital Experience) team |
+| CS-Team | CS-Team:: Onboarding | Onboarding team |
+| LT Sponsorship | CSLT::[Name] | CS leadership team member sponsoring objective or initiative |
+| XLT DRI | CSXLT::[Name] | CS manager responible for objective or initiative  |
 
-  - CS Region::EMEA
 
-  - CS Region::APJ
-
-- **Team**
-
-  - Team::CSM
-
-  - Team::CSA
-
-  - Team::CSE
-
-  - Team::RM
-
-- **OKR/non-OKR**
-
-  - OKR::Yes
-
-  - OKR::No
-
-- **Quarter**
-
-  - FYXX-QX
-
-- **Priority**
-
-  - Priority::Top-5
-
-  - Priority::High
-
-  - Priority::Medium
-
-  - Priority::Low
-
-- **Status/At Risk**
-
-  - SP Objective::Status :: On Hold
-
-  - SP Objective::Status :: Concern
-
-  - SP Objective::Status :: On Track
-
-  - SP Objective::Status :: Not Started
-
-  - SP Objective::Status :: Watchpoint
-
-  - SP Objective::Status :: Closed Success 
-
-  - SP Objective::Status :: Closed Not a Priority
-
-- **LT Sponsorship**
-
-  - CSLT:: VP or Dir DRI NAME
-
-- **XLT DRIs**
-
-  - CSXLT:: MGR DRI NAME
 
 ## OKR Schedule
 
