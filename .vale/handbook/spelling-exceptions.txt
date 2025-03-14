@@ -332,6 +332,7 @@ desugar
 desugars
 desynchronized
 Dev
+Devarajan
 devfile
 devfiles
 Devo
@@ -339,6 +340,7 @@ DevOps
 Dhall
 dialogs
 Diffblue
+Dilbeck
 disambiguates
 discoverability
 disempower
@@ -488,6 +490,7 @@ Gemojione
 Getter
 Getters
 gettext
+Geving
 GIDs
 GIFs
 gists
