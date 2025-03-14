@@ -242,8 +242,6 @@ Each issue should have labels and field values to satisfy the triage bot policie
 | LT Sponsorship | CSLT::[Name] | CS leadership team member sponsoring objective or initiative |
 | XLT DRI | CSXLT::[Name] | CS manager responible for objective or initiative  |
 
-
-
 ## OKR Schedule
 
 The CSM OKR timeline is as follows:
