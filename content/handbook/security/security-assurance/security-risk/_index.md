@@ -1,11 +1,7 @@
 ---
 title: "Security Risk Team"
-description: "Security Risk Team"
+description: "Security Risk Team Charter"
 ---
-
-## Security Risk Team Charter
-
-Last Updated: 2025-MM-DD (UPDATE BEFORE MERGE)
 
 ## Mission Statement
 
@@ -105,4 +101,4 @@ This charter will be reviewed and updated quarterly to ensure alignment with:
 1. [Security Assurance Mission and Vision](/handbook/security/security-assurance/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-assurance-mission-and-vision)
 1. Security Assruance Multi-year Strategy - In Development
 
-Next scheduled review: [Date]
+Next scheduled review: 2025-06-16
