@@ -14,6 +14,7 @@ There may be special cases when you need to send an email via Qualtrics or Marke
 - Experiment with subject lines (`We have a new study for you!`; `See if you're a match with our new study`; etc.)
 - If using Qualtrics, adjust the `sent from` display name to `UX Research @ GitLab`
 - If using RallyUXR, ensure that your sending from `research@rally.gitlab.com`. This is our default sender.
+- Your reply-to email address across all tooling should be `research@gitlab.com`, this ensures our teams can actually see responses, queries, or concerns that come into the inbox.
 - If your response rate is low, but you think that your target participants are in your segment, you have the option to send one reminder email rather than immediately starting a new segment. 
 - Keep in mind email responses typically take 24-48 hours to start populating. 
   - Send the reminder no sooner than 4 days after your first email was sent.
