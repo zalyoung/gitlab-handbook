@@ -30,9 +30,12 @@ Claude.ai can answer many different questions and topics. Be creative, curious, 
 
 Below is a collection of useful prompts organized by division, with example use cases for each prompt to help team members leverage AI assistants effectively.
 
+I'll update the prompt library markdown to fix the formatting issues. Here's the corrected version:
+
 ## Sales Division
 
 ### Value Proposition Analysis Prompt
+
 ```markdown
 Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] space. Focus on:
 1. Pain points solved
@@ -45,6 +48,7 @@ Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] spa
 **Example Use Case:** When preparing for a sales call with a prospect in the financial services sector, the sales representative can generate a tailored analysis highlighting GitLab's advantages in meeting compliance requirements and secure CI/CD capabilities.
 
 ### Sales Email Template Generator
+
 ```markdown
 Generate a personalized sales email to [PROSPECT TYPE] who is currently using [CURRENT SOLUTION]. 
 Include:
@@ -60,6 +64,7 @@ Keep the tone professional but conversational and limit to 200 words.
 ## Marketing Division
 
 ### Content Brief Creator
+
 ```markdown
 Create a detailed content brief for a [CONTENT TYPE] about [TOPIC] targeted at [AUDIENCE].
 Include:
@@ -74,6 +79,7 @@ Include:
 **Example Use Case:** Planning a comprehensive blog post about "How to Implement GitOps with GitLab" targeted at DevOps engineers and IT leaders looking to improve deployment reliability and security.
 
 ### Social Media Campaign Planner
+
 ```markdown
 Develop a 2-week social media campaign promoting [GITLAB FEATURE/PRODUCT] across LinkedIn and Twitter.
 For each platform, create:
@@ -89,6 +95,7 @@ Focus on highlighting [SPECIFIC BENEFIT] and target [TARGET AUDIENCE].
 ## General & Administrative
 
 ### Policy Document Summarizer
+
 ```markdown
 Summarize the following [POLICY/DOCUMENT] into:
 1. A one-paragraph executive summary
@@ -100,6 +107,7 @@ Summarize the following [POLICY/DOCUMENT] into:
 **Example Use Case:** Distilling a lengthy updated security compliance document into an easily digestible format for team distribution before quarterly compliance training.
 
 ### Data Analysis Assistant
+
 ```markdown
 Help analyze this [DATA SET] to identify:
 1. Key trends and patterns
@@ -116,6 +124,7 @@ Provide both summary insights and specific data points that support your analysi
 ## Product Division
 
 ### User Story Generator
+
 ```markdown
 Create detailed user stories for implementing [FEATURE] in GitLab. For each user story:
 - Follow the format: "As a [USER TYPE], I want to [ACTION] so that [BENEFIT]"
@@ -128,6 +137,7 @@ Create detailed user stories for implementing [FEATURE] in GitLab. For each user
 **Example Use Case:** Developing comprehensive user stories for a new code review automation feature, ensuring all user types (developers, reviewers, managers) are considered with appropriate acceptance criteria.
 
 ### Code Visualization Assistant
+
 ```markdown
 Visualize the following code to help understand:
 1. Execution flow
@@ -146,6 +156,7 @@ Code:
 ## AI Workflow Prompts
 
 ### Data Set Analysis
+
 ```markdown
 Analyze the attached data file and provide:
 1. Summary of key content
@@ -159,6 +170,7 @@ For [TYPE] data, focus on [SPECIFIC METRICS].
 **Example Use Case:** Analyzing customer usage data to identify adoption patterns of GitLab features, highlighting which user segments are most actively engaged with specific tools.
 
 ### Code Modernization Assistant
+
 ```markdown
 Review this legacy code and provide:
 1. Explanation of current functionality
