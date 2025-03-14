@@ -171,7 +171,12 @@ Ensure the following before running tests:
 
 * `gdk` is up and running
 * Runner is up and running
-* Set `GITLAB_SIMULATE_SAAS` to 0 inside your `env.runit` in the `gitlab-development-kit` directory: `export GITLAB_SIMULATE_SAAS=0`
+* Set `GITLAB_SIMULATE_SAAS` to 0 inside your `env.runit` in the `gitlab-development-kit` directory:
+
+  ```shell
+  export GITLAB_SIMULATE_SAAS=0
+  ```
+
 * Ensure EE License is set as an environment variable.
 
 #### Running QA Tests
@@ -181,21 +186,26 @@ Use the following command to run tests locally against your GDK instance:
 #### Running against your `gdk`
 
 * With a feature flag enabled:
-   ```shell
-    WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
+
+  ```shell
+  WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
   ```
+
 * With a feature flag disabled:
-   ```shell
+
+  ```shell
   WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --disable-feature <feature_flag_name>
   ```
-* Without a feature flag
-   ```shell
-   WEBDRIVER_HEADLESS=false GITLAB_ADMIN_PASSWORD="root_password" GITLAB_QA_ADMIN_ACCESS_TOKEN="api_token_from_gdk" GITLAB_PASSWORD="root_password" QA_LOG_LEVEL=DEBUG QA_GITLAB_URL=http://gdk.test:3000 bundle exec rspec <filename/path>
-   ```
+
+* Without a feature flag:
+
+  ```shell
+  WEBDRIVER_HEADLESS=false GITLAB_ADMIN_PASSWORD="root_password" GITLAB_QA_ADMIN_ACCESS_TOKEN="api_token_from_gdk" GITLAB_PASSWORD="root_password" QA_LOG_LEVEL=DEBUG QA_GITLAB_URL=http://gdk.test:3000 bundle exec rspec <filename/path>
+  ```
 
 #### Running against staging
 
-```
+```shell
 GITLAB_QA_USER_AGENT=<USER_AGENT> GITLAB_ADMIN_USERNAME=<ADMIN_USERNAME>  GITLAB_ADMIN_PASSWORD=<ADMIN_PASSWORD>
 GITLAB_USERNAME=<USERNAME> GITLAB_QA_ACCESS_TOKEN=<ACCESS_TOKEN> GITLAB_PASSWORD=<GITLAB_PASSWORD> QA_DEBUG=true WEBDRIVER_HEADLESS=true bundle exec bin/qa Test::Instance::All https://staging.gitlab.com <filename/path>
 ```
@@ -208,50 +218,70 @@ When a feature needs to check the current license tier, it's important to make s
 
 To emulate this locally, follow these steps:
 
-1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`[^1]
-1. Within the same shell session run `gdk restart`
-1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
+1. Export an environment variable:
+
+   ```shell
+   export GITLAB_SIMULATE_SAAS=1
+   ```
+
+1. Within the same shell session, run:
+
+   ```shell
+   gdk restart
+   ```
+
+1. Navigate to **Admin > Settings > General > "Account and limit"**, and enable "Allow use of licensed EE features".
 
 See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
 
 ### Troubleshooting common errors and fixes
 
-* Error: QA::Resource::Sandbox Fabrication Failed
+* **Error: QA::Resource::Sandbox Fabrication Failed**
   * Error Message:
+
     ```plaintext
-    Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=["public has been restricted by your GitLab administrator"]}" }`
+    Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=[\"public has been restricted by your GitLab administrator\"]}" }`
     ```
+
   * Solution:
     * Navigate to GDK Admin Area → General
     * Under Restricted Visibility Levels, ensure none of the checkboxes are selected.
 
-* Error: API Client Validation Failed
+* **Error: API Client Validation Failed**
   * Error message:
+
     ```plaintext
     An error occurred in a `before(:suite)` hook.
     Failure/Error: raise InvalidTokenError, "API client validation failed! Code: #{resp.code}, Err: '#{resp.body}'"
     ```
+
   * Solution:
     * Ensure your user verification is complete before running a pipeline.
     * Check if your API token is valid.
 
-* Error: Namespace is Not Valid
-   * Error message:
+* **Error: Namespace is Not Valid**
+  * Error message:
+
     ```plaintext
     QA::Resource::Errors::ResourceFabricationFailedError:
-    Fabrication of QA::Resource::Project using the API failed (400) with `{"message":{"namespace":["is not valid"]}}`.
+    Fabrication of QA::Resource::Project using the API failed (400) with `{ "message": { "namespace": ["is not valid"] } }`.
     ```
-   * Solution:
-     * Reset your gdk, by running `gdk data-reset`
+
+  * Solution:
+    * Reset your GDK by running:
+
+      ```shell
+      gdk data-reset
+      ```
 
 ### Running E2E specs in the MR pipeline
 
-We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and reviewing the results when there are changes in:
 
-* GraphQL (API response, query parameters, schema etc)
+* GraphQL (API response, query parameters, schema, etc.)
 * Gemfile (version changes, adding/removing gems)
 * Database schema/query changes
-* Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+* Any frontend changes that directly impact the vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, or license compliance page.
 
 ### Running Govern E2E specs locally against GDK
 
@@ -270,7 +300,7 @@ For any questions, reach out to [#s_developer_experience](https://gitlab.enterpr
 
 * [Testing Code in Merge Requests](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests)
 * [Running Govern E2E Specs Locally Against GDK](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa?ref_type=heads#generic-command-for-a-typical-gdk-installation)
-* [Automatic test execution when a feature flag defintion changes](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes)
+* [Automatic test execution when a feature flag definition changes](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes)
 
 ## Monitoring
 
