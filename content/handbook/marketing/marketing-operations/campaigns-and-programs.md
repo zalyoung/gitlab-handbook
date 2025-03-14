@@ -903,6 +903,9 @@ Interesting Moments for content syndication are global. This means that you only
 
 It is critical that any reference to asset number in Marketo automation (not tokens) uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
 
+- If your asset qualifies for an Action Stream, click on the [Check for Action Stream asset (content synd)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58170A1ZN19) campaign. If your asset does not qualify for an Action Stream, skip this step.
+  - **Smart list**: Filter 1 - Add the Asset number (follow the existing format shown in the filter)
+  - **Flow**: Add the Asset number to the relevant Choice. You will see the Action Stream listed in "New Value" 
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
   - **Flow** (confirm that program references match the Marketo program name):
