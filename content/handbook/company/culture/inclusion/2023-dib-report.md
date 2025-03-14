@@ -29,7 +29,9 @@ To put it simply, we need the contributions of everyone in order
 to transform the industry, empower our team members, and
 help our users change the world.
 
-## From our CEO - To be updated
+## From our CEO
+
+> To be updated
 
 ## GitLab's DIB vision
 
