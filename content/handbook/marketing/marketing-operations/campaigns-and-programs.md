@@ -478,12 +478,12 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
 - **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
-- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type here.
+- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).
 
 ### Step 4: Activate Marketo smart campaign(s)
 
 - Action Stream tagging for programs: The following is relevant for all campaign types, except Content Syndication and LinkedIn Lead Gen forms. Those are handled differently. For webcasts, workshops, events, and gated content, please follow these instructions to properly route leads to Action Streams.
-  - Add the relevant stream type to the {{my.Action Stream}} token
+  - Add the [relevant stream type](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams) to the {{my.Action Stream}} token
   - In the `Processing` flow, select "Execute Campaign" from the right side panel and drag it into the flow. This should go near the bottom of the flow, before any "Remove from Flow" steps.
   - Complete the `Execute Campaign` flow step: Executed Campaign: *Air Traffic Control Automation.Action Stream tagging (programs), Use Parent Campaign Token Context: True  
 - If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#steps-gated-landing-pages).
@@ -1231,7 +1231,7 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 - Step 8: `Execute campaign` - This processes Action Stream tagging. No action required on this step. This should be: Executed Campaign: Action Stream tagging: (LinkedIn) Check Asset
 - Turn on / Activate the triggered campaign in the `schedule` tab of the smart campaign
 - All LinkedIn programs with your form prefix will now flow through this campaign
-- If your new form promotes an asset that qualifies for an action stream (speak to Lifecycle Marketing to find out), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
+- If your new form promotes an asset that [qualifies for an action stream](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
 - Smart List: Add the name of the LinkedIn Lead Gen form in filter 1.
 - Flow: Add the name of the LinkedIn Lead Gen form in filter 1.
 
