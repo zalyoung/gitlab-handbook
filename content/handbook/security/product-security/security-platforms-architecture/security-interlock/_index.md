@@ -19,7 +19,7 @@ In FY26, we are executing on our Security Interlock vision by launching three di
 | ------ | ------ |
 | **Customer Zero** | Security's collabration throughout the development and launch of new features, including requirements delivery, validation of intended functionality and mockups, and alpha/beta testing |
 | **Dogfooding Existing Features** | Ensuring Security's ability to reliably use and derive value from existing features |
-| **Security Product Co-Creation**, also known internally as Project Recursion | Direct contributions of security features, paved paths, and guardrails to the GitLab platform from the Security Division using the [Co-Create Process](/handbook/marketing/developer-relations/cocreate/)
+| **Security Product Co-Creation**, also known internally as Project Recursion | Direct contributions of security features, paved paths, and guardrails to the GitLab platform from the Security Division using the [Co-Create Process](/handbook/marketing/developer-relations/cocreate/) |
 
 We're actively formalizing these workstreams now. We are intentionally starting small with 1-2 target features for each to refine our collaborative interfaces before scaling our efforts. 
 
@@ -28,6 +28,6 @@ We're actively formalizing these workstreams now. We are intentionally starting 
 The Security Interlock Initiative will have 3 designated leaders: 
 
 - The [Security Platforms & Architecture](/handbook/security/product-security/security-platforms-architecture/) team will represent on behalf of the Security Division.
-- The [Sec Section](handbook/engineering/development/sec/) will appoint a Product DRI and Engineering DRI to represent those divisions.
+- The [Sec Section](/handbook/engineering/development/sec/) will appoint a Product DRI and Engineering DRI to represent those divisions.
 
 While all Security Teams will continue to pilot applicable features and provide feedback, this leadership structure will create clear channels for communication and accountability. The goal is to streamline our collaborative efforts, ensure that consolidated, actionable feedback reaches product teams efficiently, and facilitating coordinated development of security features that address real-world needs. By centralizing these interactions, we can better validate requirements, dogfood existing functionality, and contribute security capabilities through a cohesive, cross-functional partnership. 
