@@ -29,30 +29,7 @@ To put it simply, we need the contributions of everyone in order
 to transform the industry, empower our team members, and
 help our users change the world.
 
-## From our CEO
-
-> **GitLab's mission is to make it so that
-> everyone can contribute. You can't reach
-> everyone unless Diversity, Inclusion, and
-> Belonging (DIB) is core to your company
-> and how you work. DIB has always been
-> a core value of GitLab and reflected in
-> the annual company goals:**
->
-> Continue to build a diverse team of top talent that we retain
-> and grow." DIB helps us accelerate innovation, attract top
-> talent, and deepen team member engagement.
-> In fiscal year 2023 (February 2022 through January 2023),
-> GitLab exceeded its aspirational, internal goals for hiring and
-> promotion of team members from,
-> including women in senior leadership and URGs in
-> management positions. I am proud of the progress that the
-> team has made. Building a diverse and inclusive workplace
-> takes time, effort, intentionality, and persistence. And it's an
-> investment we are committed to continue both externally and
-> for our team members, together, one year at a time.
-
-- Sid Sijbrandij, GitLab Co-founder and Chief Executive Officer
+## From our CEO - To be updated
 
 ## GitLab's DIB vision
 
