@@ -1,5 +1,5 @@
 ---
-title: "NATS"
+title: "Introducing a Messaging Layer to the GitLab Application"
 status: proposed
 creation-date: "2025-02-26"
 authors: [ "@ankitbhatnagar", "@arun.sori"]
@@ -191,18 +191,16 @@ nats-2.nats.default.svc.cluster.local
 - We expect to promote the usage of separate principals (users/accounts) across distinct systems, e.g. producers/consumers of a given stream.
 - NATS offers grouping of clients and subject space with [`accounts`](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/accounts).
 
-#### Sample authentication/authorization scheme
+### Example authentication/authorization setup
 
-We take Siphon as an example use case here.
-
-It will cover:
+We take [Siphon](/handbook/engineering/architecture/design-documents/siphon) as an example use-case here, wherein we cover:
 
 - Creation of accounts to isolate clients
   - Adding users to these accounts with specific permissions for available subjects. Authentication will be achieved via [nkeys](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_intro/nkey_auth).
   - Producers and consumers have their own users and permissions.
 - Producer/Consumer nkeys are to be treated with the same security practices as we currently do for our database secrets.
 
-`authorization.conf` ->
+Example `authorization.conf`
 
 ```text
 listen: 127.0.0.1:4222
@@ -231,8 +229,9 @@ accounts: {
 ```
 
 In the above configuration, producer is allowed to publish and subscribe over all the subject space for `siphon` account while consumer is only allowed to subscribe to available subjects.\
-We can also apply further granularity on subject space if desired. [`permissions`](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/authorization#permissions-configuration-map) map allows for such fine-grained control.\
-Example use of this configuration:
+We can also apply further granularity on subject space if desired. [`permissions`](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/authorization#permissions-configuration-map) map allows for such fine-grained control.
+
+Example usage of this configuration:
 
 ```go
 func TestServerConfiguration(t *testing.T) {
