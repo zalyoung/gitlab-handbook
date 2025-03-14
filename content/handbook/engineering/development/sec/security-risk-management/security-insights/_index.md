@@ -218,7 +218,7 @@ When a feature needs to check the current license tier, it's important to make s
 
 To emulate this locally, follow these steps:
 
-1. Export an environment variable:
+1. Export an environment variable[^1]:
 
    ```shell
    export GITLAB_SIMULATE_SAAS=1
@@ -296,7 +296,7 @@ Therefore, it's important to confirm this when introducing a new feature flag. A
 
 For any questions, reach out to [#s_developer_experience](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H).
 
-#### Resources
+### Resources
 
 * [Testing Code in Merge Requests](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests)
 * [Running Govern E2E Specs Locally Against GDK](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa?ref_type=heads#generic-command-for-a-typical-gdk-installation)
