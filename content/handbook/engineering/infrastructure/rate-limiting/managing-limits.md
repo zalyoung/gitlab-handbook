@@ -102,14 +102,25 @@ Rate limits should be enabled by default. If this is not the case, then this pro
 
 ## Cloudflare
 
-Enforcing limits at the edge network before traffic reaches the underlying GitLab infrastructure enables us to block malicious traffic before it consumes backend resources, protecting us against large-scale volumetric attacks. This is however limited in the configuration options we can use to limit on.
+Enforcing limits at the edge network before traffic reaches the underlying GitLab infrastructure enables us to block malicious traffic before it consumes backend resources, protecting us against large-scale volumetric attacks. This is however limited in the configuration options we can use to limit on - primarily IP address, though there are a few other options.
 
 TODO:
 
-- how to set in log mode
+1. Cloudflare rate limits are managed via Terraform, for most consumable services via the cloudflare-waf-rules module. Rules added to this module will affect all other services using this module (currently GitLab Dedicated) (TODO: add link)
+- At the time of writing, Gitlab.com production rules are in `config-mgmt`, which is in the process of migrating to the rules module
+2. When creating a new rule, it is advised to instantiate it with `action = "log"` to analyze impact
+3. After ensuring the rate limit performs as expected, the rule can be set to `action = "block"` in terraform
+
+##### Gitlab Dedicated
+
+Rate limits needed for only GitLab Dedicated Tenants (not Dotcom) will need to be added to Instrumentor
+
+TODO: Reach out to Dedicated for input
+
+<!-- - how to set in log mode
 - if adding to cloudflare-waf-modules - how?
 - if adding to custom-rule for DotCom - how?
-- if adding to Dedicated - how? (may need to ask Dedicated team about this one)
+- if adding to Dedicated - how? (may need to ask Dedicated team about this one) --> -->
 
 ## Application
 
