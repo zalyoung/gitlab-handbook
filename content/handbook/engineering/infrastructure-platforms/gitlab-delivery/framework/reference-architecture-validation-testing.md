@@ -35,7 +35,7 @@ For detailed information about current test scenarios, see the [Test Details wik
 
 ## Test Process
 
-Our testing process runs continuously against various Reference Architectures sizes across the main Cloud Providers using GitLab's latest or nightly releases, enabling early detection and remediation of performance issuesL
+Our testing process runs continuously against various Reference Architectures sizes across the main Cloud Providers using GitLab's latest or nightly releases, enabling early detection and remediation of performance issues.
 
 1. **Environment Preparation**
    - Deploys or updates target environment using [test environment config](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/get-environments/ra-test-environments)
