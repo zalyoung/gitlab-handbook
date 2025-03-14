@@ -143,8 +143,8 @@ Content DRI’s will be in charge of creating their presentations based off of t
 6. **For Brand Creative review:** The Corporate Events Content Manager will [create a presentatio request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request) issue and work with the Brand Team or designated agency for clean up & review.
     * **Note:** Brand will not be doing major design work for these presentations. They should come for review as a final presentation that will only need to be cleaned up in terms of brand consistency and messaging.
 7. **For Copy Edit review:** the Corporate Events Content Manager will [create a content marketing issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/new?issuable_template=editing-request) for presentations to be reviewed from a copy editing standpoint and the content DRI will address any feedback that they have.
-9. The presentation will then go to the overall content DRI/speaker and track DRI for a final review before the presentation is deemed final.
-10. Once the presentation is deemed final, it will be converted to either Keynote or PPT for event execution.
+8. The presentation will then go to the overall content DRI/speaker and track DRI for a final review before the presentation is deemed final.
+9. Once the presentation is deemed final, it will be converted to either Keynote or PPT for event execution.
 
 ## Third Party Sponsored Events
 
