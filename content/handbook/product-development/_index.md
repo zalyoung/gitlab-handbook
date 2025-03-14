@@ -18,7 +18,7 @@ We will be using 4W1H a modified version without "where" of the 5W1H is a genera
 | **WHO?** | Who are our target customers, users, and buyers? <br> **UX Lead**  |
 | **WHAT?** | What is the product vision, strategy, roadmap, and priority of features based on business value and user needs? <br> **Product Lead**  <br> <br> What are our users' pains and needs? What design solutions and implementation specifications <sup>*</sup> can optimize both the user experience and business value   <br> **UX Lead** |
 | **WHY?** | Why do we need to solve a given business problem? Why do users need a given capability? <br> **Product Lead** <br> <br> Why do users experience dissatisfaction or unmet expectations?<br> **UX Lead** |
-| **HOW?** | How will we architect and build the technical solution that delivers the required capabilities with the desired quality? <br> **Technical Lead** 
+| **HOW?** | How will we architect and build the technical solution that delivers the required capabilities with the desired quality? <br> **Technical Lead** |
 | **WHEN?** |  When can the technical solution be built, tested, and made available to users per required capabilities, UX, and quality? <br> **Delivery Lead** |
 
 \* *Design solutions*  can come in myriad forms, including wireframes, mock-ups, prototypes, journey maps, flow diagrams, Pajamas documentation, etc.  
@@ -26,7 +26,7 @@ We will be using 4W1H a modified version without "where" of the 5W1H is a genera
 
 ### Leads and their Responsibilities
 
-With a foundation of shared responsibility for delivering results, each team member is accountable to ensure their expertise is leveraged to cover critical responsibilities within the team. These critical responsibilities are covered by **_leads_**, who serve as primary orchestrators and focal points for a responsibility area. This does not mean a lead is the sole executor of their responsibility area, rather they serve as a "go-to" person with the following expectations:
+With a foundation of shared responsibility for delivering results, each team member is accountable to ensure their expertise is leveraged to cover critical responsibilities within the team. These critical responsibilities are covered by ***leads***, who serve as primary orchestrators and focal points for a responsibility area. This does not mean a lead is the sole executor of their responsibility area, rather they serve as a "go-to" person with the following expectations:
 
 - Maintain the big picture view of their respective area(s)
 - Ensure nothing falls through the cracks
@@ -115,16 +115,16 @@ Legend
 
 ## Product Development Interlock for Roadmap Planning & Execution
 
-**_Under construction - coming soon_**
+***Under construction - coming soon***
 
 ### Resource Allocation Framework and Prioritization
 
-**_Under construction - coming soon_**
+***Under construction - coming soon***
 
 ### Roadmap Structure
 
-**_Under construction - coming soon_**
+***Under construction - coming soon***
 
 ### Alignment Process and Timelines
 
-**_Under construction - coming soon_**
+***Under construction - coming soon***
