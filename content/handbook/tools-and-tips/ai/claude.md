@@ -35,7 +35,7 @@ Below is a collection of useful prompts organized by division, with example use 
 #### Value Proposition Analysis Prompt
 
 ```markdown
-Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] space. Focus on:
+Analyze how a company's features address key challenges in the [MARKET SEGMENT] space. Focus on:
 1. Pain points solved
 2. Feature advantages
 3. Customer support benefits
@@ -43,7 +43,7 @@ Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] spa
 5. ROI potential
 ```
 
-**Example Use Case:** When preparing for a sales call with a prospect in the financial services sector, the sales representative can generate a tailored analysis highlighting GitLab's advantages in meeting compliance requirements and secure CI/CD capabilities.
+**Example Use Case:** When preparing for a sales call with a prospect in the financial services sector, the sales representative can generate a tailored analysis highlighting advantages in meeting compliance requirements and secure CI/CD capabilities.
 
 #### Sales Email Template Generator
 
@@ -51,13 +51,13 @@ Analyze how GitLab's features address key challenges in the [MARKET SEGMENT] spa
 Generate a personalized sales email to [PROSPECT TYPE] who is currently using [CURRENT SOLUTION]. 
 Include:
 - Pain points they might be experiencing
-- Specific GitLab features that address these pain points
+- Specific features that address these pain points
 - A clear value proposition
 - Soft call-to-action for a demo
 Keep the tone professional but conversational and limit to 200 words.
 ```
 
-**Example Use Case:** Creating tailored outreach emails to development team leads at healthcare companies who are using fragmented DevOps tools and could benefit from GitLab's single application approach.
+**Example Use Case:** Creating tailored outreach emails to development team leads at healthcare companies who are using fragmented DevOps tools and could benefit from a single application approach.
 
 ### Marketing Division
 
@@ -74,12 +74,12 @@ Include:
 - Call-to-action recommendations
 ```
 
-**Example Use Case:** Planning a comprehensive blog post about "How to Implement GitOps with GitLab" targeted at DevOps engineers and IT leaders looking to improve deployment reliability and security.
+**Example Use Case:** Planning a comprehensive blog post about "How to Implement GitOps with a company" targeted at DevOps engineers and IT leaders looking to improve deployment reliability and security.
 
 #### Social Media Campaign Planner
 
 ```markdown
-Develop a 2-week social media campaign promoting [GITLAB FEATURE/PRODUCT] across LinkedIn and Twitter.
+Develop a 2-week social media campaign promoting [FEATURE/PRODUCT] across LinkedIn and Twitter.
 For each platform, create:
 - 5 unique post ideas with copy variants (280 chars for Twitter, 700 chars for LinkedIn)
 - Hashtag recommendations
@@ -88,7 +88,7 @@ For each platform, create:
 Focus on highlighting [SPECIFIC BENEFIT] and target [TARGET AUDIENCE].
 ```
 
-**Example Use Case:** Creating a campaign to promote GitLab's new AI-assisted code review features targeting development teams looking to improve code quality and reduce review time.
+**Example Use Case:** Creating a campaign to promote AI-assisted code review features targeting development teams looking to improve code quality and reduce review time.
 
 ### General & Administrative
 
@@ -124,7 +124,7 @@ Provide both summary insights and specific data points that support your analysi
 #### User Story Generator
 
 ```markdown
-Create detailed user stories for implementing [FEATURE] in GitLab. For each user story:
+Create detailed user stories for implementing a [FEATURE]. For each user story:
 - Follow the format: "As a [USER TYPE], I want to [ACTION] so that [BENEFIT]"
 - Include acceptance criteria
 - Suggest story points (1, 2, 3, 5, 8)
@@ -165,7 +165,7 @@ Analyze the attached data file and provide:
 For [TYPE] data, focus on [SPECIFIC METRICS].
 ```
 
-**Example Use Case:** Analyzing customer usage data to identify adoption patterns of GitLab features, highlighting which user segments are most actively engaged with specific tools.
+**Example Use Case:** Analyzing customer usage data to identify adoption patterns of features, highlighting which user segments are most actively engaged with specific tools.
 
 #### Code Modernization Assistant
 
