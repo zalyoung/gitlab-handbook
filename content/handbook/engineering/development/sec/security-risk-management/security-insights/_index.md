@@ -133,7 +133,7 @@ If a support engineer requests assistance via Slack and it requires investigatio
 * [s_srm](https://gitlab.enterprise.slack.com/archives/C07QUBQ98S1)
 * [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
 
-We utilize a standardized [Request for Help](https://gitlab.com/gitlab-com/request-for-help) process to request formal assistance from our group . This helps with visibility, tracking and review. Please submit a new Request for Help for Security Insights using [this template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Security-Insights). 
+We utilize a standardized [Request for Help](https://gitlab.com/gitlab-com/request-for-help) process to request formal assistance from our group . This helps with visibility, tracking and review. Please submit a new Request for Help for Security Insights using [this template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Security-Insights).
 
 ### MR Reviews
 
@@ -152,7 +152,7 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Security Insights Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?milestone_title=Started&label_name[]=group%3A%3Asecurity%20insights)
-  * Primary board showing the stage of currently planned issues. 
+  * Primary board showing the stage of currently planned issues.
 
 * [Security Insights "Who's working on what" board](https://gitlab.com/groups/gitlab-org/-/boards/7145903?milestone_title=Started)
   * Shows issues assigned to engineers on our team.
@@ -160,6 +160,87 @@ We follow these guidelines when submitting MRs for review when the change is wit
 These boards show current status of issues.
 
 ## Quality
+
+## Quality and E2E Specs
+
+### Running and Fixing E2E specs
+
+#### Prerequisites
+
+Ensure the following before running tests:
+- `gdk` is up and running
+- Runner is up and running
+- Set `GITLAB_SIMULATE_SAAS` to 0 inside your `env.runit` in the `gitlab-development-kit` directory: `export GITLAB_SIMULATE_SAAS=0`
+- Ensure EE License is set as an environment variable.
+
+#### Running QA Tests
+Use the following command to run tests locally against your GDK instance:
+
+#### Running against your `gdk`
+- With a Feature flag enabled:
+   ```
+    WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
+  ```
+- With a Feature flag disabled:**
+   ```
+  WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --disable-feature <feature_flag_name>
+  ```
+- Without a feature flag
+   ```
+   WEBDRIVER_HEADLESS=false GITLAB_ADMIN_PASSWORD="root_password" GITLAB_QA_ADMIN_ACCESS_TOKEN="api_token_from_gdk" GITLAB_PASSWORD="root_password" QA_LOG_LEVEL=DEBUG QA_GITLAB_URL=http://gdk.test:3000 bundle exec rspec <filename/path>
+   ```
+
+#### Running against staging
+
+
+```
+GITLAB_QA_USER_AGENT=<USER_AGENT> GITLAB_ADMIN_USERNAME=<ADMIN_USERNAME>  GITLAB_ADMIN_PASSWORD=<ADMIN_PASSWORD>
+GITLAB_USERNAME=<USERNAME> GITLAB_QA_ACCESS_TOKEN=<ACCESS_TOKEN> GITLAB_PASSWORD=<GITLAB_PASSWORD> QA_DEBUG=true WEBDRIVER_HEADLESS=true bundle exec bin/qa Test::Instance::All https://staging.gitlab.com <filename/path>
+```
+
+The credentials are to be found in 1Password.
+
+#### Local testing of licensed features
+
+When a feature needs to check the current license tier, it's important to make sure this also works on GitLab.com.
+
+To emulate this locally, follow these steps:
+
+1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`[^1]
+1. Within the same shell session run `gdk restart`
+1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
+
+See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
+
+### Troubleshooting common errors and fixes
+
+- Error: QA::Resource::Sandbox Fabrication Failed
+  - Error Message:
+    ```
+    Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=>["public has been restricted by your GitLab administrator"]}" }`
+    ```
+  - Solution:
+    - Navigate to GDK Admin Area → General
+    - Under Restricted Visibility Levels, ensure none of the checkboxes are selected.
+
+- Error: API Client Validation Failed
+   - Error message:
+       ```
+      An error occurred in a `before(:suite)` hook.
+      Failure/Error: raise InvalidTokenError, "API client validation failed! Code: #{resp.code}, Err: '#{resp.body}'"
+      ```
+   - Solution:
+     - Ensure your user verification is complete before running a pipeline.
+     - Check if your API token is valid.
+
+- Error: Namespace is Not Valid
+   - Error message:
+       ```
+      QA::Resource::Errors::ResourceFabricationFailedError:
+      Fabrication of QA::Resource::Project using the API failed (400) with `{"message":{"namespace":["is not valid"]}}`.
+      ```
+   - Solution:
+     - Reset your gdk, by running `gdk data-reset`
 
 ### Running E2E specs in the MR pipeline
 
@@ -178,6 +259,16 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
 Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
+
+## Notes and Resources on QA Testing
+
+- For any questions, reach out to [#s_developer_experience](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H).
+- The MR pipeline does not fully mimic the staging pipeline. Specs may pass in the MR pipeline but fail on staging once a feature flag is enabled.
+
+#### Resources
+- [Testing Code in Merge Requests](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests)
+- [Running Govern E2E Specs Locally Against GDK](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa?ref_type=heads#generic-command-for-a-typical-gdk-installation)
+- [Automatic test execution when a feature flag defintion changes](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes)
 
 ## Monitoring
 
