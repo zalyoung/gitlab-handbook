@@ -93,7 +93,7 @@ Establishing a complete and accurate inventory of assets is key to the success o
 | 1 | Enhance our Acceptable Use Policy Program | - Block unnecessary or insecure integrations <br> - Define processes for new integrations <br> - Restrict privileges to install integrations without security and privacy reviews | Ongoing, FY26-27 |
 | 2 | Consolidate Security Division Issues/Recommendations | - Inventory of all sources of recommendations from the Security Division <br>- Centralized view of all issues/recs. across Security Division<br>- Standardization across issues/recs. with documentation standards<br>- Scalable management of issues/recs. to improve adoption | In progress<br>Target Comp.: Q3 |
 | 3 | Corporate and Product Disaster Recovery Planning and Governance | - Collaborate with Business Teams to plan and govern the execution of BC/DR control activities to fulfill external certification requirements <br> - Perform RTO/RPO analysis for critical vendor systems, escalate gaps/discrepancies compared to RTO/RPO recommendations, and draft a resolution plan | In progress; Target completion: Q2-end |
-| 4 | Update Security Assurance KPIs | | |
+| 4 | Update Security Assurance KPIs | Develop a comprehensive Security Assurance metrics dashboard to monitor, measure, and validate that all security process success criteria are being effectively tracked and achieved | In progress; Target completion: Q2 |
 
 ## Review and Updates
 
