@@ -23,7 +23,7 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 ### Accounts
 
 - All AMER SMB Accounts are owned by the AMER SMB Sales User.
-- AllJ SMB Accounts are owned by the APJ SMB Sales User.
+- All APJ SMB Accounts are owned by the APJ SMB Sales User.
 - All EMEA SMB Accounts are owned by the EMEA SMB Sales User.
 - Note that in SMB only, AMER & APJ are considered one territory.
 
@@ -86,6 +86,7 @@ Instructions and resources for working each case type are found in the consolida
 If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APJ/ EMEA Sales Users are not monitored).
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
+[FY26 SMB/SDR Handover Process](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit?gid=920984489#gid=920984489)
 
 - Navigate to the end user *Account* in Salesforce.
 - Hover over *Cases*, and select *New Case*.
@@ -102,9 +103,9 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
   - *FO Opp (Startup)* if you reside in the Community relation team, and a free customer is ready to transition to paid.
   - *AR Request* (if you are in AR/ Billing)
   - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
-- Select a *Case Reason* based on the customers needs.
-- **Ensure the Account, Contact, or Lead Owner is AMER/EMEA/APJ SMB Sales and click *Save*.If this is not done, the case will not route to the appropriate SMB team, and will not be actioned**
-- This Case will now route to the SMB team, and will be actioned by a SMB Advocate.
+- **SDR must assign the opportunity to the AMER/EMEA/APJ Sales User and create a case with the Subject: *FO Opp*. *Note*: Please ensure the Account includes a complete Billing Address prior to assigning the opportunity to the AMER/EMEA/APJ Sales User.**
+- SDR changes the case owner to the SMB Advocate that the IQM is booked with. When setting the Advocate as the case owner, they must check the *Send Notification Email* checkbox.
+- This Case will now routed and worked by a SMB Advocate.
 - Note: if an open SMB Case already exists on the account, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account, and send them a chatter message on the case.
 - If a case has not been actioned as per the stated SLA, please chatter the regions [ASM](https://gitlab.my.salesforce.com/00OPL000000rpxF2AQ) on the case to escalate.
 
