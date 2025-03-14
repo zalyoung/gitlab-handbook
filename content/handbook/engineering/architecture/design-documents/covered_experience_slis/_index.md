@@ -255,6 +255,8 @@ Examples:
 | merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
 | git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
 
+Given the Application SLIs are implemented in the [Rails monolith](https://gitlab.com/gitlab-org/gitlab), it will also function as a [registry](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4099) to store the definitions for the Covered Experience SLIs.
+
 ### SDK Requirements
 
 - Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
