@@ -478,9 +478,13 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
 - **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type here.
 
 ### Step 4: Activate Marketo smart campaign(s)
-
+- Action Stream tagging for programs: The following is relevant for all campaign types, except Content Syndication and LinkedIn Lead Gen forms. Those are handled differently. For webcasts, workshops, events, and gated content, please follow these instructions to properly route leads to Action Streams.
+     - Add the relevant stream type to the {{my.Action Stream}} token
+     - In the `Processing` flow, select "Execute Campaign" from the right side panel and drag it into the flow. This should go near the bottom of the flow, before any "Remove from Flow" steps.
+     - Complete the `Execute Campaign` flow step: Executed Campaign: *Air Traffic Control Automation.Action Stream tagging (programs), Use Parent Campaign Token Context: True  
 - If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#steps-gated-landing-pages).
 - If this is a `Vendor Arranged Meeting`:
   - Click the `Smart Campaigns` folder
