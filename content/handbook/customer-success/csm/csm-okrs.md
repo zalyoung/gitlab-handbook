@@ -196,7 +196,7 @@ Each policy contains rules for the resource set. These rules are contained withi
 | CS-Region Label  | ~"CS-Region::AMER"   |
 | OKR label  | ~"OKR"  |
 | LT Sponsorship label  | ~"CSLT::CS DIR NAME"  |
-| Milestone  | 18.5  |
+| Milestone  | ~FYXX-QX  |
 | XLT DRI label  | ~"CSXLT::MGR CS NAME"  |
 
 ## Completion and Review
