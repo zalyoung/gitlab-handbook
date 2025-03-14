@@ -26,7 +26,7 @@ Claude.ai can answer many different questions and topics. Be creative, curious, 
    - Learn about the [Anthropic SDK](https://docs.anthropic.com/en/docs/initial-setup#install-the-sdk) and community projects for CLIs: [anthropic-cli](https://github.com/dvcrn/anthropic-cli)
 1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 
-# Example Prompt Library
+## Example Prompt Library
 
 Below is a collection of useful prompts organized by division, with example use cases for each prompt to help team members leverage AI assistants effectively.
 
