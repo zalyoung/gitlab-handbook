@@ -19,6 +19,8 @@ Use this workflow when a customer requests that we restore projects or groups th
    1. For all other requests, refrain from letting the customer know that we **will** or **won't** be able to restore until the feasibility assessment is complete in the RFH
 1. Follow up with the customer based on the result of the conversation in the RFH  
 
+If you are unsure how to communicate the result of the RFH to the customer, you can ask in [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) or reach out to the customer's CSM.
+
 ## Additional Resources
 
 - [Restoring Deleted Data Requests](restore_requests.md) for GitLab.com
