@@ -181,15 +181,15 @@ Use the following command to run tests locally against your GDK instance:
 #### Running against your `gdk`
 
 * With a feature flag enabled:
-   ```
+   ```shell
     WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
   ```
 * With a feature flag disabled:
-   ```
+   ```shell
   WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --disable-feature <feature_flag_name>
   ```
 * Without a feature flag
-   ```
+   ```shell
    WEBDRIVER_HEADLESS=false GITLAB_ADMIN_PASSWORD="root_password" GITLAB_QA_ADMIN_ACCESS_TOKEN="api_token_from_gdk" GITLAB_PASSWORD="root_password" QA_LOG_LEVEL=DEBUG QA_GITLAB_URL=http://gdk.test:3000 bundle exec rspec <filename/path>
    ```
 
@@ -218,16 +218,16 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
 
 * Error: QA::Resource::Sandbox Fabrication Failed
   * Error Message:
-  ```
-  Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=>["public has been restricted by your GitLab administrator"]}" }`
-  ```
+    ```plaintext
+    Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=["public has been restricted by your GitLab administrator"]}" }`
+    ```
   * Solution:
     * Navigate to GDK Admin Area → General
     * Under Restricted Visibility Levels, ensure none of the checkboxes are selected.
 
 * Error: API Client Validation Failed
   * Error message:
-    ```
+    ```plaintext
     An error occurred in a `before(:suite)` hook.
     Failure/Error: raise InvalidTokenError, "API client validation failed! Code: #{resp.code}, Err: '#{resp.body}'"
     ```
@@ -237,7 +237,7 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
 
 * Error: Namespace is Not Valid
    * Error message:
-    ```
+    ```plaintext
     QA::Resource::Errors::ResourceFabricationFailedError:
     Fabrication of QA::Resource::Project using the API failed (400) with `{"message":{"namespace":["is not valid"]}}`.
     ```
