@@ -27,7 +27,6 @@ The number you use should be the total that `extra_shared_runners_minutes_limit`
 
 `/chatops run namespace minutes cutecat 2337`
 
-
 ## User
 
 Uses the GitLab API for managing users.
