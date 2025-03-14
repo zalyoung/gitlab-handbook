@@ -39,10 +39,12 @@ An idea that has been broached on numerous occasions is to increase the bonding 
 Essentially, while the proposed implementation uses the word "branches", some users have mentioned the desire to track vulnerabilities present as specific branches. To get the best of both worlds and potentially more, the ideal would be to track the actual commit SHA values that a vulnerability is present in. With this it becomes possible for us to search, filter and compare vulnerability information across the history of the respository. This would allow comparisons and tracking of branches, tags, or even commits themselves theoretically. 
 
 Benefits: 
+
 - Comparing any commit to any commit is super simple. Since Tags and Branches are simply identifiers for a sequence of commits, this means we can compare vulnerabilty states very easily.
 - Because most commmits are probably present in 
 
 Risks:
+
 - Controlling the scaling for this approach coulb be complicated, or force us to reduce the benefit of doing it in the first place. 
 
 #### Growth Estimation
