@@ -90,7 +90,7 @@ The Duo Workflow Team communicates based on the following guidelines:
 
 ## Sentry Error Triage
 
-New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts_channel]. We set up a triage process in order to stay on top of these errors.
+New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts channel](https://app.slack.com/client/E03N1RJJX7C/C07V276CFQX). We set up a triage process in order to stay on top of these errors.
 Every week a different backend engineer of the team is responsible for triaging new messages in this channel.
 The schedule for triage shifts can be found in the [iteration issues](https://gitlab.com/groups/gitlab-org/-/epics/16048).
 While on shift the engineer should:
@@ -109,7 +109,7 @@ While on shift the engineer should:
 ### Triage Schedule
 
 | Week                    | Engineer                |
-| ----------------------- | –---------------------- |
+| ----------------------- | ----------------------- |
 | 2025/02/10 - 2025/02/16 | @ssuman3                |
 | 2025/02/17 - 2025/02/23 | @jfypk                  |
 | 2025/02/24 - 2025/03/02 | @halilcoban             |
@@ -131,7 +131,6 @@ Demo, Progress and sharing designs is ok, but internal feedback issues and unstr
 ## 🔗 Useful Links
 
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/duo-workflow)
-* [Duo Workflow troubleshooting](troubleshooting.md)
 * [LangGraph Workshop](https://gitlab.com/gitlab-org/duo-workflow/langgraph-workshop)
 
 ### 📝 Dashboards (internal only)
