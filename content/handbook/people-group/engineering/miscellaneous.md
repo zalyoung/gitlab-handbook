@@ -97,3 +97,17 @@ We utilize a GitLab.com group for internal communications ('pings') on GitLab.co
 This group is public https://gitlab.com/gl-people-engineering, and can be mentioned by tagging `@gl-people-engineering` within an issue, merge request, or epic on GitLab.com.
 
 > Project creation for this group has been disabled, all People Group Engineering projects that can be public should be committed to https://gitlab.com/gitlab-com/people-group-public/engineering.
+
+## Access Request issue closing
+
+Access Requests open for longer than 30 days will be closed automatically by the Employment Bot.
+
+We run this job once a week to check for any open issues older than 30 days, except for ones with the `AccessReview` label, and leave the following note closing the issue:
+
+```text
+This access request issue has been open for more than 30 days. It is being automatically closed to de-clutter this issue tracker.
+
+If there are any tasks remaining or this was not supposed to be closed, reopen the issue and ping the DRIs to get them completed as soon as possible.
+
+/close
+````
