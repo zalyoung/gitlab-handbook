@@ -400,7 +400,7 @@ the [Structural Check](/handbook/marketing/blog/release-posts/#structural-check)
 
 ## Monthly documentation releases
 
-When a new GitLab version is released, the Technical Writing team releases [version-specific published documentation](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
+When a new GitLab version is released, the Technical Writing team releases [version-specific published documentation](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/blob/main/doc/releases.md).
 
 ## Documentation feedback and improvements
 
@@ -484,10 +484,8 @@ We often create documentation issues for a Hackathon. These issues are typically
 1. Run Vale against the full docset. Go to the GitLab repo and run:
    `find doc -name '*.md' | sort | xargs vale --minAlertLevel suggestion --output line > ../results.txt`
 
-1. Create issues. You have a few options:
+1. Create issues. You have two options:
 
-   - Use a [script](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/scripts/create_issues.js) to create one issue for each markdown file listed in the Vale results.
-     This script uses the [`Doc cleanup` issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Doc_cleanup.md).
    - Create issues one at a time by using the `Doc cleanup` issue template.
    - Create issues in bulk by using the [Issues API](https://docs.gitlab.com/api/issues/#new-issue).
 
@@ -533,7 +531,7 @@ To further classify the type of effort, include one or more of the following lab
 - [`development guidelines`](https://gitlab.com/gitlab-org/gitlab/-/labels?utf8=%E2%9C%93&subscribed=&search=development+guidelines): Files in the `/developer` directory.
 - [`docs-missing`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=docs-missing): Documentation for a feature is missing. Documentation is required with the delivery of a feature for a specific milestone as part of the GitLab [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done). Add this label to the original feature MR or issue where documentation is missing. Keep the label for historical tracking and use `tw::finished` to indicate when documentation is completed. Does not apply to [experimental features](https://docs.gitlab.com/policy/development_stages_support/#experiment).
 - [`documentation`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&sort=relevance&search=documentation): Files in the `/doc` directory.
-- [`global nav item`](https://gitlab.com/gitlab-org/gitlab-docs/-/labels?subscribed=&sort=relevance&search=global+nav+item): Left nav of the docs site. Used in the `gitlab-docs` project.
+- [`global nav`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/labels?subscribed=&sort=relevance&search=global+nav): Left nav of the docs site. Used in the `docs-gitlab-com` project.
 - [`L10N-docs`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=l10n-docs):  Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure.
 - [`release post item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=release+post+item): Release post items.
 - [`Technical Writing Leadership`](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=tech+writing+leadership): Work driven or owned by the Technical Writing leadership team, such as OKRs.
