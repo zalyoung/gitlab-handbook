@@ -17,7 +17,7 @@ Use this workflow when a customer requests that we restore projects or groups th
 1. If the customer can not self-serve the recovery, open an RFH to discuss the feasibility of a restore
    1. Note that requests to restore a single project for a single user will be declined.
    1. For all other requests, refrain from letting the customer know that we **will** or **won't** be able to restore until the feasibility assessment is complete in the RFH
-1. Follow up with the customer based on the conversation in the RFH  
+1. Follow up with the customer based on the result of the conversation in the RFH  
 
 ## Additional Resources
 
