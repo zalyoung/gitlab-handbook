@@ -272,6 +272,15 @@ The global Field Marketing team is working with the Marketing Operations team to
 
 - [Asana](/handbook/marketing/marketing-operations/asana/)
 
+### Asana tips and best practices
+
+1. If you do not need a task, please delete all subtasks and then the task itself. This will remove the task from the view of everyone involved and is less confusing. Changing the task status can be overwritten by the rules we have set in place, so it’s better to delete if you aren’t using it. Examples of tasks that should be deleted if you are not using them: Build Landing Page, Email tasks, Build Target List.
+1. Do not make any changes to or delete the “Host Live Event” task (or the task that just has the name of the event on it). This is used for the SSOT Marketing Calendar. It will auto-populate, no action required on your part.
+1. When you complete a task that is assigned to you, please be sure to click “Mark Complete”. You can find the “Mark Complete” button at the top of the task. We have several rules to automate the task status field, but they depend on tasks being marked complete when they are done to move to the next step of the workflow.
+1. You have subtasks on emails called “Email approved by DRI” and on landing pages called “Landing page approved by DRI”. If you approve the sample/page, please be sure to click “Approve” on these tasks. This will record your approval and trigger the next step in the workflow (push live, schedule to send, etc).
+1. If you copy new Email tasks from the template, please be sure to change the subtasks from “(template)” to the email number (as well as the main task). This will help avoid confusion in notifications and on My Tasks.
+1. We have added boards for MOps and Lifecycle to track their tasks. Relevant subtasks for these teams will be automatically added to the respective projects upon project creation. **If you create a new task** (or subtask, in the case of emails, landing pages, etc) after the project is created, please be sure to add the MOps subtasks to: `OP - Marketing Operations Support` and the Lifecycle subtasks to: `Lifecycle Marketing - Email Approvals`.
+
 ## Process for moving events from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
@@ -995,11 +1004,11 @@ The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjD
 
 After the initial pull, the regional marketers are responsible for adding any new tactics for the quarter if we are mid-quarter.
 
-If an event is created after this quarterly transfer, the event DRI is responsible for adding the event to the SSoT calendar. Please see the [rescheduling or cancellation guidelines](/handbook/marketing/field-marketing/#rescheduling-or-cancelling-events) for additional details regarding changes or cancellations to existing events.
+If an event is created after this quarterly transfer, the event DRI is responsible for adding the event to the SSoT calendar. Please see the [rescheduling or cancellation guidelines](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events) for additional details regarding changes or cancellations to existing events.
 
 #### AMER SSoT
 
-In the AMER region, managers are responsible for the [Marketing SSoT above](/handbook/marketing/field-marketing/#marketing-ssot-calendarhandbookmarketingmarketing-calendar), but also the AMER SSoT [here](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
+In the AMER region, managers are responsible for the [Marketing SSoT above](/handbook/marketing/field-marketing/#marketing-ssot-calendar), but also the AMER SSoT [here](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
 
 Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the AMER Regional Manager will download the team's plans from Allocadia and will upload to the [AMER SSoT](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
 
@@ -1015,19 +1024,19 @@ Details on how Field Marketing shares quarterly plans with the Digital team can 
 
 #### Asks into the Customer Reference team
 
-After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Director of Market Strategy & Insights. The regional FMMs as well as the regional customer reference manager should also be invited to this meeting. During this meeting, the team will review asks into the [Customer reference team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/) and agree on asks for the quarter.
+After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#i-classfas-fa-calendar-check-fa-fw-color-orange-font-awesomei-marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Director of Market Strategy & Insights. The regional FMMs as well as the regional customer reference manager should also be invited to this meeting. During this meeting, the team will review asks into the [Customer reference team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/) and agree on asks for the quarter.
 
 You will note in Allocadia in the details panel if you need a customer speaker. [Video walk through](https://youtu.be/VYwBXmpJrDg) (you must be logged into GitLab Unfiltered to view.)
 
 ### Asks into BDR org
 
-After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Regional Manager of BDR and Director, Sales Dev Operations. The regional FMMs as well as the regional managers should also be invited to this meeting. During this meeting, the team will review asks into the BDR org. Further details on this process can be [found here.](/handbook/marketing/sales-development/#approvals-required)
+After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#i-classfas-fa-calendar-check-fa-fw-color-orange-font-awesomei-marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Regional Manager of BDR and Director, Sales Dev Operations. The regional FMMs as well as the regional managers should also be invited to this meeting. During this meeting, the team will review asks into the BDR org. 
 
 You will note in Allocadia in the details panel if you need BDR support. [Video walk through](https://youtu.be/VYwBXmpJrDg) (you must be logged into GitLab Unfiltered to view.)
 
 ### Asks into the SA org
 
-After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Regional Manager of SAs. The regional FMMs as well as the regional managers should also be invited to this meeting. During this meeting, the team will review asks into the SA org.
+After the quarterly FMM plans have been added to the [marketing calendar](/handbook/marketing/#i-classfas-fa-calendar-check-fa-fw-color-orange-font-awesomei-marketing-calendar), the regional Manager of FMM will set up an alignment meeting with the Regional Manager of SAs. The regional FMMs as well as the regional managers should also be invited to this meeting. During this meeting, the team will review asks into the SA org.
 
 You will note in Allocadia in the details panel if you need SA support. [Video walk through](https://youtu.be/VYwBXmpJrDg) (you must be logged into GitLab Unfiltered to view.)
 
@@ -1096,7 +1105,7 @@ We cannot use GitLab MDF dollars to fund joint campaigns.
 
 ### Lead Management in the Channel
 
-Please refer to the [Channel Partner Joint GitLab events handbook page](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) for details on how we set up our joint campaign and also lead sharing with the channel as a result of those campaings.
+Please refer to the [Channel Partner Joint GitLab events handbook page](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup) for details on how we set up our joint campaign and also lead sharing with the channel as a result of those campaings.
 
 All campaigns we are working with channel partners must flow through the outlined process as a way to ensure we are tracking the success of the campaign properly.
 
@@ -1442,7 +1451,7 @@ The Field Marketing team works from issues and issue boards. If you need our ass
 - `FMC EMEA - Event Tracking`: Event/deadline tracking related to FMC EMEA
 - `SDR-GO Live`: Label FMMs add to the SDR Request issue that notifies the SDR team that the issue has been completed and is ready to be worked by the SDRs. [SDR-GO Live Summary board.](https://gitlab.com/groups/gitlab-com/marketing/-/boards/2124068?&label_name[]=SDR-GO%20Live)
 
-For more information on how Field Marketing utilizes GitLab for agile project management, please visit [Marketing Project Management Guidelines](/handbook/marketing/#-marketing-project-management-guidelines).
+For more information on how Field Marketing utilizes GitLab for agile project management, please visit [Marketing Project Management Guidelines](/handbook/marketing/project-management-guidelines/).
 
 ## The Field Marketing Budget
 
@@ -1512,7 +1521,7 @@ Please make sure you have reviewed our company's [prepaid policy](/handbook/fina
 
 #### Signature Authority
 
-GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
+GitLab team members DO NOT have signature authority. This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
 
 #### Coupa Card Versus Navan Card
 
@@ -1951,7 +1960,7 @@ The purpose of the regional integrated micro-campaign is to build and drive a sp
 
 **For example:**
 
-- If you are planning a virtual Lunch & Learn and want to utilize LinkedIn InMail as well, those 2 account-centric tactics together make up a micro-campaign. However, if you are planning a Lunch & Learn on its own without any additional tactics, that is just considered an [Individual Tactic](/handbook/marketing/field-marketing/#individual-tactics).
+- If you are planning a virtual Lunch & Learn and want to utilize LinkedIn InMail as well, those 2 account-centric tactics together make up a micro-campaign. However, if you are planning a Lunch & Learn on its own without any additional tactics, that is just considered an individual tactic.
 
 ### What does Account-Centric mean?
 
