@@ -23,6 +23,11 @@ If you are attempting to search for a sub-group and not a top level group, you'l
 
 `/chatops run namespace minutes cutecat 10000`
 
+The number you use should be the total that `extra_shared_runners_minutes_limit` should be when you are done. For example, if the value of `extra_shared_runners_minutes_limit` is 1,337 and you want to add 1,000 additional minutes for the namespace `cutecat`, you want the value of `extra_shared_runners_minutes_limit` to be 2,337 when you are done. The command would look like this:
+
+`/chatops run namespace minutes cutecat 2337`
+
+
 ## User
 
 Uses the GitLab API for managing users.
